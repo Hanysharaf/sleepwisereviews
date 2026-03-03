@@ -1,0 +1,1113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SleepWiseReviews — Implementation Action Plan</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --ink: #111827;
+    --navy: #0F2040;
+    --gold: #C9921A;
+    --gold-light: #FEF3C7;
+    --blue: #1D4ED8;
+    --blue-light: #EFF6FF;
+    --green: #065F46;
+    --green-light: #D1FAE5;
+    --red: #991B1B;
+    --red-light: #FEE2E2;
+    --gray-50: #F9FAFB;
+    --gray-100: #F3F4F6;
+    --gray-200: #E5E7EB;
+    --gray-400: #9CA3AF;
+    --gray-600: #4B5563;
+    --gray-700: #374151;
+    --border: #D1D5DB;
+    --white: #FFFFFF;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Inter', sans-serif;
+    background: var(--gray-50);
+    color: var(--ink);
+    font-size: 13.5px;
+    line-height: 1.6;
+    padding: 0;
+  }
+
+  /* PRINT */
+  @media print {
+    body { background: white; font-size: 11px; }
+    .no-print { display: none; }
+    .page-break { page-break-before: always; }
+    .phase { break-inside: avoid; }
+  }
+
+  /* HEADER */
+  .doc-header {
+    background: var(--navy);
+    color: white;
+    padding: 28px 40px 24px;
+    border-bottom: 3px solid var(--gold);
+  }
+
+  .doc-header-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
+  }
+
+  .doc-title {
+    font-size: 22px;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    margin-bottom: 3px;
+  }
+
+  .doc-title span { color: var(--gold); }
+
+  .doc-sub {
+    font-size: 12px;
+    color: #94A3B8;
+    font-weight: 400;
+  }
+
+  .doc-meta {
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin-top: 16px;
+  }
+
+  .tag {
+    background: rgba(255,255,255,0.08);
+    border: 1px solid rgba(255,255,255,0.15);
+    color: #CBD5E1;
+    font-size: 11px;
+    padding: 3px 10px;
+    border-radius: 3px;
+    font-weight: 500;
+  }
+
+  .tag.gold { background: rgba(201,146,26,0.2); border-color: rgba(201,146,26,0.4); color: #FCD34D; }
+
+  /* CONTENT */
+  .content {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 28px 32px 60px;
+  }
+
+  /* OVERVIEW TABLE */
+  .overview-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 0;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 28px;
+    background: white;
+  }
+
+  .ov-cell {
+    padding: 14px 16px;
+    border-right: 1px solid var(--border);
+  }
+
+  .ov-cell:last-child { border-right: none; }
+
+  .ov-label { font-size: 10px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.06em; color: var(--gray-400); margin-bottom: 3px; }
+  .ov-val { font-size: 13px; font-weight: 600; color: var(--navy); }
+
+  /* FILES BOX */
+  .files-box {
+    background: white;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    overflow: hidden;
+    margin-bottom: 28px;
+  }
+
+  .files-header {
+    background: var(--gray-100);
+    padding: 10px 16px;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--gray-600);
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .files-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .file-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 9px 16px;
+    border-bottom: 1px solid var(--gray-100);
+    border-right: 1px solid var(--gray-100);
+  }
+
+  .file-item:nth-child(even) { border-right: none; }
+  .file-item:nth-last-child(-n+2) { border-bottom: none; }
+
+  .file-icon {
+    font-size: 16px;
+    width: 20px;
+    text-align: center;
+    flex-shrink: 0;
+  }
+
+  .file-name {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11.5px;
+    color: var(--navy);
+    font-weight: 500;
+  }
+
+  .file-desc {
+    font-size: 11px;
+    color: var(--gray-600);
+    margin-top: 1px;
+  }
+
+  .file-status {
+    margin-left: auto;
+    flex-shrink: 0;
+    font-size: 10px;
+    font-weight: 600;
+    padding: 2px 8px;
+    border-radius: 20px;
+  }
+
+  .status-ready { background: var(--green-light); color: var(--green); }
+  .status-ref { background: var(--blue-light); color: var(--blue); }
+
+  .path-note {
+    padding: 8px 16px;
+    background: var(--gold-light);
+    border-top: 1px solid #FDE68A;
+    font-size: 11px;
+    color: #78350F;
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+
+  .path-note code {
+    font-family: 'JetBrains Mono', monospace;
+    font-weight: 600;
+    font-size: 11px;
+  }
+
+  /* PHASE */
+  .phase {
+    background: white;
+    border: 1px solid var(--border);
+    border-radius: 8px;
+    margin-bottom: 20px;
+    overflow: hidden;
+  }
+
+  .phase-header {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 14px 18px;
+    border-bottom: 1px solid var(--border);
+    cursor: default;
+  }
+
+  .phase-num {
+    background: var(--navy);
+    color: var(--gold);
+    width: 32px;
+    height: 32px;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    font-weight: 700;
+    flex-shrink: 0;
+    font-family: 'JetBrains Mono', monospace;
+  }
+
+  .phase-info { flex: 1; }
+
+  .phase-name {
+    font-size: 15px;
+    font-weight: 700;
+    color: var(--navy);
+    line-height: 1.2;
+  }
+
+  .phase-tagline {
+    font-size: 11.5px;
+    color: var(--gray-600);
+    margin-top: 1px;
+  }
+
+  .phase-badge {
+    font-size: 11px;
+    font-weight: 600;
+    padding: 3px 10px;
+    border-radius: 20px;
+    white-space: nowrap;
+  }
+
+  .badge-day { background: var(--blue-light); color: var(--blue); }
+  .badge-ongoing { background: var(--green-light); color: var(--green); }
+  .badge-critical { background: var(--red-light); color: var(--red); }
+  .badge-wait { background: var(--gold-light); color: #78350F; }
+
+  .phase-body { padding: 0; }
+
+  /* STEPS */
+  .step {
+    display: flex;
+    gap: 0;
+    border-bottom: 1px solid var(--gray-100);
+    align-items: stretch;
+  }
+
+  .step:last-child { border-bottom: none; }
+
+  .step-num-col {
+    width: 44px;
+    flex-shrink: 0;
+    background: var(--gray-50);
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding-top: 12px;
+    border-right: 1px solid var(--gray-200);
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11px;
+    font-weight: 600;
+    color: var(--gray-400);
+  }
+
+  .step-content {
+    flex: 1;
+    padding: 11px 16px;
+  }
+
+  .step-action {
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--ink);
+    line-height: 1.5;
+  }
+
+  .step-action strong {
+    color: var(--navy);
+    font-weight: 700;
+  }
+
+  .step-note {
+    font-size: 11.5px;
+    color: var(--gray-600);
+    margin-top: 3px;
+    line-height: 1.5;
+  }
+
+  .step-check-col {
+    width: 36px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding-top: 12px;
+    border-left: 1px solid var(--gray-200);
+  }
+
+  .checkbox {
+    width: 16px;
+    height: 16px;
+    border: 1.5px solid var(--border);
+    border-radius: 3px;
+  }
+
+  /* WARNING / NOTE BOXES */
+  .notice {
+    margin: 0;
+    padding: 10px 16px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-top: 1px solid var(--border);
+    display: flex;
+    gap: 8px;
+    align-items: flex-start;
+  }
+
+  .notice.warn { background: var(--red-light); color: #7F1D1D; border-top-color: #FECACA; }
+  .notice.info { background: var(--blue-light); color: #1E3A5F; border-top-color: #BFDBFE; }
+  .notice.tip  { background: var(--gold-light); color: #78350F; border-top-color: #FDE68A; }
+  .notice.good { background: var(--green-light); color: #064E3B; border-top-color: #A7F3D0; }
+
+  .notice-icon { font-size: 14px; flex-shrink: 0; margin-top: 1px; }
+  .notice-text strong { font-weight: 700; }
+
+  code {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 11.5px;
+    background: rgba(0,0,0,0.06);
+    padding: 1px 5px;
+    border-radius: 3px;
+    color: var(--navy);
+    font-weight: 600;
+  }
+
+  /* WEEKLY TABLE */
+  .weekly-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 12.5px;
+  }
+
+  .weekly-table th {
+    background: var(--navy);
+    color: white;
+    padding: 8px 12px;
+    text-align: left;
+    font-size: 11px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+  }
+
+  .weekly-table td {
+    padding: 8px 12px;
+    border-bottom: 1px solid var(--gray-100);
+    vertical-align: middle;
+  }
+
+  .weekly-table tr:last-child td { border-bottom: none; }
+  .weekly-table tr:nth-child(even) td { background: var(--gray-50); }
+
+  .freq { font-size: 10px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.05em; padding: 2px 7px; border-radius: 3px; }
+  .freq.weekly { background: #DBEAFE; color: #1D4ED8; }
+  .freq.monthly { background: var(--gold-light); color: #78350F; }
+
+  /* INCOME TABLE */
+  .income-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 12.5px;
+  }
+  .income-table th { background: var(--navy); color: white; padding: 8px 12px; font-size: 11px; font-weight: 600; text-transform: uppercase; text-align: left; }
+  .income-table td { padding: 8px 12px; border-bottom: 1px solid var(--gray-100); }
+  .income-table tr:last-child td { border-bottom: none; }
+  .income-table tr:nth-child(even) td { background: var(--gray-50); }
+  .target-row td { background: var(--green-light) !important; font-weight: 600; color: var(--green); }
+
+  /* SECTION TITLE */
+  .section-title {
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: var(--gray-400);
+    margin: 28px 0 12px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .section-title::after {
+    content: '';
+    flex: 1;
+    height: 1px;
+    background: var(--gray-200);
+  }
+
+  /* FOOTER */
+  .doc-footer {
+    background: var(--navy);
+    color: #64748B;
+    text-align: center;
+    padding: 14px 32px;
+    font-size: 11px;
+    margin-top: 40px;
+  }
+
+  .doc-footer strong { color: #94A3B8; }
+
+  /* PRINT BUTTON */
+  .print-btn {
+    position: fixed;
+    bottom: 24px;
+    right: 24px;
+    background: var(--navy);
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-family: 'Inter', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+    transition: background 0.2s;
+    z-index: 100;
+  }
+
+  .print-btn:hover { background: #1E3A5F; }
+
+  @media (max-width: 680px) {
+    .content { padding: 16px; }
+    .overview-grid { grid-template-columns: 1fr 1fr; }
+    .files-grid { grid-template-columns: 1fr; }
+    .files-grid .file-item { border-right: none; }
+    .files-grid .file-item:nth-last-child(-n+2) { border-bottom: 1px solid var(--gray-100); }
+    .files-grid .file-item:last-child { border-bottom: none; }
+  }
+</style>
+</head>
+<body>
+
+<button class="print-btn no-print" onclick="window.print()">🖨 Print / Save PDF</button>
+
+<!-- HEADER -->
+<div class="doc-header">
+  <div class="doc-header-top">
+    <div>
+      <div class="doc-title">SleepWise<span>Reviews</span> — Action Plan</div>
+      <div class="doc-sub">Affiliate Blog Implementation · Handover to Coworker · February 2025</div>
+    </div>
+    <div style="text-align:right">
+      <div style="font-size:11px;color:#94A3B8;">Prepared by</div>
+      <div style="font-size:13px;font-weight:600;color:white;">Hany · Petroleum Air Services</div>
+    </div>
+  </div>
+  <div class="doc-meta">
+    <span class="tag">Blog: sleepwisereviews.blogspot.com</span>
+    <span class="tag">Author: Harry Soul</span>
+    <span class="tag gold">Target: $100–$1,000/month passive income</span>
+    <span class="tag">Platform: Blogger (free)</span>
+    <span class="tag">Payment: Payoneer</span>
+  </div>
+</div>
+
+<div class="content">
+
+  <!-- OVERVIEW -->
+  <div class="overview-grid">
+    <div class="ov-cell">
+      <div class="ov-label">Total Phases</div>
+      <div class="ov-val">7 Phases</div>
+    </div>
+    <div class="ov-cell">
+      <div class="ov-label">Days to Go-Live</div>
+      <div class="ov-val">7 Days</div>
+    </div>
+    <div class="ov-cell">
+      <div class="ov-label">Files Ready</div>
+      <div class="ov-val">6 HTML Files ✅</div>
+    </div>
+    <div class="ov-cell">
+      <div class="ov-label">First Commission</div>
+      <div class="ov-val">3–6 Weeks</div>
+    </div>
+  </div>
+
+  <!-- FILES -->
+  <div class="files-box">
+    <div class="files-header">
+      <span>📁 Files to Upload — All in OneDrive: <code>Projects\SleepReviewes\</code></span>
+    </div>
+    <div class="files-grid">
+      <div class="file-item">
+        <div class="file-icon">🏠</div>
+        <div>
+          <div class="file-name">index.html</div>
+          <div class="file-desc">Homepage — goes into Blogger Theme HTML</div>
+        </div>
+        <div class="file-status status-ready">Upload</div>
+      </div>
+      <div class="file-item">
+        <div class="file-icon">👤</div>
+        <div>
+          <div class="file-name">about.html</div>
+          <div class="file-desc">About Harry Soul — Blogger Page</div>
+        </div>
+        <div class="file-status status-ready">Upload</div>
+      </div>
+      <div class="file-item">
+        <div class="file-icon">📝</div>
+        <div>
+          <div class="file-name">article-weighted-blanket.html</div>
+          <div class="file-desc">Article #1 — Blogger Post</div>
+        </div>
+        <div class="file-status status-ready">Upload</div>
+      </div>
+      <div class="file-item">
+        <div class="file-icon">📝</div>
+        <div>
+          <div class="file-name">article-magnesium-sleep.html</div>
+          <div class="file-desc">Article #2 — Blogger Post</div>
+        </div>
+        <div class="file-status status-ready">Upload</div>
+      </div>
+      <div class="file-item">
+        <div class="file-icon">⚖️</div>
+        <div>
+          <div class="file-name">affiliate-disclosure.html</div>
+          <div class="file-desc">Legal page — Blogger Page</div>
+        </div>
+        <div class="file-status status-ready">Upload</div>
+      </div>
+      <div class="file-item">
+        <div class="file-icon">🔒</div>
+        <div>
+          <div class="file-name">privacy-policy.html</div>
+          <div class="file-desc">Legal page — Blogger Page</div>
+        </div>
+        <div class="file-status status-ready">Upload</div>
+      </div>
+    </div>
+    <div class="path-note">
+      ⚠️ <strong>After Amazon approval:</strong> open all 4 article/homepage HTML files in Notepad++ → Find & Replace <code>YOUR-AFFILIATE-TAG</code> with your real Amazon tag (e.g. <code>sleepwisereviews-20</code>) → re-upload.
+    </div>
+  </div>
+
+  <!-- ============================================================ -->
+  <div class="section-title">Implementation Phases</div>
+
+  <!-- PHASE 1 -->
+  <div class="phase">
+    <div class="phase-header">
+      <div class="phase-num">1</div>
+      <div class="phase-info">
+        <div class="phase-name">BLOGGER SETUP — Build the Live Website</div>
+        <div class="phase-tagline">Create the blog and upload all HTML files so the site is live on the internet</div>
+      </div>
+      <div class="phase-badge badge-day">Day 1</div>
+    </div>
+    <div class="phase-body">
+      <div class="step">
+        <div class="step-num-col">01</div>
+        <div class="step-content">
+          <div class="step-action">Go to <strong>blogger.com</strong> → sign in with a Google account → click <strong>"New Blog"</strong></div>
+          <div class="step-note">Use an existing Gmail account or create a new one dedicated to this project</div>
+        </div>
+        <div class="step-check-col"><div class="checkbox"></div></div>
+      </div>
+      <div class="step">
+        <div class="step-num-col">02</div>
+        <div class="step-content">
+          <div class="step-action">Blog name: <strong>SleepWiseReviews</strong> · URL: type <strong>sleepwisereviews</strong> → check availability → Create</div>
+          <div class="step-note">Final URL will be: <code>sleepwisereviews.blogspot.com</code> — if taken, try <code>sleepwisereview</code></div>
+        </div>
+        <div class="step-check-col"><div class="checkbox"></div></div>
+      </div>
+      <div class="step">
+        <div class="step-num-col">03</div>
+        <div class="step-content">
+          <div class="step-action">Left menu → <strong>Theme</strong> → top right button <strong>"Edit HTML"</strong> → select all code → delete it → paste the entire contents of <code>index.html</code></div>
+          <div class="step-note">This replaces the default template with our custom homepage design. Save.</div>
+        </div>
+        <div class="step-check-col"><div class="checkbox"></div></div>
+      </div>
+      <div class="step">
+        <div class="step-num-col">04</div>
+        <div class="step-content">
+          <div class="step-action">Left menu → <strong>Pages</strong> → <strong>New page</strong> → title: <strong>About</strong> → click the pencil icon to switch to <strong>HTML view</strong> → paste entire <code>about.html</code> → Publish</div>
+        </div>
+        <div class="step-check-col"><div class="checkbox"></div></div>
+      </div>
+      <div class="step">
+        <div class="step-num-col">05</div>
+        <div class="step-content">
+          <div class="step-action">Repeat step 04 for: title <strong>Affiliate Disclosure</strong> → paste <code>affiliate-disclosure.html</code> → Publish</div>
+        </div>
+        <div class="step-check-col"><div class="checkbox"></div></div>
+      </div>
+      <div class="step">
+        <div class="step-num-col">06</div>
+        <div class="step-content">
+          <div class="step-action">Repeat step 04 for: title <strong>Privacy Policy</strong> → paste <code>privacy-policy.html</code> → Publish</div>
+        </div>
+        <div class="step-check-col"><div class="checkbox"></div></div>
+      </div>
+      <div class="step">
+        <div class="step-num-col">07</div>
+        <div class="step-content">
+          <div class="step-action">Left menu → <strong>Posts</strong> → <strong>New post</strong> → title: <strong>7 Best Weighted Blankets</strong> → switch to <strong>HTML view</strong> → paste <code>article-weighted-blanket.html</code> → Publish</div>
+        </div>
+        <div class="step-check-col"><div class="checkbox"></div></div>
+      </div>
+      <div class="step">
+        <div class="step-num-col">08</div>
+        <div class="step-content">
+          <div class="step-action">Repeat step 07: title <strong>Best Magnesium for Sleep</strong> → paste <code>article-magnesium-sleep.html</code> → Publish</div>
+        </div>
+        <div class="step-check-col"><div class="checkbox"></div></div>
+      </div>
+      <div class="step">
+        <div class="step-num-col">09</div>
+        <div class="step-content">
+          <div class="step-action">Open <code>sleepwisereviews.blogspot.com</code> in a browser → verify homepage loads, both articles are accessible, all pages visible</div>
+          <div class="step-note">Test on mobile too. Take a screenshot as confirmation.</div>
+        </div>
+        <div class="step-check-col"><div class="checkbox"></div></div>
+      </div>
+    </div>
+    <div class="notice good">
+      <span class="notice-icon">✅</span>
+      <span class="notice-text"><strong>Phase 1 Done When:</strong> You can visit sleepwisereviews.blogspot.com and see the dark homepage with gold accents, two articles loading, and three pages accessible from the footer.</span>
+    </div>
+  </div>
+
+  <!-- PHASE 2 -->
+  <div class="phase">
+    <div class="phase-header">
+      <div class="phase-num">2</div>
+      <div class="phase-info">
+        <div class="phase-name">PAYONEER — Confirm Payment Setup</div>
+        <div class="phase-tagline">Get US bank account details required for Amazon Associates registration</div>
+      </div>
+      <div class="phase-badge badge-day">Day 2</div>
+    </div>
+    <div class="phase-body">
+      <div class="step">
+        <div class="step-num-col">01</div>
+        <div class="step-content">
+          <div class="step-action">Log in to <strong>payoneer.com</strong> with your existing account</div>
+        </div>
+        <div class="step-check-col"><div class="checkbox"></div></div>
+      </div>
+      <div class="step">
+        <div class="step-num-col">02</div>
+        <div class="step-content">
+          <div class="step-action">Navigate to: <strong>Receive Payments → Global Payment Service → US Payment Account</strong></div>
+          <div class="step-note">This section gives you a US routing number + account number — like having a US bank account</div>
+        </div>
+        <div class="step-check-col"><div class="checkbox"></div></div>
+      </div>
+      <div class="step">
+        <div class="step-num-col">03</div>
+        <div class="step-content">
+          <div class="step-action">Copy and save in a secure note: <strong>Bank Name, Routing Number, Account Number</strong></div>
+          <div class="step-note">These 3 values are required when registering for Amazon Associates in Phase 3</div>
+        </div>
+        <div class="step-check-col"><div class="checkbox"></div></div>
+      </div>
+    </div>
+    <div class="notice info">
+      <span class="notice-icon">ℹ️</span>
+      <span class="notice-text"><strong>Note:</strong> If the Payoneer account is already verified and you have the US bank details saved, this phase takes under 5 minutes. Verify identity documents are approved if not already done.</span>
+    </div>
+  </div>
+
+  <!-- PHASE 3 -->
+  <div class="phase">
+    <div class="phase-header">
+      <div class="phase-num">3</div>
+      <div class="phase-info">
+        <div class="phase-name">AMAZON ASSOCIATES — Get Affiliate Links</div>
+        <div class="phase-tagline">Apply to Amazon's affiliate program, get your tracking ID, then update all HTML files</div>
+      </div>
+      <div class="phase-badge badge-critical">Critical — Do Phase 1 First</div>
+    </div>
+    <div class="phase-body">
+      <div class="step">
+        <div class="step-num-col">01</div>
+        <div class="step-content">
+          <div class="step-action">Go to <strong>affiliate-program.amazon.com</strong> → click <strong>"Join Now for Free"</strong></div>
+          <div class="step-note">Sign in with an Amazon.com account (US Amazon). Create one if needed.</div>
+        </div>
+        <div class="step-check-col"><div class="checkbox"></div></div>
+      </div>
+      <div class="step">
+        <div class="step-num-col">02</div>
+        <div class="step-content">
+          <div class="step-action">Account info: fill name, address → Website URL: <strong>https://sleepwisereviews.blogspot.com</strong></div>
+        </div>
+        <div class="step-check-col"><div class="checkbox"></div></div>
+      </div>
+      <div class="step">
+        <div class="step-num-col">03</div>
+        <div class="step-content">
+          <div class="step-action">Traffic sources: select <strong>Search Engines</strong> + <strong>Social Networks</strong> → Monetization: <strong>Affiliate links</strong></div>
+        </div>
+        <div class="step-check-col"><div class="checkbox"></div></div>
+      </div>
+      <div class="step">
+        <div class="step-num-col">04</div>
+        <div class="step-content">
+          <div class="step-action">Payment method: <strong>US Bank Account (Direct Deposit)</strong> → enter the 3 Payoneer values from Phase 2</div>
+          <div class="step-note">Bank name, Routing number, Account number — from your Payoneer US payment account</div>
+        </div>
+        <div class="step-check-col"><div class="checkbox"></div></div>
+      </div>
+      <div class="step">
+        <div class="step-num-col">05</div>
+        <div class="step-content">
+          <div class="step-action">Complete the <strong>W-8BEN tax form</strong> (for non-US residents) — takes about 5 minutes. Enter your name, country (Egypt), tax ID if available</div>
+        </div>
+        <div class="step-check-col"><div class="checkbox"></div></div>
+      </div>
+      <div class="step">
+        <div class="step-num-col">06</div>
+        <div class="step-content">
+          <div class="step-action">Submit application → wait for approval email (usually instant or within 24 hours)</div>
+        </div>
+        <div class="step-check-col"><div class="checkbox"></div></div>
+      </div>
+      <div class="step">
+        <div class="step-num-col">07</div>
+        <div class="step-content">
+          <div class="step-action">After approval: go to <strong>Associates Central → Account Settings</strong> → copy your <strong>Tracking ID</strong> (example: <code>sleepwisereviews-20</code>)</div>
+        </div>
+        <div class="step-check-col"><div class="checkbox"></div></div>
+      </div>
+      <div class="step">
+        <div class="step-num-col">08</div>
+        <div class="step-content">
+          <div class="step-action">Open <strong>Notepad++</strong> (or VS Code) → open each of the 4 files: <code>index.html</code>, <code>article-weighted-blanket.html</code>, <code>article-magnesium-sleep.html</code></div>
+          <div class="step-note">In each file: Edit → Find & Replace → Find: <code>YOUR-AFFILIATE-TAG</code> → Replace with your actual tracking ID → Replace All → Save</div>
+        </div>
+        <div class="step-check-col"><div class="checkbox"></div></div>
+      </div>
+      <div class="step">
+        <div class="step-num-col">09</div>
+        <div class="step-content">
+          <div class="step-action">Re-upload the updated HTML files to Blogger (repeat Phase 1 steps 03, 07, 08 with the new files)</div>
+        </div>
+        <div class="step-check-col"><div class="checkbox"></div></div>
+      </div>
+    </div>
+    <div class="notice warn">
+      <span class="notice-icon">⚠️</span>
+      <span class="notice-text"><strong>Critical:</strong> Amazon requires 3 qualifying sales within 180 days of approval. If no sales occur, the account closes. Pinterest traffic from Phase 5 drives these first sales. Complete Phase 5 quickly after this.</span>
+    </div>
+  </div>
+
+  <!-- PHASE 4 -->
+  <div class="phase">
+    <div class="phase-header">
+      <div class="phase-num">4</div>
+      <div class="phase-info">
+        <div class="phase-name">CLICKBANK — High-Commission Affiliate Links</div>
+        <div class="phase-tagline">Register instantly and add ClickBank links to earn 40–75% commission per sale</div>
+      </div>
+      <div class="phase-badge badge-day">Day 4</div>
+    </div>
+    <div class="phase-body">
+      <div class="step">
+        <div class="step-num-col">01</div>
+        <div class="step-content">
+          <div class="step-action">Go to <strong>clickbank.com</strong> → <strong>Create Account</strong> → fill name, email, country → activate (instant)</div>
+        </div>
+        <div class="step-check-col"><div class="checkbox"></div></div>
+      </div>
+      <div class="step">
+        <div class="step-num-col">02</div>
+        <div class="step-content">
+          <div class="step-action">Top menu → <strong>Marketplace</strong> → search: <code>sleep</code> → filter by: <strong>Gravity 30+</strong></div>
+          <div class="step-note">Higher gravity = more affiliates making sales = proven product that converts</div>
+        </div>
+        <div class="step-check-col"><div class="checkbox"></div></div>
+      </div>
+      <div class="step">
+        <div class="step-num-col">03</div>
+        <div class="step-content">
+          <div class="step-action">Find and click <strong>Promote</strong> on these products: <strong>Resurge</strong> (sleep supplement, ~75% commission) and <strong>Magnesium Breakthrough</strong> (~40% commission)</div>
+          <div class="step-note">Each generates a "HopLink" — this is your affiliate link for that product</div>
+        </div>
+        <div class="step-check-col"><div class="checkbox"></div></div>
+      </div>
+      <div class="step">
+        <div class="step-num-col">04</div>
+        <div class="step-content">
+          <div class="step-action">In the magnesium article (<code>article-magnesium-sleep.html</code>), add the <strong>Magnesium Breakthrough HopLink</strong> as an extra "Check Best Price" button at the bottom of the BiOptimizers product card</div>
+          <div class="step-note">Do not replace the Amazon links — add the ClickBank link alongside as a second option</div>
+        </div>
+        <div class="step-check-col"><div class="checkbox"></div></div>
+      </div>
+      <div class="step">
+        <div class="step-num-col">05</div>
+        <div class="step-content">
+          <div class="step-action">In Blogger Settings → <strong>Payment account</strong>: enter your Payoneer email address to receive ClickBank payments</div>
+          <div class="step-note">ClickBank pays $10 minimum threshold. Direct deposit to Payoneer takes 2–3 business days</div>
+        </div>
+        <div class="step-check-col"><div class="checkbox"></div></div>
+      </div>
+    </div>
+    <div class="notice tip">
+      <span class="notice-icon">💡</span>
+      <span class="notice-text"><strong>Why ClickBank?</strong> One ClickBank sale of Resurge (~$40 product at 75%) earns $30. That equals 12-15 Amazon sales combined. Prioritize adding ClickBank links to high-traffic articles.</span>
+    </div>
+  </div>
+
+  <!-- PHASE 5 -->
+  <div class="phase">
+    <div class="phase-header">
+      <div class="phase-num">5</div>
+      <div class="phase-info">
+        <div class="phase-name">PINTEREST — Traffic Engine Setup</div>
+        <div class="phase-tagline">Build the primary traffic source — Pinterest pins compound over time and drive US buyers to the blog</div>
+      </div>
+      <div class="phase-badge badge-day">Day 5</div>
+    </div>
+    <div class="phase-body">
+      <div class="step">
+        <div class="step-num-col">01</div>
+        <div class="step-content">
+          <div class="step-action">Go to <strong>pinterest.com</strong> → <strong>Create a Business Account</strong> (free) → profile name: <strong>SleepWiseReviews</strong> · username: <strong>@sleepwisereviews</strong></div>
+          <div class="step-note">Must be a Business account (not Personal) to see analytics and verify website</div>
+        </div>
+        <div class="step-check-col"><div class="checkbox"></div></div>
+      </div>
+      <div class="step">
+        <div class="step-num-col">02</div>
+        <div class="step-content">
+          <div class="step-action">Claim your website: Settings → <strong>Claim</strong> → enter <code>sleepwisereviews.blogspot.com</code> → follow verification steps (adds an HTML tag to Blogger)</div>
+        </div>
+        <div class="step-check-col"><div class="checkbox"></div></div>
+      </div>
+      <div class="step">
+        <div class="step-num-col">03</div>
+        <div class="step-content">
+          <div class="step-action">Create 3 Boards (public): <strong>"Best Sleep Products 2025"</strong> · <strong>"Sleep Better Tonight"</strong> · <strong>"Natural Sleep Remedies"</strong></div>
+        </div>
+        <div class="step-check-col"><div class="checkbox"></div></div>
+      </div>
+      <div class="step">
+        <div class="step-num-col">04</div>
+        <div class="step-content">
+          <div class="step-action">Go to <strong>canva.com</strong> (free) → New design → <strong>Pinterest Pin</strong> (1000×1500px) → dark navy background <code>#0A0E1A</code> → gold text <code>#C9A84C</code> → use a bed image from <strong>unsplash.com</strong></div>
+          <div class="step-note">Keep the visual style matching the website — dark luxury theme, gold accents</div>
+        </div>
+        <div class="step-check-col"><div class="checkbox"></div></div>
+      </div>
+      <div class="step">
+        <div class="step-num-col">05</div>
+        <div class="step-content">
+          <div class="step-action">Create and post <strong>5 pins</strong> for the weighted blanket article — use the pin text from <code>launch-guide.md</code> Part 1 (5 ready-made descriptions with hashtags)</div>
+          <div class="step-note">Each pin must link to: <code>https://sleepwisereviews.blogspot.com</code> + the article URL</div>
+        </div>
+        <div class="step-check-col"><div class="checkbox"></div></div>
+      </div>
+      <div class="step">
+        <div class="step-num-col">06</div>
+        <div class="step-content">
+          <div class="step-action">Post <strong>1–2 pins per day</strong> (not all at once) — spread across the week to signal active account to Pinterest algorithm</div>
+        </div>
+        <div class="step-check-col"><div class="checkbox"></div></div>
+      </div>
+    </div>
+    <div class="notice tip">
+      <span class="notice-icon">📌</span>
+      <span class="notice-text"><strong>Pinterest is the fastest route to Month 1 income.</strong> US buyers search Pinterest for product reviews. Pins get indexed in 24–48 hours. Each new article → 5 new pins → compounding traffic. Month 1: 50–200 visits. Month 5+: 1,000–2,500 visits.</span>
+    </div>
+  </div>
+
+  <!-- PHASE 6 -->
+  <div class="phase">
+    <div class="phase-header">
+      <div class="phase-num">6</div>
+      <div class="phase-info">
+        <div class="phase-name">BREVO EMAIL — Capture & Monetize Subscribers</div>
+        <div class="phase-tagline">Set up free email capture so visitors become subscribers you can email repeatedly</div>
+      </div>
+      <div class="phase-badge badge-day">Day 6</div>
+    </div>
+    <div class="phase-body">
+      <div class="step">
+        <div class="step-num-col">01</div>
+        <div class="step-content">
+          <div class="step-action">Go to <strong>brevo.com</strong> → <strong>Sign Up Free</strong> (300 emails/day free forever)</div>
+        </div>
+        <div class="step-check-col"><div class="checkbox"></div></div>
+      </div>
+      <div class="step">
+        <div class="step-num-col">02</div>
+        <div class="step-content">
+          <div class="step-action">Contacts → <strong>Lists</strong> → <strong>Create a List</strong> → name: <strong>SleepWiseReviews Subscribers</strong></div>
+        </div>
+        <div class="step-check-col"><div class="checkbox"></div></div>
+      </div>
+      <div class="step">
+        <div class="step-num-col">03</div>
+        <div class="step-content">
+          <div class="step-action">Automation → <strong>Create an Automation</strong> → Trigger: <strong>Contact added to a list</strong> → select your subscriber list → Add step: <strong>Send Email</strong></div>
+        </div>
+        <div class="step-check-col"><div class="checkbox"></div></div>
+      </div>
+      <div class="step">
+        <div class="step-num-col">04</div>
+        <div class="step-content">
+          <div class="step-action">Email subject: <code>Your Free 7-Day Sleep Reset is Here 🌙</code> → email body: copy the welcome email template from <code>launch-guide.md</code> Part 4</div>
+        </div>
+        <div class="step-check-col"><div class="checkbox"></div></div>
+      </div>
+      <div class="step">
+        <div class="step-num-col">05</div>
+        <div class="step-content">
+          <div class="step-action">Brevo → <strong>Forms</strong> → <strong>Subscription Forms</strong> → Create form → connect to subscriber list → get the <strong>Embed Code</strong></div>
+        </div>
+        <div class="step-check-col"><div class="checkbox"></div></div>
+      </div>
+      <div class="step">
+        <div class="step-num-col">06</div>
+        <div class="step-content">
+          <div class="step-action">In <code>index.html</code>: find the <code>&lt;form onsubmit="return false;"&gt;</code> block → replace it with the Brevo embed code → save → re-upload to Blogger Theme HTML</div>
+        </div>
+        <div class="step-check-col"><div class="checkbox"></div></div>
+      </div>
+    </div>
+    <div class="notice info">
+      <span class="notice-icon">📧</span>
+      <span class="notice-text"><strong>Why this matters:</strong> Every subscriber you collect can be emailed weekly with affiliate recommendations. 500 subscribers × 2% click-to-buy × $4 average commission = $40 extra per email. Email list is your most valuable long-term asset.</span>
+    </div>
+  </div>
+
+  <!-- PHASE 7 -->
+  <div class="phase">
+    <div class="phase-header">
+      <div class="phase-num">7</div>
+      <div class="phase-info">
+        <div class="phase-name">WEEKLY OPERATIONS — Keep the Engine Running</div>
+        <div class="phase-tagline">Simple repeating tasks every week to grow traffic and income — takes 1–2 hours/week total</div>
+      </div>
+      <div class="phase-badge badge-ongoing">Every Week</div>
+    </div>
+    <div class="phase-body" style="padding: 16px;">
+      <table class="weekly-table">
+        <thead>
+          <tr>
+            <th style="width:90px">Frequency</th>
+            <th>Task</th>
+            <th style="width:100px">Time</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><span class="freq weekly">Weekly</span></td>
+            <td>Write 1 new article (next topic from content calendar below) — use Claude prompt from <code>launch-guide.md</code> Part 5</td>
+            <td>30–40 min</td>
+          </tr>
+          <tr>
+            <td><span class="freq weekly">Weekly</span></td>
+            <td>Create 5 Pinterest pins for the new article in Canva → post 1–2 per day across the week</td>
+            <td>20–30 min</td>
+          </tr>
+          <tr>
+            <td><span class="freq monthly">Monthly</span></td>
+            <td>Check Amazon Associates dashboard → identify top-clicked products → write a dedicated article for that product</td>
+            <td>15 min</td>
+          </tr>
+          <tr>
+            <td><span class="freq monthly">Monthly</span></td>
+            <td>Update old articles with current prices and any new product releases in that category</td>
+            <td>20 min</td>
+          </tr>
+          <tr>
+            <td><span class="freq monthly">Monthly</span></td>
+            <td>Check ClickBank Marketplace for new high-converting sleep products to add to existing articles</td>
+            <td>15 min</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="notice tip">
+      <span class="notice-icon">📅</span>
+      <span class="notice-text"><strong>Next 10 articles (use in order):</strong> White Noise Machines → Sleep Trackers → Blackout Curtains → Sleep Masks → Cooling Pillows → Natural Sleep Supplements → Sunrise Alarm Clocks → Why You Wake at 3am → Oura Ring Review → Ultimate Sleep Guide</span>
+    </div>
+  </div>
+
+  <!-- INCOME TABLE -->
+  <div class="section-title">Expected Income Timeline</div>
+
+  <div style="background:white;border:1px solid var(--border);border-radius:8px;overflow:hidden;margin-bottom:28px;">
+    <table class="income-table">
+      <thead>
+        <tr>
+          <th>Period</th>
+          <th>Monthly Visits</th>
+          <th>Est. Monthly Income</th>
+          <th>Milestone</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Month 1–2</td>
+          <td>50 – 200</td>
+          <td>$0 – $15</td>
+          <td>Site live, Amazon approved</td>
+        </tr>
+        <tr>
+          <td>Month 3–4</td>
+          <td>300 – 800</td>
+          <td>$20 – $60</td>
+          <td>First commissions received</td>
+        </tr>
+        <tr class="target-row">
+          <td>Month 5–6</td>
+          <td>1,000 – 2,500</td>
+          <td>$80 – $150</td>
+          <td>🏆 $100/month Target Achieved</td>
+        </tr>
+        <tr>
+          <td>Month 7–9</td>
+          <td>3,000 – 6,000</td>
+          <td>$200 – $400</td>
+          <td>Add ShareASale premium brands</td>
+        </tr>
+        <tr>
+          <td>Month 10–12</td>
+          <td>6,000 – 15,000</td>
+          <td>$400 – $1,000+</td>
+          <td>Consider custom domain + VA</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- GO LIVE CHECKLIST -->
+  <div class="section-title">Go-Live Checklist — Sign Off Each Item</div>
+
+  <div class="phase" style="margin-bottom:28px;">
+    <div class="phase-body">
+      <div class="step"><div class="step-num-col">☐</div><div class="step-content"><div class="step-action">Phase 1: Blogger blog created at <code>sleepwisereviews.blogspot.com</code></div></div></div>
+      <div class="step"><div class="step-num-col">☐</div><div class="step-content"><div class="step-action">Phase 1: All 6 HTML files uploaded (homepage + 4 pages + 2 posts)</div></div></div>
+      <div class="step"><div class="step-num-col">☐</div><div class="step-content"><div class="step-action">Phase 1: Site verified working on browser — all links functional</div></div></div>
+      <div class="step"><div class="step-num-col">☐</div><div class="step-content"><div class="step-action">Phase 2: Payoneer US routing + account numbers saved securely</div></div></div>
+      <div class="step"><div class="step-num-col">☐</div><div class="step-content"><div class="step-action">Phase 3: Amazon Associates application submitted</div></div></div>
+      <div class="step"><div class="step-num-col">☐</div><div class="step-content"><div class="step-action">Phase 3: Amazon approved — Tracking ID copied</div></div></div>
+      <div class="step"><div class="step-num-col">☐</div><div class="step-content"><div class="step-action">Phase 3: <code>YOUR-AFFILIATE-TAG</code> replaced in all files + files re-uploaded</div></div></div>
+      <div class="step"><div class="step-num-col">☐</div><div class="step-content"><div class="step-action">Phase 4: ClickBank account created — HopLinks for 2 products generated</div></div></div>
+      <div class="step"><div class="step-num-col">☐</div><div class="step-content"><div class="step-action">Phase 5: Pinterest Business account created + website claimed</div></div></div>
+      <div class="step"><div class="step-num-col">☐</div><div class="step-content"><div class="step-action">Phase 5: 3 boards created + first 5 pins posted</div></div></div>
+      <div class="step"><div class="step-num-col">☐</div><div class="step-content"><div class="step-action">Phase 6: Brevo account created + subscriber list + welcome automation live</div></div></div>
+      <div class="step" style="border-bottom:none;"><div class="step-num-col">☐</div><div class="step-content"><div class="step-action">Phase 6: Brevo form embedded in <code>index.html</code> + re-uploaded</div></div></div>
+    </div>
+  </div>
+
+</div>
+
+<!-- FOOTER -->
+<div class="doc-footer">
+  <strong>SleepWiseReviews</strong> · Implementation Handover · Prepared by Hany · Petroleum Air Services · February 2025 ·
+  All HTML files ready in <code>OneDrive: Projects\SleepReviewes\</code>
+</div>
+
+</body>
+</html>

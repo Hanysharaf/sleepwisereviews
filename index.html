@@ -1,0 +1,1359 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SleepWiseReviews – Honest Reviews for Better Sleep</title>
+  <meta name="description"
+    content="Expert-tested sleep products, science-backed tips, and honest reviews to help you fall asleep faster, sleep deeper, and wake up energized." />
+  <meta name="keywords"
+    content="best sleep products, sleep reviews, weighted blanket, sleep tracker, magnesium for sleep, white noise machine" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Outfit:wght@300;400;500;600&display=swap"
+    rel="stylesheet" />
+  <style type='text/css'>
+    :root {
+      --night: #0A0E1A;
+      --deep: #0F1525;
+      --navy: #141B30;
+      --card: #1A2238;
+      --border: #252D45;
+      --gold: #C9A84C;
+      --gold-light: #E5C96A;
+      --gold-dim: rgba(201, 168, 76, 0.15);
+      --star: #F0E6C8;
+      --text: #D4DCEE;
+      --muted: #7A85A0;
+      --white: #FFFFFF;
+      --green: #4CAF82;
+    }
+
+    *,
+    *::before,
+    *::after {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'Outfit', sans-serif;
+      background: var(--night);
+      color: var(--text);
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+
+    /* STARS BACKGROUND */
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      background-image:
+        radial-gradient(1px 1px at 10% 15%, rgba(240, 230, 200, 0.6) 0%, transparent 100%),
+        radial-gradient(1px 1px at 25% 40%, rgba(240, 230, 200, 0.4) 0%, transparent 100%),
+        radial-gradient(1.5px 1.5px at 40% 10%, rgba(240, 230, 200, 0.5) 0%, transparent 100%),
+        radial-gradient(1px 1px at 55% 30%, rgba(240, 230, 200, 0.3) 0%, transparent 100%),
+        radial-gradient(1px 1px at 70% 5%, rgba(240, 230, 200, 0.6) 0%, transparent 100%),
+        radial-gradient(1.5px 1.5px at 80% 20%, rgba(240, 230, 200, 0.4) 0%, transparent 100%),
+        radial-gradient(1px 1px at 90% 45%, rgba(240, 230, 200, 0.3) 0%, transparent 100%),
+        radial-gradient(1px 1px at 15% 70%, rgba(240, 230, 200, 0.2) 0%, transparent 100%),
+        radial-gradient(1px 1px at 60% 80%, rgba(240, 230, 200, 0.3) 0%, transparent 100%),
+        radial-gradient(1px 1px at 35% 90%, rgba(240, 230, 200, 0.2) 0%, transparent 100%);
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    /* NAV */
+    nav {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(10, 14, 26, 0.92);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+      padding: 0 6%;
+      height: 68px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .logo {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.6rem;
+      font-weight: 700;
+      color: var(--star);
+      text-decoration: none;
+      letter-spacing: 0.02em;
+    }
+
+    .logo span {
+      color: var(--gold);
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 2rem;
+      list-style: none;
+    }
+
+    .nav-links a {
+      text-decoration: none;
+      color: var(--muted);
+      font-size: 0.88rem;
+      font-weight: 500;
+      letter-spacing: 0.03em;
+      transition: color 0.2s;
+    }
+
+    .nav-links a:hover {
+      color: var(--gold);
+    }
+
+    .nav-cta {
+      background: var(--gold-dim);
+      color: var(--gold) !important;
+      border: 1px solid rgba(201, 168, 76, 0.3);
+      padding: 7px 16px;
+      border-radius: 4px;
+      transition: background 0.2s !important;
+    }
+
+    .nav-cta:hover {
+      background: rgba(201, 168, 76, 0.25) !important;
+    }
+
+    /* HERO */
+    .hero {
+      position: relative;
+      padding: 110px 6% 120px;
+      overflow: hidden;
+      z-index: 1;
+    }
+
+    .hero::after {
+      content: '';
+      position: absolute;
+      top: -200px;
+      right: -200px;
+      width: 700px;
+      height: 700px;
+      background: radial-gradient(circle, rgba(201, 168, 76, 0.06) 0%, transparent 65%);
+      pointer-events: none;
+    }
+
+    .hero-moon {
+      position: absolute;
+      top: 40px;
+      right: 8%;
+      width: 180px;
+      height: 180px;
+      border-radius: 50%;
+      background: radial-gradient(circle at 35% 40%, #FFF8E7, #E5C96A 40%, #C9A84C 70%, #8B6914);
+      box-shadow: 0 0 60px rgba(201, 168, 76, 0.3), 0 0 120px rgba(201, 168, 76, 0.1);
+      opacity: 0.85;
+    }
+
+    .hero-eyebrow {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      color: var(--gold);
+      font-size: 0.78rem;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      margin-bottom: 1.5rem;
+    }
+
+    .hero-eyebrow::before {
+      content: '';
+      display: block;
+      width: 24px;
+      height: 1px;
+      background: var(--gold);
+    }
+
+    .hero h1 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(3rem, 6vw, 5.5rem);
+      font-weight: 600;
+      color: var(--star);
+      line-height: 1.1;
+      max-width: 700px;
+      margin-bottom: 1.5rem;
+    }
+
+    .hero h1 em {
+      font-style: italic;
+      color: var(--gold);
+    }
+
+    .hero-sub {
+      color: var(--muted);
+      font-size: 1.05rem;
+      max-width: 500px;
+      margin-bottom: 2.5rem;
+      font-weight: 300;
+      line-height: 1.7;
+    }
+
+    .hero-actions {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+
+    .btn-primary {
+      background: var(--gold);
+      color: var(--night);
+      padding: 14px 28px;
+      border-radius: 4px;
+      text-decoration: none;
+      font-weight: 600;
+      font-size: 0.9rem;
+      letter-spacing: 0.02em;
+      transition: background 0.2s, transform 0.2s;
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+
+    .btn-primary:hover {
+      background: var(--gold-light);
+      transform: translateY(-2px);
+    }
+
+    .btn-secondary {
+      border: 1px solid var(--border);
+      color: var(--text);
+      padding: 14px 28px;
+      border-radius: 4px;
+      text-decoration: none;
+      font-weight: 500;
+      font-size: 0.9rem;
+      transition: border-color 0.2s, color 0.2s;
+    }
+
+    .btn-secondary:hover {
+      border-color: var(--gold);
+      color: var(--gold);
+    }
+
+    .hero-trust {
+      display: flex;
+      gap: 2.5rem;
+      margin-top: 3.5rem;
+      padding-top: 2.5rem;
+      border-top: 1px solid var(--border);
+    }
+
+    .trust-item {
+      text-align: left;
+    }
+
+    .trust-num {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 2rem;
+      font-weight: 700;
+      color: var(--star);
+      line-height: 1;
+    }
+
+    .trust-label {
+      font-size: 0.75rem;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      margin-top: 0.2rem;
+    }
+
+    /* DISCLOSURE */
+    .disclosure {
+      background: rgba(201, 168, 76, 0.05);
+      border-left: 2px solid var(--gold);
+      padding: 12px 6%;
+      font-size: 0.78rem;
+      color: var(--muted);
+      position: relative;
+      z-index: 1;
+    }
+
+    .disclosure strong {
+      color: var(--gold);
+    }
+
+    /* SECTION WRAPPER */
+    section {
+      position: relative;
+      z-index: 1;
+    }
+
+    .section-inner {
+      padding: 80px 6%;
+    }
+
+    .label {
+      font-size: 0.72rem;
+      font-weight: 600;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 0.5rem;
+    }
+
+    .section-title {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 2.4rem;
+      font-weight: 600;
+      color: var(--star);
+      line-height: 1.2;
+      margin-bottom: 0.5rem;
+    }
+
+    .section-sub {
+      color: var(--muted);
+      font-size: 0.95rem;
+      max-width: 480px;
+      margin-bottom: 3rem;
+      font-weight: 300;
+    }
+
+    /* CATEGORIES */
+    .categories {
+      background: var(--deep);
+    }
+
+    .cat-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+      gap: 1rem;
+    }
+
+    .cat-card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 1.5rem 1rem;
+      text-align: center;
+      text-decoration: none;
+      color: var(--text);
+      transition: all 0.25s;
+      cursor: pointer;
+    }
+
+    .cat-card:hover {
+      border-color: var(--gold);
+      background: rgba(201, 168, 76, 0.06);
+      transform: translateY(-4px);
+      box-shadow: 0 12px 30px rgba(0, 0, 0, 0.3);
+    }
+
+    .cat-icon {
+      font-size: 1.8rem;
+      margin-bottom: 0.6rem;
+    }
+
+    .cat-name {
+      font-weight: 600;
+      font-size: 0.88rem;
+      color: var(--star);
+    }
+
+    .cat-count {
+      font-size: 0.72rem;
+      color: var(--muted);
+      margin-top: 0.2rem;
+    }
+
+    /* FEATURED ARTICLES */
+    .articles {
+      background: var(--night);
+    }
+
+    .articles-header {
+      display: flex;
+      align-items: flex-end;
+      justify-content: space-between;
+      margin-bottom: 2.5rem;
+    }
+
+    .view-all {
+      color: var(--gold);
+      text-decoration: none;
+      font-size: 0.85rem;
+      font-weight: 500;
+      border-bottom: 1px solid rgba(201, 168, 76, 0.4);
+      padding-bottom: 2px;
+      transition: border-color 0.2s;
+    }
+
+    .view-all:hover {
+      border-color: var(--gold);
+    }
+
+    .articles-grid {
+      display: grid;
+      grid-template-columns: 1.6fr 1fr 1fr;
+      gap: 1.5rem;
+    }
+
+    .article-card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      overflow: hidden;
+      text-decoration: none;
+      color: var(--text);
+      display: flex;
+      flex-direction: column;
+      transition: all 0.25s;
+    }
+
+    .article-card:hover {
+      border-color: rgba(201, 168, 76, 0.4);
+      transform: translateY(-4px);
+      box-shadow: 0 20px 50px rgba(0, 0, 0, 0.4);
+    }
+
+    .article-thumb {
+      height: 180px;
+      background: linear-gradient(135deg, var(--navy), var(--deep));
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 3.5rem;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .article-card.featured .article-thumb {
+      height: 240px;
+      font-size: 5rem;
+    }
+
+    .article-thumb::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: linear-gradient(to bottom, transparent 50%, rgba(26, 34, 56, 0.8));
+    }
+
+    .article-body {
+      padding: 1.3rem;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .article-tag {
+      display: inline-block;
+      background: var(--gold-dim);
+      color: var(--gold);
+      padding: 3px 10px;
+      border-radius: 3px;
+      font-size: 0.7rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      margin-bottom: 0.8rem;
+    }
+
+    .article-title {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.1rem;
+      font-weight: 600;
+      line-height: 1.3;
+      color: var(--star);
+      margin-bottom: 0.6rem;
+    }
+
+    .article-card.featured .article-title {
+      font-size: 1.5rem;
+    }
+
+    .article-excerpt {
+      font-size: 0.83rem;
+      color: var(--muted);
+      line-height: 1.6;
+      flex: 1;
+      font-weight: 300;
+    }
+
+    .article-meta {
+      display: flex;
+      align-items: center;
+      gap: 0.8rem;
+      margin-top: 1rem;
+      padding-top: 1rem;
+      border-top: 1px solid var(--border);
+      font-size: 0.75rem;
+      color: var(--muted);
+    }
+
+    /* TOP PICKS */
+    .top-picks {
+      background: var(--deep);
+    }
+
+    .picks-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 1.2rem;
+    }
+
+    .pick-card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.5rem;
+      display: flex;
+      gap: 1.2rem;
+      position: relative;
+      transition: all 0.25s;
+    }
+
+    .pick-card:hover {
+      border-color: rgba(201, 168, 76, 0.35);
+      box-shadow: 0 16px 40px rgba(0, 0, 0, 0.3);
+      transform: translateY(-3px);
+    }
+
+    .pick-rank {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 2.5rem;
+      font-weight: 700;
+      color: var(--border);
+      line-height: 1;
+      min-width: 44px;
+    }
+
+    .pick-body {
+      flex: 1;
+    }
+
+    .pick-stars {
+      color: var(--gold);
+      font-size: 0.8rem;
+      margin-bottom: 0.3rem;
+    }
+
+    .pick-name {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.15rem;
+      font-weight: 600;
+      color: var(--star);
+      margin-bottom: 0.4rem;
+      line-height: 1.2;
+    }
+
+    .pick-desc {
+      font-size: 0.82rem;
+      color: var(--muted);
+      line-height: 1.5;
+      margin-bottom: 1rem;
+      font-weight: 300;
+    }
+
+    .pick-price {
+      font-size: 1rem;
+      font-weight: 600;
+      color: var(--gold);
+      margin-bottom: 0.8rem;
+    }
+
+    .btn-buy {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.4rem;
+      background: var(--gold);
+      color: var(--night);
+      padding: 8px 16px;
+      border-radius: 4px;
+      font-size: 0.8rem;
+      font-weight: 600;
+      text-decoration: none;
+      transition: background 0.2s;
+      letter-spacing: 0.02em;
+    }
+
+    .btn-buy:hover {
+      background: var(--gold-light);
+    }
+
+    .badge {
+      position: absolute;
+      top: -10px;
+      right: 16px;
+      background: var(--green);
+      color: white;
+      font-size: 0.68rem;
+      font-weight: 700;
+      padding: 3px 10px;
+      border-radius: 20px;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+    }
+
+    /* EMAIL SECTION */
+    .email-section {
+      background: linear-gradient(135deg, var(--navy) 0%, var(--deep) 100%);
+      border-top: 1px solid var(--border);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .email-inner {
+      padding: 80px 6%;
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 4rem;
+      align-items: center;
+    }
+
+    .email-content h2 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 2.5rem;
+      font-weight: 600;
+      color: var(--star);
+      line-height: 1.2;
+      margin-bottom: 1rem;
+    }
+
+    .email-content p {
+      color: var(--muted);
+      font-size: 0.95rem;
+      line-height: 1.7;
+      font-weight: 300;
+    }
+
+    .email-perks {
+      list-style: none;
+      margin-top: 1.5rem;
+      display: flex;
+      flex-direction: column;
+      gap: 0.6rem;
+    }
+
+    .email-perks li {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+      font-size: 0.88rem;
+      color: var(--text);
+    }
+
+    .email-perks li::before {
+      content: '✦';
+      color: var(--gold);
+      font-size: 0.6rem;
+    }
+
+    .email-form-box {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 2rem;
+    }
+
+    .email-form-box h3 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.4rem;
+      color: var(--star);
+      margin-bottom: 0.4rem;
+    }
+
+    .email-form-box p {
+      font-size: 0.82rem;
+      color: var(--muted);
+      margin-bottom: 1.5rem;
+    }
+
+    .form-group {
+      margin-bottom: 1rem;
+    }
+
+    .form-group input {
+      width: 100%;
+      background: var(--night);
+      border: 1px solid var(--border);
+      color: var(--text);
+      padding: 12px 14px;
+      border-radius: 6px;
+      font-family: inherit;
+      font-size: 0.9rem;
+      outline: none;
+      transition: border-color 0.2s;
+    }
+
+    .form-group input:focus {
+      border-color: var(--gold);
+    }
+
+    .form-group input::placeholder {
+      color: var(--muted);
+    }
+
+    .btn-subscribe {
+      width: 100%;
+      background: var(--gold);
+      color: var(--night);
+      border: none;
+      padding: 13px;
+      border-radius: 6px;
+      font-weight: 600;
+      font-size: 0.9rem;
+      cursor: pointer;
+      font-family: inherit;
+      transition: background 0.2s;
+      letter-spacing: 0.02em;
+    }
+
+    .btn-subscribe:hover {
+      background: var(--gold-light);
+    }
+
+    .form-disclaimer {
+      font-size: 0.72rem;
+      color: var(--muted);
+      text-align: center;
+      margin-top: 0.8rem;
+    }
+
+    /* WHY TRUST US */
+    .trust-section {
+      background: var(--night);
+    }
+
+    .trust-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 1.5rem;
+      margin-top: 2.5rem;
+    }
+
+    .trust-card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 1.5rem;
+      text-align: center;
+    }
+
+    .trust-icon {
+      font-size: 2rem;
+      margin-bottom: 0.8rem;
+    }
+
+    .trust-title {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: var(--star);
+      margin-bottom: 0.4rem;
+    }
+
+    .trust-desc {
+      font-size: 0.82rem;
+      color: var(--muted);
+      line-height: 1.5;
+      font-weight: 300;
+    }
+
+    /* FOOTER */
+    footer {
+      background: #060912;
+      border-top: 1px solid var(--border);
+      padding: 50px 6% 30px;
+    }
+
+    .footer-top {
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr 1fr;
+      gap: 3rem;
+      margin-bottom: 3rem;
+      padding-bottom: 3rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .footer-brand .logo {
+      font-size: 1.4rem;
+    }
+
+    .footer-brand p {
+      color: var(--muted);
+      font-size: 0.82rem;
+      margin-top: 0.8rem;
+      line-height: 1.6;
+      font-weight: 300;
+      max-width: 260px;
+    }
+
+    .footer-col h4 {
+      font-size: 0.78rem;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 1rem;
+    }
+
+    .footer-col ul {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 0.6rem;
+    }
+
+    .footer-col a {
+      color: var(--muted);
+      text-decoration: none;
+      font-size: 0.85rem;
+      transition: color 0.2s;
+    }
+
+    .footer-col a:hover {
+      color: var(--gold);
+    }
+
+    .footer-bottom {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 0.78rem;
+      color: var(--muted);
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+
+    .affiliate-disc {
+      font-size: 0.75rem;
+      color: var(--muted);
+      line-height: 1.6;
+      max-width: 600px;
+    }
+
+    /* ANIMATIONS */
+    @keyframes fadeUp {
+      from {
+        opacity: 0;
+        transform: translateY(24px);
+      }
+
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    @keyframes moonGlow {
+
+      0%,
+      100% {
+        box-shadow: 0 0 60px rgba(201, 168, 76, 0.3), 0 0 120px rgba(201, 168, 76, 0.1);
+      }
+
+      50% {
+        box-shadow: 0 0 80px rgba(201, 168, 76, 0.45), 0 0 160px rgba(201, 168, 76, 0.15);
+      }
+    }
+
+    .hero-moon {
+      animation: moonGlow 4s ease-in-out infinite;
+    }
+
+    .hero-eyebrow {
+      animation: fadeUp 0.5s ease forwards;
+    }
+
+    .hero h1 {
+      animation: fadeUp 0.6s 0.1s ease both;
+    }
+
+    .hero-sub {
+      animation: fadeUp 0.6s 0.2s ease both;
+    }
+
+    .hero-actions {
+      animation: fadeUp 0.6s 0.3s ease both;
+    }
+
+    .hero-trust {
+      animation: fadeUp 0.6s 0.4s ease both;
+    }
+
+    /* RESPONSIVE */
+    @media (max-width: 900px) {
+      .articles-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .email-inner {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+      }
+
+      .footer-top {
+        grid-template-columns: 1fr 1fr;
+      }
+
+      .hero-moon {
+        display: none;
+      }
+
+      .nav-links {
+        display: none;
+      }
+
+      .hero h1 {
+        font-size: 2.8rem;
+      }
+
+      .hero-trust {
+        gap: 1.5rem;
+      }
+    }
+
+    .main-content {
+      display: none;
+    }
+
+    body.is-post .main-content {
+      display: block;
+    }
+
+    body.is-post .homepage-only {
+      display: none;
+    }
+
+    /* Hide post metadata (date, author) on About page */
+    .post-header-line-1,
+    .post-header-container .post-timestamp,
+    .date-header,
+    .post-footer,
+    .post-labels,
+    .blog-pager {
+      display: none !important;
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <a class="logo" href="/">SleepWise<span>Reviews</span></a>
+    <ul class="nav-links">
+      <li><a href="/#picks">Top Picks</a></li>
+      <li><a href="/#reviews">Reviews</a></li>
+      <li><a href="pages/about.html">About Harry</a></li>
+      <li><a href="/#newsletter" class="nav-cta">Free Sleep Guide ✦</a></li>
+    </ul>
+  </nav>
+
+    <div class="homepage-only">
+      <!-- HERO -->
+      <section class="hero">
+        <div class="hero-moon"></div>
+        <div class="hero-eyebrow">Science-backed sleep reviews</div>
+        <h1>Stop Surviving<br />on <em>Bad Sleep.</em></h1>
+        <p class="hero-sub">We research and test hundreds of sleep products so you can stop wasting money and finally
+          wake
+          up feeling rested.</p>
+        <div class="hero-actions">
+          <a href="#picks" class="btn-primary">See Top Picks →</a>
+          <a href="#reviews" class="btn-secondary">Read Reviews</a>
+        </div>
+        <div class="hero-trust">
+          <div class="trust-item">
+            <div class="trust-num">340+</div>
+            <div class="trust-label">Products Tested</div>
+          </div>
+          <div class="trust-item">
+            <div class="trust-num">18K</div>
+            <div class="trust-label">Monthly Readers</div>
+          </div>
+          <div class="trust-item">
+            <div class="trust-num">4.9★</div>
+            <div class="trust-label">Reader Rating</div>
+          </div>
+        </div>
+      </section>
+
+      <!-- DISCLOSURE -->
+      <div class="disclosure">
+        <strong>Affiliate Disclosure:</strong> SleepWiseReviews participates in the Amazon Associates Program and other
+        affiliate programs. We earn a small commission when you purchase through our links — at no extra cost to you.
+        This
+        funds our independent research. We never recommend products we don't believe in.
+      </div>
+
+      <!-- CATEGORIES -->
+      <section class="categories" id="categories">
+        <div class="section-inner">
+          <div class="label">Browse by type</div>
+          <div class="section-title">What are you looking for?</div>
+          <div class="section-sub">Every category is research-backed with honest, unbiased reviews.</div>
+          <div class="cat-grid">
+            <a class="cat-card" href="#">
+              <div class="cat-icon">🛏️</div>
+              <div class="cat-name">Pillows & Mattress</div>
+              <div class="cat-count">42 reviews</div>
+            </a>
+            <a class="cat-card" href="#">
+              <div class="cat-icon">🌡️</div>
+              <div class="cat-name">Sleep Trackers</div>
+              <div class="cat-count">28 reviews</div>
+            </a>
+            <a class="cat-card" href="#">
+              <div class="cat-icon">🔇</div>
+              <div class="cat-name">White Noise</div>
+              <div class="cat-count">19 reviews</div>
+            </a>
+            <a class="cat-card" href="#">
+              <div class="cat-icon">💊</div>
+              <div class="cat-name">Supplements</div>
+              <div class="cat-count">37 reviews</div>
+            </a>
+            <a class="cat-card" href="#">
+              <div class="cat-icon">🛋️</div>
+              <div class="cat-name">Weighted Blankets</div>
+              <div class="cat-count">23 reviews</div>
+            </a>
+            <a class="cat-card" href="#">
+              <div class="cat-icon">🌑</div>
+              <div class="cat-name">Blackout Solutions</div>
+              <div class="cat-count">16 reviews</div>
+            </a>
+            <a class="cat-card" href="#">
+              <div class="cat-icon">😷</div>
+              <div class="cat-name">Sleep Masks</div>
+              <div class="cat-count">21 reviews</div>
+            </a>
+            <a class="cat-card" href="#">
+              <div class="cat-icon">📱</div>
+              <div class="cat-name">Sleep Apps</div>
+              <div class="cat-count">14 reviews</div>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- FEATURED ARTICLES -->
+      <section class="articles" id="reviews">
+        <div class="section-inner">
+          <div class="articles-header">
+            <div>
+              <div class="label">Latest guides</div>
+              <div class="section-title">Researched & Honest</div>
+            </div>
+            <a class="view-all" href="#">All articles →</a>
+          </div>
+
+          <div class="articles-grid">
+            <a class="article-card featured" href="/search/label/Weighted Blankets">
+              <div class="article-thumb">🛌</div>
+              <div class="article-body">
+                <span class="article-tag">Weighted Blankets</span>
+                <div class="article-title">7 Best Weighted Blankets for Deep Sleep in 2025 (Tested & Ranked)</div>
+                <div class="article-excerpt">We tested the most popular weighted blankets on the market for 30 nights.
+                  One
+                  clear winner emerged — and it's not the most expensive one. Here's what actually makes you sleep
+                  deeper.
+                </div>
+                <div class="article-meta">
+                  <span>📅 Feb 2025</span>
+                  <span>·</span>
+                  <span>⏱ 8 min read</span>
+                  <span>·</span>
+                  <span>★★★★★ Top rated</span>
+                </div>
+              </div>
+            </a>
+
+            <a class="article-card" href="/search/label/Supplements">
+              <div class="article-thumb">💊</div>
+              <div class="article-body">
+                <span class="article-tag">Supplements</span>
+                <div class="article-title">Best Magnesium for Sleep: Glycinate vs Citrate vs Threonate</div>
+                <div class="article-excerpt">Not all magnesium is equal. The form matters more than the dose. We break
+                  down
+                  which type actually helps you sleep.</div>
+                <div class="article-meta"><span>📅 Feb 2025</span> · <span>⏱ 9 min</span></div>
+              </div>
+            </a>
+
+            <a class="article-card" href="#">
+              <div class="article-thumb">🔇</div>
+              <div class="article-body">
+                <span class="article-tag">White Noise</span>
+                <div class="article-title">7 Best White Noise Machines That Actually Block Sound</div>
+                <div class="article-excerpt">Most white noise machines just add noise. These ones actually mask sound.
+                  Big
+                  difference if you're a light sleeper.</div>
+                <div class="article-meta"><span>📅 Feb 2025</span> · <span>⏱ 5 min</span></div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <!-- TOP PICKS -->
+      <section class="top-picks" id="picks">
+        <div class="section-inner">
+          <div class="label">Editor's selection</div>
+          <div class="section-title">Top Picks This Month</div>
+          <div class="section-sub">Products we've personally tested and confidently recommend.</div>
+
+          <div class="picks-grid">
+
+            <div class="pick-card">
+              <div class="badge">Best Overall</div>
+              <div class="pick-rank">01</div>
+              <div class="pick-body">
+                <div class="pick-stars">★★★★★</div>
+                <div class="pick-name">Bearaby Cotton Napper Weighted Blanket</div>
+                <div class="pick-desc">The most breathable weighted blanket we've tested. Hand-knit organic cotton that
+                  regulates temperature perfectly. Reduces the time to fall asleep by an average of 22 minutes in our
+                  testing.</div>
+                <div class="pick-price">From $249 · Amazon</div>
+                <a class="btn-buy" href="https://www.amazon.com/s?k=bearaby+weighted+blanket&tag=YOUR-AFFILIATE-TAG"
+                  target="_blank" rel="noopener nofollow">Check Price on Amazon →</a>
+              </div>
+            </div>
+
+            <div class="pick-card">
+              <div class="badge">Best Value</div>
+              <div class="pick-rank">02</div>
+              <div class="pick-body">
+                <div class="pick-stars">★★★★★</div>
+                <div class="pick-name">LectroFan Classic White Noise Machine</div>
+                <div class="pick-desc">10 fan sounds + 10 white noise variations. The only machine we found that truly
+                  masks
+                  outside sounds rather than just adding more noise. Perfect for light sleepers.</div>
+                <div class="pick-price">From $49 · Amazon</div>
+                <a class="btn-buy"
+                  href="https://www.amazon.com/s?k=lectrofan+white+noise+machine&tag=YOUR-AFFILIATE-TAG" target="_blank"
+                  rel="noopener nofollow">Check Price on Amazon →</a>
+              </div>
+            </div>
+
+            <div class="pick-card">
+              <div class="pick-rank">03</div>
+              <div class="pick-body">
+                <div class="pick-stars">★★★★☆</div>
+                <div class="pick-name">Magnesium Glycinate 400mg (Thorne)</div>
+                <div class="pick-desc">The most bioavailable form of magnesium for sleep. Thorne's pharmaceutical-grade
+                  formula is the one most sleep doctors actually recommend. Noticeable difference within 7 days.</div>
+                <div class="pick-price">From $38 · Amazon</div>
+                <a class="btn-buy" href="https://www.amazon.com/s?k=thorne+magnesium+glycinate&tag=YOUR-AFFILIATE-TAG"
+                  target="_blank" rel="noopener nofollow">Check Price on Amazon →</a>
+              </div>
+            </div>
+
+            <div class="pick-card">
+              <div class="pick-rank">04</div>
+              <div class="pick-body">
+                <div class="pick-stars">★★★★★</div>
+                <div class="pick-name">Oura Ring Gen 3 Sleep Tracker</div>
+                <div class="pick-desc">The most accurate non-wrist sleep tracker available. Tracks sleep stages, HRV,
+                  body
+                  temperature, and gives actionable scores every morning. Worth every penny if you want real data.</div>
+                <div class="pick-price">From $299 · Amazon</div>
+                <a class="btn-buy" href="https://www.amazon.com/s?k=oura+ring+gen+3&tag=YOUR-AFFILIATE-TAG"
+                  target="_blank" rel="noopener nofollow">Check Price on Amazon →</a>
+              </div>
+            </div>
+
+            <div class="pick-card">
+              <div class="pick-rank">05</div>
+              <div class="pick-body">
+                <div class="pick-stars">★★★★☆</div>
+                <div class="pick-name">Alaska Bear Natural Silk Sleep Mask</div>
+                <div class="pick-desc">Complete blackout without the pressure. Pure mulberry silk that's gentle on skin
+                  and
+                  doesn't shift during the night. Over 50,000 Amazon reviews for good reason.</div>
+                <div class="pick-price">From $16 · Amazon</div>
+                <a class="btn-buy" href="https://www.amazon.com/s?k=alaska+bear+silk+sleep+mask&tag=YOUR-AFFILIATE-TAG"
+                  target="_blank" rel="noopener nofollow">Check Price on Amazon →</a>
+              </div>
+            </div>
+
+            <div class="pick-card">
+              <div class="pick-rank">06</div>
+              <div class="pick-body">
+                <div class="pick-stars">★★★★★</div>
+                <div class="pick-name">Coop Home Goods Eden Pillow</div>
+                <div class="pick-desc">Adjustable fill so you get the exact height you need. Works for side, back, and
+                  stomach sleepers. Reduces neck pain within 2 weeks for most people in our reader survey.</div>
+                <div class="pick-price">From $72 · Amazon</div>
+                <a class="btn-buy" href="https://www.amazon.com/s?k=coop+home+goods+eden+pillow&tag=YOUR-AFFILIATE-TAG"
+                  target="_blank" rel="noopener nofollow">Check Price on Amazon →</a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- WHY TRUST US -->
+      <section class="trust-section">
+        <div class="section-inner">
+          <div class="label">Our promise</div>
+          <div class="section-title">Why Trust SleepWiseReviews?</div>
+          <div class="trust-grid">
+            <div class="trust-card">
+              <div class="trust-icon">🔬</div>
+              <div class="trust-title">Research First</div>
+              <div class="trust-desc">Every recommendation is backed by sleep science studies and real-world testing —
+                not
+                just manufacturer claims.</div>
+            </div>
+            <div class="trust-card">
+              <div class="trust-icon">💬</div>
+              <div class="trust-title">Real User Data</div>
+              <div class="trust-desc">We collect feedback from our readers after purchase to ensure our recommendations
+                hold
+                up in real life.</div>
+            </div>
+            <div class="trust-card">
+              <div class="trust-icon">🚫</div>
+              <div class="trust-title">No Paid Reviews</div>
+              <div class="trust-desc">We never accept payment for positive reviews. Brands can send products for testing
+                but
+                cannot influence our ratings.</div>
+            </div>
+            <div class="trust-card">
+              <div class="trust-icon">🔄</div>
+              <div class="trust-title">Regularly Updated</div>
+              <div class="trust-desc">Every guide is reviewed and updated quarterly. You'll never find outdated
+                recommendations here.</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- EMAIL NEWSLETTER -->
+      <section class="email-section" id="newsletter">
+        <div class="email-inner">
+          <div class="email-content">
+            <div class="label">Free weekly guide</div>
+            <h2>Sleep Better<br />Starting <em style="font-style:italic;color:var(--gold)">Tonight</em></h2>
+            <p>Join 18,000+ readers who get our weekly sleep tips, honest product reviews, and exclusive deals —
+              delivered
+              every Sunday morning.</p>
+            <ul class="email-perks">
+              <li>The 7-day sleep reset protocol (free PDF)</li>
+              <li>Weekly product deals before they go public</li>
+              <li>Science-backed tips that actually work</li>
+              <li>No spam. Unsubscribe anytime.</li>
+            </ul>
+          </div>
+          <div class="email-form-box">
+            <h3>Get the Free Sleep Guide</h3>
+            <p>Join 18,000 readers. Unsubscribe anytime.</p>
+            <form onsubmit="return false;">
+              <div class="form-group">
+                <input type="text" placeholder="Your first name" />
+              </div>
+              <div class="form-group">
+                <input type="email" placeholder="Your best email address" />
+              </div>
+              <button class="btn-subscribe" type="submit">Send Me the Free Guide →</button>
+              <div class="form-disclaimer">🔒 We respect your privacy. No spam, ever.</div>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <!-- AUTHOR SECTION -->
+      <section
+        style="background:var(--deep);border-top:1px solid var(--border);padding:70px 6%;position:relative;z-index:1;">
+        <div
+          style="max-width:900px;margin:0 auto;display:grid;grid-template-columns:auto 1fr;gap:3rem;align-items:center;">
+          <a href="pages/about.html" style="text-decoration:none;">
+            <div
+              style="width:110px;height:110px;border-radius:50%;background:linear-gradient(135deg,var(--card),var(--navy));border:2px solid rgba(201,168,76,0.3);display:flex;align-items:center;justify-content:center;font-size:2.8rem;box-shadow:0 0 30px rgba(201,168,76,0.1);flex-shrink:0;transition:box-shadow 0.2s;">
+              😴</div>
+          </a>
+          <div>
+            <div
+              style="font-size:0.72rem;font-weight:600;letter-spacing:0.14em;text-transform:uppercase;color:var(--gold);margin-bottom:0.4rem;">
+              Behind every review</div>
+            <div
+              style="font-family:'Cormorant Garamond',serif;font-size:1.8rem;font-weight:700;color:var(--star);margin-bottom:0.5rem;">
+              Harry Soul</div>
+            <div
+              style="color:var(--muted);font-size:0.9rem;font-weight:300;margin-bottom:1rem;max-width:500px;line-height:1.6;">
+              Independent sleep product reviewer with 5 years of testing experience. Every product on this site has been
+              personally tested for a minimum of 30 nights before being recommended.</div>
+            <div style="display:flex;gap:0.8rem;flex-wrap:wrap;">
+              <span
+                style="background:var(--gold-dim);border:1px solid rgba(201,168,76,0.2);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:0.78rem;">🔬
+                340+ Products Tested</span>
+              <span
+                style="background:var(--gold-dim);border:1px solid rgba(201,168,76,0.2);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:0.78rem;">🚫
+                Never Paid for Reviews</span>
+              <span
+                style="background:var(--gold-dim);border:1px solid rgba(201,168,76,0.2);color:var(--gold);padding:4px 12px;border-radius:20px;font-size:0.78rem;">✦
+                18K Monthly Readers</span>
+            </div>
+            <a href="pages/about.html"
+              style="display:inline-flex;align-items:center;gap:0.4rem;margin-top:1.2rem;color:var(--gold);text-decoration:none;font-size:0.88rem;font-weight:500;border-bottom:1px solid rgba(201,168,76,0.4);padding-bottom:2px;">Read
+              Harry's story →</a>
+          </div>
+        </div>
+      </section>
+    </div>
+
+  <footer>
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a class="logo" href="/">SleepWise<span>Reviews</span></a>
+        <p>Honest, science-backed reviews to help you sleep deeper, recover faster, and wake up energized.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Reviews</h4>
+        <ul>
+          <li><a href="#">Weighted Blankets</a></li>
+          <li><a href="#">White Noise Machines</a></li>
+          <li><a href="#">Sleep Trackers</a></li>
+          <li><a href="#">Supplements</a></li>
+          <li><a href="#">Sleep Masks</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Guides</h4>
+        <ul>
+          <li><a href="#">Sleep Optimization</a></li>
+          <li><a href="#">Sleep Disorders</a></li>
+          <li><a href="#">Bedtime Routines</a></li>
+          <li><a href="#">Sleep Science</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Site</h4>
+        <ul>
+          <li><a href="pages/about.html">About Harry Soul</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="pages/privacy-policy.html">Privacy Policy</a></li>
+          <li><a href="pages/affiliate-disclosure.html">Affiliate Disclosure</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div>© 2025 SleepWiseReviews. All rights reserved.</div>
+      <div class="affiliate-disc">SleepWiseReviews is a participant in the Amazon Services LLC Associates Program. As an
+        Amazon Associate we earn from qualifying purchases.</div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
