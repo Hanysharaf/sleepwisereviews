@@ -1,53 +1,410 @@
-<div class="page-wrapper">
-  <div class="page-label">Legal</div>
-  <h1>Privacy Policy</h1>
-  <div class="last-updated">Last updated: February 2025 · Effective immediately</div>
-  <div class="highlight-box">
-    <strong>Short version:</strong> We collect minimal data, never sell it, and only use it to improve your experience on SleepWiseReviews.
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy – SleepWiseReviews</title>
+  <meta name="description" content="SleepWiseReviews privacy policy. We collect minimal data, never sell it, and only use it to improve your experience." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <style type='text/css'>
+    :root {
+      --night: #0A0E1A;
+      --deep: #0F1525;
+      --navy: #141B30;
+      --card: #1A2238;
+      --border: #252D45;
+      --gold: #C9A84C;
+      --gold-light: #E5C96A;
+      --gold-dim: rgba(201, 168, 76, 0.15);
+      --star: #F0E6C8;
+      --text: #D4DCEE;
+      --muted: #7A85A0;
+      --white: #FFFFFF;
+      --green: #4CAF82;
+    }
+
+    *, *::before, *::after {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'Outfit', sans-serif;
+      background: var(--night);
+      color: var(--text);
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      background-image:
+        radial-gradient(1px 1px at 10% 15%, rgba(240, 230, 200, 0.6) 0%, transparent 100%),
+        radial-gradient(1px 1px at 25% 40%, rgba(240, 230, 200, 0.4) 0%, transparent 100%),
+        radial-gradient(1.5px 1.5px at 40% 10%, rgba(240, 230, 200, 0.5) 0%, transparent 100%),
+        radial-gradient(1px 1px at 55% 30%, rgba(240, 230, 200, 0.3) 0%, transparent 100%),
+        radial-gradient(1px 1px at 70% 5%, rgba(240, 230, 200, 0.6) 0%, transparent 100%),
+        radial-gradient(1.5px 1.5px at 80% 20%, rgba(240, 230, 200, 0.4) 0%, transparent 100%),
+        radial-gradient(1px 1px at 90% 45%, rgba(240, 230, 200, 0.3) 0%, transparent 100%),
+        radial-gradient(1px 1px at 15% 70%, rgba(240, 230, 200, 0.2) 0%, transparent 100%),
+        radial-gradient(1px 1px at 60% 80%, rgba(240, 230, 200, 0.3) 0%, transparent 100%),
+        radial-gradient(1px 1px at 35% 90%, rgba(240, 230, 200, 0.2) 0%, transparent 100%);
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    /* NAV */
+    nav {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(10, 14, 26, 0.92);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+      padding: 0 6%;
+      height: 68px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .logo {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.6rem;
+      font-weight: 700;
+      color: var(--star);
+      text-decoration: none;
+      letter-spacing: 0.02em;
+    }
+
+    .logo span {
+      color: var(--gold);
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 2rem;
+      list-style: none;
+    }
+
+    .nav-links a {
+      text-decoration: none;
+      color: var(--muted);
+      font-size: 0.88rem;
+      font-weight: 500;
+      letter-spacing: 0.03em;
+      transition: color 0.2s;
+    }
+
+    .nav-links a:hover {
+      color: var(--gold);
+    }
+
+    .nav-cta {
+      background: var(--gold-dim);
+      color: var(--gold) !important;
+      border: 1px solid rgba(201, 168, 76, 0.3);
+      padding: 7px 16px;
+      border-radius: 4px;
+      transition: background 0.2s !important;
+    }
+
+    .nav-cta:hover {
+      background: rgba(201, 168, 76, 0.25) !important;
+    }
+
+    /* PAGE STYLES */
+    .page-wrapper {
+      position: relative;
+      z-index: 1;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 60px 6% 80px;
+    }
+
+    .page-label {
+      display: inline-block;
+      background: var(--gold-dim);
+      color: var(--gold);
+      padding: 6px 14px;
+      border-radius: 20px;
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      margin-bottom: 1.5rem;
+    }
+
+    .page-wrapper h1 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 2.8rem;
+      font-weight: 600;
+      color: var(--star);
+      margin-bottom: 0.5rem;
+    }
+
+    .last-updated {
+      color: var(--muted);
+      font-size: 0.85rem;
+      margin-bottom: 2rem;
+    }
+
+    .highlight-box {
+      background: var(--card);
+      border-left: 3px solid var(--gold);
+      padding: 1.5rem 2rem;
+      margin: 2rem 0;
+      border-radius: 0 8px 8px 0;
+      color: var(--star);
+    }
+
+    .page-wrapper h2 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: var(--star);
+      margin: 2.5rem 0 1rem;
+    }
+
+    .page-wrapper p {
+      color: var(--text);
+      margin-bottom: 1rem;
+      font-weight: 300;
+      line-height: 1.8;
+    }
+
+    .page-wrapper ul {
+      margin: 1rem 0 1.5rem 1.5rem;
+      color: var(--text);
+    }
+
+    .page-wrapper li {
+      margin-bottom: 0.6rem;
+      font-weight: 300;
+      line-height: 1.7;
+    }
+
+    .page-wrapper strong {
+      color: var(--star);
+      font-weight: 600;
+    }
+
+    /* FOOTER */
+    footer {
+      background: #060912;
+      border-top: 1px solid var(--border);
+      padding: 50px 6% 30px;
+    }
+
+    .footer-top {
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr 1fr;
+      gap: 3rem;
+      margin-bottom: 3rem;
+      padding-bottom: 3rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .footer-brand .logo {
+      font-size: 1.4rem;
+    }
+
+    .footer-brand p {
+      color: var(--muted);
+      font-size: 0.82rem;
+      margin-top: 0.8rem;
+      line-height: 1.6;
+      font-weight: 300;
+      max-width: 260px;
+    }
+
+    .footer-col h4 {
+      font-size: 0.78rem;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 1rem;
+    }
+
+    .footer-col ul {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 0.6rem;
+      margin: 0;
+    }
+
+    .footer-col a {
+      color: var(--muted);
+      text-decoration: none;
+      font-size: 0.85rem;
+      transition: color 0.2s;
+    }
+
+    .footer-col a:hover {
+      color: var(--gold);
+    }
+
+    .footer-bottom {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 0.78rem;
+      color: var(--muted);
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+
+    .affiliate-disc {
+      font-size: 0.75rem;
+      color: var(--muted);
+      line-height: 1.6;
+      max-width: 600px;
+    }
+
+    /* RESPONSIVE */
+    @media (max-width: 900px) {
+      .nav-links {
+        display: none;
+      }
+
+      .page-wrapper h1 {
+        font-size: 2rem;
+      }
+
+      .footer-top {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <a class="logo" href="../">SleepWise<span>Reviews</span></a>
+    <ul class="nav-links">
+      <li><a href="../#picks">Top Picks</a></li>
+      <li><a href="../#reviews">Reviews</a></li>
+      <li><a href="about.html">About Harry</a></li>
+      <li><a href="../#newsletter" class="nav-cta">Free Sleep Guide</a></li>
+    </ul>
+  </nav>
+
+  <div class="page-wrapper">
+    <div class="page-label">Legal</div>
+    <h1>Privacy Policy</h1>
+    <div class="last-updated">Last updated: February 2025 · Effective immediately</div>
+
+    <div class="highlight-box">
+      <strong>Short version:</strong> We collect minimal data, never sell it, and only use it to improve your experience on SleepWiseReviews.
+    </div>
+
+    <h2>Who We Are</h2>
+    <p>SleepWiseReviews is a sleep product review website. Our website address is: <strong style="color:var(--gold)">hanysharaf.github.io/sleepwisereviews</strong></p>
+
+    <h2>What Information We Collect</h2>
+    <p><strong>Information you give us voluntarily:</strong></p>
+    <ul>
+      <li>Email address — when you subscribe to our newsletter</li>
+      <li>First name — when you subscribe (optional)</li>
+      <li>Messages you send via our contact form</li>
+    </ul>
+    <p><strong>Information collected automatically:</strong></p>
+    <ul>
+      <li>Pages visited and time on site (via Google Analytics — anonymous)</li>
+      <li>General geographic location (country/city level only)</li>
+      <li>Browser type and device type</li>
+      <li>Referring website (how you found us)</li>
+    </ul>
+    <p>We do <strong>not</strong> collect: payment information, social security numbers, precise location data, or sensitive personal data.</p>
+
+    <h2>How We Use Your Information</h2>
+    <ul>
+      <li>To send our weekly newsletter (only if you subscribed)</li>
+      <li>To understand which content is most useful to readers</li>
+      <li>To improve our website and user experience</li>
+      <li>To respond to questions or messages</li>
+    </ul>
+    <p>We never sell, rent, or trade your personal information to third parties. Ever.</p>
+
+    <h2>Email Newsletter</h2>
+    <p>If you subscribe, your email is stored securely with Brevo (our email service provider). You can unsubscribe at any time by clicking the unsubscribe link at the bottom of any email.</p>
+
+    <h2>Cookies</h2>
+    <ul>
+      <li><strong>Google Analytics:</strong> Anonymous usage statistics. No personal data stored.</li>
+      <li><strong>Amazon affiliate cookies:</strong> When you click an Amazon link, Amazon places a 24-hour cookie. Governed by Amazon's privacy policy.</li>
+    </ul>
+
+    <h2>Your Rights</h2>
+    <ul>
+      <li>Access the personal data we hold about you</li>
+      <li>Request correction of inaccurate data</li>
+      <li>Request deletion of your data</li>
+      <li>Unsubscribe from our newsletter at any time</li>
+    </ul>
+    <p>To exercise any of these rights, email: <strong style="color:var(--gold)">contact@sleepwisereviews.com</strong></p>
+
+    <h2>Children's Privacy</h2>
+    <p>SleepWiseReviews is not directed at children under 13. We do not knowingly collect personal information from children under 13.</p>
+
+    <h2>Contact Us</h2>
+    <p>Questions? Contact us at: <strong style="color:var(--gold)">contact@sleepwisereviews.com</strong></p>
   </div>
-  <h2>Who We Are</h2>
-  <p>SleepWiseReviews is a sleep product review website. Our website address is: <strong style="color:var(--gold)">sleepwisereviews.blogspot.com</strong></p>
-  <h2>What Information We Collect</h2>
-  <p><strong>Information you give us voluntarily:</strong></p>
-  <ul>
-    <li>Email address — when you subscribe to our newsletter</li>
-    <li>First name — when you subscribe (optional)</li>
-    <li>Messages you send via our contact form</li>
-  </ul>
-  <p><strong>Information collected automatically:</strong></p>
-  <ul>
-    <li>Pages visited and time on site (via Google Analytics — anonymous)</li>
-    <li>General geographic location (country/city level only)</li>
-    <li>Browser type and device type</li>
-    <li>Referring website (how you found us)</li>
-  </ul>
-  <p>We do <strong>not</strong> collect: payment information, social security numbers, precise location data, or sensitive personal data.</p>
-  <h2>How We Use Your Information</h2>
-  <ul>
-    <li>To send our weekly newsletter (only if you subscribed)</li>
-    <li>To understand which content is most useful to readers</li>
-    <li>To improve our website and user experience</li>
-    <li>To respond to questions or messages</li>
-  </ul>
-  <p>We never sell, rent, or trade your personal information to third parties. Ever.</p>
-  <h2>Email Newsletter</h2>
-  <p>If you subscribe, your email is stored securely with Brevo (our email service provider). You can unsubscribe at any time by clicking the unsubscribe link at the bottom of any email.</p>
-  <h2>Cookies</h2>
-  <ul>
-    <li><strong>Google Analytics:</strong> Anonymous usage statistics. No personal data stored.</li>
-    <li><strong>Amazon affiliate cookies:</strong> When you click an Amazon link, Amazon places a 24-hour cookie. Governed by Amazon's privacy policy.</li>
-    <li><strong>Blogger/Google platform cookies:</strong> Basic functionality cookies from our hosting platform.</li>
-  </ul>
-  <h2>Your Rights</h2>
-  <ul>
-    <li>Access the personal data we hold about you</li>
-    <li>Request correction of inaccurate data</li>
-    <li>Request deletion of your data</li>
-    <li>Unsubscribe from our newsletter at any time</li>
-  </ul>
-  <p>To exercise any of these rights, email: <strong style="color:var(--gold)">contact@sleepwisereviews.com</strong></p>
-  <h2>Children's Privacy</h2>
-  <p>SleepWiseReviews is not directed at children under 13. We do not knowingly collect personal information from children under 13.</p>
-  <h2>Contact Us</h2>
-  <p>Questions? Contact us at: <strong style="color:var(--gold)">contact@sleepwisereviews.com</strong></p>
-</div>
+
+  <footer>
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a class="logo" href="../">SleepWise<span>Reviews</span></a>
+        <p>Honest, science-backed reviews to help you sleep deeper, recover faster, and wake up energized.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Reviews</h4>
+        <ul>
+          <li><a href="#">Weighted Blankets</a></li>
+          <li><a href="#">White Noise Machines</a></li>
+          <li><a href="#">Sleep Trackers</a></li>
+          <li><a href="#">Supplements</a></li>
+          <li><a href="#">Sleep Masks</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Guides</h4>
+        <ul>
+          <li><a href="#">Sleep Optimization</a></li>
+          <li><a href="#">Sleep Disorders</a></li>
+          <li><a href="#">Bedtime Routines</a></li>
+          <li><a href="#">Sleep Science</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Site</h4>
+        <ul>
+          <li><a href="about.html">About Harry Soul</a></li>
+          <li><a href="#">Contact</a></li>
+          <li><a href="privacy-policy.html">Privacy Policy</a></li>
+          <li><a href="affiliate-disclosure.html">Affiliate Disclosure</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div>© 2025 SleepWiseReviews. All rights reserved.</div>
+      <div class="affiliate-disc">SleepWiseReviews is a participant in the Amazon Services LLC Associates Program. As an Amazon Associate we earn from qualifying purchases.</div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
