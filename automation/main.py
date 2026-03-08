@@ -408,7 +408,11 @@ def main():
             print(f"Connection test results: {results}")
 
         elif command == "article":
-            topic = sys.argv[2] if len(sys.argv) > 2 else None
+            # Check environment variable first (from Telegram bot), then command line
+            import os
+            topic = os.getenv("ARTICLE_TOPIC") or (sys.argv[2] if len(sys.argv) > 2 else None)
+            if topic:
+                logger.info(f"Generating article with topic: {topic}")
             result = agent.manual_generate_article(topic)
             print(f"Article generation result: {result}")
 
@@ -416,9 +420,21 @@ def main():
             result = agent._task_daily_summary()
             print(f"Summary sent: {result}")
 
+        elif command == "content_prep":
+            result = agent._task_content_prep()
+            print(f"Content prep result: {result}")
+
+        elif command == "instagram_notify":
+            result = agent._task_instagram_notify()
+            print(f"Instagram notify result: {result}")
+
+        elif command == "engagement_tips":
+            result = agent._task_engagement_tips()
+            print(f"Engagement tips result: {result}")
+
         else:
             print(f"Unknown command: {command}")
-            print("Available commands: test, article, summary")
+            print("Available commands: test, article, summary, content_prep, instagram_notify, engagement_tips")
     else:
         # Normal scheduled run
         agent.run()

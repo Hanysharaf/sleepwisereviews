@@ -8,7 +8,7 @@ on:
   schedule:
     - cron: '0 */4 * * *'
 
-  # Allow manual trigger from GitHub UI
+  # Allow manual trigger from GitHub UI or API
   workflow_dispatch:
     inputs:
       task:
@@ -21,6 +21,14 @@ on:
           - test
           - article
           - summary
+          - content_prep
+          - instagram_notify
+          - engagement_tips
+      topic:
+        description: 'Topic for article generation (optional)'
+        required: false
+        default: ''
+        type: string
 
 # Prevent concurrent runs
 concurrency:
@@ -62,7 +70,12 @@ jobs:
         run: |
           if [ -n "${{ inputs.task }}" ]; then
             echo "Running manual task: ${{ inputs.task }}"
-            python automation/main.py ${{ inputs.task }}
+            if [ -n "${{ inputs.topic }}" ]; then
+              echo "With topic: ${{ inputs.topic }}"
+              ARTICLE_TOPIC="${{ inputs.topic }}" python automation/main.py ${{ inputs.task }}
+            else
+              python automation/main.py ${{ inputs.task }}
+            fi
           else
             echo "Running scheduled automation"
             python automation/main.py
