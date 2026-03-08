@@ -1,12 +1,12 @@
 # SleepWise Automation Agent - GitHub Actions Workflow
-# Runs the automation agent every 4 hours to manage content across platforms
+# Runs the automation agent every 2 hours to manage content across platforms
 
 name: SleepWise Automation Agent
 
 on:
-  # Run every 4 hours
+  # Run every 2 hours (at minute 0)
   schedule:
-    - cron: '0 */4 * * *'
+    - cron: '0 */2 * * *'
 
   # Allow manual trigger from GitHub UI or API
   workflow_dispatch:

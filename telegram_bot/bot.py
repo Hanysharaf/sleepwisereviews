@@ -1,6 +1,7 @@
 """
 SleepWise Telegram Command Bot
 Receives commands via Telegram and triggers GitHub Actions workflows.
+Includes LLM integration for text improvement.
 """
 
 import os
@@ -16,6 +17,7 @@ from telegram.ext import (
     filters
 )
 import aiohttp
+import anthropic
 
 # Configure logging
 logging.basicConfig(
@@ -29,6 +31,12 @@ TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
 TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID")
 GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
 GITHUB_REPO = os.getenv("GITHUB_REPO", "Hanysharaf/sleepwisereviews")
+ANTHROPIC_API_KEY = os.getenv("ANTHROPIC_API_KEY")
+
+# Initialize Anthropic client
+claude_client = None
+if ANTHROPIC_API_KEY:
+    claude_client = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY)
 
 # GitHub API endpoint for workflow dispatch
 GITHUB_API_URL = f"https://api.github.com/repos/{GITHUB_REPO}/actions/workflows/automation.yml/dispatches"
@@ -68,6 +76,68 @@ async def trigger_workflow(task: str, topic: str = None) -> dict:
                 return {"ok": False, "message": f"Failed: {response.status} - {error_text}"}
 
 
+async def process_with_llm(text: str, task: str = "improve") -> dict:
+    """
+    Process text with Claude LLM.
+
+    Tasks:
+    - improve: Fix grammar, spelling, and improve clarity
+    - rewrite: Rewrite the text professionally
+    - summarize: Summarize the text
+    - translate: Translate to English if needed
+    """
+    if not claude_client:
+        return {"ok": False, "message": "ANTHROPIC_API_KEY not configured"}
+
+    prompts = {
+        "improve": f"""Fix any grammar, spelling, and punctuation errors in this text.
+Improve clarity while keeping the same meaning and tone.
+Only return the fixed text, nothing else.
+
+Text to fix:
+{text}""",
+
+        "rewrite": f"""Rewrite this text to be more professional and polished.
+Keep the same meaning but improve the writing quality.
+Only return the rewritten text, nothing else.
+
+Text to rewrite:
+{text}""",
+
+        "summarize": f"""Summarize this text concisely.
+Only return the summary, nothing else.
+
+Text to summarize:
+{text}""",
+
+        "caption": f"""Create an engaging Instagram caption from this text.
+Include relevant emojis and make it engaging.
+Add 5-10 relevant hashtags at the end.
+Only return the caption, nothing else.
+
+Text:
+{text}"""
+    }
+
+    prompt = prompts.get(task, prompts["improve"])
+
+    try:
+        message = claude_client.messages.create(
+            model="claude-3-5-sonnet-20241022",
+            max_tokens=1024,
+            messages=[
+                {"role": "user", "content": prompt}
+            ]
+        )
+
+        result_text = message.content[0].text
+        return {"ok": True, "text": result_text}
+
+    except Exception as e:
+        logger.error(f"LLM processing error: {e}")
+        return {"ok": False, "message": str(e)}
+
+
 # =============================================================================
 # Command Handlers
 # =============================================================================
@@ -78,21 +148,30 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
         await update.message.reply_text("Unauthorized. This bot is private.")
         return
 
-    welcome = """
-Welcome to SleepWise Command Bot!
+    welcome = """🌙 Welcome to SleepWise Command Bot!
 
-Available Commands:
-/article [topic] - Generate a new article
-/summary - Get daily summary now
+📝 **Text Processing (AI):**
+Just send any text → I'll fix/improve it!
+/fix [text] - Fix grammar & spelling
+/rewrite [text] - Professional rewrite
+/caption [text] - Create Instagram caption
+
+📰 **Content Generation:**
+/article [topic] - Generate article
+/instagram [topic] - Prepare IG post
+
+📊 **Status & Reports:**
+/summary - Get daily summary
 /status - Check automation status
-/instagram [topic] - Prepare Instagram post
-/test - Test all API connections
-/help - Show this help message
+/test - Test API connections
 
-Example:
-/article weighted blankets for anxiety
+/help - Show this message
+
+**Example:**
+/article best pillows for side sleepers
+/caption 5 tips for better sleep tonight
 """
-    await update.message.reply_text(welcome)
+    await update.message.reply_text(welcome, parse_mode="Markdown")
 
 
 async def help_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
@@ -151,19 +230,24 @@ async def status_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> 
 
     now = datetime.now(timezone.utc)
 
+    llm_status = "✅ Active" if claude_client else "❌ Not configured"
+
     status_message = f"""
-SleepWise Automation Status
+🌙 SleepWise Automation Status
 
-Bot Status: Online
-Time: {now.strftime('%Y-%m-%d %H:%M UTC')}
+🤖 Bot Status: Online
+⏰ Time: {now.strftime('%Y-%m-%d %H:%M UTC')}
 
-GitHub Actions: Active
-Scheduled Tasks:
-  - 04:00 UTC: Content Prep
-  - 12:00 UTC: Instagram Notify
-  - 16:00 UTC: Engagement Tips
-  - 20:00 UTC: Daily Summary
-  - Sunday 12:00: Article Generation
+🔄 GitHub Actions: Active
+📅 Schedule: Every 2 hours
+
+🧠 LLM (Claude): {llm_status}
+
+📋 Automated Tasks:
+  • Content preparation
+  • Daily summaries
+  • Engagement tips
+  • Article generation (Sunday)
 
 Use /test to verify API connections.
 """
@@ -211,6 +295,85 @@ async def test_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> No
         await update.message.reply_text(f"Failed: {result['message']}")
 
 
+async def fix_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    """Fix/improve text using LLM."""
+    if not is_authorized(update):
+        await update.message.reply_text("Unauthorized.")
+        return
+
+    text = " ".join(context.args) if context.args else None
+
+    if not text:
+        await update.message.reply_text(
+            "Please provide text to fix.\n"
+            "Usage: /fix Your text here\n\n"
+            "Or just send any text and I'll improve it!"
+        )
+        return
+
+    await update.message.reply_text("Processing with AI...")
+
+    result = await process_with_llm(text, "improve")
+
+    if result["ok"]:
+        await update.message.reply_text(f"✅ Fixed text:\n\n{result['text']}")
+    else:
+        await update.message.reply_text(f"❌ Error: {result['message']}")
+
+
+async def rewrite_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    """Rewrite text professionally using LLM."""
+    if not is_authorized(update):
+        await update.message.reply_text("Unauthorized.")
+        return
+
+    text = " ".join(context.args) if context.args else None
+
+    if not text:
+        await update.message.reply_text(
+            "Please provide text to rewrite.\n"
+            "Usage: /rewrite Your text here"
+        )
+        return
+
+    await update.message.reply_text("Rewriting with AI...")
+
+    result = await process_with_llm(text, "rewrite")
+
+    if result["ok"]:
+        await update.message.reply_text(f"✅ Rewritten:\n\n{result['text']}")
+    else:
+        await update.message.reply_text(f"❌ Error: {result['message']}")
+
+
+async def caption_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
+    """Create Instagram caption using LLM."""
+    if not is_authorized(update):
+        await update.message.reply_text("Unauthorized.")
+        return
+
+    text = " ".join(context.args) if context.args else None
+
+    if not text:
+        await update.message.reply_text(
+            "Please provide text or topic for caption.\n"
+            "Usage: /caption Your topic or text here"
+        )
+        return
+
+    await update.message.reply_text("Creating caption with AI...")
+
+    result = await process_with_llm(text, "caption")
+
+    if result["ok"]:
+        await update.message.reply_text(
+            f"📸 Instagram Caption:\n\n{result['text']}\n\n"
+            f"👆 Copy this to Instagram!"
+        )
+    else:
+        await update.message.reply_text(f"❌ Error: {result['message']}")
+
+
 async def unknown_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
     """Handle unknown commands."""
     if not is_authorized(update):
@@ -222,24 +385,41 @@ async def unknown_command(update: Update, context: ContextTypes.DEFAULT_TYPE) ->
 
 
 async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE) -> None:
-    """Handle regular messages (not commands)."""
+    """Handle regular messages - automatically improve text with LLM."""
     if not is_authorized(update):
         return
 
-    text = update.message.text.lower()
+    text = update.message.text
 
-    # Simple keyword detection for convenience
-    if "article" in text:
-        await update.message.reply_text(
-            "Want to generate an article? Use:\n"
-            "/article [topic]\n\n"
-            "Example: /article best sleep masks 2024"
-        )
-    elif "help" in text:
+    # If text is short and looks like a question about commands
+    if len(text) < 20 and ("help" in text.lower() or "?" in text):
         await start(update, context)
+        return
+
+    # Process any text with LLM automatically
+    if len(text) >= 10:  # Only process texts with at least 10 characters
+        await update.message.reply_text("🤖 Processing your text with AI...")
+
+        result = await process_with_llm(text, "improve")
+
+        if result["ok"]:
+            await update.message.reply_text(
+                f"✅ **Improved text:**\n\n{result['text']}\n\n"
+                f"━━━━━━━━━━━━━━━\n"
+                f"💡 Other options:\n"
+                f"/rewrite - Professional rewrite\n"
+                f"/caption - Instagram caption",
+                parse_mode="Markdown"
+            )
+        else:
+            await update.message.reply_text(
+                f"❌ Could not process: {result['message']}\n\n"
+                f"Make sure ANTHROPIC_API_KEY is set."
+            )
     else:
         await update.message.reply_text(
-            "I respond to commands. Use /help to see what I can do!"
+            "Send me any text and I'll improve it!\n\n"
+            "Or use /help to see all commands."
         )
 
 
@@ -270,6 +450,9 @@ def main() -> None:
     application.add_handler(CommandHandler("status", status_command))
     application.add_handler(CommandHandler("instagram", instagram_command))
     application.add_handler(CommandHandler("test", test_command))
+    application.add_handler(CommandHandler("fix", fix_command))
+    application.add_handler(CommandHandler("rewrite", rewrite_command))
+    application.add_handler(CommandHandler("caption", caption_command))
 
     # Handle unknown commands
     application.add_handler(MessageHandler(filters.COMMAND, unknown_command))

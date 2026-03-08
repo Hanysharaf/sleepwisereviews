@@ -2,6 +2,7 @@
 .env
 .env.local
 .env.*.local
+SECRETS.txt
 
 # Python
 __pycache__/
