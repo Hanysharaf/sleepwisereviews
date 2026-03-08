@@ -25,25 +25,7 @@ PRODUCTS_DIR = PROJECT_ROOT / "products"
 # =============================================================================
 TELEGRAM_BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "")
 TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID", "")
-PINTEREST_ACCESS_TOKEN = os.getenv("PINTEREST_ACCESS_TOKEN", "")
 ANTHROPIC_API_KEY = os.getenv("ANTHROPIC_API_KEY", "")
-
-# =============================================================================
-# Pinterest Configuration
-# =============================================================================
-PINTEREST_CONFIG = {
-    "api_base_url": "https://api.pinterest.com/v5",
-    "pins_per_day": 4,
-    "boards": {
-        "sleep_tips": "",  # Fill with actual board ID
-        "product_reviews": "",  # Fill with actual board ID
-        "sleep_science": "",  # Fill with actual board ID
-    },
-    "default_hashtags": [
-        "sleeptips", "bettersleep", "sleephealth", "sleepwell",
-        "healthysleep", "sleepbetter", "sleepscience", "restfulsleep"
-    ]
-}
 
 # =============================================================================
 # Instagram Configuration (Semi-automated)
@@ -104,9 +86,7 @@ WEBSITE_CONFIG = {
 SCHEDULE_CONFIG = {
     "timezone": "UTC",
     "tasks": {
-        "00:00": "pinterest_pin",
         "04:00": "content_prep",
-        "08:00": "pinterest_pin",
         "12:00": "instagram_notify",
         "16:00": "engagement_tips",
         "20:00": "daily_summary"
@@ -157,8 +137,6 @@ def validate_config() -> dict:
         issues.append("TELEGRAM_BOT_TOKEN not set")
     if not TELEGRAM_CHAT_ID:
         issues.append("TELEGRAM_CHAT_ID not set")
-    if not PINTEREST_ACCESS_TOKEN:
-        issues.append("PINTEREST_ACCESS_TOKEN not set")
     if not ANTHROPIC_API_KEY:
         issues.append("ANTHROPIC_API_KEY not set")
 

@@ -20,7 +20,6 @@ from config import (
 )
 from modules import (
     TelegramReporter,
-    PinterestManager,
     ContentGenerator,
     WebsiteManager,
     InstagramPrep
@@ -46,7 +45,6 @@ class SleepWiseAgent:
 
         # Initialize modules
         self.telegram = TelegramReporter()
-        self.pinterest = PinterestManager()
         self.content = ContentGenerator()
         self.website = WebsiteManager()
         self.instagram = InstagramPrep()
@@ -201,7 +199,9 @@ class SleepWiseAgent:
         """
         try:
             if task == "pinterest_pin":
-                result = self._task_pinterest_pin()
+                # Pinterest automation disabled - API access denied
+                logger.info("Pinterest task skipped (API access not available)")
+                result = {"ok": True, "details": "Pinterest skipped - API access denied"}
             elif task == "content_prep":
                 result = self._task_content_prep()
             elif task == "instagram_notify":
@@ -227,58 +227,6 @@ class SleepWiseAgent:
     # ==========================================================================
     # Individual Tasks
     # ==========================================================================
-
-    def _task_pinterest_pin(self) -> dict:
-        """Post a pin to Pinterest."""
-        logger.info("Executing Pinterest pin task")
-
-        # Get recent articles for pinning
-        articles = self.website.get_recent_articles(10)
-
-        if not articles:
-            logger.warning("No articles available for pinning")
-            return {"ok": False, "error": "No articles available"}
-
-        # Select an article that hasn't been pinned recently
-        # For now, just use the most recent one
-        article = articles[0]
-
-        # Get available images
-        images = self.website.get_available_images()
-        image_url = images[0]["url"] if images else None
-
-        if not image_url:
-            logger.warning("No images available for pin")
-            return {"ok": False, "error": "No images available"}
-
-        # Create pin data
-        pin_data = {
-            "title": article.get("filename", "Sleep Tips").replace(".html", "").replace("-", " ").title(),
-            "url": article.get("url", ""),
-            "image_url": image_url,
-            "keywords": ["sleep", "health", "wellness"],
-            "content_type": "tips"
-        }
-
-        # Post to Pinterest
-        result = self.pinterest.post_article_pin(pin_data)
-
-        if result.get("ok"):
-            self.state["pins_today"] += 1
-            self.state["pins_this_week"] += 1
-            self.state["last_pin_date"] = datetime.now(timezone.utc).isoformat()
-
-            # Notify via Telegram
-            pin_url = result.get("data", {}).get("link", "")
-            self.telegram.send_pinterest_success(
-                title=pin_data["title"],
-                board="Sleep Tips",
-                url=pin_url
-            )
-
-            return {"ok": True, "details": f"Pin posted: {pin_data['title']}"}
-
-        return result
 
     def _task_content_prep(self) -> dict:
         """Prepare content for social media."""
@@ -417,10 +365,6 @@ class SleepWiseAgent:
     # Manual Triggers
     # ==========================================================================
 
-    def manual_pinterest_pin(self, article_index: int = 0) -> dict:
-        """Manually trigger a Pinterest pin."""
-        return self._task_pinterest_pin()
-
     def manual_generate_article(self, topic: str = None) -> dict:
         """Manually trigger article generation."""
         if topic:
@@ -435,7 +379,6 @@ class SleepWiseAgent:
         """Test all API connections."""
         results = {
             "telegram": self.telegram.test_connection(),
-            "pinterest": self.pinterest.test_connection(),
             "claude": self.content.test_connection()
         }
 
@@ -464,10 +407,6 @@ def main():
             results = agent.test_connections()
             print(f"Connection test results: {results}")
 
-        elif command == "pin":
-            result = agent.manual_pinterest_pin()
-            print(f"Pinterest pin result: {result}")
-
         elif command == "article":
             topic = sys.argv[2] if len(sys.argv) > 2 else None
             result = agent.manual_generate_article(topic)
@@ -479,7 +418,7 @@ def main():
 
         else:
             print(f"Unknown command: {command}")
-            print("Available commands: test, pin, article, summary")
+            print("Available commands: test, article, summary")
     else:
         # Normal scheduled run
         agent.run()
