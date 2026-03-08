@@ -305,6 +305,118 @@ class TelegramReporter:
         logger.error("Failed to connect to Telegram bot")
         return False
 
+    # ==========================================================================
+    # Two-Way Communication Methods
+    # ==========================================================================
+
+    def request_help(self, request_type: str, details: str, options: list = None) -> dict:
+        """
+        Request help from the user for something the bot needs.
+
+        Args:
+            request_type: Type of request (image, approval, input, etc.)
+            details: What is needed and why
+            options: Optional list of choices
+        """
+        emoji_map = {
+            "image": "🖼️",
+            "approval": "✅",
+            "input": "📝",
+            "review": "👀",
+            "decision": "🤔",
+            "upload": "📤"
+        }
+        emoji = emoji_map.get(request_type, "❓")
+
+        text = (
+            f"{TELEGRAM_TEMPLATES['header']}"
+            f"{emoji} Help Needed\n\n"
+            f"📋 Request: {request_type.title()}\n"
+            f"━━━━━━━━━━━━━━━\n"
+            f"{details}\n"
+            f"━━━━━━━━━━━━━━━\n"
+        )
+
+        if options:
+            text += "\n🔘 Options:\n"
+            for i, option in enumerate(options, 1):
+                text += f"   {i}. {option}\n"
+
+        text += (
+            f"\n💬 Reply to this message with your response.\n\n"
+            f"⏰ {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')}"
+        )
+        return self.send_message(text)
+
+    def report_completed(self, task: str, summary: str, details: list = None,
+                         next_steps: list = None) -> dict:
+        """
+        Report completed work to the user.
+
+        Args:
+            task: Name of the completed task
+            summary: Brief summary of what was done
+            details: List of specific actions taken
+            next_steps: List of suggested next actions
+        """
+        text = (
+            f"{TELEGRAM_TEMPLATES['header']}"
+            f"✅ Task Completed\n\n"
+            f"📌 Task: {task}\n"
+            f"━━━━━━━━━━━━━━━\n"
+            f"{summary}\n"
+            f"━━━━━━━━━━━━━━━\n"
+        )
+
+        if details:
+            text += "\n📋 What was done:\n"
+            for detail in details:
+                text += f"   • {detail}\n"
+
+        if next_steps:
+            text += "\n🎯 Suggested next steps:\n"
+            for i, step in enumerate(next_steps, 1):
+                text += f"   {i}. {step}\n"
+
+        text += f"\n⏰ {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')}"
+        return self.send_message(text)
+
+    def send_content_idea(self, topic: str, content_type: str,
+                          outline: list = None, inspired_by: str = None) -> dict:
+        """
+        Send a content idea for approval before creating.
+
+        Args:
+            topic: The topic suggestion
+            content_type: Type of content (article, post, etc.)
+            outline: Optional content outline
+            inspired_by: Book or source of inspiration
+        """
+        text = (
+            f"{TELEGRAM_TEMPLATES['header']}"
+            f"💡 Content Idea\n\n"
+            f"📝 Topic: {topic}\n"
+            f"📄 Type: {content_type}\n"
+        )
+
+        if inspired_by:
+            text += f"📚 Inspired by: {inspired_by}\n"
+
+        if outline:
+            text += "\n📋 Proposed outline:\n"
+            for i, point in enumerate(outline, 1):
+                text += f"   {i}. {point}\n"
+
+        text += (
+            f"\n━━━━━━━━━━━━━━━\n"
+            f"Reply with:\n"
+            f"   ✅ 'yes' to approve\n"
+            f"   ✏️ 'edit: [your changes]' to modify\n"
+            f"   ❌ 'no' to reject\n\n"
+            f"⏰ {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')}"
+        )
+        return self.send_message(text)
+
 
 # =============================================================================
 # Standalone test

@@ -49,7 +49,33 @@ CONTENT_CONFIG = {
     "model": "claude-3-5-sonnet-20241022",
     "max_tokens": 4096,
     "article_length": 1500,  # words
-    "topics": [
+
+    # Educational topics (inspired by sleep books: Why We Sleep, Sleep Smarter, etc.)
+    "educational_topics": [
+        "why we need 8 hours of sleep",
+        "sleep stages and REM cycles explained",
+        "how sleep affects memory and learning",
+        "the science of circadian rhythms",
+        "sleep deprivation effects on health",
+        "how blue light disrupts sleep",
+        "the role of melatonin in sleep",
+        "sleep and mental health connection",
+        "how exercise improves sleep quality",
+        "caffeine and sleep relationship",
+        "sleep hygiene best practices",
+        "power naps benefits and timing",
+        "sleep and weight loss connection",
+        "how temperature affects sleep",
+        "dreams and their purpose",
+        "sleep disorders overview",
+        "sleep tips for shift workers",
+        "creating the perfect sleep environment",
+        "sleep and aging relationship",
+        "meditation and sleep quality"
+    ],
+
+    # Product topics (affiliate content)
+    "product_topics": [
         "weighted blankets",
         "sleep pillows",
         "white noise machines",
@@ -59,14 +85,47 @@ CONTENT_CONFIG = {
         "aromatherapy diffusers",
         "blue light glasses",
         "sleep supplements",
-        "bedroom optimization"
+        "bedroom optimization",
+        "cooling mattress pads",
+        "smart alarm clocks",
+        "blackout curtains",
+        "essential oils for sleep",
+        "sleep headphones"
     ],
+
+    # Combined topics list (for random selection)
+    "topics": [
+        # Educational
+        "why we need 8 hours of sleep",
+        "sleep stages and REM cycles",
+        "how sleep affects memory",
+        "circadian rhythms explained",
+        "sleep and mental health",
+        # Products
+        "weighted blankets",
+        "sleep pillows",
+        "white noise machines",
+        "sleep trackers",
+        "sleep masks"
+    ],
+
     "content_types": [
-        "product_review",
-        "buying_guide",
-        "how_to",
-        "comparison",
-        "tips_list"
+        "educational_article",    # Sleep science content
+        "product_review",         # Single product review
+        "buying_guide",           # Best X for Y
+        "how_to",                 # How to improve sleep
+        "comparison",             # Product vs product
+        "tips_list",              # 10 tips for better sleep
+        "book_insights"           # Key insights from sleep books
+    ],
+
+    # Book references for educational content
+    "book_inspirations": [
+        "Why We Sleep by Matthew Walker",
+        "Sleep Smarter by Shawn Stevenson",
+        "The Sleep Solution by W. Chris Winter",
+        "The Promise of Sleep by William Dement",
+        "Say Good Night to Insomnia by Gregg Jacobs"
     ]
 }
 
