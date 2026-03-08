@@ -1,0 +1,129 @@
+# SleepWise Automation Agent - GitHub Actions Workflow
+# Runs the automation agent every 4 hours to manage content across platforms
+
+name: SleepWise Automation Agent
+
+on:
+  # Run every 4 hours
+  schedule:
+    - cron: '0 */4 * * *'
+
+  # Allow manual trigger from GitHub UI
+  workflow_dispatch:
+    inputs:
+      task:
+        description: 'Specific task to run (leave empty for scheduled task)'
+        required: false
+        default: ''
+        type: choice
+        options:
+          - ''
+          - test
+          - pin
+          - article
+          - summary
+
+# Prevent concurrent runs
+concurrency:
+  group: sleepwise-automation
+  cancel-in-progress: false
+
+jobs:
+  run-agent:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      # Checkout repository
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+
+      # Setup Python
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+
+      # Install dependencies
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      # Run the automation agent
+      - name: Run automation agent
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          PINTEREST_ACCESS_TOKEN: ${{ secrets.PINTEREST_ACCESS_TOKEN }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GITHUB_ACTIONS: 'true'
+        run: |
+          if [ -n "${{ inputs.task }}" ]; then
+            echo "Running manual task: ${{ inputs.task }}"
+            python automation/main.py ${{ inputs.task }}
+          else
+            echo "Running scheduled automation"
+            python automation/main.py
+          fi
+
+      # Commit any changes (new articles, updated state, etc.)
+      - name: Commit changes
+        run: |
+          git config user.name "SleepWise Bot"
+          git config user.email "bot@sleepwisereviews.com"
+
+          # Add all changes
+          git add -A
+
+          # Check if there are changes to commit
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "🤖 Auto-update from automation agent
+
+            - Updated state and history
+            - Generated content (if any)
+
+            Triggered by: ${{ github.event_name }}
+            Run ID: ${{ github.run_id }}"
+
+            git push
+          fi
+
+      # Upload logs as artifact (for debugging)
+      - name: Upload automation logs
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: automation-logs-${{ github.run_id }}
+          path: |
+            automation/data/state.json
+            automation/data/task_history.json
+          retention-days: 7
+
+  # Notification job (runs even if main job fails)
+  notify-on-failure:
+    runs-on: ubuntu-latest
+    needs: run-agent
+    if: failure()
+
+    steps:
+      - name: Send failure notification
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          curl -s -X POST "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage" \
+            -d chat_id="${TELEGRAM_CHAT_ID}" \
+            -d parse_mode="HTML" \
+            -d text="🔴 <b>SleepWise Bot Alert</b>
+
+          ❌ Automation workflow failed!
+
+          📋 Run: <a href=\"${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}\">View Logs</a>
+
+          ⏰ Time: $(date -u '+%Y-%m-%d %H:%M UTC')"

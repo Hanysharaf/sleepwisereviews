@@ -1,0 +1,126 @@
+{
+  "version": "1.0",
+  "description": "Content calendar for SleepWise Reviews automation",
+  "schedule": {
+    "monday": {
+      "pinterest": ["08:00", "12:00", "18:00", "21:00"],
+      "instagram_prep": true,
+      "theme": "Sleep Tips Monday"
+    },
+    "tuesday": {
+      "pinterest": ["08:00", "12:00", "18:00", "21:00"],
+      "instagram_prep": true,
+      "theme": "Product Spotlight"
+    },
+    "wednesday": {
+      "pinterest": ["08:00", "12:00", "18:00", "21:00"],
+      "instagram_prep": true,
+      "theme": "Wellness Wednesday"
+    },
+    "thursday": {
+      "pinterest": ["08:00", "12:00", "18:00", "21:00"],
+      "instagram_prep": true,
+      "theme": "Science Thursday"
+    },
+    "friday": {
+      "pinterest": ["08:00", "12:00", "18:00", "21:00"],
+      "instagram_prep": true,
+      "theme": "FAQ Friday"
+    },
+    "saturday": {
+      "pinterest": ["10:00", "14:00", "20:00"],
+      "instagram_prep": true,
+      "theme": "Weekend Relaxation"
+    },
+    "sunday": {
+      "pinterest": ["10:00", "14:00", "20:00"],
+      "instagram_prep": true,
+      "article_generation": true,
+      "theme": "Self-Care Sunday"
+    }
+  },
+  "content_topics": {
+    "rotating": [
+      "weighted blankets",
+      "sleep pillows",
+      "white noise machines",
+      "sleep trackers",
+      "mattress toppers",
+      "sleep masks",
+      "aromatherapy for sleep",
+      "blue light glasses",
+      "natural sleep supplements",
+      "bedroom optimization"
+    ],
+    "seasonal": {
+      "winter": ["cozy bedding", "heated blankets", "winter sleep tips"],
+      "spring": ["allergy-free sleep", "spring cleaning bedroom", "light therapy"],
+      "summer": ["cooling sleep products", "summer sleep tips", "humidity control"],
+      "fall": ["cozy bedroom setup", "daylight saving tips", "autumn sleep routine"]
+    },
+    "evergreen": [
+      "how to fall asleep faster",
+      "benefits of quality sleep",
+      "sleep hygiene tips",
+      "bedroom environment optimization",
+      "sleep schedules and routines"
+    ]
+  },
+  "article_templates": {
+    "buying_guide": {
+      "structure": ["introduction", "what_to_look_for", "top_picks", "comparison", "faq", "conclusion"],
+      "target_length": 2000
+    },
+    "product_review": {
+      "structure": ["introduction", "overview", "pros", "cons", "who_its_for", "verdict"],
+      "target_length": 1500
+    },
+    "how_to": {
+      "structure": ["introduction", "why_it_matters", "step_by_step", "tips", "common_mistakes", "conclusion"],
+      "target_length": 1200
+    },
+    "comparison": {
+      "structure": ["introduction", "overview", "detailed_comparison", "verdict", "faq"],
+      "target_length": 1800
+    },
+    "tips_list": {
+      "structure": ["introduction", "tips", "implementation", "conclusion"],
+      "target_length": 1000
+    }
+  },
+  "instagram_themes": {
+    "carousel": {
+      "slides": 5,
+      "topics": ["quick tips", "myths vs facts", "product features"]
+    },
+    "single_image": {
+      "topics": ["quotes", "product highlight", "before/after"]
+    },
+    "reel_ideas": {
+      "topics": ["bedroom tour", "product unboxing", "morning routine"]
+    }
+  },
+  "hashtag_sets": {
+    "sleep_general": [
+      "sleep", "sleeptips", "bettersleep", "sleephealth",
+      "sleepwell", "sleepy", "goodnight", "restfulsleep"
+    ],
+    "wellness": [
+      "wellness", "selfcare", "healthylifestyle", "mindfulness",
+      "mentalhealth", "relaxation", "stressrelief"
+    ],
+    "products": [
+      "sleepproducts", "bedroomessentials", "homewellness",
+      "sleeptech", "cozy", "bedroom", "bedding"
+    ],
+    "lifestyle": [
+      "morningroutine", "nightroutine", "dailyhabits",
+      "productivitytips", "healthyliving"
+    ]
+  },
+  "posting_times": {
+    "instagram_best": ["06:00", "09:00", "12:00", "17:00", "20:00"],
+    "pinterest_best": ["08:00", "14:00", "20:00", "23:00"],
+    "timezone": "UTC"
+  }
+}

@@ -1,0 +1,489 @@
+"""
+SleepWise Automation Agent - Main Entry Point
+Orchestrates all automation tasks based on schedule.
+"""
+
+import logging
+import json
+import sys
+from pathlib import Path
+from datetime import datetime, timezone
+from typing import Optional, Dict, List
+
+# Add parent directory to path for imports
+sys.path.insert(0, str(Path(__file__).parent))
+
+from config import (
+    SCHEDULE_CONFIG, STATE_FILE, HISTORY_FILE, DATA_DIR,
+    validate_config, get_current_hour, get_current_day,
+    is_github_actions
+)
+from modules import (
+    TelegramReporter,
+    PinterestManager,
+    ContentGenerator,
+    WebsiteManager,
+    InstagramPrep
+)
+
+# Configure logging
+logging.basicConfig(
+    level=logging.INFO,
+    format="%(asctime)s - %(name)s - %(levelname)s - %(message)s",
+    handlers=[
+        logging.StreamHandler(sys.stdout)
+    ]
+)
+logger = logging.getLogger("SleepWiseAgent")
+
+
+class SleepWiseAgent:
+    """Main automation agent that orchestrates all tasks."""
+
+    def __init__(self):
+        """Initialize the agent and all modules."""
+        logger.info("Initializing SleepWise Agent...")
+
+        # Initialize modules
+        self.telegram = TelegramReporter()
+        self.pinterest = PinterestManager()
+        self.content = ContentGenerator()
+        self.website = WebsiteManager()
+        self.instagram = InstagramPrep()
+
+        # Load state
+        self.state = self._load_state()
+        self.history = self._load_history()
+
+        # Ensure data directory exists
+        DATA_DIR.mkdir(parents=True, exist_ok=True)
+
+    # ==========================================================================
+    # State Management
+    # ==========================================================================
+
+    def _load_state(self) -> dict:
+        """Load agent state from file."""
+        if STATE_FILE.exists():
+            try:
+                with open(STATE_FILE, "r", encoding="utf-8") as f:
+                    return json.load(f)
+            except json.JSONDecodeError:
+                logger.warning("Could not parse state file, using defaults")
+
+        return {
+            "last_run": None,
+            "pins_today": 0,
+            "pins_this_week": 0,
+            "articles_this_week": 0,
+            "ig_posts_prepared": 0,
+            "last_article_date": None,
+            "last_pin_date": None,
+            "errors_today": 0,
+            "week_start": datetime.now(timezone.utc).strftime("%Y-%m-%d")
+        }
+
+    def _save_state(self):
+        """Save agent state to file."""
+        self.state["last_run"] = datetime.now(timezone.utc).isoformat()
+        with open(STATE_FILE, "w", encoding="utf-8") as f:
+            json.dump(self.state, f, indent=2)
+        logger.debug("State saved")
+
+    def _load_history(self) -> List[dict]:
+        """Load task history from file."""
+        if HISTORY_FILE.exists():
+            try:
+                with open(HISTORY_FILE, "r", encoding="utf-8") as f:
+                    return json.load(f)
+            except json.JSONDecodeError:
+                return []
+        return []
+
+    def _add_to_history(self, task: str, result: dict):
+        """Add task execution to history."""
+        self.history.append({
+            "timestamp": datetime.now(timezone.utc).isoformat(),
+            "task": task,
+            "success": result.get("ok", False),
+            "details": result.get("details", "")
+        })
+
+        # Keep only last 100 entries
+        self.history = self.history[-100:]
+
+        with open(HISTORY_FILE, "w", encoding="utf-8") as f:
+            json.dump(self.history, f, indent=2)
+
+    def _reset_daily_counters(self):
+        """Reset daily counters if it's a new day."""
+        today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+        last_run = self.state.get("last_run", "")
+
+        if last_run and not last_run.startswith(today):
+            logger.info("New day detected, resetting daily counters")
+            self.state["pins_today"] = 0
+            self.state["errors_today"] = 0
+
+    def _reset_weekly_counters(self):
+        """Reset weekly counters if it's a new week."""
+        today = datetime.now(timezone.utc)
+        week_start = self.state.get("week_start", "")
+
+        if today.weekday() == 0:  # Monday
+            if week_start != today.strftime("%Y-%m-%d"):
+                logger.info("New week detected, resetting weekly counters")
+                self.state["pins_this_week"] = 0
+                self.state["articles_this_week"] = 0
+                self.state["week_start"] = today.strftime("%Y-%m-%d")
+
+    # ==========================================================================
+    # Task Execution
+    # ==========================================================================
+
+    def run(self):
+        """Main entry point - determine and execute current task."""
+        logger.info("=" * 50)
+        logger.info("SleepWise Agent Starting")
+        logger.info("=" * 50)
+
+        # Validate configuration
+        config_check = validate_config()
+        if not config_check["valid"]:
+            logger.error(f"Configuration issues: {config_check['issues']}")
+            self.telegram.send_error_report(
+                f"Configuration issues: {', '.join(config_check['issues'])}",
+                "startup"
+            )
+            return
+
+        # Reset counters if needed
+        self._reset_daily_counters()
+        self._reset_weekly_counters()
+
+        # Determine current task
+        current_hour = get_current_hour()
+        current_day = get_current_day()
+
+        logger.info(f"Current time: {current_hour}:00 UTC, Day: {current_day}")
+
+        # Map hour to task
+        hour_key = f"{current_hour:02d}:00"
+        task = SCHEDULE_CONFIG["tasks"].get(hour_key)
+
+        # Check for weekly tasks
+        weekly_tasks = SCHEDULE_CONFIG["weekly_tasks"].get(current_day, [])
+
+        # Execute scheduled task
+        if task:
+            logger.info(f"Executing scheduled task: {task}")
+            self._execute_task(task)
+
+        # Execute weekly tasks (on Sundays at specific hours)
+        if current_day == "sunday" and current_hour == 12:
+            for weekly_task in weekly_tasks:
+                logger.info(f"Executing weekly task: {weekly_task}")
+                self._execute_task(weekly_task)
+
+        # Save state
+        self._save_state()
+
+        logger.info("=" * 50)
+        logger.info("SleepWise Agent Complete")
+        logger.info("=" * 50)
+
+    def _execute_task(self, task: str):
+        """
+        Execute a specific task.
+
+        Args:
+            task: Task identifier
+        """
+        try:
+            if task == "pinterest_pin":
+                result = self._task_pinterest_pin()
+            elif task == "content_prep":
+                result = self._task_content_prep()
+            elif task == "instagram_notify":
+                result = self._task_instagram_notify()
+            elif task == "engagement_tips":
+                result = self._task_engagement_tips()
+            elif task == "daily_summary":
+                result = self._task_daily_summary()
+            elif task == "generate_article":
+                result = self._task_generate_article()
+            else:
+                logger.warning(f"Unknown task: {task}")
+                result = {"ok": False, "error": f"Unknown task: {task}"}
+
+            self._add_to_history(task, result)
+
+        except Exception as e:
+            logger.error(f"Task execution failed: {e}")
+            self.state["errors_today"] += 1
+            self.telegram.send_error_report(str(e), task)
+            self._add_to_history(task, {"ok": False, "error": str(e)})
+
+    # ==========================================================================
+    # Individual Tasks
+    # ==========================================================================
+
+    def _task_pinterest_pin(self) -> dict:
+        """Post a pin to Pinterest."""
+        logger.info("Executing Pinterest pin task")
+
+        # Get recent articles for pinning
+        articles = self.website.get_recent_articles(10)
+
+        if not articles:
+            logger.warning("No articles available for pinning")
+            return {"ok": False, "error": "No articles available"}
+
+        # Select an article that hasn't been pinned recently
+        # For now, just use the most recent one
+        article = articles[0]
+
+        # Get available images
+        images = self.website.get_available_images()
+        image_url = images[0]["url"] if images else None
+
+        if not image_url:
+            logger.warning("No images available for pin")
+            return {"ok": False, "error": "No images available"}
+
+        # Create pin data
+        pin_data = {
+            "title": article.get("filename", "Sleep Tips").replace(".html", "").replace("-", " ").title(),
+            "url": article.get("url", ""),
+            "image_url": image_url,
+            "keywords": ["sleep", "health", "wellness"],
+            "content_type": "tips"
+        }
+
+        # Post to Pinterest
+        result = self.pinterest.post_article_pin(pin_data)
+
+        if result.get("ok"):
+            self.state["pins_today"] += 1
+            self.state["pins_this_week"] += 1
+            self.state["last_pin_date"] = datetime.now(timezone.utc).isoformat()
+
+            # Notify via Telegram
+            pin_url = result.get("data", {}).get("link", "")
+            self.telegram.send_pinterest_success(
+                title=pin_data["title"],
+                board="Sleep Tips",
+                url=pin_url
+            )
+
+            return {"ok": True, "details": f"Pin posted: {pin_data['title']}"}
+
+        return result
+
+    def _task_content_prep(self) -> dict:
+        """Prepare content for social media."""
+        logger.info("Executing content preparation task")
+
+        # Generate Instagram caption for upcoming post
+        topic = self.content.select_random_topic()
+        result = self.content.generate_instagram_caption(
+            topic=topic,
+            style="engaging"
+        )
+
+        if result.get("ok"):
+            caption_data = result.get("caption_data", {})
+
+            # Prepare Instagram post
+            self.instagram.prepare_post(
+                caption=caption_data.get("caption", ""),
+                hashtags=caption_data.get("suggested_hashtags", [])
+            )
+
+            self.state["ig_posts_prepared"] += 1
+
+            return {
+                "ok": True,
+                "details": f"Content prepared for topic: {topic}"
+            }
+
+        return {"ok": False, "error": "Failed to generate content"}
+
+    def _task_instagram_notify(self) -> dict:
+        """Send notification about ready Instagram content."""
+        logger.info("Executing Instagram notification task")
+
+        # Get pending posts
+        pending = self.instagram.get_pending_posts()
+
+        if not pending:
+            logger.info("No pending Instagram posts")
+            return {"ok": True, "details": "No pending posts"}
+
+        # Send the first pending post
+        post = pending[0]
+        message = self.instagram.format_for_telegram(post)
+
+        # Send with image if available
+        if post.get("image_path") and Path(post["image_path"]).exists():
+            self.telegram.send_photo(post["image_path"], message[:1024])
+        else:
+            self.telegram.send_message(message)
+
+        return {
+            "ok": True,
+            "details": f"Instagram notification sent for post {post.get('id')}"
+        }
+
+    def _task_engagement_tips(self) -> dict:
+        """Send engagement tips via Telegram."""
+        logger.info("Executing engagement tips task")
+
+        result = self.telegram.send_engagement_tips()
+        return {
+            "ok": result.get("ok", False),
+            "details": "Engagement tips sent"
+        }
+
+    def _task_daily_summary(self) -> dict:
+        """Send daily summary report."""
+        logger.info("Executing daily summary task")
+
+        stats = {
+            "pins_today": self.state.get("pins_today", 0),
+            "ig_prepared": self.state.get("ig_posts_prepared", 0),
+            "articles_today": 0,  # Would track if we generated articles today
+            "pins_week": self.state.get("pins_this_week", 0),
+            "ig_week": self.instagram.get_posting_stats().get("posted_this_week", 0),
+            "articles_week": self.state.get("articles_this_week", 0)
+        }
+
+        result = self.telegram.send_daily_summary(stats)
+        return {
+            "ok": result.get("ok", False),
+            "details": "Daily summary sent"
+        }
+
+    def _task_generate_article(self) -> dict:
+        """Generate a new article for the website."""
+        logger.info("Executing article generation task")
+
+        # Select topic and type
+        topic = self.content.select_random_topic()
+        content_type = self.content.select_random_content_type()
+
+        logger.info(f"Generating {content_type} article about: {topic}")
+
+        # Generate article
+        result = self.content.generate_article(topic, content_type)
+
+        if not result.get("ok"):
+            return {"ok": False, "error": "Failed to generate article content"}
+
+        article_data = result.get("article", {})
+
+        if not article_data or "title" not in article_data:
+            return {"ok": False, "error": "Invalid article data generated"}
+
+        # Create the article file
+        create_result = self.website.create_article(article_data)
+
+        if create_result.get("ok"):
+            self.state["articles_this_week"] += 1
+            self.state["last_article_date"] = datetime.now(timezone.utc).isoformat()
+
+            # Notify via Telegram
+            self.telegram.send_article_notification(
+                title=article_data.get("title", "New Article"),
+                url=create_result.get("url", "")
+            )
+
+            # Prepare Instagram post from article
+            self.instagram.prepare_from_article({
+                "title": article_data.get("title"),
+                "introduction": article_data.get("introduction"),
+                "keywords": article_data.get("keywords", []),
+                "url": create_result.get("url")
+            })
+
+            return {
+                "ok": True,
+                "details": f"Article created: {article_data.get('title')}"
+            }
+
+        return create_result
+
+    # ==========================================================================
+    # Manual Triggers
+    # ==========================================================================
+
+    def manual_pinterest_pin(self, article_index: int = 0) -> dict:
+        """Manually trigger a Pinterest pin."""
+        return self._task_pinterest_pin()
+
+    def manual_generate_article(self, topic: str = None) -> dict:
+        """Manually trigger article generation."""
+        if topic:
+            # Use provided topic
+            result = self.content.generate_article(topic)
+            if result.get("ok"):
+                article_data = result.get("article", {})
+                return self.website.create_article(article_data)
+        return self._task_generate_article()
+
+    def test_connections(self) -> dict:
+        """Test all API connections."""
+        results = {
+            "telegram": self.telegram.test_connection(),
+            "pinterest": self.pinterest.test_connection(),
+            "claude": self.content.test_connection()
+        }
+
+        all_ok = all(results.values())
+        logger.info(f"Connection tests: {results}")
+
+        if all_ok:
+            self.telegram.send_startup_report()
+
+        return {"ok": all_ok, "results": results}
+
+
+# =============================================================================
+# Entry Point
+# =============================================================================
+
+def main():
+    """Main entry point for the automation agent."""
+    agent = SleepWiseAgent()
+
+    # Check command line arguments
+    if len(sys.argv) > 1:
+        command = sys.argv[1]
+
+        if command == "test":
+            results = agent.test_connections()
+            print(f"Connection test results: {results}")
+
+        elif command == "pin":
+            result = agent.manual_pinterest_pin()
+            print(f"Pinterest pin result: {result}")
+
+        elif command == "article":
+            topic = sys.argv[2] if len(sys.argv) > 2 else None
+            result = agent.manual_generate_article(topic)
+            print(f"Article generation result: {result}")
+
+        elif command == "summary":
+            result = agent._task_daily_summary()
+            print(f"Summary sent: {result}")
+
+        else:
+            print(f"Unknown command: {command}")
+            print("Available commands: test, pin, article, summary")
+    else:
+        # Normal scheduled run
+        agent.run()
+
+
+if __name__ == "__main__":
+    main()
