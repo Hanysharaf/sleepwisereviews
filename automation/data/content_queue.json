@@ -1,13 +1,13 @@
 {
   "version": "1.0",
-  "last_updated": "2026-03-09",
+  "last_updated": "2026-03-09T06:49:32.073180+00:00",
   "description": "Pre-written content queue - NO API credits needed! Add more using Claude Code sessions.",
-
   "daily_tips": [
     {
       "id": "tip_001",
       "content": "Keep your bedroom at 65-68F (18-20C) for optimal sleep. Your body temperature needs to drop for quality rest.",
-      "sent": false
+      "sent": true,
+      "sent_at": "2026-03-09T06:49:32.073164+00:00"
     },
     {
       "id": "tip_002",
@@ -110,13 +110,23 @@
       "sent": false
     }
   ],
-
   "instagram_captions": [
     {
       "id": "ig_001",
       "topic": "Sleep Temperature",
       "caption": "Did you know the ideal bedroom temperature for sleep is 65-68F (18-20C)? Your body needs to cool down to fall asleep! Try lowering your thermostat tonight and see the difference.",
-      "hashtags": ["#SleepTips", "#BetterSleep", "#SleepScience", "#HealthySleep", "#SleepWell", "#RestfulNights", "#SleepHacks", "#WellnessJourney", "#SelfCare", "#NightRoutine"],
+      "hashtags": [
+        "#SleepTips",
+        "#BetterSleep",
+        "#SleepScience",
+        "#HealthySleep",
+        "#SleepWell",
+        "#RestfulNights",
+        "#SleepHacks",
+        "#WellnessJourney",
+        "#SelfCare",
+        "#NightRoutine"
+      ],
       "product_link": "https://www.amazon.com/s?k=cooling+mattress+pad&tag=sleepwiserevi-20",
       "sent": false
     },
@@ -124,7 +134,18 @@
       "id": "ig_002",
       "topic": "Caffeine Timing",
       "caption": "That 3pm coffee might be ruining your sleep! Caffeine has a half-life of 5-6 hours, meaning half is still in your system. Cut off caffeine by 2pm for better rest tonight.",
-      "hashtags": ["#CaffeineFree", "#SleepBetter", "#HealthyHabits", "#SleepTips", "#Wellness", "#BetterSleep", "#NoCaffeine", "#SleepHygiene", "#HealthyLifestyle", "#RestfulSleep"],
+      "hashtags": [
+        "#CaffeineFree",
+        "#SleepBetter",
+        "#HealthyHabits",
+        "#SleepTips",
+        "#Wellness",
+        "#BetterSleep",
+        "#NoCaffeine",
+        "#SleepHygiene",
+        "#HealthyLifestyle",
+        "#RestfulSleep"
+      ],
       "product_link": "https://www.amazon.com/s?k=herbal+sleep+tea&tag=sleepwiserevi-20",
       "sent": false
     },
@@ -132,7 +153,18 @@
       "id": "ig_003",
       "topic": "Weighted Blankets",
       "caption": "Weighted blankets aren't just cozy - they're science! Deep pressure stimulation triggers your parasympathetic nervous system, reducing anxiety and promoting calm. Game changer for anxious sleepers!",
-      "hashtags": ["#WeightedBlanket", "#AnxietyRelief", "#DeepSleep", "#SleepProducts", "#CozyNights", "#SleepBetter", "#Relaxation", "#StressRelief", "#SleepWell", "#BetterSleep"],
+      "hashtags": [
+        "#WeightedBlanket",
+        "#AnxietyRelief",
+        "#DeepSleep",
+        "#SleepProducts",
+        "#CozyNights",
+        "#SleepBetter",
+        "#Relaxation",
+        "#StressRelief",
+        "#SleepWell",
+        "#BetterSleep"
+      ],
       "product_link": "https://www.amazon.com/s?k=weighted+blanket&tag=sleepwiserevi-20",
       "sent": false
     },
@@ -140,7 +172,18 @@
       "id": "ig_004",
       "topic": "White Noise",
       "caption": "Why does white noise help you sleep? It masks sudden noises that would otherwise wake you up. Your brain stays in a consistent sound environment all night. Try it if you're a light sleeper!",
-      "hashtags": ["#WhiteNoise", "#SleepSounds", "#BetterSleep", "#SleepTips", "#LightSleeper", "#SleepHacks", "#RestfulNights", "#SleepWell", "#SoundSleep", "#SleepBetter"],
+      "hashtags": [
+        "#WhiteNoise",
+        "#SleepSounds",
+        "#BetterSleep",
+        "#SleepTips",
+        "#LightSleeper",
+        "#SleepHacks",
+        "#RestfulNights",
+        "#SleepWell",
+        "#SoundSleep",
+        "#SleepBetter"
+      ],
       "product_link": "https://www.amazon.com/s?k=white+noise+machine&tag=sleepwiserevi-20",
       "sent": false
     },
@@ -148,7 +191,18 @@
       "id": "ig_005",
       "topic": "Magnesium for Sleep",
       "caption": "Magnesium is the relaxation mineral! It helps regulate neurotransmitters that calm your nervous system. Most people are deficient. Try magnesium glycinate 1 hour before bed.",
-      "hashtags": ["#Magnesium", "#NaturalSleep", "#SleepSupplements", "#SleepNaturally", "#Wellness", "#HealthySleep", "#SleepTips", "#NaturalRemedies", "#BetterSleep", "#SleepWell"],
+      "hashtags": [
+        "#Magnesium",
+        "#NaturalSleep",
+        "#SleepSupplements",
+        "#SleepNaturally",
+        "#Wellness",
+        "#HealthySleep",
+        "#SleepTips",
+        "#NaturalRemedies",
+        "#BetterSleep",
+        "#SleepWell"
+      ],
       "product_link": "https://www.amazon.com/s?k=magnesium+glycinate+sleep&tag=sleepwiserevi-20",
       "sent": false
     },
@@ -156,7 +210,18 @@
       "id": "ig_006",
       "topic": "Sleep Mask Benefits",
       "caption": "Even tiny amounts of light can disrupt your melatonin production. A quality sleep mask creates complete darkness, signaling your brain it's time for deep rest. Especially helpful if you live in a city!",
-      "hashtags": ["#SleepMask", "#DeepSleep", "#Melatonin", "#SleepHacks", "#BetterSleep", "#RestfulNights", "#SleepProducts", "#DarknessSleep", "#QualitySleep", "#SleepWell"],
+      "hashtags": [
+        "#SleepMask",
+        "#DeepSleep",
+        "#Melatonin",
+        "#SleepHacks",
+        "#BetterSleep",
+        "#RestfulNights",
+        "#SleepProducts",
+        "#DarknessSleep",
+        "#QualitySleep",
+        "#SleepWell"
+      ],
       "product_link": "https://www.amazon.com/s?k=silk+sleep+mask&tag=sleepwiserevi-20",
       "sent": false
     },
@@ -164,7 +229,18 @@
       "id": "ig_007",
       "topic": "Pillow Selection",
       "caption": "Wrong pillow = neck pain + poor sleep. Side sleepers need firm, high pillows. Back sleepers need medium. Stomach sleepers need thin. What's your sleep position?",
-      "hashtags": ["#SleepPillow", "#NeckPain", "#SleepPosition", "#BetterSleep", "#SleepProducts", "#PillowTalk", "#QualitySleep", "#SleepTips", "#HealthySleep", "#RestfulNights"],
+      "hashtags": [
+        "#SleepPillow",
+        "#NeckPain",
+        "#SleepPosition",
+        "#BetterSleep",
+        "#SleepProducts",
+        "#PillowTalk",
+        "#QualitySleep",
+        "#SleepTips",
+        "#HealthySleep",
+        "#RestfulNights"
+      ],
       "product_link": "https://www.amazon.com/s?k=ergonomic+pillow&tag=sleepwiserevi-20",
       "sent": false
     },
@@ -172,7 +248,18 @@
       "id": "ig_008",
       "topic": "Blue Light Blocking",
       "caption": "Screens before bed suppress melatonin by up to 50%! Blue light blocking glasses can help if you can't avoid screens. Put them on 2 hours before bed for best results.",
-      "hashtags": ["#BlueLightGlasses", "#Melatonin", "#ScreenTime", "#SleepHacks", "#BetterSleep", "#DigitalWellness", "#SleepTips", "#NightRoutine", "#HealthySleep", "#SleepScience"],
+      "hashtags": [
+        "#BlueLightGlasses",
+        "#Melatonin",
+        "#ScreenTime",
+        "#SleepHacks",
+        "#BetterSleep",
+        "#DigitalWellness",
+        "#SleepTips",
+        "#NightRoutine",
+        "#HealthySleep",
+        "#SleepScience"
+      ],
       "product_link": "https://www.amazon.com/s?k=blue+light+blocking+glasses&tag=sleepwiserevi-20",
       "sent": false
     },
@@ -180,7 +267,18 @@
       "id": "ig_009",
       "topic": "Sleep Tracking",
       "caption": "You can't improve what you don't measure! Sleep trackers show your sleep stages, duration, and quality. Data helps you identify what's helping or hurting your sleep.",
-      "hashtags": ["#SleepTracker", "#SleepData", "#QuantifiedSelf", "#SleepScience", "#BetterSleep", "#SleepQuality", "#HealthTech", "#WellnessJourney", "#SleepTips", "#SleepHacks"],
+      "hashtags": [
+        "#SleepTracker",
+        "#SleepData",
+        "#QuantifiedSelf",
+        "#SleepScience",
+        "#BetterSleep",
+        "#SleepQuality",
+        "#HealthTech",
+        "#WellnessJourney",
+        "#SleepTips",
+        "#SleepHacks"
+      ],
       "product_link": "https://www.amazon.com/s?k=sleep+tracker&tag=sleepwiserevi-20",
       "sent": false
     },
@@ -188,7 +286,18 @@
       "id": "ig_010",
       "topic": "Blackout Curtains",
       "caption": "Street lights, car headlights, early morning sun - all enemies of deep sleep! Blackout curtains block 99% of light, helping your body produce more melatonin naturally.",
-      "hashtags": ["#BlackoutCurtains", "#DeepSleep", "#Melatonin", "#SleepEnvironment", "#BetterSleep", "#SleepHacks", "#BedroomDecor", "#QualitySleep", "#SleepTips", "#RestfulNights"],
+      "hashtags": [
+        "#BlackoutCurtains",
+        "#DeepSleep",
+        "#Melatonin",
+        "#SleepEnvironment",
+        "#BetterSleep",
+        "#SleepHacks",
+        "#BedroomDecor",
+        "#QualitySleep",
+        "#SleepTips",
+        "#RestfulNights"
+      ],
       "product_link": "https://www.amazon.com/s?k=blackout+curtains&tag=sleepwiserevi-20",
       "sent": false
     },
@@ -196,7 +305,18 @@
       "id": "ig_011",
       "topic": "Aromatherapy",
       "caption": "Lavender isn't just a nice smell - studies show it can lower heart rate and blood pressure, creating the perfect conditions for sleep. Try a diffuser with lavender essential oil!",
-      "hashtags": ["#Aromatherapy", "#Lavender", "#EssentialOils", "#NaturalSleep", "#RelaxationTime", "#SleepNaturally", "#BetterSleep", "#SleepTips", "#HolisticHealth", "#SelfCare"],
+      "hashtags": [
+        "#Aromatherapy",
+        "#Lavender",
+        "#EssentialOils",
+        "#NaturalSleep",
+        "#RelaxationTime",
+        "#SleepNaturally",
+        "#BetterSleep",
+        "#SleepTips",
+        "#HolisticHealth",
+        "#SelfCare"
+      ],
       "product_link": "https://www.amazon.com/s?k=lavender+essential+oil+diffuser&tag=sleepwiserevi-20",
       "sent": false
     },
@@ -204,12 +324,22 @@
       "id": "ig_012",
       "topic": "Morning Light",
       "caption": "The secret to better sleep starts in the MORNING! 10-30 minutes of natural sunlight after waking sets your circadian rhythm, making it easier to fall asleep at night.",
-      "hashtags": ["#CircadianRhythm", "#MorningRoutine", "#SunlightTherapy", "#SleepScience", "#BetterSleep", "#HealthyHabits", "#WellnessJourney", "#SleepTips", "#NaturalEnergy", "#SleepHacks"],
+      "hashtags": [
+        "#CircadianRhythm",
+        "#MorningRoutine",
+        "#SunlightTherapy",
+        "#SleepScience",
+        "#BetterSleep",
+        "#HealthyHabits",
+        "#WellnessJourney",
+        "#SleepTips",
+        "#NaturalEnergy",
+        "#SleepHacks"
+      ],
       "product_link": "https://www.amazon.com/s?k=light+therapy+lamp&tag=sleepwiserevi-20",
       "sent": false
     }
   ],
-
   "engagement_messages": [
     {
       "id": "eng_001",
@@ -282,7 +412,6 @@
       "sent": false
     }
   ],
-
   "weekly_tasks": [
     {
       "id": "week_001",
