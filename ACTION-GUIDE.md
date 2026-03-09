@@ -1,8 +1,29 @@
 # SleepWise Daily Action Guide
 
-## What To Do When You Get Each Notification
+## Project Status: Live & Active
+**Last Updated:** March 2025
 
 ---
+
+## What's Live Now
+
+### Website
+- **URL:** https://hanysharaf.github.io/sleepwisereviews/
+- **Articles:** 26 articles (2020-2025 history)
+- **All links working:** Categories, archive, footer, social icons
+
+### Social Media
+- **Pinterest:** https://www.pinterest.com/sleepwisereviews
+- **Instagram:** https://www.instagram.com/sleepwise.reviews
+
+### Content Ready
+- Pinterest pins in `content/` folder organized by date
+- Each folder has README.txt with copy-paste content
+- Amazon affiliate links with tag: `sleepwiserevi-20`
+
+---
+
+## What To Do When You Get Each Notification
 
 ### 1. Sleep Tip of the Day (Morning ~8 AM)
 
@@ -11,12 +32,12 @@
 > Keep your bedroom at 65-68F...
 
 **DO THIS:**
-1. Open Pinterest
-2. Create a pin with this tip (use Canva template)
-3. Add to "Sleep Tips" board
-4. Done! (2-3 minutes)
-
-**Optional:** Save tip for Instagram Story later
+1. Check `content/[today's-date]/` folder
+2. Open Pinterest
+3. Upload the pin image
+4. Copy title, description from README.txt
+5. Add to "Sleep Tips" board
+6. Done! (2-3 minutes)
 
 ---
 
@@ -25,14 +46,13 @@
 **When you see:**
 > Instagram Content Ready!
 > Topic: Sleep Temperature
-> [Caption + Hashtags + Product Link]
 
 **DO THIS:**
-1. Open Instagram app
-2. Create new post (use saved image or create in Canva)
-3. Copy/paste the caption
-4. Copy/paste hashtags (paste in comment, not caption)
-5. Add product link to your bio OR save for story "swipe up"
+1. Check `content/[today's-date]/instagram/` folder
+2. Open Instagram app
+3. Upload the post image
+4. Copy/paste caption from README.txt
+5. Add hashtags in first comment
 6. Post!
 
 **Time:** 5 minutes
@@ -43,11 +63,10 @@
 
 **When you see:**
 > Engagement Reminder
-> Check your Pinterest analytics...
 
 **DO THIS (pick 1-2):**
 - [ ] Reply to any Instagram comments (2 min)
-- [ ] Check Pinterest analytics, note top pins (3 min)
+- [ ] Check Pinterest analytics (3 min)
 - [ ] Save 5 pins from other sleep accounts (3 min)
 - [ ] Follow 3-5 accounts in sleep/wellness niche (2 min)
 
@@ -59,28 +78,13 @@
 
 **When you see:**
 > Weekly Task: Monday
-> Task: Plan this week's Pinterest pins
 
 **DO THIS:**
-1. Open Canva
-2. Create 5 pins for the week using templates
-3. Schedule in Pinterest (or save to post daily)
+1. Run `python automation/create_week_pins.py` (or ask Claude)
+2. Schedule all pins in Pinterest
+3. Review analytics from previous week
 
 **Time:** 20-30 minutes once per week
-
----
-
-### 5. Daily Summary (~10 PM)
-
-**When you see:**
-> Daily Summary
-> Pinterest pins today: X
-> IG posts prepared: X
-
-**DO THIS:**
-- Just review, no action needed
-- If zeros: Tomorrow do better!
-- Track your progress over weeks
 
 ---
 
@@ -88,7 +92,7 @@
 
 ```
 Morning (5 min):
-[ ] Post Pinterest pin from daily tip
+[ ] Post Pinterest pin from content folder
 
 Afternoon (5 min):
 [ ] Post Instagram content
@@ -101,48 +105,76 @@ Total: 15 minutes/day
 
 ---
 
+## Content Folders Structure
+
+```
+content/
+  2026-03-09-monday/
+    pinterest/
+      01-pin-monday-temperature.png
+    instagram/
+      01-ig-monday-temperature.png
+    README.txt  <-- Copy-paste content here!
+
+  2026-03-10-tuesday/
+    ...
+```
+
+---
+
 ## Weekly Schedule
 
 | Day | Main Task |
 |-----|-----------|
-| Mon | Plan week's Pinterest pins (30 min) |
-| Tue | Create Instagram content batch (20 min) |
-| Wed | Check analytics (10 min) |
-| Thu | Engagement focus (15 min) |
-| Fri | Research trending topics (10 min) |
-| Sat | Schedule weekend posts (10 min) |
-| Sun | Review week + plan next (15 min) |
-
----
-
-## Tools You Need Open
-
-1. **Telegram** - Get notifications
-2. **Canva** - Create pins/posts (canva.com)
-3. **Pinterest** - Post pins
-4. **Instagram** - Post content
-5. **Amazon Affiliate** - Check earnings (weekly)
+| Mon | Generate week's pins + schedule |
+| Tue | Instagram focus day |
+| Wed | Check analytics |
+| Thu | Engagement focus |
+| Fri | Research trending topics |
+| Sat | Schedule weekend posts |
+| Sun | Review week + check affiliate earnings |
 
 ---
 
 ## Your Links
 
-- **Instagram Bio Link:** `https://www.amazon.com/s?k=sleep+products&tag=sleepwiserevi-20`
+- **Website:** https://hanysharaf.github.io/sleepwisereviews/
+- **Pinterest:** https://www.pinterest.com/sleepwisereviews
+- **Instagram:** https://www.instagram.com/sleepwise.reviews
 - **Affiliate Tag:** `sleepwiserevi-20`
+- **Bio Link:** `https://www.amazon.com/s?k=sleep+products&tag=sleepwiserevi-20`
 
 ---
 
-## Future Automation (Planned)
+## Automation Scripts
 
-Phase 1 (Current): Manual posting with Telegram reminders
-Phase 2 (Next): Auto-generate videos for tips
-Phase 3 (Later): Auto-post to Instagram via Meta API
+| Script | Purpose |
+|--------|---------|
+| `automation/create_content.py` | Create single day's content |
+| `automation/create_week_pins.py` | Create full week of pins |
+| `automation/create_bonus_pins.py` | Create bonus pins (analytics-based) |
+| `automation/create_articles.py` | Generate website articles |
+
+---
+
+## Analytics Insights (Based on Pinterest Data)
+
+**Top Performers:**
+1. Weighted Blankets (52% of impressions)
+2. "Best X for Sleep" format works well
+3. Product-focused pins get more outbound clicks
+
+**Strategy:**
+- Create more weighted blanket content
+- Use "Best [Product] for Sleep" titles
+- Include clear Amazon CTA
 
 ---
 
 ## Need Help?
 
 Open Claude Code and say:
-- "Create a Pinterest pin for [topic]"
-- "Write Instagram caption for [product]"
-- "Add more tips to the queue"
+- "Create Pinterest pins for this week"
+- "Create Instagram content for [topic]"
+- "Check Pinterest analytics"
+- "Update the website"
