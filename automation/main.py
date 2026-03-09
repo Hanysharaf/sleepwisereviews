@@ -22,7 +22,8 @@ from modules import (
     TelegramReporter,
     ContentGenerator,
     WebsiteManager,
-    InstagramPrep
+    InstagramPrep,
+    QueueSender
 )
 
 # Configure logging
@@ -48,6 +49,9 @@ class SleepWiseAgent:
         self.content = ContentGenerator()
         self.website = WebsiteManager()
         self.instagram = InstagramPrep()
+
+        # Initialize queue sender (NO API credits needed!)
+        self.queue = QueueSender(telegram_reporter=self.telegram)
 
         # Load state
         self.state = self._load_state()
@@ -203,13 +207,22 @@ class SleepWiseAgent:
                 logger.info("Pinterest task skipped (API access not available)")
                 result = {"ok": True, "details": "Pinterest skipped - API access denied"}
             elif task == "content_prep":
-                result = self._task_content_prep()
+                # Use queue-based content (NO API credits needed!)
+                result = self._task_content_prep_from_queue()
             elif task == "instagram_notify":
-                result = self._task_instagram_notify()
+                # Use queue-based Instagram content (NO API credits needed!)
+                result = self._task_instagram_from_queue()
             elif task == "engagement_tips":
-                result = self._task_engagement_tips()
+                # Use queue-based engagement tips (NO API credits needed!)
+                result = self._task_engagement_from_queue()
             elif task == "daily_summary":
                 result = self._task_daily_summary()
+            elif task == "daily_tip":
+                # Send daily tip from queue
+                result = self._task_daily_tip_from_queue()
+            elif task == "weekly_task":
+                # Send weekly task reminder
+                result = self._task_weekly_from_queue()
             elif task == "generate_article":
                 result = self._task_generate_article()
             else:
@@ -291,6 +304,62 @@ class SleepWiseAgent:
         return {
             "ok": result.get("ok", False),
             "details": "Engagement tips sent"
+        }
+
+    # ==========================================================================
+    # Queue-Based Tasks (NO API CREDITS NEEDED!)
+    # Content is pre-written using Claude Code sessions
+    # ==========================================================================
+
+    def _task_content_prep_from_queue(self) -> dict:
+        """Send content from the pre-written queue."""
+        logger.info("Executing queue-based content prep (no API needed)")
+
+        # Send daily tip
+        result = self.queue.send_daily_tip()
+        return {
+            "ok": result.get("ok", False),
+            "details": f"Daily tip sent from queue: {result.get('tip_id', 'N/A')}"
+        }
+
+    def _task_instagram_from_queue(self) -> dict:
+        """Send Instagram content from the pre-written queue."""
+        logger.info("Executing queue-based Instagram content (no API needed)")
+
+        result = self.queue.send_instagram_content()
+        return {
+            "ok": result.get("ok", False),
+            "details": f"Instagram content sent: {result.get('caption_id', 'N/A')}"
+        }
+
+    def _task_engagement_from_queue(self) -> dict:
+        """Send engagement reminder from the pre-written queue."""
+        logger.info("Executing queue-based engagement tips (no API needed)")
+
+        result = self.queue.send_engagement_reminder()
+        return {
+            "ok": result.get("ok", False),
+            "details": f"Engagement reminder sent: {result.get('reminder_id', 'N/A')}"
+        }
+
+    def _task_daily_tip_from_queue(self) -> dict:
+        """Send daily sleep tip from queue."""
+        logger.info("Executing daily tip from queue (no API needed)")
+
+        result = self.queue.send_daily_tip()
+        return {
+            "ok": result.get("ok", False),
+            "details": f"Daily tip sent: {result.get('tip_id', 'N/A')}"
+        }
+
+    def _task_weekly_from_queue(self) -> dict:
+        """Send weekly task reminder from queue."""
+        logger.info("Executing weekly task from queue (no API needed)")
+
+        result = self.queue.send_weekly_task()
+        return {
+            "ok": result.get("ok", False),
+            "details": "Weekly task sent"
         }
 
     def _task_daily_summary(self) -> dict:

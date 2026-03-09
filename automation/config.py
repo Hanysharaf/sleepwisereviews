@@ -142,18 +142,25 @@ WEBSITE_CONFIG = {
 # =============================================================================
 # Scheduling Configuration
 # =============================================================================
+# Queue-based tasks (NO API CREDITS NEEDED!)
+# Content is pre-written using Claude Code sessions
 SCHEDULE_CONFIG = {
     "timezone": "UTC",
     "tasks": {
-        "04:00": "content_prep",
-        "12:00": "instagram_notify",
-        "16:00": "engagement_tips",
-        "20:00": "daily_summary"
+        "06:00": "daily_tip",           # Morning sleep tip
+        "08:00": "weekly_task",          # Weekly task reminder (if applicable)
+        "12:00": "instagram_notify",     # Instagram content from queue
+        "16:00": "engagement_tips",      # Engagement reminder from queue
+        "20:00": "daily_summary"         # Daily stats summary
     },
     "weekly_tasks": {
-        "sunday": ["generate_article"]
+        # Article generation still needs API - skip if no credits
+        # "sunday": ["generate_article"]
     }
 }
+
+# Queue file path
+QUEUE_FILE = DATA_DIR / "content_queue.json"
 
 # =============================================================================
 # Telegram Report Templates

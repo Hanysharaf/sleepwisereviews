@@ -1,0 +1,330 @@
+{
+  "version": "1.0",
+  "last_updated": "2026-03-09",
+  "description": "Pre-written content queue - NO API credits needed! Add more using Claude Code sessions.",
+
+  "daily_tips": [
+    {
+      "id": "tip_001",
+      "content": "Keep your bedroom at 65-68F (18-20C) for optimal sleep. Your body temperature needs to drop for quality rest.",
+      "sent": false
+    },
+    {
+      "id": "tip_002",
+      "content": "Stop caffeine 8-10 hours before bed. That afternoon coffee might be why you can't fall asleep!",
+      "sent": false
+    },
+    {
+      "id": "tip_003",
+      "content": "Blue light from screens suppresses melatonin. Use night mode or stop screens 1 hour before bed.",
+      "sent": false
+    },
+    {
+      "id": "tip_004",
+      "content": "Exercise improves sleep quality, but finish workouts 3-4 hours before bed to avoid being too energized.",
+      "sent": false
+    },
+    {
+      "id": "tip_005",
+      "content": "Consistent sleep schedule is key! Go to bed and wake up at the same time, even on weekends.",
+      "sent": false
+    },
+    {
+      "id": "tip_006",
+      "content": "Weighted blankets (7-12% of body weight) can reduce anxiety and improve sleep quality through deep pressure therapy.",
+      "sent": false
+    },
+    {
+      "id": "tip_007",
+      "content": "White noise masks disruptive sounds and creates a consistent audio environment for better sleep.",
+      "sent": false
+    },
+    {
+      "id": "tip_008",
+      "content": "Avoid large meals 2-3 hours before bed. Digestion can disrupt your sleep quality.",
+      "sent": false
+    },
+    {
+      "id": "tip_009",
+      "content": "Magnesium glycinate helps relax muscles and calm the nervous system. Take 200-400mg 1 hour before bed.",
+      "sent": false
+    },
+    {
+      "id": "tip_010",
+      "content": "Your mattress matters! Replace every 7-10 years. A sagging mattress can cause back pain and poor sleep.",
+      "sent": false
+    },
+    {
+      "id": "tip_011",
+      "content": "The 4-7-8 breathing technique: Inhale 4 sec, hold 7 sec, exhale 8 sec. Repeat 4x to calm your nervous system.",
+      "sent": false
+    },
+    {
+      "id": "tip_012",
+      "content": "Alcohol may help you fall asleep but disrupts REM sleep. Avoid drinking 3+ hours before bed.",
+      "sent": false
+    },
+    {
+      "id": "tip_013",
+      "content": "Complete darkness is essential. Even small lights from electronics can disrupt melatonin production.",
+      "sent": false
+    },
+    {
+      "id": "tip_014",
+      "content": "Can't sleep after 20 minutes? Get up and do something relaxing until you feel sleepy. Don't toss and turn.",
+      "sent": false
+    },
+    {
+      "id": "tip_015",
+      "content": "Lavender essential oil has been shown to improve sleep quality. Try a few drops on your pillow.",
+      "sent": false
+    },
+    {
+      "id": "tip_016",
+      "content": "Morning sunlight exposure helps set your circadian rhythm. Get 10-30 min of natural light after waking.",
+      "sent": false
+    },
+    {
+      "id": "tip_017",
+      "content": "Your pillow height matters! Side sleepers need higher pillows, back sleepers need medium, stomach sleepers need flat.",
+      "sent": false
+    },
+    {
+      "id": "tip_018",
+      "content": "Naps are best kept under 20 minutes to avoid sleep inertia. The ideal nap time is between 1-3 PM.",
+      "sent": false
+    },
+    {
+      "id": "tip_019",
+      "content": "A warm bath 1-2 hours before bed helps. As your body cools down afterward, it triggers sleepiness.",
+      "sent": false
+    },
+    {
+      "id": "tip_020",
+      "content": "Reserve your bed for sleep only. Working or watching TV in bed weakens the mental association with rest.",
+      "sent": false
+    },
+    {
+      "id": "tip_021",
+      "content": "Chamomile tea contains apigenin, which binds to receptors in your brain that promote sleepiness.",
+      "sent": false
+    }
+  ],
+
+  "instagram_captions": [
+    {
+      "id": "ig_001",
+      "topic": "Sleep Temperature",
+      "caption": "Did you know the ideal bedroom temperature for sleep is 65-68F (18-20C)? Your body needs to cool down to fall asleep! Try lowering your thermostat tonight and see the difference.",
+      "hashtags": ["#SleepTips", "#BetterSleep", "#SleepScience", "#HealthySleep", "#SleepWell", "#RestfulNights", "#SleepHacks", "#WellnessJourney", "#SelfCare", "#NightRoutine"],
+      "product_link": "https://www.amazon.com/s?k=cooling+mattress+pad&tag=sleepwiserevi-20",
+      "sent": false
+    },
+    {
+      "id": "ig_002",
+      "topic": "Caffeine Timing",
+      "caption": "That 3pm coffee might be ruining your sleep! Caffeine has a half-life of 5-6 hours, meaning half is still in your system. Cut off caffeine by 2pm for better rest tonight.",
+      "hashtags": ["#CaffeineFree", "#SleepBetter", "#HealthyHabits", "#SleepTips", "#Wellness", "#BetterSleep", "#NoCaffeine", "#SleepHygiene", "#HealthyLifestyle", "#RestfulSleep"],
+      "product_link": "https://www.amazon.com/s?k=herbal+sleep+tea&tag=sleepwiserevi-20",
+      "sent": false
+    },
+    {
+      "id": "ig_003",
+      "topic": "Weighted Blankets",
+      "caption": "Weighted blankets aren't just cozy - they're science! Deep pressure stimulation triggers your parasympathetic nervous system, reducing anxiety and promoting calm. Game changer for anxious sleepers!",
+      "hashtags": ["#WeightedBlanket", "#AnxietyRelief", "#DeepSleep", "#SleepProducts", "#CozyNights", "#SleepBetter", "#Relaxation", "#StressRelief", "#SleepWell", "#BetterSleep"],
+      "product_link": "https://www.amazon.com/s?k=weighted+blanket&tag=sleepwiserevi-20",
+      "sent": false
+    },
+    {
+      "id": "ig_004",
+      "topic": "White Noise",
+      "caption": "Why does white noise help you sleep? It masks sudden noises that would otherwise wake you up. Your brain stays in a consistent sound environment all night. Try it if you're a light sleeper!",
+      "hashtags": ["#WhiteNoise", "#SleepSounds", "#BetterSleep", "#SleepTips", "#LightSleeper", "#SleepHacks", "#RestfulNights", "#SleepWell", "#SoundSleep", "#SleepBetter"],
+      "product_link": "https://www.amazon.com/s?k=white+noise+machine&tag=sleepwiserevi-20",
+      "sent": false
+    },
+    {
+      "id": "ig_005",
+      "topic": "Magnesium for Sleep",
+      "caption": "Magnesium is the relaxation mineral! It helps regulate neurotransmitters that calm your nervous system. Most people are deficient. Try magnesium glycinate 1 hour before bed.",
+      "hashtags": ["#Magnesium", "#NaturalSleep", "#SleepSupplements", "#SleepNaturally", "#Wellness", "#HealthySleep", "#SleepTips", "#NaturalRemedies", "#BetterSleep", "#SleepWell"],
+      "product_link": "https://www.amazon.com/s?k=magnesium+glycinate+sleep&tag=sleepwiserevi-20",
+      "sent": false
+    },
+    {
+      "id": "ig_006",
+      "topic": "Sleep Mask Benefits",
+      "caption": "Even tiny amounts of light can disrupt your melatonin production. A quality sleep mask creates complete darkness, signaling your brain it's time for deep rest. Especially helpful if you live in a city!",
+      "hashtags": ["#SleepMask", "#DeepSleep", "#Melatonin", "#SleepHacks", "#BetterSleep", "#RestfulNights", "#SleepProducts", "#DarknessSleep", "#QualitySleep", "#SleepWell"],
+      "product_link": "https://www.amazon.com/s?k=silk+sleep+mask&tag=sleepwiserevi-20",
+      "sent": false
+    },
+    {
+      "id": "ig_007",
+      "topic": "Pillow Selection",
+      "caption": "Wrong pillow = neck pain + poor sleep. Side sleepers need firm, high pillows. Back sleepers need medium. Stomach sleepers need thin. What's your sleep position?",
+      "hashtags": ["#SleepPillow", "#NeckPain", "#SleepPosition", "#BetterSleep", "#SleepProducts", "#PillowTalk", "#QualitySleep", "#SleepTips", "#HealthySleep", "#RestfulNights"],
+      "product_link": "https://www.amazon.com/s?k=ergonomic+pillow&tag=sleepwiserevi-20",
+      "sent": false
+    },
+    {
+      "id": "ig_008",
+      "topic": "Blue Light Blocking",
+      "caption": "Screens before bed suppress melatonin by up to 50%! Blue light blocking glasses can help if you can't avoid screens. Put them on 2 hours before bed for best results.",
+      "hashtags": ["#BlueLightGlasses", "#Melatonin", "#ScreenTime", "#SleepHacks", "#BetterSleep", "#DigitalWellness", "#SleepTips", "#NightRoutine", "#HealthySleep", "#SleepScience"],
+      "product_link": "https://www.amazon.com/s?k=blue+light+blocking+glasses&tag=sleepwiserevi-20",
+      "sent": false
+    },
+    {
+      "id": "ig_009",
+      "topic": "Sleep Tracking",
+      "caption": "You can't improve what you don't measure! Sleep trackers show your sleep stages, duration, and quality. Data helps you identify what's helping or hurting your sleep.",
+      "hashtags": ["#SleepTracker", "#SleepData", "#QuantifiedSelf", "#SleepScience", "#BetterSleep", "#SleepQuality", "#HealthTech", "#WellnessJourney", "#SleepTips", "#SleepHacks"],
+      "product_link": "https://www.amazon.com/s?k=sleep+tracker&tag=sleepwiserevi-20",
+      "sent": false
+    },
+    {
+      "id": "ig_010",
+      "topic": "Blackout Curtains",
+      "caption": "Street lights, car headlights, early morning sun - all enemies of deep sleep! Blackout curtains block 99% of light, helping your body produce more melatonin naturally.",
+      "hashtags": ["#BlackoutCurtains", "#DeepSleep", "#Melatonin", "#SleepEnvironment", "#BetterSleep", "#SleepHacks", "#BedroomDecor", "#QualitySleep", "#SleepTips", "#RestfulNights"],
+      "product_link": "https://www.amazon.com/s?k=blackout+curtains&tag=sleepwiserevi-20",
+      "sent": false
+    },
+    {
+      "id": "ig_011",
+      "topic": "Aromatherapy",
+      "caption": "Lavender isn't just a nice smell - studies show it can lower heart rate and blood pressure, creating the perfect conditions for sleep. Try a diffuser with lavender essential oil!",
+      "hashtags": ["#Aromatherapy", "#Lavender", "#EssentialOils", "#NaturalSleep", "#RelaxationTime", "#SleepNaturally", "#BetterSleep", "#SleepTips", "#HolisticHealth", "#SelfCare"],
+      "product_link": "https://www.amazon.com/s?k=lavender+essential+oil+diffuser&tag=sleepwiserevi-20",
+      "sent": false
+    },
+    {
+      "id": "ig_012",
+      "topic": "Morning Light",
+      "caption": "The secret to better sleep starts in the MORNING! 10-30 minutes of natural sunlight after waking sets your circadian rhythm, making it easier to fall asleep at night.",
+      "hashtags": ["#CircadianRhythm", "#MorningRoutine", "#SunlightTherapy", "#SleepScience", "#BetterSleep", "#HealthyHabits", "#WellnessJourney", "#SleepTips", "#NaturalEnergy", "#SleepHacks"],
+      "product_link": "https://www.amazon.com/s?k=light+therapy+lamp&tag=sleepwiserevi-20",
+      "sent": false
+    }
+  ],
+
+  "engagement_messages": [
+    {
+      "id": "eng_001",
+      "message": "Check your Pinterest analytics - which pins got the most saves this week? Create more content like your top performers!",
+      "sent": false
+    },
+    {
+      "id": "eng_002",
+      "message": "Reply to any comments on your Instagram posts from the last 24 hours. Engagement boosts your visibility!",
+      "sent": false
+    },
+    {
+      "id": "eng_003",
+      "message": "Save 5-10 pins from other sleep/wellness accounts to your boards. This helps Pinterest show your content to similar audiences.",
+      "sent": false
+    },
+    {
+      "id": "eng_004",
+      "message": "Check Amazon affiliate dashboard - any sales or clicks this week? Note which products are converting.",
+      "sent": false
+    },
+    {
+      "id": "eng_005",
+      "message": "Research trending sleep topics on Pinterest. What questions are people asking? Create content that answers them!",
+      "sent": false
+    },
+    {
+      "id": "eng_006",
+      "message": "Update your Pinterest profile and board descriptions with relevant keywords for better SEO.",
+      "sent": false
+    },
+    {
+      "id": "eng_007",
+      "message": "Check your Instagram insights - what time are your followers most active? Schedule posts accordingly.",
+      "sent": false
+    },
+    {
+      "id": "eng_008",
+      "message": "Join 2-3 Pinterest group boards in the sleep/wellness niche. Share your pins there for more reach.",
+      "sent": false
+    },
+    {
+      "id": "eng_009",
+      "message": "Create a new Pinterest board for a specific topic (e.g., 'Sleep Products for Anxiety'). Niche boards attract targeted followers.",
+      "sent": false
+    },
+    {
+      "id": "eng_010",
+      "message": "Review your top 5 Amazon affiliate links. Are the products still available and well-reviewed? Update if needed.",
+      "sent": false
+    },
+    {
+      "id": "eng_011",
+      "message": "Follow 10 accounts in your niche on Instagram. Genuine engagement often leads to follow-backs and collaboration opportunities.",
+      "sent": false
+    },
+    {
+      "id": "eng_012",
+      "message": "Create a poll or question in your Instagram story to boost engagement and learn what your audience wants.",
+      "sent": false
+    },
+    {
+      "id": "eng_013",
+      "message": "Check which of your pins are ranking in Pinterest search. Optimize titles and descriptions for those doing well.",
+      "sent": false
+    },
+    {
+      "id": "eng_014",
+      "message": "Repurpose your best Instagram caption into a Pinterest pin. Same content, different platform, more reach!",
+      "sent": false
+    }
+  ],
+
+  "weekly_tasks": [
+    {
+      "id": "week_001",
+      "day": "monday",
+      "task": "Plan this week's Pinterest pins",
+      "details": "Aim for 5-7 new pins. Use Canva templates. Focus on sleep tips and product recommendations."
+    },
+    {
+      "id": "week_002",
+      "day": "tuesday",
+      "task": "Create Instagram content batch",
+      "details": "Design 2-3 posts for the week. Use consistent branding. Include calls to action."
+    },
+    {
+      "id": "week_003",
+      "day": "wednesday",
+      "task": "Analytics review day",
+      "details": "Check Pinterest, Instagram, and Amazon affiliate dashboards. Note what's working and what's not."
+    },
+    {
+      "id": "week_004",
+      "day": "thursday",
+      "task": "Engagement boost day",
+      "details": "Spend 15-30 min engaging with others in your niche. Comment, save, and share quality content."
+    },
+    {
+      "id": "week_005",
+      "day": "friday",
+      "task": "Content research day",
+      "details": "Research trending topics, competitor content, and seasonal opportunities for next week."
+    },
+    {
+      "id": "week_006",
+      "day": "saturday",
+      "task": "Schedule weekend content",
+      "details": "Queue up any remaining posts for the weekend. Check all links are working."
+    },
+    {
+      "id": "week_007",
+      "day": "sunday",
+      "task": "Weekly review and planning",
+      "details": "Review week's performance. Plan content strategy for next week. Use Claude Code to generate new queue content!"
+    }
+  ]
+}
