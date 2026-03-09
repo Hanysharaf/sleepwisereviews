@@ -943,6 +943,56 @@
     .blog-pager {
       display: none !important;
     }
+
+    /* ARTICLES ARCHIVE */
+    .archive-section {
+      background: var(--night);
+    }
+    .archive-year {
+      margin-bottom: 2.5rem;
+    }
+    .archive-year-title {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.4rem;
+      color: var(--gold);
+      margin-bottom: 1rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 1px solid var(--border);
+    }
+    .archive-list {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 1rem;
+    }
+    .archive-item {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1.2rem;
+      text-decoration: none;
+      transition: all 0.2s;
+    }
+    .archive-item:hover {
+      border-color: var(--gold);
+      transform: translateY(-2px);
+    }
+    .archive-item-date {
+      font-size: 0.72rem;
+      color: var(--muted);
+      margin-bottom: 0.4rem;
+    }
+    .archive-item-title {
+      font-size: 0.95rem;
+      color: var(--star);
+      line-height: 1.4;
+      margin-bottom: 0.4rem;
+    }
+    .archive-item-category {
+      font-size: 0.7rem;
+      color: var(--gold);
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
   </style>
 </head>
 
@@ -1055,7 +1105,7 @@
               <div class="label">Latest guides</div>
               <div class="section-title">Researched & Honest</div>
             </div>
-            <a class="view-all" href="#picks">All articles →</a>
+            <a class="view-all" href="#archive">All articles →</a>
           </div>
 
           <div class="articles-grid">
@@ -1238,6 +1288,188 @@
                 recommendations here.</div>
             </div>
           </div>
+        </div>
+      </section>
+
+      <!-- ARTICLES ARCHIVE -->
+      <section class="archive-section" id="archive">
+        <div class="section-inner">
+          <div class="label">Complete Library</div>
+          <div class="section-title">All Sleep Guides & Articles</div>
+          <div class="section-sub">5 years of research, 340+ products tested, organized by year.</div>
+
+          <!-- 2025 -->
+          <div class="archive-year">
+            <h3 class="archive-year-title">2025</h3>
+            <div class="archive-list">
+              <a class="archive-item" href="posts/article-weighted-blanket.html">
+                <div class="archive-item-date">Feb 15, 2025</div>
+                <div class="archive-item-title">7 Best Weighted Blankets for Deep Sleep in 2025 (Tested & Ranked)</div>
+                <div class="archive-item-category">Weighted Blankets</div>
+              </a>
+              <a class="archive-item" href="posts/article-magnesium-sleep.html">
+                <div class="archive-item-date">Feb 10, 2025</div>
+                <div class="archive-item-title">Best Magnesium for Sleep: Glycinate vs Citrate vs Threonate</div>
+                <div class="archive-item-category">Supplements</div>
+              </a>
+              <a class="archive-item" href="posts/article-white-noise-machines.html">
+                <div class="archive-item-date">Feb 5, 2025</div>
+                <div class="archive-item-title">7 Best White Noise Machines That Actually Block Sound</div>
+                <div class="archive-item-category">White Noise</div>
+              </a>
+              <a class="archive-item" href="posts/couples-sleep-problems.html">
+                <div class="archive-item-date">May 8, 2025</div>
+                <div class="archive-item-title">Sleeping With a Partner: Solutions for Common Couple Sleep Problems</div>
+                <div class="archive-item-category">Sleep Tips</div>
+              </a>
+              <a class="archive-item" href="posts/shift-work-sleep.html">
+                <div class="archive-item-date">Apr 25, 2025</div>
+                <div class="archive-item-title">Surviving Shift Work: How to Sleep When the World Is Awake</div>
+                <div class="archive-item-category">Sleep Tips</div>
+              </a>
+              <a class="archive-item" href="posts/bedroom-tech-sleep.html">
+                <div class="archive-item-date">Apr 10, 2025</div>
+                <div class="archive-item-title">The Best (and Worst) Bedroom Tech for Sleep in 2025</div>
+                <div class="archive-item-category">Sleep Tech</div>
+              </a>
+              <a class="archive-item" href="posts/sleep-disorders-overview.html">
+                <div class="archive-item-date">Mar 28, 2025</div>
+                <div class="archive-item-title">Common Sleep Disorders: When Bad Sleep Isn't Just Bad Habits</div>
+                <div class="archive-item-category">Health</div>
+              </a>
+              <a class="archive-item" href="posts/wind-down-routine.html">
+                <div class="archive-item-date">Mar 12, 2025</div>
+                <div class="archive-item-title">The Perfect Wind-Down Routine: 60 Minutes to Better Sleep</div>
+                <div class="archive-item-category">Sleep Tips</div>
+              </a>
+              <a class="archive-item" href="posts/sleep-and-weight-loss.html">
+                <div class="archive-item-date">Feb 25, 2025</div>
+                <div class="archive-item-title">The Sleep-Weight Connection: Why Sleep Deprivation Makes You Gain Weight</div>
+                <div class="archive-item-category">Health</div>
+              </a>
+              <a class="archive-item" href="posts/sleep-tracking-worth-it.html">
+                <div class="archive-item-date">Feb 8, 2025</div>
+                <div class="archive-item-title">Are Sleep Trackers Worth It? A Realistic Assessment</div>
+                <div class="archive-item-category">Sleep Tech</div>
+              </a>
+              <a class="archive-item" href="posts/sleep-food-connection.html">
+                <div class="archive-item-date">Jan 15, 2025</div>
+                <div class="archive-item-title">What to Eat (and Avoid) for Better Sleep Tonight</div>
+                <div class="archive-item-category">Nutrition</div>
+              </a>
+            </div>
+          </div>
+
+          <!-- 2024 -->
+          <div class="archive-year">
+            <h3 class="archive-year-title">2024</h3>
+            <div class="archive-list">
+              <a class="archive-item" href="posts/best-sleep-position.html">
+                <div class="archive-item-date">Oct 18, 2024</div>
+                <div class="archive-item-title">Back, Side, or Stomach? The Best Sleep Position for Your Body</div>
+                <div class="archive-item-category">Sleep Tips</div>
+              </a>
+              <a class="archive-item" href="posts/sleep-anxiety-techniques.html">
+                <div class="archive-item-date">Jun 22, 2024</div>
+                <div class="archive-item-title">Can't Sleep Because You're Anxious About Not Sleeping? Here's the Fix</div>
+                <div class="archive-item-category">Sleep Tips</div>
+              </a>
+              <a class="archive-item" href="posts/melatonin-guide.html">
+                <div class="archive-item-date">Mar 10, 2024</div>
+                <div class="archive-item-title">Melatonin: Dosage, Timing, and Why Less Is More</div>
+                <div class="archive-item-category">Supplements</div>
+              </a>
+            </div>
+          </div>
+
+          <!-- 2023 -->
+          <div class="archive-year">
+            <h3 class="archive-year-title">2023</h3>
+            <div class="archive-list">
+              <a class="archive-item" href="posts/sleep-environment-optimization.html">
+                <div class="archive-item-date">Dec 5, 2023</div>
+                <div class="archive-item-title">The Perfect Sleep Environment: A Room-by-Room Checklist</div>
+                <div class="archive-item-category">Sleep Environment</div>
+              </a>
+              <a class="archive-item" href="posts/sleep-consistency-importance.html">
+                <div class="archive-item-date">Aug 15, 2023</div>
+                <div class="archive-item-title">Why Sleep Consistency Matters More Than Sleep Duration</div>
+                <div class="archive-item-category">Sleep Tips</div>
+              </a>
+              <a class="archive-item" href="posts/magnesium-types-sleep.html">
+                <div class="archive-item-date">Apr 20, 2023</div>
+                <div class="archive-item-title">Magnesium for Sleep: Which Type Actually Works?</div>
+                <div class="archive-item-category">Supplements</div>
+              </a>
+              <a class="archive-item" href="posts/sleep-exercise-timing.html">
+                <div class="archive-item-date">Jan 10, 2023</div>
+                <div class="archive-item-title">The Best Time to Exercise for Better Sleep</div>
+                <div class="archive-item-category">Sleep Tips</div>
+              </a>
+            </div>
+          </div>
+
+          <!-- 2022 -->
+          <div class="archive-year">
+            <h3 class="archive-year-title">2022</h3>
+            <div class="archive-list">
+              <a class="archive-item" href="posts/sleep-chronotypes.html">
+                <div class="archive-item-date">Sep 14, 2022</div>
+                <div class="archive-item-title">Are You a Lion, Bear, Wolf, or Dolphin? Understanding Your Chronotype</div>
+                <div class="archive-item-category">Sleep Science</div>
+              </a>
+              <a class="archive-item" href="posts/alcohol-sleep-quality.html">
+                <div class="archive-item-date">May 22, 2022</div>
+                <div class="archive-item-title">Why Alcohol Is the Worst Sleep Aid (Despite Making You Drowsy)</div>
+                <div class="archive-item-category">Sleep Science</div>
+              </a>
+              <a class="archive-item" href="posts/napping-science.html">
+                <div class="archive-item-date">Jan 18, 2022</div>
+                <div class="archive-item-title">The Science of Napping: When, How Long, and Why It Works</div>
+                <div class="archive-item-category">Sleep Tips</div>
+              </a>
+            </div>
+          </div>
+
+          <!-- 2021 -->
+          <div class="archive-year">
+            <h3 class="archive-year-title">2021</h3>
+            <div class="archive-list">
+              <a class="archive-item" href="posts/sleep-debt-recovery.html">
+                <div class="archive-item-date">Oct 5, 2021</div>
+                <div class="archive-item-title">Can You Actually Catch Up on Sleep? The Truth About Sleep Debt</div>
+                <div class="archive-item-category">Sleep Science</div>
+              </a>
+              <a class="archive-item" href="posts/blue-light-melatonin.html">
+                <div class="archive-item-date">Jun 15, 2021</div>
+                <div class="archive-item-title">How Blue Light Destroys Your Sleep (And What Actually Works)</div>
+                <div class="archive-item-category">Sleep Science</div>
+              </a>
+              <a class="archive-item" href="posts/bedroom-temperature-sleep.html">
+                <div class="archive-item-date">Feb 20, 2021</div>
+                <div class="archive-item-title">The Perfect Bedroom Temperature for Sleep (Backed by Science)</div>
+                <div class="archive-item-category">Sleep Environment</div>
+              </a>
+            </div>
+          </div>
+
+          <!-- 2020 -->
+          <div class="archive-year">
+            <h3 class="archive-year-title">2020</h3>
+            <div class="archive-list">
+              <a class="archive-item" href="posts/caffeine-half-life-sleep.html">
+                <div class="archive-item-date">Nov 10, 2020</div>
+                <div class="archive-item-title">Caffeine's Hidden Impact: Why Your Afternoon Coffee Ruins Tonight's Sleep</div>
+                <div class="archive-item-category">Sleep Science</div>
+              </a>
+              <a class="archive-item" href="posts/sleep-stages-explained.html">
+                <div class="archive-item-date">Aug 15, 2020</div>
+                <div class="archive-item-title">Understanding Sleep Stages: A Complete Guide to Your Sleep Cycle</div>
+                <div class="archive-item-category">Sleep Science</div>
+              </a>
+            </div>
+          </div>
+
         </div>
       </section>
 
