@@ -1,7 +1,7 @@
 # SleepWise Project Roadmap
 
 ## Current Status: Phase 1 Complete - Phase 2 Ready
-**Last Updated:** March 2025
+**Last Updated:** March 10, 2025
 
 ---
 
@@ -11,6 +11,8 @@
 ### What's Done:
 - [x] Website live at https://hanysharaf.github.io/sleepwisereviews/
 - [x] 26 articles published (2020-2025 history)
+- [x] Sitemap with 32 URLs submitted to Google Search Console
+- [x] Sitemap checker workflow (daily Telegram status)
 - [x] Telegram bot sends daily tips
 - [x] Telegram bot sends Instagram content
 - [x] Telegram bot sends engagement reminders
@@ -21,6 +23,7 @@
 - [x] Instagram account set up
 - [x] Weekly content folders created
 - [x] Archive section on website
+- [x] First engagement: 205K verified account reposting content!
 
 ### Your Daily Job:
 - [ ] Post 1 Pinterest pin (from content folder)
@@ -76,6 +79,9 @@ After Phase 2 is working
 | Telegram Bot | Done | March 2025 |
 | GitHub Actions Automation | Done | March 2025 |
 | Weekly Content System | Done | March 2025 |
+| Sitemap (32 URLs) Submitted | Done | March 10, 2025 |
+| Sitemap Checker Workflow | Done | March 10, 2025 |
+| First Big Engagement (205K account) | Done | March 10, 2025 |
 
 ---
 
