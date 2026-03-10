@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2026-03-09T16:46:11.379004+00:00",
+  "last_updated": "2026-03-10T06:36:02.987067+00:00",
   "description": "Pre-written content queue - NO API credits needed! Add more using Claude Code sessions.",
   "daily_tips": [
     {
@@ -12,7 +12,8 @@
     {
       "id": "tip_002",
       "content": "Stop caffeine 8-10 hours before bed. That afternoon coffee might be why you can't fall asleep!",
-      "sent": false
+      "sent": true,
+      "sent_at": "2026-03-10T06:36:02.987054+00:00"
     },
     {
       "id": "tip_003",
