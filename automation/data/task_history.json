@@ -58,5 +58,11 @@
     "task": "weekly_task",
     "success": true,
     "details": "Weekly task sent"
+  },
+  {
+    "timestamp": "2026-03-10T12:36:20.827499+00:00",
+    "task": "instagram_notify",
+    "success": true,
+    "details": "Instagram content sent: ig_002"
   }
 ]

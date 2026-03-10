@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2026-03-10T06:36:02.987067+00:00",
+  "last_updated": "2026-03-10T12:36:20.826780+00:00",
   "description": "Pre-written content queue - NO API credits needed! Add more using Claude Code sessions.",
   "daily_tips": [
     {
@@ -149,7 +149,8 @@
         "#RestfulSleep"
       ],
       "product_link": "https://www.amazon.com/s?k=herbal+sleep+tea&tag=sleepwiserevi-20",
-      "sent": false
+      "sent": true,
+      "sent_at": "2026-03-10T12:36:20.826768+00:00"
     },
     {
       "id": "ig_003",
