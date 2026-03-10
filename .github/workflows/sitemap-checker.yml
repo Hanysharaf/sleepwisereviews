@@ -1,0 +1,72 @@
+# Sitemap Status Checker
+# Runs daily to check if sitemap is accessible and reports to Telegram
+
+name: Sitemap Status Checker
+
+on:
+  # Run daily at 9 AM UTC
+  schedule:
+    - cron: '0 9 * * *'
+
+  # Allow manual trigger
+  workflow_dispatch:
+
+jobs:
+  check-sitemap:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check Sitemap Status
+        id: sitemap
+        run: |
+          SITEMAP_URL="https://hanysharaf.github.io/sleepwisereviews/sitemap.xml"
+
+          # Try to fetch the sitemap
+          HTTP_STATUS=$(curl -s -o /tmp/sitemap.xml -w "%{http_code}" "$SITEMAP_URL")
+
+          if [ "$HTTP_STATUS" = "200" ]; then
+            # Count URLs in sitemap
+            URL_COUNT=$(grep -c "<loc>" /tmp/sitemap.xml || echo "0")
+            echo "status=success" >> $GITHUB_OUTPUT
+            echo "url_count=$URL_COUNT" >> $GITHUB_OUTPUT
+            echo "message=✅ Sitemap is accessible with $URL_COUNT URLs" >> $GITHUB_OUTPUT
+          else
+            echo "status=failed" >> $GITHUB_OUTPUT
+            echo "url_count=0" >> $GITHUB_OUTPUT
+            echo "message=❌ Sitemap returned HTTP $HTTP_STATUS" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Send Telegram Notification
+        if: steps.sitemap.outputs.status == 'success'
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          curl -s -X POST "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage" \
+            -d chat_id="${TELEGRAM_CHAT_ID}" \
+            -d parse_mode="HTML" \
+            -d text="📊 <b>SleepWise Sitemap Status</b>
+
+          ${{ steps.sitemap.outputs.message }}
+
+          🔗 <a href=\"https://hanysharaf.github.io/sleepwisereviews/sitemap.xml\">View Sitemap</a>
+
+          📋 Check Google indexing status:
+          <a href=\"https://search.google.com/search-console/sitemaps?resource_id=https%3A%2F%2Fhanysharaf.github.io%2Fsleepwisereviews%2F\">Search Console → Sitemaps</a>
+
+          💡 <i>This check runs daily. Disable workflow when indexing is confirmed.</i>"
+
+      - name: Send Failure Notification
+        if: steps.sitemap.outputs.status == 'failed'
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: |
+          curl -s -X POST "https://api.telegram.org/bot${TELEGRAM_BOT_TOKEN}/sendMessage" \
+            -d chat_id="${TELEGRAM_CHAT_ID}" \
+            -d parse_mode="HTML" \
+            -d text="🔴 <b>SleepWise Sitemap Alert</b>
+
+          ${{ steps.sitemap.outputs.message }}
+
+          ⚠️ The sitemap may be inaccessible. Please check GitHub Pages deployment."
