@@ -79,9 +79,11 @@ After Phase 2 is working
 | Telegram Bot | Done | March 2025 |
 | GitHub Actions Automation | Done | March 2025 |
 | Weekly Content System | Done | March 2025 |
-| Sitemap (32 URLs) Submitted | Done | March 10, 2025 |
+| Sitemap (30 URLs) Submitted | Done | March 10, 2025 |
 | Sitemap Checker Workflow | Done | March 10, 2025 |
 | First Big Engagement (205K account) | Done | March 10, 2025 |
+| Instagram Image Generator Script | Done | March 10, 2025 |
+| Full Week Content (Mar 9-15) | Done | March 10, 2025 |
 
 ---
 

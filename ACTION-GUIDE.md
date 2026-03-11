@@ -1,7 +1,7 @@
 # SleepWise Daily Action Guide
 
 ## Project Status: Live & Active
-**Last Updated:** March 10, 2025
+**Last Updated:** March 10, 2025 (Evening)
 
 ---
 
@@ -18,14 +18,21 @@
 - **Instagram:** https://www.instagram.com/sleepwise.reviews
 - **First Win:** Verified 205K account (@wellness.healthzone) reposting content!
 
-### Content Ready
-- Pinterest pins in `content/` folder organized by date
-- Each folder has README.txt with copy-paste content
+### Content Ready (Mar 9-15)
+- ✅ Pinterest pins created for full week
+- ✅ Instagram images created for full week
+- ✅ Each folder has README.txt with copy-paste content
 - Amazon affiliate links with tag: `sleepwiserevi-20`
 
+| Date | Pinterest | Instagram | Posted? |
+|------|-----------|-----------|---------|
+| Mar 9 | ✅ | ✅ | ✅ DONE |
+| Mar 10 | ✅ | ✅ | ⏳ Today |
+| Mar 11-15 | ✅ | ✅ | ⏳ Scheduled |
+
 ### Automated Monitoring
-- **Sitemap Checker:** Runs daily at 9 AM UTC, sends Telegram status update
-- **Google Search Console:** Check for indexing status updates
+- **Sitemap Checker:** Runs weekly (Monday 9 AM), only alerts on errors
+- **Google Search Console:** Status pending - check manually
 
 ---
 
@@ -184,3 +191,27 @@ Open Claude Code and say:
 - "Create Instagram content for [topic]"
 - "Check Pinterest analytics"
 - "Update the website"
+
+---
+
+## How to Resume with Claude Code
+
+When starting a new session, say:
+
+```
+Read the SleepWise project at:
+C:\Users\Hany\OneDrive - Petroleum Air Services\Projects\SleepReviewes
+
+Check ACTION-GUIDE.md and ROADMAP.md for current status.
+Then tell me what needs to be done today.
+```
+
+Or simply:
+```
+Continue SleepWise project - check what's pending
+```
+
+Claude will:
+1. Read the project files
+2. Check content folders for posting status
+3. Tell you what to do today
