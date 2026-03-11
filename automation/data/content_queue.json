@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2026-03-10T16:45:49.248069+00:00",
+  "last_updated": "2026-03-11T06:39:10.790640+00:00",
   "description": "Pre-written content queue - NO API credits needed! Add more using Claude Code sessions.",
   "daily_tips": [
     {
@@ -18,7 +18,8 @@
     {
       "id": "tip_003",
       "content": "Blue light from screens suppresses melatonin. Use night mode or stop screens 1 hour before bed.",
-      "sent": false
+      "sent": true,
+      "sent_at": "2026-03-11T06:39:10.790627+00:00"
     },
     {
       "id": "tip_004",
