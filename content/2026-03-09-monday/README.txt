@@ -43,7 +43,7 @@ Bio Link: https://www.amazon.com/s?k=cooling+mattress+pad&tag=sleepwiserevi-20
 ----------------------------------------
 CHECKLIST
 ----------------------------------------
-[ ] Upload Pinterest pin
-[ ] Post to Instagram
+[x] Upload Pinterest pin - POSTED
+[x] Post to Instagram - POSTED (wellness.healthzone wants to repost!)
 [ ] Update bio link (if needed)
-[ ] Reply to any comments
+[x] Reply to any comments
