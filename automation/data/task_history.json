@@ -94,5 +94,11 @@
     "task": "instagram_notify",
     "success": true,
     "details": "Instagram content sent: ig_003"
+  },
+  {
+    "timestamp": "2026-03-11T16:40:09.691221+00:00",
+    "task": "engagement_tips",
+    "success": true,
+    "details": "Engagement reminder sent: eng_003"
   }
 ]
