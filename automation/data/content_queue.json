@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2026-03-11T06:39:10.790640+00:00",
+  "last_updated": "2026-03-11T12:35:53.703142+00:00",
   "description": "Pre-written content queue - NO API credits needed! Add more using Claude Code sessions.",
   "daily_tips": [
     {
@@ -170,7 +170,8 @@
         "#BetterSleep"
       ],
       "product_link": "https://www.amazon.com/s?k=weighted+blanket&tag=sleepwiserevi-20",
-      "sent": false
+      "sent": true,
+      "sent_at": "2026-03-11T12:35:53.703127+00:00"
     },
     {
       "id": "ig_004",
