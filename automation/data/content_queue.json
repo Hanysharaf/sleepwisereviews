@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2026-03-11T16:40:09.690382+00:00",
+  "last_updated": "2026-03-12T06:40:48.398241+00:00",
   "description": "Pre-written content queue - NO API credits needed! Add more using Claude Code sessions.",
   "daily_tips": [
     {
@@ -24,7 +24,8 @@
     {
       "id": "tip_004",
       "content": "Exercise improves sleep quality, but finish workouts 3-4 hours before bed to avoid being too energized.",
-      "sent": false
+      "sent": true,
+      "sent_at": "2026-03-12T06:40:48.398228+00:00"
     },
     {
       "id": "tip_005",
