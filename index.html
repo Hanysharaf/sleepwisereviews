@@ -1014,6 +1014,169 @@
       display: none !important;
     }
 
+    /* TESTIMONIALS */
+    .testimonials-section {
+      background: var(--deep);
+    }
+
+    .testimonials-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 1.5rem;
+      margin-top: 2.5rem;
+    }
+
+    .testimonial-card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 2rem;
+      position: relative;
+      transition: all 0.3s ease;
+    }
+
+    .testimonial-card:hover {
+      border-color: rgba(201, 168, 76, 0.3);
+      transform: translateY(-4px);
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+    }
+
+    .testimonial-quote {
+      position: absolute;
+      top: 1.5rem;
+      right: 1.5rem;
+      font-size: 3rem;
+      color: var(--gold);
+      opacity: 0.2;
+      font-family: 'Cormorant Garamond', serif;
+      line-height: 1;
+    }
+
+    .testimonial-stars {
+      color: var(--gold);
+      font-size: 0.9rem;
+      letter-spacing: 2px;
+      margin-bottom: 1rem;
+    }
+
+    .testimonial-text {
+      font-size: 0.95rem;
+      color: var(--text);
+      line-height: 1.7;
+      font-weight: 300;
+      margin-bottom: 1.5rem;
+      font-style: italic;
+    }
+
+    .testimonial-author {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+    }
+
+    .testimonial-avatar {
+      width: 48px;
+      height: 48px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, var(--gold), var(--gold-light));
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.2rem;
+      border: 2px solid var(--gold);
+    }
+
+    .testimonial-info {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .testimonial-name {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: var(--star);
+    }
+
+    .testimonial-context {
+      font-size: 0.78rem;
+      color: var(--muted);
+    }
+
+    /* FAQ SECTION */
+    .faq-section {
+      background: var(--night);
+    }
+
+    .faq-container {
+      max-width: 800px;
+      margin: 2.5rem auto 0;
+    }
+
+    .faq-item {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      margin-bottom: 1rem;
+      overflow: hidden;
+      transition: all 0.3s ease;
+    }
+
+    .faq-item:hover {
+      border-color: rgba(201, 168, 76, 0.3);
+    }
+
+    .faq-question {
+      width: 100%;
+      padding: 1.25rem 1.5rem;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: transparent;
+      border: none;
+      cursor: pointer;
+      text-align: left;
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.15rem;
+      font-weight: 600;
+      color: var(--star);
+      transition: color 0.2s;
+    }
+
+    .faq-question:hover {
+      color: var(--gold);
+    }
+
+    .faq-icon {
+      font-size: 1.5rem;
+      color: var(--gold);
+      transition: transform 0.3s ease;
+      flex-shrink: 0;
+      margin-left: 1rem;
+    }
+
+    .faq-item.active .faq-icon {
+      transform: rotate(45deg);
+    }
+
+    .faq-answer {
+      max-height: 0;
+      overflow: hidden;
+      transition: max-height 0.3s ease, padding 0.3s ease;
+    }
+
+    .faq-item.active .faq-answer {
+      max-height: 300px;
+    }
+
+    .faq-answer-inner {
+      padding: 0 1.5rem 1.5rem;
+      font-size: 0.92rem;
+      color: var(--muted);
+      line-height: 1.7;
+      font-weight: 300;
+    }
+
     /* ARTICLES ARCHIVE */
     .archive-section {
       background: var(--night);
@@ -1378,6 +1541,195 @@
           </div>
         </div>
       </section>
+
+      <!-- TESTIMONIALS -->
+      <section class="testimonials-section" id="testimonials">
+        <div class="section-inner">
+          <div class="label">Reader experiences</div>
+          <div class="section-title">What Our Readers Say</div>
+          <div class="section-sub">Real feedback from people who followed our recommendations.</div>
+
+          <div class="testimonials-grid">
+            <div class="testimonial-card">
+              <div class="testimonial-quote">"</div>
+              <div class="testimonial-stars">★★★★★</div>
+              <div class="testimonial-text">I was skeptical about weighted blankets until I read Harry's guide. Bought the Bearaby based on his recommendation and I'm falling asleep 20 minutes faster. Best purchase I've made for my sleep.</div>
+              <div class="testimonial-author">
+                <div class="testimonial-avatar">👩</div>
+                <div class="testimonial-info">
+                  <div class="testimonial-name">Sarah M.</div>
+                  <div class="testimonial-context">Light sleeper · Austin, TX</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="testimonial-card">
+              <div class="testimonial-quote">"</div>
+              <div class="testimonial-stars">★★★★★</div>
+              <div class="testimonial-text">Finally, a review site that actually tests products. The magnesium glycinate recommendation changed my sleep quality dramatically. I wake up feeling refreshed for the first time in years.</div>
+              <div class="testimonial-author">
+                <div class="testimonial-avatar">👨</div>
+                <div class="testimonial-info">
+                  <div class="testimonial-name">Michael R.</div>
+                  <div class="testimonial-context">Shift worker · Chicago, IL</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="testimonial-card">
+              <div class="testimonial-quote">"</div>
+              <div class="testimonial-stars">★★★★★</div>
+              <div class="testimonial-text">The LectroFan recommendation was spot-on. Living in NYC, outside noise was killing my sleep. This machine actually masks the sounds instead of just adding more noise. Game changer.</div>
+              <div class="testimonial-author">
+                <div class="testimonial-avatar">👩</div>
+                <div class="testimonial-info">
+                  <div class="testimonial-name">Jennifer L.</div>
+                  <div class="testimonial-context">City dweller · New York, NY</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="testimonial-card">
+              <div class="testimonial-quote">"</div>
+              <div class="testimonial-stars">★★★★☆</div>
+              <div class="testimonial-text">I appreciate that Harry doesn't just recommend the most expensive products. The Alaska Bear sleep mask he suggested is only $16 and works better than the $50 one I used to have.</div>
+              <div class="testimonial-author">
+                <div class="testimonial-avatar">👨</div>
+                <div class="testimonial-info">
+                  <div class="testimonial-name">David K.</div>
+                  <div class="testimonial-context">Budget-conscious · Denver, CO</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="testimonial-card">
+              <div class="testimonial-quote">"</div>
+              <div class="testimonial-stars">★★★★★</div>
+              <div class="testimonial-text">The Oura Ring recommendation was perfect for someone like me who wants data. Now I can actually see how my sleep habits affect my recovery. The insights are worth every penny.</div>
+              <div class="testimonial-author">
+                <div class="testimonial-avatar">👩</div>
+                <div class="testimonial-info">
+                  <div class="testimonial-name">Amanda T.</div>
+                  <div class="testimonial-context">Fitness enthusiast · Seattle, WA</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="testimonial-card">
+              <div class="testimonial-quote">"</div>
+              <div class="testimonial-stars">★★★★★</div>
+              <div class="testimonial-text">Been following SleepWiseReviews for two years now. Every product recommendation has been solid. It's refreshing to find honest reviews that aren't just paid advertisements.</div>
+              <div class="testimonial-author">
+                <div class="testimonial-avatar">👨</div>
+                <div class="testimonial-info">
+                  <div class="testimonial-name">Robert H.</div>
+                  <div class="testimonial-context">Long-time reader · Portland, OR</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- FAQ SECTION -->
+      <section class="faq-section" id="faq">
+        <div class="section-inner">
+          <div class="label">Common questions</div>
+          <div class="section-title">Frequently Asked Questions</div>
+          <div class="section-sub">Everything you need to know about our reviews and recommendations.</div>
+
+          <div class="faq-container">
+            <div class="faq-item">
+              <button class="faq-question" onclick="toggleFaq(this)">
+                How do you test sleep products?
+                <span class="faq-icon">+</span>
+              </button>
+              <div class="faq-answer">
+                <div class="faq-answer-inner">
+                  Every product we recommend is personally tested for a minimum of 30 nights. We track sleep quality using multiple sleep trackers, document our experiences daily, and compare results against control periods. We also collect feedback from readers who purchase based on our recommendations to validate our findings.
+                </div>
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <button class="faq-question" onclick="toggleFaq(this)">
+                Do you accept payment for reviews?
+                <span class="faq-icon">+</span>
+              </button>
+              <div class="faq-answer">
+                <div class="faq-answer-inner">
+                  Never. We earn money through Amazon affiliate commissions when readers purchase products we recommend. This means we only make money when you're happy with your purchase. Brands can send products for testing, but they cannot pay for positive reviews or influence our ratings in any way.
+                </div>
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <button class="faq-question" onclick="toggleFaq(this)">
+                How often do you update your reviews?
+                <span class="faq-icon">+</span>
+              </button>
+              <div class="faq-answer">
+                <div class="faq-answer-inner">
+                  All our guides are reviewed and updated quarterly. When new products enter the market or existing products are updated, we test them and revise our recommendations accordingly. We also update based on long-term reader feedback to ensure our recommendations hold up over time.
+                </div>
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <button class="faq-question" onclick="toggleFaq(this)">
+                Why should I trust your recommendations?
+                <span class="faq-icon">+</span>
+              </button>
+              <div class="faq-answer">
+                <div class="faq-answer-inner">
+                  We've been testing sleep products for over 5 years with a consistent methodology. Our recommendations are backed by sleep science research and real-world testing. We prioritize your sleep quality over affiliate commissions — that's why we often recommend affordable products over expensive ones when they perform better.
+                </div>
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <button class="faq-question" onclick="toggleFaq(this)">
+                What if a product doesn't work for me?
+                <span class="faq-icon">+</span>
+              </button>
+              <div class="faq-answer">
+                <div class="faq-answer-inner">
+                  Sleep is personal, and what works for most people might not work for you. That's why we always recommend purchasing from retailers with good return policies. Most products we recommend through Amazon have 30-day return windows. We also note in our reviews when a product might not suit certain sleep styles or conditions.
+                </div>
+              </div>
+            </div>
+
+            <div class="faq-item">
+              <button class="faq-question" onclick="toggleFaq(this)">
+                Can I suggest a product for you to review?
+                <span class="faq-icon">+</span>
+              </button>
+              <div class="faq-answer">
+                <div class="faq-answer-inner">
+                  Absolutely! We love hearing from our readers. Reach out to us via Instagram @sleepwise.reviews with your product suggestions. We prioritize testing products that our readers are curious about, especially if multiple people request the same item.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <script>
+        function toggleFaq(button) {
+          const item = button.parentElement;
+          const wasActive = item.classList.contains('active');
+
+          // Close all FAQ items
+          document.querySelectorAll('.faq-item').forEach(faq => {
+            faq.classList.remove('active');
+          });
+
+          // Open clicked item if it wasn't already open
+          if (!wasActive) {
+            item.classList.add('active');
+          }
+        }
+      </script>
 
       <!-- ARTICLES ARCHIVE -->
       <section class="archive-section" id="archive">
