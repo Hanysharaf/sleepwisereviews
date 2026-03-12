@@ -777,8 +777,8 @@
 
     .footer-top {
       display: grid;
-      grid-template-columns: 2fr 1fr 1fr 1fr;
-      gap: 3rem;
+      grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
+      gap: 2rem;
       margin-bottom: 3rem;
       padding-bottom: 3rem;
       border-bottom: 1px solid var(--border);
@@ -890,8 +890,42 @@
       animation: fadeUp 0.6s 0.4s ease both;
     }
 
+    /* HAMBURGER MENU */
+    .hamburger {
+      display: none;
+      flex-direction: column;
+      gap: 5px;
+      cursor: pointer;
+      padding: 10px;
+      z-index: 101;
+    }
+
+    .hamburger span {
+      display: block;
+      width: 24px;
+      height: 2px;
+      background: var(--gold);
+      transition: all 0.3s ease;
+    }
+
+    .hamburger.active span:nth-child(1) {
+      transform: rotate(45deg) translate(5px, 5px);
+    }
+
+    .hamburger.active span:nth-child(2) {
+      opacity: 0;
+    }
+
+    .hamburger.active span:nth-child(3) {
+      transform: rotate(-45deg) translate(5px, -5px);
+    }
+
     /* RESPONSIVE */
     @media (max-width: 900px) {
+      .hamburger {
+        display: flex;
+      }
+
       .articles-grid {
         grid-template-columns: 1fr;
       }
@@ -911,6 +945,26 @@
 
       .nav-links {
         display: none;
+        position: fixed;
+        top: 68px;
+        left: 0;
+        right: 0;
+        background: rgba(10, 14, 26, 0.98);
+        backdrop-filter: blur(12px);
+        flex-direction: column;
+        padding: 2rem;
+        gap: 1.5rem;
+        border-bottom: 1px solid var(--border);
+        z-index: 99;
+      }
+
+      .nav-links.active {
+        display: flex;
+      }
+
+      .nav-links a {
+        font-size: 1rem;
+        padding: 0.5rem 0;
       }
 
       .hero h1 {
@@ -919,6 +973,22 @@
 
       .hero-trust {
         gap: 1.5rem;
+      }
+    }
+
+    @media (max-width: 600px) {
+      .footer-top {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+      }
+
+      .hero-trust {
+        flex-direction: column;
+        gap: 1rem;
+      }
+
+      .picks-grid {
+        grid-template-columns: 1fr;
       }
     }
 
@@ -1001,13 +1071,31 @@
   <!-- NAV -->
   <nav>
     <a class="logo" href="/">SleepWise<span>Reviews</span></a>
-    <ul class="nav-links">
+    <ul class="nav-links" id="navLinks">
       <li><a href="#picks">Top Picks</a></li>
       <li><a href="#reviews">Reviews</a></li>
       <li><a href="pages/about.html">About Harry</a></li>
       <li><a href="#newsletter" class="nav-cta">Free Sleep Guide ✦</a></li>
     </ul>
+    <div class="hamburger" id="hamburger" onclick="toggleMenu()">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
   </nav>
+  <script>
+    function toggleMenu() {
+      document.getElementById('hamburger').classList.toggle('active');
+      document.getElementById('navLinks').classList.toggle('active');
+    }
+    // Close menu when clicking a link
+    document.querySelectorAll('.nav-links a').forEach(link => {
+      link.addEventListener('click', () => {
+        document.getElementById('hamburger').classList.remove('active');
+        document.getElementById('navLinks').classList.remove('active');
+      });
+    });
+  </script>
 
     <div class="homepage-only">
       <!-- HERO -->
