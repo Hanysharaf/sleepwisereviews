@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2026-03-12T06:40:48.398241+00:00",
+  "last_updated": "2026-03-12T12:35:24.761079+00:00",
   "description": "Pre-written content queue - NO API credits needed! Add more using Claude Code sessions.",
   "daily_tips": [
     {
@@ -191,7 +191,8 @@
         "#SleepBetter"
       ],
       "product_link": "https://www.amazon.com/s?k=white+noise+machine&tag=sleepwiserevi-20",
-      "sent": false
+      "sent": true,
+      "sent_at": "2026-03-12T12:35:24.761066+00:00"
     },
     {
       "id": "ig_005",
