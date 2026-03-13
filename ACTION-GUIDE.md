@@ -1,7 +1,7 @@
 # SleepWise Daily Action Guide
 
-## Project Status: Live & Active
-**Last Updated:** March 10, 2025 (Evening)
+## Project Status: Live & Scheduling Active
+**Last Updated:** March 13, 2026
 
 ---
 
@@ -15,20 +15,26 @@
 
 ### Social Media
 - **Pinterest:** https://www.pinterest.com/sleepwisereviews
-- **Instagram:** https://www.instagram.com/sleepwise.reviews
+- **Instagram:** https://www.instagram.com/sleepwise.reviews (5 posts live)
 - **First Win:** Verified 205K account (@wellness.healthzone) reposting content!
 
-### Content Ready (Mar 9-15)
-- ✅ Pinterest pins created for full week
-- ✅ Instagram images created for full week
-- ✅ Each folder has README.txt with copy-paste content
-- Amazon affiliate links with tag: `sleepwiserevi-20`
+### Instagram Scheduling (NEW!)
+- **Platform:** Meta Business Suite
+- **Content Plan:** `INSTAGRAM-CONTENT-PLAN.md`
+- **Full Calendar:** `content/MARCH-2026-FULL-CALENDAR.md`
 
-| Date | Pinterest | Instagram | Posted? |
-|------|-----------|-----------|---------|
-| Mar 9 | ✅ | ✅ | ✅ DONE |
-| Mar 10 | ✅ | ✅ | ⏳ Today |
-| Mar 11-15 | ✅ | ✅ | ⏳ Scheduled |
+| Date | Topic | Time | Status |
+|------|-------|------|--------|
+| Mar 13 | Sleep Schedule Consistency | 20:00 | ✅ SCHEDULED |
+| Mar 14 | Weighted Blanket Benefits | 09:00 | ✅ SCHEDULED |
+| Mar 15 | White Noise Benefits | 10:00 | ✅ SCHEDULED |
+| Mar 16-31 | See calendar | Various | ⏳ To Schedule |
+
+### Content Ready (Full Month)
+- ✅ March 2026 full content calendar created (19 posts)
+- ✅ Images in `content/2026-03-XX-[day]/instagram/` folders
+- ✅ Captions in `MARCH-2026-FULL-CALENDAR.md`
+- Amazon affiliate links with tag: `sleepwiserevi-20`
 
 ### Automated Monitoring
 - **Sitemap Checker:** Runs weekly (Monday 9 AM), only alerts on errors
@@ -56,17 +62,22 @@
 
 ### 2. Instagram Content Ready (~2 PM)
 
-**When you see:**
-> Instagram Content Ready!
-> Topic: Sleep Temperature
-
-**DO THIS:**
+**Option A: Post Now (Manual)**
 1. Check `content/[today's-date]/instagram/` folder
 2. Open Instagram app
 3. Upload the post image
 4. Copy/paste caption from README.txt
 5. Add hashtags in first comment
 6. Post!
+
+**Option B: Schedule via Meta Business Suite (Recommended)**
+1. Go to https://business.facebook.com/latest/content_calendar
+2. Click "Create post"
+3. Click "Add photo/video" and select image from content folder
+4. Copy caption from `MARCH-2026-FULL-CALENDAR.md`
+5. Toggle "Set date and time"
+6. Set the date and time from calendar
+7. Click "Schedule"
 
 **Time:** 5 minutes
 

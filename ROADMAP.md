@@ -1,7 +1,7 @@
 # SleepWise Project Roadmap
 
-## Current Status: Phase 1 Complete - Phase 2 Ready
-**Last Updated:** March 10, 2025
+## Current Status: Phase 1.5 - Instagram Scheduling Active
+**Last Updated:** March 13, 2026
 
 ---
 
@@ -20,14 +20,18 @@
 - [x] GitHub Actions runs every 2 hours
 - [x] Amazon affiliate links ready (tag: sleepwiserevi-20)
 - [x] Pinterest account set up
-- [x] Instagram account set up
+- [x] Instagram account set up (5 posts live, @sleepwise.reviews)
 - [x] Weekly content folders created
 - [x] Archive section on website
 - [x] First engagement: 205K verified account reposting content!
+- [x] Instagram Content Plan created (INSTAGRAM-CONTENT-PLAN.md)
+- [x] Full March 2026 content calendar (19 posts planned)
+- [x] Meta Business Suite scheduling set up
+- [x] 3 Instagram posts scheduled (Mar 13-15)
 
 ### Your Daily Job:
 - [ ] Post 1 Pinterest pin (from content folder)
-- [ ] Post 1 Instagram post (from IG content)
+- [ ] Check Meta Business Suite for scheduled posts
 - [ ] 5 min engagement
 
 ---
@@ -51,20 +55,30 @@ When you're ready for video content on Instagram/Pinterest
 ---
 
 ## Phase 3: Auto-Posting (Future)
-**Status: PLANNED - Not started**
+**Status: PARTIALLY STARTED - Manual Scheduling Active**
 
-### What it will do:
+### What's Done:
+- [x] Meta Business Suite connected
+- [x] Instagram scheduling working
+- [x] 3 posts scheduled for Mar 13-15
+- [ ] 16 more posts to schedule (Mar 16-31)
+
+### What it will do (full automation):
 - Auto-post to Instagram (no manual work)
 - Auto-post to Pinterest
-- Full automation
+- Full automation via API
 
-### Tools needed:
-- Meta Business Suite setup
-- Instagram Graph API
+### Tools needed for full automation:
+- Instagram Graph API (for programmatic posting)
 - n8n workflows
 
-### When to start:
-After Phase 2 is working
+### Current workflow:
+1. Content calendar in MARCH-2026-FULL-CALENDAR.md
+2. Images in content/2026-03-XX folders
+3. Schedule via Meta Business Suite (manual image upload)
+
+### When to fully automate:
+After consistent manual scheduling for 2 weeks
 
 ---
 
@@ -84,6 +98,10 @@ After Phase 2 is working
 | First Big Engagement (205K account) | Done | March 10, 2025 |
 | Instagram Image Generator Script | Done | March 10, 2025 |
 | Full Week Content (Mar 9-15) | Done | March 10, 2025 |
+| Instagram Content Plan Document | Done | March 12, 2026 |
+| March 2026 Full Content Calendar | Done | March 13, 2026 |
+| Meta Business Suite Scheduling | Done | March 13, 2026 |
+| First 3 Posts Scheduled (Mar 13-15) | Done | March 13, 2026 |
 
 ---
 
