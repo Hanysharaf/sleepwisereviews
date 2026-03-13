@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2026-03-13T06:38:43.578744+00:00",
+  "last_updated": "2026-03-13T12:34:39.750912+00:00",
   "description": "Pre-written content queue - NO API credits needed! Add more using Claude Code sessions.",
   "daily_tips": [
     {
@@ -212,7 +212,8 @@
         "#SleepWell"
       ],
       "product_link": "https://www.amazon.com/s?k=magnesium+glycinate+sleep&tag=sleepwiserevi-20",
-      "sent": false
+      "sent": true,
+      "sent_at": "2026-03-13T12:34:39.750895+00:00"
     },
     {
       "id": "ig_006",
