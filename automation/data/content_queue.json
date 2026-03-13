@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2026-03-12T16:49:43.621639+00:00",
+  "last_updated": "2026-03-13T06:38:43.578744+00:00",
   "description": "Pre-written content queue - NO API credits needed! Add more using Claude Code sessions.",
   "daily_tips": [
     {
@@ -30,7 +30,8 @@
     {
       "id": "tip_005",
       "content": "Consistent sleep schedule is key! Go to bed and wake up at the same time, even on weekends.",
-      "sent": false
+      "sent": true,
+      "sent_at": "2026-03-13T06:38:43.578732+00:00"
     },
     {
       "id": "tip_006",
