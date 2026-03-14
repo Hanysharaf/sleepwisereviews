@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2026-03-13T16:28:14.919807+00:00",
+  "last_updated": "2026-03-14T06:34:37.769233+00:00",
   "description": "Pre-written content queue - NO API credits needed! Add more using Claude Code sessions.",
   "daily_tips": [
     {
@@ -36,7 +36,8 @@
     {
       "id": "tip_006",
       "content": "Weighted blankets (7-12% of body weight) can reduce anxiety and improve sleep quality through deep pressure therapy.",
-      "sent": false
+      "sent": true,
+      "sent_at": "2026-03-14T06:34:37.769220+00:00"
     },
     {
       "id": "tip_007",
