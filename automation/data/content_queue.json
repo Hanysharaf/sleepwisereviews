@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2026-03-14T06:34:37.769233+00:00",
+  "last_updated": "2026-03-14T12:28:06.179702+00:00",
   "description": "Pre-written content queue - NO API credits needed! Add more using Claude Code sessions.",
   "daily_tips": [
     {
@@ -233,7 +233,8 @@
         "#SleepWell"
       ],
       "product_link": "https://www.amazon.com/s?k=silk+sleep+mask&tag=sleepwiserevi-20",
-      "sent": false
+      "sent": true,
+      "sent_at": "2026-03-14T12:28:06.179689+00:00"
     },
     {
       "id": "ig_007",
