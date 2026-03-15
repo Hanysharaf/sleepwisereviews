@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2026-03-15T06:43:38.073825+00:00",
+  "last_updated": "2026-03-15T12:30:02.982488+00:00",
   "description": "Pre-written content queue - NO API credits needed! Add more using Claude Code sessions.",
   "daily_tips": [
     {
@@ -254,7 +254,8 @@
         "#RestfulNights"
       ],
       "product_link": "https://www.amazon.com/s?k=ergonomic+pillow&tag=sleepwiserevi-20",
-      "sent": false
+      "sent": true,
+      "sent_at": "2026-03-15T12:30:02.982474+00:00"
     },
     {
       "id": "ig_008",
