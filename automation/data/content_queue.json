@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2026-03-14T16:19:33.372074+00:00",
+  "last_updated": "2026-03-15T06:43:38.073825+00:00",
   "description": "Pre-written content queue - NO API credits needed! Add more using Claude Code sessions.",
   "daily_tips": [
     {
@@ -42,7 +42,8 @@
     {
       "id": "tip_007",
       "content": "White noise masks disruptive sounds and creates a consistent audio environment for better sleep.",
-      "sent": false
+      "sent": true,
+      "sent_at": "2026-03-15T06:43:38.073812+00:00"
     },
     {
       "id": "tip_008",
