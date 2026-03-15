@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2026-03-15T12:30:02.982488+00:00",
+  "last_updated": "2026-03-15T16:20:48.703896+00:00",
   "description": "Pre-written content queue - NO API credits needed! Add more using Claude Code sessions.",
   "daily_tips": [
     {
@@ -393,7 +393,8 @@
     {
       "id": "eng_007",
       "message": "Check your Instagram insights - what time are your followers most active? Schedule posts accordingly.",
-      "sent": false
+      "sent": true,
+      "sent_at": "2026-03-15T16:20:48.703880+00:00"
     },
     {
       "id": "eng_008",
