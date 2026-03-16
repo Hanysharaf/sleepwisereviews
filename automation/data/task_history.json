@@ -226,5 +226,11 @@
     "task": "daily_summary",
     "success": true,
     "details": "Daily summary sent"
+  },
+  {
+    "timestamp": "2026-03-16T08:44:16.093555+00:00",
+    "task": "weekly_task",
+    "success": true,
+    "details": "Weekly task sent"
   }
 ]
