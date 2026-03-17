@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2026-03-16T16:53:18.861301+00:00",
+  "last_updated": "2026-03-17T06:52:04.975926+00:00",
   "description": "Pre-written content queue - NO API credits needed! Add more using Claude Code sessions.",
   "daily_tips": [
     {
@@ -48,7 +48,8 @@
     {
       "id": "tip_008",
       "content": "Avoid large meals 2-3 hours before bed. Digestion can disrupt your sleep quality.",
-      "sent": false
+      "sent": true,
+      "sent_at": "2026-03-17T06:52:04.975914+00:00"
     },
     {
       "id": "tip_009",
