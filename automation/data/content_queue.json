@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2026-03-18T06:50:48.421904+00:00",
+  "last_updated": "2026-03-18T12:44:40.524717+00:00",
   "description": "Pre-written content queue - NO API credits needed! Add more using Claude Code sessions.",
   "daily_tips": [
     {
@@ -316,7 +316,8 @@
         "#RestfulNights"
       ],
       "product_link": "https://www.amazon.com/s?k=blackout+curtains&tag=sleepwiserevi-20",
-      "sent": false
+      "sent": true,
+      "sent_at": "2026-03-18T12:44:40.524704+00:00"
     },
     {
       "id": "ig_011",
