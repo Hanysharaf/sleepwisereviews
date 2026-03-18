@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2026-03-17T16:55:34.240311+00:00",
+  "last_updated": "2026-03-18T06:50:48.421904+00:00",
   "description": "Pre-written content queue - NO API credits needed! Add more using Claude Code sessions.",
   "daily_tips": [
     {
@@ -54,7 +54,8 @@
     {
       "id": "tip_009",
       "content": "Magnesium glycinate helps relax muscles and calm the nervous system. Take 200-400mg 1 hour before bed.",
-      "sent": false
+      "sent": true,
+      "sent_at": "2026-03-18T06:50:48.421894+00:00"
     },
     {
       "id": "tip_010",
