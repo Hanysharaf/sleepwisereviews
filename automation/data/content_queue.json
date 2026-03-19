@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2026-03-18T16:50:06.651301+00:00",
+  "last_updated": "2026-03-19T06:44:41.176161+00:00",
   "description": "Pre-written content queue - NO API credits needed! Add more using Claude Code sessions.",
   "daily_tips": [
     {
@@ -60,7 +60,8 @@
     {
       "id": "tip_010",
       "content": "Your mattress matters! Replace every 7-10 years. A sagging mattress can cause back pain and poor sleep.",
-      "sent": false
+      "sent": true,
+      "sent_at": "2026-03-19T06:44:41.176149+00:00"
     },
     {
       "id": "tip_011",
