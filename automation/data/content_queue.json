@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2026-03-19T16:45:55.340852+00:00",
+  "last_updated": "2026-03-20T06:41:18.818673+00:00",
   "description": "Pre-written content queue - NO API credits needed! Add more using Claude Code sessions.",
   "daily_tips": [
     {
@@ -66,7 +66,8 @@
     {
       "id": "tip_011",
       "content": "The 4-7-8 breathing technique: Inhale 4 sec, hold 7 sec, exhale 8 sec. Repeat 4x to calm your nervous system.",
-      "sent": false
+      "sent": true,
+      "sent_at": "2026-03-20T06:41:18.818660+00:00"
     },
     {
       "id": "tip_012",
