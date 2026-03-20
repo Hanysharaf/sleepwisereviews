@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2026-03-20T12:35:25.385173+00:00",
+  "last_updated": "2026-03-20T16:31:16.025059+00:00",
   "description": "Pre-written content queue - NO API credits needed! Add more using Claude Code sessions.",
   "daily_tips": [
     {
@@ -432,7 +432,8 @@
     {
       "id": "eng_012",
       "message": "Create a poll or question in your Instagram story to boost engagement and learn what your audience wants.",
-      "sent": false
+      "sent": true,
+      "sent_at": "2026-03-20T16:31:16.025048+00:00"
     },
     {
       "id": "eng_013",
