@@ -1,7 +1,8 @@
 # SleepWise Project Roadmap
 
-## Current Status: Phase 2 - Automation Built, Manual Posting
-**Last Updated:** March 17, 2026
+## Current Status: Phase 3 - Ready for n8n Implementation
+**Last Updated:** March 21, 2026
+**Decision:** Using n8n for automation (FREE, self-hosted)
 
 ---
 
@@ -47,28 +48,33 @@
 
 ---
 
-## Phase 3: Full Auto-Posting
-**Status: BLOCKED - Needs Paid Service**
+## Phase 3: Full Auto-Posting with n8n
+**Status: READY TO IMPLEMENT**
+**Solution:** n8n (FREE self-hosted automation platform)
 
-### Options to Enable:
+### Why n8n Won:
+- ✅ **$0/month** - Free tier on Railway (vs Buffer $6/mo, Tailwind $15/mo)
+- ✅ **Open Source** - Full control over workflows
+- ✅ **Flexible** - Pinterest, Instagram, Telegram, analytics all-in-one
+- ✅ **No API Restrictions** - Built-in Pinterest OAuth support
+- ✅ **Professional** - Used by companies worldwide
 
-| Service | Cost | What It Does |
-|---------|------|--------------|
-| **Buffer** | $6/mo | Auto-posts to Pinterest + Instagram |
-| **Tailwind** | $15/mo | Pinterest-specific, smart scheduling |
-| **Keep Manual** | Free | Telegram reminders, you post |
+### Implementation Timeline:
 
-### To Enable Buffer:
-1. Sign up at buffer.com
-2. Connect Pinterest account
-3. Get Access Token
-4. Add to `.env`: `BUFFER_ACCESS_TOKEN=xxx`
-5. Update `auto_scheduler.py` to use Buffer API
+| Week | Tasks | Time |
+|------|-------|------|
+| **Week 1** | Deploy n8n, set up Pinterest OAuth, build posting workflow | 2 hours |
+| **Week 2** | Build all 5 workflows, test thoroughly, go live | 3 hours |
+| **Total** | Full automation operational | **5 hours** |
 
-### Why Pinterest API Doesn't Work Directly:
-- Pinterest requires approved business developer app
-- Token gives "consumer type not supported" error
-- Approval takes weeks and may be rejected
+### n8n Workflows to Build:
+1. **Pinterest Auto-Posting** - 3x daily (8 AM, 2 PM, 6 PM UTC)
+2. **Instagram Reminders** - Daily at 12 PM
+3. **Daily Analytics Report** - 8 PM with stats
+4. **Content Queue Alerts** - Weekly monitoring
+5. **Website Uptime Monitor** - Every 6 hours
+
+**Detailed Plan:** See `docs/N8N-INTEGRATION-PLAN.md`
 
 ---
 
@@ -86,6 +92,8 @@
 | Automation System Built | March 17, 2026 |
 | Folder Structure Cleaned | March 17, 2026 |
 | Activepieces Integration Attempted | March 17, 2026 |
+| n8n Decision Made | March 21, 2026 |
+| Project Reorganized & Committed | March 21, 2026 |
 
 ---
 
@@ -159,19 +167,29 @@ Based on Pinterest data:
 
 ---
 
-## Next Steps
+## Next Steps - n8n Implementation
 
-1. **Option A: Stay Free**
-   - Use Telegram reminders
-   - Manually post to Pinterest daily
-   - Takes ~5 min/day
+### This Week (March 21-27):
+1. ✅ **Decision Made:** Using n8n
+2. ⏳ **Deploy n8n to Railway** (15 min)
+   - Use template: https://railway.app/template/n8n
+   - Set up basic auth
+   - Get webhook URL
+3. ⏳ **Pinterest OAuth Setup** (10 min)
+   - Create app at developers.pinterest.com
+   - Configure OAuth in n8n
+4. ⏳ **First Workflow** (30 min)
+   - Build Pinterest posting workflow
+   - Test with 2-3 pins
+5. ⏳ **Go Live** (5 min)
+   - Enable automation
+   - Monitor first 24 hours
 
-2. **Option B: Pay $6/mo (Buffer)**
-   - Full auto-posting
-   - No manual work
-   - Multi-platform support
+### Week 2 (March 28-April 3):
+- Build remaining workflows
+- Full automation operational
+- Document setup for future reference
 
-3. **Option C: Pay $15/mo (Tailwind)**
-   - Best for Pinterest
-   - Smart scheduling
-   - Analytics included
+**Investment:** ~5 hours total
+**Monthly Cost:** $0 (Railway free tier)
+**Result:** Fully automated social media posting
