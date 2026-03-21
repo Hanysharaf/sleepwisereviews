@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2026-03-21T06:30:50.072328+00:00",
+  "last_updated": "2026-03-21T12:26:34.442765+00:00",
   "description": "Pre-written content queue - NO API credits needed! Add more using Claude Code sessions.",
   "daily_tips": [
     {
@@ -140,7 +140,7 @@
       ],
       "product_link": "https://www.amazon.com/s?k=cooling+mattress+pad&tag=sleepwiserevi-20",
       "sent": true,
-      "sent_at": "2026-03-09T12:36:57.488321+00:00"
+      "sent_at": "2026-03-21T12:26:34.442753+00:00"
     },
     {
       "id": "ig_002",
@@ -159,8 +159,7 @@
         "#RestfulSleep"
       ],
       "product_link": "https://www.amazon.com/s?k=herbal+sleep+tea&tag=sleepwiserevi-20",
-      "sent": true,
-      "sent_at": "2026-03-10T12:36:20.826768+00:00"
+      "sent": false
     },
     {
       "id": "ig_003",
@@ -179,8 +178,7 @@
         "#BetterSleep"
       ],
       "product_link": "https://www.amazon.com/s?k=weighted+blanket&tag=sleepwiserevi-20",
-      "sent": true,
-      "sent_at": "2026-03-11T12:35:53.703127+00:00"
+      "sent": false
     },
     {
       "id": "ig_004",
@@ -199,8 +197,7 @@
         "#SleepBetter"
       ],
       "product_link": "https://www.amazon.com/s?k=white+noise+machine&tag=sleepwiserevi-20",
-      "sent": true,
-      "sent_at": "2026-03-12T12:35:24.761066+00:00"
+      "sent": false
     },
     {
       "id": "ig_005",
@@ -219,8 +216,7 @@
         "#SleepWell"
       ],
       "product_link": "https://www.amazon.com/s?k=magnesium+glycinate+sleep&tag=sleepwiserevi-20",
-      "sent": true,
-      "sent_at": "2026-03-13T12:34:39.750895+00:00"
+      "sent": false
     },
     {
       "id": "ig_006",
@@ -239,8 +235,7 @@
         "#SleepWell"
       ],
       "product_link": "https://www.amazon.com/s?k=silk+sleep+mask&tag=sleepwiserevi-20",
-      "sent": true,
-      "sent_at": "2026-03-14T12:28:06.179689+00:00"
+      "sent": false
     },
     {
       "id": "ig_007",
@@ -259,8 +254,7 @@
         "#RestfulNights"
       ],
       "product_link": "https://www.amazon.com/s?k=ergonomic+pillow&tag=sleepwiserevi-20",
-      "sent": true,
-      "sent_at": "2026-03-15T12:30:02.982474+00:00"
+      "sent": false
     },
     {
       "id": "ig_008",
@@ -279,8 +273,7 @@
         "#SleepScience"
       ],
       "product_link": "https://www.amazon.com/s?k=blue+light+blocking+glasses&tag=sleepwiserevi-20",
-      "sent": true,
-      "sent_at": "2026-03-16T12:45:46.635093+00:00"
+      "sent": false
     },
     {
       "id": "ig_009",
@@ -299,8 +292,7 @@
         "#SleepHacks"
       ],
       "product_link": "https://www.amazon.com/s?k=sleep+tracker&tag=sleepwiserevi-20",
-      "sent": true,
-      "sent_at": "2026-03-17T12:44:39.325530+00:00"
+      "sent": false
     },
     {
       "id": "ig_010",
@@ -319,8 +311,7 @@
         "#RestfulNights"
       ],
       "product_link": "https://www.amazon.com/s?k=blackout+curtains&tag=sleepwiserevi-20",
-      "sent": true,
-      "sent_at": "2026-03-18T12:44:40.524704+00:00"
+      "sent": false
     },
     {
       "id": "ig_011",
@@ -339,8 +330,7 @@
         "#SelfCare"
       ],
       "product_link": "https://www.amazon.com/s?k=lavender+essential+oil+diffuser&tag=sleepwiserevi-20",
-      "sent": true,
-      "sent_at": "2026-03-19T12:38:45.335947+00:00"
+      "sent": false
     },
     {
       "id": "ig_012",
@@ -359,8 +349,7 @@
         "#SleepHacks"
       ],
       "product_link": "https://www.amazon.com/s?k=light+therapy+lamp&tag=sleepwiserevi-20",
-      "sent": true,
-      "sent_at": "2026-03-20T12:35:25.385160+00:00"
+      "sent": false
     }
   ],
   "engagement_messages": [
