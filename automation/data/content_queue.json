@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2026-03-20T16:31:16.025059+00:00",
+  "last_updated": "2026-03-21T06:30:50.072328+00:00",
   "description": "Pre-written content queue - NO API credits needed! Add more using Claude Code sessions.",
   "daily_tips": [
     {
@@ -72,7 +72,8 @@
     {
       "id": "tip_012",
       "content": "Alcohol may help you fall asleep but disrupts REM sleep. Avoid drinking 3+ hours before bed.",
-      "sent": false
+      "sent": true,
+      "sent_at": "2026-03-21T06:30:50.072310+00:00"
     },
     {
       "id": "tip_013",
