@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2026-03-21T12:26:34.442765+00:00",
+  "last_updated": "2026-03-21T16:17:24.355371+00:00",
   "description": "Pre-written content queue - NO API credits needed! Add more using Claude Code sessions.",
   "daily_tips": [
     {
@@ -428,7 +428,8 @@
     {
       "id": "eng_013",
       "message": "Check which of your pins are ranking in Pinterest search. Optimize titles and descriptions for those doing well.",
-      "sent": false
+      "sent": true,
+      "sent_at": "2026-03-21T16:17:24.355354+00:00"
     },
     {
       "id": "eng_014",
