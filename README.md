@@ -29,51 +29,61 @@ SleepReviewes/
 
 ## Quick Start
 
-### Run Automation Status
+### n8n Cloud Automation (PRIMARY SYSTEM)
+All automation runs on **n8n Cloud** - no manual intervention needed!
+
+**Current Status:** ✅ Live & Auto-Posting
+**Platform:** app.n8n.cloud
+**Cost:** $0/month
+
+**Setup Guides:**
+- `docs/N8N-IMPLEMENTATION-GUIDE.md` - Complete setup instructions
+- `docs/N8N-QUICK-REFERENCE.md` - Quick reference card
+
+### Python Scripts (Manual Backup)
 ```bash
 cd automation
-python auto_scheduler.py --status
+python auto_scheduler.py --status           # Check status
+python auto_scheduler.py --post-pinterest 1  # Manual post
+python auto_scheduler.py --daily-report      # Generate report
 ```
 
-### Post to Pinterest
-```bash
-python auto_scheduler.py --post-pinterest 2
-```
+## Automation Schedule (n8n Cloud)
 
-### Send Daily Report
-```bash
-python auto_scheduler.py --daily-report
-```
+| Time (UTC) | Workflow | Action |
+|------------|----------|--------|
+| 08:00 | Pinterest Auto-Poster | Post pin #1 |
+| 09:00 | Queue Monitor | Check queue (Mon only) |
+| 12:00 | Instagram Reminder | Send IG tip |
+| 14:00 | Pinterest Auto-Poster | Post pin #2 |
+| 18:00 | Pinterest Auto-Poster | Post pin #3 |
+| 20:00 | Daily Analytics | Send stats report |
 
-### Run Full Automation
-```bash
-python auto_scheduler.py --run-now
-```
-
-## Automation Schedule
-
-| Time (UTC) | Task |
-|------------|------|
-| 06:00 | Daily sleep tip |
-| 08:00 | Post 2 Pinterest pins |
-| 12:00 | Instagram content |
-| 14:00 | Post 2 Pinterest pins |
-| 18:00 | Post 1 Pinterest pin |
-| 20:00 | Daily report with links |
+**Total:** 3 Pinterest pins/day, all automatic! 🎉
 
 ## Key Files
 
-- `automation/auto_scheduler.py` - Main scheduler (use this)
-- `automation/modules/pinterest_poster.py` - Pinterest posting with queue
-- `automation/modules/telegram_bot.py` - Telegram notifications
-- `automation/data/pinterest_queue.json` - Content queue
+**n8n Automation (PRIMARY):**
+- `docs/N8N-IMPLEMENTATION-GUIDE.md` - Complete n8n setup guide
+- `docs/N8N-QUICK-REFERENCE.md` - Quick reference card
+- `automation/data/pinterest_queue.json` - Content queue (n8n reads/writes)
+- `automation/data/pinterest_posted.json` - Posted history with URLs
+
+**Python Scripts (BACKUP/MANUAL):**
+- `automation/auto_scheduler.py` - Manual operations
+- `automation/modules/pinterest_poster.py` - Pinterest API wrapper
 
 ## Documentation
 
-See `docs/` folder:
-- `AUTOMATION-SETUP-GUIDE.md` - Full setup instructions
-- `SOCIAL-MEDIA-CONTENT-PACK.md` - Content strategy
-- `launch-guide.md` - Launch checklist
+**n8n Automation:**
+- `docs/N8N-IMPLEMENTATION-GUIDE.md` - Step-by-step setup (START HERE!)
+- `docs/N8N-QUICK-REFERENCE.md` - Quick reference card
+- `docs/N8N-INTEGRATION-PLAN.md` - Architecture overview
+
+**General:**
+- `docs/ROADMAP.md` - Project roadmap & milestones
+- `docs/SOCIAL-MEDIA-CONTENT-PACK.md` - Content strategy
+- `docs/ACTION-GUIDE.md` - Daily action guide
 
 ## Environment Variables
 
