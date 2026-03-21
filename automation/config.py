@@ -7,6 +7,10 @@ import os
 from pathlib import Path
 from datetime import datetime, timezone
 
+# Load .env file
+from dotenv import load_dotenv
+load_dotenv(Path(__file__).parent / ".env")
+
 # =============================================================================
 # Base Paths
 # =============================================================================

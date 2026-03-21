@@ -196,5 +196,26 @@
     "task": "daily_summary",
     "success": true,
     "details": "Daily summary sent"
+  },
+  {
+    "timestamp": "2026-03-17T00:15:50.302775+00:00",
+    "task": "post_pinterest",
+    "success": false,
+    "details": "Posted 0 pins",
+    "url": ""
+  },
+  {
+    "timestamp": "2026-03-17T00:17:17.365867+00:00",
+    "task": "post_pinterest",
+    "success": true,
+    "details": "Posted 1 pins",
+    "url": ""
+  },
+  {
+    "timestamp": "2026-03-17T00:17:31.653193+00:00",
+    "task": "daily_report",
+    "success": true,
+    "details": "Report sent",
+    "url": ""
   }
 ]

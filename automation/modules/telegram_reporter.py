@@ -209,6 +209,86 @@ class TelegramReporter:
         )
         return self.send_message(text)
 
+    def send_daily_summary_with_links(self, stats: dict) -> dict:
+        """
+        Send daily summary report WITH actual posted links.
+
+        Args:
+            stats: Dictionary with posted content including URLs
+        """
+        text = (
+            f"{TELEGRAM_TEMPLATES['header']}"
+            f"📊 <b>Daily Report - {datetime.now(timezone.utc).strftime('%B %d, %Y')}</b>\n\n"
+        )
+
+        # Pinterest pins posted today WITH LINKS
+        pinterest_posts = stats.get("pinterest_today", [])
+        if pinterest_posts:
+            text += f"<b>📌 Pinterest Posted: {len(pinterest_posts)}</b>\n"
+            for pin in pinterest_posts[:5]:
+                title = pin.get("title", "Pin")[:35]
+                url = pin.get("pin_url", "")
+                text += f"  • {title}\n    {url}\n"
+            text += "\n"
+        else:
+            text += "<b>📌 Pinterest:</b> 0 pins today\n\n"
+
+        # Instagram
+        instagram_posts = stats.get("instagram_today", [])
+        if instagram_posts:
+            text += f"<b>📸 Instagram Posted: {len(instagram_posts)}</b>\n"
+            for post in instagram_posts[:3]:
+                caption = post.get("caption", "")[:30]
+                url = post.get("post_url", "")
+                text += f"  • {caption}...\n"
+                if url:
+                    text += f"    {url}\n"
+            text += "\n"
+        else:
+            text += f"<b>📸 Instagram:</b> {stats.get('ig_prepared', 0)} prepared\n\n"
+
+        # Weekly totals
+        text += "<b>📈 This Week:</b>\n"
+        text += f"  Pinterest: {stats.get('pins_week', 0)} pins\n"
+        text += f"  Instagram: {stats.get('ig_week', 0)} posts\n"
+        text += f"  Articles: {stats.get('articles_week', 0)}\n\n"
+
+        # Queue status
+        text += "<b>📦 Content Queue:</b>\n"
+        text += f"  Pinterest: {stats.get('pinterest_queue', 0)} pins ready\n"
+        text += f"  Instagram: {stats.get('ig_queue', 0)} posts ready\n\n"
+
+        # Your pages
+        text += "<b>🔗 Your Pages:</b>\n"
+        text += "  Web: https://hanysharaf.github.io/sleepwisereviews/\n"
+
+        text += f"\n⏰ {datetime.now(timezone.utc).strftime('%Y-%m-%d %H:%M UTC')}"
+
+        return self.send_message(text)
+
+    def send_pin_posted(self, pin_data: dict) -> dict:
+        """
+        Notify when a Pinterest pin is posted with actual URL.
+
+        Args:
+            pin_data: Pin data including pin_url
+        """
+        text = (
+            f"{TELEGRAM_TEMPLATES['header']}"
+            f"<b>📌 Pin Posted!</b>\n\n"
+            f"<b>{pin_data.get('title', 'New Pin')}</b>\n\n"
+        )
+
+        if pin_data.get("pin_url"):
+            text += f"<b>View:</b> {pin_data['pin_url']}\n\n"
+
+        if pin_data.get("link"):
+            text += f"<b>Links to:</b> {pin_data['link']}\n\n"
+
+        text += f"⏰ {datetime.now(timezone.utc).strftime('%H:%M UTC')}"
+
+        return self.send_message(text)
+
     def send_weekly_summary(self, stats: dict) -> dict:
         """
         Send weekly summary report.

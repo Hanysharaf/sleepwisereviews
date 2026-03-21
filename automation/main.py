@@ -23,7 +23,8 @@ from modules import (
     ContentGenerator,
     WebsiteManager,
     InstagramPrep,
-    QueueSender
+    QueueSender,
+    PinterestPoster
 )
 
 # Configure logging
@@ -49,6 +50,7 @@ class SleepWiseAgent:
         self.content = ContentGenerator()
         self.website = WebsiteManager()
         self.instagram = InstagramPrep()
+        self.pinterest = PinterestPoster()
 
         # Initialize queue sender (NO API credits needed!)
         self.queue = QueueSender(telegram_reporter=self.telegram)
@@ -203,9 +205,8 @@ class SleepWiseAgent:
         """
         try:
             if task == "pinterest_pin":
-                # Pinterest automation disabled - API access denied
-                logger.info("Pinterest task skipped (API access not available)")
-                result = {"ok": True, "details": "Pinterest skipped - API access denied"}
+                # Actually post to Pinterest and track URLs
+                result = self._task_post_pinterest()
             elif task == "content_prep":
                 # Use queue-based content (NO API credits needed!)
                 result = self._task_content_prep_from_queue()
@@ -362,23 +363,63 @@ class SleepWiseAgent:
             "details": "Weekly task sent"
         }
 
+    def _task_post_pinterest(self, count: int = 2) -> dict:
+        """Actually post pins to Pinterest and notify via Telegram."""
+        logger.info(f"Executing Pinterest posting task ({count} pins)")
+
+        results = []
+        for i in range(count):
+            result = self.pinterest.post_next_pin()
+
+            if result.get("ok"):
+                # Notify via Telegram with real URL
+                self.telegram.send_pin_posted(result)
+
+                # Update state
+                self.state["pins_today"] = self.state.get("pins_today", 0) + 1
+                self.state["pins_this_week"] = self.state.get("pins_this_week", 0) + 1
+                self.state["last_pin_date"] = datetime.now(timezone.utc).isoformat()
+
+                results.append(result)
+                logger.info(f"Posted pin: {result.get('pin_url')}")
+            else:
+                logger.warning(f"Failed to post pin: {result.get('error')}")
+                break
+
+        return {
+            "ok": len(results) > 0,
+            "details": f"Posted {len(results)} pins to Pinterest",
+            "pins": results
+        }
+
     def _task_daily_summary(self) -> dict:
-        """Send daily summary report."""
+        """Send daily summary report WITH actual posted links."""
         logger.info("Executing daily summary task")
 
+        # Get Pinterest stats with actual posted URLs
+        pinterest_stats = self.pinterest.get_stats()
+
         stats = {
-            "pins_today": self.state.get("pins_today", 0),
+            # Pinterest - with actual URLs
+            "pinterest_today": pinterest_stats.get("today_posts", []),
+            "pins_today": len(pinterest_stats.get("today_posts", [])),
+            "pinterest_queue": pinterest_stats.get("queue_remaining", 0),
+
+            # Instagram
             "ig_prepared": self.state.get("ig_posts_prepared", 0),
-            "articles_today": 0,  # Would track if we generated articles today
-            "pins_week": self.state.get("pins_this_week", 0),
             "ig_week": self.instagram.get_posting_stats().get("posted_this_week", 0),
+
+            # Articles
+            "articles_today": 0,
+            "pins_week": self.state.get("pins_this_week", 0),
             "articles_week": self.state.get("articles_this_week", 0)
         }
 
-        result = self.telegram.send_daily_summary(stats)
+        # Use the new method that includes actual links
+        result = self.telegram.send_daily_summary_with_links(stats)
         return {
             "ok": result.get("ok", False),
-            "details": "Daily summary sent"
+            "details": "Daily summary with links sent"
         }
 
     def _task_generate_article(self) -> dict:

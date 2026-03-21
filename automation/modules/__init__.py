@@ -7,11 +7,15 @@ from .content_generator import ContentGenerator
 from .website_manager import WebsiteManager
 from .instagram_prep import InstagramPrep
 from .queue_sender import QueueSender
+from .pinterest_poster import PinterestPoster
+from .telegram_bot import TelegramBot
 
 __all__ = [
     "TelegramReporter",
     "ContentGenerator",
     "WebsiteManager",
     "InstagramPrep",
-    "QueueSender"
+    "QueueSender",
+    "PinterestPoster",
+    "TelegramBot"
 ]
