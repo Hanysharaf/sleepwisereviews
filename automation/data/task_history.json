@@ -198,24 +198,177 @@
     "details": "Daily summary sent"
   },
   {
-    "timestamp": "2026-03-17T00:15:50.302775+00:00",
-    "task": "post_pinterest",
-    "success": false,
-    "details": "Posted 0 pins",
-    "url": ""
+    "timestamp": "2026-03-15T06:43:38.074648+00:00",
+    "task": "daily_tip",
+    "success": true,
+    "details": "Daily tip sent: tip_007"
   },
   {
-    "timestamp": "2026-03-17T00:17:17.365867+00:00",
-    "task": "post_pinterest",
+    "timestamp": "2026-03-15T08:25:37.293535+00:00",
+    "task": "weekly_task",
     "success": true,
-    "details": "Posted 1 pins",
-    "url": ""
+    "details": "Weekly task sent"
   },
   {
-    "timestamp": "2026-03-17T00:17:31.653193+00:00",
-    "task": "daily_report",
+    "timestamp": "2026-03-15T12:30:02.983266+00:00",
+    "task": "instagram_notify",
     "success": true,
-    "details": "Report sent",
-    "url": ""
+    "details": "Instagram content sent: ig_007"
+  },
+  {
+    "timestamp": "2026-03-15T16:20:48.704606+00:00",
+    "task": "engagement_tips",
+    "success": true,
+    "details": "Engagement reminder sent: eng_007"
+  },
+  {
+    "timestamp": "2026-03-15T20:17:46.969728+00:00",
+    "task": "daily_summary",
+    "success": true,
+    "details": "Daily summary sent"
+  },
+  {
+    "timestamp": "2026-03-16T08:44:16.093555+00:00",
+    "task": "weekly_task",
+    "success": true,
+    "details": "Weekly task sent"
+  },
+  {
+    "timestamp": "2026-03-16T12:45:46.635854+00:00",
+    "task": "instagram_notify",
+    "success": true,
+    "details": "Instagram content sent: ig_008"
+  },
+  {
+    "timestamp": "2026-03-16T16:53:18.862041+00:00",
+    "task": "engagement_tips",
+    "success": true,
+    "details": "Engagement reminder sent: eng_008"
+  },
+  {
+    "timestamp": "2026-03-16T20:27:40.189547+00:00",
+    "task": "daily_summary",
+    "success": true,
+    "details": "Daily summary sent"
+  },
+  {
+    "timestamp": "2026-03-17T06:52:04.976636+00:00",
+    "task": "daily_tip",
+    "success": true,
+    "details": "Daily tip sent: tip_008"
+  },
+  {
+    "timestamp": "2026-03-17T08:39:20.376703+00:00",
+    "task": "weekly_task",
+    "success": true,
+    "details": "Weekly task sent"
+  },
+  {
+    "timestamp": "2026-03-17T12:44:39.326317+00:00",
+    "task": "instagram_notify",
+    "success": true,
+    "details": "Instagram content sent: ig_009"
+  },
+  {
+    "timestamp": "2026-03-17T16:55:34.241077+00:00",
+    "task": "engagement_tips",
+    "success": true,
+    "details": "Engagement reminder sent: eng_009"
+  },
+  {
+    "timestamp": "2026-03-17T20:29:16.236420+00:00",
+    "task": "daily_summary",
+    "success": true,
+    "details": "Daily summary sent"
+  },
+  {
+    "timestamp": "2026-03-18T06:50:48.422642+00:00",
+    "task": "daily_tip",
+    "success": true,
+    "details": "Daily tip sent: tip_009"
+  },
+  {
+    "timestamp": "2026-03-18T08:36:42.102815+00:00",
+    "task": "weekly_task",
+    "success": true,
+    "details": "Weekly task sent"
+  },
+  {
+    "timestamp": "2026-03-18T12:44:40.525433+00:00",
+    "task": "instagram_notify",
+    "success": true,
+    "details": "Instagram content sent: ig_010"
+  },
+  {
+    "timestamp": "2026-03-18T16:50:06.652066+00:00",
+    "task": "engagement_tips",
+    "success": true,
+    "details": "Engagement reminder sent: eng_010"
+  },
+  {
+    "timestamp": "2026-03-18T20:25:52.590579+00:00",
+    "task": "daily_summary",
+    "success": true,
+    "details": "Daily summary sent"
+  },
+  {
+    "timestamp": "2026-03-19T06:44:41.176964+00:00",
+    "task": "daily_tip",
+    "success": true,
+    "details": "Daily tip sent: tip_010"
+  },
+  {
+    "timestamp": "2026-03-19T08:30:44.571623+00:00",
+    "task": "weekly_task",
+    "success": true,
+    "details": "Weekly task sent"
+  },
+  {
+    "timestamp": "2026-03-19T12:38:45.336811+00:00",
+    "task": "instagram_notify",
+    "success": true,
+    "details": "Instagram content sent: ig_011"
+  },
+  {
+    "timestamp": "2026-03-19T16:45:55.341601+00:00",
+    "task": "engagement_tips",
+    "success": true,
+    "details": "Engagement reminder sent: eng_011"
+  },
+  {
+    "timestamp": "2026-03-19T20:27:08.206947+00:00",
+    "task": "daily_summary",
+    "success": true,
+    "details": "Daily summary sent"
+  },
+  {
+    "timestamp": "2026-03-20T06:41:18.819450+00:00",
+    "task": "daily_tip",
+    "success": true,
+    "details": "Daily tip sent: tip_011"
+  },
+  {
+    "timestamp": "2026-03-20T08:29:54.125842+00:00",
+    "task": "weekly_task",
+    "success": true,
+    "details": "Weekly task sent"
+  },
+  {
+    "timestamp": "2026-03-20T12:35:25.385985+00:00",
+    "task": "instagram_notify",
+    "success": true,
+    "details": "Instagram content sent: ig_012"
+  },
+  {
+    "timestamp": "2026-03-20T16:31:16.025871+00:00",
+    "task": "engagement_tips",
+    "success": true,
+    "details": "Engagement reminder sent: eng_012"
+  },
+  {
+    "timestamp": "2026-03-20T20:21:00.299362+00:00",
+    "task": "daily_summary",
+    "success": true,
+    "details": "Daily summary sent"
   }
 ]
