@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2026-03-22T12:28:25.892167+00:00",
+  "last_updated": "2026-03-22T16:18:12.789535+00:00",
   "description": "Pre-written content queue - NO API credits needed! Add more using Claude Code sessions.",
   "daily_tips": [
     {
@@ -436,7 +436,8 @@
     {
       "id": "eng_014",
       "message": "Repurpose your best Instagram caption into a Pinterest pin. Same content, different platform, more reach!",
-      "sent": false
+      "sent": true,
+      "sent_at": "2026-03-22T16:18:12.789518+00:00"
     }
   ],
   "weekly_tasks": [
