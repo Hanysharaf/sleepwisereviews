@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2026-03-21T16:17:24.355371+00:00",
+  "last_updated": "2026-03-22T06:38:16.138209+00:00",
   "description": "Pre-written content queue - NO API credits needed! Add more using Claude Code sessions.",
   "daily_tips": [
     {
@@ -78,7 +78,8 @@
     {
       "id": "tip_013",
       "content": "Complete darkness is essential. Even small lights from electronics can disrupt melatonin production.",
-      "sent": false
+      "sent": true,
+      "sent_at": "2026-03-22T06:38:16.138196+00:00"
     },
     {
       "id": "tip_014",
