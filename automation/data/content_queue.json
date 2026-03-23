@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2026-03-22T16:18:12.789535+00:00",
+  "last_updated": "2026-03-23T06:57:49.649968+00:00",
   "description": "Pre-written content queue - NO API credits needed! Add more using Claude Code sessions.",
   "daily_tips": [
     {
@@ -84,7 +84,8 @@
     {
       "id": "tip_014",
       "content": "Can't sleep after 20 minutes? Get up and do something relaxing until you feel sleepy. Don't toss and turn.",
-      "sent": false
+      "sent": true,
+      "sent_at": "2026-03-23T06:57:49.649957+00:00"
     },
     {
       "id": "tip_015",
