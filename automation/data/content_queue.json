@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2026-03-23T12:41:11.854842+00:00",
+  "last_updated": "2026-03-23T16:45:23.552070+00:00",
   "description": "Pre-written content queue - NO API credits needed! Add more using Claude Code sessions.",
   "daily_tips": [
     {
@@ -361,85 +361,72 @@
       "id": "eng_001",
       "message": "Check your Pinterest analytics - which pins got the most saves this week? Create more content like your top performers!",
       "sent": true,
-      "sent_at": "2026-03-09T16:46:11.378991+00:00"
+      "sent_at": "2026-03-23T16:45:23.552058+00:00"
     },
     {
       "id": "eng_002",
       "message": "Reply to any comments on your Instagram posts from the last 24 hours. Engagement boosts your visibility!",
-      "sent": true,
-      "sent_at": "2026-03-10T16:45:49.248057+00:00"
+      "sent": false
     },
     {
       "id": "eng_003",
       "message": "Save 5-10 pins from other sleep/wellness accounts to your boards. This helps Pinterest show your content to similar audiences.",
-      "sent": true,
-      "sent_at": "2026-03-11T16:40:09.690368+00:00"
+      "sent": false
     },
     {
       "id": "eng_004",
       "message": "Check Amazon affiliate dashboard - any sales or clicks this week? Note which products are converting.",
-      "sent": true,
-      "sent_at": "2026-03-12T16:49:43.621621+00:00"
+      "sent": false
     },
     {
       "id": "eng_005",
       "message": "Research trending sleep topics on Pinterest. What questions are people asking? Create content that answers them!",
-      "sent": true,
-      "sent_at": "2026-03-13T16:28:14.919794+00:00"
+      "sent": false
     },
     {
       "id": "eng_006",
       "message": "Update your Pinterest profile and board descriptions with relevant keywords for better SEO.",
-      "sent": true,
-      "sent_at": "2026-03-14T16:19:33.372062+00:00"
+      "sent": false
     },
     {
       "id": "eng_007",
       "message": "Check your Instagram insights - what time are your followers most active? Schedule posts accordingly.",
-      "sent": true,
-      "sent_at": "2026-03-15T16:20:48.703880+00:00"
+      "sent": false
     },
     {
       "id": "eng_008",
       "message": "Join 2-3 Pinterest group boards in the sleep/wellness niche. Share your pins there for more reach.",
-      "sent": true,
-      "sent_at": "2026-03-16T16:53:18.861289+00:00"
+      "sent": false
     },
     {
       "id": "eng_009",
       "message": "Create a new Pinterest board for a specific topic (e.g., 'Sleep Products for Anxiety'). Niche boards attract targeted followers.",
-      "sent": true,
-      "sent_at": "2026-03-17T16:55:34.240298+00:00"
+      "sent": false
     },
     {
       "id": "eng_010",
       "message": "Review your top 5 Amazon affiliate links. Are the products still available and well-reviewed? Update if needed.",
-      "sent": true,
-      "sent_at": "2026-03-18T16:50:06.651283+00:00"
+      "sent": false
     },
     {
       "id": "eng_011",
       "message": "Follow 10 accounts in your niche on Instagram. Genuine engagement often leads to follow-backs and collaboration opportunities.",
-      "sent": true,
-      "sent_at": "2026-03-19T16:45:55.340837+00:00"
+      "sent": false
     },
     {
       "id": "eng_012",
       "message": "Create a poll or question in your Instagram story to boost engagement and learn what your audience wants.",
-      "sent": true,
-      "sent_at": "2026-03-20T16:31:16.025048+00:00"
+      "sent": false
     },
     {
       "id": "eng_013",
       "message": "Check which of your pins are ranking in Pinterest search. Optimize titles and descriptions for those doing well.",
-      "sent": true,
-      "sent_at": "2026-03-21T16:17:24.355354+00:00"
+      "sent": false
     },
     {
       "id": "eng_014",
       "message": "Repurpose your best Instagram caption into a Pinterest pin. Same content, different platform, more reach!",
-      "sent": true,
-      "sent_at": "2026-03-22T16:18:12.789518+00:00"
+      "sent": false
     }
   ],
   "weekly_tasks": [
