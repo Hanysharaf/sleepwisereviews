@@ -401,9 +401,46 @@
       border-color: var(--gold);
     }
 
+    /* CAROUSEL */
+    .carousel-wrapper { position: relative; }
+    .carousel-track {
+      display: flex;
+      overflow-x: auto;
+      scroll-snap-type: x mandatory;
+      gap: 1.2rem;
+      scrollbar-width: none;
+      -ms-overflow-style: none;
+      padding-bottom: 4px;
+      cursor: grab;
+    }
+    .carousel-track:active { cursor: grabbing; }
+    .carousel-track::-webkit-scrollbar { display: none; }
+    .carousel-arrow {
+      position: absolute;
+      top: 40%;
+      transform: translateY(-50%);
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      background: rgba(10,14,26,0.88);
+      border: 1px solid rgba(201,168,76,0.4);
+      color: var(--gold);
+      font-size: 1.5rem;
+      cursor: pointer;
+      z-index: 3;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      backdrop-filter: blur(6px);
+      transition: background 0.2s, border-color 0.2s;
+    }
+    .carousel-arrow:hover { background: rgba(201,168,76,0.15); border-color: var(--gold); }
+    .carousel-arrow.prev { left: -16px; }
+    .carousel-arrow.next { right: -16px; }
+    @media (max-width: 900px) { .carousel-arrow { display: none; } }
+
     .articles-grid {
-      display: grid;
-      grid-template-columns: 1.6fr 1fr 1fr;
+      display: flex;
       gap: 1.5rem;
     }
 
@@ -417,6 +454,14 @@
       display: flex;
       flex-direction: column;
       transition: all 0.25s;
+      min-width: 290px;
+      max-width: 290px;
+      scroll-snap-align: start;
+      flex-shrink: 0;
+    }
+    .article-card.featured {
+      min-width: 340px;
+      max-width: 340px;
     }
 
     .article-card:hover {
@@ -506,8 +551,7 @@
     }
 
     .picks-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      display: flex;;
       gap: 1.2rem;
     }
 
@@ -520,6 +564,10 @@
       gap: 1.2rem;
       position: relative;
       transition: all 0.25s;
+      min-width: 300px;
+      max-width: 300px;
+      scroll-snap-align: start;
+      flex-shrink: 0;
     }
 
     .pick-card:hover {
@@ -931,10 +979,6 @@
         display: flex;
       }
 
-      .articles-grid {
-        grid-template-columns: 1fr;
-      }
-
       .email-inner {
         grid-template-columns: 1fr;
         gap: 2rem;
@@ -993,7 +1037,7 @@
       }
 
       .picks-grid {
-        grid-template-columns: 1fr;
+        flex-wrap: nowrap;
       }
     }
 
@@ -1025,8 +1069,7 @@
     }
 
     .testimonials-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      display: flex;
       gap: 1.5rem;
       margin-top: 2.5rem;
     }
@@ -1037,6 +1080,10 @@
       border-radius: 14px;
       padding: 2rem;
       position: relative;
+      min-width: 320px;
+      max-width: 320px;
+      scroll-snap-align: start;
+      flex-shrink: 0;
       transition: all 0.3s ease;
     }
 
@@ -1430,7 +1477,9 @@
             <a class="view-all" href="#archive">All articles →</a>
           </div>
 
-          <div class="articles-grid">
+          <div class="carousel-wrapper">
+          <button class="carousel-arrow prev" onclick="scrollCarousel(this,-1)">&#8249;</button>
+          <div class="articles-grid carousel-track">
             <a class="article-card featured" href="posts/article-weighted-blanket.html">
               <div class="article-thumb">🛌</div>
               <div class="article-body">
@@ -1475,6 +1524,8 @@
               </div>
             </a>
           </div>
+          <button class="carousel-arrow next" onclick="scrollCarousel(this,1)">&#8250;</button>
+          </div>
         </div>
       </section>
 
@@ -1485,7 +1536,9 @@
           <div class="section-title">Top Picks This Month</div>
           <div class="section-sub">Products we've personally tested and confidently recommend.</div>
 
-          <div class="picks-grid">
+          <div class="carousel-wrapper">
+          <button class="carousel-arrow prev" onclick="scrollCarousel(this,-1)">&#8249;</button>
+          <div class="picks-grid carousel-track">
 
             <div class="pick-card reveal">
               <div class="badge">Best Overall</div>
@@ -1573,6 +1626,8 @@
             </div>
 
           </div>
+          <button class="carousel-arrow next" onclick="scrollCarousel(this,1)">&#8250;</button>
+          </div>
         </div>
       </section>
 
@@ -1620,7 +1675,9 @@
           <div class="section-title">What Our Readers Say</div>
           <div class="section-sub">Real feedback from people who followed our recommendations.</div>
 
-          <div class="testimonials-grid">
+          <div class="carousel-wrapper">
+          <button class="carousel-arrow prev" onclick="scrollCarousel(this,-1)">&#8249;</button>
+          <div class="testimonials-grid carousel-track">
             <div class="testimonial-card">
               <div class="testimonial-quote">"</div>
               <div class="testimonial-stars">★★★★★</div>
@@ -1698,6 +1755,8 @@
                 </div>
               </div>
             </div>
+          </div>
+          <button class="carousel-arrow next" onclick="scrollCarousel(this,1)">&#8250;</button>
           </div>
         </div>
       </section>
@@ -2142,6 +2201,14 @@
       });
     }, { threshold: 0.4 });
     document.querySelectorAll('.hero-trust').forEach(el => statsObserver.observe(el));
+
+    // Carousel scroll
+    function scrollCarousel(btn, dir) {
+      const track = btn.parentElement.querySelector('.carousel-track');
+      const card = track.querySelector(':scope > *');
+      const cardWidth = card.offsetWidth + 12;
+      track.scrollBy({ left: dir * cardWidth * 2, behavior: 'smooth' });
+    }
   </script>
 </body>
 
