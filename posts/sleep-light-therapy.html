@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Light Therapy for Sleep: How to Use It and When It Helps - SleepWiseReviews</title>
+  <meta name="description" content="10 minutes of bright light at the wrong time can shift your entire sleep schedule by hours. Used correctly, light therapy can reset delayed sleep phase, beat seasonal insomnia, and accelerate jet lag recovery. Here's the complete guide." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <style type='text/css'>
+    :root {
+      --night: #0A0E1A; --deep: #0F1525; --navy: #141B30; --card: #1A2238;
+      --border: #252D45; --gold: #C9A84C; --gold-light: #E5C96A;
+      --gold-dim: rgba(201, 168, 76, 0.15); --star: #F0E6C8; --text: #D4DCEE;
+      --muted: #7A85A0; --white: #FFFFFF; --green: #4CAF82;
+      --amber: #F59E0B; --amber-dim: rgba(245,158,11,0.12);
+      --blue: #60A5FA; --blue-dim: rgba(96,165,250,0.1);
+    }
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { font-family: 'Outfit', sans-serif; background: var(--night); color: var(--text); line-height: 1.6; overflow-x: hidden; }
+    body::before {
+      content: ''; position: fixed; inset: 0;
+      background-image: radial-gradient(1px 1px at 10% 15%, rgba(240,230,200,0.6) 0%, transparent 100%), radial-gradient(1px 1px at 25% 40%, rgba(240,230,200,0.4) 0%, transparent 100%), radial-gradient(1.5px 1.5px at 40% 10%, rgba(240,230,200,0.5) 0%, transparent 100%), radial-gradient(1px 1px at 70% 5%, rgba(240,230,200,0.6) 0%, transparent 100%), radial-gradient(1.5px 1.5px at 80% 20%, rgba(240,230,200,0.4) 0%, transparent 100%);
+      pointer-events: none; z-index: 0;
+    }
+    nav { position: sticky; top: 0; z-index: 100; background: rgba(10,14,26,0.92); backdrop-filter: blur(12px); border-bottom: 1px solid var(--border); padding: 0 6%; height: 68px; display: flex; align-items: center; justify-content: space-between; }
+    .logo { font-family: 'Cormorant Garamond', serif; font-size: 1.6rem; font-weight: 700; color: var(--star); text-decoration: none; }
+    .logo span { color: var(--gold); }
+    .nav-links { display: flex; gap: 2rem; list-style: none; }
+    .nav-links a { text-decoration: none; color: var(--muted); font-size: 0.88rem; font-weight: 500; transition: color 0.2s; }
+    .nav-links a:hover { color: var(--gold); }
+
+    main { position: relative; z-index: 1; max-width: 860px; margin: 0 auto; padding: 0 5% 80px; }
+
+    /* Hero */
+    .hero { padding: 60px 0 40px; border-bottom: 1px solid var(--border); margin-bottom: 48px; }
+    .category-tag { display: inline-block; font-size: 0.72rem; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: var(--gold); background: var(--gold-dim); border: 1px solid rgba(201,168,76,0.3); padding: 4px 12px; border-radius: 20px; margin-bottom: 20px; }
+    h1 { font-family: 'Cormorant Garamond', serif; font-size: clamp(2rem, 4.5vw, 2.9rem); font-weight: 700; color: var(--star); line-height: 1.2; margin-bottom: 18px; }
+    .subtitle { font-size: 1.1rem; color: var(--muted); line-height: 1.7; margin-bottom: 22px; }
+    .meta { font-size: 0.8rem; color: var(--muted); }
+
+    /* Typography */
+    h2 { font-family: 'Cormorant Garamond', serif; font-size: clamp(1.4rem, 3vw, 1.9rem); font-weight: 700; color: var(--star); margin: 48px 0 16px; }
+    h3 { font-size: 1.05rem; font-weight: 600; color: var(--gold-light); margin: 28px 0 10px; }
+    p { margin-bottom: 18px; color: var(--text); font-size: 1rem; line-height: 1.8; }
+    strong { color: var(--star); font-weight: 600; }
+    em { color: var(--gold-light); font-style: italic; }
+
+    /* Hook callout */
+    .hook-box { background: linear-gradient(135deg, var(--amber-dim), rgba(245,158,11,0.04)); border: 1px solid rgba(245,158,11,0.3); border-left: 4px solid var(--amber); border-radius: 10px; padding: 22px 26px; margin: 0 0 40px; }
+    .hook-box p { margin: 0; font-size: 1.08rem; color: var(--star); font-style: italic; line-height: 1.75; }
+
+    /* Phase response curve */
+    .prc-visual { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 28px; margin: 36px 0; }
+    .prc-visual h3 { margin-top: 0; text-align: center; font-size: 0.95rem; color: var(--star); margin-bottom: 22px; }
+    .prc-row { display: flex; align-items: center; gap: 14px; margin-bottom: 14px; }
+    .prc-time { font-size: 0.78rem; color: var(--muted); width: 80px; flex-shrink: 0; text-align: right; }
+    .prc-effect { flex: 1; padding: 10px 14px; border-radius: 6px; font-size: 0.82rem; font-weight: 500; }
+    .prc-advance { background: rgba(76,175,130,0.15); border: 1px solid rgba(76,175,130,0.3); color: var(--green); }
+    .prc-delay { background: rgba(224,82,82,0.12); border: 1px solid rgba(224,82,82,0.3); color: #E05252; }
+    .prc-neutral { background: rgba(122,133,160,0.12); border: 1px solid rgba(122,133,160,0.3); color: var(--muted); }
+    .prc-note { font-size: 0.78rem; color: var(--muted); text-align: center; margin-top: 10px; font-style: italic; }
+
+    /* Use-case cards */
+    .use-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 16px; margin: 28px 0; }
+    .use-card { background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 20px; }
+    .use-card .use-icon { font-size: 1.6rem; margin-bottom: 10px; }
+    .use-card h4 { font-size: 0.92rem; font-weight: 600; color: var(--star); margin-bottom: 6px; }
+    .use-card p { font-size: 0.82rem; color: var(--muted); margin: 0; line-height: 1.6; }
+    .use-protocol { margin-top: 10px; font-size: 0.78rem; color: var(--gold); font-weight: 600; }
+
+    /* Protocol table */
+    .protocol-table { width: 100%; border-collapse: collapse; margin: 24px 0; font-size: 0.88rem; }
+    .protocol-table th { background: var(--amber-dim); color: var(--amber); font-size: 0.75rem; letter-spacing: 0.08em; text-transform: uppercase; padding: 10px 14px; text-align: left; border-bottom: 1px solid var(--border); }
+    .protocol-table td { padding: 12px 14px; border-bottom: 1px solid rgba(37,45,69,0.5); color: var(--text); vertical-align: top; }
+    .protocol-table tr:last-child td { border-bottom: none; }
+    .protocol-table tr:hover td { background: rgba(255,255,255,0.02); }
+
+    /* Warning/note boxes */
+    .warning-box { background: rgba(224,82,82,0.08); border: 1px solid rgba(224,82,82,0.3); border-left: 4px solid #E05252; border-radius: 10px; padding: 20px 24px; margin: 28px 0; }
+    .warning-label { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: #E05252; margin-bottom: 6px; }
+    .warning-box p { margin: 0; font-size: 0.92rem; color: var(--text); line-height: 1.75; }
+
+    .science-box { background: var(--blue-dim); border: 1px solid rgba(96,165,250,0.25); border-left: 4px solid var(--blue); border-radius: 10px; padding: 20px 24px; margin: 28px 0; }
+    .science-box .sci-label { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: var(--blue); margin-bottom: 8px; }
+    .science-box p { margin: 0; font-size: 0.92rem; color: var(--text); line-height: 1.75; }
+
+    /* Affiliate box */
+    .affiliate-box { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 24px; margin: 36px 0; display: flex; align-items: flex-start; gap: 20px; }
+    .aff-icon { font-size: 2rem; flex-shrink: 0; }
+    .aff-content h4 { font-size: 1rem; font-weight: 600; color: var(--star); margin-bottom: 6px; }
+    .aff-content p { font-size: 0.85rem; color: var(--muted); margin-bottom: 14px; line-height: 1.6; }
+    .aff-btn { display: inline-block; background: var(--gold); color: var(--night); font-size: 0.82rem; font-weight: 700; padding: 9px 18px; border-radius: 6px; text-decoration: none; transition: background 0.2s; }
+    .aff-btn:hover { background: var(--gold-light); }
+
+    /* Takeaway */
+    .takeaway { background: linear-gradient(135deg, rgba(76,175,130,0.1), rgba(76,175,130,0.04)); border: 1px solid rgba(76,175,130,0.3); border-radius: 12px; padding: 24px 28px; margin: 40px 0; }
+    .takeaway-label { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--green); margin-bottom: 10px; }
+    .takeaway h3 { font-size: 1.05rem; color: var(--star); margin: 0 0 10px; }
+    .takeaway p { margin: 0; font-size: 0.92rem; color: var(--text); line-height: 1.75; }
+
+    /* Related */
+    .related { margin-top: 60px; padding-top: 40px; border-top: 1px solid var(--border); }
+    .related h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.3rem; color: var(--star); margin-bottom: 20px; }
+    .related-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px; }
+    .related-card { background: var(--card); border: 1px solid var(--border); border-radius: 8px; padding: 14px 16px; text-decoration: none; transition: border-color 0.2s; }
+    .related-card:hover { border-color: var(--gold); }
+    .related-card .rc-cat { font-size: 0.68rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--gold); margin-bottom: 4px; }
+    .related-card .rc-title { font-size: 0.85rem; color: var(--star); line-height: 1.4; }
+
+    footer { border-top: 1px solid var(--border); padding: 40px 6%; text-align: center; }
+    .footer-logo { font-family: 'Cormorant Garamond', serif; font-size: 1.4rem; font-weight: 700; color: var(--star); margin-bottom: 8px; }
+    .footer-logo span { color: var(--gold); }
+    footer p { font-size: 0.78rem; color: var(--muted); line-height: 1.8; }
+
+    @media (max-width: 600px) {
+      .use-grid { grid-template-columns: 1fr; }
+      .affiliate-box { flex-direction: column; }
+    }
+  </style>
+</head>
+
+<body>
+
+<nav>
+  <a href="../index.html" class="logo">Sleep<span>Wise</span>Reviews</a>
+  <ul class="nav-links">
+    <li><a href="../index.html">Home</a></li>
+    <li><a href="../index.html#reviews">Reviews</a></li>
+    <li><a href="../index.html#education">Learn</a></li>
+  </ul>
+</nav>
+
+<main>
+
+  <article>
+    <div class="hero">
+      <div class="category-tag">Sleep Science</div>
+      <h1>Light Therapy for Sleep: How to Use It and When It Helps</h1>
+      <p class="subtitle">10 minutes of bright light at the wrong time of day can shift your entire sleep schedule by hours — in the wrong direction. Used correctly, light therapy is one of the most powerful non-pharmaceutical interventions available for sleep. Here's the complete guide.</p>
+      <div class="meta">📅 Mar 2024 · ⏱ 8 min read · 🔄 Updated Mar 2026</div>
+    </div>
+
+    <div class="hook-box">
+      <p>"Your circadian clock is set entirely by light. The timing of when that light hits your eyes is more important than how much you get — and most people are getting it at the worst possible times."</p>
+    </div>
+
+    <p>Light therapy — the use of controlled, timed bright-light exposure to shift the circadian clock — has one of the strongest evidence bases in behavioral sleep medicine. It is the first-line treatment recommended by the American Academy of Sleep Medicine for delayed sleep phase disorder, seasonal affective disorder, and circadian misalignment from shift work or jet lag.</p>
+
+    <p>As Satchin Panda describes in <em>The Circadian Code</em> (2019), light is the primary zeitgeber — the external "time-giver" — that synchronizes your internal 24-hour clock to the outside world. The retinohypothalamic tract carries light signals directly from specialized photoreceptors in the eye to the suprachiasmatic nucleus (SCN), the master pacemaker in the hypothalamus. The SCN then coordinates every other clock in your body.</p>
+
+    <p>The practical implication: you can use light deliberately — like a tool — to move your sleep earlier or later, suppress melatonin, or accelerate recovery from circadian disruption. But the timing and intensity must be precise.</p>
+
+    <h2>The Phase Response Curve: Light as a Clock Shifter</h2>
+
+    <p>The Phase Response Curve (PRC) maps what light does to your circadian clock depending on when it is administered relative to your body's current phase. It is the foundational concept of clinical light therapy:</p>
+
+    <div class="prc-visual">
+      <h3>Phase Response Curve — What Light Does at Different Times</h3>
+      <div class="prc-row">
+        <span class="prc-time">Early morning<br>(1–3h after wake)</span>
+        <div class="prc-effect prc-advance">Phase ADVANCE — shifts sleep earlier. Most powerful window for treating delayed sleep phase or "night owl" chronotype.</div>
+      </div>
+      <div class="prc-row">
+        <span class="prc-time">Late morning / midday</span>
+        <div class="prc-effect prc-neutral">Minimal effect on circadian phase. Supports alertness and mood but does not shift the clock significantly.</div>
+      </div>
+      <div class="prc-row">
+        <span class="prc-time">Late afternoon<br>(2–6h before sleep)</span>
+        <div class="prc-effect prc-neutral">Begins to approach the phase delay zone. Caution with bright screen use in this window.</div>
+      </div>
+      <div class="prc-row">
+        <span class="prc-time">Evening<br>(1–2h before bed)</span>
+        <div class="prc-effect prc-delay">Phase DELAY — pushes sleep later. Bright light here is why screen use delays sleep. Avoid light &gt;10 lux in this window.</div>
+      </div>
+      <div class="prc-row">
+        <span class="prc-time">Late night<br>(around nadir, ~2–4am)</span>
+        <div class="prc-effect prc-advance">Maximum phase advance zone — even dim light here advances the clock strongly. Avoid any light exposure in this window.</div>
+      </div>
+      <p class="prc-note">The PRC means that the same intensity of light can either help or harm your sleep depending entirely on timing</p>
+    </div>
+
+    <h2>When Light Therapy Is Evidence-Based</h2>
+
+    <div class="use-grid">
+      <div class="use-card">
+        <div class="use-icon">🌑</div>
+        <h4>Delayed Sleep Phase</h4>
+        <p>You can't fall asleep until 1–3am and struggle to wake before 10am. Morning light therapy is the clinical first-line treatment — more effective than melatonin alone.</p>
+        <div class="use-protocol">Protocol: 10,000 lux lamp, 20–30 min within 30 min of desired wake time</div>
+      </div>
+      <div class="use-card">
+        <div class="use-icon">❄️</div>
+        <h4>Seasonal Affective Disorder (SAD)</h4>
+        <p>Winter light drops to 1/500th of summer intensity. The brain interprets months of low light as perpetual darkness, suppressing serotonin and shifting circadian phase.</p>
+        <div class="use-protocol">Protocol: 10,000 lux, 20–30 min at consistent morning time; start Oct, stop Apr</div>
+      </div>
+      <div class="use-card">
+        <div class="use-icon">✈️</div>
+        <h4>Jet Lag (Eastward Travel)</h4>
+        <p>Flying east requires advancing your clock — the harder direction. Morning light exposure at your destination accelerates re-synchronization by 1–2 days.</p>
+        <div class="use-protocol">Protocol: Bright light at destination's morning for 3 consecutive days post-arrival</div>
+      </div>
+      <div class="use-card">
+        <div class="use-icon">🌙</div>
+        <h4>Shift Work Recovery</h4>
+        <p>Night shift workers need to advance their clock on days off without completely reversing it. Strategic morning light blocks prevent the worst circadian fragmentation.</p>
+        <div class="use-protocol">Protocol: Individualized — depends on shift pattern; consult sleep specialist</div>
+      </div>
+      <div class="use-card">
+        <div class="use-icon">🧠</div>
+        <h4>Non-Seasonal Depression</h4>
+        <p>Meta-analyses show light therapy has comparable efficacy to antidepressants for non-seasonal depression, particularly in populations with circadian rhythm disruption.</p>
+        <div class="use-protocol">Protocol: 10,000 lux, 30 min morning; 2–4 weeks for full effect</div>
+      </div>
+      <div class="use-card">
+        <div class="use-icon">👴</div>
+        <h4>Circadian Advance in Aging</h4>
+        <p>Older adults often advance too far — falling asleep at 7pm and waking at 3am. Evening bright light (not morning) delays the clock back to a normal phase.</p>
+        <div class="use-protocol">Protocol: 10,000 lux, 30 min in late afternoon (4–6pm)</div>
+      </div>
+    </div>
+
+    <h2>The Technical Specifications That Actually Matter</h2>
+
+    <p>Not all "light therapy lamps" are equal. The relevant parameters are lux (intensity at the eye), spectral composition, and distance. Many consumer products understate these:</p>
+
+    <table class="protocol-table">
+      <thead>
+        <tr>
+          <th>Parameter</th>
+          <th>What Matters</th>
+          <th>What to Look For</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Lux at the eye</strong></td>
+          <td>Must be 10,000 lux measured at your face — not the bulb. Most lamps achieve 10,000 lux at 30–50cm.</td>
+          <td>Product should specify lux <em>at a given distance</em>. If it just says "10,000 lux" without distance, it is likely far less.</td>
+        </tr>
+        <tr>
+          <td><strong>Spectrum</strong></td>
+          <td>Full-spectrum white light or cool white (5,000–6,500K). Blue-enriched white light (460–480nm) is more potent for circadian effects but may be less comfortable.</td>
+          <td>Avoid "red light therapy" devices for circadian uses — they operate on different mechanisms entirely.</td>
+        </tr>
+        <tr>
+          <td><strong>UV filtering</strong></td>
+          <td>Therapeutic lamps must filter UV-A and UV-B. UV is irrelevant to the circadian pathway and causes eye damage.</td>
+          <td>Look for "UV-free" or "UV-filtered" on the spec sheet. Most reputable brands include this.</td>
+        </tr>
+        <tr>
+          <td><strong>Duration</strong></td>
+          <td>10,000 lux for 20–30 minutes is the standard protocol. Longer is not necessarily better — and can cause headache or nausea.</td>
+          <td>Start at 15 minutes and adjust based on response. Photosensitive individuals may need 5 minutes.</td>
+        </tr>
+        <tr>
+          <td><strong>Glare / diffusion</strong></td>
+          <td>You should not look directly at the lamp. Diffused panels allow indirect exposure while reading or eating breakfast.</td>
+          <td>Panel-style lamps (Verilux HappyLight, Carex) are generally more comfortable than spotlight-style bulbs.</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="science-box">
+      <div class="sci-label">How It Works in the Eye</div>
+      <p>The circadian-relevant photoreceptors are not cones or rods — they are intrinsically photosensitive retinal ganglion cells (ipRGCs) that contain a photopigment called melanopsin. Melanopsin is maximally sensitive to 480nm wavelength (short-wave blue). These cells project directly to the SCN and are responsible for all non-image-forming light effects: circadian entrainment, melatonin suppression, and pupillary reflexes. This is why screen light at night is particularly disruptive: screens emit disproportionately in the 450–490nm range — exactly where ipRGCs are most sensitive (Panda, 2019).</p>
+    </div>
+
+    <h2>Morning Sunlight vs. Artificial Light Therapy</h2>
+
+    <p>Natural morning sunlight is the ideal light therapy — free, full-spectrum, and naturally timed. On a clear morning, outdoor sunlight delivers 10,000–100,000 lux even when overcast. Even a heavily overcast sky typically delivers 1,000 lux — 100 times brighter than typical indoor lighting.</p>
+
+    <p>The practical problem is that most people in latitudes above 40° north cannot reliably access meaningful sunlight in the early morning during autumn and winter. Office workers indoors before 9am in December may receive less than 50 lux. This is where artificial light therapy lamps have a specific, evidence-based role.</p>
+
+    <div class="warning-box">
+      <div class="warning-label">Important Contraindications</div>
+      <p>Light therapy is not appropriate for everyone. Consult a physician before use if you have: bipolar disorder (bright light can trigger manic episodes), retinal conditions or photosensitivity, take medications that cause photosensitivity (certain antibiotics, antipsychotics, lithium), or have a personal or family history of macular degeneration. Do not use light therapy if you have active seasonal allergies affecting the eyes.</p>
+    </div>
+
+    <h2>Evening Light Management: The Other Half</h2>
+
+    <p>Light therapy is most effective when combined with deliberate evening light reduction. Panda's research in <em>The Circadian Code</em> (2019) shows that reducing household light to below 10 lux in the 2 hours before bed accelerates melatonin onset by 1–2 hours in people who normally have delayed melatonin timing — without any supplement.</p>
+
+    <p>Practical implementation: dim household lights after 9pm, switch screens to night mode (warm color temperature) or use blue-light-blocking glasses, and avoid bright kitchen or bathroom lights before bed. The combination of morning bright light and evening dim light is more effective than either alone.</p>
+
+    <div class="affiliate-box">
+      <div class="aff-icon">☀️</div>
+      <div class="aff-content">
+        <h4>Carex Day-Light Classic Plus Light Therapy Lamp</h4>
+        <p>Delivers verified 10,000 lux at 12 inches with a large diffused panel, UV-filtered, and adjustable height. One of the most consistently recommended clinical-grade lamps available. Works for delayed sleep phase, SAD, and morning alertness. Easy to use at breakfast or while reading.</p>
+        <a href="https://www.amazon.com/s?k=carex+daylight+light+therapy+lamp+10000+lux&tag=sleepwiserevi-20" class="aff-btn" target="_blank" rel="noopener">Check Price on Amazon →</a>
+      </div>
+    </div>
+
+    <div class="takeaway">
+      <div class="takeaway-label">Tonight's Practical Takeaway</div>
+      <h3>Use the morning-evening light sandwich: bright morning, dim evening</h3>
+      <p>Tomorrow morning, within 30 minutes of waking, get 10–20 minutes of bright light — outdoors if possible, or with a 10,000 lux lamp at 30–50cm while eating breakfast. Tonight, at 90 minutes before your target bedtime, dim every light in your home and switch all screens to night/warm mode. Do both together for 5 consecutive days. Most people with mild circadian delay notice meaningful improvement in sleep onset within a week. If you do not have a lamp, even sitting near a window with the curtains open on a winter morning delivers 10–50x more light than typical indoor lighting. The tool already exists — it's called the sun.</p>
+    </div>
+
+    <div class="related">
+      <h3>Related Reading</h3>
+      <div class="related-grid">
+        <a href="blue-light-melatonin.html" class="related-card">
+          <div class="rc-cat">Sleep Science</div>
+          <div class="rc-title">How Blue Light Destroys Your Sleep</div>
+        </a>
+        <a href="best-sunrise-alarm-clocks.html" class="related-card">
+          <div class="rc-cat">Product Review</div>
+          <div class="rc-title">Best Sunrise Alarm Clocks: Wake Up Without the Shock</div>
+        </a>
+        <a href="social-jetlag.html" class="related-card">
+          <div class="rc-cat">Sleep Science</div>
+          <div class="rc-title">Social Jetlag: The Silent Sleep Killer</div>
+        </a>
+        <a href="jet-lag-guide.html" class="related-card">
+          <div class="rc-cat">Practical Guide</div>
+          <div class="rc-title">The Traveler's Guide to Beating Jet Lag Fast</div>
+        </a>
+        <a href="best-light-therapy-lamps.html" class="related-card">
+          <div class="rc-cat">Product Review</div>
+          <div class="rc-title">Best Light Therapy Lamps for Sleep and Seasonal Mood (2026)</div>
+        </a>
+      </div>
+    </div>
+
+  </article>
+</main>
+
+<footer>
+  <div class="footer-logo">Sleep<span>Wise</span>Reviews</div>
+  <p>Evidence-based sleep science. Independent reviews. No sponsored content.<br>
+  © 2026 SleepWiseReviews. For informational purposes only — consult a healthcare provider for medical concerns.</p>
+</footer>
+
+</body>
+</html>
