@@ -867,7 +867,12 @@
     }
 
     .hero-moon {
-      animation: moonGlow 4s ease-in-out infinite;
+      animation: moonGlow 4s ease-in-out infinite, moonFloat 8s ease-in-out infinite;
+    }
+
+    @keyframes moonFloat {
+      0%, 100% { transform: translateY(0px); }
+      50% { transform: translateY(-14px); }
     }
 
     .hero-eyebrow {
@@ -1226,6 +1231,72 @@
       text-transform: uppercase;
       letter-spacing: 0.08em;
     }
+    /* SCROLL REVEAL */
+    .reveal {
+      opacity: 0;
+      transform: translateY(32px);
+      transition: opacity 0.65s ease, transform 0.65s ease;
+    }
+    .reveal.visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+    .reveal-d1 { transition-delay: 0.1s; }
+    .reveal-d2 { transition-delay: 0.2s; }
+    .reveal-d3 { transition-delay: 0.3s; }
+    .reveal-d4 { transition-delay: 0.4s; }
+    .reveal-d5 { transition-delay: 0.5s; }
+    .reveal-d6 { transition-delay: 0.6s; }
+    .reveal-d7 { transition-delay: 0.7s; }
+    .reveal-d8 { transition-delay: 0.8s; }
+
+    /* ENHANCED CARD HOVER */
+    .cat-card:hover {
+      transform: translateY(-6px) scale(1.02);
+    }
+    .pick-card:hover {
+      transform: translateY(-5px);
+    }
+    .article-card:hover {
+      transform: translateY(-5px);
+    }
+
+    /* DARK EMAIL FORM */
+    .brevo-form input[type="text"] {
+      width: 100%;
+      background: var(--night);
+      border: 1px solid var(--border);
+      color: var(--text);
+      border-radius: 8px;
+      padding: 0.85rem 1rem;
+      font-size: 0.9rem;
+      outline: none;
+      box-sizing: border-box;
+      transition: border-color 0.2s;
+    }
+    .brevo-form input[type="text"]:focus {
+      border-color: var(--gold);
+    }
+    .brevo-form input[type="text"]::placeholder {
+      color: var(--muted);
+    }
+    .brevo-form .btn-submit {
+      width: 100%;
+      margin-top: 0.8rem;
+      background: var(--gold);
+      color: #0A0E1A;
+      border: none;
+      border-radius: 8px;
+      padding: 0.9rem 1.5rem;
+      font-size: 0.95rem;
+      font-weight: 700;
+      cursor: pointer;
+      transition: background 0.2s, transform 0.15s;
+    }
+    .brevo-form .btn-submit:hover {
+      background: #e0b84a;
+      transform: translateY(-2px);
+    }
   </style>
 </head>
 
@@ -1275,15 +1346,15 @@
         </div>
         <div class="hero-trust">
           <div class="trust-item">
-            <div class="trust-num">340+</div>
+            <div class="trust-num"><span data-count="340" data-suffix="+">340+</span></div>
             <div class="trust-label">Products Tested</div>
           </div>
           <div class="trust-item">
-            <div class="trust-num">18K</div>
+            <div class="trust-num"><span data-count="18" data-suffix="K">18K</span></div>
             <div class="trust-label">Monthly Readers</div>
           </div>
           <div class="trust-item">
-            <div class="trust-num">4.9★</div>
+            <div class="trust-num"><span data-count-decimal="4.9" data-suffix="★">4.9★</span></div>
             <div class="trust-label">Reader Rating</div>
           </div>
         </div>
@@ -1304,42 +1375,42 @@
           <div class="section-title">What are you looking for?</div>
           <div class="section-sub">Every category is research-backed with honest, unbiased reviews.</div>
           <div class="cat-grid">
-            <a class="cat-card" href="https://www.amazon.com/s?k=sleep+pillow&tag=sleepwiserevi-20" target="_blank" rel="noopener nofollow">
+            <a class="cat-card reveal" href="https://www.amazon.com/s?k=sleep+pillow&tag=sleepwiserevi-20" target="_blank" rel="noopener nofollow">
               <div class="cat-icon">🛏️</div>
               <div class="cat-name">Pillows & Mattress</div>
               <div class="cat-count">42 reviews</div>
             </a>
-            <a class="cat-card" href="https://www.amazon.com/s?k=sleep+tracker&tag=sleepwiserevi-20" target="_blank" rel="noopener nofollow">
+            <a class="cat-card reveal" href="https://www.amazon.com/s?k=sleep+tracker&tag=sleepwiserevi-20" target="_blank" rel="noopener nofollow">
               <div class="cat-icon">🌡️</div>
               <div class="cat-name">Sleep Trackers</div>
               <div class="cat-count">28 reviews</div>
             </a>
-            <a class="cat-card" href="https://www.amazon.com/s?k=white+noise+machine&tag=sleepwiserevi-20" target="_blank" rel="noopener nofollow">
+            <a class="cat-card reveal" href="https://www.amazon.com/s?k=white+noise+machine&tag=sleepwiserevi-20" target="_blank" rel="noopener nofollow">
               <div class="cat-icon">🔇</div>
               <div class="cat-name">White Noise</div>
               <div class="cat-count">19 reviews</div>
             </a>
-            <a class="cat-card" href="https://www.amazon.com/s?k=sleep+supplements+magnesium&tag=sleepwiserevi-20" target="_blank" rel="noopener nofollow">
+            <a class="cat-card reveal" href="https://www.amazon.com/s?k=sleep+supplements+magnesium&tag=sleepwiserevi-20" target="_blank" rel="noopener nofollow">
               <div class="cat-icon">💊</div>
               <div class="cat-name">Supplements</div>
               <div class="cat-count">37 reviews</div>
             </a>
-            <a class="cat-card" href="https://www.amazon.com/s?k=weighted+blanket&tag=sleepwiserevi-20" target="_blank" rel="noopener nofollow">
+            <a class="cat-card reveal" href="https://www.amazon.com/s?k=weighted+blanket&tag=sleepwiserevi-20" target="_blank" rel="noopener nofollow">
               <div class="cat-icon">🛋️</div>
               <div class="cat-name">Weighted Blankets</div>
               <div class="cat-count">23 reviews</div>
             </a>
-            <a class="cat-card" href="https://www.amazon.com/s?k=blackout+curtains&tag=sleepwiserevi-20" target="_blank" rel="noopener nofollow">
+            <a class="cat-card reveal" href="https://www.amazon.com/s?k=blackout+curtains&tag=sleepwiserevi-20" target="_blank" rel="noopener nofollow">
               <div class="cat-icon">🌑</div>
               <div class="cat-name">Blackout Solutions</div>
               <div class="cat-count">16 reviews</div>
             </a>
-            <a class="cat-card" href="https://www.amazon.com/s?k=silk+sleep+mask&tag=sleepwiserevi-20" target="_blank" rel="noopener nofollow">
+            <a class="cat-card reveal" href="https://www.amazon.com/s?k=silk+sleep+mask&tag=sleepwiserevi-20" target="_blank" rel="noopener nofollow">
               <div class="cat-icon">😷</div>
               <div class="cat-name">Sleep Masks</div>
               <div class="cat-count">21 reviews</div>
             </a>
-            <a class="cat-card" href="https://www.amazon.com/s?k=sunrise+alarm+clock&tag=sleepwiserevi-20" target="_blank" rel="noopener nofollow">
+            <a class="cat-card reveal" href="https://www.amazon.com/s?k=sunrise+alarm+clock&tag=sleepwiserevi-20" target="_blank" rel="noopener nofollow">
               <div class="cat-icon">📱</div>
               <div class="cat-name">Sleep Apps</div>
               <div class="cat-count">14 reviews</div>
@@ -1416,7 +1487,7 @@
 
           <div class="picks-grid">
 
-            <div class="pick-card">
+            <div class="pick-card reveal">
               <div class="badge">Best Overall</div>
               <div class="pick-rank">01</div>
               <div class="pick-body">
@@ -1431,7 +1502,7 @@
               </div>
             </div>
 
-            <div class="pick-card">
+            <div class="pick-card reveal">
               <div class="badge">Best Value</div>
               <div class="pick-rank">02</div>
               <div class="pick-body">
@@ -1447,7 +1518,7 @@
               </div>
             </div>
 
-            <div class="pick-card">
+            <div class="pick-card reveal">
               <div class="pick-rank">03</div>
               <div class="pick-body">
                 <div class="pick-stars">★★★★☆</div>
@@ -1460,7 +1531,7 @@
               </div>
             </div>
 
-            <div class="pick-card">
+            <div class="pick-card reveal">
               <div class="pick-rank">04</div>
               <div class="pick-body">
                 <div class="pick-stars">★★★★★</div>
@@ -1474,7 +1545,7 @@
               </div>
             </div>
 
-            <div class="pick-card">
+            <div class="pick-card reveal">
               <div class="pick-rank">05</div>
               <div class="pick-body">
                 <div class="pick-stars">★★★★☆</div>
@@ -1488,7 +1559,7 @@
               </div>
             </div>
 
-            <div class="pick-card">
+            <div class="pick-card reveal">
               <div class="pick-rank">06</div>
               <div class="pick-body">
                 <div class="pick-stars">★★★★★</div>
@@ -1930,8 +2001,17 @@
             </ul>
           </div>
           <div class="email-form-box">
-            <!-- Brevo Newsletter Signup Form -->
-            <iframe width="100%" height="305" src="https://e2ad245b.sibforms.com/serve/MUIFAAxnI2Tll9h06Y0UaXXxMMq1BiND_ExEJtqgZ9GsKJJzf9L-8bdnW97X-36VCfjFp9hvGoL28OQMuhEMJ_3tckRiaKwC2C9F-PmjT1-q3gQ2RIdJ7IuZ5znOVvux2_5nJXsdnvxuOXLglfdqVdNAFKynxokaN79wwj1D7-KWpKOl6BlkzhSUWhKzpnxm8TtMG27PnfA71rm2aA==" frameborder="0" scrolling="auto" allowfullscreen style="display: block;margin-left: auto;margin-right: auto;max-width: 100%;border-radius: 8px;"></iframe>
+            <h3>Get Your Free Sleep Guide</h3>
+            <p>Join our weekly newsletter — tips, reviews &amp; exclusive deals every Sunday.</p>
+            <form class="brevo-form" action="https://e2ad245b.sibforms.com/serve/MUIFAAxnI2Tll9h06Y0UaXXxMMq1BiND_ExEJtqgZ9GsKJJzf9L-8bdnW97X-36VCfjFp9hvGoL28OQMuhEMJ_3tckRiaKwC2C9F-PmjT1-q3gQ2RIdJ7IuZ5znOVvux2_5nJXsdnvxuOXLglfdqVdNAFKynxokaN79wwj1D7-KWpKOl6BlkzhSUWhKzpnxm8TtMG27PnfA71rm2aA==" method="post" target="_blank">
+              <input type="hidden" name="locale" value="en">
+              <input type="text" name="email_address_check" value="" style="display:none" tabindex="-1" autocomplete="off">
+              <div class="form-group">
+                <input type="text" name="EMAIL" placeholder="Enter your email address" required>
+              </div>
+              <button type="submit" class="btn-submit">Get Free Sleep Guide →</button>
+              <p style="font-size:0.72rem;color:var(--muted);text-align:center;margin-top:0.8rem;margin-bottom:0;">No spam. Unsubscribe anytime.</p>
+            </form>
           </div>
         </div>
       </section>
@@ -2026,6 +2106,43 @@
     </div>
   </footer>
 
+  <script>
+    // Scroll Reveal
+    const revealObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.classList.add('visible');
+        }
+      });
+    }, { threshold: 0.12 });
+    document.querySelectorAll('.reveal').forEach((el, i) => {
+      el.classList.add('reveal-d' + Math.min((i % 8) + 1, 8));
+      revealObserver.observe(el);
+    });
+
+    // Count-up for hero stats
+    function countUp(el, target, suffix, duration) {
+      let start = 0;
+      const step = target / (duration / 16);
+      const timer = setInterval(() => {
+        start = Math.min(start + step, target);
+        el.textContent = Math.floor(start) + suffix;
+        if (start >= target) clearInterval(timer);
+      }, 16);
+    }
+
+    const statsObserver = new IntersectionObserver((entries) => {
+      entries.forEach(entry => {
+        if (entry.isIntersecting) {
+          entry.target.querySelectorAll('[data-count]').forEach(el => {
+            countUp(el, parseInt(el.dataset.count), el.dataset.suffix || '', 1400);
+          });
+          statsObserver.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.4 });
+    document.querySelectorAll('.hero-trust').forEach(el => statsObserver.observe(el));
+  </script>
 </body>
 
 </html>
