@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>How Sleep Changes as You Age (And What to Do About It) - SleepWiseReviews</title>
+  <meta name="description" content="By age 70, you get 80% less deep sleep than you did at 25. Understanding exactly how sleep architecture changes across decades — and what evidence-based strategies help — is essential for aging well." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <style type='text/css'>
+    :root {
+      --night: #0A0E1A; --deep: #0F1525; --navy: #141B30; --card: #1A2238;
+      --border: #252D45; --gold: #C9A84C; --gold-light: #E5C96A;
+      --gold-dim: rgba(201, 168, 76, 0.15); --star: #F0E6C8; --text: #D4DCEE;
+      --muted: #7A85A0; --white: #FFFFFF; --green: #4CAF82;
+    }
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { font-family: 'Outfit', sans-serif; background: var(--night); color: var(--text); line-height: 1.6; overflow-x: hidden; }
+    body::before {
+      content: ''; position: fixed; inset: 0;
+      background-image: radial-gradient(1px 1px at 10% 15%, rgba(240,230,200,0.6) 0%, transparent 100%), radial-gradient(1px 1px at 25% 40%, rgba(240,230,200,0.4) 0%, transparent 100%), radial-gradient(1.5px 1.5px at 40% 10%, rgba(240,230,200,0.5) 0%, transparent 100%), radial-gradient(1px 1px at 70% 5%, rgba(240,230,200,0.6) 0%, transparent 100%), radial-gradient(1.5px 1.5px at 80% 20%, rgba(240,230,200,0.4) 0%, transparent 100%);
+      pointer-events: none; z-index: 0;
+    }
+    nav { position: sticky; top: 0; z-index: 100; background: rgba(10,14,26,0.92); backdrop-filter: blur(12px); border-bottom: 1px solid var(--border); padding: 0 6%; height: 68px; display: flex; align-items: center; justify-content: space-between; }
+    .logo { font-family: 'Cormorant Garamond', serif; font-size: 1.6rem; font-weight: 700; color: var(--star); text-decoration: none; }
+    .logo span { color: var(--gold); }
+    .nav-links { display: flex; gap: 2rem; list-style: none; }
+    .nav-links a { text-decoration: none; color: var(--muted); font-size: 0.88rem; font-weight: 500; transition: color 0.2s; }
+    .nav-links a:hover { color: var(--gold); }
+    .nav-cta { background: var(--gold-dim); color: var(--gold) !important; border: 1px solid rgba(201,168,76,0.3); padding: 7px 16px; border-radius: 4px; }
+    .article-wrapper { position: relative; z-index: 1; max-width: 800px; margin: 0 auto; padding: 50px 6% 80px; }
+    .article-meta-top { display: flex; flex-wrap: wrap; align-items: center; gap: 0.8rem; margin-bottom: 1.2rem; }
+    .tag { background: var(--gold); color: var(--night); padding: 5px 12px; border-radius: 4px; font-size: 0.72rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; }
+    .meta-text { color: var(--muted); font-size: 0.82rem; }
+    .article-wrapper h1 { font-family: 'Cormorant Garamond', serif; font-size: 2.4rem; font-weight: 600; color: var(--star); line-height: 1.2; margin-bottom: 1.2rem; }
+    .article-intro { font-size: 1.1rem; color: var(--text); line-height: 1.7; margin-bottom: 2rem; font-weight: 300; }
+    .author-box { display: flex; align-items: center; gap: 1rem; margin-bottom: 1.5rem; padding: 1rem; background: var(--card); border-radius: 8px; border: 1px solid var(--border); }
+    .author-avatar { font-size: 2.5rem; }
+    .author-name { color: var(--star); font-weight: 500; }
+    .author-name a { color: var(--gold); text-decoration: none; }
+    .author-role { color: var(--muted); font-size: 0.82rem; }
+    .article-wrapper h2 { font-family: 'Cormorant Garamond', serif; font-size: 1.6rem; font-weight: 600; color: var(--star); margin: 2.5rem 0 1rem; padding-top: 1rem; }
+    .article-wrapper h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.2rem; color: var(--star); margin: 1.5rem 0 0.8rem; }
+    .article-wrapper p { margin-bottom: 1rem; font-weight: 300; line-height: 1.8; }
+    .article-wrapper ul, .article-wrapper ol { margin: 1rem 0 1.5rem 1.5rem; }
+    .article-wrapper li { margin-bottom: 0.5rem; font-weight: 300; }
+    .callout { background: var(--card); border-left: 3px solid var(--gold); padding: 1rem 1.5rem; margin: 1.5rem 0; border-radius: 0 8px 8px 0; font-size: 0.92rem; }
+    .age-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; margin: 1.5rem 0; }
+    .age-card { background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 1.2rem; }
+    .age-label { color: var(--gold); font-size: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.07em; margin-bottom: 0.5rem; }
+    .age-title { color: var(--star); font-weight: 500; margin-bottom: 0.5rem; }
+    .age-body { color: var(--text); font-size: 0.85rem; font-weight: 300; line-height: 1.6; }
+    .comparison-table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; font-size: 0.88rem; }
+    .comparison-table th { background: var(--card); color: var(--gold); padding: 0.7rem 1rem; text-align: left; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.07em; border-bottom: 1px solid var(--border); }
+    .comparison-table td { padding: 0.7rem 1rem; border-bottom: 1px solid rgba(37,45,69,0.6); color: var(--text); font-weight: 300; }
+    .comparison-table tr:hover td { background: rgba(26,34,56,0.5); }
+    .product-cta { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 1.5rem; margin: 2rem 0; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; }
+    .product-cta-text { color: var(--star); font-weight: 500; }
+    .btn-amazon { background: var(--gold); color: var(--night); text-decoration: none; padding: 10px 20px; border-radius: 6px; font-weight: 600; font-size: 0.88rem; transition: background 0.2s; white-space: nowrap; }
+    .btn-amazon:hover { background: var(--gold-light); }
+    .article-cta { background: linear-gradient(135deg, var(--card), var(--navy)); border: 1px solid var(--border); border-radius: 12px; padding: 2rem; text-align: center; margin: 3rem 0; }
+    .article-cta h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.4rem; color: var(--star); margin-bottom: 0.8rem; }
+    .article-cta p { color: var(--muted); margin-bottom: 1.2rem; }
+    .related-articles { margin: 3rem 0; }
+    .related-articles h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.3rem; color: var(--star); margin-bottom: 1rem; }
+    .related-articles ul { list-style: none; margin: 0; }
+    .related-articles li { margin-bottom: 0.6rem; }
+    .related-articles a { color: var(--gold); text-decoration: none; font-size: 0.95rem; }
+    .related-articles a:hover { text-decoration: underline; }
+    footer { background: #060912; border-top: 1px solid var(--border); padding: 50px 6% 30px; }
+    .footer-top { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 3rem; margin-bottom: 3rem; padding-bottom: 3rem; border-bottom: 1px solid var(--border); }
+    .footer-brand p { color: var(--muted); font-size: 0.82rem; margin-top: 0.8rem; line-height: 1.6; font-weight: 300; max-width: 260px; }
+    .footer-col h4 { font-size: 0.78rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--gold); margin-bottom: 1rem; }
+    .footer-col ul { list-style: none; display: flex; flex-direction: column; gap: 0.6rem; }
+    .footer-col a { color: var(--muted); text-decoration: none; font-size: 0.85rem; transition: color 0.2s; }
+    .footer-col a:hover { color: var(--gold); }
+    .footer-bottom { display: flex; justify-content: space-between; font-size: 0.78rem; color: var(--muted); flex-wrap: wrap; gap: 0.5rem; }
+    @media (max-width: 900px) {
+      .nav-links { display: none; }
+      .article-wrapper h1 { font-size: 1.8rem; }
+      .footer-top { grid-template-columns: 1fr 1fr; }
+      .product-cta { flex-direction: column; text-align: center; }
+      .age-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+
+<body>
+  <nav>
+    <a class="logo" href="../">SleepWise<span>Reviews</span></a>
+    <ul class="nav-links">
+      <li><a href="../#picks">Top Picks</a></li>
+      <li><a href="../#reviews">Reviews</a></li>
+      <li><a href="../pages/about.html">About Harry</a></li>
+      <li><a href="../#newsletter" class="nav-cta">Free Sleep Guide</a></li>
+    </ul>
+  </nav>
+
+  <article class="article-wrapper">
+    <div class="article-meta-top">
+      <span class="tag">Sleep Science</span>
+      <span class="meta-text">📅 August 2024</span>
+      <span class="meta-text">·</span>
+      <span class="meta-text">⏱ 9 min read</span>
+      <span class="meta-text">·</span>
+      <span class="meta-text">🔄 Updated Mar 2026</span>
+    </div>
+
+    <h1>How Sleep Changes as You Age (And What to Do About It)</h1>
+    <p class="article-intro">By age 70, most people get approximately 80% less deep sleep than they did at 25. Sleep does not just become more difficult with age — its fundamental architecture changes in measurable ways. Understanding what is biological and what is behavioral is the first step to optimizing sleep across decades.</p>
+
+    <div class="author-box">
+      <div class="author-avatar">😴</div>
+      <div class="author-info">
+        <div class="author-name">By <a href="../pages/about.html">Harry Soul</a> — SleepWiseReviews</div>
+        <div class="author-role">Independent Sleep Researcher · Updated March 2026</div>
+      </div>
+    </div>
+
+    <h2>Why Sleep Changes With Age</h2>
+    <p>The changes to sleep across the lifespan are not simply a matter of getting worse at sleeping. They reflect fundamental shifts in the biology of sleep regulation — the circadian clock, the slow-wave sleep generation system, melatonin production, and adenosine clearance all change with age in ways that alter sleep need, timing, and architecture.</p>
+
+    <p>In <em>The Promise of Sleep</em>, pioneering sleep researcher William Dement documents these changes across decades of clinical observation. "The capacity for deep sleep diminishes consistently with age," Dement writes, "but this is not inevitable deterioration — much of what we attribute to aging is actually the result of untreated sleep disorders, lifestyle factors, and medication side effects" (Dement, 1999). This distinction matters enormously: some age-related sleep changes are biological and unavoidable, but many "sleep problems" in older adults are treatable conditions misattributed to age.</p>
+
+    <h2>How Sleep Architecture Changes Across the Lifespan</h2>
+
+    <table class="comparison-table">
+      <thead>
+        <tr>
+          <th>Life Stage</th>
+          <th>Total Sleep Need</th>
+          <th>Deep Sleep %</th>
+          <th>Key Changes</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>Infants (0–1)</td><td>14–17 hours</td><td>Very high</td><td>~50% of sleep is REM; active sleep dominates</td></tr>
+        <tr><td>Children (6–12)</td><td>9–11 hours</td><td>High (~25%)</td><td>Strong sleep pressure; excellent slow-wave generation</td></tr>
+        <tr><td>Teens (13–18)</td><td>8–10 hours</td><td>High (~20%)</td><td>Circadian shift to later; biological late bedtime</td></tr>
+        <tr><td>Young adults (18–25)</td><td>7–9 hours</td><td>20–25%</td><td>Peak sleep capacity; baseline for all comparisons</td></tr>
+        <tr><td>Middle age (40–60)</td><td>7–9 hours</td><td>10–15%</td><td>Deep sleep begins declining; more fragmentation</td></tr>
+        <tr><td>Older adults (65+)</td><td>7–8 hours</td><td>5–8%</td><td>Significant deep sleep loss; earlier wake time; more awakenings</td></tr>
+      </tbody>
+    </table>
+
+    <h2>The Deep Sleep Loss: What It Means</h2>
+    <p>The progressive loss of slow-wave (deep) sleep is the most consequential age-related sleep change. Deep sleep is when growth hormone is released, the immune system is consolidated, the glymphatic system clears brain waste (including amyloid beta), and physical tissue repair occurs. The reduction from ~25% at age 25 to ~5% at age 70 represents an 80% loss of this restorative stage.</p>
+
+    <p>This reduction is not simply "getting older" in a vague sense — it has specific measurable consequences for memory (the hippocampal consolidation that happens during slow-wave sleep), immune function, and metabolic health. Importantly, it is also associated with increased Alzheimer's risk, not merely as a symptom of the condition but as a possible contributing factor through reduced glymphatic clearance.</p>
+
+    <h2>Circadian Timing Shifts: The Early Bird Phenomenon</h2>
+    <p>As people age, their circadian clock advances — meaning sleep timing shifts earlier. The same biological late-chronotype that makes teenagers want to stay up until midnight shifts the other direction in older adults, who naturally want to go to bed earlier and wake earlier. This is a genuine biological change driven by altered melatonin timing and reduced sensitivity to phase-delaying light.</p>
+
+    <p>The problem is social: an older adult who goes to bed at 8pm and wakes at 4am is getting adequate sleep — but the 4am waking is often perceived as insomnia and treated with medication. Understanding that this is a circadian advance, not a sleep disorder, changes the approach completely. Bright light exposure in the early evening can delay the clock; morning light avoidance (blackout curtains in winter) can reduce premature early waking.</p>
+
+    <h2>Common Treatable Sleep Problems in Older Adults</h2>
+
+    <div class="age-grid">
+      <div class="age-card">
+        <div class="age-label">Very Common</div>
+        <div class="age-title">Sleep Apnea (Underdiagnosed)</div>
+        <div class="age-body">Prevalence increases substantially with age and weight changes. Many older adults with "insomnia" have undiagnosed sleep apnea causing fragmented sleep. A sleep study is often diagnostic in previously treatment-resistant cases.</div>
+      </div>
+      <div class="age-card">
+        <div class="age-label">Common</div>
+        <div class="age-title">Restless Legs Syndrome</div>
+        <div class="age-body">Prevalence doubles from middle to older age. RLS is strongly associated with iron deficiency — a simple ferritin blood test can identify the cause in many cases, with iron supplementation producing rapid improvement.</div>
+      </div>
+      <div class="age-card">
+        <div class="age-label">Very Common</div>
+        <div class="age-title">Nocturia (Nighttime Urination)</div>
+        <div class="age-body">Bladder capacity and antidiuretic hormone production both change with age. Fluid timing, medication review (diuretics), and pelvic floor exercises can reduce nocturia without pharmacological intervention.</div>
+      </div>
+      <div class="age-card">
+        <div class="age-label">Common</div>
+        <div class="age-title">Medication-Related Sleep Disruption</div>
+        <div class="age-body">Many commonly prescribed medications in older adults disrupt sleep: beta-blockers, diuretics, certain antidepressants, and statins. A medication review is often the most productive diagnostic step for new-onset sleep disruption.</div>
+      </div>
+    </div>
+
+    <h2>Evidence-Based Strategies for Better Sleep as You Age</h2>
+
+    <h3>Exercise: The Most Powerful Intervention</h3>
+    <p>Regular physical activity — particularly resistance exercise and aerobic exercise — increases slow-wave sleep in older adults more reliably than any other lifestyle intervention. Studies consistently show that sedentary older adults who begin exercise programs increase their deep sleep percentage by 15–25% within weeks. The mechanism involves increased adenosine production (the sleep pressure molecule) and better thermoregulation during sleep onset. Exercise timing matters: morning or afternoon sessions are associated with better sleep than evening exercise.</p>
+
+    <h3>Bright Light Therapy</h3>
+    <p>Morning bright light exposure (10,000 lux for 20–30 minutes within an hour of waking) is the most effective circadian intervention for older adults experiencing the early bird shift. It delays the circadian clock, reducing premature early waking and improving evening alertness. For seasonal mood and sleep changes, bright light therapy is evidence-based and medication-free.</p>
+
+    <h3>Consistent Sleep Timing</h3>
+    <p>Sleep consistency becomes more important, not less, with age. The reduced homeostatic sleep drive in older adults means that naps, variable bedtimes, or lying in bed late significantly fragment the following night's sleep. A fixed wake time — even after a poor night — maintains sleep pressure for the following night and is the foundation of CBT-I for older insomnia.</p>
+
+    <h3>Sleep Environment Optimization</h3>
+    <p>Older adults are more sensitive to environmental sleep disruptors — noise, temperature, and light — because their lighter, more fragmented sleep architecture means more time spent in easily-awakened lighter sleep stages. A quiet, cool (65–67°F), dark bedroom is particularly important. Earplugs or white noise machines can meaningfully extend uninterrupted sleep duration.</p>
+
+    <div class="callout">💡 <strong>Practical takeaway:</strong> The most impactful thing most older adults can do tonight is to get morning bright light (even outdoor daylight counts), exercise later in the day, and maintain a fixed wake time every morning. These three changes address the circadian shift and sleep pressure reduction that drive the majority of age-related sleep difficulties.</div>
+
+    <div class="product-cta">
+      <div class="product-cta-text">A white noise machine reduces nighttime awakenings — especially effective as sleep becomes lighter with age.</div>
+      <a class="btn-amazon" href="article-white-noise-machines.html">See Our White Noise Machine Reviews →</a>
+    </div>
+
+    <div class="article-cta">
+      <h3>Want to understand deep sleep in detail?</h3>
+      <p>Our guide to Stage 3 deep sleep explains what it does, why it declines, and what interventions actually increase it.</p>
+      <a class="btn-amazon" href="deep-sleep-benefits.html">Read: What Deep Sleep Actually Does →</a>
+    </div>
+
+    <div class="related-articles">
+      <h3>Related Articles</h3>
+      <ul>
+        <li><a href="deep-sleep-benefits.html">What Deep Sleep Actually Does: Stage 3 Science Explained</a></li>
+        <li><a href="sleep-and-alzheimers.html">Sleep and Alzheimer's Risk: What the Research Really Shows</a></li>
+        <li><a href="sleep-longevity.html">Sleep and Longevity: What 20 Years of Research Tells Us</a></li>
+        <li><a href="sleep-light-therapy.html">Light Therapy for Sleep: How to Use It and When It Helps</a></li>
+        <li><a href="cbt-i-guide.html">The Complete CBT-I Guide: Fix Insomnia Without Medication</a></li>
+      </ul>
+    </div>
+  </article>
+
+  <footer>
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a class="logo" href="../">SleepWise<span>Reviews</span></a>
+        <p>Independent sleep research and honest product reviews since 2020. We test everything we recommend.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Aging & Sleep</h4>
+        <ul>
+          <li><a href="sleep-longevity.html">Sleep & Longevity</a></li>
+          <li><a href="sleep-and-alzheimers.html">Sleep & Alzheimer's</a></li>
+          <li><a href="menopause-sleep.html">Menopause Sleep</a></li>
+          <li><a href="deep-sleep-benefits.html">Deep Sleep</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Products</h4>
+        <ul>
+          <li><a href="article-white-noise-machines.html">White Noise Machines</a></li>
+          <li><a href="best-earplugs-sleeping.html">Earplugs</a></li>
+          <li><a href="best-sleep-masks.html">Sleep Masks</a></li>
+          <li><a href="best-blackout-curtains.html">Blackout Curtains</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>About</h4>
+        <ul>
+          <li><a href="../pages/about.html">About Harry</a></li>
+          <li><a href="../pages/affiliate-disclosure.html">Affiliate Disclosure</a></li>
+          <li><a href="../pages/privacy-policy.html">Privacy Policy</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 SleepWiseReviews. All rights reserved.</span>
+      <span>Independent reviews. Affiliate links support our research.</span>
+    </div>
+  </footer>
+</body>
+</html>
