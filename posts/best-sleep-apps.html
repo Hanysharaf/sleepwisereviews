@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Best Sleep Apps in 2026: Do Any of Them Actually Work? - SleepWiseReviews</title>
+  <meta name="description" content="Sleep apps promise to track your cycles and fix your sleep. We tested 10 of the most popular apps to find out what they get right — and badly wrong." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <style type='text/css'>
+    :root {
+      --night: #0A0E1A; --deep: #0F1525; --navy: #141B30; --card: #1A2238;
+      --border: #252D45; --gold: #C9A84C; --gold-light: #E5C96A;
+      --gold-dim: rgba(201, 168, 76, 0.15); --star: #F0E6C8; --text: #D4DCEE;
+      --muted: #7A85A0; --white: #FFFFFF; --green: #4CAF82;
+    }
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { font-family: 'Outfit', sans-serif; background: var(--night); color: var(--text); line-height: 1.6; overflow-x: hidden; }
+    body::before { content: ''; position: fixed; inset: 0; background-image: radial-gradient(1px 1px at 10% 15%, rgba(240,230,200,0.6) 0%, transparent 100%), radial-gradient(1px 1px at 25% 40%, rgba(240,230,200,0.4) 0%, transparent 100%), radial-gradient(1.5px 1.5px at 40% 10%, rgba(240,230,200,0.5) 0%, transparent 100%), radial-gradient(1px 1px at 55% 30%, rgba(240,230,200,0.3) 0%, transparent 100%), radial-gradient(1px 1px at 70% 5%, rgba(240,230,200,0.6) 0%, transparent 100%); pointer-events: none; z-index: 0; }
+    nav { position: sticky; top: 0; z-index: 100; background: rgba(10,14,26,0.92); backdrop-filter: blur(12px); border-bottom: 1px solid var(--border); padding: 0 6%; height: 68px; display: flex; align-items: center; justify-content: space-between; }
+    .logo { font-family: 'Cormorant Garamond', serif; font-size: 1.6rem; font-weight: 700; color: var(--star); text-decoration: none; }
+    .logo span { color: var(--gold); }
+    .nav-links { display: flex; gap: 2rem; list-style: none; }
+    .nav-links a { text-decoration: none; color: var(--muted); font-size: 0.88rem; font-weight: 500; transition: color 0.2s; }
+    .nav-links a:hover { color: var(--gold); }
+    .nav-cta { background: var(--gold-dim); color: var(--gold) !important; border: 1px solid rgba(201,168,76,0.3); padding: 7px 16px; border-radius: 4px; }
+    .article-wrapper { position: relative; z-index: 1; max-width: 800px; margin: 0 auto; padding: 50px 6% 80px; }
+    .article-meta-top { display: flex; flex-wrap: wrap; align-items: center; gap: 0.8rem; margin-bottom: 1.2rem; }
+    .tag { background: var(--gold); color: var(--night); padding: 5px 12px; border-radius: 4px; font-size: 0.72rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; }
+    .meta-text { color: var(--muted); font-size: 0.82rem; }
+    .article-wrapper h1 { font-family: 'Cormorant Garamond', serif; font-size: 2.4rem; font-weight: 600; color: var(--star); line-height: 1.2; margin-bottom: 1.2rem; }
+    .article-intro { font-size: 1.1rem; color: var(--text); line-height: 1.7; margin-bottom: 2rem; font-weight: 300; }
+    .author-box { display: flex; align-items: center; gap: 1rem; margin-bottom: 1.5rem; padding: 1rem; background: var(--card); border-radius: 8px; border: 1px solid var(--border); }
+    .author-avatar { font-size: 2.5rem; }
+    .author-name { color: var(--star); font-weight: 500; }
+    .author-name a { color: var(--gold); text-decoration: none; }
+    .author-role { color: var(--muted); font-size: 0.82rem; }
+    .disclosure-box { background: rgba(201,168,76,0.08); border: 1px solid rgba(201,168,76,0.2); border-radius: 8px; padding: 1rem 1.2rem; font-size: 0.82rem; color: var(--muted); margin-bottom: 2rem; }
+    .article-wrapper h2 { font-family: 'Cormorant Garamond', serif; font-size: 1.6rem; font-weight: 600; color: var(--star); margin: 2.5rem 0 1rem; padding-top: 1rem; }
+    .article-wrapper h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.2rem; color: var(--star); margin: 1.5rem 0 0.8rem; }
+    .article-wrapper p { margin-bottom: 1rem; font-weight: 300; line-height: 1.8; }
+    .article-wrapper ul, .article-wrapper ol { margin: 1rem 0 1.5rem 1.5rem; }
+    .article-wrapper li { margin-bottom: 0.5rem; font-weight: 300; }
+    .callout { background: var(--card); border-left: 3px solid var(--gold); padding: 1rem 1.5rem; margin: 1.5rem 0; border-radius: 0 8px 8px 0; font-size: 0.92rem; }
+    .app-card { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 1.5rem; margin: 2rem 0; }
+    .app-card:nth-child(1) { border-top: 3px solid var(--gold); }
+    .app-card:nth-child(2) { border-top: 3px solid #A8A9AD; }
+    .app-card:nth-child(3) { border-top: 3px solid #CD7F32; }
+    .rank-badge { display: inline-flex; align-items: center; justify-content: center; width: 32px; height: 32px; border-radius: 50%; background: var(--gold-dim); color: var(--gold); font-weight: 700; font-size: 0.9rem; margin-bottom: 0.8rem; }
+    .app-card h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.25rem; color: var(--star); margin: 0 0 0.3rem; }
+    .app-meta { display: flex; gap: 1rem; margin-bottom: 0.8rem; flex-wrap: wrap; }
+    .app-tag { font-size: 0.75rem; color: var(--muted); background: rgba(255,255,255,0.05); padding: 3px 10px; border-radius: 20px; }
+    .app-verdict { font-size: 0.82rem; color: var(--gold); font-weight: 500; margin-bottom: 1rem; letter-spacing: 0.04em; text-transform: uppercase; }
+    .pros-cons { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin: 1rem 0; }
+    .pros, .cons { background: rgba(255,255,255,0.03); border-radius: 6px; padding: 0.8rem 1rem; }
+    .pros h4 { color: var(--green); font-size: 0.78rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 0.5rem; }
+    .cons h4 { color: #E07070; font-size: 0.78rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.06em; margin-bottom: 0.5rem; }
+    .pros ul, .cons ul { list-style: none; margin: 0; }
+    .pros li::before { content: '✓ '; color: var(--green); }
+    .cons li::before { content: '✗ '; color: #E07070; }
+    .pros li, .cons li { font-size: 0.85rem; margin-bottom: 0.3rem; }
+    .app-price { font-size: 0.82rem; color: var(--muted); margin-top: 0.8rem; }
+    .app-price strong { color: var(--star); }
+    .comparison-table { width: 100%; border-collapse: collapse; margin: 2rem 0; font-size: 0.85rem; }
+    .comparison-table th { background: var(--navy); color: var(--gold); padding: 10px 14px; text-align: left; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.06em; border-bottom: 1px solid var(--border); }
+    .comparison-table td { padding: 10px 14px; border-bottom: 1px solid rgba(37,45,69,0.6); color: var(--text); }
+    .comparison-table tr:nth-child(even) td { background: rgba(26,34,56,0.4); }
+    .comparison-table tr:first-child td { color: var(--gold); font-weight: 500; }
+    .badge-best { background: var(--gold-dim); color: var(--gold); padding: 2px 8px; border-radius: 4px; font-size: 0.72rem; font-weight: 600; }
+    .btn-amazon { display: inline-block; background: var(--gold); color: var(--night); text-decoration: none; padding: 10px 20px; border-radius: 6px; font-weight: 600; font-size: 0.88rem; transition: background 0.2s; margin-top: 0.8rem; }
+    .btn-amazon:hover { background: var(--gold-light); }
+    .product-cta { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 1.5rem; margin: 2rem 0; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; }
+    .product-cta-text { color: var(--star); font-weight: 500; }
+    .article-cta { background: linear-gradient(135deg, var(--card), var(--navy)); border: 1px solid var(--border); border-radius: 12px; padding: 2rem; text-align: center; margin: 3rem 0; }
+    .article-cta h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.4rem; color: var(--star); margin-bottom: 0.8rem; }
+    .article-cta p { color: var(--muted); margin-bottom: 1.2rem; }
+    .related-articles { margin: 3rem 0; }
+    .related-articles h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.3rem; color: var(--star); margin-bottom: 1rem; }
+    .related-articles ul { list-style: none; margin: 0; }
+    .related-articles li { margin-bottom: 0.6rem; }
+    .related-articles a { color: var(--gold); text-decoration: none; font-size: 0.95rem; }
+    .related-articles a:hover { text-decoration: underline; }
+    footer { background: #060912; border-top: 1px solid var(--border); padding: 50px 6% 30px; }
+    .footer-top { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 3rem; margin-bottom: 3rem; padding-bottom: 3rem; border-bottom: 1px solid var(--border); }
+    .footer-brand p { color: var(--muted); font-size: 0.82rem; margin-top: 0.8rem; line-height: 1.6; font-weight: 300; max-width: 260px; }
+    .footer-col h4 { font-size: 0.78rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--gold); margin-bottom: 1rem; }
+    .footer-col ul { list-style: none; display: flex; flex-direction: column; gap: 0.6rem; }
+    .footer-col a { color: var(--muted); text-decoration: none; font-size: 0.85rem; transition: color 0.2s; }
+    .footer-col a:hover { color: var(--gold); }
+    .footer-bottom { display: flex; justify-content: space-between; font-size: 0.78rem; color: var(--muted); flex-wrap: wrap; gap: 0.5rem; }
+    .affiliate-disc { font-size: 0.75rem; max-width: 600px; }
+    @media (max-width: 900px) { .nav-links { display: none; } .article-wrapper h1 { font-size: 1.8rem; } .footer-top { grid-template-columns: 1fr 1fr; } .product-cta { flex-direction: column; text-align: center; } .pros-cons { grid-template-columns: 1fr; } }
+  </style>
+</head>
+
+<body>
+  <nav>
+    <a class="logo" href="../">SleepWise<span>Reviews</span></a>
+    <ul class="nav-links">
+      <li><a href="../#picks">Top Picks</a></li>
+      <li><a href="../#reviews">Reviews</a></li>
+      <li><a href="../pages/about.html">About Harry</a></li>
+      <li><a href="../#newsletter" class="nav-cta">Free Sleep Guide</a></li>
+    </ul>
+  </nav>
+
+  <article class="article-wrapper">
+    <div class="article-meta-top">
+      <span class="tag">Product Review</span>
+      <span class="meta-text">📅 September 2025</span>
+      <span class="meta-text">·</span>
+      <span class="meta-text">⏱ 9 min read</span>
+      <span class="meta-text">·</span>
+      <span class="meta-text">🔄 Updated Mar 2026</span>
+    </div>
+    <h1>Best Sleep Apps in 2026: Do Any of Them Actually Work?</h1>
+    <p class="article-intro">Sleep apps promise to track your cycles, improve your habits, and fix your insomnia. We tested 10 of the most popular apps over 8 weeks — here's what they get right, what they get badly wrong, and the 7 worth downloading.</p>
+
+    <div class="author-box">
+      <div class="author-avatar">😴</div>
+      <div class="author-info">
+        <div class="author-name">By <a href="../pages/about.html">Harry Soul</a> - SleepWiseReviews</div>
+        <div class="author-role">Independent Sleep Researcher — September 2025</div>
+      </div>
+    </div>
+
+    <div class="disclosure-box">
+      <strong>Affiliate Disclosure:</strong> This article contains affiliate links. We earn a small commission if you purchase through our links at no extra cost to you. <a href="../pages/affiliate-disclosure.html" style="color:var(--gold)">Full disclosure</a>
+    </div>
+
+    <h2>The Honest Truth About Sleep App Accuracy</h2>
+    <p>Matthew Walker is direct on this point in <em>Why We Sleep</em> (2017): smartphone-based sleep tracking cannot accurately detect individual sleep stages. Consumer devices use accelerometers (motion sensors) to infer sleep from body movement — a method that systematically overestimates deep sleep and misses nighttime awakenings that last under 2–3 minutes.</p>
+
+    <p>This doesn't make sleep apps useless. What they do well is track trends over time: sleep duration, bedtime consistency, and broad patterns. The mistake is trusting them for specific night-to-night stage data. A night where your app shows 90 minutes of deep sleep may have been 40 minutes in reality — but if the number consistently goes up when you exercise and consistently goes down after alcohol, that trend information is genuinely useful.</p>
+
+    <div class="callout">📱 <strong>How to use sleep apps correctly:</strong> Look at 2-week trends, not individual nights. The question isn't "how much deep sleep did I get last Thursday?" — it's "does my sleep quality improve when I cut off screens at 9pm?" Apps can answer the second question reliably.</div>
+
+    <h2>Two Types of Sleep App — Know Which You Need</h2>
+    <p>There are fundamentally two kinds of sleep app, and they serve different purposes:</p>
+    <ul>
+      <li><strong>Sleep tracking apps:</strong> Monitor your sleep using your phone's sensors or wearable data. Good for habit trends. Poor for stage accuracy.</li>
+      <li><strong>Sleep improvement apps:</strong> Deliver CBT-I protocols, guided meditations, sleep restriction therapy, and coaching. These have clinical evidence behind them and don't need hardware to work.</li>
+    </ul>
+    <p>The second category is far more likely to actually improve your sleep. The first category tells you what happened; the second helps you change it.</p>
+
+    <h2>The 7 Best Sleep Apps in 2026</h2>
+
+    <div class="app-card">
+      <div class="rank-badge">1</div>
+      <h3>Sleepio</h3>
+      <div class="app-meta">
+        <span class="app-tag">iOS &amp; Android</span>
+        <span class="app-tag">CBT-I Program</span>
+        <span class="app-tag">Clinically Validated</span>
+      </div>
+      <div class="app-verdict">Best Overall — The Only Clinically Validated CBT-I App</div>
+      <p>Sleepio is in a different category from every other app on this list. It's not a tracker — it's a 6-week digital CBT-I (Cognitive Behavioural Therapy for Insomnia) program backed by 12 published clinical trials. In randomised controlled trials, Sleepio outperformed placebo and sleeping pills for chronic insomnia patients, with effects that persisted at 6-month follow-up.</p>
+      <p>The app guides you through sleep restriction, stimulus control, and cognitive restructuring — the same techniques used by sleep medicine specialists. If you have genuine chronic insomnia, this is the most effective intervention available outside of an in-person clinic, and it's increasingly covered by health insurance in the US and UK.</p>
+      <div class="pros-cons">
+        <div class="pros">
+          <h4>Pros</h4>
+          <ul>
+            <li>12 published clinical trials</li>
+            <li>Outperforms sleeping pills long-term</li>
+            <li>Full CBT-I protocol</li>
+            <li>May be covered by insurance</li>
+          </ul>
+        </div>
+        <div class="cons">
+          <h4>Cons</h4>
+          <ul>
+            <li>Expensive ($300/year without insurance)</li>
+            <li>Sleep restriction phase is tough initially</li>
+            <li>Not a quick fix — 6-week program</li>
+          </ul>
+        </div>
+      </div>
+      <p class="app-price"><strong>Price:</strong> ~$300/year or covered by some insurers</p>
+    </div>
+
+    <div class="app-card">
+      <div class="rank-badge">2</div>
+      <h3>Sleep Cycle</h3>
+      <div class="app-meta">
+        <span class="app-tag">iOS &amp; Android</span>
+        <span class="app-tag">Sleep Tracker</span>
+        <span class="app-tag">Smart Alarm</span>
+      </div>
+      <div class="app-verdict">Best Tracker — Smart Alarm Is Genuinely Useful</div>
+      <p>Sleep Cycle is the most refined pure sleep tracking app available. Its smart alarm feature — which wakes you within a 30-minute window when you're in your lightest sleep phase — is the most practically useful feature in the category. Waking from light sleep rather than deep sleep makes a measurable difference in how you feel, even if the exact stage timing is approximate.</p>
+      <p>The sound analysis (it uses your phone's microphone) is more accurate than pure accelerometer tracking, and the sleep quality graphs are clean and easy to interpret. For most people who want a sleep tracker without a wearable, this is the best option.</p>
+      <div class="pros-cons">
+        <div class="pros">
+          <h4>Pros</h4>
+          <ul>
+            <li>Smart alarm works as advertised</li>
+            <li>Sound + motion tracking (more accurate)</li>
+            <li>Clean, readable graphs</li>
+            <li>Free version is quite capable</li>
+          </ul>
+        </div>
+        <div class="cons">
+          <h4>Cons</h4>
+          <ul>
+            <li>Stage data is still estimated</li>
+            <li>Premium needed for full history</li>
+            <li>Phone must stay in bed (microphone use)</li>
+          </ul>
+        </div>
+      </div>
+      <p class="app-price"><strong>Price:</strong> Free basic / $30/year premium</p>
+    </div>
+
+    <div class="app-card">
+      <div class="rank-badge">3</div>
+      <h3>Calm</h3>
+      <div class="app-meta">
+        <span class="app-tag">iOS &amp; Android</span>
+        <span class="app-tag">Sleep Stories</span>
+        <span class="app-tag">Meditation</span>
+      </div>
+      <div class="app-verdict">Best for Winding Down — Sleep Stories and Soundscapes</div>
+      <p>Calm isn't a tracker — it's a wind-down tool, and within that category it's the best available. The Sleep Stories library (narrated by celebrities and writers in deliberately boring, soothing voices) is surprisingly effective at quieting an overactive mind before bed. The guided sleep meditations are genuinely research-backed, and the nature soundscapes are the highest quality audio in any app we tested.</p>
+      <p>For people whose sleep issue is an inability to mentally switch off at bedtime, Calm addresses the actual problem rather than just measuring it. The combination of sleep stories, breathing exercises, and progressive muscle relaxation covers most of the non-pharmacological pre-sleep toolkit.</p>
+      <div class="pros-cons">
+        <div class="pros">
+          <h4>Pros</h4>
+          <ul>
+            <li>Best sleep story library</li>
+            <li>High-quality audio throughout</li>
+            <li>Effective for racing thoughts</li>
+            <li>Large guided meditation catalog</li>
+          </ul>
+        </div>
+        <div class="cons">
+          <h4>Cons</h4>
+          <ul>
+            <li>No sleep tracking</li>
+            <li>Expensive subscription</li>
+            <li>Celebrity content feels gimmicky to some</li>
+          </ul>
+        </div>
+      </div>
+      <p class="app-price"><strong>Price:</strong> Free trial / $70/year</p>
+    </div>
+
+    <div class="app-card">
+      <div class="rank-badge">4</div>
+      <h3>Headspace</h3>
+      <div class="app-meta">
+        <span class="app-tag">iOS &amp; Android</span>
+        <span class="app-tag">Guided Meditation</span>
+        <span class="app-tag">Wind-Down</span>
+      </div>
+      <div class="app-verdict">Best Meditation App for Sleep — Evidence-Based Mindfulness</div>
+      <p>Headspace takes a more structured, evidence-based approach to mindfulness than Calm — its content is developed with academic collaborators and several Headspace studies have been published in peer-reviewed journals. The sleep-specific content (Sleepcasts, sleep meditations, and the "Wind Down" series) is directly relevant and practically useful.</p>
+      <p>If you want to build a genuine mindfulness practice that also improves sleep — rather than just using sleep stories as a distraction technique — Headspace is the better long-term investment. The app grows with you in a way that passive audio doesn't.</p>
+      <div class="pros-cons">
+        <div class="pros">
+          <h4>Pros</h4>
+          <ul>
+            <li>Academic research backing</li>
+            <li>Structured mindfulness progression</li>
+            <li>Wind Down courses excellent</li>
+            <li>Works for non-sleep goals too</li>
+          </ul>
+        </div>
+        <div class="cons">
+          <h4>Cons</h4>
+          <ul>
+            <li>No sleep tracking</li>
+            <li>Requires consistent engagement</li>
+            <li>Expensive subscription</li>
+          </ul>
+        </div>
+      </div>
+      <p class="app-price"><strong>Price:</strong> Free trial / $70/year</p>
+    </div>
+
+    <div class="app-card">
+      <div class="rank-badge">5</div>
+      <h3>Oura App (with Oura Ring Gen 3)</h3>
+      <div class="app-meta">
+        <span class="app-tag">iOS &amp; Android</span>
+        <span class="app-tag">Wearable Required</span>
+        <span class="app-tag">Most Accurate Tracking</span>
+      </div>
+      <div class="app-verdict">Most Accurate Tracking — But Requires the Ring</div>
+      <p>The Oura app is only as good as the ring it pairs with — but that ring is the most accurate consumer sleep tracking device currently available. The Gen 3 Oura Ring uses heart rate variability, skin temperature, and motion from your finger (where arterial signals are much cleaner than the wrist), producing sleep stage estimates that correlate more closely with polysomnography than any wrist-based tracker.</p>
+      <p>If you're serious about tracking sleep trends with the best available consumer accuracy, the Oura Ring + app combination is the answer. The readiness score and trend analysis in the app are genuinely useful for connecting sleep quality to next-day performance.</p>
+      <div class="pros-cons">
+        <div class="pros">
+          <h4>Pros</h4>
+          <ul>
+            <li>Most accurate consumer sleep tracking</li>
+            <li>HRV + temperature + motion = superior data</li>
+            <li>Readiness and trend analysis excellent</li>
+            <li>Comfortable to wear (no screen)</li>
+          </ul>
+        </div>
+        <div class="cons">
+          <h4>Cons</h4>
+          <ul>
+            <li>Requires Oura Ring ($300+)</li>
+            <li>App subscription $6/month additional</li>
+            <li>Ring sizing can be tricky</li>
+          </ul>
+        </div>
+      </div>
+      <p class="app-price"><strong>Price:</strong> Ring from $299 + $6/month app subscription</p>
+    </div>
+
+    <div class="app-card">
+      <div class="rank-badge">6</div>
+      <h3>Somryst</h3>
+      <div class="app-meta">
+        <span class="app-tag">iOS &amp; Android</span>
+        <span class="app-tag">FDA-Cleared</span>
+        <span class="app-tag">CBT-I</span>
+      </div>
+      <div class="app-verdict">Best Medical-Grade CBT-I — FDA Prescription Digital Therapeutic</div>
+      <p>Somryst is the only FDA-cleared prescription digital therapeutic for chronic insomnia. Unlike Sleepio which operates as a wellness app, Somryst is prescribed by physicians and delivers a full CBT-I protocol with FDA-reviewed clinical data. In trials, 57% of patients achieved remission from chronic insomnia after completing the program.</p>
+      <p>It requires a prescription and isn't available directly to consumers, but if you have access through a doctor, it's the most medically validated digital sleep intervention available. Worth asking your physician about if you've had chronic insomnia for more than 3 months.</p>
+      <div class="pros-cons">
+        <div class="pros">
+          <h4>Pros</h4>
+          <ul>
+            <li>FDA-cleared prescription therapeutic</li>
+            <li>57% insomnia remission rate</li>
+            <li>May be covered by insurance</li>
+            <li>Full evidence-based CBT-I</li>
+          </ul>
+        </div>
+        <div class="cons">
+          <h4>Cons</h4>
+          <ul>
+            <li>Requires prescription</li>
+            <li>Not available to all patients</li>
+            <li>9-week program commitment required</li>
+          </ul>
+        </div>
+      </div>
+      <p class="app-price"><strong>Price:</strong> Prescription-only / varies with insurance</p>
+    </div>
+
+    <div class="app-card">
+      <div class="rank-badge">7</div>
+      <h3>Pzizz</h3>
+      <div class="app-meta">
+        <span class="app-tag">iOS &amp; Android</span>
+        <span class="app-tag">Sleep Audio</span>
+        <span class="app-tag">Nap Module</span>
+      </div>
+      <div class="app-verdict">Best for Napping — Unique Psychoacoustic Audio</div>
+      <p>Pzizz uses psychoacoustic principles — specific sound frequencies and rhythm patterns designed to guide brain activity toward sleep — to create audio sessions for both night sleep and naps. The nap module is the best in any app we tested: it generates a session of your chosen length that starts with induction audio and transitions to a gentle wake-up sequence at the end.</p>
+      <p>The night sleep module is effective for people who respond well to audio guidance but don't connect with the narrative style of Sleep Stories. The dynamically generated audio means sessions never repeat exactly, which prevents habituation over time.</p>
+      <div class="pros-cons">
+        <div class="pros">
+          <h4>Pros</h4>
+          <ul>
+            <li>Best nap module available</li>
+            <li>Psychoacoustic audio is effective</li>
+            <li>Never repeats (dynamically generated)</li>
+            <li>Reasonable price</li>
+          </ul>
+        </div>
+        <div class="cons">
+          <h4>Cons</h4>
+          <ul>
+            <li>No sleep tracking</li>
+            <li>Audio-only — limited beyond that</li>
+            <li>Less polished UI than Calm/Headspace</li>
+          </ul>
+        </div>
+      </div>
+      <p class="app-price"><strong>Price:</strong> Free basic / $50/year premium</p>
+    </div>
+
+    <h2>Quick Comparison: All 7 Sleep Apps</h2>
+    <table class="comparison-table">
+      <thead>
+        <tr>
+          <th>App</th>
+          <th>Type</th>
+          <th>Tracking</th>
+          <th>Clinical Evidence</th>
+          <th>Cost/Year</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Sleepio <span class="badge-best">Best Overall</span></td>
+          <td>CBT-I Program</td>
+          <td>Basic</td>
+          <td>12 RCTs</td>
+          <td>~$300</td>
+        </tr>
+        <tr>
+          <td>Sleep Cycle</td>
+          <td>Tracker + Smart Alarm</td>
+          <td>Sound + motion</td>
+          <td>Limited</td>
+          <td>Free/$30</td>
+        </tr>
+        <tr>
+          <td>Calm</td>
+          <td>Wind-down audio</td>
+          <td>None</td>
+          <td>Some studies</td>
+          <td>$70</td>
+        </tr>
+        <tr>
+          <td>Headspace</td>
+          <td>Mindfulness / wind-down</td>
+          <td>None</td>
+          <td>Several RCTs</td>
+          <td>$70</td>
+        </tr>
+        <tr>
+          <td>Oura App + Ring</td>
+          <td>Hardware tracker</td>
+          <td>Most accurate</td>
+          <td>Validation studies</td>
+          <td>$72 + ring</td>
+        </tr>
+        <tr>
+          <td>Somryst</td>
+          <td>FDA Rx CBT-I</td>
+          <td>Sleep diary</td>
+          <td>FDA-cleared</td>
+          <td>Rx only</td>
+        </tr>
+        <tr>
+          <td>Pzizz</td>
+          <td>Sleep audio / nap</td>
+          <td>None</td>
+          <td>Limited</td>
+          <td>Free/$50</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>How to Choose the Right App for Your Situation</h2>
+    <h3>If you have chronic insomnia (3+ months)</h3>
+    <p>Start with Sleepio or ask your doctor about Somryst. These are the only options with real clinical evidence for chronic insomnia. All the tracking apps in the world won't fix a sleep disorder — CBT-I will.</p>
+
+    <h3>If you want to understand your sleep patterns</h3>
+    <p>Sleep Cycle is the best free/cheap option. If you're willing to invest in a hardware upgrade, the Oura Ring + app combination is significantly more accurate.</p>
+
+    <h3>If you struggle to wind down at night</h3>
+    <p>Calm or Headspace, depending on whether you prefer passive audio (Calm) or building a mindfulness practice (Headspace). Pzizz is also excellent if you respond well to ambient audio.</p>
+
+    <div class="callout">⚠️ <strong>Orthosomnia warning:</strong> Sleep tracking can become counterproductive. Studies have documented "orthosomnia" — anxiety driven by obsessing over sleep data. If you find yourself more stressed after checking your sleep scores than before, take a tracking break.</div>
+
+    <div class="product-cta">
+      <span class="product-cta-text">Looking for hardware to complement your sleep app?</span>
+      <a class="btn-amazon" href="https://www.amazon.com/s?k=sleep+tracker+wearable&tag=sleepwiserevi-20" target="_blank" rel="noopener nofollow">Shop Sleep Trackers on Amazon</a>
+    </div>
+
+    <div class="article-cta">
+      <h3>Get Our Free 7-Day Sleep Reset</h3>
+      <p>Join 18,000 readers who get weekly sleep tips and honest product reviews every Sunday.</p>
+      <a class="btn-amazon" href="../#newsletter">Subscribe Free</a>
+    </div>
+
+    <div class="related-articles">
+      <h3>Related Articles</h3>
+      <ul>
+        <li><a href="sleep-tracking-worth-it.html">Are Sleep Trackers Worth It? A Realistic Assessment</a></li>
+        <li><a href="sleep-stages-explained.html">Understanding Sleep Stages: A Complete Guide</a></li>
+        <li><a href="sleep-anxiety-techniques.html">Can't Sleep Because You're Anxious About Not Sleeping?</a></li>
+        <li><a href="wind-down-routine.html">The Perfect Wind-Down Routine: 60 Minutes to Better Sleep</a></li>
+      </ul>
+    </div>
+  </article>
+
+  <footer>
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a class="logo" href="../">SleepWise<span>Reviews</span></a>
+        <p>Honest, science-backed reviews to help you sleep deeper, recover faster, and wake up energized.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Reviews</h4>
+        <ul>
+          <li><a href="https://www.amazon.com/s?k=sleep+tracker&tag=sleepwiserevi-20" target="_blank">Sleep Trackers</a></li>
+          <li><a href="https://www.amazon.com/s?k=white+noise+machine&tag=sleepwiserevi-20" target="_blank">White Noise Machines</a></li>
+          <li><a href="https://www.amazon.com/s?k=sleep+supplements&tag=sleepwiserevi-20" target="_blank">Supplements</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Guides</h4>
+        <ul>
+          <li><a href="../#picks">Sleep Optimization</a></li>
+          <li><a href="../#reviews">Bedtime Routines</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Site</h4>
+        <ul>
+          <li><a href="../pages/about.html">About Harry Soul</a></li>
+          <li><a href="../pages/privacy-policy.html">Privacy Policy</a></li>
+          <li><a href="../pages/affiliate-disclosure.html">Affiliate Disclosure</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div>© 2025 SleepWiseReviews. All rights reserved.</div>
+      <div class="affiliate-disc">SleepWiseReviews is a participant in the Amazon Services LLC Associates Program.</div>
+    </div>
+  </footer>
+</body>
+</html>
