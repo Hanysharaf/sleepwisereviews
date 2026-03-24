@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Social Jetlag: The Silent Sleep Killer Nobody Talks About - SleepWiseReviews</title>
+  <meta name="description" content="Sleeping differently on weekdays than weekends is giving two-thirds of us a form of chronic jetlag. Social jetlag is linked to obesity, metabolic disease, and impaired cognitive function — and it is almost entirely preventable." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <style type='text/css'>
+    :root {
+      --night: #0A0E1A; --deep: #0F1525; --navy: #141B30; --card: #1A2238;
+      --border: #252D45; --gold: #C9A84C; --gold-light: #E5C96A;
+      --gold-dim: rgba(201, 168, 76, 0.15); --star: #F0E6C8; --text: #D4DCEE;
+      --muted: #7A85A0; --white: #FFFFFF; --green: #4CAF82;
+    }
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { font-family: 'Outfit', sans-serif; background: var(--night); color: var(--text); line-height: 1.6; overflow-x: hidden; }
+    body::before {
+      content: ''; position: fixed; inset: 0;
+      background-image: radial-gradient(1px 1px at 10% 15%, rgba(240,230,200,0.6) 0%, transparent 100%), radial-gradient(1px 1px at 25% 40%, rgba(240,230,200,0.4) 0%, transparent 100%), radial-gradient(1.5px 1.5px at 40% 10%, rgba(240,230,200,0.5) 0%, transparent 100%), radial-gradient(1px 1px at 70% 5%, rgba(240,230,200,0.6) 0%, transparent 100%), radial-gradient(1.5px 1.5px at 80% 20%, rgba(240,230,200,0.4) 0%, transparent 100%);
+      pointer-events: none; z-index: 0;
+    }
+    nav { position: sticky; top: 0; z-index: 100; background: rgba(10,14,26,0.92); backdrop-filter: blur(12px); border-bottom: 1px solid var(--border); padding: 0 6%; height: 68px; display: flex; align-items: center; justify-content: space-between; }
+    .logo { font-family: 'Cormorant Garamond', serif; font-size: 1.6rem; font-weight: 700; color: var(--star); text-decoration: none; }
+    .logo span { color: var(--gold); }
+    .nav-links { display: flex; gap: 2rem; list-style: none; }
+    .nav-links a { text-decoration: none; color: var(--muted); font-size: 0.88rem; font-weight: 500; transition: color 0.2s; }
+    .nav-links a:hover { color: var(--gold); }
+    .nav-cta { background: var(--gold-dim); color: var(--gold) !important; border: 1px solid rgba(201,168,76,0.3); padding: 7px 16px; border-radius: 4px; }
+    .article-wrapper { position: relative; z-index: 1; max-width: 800px; margin: 0 auto; padding: 50px 6% 80px; }
+    .article-meta-top { display: flex; flex-wrap: wrap; align-items: center; gap: 0.8rem; margin-bottom: 1.2rem; }
+    .tag { background: var(--gold); color: var(--night); padding: 5px 12px; border-radius: 4px; font-size: 0.72rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; }
+    .meta-text { color: var(--muted); font-size: 0.82rem; }
+    .article-wrapper h1 { font-family: 'Cormorant Garamond', serif; font-size: 2.4rem; font-weight: 600; color: var(--star); line-height: 1.2; margin-bottom: 1.2rem; }
+    .article-intro { font-size: 1.1rem; color: var(--text); line-height: 1.7; margin-bottom: 2rem; font-weight: 300; }
+    .author-box { display: flex; align-items: center; gap: 1rem; margin-bottom: 1.5rem; padding: 1rem; background: var(--card); border-radius: 8px; border: 1px solid var(--border); }
+    .author-avatar { font-size: 2.5rem; }
+    .author-name { color: var(--star); font-weight: 500; }
+    .author-name a { color: var(--gold); text-decoration: none; }
+    .author-role { color: var(--muted); font-size: 0.82rem; }
+    .article-wrapper h2 { font-family: 'Cormorant Garamond', serif; font-size: 1.6rem; font-weight: 600; color: var(--star); margin: 2.5rem 0 1rem; padding-top: 1rem; }
+    .article-wrapper h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.2rem; color: var(--star); margin: 1.5rem 0 0.8rem; }
+    .article-wrapper p { margin-bottom: 1rem; font-weight: 300; line-height: 1.8; }
+    .article-wrapper ul, .article-wrapper ol { margin: 1rem 0 1.5rem 1.5rem; }
+    .article-wrapper li { margin-bottom: 0.5rem; font-weight: 300; }
+    .callout { background: var(--card); border-left: 3px solid var(--gold); padding: 1rem 1.5rem; margin: 1.5rem 0; border-radius: 0 8px 8px 0; font-size: 0.92rem; }
+    .sj-calc { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 1.5rem; margin: 1.5rem 0; }
+    .sj-calc h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.1rem; color: var(--star); margin-bottom: 1rem; }
+    .sj-row { display: flex; justify-content: space-between; align-items: center; padding: 0.6rem 0; border-bottom: 1px solid rgba(37,45,69,0.5); font-size: 0.88rem; }
+    .sj-row:last-child { border-bottom: none; }
+    .sj-label { color: var(--text); font-weight: 300; }
+    .sj-value { color: var(--gold); font-weight: 500; }
+    .product-cta { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 1.5rem; margin: 2rem 0; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; }
+    .product-cta-text { color: var(--star); font-weight: 500; }
+    .btn-amazon { background: var(--gold); color: var(--night); text-decoration: none; padding: 10px 20px; border-radius: 6px; font-weight: 600; font-size: 0.88rem; transition: background 0.2s; white-space: nowrap; }
+    .btn-amazon:hover { background: var(--gold-light); }
+    .article-cta { background: linear-gradient(135deg, var(--card), var(--navy)); border: 1px solid var(--border); border-radius: 12px; padding: 2rem; text-align: center; margin: 3rem 0; }
+    .article-cta h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.4rem; color: var(--star); margin-bottom: 0.8rem; }
+    .article-cta p { color: var(--muted); margin-bottom: 1.2rem; }
+    .related-articles { margin: 3rem 0; }
+    .related-articles h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.3rem; color: var(--star); margin-bottom: 1rem; }
+    .related-articles ul { list-style: none; margin: 0; }
+    .related-articles li { margin-bottom: 0.6rem; }
+    .related-articles a { color: var(--gold); text-decoration: none; font-size: 0.95rem; }
+    .related-articles a:hover { text-decoration: underline; }
+    footer { background: #060912; border-top: 1px solid var(--border); padding: 50px 6% 30px; }
+    .footer-top { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 3rem; margin-bottom: 3rem; padding-bottom: 3rem; border-bottom: 1px solid var(--border); }
+    .footer-brand p { color: var(--muted); font-size: 0.82rem; margin-top: 0.8rem; line-height: 1.6; font-weight: 300; max-width: 260px; }
+    .footer-col h4 { font-size: 0.78rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--gold); margin-bottom: 1rem; }
+    .footer-col ul { list-style: none; display: flex; flex-direction: column; gap: 0.6rem; }
+    .footer-col a { color: var(--muted); text-decoration: none; font-size: 0.85rem; transition: color 0.2s; }
+    .footer-col a:hover { color: var(--gold); }
+    .footer-bottom { display: flex; justify-content: space-between; font-size: 0.78rem; color: var(--muted); flex-wrap: wrap; gap: 0.5rem; }
+    @media (max-width: 900px) {
+      .nav-links { display: none; }
+      .article-wrapper h1 { font-size: 1.8rem; }
+      .footer-top { grid-template-columns: 1fr 1fr; }
+      .product-cta { flex-direction: column; text-align: center; }
+    }
+  </style>
+</head>
+
+<body>
+  <nav>
+    <a class="logo" href="../">SleepWise<span>Reviews</span></a>
+    <ul class="nav-links">
+      <li><a href="../#picks">Top Picks</a></li>
+      <li><a href="../#reviews">Reviews</a></li>
+      <li><a href="../pages/about.html">About Harry</a></li>
+      <li><a href="../#newsletter" class="nav-cta">Free Sleep Guide</a></li>
+    </ul>
+  </nav>
+
+  <article class="article-wrapper">
+    <div class="article-meta-top">
+      <span class="tag">Sleep Science</span>
+      <span class="meta-text">📅 June 2024</span>
+      <span class="meta-text">·</span>
+      <span class="meta-text">⏱ 8 min read</span>
+      <span class="meta-text">·</span>
+      <span class="meta-text">🔄 Updated Mar 2026</span>
+    </div>
+
+    <h1>Social Jetlag: The Silent Sleep Killer Nobody Talks About</h1>
+    <p class="article-intro">Sleeping differently on weekdays than weekends is giving two-thirds of us a form of chronic jetlag — every single week. Social jetlag is directly linked to obesity, metabolic disease, and impaired cognitive performance, and it is almost entirely preventable with a single behavioral change.</p>
+
+    <div class="author-box">
+      <div class="author-avatar">😴</div>
+      <div class="author-info">
+        <div class="author-name">By <a href="../pages/about.html">Harry Soul</a> — SleepWiseReviews</div>
+        <div class="author-role">Independent Sleep Researcher · Updated March 2026</div>
+      </div>
+    </div>
+
+    <h2>What Is Social Jetlag?</h2>
+    <p>Social jetlag is the discrepancy between your biological sleep timing (what your circadian clock prefers) and your social sleep timing (when society requires you to wake). The term was coined by chronobiologist Till Roenneberg of Ludwig Maximilian University, who defines it as the difference in sleep timing between work days and free days. "Social jetlag represents the misalignment between the social clock and the biological clock — and its consequences are real, measurable, and largely ignored," Roenneberg writes (Roenneberg, 2012).</p>
+
+    <p>To measure your own social jetlag: calculate the midpoint of your sleep on free days (no alarm) and compare it to the midpoint of your sleep on workdays. A difference of 1 hour equals 1 hour of social jetlag. Two-thirds of the population has at least 1 hour of social jetlag; one-third has 2 or more hours.</p>
+
+    <div class="sj-calc">
+      <h3>How to Calculate Your Social Jetlag</h3>
+      <div class="sj-row">
+        <span class="sj-label">Free day sleep midpoint (e.g., 12am bedtime, 9am wake = 4:30am midpoint)</span>
+        <span class="sj-value">Step 1</span>
+      </div>
+      <div class="sj-row">
+        <span class="sj-label">Work day sleep midpoint (e.g., 11pm bedtime, 6:30am wake = 2:45am midpoint)</span>
+        <span class="sj-value">Step 2</span>
+      </div>
+      <div class="sj-row">
+        <span class="sj-label">Social jetlag = difference between the two midpoints</span>
+        <span class="sj-value">1h 45min in this example</span>
+      </div>
+      <div class="sj-row">
+        <span class="sj-label">Interpretation</span>
+        <span class="sj-value">&lt;30min = minimal · 30–60min = moderate · &gt;60min = significant</span>
+      </div>
+    </div>
+
+    <h2>The Physiological Effects of Social Jetlag</h2>
+    <p>Social jetlag is not just a matter of being tired on Mondays. Roenneberg's large-scale epidemiological research — surveying over 65,000 people across multiple countries — found that each hour of social jetlag is associated with:</p>
+    <ul>
+      <li>A 33% increase in the odds of being overweight or obese</li>
+      <li>Significantly higher rates of smoking, caffeine dependence, and alcohol consumption</li>
+      <li>Reduced cognitive performance on tasks requiring attention and working memory</li>
+      <li>Higher levels of self-reported fatigue, despite total sleep time being equivalent to non-jetlagged individuals</li>
+    </ul>
+
+    <h3>Why Social Jetlag Increases Obesity Risk</h3>
+    <p>The link between social jetlag and weight is not simply explained by eating more. Circadian misalignment specifically disrupts metabolic processes that are timed to the circadian clock. Insulin sensitivity, glucose regulation, and fat metabolism all follow 24-hour rhythms. Eating, sleeping, and being active at circadian-inconsistent times disrupts these rhythms in ways that promote fat storage independent of caloric intake. Roenneberg and colleagues demonstrated this in human trials — equivalent food intake consumed at circadian-inconsistent times produced greater fat accumulation than the same intake consumed at circadian-appropriate times.</p>
+
+    <h2>The Week-Resetting Problem</h2>
+    <p>The most damaging pattern is the common one: restricting sleep during the week (due to early work schedules), then sleeping late on weekends to recover. This creates a pattern equivalent to flying westward across 2 time zones every Friday night, then flying back every Monday morning — every single week.</p>
+
+    <p>Each time the sleep schedule shifts, the circadian system must re-entrain. This re-entrainment takes approximately 1 day per hour of shift for most people. A 2-hour shift on weekends means the circadian clock is still partially displaced on Wednesday — and then Friday arrives and the shift happens again before full adaptation occurs. The system never fully stabilizes.</p>
+
+    <h2>Chronotype Is Not an Excuse — It Is a Biological Reality</h2>
+    <p>Social jetlag is disproportionately experienced by late chronotypes — people whose biological sleep tendency is naturally later than societal schedules accommodate. Late chronotypes are not choosing to stay up late out of indiscipline. Chronotype is approximately 50% heritable and physiologically determined by the individual speed of the circadian clock's cycle and its sensitivity to light cues.</p>
+
+    <p>A workplace that starts at 7am is biologically hostile to late chronotypes in the same way that a 3am start time would be hostile to early chronotypes. Roenneberg uses the term "chronodiscrimination" to describe the systematic disadvantage experienced by late chronotypes in early-morning-optimized societies (Roenneberg, 2012).</p>
+
+    <div class="callout">💡 <strong>School start times:</strong> The dramatic sleep deprivation in adolescents — who are, on average, the latest chronotypes due to puberty-related circadian delay — is largely explained by school start times misaligned with their biology. Multiple studies have shown that later school start times improve academic performance, reduce rates of depression, and lower traffic accidents.</div>
+
+    <h2>How to Reduce Social Jetlag</h2>
+
+    <h3>The Most Effective Solution: Reduce the Gap</h3>
+    <p>The only way to eliminate social jetlag is to reduce the discrepancy between your workday and free-day sleep timing. This can be approached from either direction:</p>
+    <ol>
+      <li><strong>Shift your free days earlier</strong> — wake at the same time on weekends as on weekdays, using light exposure and alarms to anchor your circadian clock. This is the most effective approach if your work schedule cannot change.</li>
+      <li><strong>Advocate for later work schedules</strong> — if flexible hours, remote work, or later start times are available, they have documented health benefits specifically through social jetlag reduction.</li>
+      <li><strong>Use morning light strategically</strong> — morning bright light exposure (outdoor sunlight or a 10,000 lux lamp) advances the circadian clock. Late chronotypes who get morning light exposure shift their biological clock earlier over days to weeks, reducing the gap with their social schedule.</li>
+    </ol>
+
+    <h3>What Does Not Work</h3>
+    <p>Sleeping in on weekends to "catch up" does not eliminate social jetlag — it is what creates it. Catching up on sleep debt (total sleep duration) while simultaneously creating circadian misalignment (shifting sleep timing) is trading one problem for another, and the circadian misalignment has the worse long-term health consequences.</p>
+
+    <div class="callout">💡 <strong>Practical takeaway:</strong> If you want to reduce social jetlag without giving up weekend lie-ins entirely, set a maximum sleep-in limit of 1 hour past your work-week wake time. This limits circadian displacement while still allowing some recovery from weekday debt. Morning bright light on weekend mornings helps anchor the clock even with the extra hour.</div>
+
+    <div class="product-cta">
+      <div class="product-cta-text">A sunrise alarm clock helps shift your circadian clock earlier — reducing social jetlag with daily morning light exposure.</div>
+      <a class="btn-amazon" href="best-sunrise-alarm-clocks.html">See Sunrise Alarm Clocks →</a>
+    </div>
+
+    <div class="article-cta">
+      <h3>Want to understand your chronotype?</h3>
+      <p>Our chronotype guide explains why your biological sleep preference is fixed — and how to work with it rather than against it.</p>
+      <a class="btn-amazon" href="sleep-chronotypes.html">Read: Are You a Lion, Bear, Wolf, or Dolphin? →</a>
+    </div>
+
+    <div class="related-articles">
+      <h3>Related Articles</h3>
+      <ul>
+        <li><a href="sleep-chronotypes.html">Are You a Lion, Bear, Wolf, or Dolphin?</a></li>
+        <li><a href="sleep-inertia.html">Sleep Inertia: Why You Feel Terrible After a Long Sleep</a></li>
+        <li><a href="weekend-sleep-mistake.html">The Weekend Sleep Mistake That's Making You More Tired</a></li>
+        <li><a href="sleep-consistency-importance.html">Why Sleep Consistency Matters More Than Sleep Duration</a></li>
+        <li><a href="morning-lark-night-owl.html">Morning Larks vs Night Owls: Is Your Sleep Type Actually Genetic?</a></li>
+      </ul>
+    </div>
+  </article>
+
+  <footer>
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a class="logo" href="../">SleepWise<span>Reviews</span></a>
+        <p>Independent sleep research and honest product reviews since 2020. We test everything we recommend.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Circadian Rhythm</h4>
+        <ul>
+          <li><a href="sleep-chronotypes.html">Chronotypes</a></li>
+          <li><a href="circadian-rhythm-basics.html">Circadian Basics</a></li>
+          <li><a href="morning-lark-night-owl.html">Larks vs Owls</a></li>
+          <li><a href="sleep-consistency-importance.html">Sleep Consistency</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Products</h4>
+        <ul>
+          <li><a href="best-sunrise-alarm-clocks.html">Sunrise Alarms</a></li>
+          <li><a href="best-light-therapy-lamps.html">Light Therapy Lamps</a></li>
+          <li><a href="best-blackout-curtains.html">Blackout Curtains</a></li>
+          <li><a href="best-sleep-masks.html">Sleep Masks</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>About</h4>
+        <ul>
+          <li><a href="../pages/about.html">About Harry</a></li>
+          <li><a href="../pages/affiliate-disclosure.html">Affiliate Disclosure</a></li>
+          <li><a href="../pages/privacy-policy.html">Privacy Policy</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 SleepWiseReviews. All rights reserved.</span>
+      <span>Independent reviews. Affiliate links support our research.</span>
+    </div>
+  </footer>
+</body>
+</html>
