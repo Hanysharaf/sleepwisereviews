@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2026-03-23T16:45:23.552070+00:00",
+  "last_updated": "2026-03-24T06:52:28.402457+00:00",
   "description": "Pre-written content queue - NO API credits needed! Add more using Claude Code sessions.",
   "daily_tips": [
     {
@@ -90,7 +90,8 @@
     {
       "id": "tip_015",
       "content": "Lavender essential oil has been shown to improve sleep quality. Try a few drops on your pillow.",
-      "sent": false
+      "sent": true,
+      "sent_at": "2026-03-24T06:52:28.402440+00:00"
     },
     {
       "id": "tip_016",
