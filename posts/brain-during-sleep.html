@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>What Actually Happens to Your Brain While You Sleep - SleepWiseReviews</title>
+  <meta name="description" content="While you sleep, your brain literally washes itself clean of toxic waste. Miss this window and the damage accumulates. Here is what sleep science has discovered about the nightly brain maintenance cycle." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <style type='text/css'>
+    :root {
+      --night: #0A0E1A;
+      --deep: #0F1525;
+      --navy: #141B30;
+      --card: #1A2238;
+      --border: #252D45;
+      --gold: #C9A84C;
+      --gold-light: #E5C96A;
+      --gold-dim: rgba(201, 168, 76, 0.15);
+      --star: #F0E6C8;
+      --text: #D4DCEE;
+      --muted: #7A85A0;
+      --white: #FFFFFF;
+      --green: #4CAF82;
+    }
+
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: 'Outfit', sans-serif;
+      background: var(--night);
+      color: var(--text);
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      background-image:
+        radial-gradient(1px 1px at 10% 15%, rgba(240, 230, 200, 0.6) 0%, transparent 100%),
+        radial-gradient(1px 1px at 25% 40%, rgba(240, 230, 200, 0.4) 0%, transparent 100%),
+        radial-gradient(1.5px 1.5px at 40% 10%, rgba(240, 230, 200, 0.5) 0%, transparent 100%),
+        radial-gradient(1px 1px at 70% 5%, rgba(240, 230, 200, 0.6) 0%, transparent 100%),
+        radial-gradient(1.5px 1.5px at 80% 20%, rgba(240, 230, 200, 0.4) 0%, transparent 100%);
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    nav {
+      position: sticky; top: 0; z-index: 100;
+      background: rgba(10, 14, 26, 0.92);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+      padding: 0 6%; height: 68px;
+      display: flex; align-items: center; justify-content: space-between;
+    }
+    .logo { font-family: 'Cormorant Garamond', serif; font-size: 1.6rem; font-weight: 700; color: var(--star); text-decoration: none; }
+    .logo span { color: var(--gold); }
+    .nav-links { display: flex; gap: 2rem; list-style: none; }
+    .nav-links a { text-decoration: none; color: var(--muted); font-size: 0.88rem; font-weight: 500; transition: color 0.2s; }
+    .nav-links a:hover { color: var(--gold); }
+    .nav-cta { background: var(--gold-dim); color: var(--gold) !important; border: 1px solid rgba(201, 168, 76, 0.3); padding: 7px 16px; border-radius: 4px; }
+
+    .article-wrapper {
+      position: relative; z-index: 1;
+      max-width: 800px; margin: 0 auto; padding: 50px 6% 80px;
+    }
+    .article-meta-top { display: flex; flex-wrap: wrap; align-items: center; gap: 0.8rem; margin-bottom: 1.2rem; }
+    .tag { background: var(--gold); color: var(--night); padding: 5px 12px; border-radius: 4px; font-size: 0.72rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; }
+    .meta-text { color: var(--muted); font-size: 0.82rem; }
+    .article-wrapper h1 { font-family: 'Cormorant Garamond', serif; font-size: 2.4rem; font-weight: 600; color: var(--star); line-height: 1.2; margin-bottom: 1.2rem; }
+    .article-intro { font-size: 1.1rem; color: var(--text); line-height: 1.7; margin-bottom: 2rem; font-weight: 300; }
+    .author-box { display: flex; align-items: center; gap: 1rem; margin-bottom: 1.5rem; padding: 1rem; background: var(--card); border-radius: 8px; border: 1px solid var(--border); }
+    .author-avatar { font-size: 2.5rem; }
+    .author-name { color: var(--star); font-weight: 500; }
+    .author-name a { color: var(--gold); text-decoration: none; }
+    .author-role { color: var(--muted); font-size: 0.82rem; }
+    .article-wrapper h2 { font-family: 'Cormorant Garamond', serif; font-size: 1.6rem; font-weight: 600; color: var(--star); margin: 2.5rem 0 1rem; padding-top: 1rem; }
+    .article-wrapper h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.2rem; color: var(--star); margin: 1.5rem 0 0.8rem; }
+    .article-wrapper p { margin-bottom: 1rem; font-weight: 300; line-height: 1.8; }
+    .article-wrapper ul, .article-wrapper ol { margin: 1rem 0 1.5rem 1.5rem; }
+    .article-wrapper li { margin-bottom: 0.5rem; font-weight: 300; }
+    .callout { background: var(--card); border-left: 3px solid var(--gold); padding: 1rem 1.5rem; margin: 1.5rem 0; border-radius: 0 8px 8px 0; font-size: 0.92rem; }
+
+    .stage-timeline { display: grid; grid-template-columns: 1fr; gap: 0; margin: 2rem 0; }
+    .stage-block { display: flex; gap: 1.2rem; padding: 1.2rem; border-left: 2px solid var(--border); position: relative; }
+    .stage-block:first-child { border-top: 1px solid var(--border); border-radius: 8px 8px 0 0; }
+    .stage-block:last-child { border-radius: 0 0 8px 8px; }
+    .stage-block.active-stage { border-left-color: var(--gold); background: rgba(201,168,76,0.05); }
+    .stage-num { font-family: 'Cormorant Garamond', serif; font-size: 1.8rem; font-weight: 700; color: rgba(201,168,76,0.25); min-width: 40px; line-height: 1; }
+    .stage-num.gold { color: var(--gold); }
+    .stage-info { flex: 1; }
+    .stage-name { color: var(--star); font-weight: 500; margin-bottom: 0.3rem; }
+    .stage-time { color: var(--muted); font-size: 0.78rem; margin-bottom: 0.5rem; }
+    .stage-desc { color: var(--text); font-size: 0.88rem; font-weight: 300; line-height: 1.6; }
+
+    .brain-fact { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 1.5rem; margin: 1.5rem 0; }
+    .brain-fact-header { display: flex; align-items: center; gap: 0.8rem; margin-bottom: 0.8rem; }
+    .brain-fact-icon { font-size: 1.5rem; }
+    .brain-fact-title { font-family: 'Cormorant Garamond', serif; font-size: 1.1rem; color: var(--star); font-weight: 600; }
+    .brain-fact p { font-size: 0.9rem; color: var(--text); font-weight: 300; margin: 0; line-height: 1.7; }
+
+    .product-cta { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 1.5rem; margin: 2rem 0; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; }
+    .product-cta-text { color: var(--star); font-weight: 500; }
+    .btn-amazon { background: var(--gold); color: var(--night); text-decoration: none; padding: 10px 20px; border-radius: 6px; font-weight: 600; font-size: 0.88rem; transition: background 0.2s; white-space: nowrap; }
+    .btn-amazon:hover { background: var(--gold-light); }
+
+    .article-cta { background: linear-gradient(135deg, var(--card), var(--navy)); border: 1px solid var(--border); border-radius: 12px; padding: 2rem; text-align: center; margin: 3rem 0; }
+    .article-cta h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.4rem; color: var(--star); margin-bottom: 0.8rem; }
+    .article-cta p { color: var(--muted); margin-bottom: 1.2rem; }
+
+    .related-articles { margin: 3rem 0; }
+    .related-articles h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.3rem; color: var(--star); margin-bottom: 1rem; }
+    .related-articles ul { list-style: none; margin: 0; }
+    .related-articles li { margin-bottom: 0.6rem; }
+    .related-articles a { color: var(--gold); text-decoration: none; font-size: 0.95rem; }
+    .related-articles a:hover { text-decoration: underline; }
+
+    footer { background: #060912; border-top: 1px solid var(--border); padding: 50px 6% 30px; }
+    .footer-top { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 3rem; margin-bottom: 3rem; padding-bottom: 3rem; border-bottom: 1px solid var(--border); }
+    .footer-brand p { color: var(--muted); font-size: 0.82rem; margin-top: 0.8rem; line-height: 1.6; font-weight: 300; max-width: 260px; }
+    .footer-col h4 { font-size: 0.78rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--gold); margin-bottom: 1rem; }
+    .footer-col ul { list-style: none; display: flex; flex-direction: column; gap: 0.6rem; }
+    .footer-col a { color: var(--muted); text-decoration: none; font-size: 0.85rem; transition: color 0.2s; }
+    .footer-col a:hover { color: var(--gold); }
+    .footer-bottom { display: flex; justify-content: space-between; font-size: 0.78rem; color: var(--muted); flex-wrap: wrap; gap: 0.5rem; }
+
+    @media (max-width: 900px) {
+      .nav-links { display: none; }
+      .article-wrapper h1 { font-size: 1.8rem; }
+      .footer-top { grid-template-columns: 1fr 1fr; }
+      .product-cta { flex-direction: column; text-align: center; }
+    }
+  </style>
+</head>
+
+<body>
+  <nav>
+    <a class="logo" href="../">SleepWise<span>Reviews</span></a>
+    <ul class="nav-links">
+      <li><a href="../#picks">Top Picks</a></li>
+      <li><a href="../#reviews">Reviews</a></li>
+      <li><a href="../pages/about.html">About Harry</a></li>
+      <li><a href="../#newsletter" class="nav-cta">Free Sleep Guide</a></li>
+    </ul>
+  </nav>
+
+  <article class="article-wrapper">
+    <div class="article-meta-top">
+      <span class="tag">Sleep Science</span>
+      <span class="meta-text">📅 April 2025</span>
+      <span class="meta-text">·</span>
+      <span class="meta-text">⏱ 9 min read</span>
+      <span class="meta-text">·</span>
+      <span class="meta-text">🔄 Updated Mar 2026</span>
+    </div>
+
+    <h1>What Actually Happens to Your Brain While You Sleep</h1>
+    <p class="article-intro">While you sleep, your brain literally washes itself clean of toxic waste products. Miss this window and the damage accumulates over years. Here is what decades of sleep neuroscience have revealed about what your brain is actually doing during those 7–9 hours — and why none of it can happen while you are awake.</p>
+
+    <div class="author-box">
+      <div class="author-avatar">😴</div>
+      <div class="author-info">
+        <div class="author-name">By <a href="../pages/about.html">Harry Soul</a> — SleepWiseReviews</div>
+        <div class="author-role">Independent Sleep Researcher · Updated March 2026</div>
+      </div>
+    </div>
+
+    <h2>Sleep Is Not a Passive State</h2>
+    <p>The most important thing to understand about sleep is that it is not rest. It is not your body and brain powering down. In <em>Why We Sleep</em>, neuroscientist Matthew Walker describes sleep as "an intensely neurologically active state" — one that performs functions so critical that evolution has conserved it across every species that has been studied, including creatures with very simple nervous systems. "No aspect of our biology is left unscathed by sleep deprivation," Walker writes (Walker, 2017).</p>
+
+    <p>What your brain does while you sleep falls into several distinct categories, each occurring at different stages of the sleep cycle. Understanding these stages is not just academic — it explains why 6 hours feels so different from 8, and why the timing and continuity of sleep matters as much as the total duration.</p>
+
+    <h2>The Four Stages of Sleep: What Your Brain Does in Each</h2>
+
+    <div class="stage-timeline">
+      <div class="stage-block">
+        <div class="stage-num">N1</div>
+        <div class="stage-info">
+          <div class="stage-name">Stage 1 — Light Sleep Transition (1–7 minutes)</div>
+          <div class="stage-time">Occurs: First minutes of each sleep cycle · ~5% of total sleep time</div>
+          <div class="stage-desc">The transition from wakefulness to sleep. Alpha brain waves give way to theta waves. Muscle activity slows. You may experience hypnic jerks — sudden muscle contractions that feel like falling. Easy to wake from, minimal sleep benefit if cut short.</div>
+        </div>
+      </div>
+      <div class="stage-block">
+        <div class="stage-num">N2</div>
+        <div class="stage-info">
+          <div class="stage-name">Stage 2 — True Light Sleep (10–25 minutes)</div>
+          <div class="stage-time">Occurs: Throughout night · ~50% of total sleep time</div>
+          <div class="stage-desc">Sleep spindles — brief bursts of brain activity — appear. These spindles are associated with memory consolidation and motor learning. Body temperature drops, heart rate slows. Despite being called "light," Stage 2 performs critical maintenance functions, particularly in the second half of the night when it dominates.</div>
+        </div>
+      </div>
+      <div class="stage-block active-stage">
+        <div class="stage-num gold">N3</div>
+        <div class="stage-info">
+          <div class="stage-name">Stage 3 — Deep Sleep / Slow-Wave Sleep (20–40 minutes)</div>
+          <div class="stage-time">Occurs: Primarily in first half of night · ~15–20% of total sleep time</div>
+          <div class="stage-desc">The most physically restorative stage. Delta waves dominate. Growth hormone is released. Immune function is consolidated. The glymphatic system activates fully. This is the stage most affected by alcohol, aging, and late-night eating. Cutting sleep short eliminates this stage disproportionately because it is concentrated early in the night.</div>
+        </div>
+      </div>
+      <div class="stage-block active-stage">
+        <div class="stage-num gold">REM</div>
+        <div class="stage-info">
+          <div class="stage-name">REM Sleep — Rapid Eye Movement (10–60 minutes per cycle)</div>
+          <div class="stage-time">Occurs: Primarily in second half of night · ~20–25% of total sleep time</div>
+          <div class="stage-desc">The brain is almost as active as waking. Emotional memories are reprocessed. Creative connections form between distant ideas. The body is temporarily paralyzed to prevent acting out dreams. REM periods lengthen across the night — the final 90-minute cycle contains up to 60 minutes of REM. Waking up 2 hours early eliminates nearly half of total REM sleep.</div>
+        </div>
+      </div>
+    </div>
+
+    <h2>The Glymphatic System: Your Brain's Overnight Cleaning Service</h2>
+    <p>One of the most significant sleep science discoveries of the past two decades was published in 2013 by researchers at the University of Rochester: the brain has its own waste clearance system that operates almost exclusively during sleep. This system, called the glymphatic system (after the glial cells that power it), works by allowing cerebrospinal fluid to flow through channels in brain tissue, flushing out metabolic byproducts.</p>
+
+    <p>The most important waste product it removes is amyloid beta — the protein that accumulates in the brains of Alzheimer's patients. During deep sleep, brain cells actually shrink by up to 60%, allowing cerebrospinal fluid to flow more freely through the spaces between them. During wakefulness, the glymphatic system is almost completely inactive. Walker describes this as "a dishwasher turning on only at night — and if you cut the cycle short, the dirty dishes accumulate" (Walker, 2017).</p>
+
+    <div class="brain-fact">
+      <div class="brain-fact-header">
+        <div class="brain-fact-icon">🧠</div>
+        <div class="brain-fact-title">The Amyloid Connection</div>
+      </div>
+      <p>A single night of sleep deprivation causes measurable increases in amyloid beta accumulation in the human brain, visible on PET scans within 24 hours. Chronic short sleep (under 6 hours) is now considered one of the most significant modifiable risk factors for Alzheimer's disease — not just a symptom of the condition, but a potential cause.</p>
+    </div>
+
+    <h2>Memory Consolidation: What Happens to What You Learned Today</h2>
+    <p>During wakefulness, new memories are stored temporarily in the hippocampus — a region with limited capacity. Sleep performs the critical process of transferring these memories from the hippocampus to the prefrontal cortex, where long-term storage occurs. This transfer happens primarily during slow-wave sleep (deep sleep) in the early part of the night.</p>
+
+    <p>Stage 2 sleep spindles play a specific role here: they appear to "package" memories and shuttle them between brain regions. Research has shown that the density of sleep spindles during a night predicts next-day memory performance better than total sleep duration alone. This is why a disrupted night — even if the total hours look adequate — often produces measurable memory impairment.</p>
+
+    <h3>Procedural vs Declarative Memory</h3>
+    <p>Different types of memory rely on different sleep stages. Declarative memory — facts, events, information you can consciously recall — is consolidated primarily during slow-wave deep sleep. Procedural memory — motor skills, sequences, the kind of learning that happens when you practice an instrument or a sport — is consolidated primarily during REM sleep and Stage 2 sleep spindles. This is why musicians and athletes who cut sleep short often plateau in ways that additional practice cannot fix.</p>
+
+    <h2>Emotional Regulation: The Overnight Therapy Hypothesis</h2>
+    <p>Walker uses the term "overnight therapy" to describe one of REM sleep's most important functions: the reprocessing of emotionally charged memories. During REM sleep, the noradrenaline (norepinephrine) system — which drives the stress and anxiety response during waking — is essentially shut down. Your brain is able to replay emotionally charged memories in a neurochemical environment stripped of the stress response.</p>
+
+    <p>This is why people often say they "feel better about something" after sleeping on it. It is not just psychological distance — it is a biological process. People deprived of REM sleep specifically (as happens with alcohol, certain antidepressants, and very early wake times) lose this emotional regulation function and show measurably heightened amygdala reactivity to neutral stimuli the next day.</p>
+
+    <div class="brain-fact">
+      <div class="brain-fact-header">
+        <div class="brain-fact-icon">💭</div>
+        <div class="brain-fact-title">Why Dreams Feel Real</div>
+      </div>
+      <p>During REM sleep, the brain's primary sensory cortex and motor cortex are both active, but the prefrontal cortex — responsible for rational evaluation and reality testing — is largely offline. This is why dreams feel completely real while you are in them. The brain is generating a fully convincing simulation with its critical filter turned off.</p>
+    </div>
+
+    <h2>Growth Hormone and Physical Repair</h2>
+    <p>The pituitary gland releases approximately 70–80% of the body's daily growth hormone output during the first few hours of deep sleep. Growth hormone drives tissue repair, muscle growth, immune cell production, and metabolic regulation. This is why sleep deprivation impairs recovery from exercise, illness, and injury — the repair window simply does not open fully.</p>
+
+    <p>This is also why growth hormone supplements that claim to "mimic sleep benefits" are biologically implausible. The hormone is not what initiates the repair process — the entire metabolic state of deep sleep is what makes growth hormone release therapeutic. Injecting the hormone without the associated deep sleep physiology does not replicate the effect.</p>
+
+    <h2>What the First Cycle vs the Last Cycle Contains</h2>
+    <p>Sleep cycles last approximately 90 minutes each, and a full night contains 4–6 complete cycles. The composition of each cycle changes across the night in predictable ways:</p>
+    <ul>
+      <li><strong>First 2 cycles (first ~3 hours):</strong> Dominated by deep slow-wave sleep (N3). This is when growth hormone peaks and the glymphatic system is most active. Going to bed late compresses or eliminates these cycles.</li>
+      <li><strong>Middle cycles (hours 3–5):</strong> Mixture of light sleep, deep sleep, and growing REM periods. Both memory systems are active.</li>
+      <li><strong>Final cycles (hours 6–8):</strong> Dominated by REM sleep, which lengthens dramatically. The final cycle may contain 45–60 minutes of uninterrupted REM. Waking 2 hours early can eliminate up to 50% of total REM sleep.</li>
+    </ul>
+
+    <div class="callout">💡 <strong>The practical implication:</strong> Going to bed late and waking at a normal time cuts deep sleep. Going to bed on time but waking early cuts REM sleep. Both are bad — but for different reasons. Consistent, full-length sleep is the only way to get adequate amounts of both critical stages.</div>
+
+    <h2>Adenosine: The Sleep Pressure System</h2>
+    <p>Every hour you are awake, your brain accumulates adenosine — a byproduct of neural activity that gradually creates the feeling of sleepiness. This adenosine accumulation is called sleep pressure, and it is the biological mechanism that makes you progressively drowsier throughout the day. When you sleep, your brain clears adenosine, resetting the pressure to zero.</p>
+
+    <p>Caffeine does not reduce sleep pressure — it blocks the adenosine receptors so you cannot feel how tired you are. The adenosine is still accumulating behind the blockade. When caffeine wears off (its half-life is 5–7 hours), the accumulated adenosine floods the receptors simultaneously, causing the "crash." And the adenosine that was not cleared during a caffeine-shortened night will compound the next night's sleep pressure, creating a cycle of debt and compensation.</p>
+
+    <h2>Why You Cannot Skip Sleep and Make It Up</h2>
+    <p>The glymphatic cleaning cycle, growth hormone release, REM emotional processing, and memory consolidation are all time-dependent processes that operate within specific windows. You cannot do them faster, and you cannot reschedule them to the weekend. Walker summarizes the blunt reality: "There is no biological mechanism for making up missed sleep" (Walker, 2017). Recovery sleep reduces some of the acute impairment, but metabolic and cellular damage that accumulated during deprivation does not fully reverse.</p>
+
+    <div class="product-cta">
+      <div class="product-cta-text">Protect your brain's cleaning cycle: blackout curtains help you stay asleep through the full deep sleep window.</div>
+      <a class="btn-amazon" href="best-blackout-curtains.html">See Our Blackout Curtains Guide →</a>
+    </div>
+
+    <div class="article-cta">
+      <h3>Want to understand your own sleep cycles?</h3>
+      <p>Our guide to sleep stages explains the full architecture of a healthy night in plain language — and what disrupts each stage specifically.</p>
+      <a class="btn-amazon" href="sleep-stages-explained.html">Read the Sleep Stages Guide →</a>
+    </div>
+
+    <div class="related-articles">
+      <h3>Related Articles</h3>
+      <ul>
+        <li><a href="sleep-stages-explained.html">Understanding Sleep Stages: A Complete Guide</a></li>
+        <li><a href="deep-sleep-benefits.html">What Deep Sleep Actually Does: Stage 3 Science Explained</a></li>
+        <li><a href="rem-sleep-benefits.html">REM Sleep: Why Your Brain Needs It Every Single Night</a></li>
+        <li><a href="sleep-and-alzheimers.html">Sleep and Alzheimer's Risk: What the Research Really Shows</a></li>
+        <li><a href="sleep-memory-learning.html">Sleep and Memory: Why Studying Before Bed Actually Works</a></li>
+      </ul>
+    </div>
+  </article>
+
+  <footer>
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a class="logo" href="../">SleepWise<span>Reviews</span></a>
+        <p>Independent sleep research and honest product reviews since 2020. We test everything we recommend.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Science</h4>
+        <ul>
+          <li><a href="sleep-stages-explained.html">Sleep Stages</a></li>
+          <li><a href="rem-sleep-benefits.html">REM Sleep</a></li>
+          <li><a href="deep-sleep-benefits.html">Deep Sleep</a></li>
+          <li><a href="sleep-memory-learning.html">Sleep & Memory</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Optimize</h4>
+        <ul>
+          <li><a href="wind-down-routine.html">Wind-Down Routine</a></li>
+          <li><a href="sleep-environment-optimization.html">Sleep Environment</a></li>
+          <li><a href="best-blackout-curtains.html">Blackout Curtains</a></li>
+          <li><a href="caffeine-half-life-sleep.html">Caffeine & Sleep</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>About</h4>
+        <ul>
+          <li><a href="../pages/about.html">About Harry</a></li>
+          <li><a href="../pages/affiliate-disclosure.html">Affiliate Disclosure</a></li>
+          <li><a href="../pages/privacy-policy.html">Privacy Policy</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 SleepWiseReviews. All rights reserved.</span>
+      <span>Independent reviews. Affiliate links support our research.</span>
+    </div>
+  </footer>
+</body>
+</html>
