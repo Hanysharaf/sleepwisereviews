@@ -77,11 +77,12 @@
       position: sticky;
       top: 0;
       z-index: 100;
-      background: rgba(10, 14, 26, 0.92);
-      backdrop-filter: blur(12px);
-      border-bottom: 1px solid var(--border);
+      background: transparent;
+      backdrop-filter: blur(0px);
+      border-bottom: 1px solid transparent;
       padding: 0 6%;
       height: 68px;
+      transition: background 0.3s ease, backdrop-filter 0.3s ease, border-color 0.3s ease;
       display: flex;
       align-items: center;
       justify-content: space-between;
@@ -401,6 +402,48 @@
       border-color: var(--gold);
     }
 
+    /* BACK TO TOP */
+    #back-top {
+      position: fixed;
+      bottom: 2rem;
+      right: 2rem;
+      width: 44px;
+      height: 44px;
+      border-radius: 50%;
+      background: var(--card);
+      border: 1px solid rgba(201,168,76,0.35);
+      color: var(--gold);
+      font-size: 1.2rem;
+      cursor: pointer;
+      opacity: 0;
+      pointer-events: none;
+      transition: opacity 0.3s, transform 0.2s;
+      z-index: 500;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    #back-top:hover { transform: translateY(-3px); }
+
+    /* READING PROGRESS */
+    #read-progress {
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 3px;
+      width: 0%;
+      background: linear-gradient(90deg, var(--gold), var(--gold-light));
+      z-index: 1001;
+      transition: width 0.1s linear;
+    }
+
+    /* NAV SCROLLED STATE */
+    nav.scrolled {
+      background: rgba(10, 14, 26, 0.92);
+      backdrop-filter: blur(14px);
+      border-bottom: 1px solid rgba(201, 168, 76, 0.15);
+    }
+
     /* CAROUSEL */
     .carousel-wrapper { position: relative; }
     .carousel-track {
@@ -460,8 +503,8 @@
       flex-shrink: 0;
     }
     .article-card.featured {
-      min-width: 340px;
-      max-width: 340px;
+      min-width: 300px;
+      max-width: 300px;
     }
 
     .article-card:hover {
@@ -576,11 +619,15 @@
       transform: translateY(-3px);
     }
 
+    .picks-grid .pick-card:nth-child(1) { border-top: 3px solid #C9A84C; }
+    .picks-grid .pick-card:nth-child(2) { border-top: 3px solid #9DA5B4; }
+    .picks-grid .pick-card:nth-child(3) { border-top: 3px solid #C4874A; }
+
     .pick-rank {
       font-family: 'Cormorant Garamond', serif;
       font-size: 2.5rem;
       font-weight: 700;
-      color: var(--border);
+      color: rgba(201,168,76,0.25);
       line-height: 1;
       min-width: 44px;
     }
@@ -797,8 +844,15 @@
     }
 
     .trust-icon {
-      font-size: 2rem;
-      margin-bottom: 0.8rem;
+      width: 52px;
+      height: 52px;
+      background: rgba(201,168,76,0.1);
+      border: 1px solid rgba(201,168,76,0.2);
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 1rem;
     }
 
     .trust-title {
@@ -1130,12 +1184,16 @@
       width: 48px;
       height: 48px;
       border-radius: 50%;
-      background: linear-gradient(135deg, var(--gold), var(--gold-light));
+      background: linear-gradient(135deg, #1a2238, #252d45);
       display: flex;
       align-items: center;
       justify-content: center;
-      font-size: 1.2rem;
-      border: 2px solid var(--gold);
+      font-size: 1rem;
+      font-weight: 700;
+      color: var(--gold);
+      border: 2px solid rgba(201,168,76,0.4);
+      letter-spacing: 0.02em;
+      flex-shrink: 0;
     }
 
     .testimonial-info {
@@ -1376,6 +1434,11 @@
         document.getElementById('navLinks').classList.remove('active');
       });
     });
+    // Nav glass on scroll
+    const mainNav = document.querySelector('nav');
+    window.addEventListener('scroll', () => {
+      mainNav.classList.toggle('scrolled', window.scrollY > 60);
+    }, { passive: true });
   </script>
 
     <div class="homepage-only">
@@ -1517,10 +1580,38 @@
               <div class="article-body">
                 <span class="article-tag">White Noise</span>
                 <div class="article-title">7 Best White Noise Machines That Actually Block Sound</div>
-                <div class="article-excerpt">Most white noise machines just add noise. These ones actually mask sound.
-                  Big
-                  difference if you're a light sleeper.</div>
+                <div class="article-excerpt">Most white noise machines just add noise. These ones actually mask sound. Big difference if you're a light sleeper.</div>
                 <div class="article-meta"><span>📅 Feb 2025</span> · <span>⏱ 5 min</span></div>
+              </div>
+            </a>
+
+            <a class="article-card" href="posts/blue-light-melatonin.html">
+              <div class="article-thumb">💡</div>
+              <div class="article-body">
+                <span class="article-tag">Sleep Science</span>
+                <div class="article-title">Blue Light & Melatonin: What Time to Stop Screens</div>
+                <div class="article-excerpt">Science-backed cutoff times for phones, TV, and laptops — and what actually works when you can't avoid screens before bed.</div>
+                <div class="article-meta"><span>📅 Mar 2025</span> · <span>⏱ 6 min</span></div>
+              </div>
+            </a>
+
+            <a class="article-card" href="posts/bedroom-temperature-sleep.html">
+              <div class="article-thumb">🌡️</div>
+              <div class="article-body">
+                <span class="article-tag">Environment</span>
+                <div class="article-title">The Ideal Bedroom Temperature for Deep Sleep</div>
+                <div class="article-excerpt">Research shows temperature is one of the biggest levers for sleep quality. The number surprises most people.</div>
+                <div class="article-meta"><span>📅 Mar 2025</span> · <span>⏱ 5 min</span></div>
+              </div>
+            </a>
+
+            <a class="article-card" href="posts/sleep-stages-explained.html">
+              <div class="article-thumb">🌙</div>
+              <div class="article-body">
+                <span class="article-tag">Education</span>
+                <div class="article-title">Sleep Stages Explained: Why REM Isn't Enough</div>
+                <div class="article-excerpt">Understanding the 4 sleep stages changes how you think about sleep quality — and why you can wake up tired after 8 hours.</div>
+                <div class="article-meta"><span>📅 Mar 2025</span> · <span>⏱ 7 min</span></div>
               </div>
             </a>
           </div>
@@ -1638,28 +1729,28 @@
           <div class="section-title">Why Trust SleepWiseReviews?</div>
           <div class="trust-grid">
             <div class="trust-card">
-              <div class="trust-icon">🔬</div>
+              <div class="trust-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#C9A84C" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M9 3H5a2 2 0 0 0-2 2v4m6-6h10a2 2 0 0 1 2 2v4M9 3v18m0 0h10a2 2 0 0 0 2-2v-4M9 21H5a2 2 0 0 1-2-2v-4m0 0h18"/></svg></div>
               <div class="trust-title">Research First</div>
               <div class="trust-desc">Every recommendation is backed by sleep science studies and real-world testing —
                 not
                 just manufacturer claims.</div>
             </div>
             <div class="trust-card">
-              <div class="trust-icon">💬</div>
+              <div class="trust-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#C9A84C" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"/></svg></div>
               <div class="trust-title">Real User Data</div>
               <div class="trust-desc">We collect feedback from our readers after purchase to ensure our recommendations
                 hold
                 up in real life.</div>
             </div>
             <div class="trust-card">
-              <div class="trust-icon">🚫</div>
+              <div class="trust-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#C9A84C" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/><line x1="9" y1="12" x2="15" y2="12"/></svg></div>
               <div class="trust-title">No Paid Reviews</div>
               <div class="trust-desc">We never accept payment for positive reviews. Brands can send products for testing
                 but
                 cannot influence our ratings.</div>
             </div>
             <div class="trust-card">
-              <div class="trust-icon">🔄</div>
+              <div class="trust-icon"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#C9A84C" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><polyline points="23 4 23 10 17 10"/><polyline points="1 20 1 14 7 14"/><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"/></svg></div>
               <div class="trust-title">Regularly Updated</div>
               <div class="trust-desc">Every guide is reviewed and updated quarterly. You'll never find outdated
                 recommendations here.</div>
@@ -1683,7 +1774,7 @@
               <div class="testimonial-stars">★★★★★</div>
               <div class="testimonial-text">I was skeptical about weighted blankets until I read Harry's guide. Bought the Bearaby based on his recommendation and I'm falling asleep 20 minutes faster. Best purchase I've made for my sleep.</div>
               <div class="testimonial-author">
-                <div class="testimonial-avatar">👩</div>
+                <div class="testimonial-avatar">SM</div>
                 <div class="testimonial-info">
                   <div class="testimonial-name">Sarah M.</div>
                   <div class="testimonial-context">Light sleeper · Austin, TX</div>
@@ -1696,7 +1787,7 @@
               <div class="testimonial-stars">★★★★★</div>
               <div class="testimonial-text">Finally, a review site that actually tests products. The magnesium glycinate recommendation changed my sleep quality dramatically. I wake up feeling refreshed for the first time in years.</div>
               <div class="testimonial-author">
-                <div class="testimonial-avatar">👨</div>
+                <div class="testimonial-avatar">MR</div>
                 <div class="testimonial-info">
                   <div class="testimonial-name">Michael R.</div>
                   <div class="testimonial-context">Shift worker · Chicago, IL</div>
@@ -1709,7 +1800,7 @@
               <div class="testimonial-stars">★★★★★</div>
               <div class="testimonial-text">The LectroFan recommendation was spot-on. Living in NYC, outside noise was killing my sleep. This machine actually masks the sounds instead of just adding more noise. Game changer.</div>
               <div class="testimonial-author">
-                <div class="testimonial-avatar">👩</div>
+                <div class="testimonial-avatar">JL</div>
                 <div class="testimonial-info">
                   <div class="testimonial-name">Jennifer L.</div>
                   <div class="testimonial-context">City dweller · New York, NY</div>
@@ -1722,7 +1813,7 @@
               <div class="testimonial-stars">★★★★☆</div>
               <div class="testimonial-text">I appreciate that Harry doesn't just recommend the most expensive products. The Alaska Bear sleep mask he suggested is only $16 and works better than the $50 one I used to have.</div>
               <div class="testimonial-author">
-                <div class="testimonial-avatar">👨</div>
+                <div class="testimonial-avatar">DK</div>
                 <div class="testimonial-info">
                   <div class="testimonial-name">David K.</div>
                   <div class="testimonial-context">Budget-conscious · Denver, CO</div>
@@ -1735,7 +1826,7 @@
               <div class="testimonial-stars">★★★★★</div>
               <div class="testimonial-text">The Oura Ring recommendation was perfect for someone like me who wants data. Now I can actually see how my sleep habits affect my recovery. The insights are worth every penny.</div>
               <div class="testimonial-author">
-                <div class="testimonial-avatar">👩</div>
+                <div class="testimonial-avatar">AT</div>
                 <div class="testimonial-info">
                   <div class="testimonial-name">Amanda T.</div>
                   <div class="testimonial-context">Fitness enthusiast · Seattle, WA</div>
@@ -1748,7 +1839,7 @@
               <div class="testimonial-stars">★★★★★</div>
               <div class="testimonial-text">Been following SleepWiseReviews for two years now. Every product recommendation has been solid. It's refreshing to find honest reviews that aren't just paid advertisements.</div>
               <div class="testimonial-author">
-                <div class="testimonial-avatar">👨</div>
+                <div class="testimonial-avatar">RH</div>
                 <div class="testimonial-info">
                   <div class="testimonial-name">Robert H.</div>
                   <div class="testimonial-context">Long-time reader · Portland, OR</div>
@@ -2173,7 +2264,7 @@
           entry.target.classList.add('visible');
         }
       });
-    }, { threshold: 0.12 });
+    }, { threshold: 0.05, rootMargin: '0px 0px -30px 0px' });
     document.querySelectorAll('.reveal').forEach((el, i) => {
       el.classList.add('reveal-d' + Math.min((i % 8) + 1, 8));
       revealObserver.observe(el);
@@ -2209,7 +2300,26 @@
       const cardWidth = card.offsetWidth + 12;
       track.scrollBy({ left: dir * cardWidth * 2, behavior: 'smooth' });
     }
+
+    // Back to top
+    const backTop = document.getElementById('back-top');
+    window.addEventListener('scroll', () => {
+      backTop.style.opacity = window.scrollY > 400 ? '1' : '0';
+      backTop.style.pointerEvents = window.scrollY > 400 ? 'auto' : 'none';
+    }, { passive: true });
+    backTop.addEventListener('click', () => window.scrollTo({ top: 0, behavior: 'smooth' }));
+
+    // Reading progress bar (article pages only)
+    if (window.location.pathname.includes('/posts/')) {
+      const bar = document.getElementById('read-progress');
+      window.addEventListener('scroll', () => {
+        const total = document.documentElement.scrollHeight - window.innerHeight;
+        bar.style.width = (window.scrollY / total * 100) + '%';
+      }, { passive: true });
+    }
   </script>
+  <button id="back-top" aria-label="Back to top">↑</button>
+  <div id="read-progress"></div>
 </body>
 
 </html>
