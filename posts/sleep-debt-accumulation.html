@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>How Sleep Debt Accumulates (And Why You Can't Just Sleep It Off) - SleepWiseReviews</title>
+  <meta name="description" content="Scientists originally thought sleep debt was like a bank account. It isn't — and that misconception has real consequences for your health, performance, and recovery." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <style type='text/css'>
+    :root {
+      --night: #0A0E1A;
+      --deep: #0F1525;
+      --navy: #141B30;
+      --card: #1A2238;
+      --border: #252D45;
+      --gold: #C9A84C;
+      --gold-light: #E5C96A;
+      --gold-dim: rgba(201, 168, 76, 0.15);
+      --star: #F0E6C8;
+      --text: #D4DCEE;
+      --muted: #7A85A0;
+      --white: #FFFFFF;
+      --green: #4CAF82;
+    }
+
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: 'Outfit', sans-serif;
+      background: var(--night);
+      color: var(--text);
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      background-image:
+        radial-gradient(1px 1px at 10% 15%, rgba(240, 230, 200, 0.6) 0%, transparent 100%),
+        radial-gradient(1px 1px at 25% 40%, rgba(240, 230, 200, 0.4) 0%, transparent 100%),
+        radial-gradient(1.5px 1.5px at 40% 10%, rgba(240, 230, 200, 0.5) 0%, transparent 100%),
+        radial-gradient(1px 1px at 55% 30%, rgba(240, 230, 200, 0.3) 0%, transparent 100%),
+        radial-gradient(1px 1px at 70% 5%, rgba(240, 230, 200, 0.6) 0%, transparent 100%),
+        radial-gradient(1.5px 1.5px at 80% 20%, rgba(240, 230, 200, 0.4) 0%, transparent 100%),
+        radial-gradient(1px 1px at 90% 45%, rgba(240, 230, 200, 0.3) 0%, transparent 100%);
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    nav {
+      position: sticky; top: 0; z-index: 100;
+      background: rgba(10, 14, 26, 0.92);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+      padding: 0 6%; height: 68px;
+      display: flex; align-items: center; justify-content: space-between;
+    }
+    .logo { font-family: 'Cormorant Garamond', serif; font-size: 1.6rem; font-weight: 700; color: var(--star); text-decoration: none; }
+    .logo span { color: var(--gold); }
+    .nav-links { display: flex; gap: 2rem; list-style: none; }
+    .nav-links a { text-decoration: none; color: var(--muted); font-size: 0.88rem; font-weight: 500; transition: color 0.2s; }
+    .nav-links a:hover { color: var(--gold); }
+    .nav-cta { background: var(--gold-dim); color: var(--gold) !important; border: 1px solid rgba(201, 168, 76, 0.3); padding: 7px 16px; border-radius: 4px; }
+
+    .article-wrapper {
+      position: relative; z-index: 1;
+      max-width: 800px; margin: 0 auto; padding: 50px 6% 80px;
+    }
+    .article-meta-top { display: flex; flex-wrap: wrap; align-items: center; gap: 0.8rem; margin-bottom: 1.2rem; }
+    .tag { background: var(--gold); color: var(--night); padding: 5px 12px; border-radius: 4px; font-size: 0.72rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; }
+    .meta-text { color: var(--muted); font-size: 0.82rem; }
+    .article-wrapper h1 { font-family: 'Cormorant Garamond', serif; font-size: 2.4rem; font-weight: 600; color: var(--star); line-height: 1.2; margin-bottom: 1.2rem; }
+    .article-intro { font-size: 1.1rem; color: var(--text); line-height: 1.7; margin-bottom: 2rem; font-weight: 300; }
+    .author-box { display: flex; align-items: center; gap: 1rem; margin-bottom: 1.5rem; padding: 1rem; background: var(--card); border-radius: 8px; border: 1px solid var(--border); }
+    .author-avatar { font-size: 2.5rem; }
+    .author-name { color: var(--star); font-weight: 500; }
+    .author-name a { color: var(--gold); text-decoration: none; }
+    .author-role { color: var(--muted); font-size: 0.82rem; }
+    .disclosure-box { background: rgba(201, 168, 76, 0.08); border: 1px solid rgba(201, 168, 76, 0.2); border-radius: 8px; padding: 1rem 1.2rem; font-size: 0.82rem; color: var(--muted); margin-bottom: 2rem; }
+    .article-wrapper h2 { font-family: 'Cormorant Garamond', serif; font-size: 1.6rem; font-weight: 600; color: var(--star); margin: 2.5rem 0 1rem; padding-top: 1rem; }
+    .article-wrapper h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.2rem; color: var(--star); margin: 1.5rem 0 0.8rem; }
+    .article-wrapper p { margin-bottom: 1rem; font-weight: 300; line-height: 1.8; }
+    .article-wrapper ul, .article-wrapper ol { margin: 1rem 0 1.5rem 1.5rem; }
+    .article-wrapper li { margin-bottom: 0.5rem; font-weight: 300; }
+    .callout { background: var(--card); border-left: 3px solid var(--gold); padding: 1rem 1.5rem; margin: 1.5rem 0; border-radius: 0 8px 8px 0; font-size: 0.92rem; }
+    .callout-green { background: var(--card); border-left: 3px solid var(--green); padding: 1rem 1.5rem; margin: 1.5rem 0; border-radius: 0 8px 8px 0; font-size: 0.92rem; }
+
+    .product-cta { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 1.5rem; margin: 2rem 0; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; }
+    .product-cta-text { color: var(--star); font-weight: 500; }
+    .btn-amazon { background: var(--gold); color: var(--night); text-decoration: none; padding: 10px 20px; border-radius: 6px; font-weight: 600; font-size: 0.88rem; transition: background 0.2s; }
+    .btn-amazon:hover { background: var(--gold-light); }
+
+    .article-cta { background: linear-gradient(135deg, var(--card), var(--navy)); border: 1px solid var(--border); border-radius: 12px; padding: 2rem; text-align: center; margin: 3rem 0; }
+    .article-cta h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.4rem; color: var(--star); margin-bottom: 0.8rem; }
+    .article-cta p { color: var(--muted); margin-bottom: 1.2rem; }
+
+    .related-articles { margin: 3rem 0; }
+    .related-articles h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.3rem; color: var(--star); margin-bottom: 1rem; }
+    .related-articles ul { list-style: none; margin: 0; }
+    .related-articles li { margin-bottom: 0.6rem; }
+    .related-articles a { color: var(--gold); text-decoration: none; font-size: 0.95rem; }
+    .related-articles a:hover { text-decoration: underline; }
+
+    footer { background: #060912; border-top: 1px solid var(--border); padding: 50px 6% 30px; }
+    .footer-top { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 3rem; margin-bottom: 3rem; padding-bottom: 3rem; border-bottom: 1px solid var(--border); }
+    .footer-brand p { color: var(--muted); font-size: 0.82rem; margin-top: 0.8rem; line-height: 1.6; font-weight: 300; max-width: 260px; }
+    .footer-col h4 { font-size: 0.78rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--gold); margin-bottom: 1rem; }
+    .footer-col ul { list-style: none; display: flex; flex-direction: column; gap: 0.6rem; }
+    .footer-col a { color: var(--muted); text-decoration: none; font-size: 0.85rem; transition: color 0.2s; }
+    .footer-col a:hover { color: var(--gold); }
+    .footer-bottom { display: flex; justify-content: space-between; font-size: 0.78rem; color: var(--muted); flex-wrap: wrap; gap: 0.5rem; }
+    .affiliate-disc { font-size: 0.75rem; max-width: 600px; }
+
+    @media (max-width: 900px) {
+      .nav-links { display: none; }
+      .article-wrapper h1 { font-size: 1.8rem; }
+      .footer-top { grid-template-columns: 1fr 1fr; }
+      .product-cta { flex-direction: column; text-align: center; }
+    }
+  </style>
+</head>
+
+<body>
+  <nav>
+    <a class="logo" href="../">SleepWise<span>Reviews</span></a>
+    <ul class="nav-links">
+      <li><a href="../#picks">Top Picks</a></li>
+      <li><a href="../#reviews">Reviews</a></li>
+      <li><a href="../pages/about.html">About Harry</a></li>
+      <li><a href="../#newsletter" class="nav-cta">Free Sleep Guide</a></li>
+    </ul>
+  </nav>
+
+  <article class="article-wrapper">
+    <div class="article-meta-top">
+      <span class="tag">Sleep Science</span>
+      <span class="meta-text">📅 December 2023</span>
+      <span class="meta-text">·</span>
+      <span class="meta-text">⏱ 8 min read</span>
+      <span class="meta-text">·</span>
+      <span class="meta-text">🔄 Updated Mar 2026</span>
+    </div>
+    <h1>How Sleep Debt Accumulates (And Why You Can't Just Sleep It Off)</h1>
+    <p class="article-intro">Scientists originally thought sleep debt was like a bank account. It isn't — and that misconception has consequences for every person who sacrifices sleep Monday through Friday and hopes the weekend will fix it.</p>
+
+    <div class="author-box">
+      <div class="author-avatar">😴</div>
+      <div class="author-info">
+        <div class="author-name">By <a href="../pages/about.html">Harry Soul</a> - SleepWiseReviews</div>
+        <div class="author-role">Independent Sleep Researcher - December 2023</div>
+      </div>
+    </div>
+
+    <div class="disclosure-box">
+      <strong>Affiliate Disclosure:</strong> This article contains affiliate links. We earn a small commission if you purchase through our links at no extra cost to you. <a href="../pages/affiliate-disclosure.html" style="color:var(--gold)">Full disclosure</a>
+    </div>
+
+    <h2>The Bank Account Model: Appealing, But Wrong</h2>
+    <p>The idea is seductive in its simplicity: sleep is a resource you draw from each night. Skip an hour here, cut back a night there, and you accumulate a deficit — a debt. Then, when opportunity allows, you deposit extra sleep to square the ledger. Balanced. Done.</p>
+    <p>This mental model has been reinforced by decades of casual observation. People do feel better after sleeping in. They do feel worse after pulling an all-nighter. So the bank account metaphor seems like a reasonable approximation of reality. For a generation of researchers and laypeople alike, it was the dominant framework for thinking about sleep loss.</p>
+    <p>As Dr. William Dement explains in <em>The Promise of Sleep</em> (1999), the concept of sleep debt was originally introduced to help people take their sleep deficits seriously — to understand that skipping sleep isn't neutral, that there is a real biological cost accumulating in the body. In that respect, the metaphor served a purpose. But the banking analogy breaks down critically when you start asking: how exactly is the debt repaid? And what damage is done in the meantime?</p>
+    <p>The answer to both questions is far more troubling than a simple balance sheet would suggest.</p>
+
+    <h2>What Actually Happens Neurologically with Cumulative Sleep Restriction</h2>
+    <p>When you sleep fewer hours than your body requires — whether that's one hour short or three — several biological processes are disrupted simultaneously. Adenosine, the chemical byproduct of waking brain activity, continues to build up faster than it can be cleared. The prefrontal cortex, the seat of judgment, impulse control, and executive function, begins to show measurable metabolic reduction within a single short night. Inflammatory markers rise. Stress hormones shift. The brain's default mode network — involved in self-monitoring and introspection — begins to degrade in its connectivity.</p>
+    <p>None of this is immediately visible from the outside. And crucially, almost none of it is fully apparent to the person experiencing it.</p>
+    <p>Under acute total sleep deprivation — being kept awake for 24 or 36 hours straight — people know they are impaired. The subjective feeling of sleepiness is overwhelming and impossible to ignore. But with chronic partial sleep restriction, something more insidious occurs: the brain adapts to a new impaired baseline and begins treating it as normal.</p>
+
+    <div class="callout">💡 <strong>Key insight:</strong> The brain under chronic sleep restriction stops accurately reporting its own impairment. You stop feeling as tired as you actually are — but the cognitive deficits keep accumulating.</div>
+
+    <h2>The Van Dongen Study: What Six Hours Per Night Does to You</h2>
+    <p>The most revealing research on cumulative sleep restriction comes from a landmark 2003 study by Hans Van Dongen and colleagues at the University of Pennsylvania. Participants were randomly assigned to one of three sleep conditions for fourteen consecutive days: four hours per night, six hours per night, or eight hours per night. Their cognitive performance was tested every two hours throughout each waking day using standard psychomotor vigilance tasks — essentially measuring reaction time and sustained attention.</p>
+    <p>The results were stark. The group sleeping four hours per night showed rapid, severe cognitive decline — roughly equivalent to two to three days of total sleep deprivation by the end of the two-week period. But the truly surprising findings came from the six-hours-per-night group.</p>
+    <p>After fourteen days on six hours of sleep, their objective performance had deteriorated to a level equivalent to spending two full days without any sleep whatsoever. Reaction times were slower, error rates were higher, and lapses of attention had increased dramatically. By any objective measure, they were profoundly impaired.</p>
+    <p>Yet here is where the misconception becomes dangerous: those same participants, when asked to rate their own sleepiness, reported feeling only slightly sleepy. Their subjective sense of impairment had flatlined after roughly the first week, even as their objective performance continued to decline. They had adapted to feeling impaired. They could no longer feel the depth of the hole they were in.</p>
+
+    <h2>Why Sleep-Restricted Subjects Don't Feel As Impaired As They Are</h2>
+    <p>This phenomenon — the mismatch between felt impairment and actual impairment — is one of the most consequential findings in modern sleep science. It means you cannot trust your own sense of how tired you are when you are chronically sleep-restricted. The internal alert system has been recalibrated.</p>
+    <p>Neuroimaging studies offer a partial explanation. Under chronic sleep restriction, the brain regions responsible for detecting fatigue and signaling the need for sleep — particularly areas of the frontal lobe and certain subcortical structures — show reduced activity. The brain is not only impaired in its performance; it is also impaired in its ability to recognize that impairment. The watch has stopped, but it still shows a time.</p>
+    <p>This is why so many chronically sleep-deprived people genuinely believe they are functioning normally. Office workers running on six hours for years will often insist they feel fine. They have forgotten what full cognitive capacity actually feels like. The comparison point — rested, sharp, quick — has faded from memory.</p>
+
+    <h2>Recovery from Sleep Debt: What Can and Cannot Be Reversed</h2>
+    <p>So what happens when those six-hours-per-night participants finally get to sleep as long as they want? The Van Dongen group and subsequent research offer a nuanced answer.</p>
+    <p>After several nights of extended recovery sleep, many acute cognitive deficits do reverse. Reaction times improve. Sustained attention stabilizes. Subjective sleepiness returns to baseline. On the surface, this might seem to vindicate the bank account model: pay off the debt and the slate is wiped clean.</p>
+    <p>But the picture is incomplete. Three days of recovery sleep were required to return most metrics to baseline after just fourteen days of mild restriction — and that recovery was not always complete. More troublingly, research on longer-term sleep deprivation suggests that some neurological changes may not be fully reversible on short timescales. Animal studies have shown actual loss of neurons in brain regions critical for alertness after chronic sleep restriction. Whether the same occurs in humans remains an active area of investigation, but the early signals are not reassuring.</p>
+    <p>What is clear is that the recovery process is slow, non-linear, and far more demanding than most people assume. You cannot undo a week of six-hour nights with a single long sleep Saturday morning.</p>
+
+    <div class="callout-green">
+      <strong>Practical takeaway:</strong> If you are recovering from accumulated sleep debt, plan for gradual extension — add 30 to 60 minutes per night over one to two weeks rather than trying to compress recovery into one or two long weekend sleeps. Consistent, slightly extended sleep across multiple nights is far more restorative than sporadic binge sleeping.
+    </div>
+
+    <h2>The Weekend Warrior Trap</h2>
+    <p>Perhaps the most common and most self-defeating sleep strategy in the modern world is the weekend sleep binge. Monday through Friday: six hours or less, fuelled by caffeine and determination. Saturday and Sunday: sleep until noon, or beyond. The logic seems sound — surely banking those extra hours on the weekend creates a kind of reserve, or at minimum clears the debt from the week before?</p>
+    <p>It does neither reliably. Research by Czeisler, Roenneberg, and others has demonstrated several problems with this pattern. First, the weekend sleep binge systematically shifts circadian timing. Sleeping until noon on Sunday effectively puts you in a different time zone by Sunday night. When Monday morning arrives and the alarm sounds at 6:30 AM, your body clock says it is 4:00 AM in Barcelona. This phenomenon has been named "social jetlag" — and its metabolic and cognitive consequences mirror actual transmeridian travel.</p>
+    <p>Second, the recovery is incomplete. Even with generous weekend sleep, cognitive performance on Monday and Tuesday remains measurably below the levels seen after a full week of adequate nightly sleep. The debt from the week is not erased; it is partially serviced, with interest still accruing.</p>
+    <p>Third, irregular sleep schedules themselves impose a cost. The body thrives on predictability. Every time you dramatically shift your sleep and wake times, you disrupt hormonal cycles, digestion, immune function, and cardiovascular regulation. The weekend binge is not just unhelpful — it may actively make things worse.</p>
+
+    <h2>Chronic Sleep Debt Versus Acute Sleep Deprivation</h2>
+    <p>It is worth drawing a clear distinction between two types of sleep loss that are often conflated. Acute sleep deprivation — pulling an all-nighter, losing sleep before a major event — is a specific, bounded experience. The brain responds dramatically, sleepiness is overwhelming and apparent, and recovery, while demanding, is relatively rapid once sleep resumes.</p>
+    <p>Chronic sleep debt is a fundamentally different condition. It accumulates gradually, across weeks and months of mild nightly restriction. It does not announce itself loudly. The subjective sense of sleepiness normalizes. The individual continues to function — to drive, to work, to socialize — without recognizing that their performance has been systematically degraded. It is background impairment masquerading as normal.</p>
+    <p>The analogy that best captures this distinction is not a bank account at all, but the difference between a clean fracture and a stress fracture. The acute fracture is immediately obvious and demands immediate treatment. The stress fracture is invisible for weeks, accumulating silently under repeated strain, until one day the structure gives way. By the time the consequences of chronic sleep debt become undeniable — in the form of metabolic disease, cardiovascular risk, immune suppression, mood disorders, or impaired cognition — the damage has been accumulating for a long time.</p>
+
+    <h2>The Protocol That Actually Works: Gradual Extension</h2>
+    <p>Given everything the research tells us, what does effective sleep debt recovery actually look like? The evidence points clearly toward one strategy: gradual, consistent extension of nightly sleep duration maintained over multiple weeks.</p>
+    <p>Rather than trying to binge-recover on weekends — which disrupts circadian timing and provides only partial benefit — the approach that produces measurable and sustained improvement is simple: add 30 to 60 minutes to your nightly sleep window each day, and hold that schedule steady across the entire week, including weekends. Keep your wake time as consistent as possible, and move your bedtime slightly earlier each night until you reach a total that leaves you genuinely alert without an alarm.</p>
+    <p>This protocol works because it respects both the homeostatic and circadian components of sleep regulation. It allows adenosine to be fully cleared, hormonal rhythms to stabilize, and neural processes that require consolidated overnight sleep to complete their work without being interrupted by schedule shifts.</p>
+    <p>The process takes time — typically one to three weeks before most people report feeling genuinely restored. That timeline is uncomfortable in a culture that expects overnight fixes. But it is what the biology requires.</p>
+
+    <div class="callout">💡 <strong>The rule of thumb:</strong> For every week of significant sleep restriction (less than 7 hours per night), expect roughly two to four days of gradual extended sleep to begin meaningful recovery. Full restoration from months of chronic debt may take several weeks of disciplined, consistent sleep.</div>
+
+    <h2>Rethinking the Debt Metaphor</h2>
+    <p>The bank account model of sleep debt was always a simplification. It captured something real — that sleep loss accumulates and has costs — but it implied a precision and reversibility that the biology does not support. Debt can be repaid in full, with a single large transaction if needed. Sleep deficit cannot.</p>
+    <p>A better metaphor might be tissue damage. A muscle repeatedly strained without adequate recovery time does not simply bounce back the moment you rest. It requires careful, progressive rehabilitation. Some structural changes take weeks to reverse. And the pain you feel along the way is not always an accurate guide to how serious the underlying damage is — because the body also adapts to chronic strain by reducing its pain response.</p>
+    <p>This reframe matters because it changes what you do. If sleep debt is a bank balance, the temptation is to treat it transactionally — manage it in chunks, recover in bursts. If sleep debt is tissue damage, the imperative becomes steady, consistent, protective sleep — not because you are paying off a balance, but because the repair process requires continuity and time.</p>
+    <p>Sleep is not a resource you manage. It is a biological process you either allow or you don't.</p>
+
+    <div class="product-cta">
+      <span class="product-cta-text">Support deeper, more consistent sleep with the right recovery tools</span>
+      <a class="btn-amazon" href="https://www.amazon.com/s?k=sleep+recovery+pillow&tag=sleepwiserevi-20" target="_blank" rel="noopener nofollow">Shop on Amazon</a>
+    </div>
+
+    <div class="article-cta">
+      <h3>Get Our Free 7-Day Sleep Reset</h3>
+      <p>Join 18,000 readers who get weekly sleep tips and honest product reviews every Sunday.</p>
+      <a class="btn-amazon" href="../#newsletter">Subscribe Free</a>
+    </div>
+
+    <div class="related-articles">
+      <h3>Related Articles</h3>
+      <ul>
+        <li><a href="sleep-debt-recovery.html">How to Actually Recover from Sleep Debt: A Step-by-Step Protocol</a></li>
+        <li><a href="sleep-consistency-importance.html">Why Sleep Consistency Matters More Than Total Hours</a></li>
+        <li><a href="microsleep-dangers.html">Microsleep: The Silent Danger You Don't Know Is Happening</a></li>
+      </ul>
+    </div>
+  </article>
+
+  <footer>
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a class="logo" href="../">SleepWise<span>Reviews</span></a>
+        <p>Honest, science-backed reviews to help you sleep deeper, recover faster, and wake up energized.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Reviews</h4>
+        <ul>
+          <li><a href="https://www.amazon.com/s?k=weighted+blanket&tag=sleepwiserevi-20" target="_blank">Weighted Blankets</a></li>
+          <li><a href="https://www.amazon.com/s?k=white+noise+machine&tag=sleepwiserevi-20" target="_blank">White Noise Machines</a></li>
+          <li><a href="https://www.amazon.com/s?k=sleep+supplements&tag=sleepwiserevi-20" target="_blank">Supplements</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Guides</h4>
+        <ul>
+          <li><a href="../#picks">Sleep Optimization</a></li>
+          <li><a href="../#reviews">Bedtime Routines</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Site</h4>
+        <ul>
+          <li><a href="../pages/about.html">About Harry Soul</a></li>
+          <li><a href="../pages/privacy-policy.html">Privacy Policy</a></li>
+          <li><a href="../pages/affiliate-disclosure.html">Affiliate Disclosure</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div>© 2025 SleepWiseReviews. All rights reserved.</div>
+      <div class="affiliate-disc">SleepWiseReviews is a participant in the Amazon Services LLC Associates Program.</div>
+    </div>
+  </footer>
+</body>
+</html>
