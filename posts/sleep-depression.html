@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>How to Improve Sleep When You're Dealing With Depression - SleepWiseReviews</title>
+  <meta name="description" content="Depression and insomnia are bidirectional — each makes the other worse. Learn evidence-based strategies including CBT-I, light therapy, and exercise to break the cycle." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <style type='text/css'>
+    :root {
+      --night: #0A0E1A;
+      --deep: #0F1525;
+      --navy: #141B30;
+      --card: #1A2238;
+      --border: #252D45;
+      --gold: #C9A84C;
+      --gold-light: #E5C96A;
+      --gold-dim: rgba(201, 168, 76, 0.15);
+      --star: #F0E6C8;
+      --text: #D4DCEE;
+      --muted: #7A85A0;
+      --white: #FFFFFF;
+      --green: #4CAF82;
+    }
+
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: 'Outfit', sans-serif;
+      background: var(--night);
+      color: var(--text);
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      background-image:
+        radial-gradient(1px 1px at 10% 15%, rgba(240, 230, 200, 0.6) 0%, transparent 100%),
+        radial-gradient(1px 1px at 25% 40%, rgba(240, 230, 200, 0.4) 0%, transparent 100%),
+        radial-gradient(1.5px 1.5px at 40% 10%, rgba(240, 230, 200, 0.5) 0%, transparent 100%),
+        radial-gradient(1px 1px at 55% 30%, rgba(240, 230, 200, 0.3) 0%, transparent 100%),
+        radial-gradient(1px 1px at 70% 5%, rgba(240, 230, 200, 0.6) 0%, transparent 100%),
+        radial-gradient(1.5px 1.5px at 80% 20%, rgba(240, 230, 200, 0.4) 0%, transparent 100%),
+        radial-gradient(1px 1px at 90% 45%, rgba(240, 230, 200, 0.3) 0%, transparent 100%);
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    nav {
+      position: sticky; top: 0; z-index: 100;
+      background: rgba(10, 14, 26, 0.92);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+      padding: 0 6%; height: 68px;
+      display: flex; align-items: center; justify-content: space-between;
+    }
+    .logo { font-family: 'Cormorant Garamond', serif; font-size: 1.6rem; font-weight: 700; color: var(--star); text-decoration: none; }
+    .logo span { color: var(--gold); }
+    .nav-links { display: flex; gap: 2rem; list-style: none; }
+    .nav-links a { text-decoration: none; color: var(--muted); font-size: 0.88rem; font-weight: 500; transition: color 0.2s; }
+    .nav-links a:hover { color: var(--gold); }
+    .nav-cta { background: var(--gold-dim); color: var(--gold) !important; border: 1px solid rgba(201, 168, 76, 0.3); padding: 7px 16px; border-radius: 4px; }
+
+    .article-wrapper {
+      position: relative; z-index: 1;
+      max-width: 800px; margin: 0 auto; padding: 50px 6% 80px;
+    }
+    .article-meta-top { display: flex; flex-wrap: wrap; align-items: center; gap: 0.8rem; margin-bottom: 1.2rem; }
+    .tag { background: var(--gold); color: var(--night); padding: 5px 12px; border-radius: 4px; font-size: 0.72rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; }
+    .meta-text { color: var(--muted); font-size: 0.82rem; }
+    .article-wrapper h1 { font-family: 'Cormorant Garamond', serif; font-size: 2.4rem; font-weight: 600; color: var(--star); line-height: 1.2; margin-bottom: 1.2rem; }
+    .article-intro { font-size: 1.1rem; color: var(--text); line-height: 1.7; margin-bottom: 2rem; font-weight: 300; }
+    .author-box { display: flex; align-items: center; gap: 1rem; margin-bottom: 1.5rem; padding: 1rem; background: var(--card); border-radius: 8px; border: 1px solid var(--border); }
+    .author-avatar { font-size: 2.5rem; }
+    .author-name { color: var(--star); font-weight: 500; }
+    .author-name a { color: var(--gold); text-decoration: none; }
+    .author-role { color: var(--muted); font-size: 0.82rem; }
+    .disclosure-box { background: rgba(201, 168, 76, 0.08); border: 1px solid rgba(201, 168, 76, 0.2); border-radius: 8px; padding: 1rem 1.2rem; font-size: 0.82rem; color: var(--muted); margin-bottom: 2rem; }
+    .article-wrapper h2 { font-family: 'Cormorant Garamond', serif; font-size: 1.6rem; font-weight: 600; color: var(--star); margin: 2.5rem 0 1rem; padding-top: 1rem; }
+    .article-wrapper h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.2rem; color: var(--star); margin: 1.5rem 0 0.8rem; }
+    .article-wrapper p { margin-bottom: 1rem; font-weight: 300; line-height: 1.8; }
+    .article-wrapper ul, .article-wrapper ol { margin: 1rem 0 1.5rem 1.5rem; }
+    .article-wrapper li { margin-bottom: 0.5rem; font-weight: 300; }
+    .callout { background: var(--card); border-left: 3px solid var(--gold); padding: 1rem 1.5rem; margin: 1.5rem 0; border-radius: 0 8px 8px 0; font-size: 0.92rem; }
+    .callout-green { background: var(--card); border-left: 3px solid var(--green); padding: 1rem 1.5rem; margin: 1.5rem 0; border-radius: 0 8px 8px 0; font-size: 0.92rem; }
+
+    .product-cta { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 1.5rem; margin: 2rem 0; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; }
+    .product-cta-text { color: var(--star); font-weight: 500; }
+    .btn-amazon { background: var(--gold); color: var(--night); text-decoration: none; padding: 10px 20px; border-radius: 6px; font-weight: 600; font-size: 0.88rem; transition: background 0.2s; }
+    .btn-amazon:hover { background: var(--gold-light); }
+
+    .article-cta { background: linear-gradient(135deg, var(--card), var(--navy)); border: 1px solid var(--border); border-radius: 12px; padding: 2rem; text-align: center; margin: 3rem 0; }
+    .article-cta h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.4rem; color: var(--star); margin-bottom: 0.8rem; }
+    .article-cta p { color: var(--muted); margin-bottom: 1.2rem; }
+
+    .related-articles { margin: 3rem 0; }
+    .related-articles h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.3rem; color: var(--star); margin-bottom: 1rem; }
+    .related-articles ul { list-style: none; margin: 0; }
+    .related-articles li { margin-bottom: 0.6rem; }
+    .related-articles a { color: var(--gold); text-decoration: none; font-size: 0.95rem; }
+    .related-articles a:hover { text-decoration: underline; }
+
+    footer { background: #060912; border-top: 1px solid var(--border); padding: 50px 6% 30px; }
+    .footer-top { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 3rem; margin-bottom: 3rem; padding-bottom: 3rem; border-bottom: 1px solid var(--border); }
+    .footer-brand p { color: var(--muted); font-size: 0.82rem; margin-top: 0.8rem; line-height: 1.6; font-weight: 300; max-width: 260px; }
+    .footer-col h4 { font-size: 0.78rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--gold); margin-bottom: 1rem; }
+    .footer-col ul { list-style: none; display: flex; flex-direction: column; gap: 0.6rem; }
+    .footer-col a { color: var(--muted); text-decoration: none; font-size: 0.85rem; transition: color 0.2s; }
+    .footer-col a:hover { color: var(--gold); }
+    .footer-bottom { display: flex; justify-content: space-between; font-size: 0.78rem; color: var(--muted); flex-wrap: wrap; gap: 0.5rem; }
+    .affiliate-disc { font-size: 0.75rem; max-width: 600px; }
+
+    @media (max-width: 900px) {
+      .nav-links { display: none; }
+      .article-wrapper h1 { font-size: 1.8rem; }
+      .footer-top { grid-template-columns: 1fr 1fr; }
+      .product-cta { flex-direction: column; text-align: center; }
+    }
+  </style>
+</head>
+
+<body>
+  <nav>
+    <a class="logo" href="../">SleepWise<span>Reviews</span></a>
+    <ul class="nav-links">
+      <li><a href="../#picks">Top Picks</a></li>
+      <li><a href="../#reviews">Reviews</a></li>
+      <li><a href="../pages/about.html">About Harry</a></li>
+      <li><a href="../#newsletter" class="nav-cta">Free Sleep Guide</a></li>
+    </ul>
+  </nav>
+
+  <article class="article-wrapper">
+    <div class="article-meta-top">
+      <span class="tag">Mental Health</span>
+      <span class="meta-text">&#128197; October 2023</span>
+      <span class="meta-text">&#183;</span>
+      <span class="meta-text">&#9201; 9 min read</span>
+      <span class="meta-text">&#183;</span>
+      <span class="meta-text">&#128260; Updated Mar 2026</span>
+    </div>
+    <h1>How to Improve Sleep When You're Dealing With Depression</h1>
+    <p class="article-intro">Depression and insomnia are bidirectional — each makes the other worse. The entry point matters: improving your sleep is often the fastest route into breaking the cycle, and that is exactly where the science points us to start.</p>
+
+    <div class="author-box">
+      <div class="author-avatar">&#128564;</div>
+      <div class="author-info">
+        <div class="author-name">By <a href="../pages/about.html">Harry Soul</a> - SleepWiseReviews</div>
+        <div class="author-role">Independent Sleep Researcher - October 2023</div>
+      </div>
+    </div>
+
+    <div class="disclosure-box">
+      <strong>Affiliate Disclosure:</strong> This article contains affiliate links. We earn a small commission if you purchase through our links at no extra cost to you. <a href="../pages/affiliate-disclosure.html" style="color:var(--gold)">Full disclosure</a>
+    </div>
+
+    <h2>The Bidirectional Link: Why Each Makes the Other Worse</h2>
+    <p>For a long time, clinicians treated insomnia as a symptom of depression — something that would resolve once the underlying mood disorder was addressed. That model has been overturned. We now understand that the relationship runs in both directions simultaneously: depression disrupts sleep, and disrupted sleep deepens depression. They feed each other in a self-reinforcing loop.</p>
+    <p>The neurobiological pathways are closely intertwined. Depression dysregulates the hypothalamic-pituitary-adrenal (HPA) axis, elevating cortisol levels that keep the brain in a hyperaroused state at night. Elevated cortisol delays sleep onset, fragments nighttime sleep, and reduces time in the most restorative stages. That fragmented, shallow sleep then impairs emotional regulation the next day — the prefrontal cortex becomes less effective at moderating the amygdala's fear and threat responses, which amplifies depressive rumination and negative affect. By the following night, the brain is primed again for poor sleep.</p>
+    <p>Understanding this bidirectionality is not just academically interesting — it has direct clinical implications. It means that targeting sleep independently, without waiting for depression to lift on its own, is a legitimate and often highly effective therapeutic strategy.</p>
+
+    <div class="callout">&#128161; <strong>Key insight:</strong> Studies show that insomnia is present in 75% of people with major depression. More importantly, insomnia that persists after depression is treated increases the risk of relapse twofold. Sleep is not a secondary concern — it is a primary target.</div>
+
+    <h2>How Depression Changes Sleep Architecture</h2>
+    <p>Depression does not simply make sleep lighter or shorter — it systematically reorganizes the structure of a night's sleep in measurable ways. Polysomnography studies consistently show two hallmark changes in depressed patients: reduced slow-wave (deep) sleep and earlier onset of the first REM period.</p>
+    <p>In a healthy sleep cycle, the first REM episode typically arrives 90 minutes after sleep onset. In people with depression, this interval — called REM latency — is dramatically shortened, sometimes appearing within 30 to 45 minutes. As a result, the first half of the night, which should be dominated by deep, physically restorative slow-wave sleep, is instead filled with light and REM sleep. This compressed architecture leaves the body under-restored and the emotional brain over-stimulated.</p>
+    <p>The implications are significant. Slow-wave sleep is when the body releases growth hormone, consolidates procedural memory, and repairs tissue. REM sleep, while essential for emotional memory and creativity, becomes maladaptive when it occurs prematurely and excessively — it is associated with the consolidation of negative emotional memories, which is part of why depressed individuals so often wake feeling worse than when they went to bed.</p>
+    <p>As Dr. Chris Winter explains in <em>The Sleep Solution</em> (2017), sleep is not a monolithic state but a dynamic process with architecture that can be read and optimized. When that architecture is distorted — as it consistently is in depression — the interventions must address the distortion directly, not just the surface complaint of "I can't sleep."</p>
+
+    <h2>Hypersomnia vs. Insomnia: Two Faces of the Same Problem</h2>
+    <p>Depression does not always look like lying awake at 3 a.m. For roughly 15 to 40 percent of people with depression — a figure that rises sharply in bipolar depression and atypical depression — the presentation is the opposite: hypersomnia, or sleeping too much. These individuals may sleep 10, 12, or even 14 hours and still wake feeling unrefreshed, exhausted, and heavy.</p>
+    <p>This distinction matters because the interventions differ. For insomnia-predominant depression, the goal is to increase sleep drive and reduce arousal — strategies like sleep restriction therapy, stimulus control, and CBT-I are directly applicable. For hypersomnia-predominant depression, the challenge is more complex: total sleep time may need to be curtailed to improve sleep quality and consolidation, and the underlying reward circuitry dysfunction (which drives the pull toward sleep as a form of withdrawal) must be addressed alongside the sleep behavior itself.</p>
+    <p>Recognizing which presentation is dominant is the first step in choosing the right intervention. Keeping a two-week sleep diary — noting bedtime, wake time, time in bed, and subjective energy — is a simple and informative starting point before any clinical consultation.</p>
+
+    <h2>Why Antidepressants Affect Sleep (and How They Differ)</h2>
+    <p>Most antidepressants suppress REM sleep — an effect that is closely tied to their serotonergic and noradrenergic mechanisms. SSRIs, SNRIs, and TCAs all reduce the proportion of time spent in REM, which in part explains one of their therapeutic mechanisms: by suppressing the premature and excessive REM that characterizes depressed sleep, they help normalize sleep architecture over time.</p>
+    <p>However, the effects on sleep are not uniform across drug classes, and they are not uniformly beneficial. Some antidepressants, particularly the more activating SSRIs like fluoxetine, can increase insomnia and fragmentation in the early weeks of treatment — creating a paradox where the medication intended to help depression temporarily worsens the very sleep problem that is fueling it. Others, like mirtazapine and trazodone, are sedating and are often prescribed in part because of their sleep-promoting effects. TCAs like amitriptyline can substantially increase slow-wave sleep.</p>
+    <p>If you are on an antidepressant and noticing worsened insomnia, it is worth discussing the timing of the dose with your prescriber. Taking activating antidepressants in the morning rather than at night can meaningfully reduce their interference with sleep onset — a simple, low-risk adjustment that is frequently overlooked.</p>
+
+    <div class="callout">&#128161; <strong>Key insight:</strong> REM rebound — a temporary surge in REM sleep — commonly occurs when antidepressants are tapered or discontinued. This can cause vivid or disturbing dreams and contribute to relapse risk. Always taper antidepressants slowly under medical supervision.</div>
+
+    <h2>Light Therapy: The Circadian Connection</h2>
+    <p>Light therapy is one of the most robust, evidence-based, and underused interventions for both sleep and depression. Most people know it as a treatment for Seasonal Affective Disorder (SAD), but its application extends well beyond seasonal presentations. Research increasingly supports light therapy as an effective augmentation strategy for non-seasonal major depression — sometimes as effective as antidepressant medication, and additive when used alongside it.</p>
+    <p>The mechanism centers on the circadian system. Depression is associated with circadian dysrhythmia — a misalignment between the internal biological clock and the external light-dark cycle. This misalignment disrupts the timing of cortisol release, melatonin secretion, and sleep-wake cycles. Morning bright light exposure (10,000 lux, typically 20 to 30 minutes after waking) resets the circadian clock, phase-advances the sleep-wake cycle in those who tend to be delayed, and directly activates mood-regulating pathways through the retinohypothalamic tract.</p>
+    <p>Clinical trials have shown that 30 minutes of morning light therapy daily produces measurable improvement in depressive symptoms within one to two weeks — faster than most antidepressants reach full effect. The effect is strongest in those with SAD, hypersomnia, carbohydrate cravings, and a pattern of seasonal worsening, but mood and sleep benefits have been documented in non-seasonal depression as well.</p>
+
+    <div class="callout-green">&#9989; <strong>Practical Takeaway:</strong> Place a 10,000-lux light therapy lamp at arm's length from your face during your morning routine — while eating breakfast, reading, or working. You do not need to stare at it directly. Consistency matters more than duration: 20 to 30 minutes every morning at roughly the same time will produce the most reliable circadian and mood benefit. Avoid using it after midday, as this can delay sleep onset at night.</div>
+
+    <div class="product-cta">
+      <span class="product-cta-text">Browse recommended light therapy lamps for depression and circadian support</span>
+      <a class="btn-amazon" href="https://www.amazon.com/s?k=light+therapy+lamp+depression&tag=sleepwiserevi-20" target="_blank" rel="noopener nofollow">Shop on Amazon</a>
+    </div>
+
+    <h2>Exercise: The Shared Intervention</h2>
+    <p>Exercise is one of the few interventions with strong, replicated evidence for improving both sleep and depression simultaneously — and through overlapping mechanisms. For sleep, exercise increases slow-wave sleep, reduces sleep onset latency, and strengthens the homeostatic sleep drive. For depression, it increases BDNF (brain-derived neurotrophic factor), promotes neurogenesis in the hippocampus, regulates the HPA axis, and raises endorphin and serotonin levels.</p>
+    <p>The evidence on exercise for depression is striking. A landmark meta-analysis published in the <em>British Journal of Sports Medicine</em> found that exercise was 1.5 times more effective than medication or CBT for reducing depressive symptoms in the short term. For sleep specifically, regular aerobic exercise has been shown to increase slow-wave sleep duration by 20 to 40 percent — directly counteracting the deep sleep deficit that depression creates.</p>
+    <p>The practical guidance is straightforward but requires attention to timing. Vigorous exercise within two to three hours of bedtime can elevate core body temperature and cortisol levels, delaying sleep onset. Morning or early afternoon sessions are ideal for people dealing with both depression and insomnia. Even moderate intensity — a 30-minute brisk walk — is sufficient to produce meaningful effects when done consistently.</p>
+    <p>One caveat worth noting: the barrier to exercise is often highest when depression is most severe. The very symptoms that make exercise most beneficial — low motivation, fatigue, anhedonia — are the same ones that make it hardest to start. Starting smaller than feels necessary (a 10-minute walk counts) and building gradually tends to work better than aiming for the "optimal" session from day one.</p>
+
+    <h2>CBT-I in Depression: The Case for Standalone Use</h2>
+    <p>Cognitive Behavioral Therapy for Insomnia (CBT-I) is the gold-standard treatment for insomnia in general, but its application in depression deserves special attention. For many years, clinicians were cautious about recommending sleep restriction — a core CBT-I component — to depressed patients, on the grounds that sleep deprivation can trigger manic episodes in bipolar disorder and might worsen mood in unipolar depression.</p>
+    <p>The evidence has shifted. Multiple randomized controlled trials now demonstrate that CBT-I delivered to people with comorbid depression and insomnia produces clinically significant improvements in both sleep and depressive symptoms — even in the absence of antidepressant treatment. A pivotal study from the University of Oxford (Freeman et al., 2017) showed that treating insomnia with digital CBT-I in students produced not only better sleep but also reductions in paranoia, hallucinatory experiences, and depression scores.</p>
+    <p>The core components of CBT-I — sleep restriction, stimulus control, cognitive restructuring, and sleep hygiene — all target the perpetuating factors that keep insomnia chronic. In the context of depression, the cognitive restructuring component is particularly relevant, as depressed individuals often hold catastrophizing beliefs about sleep ("If I don't sleep eight hours, tomorrow will be ruined") that amplify pre-sleep arousal and create a self-fulfilling cycle of sleeplessness.</p>
+
+    <div class="callout-green">&#9989; <strong>Practical Takeaway:</strong> If you have both depression and insomnia, ask your provider specifically about CBT-I as a first-line treatment — not just as an add-on after antidepressants. Digital CBT-I programs (such as Sleepio or Somryst) have demonstrated efficacy in clinical trials and are accessible without a long wait for a specialist appointment.</div>
+
+    <h2>Why Sleep Improvement Often Comes Before Mood Improvement</h2>
+    <p>One of the most encouraging findings in the research on depression and sleep is the temporal relationship between the two. When sleep improves — through any mechanism — mood improvement often follows within days to a few weeks. The reverse is less reliable: waiting for depression to lift before sleep normalizes frequently leads to prolonged suffering and increased relapse risk.</p>
+    <p>This sequencing has a name in the clinical literature: the "entry point advantage." Because the sleep-mood feedback loop runs in both directions, intervening at the sleep end can initiate a positive cascade — better sleep leads to improved emotional regulation, which reduces rumination and depressive cognition, which in turn makes the next night's sleep slightly easier, and so on. Some researchers argue that targeting sleep first, before or alongside antidepressant medication, produces better long-term outcomes precisely because it begins to unwind the loop from the ground up.</p>
+    <p>This is not a call to delay seeking treatment for depression — both fronts need to be addressed. But it is a strong argument against the passive approach of waiting for sleep to fix itself as a side effect of depression treatment. Sleep is a modifiable target. The tools to improve it — CBT-I, light therapy, exercise, medication timing — are available now, and there is no reason to wait.</p>
+
+    <h2>When to Seek Professional Help: Red Flags Beyond Sleep Hygiene</h2>
+    <p>There is a meaningful boundary between the kind of sleep difficulty that responds well to self-directed strategies and the kind that requires clinical intervention. Knowing when you have crossed that boundary matters.</p>
+    <p>Sleep hygiene and behavioral strategies are appropriate starting points for mild to moderate insomnia in the context of manageable stress or low-grade mood disruption. But the following presentations warrant prompt professional evaluation:</p>
+    <ul>
+      <li><strong>Suicidal ideation or self-harm thoughts</strong> — sleep disruption dramatically raises suicide risk in depressed individuals. If you are having thoughts of harming yourself, contact a crisis line (988 in the US) or go to an emergency department immediately.</li>
+      <li><strong>Inability to function at work or in relationships</strong> due to sleep deprivation lasting more than two weeks.</li>
+      <li><strong>Hypersomnia so severe that you cannot stay awake during the day</strong>, despite sleeping a full night — this may signal a need for medication evaluation or investigation of other conditions such as sleep apnea or narcolepsy, which are more prevalent in depressed populations.</li>
+      <li><strong>Sleep disturbance that persists after apparent mood improvement</strong> — residual insomnia is a strong predictor of depressive relapse and should be treated aggressively, not dismissed as acceptable.</li>
+      <li><strong>Symptoms suggesting bipolar spectrum disorder</strong> — periods of very reduced sleep with simultaneously elevated energy and mood require a different clinical framework than unipolar depression. Standard CBT-I sleep restriction is contraindicated in active mania.</li>
+    </ul>
+    <p>Your primary care physician, psychiatrist, or a sleep medicine specialist can provide formal assessment and individualized treatment planning. CBT-I-trained therapists are available through the Society of Behavioral Sleep Medicine's provider directory. The goal is not to manage the symptoms indefinitely but to resolve the underlying disruption — and with the right support, that is an achievable outcome for the vast majority of people.</p>
+
+    <div class="callout">&#128161; <strong>Key insight:</strong> Persistent insomnia after successful depression treatment is not a minor inconvenience — it doubles the risk of depressive relapse within one year. If your mood has improved but your sleep has not, that is a clinical signal worth acting on, not waiting out.</div>
+
+    <div class="article-cta">
+      <h3>Get Our Free 7-Day Sleep Reset</h3>
+      <p>Join 18,000 readers who get weekly sleep tips and honest product reviews every Sunday.</p>
+      <a class="btn-amazon" href="../#newsletter">Subscribe Free</a>
+    </div>
+
+    <div class="related-articles">
+      <h3>Related Articles</h3>
+      <ul>
+        <li><a href="sleep-mental-health.html">Sleep and Mental Health: What the Research Actually Shows</a></li>
+        <li><a href="cbt-i-guide.html">The Complete Guide to CBT-I: End Chronic Insomnia Without Medication</a></li>
+        <li><a href="sleep-anxiety-techniques.html">Sleep and Anxiety: Evidence-Based Techniques to Quiet a Racing Mind</a></li>
+      </ul>
+    </div>
+  </article>
+
+  <footer>
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a class="logo" href="../">SleepWise<span>Reviews</span></a>
+        <p>Honest, science-backed reviews to help you sleep deeper, recover faster, and wake up energized.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Reviews</h4>
+        <ul>
+          <li><a href="https://www.amazon.com/s?k=weighted+blanket&tag=sleepwiserevi-20" target="_blank">Weighted Blankets</a></li>
+          <li><a href="https://www.amazon.com/s?k=white+noise+machine&tag=sleepwiserevi-20" target="_blank">White Noise Machines</a></li>
+          <li><a href="https://www.amazon.com/s?k=sleep+supplements&tag=sleepwiserevi-20" target="_blank">Supplements</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Guides</h4>
+        <ul>
+          <li><a href="../#picks">Sleep Optimization</a></li>
+          <li><a href="../#reviews">Bedtime Routines</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Site</h4>
+        <ul>
+          <li><a href="../pages/about.html">About Harry Soul</a></li>
+          <li><a href="../pages/privacy-policy.html">Privacy Policy</a></li>
+          <li><a href="../pages/affiliate-disclosure.html">Affiliate Disclosure</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div>&copy; 2025 SleepWiseReviews. All rights reserved.</div>
+      <div class="affiliate-disc">SleepWiseReviews is a participant in the Amazon Services LLC Associates Program.</div>
+    </div>
+  </footer>
+</body>
+</html>
