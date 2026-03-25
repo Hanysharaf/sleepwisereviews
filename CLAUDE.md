@@ -39,7 +39,7 @@ SleepReviewes/
 ├── docs/                 # All documentation
 ├── images/               # Product photos, logos, templates
 ├── pages/                # Static website pages
-├── posts/                # Blog articles (26 articles)
+├── posts/                # Blog articles (150 articles — see posts/INDEX.md)
 ├── telegram_bot/         # Railway-hosted bot
 └── index.html            # Homepage
 ```
