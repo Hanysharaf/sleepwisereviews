@@ -1,0 +1,382 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The 3 Types of Insomnia (and Why the Treatment Differs for Each) - SleepWiseReviews</title>
+  <meta name="description" content="Not all insomnia is the same. Learn the three distinct types — sleep onset, sleep maintenance, and early morning awakening — and why each requires a different treatment approach." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <style type='text/css'>
+    :root {
+      --night: #0A0E1A;
+      --deep: #0F1525;
+      --navy: #141B30;
+      --card: #1A2238;
+      --border: #252D45;
+      --gold: #C9A84C;
+      --gold-light: #E5C96A;
+      --gold-dim: rgba(201, 168, 76, 0.15);
+      --star: #F0E6C8;
+      --text: #D4DCEE;
+      --muted: #7A85A0;
+      --white: #FFFFFF;
+      --green: #4CAF82;
+    }
+
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: 'Outfit', sans-serif;
+      background: var(--night);
+      color: var(--text);
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      background-image:
+        radial-gradient(1px 1px at 10% 15%, rgba(240, 230, 200, 0.6) 0%, transparent 100%),
+        radial-gradient(1px 1px at 25% 40%, rgba(240, 230, 200, 0.4) 0%, transparent 100%),
+        radial-gradient(1.5px 1.5px at 40% 10%, rgba(240, 230, 200, 0.5) 0%, transparent 100%),
+        radial-gradient(1px 1px at 55% 30%, rgba(240, 230, 200, 0.3) 0%, transparent 100%),
+        radial-gradient(1px 1px at 70% 5%, rgba(240, 230, 200, 0.6) 0%, transparent 100%),
+        radial-gradient(1.5px 1.5px at 80% 20%, rgba(240, 230, 200, 0.4) 0%, transparent 100%),
+        radial-gradient(1px 1px at 90% 45%, rgba(240, 230, 200, 0.3) 0%, transparent 100%);
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    nav {
+      position: sticky; top: 0; z-index: 100;
+      background: rgba(10, 14, 26, 0.92);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+      padding: 0 6%; height: 68px;
+      display: flex; align-items: center; justify-content: space-between;
+    }
+    .logo { font-family: 'Cormorant Garamond', serif; font-size: 1.6rem; font-weight: 700; color: var(--star); text-decoration: none; }
+    .logo span { color: var(--gold); }
+    .nav-links { display: flex; gap: 2rem; list-style: none; }
+    .nav-links a { text-decoration: none; color: var(--muted); font-size: 0.88rem; font-weight: 500; transition: color 0.2s; }
+    .nav-links a:hover { color: var(--gold); }
+    .nav-cta { background: var(--gold-dim); color: var(--gold) !important; border: 1px solid rgba(201, 168, 76, 0.3); padding: 7px 16px; border-radius: 4px; }
+
+    .article-wrapper {
+      position: relative; z-index: 1;
+      max-width: 800px; margin: 0 auto; padding: 50px 6% 80px;
+    }
+    .article-meta-top { display: flex; flex-wrap: wrap; align-items: center; gap: 0.8rem; margin-bottom: 1.2rem; }
+    .tag { background: var(--gold); color: var(--night); padding: 5px 12px; border-radius: 4px; font-size: 0.72rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; }
+    .meta-text { color: var(--muted); font-size: 0.82rem; }
+    .article-wrapper h1 { font-family: 'Cormorant Garamond', serif; font-size: 2.4rem; font-weight: 600; color: var(--star); line-height: 1.2; margin-bottom: 1.2rem; }
+    .article-intro { font-size: 1.1rem; color: var(--text); line-height: 1.7; margin-bottom: 2rem; font-weight: 300; }
+    .author-box { display: flex; align-items: center; gap: 1rem; margin-bottom: 1.5rem; padding: 1rem; background: var(--card); border-radius: 8px; border: 1px solid var(--border); }
+    .author-avatar { font-size: 2.5rem; }
+    .author-name { color: var(--star); font-weight: 500; }
+    .author-name a { color: var(--gold); text-decoration: none; }
+    .author-role { color: var(--muted); font-size: 0.82rem; }
+    .disclosure-box { background: rgba(201, 168, 76, 0.08); border: 1px solid rgba(201, 168, 76, 0.2); border-radius: 8px; padding: 1rem 1.2rem; font-size: 0.82rem; color: var(--muted); margin-bottom: 2rem; }
+    .article-wrapper h2 { font-family: 'Cormorant Garamond', serif; font-size: 1.6rem; font-weight: 600; color: var(--star); margin: 2.5rem 0 1rem; padding-top: 1rem; }
+    .article-wrapper h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.2rem; color: var(--star); margin: 1.5rem 0 0.8rem; }
+    .article-wrapper p { margin-bottom: 1rem; font-weight: 300; line-height: 1.8; }
+    .article-wrapper ul, .article-wrapper ol { margin: 1rem 0 1.5rem 1.5rem; }
+    .article-wrapper li { margin-bottom: 0.5rem; font-weight: 300; }
+    .callout { background: var(--card); border-left: 3px solid var(--gold); padding: 1rem 1.5rem; margin: 1.5rem 0; border-radius: 0 8px 8px 0; font-size: 0.92rem; }
+    .callout-green { background: var(--card); border-left: 3px solid var(--green); padding: 1rem 1.5rem; margin: 1.5rem 0; border-radius: 0 8px 8px 0; font-size: 0.92rem; }
+
+    .type-card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.5rem;
+      margin: 1.5rem 0;
+    }
+    .type-card-label {
+      display: inline-block;
+      background: var(--gold-dim);
+      color: var(--gold);
+      border: 1px solid rgba(201, 168, 76, 0.3);
+      padding: 4px 10px;
+      border-radius: 4px;
+      font-size: 0.75rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      margin-bottom: 0.8rem;
+    }
+
+    .product-cta { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 1.5rem; margin: 2rem 0; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; }
+    .product-cta-text { color: var(--star); font-weight: 500; }
+    .btn-amazon { background: var(--gold); color: var(--night); text-decoration: none; padding: 10px 20px; border-radius: 6px; font-weight: 600; font-size: 0.88rem; transition: background 0.2s; }
+    .btn-amazon:hover { background: var(--gold-light); }
+
+    .article-cta { background: linear-gradient(135deg, var(--card), var(--navy)); border: 1px solid var(--border); border-radius: 12px; padding: 2rem; text-align: center; margin: 3rem 0; }
+    .article-cta h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.4rem; color: var(--star); margin-bottom: 0.8rem; }
+    .article-cta p { color: var(--muted); margin-bottom: 1.2rem; }
+
+    .related-articles { margin: 3rem 0; }
+    .related-articles h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.3rem; color: var(--star); margin-bottom: 1rem; }
+    .related-articles ul { list-style: none; margin: 0; }
+    .related-articles li { margin-bottom: 0.6rem; }
+    .related-articles a { color: var(--gold); text-decoration: none; font-size: 0.95rem; }
+    .related-articles a:hover { text-decoration: underline; }
+
+    footer { background: #060912; border-top: 1px solid var(--border); padding: 50px 6% 30px; }
+    .footer-top { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 3rem; margin-bottom: 3rem; padding-bottom: 3rem; border-bottom: 1px solid var(--border); }
+    .footer-brand p { color: var(--muted); font-size: 0.82rem; margin-top: 0.8rem; line-height: 1.6; font-weight: 300; max-width: 260px; }
+    .footer-col h4 { font-size: 0.78rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--gold); margin-bottom: 1rem; }
+    .footer-col ul { list-style: none; display: flex; flex-direction: column; gap: 0.6rem; }
+    .footer-col a { color: var(--muted); text-decoration: none; font-size: 0.85rem; transition: color 0.2s; }
+    .footer-col a:hover { color: var(--gold); }
+    .footer-bottom { display: flex; justify-content: space-between; font-size: 0.78rem; color: var(--muted); flex-wrap: wrap; gap: 0.5rem; }
+    .affiliate-disc { font-size: 0.75rem; max-width: 600px; }
+
+    @media (max-width: 900px) {
+      .nav-links { display: none; }
+      .article-wrapper h1 { font-size: 1.8rem; }
+      .footer-top { grid-template-columns: 1fr 1fr; }
+      .product-cta { flex-direction: column; text-align: center; }
+    }
+  </style>
+</head>
+
+<body>
+  <nav>
+    <a class="logo" href="../">SleepWise<span>Reviews</span></a>
+    <ul class="nav-links">
+      <li><a href="../#picks">Top Picks</a></li>
+      <li><a href="../#reviews">Reviews</a></li>
+      <li><a href="../pages/about.html">About Harry</a></li>
+      <li><a href="../#newsletter" class="nav-cta">Free Sleep Guide</a></li>
+    </ul>
+  </nav>
+
+  <article class="article-wrapper">
+    <div class="article-meta-top">
+      <span class="tag">Sleep Science</span>
+      <span class="meta-text">📅 January 2022</span>
+      <span class="meta-text">·</span>
+      <span class="meta-text">⏱ 9 min read</span>
+      <span class="meta-text">·</span>
+      <span class="meta-text">🔄 Updated Mar 2026</span>
+    </div>
+
+    <h1>The 3 Types of Insomnia (and Why the Treatment Differs for Each)</h1>
+    <p class="article-intro">Treating all insomnia the same way is like treating all coughs with the same medicine. It doesn't work. The type of insomnia you have — when it strikes, how long it lasts, and what drives it — determines which treatment strategy will actually help you get back to sleep.</p>
+
+    <div class="author-box">
+      <div class="author-avatar">😴</div>
+      <div class="author-info">
+        <div class="author-name">By <a href="../pages/about.html">Harry Soul</a> - SleepWiseReviews</div>
+        <div class="author-role">Independent Sleep Researcher — January 2022</div>
+      </div>
+    </div>
+
+    <div class="disclosure-box">
+      <strong>Affiliate Disclosure:</strong> This article contains affiliate links. We earn a small commission if you purchase through our links at no extra cost to you. <a href="../pages/affiliate-disclosure.html" style="color:var(--gold)">Full disclosure</a>
+    </div>
+
+    <p>Most people who struggle with insomnia reach for the same remedy: a sleeping pill, a melatonin gummy, or a cup of chamomile tea before bed. Sometimes it works. More often it doesn't — not because the remedy is bad, but because it's aimed at the wrong target. As Dr. Gregg Jacobs explains in <em>Say Good Night to Insomnia</em> (1998), insomnia is not a single condition but a cluster of distinct sleep disturbances, each with its own underlying mechanisms and appropriate treatments. Getting the distinction right is the first step toward lasting relief.</p>
+
+    <h2>Type 1: Sleep Onset Insomnia — The Inability to Fall Asleep</h2>
+
+    <div class="type-card">
+      <span class="type-card-label">Type 1</span>
+      <p style="margin-bottom:0"><strong>Definition:</strong> You lie in bed for 30 minutes or longer before falling asleep, at least three nights per week. You feel tired, but your brain simply will not switch off.</p>
+    </div>
+
+    <p>Sleep onset insomnia is the most recognizable form and the one most people think of when they hear the word "insomnia." The sufferer climbs into bed exhausted, only to find their mind racing through tomorrow's meetings, replaying a conversation from that afternoon, or catastrophizing about the fact that they are not yet asleep. This hyper-arousal — a state of elevated physiological and cognitive activation — is the core driver.</p>
+
+    <p>The brain's arousal system, governed largely by the locus coeruleus and the ascending reticular activating system, refuses to yield to the sleep system driven by adenosine buildup and the suprachiasmatic nucleus. In simple terms, the accelerator is stuck at the same time the brake is trying to engage.</p>
+
+    <h3>Common Causes</h3>
+    <ul>
+      <li>Anxiety disorders and generalized worry — the mind treats the quiet of bedtime as an invitation to problem-solve</li>
+      <li>Conditioned arousal — the bedroom itself becomes a cue for wakefulness after weeks of lying awake in it</li>
+      <li>Circadian phase delay — the biological clock running later than the desired sleep time, common in young adults</li>
+      <li>Poor sleep hygiene, including excessive screen light exposure that suppresses melatonin after 9pm</li>
+    </ul>
+
+    <h3>CBT-I Approaches for Sleep Onset Insomnia</h3>
+    <p>Cognitive Behavioral Therapy for Insomnia (CBT-I) is the gold-standard first-line treatment endorsed by the American College of Physicians, outperforming medication in long-term outcomes. For sleep onset insomnia specifically, the most effective components are:</p>
+    <ul>
+      <li><strong>Stimulus control therapy:</strong> Use the bed only for sleep and sex. If you cannot fall asleep within 20 minutes, get up and do something calm in dim light until sleepy. This breaks the conditioned arousal link between bed and wakefulness.</li>
+      <li><strong>Sleep restriction therapy:</strong> Temporarily reduce time in bed to match actual sleep time, building homeostatic sleep pressure that makes falling asleep faster and more reliable.</li>
+      <li><strong>Cognitive restructuring:</strong> Challenging the catastrophic thoughts ("I'll be useless tomorrow if I don't sleep") that amplify arousal and delay sleep onset.</li>
+    </ul>
+
+    <div class="callout">💡 <strong>Key insight:</strong> For sleep onset insomnia, the problem is rarely about the hours before bed — it is about the associations you have built between lying down and lying awake. Stimulus control is the most powerful tool to rewrite those associations.</div>
+
+    <h2>Type 2: Sleep Maintenance Insomnia — The 3am Phenomenon</h2>
+
+    <div class="type-card">
+      <span class="type-card-label">Type 2</span>
+      <p style="margin-bottom:0"><strong>Definition:</strong> You fall asleep without difficulty, but wake during the night — often between 2am and 4am — and struggle to return to sleep for an hour or more.</p>
+    </div>
+
+    <p>Sleep maintenance insomnia is arguably the more distressing form because it steals sleep from the middle of the night, when REM cycles are longest and most restorative. The sufferer falls asleep within minutes of lying down, only to surface fully awake at 3am, watching the clock, and beginning the same exhausting cycle of frustrated wakefulness.</p>
+
+    <p>The physiology behind middle-of-the-night waking is different from sleep onset failure. During the first half of the night, deep NREM sleep (N3) dominates, and brief arousals go unnoticed. In the second half, sleep lightens significantly — REM periods lengthen, sleep pressure (adenosine) has been substantially cleared, and the brain sits closer to the arousal threshold. Any disruption — a noise, a temperature change, a stress hormone spike — can tip a normal arousal into full wakefulness.</p>
+
+    <h3>What Wakes You Up at 3am?</h3>
+    <ul>
+      <li><strong>Cortisol prepulse:</strong> Cortisol naturally begins rising around 3-4am to prepare the body for waking. In people with HPA axis dysregulation, this rise comes too early or too sharply.</li>
+      <li><strong>Blood sugar fluctuation:</strong> A drop in blood glucose can trigger an adrenaline response that surfaces the sleeper from light NREM or REM sleep.</li>
+      <li><strong>Sleep apnea:</strong> Obstructive events during REM-heavy sleep in the second half of the night produce arousals that are blamed on insomnia rather than breathing obstruction — a critical diagnostic distinction.</li>
+      <li><strong>Alcohol metabolism:</strong> Alcohol suppresses REM in the first half of the night, then rebounds with arousing effects in the early morning hours as it is metabolized.</li>
+    </ul>
+
+    <h3>Treatment Strategies</h3>
+    <p>For sleep maintenance insomnia, sleep restriction therapy is particularly effective — compressing the sleep window increases sleep pressure and reduces the proportion of light sleep where arousals occur. Relaxation techniques like progressive muscle relaxation can be practiced during nocturnal wake episodes to reduce the fight-or-flight response that prolongs them. If sleep apnea is suspected, a sleep study is non-negotiable before any behavioral intervention.</p>
+
+    <div class="callout-green">
+      <strong>Practical Takeaway:</strong> If you wake at 3am reliably, check two things first: your alcohol intake the evening before, and whether you snore or stop breathing during sleep. These are treatable root causes that no amount of CBT-I or medication will fix if left unaddressed. Rule them out before blaming a racing mind.
+    </div>
+
+    <h2>Type 3: Early Morning Awakening Insomnia — Waking Before the Alarm</h2>
+
+    <div class="type-card">
+      <span class="type-card-label">Type 3</span>
+      <p style="margin-bottom:0"><strong>Definition:</strong> You wake spontaneously 30–90 minutes earlier than intended and cannot return to sleep, even when you feel you need more rest.</p>
+    </div>
+
+    <p>Early morning awakening is the least discussed type of insomnia, yet it carries a particularly important clinical signal. Unlike the other two types, which can arise from anxiety and poor habits alone, premature morning awakening has a strong association with clinical depression. Studies consistently show that early awakening is one of the most sensitive biological markers of depressive illness — the brain, dysregulated in its circadian timing and serotonin/norepinephrine balance, simply wakes the body too early and refuses to let it return to sleep.</p>
+
+    <h3>The Depression and Aging Connection</h3>
+    <p>Aging is the other major driver. As people enter their fifties and sixties, circadian rhythms advance — the biological clock shifts earlier, making early morning light feel like noon to a younger nervous system. Sleep architecture also shifts, with deep NREM sleep declining and stage N1 and N2 increasing, making early-morning arousals far more likely to become full awakenings.</p>
+
+    <p>Elevated morning cortisol — either from HPA axis irregularities associated with depression or from chronic stress — can also trigger premature awakening. The body's stress response system essentially fires an alarm call that overrides the remaining sleep pressure.</p>
+
+    <h3>Why Standard Sleep Hygiene Rarely Helps This Type</h3>
+    <p>Because early morning awakening is often downstream of a biological or psychiatric process, behavioral interventions targeting bedtime habits have limited impact. Treating the underlying depression — through therapy, pharmacotherapy, or both — frequently resolves the sleep disturbance without any dedicated insomnia treatment. Light therapy in the morning (paradoxically) can help advance a delayed circadian rhythm, but for an already-advanced rhythm, evening light exposure is more appropriate.</p>
+
+    <h2>Comorbid Insomnia: When Insomnia Accompanies Another Condition</h2>
+
+    <p>In clinical practice, the majority of chronic insomnia cases are comorbid — they occur alongside another medical or psychiatric condition rather than in isolation. Depression, anxiety disorders, chronic pain, GERD, and cardiac conditions all disrupt sleep as a secondary symptom. For decades, this was called "secondary insomnia," implying that treating the primary condition would resolve the sleep problem automatically.</p>
+
+    <p>The evidence has largely disproven this assumption. Research consistently shows that insomnia persists even after the primary condition is successfully treated, suggesting that it develops its own self-sustaining mechanisms — conditioned arousal, sleep anxiety, and disrupted homeostatic pressure — independent of whatever triggered it initially. This has led the sleep medicine field to retire the primary/secondary distinction in favor of a comorbid framing that demands insomnia be treated concurrently rather than sequentially.</p>
+
+    <div class="callout">💡 <strong>Clinical note:</strong> CBT-I has been shown to improve both insomnia and comorbid conditions like depression and chronic pain simultaneously. You do not have to wait for your anxiety or pain to resolve before addressing the sleep problem directly.</div>
+
+    <h2>Acute vs. Chronic Insomnia: The 3-Month Threshold</h2>
+
+    <p>Duration is the single most important variable determining how insomnia should be treated. The International Classification of Sleep Disorders (ICSD-3) draws a clear line: insomnia lasting fewer than three months is classified as acute (or short-term) insomnia; beyond three months it becomes chronic insomnia disorder.</p>
+
+    <p>Acute insomnia is the normal, expected response to a stressor — a job loss, a bereavement, a medical diagnosis, an upcoming exam. The vast majority of people experience at least one acute insomnia episode per year. For most, it resolves naturally as the stressor recedes. The danger is behavioral: the habits people develop to cope with acute insomnia (spending more time in bed, napping, avoiding activities, catastrophizing about sleep) are precisely the factors that convert a temporary disruption into a chronic condition.</p>
+
+    <p>This is why sleep specialists increasingly focus on early intervention. Treating acute insomnia aggressively with a brief CBT-I protocol — even two or three sessions — can prevent chronification. Sedative hypnotics prescribed for acute insomnia, by contrast, address the symptom without targeting the behavioral and cognitive factors, leaving the patient vulnerable to rebound insomnia when the medication is discontinued.</p>
+
+    <h2>Primary vs. Secondary Insomnia: A Distinction That Matters Less Than It Used To</h2>
+
+    <p>The older diagnostic framework divided insomnia into primary (no identifiable cause) and secondary (caused by something else). This was intuitive but clinically misleading. The implication — that secondary insomnia would resolve once the underlying cause was treated — was repeatedly contradicted by patient outcomes. Insomnia, once established, tends to persist through its own momentum.</p>
+
+    <p>The DSM-5 and ICSD-3 have both moved away from this binary, now using the term "insomnia disorder" regardless of comorbidities. This shift reflects the recognition that the mechanisms maintaining insomnia — learned arousal, sleep-effort paradox, distorted beliefs about sleep — operate independently of the original trigger. Treatment must address these maintaining factors directly.</p>
+
+    <h2>The ICSD-3 Classification: How Sleep Medicine Officially Categorizes Insomnia</h2>
+
+    <p>The International Classification of Sleep Disorders, Third Edition (ICSD-3), published by the American Academy of Sleep Medicine, is the authoritative clinical reference for sleep disorder classification. Under the ICSD-3, insomnia disorder is diagnosed when all of the following criteria are met:</p>
+
+    <ol>
+      <li>A reported complaint of difficulty initiating sleep, maintaining sleep, or early morning awakening with inability to return to sleep</li>
+      <li>The sleep disturbance occurs despite adequate opportunity and circumstances for sleep</li>
+      <li>At least one daytime impairment is reported (fatigue, mood disturbance, cognitive impairment, reduced performance, behavioral problems, or concern about sleep)</li>
+      <li>The disturbance is not better explained by another sleep disorder, substance use, or medical/psychiatric condition</li>
+    </ol>
+
+    <p>When these criteria are met for at least three nights per week for at least three months, the diagnosis is chronic insomnia disorder. The ICSD-3 does not distinguish between types based on timing alone — sleep onset, maintenance, and early awakening can all qualify, and many patients present with mixed features of more than one type simultaneously.</p>
+
+    <div class="callout-green">
+      <strong>Practical Takeaway:</strong> The three-month mark is not just a bureaucratic threshold — it represents the point at which the brain has had enough time to encode maladaptive sleep patterns as habits. If you have been sleeping poorly for 10–12 weeks and see no improvement, pursue a formal evaluation rather than continuing to self-manage. Early professional intervention produces significantly better long-term outcomes than years of trial-and-error.
+    </div>
+
+    <h2>Treatment Matching: Choosing the Right Approach for Your Type</h2>
+
+    <p>Once the type and duration of insomnia are understood, treatment can be matched precisely to the problem — which is the core insight in Jacobs's program in <em>Say Good Night to Insomnia</em>. The following breakdown covers the primary behavioral interventions and how they map to each insomnia subtype.</p>
+
+    <h3>Stimulus Control Therapy</h3>
+    <p>Best suited for: <strong>Sleep onset insomnia</strong> and chronic insomnia with conditioned arousal.<br>
+    The goal is to reassociate the bed and bedroom with rapid sleep onset. Rules include going to bed only when sleepy, getting out of bed after 20 minutes of wakefulness, using the bed only for sleep and sex, and maintaining a consistent wake time regardless of sleep quality the night before.</p>
+
+    <h3>Sleep Restriction Therapy</h3>
+    <p>Best suited for: <strong>Sleep maintenance insomnia</strong> and mixed-type chronic insomnia.<br>
+    By temporarily limiting time in bed to the actual hours of sleep achieved (typically no less than 5 hours initially), sleep restriction increases homeostatic pressure and consolidates fragmented sleep. The sleep window is expanded incrementally as efficiency improves. This intervention produces some of the strongest long-term outcomes in insomnia research, though the initial weeks feel counterintuitive and uncomfortable.</p>
+
+    <h3>Cognitive Therapy for Insomnia</h3>
+    <p>Best suited for: All types, particularly those driven by anxiety and catastrophic thinking.<br>
+    Cognitive therapy targets the dysfunctional beliefs that amplify insomnia — "I need 8 hours or I cannot function," "I have no control over my sleep," "One bad night will ruin my health." These beliefs increase pre-sleep arousal and create a self-fulfilling cycle. Identifying and restructuring them is a core component of CBT-I that works across all insomnia subtypes.</p>
+
+    <h3>Relaxation Techniques</h3>
+    <p>Best suited for: Sleep onset insomnia and nocturnal awakenings in maintenance insomnia.<br>
+    Progressive muscle relaxation, diaphragmatic breathing, and body-scan meditation all reduce the somatic arousal that competes with sleep. These techniques are most effective when practiced regularly during the day, not just at bedtime — the nervous system needs to learn the relaxation response before it can access it reliably under the pressure of trying to sleep.</p>
+
+    <div class="product-cta">
+      <span class="product-cta-text">Explore evidence-based sleep aids and natural insomnia solutions</span>
+      <a class="btn-amazon" href="https://www.amazon.com/s?k=insomnia+sleep+aid+natural&tag=sleepwiserevi-20" target="_blank" rel="noopener nofollow">Shop on Amazon</a>
+    </div>
+
+    <h2>Putting It Together: Know Your Type Before You Choose Your Treatment</h2>
+
+    <p>The practical implication of everything above is straightforward: before you reach for a supplement, download a sleep app, or ask your doctor for a prescription, spend one week tracking your sleep pattern in a simple journal. Note when you go to bed, when you actually fall asleep, whether you wake during the night, when you wake for the final time, and how you feel the next day.</p>
+
+    <p>If the pattern shows difficulty falling asleep, stimulus control and cognitive restructuring are your most powerful tools. If you fall asleep quickly but wake at 3am, sleep restriction and a check for sleep apnea or alcohol effects are the priority. If you are waking before 6am consistently and feeling low in mood, the conversation belongs with a clinician who can screen for depression before addressing sleep in isolation.</p>
+
+    <p>The framework Dr. Jacobs laid out in <em>Say Good Night to Insomnia</em> over two decades ago remains sound: insomnia is a behavioral and psychological problem as much as a biological one, and behavioral solutions — matched to the right type — outperform pills in every long-term study we have. The first step is knowing what you are actually dealing with.</p>
+
+    <div class="article-cta">
+      <h3>Get Our Free 7-Day Sleep Reset</h3>
+      <p>Join 18,000 readers who get weekly sleep tips and honest product reviews every Sunday.</p>
+      <a class="btn-amazon" href="../#newsletter">Subscribe Free</a>
+    </div>
+
+    <div class="related-articles">
+      <h3>Related Articles</h3>
+      <ul>
+        <li><a href="cbt-i-guide.html">The Complete CBT-I Guide: How to Rewire Your Brain for Better Sleep</a></li>
+        <li><a href="sleep-anxiety-techniques.html">Sleep Anxiety: 8 Science-Backed Techniques to Quiet a Racing Mind</a></li>
+        <li><a href="sleep-disorders-overview.html">Sleep Disorders Overview: When Bad Sleep Is More Than Just Insomnia</a></li>
+      </ul>
+    </div>
+  </article>
+
+  <footer>
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a class="logo" href="../">SleepWise<span>Reviews</span></a>
+        <p>Honest, science-backed reviews to help you sleep deeper, recover faster, and wake up energized.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Reviews</h4>
+        <ul>
+          <li><a href="https://www.amazon.com/s?k=weighted+blanket&tag=sleepwiserevi-20" target="_blank">Weighted Blankets</a></li>
+          <li><a href="https://www.amazon.com/s?k=white+noise+machine&tag=sleepwiserevi-20" target="_blank">White Noise Machines</a></li>
+          <li><a href="https://www.amazon.com/s?k=sleep+supplements&tag=sleepwiserevi-20" target="_blank">Supplements</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Guides</h4>
+        <ul>
+          <li><a href="../#picks">Sleep Optimization</a></li>
+          <li><a href="../#reviews">Bedtime Routines</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Site</h4>
+        <ul>
+          <li><a href="../pages/about.html">About Harry Soul</a></li>
+          <li><a href="../pages/privacy-policy.html">Privacy Policy</a></li>
+          <li><a href="../pages/affiliate-disclosure.html">Affiliate Disclosure</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div>© 2025 SleepWiseReviews. All rights reserved.</div>
+      <div class="affiliate-disc">SleepWiseReviews is a participant in the Amazon Services LLC Associates Program.</div>
+    </div>
+  </footer>
+</body>
+</html>
