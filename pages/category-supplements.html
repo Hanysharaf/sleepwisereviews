@@ -1,0 +1,738 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Supplements & Sleep Aids | SleepWise Reviews</title>
+  <meta name="description" content="Evidence-ranked guides to sleep supplements — what works, what doesn't, and exactly how to take them." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    /* ── Design Tokens ─────────────────────────────────────── */
+    :root {
+      --night:      #0A0E1A;
+      --deep:       #0F1525;
+      --navy:       #141B30;
+      --card:       #1A2238;
+      --border:     #252D45;
+      --gold:       #C9A84C;
+      --gold-light: #E5C96A;
+      --gold-dim:   rgba(201,168,76,0.15);
+      --star:       #F0E6C8;
+      --text:       #D4DCEE;
+      --muted:      #7A85A0;
+      --green:      #4CAF82;
+
+      --font-serif: 'Cormorant Garamond', Georgia, serif;
+      --font-sans:  'Outfit', system-ui, sans-serif;
+      --radius:     10px;
+      --transition: 0.25s ease;
+    }
+
+    /* ── Reset ─────────────────────────────────────────────── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    html { scroll-behavior: smooth; }
+    body {
+      background: var(--night);
+      color: var(--text);
+      font-family: var(--font-sans);
+      font-size: 16px;
+      line-height: 1.7;
+      -webkit-font-smoothing: antialiased;
+    }
+    a { color: inherit; text-decoration: none; }
+    img { display: block; max-width: 100%; }
+
+    /* ── Navigation ────────────────────────────────────────── */
+    .nav {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(10, 14, 26, 0.92);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+    }
+    .nav-inner {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 24px;
+      height: 64px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 24px;
+    }
+    .nav-logo {
+      font-family: var(--font-serif);
+      font-size: 1.45rem;
+      font-weight: 600;
+      color: var(--gold-light);
+      letter-spacing: 0.01em;
+      white-space: nowrap;
+      transition: color var(--transition);
+    }
+    .nav-logo:hover { color: var(--star); }
+    .nav-logo span {
+      color: var(--muted);
+      font-weight: 400;
+      font-style: italic;
+    }
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      list-style: none;
+      flex-wrap: wrap;
+    }
+    .nav-links a {
+      font-size: 0.85rem;
+      font-weight: 500;
+      color: var(--muted);
+      padding: 6px 12px;
+      border-radius: 6px;
+      transition: color var(--transition), background var(--transition);
+      letter-spacing: 0.02em;
+    }
+    .nav-links a:hover,
+    .nav-links a.active {
+      color: var(--gold-light);
+      background: var(--gold-dim);
+    }
+    .nav-cta {
+      font-size: 0.82rem;
+      font-weight: 500;
+      color: var(--night) !important;
+      background: var(--gold) !important;
+      padding: 7px 16px !important;
+      border-radius: 6px !important;
+      transition: background var(--transition), opacity var(--transition) !important;
+    }
+    .nav-cta:hover { background: var(--gold-light) !important; opacity: 1 !important; }
+
+    /* ── Breadcrumb ────────────────────────────────────────── */
+    .breadcrumb {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 20px 24px 0;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 0.82rem;
+      color: var(--muted);
+    }
+    .breadcrumb a {
+      color: var(--muted);
+      transition: color var(--transition);
+    }
+    .breadcrumb a:hover { color: var(--gold-light); }
+    .breadcrumb-sep {
+      font-size: 0.75rem;
+      opacity: 0.5;
+    }
+    .breadcrumb-current {
+      color: var(--gold);
+      font-weight: 500;
+    }
+
+    /* ── Category Hero ─────────────────────────────────────── */
+    .cat-page-hero {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 48px 24px 56px;
+    }
+    .cat-hero-content {
+      display: flex;
+      align-items: flex-start;
+      gap: 28px;
+    }
+    .cat-hero-icon {
+      font-size: 3.2rem;
+      line-height: 1;
+      flex-shrink: 0;
+      padding: 16px;
+      background: var(--gold-dim);
+      border: 1px solid rgba(201,168,76,0.25);
+      border-radius: 16px;
+    }
+    .cat-hero-text {}
+    .cat-hero-eyebrow {
+      font-size: 0.78rem;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 10px;
+    }
+    .cat-hero-title {
+      font-family: var(--font-serif);
+      font-size: clamp(2rem, 4vw, 3rem);
+      font-weight: 700;
+      color: var(--star);
+      line-height: 1.15;
+      margin-bottom: 14px;
+    }
+    .cat-hero-desc {
+      font-size: 1.05rem;
+      color: var(--text);
+      max-width: 680px;
+      line-height: 1.65;
+      margin-bottom: 18px;
+    }
+    .cat-hero-meta {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+    .cat-count-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 0.83rem;
+      font-weight: 500;
+      color: var(--gold);
+      background: var(--gold-dim);
+      border: 1px solid rgba(201,168,76,0.25);
+      padding: 5px 14px;
+      border-radius: 20px;
+    }
+    .cat-count-badge svg {
+      width: 14px;
+      height: 14px;
+      fill: none;
+      stroke: var(--gold);
+      stroke-width: 2;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+    }
+
+    /* ── Divider ───────────────────────────────────────────── */
+    .section-divider {
+      max-width: 1200px;
+      margin: 0 auto 40px;
+      padding: 0 24px;
+      border: none;
+      border-top: 1px solid var(--border);
+    }
+
+    /* ── Articles Grid ─────────────────────────────────────── */
+    .cat-articles-section {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 24px 80px;
+    }
+    .section-header {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 28px;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+    .section-title {
+      font-family: var(--font-serif);
+      font-size: 1.5rem;
+      font-weight: 600;
+      color: var(--star);
+    }
+    .section-subtitle {
+      font-size: 0.85rem;
+      color: var(--muted);
+      margin-top: 2px;
+    }
+    .cat-articles-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+      gap: 20px;
+    }
+
+    /* ── Archive Item Card ─────────────────────────────────── */
+    .archive-item {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 24px;
+      display: flex;
+      flex-direction: column;
+      gap: 12px;
+      transition: border-color var(--transition), transform var(--transition), box-shadow var(--transition);
+      position: relative;
+      overflow: hidden;
+    }
+    .archive-item::before {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 3px;
+      height: 100%;
+      background: linear-gradient(180deg, var(--gold), transparent);
+      opacity: 0;
+      transition: opacity var(--transition);
+    }
+    .archive-item:hover {
+      border-color: rgba(201,168,76,0.35);
+      transform: translateY(-2px);
+      box-shadow: 0 8px 32px rgba(0,0,0,0.35);
+    }
+    .archive-item:hover::before { opacity: 1; }
+
+    .archive-item-number {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+      font-family: var(--font-serif);
+      font-size: 2.2rem;
+      font-weight: 700;
+      color: var(--border);
+      line-height: 1;
+      pointer-events: none;
+      transition: color var(--transition);
+    }
+    .archive-item:hover .archive-item-number { color: var(--gold-dim); }
+
+    .archive-item-meta {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      flex-wrap: wrap;
+    }
+    .archive-tag {
+      font-size: 0.72rem;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--gold);
+      background: var(--gold-dim);
+      padding: 3px 10px;
+      border-radius: 4px;
+    }
+    .archive-date {
+      font-size: 0.78rem;
+      color: var(--muted);
+    }
+
+    .archive-title {
+      font-family: var(--font-serif);
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: var(--star);
+      line-height: 1.35;
+      transition: color var(--transition);
+      padding-right: 32px;
+    }
+    .archive-item:hover .archive-title { color: var(--gold-light); }
+
+    .archive-read-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 0.82rem;
+      font-weight: 500;
+      color: var(--gold);
+      margin-top: auto;
+      transition: gap var(--transition), color var(--transition);
+    }
+    .archive-read-link:hover { color: var(--gold-light); gap: 10px; }
+    .archive-read-link svg {
+      width: 14px;
+      height: 14px;
+      fill: none;
+      stroke: currentColor;
+      stroke-width: 2;
+      stroke-linecap: round;
+      stroke-linejoin: round;
+      transition: transform var(--transition);
+    }
+    .archive-item:hover .archive-read-link svg { transform: translateX(3px); }
+
+    /* ── Footer ────────────────────────────────────────────── */
+    .site-footer {
+      background: var(--deep);
+      border-top: 1px solid var(--border);
+      padding: 60px 24px 32px;
+    }
+    .footer-inner {
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+    .footer-grid {
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr 1fr;
+      gap: 48px;
+      margin-bottom: 48px;
+    }
+    .footer-brand {}
+    .footer-logo {
+      font-family: var(--font-serif);
+      font-size: 1.4rem;
+      font-weight: 600;
+      color: var(--gold-light);
+      margin-bottom: 12px;
+      display: block;
+    }
+    .footer-tagline {
+      font-size: 0.88rem;
+      color: var(--muted);
+      line-height: 1.6;
+      max-width: 280px;
+    }
+    .footer-col-title {
+      font-size: 0.78rem;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 16px;
+    }
+    .footer-links {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+    .footer-links a {
+      font-size: 0.88rem;
+      color: var(--muted);
+      transition: color var(--transition);
+    }
+    .footer-links a:hover { color: var(--gold-light); }
+    .footer-bottom {
+      border-top: 1px solid var(--border);
+      padding-top: 24px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+    .footer-copy {
+      font-size: 0.8rem;
+      color: var(--muted);
+    }
+    .footer-disclaimer {
+      font-size: 0.78rem;
+      color: var(--muted);
+      opacity: 0.7;
+      max-width: 520px;
+      text-align: right;
+    }
+
+    /* ── Responsive ────────────────────────────────────────── */
+    @media (max-width: 900px) {
+      .footer-grid { grid-template-columns: 1fr 1fr; gap: 32px; }
+    }
+    @media (max-width: 640px) {
+      .nav-links { display: none; }
+      .cat-hero-content { flex-direction: column; gap: 16px; }
+      .cat-hero-icon { font-size: 2.4rem; padding: 12px; }
+      .cat-articles-grid { grid-template-columns: 1fr; }
+      .footer-grid { grid-template-columns: 1fr; gap: 28px; }
+      .footer-bottom { flex-direction: column; text-align: center; }
+      .footer-disclaimer { text-align: center; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ── Navigation ── -->
+  <nav class="nav" role="navigation" aria-label="Main navigation">
+    <div class="nav-inner">
+      <a href="../" class="nav-logo">SleepWise<span>Reviews</span></a>
+      <ul class="nav-links">
+        <li><a href="../">Home</a></li>
+        <li><a href="../pages/category-supplements.html" class="active">Supplements</a></li>
+        <li><a href="../pages/category-sleep-science.html">Sleep Science</a></li>
+        <li><a href="../pages/category-disorders.html">Disorders</a></li>
+        <li><a href="../pages/category-products.html">Products</a></li>
+        <li><a href="../pages/about.html" class="nav-cta">About</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ── Breadcrumb ── -->
+  <nav class="breadcrumb" aria-label="Breadcrumb">
+    <a href="../">Home</a>
+    <span class="breadcrumb-sep">›</span>
+    <span class="breadcrumb-current">Supplements &amp; Sleep Aids</span>
+  </nav>
+
+  <!-- ── Hero ── -->
+  <header class="cat-page-hero">
+    <div class="cat-hero-content">
+      <div class="cat-hero-icon" aria-hidden="true">💊</div>
+      <div class="cat-hero-text">
+        <p class="cat-hero-eyebrow">Category</p>
+        <h1 class="cat-hero-title">Supplements &amp; Sleep Aids</h1>
+        <p class="cat-hero-desc">Evidence-ranked guides to sleep supplements — what works, what doesn't, and exactly how to take them.</p>
+        <div class="cat-hero-meta">
+          <span class="cat-count-badge">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><polyline points="10 9 9 9 8 9"/></svg>
+            12 articles
+          </span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <hr class="section-divider" />
+
+  <!-- ── Articles Grid ── -->
+  <main class="cat-articles-section" id="articles">
+    <div class="section-header">
+      <div>
+        <h2 class="section-title">All Articles</h2>
+        <p class="section-subtitle">Sorted by publication date — newest first</p>
+      </div>
+    </div>
+
+    <div class="cat-articles-grid">
+
+      <!-- 1 -->
+      <article class="archive-item">
+        <span class="archive-item-number" aria-hidden="true">01</span>
+        <div class="archive-item-meta">
+          <span class="archive-tag">Magnesium</span>
+          <span class="archive-date">Feb 2025</span>
+        </div>
+        <h3 class="archive-title">
+          <a href="../posts/article-magnesium-sleep.html">Best Magnesium for Sleep: Glycinate vs Citrate vs Threonate</a>
+        </h3>
+        <a href="../posts/article-magnesium-sleep.html" class="archive-read-link">
+          Read article
+          <svg viewBox="0 0 24 24" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </a>
+      </article>
+
+      <!-- 2 -->
+      <article class="archive-item">
+        <span class="archive-item-number" aria-hidden="true">02</span>
+        <div class="archive-item-meta">
+          <span class="archive-tag">Magnesium</span>
+          <span class="archive-date">Apr 2025</span>
+        </div>
+        <h3 class="archive-title">
+          <a href="../posts/magnesium-types-sleep.html">Magnesium for Sleep: Which Type Actually Works?</a>
+        </h3>
+        <a href="../posts/magnesium-types-sleep.html" class="archive-read-link">
+          Read article
+          <svg viewBox="0 0 24 24" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </a>
+      </article>
+
+      <!-- 3 -->
+      <article class="archive-item">
+        <span class="archive-item-number" aria-hidden="true">03</span>
+        <div class="archive-item-meta">
+          <span class="archive-tag">Melatonin</span>
+          <span class="archive-date">Mar 2025</span>
+        </div>
+        <h3 class="archive-title">
+          <a href="../posts/melatonin-guide.html">Melatonin: Dosage, Timing, and Why Less Is More</a>
+        </h3>
+        <a href="../posts/melatonin-guide.html" class="archive-read-link">
+          Read article
+          <svg viewBox="0 0 24 24" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </a>
+      </article>
+
+      <!-- 4 -->
+      <article class="archive-item">
+        <span class="archive-item-number" aria-hidden="true">04</span>
+        <div class="archive-item-meta">
+          <span class="archive-tag">Melatonin</span>
+          <span class="archive-date">Oct 2025</span>
+        </div>
+        <h3 class="archive-title">
+          <a href="../posts/best-melatonin-supplements.html">Best Melatonin Supplements in 2026</a>
+        </h3>
+        <a href="../posts/best-melatonin-supplements.html" class="archive-read-link">
+          Read article
+          <svg viewBox="0 0 24 24" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </a>
+      </article>
+
+      <!-- 5 -->
+      <article class="archive-item">
+        <span class="archive-item-number" aria-hidden="true">05</span>
+        <div class="archive-item-meta">
+          <span class="archive-tag">Best Of</span>
+          <span class="archive-date">May 2025</span>
+        </div>
+        <h3 class="archive-title">
+          <a href="../posts/best-sleep-supplements-guide.html">The 7 Best Sleep Supplements in 2026 (Beyond Melatonin)</a>
+        </h3>
+        <a href="../posts/best-sleep-supplements-guide.html" class="archive-read-link">
+          Read article
+          <svg viewBox="0 0 24 24" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </a>
+      </article>
+
+      <!-- 6 -->
+      <article class="archive-item">
+        <span class="archive-item-number" aria-hidden="true">06</span>
+        <div class="archive-item-meta">
+          <span class="archive-tag">Natural Aids</span>
+          <span class="archive-date">Aug 2024</span>
+        </div>
+        <h3 class="archive-title">
+          <a href="../posts/natural-sleep-aids.html">10 Natural Sleep Aids (Ranked by Evidence Strength)</a>
+        </h3>
+        <a href="../posts/natural-sleep-aids.html" class="archive-read-link">
+          Read article
+          <svg viewBox="0 0 24 24" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </a>
+      </article>
+
+      <!-- 7 -->
+      <article class="archive-item">
+        <span class="archive-item-number" aria-hidden="true">07</span>
+        <div class="archive-item-meta">
+          <span class="archive-tag">Herbal</span>
+          <span class="archive-date">Oct 2023</span>
+        </div>
+        <h3 class="archive-title">
+          <a href="../posts/best-valerian-root-supplements.html">Best Valerian Root Supplements for Sleep</a>
+        </h3>
+        <a href="../posts/best-valerian-root-supplements.html" class="archive-read-link">
+          Read article
+          <svg viewBox="0 0 24 24" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </a>
+      </article>
+
+      <!-- 8 -->
+      <article class="archive-item">
+        <span class="archive-item-number" aria-hidden="true">08</span>
+        <div class="archive-item-meta">
+          <span class="archive-tag">Magnesium</span>
+          <span class="archive-date">Aug 2023</span>
+        </div>
+        <h3 class="archive-title">
+          <a href="../posts/magnesium-deficiency-sleep.html">Magnesium Deficiency and Sleep: Are You Getting Enough?</a>
+        </h3>
+        <a href="../posts/magnesium-deficiency-sleep.html" class="archive-read-link">
+          Read article
+          <svg viewBox="0 0 24 24" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </a>
+      </article>
+
+      <!-- 9 -->
+      <article class="archive-item">
+        <span class="archive-item-number" aria-hidden="true">09</span>
+        <div class="archive-item-meta">
+          <span class="archive-tag">Gut Health</span>
+          <span class="archive-date">Apr 2024</span>
+        </div>
+        <h3 class="archive-title">
+          <a href="../posts/gut-microbiome-sleep.html">Your Gut Microbiome and Sleep</a>
+        </h3>
+        <a href="../posts/gut-microbiome-sleep.html" class="archive-read-link">
+          Read article
+          <svg viewBox="0 0 24 24" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </a>
+      </article>
+
+      <!-- 10 -->
+      <article class="archive-item">
+        <span class="archive-item-number" aria-hidden="true">10</span>
+        <div class="archive-item-meta">
+          <span class="archive-tag">Medications</span>
+          <span class="archive-date">Oct 2023</span>
+        </div>
+        <h3 class="archive-title">
+          <a href="../posts/sleep-medications-truth.html">The Truth About Sleep Medications</a>
+        </h3>
+        <a href="../posts/sleep-medications-truth.html" class="archive-read-link">
+          Read article
+          <svg viewBox="0 0 24 24" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </a>
+      </article>
+
+      <!-- 11 -->
+      <article class="archive-item">
+        <span class="archive-item-number" aria-hidden="true">11</span>
+        <div class="archive-item-meta">
+          <span class="archive-tag">Sleep Science</span>
+          <span class="archive-date">Jan 2021</span>
+        </div>
+        <h3 class="archive-title">
+          <a href="../posts/adenosine-sleep-drive.html">Adenosine: The Sleep Molecule That Makes You Tired</a>
+        </h3>
+        <a href="../posts/adenosine-sleep-drive.html" class="archive-read-link">
+          Read article
+          <svg viewBox="0 0 24 24" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </a>
+      </article>
+
+      <!-- 12 -->
+      <article class="archive-item">
+        <span class="archive-item-number" aria-hidden="true">12</span>
+        <div class="archive-item-meta">
+          <span class="archive-tag">Light Therapy</span>
+          <span class="archive-date">Mar 2024</span>
+        </div>
+        <h3 class="archive-title">
+          <a href="../posts/sleep-light-therapy.html">Light Therapy for Sleep: How to Use It</a>
+        </h3>
+        <a href="../posts/sleep-light-therapy.html" class="archive-read-link">
+          Read article
+          <svg viewBox="0 0 24 24" aria-hidden="true"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        </a>
+      </article>
+
+    </div>
+  </main>
+
+  <!-- ── Footer ── -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-grid">
+
+        <div class="footer-brand">
+          <a href="../" class="footer-logo">SleepWise Reviews</a>
+          <p class="footer-tagline">Evidence-based sleep research translated into practical, honest guidance. No hype — just what the science actually says.</p>
+        </div>
+
+        <div>
+          <p class="footer-col-title">Categories</p>
+          <ul class="footer-links">
+            <li><a href="category-supplements.html">Supplements &amp; Sleep Aids</a></li>
+            <li><a href="category-sleep-science.html">Sleep Science</a></li>
+            <li><a href="category-disorders.html">Sleep Disorders</a></li>
+            <li><a href="category-products.html">Products &amp; Reviews</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <p class="footer-col-title">Popular</p>
+          <ul class="footer-links">
+            <li><a href="../posts/best-sleep-supplements-guide.html">Best Sleep Supplements</a></li>
+            <li><a href="../posts/melatonin-guide.html">Melatonin Guide</a></li>
+            <li><a href="../posts/natural-sleep-aids.html">Natural Sleep Aids</a></li>
+            <li><a href="../posts/article-magnesium-sleep.html">Magnesium for Sleep</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <p class="footer-col-title">Site</p>
+          <ul class="footer-links">
+            <li><a href="../pages/about.html">About</a></li>
+            <li><a href="../pages/contact.html">Contact</a></li>
+            <li><a href="../pages/privacy.html">Privacy Policy</a></li>
+            <li><a href="../pages/disclaimer.html">Medical Disclaimer</a></li>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+        <p class="footer-copy">&copy; 2026 SleepWise Reviews. All rights reserved.</p>
+        <p class="footer-disclaimer">Content is for informational purposes only and does not constitute medical advice. Always consult a qualified healthcare professional before starting any supplement regimen.</p>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
