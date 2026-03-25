@@ -1,0 +1,896 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>ADHD and Sleep: Why Standard Sleep Advice Doesn't Always Work | SleepWiseReviews</title>
+  <meta name="description" content="Over 70% of adults with ADHD have significant sleep problems — not as a side effect, but as a core feature of how the ADHD circadian system is wired. Here's what actually helps." />
+  <link rel="canonical" href="https://hanysharaf.github.io/sleepwisereviews/posts/sleep-adhd.html" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="ADHD and Sleep: Why Standard Sleep Advice Doesn't Always Work" />
+  <meta property="og:description" content="Over 70% of adults with ADHD have significant sleep problems. The issue isn't discipline — it's circadian biology. Here's what the science says actually works." />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://hanysharaf.github.io/sleepwisereviews/posts/sleep-adhd.html" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <style>
+    :root {
+      --night: #0A0E1A;
+      --deep: #0F1525;
+      --navy: #141B30;
+      --card: #1A2238;
+      --border: #252D45;
+      --gold: #C9A84C;
+      --gold-light: #E5C96A;
+      --gold-dim: rgba(201,168,76,0.15);
+      --star: #F0E6C8;
+      --text: #D4DCEE;
+      --muted: #7A85A0;
+      --white: #FFFFFF;
+      --green: #4CAF82;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      background-color: var(--night);
+      color: var(--text);
+      font-family: 'Outfit', sans-serif;
+      font-weight: 400;
+      line-height: 1.75;
+      font-size: 17px;
+    }
+
+    body::before {
+      content: '';
+      position: fixed;
+      top: 0; left: 0; right: 0;
+      height: 420px;
+      background: radial-gradient(ellipse 80% 60% at 50% -10%, rgba(201,168,76,0.06) 0%, transparent 70%);
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    /* ── HEADER ── */
+    .site-header {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(10,14,26,0.92);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .header-inner {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 0 24px;
+      height: 60px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .logo {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.55rem;
+      font-weight: 700;
+      color: var(--gold);
+      text-decoration: none;
+      letter-spacing: 0.02em;
+    }
+
+    .logo span {
+      color: var(--star);
+      font-weight: 400;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 28px;
+      list-style: none;
+    }
+
+    .nav-links a {
+      color: var(--muted);
+      text-decoration: none;
+      font-size: 0.85rem;
+      font-weight: 500;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      transition: color 0.2s;
+    }
+
+    .nav-links a:hover { color: var(--gold-light); }
+
+    /* ── MAIN LAYOUT ── */
+    main {
+      position: relative;
+      z-index: 1;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 60px 24px 100px;
+    }
+
+    /* ── HERO ── */
+    .article-badge {
+      display: inline-block;
+      background: var(--gold-dim);
+      border: 1px solid rgba(201,168,76,0.3);
+      color: var(--gold-light);
+      font-size: 0.72rem;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      padding: 5px 14px;
+      border-radius: 20px;
+      margin-bottom: 22px;
+    }
+
+    .article-title {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(2rem, 5vw, 3rem);
+      font-weight: 700;
+      color: var(--white);
+      line-height: 1.2;
+      margin-bottom: 20px;
+      letter-spacing: -0.01em;
+    }
+
+    .article-meta {
+      font-size: 0.82rem;
+      color: var(--muted);
+      margin-bottom: 36px;
+      font-weight: 400;
+    }
+
+    .article-intro {
+      font-size: 1.12rem;
+      color: var(--star);
+      font-style: italic;
+      font-family: 'Cormorant Garamond', serif;
+      font-weight: 400;
+      line-height: 1.65;
+      border-left: 3px solid var(--gold);
+      padding-left: 20px;
+      margin-bottom: 44px;
+    }
+
+    /* ── AUTHOR BOX ── */
+    .author-box {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 18px 22px;
+      margin-bottom: 44px;
+    }
+
+    .author-avatar {
+      width: 48px;
+      height: 48px;
+      border-radius: 50%;
+      background: var(--gold-dim);
+      border: 2px solid rgba(201,168,76,0.4);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.4rem;
+      flex-shrink: 0;
+    }
+
+    .author-info .author-name {
+      font-weight: 600;
+      color: var(--star);
+      font-size: 0.92rem;
+    }
+
+    .author-info .author-bio {
+      font-size: 0.78rem;
+      color: var(--muted);
+      margin-top: 2px;
+      line-height: 1.45;
+    }
+
+    /* ── DISCLOSURE BOX ── */
+    .disclosure-box {
+      background: rgba(201,168,76,0.05);
+      border: 1px solid rgba(201,168,76,0.2);
+      border-radius: 8px;
+      padding: 14px 18px;
+      margin-bottom: 40px;
+      font-size: 0.78rem;
+      color: var(--muted);
+      line-height: 1.55;
+    }
+
+    .disclosure-box strong { color: var(--gold); }
+
+    /* ── TYPOGRAPHY ── */
+    h2 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.75rem;
+      font-weight: 600;
+      color: var(--white);
+      margin: 52px 0 16px;
+      letter-spacing: -0.01em;
+    }
+
+    h3 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.25rem;
+      font-weight: 600;
+      color: var(--gold-light);
+      margin: 32px 0 12px;
+    }
+
+    p { margin-bottom: 18px; }
+
+    strong { color: var(--star); font-weight: 600; }
+
+    a { color: var(--gold); text-decoration: none; transition: color 0.2s; }
+    a:hover { color: var(--gold-light); text-decoration: underline; }
+
+    ul, ol {
+      padding-left: 22px;
+      margin-bottom: 18px;
+    }
+
+    ul li, ol li {
+      margin-bottom: 8px;
+      color: var(--text);
+    }
+
+    hr {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 48px 0;
+    }
+
+    /* ── STAT GRID ── */
+    .stat-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
+      margin: 36px 0 44px;
+    }
+
+    .stat-card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 22px 18px;
+      text-align: center;
+    }
+
+    .stat-number {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 2.4rem;
+      font-weight: 700;
+      color: var(--gold);
+      line-height: 1;
+      margin-bottom: 8px;
+    }
+
+    .stat-label {
+      font-size: 0.78rem;
+      color: var(--muted);
+      line-height: 1.45;
+    }
+
+    /* ── CALLOUT BOX ── */
+    .callout {
+      border-radius: 8px;
+      padding: 20px 22px;
+      margin: 32px 0;
+      font-size: 0.95rem;
+      line-height: 1.65;
+    }
+
+    /* ── SCIENCE CALLOUT ── */
+    .science-callout {
+      background: rgba(15,21,37,0.8);
+      border: 1px solid var(--border);
+      border-left: 3px solid var(--gold);
+      border-radius: 8px;
+      padding: 20px 22px;
+      margin: 32px 0;
+      font-size: 0.92rem;
+      color: var(--text);
+      font-style: italic;
+    }
+
+    .science-callout cite {
+      display: block;
+      margin-top: 10px;
+      font-style: normal;
+      font-size: 0.78rem;
+      color: var(--muted);
+    }
+
+    /* ── COMPARISON TABLE ── */
+    .compare-table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.88rem;
+      margin: 32px 0;
+    }
+
+    .compare-table th {
+      text-align: left;
+      color: var(--muted);
+      font-weight: 500;
+      font-size: 0.72rem;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      padding: 10px 12px;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .compare-table td {
+      padding: 10px 12px;
+      border-bottom: 1px solid rgba(37,45,69,0.6);
+      vertical-align: top;
+      color: var(--text);
+    }
+
+    .compare-table tr:hover td { background: rgba(255,255,255,0.02); }
+
+    .compare-table .col-standard { color: var(--muted); }
+    .compare-table .col-adhd { color: var(--star); }
+
+    /* ── GOLD CALLOUT BOX ── */
+    .gold-callout {
+      background: rgba(201,168,76,0.07);
+      border: 1px solid rgba(201,168,76,0.35);
+      border-left: 3px solid var(--gold);
+      border-radius: 8px;
+      padding: 22px 26px;
+      margin: 40px 0;
+    }
+
+    .gold-callout h3 {
+      color: var(--gold-light);
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.15rem;
+      font-weight: 600;
+      margin: 0 0 10px;
+    }
+
+    .gold-callout p {
+      margin: 0;
+      font-size: 0.93rem;
+      color: var(--text);
+      line-height: 1.65;
+    }
+
+    /* ── PRODUCT CTA ── */
+    .product-cta {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 28px;
+      margin: 48px 0;
+      display: flex;
+      gap: 22px;
+      align-items: flex-start;
+    }
+
+    .product-icon {
+      font-size: 2.4rem;
+      flex-shrink: 0;
+      line-height: 1;
+    }
+
+    .product-content h3 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: var(--gold-light);
+      margin: 0 0 8px;
+    }
+
+    .product-content p {
+      font-size: 0.9rem;
+      color: var(--muted);
+      margin: 0 0 16px;
+      line-height: 1.55;
+    }
+
+    .product-btn {
+      display: inline-block;
+      background: var(--gold);
+      color: var(--night);
+      font-weight: 600;
+      font-size: 0.85rem;
+      padding: 10px 22px;
+      border-radius: 6px;
+      text-decoration: none;
+      letter-spacing: 0.02em;
+      transition: background 0.2s, transform 0.15s;
+    }
+
+    .product-btn:hover {
+      background: var(--gold-light);
+      text-decoration: none;
+      transform: translateY(-1px);
+    }
+
+    .product-disclosure {
+      font-size: 0.7rem;
+      color: var(--muted);
+      margin-top: 10px;
+    }
+
+    /* ── ARTICLE CTA ── */
+    .article-cta {
+      background: var(--navy);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 32px 28px;
+      margin: 48px 0;
+      text-align: center;
+    }
+
+    .article-cta h3 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.4rem;
+      font-weight: 600;
+      color: var(--white);
+      margin: 0 0 10px;
+    }
+
+    .article-cta p {
+      color: var(--muted);
+      font-size: 0.9rem;
+      margin: 0 0 20px;
+      line-height: 1.6;
+    }
+
+    .cta-btn {
+      display: inline-block;
+      background: transparent;
+      border: 1px solid var(--gold);
+      color: var(--gold);
+      font-weight: 600;
+      font-size: 0.85rem;
+      padding: 10px 24px;
+      border-radius: 6px;
+      text-decoration: none;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      transition: all 0.2s;
+    }
+
+    .cta-btn:hover {
+      background: var(--gold);
+      color: var(--night);
+      text-decoration: none;
+    }
+
+    /* ── RELATED ARTICLES ── */
+    .related-section {
+      margin: 56px 0 0;
+    }
+
+    .related-section h2 {
+      font-size: 1.3rem;
+      margin-bottom: 20px;
+    }
+
+    .related-grid {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 16px;
+    }
+
+    .related-card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 20px;
+      text-decoration: none;
+      transition: border-color 0.2s, transform 0.15s;
+      display: block;
+    }
+
+    .related-card:hover {
+      border-color: rgba(201,168,76,0.4);
+      transform: translateY(-2px);
+      text-decoration: none;
+    }
+
+    .related-label {
+      font-size: 0.68rem;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 8px;
+    }
+
+    .related-title {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: var(--white);
+      line-height: 1.35;
+      margin-bottom: 6px;
+    }
+
+    .related-desc {
+      font-size: 0.78rem;
+      color: var(--muted);
+      line-height: 1.5;
+    }
+
+    /* ── FOOTER ── */
+    .site-footer {
+      background: var(--navy);
+      border-top: 1px solid var(--border);
+      padding: 48px 24px 32px;
+      margin-top: 80px;
+    }
+
+    .footer-inner {
+      max-width: 1100px;
+      margin: 0 auto;
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr;
+      gap: 40px;
+    }
+
+    .footer-brand .logo {
+      display: block;
+      margin-bottom: 12px;
+    }
+
+    .footer-brand p {
+      font-size: 0.82rem;
+      color: var(--muted);
+      line-height: 1.6;
+      margin: 0;
+    }
+
+    .footer-col h4 {
+      font-size: 0.72rem;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 14px;
+    }
+
+    .footer-col ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .footer-col ul li {
+      margin-bottom: 8px;
+    }
+
+    .footer-col ul li a {
+      font-size: 0.84rem;
+      color: var(--muted);
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+
+    .footer-col ul li a:hover { color: var(--gold-light); }
+
+    .footer-bottom {
+      max-width: 1100px;
+      margin: 32px auto 0;
+      padding-top: 24px;
+      border-top: 1px solid var(--border);
+      font-size: 0.75rem;
+      color: var(--muted);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    /* ── RESPONSIVE ── */
+    @media (max-width: 640px) {
+      .stat-grid { grid-template-columns: 1fr 1fr; }
+      .related-grid { grid-template-columns: 1fr; }
+      .product-cta { flex-direction: column; gap: 14px; }
+      .nav-links { display: none; }
+      .footer-inner { grid-template-columns: 1fr; gap: 28px; }
+      .footer-bottom { flex-direction: column; gap: 8px; text-align: center; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- ── SITE HEADER ── -->
+  <header class="site-header">
+    <div class="header-inner">
+      <a href="/sleepwisereviews/" class="logo">SleepWise<span>Reviews</span></a>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="/sleepwisereviews/">Home</a></li>
+          <li><a href="/sleepwisereviews/reviews.html">Reviews</a></li>
+          <li><a href="/sleepwisereviews/science.html">Science</a></li>
+          <li><a href="/sleepwisereviews/guides.html">Guides</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- ── MAIN CONTENT ── -->
+  <main>
+
+    <span class="article-badge">ADHD &amp; Sleep</span>
+
+    <h1 class="article-title">ADHD and Sleep: Why Standard Sleep Advice Doesn't Always Work</h1>
+
+    <p class="article-meta">📅 March 2025 · ⏱ 8 min read · 🔄 Updated Mar 2026</p>
+
+    <p class="article-intro">Over 70% of adults with ADHD have significant sleep problems — not as a side effect of their condition, but as a core feature of how their circadian system is wired. The advice that works for everyone else often makes things worse.</p>
+
+    <!-- ── AUTHOR BOX ── -->
+    <div class="author-box">
+      <div class="author-avatar">🌙</div>
+      <div class="author-info">
+        <div class="author-name">Harry Soul</div>
+        <div class="author-bio">Sleep researcher and writer. Covers circadian biology, sleep disorders, and evidence-based sleep optimization. Not a medical professional — always consult your doctor.</div>
+      </div>
+    </div>
+
+    <!-- ── DISCLOSURE BOX ── -->
+    <div class="disclosure-box">
+      <strong>Disclosure:</strong> This article contains affiliate links. If you purchase through these links, SleepWiseReviews earns a small commission at no extra cost to you. We only recommend products relevant to the science discussed.
+    </div>
+
+    <p>If you have ADHD and you've been told to keep a consistent sleep schedule, avoid screens before bed, and get up at the same time every morning — and it still isn't working — you are not doing it wrong. You are applying neurotypical sleep rules to a brain that runs on a fundamentally different circadian timetable.</p>
+
+    <p>Understanding why standard advice misfires requires understanding what's actually different about the ADHD sleep system. And once you see it clearly, the solutions become much more targeted and much more effective.</p>
+
+    <!-- ── STAT GRID ── -->
+    <div class="stat-grid">
+      <div class="stat-card">
+        <div class="stat-number">70%+</div>
+        <div class="stat-label">of adults with ADHD report clinically significant sleep problems</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number">1.5h</div>
+        <div class="stat-label">average delay in circadian phase in ADHD adults vs. neurotypical peers</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-number">3×</div>
+        <div class="stat-label">higher rate of delayed sleep phase disorder in ADHD populations</div>
+      </div>
+    </div>
+
+    <h2>The ADHD Circadian System Is Wired Differently</h2>
+
+    <p>Chronobiologist Michael Breus has documented extensively how individual circadian rhythms — what he calls chronotypes — vary across the population (Breus, 2016). But the ADHD circadian system doesn't just sit at one end of a normal distribution. It shows a consistent pattern of delay: melatonin onset, core body temperature drop, and cortisol awakening response all occur later than in neurotypical individuals, often by 90 minutes to two hours.</p>
+
+    <p>This isn't a sleep habit problem. It's a biological timing problem. The ADHD brain's master clock — located in the suprachiasmatic nucleus — runs on a phase that's shifted later relative to conventional day-night cycles. This is why so many adults with ADHD describe themselves as natural night owls who become genuinely alert and creative after 10 PM, then struggle to function when a conventional alarm clock fires at 7 AM.</p>
+
+    <div class="science-callout">
+      "Chronotype influences not just when we feel sleepy, but the timing of virtually every biological process — hormone secretion, body temperature, metabolism, cognitive performance peaks, and mood regulation. Working against your chronotype doesn't just feel unpleasant; it impairs performance on every measurable dimension."
+      <cite>— Breus, M. (2016). <em>The Power of When</em>. Little, Brown and Company.</cite>
+    </div>
+
+    <p>Research on delayed sleep phase disorder (DSPD) consistently finds higher prevalence in ADHD populations — estimates range from 70% to 80% of adults with ADHD meeting criteria for a circadian rhythm disruption, compared to roughly 10% of the general population. This co-occurrence is not coincidental. Dopaminergic dysregulation — the core neurochemical feature of ADHD — appears to directly influence circadian clock gene expression, meaning the same neurological differences that create attention difficulties also reshape the timing of sleep-wake cycles.</p>
+
+    <h2>Why Standard Sleep Advice Fails for ADHD Brains</h2>
+
+    <p>Most mainstream sleep hygiene guidance is built on assumptions that simply don't apply to the ADHD circadian system. Here's where the mismatch becomes concrete:</p>
+
+    <div class="compare-table-wrapper">
+      <table class="compare-table">
+        <thead>
+          <tr>
+            <th>Standard Advice</th>
+            <th>Why It Backfires with ADHD</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="col-standard">Go to bed at 10–11 PM consistently</td>
+            <td class="col-adhd">Melatonin hasn't risen yet. Lying in bed alert for 2 hours creates conditioned arousal — the bed becomes associated with frustration rather than sleep.</td>
+          </tr>
+          <tr>
+            <td class="col-standard">Wake at the same time every day</td>
+            <td class="col-adhd">Correct principle, wrong starting point. Waking at 7 AM when your biological sleep window is 1–9 AM produces chronic sleep deprivation, not circadian realignment.</td>
+          </tr>
+          <tr>
+            <td class="col-standard">Avoid screens 1 hour before bed</td>
+            <td class="col-adhd">Helpful, but ADHD brains often use evening screen time as dopamine regulation. Removing it without a replacement creates a stimulation vacuum that makes sleep onset worse.</td>
+          </tr>
+          <tr>
+            <td class="col-standard">Don't nap during the day</td>
+            <td class="col-adhd">For ADHD adults running a chronic sleep deficit, strategic napping (20 minutes before 3 PM) can reduce cognitive impairment without disrupting nighttime sleep.</td>
+          </tr>
+          <tr>
+            <td class="col-standard">Stick to a relaxing bedtime routine</td>
+            <td class="col-adhd">ADHD nervous systems often require active decompression — not passive relaxation. Low-stimulation activities may paradoxically increase restlessness at bedtime.</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <p>The fundamental error in generic sleep advice is treating the sleep problem as a behavior problem rather than a biological timing problem. For neurotypical individuals, consistent sleep schedules work because their biology is already aligned with conventional timing — they just need to follow it reliably. For adults with ADHD, the biological timing itself needs to be addressed first.</p>
+
+    <h2>What Actually Works: Strategies Built for the ADHD Sleep System</h2>
+
+    <p>Effective sleep intervention for ADHD requires working with the delayed circadian phase rather than against it. This doesn't mean giving up on earlier sleep — it means approaching the timing problem correctly from the start.</p>
+
+    <h3>Start With Your Actual Sleep Window</h3>
+
+    <p>The first step is identifying when your ADHD brain actually wants to sleep — not when convention says you should. Track the time you naturally feel genuine sleepiness (not just tiredness) over five to seven days without an alarm. This is your current biological sleep window. Any schedule intervention needs to start from here, not from an arbitrary earlier target.</p>
+
+    <p>Breus recommends building outward from your natural chronotype rather than imposing an external schedule (Breus, 2016). For ADHD adults this is especially important: attempting to shift sleep timing by more than 30 minutes per week reliably fails because the circadian adjustment can't outpace the biological resistance.</p>
+
+    <h3>Morning Light as a Phase-Shifting Tool</h3>
+
+    <p>Bright light exposure is the most powerful circadian phase-shifting tool available without a prescription. For ADHD adults trying to shift their sleep timing earlier, 10–20 minutes of bright outdoor light within 30 minutes of waking — even if waking at 8 or 9 AM initially — begins pulling the circadian clock forward. Over two to three weeks, this can shift sleep onset 30–60 minutes earlier without the cortisol disruption of forced early waking.</p>
+
+    <h3>Dopamine-Aware Wind-Down Protocols</h3>
+
+    <p>Because ADHD brains rely on dopamine stimulation to regulate the nervous system, evening wind-down cannot simply be an absence of stimulation. It needs to be a substitution: lower-intensity engagement that satisfies the need for dopamine input without triggering the high-alert states that delay sleep onset.</p>
+
+    <p>Effective options include audiobooks or podcasts (auditory engagement with no visual demands), low-complexity games or puzzles, brief physical movement routines, or weighted sensory input. The weighted blanket effect — delivering deep pressure stimulation that activates the parasympathetic nervous system — is particularly well-suited to ADHD adults who find passive relaxation aversive.</p>
+
+    <!-- ── GOLD CALLOUT: TONIGHT'S ACTION ── -->
+    <div class="gold-callout">
+      <h3>💛 Tonight's Starting Point</h3>
+      <p>Before changing anything else, track your natural sleepiness window tonight. Note the exact time when genuine drowsiness arrives — not when you feel you <em>should</em> sleep. That number is your baseline. Every schedule adjustment in the coming weeks starts from there, not from a generic 10 PM recommendation.</p>
+    </div>
+
+    <h3>Medication Timing and Sleep Architecture</h3>
+
+    <p>Stimulant medications — methylphenidate, amphetamine salts, and their extended-release formulations — interact directly with sleep architecture in ways that require careful timing management. The relationship is more nuanced than most people assume.</p>
+
+    <p><strong>The stimulant rebound effect</strong> is one of the most underappreciated contributors to ADHD sleep difficulty. As stimulant medications wear off in the evening, some individuals experience a rebound in ADHD symptoms — hyperactivity, racing thoughts, emotional reactivity — that significantly impairs sleep onset. This is distinct from stimulant-induced insomnia and is often misattributed to the medication "not working."</p>
+
+    <p><strong>Timing the afternoon dose</strong> is a balancing act that varies significantly by individual. Too early and the rebound begins before the evening routine starts; too late and the stimulant itself is still active at bedtime. Working with your prescribing physician to identify the optimal timing for your specific formulation and metabolism is often the highest-leverage sleep intervention available to ADHD adults on medication.</p>
+
+    <p><strong>Non-stimulant options</strong> like atomoxetine and viloxazine have different sleep interaction profiles. Some adults find they actually improve sleep quality by reducing hyperarousal states; others find they initially disrupt sleep during the adjustment period. Again, the individual variation is high enough that generalizations are less useful than careful personal tracking.</p>
+
+    <!-- ── GREEN CALLOUT: TONIGHT'S ACTION ── -->
+    <div class="callout" style="border-left:3px solid var(--green); background: rgba(76,175,82,0.06); border: 1px solid rgba(76,175,82,0.3); border-left: 3px solid var(--green); border-radius: 8px; padding: 20px 22px; margin: 32px 0;">
+      💚 <strong>Tonight's action:</strong> If you have ADHD, try shifting your bedtime 30 minutes later than what generic sleep advice recommends. Many ADHD brains run on a delayed circadian phase — fighting it often backfires.
+    </div>
+
+    <h2>Building a Sleep System That Holds</h2>
+
+    <p>The goal for ADHD sleep management is not perfection — it's a system robust enough to survive the natural variability that comes with ADHD executive function. This means building in flexibility while preserving the non-negotiable anchor points that keep the circadian clock stable.</p>
+
+    <h3>The Fixed Wake Time Principle</h3>
+
+    <p>Even if bedtime varies — and for ADHD adults it often will — the single most effective circadian stabilizer is a fixed wake time. This should be the same seven days a week, including weekends. The wake time doesn't need to be early: a consistent 9 AM wake is infinitely more effective for circadian regulation than a variable 7–10 AM range.</p>
+
+    <p>Pair the fixed wake time with immediate bright light exposure. This combination — consistent wake time plus morning light — is the foundation that all other sleep improvements are built on. It works because it provides the suprachiasmatic nucleus with the two strongest circadian signals available: timing anchor and photic input.</p>
+
+    <h3>The Strategic Use of Melatonin</h3>
+
+    <p>Melatonin for ADHD sleep works best not as a sleep-onset aid taken at bedtime, but as a phase-shifting tool taken two to three hours before desired sleep onset. Low doses — 0.5 mg to 1 mg — taken at consistent times signal the circadian clock that sleep should begin soon, gradually pulling the biological sleep window earlier over one to two weeks. Higher doses taken at bedtime primarily sedate without addressing the underlying timing problem.</p>
+
+    <p>This is a meaningful distinction that most sleep advice misses. The question isn't whether to take melatonin — it's <em>when</em> and <em>how much</em>, and the answer differs significantly for ADHD adults compared to neurotypical individuals. As always, discuss with your doctor before starting any supplement regimen.</p>
+
+    <h3>Sensory Environment as a Sleep Tool</h3>
+
+    <p>ADHD brains are often hypersensitive to environmental stimuli — sounds, light levels, temperature discomfort — that neurotypical sleepers filter out without noticing. This sensory sensitivity means the sleep environment itself needs to be more deliberately engineered than average.</p>
+
+    <p>Deep pressure stimulation from weighted blankets has been studied in both ADHD and anxiety populations, with research suggesting that the proprioceptive input activates the parasympathetic nervous system and reduces the nervous system hyperarousal that makes sleep onset difficult for many ADHD adults. The effect is most pronounced in individuals with sensory processing sensitivities — a common feature of ADHD.</p>
+
+    <!-- ── PRODUCT CTA ── -->
+    <div class="product-cta">
+      <div class="product-icon">🛏️</div>
+      <div class="product-content">
+        <h3>Weighted Blankets for ADHD Sleep — What to Look For</h3>
+        <p>For ADHD adults, weighted blankets work by providing consistent deep pressure stimulation that activates parasympathetic nervous system response and reduces the pre-sleep hyperarousal that delays sleep onset. Look for blankets weighted at approximately 10% of your body weight in breathable materials — cotton or bamboo — to avoid the temperature sensitivity that can interrupt sleep in the second half of the night.</p>
+        <a class="product-btn" href="https://www.amazon.com/s?k=weighted+blanket+for+adults+sleep&tag=sleepwiserevi-20" target="_blank" rel="noopener">Browse Weighted Blankets on Amazon →</a>
+        <p class="product-disclosure">Affiliate disclosure: SleepWiseReviews earns a small commission on qualifying purchases at no extra cost to you.</p>
+      </div>
+    </div>
+
+    <h2>What the Research Actually Says About ADHD Sleep Treatment</h2>
+
+    <p>The evidence base for ADHD-specific sleep intervention has grown substantially in the last decade. Several findings stand out as particularly actionable:</p>
+
+    <ul>
+      <li><strong>Chronotherapy works faster than medication adjustments alone</strong> for DSPD in ADHD. A combination of light therapy in the morning, low-dose melatonin in the evening, and gradual bedtime advancement produces measurable circadian shifts within two to four weeks.</li>
+      <li><strong>Sleep deprivation severely amplifies ADHD symptom severity.</strong> Studies show that ADHD adults sleeping fewer than seven hours show significantly worse attention, working memory, and impulse control than when adequately rested — often indistinguishable from a medication-off state. Fixing sleep is, in effect, a form of ADHD treatment.</li>
+      <li><strong>CBT-I (Cognitive Behavioral Therapy for Insomnia) requires modification for ADHD.</strong> Standard CBT-I protocols — particularly sleep restriction — can be counterproductive when the underlying problem is circadian phase delay rather than conditioned arousal. Modified protocols that address the timing component alongside sleep compression produce better outcomes.</li>
+      <li><strong>Exercise timing matters more for ADHD adults.</strong> The cortisol and norepinephrine elevation from exercise that helps many neurotypical people sleep better when exercising in the late afternoon can extend alertness significantly longer in ADHD adults. Morning or early afternoon exercise tends to produce better sleep outcomes without disrupting the evening sleep window.</li>
+    </ul>
+
+    <div class="science-callout">
+      "Adults with ADHD who received sleep-focused intervention — including chronotherapy and behavioral sleep medicine techniques — showed significant improvement not only in sleep outcomes but in daytime ADHD symptom severity, independent of changes in medication. Sleep is not a peripheral concern in ADHD management. It is central to it."
+      <cite>— Paraphrased from Hvolby, A. (2015). Associations of sleep disturbance with ADHD. <em>ADHD Attention Deficit and Hyperactivity Disorders, 7</em>(1), 1–18.</cite>
+    </div>
+
+    <p>The clinical implication is significant: for adults managing ADHD, sleep quality is not a lifestyle issue sitting alongside their treatment plan — it is part of the treatment plan. Inadequate sleep undermines every other intervention, including medication efficacy.</p>
+
+    <!-- ── ARTICLE CTA ── -->
+    <div class="article-cta">
+      <h3>Build Your Personalized Sleep Protocol</h3>
+      <p>Our 30-Day Sleep Challenge walks you through the science-backed progression — from circadian anchoring to environment optimization — structured so that each phase builds on the last. ADHD-friendly modifications are built in throughout.</p>
+      <a class="cta-btn" href="/sleepwisereviews/posts/30-day-sleep-challenge.html">Read the 30-Day Challenge →</a>
+    </div>
+
+    <hr />
+
+    <p style="font-size:0.82rem; color:var(--muted); line-height:1.6;">
+      <strong style="color:var(--muted);">References:</strong><br />
+      Breus, M. (2016). <em>The Power of When: Discover Your Chronotype — and the Best Time to Eat Lunch, Ask for a Raise, Have Sex, Write a Novel, Take Your Meds, and More</em>. Little, Brown and Company.<br /><br />
+      Hvolby, A. (2015). Associations of sleep disturbance with ADHD: implications for treatment. <em>ADHD Attention Deficit and Hyperactivity Disorders, 7</em>(1), 1–18.<br /><br />
+      <em>This article is for informational purposes only and does not constitute medical advice. If you have ADHD and are experiencing significant sleep problems, consult a sleep specialist or your prescribing physician for personalized guidance.</em>
+    </p>
+
+    <!-- ── RELATED ARTICLES ── -->
+    <div class="related-section">
+      <h2>Related Articles</h2>
+      <div class="related-grid">
+        <a class="related-card" href="/sleepwisereviews/posts/30-day-sleep-challenge.html">
+          <div class="related-label">30-Day Challenge</div>
+          <div class="related-title">The 30-Day Better Sleep Challenge</div>
+          <div class="related-desc">A structured four-phase progression to rebuild your sleep from the ground up — daily actions that train your circadian system automatically.</div>
+        </a>
+        <a class="related-card" href="/sleepwisereviews/science.html">
+          <div class="related-label">Sleep Science</div>
+          <div class="related-title">Circadian Rhythms and Chronotypes Explained</div>
+          <div class="related-desc">Why your sleep timing is largely biological — and how understanding your chronotype changes everything about how you approach sleep.</div>
+        </a>
+        <a class="related-card" href="/sleepwisereviews/reviews.html">
+          <div class="related-label">Gear Reviews</div>
+          <div class="related-title">Best Sleep Tools for Sensitive Sleepers</div>
+          <div class="related-desc">Weighted blankets, white noise machines, sunrise alarms — reviewed for adults whose nervous systems need more than standard sleep hygiene.</div>
+        </a>
+        <a class="related-card" href="/sleepwisereviews/guides.html">
+          <div class="related-label">Guides</div>
+          <div class="related-title">Sleep Hygiene: What Works and What Doesn't</div>
+          <div class="related-desc">A critical look at the most common sleep advice — separating the evidence-backed interventions from the overcited myths.</div>
+        </a>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- ── SITE FOOTER ── -->
+  <footer class="site-footer">
+    <div class="footer-inner">
+      <div class="footer-brand">
+        <a href="/sleepwisereviews/" class="logo">SleepWise<span>Reviews</span></a>
+        <p>Evidence-based sleep content for people who've tried the generic advice and need something better. We cover the science, the tools, and the edge cases — including the ones mainstream sleep guides ignore.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Content</h4>
+        <ul>
+          <li><a href="/sleepwisereviews/reviews.html">Product Reviews</a></li>
+          <li><a href="/sleepwisereviews/science.html">Sleep Science</a></li>
+          <li><a href="/sleepwisereviews/guides.html">Sleep Guides</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Legal</h4>
+        <ul>
+          <li><a href="/sleepwisereviews/privacy.html">Privacy Policy</a></li>
+          <li><a href="/sleepwisereviews/disclosure.html">Affiliate Disclosure</a></li>
+          <li><a href="/sleepwisereviews/disclaimer.html">Medical Disclaimer</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2025 SleepWiseReviews. All rights reserved.</span>
+      <span>Content for informational purposes only. Not medical advice.</span>
+    </div>
+  </footer>
+
+</body>
+</html>
