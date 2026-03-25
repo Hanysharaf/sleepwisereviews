@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>REM Sleep: Why Your Brain Needs It Every Single Night - SleepWiseReviews</title>
+  <meta name="description" content="Emotional memories don't just fade — your brain actively reprocesses them during REM, stripping out the pain. Discover why REM sleep is the most critical stage for your mental health, creativity, and emotional resilience." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <style type='text/css'>
+    :root {
+      --night: #0A0E1A;
+      --deep: #0F1525;
+      --navy: #141B30;
+      --card: #1A2238;
+      --border: #252D45;
+      --gold: #C9A84C;
+      --gold-light: #E5C96A;
+      --gold-dim: rgba(201, 168, 76, 0.15);
+      --star: #F0E6C8;
+      --text: #D4DCEE;
+      --muted: #7A85A0;
+      --white: #FFFFFF;
+      --green: #4CAF82;
+    }
+
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: 'Outfit', sans-serif;
+      background: var(--night);
+      color: var(--text);
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      background-image:
+        radial-gradient(1px 1px at 10% 15%, rgba(240, 230, 200, 0.6) 0%, transparent 100%),
+        radial-gradient(1px 1px at 25% 40%, rgba(240, 230, 200, 0.4) 0%, transparent 100%),
+        radial-gradient(1.5px 1.5px at 40% 10%, rgba(240, 230, 200, 0.5) 0%, transparent 100%),
+        radial-gradient(1px 1px at 55% 30%, rgba(240, 230, 200, 0.3) 0%, transparent 100%),
+        radial-gradient(1px 1px at 70% 5%, rgba(240, 230, 200, 0.6) 0%, transparent 100%),
+        radial-gradient(1.5px 1.5px at 80% 20%, rgba(240, 230, 200, 0.4) 0%, transparent 100%),
+        radial-gradient(1px 1px at 90% 45%, rgba(240, 230, 200, 0.3) 0%, transparent 100%);
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    nav {
+      position: sticky; top: 0; z-index: 100;
+      background: rgba(10, 14, 26, 0.92);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+      padding: 0 6%; height: 68px;
+      display: flex; align-items: center; justify-content: space-between;
+    }
+    .logo { font-family: 'Cormorant Garamond', serif; font-size: 1.6rem; font-weight: 700; color: var(--star); text-decoration: none; }
+    .logo span { color: var(--gold); }
+    .nav-links { display: flex; gap: 2rem; list-style: none; }
+    .nav-links a { text-decoration: none; color: var(--muted); font-size: 0.88rem; font-weight: 500; transition: color 0.2s; }
+    .nav-links a:hover { color: var(--gold); }
+    .nav-cta { background: var(--gold-dim); color: var(--gold) !important; border: 1px solid rgba(201, 168, 76, 0.3); padding: 7px 16px; border-radius: 4px; }
+
+    .article-wrapper {
+      position: relative; z-index: 1;
+      max-width: 800px; margin: 0 auto; padding: 50px 6% 80px;
+    }
+    .article-meta-top { display: flex; flex-wrap: wrap; align-items: center; gap: 0.8rem; margin-bottom: 1.2rem; }
+    .tag { background: var(--gold); color: var(--night); padding: 5px 12px; border-radius: 4px; font-size: 0.72rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; }
+    .meta-text { color: var(--muted); font-size: 0.82rem; }
+    .article-wrapper h1 { font-family: 'Cormorant Garamond', serif; font-size: 2.4rem; font-weight: 600; color: var(--star); line-height: 1.2; margin-bottom: 1.2rem; }
+    .article-intro { font-size: 1.1rem; color: var(--text); line-height: 1.7; margin-bottom: 2rem; font-weight: 300; }
+    .author-box { display: flex; align-items: center; gap: 1rem; margin-bottom: 1.5rem; padding: 1rem; background: var(--card); border-radius: 8px; border: 1px solid var(--border); }
+    .author-avatar { font-size: 2.5rem; }
+    .author-name { color: var(--star); font-weight: 500; }
+    .author-name a { color: var(--gold); text-decoration: none; }
+    .author-role { color: var(--muted); font-size: 0.82rem; }
+    .disclosure-box { background: rgba(201, 168, 76, 0.08); border: 1px solid rgba(201, 168, 76, 0.2); border-radius: 8px; padding: 1rem 1.2rem; font-size: 0.82rem; color: var(--muted); margin-bottom: 2rem; }
+    .article-wrapper h2 { font-family: 'Cormorant Garamond', serif; font-size: 1.6rem; font-weight: 600; color: var(--star); margin: 2.5rem 0 1rem; padding-top: 1rem; }
+    .article-wrapper h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.2rem; color: var(--star); margin: 1.5rem 0 0.8rem; }
+    .article-wrapper p { margin-bottom: 1rem; font-weight: 300; line-height: 1.8; }
+    .article-wrapper ul, .article-wrapper ol { margin: 1rem 0 1.5rem 1.5rem; }
+    .article-wrapper li { margin-bottom: 0.5rem; font-weight: 300; }
+    .callout { background: var(--card); border-left: 3px solid var(--gold); padding: 1rem 1.5rem; margin: 1.5rem 0; border-radius: 0 8px 8px 0; font-size: 0.92rem; }
+    .callout-green { background: var(--card); border-left: 3px solid var(--green); padding: 1rem 1.5rem; margin: 1.5rem 0; border-radius: 0 8px 8px 0; font-size: 0.92rem; }
+
+    .product-cta { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 1.5rem; margin: 2rem 0; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; }
+    .product-cta-text { color: var(--star); font-weight: 500; }
+    .btn-amazon { background: var(--gold); color: var(--night); text-decoration: none; padding: 10px 20px; border-radius: 6px; font-weight: 600; font-size: 0.88rem; transition: background 0.2s; }
+    .btn-amazon:hover { background: var(--gold-light); }
+
+    .article-cta { background: linear-gradient(135deg, var(--card), var(--navy)); border: 1px solid var(--border); border-radius: 12px; padding: 2rem; text-align: center; margin: 3rem 0; }
+    .article-cta h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.4rem; color: var(--star); margin-bottom: 0.8rem; }
+    .article-cta p { color: var(--muted); margin-bottom: 1.2rem; }
+
+    .related-articles { margin: 3rem 0; }
+    .related-articles h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.3rem; color: var(--star); margin-bottom: 1rem; }
+    .related-articles ul { list-style: none; margin: 0; }
+    .related-articles li { margin-bottom: 0.6rem; }
+    .related-articles a { color: var(--gold); text-decoration: none; font-size: 0.95rem; }
+    .related-articles a:hover { text-decoration: underline; }
+
+    footer { background: #060912; border-top: 1px solid var(--border); padding: 50px 6% 30px; }
+    .footer-top { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 3rem; margin-bottom: 3rem; padding-bottom: 3rem; border-bottom: 1px solid var(--border); }
+    .footer-brand p { color: var(--muted); font-size: 0.82rem; margin-top: 0.8rem; line-height: 1.6; font-weight: 300; max-width: 260px; }
+    .footer-col h4 { font-size: 0.78rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--gold); margin-bottom: 1rem; }
+    .footer-col ul { list-style: none; display: flex; flex-direction: column; gap: 0.6rem; }
+    .footer-col a { color: var(--muted); text-decoration: none; font-size: 0.85rem; transition: color 0.2s; }
+    .footer-col a:hover { color: var(--gold); }
+    .footer-bottom { display: flex; justify-content: space-between; font-size: 0.78rem; color: var(--muted); flex-wrap: wrap; gap: 0.5rem; }
+    .affiliate-disc { font-size: 0.75rem; max-width: 600px; }
+
+    @media (max-width: 900px) {
+      .nav-links { display: none; }
+      .article-wrapper h1 { font-size: 1.8rem; }
+      .footer-top { grid-template-columns: 1fr 1fr; }
+      .product-cta { flex-direction: column; text-align: center; }
+    }
+  </style>
+</head>
+
+<body>
+  <nav>
+    <a class="logo" href="../">SleepWise<span>Reviews</span></a>
+    <ul class="nav-links">
+      <li><a href="../#picks">Top Picks</a></li>
+      <li><a href="../#reviews">Reviews</a></li>
+      <li><a href="../pages/about.html">About Harry</a></li>
+      <li><a href="../#newsletter" class="nav-cta">Free Sleep Guide</a></li>
+    </ul>
+  </nav>
+
+  <article class="article-wrapper">
+    <div class="article-meta-top">
+      <span class="tag">Sleep Science</span>
+      <span class="meta-text">&#128197; November 2020</span>
+      <span class="meta-text">&#183;</span>
+      <span class="meta-text">&#9201; 8 min read</span>
+      <span class="meta-text">&#183;</span>
+      <span class="meta-text">&#128260; Updated Mar 2026</span>
+    </div>
+    <h1>REM Sleep: Why Your Brain Needs It Every Single Night</h1>
+    <p class="article-intro">Emotional memories don't just fade — your brain actively reprocesses them during REM, stripping out the pain. What happens in those final hours before your alarm goes off may be the most important work your mind does all day.</p>
+
+    <div class="author-box">
+      <div class="author-avatar">&#128564;</div>
+      <div class="author-info">
+        <div class="author-name">By <a href="../pages/about.html">Harry Soul</a> - SleepWiseReviews</div>
+        <div class="author-role">Independent Sleep Researcher - November 2020</div>
+      </div>
+    </div>
+
+    <div class="disclosure-box">
+      <strong>Affiliate Disclosure:</strong> This article contains affiliate links. We earn a small commission if you purchase through our links at no extra cost to you. <a href="../pages/affiliate-disclosure.html" style="color:var(--gold)">Full disclosure</a>
+    </div>
+
+    <h2>The Brain Paradox: Nearly Awake, Completely Paralyzed</h2>
+    <p>If you were to watch a brain scan during REM sleep, you might assume the person was fully awake. The prefrontal cortex buzzes with activity. Neurons fire in dense, rapid bursts. The visual cortex lights up even though the eyes are closed. Yet the person is deeply asleep — and their muscles are almost completely immobilized.</p>
+    <p>This is the central paradox of Rapid Eye Movement sleep. Your brain is running at near-waking capacity while your body is held in a state of voluntary paralysis called <strong>atonia</strong>. The brainstem actively suppresses signals to the motor neurons in your arms, legs, and torso. This isn't a flaw — it's a protective feature. Without atonia, you would physically act out every dream, a dangerous condition known as REM sleep behavior disorder.</p>
+    <p>The rapid eye movements themselves — the phenomenon that gives the stage its name — reflect the brain's intense internal activity. The eyes dart beneath the eyelids in bursts, tracking the vivid, narrative dreamscapes your sleeping mind constructs. REM is not rest in the conventional sense. It is active, metabolically expensive brain processing.</p>
+
+    <div class="callout">&#128161; <strong>Key fact:</strong> During REM sleep, your brain's oxygen consumption is virtually identical to when you are awake. It is one of the most energetically costly states your brain enters.</div>
+
+    <h2>REM and Emotional Memory: The Overnight Therapy Theory</h2>
+    <p>As Matthew Walker writes in <em>Why We Sleep</em> (2017), REM sleep functions as a form of "overnight therapy." This is not a metaphor — it describes a specific neurochemical process that takes place while you dream.</p>
+    <p>Here is the mechanism: during waking hours, emotionally charged experiences are encoded in the brain with their full emotional weight intact. The amygdala — the brain's threat-detection and emotional-tagging centre — stamps these memories with intensity. When something frightening, embarrassing, or deeply moving happens, that raw emotional charge travels with the memory into storage.</p>
+    <p>During REM sleep, those memories are replayed and reprocessed. But there is a critical difference from ordinary waking recall: the brain's levels of <strong>norepinephrine</strong> — the neurochemical associated with anxiety and stress — drop to their lowest point in the entire 24-hour cycle. This is the only time, in any state of consciousness, that this happens.</p>
+    <p>The result is that the brain can re-examine the emotional memory without being retraumatized by it. The content of the experience is preserved — you remember what happened — but the sharp emotional sting is progressively blunted. Walker describes this as "divorcing the emotional tone from the memory." You wake up remembering the event but feeling slightly less raw about it than you did the night before.</p>
+
+    <div class="callout-green">&#128994; <strong>Practical takeaway:</strong> If you are dealing with a difficult emotional experience, protecting your REM sleep is one of the most important things you can do. The brain needs multiple undisturbed REM cycles to fully process and defuse emotionally charged memories. Cutting sleep short — even by 60 to 90 minutes — significantly reduces the REM you receive and slows this overnight emotional repair process.</div>
+
+    <h2>What Happens When Norepinephrine Switches Off</h2>
+    <p>The norepinephrine shutdown during REM is one of the most significant — and least widely known — findings in modern sleep research. Under normal waking conditions, and even during non-REM sleep, norepinephrine is present in the brain at detectable levels. It primes the nervous system for alertness, stress response, and rapid reaction.</p>
+    <p>During REM, the locus coeruleus — the brain region that produces norepinephrine — essentially goes offline. This creates a neurochemical window unlike any other. Memories can be accessed and emotionally re-tagged without triggering the full stress cascade they would provoke during waking recall.</p>
+    <p>This is why sleep deprivation following trauma is so damaging. People who are kept awake, or who drink alcohol in an attempt to self-medicate, are denied this neurochemical window. The memories consolidate without being defused, making them more likely to produce intrusive recall and heightened reactivity — the hallmark features of post-traumatic stress.</p>
+
+    <h2>REM Sleep and Creativity: Weak Associations, Strong Insights</h2>
+    <p>Beyond emotional processing, REM sleep plays a documented role in creative problem-solving. The mechanism here is different, but equally specific.</p>
+    <p>During waking thought, the brain tends toward what researchers call "strong associations" — the most predictable, conventional connections between concepts. When you are asked to think of a use for a brick, your brain first offers the obvious answers: build a wall, use it as a doorstop.</p>
+    <p>During REM sleep, the brain's associative networks become dramatically more promiscuous. Distant, loosely related concepts are linked together in novel combinations. This is the neurological basis of the strange, rule-bending narratives of dreams — your childhood home has a room that leads directly into your workplace, and neither you nor your dream-self finds this strange.</p>
+    <p>But when you wake from REM, some of these distant associations persist as new cognitive connections. Researchers have demonstrated this in laboratory settings: subjects woken from REM sleep consistently outperform those woken from non-REM sleep on tests of creative problem-solving, anagram completion, and the ability to spot hidden patterns in data sets. The insight does not always arrive as a dramatic eureka moment. Often it presents as a subtle shift in how a problem appears — a sense that a solution which seemed impossible the previous evening now seems almost obvious.</p>
+
+    <div class="callout">&#9997; <strong>Historical note:</strong> The chemist August Kekule famously described dreaming of a snake eating its tail, which led him to the circular structure of benzene. Whether apocryphal or not, the story captures something neurologically real: REM sleep generates the kind of lateral, boundary-crossing thinking that waking focus actively suppresses.</div>
+
+    <h2>Why REM Is Backloaded — and What That Means for You</h2>
+    <p>Perhaps the most practically important fact about REM sleep is its distribution across the night. REM does not arrive in equal portions across each sleep cycle. Instead, it is <strong>heavily backloaded toward the final hours of the night</strong>.</p>
+    <p>In the first cycle of sleep — roughly the first 90 minutes — REM constitutes only a small fraction of the total. The brain prioritizes deep, slow-wave sleep early in the night for physical restoration. But as the night progresses, each successive 90-minute cycle delivers progressively more REM and less deep sleep. By the sixth, seventh, and eighth hours of sleep, a full 20 to 30 minutes of each cycle may be pure REM.</p>
+    <p>The arithmetic consequence of this is brutal: cutting sleep from eight hours to six hours does not reduce your REM by 25%. Because you are removing the most REM-dense portion of the night, you lose closer to 60 to 70% of your total REM. A six-hour sleeper is not getting slightly less REM than an eight-hour sleeper. They are getting a fraction of it.</p>
+    <p>This is why the common belief that you can "catch up" on lost sleep over the weekend is biologically misleading. You can recover some of the debt, but the emotional processing, the creative consolidation, and the memory work that should have happened on Tuesday night cannot simply be rescheduled to Saturday morning.</p>
+
+    <h2>What Suppresses REM Sleep</h2>
+    <h3>Alcohol: The Most Potent REM Suppressor</h3>
+    <p>Alcohol is the single most powerful suppressor of REM sleep available without a prescription. Many people use alcohol to fall asleep more easily, and it does reduce the time it takes to enter unconsciousness. But alcohol is a sedative, not a sleep aid — and the distinction matters enormously.</p>
+    <p>As alcohol is metabolized during the first half of the night, it produces a rebound alerting effect in the second half. The brain, having been chemically suppressed, rebounds toward wakefulness precisely during the hours when REM should be peaking. The result is disrupted sleep architecture: shallower sleep, more frequent waking, and dramatically reduced REM quantity.</p>
+    <p>Even moderate amounts — one to two drinks in the evening — measurably reduce REM sleep. The effect is dose-dependent, and no meaningful alcohol tolerance develops for its REM-suppressing properties.</p>
+    <h3>Antidepressants and Medications</h3>
+    <p>Several classes of medication significantly suppress REM sleep. SSRIs and SNRIs — the most commonly prescribed antidepressants — reduce REM quantity in most patients, sometimes by 50% or more. Benzodiazepines and non-benzodiazepine sleep aids (such as zolpidem) also alter sleep architecture in ways that diminish REM. This creates a clinical irony: the medications prescribed to help with anxiety and depression suppress the very sleep stage most critical for emotional processing and mood regulation.</p>
+    <p>This is not an argument against these medications — for many people, the benefits clearly outweigh the costs. But it does highlight the importance of sleep quality as a consideration in psychiatric care, and it explains why some patients report emotional flatness or reduced dream recall when starting certain antidepressants.</p>
+    <h3>Cannabis</h3>
+    <p>THC, the primary psychoactive compound in cannabis, suppresses REM sleep. Regular cannabis users typically report reduced or absent dreaming — a direct consequence of REM suppression. Upon stopping use, a REM rebound typically follows: intense, vivid, and sometimes disturbing dreams as the brain reclaims the REM it was denied. This rebound is one of the more reliable indicators of how significantly cannabis had been altering sleep architecture.</p>
+
+    <h2>REM Rebound: The Brain Reclaims What It Lost</h2>
+    <p>When REM sleep is consistently suppressed — through alcohol, sleep deprivation, medication, or any other cause — the brain does not simply write off the lost REM. It accumulates a debt, and when the suppressing factor is removed, it enters a state of REM rebound: an abnormally elevated proportion of REM sleep in the nights that follow.</p>
+    <p>During rebound, dreams become more vivid and emotionally intense. Some people find this distressing, particularly if the rebound follows a period of emotional difficulty during which normal REM processing was disrupted. The brain is, in a sense, attempting to complete a backlog of emotional processing work.</p>
+    <p>REM rebound confirms that REM sleep is not optional overhead — it is a biological drive that the brain actively pursues. You cannot choose to need less of it any more than you can choose to need less food. You can defer it; you cannot eliminate the need.</p>
+
+    <h2>Why REM Increases Each Cycle Toward Morning</h2>
+    <p>The increasing proportion of REM in each successive sleep cycle is regulated by the brain's internal circadian timing system. Specifically, the circadian drive toward REM peaks in the early morning hours — aligned, in evolutionary terms, with the period just before natural awakening at dawn.</p>
+    <p>The prevailing theory is that this timing reflects the different functional priorities of early-night and late-night sleep. Early-night deep sleep handles the urgent physical repair work: clearing metabolic waste from the brain via the glymphatic system, consolidating procedural memories, releasing growth hormone. Late-night REM handles the longer-term cognitive and emotional work: integrating new information with existing knowledge, processing emotional experiences, and generating the novel associative connections that support creativity and insight.</p>
+    <p>Both phases are essential. Neither can fully substitute for the other. And both depend on a single prerequisite: enough total sleep time to allow all the cycles to complete.</p>
+
+    <div class="callout-green">&#128994; <strong>Practical takeaway:</strong> The simplest thing you can do to protect your REM sleep is to protect the final 90 minutes of your sleep period. Do not set an alarm earlier than necessary. Keep your bedroom dark and quiet through the morning hours. Avoid alcohol within three hours of sleep. And if you are under unusual stress, prioritize sleep duration above almost everything else — your brain needs those final REM-rich cycles to do its emotional repair work.</div>
+
+    <div class="product-cta">
+      <span class="product-cta-text">A high-quality sleep mask blocks the morning light that cuts your REM short. Browse top-rated blackout options:</span>
+      <a class="btn-amazon" href="https://www.amazon.com/s?k=sleep+mask+blackout&tag=sleepwiserevi-20" target="_blank" rel="noopener nofollow">Shop Sleep Masks on Amazon</a>
+    </div>
+
+    <h2>The Bottom Line</h2>
+    <p>REM sleep is not the brain idling through the night. It is the most sophisticated psychological process the human brain runs — a nightly cycle of emotional detoxification, creative synthesis, and memory integration that no drug, supplement, or technique can replicate or replace.</p>
+    <p>As Matthew Walker writes in <em>Why We Sleep</em> (2017), we are in the middle of a global sleep deprivation epidemic, and the costs show up most clearly in exactly the areas that REM governs: emotional regulation, creative thinking, and mental health. Protecting your REM sleep is not a lifestyle upgrade. It is one of the most important things you can do for your brain.</p>
+    <p>The good news is that the prescription is simple: go to bed at a consistent time, allow yourself enough total sleep to complete six to eight full cycles across the week, and remove the substances — particularly alcohol — that suppress the stage your brain needs most.</p>
+
+    <div class="article-cta">
+      <h3>Get Our Free 7-Day Sleep Reset</h3>
+      <p>Join 18,000 readers who get weekly sleep tips and honest product reviews every Sunday.</p>
+      <a class="btn-amazon" href="../#newsletter">Subscribe Free</a>
+    </div>
+
+    <div class="related-articles">
+      <h3>Related Articles</h3>
+      <ul>
+        <li><a href="sleep-stages-explained.html">Understanding Sleep Stages: A Complete Guide to Your Sleep Cycle</a></li>
+        <li><a href="rem-rebound-explained.html">REM Rebound Explained: What Happens After REM Deprivation</a></li>
+        <li><a href="alcohol-sleep-quality.html">How Alcohol Destroys Your Sleep Quality (Even in Small Doses)</a></li>
+      </ul>
+    </div>
+  </article>
+
+  <footer>
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a class="logo" href="../">SleepWise<span>Reviews</span></a>
+        <p>Honest, science-backed reviews to help you sleep deeper, recover faster, and wake up energized.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Reviews</h4>
+        <ul>
+          <li><a href="https://www.amazon.com/s?k=weighted+blanket&tag=sleepwiserevi-20" target="_blank">Weighted Blankets</a></li>
+          <li><a href="https://www.amazon.com/s?k=white+noise+machine&tag=sleepwiserevi-20" target="_blank">White Noise Machines</a></li>
+          <li><a href="https://www.amazon.com/s?k=sleep+supplements&tag=sleepwiserevi-20" target="_blank">Supplements</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Guides</h4>
+        <ul>
+          <li><a href="../#picks">Sleep Optimization</a></li>
+          <li><a href="../#reviews">Bedtime Routines</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Site</h4>
+        <ul>
+          <li><a href="../pages/about.html">About Harry Soul</a></li>
+          <li><a href="../pages/privacy-policy.html">Privacy Policy</a></li>
+          <li><a href="../pages/affiliate-disclosure.html">Affiliate Disclosure</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div>&#169; 2025 SleepWiseReviews. All rights reserved.</div>
+      <div class="affiliate-disc">SleepWiseReviews is a participant in the Amazon Services LLC Associates Program.</div>
+    </div>
+  </footer>
+</body>
+</html>
