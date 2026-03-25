@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Gut and Your Sleep: A Deeper Look at the Microbiome-Sleep Axis - SleepWiseReviews</title>
+  <meta name="description" content="The vagus nerve connects your gut directly to your brainstem — and the trillions of bacteria in your gut produce neurotransmitters that travel this route to influence your sleep. The gut-brain axis isn't metaphor; it's anatomy." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <style type='text/css'>
+    :root {
+      --night: #0A0E1A;
+      --deep: #0F1525;
+      --navy: #141B30;
+      --card: #1A2238;
+      --border: #252D45;
+      --gold: #C9A84C;
+      --gold-light: #E5C96A;
+      --gold-dim: rgba(201, 168, 76, 0.15);
+      --star: #F0E6C8;
+      --text: #D4DCEE;
+      --muted: #7A85A0;
+      --white: #FFFFFF;
+      --green: #4CAF82;
+    }
+
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: 'Outfit', sans-serif;
+      background: var(--night);
+      color: var(--text);
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      background-image:
+        radial-gradient(1px 1px at 10% 15%, rgba(240, 230, 200, 0.6) 0%, transparent 100%),
+        radial-gradient(1px 1px at 25% 40%, rgba(240, 230, 200, 0.4) 0%, transparent 100%),
+        radial-gradient(1.5px 1.5px at 40% 10%, rgba(240, 230, 200, 0.5) 0%, transparent 100%),
+        radial-gradient(1px 1px at 55% 30%, rgba(240, 230, 200, 0.3) 0%, transparent 100%),
+        radial-gradient(1px 1px at 70% 5%, rgba(240, 230, 200, 0.6) 0%, transparent 100%),
+        radial-gradient(1.5px 1.5px at 80% 20%, rgba(240, 230, 200, 0.4) 0%, transparent 100%),
+        radial-gradient(1px 1px at 90% 45%, rgba(240, 230, 200, 0.3) 0%, transparent 100%);
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    nav {
+      position: sticky; top: 0; z-index: 100;
+      background: rgba(10, 14, 26, 0.92);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+      padding: 0 6%; height: 68px;
+      display: flex; align-items: center; justify-content: space-between;
+    }
+    .logo { font-family: 'Cormorant Garamond', serif; font-size: 1.6rem; font-weight: 700; color: var(--star); text-decoration: none; }
+    .logo span { color: var(--gold); }
+    .nav-links { display: flex; gap: 2rem; list-style: none; }
+    .nav-links a { text-decoration: none; color: var(--muted); font-size: 0.88rem; font-weight: 500; transition: color 0.2s; }
+    .nav-links a:hover { color: var(--gold); }
+    .nav-cta { background: var(--gold-dim); color: var(--gold) !important; border: 1px solid rgba(201, 168, 76, 0.3); padding: 7px 16px; border-radius: 4px; }
+
+    .article-wrapper {
+      position: relative; z-index: 1;
+      max-width: 800px; margin: 0 auto; padding: 50px 6% 80px;
+    }
+    .article-meta-top { display: flex; flex-wrap: wrap; align-items: center; gap: 0.8rem; margin-bottom: 1.2rem; }
+    .tag { background: var(--gold); color: var(--night); padding: 5px 12px; border-radius: 4px; font-size: 0.72rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; }
+    .meta-text { color: var(--muted); font-size: 0.82rem; }
+    .article-wrapper h1 { font-family: 'Cormorant Garamond', serif; font-size: 2.4rem; font-weight: 600; color: var(--star); line-height: 1.2; margin-bottom: 1.2rem; }
+    .article-intro { font-size: 1.1rem; color: var(--text); line-height: 1.7; margin-bottom: 2rem; font-weight: 300; }
+    .author-box { display: flex; align-items: center; gap: 1rem; margin-bottom: 1.5rem; padding: 1rem; background: var(--card); border-radius: 8px; border: 1px solid var(--border); }
+    .author-avatar { font-size: 2.5rem; }
+    .author-name { color: var(--star); font-weight: 500; }
+    .author-name a { color: var(--gold); text-decoration: none; }
+    .author-role { color: var(--muted); font-size: 0.82rem; }
+    .disclosure-box { background: rgba(201, 168, 76, 0.08); border: 1px solid rgba(201, 168, 76, 0.2); border-radius: 8px; padding: 1rem 1.2rem; font-size: 0.82rem; color: var(--muted); margin-bottom: 2rem; }
+    .article-wrapper h2 { font-family: 'Cormorant Garamond', serif; font-size: 1.6rem; font-weight: 600; color: var(--star); margin: 2.5rem 0 1rem; padding-top: 1rem; }
+    .article-wrapper h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.2rem; color: var(--star); margin: 1.5rem 0 0.8rem; }
+    .article-wrapper p { margin-bottom: 1rem; font-weight: 300; line-height: 1.8; }
+    .article-wrapper ul, .article-wrapper ol { margin: 1rem 0 1.5rem 1.5rem; }
+    .article-wrapper li { margin-bottom: 0.5rem; font-weight: 300; }
+    .callout { background: var(--card); border-left: 3px solid var(--gold); padding: 1rem 1.5rem; margin: 1.5rem 0; border-radius: 0 8px 8px 0; font-size: 0.92rem; }
+    .callout-green { background: var(--card); border-left: 3px solid var(--green); padding: 1rem 1.5rem; margin: 1.5rem 0; border-radius: 0 8px 8px 0; font-size: 0.92rem; }
+
+    .product-cta { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 1.5rem; margin: 2rem 0; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; }
+    .product-cta-text { color: var(--star); font-weight: 500; }
+    .btn-amazon { background: var(--gold); color: var(--night); text-decoration: none; padding: 10px 20px; border-radius: 6px; font-weight: 600; font-size: 0.88rem; transition: background 0.2s; }
+    .btn-amazon:hover { background: var(--gold-light); }
+
+    .article-cta { background: linear-gradient(135deg, var(--card), var(--navy)); border: 1px solid var(--border); border-radius: 12px; padding: 2rem; text-align: center; margin: 3rem 0; }
+    .article-cta h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.4rem; color: var(--star); margin-bottom: 0.8rem; }
+    .article-cta p { color: var(--muted); margin-bottom: 1.2rem; }
+
+    .related-articles { margin: 3rem 0; }
+    .related-articles h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.3rem; color: var(--star); margin-bottom: 1rem; }
+    .related-articles ul { list-style: none; margin: 0; }
+    .related-articles li { margin-bottom: 0.6rem; }
+    .related-articles a { color: var(--gold); text-decoration: none; font-size: 0.95rem; }
+    .related-articles a:hover { text-decoration: underline; }
+
+    footer { background: #060912; border-top: 1px solid var(--border); padding: 50px 6% 30px; }
+    .footer-top { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 3rem; margin-bottom: 3rem; padding-bottom: 3rem; border-bottom: 1px solid var(--border); }
+    .footer-brand p { color: var(--muted); font-size: 0.82rem; margin-top: 0.8rem; line-height: 1.6; font-weight: 300; max-width: 260px; }
+    .footer-col h4 { font-size: 0.78rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--gold); margin-bottom: 1rem; }
+    .footer-col ul { list-style: none; display: flex; flex-direction: column; gap: 0.6rem; }
+    .footer-col a { color: var(--muted); text-decoration: none; font-size: 0.85rem; transition: color 0.2s; }
+    .footer-col a:hover { color: var(--gold); }
+    .footer-bottom { display: flex; justify-content: space-between; font-size: 0.78rem; color: var(--muted); flex-wrap: wrap; gap: 0.5rem; }
+    .affiliate-disc { font-size: 0.75rem; max-width: 600px; }
+
+    @media (max-width: 900px) {
+      .nav-links { display: none; }
+      .article-wrapper h1 { font-size: 1.8rem; }
+      .footer-top { grid-template-columns: 1fr 1fr; }
+      .product-cta { flex-direction: column; text-align: center; }
+    }
+  </style>
+</head>
+
+<body>
+  <nav>
+    <a class="logo" href="../">SleepWise<span>Reviews</span></a>
+    <ul class="nav-links">
+      <li><a href="../#picks">Top Picks</a></li>
+      <li><a href="../#reviews">Reviews</a></li>
+      <li><a href="../pages/about.html">About Harry</a></li>
+      <li><a href="../#newsletter" class="nav-cta">Free Sleep Guide</a></li>
+    </ul>
+  </nav>
+
+  <article class="article-wrapper">
+    <div class="article-meta-top">
+      <span class="tag">Gut Health</span>
+      <span class="meta-text">&#128197; February 2026</span>
+      <span class="meta-text">&#183;</span>
+      <span class="meta-text">&#9201; 8 min read</span>
+      <span class="meta-text">&#183;</span>
+      <span class="meta-text">&#128260; Updated Mar 2026</span>
+    </div>
+    <h1>Your Gut and Your Sleep: A Deeper Look at the Microbiome-Sleep Axis</h1>
+    <p class="article-intro">The vagus nerve connects your gut directly to your brainstem &#8212; and the trillions of bacteria in your gut produce neurotransmitters that travel this route to influence your sleep. The gut-brain axis isn&#8217;t metaphor; it&#8217;s anatomy.</p>
+
+    <div class="author-box">
+      <div class="author-avatar">&#128564;</div>
+      <div class="author-info">
+        <div class="author-name">By <a href="../pages/about.html">Harry Soul</a> - SleepWiseReviews</div>
+        <div class="author-role">Independent Sleep Researcher &#183; February 2026</div>
+      </div>
+    </div>
+
+    <div class="disclosure-box">
+      <strong>Affiliate Disclosure:</strong> This article contains affiliate links. We earn a small commission if you purchase through our links at no extra cost to you. <a href="../pages/affiliate-disclosure.html" style="color:var(--gold)">Full disclosure</a>
+    </div>
+
+    <h2>The Gut-Brain Axis Explained</h2>
+    <p>The gut-brain axis is one of the most actively researched frontiers in neuroscience, and for good reason: the enteric nervous system &#8212; sometimes called the "second brain" &#8212; contains roughly 500 million neurons, more than the spinal cord. These neurons communicate constantly with the central nervous system through the vagus nerve, a bidirectional highway that runs from your brainstem all the way down through your chest and abdomen to your intestines.</p>
+    <p>This connection is not abstract or metaphorical. Chemical signals generated in the gut &#8212; including neurotransmitters, short-chain fatty acids, and hormones &#8212; travel this route in real time and directly influence brain states. Research published in the journal <em>Nature Reviews Neuroscience</em> has confirmed that approximately 90% of the signals travelling on the vagus nerve run from the gut to the brain, not the other way around. Your gut is talking to your brain far more than your brain is talking to your gut.</p>
+    <p>When it comes to sleep, this matters enormously. The brainstem regions that receive vagal input from the gut include the nucleus tractus solitarius and the dorsal raphe nucleus &#8212; areas that regulate sleep-wake transitions, arousal thresholds, and the timing of REM sleep. A disrupted gut microbiome is not just a digestive problem. It is a sleep problem.</p>
+
+    <div class="callout">&#128161; <strong>Key insight:</strong> The vagus nerve is a two-lane motorway, but 90% of the traffic runs upward &#8212; from gut to brain. What your microbiome produces each night shapes the neurochemical environment your brain uses to regulate sleep architecture.</div>
+
+    <h2>Gut Bacteria and GABA/Serotonin Production</h2>
+    <p>Your gut microbiome is not a passive passenger in your digestive system. It is a metabolically active community of trillions of microorganisms that synthesise compounds your body cannot make on its own &#8212; including several that are essential for sleep regulation.</p>
+    <p>Serotonin is perhaps the most striking example. Approximately 90&#8211;95% of the body&#8217;s total serotonin is produced in the gut, primarily by enterochromaffin cells that are directly stimulated by specific bacterial species. Serotonin does not cross the blood-brain barrier in significant quantities, but it is the precursor to melatonin &#8212; and the gut-derived serotonin pool influences melatonin production through signalling cascades that ultimately affect the pineal gland. A depleted or disrupted microbiome means a compromised serotonin substrate, which means compromised melatonin signalling, which means disrupted sleep onset and fragmented sleep architecture.</p>
+    <p>GABA (gamma-aminobutyric acid) is the brain&#8217;s primary inhibitory neurotransmitter and the central mechanism by which sleep-promoting neurons quiet the cortex at night. Lactobacillus and Bifidobacterium species &#8212; the same genera found in most commercial probiotics &#8212; have been demonstrated in multiple studies to produce GABA directly. A 2019 study published in <em>Frontiers in Microbiology</em> confirmed that orally administered Lactobacillus rhamnosus significantly increased GABA receptor expression in the cortex and hippocampus of animal models. Human trials are catching up, and the early data is consistent with the mechanistic picture.</p>
+    <p>Short-chain fatty acids (SCFAs) &#8212; particularly butyrate, propionate, and acetate &#8212; are produced when gut bacteria ferment dietary fibre. Butyrate in particular has been shown to promote slow-wave (deep) sleep by modulating the activity of sleep-promoting neurons in the hypothalamus. Diets low in fibre reduce SCFA production, which may be one reason ultra-processed food diets are associated with poorer sleep quality in epidemiological studies.</p>
+
+    <h2>Meal Timing and Circadian Disruption</h2>
+    <p>The timing of your meals is not simply a nutritional variable &#8212; it is a circadian signal. As Dr. Satchin Panda explains in <em>The Circadian Code</em> (Panda, 2019), every organ in your body maintains its own peripheral circadian clock, and those clocks are anchored not just by light but by feeding patterns. Your liver, pancreas, gut, and adipose tissue all use the timing of caloric intake as a zeitgeber &#8212; a time-giver &#8212; that synchronises their internal rhythms with the central clock in the suprachiasmatic nucleus (SCN) of the hypothalamus.</p>
+    <p>When you eat late at night, you are sending a conflicting signal. The light-based central clock has already begun preparing your body for sleep &#8212; lowering core body temperature, suppressing cortisol, initiating melatonin release. But the act of eating activates your liver&#8217;s peripheral clock, triggering insulin secretion, bile acid production, and digestive enzyme activity at a time when those systems are meant to be in rest mode. Panda&#8217;s research at the Salk Institute demonstrated that this internal desynchrony &#8212; where peripheral organ clocks diverge from the central brain clock &#8212; independently fragments sleep, increases waking episodes, and reduces the proportion of deep slow-wave sleep (Panda, 2019).</p>
+    <p>For gut health specifically, late eating extends the period during which the microbiome is actively fermenting and producing metabolic byproducts, including gases and short-chain fatty acids that can stimulate the enteric nervous system and generate signals reaching the brain via the vagus nerve at precisely the moment when the brain is attempting to maintain sleep continuity. The timing of your last meal is not a marginal lifestyle variable. It is a lever that directly shifts your organ clocks.</p>
+
+    <div class="callout" style="border-left:3px solid var(--green)">&#128154; <strong>Tonight&#8217;s action:</strong> Stop eating at least 3 hours before bed. Panda&#8217;s research shows that late eating shifts your liver&#8217;s circadian clock independently of your brain &#8212; creating internal desynchrony that fragments sleep. This is the single highest-impact dietary change for sleep quality.</div>
+
+    <h2>How to Improve Gut Health for Better Sleep</h2>
+    <p>The evidence base for targeting the gut-brain axis to improve sleep is still maturing, but the actionable recommendations that emerge from the existing research are consistent and well-grounded in mechanism. They do not require exotic interventions. They require consistency with a few evidence-backed habits.</p>
+
+    <h3>Increase Dietary Fibre and Fermented Foods</h3>
+    <p>The microbiome thrives on diversity, and dietary diversity is its primary fuel. Prebiotic fibres &#8212; found in garlic, onion, leeks, asparagus, green bananas, oats, and legumes &#8212; selectively feed beneficial bacteria that produce GABA and SCFAs. A 2022 study in <em>Cell Host &amp; Microbe</em> found that a high-fibre diet increased the proportion of slow-wave sleep in healthy adults compared to a low-fibre control diet, with the effect mediated by changes in SCFA production. Fermented foods &#8212; yoghurt, kefir, kimchi, sauerkraut, tempeh &#8212; directly introduce live bacterial cultures that can transiently populate the gut and influence its metabolic output.</p>
+
+    <h3>Establish a Consistent Eating Window</h3>
+    <p>Time-restricted eating (TRE) &#8212; limiting caloric intake to a consistent 8&#8211;10 hour window each day, ideally ending 3 hours before sleep &#8212; allows the gut microbiome to enter its own rest-and-repair phase aligned with your central circadian clock. Research from Panda&#8217;s lab at the Salk Institute demonstrated that mice on identical caloric diets but with time-restricted feeding maintained healthier microbiome diversity and better sleep architecture compared to ad libitum feeders, even when total calories were matched (Panda, 2019). Human studies have replicated the microbiome diversity findings.</p>
+
+    <h3>Consider a Targeted Probiotic Supplement</h3>
+    <p>For people with disrupted microbiomes &#8212; a history of antibiotic use, chronic stress, low dietary fibre intake, or a predominantly processed food diet &#8212; a targeted probiotic supplement can meaningfully accelerate the restoration of beneficial bacterial populations. Look for multi-strain formulas containing Lactobacillus rhamnosus, Lactobacillus acidophilus, and Bifidobacterium longum, as these specific strains have the strongest mechanistic evidence for GABA production and gut-brain axis activity. A minimum viable dose is 10 billion CFU per day, taken consistently for at least four weeks before evaluating effect.</p>
+
+    <div class="product-cta">
+      <span class="product-cta-text">Probiotic supplements for gut health and sleep support &#8212; evidence-backed strains for the gut-brain axis</span>
+      <a class="btn-amazon" href="https://www.amazon.com/s?k=probiotic+supplement+gut+health+sleep&tag=sleepwiserevi-20" target="_blank" rel="noopener nofollow">Shop on Amazon</a>
+    </div>
+
+    <h3>Manage Stress to Protect the Microbiome</h3>
+    <p>The relationship between stress and the gut microbiome is bidirectional and self-reinforcing. Chronic psychological stress elevates cortisol, which increases gut permeability (the so-called &#8220;leaky gut&#8221; phenomenon), allows bacterial endotoxins to translocate into systemic circulation, triggers low-grade inflammation, and further disrupts the vagal signalling that supports sleep. Simultaneously, a disrupted microbiome reduces GABA and serotonin precursor availability, making the nervous system more reactive and harder to calm at night. Stress management &#8212; whether through mindfulness practice, structured breathing, or simply adequate recovery time &#8212; is therefore not a soft add-on to gut health but a necessary component of protecting the neurochemical substrate that sleep depends on.</p>
+
+    <h3>Limit Alcohol, Which Disrupts Microbial Diversity</h3>
+    <p>Alcohol is directly bactericidal at concentrations achievable in the gut after moderate drinking. Regular alcohol consumption reduces the abundance of beneficial Lactobacillus and Bifidobacterium species, increases intestinal permeability, and disrupts the production of the very neurotransmitter precursors &#8212; serotonin, GABA &#8212; that the microbiome contributes to sleep regulation. The sedating effect of alcohol masks this disruption by promoting sleep onset through GABA-A receptor agonism, but the second half of the night &#8212; when the sedative effect wears off &#8212; reliably shows increased waking, reduced REM, and elevated cortisol. The gut is part of why alcohol reliably degrades sleep quality even when it helps you fall asleep faster.</p>
+
+    <div class="callout-green">&#9989; <strong>Practical summary:</strong> The four highest-impact interventions for the gut-sleep axis are: (1) end eating 3 hours before bed, (2) eat 30+ different plant foods per week to build microbiome diversity, (3) include fermented foods or a quality probiotic daily, and (4) reduce alcohol to allow beneficial bacterial populations to recover. These changes compound over weeks &#8212; expect the most meaningful sleep improvements after 4&#8211;6 weeks of consistency.</div>
+
+    <h2>The Long View: Microbiome as a Sleep Asset</h2>
+    <p>The gut microbiome is not a static entity. It shifts in composition within 24&#8211;48 hours in response to dietary changes, and it maintains its own circadian rhythm &#8212; bacterial populations oscillate in abundance throughout the day in patterns that mirror the host&#8217;s sleep-wake cycle. When your sleep is disrupted, your microbiome shifts. When your microbiome shifts, your sleep is disrupted. The causality runs in both directions.</p>
+    <p>This circularity is not discouraging; it is empowering. Because the relationship is bidirectional, interventions at any point in the loop create ripple effects throughout the system. Improving your diet improves your microbiome, which improves your gut-brain signalling, which improves your sleep, which further stabilises your circadian microbiome rhythms. The system is self-reinforcing in the positive direction just as readily as in the negative.</p>
+    <p>What the research is converging on is a picture of sleep that is inseparable from metabolic health and gut ecology. The brain does not sleep in isolation from the body. It sleeps within a system that extends all the way to the trillions of microorganisms fermenting fibre in your colon &#8212; and the quality of that fermentation, the timing of your meals, and the diversity of your microbial community are as relevant to your sleep as the darkness of your bedroom or the firmness of your mattress.</p>
+
+    <div class="article-cta">
+      <h3>Get Our Free 7-Day Sleep Reset</h3>
+      <p>Join 18,000 readers who get weekly sleep tips and honest product reviews every Sunday.</p>
+      <a class="btn-amazon" href="../#newsletter">Subscribe Free</a>
+    </div>
+
+    <div class="related-articles">
+      <h3>Related Articles</h3>
+      <ul>
+        <li><a href="intermittent-fasting-sleep.html">Intermittent Fasting and Sleep: What the Research Shows</a></li>
+        <li><a href="circadian-rhythm-basics.html">Circadian Rhythm Basics: How Your Body Clock Controls Sleep</a></li>
+        <li><a href="winter-sleep-guide.html">How to Sleep Better in Winter: Darkness, Cold, and Seasonal Mood</a></li>
+        <li><a href="hydration-and-sleep.html">Hydration and Sleep: How Much Water You Actually Need</a></li>
+      </ul>
+    </div>
+  </article>
+
+  <footer>
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a class="logo" href="../">SleepWise<span>Reviews</span></a>
+        <p>Honest, science-backed reviews to help you sleep deeper, recover faster, and wake up energized.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Reviews</h4>
+        <ul>
+          <li><a href="https://www.amazon.com/s?k=weighted+blanket&tag=sleepwiserevi-20" target="_blank">Weighted Blankets</a></li>
+          <li><a href="https://www.amazon.com/s?k=white+noise+machine&tag=sleepwiserevi-20" target="_blank">White Noise Machines</a></li>
+          <li><a href="https://www.amazon.com/s?k=sleep+supplements&tag=sleepwiserevi-20" target="_blank">Supplements</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Guides</h4>
+        <ul>
+          <li><a href="../#picks">Sleep Optimization</a></li>
+          <li><a href="../#reviews">Bedtime Routines</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Site</h4>
+        <ul>
+          <li><a href="../pages/about.html">About Harry Soul</a></li>
+          <li><a href="../pages/privacy-policy.html">Privacy Policy</a></li>
+          <li><a href="../pages/affiliate-disclosure.html">Affiliate Disclosure</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div>&copy; 2026 SleepWiseReviews. All rights reserved.</div>
+      <div class="affiliate-disc">SleepWiseReviews is a participant in the Amazon Services LLC Associates Program.</div>
+    </div>
+  </footer>
+</body>
+</html>
