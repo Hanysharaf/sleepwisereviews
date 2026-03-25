@@ -1,0 +1,894 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Restless Legs Syndrome: Causes, Triggers, and Real Fixes | SleepWise Reviews</title>
+  <meta name="description" content="Up to 10% of people have RLS and most have never heard the diagnosis. Learn the real causes — dopamine, iron, magnesium — and proven non-drug fixes backed by sleep medicine." />
+  <meta name="keywords" content="restless legs syndrome, RLS causes, RLS treatment, iron deficiency RLS, magnesium RLS, dopamine sleep, sleep disorders" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --night: #0A0E1A;
+      --deep: #0F1525;
+      --navy: #141B30;
+      --card: #1A2238;
+      --border: #252D45;
+      --gold: #C9A84C;
+      --gold-light: #E5C96A;
+      --gold-dim: rgba(201, 168, 76, 0.15);
+      --star: #F0E6C8;
+      --text: #D4DCEE;
+      --muted: #7A85A0;
+      --green: #4CAF82;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      background-color: var(--night);
+      color: var(--text);
+      font-family: 'Outfit', sans-serif;
+      font-size: 16px;
+      line-height: 1.75;
+      min-height: 100vh;
+    }
+
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      background: radial-gradient(ellipse 80% 60% at 50% -10%, rgba(201, 168, 76, 0.07) 0%, transparent 70%),
+                  radial-gradient(ellipse 60% 40% at 80% 80%, rgba(76, 175, 130, 0.04) 0%, transparent 60%);
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    /* ── HEADER ── */
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(10, 14, 26, 0.92);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .header-inner {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 0 24px;
+      height: 60px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .site-logo {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.4rem;
+      font-weight: 600;
+      color: var(--gold);
+      text-decoration: none;
+      letter-spacing: 0.02em;
+    }
+
+    .site-logo span { color: var(--star); }
+
+    nav { display: flex; gap: 24px; }
+
+    nav a {
+      font-size: 0.82rem;
+      font-weight: 500;
+      color: var(--muted);
+      text-decoration: none;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      transition: color 0.2s;
+    }
+
+    nav a:hover { color: var(--gold-light); }
+
+    /* ── LAYOUT ── */
+    .page-wrap {
+      position: relative;
+      z-index: 1;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 48px 24px 80px;
+    }
+
+    /* ── BADGE ── */
+    .badge {
+      display: inline-block;
+      font-family: 'Outfit', sans-serif;
+      font-size: 0.7rem;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--gold);
+      background: var(--gold-dim);
+      border: 1px solid rgba(201, 168, 76, 0.3);
+      border-radius: 4px;
+      padding: 4px 12px;
+      margin-bottom: 20px;
+    }
+
+    /* ── TITLE ── */
+    h1 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(2rem, 5vw, 2.9rem);
+      font-weight: 700;
+      color: var(--star);
+      line-height: 1.2;
+      margin-bottom: 20px;
+      letter-spacing: -0.01em;
+    }
+
+    /* ── DATE HEADER ── */
+    .date-header {
+      font-size: 0.82rem;
+      color: var(--muted);
+      margin-bottom: 36px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px;
+      align-items: center;
+    }
+
+    .date-header span { margin: 0 2px; }
+
+    /* ── HOOK ── */
+    .hook {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.25rem;
+      font-style: italic;
+      color: var(--star);
+      line-height: 1.6;
+      border-left: 3px solid var(--gold);
+      padding-left: 20px;
+      margin-bottom: 40px;
+      opacity: 0.95;
+    }
+
+    /* ── HEADINGS ── */
+    h2 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.75rem;
+      font-weight: 600;
+      color: var(--star);
+      margin: 44px 0 16px;
+      letter-spacing: 0.01em;
+    }
+
+    h3 {
+      font-family: 'Outfit', sans-serif;
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: var(--gold-light);
+      margin: 28px 0 10px;
+    }
+
+    p { margin-bottom: 18px; color: var(--text); }
+
+    strong { color: var(--star); font-weight: 600; }
+
+    em { color: var(--gold-light); font-style: italic; }
+
+    /* ── DIVIDER ── */
+    .divider {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 40px 0;
+    }
+
+    /* ── TAKEAWAY BOX ── */
+    .takeaway {
+      background: rgba(76, 175, 130, 0.07);
+      border: 1px solid rgba(76, 175, 130, 0.35);
+      border-left: 4px solid var(--green);
+      border-radius: 8px;
+      padding: 22px 24px;
+      margin: 36px 0;
+    }
+
+    .takeaway-label {
+      font-size: 0.7rem;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--green);
+      margin-bottom: 10px;
+    }
+
+    .takeaway p {
+      color: var(--star);
+      margin-bottom: 8px;
+      font-size: 0.95rem;
+    }
+
+    .takeaway p:last-child { margin-bottom: 0; }
+
+    .takeaway ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .takeaway ul li {
+      color: var(--star);
+      font-size: 0.95rem;
+      padding: 4px 0 4px 20px;
+      position: relative;
+    }
+
+    .takeaway ul li::before {
+      content: '✓';
+      position: absolute;
+      left: 0;
+      color: var(--green);
+      font-weight: 700;
+    }
+
+    /* ── TRIGGER GRID ── */
+    .trigger-section {
+      margin: 44px 0;
+    }
+
+    .trigger-section h2 {
+      margin-bottom: 8px;
+    }
+
+    .trigger-section .section-intro {
+      color: var(--muted);
+      font-size: 0.9rem;
+      margin-bottom: 24px;
+    }
+
+    .trigger-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+      gap: 16px;
+    }
+
+    .trigger-card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 18px 16px;
+      transition: border-color 0.2s, transform 0.2s;
+    }
+
+    .trigger-card:hover {
+      border-color: rgba(201, 168, 76, 0.4);
+      transform: translateY(-2px);
+    }
+
+    .trigger-name {
+      font-family: 'Outfit', sans-serif;
+      font-size: 0.92rem;
+      font-weight: 600;
+      color: var(--star);
+      margin-bottom: 6px;
+    }
+
+    .trigger-mechanism {
+      font-size: 0.78rem;
+      color: var(--muted);
+      margin-bottom: 12px;
+      line-height: 1.5;
+    }
+
+    .severity-badge {
+      display: inline-block;
+      font-size: 0.65rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      border-radius: 3px;
+      padding: 3px 8px;
+      margin-bottom: 10px;
+    }
+
+    .severity-high {
+      background: rgba(220, 80, 80, 0.15);
+      border: 1px solid rgba(220, 80, 80, 0.4);
+      color: #E07070;
+    }
+
+    .severity-medium {
+      background: rgba(201, 168, 76, 0.15);
+      border: 1px solid rgba(201, 168, 76, 0.4);
+      color: var(--gold-light);
+    }
+
+    .severity-low {
+      background: rgba(76, 175, 130, 0.12);
+      border: 1px solid rgba(76, 175, 130, 0.35);
+      color: var(--green);
+    }
+
+    .trigger-fix {
+      font-size: 0.78rem;
+      color: var(--green);
+      line-height: 1.5;
+      border-top: 1px solid var(--border);
+      padding-top: 10px;
+      margin-top: 4px;
+    }
+
+    .trigger-fix::before {
+      content: 'Fix: ';
+      font-weight: 700;
+    }
+
+    /* ── AFFILIATE BOX ── */
+    .affiliate-box {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-top: 3px solid var(--gold);
+      border-radius: 10px;
+      padding: 24px;
+      margin: 40px 0;
+      display: flex;
+      gap: 20px;
+      align-items: flex-start;
+    }
+
+    .affiliate-icon {
+      font-size: 2rem;
+      line-height: 1;
+      flex-shrink: 0;
+      margin-top: 2px;
+    }
+
+    .affiliate-body { flex: 1; }
+
+    .affiliate-label {
+      font-size: 0.65rem;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 6px;
+    }
+
+    .affiliate-title {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: var(--star);
+      margin-bottom: 8px;
+    }
+
+    .affiliate-desc {
+      font-size: 0.85rem;
+      color: var(--muted);
+      margin-bottom: 14px;
+      line-height: 1.6;
+    }
+
+    .affiliate-btn {
+      display: inline-block;
+      background: var(--gold);
+      color: var(--night);
+      font-family: 'Outfit', sans-serif;
+      font-size: 0.8rem;
+      font-weight: 700;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+      text-decoration: none;
+      padding: 10px 20px;
+      border-radius: 6px;
+      transition: background 0.2s, transform 0.15s;
+    }
+
+    .affiliate-btn:hover {
+      background: var(--gold-light);
+      transform: translateY(-1px);
+    }
+
+    /* ── CITATION ── */
+    .citation-block {
+      background: rgba(15, 21, 37, 0.8);
+      border: 1px solid var(--border);
+      border-left: 3px solid var(--gold-light);
+      border-radius: 6px;
+      padding: 16px 20px;
+      margin: 28px 0;
+      font-size: 0.87rem;
+      color: var(--muted);
+      font-style: italic;
+    }
+
+    .citation-block cite { font-style: normal; color: var(--gold-light); }
+
+    /* ── INFO BOX ── */
+    .info-box {
+      background: rgba(201, 168, 76, 0.06);
+      border: 1px solid rgba(201, 168, 76, 0.2);
+      border-radius: 8px;
+      padding: 20px 22px;
+      margin: 28px 0;
+    }
+
+    .info-box .info-label {
+      font-size: 0.68rem;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 8px;
+    }
+
+    .info-box p {
+      font-size: 0.9rem;
+      color: var(--text);
+      margin-bottom: 0;
+    }
+
+    /* ── WARNING BOX ── */
+    .warning-box {
+      background: rgba(220, 80, 80, 0.06);
+      border: 1px solid rgba(220, 80, 80, 0.25);
+      border-left: 4px solid #E07070;
+      border-radius: 6px;
+      padding: 16px 20px;
+      margin: 28px 0;
+    }
+
+    .warning-box .warn-label {
+      font-size: 0.68rem;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: #E07070;
+      margin-bottom: 8px;
+    }
+
+    .warning-box p, .warning-box ul li {
+      font-size: 0.9rem;
+      color: var(--text);
+    }
+
+    .warning-box ul {
+      padding-left: 18px;
+      margin: 0;
+    }
+
+    .warning-box ul li { margin-bottom: 4px; }
+
+    /* ── REFERENCES ── */
+    .references {
+      margin-top: 56px;
+      padding-top: 28px;
+      border-top: 1px solid var(--border);
+    }
+
+    .references h2 {
+      font-size: 1.1rem;
+      margin-bottom: 14px;
+    }
+
+    .references ol {
+      padding-left: 20px;
+    }
+
+    .references li {
+      font-size: 0.8rem;
+      color: var(--muted);
+      margin-bottom: 8px;
+      line-height: 1.6;
+    }
+
+    /* ── FOOTER ── */
+    footer {
+      position: relative;
+      z-index: 1;
+      border-top: 1px solid var(--border);
+      padding: 28px 24px;
+      text-align: center;
+    }
+
+    footer p {
+      font-size: 0.78rem;
+      color: var(--muted);
+      margin-bottom: 4px;
+    }
+
+    footer a { color: var(--gold); text-decoration: none; }
+    footer a:hover { color: var(--gold-light); }
+
+    /* ── RESPONSIVE ── */
+    @media (max-width: 600px) {
+      .trigger-grid { grid-template-columns: 1fr 1fr; }
+      .affiliate-box { flex-direction: column; gap: 12px; }
+      h1 { font-size: 1.8rem; }
+    }
+
+    @media (max-width: 420px) {
+      .trigger-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header>
+    <div class="header-inner">
+      <a href="/" class="site-logo">SleepWise<span>Reviews</span></a>
+      <nav>
+        <a href="/">Home</a>
+        <a href="/reviews">Reviews</a>
+        <a href="/sleep-guides">Guides</a>
+        <a href="/about">About</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- MAIN CONTENT -->
+  <main class="page-wrap">
+
+    <div class="badge">Sleep Disorders</div>
+
+    <h1>Restless Legs Syndrome: Causes, Triggers, and Real Fixes</h1>
+
+    <!-- DATE HEADER -->
+    <div class="date-header">
+      <span>📅 May 2022</span>
+      <span>·</span>
+      <span>⏱ 8 min read</span>
+      <span>·</span>
+      <span>🔄 Updated Mar 2026</span>
+    </div>
+
+    <!-- HOOK -->
+    <p class="hook">
+      Up to 10% of people have RLS and most have never heard the diagnosis — just the misery. The uncontrollable urge to move your legs at night is one of the most underdiagnosed sleep disruptors in medicine.
+    </p>
+
+    <!-- INTRO -->
+    <p>
+      You lie down, finally ready to sleep. Then it starts — a crawling, creeping sensation deep in your calves. Maybe tingling, maybe burning, maybe an indescribable urge that feels like your legs need to run even as your body desperately wants to rest. You shift position. Temporary relief. Then it's back. You get up and walk. It fades. The moment you lie back down, it returns.
+    </p>
+
+    <p>
+      This is <strong>Restless Legs Syndrome (RLS)</strong>, also called Willis-Ekbom Disease. It is a real, diagnosable neurological condition — not anxiety, not growing pains, not imagination. And yet millions of people suffer through years of miserable nights before ever receiving a proper diagnosis or effective treatment.
+    </p>
+
+    <hr class="divider" />
+
+    <!-- SECTION: WHAT IT FEELS LIKE -->
+    <h2>What RLS Actually Feels Like</h2>
+
+    <p>
+      The sensations of RLS are notoriously difficult to describe because they don't map neatly onto familiar pain categories. Patients most commonly report: <strong>crawling</strong>, <strong>creeping</strong>, <strong>tingling</strong>, <strong>burning</strong>, <strong>itching deep inside the leg</strong>, or simply an overwhelming compulsion to move. Unlike a cramp, it isn't exactly pain — it's more like an itch you cannot scratch.
+    </p>
+
+    <p>
+      RLS follows a distinct pattern that clinicians use for diagnosis:
+    </p>
+
+    <ul style="padding-left:20px; margin-bottom:18px;">
+      <li style="margin-bottom:6px; color:var(--text);">Symptoms occur <strong>at rest</strong> — sitting or lying down triggers them</li>
+      <li style="margin-bottom:6px; color:var(--text);">Movement provides <strong>temporary relief</strong> — walking, stretching, or pacing quiets the urge</li>
+      <li style="margin-bottom:6px; color:var(--text);">Symptoms are <strong>worse in the evening and at night</strong> — a hallmark feature</li>
+      <li style="margin-bottom:6px; color:var(--text);">Symptoms are not explained by another condition (such as a leg cramp or positional discomfort)</li>
+    </ul>
+
+    <p>
+      RLS is frequently accompanied by <strong>Periodic Limb Movement Disorder (PLMD)</strong> — involuntary leg kicks every 20–40 seconds during sleep. This fragments sleep architecture even when the person is unaware of it, contributing to daytime fatigue that can be mistaken for insomnia or depression.
+    </p>
+
+    <hr class="divider" />
+
+    <!-- SECTION: DOPAMINE CONNECTION -->
+    <h2>The Dopamine Connection</h2>
+
+    <p>
+      The neuroscience of RLS centers on the <strong>dopaminergic pathways</strong> of the basal ganglia — specifically the circuits responsible for motor control and sensory regulation. When dopamine signaling in these pathways is disrupted or insufficient, the inhibitory control over movement urges breaks down.
+    </p>
+
+    <p>
+      Here is the key insight: <strong>dopamine levels in the brain naturally decline in the evening</strong>. The same circadian rhythm that governs sleep pressure also governs dopamine synthesis and release. This explains why RLS is always worst at night — symptoms peak precisely when dopaminergic tone is at its lowest point.
+    </p>
+
+    <div class="citation-block">
+      <cite>Winter (2017)</cite> describes RLS as a neurological condition driven by dopaminergic pathway dysfunction, often aggravated by iron deficiency — and notes that many patients are prescribed sleeping pills when the actual fix is iron supplementation or dopamine agonists. Treating RLS with a sedative is like handing someone earplugs to manage a fire alarm — it dulls the perception without addressing the cause. (Winter, 2017)
+    </div>
+
+    <p>
+      This is why the first-line medications for RLS are <strong>dopamine agonists</strong> — drugs like pramipexole (Mirapex) and ropinirole (Requip) that stimulate dopamine receptors. They work by compensating for the dopaminergic deficit rather than sedating the patient.
+    </p>
+
+    <p>
+      However, a well-known complication called <strong>augmentation</strong> occurs in some long-term users of dopamine agonists: over time, symptoms can paradoxically worsen, spread to the arms or daytime hours, and intensify. This makes proper diagnosis and the lowest effective dose critically important — another reason why identifying and correcting underlying deficiencies first is the smarter approach.
+    </p>
+
+    <hr class="divider" />
+
+    <!-- SECTION: IRON DEFICIENCY -->
+    <h2>Iron Deficiency: The Most Correctable Cause</h2>
+
+    <p>
+      Iron is the rate-limiting cofactor for dopamine synthesis. Without adequate iron, the brain cannot produce sufficient dopamine — and the regions most sensitive to this shortage are precisely the dopaminergic pathways involved in RLS.
+    </p>
+
+    <p>
+      The critical finding from research: <strong>RLS can occur with iron deficiency even in the absence of anemia</strong>. Standard CBC blood panels will appear completely normal while the brain is already iron-starved. The correct test is <strong>serum ferritin</strong>.
+    </p>
+
+    <div class="info-box">
+      <div class="info-label">Clinical Threshold</div>
+      <p>A ferritin level below <strong>75 ng/mL</strong> is associated with RLS severity, even if it falls within the conventional "normal" lab range (which often extends as low as 12 ng/mL). If you have RLS, request a serum ferritin test — not just hemoglobin or hematocrit.</p>
+    </div>
+
+    <p>
+      When ferritin is below 75 ng/mL, oral iron supplementation (typically ferrous sulfate or ferrous bisglycinate with vitamin C to enhance absorption) often produces dramatic improvement in RLS symptoms within weeks to months. In more severe or malabsorption cases, intravenous iron infusion can deliver near-complete remission.
+    </p>
+
+    <p>
+      The practical implication is significant: before starting any medication for RLS, <strong>every patient should have serum ferritin tested</strong>. A substantial proportion of RLS cases can be fully resolved with iron supplementation alone — no prescription needed.
+    </p>
+
+    <hr class="divider" />
+
+    <!-- TRIGGER GRID -->
+    <div class="trigger-section">
+      <h2>RLS Trigger Identification Guide</h2>
+      <p class="section-intro">Each trigger has a distinct mechanism. Identifying yours is the first step toward targeted relief.</p>
+
+      <div class="trigger-grid">
+
+        <div class="trigger-card">
+          <div class="trigger-name">Iron Deficiency</div>
+          <div class="trigger-mechanism">Iron is required for dopamine synthesis in the basal ganglia. Low ferritin impairs dopaminergic tone even without anemia.</div>
+          <span class="severity-badge severity-high">High Impact</span>
+          <div class="trigger-fix">Test serum ferritin; supplement if below 75 ng/mL; IV iron for severe cases.</div>
+        </div>
+
+        <div class="trigger-card">
+          <div class="trigger-name">Magnesium Deficiency</div>
+          <div class="trigger-mechanism">Magnesium regulates nerve excitability and neuromuscular function. Low levels increase motor neuron irritability and leg restlessness.</div>
+          <span class="severity-badge severity-high">High Impact</span>
+          <div class="trigger-fix">300–400 mg magnesium glycinate 1–2 hours before bed; avoid oxide forms (poor absorption).</div>
+        </div>
+
+        <div class="trigger-card">
+          <div class="trigger-name">Caffeine</div>
+          <div class="trigger-mechanism">Adenosine receptor blockade disrupts sleep homeostasis and may amplify dopaminergic sensitivity dysregulation.</div>
+          <span class="severity-badge severity-medium">Medium Impact</span>
+          <div class="trigger-fix">Eliminate caffeine after noon; reduce total intake to under 200 mg/day during a trial period.</div>
+        </div>
+
+        <div class="trigger-card">
+          <div class="trigger-name">Alcohol</div>
+          <div class="trigger-mechanism">Alcohol initially sedates but causes rebound neurological activation in the second half of sleep, worsening RLS symptoms in the early morning hours.</div>
+          <span class="severity-badge severity-medium">Medium Impact</span>
+          <div class="trigger-fix">Avoid alcohol within 3 hours of bedtime; consider a complete elimination trial for 2–4 weeks.</div>
+        </div>
+
+        <div class="trigger-card">
+          <div class="trigger-name">Antihistamines &amp; Antidepressants</div>
+          <div class="trigger-mechanism">Diphenhydramine (Benadryl, many OTC sleep aids) blocks dopamine receptors. SSRIs and TCAs elevate serotonin, which suppresses dopamine signaling.</div>
+          <span class="severity-badge severity-high">High Impact</span>
+          <div class="trigger-fix">Review all medications with a physician; substitutions exist for most offenders. Never stop prescriptions without guidance.</div>
+        </div>
+
+        <div class="trigger-card">
+          <div class="trigger-name">Pregnancy</div>
+          <div class="trigger-mechanism">Third-trimester RLS is common due to folate/iron depletion, hormonal shifts, and increased blood volume diluting ferritin stores.</div>
+          <span class="severity-badge severity-medium">Medium Impact</span>
+          <div class="trigger-fix">Usually self-resolving post-delivery; ensure adequate iron/folate intake; discuss safe options with OB.</div>
+        </div>
+
+        <div class="trigger-card">
+          <div class="trigger-name">Kidney Disease</div>
+          <div class="trigger-mechanism">Chronic kidney disease impairs erythropoietin production and iron utilization, and allows uremic toxins that disrupt dopaminergic signaling to accumulate.</div>
+          <span class="severity-badge severity-high">High Impact</span>
+          <div class="trigger-fix">Dialysis patients have high RLS prevalence; dopamine agonists plus IV iron (if appropriate) are primary treatments.</div>
+        </div>
+
+        <div class="trigger-card">
+          <div class="trigger-name">Prolonged Inactivity</div>
+          <div class="trigger-mechanism">Sedentary behavior reduces peripheral circulation and may sensitize leg mechanoreceptors, amplifying restlessness at night.</div>
+          <span class="severity-badge severity-low">Lower Impact</span>
+          <div class="trigger-fix">30 minutes of moderate walking or cycling daily; avoid sitting for more than 90-minute unbroken stretches.</div>
+        </div>
+
+      </div>
+    </div>
+
+    <hr class="divider" />
+
+    <!-- SECTION: MAGNESIUM -->
+    <h2>Magnesium: The Underrated Nervous System Regulator</h2>
+
+    <p>
+      Magnesium is a cofactor in over 300 enzymatic reactions, and its role in neuromuscular regulation is directly relevant to RLS. It acts as a natural calcium channel blocker at the nerve terminal level — when magnesium is low, nerve excitability increases, leg muscles become more prone to spasm and restlessness, and sleep quality deteriorates.
+    </p>
+
+    <p>
+      Dietary magnesium deficiency is extremely common in Western populations — estimated at 50–80% depending on the assessment method. Stress, alcohol, excessive caffeine, and certain diuretics all deplete magnesium further.
+    </p>
+
+    <p>
+      For RLS specifically, <strong>magnesium glycinate</strong> is the preferred form. It is highly bioavailable and gentler on the digestive system than magnesium oxide or citrate at therapeutic doses. Taking <strong>300–400 mg of elemental magnesium as glycinate</strong> approximately one to two hours before bed is a safe, accessible first intervention that many RLS sufferers find significantly helpful.
+    </p>
+
+    <!-- AFFILIATE BOX -->
+    <div class="affiliate-box">
+      <div class="affiliate-icon">🌙</div>
+      <div class="affiliate-body">
+        <div class="affiliate-label">Recommended Supplement</div>
+        <div class="affiliate-title">Magnesium Glycinate by Pure Encapsulations</div>
+        <p class="affiliate-desc">
+          Pure Encapsulations is a professional-grade supplement brand known for clean formulations without unnecessary fillers. Their magnesium glycinate delivers fully chelated magnesium for high absorption — the same form used in sleep and RLS research. One of the most consistently recommended options by integrative medicine practitioners for nighttime leg restlessness and sleep support.
+        </p>
+        <a href="https://www.amazon.com/dp/B001FWXQES?tag=sleepwiserevi-20" target="_blank" rel="noopener" class="affiliate-btn">View on Amazon</a>
+      </div>
+    </div>
+
+    <hr class="divider" />
+
+    <!-- SECTION: MEDICATIONS THAT WORSEN RLS -->
+    <h2>Medications That Make RLS Worse</h2>
+
+    <p>
+      One of the most underappreciated aspects of RLS management is how many common medications directly worsen or even cause symptoms. If you develop RLS or notice it worsening, a medication review is essential.
+    </p>
+
+    <div class="warning-box">
+      <div class="warn-label">Medications Associated with RLS Worsening</div>
+      <ul>
+        <li><strong>Diphenhydramine</strong> — the active ingredient in Benadryl, Unisom, ZzzQuil, and most OTC sleep aids. It blocks dopamine receptors directly.</li>
+        <li><strong>SSRIs and SNRIs</strong> — fluoxetine, sertraline, venlafaxine and similar antidepressants elevate serotonin, which suppresses dopamine. Many patients report new or worsened RLS after starting these medications.</li>
+        <li><strong>Antipsychotics</strong> — haloperidol, quetiapine, olanzapine. These are dopamine antagonists by mechanism of action.</li>
+        <li><strong>Metoclopramide</strong> — a common anti-nausea medication that crosses the blood-brain barrier and blocks dopamine receptors.</li>
+        <li><strong>Tricyclic antidepressants</strong> — amitriptyline, nortriptyline. Frequently prescribed for sleep; can significantly aggravate RLS.</li>
+        <li><strong>Lithium</strong> — used in bipolar disorder; associated with RLS in some patients.</li>
+      </ul>
+    </div>
+
+    <p>
+      This does not mean these medications should be stopped without medical supervision — many are essential treatments. But it does mean that <strong>RLS onset or worsening after a medication change is a clinically significant signal</strong> that should be discussed with a prescribing physician. Alternatives may exist that are less dopamine-disruptive.
+    </p>
+
+    <hr class="divider" />
+
+    <!-- SECTION: PRIMARY vs SECONDARY -->
+    <h2>Primary vs. Secondary RLS</h2>
+
+    <p>
+      Clinicians distinguish between two broad categories of RLS, a distinction that directly affects treatment approach.
+    </p>
+
+    <h3>Primary (Idiopathic) RLS</h3>
+    <p>
+      Primary RLS has no identifiable underlying cause. It has a strong genetic component — roughly 50% of patients report a first-degree relative with RLS. It often begins earlier in life (before age 45) and tends to be slowly progressive. The treatment focus is dopaminergic regulation and lifestyle optimization.
+    </p>
+
+    <h3>Secondary RLS</h3>
+    <p>
+      Secondary RLS arises from an identifiable underlying condition. Common causes include: iron deficiency, kidney disease (especially end-stage renal disease on dialysis), peripheral neuropathy, Parkinson's disease, and pregnancy. Crucially, <strong>treating the underlying condition often resolves or dramatically improves RLS</strong> without requiring ongoing dopaminergic medication. This is why a thorough workup matters — RLS is sometimes the presenting symptom of a correctable condition.
+    </p>
+
+    <hr class="divider" />
+
+    <!-- SECTION: PREGNANCY RLS -->
+    <h2>Pregnancy and RLS</h2>
+
+    <p>
+      Pregnancy — particularly the third trimester — is one of the most common triggers for new-onset RLS. Estimates suggest <strong>25–30% of pregnant women</strong> experience RLS symptoms, compared with roughly 5–10% of the general population.
+    </p>
+
+    <p>
+      The mechanisms are multiple: folate and iron stores are heavily depleted to support fetal development, blood volume expansion dilutes ferritin concentration, and hormonal changes (particularly rising estrogen levels) appear to modulate dopaminergic sensitivity. The good news is that <strong>pregnancy-related RLS typically resolves within weeks to months after delivery</strong>.
+    </p>
+
+    <p>
+      During pregnancy, management focuses on nutritional optimization — ensuring adequate iron and folate through diet and prenatal supplementation — alongside non-pharmacological approaches such as compression socks, warm baths, gentle calf stretching, and sleep position adjustments. Pharmacological dopaminergic treatment is generally avoided during pregnancy unless symptoms are severe and unmanageable.
+    </p>
+
+    <hr class="divider" />
+
+    <!-- SECTION: NON-DRUG FIXES -->
+    <h2>Non-Drug Fixes That Actually Work</h2>
+
+    <p>
+      Before, or alongside any pharmacological intervention, a set of behavioral and nutritional strategies can substantially reduce RLS severity for many patients.
+    </p>
+
+    <h3>Address Nutritional Deficiencies First</h3>
+    <p>
+      Test serum ferritin and supplement iron if below 75 ng/mL. Add magnesium glycinate (300–400 mg) before bed. Ensure adequate folate intake, particularly if pregnant.
+    </p>
+
+    <h3>Temperature and Sensory Interventions</h3>
+    <p>
+      <strong>A warm bath or shower 60–90 minutes before bed</strong> reliably reduces RLS symptoms for many patients — the subsequent cooling of the body aids sleep onset, while the heat temporarily quiets the restless sensations. Keeping the bedroom <strong>cool (65–68°F / 18–20°C)</strong> helps sustain sleep once achieved.
+    </p>
+
+    <h3>Compression Socks</h3>
+    <p>
+      Graduated compression socks worn during the evening (not necessarily during sleep) improve venous return and have been shown in small studies to reduce RLS symptom severity. They are particularly useful for those who sit for prolonged periods.
+    </p>
+
+    <h3>Calf Stretching and Targeted Exercise</h3>
+    <p>
+      Stretching the calves, hamstrings, and hip flexors in the hour before bed provides direct mechanical relief for many RLS sufferers. Moderate aerobic exercise earlier in the day — walking, cycling, swimming — consistently improves RLS symptoms in research trials. However, <strong>intense exercise close to bedtime can worsen symptoms</strong> temporarily due to dopaminergic overstimulation; keep vigorous workouts to the morning or early afternoon.
+    </p>
+
+    <h3>Eliminate Known Triggers</h3>
+    <p>
+      Cut caffeine after noon, eliminate alcohol within three hours of bed, and audit all medications and supplements for dopamine-antagonist properties. These steps alone can produce significant improvement.
+    </p>
+
+    <!-- TAKEAWAY BOX -->
+    <div class="takeaway">
+      <div class="takeaway-label">Key Takeaways</div>
+      <ul>
+        <li>RLS is a neurological condition — not anxiety or a minor discomfort — and has effective treatments.</li>
+        <li>Get serum ferritin tested; levels below 75 ng/mL can cause RLS even without anemia.</li>
+        <li>Magnesium glycinate (300–400 mg before bed) is a safe, accessible first intervention.</li>
+        <li>Many common medications — OTC sleep aids, SSRIs, antipsychotics — directly worsen RLS.</li>
+        <li>Secondary RLS often resolves when the underlying cause (iron deficiency, kidney disease, pregnancy) is treated.</li>
+        <li>Dopamine agonists are effective pharmacological treatments but carry augmentation risk over time.</li>
+        <li>Persistent or severe RLS warrants a full medical evaluation including serum ferritin, kidney function, and medication review.</li>
+      </ul>
+    </div>
+
+    <hr class="divider" />
+
+    <!-- SECTION: WHEN TO SEE A DOCTOR -->
+    <h2>When to See a Doctor</h2>
+
+    <p>
+      Many mild or intermittent RLS cases respond to the nutritional and behavioral strategies described above. But there are clear indications for a medical evaluation:
+    </p>
+
+    <ul style="padding-left:20px; margin-bottom:18px;">
+      <li style="margin-bottom:8px; color:var(--text);"><strong>Symptoms occur most nights and disrupt sleep significantly</strong> — quality of life impairment is a legitimate threshold</li>
+      <li style="margin-bottom:8px; color:var(--text);"><strong>Daytime symptoms</strong> — RLS that extends into waking hours suggests more severe dopaminergic involvement</li>
+      <li style="margin-bottom:8px; color:var(--text);"><strong>Recent onset in mid-life or older without obvious cause</strong> — secondary RLS should be ruled out</li>
+      <li style="margin-bottom:8px; color:var(--text);"><strong>Iron and magnesium optimization haven't helped after 8–12 weeks</strong></li>
+      <li style="margin-bottom:8px; color:var(--text);"><strong>Symptoms began or worsened after starting a new medication</strong></li>
+    </ul>
+
+    <p>
+      A physician can order a serum ferritin panel, assess kidney function, review your medication list, and evaluate whether a dopamine agonist trial is appropriate. If you see a neurologist or sleep specialist, a <strong>polysomnography (overnight sleep study)</strong> can quantify periodic limb movements and identify co-existing sleep disorders contributing to your fatigue.
+    </p>
+
+    <p>
+      The bottom line: RLS is highly treatable. The tragedy is not the condition itself — it is the years of miserable nights that pass before a correct diagnosis directs the right intervention. If this article describes your nights, you now have a roadmap. Use it.
+    </p>
+
+    <!-- REFERENCES -->
+    <div class="references">
+      <h2>References</h2>
+      <ol>
+        <li>Winter, W. C. (2017). <em>The Sleep Solution: Why Your Sleep Is Broken and How to Fix It.</em> New American Library.</li>
+        <li>Allen, R. P., et al. (2014). Restless legs syndrome/Willis–Ekbom disease diagnostic criteria. <em>Sleep Medicine</em>, 15(8), 860–873.</li>
+        <li>Earley, C. J., et al. (2014). Brain iron deficiency and RLS. <em>Sleep Medicine Reviews</em>, 18(4), 341–352.</li>
+        <li>Trotti, L. M., & Becker, L. A. (2019). Iron for the treatment of restless legs syndrome. <em>Cochrane Database of Systematic Reviews.</em></li>
+        <li>Aukerman, M. M., et al. (2006). Exercise and restless legs syndrome. <em>Journal of the American Board of Family Medicine</em>, 19(5), 487–493.</li>
+        <li>Picchietti, D. L., et al. (2010). Restless legs syndrome in pregnancy. <em>Sleep Medicine</em>, 11(2), 186–194.</li>
+        <li>Garcia-Borreguero, D., et al. (2016). European guidelines on management of restless legs syndrome. <em>European Journal of Neurology</em>, 23(6), 986–1017.</li>
+      </ol>
+    </div>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <p>&copy; 2026 <a href="/">SleepWiseReviews</a> · Evidence-based sleep content</p>
+    <p style="font-size:0.72rem; margin-top:6px;">As an Amazon Associate, SleepWiseReviews earns from qualifying purchases. This article is for informational purposes only and does not constitute medical advice.</p>
+  </footer>
+
+</body>
+</html>
