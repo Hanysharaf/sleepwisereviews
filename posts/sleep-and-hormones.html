@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>How Sleep Controls Your Hormones (Growth Hormone, Cortisol, and More) - SleepWiseReviews</title>
+  <meta name="description" content="Your body releases 70–80% of its daily growth hormone during the first few hours of deep sleep. Learn how sleep controls cortisol, melatonin, testosterone, and more." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <style type='text/css'>
+    :root {
+      --night: #0A0E1A;
+      --deep: #0F1525;
+      --navy: #141B30;
+      --card: #1A2238;
+      --border: #252D45;
+      --gold: #C9A84C;
+      --gold-light: #E5C96A;
+      --gold-dim: rgba(201, 168, 76, 0.15);
+      --star: #F0E6C8;
+      --text: #D4DCEE;
+      --muted: #7A85A0;
+      --white: #FFFFFF;
+      --green: #4CAF82;
+    }
+
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: 'Outfit', sans-serif;
+      background: var(--night);
+      color: var(--text);
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      background-image:
+        radial-gradient(1px 1px at 10% 15%, rgba(240, 230, 200, 0.6) 0%, transparent 100%),
+        radial-gradient(1px 1px at 25% 40%, rgba(240, 230, 200, 0.4) 0%, transparent 100%),
+        radial-gradient(1.5px 1.5px at 40% 10%, rgba(240, 230, 200, 0.5) 0%, transparent 100%),
+        radial-gradient(1px 1px at 55% 30%, rgba(240, 230, 200, 0.3) 0%, transparent 100%),
+        radial-gradient(1px 1px at 70% 5%, rgba(240, 230, 200, 0.6) 0%, transparent 100%),
+        radial-gradient(1.5px 1.5px at 80% 20%, rgba(240, 230, 200, 0.4) 0%, transparent 100%),
+        radial-gradient(1px 1px at 90% 45%, rgba(240, 230, 200, 0.3) 0%, transparent 100%);
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    nav {
+      position: sticky; top: 0; z-index: 100;
+      background: rgba(10, 14, 26, 0.92);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+      padding: 0 6%; height: 68px;
+      display: flex; align-items: center; justify-content: space-between;
+    }
+    .logo { font-family: 'Cormorant Garamond', serif; font-size: 1.6rem; font-weight: 700; color: var(--star); text-decoration: none; }
+    .logo span { color: var(--gold); }
+    .nav-links { display: flex; gap: 2rem; list-style: none; }
+    .nav-links a { text-decoration: none; color: var(--muted); font-size: 0.88rem; font-weight: 500; transition: color 0.2s; }
+    .nav-links a:hover { color: var(--gold); }
+    .nav-cta { background: var(--gold-dim); color: var(--gold) !important; border: 1px solid rgba(201, 168, 76, 0.3); padding: 7px 16px; border-radius: 4px; }
+
+    .article-wrapper {
+      position: relative; z-index: 1;
+      max-width: 800px; margin: 0 auto; padding: 50px 6% 80px;
+    }
+    .article-meta-top { display: flex; flex-wrap: wrap; align-items: center; gap: 0.8rem; margin-bottom: 1.2rem; }
+    .tag { background: var(--gold); color: var(--night); padding: 5px 12px; border-radius: 4px; font-size: 0.72rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; }
+    .meta-text { color: var(--muted); font-size: 0.82rem; }
+    .article-wrapper h1 { font-family: 'Cormorant Garamond', serif; font-size: 2.4rem; font-weight: 600; color: var(--star); line-height: 1.2; margin-bottom: 1.2rem; }
+    .article-intro { font-size: 1.1rem; color: var(--text); line-height: 1.7; margin-bottom: 2rem; font-weight: 300; }
+    .author-box { display: flex; align-items: center; gap: 1rem; margin-bottom: 1.5rem; padding: 1rem; background: var(--card); border-radius: 8px; border: 1px solid var(--border); }
+    .author-avatar { font-size: 2.5rem; }
+    .author-name { color: var(--star); font-weight: 500; }
+    .author-name a { color: var(--gold); text-decoration: none; }
+    .author-role { color: var(--muted); font-size: 0.82rem; }
+    .disclosure-box { background: rgba(201, 168, 76, 0.08); border: 1px solid rgba(201, 168, 76, 0.2); border-radius: 8px; padding: 1rem 1.2rem; font-size: 0.82rem; color: var(--muted); margin-bottom: 2rem; }
+    .article-wrapper h2 { font-family: 'Cormorant Garamond', serif; font-size: 1.6rem; font-weight: 600; color: var(--star); margin: 2.5rem 0 1rem; padding-top: 1rem; }
+    .article-wrapper h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.2rem; color: var(--star); margin: 1.5rem 0 0.8rem; }
+    .article-wrapper p { margin-bottom: 1rem; font-weight: 300; line-height: 1.8; }
+    .article-wrapper ul, .article-wrapper ol { margin: 1rem 0 1.5rem 1.5rem; }
+    .article-wrapper li { margin-bottom: 0.5rem; font-weight: 300; }
+    .callout { background: var(--card); border-left: 3px solid var(--gold); padding: 1rem 1.5rem; margin: 1.5rem 0; border-radius: 0 8px 8px 0; font-size: 0.92rem; }
+    .callout-green { background: var(--card); border-left: 3px solid var(--green); padding: 1rem 1.5rem; margin: 1.5rem 0; border-radius: 0 8px 8px 0; font-size: 0.92rem; }
+
+    .stat-highlight {
+      background: linear-gradient(135deg, rgba(201, 168, 76, 0.12), rgba(201, 168, 76, 0.04));
+      border: 1px solid rgba(201, 168, 76, 0.25);
+      border-radius: 10px;
+      padding: 1.2rem 1.5rem;
+      margin: 1.5rem 0;
+      display: flex;
+      align-items: flex-start;
+      gap: 1rem;
+    }
+    .stat-highlight .stat-number { font-family: 'Cormorant Garamond', serif; font-size: 2.2rem; font-weight: 700; color: var(--gold); line-height: 1; min-width: 80px; }
+    .stat-highlight .stat-label { color: var(--text); font-size: 0.9rem; font-weight: 300; line-height: 1.6; }
+
+    .hormone-card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 1.4rem 1.6rem;
+      margin: 1.8rem 0;
+    }
+    .hormone-card .hormone-header { display: flex; align-items: center; gap: 0.8rem; margin-bottom: 0.8rem; }
+    .hormone-card .hormone-icon { font-size: 1.8rem; }
+    .hormone-card .hormone-title { font-family: 'Cormorant Garamond', serif; font-size: 1.15rem; font-weight: 600; color: var(--star); }
+    .hormone-card p { margin-bottom: 0.6rem; font-size: 0.93rem; }
+
+    .product-cta { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 1.5rem; margin: 2rem 0; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; }
+    .product-cta-text { color: var(--star); font-weight: 500; }
+    .btn-amazon { background: var(--gold); color: var(--night); text-decoration: none; padding: 10px 20px; border-radius: 6px; font-weight: 600; font-size: 0.88rem; transition: background 0.2s; }
+    .btn-amazon:hover { background: var(--gold-light); }
+
+    .article-cta { background: linear-gradient(135deg, var(--card), var(--navy)); border: 1px solid var(--border); border-radius: 12px; padding: 2rem; text-align: center; margin: 3rem 0; }
+    .article-cta h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.4rem; color: var(--star); margin-bottom: 0.8rem; }
+    .article-cta p { color: var(--muted); margin-bottom: 1.2rem; }
+
+    .related-articles { margin: 3rem 0; }
+    .related-articles h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.3rem; color: var(--star); margin-bottom: 1rem; }
+    .related-articles ul { list-style: none; margin: 0; }
+    .related-articles li { margin-bottom: 0.6rem; }
+    .related-articles a { color: var(--gold); text-decoration: none; font-size: 0.95rem; }
+    .related-articles a:hover { text-decoration: underline; }
+
+    .toc { background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 1.4rem 1.8rem; margin: 2rem 0; }
+    .toc h4 { font-family: 'Cormorant Garamond', serif; color: var(--star); font-size: 1rem; margin-bottom: 0.8rem; }
+    .toc ol { margin: 0 0 0 1.2rem; }
+    .toc li { margin-bottom: 0.4rem; }
+    .toc a { color: var(--gold); text-decoration: none; font-size: 0.88rem; }
+    .toc a:hover { text-decoration: underline; }
+
+    footer { background: #060912; border-top: 1px solid var(--border); padding: 50px 6% 30px; }
+    .footer-top { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 3rem; margin-bottom: 3rem; padding-bottom: 3rem; border-bottom: 1px solid var(--border); }
+    .footer-brand p { color: var(--muted); font-size: 0.82rem; margin-top: 0.8rem; line-height: 1.6; font-weight: 300; max-width: 260px; }
+    .footer-col h4 { font-size: 0.78rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--gold); margin-bottom: 1rem; }
+    .footer-col ul { list-style: none; display: flex; flex-direction: column; gap: 0.6rem; }
+    .footer-col a { color: var(--muted); text-decoration: none; font-size: 0.85rem; transition: color 0.2s; }
+    .footer-col a:hover { color: var(--gold); }
+    .footer-bottom { display: flex; justify-content: space-between; font-size: 0.78rem; color: var(--muted); flex-wrap: wrap; gap: 0.5rem; }
+    .affiliate-disc { font-size: 0.75rem; max-width: 600px; }
+
+    @media (max-width: 900px) {
+      .nav-links { display: none; }
+      .article-wrapper h1 { font-size: 1.8rem; }
+      .footer-top { grid-template-columns: 1fr 1fr; }
+      .product-cta { flex-direction: column; text-align: center; }
+      .stat-highlight { flex-direction: column; gap: 0.5rem; }
+    }
+  </style>
+</head>
+
+<body>
+  <nav>
+    <a class="logo" href="../">SleepWise<span>Reviews</span></a>
+    <ul class="nav-links">
+      <li><a href="../#picks">Top Picks</a></li>
+      <li><a href="../#reviews">Reviews</a></li>
+      <li><a href="../pages/about.html">About Harry</a></li>
+      <li><a href="../#newsletter" class="nav-cta">Free Sleep Guide</a></li>
+    </ul>
+  </nav>
+
+  <article class="article-wrapper">
+    <div class="article-meta-top">
+      <span class="tag">Health</span>
+      <span class="meta-text">📅 May 2021</span>
+      <span class="meta-text">·</span>
+      <span class="meta-text">⏱ 9 min read</span>
+      <span class="meta-text">·</span>
+      <span class="meta-text">🔄 Updated Mar 2026</span>
+    </div>
+    <h1>How Sleep Controls Your Hormones (Growth Hormone, Cortisol, and More)</h1>
+    <p class="article-intro">Your body releases 70–80% of its daily growth hormone during the first few hours of deep sleep. Miss those early cycles, and no amount of nutrition or training can fully compensate for what your endocrine system just skipped.</p>
+
+    <div class="author-box">
+      <div class="author-avatar">🌙</div>
+      <div class="author-info">
+        <div class="author-name">By <a href="../pages/about.html">Harry Soul</a> - SleepWiseReviews</div>
+        <div class="author-role">Independent Sleep Researcher - May 2021</div>
+      </div>
+    </div>
+
+    <div class="disclosure-box">
+      <strong>Affiliate Disclosure:</strong> This article contains affiliate links. We earn a small commission if you purchase through our links at no extra cost to you. <a href="../pages/affiliate-disclosure.html" style="color:var(--gold)">Full disclosure</a>
+    </div>
+
+    <div class="toc">
+      <h4>In This Article</h4>
+      <ol>
+        <li><a href="#growth-hormone">Growth Hormone: The Repair Signal</a></li>
+        <li><a href="#cortisol">Cortisol: The Anti-Sleep Hormone</a></li>
+        <li><a href="#melatonin">Melatonin: Darkness, Not Drowsiness</a></li>
+        <li><a href="#testosterone">Testosterone and Deep Sleep</a></li>
+        <li><a href="#insulin">Insulin and Blood Sugar</a></li>
+        <li><a href="#hunger-hormones">Leptin, Ghrelin, and Hunger</a></li>
+        <li><a href="#thyroid">Thyroid Hormones</a></li>
+        <li><a href="#practical">Practical Sleep Schedule Changes</a></li>
+      </ol>
+    </div>
+
+    <p>Most people think about sleep in terms of tiredness — you sleep because you're exhausted, and you wake up refreshed. But the biological reality is far more complex. Sleep is the master regulator of your entire endocrine system. While you lie still in the dark, your body is running a precisely timed hormonal orchestra, and every disruption — a late night, a skipped hour, or chronic poor quality — throws the whole performance off.</p>
+
+    <p>As Shawn Stevenson explains in <em>Sleep Smarter</em> (2016), sleep is not a passive state of rest but an active biological process that governs everything from how your body builds muscle to how it manages hunger, stress, and blood sugar. Understanding the hormones involved — and when they peak — can transform the way you approach your nightly routine.</p>
+
+    <h2 id="growth-hormone">Growth Hormone: The Repair Signal</h2>
+
+    <div class="stat-highlight">
+      <div class="stat-number">70–80%</div>
+      <div class="stat-label">of your total daily growth hormone (GH) is released during the first few hours of deep, slow-wave sleep. This window is non-negotiable — and it cannot be recovered by sleeping in.</div>
+    </div>
+
+    <p>Human Growth Hormone (HGH) is not just for athletes or bodybuilders — it is the body's primary repair and regeneration signal. It stimulates muscle protein synthesis, mobilizes fat as an energy source, supports bone density, and drives cellular repair throughout every organ system. Its release is tightly coupled to slow-wave (deep) sleep, specifically the N3 stage that dominates the first two 90-minute sleep cycles of the night.</p>
+
+    <p>Growth hormone is released in pulses — with the single largest pulse occurring roughly 60 to 90 minutes after falling asleep, coinciding with that first deep sleep cycle. This is why the first half of the night matters so much. Even if you sleep a full eight hours but shift your schedule two or three hours later, you disrupt the circadian timing of this pulse and reduce both the magnitude and efficiency of GH secretion.</p>
+
+    <div class="callout">💡 <strong>Why this matters for fat metabolism:</strong> During the GH pulse, your body preferentially oxidizes fat for fuel. Disrupted deep sleep means less GH, which shifts your body toward storing fat rather than burning it — even if your diet hasn't changed.</div>
+
+    <p>Alcohol is one of the most potent suppressors of growth hormone release. Even moderate consumption before bed fragments deep sleep and blunts the GH pulse, which is one reason why regular drinkers often report feeling unrecovered despite hours in bed.</p>
+
+    <h2 id="cortisol">Cortisol: The Anti-Sleep Hormone</h2>
+
+    <p>Cortisol follows an inverse pattern to growth hormone. It is at its lowest point during the first half of the night — which is exactly when deep sleep and GH release are at their peak — and rises sharply in the hours before waking, reaching its daily maximum around 30 to 45 minutes after you open your eyes. This cortisol awakening response is healthy and normal; it mobilizes energy, sharpens alertness, and prepares you for the demands of the day.</p>
+
+    <p>The problem arises when the rhythm is distorted. Chronic stress, irregular sleep schedules, and excessive artificial light at night all elevate evening cortisol — precisely when it should be falling. Elevated cortisol at bedtime suppresses melatonin, delays sleep onset, reduces slow-wave sleep depth, and triggers more night awakenings. You end up in a self-reinforcing loop: stress elevates cortisol, elevated cortisol wrecks sleep, and poor sleep amplifies the cortisol stress response the following day.</p>
+
+    <div class="hormone-card">
+      <div class="hormone-header">
+        <div class="hormone-icon">⚠️</div>
+        <div class="hormone-title">How Chronic Stress Rewires Your Sleep Architecture</div>
+      </div>
+      <p>Under chronic stress, the hypothalamic-pituitary-adrenal (HPA) axis becomes sensitized. The body loses its ability to downregulate cortisol in the evening, leading to sustained hyperarousal that shifts you out of restorative slow-wave sleep and into lighter, more fragmented sleep stages. Over time, this contributes to metabolic syndrome, immune suppression, and accelerated cognitive aging.</p>
+    </div>
+
+    <div class="callout-green">✅ <strong>Practical takeaway:</strong> To lower evening cortisol and protect sleep quality, dim all overhead lighting 90 minutes before bed, avoid news and social media in the final hour, and consider a brief journaling or breathing practice. Even 10 minutes of slow nasal breathing (4-second inhale, 6-second exhale) measurably activates the parasympathetic nervous system and lowers cortisol.</div>
+
+    <h2 id="melatonin">Melatonin: The Darkness Hormone, Not the Sleep Hormone</h2>
+
+    <p>Melatonin is perhaps the most misunderstood sleep hormone. It is not a sedative — it does not cause sleep directly. It is a darkness signal. Produced by the pineal gland, melatonin rises in response to falling light levels after sunset, signaling to every cell in your body that night has arrived and it is time to prepare for sleep. It sets the stage; it does not perform the show.</p>
+
+    <p>The practical implication is significant: supplementing with melatonin at the wrong time or in excessive doses does not deepen sleep — it merely shifts the timing of your circadian clock. What actually suppresses melatonin and delays sleep onset is blue-spectrum light from screens, overhead LEDs, and fluorescent bulbs. Blue light in the 460–480 nm range is maximally suppressive of melatonin production, capable of delaying release by two or more hours with just 90 minutes of evening screen exposure.</p>
+
+    <p>The most powerful way to leverage melatonin is to work with its natural rhythm: get bright outdoor light (ideally sunlight) within the first hour of waking to anchor your circadian phase, and eliminate or filter blue light sources after sunset. This does more for sleep timing than any supplement.</p>
+
+    <h2 id="testosterone">Testosterone: Deep Sleep is the Factory</h2>
+
+    <div class="stat-highlight">
+      <div class="stat-number">15%</div>
+      <div class="stat-label">reduction in daytime testosterone levels was found in young healthy men after just one week of sleeping only 5 hours per night, according to a landmark University of Chicago study.</div>
+    </div>
+
+    <p>In men, the majority of daily testosterone is produced during sleep — and specifically during REM sleep in the second half of the night. Blood testosterone levels begin rising shortly after sleep onset and reach their peak during the final REM cycles near morning. This is why testosterone levels are typically measured at 7–8 AM and why chronic sleep restriction has such a rapid and pronounced impact on levels.</p>
+
+    <p>For women, the relationship is more nuanced — testosterone plays a role in libido, energy, and bone density, and while the magnitude of sleep-driven production is smaller, the directional effect is the same: poor sleep suppresses it. Both men and women also show disrupted estrogen and progesterone cycling when circadian rhythms are chronically shifted, contributing to menstrual irregularities and fertility challenges in women who work night shifts or maintain highly irregular schedules.</p>
+
+    <div class="callout-green">✅ <strong>Practical takeaway:</strong> Protecting the final two hours of sleep — the REM-rich window — is as important as getting to bed on time. Setting a consistent wake time and working backward eight hours is a more effective strategy than trying to "sleep in" to recover lost testosterone production.</div>
+
+    <h2 id="insulin">Insulin and Blood Sugar: The Glucose Mismanagement of Sleep Deprivation</h2>
+
+    <p>Even a single night of partial sleep restriction measurably impairs glucose metabolism. After just one shortened night, insulin sensitivity in fat cells can drop by as much as 30%, according to research published in the <em>Journal of Clinical Endocrinology & Metabolism</em>. The body becomes less efficient at clearing glucose from the bloodstream, and the pancreas must secrete more insulin to achieve the same effect — a pattern that, sustained over time, is a direct pathway to type 2 diabetes.</p>
+
+    <p>The mechanism involves both cortisol and growth hormone dysregulation. Elevated nighttime cortisol raises baseline blood glucose (it's meant to in a true emergency), while reduced GH impairs the signaling pathways that support healthy insulin sensitivity. Sleep-deprived individuals also show increased appetite for high-carbohydrate foods the following day — partly a cortisol-driven craving and partly the result of the hunger hormone shifts described below.</p>
+
+    <h2 id="hunger-hormones">Leptin, Ghrelin, and the Hormonal Case for Sleep-Driven Hunger</h2>
+
+    <p>The two hormones that most directly regulate appetite — leptin (satiety signal) and ghrelin (hunger signal) — are profoundly sensitive to sleep duration. In a landmark 2004 study by Spiegel, Tasali, and colleagues, participants restricted to four hours of sleep per night for two nights showed a 18% decrease in leptin and a 28% increase in ghrelin, compared to fully rested controls. Subjective hunger ratings rose by 24%, with the strongest cravings for calorie-dense, sweet, and salty foods.</p>
+
+    <div class="hormone-card">
+      <div class="hormone-header">
+        <div class="hormone-icon">🍕</div>
+        <div class="hormone-title">Why You Can't Out-Diet a Bad Night's Sleep</div>
+      </div>
+      <p>When you're sleep-deprived, your brain's reward circuitry amplifies the appeal of junk food while simultaneously impairing the prefrontal cortex's ability to resist it. You're not just hungrier — you're hormonally compelled toward higher-calorie choices and neurologically less able to say no. Willpower alone cannot overcome a 28% surge in ghrelin.</p>
+    </div>
+
+    <p>As Shawn Stevenson explains in <em>Sleep Smarter</em> (2016), the connection between sleep and weight is not metaphorical — it is endocrine. People who chronically undersleep don't just feel tired; they operate in a persistent hormonal state that favors fat storage and drives overeating. Improving sleep duration and quality is, by this logic, one of the most effective dietary interventions available.</p>
+
+    <h2 id="thyroid">Thyroid Hormones: A Bidirectional Relationship</h2>
+
+    <p>The thyroid regulates metabolic rate, body temperature, heart rate, and energy production — and its hormone secretion patterns are influenced by both circadian rhythm and sleep quality. TSH (thyroid-stimulating hormone) peaks during the early night and falls through the sleep period; sleep deprivation elevates nighttime TSH levels beyond their normal range, which disrupts the downstream T3 and T4 production cycle.</p>
+
+    <p>The relationship runs in both directions. Hypothyroidism is associated with excessive sleepiness, reduced slow-wave sleep, and sleep apnea — which in turn further disrupts the hypothalamic-pituitary-thyroid axis. Hyperthyroidism, conversely, increases arousal and reduces sleep efficiency. For anyone managing a thyroid condition, sleep hygiene is not optional self-care — it is a direct input to thyroid function.</p>
+
+    <div class="callout">💡 <strong>Research note:</strong> Studies in shift workers have found elevated TSH and altered T3/T4 ratios compared to day workers, even after controlling for diet and stress, suggesting that circadian disruption alone — independent of total sleep loss — can impair thyroid regulation.</div>
+
+    <h2 id="practical">Practical Sleep Schedule Changes to Optimize Hormone Release</h2>
+
+    <p>Understanding the timing of each hormonal event in sleep reveals a clear set of priorities. This is not about sleeping longer — it is about sleeping aligned.</p>
+
+    <h3>1. Anchor Your Sleep Window to a Consistent Bedtime</h3>
+    <p>Growth hormone release is phase-locked to circadian time, not just sleep depth. Going to bed at 10:30 PM versus 1:30 AM produces a very different GH pulse magnitude, even if total sleep duration is identical. Targeting a 10 PM–11 PM bedtime optimizes the GH window for most adults on a natural light cycle.</p>
+
+    <h3>2. Protect the First 90 Minutes at All Costs</h3>
+    <p>The first sleep cycle — which contains the deepest N3 slow-wave sleep — is when the largest GH pulse fires. Alcohol, late-night eating, high-intensity exercise within two hours of bed, and screen-induced cortisol elevation all suppress this cycle. Treat the hour before bed as a sacred wind-down, not productive time.</p>
+
+    <h3>3. Get Morning Light Within 60 Minutes of Waking</h3>
+    <p>Outdoor light (even on a cloudy day) in the morning is the most powerful circadian anchor available. It suppresses residual melatonin, initiates the cortisol awakening response on schedule, and sets a 14–16 hour biological clock that times your next melatonin rise correctly in the evening. Even 10 minutes outside makes a measurable difference.</p>
+
+    <h3>4. Set a Consistent Wake Time — Not Just a Bedtime</h3>
+    <p>The wake time is the stronger anchor of the two. Your circadian system is more sensitive to when light enters your eyes in the morning than to what time you turn out the lights at night. Varying your wake time by more than 30 minutes across the week effectively gives yourself social jet lag — shifting all downstream hormone timings with it.</p>
+
+    <h3>5. Cool the Room for Deeper Slow-Wave Sleep</h3>
+    <p>Core body temperature must drop by approximately 1–2°F for the brain to initiate deep sleep. A room temperature of 65–68°F (18–20°C) facilitates this. Cooler sleep environments are associated with more N3 slow-wave sleep, greater GH pulse magnitude, and lower nighttime cortisol.</p>
+
+    <div class="callout-green">✅ <strong>Practical takeaway:</strong> The single highest-leverage change most people can make is to set a firm, consistent wake time and immediately get 10 minutes of outdoor light. This one habit anchors every hormone on this list — cortisol, melatonin, testosterone, GH — to its optimal circadian window within one to two weeks of consistent practice.</div>
+
+    <div class="product-cta">
+      <span class="product-cta-text">Support your hormonal sleep with targeted supplements — vetted picks on Amazon</span>
+      <a class="btn-amazon" href="https://www.amazon.com/s?k=sleep+supplement+hormones&tag=sleepwiserevi-20" target="_blank" rel="noopener nofollow">Shop on Amazon</a>
+    </div>
+
+    <h2>The Bottom Line</h2>
+
+    <p>Sleep is not dead time between waking hours. It is the period during which your body executes its most critical hormonal programs — releasing growth hormone to rebuild tissue, resetting cortisol to prepare you for stress, producing testosterone to maintain vitality, balancing leptin and ghrelin to regulate hunger, and calibrating insulin sensitivity to manage energy metabolism. Miss the window, and these processes do not simply reschedule themselves for later.</p>
+
+    <p>The good news is that the system is highly responsive. Most people see measurable improvements in energy, body composition, mood, and focus within two to three weeks of consistently protecting their sleep schedule. As Shawn Stevenson documents across the breadth of <em>Sleep Smarter</em> (2016), the ROI on sleep hygiene is unmatched by any supplement, diet, or training protocol — because without it, none of those interventions can work at their full potential.</p>
+
+    <div class="article-cta">
+      <h3>Get Our Free 7-Day Sleep Reset</h3>
+      <p>Join 18,000 readers who get weekly sleep tips and honest product reviews every Sunday.</p>
+      <a class="btn-amazon" href="../#newsletter">Subscribe Free</a>
+    </div>
+
+    <div class="related-articles">
+      <h3>Related Articles</h3>
+      <ul>
+        <li><a href="deep-sleep-benefits.html">The Science of Deep Sleep: Why N3 Is the Most Important Stage</a></li>
+        <li><a href="sleep-and-weight-loss.html">Why You Can't Out-Diet Bad Sleep: The Weight-Sleep Connection</a></li>
+        <li><a href="sleep-stages-explained.html">Understanding Sleep Stages: A Complete Guide to Your Sleep Cycle</a></li>
+      </ul>
+    </div>
+  </article>
+
+  <footer>
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a class="logo" href="../">SleepWise<span>Reviews</span></a>
+        <p>Honest, science-backed reviews to help you sleep deeper, recover faster, and wake up energized.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Reviews</h4>
+        <ul>
+          <li><a href="https://www.amazon.com/s?k=weighted+blanket&tag=sleepwiserevi-20" target="_blank">Weighted Blankets</a></li>
+          <li><a href="https://www.amazon.com/s?k=white+noise+machine&tag=sleepwiserevi-20" target="_blank">White Noise Machines</a></li>
+          <li><a href="https://www.amazon.com/s?k=sleep+supplements&tag=sleepwiserevi-20" target="_blank">Supplements</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Guides</h4>
+        <ul>
+          <li><a href="../#picks">Sleep Optimization</a></li>
+          <li><a href="../#reviews">Bedtime Routines</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Site</h4>
+        <ul>
+          <li><a href="../pages/about.html">About Harry Soul</a></li>
+          <li><a href="../pages/privacy-policy.html">Privacy Policy</a></li>
+          <li><a href="../pages/affiliate-disclosure.html">Affiliate Disclosure</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div>© 2025 SleepWiseReviews. All rights reserved.</div>
+      <div class="affiliate-disc">SleepWiseReviews is a participant in the Amazon Services LLC Associates Program.</div>
+    </div>
+  </footer>
+</body>
+</html>
