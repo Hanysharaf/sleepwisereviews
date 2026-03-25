@@ -114,11 +114,30 @@
     .footer-bottom { display: flex; justify-content: space-between; font-size: 0.78rem; color: var(--muted); flex-wrap: wrap; gap: 0.5rem; }
     .affiliate-disc { font-size: 0.75rem; max-width: 600px; }
 
+    .nav-hamburger { display: none; flex-direction: column; gap: 5px; background: none; border: none; cursor: pointer; padding: 8px; }
+    .nav-hamburger span { display: block; width: 22px; height: 2px; background: var(--star); border-radius: 2px; transition: all 0.3s; }
+    .nav-hamburger.active span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+    .nav-hamburger.active span:nth-child(2) { opacity: 0; }
+    .nav-hamburger.active span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+
     @media (max-width: 900px) {
-      .nav-links { display: none; }
-      .article-wrapper h1 { font-size: 1.8rem; }
       .footer-top { grid-template-columns: 1fr 1fr; }
+    }
+
+    @media (max-width: 768px) {
+      .nav-hamburger { display: flex; }
+      .nav-links { display: none; position: fixed; top: 68px; left: 0; right: 0; background: rgba(10,14,26,0.97); flex-direction: column; padding: 1.5rem 6%; gap: 1rem; z-index: 99; border-bottom: 1px solid var(--border); }
+      .nav-links.open { display: flex; }
+      .footer-top { grid-template-columns: 1fr 1fr; gap: 1.5rem; }
+      .article-wrapper h1 { font-size: 2rem; }
       .product-cta { flex-direction: column; text-align: center; }
+    }
+
+    @media (max-width: 480px) {
+      .footer-top { grid-template-columns: 1fr; gap: 1rem; }
+      .article-wrapper h1 { font-size: 1.6rem; }
+      .article-intro { font-size: 0.95rem; }
+      .btn-amazon { padding: 12px 24px; min-height: 44px; display: inline-flex; align-items: center; }
     }
   </style>
 </head>
@@ -126,12 +145,15 @@
 <body>
   <nav>
     <a class="logo" href="../">SleepWise<span>Reviews</span></a>
-    <ul class="nav-links">
+    <ul class="nav-links" id="navLinks">
       <li><a href="../#picks">Top Picks</a></li>
       <li><a href="../#reviews">Reviews</a></li>
       <li><a href="../pages/about.html">About Harry</a></li>
       <li><a href="../#newsletter" class="nav-cta">Free Sleep Guide</a></li>
     </ul>
+    <button class="nav-hamburger" id="navToggle" onclick="this.classList.toggle('active');document.getElementById('navLinks').classList.toggle('open')" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
   </nav>
 
   <article class="article-wrapper">
@@ -158,7 +180,6 @@
       <strong>Affiliate Disclosure:</strong> This article contains affiliate links. We earn a small commission if you purchase through our links at no extra cost to you. <a href="../pages/affiliate-disclosure.html" style="color:var(--gold)">Full disclosure</a>
     </div>
 
-    
     <h2>The 4 Stages of Sleep</h2>
     <p>Every night, your brain cycles through four distinct stages of sleep, each serving a unique purpose for your physical and mental restoration. Understanding these stages can help you optimize your sleep environment and habits.</p>
 
@@ -182,7 +203,6 @@
 
     <h2>Tracking Your Sleep Stages</h2>
     <p>Modern sleep trackers can estimate your time in each stage. While not perfectly accurate compared to clinical polysomnography, they provide useful trends over time.</p>
-
 
     <div class="product-cta">
       <span class="product-cta-text">Ready to improve your sleep? Browse our recommended products</span>
