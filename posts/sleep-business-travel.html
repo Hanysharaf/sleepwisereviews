@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Business Traveler's Sleep Playbook: Beat Jet Lag &amp; Protect Performance - SleepWiseReviews</title>
+  <meta name="description" content="Crossing time zones wrecks your circadian rhythm and tanks performance. Dr. Michael Breus's Power of When framework, combined with proven light and melatonin strategies, gives frequent flyers a real playbook." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <style type='text/css'>
+    :root {
+      --night: #0A0E1A;
+      --deep: #0F1525;
+      --navy: #141B30;
+      --card: #1A2238;
+      --border: #252D45;
+      --gold: #C9A84C;
+      --gold-light: #E5C96A;
+      --gold-dim: rgba(201, 168, 76, 0.15);
+      --star: #F0E6C8;
+      --text: #D4DCEE;
+      --muted: #7A85A0;
+      --white: #FFFFFF;
+      --green: #4CAF82;
+    }
+
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: 'Outfit', sans-serif;
+      background: var(--night);
+      color: var(--text);
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      background-image:
+        radial-gradient(1px 1px at 10% 15%, rgba(240, 230, 200, 0.6) 0%, transparent 100%),
+        radial-gradient(1px 1px at 25% 40%, rgba(240, 230, 200, 0.4) 0%, transparent 100%),
+        radial-gradient(1.5px 1.5px at 40% 10%, rgba(240, 230, 200, 0.5) 0%, transparent 100%),
+        radial-gradient(1px 1px at 55% 30%, rgba(240, 230, 200, 0.3) 0%, transparent 100%),
+        radial-gradient(1px 1px at 70% 5%, rgba(240, 230, 200, 0.6) 0%, transparent 100%),
+        radial-gradient(1.5px 1.5px at 80% 20%, rgba(240, 230, 200, 0.4) 0%, transparent 100%),
+        radial-gradient(1px 1px at 90% 45%, rgba(240, 230, 200, 0.3) 0%, transparent 100%);
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    nav {
+      position: sticky; top: 0; z-index: 100;
+      background: rgba(10, 14, 26, 0.92);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+      padding: 0 6%; height: 68px;
+      display: flex; align-items: center; justify-content: space-between;
+    }
+    .logo { font-family: 'Cormorant Garamond', serif; font-size: 1.6rem; font-weight: 700; color: var(--star); text-decoration: none; }
+    .logo span { color: var(--gold); }
+    .nav-links { display: flex; gap: 2rem; list-style: none; }
+    .nav-links a { text-decoration: none; color: var(--muted); font-size: 0.88rem; font-weight: 500; transition: color 0.2s; }
+    .nav-links a:hover { color: var(--gold); }
+    .nav-cta { background: var(--gold-dim); color: var(--gold) !important; border: 1px solid rgba(201, 168, 76, 0.3); padding: 7px 16px; border-radius: 4px; }
+
+    .article-wrapper {
+      position: relative; z-index: 1;
+      max-width: 800px; margin: 0 auto; padding: 50px 6% 80px;
+    }
+    .article-meta-top { display: flex; flex-wrap: wrap; align-items: center; gap: 0.8rem; margin-bottom: 1.2rem; }
+    .tag { background: var(--gold); color: var(--night); padding: 5px 12px; border-radius: 4px; font-size: 0.72rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; }
+    .meta-text { color: var(--muted); font-size: 0.82rem; }
+    .article-wrapper h1 { font-family: 'Cormorant Garamond', serif; font-size: 2.4rem; font-weight: 600; color: var(--star); line-height: 1.2; margin-bottom: 1.2rem; }
+    .article-intro { font-size: 1.1rem; color: var(--text); line-height: 1.7; margin-bottom: 2rem; font-weight: 300; }
+    .author-box { display: flex; align-items: center; gap: 1rem; margin-bottom: 1.5rem; padding: 1rem; background: var(--card); border-radius: 8px; border: 1px solid var(--border); }
+    .author-avatar { font-size: 2.5rem; }
+    .author-name { color: var(--star); font-weight: 500; }
+    .author-name a { color: var(--gold); text-decoration: none; }
+    .author-role { color: var(--muted); font-size: 0.82rem; }
+    .disclosure-box { background: rgba(201, 168, 76, 0.08); border: 1px solid rgba(201, 168, 76, 0.2); border-radius: 8px; padding: 1rem 1.2rem; font-size: 0.82rem; color: var(--muted); margin-bottom: 2rem; }
+    .article-wrapper h2 { font-family: 'Cormorant Garamond', serif; font-size: 1.6rem; font-weight: 600; color: var(--star); margin: 2.5rem 0 1rem; padding-top: 1rem; }
+    .article-wrapper h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.2rem; color: var(--star); margin: 1.5rem 0 0.8rem; }
+    .article-wrapper p { margin-bottom: 1rem; font-weight: 300; line-height: 1.8; }
+    .article-wrapper ul, .article-wrapper ol { margin: 1rem 0 1.5rem 1.5rem; }
+    .article-wrapper li { margin-bottom: 0.5rem; font-weight: 300; }
+    .callout { background: var(--card); border-left: 3px solid var(--gold); padding: 1rem 1.5rem; margin: 1.5rem 0; border-radius: 0 8px 8px 0; font-size: 0.92rem; }
+    .callout-green { background: var(--card); border-left: 3px solid var(--green); padding: 1rem 1.5rem; margin: 1.5rem 0; border-radius: 0 8px 8px 0; font-size: 0.92rem; }
+
+    .product-cta { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 1.5rem; margin: 2rem 0; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; }
+    .product-cta-text { color: var(--star); font-weight: 500; }
+    .btn-amazon { background: var(--gold); color: var(--night); text-decoration: none; padding: 10px 20px; border-radius: 6px; font-weight: 600; font-size: 0.88rem; transition: background 0.2s; }
+    .btn-amazon:hover { background: var(--gold-light); }
+
+    .article-cta { background: linear-gradient(135deg, var(--card), var(--navy)); border: 1px solid var(--border); border-radius: 12px; padding: 2rem; text-align: center; margin: 3rem 0; }
+    .article-cta h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.4rem; color: var(--star); margin-bottom: 0.8rem; }
+    .article-cta p { color: var(--muted); margin-bottom: 1.2rem; }
+
+    .related-articles { margin: 3rem 0; }
+    .related-articles h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.3rem; color: var(--star); margin-bottom: 1rem; }
+    .related-articles ul { list-style: none; margin: 0; }
+    .related-articles li { margin-bottom: 0.6rem; }
+    .related-articles a { color: var(--gold); text-decoration: none; font-size: 0.95rem; }
+    .related-articles a:hover { text-decoration: underline; }
+
+    footer { background: #060912; border-top: 1px solid var(--border); padding: 50px 6% 30px; }
+    .footer-top { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 3rem; margin-bottom: 3rem; padding-bottom: 3rem; border-bottom: 1px solid var(--border); }
+    .footer-brand p { color: var(--muted); font-size: 0.82rem; margin-top: 0.8rem; line-height: 1.6; font-weight: 300; max-width: 260px; }
+    .footer-col h4 { font-size: 0.78rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--gold); margin-bottom: 1rem; }
+    .footer-col ul { list-style: none; display: flex; flex-direction: column; gap: 0.6rem; }
+    .footer-col a { color: var(--muted); text-decoration: none; font-size: 0.85rem; transition: color 0.2s; }
+    .footer-col a:hover { color: var(--gold); }
+    .footer-bottom { display: flex; justify-content: space-between; font-size: 0.78rem; color: var(--muted); flex-wrap: wrap; gap: 0.5rem; }
+    .affiliate-disc { font-size: 0.75rem; max-width: 600px; }
+
+    @media (max-width: 900px) {
+      .nav-links { display: none; }
+      .article-wrapper h1 { font-size: 1.8rem; }
+      .footer-top { grid-template-columns: 1fr 1fr; }
+      .product-cta { flex-direction: column; text-align: center; }
+    }
+  </style>
+</head>
+
+<body>
+  <nav>
+    <a class="logo" href="../">SleepWise<span>Reviews</span></a>
+    <ul class="nav-links">
+      <li><a href="../#picks">Top Picks</a></li>
+      <li><a href="../#reviews">Reviews</a></li>
+      <li><a href="../pages/about.html">About Harry</a></li>
+      <li><a href="../#newsletter" class="nav-cta">Free Sleep Guide</a></li>
+    </ul>
+  </nav>
+
+  <article class="article-wrapper">
+    <div class="article-meta-top">
+      <span class="tag">Travel</span>
+      <span class="meta-text">📅 September 2023 · ⏱ 8 min read · 🔄 Updated Mar 2026</span>
+    </div>
+    <h1>The Business Traveler's Sleep Playbook</h1>
+    <p class="article-intro">Crossing 3 time zones is the equivalent of asking your body to digest dinner at 3am. Your performance reflects it. The good news: circadian science now gives frequent flyers a step-by-step protocol to land sharp, sleep soundly, and never let a red-eye derail a critical meeting.</p>
+
+    <div class="author-box">
+      <div class="author-avatar">✈️</div>
+      <div class="author-info">
+        <div class="author-name">By <a href="../pages/about.html">Harry Soul</a> - SleepWiseReviews</div>
+        <div class="author-role">Independent Sleep Researcher - September 2023</div>
+      </div>
+    </div>
+
+    <div class="disclosure-box">
+      <strong>Affiliate Disclosure:</strong> This article contains affiliate links. We earn a small commission if you purchase through our links at no extra cost to you. <a href="../pages/affiliate-disclosure.html" style="color:var(--gold)">Full disclosure</a>
+    </div>
+
+    <h2>The Circadian Disruption of Frequent Travel: Performance Implications</h2>
+    <p>Your body runs on a 24-hour internal clock — the circadian rhythm — governed by the suprachiasmatic nucleus (SCN) in the hypothalamus. This master clock synchronizes hormone release, body temperature, digestion, and cognitive function to a predictable daily cycle anchored by light exposure and meal timing. When you board a flight from New York to London, you compress or stretch that cycle by 5 hours overnight. The SCN does not update instantly. It shifts at a rate of roughly 1 hour per day, which means a transatlantic traveler is functionally desynchronized for up to a week.</p>
+    <p>The performance consequences are real and measurable. Studies of decision-making quality in sleep-deprived executives show deficits equivalent to operating at a 0.08 blood-alcohol level after 17–19 hours of wakefulness — a threshold frequently crossed during long-haul travel. Reaction time slows, emotional regulation frays, and the ability to access creative problem-solving drops sharply. For a business traveler walking into a negotiation or a board presentation, these are not trivial impairments.</p>
+    <p>Frequent travel compounds the problem. Repeated circadian disruption without adequate recovery between trips leads to chronic sleep debt, elevated cortisol, and suppressed immune function. Road warriors who fly 100,000+ miles per year without a sleep strategy are not just tired — they are systematically degrading their cognitive capital.</p>
+
+    <div class="callout">💡 <strong>The core problem:</strong> Jet lag is not just fatigue. It is a full-body mismatch between your internal clock and the external environment. Addressing it requires biological anchoring — not just willpower.</div>
+
+    <h2>Pre-Flight Preparation: Shifting Your Schedule 2–3 Days Before</h2>
+    <p>The most underutilized jet lag tool costs nothing: pre-shifting your sleep window before you board. As Dr. Michael Breus explains in <em>The Power of When</em> (2016), your chronotype determines your natural rhythm, but that rhythm is not fixed — it can be nudged deliberately by adjusting light exposure and sleep timing in advance of travel.</p>
+    <p>For eastward travel (e.g., US to Europe), begin advancing your bedtime by 30–60 minutes per night starting 2–3 days before departure. Pair this with morning bright light exposure (10 minutes of sunlight or a 10,000-lux light therapy lamp within 30 minutes of waking). This shifts your melatonin onset earlier, so your body's "nighttime" begins to align with the destination timezone before you even pack your bag.</p>
+    <p>For westward travel (e.g., Europe to US), delay your bedtime slightly and seek evening light exposure. Westward travel is biologically easier — the SCN handles phase delays more readily than phase advances — so the pre-shift effort required is lower, though still worthwhile for trips spanning 5+ time zones.</p>
+
+    <div class="callout-green">
+      <strong>Practical Takeaway:</strong> Set a calendar reminder 3 days before your next eastward flight. Each evening, push bedtime 45 minutes earlier and get 10 minutes of morning sunlight. By departure day, your internal clock will already be partially aligned with your destination — saving you 1–2 days of recovery time on arrival.
+    </div>
+
+    <h2>Light Management During Travel: When to Seek and When to Avoid</h2>
+    <p>Light is the single most powerful zeitgeber — time-giver — in the human circadian system. Getting light at the wrong time can shift your clock in the wrong direction, deepening jet lag rather than resolving it. Getting it at the right time can accelerate adaptation by up to 50%.</p>
+    <p>The rule is simple once you know your destination time: seek bright light during what would be morning at your destination; avoid it during what would be nighttime. In practice, this means wearing blue-light blocking glasses on the plane if you are flying into a morning arrival (keeping the clock from being reset by cabin overhead lighting) and actively seeking natural light in the first hour after landing if you arrive during daytime.</p>
+    <p>Blue-light blocking glasses are not just for screens. The LED lighting common in modern aircraft cabins peaks in blue wavelengths that directly suppress melatonin. Wearing amber-tinted glasses for the final 2–3 hours of a night flight preserves the melatonin window and makes it significantly easier to sleep upon arrival.</p>
+
+    <h2>Hotel Room Optimization: Blackout Curtains, Temperature, and the Unfamiliar Environment Response</h2>
+    <p>The hotel room presents a cluster of sleep obstacles that frequent travelers learn to address systematically. The unfamiliar environment response — sometimes called "first-night effect" — is a well-documented phenomenon in which one hemisphere of the brain remains in a lighter, more vigilant sleep state in novel environments. This is an evolutionary holdover: sleeping somewhere unfamiliar once signaled potential danger. Your brain responds by keeping a watch.</p>
+    <p>You cannot eliminate first-night effect entirely, but you can reduce its impact. Bringing a consistent sensory anchor — your own pillow cover, a familiar scent (lavender spray works well), or a white noise app set to a consistent volume — signals safety to the vigilant hemisphere and improves sleep depth.</p>
+    <p>Temperature is non-negotiable. Core body temperature must drop 1–2°F to initiate and maintain quality sleep. Hotel rooms are frequently too warm. Set the thermostat to 65–68°F (18–20°C) immediately upon check-in, before you unpack. If the HVAC is inadequate, a small travel fan creates both airflow and a low-level white noise masking effect.</p>
+    <p>Blackout curtains are your first line of defense against morning light at the wrong circadian moment. Most hotels have them; always check and seal any gaps with the curtain clips your room kit may include, or use a quality sleep mask as backup. A gap of light at the edge of heavy curtains is enough to trigger cortisol release and end your sleep prematurely.</p>
+
+    <div class="callout-green">
+      <strong>Practical Takeaway:</strong> Pack a three-item hotel sleep kit: a silk sleep mask, silicone earplugs rated 33 dB NRR, and a small lavender travel spray. These three items cost under $30 combined and eliminate the majority of controllable sleep disruptors in any hotel room worldwide.
+    </div>
+
+    <h2>The 4-Rule: Only for Eastward Travel (the Hardest Direction)</h2>
+    <p>Eastward travel is harder than westward travel because it requires phase advancement — pushing your internal clock earlier. The "4-rule" is a practical heuristic for eastward travelers: if you are crossing 4 or fewer time zones, rely on light exposure and timing adjustments alone. If you are crossing more than 4 time zones eastward, add a low-dose melatonin protocol to your strategy.</p>
+    <p>The physiological basis is straightforward. The SCN advances roughly 1–1.5 hours per day under ideal conditions. A 4-zone eastward jump can theoretically be resolved within 3–4 days using light management alone. A 9-zone eastward jump (e.g., New York to Tokyo) requires 6–9 days of natural adaptation — far longer than a typical business trip. Without pharmacological assistance, you will land, present, negotiate, and fly home entirely within your jet-lagged window. The 4-rule tells you when melatonin becomes not optional but strategically necessary.</p>
+
+    <h2>Strategic Melatonin Use for Travel: Timing and Dose</h2>
+    <p>Melatonin is frequently misunderstood as a sleeping pill. It is not. It is a chronobiotic — a substance that shifts the phase of your internal clock. Its effectiveness for travel depends entirely on when you take it, not just whether you take it.</p>
+    <p>For eastward travel, take 0.5–1 mg of melatonin at the target bedtime of your destination — even if it is the middle of the afternoon at home. Lower doses (0.5 mg) have been shown in multiple controlled trials to be as effective as the 5–10 mg doses commonly sold over the counter, with significantly fewer next-day grogginess side effects. Higher doses cause melatonin levels to spike far above physiological norms, often producing a rebound effect that disrupts the second half of sleep.</p>
+    <p>For westward travel, melatonin's role is smaller. If you struggle to sleep past your home-time early morning (now the middle of the night at your destination), a small dose taken at the destination's midnight can help extend sleep. But the primary westward tool remains light: evening light exposure to delay your internal clock naturally.</p>
+
+    <div class="callout">💡 <strong>Dosing note:</strong> Start with 0.5 mg. Most pharmacy melatonin is sold in 5–10 mg doses that are 10–20x above what the research supports for circadian shifting. Use a pill cutter or purchase 0.5 mg capsules specifically.</div>
+
+    <h2>Short-Haul vs. Long-Haul Sleep Strategies</h2>
+    <p>Short-haul travel (1–3 time zones) warrants a different approach than long-haul. For short hops, the circadian disruption is modest enough that aggressive clock-shifting may actually backfire — particularly if the trip is only 2–3 days before you return home. In these cases, the optimal strategy is often to maintain home-timezone sleep timing as closely as possible rather than attempting a full adaptation.</p>
+    <p>Practically, this means scheduling meetings during your home-time cognitive peak whenever possible (more on this below), keeping meal timing close to home rhythms, and using short strategic naps (10–20 minutes) to manage daytime alertness without accumulating sleep pressure that pushes your bedtime later.</p>
+    <p>Long-haul travel (4+ time zones) justifies a full adaptation protocol: the pre-shift, light management, melatonin, and hotel optimization stack described throughout this guide. The investment pays off because you will be at the destination long enough for performance to matter, and the cost of staying un-adapted is higher.</p>
+
+    <h2>In-Flight Sleep: Seat Position, Noise Isolation, and Timing</h2>
+    <p>Sleeping on a plane is an art form that most business travelers never fully master. The seat position problem is simple: without flat-bed capability (business class on long-haul), sustained sleep is almost impossible above 2–3 hours because the semi-reclined position increases upper airway resistance and interrupts deep sleep stages. If you are in economy, target light sleep cycles (20–40 minutes) rather than attempting full 90-minute cycles that will be interrupted anyway.</p>
+    <p>Noise isolation is critical. Aircraft cabin noise averages 75–85 dB — well above the 45 dB threshold at which sleep architecture begins to fragment. Over-ear noise-canceling headphones (Bose QC45 or Sony WH-1000XM5) reduce this to below 50 dB passively and to near 35 dB actively. This single intervention has the most measurable impact on in-flight sleep quality of any gear choice. Earplugs alone, even high-NRR silicone options, leave residual low-frequency engine noise that continues disrupting sleep architecture.</p>
+    <p>Timing your in-flight sleep window matters as much as the quality of the sleep itself. Align your sleep attempt with nighttime at your destination, not at your departure point. Use the airline's flight map or a timezone converter app to identify the window. Avoid alcohol as a sleep aid — it fragments REM sleep in the second half of the night and produces rebound insomnia that makes the sleep deprivation worse, not better.</p>
+
+    <div class="callout-green">
+      <strong>Practical Takeaway:</strong> On any flight over 4 hours, bring: noise-canceling headphones (not just earbuds), a contoured sleep mask that does not press on eyelids, and a compression neck pillow. Decline the first drink service. These habits compress your adaptation time by roughly one full day on arrival.
+    </div>
+
+    <h2>Performance Preservation: When Meetings Can't Be Rescheduled</h2>
+    <p>Real-world business travel rarely allows you to schedule every meeting during your circadian peak. When the client call is at 8am local time and your body clock says 2am, you need tactical performance strategies that work in the short window before your clock fully adapts.</p>
+    <p>Strategic caffeine timing is the most evidence-backed intervention. As Dr. Michael Breus documents in <em>The Power of When</em> (2016), chronotype determines not just your optimal sleep window but your peak cognitive hours — and caffeine is most effective when used to extend these peaks, not replace them. In a travel context, consume caffeine no earlier than 90 minutes after waking (allowing cortisol to peak naturally first) and no later than 6 hours before your target sleep time. A single well-timed 100–200 mg dose outperforms multiple smaller doses spread throughout the day.</p>
+    <p>Exercise, even a 20-minute brisk walk in natural morning light, produces a measurable alertness boost through norepinephrine release and simultaneous circadian anchoring via light exposure. This is the single highest-ROI 20 minutes a traveling executive can spend before a high-stakes meeting. It addresses both the alertness deficit and the adaptation requirement simultaneously.</p>
+    <p>Finally, know your chronotype's natural danger zones. For most people, the post-lunch dip (1–3pm) is the worst cognitive window of the day — amplified by jet lag. Schedule observational tasks, travel logistics, or low-stakes calls during this window. Reserve your highest-cognitive work — negotiations, presentations, strategic decisions — for your adapted peak, even if that means pushing a conversation to the following morning when you have had one night of local sleep.</p>
+
+    <div class="callout">💡 <strong>The traveler's performance rule:</strong> Never schedule your most important meeting within 12 hours of a 5+ time zone flight arrival. One night of local sleep shifts cognitive performance measurably toward baseline. When you control the calendar, use that leverage.</div>
+
+    <div class="product-cta">
+      <span class="product-cta-text">Build your travel sleep kit — eye mask, earplugs, and more</span>
+      <a class="btn-amazon" href="https://www.amazon.com/s?k=travel+sleep+kit+eye+mask&tag=sleepwiserevi-20" target="_blank" rel="noopener nofollow">Shop on Amazon</a>
+    </div>
+
+    <div class="article-cta">
+      <h3>Get Our Free 7-Day Sleep Reset</h3>
+      <p>Join 18,000 readers who get weekly sleep tips and honest product reviews every Sunday.</p>
+      <a class="btn-amazon" href="../#newsletter">Subscribe Free</a>
+    </div>
+
+    <div class="related-articles">
+      <h3>Related Articles</h3>
+      <ul>
+        <li><a href="jet-lag-guide.html">The Complete Jet Lag Recovery Guide</a></li>
+        <li><a href="sleep-travel-tips.html">10 Sleep Tips Every Traveler Should Know</a></li>
+        <li><a href="melatonin-guide.html">Melatonin Dosing Guide: What the Research Actually Says</a></li>
+      </ul>
+    </div>
+  </article>
+
+  <footer>
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a class="logo" href="../">SleepWise<span>Reviews</span></a>
+        <p>Honest, science-backed reviews to help you sleep deeper, recover faster, and wake up energized.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Reviews</h4>
+        <ul>
+          <li><a href="https://www.amazon.com/s?k=weighted+blanket&tag=sleepwiserevi-20" target="_blank">Weighted Blankets</a></li>
+          <li><a href="https://www.amazon.com/s?k=white+noise+machine&tag=sleepwiserevi-20" target="_blank">White Noise Machines</a></li>
+          <li><a href="https://www.amazon.com/s?k=sleep+supplements&tag=sleepwiserevi-20" target="_blank">Supplements</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Guides</h4>
+        <ul>
+          <li><a href="../#picks">Sleep Optimization</a></li>
+          <li><a href="../#reviews">Bedtime Routines</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Site</h4>
+        <ul>
+          <li><a href="../pages/about.html">About Harry Soul</a></li>
+          <li><a href="../pages/privacy-policy.html">Privacy Policy</a></li>
+          <li><a href="../pages/affiliate-disclosure.html">Affiliate Disclosure</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div>© 2025 SleepWiseReviews. All rights reserved.</div>
+      <div class="affiliate-disc">SleepWiseReviews is a participant in the Amazon Services LLC Associates Program.</div>
+    </div>
+  </footer>
+</body>
+</html>
