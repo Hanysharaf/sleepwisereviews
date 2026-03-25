@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>How to Sleep When You're Grieving | SleepWiseReviews</title>
+  <meta name="description" content="Grief disrupts every stage of sleep. Learn the neuroscience behind grief insomnia, the 3am wake pattern, and practical strategies to get through the hardest nights." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --night:   #0A0E1A;
+      --deep:    #0F1525;
+      --navy:    #141B30;
+      --card:    #1A2238;
+      --border:  #252D45;
+      --gold:    #C9A84C;
+      --gold-light: #E5C96A;
+      --gold-dim: rgba(201,168,76,0.15);
+      --star:    #F0E6C8;
+      --text:    #D4DCEE;
+      --muted:   #7A85A0;
+      --green:   #4CAF82;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: var(--night);
+      color: var(--text);
+      font-family: 'Outfit', sans-serif;
+      font-size: 1.05rem;
+      line-height: 1.75;
+      min-height: 100vh;
+    }
+
+    /* ── Sticky Header ── */
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(10,14,26,0.95);
+      backdrop-filter: blur(10px);
+      border-bottom: 1px solid var(--border);
+      padding: 0.9rem 1.5rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .logo {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.4rem;
+      font-weight: 700;
+      color: var(--gold);
+      text-decoration: none;
+      letter-spacing: 0.02em;
+    }
+    .logo span { color: var(--star); }
+    nav a {
+      color: var(--muted);
+      text-decoration: none;
+      font-size: 0.85rem;
+      margin-left: 1.4rem;
+      transition: color 0.2s;
+    }
+    nav a:hover { color: var(--gold); }
+
+    /* ── Layout ── */
+    main {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 2.5rem 1.5rem 5rem;
+    }
+
+    /* ── Badge ── */
+    .badge {
+      display: inline-block;
+      background: var(--gold-dim);
+      color: var(--gold);
+      border: 1px solid rgba(201,168,76,0.35);
+      font-size: 0.72rem;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      padding: 0.25rem 0.75rem;
+      border-radius: 2rem;
+      margin-bottom: 1rem;
+    }
+
+    /* ── Title block ── */
+    .article-title {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(2rem, 5vw, 3rem);
+      font-weight: 700;
+      color: var(--star);
+      line-height: 1.18;
+      margin-bottom: 0.9rem;
+    }
+
+    .date-meta {
+      font-size: 0.82rem;
+      color: var(--muted);
+      margin-bottom: 1.6rem;
+      border-left: 3px solid var(--gold);
+      padding-left: 0.75rem;
+    }
+
+    /* ── Hook ── */
+    .hook {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.25rem;
+      font-style: italic;
+      color: var(--gold-light);
+      border-left: 4px solid var(--gold);
+      padding: 1rem 1.25rem;
+      background: var(--gold-dim);
+      border-radius: 0 8px 8px 0;
+      margin-bottom: 2.5rem;
+      line-height: 1.6;
+    }
+
+    /* ── Section headings ── */
+    h2 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.65rem;
+      font-weight: 700;
+      color: var(--gold-light);
+      margin: 2.5rem 0 0.9rem;
+      padding-bottom: 0.4rem;
+      border-bottom: 1px solid var(--border);
+    }
+    h3 {
+      font-family: 'Outfit', sans-serif;
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: var(--star);
+      margin: 1.6rem 0 0.5rem;
+    }
+
+    p { margin-bottom: 1.1rem; }
+
+    a { color: var(--gold); text-decoration: none; }
+    a:hover { text-decoration: underline; color: var(--gold-light); }
+
+    /* ── Takeaway box (green border) ── */
+    .takeaway {
+      border: 1.5px solid var(--green);
+      background: rgba(76,175,130,0.08);
+      border-radius: 10px;
+      padding: 1.2rem 1.4rem;
+      margin: 2rem 0;
+    }
+    .takeaway-label {
+      font-size: 0.72rem;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--green);
+      margin-bottom: 0.5rem;
+    }
+    .takeaway p { margin-bottom: 0; color: var(--text); }
+
+    /* ── Grief Sleep Timeline ── */
+    .timeline-section {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 1.8rem;
+      margin: 2.5rem 0;
+    }
+    .timeline-title {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.35rem;
+      font-weight: 700;
+      color: var(--gold-light);
+      margin-bottom: 1.6rem;
+      text-align: center;
+    }
+    .timeline {
+      position: relative;
+      padding-left: 2rem;
+    }
+    .timeline::before {
+      content: '';
+      position: absolute;
+      left: 0.55rem;
+      top: 0.5rem;
+      bottom: 0.5rem;
+      width: 2px;
+      background: linear-gradient(to bottom, #E5534B, #E5934B, var(--green));
+      border-radius: 2px;
+    }
+    .tl-stage {
+      position: relative;
+      margin-bottom: 1.8rem;
+    }
+    .tl-stage:last-child { margin-bottom: 0; }
+    .tl-dot {
+      position: absolute;
+      left: -1.72rem;
+      top: 0.3rem;
+      width: 14px;
+      height: 14px;
+      border-radius: 50%;
+      border: 2px solid var(--night);
+    }
+    .tl-dot.red   { background: #E5534B; }
+    .tl-dot.amber { background: #E5934B; }
+    .tl-dot.green { background: var(--green); }
+
+    .tl-period {
+      font-size: 0.72rem;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      margin-bottom: 0.2rem;
+    }
+    .tl-period.red   { color: #E5534B; }
+    .tl-period.amber { color: #E5934B; }
+    .tl-period.green { color: var(--green); }
+
+    .tl-label {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: var(--star);
+      margin-bottom: 0.3rem;
+    }
+    .tl-desc {
+      font-size: 0.9rem;
+      color: var(--muted);
+      margin-bottom: 0.5rem;
+      line-height: 1.5;
+    }
+    .tl-action {
+      font-size: 0.88rem;
+      color: var(--text);
+      background: rgba(255,255,255,0.04);
+      border-left: 2px solid var(--border);
+      padding: 0.4rem 0.75rem;
+      border-radius: 0 6px 6px 0;
+    }
+
+    /* ── Practical Toolkit ── */
+    .toolkit {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 1.8rem;
+      margin: 2.5rem 0;
+    }
+    .toolkit-title {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.35rem;
+      font-weight: 700;
+      color: var(--gold-light);
+      margin-bottom: 1.4rem;
+      text-align: center;
+    }
+    .tool-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+      gap: 1rem;
+    }
+    .tool-card {
+      background: var(--navy);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 1rem 1.1rem;
+    }
+    .tool-number {
+      font-size: 0.7rem;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 0.3rem;
+    }
+    .tool-name {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.05rem;
+      font-weight: 700;
+      color: var(--star);
+      margin-bottom: 0.4rem;
+    }
+    .tool-desc {
+      font-size: 0.83rem;
+      color: var(--muted);
+      line-height: 1.5;
+    }
+
+    /* ── Affiliate box ── */
+    .affiliate {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.4rem 1.6rem;
+      margin: 2rem 0;
+      display: flex;
+      align-items: flex-start;
+      gap: 1.2rem;
+    }
+    .affiliate-icon {
+      font-size: 2rem;
+      flex-shrink: 0;
+      margin-top: 0.1rem;
+    }
+    .affiliate-body {}
+    .affiliate-label {
+      font-size: 0.7rem;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 0.3rem;
+    }
+    .affiliate-name {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.1rem;
+      font-weight: 700;
+      color: var(--star);
+      margin-bottom: 0.4rem;
+    }
+    .affiliate-text {
+      font-size: 0.88rem;
+      color: var(--muted);
+      margin-bottom: 0.7rem;
+      line-height: 1.5;
+    }
+    .btn-affiliate {
+      display: inline-block;
+      background: var(--gold);
+      color: var(--night);
+      font-size: 0.82rem;
+      font-weight: 600;
+      padding: 0.5rem 1.1rem;
+      border-radius: 6px;
+      text-decoration: none;
+      transition: background 0.2s;
+    }
+    .btn-affiliate:hover { background: var(--gold-light); text-decoration: none; color: var(--night); }
+
+    /* ── Citation ── */
+    .citation-ref {
+      background: var(--deep);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1rem 1.2rem;
+      font-size: 0.83rem;
+      color: var(--muted);
+      margin: 2rem 0;
+    }
+    .citation-ref strong { color: var(--text); }
+
+    /* ── Compassion note ── */
+    .compassion {
+      background: linear-gradient(135deg, rgba(201,168,76,0.08) 0%, rgba(76,175,130,0.06) 100%);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.4rem 1.6rem;
+      margin: 2.5rem 0;
+      text-align: center;
+    }
+    .compassion p {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.15rem;
+      font-style: italic;
+      color: var(--gold-light);
+      margin-bottom: 0;
+      line-height: 1.65;
+    }
+
+    /* ── Disclaimer ── */
+    .disclaimer {
+      font-size: 0.78rem;
+      color: var(--muted);
+      border-top: 1px solid var(--border);
+      padding-top: 1.2rem;
+      margin-top: 3rem;
+      line-height: 1.5;
+    }
+
+    hr.divider {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 2.5rem 0;
+    }
+
+    @media (max-width: 600px) {
+      .tool-grid { grid-template-columns: 1fr; }
+      .affiliate { flex-direction: column; gap: 0.8rem; }
+      .timeline { padding-left: 1.6rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Sticky Header -->
+  <header>
+    <a href="/" class="logo">SleepWise<span>Reviews</span></a>
+    <nav>
+      <a href="/reviews">Reviews</a>
+      <a href="/posts">Articles</a>
+      <a href="/about">About</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- Badge -->
+    <div class="badge">Special Topics</div>
+
+    <!-- Title -->
+    <h1 class="article-title">How to Sleep When You're Grieving</h1>
+
+    <!-- Date meta -->
+    <div class="date-meta">
+      📅 December 2021 &nbsp;·&nbsp; ⏱ 7 min read &nbsp;·&nbsp; 🔄 Updated Mar 2026
+    </div>
+
+    <!-- Hook -->
+    <div class="hook">
+      Grief disrupts every stage of sleep. Understanding why is the first step to getting through it — because grief-related insomnia isn't a failure to cope, it's a neurological response to loss that has a specific, treatable pattern.
+    </div>
+
+    <!-- Section 1 -->
+    <h2>What Grief Does to the Sleeping Brain</h2>
+
+    <p>
+      When you lose someone — a person, a relationship, a version of your life you expected to have — your brain does not simply feel sad. It shifts into a threat-response state. Your hypothalamic-pituitary-adrenal (HPA) axis, the system that governs your body's stress response, begins running at elevated output. Cortisol rises. Norepinephrine, the neurochemical of arousal and vigilance, climbs with it. Your nervous system, in a very real physiological sense, begins treating the loss as a crisis requiring constant monitoring.
+    </p>
+
+    <p>
+      This is exactly what W. Chris Winter, MD explains in <em>The Sleep Solution</em>: grief activates the brain's threat-response systems, elevating cortisol and norepinephrine in a pattern that suppresses both sleep onset and slow-wave sleep — the brain treats grief as an ongoing emergency requiring vigilance (Winter, 2017). Slow-wave sleep is precisely the deep, restorative stage your body needs most when you are under stress. Grief robs you of the very sleep that would help you cope with grief.
+    </p>
+
+    <p>
+      The result is a self-reinforcing cycle: elevated cortisol delays sleep onset and fragments the sleep you do get, leading to exhaustion, which makes emotional regulation harder, which amplifies grief's distress, which spikes cortisol further. Knowing this cycle exists is not a cure, but it is a clarification — you are not weak, and you are not broken. You are responding to loss exactly as your nervous system is designed to.
+    </p>
+
+    <!-- Takeaway box 1 -->
+    <div class="takeaway">
+      <div class="takeaway-label">Key Takeaway</div>
+      <p>Grief insomnia is driven by elevated cortisol and norepinephrine suppressing slow-wave sleep. It is a neurological response, not a coping failure — and it has a recognizable pattern that does resolve.</p>
+    </div>
+
+    <!-- Section 2 -->
+    <h2>The 3am Wake Pattern</h2>
+
+    <p>
+      One of the most distressing features of grief-related insomnia is waking in the early hours of the morning — often between 3 and 5am — and being unable to return to sleep. This is not random. It reflects the architecture of normal sleep cycles.
+    </p>
+
+    <p>
+      In the second half of the night, sleep becomes lighter. REM sleep dominates, cortisol begins its natural pre-dawn rise, and the threshold for waking lowers. Under ordinary circumstances, these lighter stages pass unremarked. When you are grieving, the thoughts waiting at the threshold — memories of the person lost, replays of their final days, the sudden renewed weight of their absence — push through the moment the brain approaches wakefulness. The grief thoughts do not cause the waking; they flood in through the gap that the sleep cycle naturally creates.
+    </p>
+
+    <p>
+      Fighting this pattern — lying rigid in the dark, willing sleep back, watching the minutes accumulate — tends to worsen it. The frustration creates its own cortisol spike. One of the more counterintuitive recommendations for this phase is to stop trying to sleep immediately and instead engage in something quiet and low-stimulation: a few pages of a gentle book, soft music, a journal entry. The goal is to reduce the arousal level, not to force unconsciousness.
+    </p>
+
+    <!-- Section 3 -->
+    <h2>Dreams and the Lost Person</h2>
+
+    <p>
+      Many grieving people experience vivid dreams featuring the person they have lost. These can range from comfort — the person appearing healthy, the conversation feeling real — to distressing replays of illness, death, or abandonment. Both are normal. Both are the brain doing what it does during REM sleep: processing and integrating emotional experience.
+    </p>
+
+    <p>
+      Research on bereavement dreams suggests they serve a consolidation function. For many people, dreaming of the lost person feels like continued connection, and these dreams gradually shift in character over time — from distressing to neutral to, often, warmly remembered. If your dreams feel intrusive or traumatic rather than processing, that can be a signal worth discussing with a grief counselor, particularly if it persists beyond the first few months.
+    </p>
+
+    <!-- Grief Sleep Timeline -->
+    <div class="timeline-section">
+      <div class="timeline-title">Grief Sleep Timeline: What to Expect</div>
+      <div class="timeline">
+
+        <div class="tl-stage">
+          <div class="tl-dot red"></div>
+          <div class="tl-period red">Weeks 1–4</div>
+          <div class="tl-label">Acute Grief</div>
+          <div class="tl-desc">Severely fragmented sleep, early waking (3–5am), hyperarousal, difficulty falling asleep, exhaustion without rest. Cortisol and norepinephrine are at peak elevation. Dreaming may be vivid and distressing.</div>
+          <div class="tl-action">Strategy: Don't fight wakefulness. Keep sleep window consistent. Use quiet activity (journaling, reading) during wake windows. Avoid screens. A weighted blanket can reduce cortisol through deep-pressure input.</div>
+        </div>
+
+        <div class="tl-stage">
+          <div class="tl-dot amber"></div>
+          <div class="tl-period amber">Months 1–3</div>
+          <div class="tl-label">Subacute Grief</div>
+          <div class="tl-desc">Sleep irregularity continues but may shift toward hypersomnia (sleeping too much) as depressive elements emerge alongside hyperarousal. Energy is low. Sleep feels unrefreshing.</div>
+          <div class="tl-action">Strategy: Maintain consistent wake time even on low-energy days — this is the single most effective anchor for circadian rhythm. Gentle social contact helps cortisol regulation. Evaluate for emerging depression if functioning is significantly impaired.</div>
+        </div>
+
+        <div class="tl-stage">
+          <div class="tl-dot green"></div>
+          <div class="tl-period green">Months 3+</div>
+          <div class="tl-label">Integrated Grief</div>
+          <div class="tl-desc">Sleep gradually normalizes for most people. Some early waking may persist on difficult dates (anniversaries, birthdays). Dreams about the lost person shift toward neutral or positive tone.</div>
+          <div class="tl-action">Strategy: If sleep has not meaningfully improved by months 4–6, seek evaluation — this may indicate complicated grief or major depression requiring targeted treatment. Ongoing good sleep hygiene prevents relapse.</div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Section 4 -->
+    <h2>The "Empty Side of the Bed" Problem</h2>
+
+    <p>
+      For people who have lost a partner or spouse, the bed itself becomes a stimulus for grief. The absence is spatially concrete: the cool emptiness of the other side, the missing sounds of another person's breathing, the weight distribution of the mattress. These cues reliably trigger the brain's threat response at exactly the time it needs to be winding down.
+    </p>
+
+    <p>
+      Sleep psychology draws on the concept of stimulus control — the idea that your bedroom environment should be strongly associated with sleep and relaxation rather than alertness or distress. When the bedroom has become associated with absence and grief, that association can be temporarily disrupted by changing the sleep environment: sleeping in a different room for a period, rearranging furniture, or introducing new textures and scents. This is not avoidance. It is a practical interruption of a conditioned response while the nervous system adjusts.
+    </p>
+
+    <!-- Section 5 -->
+    <h2>Social Support and the Cortisol Connection</h2>
+
+    <p>
+      Grief and loneliness are neurologically adjacent. Both activate overlapping threat-response pathways. When grief is compounded by the social isolation that often follows loss — the way people disappear after the first weeks, the awkwardness of others around visible mourning — the cortisol burden intensifies.
+    </p>
+
+    <p>
+      Talking about the person you have lost, even briefly, consistently reduces cortisol in the hours that follow. This is not merely emotional comfort; it is measurable physiology. Calling someone, attending a grief support group, or even narrating memories to a journal triggers the same neural pathways as felt social connection and has a dampening effect on the stress response that directly improves the night's sleep. The grief-insomnia loop has a social lever you can reach for, even when reaching feels difficult.
+    </p>
+
+    <!-- Practical Toolkit -->
+    <div class="toolkit">
+      <div class="toolkit-title">Practical Toolkit: 6 Interventions for Grief Insomnia</div>
+      <div class="tool-grid">
+
+        <div class="tool-card">
+          <div class="tool-number">01</div>
+          <div class="tool-name">Consistent Wake Time</div>
+          <div class="tool-desc">Anchor your circadian rhythm with a fixed wake time, even after a broken night. This is the single highest-leverage intervention — it rebuilds sleep pressure reliably.</div>
+        </div>
+
+        <div class="tool-card">
+          <div class="tool-number">02</div>
+          <div class="tool-name">Grief Journaling</div>
+          <div class="tool-desc">Write for 10–15 minutes before bed — not a worry dump, but a memory diary. Externalizing thoughts reduces the overnight rumination load and can soften 3am intrusions.</div>
+        </div>
+
+        <div class="tool-card">
+          <div class="tool-number">03</div>
+          <div class="tool-name">Weighted Blanket</div>
+          <div class="tool-desc">Deep pressure stimulation reduces cortisol and activates the parasympathetic nervous system. Particularly useful for the hyperarousal of acute grief — the sensation of being held has measurable calming effects.</div>
+        </div>
+
+        <div class="tool-card">
+          <div class="tool-number">04</div>
+          <div class="tool-name">Gentle Sleep Compression</div>
+          <div class="tool-desc">Slightly compress your sleep window (e.g., 11pm–6am rather than 9pm–7am) to consolidate sleep and reduce time spent lying awake. Counterintuitive, but it strengthens the sleep drive.</div>
+        </div>
+
+        <div class="tool-card">
+          <div class="tool-number">05</div>
+          <div class="tool-name">Social Contact Before Bed</div>
+          <div class="tool-desc">A brief conversation — in person, by phone, or even a voice message — in the evening hours helps lower cortisol before the sleep window. Talking about the person you lost is especially effective.</div>
+        </div>
+
+        <div class="tool-card">
+          <div class="tool-number">06</div>
+          <div class="tool-name">Stimulus Control Reset</div>
+          <div class="tool-desc">If the bed has become a grief cue, temporarily change your sleep environment. A different room, new pillow arrangement, or even a different scent can interrupt the conditioned arousal response.</div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Section 6: Medications -->
+    <h2>When to Seek Help — and When Medication Makes Sense</h2>
+
+    <p>
+      Grief is not a disorder. But grief-related sleep disruption can cross a threshold into something that requires clinical support. Two flags are worth watching for: <strong>complicated grief</strong> — marked by profound functional impairment and sleep disruption that persists beyond six months without meaningful improvement — and <strong>major depression</strong>, which can be triggered by significant loss and which requires treatment distinct from grief support alone.
+    </p>
+
+    <p>
+      Short-term sleep aids are sometimes appropriate in the acute phase of grief. They do not address the underlying cortisol-driven disruption, but they can interrupt the exhaustion-grief amplification cycle long enough for the nervous system to begin stabilizing. The key word is short-term: habitual use builds tolerance, disrupts natural sleep architecture, and can complicate recovery. If a doctor recommends a brief course of sleep medication during early grief, that is a reasonable clinical decision. Extending it without ongoing evaluation is where caution applies.
+    </p>
+
+    <p>
+      Low-dose doxepin and certain antidepressants with sedating properties (like mirtazapine) are sometimes used in grief-related insomnia specifically because they address both the sleep disruption and the mood component simultaneously. If grief has tipped into depression, this dual-targeting can be more appropriate than a pure sleep aid.
+    </p>
+
+    <!-- Takeaway box 2 -->
+    <div class="takeaway">
+      <div class="takeaway-label">When to Seek Help</div>
+      <p>Consult a physician or grief counselor if: sleep disruption shows no improvement after 3–4 months; you are unable to function at work or care for yourself; grief feels stuck rather than slowly integrating; or you are relying on alcohol to sleep. These are signals, not failures.</p>
+    </div>
+
+    <!-- Affiliate -->
+    <div class="affiliate">
+      <div class="affiliate-icon">🛏️</div>
+      <div class="affiliate-body">
+        <div class="affiliate-label">Recommended Product</div>
+        <div class="affiliate-name">Weighted Blanket (YnM / Gravity)</div>
+        <div class="affiliate-text">Deep pressure stimulation has been shown to reduce cortisol and activate the parasympathetic nervous system — making weighted blankets one of the most evidence-aligned non-pharmaceutical tools for grief insomnia. The compression mimics the calming effect of being held, directly targeting the hyperarousal state that disrupts sleep during acute grief.</div>
+        <a href="https://www.amazon.com/dp/B07BLLF58Z?tag=sleepwiserevi-20" class="btn-affiliate" target="_blank" rel="noopener">View on Amazon →</a>
+      </div>
+    </div>
+
+    <hr class="divider" />
+
+    <!-- Compassion note -->
+    <div class="compassion">
+      <p>
+        Poor sleep during grief is normal. It is temporary. Your brain is responding to one of the most significant challenges a human can face — not malfunctioning. Be gentle with yourself in the night hours. They will not always feel this way.
+      </p>
+    </div>
+
+    <!-- Citation -->
+    <div class="citation-ref">
+      <strong>Source:</strong> Winter, W.C. (2017). <em>The Sleep Solution: Why Your Sleep is Broken and How to Fix It.</em> New York: Berkley. — Chapter on stress physiology, cortisol, and sleep architecture disruption.
+    </div>
+
+    <!-- Disclaimer -->
+    <p class="disclaimer">
+      <em>Disclosure: This page contains affiliate links. As an Amazon Associate, SleepWiseReviews earns from qualifying purchases at no extra cost to you. Content is for informational purposes only and is not a substitute for professional medical or psychological advice.</em>
+    </p>
+
+  </main>
+
+</body>
+</html>
