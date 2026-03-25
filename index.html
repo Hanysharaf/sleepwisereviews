@@ -594,9 +594,13 @@
     }
 
     .picks-grid {
-      display: flex;;
-      gap: 1.2rem;
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.5rem;
+      overflow: visible;
+      scroll-snap-type: none;
     }
+    .top-picks .carousel-arrow { display: none; }
 
     .pick-card {
       background: var(--card);
@@ -607,10 +611,7 @@
       gap: 1.2rem;
       position: relative;
       transition: all 0.25s;
-      min-width: 300px;
-      max-width: 300px;
-      scroll-snap-align: start;
-      flex-shrink: 0;
+      width: 100%;
     }
 
     .pick-card:hover {
@@ -1091,7 +1092,7 @@
       }
 
       .picks-grid {
-        flex-wrap: nowrap;
+        grid-template-columns: repeat(2, 1fr);
       }
     }
 
@@ -1502,7 +1503,8 @@
       .section-inner { padding: 60px 5%; }
       .article-card { min-width: 255px; max-width: 255px; }
       .article-card.featured { min-width: 265px; max-width: 265px; }
-      .pick-card { min-width: 255px; max-width: 255px; }
+      .picks-grid { grid-template-columns: 1fr; }
+      .pick-card { width: 100%; }
       .testimonial-card { min-width: 270px; max-width: 270px; padding: 1.4rem; }
       .cat-grid { grid-template-columns: repeat(auto-fit, minmax(110px, 1fr)); gap: 0.8rem; }
       .footer-top { grid-template-columns: 1fr; gap: 1rem; }
@@ -1737,7 +1739,7 @@
           <button class="carousel-arrow prev" onclick="scrollCarousel(this,-1)">&#8249;</button>
           <div class="picks-grid carousel-track">
 
-            <div class="pick-card reveal">
+            <div class="pick-card">
               <div class="badge">Best Overall</div>
               <div class="pick-rank">01</div>
               <div class="pick-body">
@@ -1752,7 +1754,7 @@
               </div>
             </div>
 
-            <div class="pick-card reveal">
+            <div class="pick-card">
               <div class="badge">Best Value</div>
               <div class="pick-rank">02</div>
               <div class="pick-body">
@@ -1768,7 +1770,7 @@
               </div>
             </div>
 
-            <div class="pick-card reveal">
+            <div class="pick-card">
               <div class="pick-rank">03</div>
               <div class="pick-body">
                 <div class="pick-stars">★★★★☆</div>
@@ -1781,7 +1783,7 @@
               </div>
             </div>
 
-            <div class="pick-card reveal">
+            <div class="pick-card">
               <div class="pick-rank">04</div>
               <div class="pick-body">
                 <div class="pick-stars">★★★★★</div>
@@ -1795,7 +1797,7 @@
               </div>
             </div>
 
-            <div class="pick-card reveal">
+            <div class="pick-card">
               <div class="pick-rank">05</div>
               <div class="pick-body">
                 <div class="pick-stars">★★★★☆</div>
@@ -1809,7 +1811,7 @@
               </div>
             </div>
 
-            <div class="pick-card reveal">
+            <div class="pick-card">
               <div class="pick-rank">06</div>
               <div class="pick-body">
                 <div class="pick-stars">★★★★★</div>
