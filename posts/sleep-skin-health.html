@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Beauty Sleep Is Real: What Happens to Your Skin While You Sleep - SleepWiseReviews</title>
+  <meta name="description" content="Skin cell renewal peaks between 11pm and 4am. Discover the circadian biology, collagen science, and practical schedule changes that turn sleep into your best skincare routine." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <style type='text/css'>
+    :root {
+      --night: #0A0E1A;
+      --deep: #0F1525;
+      --navy: #141B30;
+      --card: #1A2238;
+      --border: #252D45;
+      --gold: #C9A84C;
+      --gold-light: #E5C96A;
+      --gold-dim: rgba(201, 168, 76, 0.15);
+      --star: #F0E6C8;
+      --text: #D4DCEE;
+      --muted: #7A85A0;
+      --white: #FFFFFF;
+      --green: #4CAF82;
+    }
+
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: 'Outfit', sans-serif;
+      background: var(--night);
+      color: var(--text);
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      background-image:
+        radial-gradient(1px 1px at 10% 15%, rgba(240, 230, 200, 0.6) 0%, transparent 100%),
+        radial-gradient(1px 1px at 25% 40%, rgba(240, 230, 200, 0.4) 0%, transparent 100%),
+        radial-gradient(1.5px 1.5px at 40% 10%, rgba(240, 230, 200, 0.5) 0%, transparent 100%),
+        radial-gradient(1px 1px at 55% 30%, rgba(240, 230, 200, 0.3) 0%, transparent 100%),
+        radial-gradient(1px 1px at 70% 5%, rgba(240, 230, 200, 0.6) 0%, transparent 100%),
+        radial-gradient(1.5px 1.5px at 80% 20%, rgba(240, 230, 200, 0.4) 0%, transparent 100%),
+        radial-gradient(1px 1px at 90% 45%, rgba(240, 230, 200, 0.3) 0%, transparent 100%);
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    nav {
+      position: sticky; top: 0; z-index: 100;
+      background: rgba(10, 14, 26, 0.92);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+      padding: 0 6%; height: 68px;
+      display: flex; align-items: center; justify-content: space-between;
+    }
+    .logo { font-family: 'Cormorant Garamond', serif; font-size: 1.6rem; font-weight: 700; color: var(--star); text-decoration: none; }
+    .logo span { color: var(--gold); }
+    .nav-links { display: flex; gap: 2rem; list-style: none; }
+    .nav-links a { text-decoration: none; color: var(--muted); font-size: 0.88rem; font-weight: 500; transition: color 0.2s; }
+    .nav-links a:hover { color: var(--gold); }
+    .nav-cta { background: var(--gold-dim); color: var(--gold) !important; border: 1px solid rgba(201, 168, 76, 0.3); padding: 7px 16px; border-radius: 4px; }
+
+    .article-wrapper {
+      position: relative; z-index: 1;
+      max-width: 800px; margin: 0 auto; padding: 50px 6% 80px;
+    }
+    .article-meta-top { display: flex; flex-wrap: wrap; align-items: center; gap: 0.8rem; margin-bottom: 1.2rem; }
+    .tag { background: var(--gold); color: var(--night); padding: 5px 12px; border-radius: 4px; font-size: 0.72rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; }
+    .meta-text { color: var(--muted); font-size: 0.82rem; }
+    .article-wrapper h1 { font-family: 'Cormorant Garamond', serif; font-size: 2.4rem; font-weight: 600; color: var(--star); line-height: 1.2; margin-bottom: 1.2rem; }
+    .article-intro { font-size: 1.1rem; color: var(--text); line-height: 1.7; margin-bottom: 2rem; font-weight: 300; }
+    .author-box { display: flex; align-items: center; gap: 1rem; margin-bottom: 1.5rem; padding: 1rem; background: var(--card); border-radius: 8px; border: 1px solid var(--border); }
+    .author-avatar { font-size: 2.5rem; }
+    .author-name { color: var(--star); font-weight: 500; }
+    .author-name a { color: var(--gold); text-decoration: none; }
+    .author-role { color: var(--muted); font-size: 0.82rem; }
+    .disclosure-box { background: rgba(201, 168, 76, 0.08); border: 1px solid rgba(201, 168, 76, 0.2); border-radius: 8px; padding: 1rem 1.2rem; font-size: 0.82rem; color: var(--muted); margin-bottom: 2rem; }
+    .article-wrapper h2 { font-family: 'Cormorant Garamond', serif; font-size: 1.6rem; font-weight: 600; color: var(--star); margin: 2.5rem 0 1rem; padding-top: 1rem; }
+    .article-wrapper h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.2rem; color: var(--star); margin: 1.5rem 0 0.8rem; }
+    .article-wrapper p { margin-bottom: 1rem; font-weight: 300; line-height: 1.8; }
+    .article-wrapper ul, .article-wrapper ol { margin: 1rem 0 1.5rem 1.5rem; }
+    .article-wrapper li { margin-bottom: 0.5rem; font-weight: 300; }
+    .callout { background: var(--card); border-left: 3px solid var(--gold); padding: 1rem 1.5rem; margin: 1.5rem 0; border-radius: 0 8px 8px 0; font-size: 0.92rem; }
+    .callout-green { background: var(--card); border-left: 3px solid var(--green); padding: 1rem 1.5rem; margin: 1.5rem 0; border-radius: 0 8px 8px 0; font-size: 0.92rem; }
+
+    .product-cta { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 1.5rem; margin: 2rem 0; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; }
+    .product-cta-text { color: var(--star); font-weight: 500; }
+    .btn-amazon { background: var(--gold); color: var(--night); text-decoration: none; padding: 10px 20px; border-radius: 6px; font-weight: 600; font-size: 0.88rem; transition: background 0.2s; }
+    .btn-amazon:hover { background: var(--gold-light); }
+
+    .article-cta { background: linear-gradient(135deg, var(--card), var(--navy)); border: 1px solid var(--border); border-radius: 12px; padding: 2rem; text-align: center; margin: 3rem 0; }
+    .article-cta h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.4rem; color: var(--star); margin-bottom: 0.8rem; }
+    .article-cta p { color: var(--muted); margin-bottom: 1.2rem; }
+
+    .related-articles { margin: 3rem 0; }
+    .related-articles h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.3rem; color: var(--star); margin-bottom: 1rem; }
+    .related-articles ul { list-style: none; margin: 0; }
+    .related-articles li { margin-bottom: 0.6rem; }
+    .related-articles a { color: var(--gold); text-decoration: none; font-size: 0.95rem; }
+    .related-articles a:hover { text-decoration: underline; }
+
+    footer { background: #060912; border-top: 1px solid var(--border); padding: 50px 6% 30px; }
+    .footer-top { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 3rem; margin-bottom: 3rem; padding-bottom: 3rem; border-bottom: 1px solid var(--border); }
+    .footer-brand p { color: var(--muted); font-size: 0.82rem; margin-top: 0.8rem; line-height: 1.6; font-weight: 300; max-width: 260px; }
+    .footer-col h4 { font-size: 0.78rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--gold); margin-bottom: 1rem; }
+    .footer-col ul { list-style: none; display: flex; flex-direction: column; gap: 0.6rem; }
+    .footer-col a { color: var(--muted); text-decoration: none; font-size: 0.85rem; transition: color 0.2s; }
+    .footer-col a:hover { color: var(--gold); }
+    .footer-bottom { display: flex; justify-content: space-between; font-size: 0.78rem; color: var(--muted); flex-wrap: wrap; gap: 0.5rem; }
+    .affiliate-disc { font-size: 0.75rem; max-width: 600px; }
+
+    @media (max-width: 900px) {
+      .nav-links { display: none; }
+      .article-wrapper h1 { font-size: 1.8rem; }
+      .footer-top { grid-template-columns: 1fr 1fr; }
+      .product-cta { flex-direction: column; text-align: center; }
+    }
+  </style>
+</head>
+
+<body>
+  <nav>
+    <a class="logo" href="../">SleepWise<span>Reviews</span></a>
+    <ul class="nav-links">
+      <li><a href="../#picks">Top Picks</a></li>
+      <li><a href="../#reviews">Reviews</a></li>
+      <li><a href="../pages/about.html">About Harry</a></li>
+      <li><a href="../#newsletter" class="nav-cta">Free Sleep Guide</a></li>
+    </ul>
+  </nav>
+
+  <article class="article-wrapper">
+    <div class="article-meta-top">
+      <span class="tag">Health</span>
+      <span class="meta-text">📅 June 2021</span>
+      <span class="meta-text">·</span>
+      <span class="meta-text">⏱ 7 min read</span>
+      <span class="meta-text">·</span>
+      <span class="meta-text">🔄 Updated Mar 2026</span>
+    </div>
+    <h1>Beauty Sleep Is Real: What Happens to Your Skin While You Sleep</h1>
+    <p class="article-intro">Skin cell renewal peaks between 11pm and 4am — the hours most people spend on screens. What your skin does in those dark, quiet hours is arguably the most sophisticated anti-aging process your body runs, entirely free of charge.</p>
+
+    <div class="author-box">
+      <div class="author-avatar">🌙</div>
+      <div class="author-info">
+        <div class="author-name">By <a href="../pages/about.html">Harry Soul</a> - SleepWiseReviews</div>
+        <div class="author-role">Independent Sleep Researcher - June 2021</div>
+      </div>
+    </div>
+
+    <div class="disclosure-box">
+      <strong>Affiliate Disclosure:</strong> This article contains affiliate links. We earn a small commission if you purchase through our links at no extra cost to you. <a href="../pages/affiliate-disclosure.html" style="color:var(--gold)">Full disclosure</a>
+    </div>
+
+    <h2>The Circadian Biology of Skin Repair</h2>
+    <p>Your skin is not a passive organ. It runs on the same internal clock that governs your sleep-wake cycle, and it uses the nighttime window aggressively. Keratinocytes — the cells that form the outer protective layer of skin — divide roughly twice as fast during sleep than during waking hours. This is not coincidence. The body deliberately downregulates daytime skin repair to redirect energy toward movement, digestion, and immune surveillance. Come nightfall, that energy redirects to cellular maintenance.</p>
+    <p>The peak window for skin cell mitosis (division) falls between 11pm and 4am, driven by the natural surge of melatonin and the concurrent drop in cortisol. Melatonin is not just a sleep signal — it is a potent antioxidant that mops up free radicals in skin tissue and signals dermal cells to enter repair mode. When you stay up past midnight scrolling, you are not simply losing sleep hours. You are cutting into a biologically scheduled maintenance window that no serum can fully replicate.</p>
+
+    <div class="callout">
+      💡 <strong>Key insight:</strong> Melatonin acts as both a sleep trigger and a skin antioxidant. Blue light from screens suppresses melatonin production, delaying the onset of this repair window by up to 90 minutes.
+    </div>
+
+    <h2>Growth Hormone, Collagen, and Cellular Repair</h2>
+    <p>The connection between sleep and youthful skin runs through one molecule: human growth hormone (HGH). The largest pulse of HGH released each day occurs within the first 90 minutes of deep (slow-wave) sleep — typically between 10pm and midnight for people on a normal schedule. HGH directly stimulates fibroblasts, the cells responsible for producing collagen and elastin, the structural proteins that keep skin firm and resilient.</p>
+    <p>Collagen synthesis is energetically expensive. The body does not do it efficiently while you are awake and active, because resources are needed elsewhere. Sleep — specifically deep sleep — is when the factory opens. As Shawn Stevenson writes in <em>Sleep Smarter</em> (2016), the hours before midnight are disproportionately rich in slow-wave sleep, making an early bedtime one of the most underrated beauty strategies available.</p>
+    <p>Beyond collagen, HGH also triggers the repair of micro-damage accumulated during the day: UV radiation, pollution particles, and mechanical stress from facial expressions all leave tiny cellular injuries that are patched during sleep. Miss enough deep sleep and these repairs begin to fall behind, accelerating the visible signs of aging — fine lines, uneven texture, and loss of elasticity.</p>
+
+    <h2>How Sleep Deprivation Destroys Collagen Through Cortisol</h2>
+    <p>The flip side of the sleep-skin relationship is equally important, and considerably more alarming. When you are sleep-deprived, your body elevates cortisol — the primary stress hormone — as a compensatory mechanism to maintain alertness. Cortisol does many useful things in acute stress situations, but chronically elevated levels are toxic to skin.</p>
+    <p>Cortisol degrades collagen directly. It activates enzymes called matrix metalloproteinases (MMPs) that break down the collagen matrix in the dermis. At the same time, elevated cortisol increases systemic inflammation, which accelerates oxidative damage to skin cells and impairs the skin barrier's ability to retain moisture. The result is skin that looks dull, dry, and aged — not because of what you applied or failed to apply topically, but because of what happened (or did not happen) at the cellular level overnight.</p>
+    <p>Research published in <em>Clinical and Experimental Dermatology</em> found that poor sleepers showed significantly higher rates of skin aging markers, slower recovery from UV exposure, and lower satisfaction with their own appearance than good sleepers of the same age. The study specifically flagged cortisol dysregulation as the primary driver.</p>
+
+    <div class="callout">
+      💡 <strong>The cortisol-collagen feedback loop:</strong> Just one night of poor sleep raises cortisol enough to measurably slow collagen synthesis. Three consecutive nights creates a deficit that takes days to recover from — longer than the sleep debt itself.
+    </div>
+
+    <h2>The Skin Microbiome and the Sleep Barrier</h2>
+    <p>Your skin hosts roughly 1,000 species of bacteria, fungi, and viruses collectively known as the skin microbiome. Far from being harmful, this ecosystem is essential for barrier function, immune regulation, and the suppression of pathogenic organisms. It also happens to be exquisitely sensitive to sleep quality.</p>
+    <p>During sleep, sebum production is regulated, transepidermal water loss (TEWL) decreases, and the skin's pH stabilizes — all conditions that favor a healthy microbial balance. Sleep deprivation disrupts all three. Elevated cortisol shifts sebum composition, increases TEWL (meaning skin loses more moisture overnight), and raises skin surface pH, creating conditions that favor the growth of inflammatory bacteria like <em>Cutibacterium acnes</em> at the expense of protective species like <em>Staphylococcus epidermidis</em>.</p>
+    <p>The practical consequence is that people who sleep poorly tend to experience more acne breakouts, increased skin sensitivity, and a slower recovery from eczema or rosacea flares. The relationship is bidirectional: a disrupted skin barrier also impairs sleep quality through itch and discomfort, creating a self-reinforcing cycle that is notoriously difficult to break without addressing both factors simultaneously.</p>
+
+    <h2>Under-Eye Circles: The Vascular and Pigmentation Story</h2>
+    <p>Under-eye darkness is one of the most visible and immediately recognizable signs of poor sleep, yet its biology is more complex than most people assume. There are actually two distinct mechanisms at work, and they respond to different interventions.</p>
+    <p>The first is vascular. The skin under the eyes is exceptionally thin — often less than half a millimeter — and the capillary network beneath it is dense. Sleep deprivation causes vasodilation (widening of blood vessels) and increases capillary permeability, meaning small amounts of blood pigment leak into the surrounding tissue. Combined with the pooling of deoxygenated blood visible through thin skin, this creates the blue-purple tint associated with fatigue.</p>
+    <p>The second mechanism is pigmentation-based. Chronic sleep deprivation triggers low-grade inflammation that stimulates melanocytes, the cells that produce melanin. Over time this creates true hyperpigmentation beneath the eyes — a brownish discoloration that persists even after a good night's sleep and is far harder to reverse than the temporary vascular darkening.</p>
+    <p>Periorbital edema — the puffiness that accompanies dark circles — results from fluid redistribution during horizontal sleep combined with impaired lymphatic drainage when sleep is short or fragmented. Elevating the head slightly and staying well hydrated reduces, but does not eliminate, this effect if the underlying sleep deficit persists.</p>
+
+    <h2>Pillow Material, Friction, and Skin Temperature</h2>
+    <p>The surface your face presses against for seven or eight hours is a surprisingly significant variable in skin health. Standard cotton pillowcases have a rough weave at the microscopic level. As you move during sleep — which the average person does between 40 and 50 times per night — this friction physically compresses and stretches facial skin repeatedly. Over years, these mechanical forces contribute to sleep lines that eventually become permanent creases, particularly on the side of the face that is pressed against the pillow most often.</p>
+    <p>Silk and high-quality satin pillowcases reduce this friction substantially. The smoother weave allows skin to glide rather than drag, and the lower absorbency means that the moisture from your nighttime moisturizer or serum stays on your skin rather than being wicked into the fabric. There is also a thermal component: silk regulates temperature at the skin surface more effectively than cotton, keeping the microenvironment slightly cooler — which is beneficial for skin barrier function and also for sleep quality itself.</p>
+
+    <div class="callout-green">
+      ✅ <strong>Practical takeaway:</strong> Switching to a silk or satin pillowcase is one of the simplest, lowest-effort skin interventions available. Combined with a consistent 10:30pm–11pm bedtime, it addresses both the friction and the biological timing issues simultaneously. Look for a momme weight of 19–25 for durability without sacrificing smoothness.
+    </div>
+
+    <div class="product-cta">
+      <span class="product-cta-text">Silk &amp; satin pillowcases for skin and hair protection</span>
+      <a class="btn-amazon" href="https://www.amazon.com/s?k=silk+pillowcase+skin+hair&tag=sleepwiserevi-20" target="_blank" rel="noopener nofollow">Shop on Amazon</a>
+    </div>
+
+    <h2>Practical Sleep Schedule Changes for Skin Health</h2>
+    <p>The most impactful change you can make for your skin is also the most unsexy: go to bed earlier. The growth hormone pulse that drives collagen synthesis is time-sensitive, not just sleep-duration sensitive. Staying up until 2am and sleeping until 10am gives you eight hours of sleep but dramatically reduces the quality of your deep-sleep window in terms of hormonal output. The body's HGH secretion is anchored to the circadian clock, not simply to elapsed sleep time.</p>
+    <p>A target bedtime of 10pm to 10:30pm positions you to capture the richest deep sleep of the night — the first two 90-minute cycles — which is when HGH peaks, cortisol bottoms out, and skin repair runs at full capacity. Consistency matters as much as timing: irregular sleep schedules fragment the circadian rhythm, blunting the hormonal peaks even on nights when you do go to bed early.</p>
+    <ul>
+      <li><strong>Set a hard screen cutoff at 9:30pm.</strong> Blue light blocks melatonin and delays the repair window by 60–90 minutes.</li>
+      <li><strong>Keep the bedroom cool — between 65–68°F (18–20°C).</strong> Core body temperature must drop to initiate deep sleep, and cooler skin is a signal for the body to begin cellular repair.</li>
+      <li><strong>Avoid alcohol within 3 hours of bed.</strong> Alcohol suppresses REM and deep sleep, reduces HGH output, and raises nighttime cortisol — a triple penalty for skin health.</li>
+      <li><strong>Eat dinner at least 2–3 hours before sleep.</strong> Digestion competes with repair; going to bed on a full stomach reduces deep sleep quality and diverts metabolic resources away from skin restoration.</li>
+    </ul>
+
+    <h2>Skincare Timing: Why Nighttime Application Works Better</h2>
+    <p>The cosmetics industry has understood the biology of nocturnal skin repair for decades — which is why "night creams" exist as a distinct category. The reasoning is sound: skin permeability increases during sleep, meaning active ingredients like retinoids, peptides, and hyaluronic acid penetrate more deeply and are absorbed more completely at night than during the day.</p>
+    <p>Daytime application of many actives is also counterproductive. Retinoids break down under UV exposure. Vitamin C serums oxidize. AHAs and BHAs increase photosensitivity, making daytime use without SPF actively harmful. Night application sidesteps all of these issues while also aligning product delivery with the biological window when skin cells are most receptive to repair signals.</p>
+    <p>The sequencing matters too. Apply water-based serums first (hyaluronic acid, vitamin C at night), allow them to absorb for two to three minutes, then layer a thicker moisturizer or facial oil to seal in moisture. Apply retinoids last, or as the sole active on nights when you use them. The key is to apply everything before you lie down — products applied to a horizontal face pool differently and are more likely to transfer to the pillowcase. A silk pillowcase mitigates this last point considerably.</p>
+
+    <div class="callout-green">
+      ✅ <strong>Practical takeaway:</strong> Build a two-minute nighttime skincare routine that you complete immediately after brushing your teeth — before you sit down with a book or phone. The ritual itself becomes a sleep-onset cue, reinforcing the circadian signal that the body is entering its repair window.
+    </div>
+
+    <h2>Putting It Together</h2>
+    <p>The case for "beauty sleep" is not marketing language. It rests on a convergence of endocrinology, cell biology, and chronobiology. HGH pulses during deep sleep drive collagen synthesis. Melatonin acts as a nocturnal antioxidant. Cortisol, elevated by poor sleep, dismantles collagen and disrupts the skin barrier. The skin microbiome depends on stable overnight conditions to maintain its protective balance. Even the physical environment — pillow texture, bedroom temperature — shapes what your skin looks like over years of nightly contact.</p>
+    <p>None of this requires expensive products or complex routines. The foundational intervention is free: protect the 11pm–4am window by going to bed before 11pm, keeping screens out of the bedroom, and maintaining a consistent schedule seven days a week. That one habit change will do more for your skin over a decade than most topical products on the market.</p>
+
+    <div class="article-cta">
+      <h3>Get Our Free 7-Day Sleep Reset</h3>
+      <p>Join 18,000 readers who get weekly sleep tips and honest product reviews every Sunday.</p>
+      <a class="btn-amazon" href="../#newsletter">Subscribe Free</a>
+    </div>
+
+    <div class="related-articles">
+      <h3>Related Articles</h3>
+      <ul>
+        <li><a href="sleep-and-hormones.html">How Sleep Regulates Your Hormones: The Complete Guide</a></li>
+        <li><a href="bedroom-temperature-sleep.html">The Ideal Bedroom Temperature for Deep Sleep</a></li>
+        <li><a href="sleep-stages-explained.html">Understanding Sleep Stages: A Complete Guide to Your Sleep Cycle</a></li>
+      </ul>
+    </div>
+  </article>
+
+  <footer>
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a class="logo" href="../">SleepWise<span>Reviews</span></a>
+        <p>Honest, science-backed reviews to help you sleep deeper, recover faster, and wake up energized.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Reviews</h4>
+        <ul>
+          <li><a href="https://www.amazon.com/s?k=weighted+blanket&tag=sleepwiserevi-20" target="_blank">Weighted Blankets</a></li>
+          <li><a href="https://www.amazon.com/s?k=white+noise+machine&tag=sleepwiserevi-20" target="_blank">White Noise Machines</a></li>
+          <li><a href="https://www.amazon.com/s?k=sleep+supplements&tag=sleepwiserevi-20" target="_blank">Supplements</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Guides</h4>
+        <ul>
+          <li><a href="../#picks">Sleep Optimization</a></li>
+          <li><a href="../#reviews">Bedtime Routines</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Site</h4>
+        <ul>
+          <li><a href="../pages/about.html">About Harry Soul</a></li>
+          <li><a href="../pages/privacy-policy.html">Privacy Policy</a></li>
+          <li><a href="../pages/affiliate-disclosure.html">Affiliate Disclosure</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div>&copy; 2025 SleepWiseReviews. All rights reserved.</div>
+      <div class="affiliate-disc">SleepWiseReviews is a participant in the Amazon Services LLC Associates Program.</div>
+    </div>
+  </footer>
+</body>
+</html>
