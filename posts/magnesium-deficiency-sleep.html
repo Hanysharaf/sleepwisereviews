@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Magnesium Deficiency and Sleep: Are You Getting Enough? – SleepWiseReviews</title>
+  <meta name="description" content="Up to 68% of Americans are deficient in magnesium, and every stage of sleep is affected. Learn the signs of deficiency, how magnesium impacts sleep stages, the best dietary sources, and which form to supplement for sleep." />
+  <meta name="keywords" content="magnesium deficiency sleep, magnesium for sleep, magnesium glycinate sleep, signs of magnesium deficiency, magnesium GABA sleep" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <style type='text/css'>
+    :root {
+      --night: #0A0E1A;
+      --deep: #0F1525;
+      --navy: #141B30;
+      --card: #1A2238;
+      --border: #252D45;
+      --gold: #C9A84C;
+      --gold-light: #E5C96A;
+      --gold-dim: rgba(201, 168, 76, 0.15);
+      --star: #F0E6C8;
+      --text: #D4DCEE;
+      --muted: #7A85A0;
+      --white: #FFFFFF;
+      --green: #4CAF82;
+    }
+
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: 'Outfit', sans-serif;
+      background: var(--night);
+      color: var(--text);
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      background-image:
+        radial-gradient(1px 1px at 10% 15%, rgba(240, 230, 200, 0.6) 0%, transparent 100%),
+        radial-gradient(1px 1px at 25% 40%, rgba(240, 230, 200, 0.4) 0%, transparent 100%),
+        radial-gradient(1.5px 1.5px at 40% 10%, rgba(240, 230, 200, 0.5) 0%, transparent 100%),
+        radial-gradient(1px 1px at 55% 30%, rgba(240, 230, 200, 0.3) 0%, transparent 100%),
+        radial-gradient(1px 1px at 70% 5%, rgba(240, 230, 200, 0.6) 0%, transparent 100%),
+        radial-gradient(1.5px 1.5px at 80% 20%, rgba(240, 230, 200, 0.4) 0%, transparent 100%),
+        radial-gradient(1px 1px at 90% 45%, rgba(240, 230, 200, 0.3) 0%, transparent 100%);
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    nav {
+      position: sticky; top: 0; z-index: 100;
+      background: rgba(10, 14, 26, 0.92);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+      padding: 0 6%; height: 68px;
+      display: flex; align-items: center; justify-content: space-between;
+    }
+    .logo { font-family: 'Cormorant Garamond', serif; font-size: 1.6rem; font-weight: 700; color: var(--star); text-decoration: none; }
+    .logo span { color: var(--gold); }
+    .nav-links { display: flex; gap: 2rem; list-style: none; }
+    .nav-links a { text-decoration: none; color: var(--muted); font-size: 0.88rem; font-weight: 500; transition: color 0.2s; }
+    .nav-links a:hover { color: var(--gold); }
+    .nav-cta { background: var(--gold-dim); color: var(--gold) !important; border: 1px solid rgba(201, 168, 76, 0.3); padding: 7px 16px; border-radius: 4px; }
+    .hamburger { display: none; flex-direction: column; gap: 5px; cursor: pointer; }
+    .hamburger span { display: block; width: 22px; height: 2px; background: var(--star); border-radius: 2px; }
+
+    .article-wrapper {
+      position: relative; z-index: 1;
+      max-width: 800px; margin: 0 auto; padding: 50px 6% 80px;
+    }
+    .article-meta-top { display: flex; flex-wrap: wrap; align-items: center; gap: 0.8rem; margin-bottom: 1.2rem; }
+    .tag { background: var(--gold); color: var(--night); padding: 5px 12px; border-radius: 4px; font-size: 0.72rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; }
+    .meta-text { color: var(--muted); font-size: 0.82rem; }
+    .article-wrapper h1 { font-family: 'Cormorant Garamond', serif; font-size: 2.4rem; font-weight: 600; color: var(--star); line-height: 1.2; margin-bottom: 1.2rem; }
+    .article-intro { font-size: 1.1rem; color: var(--text); line-height: 1.7; margin-bottom: 2rem; font-weight: 300; }
+    .author-box { display: flex; align-items: center; gap: 1rem; margin-bottom: 1.5rem; padding: 1rem; background: var(--card); border-radius: 8px; border: 1px solid var(--border); }
+    .author-avatar { font-size: 2.5rem; }
+    .author-name { color: var(--star); font-weight: 500; }
+    .author-name a { color: var(--gold); text-decoration: none; }
+    .author-role { color: var(--muted); font-size: 0.82rem; }
+    .disclosure-box { background: rgba(201, 168, 76, 0.08); border: 1px solid rgba(201, 168, 76, 0.2); border-radius: 8px; padding: 1rem 1.2rem; font-size: 0.82rem; color: var(--muted); margin-bottom: 2rem; }
+    .toc { background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 1.5rem 2rem; margin-bottom: 2.5rem; }
+    .toc h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.1rem; color: var(--star); margin-bottom: 1rem; }
+    .toc ol { margin-left: 1.2rem; }
+    .toc li { margin-bottom: 0.5rem; }
+    .toc a { color: var(--gold); text-decoration: none; font-size: 0.9rem; }
+    .toc a:hover { text-decoration: underline; }
+    .article-wrapper h2 { font-family: 'Cormorant Garamond', serif; font-size: 1.6rem; font-weight: 600; color: var(--star); margin: 2.5rem 0 1rem; padding-top: 1rem; border-top: 1px solid var(--border); }
+    .article-wrapper h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.2rem; color: var(--star); margin: 1.5rem 0 0.8rem; }
+    .article-wrapper p { margin-bottom: 1rem; font-weight: 300; line-height: 1.8; }
+    .article-wrapper ul, .article-wrapper ol { margin: 1rem 0 1.5rem 1.5rem; }
+    .article-wrapper li { margin-bottom: 0.5rem; font-weight: 300; }
+    .callout { background: var(--card); border-left: 3px solid var(--gold); padding: 1rem 1.5rem; margin: 1.5rem 0; border-radius: 0 8px 8px 0; font-size: 0.92rem; line-height: 1.7; }
+    .science-box { background: rgba(76, 175, 130, 0.1); border: 1px solid rgba(76, 175, 130, 0.3); border-radius: 8px; padding: 1.2rem 1.5rem; margin: 1.5rem 0; }
+    .science-box-title { color: var(--green); font-weight: 600; font-size: 0.9rem; margin-bottom: 0.5rem; }
+    .science-box p { margin: 0; font-size: 0.88rem; }
+    .deficiency-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem; margin: 1.5rem 0; }
+    .deficiency-card { background: var(--card); border: 1px solid var(--border); border-radius: 8px; padding: 1.2rem; }
+    .deficiency-card .icon { font-size: 1.5rem; margin-bottom: 0.5rem; }
+    .deficiency-card h4 { font-family: 'Cormorant Garamond', serif; color: var(--gold); font-size: 1rem; margin-bottom: 0.4rem; }
+    .deficiency-card p { margin: 0; font-size: 0.84rem; color: var(--muted); line-height: 1.5; }
+    .sleep-stage-row { display: flex; gap: 1.2rem; align-items: flex-start; padding: 1.2rem 0; border-bottom: 1px solid var(--border); }
+    .sleep-stage-row:last-of-type { border-bottom: none; }
+    .stage-badge { background: var(--gold-dim); border: 1px solid rgba(201,168,76,0.3); color: var(--gold); padding: 4px 10px; border-radius: 4px; font-size: 0.72rem; font-weight: 600; letter-spacing: 0.06em; white-space: nowrap; min-width: 80px; text-align: center; margin-top: 2px; }
+    .stage-content h4 { color: var(--star); font-size: 0.95rem; margin-bottom: 0.3rem; }
+    .stage-content p { margin: 0; font-size: 0.86rem; color: var(--muted); line-height: 1.5; font-weight: 300; }
+    .food-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 1rem; margin: 1.5rem 0; }
+    .food-card { background: var(--card); border: 1px solid var(--border); border-radius: 8px; padding: 1rem 1.2rem; }
+    .food-name { color: var(--star); font-weight: 500; font-size: 0.9rem; margin-bottom: 0.3rem; }
+    .food-mg { color: var(--gold); font-size: 1.1rem; font-weight: 600; margin-bottom: 0.2rem; }
+    .food-note { color: var(--muted); font-size: 0.75rem; }
+    .form-comparison { width: 100%; border-collapse: collapse; margin: 1.5rem 0; font-size: 0.85rem; }
+    .form-comparison th { background: var(--card); color: var(--gold); padding: 12px; text-align: left; font-weight: 600; border-bottom: 2px solid var(--border); }
+    .form-comparison td { padding: 12px; border-bottom: 1px solid var(--border); }
+    .form-comparison tr.highlight { background: rgba(201, 168, 76, 0.08); }
+    .check { color: var(--green); }
+    .cross { color: #E57373; }
+    .product-cta { background: linear-gradient(135deg, var(--card), var(--navy)); border: 1px solid var(--gold-dim); border-radius: 12px; padding: 1.8rem 2rem; margin: 2rem 0; display: flex; flex-wrap: wrap; gap: 1.5rem; align-items: center; justify-content: space-between; }
+    .product-cta-text h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.3rem; color: var(--star); margin-bottom: 0.4rem; }
+    .product-cta-text p { color: var(--muted); font-size: 0.88rem; margin: 0; }
+    .btn-amazon { background: var(--gold); color: var(--night); text-decoration: none; padding: 12px 22px; border-radius: 6px; font-weight: 600; font-size: 0.9rem; transition: background 0.2s; white-space: nowrap; display: inline-block; }
+    .btn-amazon:hover { background: var(--gold-light); }
+    .article-cta { background: linear-gradient(135deg, var(--card), var(--navy)); border: 1px solid var(--border); border-radius: 12px; padding: 2rem; text-align: center; margin: 3rem 0; }
+    .article-cta h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.4rem; color: var(--star); margin-bottom: 0.8rem; }
+    .article-cta p { color: var(--muted); margin-bottom: 1.2rem; }
+    .cta-form { display: flex; gap: 0.8rem; max-width: 400px; margin: 0 auto; }
+    .cta-form input { flex: 1; padding: 12px 16px; border: 1px solid var(--border); border-radius: 6px; background: var(--night); color: var(--text); font-size: 0.9rem; }
+    .cta-form button { background: var(--gold); color: var(--night); border: none; padding: 12px 20px; border-radius: 6px; font-weight: 600; cursor: pointer; }
+    .related-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem; margin: 1.5rem 0; }
+    .related-card { background: var(--card); border: 1px solid var(--border); border-radius: 8px; padding: 1.2rem; text-decoration: none; transition: border-color 0.2s; }
+    .related-card:hover { border-color: var(--gold); }
+    .related-tag { color: var(--gold); font-size: 0.72rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; margin-bottom: 0.4rem; }
+    .related-title { color: var(--star); font-size: 0.9rem; line-height: 1.4; font-weight: 400; }
+
+    footer { background: #060912; border-top: 1px solid var(--border); padding: 50px 6% 30px; }
+    .footer-top { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr 1fr; gap: 2.5rem; margin-bottom: 3rem; padding-bottom: 3rem; border-bottom: 1px solid var(--border); }
+    .footer-brand p { color: var(--muted); font-size: 0.82rem; margin-top: 0.8rem; line-height: 1.6; font-weight: 300; max-width: 260px; }
+    .footer-col h4 { font-size: 0.78rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--gold); margin-bottom: 1rem; }
+    .footer-col ul { list-style: none; display: flex; flex-direction: column; gap: 0.6rem; }
+    .footer-col a { color: var(--muted); text-decoration: none; font-size: 0.85rem; transition: color 0.2s; display: inline-flex; align-items: center; gap: 0.4rem; }
+    .footer-col a:hover { color: var(--gold); }
+    .footer-bottom { display: flex; justify-content: space-between; font-size: 0.78rem; color: var(--muted); flex-wrap: wrap; gap: 0.5rem; }
+    .affiliate-disc { font-size: 0.75rem; max-width: 600px; }
+
+    @media (max-width: 900px) {
+      .nav-links { display: none; }
+      .hamburger { display: flex; }
+      .article-wrapper h1 { font-size: 1.8rem; }
+      .footer-top { grid-template-columns: 1fr 1fr; }
+      .cta-form { flex-direction: column; }
+      .product-cta { flex-direction: column; }
+    }
+    @media (max-width: 560px) {
+      .deficiency-grid { grid-template-columns: 1fr; }
+      .food-grid { grid-template-columns: 1fr 1fr; }
+      .footer-top { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+
+<body>
+  <nav>
+    <a class="logo" href="../">SleepWise<span>Reviews</span></a>
+    <ul class="nav-links" id="navLinks">
+      <li><a href="../#picks">Top Picks</a></li>
+      <li><a href="../#reviews">Reviews</a></li>
+      <li><a href="../pages/about.html">About Harry</a></li>
+      <li><a href="../#newsletter" class="nav-cta">Free Sleep Guide &#10022;</a></li>
+    </ul>
+    <div class="hamburger" id="hamburger" onclick="this.closest('nav').querySelector('#navLinks').style.display = this.closest('nav').querySelector('#navLinks').style.display === 'flex' ? 'none' : 'flex'">
+      <span></span><span></span><span></span>
+    </div>
+  </nav>
+
+  <article class="article-wrapper">
+
+    <div class="article-meta-top">
+      <span class="tag">Sleep Science</span>
+      <span class="meta-text">&#128197; August 2023</span>
+      <span class="meta-text">&middot;</span>
+      <span class="meta-text">&#9201; 8 min read</span>
+      <span class="meta-text">&middot;</span>
+      <span class="meta-text">&#128260; Updated Mar 2026</span>
+    </div>
+
+    <h1>Magnesium Deficiency and Sleep: Are You Getting Enough?</h1>
+
+    <p class="article-intro">Up to 68% of Americans are deficient in magnesium &mdash; and every single stage of sleep is affected by this deficiency. Magnesium is involved in over 300 enzymatic reactions, including the ones that produce GABA, your brain's main sleep-promoting neurotransmitter.</p>
+
+    <div class="author-box">
+      <div class="author-avatar">&#127774;</div>
+      <div class="author-info">
+        <div class="author-name">By <a href="../pages/about.html">Harry Soul</a> &mdash; SleepWiseReviews</div>
+        <div class="author-role">Independent Sleep Researcher &mdash; Updated March 2026</div>
+      </div>
+    </div>
+
+    <div class="disclosure-box">
+      <strong>Affiliate Disclosure:</strong> This article contains affiliate links. We may earn a small commission if you purchase through our links, at no extra cost to you. <a href="../pages/affiliate-disclosure.html" style="color:var(--gold)">Full disclosure</a>
+    </div>
+
+    <div class="toc">
+      <h3>In This Article</h3>
+      <ol>
+        <li><a href="#signs">Signs You May Be Magnesium Deficient</a></li>
+        <li><a href="#sleep-stages">How Magnesium Affects Every Sleep Stage</a></li>
+        <li><a href="#dietary-sources">Dietary Sources vs. Supplements</a></li>
+        <li><a href="#which-form">Which Form of Magnesium Is Best for Sleep?</a></li>
+        <li><a href="#action">Tonight's Action Plan</a></li>
+      </ol>
+    </div>
+
+    <!-- SECTION 1 -->
+    <h2 id="signs">Signs You May Be Magnesium Deficient</h2>
+
+    <p>Most people running low on magnesium never receive a formal diagnosis. Standard blood tests measure serum magnesium, but only about 1% of the body's total magnesium is in the blood &mdash; which means a "normal" lab result can exist alongside a genuine cellular deficiency. Shawn Stevenson, author of <em>Sleep Smarter</em>, notes that dietary magnesium depletion has accelerated dramatically over the past century as industrial farming has stripped magnesium from topsoil (Stevenson, 2016).</p>
+
+    <p>The symptoms of deficiency are frustratingly non-specific, which is why they are so often missed or attributed to stress and aging. Here are the most common warning signs:</p>
+
+    <div class="deficiency-grid">
+      <div class="deficiency-card">
+        <div class="icon">&#128148;</div>
+        <h4>Difficulty Falling Asleep</h4>
+        <p>Low magnesium reduces GABA activity, keeping the nervous system stuck in an alert, activated state at bedtime.</p>
+      </div>
+      <div class="deficiency-card">
+        <div class="icon">&#9889;</div>
+        <h4>Muscle Cramps &amp; Twitching</h4>
+        <p>Magnesium is required for muscle relaxation. Without enough, muscles remain in partial contraction, causing nocturnal cramps and restless legs.</p>
+      </div>
+      <div class="deficiency-card">
+        <div class="icon">&#128165;</div>
+        <h4>Anxiety &amp; Racing Mind</h4>
+        <p>Magnesium suppresses excess glutamate (the brain's excitatory signal). Deficiency tips the balance toward over-excitation and anxious thought loops.</p>
+      </div>
+      <div class="deficiency-card">
+        <div class="icon">&#9728;</div>
+        <h4>Waking Unrefreshed</h4>
+        <p>Deficiency reduces slow-wave (deep) sleep time, which is the stage responsible for physical restoration and memory consolidation.</p>
+      </div>
+      <div class="deficiency-card">
+        <div class="icon">&#128168;</div>
+        <h4>Frequent Nighttime Waking</h4>
+        <p>Without adequate magnesium to regulate cortisol, stress hormones peak during the night and disrupt sleep continuity.</p>
+      </div>
+      <div class="deficiency-card">
+        <div class="icon">&#128148;</div>
+        <h4>Low Energy &amp; Brain Fog</h4>
+        <p>Magnesium is essential for ATP (cellular energy) production. Deficiency leads to daytime fatigue even after seemingly adequate sleep.</p>
+      </div>
+    </div>
+
+    <div class="science-box">
+      <div class="science-box-title">What the Research Shows</div>
+      <p>A large cross-sectional analysis of U.S. adults (NHANES data) found that 68% of Americans consume less magnesium than the Recommended Daily Allowance. A 2012 randomized controlled trial published in the <em>Journal of Research in Medical Sciences</em> found that magnesium supplementation significantly improved sleep time, sleep efficiency, and early morning awakening scores in adults with insomnia compared to placebo.</p>
+    </div>
+
+    <!-- SECTION 2 -->
+    <h2 id="sleep-stages">How Magnesium Affects Every Sleep Stage</h2>
+
+    <p>Sleep is not a single uniform state. It cycles through four distinct stages, each serving different functions &mdash; and magnesium has a documented role in each of them. Understanding this helps explain why low magnesium doesn't just make it harder to fall asleep; it degrades the entire architecture of the night.</p>
+
+    <div class="sleep-stage-row">
+      <div class="stage-badge">STAGE 1<br>Light Sleep</div>
+      <div class="stage-content">
+        <h4>The transition into sleep</h4>
+        <p>Magnesium activates the parasympathetic nervous system (your "rest and digest" mode) and suppresses the sympathetic system (fight-or-flight). Deficiency keeps sympathetic tone elevated, making the transition from wakefulness to sleep slower and more fragmented.</p>
+      </div>
+    </div>
+
+    <div class="sleep-stage-row">
+      <div class="stage-badge">STAGE 2<br>Core Sleep</div>
+      <div class="stage-content">
+        <h4>Body temperature drops and heart rate slows</h4>
+        <p>Magnesium helps regulate core body temperature by modulating blood vessel dilation. A properly timed temperature drop is essential for entering and sustaining Stage 2 &mdash; and low magnesium interferes with this mechanism.</p>
+      </div>
+    </div>
+
+    <div class="sleep-stage-row">
+      <div class="stage-badge">STAGE 3<br>Deep Sleep</div>
+      <div class="stage-content">
+        <h4>The most restorative stage</h4>
+        <p>This is where physical repair, immune strengthening, and memory consolidation happen. Magnesium directly supports slow-wave activity in the brain. Studies show that magnesium-deficient subjects spend significantly less time in Stage 3 and report waking unrefreshed as a result.</p>
+      </div>
+    </div>
+
+    <div class="sleep-stage-row">
+      <div class="stage-badge">REM<br>Dream Sleep</div>
+      <div class="stage-content">
+        <h4>Emotional processing and creativity</h4>
+        <p>Magnesium's role in GABA regulation also affects REM sleep duration and quality. Low magnesium is associated with REM fragmentation &mdash; the intrusions that cause vivid, disturbing dreams or frequent awakenings during the second half of the night.</p>
+      </div>
+    </div>
+
+    <div class="callout"><strong>The GABA connection:</strong> GABA (gamma-aminobutyric acid) is your brain's primary inhibitory neurotransmitter &mdash; essentially a neurological "off switch." Magnesium activates GABA receptors and is required for GABA synthesis. This is the same receptor system targeted by prescription sleep medications like benzodiazepines, but magnesium engages it naturally and without dependency or tolerance.</div>
+
+    <!-- SECTION 3 -->
+    <h2 id="dietary-sources">Dietary Sources vs. Supplements</h2>
+
+    <p>The ideal way to get magnesium is through food. The problem is that the modern food supply makes this increasingly difficult. Industrial agriculture, soil depletion, food processing, and high consumption of refined carbohydrates and alcohol all reduce magnesium intake and absorption. Even those eating a balanced diet often fall short of the RDA (310&ndash;420mg/day for adults).</p>
+
+    <h3>Top Food Sources of Magnesium</h3>
+
+    <div class="food-grid">
+      <div class="food-card">
+        <div class="food-name">Pumpkin Seeds</div>
+        <div class="food-mg">168mg</div>
+        <div class="food-note">per 1 oz (28g) serving</div>
+      </div>
+      <div class="food-card">
+        <div class="food-name">Dark Chocolate (70%+)</div>
+        <div class="food-mg">64mg</div>
+        <div class="food-note">per 1 oz serving</div>
+      </div>
+      <div class="food-card">
+        <div class="food-name">Almonds</div>
+        <div class="food-mg">80mg</div>
+        <div class="food-note">per 1 oz serving</div>
+      </div>
+      <div class="food-card">
+        <div class="food-name">Cooked Spinach</div>
+        <div class="food-mg">78mg</div>
+        <div class="food-note">per 1/2 cup serving</div>
+      </div>
+      <div class="food-card">
+        <div class="food-name">Black Beans</div>
+        <div class="food-mg">60mg</div>
+        <div class="food-note">per 1/2 cup cooked</div>
+      </div>
+      <div class="food-card">
+        <div class="food-name">Avocado</div>
+        <div class="food-mg">58mg</div>
+        <div class="food-note">per 1 whole medium</div>
+      </div>
+    </div>
+
+    <p>Even eating several of these foods daily may not bring you to optimal levels &mdash; particularly if you drink alcohol regularly, take proton pump inhibitors, or have high stress levels (cortisol depletes magnesium). This is where supplementation becomes a legitimate and evidence-backed strategy, as Stevenson argues in his protocol-based approach to sleep optimization (Stevenson, 2016).</p>
+
+    <div class="callout"><strong>Absorption blockers to know:</strong> Caffeine increases magnesium excretion through the kidneys. Alcohol depletes magnesium stores. A high-sugar diet impairs absorption. If you consume any of these regularly, your dietary magnesium is working against a headwind.</div>
+
+    <!-- SECTION 4 -->
+    <h2 id="which-form">Which Form of Magnesium Is Best for Sleep?</h2>
+
+    <p>Not all magnesium supplements are created equal. The form determines how much elemental magnesium actually reaches your cells &mdash; and crucially for sleep, whether it can cross the blood-brain barrier. Most cheap supplements use magnesium oxide, which has only 4% bioavailability and primarily acts as a laxative.</p>
+
+    <table class="form-comparison">
+      <thead>
+        <tr>
+          <th>Form</th>
+          <th>Absorption</th>
+          <th>Sleep Benefit</th>
+          <th>GI Side Effects</th>
+          <th>Verdict</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="highlight">
+          <td><strong>Glycinate</strong></td>
+          <td><span class="check">Excellent</span></td>
+          <td><span class="check">Top for sleep</span></td>
+          <td>Minimal</td>
+          <td><span class="check">Best choice</span></td>
+        </tr>
+        <tr class="highlight">
+          <td><strong>L-Threonate</strong></td>
+          <td><span class="check">Crosses BBB</span></td>
+          <td><span class="check">Best for anxiety</span></td>
+          <td>Minimal</td>
+          <td><span class="check">Excellent</span></td>
+        </tr>
+        <tr>
+          <td>Citrate</td>
+          <td>Good</td>
+          <td>Moderate</td>
+          <td>Loose stools at high dose</td>
+          <td>Acceptable</td>
+        </tr>
+        <tr>
+          <td>Malate</td>
+          <td>Good</td>
+          <td>Low &mdash; energizing effect</td>
+          <td>Minimal</td>
+          <td><span class="cross">Avoid at night</span></td>
+        </tr>
+        <tr>
+          <td>Oxide</td>
+          <td><span class="cross">Very poor (~4%)</span></td>
+          <td><span class="cross">Negligible</span></td>
+          <td>Strong laxative</td>
+          <td><span class="cross">Avoid entirely</span></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <p><strong>Magnesium glycinate</strong> is the gold standard for sleep. The magnesium is bound to glycine, an amino acid with its own independent calming and sleep-promoting properties. Glycine has been shown in clinical trials to lower core body temperature and improve subjective sleep quality. You're essentially getting two sleep-supporting compounds in one supplement.</p>
+
+    <p>The key distinction most articles skip: glycinate is specifically recommended for sleep purposes over citrate, not because citrate is bad, but because citrate is more likely to cause digestive upset at sleep-supporting doses, and its glycine-binding advantage makes glycinate the superior choice for this specific application.</p>
+
+    <!-- Green callout - required -->
+    <div class="callout" style="border-left:3px solid var(--green)">&#128154; <strong>Tonight's action:</strong> Take 200-400mg of magnesium glycinate (not oxide, not citrate for sleep purposes) 30 minutes before bed tonight. Glycinate is the form with the highest bioavailability and the least likely to cause digestive side effects. Give it 2 weeks before judging effectiveness.</div>
+
+    <!-- Product CTA -->
+    <div class="product-cta">
+      <div class="product-cta-text">
+        <h3>Magnesium Glycinate 400mg &mdash; Recommended for Sleep</h3>
+        <p>Look for a third-party tested glycinate formula at 200&ndash;400mg elemental magnesium. Avoid oxide and any undisclosed blends.</p>
+      </div>
+      <a class="btn-amazon" href="https://www.amazon.com/s?k=magnesium+glycinate+400mg+sleep+supplement&tag=sleepwiserevi-20" target="_blank" rel="noopener nofollow">Shop on Amazon &#8594;</a>
+    </div>
+
+    <!-- SECTION 5 -->
+    <h2 id="action">Putting It All Together: Your Action Plan</h2>
+
+    <p>Correcting magnesium deficiency is one of the highest-leverage, lowest-risk sleep interventions available. Unlike sleep medications, it addresses an underlying nutritional gap rather than chemically forcing sleep. Unlike melatonin, it doesn't require cycling or taper and has no dependency risk.</p>
+
+    <p>Here is a practical starting framework:</p>
+
+    <ul>
+      <li><strong>Step 1 &mdash; Audit your diet.</strong> Add at least one high-magnesium food to your meals daily (pumpkin seeds, almonds, leafy greens, dark chocolate). This alone can meaningfully raise levels over 4&ndash;6 weeks.</li>
+      <li><strong>Step 2 &mdash; Reduce depleters.</strong> Cut or moderate alcohol, excess caffeine (especially after 2pm), and refined sugar. Each drains your magnesium reserves.</li>
+      <li><strong>Step 3 &mdash; Supplement strategically.</strong> Choose magnesium glycinate at 200&ndash;400mg, taken 30&ndash;60 minutes before bed. Start at 200mg and increase by 100mg weekly until you notice improved sleep onset and quality.</li>
+      <li><strong>Step 4 &mdash; Be patient.</strong> Tissue-level repletion takes time. Most people notice a meaningful difference in sleep onset within 1 week. Full effects are typically apparent by week 3&ndash;4.</li>
+      <li><strong>Step 5 &mdash; Do not combine with calcium at the same time.</strong> Calcium and magnesium compete for the same absorption pathways. If you take calcium, separate it to morning and take magnesium at night.</li>
+    </ul>
+
+    <div class="science-box">
+      <div class="science-box-title">A Note on Safety</div>
+      <p>Magnesium glycinate is well-tolerated at standard doses (up to 350mg supplemental magnesium per day per NIH guidance for adults). The body self-regulates by excreting excess through the kidneys. If you have kidney disease, consult your physician before supplementing. Otherwise, the risk profile is extremely low compared to its potential benefit.</p>
+    </div>
+
+    <!-- Article CTA -->
+    <div class="article-cta">
+      <h3>Get Our Free 7-Day Sleep Reset</h3>
+      <p>Join 18,000+ readers who get weekly sleep science breakdowns and honest product reviews from Harry Soul every Sunday.</p>
+      <div class="cta-form">
+        <input type="email" placeholder="Your email address" />
+        <button type="button">Send It Free</button>
+      </div>
+      <p style="font-size:0.72rem;color:var(--muted);margin:0.6rem 0 0">No spam. Unsubscribe anytime.</p>
+    </div>
+
+    <!-- Related Articles -->
+    <h2>Related Articles</h2>
+    <div class="related-grid">
+      <a class="related-card" href="article-magnesium-sleep.html">
+        <div class="related-tag">Supplements</div>
+        <div class="related-title">Best Magnesium for Sleep in 2025: Glycinate vs Citrate vs Threonate</div>
+      </a>
+      <a class="related-card" href="best-sleep-supplements-guide.html">
+        <div class="related-tag">Supplements</div>
+        <div class="related-title">The Complete Guide to Sleep Supplements: What Actually Works</div>
+      </a>
+      <a class="related-card" href="article-weighted-blanket.html">
+        <div class="related-tag">Products</div>
+        <div class="related-title">7 Best Weighted Blankets for Deep Sleep in 2025</div>
+      </a>
+      <a class="related-card" href="adenosine-sleep-drive.html">
+        <div class="related-tag">Sleep Science</div>
+        <div class="related-title">Adenosine and Sleep Drive: The Science Behind Why You Feel Tired</div>
+      </a>
+    </div>
+
+  </article>
+
+  <footer>
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a class="logo" href="../">SleepWise<span>Reviews</span></a>
+        <p>Honest, science-backed reviews to help you sleep deeper, recover faster, and wake up energized.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Reviews</h4>
+        <ul>
+          <li><a href="https://www.amazon.com/s?k=weighted+blanket&tag=sleepwiserevi-20" target="_blank" rel="noopener nofollow">Weighted Blankets</a></li>
+          <li><a href="https://www.amazon.com/s?k=white+noise+machine&tag=sleepwiserevi-20" target="_blank" rel="noopener nofollow">White Noise Machines</a></li>
+          <li><a href="https://www.amazon.com/s?k=sleep+tracker&tag=sleepwiserevi-20" target="_blank" rel="noopener nofollow">Sleep Trackers</a></li>
+          <li><a href="https://www.amazon.com/s?k=sleep+supplements+magnesium&tag=sleepwiserevi-20" target="_blank" rel="noopener nofollow">Supplements</a></li>
+          <li><a href="https://www.amazon.com/s?k=silk+sleep+mask&tag=sleepwiserevi-20" target="_blank" rel="noopener nofollow">Sleep Masks</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Guides</h4>
+        <ul>
+          <li><a href="../#picks">Sleep Optimization</a></li>
+          <li><a href="../#reviews">Sleep Disorders</a></li>
+          <li><a href="../#newsletter">Bedtime Routines</a></li>
+          <li><a href="../#categories">Sleep Science</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Site</h4>
+        <ul>
+          <li><a href="../pages/about.html">About Harry Soul</a></li>
+          <li><a href="https://www.instagram.com/sleepwise.reviews" target="_blank" rel="noopener">Contact via Instagram</a></li>
+          <li><a href="../pages/privacy-policy.html">Privacy Policy</a></li>
+          <li><a href="../pages/affiliate-disclosure.html">Affiliate Disclosure</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Follow Us</h4>
+        <ul>
+          <li><a href="https://www.instagram.com/sleepwise.reviews" target="_blank" rel="noopener">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/></svg>
+            Instagram
+          </a></li>
+          <li><a href="https://www.pinterest.com/sleepwisereviews" target="_blank" rel="noopener">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0c-6.627 0-12 5.372-12 12 0 5.084 3.163 9.426 7.627 11.174-.105-.949-.2-2.405.042-3.441.218-.937 1.407-5.965 1.407-5.965s-.359-.719-.359-1.782c0-1.668.967-2.914 2.171-2.914 1.023 0 1.518.769 1.518 1.69 0 1.029-.655 2.568-.994 3.995-.283 1.194.599 2.169 1.777 2.169 2.133 0 3.772-2.249 3.772-5.495 0-2.873-2.064-4.882-5.012-4.882-3.414 0-5.418 2.561-5.418 5.207 0 1.031.397 2.138.893 2.738.098.119.112.224.083.345l-.333 1.36c-.053.22-.174.267-.402.161-1.499-.698-2.436-2.889-2.436-4.649 0-3.785 2.75-7.262 7.929-7.262 4.163 0 7.398 2.967 7.398 6.931 0 4.136-2.607 7.464-6.227 7.464-1.216 0-2.359-.631-2.75-1.378l-.748 2.853c-.271 1.043-1.002 2.35-1.492 3.146 1.124.347 2.317.535 3.554.535 6.627 0 12-5.373 12-12 0-6.628-5.373-12-12-12z"/></svg>
+            Pinterest
+          </a></li>
+          <li><a href="https://www.facebook.com/profile.php?id=61577530262628" target="_blank" rel="noopener">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor"><path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/></svg>
+            Facebook
+          </a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div>&copy; 2025 SleepWiseReviews. All rights reserved.</div>
+      <div class="affiliate-disc">SleepWiseReviews is a participant in the Amazon Services LLC Associates Program. As an Amazon Associate we earn from qualifying purchases.</div>
+    </div>
+  </footer>
+
+</body>
+</html>
