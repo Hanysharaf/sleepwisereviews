@@ -1650,10 +1650,63 @@
     .article-likes.liked { color: #e05c7e; }
     .article-likes svg { width: 14px; height: 14px; fill: none; stroke: currentColor; stroke-width: 2; }
     .article-likes.liked svg { fill: #e05c7e; stroke: #e05c7e; }
+
+    .search-toggle { background: none; border: none; color: var(--muted); cursor: pointer; padding: 8px; display: flex; align-items: center; transition: color 0.2s; }
+    .search-toggle:hover { color: var(--gold); }
+    .search-overlay { position: fixed; inset: 0; background: rgba(10,14,26,0.97); z-index: 1000; display: none; flex-direction: column; align-items: center; padding: 80px 6% 40px; }
+    .search-overlay.open { display: flex; }
+    .search-box { width: 100%; max-width: 680px; position: relative; margin-bottom: 2rem; }
+    .search-input { width: 100%; background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 1rem 3rem 1rem 1.5rem; color: var(--star); font-size: 1.1rem; font-family: inherit; outline: none; transition: border-color 0.2s; }
+    .search-input:focus { border-color: var(--gold); }
+    .search-input::placeholder { color: var(--muted); }
+    .search-close { position: absolute; right: 1rem; top: 50%; transform: translateY(-50%); background: none; border: none; color: var(--muted); font-size: 1.2rem; cursor: pointer; }
+    .search-results { width: 100%; max-width: 680px; overflow-y: auto; max-height: calc(100vh - 220px); }
+    .search-result-item { display: flex; align-items: center; gap: 1rem; padding: 0.9rem 1.2rem; background: var(--card); border: 1px solid var(--border); border-radius: 8px; margin-bottom: 0.6rem; text-decoration: none; transition: all 0.2s; }
+    .search-result-item:hover { border-color: var(--gold); background: rgba(201,168,76,0.05); }
+    .search-result-cat { font-size: 0.68rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.1em; color: var(--gold); min-width: 90px; }
+    .search-result-title { color: var(--text); font-size: 0.92rem; }
+    .search-empty { color: var(--muted); text-align: center; padding: 2rem; font-size: 0.95rem; }
+    .exit-popup { position: fixed; inset: 0; background: rgba(0,0,0,0.7); z-index: 2000; display: none; align-items: center; justify-content: center; padding: 1rem; }
+    .exit-popup.open { display: flex; }
+    .exit-popup-box { background: var(--card); border: 1px solid var(--border); border-radius: 16px; padding: 2.5rem 2rem; max-width: 440px; width: 100%; text-align: center; position: relative; }
+    .exit-popup-close { position: absolute; top: 1rem; right: 1rem; background: none; border: none; color: var(--muted); font-size: 1.2rem; cursor: pointer; }
+    .exit-popup-icon { font-size: 3rem; margin-bottom: 1rem; }
+    .exit-popup-title { font-family: 'Cormorant Garamond', serif; font-size: 1.8rem; color: var(--star); margin-bottom: 0.6rem; }
+    .exit-popup-sub { color: var(--muted); font-size: 0.9rem; margin-bottom: 1.5rem; line-height: 1.6; }
+    .exit-popup-form { display: flex; flex-direction: column; gap: 0.8rem; margin-bottom: 0.8rem; }
+    .exit-popup-form input { padding: 0.85rem 1rem; background: var(--deep); border: 1px solid var(--border); border-radius: 6px; color: var(--star); font-family: inherit; font-size: 0.9rem; outline: none; }
+    .exit-popup-form button { padding: 0.85rem; background: var(--gold); color: var(--night); border: none; border-radius: 6px; font-weight: 600; font-size: 0.9rem; cursor: pointer; }
+    .exit-popup-disclaimer { font-size: 0.72rem; color: var(--muted); }
+    .pick-best-for { font-size: 0.72rem; color: var(--muted); margin-top: 0.4rem; }
+    .pick-best-for span { color: var(--gold); font-weight: 500; }
+    .card-badge-updated { position: absolute; top: 0.8rem; right: 0.8rem; background: var(--gold); color: var(--night); font-size: 0.62rem; font-weight: 700; padding: 3px 8px; border-radius: 3px; text-transform: uppercase; letter-spacing: 0.06em; }
+    .article-card { position: relative; }
   </style>
 </head>
 
 <body>
+
+  <div class="search-overlay" id="searchOverlay">
+    <div class="search-box">
+      <input type="text" class="search-input" id="searchInput" placeholder="Search 150+ sleep guides…" oninput="runSearch(this.value)" autocomplete="off" />
+      <button class="search-close" onclick="toggleSearch()">&#x2715;</button>
+    </div>
+    <div class="search-results" id="searchResults"></div>
+  </div>
+
+  <div class="exit-popup" id="exitPopup">
+    <div class="exit-popup-box">
+      <button class="exit-popup-close" onclick="closeExitPopup()">&#x2715;</button>
+      <div class="exit-popup-icon">🌙</div>
+      <h3 class="exit-popup-title">Before you go…</h3>
+      <p class="exit-popup-sub">Get our free 7-day sleep reset guide. 18,000 readers already have it.</p>
+      <form class="exit-popup-form" onsubmit="closeExitPopup();return false;">
+        <input type="email" placeholder="Your email address" required />
+        <button type="submit">Send Me the Guide →</button>
+      </form>
+      <p class="exit-popup-disclaimer">No spam. Unsubscribe anytime.</p>
+    </div>
+  </div>
 
   <!-- NAV -->
   <nav>
@@ -1672,6 +1725,9 @@
       <span></span>
       <span></span>
     </div>
+    <button class="search-toggle" onclick="toggleSearch()" aria-label="Search">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+    </button>
   </nav>
   <script>
     function toggleMenu() {
@@ -1795,6 +1851,7 @@
           <button class="carousel-arrow prev" onclick="scrollCarousel(this,-1)">&#8249;</button>
           <div class="articles-grid carousel-track">
             <a class="article-card featured" href="posts/article-weighted-blanket.html">
+              <div class="card-badge-updated">Updated 2026</div>
               <div class="article-thumb">🛌</div>
               <div class="article-body">
                 <span class="article-tag">Weighted Blankets</span>
@@ -1819,6 +1876,7 @@
             </a>
 
             <a class="article-card" href="posts/article-magnesium-sleep.html">
+              <div class="card-badge-updated">Updated 2026</div>
               <div class="article-thumb">💊</div>
               <div class="article-body">
                 <span class="article-tag">Supplements</span>
@@ -1838,6 +1896,7 @@
             </a>
 
             <a class="article-card" href="posts/article-white-noise-machines.html">
+              <div class="card-badge-updated">Updated 2026</div>
               <div class="article-thumb">🔇</div>
               <div class="article-body">
                 <span class="article-tag">White Noise</span>
@@ -1907,6 +1966,7 @@
                 <div class="best-for-tag">Best for deep sleepers</div>
                 <div class="pick-stars">★★★★★</div>
                 <div class="pick-name">Bearaby Cotton Napper Weighted Blanket</div>
+                <div class="pick-best-for">Best for: <span>Deep sleepers &amp; anxiety</span></div>
                 <div class="pick-desc">The most breathable weighted blanket we've tested. Hand-knit organic cotton that
                   regulates temperature perfectly. Reduces the time to fall asleep by an average of 22 minutes in our
                   testing.</div>
@@ -1923,6 +1983,7 @@
                 <div class="best-for-tag">Best for light sleepers</div>
                 <div class="pick-stars">★★★★★</div>
                 <div class="pick-name">LectroFan Classic White Noise Machine</div>
+                <div class="pick-best-for">Best for: <span>Budget-conscious buyers</span></div>
                 <div class="pick-desc">10 fan sounds + 10 white noise variations. The only machine we found that truly
                   masks
                   outside sounds rather than just adding more noise. Perfect for light sleepers.</div>
@@ -1939,6 +2000,7 @@
                 <div class="best-for-tag">Best supplement for sleep</div>
                 <div class="pick-stars">★★★★☆</div>
                 <div class="pick-name">Magnesium Glycinate 400mg (Thorne)</div>
+                <div class="pick-best-for">Best for: <span>Side sleepers</span></div>
                 <div class="pick-desc">The most bioavailable form of magnesium for sleep. Thorne's pharmaceutical-grade
                   formula is the one most sleep doctors actually recommend. Noticeable difference within 7 days.</div>
                 <div class="pick-price">From $38 · Amazon</div>
@@ -1953,6 +2015,7 @@
                 <div class="best-for-tag">Best for tracking sleep data</div>
                 <div class="pick-stars">★★★★★</div>
                 <div class="pick-name">Oura Ring Gen 3 Sleep Tracker</div>
+                <div class="pick-best-for">Best for: <span>Hot sleepers</span></div>
                 <div class="pick-desc">The most accurate non-wrist sleep tracker available. Tracks sleep stages, HRV,
                   body
                   temperature, and gives actionable scores every morning. Worth every penny if you want real data.</div>
@@ -1968,6 +2031,7 @@
                 <div class="best-for-tag">Best for total darkness</div>
                 <div class="pick-stars">★★★★☆</div>
                 <div class="pick-name">Alaska Bear Natural Silk Sleep Mask</div>
+                <div class="pick-best-for">Best for: <span>Light sleepers &amp; city dwellers</span></div>
                 <div class="pick-desc">Complete blackout without the pressure. Pure mulberry silk that's gentle on skin
                   and
                   doesn't shift during the night. Over 50,000 Amazon reviews for good reason.</div>
@@ -1983,6 +2047,7 @@
                 <div class="best-for-tag">Best for neck pain relief</div>
                 <div class="pick-stars">★★★★★</div>
                 <div class="pick-name">Coop Home Goods Eden Pillow</div>
+                <div class="pick-best-for">Best for: <span>Data-driven sleepers</span></div>
                 <div class="pick-desc">Adjustable fill so you get the exact height you need. Works for side, back, and
                   stomach sleepers. Reduces neck pain within 2 weeks for most people in our reader survey.</div>
                 <div class="pick-price">From $72 · Amazon</div>
