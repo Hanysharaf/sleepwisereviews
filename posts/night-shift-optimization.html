@@ -1,0 +1,802 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Night Shift Sleep Optimization Guide | SleepWiseReviews</title>
+  <meta name="description" content="Night shift workers have a 29% higher cardiovascular risk — but the right sleep strategy closes most of that gap. Learn light management, eating windows, strategic napping, and melatonin timing." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --night: #0A0E1A;
+      --deep: #0F1525;
+      --navy: #141B30;
+      --card: #1A2238;
+      --border: #252D45;
+      --gold: #C9A84C;
+      --gold-light: #E5C96A;
+      --gold-dim: rgba(201,168,76,0.15);
+      --star: #F0E6C8;
+      --text: #D4DCEE;
+      --muted: #7A85A0;
+      --white: #FFFFFF;
+      --green: #4CAF82;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: var(--night);
+      color: var(--text);
+      font-family: 'Outfit', sans-serif;
+      font-size: 17px;
+      line-height: 1.75;
+    }
+
+    /* ── HEADER ── */
+    .site-header {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: var(--deep);
+      border-bottom: 1px solid var(--border);
+      padding: 0 24px;
+      height: 62px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .logo {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: var(--white);
+      text-decoration: none;
+      letter-spacing: 0.02em;
+    }
+
+    .logo span { color: var(--gold); }
+
+    .nav-links {
+      display: flex;
+      gap: 28px;
+      list-style: none;
+    }
+
+    .nav-links a {
+      color: var(--muted);
+      text-decoration: none;
+      font-size: 0.875rem;
+      font-weight: 500;
+      transition: color 0.2s;
+    }
+
+    .nav-links a:hover { color: var(--gold); }
+
+    /* ── HERO ── */
+    .hero {
+      background: linear-gradient(160deg, var(--deep) 0%, var(--navy) 60%, #101830 100%);
+      padding: 64px 24px 56px;
+      text-align: center;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .badge {
+      display: inline-block;
+      background: var(--gold-dim);
+      border: 1px solid var(--gold);
+      color: var(--gold-light);
+      font-size: 0.72rem;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      padding: 4px 14px;
+      border-radius: 20px;
+      margin-bottom: 22px;
+    }
+
+    .hero h1 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(2rem, 5vw, 3.2rem);
+      font-weight: 700;
+      color: var(--white);
+      line-height: 1.15;
+      max-width: 720px;
+      margin: 0 auto 20px;
+    }
+
+    .hero-meta {
+      color: var(--muted);
+      font-size: 0.85rem;
+      margin-bottom: 28px;
+    }
+
+    .hero-hook {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.2rem;
+      font-style: italic;
+      color: var(--star);
+      max-width: 680px;
+      margin: 0 auto;
+      line-height: 1.6;
+    }
+
+    /* ── CONTENT ── */
+    .content-wrap {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 56px 24px 80px;
+    }
+
+    h2 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.9rem;
+      font-weight: 700;
+      color: var(--white);
+      margin: 52px 0 18px;
+      line-height: 1.2;
+    }
+
+    h3 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.35rem;
+      font-weight: 600;
+      color: var(--gold-light);
+      margin: 36px 0 12px;
+    }
+
+    p { margin-bottom: 18px; }
+
+    strong { color: var(--white); font-weight: 600; }
+
+    a { color: var(--gold); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+
+    /* ── DIVIDER ── */
+    .divider {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 40px 0;
+    }
+
+    /* ── STAT CALLOUT ── */
+    .stat-callout {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-left: 4px solid var(--gold);
+      border-radius: 8px;
+      padding: 22px 28px;
+      margin: 28px 0;
+    }
+
+    .stat-callout .stat-number {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 2.4rem;
+      font-weight: 700;
+      color: var(--gold-light);
+      display: block;
+      line-height: 1;
+      margin-bottom: 6px;
+    }
+
+    .stat-callout .stat-label {
+      color: var(--text);
+      font-size: 0.95rem;
+    }
+
+    /* ── PRACTICAL TAKEAWAY BOX ── */
+    .takeaway-box {
+      background: rgba(76, 175, 130, 0.08);
+      border: 1px solid var(--green);
+      border-radius: 10px;
+      padding: 24px 28px;
+      margin: 32px 0;
+    }
+
+    .takeaway-box .takeaway-label {
+      font-size: 0.72rem;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--green);
+      margin-bottom: 10px;
+    }
+
+    .takeaway-box p { margin-bottom: 0; color: var(--text); }
+    .takeaway-box ul { padding-left: 18px; color: var(--text); }
+    .takeaway-box li { margin-bottom: 8px; }
+
+    /* ── AFFILIATE BOX ── */
+    .affiliate-box {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 28px;
+      margin: 40px 0;
+      display: flex;
+      gap: 24px;
+      align-items: flex-start;
+    }
+
+    .affiliate-icon {
+      font-size: 2.5rem;
+      flex-shrink: 0;
+      line-height: 1;
+    }
+
+    .affiliate-body { flex: 1; }
+
+    .affiliate-label {
+      font-size: 0.7rem;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 6px;
+    }
+
+    .affiliate-title {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: var(--white);
+      margin-bottom: 8px;
+    }
+
+    .affiliate-desc {
+      color: var(--muted);
+      font-size: 0.9rem;
+      margin-bottom: 16px;
+    }
+
+    .btn-gold {
+      display: inline-block;
+      background: var(--gold);
+      color: var(--night);
+      font-weight: 600;
+      font-size: 0.875rem;
+      padding: 10px 22px;
+      border-radius: 6px;
+      text-decoration: none;
+      transition: background 0.2s;
+    }
+
+    .btn-gold:hover { background: var(--gold-light); text-decoration: none; }
+
+    /* ── SHIFT COMPARISON ── */
+    .shift-comparison {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      overflow: hidden;
+      margin: 36px 0;
+    }
+
+    .shift-comparison-header {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .shift-col-head {
+      padding: 16px 20px;
+      font-weight: 600;
+      font-size: 0.9rem;
+      text-align: center;
+    }
+
+    .shift-col-head.unopt {
+      background: rgba(220,80,80,0.1);
+      color: #E57373;
+      border-right: 1px solid var(--border);
+    }
+
+    .shift-col-head.opt {
+      background: rgba(76,175,130,0.1);
+      color: var(--green);
+    }
+
+    .shift-comparison-body {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+    }
+
+    .shift-col {
+      padding: 0;
+    }
+
+    .shift-col:first-child {
+      border-right: 1px solid var(--border);
+    }
+
+    .shift-row {
+      display: contents;
+    }
+
+    .shift-cell {
+      padding: 12px 20px;
+      font-size: 0.875rem;
+      border-bottom: 1px solid rgba(37,45,69,0.5);
+      display: flex;
+      gap: 10px;
+      align-items: flex-start;
+    }
+
+    .shift-cell:last-child { border-bottom: none; }
+
+    .time-label {
+      color: var(--muted);
+      font-size: 0.75rem;
+      font-weight: 600;
+      white-space: nowrap;
+      min-width: 72px;
+      padding-top: 2px;
+    }
+
+    .shift-cell.bad { color: #EF9A9A; }
+    .shift-cell.good { color: #A5D6A7; }
+
+    .shift-comparison-caption {
+      padding: 12px 20px;
+      font-size: 0.8rem;
+      color: var(--muted);
+      text-align: center;
+      border-top: 1px solid var(--border);
+      font-style: italic;
+    }
+
+    /* ── LIGHT PROTOCOL ── */
+    .protocol-steps {
+      margin: 28px 0;
+      display: flex;
+      flex-direction: column;
+      gap: 0;
+    }
+
+    .protocol-step {
+      display: flex;
+      gap: 16px;
+      align-items: flex-start;
+      padding: 18px 20px;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 0;
+      position: relative;
+    }
+
+    .protocol-step:first-child { border-radius: 10px 10px 0 0; }
+    .protocol-step:last-child { border-radius: 0 0 10px 10px; }
+    .protocol-step + .protocol-step { border-top: none; }
+
+    .protocol-step-icon {
+      font-size: 1.4rem;
+      flex-shrink: 0;
+      line-height: 1.2;
+    }
+
+    .protocol-step-body { flex: 1; }
+
+    .protocol-step-phase {
+      font-size: 0.7rem;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 4px;
+    }
+
+    .protocol-step-title {
+      color: var(--white);
+      font-weight: 600;
+      margin-bottom: 4px;
+      font-size: 0.95rem;
+    }
+
+    .protocol-step-desc {
+      color: var(--muted);
+      font-size: 0.87rem;
+      line-height: 1.5;
+    }
+
+    /* ── STRATEGY CARDS ── */
+    .strategy-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 16px;
+      margin: 28px 0;
+    }
+
+    @media (max-width: 600px) {
+      .strategy-grid { grid-template-columns: 1fr; }
+      .affiliate-box { flex-direction: column; }
+      .shift-comparison-header, .shift-comparison-body { grid-template-columns: 1fr; }
+      .shift-col:first-child { border-right: none; border-bottom: 1px solid var(--border); }
+    }
+
+    .strategy-card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 20px;
+    }
+
+    .strategy-num {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 2rem;
+      font-weight: 700;
+      color: var(--gold-dim);
+      line-height: 1;
+      margin-bottom: 8px;
+    }
+
+    .strategy-title {
+      color: var(--white);
+      font-weight: 600;
+      margin-bottom: 8px;
+      font-size: 1rem;
+    }
+
+    .strategy-desc {
+      color: var(--muted);
+      font-size: 0.875rem;
+      line-height: 1.55;
+    }
+
+    /* ── WARNING BOX ── */
+    .warning-box {
+      background: rgba(220,80,80,0.07);
+      border: 1px solid rgba(220,80,80,0.35);
+      border-radius: 10px;
+      padding: 20px 24px;
+      margin: 28px 0;
+      color: #EF9A9A;
+      font-size: 0.92rem;
+    }
+
+    .warning-box strong { color: #EF9A9A; }
+
+    /* ── FOOTER ── */
+    .site-footer {
+      background: var(--deep);
+      border-top: 1px solid var(--border);
+      padding: 40px 24px;
+      text-align: center;
+    }
+
+    .footer-logo {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.3rem;
+      font-weight: 700;
+      color: var(--white);
+      margin-bottom: 10px;
+    }
+
+    .footer-logo span { color: var(--gold); }
+
+    .footer-note {
+      color: var(--muted);
+      font-size: 0.8rem;
+      max-width: 560px;
+      margin: 0 auto;
+      line-height: 1.6;
+    }
+  </style>
+</head>
+<body>
+
+<!-- ── HEADER ── -->
+<header class="site-header">
+  <a href="/" class="logo">SleepWise<span>Reviews</span></a>
+  <nav>
+    <ul class="nav-links">
+      <li><a href="/">Home</a></li>
+      <li><a href="/posts">Articles</a></li>
+      <li><a href="/reviews">Reviews</a></li>
+    </ul>
+  </nav>
+</header>
+
+<!-- ── HERO ── -->
+<section class="hero">
+  <div class="badge">Shift Work</div>
+  <h1>The Night Shift Sleep Optimization Guide</h1>
+  <p class="hero-meta">📅 July 2022 · ⏱ 9 min read · 🔄 Updated Mar 2026</p>
+  <p class="hero-hook">
+    Night shift workers have a 29% higher cardiovascular risk than day workers — but the right sleep strategy closes most of that gap. The enemy isn't the shift itself: it's the chronic circadian misalignment that comes from doing it wrong.
+  </p>
+</section>
+
+<!-- ── CONTENT ── -->
+<main class="content-wrap">
+
+  <p>
+    Millions of people work overnight shifts in healthcare, logistics, manufacturing, and emergency services. They keep the world running. And for decades, we told them to just "sleep when you can." That advice — well-intentioned as it was — turns out to be quietly catastrophic for long-term health. The science of circadian biology has rewritten what we know, and what night shift workers actually need is not more sleep, but <strong>smarter sleep</strong>.
+  </p>
+
+  <p>
+    Satchin Panda's landmark research in <em>The Circadian Code</em> makes the critical distinction clear: it is <strong>circadian misalignment</strong> — not sleep deprivation alone — that drives the metabolic and cardiovascular risk in shift workers (Panda, 2019). Workers who align their eating windows and light exposure patterns to their actual sleep schedule fare significantly better than those who simply try to log enough hours. This changes everything about how we should approach shift work.
+  </p>
+
+  <div class="stat-callout">
+    <span class="stat-number">29%</span>
+    <span class="stat-label">Higher cardiovascular risk in night shift workers vs. day workers — largely driven by circadian misalignment, not hours worked.</span>
+  </div>
+
+  <h2>Your Body's Clock Doesn't Know What Shift You're On</h2>
+
+  <p>
+    The human circadian system is anchored primarily by <strong>light</strong>. Photoreceptor cells in your retina — separate from those used for vision — detect blue-spectrum light and send a direct signal to the suprachiasmatic nucleus (SCN) in the hypothalamus, which functions as the master clock. That clock then synchronizes every organ system in your body: when to release cortisol, when to digest food efficiently, when to lower core temperature for sleep, when to release melatonin.
+  </p>
+
+  <p>
+    When you work nights and then walk home in morning sunlight, your master clock receives exactly the signal it uses to say "it's morning, be awake." No matter how exhausted you are, that light exposure starts a biological countdown that will fight your attempt to sleep. This is the fundamental problem — and it's why you can't simply "power through" and adapt without a structured approach.
+  </p>
+
+  <h2>Permanent Nights vs. Rotating Shifts: Not the Same Problem</h2>
+
+  <p>
+    Before optimizing your strategy, understand which situation you're in — they require different approaches.
+  </p>
+
+  <p>
+    <strong>Permanent night shifts</strong> (same schedule every week) are physiologically easier to adapt to. Your body can gradually shift its circadian rhythm by 1–2 hours per day with the right light management. Within 2–3 weeks of consistent behavior, your SCN can re-anchor to a nocturnal schedule. Night workers who maintain their inverted schedule <em>even on days off</em> achieve near-complete adaptation and show dramatically reduced health risks.
+  </p>
+
+  <p>
+    <strong>Rotating shifts</strong> (changing between day, evening, and night rotations weekly or bi-weekly) are the hardest. The body needs about 2 weeks to fully shift its circadian rhythm — and a rotating schedule never allows that. You are, by design, in a state of perpetual jet lag. The strategies below still apply, but the goal shifts from full adaptation to damage mitigation and maximizing quality of individual sleep windows.
+  </p>
+
+  <hr class="divider" />
+
+  <h2>The 5-Strategy Framework</h2>
+
+  <h3>Strategy 1: Light Management — Your Most Powerful Tool</h3>
+
+  <p>
+    Light is the single most powerful lever for shifting your circadian clock. Used correctly, it accelerates adaptation and dramatically improves sleep quality. Used incorrectly (specifically, morning sun exposure during your commute home), it locks you into misalignment no matter how many other things you do right.
+  </p>
+
+  <p>
+    The protocol is precise: during your shift — especially the first half — maximize bright light exposure. Use overhead lighting, a desk lamp pointed toward you, or a dedicated 10,000-lux light therapy box during your break. This is the signal that tells your SCN "this is my active day." When your shift ends, the light protocol reverses entirely. Put on wrap-around amber or dark sunglasses before you step outside. Keep them on for the drive or commute home. Once home, keep lights dim. Your bedroom must achieve complete blackout — not "pretty dark," but zero-light-through-curtains blackout. Blackout curtains, blackout blinds, and a sleep mask together.
+  </p>
+
+  <div class="takeaway-box">
+    <div class="takeaway-label">Practical Takeaway — Light Protocol</div>
+    <ul>
+      <li>First half of shift: bright light (overhead + desk lamp or light therapy box)</li>
+      <li>Last 2 hours of shift: begin dimming exposure if possible</li>
+      <li>Commute home: amber/dark wrap-around sunglasses — always</li>
+      <li>Bedroom: complete blackout (curtains + mask) + cool temperature (66–68°F)</li>
+      <li>On days off: maintain the same light schedule to preserve your adaptation</li>
+    </ul>
+  </div>
+
+  <h3>Strategy 2: The Sleep Window — Consistency Is the Entire Game</h3>
+
+  <p>
+    The most destructive thing a night shift worker can do is sleep at different times depending on what's happening socially. Your circadian clock cannot adapt to a moving target. Set a consistent sleep window and protect it like a standing appointment. For most night shift workers, this is roughly 8am–4pm or 9am–5pm — immediately after shift, before the afternoon light and noise peak.
+  </p>
+
+  <p>
+    On your days off, the rule is a maximum drift of <strong>plus or minus one hour</strong> from your regular sleep time. Every hour you drift toward sleeping at "normal" hours resets a portion of your circadian adaptation. This is the hardest part socially — but it is non-negotiable for genuine health protection.
+  </p>
+
+  <h3>Strategy 3: The Eating Window — The Underrated Variable</h3>
+
+  <p>
+    Panda's research has revealed a second circadian synchronizer nearly as powerful as light: food timing (Panda, 2019). Every major organ — liver, pancreas, gut — has its own peripheral clock that responds to meal timing. When you eat during your <strong>biological night</strong> (roughly midnight to 6am, even if you're awake and working), you force your organ clocks to operate out of phase with your master clock. The result is impaired glucose metabolism, elevated triglycerides, and increased inflammatory markers — independent of what you eat.
+  </p>
+
+  <p>
+    The practical solution is to align your eating window with your adapted "day." For a permanent night worker, this means eating during the shift — ideally in a compressed 8–10 hour window during your waking hours — and not eating again after returning home and before sleeping. A small, light meal at shift start is fine. A large meal at the end of a shift followed by attempting to sleep amplifies digestive load at exactly the wrong time.
+  </p>
+
+  <div class="takeaway-box">
+    <div class="takeaway-label">Practical Takeaway — Eating Window</div>
+    <p>Compress your meals into the first 8–10 hours of your waking window (your shift hours). Avoid eating in the 2 hours before your sleep window. Do not eat at "normal" social mealtimes when you're a night worker — this is one of the key drivers of metabolic dysregulation.</p>
+  </div>
+
+  <h3>Strategy 4: Strategic Napping — Anchor Before, Not After</h3>
+
+  <p>
+    Most night shift workers rely on post-shift sleep as their primary rest. This is correct — but an anchor nap before your shift adds substantial resilience without requiring extra total sleep time. A 90-minute nap taken 2–3 hours before your shift starts captures one full sleep cycle (including slow-wave sleep) and substantially reduces shift-time sleepiness and cognitive errors compared to no nap or irregular napping.
+  </p>
+
+  <p>
+    Avoid napping within 90 minutes of your main sleep window — this degrades deep sleep quality by reducing sleep pressure. A 20-minute power nap mid-shift (if your workplace allows it) is also effective for alertness during the final hours.
+  </p>
+
+  <h3>Strategy 5: Melatonin Timing — Less Is More, But Timing Is Everything</h3>
+
+  <p>
+    Melatonin is not a sedative — it is a timing signal. Its function is to tell your SCN what time it perceives to be, not to force you to sleep. This means the dose is less important than when you take it. For night shift workers, <strong>0.5mg of melatonin taken 30 minutes before your intended sleep time</strong> — whatever time that is in your shifted schedule — helps reinforce the circadian signal without the grogginess associated with higher doses (3mg+).
+  </p>
+
+  <p>
+    Do not take melatonin at "normal" bedtime as a convenience. Take it 30 minutes before your actual shifted sleep window. This is the one case where melatonin use is genuinely evidence-supported rather than placebo-adjacent.
+  </p>
+
+  <hr class="divider" />
+
+  <!-- ── VISUAL COMPONENT 1: SHIFT COMPARISON ── -->
+  <h2>Unoptimized vs. Optimized: A Day in the Life</h2>
+
+  <p>Below is a side-by-side timeline comparison for a nurse working 11pm–7am. The left column shows the common unoptimized pattern; the right shows the same schedule applied strategically.</p>
+
+  <div class="shift-comparison">
+    <div class="shift-comparison-header">
+      <div class="shift-col-head unopt">❌ Unoptimized Schedule</div>
+      <div class="shift-col-head opt">✅ Optimized Schedule</div>
+    </div>
+    <div class="shift-comparison-body">
+      <div class="shift-col">
+        <div class="shift-cell bad"><span class="time-label">10:30pm</span>Arrives at work groggy, no nap, ate a full meal at 9pm</div>
+        <div class="shift-cell bad"><span class="time-label">12am–3am</span>Dim overhead ward lighting all night, no desk light</div>
+        <div class="shift-cell bad"><span class="time-label">3am</span>Vending machine snack, high-carb, caffeinated drink</div>
+        <div class="shift-cell bad"><span class="time-label">6:30am</span>Walks to car without sunglasses, full morning sun exposure</div>
+        <div class="shift-cell bad"><span class="time-label">7:30am</span>Gets home, eats breakfast with family at "normal" time</div>
+        <div class="shift-cell bad"><span class="time-label">9am</span>Tries to sleep with thin curtains, road noise, phone on</div>
+        <div class="shift-cell bad"><span class="time-label">1pm</span>Woken by noise/light, only 4 hrs sleep, gives up</div>
+        <div class="shift-cell bad"><span class="time-label">3pm–10pm</span>Day off: sleeps at normal times, social dinners, alcohol</div>
+      </div>
+      <div class="shift-col">
+        <div class="shift-cell good"><span class="time-label">8:30pm</span>90-min anchor nap before shift; wakes at 10:15pm refreshed</div>
+        <div class="shift-cell good"><span class="time-label">11pm–3am</span>Bright overhead + personal desk lamp during active hours</div>
+        <div class="shift-cell good"><span class="time-label">1am</span>Shift meal: moderate protein + complex carbs (eating window open)</div>
+        <div class="shift-cell good"><span class="time-label">6:30am</span>Puts on amber wrap sunglasses before leaving building</div>
+        <div class="shift-cell good"><span class="time-label">7:30am</span>Home: dim lights, 0.5mg melatonin, no food, blackout bedroom</div>
+        <div class="shift-cell good"><span class="time-label">8am</span>Asleep: blackout curtains + sleep mask, white noise, 66°F</div>
+        <div class="shift-cell good"><span class="time-label">3:30pm</span>Wakes naturally after 7.5 hrs; eating window re-opens</div>
+        <div class="shift-cell good"><span class="time-label">Days off</span>Maintains sleep window ±1 hr; same light protocol preserved</div>
+      </div>
+    </div>
+    <div class="shift-comparison-caption">Timeline: 11pm–7am shift. Both schedules have the same hours — only the behavioral choices differ.</div>
+  </div>
+
+  <!-- ── VISUAL COMPONENT 2: LIGHT PROTOCOL ── -->
+  <h2>The Light Management Protocol</h2>
+
+  <p>Light management is not a single behavior — it is a four-phase protocol that spans your entire shifted day. Each phase serves a distinct circadian purpose.</p>
+
+  <div class="protocol-steps">
+    <div class="protocol-step">
+      <div class="protocol-step-icon">💡</div>
+      <div class="protocol-step-body">
+        <div class="protocol-step-phase">Phase 1 — During Shift (11pm–5am)</div>
+        <div class="protocol-step-title">Maximize bright light exposure</div>
+        <div class="protocol-step-desc">Use overhead lighting at full intensity. Add a personal 5,000–10,000 lux daylight lamp at your workstation during the first 4–5 hours. This is the strongest zeitgeber (time-cue) for anchoring your circadian rhythm to your active hours.</div>
+      </div>
+    </div>
+    <div class="protocol-step">
+      <div class="protocol-step-icon">🕶️</div>
+      <div class="protocol-step-body">
+        <div class="protocol-step-phase">Phase 2 — End of Shift &amp; Commute Home (6am–8am)</div>
+        <div class="protocol-step-title">Block all morning sunlight</div>
+        <div class="protocol-step-desc">Put on amber or dark wrap-around sunglasses before stepping outside. Keep them on for the entire commute. Morning sun — even 10 minutes of it — is enough to delay melatonin onset and reduce subsequent sleep depth by up to 40 minutes.</div>
+      </div>
+    </div>
+    <div class="protocol-step">
+      <div class="protocol-step-icon">🌑</div>
+      <div class="protocol-step-body">
+        <div class="protocol-step-phase">Phase 3 — Sleep Window (8am–3:30pm)</div>
+        <div class="protocol-step-title">Complete blackout environment</div>
+        <div class="protocol-step-desc">Blackout curtains (installed, not draped) + a contoured sleep mask. Even 1–2 lux of light through eyelids is detectable by photoreceptors and disrupts slow-wave sleep architecture. Add a white noise machine or ear plugs to manage daytime sound intrusion.</div>
+      </div>
+    </div>
+    <div class="protocol-step">
+      <div class="protocol-step-icon">🌅</div>
+      <div class="protocol-step-body">
+        <div class="protocol-step-phase">Phase 4 — Pre-Shift Preparation (4pm–8:30pm)</div>
+        <div class="protocol-step-title">Strategic afternoon light exposure</div>
+        <div class="protocol-step-desc">After waking, get 20–30 minutes of natural or bright artificial light in the late afternoon. This serves a dual purpose: it signals wakefulness for your upcoming shift and reinforces the circadian boundary between your "day" (post-wake) and your "night" (during sleep window).</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ── AFFILIATE BOX ── -->
+  <div class="affiliate-box">
+    <div class="affiliate-icon">😴</div>
+    <div class="affiliate-body">
+      <div class="affiliate-label">Editor's Pick · Sleep Gear for Shift Workers</div>
+      <div class="affiliate-title">Manta Sleep Mask PRO</div>
+      <p class="affiliate-desc">
+        For night shift workers, a contoured sleep mask is non-negotiable. The Manta PRO's zero-pressure eye cups sit away from your eyelids entirely — no contact, no pressure, no light. The adjustable head strap stays put even if you're a restless sleeper. This is the mask we recommend because daytime sleep environments are rarely perfect, and a good mask covers what blackout curtains miss.
+      </p>
+      <a href="https://www.amazon.com/dp/B07Y1MWL1M?tag=sleepwiserevi-20" class="btn-gold" target="_blank" rel="noopener">View on Amazon →</a>
+    </div>
+  </div>
+
+  <hr class="divider" />
+
+  <h2>What Doesn't Work (And Why People Keep Trying It)</h2>
+
+  <div class="warning-box">
+    <strong>Irregular shift patterns:</strong> If your schedule rotates frequently, your body never reaches circadian adaptation. Each rotation resets 5–10 days of progress. You cannot "adapt" to a rotating schedule — only mitigate it.
+  </div>
+
+  <p>
+    <strong>Sleeping whenever you feel tired, regardless of time.</strong> This feels intuitive but produces wildly inconsistent circadian signals. Your body cannot anchor its rhythm to a chaotic sleep schedule any more than it could set a clock without a consistent reference point.
+  </p>
+
+  <p>
+    <strong>Social eating at "normal" mealtimes.</strong> The most socially comfortable pattern — sharing dinner with family at 7pm, eating breakfast with your partner before bed — is also one of the most metabolically damaging choices for a night worker. The circadian mismatch between your eating schedule and your adapted sleep schedule directly impairs insulin sensitivity and lipid processing.
+  </p>
+
+  <p>
+    <strong>High-dose melatonin.</strong> The 5mg and 10mg doses widely sold at pharmacies are pharmacological doses with no additional benefit for circadian timing versus 0.5mg — and they produce significant next-cycle grogginess. More is not better; timing is what matters.
+  </p>
+
+  <hr class="divider" />
+
+  <h2>Managing Your Social Life Without Destroying Your Sleep</h2>
+
+  <p>
+    The biggest practical barrier to night shift optimization is not scientific — it is social. Family meals, weekend plans, morning appointments, and the social fabric of "normal" schedules all pull against your adapted circadian rhythm.
+  </p>
+
+  <p>
+    The sustainable approach is <strong>planned flexibility</strong>, not rigidity. Identify 1–2 days per month where you allow a larger circadian drift for a social event — and plan the recovery. If you know you'll be at a family gathering Saturday afternoon, adjust your pre-event sleep window, keep the light protocol, and schedule a recovery day Sunday where you return strictly to your usual window.
+  </p>
+
+  <p>
+    Communicating with family members about your sleep schedule as a health necessity — not a preference — also changes the dynamic. Night shift workers who have household support for their sleep window report significantly better sleep quality and lower rates of burnout.
+  </p>
+
+  <hr class="divider" />
+
+  <h2>Health Monitoring Specific to Shift Workers</h2>
+
+  <p>
+    The elevated cardiovascular and metabolic risk in shift workers is real — but it is not inevitable with proper strategy. Beyond behavioral optimization, two proactive monitoring steps matter:
+  </p>
+
+  <p>
+    <strong>Annual cardiovascular screening:</strong> Request a full lipid panel and fasting glucose at your yearly checkup. Shift workers should track these longitudinally — small trends over 3–5 years are more informative than a single reading. Discuss your work schedule with your physician explicitly; many primary care providers don't factor shift work into cardiovascular risk assessment without prompting.
+  </p>
+
+  <p>
+    <strong>Vitamin D:</strong> Day workers synthesize vitamin D from sun exposure throughout the morning and afternoon. Night shift workers — who sleep during these hours — are consistently deficient. A simple blood test reveals your level; supplementation of 1,000–2,000 IU daily is low-risk and addresses a near-universal deficiency in this population.
+  </p>
+
+  <div class="takeaway-box">
+    <div class="takeaway-label">5-Point Action Plan — Start Here</div>
+    <ul>
+      <li><strong>This week:</strong> Order blackout curtains and wrap-around sunglasses — these have the highest immediate impact</li>
+      <li><strong>Next shift:</strong> Implement the light protocol — bright early, blocked for commute home</li>
+      <li><strong>This week:</strong> Set a consistent sleep window and protect it, including on days off (±1 hr maximum)</li>
+      <li><strong>Immediately:</strong> Move eating out of your biological night; compress to an 8–10 hr window during waking hours</li>
+      <li><strong>Next appointment:</strong> Tell your doctor you work nights and request a lipid panel + vitamin D level</li>
+    </ul>
+  </div>
+
+  <h2>The Bottom Line</h2>
+
+  <p>
+    Working nights is not inherently catastrophic for your health. The research is clear: it is <em>how you sleep</em> around your shift — not the shift itself — that determines your long-term risk profile. Circadian misalignment is the enemy. Light management, eating window alignment, sleep consistency, strategic napping, and precise melatonin timing are not minor lifestyle tweaks. They are, collectively, the difference between a career in shift work that breaks your health and one that doesn't.
+  </p>
+
+  <p>
+    The strategies are demanding precisely because they work against social norms. But the tradeoff — substantially reduced cardiovascular and metabolic risk, better mood, better cognitive performance during your shifts — is quantifiable and documented (Panda, 2019). The night shift doesn't have to cost you your health. It just requires a different playbook.
+  </p>
+
+  <hr class="divider" />
+
+  <p style="color: var(--muted); font-size: 0.85rem;">
+    <em>Reference: Panda, S. (2019). <strong>The Circadian Code</strong>. Rodale Books. Affiliate disclosure: Links marked with our tag may earn a small commission at no extra cost to you. All product recommendations are independent editorial choices.</em>
+  </p>
+
+</main>
+
+<!-- ── FOOTER ── -->
+<footer class="site-footer">
+  <div class="footer-logo">SleepWise<span>Reviews</span></div>
+  <p class="footer-note">
+    Evidence-based sleep research, translated into practical guidance. SleepWiseReviews participates in the Amazon Services LLC Associates Program. Content is for informational purposes only and does not constitute medical advice.
+  </p>
+</footer>
+
+</body>
+</html>
