@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PTSD and Sleep: Breaking the Nighttime Trauma Cycle - SleepWiseReviews</title>
+  <meta name="description" content="PTSD disrupts REM sleep in a specific and measurable way — it's the reason nightmares keep recurring with the same themes rather than fading over time. Understanding this mechanism is the first step to breaking the cycle." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <style type='text/css'>
+    :root {
+      --night: #0A0E1A;
+      --deep: #0F1525;
+      --navy: #141B30;
+      --card: #1A2238;
+      --border: #252D45;
+      --gold: #C9A84C;
+      --gold-light: #E5C96A;
+      --gold-dim: rgba(201, 168, 76, 0.15);
+      --star: #F0E6C8;
+      --text: #D4DCEE;
+      --muted: #7A85A0;
+      --white: #FFFFFF;
+      --green: #4CAF82;
+    }
+
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: 'Outfit', sans-serif;
+      background: var(--night);
+      color: var(--text);
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      background-image:
+        radial-gradient(1px 1px at 10% 15%, rgba(240, 230, 200, 0.6) 0%, transparent 100%),
+        radial-gradient(1px 1px at 25% 40%, rgba(240, 230, 200, 0.4) 0%, transparent 100%),
+        radial-gradient(1.5px 1.5px at 40% 10%, rgba(240, 230, 200, 0.5) 0%, transparent 100%),
+        radial-gradient(1px 1px at 55% 30%, rgba(240, 230, 200, 0.3) 0%, transparent 100%),
+        radial-gradient(1px 1px at 70% 5%, rgba(240, 230, 200, 0.6) 0%, transparent 100%),
+        radial-gradient(1.5px 1.5px at 80% 20%, rgba(240, 230, 200, 0.4) 0%, transparent 100%),
+        radial-gradient(1px 1px at 90% 45%, rgba(240, 230, 200, 0.3) 0%, transparent 100%);
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    nav {
+      position: sticky; top: 0; z-index: 100;
+      background: rgba(10, 14, 26, 0.92);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+      padding: 0 6%; height: 68px;
+      display: flex; align-items: center; justify-content: space-between;
+    }
+    .logo { font-family: 'Cormorant Garamond', serif; font-size: 1.6rem; font-weight: 700; color: var(--star); text-decoration: none; }
+    .logo span { color: var(--gold); }
+    .nav-links { display: flex; gap: 2rem; list-style: none; }
+    .nav-links a { text-decoration: none; color: var(--muted); font-size: 0.88rem; font-weight: 500; transition: color 0.2s; }
+    .nav-links a:hover { color: var(--gold); }
+    .nav-cta { background: var(--gold-dim); color: var(--gold) !important; border: 1px solid rgba(201, 168, 76, 0.3); padding: 7px 16px; border-radius: 4px; }
+
+    .article-wrapper {
+      position: relative; z-index: 1;
+      max-width: 800px; margin: 0 auto; padding: 50px 6% 80px;
+    }
+    .article-meta-top { display: flex; flex-wrap: wrap; align-items: center; gap: 0.8rem; margin-bottom: 1.2rem; }
+    .tag { background: var(--gold); color: var(--night); padding: 5px 12px; border-radius: 4px; font-size: 0.72rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; }
+    .meta-text { color: var(--muted); font-size: 0.82rem; }
+    .article-wrapper h1 { font-family: 'Cormorant Garamond', serif; font-size: 2.4rem; font-weight: 600; color: var(--star); line-height: 1.2; margin-bottom: 1.2rem; }
+    .article-intro { font-size: 1.1rem; color: var(--text); line-height: 1.7; margin-bottom: 2rem; font-weight: 300; }
+    .author-box { display: flex; align-items: center; gap: 1rem; margin-bottom: 1.5rem; padding: 1rem; background: var(--card); border-radius: 8px; border: 1px solid var(--border); }
+    .author-avatar { font-size: 2.5rem; }
+    .author-name { color: var(--star); font-weight: 500; }
+    .author-name a { color: var(--gold); text-decoration: none; }
+    .author-role { color: var(--muted); font-size: 0.82rem; }
+    .disclosure-box { background: rgba(201, 168, 76, 0.08); border: 1px solid rgba(201, 168, 76, 0.2); border-radius: 8px; padding: 1rem 1.2rem; font-size: 0.82rem; color: var(--muted); margin-bottom: 2rem; }
+    .article-wrapper h2 { font-family: 'Cormorant Garamond', serif; font-size: 1.6rem; font-weight: 600; color: var(--star); margin: 2.5rem 0 1rem; padding-top: 1rem; }
+    .article-wrapper h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.2rem; color: var(--star); margin: 1.5rem 0 0.8rem; }
+    .article-wrapper p { margin-bottom: 1rem; font-weight: 300; line-height: 1.8; }
+    .article-wrapper ul, .article-wrapper ol { margin: 1rem 0 1.5rem 1.5rem; }
+    .article-wrapper li { margin-bottom: 0.5rem; font-weight: 300; }
+    .callout { background: var(--card); border-left: 3px solid var(--gold); padding: 1rem 1.5rem; margin: 1.5rem 0; border-radius: 0 8px 8px 0; font-size: 0.92rem; }
+    .callout-green { background: var(--card); border-left: 3px solid var(--green); padding: 1rem 1.5rem; margin: 1.5rem 0; border-radius: 0 8px 8px 0; font-size: 0.92rem; }
+
+    .product-cta { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 1.5rem; margin: 2rem 0; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; }
+    .product-cta-text { color: var(--star); font-weight: 500; }
+    .btn-amazon { background: var(--gold); color: var(--night); text-decoration: none; padding: 10px 20px; border-radius: 6px; font-weight: 600; font-size: 0.88rem; transition: background 0.2s; }
+    .btn-amazon:hover { background: var(--gold-light); }
+
+    .article-cta { background: linear-gradient(135deg, var(--card), var(--navy)); border: 1px solid var(--border); border-radius: 12px; padding: 2rem; text-align: center; margin: 3rem 0; }
+    .article-cta h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.4rem; color: var(--star); margin-bottom: 0.8rem; }
+    .article-cta p { color: var(--muted); margin-bottom: 1.2rem; }
+
+    .related-articles { margin: 3rem 0; }
+    .related-articles h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.3rem; color: var(--star); margin-bottom: 1rem; }
+    .related-articles ul { list-style: none; margin: 0; }
+    .related-articles li { margin-bottom: 0.6rem; }
+    .related-articles a { color: var(--gold); text-decoration: none; font-size: 0.95rem; }
+    .related-articles a:hover { text-decoration: underline; }
+
+    footer { background: #060912; border-top: 1px solid var(--border); padding: 50px 6% 30px; }
+    .footer-top { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 3rem; margin-bottom: 3rem; padding-bottom: 3rem; border-bottom: 1px solid var(--border); }
+    .footer-brand p { color: var(--muted); font-size: 0.82rem; margin-top: 0.8rem; line-height: 1.6; font-weight: 300; max-width: 260px; }
+    .footer-col h4 { font-size: 0.78rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--gold); margin-bottom: 1rem; }
+    .footer-col ul { list-style: none; display: flex; flex-direction: column; gap: 0.6rem; }
+    .footer-col a { color: var(--muted); text-decoration: none; font-size: 0.85rem; transition: color 0.2s; }
+    .footer-col a:hover { color: var(--gold); }
+    .footer-bottom { display: flex; justify-content: space-between; font-size: 0.78rem; color: var(--muted); flex-wrap: wrap; gap: 0.5rem; }
+    .affiliate-disc { font-size: 0.75rem; max-width: 600px; }
+
+    @media (max-width: 900px) {
+      .nav-links { display: none; }
+      .article-wrapper h1 { font-size: 1.8rem; }
+      .footer-top { grid-template-columns: 1fr 1fr; }
+      .product-cta { flex-direction: column; text-align: center; }
+    }
+  </style>
+</head>
+
+<body>
+  <nav>
+    <a class="logo" href="../">SleepWise<span>Reviews</span></a>
+    <ul class="nav-links">
+      <li><a href="../#picks">Top Picks</a></li>
+      <li><a href="../#reviews">Reviews</a></li>
+      <li><a href="../pages/about.html">About Harry</a></li>
+      <li><a href="../#newsletter" class="nav-cta">Free Sleep Guide</a></li>
+    </ul>
+  </nav>
+
+  <article class="article-wrapper">
+    <div class="article-meta-top">
+      <span class="tag">Sleep Science</span>
+      <span class="meta-text">📅 June 2025</span>
+      <span class="meta-text">·</span>
+      <span class="meta-text">⏱ 9 min read</span>
+      <span class="meta-text">·</span>
+      <span class="meta-text">🔄 Updated Mar 2026</span>
+    </div>
+    <h1>PTSD and Sleep: Breaking the Nighttime Trauma Cycle</h1>
+    <p class="article-intro">PTSD disrupts REM sleep in a specific and measurable way — it's the reason nightmares keep recurring with the same themes rather than fading over time. Understanding this mechanism is the first step to breaking the cycle.</p>
+
+    <div class="author-box">
+      <div class="author-avatar">😴</div>
+      <div class="author-info">
+        <div class="author-name">By <a href="../pages/about.html">Harry Soul</a> - SleepWiseReviews</div>
+        <div class="author-role">Independent Sleep Researcher - June 2025</div>
+      </div>
+    </div>
+
+    <div class="disclosure-box">
+      <strong>Affiliate Disclosure:</strong> This article contains affiliate links. We earn a small commission if you purchase through our links at no extra cost to you. <a href="../pages/affiliate-disclosure.html" style="color:var(--gold)">Full disclosure</a>
+    </div>
+
+    <h2>How PTSD Hijacks REM Sleep</h2>
+    <p>Under normal conditions, REM sleep is the brain's emotional first-aid station. During this stage, the hippocampus replays emotionally charged memories while the amygdala — the brain's threat-detection centre — operates in an environment of dramatically reduced norepinephrine. That chemical quiet is not incidental. As Matthew Walker explains in <em>Why We Sleep</em> (Walker, 2017), the brain uses this low-norepinephrine window to strip the emotional charge from difficult memories: you re-experience the content of an event without re-experiencing the full intensity of the original fear response. Over time, the memory is filed away as information, not as ongoing threat.</p>
+    <p>In PTSD, this mechanism breaks down at a precise point. Norepinephrine levels during REM sleep remain abnormally elevated — a consequence of the hyperarousal state that defines the disorder. The brain keeps attempting to process the traumatic memory during REM, but because the emotional buffer never fully engages, the fear response is not extinguished. Instead of filing the event away as "past," the brain keeps it flagged as "active danger." This is why trauma nightmares tend to be re-enactments rather than the fragmentary, emotionally diffuse imagery of normal REM dreams. The memory is being replayed with its threat valence intact.</p>
+    <p>The implications are significant. It is not that PTSD sufferers dream more — they are actually getting less restorative REM sleep, because the processing function that REM is supposed to perform never completes. Each night's attempt stalls in the same place, and the nightmare cycle begins again the following night.</p>
+
+    <h2>The Nightmare Cycle: Why the Same Themes Keep Returning</h2>
+    <p>Trauma nightmares are one of the most diagnostically distinctive features of PTSD, and their mechanics reveal a great deal about what is going wrong during sleep. In healthy REM sleep, emotional memories are gradually transformed — each time they are replayed, a little more of the distress is processed and reduced. The brain is literally doing emotional work while you sleep. With repeated exposure across multiple nights, the memory becomes less vivid, less threatening, less insistent.</p>
+    <p>In PTSD, this desensitisation process is interrupted. Because norepinephrine remains elevated, the amygdala stays in a hypervigilant state throughout REM, keeping the brain primed for threat. The traumatic memory is retrieved, but the conditions needed to reprocess it are absent. The brain abandons the attempt — often jarring the person awake — and on the next sleep cycle, or the next night, it tries again from the beginning. This is why trauma nightmares are so specifically recurrent: they are not random distressing dreams, they are repeated failed attempts at emotional processing, stuck at the same point in the same memory.</p>
+    <p>Several studies have documented that people with PTSD experience more frequent and more intense REM arousals than trauma-exposed individuals without PTSD. These arousals prevent the completion of individual REM cycles, fragmenting the architecture of the night and reducing the total amount of restorative slow-wave sleep as well. The result is a nervous system that enters each new day already primed for threat, making it harder to feel safe, harder to concentrate, and harder to fall asleep the following night — feeding directly back into the cycle.</p>
+
+    <div class="callout">💡 <strong>Key insight:</strong> PTSD does not simply cause bad dreams — it specifically disrupts the REM function that would normally resolve them. Standard sleep hygiene advice assumes a brain that can process emotional content during REM. For PTSD sufferers, that assumption does not hold, which is why general advice so often fails.</div>
+
+    <h2>Why Standard Sleep Hygiene Isn't Enough</h2>
+    <p>Sleep hygiene advice — consistent sleep schedules, cool dark rooms, limiting screens — is genuinely useful for the majority of sleep problems. But it is built on an implicit assumption: that the sleeping brain is capable of doing its job if given the right conditions. For PTSD, that assumption fails at a neurochemical level. The elevated norepinephrine that characterises the hyperarousal state does not yield to dimmed lights and a fixed bedtime. The threat detection system that keeps the amygdala on high alert overnight is not reset by a sleep mask and chamomile tea.</p>
+    <p>This matters because many PTSD sufferers are given standard sleep hygiene advice by well-meaning healthcare providers, follow it conscientiously, and then feel even more defeated when it does not work. The problem is not compliance. The problem is that the advice is targeted at a different kind of sleep disturbance. PTSD sleep disruption is neurochemically distinct, and it requires interventions that address the specific mechanisms involved — not just the environmental conditions around sleep.</p>
+    <p>What makes PTSD-related sleep particularly insidious is the feedback loop it creates. Poor sleep impairs prefrontal cortex regulation of the amygdala, making trauma responses harder to modulate during the day. Daytime hyperarousal and emotional reactivity then make it harder to fall asleep at night. The sleep disruption does not simply accompany PTSD — it actively perpetuates it, which is why sleep-specific treatment is increasingly recognised as a core component of trauma care rather than an afterthought.</p>
+
+    <h2>Evidence-Based Approaches to PTSD Sleep Disruption</h2>
+    <p>The evidence base for PTSD-specific sleep interventions has grown substantially in the past decade, and several approaches have demonstrated meaningful results in clinical trials.</p>
+
+    <h3>Prazosin for Nightmare Reduction</h3>
+    <p>Prazosin is an alpha-1 adrenergic receptor blocker originally developed for blood pressure management. Its use in PTSD sleep disruption is based on a direct pharmacological rationale: by blocking norepinephrine receptors, it reduces the elevated adrenergic tone during REM sleep that prevents normal emotional processing. Multiple randomised controlled trials, including several conducted with combat veterans, have demonstrated that prazosin significantly reduces trauma nightmare frequency and intensity and improves overall sleep quality. It is currently the most pharmacologically targeted intervention available for PTSD sleep disruption and warrants discussion with a prescribing physician for those with moderate to severe nightmare burden.</p>
+
+    <h3>Image Rehearsal Therapy</h3>
+    <p>Image Rehearsal Therapy (IRT) is a cognitive-behavioural technique developed specifically for recurrent nightmares. During waking hours, the person writes out the nightmare, then deliberately changes any element of the dream — the setting, the outcome, a character — and rehearses the new version repeatedly. The technique works by engaging the voluntary, prefrontal-mediated narrative system to create a competing memory trace. Over time, the brain begins retrieving the rehearsed version rather than the original trauma replay during REM. IRT has strong evidence from clinical trials in both combat PTSD and sexual trauma populations, and it does not require medication or a therapist in all cases — guided self-help versions have shown efficacy in research settings.</p>
+
+    <h3>EMDR and Trauma Processing</h3>
+    <p>Eye Movement Desensitisation and Reprocessing (EMDR) is a trauma therapy with a substantial evidence base, and there is growing evidence that part of its mechanism involves facilitating the same emotional memory processing that healthy REM sleep is supposed to perform. Bilateral stimulation during EMDR — typically eye movements, but also alternating tones or taps — appears to reduce amygdala activation while the traumatic memory is accessed, mimicking some aspects of the neurochemical environment of healthy REM. For people whose sleep disruption is so severe that REM-based processing cannot occur naturally, EMDR may provide an awake alternative to the processing that sleep cannot complete.</p>
+
+    <h3>Cognitive Behavioural Therapy for Insomnia (CBT-I)</h3>
+    <p>CBT-I has a robust evidence base for primary insomnia, and adapted versions have shown promise in PTSD populations. While it does not directly address the neurochemical disruption of REM, it targets the behavioural and cognitive patterns — hypervigilance at bedtime, catastrophic thoughts about sleep, extended time in bed — that compound PTSD-related sleep difficulties. Clinical guidelines increasingly recommend CBT-I as a concurrent treatment alongside trauma-focused therapy rather than waiting for PTSD symptoms to resolve before addressing sleep.</p>
+
+    <div class="callout" style="border-left:3px solid var(--gold)">💡 <strong>The treatment sequence matters:</strong> There is ongoing debate in the clinical literature about whether to treat PTSD or insomnia first. Emerging evidence suggests treating them concurrently produces better outcomes than sequential treatment — and that improving sleep first may actually accelerate trauma processing during therapy sessions by restoring some of the prefrontal regulation that PTSD erodes.</div>
+
+    <h2>Creating a Sleep Environment That Reduces Hypervigilance</h2>
+    <p>For PTSD sufferers, the bedroom itself can become a source of threat cues. Darkness and silence — conditions that most sleep guidance promotes — can amplify hypervigilance rather than reduce it. Darkness removes visual information about the environment, which can increase alertness in a threat-primed nervous system. Silence allows every ambient sound to become a potential alarm signal, triggering micro-arousals that prevent the deeper stages of sleep from establishing.</p>
+    <p>This is where environmental interventions that would be optional for most people become genuinely therapeutic for PTSD populations. Soft, consistent lighting — a dim warm light rather than complete darkness — gives the visual system enough information to prevent the scanning and alerting that total darkness can provoke. A low-level night light in the room is not a sign of weakness; for a hypervigilant nervous system it can be the difference between falling asleep and lying awake in a threat-monitoring state.</p>
+    <p>Auditory masking is similarly important. The goal is not silence but auditory predictability — a consistent sound floor that prevents individual environmental sounds from standing out as potential threats. White noise or pink noise at a moderate and consistent volume achieves this by raising the threshold that an environmental sound needs to exceed before the auditory cortex flags it as noteworthy. Studies of noise-sensitive populations, including those with hyperacusis and trauma-related hyperarousal, have found that continuous broadband noise reduces overnight arousal frequency more effectively than silence.</p>
+
+    <div class="callout-green" style="border-left:3px solid var(--green)">💚 <strong>Tonight's action:</strong> Use a white noise machine at a consistent volume (around 65 dB) to reduce the hypervigilance that keeps PTSD sufferers in light sleep. Consistent auditory masking can reduce the number of threatening sounds that trigger arousals.</div>
+
+    <div class="product-cta">
+      <span class="product-cta-text">Looking for a white noise machine to reduce hypervigilance overnight?</span>
+      <a class="btn-amazon" href="https://www.amazon.com/s?k=white+noise+machine+for+sleep&tag=sleepwiserevi-20" target="_blank" rel="noopener nofollow">Shop White Noise Machines on Amazon</a>
+    </div>
+
+    <h2>The Role of Sleep in PTSD Recovery</h2>
+    <p>One of the most important recent shifts in clinical thinking about PTSD is recognising sleep not as a symptom to manage but as a target for active treatment. This distinction matters practically. If disrupted sleep is merely a side effect of PTSD that will resolve once the "real" disorder is treated, then it can be deprioritised. If disrupted sleep is an active mechanism that perpetuates PTSD — by preventing the REM processing that would reduce trauma memory intensity, and by degrading the prefrontal regulation that would modulate daytime hyperarousal — then treating sleep becomes urgent rather than optional.</p>
+    <p>The research supports the second position. Studies tracking PTSD sufferers longitudinally have found that sleep quality at the outset of trauma-focused therapy predicts treatment outcomes: those with more severely disrupted sleep at baseline show slower rates of symptom reduction during therapy. Conversely, interventions that improve sleep quality — including prazosin and IRT — have been associated with improvements in daytime PTSD symptoms beyond what would be expected from sleep improvement alone, suggesting that restored REM processing contributes to the emotional work that therapy is trying to accomplish.</p>
+    <p>This does not mean sleep treatment can replace trauma therapy. But it does mean that any treatment plan for PTSD that does not explicitly address sleep is leaving a significant lever unpulled. For the estimated 70–90% of PTSD sufferers who report significant sleep disturbance, sleep is not background noise — it is a primary site of the disorder's perpetuation, and a genuine target for recovery.</p>
+
+    <h2>Building a Sustainable Nighttime Routine With PTSD</h2>
+    <p>The practical challenge for PTSD sufferers is that many of the standard markers of a good bedtime routine — winding down, reducing stimulation, preparing for sleep — can feel unsafe rather than soothing to a hypervigilant nervous system. Slowing down can feel like letting your guard down. Quiet can feel like exposure. The goal of nighttime routine for PTSD should therefore be not to impose calm but to create predictability — a structured, repeatable sequence that the nervous system can learn to associate with safety rather than threat.</p>
+    <p>Predictability is the operative word. The amygdala flags novelty and unpredictability as potential threats. A consistent pre-sleep sequence — same activities, same order, same environmental cues — gives the threat-detection system less to evaluate. Over time, the routine itself becomes a safety signal. This is not a quick fix; it takes weeks of consistent repetition. But it is one of the few interventions that works with the PTSD brain's threat-detection architecture rather than trying to override it.</p>
+    <p>Grounding techniques — focusing on physical sensations to anchor attention in the present moment rather than in trauma memories — are well-documented in trauma therapy and can be adapted for the pre-sleep period. A body scan starting from the feet, progressive muscle relaxation, or slow deliberate breathing all engage the parasympathetic nervous system and can help shift the arousal state downward before attempting sleep. None of these will resolve PTSD sleep disruption on their own, but they can reduce the time spent in the hypervigilant state at the start of the night, which is when many PTSD sufferers report the greatest difficulty.</p>
+    <p>The path through PTSD-related sleep disruption is not a single intervention but a layered one: addressing the neurochemical disruption where possible, rebuilding safe sleep behaviours and environments, and supporting the underlying trauma processing that will ultimately allow the nighttime cycle to resolve. Sleep is not just a casualty of trauma. Treated properly, it is also one of the most powerful tools for recovering from it.</p>
+
+    <div class="article-cta">
+      <h3>Get Our Free 7-Day Sleep Reset</h3>
+      <p>Join 18,000 readers who get weekly sleep tips and honest product reviews every Sunday.</p>
+      <a class="btn-amazon" href="../#newsletter">Subscribe Free</a>
+    </div>
+
+    <div class="related-articles">
+      <h3>Related Articles</h3>
+      <ul>
+        <li><a href="adenosine-sleep-drive.html">Adenosine: The Sleep Molecule That Makes You Tired</a></li>
+        <li><a href="sleep-stages-explained.html">Understanding Sleep Stages: A Complete Guide to Your Sleep Cycle</a></li>
+        <li><a href="aging-and-sleep.html">Aging and Sleep: Why Your Sleep Changes After 40</a></li>
+        <li><a href="30-day-sleep-challenge.html">The 30-Day Sleep Challenge: A Science-Backed Reset Plan</a></li>
+      </ul>
+    </div>
+  </article>
+
+  <footer>
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a class="logo" href="../">SleepWise<span>Reviews</span></a>
+        <p>Honest, science-backed reviews to help you sleep deeper, recover faster, and wake up energized.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Reviews</h4>
+        <ul>
+          <li><a href="https://www.amazon.com/s?k=weighted+blanket&tag=sleepwiserevi-20" target="_blank">Weighted Blankets</a></li>
+          <li><a href="https://www.amazon.com/s?k=white+noise+machine+for+sleep&tag=sleepwiserevi-20" target="_blank">White Noise Machines</a></li>
+          <li><a href="https://www.amazon.com/s?k=sleep+supplements&tag=sleepwiserevi-20" target="_blank">Supplements</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Guides</h4>
+        <ul>
+          <li><a href="../#picks">Sleep Optimization</a></li>
+          <li><a href="../#reviews">Bedtime Routines</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Site</h4>
+        <ul>
+          <li><a href="../pages/about.html">About Harry Soul</a></li>
+          <li><a href="../pages/privacy-policy.html">Privacy Policy</a></li>
+          <li><a href="../pages/affiliate-disclosure.html">Affiliate Disclosure</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div>© 2025 SleepWiseReviews. All rights reserved.</div>
+      <div class="affiliate-disc">SleepWiseReviews is a participant in the Amazon Services LLC Associates Program.</div>
+    </div>
+  </footer>
+</body>
+</html>
