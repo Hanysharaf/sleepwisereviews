@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>How Altitude Affects Your Sleep (And What Actually Helps) - SleepWiseReviews</title>
+  <meta name="description" content="At 8,000 feet your oxygen saturation drops enough to fragment deep sleep significantly. Here is what altitude does to your sleep architecture and what actually helps you recover faster." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <style type='text/css'>
+    :root {
+      --night: #0A0E1A;
+      --deep: #0F1525;
+      --navy: #141B30;
+      --card: #1A2238;
+      --border: #252D45;
+      --gold: #C9A84C;
+      --gold-light: #E5C96A;
+      --gold-dim: rgba(201, 168, 76, 0.15);
+      --star: #F0E6C8;
+      --text: #D4DCEE;
+      --muted: #7A85A0;
+      --white: #FFFFFF;
+      --green: #4CAF82;
+    }
+
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: 'Outfit', sans-serif;
+      background: var(--night);
+      color: var(--text);
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      background-image:
+        radial-gradient(1px 1px at 10% 15%, rgba(240, 230, 200, 0.6) 0%, transparent 100%),
+        radial-gradient(1px 1px at 25% 40%, rgba(240, 230, 200, 0.4) 0%, transparent 100%),
+        radial-gradient(1.5px 1.5px at 40% 10%, rgba(240, 230, 200, 0.5) 0%, transparent 100%),
+        radial-gradient(1px 1px at 55% 30%, rgba(240, 230, 200, 0.3) 0%, transparent 100%),
+        radial-gradient(1px 1px at 70% 5%, rgba(240, 230, 200, 0.6) 0%, transparent 100%),
+        radial-gradient(1.5px 1.5px at 80% 20%, rgba(240, 230, 200, 0.4) 0%, transparent 100%),
+        radial-gradient(1px 1px at 90% 45%, rgba(240, 230, 200, 0.3) 0%, transparent 100%);
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    nav {
+      position: sticky; top: 0; z-index: 100;
+      background: rgba(10, 14, 26, 0.92);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+      padding: 0 6%; height: 68px;
+      display: flex; align-items: center; justify-content: space-between;
+    }
+    .logo { font-family: 'Cormorant Garamond', serif; font-size: 1.6rem; font-weight: 700; color: var(--star); text-decoration: none; }
+    .logo span { color: var(--gold); }
+    .nav-links { display: flex; gap: 2rem; list-style: none; }
+    .nav-links a { text-decoration: none; color: var(--muted); font-size: 0.88rem; font-weight: 500; transition: color 0.2s; }
+    .nav-links a:hover { color: var(--gold); }
+    .nav-cta { background: var(--gold-dim); color: var(--gold) !important; border: 1px solid rgba(201, 168, 76, 0.3); padding: 7px 16px; border-radius: 4px; }
+
+    .article-wrapper {
+      position: relative; z-index: 1;
+      max-width: 800px; margin: 0 auto; padding: 50px 6% 80px;
+    }
+    .article-meta-top { display: flex; flex-wrap: wrap; align-items: center; gap: 0.8rem; margin-bottom: 1.2rem; }
+    .tag { background: var(--gold); color: var(--night); padding: 5px 12px; border-radius: 4px; font-size: 0.72rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; }
+    .meta-text { color: var(--muted); font-size: 0.82rem; }
+    .article-wrapper h1 { font-family: 'Cormorant Garamond', serif; font-size: 2.4rem; font-weight: 600; color: var(--star); line-height: 1.2; margin-bottom: 1.2rem; }
+    .article-intro { font-size: 1.1rem; color: var(--text); line-height: 1.7; margin-bottom: 2rem; font-weight: 300; }
+    .author-box { display: flex; align-items: center; gap: 1rem; margin-bottom: 1.5rem; padding: 1rem; background: var(--card); border-radius: 8px; border: 1px solid var(--border); }
+    .author-avatar { font-size: 2.5rem; }
+    .author-name { color: var(--star); font-weight: 500; }
+    .author-name a { color: var(--gold); text-decoration: none; }
+    .author-role { color: var(--muted); font-size: 0.82rem; }
+    .disclosure-box { background: rgba(201, 168, 76, 0.08); border: 1px solid rgba(201, 168, 76, 0.2); border-radius: 8px; padding: 1rem 1.2rem; font-size: 0.82rem; color: var(--muted); margin-bottom: 2rem; }
+    .article-wrapper h2 { font-family: 'Cormorant Garamond', serif; font-size: 1.6rem; font-weight: 600; color: var(--star); margin: 2.5rem 0 1rem; padding-top: 1rem; }
+    .article-wrapper h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.2rem; color: var(--star); margin: 1.5rem 0 0.8rem; }
+    .article-wrapper p { margin-bottom: 1rem; font-weight: 300; line-height: 1.8; }
+    .article-wrapper ul, .article-wrapper ol { margin: 1rem 0 1.5rem 1.5rem; }
+    .article-wrapper li { margin-bottom: 0.5rem; font-weight: 300; }
+
+    .callout { background: var(--card); border-left: 3px solid var(--gold); padding: 1rem 1.5rem; margin: 1.5rem 0; border-radius: 0 8px 8px 0; font-size: 0.92rem; }
+    .callout strong { color: var(--gold); }
+
+    .stat-row { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 1rem; margin: 1.5rem 0; }
+    .stat-card { background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 1.2rem; text-align: center; }
+    .stat-card .stat-num { font-family: 'Cormorant Garamond', serif; font-size: 2rem; color: var(--gold); font-weight: 700; }
+    .stat-card .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem; }
+
+    .timeline { margin: 1.5rem 0; border-left: 2px solid var(--border); padding-left: 1.5rem; }
+    .timeline-item { margin-bottom: 1.5rem; position: relative; }
+    .timeline-item::before { content: ''; position: absolute; left: -1.75rem; top: 0.4rem; width: 10px; height: 10px; border-radius: 50%; background: var(--gold); border: 2px solid var(--night); }
+    .timeline-night { font-family: 'Cormorant Garamond', serif; font-size: 1rem; color: var(--gold); font-weight: 600; margin-bottom: 0.3rem; }
+    .timeline-item p { margin: 0; font-size: 0.92rem; }
+
+    .myth-box { background: rgba(201, 168, 76, 0.06); border: 1px solid rgba(201, 168, 76, 0.2); border-radius: 10px; padding: 1.2rem 1.5rem; margin: 1.5rem 0; }
+    .myth-box .myth-label { font-size: 0.72rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; color: var(--gold); margin-bottom: 0.5rem; }
+    .myth-box p { margin: 0; font-size: 0.92rem; }
+
+    .product-cta { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 1.5rem; margin: 2rem 0; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; }
+    .product-cta-text { color: var(--star); font-weight: 500; }
+    .product-cta-sub { color: var(--muted); font-size: 0.82rem; margin-top: 0.2rem; }
+    .btn-amazon { background: var(--gold); color: var(--night); text-decoration: none; padding: 10px 20px; border-radius: 6px; font-weight: 600; font-size: 0.88rem; transition: background 0.2s; white-space: nowrap; }
+    .btn-amazon:hover { background: var(--gold-light); }
+
+    .article-cta { background: linear-gradient(135deg, var(--card), var(--navy)); border: 1px solid var(--border); border-radius: 12px; padding: 2rem; text-align: center; margin: 3rem 0; }
+    .article-cta h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.4rem; color: var(--star); margin-bottom: 0.8rem; }
+    .article-cta p { color: var(--muted); margin-bottom: 1.2rem; }
+
+    .related-articles { margin: 3rem 0; }
+    .related-articles h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.3rem; color: var(--star); margin-bottom: 1rem; }
+    .related-articles ul { list-style: none; margin: 0; }
+    .related-articles li { margin-bottom: 0.6rem; }
+    .related-articles a { color: var(--gold); text-decoration: none; font-size: 0.95rem; }
+    .related-articles a:hover { text-decoration: underline; }
+
+    footer { background: #060912; border-top: 1px solid var(--border); padding: 50px 6% 30px; }
+    .footer-top { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 3rem; margin-bottom: 3rem; padding-bottom: 3rem; border-bottom: 1px solid var(--border); }
+    .footer-brand p { color: var(--muted); font-size: 0.82rem; margin-top: 0.8rem; line-height: 1.6; font-weight: 300; max-width: 260px; }
+    .footer-col h4 { font-size: 0.78rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--gold); margin-bottom: 1rem; }
+    .footer-col ul { list-style: none; display: flex; flex-direction: column; gap: 0.6rem; }
+    .footer-col a { color: var(--muted); text-decoration: none; font-size: 0.85rem; transition: color 0.2s; }
+    .footer-col a:hover { color: var(--gold); }
+    .footer-bottom { display: flex; justify-content: space-between; font-size: 0.78rem; color: var(--muted); flex-wrap: wrap; gap: 0.5rem; }
+    .affiliate-disc { font-size: 0.75rem; max-width: 600px; }
+
+    @media (max-width: 900px) {
+      .nav-links { display: none; }
+      .article-wrapper h1 { font-size: 1.8rem; }
+      .footer-top { grid-template-columns: 1fr 1fr; }
+      .product-cta { flex-direction: column; text-align: center; }
+      .stat-row { grid-template-columns: 1fr 1fr; }
+    }
+  </style>
+</head>
+
+<body>
+  <nav>
+    <a class="logo" href="../">SleepWise<span>Reviews</span></a>
+    <ul class="nav-links">
+      <li><a href="../#picks">Top Picks</a></li>
+      <li><a href="../#reviews">Reviews</a></li>
+      <li><a href="../pages/about.html">About Harry</a></li>
+      <li><a href="../#newsletter" class="nav-cta">Free Sleep Guide</a></li>
+    </ul>
+  </nav>
+
+  <article class="article-wrapper">
+    <div class="article-meta-top">
+      <span class="tag">Sleep Science</span>
+      <span class="meta-text">📅 August 2025 · ⏱ 7 min read · 🔄 Updated Mar 2026</span>
+    </div>
+    <h1>How Altitude Affects Your Sleep (And What Actually Helps)</h1>
+    <p class="article-intro">At 8,000 feet, your oxygen saturation drops enough to fragment your deep sleep significantly. The result is that you can wake up from 9 hours of altitude sleep feeling worse than after 6 hours at sea level.</p>
+
+    <div class="author-box">
+      <div class="author-avatar">🏔️</div>
+      <div class="author-info">
+        <div class="author-name">By <a href="../pages/about.html">Harry Soul</a> - SleepWiseReviews</div>
+        <div class="author-role">Independent Sleep Researcher — August 2025</div>
+      </div>
+    </div>
+
+    <div class="disclosure-box">
+      <strong>Affiliate Disclosure:</strong> This article contains affiliate links. We earn a small commission if you purchase through our links at no extra cost to you. <a href="../pages/affiliate-disclosure.html" style="color:var(--gold)">Full disclosure</a>
+    </div>
+
+    <h2>What Altitude Does to Oxygen and Your Sleep Architecture</h2>
+    <p>Sleep is not a passive state. It is a precisely orchestrated physiological process that depends on stable oxygen delivery to the brain. When you ascend to altitude, the air around you contains the same proportion of oxygen — approximately 21% — but the barometric pressure drops, meaning each breath delivers fewer oxygen molecules with every inhale. At 8,000 feet (about 2,400 metres), the partial pressure of oxygen is roughly 25% lower than at sea level. Your blood oxygen saturation, which typically hovers around 97–99% at sea level, can fall to 90–92% at this elevation — sometimes lower during the physiological dip of deep sleep.</p>
+    <p>This matters enormously for sleep because your brain is the most oxygen-hungry organ in your body. It accounts for approximately 20% of your resting oxygen consumption despite being only 2% of your body weight. When oxygen delivery becomes marginal, the brain's sleep-regulation machinery prioritises the same survival hierarchy it always does: basic arousal and wakefulness over the luxury of deep, restorative sleep stages. As David K. Randall documents in <em>Dreamland</em> (Randall, 2012), sleep is not merely rest but an active biological process — one that is exquisitely sensitive to disruptions in the physiological conditions that support it. Altitude is one of the most abrupt and underappreciated of those disruptions.</p>
+    <p>The specific damage altitude inflicts on sleep architecture falls into two categories. First, it suppresses slow-wave sleep (SWS) — the deepest, most physically restorative stage — because the brain cannot maintain the metabolic stability required for sustained slow oscillations when oxygen is scarce. Second, it dramatically increases nighttime arousals, fragmenting sleep into shallow, non-restorative cycles even when your watch says you slept for eight hours.</p>
+
+    <div class="stat-row">
+      <div class="stat-card">
+        <div class="stat-num">25%</div>
+        <div class="stat-label">reduction in oxygen partial pressure at 8,000 ft vs. sea level</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-num">90–92%</div>
+        <div class="stat-label">typical SpO2 at 8,000 ft (vs. 97–99% at sea level)</div>
+      </div>
+      <div class="stat-card">
+        <div class="stat-num">2–3</div>
+        <div class="stat-label">nights for most people to see initial sleep improvement at altitude</div>
+      </div>
+    </div>
+
+    <h2>Periodic Breathing and Cheyne-Stokes Respiration: Why You Wake Gasping</h2>
+    <p>The most disruptive — and alarming — feature of altitude-disturbed sleep is a phenomenon called periodic breathing, with its severe form known as Cheyne-Stokes respiration. It affects a significant portion of people sleeping above 8,000 feet and is the direct cause of the abrupt, breathless awakenings that characterise altitude nights.</p>
+    <p>Here is the mechanism. As you fall asleep at altitude, your already-low blood oxygen continues to dip. Your body's chemoreceptors — the sensors that monitor CO2 and oxygen levels in the blood — detect this and trigger a burst of rapid, deep breathing to compensate. This hyperventilation successfully raises your oxygen, but it overshoots in the opposite direction: it drives down CO2 below the threshold needed to sustain the breathing drive. Your breathing then slows, then pauses altogether in an apnoeic episode that can last 10–15 seconds. Oxygen drops again. Chemoreceptors fire. Rapid breathing resumes. The cycle repeats every 30–60 seconds throughout the night.</p>
+    <p>The result is a kind of biological oscillation — a respiratory rhythm that your body cannot stabilise — with each apnoeic pause typically triggering an arousal, often experienced as a sudden gasp or jolt of wakefulness. Most people do not remember these awakenings in the morning, which is precisely why altitude sleep feels so non-restorative: you wake exhausted without an obvious explanation.</p>
+
+    <div class="callout">
+      💡 <strong>Why periodic breathing is not sleep apnoea:</strong> Central periodic breathing at altitude shares surface features with obstructive sleep apnoea — both involve breathing pauses and arousals — but the mechanism is entirely different. Altitude periodic breathing is driven by CO2 instability in a healthy respiratory system, not by airway obstruction. It resolves as you acclimatise. If you already have diagnosed obstructive sleep apnoea, altitude will significantly worsen your symptoms and you should consult a physician before sleeping at high elevation.
+    </div>
+
+    <p>Cheyne-Stokes respiration is the severe end of this spectrum, named after the two physicians who first described the waxing-and-waning respiratory pattern in the 1800s. At extreme altitudes — above 12,000 feet — nearly everyone experiences some degree of Cheyne-Stokes. But the milder form of altitude periodic breathing begins significantly lower, and 8,000 feet is well within the range where it disrupts sleep for unacclimatised visitors.</p>
+
+    <h2>The Acclimatisation Timeline: When Does Sleep Improve?</h2>
+    <p>The good news is that the human body is remarkably adaptable, and the sleep disruption caused by altitude is not permanent. The acclimatisation process involves a cascade of physiological changes that progressively restore sleep quality — though the timeline is longer than most people expect and is rarely straightforward.</p>
+
+    <div class="timeline">
+      <div class="timeline-item">
+        <div class="timeline-night">Night 1–2: The Worst of It</div>
+        <p>Sleep is most disrupted during the first two nights. Periodic breathing is at its most frequent. Slow-wave sleep is maximally suppressed. Many people experience headache, mild nausea, and a sense of fatigue that is disproportionate to activity level. This is not a sign that something is wrong — it is the expected response of an unacclimatised body.</p>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-night">Night 3–5: Early Adaptation</div>
+        <p>The kidneys begin excreting bicarbonate to compensate for the respiratory alkalosis caused by hyperventilation, partially restoring the CO2 balance that drives stable breathing. Periodic breathing frequency decreases. Sleep quality begins to improve, though it remains below sea-level baseline. The most acute symptoms typically resolve in this window.</p>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-night">Night 6–14: Functional Acclimatisation</div>
+        <p>Red blood cell production increases in response to sustained hypoxic signalling, raising the oxygen-carrying capacity of the blood. Haemoglobin releases oxygen more readily at the tissue level. Most people reach functional sleep quality — not quite sea-level depth, but restorative enough — within this window. Athletes and those seeking true performance adaptation may require four to six weeks at altitude for full haematological acclimatisation.</p>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-night">Beyond 2 Weeks: Full Adaptation</div>
+        <p>With continued residence, the body's compensatory mechanisms are well established. Resting SpO2 stabilises at a higher level than the first nights. Sleep architecture normalises significantly. Periodic breathing may persist in a mild form at extreme altitudes indefinitely, but at moderate elevations (8,000–10,000 feet), most acclimatised individuals sleep comparably to sea level.</p>
+      </div>
+    </div>
+
+    <div class="myth-box">
+      <div class="myth-label">The Myth of "Sleeping It Off"</div>
+      <p>Many altitude newcomers assume that if they just get enough total hours of sleep, they will feel recovered — and then are surprised when nine hours leaves them more exhausted than six hours at home. Total sleep time is not the relevant metric at altitude. What matters is sleep architecture — the proportion of deep, slow-wave sleep and the degree of fragmentation. At high elevation, the architecture is compressed regardless of duration. Planning for quantity will not compensate for the quality deficit that only acclimatisation resolves.</p>
+    </div>
+
+    <h2>Practical Strategies for Better Sleep at High Altitude</h2>
+    <p>While acclimatisation is the only complete solution, several evidence-informed strategies meaningfully reduce the severity of altitude sleep disruption during the first critical nights — the period when most travellers, skiers, and trekkers are actually at elevation.</p>
+
+    <h3>Ascent Rate Is the Most Powerful Lever</h3>
+    <p>If your travel plan allows any flexibility, the most effective intervention is gradual ascent. The standard guideline from altitude medicine — ascend no more than 1,000 feet (300 metres) of sleeping altitude per day above 8,000 feet — gives the body time to begin acclimatisation before the next elevation increment. Even one acclimatisation day at an intermediate altitude before ascending to your destination meaningfully reduces periodic breathing frequency on the subsequent nights. For ski resorts and mountain destinations with road access, arriving one day earlier and sleeping one altitude tier lower is often feasible and pays significant dividends in sleep quality.</p>
+
+    <h3>Acetazolamide (Diamox): What the Evidence Shows</h3>
+    <p>Acetazolamide is a carbonic anhydrase inhibitor that accelerates the renal bicarbonate excretion that normally takes three to five days to occur naturally. By speeding this chemical correction, it stabilises the CO2 balance and reduces periodic breathing frequency substantially — typically reducing altitude-related sleep disruption by 50–70% in the first two nights. It is prescription-only in most countries and carries its own side effects, including increased urinary frequency, tingling in the extremities, and altered taste of carbonated drinks. A physician consultation before high-altitude travel is the appropriate path, but for those with a history of significant altitude sleep disruption, it is worth discussing.</p>
+
+    <h3>Sleep Position and Environmental Factors</h3>
+    <p>Sleeping at a slight incline — head elevated 15–20 degrees — reduces the severity of periodic breathing by shifting respiratory mechanics in a direction that favours airway stability. This is the same principle behind positional therapy for mild sleep apnoea. A travel pillow that maintains head elevation during the night accomplishes this without requiring a hospital bed. Additionally, keeping your sleeping environment slightly warmer than you might at sea level counteracts the heat loss associated with lower air pressure, which otherwise promotes peripheral vasoconstriction that can exacerbate oxygen distribution inefficiency.</p>
+
+    <h3>Hydration and Alcohol: The Two Variables Most People Get Wrong</h3>
+    <p>Altitude increases insensible water loss significantly through two mechanisms: lower humidity at elevation, and increased respiratory rate, which expels more water vapour with each breath. Mild dehydration compounds altitude symptoms and degrades sleep quality independently. The target is urine that is pale yellow, not clear. Electrolyte supplementation helps retain the fluid you drink rather than excreting it immediately.</p>
+    <p>Alcohol's effect at altitude is particularly damaging to sleep. At sea level, alcohol suppresses REM sleep and worsens sleep architecture. At altitude, it adds an additional layer of respiratory depression — slowing the breathing drive that is already struggling to maintain oxygen stability. Even two drinks at altitude can significantly worsen periodic breathing frequency and the depth of oxygen desaturation overnight. The first acclimatisation nights are the worst possible time to drink alcohol, yet they frequently coincide with the social first nights of a ski trip or mountain holiday.</p>
+
+    <div class="callout" style="border-left:3px solid var(--green)">💚 <strong>Tonight's action:</strong> If you're sleeping at altitude above 8,000 feet, plan for your first 2-3 nights to be poor. Hydrate aggressively (altitude increases respiratory water loss), avoid alcohol entirely, and sleep with your room slightly warmer than usual to offset the body heat loss from lower air pressure.</div>
+
+    <h3>Sleep Masks and Light Management at Altitude</h3>
+    <p>Mountain environments present a specific light challenge that compounds altitude sleep disruption. Thin atmosphere at elevation transmits more UV radiation, and early morning light — amplified by snow reflection at ski destinations — can advance your circadian phase and drive early awakening on top of the fragmented night already caused by periodic breathing. A high-quality, well-fitted sleep mask eliminates this morning light intrusion and preserves the later sleep stages where much of the restorative repair from the previous night's disruption would otherwise occur.</p>
+    <p>For travel to mountain destinations, a contoured sleep mask that does not press on the eyes is preferable to flat-foam versions — both for comfort during the head-elevated sleeping position and because contoured designs seal better against ambient light in unfamiliar rooms where blackout curtains may be absent or inadequate.</p>
+
+    <div class="product-cta">
+      <div>
+        <div class="product-cta-text">Travel Sleep Mask — Essential for Mountain Destinations</div>
+        <div class="product-cta-sub">Block early mountain light and protect your remaining deep sleep stages after disrupted altitude nights</div>
+      </div>
+      <a class="btn-amazon" href="https://www.amazon.com/s?k=travel+sleep+mask+eye+mask&tag=sleepwiserevi-20" target="_blank" rel="noopener nofollow">Shop Sleep Masks</a>
+    </div>
+
+    <h2>What the Research and Literature Actually Say</h2>
+    <p>The science of altitude sleep disruption is well-established in sports medicine and altitude physiology literature, but it rarely makes its way into mainstream sleep advice. As Randall notes in <em>Dreamland</em> (Randall, 2012), the conditions required for restorative sleep are far more specific than most people appreciate — and altitude represents one of the clearest natural experiments demonstrating just how precisely calibrated those conditions need to be. Randall documents how sleep research has progressively revealed the sensitivity of the sleeping brain to physiological perturbations that would seem minor from the outside: a few percentage points of oxygen saturation, a modest shift in CO2 balance, a handful of arousals per hour. Altitude compresses all of these variables into a single acute exposure.</p>
+    <p>Polysomnographic studies of unacclimatised subjects at simulated and actual altitude consistently show the same pattern: suppressed slow-wave sleep, increased stage 1 light sleep, higher arousal index, and reduced sleep efficiency — even when subjects report having slept for a normal number of hours. The subjective experience matches the objective data: people feel unrefreshed despite adequate sleep duration, which reinforces the fundamental lesson that quantity and quality of sleep are not interchangeable.</p>
+    <p>Research published in the journal <em>High Altitude Medicine &amp; Biology</em> has documented that supplemental oxygen — whether via concentrator, hyperbaric tent, or in hospital-grade settings — essentially eliminates altitude-related sleep disruption by restoring the oxygen availability that the lower barometric pressure removes. This finding is practically useful not because most travellers have access to supplemental oxygen, but because it confirms that the mechanism is precisely what the physiology predicts: reduced oxygen is the cause, and restoring it resolves the effect. Every practical intervention that helps — gradual ascent, acetazolamide, head elevation, hydration — works by either increasing oxygen delivery, reducing respiratory instability, or softening the downstream consequences.</p>
+
+    <h2>Athletes, Acclimatisation Camps, and the Live High, Train Low Protocol</h2>
+    <p>For endurance athletes, altitude exposure is not a problem to manage but a physiological stimulus to exploit. The "live high, train low" (LHLT) protocol — spending sleeping hours at altitude (typically 2,000–3,000 metres) while training at lower elevation — is used by elite athletes specifically because sustained altitude exposure stimulates erythropoietin (EPO) production, which drives red blood cell synthesis and ultimately improves sea-level oxygen-carrying capacity.</p>
+    <p>The sleep disruption during acclimatisation is well understood in elite sport and is managed deliberately: altitude camps typically front-load easy training days during the first acclimatisation week precisely because sleep quality is lowest then. This is a sophisticated application of the same physiology that makes the casual altitude traveller feel wrecked after their first mountain night. The difference is intentionality — elite athletes expect disrupted sleep for the first week and plan around it; most travellers do not.</p>
+    <p>If you are travelling to altitude for a multi-week stay with any fitness goals, structuring your first week as low-intensity and high-sleep-priority — rather than trying to perform at your sea-level capacity immediately — will produce significantly better outcomes in week two and beyond.</p>
+
+    <div class="article-cta">
+      <h3>Get Our Free 7-Day Sleep Environment Reset</h3>
+      <p>Join 18,000 readers who get weekly sleep science and honest product recommendations every Sunday.</p>
+      <a class="btn-amazon" href="../#newsletter">Subscribe Free</a>
+    </div>
+
+    <div class="related-articles">
+      <h3>Related Articles</h3>
+      <ul>
+        <li><a href="sleep-temperature-regulation.html">The Science of Sleep Temperature: Why Your Body Needs to Cool Down to Sleep</a></li>
+        <li><a href="business-traveler-sleep.html">The Business Traveler's Sleep Guide: Jet Lag, Hotel Rooms, and Recovery</a></li>
+        <li><a href="hydration-sleep-guide.html">Hydration and Sleep: How Much Water You Really Need Before Bed</a></li>
+        <li><a href="sleep-environment-optimization.html">How to Build the Perfect Sleep Environment from Scratch</a></li>
+      </ul>
+    </div>
+  </article>
+
+  <footer>
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a class="logo" href="../">SleepWise<span>Reviews</span></a>
+        <p>Honest, science-backed reviews to help you sleep deeper, recover faster, and wake up energized.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Reviews</h4>
+        <ul>
+          <li><a href="https://www.amazon.com/s?k=weighted+blanket&tag=sleepwiserevi-20" target="_blank">Weighted Blankets</a></li>
+          <li><a href="https://www.amazon.com/s?k=white+noise+machine&tag=sleepwiserevi-20" target="_blank">White Noise Machines</a></li>
+          <li><a href="https://www.amazon.com/s?k=sleep+supplements&tag=sleepwiserevi-20" target="_blank">Supplements</a></li>
+          <li><a href="https://www.amazon.com/s?k=travel+sleep+mask+eye+mask&tag=sleepwiserevi-20" target="_blank">Sleep Masks</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Guides</h4>
+        <ul>
+          <li><a href="../#picks">Sleep Optimization</a></li>
+          <li><a href="../#reviews">Bedtime Routines</a></li>
+          <li><a href="../#categories">Sleep Science</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Site</h4>
+        <ul>
+          <li><a href="../pages/about.html">About Harry Soul</a></li>
+          <li><a href="../pages/privacy-policy.html">Privacy Policy</a></li>
+          <li><a href="../pages/affiliate-disclosure.html">Affiliate Disclosure</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div>&copy; 2026 SleepWiseReviews. All rights reserved.</div>
+      <div class="affiliate-disc">SleepWiseReviews is a participant in the Amazon Services LLC Associates Program. As an Amazon Associate we earn from qualifying purchases.</div>
+    </div>
+  </footer>
+</body>
+</html>
