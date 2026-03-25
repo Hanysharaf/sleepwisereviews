@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Intermittent Fasting and Sleep: What the Research Shows - SleepWiseReviews</title>
+  <meta name="description" content="Eating within 3 hours of bedtime shifts your liver clock by up to 5 hours. Discover what the science says about intermittent fasting and sleep quality." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <style type='text/css'>
+    :root {
+      --night: #0A0E1A;
+      --deep: #0F1525;
+      --navy: #141B30;
+      --card: #1A2238;
+      --border: #252D45;
+      --gold: #C9A84C;
+      --gold-light: #E5C96A;
+      --gold-dim: rgba(201, 168, 76, 0.15);
+      --star: #F0E6C8;
+      --text: #D4DCEE;
+      --muted: #7A85A0;
+      --white: #FFFFFF;
+      --green: #4CAF82;
+    }
+
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: 'Outfit', sans-serif;
+      background: var(--night);
+      color: var(--text);
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      background-image:
+        radial-gradient(1px 1px at 10% 15%, rgba(240, 230, 200, 0.6) 0%, transparent 100%),
+        radial-gradient(1px 1px at 25% 40%, rgba(240, 230, 200, 0.4) 0%, transparent 100%),
+        radial-gradient(1.5px 1.5px at 40% 10%, rgba(240, 230, 200, 0.5) 0%, transparent 100%),
+        radial-gradient(1px 1px at 55% 30%, rgba(240, 230, 200, 0.3) 0%, transparent 100%),
+        radial-gradient(1px 1px at 70% 5%, rgba(240, 230, 200, 0.6) 0%, transparent 100%),
+        radial-gradient(1.5px 1.5px at 80% 20%, rgba(240, 230, 200, 0.4) 0%, transparent 100%),
+        radial-gradient(1px 1px at 90% 45%, rgba(240, 230, 200, 0.3) 0%, transparent 100%);
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    nav {
+      position: sticky; top: 0; z-index: 100;
+      background: rgba(10, 14, 26, 0.92);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+      padding: 0 6%; height: 68px;
+      display: flex; align-items: center; justify-content: space-between;
+    }
+    .logo { font-family: 'Cormorant Garamond', serif; font-size: 1.6rem; font-weight: 700; color: var(--star); text-decoration: none; }
+    .logo span { color: var(--gold); }
+    .nav-links { display: flex; gap: 2rem; list-style: none; }
+    .nav-links a { text-decoration: none; color: var(--muted); font-size: 0.88rem; font-weight: 500; transition: color 0.2s; }
+    .nav-links a:hover { color: var(--gold); }
+    .nav-cta { background: var(--gold-dim); color: var(--gold) !important; border: 1px solid rgba(201, 168, 76, 0.3); padding: 7px 16px; border-radius: 4px; }
+
+    .article-wrapper {
+      position: relative; z-index: 1;
+      max-width: 800px; margin: 0 auto; padding: 50px 6% 80px;
+    }
+    .article-meta-top { display: flex; flex-wrap: wrap; align-items: center; gap: 0.8rem; margin-bottom: 1.2rem; }
+    .tag { background: var(--gold); color: var(--night); padding: 5px 12px; border-radius: 4px; font-size: 0.72rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; }
+    .meta-text { color: var(--muted); font-size: 0.82rem; }
+    .article-wrapper h1 { font-family: 'Cormorant Garamond', serif; font-size: 2.4rem; font-weight: 600; color: var(--star); line-height: 1.2; margin-bottom: 1.2rem; }
+    .article-intro { font-size: 1.1rem; color: var(--text); line-height: 1.7; margin-bottom: 2rem; font-weight: 300; }
+    .author-box { display: flex; align-items: center; gap: 1rem; margin-bottom: 1.5rem; padding: 1rem; background: var(--card); border-radius: 8px; border: 1px solid var(--border); }
+    .author-avatar { font-size: 2.5rem; }
+    .author-name { color: var(--star); font-weight: 500; }
+    .author-name a { color: var(--gold); text-decoration: none; }
+    .author-role { color: var(--muted); font-size: 0.82rem; }
+    .disclosure-box { background: rgba(201, 168, 76, 0.08); border: 1px solid rgba(201, 168, 76, 0.2); border-radius: 8px; padding: 1rem 1.2rem; font-size: 0.82rem; color: var(--muted); margin-bottom: 2rem; }
+    .article-wrapper h2 { font-family: 'Cormorant Garamond', serif; font-size: 1.6rem; font-weight: 600; color: var(--star); margin: 2.5rem 0 1rem; padding-top: 1rem; }
+    .article-wrapper h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.2rem; color: var(--star); margin: 1.5rem 0 0.8rem; }
+    .article-wrapper p { margin-bottom: 1rem; font-weight: 300; line-height: 1.8; }
+    .article-wrapper ul, .article-wrapper ol { margin: 1rem 0 1.5rem 1.5rem; }
+    .article-wrapper li { margin-bottom: 0.5rem; font-weight: 300; }
+    .callout { background: var(--card); border-left: 3px solid var(--gold); padding: 1rem 1.5rem; margin: 1.5rem 0; border-radius: 0 8px 8px 0; font-size: 0.92rem; }
+    .callout-green { background: var(--card); border-left: 3px solid var(--green); padding: 1rem 1.5rem; margin: 1.5rem 0; border-radius: 0 8px 8px 0; font-size: 0.92rem; }
+    .callout-green strong { color: var(--green); }
+
+    .product-cta { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 1.5rem; margin: 2rem 0; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; }
+    .product-cta-text { color: var(--star); font-weight: 500; }
+    .btn-amazon { background: var(--gold); color: var(--night); text-decoration: none; padding: 10px 20px; border-radius: 6px; font-weight: 600; font-size: 0.88rem; transition: background 0.2s; }
+    .btn-amazon:hover { background: var(--gold-light); }
+
+    .article-cta { background: linear-gradient(135deg, var(--card), var(--navy)); border: 1px solid var(--border); border-radius: 12px; padding: 2rem; text-align: center; margin: 3rem 0; }
+    .article-cta h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.4rem; color: var(--star); margin-bottom: 0.8rem; }
+    .article-cta p { color: var(--muted); margin-bottom: 1.2rem; }
+
+    .related-articles { margin: 3rem 0; }
+    .related-articles h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.3rem; color: var(--star); margin-bottom: 1rem; }
+    .related-articles ul { list-style: none; margin: 0; }
+    .related-articles li { margin-bottom: 0.6rem; }
+    .related-articles a { color: var(--gold); text-decoration: none; font-size: 0.95rem; }
+    .related-articles a:hover { text-decoration: underline; }
+
+    footer { background: #060912; border-top: 1px solid var(--border); padding: 50px 6% 30px; }
+    .footer-top { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 3rem; margin-bottom: 3rem; padding-bottom: 3rem; border-bottom: 1px solid var(--border); }
+    .footer-brand p { color: var(--muted); font-size: 0.82rem; margin-top: 0.8rem; line-height: 1.6; font-weight: 300; max-width: 260px; }
+    .footer-col h4 { font-size: 0.78rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--gold); margin-bottom: 1rem; }
+    .footer-col ul { list-style: none; display: flex; flex-direction: column; gap: 0.6rem; }
+    .footer-col a { color: var(--muted); text-decoration: none; font-size: 0.85rem; transition: color 0.2s; }
+    .footer-col a:hover { color: var(--gold); }
+    .footer-bottom { display: flex; justify-content: space-between; font-size: 0.78rem; color: var(--muted); flex-wrap: wrap; gap: 0.5rem; }
+    .affiliate-disc { font-size: 0.75rem; max-width: 600px; }
+
+    @media (max-width: 900px) {
+      .nav-links { display: none; }
+      .article-wrapper h1 { font-size: 1.8rem; }
+      .footer-top { grid-template-columns: 1fr 1fr; }
+      .product-cta { flex-direction: column; text-align: center; }
+    }
+  </style>
+</head>
+
+<body>
+  <nav>
+    <a class="logo" href="../">SleepWise<span>Reviews</span></a>
+    <ul class="nav-links">
+      <li><a href="../#picks">Top Picks</a></li>
+      <li><a href="../#reviews">Reviews</a></li>
+      <li><a href="../pages/about.html">About Harry</a></li>
+      <li><a href="../#newsletter" class="nav-cta">Free Sleep Guide</a></li>
+    </ul>
+  </nav>
+
+  <article class="article-wrapper">
+    <div class="article-meta-top">
+      <span class="tag">Nutrition</span>
+      <span class="meta-text">&#128197; March 2024</span>
+      <span class="meta-text">·</span>
+      <span class="meta-text">&#9203; 8 min read</span>
+      <span class="meta-text">·</span>
+      <span class="meta-text">&#128260; Updated Mar 2026</span>
+    </div>
+    <h1>Intermittent Fasting and Sleep: What the Research Shows</h1>
+    <p class="article-intro">Eating within 3 hours of bedtime shifts your liver clock by up to 5 hours — independent of your brain clock. That single fact rewrites everything most people think they know about late-night snacking and sleep quality.</p>
+
+    <div class="author-box">
+      <div class="author-avatar">&#128564;</div>
+      <div class="author-info">
+        <div class="author-name">By <a href="../pages/about.html">Harry Soul</a> - SleepWiseReviews</div>
+        <div class="author-role">Independent Sleep Researcher - March 2024</div>
+      </div>
+    </div>
+
+    <div class="disclosure-box">
+      <strong>Affiliate Disclosure:</strong> This article contains affiliate links. We earn a small commission if you purchase through our links at no extra cost to you. <a href="../pages/affiliate-disclosure.html" style="color:var(--gold)">Full disclosure</a>
+    </div>
+
+    <h2>The Liver Clock vs. The Brain Clock</h2>
+    <p>Most people think of circadian rhythms as a single master switch — one clock governed by light that tells your whole body when to sleep and wake. The reality is far more intricate, and far more vulnerable to what you eat and when.</p>
+    <p>Your body runs on a network of clocks. There is the central pacemaker in the suprachiasmatic nucleus (SCN) of your hypothalamus — the brain clock, set by light. But every major organ also keeps its own time: your liver, pancreas, gut, heart, and muscles each contain molecular clock genes (CLOCK, BMAL1, PER1, CRY1) that drive local rhythms of metabolism, enzyme production, and cell repair.</p>
+    <p>The liver clock is especially sensitive to food. When you eat, the liver receives a nutrient signal that it interprets as a time-of-day cue. Under normal conditions, the liver clock and the brain clock are synchronized — both aligned to the same 24-hour day. But shift those meal times out of phase with the light cycle, and the clocks decouple. Your brain still says midnight; your liver thinks it is mid-afternoon.</p>
+
+    <div class="callout">
+      &#128161; <strong>Key insight:</strong> Peripheral clocks in organs like the liver are entrained primarily by food, not light. This means your eating schedule is one of the most powerful levers you have over your body's internal timing — independent of your sleep schedule.
+    </div>
+
+    <h2>Why Late Eating Shifts Metabolic Clocks Independently of Light</h2>
+    <p>In a landmark series of studies from the Salk Institute, researchers demonstrated that restricting food access to the active phase of an animal's day — even without changing caloric intake — was sufficient to reset peripheral clock gene expression. Feeding during the rest phase (the equivalent of late-night eating for humans) caused a dramatic phase-shift in liver clock genes while leaving the SCN clock largely untouched.</p>
+    <p>As Dr. Satchin Panda explains in <em>The Circadian Code</em> (2019), this temporal mismatch between the brain clock and the liver clock is not merely an abstract biological curiosity. It has downstream consequences for insulin sensitivity, cortisol timing, body temperature regulation, and — critically — the hormonal environment that supports deep, restorative sleep.</p>
+    <p>When your liver clock is running 4–5 hours out of phase, it continues producing glucose, stimulating digestive enzymes, and upregulating metabolic activity precisely when your brain clock is trying to wind the body down. The result is a body caught between two conflicting signals: one system trying to initiate sleep, another running a second shift.</p>
+
+    <h2>Time-Restricted Eating and Sleep: The Panda Lab Research</h2>
+    <p>The Panda laboratory at the Salk Institute has produced some of the most important data on time-restricted eating (TRE) in both animal models and humans. Their research consistently shows that confining food intake to a defined window — typically 8 to 12 hours — synchronizes peripheral clocks, improves metabolic markers, and meaningfully changes sleep architecture.</p>
+    <p>In a 2019 pilot study published in <em>Cell Metabolism</em>, overweight adults who compressed their eating into a 10-hour window (without changing what they ate) reported significant improvements in sleep quality after 12 weeks. Participants fell asleep faster, reported less nighttime waking, and scored higher on standardized measures of sleep satisfaction. Actigraphy data confirmed more consolidated sleep periods.</p>
+    <p>The mechanism appears to work through multiple pathways simultaneously. Aligning the eating window with daylight hours reduces insulin spikes during the biological night, stabilizes melatonin onset, and allows the liver to complete its overnight fasting program — clearing metabolic byproducts and repairing cellular damage — without interruption from incoming nutrients.</p>
+
+    <div class="callout">
+      &#128161; <strong>Research note:</strong> Panda's TRE studies consistently show that the <em>timing</em> of the eating window matters as much as its length. An early window (7am–5pm) produces stronger circadian benefits than a late window (12pm–10pm) of the same duration.
+    </div>
+
+    <h2>The 16:8 Fasting Window and Sleep Quality</h2>
+    <p>The most widely practiced form of intermittent fasting — the 16:8 protocol — involves fasting for 16 hours and eating within an 8-hour window. For most people this means skipping breakfast (eating from noon to 8pm) or ending dinner early (eating from 9am to 5pm). These two approaches, though numerically identical, produce strikingly different effects on sleep.</p>
+    <p>The noon-to-8pm window is convenient and popular, but it places the final meal close to a typical 10–11pm bedtime, leaving only 2–3 hours of fasting before sleep. This is generally insufficient for the liver to complete the transition into its fasting program before the brain initiates sleep onset.</p>
+    <p>In contrast, closing the eating window by 6pm or earlier gives the body 4–5 hours of metabolic wind-down before sleep. Core body temperature — one of the key drivers of sleep onset — drops more reliably. Digestive motility slows. Growth hormone release, which peaks in the first hours of sleep, is not blunted by competing insulin signals from a recent meal.</p>
+    <p>A 2020 study in <em>Nutrients</em> compared sleep quality in adults following early TRE (eTRE, eating 8am–4pm) versus a standard eating pattern. The eTRE group showed significantly lower resting heart rate at bedtime, faster sleep onset latency, and higher self-reported sleep quality — changes that appeared within two weeks of adopting the protocol.</p>
+
+    <h2>The Ghrelin Effect: Fasting Overnight vs. Going to Bed Hungry</h2>
+    <p>One of the most common objections to closing the eating window early is the fear of going to bed hungry — and the legitimate concern that hunger will fragment sleep. This is where understanding ghrelin, the hunger hormone, becomes essential.</p>
+    <p>Ghrelin follows a circadian rhythm of its own. Under normal conditions, ghrelin rises before habitual mealtimes and falls after eating. When you first shift to an earlier eating window, you may experience ghrelin spikes in the late evening — your body expecting food at the old time. But ghrelin rhythms adapt relatively quickly, typically within 5–7 days of consistent meal timing.</p>
+    <p>More importantly, ghrelin's role in sleep is not simply disruptive. At physiological levels, ghrelin promotes slow-wave sleep (deep sleep) through its action on growth hormone-releasing hormone (GHRH) pathways. Research from the University of Chicago found that subjects who fasted overnight showed elevated ghrelin levels that correlated with increased time in slow-wave sleep — a finding that runs counter to the intuitive assumption that hunger degrades sleep quality.</p>
+    <p>The key distinction is between the acute discomfort of suddenly eating nothing versus the adapted state of someone whose eating window is consistently early. In the adapted state, ghrelin has already shifted its peak to align with the new eating schedule, overnight ghrelin is moderate rather than elevated, and sleep quality is preserved or improved.</p>
+
+    <div class="callout-green">
+      <strong>Practical takeaway:</strong> If hunger disrupts your sleep in the first week of shifting to an earlier eating window, this is normal ghrelin adaptation — not evidence that the protocol is wrong for you. Give it 7–10 days before assessing. Keeping the window consistent (not varying it day to day) accelerates the adaptation.
+    </div>
+
+    <h2>Ramadan Sleep Studies: What Happens During Month-Long Fasting</h2>
+    <p>Ramadan offers a natural experiment that sleep researchers have studied extensively — a month of daily fasting from pre-dawn to sunset, with a complete inversion of the eating schedule from daytime to night. The findings are illuminating, not because they advocate for nocturnal eating, but because they reveal how profoundly meal timing shapes sleep architecture even when total sleep time remains similar.</p>
+    <p>Multiple studies conducted across Egypt, Turkey, Iran, and Malaysia consistently show that during Ramadan, subjects experience delayed sleep onset (moving later by 1–2 hours), reduced total sleep time, decreased REM sleep, and increased daytime sleepiness. The dominant driver of these changes is not the fasting itself — it is the shift in meal timing to the biological night, which disrupts the alignment between the metabolic clocks and the light-dark cycle.</p>
+    <p>Crucially, a 2014 study published in the <em>Journal of Sleep Research</em> found that subjects who maintained relatively earlier suhoor (pre-dawn meal) and iftar (sunset meal) timings — minimizing the nighttime eating window — showed better-preserved sleep architecture than those who ate late into the night. The circadian disruption scaled with how far the eating pattern deviated from the body's natural metabolic window.</p>
+    <p>The Ramadan literature reinforces a consistent message: when eating and sleeping occupy the same biological window, sleep quality suffers. The body cannot efficiently do both at once.</p>
+
+    <h2>Practical Eating Window Timing for Better Sleep</h2>
+    <p>Given the research, what does an optimal eating window actually look like? The evidence points toward alignment with solar time — earlier is generally better, with the most important rule being to close the window at least 3 hours before bed, and ideally 4–5 hours before.</p>
+
+    <h3>The 7am–7pm Window</h3>
+    <p>For people who wake at 6–7am, a 7am–7pm eating window offers an accessible starting point. It allows a normal breakfast, lunch, and dinner structure, closes the window well before a 10–11pm bedtime, and gives the liver a solid 3–4 hours to begin its fasting program before sleep. This is a reasonable target for most people transitioning from unrestricted eating.</p>
+
+    <h3>The 10am–6pm Window</h3>
+    <p>This tighter, earlier window is closer to the pattern studied in Panda's eTRE research. Skipping breakfast or delaying it until 10am, combined with an early dinner at 6pm, creates a 16-hour fast that strongly aligns eating with peak metabolic activity (late morning through late afternoon). This window consistently shows the strongest effects on circadian marker alignment, insulin sensitivity, and sleep quality in the research literature — but requires the most adjustment for social eating patterns.</p>
+
+    <div class="callout-green">
+      <strong>Practical takeaway:</strong> Start with the 7am–7pm window for 2 weeks to adapt, then experiment with shifting the close time earlier toward 5–6pm if sleep quality does not improve. Track your sleep onset time and how rested you feel — most people notice a change within 1–2 weeks of consistent timing.
+    </div>
+
+    <h2>What to Eat (and Avoid) in the 3 Hours Before Your Eating Window Closes</h2>
+    <p>Closing the eating window is only half the equation. What you consume in the final hours of that window also matters for sleep quality, independent of timing.</p>
+
+    <h3>Foods That Support the Transition to Sleep</h3>
+    <p>Complex carbohydrates consumed in the late afternoon or early evening (within the eating window) can support tryptophan transport across the blood-brain barrier, facilitating serotonin and eventually melatonin synthesis. Whole grains, sweet potato, and legumes are preferable to refined sugars, which produce insulin spikes that can destabilize blood glucose later in the night and trigger cortisol-mediated waking.</p>
+    <p>Magnesium-rich foods — leafy greens, pumpkin seeds, almonds, dark chocolate — consumed earlier in the day support the GABAergic pathways involved in sleep onset. Many people are chronically low in magnesium, and supplementation has demonstrated measurable improvements in sleep efficiency and early-morning cortisol in randomized trials.</p>
+
+    <h3>Foods and Habits to Avoid Late in the Window</h3>
+    <ul>
+      <li><strong>High-fat, high-protein meals</strong> in the final 2 hours of the eating window delay gastric emptying and extend the period of active digestion into the night.</li>
+      <li><strong>Alcohol</strong> disrupts the second half of the sleep cycle by suppressing REM sleep — even moderate intake (1–2 drinks) meaningfully reduces REM in the first half of the night.</li>
+      <li><strong>Caffeine</strong> has a half-life of 5–6 hours; consumed after 2pm it will still be partially active at midnight, reducing slow-wave sleep depth even if sleep onset is unaffected.</li>
+      <li><strong>Large fluid intake</strong> close to the end of the window increases the likelihood of nocturia (nighttime waking to urinate), fragmenting sleep architecture.</li>
+    </ul>
+
+    <div class="product-cta">
+      <span class="product-cta-text">Support your sleep with magnesium glycinate — the most bioavailable form for sleep quality</span>
+      <a class="btn-amazon" href="https://www.amazon.com/s?k=sleep+supplement+magnesium+glycinate&tag=sleepwiserevi-20" target="_blank" rel="noopener nofollow">Shop on Amazon</a>
+    </div>
+
+    <h2>Putting It All Together</h2>
+    <p>The research on intermittent fasting and sleep converges on a clear, actionable picture. The timing of your meals is a powerful circadian signal — one that your liver and metabolic organs respond to as forcefully as your brain responds to light. Eating late at night forces your peripheral clocks to run out of phase with the central pacemaker in your brain, creating a biological conflict that degrades sleep quality, metabolic health, and daytime alertness simultaneously.</p>
+    <p>Time-restricted eating, when implemented with an early or mid-day window, resolves that conflict. It allows all of your body's clocks to synchronize, gives your metabolic organs the overnight fasting period they are designed for, and creates the hormonal conditions — falling insulin, rising melatonin, stable blood glucose — that support deep, consolidated sleep.</p>
+    <p>The transition requires patience: ghrelin adapts over 5–7 days, social eating patterns require planning, and the first week may feel uncomfortable. But the evidence from Panda's lab, from TRE clinical trials, and from the Ramadan literature is consistent: align your eating window with daylight hours, close it at least 3 hours before bed, and your sleep will reflect that discipline.</p>
+
+    <div class="callout-green">
+      <strong>Practical takeaway:</strong> The single highest-leverage change most people can make is to stop eating 3 hours before bedtime. You do not need to adopt a full TRE protocol to benefit — simply moving dinner from 9pm to 6–7pm, without changing anything else, removes one of the most common and underappreciated barriers to restorative sleep.
+    </div>
+
+    <div class="article-cta">
+      <h3>Get Our Free 7-Day Sleep Reset</h3>
+      <p>Join 18,000 readers who get weekly sleep tips and honest product reviews every Sunday.</p>
+      <a class="btn-amazon" href="../#newsletter">Subscribe Free</a>
+    </div>
+
+    <div class="related-articles">
+      <h3>Related Articles</h3>
+      <ul>
+        <li><a href="sleep-food-connection.html">The Sleep-Food Connection: How Your Diet Shapes Your Night</a></li>
+        <li><a href="circadian-rhythm-basics.html">Circadian Rhythm Basics: How Your Body Clock Controls Sleep</a></li>
+        <li><a href="gut-microbiome-sleep.html">Your Gut Microbiome and Sleep: The Bidirectional Link</a></li>
+      </ul>
+    </div>
+  </article>
+
+  <footer>
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a class="logo" href="../">SleepWise<span>Reviews</span></a>
+        <p>Honest, science-backed reviews to help you sleep deeper, recover faster, and wake up energized.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Reviews</h4>
+        <ul>
+          <li><a href="https://www.amazon.com/s?k=weighted+blanket&tag=sleepwiserevi-20" target="_blank">Weighted Blankets</a></li>
+          <li><a href="https://www.amazon.com/s?k=white+noise+machine&tag=sleepwiserevi-20" target="_blank">White Noise Machines</a></li>
+          <li><a href="https://www.amazon.com/s?k=sleep+supplements&tag=sleepwiserevi-20" target="_blank">Supplements</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Guides</h4>
+        <ul>
+          <li><a href="../#picks">Sleep Optimization</a></li>
+          <li><a href="../#reviews">Bedtime Routines</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Site</h4>
+        <ul>
+          <li><a href="../pages/about.html">About Harry Soul</a></li>
+          <li><a href="../pages/privacy-policy.html">Privacy Policy</a></li>
+          <li><a href="../pages/affiliate-disclosure.html">Affiliate Disclosure</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div>&#169; 2025 SleepWiseReviews. All rights reserved.</div>
+      <div class="affiliate-disc">SleepWiseReviews is a participant in the Amazon Services LLC Associates Program.</div>
+    </div>
+  </footer>
+</body>
+</html>
