@@ -1,14 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Best Pregnancy Pillows for Every Sleep Position | SleepWise Reviews</title>
-  <meta name="description" content="By the second trimester, every sleep position except side-lying cuts blood flow to the fetus. Find the best pregnancy pillow by shape, trimester, and sleep style." />
+  <title>Best Pregnancy Pillows for Every Sleep Position - SleepWiseReviews</title>
+  <meta name="description" content="By the second trimester, every sleep position except side-lying cuts blood flow to the fetus. Here are the best pregnancy pillows to keep you comfortable and safe all night." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
-  <style>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <style type='text/css'>
     :root {
       --night: #0A0E1A;
       --deep: #0F1525;
@@ -21,675 +21,346 @@
       --star: #F0E6C8;
       --text: #D4DCEE;
       --muted: #7A85A0;
+      --white: #FFFFFF;
       --green: #4CAF82;
     }
 
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
     body {
+      font-family: 'Outfit', sans-serif;
       background: var(--night);
       color: var(--text);
-      font-family: 'Outfit', sans-serif;
-      font-weight: 400;
-      line-height: 1.7;
-      font-size: 1rem;
+      line-height: 1.6;
+      overflow-x: hidden;
     }
 
-    /* ── Header ── */
-    header {
-      position: sticky;
-      top: 0;
-      z-index: 100;
-      background: rgba(10,14,26,0.96);
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      background-image:
+        radial-gradient(1px 1px at 10% 15%, rgba(240, 230, 200, 0.6) 0%, transparent 100%),
+        radial-gradient(1px 1px at 25% 40%, rgba(240, 230, 200, 0.4) 0%, transparent 100%),
+        radial-gradient(1.5px 1.5px at 40% 10%, rgba(240, 230, 200, 0.5) 0%, transparent 100%),
+        radial-gradient(1px 1px at 55% 30%, rgba(240, 230, 200, 0.3) 0%, transparent 100%),
+        radial-gradient(1px 1px at 70% 5%, rgba(240, 230, 200, 0.6) 0%, transparent 100%),
+        radial-gradient(1.5px 1.5px at 80% 20%, rgba(240, 230, 200, 0.4) 0%, transparent 100%),
+        radial-gradient(1px 1px at 90% 45%, rgba(240, 230, 200, 0.3) 0%, transparent 100%);
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    nav {
+      position: sticky; top: 0; z-index: 100;
+      background: rgba(10, 14, 26, 0.92);
       backdrop-filter: blur(12px);
       border-bottom: 1px solid var(--border);
-      padding: 0 1.5rem;
+      padding: 0 6%; height: 68px;
+      display: flex; align-items: center; justify-content: space-between;
     }
-    .header-inner {
-      max-width: 900px;
-      margin: 0 auto;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      height: 56px;
-    }
-    .site-logo {
-      font-family: 'Cormorant Garamond', serif;
-      font-size: 1.3rem;
-      font-weight: 700;
-      color: var(--gold);
-      text-decoration: none;
-      letter-spacing: 0.02em;
-    }
-    nav a {
-      color: var(--muted);
-      text-decoration: none;
-      font-size: 0.85rem;
-      font-weight: 500;
-      margin-left: 1.5rem;
-      transition: color 0.2s;
-    }
-    nav a:hover { color: var(--gold-light); }
+    .logo { font-family: 'Cormorant Garamond', serif; font-size: 1.6rem; font-weight: 700; color: var(--star); text-decoration: none; }
+    .logo span { color: var(--gold); }
+    .nav-links { display: flex; gap: 2rem; list-style: none; }
+    .nav-links a { text-decoration: none; color: var(--muted); font-size: 0.88rem; font-weight: 500; transition: color 0.2s; }
+    .nav-links a:hover { color: var(--gold); }
+    .nav-cta { background: var(--gold-dim); color: var(--gold) !important; border: 1px solid rgba(201, 168, 76, 0.3); padding: 7px 16px; border-radius: 4px; }
 
-    /* ── Main ── */
-    main {
-      max-width: 800px;
-      margin: 0 auto;
-      padding: 2.5rem 1.5rem 5rem;
+    .article-wrapper {
+      position: relative; z-index: 1;
+      max-width: 800px; margin: 0 auto; padding: 50px 6% 80px;
     }
+    .article-meta-top { display: flex; flex-wrap: wrap; align-items: center; gap: 0.8rem; margin-bottom: 1.2rem; }
+    .tag { background: var(--gold); color: var(--night); padding: 5px 12px; border-radius: 4px; font-size: 0.72rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; }
+    .meta-text { color: var(--muted); font-size: 0.82rem; }
+    .article-wrapper h1 { font-family: 'Cormorant Garamond', serif; font-size: 2.4rem; font-weight: 600; color: var(--star); line-height: 1.2; margin-bottom: 1.2rem; }
+    .article-intro { font-size: 1.1rem; color: var(--text); line-height: 1.7; margin-bottom: 2rem; font-weight: 300; }
+    .author-box { display: flex; align-items: center; gap: 1rem; margin-bottom: 1.5rem; padding: 1rem; background: var(--card); border-radius: 8px; border: 1px solid var(--border); }
+    .author-avatar { font-size: 2.5rem; }
+    .author-name { color: var(--star); font-weight: 500; }
+    .author-name a { color: var(--gold); text-decoration: none; }
+    .author-role { color: var(--muted); font-size: 0.82rem; }
+    .disclosure-box { background: rgba(201, 168, 76, 0.08); border: 1px solid rgba(201, 168, 76, 0.2); border-radius: 8px; padding: 1rem 1.2rem; font-size: 0.82rem; color: var(--muted); margin-bottom: 2rem; }
+    .article-wrapper h2 { font-family: 'Cormorant Garamond', serif; font-size: 1.6rem; font-weight: 600; color: var(--star); margin: 2.5rem 0 1rem; padding-top: 1rem; }
+    .article-wrapper h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.2rem; color: var(--star); margin: 1.5rem 0 0.8rem; }
+    .article-wrapper p { margin-bottom: 1rem; font-weight: 300; line-height: 1.8; }
+    .article-wrapper ul, .article-wrapper ol { margin: 1rem 0 1.5rem 1.5rem; }
+    .article-wrapper li { margin-bottom: 0.5rem; font-weight: 300; }
+    .callout { background: var(--card); border-left: 3px solid var(--gold); padding: 1rem 1.5rem; margin: 1.5rem 0; border-radius: 0 8px 8px 0; font-size: 0.92rem; }
+    .callout-green { background: var(--card); border-left: 3px solid var(--green); padding: 1rem 1.5rem; margin: 1.5rem 0; border-radius: 0 8px 8px 0; font-size: 0.92rem; }
 
-    /* ── Badge ── */
-    .badge {
-      display: inline-block;
-      background: var(--gold-dim);
-      color: var(--gold);
-      border: 1px solid var(--gold);
-      border-radius: 20px;
-      font-size: 0.72rem;
-      font-weight: 600;
-      letter-spacing: 0.08em;
-      text-transform: uppercase;
-      padding: 0.25rem 0.85rem;
-      margin-bottom: 1rem;
-    }
+    .product-cta { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 1.5rem; margin: 2rem 0; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; }
+    .product-cta-text { color: var(--star); font-weight: 500; }
+    .btn-amazon { background: var(--gold); color: var(--night); text-decoration: none; padding: 10px 20px; border-radius: 6px; font-weight: 600; font-size: 0.88rem; transition: background 0.2s; }
+    .btn-amazon:hover { background: var(--gold-light); }
 
-    /* ── Title ── */
-    h1 {
-      font-family: 'Cormorant Garamond', serif;
-      font-size: clamp(2rem, 5vw, 2.9rem);
-      font-weight: 700;
-      color: var(--star);
-      line-height: 1.2;
-      margin-bottom: 1rem;
-    }
+    .article-cta { background: linear-gradient(135deg, var(--card), var(--navy)); border: 1px solid var(--border); border-radius: 12px; padding: 2rem; text-align: center; margin: 3rem 0; }
+    .article-cta h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.4rem; color: var(--star); margin-bottom: 0.8rem; }
+    .article-cta p { color: var(--muted); margin-bottom: 1.2rem; }
 
-    /* ── Date meta ── */
-    .date-meta {
-      font-size: 0.82rem;
-      color: var(--muted);
-      margin-bottom: 2rem;
-      display: flex;
-      flex-wrap: wrap;
-      gap: 0.4rem 1rem;
-    }
+    .related-articles { margin: 3rem 0; }
+    .related-articles h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.3rem; color: var(--star); margin-bottom: 1rem; }
+    .related-articles ul { list-style: none; margin: 0; }
+    .related-articles li { margin-bottom: 0.6rem; }
+    .related-articles a { color: var(--gold); text-decoration: none; font-size: 0.95rem; }
+    .related-articles a:hover { text-decoration: underline; }
 
-    /* ── Divider ── */
-    .divider {
-      border: none;
-      border-top: 1px solid var(--border);
-      margin: 2rem 0;
-    }
+    footer { background: #060912; border-top: 1px solid var(--border); padding: 50px 6% 30px; }
+    .footer-top { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 3rem; margin-bottom: 3rem; padding-bottom: 3rem; border-bottom: 1px solid var(--border); }
+    .footer-brand p { color: var(--muted); font-size: 0.82rem; margin-top: 0.8rem; line-height: 1.6; font-weight: 300; max-width: 260px; }
+    .footer-col h4 { font-size: 0.78rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--gold); margin-bottom: 1rem; }
+    .footer-col ul { list-style: none; display: flex; flex-direction: column; gap: 0.6rem; }
+    .footer-col a { color: var(--muted); text-decoration: none; font-size: 0.85rem; transition: color 0.2s; }
+    .footer-col a:hover { color: var(--gold); }
+    .footer-bottom { display: flex; justify-content: space-between; font-size: 0.78rem; color: var(--muted); flex-wrap: wrap; gap: 0.5rem; }
+    .affiliate-disc { font-size: 0.75rem; max-width: 600px; }
 
-    /* ── Body text ── */
-    p { margin-bottom: 1.25rem; }
-
-    h2 {
-      font-family: 'Cormorant Garamond', serif;
-      font-size: 1.65rem;
-      font-weight: 600;
-      color: var(--star);
-      margin: 2.5rem 0 0.75rem;
-      line-height: 1.25;
-    }
-
-    h3 {
-      font-family: 'Outfit', sans-serif;
-      font-size: 1.05rem;
-      font-weight: 600;
-      color: var(--gold-light);
-      margin: 1.75rem 0 0.5rem;
-    }
-
-    a { color: var(--gold); text-decoration: none; }
-    a:hover { text-decoration: underline; }
-
-    cite { font-style: italic; color: var(--muted); font-size: 0.9rem; }
-
-    /* ── Takeaway box ── */
-    .takeaway {
-      border: 1px solid var(--green);
-      border-left: 4px solid var(--green);
-      background: rgba(76,175,130,0.07);
-      border-radius: 8px;
-      padding: 1.25rem 1.5rem;
-      margin: 2rem 0;
-    }
-    .takeaway-label {
-      font-size: 0.72rem;
-      font-weight: 600;
-      letter-spacing: 0.1em;
-      text-transform: uppercase;
-      color: var(--green);
-      margin-bottom: 0.5rem;
-    }
-    .takeaway p { margin: 0; color: var(--text); }
-
-    /* ── Pillow Shape Guide ── */
-    .shape-guide {
-      margin: 2.5rem 0;
-    }
-    .shape-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
-      gap: 1.25rem;
-      margin-top: 1.25rem;
-    }
-    .shape-card {
-      background: var(--card);
-      border: 1px solid var(--border);
-      border-radius: 12px;
-      padding: 1.25rem;
-      display: flex;
-      flex-direction: column;
-      gap: 0.75rem;
-    }
-    .shape-visual {
-      display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 90px;
-    }
-
-    /* C-shape SVG-like CSS */
-    .pillow-c {
-      width: 70px;
-      height: 70px;
-      border: 12px solid var(--gold);
-      border-right-color: transparent;
-      border-radius: 50%;
-      opacity: 0.85;
-    }
-    /* U-shape */
-    .pillow-u {
-      width: 56px;
-      height: 70px;
-      border: 12px solid var(--gold);
-      border-top-color: transparent;
-      border-radius: 0 0 40px 40px;
-      opacity: 0.85;
-    }
-    /* Wedge */
-    .pillow-wedge {
-      width: 0;
-      height: 0;
-      border-left: 42px solid transparent;
-      border-right: 42px solid transparent;
-      border-bottom: 58px solid rgba(201,168,76,0.75);
-    }
-    /* Straight */
-    .pillow-straight {
-      width: 16px;
-      height: 80px;
-      background: var(--gold);
-      border-radius: 8px;
-      opacity: 0.75;
-    }
-    /* L-shape */
-    .pillow-l {
-      position: relative;
-      width: 60px;
-      height: 70px;
-    }
-    .pillow-l::before {
-      content: '';
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      width: 14px;
-      height: 70px;
-      background: var(--gold);
-      border-radius: 7px;
-      opacity: 0.8;
-    }
-    .pillow-l::after {
-      content: '';
-      position: absolute;
-      bottom: 0;
-      left: 0;
-      width: 52px;
-      height: 14px;
-      background: var(--gold);
-      border-radius: 7px;
-      opacity: 0.8;
-    }
-
-    .shape-name {
-      font-family: 'Cormorant Garamond', serif;
-      font-size: 1.2rem;
-      font-weight: 700;
-      color: var(--star);
-    }
-    .shape-meta {
-      display: grid;
-      grid-template-columns: auto 1fr;
-      gap: 0.2rem 0.75rem;
-      font-size: 0.82rem;
-    }
-    .shape-meta .label { color: var(--muted); }
-    .shape-meta .value { color: var(--text); }
-    .shape-desc {
-      font-size: 0.87rem;
-      color: var(--muted);
-      line-height: 1.5;
-    }
-
-    /* ── Product Cards ── */
-    .product-grid {
-      display: flex;
-      flex-direction: column;
-      gap: 1rem;
-      margin: 1.5rem 0;
-    }
-    .product-card {
-      background: var(--card);
-      border: 1px solid var(--border);
-      border-radius: 12px;
-      padding: 1.25rem 1.5rem;
-      display: grid;
-      grid-template-columns: 1fr auto;
-      gap: 0.5rem 1.5rem;
-      align-items: start;
-      transition: border-color 0.2s;
-    }
-    .product-card:hover { border-color: var(--gold); }
-    .product-card.featured { border-color: var(--gold); }
-    .product-rank {
-      font-size: 0.72rem;
-      font-weight: 600;
-      letter-spacing: 0.08em;
-      text-transform: uppercase;
-      color: var(--gold);
-      margin-bottom: 0.25rem;
-    }
-    .product-name {
-      font-family: 'Cormorant Garamond', serif;
-      font-size: 1.2rem;
-      font-weight: 700;
-      color: var(--star);
-      margin-bottom: 0.35rem;
-    }
-    .product-tags {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 0.35rem;
-      margin-bottom: 0.5rem;
-    }
-    .product-tag {
-      background: var(--gold-dim);
-      color: var(--gold);
-      border-radius: 4px;
-      font-size: 0.72rem;
-      font-weight: 500;
-      padding: 0.15rem 0.55rem;
-    }
-    .product-desc {
-      font-size: 0.88rem;
-      color: var(--muted);
-      line-height: 1.5;
-    }
-    .product-cta {
-      align-self: center;
-    }
-    .btn-affiliate {
-      display: inline-block;
-      background: var(--gold);
-      color: var(--night);
-      font-family: 'Outfit', sans-serif;
-      font-weight: 600;
-      font-size: 0.82rem;
-      padding: 0.55rem 1.1rem;
-      border-radius: 6px;
-      text-decoration: none;
-      white-space: nowrap;
-      transition: background 0.2s;
-    }
-    .btn-affiliate:hover {
-      background: var(--gold-light);
-      text-decoration: none;
-    }
-
-    /* ── Fill comparison table ── */
-    .fill-table {
-      width: 100%;
-      border-collapse: collapse;
-      font-size: 0.88rem;
-      margin: 1.25rem 0;
-    }
-    .fill-table th {
-      background: var(--navy);
-      color: var(--gold);
-      text-align: left;
-      padding: 0.6rem 0.9rem;
-      font-weight: 600;
-      font-size: 0.78rem;
-      letter-spacing: 0.05em;
-      text-transform: uppercase;
-      border-bottom: 1px solid var(--border);
-    }
-    .fill-table td {
-      padding: 0.6rem 0.9rem;
-      color: var(--text);
-      border-bottom: 1px solid var(--border);
-      vertical-align: top;
-    }
-    .fill-table tr:last-child td { border-bottom: none; }
-    .fill-table tr:nth-child(even) td { background: rgba(255,255,255,0.02); }
-
-    /* ── References ── */
-    .references {
-      margin-top: 3rem;
-      padding-top: 1.5rem;
-      border-top: 1px solid var(--border);
-      font-size: 0.82rem;
-      color: var(--muted);
-    }
-    .references h2 {
-      font-size: 1rem;
-      color: var(--muted);
-      margin-bottom: 0.5rem;
-    }
-
-    /* ── Responsive ── */
-    @media (max-width: 540px) {
-      .product-card { grid-template-columns: 1fr; }
-      .product-cta { justify-self: start; }
-      .shape-grid { grid-template-columns: 1fr; }
+    @media (max-width: 900px) {
+      .nav-links { display: none; }
+      .article-wrapper h1 { font-size: 1.8rem; }
+      .footer-top { grid-template-columns: 1fr 1fr; }
+      .product-cta { flex-direction: column; text-align: center; }
     }
   </style>
 </head>
+
 <body>
+  <nav>
+    <a class="logo" href="../">SleepWise<span>Reviews</span></a>
+    <ul class="nav-links">
+      <li><a href="../#picks">Top Picks</a></li>
+      <li><a href="../#reviews">Reviews</a></li>
+      <li><a href="../pages/about.html">About Harry</a></li>
+      <li><a href="../#newsletter" class="nav-cta">Free Sleep Guide</a></li>
+    </ul>
+  </nav>
 
-  <header>
-    <div class="header-inner">
-      <a href="/" class="site-logo">SleepWise Reviews</a>
-      <nav>
-        <a href="/reviews.html">Reviews</a>
-        <a href="/guides.html">Guides</a>
-        <a href="/about.html">About</a>
-      </nav>
+  <article class="article-wrapper">
+    <div class="article-meta-top">
+      <span class="tag">Product Review</span>
+      <span class="meta-text">📅 December 2020</span>
+      <span class="meta-text">·</span>
+      <span class="meta-text">⏱ 8 min read</span>
+      <span class="meta-text">·</span>
+      <span class="meta-text">🔄 Updated Mar 2026</span>
     </div>
-  </header>
-
-  <main>
-
-    <span class="badge">Pregnancy</span>
-
     <h1>Best Pregnancy Pillows for Every Sleep Position</h1>
+    <p class="article-intro">By the second trimester, every sleep position except side-lying cuts blood flow to the fetus. That single anatomical fact turns something as simple as getting comfortable in bed into one of the most consequential choices of your pregnancy — and the right pillow can make all the difference.</p>
 
-    <div class="date-meta">
-      <span>📅 December 2020</span>
-      <span>⏱ 7 min read</span>
-      <span>🔄 Updated Mar 2026</span>
+    <div class="author-box">
+      <div class="author-avatar">😴</div>
+      <div class="author-info">
+        <div class="author-name">By <a href="../pages/about.html">Harry Soul</a> - SleepWiseReviews</div>
+        <div class="author-role">Independent Sleep Researcher - December 2020</div>
+      </div>
     </div>
 
-    <hr class="divider" />
-
-    <!-- Hook -->
-    <p>By the second trimester, every sleep position except side-lying cuts blood flow to the fetus. A pregnancy pillow isn't a luxury — it's the most practical tool for maintaining the SOS position through a full night of sleep.</p>
-
-    <p>Most pregnant women discover this problem around week 18 to 20: their body has a lifelong pattern of sleeping in one position, and now every instinct that once made sleep comfortable is working against them. Rolling onto your back compresses the inferior vena cava — the large vein running along the right side of your spine — reducing the return of blood to your heart and, consequently, blood and oxygen delivery to the placenta. Sleeping on your right side isn't dangerous in the early months, but as the uterus grows, left-side positioning becomes the clearer choice.</p>
-
-    <p>The result is a nightly battle against your own muscle memory. That's precisely the problem a well-chosen pregnancy pillow solves.</p>
-
-    <!-- Kinosian citation -->
-    <p>In <cite>The Well-Rested Woman</cite>, Janet Kinosian examines how pregnancy creates a fundamental conflict between habitual sleep posture and the medically recommended SOS (Sleep On Side) position. Kinosian (2002) identifies proper pillow support as the most evidence-supported mechanical solution to this conflict — noting that it works not by forcing a position, but by making the correct position feel natural and stable throughout the night, so the body stops fighting to return to old habits.</p>
-
-    <!-- Takeaway box -->
-    <div class="takeaway">
-      <div class="takeaway-label">Key Takeaway</div>
-      <p>The goal of a pregnancy pillow isn't cushioning — it's postural anchoring. By filling the gaps between your body and the mattress in SOS position, a good pillow eliminates the physical discomfort that triggers unconscious rolling. Left-side sleeping improves placental blood flow and reduces swelling; a pillow that supports the belly, back, and knees simultaneously makes that position sustainable all night.</p>
+    <div class="disclosure-box">
+      <strong>Affiliate Disclosure:</strong> This article contains affiliate links. We earn a small commission if you purchase through our links at no extra cost to you. <a href="../pages/affiliate-disclosure.html" style="color:var(--gold)">Full disclosure</a>
     </div>
 
-    <h2>Why the SOS Position Matters</h2>
+    <h2>Why Pregnancy Sleep Is Harder Than Anyone Warns You About</h2>
+    <p>Most pregnancy guides spend pages on nutrition, exercise, and birth plans — and about two paragraphs on sleep. Yet survey after survey finds that poor sleep is one of the top complaints among pregnant women, affecting upwards of 78% of those in the third trimester. The culprits are well known: a growing belly that makes every former comfort position impossible, increased urinary frequency that fragments sleep into short windows, heartburn that worsens when lying flat, leg cramps, and restless legs syndrome, which is significantly more common during pregnancy due to iron and folate changes.</p>
 
-    <p>The inferior vena cava runs along the right side of the lumbar spine. When a pregnant woman lies flat on her back, the weight of the growing uterus — which can reach 2–3 kg by the third trimester — directly compresses this vessel. The effect is measurable: studies using Doppler ultrasound have shown reduced fetal heart rate variability in supine positioning after 28 weeks.</p>
+    <p>But there is a deeper issue that most people don't hear about until their OB mentions it in passing: positional blood flow. As the uterus grows — particularly from around 20 weeks onward — it becomes heavy enough to compress the inferior vena cava (IVC), the large vein running along the right side of the spine that carries deoxygenated blood back to the heart. Sleeping on your back or right side allows the uterus to press directly on this vessel, reducing venous return, dropping maternal blood pressure, and in turn restricting blood and oxygen delivery to the placenta. Side-lying, particularly on the left, keeps the uterus off the IVC entirely.</p>
 
-    <p>Left-side sleeping (SOS left) is preferred over right-side for two reasons: it keeps the uterus off the vena cava, and it maximises blood and nutrient delivery through the renal arteries. That said, right-side sleeping is not dangerous and is far preferable to supine positioning — don't panic if you wake up on your right. The practical goal is simply to avoid sleeping on your back.</p>
+    <p>As Janet Kinosian notes in <em>The Well-Rested Woman</em> (2002), sleep is not a passive state but an active biological process during which the body performs critical repair and regulatory work — and for pregnant women, that process extends to fetal development itself. Getting quality sleep is not a luxury; it is a physiological requirement. A specialty pillow is not a gimmick — it is practical support for a body doing one of the most demanding things it will ever do.</p>
 
-    <p>From 20 weeks onward, every OB-GYN will give the same advice. The challenge is execution across eight or nine hours of sleep.</p>
+    <div class="callout">💡 <strong>Key fact:</strong> The American College of Obstetricians and Gynecologists (ACOG) recommends sleeping on your side during the third trimester. Left-side sleeping is generally preferred because it optimizes circulation to the heart, kidneys, and uterus — and to the developing baby.</div>
 
-    <h2>What Changes Trimester by Trimester</h2>
+    <h2>Section 1: Why Left-Side Sleeping Matters — The Physiology</h2>
+    <p>The inferior vena cava sits just to the right of the spine. When you lie on your back after about 20 weeks, the weight of the uterus (which can reach 2 to 3 pounds by mid-pregnancy, not counting the baby, placenta, and amniotic fluid) compresses this vessel. You may feel the effect yourself: a sudden lightheadedness, nausea, or shortness of breath when lying flat on your back. That's aortocaval compression syndrome — temporary but a clear signal that circulation is compromised.</p>
+
+    <p>Left lateral recumbent positioning (the clinical term for left-side sleeping) moves the uterus away from the IVC entirely. Studies using Doppler ultrasound have shown measurably improved uterine artery blood flow in this position compared to supine or right-lateral positions, particularly in the third trimester. For a baby spending roughly 16–20 hours a day in sleep-like states themselves, the quality of that oxygen and nutrient delivery matters enormously.</p>
+
+    <p>Beyond circulation, left-side sleeping also helps with:</p>
+    <ul>
+      <li><strong>Kidney function:</strong> Better renal perfusion in the left lateral position helps clear waste and reduce edema in the ankles and feet — a common late-pregnancy complaint.</li>
+      <li><strong>Heartburn:</strong> The stomach is positioned on the left side of the body. Left-side sleeping keeps acid from refluxing into the esophagus, which is why this position is recommended for GERD patients generally.</li>
+      <li><strong>Liver pressure:</strong> The liver occupies the right side of the abdomen. Sleeping on the right places the uterus against the liver, which can cause discomfort. Left-side sleeping avoids this entirely.</li>
+    </ul>
+
+    <p>The challenge is that maintaining one position throughout the night — especially a side position — requires physical support that a standard pillow simply cannot provide. The belly needs lifting and cradling to prevent the lumbar spine from rotating under its weight. The hips need spacing to prevent pain at the sacroiliac joint. The upper arm needs somewhere to rest so the shoulder doesn't collapse forward. This is exactly what a pregnancy pillow is engineered to solve.</p>
+
+    <h2>Section 2: Full-Body C-Shaped Pillows</h2>
+    <p>The C-shaped pillow is arguably the most intuitive pregnancy pillow design. As the name suggests, it curves in a C shape, cradling the front of the body from head to knees. You tuck the bottom curve between your knees, rest your head on the top arc, and hug the middle section with your arm. The effect is that your spine, hips, and belly are all supported simultaneously without requiring a separate pillow for each pressure point.</p>
+
+    <h3>Who They Are Best For</h3>
+    <p>C-shaped pillows are ideal for sleepers who tend to stay on one side throughout the night. If you are a habitual left-side sleeper who just needs support in that one position, a C-shaped pillow delivers maximum comfort with minimal fuss. They are also well-suited for women experiencing significant hip pain, since the knee-to-knee spacing is a primary feature of the design.</p>
+
+    <h3>Pros</h3>
+    <ul>
+      <li>Excellent hip and lower-back support due to knee spacing</li>
+      <li>Usually smaller than U-shaped pillows — easier to use in a shared bed</li>
+      <li>More affordable than full U-shaped options</li>
+      <li>Easier to reposition around the body when you wake up</li>
+    </ul>
+
+    <h3>Cons</h3>
+    <ul>
+      <li>Does not support the back simultaneously with the front</li>
+      <li>If you roll to your other side during the night, you must physically relocate the entire pillow</li>
+      <li>The top arc can feel intrusive for those who prefer to have the upper portion of the pillow lower</li>
+    </ul>
+
+    <p>When shopping for a C-shaped pillow, prioritize fill firmness. Too soft and it will compress under the weight of the belly overnight, offering no real support by 3am. Look for shredded memory foam or a blended polyester fill that maintains loft. Washability is essential — pregnancy sweating is real, and a pillow cover that unzips and goes in the washing machine weekly is a quality-of-life upgrade you will not regret.</p>
+
+    <h2>Section 3: U-Shaped Pillows — Full Surround Support</h2>
+    <p>The U-shaped pregnancy pillow wraps all the way around the body, supporting both the front and the back simultaneously. You position yourself inside the U, tucking the bottom between your knees, resting against one side in front and the other side along your back. The result is a full cocoon of support that prevents rolling in either direction and eliminates the need to rearrange the pillow when you change sides.</p>
+
+    <h3>Who They Are Best For</h3>
+    <p>U-shaped pillows are the go-to recommendation for women who toss and turn frequently, those experiencing significant back pain that requires posterior support, and women in the third trimester who have found that no amount of regular pillow stacking is keeping them comfortable. If you're waking up multiple times a night because you've rolled off your side position, a U-shaped pillow is essentially a structural solution to a positioning problem.</p>
+
+    <h3>Pros</h3>
+    <ul>
+      <li>Supports both front and back at the same time</li>
+      <li>No need to rearrange when switching sides — just shift within the pillow</li>
+      <li>Excellent for women with significant back pain or SPD (symphysis pubis dysfunction)</li>
+      <li>Can continue to be useful postpartum for nursing support</li>
+    </ul>
+
+    <h3>Cons</h3>
+    <ul>
+      <li>Large — takes up significant bed space and may require a king-size bed for couples</li>
+      <li>Heavier and more cumbersome to wash</li>
+      <li>More expensive than C-shaped options</li>
+      <li>Some users find the enclosed feeling too warm in summer months</li>
+    </ul>
+
+    <p>If you choose a U-shaped pillow, look for one with a removable, machine-washable cover and an adjustable fill. Some high-quality models allow you to add or remove filling to customize firmness — this matters because your support needs in week 18 are different from your needs in week 36.</p>
+
+    <h2>Section 4: Wedge Pillows — Targeted Support for Specific Problems</h2>
+    <p>Pregnancy wedge pillows are small, triangular pillows designed to provide targeted support under the belly, behind the back, or between the knees. They are not full-body pillows; rather, they work in concert with your existing pillow setup to solve specific problems. A belly wedge goes under the bump when you are lying on your side, preventing it from sagging downward and pulling on the lumbar spine. A back wedge goes behind you to stop you from rolling onto your back during the night.</p>
+
+    <h3>Who They Are Best For</h3>
+    <p>Wedge pillows are perfect for early-to-mid pregnancy when the belly is not yet large enough to require a full-body solution, for women who travel and cannot bring a full-size pregnancy pillow, for those who already have a comfortable sleeping setup and just need one targeted fix, and for postpartum recovery when tucked behind or beside the body for nursing support.</p>
+
+    <h3>Pros</h3>
+    <ul>
+      <li>Compact and highly portable — fits in a carry-on</li>
+      <li>Very affordable, often under $30</li>
+      <li>Dual-purpose: can be used to prop up the upper body slightly to reduce heartburn</li>
+      <li>Easy to wash and quick to dry</li>
+    </ul>
+
+    <h3>Cons</h3>
+    <ul>
+      <li>Does not replace full-body support in the later trimesters</li>
+      <li>Can shift position during sleep if not properly placed</li>
+      <li>Memory foam wedges can retain heat</li>
+    </ul>
+
+    <p>Many experienced pregnancy pillow users end up combining a wedge with another pillow type. A C-shaped pillow plus a back wedge, for example, gives you front support, hip spacing, and anti-rollover protection without the bulk of a full U-shaped pillow. It is a cost-effective combination worth considering.</p>
+
+    <h2>Section 5: J-Shaped and Specialty Designs</h2>
+    <p>The J-shaped pillow is essentially a C-shaped pillow with the top arc removed, leaving a long straight section for the back and a curved lower portion for between the knees. For women who find the head support of the C uncomfortable or who prefer to use their own pillow for the head, the J offers a versatile alternative. It takes up less space than a C or U while still providing the core benefit: knee-to-knee spacing that keeps the hips aligned and the lower back supported.</p>
+
+    <p>Beyond the standard shapes, several specialty designs deserve mention:</p>
+
+    <ul>
+      <li><strong>Inflatable travel pillows:</strong> Designed specifically for airplane and car travel in pregnancy, these pack flat and inflate to provide lumbar and belly support while seated. A genuine category of its own for frequent travelers.</li>
+      <li><strong>Adjustable fill pillows:</strong> Use shredded memory foam or buckwheat fill that can be added or removed via a zip. These are worth the premium for women whose comfort needs change significantly across trimesters.</li>
+      <li><strong>Cooling gel pillows:</strong> Designed for hot sleepers, these use gel-infused memory foam or phase-change materials to reduce surface temperature. Pregnancy raises basal body temperature, making heat management a real issue for many women.</li>
+      <li><strong>Postpartum-specific designs:</strong> Nursing pillows like the Boppy and My Brest Friend are technically postpartum tools, but many women use them in the third trimester as belly supports. If you plan to breastfeed, buying one pillow that serves both purposes is economical.</li>
+    </ul>
+
+    <h2>Section 6: What to Look for When Buying</h2>
+    <p>With dozens of options on the market, it helps to filter by the features that matter most rather than getting lost in marketing language. Here are the criteria worth prioritizing:</p>
+
+    <h3>Fill Material</h3>
+    <p>Fill determines both feel and durability. Polyester fiberfill is the most common — it is affordable, lightweight, and machine washable, but it compresses over time and may need to be fluffed or replaced after extended use. Shredded memory foam provides better contouring support and maintains its loft longer, but is heavier and harder to wash. Microbeads offer a smooth, conforming feel but are not machine washable and can be noisy. For most pregnant women, a high-density polyester or shredded memory foam is the sweet spot of comfort, support, and practicality.</p>
+
+    <h3>Washability</h3>
+    <p>This is non-negotiable. Pregnancy increases sweating, and a pillow that cannot be regularly washed will harbor bacteria and allergens. Look for a removable, zippered cover that is machine washable on a gentle cycle. If the inner fill can also be washed (many polyester fills can), that is a significant advantage. Memory foam fills typically cannot be machine washed — if you choose one, ensure the cover is removable and wash-friendly.</p>
+
+    <h3>Size and Firmness</h3>
+    <p>Larger pillows provide more comprehensive support but take more bed space. If you share a bed with a partner, measure your bed before buying a U-shaped pillow — many require a queen or king. Firmness should match your dominant discomfort: hip pain and lower back pain benefit from firmer support, while belly support alone can be provided by a softer fill.</p>
+
+    <h3>Cover Fabric</h3>
+    <p>Jersey cotton is the most popular choice — it is stretchy, soft, and breathable. Bamboo covers are slightly more expensive but offer better moisture-wicking properties and are a good choice for hot sleepers. Avoid microfiber or polyester covers if you run warm, as they trap heat.</p>
+
+    <h3>Price and Durability</h3>
+    <p>A good pregnancy pillow is a 9-month investment at minimum, and many remain useful for months postpartum. The budget range ($30–50) covers basic wedge and C-shaped options that will serve you well in the first two trimesters. Mid-range ($60–100) covers full-body C and J shapes with decent fill quality. Premium ($100–160) buys you adjustable-fill U-shaped pillows with high-quality covers and better long-term durability.</p>
+
+    <h2>Section 7: Tips for Each Trimester</h2>
 
     <h3>First Trimester (Weeks 1–12)</h3>
-    <p>The uterus is still tucked behind the pubic bone, so positional pressure on major vessels is minimal. Most first-trimester discomfort is back pain from hormonal ligament relaxation (relaxin is released from week 6), nausea disrupting sleep onset, and breast tenderness making certain positions painful. A small wedge or a standard body pillow for knee support is usually sufficient.</p>
+    <p>Most women don't need a specialty pillow in the first trimester — the belly is still small enough that your usual sleeping habits are largely undisturbed. However, this is the ideal time to begin training yourself to sleep on your left side if you are a back or right-side sleeper. Place a regular pillow behind your back to prevent rolling, and one between your knees for comfort. The sooner you adapt to side sleeping, the easier the transition will be when positional support becomes genuinely critical.</p>
+
+    <p>First-trimester sleep disruptors tend to be hormonal: elevated progesterone causes sleepiness during the day but can paradoxically disrupt sleep architecture at night. Nausea also peaks during this period and can make it hard to find a comfortable position. A small wedge pillow under the upper body to reduce acid reflux symptoms can be helpful even this early.</p>
 
     <h3>Second Trimester (Weeks 13–26)</h3>
-    <p>The belly becomes visible between weeks 14 and 16 for most women, and belly support becomes relevant by week 20. Round ligament pain — sharp pulling sensations along the lower abdomen — can make position changes feel risky. Back pain worsens as the lumbar curve deepens to accommodate the growing uterus. This is the trimester where most women make the move to a dedicated pregnancy pillow.</p>
+    <p>This is when most women find that their regular pillow stack is no longer adequate. The belly begins to exert meaningful gravitational pull when lying on the side, creating lumbar strain if it is not supported. Hip discomfort from the relaxin hormone — which loosens the ligaments of the pelvis in preparation for birth — also becomes noticeable. A full C-shaped or J-shaped pillow typically addresses both issues effectively during this period.</p>
+
+    <p>The second trimester is also when the IVC compression risk begins to increase. Starting at around 20 weeks, sleeping on your back should be avoided for extended periods. If you wake up on your back, simply roll to your side — this is common and does not mean harm has been done. A back wedge or the back section of a U-shaped pillow helps prevent unconscious rolling.</p>
 
     <h3>Third Trimester (Weeks 27–40)</h3>
-    <p>Full-body support becomes essential. The belly is large enough to create significant side-to-side torque when unsupported, pulling the lower back even during attempted side sleeping. Heartburn is common — slight head elevation (not just pillow stacking, but a controlled wedge under the upper body) reduces reflux. Hip pressure on the mattress increases. Leg cramps and restless leg syndrome peak. A quality C- or U-shape pillow addresses all of these simultaneously.</p>
+    <p>The third trimester is when pregnancy pillow support goes from helpful to essential for most women. The belly is at maximum size, hip pain intensifies as the baby drops into position, and the frequency of nighttime waking increases substantially. Many women in this period end up sleeping in a semi-reclined position — not quite sitting up, but with the upper body propped at a 20–30 degree angle using a combination of a wedge and a pregnancy pillow. This reduces both the IVC compression risk and the heartburn that frequently worsens in the final weeks.</p>
 
-    <!-- Pillow Shape Guide -->
-    <div class="shape-guide">
-      <h2>Pillow Shape Guide</h2>
-      <p>The shape is the single most important spec to get right before buying. Each silhouette solves a different set of problems and has a different footprint in bed.</p>
+    <p>If you have not already invested in a full-body pillow by week 28, now is the time. U-shaped designs provide the most comprehensive support for late-pregnancy sleep, and many women find that the investment pays off immediately in fewer nighttime wake-ups and less morning stiffness.</p>
 
-      <div class="shape-grid">
-
-        <div class="shape-card">
-          <div class="shape-visual">
-            <div class="pillow-c"></div>
-          </div>
-          <div class="shape-name">C-Shape</div>
-          <div class="shape-meta">
-            <span class="label">Best for</span><span class="value">Second &amp; third trimester</span>
-            <span class="label">Use case</span><span class="value">Wraps around the full body — head, belly, and knees in one piece</span>
-            <span class="label">Compactness</span><span class="value">Moderate — takes one side of the bed</span>
-            <span class="label">Partner space</span><span class="value">Moderate impact — stays on one side</span>
-          </div>
-          <p class="shape-desc">The most versatile shape. One end supports the head, the curve cradles the belly, and the bottom end goes between the knees. Most women find this the best balance of support and bed footprint. The Leachco Snoogle is the classic example.</p>
-        </div>
-
-        <div class="shape-card">
-          <div class="shape-visual">
-            <div class="pillow-u"></div>
-          </div>
-          <div class="shape-name">U-Shape</div>
-          <div class="shape-meta">
-            <span class="label">Best for</span><span class="value">Third trimester, back pain</span>
-            <span class="label">Use case</span><span class="value">Surrounds both front and back simultaneously</span>
-            <span class="label">Compactness</span><span class="value">Large — occupies the centre of the bed</span>
-            <span class="label">Partner space</span><span class="value">High impact — often extends across most of the mattress</span>
-          </div>
-          <p class="shape-desc">The most comprehensive support option. No need to flip the pillow when changing sides — both sides are pre-configured. Ideal when back support is as important as belly support. Requires a queen or king bed for comfortable shared use.</p>
-        </div>
-
-        <div class="shape-card">
-          <div class="shape-visual">
-            <div class="pillow-wedge"></div>
-          </div>
-          <div class="shape-name">Wedge</div>
-          <div class="shape-meta">
-            <span class="label">Best for</span><span class="value">All trimesters, minimalists</span>
-            <span class="label">Use case</span><span class="value">Targeted belly or back support only</span>
-            <span class="label">Compactness</span><span class="value">Very compact — fits in a carry-on</span>
-            <span class="label">Partner space</span><span class="value">Minimal impact</span>
-          </div>
-          <p class="shape-desc">A single small wedge placed under the belly prevents the forward rotation that strains the lower back. A second wedge behind the back blocks rolling. Best for women who only need support in one location, or who share a smaller bed. The Boppy wedge is a popular choice.</p>
-        </div>
-
-        <div class="shape-card">
-          <div class="shape-visual">
-            <div class="pillow-straight"></div>
-          </div>
-          <div class="shape-name">Full-Length Straight</div>
-          <div class="shape-meta">
-            <span class="label">Best for</span><span class="value">First &amp; second trimester</span>
-            <span class="label">Use case</span><span class="value">Between-knees alignment, basic hugging support</span>
-            <span class="label">Compactness</span><span class="value">Long but narrow — runs parallel to the body</span>
-            <span class="label">Partner space</span><span class="value">Low to moderate impact</span>
-          </div>
-          <p class="shape-desc">The simplest form of body pillow. Placed between the knees, it aligns the hips and reduces lumbar rotation — the root cause of most pregnancy-related back pain in side sleeping. Less effective at belly support but good as a starting point or for early pregnancy.</p>
-        </div>
-
-        <div class="shape-card">
-          <div class="shape-visual">
-            <div class="pillow-l"></div>
-          </div>
-          <div class="shape-name">L-Shape</div>
-          <div class="shape-meta">
-            <span class="label">Best for</span><span class="value">Second &amp; third trimester</span>
-            <span class="label">Use case</span><span class="value">Head/belly support without full back coverage</span>
-            <span class="label">Compactness</span><span class="value">Moderate — smaller than U but more coverage than C</span>
-            <span class="label">Partner space</span><span class="value">Moderate impact</span>
-          </div>
-          <p class="shape-desc">A hybrid between the straight pillow and the C-shape. The vertical arm supports the head and upper torso; the horizontal arm props the belly. Less common than the C or U, but preferred by women who don't need back support and want something easier to reposition.</p>
-        </div>
-
-      </div>
+    <div class="callout-green">
+      🌿 <strong>Tonight's action:</strong> Start training yourself to sleep on your left side now — add a regular pillow between your knees as a first step before investing in a specialty pillow. Consistency matters more than the pillow you use. Once left-side sleeping feels natural, your specialty pillow will provide the structural support to maintain it comfortably through each trimester.
     </div>
 
-    <h2>Top Picks</h2>
-    <p>These five options represent the best in each category. All links include the SleepWise affiliate tag — purchasing through them supports the site at no extra cost to you.</p>
-
-    <div class="product-grid">
-
-      <div class="product-card featured">
-        <div>
-          <div class="product-rank">#1 Best Overall</div>
-          <div class="product-name">Leachco Snoogle Total Body Pillow</div>
-          <div class="product-tags">
-            <span class="product-tag">C-Shape</span>
-            <span class="product-tag">Polyester Fill</span>
-            <span class="product-tag">Removable Cover</span>
-          </div>
-          <p class="product-desc">The Snoogle has been the default recommendation of midwives and OB-GYNs for over two decades, and its longevity is earned. The C-curve is calibrated so the upper end sits at head height and the lower end rests naturally between the knees for the average woman (5'4" to 5'8"). The removable jersey cotton cover is machine washable. Fill density is firm enough to maintain shape overnight without being rigid. It folds to C-shape naturally — no repositioning required when you flip sides.</p>
-        </div>
-        <div class="product-cta">
-          <a href="https://www.amazon.com/dp/B000I5A0NU?tag=sleepwiserevi-20" class="btn-affiliate" target="_blank" rel="nofollow noopener">View on Amazon</a>
-        </div>
-      </div>
-
-      <div class="product-card">
-        <div>
-          <div class="product-rank">#2 Best U-Shape</div>
-          <div class="product-name">PharMeDoc U-Shape Pregnancy Pillow</div>
-          <div class="product-tags">
-            <span class="product-tag">U-Shape</span>
-            <span class="product-tag">Jersey Cover</span>
-            <span class="product-tag">Detachable Design</span>
-          </div>
-          <p class="product-desc">The PharMeDoc U-shape provides simultaneous front and back support without needing to reposition when switching sides. The pillow can be separated at the top into two sections, making it adaptable as a nursing pillow post-birth. At 57 inches tall it suits women up to 5'10". Best suited to queen or king beds.</p>
-        </div>
-        <div class="product-cta">
-          <a href="https://www.amazon.com/s?k=PharMeDoc+U-Shape+Pregnancy+Pillow&tag=sleepwiserevi-20" class="btn-affiliate" target="_blank" rel="nofollow noopener">View on Amazon</a>
-        </div>
-      </div>
-
-      <div class="product-card">
-        <div>
-          <div class="product-rank">#3 Best Compact</div>
-          <div class="product-name">Boppy Pregnancy Wedge Pillow</div>
-          <div class="product-tags">
-            <span class="product-tag">Wedge</span>
-            <span class="product-tag">Ultra-Compact</span>
-            <span class="product-tag">Travel-Friendly</span>
-          </div>
-          <p class="product-desc">For women who don't want a full-size body pillow cluttering the bed, the Boppy wedge addresses the single most common complaint — belly drop causing lower back torque — in a package small enough to fit in a handbag. Place it under the belly while side sleeping. A second one behind the back acts as a passive roll blocker. Doubles as a nursing support wedge after delivery.</p>
-        </div>
-        <div class="product-cta">
-          <a href="https://www.amazon.com/s?k=Boppy+Pregnancy+Wedge&tag=sleepwiserevi-20" class="btn-affiliate" target="_blank" rel="nofollow noopener">View on Amazon</a>
-        </div>
-      </div>
-
-      <div class="product-card">
-        <div>
-          <div class="product-rank">#4 Best U-Shape Value</div>
-          <div class="product-name">QUEEN ROSE Full Pregnancy Body Pillow</div>
-          <div class="product-tags">
-            <span class="product-tag">U-Shape</span>
-            <span class="product-tag">Adjustable Fill</span>
-            <span class="product-tag">Cooling Cover</span>
-          </div>
-          <p class="product-desc">The QUEEN ROSE U-shape stands out for its breathable outer cover — an important factor given that basal body temperature rises throughout pregnancy, making standard polyester pillows uncomfortably warm. The fill is adjustable: a zippered inner liner allows you to remove stuffing to customise firmness. At a lower price point than most U-shape options, it's the best budget pick for full surround support.</p>
-        </div>
-        <div class="product-cta">
-          <a href="https://www.amazon.com/s?k=QUEEN+ROSE+Pregnancy+Body+Pillow&tag=sleepwiserevi-20" class="btn-affiliate" target="_blank" rel="nofollow noopener">View on Amazon</a>
-        </div>
-      </div>
-
-      <div class="product-card">
-        <div>
-          <div class="product-rank">#5 Best for Back Pain</div>
-          <div class="product-name">Leachco Back 'N Belly Chic</div>
-          <div class="product-tags">
-            <span class="product-tag">U-Shape</span>
-            <span class="product-tag">Contoured</span>
-            <span class="product-tag">Elevated Head End</span>
-          </div>
-          <p class="product-desc">Leachco's larger U-shape pillow includes a contoured head section with built-in elevation, addressing two problems at once: head and neck alignment and the mild head-of-bed elevation that reduces pregnancy heartburn. The contoured inner curve is firmer than the outer, providing targeted lumbar support on the back side. Best for third-trimester women with both heartburn and lower back pain.</p>
-        </div>
-        <div class="product-cta">
-          <a href="https://www.amazon.com/s?k=Leachco+Back+N+Belly+Chic&tag=sleepwiserevi-20" class="btn-affiliate" target="_blank" rel="nofollow noopener">View on Amazon</a>
-        </div>
-      </div>
-
+    <div class="product-cta">
+      <span class="product-cta-text">Ready to find the right pregnancy pillow? Browse top-rated options on Amazon</span>
+      <a class="btn-amazon" href="https://www.amazon.com/s?k=pregnancy+pillow&tag=sleepwiserevi-20" target="_blank" rel="noopener nofollow">Shop on Amazon</a>
     </div>
 
-    <h2>Fill Material Comparison</h2>
-    <p>The outer shape gets most of the attention, but fill material determines how the pillow actually feels after two or three hours of use — particularly relevant as pregnancy progresses and pressure sensitivity increases.</p>
+    <h2>A Note on Postpartum Use</h2>
+    <p>One of the best arguments for investing in a higher-quality pregnancy pillow is that it doesn't stop being useful the moment the baby arrives. C-shaped and U-shaped pillows double effectively as nursing support, elevating the baby to the correct height during breastfeeding and reducing the arm and neck strain that leads to the hunched-over posture many new mothers develop. Wedge pillows remain useful for propping a sleeping newborn at a slight angle when reflux is a concern (always consult your pediatrician before elevating a baby's sleep surface). The dollars-per-night calculation on a good pregnancy pillow looks much better when you account for 12–18 months of combined use rather than just the pregnancy itself.</p>
 
-    <table class="fill-table">
-      <thead>
-        <tr>
-          <th>Fill Type</th>
-          <th>Weight</th>
-          <th>Support Level</th>
-          <th>Adjustable</th>
-          <th>Best For</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Polyester Fiberfill</td>
-          <td>Light</td>
-          <td>Medium</td>
-          <td>No (fixed)</td>
-          <td>Most women; easy to machine wash</td>
-        </tr>
-        <tr>
-          <td>Shredded Memory Foam</td>
-          <td>Heavy</td>
-          <td>High</td>
-          <td>Yes (add/remove)</td>
-          <td>Severe back pain; firm-support preference</td>
-        </tr>
-        <tr>
-          <td>Microbeads</td>
-          <td>Medium</td>
-          <td>Contouring</td>
-          <td>No</td>
-          <td>Pressure relief, hip sensitivity</td>
-        </tr>
-        <tr>
-          <td>Natural Latex</td>
-          <td>Heavy</td>
-          <td>High, resilient</td>
-          <td>No</td>
-          <td>Allergy-conscious; long-term durability</td>
-        </tr>
-      </tbody>
-    </table>
-
-    <h2>Temperature Considerations</h2>
-    <p>Pregnancy increases basal body temperature by approximately 0.2–0.5°C from early in the first trimester due to progesterone. By the third trimester, the metabolic load of carrying a near-term fetus can make sleeping feel uncomfortably warm even in a cool room. A full-body pregnancy pillow adds significant insulating mass to one side of the body.</p>
-    <p>Look for pillows with covers in breathable cotton jersey or bamboo-derived rayon. Avoid polyester microfibre covers — they trap heat and feel clammy. The best covers are removable and machine washable: pregnancy means more sweating, and a pillow cover that can't be washed frequently will become unhygienic quickly.</p>
-
-    <h2>After Birth: Your Pillow Doesn't Retire</h2>
-    <p>A C- or U-shape pregnancy pillow repurposes directly into a nursing support pillow. Positioned around the waist and lap, it holds the infant at breast height without requiring the mother to lean forward — a posture that causes the shoulder and upper back pain that nearly every nursing mother experiences in the first weeks. The Boppy brand built its entire identity on this repurposing concept.</p>
-    <p>Even outside of nursing, a full-length body pillow remains useful postpartum: many women find that the hip and pelvic girdle pain from the loosened ligaments of late pregnancy persists for several weeks after delivery. The same between-knees positioning that helped during pregnancy continues to reduce hip rotation strain while the pelvis stabilises.</p>
-
-    <div class="takeaway">
-      <div class="takeaway-label">Bottom Line</div>
-      <p>Start with a C-shape like the Leachco Snoogle for second-trimester belly support. If you reach the third trimester needing back support as well, upgrade to a U-shape. If you share a full or queen bed and space is the constraint, two Boppy wedges solve 80% of the problem in half the footprint. Whatever you choose, prioritise a removable, washable cover and a fill density that won't compress flat within a few weeks.</p>
+    <div class="article-cta">
+      <h3>Get Our Free 7-Day Sleep Reset</h3>
+      <p>Join 18,000 readers who get weekly sleep tips and honest product reviews every Sunday.</p>
+      <a class="btn-amazon" href="../#newsletter">Subscribe Free</a>
     </div>
 
-    <div class="references">
-      <h2>References</h2>
-      <p>Kinosian, J. (2002). <cite>The Well-Rested Woman: 60 Soothing Suggestions for Getting a Good Night's Sleep</cite>. Conari Press.</p>
+    <div class="related-articles">
+      <h3>Related Articles</h3>
+      <ul>
+        <li><a href="pregnancy-sleep-guide.html">The Complete Pregnancy Sleep Guide: Trimesters 1–3</a></li>
+        <li><a href="best-sleep-position.html">Best Sleep Positions for Back Pain, Acid Reflux, and Circulation</a></li>
+        <li><a href="sleep-and-weight-loss.html">How Sleep Quality Affects Weight During and After Pregnancy</a></li>
+      </ul>
     </div>
+  </article>
 
-  </main>
-
+  <footer>
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a class="logo" href="../">SleepWise<span>Reviews</span></a>
+        <p>Honest, science-backed reviews to help you sleep deeper, recover faster, and wake up energized.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Reviews</h4>
+        <ul>
+          <li><a href="https://www.amazon.com/s?k=pregnancy+pillow&tag=sleepwiserevi-20" target="_blank">Pregnancy Pillows</a></li>
+          <li><a href="https://www.amazon.com/s?k=weighted+blanket&tag=sleepwiserevi-20" target="_blank">Weighted Blankets</a></li>
+          <li><a href="https://www.amazon.com/s?k=white+noise+machine&tag=sleepwiserevi-20" target="_blank">White Noise Machines</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Guides</h4>
+        <ul>
+          <li><a href="../#picks">Sleep Optimization</a></li>
+          <li><a href="../#reviews">Bedtime Routines</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Site</h4>
+        <ul>
+          <li><a href="../pages/about.html">About Harry Soul</a></li>
+          <li><a href="../pages/privacy-policy.html">Privacy Policy</a></li>
+          <li><a href="../pages/affiliate-disclosure.html">Affiliate Disclosure</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div>© 2025 SleepWiseReviews. All rights reserved.</div>
+      <div class="affiliate-disc">SleepWiseReviews is a participant in the Amazon Services LLC Associates Program.</div>
+    </div>
+  </footer>
 </body>
 </html>
