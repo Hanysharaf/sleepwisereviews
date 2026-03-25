@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sleep and Alzheimer's Risk: What the Research Really Shows - SleepWiseReviews</title>
+  <meta name="description" content="During sleep, the glymphatic system clears amyloid beta — the protein that accumulates in Alzheimer's. Here's what decades of research reveal about sleep and dementia risk." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <style type='text/css'>
+    :root {
+      --night: #0A0E1A;
+      --deep: #0F1525;
+      --navy: #141B30;
+      --card: #1A2238;
+      --border: #252D45;
+      --gold: #C9A84C;
+      --gold-light: #E5C96A;
+      --gold-dim: rgba(201, 168, 76, 0.15);
+      --star: #F0E6C8;
+      --text: #D4DCEE;
+      --muted: #7A85A0;
+      --white: #FFFFFF;
+      --green: #4CAF82;
+    }
+
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: 'Outfit', sans-serif;
+      background: var(--night);
+      color: var(--text);
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      background-image:
+        radial-gradient(1px 1px at 10% 15%, rgba(240, 230, 200, 0.6) 0%, transparent 100%),
+        radial-gradient(1px 1px at 25% 40%, rgba(240, 230, 200, 0.4) 0%, transparent 100%),
+        radial-gradient(1.5px 1.5px at 40% 10%, rgba(240, 230, 200, 0.5) 0%, transparent 100%),
+        radial-gradient(1px 1px at 55% 30%, rgba(240, 230, 200, 0.3) 0%, transparent 100%),
+        radial-gradient(1px 1px at 70% 5%, rgba(240, 230, 200, 0.6) 0%, transparent 100%),
+        radial-gradient(1.5px 1.5px at 80% 20%, rgba(240, 230, 200, 0.4) 0%, transparent 100%),
+        radial-gradient(1px 1px at 90% 45%, rgba(240, 230, 200, 0.3) 0%, transparent 100%);
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    nav {
+      position: sticky; top: 0; z-index: 100;
+      background: rgba(10, 14, 26, 0.92);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+      padding: 0 6%; height: 68px;
+      display: flex; align-items: center; justify-content: space-between;
+    }
+    .logo { font-family: 'Cormorant Garamond', serif; font-size: 1.6rem; font-weight: 700; color: var(--star); text-decoration: none; }
+    .logo span { color: var(--gold); }
+    .nav-links { display: flex; gap: 2rem; list-style: none; }
+    .nav-links a { text-decoration: none; color: var(--muted); font-size: 0.88rem; font-weight: 500; transition: color 0.2s; }
+    .nav-links a:hover { color: var(--gold); }
+    .nav-cta { background: var(--gold-dim); color: var(--gold) !important; border: 1px solid rgba(201, 168, 76, 0.3); padding: 7px 16px; border-radius: 4px; }
+
+    .article-wrapper {
+      position: relative; z-index: 1;
+      max-width: 800px; margin: 0 auto; padding: 50px 6% 80px;
+    }
+    .article-meta-top { display: flex; flex-wrap: wrap; align-items: center; gap: 0.8rem; margin-bottom: 1.2rem; }
+    .tag { background: var(--gold); color: var(--night); padding: 5px 12px; border-radius: 4px; font-size: 0.72rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; }
+    .meta-text { color: var(--muted); font-size: 0.82rem; }
+    .article-wrapper h1 { font-family: 'Cormorant Garamond', serif; font-size: 2.4rem; font-weight: 600; color: var(--star); line-height: 1.2; margin-bottom: 1.2rem; }
+    .article-intro { font-size: 1.1rem; color: var(--text); line-height: 1.7; margin-bottom: 2rem; font-weight: 300; }
+    .author-box { display: flex; align-items: center; gap: 1rem; margin-bottom: 1.5rem; padding: 1rem; background: var(--card); border-radius: 8px; border: 1px solid var(--border); }
+    .author-avatar { font-size: 2.5rem; }
+    .author-name { color: var(--star); font-weight: 500; }
+    .author-name a { color: var(--gold); text-decoration: none; }
+    .author-role { color: var(--muted); font-size: 0.82rem; }
+    .disclosure-box { background: rgba(201, 168, 76, 0.08); border: 1px solid rgba(201, 168, 76, 0.2); border-radius: 8px; padding: 1rem 1.2rem; font-size: 0.82rem; color: var(--muted); margin-bottom: 2rem; }
+    .article-wrapper h2 { font-family: 'Cormorant Garamond', serif; font-size: 1.6rem; font-weight: 600; color: var(--star); margin: 2.5rem 0 1rem; padding-top: 1rem; }
+    .article-wrapper h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.2rem; color: var(--star); margin: 1.5rem 0 0.8rem; }
+    .article-wrapper p { margin-bottom: 1rem; font-weight: 300; line-height: 1.8; }
+    .article-wrapper ul, .article-wrapper ol { margin: 1rem 0 1.5rem 1.5rem; }
+    .article-wrapper li { margin-bottom: 0.5rem; font-weight: 300; }
+    .callout { background: var(--card); border-left: 3px solid var(--gold); padding: 1rem 1.5rem; margin: 1.5rem 0; border-radius: 0 8px 8px 0; font-size: 0.92rem; }
+    .callout-green { background: var(--card); border-left: 3px solid var(--green); padding: 1rem 1.5rem; margin: 1.5rem 0; border-radius: 0 8px 8px 0; font-size: 0.92rem; }
+    .callout-green strong { color: var(--green); }
+
+    .stat-box { background: var(--navy); border: 1px solid var(--border); border-radius: 10px; padding: 1.4rem 1.6rem; margin: 1.5rem 0; display: flex; align-items: flex-start; gap: 1rem; }
+    .stat-icon { font-size: 1.8rem; flex-shrink: 0; }
+    .stat-text { font-size: 0.92rem; color: var(--text); font-weight: 300; line-height: 1.7; }
+    .stat-text strong { color: var(--star); font-weight: 600; }
+
+    .product-cta { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 1.5rem; margin: 2rem 0; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; }
+    .product-cta-text { color: var(--star); font-weight: 500; }
+    .btn-amazon { background: var(--gold); color: var(--night); text-decoration: none; padding: 10px 20px; border-radius: 6px; font-weight: 600; font-size: 0.88rem; transition: background 0.2s; }
+    .btn-amazon:hover { background: var(--gold-light); }
+
+    .article-cta { background: linear-gradient(135deg, var(--card), var(--navy)); border: 1px solid var(--border); border-radius: 12px; padding: 2rem; text-align: center; margin: 3rem 0; }
+    .article-cta h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.4rem; color: var(--star); margin-bottom: 0.8rem; }
+    .article-cta p { color: var(--muted); margin-bottom: 1.2rem; }
+
+    .related-articles { margin: 3rem 0; }
+    .related-articles h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.3rem; color: var(--star); margin-bottom: 1rem; }
+    .related-articles ul { list-style: none; margin: 0; }
+    .related-articles li { margin-bottom: 0.6rem; }
+    .related-articles a { color: var(--gold); text-decoration: none; font-size: 0.95rem; }
+    .related-articles a:hover { text-decoration: underline; }
+
+    footer { background: #060912; border-top: 1px solid var(--border); padding: 50px 6% 30px; }
+    .footer-top { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 3rem; margin-bottom: 3rem; padding-bottom: 3rem; border-bottom: 1px solid var(--border); }
+    .footer-brand p { color: var(--muted); font-size: 0.82rem; margin-top: 0.8rem; line-height: 1.6; font-weight: 300; max-width: 260px; }
+    .footer-col h4 { font-size: 0.78rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--gold); margin-bottom: 1rem; }
+    .footer-col ul { list-style: none; display: flex; flex-direction: column; gap: 0.6rem; }
+    .footer-col a { color: var(--muted); text-decoration: none; font-size: 0.85rem; transition: color 0.2s; }
+    .footer-col a:hover { color: var(--gold); }
+    .footer-bottom { display: flex; justify-content: space-between; font-size: 0.78rem; color: var(--muted); flex-wrap: wrap; gap: 0.5rem; }
+    .affiliate-disc { font-size: 0.75rem; max-width: 600px; }
+
+    @media (max-width: 900px) {
+      .nav-links { display: none; }
+      .article-wrapper h1 { font-size: 1.8rem; }
+      .footer-top { grid-template-columns: 1fr 1fr; }
+      .product-cta { flex-direction: column; text-align: center; }
+      .stat-box { flex-direction: column; }
+    }
+  </style>
+</head>
+
+<body>
+  <nav>
+    <a class="logo" href="../">SleepWise<span>Reviews</span></a>
+    <ul class="nav-links">
+      <li><a href="../#picks">Top Picks</a></li>
+      <li><a href="../#reviews">Reviews</a></li>
+      <li><a href="../pages/about.html">About Harry</a></li>
+      <li><a href="../#newsletter" class="nav-cta">Free Sleep Guide</a></li>
+    </ul>
+  </nav>
+
+  <article class="article-wrapper">
+    <div class="article-meta-top">
+      <span class="tag">Health</span>
+      <span class="meta-text">📅 August 2022 · ⏱ 10 min read · 🔄 Updated Mar 2026</span>
+    </div>
+
+    <h1>Sleep and Alzheimer's Risk: What the Research Really Shows</h1>
+
+    <p class="article-intro">During sleep, the glymphatic system clears amyloid beta — the protein that accumulates in Alzheimer's. Miss enough sleep, and that waste starts to accumulate. This is no longer a hypothesis; it is one of the most consistent findings in neuroscience over the last decade.</p>
+
+    <div class="author-box">
+      <div class="author-avatar">🧠</div>
+      <div class="author-info">
+        <div class="author-name">By <a href="../pages/about.html">Harry Soul</a> - SleepWiseReviews</div>
+        <div class="author-role">Independent Sleep Researcher — August 2022</div>
+      </div>
+    </div>
+
+    <div class="disclosure-box">
+      <strong>Affiliate Disclosure:</strong> This article contains affiliate links. We earn a small commission if you purchase through our links at no extra cost to you. <a href="../pages/affiliate-disclosure.html" style="color:var(--gold)">Full disclosure</a>
+    </div>
+
+    <h2>The Glymphatic System: Your Brain's Overnight Cleaning Crew</h2>
+
+    <p>For most of neuroscience history, the brain was considered lymph-free — the only organ in the body without a dedicated waste-clearance system running alongside the blood supply. That assumption was dismantled in 2013 when Maiken Nedergaard and her team at the University of Rochester published a landmark study in <em>Science</em> revealing the glymphatic system: a network of channels that surrounds the brain's blood vessels and uses cerebrospinal fluid (CSF) to flush out metabolic waste.</p>
+
+    <p>The discovery was remarkable on its own. What made it profoundly important for brain health was the follow-up finding: the glymphatic system is nearly inactive during wakefulness. It becomes fully operational only during sleep, and most powerfully during deep, slow-wave sleep. During those hours, the brain's interstitial space expands by roughly 60 percent, allowing CSF to flow through more freely and flush out toxins at a rate that simply cannot happen during the day.</p>
+
+    <p>Think of it as a dishwasher that only runs at night. Skip sleep, and the dishes pile up. In the brain, the dishes are neurotoxic proteins — chief among them, amyloid beta.</p>
+
+    <h2>Amyloid Beta and Tau: The Proteins Behind Alzheimer's</h2>
+
+    <p>Alzheimer's disease is defined pathologically by two features: plaques of amyloid beta protein that accumulate between neurons, and tangles of tau protein that form inside neurons. Both disrupt communication between brain cells and eventually trigger cell death. The disease progresses over decades before symptoms appear — which is precisely why sleep habits in middle age matter so much for cognitive health in old age.</p>
+
+    <p>Amyloid beta is a normal byproduct of neuronal activity. Every time neurons fire, they produce a small amount of it. Under healthy conditions, the glymphatic system clears it away each night. The problem arises when clearance fails to keep pace with production. Plaques begin to form. Inflammation follows. The cascade that eventually produces Alzheimer's symptoms is already underway, years before any memory complaint surfaces.</p>
+
+    <p>Tau protein tells a similar story. While it plays a structural role in healthy neurons, sleep deprivation causes it to accumulate and misfold — the first step toward the neurofibrillary tangles seen in Alzheimer's brains. A 2019 study published in <em>Science</em> found that even a single night of total sleep deprivation increased tau levels in the blood by 17 percent in healthy young adults. The brain does not need decades of poor sleep to begin showing measurable changes.</p>
+
+    <h2>The Bidirectional Loop: Poor Sleep Fuels More Amyloid, More Amyloid Fuels Worse Sleep</h2>
+
+    <p>One of the most troubling aspects of the sleep-Alzheimer's relationship is that it operates as a self-reinforcing loop. Insufficient sleep allows amyloid beta to accumulate. But amyloid accumulation, in turn, disrupts the very sleep architecture needed to clear it — particularly slow-wave sleep, which is the stage most dependent on glymphatic activity.</p>
+
+    <p>Research using PET imaging has shown that individuals with higher amyloid burden in their brains show measurably worse slow-wave sleep activity. The same slow-wave disruption reduces overnight glymphatic clearance, which leads to further amyloid accumulation by morning. Each night of poor sleep tightens this loop a little more.</p>
+
+    <div class="callout">
+      💡 <strong>Key insight:</strong> This bidirectional relationship means that treating sleep problems in midlife is not merely about feeling rested — it may be one of the most powerful modifiable interventions available for reducing Alzheimer's risk.
+    </div>
+
+    <p>As Matthew Walker writes in <em>Why We Sleep</em> (2017), "The shorter your sleep, the shorter your life. The leading causes of disease and death in developed nations — diseases that are crippling health-care systems, such as heart disease, obesity, dementia, diabetes, and cancer — all have recognized causal links to a lack of sleep." Walker's synthesis of the research makes a compelling case that sleep is not a passive state but an active biological necessity, and that the brain's nightly housekeeping work is among its most consequential functions.</p>
+
+    <h2>What Decades of Epidemiological Data Show</h2>
+
+    <p>Large-scale population studies have been tracking the sleep-dementia link for decades, and the pattern is consistent. A 2021 study published in <em>Nature Communications</em>, drawing on data from nearly 8,000 participants followed over 25 years, found that people who regularly slept six hours or fewer per night in their 50s and 60s had a 30 percent higher risk of developing dementia compared to those who slept seven hours. Crucially, the association held even after accounting for depression, cardiovascular disease, and other known risk factors.</p>
+
+    <p>A separate meta-analysis published in <em>Sleep Medicine Reviews</em> pooled data from 27 studies and over 69,000 participants. It found that both short sleep duration (under 6 hours) and poor sleep quality independently increased the risk of cognitive impairment and Alzheimer's disease. The effect sizes were not trivial — on par with well-established risk factors like midlife hypertension.</p>
+
+    <div class="stat-box">
+      <div class="stat-icon">📊</div>
+      <div class="stat-text"><strong>Key finding:</strong> Adults sleeping 6 hours or less per night in their 50s and 60s showed a 30% higher risk of developing dementia over a 25-year follow-up period, independent of lifestyle and health confounders. (<em>Nature Communications</em>, 2021)</div>
+    </div>
+
+    <p>What makes these findings particularly sobering is the latency. Cognitive symptoms of Alzheimer's typically appear in the 70s or 80s, but the amyloid accumulation that drives the disease begins 15 to 20 years earlier. The sleep habits that matter most are not those of old age — they are the habits of midlife.</p>
+
+    <h2>Deep Sleep Specifically: Why Slow-Wave Sleep Drives Glymphatic Clearance</h2>
+
+    <p>Not all sleep stages contribute equally to glymphatic clearance. The research points specifically to slow-wave sleep — also called deep sleep or N3 — as the critical window. During slow-wave sleep, large, synchronized oscillations of neural activity (the slow waves themselves) appear to drive rhythmic CSF flow through the glymphatic channels, creating a pumping action that moves waste proteins toward the lymphatic drainage system.</p>
+
+    <p>REM sleep contributes to memory consolidation and emotional regulation, but it does not produce the same hydraulic clearance effect. Light sleep stages (N1 and N2) contribute modestly. The deep sleep stage — which is most abundant in the early part of the night and declines sharply with age — is where the neurological housekeeping predominantly happens.</p>
+
+    <p>This has a direct implication for age-related Alzheimer's risk. Slow-wave sleep naturally decreases across the adult lifespan, falling by roughly 2 percent per decade from young adulthood. By the time a person reaches their 60s, they may have lost more than a third of the slow-wave sleep they had at 25. If glymphatic clearance depends on slow-wave sleep, then aging itself builds in a progressive reduction in the brain's ability to clear amyloid — quite apart from any lifestyle factors.</p>
+
+    <h2>What the NIH Study Showed About Even One Night of Sleep Loss</h2>
+
+    <p>In 2017, the National Institutes of Health published a study in <em>PNAS</em> using PET scanning to measure amyloid beta in the brains of healthy adults after a night of normal sleep versus a night of sleep deprivation. The results were striking. After just one sleepless night, amyloid beta levels in the thalamus and hippocampus — regions heavily implicated in Alzheimer's — increased by approximately 5 percent.</p>
+
+    <p>The hippocampus is the brain's primary memory center and one of the first regions damaged by Alzheimer's disease. The fact that a single night of inadequate sleep produces measurable amyloid increases in that specific region illustrates how immediate and targeted the consequences of sleep loss are. This is not a slow, cumulative effect that only shows up after years of chronic deprivation — the brain responds to disrupted sleep at the molecular level within hours.</p>
+
+    <p>Subsequent nights of recovery sleep did reduce amyloid levels, but not necessarily back to baseline. This suggests that chronic sleep restriction does not permit full clearance, allowing a small deficit to compound over years and decades.</p>
+
+    <h2>Sleep Apnea: A Compounding Risk</h2>
+
+    <p>Obstructive sleep apnea (OSA) deserves special attention in any discussion of sleep and Alzheimer's risk. OSA affects an estimated 20 to 30 percent of middle-aged adults, with many cases undiagnosed. During apnea events, breathing stops repeatedly throughout the night — sometimes dozens or hundreds of times — causing oxygen levels to drop and sleep architecture to fragment.</p>
+
+    <p>The consequences for glymphatic clearance are twofold. First, the repeated micro-arousals prevent the brain from reaching and sustaining the slow-wave sleep that drives overnight cleaning. Second, the intermittent hypoxia (oxygen deprivation) that accompanies each apnea event independently increases amyloid production and reduces the brain's capacity to clear it.</p>
+
+    <p>Studies show that people with untreated sleep apnea accumulate amyloid beta faster than matched controls without the condition. They also show accelerated tau pathology and cortical thinning in Alzheimer's-vulnerable brain regions. Encouragingly, treatment with CPAP therapy has been shown to reduce amyloid burden and slow cognitive decline in some populations — reinforcing the idea that the sleep-Alzheimer's connection is not merely correlational but mechanistic and reversible, at least in part.</p>
+
+    <div class="stat-box">
+      <div class="stat-icon">😮‍💨</div>
+      <div class="stat-text"><strong>Sleep apnea and dementia:</strong> Untreated OSA accelerates amyloid accumulation in Alzheimer's-vulnerable brain regions. CPAP treatment has been shown in multiple studies to reduce amyloid burden and slow cognitive decline — making diagnosis and treatment a meaningful intervention for long-term brain health.</div>
+    </div>
+
+    <h2>Practical Steps That May Reduce Long-Term Risk</h2>
+
+    <p>The science is clear enough that it warrants action, even while acknowledging that no single lifestyle change is a guarantee against Alzheimer's. The following are evidence-based sleep habits that support glymphatic clearance and slow-wave sleep specifically:</p>
+
+    <div class="callout-green">
+      <strong>Practical Takeaway:</strong> Protecting your slow-wave sleep is your best available tool for supporting overnight brain clearance. Prioritize a cool, dark bedroom (65–68°F), a consistent sleep and wake time — including weekends — and limit alcohol, which suppresses deep sleep even at low doses. If you snore or wake unrefreshed despite adequate sleep time, ask your doctor about a sleep apnea evaluation. A sleep tracker can help you identify patterns in your deep sleep over time.
+    </div>
+
+    <ul>
+      <li><strong>Prioritize 7–9 hours consistently.</strong> Regularity matters as much as duration — an irregular schedule breaks up slow-wave sleep even when total time is adequate.</li>
+      <li><strong>Keep your bedroom cool.</strong> Core body temperature must drop to initiate deep sleep. A room temperature of 65–68°F (18–20°C) is optimal for most adults.</li>
+      <li><strong>Limit alcohol.</strong> Even moderate alcohol intake suppresses slow-wave sleep, reducing the glymphatic clearance window. The effect occurs at blood alcohol levels well below the legal driving limit.</li>
+      <li><strong>Exercise regularly, earlier in the day.</strong> Aerobic exercise is one of the most reliable interventions for increasing slow-wave sleep. Timing matters — vigorous exercise within three hours of bedtime can delay sleep onset.</li>
+      <li><strong>Manage sleep apnea.</strong> If you snore loudly, wake repeatedly during the night, or feel unrefreshed after a full night's sleep, pursue evaluation. CPAP and other treatments exist and are effective.</li>
+      <li><strong>Reduce late-night screen exposure.</strong> Blue light suppresses melatonin and delays sleep onset. Dimming lights and limiting screens after 9 pm supports earlier, deeper sleep.</li>
+      <li><strong>Consider a sleep tracker.</strong> Monitoring your deep sleep trends over weeks can reveal patterns — such as the effect of alcohol, late meals, or stress — that are otherwise invisible.</li>
+    </ul>
+
+    <p>The relationship between sleep and Alzheimer's is one of the more hopeful stories in neuroscience precisely because sleep is modifiable. Unlike age, genetics, or APOE status, sleep is something that can be improved — and the window in which that improvement matters most is not old age, but the decades before symptoms ever appear.</p>
+
+    <div class="product-cta">
+      <span class="product-cta-text">Track your deep sleep trends with a health-focused sleep monitor</span>
+      <a class="btn-amazon" href="https://www.amazon.com/s?k=sleep+tracker+health+monitoring&tag=sleepwiserevi-20" target="_blank" rel="noopener nofollow">Shop Sleep Trackers on Amazon</a>
+    </div>
+
+    <div class="article-cta">
+      <h3>Get Our Free 7-Day Sleep Reset</h3>
+      <p>Join 18,000 readers who get weekly sleep science insights and honest product reviews every Sunday.</p>
+      <a class="btn-amazon" href="../#newsletter">Subscribe Free</a>
+    </div>
+
+    <div class="related-articles">
+      <h3>Related Articles</h3>
+      <ul>
+        <li><a href="deep-sleep-benefits.html">The Science of Deep Sleep: Why Slow-Wave Sleep Is the Most Restorative Stage</a></li>
+        <li><a href="sleep-longevity.html">How Sleep Affects Longevity: What the Research Shows</a></li>
+        <li><a href="sleep-apnea-warning-signs.html">Sleep Apnea Warning Signs You Shouldn't Ignore</a></li>
+      </ul>
+    </div>
+  </article>
+
+  <footer>
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a class="logo" href="../">SleepWise<span>Reviews</span></a>
+        <p>Honest, science-backed reviews to help you sleep deeper, recover faster, and wake up energized.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Reviews</h4>
+        <ul>
+          <li><a href="https://www.amazon.com/s?k=weighted+blanket&tag=sleepwiserevi-20" target="_blank">Weighted Blankets</a></li>
+          <li><a href="https://www.amazon.com/s?k=white+noise+machine&tag=sleepwiserevi-20" target="_blank">White Noise Machines</a></li>
+          <li><a href="https://www.amazon.com/s?k=sleep+supplements&tag=sleepwiserevi-20" target="_blank">Supplements</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Guides</h4>
+        <ul>
+          <li><a href="../#picks">Sleep Optimization</a></li>
+          <li><a href="../#reviews">Bedtime Routines</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Site</h4>
+        <ul>
+          <li><a href="../pages/about.html">About Harry Soul</a></li>
+          <li><a href="../pages/privacy-policy.html">Privacy Policy</a></li>
+          <li><a href="../pages/affiliate-disclosure.html">Affiliate Disclosure</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div>© 2025 SleepWiseReviews. All rights reserved.</div>
+      <div class="affiliate-disc">SleepWiseReviews is a participant in the Amazon Services LLC Associates Program.</div>
+    </div>
+  </footer>
+</body>
+</html>
