@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Your Circadian Rhythm: The 24-Hour Clock Running Everything - SleepWiseReviews</title>
+  <meta name="description" content="Every cell in your body keeps its own 24-hour clock. When they fall out of sync, disease follows. Learn how your circadian rhythm controls sleep, hormones, metabolism, and more." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <style type='text/css'>
+    :root {
+      --night: #0A0E1A;
+      --deep: #0F1525;
+      --navy: #141B30;
+      --card: #1A2238;
+      --border: #252D45;
+      --gold: #C9A84C;
+      --gold-light: #E5C96A;
+      --gold-dim: rgba(201, 168, 76, 0.15);
+      --star: #F0E6C8;
+      --text: #D4DCEE;
+      --muted: #7A85A0;
+      --white: #FFFFFF;
+      --green: #4CAF82;
+    }
+
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: 'Outfit', sans-serif;
+      background: var(--night);
+      color: var(--text);
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      background-image:
+        radial-gradient(1px 1px at 10% 15%, rgba(240, 230, 200, 0.6) 0%, transparent 100%),
+        radial-gradient(1px 1px at 25% 40%, rgba(240, 230, 200, 0.4) 0%, transparent 100%),
+        radial-gradient(1.5px 1.5px at 40% 10%, rgba(240, 230, 200, 0.5) 0%, transparent 100%),
+        radial-gradient(1px 1px at 55% 30%, rgba(240, 230, 200, 0.3) 0%, transparent 100%),
+        radial-gradient(1px 1px at 70% 5%, rgba(240, 230, 200, 0.6) 0%, transparent 100%),
+        radial-gradient(1.5px 1.5px at 80% 20%, rgba(240, 230, 200, 0.4) 0%, transparent 100%),
+        radial-gradient(1px 1px at 90% 45%, rgba(240, 230, 200, 0.3) 0%, transparent 100%);
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    nav {
+      position: sticky; top: 0; z-index: 100;
+      background: rgba(10, 14, 26, 0.92);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+      padding: 0 6%; height: 68px;
+      display: flex; align-items: center; justify-content: space-between;
+    }
+    .logo { font-family: 'Cormorant Garamond', serif; font-size: 1.6rem; font-weight: 700; color: var(--star); text-decoration: none; }
+    .logo span { color: var(--gold); }
+    .nav-links { display: flex; gap: 2rem; list-style: none; }
+    .nav-links a { text-decoration: none; color: var(--muted); font-size: 0.88rem; font-weight: 500; transition: color 0.2s; }
+    .nav-links a:hover { color: var(--gold); }
+    .nav-cta { background: var(--gold-dim); color: var(--gold) !important; border: 1px solid rgba(201, 168, 76, 0.3); padding: 7px 16px; border-radius: 4px; }
+
+    .article-wrapper {
+      position: relative; z-index: 1;
+      max-width: 800px; margin: 0 auto; padding: 50px 6% 80px;
+    }
+    .article-meta-top { display: flex; flex-wrap: wrap; align-items: center; gap: 0.8rem; margin-bottom: 1.2rem; }
+    .tag { background: var(--gold); color: var(--night); padding: 5px 12px; border-radius: 4px; font-size: 0.72rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; }
+    .meta-text { color: var(--muted); font-size: 0.82rem; }
+    .article-wrapper h1 { font-family: 'Cormorant Garamond', serif; font-size: 2.4rem; font-weight: 600; color: var(--star); line-height: 1.2; margin-bottom: 1.2rem; }
+    .article-intro { font-size: 1.1rem; color: var(--text); line-height: 1.7; margin-bottom: 2rem; font-weight: 300; }
+    .author-box { display: flex; align-items: center; gap: 1rem; margin-bottom: 1.5rem; padding: 1rem; background: var(--card); border-radius: 8px; border: 1px solid var(--border); }
+    .author-avatar { font-size: 2.5rem; }
+    .author-name { color: var(--star); font-weight: 500; }
+    .author-name a { color: var(--gold); text-decoration: none; }
+    .author-role { color: var(--muted); font-size: 0.82rem; }
+    .disclosure-box { background: rgba(201, 168, 76, 0.08); border: 1px solid rgba(201, 168, 76, 0.2); border-radius: 8px; padding: 1rem 1.2rem; font-size: 0.82rem; color: var(--muted); margin-bottom: 2rem; }
+    .article-wrapper h2 { font-family: 'Cormorant Garamond', serif; font-size: 1.6rem; font-weight: 600; color: var(--star); margin: 2.5rem 0 1rem; padding-top: 1rem; }
+    .article-wrapper h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.2rem; color: var(--star); margin: 1.5rem 0 0.8rem; }
+    .article-wrapper p { margin-bottom: 1rem; font-weight: 300; line-height: 1.8; }
+    .article-wrapper ul, .article-wrapper ol { margin: 1rem 0 1.5rem 1.5rem; }
+    .article-wrapper li { margin-bottom: 0.5rem; font-weight: 300; }
+    .callout { background: var(--card); border-left: 3px solid var(--gold); padding: 1rem 1.5rem; margin: 1.5rem 0; border-radius: 0 8px 8px 0; font-size: 0.92rem; }
+    .callout-green { background: var(--card); border-left: 3px solid var(--green); padding: 1rem 1.5rem; margin: 1.5rem 0; border-radius: 0 8px 8px 0; font-size: 0.92rem; }
+
+    .product-cta { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 1.5rem; margin: 2rem 0; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; }
+    .product-cta-text { color: var(--star); font-weight: 500; }
+    .btn-amazon { background: var(--gold); color: var(--night); text-decoration: none; padding: 10px 20px; border-radius: 6px; font-weight: 600; font-size: 0.88rem; transition: background 0.2s; }
+    .btn-amazon:hover { background: var(--gold-light); }
+
+    .article-cta { background: linear-gradient(135deg, var(--card), var(--navy)); border: 1px solid var(--border); border-radius: 12px; padding: 2rem; text-align: center; margin: 3rem 0; }
+    .article-cta h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.4rem; color: var(--star); margin-bottom: 0.8rem; }
+    .article-cta p { color: var(--muted); margin-bottom: 1.2rem; }
+
+    .related-articles { margin: 3rem 0; }
+    .related-articles h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.3rem; color: var(--star); margin-bottom: 1rem; }
+    .related-articles ul { list-style: none; margin: 0; }
+    .related-articles li { margin-bottom: 0.6rem; }
+    .related-articles a { color: var(--gold); text-decoration: none; font-size: 0.95rem; }
+    .related-articles a:hover { text-decoration: underline; }
+
+    footer { background: #060912; border-top: 1px solid var(--border); padding: 50px 6% 30px; }
+    .footer-top { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 3rem; margin-bottom: 3rem; padding-bottom: 3rem; border-bottom: 1px solid var(--border); }
+    .footer-brand p { color: var(--muted); font-size: 0.82rem; margin-top: 0.8rem; line-height: 1.6; font-weight: 300; max-width: 260px; }
+    .footer-col h4 { font-size: 0.78rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--gold); margin-bottom: 1rem; }
+    .footer-col ul { list-style: none; display: flex; flex-direction: column; gap: 0.6rem; }
+    .footer-col a { color: var(--muted); text-decoration: none; font-size: 0.85rem; transition: color 0.2s; }
+    .footer-col a:hover { color: var(--gold); }
+    .footer-bottom { display: flex; justify-content: space-between; font-size: 0.78rem; color: var(--muted); flex-wrap: wrap; gap: 0.5rem; }
+    .affiliate-disc { font-size: 0.75rem; max-width: 600px; }
+
+    @media (max-width: 900px) {
+      .nav-links { display: none; }
+      .article-wrapper h1 { font-size: 1.8rem; }
+      .footer-top { grid-template-columns: 1fr 1fr; }
+      .product-cta { flex-direction: column; text-align: center; }
+    }
+  </style>
+</head>
+
+<body>
+  <nav>
+    <a class="logo" href="../">SleepWise<span>Reviews</span></a>
+    <ul class="nav-links">
+      <li><a href="../#picks">Top Picks</a></li>
+      <li><a href="../#reviews">Reviews</a></li>
+      <li><a href="../pages/about.html">About Harry</a></li>
+      <li><a href="../#newsletter" class="nav-cta">Free Sleep Guide</a></li>
+    </ul>
+  </nav>
+
+  <article class="article-wrapper">
+    <div class="article-meta-top">
+      <span class="tag">Sleep Science</span>
+      <span class="meta-text">📅 March 2021</span>
+      <span class="meta-text">·</span>
+      <span class="meta-text">⏱ 9 min read</span>
+      <span class="meta-text">·</span>
+      <span class="meta-text">🔄 Updated Mar 2026</span>
+    </div>
+    <h1>Your Circadian Rhythm: The 24-Hour Clock Running Everything</h1>
+    <p class="article-intro">Every cell in your body keeps its own 24-hour clock. When they fall out of sync, disease follows. Understanding your circadian rhythm is not just about sleeping better — it is about aligning your entire biology with the natural world.</p>
+
+    <div class="author-box">
+      <div class="author-avatar">🌙</div>
+      <div class="author-info">
+        <div class="author-name">By <a href="../pages/about.html">Harry Soul</a> - SleepWiseReviews</div>
+        <div class="author-role">Independent Sleep Researcher - March 2021</div>
+      </div>
+    </div>
+
+    <div class="disclosure-box">
+      <strong>Affiliate Disclosure:</strong> This article contains affiliate links. We earn a small commission if you purchase through our links at no extra cost to you. <a href="../pages/affiliate-disclosure.html" style="color:var(--gold)">Full disclosure</a>
+    </div>
+
+    <h2>A Nobel Prize-Winning Discovery</h2>
+    <p>In 2017, the Nobel Prize in Physiology or Medicine was awarded to three American scientists — Jeffrey Hall, Michael Rosbash, and Michael Young — for their groundbreaking work on the molecular mechanisms that control circadian rhythms. Their research, conducted primarily in fruit flies, revealed that living organisms use a feedback loop of clock genes to track time with astonishing precision.</p>
+    <p>The key discovery was a set of genes — <em>period</em>, <em>timeless</em>, and <em>clock</em> — that encode proteins which accumulate during the night and degrade during the day, creating a self-sustaining 24-hour oscillation. This molecular clock is not unique to flies. The same fundamental mechanism, conserved across hundreds of millions of years of evolution, ticks inside every cell of your body right now.</p>
+    <p>The implications are profound. Circadian biology is not a curiosity of basic science — it is the operating system of human health. Almost every physiological process, from cortisol secretion and cell division to immune function and drug metabolism, follows a predictable daily rhythm.</p>
+
+    <div class="callout">💡 <strong>Nobel context:</strong> Hall, Rosbash, and Young's work showed that disrupting clock genes in fruit flies caused the same kind of sleep and health problems seen in shift workers and jet-lagged travelers — establishing a direct causal link between circadian disruption and disease.</div>
+
+    <h2>The Master Pacemaker: Your Suprachiasmatic Nucleus</h2>
+    <p>Deep in the hypothalamus, sitting just above the optic chiasm where the two optic nerves cross, is a tiny bilateral structure containing roughly 20,000 neurons. This is the suprachiasmatic nucleus — the SCN — and it is the master clock of the mammalian brain.</p>
+    <p>The SCN synchronizes all the peripheral clocks in your organs, tissues, and cells. It does this primarily through two channels: the autonomic nervous system, which sends timing signals directly to organs, and hormonal cascades, most notably the secretion of melatonin from the pineal gland. Every morning, the SCN receives direct light input from the retina and resets itself to solar time, then broadcasts that time signal throughout the body.</p>
+    <p>Damage the SCN and an animal loses almost all circadian rhythmicity — sleep becomes fragmented and arrhythmic, hormones lose their peaks and troughs, body temperature fails to cycle normally. The SCN is not merely important; it is indispensable to coordinated biological timekeeping.</p>
+
+    <h2>Peripheral Clocks: Every Organ Has Its Own Rhythm</h2>
+    <p>While the SCN acts as the conductor, the orchestra is distributed. Every organ in the body — liver, heart, lungs, kidneys, gut, skin, even fat tissue — contains cells that express the same core clock genes and maintain their own autonomous 24-hour oscillation. These peripheral clocks are semi-independent. They can run for several days in isolation, but they gradually drift unless re-entrained by timing signals from the SCN and from the local environment.</p>
+    <p>The liver clock, for example, governs when enzymes involved in glucose metabolism, lipid processing, and drug detoxification are active. The liver is most metabolically primed to handle a large meal in the morning and early afternoon; the same meal eaten late at night is processed inefficiently, with more of the glucose being stored as fat and a blunted insulin response. The gut clock controls the timing of peristalsis, acid secretion, and the expression of nutrient transporters — all of which peak during daytime hours.</p>
+    <p>This distributed architecture means that circadian misalignment can occur not just between you and the sun, but between your own organs. When your liver clock says noon but your brain clock says midnight — a situation that arises with shift work, night eating, or transmeridian travel — the resulting internal desynchrony is associated with metabolic syndrome, obesity, cardiovascular disease, and impaired immunity.</p>
+
+    <div class="callout">💡 <strong>Key insight:</strong> Modern research has identified clock-controlled genes in virtually every tissue studied. Approximately 80% of protein-coding genes show circadian expression in at least one tissue — meaning your genome itself is time-stamped.</div>
+
+    <h2>Light: The Primary Zeitgeber</h2>
+    <p>A zeitgeber is a German word meaning "time-giver" — an environmental cue that entrains biological clocks to the 24-hour cycle of the Earth. Light is by far the most powerful zeitgeber for humans, and the mechanism is more specific than most people realize.</p>
+    <p>The photoreceptors responsible for circadian entrainment are not the rods and cones you use for vision. They are a third class of retinal cell called intrinsically photosensitive retinal ganglion cells — ipRGCs — which contain a photopigment called melanopsin. Melanopsin is most sensitive to short-wavelength blue light, peaking at around 480 nanometers. When light hits these cells, they fire signals directly to the SCN via the retinohypothalamic tract, informing it of the time of day.</p>
+    <p>Morning light exposure — ideally within 30 to 60 minutes of waking, and ideally from actual sunlight rather than indoor lighting — delivers a powerful phase-advancing signal that anchors your clock to local solar time. It also triggers a cortisol pulse (the cortisol awakening response), suppresses residual melatonin, and sets the timer for when melatonin will rise again that evening, approximately 14 to 16 hours later.</p>
+    <p>Evening light — especially the blue-enriched light emitted by LED screens and modern room lighting — does the opposite. It suppresses melatonin secretion, delays the clock, and reduces sleep pressure, making it harder to fall asleep at a reasonable hour. The damage is dose-dependent and spectral: warm amber light in the evening has far less impact on the clock than the cool white light of a typical laptop screen or overhead LED.</p>
+
+    <h2>Temperature and Food: The Secondary Zeitgebers</h2>
+    <p>Light is primary, but it does not act alone. Core body temperature follows a robust circadian rhythm — rising through the morning, peaking in late afternoon, and dropping sharply in the two hours before typical sleep onset. This temperature drop is not merely a consequence of sleep; it actively promotes sleep onset by facilitating heat dissipation from the extremities and lowering core temperature by 1 to 2 degrees Celsius.</p>
+    <p>Peripheral clocks are particularly sensitive to temperature oscillations. In cell culture experiments, a daily temperature cycle of as little as 1°C is sufficient to synchronize molecular clocks in the absence of any hormonal or neural signal. Practically, this means that behaviors that affect body temperature — exercise, cold exposure, hot baths — can nudge your clock. A hot bath or sauna 1 to 2 hours before bed paradoxically accelerates sleep onset by causing a rapid rebound cooling of core temperature.</p>
+    <p>Food timing is the dominant zeitgeber for peripheral clocks, particularly the liver. As Dr. Satchin Panda explains in <em>The Circadian Code</em> (2019), the timing of caloric intake is as important as its composition. When you eat outside your body's active phase — especially late at night — you send a conflicting time signal to peripheral clocks that can uncouple them from the SCN-driven master rhythm. Time-restricted eating, where food intake is confined to a consistent 8 to 10 hour window aligned with daylight hours, is one of the most evidence-based tools for reinforcing circadian alignment.</p>
+
+    <h2>Melatonin: The Darkness Signal, Not the Sleep Signal</h2>
+    <p>Melatonin is perhaps the most misunderstood molecule in sleep science. It is commonly marketed as a sleep hormone, but this framing is misleading. Melatonin does not cause sleep the way a sedative does. Its primary physiological role is to signal darkness — to tell every organ in your body that night has arrived.</p>
+    <p>The pineal gland begins secreting melatonin roughly 2 hours before habitual sleep onset, in a phase called dim-light melatonin onset (DLMO). Melatonin levels rise sharply, peak in the early morning hours (around 2 to 4 AM), and then fall as light exposure begins to suppress its production. The nightly melatonin surge is a clock output, not a clock driver. It acts on melatonin receptors (MT1 and MT2) in the SCN and in peripheral tissues, reinforcing the phase signal and coordinating downstream rhythms.</p>
+    <p>Supplemental melatonin, at low doses (0.5mg rather than the 5mg or 10mg tablets commonly sold), is most effective when used for circadian phase shifting — adjusting your clock when traveling across time zones or when trying to advance your sleep timing — rather than as a nightly sleep aid. Higher doses do not produce more sleep; they simply saturate receptors and may blunt your body's sensitivity to its own endogenous melatonin over time.</p>
+
+    <div class="callout-green">
+      <strong>Practical takeaway:</strong> Stop using your phone in bed and dim overhead lights at least 90 minutes before your target sleep time. This single change can advance DLMO by up to 1.5 hours, making it noticeably easier to fall asleep. Pair it with 10 minutes of outdoor light exposure within an hour of waking to anchor the other end of your rhythm.
+    </div>
+
+    <h2>Circadian Disruption: Shift Work, Jet Lag, and Modern Life</h2>
+    <p>The human circadian system evolved over millions of years in an environment with a reliable solar light-dark cycle. The invention of electric lighting, and more recently the proliferation of blue-light-emitting screens, has compressed that evolutionary history into a few generations. The mismatch between our ancient clocks and our modern environment is a genuine public health crisis.</p>
+    <p>Shift workers — who number in the tens of millions in industrialized countries — experience chronic circadian misalignment as an occupational hazard. The epidemiology is stark: shift work is associated with a 40 to 60 percent increased risk of metabolic syndrome, significantly higher rates of type 2 diabetes, elevated cardiovascular disease risk, impaired immune function, and in women, a modest but consistent association with increased breast cancer risk. The International Agency for Research on Cancer classified shift work as a probable carcinogen (Group 2A) in 2007.</p>
+    <p>Jet lag is a more familiar form of acute circadian disruption. Traveling east is harder than traveling west because it requires phase-advancing the clock — compressing the day — which the circadian system does more slowly than phase-delaying it. As a rule of thumb, the body adjusts approximately one to one and a half time zones per day when traveling east, and one to two when traveling west.</p>
+    <p>Social jet lag — the discrepancy between your biological clock and your social schedule — affects an estimated two-thirds of the population. Most people sleep later on weekends than on weekdays, creating a chronic phase shift of one to two hours that is re-imposed every Monday morning. Research by Till Roenneberg at the Ludwig Maximilian University of Munich has linked social jet lag to elevated BMI, increased likelihood of smoking, and higher rates of depression, independent of sleep duration.</p>
+
+    <h2>How to Entrain Your Circadian Clock</h2>
+    <p>The good news is that circadian rhythms are highly plastic. With consistent behavioral inputs, most people can shift and stabilize their clock within one to two weeks. The following strategies are supported by convergent evidence from human and animal studies:</p>
+    <ul>
+      <li><strong>Morning light exposure:</strong> Go outside within 30 to 60 minutes of waking. Aim for at least 10 minutes of outdoor light on clear days and 20 to 30 minutes on overcast days. Even a cloudy outdoor sky delivers 10 to 50 times more photons than typical indoor lighting. This is the single highest-leverage circadian behavior available to most people.</li>
+      <li><strong>Consistent wake time:</strong> Fix your wake time seven days a week, including weekends. Wake time is a stronger circadian anchor than bedtime because it determines when light exposure occurs and sets the countdown to melatonin onset. Varying wake time by more than 30 to 45 minutes creates social jet lag.</li>
+      <li><strong>Time-restricted eating:</strong> Consolidate your eating into a consistent 8 to 10 hour window that begins no earlier than 1 to 2 hours after waking and ends at least 2 to 3 hours before bed. This reinforces peripheral clock alignment, particularly for the liver and gut.</li>
+      <li><strong>Evening light management:</strong> Dim artificial lights and switch to warm-toned bulbs or candles after sunset. Use blue-light filtering settings on screens, or better yet, stop using bright screens in the last hour before bed. Consider wearing amber-tinted glasses in the evening if your environment is difficult to control.</li>
+      <li><strong>Temperature timing:</strong> Exercise earlier in the day if possible — afternoon exercise is acceptable and may improve sleep, but late-night vigorous exercise delays sleep onset in many people by raising core temperature. A warm bath or shower 1 to 2 hours before bed can accelerate sleep onset via the rebound cooling effect.</li>
+      <li><strong>Consistent meal timing:</strong> Eat your largest meal earlier in the day. Breakfast and lunch should be your caloric anchors; dinner should be the lightest meal. This aligns food intake with the peak metabolic activity of your liver and pancreatic clocks.</li>
+    </ul>
+
+    <div class="callout-green">
+      <strong>Practical takeaway:</strong> If you implement only one change from this article, make it this: go outside every morning within an hour of waking and face the direction of the sun for 10 minutes — no sunglasses needed, though do not stare directly at the sun. This free, simple habit anchors your master clock, improves mood via cortisol and serotonin signaling, and will make your evenings drowsier at the right time within one to two weeks of consistent practice.
+    </div>
+
+    <div class="product-cta">
+      <span class="product-cta-text">A sunrise alarm clock mimics natural dawn light to anchor your morning circadian signal from inside your bedroom.</span>
+      <a class="btn-amazon" href="https://www.amazon.com/s?k=sunrise+alarm+clock&tag=sleepwiserevi-20" target="_blank" rel="noopener nofollow">Shop Sunrise Alarm Clocks</a>
+    </div>
+
+    <h2>The Bigger Picture</h2>
+    <p>Circadian biology has moved from an obscure corner of chronobiology to one of the most actively funded areas of biomedical research in less than three decades. The Nobel Prize in 2017 was a marker of that maturation. We now understand that the circadian system is not a peripheral convenience — it is load-bearing infrastructure for human health.</p>
+    <p>As Dr. Satchin Panda explains in <em>The Circadian Code</em> (2019), most modern chronic diseases have a circadian component that has been almost entirely overlooked in clinical medicine. Drugs are administered at the same time each day regardless of whether their target proteins are available. Meals are eaten whenever schedules permit rather than when metabolism is ready. Light floods our evenings when darkness is the biological expectation. The cumulative effect is a low-grade, chronic misalignment that accelerates aging and disease.</p>
+    <p>The solutions are not expensive or complex. Morning light, consistent timing, eating within a defined window, and managing artificial light in the evenings cost nothing. They require only the understanding that your body is not a machine that runs identically at all hours — it is a finely timed symphony that performs best when the conductor and every section of the orchestra are playing from the same score.</p>
+
+    <div class="article-cta">
+      <h3>Get Our Free 7-Day Sleep Reset</h3>
+      <p>Join 18,000 readers who get weekly sleep tips and honest product reviews every Sunday.</p>
+      <a class="btn-amazon" href="../#newsletter">Subscribe Free</a>
+    </div>
+
+    <div class="related-articles">
+      <h3>Related Articles</h3>
+      <ul>
+        <li><a href="sleep-chronotypes.html">Are You a Morning Lark or Night Owl? Understanding Your Chronotype</a></li>
+        <li><a href="social-jetlag.html">Social Jet Lag: Why Weekend Lie-Ins Are Wrecking Your Week</a></li>
+        <li><a href="blue-light-melatonin.html">Blue Light and Melatonin: What the Science Actually Says</a></li>
+      </ul>
+    </div>
+  </article>
+
+  <footer>
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a class="logo" href="../">SleepWise<span>Reviews</span></a>
+        <p>Honest, science-backed reviews to help you sleep deeper, recover faster, and wake up energized.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Reviews</h4>
+        <ul>
+          <li><a href="https://www.amazon.com/s?k=weighted+blanket&tag=sleepwiserevi-20" target="_blank">Weighted Blankets</a></li>
+          <li><a href="https://www.amazon.com/s?k=white+noise+machine&tag=sleepwiserevi-20" target="_blank">White Noise Machines</a></li>
+          <li><a href="https://www.amazon.com/s?k=sleep+supplements&tag=sleepwiserevi-20" target="_blank">Supplements</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Guides</h4>
+        <ul>
+          <li><a href="../#picks">Sleep Optimization</a></li>
+          <li><a href="../#reviews">Bedtime Routines</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Site</h4>
+        <ul>
+          <li><a href="../pages/about.html">About Harry Soul</a></li>
+          <li><a href="../pages/privacy-policy.html">Privacy Policy</a></li>
+          <li><a href="../pages/affiliate-disclosure.html">Affiliate Disclosure</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div>&copy; 2025 SleepWiseReviews. All rights reserved.</div>
+      <div class="affiliate-disc">SleepWiseReviews is a participant in the Amazon Services LLC Associates Program.</div>
+    </div>
+  </footer>
+</body>
+</html>
