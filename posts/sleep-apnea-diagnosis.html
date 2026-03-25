@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>How Sleep Apnea Is Diagnosed: From Symptoms to Sleep Study - SleepWiseReviews</title>
+  <meta name="description" content="The home sleep test misses approximately 20% of sleep apnea cases. Here's everything you need to know about getting an accurate diagnosis — from first symptoms to AHI scores." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <style type='text/css'>
+    :root {
+      --night: #0A0E1A;
+      --deep: #0F1525;
+      --navy: #141B30;
+      --card: #1A2238;
+      --border: #252D45;
+      --gold: #C9A84C;
+      --gold-light: #E5C96A;
+      --gold-dim: rgba(201, 168, 76, 0.15);
+      --star: #F0E6C8;
+      --text: #D4DCEE;
+      --muted: #7A85A0;
+      --white: #FFFFFF;
+      --green: #4CAF82;
+    }
+
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: 'Outfit', sans-serif;
+      background: var(--night);
+      color: var(--text);
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      background-image:
+        radial-gradient(1px 1px at 10% 15%, rgba(240, 230, 200, 0.6) 0%, transparent 100%),
+        radial-gradient(1px 1px at 25% 40%, rgba(240, 230, 200, 0.4) 0%, transparent 100%),
+        radial-gradient(1.5px 1.5px at 40% 10%, rgba(240, 230, 200, 0.5) 0%, transparent 100%),
+        radial-gradient(1px 1px at 55% 30%, rgba(240, 230, 200, 0.3) 0%, transparent 100%),
+        radial-gradient(1px 1px at 70% 5%, rgba(240, 230, 200, 0.6) 0%, transparent 100%),
+        radial-gradient(1.5px 1.5px at 80% 20%, rgba(240, 230, 200, 0.4) 0%, transparent 100%),
+        radial-gradient(1px 1px at 90% 45%, rgba(240, 230, 200, 0.3) 0%, transparent 100%);
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    nav {
+      position: sticky; top: 0; z-index: 100;
+      background: rgba(10, 14, 26, 0.92);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+      padding: 0 6%; height: 68px;
+      display: flex; align-items: center; justify-content: space-between;
+    }
+    .logo { font-family: 'Cormorant Garamond', serif; font-size: 1.6rem; font-weight: 700; color: var(--star); text-decoration: none; }
+    .logo span { color: var(--gold); }
+    .nav-links { display: flex; gap: 2rem; list-style: none; }
+    .nav-links a { text-decoration: none; color: var(--muted); font-size: 0.88rem; font-weight: 500; transition: color 0.2s; }
+    .nav-links a:hover { color: var(--gold); }
+    .nav-cta { background: var(--gold-dim); color: var(--gold) !important; border: 1px solid rgba(201, 168, 76, 0.3); padding: 7px 16px; border-radius: 4px; }
+
+    .article-wrapper {
+      position: relative; z-index: 1;
+      max-width: 800px; margin: 0 auto; padding: 50px 6% 80px;
+    }
+    .article-meta-top { display: flex; flex-wrap: wrap; align-items: center; gap: 0.8rem; margin-bottom: 1.2rem; }
+    .tag { background: var(--gold); color: var(--night); padding: 5px 12px; border-radius: 4px; font-size: 0.72rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; }
+    .meta-text { color: var(--muted); font-size: 0.82rem; }
+    .article-wrapper h1 { font-family: 'Cormorant Garamond', serif; font-size: 2.4rem; font-weight: 600; color: var(--star); line-height: 1.2; margin-bottom: 1.2rem; }
+    .article-intro { font-size: 1.1rem; color: var(--text); line-height: 1.7; margin-bottom: 2rem; font-weight: 300; }
+    .author-box { display: flex; align-items: center; gap: 1rem; margin-bottom: 1.5rem; padding: 1rem; background: var(--card); border-radius: 8px; border: 1px solid var(--border); }
+    .author-avatar { font-size: 2.5rem; }
+    .author-name { color: var(--star); font-weight: 500; }
+    .author-name a { color: var(--gold); text-decoration: none; }
+    .author-role { color: var(--muted); font-size: 0.82rem; }
+    .disclosure-box { background: rgba(201, 168, 76, 0.08); border: 1px solid rgba(201, 168, 76, 0.2); border-radius: 8px; padding: 1rem 1.2rem; font-size: 0.82rem; color: var(--muted); margin-bottom: 2rem; }
+    .article-wrapper h2 { font-family: 'Cormorant Garamond', serif; font-size: 1.6rem; font-weight: 600; color: var(--star); margin: 2.5rem 0 1rem; padding-top: 1rem; }
+    .article-wrapper h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.2rem; color: var(--star); margin: 1.5rem 0 0.8rem; }
+    .article-wrapper p { margin-bottom: 1rem; font-weight: 300; line-height: 1.8; }
+    .article-wrapper ul, .article-wrapper ol { margin: 1rem 0 1.5rem 1.5rem; }
+    .article-wrapper li { margin-bottom: 0.5rem; font-weight: 300; }
+    .callout { background: var(--card); border-left: 3px solid var(--gold); padding: 1rem 1.5rem; margin: 1.5rem 0; border-radius: 0 8px 8px 0; font-size: 0.92rem; }
+
+    .comparison-table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; font-size: 0.88rem; }
+    .comparison-table th { background: var(--navy); color: var(--gold); text-align: left; padding: 0.75rem 1rem; border-bottom: 2px solid var(--border); font-weight: 600; letter-spacing: 0.04em; }
+    .comparison-table td { padding: 0.7rem 1rem; border-bottom: 1px solid var(--border); color: var(--text); font-weight: 300; vertical-align: top; }
+    .comparison-table tr:last-child td { border-bottom: none; }
+    .comparison-table tr:nth-child(even) td { background: rgba(26, 34, 56, 0.4); }
+    .pro { color: var(--green); font-weight: 500; }
+    .con { color: #E07070; font-weight: 500; }
+
+    .ahi-scale { display: grid; grid-template-columns: repeat(4, 1fr); gap: 0.8rem; margin: 1.5rem 0; }
+    .ahi-card { background: var(--card); border: 1px solid var(--border); border-radius: 8px; padding: 1rem; text-align: center; }
+    .ahi-card .ahi-label { font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); margin-bottom: 0.4rem; }
+    .ahi-card .ahi-value { font-family: 'Cormorant Garamond', serif; font-size: 1.3rem; color: var(--star); font-weight: 600; margin-bottom: 0.3rem; }
+    .ahi-card .ahi-desc { font-size: 0.78rem; color: var(--muted); font-weight: 300; }
+    .ahi-normal { border-color: var(--green); }
+    .ahi-mild { border-color: var(--gold); }
+    .ahi-moderate { border-color: #E09050; }
+    .ahi-severe { border-color: #E07070; }
+
+    .product-cta { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 1.5rem; margin: 2rem 0; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; }
+    .product-cta-text { color: var(--star); font-weight: 500; }
+    .btn-amazon { background: var(--gold); color: var(--night); text-decoration: none; padding: 10px 20px; border-radius: 6px; font-weight: 600; font-size: 0.88rem; transition: background 0.2s; }
+    .btn-amazon:hover { background: var(--gold-light); }
+
+    .article-cta { background: linear-gradient(135deg, var(--card), var(--navy)); border: 1px solid var(--border); border-radius: 12px; padding: 2rem; text-align: center; margin: 3rem 0; }
+    .article-cta h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.4rem; color: var(--star); margin-bottom: 0.8rem; }
+    .article-cta p { color: var(--muted); margin-bottom: 1.2rem; }
+
+    .related-articles { margin: 3rem 0; }
+    .related-articles h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.3rem; color: var(--star); margin-bottom: 1rem; }
+    .related-articles ul { list-style: none; margin: 0; }
+    .related-articles li { margin-bottom: 0.6rem; }
+    .related-articles a { color: var(--gold); text-decoration: none; font-size: 0.95rem; }
+    .related-articles a:hover { text-decoration: underline; }
+
+    footer { background: #060912; border-top: 1px solid var(--border); padding: 50px 6% 30px; }
+    .footer-top { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 3rem; margin-bottom: 3rem; padding-bottom: 3rem; border-bottom: 1px solid var(--border); }
+    .footer-brand p { color: var(--muted); font-size: 0.82rem; margin-top: 0.8rem; line-height: 1.6; font-weight: 300; max-width: 260px; }
+    .footer-col h4 { font-size: 0.78rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--gold); margin-bottom: 1rem; }
+    .footer-col ul { list-style: none; display: flex; flex-direction: column; gap: 0.6rem; }
+    .footer-col a { color: var(--muted); text-decoration: none; font-size: 0.85rem; transition: color 0.2s; }
+    .footer-col a:hover { color: var(--gold); }
+    .footer-bottom { display: flex; justify-content: space-between; font-size: 0.78rem; color: var(--muted); flex-wrap: wrap; gap: 0.5rem; }
+    .affiliate-disc { font-size: 0.75rem; max-width: 600px; }
+
+    @media (max-width: 900px) {
+      .nav-links { display: none; }
+      .article-wrapper h1 { font-size: 1.8rem; }
+      .footer-top { grid-template-columns: 1fr 1fr; }
+      .product-cta { flex-direction: column; text-align: center; }
+      .ahi-scale { grid-template-columns: repeat(2, 1fr); }
+    }
+    @media (max-width: 600px) {
+      .ahi-scale { grid-template-columns: 1fr 1fr; }
+      .comparison-table { font-size: 0.78rem; }
+      .comparison-table td, .comparison-table th { padding: 0.5rem 0.6rem; }
+    }
+  </style>
+</head>
+
+<body>
+  <nav>
+    <a class="logo" href="../">SleepWise<span>Reviews</span></a>
+    <ul class="nav-links">
+      <li><a href="../#picks">Top Picks</a></li>
+      <li><a href="../#reviews">Reviews</a></li>
+      <li><a href="../pages/about.html">About Harry</a></li>
+      <li><a href="../#newsletter" class="nav-cta">Free Sleep Guide</a></li>
+    </ul>
+  </nav>
+
+  <article class="article-wrapper">
+    <div class="article-meta-top">
+      <span class="tag">Sleep Health</span>
+      <span class="meta-text">📅 January 2025 · ⏱ 8 min read · 🔄 Updated Mar 2026</span>
+    </div>
+    <h1>How Sleep Apnea Is Diagnosed: From Symptoms to Sleep Study</h1>
+    <p class="article-intro">The home sleep test is cheaper, more convenient, and increasingly covered by insurance — but it misses approximately 20% of sleep apnea cases, specifically those with positional apnea or mild cases where oxygen drops are borderline. Knowing which test is right for your situation could be the difference between an accurate diagnosis and years of unresolved exhaustion.</p>
+
+    <div class="author-box">
+      <div class="author-avatar">😴</div>
+      <div class="author-info">
+        <div class="author-name">By <a href="../pages/about.html">Harry Soul</a> - SleepWiseReviews</div>
+        <div class="author-role">Independent Sleep Researcher · January 2025</div>
+      </div>
+    </div>
+
+    <div class="disclosure-box">
+      <strong>Affiliate Disclosure:</strong> This article contains affiliate links. We earn a small commission if you purchase through our links at no extra cost to you. <a href="../pages/affiliate-disclosure.html" style="color:var(--gold)">Full disclosure</a>. This article is for informational purposes only and does not constitute medical advice.
+    </div>
+
+    <h2>Symptoms That Suggest Sleep Apnea</h2>
+    <p>Sleep apnea is one of the most underdiagnosed conditions in modern medicine. The American Academy of Sleep Medicine estimates that roughly 80% of moderate-to-severe obstructive sleep apnea cases go undiagnosed — partly because the sufferer is asleep when the most telling signs occur, and partly because daytime symptoms can easily be mistaken for stress, depression, or poor lifestyle habits.</p>
+
+    <p>Neurologist and sleep specialist W. Chris Winter explains in <em>The Sleep Solution</em> (2017) that many patients with sleep apnea have spent years being treated for secondary symptoms — anxiety, hypertension, and even depression — without anyone investigating the root cause happening in their airway at 2 a.m. (Winter, 2017)</p>
+
+    <p>The primary symptoms to watch for include:</p>
+    <ul>
+      <li><strong>Loud, chronic snoring</strong> — especially snoring that is noticed by a bed partner and includes pauses followed by gasping or choking sounds</li>
+      <li><strong>Witnessed breathing pauses</strong> — a bed partner or roommate observing you stop breathing for several seconds at a time</li>
+      <li><strong>Waking with a dry mouth or sore throat</strong> — a sign that your mouth fell open repeatedly during the night as your airway struggled</li>
+      <li><strong>Morning headaches</strong> — caused by transient drops in blood oxygen levels during apnea events</li>
+      <li><strong>Excessive daytime sleepiness</strong> — falling asleep easily during meetings, reading, or driving — even after what felt like a full night of sleep</li>
+      <li><strong>Difficulty concentrating or memory problems</strong> — fragmented sleep architecture prevents the brain from completing its nightly restoration cycle</li>
+      <li><strong>Frequent nighttime urination (nocturia)</strong> — apnea events trigger a cascade of hormonal signals that can cause the kidneys to over-produce urine</li>
+      <li><strong>Mood changes, irritability, or depression</strong> — chronic sleep fragmentation has measurable effects on emotional regulation</li>
+    </ul>
+
+    <p>It is worth noting that not all sleep apnea patients snore loudly. Central sleep apnea — where the brain fails to send proper signals to the breathing muscles — can occur silently. If you experience excessive daytime fatigue alongside any three of the above symptoms, a sleep evaluation is warranted regardless of whether snoring is present.</p>
+
+    <div class="callout" style="border-left:3px solid var(--green)">💚 <strong>Tonight's action:</strong> If you suspect sleep apnea, record yourself sleeping for one night using your phone's voice memo app. Listen back for breathing pauses longer than 10 seconds. This isn't diagnostic, but it's often convincing enough to motivate seeking an actual sleep study.</div>
+
+    <h2>Home Sleep Test vs. In-Lab Polysomnography</h2>
+    <p>Once your primary care physician suspects sleep apnea, you will likely be offered one of two diagnostic pathways: a home sleep apnea test (HSAT) or an in-lab polysomnography (PSG). Understanding the genuine differences between these two options will help you advocate for the right test for your situation — rather than simply defaulting to whichever your insurance prefers to cover.</p>
+
+    <table class="comparison-table">
+      <thead>
+        <tr>
+          <th>Factor</th>
+          <th>Home Sleep Test (HSAT)</th>
+          <th>In-Lab Polysomnography</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Cost</td>
+          <td>$150–$500</td>
+          <td>$1,000–$3,500+</td>
+        </tr>
+        <tr>
+          <td>Convenience</td>
+          <td class="pro">Sleep in your own bed</td>
+          <td class="con">Overnight at a sleep clinic</td>
+        </tr>
+        <tr>
+          <td>Sensors measured</td>
+          <td>Airflow, oxygen, heart rate, respiratory effort</td>
+          <td>Brain waves (EEG), eye movements, muscle activity, airflow, oxygen, heart rate, body position, leg movements</td>
+        </tr>
+        <tr>
+          <td>Sleep staging</td>
+          <td class="con">Not measured — estimated only</td>
+          <td class="pro">Full N1/N2/N3/REM staging</td>
+        </tr>
+        <tr>
+          <td>Best for</td>
+          <td>Moderate-to-severe suspected OSA in otherwise healthy adults</td>
+          <td>Mild or borderline cases, central apnea suspicion, positional apnea, complex sleep disorders</td>
+        </tr>
+        <tr>
+          <td>Miss rate</td>
+          <td class="con">~20% of cases (especially positional or mild)</td>
+          <td class="pro">Gold standard — very low miss rate</td>
+        </tr>
+        <tr>
+          <td>Insurance coverage</td>
+          <td>Frequently covered as first-line</td>
+          <td>Often requires prior HSAT failure or specific clinical criteria</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <p>The 20% miss rate of home sleep tests is not a minor caveat — it represents a meaningful portion of patients who will be told they do not have sleep apnea when they actually do. This happens because HSATs cannot measure sleep staging, which means they cannot calculate the AHI (apnea-hypopnea index) based on actual sleep time. They estimate based on time in bed. If you experienced significant wake time during the recording, the denominator is inflated and your AHI is artificially lowered.</p>
+
+    <p>If your home sleep test comes back negative but your symptoms are compelling — particularly morning headaches, witnessed pauses, or unrefreshing sleep — request an in-lab study. Winter (2017) specifically advises patients not to accept a negative HSAT result as definitive if their clinical picture strongly suggests apnea.</p>
+
+    <div class="callout">💡 <strong>Monitoring between appointments:</strong> A pulse oximeter worn overnight can show whether your oxygen levels are dropping during sleep — a strong indicator that further testing is needed. These devices don't diagnose apnea, but they give your doctor additional data to support ordering an in-lab study.</div>
+
+    <div class="product-cta">
+      <span class="product-cta-text">Track overnight oxygen levels with a sleep apnea monitor — useful data for your doctor before your formal study</span>
+      <a class="btn-amazon" href="https://www.amazon.com/s?k=sleep+apnea+monitor+oxygen+level&tag=sleepwiserevi-20" target="_blank" rel="noopener nofollow">Browse on Amazon</a>
+    </div>
+
+    <h2>What Happens During a Sleep Study</h2>
+    <p>For many people, the prospect of sleeping in a clinical setting — wired up to sensors, observed by a technician — sounds more exhausting than restorative. In practice, most patients adapt more quickly than they expect, and the diagnostic value of one well-monitored night far outweighs the inconvenience.</p>
+
+    <h3>Arriving at the Sleep Lab</h3>
+    <p>You will typically arrive about an hour before your normal bedtime. A sleep technologist will apply sensors to your scalp, face, chest, legs, and finger using a conductive gel and medical tape. The process takes roughly 30–45 minutes. Despite the number of electrodes, most patients report that the sensors themselves are not uncomfortable — the challenge is usually getting past the novelty of the situation and allowing yourself to relax.</p>
+
+    <h3>What the Technician Monitors</h3>
+    <p>In a full polysomnography, the technician monitors your data in real time from an adjacent room throughout the night. They are watching for:</p>
+    <ul>
+      <li>Brain wave patterns that indicate which sleep stage you are in</li>
+      <li>Eye movements that confirm REM sleep onset</li>
+      <li>Chin muscle tone that drops during REM (a key marker distinguishing REM from wakefulness)</li>
+      <li>Airflow at the nose and mouth using a thermistor and pressure transducer</li>
+      <li>Chest and abdominal effort belts that show whether breathing effort is being made (crucial for distinguishing obstructive from central apnea)</li>
+      <li>Pulse oximetry tracking blood oxygen saturation throughout the night</li>
+      <li>Leg movement sensors to detect periodic limb movement disorder, which frequently co-occurs with sleep apnea</li>
+    </ul>
+
+    <h3>Split-Night Studies</h3>
+    <p>If the technician detects significant apnea events in the first half of the night, many labs will conduct what is called a split-night study: the second half of the night is used to titrate CPAP pressure in real time, finding the therapeutic pressure that eliminates your apnea events. This can reduce the total time to treatment by weeks, since it eliminates the need to schedule a separate titration night.</p>
+
+    <h2>What the AHI Score Means</h2>
+    <p>Your sleep study results will center on a single number: the Apnea-Hypopnea Index, or AHI. This represents the average number of breathing interruptions per hour of sleep. An "apnea" is a complete cessation of airflow for 10 seconds or more. A "hypopnea" is a partial reduction in airflow — at least 30% — accompanied by a measurable drop in blood oxygen or an arousal from sleep.</p>
+
+    <div class="ahi-scale">
+      <div class="ahi-card ahi-normal">
+        <div class="ahi-label">Normal</div>
+        <div class="ahi-value">&lt; 5 / hr</div>
+        <div class="ahi-desc">No treatment required; lifestyle review only</div>
+      </div>
+      <div class="ahi-card ahi-mild">
+        <div class="ahi-label">Mild OSA</div>
+        <div class="ahi-value">5–14 / hr</div>
+        <div class="ahi-desc">Treatment often recommended if symptomatic</div>
+      </div>
+      <div class="ahi-card ahi-moderate">
+        <div class="ahi-label">Moderate OSA</div>
+        <div class="ahi-value">15–29 / hr</div>
+        <div class="ahi-desc">CPAP therapy strongly recommended</div>
+      </div>
+      <div class="ahi-card ahi-severe">
+        <div class="ahi-label">Severe OSA</div>
+        <div class="ahi-value">≥ 30 / hr</div>
+        <div class="ahi-desc">Urgent treatment; significant cardiovascular risk</div>
+      </div>
+    </div>
+
+    <p>The AHI alone does not tell the complete story. Two patients can have identical AHI scores with very different clinical significance. The oxygen desaturation index (ODI) — tracking how many times per hour oxygen falls below 90% — adds important context. A patient with an AHI of 18 who spends significant time below 88% oxygen saturation is in a very different situation than a patient with the same AHI whose oxygen never dips below 93%.</p>
+
+    <p>Position also matters. Positional sleep apnea, where events occur predominantly or exclusively when sleeping on the back (supine), can sometimes be managed through positional therapy rather than CPAP. Your sleep report should include a breakdown of AHI by body position. If your supine AHI is dramatically higher than your lateral AHI, this is a meaningful data point for your treatment discussion.</p>
+
+    <p>As Winter (2017) notes, the AHI score is the beginning of a conversation with your sleep physician, not the final word. Symptoms, oxygen patterns, sleep architecture disruption, and quality-of-life impact all factor into the treatment decision. Some patients with an AHI of 7 are debilitatingly sleepy; others with an AHI of 20 feel fine. The goal is always to treat the patient, not the number.</p>
+
+    <div class="callout">💡 <strong>Reading your sleep report:</strong> Ask your sleep physician specifically about your oxygen nadir (the lowest single oxygen reading overnight), your percentage of time in REM sleep, and your arousal index (number of brief wake-ups per hour). These three numbers, alongside the AHI, give you a much richer picture of what is actually happening during your sleep.</div>
+
+    <h2>After the Diagnosis: What Comes Next</h2>
+    <p>A confirmed sleep apnea diagnosis opens the door to effective treatment — and the range of options has expanded considerably in recent years. Continuous positive airway pressure (CPAP) therapy remains the gold standard, with high adherence rates correlating with dramatic improvements in daytime alertness, blood pressure, cardiovascular risk, and mood.</p>
+
+    <p>For those who cannot tolerate CPAP, alternatives include bilevel positive airway pressure (BiPAP), oral appliance therapy (a custom-fitted dental device that repositions the jaw), surgical interventions for anatomical contributors, and — for positional apnea specifically — simple positional devices that prevent supine sleeping.</p>
+
+    <p>The most important step is taking the first one: getting the study. Undiagnosed sleep apnea is not merely an inconvenience. Severe untreated OSA is associated with a two-to-three-fold increase in cardiovascular disease risk and a significantly elevated risk of motor vehicle accidents. The path from suspicion to diagnosis typically takes only a few weeks — and the difference in how you feel on the other side can be profound.</p>
+
+    <div class="callout" style="border-left:3px solid var(--green)">💚 <strong>Tonight's action:</strong> If you suspect sleep apnea, record yourself sleeping for one night using your phone's voice memo app. Listen back for breathing pauses longer than 10 seconds. This isn't diagnostic, but it's often convincing enough to motivate seeking an actual sleep study.</div>
+
+    <div class="product-cta">
+      <span class="product-cta-text">Monitor your overnight oxygen levels at home — helpful data for your physician before or after your sleep study</span>
+      <a class="btn-amazon" href="https://www.amazon.com/s?k=sleep+apnea+monitor+oxygen+level&tag=sleepwiserevi-20" target="_blank" rel="noopener nofollow">Browse Sleep Apnea Monitors on Amazon</a>
+    </div>
+
+    <div class="article-cta">
+      <h3>Get Our Free 7-Day Sleep Reset Guide</h3>
+      <p>Join 18,000 readers who get weekly sleep science breakdowns and honest product reviews every Sunday.</p>
+      <a class="btn-amazon" href="../#newsletter">Subscribe Free</a>
+    </div>
+
+    <div class="related-articles">
+      <h3>Related Articles</h3>
+      <ul>
+        <li><a href="sleep-stages-explained.html">Understanding Sleep Stages: A Complete Guide to Your Sleep Cycle</a></li>
+        <li><a href="article-magnesium-sleep.html">Best Magnesium for Sleep: Glycinate vs Citrate vs Threonate</a></li>
+        <li><a href="article-white-noise-machines.html">7 Best White Noise Machines That Actually Block Sound</a></li>
+      </ul>
+    </div>
+  </article>
+
+  <footer>
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a class="logo" href="../">SleepWise<span>Reviews</span></a>
+        <p>Honest, science-backed reviews to help you sleep deeper, recover faster, and wake up energized.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Reviews</h4>
+        <ul>
+          <li><a href="https://www.amazon.com/s?k=weighted+blanket&tag=sleepwiserevi-20" target="_blank">Weighted Blankets</a></li>
+          <li><a href="https://www.amazon.com/s?k=white+noise+machine&tag=sleepwiserevi-20" target="_blank">White Noise Machines</a></li>
+          <li><a href="https://www.amazon.com/s?k=sleep+supplements&tag=sleepwiserevi-20" target="_blank">Supplements</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Guides</h4>
+        <ul>
+          <li><a href="../#picks">Sleep Optimization</a></li>
+          <li><a href="../#reviews">Bedtime Routines</a></li>
+          <li><a href="sleep-stages-explained.html">Sleep Stages Explained</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Site</h4>
+        <ul>
+          <li><a href="../pages/about.html">About Harry Soul</a></li>
+          <li><a href="../pages/privacy-policy.html">Privacy Policy</a></li>
+          <li><a href="../pages/affiliate-disclosure.html">Affiliate Disclosure</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div>© 2025 SleepWiseReviews. All rights reserved.</div>
+      <div class="affiliate-disc">SleepWiseReviews is a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for sites to earn advertising fees by advertising and linking to Amazon.com.</div>
+    </div>
+  </footer>
+</body>
+</html>
