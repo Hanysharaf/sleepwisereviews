@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Are You Genetically Wired to Be a Short Sleeper? - SleepWiseReviews</title>
+  <meta name="description" content="Only 1 in 12,000 people carry the true short-sleep gene. The rest are just chronically sleep deprived. Here's what the science actually says about genetic sleep needs." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <style type='text/css'>
+    :root {
+      --night: #0A0E1A;
+      --deep: #0F1525;
+      --navy: #141B30;
+      --card: #1A2238;
+      --border: #252D45;
+      --gold: #C9A84C;
+      --gold-light: #E5C96A;
+      --gold-dim: rgba(201, 168, 76, 0.15);
+      --star: #F0E6C8;
+      --text: #D4DCEE;
+      --muted: #7A85A0;
+      --white: #FFFFFF;
+      --green: #4CAF82;
+    }
+
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: 'Outfit', sans-serif;
+      background: var(--night);
+      color: var(--text);
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      background-image:
+        radial-gradient(1px 1px at 10% 15%, rgba(240, 230, 200, 0.6) 0%, transparent 100%),
+        radial-gradient(1px 1px at 25% 40%, rgba(240, 230, 200, 0.4) 0%, transparent 100%),
+        radial-gradient(1.5px 1.5px at 40% 10%, rgba(240, 230, 200, 0.5) 0%, transparent 100%),
+        radial-gradient(1px 1px at 55% 30%, rgba(240, 230, 200, 0.3) 0%, transparent 100%),
+        radial-gradient(1px 1px at 70% 5%, rgba(240, 230, 200, 0.6) 0%, transparent 100%),
+        radial-gradient(1.5px 1.5px at 80% 20%, rgba(240, 230, 200, 0.4) 0%, transparent 100%),
+        radial-gradient(1px 1px at 90% 45%, rgba(240, 230, 200, 0.3) 0%, transparent 100%);
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    nav {
+      position: sticky; top: 0; z-index: 100;
+      background: rgba(10, 14, 26, 0.92);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+      padding: 0 6%; height: 68px;
+      display: flex; align-items: center; justify-content: space-between;
+    }
+    .logo { font-family: 'Cormorant Garamond', serif; font-size: 1.6rem; font-weight: 700; color: var(--star); text-decoration: none; }
+    .logo span { color: var(--gold); }
+    .nav-links { display: flex; gap: 2rem; list-style: none; }
+    .nav-links a { text-decoration: none; color: var(--muted); font-size: 0.88rem; font-weight: 500; transition: color 0.2s; }
+    .nav-links a:hover { color: var(--gold); }
+    .nav-cta { background: var(--gold-dim); color: var(--gold) !important; border: 1px solid rgba(201, 168, 76, 0.3); padding: 7px 16px; border-radius: 4px; }
+
+    .article-wrapper {
+      position: relative; z-index: 1;
+      max-width: 800px; margin: 0 auto; padding: 50px 6% 80px;
+    }
+    .article-meta-top { display: flex; flex-wrap: wrap; align-items: center; gap: 0.8rem; margin-bottom: 1.2rem; }
+    .tag { background: var(--gold); color: var(--night); padding: 5px 12px; border-radius: 4px; font-size: 0.72rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; }
+    .meta-text { color: var(--muted); font-size: 0.82rem; }
+    .article-wrapper h1 { font-family: 'Cormorant Garamond', serif; font-size: 2.4rem; font-weight: 600; color: var(--star); line-height: 1.2; margin-bottom: 1.2rem; }
+    .article-intro { font-size: 1.1rem; color: var(--text); line-height: 1.7; margin-bottom: 2rem; font-weight: 300; }
+    .author-box { display: flex; align-items: center; gap: 1rem; margin-bottom: 1.5rem; padding: 1rem; background: var(--card); border-radius: 8px; border: 1px solid var(--border); }
+    .author-avatar { font-size: 2.5rem; }
+    .author-name { color: var(--star); font-weight: 500; }
+    .author-name a { color: var(--gold); text-decoration: none; }
+    .author-role { color: var(--muted); font-size: 0.82rem; }
+    .disclosure-box { background: rgba(201, 168, 76, 0.08); border: 1px solid rgba(201, 168, 76, 0.2); border-radius: 8px; padding: 1rem 1.2rem; font-size: 0.82rem; color: var(--muted); margin-bottom: 2rem; }
+    .article-wrapper h2 { font-family: 'Cormorant Garamond', serif; font-size: 1.6rem; font-weight: 600; color: var(--star); margin: 2.5rem 0 1rem; padding-top: 1rem; }
+    .article-wrapper h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.2rem; color: var(--star); margin: 1.5rem 0 0.8rem; }
+    .article-wrapper p { margin-bottom: 1rem; font-weight: 300; line-height: 1.8; }
+    .article-wrapper ul, .article-wrapper ol { margin: 1rem 0 1.5rem 1.5rem; }
+    .article-wrapper li { margin-bottom: 0.5rem; font-weight: 300; }
+    .callout { background: var(--card); border-left: 3px solid var(--gold); padding: 1rem 1.5rem; margin: 1.5rem 0; border-radius: 0 8px 8px 0; font-size: 0.92rem; }
+    .callout-green { background: var(--card); border-left: 3px solid var(--green); padding: 1rem 1.5rem; margin: 1.5rem 0; border-radius: 0 8px 8px 0; font-size: 0.92rem; }
+
+    .stat-box { background: var(--navy); border: 1px solid var(--border); border-radius: 10px; padding: 1.5rem 2rem; margin: 2rem 0; display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; text-align: center; }
+    .stat-item .stat-number { font-family: 'Cormorant Garamond', serif; font-size: 2rem; color: var(--gold); font-weight: 700; display: block; }
+    .stat-item .stat-label { color: var(--muted); font-size: 0.8rem; margin-top: 0.3rem; }
+
+    .product-cta { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 1.5rem; margin: 2rem 0; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; }
+    .product-cta-text { color: var(--star); font-weight: 500; }
+    .btn-amazon { background: var(--gold); color: var(--night); text-decoration: none; padding: 10px 20px; border-radius: 6px; font-weight: 600; font-size: 0.88rem; transition: background 0.2s; }
+    .btn-amazon:hover { background: var(--gold-light); }
+
+    .article-cta { background: linear-gradient(135deg, var(--card), var(--navy)); border: 1px solid var(--border); border-radius: 12px; padding: 2rem; text-align: center; margin: 3rem 0; }
+    .article-cta h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.4rem; color: var(--star); margin-bottom: 0.8rem; }
+    .article-cta p { color: var(--muted); margin-bottom: 1.2rem; }
+
+    .related-articles { margin: 3rem 0; }
+    .related-articles h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.3rem; color: var(--star); margin-bottom: 1rem; }
+    .related-articles ul { list-style: none; margin: 0; }
+    .related-articles li { margin-bottom: 0.6rem; }
+    .related-articles a { color: var(--gold); text-decoration: none; font-size: 0.95rem; }
+    .related-articles a:hover { text-decoration: underline; }
+
+    footer { background: #060912; border-top: 1px solid var(--border); padding: 50px 6% 30px; }
+    .footer-top { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 3rem; margin-bottom: 3rem; padding-bottom: 3rem; border-bottom: 1px solid var(--border); }
+    .footer-brand p { color: var(--muted); font-size: 0.82rem; margin-top: 0.8rem; line-height: 1.6; font-weight: 300; max-width: 260px; }
+    .footer-col h4 { font-size: 0.78rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--gold); margin-bottom: 1rem; }
+    .footer-col ul { list-style: none; display: flex; flex-direction: column; gap: 0.6rem; }
+    .footer-col a { color: var(--muted); text-decoration: none; font-size: 0.85rem; transition: color 0.2s; }
+    .footer-col a:hover { color: var(--gold); }
+    .footer-bottom { display: flex; justify-content: space-between; font-size: 0.78rem; color: var(--muted); flex-wrap: wrap; gap: 0.5rem; }
+    .affiliate-disc { font-size: 0.75rem; max-width: 600px; }
+
+    @media (max-width: 900px) {
+      .nav-links { display: none; }
+      .article-wrapper h1 { font-size: 1.8rem; }
+      .footer-top { grid-template-columns: 1fr 1fr; }
+      .product-cta { flex-direction: column; text-align: center; }
+      .stat-box { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+
+<body>
+  <nav>
+    <a class="logo" href="../">SleepWise<span>Reviews</span></a>
+    <ul class="nav-links">
+      <li><a href="../#picks">Top Picks</a></li>
+      <li><a href="../#reviews">Reviews</a></li>
+      <li><a href="../pages/about.html">About Harry</a></li>
+      <li><a href="../#newsletter" class="nav-cta">Free Sleep Guide</a></li>
+    </ul>
+  </nav>
+
+  <article class="article-wrapper">
+    <div class="article-meta-top">
+      <span class="tag">Sleep Science</span>
+      <span class="meta-text">📅 October 2020</span>
+      <span class="meta-text">·</span>
+      <span class="meta-text">⏱ 8 min read</span>
+      <span class="meta-text">·</span>
+      <span class="meta-text">🔄 Updated Mar 2026</span>
+    </div>
+    <h1>Are You Genetically Wired to Be a Short Sleeper?</h1>
+    <p class="article-intro">Only 1 in 12,000 people carry the true short-sleep gene. The rest are just chronically sleep deprived — and can't tell the difference.</p>
+
+    <div class="author-box">
+      <div class="author-avatar">🧬</div>
+      <div class="author-info">
+        <div class="author-name">By <a href="../pages/about.html">Harry Soul</a> - SleepWiseReviews</div>
+        <div class="author-role">Independent Sleep Researcher - October 2020</div>
+      </div>
+    </div>
+
+    <div class="disclosure-box">
+      <strong>Affiliate Disclosure:</strong> This article contains affiliate links. We earn a small commission if you purchase through our links at no extra cost to you. <a href="../pages/affiliate-disclosure.html" style="color:var(--gold)">Full disclosure</a>
+    </div>
+
+    <p>You've heard someone say it. Maybe you've said it yourself: "I'm one of those people who only needs five hours." It's a badge worn with pride, a genetic get-out-of-jail-free card that excuses years of insufficient sleep. But the science tells a far more uncomfortable story. The true short sleeper — someone who is genetically programmed to thrive on six hours or fewer with no health consequences — is not just rare. They are extraordinarily rare. And the odds that you are one of them are almost vanishingly small.</p>
+
+    <p>This article breaks down exactly what the science says about sleep genetics, why most self-identified short sleepers are simply adapted to feeling exhausted, and how you can actually figure out how much sleep your body genuinely needs.</p>
+
+    <div class="stat-box">
+      <div class="stat-item">
+        <span class="stat-number">1 in 12,000</span>
+        <div class="stat-label">True short-sleep gene carriers in the population</div>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number">7–9 hrs</span>
+        <div class="stat-label">Sleep need for the overwhelming majority of adults</div>
+      </div>
+      <div class="stat-item">
+        <span class="stat-number">&lt;3%</span>
+        <div class="stat-label">Adults who genuinely function optimally on 6 hours or less</div>
+      </div>
+    </div>
+
+    <h2>The BHLHE41 Gene Mutation: What It Actually Is</h2>
+    <p>In 2009, researchers at the University of California, San Francisco made a discovery that captured widespread media attention. They identified a rare mutation in a gene called <em>DEC2</em> — more formally known as <em>BHLHE41</em> — in a mother and daughter who both reported needing only about six hours of sleep per night. When the team engineered mice and fruit flies with the same mutation, those animals also slept less but showed no signs of cognitive impairment or the usual deficits associated with sleep restriction.</p>
+
+    <p>It was a genuine scientific breakthrough. But what happened next is one of the most consequential misreadings of a scientific finding in recent memory. Headlines translated "a rare mutation exists" into "some people are wired to sleep less." Millions of people who were already sleeping fewer than seven hours latched onto this as biological permission to keep doing so.</p>
+
+    <p>The reality is far more nuanced. The BHLHE41 mutation — and the handful of other short-sleep gene variants identified since, including mutations in <em>ADRB1</em> and <em>NPSR1</em> — are genuinely rare. As Matthew Walker explains in <em>Why We Sleep</em> (2017), the proportion of the population that can truly get by on six hours of sleep or less without any impairment, based on objective neuroscientific evidence rather than subjective feeling, represents well under 3% of the population. Some estimates place true genetic short sleepers as rare as one in twelve thousand.</p>
+
+    <div class="callout">
+      💡 <strong>The research context:</strong> Since the 2009 BHLHE41 discovery, follow-up studies have identified only a small number of additional short-sleep gene variants. Each one is independently rare. The chance that you carry any of them — and that this explains your reduced sleep habit — is extremely low.
+    </div>
+
+    <h2>Why Most "I Only Need 5 Hours" People Are Wrong</h2>
+    <p>Here is the uncomfortable truth that sleep science has established with remarkable consistency: chronic sleep restriction causes a blunting of your ability to perceive your own sleepiness and cognitive impairment. In plain language, when you regularly sleep less than your body needs, you stop feeling as tired as you actually are. You adapt — not by needing less sleep, but by losing the subjective signal that you need more.</p>
+
+    <p>Studies at the University of Pennsylvania's Perelman School of Medicine demonstrated this with clinical precision. Participants who were restricted to six hours of sleep per night for two weeks showed cognitive performance equivalent to someone who had been awake for 24 hours straight. When asked to self-rate their sleepiness, however, they reported feeling only slightly tired. They had lost the ability to accurately gauge their own impairment.</p>
+
+    <p>This is why the experience of "I feel fine on five hours" is not evidence that five hours is sufficient. It is evidence that your brain's sleepiness-monitoring system has been recalibrated downward. You have become accustomed to operating in a cognitively depleted state and have reframed that state as normal.</p>
+
+    <h2>How Sleep Need Varies Within the Normal Range</h2>
+    <p>It is important to acknowledge that genuine biological variation in sleep need does exist — it simply doesn't extend as far as many people hope. The recommended range of seven to nine hours for adults is not arbitrary. It represents the true distribution of sleep need across the population, with the vast majority clustering around 7.5 to 8 hours and smaller proportions at the tails requiring either slightly less (around seven hours) or slightly more (around nine hours).</p>
+
+    <p>This variation is real and is influenced by multiple genetic factors, not just the dramatic single-gene mutations that generate headlines. Circadian rhythm genes, adenosine clearance rates, and homeostatic sleep pressure regulation all vary between individuals. Some people genuinely do feel fully restored at seven hours. Others cannot function well below eight and a half. Both of these people fall within the normal range of human sleep biology.</p>
+
+    <p>What does not fall within normal human biology is the claim that four to five hours is sufficient. At that level, regardless of how accustomed you feel, objective measures — reaction time, working memory, emotional regulation, immune function, metabolic health — are compromised. The research on this point, accumulated over decades across dozens of independent laboratories, is unambiguous.</p>
+
+    <h2>The Difference Between Sleep Need and Sleep Ability</h2>
+    <p>One of the most important and frequently overlooked distinctions in sleep science is the difference between how much sleep you need and how much sleep your body is currently capable of producing. These are not the same thing, and confusing them leads to significant self-misdiagnosis.</p>
+
+    <p>Consider someone with chronic insomnia who can only sleep five hours regardless of opportunity. This person does not have a five-hour sleep need. They have a sleep disorder that prevents them from obtaining the sleep their biology requires. Similarly, someone who uses an alarm to cut their sleep to six hours every day has not demonstrated that six hours is their natural need — they have demonstrated that they own an alarm clock.</p>
+
+    <p>True sleep need can only be assessed in the absence of sleep pressure: no alarm, no obligations, no accumulated debt, and no alertness-altering substances including caffeine and alcohol. Under these conditions, the overwhelming majority of adults will naturally sleep between seven and nine hours. Those who still consistently and spontaneously stop sleeping at six hours or fewer — with no signs of impairment — are candidates for being genuine short sleepers. They represent a tiny fraction of the population.</p>
+
+    <h2>What Genetic Testing Can and Cannot Tell You</h2>
+    <p>Consumer genetic testing has exploded in popularity, and several direct-to-consumer genomics companies now offer reports that include sleep-related traits. It is worth understanding precisely what these tests can and cannot reveal about your individual sleep need.</p>
+
+    <p>What they can tell you: whether you carry variants associated with being a morning or evening chronotype, certain polymorphisms that affect adenosine metabolism (relevant to caffeine sensitivity and sleep pressure), and in some cases, whether you carry any of the known short-sleep gene variants.</p>
+
+    <p>What they cannot tell you: whether those variants are expressed in a way that actually affects your functional sleep need, how those variants interact with your environment and lifestyle, or whether your current sleep habits are appropriate for your biology. Genetics sets the parameters; lived experience fills them in.</p>
+
+    <p>If a genetic test reveals you do carry a variant associated with shorter sleep, that is genuinely interesting information — but it should prompt a careful experiment with sleep opportunity rather than permission to keep sleeping less. The only valid test is whether you perform equally well on six hours as on eight, assessed through objective measures rather than subjective feeling.</p>
+
+    <h2>Why Identifying as a Short Sleeper When You Are Not Is Dangerous</h2>
+    <p>The consequences of chronic insufficient sleep accumulate across every major system in the body. As Matthew Walker explains in <em>Why We Sleep</em> (2017), routinely sleeping less than seven hours produces measurable impairments in immune function, cardiovascular health, metabolic regulation, and mental health. These are not theoretical risks — they are documented across large epidemiological studies tracking thousands of people over decades.</p>
+
+    <p>When someone incorrectly identifies as a short sleeper, they are not simply missing out on some extra rest. They are exposing themselves, potentially for years or decades, to elevated risk of type 2 diabetes, cardiovascular disease, depression, and cognitive decline. They are doing so under the mistaken belief that their biology protects them from these risks. It does not. The protective effect only exists for the genuine carriers of short-sleep mutations — and again, the odds of being one are approximately one in twelve thousand.</p>
+
+    <div class="callout">
+      ⚠️ <strong>A note on societal pressure:</strong> The culture of sleep deprivation as a productivity badge has created enormous social pressure to need less sleep. When people say "I only need five hours," they are often also communicating ambition, resilience, and busyness. Understanding this social dynamic can help you examine whether your sleep beliefs are biologically derived or culturally absorbed.
+    </div>
+
+    <h2>How to Actually Figure Out Your Sleep Need</h2>
+    <p>The good news is that you do not need a genetics lab to determine your genuine sleep need. You need time, a commitment to removing sleep pressure, and honest self-assessment. Here is how to run the experiment properly.</p>
+
+    <h3>The Two-Week Sleep Opportunity Test</h3>
+    <p>The most reliable method is straightforward: for two full weeks, go to bed when you feel sleepy and do not set an alarm. Remove caffeine from your routine for the first week to clear any masked sleep debt and caffeine dependence. Keep a sleep log noting when you fall asleep, when you wake naturally, and how you feel throughout the day.</p>
+
+    <p>During the first several days, you will likely sleep significantly longer than usual. This is sleep debt repayment, not your actual need. By the second week, your sleep duration should stabilize into a consistent pattern. That stable duration is a reasonable estimate of your genuine sleep need under current life conditions.</p>
+
+    <h3>Assess Function, Not Just Duration</h3>
+    <p>Duration alone is not the complete picture. Also track your cognitive function, mood stability, appetite regulation, and physical energy throughout the two weeks. If you find yourself consistently waking naturally after seven hours and feel genuinely sharp, emotionally even, and physically energized without caffeine — that is strong evidence that seven hours meets your need. If you wake after seven hours but still feel foggy or need caffeine to function, you likely need more.</p>
+
+    <div class="callout-green">
+      ✅ <strong>Practical takeaway:</strong> Block two consecutive weeks in your calendar — a holiday period or low-obligation stretch works best. Remove your alarm, cut caffeine for the first seven days, and let your body sleep to natural completion each morning. Keep a simple daily log rating your energy, focus, and mood from 1 to 10. By day ten, your natural sleep duration should have stabilized. That number — not the one you wish were true — is your actual sleep need. Most people discover it is between seven and eight and a half hours.
+    </div>
+
+    <h3>Track Objective Markers Over Time</h3>
+    <p>If you want to go deeper, a sleep tracker can provide useful supplementary data. While wearable devices are not as accurate as clinical polysomnography, they can track trends in your sleep duration, heart rate variability (a useful proxy for recovery quality), and resting heart rate over time. Consistent patterns across weeks are more meaningful than any single night's reading.</p>
+
+    <div class="product-cta">
+      <span class="product-cta-text">Curious whether a sleep tracker or genetic test could give you more insight into your sleep biology?</span>
+      <a class="btn-amazon" href="https://www.amazon.com/s?k=sleep+tracker+genetic&tag=sleepwiserevi-20" target="_blank" rel="noopener nofollow">Explore Options on Amazon</a>
+    </div>
+
+    <h2>The Bottom Line on Sleep Genetics</h2>
+    <p>Sleep genetics is a genuine and fascinating field. Variation in sleep need is real, and genetic factors do influence how much sleep each individual requires to function optimally. But the variation that exists within normal human biology is far smaller than popular culture suggests, and the specific mutations that produce true short sleepers are vanishingly rare.</p>
+
+    <p>If you are sleeping less than seven hours and feeling fine, the most likely explanation is not that you carry a rare genetic mutation. The most likely explanation is that you have adapted to chronic sleep restriction and lost the ability to accurately perceive your own impairment. The solution is not to find a genetic justification for your current habits. It is to run the sleep opportunity experiment honestly and let your biology tell you what it actually needs.</p>
+
+    <p>As the research makes clear — and as Walker documents extensively in <em>Why We Sleep</em> (2017) — there is no known biological substitute for adequate sleep. Genetics can shift the required amount slightly. It cannot eliminate the requirement entirely. The question is not whether you need enough sleep. The question is whether you are honest enough with yourself to find out how much "enough" really is.</p>
+
+    <div class="article-cta">
+      <h3>Get Our Free 7-Day Sleep Reset</h3>
+      <p>Join 18,000 readers who get weekly sleep tips and honest product reviews every Sunday.</p>
+      <a class="btn-amazon" href="../#newsletter">Subscribe Free</a>
+    </div>
+
+    <div class="related-articles">
+      <h3>Related Articles</h3>
+      <ul>
+        <li><a href="sleep-stages-explained.html">Understanding Sleep Stages: A Complete Guide to Your Sleep Cycle</a></li>
+        <li><a href="sleep-consistency-importance.html">Why Sleep Consistency Matters More Than Total Hours</a></li>
+        <li><a href="sleep-chronotypes.html">Are You a Morning Lark or Night Owl? Understanding Your Chronotype</a></li>
+      </ul>
+    </div>
+  </article>
+
+  <footer>
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a class="logo" href="../">SleepWise<span>Reviews</span></a>
+        <p>Honest, science-backed reviews to help you sleep deeper, recover faster, and wake up energized.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Reviews</h4>
+        <ul>
+          <li><a href="https://www.amazon.com/s?k=weighted+blanket&tag=sleepwiserevi-20" target="_blank">Weighted Blankets</a></li>
+          <li><a href="https://www.amazon.com/s?k=white+noise+machine&tag=sleepwiserevi-20" target="_blank">White Noise Machines</a></li>
+          <li><a href="https://www.amazon.com/s?k=sleep+supplements&tag=sleepwiserevi-20" target="_blank">Supplements</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Guides</h4>
+        <ul>
+          <li><a href="../#picks">Sleep Optimization</a></li>
+          <li><a href="../#reviews">Bedtime Routines</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Site</h4>
+        <ul>
+          <li><a href="../pages/about.html">About Harry Soul</a></li>
+          <li><a href="../pages/privacy-policy.html">Privacy Policy</a></li>
+          <li><a href="../pages/affiliate-disclosure.html">Affiliate Disclosure</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div>© 2025 SleepWiseReviews. All rights reserved.</div>
+      <div class="affiliate-disc">SleepWiseReviews is a participant in the Amazon Services LLC Associates Program.</div>
+    </div>
+  </footer>
+</body>
+</html>
