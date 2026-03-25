@@ -1,0 +1,701 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>How to Keep a Sleep Journal (The Method That Changes Everything) | SleepWiseReviews</title>
+  <meta name="description"
+    content="A 2-week sleep journal reveals patterns that neither you nor a sleep tracker can see. Learn the exact method therapists use — before any medication." />
+  <meta name="keywords"
+    content="sleep journal, how to keep a sleep journal, sleep diary, insomnia, sleep tracking, CBT-I, sleep patterns" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Outfit:wght@300;400;500;600&display=swap"
+    rel="stylesheet" />
+  <style>
+    :root {
+      --night: #0A0E1A;
+      --deep: #0F1525;
+      --navy: #141B30;
+      --card: #1A2238;
+      --border: #252D45;
+      --gold: #C9A84C;
+      --gold-light: #E5C96A;
+      --gold-dim: rgba(201, 168, 76, 0.15);
+      --star: #F0E6C8;
+      --text: #D4DCEE;
+      --muted: #7A85A0;
+      --white: #FFFFFF;
+      --green: #4CAF82;
+    }
+
+    *, *::before, *::after {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: 'Outfit', sans-serif;
+      background: var(--night);
+      color: var(--text);
+      line-height: 1.75;
+      overflow-x: hidden;
+    }
+
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      background-image:
+        radial-gradient(1px 1px at 10% 15%, rgba(240,230,200,0.6) 0%, transparent 100%),
+        radial-gradient(1px 1px at 25% 40%, rgba(240,230,200,0.4) 0%, transparent 100%),
+        radial-gradient(1.5px 1.5px at 40% 10%, rgba(240,230,200,0.5) 0%, transparent 100%),
+        radial-gradient(1px 1px at 55% 30%, rgba(240,230,200,0.3) 0%, transparent 100%),
+        radial-gradient(1px 1px at 70% 5%, rgba(240,230,200,0.6) 0%, transparent 100%),
+        radial-gradient(1.5px 1.5px at 80% 20%, rgba(240,230,200,0.4) 0%, transparent 100%),
+        radial-gradient(1px 1px at 90% 35%, rgba(240,230,200,0.5) 0%, transparent 100%),
+        radial-gradient(1px 1px at 15% 65%, rgba(240,230,200,0.3) 0%, transparent 100%),
+        radial-gradient(1px 1px at 35% 75%, rgba(240,230,200,0.4) 0%, transparent 100%),
+        radial-gradient(1.5px 1.5px at 60% 55%, rgba(240,230,200,0.3) 0%, transparent 100%),
+        radial-gradient(1px 1px at 85% 70%, rgba(240,230,200,0.5) 0%, transparent 100%),
+        radial-gradient(1px 1px at 5% 85%, rgba(240,230,200,0.4) 0%, transparent 100%),
+        radial-gradient(1px 1px at 45% 90%, rgba(240,230,200,0.3) 0%, transparent 100%),
+        radial-gradient(1.5px 1.5px at 75% 85%, rgba(240,230,200,0.5) 0%, transparent 100%),
+        radial-gradient(1px 1px at 95% 95%, rgba(240,230,200,0.4) 0%, transparent 100%);
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    /* NAV */
+    nav {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(10,14,26,0.92);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+      padding: 0 1.5rem;
+    }
+
+    .nav-inner {
+      max-width: 1100px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 60px;
+    }
+
+    .nav-logo {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.4rem;
+      font-weight: 700;
+      color: var(--gold);
+      text-decoration: none;
+      letter-spacing: 0.02em;
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 1.5rem;
+      list-style: none;
+    }
+
+    .nav-links a {
+      color: var(--muted);
+      text-decoration: none;
+      font-size: 0.875rem;
+      font-weight: 500;
+      transition: color 0.2s;
+    }
+
+    .nav-links a:hover { color: var(--gold-light); }
+
+    /* ARTICLE LAYOUT */
+    .article-wrap {
+      position: relative;
+      z-index: 1;
+      max-width: 780px;
+      margin: 0 auto;
+      padding: 3rem 1.5rem 5rem;
+    }
+
+    /* BREADCRUMB */
+    .breadcrumb {
+      font-size: 0.8rem;
+      color: var(--muted);
+      margin-bottom: 2rem;
+    }
+
+    .breadcrumb a {
+      color: var(--muted);
+      text-decoration: none;
+    }
+
+    .breadcrumb a:hover { color: var(--gold-light); }
+
+    .breadcrumb span { margin: 0 0.4rem; }
+
+    /* HEADER */
+    .article-header {
+      margin-bottom: 2.5rem;
+    }
+
+    .article-category {
+      display: inline-block;
+      background: var(--gold-dim);
+      color: var(--gold-light);
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      padding: 0.3rem 0.8rem;
+      border-radius: 2rem;
+      margin-bottom: 1.25rem;
+    }
+
+    .article-title {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(2rem, 5vw, 3rem);
+      font-weight: 700;
+      color: var(--star);
+      line-height: 1.2;
+      margin-bottom: 1rem;
+    }
+
+    .article-meta {
+      font-size: 0.82rem;
+      color: var(--muted);
+    }
+
+    /* AUTHOR BOX */
+    .author-box {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.25rem 1.5rem;
+      margin-bottom: 2rem;
+    }
+
+    .author-avatar {
+      width: 52px;
+      height: 52px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, var(--gold-dim), var(--navy));
+      border: 2px solid var(--gold);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.5rem;
+      flex-shrink: 0;
+    }
+
+    .author-name {
+      font-weight: 600;
+      color: var(--star);
+      font-size: 0.95rem;
+    }
+
+    .author-bio {
+      font-size: 0.8rem;
+      color: var(--muted);
+      margin-top: 0.2rem;
+    }
+
+    /* DISCLOSURE BOX */
+    .disclosure-box {
+      background: var(--gold-dim);
+      border: 1px solid rgba(201,168,76,0.3);
+      border-radius: 10px;
+      padding: 1rem 1.25rem;
+      font-size: 0.8rem;
+      color: var(--muted);
+      margin-bottom: 2.5rem;
+      line-height: 1.6;
+    }
+
+    .disclosure-box strong {
+      color: var(--gold-light);
+    }
+
+    /* BODY TEXT */
+    .article-body p {
+      color: var(--text);
+      margin-bottom: 1.4rem;
+      font-size: 1.05rem;
+    }
+
+    .article-body h2 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(1.5rem, 3.5vw, 2rem);
+      font-weight: 700;
+      color: var(--star);
+      margin: 2.5rem 0 1rem;
+      line-height: 1.3;
+    }
+
+    .article-body h3 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.25rem;
+      font-weight: 600;
+      color: var(--gold-light);
+      margin: 1.75rem 0 0.75rem;
+    }
+
+    /* CALLOUTS */
+    .callout {
+      border-radius: 10px;
+      padding: 1.25rem 1.5rem;
+      margin: 2rem 0;
+      font-size: 0.97rem;
+      line-height: 1.7;
+    }
+
+    .callout-gold {
+      background: var(--gold-dim);
+      border-left: 3px solid var(--gold);
+      color: var(--star);
+    }
+
+    /* DATA TABLE */
+    .data-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin: 1.5rem 0 2rem;
+      font-size: 0.9rem;
+    }
+
+    .data-table th {
+      background: var(--navy);
+      color: var(--gold-light);
+      padding: 0.75rem 1rem;
+      text-align: left;
+      font-weight: 600;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .data-table td {
+      padding: 0.7rem 1rem;
+      color: var(--text);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .data-table tr:last-child td { border-bottom: none; }
+    .data-table tr:nth-child(even) td { background: rgba(26,34,56,0.4); }
+
+    /* PRODUCT CTA */
+    .product-cta {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-top: 2px solid var(--gold);
+      border-radius: 14px;
+      padding: 1.75rem 2rem;
+      margin: 2.5rem 0;
+      display: flex;
+      gap: 1.5rem;
+      align-items: flex-start;
+    }
+
+    .product-cta-icon {
+      font-size: 2.5rem;
+      flex-shrink: 0;
+    }
+
+    .product-cta-title {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: var(--star);
+      margin-bottom: 0.4rem;
+    }
+
+    .product-cta-desc {
+      font-size: 0.875rem;
+      color: var(--muted);
+      margin-bottom: 1rem;
+    }
+
+    .btn-amazon {
+      display: inline-block;
+      background: linear-gradient(135deg, var(--gold), var(--gold-light));
+      color: var(--night);
+      font-weight: 700;
+      font-size: 0.875rem;
+      padding: 0.65rem 1.4rem;
+      border-radius: 6px;
+      text-decoration: none;
+      letter-spacing: 0.03em;
+      transition: opacity 0.2s;
+    }
+
+    .btn-amazon:hover { opacity: 0.88; }
+
+    /* ARTICLE CTA */
+    .article-cta {
+      background: linear-gradient(135deg, var(--navy), var(--card));
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 2rem;
+      margin: 3rem 0;
+      text-align: center;
+    }
+
+    .article-cta h3 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: var(--star);
+      margin-bottom: 0.5rem;
+    }
+
+    .article-cta p {
+      font-size: 0.9rem;
+      color: var(--muted);
+      margin-bottom: 1.25rem;
+    }
+
+    .btn-outline {
+      display: inline-block;
+      border: 1px solid var(--gold);
+      color: var(--gold-light);
+      font-weight: 600;
+      font-size: 0.875rem;
+      padding: 0.65rem 1.4rem;
+      border-radius: 6px;
+      text-decoration: none;
+      transition: background 0.2s;
+    }
+
+    .btn-outline:hover { background: var(--gold-dim); }
+
+    /* RELATED ARTICLES */
+    .related-articles {
+      margin: 3rem 0;
+    }
+
+    .related-articles h3 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.4rem;
+      font-weight: 700;
+      color: var(--star);
+      margin-bottom: 1.25rem;
+    }
+
+    .related-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1rem;
+    }
+
+    .related-card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.25rem;
+      text-decoration: none;
+      transition: border-color 0.2s;
+    }
+
+    .related-card:hover { border-color: var(--gold); }
+
+    .related-card-cat {
+      font-size: 0.7rem;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 0.5rem;
+    }
+
+    .related-card-title {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: var(--star);
+      line-height: 1.35;
+    }
+
+    /* FOOTER */
+    footer {
+      position: relative;
+      z-index: 1;
+      background: var(--navy);
+      border-top: 1px solid var(--border);
+      padding: 3rem 1.5rem;
+      text-align: center;
+    }
+
+    .footer-logo {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: var(--gold);
+      margin-bottom: 0.75rem;
+    }
+
+    .footer-tagline {
+      font-size: 0.85rem;
+      color: var(--muted);
+      margin-bottom: 1.5rem;
+    }
+
+    .footer-links {
+      display: flex;
+      justify-content: center;
+      gap: 1.5rem;
+      flex-wrap: wrap;
+      list-style: none;
+      margin-bottom: 2rem;
+    }
+
+    .footer-links a {
+      font-size: 0.8rem;
+      color: var(--muted);
+      text-decoration: none;
+    }
+
+    .footer-links a:hover { color: var(--gold-light); }
+
+    .footer-disclaimer {
+      font-size: 0.75rem;
+      color: var(--muted);
+      max-width: 650px;
+      margin: 0 auto;
+      line-height: 1.6;
+    }
+
+    /* RESPONSIVE */
+    @media (max-width: 600px) {
+      .product-cta { flex-direction: column; }
+      .nav-links { display: none; }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <div class="nav-inner">
+      <a href="/" class="nav-logo">&#9790; SleepWiseReviews</a>
+      <ul class="nav-links">
+        <li><a href="/">Home</a></li>
+        <li><a href="/#reviews">Reviews</a></li>
+        <li><a href="/#guides">Guides</a></li>
+        <li><a href="/#science">Science</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- ARTICLE -->
+  <main class="article-wrap">
+
+    <!-- BREADCRUMB -->
+    <div class="breadcrumb">
+      <a href="/">Home</a>
+      <span>›</span>
+      <a href="/#guides">Sleep Guides</a>
+      <span>›</span>
+      How to Keep a Sleep Journal
+    </div>
+
+    <!-- HEADER -->
+    <header class="article-header">
+      <div class="article-category">Sleep Science &amp; Methods</div>
+      <h1 class="article-title">How to Keep a Sleep Journal (The Method That Changes Everything)</h1>
+      <div class="article-meta">&#128197; October 2024 &middot; &#9203; 7 min read &middot; &#128260; Updated Mar 2026</div>
+    </header>
+
+    <!-- AUTHOR BOX -->
+    <div class="author-box">
+      <div class="author-avatar">&#128214;</div>
+      <div>
+        <div class="author-name">SleepWise Editorial Team</div>
+        <div class="author-bio">Evidence-based sleep guidance, reviewed against peer-reviewed research and leading sleep medicine texts.</div>
+      </div>
+    </div>
+
+    <!-- DISCLOSURE BOX -->
+    <div class="disclosure-box">
+      <strong>Affiliate Disclosure:</strong> SleepWiseReviews earns a small commission on qualifying purchases through Amazon links at no extra cost to you. Our editorial recommendations are always independent of affiliate relationships.
+    </div>
+
+    <!-- BODY -->
+    <article class="article-body">
+
+      <p>A 2-week sleep journal reveals patterns that neither you nor a sleep tracker can see. Therapists who specialize in insomnia use it as their first intervention — before any medication. Yet most people skip it, assuming a wearable device gives them everything they need. It doesn't — and the gap between what a sensor measures and what your subjective experience tells you is exactly where the most useful sleep data lives.</p>
+
+      <p>This guide walks you through the exact journaling method used in Cognitive Behavioral Therapy for Insomnia (CBT-I) — the same framework sleep specialists reach for first. You don't need a special app, a subscription, or a wearable. You need a notebook, two minutes in the morning, and fourteen days of consistency.</p>
+
+      <!-- SECTION 1 -->
+      <h2>Why a Sleep Journal Beats Any Tracker</h2>
+
+      <p>Sleep trackers are impressive pieces of technology. They measure heart rate variability, movement, skin temperature, and use algorithms to estimate your sleep stages. But they have a structural blind spot: they cannot measure your experience of sleep. Two people can have identical polysomnography readings and one wakes up refreshed while the other feels wrecked. The difference is subjective — and subjective data is exactly what a journal captures.</p>
+
+      <p>W. Chris Winter, M.D., a neurologist and sleep specialist, makes this point plainly in <em>The Sleep Solution</em> (2017): anxiety about sleep — what he calls sleep-related performance anxiety — can be a more powerful driver of insomnia than any measurable physiological disruption (Winter, 2017). A tracker that tells you "you got 6h 12m of sleep" can actually worsen that anxiety if you've decided 6h 12m isn't enough. Your journal, by contrast, asks you to rate how rested you feel — a number that reflects reality as you live it, not as an algorithm estimates it.</p>
+
+      <p>Sleep specialists use what's called a Sleep Diary (the clinical term) as a diagnostic tool in every initial CBT-I assessment. It's not a supplement to objective measurement — in most outpatient settings, it <em>is</em> the primary measurement tool. Two weeks of diary data lets a clinician calculate your sleep efficiency (the ratio of time asleep to time in bed), identify patterns tied to specific days or habits, and establish a baseline before any intervention begins.</p>
+
+      <div class="callout callout-gold">
+        &#10024; <strong>Key insight:</strong> Sleep efficiency — time asleep divided by time in bed — is the single most actionable metric in sleep medicine. A tracker estimates it algorithmically. Your journal calculates it directly from your own reported data. When the two diverge (and they often do), your journal is closer to the clinical truth.
+      </div>
+
+      <!-- SECTION 2 -->
+      <h2>What to Track: The 5 Essential Data Points</h2>
+
+      <p>Simplicity is what makes a sleep journal sustainable. Elaborate tracking systems collapse by day four. The clinical Sleep Diary used in CBT-I research is deliberately minimal, and you should follow the same principle. Record five things every morning, within 30 minutes of waking, before you check your phone:</p>
+
+      <table class="data-table">
+        <thead>
+          <tr>
+            <th>Data Point</th>
+            <th>What It Tells You</th>
+            <th>How to Record It</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Bedtime</strong></td>
+            <td>Consistency of your sleep window onset</td>
+            <td>The time you turned off the light with the intention to sleep</td>
+          </tr>
+          <tr>
+            <td><strong>Wake time</strong></td>
+            <td>Consistency of your sleep window close</td>
+            <td>The time you got out of bed for good</td>
+          </tr>
+          <tr>
+            <td><strong>Number of awakenings</strong></td>
+            <td>Sleep fragmentation (often more meaningful than duration)</td>
+            <td>An estimate — don't check the clock during the night</td>
+          </tr>
+          <tr>
+            <td><strong>Restedness score (1–10)</strong></td>
+            <td>Your subjective experience of sleep quality</td>
+            <td>First number that comes to mind — don't overthink it</td>
+          </tr>
+          <tr>
+            <td><strong>One habit note</strong></td>
+            <td>Correlation between behaviours and sleep quality</td>
+            <td>Alcohol, exercise, screen time, stress, caffeine after 2 pm</td>
+          </tr>
+        </tbody>
+      </table>
+
+      <p>Notice what is <em>not</em> on this list: total hours slept. This is intentional. Estimating hours slept requires you to guess when you actually fell asleep — a number almost nobody knows accurately. More importantly, fixating on total hours is one of the primary drivers of the sleep anxiety cycle (Winter, 2017). Record your time in bed (bedtime to wake time). After two weeks, you can calculate your average sleep efficiency without needing to know the exact moment you crossed from wakefulness to sleep.</p>
+
+      <h3>The Morning-Only Rule</h3>
+
+      <p>Fill in your journal once, in the morning, from memory. Do not record data during the night. Do not check the clock when you wake up at 2 am. The moment you start actively monitoring your sleep <em>while</em> trying to sleep, you trigger the hyperarousal that perpetuates insomnia. The journal is a retrospective record, not a live dashboard.</p>
+
+      <!-- GREEN CALLOUT — exact spec -->
+      <div class="callout" style="border-left:3px solid var(--green)">&#128154; <strong>Tonight's action:</strong> Start your sleep journal tonight with just 5 data points: bedtime, wake time, number of awakenings, how rested you feel (1-10), and one note about yesterday's habits. That's all you need for week one.</div>
+
+      <!-- PRODUCT CTA -->
+      <div class="product-cta">
+        <div class="product-cta-icon">&#128221;</div>
+        <div>
+          <div class="product-cta-title">Find a Sleep Journal Notebook</div>
+          <div class="product-cta-desc">A dedicated notebook makes the habit stick. Look for undated layouts, minimal prompts, and enough space for a brief habit note. Amazon has a solid selection of purpose-built sleep tracking journals.</div>
+          <a href="https://www.amazon.com/s?k=sleep+journal+notebook&tag=sleepwiserevi-20" target="_blank" rel="noopener noreferrer" class="btn-amazon">Browse on Amazon &#8594;</a>
+        </div>
+      </div>
+
+      <!-- SECTION 3 -->
+      <h2>How to Analyze Your Patterns After Two Weeks</h2>
+
+      <p>After fourteen days, you have enough data to look for signal rather than noise. A single bad night tells you nothing. Fourteen nights reveal your actual sleep architecture. Here's how to work through the data:</p>
+
+      <h3>Calculate Your Sleep Efficiency</h3>
+
+      <p>Sleep efficiency = (estimated time asleep / total time in bed) × 100. In CBT-I, a sleep efficiency above 85% is the target. If yours is below 85%, Sleep Restriction Therapy — a core component of CBT-I — is indicated. If it's above 85% and you still feel tired, the issue is more likely sleep quality (fragmentation, sleep stage distribution) than sleep duration.</p>
+
+      <h3>Look for Day-of-Week Patterns</h3>
+
+      <p>Many people have excellent sleep Sunday through Thursday and terrible sleep on Friday and Saturday — or the reverse. This pattern points immediately to social schedule disruption rather than a physiological sleep disorder. Your tracker will show you scattered HRV data. Your journal will show you that every Sunday night is a 4/10 because you stayed up until 1 am on Saturday and slept until 10 am, collapsing your sleep pressure for Sunday night.</p>
+
+      <h3>Match Habit Notes to Restedness Scores</h3>
+
+      <p>This is where the journal pays its biggest dividends. Sort your entries by restedness score. Look at the habit notes for your top five nights and your bottom five nights. Do you see alcohol, late caffeine, or missed exercise clustering in the low-score entries? For most people, two weeks is enough to identify one or two behavioral drivers that account for the majority of their poor-sleep nights.</p>
+
+      <h3>Identify Your Natural Sleep Window</h3>
+
+      <p>Look at the nights when you fell asleep fastest and woke feeling most rested. What time did you go to bed? What time did you wake up? That window — not the 8-hour block you've been told to target — is your actual sleep need. It varies significantly between individuals. Some people are genuinely efficient 6.5-hour sleepers. Forcing 8 hours into bed can worsen insomnia by creating a large gap between time in bed and time asleep (Winter, 2017).</p>
+
+      <!-- SECTION 4 -->
+      <h2>Common Patterns and What They Mean</h2>
+
+      <p>Two weeks of journaling tend to surface one of several recognizable patterns. Here's how to read each one:</p>
+
+      <h3>High fragmentation, adequate duration</h3>
+      <p>You're sleeping six to seven hours total but waking three or four times a night. Your restedness scores are moderate (5–6/10). This pattern often points to sleep apnea, periodic limb movement disorder, or environmental disruption (noise, light, temperature). This is one case where a tracker adds useful information — look for correlations with low HRV and elevated resting heart rate. See a sleep specialist if the pattern persists.</p>
+
+      <h3>Low sleep efficiency, high sleep anxiety</h3>
+      <p>You're in bed for 8+ hours but sleeping only 5–6. You're anxious about sleep. Your restedness scores are low despite the long time in bed. This is the classic presentation for psychophysiological insomnia, and it's the presentation CBT-I is most effective for. Sleep restriction — compressing your time in bed to match your actual sleep window — typically produces rapid improvement within two to three weeks.</p>
+
+      <h3>Consistent low restedness despite apparently normal data</h3>
+      <p>Bedtime and wake time are consistent. Fragmentation is low. But your restedness scores cluster at 4–6. This pattern warrants medical evaluation. Unrefreshing sleep despite adequate architecture can indicate mood disorders, thyroid dysfunction, or early neurodegenerative changes. Your journal gives your doctor something concrete to work with.</p>
+
+      <h3>Weekend anchor drift</h3>
+      <p>Your weekday sleep is reasonably consistent, but you shift your bedtime 2+ hours later on weekends and sleep significantly longer in the morning. Restedness is lower on Monday and Tuesday than any other day. This is social jet lag — one of the most common and most correctable sleep disruptors. Limiting weekend schedule drift to 45–60 minutes typically resolves this pattern within three to four weeks.</p>
+
+      <div class="callout callout-gold">
+        &#9728;&#65039; <strong>The bottom line:</strong> Most people who journal for two weeks discover that their sleep problem is one of three things — behavioral (fixable through schedule changes), perceptual (they're sleeping more than they think, fueled by anxiety), or medical (and now they have documented data to bring to a doctor). None of those three outcomes require a tracker to diagnose. They require two minutes a day and a notebook.
+      </div>
+
+    </article>
+
+    <!-- ARTICLE CTA -->
+    <div class="article-cta">
+      <h3>Ready to Go Deeper?</h3>
+      <p>Explore our evidence-based reviews of sleep products, white noise machines, and the supplements that actually have research behind them.</p>
+      <a href="/" class="btn-outline">Browse All Sleep Guides &#8594;</a>
+    </div>
+
+    <!-- RELATED ARTICLES -->
+    <div class="related-articles">
+      <h3>Related Reading</h3>
+      <div class="related-grid">
+        <a href="/" class="related-card">
+          <div class="related-card-cat">Sleep Science</div>
+          <div class="related-card-title">What Your Sleep Tracker Is Actually Measuring</div>
+        </a>
+        <a href="/" class="related-card">
+          <div class="related-card-cat">CBT-I</div>
+          <div class="related-card-title">Sleep Restriction Therapy: The Counterintuitive Fix for Insomnia</div>
+        </a>
+        <a href="/" class="related-card">
+          <div class="related-card-cat">Habits</div>
+          <div class="related-card-title">The 4 Habits That Improve Sleep Efficiency Without Supplements</div>
+        </a>
+      </div>
+    </div>
+
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="footer-logo">&#9790; SleepWiseReviews</div>
+    <div class="footer-tagline">Evidence-based guidance for better sleep.</div>
+    <ul class="footer-links">
+      <li><a href="/">Home</a></li>
+      <li><a href="/#reviews">Reviews</a></li>
+      <li><a href="/#guides">Guides</a></li>
+      <li><a href="/#about">About</a></li>
+      <li><a href="/#privacy">Privacy Policy</a></li>
+      <li><a href="/#affiliate">Affiliate Disclosure</a></li>
+    </ul>
+    <div class="footer-disclaimer">
+      SleepWiseReviews participates in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for sites to earn advertising fees by advertising and linking to Amazon.com. Content on this site is for informational purposes only and does not constitute medical advice. Consult a qualified healthcare provider for sleep-related medical concerns.
+    </div>
+  </footer>
+
+</body>
+</html>
