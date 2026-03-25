@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sleep Strategy for Exam Season: The Student's Complete Guide - SleepWiseReviews</title>
+  <meta name="description" content="Cramming overnight destroys the memories you just formed. Discover the neuroscience of sleep and learning, and build a study schedule that actually sticks." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <style type='text/css'>
+    :root {
+      --night: #0A0E1A;
+      --deep: #0F1525;
+      --navy: #141B30;
+      --card: #1A2238;
+      --border: #252D45;
+      --gold: #C9A84C;
+      --gold-light: #E5C96A;
+      --gold-dim: rgba(201, 168, 76, 0.15);
+      --star: #F0E6C8;
+      --text: #D4DCEE;
+      --muted: #7A85A0;
+      --white: #FFFFFF;
+      --green: #4CAF82;
+    }
+
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: 'Outfit', sans-serif;
+      background: var(--night);
+      color: var(--text);
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      background-image:
+        radial-gradient(1px 1px at 10% 15%, rgba(240, 230, 200, 0.6) 0%, transparent 100%),
+        radial-gradient(1px 1px at 25% 40%, rgba(240, 230, 200, 0.4) 0%, transparent 100%),
+        radial-gradient(1.5px 1.5px at 40% 10%, rgba(240, 230, 200, 0.5) 0%, transparent 100%),
+        radial-gradient(1px 1px at 55% 30%, rgba(240, 230, 200, 0.3) 0%, transparent 100%),
+        radial-gradient(1px 1px at 70% 5%, rgba(240, 230, 200, 0.6) 0%, transparent 100%),
+        radial-gradient(1.5px 1.5px at 80% 20%, rgba(240, 230, 200, 0.4) 0%, transparent 100%),
+        radial-gradient(1px 1px at 90% 45%, rgba(240, 230, 200, 0.3) 0%, transparent 100%);
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    nav {
+      position: sticky; top: 0; z-index: 100;
+      background: rgba(10, 14, 26, 0.92);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+      padding: 0 6%; height: 68px;
+      display: flex; align-items: center; justify-content: space-between;
+    }
+    .logo { font-family: 'Cormorant Garamond', serif; font-size: 1.6rem; font-weight: 700; color: var(--star); text-decoration: none; }
+    .logo span { color: var(--gold); }
+    .nav-links { display: flex; gap: 2rem; list-style: none; }
+    .nav-links a { text-decoration: none; color: var(--muted); font-size: 0.88rem; font-weight: 500; transition: color 0.2s; }
+    .nav-links a:hover { color: var(--gold); }
+    .nav-cta { background: var(--gold-dim); color: var(--gold) !important; border: 1px solid rgba(201, 168, 76, 0.3); padding: 7px 16px; border-radius: 4px; }
+
+    .article-wrapper {
+      position: relative; z-index: 1;
+      max-width: 800px; margin: 0 auto; padding: 50px 6% 80px;
+    }
+    .article-meta-top { display: flex; flex-wrap: wrap; align-items: center; gap: 0.8rem; margin-bottom: 1.2rem; }
+    .tag { background: var(--gold); color: var(--night); padding: 5px 12px; border-radius: 4px; font-size: 0.72rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; }
+    .meta-text { color: var(--muted); font-size: 0.82rem; }
+    .article-wrapper h1 { font-family: 'Cormorant Garamond', serif; font-size: 2.4rem; font-weight: 600; color: var(--star); line-height: 1.2; margin-bottom: 1.2rem; }
+    .article-intro { font-size: 1.1rem; color: var(--text); line-height: 1.7; margin-bottom: 2rem; font-weight: 300; }
+    .author-box { display: flex; align-items: center; gap: 1rem; margin-bottom: 1.5rem; padding: 1rem; background: var(--card); border-radius: 8px; border: 1px solid var(--border); }
+    .author-avatar { font-size: 2.5rem; }
+    .author-name { color: var(--star); font-weight: 500; }
+    .author-name a { color: var(--gold); text-decoration: none; }
+    .author-role { color: var(--muted); font-size: 0.82rem; }
+    .disclosure-box { background: rgba(201, 168, 76, 0.08); border: 1px solid rgba(201, 168, 76, 0.2); border-radius: 8px; padding: 1rem 1.2rem; font-size: 0.82rem; color: var(--muted); margin-bottom: 2rem; }
+    .article-wrapper h2 { font-family: 'Cormorant Garamond', serif; font-size: 1.6rem; font-weight: 600; color: var(--star); margin: 2.5rem 0 1rem; padding-top: 1rem; }
+    .article-wrapper h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.2rem; color: var(--star); margin: 1.5rem 0 0.8rem; }
+    .article-wrapper p { margin-bottom: 1rem; font-weight: 300; line-height: 1.8; }
+    .article-wrapper ul, .article-wrapper ol { margin: 1rem 0 1.5rem 1.5rem; }
+    .article-wrapper li { margin-bottom: 0.5rem; font-weight: 300; }
+    .callout { background: var(--card); border-left: 3px solid var(--gold); padding: 1rem 1.5rem; margin: 1.5rem 0; border-radius: 0 8px 8px 0; font-size: 0.92rem; }
+    .callout-green { background: var(--card); border-left: 3px solid var(--green); padding: 1rem 1.5rem; margin: 1.5rem 0; border-radius: 0 8px 8px 0; font-size: 0.92rem; }
+
+    .product-cta { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 1.5rem; margin: 2rem 0; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; }
+    .product-cta-text { color: var(--star); font-weight: 500; }
+    .btn-amazon { background: var(--gold); color: var(--night); text-decoration: none; padding: 10px 20px; border-radius: 6px; font-weight: 600; font-size: 0.88rem; transition: background 0.2s; }
+    .btn-amazon:hover { background: var(--gold-light); }
+
+    .article-cta { background: linear-gradient(135deg, var(--card), var(--navy)); border: 1px solid var(--border); border-radius: 12px; padding: 2rem; text-align: center; margin: 3rem 0; }
+    .article-cta h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.4rem; color: var(--star); margin-bottom: 0.8rem; }
+    .article-cta p { color: var(--muted); margin-bottom: 1.2rem; }
+
+    .related-articles { margin: 3rem 0; }
+    .related-articles h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.3rem; color: var(--star); margin-bottom: 1rem; }
+    .related-articles ul { list-style: none; margin: 0; }
+    .related-articles li { margin-bottom: 0.6rem; }
+    .related-articles a { color: var(--gold); text-decoration: none; font-size: 0.95rem; }
+    .related-articles a:hover { text-decoration: underline; }
+
+    .stat-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; margin: 1.5rem 0; }
+    .stat-card { background: var(--card); border: 1px solid var(--border); border-radius: 8px; padding: 1.2rem; text-align: center; }
+    .stat-card .stat-number { font-family: 'Cormorant Garamond', serif; font-size: 2rem; font-weight: 700; color: var(--gold); display: block; }
+    .stat-card .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.3rem; }
+
+    .schedule-table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; font-size: 0.9rem; }
+    .schedule-table th { background: var(--navy); color: var(--gold); padding: 0.8rem 1rem; text-align: left; font-weight: 600; font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; }
+    .schedule-table td { padding: 0.8rem 1rem; border-bottom: 1px solid var(--border); color: var(--text); font-weight: 300; }
+    .schedule-table tr:last-child td { border-bottom: none; }
+    .schedule-table tr:hover td { background: rgba(255,255,255,0.02); }
+
+    footer { background: #060912; border-top: 1px solid var(--border); padding: 50px 6% 30px; }
+    .footer-top { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 3rem; margin-bottom: 3rem; padding-bottom: 3rem; border-bottom: 1px solid var(--border); }
+    .footer-brand p { color: var(--muted); font-size: 0.82rem; margin-top: 0.8rem; line-height: 1.6; font-weight: 300; max-width: 260px; }
+    .footer-col h4 { font-size: 0.78rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--gold); margin-bottom: 1rem; }
+    .footer-col ul { list-style: none; display: flex; flex-direction: column; gap: 0.6rem; }
+    .footer-col a { color: var(--muted); text-decoration: none; font-size: 0.85rem; transition: color 0.2s; }
+    .footer-col a:hover { color: var(--gold); }
+    .footer-bottom { display: flex; justify-content: space-between; font-size: 0.78rem; color: var(--muted); flex-wrap: wrap; gap: 0.5rem; }
+    .affiliate-disc { font-size: 0.75rem; max-width: 600px; }
+
+    @media (max-width: 900px) {
+      .nav-links { display: none; }
+      .article-wrapper h1 { font-size: 1.8rem; }
+      .footer-top { grid-template-columns: 1fr 1fr; }
+      .product-cta { flex-direction: column; text-align: center; }
+      .stat-grid { grid-template-columns: 1fr 1fr; }
+    }
+    @media (max-width: 600px) {
+      .stat-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+
+<body>
+  <nav>
+    <a class="logo" href="../">SleepWise<span>Reviews</span></a>
+    <ul class="nav-links">
+      <li><a href="../#picks">Top Picks</a></li>
+      <li><a href="../#reviews">Reviews</a></li>
+      <li><a href="../pages/about.html">About Harry</a></li>
+      <li><a href="../#newsletter" class="nav-cta">Free Sleep Guide</a></li>
+    </ul>
+  </nav>
+
+  <article class="article-wrapper">
+    <div class="article-meta-top">
+      <span class="tag">Education</span>
+      <span class="meta-text">📅 June 2023 · ⏱ 8 min read · 🔄 Updated Mar 2026</span>
+    </div>
+    <h1>Sleep Strategy for Exam Season: The Student's Complete Guide</h1>
+    <p class="article-intro">Cramming overnight destroys the memories you just formed — sleep is not optional for learning. Every hour you sacrifice to stay up studying is an hour your brain cannot do the one thing that actually cements knowledge into long-term memory.</p>
+
+    <div class="author-box">
+      <div class="author-avatar">📚</div>
+      <div class="author-info">
+        <div class="author-name">By <a href="../pages/about.html">Harry Soul</a> - SleepWiseReviews</div>
+        <div class="author-role">Independent Sleep Researcher - June 2023</div>
+      </div>
+    </div>
+
+    <div class="disclosure-box">
+      <strong>Affiliate Disclosure:</strong> This article contains affiliate links. We earn a small commission if you purchase through our links at no extra cost to you. <a href="../pages/affiliate-disclosure.html" style="color:var(--gold)">Full disclosure</a>
+    </div>
+
+    <div class="stat-grid">
+      <div class="stat-card">
+        <span class="stat-number">40%</span>
+        <div class="stat-label">fewer memories formed after a single sleepless night</div>
+      </div>
+      <div class="stat-card">
+        <span class="stat-number">20%</span>
+        <div class="stat-label">exam score improvement with consistent sleep vs. cramming</div>
+      </div>
+      <div class="stat-card">
+        <span class="stat-number">8 hrs</span>
+        <div class="stat-label">minimum sleep the night before any high-stakes test</div>
+      </div>
+    </div>
+
+    <h2>Why All-Nighters Actively Destroy the Memories They Were Meant to Consolidate</h2>
+    <p>There is a cruel irony at the heart of every all-nighter: the very act of forgoing sleep to review material makes it far less likely that material will be accessible on exam day. This is not a matter of willpower or discipline — it is hard neuroscience.</p>
+
+    <p>The hippocampus is the brain's short-term recording device. During a study session, it captures incoming facts, equations, and concepts in a temporary buffer. Think of it as RAM in a computer: fast, accessible, but fragile. Without sleep, that buffer never gets written to long-term storage. Worse, a sleep-deprived hippocampus loses roughly 40% of its capacity to encode new memories in the first place, meaning the study session itself becomes less effective hour by hour as the night wears on.</p>
+
+    <p>As Matthew Walker explains in <em>Why We Sleep</em> (2017), sleep deprivation creates a neurological double penalty: "You not only fail to consolidate the memories you have just formed, but you also impair the brain's ability to lay down new ones." This means the student who pulls an all-nighter is not just failing to save their work — they are actively corrupting the file.</p>
+
+    <div class="callout">
+      💡 <strong>The brutal math:</strong> An all-nighter might give you 3–4 extra hours of review time. But sleep deprivation reduces recall accuracy by up to 40% and impairs creative problem-solving by an even larger margin. You are trading a guaranteed loss for the illusion of productivity.
+    </div>
+
+    <h2>The Tag-and-Transfer Model: How Sleep Moves Memories from Hippocampus to Cortex</h2>
+    <p>Modern neuroscience describes memory consolidation through what researchers call the "tag-and-transfer" model. During a waking study session, synaptic connections in the hippocampus are temporarily strengthened — tagged for later processing. Sleep then triggers a systematic replay of those tagged connections, transferring the essential patterns into the neocortex for durable, long-term storage.</p>
+
+    <p>This replay is not passive. The sleeping brain actively rehearses what it learned, firing the same sequences of neurons in compressed bursts during slow-wave sleep. Each replay strengthens the cortical trace, gradually making the hippocampus unnecessary as a middleman. The end result is a memory that feels less like recalling a specific study session and more like simply knowing something — the hallmark of deep, usable knowledge.</p>
+
+    <p>For students, the implication is direct: the study session plants the seeds, but sleep does the growing. Skipping sleep is like watering a garden and then immediately pulling the seedlings before they take root.</p>
+
+    <h2>Sleep Spindles and Declarative Memory: The Specific Mechanism for Factual Learning</h2>
+    <p>Not all sleep is equal when it comes to academic learning. Stage 2 NREM sleep — the light-to-moderate sleep that dominates the middle portion of the night — is characterised by short bursts of high-frequency brain activity called sleep spindles. These spindles, lasting less than two seconds each, are the brain's primary mechanism for consolidating declarative memory: the kind of memory that stores facts, vocabulary, formulas, dates, and concepts.</p>
+
+    <p>Research from the Max Planck Institute has shown that people with higher spindle density during Stage 2 sleep perform significantly better on factual recall tests the following morning — even when total sleep time is held constant. The density of sleep spindles is partly genetic, but it is also sensitive to sleep timing and consistency. Regular sleep schedules produce more predictable, spindle-rich Stage 2 sleep than erratic patterns.</p>
+
+    <p>For a student cramming for a chemistry exam or memorising case law, this matters enormously. The hours between midnight and 4 a.m. are particularly spindle-rich. An all-nighter eliminates this window entirely. Even a truncated night — sleeping from 2 a.m. to 6 a.m. — loses the most biologically productive period for factual memory consolidation.</p>
+
+    <div class="callout-green">
+      <strong>Practical Takeaway:</strong> Aim to be asleep before 11:30 p.m. during exam season to capture the peak spindle window between midnight and 4 a.m. This is the single highest-leverage change most students can make — more impactful than any additional hour of review.
+    </div>
+
+    <h2>REM Sleep and Pattern Recognition: Finding the Connections Between Concepts</h2>
+    <p>If Stage 2 sleep consolidates individual facts, REM sleep connects them. During REM, the brain enters a state of wide associative processing — distant neural networks that are normally kept separate begin to communicate. This is why you sometimes wake from a vivid dream with a sudden insight about a problem you had been stuck on. That is not coincidence; it is the REM network doing its job.</p>
+
+    <p>For students studying complex subjects — economics, literature, biology, history — REM sleep is where surface-level memorisation becomes genuine understanding. The ability to apply a principle to an unfamiliar problem, to see the structural similarity between two case studies, or to write a coherent analytical essay under time pressure all depend heavily on the cross-domain integration that only REM enables.</p>
+
+    <p>REM sleep is concentrated in the final two hours of an 8-hour night. Cutting sleep short by even 90 minutes eliminates a disproportionate share of total REM time. A student sleeping 6 hours instead of 8 loses roughly 60–70% of their REM sleep — not 25%. This is why the last hour or two of sleep is not "optional extra rest." It is when the brain finishes building its model of what was studied.</p>
+
+    <h2>The Spacing Effect: Why Studying Across Multiple Nights Beats Marathon Sessions</h2>
+    <p>One of the most replicated findings in cognitive psychology is the spacing effect: material studied across multiple shorter sessions is retained far better than the same amount of material studied in a single marathon. Sleep is a key reason why. Each night of sleep between study sessions allows partial consolidation to occur, creating a stable memory trace that the next session can build upon rather than overwrite.</p>
+
+    <p>Imagine studying the French Revolution on Monday, sleeping, and reviewing it again on Wednesday. By Wednesday, some of the Monday material has been transferred to long-term cortical storage. The review session now strengthens an already-anchored trace rather than trying to hold entirely new information in a temporary hippocampal buffer. The result is dramatically better retention at test time.</p>
+
+    <p>The practical implication: build a study calendar that distributes each subject across at least three separate sessions with nights of sleep between them. If you have two weeks before finals, the student who reviews Chapter 4 three times — on days 1, 5, and 10 — will outperform the student who reads it for three hours straight the night before the exam, almost without exception.</p>
+
+    <div class="callout-green">
+      <strong>Practical Takeaway:</strong> Use a spaced-repetition app like Anki to automatically schedule review sessions across days and nights. Set a hard rule: no subject gets a marathon session. Break everything into 45-minute blocks with sleep between them.
+    </div>
+
+    <h2>Strategic Nap Use During Exam Season: The 20-Minute Power Nap</h2>
+    <p>When exam schedules force early mornings and late study sessions, strategic napping can partially offset short-term sleep debt and restore alertness without disrupting night-time sleep. The key is precision: duration and timing both matter.</p>
+
+    <p>A 20-minute nap taken between 1 p.m. and 3 p.m. sits in the sweet spot. It is long enough to move through Stage 1 and into Stage 2 NREM sleep, capturing a small burst of memory-consolidating spindle activity and restoring focus and working memory. It is short enough to avoid slow-wave sleep, which — if interrupted by an alarm — produces "sleep inertia," the groggy disoriented state that impairs performance for up to 30 minutes afterward.</p>
+
+    <p>Research from NASA has shown that a 26-minute nap improved pilot performance by 34% and alertness by 100%. For students, the analogous benefit translates to sharper concentration during the afternoon study block — the hours when circadian alertness naturally dips and mistakes in reading comprehension or problem-solving are most likely.</p>
+
+    <p>Avoid naps after 4 p.m. if possible. Late naps reduce adenosine — the sleep-pressure chemical — and can delay sleep onset at night, compressing the critical consolidation window.</p>
+
+    <h2>Caffeine Strategy During Exam Period: When and How Much</h2>
+    <p>Caffeine is not a substitute for sleep; it is a temporary blocker of the adenosine receptors that signal sleepiness. It does not restore the cognitive functions that sleep deprivation impairs — memory encoding, creative reasoning, and emotional regulation remain degraded even when caffeine makes you feel alert. What caffeine can do, used strategically, is sharpen focus and reaction time during waking study hours.</p>
+
+    <p>The critical variable is caffeine's half-life: approximately 5 to 7 hours in most adults. A 200 mg coffee consumed at 2 p.m. leaves 100 mg of caffeine active in your bloodstream at 9 p.m. — enough to delay sleep onset and reduce Stage 2 and slow-wave sleep quality, even if you do not feel stimulated.</p>
+
+    <p>A practical exam-season caffeine protocol:</p>
+    <ul>
+      <li><strong>Morning dose (7–9 a.m.):</strong> 100–150 mg with or after breakfast. Caffeine on an empty stomach spikes cortisol unnecessarily.</li>
+      <li><strong>Midday top-up (12–1 p.m.):</strong> Optional 100 mg if needed for an afternoon study session.</li>
+      <li><strong>Hard cutoff: 2 p.m.</strong> No exceptions during exam season.</li>
+      <li><strong>Total daily limit:</strong> 300–400 mg for most adults. Above this, anxiety and jitteriness begin to impair the concentration caffeine was meant to support.</li>
+    </ul>
+
+    <div class="callout-green">
+      <strong>Practical Takeaway:</strong> Set a phone alarm labelled "Last Coffee" for 1:30 p.m. every day of exam season. This single habit protects your sleep consolidation window more reliably than any supplement.
+    </div>
+
+    <h2>The Night-Before Exam Protocol: Light Review, No Cramming, 8 Hours Minimum</h2>
+    <p>The night before an exam is the most mismanaged night in any student's academic calendar. The temptation to use those final hours for maximum coverage is understandable — but neurologically counterproductive. New material studied the night before an exam has virtually no time to consolidate before the test. It sits in the hippocampal buffer, fragile and easily displaced by stress and the cognitive demands of the exam itself.</p>
+
+    <p>What actually works the night before is light review: 45 to 60 minutes of reading through summary notes or flashcards covering material you already know reasonably well. This re-activates existing memory traces, making them slightly easier to access under exam conditions. It is the equivalent of warming up before a race rather than trying to run an extra training session.</p>
+
+    <p>Then: close the books. Eight hours of sleep — starting no later than 10:30 p.m. for a 9 a.m. exam — allows the brain to run a full consolidation cycle. You will wake with better access to the material you studied across the entire preceding weeks, sharper working memory for problem-solving, and an emotional equilibrium that keeps test anxiety from overwhelming executive function.</p>
+
+    <table class="schedule-table">
+      <thead>
+        <tr>
+          <th>Time</th>
+          <th>Activity</th>
+          <th>Why It Works</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>6:00 – 7:00 pm</td>
+          <td>Light dinner, walk or gentle movement</td>
+          <td>Reduces cortisol, primes parasympathetic state for sleep</td>
+        </tr>
+        <tr>
+          <td>7:00 – 8:00 pm</td>
+          <td>Light review — summaries and flashcards only</td>
+          <td>Re-activates consolidated traces without overloading hippocampus</td>
+        </tr>
+        <tr>
+          <td>8:00 – 9:30 pm</td>
+          <td>Wind-down routine — no screens, dim lighting</td>
+          <td>Allows melatonin to rise naturally; earlier sleep onset</td>
+        </tr>
+        <tr>
+          <td>9:30 – 10:00 pm</td>
+          <td>Lay out clothes, pack bag, set one alarm</td>
+          <td>Eliminates morning stress spikes that impair recall</td>
+        </tr>
+        <tr>
+          <td>10:00 – 10:30 pm</td>
+          <td>In bed, lights out</td>
+          <td>Targets 8 full hours before a 6:30 a.m. wake time</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <p>If anxiety makes it hard to fall asleep, a brief body-scan meditation or 4-7-8 breathing (inhale 4 seconds, hold 7, exhale 8) activates the parasympathetic nervous system and can shorten sleep onset by 10 to 20 minutes. Do not lie awake reviewing material in your head — this keeps the hippocampus active and delays the transition into consolidated slow-wave sleep.</p>
+
+    <div class="callout">
+      💡 <strong>The counterintuitive truth:</strong> The student who goes to bed at 10 p.m. with 80% of the material reviewed across multiple spaced sessions will almost always outperform the student who stays up until 3 a.m. covering 100% of the material once. Sleep is where the 80% becomes 95% recall. The extra 3 a.m. material is lucky to survive the morning.
+    </div>
+
+    <h2>Building Your Exam Season Sleep Schedule</h2>
+    <p>Consistency is the foundation of sleep quality. The brain's circadian clock — governed by the suprachiasmatic nucleus in the hypothalamus — sets the timing of melatonin release, core body temperature drops, and cortisol pulses based on your habitual sleep pattern. An irregular schedule confuses these rhythms, reducing both sleep efficiency and morning alertness even when total hours look adequate on paper.</p>
+
+    <p>For exam season, pick a fixed bedtime and wake time and hold them as rigidly as any lecture commitment. If social events or study groups threaten to push bedtime past midnight, treat the choice as the trade-off it is: you are not just missing sleep tonight, you are misaligning your circadian clock for the next two days.</p>
+
+    <p>A workable exam-season template for most students:</p>
+    <ul>
+      <li><strong>Bedtime: 10:30 – 11:00 p.m.</strong> (no later)</li>
+      <li><strong>Wake time: 6:30 – 7:00 a.m.</strong> (consistent, including weekends)</li>
+      <li><strong>Afternoon nap window: 1:00 – 2:30 p.m.</strong> (20 minutes maximum)</li>
+      <li><strong>Study blocks: 90-minute sessions</strong> with 15-minute breaks, mirroring the brain's natural ultradian rhythm</li>
+      <li><strong>Evening review cutoff: 8:00 p.m.</strong> to allow cortisol and mental arousal to taper</li>
+    </ul>
+
+    <p>This schedule is not about sleeping your way through exam season. It is about treating sleep as what the science confirms it to be: the highest-yield activity in any student's revision timetable. Every hour of quality sleep returns more cognitive capital than the equivalent hour of fatigued studying — and the night before the exam, it returns more than any amount of last-minute cramming ever could.</p>
+
+    <div class="product-cta">
+      <span class="product-cta-text">Improve your sleep quality during exam season with the right tools</span>
+      <a class="btn-amazon" href="https://www.amazon.com/s?k=sleep+mask+study+aid&tag=sleepwiserevi-20" target="_blank" rel="noopener nofollow">Shop Sleep Aids on Amazon</a>
+    </div>
+
+    <div class="article-cta">
+      <h3>Get Our Free 7-Day Sleep Reset</h3>
+      <p>Join 18,000 readers who get weekly sleep tips and honest product reviews every Sunday.</p>
+      <a class="btn-amazon" href="../#newsletter">Subscribe Free</a>
+    </div>
+
+    <div class="related-articles">
+      <h3>Related Articles</h3>
+      <ul>
+        <li><a href="sleep-memory-learning.html">How Sleep Encodes Long-Term Memory: The Science of Learning While You Rest</a></li>
+        <li><a href="napping-science.html">The Science of Napping: How to Nap Without Ruining Your Night Sleep</a></li>
+        <li><a href="caffeine-half-life-sleep.html">Caffeine Half-Life and Sleep: The Exact Cut-Off Time for Your Evening Coffee</a></li>
+      </ul>
+    </div>
+  </article>
+
+  <footer>
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a class="logo" href="../">SleepWise<span>Reviews</span></a>
+        <p>Honest, science-backed reviews to help you sleep deeper, recover faster, and wake up energized.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Reviews</h4>
+        <ul>
+          <li><a href="https://www.amazon.com/s?k=weighted+blanket&tag=sleepwiserevi-20" target="_blank">Weighted Blankets</a></li>
+          <li><a href="https://www.amazon.com/s?k=white+noise+machine&tag=sleepwiserevi-20" target="_blank">White Noise Machines</a></li>
+          <li><a href="https://www.amazon.com/s?k=sleep+supplements&tag=sleepwiserevi-20" target="_blank">Supplements</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Guides</h4>
+        <ul>
+          <li><a href="../#picks">Sleep Optimization</a></li>
+          <li><a href="../#reviews">Bedtime Routines</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Site</h4>
+        <ul>
+          <li><a href="../pages/about.html">About Harry Soul</a></li>
+          <li><a href="../pages/privacy-policy.html">Privacy Policy</a></li>
+          <li><a href="../pages/affiliate-disclosure.html">Affiliate Disclosure</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div>© 2025 SleepWiseReviews. All rights reserved.</div>
+      <div class="affiliate-disc">SleepWiseReviews is a participant in the Amazon Services LLC Associates Program.</div>
+    </div>
+  </footer>
+</body>
+</html>
