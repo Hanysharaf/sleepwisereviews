@@ -514,5 +514,11 @@
     "task": "engagement_tips",
     "success": true,
     "details": "Engagement reminder sent: eng_003"
+  },
+  {
+    "timestamp": "2026-03-25T20:28:54.322876+00:00",
+    "task": "daily_summary",
+    "success": true,
+    "details": "Daily summary with links sent"
   }
 ]
