@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sleep Science Articles — SleepWiseReviews</title>
+  <meta name="description" content="Explore 38 in-depth Sleep Science articles on SleepWiseReviews — covering sleep stages, brain activity, circadian rhythms, REM sleep, hormones, and the science of why we sleep." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    :root {
+      --night: #0A0E1A;
+      --deep: #0F1525;
+      --navy: #141B30;
+      --card: #1A2238;
+      --border: #252D45;
+      --gold: #C9A84C;
+      --gold-light: #E5C96A;
+      --gold-dim: rgba(201,168,76,0.15);
+      --star: #F0E6C8;
+      --text: #D4DCEE;
+      --muted: #7A85A0;
+      --green: #4CAF82;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      font-family: 'Outfit', sans-serif;
+      background: var(--night);
+      color: var(--text);
+      font-size: 16px;
+      line-height: 1.6;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    /* ── NAV ── */
+    nav {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(10,14,26,0.96);
+      backdrop-filter: blur(12px);
+      -webkit-backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+      padding: 0 6%;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 64px;
+    }
+
+    .nav-logo {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.4rem;
+      font-weight: 600;
+      color: var(--star);
+      text-decoration: none;
+      letter-spacing: 0.02em;
+    }
+
+    .nav-logo span { color: var(--gold); }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 2rem;
+      list-style: none;
+    }
+
+    .nav-links a {
+      color: var(--muted);
+      text-decoration: none;
+      font-size: 0.88rem;
+      font-weight: 400;
+      transition: color 0.2s;
+      letter-spacing: 0.02em;
+    }
+
+    .nav-links a:hover { color: var(--star); }
+    .nav-links a.active { color: var(--gold); }
+
+    /* ── HERO ── */
+    .cat-page-hero {
+      background: linear-gradient(135deg, var(--deep) 0%, var(--navy) 100%);
+      border-bottom: 1px solid var(--border);
+      padding: 60px 6% 50px;
+      position: relative;
+      z-index: 1;
+    }
+
+    .cat-page-hero::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(ellipse 60% 80% at 80% 50%, rgba(201,168,76,0.04) 0%, transparent 70%);
+      pointer-events: none;
+    }
+
+    .breadcrumb {
+      font-size: 0.8rem;
+      color: var(--muted);
+      margin-bottom: 1.5rem;
+    }
+
+    .breadcrumb a {
+      color: var(--gold);
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+
+    .breadcrumb a:hover { color: var(--gold-light); }
+
+    .breadcrumb .sep { margin: 0 0.5rem; }
+
+    .cat-hero-icon { font-size: 3rem; margin-bottom: 1rem; }
+
+    .cat-hero-title {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 2.8rem;
+      color: var(--star);
+      font-weight: 600;
+      margin-bottom: 0.4rem;
+      line-height: 1.15;
+    }
+
+    .cat-hero-count {
+      font-size: 0.78rem;
+      color: var(--gold);
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+      margin-bottom: 1rem;
+    }
+
+    .cat-hero-desc {
+      font-size: 1rem;
+      color: var(--muted);
+      max-width: 540px;
+      line-height: 1.7;
+      font-weight: 300;
+    }
+
+    /* ── MAIN ── */
+    .cat-page-main {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 60px 6%;
+      position: relative;
+      z-index: 1;
+      flex: 1;
+    }
+
+    .section-label {
+      font-size: 0.72rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.12em;
+      color: var(--gold);
+      margin-bottom: 1.5rem;
+      display: flex;
+      align-items: center;
+      gap: 0.75rem;
+    }
+
+    .section-label::after {
+      content: '';
+      flex: 1;
+      height: 1px;
+      background: var(--border);
+    }
+
+    .cat-articles-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+      gap: 1rem;
+    }
+
+    .archive-item {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1.2rem;
+      text-decoration: none;
+      transition: all 0.2s;
+      display: block;
+    }
+
+    .archive-item:hover {
+      border-color: var(--gold);
+      transform: translateY(-2px);
+      background: rgba(26,34,56,0.9);
+    }
+
+    .archive-item-date {
+      font-size: 0.72rem;
+      color: var(--muted);
+      margin-bottom: 0.4rem;
+    }
+
+    .archive-item-title {
+      font-size: 0.95rem;
+      color: var(--star);
+      line-height: 1.4;
+      margin-bottom: 0.4rem;
+    }
+
+    .archive-item-category {
+      font-size: 0.7rem;
+      color: var(--gold);
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+
+    /* ── FOOTER ── */
+    footer {
+      background: var(--deep);
+      border-top: 1px solid var(--border);
+      padding: 40px 6%;
+      text-align: center;
+    }
+
+    .footer-logo {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.3rem;
+      font-weight: 600;
+      color: var(--star);
+      text-decoration: none;
+      display: inline-block;
+      margin-bottom: 0.75rem;
+    }
+
+    .footer-logo span { color: var(--gold); }
+
+    .footer-tagline {
+      font-size: 0.82rem;
+      color: var(--muted);
+      margin-bottom: 1.5rem;
+    }
+
+    .footer-links {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 1.5rem;
+      margin-bottom: 1.5rem;
+      list-style: none;
+    }
+
+    .footer-links a {
+      font-size: 0.8rem;
+      color: var(--muted);
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+
+    .footer-links a:hover { color: var(--gold); }
+
+    .footer-copy {
+      font-size: 0.75rem;
+      color: var(--muted);
+      opacity: 0.6;
+    }
+
+    /* ── RESPONSIVE ── */
+    @media (max-width: 768px) {
+      nav { padding: 0 4%; }
+      .nav-links { display: none; }
+      .cat-page-hero { padding: 40px 4% 35px; }
+      .cat-hero-title { font-size: 2rem; }
+      .cat-page-main { padding: 40px 4%; }
+      footer { padding: 30px 4%; }
+      .cat-articles-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <a href="../" class="nav-logo">SleepWise<span>Reviews</span></a>
+    <ul class="nav-links">
+      <li><a href="../">Home</a></li>
+      <li><a href="../#reviews">Reviews</a></li>
+      <li><a href="../#categories" class="active">Categories</a></li>
+      <li><a href="../#about">About</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <div class="cat-page-hero">
+    <div class="breadcrumb">
+      <a href="../">Home</a>
+      <span class="sep">›</span>
+      <span>Sleep Science</span>
+    </div>
+    <div class="cat-hero-icon">🧠</div>
+    <h1 class="cat-hero-title">Sleep Science</h1>
+    <p class="cat-hero-count">38 articles</p>
+    <p class="cat-hero-desc">
+      Dive deep into the biology and neuroscience of sleep — from REM cycles and circadian rhythms
+      to how sleep shapes memory, hormones, immunity, and long-term health. Evidence-based articles
+      written for curious minds.
+    </p>
+  </div>
+
+  <!-- MAIN -->
+  <main class="cat-page-main">
+    <p class="section-label">All Articles</p>
+    <div class="cat-articles-grid">
+
+      <a href="../posts/hypnic-jerk-explained.html" class="archive-item">
+        <div class="archive-item-date">Mar 2026</div>
+        <div class="archive-item-title">Why You Twitch When Falling Asleep (Hypnic Jerk)</div>
+        <div class="archive-item-category">Sleep Science</div>
+      </a>
+
+      <a href="../posts/brain-during-sleep.html" class="archive-item">
+        <div class="archive-item-date">Apr 2025</div>
+        <div class="archive-item-title">What Actually Happens to Your Brain While You Sleep</div>
+        <div class="archive-item-category">Sleep Science</div>
+      </a>
+
+      <a href="../posts/rem-rebound-explained.html" class="archive-item">
+        <div class="archive-item-date">Mar 2025</div>
+        <div class="archive-item-title">REM Rebound: Why You Dream So Intensely After Bad Sleep</div>
+        <div class="archive-item-category">Sleep Science</div>
+      </a>
+
+      <a href="../posts/sleep-memory-learning.html" class="archive-item">
+        <div class="archive-item-date">Feb 2025</div>
+        <div class="archive-item-title">Sleep and Memory: Why Studying Before Bed Actually Works</div>
+        <div class="archive-item-category">Sleep Science</div>
+      </a>
+
+      <a href="../posts/women-sleep-differences.html" class="archive-item">
+        <div class="archive-item-date">Jan 2025</div>
+        <div class="archive-item-title">Why Women Need More Sleep Than Men</div>
+        <div class="archive-item-category">Sleep Science</div>
+      </a>
+
+      <a href="../posts/sleep-immune-system.html" class="archive-item">
+        <div class="archive-item-date">Dec 2024</div>
+        <div class="archive-item-title">Sleep and Your Immune System</div>
+        <div class="archive-item-category">Sleep Science</div>
+      </a>
+
+      <a href="../posts/waking-at-3am.html" class="archive-item">
+        <div class="archive-item-date">Nov 2024</div>
+        <div class="archive-item-title">Why You Keep Waking Up at 3am</div>
+        <div class="archive-item-category">Sleep Science</div>
+      </a>
+
+      <a href="../posts/sleep-paralysis-explained.html" class="archive-item">
+        <div class="archive-item-date">Oct 2024</div>
+        <div class="archive-item-title">Sleep Paralysis: What Causes It and Why It's Not Dangerous</div>
+        <div class="archive-item-category">Sleep Science</div>
+      </a>
+
+      <a href="../posts/dreams-science.html" class="archive-item">
+        <div class="archive-item-date">Sep 2024</div>
+        <div class="archive-item-title">Why We Dream: The Science Behind Your Nightly Stories</div>
+        <div class="archive-item-category">Sleep Science</div>
+      </a>
+
+      <a href="../posts/aging-and-sleep.html" class="archive-item">
+        <div class="archive-item-date">Aug 2024</div>
+        <div class="archive-item-title">How Sleep Changes as You Age</div>
+        <div class="archive-item-category">Sleep Science</div>
+      </a>
+
+      <a href="../posts/sleep-inertia.html" class="archive-item">
+        <div class="archive-item-date">Jul 2024</div>
+        <div class="archive-item-title">Sleep Inertia: Why You Feel Terrible After a Long Sleep</div>
+        <div class="archive-item-category">Sleep Science</div>
+      </a>
+
+      <a href="../posts/social-jetlag.html" class="archive-item">
+        <div class="archive-item-date">Jun 2024</div>
+        <div class="archive-item-title">Social Jetlag: The Silent Sleep Killer</div>
+        <div class="archive-item-category">Sleep Science</div>
+      </a>
+
+      <a href="../posts/sleep-cortisol-stress.html" class="archive-item">
+        <div class="archive-item-date">May 2024</div>
+        <div class="archive-item-title">How Stress and Cortisol Destroy Your Sleep Architecture</div>
+        <div class="archive-item-category">Sleep Science</div>
+      </a>
+
+      <a href="../posts/gut-microbiome-sleep.html" class="archive-item">
+        <div class="archive-item-date">Apr 2024</div>
+        <div class="archive-item-title">Your Gut Microbiome and Sleep</div>
+        <div class="archive-item-category">Sleep Science</div>
+      </a>
+
+      <a href="../posts/sleep-light-therapy.html" class="archive-item">
+        <div class="archive-item-date">Mar 2024</div>
+        <div class="archive-item-title">Light Therapy for Sleep</div>
+        <div class="archive-item-category">Sleep Science</div>
+      </a>
+
+      <a href="../posts/deep-sleep-benefits.html" class="archive-item">
+        <div class="archive-item-date">Mar 2024</div>
+        <div class="archive-item-title">What Deep Sleep Actually Does</div>
+        <div class="archive-item-category">Sleep Science</div>
+      </a>
+
+      <a href="../posts/sleep-athletic-performance.html" class="archive-item">
+        <div class="archive-item-date">Feb 2024</div>
+        <div class="archive-item-title">Sleep and Athletic Performance</div>
+        <div class="archive-item-category">Sleep Science</div>
+      </a>
+
+      <a href="../posts/sleep-longevity.html" class="archive-item">
+        <div class="archive-item-date">Dec 2023</div>
+        <div class="archive-item-title">Sleep and Longevity</div>
+        <div class="archive-item-category">Sleep Science</div>
+      </a>
+
+      <a href="../posts/sleep-debt-accumulation.html" class="archive-item">
+        <div class="archive-item-date">Dec 2023</div>
+        <div class="archive-item-title">How Sleep Debt Accumulates</div>
+        <div class="archive-item-category">Sleep Science</div>
+      </a>
+
+      <a href="../posts/polyphasic-sleep.html" class="archive-item">
+        <div class="archive-item-date">Nov 2023</div>
+        <div class="archive-item-title">Polyphasic Sleep: Does Sleeping in Segments Actually Work?</div>
+        <div class="archive-item-category">Sleep Science</div>
+      </a>
+
+      <a href="../posts/sleep-medications-truth.html" class="archive-item">
+        <div class="archive-item-date">Oct 2023</div>
+        <div class="archive-item-title">The Truth About Sleep Medications</div>
+        <div class="archive-item-category">Sleep Science</div>
+      </a>
+
+      <a href="../posts/sleep-apnea-warning-signs.html" class="archive-item">
+        <div class="archive-item-date">Sep 2023</div>
+        <div class="archive-item-title">9 Sleep Apnea Warning Signs</div>
+        <div class="archive-item-category">Sleep Science</div>
+      </a>
+
+      <a href="../posts/insomnia-types.html" class="archive-item">
+        <div class="archive-item-date">Jan 2022</div>
+        <div class="archive-item-title">The 3 Types of Insomnia</div>
+        <div class="archive-item-category">Sleep Science</div>
+      </a>
+
+      <a href="../posts/sleep-temperature-regulation.html" class="archive-item">
+        <div class="archive-item-date">Mar 2022</div>
+        <div class="archive-item-title">How Your Body Regulates Temperature During Sleep</div>
+        <div class="archive-item-category">Sleep Science</div>
+      </a>
+
+      <a href="../posts/rem-behavior-disorder.html" class="archive-item">
+        <div class="archive-item-date">Jun 2022</div>
+        <div class="archive-item-title">REM Sleep Behavior Disorder</div>
+        <div class="archive-item-category">Sleep Science</div>
+      </a>
+
+      <a href="../posts/sleep-and-alzheimers.html" class="archive-item">
+        <div class="archive-item-date">Aug 2022</div>
+        <div class="archive-item-title">Sleep and Alzheimer's Risk</div>
+        <div class="archive-item-category">Sleep Science</div>
+      </a>
+
+      <a href="../posts/sleep-and-pain.html" class="archive-item">
+        <div class="archive-item-date">Oct 2021</div>
+        <div class="archive-item-title">Why Poor Sleep Makes Pain Feel Worse</div>
+        <div class="archive-item-category">Sleep Science</div>
+      </a>
+
+      <a href="../posts/sleep-creativity.html" class="archive-item">
+        <div class="archive-item-date">Aug 2021</div>
+        <div class="archive-item-title">How Sleep Boosts Creativity</div>
+        <div class="archive-item-category">Sleep Science</div>
+      </a>
+
+      <a href="../posts/sleep-skin-health.html" class="archive-item">
+        <div class="archive-item-date">Jun 2021</div>
+        <div class="archive-item-title">Beauty Sleep Is Real</div>
+        <div class="archive-item-category">Sleep Science</div>
+      </a>
+
+      <a href="../posts/sleep-and-hormones.html" class="archive-item">
+        <div class="archive-item-date">May 2021</div>
+        <div class="archive-item-title">How Sleep Controls Your Hormones</div>
+        <div class="archive-item-category">Sleep Science</div>
+      </a>
+
+      <a href="../posts/circadian-rhythm-basics.html" class="archive-item">
+        <div class="archive-item-date">Mar 2021</div>
+        <div class="archive-item-title">Your Circadian Rhythm</div>
+        <div class="archive-item-category">Sleep Science</div>
+      </a>
+
+      <a href="../posts/adenosine-sleep-drive.html" class="archive-item">
+        <div class="archive-item-date">Jan 2021</div>
+        <div class="archive-item-title">Adenosine: The Sleep Molecule</div>
+        <div class="archive-item-category">Sleep Science</div>
+      </a>
+
+      <a href="../posts/sleep-and-diabetes.html" class="archive-item">
+        <div class="archive-item-date">Dec 2020</div>
+        <div class="archive-item-title">Sleep and Blood Sugar</div>
+        <div class="archive-item-category">Sleep Science</div>
+      </a>
+
+      <a href="../posts/rem-sleep-benefits.html" class="archive-item">
+        <div class="archive-item-date">Nov 2020</div>
+        <div class="archive-item-title">REM Sleep: Why Your Brain Needs It Every Night</div>
+        <div class="archive-item-category">Sleep Science</div>
+      </a>
+
+      <a href="../posts/sleep-genetics.html" class="archive-item">
+        <div class="archive-item-date">Oct 2020</div>
+        <div class="archive-item-title">Are You Genetically Wired to Be a Short Sleeper?</div>
+        <div class="archive-item-category">Sleep Science</div>
+      </a>
+
+      <a href="../posts/microsleep-dangers.html" class="archive-item">
+        <div class="archive-item-date">Sep 2020</div>
+        <div class="archive-item-title">Microsleep: The Hidden Danger</div>
+        <div class="archive-item-category">Sleep Science</div>
+      </a>
+
+      <a href="../posts/sleep-heart-health.html" class="archive-item">
+        <div class="archive-item-date">Aug 2020</div>
+        <div class="archive-item-title">How Sleep Protects Your Heart</div>
+        <div class="archive-item-category">Sleep Science</div>
+      </a>
+
+      <a href="../posts/sleep-stages-explained.html" class="archive-item">
+        <div class="archive-item-date">Aug 2020</div>
+        <div class="archive-item-title">Understanding Sleep Stages: A Complete Guide</div>
+        <div class="archive-item-category">Sleep Science</div>
+      </a>
+
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <a href="../" class="footer-logo">SleepWise<span>Reviews</span></a>
+    <p class="footer-tagline">Evidence-based sleep science for better nights.</p>
+    <ul class="footer-links">
+      <li><a href="../">Home</a></li>
+      <li><a href="../#categories">Categories</a></li>
+      <li><a href="../#reviews">Reviews</a></li>
+      <li><a href="../#about">About</a></li>
+    </ul>
+    <p class="footer-copy">&copy; 2026 SleepWiseReviews. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
