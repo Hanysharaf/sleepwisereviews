@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Morning Larks vs Night Owls: Is Your Sleep Type Actually Genetic? - SleepWiseReviews</title>
+  <meta name="description" content="Your chronotype is approximately 50% determined by genetics. Understanding the science behind morning larks and night owls — and how to work with your biology rather than against it — can transform your sleep quality and daily performance." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <style type='text/css'>
+    :root {
+      --night: #0A0E1A; --deep: #0F1525; --navy: #141B30; --card: #1A2238;
+      --border: #252D45; --gold: #C9A84C; --gold-light: #E5C96A;
+      --gold-dim: rgba(201, 168, 76, 0.15); --star: #F0E6C8; --text: #D4DCEE;
+      --muted: #7A85A0; --white: #FFFFFF; --green: #4CAF82;
+    }
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { font-family: 'Outfit', sans-serif; background: var(--night); color: var(--text); line-height: 1.6; overflow-x: hidden; }
+    body::before {
+      content: ''; position: fixed; inset: 0;
+      background-image: radial-gradient(1px 1px at 10% 15%, rgba(240,230,200,0.6) 0%, transparent 100%), radial-gradient(1px 1px at 25% 40%, rgba(240,230,200,0.4) 0%, transparent 100%), radial-gradient(1.5px 1.5px at 40% 10%, rgba(240,230,200,0.5) 0%, transparent 100%), radial-gradient(1px 1px at 70% 5%, rgba(240,230,200,0.6) 0%, transparent 100%), radial-gradient(1.5px 1.5px at 80% 20%, rgba(240,230,200,0.4) 0%, transparent 100%);
+      pointer-events: none; z-index: 0;
+    }
+    nav { position: sticky; top: 0; z-index: 100; background: rgba(10,14,26,0.92); backdrop-filter: blur(12px); border-bottom: 1px solid var(--border); padding: 0 6%; height: 68px; display: flex; align-items: center; justify-content: space-between; }
+    .logo { font-family: 'Cormorant Garamond', serif; font-size: 1.6rem; font-weight: 700; color: var(--star); text-decoration: none; }
+    .logo span { color: var(--gold); }
+    .nav-links { display: flex; gap: 2rem; list-style: none; }
+    .nav-links a { text-decoration: none; color: var(--muted); font-size: 0.88rem; font-weight: 500; transition: color 0.2s; }
+    .nav-links a:hover { color: var(--gold); }
+    .nav-cta { background: var(--gold-dim); color: var(--gold) !important; border: 1px solid rgba(201,168,76,0.3); padding: 7px 16px; border-radius: 4px; }
+    .article-wrapper { position: relative; z-index: 1; max-width: 800px; margin: 0 auto; padding: 50px 6% 80px; }
+    .article-meta-top { display: flex; flex-wrap: wrap; align-items: center; gap: 0.8rem; margin-bottom: 1.2rem; }
+    .tag { background: var(--gold); color: var(--night); padding: 5px 12px; border-radius: 4px; font-size: 0.72rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; }
+    .meta-text { color: var(--muted); font-size: 0.82rem; }
+    .article-wrapper h1 { font-family: 'Cormorant Garamond', serif; font-size: 2.4rem; font-weight: 600; color: var(--star); line-height: 1.2; margin-bottom: 1.2rem; }
+    .article-intro { font-size: 1.1rem; color: var(--text); line-height: 1.7; margin-bottom: 2rem; font-weight: 300; }
+    .author-box { display: flex; align-items: center; gap: 1rem; margin-bottom: 1.5rem; padding: 1rem; background: var(--card); border-radius: 8px; border: 1px solid var(--border); }
+    .author-avatar { font-size: 2.5rem; }
+    .author-name { color: var(--star); font-weight: 500; }
+    .author-name a { color: var(--gold); text-decoration: none; }
+    .author-role { color: var(--muted); font-size: 0.82rem; }
+    .disclosure-box { background: var(--card); border: 1px solid var(--border); border-radius: 8px; padding: 0.9rem 1.2rem; margin-bottom: 2rem; font-size: 0.8rem; color: var(--muted); line-height: 1.5; }
+    .disclosure-box a { color: var(--gold); text-decoration: none; }
+    .article-wrapper h2 { font-family: 'Cormorant Garamond', serif; font-size: 1.6rem; font-weight: 600; color: var(--star); margin: 2.5rem 0 1rem; padding-top: 1rem; }
+    .article-wrapper h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.2rem; color: var(--star); margin: 1.5rem 0 0.8rem; }
+    .article-wrapper p { margin-bottom: 1rem; font-weight: 300; line-height: 1.8; }
+    .article-wrapper ul, .article-wrapper ol { margin: 1rem 0 1.5rem 1.5rem; }
+    .article-wrapper li { margin-bottom: 0.5rem; font-weight: 300; }
+    .callout { background: var(--card); border-left: 3px solid var(--gold); padding: 1rem 1.5rem; margin: 1.5rem 0; border-radius: 0 8px 8px 0; font-size: 0.92rem; }
+    .chronotype-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; margin: 1.5rem 0; }
+    .chronotype-card { background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 1.2rem; }
+    .chronotype-label { color: var(--gold); font-size: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.07em; margin-bottom: 0.5rem; }
+    .chronotype-title { color: var(--star); font-weight: 500; margin-bottom: 0.5rem; }
+    .chronotype-body { color: var(--text); font-size: 0.85rem; font-weight: 300; line-height: 1.6; }
+    .spectrum-bar { background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 1.4rem 1.6rem; margin: 1.5rem 0; }
+    .spectrum-bar h4 { color: var(--star); font-size: 0.9rem; font-weight: 500; margin-bottom: 1rem; }
+    .spectrum-track { position: relative; height: 8px; border-radius: 4px; background: linear-gradient(to right, var(--gold), #7A85A0, #4a5568); margin-bottom: 1rem; }
+    .spectrum-labels { display: flex; justify-content: space-between; font-size: 0.75rem; color: var(--muted); }
+    .spectrum-pct { display: flex; justify-content: space-between; font-size: 0.78rem; color: var(--text); margin-top: 0.6rem; }
+    .spectrum-pct span { font-weight: 500; }
+    .product-cta { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 1.5rem; margin: 2rem 0; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; }
+    .product-cta-text { color: var(--star); font-weight: 500; }
+    .product-cta-sub { color: var(--muted); font-size: 0.82rem; margin-top: 0.3rem; font-weight: 300; }
+    .btn-amazon { background: var(--gold); color: var(--night); text-decoration: none; padding: 10px 20px; border-radius: 6px; font-weight: 600; font-size: 0.88rem; transition: background 0.2s; white-space: nowrap; }
+    .btn-amazon:hover { background: var(--gold-light); }
+    .article-cta { background: linear-gradient(135deg, var(--card), var(--navy)); border: 1px solid var(--border); border-radius: 12px; padding: 2rem; text-align: center; margin: 3rem 0; }
+    .article-cta h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.4rem; color: var(--star); margin-bottom: 0.8rem; }
+    .article-cta p { color: var(--muted); margin-bottom: 1.2rem; }
+    .related-articles { margin: 3rem 0; }
+    .related-articles h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.3rem; color: var(--star); margin-bottom: 1rem; }
+    .related-articles ul { list-style: none; margin: 0; }
+    .related-articles li { margin-bottom: 0.6rem; }
+    .related-articles a { color: var(--gold); text-decoration: none; font-size: 0.95rem; }
+    .related-articles a:hover { text-decoration: underline; }
+    footer { background: #060912; border-top: 1px solid var(--border); padding: 50px 6% 30px; }
+    .footer-top { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 3rem; margin-bottom: 3rem; padding-bottom: 3rem; border-bottom: 1px solid var(--border); }
+    .footer-brand p { color: var(--muted); font-size: 0.82rem; margin-top: 0.8rem; line-height: 1.6; font-weight: 300; max-width: 260px; }
+    .footer-col h4 { font-size: 0.78rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--gold); margin-bottom: 1rem; }
+    .footer-col ul { list-style: none; display: flex; flex-direction: column; gap: 0.6rem; }
+    .footer-col a { color: var(--muted); text-decoration: none; font-size: 0.85rem; transition: color 0.2s; }
+    .footer-col a:hover { color: var(--gold); }
+    .footer-bottom { display: flex; justify-content: space-between; font-size: 0.78rem; color: var(--muted); flex-wrap: wrap; gap: 0.5rem; }
+    @media (max-width: 900px) {
+      .nav-links { display: none; }
+      .article-wrapper h1 { font-size: 1.8rem; }
+      .footer-top { grid-template-columns: 1fr 1fr; }
+      .product-cta { flex-direction: column; text-align: center; }
+      .chronotype-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+
+<body>
+  <nav>
+    <a class="logo" href="../">SleepWise<span>Reviews</span></a>
+    <ul class="nav-links">
+      <li><a href="../#picks">Top Picks</a></li>
+      <li><a href="../#reviews">Reviews</a></li>
+      <li><a href="../pages/about.html">About Harry</a></li>
+      <li><a href="../#newsletter" class="nav-cta">Free Sleep Guide</a></li>
+    </ul>
+  </nav>
+
+  <article class="article-wrapper">
+    <div class="article-meta-top">
+      <span class="tag">Chronobiology</span>
+      <span class="meta-text">📅 April 2024 · ⏱ 7 min read · 🔄 Updated Mar 2026</span>
+    </div>
+
+    <h1>Morning Larks vs Night Owls: Is Your Sleep Type Actually Genetic?</h1>
+    <p class="article-intro">Your chronotype — whether you're a natural early riser or late sleeper — is approximately 50% determined by genetics. That means you've probably spent years being judged for a trait you largely inherited. Understanding the science of chronotypes does not just vindicate late sleepers; it changes how you should structure your entire day.</p>
+
+    <div class="author-box">
+      <div class="author-avatar">😴</div>
+      <div class="author-info">
+        <div class="author-name">By <a href="../pages/about.html">Harry Soul</a> — SleepWiseReviews</div>
+        <div class="author-role">Independent Sleep Researcher · Updated March 2026</div>
+      </div>
+    </div>
+
+    <div class="disclosure-box">
+      <strong>Disclosure:</strong> This article contains affiliate links. If you purchase through our links, we may earn a small commission at no extra cost to you. This never influences our recommendations — we only link to products we'd use ourselves. <a href="../pages/affiliate-disclosure.html">Full disclosure policy →</a>
+    </div>
+
+    <h2>The Genetic Basis of Chronotype</h2>
+
+    <p>Chronobiology researcher Till Roenneberg spent decades documenting human sleep timing across hundreds of thousands of people. His landmark conclusion, detailed in <em>Internal Time</em>, is striking: chronotype — the biological disposition toward earlier or later sleep timing — has a heritability of roughly 50%, meaning half of the variation we see between people is attributable to genes (Roenneberg, 2012). The other half is shaped by age, light exposure, and lifestyle — but the genetic floor sets the range within which those factors operate.</p>
+
+    <p>The biological mechanism centers on the circadian clock genes. Variants in genes such as <em>PER1</em>, <em>PER2</em>, <em>PER3</em>, <em>CLOCK</em>, and <em>CRY1</em> influence the period length and timing of the internal 24-hour clock. People carrying certain variants of <em>PER2</em>, for instance, have circadian periods that run slightly shorter than 24 hours, which biases them toward earlier timing — the morning lark profile. Those with longer intrinsic periods tend toward evening preference. A 2019 genome-wide association study published in <em>Nature Communications</em> identified 351 genetic loci associated with chronotype, confirming what Roenneberg had long argued: being a night owl is not a character flaw. It is, to a substantial degree, biology.</p>
+
+    <p>This matters because society structures the day around lark schedules. Standard work start times, school bells, and social norms around "productive" morning hours create what Roenneberg calls <em>social jetlag</em> — the chronic mismatch between biological sleep timing and socially imposed schedules. For confirmed evening types, this can mean perpetually waking 2–3 hours before their biological ideal, the equivalent of living in a permanently wrong time zone.</p>
+
+    <div class="callout">💡 <strong>What heritability means in practice:</strong> A 50% heritability does not mean your chronotype is fixed and unchangeable. It means that roughly half the population-level variation in sleep timing is explained by genetics. Environmental factors — light exposure, meal timing, activity, and even when you take your coffee — can meaningfully shift chronotype within your genetic range. But fighting the genetic floor tends to be exhausting and unsustainable.</div>
+
+    <h2>The Spectrum: From Extreme Larks to Extreme Owls</h2>
+
+    <p>Chronotype is not a binary category. Roenneberg's research, drawing on the Munich Chronotype Questionnaire (MCTQ) dataset of over 300,000 participants, reveals a continuous bell curve distribution, with most people clustered near the center and only a small proportion at the extreme ends (Roenneberg, 2012).</p>
+
+    <div class="spectrum-bar">
+      <h4>Chronotype distribution in the general adult population</h4>
+      <div class="spectrum-track"></div>
+      <div class="spectrum-labels">
+        <span>Extreme Larks</span>
+        <span>Intermediate</span>
+        <span>Extreme Owls</span>
+      </div>
+      <div class="spectrum-pct">
+        <span>~10% prefer sleep before 10pm</span>
+        <span>~65% fall in the middle</span>
+        <span>~25% prefer sleep after 1am</span>
+      </div>
+    </div>
+
+    <p>Extreme morning types — genuine larks — naturally fall asleep between 8pm and 10pm and wake spontaneously between 4am and 6am, fully rested. They are not performing virtue; their biology simply runs early. Attempting to push them to a midnight bedtime produces the same misery that an evening type experiences when forced to a 6am alarm.</p>
+
+    <p>Extreme evening types — the deepest night owls — have a natural sleep onset around 2am–4am and, left unforced, sleep until 10am–12pm. For these individuals, a 9-to-5 job with a 7am commute creates chronic partial sleep deprivation as severe as losing a full night's sleep per week. The health consequences compound: impaired glucose metabolism, elevated cortisol, reduced immune function, and increased cardiovascular risk — all attributable not to laziness, but to chronotype mismatch.</p>
+
+    <div class="chronotype-grid">
+      <div class="chronotype-card">
+        <div class="chronotype-label">Morning Type</div>
+        <div class="chronotype-title">Natural Sleep Window</div>
+        <div class="chronotype-body">Typically 9pm–10:30pm sleep onset, 5am–6:30am natural waking. Peak cognitive performance in the late morning. Energy declines significantly after 3pm. Best suited to early-start schedules.</div>
+      </div>
+      <div class="chronotype-card">
+        <div class="chronotype-label">Intermediate Type</div>
+        <div class="chronotype-title">Natural Sleep Window</div>
+        <div class="chronotype-body">Sleep onset around 11pm–midnight, waking around 7am–8am. Cognitive performance peaks mid-morning to midday. Most flexible chronotype — adapts reasonably well to standard schedules.</div>
+      </div>
+      <div class="chronotype-card">
+        <div class="chronotype-label">Evening Type</div>
+        <div class="chronotype-title">Natural Sleep Window</div>
+        <div class="chronotype-body">Sleep onset around 1am–2am, natural waking 9am–10am. Peak cognitive performance in the evening. Forced early rising produces genuine grogginess — not preference — that persists for hours.</div>
+      </div>
+      <div class="chronotype-card">
+        <div class="chronotype-label">Extreme Owl</div>
+        <div class="chronotype-title">Natural Sleep Window</div>
+        <div class="chronotype-body">Sleep onset 3am–5am, natural waking 11am–1pm. May meet clinical criteria for Delayed Sleep Phase Disorder (DSPD). Standard schedules produce severe social jetlag with measurable health impacts.</div>
+      </div>
+    </div>
+
+    <h2>How Age Shifts Chronotype</h2>
+
+    <p>One of Roenneberg's most consistent findings is that chronotype is not static across the lifespan — it follows a predictable developmental arc. Children tend toward morning preference. During puberty, chronotype shifts dramatically toward evening — the biological reason teenagers cannot fall asleep until midnight is not defiance; it is a genuine hormonal and circadian shift that Roenneberg documents across dozens of cultures (Roenneberg, 2012).</p>
+
+    <p>This evening shift peaks in the early twenties — around age 20 for women and age 21 for men — and then gradually reverses. Through the thirties, forties, and fifties, most people drift back toward intermediate or morning preference. By the mid-sixties, the average chronotype has returned roughly to where it was in childhood. This arc is so consistent that Roenneberg proposes using chronotype shift as a biological marker of puberty onset and aging.</p>
+
+    <p>The practical implication is significant: a 19-year-old who cannot function before 10am is not being lazy; they are at the biological peak of evening chronotype. Forcing early school start times on adolescents produces demonstrably worse academic outcomes, higher accident rates, and poorer mental health — outcomes documented in research comparing early- and late-start school districts. The American Academy of Pediatrics has recommended that middle and high schools start no earlier than 8:30am, citing exactly this circadian biology.</p>
+
+    <h3>Why the Teen Evening Shift Happens</h3>
+    <p>The pubertal shift toward evening chronotype appears to be driven by changes in melatonin timing, sensitivity to evening light, and the rate at which adenosine (the sleepiness molecule) builds up during waking hours. Teenagers show blunted adenosine accumulation rates, meaning they feel less sleepy at 10pm than adults do — not because they stayed up late on their phones (though that compounds it), but because their biology is suppressing sleepiness in the evening hours.</p>
+
+    <h2>Working With vs Against Your Chronotype</h2>
+
+    <p>The research on chronotype mismatch is unambiguous: consistently fighting your biological timing is expensive. Studies of shift workers — who represent an extreme case of chronotype-schedule mismatch — show elevated rates of metabolic syndrome, cardiovascular disease, and depression. But milder versions of the same mismatch, experienced by evening types in standard 9-to-5 work, produce measurable deficits in cognitive performance, mood, and long-term health.</p>
+
+    <p>The question is not whether to have a chronotype, but whether to work with it where possible. Several strategies have evidence behind them:</p>
+
+    <ul>
+      <li><strong>Morning light exposure</strong> — Getting outdoor light within 30–60 minutes of waking advances the circadian clock, nudging evening types slightly earlier over days to weeks. This is the single most powerful non-pharmacological chronotype shifter available.</li>
+      <li><strong>Evening light restriction</strong> — Blue-light blocking after sunset delays melatonin suppression and helps evening types feel sleepy earlier. This does not move the clock dramatically but reduces the compounding effect of artificial light on an already-late chronotype.</li>
+      <li><strong>Consistent anchor times</strong> — A fixed wake time — maintained even on weekends — prevents social jetlag from compounding across the week. For evening types, even sleeping in 90 minutes on weekends re-delays the clock enough to cause Monday morning misery.</li>
+      <li><strong>Flexible scheduling</strong> — Where work allows, matching demanding cognitive tasks to chronotype peak hours dramatically improves output quality. Evening types who do their most creative or analytical work after 10pm often outperform morning-forced attempts at the same tasks.</li>
+      <li><strong>Sunrise alarm clocks</strong> — For evening types who must wake early, a gradual light alarm that mimics dawn can reduce sleep inertia. By stimulating retinal light exposure before the alarm sounds, they begin shifting cortisol and body temperature upward earlier, making the eventual waking less abrupt.</li>
+    </ul>
+
+    <div class="callout" style="border-left:3px solid var(--green)">💚 <strong>Tonight's action:</strong> Determine your chronotype using Roenneberg's Munich Chronotype Questionnaire (freely available online). Then set your earliest obligations — first meeting, school, commute — no more than 1 hour before your natural wake time when possible. Fighting your chronotype daily creates measurable social jetlag.</div>
+
+    <div class="product-cta">
+      <div>
+        <div class="product-cta-text">Sunrise alarm clocks: the practical solution for evening types with early obligations</div>
+        <div class="product-cta-sub">A gradual light alarm reduces sleep inertia by preparing your biology before the sound wakes you.</div>
+      </div>
+      <a class="btn-amazon" href="https://www.amazon.com/s?k=sunrise+alarm+clock+wake+up+light&tag=sleepwiserevi-20" target="_blank" rel="noopener">Shop Sunrise Alarms on Amazon →</a>
+    </div>
+
+    <h2>Social Jetlag: The Hidden Cost of Chronotype Mismatch</h2>
+
+    <p>Roenneberg coined the term <em>social jetlag</em> to describe the discrepancy between biological sleep timing and socially imposed schedules (Roenneberg, 2012). The concept is straightforward: if your biology wants you to sleep from 1am to 9am but your alarm forces you up at 6:30am on weekdays, you accumulate 2.5 hours of social jetlag daily. On weekends, you compensate by sleeping in — effectively changing time zones twice per week.</p>
+
+    <p>The health consequences are not theoretical. Roenneberg's own analysis of 65,000 participants found that each hour of social jetlag is associated with a 33% increased odds of obesity, independent of total sleep duration. Later research has linked social jetlag to elevated HbA1c (a diabetes marker), higher cortisol levels, reduced heart rate variability, and worse mood. These effects track dose-response: the larger the mismatch, the larger the health impact.</p>
+
+    <p>What makes social jetlag particularly insidious is that it is invisible. The evening type who drags through Monday mornings is not recognized as someone dealing with a chronobiological stressor — they are labeled unmotivated, lazy, or poor with mornings. The reality is that they are experiencing genuine cognitive impairment equivalent to mild intoxication, caused by a schedule that ignores their biology.</p>
+
+    <p>Workplaces and schools that allow flexible start times consistently report improvements in employee performance, student academic outcomes, and self-reported wellbeing. The argument for chronotype accommodation is not soft or purely compassionate — it is a productivity and public health argument backed by decades of circadian research.</p>
+
+    <div class="article-cta">
+      <h3>Want to understand your internal clock in depth?</h3>
+      <p>Our guide to circadian rhythm science explains how your body clock works, what disrupts it, and the most effective strategies to keep it calibrated.</p>
+      <a class="btn-amazon" href="circadian-rhythm-guide.html">Read: The Complete Circadian Rhythm Guide →</a>
+    </div>
+
+    <div class="related-articles">
+      <h3>Related Articles</h3>
+      <ul>
+        <li><a href="aging-and-sleep.html">How Sleep Changes as You Age (And What to Do About It)</a></li>
+        <li><a href="adenosine-sleep-drive.html">Adenosine and Sleep Pressure: The Science of Feeling Sleepy</a></li>
+        <li><a href="sleep-and-alzheimers.html">Sleep and Alzheimer's Risk: What the Research Really Shows</a></li>
+        <li><a href="alcohol-sleep-quality.html">How Alcohol Disrupts Sleep Architecture</a></li>
+        <li><a href="article-magnesium-sleep.html">Magnesium for Sleep: What the Evidence Actually Shows</a></li>
+      </ul>
+    </div>
+  </article>
+
+  <footer>
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a class="logo" href="../">SleepWise<span>Reviews</span></a>
+        <p>Independent sleep research and honest product reviews since 2020. We test everything we recommend.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Sleep Science</h4>
+        <ul>
+          <li><a href="aging-and-sleep.html">Sleep &amp; Aging</a></li>
+          <li><a href="adenosine-sleep-drive.html">Sleep Pressure</a></li>
+          <li><a href="sleep-and-alzheimers.html">Sleep &amp; Alzheimer's</a></li>
+          <li><a href="morning-lark-night-owl.html">Chronotypes</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Products</h4>
+        <ul>
+          <li><a href="article-white-noise-machines.html">White Noise Machines</a></li>
+          <li><a href="best-earplugs-sleeping.html">Earplugs</a></li>
+          <li><a href="best-sleep-masks.html">Sleep Masks</a></li>
+          <li><a href="best-blackout-curtains.html">Blackout Curtains</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>About</h4>
+        <ul>
+          <li><a href="../pages/about.html">About Harry</a></li>
+          <li><a href="../pages/affiliate-disclosure.html">Affiliate Disclosure</a></li>
+          <li><a href="../pages/privacy-policy.html">Privacy Policy</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 SleepWiseReviews. All rights reserved.</span>
+      <span>Independent reviews. Affiliate links support our research.</span>
+    </div>
+  </footer>
+</body>
+</html>
