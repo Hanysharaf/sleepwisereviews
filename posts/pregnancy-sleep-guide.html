@@ -1,0 +1,707 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Pregnancy Sleep Guide: Solutions for Every Trimester | SleepWise Reviews</title>
+  <meta name="description" content="Sleep changes from the first week of pregnancy. Get trimester-by-trimester solutions for progesterone fatigue, heartburn, restless legs, and third-trimester discomfort." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --night: #0A0E1A;
+      --deep: #0F1525;
+      --navy: #141B30;
+      --card: #1A2238;
+      --border: #252D45;
+      --gold: #C9A84C;
+      --gold-light: #E5C96A;
+      --gold-dim: rgba(201,168,76,0.15);
+      --star: #F0E6C8;
+      --text: #D4DCEE;
+      --muted: #7A85A0;
+      --white: #FFFFFF;
+      --green: #4CAF82;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: var(--night);
+      color: var(--text);
+      font-family: 'Outfit', sans-serif;
+      font-size: 1rem;
+      line-height: 1.75;
+    }
+
+    /* ── HEADER ── */
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: var(--deep);
+      border-bottom: 1px solid var(--border);
+      padding: 0 1.5rem;
+      height: 60px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .logo {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.5rem;
+      font-weight: 700;
+      color: var(--star);
+      text-decoration: none;
+      letter-spacing: 0.02em;
+    }
+    .logo span { color: var(--gold); }
+    nav a {
+      color: var(--muted);
+      text-decoration: none;
+      font-size: 0.875rem;
+      margin-left: 1.5rem;
+      transition: color 0.2s;
+    }
+    nav a:hover { color: var(--gold-light); }
+
+    /* ── HERO ── */
+    .hero {
+      background: linear-gradient(135deg, var(--deep) 0%, var(--navy) 60%, #1a1f35 100%);
+      border-bottom: 1px solid var(--border);
+      padding: 3.5rem 1.5rem 3rem;
+      text-align: center;
+    }
+    .badge {
+      display: inline-block;
+      background: var(--gold-dim);
+      border: 1px solid var(--gold);
+      color: var(--gold-light);
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      padding: 0.3rem 0.9rem;
+      border-radius: 20px;
+      margin-bottom: 1.25rem;
+    }
+    .hero h1 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(2rem, 5vw, 3rem);
+      font-weight: 700;
+      color: var(--star);
+      line-height: 1.25;
+      max-width: 700px;
+      margin: 0 auto 1rem;
+    }
+    .meta {
+      font-size: 0.85rem;
+      color: var(--muted);
+      margin-top: 0.5rem;
+    }
+
+    /* ── CONTENT WRAPPER ── */
+    .content {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 3rem 1.5rem 5rem;
+    }
+
+    h2 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.8rem;
+      font-weight: 700;
+      color: var(--star);
+      margin: 2.5rem 0 1rem;
+      line-height: 1.3;
+    }
+    h3 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.35rem;
+      font-weight: 600;
+      color: var(--gold-light);
+      margin: 2rem 0 0.6rem;
+      line-height: 1.35;
+    }
+    p { margin-bottom: 1.1rem; }
+    strong { color: var(--star); font-weight: 600; }
+    em { color: var(--gold-light); font-style: italic; }
+    cite { font-style: italic; color: var(--muted); }
+
+    /* ── TRIMESTER TIMELINE ── */
+    .timeline-section {
+      margin: 3rem 0 2rem;
+    }
+    .timeline-section h2 {
+      text-align: center;
+      margin-bottom: 1.75rem;
+    }
+    .trimester-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1.25rem;
+    }
+    .trimester-card {
+      border-radius: 12px;
+      padding: 1.5rem;
+      border: 1px solid;
+      position: relative;
+      overflow: hidden;
+    }
+    .trimester-card::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 4px;
+    }
+    .trimester-card.first {
+      background: rgba(100, 149, 237, 0.08);
+      border-color: rgba(100, 149, 237, 0.35);
+    }
+    .trimester-card.first::before { background: #6495ED; }
+    .trimester-card.second {
+      background: rgba(76, 175, 130, 0.08);
+      border-color: rgba(76, 175, 130, 0.35);
+    }
+    .trimester-card.second::before { background: #4CAF82; }
+    .trimester-card.third {
+      background: rgba(201, 168, 76, 0.08);
+      border-color: rgba(201, 168, 76, 0.35);
+    }
+    .trimester-card.third::before { background: #C9A84C; }
+
+    .tri-label {
+      font-size: 0.7rem;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      margin-bottom: 0.3rem;
+    }
+    .trimester-card.first .tri-label { color: #6495ED; }
+    .trimester-card.second .tri-label { color: #4CAF82; }
+    .trimester-card.third .tri-label { color: #C9A84C; }
+
+    .tri-title {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: var(--star);
+      margin-bottom: 1rem;
+    }
+    .tri-row {
+      margin-bottom: 0.75rem;
+    }
+    .tri-row-label {
+      font-size: 0.72rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--muted);
+      margin-bottom: 0.2rem;
+    }
+    .tri-row-value {
+      font-size: 0.875rem;
+      color: var(--text);
+      line-height: 1.5;
+    }
+    .position-tag {
+      display: inline-block;
+      padding: 0.15rem 0.55rem;
+      border-radius: 20px;
+      font-size: 0.75rem;
+      font-weight: 600;
+      margin-top: 0.25rem;
+    }
+    .first .position-tag { background: rgba(100,149,237,0.18); color: #A0BEFF; }
+    .second .position-tag { background: rgba(76,175,130,0.18); color: #80DDB0; }
+    .third .position-tag { background: rgba(201,168,76,0.18); color: #E5C96A; }
+
+    /* ── SLEEP POSITIONS VISUAL ── */
+    .positions-section {
+      margin: 3rem 0 2rem;
+    }
+    .positions-section h2 {
+      text-align: center;
+      margin-bottom: 0.5rem;
+    }
+    .positions-section > p {
+      text-align: center;
+      color: var(--muted);
+      font-size: 0.9rem;
+      margin-bottom: 1.75rem;
+    }
+    .positions-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 1.25rem;
+    }
+    .position-card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.5rem 1.25rem;
+      text-align: center;
+    }
+    .position-icon {
+      font-size: 2.5rem;
+      margin-bottom: 0.75rem;
+      display: block;
+    }
+    .position-card h4 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: var(--star);
+      margin-bottom: 0.5rem;
+    }
+    .position-card p {
+      font-size: 0.85rem;
+      color: var(--muted);
+      margin: 0;
+      line-height: 1.55;
+    }
+    .pos-badge {
+      display: inline-block;
+      margin-top: 0.75rem;
+      padding: 0.2rem 0.6rem;
+      border-radius: 20px;
+      font-size: 0.72rem;
+      font-weight: 600;
+      letter-spacing: 0.05em;
+    }
+    .pos-badge.recommended { background: rgba(76,175,130,0.18); color: #80DDB0; }
+    .pos-badge.helpful { background: rgba(201,168,76,0.18); color: #E5C96A; }
+    .pos-badge.avoid { background: rgba(220,80,80,0.18); color: #FF9A9A; }
+
+    /* ── CALLOUT BOXES ── */
+    .takeaway-box {
+      background: rgba(76, 175, 130, 0.08);
+      border: 1px solid rgba(76, 175, 130, 0.45);
+      border-left: 4px solid var(--green);
+      border-radius: 8px;
+      padding: 1.25rem 1.5rem;
+      margin: 2rem 0;
+    }
+    .takeaway-box .box-label {
+      font-size: 0.72rem;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--green);
+      margin-bottom: 0.5rem;
+    }
+    .takeaway-box ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    .takeaway-box ul li {
+      padding: 0.3rem 0 0.3rem 1.25rem;
+      position: relative;
+      font-size: 0.95rem;
+      color: var(--text);
+    }
+    .takeaway-box ul li::before {
+      content: '✓';
+      position: absolute;
+      left: 0;
+      color: var(--green);
+      font-weight: 700;
+    }
+
+    .warning-box {
+      background: rgba(220, 80, 80, 0.07);
+      border: 1px solid rgba(220, 80, 80, 0.3);
+      border-left: 4px solid #DC5050;
+      border-radius: 8px;
+      padding: 1.25rem 1.5rem;
+      margin: 2rem 0;
+    }
+    .warning-box .box-label {
+      font-size: 0.72rem;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: #FF9A9A;
+      margin-bottom: 0.5rem;
+    }
+    .warning-box ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+    .warning-box ul li {
+      padding: 0.3rem 0 0.3rem 1.25rem;
+      position: relative;
+      font-size: 0.95rem;
+      color: var(--text);
+    }
+    .warning-box ul li::before {
+      content: '✗';
+      position: absolute;
+      left: 0;
+      color: #FF9A9A;
+      font-weight: 700;
+    }
+
+    /* ── AFFILIATE BOX ── */
+    .affiliate-box {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-top: 3px solid var(--gold);
+      border-radius: 10px;
+      padding: 1.5rem;
+      margin: 2.5rem 0;
+      display: flex;
+      gap: 1.25rem;
+      align-items: flex-start;
+    }
+    .affiliate-icon {
+      font-size: 2.2rem;
+      flex-shrink: 0;
+    }
+    .affiliate-content { flex: 1; }
+    .affiliate-label {
+      font-size: 0.7rem;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 0.3rem;
+    }
+    .affiliate-content h4 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.2rem;
+      font-weight: 700;
+      color: var(--star);
+      margin-bottom: 0.4rem;
+    }
+    .affiliate-content p {
+      font-size: 0.875rem;
+      color: var(--muted);
+      margin-bottom: 0.85rem;
+      line-height: 1.55;
+    }
+    .affiliate-btn {
+      display: inline-block;
+      background: var(--gold);
+      color: var(--night);
+      text-decoration: none;
+      font-weight: 700;
+      font-size: 0.875rem;
+      padding: 0.55rem 1.25rem;
+      border-radius: 6px;
+      transition: background 0.2s;
+    }
+    .affiliate-btn:hover { background: var(--gold-light); }
+    .affiliate-disclaimer {
+      font-size: 0.72rem;
+      color: var(--muted);
+      margin-top: 0.5rem;
+      font-style: italic;
+    }
+
+    /* ── DIVIDER ── */
+    hr {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 2.5rem 0;
+    }
+
+    /* ── FOOTER ── */
+    footer {
+      background: var(--deep);
+      border-top: 1px solid var(--border);
+      padding: 2rem 1.5rem;
+      text-align: center;
+      color: var(--muted);
+      font-size: 0.82rem;
+    }
+    footer a { color: var(--gold); text-decoration: none; }
+    .medical-disclaimer {
+      background: var(--navy);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1rem 1.25rem;
+      margin: 2rem 0;
+      font-size: 0.82rem;
+      color: var(--muted);
+      line-height: 1.6;
+    }
+
+    @media (max-width: 600px) {
+      .affiliate-box { flex-direction: column; }
+      nav { display: none; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- HEADER -->
+<header>
+  <a href="/" class="logo">SleepWise<span>Reviews</span></a>
+  <nav>
+    <a href="/posts/">Articles</a>
+    <a href="/#reviews">Reviews</a>
+    <a href="/#about">About</a>
+  </nav>
+</header>
+
+<!-- HERO -->
+<div class="hero">
+  <div class="badge">Pregnancy Guide</div>
+  <h1>Pregnancy Sleep Guide: Solutions for Every Trimester</h1>
+  <p class="meta">📅 February 2023 · ⏱ 8 min read · 🔄 Updated Mar 2026</p>
+</div>
+
+<!-- MAIN CONTENT -->
+<div class="content">
+
+  <p>Sleep changes from the first week of pregnancy. Most advice only covers the third trimester — leaving first and second trimester mothers struggling without explanation or solutions. Understanding why your sleep is disrupted, and when, makes it far easier to respond with the right strategy rather than white-knuckling through nine months of exhaustion.</p>
+
+  <p>Pregnancy is not one sleep experience — it is three distinct phases, each governed by a different hormonal reality and physical landscape. What helps in week six may be irrelevant by week thirty. This guide covers every stage with specific, evidence-informed guidance drawn from sleep medicine literature, including insights from Janet Kinosian's <em>The Well-Rested Woman</em> (2002), which remains one of the most practical resources on the female sleep experience across life stages.</p>
+
+  <!-- TRIMESTER TIMELINE -->
+  <div class="timeline-section">
+    <h2>Trimester-by-Trimester Sleep Map</h2>
+    <div class="trimester-grid">
+
+      <!-- FIRST -->
+      <div class="trimester-card first">
+        <div class="tri-label">Weeks 1–13</div>
+        <div class="tri-title">First Trimester</div>
+        <div class="tri-row">
+          <div class="tri-row-label">Main Challenges</div>
+          <div class="tri-row-value">Crushing fatigue, frequent urination, nausea at night, heightened smell sensitivity</div>
+        </div>
+        <div class="tri-row">
+          <div class="tri-row-label">Hormone Responsible</div>
+          <div class="tri-row-value">Progesterone surge — causes drowsiness but fragments nighttime sleep</div>
+        </div>
+        <div class="tri-row">
+          <div class="tri-row-label">Top Solutions</div>
+          <div class="tri-row-value">20-min naps before 3pm, limit fluids after 7pm, fresh air in bedroom</div>
+        </div>
+        <div class="tri-row">
+          <div class="tri-row-label">Safe Position</div>
+          <div class="tri-row-value"><span class="position-tag">Any position</span> — uterus still small</div>
+        </div>
+      </div>
+
+      <!-- SECOND -->
+      <div class="trimester-card second">
+        <div class="tri-label">Weeks 14–27</div>
+        <div class="tri-title">Second Trimester</div>
+        <div class="tri-row">
+          <div class="tri-row-label">Main Challenges</div>
+          <div class="tri-row-value">Heartburn onset, restless leg syndrome, vivid or disturbing dreams, round ligament pain</div>
+        </div>
+        <div class="tri-row">
+          <div class="tri-row-label">Hormone Responsible</div>
+          <div class="tri-row-value">Estrogen + relaxin affecting GI motility and neuromuscular signaling</div>
+        </div>
+        <div class="tri-row">
+          <div class="tri-row-label">Top Solutions</div>
+          <div class="tri-row-value">Elevated head, small dinner 3 hrs before bed, magnesium glycinate for RLS (check with OB)</div>
+        </div>
+        <div class="tri-row">
+          <div class="tri-row-label">Safe Position</div>
+          <div class="tri-row-value"><span class="position-tag">Begin transitioning to SOS</span></div>
+        </div>
+      </div>
+
+      <!-- THIRD -->
+      <div class="trimester-card third">
+        <div class="tri-label">Weeks 28–40+</div>
+        <div class="tri-title">Third Trimester</div>
+        <div class="tri-row">
+          <div class="tri-row-label">Main Challenges</div>
+          <div class="tri-row-value">Back pain, fetal movement at night, shortness of breath, leg cramps, birth anxiety</div>
+        </div>
+        <div class="tri-row">
+          <div class="tri-row-label">Hormone Responsible</div>
+          <div class="tri-row-value">Cortisol + oxytocin fluctuations, physical compression of diaphragm and bladder</div>
+        </div>
+        <div class="tri-row">
+          <div class="tri-row-label">Top Solutions</div>
+          <div class="tri-row-value">Full body pillow, left-side SOS, wedge under belly, relaxation audio for anxiety</div>
+        </div>
+        <div class="tri-row">
+          <div class="tri-row-label">Safe Position</div>
+          <div class="tri-row-value"><span class="position-tag">Left-side SOS only after week 20</span></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <hr />
+
+  <h2>First Trimester: Why You Are Exhausted but Cannot Sleep</h2>
+
+  <p>The first trimester is the most disorienting for sleep — not because it is always the worst, but because it is unexpected. Many women feel profound fatigue starting in weeks five or six, yet sleep poorly despite this exhaustion. The explanation lies in progesterone. As Kinosian (2002) notes, hormonal fluctuations during pregnancy alter sleep architecture fundamentally, with progesterone surges causing daytime sleepiness even when nighttime sleep is adequate. The hormone acts like a mild sedative during the day, but its effects on core body temperature and sleep-stage cycling disrupt the deeper, restorative phases at night.</p>
+
+  <p>The result is a paradox: you feel too tired to function but wake repeatedly through the night. Add frequent urination (the uterus begins pressing on the bladder even at this early stage), nausea that can spike at any hour despite its "morning" nickname, and heightened sensitivity to smells that make a stuffy or heavily scented bedroom unbearable — and the first trimester becomes genuinely difficult to sleep through.</p>
+
+  <div class="takeaway-box">
+    <div class="box-label">Practical Takeaway — First Trimester</div>
+    <ul>
+      <li>Nap strategically: 20 minutes before 3pm restores alertness without disrupting nighttime sleep</li>
+      <li>Stop fluids 90 minutes before bed to reduce overnight bathroom trips</li>
+      <li>Keep the bedroom cool and well-ventilated — progesterone raises core body temperature</li>
+      <li>Use an unscented pillow and bedding if smell sensitivity is disrupting sleep onset</li>
+      <li>Accept that some sleep fragmentation is hormonally driven — it will not last the whole pregnancy</li>
+    </ul>
+  </div>
+
+  <h2>Second Trimester: The Window — and Its New Disruptions</h2>
+
+  <p>Weeks fourteen through twenty-seven are often called the "honeymoon trimester" for a reason. Nausea typically recedes, energy improves, and the early progesterone shock stabilizes. Many women sleep better in the second trimester than they did before pregnancy. However, two new disruptions emerge that are worth preparing for before they arrive.</p>
+
+  <h3>Heartburn and Gastric Reflux</h3>
+
+  <p>The hormone relaxin, which loosens ligaments in preparation for birth, also relaxes the lower esophageal sphincter — the valve that keeps stomach acid in place. Combined with the growing uterus beginning to push upward against the stomach, this creates the conditions for nighttime heartburn even in women who have never experienced it before. Lying flat makes it worse.</p>
+
+  <p>Elevating the head of the bed by four to six inches (using bed risers or a wedge pillow placed under the mattress, not just adding pillows under the head) significantly reduces reflux. Eating a smaller dinner at least three hours before lying down, avoiding spicy and fatty foods in the evening, and sleeping on the left side — which positions the stomach below the esophagus — all reduce symptom frequency.</p>
+
+  <h3>Restless Legs Syndrome</h3>
+
+  <p>Restless legs syndrome (RLS) affects approximately 26% of pregnant women, compared with 5–10% of the general population, with the highest rates in the third trimester but onset commonly beginning in the second. The characteristic urge to move the legs, often accompanied by uncomfortable crawling or tingling sensations, tends to worsen at rest and in the evening — precisely when you are trying to sleep.</p>
+
+  <p>The mechanism in pregnancy is thought to involve iron and folate deficiency, dopamine pathway changes, and hormonal influences. Magnesium glycinate is frequently cited as a supportive intervention and may also reduce leg cramps in the third trimester. However, any supplement use during pregnancy must be approved by your OB or midwife — do not self-prescribe, as dosing and interactions vary significantly by individual.</p>
+
+  <h3>Vivid Dreams</h3>
+
+  <p>Many pregnant women report a sharp increase in vivid, memorable, and sometimes disturbing dreams starting in the second trimester. This is well-documented and appears to be linked to increased REM density caused by hormonal changes, as well as more frequent awakenings (which makes it easier to recall dreams in progress). It is not a psychological warning sign — it is a normal aspect of pregnant sleep architecture.</p>
+
+  <div class="takeaway-box">
+    <div class="box-label">Practical Takeaway — Second Trimester</div>
+    <ul>
+      <li>Elevate the head of the bed with a wedge under the mattress to reduce reflux</li>
+      <li>Finish dinner at least 3 hours before bed; avoid large, fatty, or spicy evening meals</li>
+      <li>Ask your OB about magnesium glycinate if restless legs is disrupting sleep</li>
+      <li>Begin transitioning to sleeping on your left side to build the habit before the third trimester</li>
+      <li>Vivid dreams are normal — journaling them can reduce anxiety if they are distressing</li>
+    </ul>
+  </div>
+
+  <!-- AFFILIATE BOX -->
+  <div class="affiliate-box">
+    <div class="affiliate-icon">🤰</div>
+    <div class="affiliate-content">
+      <div class="affiliate-label">Recommended Product</div>
+      <h4>Leachco Snoogle Total Maternity/Pregnancy Body Pillow</h4>
+      <p>The Snoogle's C-shaped design supports the head, neck, back, belly, and knees simultaneously — addressing the core physical reasons sleep deteriorates in the second and third trimester. It replaces the need for multiple separate pillows and maintains the lateral position throughout the night, reducing the urge to roll supine.</p>
+      <a href="https://www.amazon.com/dp/B000I5A0NU?tag=sleepwiserevi-20" class="affiliate-btn" target="_blank" rel="noopener">View on Amazon →</a>
+      <p class="affiliate-disclaimer">Affiliate link — we earn a small commission at no extra cost to you.</p>
+    </div>
+  </div>
+
+  <h2>Third Trimester: When Sleep Becomes the Hardest Work</h2>
+
+  <p>The third trimester is the most physically demanding on sleep. The baby is now large enough to create real mechanical problems: the diaphragm is compressed, causing shortness of breath when lying down; the bladder has almost no capacity; back and hip pain from the shifting center of gravity makes position changes frequent and painful; and fetal movement — most active between 9pm and 1am for many pregnancies — can directly interrupt sleep.</p>
+
+  <p>Anxiety about the approaching birth also rises, often manifesting as early-morning awakening that cannot be returned to. This is partially cortisol-driven and partially psychological. Brief, structured relaxation practices before bed — progressive muscle relaxation, slow breathing, or even guided audio — consistently reduce sleep-onset anxiety in late pregnancy.</p>
+
+  <h3>Leg Cramps</h3>
+
+  <p>Leg cramps, distinct from restless legs, are sudden painful muscle contractions most common at night in the third trimester. They are associated with low magnesium and calcium intake, dehydration, and circulatory changes. Stretching the calf before bed (flexing the foot toward the shin, not pointing the toes), staying well-hydrated through the day (reducing fluid at night), and adequate dietary magnesium and calcium can reduce frequency. Again, confirm any supplementation with your care provider.</p>
+
+  <!-- SAFE SLEEP POSITIONS SECTION -->
+  <div class="positions-section">
+    <h2>Safe Sleep Positions During Pregnancy</h2>
+    <p>Position matters increasingly as pregnancy progresses. Here is what the evidence supports.</p>
+
+    <div class="positions-grid">
+
+      <div class="position-card">
+        <span class="position-icon">🛌</span>
+        <h4>SOS — Left Side</h4>
+        <p>Sleep On Side, left preferred. Keeps the uterus off the inferior vena cava, maximizing blood return to the heart and placental perfusion. Most recommended by midwives and OBs after 20 weeks.</p>
+        <span class="pos-badge recommended">Recommended after 20 weeks</span>
+      </div>
+
+      <div class="position-card">
+        <span class="position-icon">🔺</span>
+        <h4>Wedge Pillow Under Belly</h4>
+        <p>A small wedge or rolled towel placed under the belly while side-lying reduces the weight pulling downward on the lower back and hip. Particularly effective from week 28 onward when belly weight increases significantly.</p>
+        <span class="pos-badge helpful">Helpful from week 28</span>
+      </div>
+
+      <div class="position-card">
+        <span class="position-icon">🦵</span>
+        <h4>Pillow Between Knees</h4>
+        <p>Placing a pillow between the knees when side-lying aligns the hips and reduces pressure on the sacroiliac joint and lower back. This single addition relieves hip pain for many pregnant women almost immediately.</p>
+        <span class="pos-badge helpful">Helpful all trimesters</span>
+      </div>
+
+      <div class="position-card">
+        <span class="position-icon">🚫</span>
+        <h4>Supine (Flat on Back)</h4>
+        <p>After approximately 20 weeks, lying flat on the back allows the uterus to compress the inferior vena cava, reducing venous return and potentially lowering blood pressure. Avoid after 20 weeks. If you wake on your back, simply roll to the side — do not panic.</p>
+        <span class="pos-badge avoid">Avoid after 20 weeks</span>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="takeaway-box">
+    <div class="box-label">Practical Takeaway — Third Trimester</div>
+    <ul>
+      <li>Use a full-length body pillow or the Snoogle to maintain side-lying throughout the night</li>
+      <li>Place a pillow between knees and a wedge under the belly for back and hip pain</li>
+      <li>Do not try to sleep flat after week 20 — elevate both head and knees slightly with pillows</li>
+      <li>Stretch calves before bed and stay hydrated through the day to reduce leg cramps</li>
+      <li>Use a short relaxation practice (10 minutes) to address birth anxiety before lights out</li>
+      <li>If fetal movement prevents sleep, note that it is normal at night — brief distraction then return to rest</li>
+    </ul>
+  </div>
+
+  <h2>What to Avoid During Pregnancy Sleep</h2>
+
+  <div class="warning-box">
+    <div class="box-label">Avoid These</div>
+    <ul>
+      <li><strong>Melatonin:</strong> Insufficient safety data exists for melatonin use in pregnancy. Unlike in non-pregnant adults where it is low-risk, the impact on fetal development is not adequately studied. Avoid unless explicitly approved by your OB.</li>
+      <li><strong>Flat supine sleeping after 20 weeks:</strong> Compresses the vena cava and can reduce placental blood flow.</li>
+      <li><strong>Long daytime naps or napping after 3pm:</strong> Disrupts nighttime sleep pressure that is already fragile during pregnancy.</li>
+      <li><strong>OTC sleep aids including diphenhydramine:</strong> Many common sleep medications are not recommended during pregnancy without medical guidance.</li>
+      <li><strong>Sleeping with heating pads on the abdomen:</strong> Raises core temperature in ways that may be problematic in early pregnancy especially.</li>
+    </ul>
+  </div>
+
+  <h2>Napping During Pregnancy: The Right Strategy</h2>
+
+  <p>Napping is not just acceptable during pregnancy — in the first trimester especially, it is almost unavoidable. The key is structure. A 20-minute nap taken before 3pm restores alertness, reduces the physiological fatigue load of progesterone-driven daytime sleepiness, and does not significantly impair nighttime sleep pressure. Longer naps (60–90 minutes) begin to enter and interrupt a sleep cycle and leave most people feeling groggy and more disoriented.</p>
+
+  <p>In the third trimester, napping can help compensate for genuinely fragmented night sleep. If you are waking four to six times per night from physical discomfort or fetal movement, a single structured early-afternoon nap is a reasonable recovery tool. If you find you are unable to function without multiple or long naps, that warrants a conversation with your midwife or OB to rule out anemia or thyroid changes — both common in pregnancy and both significantly affecting sleep and fatigue.</p>
+
+  <h2>Magnesium Glycinate: What the Evidence Actually Says</h2>
+
+  <p>Magnesium glycinate is the form of magnesium most commonly associated with sleep and muscle relaxation benefits, and it comes up repeatedly in discussions of pregnancy sleep because it addresses two of the most common late-pregnancy sleep disruptors: restless legs and muscle cramps. Magnesium plays a role in neuromuscular signaling, and deficiency — which is common in pregnancy as the baby draws on maternal stores — correlates with both RLS severity and nocturnal leg cramp frequency.</p>
+
+  <p>The glycinate form (bound to glycine) is well-tolerated by most people without the laxative effect associated with magnesium oxide or citrate at higher doses. However, <strong>always consult your OB or midwife before starting any supplement during pregnancy.</strong> The appropriate dose, the interaction with your current prenatal vitamin, and whether it is appropriate given your individual pregnancy must be assessed by your care provider.</p>
+
+  <hr />
+
+  <div class="medical-disclaimer">
+    <strong>Medical Disclaimer:</strong> This article is for informational purposes only and does not constitute medical advice. Pregnancy is a medically supervised condition. Always consult your OB, midwife, or licensed healthcare provider before making any changes to your sleep environment, supplement use, or sleep positions during pregnancy. If you experience severe insomnia, shortness of breath, chest pain, or unusual symptoms, seek immediate medical guidance.
+  </div>
+
+  <h2>A Final Note on Expectations</h2>
+
+  <p>Pregnancy sleep is not supposed to look like pre-pregnancy sleep, and trying to force it into that shape creates unnecessary distress. The goal is not eight uninterrupted hours — it is sufficient total rest distributed across the night (and a structured nap if needed) to support your wellbeing and your pregnancy. Kinosian (2002) frames this well: the female body's relationship with sleep across hormonal life stages requires a flexible understanding of what "good sleep" means, rather than a single fixed standard.</p>
+
+  <p>The strategies above are not about perfection. They are about reducing unnecessary disruption, addressing the disruptors you can address, and accepting with equanimity the ones tied to the biology of growing a human being. The third trimester does not last forever. Neither does the sleeplessness.</p>
+
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <p>&copy; 2026 SleepWise Reviews &mdash; <a href="/privacy">Privacy Policy</a> &middot; <a href="/affiliate-disclosure">Affiliate Disclosure</a></p>
+  <p style="margin-top:0.5rem;">As an Amazon Associate, SleepWise Reviews earns from qualifying purchases.</p>
+</footer>
+
+</body>
+</html>
