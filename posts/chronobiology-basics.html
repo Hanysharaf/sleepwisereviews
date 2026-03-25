@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Chronobiology: The Science of Biological Timekeeping - SleepWiseReviews</title>
+  <meta name="description" content="In 2017, the Nobel Prize in Medicine was awarded for discovering how your internal clock works. Learn the science of chronobiology, circadian rhythms, and how to use your biological clock to sleep better." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <style type='text/css'>
+    :root {
+      --night: #0A0E1A;
+      --deep: #0F1525;
+      --navy: #141B30;
+      --card: #1A2238;
+      --border: #252D45;
+      --gold: #C9A84C;
+      --gold-light: #E5C96A;
+      --gold-dim: rgba(201, 168, 76, 0.15);
+      --star: #F0E6C8;
+      --text: #D4DCEE;
+      --muted: #7A85A0;
+      --white: #FFFFFF;
+      --green: #4CAF82;
+    }
+
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: 'Outfit', sans-serif;
+      background: var(--night);
+      color: var(--text);
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      background-image:
+        radial-gradient(1px 1px at 10% 15%, rgba(240, 230, 200, 0.6) 0%, transparent 100%),
+        radial-gradient(1px 1px at 25% 40%, rgba(240, 230, 200, 0.4) 0%, transparent 100%),
+        radial-gradient(1.5px 1.5px at 40% 10%, rgba(240, 230, 200, 0.5) 0%, transparent 100%),
+        radial-gradient(1px 1px at 55% 30%, rgba(240, 230, 200, 0.3) 0%, transparent 100%),
+        radial-gradient(1px 1px at 70% 5%, rgba(240, 230, 200, 0.6) 0%, transparent 100%),
+        radial-gradient(1.5px 1.5px at 80% 20%, rgba(240, 230, 200, 0.4) 0%, transparent 100%),
+        radial-gradient(1px 1px at 90% 45%, rgba(240, 230, 200, 0.3) 0%, transparent 100%);
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    nav {
+      position: sticky; top: 0; z-index: 100;
+      background: rgba(10, 14, 26, 0.92);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+      padding: 0 6%; height: 68px;
+      display: flex; align-items: center; justify-content: space-between;
+    }
+    .logo { font-family: 'Cormorant Garamond', serif; font-size: 1.6rem; font-weight: 700; color: var(--star); text-decoration: none; }
+    .logo span { color: var(--gold); }
+    .nav-links { display: flex; gap: 2rem; list-style: none; }
+    .nav-links a { text-decoration: none; color: var(--muted); font-size: 0.88rem; font-weight: 500; transition: color 0.2s; }
+    .nav-links a:hover { color: var(--gold); }
+    .nav-cta { background: var(--gold-dim); color: var(--gold) !important; border: 1px solid rgba(201, 168, 76, 0.3); padding: 7px 16px; border-radius: 4px; }
+
+    .article-wrapper {
+      position: relative; z-index: 1;
+      max-width: 800px; margin: 0 auto; padding: 50px 6% 80px;
+    }
+    .article-meta-top { display: flex; flex-wrap: wrap; align-items: center; gap: 0.8rem; margin-bottom: 1.2rem; }
+    .tag { background: var(--gold); color: var(--night); padding: 5px 12px; border-radius: 4px; font-size: 0.72rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; }
+    .meta-text { color: var(--muted); font-size: 0.82rem; }
+    .article-wrapper h1 { font-family: 'Cormorant Garamond', serif; font-size: 2.4rem; font-weight: 600; color: var(--star); line-height: 1.2; margin-bottom: 1.2rem; }
+    .article-intro { font-size: 1.1rem; color: var(--text); line-height: 1.7; margin-bottom: 2rem; font-weight: 300; }
+    .author-box { display: flex; align-items: center; gap: 1rem; margin-bottom: 1.5rem; padding: 1rem; background: var(--card); border-radius: 8px; border: 1px solid var(--border); }
+    .author-avatar { font-size: 2.5rem; }
+    .author-name { color: var(--star); font-weight: 500; }
+    .author-name a { color: var(--gold); text-decoration: none; }
+    .author-role { color: var(--muted); font-size: 0.82rem; }
+    .disclosure-box { background: rgba(201, 168, 76, 0.08); border: 1px solid rgba(201, 168, 76, 0.2); border-radius: 8px; padding: 1rem 1.2rem; font-size: 0.82rem; color: var(--muted); margin-bottom: 2rem; }
+    .article-wrapper h2 { font-family: 'Cormorant Garamond', serif; font-size: 1.6rem; font-weight: 600; color: var(--star); margin: 2.5rem 0 1rem; padding-top: 1rem; }
+    .article-wrapper h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.2rem; color: var(--star); margin: 1.5rem 0 0.8rem; }
+    .article-wrapper p { margin-bottom: 1rem; font-weight: 300; line-height: 1.8; }
+    .article-wrapper ul, .article-wrapper ol { margin: 1rem 0 1.5rem 1.5rem; }
+    .article-wrapper li { margin-bottom: 0.5rem; font-weight: 300; }
+    .callout { background: var(--card); border-left: 3px solid var(--gold); padding: 1rem 1.5rem; margin: 1.5rem 0; border-radius: 0 8px 8px 0; font-size: 0.92rem; }
+    .callout-green { background: var(--card); border-left: 3px solid var(--green); padding: 1rem 1.5rem; margin: 1.5rem 0; border-radius: 0 8px 8px 0; font-size: 0.92rem; }
+
+    .product-cta { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 1.5rem; margin: 2rem 0; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; }
+    .product-cta-text { color: var(--star); font-weight: 500; }
+    .btn-amazon { background: var(--gold); color: var(--night); text-decoration: none; padding: 10px 20px; border-radius: 6px; font-weight: 600; font-size: 0.88rem; transition: background 0.2s; }
+    .btn-amazon:hover { background: var(--gold-light); }
+
+    .article-cta { background: linear-gradient(135deg, var(--card), var(--navy)); border: 1px solid var(--border); border-radius: 12px; padding: 2rem; text-align: center; margin: 3rem 0; }
+    .article-cta h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.4rem; color: var(--star); margin-bottom: 0.8rem; }
+    .article-cta p { color: var(--muted); margin-bottom: 1.2rem; }
+
+    .related-articles { margin: 3rem 0; }
+    .related-articles h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.3rem; color: var(--star); margin-bottom: 1rem; }
+    .related-articles ul { list-style: none; margin: 0; }
+    .related-articles li { margin-bottom: 0.6rem; }
+    .related-articles a { color: var(--gold); text-decoration: none; font-size: 0.95rem; }
+    .related-articles a:hover { text-decoration: underline; }
+
+    .book-card { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 1.4rem 1.6rem; margin: 2rem 0; display: flex; gap: 1.2rem; align-items: flex-start; }
+    .book-icon { font-size: 2.2rem; flex-shrink: 0; }
+    .book-title { color: var(--star); font-weight: 600; font-size: 1rem; margin-bottom: 0.3rem; }
+    .book-author { color: var(--muted); font-size: 0.82rem; margin-bottom: 0.6rem; }
+    .book-desc { color: var(--text); font-size: 0.88rem; font-weight: 300; line-height: 1.6; }
+
+    footer { background: #060912; border-top: 1px solid var(--border); padding: 50px 6% 30px; }
+    .footer-top { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 3rem; margin-bottom: 3rem; padding-bottom: 3rem; border-bottom: 1px solid var(--border); }
+    .footer-brand p { color: var(--muted); font-size: 0.82rem; margin-top: 0.8rem; line-height: 1.6; font-weight: 300; max-width: 260px; }
+    .footer-col h4 { font-size: 0.78rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--gold); margin-bottom: 1rem; }
+    .footer-col ul { list-style: none; display: flex; flex-direction: column; gap: 0.6rem; }
+    .footer-col a { color: var(--muted); text-decoration: none; font-size: 0.85rem; transition: color 0.2s; }
+    .footer-col a:hover { color: var(--gold); }
+    .footer-bottom { display: flex; justify-content: space-between; font-size: 0.78rem; color: var(--muted); flex-wrap: wrap; gap: 0.5rem; }
+    .affiliate-disc { font-size: 0.75rem; max-width: 600px; }
+
+    @media (max-width: 900px) {
+      .nav-links { display: none; }
+      .article-wrapper h1 { font-size: 1.8rem; }
+      .footer-top { grid-template-columns: 1fr 1fr; }
+      .product-cta { flex-direction: column; text-align: center; }
+    }
+  </style>
+</head>
+
+<body>
+  <nav>
+    <a class="logo" href="../">SleepWise<span>Reviews</span></a>
+    <ul class="nav-links">
+      <li><a href="../#picks">Top Picks</a></li>
+      <li><a href="../#reviews">Reviews</a></li>
+      <li><a href="../pages/about.html">About Harry</a></li>
+      <li><a href="../#newsletter" class="nav-cta">Free Sleep Guide</a></li>
+    </ul>
+  </nav>
+
+  <article class="article-wrapper">
+    <div class="article-meta-top">
+      <span class="tag">Sleep Science</span>
+      <span class="meta-text">📅 February 2023 · ⏱ 9 min read · 🔄 Updated Mar 2026</span>
+    </div>
+
+    <h1>Chronobiology: The Science of Biological Timekeeping</h1>
+    <p class="article-intro">The 2017 Nobel Prize in Medicine was awarded for discovering how your internal clock actually works. What those scientists found overturned decades of assumptions — and the practical implications for how you sleep, eat, and function are profound.</p>
+
+    <div class="author-box">
+      <div class="author-avatar">🕰️</div>
+      <div class="author-info">
+        <div class="author-name">By <a href="../pages/about.html">Harry Soul</a> - SleepWiseReviews</div>
+        <div class="author-role">Independent Sleep Researcher - February 2023</div>
+      </div>
+    </div>
+
+    <div class="disclosure-box">
+      <strong>Affiliate Disclosure:</strong> This article contains affiliate links. We earn a small commission if you purchase through our links at no extra cost to you. <a href="../pages/affiliate-disclosure.html" style="color:var(--gold)">Full disclosure</a>
+    </div>
+
+    <h2>The Nobel Prize That Changed How We Think About Time</h2>
+    <p>On October 2, 2017, the Nobel Assembly at Karolinska Institutet awarded the Nobel Prize in Physiology or Medicine jointly to Jeffrey C. Hall, Michael Rosbash, and Michael W. Young. Their prize-winning work was not about a drug or a surgical technique — it was about a gene. Specifically, it was about the <em>period</em> gene and the molecular mechanism that generates a near-24-hour oscillation inside virtually every cell of your body.</p>
+    <p>Working with fruit flies in the 1980s and 1990s, Hall, Rosbash, and Young isolated the <em>period</em> gene and then decoded the feedback loop it creates. They showed that the protein encoded by this gene accumulates during the night and degrades during the day, producing a self-sustaining molecular clock. The Nobel Committee described their discovery as unveiling "the mechanisms controlling the circadian rhythms." In plainer terms: they found the gears of your internal clock.</p>
+    <p>This discovery launched and accelerated the field we now call chronobiology — the scientific study of biological time.</p>
+
+    <div class="callout">💡 <strong>Key insight:</strong> Every cell in your body carries its own clock, synchronized to a master pacemaker in the brain. When those clocks fall out of alignment — with each other, or with the outside world — your health suffers in measurable ways.</div>
+
+    <h2>What Chronobiology Actually Studies</h2>
+    <p>Chronobiology is the branch of biology concerned with periodic (cyclic) phenomena in living organisms and their adaptation to solar and lunar-related rhythms. The word comes from the Greek <em>chronos</em> (time), <em>bios</em> (life), and <em>logos</em> (study). In practice, chronobiologists study everything from the timing of cell division to the seasonal migration of birds, but the field has enormous relevance to human sleep and health.</p>
+    <p>Biological rhythms are classified by their period length:</p>
+    <ul>
+      <li><strong>Circadian rhythms</strong> — cycles of approximately 24 hours (from Latin <em>circa diem</em>, "about a day"). Sleep-wake cycles, core body temperature, cortisol release, and melatonin secretion all follow circadian patterns.</li>
+      <li><strong>Ultradian rhythms</strong> — cycles shorter than 24 hours. The 90-minute sleep stage cycle is an ultradian rhythm. So is the basic rest-activity cycle (BRAC) that governs alertness fluctuations during waking hours.</li>
+      <li><strong>Infradian rhythms</strong> — cycles longer than 24 hours. The human menstrual cycle (~28 days) and seasonal mood changes are infradian rhythms. Seasonal affective disorder (SAD) reflects a disrupted infradian rhythm.</li>
+    </ul>
+    <p>Most of what we apply in sleep optimization draws on circadian biology, but understanding all three rhythm categories helps explain why our bodies resist arbitrary schedules.</p>
+
+    <h2>The Molecular Clock: CLOCK, BMAL1, and the Feedback Loop</h2>
+    <p>The Nobel-winning discovery revealed the core molecular mechanism, but subsequent research has fleshed out the full picture. At the heart of every mammalian circadian clock is a transcription-translation feedback loop involving a small set of "clock genes."</p>
+    <p>Two proteins, CLOCK and BMAL1, form a complex that binds to DNA and activates the transcription of two other clock genes: <em>Period</em> (Per1, Per2, Per3) and <em>Cryptochrome</em> (Cry1, Cry2). As Per and Cry proteins accumulate in the cell, they eventually inhibit the CLOCK/BMAL1 complex — effectively switching off their own production. The Per and Cry proteins then degrade, CLOCK/BMAL1 activity resumes, and the cycle begins again. This entire loop takes approximately 24 hours to complete.</p>
+    <p>This clock runs in essentially every cell of the body — in liver cells, muscle cells, skin cells, and gut cells. The master coordinator is a tiny region in the hypothalamus called the suprachiasmatic nucleus (SCN), which receives direct light input from the retina and uses it to synchronize the peripheral clocks. When the SCN signal and the peripheral clocks become desynchronized — through shift work, jet lag, or irregular light exposure — the result is metabolic disruption, impaired immunity, and degraded sleep quality.</p>
+
+    <div class="callout">🔬 <strong>Science note:</strong> The CLOCK/BMAL1 → Per/Cry inhibition loop takes roughly 24 hours to complete one full cycle — not because of any single chemical reaction, but because of carefully timed delays in protein production, transport, and degradation. Evolution has tuned these delays with extraordinary precision.</div>
+
+    <h2>Zeitgebers: The Environmental Cues That Set Your Clock</h2>
+    <p>A biological clock that ran in complete isolation would slowly drift — individual differences in clock speed mean some people's clocks naturally run slightly faster or slower than 24 hours. What keeps the clock anchored to the actual day is a class of environmental signals called <strong>zeitgebers</strong> (German for "time givers"). As Till Roenneberg explains in <em>Internal Time</em> (2012), every living organism with a circadian clock requires external zeitgebers to stay synchronized with the outside world.</p>
+    <p>The major human zeitgebers, ranked roughly by potency:</p>
+    <ul>
+      <li><strong>Light</strong> — by far the strongest. Blue-wavelength light (peak sensitivity around 480 nm) activates specialized photoreceptors in the retina called intrinsically photosensitive retinal ganglion cells (ipRGCs), which project directly to the SCN. Morning light advances the clock (shifts it earlier); evening light delays it (shifts it later).</li>
+      <li><strong>Temperature</strong> — both ambient and core body temperature fluctuations act as time cues. A drop in core body temperature is a powerful sleep signal. Cooler sleeping environments reinforce this drop.</li>
+      <li><strong>Food timing</strong> — when you eat signals metabolic clocks in the liver, pancreas, and gut. Eating late at night can decouple peripheral clocks from the central SCN clock, contributing to metabolic dysfunction.</li>
+      <li><strong>Exercise</strong> — physical activity can shift circadian phase depending on when it occurs. Morning exercise tends to advance the clock; evening exercise can delay it, though moderate evening activity is less disruptive than commonly assumed.</li>
+      <li><strong>Social interaction</strong> — human contact, alarm clocks, and work schedules act as social zeitgebers. These are often in direct conflict with the biological clock — which is precisely the problem Roenneberg identified as "social jetlag."</li>
+    </ul>
+
+    <div class="callout-green">
+      <strong>Practical takeaway:</strong> You can deliberately use zeitgebers to tune your clock. Get 10–20 minutes of bright outdoor light within an hour of waking. Dim your indoor lights after sunset. Avoid large meals in the two hours before bed. These three actions alone address the three most powerful zeitgebers — light, temperature cues from food digestion, and metabolic timing — and can shift a delayed clock earlier within days.
+    </div>
+
+    <h2>Chronotypes: Your Clock Is Not Their Clock</h2>
+    <p>One of Roenneberg's most important contributions to chronobiology is the scientific validation of chronotypes. A chronotype is not a lifestyle preference or a personality quirk — it is a measurable biological property reflecting the phase of your circadian clock relative to external time.</p>
+    <p>Roenneberg and colleagues developed the Munich Chronotype Questionnaire (MCTQ) and used it to collect sleep timing data from hundreds of thousands of people across Europe. The results showed a clear bell-curve distribution of chronotypes, from extreme "larks" (morning types whose biological day starts very early) to extreme "owls" (evening types whose clock runs significantly later than average). Most people fall somewhere in the middle.</p>
+    <p>Critically, chronotype has a strong genetic component — multiple genome-wide association studies have now identified dozens of genetic variants associated with morningness or eveningness. Chronotype also shifts across the lifespan: children tend to be morning types, adolescents shift dramatically toward eveningness (peaking around age 19-21), and then gradually shift back toward morningness through adulthood and into old age.</p>
+    <p>This means the teenager who cannot fall asleep before midnight is not being lazy or disobedient. Their clock is, by the standards of chronobiology, running late — and forcing them to wake at 6 AM for school is the functional equivalent of forcing an adult to start their day at 3 AM.</p>
+
+    <h2>Social Jetlag: The Hidden Cost of Ignoring Your Clock</h2>
+    <p>Social jetlag is the term Roenneberg coined to describe the discrepancy between a person's biological sleep timing and their socially imposed schedule. If your body clock says sleep from midnight to 8 AM, but your job requires you to wake at 6 AM on weekdays, you accumulate two hours of social jetlag every working day. On weekends, you "sleep in" to repay that debt — which is why most people's weekend wake times are substantially later than their weekday wake times.</p>
+    <p>The consequences of chronic social jetlag extend well beyond tiredness. Research has linked higher social jetlag scores with increased rates of obesity, type 2 diabetes, cardiovascular disease, depression, and poorer academic performance. Epidemiological data suggests that each hour of social jetlag is associated with a roughly 33% increased odds of obesity — an effect size comparable to some established risk factors.</p>
+    <p>The mechanism is metabolic disruption: when you eat, exercise, and are exposed to light at times that conflict with your biological clock phase, the peripheral organ clocks become uncoupled from the SCN, disrupting insulin sensitivity, glucose metabolism, and inflammatory signaling.</p>
+
+    <div class="book-card">
+      <div class="book-icon">📘</div>
+      <div>
+        <div class="book-title">Internal Time: Chronotypes, Social Jet Lag, and Why You're So Tired</div>
+        <div class="book-author">Till Roenneberg — Basic Books, 2012</div>
+        <div class="book-desc">The definitive lay introduction to chronobiology from one of its leading researchers. Roenneberg explains chronotypes, social jetlag, and the evolutionary logic of biological clocks with rigorous data and accessible writing. Essential reading for anyone serious about sleep science.</div>
+      </div>
+    </div>
+
+    <h2>Practical Chronobiology: Working With Your Clock</h2>
+    <p>The science of chronobiology is not merely academic. Applied chronobiology — sometimes called "circadian medicine" — offers specific, actionable strategies for aligning your lifestyle with your biology.</p>
+
+    <h3>Light Exposure Timing</h3>
+    <p>Morning bright light is the single most effective tool for anchoring and advancing your circadian clock. Aim for natural outdoor light within 30-60 minutes of waking — even on cloudy days, outdoor light typically exceeds 10,000 lux, compared to 200-500 lux in a typical indoor environment. If morning outdoor light is not practical, a light therapy lamp rated at 10,000 lux used for 20-30 minutes can substitute. In the evening, reduce blue light exposure after sunset: dim overhead lights, switch to warmer-toned bulbs, and use night mode on screens.</p>
+
+    <div class="product-cta">
+      <span class="product-cta-text">Light therapy lamps provide the morning light cue your circadian clock needs to stay on schedule</span>
+      <a class="btn-amazon" href="https://www.amazon.com/s?k=light+therapy+lamp+sunrise&tag=sleepwiserevi-20" target="_blank" rel="noopener nofollow">Shop Light Therapy Lamps</a>
+    </div>
+
+    <h3>Meal Windows and Time-Restricted Eating</h3>
+    <p>Eating within a consistent daily window — typically 8-10 hours — reinforces metabolic clock signals and reduces the desynchronization between peripheral organ clocks and the central SCN. Research on time-restricted eating (TRE) shows benefits for metabolic health, sleep quality, and weight management, particularly when the eating window is front-loaded earlier in the day rather than extending late into the evening. Avoid large meals within two to three hours of your target bedtime.</p>
+
+    <h3>Exercise Timing</h3>
+    <p>Morning exercise amplifies the light zeitgeber effect and tends to advance circadian phase, benefiting morning types and those trying to shift their schedule earlier. Afternoon exercise (roughly 2-6 PM for most chronotypes) aligns with the natural peak in core body temperature and muscle function, making it optimal for performance. Evening exercise is not inherently harmful for most people, but high-intensity training after 8-9 PM can delay sleep onset by elevating core body temperature and cortisol.</p>
+
+    <h3>Protecting the Anchor Points</h3>
+    <p>Your circadian system is most sensitive to the consistency of your wake time. A consistent wake time — even on weekends, even after a poor night's sleep — acts as a powerful anchor for the entire circadian system. Sleep researchers often recommend prioritizing a consistent wake time above all other sleep hygiene interventions, because it sets the timing of light exposure, cortisol release, and temperature rhythms that cascade through the rest of the day.</p>
+
+    <div class="callout-green">
+      <strong>Practical takeaway:</strong> If you can only make one change, fix your wake time. Choose the earliest time you need to wake on workdays and apply it every day of the week, including weekends. Within two to three weeks, your circadian clock will consolidate around that anchor — making it easier to fall asleep at the appropriate time and reducing daytime sleepiness.
+    </div>
+
+    <h2>Why This All Matters</h2>
+    <p>The 2017 Nobel Prize was not awarded for an abstract curiosity. It was awarded because the circadian clock turns out to be embedded in virtually every biological process we know of — gene transcription, hormone release, immune function, DNA repair, cell division, and metabolism all follow circadian schedules. When we ignore these schedules — through irregular sleep, artificial light at night, late eating, and social jetlag — we do not simply feel tired. We systematically impair the biological machinery that keeps us well.</p>
+    <p>Chronobiology offers something rare in health science: a mechanistic explanation that connects a molecular discovery (the CLOCK/BMAL1 feedback loop) to a population-level observation (that shift workers have higher rates of cancer, metabolic disease, and cardiovascular disease) to an individual intervention (get morning light, eat earlier, keep a consistent wake time). The chain of evidence runs from the Nobel Prize to your alarm clock.</p>
+    <p>Understanding that chain — understanding that your body is not just a machine that runs whenever you choose to run it, but a time-keeping organism built around the rotation of the Earth — is the first step toward working with your biology rather than against it.</p>
+
+    <div class="article-cta">
+      <h3>Get Our Free 7-Day Sleep Reset</h3>
+      <p>Join 18,000 readers who get weekly sleep tips and honest product reviews every Sunday.</p>
+      <a class="btn-amazon" href="../#newsletter">Subscribe Free</a>
+    </div>
+
+    <div class="related-articles">
+      <h3>Related Articles</h3>
+      <ul>
+        <li><a href="circadian-rhythm-basics.html">Circadian Rhythms Explained: How Your 24-Hour Body Clock Controls Sleep</a></li>
+        <li><a href="social-jetlag.html">Social Jetlag: Why Your Weekend Sleep-In Is Making You Tired</a></li>
+        <li><a href="sleep-chronotypes.html">Sleep Chronotypes: Are You a Morning Lark or Night Owl?</a></li>
+      </ul>
+    </div>
+  </article>
+
+  <footer>
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a class="logo" href="../">SleepWise<span>Reviews</span></a>
+        <p>Honest, science-backed reviews to help you sleep deeper, recover faster, and wake up energized.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Reviews</h4>
+        <ul>
+          <li><a href="https://www.amazon.com/s?k=weighted+blanket&tag=sleepwiserevi-20" target="_blank">Weighted Blankets</a></li>
+          <li><a href="https://www.amazon.com/s?k=white+noise+machine&tag=sleepwiserevi-20" target="_blank">White Noise Machines</a></li>
+          <li><a href="https://www.amazon.com/s?k=sleep+supplements&tag=sleepwiserevi-20" target="_blank">Supplements</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Guides</h4>
+        <ul>
+          <li><a href="../#picks">Sleep Optimization</a></li>
+          <li><a href="../#reviews">Bedtime Routines</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Site</h4>
+        <ul>
+          <li><a href="../pages/about.html">About Harry Soul</a></li>
+          <li><a href="../pages/privacy-policy.html">Privacy Policy</a></li>
+          <li><a href="../pages/affiliate-disclosure.html">Affiliate Disclosure</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div>© 2025 SleepWiseReviews. All rights reserved.</div>
+      <div class="affiliate-disc">SleepWiseReviews is a participant in the Amazon Services LLC Associates Program.</div>
+    </div>
+  </footer>
+</body>
+</html>
