@@ -1,0 +1,692 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>How to Buy a Mattress for Sleep (Not for Instagram) | SleepWiseReviews</title>
+  <meta name="description" content="Most people buy a mattress based on how it looks in a showroom — not how it performs during 8 hours of actual sleep. Here is what sleep science actually says." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --night: #0A0E1A;
+      --deep: #0F1525;
+      --navy: #141B30;
+      --card: #1A2238;
+      --border: #252D45;
+      --gold: #C9A84C;
+      --gold-light: #E5C96A;
+      --gold-dim: rgba(201,168,76,0.15);
+      --star: #F0E6C8;
+      --text: #D4DCEE;
+      --muted: #7A85A0;
+      --green: #4CAF82;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background-color: var(--night);
+      color: var(--text);
+      font-family: 'Outfit', sans-serif;
+      font-size: 17px;
+      line-height: 1.75;
+      min-height: 100vh;
+      position: relative;
+    }
+
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      background: radial-gradient(ellipse at 20% 10%, rgba(201,168,76,0.06) 0%, transparent 55%),
+                  radial-gradient(ellipse at 80% 85%, rgba(76,175,130,0.04) 0%, transparent 50%);
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    /* HEADER */
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(10,14,26,0.92);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+      padding: 0 1.5rem;
+    }
+
+    .header-inner {
+      max-width: 900px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 56px;
+    }
+
+    .site-logo {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: var(--gold);
+      text-decoration: none;
+      letter-spacing: 0.03em;
+    }
+
+    nav a {
+      color: var(--muted);
+      text-decoration: none;
+      font-size: 0.85rem;
+      margin-left: 1.5rem;
+      transition: color 0.2s;
+    }
+
+    nav a:hover { color: var(--gold-light); }
+
+    /* LAYOUT */
+    main {
+      position: relative;
+      z-index: 1;
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 3rem 1.5rem 5rem;
+    }
+
+    /* BADGE */
+    .badge {
+      display: inline-block;
+      background: var(--gold-dim);
+      border: 1px solid var(--gold);
+      color: var(--gold-light);
+      font-size: 0.72rem;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      padding: 0.25rem 0.75rem;
+      border-radius: 999px;
+      margin-bottom: 1rem;
+    }
+
+    /* TITLE */
+    h1 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(2rem, 5vw, 2.9rem);
+      font-weight: 700;
+      color: var(--star);
+      line-height: 1.2;
+      margin-bottom: 1rem;
+    }
+
+    .date-meta {
+      font-size: 0.85rem;
+      color: var(--muted);
+      margin-bottom: 2rem;
+    }
+
+    /* HOOK */
+    .hook {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.25rem;
+      font-style: italic;
+      color: var(--star);
+      border-left: 3px solid var(--gold);
+      padding-left: 1.25rem;
+      margin-bottom: 2.5rem;
+      line-height: 1.6;
+    }
+
+    /* HEADINGS */
+    h2 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.7rem;
+      font-weight: 600;
+      color: var(--gold-light);
+      margin: 2.5rem 0 0.75rem;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 0.4rem;
+    }
+
+    h3 {
+      font-family: 'Outfit', sans-serif;
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: var(--star);
+      margin: 1.75rem 0 0.4rem;
+    }
+
+    p { margin-bottom: 1rem; }
+
+    /* TAKEAWAY BOX */
+    .takeaway {
+      border: 1px solid var(--green);
+      background: rgba(76,175,130,0.07);
+      border-radius: 8px;
+      padding: 1.25rem 1.5rem;
+      margin: 2rem 0;
+    }
+
+    .takeaway-label {
+      font-size: 0.72rem;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--green);
+      margin-bottom: 0.5rem;
+    }
+
+    .takeaway p {
+      color: var(--text);
+      margin: 0;
+      font-size: 0.97rem;
+    }
+
+    /* CALLOUT */
+    .callout {
+      background: var(--deep);
+      border: 1px solid var(--border);
+      border-left: 3px solid var(--gold);
+      border-radius: 6px;
+      padding: 1rem 1.25rem;
+      margin: 1.5rem 0;
+      font-size: 0.93rem;
+      color: var(--muted);
+    }
+
+    .callout strong { color: var(--star); }
+
+    /* FIRMNESS GRID */
+    .firmness-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(190px, 1fr));
+      gap: 1rem;
+      margin: 1.5rem 0 2rem;
+    }
+
+    .firmness-card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1.25rem;
+      transition: border-color 0.2s;
+    }
+
+    .firmness-card:hover { border-color: var(--gold); }
+
+    .firmness-level {
+      font-size: 1.4rem;
+      font-family: 'Cormorant Garamond', serif;
+      font-weight: 700;
+      color: var(--gold-light);
+      margin-bottom: 0.3rem;
+    }
+
+    .firmness-title {
+      font-size: 0.85rem;
+      font-weight: 600;
+      color: var(--star);
+      margin-bottom: 0.5rem;
+    }
+
+    .firmness-desc {
+      font-size: 0.82rem;
+      color: var(--muted);
+      line-height: 1.5;
+    }
+
+    /* CHECKLIST */
+    .checklist {
+      list-style: none;
+      margin: 1rem 0 1.5rem;
+      padding: 0;
+    }
+
+    .checklist li {
+      display: flex;
+      align-items: flex-start;
+      gap: 0.65rem;
+      padding: 0.5rem 0;
+      border-bottom: 1px solid var(--border);
+      font-size: 0.93rem;
+      color: var(--text);
+    }
+
+    .checklist li:last-child { border-bottom: none; }
+
+    .checklist li::before {
+      content: '✓';
+      color: var(--green);
+      font-weight: 700;
+      flex-shrink: 0;
+      margin-top: 0.05rem;
+    }
+
+    /* PRODUCT CTA */
+    .product-cta {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-top: 3px solid var(--gold);
+      border-radius: 10px;
+      padding: 1.5rem;
+      margin: 2rem 0;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 0.75rem;
+    }
+
+    .product-cta-label {
+      font-size: 0.72rem;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--gold);
+    }
+
+    .product-cta-title {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: var(--star);
+    }
+
+    .product-cta-desc {
+      font-size: 0.88rem;
+      color: var(--muted);
+      line-height: 1.6;
+    }
+
+    .cta-btn {
+      display: inline-block;
+      background: linear-gradient(135deg, var(--gold), var(--gold-light));
+      color: var(--night);
+      font-family: 'Outfit', sans-serif;
+      font-size: 0.92rem;
+      font-weight: 700;
+      text-decoration: none;
+      padding: 0.75rem 1.75rem;
+      border-radius: 6px;
+      letter-spacing: 0.04em;
+      transition: opacity 0.2s, transform 0.15s;
+    }
+
+    .cta-btn:hover { opacity: 0.88; transform: translateY(-1px); }
+
+    .cta-note {
+      font-size: 0.75rem;
+      color: var(--muted);
+    }
+
+    /* AUTHOR BOX */
+    .author-box {
+      background: var(--navy);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 1.25rem 1.5rem;
+      margin: 2.5rem 0;
+      display: flex;
+      gap: 1rem;
+      align-items: flex-start;
+    }
+
+    .author-avatar {
+      width: 52px;
+      height: 52px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, var(--gold-dim), var(--navy));
+      border: 2px solid var(--gold);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.4rem;
+      font-weight: 700;
+      color: var(--gold-light);
+      flex-shrink: 0;
+    }
+
+    .author-info .author-name {
+      font-weight: 600;
+      color: var(--star);
+      font-size: 0.95rem;
+    }
+
+    .author-info .author-bio {
+      font-size: 0.82rem;
+      color: var(--muted);
+      margin-top: 0.2rem;
+      line-height: 1.5;
+    }
+
+    /* DISCLOSURE */
+    .disclosure-box {
+      background: rgba(201,168,76,0.05);
+      border: 1px solid rgba(201,168,76,0.2);
+      border-radius: 6px;
+      padding: 0.85rem 1.1rem;
+      margin-bottom: 2rem;
+      font-size: 0.78rem;
+      color: var(--muted);
+      line-height: 1.55;
+    }
+
+    .disclosure-box strong { color: var(--gold); }
+
+    /* ARTICLE CTA */
+    .article-cta {
+      background: linear-gradient(135deg, rgba(201,168,76,0.08), rgba(76,175,130,0.05));
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 1.75rem;
+      margin: 2.5rem 0;
+      text-align: center;
+    }
+
+    .article-cta h3 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.35rem;
+      color: var(--star);
+      margin-bottom: 0.5rem;
+    }
+
+    .article-cta p {
+      font-size: 0.88rem;
+      color: var(--muted);
+      margin-bottom: 1rem;
+    }
+
+    /* RELATED ARTICLES */
+    .related-articles {
+      margin: 2.5rem 0;
+    }
+
+    .related-articles h3 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.3rem;
+      color: var(--gold-light);
+      margin-bottom: 1rem;
+      font-weight: 600;
+    }
+
+    .related-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 0.85rem;
+    }
+
+    .related-card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1rem 1.1rem;
+      text-decoration: none;
+      transition: border-color 0.2s;
+      display: block;
+    }
+
+    .related-card:hover { border-color: var(--gold); }
+
+    .related-card-label {
+      font-size: 0.68rem;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: var(--gold);
+      margin-bottom: 0.3rem;
+    }
+
+    .related-card-title {
+      font-size: 0.9rem;
+      color: var(--star);
+      font-weight: 500;
+      line-height: 1.4;
+    }
+
+    /* CITE */
+    cite {
+      font-style: normal;
+      color: var(--gold);
+      font-size: 0.9em;
+    }
+
+    /* FOOTER */
+    footer {
+      position: relative;
+      z-index: 1;
+      border-top: 1px solid var(--border);
+      background: var(--deep);
+      padding: 2rem 1.5rem;
+      text-align: center;
+      font-size: 0.8rem;
+      color: var(--muted);
+    }
+
+    footer a { color: var(--gold); text-decoration: none; }
+
+    @media (max-width: 600px) {
+      .author-box { flex-direction: column; }
+      .related-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- STICKY HEADER -->
+  <header>
+    <div class="header-inner">
+      <a href="/" class="site-logo">SleepWiseReviews</a>
+      <nav>
+        <a href="/">Home</a>
+        <a href="/reviews">Reviews</a>
+        <a href="/guides">Guides</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- DISCLOSURE -->
+    <div class="disclosure-box">
+      <strong>Disclosure:</strong> SleepWiseReviews participates in the Amazon Associates program. Links on this page may be affiliate links — we earn a small commission on qualifying purchases at no extra cost to you. Our editorial recommendations are independent of affiliate relationships.
+    </div>
+
+    <span class="badge">Sleep Guide</span>
+
+    <h1>How to Buy a Mattress for Sleep (Not for Instagram)</h1>
+
+    <p class="date-meta">📅 November 2024 · ⏱ 8 min read · 🔄 Updated Mar 2026</p>
+
+    <p class="hook">Mattress companies spend billions on marketing. The result is that most people buy a mattress based on how it looks in a showroom — not how it will perform during 8 hours of actual sleep.</p>
+
+    <p>That gap between showroom appeal and real-world performance is where most mattress regret lives. You lie on a mattress for ninety seconds under fluorescent lights, it feels fine, and you spend a thousand dollars. Six months later, you are waking up stiff, sleeping hot, or dreading bedtime. This guide explains what actually matters when choosing a mattress — from the physiological basics of sleep surfaces to the specific tests you can run before committing.</p>
+
+    <!-- AUTHOR BOX -->
+    <div class="author-box">
+      <div class="author-avatar">H</div>
+      <div class="author-info">
+        <div class="author-name">Harry Soul</div>
+        <div class="author-bio">Sleep researcher and wellness writer. Harry covers sleep science, circadian biology, and evidence-based sleep environment optimization for SleepWiseReviews.</div>
+      </div>
+    </div>
+
+    <!-- SECTION 1: SLEEP SCIENCE -->
+    <h2>What Sleep Science Actually Says About Mattresses</h2>
+
+    <p>Your mattress affects sleep quality through three distinct physiological pathways: spinal alignment, pressure distribution, and thermoregulation. These are not marketing claims — they are mechanisms with measurable effects on sleep architecture, including how much time you spend in the deep, restorative stages of sleep.</p>
+
+    <h3>Spinal Alignment</h3>
+    <p>During sleep, your spine needs to maintain roughly the same neutral curve it holds when you are standing with good posture. A mattress that is too soft allows the hips to sink too deeply, creating a C-curve in the lumbar spine. A mattress that is too firm prevents the shoulders and hips from sinking enough, pushing the spine into a flat or stressed position. Either scenario activates the muscles along the spine throughout the night, leading to micro-arousals — brief wakings too short to remember but long enough to fragment your sleep architecture.</p>
+
+    <h3>Pressure Distribution</h3>
+    <p>Prolonged pressure on soft tissue — particularly at bony prominences like hips, shoulders, and knees — triggers a physiological response that causes you to shift position. This is normal and necessary to prevent tissue damage, but a mattress with poor pressure relief causes this shifting to happen more frequently and more urgently, pulling you out of deeper sleep stages. As Shawn Stevenson documents in his research synthesis on sleep environment, even minor improvements to sleep surface pressure relief can translate to measurable improvements in slow-wave sleep depth <cite>(Stevenson, 2016)</cite>.</p>
+
+    <h3>Thermoregulation</h3>
+    <p>Your core body temperature needs to drop by approximately 1 to 1.5 degrees Celsius to initiate and sustain deep sleep. Your mattress either helps or hinders that drop. Dense foam mattresses — particularly all-foam or memory foam constructions without cooling technology — trap body heat at the sleep surface, creating a thermal environment that works against your body's natural sleep-inducing temperature decline. Innerspring and hybrid mattresses allow more airflow. Latex sleeps cooler than foam. Thermoregulation is one of the most underrated mattress selection criteria, yet it directly gates how deeply you sleep.</p>
+
+    <div class="takeaway">
+      <div class="takeaway-label">Key Takeaway</div>
+      <p>The mattress that helps you sleep best is the one that keeps your spine neutral in your primary sleep position, reduces pressure at your body's contact points, and does not impede your core temperature drop. None of these qualities are visible from across a showroom. You have to test for them deliberately.</p>
+    </div>
+
+    <!-- GREEN CALLOUT -->
+    <div class="callout" style="border-left:3px solid var(--green)">💚 <strong>Tonight's action:</strong> Check your current mattress by lying in your normal sleep position. If your spine is not neutral, or you feel pressure points within 10 minutes, your mattress is affecting your sleep quality — regardless of how much you paid for it.</div>
+
+    <!-- SECTION 2: FIRMNESS MYTHS -->
+    <h2>The Firmness Myths That Cost People Sleep</h2>
+
+    <p>No single topic in mattress marketing is more distorted than firmness. The industry has standardized a 1–10 firmness scale, but that scale measures subjective surface feel — not spinal support, not pressure relief, and not sleep quality. Here are the three biggest firmness myths worth knowing before you shop.</p>
+
+    <h3>Myth 1: Firmer is better for your back</h3>
+    <p>This belief traces back to older orthopedic guidance that has since been substantially revised. A 2003 study published in The Lancet — frequently cited in sleep and pain research — found that medium-firm mattresses outperformed firm mattresses for lower back pain relief and sleep quality in participants with chronic back pain. Firmness needs to match body weight and sleep position. A 140-pound side sleeper and a 220-pound back sleeper have entirely different optimal firmness points, even if both have lower back discomfort.</p>
+
+    <h3>Myth 2: Softness means comfort</h3>
+    <p>A very soft mattress can feel luxurious in a showroom and genuinely uncomfortable after an hour of actual sleep. When the sleep surface has insufficient support, your spine sags, your muscles engage to compensate, and you wake up feeling like you did not rest. The "cloud-like" feeling that sells mattresses is not the same as the spinal support that restores sleep. Many people who buy very soft mattresses end up purchasing a firmer topper within a year — which is an expensive correction of a preventable mistake.</p>
+
+    <h3>Myth 3: Your mattress firmness preference is fixed</h3>
+    <p>Optimal firmness changes with age, weight, injury, and sleep position. People who sleep predominantly on their side typically need a softer surface to accommodate hip and shoulder pressure relief. Back sleepers need more support. Combination sleepers — those who shift between positions throughout the night — tend to do best in the medium range (5–6 on a 10-point scale). If you have changed sleep positions due to injury or aging, your previous mattress preference may no longer be valid.</p>
+
+    <div class="firmness-grid">
+      <div class="firmness-card">
+        <div class="firmness-level">3–4/10</div>
+        <div class="firmness-title">Soft</div>
+        <div class="firmness-desc">Best for lighter-weight side sleepers (under 130 lbs) who need deep shoulder and hip contouring for spinal alignment.</div>
+      </div>
+      <div class="firmness-card">
+        <div class="firmness-level">5–6/10</div>
+        <div class="firmness-title">Medium</div>
+        <div class="firmness-desc">The most versatile range. Works for most combination sleepers and average-weight side and back sleepers.</div>
+      </div>
+      <div class="firmness-card">
+        <div class="firmness-level">7–8/10</div>
+        <div class="firmness-title">Firm</div>
+        <div class="firmness-desc">Suited to back and stomach sleepers, heavier individuals (over 230 lbs), and those who find softer surfaces feel unstable.</div>
+      </div>
+    </div>
+
+    <div class="callout">
+      <strong>The real test:</strong> Lie on your side on the mattress and have someone look at your spine from behind. It should form a straight line from neck to pelvis. If it curves upward (mattress too firm) or droops (mattress too soft), the firmness is wrong for your body — regardless of how the surface feels to your hands.
+    </div>
+
+    <!-- SECTION 3: TEMPERATURE -->
+    <h2>Temperature Matters More Than You Think</h2>
+
+    <p>Sleep scientists measure sleep quality partly through temperature: the rate at which your core body temperature drops at sleep onset, and whether that temperature stays low throughout the night. A mattress that traps heat at the surface slows this drop and can cause early morning wakings as the body's temperature begins to rise again during REM sleep. For hot sleepers, this is not a comfort issue — it is a sleep architecture issue that affects cognitive function the following day.</p>
+
+    <h3>The foam problem</h3>
+    <p>Memory foam in its standard form is a closed-cell material. Heat cannot escape laterally through the structure — it accumulates at the surface near your body. Even gel infusion, while genuinely helpful in the first few hours, reaches saturation at body temperature and stops actively cooling. If you have woken up in the middle of the night feeling too warm on a foam mattress, this is the mechanism at work.</p>
+
+    <h3>What actually sleeps cooler</h3>
+    <p>Innerspring and hybrid mattresses allow airflow through the coil layer, which makes a meaningful temperature difference — particularly if you share a bed and generate more combined body heat. Natural latex has an open-cell structure that permits passive airflow and does not accumulate heat the way foam does. Phase-change material (PCM) covers or integrated PCM layers in premium hybrid mattresses provide the most active thermal regulation by absorbing heat as they transition states at skin temperature.</p>
+
+    <h3>The room temperature factor</h3>
+    <p>Even the best cooling mattress cannot fully compensate for a bedroom that is too warm. Sleep research consistently identifies 65–68°F (18–20°C) as the optimal bedroom temperature range for deep sleep. If your room runs warmer than this, your mattress selection should weight cooling properties significantly more heavily than it otherwise would — and no amount of mattress engineering will fully substitute for lowering the room temperature.</p>
+
+    <div class="takeaway">
+      <div class="takeaway-label">Temperature Checklist</div>
+      <p>Hot sleepers should prioritize: innerspring or hybrid construction over all-foam; latex over memory foam; PCM or copper-infused covers; and mattresses with verified airflow certifications — not just marketing language about "cooling technology."</p>
+    </div>
+
+    <!-- SECTION 4: HOW TO TEST -->
+    <h2>How to Test a Mattress Before Buying</h2>
+
+    <p>The ninety-second showroom test tells you almost nothing useful about how a mattress will perform over eight hours. Here is how to actually evaluate a mattress — whether in a showroom, during a trial period, or when assessing your current mattress.</p>
+
+    <h3>The 15-minute position test</h3>
+    <p>Lie in your actual primary sleep position for a minimum of fifteen minutes — not on your back unless that is genuinely how you sleep. Notice: Does the mattress accommodate your shoulder width without creating neck tension? Does your lower back feel supported or slightly hollow? Are there specific pressure points at the hip, knee, or ankle that start to register within the first ten minutes? These are the sensations that will repeat every night.</p>
+
+    <h3>The spine-neutral check</h3>
+    <p>Ask a companion to check your spinal alignment from behind while you lie in your sleep position. A truly neutral spine runs straight from the base of the skull through the tailbone. Most people cannot evaluate this themselves — but it is the single most reliable indicator of whether a mattress is the right firmness for their body.</p>
+
+    <h3>The edge support test</h3>
+    <p>Sit on the edge of the mattress. If you sink dramatically or feel unstable, the edge support is weak — this affects how much usable sleep surface you have and how easy it is to get in and out of bed. Poor edge support also tends to correlate with accelerated sagging in the comfort layers over time.</p>
+
+    <h3>The motion transfer test</h3>
+    <p>If you share a bed, this matters. Place a glass of water on one side of the mattress and press firmly on the other side. The amount of water movement indicates how much motion transfers across the bed. Memory foam and latex minimize this; innerspring without individual pocketed coils performs worst. Pocketed coil hybrids occupy a middle ground, generally better than connected coils but not as isolated as dense foam.</p>
+
+    <ul class="checklist">
+      <li>Spend at least 15 minutes in your primary sleep position — not just a few seconds on your back</li>
+      <li>Check spine neutrality with a companion's eyes, not just your own judgment</li>
+      <li>Test edge support by sitting on the perimeter</li>
+      <li>Run a motion transfer test if you share a bed</li>
+      <li>Confirm the trial period length before buying (100–365 nights is now standard from reputable brands)</li>
+      <li>Verify return/exchange policy — free returns, not store credit only</li>
+      <li>Ask about off-gassing: new foam mattresses can emit VOCs for several days, plan for ventilation</li>
+    </ul>
+
+    <!-- PRODUCT CTA -->
+    <div class="product-cta">
+      <div class="product-cta-label">Recommended Upgrade</div>
+      <div class="product-cta-title">Memory Foam Mattress Toppers — Extend or Improve Any Mattress</div>
+      <div class="product-cta-desc">If your mattress is structurally sound but not quite right — too firm, too warm, or losing its original comfort — a quality memory foam topper is often the highest-ROI sleep upgrade available. It adjusts your sleep surface without a four-figure replacement purchase.</div>
+      <a href="https://www.amazon.com/s?k=memory+foam+mattress+topper+sleep&tag=sleepwiserevi-20" target="_blank" rel="noopener noreferrer" class="cta-btn">
+        Browse Mattress Toppers on Amazon &rarr;
+      </a>
+      <div class="cta-note">As an Amazon Associate, SleepWiseReviews earns from qualifying purchases at no extra cost to you.</div>
+    </div>
+
+    <!-- SECTION 5: CONSTRUCTION -->
+    <h2>Mattress Construction Types — Matched to Sleep Needs</h2>
+
+    <p>The internal construction of a mattress determines its support characteristics, longevity, and thermal behavior far more reliably than the marketing tier it sits in. There are four main construction types worth understanding.</p>
+
+    <h3>All-Foam</h3>
+    <p>Layers of foam — typically a high-density base with memory foam or polyfoam comfort layers. Excellent pressure relief and motion isolation. The primary trade-offs are heat retention and edge support. Best for: side sleepers, light-weight individuals, couples with different schedules who need motion isolation.</p>
+
+    <h3>Innerspring</h3>
+    <p>A coil support system with a thin comfort layer on top. Excellent airflow, strong edge support, and responsive feel. Weaker on pressure relief and motion isolation (particularly connected coil systems). Best for: stomach sleepers, hot sleepers, those who prefer a traditional bouncy feel.</p>
+
+    <h3>Hybrid</h3>
+    <p>Pocketed coil support system topped with substantial foam or latex comfort layers (typically 2–4 inches). Combines the airflow and edge support of innerspring with the pressure relief of foam or latex. The most versatile construction type for most sleepers. Best for: combination sleepers, couples, those who want foam comfort without all-foam heat.</p>
+
+    <h3>Latex</h3>
+    <p>All-latex or latex-over-coil construction. Natural latex is the most durable mattress material available — quality all-latex mattresses routinely last 15–20 years. Responsive, pressure-relieving, naturally cooling, hypoallergenic. Premium price point. Best for: those prioritizing longevity, hot sleepers, eco-conscious buyers, those with foam chemical sensitivities.</p>
+
+    <!-- ARTICLE CTA -->
+    <div class="article-cta">
+      <h3>Not Ready for a New Mattress?</h3>
+      <p>A quality mattress topper can address firmness, temperature, and pressure relief on your existing mattress at a fraction of the cost of replacement. Read our full guide to the best mattress toppers for sleep.</p>
+      <a href="/posts/best-mattress-toppers.html" class="cta-btn">Read the Mattress Topper Guide &rarr;</a>
+    </div>
+
+    <!-- REFERENCE + DISCLOSURE -->
+    <p style="font-size:0.82rem; color:var(--muted); margin-top:2.5rem; border-top:1px solid var(--border); padding-top:1rem;">
+      <strong style="color:var(--star);">Reference:</strong> Stevenson, S. (2016). <em>Sleep Smarter: 21 Essential Strategies to Sleep Your Way to a Better Body, Better Health, and Bigger Success.</em> Rodale Books.
+    </p>
+
+    <p style="font-size:0.78rem; color:var(--muted); margin-top:0.75rem;">
+      <em>This article is for informational purposes only and does not constitute medical advice. If you have a diagnosed sleep disorder, musculoskeletal condition, or chronic pain, consult a qualified healthcare provider before making changes to your sleep environment.</em>
+    </p>
+
+    <!-- RELATED ARTICLES -->
+    <div class="related-articles">
+      <h3>Related Reading</h3>
+      <div class="related-grid">
+        <a href="/posts/best-mattress-toppers.html" class="related-card">
+          <div class="related-card-label">Product Review</div>
+          <div class="related-card-title">Best Mattress Toppers for Better Sleep (2026)</div>
+        </a>
+        <a href="/posts/bedroom-temperature-sleep.html" class="related-card">
+          <div class="related-card-label">Sleep Science</div>
+          <div class="related-card-title">The Ideal Bedroom Temperature for Deep Sleep</div>
+        </a>
+        <a href="/posts/best-sleep-position.html" class="related-card">
+          <div class="related-card-label">Sleep Guide</div>
+          <div class="related-card-title">Best Sleep Positions for Spinal Health</div>
+        </a>
+        <a href="/posts/sleep-environment-optimization.html" class="related-card">
+          <div class="related-card-label">Sleep Environment</div>
+          <div class="related-card-title">How to Optimize Your Sleep Environment</div>
+        </a>
+      </div>
+    </div>
+
+  </main>
+
+  <footer>
+    <p>&copy; 2026 SleepWiseReviews &nbsp;&middot;&nbsp; <a href="/">Home</a> &nbsp;&middot;&nbsp; <a href="/privacy">Privacy</a> &nbsp;&middot;&nbsp; <a href="/contact">Contact</a></p>
+    <p style="margin-top:0.4rem;">Evidence-informed sleep guidance. Not medical advice.</p>
+  </footer>
+
+</body>
+</html>
