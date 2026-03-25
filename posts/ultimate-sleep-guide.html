@@ -1,0 +1,613 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>The Complete Sleep Optimization Master Guide - SleepWiseReviews</title>
+  <meta name="description" content="The definitive, science-backed guide to optimizing your sleep — from understanding your 90-minute cycles to fixing your environment, habits, and mindset for the best rest of your life." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <style type='text/css'>
+    :root {
+      --night: #0A0E1A;
+      --deep: #0F1525;
+      --navy: #141B30;
+      --card: #1A2238;
+      --border: #252D45;
+      --gold: #C9A84C;
+      --gold-light: #E5C96A;
+      --gold-dim: rgba(201, 168, 76, 0.15);
+      --star: #F0E6C8;
+      --text: #D4DCEE;
+      --muted: #7A85A0;
+      --white: #FFFFFF;
+      --green: #4CAF82;
+    }
+
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: 'Outfit', sans-serif;
+      background: var(--night);
+      color: var(--text);
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      background-image:
+        radial-gradient(1px 1px at 10% 15%, rgba(240, 230, 200, 0.6) 0%, transparent 100%),
+        radial-gradient(1px 1px at 25% 40%, rgba(240, 230, 200, 0.4) 0%, transparent 100%),
+        radial-gradient(1.5px 1.5px at 40% 10%, rgba(240, 230, 200, 0.5) 0%, transparent 100%),
+        radial-gradient(1px 1px at 55% 30%, rgba(240, 230, 200, 0.3) 0%, transparent 100%),
+        radial-gradient(1px 1px at 70% 5%, rgba(240, 230, 200, 0.6) 0%, transparent 100%),
+        radial-gradient(1.5px 1.5px at 80% 20%, rgba(240, 230, 200, 0.4) 0%, transparent 100%),
+        radial-gradient(1px 1px at 90% 45%, rgba(240, 230, 200, 0.3) 0%, transparent 100%);
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    nav {
+      position: sticky; top: 0; z-index: 100;
+      background: rgba(10, 14, 26, 0.92);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+      padding: 0 6%; height: 68px;
+      display: flex; align-items: center; justify-content: space-between;
+    }
+    .logo { font-family: 'Cormorant Garamond', serif; font-size: 1.6rem; font-weight: 700; color: var(--star); text-decoration: none; }
+    .logo span { color: var(--gold); }
+    .nav-links { display: flex; gap: 2rem; list-style: none; }
+    .nav-links a { text-decoration: none; color: var(--muted); font-size: 0.88rem; font-weight: 500; transition: color 0.2s; }
+    .nav-links a:hover { color: var(--gold); }
+    .nav-cta { background: var(--gold-dim); color: var(--gold) !important; border: 1px solid rgba(201, 168, 76, 0.3); padding: 7px 16px; border-radius: 4px; }
+
+    .article-wrapper {
+      position: relative; z-index: 1;
+      max-width: 800px; margin: 0 auto; padding: 50px 6% 80px;
+    }
+    .article-meta-top { display: flex; flex-wrap: wrap; align-items: center; gap: 0.8rem; margin-bottom: 1.2rem; }
+    .tag { background: var(--gold); color: var(--night); padding: 5px 12px; border-radius: 4px; font-size: 0.72rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; }
+    .tag-secondary { background: var(--gold-dim); color: var(--gold); border: 1px solid rgba(201,168,76,0.3); padding: 5px 12px; border-radius: 4px; font-size: 0.72rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; }
+    .meta-text { color: var(--muted); font-size: 0.82rem; }
+    .article-wrapper h1 { font-family: 'Cormorant Garamond', serif; font-size: 2.6rem; font-weight: 700; color: var(--star); line-height: 1.18; margin-bottom: 1.2rem; }
+    .article-intro { font-size: 1.12rem; color: var(--text); line-height: 1.75; margin-bottom: 2rem; font-weight: 300; }
+    .author-box { display: flex; align-items: center; gap: 1rem; margin-bottom: 1.5rem; padding: 1rem; background: var(--card); border-radius: 8px; border: 1px solid var(--border); }
+    .author-avatar { font-size: 2.5rem; }
+    .author-name { color: var(--star); font-weight: 500; }
+    .author-name a { color: var(--gold); text-decoration: none; }
+    .author-role { color: var(--muted); font-size: 0.82rem; }
+    .disclosure-box { background: rgba(201, 168, 76, 0.08); border: 1px solid rgba(201, 168, 76, 0.2); border-radius: 8px; padding: 1rem 1.2rem; font-size: 0.82rem; color: var(--muted); margin-bottom: 2rem; }
+
+    .toc { background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 1.5rem 2rem; margin: 2rem 0 2.5rem; }
+    .toc h4 { font-family: 'Cormorant Garamond', serif; font-size: 1.05rem; color: var(--star); margin-bottom: 1rem; letter-spacing: 0.04em; }
+    .toc ol { margin-left: 1.2rem; }
+    .toc li { margin-bottom: 0.45rem; font-size: 0.9rem; }
+    .toc a { color: var(--gold); text-decoration: none; }
+    .toc a:hover { text-decoration: underline; }
+
+    .article-wrapper h2 { font-family: 'Cormorant Garamond', serif; font-size: 1.75rem; font-weight: 600; color: var(--star); margin: 3rem 0 1rem; padding-top: 1rem; border-top: 1px solid var(--border); }
+    .article-wrapper h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.25rem; color: var(--gold-light); margin: 1.8rem 0 0.8rem; }
+    .article-wrapper p { margin-bottom: 1.1rem; font-weight: 300; line-height: 1.85; }
+    .article-wrapper ul, .article-wrapper ol { margin: 1rem 0 1.5rem 1.5rem; }
+    .article-wrapper li { margin-bottom: 0.6rem; font-weight: 300; line-height: 1.7; }
+    .article-wrapper strong { color: var(--star); font-weight: 500; }
+    .article-wrapper em { color: var(--gold-light); font-style: italic; }
+
+    .callout {
+      background: var(--card);
+      border-left: 3px solid var(--gold);
+      padding: 1.1rem 1.5rem;
+      margin: 1.8rem 0;
+      border-radius: 0 8px 8px 0;
+      font-size: 0.93rem;
+      line-height: 1.75;
+    }
+    .callout.green {
+      border-left-color: var(--green);
+      background: rgba(76, 175, 130, 0.07);
+    }
+    .callout.research {
+      border-left-color: var(--muted);
+      background: rgba(122, 133, 160, 0.08);
+    }
+
+    .stages-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin: 1.5rem 0; }
+    .stage-card { background: var(--card); border: 1px solid var(--border); border-radius: 8px; padding: 1.2rem; }
+    .stage-label { font-size: 0.7rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.1em; color: var(--gold); margin-bottom: 0.4rem; }
+    .stage-name { font-family: 'Cormorant Garamond', serif; font-size: 1.1rem; color: var(--star); margin-bottom: 0.5rem; }
+    .stage-desc { font-size: 0.85rem; color: var(--muted); line-height: 1.6; font-weight: 300; }
+
+    .supplement-table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; font-size: 0.88rem; }
+    .supplement-table th { background: var(--navy); color: var(--gold); font-weight: 600; text-transform: uppercase; letter-spacing: 0.06em; font-size: 0.75rem; padding: 10px 14px; text-align: left; border-bottom: 2px solid var(--border); }
+    .supplement-table td { padding: 10px 14px; border-bottom: 1px solid var(--border); color: var(--text); font-weight: 300; vertical-align: top; }
+    .supplement-table tr:hover td { background: rgba(201,168,76,0.04); }
+    .verdict-works { color: var(--green); font-weight: 500; }
+    .verdict-weak { color: var(--gold); font-weight: 500; }
+    .verdict-no { color: #E57373; font-weight: 500; }
+
+    .product-cta { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 1.5rem 2rem; margin: 2.5rem 0; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; }
+    .product-cta-text strong { color: var(--star); display: block; margin-bottom: 0.3rem; font-size: 1.05rem; }
+    .product-cta-text span { color: var(--muted); font-size: 0.85rem; }
+    .btn-amazon { background: var(--gold); color: var(--night); text-decoration: none; padding: 11px 22px; border-radius: 6px; font-weight: 600; font-size: 0.88rem; transition: background 0.2s; white-space: nowrap; }
+    .btn-amazon:hover { background: var(--gold-light); }
+
+    .article-cta { background: linear-gradient(135deg, var(--card), var(--navy)); border: 1px solid var(--border); border-radius: 12px; padding: 2.2rem; text-align: center; margin: 3rem 0; }
+    .article-cta h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.5rem; color: var(--star); margin-bottom: 0.8rem; }
+    .article-cta p { color: var(--muted); margin-bottom: 1.3rem; font-size: 0.95rem; }
+
+    .related-articles { margin: 3rem 0; }
+    .related-articles h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.3rem; color: var(--star); margin-bottom: 1.2rem; }
+    .related-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 0.8rem; }
+    .related-card { background: var(--card); border: 1px solid var(--border); border-radius: 8px; padding: 1rem 1.2rem; }
+    .related-card a { color: var(--gold); text-decoration: none; font-size: 0.9rem; font-weight: 500; }
+    .related-card a:hover { text-decoration: underline; }
+    .related-card p { color: var(--muted); font-size: 0.78rem; margin-top: 0.3rem; margin-bottom: 0; }
+
+    .references { margin: 2.5rem 0; padding: 1.5rem; background: var(--card); border-radius: 8px; border: 1px solid var(--border); }
+    .references h4 { font-family: 'Cormorant Garamond', serif; font-size: 1rem; color: var(--star); margin-bottom: 1rem; }
+    .references p { font-size: 0.8rem; color: var(--muted); margin-bottom: 0.5rem; line-height: 1.6; }
+
+    footer { background: #060912; border-top: 1px solid var(--border); padding: 50px 6% 30px; }
+    .footer-top { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 3rem; margin-bottom: 3rem; padding-bottom: 3rem; border-bottom: 1px solid var(--border); }
+    .footer-brand p { color: var(--muted); font-size: 0.82rem; margin-top: 0.8rem; line-height: 1.6; font-weight: 300; max-width: 260px; }
+    .footer-col h4 { font-size: 0.78rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--gold); margin-bottom: 1rem; }
+    .footer-col ul { list-style: none; display: flex; flex-direction: column; gap: 0.6rem; }
+    .footer-col a { color: var(--muted); text-decoration: none; font-size: 0.85rem; transition: color 0.2s; }
+    .footer-col a:hover { color: var(--gold); }
+    .footer-bottom { display: flex; justify-content: space-between; font-size: 0.78rem; color: var(--muted); flex-wrap: wrap; gap: 0.5rem; }
+    .affiliate-disc { font-size: 0.75rem; max-width: 600px; }
+
+    @media (max-width: 900px) {
+      .nav-links { display: none; }
+      .article-wrapper h1 { font-size: 2rem; }
+      .stages-grid { grid-template-columns: 1fr; }
+      .related-grid { grid-template-columns: 1fr; }
+      .footer-top { grid-template-columns: 1fr 1fr; }
+      .product-cta { flex-direction: column; }
+      .supplement-table { font-size: 0.8rem; }
+    }
+    @media (max-width: 600px) {
+      .article-wrapper { padding: 30px 5% 60px; }
+      .article-wrapper h1 { font-size: 1.7rem; }
+      .footer-top { grid-template-columns: 1fr; gap: 2rem; }
+    }
+  </style>
+</head>
+
+<body>
+  <nav>
+    <a class="logo" href="../">SleepWise<span>Reviews</span></a>
+    <ul class="nav-links">
+      <li><a href="../#picks">Top Picks</a></li>
+      <li><a href="../#reviews">Reviews</a></li>
+      <li><a href="../pages/about.html">About Harry</a></li>
+      <li><a href="../#newsletter" class="nav-cta">Free Sleep Guide</a></li>
+    </ul>
+  </nav>
+
+  <article class="article-wrapper">
+
+    <div class="article-meta-top">
+      <span class="tag">Master Guide</span>
+      <span class="tag-secondary">Sleep Science</span>
+      <span class="meta-text">📅 March 2025 · ⏱ 15 min read · 🔄 Updated Mar 2026</span>
+    </div>
+
+    <h1>The Complete Sleep Optimization Master Guide</h1>
+
+    <p class="article-intro">Everything we know about sleep — from the first 90-minute cycle to the last REM burst before dawn — points to the same conclusion: sleep is not a passive recovery state. It is the most active, complex biological process your body runs every night. This is the definitive guide to understanding it, fixing it, and protecting it for life.</p>
+
+    <div class="author-box">
+      <div class="author-avatar">😴</div>
+      <div class="author-info">
+        <div class="author-name">By <a href="../pages/about.html">Harry Soul</a> — SleepWiseReviews</div>
+        <div class="author-role">Independent Sleep Researcher · March 2025</div>
+      </div>
+    </div>
+
+    <div class="disclosure-box">
+      <strong>Affiliate Disclosure:</strong> This article contains affiliate links. We earn a small commission if you purchase through our links at no extra cost to you. All recommendations are based on independent research. <a href="../pages/affiliate-disclosure.html" style="color:var(--gold)">Full disclosure</a>
+    </div>
+
+    <nav class="toc">
+      <h4>Table of Contents</h4>
+      <ol>
+        <li><a href="#section-cycles">Understanding Your Sleep Cycles (N1, N2, N3, REM)</a></li>
+        <li><a href="#section-circadian">Your Circadian Rhythm — The Master Clock</a></li>
+        <li><a href="#section-environment">The Environment: Temperature, Light, Sound &amp; Mattress</a></li>
+        <li><a href="#section-habits">Habits That Make or Break Sleep</a></li>
+        <li><a href="#section-supplements">Supplements — What Works, What Doesn't</a></li>
+        <li><a href="#section-insomnia">When Sleep Won't Come — Anxiety, Insomnia &amp; CBT-I</a></li>
+        <li><a href="#section-special">Special Situations: Travel, Shift Work, Aging &amp; Hormones</a></li>
+        <li><a href="#section-tracking">Tracking Your Progress</a></li>
+      </ol>
+    </nav>
+
+    <!-- ===== SECTION 1 ===== -->
+    <h2 id="section-cycles">Section 1: Understanding Your Sleep Cycles — N1, N2, N3, and REM</h2>
+
+    <p>The single most important thing to understand about sleep is that it is not one continuous state — it is a series of distinct biological phases, each with its own brain wave signature, hormonal profile, and restoration function. Matthew Walker's landmark research synthesis in <em>Why We Sleep</em> (2017) describes the night as "a beautifully ordered choreography" of four distinct stages cycling roughly every 90 minutes (Walker, 2017).</p>
+
+    <p>The average adult needs 5 to 6 complete cycles per night — which is precisely why 7.5 to 9 hours of sleep is the scientifically supported target for most people. Cut your sleep short and you don't lose the last hour uniformly; you lose the stages concentrated at the end of the night, particularly REM sleep, which is disproportionately abundant in cycles 4, 5, and 6.</p>
+
+    <div class="stages-grid">
+      <div class="stage-card">
+        <div class="stage-label">Stage 1</div>
+        <div class="stage-name">N1 — Light Sleep</div>
+        <div class="stage-desc">Lasts 1–7 minutes. The bridge between wakefulness and sleep. Muscles twitch (hypnic jerks), brain produces theta waves. Easily disrupted — any noise or light can push you back to full wakefulness.</div>
+      </div>
+      <div class="stage-card">
+        <div class="stage-label">Stage 2</div>
+        <div class="stage-name">N2 — Core Sleep</div>
+        <div class="stage-desc">Lasts 10–25 minutes, grows longer in later cycles. Brain fires sleep spindles — bursts of rapid activity critical for motor learning and memory consolidation. Body temperature drops, heart rate decelerates.</div>
+      </div>
+      <div class="stage-card">
+        <div class="stage-label">Stage 3</div>
+        <div class="stage-name">N3 — Deep Sleep (SWS)</div>
+        <div class="stage-desc">Slow-wave sleep. Dominant in the first half of the night. Growth hormone peaks, immune cells mobilize, metabolic waste (including amyloid-beta, linked to Alzheimer's) is flushed via the glymphatic system.</div>
+      </div>
+      <div class="stage-card">
+        <div class="stage-label">Stage 4</div>
+        <div class="stage-name">REM — Dream Sleep</div>
+        <div class="stage-desc">Dominant in the second half of the night. Near-waking brain activity. Body is temporarily paralyzed. Critical for emotional regulation, creativity, and long-term memory integration.</div>
+      </div>
+    </div>
+
+    <div class="callout">
+      💡 <strong>The 90-Minute Rule:</strong> Each sleep cycle takes approximately 90 minutes to complete. If your alarm cuts a cycle short in the middle of deep sleep, you'll feel groggy — a phenomenon called sleep inertia. Try setting alarms in 90-minute multiples from your target bedtime: 6 hours (4 cycles), 7.5 hours (5 cycles), or 9 hours (6 cycles).
+    </div>
+
+    <h3>Why the First Half and Second Half of the Night Are Not Interchangeable</h3>
+
+    <p>One of the most profound and underappreciated facts in sleep science — documented extensively in Walker (2017) — is the stark difference between early-night and late-night sleep. The first two to three cycles are dominated by N3 deep sleep, the stage responsible for physical restoration: muscle repair, immune function, growth hormone release, and glymphatic cleansing. The final two to three cycles are dominated by REM sleep, the stage responsible for mental restoration: emotional processing, memory consolidation, and creative insight.</p>
+
+    <p>This is why sleeping from 11pm to 3am (four hours) is not "half as good" as sleeping from 11pm to 7am — it is categorically worse. You would get most of the deep sleep but almost none of the REM. Conversely, people who routinely sleep in late on weekends while going to bed at the same time are getting disproportionately more REM — which partly explains why weekend sleep-ins feel so dreamy and cognitively refreshing.</p>
+
+    <div class="callout research">
+      📖 <strong>Research Note:</strong> Walker's analysis of over 1,000 peer-reviewed studies finds that no physiological system in the body is left unaffected by sleep deprivation. Even one night of reduced sleep measurably impairs immune function, glucose regulation, emotional reactivity, and cognitive performance (Walker, 2017).
+    </div>
+
+    <!-- ===== SECTION 2 ===== -->
+    <h2 id="section-circadian">Section 2: Your Circadian Rhythm — The Master Clock</h2>
+
+    <p>Every cell in your body contains a biological clock — a set of genes that cycle on a roughly 24-hour period. These cellular clocks are coordinated by a master pacemaker in the brain called the suprachiasmatic nucleus (SCN), a tiny structure of about 20,000 neurons sitting directly above the optic chiasm. The SCN receives direct input from light-sensitive retinal ganglion cells and uses this signal to synchronize your entire body's timing to the external world.</p>
+
+    <p>Your circadian rhythm controls not just when you feel sleepy, but also when your core body temperature peaks and troughs, when cortisol is released, when your bowels are most active, when your immune system mounts its strongest responses, and when your cardiovascular system is most vulnerable. Sleep is the most visible output of the circadian system — but it is far from the only one (Walker, 2017).</p>
+
+    <h3>Adenosine and Sleep Pressure: The Two-Process Model</h3>
+
+    <p>To understand why you feel sleepy at night, you need to understand two parallel systems. The first is your circadian rhythm, which generates a roughly 24-hour signal of alertness and drowsiness. The second is adenosine, a metabolic byproduct that accumulates in the brain the longer you are awake, creating what scientists call "sleep pressure."</p>
+
+    <p>The longer you are awake, the more adenosine builds up, the sleepier you feel. Sleep clears adenosine. Caffeine works by blocking adenosine receptors — it doesn't remove the adenosine, it just temporarily prevents you from feeling it. When the caffeine wears off, all the accumulated adenosine floods the receptors at once: that's the crash. When both systems — circadian drowsiness signal and high adenosine — align around 10–11pm, you experience the irresistible urge to sleep that Walker (2017) calls the "perfect storm of sleepiness."</p>
+
+    <div class="callout">
+      💡 <strong>Key Insight — Chronotypes Are Real:</strong> About 40% of people are "morning types," 30% are "evening types," and 30% fall in between. Chronotype is largely genetic (driven by variants in the PER3 gene) and shifts across the lifespan — teenagers are biologically shifted toward eveningness, which is why early school start times are a genuine public health problem (Walker, 2017). Forcing an evening chronotype into a morning schedule causes chronic social jet lag — a measurably damaging mismatch between biological and social time.
+    </div>
+
+    <h3>Jet Lag and Social Jet Lag</h3>
+
+    <p>Your circadian clock can shift by about one hour per day when traveling — which is why crossing five time zones takes about five days to fully adjust. But a less-discussed form of disruption is <strong>social jet lag</strong>: the pattern of sleeping and waking at markedly different times on weekends versus weekdays. Research consistently links social jet lag of two or more hours to increased obesity risk, impaired metabolic function, and elevated cardiovascular risk markers — even in people who believe they are getting "enough" total sleep.</p>
+
+    <!-- ===== SECTION 3 ===== -->
+    <h2 id="section-environment">Section 3: The Environment — Temperature, Light, Sound, and Mattress</h2>
+
+    <p>Your bedroom environment is not a passive backdrop to sleep — it is an active biological input. Getting the environment right is, in most cases, worth more than any supplement on the market. Here is what the science actually says about each variable.</p>
+
+    <h3>Temperature: The Most Underrated Sleep Factor</h3>
+
+    <p>Your core body temperature needs to drop by 2–3°F (1–1.5°C) to initiate and maintain sleep. This is why you instinctively push a foot out from under the covers — the body is actively shedding heat through the extremities. A bedroom temperature of <strong>65–68°F (18–20°C)</strong> is the range most consistently supported by sleep research as optimal for most adults. Temperatures above 70°F measurably reduce the proportion of deep sleep; temperatures below 60°F can increase arousal frequency.</p>
+
+    <p>For couples with mismatched temperature preferences, a dual-zone mattress pad (such as products in the Eight Sleep or ChiliSleep category) can resolve the conflict without negotiation. Cooling mattress toppers are one of the few sleep products with genuinely strong supporting evidence from controlled studies.</p>
+
+    <h3>Light: The Most Powerful Circadian Signal</h3>
+
+    <p>Light is the dominant zeitgeber — the German word for "time-giver" — for your circadian clock. Morning bright light (ideally outdoor sunlight within 30–60 minutes of waking) triggers a cascade of effects: it sets the circadian clock, triggers a cortisol pulse that promotes alertness, and starts a 12–16 hour countdown to the melatonin release that will make you sleepy that evening.</p>
+
+    <p>Conversely, light in the evening — particularly the short-wavelength blue light (450–490nm) emitted by phones, tablets, and LED lights — suppresses melatonin production. Walker's data suggests that even modest room light in the 2–3 hours before bed can suppress melatonin by up to 50% and delay its onset by 3 hours (Walker, 2017). This is not a small effect. Practical mitigations: dim lights after sunset, use warm-spectrum bulbs (2700K or lower), wear blue-light-blocking glasses if screen use is unavoidable, and enable night mode on all devices.</p>
+
+    <div class="callout green" style="border-left:3px solid var(--green)">💚 <strong>Your sleep optimization priority list:</strong> Start with these three in order: (1) Fix your wake time — make it consistent every day. (2) Fix your light exposure — bright morning light, no screens after 9pm. (3) Fix your bedroom temperature to 65-68°F. Everything else is secondary until these three are locked in.</div>
+
+    <h3>Sound: The Brain Doesn't Switch Off</h3>
+
+    <p>The sleeping brain continues to process auditory input — sudden sounds trigger micro-arousals even when you don't consciously wake. Research from hospital environments shows that patient sleep quality degrades significantly with intermittent noise above 40 decibels, even when patients report sleeping through the night. The key variable is not absolute volume but acoustic contrast — sudden changes in the sound environment.</p>
+
+    <p>Continuous white noise (or pink noise, which many find more pleasant) works by raising the acoustic "floor," reducing the perceptible contrast of sudden sounds. Earplugs achieve the same goal through attenuation. Studies on pink noise specifically suggest it may also enhance slow-wave sleep depth by entraining certain brain oscillations — though this research is still emerging.</p>
+
+    <h3>Your Mattress: A Platform, Not a Panacea</h3>
+
+    <p>The mattress industry is rife with overblown claims. The honest science is this: an uncomfortable mattress can clearly disrupt sleep; a perfect mattress cannot rescue poor sleep hygiene. The key factors are spinal neutrality (the mattress should maintain your spine in the same alignment it has when standing), pressure point relief (particularly at the shoulder and hip for side sleepers), and temperature regulation (dense memory foam traps heat; hybrid and latex designs typically sleep cooler).</p>
+
+    <p>Body weight, sleep position, and personal preference all interact strongly — which is why mattress shopping without a trial period is a gamble. Look for at least a 100-night trial. Medium-firm mattresses tend to work for the widest range of sleepers.</p>
+
+    <!-- ===== SECTION 4 ===== -->
+    <h2 id="section-habits">Section 4: Habits That Make or Break Sleep</h2>
+
+    <h3>Caffeine: The Half-Life Problem</h3>
+
+    <p>Caffeine has a half-life of approximately 5–7 hours in most adults — meaning that a 200mg coffee consumed at 2pm still has 100mg blocking your adenosine receptors at 7–9pm. A quarter of it may still be active at midnight. This is why Walker (2017) argues that the "no caffeine after 2pm" rule is not arbitrary — it is based on the pharmacokinetics of the drug combined with the typical sleep schedule.</p>
+
+    <p>Genetic variation in the CYP1A2 enzyme means some individuals clear caffeine roughly twice as fast as others, and some twice as slowly. If you're a slow metabolizer, even a morning coffee can measurably degrade your deep sleep that night — without you feeling aware of it. If you suspect this is you, a caffeine-free experiment for two weeks is more informative than any genetic test.</p>
+
+    <div class="callout">
+      💡 <strong>The Caffeine Nap:</strong> One practical hack with solid research behind it — drink a coffee immediately before a 20-minute nap. The caffeine takes 20–30 minutes to be absorbed; by the time you wake naturally from the nap, the caffeine is kicking in and the adenosine you cleared during the nap is gone. The combined effect is sharper alertness than either alone. Do not attempt this after 2pm.
+    </div>
+
+    <h3>Alcohol: The Great Sedation Myth</h3>
+
+    <p>Alcohol is perhaps the most widely used and most misunderstood sleep aid on earth. It is a sedative, not a sleep promoter — there is a critical difference. Alcohol sedates you into unconsciousness, but this state is biologically different from natural sleep. It fragments sleep in the second half of the night (causing more arousals), powerfully suppresses REM sleep, and increases the likelihood of early morning waking as the liver processes the alcohol and blood sugar swings occur (Walker, 2017).</p>
+
+    <p>The net effect: people who drink to sleep often feel more rested than they actually are, because the sedative phase at the beginning of the night masks the fragmented, REM-depleted sleep that follows. Over time, the brain habituates to the sedation, requiring more alcohol for the same effect — a mechanism of tolerance that can contribute to dependency without the person recognizing the pattern.</p>
+
+    <h3>Exercise: Timing Matters More Than Type</h3>
+
+    <p>Regular aerobic exercise is one of the most robustly supported non-pharmacological interventions for sleep quality. Studies consistently show it increases deep sleep duration, shortens sleep onset time, and improves subjective sleep quality — particularly in people with insomnia. The benefits are dose-dependent: even 30 minutes of moderate aerobic exercise three to five times per week produces measurable improvements within weeks.</p>
+
+    <p>However, timing matters. Vigorous exercise raises core body temperature and elevates cortisol and adrenaline — both alerting signals. Exercising within 2–3 hours of bedtime can delay sleep onset and reduce deep sleep. Morning or early afternoon exercise is optimal. For evening exercisers who have no other option, lower-intensity activity (yoga, walking, light cycling) is preferable to high-intensity training in the hours before bed.</p>
+
+    <h3>Screens: Blue Light and Beyond</h3>
+
+    <p>The blue light effect of screens gets most of the attention, but it is not the only mechanism by which screens disrupt sleep. Social media and news content generate psychological arousal — anxiety, comparison, outrage — that activates the stress response and makes it neurologically harder to transition to sleep. The content matters, not just the photons. Walker (2017) recommends a "cognitive wind-down" period of 30–60 minutes before bed that is free from emotionally stimulating content regardless of the light wavelength.</p>
+
+    <!-- ===== SECTION 5 ===== -->
+    <h2 id="section-supplements">Section 5: Supplements — What Works, What Doesn't</h2>
+
+    <p>The sleep supplement industry generates billions of dollars annually on the basis of marketing that vastly outpaces the supporting evidence. Here is an honest, research-based assessment of the most commonly used options.</p>
+
+    <table class="supplement-table">
+      <thead>
+        <tr>
+          <th>Supplement</th>
+          <th>Typical Dose</th>
+          <th>Evidence</th>
+          <th>Verdict</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Melatonin</strong></td>
+          <td>0.5–1mg (low dose)</td>
+          <td>Strong for circadian shifting (jet lag, shift work). Weak for sleep quality in otherwise healthy adults with normal timing.</td>
+          <td class="verdict-works">Use for timing, not sedation</td>
+        </tr>
+        <tr>
+          <td><strong>Magnesium Glycinate</strong></td>
+          <td>200–400mg</td>
+          <td>Deficiency (common in Western diets) linked to poor sleep. Supplementation in deficient individuals shows genuine improvements in sleep quality and onset.</td>
+          <td class="verdict-works">Works if deficient</td>
+        </tr>
+        <tr>
+          <td><strong>L-Theanine</strong></td>
+          <td>100–200mg</td>
+          <td>Promotes alpha brain wave activity associated with relaxed alertness. Mild evidence for reducing sleep onset time and anxiety without sedation.</td>
+          <td class="verdict-works">Useful, low risk</td>
+        </tr>
+        <tr>
+          <td><strong>Ashwagandha</strong></td>
+          <td>300–600mg KSM-66</td>
+          <td>Adaptogen with cortisol-lowering effects. Multiple RCTs show improved sleep onset and self-reported quality, particularly in high-stress populations.</td>
+          <td class="verdict-works">Evidence improving</td>
+        </tr>
+        <tr>
+          <td><strong>Valerian Root</strong></td>
+          <td>300–600mg</td>
+          <td>Mixed evidence — some studies show benefit, others show no effect vs. placebo. Standardization issues across products complicate interpretation.</td>
+          <td class="verdict-weak">Inconclusive</td>
+        </tr>
+        <tr>
+          <td><strong>GABA</strong></td>
+          <td>100–300mg</td>
+          <td>Poor blood-brain barrier penetration means oral GABA supplementation likely does not produce the central effects claimed. May work via gut-brain pathways, but evidence is thin.</td>
+          <td class="verdict-weak">Weak mechanism</td>
+        </tr>
+        <tr>
+          <td><strong>CBD</strong></td>
+          <td>25–75mg</td>
+          <td>Anxiolytic effects may indirectly improve sleep in anxiety-driven insomnia. Direct sleep effects are poorly characterized. Regulatory quality issues are significant.</td>
+          <td class="verdict-weak">Indirect only</td>
+        </tr>
+        <tr>
+          <td><strong>OTC Sleep Pills</strong> (diphenhydramine)</td>
+          <td>25–50mg</td>
+          <td>Antihistamine sedation. Rapid tolerance (often within 3–4 nights). Associated with next-day cognitive impairment. Linked to increased dementia risk with regular use in older adults.</td>
+          <td class="verdict-no">Avoid regularly</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="callout">
+      💡 <strong>The Melatonin Dose Problem:</strong> Most OTC melatonin in the US is sold in doses of 5–10mg — far higher than the physiological dose that studies show to be effective (0.5–1mg). Higher doses do not work better; they are absorbed more slowly, can cause grogginess the next morning, and may suppress the body's own melatonin production over time. If you use melatonin, use the lowest effective dose (Walker, 2017).
+    </div>
+
+    <!-- ===== SECTION 6 ===== -->
+    <h2 id="section-insomnia">Section 6: When Sleep Won't Come — Anxiety, Insomnia, and CBT-I Basics</h2>
+
+    <p>Chronic insomnia — defined as difficulty initiating or maintaining sleep at least three nights per week for three or more months — affects an estimated 10–15% of the global adult population. It is not simply a symptom of another problem; it frequently becomes a self-sustaining condition through a mechanism called hyperarousal, where the bed itself becomes a conditioned stimulus for wakefulness and anxiety.</p>
+
+    <p>The gold-standard treatment — rated superior to sleeping pills in multiple head-to-head trials and endorsed by the American College of Physicians as the first-line treatment — is <strong>Cognitive Behavioral Therapy for Insomnia (CBT-I)</strong>. Unlike medication, CBT-I addresses the underlying mechanisms of insomnia rather than suppressing symptoms, and its benefits persist after treatment ends (Walker, 2017).</p>
+
+    <h3>Core CBT-I Techniques</h3>
+
+    <ul>
+      <li><strong>Sleep restriction therapy:</strong> Temporarily limiting time in bed to match actual sleep time, consolidating sleep and rebuilding sleep drive. Often produces dramatic improvements within two weeks.</li>
+      <li><strong>Stimulus control:</strong> Reserving the bed exclusively for sleep and sex, eliminating activities (reading, phones, television) that condition wakefulness in the bedroom.</li>
+      <li><strong>Cognitive restructuring:</strong> Identifying and challenging catastrophic thoughts about sleep ("If I don't sleep tonight, tomorrow will be ruined") that perpetuate the arousal cycle.</li>
+      <li><strong>Sleep hygiene education:</strong> Addressing the environmental and behavioral factors covered in this guide.</li>
+      <li><strong>Relaxation techniques:</strong> Progressive muscle relaxation, diaphragmatic breathing, and body scan meditation to reduce physiological arousal at bedtime.</li>
+    </ul>
+
+    <div class="callout">
+      💡 <strong>The "Don't Try to Sleep" Paradox:</strong> One of the most counterintuitive CBT-I techniques is paradoxical intention — instructing insomnia patients to lie in bed with their eyes open and actively try to stay awake. This reduces the performance anxiety around sleep, which is often the primary driver of continued wakefulness. It sounds absurd and has a body of evidence supporting it.
+    </div>
+
+    <h3>Anxiety and the Rumination Loop</h3>
+
+    <p>The most common driver of sleep-onset insomnia is cognitive hyperarousal: the brain that will not quiet down at bedtime. Worry, planning, replaying conversations, catastrophizing about the next day — all of these activate the prefrontal cortex and maintain a level of neural arousal incompatible with sleep onset. Walker (2017) describes the insomniac brain as one that cannot disengage its "default mode network" — the circuits responsible for self-referential thought — at the appropriate time.</p>
+
+    <p>Practical approaches that have evidence: scheduled worry time (write down concerns in a "worry journal" earlier in the evening to externalize them from your mental workspace), a brain dump before bed (write down tomorrow's to-do list to reduce cognitive load), and mindfulness-based stress reduction (MBSR), which has been shown to reduce insomnia severity scores in multiple RCTs.</p>
+
+    <!-- ===== SECTION 7 ===== -->
+    <h2 id="section-special">Section 7: Special Situations — Travel, Shift Work, Aging, and Hormones</h2>
+
+    <h3>Jet Lag: A Practical Protocol</h3>
+
+    <p>The fastest way to adapt to a new time zone is to aggressively seek light exposure at the right times in the destination's schedule — bright light advances or delays your clock depending on when it is administered. As a general rule: if traveling east (losing hours), seek morning light immediately upon arrival and avoid evening light. If traveling west (gaining hours), seek afternoon light and allow a later bedtime naturally.</p>
+
+    <p>Low-dose melatonin (0.5–1mg) taken at the destination's target bedtime for the first 3–4 nights after arrival supports the circadian shift. Staying well-hydrated, avoiding alcohol on the flight, and timing meals to destination local time are all evidence-supported accelerants of adaptation.</p>
+
+    <h3>Shift Work: Managing an Impossible Schedule</h3>
+
+    <p>Shift workers face a genuine biological conflict: their circadian rhythms are set by the dominant light-dark cycle, but their schedule demands wakefulness during the biological night. Long-term shift work is associated with elevated risks of cardiovascular disease, metabolic syndrome, depression, and several cancers — not because shift workers are unhealthy, but because chronic circadian misalignment is intrinsically damaging at the cellular level (Walker, 2017).</p>
+
+    <p>Harm reduction strategies for shift workers: maintain as consistent a schedule as possible (rotating shifts are harder than fixed night shifts), use blackout curtains during daytime sleep, wear sunglasses during the commute home to minimize light exposure that would anchor the clock to the morning, and prioritize sleep on days off rather than immediately reverting to a "normal" schedule.</p>
+
+    <h3>Sleep and Aging: What Actually Changes</h3>
+
+    <p>Contrary to popular belief, older adults do not need less sleep — they simply find it harder to get. With aging, the circadian rhythm advances (shifting earlier), sleep becomes more fragmented, the percentage of deep sleep declines markedly (partly due to atrophy of the slow-wave generating circuits), and sensitivity to bladder urgency increases. None of these changes mean the body needs less sleep; they mean the body's ability to generate restorative sleep is reduced, making sleep hygiene even more critical in later decades.</p>
+
+    <p>Walker (2017) makes the sobering observation that impaired deep sleep in aging may accelerate cognitive decline by reducing the glymphatic clearance of amyloid-beta plaques — a potential mechanistic link between poor sleep in midlife and increased Alzheimer's risk decades later. This connection has driven significant research investment since the original publication.</p>
+
+    <h3>Hormones and Sleep: A Bidirectional Relationship</h3>
+
+    <p>Sleep and the endocrine system are intimately coupled in both directions. Sleep loss acutely elevates cortisol, disrupts insulin sensitivity (a single night of 4 hours sleep produces insulin resistance equivalent to early Type 2 diabetes in some studies), reduces testosterone in men (with one week of sleep restriction reducing testosterone levels to those of men 10 years older), and disrupts the leptin-ghrelin axis that regulates hunger — explaining the well-documented relationship between short sleep and weight gain.</p>
+
+    <p>For women, the relationship is further complicated by hormonal fluctuations across the menstrual cycle, perimenopause, and menopause. Progesterone (which has sleep-promoting properties) drops in the luteal phase and disappears at menopause; estrogen fluctuations affect thermoregulation, leading to the night sweats that fragment sleep so severely in perimenopausal women. These are not lifestyle problems — they are physiological realities that may warrant discussion with a clinician.</p>
+
+    <!-- ===== SECTION 8 ===== -->
+    <h2 id="section-tracking">Section 8: Tracking Your Progress</h2>
+
+    <p>What gets measured gets managed — but only if the measurements are valid. The current generation of consumer sleep trackers (wrist-worn optical heart rate monitors, ring-based devices, and under-mattress sensors) are genuinely useful for detecting trends over time, identifying disruptions, and providing behavioral feedback. They are not clinically accurate compared to polysomnography (PSG), the gold standard that measures EEG directly from the scalp. No accelerometer-based device can reliably distinguish N2 from N3 sleep with high precision.</p>
+
+    <p>That said, the practical value of consumer trackers is real. They can reveal whether your alcohol consumption is fragmenting sleep, whether an earlier bedtime is increasing your deep sleep percentage, whether travel disrupts your HRV (heart rate variability), and whether your sleep debt is accumulating across a stressful week. Used as a trend tool rather than an absolute measurement device, they provide genuine insight.</p>
+
+    <div class="callout">
+      💡 <strong>HRV as a Sleep Quality Proxy:</strong> Heart rate variability — the variation in time between successive heartbeats — is increasingly used as an objective marker of recovery quality and autonomic nervous system balance. Low HRV the morning after poor sleep is well-documented; consistently low HRV across days signals accumulated physiological stress. Many sleep trackers now report HRV nightly, and it is arguably more meaningful than the estimated sleep stage data.
+    </div>
+
+    <h3>Ring Trackers: Precision Without the Wrist Bulk</h3>
+
+    <p>Ring-based trackers (most notably devices in the Oura category) offer a particularly clean signal for sleep tracking because the finger has high arterial blood flow and minimal motion artifact during sleep. They track HRV, temperature deviation from baseline (an early marker of illness and menstrual cycle phase), respiratory rate, and resting heart rate across the night — all from a form factor many users find less intrusive than a wrist watch.</p>
+
+    <div class="product-cta">
+      <div class="product-cta-text">
+        <strong>Sleep Tracker Rings — Comprehensive Monitoring</strong>
+        <span>Track HRV, deep sleep, temperature trends, and recovery scores nightly</span>
+      </div>
+      <a class="btn-amazon" href="https://www.amazon.com/s?k=sleep+tracker+ring+oura+health+monitor&tag=sleepwiserevi-20" target="_blank" rel="noopener nofollow">View on Amazon</a>
+    </div>
+
+    <h3>Building a Sleep Optimization Experiment</h3>
+
+    <p>The scientific approach to improving your own sleep is not to implement every change at once — it is to run sequential experiments, changing one variable at a time and tracking the result across 1–2 weeks before evaluating the effect. A useful sequence: first establish your baseline (one week of no changes, tracking sleep quality scores and daytime energy), then implement the three foundational changes (consistent wake time, morning light, bedroom temperature) and track for two weeks. Add or remove variables one at a time from there.</p>
+
+    <p>Key metrics to track: sleep onset latency (how long it takes to fall asleep), number of nighttime awakenings, subjective sleep quality score (1–10 on waking), morning HRV, and daytime energy and cognitive performance (a simple 1–10 score at 2pm works well). The pattern across two to four weeks is far more informative than any single night.</p>
+
+    <div class="callout research">
+      📖 <strong>Walker's Closing Argument:</strong> "No aspect of our biology is left unscathed by sleep deprivation," Walker writes in the conclusion of <em>Why We Sleep</em> (2017). "It is, perhaps, the greatest legal performance-enhancing drug that most people are neglecting." The evidence base for this claim has only grown since the book's publication — with major studies linking chronic short sleep to accelerated aging, impaired vaccine response, reduced lifespan, and diminished quality of life across almost every dimension measured.
+    </div>
+
+    <!-- Product CTA -->
+    <div class="product-cta">
+      <div class="product-cta-text">
+        <strong>Ready to start tracking your sleep?</strong>
+        <span>A sleep tracker ring gives you nightly data on HRV, temperature, and sleep stages</span>
+      </div>
+      <a class="btn-amazon" href="https://www.amazon.com/s?k=sleep+tracker+ring+oura+health+monitor&tag=sleepwiserevi-20" target="_blank" rel="noopener nofollow">Shop Sleep Trackers</a>
+    </div>
+
+    <!-- References -->
+    <div class="references">
+      <h4>References</h4>
+      <p>Walker, M. (2017). <em>Why We Sleep: Unlocking the Power of Sleep and Dreams.</em> Scribner.</p>
+      <p>American College of Physicians (2016). Management of Chronic Insomnia Disorder in Adults. <em>Annals of Internal Medicine, 165</em>(2), 125–133.</p>
+      <p>Hirshkowitz, M. et al. (2015). National Sleep Foundation's sleep time duration recommendations. <em>Sleep Health, 1</em>(1), 40–43.</p>
+      <p>Xie, L. et al. (2013). Sleep drives metabolite clearance from the adult brain. <em>Science, 342</em>(6156), 373–377.</p>
+      <p>Leproult, R., &amp; Van Cauter, E. (2011). Effect of 1 week of sleep restriction on testosterone levels in young healthy men. <em>JAMA, 305</em>(21), 2173–2174.</p>
+    </div>
+
+    <!-- Newsletter CTA -->
+    <div class="article-cta">
+      <h3>Get Our Free 7-Day Sleep Reset Guide</h3>
+      <p>Join 18,000 readers who receive weekly sleep research summaries, honest product reviews, and evidence-based optimization strategies every Sunday morning.</p>
+      <a class="btn-amazon" href="../#newsletter">Subscribe Free — No Spam, Ever</a>
+    </div>
+
+    <!-- Related Articles -->
+    <div class="related-articles">
+      <h3>Continue Reading</h3>
+      <div class="related-grid">
+        <div class="related-card">
+          <a href="sleep-stages-explained.html">Understanding Sleep Stages: A Complete Guide to Your Sleep Cycle</a>
+          <p>Deep dive into N1, N2, N3, and REM with practical optimization tips</p>
+        </div>
+        <div class="related-card">
+          <a href="article-magnesium-sleep.html">Best Magnesium for Sleep: Glycinate vs Citrate vs Threonate</a>
+          <p>Which form of magnesium actually improves sleep — and which to skip</p>
+        </div>
+        <div class="related-card">
+          <a href="article-weighted-blanket.html">7 Best Weighted Blankets for Deep Sleep</a>
+          <p>How deep pressure stimulation affects sleep quality and our top picks</p>
+        </div>
+        <div class="related-card">
+          <a href="article-white-noise-machines.html">7 Best White Noise Machines That Actually Block Sound</a>
+          <p>Acoustic science behind sound masking — and which machines deliver it</p>
+        </div>
+        <div class="related-card">
+          <a href="article-melatonin-review.html">Melatonin: What the Research Actually Says About Dose and Timing</a>
+          <p>Why most people are taking too much and using it wrong</p>
+        </div>
+        <div class="related-card">
+          <a href="article-cbti-techniques.html">CBT-I: The Evidence-Based Cure for Chronic Insomnia</a>
+          <p>How cognitive behavioral therapy for insomnia outperforms sleeping pills</p>
+        </div>
+      </div>
+    </div>
+
+  </article>
+
+  <footer>
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a class="logo" href="../">SleepWise<span>Reviews</span></a>
+        <p>Honest, science-backed reviews and guides to help you sleep deeper, recover faster, and wake up energized.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Reviews</h4>
+        <ul>
+          <li><a href="https://www.amazon.com/s?k=weighted+blanket&tag=sleepwiserevi-20" target="_blank">Weighted Blankets</a></li>
+          <li><a href="https://www.amazon.com/s?k=white+noise+machine&tag=sleepwiserevi-20" target="_blank">White Noise Machines</a></li>
+          <li><a href="https://www.amazon.com/s?k=sleep+supplements&tag=sleepwiserevi-20" target="_blank">Supplements</a></li>
+          <li><a href="https://www.amazon.com/s?k=sleep+tracker+ring+oura+health+monitor&tag=sleepwiserevi-20" target="_blank">Sleep Trackers</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Guides</h4>
+        <ul>
+          <li><a href="ultimate-sleep-guide.html">Master Sleep Guide</a></li>
+          <li><a href="sleep-stages-explained.html">Sleep Stages Explained</a></li>
+          <li><a href="../#picks">Sleep Optimization</a></li>
+          <li><a href="../#reviews">Bedtime Routines</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Site</h4>
+        <ul>
+          <li><a href="../pages/about.html">About Harry Soul</a></li>
+          <li><a href="../pages/privacy-policy.html">Privacy Policy</a></li>
+          <li><a href="../pages/affiliate-disclosure.html">Affiliate Disclosure</a></li>
+          <li><a href="../#newsletter">Newsletter</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div>© 2025 SleepWiseReviews. All rights reserved.</div>
+      <div class="affiliate-disc">SleepWiseReviews is a participant in the Amazon Services LLC Associates Program, an affiliate advertising program designed to provide a means for sites to earn advertising fees by advertising and linking to Amazon.com.</div>
+    </div>
+  </footer>
+
+</body>
+</html>
