@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>10 Natural Sleep Aids Ranked by Evidence Strength - SleepWiseReviews</title>
-  <meta name="description" content="Magnesium, L-theanine, valerian, ashwagandha and more — ranked by clinical evidence strength so you know what actually works for sleep." />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>10 Natural Sleep Aids Ranked by Evidence Strength | SleepWise Reviews</title>
+  <meta name="description" content="The supplement aisle is full of sleep aids claiming to knock you out by 10pm. Here's what the clinical evidence actually supports, ranked from strongest to weakest.">
+  <meta property="og:title" content="10 Natural Sleep Aids Ranked by Evidence Strength">
+  <meta property="og:description" content="Evidence-ranked guide to natural sleep supplements, from magnesium glycinate to CBD.">
+  <meta property="og:type" content="article">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet">
   <style>
     :root {
       --night: #0A0E1A;
@@ -21,786 +24,756 @@
       --star: #F0E6C8;
       --text: #D4DCEE;
       --muted: #7A85A0;
-      --white: #FFFFFF;
       --green: #4CAF82;
     }
-
     *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-
     html { scroll-behavior: smooth; }
-
     body {
-      background-color: var(--night);
+      background: var(--night);
       color: var(--text);
       font-family: 'Outfit', sans-serif;
-      font-weight: 400;
+      font-size: 17px;
       line-height: 1.75;
-      font-size: 1rem;
     }
 
-    a { color: var(--gold); text-decoration: none; }
-    a:hover { color: var(--gold-light); text-decoration: underline; }
-
-    /* ── NAV ── */
+    /* NAV */
     nav {
+      background: rgba(10,14,26,0.95);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
       position: sticky;
       top: 0;
       z-index: 100;
-      background: rgba(10, 14, 26, 0.95);
-      backdrop-filter: blur(12px);
-      border-bottom: 1px solid var(--border);
       padding: 0 1.5rem;
+    }
+    .nav-inner {
+      max-width: 1100px;
+      margin: 0 auto;
       height: 64px;
       display: flex;
       align-items: center;
       justify-content: space-between;
     }
-
     .nav-logo {
       font-family: 'Cormorant Garamond', serif;
-      font-size: 1.35rem;
+      font-size: 1.5rem;
       font-weight: 700;
       color: var(--gold);
-      letter-spacing: 0.02em;
       text-decoration: none;
+      letter-spacing: 0.02em;
     }
-    .nav-logo:hover { color: var(--gold-light); text-decoration: none; }
-
-    .nav-links {
-      display: flex;
-      gap: 1.75rem;
-      list-style: none;
-    }
+    .nav-logo span { color: var(--star); }
+    .nav-links { display: flex; gap: 2rem; list-style: none; }
     .nav-links a {
-      font-size: 0.875rem;
-      font-weight: 500;
       color: var(--muted);
+      text-decoration: none;
+      font-size: 0.9rem;
+      font-weight: 500;
       transition: color 0.2s;
     }
-    .nav-links a:hover { color: var(--gold); text-decoration: none; }
+    .nav-links a:hover { color: var(--gold); }
 
-    /* ── ARTICLE WRAPPER ── */
-    .article-wrapper {
-      max-width: 760px;
-      margin: 0 auto;
-      padding: 3rem 1.5rem 5rem;
+    /* ARTICLE HERO */
+    .article-hero {
+      background: linear-gradient(135deg, var(--deep) 0%, var(--navy) 60%, #0D1628 100%);
+      border-bottom: 1px solid var(--border);
+      padding: 4rem 1.5rem 3rem;
     }
-
+    .article-hero-inner {
+      max-width: 780px;
+      margin: 0 auto;
+    }
     .article-meta-top {
       display: flex;
       align-items: center;
-      gap: 0.75rem;
+      gap: 1rem;
       flex-wrap: wrap;
-      margin-bottom: 1.25rem;
+      margin-bottom: 1.5rem;
     }
-
-    .category-tag {
+    .tag {
       background: var(--gold-dim);
       color: var(--gold);
       border: 1px solid rgba(201,168,76,0.3);
+      padding: 0.3rem 0.85rem;
       border-radius: 20px;
-      padding: 0.2rem 0.75rem;
-      font-size: 0.75rem;
+      font-size: 0.78rem;
       font-weight: 600;
-      letter-spacing: 0.06em;
       text-transform: uppercase;
+      letter-spacing: 0.08em;
     }
-
-    .article-date {
-      font-size: 0.82rem;
+    .meta-dates {
       color: var(--muted);
+      font-size: 0.85rem;
     }
-
-    h1 {
+    .article-hero h1 {
       font-family: 'Cormorant Garamond', serif;
-      font-size: clamp(2rem, 5vw, 3rem);
+      font-size: clamp(2rem, 5vw, 3.2rem);
       font-weight: 700;
       color: var(--star);
       line-height: 1.2;
-      margin-bottom: 1.25rem;
-    }
-
-    .article-intro {
-      font-size: 1.125rem;
-      color: var(--text);
-      margin-bottom: 2rem;
-      line-height: 1.8;
-    }
-
-    /* ── AUTHOR BOX ── */
-    .author-box {
-      display: flex;
-      align-items: center;
-      gap: 1rem;
-      background: var(--card);
-      border: 1px solid var(--border);
-      border-radius: 10px;
-      padding: 1rem 1.25rem;
       margin-bottom: 1.5rem;
     }
 
-    .author-emoji {
-      font-size: 2rem;
+    /* MAIN LAYOUT */
+    .article-body {
+      max-width: 780px;
+      margin: 0 auto;
+      padding: 3rem 1.5rem 4rem;
+    }
+
+    /* INTRO */
+    .article-intro {
+      font-size: 1.13rem;
+      color: var(--text);
+      line-height: 1.85;
+      margin-bottom: 2.5rem;
+      padding-bottom: 2.5rem;
+      border-bottom: 1px solid var(--border);
+    }
+    .article-intro p + p { margin-top: 1.1rem; }
+
+    /* AUTHOR BOX */
+    .author-box {
+      display: flex;
+      align-items: center;
+      gap: 1.2rem;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.25rem 1.5rem;
+      margin-bottom: 2rem;
+    }
+    .author-avatar {
+      width: 56px;
+      height: 56px;
+      border-radius: 50%;
+      background: linear-gradient(135deg, var(--gold-dim), var(--navy));
+      border: 2px solid var(--gold);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.5rem;
       flex-shrink: 0;
     }
-
     .author-info .author-name {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.15rem;
       font-weight: 600;
-      font-size: 0.95rem;
       color: var(--star);
     }
-
-    .author-info .author-bio {
+    .author-info .author-role {
       font-size: 0.82rem;
       color: var(--muted);
     }
 
-    /* ── DISCLOSURE BOX ── */
+    /* DISCLOSURE */
     .disclosure-box {
-      background: rgba(201,168,76,0.07);
+      background: rgba(201,168,76,0.06);
       border: 1px solid rgba(201,168,76,0.2);
-      border-radius: 8px;
-      padding: 0.85rem 1.1rem;
-      font-size: 0.8rem;
-      color: var(--muted);
+      border-radius: 10px;
+      padding: 1rem 1.25rem;
       margin-bottom: 2.5rem;
+      font-size: 0.82rem;
+      color: var(--muted);
       line-height: 1.6;
     }
+    .disclosure-box strong { color: var(--gold); }
 
-    .disclosure-box a { font-size: 0.8rem; }
-
-    /* ── BODY HEADINGS ── */
-    h2 {
+    /* HEADINGS */
+    .article-body h2 {
       font-family: 'Cormorant Garamond', serif;
-      font-size: 1.75rem;
+      font-size: clamp(1.55rem, 3vw, 2rem);
       font-weight: 700;
-      color: var(--star);
-      margin: 2.5rem 0 0.75rem;
-      line-height: 1.3;
+      color: var(--gold-light);
+      margin: 3rem 0 1.25rem;
+      line-height: 1.25;
     }
-
-    h3 {
+    .article-body h3 {
       font-family: 'Cormorant Garamond', serif;
       font-size: 1.3rem;
       font-weight: 600;
-      color: var(--gold-light);
-      margin: 2rem 0 0.5rem;
-      line-height: 1.35;
+      color: var(--star);
+      margin: 2rem 0 0.75rem;
     }
-
-    p { margin-bottom: 1.1rem; }
-
-    ul, ol {
-      padding-left: 1.4rem;
-      margin-bottom: 1.1rem;
+    .article-body p { margin-bottom: 1.1rem; }
+    .article-body ul, .article-body ol {
+      padding-left: 1.5rem;
+      margin-bottom: 1.25rem;
     }
-    li { margin-bottom: 0.4rem; }
+    .article-body li { margin-bottom: 0.5rem; }
+    .article-body strong { color: var(--star); }
 
-    /* ── EVIDENCE BADGE ── */
-    .evidence-badge {
-      display: inline-block;
-      font-size: 0.7rem;
-      font-weight: 700;
-      letter-spacing: 0.07em;
-      text-transform: uppercase;
-      padding: 0.15rem 0.55rem;
-      border-radius: 4px;
-      margin-left: 0.4rem;
-      vertical-align: middle;
-    }
-    .evidence-strong { background: rgba(76,175,130,0.18); color: var(--green); border: 1px solid rgba(76,175,130,0.35); }
-    .evidence-moderate { background: rgba(201,168,76,0.18); color: var(--gold); border: 1px solid rgba(201,168,76,0.35); }
-    .evidence-emerging { background: rgba(122,133,160,0.18); color: var(--muted); border: 1px solid rgba(122,133,160,0.35); }
-
-    /* ── SLEEP AID CARD ── */
-    .aid-card {
+    /* RANK CARDS */
+    .rank-card {
       background: var(--card);
       border: 1px solid var(--border);
-      border-radius: 12px;
-      padding: 1.4rem 1.5rem;
-      margin: 1.75rem 0;
-      position: relative;
+      border-radius: 14px;
+      padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+      margin-bottom: 1.5rem;
+      overflow: hidden;
     }
-
-    .aid-rank {
-      position: absolute;
-      top: -14px;
-      left: 1.25rem;
-      background: var(--navy);
-      border: 1px solid var(--border);
-      border-radius: 20px;
-      padding: 0.1rem 0.7rem;
-      font-size: 0.75rem;
-      font-weight: 600;
-      color: var(--muted);
-      letter-spacing: 0.05em;
-    }
-
-    .aid-card h3 { margin-top: 0.5rem; margin-bottom: 0.6rem; }
-
-    .aid-meta {
+    .rank-card-header {
       display: flex;
-      flex-wrap: wrap;
-      gap: 0.5rem 1.5rem;
-      font-size: 0.82rem;
-      color: var(--muted);
+      align-items: center;
+      gap: 1rem;
       margin-bottom: 0.85rem;
-      padding-bottom: 0.85rem;
-      border-bottom: 1px solid var(--border);
     }
-    .aid-meta span strong { color: var(--text); }
+    .rank-badge {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 42px;
+      height: 42px;
+      border-radius: 50%;
+      background: var(--gold-dim);
+      border: 2px solid var(--gold);
+      color: var(--gold);
+      font-weight: 700;
+      font-size: 1rem;
+      flex-shrink: 0;
+    }
+    .rank-card h3 {
+      margin: 0;
+      color: var(--star);
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.3rem;
+      font-weight: 600;
+    }
+    .evidence-bar {
+      height: 6px;
+      border-radius: 3px;
+      background: var(--border);
+      margin: 0.75rem 0 0.3rem;
+      overflow: hidden;
+    }
+    .evidence-fill {
+      height: 100%;
+      border-radius: 3px;
+      background: linear-gradient(90deg, var(--gold), var(--gold-light));
+    }
+    .evidence-label {
+      font-size: 0.78rem;
+      color: var(--muted);
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 0.75rem;
+    }
+    .dose-tag {
+      display: inline-block;
+      background: rgba(76,175,130,0.12);
+      border: 1px solid rgba(76,175,130,0.3);
+      color: var(--green);
+      border-radius: 6px;
+      padding: 0.25rem 0.75rem;
+      font-size: 0.78rem;
+      font-weight: 600;
+      margin-top: 0.5rem;
+    }
 
-    /* ── CALLOUT ── */
+    /* CALLOUTS */
     .callout {
-      border-left: 3px solid var(--green);
-      background: rgba(76,175,130,0.08);
-      border-radius: 0 8px 8px 0;
-      padding: 1.1rem 1.25rem;
+      border-radius: 10px;
+      padding: 1.25rem 1.5rem;
       margin: 2rem 0;
-      font-size: 0.95rem;
       line-height: 1.7;
     }
-
-    .callout .callout-title {
-      font-weight: 600;
-      color: var(--green);
-      font-size: 0.85rem;
-      letter-spacing: 0.06em;
-      text-transform: uppercase;
-      margin-bottom: 0.4rem;
+    .callout-gold {
+      background: var(--gold-dim);
+      border-left: 3px solid var(--gold);
+      color: var(--star);
     }
+    .callout-gold strong { color: var(--gold-light); }
 
-    /* ── PRODUCT CTA ── */
+    /* PRODUCT CTA */
     .product-cta {
       background: var(--card);
       border: 1px solid var(--border);
-      border-radius: 12px;
-      padding: 1.75rem 2rem;
+      border-radius: 16px;
+      padding: 2rem;
       margin: 3rem 0;
       text-align: center;
     }
-
     .product-cta h3 {
       font-family: 'Cormorant Garamond', serif;
-      font-size: 1.4rem;
+      font-size: 1.6rem;
       color: var(--star);
-      margin-bottom: 0.5rem;
-      margin-top: 0;
+      margin-bottom: 0.75rem;
     }
-
     .product-cta p {
       color: var(--muted);
-      font-size: 0.9rem;
-      margin-bottom: 1.25rem;
+      font-size: 0.95rem;
+      margin-bottom: 1.5rem;
+    }
+    .btn-amazon {
+      display: inline-block;
+      background: linear-gradient(135deg, var(--gold), var(--gold-light));
+      color: var(--night);
+      font-weight: 700;
+      font-size: 0.95rem;
+      padding: 0.9rem 2.2rem;
+      border-radius: 8px;
+      text-decoration: none;
+      transition: opacity 0.2s, transform 0.2s;
+    }
+    .btn-amazon:hover { opacity: 0.9; transform: translateY(-1px); }
+    .affiliate-note {
+      font-size: 0.75rem;
+      color: var(--muted);
+      margin-top: 0.85rem;
     }
 
-    .btn-gold {
-      display: inline-block;
+    /* NEWSLETTER CTA */
+    .article-cta {
+      background: linear-gradient(135deg, var(--deep), var(--navy));
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 2.5rem 2rem;
+      margin: 3rem 0;
+      text-align: center;
+    }
+    .article-cta h2 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.8rem;
+      color: var(--star);
+      margin: 0 0 0.75rem;
+    }
+    .article-cta p {
+      color: var(--muted);
+      margin-bottom: 1.5rem;
+      font-size: 0.95rem;
+    }
+    .newsletter-form {
+      display: flex;
+      gap: 0.75rem;
+      max-width: 440px;
+      margin: 0 auto;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+    .newsletter-form input {
+      flex: 1;
+      min-width: 200px;
+      padding: 0.8rem 1rem;
+      border-radius: 8px;
+      border: 1px solid var(--border);
+      background: var(--night);
+      color: var(--text);
+      font-family: 'Outfit', sans-serif;
+      font-size: 0.9rem;
+    }
+    .newsletter-form button {
+      padding: 0.8rem 1.5rem;
+      border-radius: 8px;
+      border: none;
       background: var(--gold);
       color: var(--night);
       font-weight: 700;
       font-size: 0.9rem;
-      padding: 0.7rem 1.75rem;
-      border-radius: 6px;
-      text-decoration: none;
-      letter-spacing: 0.03em;
-      transition: background 0.2s;
+      cursor: pointer;
+      transition: opacity 0.2s;
     }
-    .btn-gold:hover { background: var(--gold-light); color: var(--night); text-decoration: none; }
+    .newsletter-form button:hover { opacity: 0.85; }
 
-    .affiliate-note {
-      font-size: 0.72rem;
-      color: var(--muted);
-      margin-top: 0.75rem;
-      margin-bottom: 0;
-    }
-
-    /* ── ARTICLE CTA ── */
-    .article-cta {
-      background: linear-gradient(135deg, var(--deep) 0%, var(--navy) 100%);
-      border: 1px solid var(--border);
-      border-radius: 12px;
-      padding: 2rem;
-      text-align: center;
-      margin: 2.5rem 0;
-    }
-
-    .article-cta h3 {
-      font-family: 'Cormorant Garamond', serif;
-      font-size: 1.5rem;
-      color: var(--star);
-      margin-bottom: 0.5rem;
-      margin-top: 0;
-    }
-
-    .article-cta p {
-      color: var(--muted);
-      font-size: 0.9rem;
-      margin-bottom: 1.25rem;
-    }
-
-    .btn-outline {
-      display: inline-block;
-      border: 1.5px solid var(--gold);
-      color: var(--gold);
-      font-weight: 600;
-      font-size: 0.88rem;
-      padding: 0.65rem 1.6rem;
-      border-radius: 6px;
-      text-decoration: none;
-      transition: background 0.2s, color 0.2s;
-    }
-    .btn-outline:hover { background: var(--gold); color: var(--night); text-decoration: none; }
-
-    /* ── RELATED ARTICLES ── */
-    .related-articles {
-      margin-top: 3.5rem;
-    }
-
+    /* RELATED ARTICLES */
+    .related-articles { margin: 3rem 0; }
     .related-articles h2 {
-      font-size: 1.4rem;
-      margin-bottom: 1.25rem;
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.6rem;
+      color: var(--gold-light);
+      margin-bottom: 1.5rem;
     }
-
     .related-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
-      gap: 1rem;
+      grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+      gap: 1.25rem;
     }
-
     .related-card {
       background: var(--card);
       border: 1px solid var(--border);
-      border-radius: 10px;
-      padding: 1.1rem 1.2rem;
-      display: flex;
-      flex-direction: column;
-      gap: 0.4rem;
+      border-radius: 12px;
+      padding: 1.25rem;
       text-decoration: none;
       transition: border-color 0.2s, transform 0.2s;
+      display: block;
     }
-    .related-card:hover { border-color: var(--gold); transform: translateY(-2px); text-decoration: none; }
-
-    .related-card .rc-cat {
-      font-size: 0.7rem;
-      font-weight: 700;
-      text-transform: uppercase;
-      letter-spacing: 0.07em;
-      color: var(--gold);
+    .related-card:hover {
+      border-color: var(--gold);
+      transform: translateY(-2px);
     }
-
-    .related-card .rc-title {
+    .related-card .tag { margin-bottom: 0.75rem; display: inline-block; }
+    .related-card h4 {
       font-family: 'Cormorant Garamond', serif;
       font-size: 1.05rem;
-      font-weight: 600;
       color: var(--star);
       line-height: 1.35;
     }
 
-    .related-card .rc-arrow {
-      font-size: 0.8rem;
-      color: var(--muted);
-      margin-top: 0.2rem;
-    }
-
-    /* ── DIVIDER ── */
-    hr {
-      border: none;
-      border-top: 1px solid var(--border);
-      margin: 2.5rem 0;
-    }
-
-    /* ── FOOTER ── */
+    /* FOOTER */
     footer {
       background: var(--deep);
       border-top: 1px solid var(--border);
-      padding: 3rem 1.5rem 2rem;
+      padding: 4rem 1.5rem 2rem;
+      margin-top: 4rem;
     }
-
-    .footer-inner {
-      max-width: 960px;
-      margin: 0 auto;
-    }
-
     .footer-grid {
+      max-width: 1100px;
+      margin: 0 auto 3rem;
       display: grid;
       grid-template-columns: 2fr 1fr 1fr 1fr;
-      gap: 2rem;
-      margin-bottom: 2.5rem;
+      gap: 3rem;
     }
-
-    .footer-brand .footer-logo {
+    .footer-brand .logo {
       font-family: 'Cormorant Garamond', serif;
-      font-size: 1.25rem;
+      font-size: 1.4rem;
       font-weight: 700;
       color: var(--gold);
-      display: block;
-      margin-bottom: 0.6rem;
+      margin-bottom: 0.75rem;
     }
-
     .footer-brand p {
-      font-size: 0.82rem;
       color: var(--muted);
+      font-size: 0.88rem;
       line-height: 1.65;
-      margin-bottom: 0;
     }
-
     .footer-col h4 {
-      font-size: 0.78rem;
-      font-weight: 700;
-      text-transform: uppercase;
-      letter-spacing: 0.08em;
-      color: var(--muted);
-      margin-bottom: 0.85rem;
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1rem;
+      font-weight: 600;
+      color: var(--star);
+      margin-bottom: 1rem;
     }
-
-    .footer-col ul { list-style: none; padding: 0; }
-    .footer-col li { margin-bottom: 0.45rem; }
-    .footer-col a { font-size: 0.84rem; color: var(--muted); transition: color 0.2s; }
-    .footer-col a:hover { color: var(--gold); text-decoration: none; }
-
+    .footer-col ul { list-style: none; }
+    .footer-col li { margin-bottom: 0.5rem; }
+    .footer-col a {
+      color: var(--muted);
+      text-decoration: none;
+      font-size: 0.87rem;
+      transition: color 0.2s;
+    }
+    .footer-col a:hover { color: var(--gold); }
     .footer-bottom {
+      max-width: 1100px;
+      margin: 0 auto;
+      padding-top: 2rem;
       border-top: 1px solid var(--border);
-      padding-top: 1.5rem;
       display: flex;
       justify-content: space-between;
       align-items: center;
       flex-wrap: wrap;
-      gap: 0.75rem;
+      gap: 1rem;
     }
+    .footer-bottom p { color: var(--muted); font-size: 0.82rem; }
+    .footer-bottom a { color: var(--gold); text-decoration: none; }
 
-    .footer-bottom p { font-size: 0.78rem; color: var(--muted); margin: 0; }
-    .footer-bottom a { font-size: 0.78rem; color: var(--muted); }
-    .footer-bottom a:hover { color: var(--gold); }
-
-    /* ── RESPONSIVE ── */
-    @media (max-width: 700px) {
+    @media (max-width: 768px) {
       .footer-grid { grid-template-columns: 1fr 1fr; }
-      .nav-links { gap: 1.1rem; }
+      .nav-links { display: none; }
     }
     @media (max-width: 480px) {
       .footer-grid { grid-template-columns: 1fr; }
-      .nav-links { display: none; }
     }
   </style>
 </head>
 <body>
 
-  <!-- NAV -->
-  <nav>
-    <a class="nav-logo" href="../">SleepWise<span style="color:var(--star)">Reviews</span></a>
+<!-- NAV -->
+<nav>
+  <div class="nav-inner">
+    <a href="../" class="nav-logo">SleepWise<span>Reviews</span></a>
     <ul class="nav-links">
-      <li><a href="../#picks">Top Picks</a></li>
+      <li><a href="../">Home</a></li>
+      <li><a href="../#articles">Articles</a></li>
       <li><a href="../#reviews">Reviews</a></li>
-      <li><a href="../pages/about.html">About</a></li>
-      <li><a href="../#newsletter">Newsletter</a></li>
+      <li><a href="../#about">About</a></li>
     </ul>
-  </nav>
+  </div>
+</nav>
 
-  <!-- ARTICLE -->
-  <article class="article-wrapper">
-
-    <!-- Meta top -->
+<!-- ARTICLE HERO -->
+<header class="article-hero">
+  <div class="article-hero-inner">
     <div class="article-meta-top">
-      <span class="category-tag">Practical Guides</span>
-      <span class="article-date">📅 August 2024 · ⏱ 9 min read · 🔄 Updated Mar 2026</span>
+      <span class="tag">Sleep Science</span>
+      <span class="meta-dates">&#128197; August 2024 &middot; &#9201; 9 min read &middot; &#128260; Updated Mar 2026</span>
     </div>
+    <h1>10 Natural Sleep Aids (Ranked by Evidence Strength)</h1>
+  </div>
+</header>
 
-    <!-- Title -->
-    <h1>10 Natural Sleep Aids Ranked by Evidence Strength</h1>
+<!-- ARTICLE BODY -->
+<main class="article-body">
 
-    <!-- Intro -->
-    <p class="article-intro">The supplement aisle is full of sleep aids. Here's what the clinical evidence actually supports. Because while melatonin gets all the press, it's far from the most effective option — and some of the most powerful natural sleep aids rarely get mentioned at all.</p>
+  <!-- INTRO -->
+  <div class="article-intro">
+    <p>The supplement aisle is full of sleep aids claiming to knock you out by 10pm. Here&rsquo;s what the clinical evidence actually supports &mdash; ranked from strongest to weakest.</p>
+    <p>Walk through any pharmacy or scroll through any wellness site and you&rsquo;ll encounter dozens of products promising deep, restorative sleep &mdash; often backed by vague appeals to &ldquo;ancient wisdom&rdquo; or &ldquo;all-natural ingredients.&rdquo; The problem is that the quality of evidence behind these aids varies enormously. Some have been tested in multiple large randomized controlled trials; others have been studied only in small, industry-funded pilot projects, or not rigorously studied at all. This guide cuts through the marketing noise and gives you an honest, evidence-ranked breakdown of the ten most popular natural sleep aids &mdash; so you can spend your money and your trust wisely.</p>
+  </div>
 
-    <!-- Author -->
-    <div class="author-box">
-      <div class="author-emoji">😴</div>
-      <div class="author-info">
-        <div class="author-name">Harry Soul</div>
-        <div class="author-bio">Sleep researcher &amp; wellness writer. Reviews the science so you don't have to stare at PubMed at 2 a.m.</div>
-      </div>
+  <!-- AUTHOR -->
+  <div class="author-box">
+    <div class="author-avatar">&#127769;</div>
+    <div class="author-info">
+      <div class="author-name">Harry Soul</div>
+      <div class="author-role">Independent Sleep Researcher &middot; SleepWise Reviews</div>
     </div>
+  </div>
 
-    <!-- Disclosure -->
-    <div class="disclosure-box">
-      <strong>Affiliate disclosure:</strong> SleepWiseReviews may earn a commission from qualifying purchases made through links on this page, at no extra cost to you. We only recommend products we've independently researched. <a href="../pages/affiliate-disclosure.html">Full disclosure →</a>
+  <!-- DISCLOSURE -->
+  <div class="disclosure-box">
+    <strong>Affiliate Disclosure:</strong> SleepWise Reviews participates in the Amazon Associates program. If you purchase through our links, we may earn a small commission at no additional cost to you. This never influences our rankings or recommendations &mdash; evidence does.
+  </div>
+
+  <!-- SECTION 1 -->
+  <h2>How We Ranked These Supplements</h2>
+
+  <p>Every sleep supplement on this list was evaluated using three criteria: the volume of human clinical trials (not animal studies or in-vitro work), the quality of those trials (randomized, double-blind, placebo-controlled preferred), and the consistency of findings across independent research groups. A supplement with a single promising pilot study ranks far below one with a decade of replication behind it.</p>
+
+  <p>We also weighted practical factors: safety profile at recommended doses, potential for dependency or tolerance build-up, and real-world accessibility. The rankings reflect where the science currently stands &mdash; and we update this article as new research publishes.</p>
+
+  <div class="callout callout-gold">
+    <strong>&#9733; Key Insight:</strong> The strength of evidence behind a sleep supplement often has an inverse relationship with how aggressively it is marketed. Melatonin &mdash; one of the best-studied aids &mdash; is rarely promoted with dramatic before-and-after testimonials. Many supplements that dominate influencer feeds have thin or contradictory research behind them. Let the evidence lead, not the packaging design.
+  </div>
+
+  <!-- SECTION 2: THE RANKED LIST -->
+  <h2>The Top 10 Natural Sleep Aids, Ranked</h2>
+
+  <!-- #1 -->
+  <div class="rank-card">
+    <div class="rank-card-header">
+      <div class="rank-badge">1</div>
+      <h3>Magnesium Glycinate</h3>
     </div>
+    <div class="evidence-bar"><div class="evidence-fill" style="width:95%"></div></div>
+    <div class="evidence-label"><span>Evidence strength</span><span>Very Strong</span></div>
+    <p>Magnesium is involved in over 300 enzymatic reactions in the body, including the regulation of GABA receptors &mdash; the same receptors targeted by many prescription sleep medications. Magnesium glycinate is the chelated form bound to glycine, an amino acid that independently promotes sleep by lowering core body temperature and modulating NMDA receptors in the brain. A landmark 2012 double-blind RCT published in the <em>Journal of Research in Medical Sciences</em> found that magnesium supplementation significantly improved insomnia severity index scores, sleep efficiency, total sleep time, and early morning awakening in elderly adults. More recent meta-analyses have confirmed the effect across younger populations as well.</p>
+    <p>As Shawn Stevenson notes in <em>Sleep Smarter</em> (Stevenson, 2016), magnesium deficiency is extraordinarily common in modern diets &mdash; with estimates suggesting that up to 75% of Americans do not meet the recommended daily intake. This widespread deficiency may partially explain the epidemic of poor sleep, since low magnesium correlates consistently with elevated cortisol levels and reduced slow-wave sleep duration. Addressing this deficiency first, before layering on other supplements, is often the most impactful step a poor sleeper can take.</p>
+    <span class="dose-tag">Recommended dose: 200&ndash;400mg glycinate form, 30&ndash;60 min before bed</span>
+  </div>
 
-    <!-- Body -->
-    <h2>Why This Ranking Exists</h2>
-
-    <p>Walk into any pharmacy and you'll find dozens of sleep supplements — GABA, 5-HTP, CBD, valerian, passion­flower, and of course melatonin on every shelf. The marketing is compelling. The evidence? Wildly uneven.</p>
-
-    <p>This guide ranks ten of the most widely-used natural sleep aids by the quality and consistency of the clinical evidence behind them. We're looking at randomised controlled trials, meta-analyses, and mechanistic plausibility — not anecdotes or brand-sponsored reviews.</p>
-
-    <p>The ranking criteria:</p>
-    <ul>
-      <li><strong>Number of quality RCTs</strong> — replicated studies in actual sleep populations</li>
-      <li><strong>Effect size</strong> — meaningful improvements in sleep onset latency, total sleep time, or WASO</li>
-      <li><strong>Safety profile</strong> — well-tolerated at recommended doses with no significant dependency risk</li>
-      <li><strong>Mechanism understood</strong> — we know why it works, not just that it does</li>
-    </ul>
-
-    <div class="callout">
-      <div class="callout-title">Tonight's Quick Win</div>
-      Take 200–400 mg of magnesium glycinate 30–60 minutes before bed tonight. It's the single highest-evidence swap you can make if you're not already taking it — and magnesium deficiency is far more common than most people realise. If you only try one thing from this list, make it this.
+  <!-- #2 -->
+  <div class="rank-card">
+    <div class="rank-card-header">
+      <div class="rank-badge">2</div>
+      <h3>Melatonin</h3>
     </div>
+    <div class="evidence-bar"><div class="evidence-fill" style="width:88%"></div></div>
+    <div class="evidence-label"><span>Evidence strength</span><span>Strong</span></div>
+    <p>Melatonin is the hormone your pineal gland produces naturally in response to darkness. It does not induce sedation directly &mdash; it signals to your brain and body that it is nighttime and sleep onset is appropriate. This distinction matters enormously. Melatonin is most effective for circadian rhythm disorders (jet lag, shift work, delayed sleep phase syndrome) and for reducing sleep onset latency. Multiple systematic reviews covering hundreds of controlled trials confirm it can shorten the time to fall asleep by 7&ndash;12 minutes on average. The critical error most people make is dosing far too high: the sweet spot for most adults is 0.5mg to 1mg, not the 5mg or 10mg tablets commonly sold in pharmacies.</p>
+    <span class="dose-tag">Recommended dose: 0.5&ndash;1mg, 30&ndash;60 min before target sleep time</span>
+  </div>
 
-    <h2>The 10 Natural Sleep Aids, Ranked</h2>
-
-    <!-- #1 Magnesium Glycinate -->
-    <div class="aid-card">
-      <div class="aid-rank">#1 Highest Evidence</div>
-      <h3>Magnesium Glycinate <span class="evidence-badge evidence-strong">Strong</span></h3>
-      <div class="aid-meta">
-        <span><strong>Dose:</strong> 200–400 mg elemental magnesium</span>
-        <span><strong>Timing:</strong> 30–60 min before bed</span>
-        <span><strong>Form:</strong> Glycinate (best absorbed)</span>
-      </div>
-      <p>Magnesium sits at the top of this list for good reason. It is involved in over 300 enzymatic reactions in the body, and its role in sleep is multi-directional: it activates the parasympathetic nervous system, regulates melatonin production, and binds to GABA receptors in the brain — the same calming pathway targeted by sleep medications.</p>
-      <p>As Shawn Stevenson notes in <em>Sleep Smarter</em> (2016), magnesium deficiency is one of the most underdiagnosed contributors to poor sleep, and it compounds the problem because elevated cortisol — the stress hormone that keeps you awake — actively depletes magnesium stores. It's a vicious cycle: bad sleep raises cortisol, high cortisol burns through magnesium, low magnesium worsens sleep quality further.</p>
-      <p>Multiple RCTs show magnesium supplementation significantly reduces sleep onset latency and improves subjective sleep quality in both deficient and borderline-deficient adults. A 2012 study in the <em>Journal of Research in Medical Sciences</em> found magnesium supplementation improved sleep efficiency, sleep time, and early morning awakening in elderly participants with insomnia.</p>
-      <p>The glycinate form is recommended specifically because it has superior bioavailability compared to magnesium oxide (which is what most cheap supplements use) and is gentle on the gut. Magnesium L-threonate is also worth noting for its ability to cross the blood-brain barrier, though it's more expensive and the sleep evidence is slightly thinner.</p>
+  <!-- #3 -->
+  <div class="rank-card">
+    <div class="rank-card-header">
+      <div class="rank-badge">3</div>
+      <h3>L-Theanine</h3>
     </div>
+    <div class="evidence-bar"><div class="evidence-fill" style="width:78%"></div></div>
+    <div class="evidence-label"><span>Evidence strength</span><span>Good</span></div>
+    <p>L-theanine is an amino acid found almost exclusively in green tea. It promotes relaxation without sedation by increasing alpha brainwave activity &mdash; the same pattern seen during meditation and the transitional period just before sleep onset. Crucially, it does not make you drowsy during the day, making it uniquely versatile. A 2019 RCT published in <em>Nutrients</em> found that 200mg of L-theanine daily improved sleep quality scores, sleep latency, and morning alertness in stressed adults. It works especially well in combination with low-dose melatonin, and its safety profile at supplemental doses is excellent with no known tolerance issues.</p>
+    <span class="dose-tag">Recommended dose: 100&ndash;200mg, taken 30&ndash;60 min before bed</span>
+  </div>
 
-    <!-- #2 L-Theanine -->
-    <div class="aid-card">
-      <div class="aid-rank">#2</div>
-      <h3>L-Theanine <span class="evidence-badge evidence-strong">Strong</span></h3>
-      <div class="aid-meta">
-        <span><strong>Dose:</strong> 100–200 mg</span>
-        <span><strong>Timing:</strong> 30–45 min before bed</span>
-        <span><strong>Form:</strong> Capsule or powder</span>
-      </div>
-      <p>L-theanine is a non-protein amino acid found naturally in green tea. It promotes relaxation without sedation — a distinction that matters. Unlike many sleep aids, it doesn't make you groggy; it quiets mental chatter.</p>
-      <p>Mechanistically, L-theanine increases alpha brain wave activity (the same state associated with alert relaxation during meditation), reduces the excitatory neurotransmitters glutamate and dopamine in the brain, and modestly boosts GABA. Human studies show it consistently reduces perceived stress and improves subjective sleep quality, particularly for people whose sleep problems are driven by an overactive mind rather than a physiological deficit.</p>
-      <p>It pairs exceptionally well with magnesium glycinate — the two compounds address sleep from different angles and have no interaction concerns.</p>
+  <!-- #4 -->
+  <div class="rank-card">
+    <div class="rank-card-header">
+      <div class="rank-badge">4</div>
+      <h3>Glycine</h3>
     </div>
+    <div class="evidence-bar"><div class="evidence-fill" style="width:72%"></div></div>
+    <div class="evidence-label"><span>Evidence strength</span><span>Good</span></div>
+    <p>Glycine is a simple, non-essential amino acid that lowers core body temperature when taken before bed &mdash; a mechanism that strongly promotes sleep initiation, since the body naturally drops in temperature during the transition from wakefulness to sleep. Japanese researchers have published several high-quality studies showing that 3g of glycine before bed improves subjective sleep quality, reduces next-day fatigue, and shortens sleep onset without causing morning grogginess. It is one of the few supplements with a plausible, well-understood mechanistic explanation for exactly how and why it works.</p>
+    <span class="dose-tag">Recommended dose: 3g powder or capsules, 30&ndash;60 min before bed</span>
+  </div>
 
-    <!-- #3 Valerian Root -->
-    <div class="aid-card">
-      <div class="aid-rank">#3</div>
-      <h3>Valerian Root <span class="evidence-badge evidence-moderate">Moderate</span></h3>
-      <div class="aid-meta">
-        <span><strong>Dose:</strong> 300–600 mg extract</span>
-        <span><strong>Timing:</strong> 30–60 min before bed</span>
-        <span><strong>Form:</strong> Standardised extract (0.8% valerenic acid)</span>
-      </div>
-      <p>Valerian has been used as a sleep aid for centuries, and the modern clinical picture is genuinely promising — though inconsistent enough to land it at #3 rather than higher. A 2006 meta-analysis in the <em>American Journal of Medicine</em> reviewing 16 RCTs found that valerian may improve sleep quality without producing side effects.</p>
-      <p>The active compounds (valerenic acid and isovaleric acid) appear to inhibit GABA breakdown and interact with serotonin and adenosine receptors — all sleep-relevant pathways. Valerian tends to be most effective for people who take it consistently for 2–4 weeks rather than as a single acute dose. If you've tried it once and shrugged, give it a longer trial.</p>
-      <p>One practical note: raw valerian smells profoundly unpleasant. Capsules are the only realistic delivery format.</p>
+  <!-- #5 -->
+  <div class="rank-card">
+    <div class="rank-card-header">
+      <div class="rank-badge">5</div>
+      <h3>Ashwagandha (KSM-66 extract)</h3>
     </div>
+    <div class="evidence-bar"><div class="evidence-fill" style="width:65%"></div></div>
+    <div class="evidence-label"><span>Evidence strength</span><span>Moderate&ndash;Good</span></div>
+    <p>Ashwagandha is an adaptogenic herb with a long history in Ayurvedic medicine. The modern evidence focuses on its cortisol-lowering and stress-buffering effects, which indirectly improve sleep quality in chronically stressed individuals. A 2019 RCT in <em>Medicine</em> using the KSM-66 standardized extract found significant improvements in sleep onset latency, total sleep time, and morning alertness compared to placebo. Effects are most pronounced in people with elevated baseline anxiety or chronic stress. This is not a direct sedative &mdash; it works by reducing physiological arousal over days and weeks of consistent daily use.</p>
+    <span class="dose-tag">Recommended dose: 300&ndash;600mg KSM-66 extract daily (morning or evening)</span>
+  </div>
 
-    <!-- #4 Ashwagandha -->
-    <div class="aid-card">
-      <div class="aid-rank">#4</div>
-      <h3>Ashwagandha (KSM-66) <span class="evidence-badge evidence-moderate">Moderate</span></h3>
-      <div class="aid-meta">
-        <span><strong>Dose:</strong> 300–600 mg extract</span>
-        <span><strong>Timing:</strong> Evening with food</span>
-        <span><strong>Form:</strong> KSM-66 or Sensoril extract</span>
-      </div>
-      <p>Ashwagandha is an adaptogen — it doesn't target sleep directly so much as it modulates the stress-sleep axis. By lowering cortisol and blunting the HPA axis stress response, it removes one of the most common barriers to quality sleep: a nervous system that won't switch off.</p>
-      <p>A 2019 double-blind RCT published in <em>Medicine</em> found that KSM-66 ashwagandha (600 mg/day for 12 weeks) significantly improved sleep onset latency, total sleep time, sleep efficiency, and sleep quality compared to placebo. Subjective anxiety and morning alertness also improved — which matters, because better daytime stress regulation creates a more favourable environment for sleep at night.</p>
-      <p>The KSM-66 and Sensoril branded extracts have the most clinical backing; generic ashwagandha root powder has variable potency.</p>
+  <!-- #6 -->
+  <div class="rank-card">
+    <div class="rank-card-header">
+      <div class="rank-badge">6</div>
+      <h3>Valerian Root</h3>
     </div>
+    <div class="evidence-bar"><div class="evidence-fill" style="width:52%"></div></div>
+    <div class="evidence-label"><span>Evidence strength</span><span>Mixed</span></div>
+    <p>Valerian is one of the oldest sleep remedies in Western herbalism, and it has a surprisingly large body of research &mdash; the problem is that results are deeply inconsistent. Several well-designed trials show meaningful improvements in sleep quality and sleep onset; others show no effect beyond placebo. The variability likely reflects differences in plant extraction methods, constituent concentrations (particularly valerenic acid), and study populations. If you decide to try valerian, use a standardized extract at 300&ndash;600mg and give it at least two to four weeks of consistent use before evaluating your response.</p>
+    <span class="dose-tag">Recommended dose: 300&ndash;600mg standardized extract, 30&ndash;60 min before bed</span>
+  </div>
 
-    <!-- #5 Passionflower -->
-    <div class="aid-card">
-      <div class="aid-rank">#5</div>
-      <h3>Passionflower <span class="evidence-badge evidence-moderate">Moderate</span></h3>
-      <div class="aid-meta">
-        <span><strong>Dose:</strong> 250–500 mg extract, or 1 cup tea</span>
-        <span><strong>Timing:</strong> 45–60 min before bed</span>
-        <span><strong>Form:</strong> Extract or herbal tea</span>
-      </div>
-      <p>Passionflower (<em>Passiflora incarnata</em>) is one of the more intriguing entries on this list. A small but well-designed RCT published in <em>Phytotherapy Research</em> (2011) found that one cup of passionflower tea per night for a week significantly improved subjective sleep quality scores compared to placebo tea — with participants reporting better sleep quality, less wakefulness, and feeling more rested.</p>
-      <p>The active compounds (particularly chrysin and other flavonoids) appear to act on GABA-A receptors in a manner similar to benzodiazepines, but far more gently and without dependency risk. Passionflower is especially useful for anxiety-driven sleep disruption. The evidence base is smaller than valerian's but the effect sizes are promising.</p>
+  <!-- #7 -->
+  <div class="rank-card">
+    <div class="rank-card-header">
+      <div class="rank-badge">7</div>
+      <h3>Passionflower</h3>
     </div>
+    <div class="evidence-bar"><div class="evidence-fill" style="width:44%"></div></div>
+    <div class="evidence-label"><span>Evidence strength</span><span>Promising, limited</span></div>
+    <p>Passionflower (<em>Passiflora incarnata</em>) acts on GABA-A receptors, similar in mechanism to benzodiazepines but with far weaker potency. One small RCT found that a passionflower tea taken nightly for a week improved subjective sleep quality compared to placebo. Another trial found no significant effect. The evidence base remains thin &mdash; just a handful of human trials, many with small sample sizes &mdash; but the safety profile is good and the mechanism is pharmacologically plausible. Worth considering if other options have not worked, but expectations should be modest.</p>
+    <span class="dose-tag">Recommended dose: 200&ndash;400mg dried extract or one cup of tea before bed</span>
+  </div>
 
-    <!-- #6 Glycine -->
-    <div class="aid-card">
-      <div class="aid-rank">#6</div>
-      <h3>Glycine <span class="evidence-badge evidence-moderate">Moderate</span></h3>
-      <div class="aid-meta">
-        <span><strong>Dose:</strong> 3 g</span>
-        <span><strong>Timing:</strong> 30–60 min before bed</span>
-        <span><strong>Form:</strong> Powder (mildly sweet, dissolves in water)</span>
-      </div>
-      <p>Glycine is an amino acid that's been quietly accumulating a solid evidence base as a sleep aid. It works through a different mechanism than most supplements on this list: rather than promoting sedation, it lowers core body temperature — a critical cue that signals the brain it's time to sleep.</p>
-      <p>A series of Japanese studies (Inagawa et al., Bannai et al.) found that 3 g of glycine before bed improved subjective sleep quality, reduced daytime sleepiness, and improved certain objective polysomnographic measures in people with mild sleep dissatisfaction. The effect on sleep onset was notable — subjects fell asleep faster and reported feeling more refreshed in the morning.</p>
-      <p>Glycine powder is inexpensive, tasteless-to-mildly-sweet, and dissolves easily in water. It's one of the most underrated sleep supplements available.</p>
+  <!-- #8 -->
+  <div class="rank-card">
+    <div class="rank-card-header">
+      <div class="rank-badge">8</div>
+      <h3>5-HTP</h3>
     </div>
+    <div class="evidence-bar"><div class="evidence-fill" style="width:40%"></div></div>
+    <div class="evidence-label"><span>Evidence strength</span><span>Promising, caution advised</span></div>
+    <p>5-HTP (5-hydroxytryptophan) is a precursor to serotonin and, downstream, melatonin. The theory is sound: supplementing with 5-HTP raises serotonin levels, which in turn supports melatonin production and improves sleep. Human trial evidence for sleep specifically is modest, though 5-HTP has stronger support for mood. The main cautions are significant: it should never be combined with SSRIs or other serotonergic drugs, and long-term use at high doses carries theoretical risks of cardiac valvular issues based on animal data. Best reserved for short-term use in otherwise healthy individuals who are not on medications.</p>
+    <span class="dose-tag">Recommended dose: 50&ndash;100mg before bed; consult a doctor if on any medications</span>
+  </div>
 
-    <!-- #7 Tart Cherry Juice -->
-    <div class="aid-card">
-      <div class="aid-rank">#7</div>
-      <h3>Tart Cherry Juice <span class="evidence-badge evidence-moderate">Moderate</span></h3>
-      <div class="aid-meta">
-        <span><strong>Dose:</strong> 240 ml (8 oz) concentrate diluted, or 480 mg extract</span>
-        <span><strong>Timing:</strong> 1–2 hours before bed</span>
-        <span><strong>Form:</strong> Montmorency tart cherry juice or extract</span>
-      </div>
-      <p>Tart cherry juice is one of the few whole-food sources with meaningful RCT evidence for sleep. Montmorency cherries are naturally rich in melatonin, tryptophan (a melatonin precursor), and proanthocyanidins that inhibit tryptophan degradation — essentially preserving your body's melatonin-production pathway.</p>
-      <p>A 2012 pilot RCT in the <em>European Journal of Nutrition</em> found that tart cherry juice significantly increased both total sleep time and sleep efficiency. Total melatonin content was significantly elevated in urine samples, confirming the biological mechanism. A follow-up study confirmed the findings in insomnia patients specifically.</p>
-      <p>The juice form works, but it's calorically significant. Tart cherry extract capsules are a practical alternative without the sugar load.</p>
+  <!-- #9 -->
+  <div class="rank-card">
+    <div class="rank-card-header">
+      <div class="rank-badge">9</div>
+      <h3>Lemon Balm (Melissa officinalis)</h3>
     </div>
+    <div class="evidence-bar"><div class="evidence-fill" style="width:35%"></div></div>
+    <div class="evidence-label"><span>Evidence strength</span><span>Weak&ndash;Promising</span></div>
+    <p>Lemon balm is a mild anxiolytic herb most often combined with valerian in commercial sleep products. The combination has been studied more than lemon balm alone, making it difficult to attribute observed effects to either herb independently. A few trials suggest it modestly reduces anxiety and improves sleep quality in mild insomnia, but most studies are small, short, and sponsored by supplement companies &mdash; a combination that warrants caution when interpreting results. It is safe, inexpensive, and pleasant as a tea ritual before bed, but the evidence does not yet support confident recommendations for sleep-specific use.</p>
+    <span class="dose-tag">Recommended dose: 300&ndash;600mg extract or as tea, 30 min before bed</span>
+  </div>
 
-    <!-- #8 Chamomile -->
-    <div class="aid-card">
-      <div class="aid-rank">#8</div>
-      <h3>Chamomile <span class="evidence-badge evidence-emerging">Emerging</span></h3>
-      <div class="aid-meta">
-        <span><strong>Dose:</strong> 270–500 mg extract, or 1–2 cups strong tea</span>
-        <span><strong>Timing:</strong> 45–60 min before bed</span>
-        <span><strong>Form:</strong> Extract or tea</span>
-      </div>
-      <p>Chamomile is probably the most commonly consumed herbal sleep aid in the world, yet the clinical evidence is thinner than its reputation suggests. That's not to say it doesn't work — it just means the effect size is modest and studies are smaller.</p>
-      <p>The active flavonoid apigenin binds to benzodiazepine receptors in the brain, producing mild sedation. A 2017 RCT in <em>Complementary Therapies in Medicine</em> found chamomile extract significantly improved sleep quality in elderly people with chronic insomnia. Another study in postnatal women found improved sleep quality and reduced depression symptoms.</p>
-      <p>Chamomile is best understood as a sleep aid with cumulative benefits: nightly use for 2–4 weeks tends to yield better results than single-dose use. It's also extremely safe, which counts for something.</p>
+  <!-- #10 -->
+  <div class="rank-card">
+    <div class="rank-card-header">
+      <div class="rank-badge">10</div>
+      <h3>CBD (Cannabidiol)</h3>
     </div>
+    <div class="evidence-bar"><div class="evidence-fill" style="width:30%"></div></div>
+    <div class="evidence-label"><span>Evidence strength</span><span>Early-stage, hype exceeds evidence</span></div>
+    <p>CBD has received enormous media attention as a sleep aid, but the clinical evidence for sleep specifically remains preliminary and inconsistent. Studies so far have primarily examined anxiety reduction (which may secondarily improve sleep) or have been conducted in populations with specific conditions like PTSD or Parkinson&rsquo;s disease. Doses used across studies vary wildly &mdash; from 25mg to 1,500mg per day &mdash; making cross-study comparisons nearly impossible. The marketing is years ahead of the science. That said, early data is not negative: anxiety reduction is real and well-documented, and if anxiety is the primary driver of your poor sleep, CBD may help indirectly.</p>
+    <span class="dose-tag">Recommended dose: 25&ndash;75mg of a third-party tested product; consult your doctor</span>
+  </div>
 
-    <!-- #9 Lemon Balm -->
-    <div class="aid-card">
-      <div class="aid-rank">#9</div>
-      <h3>Lemon Balm <span class="evidence-badge evidence-emerging">Emerging</span></h3>
-      <div class="aid-meta">
-        <span><strong>Dose:</strong> 300–600 mg extract</span>
-        <span><strong>Timing:</strong> 30–60 min before bed</span>
-        <span><strong>Form:</strong> Extract or combination formula</span>
-      </div>
-      <p>Lemon balm (<em>Melissa officinalis</em>) works primarily by inhibiting GABA transaminase — the enzyme that breaks down GABA — thereby increasing GABA levels in the brain. It's a similar mechanism to valerian (and prescription sleep medications), but gentler.</p>
-      <p>Most of the stronger evidence for lemon balm is in combination with valerian, and a meta-analysis found the combination significantly outperformed placebo for sleep quality and sleep latency. As a standalone, the evidence is emerging rather than established. It's particularly useful for stress-related sleep disturbances and has a good safety profile with no reported dependency.</p>
+  <!-- SECTION 3 -->
+  <h2>How These Supplements Actually Work</h2>
+
+  <p>Understanding the mechanism behind a sleep supplement is not just academic &mdash; it tells you who the supplement is likely to help, when to take it, and what realistic results to expect. Sleep is a complex process involving multiple neurotransmitter systems, hormones, and circadian timing signals. No single supplement addresses all of these simultaneously, which is why matching the supplement to the underlying problem matters far more than simply picking the most popular product.</p>
+
+  <p><strong>GABA-system modulators</strong> (valerian, passionflower, lemon balm) enhance the activity of gamma-aminobutyric acid, the brain&rsquo;s primary inhibitory neurotransmitter. When GABA activity increases, neural firing slows, anxiety decreases, and the brain becomes more receptive to sleep. This is the same mechanism that prescription benzodiazepines and Z-drugs exploit, at dramatically higher potency and with correspondingly greater side-effect profiles.</p>
+
+  <p><strong>Circadian and hormonal regulators</strong> (melatonin) do not sedate you &mdash; they advance or anchor your circadian sleep timing. They are most useful when your internal clock is misaligned with your desired sleep schedule, not when you have structural insomnia driven by anxiety, pain, or sleep apnea.</p>
+
+  <p><strong>Mineral cofactors</strong> (magnesium) support the enzymatic pathways that produce sleep-promoting neurotransmitters and regulate stress hormones. As Stevenson (2016) explains in <em>Sleep Smarter</em>, addressing nutritional deficiencies can often be more effective than adding a specialized supplement, because the body already knows what to do with the raw materials &mdash; it simply needs them available. Correcting a magnesium deficit is not adding a drug to the system; it is restoring a nutrient the system was already designed to use.</p>
+
+  <p><strong>Cortisol and stress modulators</strong> (ashwagandha, L-theanine) improve sleep indirectly by reducing the physiological hyperarousal that prevents both sleep onset and deep sleep maintenance. These are particularly valuable for people whose primary sleep problem is a racing mind or a body that does not wind down in the evening hours, regardless of how tired they feel.</p>
+
+  <!-- SECTION 4 -->
+  <h2>Dosing, Timing, and Common Mistakes</h2>
+
+  <p>Dosing errors are the most common reason natural sleep supplements fail. The two most frequent mistakes are taking too much melatonin (the rebound alertness effect from supraphysiological doses can worsen sleep architecture and reduce natural melatonin production over time) and taking supplements too late in the evening (most benefit from a 30&ndash;60 minute lead time before your target sleep hour).</p>
+
+  <h3>Timing guidelines by mechanism</h3>
+  <ul>
+    <li><strong>Take 30 min before bed:</strong> Magnesium glycinate, L-theanine, glycine, melatonin, passionflower, lemon balm</li>
+    <li><strong>Take daily at a consistent time (effects build over weeks):</strong> Ashwagandha, 5-HTP</li>
+    <li><strong>Flexible (30&ndash;60 min before bed, or as a wind-down ritual):</strong> Valerian, CBD</li>
+  </ul>
+
+  <h3>Smart stacking: what works together</h3>
+  <p>The most evidence-supported combination for general sleep improvement is magnesium glycinate combined with L-theanine, with low-dose melatonin (0.5&ndash;1mg) added only if circadian timing is a specific problem. Avoid combining multiple GABA modulators simultaneously (valerian plus passionflower plus lemon balm at high doses) as additive central nervous system depression carries risk, particularly for older adults or people on any sedating medications. Always introduce one new supplement at a time, at minimum effective doses, to accurately gauge your individual response before adding anything else.</p>
+
+  <h3>What to avoid</h3>
+  <p>Be cautious of products that combine 10 or more ingredients at doses far too low to be clinically effective &mdash; a common formulation strategy that creates marketing plausibility while keeping production costs down. Also avoid supplements with proprietary blends that obscure individual ingredient amounts, since you cannot verify you are receiving an effective dose of any component. And critically, never use any supplement as a substitute for addressing the behavioral drivers of insomnia: irregular sleep and wake times, blue light exposure after dark, caffeine consumed after noon, alcohol used as a sleep aid, and high-stress evening routines that keep cortisol elevated at bedtime. Stevenson (2016) is emphatic on this point in <em>Sleep Smarter</em>: supplements are accelerators of good habits, not replacements for them. The behavioral foundation always comes first.</p>
+
+  <!-- GREEN CALLOUT -->
+  <div class="callout" style="border-left:3px solid var(--green)">&#128154; <strong>Tonight&rsquo;s action:</strong> Start with magnesium glycinate (300mg) taken 30 minutes before bed. It has the strongest evidence base of any natural sleep supplement and the lowest risk of side effects.</div>
+
+  <!-- PRODUCT CTA -->
+  <div class="product-cta">
+    <h3>&#127769; Magnesium Glycinate &mdash; Our Top Pick</h3>
+    <p>The best-evidenced natural sleep supplement, with a strong safety profile and no dependency risk. Look for a chelated glycinate form with third-party purity testing for consistent potency.</p>
+    <a href="https://www.amazon.com/s?k=magnesium+glycinate+sleep+supplement&tag=sleepwiserevi-20" class="btn-amazon" target="_blank" rel="nofollow noopener">&#128722; Shop Magnesium Glycinate on Amazon</a>
+    <p class="affiliate-note">Affiliate link &mdash; we earn a small commission at no extra cost to you</p>
+  </div>
+
+  <!-- NEWSLETTER CTA -->
+  <div class="article-cta">
+    <h2>Get Evidence-Only Sleep Research</h2>
+    <p>No hype. No affiliate-first recommendations. Just the research that actually matters, delivered weekly to your inbox.</p>
+    <div class="newsletter-form">
+      <input type="email" placeholder="your@email.com">
+      <button type="submit">Subscribe</button>
     </div>
+  </div>
 
-    <!-- #10 Lavender -->
-    <div class="aid-card">
-      <div class="aid-rank">#10</div>
-      <h3>Lavender (Silexan / Aromatherapy) <span class="evidence-badge evidence-emerging">Emerging</span></h3>
-      <div class="aid-meta">
-        <span><strong>Dose:</strong> 80 mg Silexan (oral), or diffuse 2–4 drops essential oil</span>
-        <span><strong>Timing:</strong> Evening / at bedtime</span>
-        <span><strong>Form:</strong> Silexan capsule (Lavela WS 1265) or essential oil diffuser</span>
-      </div>
-      <p>Lavender lands last not because it doesn't work, but because its evidence base is split between two very different delivery formats — aromatherapy (inhaled) and oral supplementation (Silexan) — which don't necessarily produce the same results.</p>
-      <p>The oral form (Silexan, 80 mg) has actually produced impressive results in anxiety-related sleep disturbance, with several RCTs showing significant improvements in sleep quality comparable to low-dose lorazepam. The aromatherapy evidence is more inconsistent and often methodologically weaker, though multiple studies show reduced nighttime awakenings and improved sleep satisfaction with bedside diffusion of lavender essential oil.</p>
-      <p>If you're interested in lavender as a sleep aid, Silexan is the better-evidenced option. Aromatherapy is a pleasant ritual that may have modest benefits — but don't expect it to rescue severe insomnia.</p>
+  <!-- RELATED ARTICLES -->
+  <div class="related-articles">
+    <h2>Related Articles</h2>
+    <div class="related-grid">
+      <a href="sleep-hygiene-checklist.html" class="related-card">
+        <span class="tag">Sleep Hygiene</span>
+        <h4>The 12-Point Sleep Hygiene Checklist Backed by Science</h4>
+      </a>
+      <a href="melatonin-dosage-guide.html" class="related-card">
+        <span class="tag">Supplements</span>
+        <h4>Why You&rsquo;re Probably Taking Too Much Melatonin</h4>
+      </a>
+      <a href="magnesium-deficiency-sleep.html" class="related-card">
+        <span class="tag">Nutrition</span>
+        <h4>Magnesium Deficiency: The Hidden Cause of Your Poor Sleep</h4>
+      </a>
+      <a href="sleep-tracking-guide.html" class="related-card">
+        <span class="tag">Sleep Tech</span>
+        <h4>Do Sleep Trackers Actually Improve Sleep? The Evidence</h4>
+      </a>
     </div>
+  </div>
 
-    <hr />
+</main>
 
-    <h2>The Melatonin Question</h2>
-
-    <p>You may have noticed melatonin isn't on this list. That's intentional. Melatonin isn't ranked because it operates in a different category: it's a <em>timing signal</em>, not a sedative. Melatonin helps shift when you feel sleepy, which makes it genuinely useful for jet lag, shift work, and circadian rhythm disruption. But if your problem is sleep quality, sleep depth, or anxiety-driven wakefulness, melatonin is the wrong tool.</p>
-
-    <p>Most people take far too much of it (5–10 mg) when research suggests 0.3–0.5 mg is closer to the physiologically relevant dose. Higher doses don't make you sleep better — they make you groggy the next morning and, with chronic use, may downregulate your natural melatonin production.</p>
-
-    <p>If you have sleep timing problems, melatonin is excellent. If you have sleep quality problems, look at magnesium glycinate and L-theanine first.</p>
-
-    <h2>How to Stack These Supplements</h2>
-
-    <p>You don't need to take all ten. Start with one or two and give each a proper trial (at least 2–3 weeks of consistent use before judging effectiveness).</p>
-
-    <p><strong>Starter stack for most people:</strong> Magnesium glycinate (300 mg) + L-theanine (200 mg), 30–45 minutes before bed.</p>
-
-    <p><strong>For stress-driven sleep problems:</strong> Add ashwagandha (KSM-66, 300 mg) taken in the evening. Swap L-theanine for passionflower or lemon balm if you prefer an herbal approach.</p>
-
-    <p><strong>For sleep maintenance issues (waking in the night):</strong> Glycine (3 g) is particularly useful here alongside magnesium. Tart cherry extract may also help by sustaining melatonin levels through the night.</p>
-
-    <p><strong>For sleep onset latency (hard to fall asleep):</strong> Valerian root (300–600 mg), passionflower, or L-theanine. Give valerian at least 2–4 weeks of consistent use.</p>
-
-    <div class="callout">
-      <div class="callout-title">Protocol Note</div>
-      As Shawn Stevenson emphasises in <em>Sleep Smarter</em> (2016), no supplement should be your primary sleep intervention — it's a support layer on top of fundamentals. Prioritise: consistent sleep and wake times, a dark and cool bedroom (65–68°F / 18–20°C), no bright screens for 60 minutes before bed, and morning light exposure. Supplements make these habits work better; they can't replace them.
+<!-- FOOTER -->
+<footer>
+  <div class="footer-grid">
+    <div class="footer-brand">
+      <div class="logo">SleepWise Reviews</div>
+      <p>Evidence-based sleep research, supplement reviews, and practical guidance &mdash; written by researchers, not marketers. We follow the science wherever it leads, and we update our content when the evidence changes.</p>
     </div>
-
-    <h2>Safety Considerations</h2>
-
-    <p>All ten supplements on this list have well-established safety profiles at the doses listed. That said:</p>
-    <ul>
-      <li>If you take prescription medications — particularly blood pressure medications, antidepressants, or sedatives — check with your doctor or pharmacist before adding any supplement. Valerian and lemon balm in particular can potentiate sedative medications.</li>
-      <li>Ashwagandha is not recommended during pregnancy or for people with thyroid conditions without medical supervision.</li>
-      <li>None of these supplements are appropriate as long-term replacements for treating clinical insomnia — if you have chronic sleep disorder, work with a sleep specialist. CBT-I (cognitive behavioural therapy for insomnia) has a stronger evidence base than any supplement on this list.</li>
-    </ul>
-
-    <!-- Product CTA -->
-    <div class="product-cta">
-      <h3>Browse Evidence-Based Sleep Supplements</h3>
-      <p>We've filtered Amazon's sleep supplement catalogue down to the forms and brands with actual clinical backing — magnesium glycinate, KSM-66 ashwagandha, L-theanine, and more.</p>
-      <a class="btn-gold" href="https://www.amazon.com/s?k=sleep+supplements&tag=sleepwiserevi-20" target="_blank" rel="noopener">Browse Sleep Supplements on Amazon →</a>
-      <p class="affiliate-note">Affiliate link — we may earn a small commission at no extra cost to you. See our <a href="../pages/affiliate-disclosure.html">disclosure</a>.</p>
+    <div class="footer-col">
+      <h4>Articles</h4>
+      <ul>
+        <li><a href="../">Sleep Hygiene</a></li>
+        <li><a href="../">Supplements</a></li>
+        <li><a href="../">Sleep Disorders</a></li>
+        <li><a href="../">Nutrition &amp; Sleep</a></li>
+      </ul>
     </div>
-
-    <!-- Article CTA -->
-    <div class="article-cta">
-      <h3>Want Our Full Supplement Guide?</h3>
-      <p>Our in-depth sleep supplements guide covers dosing protocols, timing stacks, and what to look for on the label — including red flags to avoid.</p>
-      <a class="btn-outline" href="best-sleep-supplements-guide.html">Read the Full Supplements Guide →</a>
+    <div class="footer-col">
+      <h4>Reviews</h4>
+      <ul>
+        <li><a href="../">Mattresses</a></li>
+        <li><a href="../">Pillows</a></li>
+        <li><a href="../">Sleep Trackers</a></li>
+        <li><a href="../">White Noise</a></li>
+      </ul>
     </div>
-
-    <!-- Related Articles -->
-    <div class="related-articles">
-      <h2>Related Reading</h2>
-      <div class="related-grid">
-        <a class="related-card" href="magnesium-types-sleep.html">
-          <span class="rc-cat">Deep Dive</span>
-          <span class="rc-title">Magnesium Types for Sleep: Glycinate vs Oxide vs L-Threonate</span>
-          <span class="rc-arrow">Read article →</span>
-        </a>
-        <a class="related-card" href="best-sleep-supplements-guide.html">
-          <span class="rc-cat">Practical Guide</span>
-          <span class="rc-title">The Complete Sleep Supplements Guide for 2026</span>
-          <span class="rc-arrow">Read article →</span>
-        </a>
-        <a class="related-card" href="sleep-immune-system.html">
-          <span class="rc-cat">Science</span>
-          <span class="rc-title">How Sleep Affects Your Immune System (And What to Do About It)</span>
-          <span class="rc-arrow">Read article →</span>
-        </a>
-      </div>
+    <div class="footer-col">
+      <h4>About</h4>
+      <ul>
+        <li><a href="../">Our Mission</a></li>
+        <li><a href="../">Review Process</a></li>
+        <li><a href="../">Affiliate Policy</a></li>
+        <li><a href="../">Contact</a></li>
+      </ul>
     </div>
-
-  </article>
-
-  <!-- FOOTER -->
-  <footer>
-    <div class="footer-inner">
-      <div class="footer-grid">
-        <div class="footer-brand">
-          <a class="footer-logo" href="../">SleepWiseReviews</a>
-          <p>Evidence-based sleep guides, honest product reviews, and practical advice for people who take their rest seriously.</p>
-        </div>
-        <div class="footer-col">
-          <h4>Reviews</h4>
-          <ul>
-            <li><a href="https://www.amazon.com/s?k=weighted+blankets&tag=sleepwiserevi-20" target="_blank" rel="noopener">Weighted Blankets</a></li>
-            <li><a href="https://www.amazon.com/s?k=white+noise+machines&tag=sleepwiserevi-20" target="_blank" rel="noopener">White Noise Machines</a></li>
-            <li><a href="https://www.amazon.com/s?k=sleep+supplements&tag=sleepwiserevi-20" target="_blank" rel="noopener">Supplements</a></li>
-          </ul>
-        </div>
-        <div class="footer-col">
-          <h4>Guides</h4>
-          <ul>
-            <li><a href="best-sleep-supplements-guide.html">Sleep Supplements</a></li>
-            <li><a href="magnesium-types-sleep.html">Magnesium for Sleep</a></li>
-            <li><a href="sleep-immune-system.html">Sleep &amp; Immunity</a></li>
-          </ul>
-        </div>
-        <div class="footer-col">
-          <h4>Site</h4>
-          <ul>
-            <li><a href="../pages/about.html">About</a></li>
-            <li><a href="../pages/privacy.html">Privacy Policy</a></li>
-            <li><a href="../pages/affiliate-disclosure.html">Disclosure</a></li>
-          </ul>
-        </div>
-      </div>
-      <div class="footer-bottom">
-        <p>&copy; 2026 SleepWiseReviews. All rights reserved.</p>
-        <p><a href="../pages/affiliate-disclosure.html">Affiliate Disclosure</a> &nbsp;·&nbsp; <a href="../pages/privacy.html">Privacy</a></p>
-      </div>
-    </div>
-  </footer>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; 2024&ndash;2026 SleepWise Reviews. For informational purposes only. Always consult a healthcare provider before starting any supplement regimen.</p>
+    <p><a href="../">Privacy Policy</a> &middot; <a href="../">Terms</a></p>
+  </div>
+</footer>
 
 </body>
 </html>
