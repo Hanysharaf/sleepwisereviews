@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>How Your Body Regulates Temperature During Sleep - SleepWiseReviews</title>
+  <meta name="description" content="Your body's core temperature must drop exactly 1–1.5°C before sleep onset can begin. Learn how thermoregulation drives every stage of sleep — and how to use it to sleep deeper." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <style type='text/css'>
+    :root {
+      --night: #0A0E1A;
+      --deep: #0F1525;
+      --navy: #141B30;
+      --card: #1A2238;
+      --border: #252D45;
+      --gold: #C9A84C;
+      --gold-light: #E5C96A;
+      --gold-dim: rgba(201, 168, 76, 0.15);
+      --star: #F0E6C8;
+      --text: #D4DCEE;
+      --muted: #7A85A0;
+      --white: #FFFFFF;
+      --green: #4CAF82;
+    }
+
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: 'Outfit', sans-serif;
+      background: var(--night);
+      color: var(--text);
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      background-image:
+        radial-gradient(1px 1px at 10% 15%, rgba(240, 230, 200, 0.6) 0%, transparent 100%),
+        radial-gradient(1px 1px at 25% 40%, rgba(240, 230, 200, 0.4) 0%, transparent 100%),
+        radial-gradient(1.5px 1.5px at 40% 10%, rgba(240, 230, 200, 0.5) 0%, transparent 100%),
+        radial-gradient(1px 1px at 55% 30%, rgba(240, 230, 200, 0.3) 0%, transparent 100%),
+        radial-gradient(1px 1px at 70% 5%, rgba(240, 230, 200, 0.6) 0%, transparent 100%),
+        radial-gradient(1.5px 1.5px at 80% 20%, rgba(240, 230, 200, 0.4) 0%, transparent 100%),
+        radial-gradient(1px 1px at 90% 45%, rgba(240, 230, 200, 0.3) 0%, transparent 100%);
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    nav {
+      position: sticky; top: 0; z-index: 100;
+      background: rgba(10, 14, 26, 0.92);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+      padding: 0 6%; height: 68px;
+      display: flex; align-items: center; justify-content: space-between;
+    }
+    .logo { font-family: 'Cormorant Garamond', serif; font-size: 1.6rem; font-weight: 700; color: var(--star); text-decoration: none; }
+    .logo span { color: var(--gold); }
+    .nav-links { display: flex; gap: 2rem; list-style: none; }
+    .nav-links a { text-decoration: none; color: var(--muted); font-size: 0.88rem; font-weight: 500; transition: color 0.2s; }
+    .nav-links a:hover { color: var(--gold); }
+    .nav-cta { background: var(--gold-dim); color: var(--gold) !important; border: 1px solid rgba(201, 168, 76, 0.3); padding: 7px 16px; border-radius: 4px; }
+
+    .article-wrapper {
+      position: relative; z-index: 1;
+      max-width: 800px; margin: 0 auto; padding: 50px 6% 80px;
+    }
+    .article-meta-top { display: flex; flex-wrap: wrap; align-items: center; gap: 0.8rem; margin-bottom: 1.2rem; }
+    .tag { background: var(--gold); color: var(--night); padding: 5px 12px; border-radius: 4px; font-size: 0.72rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; }
+    .meta-text { color: var(--muted); font-size: 0.82rem; }
+    .article-wrapper h1 { font-family: 'Cormorant Garamond', serif; font-size: 2.4rem; font-weight: 600; color: var(--star); line-height: 1.2; margin-bottom: 1.2rem; }
+    .article-intro { font-size: 1.1rem; color: var(--text); line-height: 1.7; margin-bottom: 2rem; font-weight: 300; }
+    .author-box { display: flex; align-items: center; gap: 1rem; margin-bottom: 1.5rem; padding: 1rem; background: var(--card); border-radius: 8px; border: 1px solid var(--border); }
+    .author-avatar { font-size: 2.5rem; }
+    .author-name { color: var(--star); font-weight: 500; }
+    .author-name a { color: var(--gold); text-decoration: none; }
+    .author-role { color: var(--muted); font-size: 0.82rem; }
+    .disclosure-box { background: rgba(201, 168, 76, 0.08); border: 1px solid rgba(201, 168, 76, 0.2); border-radius: 8px; padding: 1rem 1.2rem; font-size: 0.82rem; color: var(--muted); margin-bottom: 2rem; }
+    .article-wrapper h2 { font-family: 'Cormorant Garamond', serif; font-size: 1.6rem; font-weight: 600; color: var(--star); margin: 2.5rem 0 1rem; padding-top: 1rem; }
+    .article-wrapper h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.2rem; color: var(--star); margin: 1.5rem 0 0.8rem; }
+    .article-wrapper p { margin-bottom: 1rem; font-weight: 300; line-height: 1.8; }
+    .article-wrapper ul, .article-wrapper ol { margin: 1rem 0 1.5rem 1.5rem; }
+    .article-wrapper li { margin-bottom: 0.5rem; font-weight: 300; }
+    .callout { background: var(--card); border-left: 3px solid var(--gold); padding: 1rem 1.5rem; margin: 1.5rem 0; border-radius: 0 8px 8px 0; font-size: 0.92rem; }
+    .callout-green { background: var(--card); border-left: 3px solid var(--green); padding: 1rem 1.5rem; margin: 1.5rem 0; border-radius: 0 8px 8px 0; font-size: 0.92rem; }
+
+    .product-cta { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 1.5rem; margin: 2rem 0; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; }
+    .product-cta-text { color: var(--star); font-weight: 500; }
+    .btn-amazon { background: var(--gold); color: var(--night); text-decoration: none; padding: 10px 20px; border-radius: 6px; font-weight: 600; font-size: 0.88rem; transition: background 0.2s; }
+    .btn-amazon:hover { background: var(--gold-light); }
+
+    .temp-table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; font-size: 0.88rem; }
+    .temp-table th { background: var(--navy); color: var(--gold); font-weight: 600; text-align: left; padding: 10px 14px; border-bottom: 1px solid var(--border); }
+    .temp-table td { padding: 9px 14px; border-bottom: 1px solid var(--border); color: var(--text); font-weight: 300; }
+    .temp-table tr:hover td { background: rgba(255,255,255,0.03); }
+
+    .article-cta { background: linear-gradient(135deg, var(--card), var(--navy)); border: 1px solid var(--border); border-radius: 12px; padding: 2rem; text-align: center; margin: 3rem 0; }
+    .article-cta h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.4rem; color: var(--star); margin-bottom: 0.8rem; }
+    .article-cta p { color: var(--muted); margin-bottom: 1.2rem; }
+
+    .related-articles { margin: 3rem 0; }
+    .related-articles h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.3rem; color: var(--star); margin-bottom: 1rem; }
+    .related-articles ul { list-style: none; margin: 0; }
+    .related-articles li { margin-bottom: 0.6rem; }
+    .related-articles a { color: var(--gold); text-decoration: none; font-size: 0.95rem; }
+    .related-articles a:hover { text-decoration: underline; }
+
+    footer { background: #060912; border-top: 1px solid var(--border); padding: 50px 6% 30px; }
+    .footer-top { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 3rem; margin-bottom: 3rem; padding-bottom: 3rem; border-bottom: 1px solid var(--border); }
+    .footer-brand p { color: var(--muted); font-size: 0.82rem; margin-top: 0.8rem; line-height: 1.6; font-weight: 300; max-width: 260px; }
+    .footer-col h4 { font-size: 0.78rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--gold); margin-bottom: 1rem; }
+    .footer-col ul { list-style: none; display: flex; flex-direction: column; gap: 0.6rem; }
+    .footer-col a { color: var(--muted); text-decoration: none; font-size: 0.85rem; transition: color 0.2s; }
+    .footer-col a:hover { color: var(--gold); }
+    .footer-bottom { display: flex; justify-content: space-between; font-size: 0.78rem; color: var(--muted); flex-wrap: wrap; gap: 0.5rem; }
+    .affiliate-disc { font-size: 0.75rem; max-width: 600px; }
+
+    @media (max-width: 900px) {
+      .nav-links { display: none; }
+      .article-wrapper h1 { font-size: 1.8rem; }
+      .footer-top { grid-template-columns: 1fr 1fr; }
+      .product-cta { flex-direction: column; text-align: center; }
+    }
+  </style>
+</head>
+
+<body>
+  <nav>
+    <a class="logo" href="../">SleepWise<span>Reviews</span></a>
+    <ul class="nav-links">
+      <li><a href="../#picks">Top Picks</a></li>
+      <li><a href="../#reviews">Reviews</a></li>
+      <li><a href="../pages/about.html">About Harry</a></li>
+      <li><a href="../#newsletter" class="nav-cta">Free Sleep Guide</a></li>
+    </ul>
+  </nav>
+
+  <article class="article-wrapper">
+    <div class="article-meta-top">
+      <span class="tag">Sleep Science</span>
+      <span class="meta-text">📅 March 2022</span>
+      <span class="meta-text">·</span>
+      <span class="meta-text">⏱ 8 min read</span>
+      <span class="meta-text">·</span>
+      <span class="meta-text">🔄 Updated Mar 2026</span>
+    </div>
+    <h1>How Your Body Regulates Temperature During Sleep</h1>
+    <p class="article-intro">Your body's core temperature must drop exactly 1–1.5°C before sleep onset can begin. This is not a side effect of sleep — it is a biological prerequisite, as non-negotiable as darkness or silence.</p>
+
+    <div class="author-box">
+      <div class="author-avatar">🌡️</div>
+      <div class="author-info">
+        <div class="author-name">By <a href="../pages/about.html">Harry Soul</a> - SleepWiseReviews</div>
+        <div class="author-role">Independent Sleep Researcher - March 2022</div>
+      </div>
+    </div>
+
+    <div class="disclosure-box">
+      <strong>Affiliate Disclosure:</strong> This article contains affiliate links. We earn a small commission if you purchase through our links at no extra cost to you. <a href="../pages/affiliate-disclosure.html" style="color:var(--gold)">Full disclosure</a>
+    </div>
+
+    <h2>Thermoregulation and Sleep: The Circadian Temperature Rhythm</h2>
+    <p>Your body temperature is not static. It rises and falls across a roughly 24-hour cycle governed by the same master clock — the suprachiasmatic nucleus in the hypothalamus — that controls your sleep-wake rhythm. Core body temperature typically peaks in the late afternoon around 5–7 PM, reaching approximately 37.5°C (99.5°F), then begins a steady decline that continues through the night.</p>
+    <p>This temperature rhythm is so reliable that researchers use it as one of the most accurate markers of circadian phase. When your temperature curve begins its descent, your brain interprets the drop as a signal: it is time to sleep. Melatonin release and core cooling are not separate events — they are co-regulated, each reinforcing the other. Disrupting one disrupts both.</p>
+    <p>As Shawn Stevenson explains in <em>Sleep Smarter</em> (2016), optimizing your body's thermoregulation is one of the highest-leverage levers for improving sleep quality. Most people focus on noise or light, yet temperature is arguably the more powerful variable — and one that is far easier to control once you understand the underlying physiology.</p>
+
+    <h2>Why Your Body Temperature Drops at Night</h2>
+    <p>The mechanism behind nighttime cooling is elegant: your body does not simply "turn down the thermostat." Instead, it actively redistributes blood from your core to your skin. Vasodilation — the widening of blood vessels near the surface — dramatically increases blood flow to the hands, feet, and face. Heat that was stored in the body's core is transported outward and radiated into the surrounding environment.</p>
+    <p>This process is controlled by the hypothalamus, which begins signaling vasodilation as darkness approaches. The skin's surface temperature actually rises as this happens — your hands and feet become warmer — while your core temperature falls. The net effect is a loss of heat from the body as a system, producing the requisite drop in core temperature that allows sleep onset to occur.</p>
+    <p>This distinction matters practically. A warm room blocks heat dissipation because the temperature gradient between your skin and the air is reduced. Your body cannot efficiently radiate heat into an environment that is already hot, so core temperature stays elevated and sleep onset is delayed or prevented entirely.</p>
+
+    <div class="callout">💡 <strong>The physiology in brief:</strong> Blood flows from core to skin → skin radiates heat into the room → core temperature falls → sleep onset is triggered. Any obstacle in this chain — a hot room, heavy blankets, tight clothing — delays the process.</div>
+
+    <h2>The 1–1.5°C Drop: The Threshold That Opens the Sleep Gate</h2>
+    <p>Research consistently identifies a core body temperature reduction of approximately 1 to 1.5°C as the threshold required for sleep onset. This is not a large shift in absolute terms — a fraction of a degree less than two degrees — but it is physiologically precise. Below this threshold, the hypothalamus permits the transition into sleep. Above it, wakefulness persists regardless of how tired you feel.</p>
+    <p>This threshold explains a phenomenon most people have experienced without understanding: lying in bed exhausted but unable to fall asleep. In many cases, the cause is not anxiety or caffeine — it is simply a bedroom that is too warm. The body has not yet completed the core cooling sequence that unlocks sleep onset. Reducing room temperature or removing insulating layers is often the fastest fix.</p>
+    <p>The implication for sleep architecture is significant. People who struggle to cool down do not merely take longer to fall asleep — they also obtain less deep sleep because the body's thermoregulatory demands compete with the processes of sleep consolidation throughout the night.</p>
+
+    <h2>The Role of the Hands and Feet in Heat Dissipation</h2>
+    <p>The hands and feet are the body's primary radiators. They have a high surface area relative to their volume, and they contain a specialized network of blood vessels — arteriovenous anastomoses — that can rapidly shunt large volumes of warm blood to the skin's surface. When the hypothalamus initiates the sleep-onset cooling sequence, blood flow to the extremities increases dramatically.</p>
+    <p>This is the physiological basis of an observation that seems counterintuitive at first: people with warm hands and feet tend to fall asleep faster. A landmark study by Kräuchi et al. (1999) demonstrated that the degree of distal vasodilation — essentially, how warm the hands and feet become — was the single strongest predictor of sleep onset latency. The warmer the periphery, the faster the core cools, and the faster sleep arrives.</p>
+    <p>For practical purposes, this means that wearing socks to bed, or briefly warming the feet before sleep, can measurably shorten the time it takes to fall asleep. It sounds trivially simple, but the mechanism is robust and well-supported. You are not making yourself comfortable — you are actively triggering the vasodilation cascade that initiates core cooling.</p>
+
+    <h2>Stage-by-Stage Thermoregulation: From Deep Sleep to REM</h2>
+    <p>Temperature regulation does not switch off once you fall asleep. It continues to evolve across each sleep stage, and the relationship between temperature and sleep architecture runs in both directions — each stage requires specific thermal conditions, and each stage in turn affects how the body manages heat.</p>
+
+    <table class="temp-table">
+      <thead>
+        <tr>
+          <th>Sleep Stage</th>
+          <th>Core Temp Trend</th>
+          <th>Thermoregulation</th>
+          <th>Key Function</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>N1 (Light Sleep)</td>
+          <td>Beginning to fall</td>
+          <td>Active (normal)</td>
+          <td>Transition, muscle relaxation</td>
+        </tr>
+        <tr>
+          <td>N2 (Light Sleep)</td>
+          <td>Continuing fall</td>
+          <td>Active (normal)</td>
+          <td>Memory consolidation, spindles</td>
+        </tr>
+        <tr>
+          <td>N3 (Deep / SWS)</td>
+          <td>Lowest point of night</td>
+          <td>Active (suppressed set-point)</td>
+          <td>Physical restoration, growth hormone</td>
+        </tr>
+        <tr>
+          <td>REM</td>
+          <td>Slightly rising</td>
+          <td>Largely suspended (poikilothermic)</td>
+          <td>Emotional memory, creativity</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <p>Deep sleep (N3, slow-wave sleep) is the coldest stage. The hypothalamus actively lowers its set-point during this phase, driving core temperature to its nightly minimum. This is not incidental — the temperature reduction during deep sleep appears to be one of the mechanisms that makes tissue repair, immune activity, and growth hormone secretion possible. The body essentially creates a controlled, cooler environment in which metabolic restoration can proceed most efficiently.</p>
+    <p>REM sleep presents a striking contrast. During REM, the brain suspends most thermoregulatory function. The body becomes temporarily poikilothermic — like a reptile, it neither generates nor dissipates heat actively, making it entirely dependent on the ambient temperature of the room. If the room is too warm during REM, core temperature drifts upward. If it is too cold, the body may interrupt REM to shiver and restore temperature, cutting the dream cycle short. This is why extreme room temperatures harm REM sleep disproportionately.</p>
+
+    <h2>Why Hot Sleepers Have Worse Sleep Architecture</h2>
+    <p>The term "hot sleeper" describes people who run warm at night — often due to hormonal factors, high metabolic rate, certain medications, or simply sleeping in an environment that is too warm. The consequences for sleep quality are not minor.</p>
+    <p>When core temperature fails to decline sufficiently at night, the body compensates by increasing wakefulness and light sleep at the expense of deep and REM sleep. Studies using polysomnography have shown that even modest elevations in bedroom temperature — moving from 18°C to 24°C — produce measurable reductions in slow-wave sleep and increases in waking. At 30°C, sleep architecture is substantially disrupted in most subjects.</p>
+    <p>The practical experience of hot sleeping is familiar: fitful nights, frequent waking, morning fatigue that seems disproportionate to total sleep time. The explanation is that even when total sleep duration is preserved, the depth and quality of the sleep cycles are degraded. Hours in bed do not equal hours of restorative sleep when thermoregulation is fighting against you the entire time.</p>
+
+    <h2>The Optimal Bedroom Temperature: The 65–68°F Evidence</h2>
+    <p>The most frequently cited optimal range for bedroom temperature in sleep research is 65–68°F (18–20°C). This range consistently appears across studies measuring sleep onset latency, total sleep time, slow-wave sleep percentage, and next-day cognitive performance. It represents the ambient condition under which most adults can most easily achieve and maintain the core temperature drop required for quality sleep.</p>
+    <p>There is a degree of individual variation. Older adults, who have blunted thermoregulatory capacity, may benefit from temperatures slightly higher — around 68–72°F (20–22°C). Children tend to sleep better at the cooler end of the range. People with insomnia often have elevated nighttime core temperatures, making a cool room particularly important for them.</p>
+    <p>What the research agrees on: temperatures above 75°F (24°C) consistently impair sleep in virtually all adult populations. The harm is dose-dependent — the hotter the room, the worse the sleep architecture. This is a modifiable variable that many people simply overlook while investing in supplements, eye masks, and noise machines.</p>
+
+    <div class="callout-green">
+      <strong>Practical Takeaway:</strong> Set your bedroom thermostat to 65–68°F (18–20°C) before bed. If that is not possible, use a fan to increase evaporative cooling, sleep with lighter bedding, or try a cooling mattress pad. Even lowering temperature by 2–3°F from a warm baseline will produce a measurable improvement in deep sleep percentage and next-morning alertness.
+    </div>
+
+    <h2>Practical Solutions: From Bedding to the Pre-Sleep Hot Bath</h2>
+    <p>Understanding the physiology of sleep thermoregulation makes the practical solutions obvious — and it also explains one of the most counterintuitive findings in sleep science.</p>
+
+    <h3>Bedding Choice</h3>
+    <p>Natural fibers — cotton, linen, bamboo, wool — regulate temperature more effectively than synthetic materials because they wick moisture and allow airflow. Moisture-wicking sheets accelerate evaporative cooling from the skin, directly assisting the body's own heat-dissipation process. Heavy synthetic duvets trap heat close to the body and inhibit the radiative cooling the hands and feet are trying to achieve.</p>
+
+    <h3>Cooling Mattress Pads</h3>
+    <p>A standard mattress retains body heat. Active cooling mattress pads — which circulate cooled water or use phase-change materials — address this directly by providing a consistent cool surface temperature against the body. Research on these devices shows they can meaningfully improve sleep architecture, particularly for hot sleepers and people going through menopause. Passive cooling toppers made from gel-infused foam or latex provide a more modest but real effect by conducting heat away from the body more efficiently than standard foam.</p>
+
+    <h3>The Pre-Sleep Hot Bath: Counterintuitive Cooling</h3>
+    <p>Taking a warm bath or shower (around 40–43°C / 104–109°F) approximately 1–2 hours before bed consistently reduces sleep onset latency and improves sleep quality — even though the bath itself raises skin temperature. The explanation lies in the vasodilation it triggers. Hot water forces blood to the skin's surface. When you emerge from the bath into a cooler room, the dilated blood vessels radiate heat rapidly, producing a swift and significant drop in core temperature that mimics and accelerates the body's natural pre-sleep cooling process.</p>
+    <p>A meta-analysis by Haghayegh et al. (2019) found that warm bathing 1–2 hours before bed reduced sleep onset latency by an average of 10 minutes — a clinically meaningful improvement achieved through nothing more than timing a shower correctly. The mechanism is pure thermoregulation, and it illustrates why understanding the physiology matters: what looks like a warming intervention is actually a powerful cooling one.</p>
+
+    <div class="product-cta">
+      <span class="product-cta-text">Ready to sleep cooler? Browse top-rated cooling mattress pads</span>
+      <a class="btn-amazon" href="https://www.amazon.com/s?k=cooling+mattress+pad+temperature&tag=sleepwiserevi-20" target="_blank" rel="noopener nofollow">Shop on Amazon</a>
+    </div>
+
+    <h2>Putting It All Together</h2>
+    <p>Sleep thermoregulation is not a passive background process. It is an active, precisely timed biological sequence that your body must complete for quality sleep to occur. The 1–1.5°C core temperature drop is the key; the bedroom environment, your bedding, and your pre-sleep habits either facilitate or obstruct it.</p>
+    <p>The practical implications are unusually clear for sleep science, a field where the evidence is often murky: cool your room to 65–68°F, choose breathable bedding, consider a cooling mattress pad if you sleep hot, and take a warm bath 1–2 hours before bed to trigger vasodilation. Each of these interventions works through the same mechanism — supporting your body's natural thermoregulatory sequence rather than fighting it.</p>
+    <p>Most people who struggle with sleep focus on the mind: racing thoughts, stress, screen time. These are real factors. But for a substantial proportion of poor sleepers, the simpler truth is that their room is too warm. Temperature is the variable that requires the least effort to change and delivers some of the most consistent improvements in sleep architecture. Start there.</p>
+
+    <div class="article-cta">
+      <h3>Get Our Free 7-Day Sleep Reset</h3>
+      <p>Join 18,000 readers who get weekly sleep tips and honest product reviews every Sunday.</p>
+      <a class="btn-amazon" href="../#newsletter">Subscribe Free</a>
+    </div>
+
+    <div class="related-articles">
+      <h3>Related Articles</h3>
+      <ul>
+        <li><a href="bedroom-temperature-sleep.html">The Ideal Bedroom Temperature for Sleep: What the Research Says</a></li>
+        <li><a href="best-cooling-mattress-pads.html">Best Cooling Mattress Pads: Tested for Hot Sleepers</a></li>
+        <li><a href="sleep-stages-explained.html">Understanding Sleep Stages: A Complete Guide to Your Sleep Cycle</a></li>
+      </ul>
+    </div>
+  </article>
+
+  <footer>
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a class="logo" href="../">SleepWise<span>Reviews</span></a>
+        <p>Honest, science-backed reviews to help you sleep deeper, recover faster, and wake up energized.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Reviews</h4>
+        <ul>
+          <li><a href="https://www.amazon.com/s?k=weighted+blanket&tag=sleepwiserevi-20" target="_blank">Weighted Blankets</a></li>
+          <li><a href="https://www.amazon.com/s?k=white+noise+machine&tag=sleepwiserevi-20" target="_blank">White Noise Machines</a></li>
+          <li><a href="https://www.amazon.com/s?k=sleep+supplements&tag=sleepwiserevi-20" target="_blank">Supplements</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Guides</h4>
+        <ul>
+          <li><a href="../#picks">Sleep Optimization</a></li>
+          <li><a href="../#reviews">Bedtime Routines</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Site</h4>
+        <ul>
+          <li><a href="../pages/about.html">About Harry Soul</a></li>
+          <li><a href="../pages/privacy-policy.html">Privacy Policy</a></li>
+          <li><a href="../pages/affiliate-disclosure.html">Affiliate Disclosure</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div>© 2025 SleepWiseReviews. All rights reserved.</div>
+      <div class="affiliate-disc">SleepWiseReviews is a participant in the Amazon Services LLC Associates Program.</div>
+    </div>
+  </footer>
+</body>
+</html>
