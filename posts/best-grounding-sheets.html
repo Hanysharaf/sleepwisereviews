@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Grounding Sheets for Sleep: The Evidence, Honestly Assessed | SleepWise Reviews</title>
+  <meta name="description" content="Grounding sheets are everywhere on social media. Here's what the actual clinical studies say — and it's more nuanced than either the believers or the debunkers want to admit." />
+  <meta property="og:title" content="Grounding Sheets for Sleep: The Evidence, Honestly Assessed" />
+  <meta property="og:description" content="Grounding sheets are everywhere on social media. Here's what the actual clinical studies say — and it's more nuanced than either the believers or the debunkers want to admit." />
+  <meta property="og:type" content="article" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --night:    #0A0E1A;
+      --deep:     #0F1525;
+      --navy:     #141B30;
+      --card:     #1A2238;
+      --border:   #252D45;
+      --gold:     #C9A84C;
+      --gold-light:#E5C96A;
+      --gold-dim: rgba(201,168,76,0.15);
+      --star:     #F0E6C8;
+      --text:     #D4DCEE;
+      --muted:    #7A85A0;
+      --green:    #4CAF82;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      background: var(--night);
+      color: var(--text);
+      font-family: 'Outfit', sans-serif;
+      font-size: 17px;
+      line-height: 1.75;
+      min-height: 100vh;
+    }
+
+    /* ── HEADER ── */
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(10,14,26,0.95);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+      padding: 0 1.5rem;
+    }
+    .header-inner {
+      max-width: 800px;
+      margin: 0 auto;
+      height: 58px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .site-logo {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.35rem;
+      font-weight: 600;
+      color: var(--gold-light);
+      text-decoration: none;
+      letter-spacing: 0.02em;
+    }
+    .site-logo span { color: var(--muted); font-weight: 400; }
+    nav a {
+      color: var(--muted);
+      text-decoration: none;
+      font-size: 0.85rem;
+      font-weight: 500;
+      margin-left: 1.4rem;
+      transition: color 0.2s;
+    }
+    nav a:hover { color: var(--gold-light); }
+
+    /* ── LAYOUT ── */
+    .page-wrap {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 2.5rem 1.5rem 5rem;
+    }
+
+    /* ── BADGE ── */
+    .badge {
+      display: inline-block;
+      background: var(--gold-dim);
+      border: 1px solid var(--gold);
+      color: var(--gold-light);
+      font-size: 0.72rem;
+      font-weight: 600;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      padding: 0.3rem 0.75rem;
+      border-radius: 2px;
+      margin-bottom: 1.1rem;
+    }
+
+    /* ── HERO ── */
+    .article-title {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(2rem, 5vw, 3rem);
+      font-weight: 700;
+      line-height: 1.2;
+      color: var(--star);
+      margin-bottom: 1rem;
+    }
+
+    .date-meta {
+      font-size: 0.83rem;
+      color: var(--muted);
+      margin-bottom: 1.6rem;
+      letter-spacing: 0.02em;
+    }
+
+    .hook {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.22rem;
+      font-style: italic;
+      color: var(--gold-light);
+      border-left: 3px solid var(--gold);
+      padding: 0.9rem 1.2rem;
+      background: var(--gold-dim);
+      border-radius: 0 6px 6px 0;
+      margin-bottom: 2.2rem;
+      line-height: 1.6;
+    }
+
+    /* ── DIVIDER ── */
+    .divider {
+      border: none;
+      border-top: 1px solid var(--border);
+      margin: 2rem 0;
+    }
+
+    /* ── HEADINGS ── */
+    h2 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.65rem;
+      font-weight: 600;
+      color: var(--star);
+      margin: 2.2rem 0 0.8rem;
+      line-height: 1.3;
+    }
+    h3 {
+      font-family: 'Outfit', sans-serif;
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: var(--gold-light);
+      margin: 1.6rem 0 0.5rem;
+      letter-spacing: 0.01em;
+    }
+
+    /* ── BODY TEXT ── */
+    p { margin-bottom: 1.1rem; }
+    p:last-child { margin-bottom: 0; }
+
+    a { color: var(--gold-light); text-decoration: underline; text-underline-offset: 3px; }
+    a:hover { color: var(--gold); }
+
+    cite { font-style: italic; color: var(--muted); font-size: 0.92em; }
+
+    /* ── TAKEAWAY BOX ── */
+    .takeaway {
+      background: rgba(76,175,130,0.08);
+      border: 1px solid var(--green);
+      border-left: 4px solid var(--green);
+      border-radius: 0 8px 8px 0;
+      padding: 1.2rem 1.4rem;
+      margin: 2rem 0;
+    }
+    .takeaway-label {
+      font-size: 0.72rem;
+      font-weight: 700;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--green);
+      margin-bottom: 0.6rem;
+    }
+    .takeaway p {
+      font-size: 0.97rem;
+      color: var(--text);
+      margin-bottom: 0.55rem;
+    }
+    .takeaway p:last-child { margin-bottom: 0; }
+
+    /* ── EVIDENCE SCORECARD ── */
+    .scorecard-wrap {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 1.5rem;
+      margin: 2rem 0;
+      overflow-x: auto;
+    }
+    .scorecard-title {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.15rem;
+      font-weight: 600;
+      color: var(--star);
+      margin-bottom: 1rem;
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+    }
+    .scorecard-title::before {
+      content: '';
+      display: inline-block;
+      width: 3px;
+      height: 1.1rem;
+      background: var(--gold);
+      border-radius: 2px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.875rem;
+    }
+    thead tr {
+      background: rgba(201,168,76,0.1);
+    }
+    th {
+      text-align: left;
+      padding: 0.6rem 0.85rem;
+      color: var(--gold-light);
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      font-size: 0.78rem;
+      text-transform: uppercase;
+      border-bottom: 1px solid var(--border);
+      white-space: nowrap;
+    }
+    td {
+      padding: 0.65rem 0.85rem;
+      border-bottom: 1px solid rgba(37,45,69,0.7);
+      color: var(--text);
+      vertical-align: top;
+    }
+    tr:last-child td { border-bottom: none; }
+    tr:hover td { background: rgba(255,255,255,0.02); }
+
+    .quality-poor  { color: #E57373; font-weight: 600; }
+    .quality-fair  { color: #FFB74D; font-weight: 600; }
+    .quality-good  { color: var(--green); font-weight: 600; }
+
+    .verdict-cell {
+      font-size: 0.82rem;
+      color: var(--muted);
+      line-height: 1.5;
+    }
+
+    /* ── HOW IT WORKS DIAGRAM ── */
+    .diagram-wrap {
+      background: var(--deep);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 1.8rem 1.5rem;
+      margin: 2rem 0;
+    }
+    .diagram-title {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: var(--star);
+      margin-bottom: 1.4rem;
+      text-align: center;
+    }
+    .diagram-flow {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 0;
+    }
+    .diagram-node {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 0.85rem 1rem;
+      text-align: center;
+      min-width: 130px;
+      max-width: 150px;
+      flex: 0 0 auto;
+    }
+    .diagram-node .icon {
+      font-size: 1.6rem;
+      display: block;
+      margin-bottom: 0.3rem;
+    }
+    .diagram-node .label {
+      font-size: 0.78rem;
+      font-weight: 600;
+      color: var(--gold-light);
+      display: block;
+      margin-bottom: 0.2rem;
+    }
+    .diagram-node .sub {
+      font-size: 0.72rem;
+      color: var(--muted);
+      line-height: 1.4;
+    }
+    .diagram-arrow {
+      color: var(--gold);
+      font-size: 1.3rem;
+      padding: 0 0.3rem;
+      flex-shrink: 0;
+    }
+    .diagram-note {
+      margin-top: 1.1rem;
+      font-size: 0.8rem;
+      color: var(--muted);
+      text-align: center;
+      font-style: italic;
+      line-height: 1.5;
+    }
+
+    /* ── AFFILIATE CARD ── */
+    .affiliate-card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.5rem 1.5rem 1.4rem;
+      margin: 2.2rem 0;
+      display: flex;
+      flex-direction: column;
+      gap: 0.9rem;
+    }
+    .affiliate-label {
+      font-size: 0.68rem;
+      font-weight: 700;
+      letter-spacing: 0.14em;
+      text-transform: uppercase;
+      color: var(--muted);
+    }
+    .affiliate-name {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.35rem;
+      font-weight: 700;
+      color: var(--star);
+      line-height: 1.3;
+    }
+    .affiliate-desc {
+      font-size: 0.88rem;
+      color: var(--muted);
+      line-height: 1.6;
+    }
+    .affiliate-btn {
+      display: inline-block;
+      background: var(--gold);
+      color: var(--night);
+      font-weight: 700;
+      font-size: 0.85rem;
+      padding: 0.7rem 1.4rem;
+      border-radius: 6px;
+      text-decoration: none;
+      transition: background 0.2s, transform 0.15s;
+      align-self: flex-start;
+      letter-spacing: 0.03em;
+    }
+    .affiliate-btn:hover {
+      background: var(--gold-light);
+      color: var(--night);
+      transform: translateY(-1px);
+    }
+    .affiliate-disclosure {
+      font-size: 0.72rem;
+      color: var(--muted);
+      opacity: 0.7;
+    }
+
+    /* ── INFO BOX ── */
+    .info-box {
+      background: rgba(201,168,76,0.07);
+      border: 1px solid rgba(201,168,76,0.25);
+      border-radius: 8px;
+      padding: 1.1rem 1.3rem;
+      margin: 1.5rem 0;
+      font-size: 0.9rem;
+      color: var(--text);
+    }
+    .info-box strong { color: var(--gold-light); }
+
+    /* ── STUDY HIGHLIGHT ── */
+    .study-highlight {
+      background: var(--deep);
+      border-left: 3px solid var(--muted);
+      padding: 0.9rem 1.2rem;
+      margin: 1.4rem 0;
+      border-radius: 0 6px 6px 0;
+      font-size: 0.9rem;
+    }
+    .study-highlight .study-name {
+      font-weight: 600;
+      color: var(--gold-light);
+      margin-bottom: 0.3rem;
+      font-size: 0.82rem;
+      letter-spacing: 0.05em;
+      text-transform: uppercase;
+    }
+
+    /* ── FOOTER ── */
+    footer {
+      border-top: 1px solid var(--border);
+      margin-top: 4rem;
+      padding: 2rem 1.5rem;
+      text-align: center;
+      font-size: 0.8rem;
+      color: var(--muted);
+    }
+    footer a { color: var(--muted); }
+    footer a:hover { color: var(--gold-light); }
+
+    @media (max-width: 600px) {
+      .diagram-flow { flex-direction: column; }
+      .diagram-arrow { transform: rotate(90deg); }
+      .diagram-node { max-width: 100%; width: 100%; }
+      th, td { padding: 0.5rem 0.6rem; font-size: 0.8rem; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ── HEADER ── -->
+<header>
+  <div class="header-inner">
+    <a class="site-logo" href="/">SleepWise<span>Reviews</span></a>
+    <nav>
+      <a href="/reviews">Reviews</a>
+      <a href="/guides">Guides</a>
+      <a href="/about">About</a>
+    </nav>
+  </div>
+</header>
+
+<!-- ── ARTICLE ── -->
+<main class="page-wrap">
+
+  <span class="badge">Evidence Review</span>
+
+  <h1 class="article-title">Grounding Sheets for Sleep: The Evidence, Honestly Assessed</h1>
+
+  <p class="date-meta">📅 March 2021 &nbsp;·&nbsp; ⏱ 7 min read &nbsp;·&nbsp; 🔄 Updated Mar 2026</p>
+
+  <p class="hook">
+    Grounding sheets are everywhere on social media. Here's what the actual clinical studies say — and it's more nuanced than either the believers or the debunkers want to admit.
+  </p>
+
+  <hr class="divider" />
+
+  <!-- ── INTRO ── -->
+  <p>
+    A sheet woven with silver threads, plugged into the ground port of your wall outlet, claiming to connect your sleeping body to the Earth's electromagnetic field — it sounds like the kind of thing that belongs in a 3 a.m. infomercial. And yet, there is a small body of peer-reviewed research on earthing, some of it published in respectable physiology journals, that prevents easy dismissal.
+  </p>
+  <p>
+    As science journalist David K. Randall observed in his investigation of sleep science, plausible-sounding physiological mechanisms for sleep products regularly outpace the quality of the evidence supporting them — a pattern that applies with remarkable precision to the earthing literature <cite>(Randall, 2012)</cite>. The mechanism is plausible. The evidence is preliminary. And the marketing is running about twenty laps ahead of both.
+  </p>
+  <p>
+    This review will walk through what grounding actually is, what the studies genuinely show, where the legitimate uncertainties lie, and who — if anyone — might reasonably consider trying a grounding sheet.
+  </p>
+
+  <!-- ── WHAT IS EARTHING ── -->
+  <h2>What Is Earthing, Exactly?</h2>
+  <p>
+    Earthing (also called grounding) is the practice of maintaining direct physical contact with the Earth's surface — barefoot on grass, on soil, in a body of water — or recreating that contact indoors using conductive materials connected to the earth via a building's grounding system.
+  </p>
+  <p>
+    The proposed mechanism centers on the Earth's surface charge. The planet maintains a mildly negative electrical potential, and proponents argue that when the human body is insulated from this (as it almost always is, thanks to rubber-soled shoes and elevated beds), it loses access to a continuous supply of free electrons. These electrons, the theory goes, can neutralize positively charged free radicals in the body — functioning, in effect, as a natural antioxidant delivered through the soles of your feet, or through conductive fibers in a sheet.
+  </p>
+  <p>
+    It is worth noting that the physics here is not entirely fabricated. The Earth does carry a surface charge. Free radicals are real. The electron-donation chemistry is real. The leap in the argument is whether sleeping on a conductive sheet at home, connected to a standard residential ground, delivers meaningful quantities of electrons to your tissues in a way that has measurable physiological effects. That is the question the research has tried — imperfectly — to answer.
+  </p>
+
+  <!-- ── HOW GROUNDING SHEETS WORK ── -->
+  <h2>How Grounding Sheets Work</h2>
+  <p>
+    A grounding sheet is a standard fitted or flat sheet woven with conductive fibers — most commonly silver, though carbon-based products also exist. A snap connector and a grounded cord connect the sheet to the ground port (the round, lower hole) of a standard wall outlet. The live and neutral pins are not used; only the ground wire is involved.
+  </p>
+
+  <!-- DIAGRAM -->
+  <div class="diagram-wrap">
+    <div class="diagram-title">How a Grounding Sheet Connects to Earth</div>
+    <div class="diagram-flow">
+      <div class="diagram-node">
+        <span class="icon">🌍</span>
+        <span class="label">Earth Ground</span>
+        <span class="sub">Building's grounding rod in soil</span>
+      </div>
+      <div class="diagram-arrow">→</div>
+      <div class="diagram-node">
+        <span class="icon">🔌</span>
+        <span class="label">Ground Port</span>
+        <span class="sub">Round pin of wall outlet (no mains voltage)</span>
+      </div>
+      <div class="diagram-arrow">→</div>
+      <div class="diagram-node">
+        <span class="icon">🪢</span>
+        <span class="label">Grounding Cord</span>
+        <span class="sub">Snaps onto sheet; contains resistor for safety</span>
+      </div>
+      <div class="diagram-arrow">→</div>
+      <div class="diagram-node">
+        <span class="icon">🛏</span>
+        <span class="label">Conductive Sheet</span>
+        <span class="sub">Silver/carbon fibers woven into fabric</span>
+      </div>
+      <div class="diagram-arrow">→</div>
+      <div class="diagram-node">
+        <span class="icon">🧍</span>
+        <span class="label">Sleeping Body</span>
+        <span class="sub">Skin contact completes the circuit</span>
+      </div>
+    </div>
+    <p class="diagram-note">
+      Quality grounding cords include a current-limiting resistor (typically 100kΩ) so only equalization currents — not mains voltage — can flow. This is an important safety feature; verify it is present before use.
+    </p>
+  </div>
+
+  <p>
+    The sheet does not conduct electricity in the household sense. It carries only the small equalization current needed to bring your body to the same electrical potential as the earth. There is no shock risk from a properly designed grounding sheet used with a properly grounded outlet — but "properly grounded outlet" is doing real work in that sentence, as we will discuss below.
+  </p>
+
+  <!-- ── WHAT THE RESEARCH SHOWS ── -->
+  <h2>What the Research Actually Shows</h2>
+  <p>
+    The earthing literature consists of roughly 10–15 small studies, the majority published between 2004 and 2019, with sample sizes ranging from 10 to 60 participants. Most were conducted by a small, overlapping group of researchers, many of whom have commercial interests in earthing products. Most were unblinded or single-blinded. None have been replicated by independent teams in adequately powered randomized controlled trials. This is an honest accounting of the field's limitations, not a dismissal of it.
+  </p>
+
+  <div class="study-highlight">
+    <div class="study-name">Key Study — Ghaly &amp; Teplitz (2004)</div>
+    <p>
+      The most-cited earthing study followed 12 participants with sleep disturbances and chronic pain. Subjects slept on grounding sheets for 8 weeks. Diurnal cortisol profiles, measured via saliva samples, normalized toward a healthier circadian pattern in most subjects. Subjective sleep quality, pain, and stress scores improved. The sample size of 12 makes any conclusions extremely tentative, and the lack of a blinded control condition means placebo effects cannot be ruled out.
+    </p>
+  </div>
+
+  <p>
+    Subsequent studies have explored inflammation markers (specifically, reductions in white blood cell migration and inflammatory cytokines in injured tissue), pain perception in delayed-onset muscle soreness, blood viscosity, and autonomic nervous system tone. The results have been consistently positive in the studies conducted — which is itself a mild red flag for a field this young and this poorly funded for independent replication.
+  </p>
+  <p>
+    A 2019 pilot study (Sokal et al.) found statistically significant reductions in fasting blood glucose and various thyroid parameters in grounded versus ungrounded subjects, though with a sample size of 84 and significant methodological limitations. A 2015 study by Brown et al. reported reduced pain and improved sleep in a group of massage therapy patients who slept grounded versus those who did not. Interesting. Not conclusive.
+  </p>
+
+  <!-- ── EVIDENCE SCORECARD ── -->
+  <h2>Evidence Scorecard</h2>
+  <p>
+    The table below summarizes the state of evidence for the most commonly promoted benefits of grounding/earthing, based on the published literature as of early 2026.
+  </p>
+
+  <div class="scorecard-wrap">
+    <div class="scorecard-title">Earthing Claims — Evidence Assessment</div>
+    <table>
+      <thead>
+        <tr>
+          <th>Claim</th>
+          <th>Study Quality</th>
+          <th>Sample Size</th>
+          <th>Effect Size</th>
+          <th>Our Verdict</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><strong>Cortisol normalization</strong></td>
+          <td><span class="quality-poor">Poor</span></td>
+          <td>n=12 (largest study)</td>
+          <td>Moderate (within study)</td>
+          <td class="verdict-cell">Intriguing signal, single tiny unblinded study. Cannot draw conclusions.</td>
+        </tr>
+        <tr>
+          <td><strong>Inflammation reduction</strong></td>
+          <td><span class="quality-fair">Fair</span></td>
+          <td>n=20–60 across studies</td>
+          <td>Moderate</td>
+          <td class="verdict-cell">Most consistent finding in the literature; still needs independent RCT replication.</td>
+        </tr>
+        <tr>
+          <td><strong>Sleep quality improvement</strong></td>
+          <td><span class="quality-poor">Poor</span></td>
+          <td>n=10–40</td>
+          <td>Moderate–Large (subjective)</td>
+          <td class="verdict-cell">Subjective reports improve; objective measures (PSG) rarely used. High placebo risk.</td>
+        </tr>
+        <tr>
+          <td><strong>Pain reduction</strong></td>
+          <td><span class="quality-fair">Fair</span></td>
+          <td>n=22–84</td>
+          <td>Small–Moderate</td>
+          <td class="verdict-cell">Some credible signal, especially for DOMS. Promising but unconfirmed.</td>
+        </tr>
+        <tr>
+          <td><strong>EMF protection</strong></td>
+          <td><span class="quality-poor">Poor</span></td>
+          <td>No controlled studies</td>
+          <td>Unknown</td>
+          <td class="verdict-cell">No credible evidence. This claim appears to be marketing language with no scientific basis.</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- ── TAKEAWAY BOX ── -->
+  <div class="takeaway">
+    <div class="takeaway-label">Key Takeaway</div>
+    <p>
+      The earthing literature is small, mostly positive, largely produced by a single research network with commercial interests, and has not been independently replicated in adequately powered blinded trials. This does not mean it is wrong — it means we do not yet know. The evidence base currently resembles the state of probiotics research circa 2005: plausible mechanism, preliminary positive signals, not enough rigorous data to recommend broadly.
+    </p>
+    <p>
+      The most defensible claim supported by the current evidence is that grounding may reduce certain inflammatory markers and normalize cortisol rhythms in some individuals — particularly those with chronic stress or inflammatory conditions. Sleep quality improvements are reported consistently but are difficult to separate from placebo effects in the existing studies.
+    </p>
+  </div>
+
+  <!-- ── LEGITIMATE CONCERNS ── -->
+  <h2>Legitimate Concerns Before You Buy</h2>
+
+  <h3>Your outlet must actually be grounded</h3>
+  <p>
+    This is not a minor footnote. Many homes — particularly those built before the 1960s in the United States and Europe — have outlets that look three-pronged but are not properly grounded. Using a grounding sheet in an ungrounded outlet does nothing at best and, in rare cases involving faulty wiring, could create an unexpected current path. Buy an outlet tester (under $10) before using any grounding product.
+  </p>
+
+  <h3>The conductive cord design matters</h3>
+  <p>
+    Reputable grounding products include a current-limiting resistor in the grounding cord — typically 100,000 ohms (100kΩ). This prevents any meaningful current from flowing even if wiring in the wall has a fault. Cheap unbranded products on discount marketplaces may omit this. Stick to established brands.
+  </p>
+
+  <h3>Silver fiber care requirements</h3>
+  <p>
+    Silver-woven sheets lose conductivity over time if washed with fabric softener, bleach, or harsh detergents. Most require cold-water washing with mild unscented detergent and line drying. If you do not follow care instructions, the sheet stops functioning within a few months regardless of what you paid for it.
+  </p>
+
+  <div class="info-box">
+    <strong>On the EMF protection claims:</strong> Several grounding sheet brands market their product as providing "EMF shielding" or "protection from electromagnetic frequencies." There is no credible scientific evidence for this. A grounding sheet equalizes your body's electrical potential to earth ground — it does not create a Faraday cage around your bed. Treat this marketing claim with appropriate skepticism.
+  </div>
+
+  <!-- ── WHO MIGHT BENEFIT ── -->
+  <h2>Who Might Reasonably Consider This</h2>
+  <p>
+    Given the current state of evidence, we would not recommend grounding sheets as a first-line intervention for sleep problems. Standard sleep hygiene, consistent schedule, light management, and temperature optimization all have far stronger evidence bases.
+  </p>
+  <p>
+    However, the risk profile of a properly used grounding sheet is genuinely low. It carries no known pharmacological effects, creates no dependency, and has not been associated with adverse events in the published literature. The cost — roughly $80–$180 for a quality product — is the main barrier.
+  </p>
+  <p>
+    The population most likely to see meaningful benefit, based on the available studies, is people who:
+  </p>
+  <ul style="padding-left:1.4rem; margin-bottom:1rem;">
+    <li style="margin-bottom:0.5rem;">Have chronic low-grade inflammation (autoimmune conditions, long-term stress)</li>
+    <li style="margin-bottom:0.5rem;">Experience cortisol dysregulation or have confirmed HPA axis disruption</li>
+    <li style="margin-bottom:0.5rem;">Have already addressed the fundamentals (sleep schedule, light, temperature, caffeine) and are looking for additional tools</li>
+    <li>Are willing to treat this as an n-of-1 experiment and assess their own results honestly over 4–8 weeks</li>
+  </ul>
+
+  <!-- ── WHAT WE WANT TO SEE ── -->
+  <h2>What We'd Want to See From the Research</h2>
+  <p>
+    The earthing field is not scientifically hopeless — it is scientifically underdeveloped. The studies that exist were mostly done with the rigor of early-stage exploratory work, which is appropriate for their stage. What needs to come next:
+  </p>
+  <ul style="padding-left:1.4rem; margin-bottom:1rem;">
+    <li style="margin-bottom:0.5rem;"><strong>Double-blind RCTs</strong> — difficult but achievable with sham grounding sheets (connected but with the ground wire severed in a way subjects cannot detect)</li>
+    <li style="margin-bottom:0.5rem;"><strong>Objective sleep measurement</strong> — polysomnography or at minimum validated wrist actigraphy, not just self-report questionnaires</li>
+    <li style="margin-bottom:0.5rem;"><strong>Sample sizes of 100+</strong> — large enough to detect small real effects without false positives from chance</li>
+    <li style="margin-bottom:0.5rem;"><strong>Independent replication</strong> — by research groups with no commercial relationship to earthing product companies</li>
+    <li>Longer follow-up — most studies run 4–8 weeks; chronic conditions require longer observation</li>
+  </ul>
+
+  <hr class="divider" />
+
+  <!-- ── AFFILIATE ── -->
+  <div class="affiliate-card">
+    <div class="affiliate-label">Reviewed Product</div>
+    <div class="affiliate-name">Earthing Elite Silver Grounding Sheet</div>
+    <p class="affiliate-desc">
+      One of the more established grounding sheet products available, made with woven silver fiber construction and a grounding cord that includes the current-limiting resistor we consider essential. Available in multiple sizes. Follow care instructions carefully — no fabric softener, cold wash only — to maintain conductivity.
+    </p>
+    <a class="affiliate-btn" href="https://www.amazon.com/dp/B07BW1T2QW?tag=sleepwiserevi-20" target="_blank" rel="noopener noreferrer sponsored">Check Price on Amazon →</a>
+    <p class="affiliate-disclosure">Affiliate disclosure: SleepWise Reviews earns a small commission on qualifying purchases at no extra cost to you. This does not influence our editorial assessment.</p>
+  </div>
+
+  <!-- ── VERDICT ── -->
+  <h2>Our Verdict</h2>
+  <p>
+    Grounding sheets occupy an unusual position in the sleep product landscape: the proposed mechanism is scientifically coherent, the limited evidence is mildly positive, the risk is low, and the hype far exceeds what the data supports. This is not a situation where we can say "this works" or "this is pseudoscience." It is a situation where the honest answer is "we don't know yet, the preliminary signals are worth watching, and this is not dangerous if used correctly."
+  </p>
+  <p>
+    If you have done the foundational work on your sleep — consistent schedule, dark and cool room, no screens before bed, no caffeine after noon — and you are still struggling, and you have the budget, treating a grounding sheet as a low-stakes experiment is reasonable. Give it 6–8 weeks, track your sleep quality honestly, and draw your own conclusions. Just do not skip the outlet tester.
+  </p>
+  <p>
+    What we would not do is pay for grounding sheets instead of addressing sleep fundamentals, accept the EMF-protection marketing claims, or interpret the current literature as proof of efficacy. The studies are too small, too few, and too conflicted to support that level of confidence.
+  </p>
+
+  <div class="takeaway">
+    <div class="takeaway-label">Bottom Line</div>
+    <p>
+      <strong>Mechanism:</strong> Plausible. &nbsp;<strong>Evidence:</strong> Preliminary — roughly 10 small studies, mostly positive, mostly unblinded, not independently replicated. &nbsp;<strong>Risk:</strong> Low when used with a properly grounded outlet and a quality cord with current-limiting resistor. &nbsp;<strong>Cost:</strong> Moderate ($80–$180). &nbsp;<strong>Recommendation:</strong> Low-priority experiment for people who have exhausted higher-evidence sleep interventions.
+    </p>
+  </div>
+
+  <!-- ── REFERENCES ── -->
+  <hr class="divider" />
+  <h2>References</h2>
+  <ul style="padding-left:1.4rem; font-size:0.88rem; color:var(--muted); line-height:1.9;">
+    <li>Randall, D. K. (2012). <em>Dreamland: Adventures in the Strange Science of Sleep.</em> W. W. Norton &amp; Company.</li>
+    <li>Ghaly, M., &amp; Teplitz, D. (2004). The biologic effects of grounding the human body during sleep as measured by cortisol levels and subjective reporting of sleep, pain, and stress. <em>Journal of Alternative and Complementary Medicine, 10</em>(5), 767–776.</li>
+    <li>Chevalier, G., Sinatra, S. T., Oschman, J. L., Sokal, K., &amp; Sokal, P. (2012). Earthing: Health implications of reconnecting the human body to the Earth's surface electrons. <em>Journal of Environmental and Public Health,</em> 2012.</li>
+    <li>Brown, R., Chevalier, G., &amp; Hill, M. (2015). Pilot study on the effect of grounding on delayed-onset muscle soreness. <em>Journal of Alternative and Complementary Medicine, 21</em>(4), 180–189.</li>
+    <li>Sokal, P., Jastrzębski, Z., Jaskulska, E., Sokal, K., Jastrzębska, M., Radzimiński, Ł., &amp; Dargiewicz, R. (2013). Differences in blood urea and creatinine concentrations in earthed and unearthed subjects during cycling exercise. <em>Evidence-Based Complementary and Alternative Medicine,</em> 2013.</li>
+  </ul>
+
+</main>
+
+<!-- ── FOOTER ── -->
+<footer>
+  <p>
+    &copy; 2026 SleepWise Reviews &nbsp;·&nbsp;
+    <a href="/privacy">Privacy Policy</a> &nbsp;·&nbsp;
+    <a href="/affiliate-disclosure">Affiliate Disclosure</a> &nbsp;·&nbsp;
+    <a href="/contact">Contact</a>
+  </p>
+  <p style="margin-top:0.5rem;">
+    Content is for informational purposes only and does not constitute medical advice.<br />
+    Consult a qualified healthcare professional for sleep disorders.
+  </p>
+</footer>
+
+</body>
+</html>
