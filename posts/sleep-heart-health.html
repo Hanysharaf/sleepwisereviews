@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>How Sleep Protects Your Heart (The Research Is Alarming) - SleepWiseReviews</title>
+  <meta name="description" content="In the week after daylight saving time, cardiac arrest rates spike by 24%. Sleep duration is why. Here's the science linking sleep deprivation to heart disease." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <style type='text/css'>
+    :root {
+      --night: #0A0E1A;
+      --deep: #0F1525;
+      --navy: #141B30;
+      --card: #1A2238;
+      --border: #252D45;
+      --gold: #C9A84C;
+      --gold-light: #E5C96A;
+      --gold-dim: rgba(201, 168, 76, 0.15);
+      --star: #F0E6C8;
+      --text: #D4DCEE;
+      --muted: #7A85A0;
+      --white: #FFFFFF;
+      --green: #4CAF82;
+    }
+
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: 'Outfit', sans-serif;
+      background: var(--night);
+      color: var(--text);
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      background-image:
+        radial-gradient(1px 1px at 10% 15%, rgba(240, 230, 200, 0.6) 0%, transparent 100%),
+        radial-gradient(1px 1px at 25% 40%, rgba(240, 230, 200, 0.4) 0%, transparent 100%),
+        radial-gradient(1.5px 1.5px at 40% 10%, rgba(240, 230, 200, 0.5) 0%, transparent 100%),
+        radial-gradient(1px 1px at 55% 30%, rgba(240, 230, 200, 0.3) 0%, transparent 100%),
+        radial-gradient(1px 1px at 70% 5%, rgba(240, 230, 200, 0.6) 0%, transparent 100%),
+        radial-gradient(1.5px 1.5px at 80% 20%, rgba(240, 230, 200, 0.4) 0%, transparent 100%),
+        radial-gradient(1px 1px at 90% 45%, rgba(240, 230, 200, 0.3) 0%, transparent 100%);
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    nav {
+      position: sticky; top: 0; z-index: 100;
+      background: rgba(10, 14, 26, 0.92);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+      padding: 0 6%; height: 68px;
+      display: flex; align-items: center; justify-content: space-between;
+    }
+    .logo { font-family: 'Cormorant Garamond', serif; font-size: 1.6rem; font-weight: 700; color: var(--star); text-decoration: none; }
+    .logo span { color: var(--gold); }
+    .nav-links { display: flex; gap: 2rem; list-style: none; }
+    .nav-links a { text-decoration: none; color: var(--muted); font-size: 0.88rem; font-weight: 500; transition: color 0.2s; }
+    .nav-links a:hover { color: var(--gold); }
+    .nav-cta { background: var(--gold-dim); color: var(--gold) !important; border: 1px solid rgba(201, 168, 76, 0.3); padding: 7px 16px; border-radius: 4px; }
+
+    .article-wrapper {
+      position: relative; z-index: 1;
+      max-width: 800px; margin: 0 auto; padding: 50px 6% 80px;
+    }
+    .article-meta-top { display: flex; flex-wrap: wrap; align-items: center; gap: 0.8rem; margin-bottom: 1.2rem; }
+    .tag { background: var(--gold); color: var(--night); padding: 5px 12px; border-radius: 4px; font-size: 0.72rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; }
+    .meta-text { color: var(--muted); font-size: 0.82rem; }
+    .article-wrapper h1 { font-family: 'Cormorant Garamond', serif; font-size: 2.4rem; font-weight: 600; color: var(--star); line-height: 1.2; margin-bottom: 1.2rem; }
+    .article-intro { font-size: 1.1rem; color: var(--text); line-height: 1.7; margin-bottom: 2rem; font-weight: 300; }
+    .author-box { display: flex; align-items: center; gap: 1rem; margin-bottom: 1.5rem; padding: 1rem; background: var(--card); border-radius: 8px; border: 1px solid var(--border); }
+    .author-avatar { font-size: 2.5rem; }
+    .author-name { color: var(--star); font-weight: 500; }
+    .author-name a { color: var(--gold); text-decoration: none; }
+    .author-role { color: var(--muted); font-size: 0.82rem; }
+    .disclosure-box { background: rgba(201, 168, 76, 0.08); border: 1px solid rgba(201, 168, 76, 0.2); border-radius: 8px; padding: 1rem 1.2rem; font-size: 0.82rem; color: var(--muted); margin-bottom: 2rem; }
+    .article-wrapper h2 { font-family: 'Cormorant Garamond', serif; font-size: 1.6rem; font-weight: 600; color: var(--star); margin: 2.5rem 0 1rem; padding-top: 1rem; }
+    .article-wrapper h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.2rem; color: var(--star); margin: 1.5rem 0 0.8rem; }
+    .article-wrapper p { margin-bottom: 1rem; font-weight: 300; line-height: 1.8; }
+    .article-wrapper ul, .article-wrapper ol { margin: 1rem 0 1.5rem 1.5rem; }
+    .article-wrapper li { margin-bottom: 0.5rem; font-weight: 300; }
+    .callout { background: var(--card); border-left: 3px solid var(--gold); padding: 1rem 1.5rem; margin: 1.5rem 0; border-radius: 0 8px 8px 0; font-size: 0.92rem; }
+    .callout-green { background: var(--card); border-left: 3px solid var(--green); padding: 1rem 1.5rem; margin: 1.5rem 0; border-radius: 0 8px 8px 0; font-size: 0.92rem; }
+
+    .stat-highlight { background: linear-gradient(135deg, var(--card), var(--navy)); border: 1px solid var(--border); border-radius: 12px; padding: 1.5rem 2rem; margin: 2rem 0; display: flex; gap: 1.5rem; align-items: center; flex-wrap: wrap; }
+    .stat-number { font-family: 'Cormorant Garamond', serif; font-size: 3rem; font-weight: 700; color: var(--gold); line-height: 1; }
+    .stat-label { color: var(--muted); font-size: 0.88rem; margin-top: 0.3rem; }
+
+    .product-cta { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 1.5rem; margin: 2rem 0; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; }
+    .product-cta-text { color: var(--star); font-weight: 500; }
+    .btn-amazon { background: var(--gold); color: var(--night); text-decoration: none; padding: 10px 20px; border-radius: 6px; font-weight: 600; font-size: 0.88rem; transition: background 0.2s; }
+    .btn-amazon:hover { background: var(--gold-light); }
+
+    .article-cta { background: linear-gradient(135deg, var(--card), var(--navy)); border: 1px solid var(--border); border-radius: 12px; padding: 2rem; text-align: center; margin: 3rem 0; }
+    .article-cta h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.4rem; color: var(--star); margin-bottom: 0.8rem; }
+    .article-cta p { color: var(--muted); margin-bottom: 1.2rem; }
+
+    .related-articles { margin: 3rem 0; }
+    .related-articles h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.3rem; color: var(--star); margin-bottom: 1rem; }
+    .related-articles ul { list-style: none; margin: 0; }
+    .related-articles li { margin-bottom: 0.6rem; }
+    .related-articles a { color: var(--gold); text-decoration: none; font-size: 0.95rem; }
+    .related-articles a:hover { text-decoration: underline; }
+
+    footer { background: #060912; border-top: 1px solid var(--border); padding: 50px 6% 30px; }
+    .footer-top { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 3rem; margin-bottom: 3rem; padding-bottom: 3rem; border-bottom: 1px solid var(--border); }
+    .footer-brand p { color: var(--muted); font-size: 0.82rem; margin-top: 0.8rem; line-height: 1.6; font-weight: 300; max-width: 260px; }
+    .footer-col h4 { font-size: 0.78rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--gold); margin-bottom: 1rem; }
+    .footer-col ul { list-style: none; display: flex; flex-direction: column; gap: 0.6rem; }
+    .footer-col a { color: var(--muted); text-decoration: none; font-size: 0.85rem; transition: color 0.2s; }
+    .footer-col a:hover { color: var(--gold); }
+    .footer-bottom { display: flex; justify-content: space-between; font-size: 0.78rem; color: var(--muted); flex-wrap: wrap; gap: 0.5rem; }
+    .affiliate-disc { font-size: 0.75rem; max-width: 600px; }
+
+    @media (max-width: 900px) {
+      .nav-links { display: none; }
+      .article-wrapper h1 { font-size: 1.8rem; }
+      .footer-top { grid-template-columns: 1fr 1fr; }
+      .product-cta { flex-direction: column; text-align: center; }
+      .stat-highlight { flex-direction: column; text-align: center; }
+    }
+  </style>
+</head>
+
+<body>
+  <nav>
+    <a class="logo" href="../">SleepWise<span>Reviews</span></a>
+    <ul class="nav-links">
+      <li><a href="../#picks">Top Picks</a></li>
+      <li><a href="../#reviews">Reviews</a></li>
+      <li><a href="../pages/about.html">About Harry</a></li>
+      <li><a href="../#newsletter" class="nav-cta">Free Sleep Guide</a></li>
+    </ul>
+  </nav>
+
+  <article class="article-wrapper">
+    <div class="article-meta-top">
+      <span class="tag">Sleep Science</span>
+      <span class="meta-text">&#128197; August 2020</span>
+      <span class="meta-text">·</span>
+      <span class="meta-text">&#9201; 9 min read</span>
+      <span class="meta-text">·</span>
+      <span class="meta-text">&#128260; Updated Mar 2026</span>
+    </div>
+
+    <h1>How Sleep Protects Your Heart (The Research Is Alarming)</h1>
+    <p class="article-intro">In the week after daylight saving time, cardiac arrest rates spike by 24%. Sleep duration is why. The connection between how long you sleep and how long your heart keeps beating is one of the most robustly documented — and most ignored — findings in modern medicine.</p>
+
+    <div class="author-box">
+      <div class="author-avatar">&#128564;</div>
+      <div class="author-info">
+        <div class="author-name">By <a href="../pages/about.html">Harry Soul</a> - SleepWiseReviews</div>
+        <div class="author-role">Independent Sleep Researcher - August 2020</div>
+      </div>
+    </div>
+
+    <div class="disclosure-box">
+      <strong>Affiliate Disclosure:</strong> This article contains affiliate links. We earn a small commission if you purchase through our links at no extra cost to you. <a href="../pages/affiliate-disclosure.html" style="color:var(--gold)">Full disclosure</a>
+    </div>
+
+    <h2>The Daylight Saving Time Natural Experiment</h2>
+    <p>Every year, twice a year, humanity unwittingly runs a large-scale sleep experiment on itself. When clocks spring forward in March, the average person loses approximately 40 to 60 minutes of sleep in a single night. That modest reduction — barely an hour — is enough to produce a measurable spike in cardiovascular events the very next day.</p>
+    <p>Studies analyzing hospital admission records across multiple countries have found that the Monday following the spring clock change sees a 24% increase in cardiac arrest cases. The reverse occurs in autumn: when clocks fall back and people gain an hour of sleep, heart attack rates drop by roughly 21% the following day. The same human population, the same hospitals, the same demographics — the only variable is one hour of sleep.</p>
+
+    <div class="stat-highlight">
+      <div>
+        <div class="stat-number">24%</div>
+        <div class="stat-label">spike in cardiac arrests the week after spring daylight saving time</div>
+      </div>
+      <div>
+        <div class="stat-number">21%</div>
+        <div class="stat-label">drop in cardiac arrests the week after autumn clock change (extra hour of sleep)</div>
+      </div>
+    </div>
+
+    <p>As Matthew Walker writes in <em>Why We Sleep</em> (2017), "No one seems to be taking notice of the fact that the shorter your sleep, the shorter your life. The leading causes of disease and death in developed nations — diseases that are crippling health-care systems, such as heart disease, obesity, dementia, diabetes, and cancer — all have recognized causal links to a lack of sleep." The daylight saving data is not a curiosity. It is a controlled demonstration of what sleep deprivation does to the cardiovascular system in real time.</p>
+
+    <h2>Sleep Deprivation and Blood Pressure: The Sympathetic Nervous System</h2>
+    <p>One of the most direct mechanisms connecting poor sleep to heart disease is blood pressure. When you are sleep-deprived, your sympathetic nervous system — the branch responsible for the fight-or-flight response — remains in a state of elevated activation even during waking hours. Under normal conditions, the sympathetic nervous system quiets during sleep, allowing blood pressure to dip and giving the arterial walls a period of rest.</p>
+    <p>Without adequate sleep, this nocturnal blood pressure dip — sometimes called the "nighttime dip" — either diminishes or disappears entirely. Individuals whose blood pressure fails to drop during sleep (called non-dippers) face significantly higher risks of stroke, heart attack, and left ventricular hypertrophy. A large meta-analysis published in <em>Hypertension</em> found that sleeping fewer than six hours per night was independently associated with a 20 to 32% increased risk of developing hypertension, after controlling for age, weight, and other standard cardiovascular risk factors.</p>
+
+    <div class="callout">
+      &#128161; <strong>Why this matters at night:</strong> Your blood pressure is supposed to drop 10–20% during sleep. If you are chronically under-sleeping, your arteries never get that nightly recovery window — the cumulative arterial stress compounds over years.
+    </div>
+
+    <p>The mechanism is straightforward. Sleep deprivation keeps circulating norepinephrine (the primary sympathetic neurotransmitter) elevated. Elevated norepinephrine causes vasoconstriction, raises heart rate, and activates the renin-angiotensin-aldosterone system — the hormonal cascade that, when chronically stimulated, drives hypertension and arterial stiffening.</p>
+
+    <h2>Inflammation: CRP, IL-6, and Arterial Damage</h2>
+    <p>Beyond the sympathetic nervous system, sleep-deprived individuals show consistent elevations in inflammatory biomarkers that directly drive cardiovascular disease. Two of the most studied are C-reactive protein (CRP) and interleukin-6 (IL-6).</p>
+    <p>CRP is produced by the liver in response to systemic inflammation and is one of the most reliable predictors of future cardiovascular events. Even modest, chronic sleep restriction — six hours per night maintained over two weeks — produces measurable increases in CRP. A study published in <em>SLEEP</em> journal found that sleeping fewer than six hours raised CRP levels by approximately 25% compared to individuals sleeping seven to eight hours, independent of other lifestyle factors.</p>
+    <p>Interleukin-6 is a cytokine that drives the inflammatory cascade and directly injures endothelial cells — the thin layer of cells lining every blood vessel in your body. When endothelial cells are damaged, they become "sticky," attracting immune cells and lipids that begin the process of plaque formation. This is not a theoretical risk; it is the documented biological pathway from poor sleep to atherosclerosis.</p>
+
+    <h2>Atherosclerosis: Plaques Form Faster Without Sleep</h2>
+    <p>The relationship between sleep and atherosclerosis — the hardening and narrowing of arteries through plaque buildup — has been confirmed in several imaging studies. Research published in the <em>Journal of the American College of Cardiology</em> used coronary CT angiography to measure the extent of atherosclerotic plaque in participants sleeping different amounts. The findings were stark: individuals sleeping six hours or fewer had significantly more calcified plaques in their coronary arteries than those sleeping seven or more hours, even after adjusting for traditional risk factors including blood pressure, cholesterol, smoking status, and diabetes.</p>
+    <p>The biological chain is now well-established. Poor sleep drives inflammation (CRP, IL-6). Inflammation damages endothelial cells. Damaged endothelium permits LDL particles to enter arterial walls. Immune cells called macrophages engulf those LDL particles and become foam cells — the earliest structural component of atherosclerotic plaque. Over years, plaques grow, harden with calcium, and eventually rupture — triggering the blood clots that cause most heart attacks and strokes.</p>
+
+    <h2>The 6-Hour Threshold: Where Cardiovascular Risk Curves Upward</h2>
+    <p>One of the most consistent findings across the epidemiological literature is that cardiovascular risk begins to rise meaningfully below approximately six hours of nightly sleep. This is not a soft threshold — it appears across dozens of prospective cohort studies involving millions of participants across multiple continents.</p>
+
+    <div class="stat-highlight">
+      <div>
+        <div class="stat-number">48%</div>
+        <div class="stat-label">higher risk of developing or dying from heart disease in short sleepers (under 6 hours) vs. 7–8 hour sleepers — pooled meta-analysis data</div>
+      </div>
+    </div>
+
+    <p>A pooled meta-analysis of 15 prospective studies, encompassing over 470,000 participants, found that short sleepers (defined as under six hours) had a 48% higher risk of developing or dying from coronary heart disease compared to those sleeping seven to eight hours. Critically, the relationship is not linear — it accelerates sharply below six hours. Someone sleeping five hours does not face merely a slightly higher risk than someone sleeping six; they face a substantially higher one.</p>
+    <p>Long sleep (over nine hours) also carries elevated risk in several studies, though this relationship is more complex — it likely reflects reverse causation, where underlying illness causes people to sleep longer rather than long sleep causing illness.</p>
+
+    <h2>How Deep Sleep Specifically Protects the Heart</h2>
+    <p>Not all sleep is equal in its cardiovascular protection. Deep sleep — also called slow-wave sleep or N3 — is the stage during which the most dramatic physiological restoration of the cardiovascular system occurs. During deep sleep, heart rate reaches its lowest point of the 24-hour cycle, blood pressure drops to its nadir, and cortisol levels fall sharply. This combination gives the heart a genuine recovery period it cannot obtain any other way.</p>
+    <p>The heart beats roughly 100,000 times per day. During deep sleep, the rate slows to 40 to 50 beats per minute in healthy adults — a meaningful reduction in mechanical stress on the heart muscle and arterial walls. The cumulative value of this nightly rest period, compounded over decades, is substantial. People who obtain insufficient deep sleep — whether due to sleep apnea fragmenting their sleep architecture, alcohol suppressing slow-wave sleep, or simply not sleeping long enough — miss out on this cardiovascular maintenance window night after night.</p>
+    <p>Research has also shown that deep sleep triggers the release of growth hormone, which plays a role in the repair of vascular smooth muscle. This is not incidental; it is one of the primary evolutionary purposes of deep sleep — tissue repair and cardiovascular maintenance at the cellular level.</p>
+
+    <div class="callout">
+      &#128161; <strong>The alcohol myth:</strong> Alcohol may help you fall asleep, but it heavily suppresses deep sleep. A nightcap does not improve sleep quality — it degrades it, and in doing so, reduces the cardiovascular protection that deep sleep provides.
+    </div>
+
+    <h2>Atrial Fibrillation and Sleep Apnea</h2>
+    <p>The connection between sleep disorders and atrial fibrillation (AFib) — an irregular heart rhythm affecting over 33 million people worldwide — is one of the most clinically significant findings in sleep cardiology. Obstructive sleep apnea (OSA), a condition in which the airway repeatedly collapses during sleep, is present in an estimated 50 to 80% of patients with AFib. This is not coincidental.</p>
+    <p>Each apnea event — where breathing stops for ten seconds or more — causes a cascade of cardiovascular stress: oxygen levels drop, carbon dioxide rises, the sympathetic nervous system fires, blood pressure surges, and the heart is forced to work against increased intrathoracic pressure as the person struggles to breathe against a closed airway. Repeated hundreds of times per night, these events structurally remodel the heart — particularly the atria — increasing vulnerability to arrhythmia.</p>
+    <p>Treatment of sleep apnea with continuous positive airway pressure (CPAP) therapy has been shown to reduce AFib recurrence rates after cardioversion. This is direct evidence that correcting disordered sleep directly improves cardiac rhythm outcomes — not through medication, not through surgery, but through restoring normal sleep architecture.</p>
+    <p>Beyond AFib, sleep apnea is independently associated with a 2 to 3-fold increased risk of stroke, a doubling of hypertension prevalence, and elevated rates of sudden cardiac death — particularly between midnight and 6 a.m., the window during which apnea events are most frequent and severe.</p>
+
+    <h2>What Heart-Protective Sleep Actually Looks Like</h2>
+    <p>The cardiovascular research points toward a clear set of sleep behaviors that provide meaningful cardiac protection. These are not marginal optimizations — they are the foundation of heart health that often goes unaddressed in clinical cardiovascular risk management.</p>
+
+    <div class="callout-green">
+      <strong>&#9829; Heart-Protective Sleep: Practical Targets</strong>
+      <ul style="margin-top: 0.8rem; margin-left: 1.2rem;">
+        <li><strong>Duration:</strong> Target 7 to 9 hours per night consistently. Below 6 hours, cardiovascular risk rises steeply. Aim for the same bedtime and wake time seven days a week — weekend sleep catch-up does not fully reverse the cardiovascular damage of weekday restriction.</li>
+        <li><strong>Protect deep sleep:</strong> Avoid alcohol within 3 hours of bedtime (it suppresses slow-wave sleep). Keep the bedroom cool — 65 to 68°F (18 to 20°C) promotes deeper sleep. Regular aerobic exercise significantly increases time spent in deep sleep.</li>
+        <li><strong>Screen for sleep apnea:</strong> If you snore loudly, wake feeling unrefreshed, are observed to stop breathing during sleep, or have unexplained hypertension or fatigue, ask your doctor about a sleep study. Untreated sleep apnea is one of the most modifiable cardiovascular risk factors that most people have never assessed.</li>
+        <li><strong>Consistent schedule:</strong> Your cardiovascular system relies on circadian rhythm to time blood pressure dips, heart rate recovery, and inflammatory cycles. An irregular sleep schedule disrupts all of these. The weekday/weekend schedule discrepancy — "social jet lag" — is independently associated with higher cardiovascular risk.</li>
+        <li><strong>Morning light exposure:</strong> Natural light within the first hour of waking anchors your circadian clock, which governs the timing of cardiovascular protective processes. Spend 10 to 20 minutes outdoors in morning light without sunglasses when possible.</li>
+      </ul>
+    </div>
+
+    <p>The framing of sleep as a lifestyle choice — something to be optimized after diet and exercise — fundamentally misrepresents the science. As the daylight saving data makes viscerally clear, even a single hour of sleep loss produces acute cardiovascular harm in a healthy population. Sleep is not recovery from life. For the heart, it is life.</p>
+
+    <p>Matthew Walker summarized the stakes plainly in <em>Why We Sleep</em> (2017): "The decimation of sleep throughout industrialized nations is having a catastrophic impact on our health, our life expectancy, our safety, the education of our children, and the efficiency and productivity of our economies." Cardiovascular disease sits at the center of that impact — preventable, measurable, and directly tied to a behavior most people believe they are freely choosing to sacrifice.</p>
+
+    <div class="product-cta">
+      <span class="product-cta-text">Explore heart-health sleep resources and research-backed sleep products</span>
+      <a class="btn-amazon" href="https://www.amazon.com/s?k=sleep+heart+health&tag=sleepwiserevi-20" target="_blank" rel="noopener nofollow">Shop on Amazon</a>
+    </div>
+
+    <div class="article-cta">
+      <h3>Get Our Free 7-Day Sleep Reset</h3>
+      <p>Join 18,000 readers who get weekly sleep science and honest product reviews every Sunday.</p>
+      <a class="btn-amazon" href="../#newsletter">Subscribe Free</a>
+    </div>
+
+    <div class="related-articles">
+      <h3>Related Articles</h3>
+      <ul>
+        <li><a href="sleep-longevity.html">How Sleep Adds Years to Your Life: The Longevity Research</a></li>
+        <li><a href="sleep-apnea-warning-signs.html">Sleep Apnea Warning Signs You Shouldn't Ignore</a></li>
+        <li><a href="sleep-stages-explained.html">Understanding Sleep Stages: A Complete Guide to Your Sleep Cycle</a></li>
+      </ul>
+    </div>
+  </article>
+
+  <footer>
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a class="logo" href="../">SleepWise<span>Reviews</span></a>
+        <p>Honest, science-backed reviews to help you sleep deeper, recover faster, and wake up energized.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Reviews</h4>
+        <ul>
+          <li><a href="https://www.amazon.com/s?k=weighted+blanket&tag=sleepwiserevi-20" target="_blank">Weighted Blankets</a></li>
+          <li><a href="https://www.amazon.com/s?k=white+noise+machine&tag=sleepwiserevi-20" target="_blank">White Noise Machines</a></li>
+          <li><a href="https://www.amazon.com/s?k=sleep+supplements&tag=sleepwiserevi-20" target="_blank">Supplements</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Guides</h4>
+        <ul>
+          <li><a href="../#picks">Sleep Optimization</a></li>
+          <li><a href="../#reviews">Bedtime Routines</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Site</h4>
+        <ul>
+          <li><a href="../pages/about.html">About Harry Soul</a></li>
+          <li><a href="../pages/privacy-policy.html">Privacy Policy</a></li>
+          <li><a href="../pages/affiliate-disclosure.html">Affiliate Disclosure</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div>&#169; 2025 SleepWiseReviews. All rights reserved.</div>
+      <div class="affiliate-disc">SleepWiseReviews is a participant in the Amazon Services LLC Associates Program.</div>
+    </div>
+  </footer>
+</body>
+</html>
