@@ -1,0 +1,578 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lifestyle &amp; Habits — SleepWise Reviews</title>
+  <meta name="description" content="Practical sleep improvements you can make tonight — exercise timing, nutrition, bedroom environment, and daily routines that compound over time." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,500&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --night:    #0A0E1A;
+      --deep:     #0F1525;
+      --navy:     #141B30;
+      --card:     #1A2238;
+      --border:   #252D45;
+      --gold:     #C9A84C;
+      --gold-light:#E5C96A;
+      --gold-dim: rgba(201,168,76,0.15);
+      --star:     #F0E6C8;
+      --text:     #D4DCEE;
+      --muted:    #7A85A0;
+      --green:    #4CAF82;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      background: var(--night);
+      color: var(--text);
+      font-family: 'Outfit', sans-serif;
+      font-size: 16px;
+      line-height: 1.6;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+    }
+
+    a { color: inherit; text-decoration: none; }
+
+    /* ── NAV ─────────────────────────────────────────── */
+    .nav {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(10,14,26,0.92);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+    }
+
+    .nav-inner {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 24px;
+      height: 64px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 24px;
+    }
+
+    .nav-logo {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.45rem;
+      font-weight: 600;
+      color: var(--star);
+      letter-spacing: 0.02em;
+      white-space: nowrap;
+    }
+
+    .nav-logo span { color: var(--gold); }
+
+    .nav-links {
+      display: flex;
+      align-items: center;
+      gap: 28px;
+      list-style: none;
+    }
+
+    .nav-links a {
+      font-size: 0.88rem;
+      font-weight: 500;
+      color: var(--muted);
+      transition: color 0.2s;
+      letter-spacing: 0.03em;
+    }
+
+    .nav-links a:hover,
+    .nav-links a.active { color: var(--gold-light); }
+
+    /* ── BREADCRUMB ──────────────────────────────────── */
+    .breadcrumb-wrap {
+      background: var(--deep);
+      border-bottom: 1px solid var(--border);
+      padding: 10px 0;
+    }
+
+    .breadcrumb {
+      max-width: 1200px;
+      margin: 0 auto;
+      padding: 0 24px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+      font-size: 0.82rem;
+      color: var(--muted);
+    }
+
+    .breadcrumb a { color: var(--muted); transition: color 0.2s; }
+    .breadcrumb a:hover { color: var(--gold-light); }
+
+    .breadcrumb-sep {
+      color: var(--border);
+      font-size: 0.75rem;
+    }
+
+    .breadcrumb-current { color: var(--gold); }
+
+    /* ── HERO ────────────────────────────────────────── */
+    .hero {
+      background: linear-gradient(160deg, var(--deep) 0%, var(--navy) 60%, rgba(20,27,48,0.8) 100%);
+      border-bottom: 1px solid var(--border);
+      padding: 64px 24px 56px;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(ellipse 70% 60% at 50% 0%, rgba(201,168,76,0.07) 0%, transparent 70%);
+      pointer-events: none;
+    }
+
+    .hero-icon {
+      font-size: 3.2rem;
+      line-height: 1;
+      margin-bottom: 16px;
+      display: block;
+    }
+
+    .hero-title {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(2.2rem, 5vw, 3.4rem);
+      font-weight: 600;
+      color: var(--star);
+      letter-spacing: 0.01em;
+      margin-bottom: 12px;
+    }
+
+    .hero-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: var(--gold-dim);
+      border: 1px solid rgba(201,168,76,0.3);
+      color: var(--gold-light);
+      font-size: 0.82rem;
+      font-weight: 500;
+      padding: 4px 14px;
+      border-radius: 20px;
+      margin-bottom: 20px;
+      letter-spacing: 0.04em;
+    }
+
+    .hero-desc {
+      max-width: 660px;
+      margin: 0 auto;
+      color: var(--muted);
+      font-size: 1rem;
+      line-height: 1.75;
+    }
+
+    /* ── MAIN CONTENT ────────────────────────────────── */
+    .main {
+      flex: 1;
+      max-width: 1200px;
+      margin: 0 auto;
+      width: 100%;
+      padding: 48px 24px 64px;
+    }
+
+    /* ── ARTICLE GRID ────────────────────────────────── */
+    .articles-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      gap: 24px;
+    }
+
+    .article-card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 28px 26px;
+      display: flex;
+      flex-direction: column;
+      gap: 14px;
+      transition: border-color 0.25s, transform 0.2s, box-shadow 0.25s;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .article-card::before {
+      content: '';
+      position: absolute;
+      top: 0; left: 0; right: 0;
+      height: 2px;
+      background: linear-gradient(90deg, transparent, var(--gold), transparent);
+      opacity: 0;
+      transition: opacity 0.3s;
+    }
+
+    .article-card:hover {
+      border-color: rgba(201,168,76,0.4);
+      transform: translateY(-3px);
+      box-shadow: 0 12px 32px rgba(0,0,0,0.35);
+    }
+
+    .article-card:hover::before { opacity: 1; }
+
+    .card-number {
+      font-size: 0.75rem;
+      font-weight: 600;
+      color: var(--gold);
+      letter-spacing: 0.08em;
+      opacity: 0.7;
+    }
+
+    .card-title {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.22rem;
+      font-weight: 600;
+      color: var(--star);
+      line-height: 1.35;
+      transition: color 0.2s;
+    }
+
+    .article-card:hover .card-title { color: var(--gold-light); }
+
+    .card-meta {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      font-size: 0.78rem;
+      color: var(--muted);
+    }
+
+    .card-date {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+
+    .card-date::before {
+      content: '📅';
+      font-size: 0.7rem;
+    }
+
+    .card-link {
+      margin-top: auto;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      color: var(--gold);
+      font-size: 0.84rem;
+      font-weight: 500;
+      letter-spacing: 0.03em;
+      transition: color 0.2s, gap 0.2s;
+    }
+
+    .card-link:hover { color: var(--gold-light); gap: 10px; }
+
+    .card-link-arrow { font-size: 0.9rem; }
+
+    /* ── FOOTER ──────────────────────────────────────── */
+    .footer {
+      background: var(--deep);
+      border-top: 1px solid var(--border);
+      padding: 40px 24px;
+      text-align: center;
+    }
+
+    .footer-logo {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.3rem;
+      font-weight: 600;
+      color: var(--star);
+      margin-bottom: 10px;
+    }
+
+    .footer-logo span { color: var(--gold); }
+
+    .footer-tagline {
+      font-size: 0.83rem;
+      color: var(--muted);
+      margin-bottom: 24px;
+    }
+
+    .footer-links {
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      gap: 20px;
+      margin-bottom: 24px;
+      list-style: none;
+    }
+
+    .footer-links a {
+      font-size: 0.83rem;
+      color: var(--muted);
+      transition: color 0.2s;
+    }
+
+    .footer-links a:hover { color: var(--gold-light); }
+
+    .footer-copy {
+      font-size: 0.78rem;
+      color: var(--border);
+    }
+
+    /* ── RESPONSIVE ──────────────────────────────────── */
+    @media (max-width: 768px) {
+      .nav-links { display: none; }
+
+      .articles-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .hero { padding: 48px 20px 40px; }
+    }
+
+    @media (max-width: 480px) {
+      .hero-icon { font-size: 2.6rem; }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav" role="navigation" aria-label="Main navigation">
+    <div class="nav-inner">
+      <a href="../" class="nav-logo">SleepWise<span>Reviews</span></a>
+      <ul class="nav-links">
+        <li><a href="../">Home</a></li>
+        <li><a href="../pages/categories.html">Categories</a></li>
+        <li><a href="../pages/category-lifestyle.html" class="active">Lifestyle &amp; Habits</a></li>
+        <li><a href="../pages/category-science.html">Sleep Science</a></li>
+        <li><a href="../pages/category-disorders.html">Disorders</a></li>
+        <li><a href="../pages/category-reviews.html">Product Reviews</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- BREADCRUMB -->
+  <div class="breadcrumb-wrap" aria-label="Breadcrumb">
+    <nav class="breadcrumb">
+      <a href="../">Home</a>
+      <span class="breadcrumb-sep">›</span>
+      <span class="breadcrumb-current">Lifestyle &amp; Habits</span>
+    </nav>
+  </div>
+
+  <!-- HERO -->
+  <header class="hero">
+    <span class="hero-icon" aria-hidden="true">🌿</span>
+    <h1 class="hero-title">Lifestyle &amp; Habits</h1>
+    <div class="hero-badge">20 Articles</div>
+    <p class="hero-desc">Practical sleep improvements you can make tonight — exercise timing, nutrition, bedroom environment, and daily routines that compound over time.</p>
+  </header>
+
+  <!-- ARTICLES -->
+  <main class="main">
+    <div class="articles-grid">
+
+      <article class="article-card">
+        <div class="card-number">01</div>
+        <h2 class="card-title">The Best Time to Exercise for Better Sleep</h2>
+        <div class="card-meta">
+          <span class="card-date">Mar 2025</span>
+        </div>
+        <a href="../posts/sleep-exercise-timing.html" class="card-link">Read article <span class="card-link-arrow">→</span></a>
+      </article>
+
+      <article class="article-card">
+        <div class="card-number">02</div>
+        <h2 class="card-title">What to Eat (and Avoid) for Better Sleep Tonight</h2>
+        <div class="card-meta">
+          <span class="card-date">Apr 2025</span>
+        </div>
+        <a href="../posts/sleep-food-connection.html" class="card-link">Read article <span class="card-link-arrow">→</span></a>
+      </article>
+
+      <article class="article-card">
+        <div class="card-number">03</div>
+        <h2 class="card-title">The Perfect Wind-Down Routine: 60 Minutes to Better Sleep</h2>
+        <div class="card-meta">
+          <span class="card-date">Mar 2025</span>
+        </div>
+        <a href="../posts/wind-down-routine.html" class="card-link">Read article <span class="card-link-arrow">→</span></a>
+      </article>
+
+      <article class="article-card">
+        <div class="card-number">04</div>
+        <h2 class="card-title">Why Sleep Consistency Matters More Than Sleep Duration</h2>
+        <div class="card-meta">
+          <span class="card-date">Mar 2025</span>
+        </div>
+        <a href="../posts/sleep-consistency-importance.html" class="card-link">Read article <span class="card-link-arrow">→</span></a>
+      </article>
+
+      <article class="article-card">
+        <div class="card-number">05</div>
+        <h2 class="card-title">The Perfect Sleep Environment: A Room-by-Room Checklist</h2>
+        <div class="card-meta">
+          <span class="card-date">Mar 2025</span>
+        </div>
+        <a href="../posts/sleep-environment-optimization.html" class="card-link">Read article <span class="card-link-arrow">→</span></a>
+      </article>
+
+      <article class="article-card">
+        <div class="card-number">06</div>
+        <h2 class="card-title">How to Turn Your Bedroom Into a Sleep Sanctuary</h2>
+        <div class="card-meta">
+          <span class="card-date">May 2023</span>
+        </div>
+        <a href="../posts/sleep-sanctuary-guide.html" class="card-link">Read article <span class="card-link-arrow">→</span></a>
+      </article>
+
+      <article class="article-card">
+        <div class="card-number">07</div>
+        <h2 class="card-title">7 Morning Habits That Guarantee Better Sleep Tonight</h2>
+        <div class="card-meta">
+          <span class="card-date">Oct 2022</span>
+        </div>
+        <a href="../posts/morning-habits-sleep.html" class="card-link">Read article <span class="card-link-arrow">→</span></a>
+      </article>
+
+      <article class="article-card">
+        <div class="card-number">08</div>
+        <h2 class="card-title">20 Evidence-Based Sleep Hygiene Tips (Ranked by Impact)</h2>
+        <div class="card-meta">
+          <span class="card-date">Aug 2022</span>
+        </div>
+        <a href="../posts/sleep-hygiene-checklist.html" class="card-link">Read article <span class="card-link-arrow">→</span></a>
+      </article>
+
+      <article class="article-card">
+        <div class="card-number">09</div>
+        <h2 class="card-title">The 30-Day Better Sleep Challenge</h2>
+        <div class="card-meta">
+          <span class="card-date">Apr 2023</span>
+        </div>
+        <a href="../posts/30-day-sleep-challenge.html" class="card-link">Read article <span class="card-link-arrow">→</span></a>
+      </article>
+
+      <article class="article-card">
+        <div class="card-number">10</div>
+        <h2 class="card-title">How to Sleep Better in Summer Heat</h2>
+        <div class="card-meta">
+          <span class="card-date">Dec 2022</span>
+        </div>
+        <a href="../posts/summer-sleep-guide.html" class="card-link">Read article <span class="card-link-arrow">→</span></a>
+      </article>
+
+      <article class="article-card">
+        <div class="card-number">11</div>
+        <h2 class="card-title">How to Sleep Better in Winter</h2>
+        <div class="card-meta">
+          <span class="card-date">Jan 2024</span>
+        </div>
+        <a href="../posts/winter-sleep-guide.html" class="card-link">Read article <span class="card-link-arrow">→</span></a>
+      </article>
+
+      <article class="article-card">
+        <div class="card-number">12</div>
+        <h2 class="card-title">What Happens to Your Sleep When You Quit Alcohol</h2>
+        <div class="card-meta">
+          <span class="card-date">Jun 2022</span>
+        </div>
+        <a href="../posts/sleep-and-alcohol-free.html" class="card-link">Read article <span class="card-link-arrow">→</span></a>
+      </article>
+
+      <article class="article-card">
+        <div class="card-number">13</div>
+        <h2 class="card-title">Why Alcohol Is the Worst Sleep Aid</h2>
+        <div class="card-meta">
+          <span class="card-date">Apr 2025</span>
+        </div>
+        <a href="../posts/alcohol-sleep-quality.html" class="card-link">Read article <span class="card-link-arrow">→</span></a>
+      </article>
+
+      <article class="article-card">
+        <div class="card-number">14</div>
+        <h2 class="card-title">The Weekend Sleep Mistake That's Making You More Tired</h2>
+        <div class="card-meta">
+          <span class="card-date">Nov 2022</span>
+        </div>
+        <a href="../posts/weekend-sleep-mistake.html" class="card-link">Read article <span class="card-link-arrow">→</span></a>
+      </article>
+
+      <article class="article-card">
+        <div class="card-number">15</div>
+        <h2 class="card-title">Do Bedroom Plants Improve Sleep?</h2>
+        <div class="card-meta">
+          <span class="card-date">Apr 2024</span>
+        </div>
+        <a href="../posts/bedroom-plants-sleep.html" class="card-link">Read article <span class="card-link-arrow">→</span></a>
+      </article>
+
+      <article class="article-card">
+        <div class="card-number">16</div>
+        <h2 class="card-title">Hydration and Sleep: How Much Water You Actually Need</h2>
+        <div class="card-meta">
+          <span class="card-date">May 2024</span>
+        </div>
+        <a href="../posts/sleep-hydration-guide.html" class="card-link">Read article <span class="card-link-arrow">→</span></a>
+      </article>
+
+      <article class="article-card">
+        <div class="card-number">17</div>
+        <h2 class="card-title">Does Hydration Affect Sleep? Here's What Research Shows</h2>
+        <div class="card-meta">
+          <span class="card-date">Jan 2024</span>
+        </div>
+        <a href="../posts/sleep-hydration.html" class="card-link">Read article <span class="card-link-arrow">→</span></a>
+      </article>
+
+      <article class="article-card">
+        <div class="card-number">18</div>
+        <h2 class="card-title">Intermittent Fasting and Sleep: What the Research Shows</h2>
+        <div class="card-meta">
+          <span class="card-date">Mar 2024</span>
+        </div>
+        <a href="../posts/sleep-fasting.html" class="card-link">Read article <span class="card-link-arrow">→</span></a>
+      </article>
+
+      <article class="article-card">
+        <div class="card-number">19</div>
+        <h2 class="card-title">The 7-Day Screen Detox Sleep Reset</h2>
+        <div class="card-meta">
+          <span class="card-date">Jul 2024</span>
+        </div>
+        <a href="../posts/sleep-screen-detox.html" class="card-link">Read article <span class="card-link-arrow">→</span></a>
+      </article>
+
+      <article class="article-card">
+        <div class="card-number">20</div>
+        <h2 class="card-title">Sleep and Productivity: What CEOs Get Wrong</h2>
+        <div class="card-meta">
+          <span class="card-date">Sep 2021</span>
+        </div>
+        <a href="../posts/sleep-productivity.html" class="card-link">Read article <span class="card-link-arrow">→</span></a>
+      </article>
+
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <div class="footer-logo">SleepWise<span>Reviews</span></div>
+    <p class="footer-tagline">Evidence-based sleep guidance you can trust.</p>
+    <ul class="footer-links">
+      <li><a href="../">Home</a></li>
+      <li><a href="../pages/categories.html">All Categories</a></li>
+      <li><a href="../pages/about.html">About</a></li>
+      <li><a href="../pages/privacy.html">Privacy Policy</a></li>
+      <li><a href="../pages/contact.html">Contact</a></li>
+    </ul>
+    <p class="footer-copy">&copy; 2025 SleepWise Reviews. All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
