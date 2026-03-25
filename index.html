@@ -2019,6 +2019,84 @@
                 </div>
               </div>
             </div>
+
+            <div class="testimonial-card">
+              <div class="testimonial-quote">"</div>
+              <div class="testimonial-stars">★★★★★</div>
+              <div class="testimonial-text">My husband's snoring was destroying my sleep. I stumbled on the anti-snoring device guide here and we tried the Breathe Right strips first — costs almost nothing. Three weeks later I'm sleeping through the night. Should have found this site years ago.</div>
+              <div class="testimonial-author">
+                <div class="testimonial-avatar">PW</div>
+                <div class="testimonial-info">
+                  <div class="testimonial-name">Patricia W.</div>
+                  <div class="testimonial-context">Light sleeper · Atlanta, GA</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="testimonial-card">
+              <div class="testimonial-quote">"</div>
+              <div class="testimonial-stars">★★★★★</div>
+              <div class="testimonial-text">I'm 58 and was told by my doctor that poor sleep just comes with age. The aging and sleep article here told a different story — and gave me actual strategies. My deep sleep percentage has gone from 4% to 14% in two months.</div>
+              <div class="testimonial-author">
+                <div class="testimonial-avatar">GN</div>
+                <div class="testimonial-info">
+                  <div class="testimonial-name">Gordon N.</div>
+                  <div class="testimonial-context">Retired · Edinburgh, UK</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="testimonial-card">
+              <div class="testimonial-quote">"</div>
+              <div class="testimonial-stars">★★★★★</div>
+              <div class="testimonial-text">My 15-year-old son couldn't fall asleep before 1am no matter what we tried. The teen sleep article explained why — it's biological. Armed with that knowledge we worked with his school instead of against his body. Everything changed.</div>
+              <div class="testimonial-author">
+                <div class="testimonial-avatar">HO</div>
+                <div class="testimonial-info">
+                  <div class="testimonial-name">Helen O.</div>
+                  <div class="testimonial-context">Parent · Dublin, Ireland</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="testimonial-card">
+              <div class="testimonial-quote">"</div>
+              <div class="testimonial-stars">★★★★★</div>
+              <div class="testimonial-text">I have ADHD and always assumed my terrible sleep was just part of it. The ADHD and sleep article here explained why standard advice doesn't apply to us and gave me a protocol that actually fits how my brain works. First time I've felt consistent in years.</div>
+              <div class="testimonial-author">
+                <div class="testimonial-avatar">CL</div>
+                <div class="testimonial-info">
+                  <div class="testimonial-name">Chris L.</div>
+                  <div class="testimonial-context">Graphic designer · Melbourne, AU</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="testimonial-card">
+              <div class="testimonial-quote">"</div>
+              <div class="testimonial-stars">★★★★☆</div>
+              <div class="testimonial-text">I started cutting my coffee off at 2pm after reading the caffeine half-life guide. I was skeptical — I've been drinking coffee for 20 years. But my Oura ring confirmed it within two weeks: deep sleep up, nighttime heart rate down. The science doesn't lie.</div>
+              <div class="testimonial-author">
+                <div class="testimonial-avatar">DM</div>
+                <div class="testimonial-info">
+                  <div class="testimonial-name">Daniel M.</div>
+                  <div class="testimonial-context">Data analyst · Toronto, CA</div>
+                </div>
+              </div>
+            </div>
+
+            <div class="testimonial-card">
+              <div class="testimonial-quote">"</div>
+              <div class="testimonial-stars">★★★★★</div>
+              <div class="testimonial-text">The weight and sleep article was the missing piece in my fitness journey. I was eating well and exercising but not losing weight. Turns out 5-hour nights were keeping my ghrelin high and my willpower low. Three months of 8-hour sleep and 11 pounds gone — without changing my diet.</div>
+              <div class="testimonial-author">
+                <div class="testimonial-avatar">YS</div>
+                <div class="testimonial-info">
+                  <div class="testimonial-name">Yemi S.</div>
+                  <div class="testimonial-context">Fitness enthusiast · Lagos, NG</div>
+                </div>
+              </div>
+            </div>
           </div>
           <button class="carousel-arrow next" onclick="scrollCarousel(this,1)">&#8250;</button>
           </div>
@@ -3128,6 +3206,7 @@
       entries.forEach(entry => {
         if (entry.isIntersecting) {
           entry.target.classList.add('visible');
+          revealObserver.unobserve(entry.target);
         }
       });
     }, { threshold: 0.05, rootMargin: '0px 0px -30px 0px' });
@@ -3163,9 +3242,28 @@
     function scrollCarousel(btn, dir) {
       const track = btn.parentElement.querySelector('.carousel-track');
       const card = track.querySelector(':scope > *');
-      const cardWidth = card.offsetWidth + 12;
+      const gap = parseInt(getComputedStyle(track).gap) || 24;
+      const cardWidth = card.offsetWidth + gap;
       track.scrollBy({ left: dir * cardWidth * 2, behavior: 'smooth' });
     }
+
+    // Drag-to-scroll for carousels
+    document.querySelectorAll('.carousel-track').forEach(track => {
+      let isDown = false, startX, scrollLeft;
+      track.addEventListener('mousedown', e => {
+        isDown = true;
+        startX = e.pageX - track.offsetLeft;
+        scrollLeft = track.scrollLeft;
+      });
+      track.addEventListener('mouseleave', () => { isDown = false; });
+      track.addEventListener('mouseup', () => { isDown = false; });
+      track.addEventListener('mousemove', e => {
+        if (!isDown) return;
+        e.preventDefault();
+        const x = e.pageX - track.offsetLeft;
+        track.scrollLeft = scrollLeft - (x - startX) * 1.5;
+      });
+    });
 
     // Back to top
     const backTop = document.getElementById('back-top');
