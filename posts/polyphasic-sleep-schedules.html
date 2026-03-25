@@ -1,520 +1,582 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Everyman, Uberman, Dymaxion: A Guide to Polyphasic Sleep Schedules - SleepWiseReviews</title>
-  <meta name="description" content="Da Vinci, Edison, and Churchill reportedly used polyphasic sleep. But does it actually work? We break down every major schedule — Everyman, Uberman, Dymaxion, Siesta — and what the science really says." />
-  <meta name="keywords" content="polyphasic sleep schedules, uberman sleep schedule, everyman sleep, dymaxion sleep, biphasic sleep, polyphasic sleep science, sleep hacking" />
+  <meta name="description" content="Da Vinci, Edison, Churchill — all claimed polyphasic schedules. Here's what sleep science actually says about Everyman, Uberman, Dymaxion, and biphasic sleep." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
-  <style type='text/css'>
+  <style>
     :root {
-      --night: #0A0E1A;
-      --deep: #0F1525;
-      --navy: #141B30;
-      --card: #1A2238;
-      --border: #252D45;
-      --gold: #C9A84C;
-      --gold-light: #E5C96A;
-      --gold-dim: rgba(201, 168, 76, 0.15);
-      --star: #F0E6C8;
-      --text: #D4DCEE;
-      --muted: #7A85A0;
-      --white: #FFFFFF;
-      --green: #4CAF82;
-      --indigo: #5C6BC0;
-      --indigo-dim: rgba(92, 107, 192, 0.1);
+      --night: #0A0E1A; --deep: #0F1525; --navy: #141B30; --card: #1A2238;
+      --border: #252D45; --gold: #C9A84C; --gold-light: #E5C96A;
+      --gold-dim: rgba(201,168,76,0.15); --star: #F0E6C8; --text: #D4DCEE;
+      --muted: #7A85A0; --white: #FFFFFF; --green: #4CAF82;
+      --indigo: #5C6BC0; --indigo-dim: rgba(92,107,192,0.1);
+      --red: #E05252; --red-dim: rgba(224,82,82,0.08);
     }
-
     *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
     html { scroll-behavior: smooth; }
-    body { font-family: 'Outfit', sans-serif; background: var(--night); color: var(--text); line-height: 1.6; overflow-x: hidden; }
-
+    body {
+      font-family: 'Outfit', sans-serif;
+      background: var(--night);
+      color: var(--text);
+      line-height: 1.75;
+      font-size: 17px;
+      overflow-x: hidden;
+    }
     body::before {
-      content: '';
-      position: fixed;
-      inset: 0;
+      content: ''; position: fixed; inset: 0;
       background-image:
-        radial-gradient(1px 1px at 10% 15%, rgba(240,230,200,0.6) 0%, transparent 100%),
-        radial-gradient(1px 1px at 25% 40%, rgba(240,230,200,0.4) 0%, transparent 100%),
-        radial-gradient(1.5px 1.5px at 40% 10%, rgba(240,230,200,0.5) 0%, transparent 100%),
-        radial-gradient(1px 1px at 55% 30%, rgba(240,230,200,0.3) 0%, transparent 100%),
-        radial-gradient(1px 1px at 70% 5%, rgba(240,230,200,0.6) 0%, transparent 100%),
-        radial-gradient(1.5px 1.5px at 80% 20%, rgba(240,230,200,0.4) 0%, transparent 100%),
-        radial-gradient(1px 1px at 90% 45%, rgba(240,230,200,0.3) 0%, transparent 100%);
-      pointer-events: none;
-      z-index: 0;
+        radial-gradient(1px 1px at 8% 12%, rgba(240,230,200,0.55) 0%, transparent 100%),
+        radial-gradient(1px 1px at 22% 38%, rgba(240,230,200,0.35) 0%, transparent 100%),
+        radial-gradient(1.5px 1.5px at 38% 8%, rgba(240,230,200,0.45) 0%, transparent 100%),
+        radial-gradient(1px 1px at 68% 4%, rgba(240,230,200,0.55) 0%, transparent 100%),
+        radial-gradient(1.5px 1.5px at 82% 18%, rgba(240,230,200,0.38) 0%, transparent 100%),
+        radial-gradient(1px 1px at 55% 72%, rgba(240,230,200,0.3) 0%, transparent 100%),
+        radial-gradient(1px 1px at 90% 55%, rgba(240,230,200,0.4) 0%, transparent 100%);
+      pointer-events: none; z-index: 0;
     }
 
-    /* NAV */
+    /* ── NAV ── */
     nav {
-      position: sticky;
-      top: 0;
-      z-index: 100;
-      background: rgba(10,14,26,0.92);
+      position: sticky; top: 0; z-index: 100;
+      background: rgba(10,14,26,0.93);
       backdrop-filter: blur(12px);
       border-bottom: 1px solid var(--border);
-      padding: 0 6%;
-      height: 68px;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
+      padding: 0 6%; height: 68px;
+      display: flex; align-items: center; justify-content: space-between;
     }
-    .logo { font-family: 'Cormorant Garamond', serif; font-size: 1.6rem; font-weight: 700; color: var(--star); text-decoration: none; }
+    .logo {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.6rem; font-weight: 700;
+      color: var(--star); text-decoration: none;
+    }
     .logo span { color: var(--gold); }
     .nav-links { display: flex; gap: 2rem; list-style: none; }
-    .nav-links a { text-decoration: none; color: var(--muted); font-size: 0.88rem; font-weight: 500; transition: color 0.2s; }
+    .nav-links a {
+      text-decoration: none; color: var(--muted);
+      font-size: 0.88rem; font-weight: 500; transition: color 0.2s;
+    }
     .nav-links a:hover { color: var(--gold); }
 
-    /* MAIN */
-    main { position: relative; z-index: 1; max-width: 860px; margin: 0 auto; padding: 0 5% 80px; }
-
-    /* DISCLOSURE */
-    .disclosure-box {
-      background: var(--gold-dim);
-      border: 1px solid rgba(201,168,76,0.25);
-      border-left: 4px solid var(--gold);
-      border-radius: 8px;
-      padding: 14px 18px;
-      margin: 32px 0 0;
-      font-size: 0.78rem;
-      color: var(--muted);
-      line-height: 1.6;
+    /* ── LAYOUT ── */
+    .article-wrapper {
+      position: relative; z-index: 1;
+      max-width: 860px; margin: 0 auto;
+      padding: 0 5% 80px;
     }
-    .disclosure-box strong { color: var(--gold); }
 
-    /* HERO */
-    .hero { padding: 48px 0 40px; border-bottom: 1px solid var(--border); margin-bottom: 40px; }
-    .category-tag { display: inline-block; font-size: 0.72rem; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase; color: var(--gold); background: var(--gold-dim); border: 1px solid rgba(201,168,76,0.3); padding: 4px 12px; border-radius: 20px; margin-bottom: 20px; }
-    h1 { font-family: 'Cormorant Garamond', serif; font-size: clamp(2rem, 4.5vw, 2.9rem); font-weight: 700; color: var(--star); line-height: 1.2; margin-bottom: 18px; }
-    .subtitle { font-size: 1.1rem; color: var(--muted); line-height: 1.7; margin-bottom: 22px; }
+    /* ── HERO ── */
+    .hero { padding: 60px 0 40px; border-bottom: 1px solid var(--border); margin-bottom: 48px; }
+    .category-tag {
+      display: inline-block; font-size: 0.72rem; font-weight: 600;
+      letter-spacing: 0.12em; text-transform: uppercase;
+      color: var(--gold); background: var(--gold-dim);
+      border: 1px solid rgba(201,168,76,0.3);
+      padding: 4px 12px; border-radius: 20px; margin-bottom: 20px;
+    }
+    h1 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(2rem, 4.5vw, 2.9rem); font-weight: 700;
+      color: var(--star); line-height: 1.2; margin-bottom: 18px;
+    }
+    .subtitle { font-size: 1.08rem; color: var(--muted); line-height: 1.75; margin-bottom: 22px; }
     .meta { font-size: 0.8rem; color: var(--muted); }
+    .author-line { font-size: 0.82rem; color: var(--muted); margin-top: 10px; }
+    .author-line strong { color: var(--text); }
 
-    /* TYPOGRAPHY */
-    h2 { font-family: 'Cormorant Garamond', serif; font-size: clamp(1.4rem, 3vw, 1.9rem); font-weight: 700; color: var(--star); margin: 52px 0 16px; }
-    h3 { font-size: 1.05rem; font-weight: 600; color: var(--gold-light); margin: 28px 0 10px; }
+    /* ── TYPOGRAPHY ── */
+    h2 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(1.4rem, 3vw, 1.9rem); font-weight: 700;
+      color: var(--star); margin: 52px 0 16px;
+    }
+    h3 { font-size: 1.05rem; font-weight: 600; color: var(--gold-light); margin: 30px 0 10px; }
     p { margin-bottom: 18px; color: var(--text); font-size: 1rem; line-height: 1.8; }
     strong { color: var(--star); font-weight: 600; }
     em { color: var(--gold-light); font-style: italic; }
-    ul, ol { margin: 0 0 18px 1.4rem; }
-    li { margin-bottom: 8px; font-size: 0.97rem; color: var(--text); line-height: 1.7; }
+    ul, ol { margin: 0 0 18px 1.4rem; color: var(--text); }
+    li { margin-bottom: 8px; line-height: 1.75; font-size: 1rem; }
 
-    /* HOOK BOX */
+    /* ── HOOK BOX ── */
     .hook-box {
       background: var(--indigo-dim);
       border: 1px solid rgba(92,107,192,0.3);
       border-left: 4px solid var(--indigo);
-      border-radius: 10px;
-      padding: 22px 26px;
-      margin: 0 0 40px;
+      border-radius: 10px; padding: 22px 26px; margin: 0 0 40px;
     }
     .hook-box p { margin: 0; font-size: 1.08rem; color: var(--star); font-style: italic; line-height: 1.75; }
 
-    /* SCHEDULE TABLE */
-    .schedule-table-wrap { overflow-x: auto; margin: 28px 0; border-radius: 10px; border: 1px solid var(--border); }
-    table { width: 100%; border-collapse: collapse; font-size: 0.85rem; }
-    thead tr { background: var(--navy); }
-    thead th { padding: 12px 14px; text-align: left; font-size: 0.75rem; font-weight: 700; letter-spacing: 0.07em; text-transform: uppercase; color: var(--gold); border-bottom: 1px solid var(--border); }
-    tbody tr { border-bottom: 1px solid var(--border); transition: background 0.15s; }
-    tbody tr:last-child { border-bottom: none; }
-    tbody tr:hover { background: rgba(255,255,255,0.02); }
-    tbody td { padding: 12px 14px; color: var(--text); vertical-align: top; line-height: 1.5; }
-    .badge { display: inline-block; font-size: 0.68rem; font-weight: 700; letter-spacing: 0.06em; text-transform: uppercase; padding: 2px 8px; border-radius: 3px; }
-    .badge-green { background: rgba(76,175,130,0.15); color: var(--green); }
-    .badge-warn { background: rgba(255,183,77,0.15); color: #FFB74D; }
-    .badge-red { background: rgba(224,82,82,0.15); color: #E05252; }
-
-    /* SCHEDULE DEEP DIVE CARDS */
-    .schedule-card {
-      background: var(--card);
-      border: 1px solid var(--border);
-      border-radius: 12px;
-      padding: 24px 26px;
-      margin: 20px 0;
+    /* ── SCHEDULE CARDS ── */
+    .schedule-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+      gap: 14px; margin: 28px 0;
     }
-    .schedule-card-header { display: flex; align-items: baseline; gap: 12px; margin-bottom: 14px; flex-wrap: wrap; }
-    .schedule-card h3 { margin: 0; font-size: 1.15rem; color: var(--star); font-family: 'Cormorant Garamond', serif; font-weight: 700; }
-    .sc-hours { font-size: 0.8rem; color: var(--muted); }
-    .schedule-card p { margin-bottom: 12px; font-size: 0.93rem; }
-    .schedule-card p:last-child { margin-bottom: 0; }
+    .schedule-card {
+      background: var(--card); border: 1px solid var(--border);
+      border-radius: 10px; padding: 18px;
+    }
+    .sc-type { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; margin-bottom: 6px; }
+    .type-viable  { color: var(--green); }
+    .type-moderate{ color: var(--gold); }
+    .type-extreme { color: var(--red); }
+    .schedule-card h4 { font-size: 0.94rem; font-weight: 600; color: var(--star); margin-bottom: 8px; }
+    .sc-detail { font-size: 0.8rem; color: var(--muted); margin-bottom: 10px; line-height: 1.65; }
+    .sc-total { font-size: 0.76rem; font-weight: 600; }
+    .total-ok   { color: var(--green); }
+    .total-warn { color: #FFB74D; }
+    .total-risk { color: var(--red); }
+    .sc-who { font-size: 0.76rem; color: var(--muted); margin-top: 6px; font-style: italic; }
 
-    /* SCIENCE BOX */
+    /* ── TIMELINE VISUAL ── */
+    .timeline-visual {
+      background: var(--card); border: 1px solid var(--border);
+      border-radius: 12px; padding: 26px; margin: 36px 0;
+    }
+    .timeline-visual .tv-heading {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.1rem; font-weight: 600; color: var(--star);
+      text-align: center; margin-bottom: 22px;
+    }
+    .tv-row { margin-bottom: 18px; }
+    .tv-label { font-size: 0.78rem; color: var(--muted); margin-bottom: 6px; }
+    .tv-bar {
+      display: flex; height: 28px; border-radius: 6px;
+      overflow: hidden; background: rgba(255,255,255,0.04);
+    }
+    .tv-segment {
+      height: 100%; display: flex; align-items: center;
+      justify-content: center; font-size: 0.64rem; font-weight: 600;
+    }
+    .seg-wake  { background: rgba(201,168,76,0.25); color: var(--gold); }
+    .seg-core  { background: rgba(92,107,192,0.7); color: rgba(255,255,255,0.85); }
+    .seg-nap   { background: rgba(76,175,130,0.65); color: rgba(255,255,255,0.9); }
+    .seg-empty { background: rgba(255,255,255,0.03); }
+    .tv-note { font-size: 0.72rem; color: var(--muted); text-align: center; margin-top: 10px; font-style: italic; }
+
+    /* ── SCIENCE BOX ── */
     .science-box {
       background: rgba(92,107,192,0.08);
       border: 1px solid rgba(92,107,192,0.3);
       border-left: 4px solid var(--indigo);
-      border-radius: 10px;
-      padding: 20px 24px;
-      margin: 28px 0;
+      border-radius: 10px; padding: 20px 24px; margin: 28px 0;
     }
-    .sci-label { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: #9FA8DA; margin-bottom: 8px; }
-    .science-box p { margin: 0; font-size: 0.92rem; color: var(--text); line-height: 1.75; }
+    .sci-label {
+      font-size: 0.72rem; font-weight: 700; letter-spacing: 0.1em;
+      text-transform: uppercase; color: #9FA8DA; margin-bottom: 8px;
+    }
+    .science-box p { margin: 0; font-size: 0.93rem; color: var(--text); line-height: 1.78; }
 
-    /* WARNING BOX */
+    /* ── WARNING BOX ── */
     .warning-box {
-      background: rgba(224,82,82,0.08);
+      background: var(--red-dim);
       border: 1px solid rgba(224,82,82,0.3);
-      border-left: 4px solid #E05252;
-      border-radius: 10px;
-      padding: 20px 24px;
-      margin: 28px 0;
+      border-left: 4px solid var(--red);
+      border-radius: 10px; padding: 20px 24px; margin: 28px 0;
     }
-    .warning-label { font-size: 0.72rem; font-weight: 700; letter-spacing: 0.1em; text-transform: uppercase; color: #E05252; margin-bottom: 6px; }
-    .warning-box p { margin: 0; font-size: 0.92rem; color: var(--text); line-height: 1.75; }
+    .warning-label {
+      font-size: 0.72rem; font-weight: 700; letter-spacing: 0.1em;
+      text-transform: uppercase; color: var(--red); margin-bottom: 6px;
+    }
+    .warning-box p { margin: 0; font-size: 0.93rem; color: var(--text); line-height: 1.78; }
 
-    /* CALLOUT */
+    /* ── GREEN CALLOUT ── */
     .callout {
-      border-radius: 10px;
-      padding: 20px 24px;
-      margin: 32px 0;
-      font-size: 0.95rem;
-      line-height: 1.75;
-      color: var(--text);
+      background: linear-gradient(135deg, rgba(76,175,130,0.1), rgba(76,175,130,0.04));
+      border: 1px solid rgba(76,175,130,0.3);
+      border-left: 3px solid var(--green);
+      border-radius: 12px; padding: 24px 28px; margin: 40px 0;
     }
+    .callout-label {
+      font-size: 0.72rem; font-weight: 700; letter-spacing: 0.12em;
+      text-transform: uppercase; color: var(--green); margin-bottom: 10px;
+    }
+    .callout h3 { font-size: 1.05rem; color: var(--star); margin: 0 0 10px; }
+    .callout p { margin: 0; font-size: 0.93rem; color: var(--text); line-height: 1.78; }
+    .callout p + p { margin-top: 10px; }
 
-    /* GOLD CALLOUT */
-    .callout-gold {
-      background: var(--gold-dim);
-      border: 1px solid rgba(201,168,76,0.3);
-      border-left: 4px solid var(--gold);
-    }
-
-    /* AUTHOR BOX */
-    .author-box {
-      display: flex;
-      align-items: flex-start;
-      gap: 18px;
-      background: var(--card);
-      border: 1px solid var(--border);
-      border-radius: 12px;
-      padding: 22px 24px;
-      margin: 48px 0 32px;
-    }
-    .author-avatar {
-      width: 56px;
-      height: 56px;
-      border-radius: 50%;
-      background: linear-gradient(135deg, var(--gold-dim), var(--indigo-dim));
-      border: 2px solid var(--border);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 1.5rem;
-      flex-shrink: 0;
-    }
-    .author-info { flex: 1; }
-    .author-name { font-size: 0.95rem; font-weight: 600; color: var(--star); margin-bottom: 2px; }
-    .author-role { font-size: 0.75rem; color: var(--gold); margin-bottom: 8px; font-weight: 500; letter-spacing: 0.04em; }
-    .author-bio { font-size: 0.82rem; color: var(--muted); line-height: 1.6; margin: 0; }
-
-    /* PRODUCT CTA */
+    /* ── PRODUCT CTA ── */
     .product-cta {
-      background: var(--card);
-      border: 1px solid var(--border);
-      border-radius: 12px;
-      padding: 26px;
-      margin: 36px 0;
-      display: flex;
-      align-items: flex-start;
-      gap: 20px;
+      background: var(--card); border: 1px solid var(--border);
+      border-radius: 12px; padding: 24px 26px; margin: 36px 0;
+      display: flex; align-items: flex-start; gap: 20px;
     }
     .product-cta-icon { font-size: 2rem; flex-shrink: 0; }
-    .product-cta-content h4 { font-size: 1rem; font-weight: 600; color: var(--star); margin-bottom: 6px; }
-    .product-cta-content p { font-size: 0.85rem; color: var(--muted); margin-bottom: 14px; line-height: 1.6; }
+    .product-cta-body h4 { font-size: 1rem; font-weight: 600; color: var(--star); margin-bottom: 6px; }
+    .product-cta-body p { font-size: 0.85rem; color: var(--muted); margin-bottom: 14px; line-height: 1.65; }
+    .product-cta-body .disclosure {
+      font-size: 0.72rem; color: var(--muted); margin-top: 8px; margin-bottom: 0;
+    }
     .cta-btn {
-      display: inline-block;
-      background: var(--gold);
-      color: var(--night);
-      font-size: 0.82rem;
-      font-weight: 700;
-      padding: 9px 18px;
-      border-radius: 6px;
-      text-decoration: none;
-      transition: background 0.2s;
+      display: inline-block; background: var(--gold); color: var(--night);
+      font-size: 0.82rem; font-weight: 700; padding: 9px 18px;
+      border-radius: 6px; text-decoration: none; transition: background 0.2s;
     }
     .cta-btn:hover { background: var(--gold-light); }
 
-    /* ARTICLE CTA */
-    .article-cta {
-      background: linear-gradient(135deg, var(--navy), var(--card));
-      border: 1px solid var(--border);
-      border-radius: 14px;
-      padding: 32px;
-      margin: 48px 0;
-      text-align: center;
+    /* ── COMPARISON TABLE ── */
+    .compare-table { width: 100%; border-collapse: collapse; margin: 28px 0; font-size: 0.88rem; }
+    .compare-table th {
+      background: var(--navy); color: var(--gold); font-weight: 600;
+      text-align: left; padding: 10px 14px;
+      border: 1px solid var(--border); font-size: 0.8rem;
     }
-    .article-cta h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.5rem; color: var(--star); margin-bottom: 10px; }
-    .article-cta p { font-size: 0.9rem; color: var(--muted); margin-bottom: 18px; line-height: 1.65; }
-    .article-cta .cta-btn { font-size: 0.88rem; padding: 10px 24px; }
+    .compare-table td {
+      padding: 10px 14px; border: 1px solid var(--border);
+      color: var(--text); vertical-align: top; line-height: 1.55;
+    }
+    .compare-table tr:nth-child(even) td { background: rgba(255,255,255,0.02); }
+    .badge {
+      display: inline-block; font-size: 0.68rem; font-weight: 700;
+      padding: 2px 8px; border-radius: 20px; letter-spacing: 0.06em;
+    }
+    .badge-green { background: rgba(76,175,130,0.15); color: var(--green); }
+    .badge-yellow { background: rgba(255,183,77,0.15); color: #FFB74D; }
+    .badge-red { background: rgba(224,82,82,0.15); color: var(--red); }
 
-    /* RELATED ARTICLES */
+    /* ── RELATED ── */
     .related { margin-top: 60px; padding-top: 40px; border-top: 1px solid var(--border); }
     .related h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.3rem; color: var(--star); margin-bottom: 20px; }
     .related-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 12px; }
     .related-card {
-      background: var(--card);
-      border: 1px solid var(--border);
-      border-radius: 8px;
-      padding: 14px 16px;
-      text-decoration: none;
-      transition: border-color 0.2s;
+      background: var(--card); border: 1px solid var(--border);
+      border-radius: 8px; padding: 14px 16px;
+      text-decoration: none; transition: border-color 0.2s; display: block;
     }
     .related-card:hover { border-color: var(--gold); }
-    .related-card .rc-cat { font-size: 0.68rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--gold); margin-bottom: 4px; }
-    .related-card .rc-title { font-size: 0.85rem; color: var(--star); line-height: 1.4; }
+    .rc-cat { font-size: 0.68rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--gold); margin-bottom: 4px; }
+    .rc-title { font-size: 0.85rem; color: var(--star); line-height: 1.4; }
 
-    /* FOOTER */
-    footer { border-top: 1px solid var(--border); padding: 40px 6%; text-align: center; position: relative; z-index: 1; }
+    /* ── FOOTER ── */
+    footer { border-top: 1px solid var(--border); padding: 48px 6%; text-align: center; position: relative; z-index: 1; }
     .footer-logo { font-family: 'Cormorant Garamond', serif; font-size: 1.4rem; font-weight: 700; color: var(--star); margin-bottom: 8px; }
     .footer-logo span { color: var(--gold); }
-    footer p { font-size: 0.78rem; color: var(--muted); line-height: 1.8; }
+    .footer-links { display: flex; gap: 1.5rem; justify-content: center; flex-wrap: wrap; margin: 16px 0; }
+    .footer-links a { font-size: 0.8rem; color: var(--muted); text-decoration: none; transition: color 0.2s; }
+    .footer-links a:hover { color: var(--gold); }
+    .footer-products { display: flex; gap: 1.5rem; justify-content: center; flex-wrap: wrap; margin: 18px 0 6px; }
+    .footer-products a { font-size: 0.78rem; color: var(--muted); text-decoration: none; transition: color 0.2s; }
+    .footer-products a:hover { color: var(--gold-light); }
+    footer p { font-size: 0.77rem; color: var(--muted); line-height: 1.8; margin-top: 10px; }
 
-    @media (max-width: 600px) {
+    @media (max-width: 640px) {
+      .schedule-grid { grid-template-columns: 1fr; }
       .product-cta { flex-direction: column; }
-      .author-box { flex-direction: column; }
+      .compare-table { font-size: 0.78rem; }
+      .compare-table th, .compare-table td { padding: 8px 10px; }
     }
   </style>
 </head>
-
 <body>
 
 <nav>
-  <a href="../index.html" class="logo">Sleep<span>Wise</span>Reviews</a>
+  <a href="../" class="logo">Sleep<span>Wise</span>Reviews</a>
   <ul class="nav-links">
-    <li><a href="../index.html">Home</a></li>
-    <li><a href="../index.html#reviews">Reviews</a></li>
-    <li><a href="../index.html#education">Learn</a></li>
+    <li><a href="../">Home</a></li>
+    <li><a href="../#reviews">Reviews</a></li>
+    <li><a href="../#education">Learn</a></li>
   </ul>
 </nav>
 
-<main>
-  <article>
+<article class="article-wrapper">
 
-    <div class="disclosure-box">
-      <strong>Affiliate Disclosure:</strong> SleepWiseReviews participates in the Amazon Associates program. If you click a product link and make a purchase, we may earn a small commission at no extra cost to you. We only recommend products relevant to the topic.
-    </div>
+  <div class="hero">
+    <div class="category-tag">Special Topics</div>
+    <h1>Everyman, Uberman, Dymaxion: A Guide to Polyphasic Sleep Schedules</h1>
+    <p class="subtitle">Da Vinci, Edison, and Churchill all used polyphasic schedules. The science on whether this is wise is not flattering — but the story is more nuanced than either the productivity-hackers or the skeptics will tell you.</p>
+    <div class="meta">📅 February 2022 · ⏱ 9 min read · 🔄 Updated Mar 2026</div>
+    <div class="author-line">By <strong>😴 Harry Soul</strong> · SleepWiseReviews</div>
+  </div>
 
-    <div class="hero">
-      <div class="category-tag">Sleep Science</div>
-      <h1>Everyman, Uberman, Dymaxion: A Guide to Polyphasic Sleep Schedules</h1>
-      <p class="subtitle">Named schedules promise to reclaim hours from sleep without losing performance. The science tells a more complicated story — one where the method matters enormously.</p>
-      <div class="meta">📅 February 2022 · ⏱ 8 min read · 🔄 Updated Mar 2026</div>
-    </div>
+  <div class="hook-box">
+    <p>Da Vinci, Edison, and Churchill all used polyphasic schedules. The science on whether this is wise is not flattering — and most of the historical claims about famous polyphasic sleepers turn out to be either apocryphal or badly misunderstood.</p>
+  </div>
 
-    <div class="hook-box">
-      <p>Da Vinci, Edison, and Churchill all reportedly used polyphasic sleep schedules — sleeping in multiple short blocks rather than one long stretch. The science on whether this is wise, however, is not flattering.</p>
-    </div>
+  <p>Polyphasic sleep — the practice of splitting sleep into multiple shorter segments across the day rather than one consolidated nightly block — has a long history in both fact and myth. Online communities have built elaborate schedules promising to unlock extra productive hours per day by "hacking" sleep architecture. The names are distinctive: Everyman, Uberman, Dymaxion, Triphasic. The appeal is obvious. The biology, unfortunately, does not cooperate.</p>
 
-    <p>The appeal of polyphasic sleep is obvious: if you can reclaim two or three hours from sleep each night without paying a cognitive penalty, you gain the equivalent of months of extra waking time per year. The internet is full of enthusiastic anecdotes from people who claim to have done exactly that. Sleep science has a different account.</p>
+  <p>William Dement explains in <em>The Promise of Sleep</em> (1999) that sleep debt is one of the most powerful and least understood forces acting on human cognition. The core premise of extreme polyphasic schedules — that the brain can be trained to compress its needs and deliver the same restorative sleep in two hours that it normally takes eight to accomplish — contradicts fundamental principles of sleep architecture that are by now firmly established in neuroscience.</p>
 
-    <p>As sleep researcher William C. Dement documents in <em>The Promise of Sleep</em> (Dement, 1999), the relationship between total sleep time, sleep architecture, and cognitive function is far less malleable than productivity communities assume. The brain does not simply "adapt" to compressed sleep the way muscles adapt to training — what it actually does is become measurably impaired while simultaneously losing the ability to accurately detect that impairment. Understanding the named polyphasic schedules means understanding where this boundary lies.</p>
+  <p>That does not mean all multi-phase sleep patterns are equal. Some have genuine evidence, historical continuity, and biological plausibility. Others are, in the words of one leading sleep researcher, "recreational sleep deprivation with extra steps." Understanding the difference requires understanding how sleep actually works — and why the structure of a night matters as much as its length.</p>
 
-    <h2>The Main Polyphasic Schedules Explained</h2>
+  <h2>How Sleep Architecture Makes or Breaks These Schedules</h2>
 
-    <p>Not all polyphasic schedules are equal. The community has developed a taxonomy of named schedules ranging from biologically plausible to clinically inadvisable. Here is what each actually involves:</p>
+  <p>A full night of sleep consists of multiple 90-minute cycles, each moving through distinct stages: light sleep (N1, N2), slow-wave deep sleep (N3), and REM sleep. This architecture is not random. The proportion of each stage shifts across the night — deep slow-wave sleep (SWS) dominates the first half of the night, while REM sleep dominates the second half, with the longest and most intense REM periods occurring in the final 90-minute cycles before waking.</p>
 
-    <div class="schedule-table-wrap">
-      <table>
-        <thead>
-          <tr>
-            <th>Schedule</th>
-            <th>Structure</th>
-            <th>Total Sleep</th>
-            <th>Evidence</th>
-            <th>Risk</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <td><strong>Siesta (Biphasic)</strong></td>
-            <td>6–7h night + 20-min afternoon nap</td>
-            <td>~7–7.5h</td>
-            <td>Epidemiological, cultural</td>
-            <td><span class="badge badge-green">Low</span></td>
-          </tr>
-          <tr>
-            <td><strong>Everyman 2 (E2)</strong></td>
-            <td>6h core + 2 naps of 20 min</td>
-            <td>~6.7h</td>
-            <td>Limited</td>
-            <td><span class="badge badge-warn">Moderate</span></td>
-          </tr>
-          <tr>
-            <td><strong>Everyman 3 (E3)</strong></td>
-            <td>4.5h core + 3 naps of 20 min</td>
-            <td>~5.5h</td>
-            <td>Anecdotal only</td>
-            <td><span class="badge badge-warn">Moderate–High</span></td>
-          </tr>
-          <tr>
-            <td><strong>Dual Core (DC1)</strong></td>
-            <td>3h + 3h core + 1 nap</td>
-            <td>~6.5h</td>
-            <td>Anecdotal only</td>
-            <td><span class="badge badge-warn">Moderate</span></td>
-          </tr>
-          <tr>
-            <td><strong>Dymaxion</strong></td>
-            <td>4 naps of 30 min every 6h</td>
-            <td>~2h</td>
-            <td>None controlled</td>
-            <td><span class="badge badge-red">Very High</span></td>
-          </tr>
-          <tr>
-            <td><strong>Uberman</strong></td>
-            <td>6 naps of 20 min every 4h</td>
-            <td>~2h</td>
-            <td>None controlled</td>
-            <td><span class="badge badge-red">Very High</span></td>
-          </tr>
-        </tbody>
-      </table>
-    </div>
+  <p>This has direct consequences for polyphasic schedules. Cutting total sleep to two or three hours primarily eliminates late-night REM sleep — the stage most critical for emotional memory processing, creative consolidation, procedural learning, and emotional regulation. Brief naps can access N2 and occasionally REM, but only after a period of sleep pressure builds, and they cannot replicate the extended late-night REM cycles that full sleep delivers.</p>
 
+  <div class="science-box">
+    <div class="sci-label">The REM Compression Problem</div>
+    <p>Proponents of extreme polyphasic schedules often argue that the brain adapts to nap schedules by entering REM immediately — "REM rebound" — delivering restorative benefits in 20 minutes. Dement's research in <em>The Promise of Sleep</em> (1999) identifies the critical flaw in this reasoning: REM rebound is a compensatory response to REM deprivation, not an efficient delivery mechanism. The brain enters REM faster when deprived because it is trying to recover a deficit — not because nap-REM is equivalent to full-cycle REM. Slow-wave sleep (SWS), responsible for physical restoration, immune maintenance, and growth hormone release, requires extended uninterrupted periods that no nap schedule can replicate. You cannot achieve Stage N3 deep sleep in a 20-minute nap — you wake up before you reach it.</p>
+  </div>
+
+  <h2>The Five Main Polyphasic Schedules</h2>
+
+  <p>Here are the schedules most commonly discussed, from the most biologically reasonable to the most extreme — with what science actually says about each.</p>
+
+  <div class="schedule-grid">
     <div class="schedule-card">
-      <div class="schedule-card-header">
-        <h3>Everyman (E1, E2, E3)</h3>
-        <span class="sc-hours">4.5–6.5 hours total depending on variant</span>
-      </div>
-      <p>Developed in the early 2000s by a blogger known as "Puredoxyk," the Everyman schedule was designed as a more accessible alternative to the extreme Uberman. The idea: keep a "core" block of consolidated night sleep and supplement it with evenly spaced short naps. The E3 variant — 4.5 hours of core sleep plus three 20-minute naps — is the most commonly attempted, typically yielding around 5.5 hours total.</p>
-      <p>In practice, Everyman schedules sit in an uncomfortable middle ground. The napping requirement is rigid: if you miss a nap, the schedule destabilizes rapidly. Most practitioners report a brutal adaptation period of two to four weeks during which cognitive impairment is severe. For the minority who complete adaptation, reported benefits include increased alertness during nap windows and a subjective sense of increased productivity. Objective cognitive testing data on sustained Everyman practitioners does not exist in peer-reviewed literature.</p>
-      <p>The core problem, as Dement (1999) identifies in his analysis of sleep debt, is that 5.5 hours is below the biological minimum for the majority of the population. People on Everyman E3 are, by the measure of sleep science, chronically sleep-deprived — they simply become acclimatized to impaired function as their subjective baseline.</p>
+      <div class="sc-type type-viable">Biologically viable</div>
+      <h4>Biphasic — Siesta Model</h4>
+      <div class="sc-detail">6–6.5 hours consolidated night sleep + one 20–30 minute midday nap. Aligns with the natural post-lunch circadian dip in core body temperature and alertness. Practiced for centuries across Mediterranean, Latin American, and South Asian cultures. Greek epidemiological data associates regular siestas with a 37% reduction in cardiac mortality.</div>
+      <div class="sc-total total-ok">Total: ~7–7.5 hours ✓ Biologically adequate</div>
+      <div class="sc-who">Claimed practitioners: Mediterranean cultures broadly. Most evidence-supported alternative to monophasic sleep.</div>
     </div>
-
     <div class="schedule-card">
-      <div class="schedule-card-header">
-        <h3>Uberman</h3>
-        <span class="sc-hours">~2 hours total — six 20-minute naps every 4 hours</span>
-      </div>
-      <p>Uberman is the most extreme schedule with any significant following, and also the most studied by anecdote. Six evenly spaced 20-minute naps across the 24-hour cycle, with no core sleep block at all. The underlying hypothesis: by forcing the brain into sleep deprivation severe enough that it enters REM immediately upon sleep onset, the practitioner can extract the most cognitively valuable sleep stage in concentrated bursts.</p>
-      <p>The hypothesis is wrong in a specific, important way. REM sleep that occurs after sleep deprivation is not functionally equivalent to REM sleep occurring within a full sleep cycle. Dement's work in <em>The Promise of Sleep</em> (Dement, 1999) describes REM rebound — the brain's compensatory surge in REM following deprivation — as a recovery response, not a productivity mechanism. The emotional consolidation and creative problem-solving associated with REM require the broader architecture of full sleep cycles, including the transitions between sleep stages and the relationship between early-cycle slow-wave sleep and late-cycle REM that only emerges after several hours of continuous sleep.</p>
-      <p>People who have attempted Uberman in documented online accounts consistently report severe impairment in the first two to four weeks, with many abandoning the schedule. Those who continue beyond this period describe functioning that they characterize as fine but that, by any external behavioral measure, reflects significant cognitive reduction. The schedule is incompatible with driving, most professional obligations, and any social context that does not permit napping every four hours.</p>
+      <div class="sc-type type-moderate">Evidence mixed</div>
+      <h4>Everyman (E3)</h4>
+      <div class="sc-detail">~3 hours core sleep at night (midnight–3am) + three 20-minute naps distributed through the day (typically 9am, 2pm, 9pm). Total of approximately 4–5.5 hours depending on variant. Popular in productivity communities. Requires rigid schedule adherence — missing even one nap causes significant cognitive impairment.</div>
+      <div class="sc-total total-warn">Total: ~4–5.5 hours ⚠ Below minimum threshold</div>
+      <div class="sc-who">Claimed practitioners: Various internet productivity communities. No verified long-term practitioners with objective cognitive assessments.</div>
     </div>
-
     <div class="schedule-card">
-      <div class="schedule-card-header">
-        <h3>Dymaxion</h3>
-        <span class="sc-hours">~2 hours total — four 30-minute naps every 6 hours</span>
-      </div>
-      <p>The Dymaxion schedule is associated with architect and futurist Buckminster Fuller, who reportedly used a version of it in the early 20th century — napping for 30 minutes every six hours. Fuller later said he discontinued the schedule after two years on his doctor's advice, citing physical deterioration. The schedule was re-popularized in online sleep-hacking communities decades later without the benefit of any controlled investigation.</p>
-      <p>Like Uberman, Dymaxion produces approximately two hours of total sleep per 24-hour cycle. Unlike Uberman, the 30-minute naps are long enough to enter light slow-wave sleep but short enough to risk waking mid-cycle, producing significant sleep inertia. The six-hour spacing between naps means there are extended periods — particularly in early morning — where sleepiness accumulates to a degree that is not manageable for most practitioners. No independent researcher has validated this schedule as safe or effective for sustained use.</p>
+      <div class="sc-type type-extreme">Not scientifically supported</div>
+      <h4>Uberman</h4>
+      <div class="sc-detail">Six 20-minute naps spaced exactly every 4 hours across the day (midnight, 4am, 8am, 12pm, 4pm, 8pm). Total: ~2 hours per day. Claims to rely on immediate REM entry to compensate for eliminated consolidated sleep. The most extreme mainstream polyphasic schedule. Adaptation period described as 3–4 weeks of severe cognitive impairment and physical discomfort.</div>
+      <div class="sc-total total-risk">Total: ~2 hours ✗ Dangerously insufficient for most</div>
+      <div class="sc-who">Claimed practitioners: Various online communities. No peer-reviewed study has validated sustained safe use beyond a few weeks.</div>
     </div>
-
-    <h2>The Science Versus the Anecdote</h2>
-
-    <p>A persistent feature of polyphasic sleep discourse is a deep evidentiary asymmetry: enthusiastic first-person accounts of success on one side, and a consistent body of sleep science findings on the other. Understanding why these diverge is essential to evaluating any polyphasic claim.</p>
-
-    <div class="science-box">
-      <div class="sci-label">The Self-Assessment Problem</div>
-      <p>Research consistently shows that as sleep debt accumulates, people become progressively less accurate at estimating their own cognitive impairment. A landmark study by Van Dongen et al. (2003) at the University of Pennsylvania found that subjects restricted to 6 hours of sleep per night for two weeks showed performance deficits equivalent to two full nights of total sleep deprivation — yet they reported feeling only "slightly sleepy." Polyphasic practitioners evaluating their own performance on schedules that deliver 4–5 hours of total sleep are subject to precisely this dynamic: the more impaired they are, the less reliable their self-assessment becomes.</p>
+    <div class="schedule-card">
+      <div class="sc-type type-extreme">Extreme risk</div>
+      <h4>Dymaxion</h4>
+      <div class="sc-detail">Four 30-minute naps every 6 hours (midnight, 6am, 12pm, 6pm). Total: ~2 hours per day. Attributed to Buckminster Fuller, the architect and futurist, who reportedly maintained the schedule for approximately two years. According to Fuller's own account, he discontinued it not by choice but because his business associates could not match his schedule.</div>
+      <div class="sc-total total-risk">Total: ~2 hours ✗ No controlled evidence of safety</div>
+      <div class="sc-who">Origin: Buckminster Fuller (1927). His doctor reportedly urged him to stop. No controlled studies exist.</div>
     </div>
-
-    <p>The historical celebrity examples are similarly unstable under scrutiny. Leonardo da Vinci's sleep habits are documented primarily in the imagination of later biographers rather than in his own notebooks. Edison famously bragged about sleeping very little as part of a broader public persona of workaholism — and his contemporaries at the laboratory also documented his frequent napping on a cot. Churchill's much-cited afternoon nap was taken in addition to, not instead of, a full night's sleep: he typically slept from 3am until 8am and napped for 90 minutes in the afternoon, giving him roughly 7.5 hours total — well within the normal range.</p>
-
-    <p>Dement's research in <em>The Promise of Sleep</em> (Dement, 1999) frames this precisely: the anecdotes that survive about famous short sleepers are filtered by survivorship bias, misattribution, and the self-promotional tendencies of productive people who equate busyness with virtue. The science of sleep debt does not leave room for the interpretation that these individuals thrived on two hours of naps. They either slept more than reported, or they operated with a chronic cognitive handicap that went unmeasured and unnoticed.</p>
-
-    <h2>REM Deprivation Risks: What You Actually Lose</h2>
-
-    <p>The most serious physiological concern with extreme polyphasic schedules is not simply total sleep reduction — it is the specific architecture of what gets lost. REM sleep does not distribute evenly across the sleep period. It concentrates heavily in the final two hours of a full night's sleep, which is precisely the sleep that extreme polyphasic schedules eliminate entirely.</p>
-
-    <div class="warning-box">
-      <div class="warning-label">What Chronic REM Deprivation Affects</div>
-      <p>Emotional memory consolidation; fear extinction and stress regulation; creative and associative thinking; immune modulation (particularly cytokine production); hormonal regulation including testosterone and cortisol; the glymphatic clearance of amyloid-beta and tau proteins associated with Alzheimer's risk. These are not marginal functions. They represent the core repair and integration work that makes the previous day's experience metabolically meaningful. Compressing or eliminating the late-sleep REM architecture does not produce "efficient" sleep — it produces sleep that is systematically missing its most biologically complex component.</p>
+    <div class="schedule-card">
+      <div class="sc-type type-moderate">Limited evidence</div>
+      <h4>Triphasic / CATNAP</h4>
+      <div class="sc-detail">Three roughly equal sleep segments distributed across 24 hours (e.g., 10pm–12am, 5am–7am, 1pm–2:30pm). Total: ~4.5–5 hours. Sometimes called the "triphasic" or CATNAP schedule. Attempts to align with circadian alertness cycles. More biologically coherent than Uberman but still below recommended total sleep thresholds.</div>
+      <div class="sc-total total-warn">Total: ~4.5–5 hours ⚠ Borderline deficient</div>
+      <div class="sc-who">No well-known claimed practitioners. Limited anecdotal reports in polyphasic communities.</div>
     </div>
-
-    <p>Short naps can deliver some REM benefit — particularly for people who are severely sleep-deprived and enter REM almost immediately upon falling asleep (REM rebound). But this is a recovery mechanism triggered by deprivation, not a sustainable architecture. As Dement (1999) describes, the progressive nature of sleep debt means that nap-derived REM rebound is always playing catch-up with an accumulating deficit, never eliminating it.</p>
-
-    <p>Long-term studies of voluntarily sleep-restricted populations — the closest real-world analog to Uberman or Dymaxion practitioners — show elevated biomarkers for neuroinflammation, metabolic disruption, and cardiovascular stress within weeks. These effects do not diminish with adaptation; they accumulate. The subjective feeling of adaptation is itself a product of impaired interoception driven by the very sleep deprivation it is evaluating.</p>
-
-    <h2>Which Schedules Have Evidence Behind Them</h2>
-
-    <p>The news is not entirely discouraging. Two polyphasic approaches have genuine empirical support — both of which preserve adequate total sleep time.</p>
-
-    <h3>The Siesta (Mediterranean Biphasic)</h3>
-    <p>The most evidence-backed polyphasic pattern by a substantial margin is the siesta schedule: a reduced night sleep of six to seven hours combined with a brief 20-minute afternoon nap timed to the natural post-lunch circadian alertness dip that occurs in most people between 1pm and 3pm. A landmark 2007 study by Naska et al. in the <em>Archives of Internal Medicine</em>, following over 23,000 Greek adults, found that regular midday nappers had 37% lower coronary mortality than non-nappers. This benefit was associated specifically with the alertness restoration function of the nap, not with any compression of total sleep time below normal levels.</p>
-
-    <h3>The Pre-Industrial Biphasic Pattern</h3>
-    <p>Historian Roger Ekirch's research, drawing on pre-industrial written records from multiple European cultures, documents that before artificial lighting, humans commonly slept in two distinct blocks — a "first sleep" of approximately five hours followed by an hour of quiet wakefulness, then a "second sleep" of three hours. This pattern maintained total sleep time in the 7–8 hour range. It is not a model for sleep compression; it is a model for sleep distribution that preserved the biological requirements for both slow-wave and REM sleep in different blocks. Modern recreations of this pattern by Russell Foster's chronobiology group suggest it may offer psychological benefits — the mid-night wakefulness period appeared to be associated with low anxiety and a reflective waking state — but it does not reduce total sleep time and therefore offers no time-efficiency advantage over consolidated monophasic sleep.</p>
-
-    <h2>Who Might Actually Benefit</h2>
-
-    <p>Putting aside the extreme schedules, there is a coherent category of people for whom structured polyphasic sleep — specifically the siesta-biphasic or monophasic-plus-strategic-nap pattern — offers genuine benefits:</p>
-
-    <ul>
-      <li><strong>People with irregular work schedules</strong> who cannot maintain a consistent 8-hour nocturnal block but can reliably access a 20-minute nap mid-day</li>
-      <li><strong>Athletes in training blocks</strong> where recovery demand exceeds what a single sleep period can deliver — a second sleep or strategic nap adds genuine restorative benefit</li>
-      <li><strong>People experiencing age-related sleep fragmentation</strong>, who often find that the pressure to maintain consolidated sleep creates anxiety that further disrupts sleep quality</li>
-      <li><strong>Shift workers</strong> whose occupational schedule forces nocturnal wakefulness — strategic napping before and after night shifts meaningfully reduces cognitive impairment and accident risk</li>
-      <li><strong>Parents of young children</strong> whose sleep is unavoidably fragmented — the biphasic model can reduce the total distress of interrupted nights by reframing normal wakefulness as part of a two-phase structure rather than as sleep failure</li>
-    </ul>
-
-    <p>What this list has in common is that the benefit in every case comes from supplementing adequate sleep, not from compressing it. The Siesta schedule works because seven hours of sleep plus a restorative nap is better than seven hours alone — not because it achieves the same result as eight hours with one fewer hour of total sleep.</p>
-
-    <div class="callout callout-gold">
-      ✦ <strong>Key Finding:</strong> Every polyphasic schedule with credible evidence behind it maintains total sleep time in the 7–8 hour range. The evidence for schedules that reduce total sleep below 6 hours is exclusively anecdotal — and systematically susceptible to the impaired self-assessment that chronic sleep deprivation produces. Dement (1999) puts the underlying principle clearly: sleep debt is cumulative, biologically real, and cannot be repaid with strategic efficiency.
+    <div class="schedule-card">
+      <div class="sc-type type-viable">Evidence-backed</div>
+      <h4>Monophasic + Strategic Nap</h4>
+      <div class="sc-detail">7–8 hours consolidated night sleep + one 10–20 minute nap between 1–3pm. Not technically polyphasic but the most evidence-backed multi-sleep approach. Used by NASA astronaut programs, elite military units, and professional sports performance teams. Combines full sleep architecture with the alertness and cognitive benefits of a strategic nap.</div>
+      <div class="sc-total total-ok">Total: ~7.5–8.5 hours ✓ Optimal range</div>
+      <div class="sc-who">Used by: NASA, elite military programs, professional sports. The gold standard for sustained performance.</div>
     </div>
+  </div>
 
-    <div class="callout" style="border-left:3px solid var(--green)">💚 <strong>Tonight's action:</strong> If you're curious about polyphasic sleep, start with the most evidence-backed version: the Siesta schedule (one 6-7 hour night + one 20-minute afternoon nap). It improves alertness and cognitive performance without the REM deprivation risks of extreme schedules like Uberman.</div>
+  <h2>Schedule-at-a-Glance Comparison</h2>
 
-    <div class="product-cta">
-      <div class="product-cta-icon">🌙</div>
-      <div class="product-cta-content">
-        <h4>Sleep Mask for Daytime Napping</h4>
-        <p>The single biggest practical barrier to a consistent afternoon nap is daytime light. A well-fitted blackout sleep mask that stays in place during a 20-minute nap removes that barrier immediately — and makes the transition between wakefulness and sleep significantly faster, which matters enormously when the nap window is only 20 minutes. Look for contoured designs that do not press on the eyelids, which can interfere with REM.</p>
-        <a href="https://www.amazon.com/s?k=sleep+mask+blackout+nap+daytime&tag=sleepwiserevi-20" class="cta-btn" target="_blank" rel="noopener">Browse Sleep Masks on Amazon →</a>
-      </div>
-    </div>
+  <table class="compare-table">
+    <thead>
+      <tr>
+        <th>Schedule</th>
+        <th>Total Sleep</th>
+        <th>Core Night Block</th>
+        <th>Naps</th>
+        <th>Scientific Verdict</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Biphasic (Siesta)</strong></td>
+        <td>~7–7.5h</td>
+        <td>6–6.5h</td>
+        <td>1 × 20–30 min</td>
+        <td><span class="badge badge-green">Supported</span></td>
+      </tr>
+      <tr>
+        <td><strong>Everyman E3</strong></td>
+        <td>~4–5.5h</td>
+        <td>3–4.5h</td>
+        <td>3 × 20 min</td>
+        <td><span class="badge badge-yellow">Insufficient evidence</span></td>
+      </tr>
+      <tr>
+        <td><strong>Uberman</strong></td>
+        <td>~2h</td>
+        <td>None</td>
+        <td>6 × 20 min</td>
+        <td><span class="badge badge-red">Not supported</span></td>
+      </tr>
+      <tr>
+        <td><strong>Dymaxion</strong></td>
+        <td>~2h</td>
+        <td>None</td>
+        <td>4 × 30 min</td>
+        <td><span class="badge badge-red">Not supported</span></td>
+      </tr>
+      <tr>
+        <td><strong>Triphasic</strong></td>
+        <td>~4.5–5h</td>
+        <td>~2h segments</td>
+        <td>3 equal blocks</td>
+        <td><span class="badge badge-yellow">Insufficient evidence</span></td>
+      </tr>
+      <tr>
+        <td><strong>Monophasic + Nap</strong></td>
+        <td>~7.5–8.5h</td>
+        <td>7–8h</td>
+        <td>1 × 10–20 min</td>
+        <td><span class="badge badge-green">Strongly supported</span></td>
+      </tr>
+    </tbody>
+  </table>
 
-    <div class="article-cta">
-      <h3>Want the Complete Picture on Sleep Science?</h3>
-      <p>Our in-depth sleep education library covers everything from sleep stages and circadian biology to practical schedules and evidence-based sleep aids — all without the noise of sleep-hacking mythology.</p>
-      <a href="../index.html#education" class="cta-btn">Explore the Library →</a>
-    </div>
+  <h2>A 24-Hour Visual: What Each Schedule Looks Like</h2>
 
-    <div class="author-box">
-      <div class="author-avatar">🌙</div>
-      <div class="author-info">
-        <div class="author-name">Harry Soul</div>
-        <div class="author-role">Sleep Science Writer · SleepWiseReviews</div>
-        <p class="author-bio">Harry writes about sleep research, circadian biology, and evidence-based sleep improvement strategies. He focuses on translating peer-reviewed findings into practical, honest guidance — and on separating what the science actually says from what productivity culture wishes it said.</p>
-      </div>
-    </div>
-
-    <div class="related">
-      <h3>Related Reading</h3>
-      <div class="related-grid">
-        <a href="polyphasic-sleep.html" class="related-card">
-          <div class="rc-cat">Sleep Science</div>
-          <div class="rc-title">Polyphasic Sleep: Does Sleeping in Segments Actually Work?</div>
-        </a>
-        <a href="napping-science.html" class="related-card">
-          <div class="rc-cat">Sleep Science</div>
-          <div class="rc-title">The Science of Napping: When, How Long, and Why It Works</div>
-        </a>
-        <a href="rem-sleep-benefits.html" class="related-card">
-          <div class="rc-cat">Sleep Stages</div>
-          <div class="rc-title">Why REM Sleep Is the One You Can't Afford to Lose</div>
-        </a>
-        <a href="sleep-debt-accumulation.html" class="related-card">
-          <div class="rc-cat">Education</div>
-          <div class="rc-title">Sleep Debt Is Real — Here's What It's Costing You</div>
-        </a>
-        <a href="sleep-chronotypes.html" class="related-card">
-          <div class="rc-cat">Education</div>
-          <div class="rc-title">Are You a Lion, Bear, Wolf, or Dolphin?</div>
-        </a>
+  <div class="timeline-visual">
+    <div class="tv-heading">Sleep Segment Patterns Across 24 Hours</div>
+    <div class="tv-row">
+      <div class="tv-label">Monophasic (standard) — 8h total</div>
+      <div class="tv-bar">
+        <div class="tv-segment seg-wake" style="width:66.7%">Wake — 16 hours</div>
+        <div class="tv-segment seg-core" style="width:33.3%">Sleep — 8h</div>
       </div>
     </div>
+    <div class="tv-row">
+      <div class="tv-label">Biphasic siesta — 7h total</div>
+      <div class="tv-bar">
+        <div class="tv-segment seg-wake" style="width:35%">Morning</div>
+        <div class="tv-segment seg-nap" style="width:4%">Nap</div>
+        <div class="tv-segment seg-wake" style="width:35%">Afternoon &amp; Evening</div>
+        <div class="tv-segment seg-core" style="width:26%">Night 6.5h</div>
+      </div>
+    </div>
+    <div class="tv-row">
+      <div class="tv-label">Everyman E3 — ~4.5h total</div>
+      <div class="tv-bar">
+        <div class="tv-segment seg-core" style="width:12.5%">Core 3h</div>
+        <div class="tv-segment seg-wake" style="width:25%">Wake</div>
+        <div class="tv-segment seg-nap" style="width:4%">N</div>
+        <div class="tv-segment seg-wake" style="width:20%">Wake</div>
+        <div class="tv-segment seg-nap" style="width:4%">N</div>
+        <div class="tv-segment seg-wake" style="width:25%">Wake</div>
+        <div class="tv-segment seg-nap" style="width:4%">N</div>
+        <div class="tv-segment seg-empty" style="width:5.5%"></div>
+      </div>
+    </div>
+    <div class="tv-row">
+      <div class="tv-label">Uberman — ~2h total (6 × 20-min naps)</div>
+      <div class="tv-bar">
+        <div class="tv-segment seg-nap" style="width:4%">N</div>
+        <div class="tv-segment seg-wake" style="width:12.7%"></div>
+        <div class="tv-segment seg-nap" style="width:4%">N</div>
+        <div class="tv-segment seg-wake" style="width:12.7%"></div>
+        <div class="tv-segment seg-nap" style="width:4%">N</div>
+        <div class="tv-segment seg-wake" style="width:12.7%"></div>
+        <div class="tv-segment seg-nap" style="width:4%">N</div>
+        <div class="tv-segment seg-wake" style="width:12.7%"></div>
+        <div class="tv-segment seg-nap" style="width:4%">N</div>
+        <div class="tv-segment seg-wake" style="width:12.7%"></div>
+        <div class="tv-segment seg-nap" style="width:4%">N</div>
+        <div class="tv-segment seg-wake" style="width:12.5%"></div>
+      </div>
+    </div>
+    <div class="tv-row">
+      <div class="tv-label">Dymaxion — ~2h total (4 × 30-min naps)</div>
+      <div class="tv-bar">
+        <div class="tv-segment seg-nap" style="width:6%">Nap</div>
+        <div class="tv-segment seg-wake" style="width:19%">Wake</div>
+        <div class="tv-segment seg-nap" style="width:6%">Nap</div>
+        <div class="tv-segment seg-wake" style="width:19%">Wake</div>
+        <div class="tv-segment seg-nap" style="width:6%">Nap</div>
+        <div class="tv-segment seg-wake" style="width:19%">Wake</div>
+        <div class="tv-segment seg-nap" style="width:6%">Nap</div>
+        <div class="tv-segment seg-wake" style="width:19%">Wake</div>
+      </div>
+    </div>
+    <p class="tv-note">Extreme polyphasic schedules eliminate the extended slow-wave and late-night REM sleep that governs memory consolidation, immune function, and metabolic health</p>
+  </div>
 
-  </article>
-</main>
+  <h2>The Famous Practitioners — Separating Fact from Myth</h2>
+
+  <p>The appeal of polyphasic sleep is inseparable from its famous alleged practitioners. If Da Vinci produced the <em>Mona Lisa</em> while sleeping 2 hours a day, the argument goes, the approach must work. The historical record is considerably less glamorous.</p>
+
+  <h3>Leonardo da Vinci</h3>
+  <p>Da Vinci's alleged schedule — sleeping 20 minutes every four hours, totalling roughly 2 hours per day — derives largely from Giorgio Vasari's <em>Lives of the Artists</em> (1550), written decades after Da Vinci's death, and from a single diary entry referencing napping. There is no contemporaneous record of Da Vinci maintaining such a schedule systematically. Historians of science note that Da Vinci was also famous for leaving enormous numbers of projects unfinished — which is consistent with chronic sleep restriction's documented effects on executive function and task completion, not a rebuttal of them.</p>
+
+  <h3>Thomas Edison</h3>
+  <p>Edison famously disparaged sleep as a waste of time and claimed to sleep only 4–5 hours a night. What is less commonly noted is that Edison napped extensively throughout the day — sometimes multiple hours — and was known among his laboratory staff for falling asleep in unexpected places. His total sleep time, when naps are included, was likely in the 7–8 hour range distributed unconventionally, not the 4 hours he boasted about.</p>
+
+  <h3>Winston Churchill</h3>
+  <p>Churchill's biphasic schedule is one of the better-documented cases: he maintained a 5-hour night sleep supplemented by a 1–2 hour afternoon nap taken in bed in proper pyjamas, which he considered non-negotiable. Churchill's total sleep time was approximately 6–8 hours. This is not polyphasic sleep in any extreme sense — it is biphasic sleep with a generous nap, which is precisely the pattern modern sleep science considers viable.</p>
+
+  <div class="warning-box">
+    <div class="warning-label">The Cognitive Impairment Blind Spot</div>
+    <p>One of the most troubling findings in sleep restriction research is that people become systematically less able to accurately assess their own cognitive impairment as sleep debt accumulates. Dement documents in <em>The Promise of Sleep</em> (1999) that subjects who had slept only 6 hours a night for two weeks showed performance deficits equivalent to two full nights of total sleep deprivation — yet rated their own sleepiness as barely elevated. Polyphasic practitioners who report feeling "fine" after weeks of 2-hour total sleep are likely experiencing exactly this phenomenon: the subjective sense of adaptation while objective performance continues to deteriorate. The impairment is real; the self-assessment has simply become unreliable.</p>
+  </div>
+
+  <h2>What the Cognitive Research Actually Shows</h2>
+
+  <p>The research on sleep restriction is consistent and sobering. Studies from the University of Pennsylvania's sleep laboratory, cited extensively by Dement, demonstrate that restricting sleep to 6 hours per night — still triple what Uberman practitioners achieve — produces progressive cognitive decline across 14 days that subjects cannot detect in themselves. Reaction time, working memory, and executive function all degrade measurably. The subjects report feeling only slightly sleepy. The objective tests tell a different story.</p>
+
+  <p>For extreme polyphasic schedules that reduce total sleep to 2 hours, the situation is not better because the brain has been trained to use naps efficiently. It is worse, because the training period itself involves two to four weeks of severe sleep deprivation during which the practitioner is operating with dangerously impaired judgment — often while driving, working with machinery, or making consequential decisions.</p>
+
+  <p>The immune system tells its own story. Growth hormone is primarily released during slow-wave sleep. Immune system consolidation and repair depends on extended NREM sleep cycles. Metabolic regulation — including insulin sensitivity and appetite hormone balance — is highly sensitive to total sleep time. Cutting sleep to 2 hours does not pause these systems; it disrupts them continuously.</p>
+
+  <h2>The One Pattern That Actually Works</h2>
+
+  <p>The evidence converges clearly on a single alternative to standard monophasic sleep: the siesta-biphasic pattern. A slightly shortened night of 6–6.5 hours, combined with one well-timed 20-minute nap between 1pm and 3pm, maintains total sleep in the biologically adequate range while accommodating the natural post-lunch circadian dip that affects virtually everyone.</p>
+
+  <p>This is the pattern Churchill used. It aligns with pre-industrial historical sleep patterns. It has epidemiological support (the Greek cardiac mortality data). And it is the only alternative schedule that does not require either extraordinary genetic luck (the rare short-sleep BHLHE41 gene variant affects fewer than 1 in 12,000 people) or tolerance for progressive cognitive decline.</p>
+
+  <div class="callout">
+    <div class="callout-label">Practical Takeaway — The Only Safe Alternative</div>
+    <h3>Biphasic is the only evidence-supported departure from monophasic sleep</h3>
+    <p>If you want to experiment with your sleep schedule, the only pattern with genuine scientific support is biphasic: 6–6.5 hours of consolidated night sleep + one strict 20-minute nap between 1pm and 3pm. Set an alarm for exactly 20 minutes — sleeping longer crosses into slow-wave sleep and causes post-nap grogginess (sleep inertia) that lasts 30–60 minutes. Run this pattern consistently for two weeks before assessing results; the circadian system takes time to stabilise around a new schedule. Your total sleep time must remain at 7–7.5 hours or above. If you cannot maintain the nap reliably (most office-based workers cannot), a standard 7.5–8 hour monophasic schedule is superior to any schedule that reduces total sleep time below 7 hours. Dement's <em>The Promise of Sleep</em> (1999) remains the most accessible and scientifically rigorous guide to understanding why this threshold matters — and what happens, cognitively and physiologically, when you cross it.</p>
+  </div>
+
+  <div class="product-cta">
+    <div class="product-cta-icon">⏱️</div>
+    <div class="product-cta-body">
+      <h4>Sleep Schedule Trackers — Find the Right One for Your Pattern</h4>
+      <p>Tracking your sleep across multiple segments is essential if you are experimenting with any biphasic or polyphasic approach. A good sleep tracker surfaces actual sleep stage data, not just duration — so you can verify whether your nap windows are actually producing the rest you intend, or just time in bed. Wearable trackers with nap detection make the biphasic schedule considerably easier to sustain and evaluate.</p>
+      <a href="https://www.amazon.com/s?k=sleep+schedule+tracker&tag=sleepwiserevi-20" class="cta-btn" target="_blank" rel="noopener sponsored">Browse Sleep Trackers on Amazon →</a>
+      <p class="disclosure">As an Amazon Associate we earn from qualifying purchases. <a href="../pages/affiliate-disclosure.html" style="color:var(--muted);">Affiliate disclosure</a>.</p>
+    </div>
+  </div>
+
+  <h2>Bottom Line</h2>
+
+  <p>Polyphasic sleep is not a productivity hack — it is a spectrum of sleep patterns ranging from the evidence-based (biphasic siesta) to the genuinely dangerous (Uberman, Dymaxion). The famous historical examples, when examined carefully, either turn out to be biphasic sleepers maintaining adequate total sleep time, or people who were simply sleep-deprived and have been romanticised in retrospect.</p>
+
+  <p>The biology is not negotiable. REM sleep, slow-wave sleep, and the 90-minute cycle architecture are not inefficiencies to be optimised away. They are the mechanism by which the brain processes experience, consolidates memory, regulates emotion, repairs tissue, and coordinates metabolism. Eliminating them does not free up time — it degrades the quality of everything done with that time.</p>
+
+  <p>If you are drawn to polyphasic sleep because you feel you do not have enough hours in the day, the evidence-based answer is the same one Dement arrives at in <em>The Promise of Sleep</em> (1999): the people who feel most pressed for time are usually the people carrying the largest sleep debt, who would find considerably more hours — and use them far more effectively — if they prioritised the sleep they have been borrowing against.</p>
+
+  <div class="related">
+    <h3>Related Reading</h3>
+    <div class="related-grid">
+      <a href="polyphasic-sleep.html" class="related-card">
+        <div class="rc-cat">Special Topics</div>
+        <div class="rc-title">Polyphasic Sleep: Does Sleeping in Segments Actually Work?</div>
+      </a>
+      <a href="napping-science.html" class="related-card">
+        <div class="rc-cat">Sleep Science</div>
+        <div class="rc-title">The Science of Napping: When, How Long, and Why It Works</div>
+      </a>
+      <a href="power-nap-science.html" class="related-card">
+        <div class="rc-cat">Sleep Science</div>
+        <div class="rc-title">The Science of the Power Nap: 10 vs 20 vs 90 Minutes</div>
+      </a>
+    </div>
+  </div>
+
+</article>
 
 <footer>
   <div class="footer-logo">Sleep<span>Wise</span>Reviews</div>
+  <div class="footer-links">
+    <a href="../">Home</a>
+    <a href="../#reviews">Reviews</a>
+    <a href="../#education">Learn</a>
+    <a href="../pages/affiliate-disclosure.html">Affiliate Disclosure</a>
+  </div>
+  <div class="footer-products">
+    <a href="https://www.amazon.com/s?k=weighted+blanket&tag=sleepwiserevi-20" target="_blank" rel="noopener sponsored">Weighted Blankets</a>
+    <a href="https://www.amazon.com/s?k=white+noise+machine&tag=sleepwiserevi-20" target="_blank" rel="noopener sponsored">White Noise Machines</a>
+    <a href="https://www.amazon.com/s?k=sleep+supplements+melatonin&tag=sleepwiserevi-20" target="_blank" rel="noopener sponsored">Sleep Supplements</a>
+    <a href="https://www.amazon.com/s?k=sleep+schedule+tracker&tag=sleepwiserevi-20" target="_blank" rel="noopener sponsored">Sleep Trackers</a>
+  </div>
   <p>Evidence-based sleep science. Independent reviews. No sponsored content.<br>
-  © 2026 SleepWiseReviews. For informational purposes only — consult a healthcare provider for medical concerns.</p>
+  © 2026 SleepWiseReviews · For informational purposes only — consult a healthcare provider for medical concerns.</p>
 </footer>
 
 </body>
