@@ -1402,6 +1402,88 @@
       background: #e0b84a;
       transform: translateY(-2px);
     }
+
+    /* SMALLER HEADING IN ARTICLES SECTION */
+    .articles-header .section-title { font-size: 1.55rem; }
+
+    /* BIGGER TESTIMONIALS */
+    .testimonial-card {
+      min-width: 380px;
+      max-width: 380px;
+      padding: 2.2rem;
+    }
+    .testimonial-text { font-size: 1.02rem; }
+    .testimonial-quote { font-size: 4rem; opacity: 0.25; }
+    .testimonial-stars { font-size: 1rem; }
+    .testimonial-name { font-size: 1.15rem; }
+    .testimonials-section .section-title { font-size: 2.2rem; }
+
+    /* CATEGORY ARCHIVE GRID */
+    .cat-archive-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+      gap: 1rem;
+      margin-top: 2.5rem;
+    }
+    .cat-archive-card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.4rem 1.6rem;
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      gap: 1.2rem;
+      transition: all 0.25s;
+    }
+    .cat-archive-card:hover {
+      border-color: var(--gold);
+      background: rgba(201,168,76,0.05);
+      transform: translateX(5px);
+      box-shadow: 0 8px 24px rgba(0,0,0,0.3);
+    }
+    .cat-archive-icon {
+      font-size: 2.2rem;
+      flex-shrink: 0;
+      width: 52px;
+      text-align: center;
+    }
+    .cat-archive-info { flex: 1; }
+    .cat-archive-name {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: var(--star);
+      margin-bottom: 0.15rem;
+    }
+    .cat-archive-count {
+      font-size: 0.72rem;
+      color: var(--gold);
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      margin-bottom: 0.35rem;
+    }
+    .cat-archive-desc {
+      font-size: 0.8rem;
+      color: var(--muted);
+      line-height: 1.45;
+    }
+    .cat-archive-arrow {
+      color: var(--gold);
+      font-size: 1.3rem;
+      flex-shrink: 0;
+      opacity: 0.45;
+      transition: all 0.2s;
+    }
+    .cat-archive-card:hover .cat-archive-arrow {
+      opacity: 1;
+      transform: translateX(5px);
+    }
+    @media (max-width: 900px) {
+      .cat-archive-grid { grid-template-columns: 1fr; }
+      .testimonial-card { min-width: 300px; max-width: 300px; }
+    }
   </style>
 </head>
 
@@ -1957,9 +2039,76 @@
         <div class="section-inner">
           <div class="label">Complete Library</div>
           <div class="section-title">All Sleep Guides & Articles</div>
-          <div class="section-sub">5 years of research, 340+ products tested, organized by year.</div>
+          <div class="section-sub">150 articles across 6 categories — 5 years of independent sleep research.</div>
 
-          <!-- 2026 -->
+          <div class="cat-archive-grid">
+
+            <a class="cat-archive-card" href="pages/category-sleep-science.html">
+              <div class="cat-archive-icon">🔬</div>
+              <div class="cat-archive-info">
+                <div class="cat-archive-name">Sleep Science</div>
+                <div class="cat-archive-count">38 articles</div>
+                <div class="cat-archive-desc">Sleep stages, REM, circadian rhythms, memory consolidation, and the neuroscience of rest</div>
+              </div>
+              <div class="cat-archive-arrow">→</div>
+            </a>
+
+            <a class="cat-archive-card" href="pages/category-product-reviews.html">
+              <div class="cat-archive-icon">🛍️</div>
+              <div class="cat-archive-info">
+                <div class="cat-archive-name">Product Reviews</div>
+                <div class="cat-archive-count">45 articles</div>
+                <div class="cat-archive-desc">Mattresses, pillows, sleep trackers, weighted blankets, white noise machines, and blackout solutions</div>
+              </div>
+              <div class="cat-archive-arrow">→</div>
+            </a>
+
+            <a class="cat-archive-card" href="pages/category-supplements.html">
+              <div class="cat-archive-icon">💊</div>
+              <div class="cat-archive-info">
+                <div class="cat-archive-name">Supplements & Sleep Aids</div>
+                <div class="cat-archive-count">12 articles</div>
+                <div class="cat-archive-desc">Magnesium, melatonin, valerian, L-theanine — ranked by evidence strength</div>
+              </div>
+              <div class="cat-archive-arrow">→</div>
+            </a>
+
+            <a class="cat-archive-card" href="pages/category-lifestyle.html">
+              <div class="cat-archive-icon">🌿</div>
+              <div class="cat-archive-info">
+                <div class="cat-archive-name">Lifestyle & Habits</div>
+                <div class="cat-archive-count">20 articles</div>
+                <div class="cat-archive-desc">Exercise timing, nutrition, bedroom environment, routines, and light exposure</div>
+              </div>
+              <div class="cat-archive-arrow">→</div>
+            </a>
+
+            <a class="cat-archive-card" href="pages/category-special-topics.html">
+              <div class="cat-archive-icon">🧠</div>
+              <div class="cat-archive-info">
+                <div class="cat-archive-name">Special Topics</div>
+                <div class="cat-archive-count">22 articles</div>
+                <div class="cat-archive-desc">ADHD, PTSD, menopause, pregnancy, shift work, aging, and sleep disorders</div>
+              </div>
+              <div class="cat-archive-arrow">→</div>
+            </a>
+
+            <a class="cat-archive-card" href="pages/category-guides.html">
+              <div class="cat-archive-icon">📋</div>
+              <div class="cat-archive-info">
+                <div class="cat-archive-name">Practical Guides</div>
+                <div class="cat-archive-count">13 articles</div>
+                <div class="cat-archive-desc">CBT-I, jet lag, sleep resets, travel sleep, and step-by-step improvement plans</div>
+              </div>
+              <div class="cat-archive-arrow">→</div>
+            </a>
+
+          </div>
+        </div>
+      </section>
+
+      <!-- YEAR ARCHIVE REMOVED — replaced with category pages -->
+      <div style="display:none"><!-- 2026 -->
           <div class="archive-year">
             <h3 class="archive-year-title">2026</h3>
             <div class="archive-list">
@@ -2758,8 +2907,7 @@
             </div>
           </div>
 
-        </div>
-      </section>
+      </div><!-- /hidden year archive -->
 
       <!-- EMAIL NEWSLETTER -->
       <section class="email-section" id="newsletter">
