@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sleep and Blood Sugar: The Connection Most Doctors Don't Discuss - SleepWiseReviews</title>
+  <meta name="description" content="One week of 5-hour nights creates insulin resistance equivalent to gaining 25 pounds of body fat. Discover the science linking poor sleep to blood sugar dysregulation and type 2 diabetes." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <style type='text/css'>
+    :root {
+      --night: #0A0E1A;
+      --deep: #0F1525;
+      --navy: #141B30;
+      --card: #1A2238;
+      --border: #252D45;
+      --gold: #C9A84C;
+      --gold-light: #E5C96A;
+      --gold-dim: rgba(201, 168, 76, 0.15);
+      --star: #F0E6C8;
+      --text: #D4DCEE;
+      --muted: #7A85A0;
+      --white: #FFFFFF;
+      --green: #4CAF82;
+    }
+
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: 'Outfit', sans-serif;
+      background: var(--night);
+      color: var(--text);
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      background-image:
+        radial-gradient(1px 1px at 10% 15%, rgba(240, 230, 200, 0.6) 0%, transparent 100%),
+        radial-gradient(1px 1px at 25% 40%, rgba(240, 230, 200, 0.4) 0%, transparent 100%),
+        radial-gradient(1.5px 1.5px at 40% 10%, rgba(240, 230, 200, 0.5) 0%, transparent 100%),
+        radial-gradient(1px 1px at 55% 30%, rgba(240, 230, 200, 0.3) 0%, transparent 100%),
+        radial-gradient(1px 1px at 70% 5%, rgba(240, 230, 200, 0.6) 0%, transparent 100%),
+        radial-gradient(1.5px 1.5px at 80% 20%, rgba(240, 230, 200, 0.4) 0%, transparent 100%),
+        radial-gradient(1px 1px at 90% 45%, rgba(240, 230, 200, 0.3) 0%, transparent 100%);
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    nav {
+      position: sticky; top: 0; z-index: 100;
+      background: rgba(10, 14, 26, 0.92);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+      padding: 0 6%; height: 68px;
+      display: flex; align-items: center; justify-content: space-between;
+    }
+    .logo { font-family: 'Cormorant Garamond', serif; font-size: 1.6rem; font-weight: 700; color: var(--star); text-decoration: none; }
+    .logo span { color: var(--gold); }
+    .nav-links { display: flex; gap: 2rem; list-style: none; }
+    .nav-links a { text-decoration: none; color: var(--muted); font-size: 0.88rem; font-weight: 500; transition: color 0.2s; }
+    .nav-links a:hover { color: var(--gold); }
+    .nav-cta { background: var(--gold-dim); color: var(--gold) !important; border: 1px solid rgba(201, 168, 76, 0.3); padding: 7px 16px; border-radius: 4px; }
+
+    .article-wrapper {
+      position: relative; z-index: 1;
+      max-width: 800px; margin: 0 auto; padding: 50px 6% 80px;
+    }
+    .article-meta-top { display: flex; flex-wrap: wrap; align-items: center; gap: 0.8rem; margin-bottom: 1.2rem; }
+    .tag { background: var(--gold); color: var(--night); padding: 5px 12px; border-radius: 4px; font-size: 0.72rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; }
+    .meta-text { color: var(--muted); font-size: 0.82rem; }
+    .article-wrapper h1 { font-family: 'Cormorant Garamond', serif; font-size: 2.4rem; font-weight: 600; color: var(--star); line-height: 1.2; margin-bottom: 1.2rem; }
+    .article-intro { font-size: 1.1rem; color: var(--text); line-height: 1.7; margin-bottom: 2rem; font-weight: 300; }
+    .author-box { display: flex; align-items: center; gap: 1rem; margin-bottom: 1.5rem; padding: 1rem; background: var(--card); border-radius: 8px; border: 1px solid var(--border); }
+    .author-avatar { font-size: 2.5rem; }
+    .author-name { color: var(--star); font-weight: 500; }
+    .author-name a { color: var(--gold); text-decoration: none; }
+    .author-role { color: var(--muted); font-size: 0.82rem; }
+    .disclosure-box { background: rgba(201, 168, 76, 0.08); border: 1px solid rgba(201, 168, 76, 0.2); border-radius: 8px; padding: 1rem 1.2rem; font-size: 0.82rem; color: var(--muted); margin-bottom: 2rem; }
+    .article-wrapper h2 { font-family: 'Cormorant Garamond', serif; font-size: 1.6rem; font-weight: 600; color: var(--star); margin: 2.5rem 0 1rem; padding-top: 1rem; }
+    .article-wrapper h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.2rem; color: var(--star); margin: 1.5rem 0 0.8rem; }
+    .article-wrapper p { margin-bottom: 1rem; font-weight: 300; line-height: 1.8; }
+    .article-wrapper ul, .article-wrapper ol { margin: 1rem 0 1.5rem 1.5rem; }
+    .article-wrapper li { margin-bottom: 0.5rem; font-weight: 300; }
+    .callout { background: var(--card); border-left: 3px solid var(--gold); padding: 1rem 1.5rem; margin: 1.5rem 0; border-radius: 0 8px 8px 0; font-size: 0.92rem; }
+    .callout-green { background: var(--card); border-left: 3px solid var(--green); padding: 1rem 1.5rem; margin: 1.5rem 0; border-radius: 0 8px 8px 0; font-size: 0.92rem; }
+
+    .product-cta { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 1.5rem; margin: 2rem 0; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; }
+    .product-cta-text { color: var(--star); font-weight: 500; }
+    .btn-amazon { background: var(--gold); color: var(--night); text-decoration: none; padding: 10px 20px; border-radius: 6px; font-weight: 600; font-size: 0.88rem; transition: background 0.2s; }
+    .btn-amazon:hover { background: var(--gold-light); }
+
+    .article-cta { background: linear-gradient(135deg, var(--card), var(--navy)); border: 1px solid var(--border); border-radius: 12px; padding: 2rem; text-align: center; margin: 3rem 0; }
+    .article-cta h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.4rem; color: var(--star); margin-bottom: 0.8rem; }
+    .article-cta p { color: var(--muted); margin-bottom: 1.2rem; }
+
+    .related-articles { margin: 3rem 0; }
+    .related-articles h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.3rem; color: var(--star); margin-bottom: 1rem; }
+    .related-articles ul { list-style: none; margin: 0; }
+    .related-articles li { margin-bottom: 0.6rem; }
+    .related-articles a { color: var(--gold); text-decoration: none; font-size: 0.95rem; }
+    .related-articles a:hover { text-decoration: underline; }
+
+    footer { background: #060912; border-top: 1px solid var(--border); padding: 50px 6% 30px; }
+    .footer-top { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 3rem; margin-bottom: 3rem; padding-bottom: 3rem; border-bottom: 1px solid var(--border); }
+    .footer-brand p { color: var(--muted); font-size: 0.82rem; margin-top: 0.8rem; line-height: 1.6; font-weight: 300; max-width: 260px; }
+    .footer-col h4 { font-size: 0.78rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--gold); margin-bottom: 1rem; }
+    .footer-col ul { list-style: none; display: flex; flex-direction: column; gap: 0.6rem; }
+    .footer-col a { color: var(--muted); text-decoration: none; font-size: 0.85rem; transition: color 0.2s; }
+    .footer-col a:hover { color: var(--gold); }
+    .footer-bottom { display: flex; justify-content: space-between; font-size: 0.78rem; color: var(--muted); flex-wrap: wrap; gap: 0.5rem; }
+    .affiliate-disc { font-size: 0.75rem; max-width: 600px; }
+
+    @media (max-width: 900px) {
+      .nav-links { display: none; }
+      .article-wrapper h1 { font-size: 1.8rem; }
+      .footer-top { grid-template-columns: 1fr 1fr; }
+      .product-cta { flex-direction: column; text-align: center; }
+    }
+  </style>
+</head>
+
+<body>
+  <nav>
+    <a class="logo" href="../">SleepWise<span>Reviews</span></a>
+    <ul class="nav-links">
+      <li><a href="../#picks">Top Picks</a></li>
+      <li><a href="../#reviews">Reviews</a></li>
+      <li><a href="../pages/about.html">About Harry</a></li>
+      <li><a href="../#newsletter" class="nav-cta">Free Sleep Guide</a></li>
+    </ul>
+  </nav>
+
+  <article class="article-wrapper">
+    <div class="article-meta-top">
+      <span class="tag">Sleep Science</span>
+      <span class="meta-text">📅 December 2020</span>
+      <span class="meta-text">·</span>
+      <span class="meta-text">⏱ 9 min read</span>
+      <span class="meta-text">·</span>
+      <span class="meta-text">🔄 Updated Mar 2026</span>
+    </div>
+    <h1>Sleep and Blood Sugar: The Connection Most Doctors Don't Discuss</h1>
+    <p class="article-intro">One week of 5-hour nights creates insulin resistance equivalent to gaining 25 pounds of body fat. Yet blood sugar testing and sleep health almost never come up in the same doctor's visit — a gap in preventive medicine that may be costing millions of people their metabolic health.</p>
+
+    <div class="author-box">
+      <div class="author-avatar">😴</div>
+      <div class="author-info">
+        <div class="author-name">By <a href="../pages/about.html">Harry Soul</a> - SleepWiseReviews</div>
+        <div class="author-role">Independent Sleep Researcher - December 2020</div>
+      </div>
+    </div>
+
+    <div class="disclosure-box">
+      <strong>Affiliate Disclosure:</strong> This article contains affiliate links. We earn a small commission if you purchase through our links at no extra cost to you. <a href="../pages/affiliate-disclosure.html" style="color:var(--gold)">Full disclosure</a>
+    </div>
+
+    <p>The relationship between sleep and metabolic health is one of the most underappreciated stories in modern medicine. Your doctor checks your fasting glucose, your HbA1c, your cholesterol — but rarely asks how many hours you sleep each night. The research, however, makes a compelling case that those hours spent in bed are every bit as important to your blood sugar control as what you eat for breakfast.</p>
+
+    <p>As Dr. Satchin Panda explains in <em>The Circadian Code</em> (2019), every cell in the human body operates on a 24-hour biological clock, and glucose metabolism is among the most time-sensitive processes our bodies run. When sleep disrupts that clock, the consequences ripple through every system that regulates blood sugar — from hormone secretion to cellular insulin sensitivity.</p>
+
+    <h2>The Spiegel Study: When 4 Hours of Sleep Mimics Pre-Diabetes</h2>
+
+    <p>The most cited evidence in sleep-metabolic research comes from a landmark series of studies by Dr. Karine Spiegel and colleagues at the University of Chicago. In one pivotal experiment, healthy young men — all with normal glucose tolerance — were restricted to just four hours of sleep per night for six consecutive nights. What happened next was striking.</p>
+
+    <p>By the end of the sleep restriction period, the participants' ability to dispose of glucose had dropped by 40 percent. Their rate of glucose clearance, a key marker of insulin sensitivity, had fallen to levels typically seen in adults over 60 years old. In clinical terms, these young, healthy men had been pushed into a pre-diabetic metabolic state — not through diet changes, not through weight gain, but purely through sleep curtailment.</p>
+
+    <p>When the researchers allowed recovery sleep, metabolic function partially rebounded — but not fully within the study window. This suggests that chronic short sleeping doesn't just create a temporary dip in metabolic performance; it may impose a metabolic debt that isn't easily repaid with a single night of catch-up sleep.</p>
+
+    <div class="callout">
+      💡 <strong>Research note:</strong> The Spiegel et al. findings have been replicated in multiple subsequent studies. A 2010 meta-analysis in the journal <em>Diabetes Care</em> found that sleeping fewer than 6 hours per night was independently associated with a significantly elevated risk of impaired fasting glucose and type 2 diabetes.
+    </div>
+
+    <h2>Cortisol and the Morning Blood Sugar Spike</h2>
+
+    <p>To understand why sleep affects blood sugar so profoundly, you need to understand cortisol — the body's primary stress hormone. Cortisol is inherently a glucose-raising hormone. Its job is to mobilize energy reserves when the body faces demand, which it does partly by signaling the liver to release stored glucose into the bloodstream and by making muscle and fat cells less responsive to insulin.</p>
+
+    <p>Under normal circumstances, cortisol follows a clean daily rhythm: it peaks sharply in the early morning (the cortisol awakening response), then gradually declines through the day, reaching its lowest point in the early hours of sleep. This pattern is tightly coordinated with the sleep-wake cycle.</p>
+
+    <p>When sleep is shortened or fragmented, that cortisol rhythm becomes dysregulated. Evening cortisol levels remain elevated when they should be dropping. The body spends more time in a state of mild hormonal stress, with the liver continuously trickling glucose into the bloodstream. For people who already have compromised insulin sensitivity, this nocturnal glucose elevation can be clinically significant — pushing fasting blood sugar readings into abnormal territory even before they eat anything.</p>
+
+    <p>Poor sleep also elevates other counter-regulatory hormones, including glucagon and epinephrine, which further oppose insulin's glucose-lowering action. The result is a hormonal environment that systemically works against metabolic balance.</p>
+
+    <h2>Deep Sleep, Growth Hormone, and Insulin Sensitivity</h2>
+
+    <p>The restorative power of deep sleep — slow-wave sleep (SWS), also called N3 — extends well beyond feeling rested. During deep sleep, the pituitary gland releases the majority of the day's growth hormone (GH) in concentrated pulses. Growth hormone is a key regulator of body composition and metabolic function, and its relationship with insulin is complex but critical.</p>
+
+    <p>In healthy adults, growth hormone promotes the maintenance of lean muscle mass and facilitates fat metabolism. Adequate GH secretion during sleep helps keep the ratio of muscle to fat tissue favorable — and muscle tissue is the primary site of insulin-stimulated glucose uptake. More muscle mass generally means better insulin sensitivity and more robust glucose disposal after meals.</p>
+
+    <p>When deep sleep is disrupted or reduced — whether through fragmentation, poor sleep architecture, or outright short sleep duration — GH secretion drops. Over time, this can contribute to a gradual shift in body composition toward higher fat mass and lower muscle mass, independently worsening insulin sensitivity. It creates a slow, silent metabolic decline that can be difficult to attribute to any single cause without examining sleep quality.</p>
+
+    <h2>The Circadian Clock: When You Eat Matters as Much as What You Eat</h2>
+
+    <p>One of the most paradigm-shifting insights from recent sleep and metabolic research is that glucose tolerance is not constant throughout the day — it follows a precise circadian rhythm. The same meal eaten at 8am can produce a very different glucose response than the same meal eaten at 8pm, even in the same person consuming identical calories.</p>
+
+    <p>As Dr. Satchin Panda explains in <em>The Circadian Code</em> (2019), insulin secretion and insulin sensitivity both peak earlier in the day, aligned with morning light exposure and the body's preparation for activity. By evening and into the night, insulin signaling becomes progressively less efficient. The pancreas secretes less insulin in response to glucose, and peripheral tissues become less responsive to whatever insulin is released.</p>
+
+    <p>This circadian glucose pattern exists because virtually every organ involved in metabolism — the liver, pancreas, skeletal muscle, adipose tissue — contains its own peripheral clock genes that synchronize with the master clock in the brain's suprachiasmatic nucleus (SCN). Sleep disruption, late-night light exposure, and irregular sleep schedules all desynchronize these peripheral clocks, essentially creating internal metabolic jet lag. The organs governing glucose metabolism lose their coordinated timing, and blood sugar regulation becomes erratic.</p>
+
+    <p>Panda's research on time-restricted eating (TRE) emerged directly from this understanding: by aligning food intake with the body's natural metabolic window — roughly the first 10 hours of the day — it's possible to improve glucose control, reduce insulin levels, and lower inflammation without changing total caloric intake. Sleep is the anchor that sets the window. Go to bed and wake at consistent times, and the metabolic clock stays calibrated. Disrupt sleep chronically, and the window blurs.</p>
+
+    <h2>Ghrelin, Leptin, and the Overeating Cascade</h2>
+
+    <p>Sleep deprivation doesn't just directly impair insulin signaling — it also drives behaviors that compound the problem. The hunger hormones ghrelin and leptin are profoundly sensitive to sleep duration, and their dysregulation creates a powerful drive toward overeating that specifically gravitates toward high-carbohydrate, calorie-dense foods.</p>
+
+    <p>Ghrelin, which stimulates appetite, rises significantly after short sleep. Leptin, which signals satiety and suppresses appetite, falls. The net effect is that a sleep-deprived person experiences greater hunger, reduced feelings of fullness, and a heightened hedonic response to food — particularly sweets and starchy foods. This isn't a matter of willpower; it's a hormonally driven state that makes resisting high-glycemic foods substantially harder.</p>
+
+    <p>When chronically sleep-restricted people eat more refined carbohydrates and sugars — as the research consistently shows they do — those foods hit an already insulin-resistant metabolic system. Blood glucose spikes higher, stays elevated longer, and the pancreas is forced to compensate with greater insulin output. Over time, this repeated demand on the pancreatic beta cells may contribute to beta cell exhaustion, one of the pathways through which pre-diabetes transitions to full type 2 diabetes.</p>
+
+    <div class="callout">
+      💡 <strong>Key figure:</strong> In a University of Chicago study, men sleeping 5.5 hours per night consumed an average of 300 extra calories per day compared to when they slept 8.5 hours — with the majority of those extra calories coming from snack foods high in fat and simple carbohydrates.
+    </div>
+
+    <h2>The Epidemiological Evidence: Sleep Duration and Type 2 Diabetes Risk</h2>
+
+    <p>The laboratory findings are mirrored at the population level. Large-scale epidemiological studies have consistently found that both short and long sleep duration are associated with elevated type 2 diabetes risk — a U-shaped relationship where 7 to 8 hours per night sits at the lowest risk point.</p>
+
+    <p>A meta-analysis published in <em>Diabetes Care</em> that pooled data from over 100,000 participants found that sleeping fewer than 6 hours per night was associated with a 28 percent increased risk of developing type 2 diabetes. Another analysis in <em>Sleep Medicine Reviews</em> examining nearly 500,000 participants found a similar pattern, with the risk rising steeply below 6 hours.</p>
+
+    <p>Crucially, these associations held after adjusting for body mass index, physical activity, diet quality, and other confounders. Sleep duration appeared to exert an independent effect on diabetes risk — not just through its impact on body weight, but through the direct metabolic mechanisms outlined above. The dose-response relationship was also clear: the fewer hours slept, the higher the risk, with no apparent floor until sleep duration dropped below 5 hours, at which point risk accelerated sharply.</p>
+
+    <h2>Sleep Apnea: An Independent Diabetes Risk Factor</h2>
+
+    <p>No discussion of sleep and blood sugar is complete without addressing obstructive sleep apnea (OSA). An estimated 80 percent of moderate-to-severe OSA cases remain undiagnosed, and the metabolic consequences of untreated apnea are severe and well-documented.</p>
+
+    <p>OSA causes repeated episodes of partial or complete airway obstruction during sleep, leading to intermittent hypoxia — drops in blood oxygen levels — and cortisol spikes with each arousal. This intermittent hypoxia pattern is particularly damaging to insulin signaling. Tissues under oxygen stress become acutely insulin resistant, and the repeated overnight cortisol surges chronically elevate fasting glucose.</p>
+
+    <p>Studies have found that the prevalence of type 2 diabetes in people with severe OSA is roughly three times higher than in matched controls without apnea. Critically, treating sleep apnea with CPAP therapy produces measurable improvements in insulin sensitivity and HbA1c levels — even without changes in weight or diet. This is some of the strongest evidence that sleep quality directly influences glucose metabolism, independent of all other lifestyle factors.</p>
+
+    <p>If you snore loudly, wake unrefreshed despite adequate sleep time, or have been told you stop breathing at night, pursuing an OSA evaluation may do more for your metabolic health than any dietary intervention.</p>
+
+    <h2>Practical Changes That Move the Metabolic Needle</h2>
+
+    <p>The good news is that sleep's effects on blood sugar are bidirectional — improving sleep quality produces measurable metabolic benefits, often within days to weeks. The following evidence-based strategies target the specific mechanisms connecting sleep and glucose dysregulation.</p>
+
+    <div class="callout-green">
+      <strong>Practical Takeaway — Sleep Changes That Improve Metabolic Markers:</strong>
+      <ul style="margin: 0.8rem 0 0 1.2rem;">
+        <li><strong>Anchor your sleep schedule:</strong> Going to bed and waking at consistent times — even on weekends — stabilizes circadian rhythms and keeps peripheral metabolic clocks synchronized. Irregular sleep timing is an independent predictor of higher HbA1c.</li>
+        <li><strong>Protect deep sleep with a cool bedroom:</strong> Core body temperature must drop for slow-wave sleep to initiate. A room temperature of 65–68°F (18–20°C) significantly increases deep sleep time and the associated growth hormone release.</li>
+        <li><strong>Cut off eating 2–3 hours before bed:</strong> Late eating elevates overnight glucose and insulin. Aligning your last meal with the body's declining metabolic efficiency prevents unnecessary nocturnal glucose spikes.</li>
+        <li><strong>Eliminate evening alcohol:</strong> While alcohol may help you fall asleep, it suppresses deep sleep, elevates cortisol in the second half of the night, and directly impairs glucose metabolism for up to 12 hours post-consumption.</li>
+        <li><strong>Morning light within 30 minutes of waking:</strong> Outdoor light exposure in the morning anchors the cortisol awakening response to its correct time, helping normalize the daily cortisol curve and improve daytime insulin sensitivity.</li>
+        <li><strong>Screen for sleep apnea:</strong> If snoring or unrefreshed sleep is present, a home sleep test can be life-changing for metabolic outcomes. CPAP adherence consistently improves insulin sensitivity in apnea patients.</li>
+        <li><strong>Prioritize 7–9 hours over 5–6:</strong> The metabolic benefits of adequate sleep duration compound over time. Even 45 additional minutes per night has been shown to reduce ghrelin, improve insulin sensitivity, and lower fasting glucose in clinical studies.</li>
+      </ul>
+    </div>
+
+    <p>The connection between sleep and blood sugar is not a marginal consideration or a footnote in metabolic health — it is a foundational pillar. For anyone managing pre-diabetes, insulin resistance, or type 2 diabetes, sleep optimization belongs in the same conversation as diet, exercise, and medication. And for those without a diagnosis, the evidence is clear: protecting your sleep is one of the most powerful preventive investments you can make for your long-term metabolic health.</p>
+
+    <p>A sleep tracker won't replace a glucose meter, but wearing one might give you the data — and the motivation — to make the changes that keep the meter reading normal in the first place.</p>
+
+    <div class="product-cta">
+      <span class="product-cta-text">Track your sleep and take control of your metabolic health</span>
+      <a class="btn-amazon" href="https://www.amazon.com/s?k=sleep+tracker+health&tag=sleepwiserevi-20" target="_blank" rel="noopener nofollow">Shop Sleep Trackers on Amazon</a>
+    </div>
+
+    <div class="article-cta">
+      <h3>Get Our Free 7-Day Sleep Reset</h3>
+      <p>Join 18,000 readers who get weekly sleep tips and honest product reviews every Sunday.</p>
+      <a class="btn-amazon" href="../#newsletter">Subscribe Free</a>
+    </div>
+
+    <div class="related-articles">
+      <h3>Related Articles</h3>
+      <ul>
+        <li><a href="sleep-and-weight-loss.html">Sleep and Weight Loss: Why the Scale Won't Move Without Better Sleep</a></li>
+        <li><a href="sleep-cortisol-stress.html">Cortisol and Sleep: How Stress Hormones Keep You Awake at Night</a></li>
+        <li><a href="sleep-immune-system.html">Sleep and the Immune System: What Happens When You Shortchange Recovery</a></li>
+      </ul>
+    </div>
+  </article>
+
+  <footer>
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a class="logo" href="../">SleepWise<span>Reviews</span></a>
+        <p>Honest, science-backed reviews to help you sleep deeper, recover faster, and wake up energized.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Reviews</h4>
+        <ul>
+          <li><a href="https://www.amazon.com/s?k=weighted+blanket&tag=sleepwiserevi-20" target="_blank">Weighted Blankets</a></li>
+          <li><a href="https://www.amazon.com/s?k=white+noise+machine&tag=sleepwiserevi-20" target="_blank">White Noise Machines</a></li>
+          <li><a href="https://www.amazon.com/s?k=sleep+supplements&tag=sleepwiserevi-20" target="_blank">Supplements</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Guides</h4>
+        <ul>
+          <li><a href="../#picks">Sleep Optimization</a></li>
+          <li><a href="../#reviews">Bedtime Routines</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Site</h4>
+        <ul>
+          <li><a href="../pages/about.html">About Harry Soul</a></li>
+          <li><a href="../pages/privacy-policy.html">Privacy Policy</a></li>
+          <li><a href="../pages/affiliate-disclosure.html">Affiliate Disclosure</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div>© 2025 SleepWiseReviews. All rights reserved.</div>
+      <div class="affiliate-disc">SleepWiseReviews is a participant in the Amazon Services LLC Associates Program.</div>
+    </div>
+  </footer>
+</body>
+</html>
