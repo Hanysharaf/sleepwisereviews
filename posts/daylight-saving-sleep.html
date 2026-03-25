@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>How Daylight Saving Time Disrupts Sleep (And How to Cope) - SleepWiseReviews</title>
+  <meta name="description" content="The spring daylight saving transition is linked to a 6% spike in traffic accidents and a rise in cardiac events. Here's the science — and exactly how to protect your sleep." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <style type='text/css'>
+    :root {
+      --night: #0A0E1A;
+      --deep: #0F1525;
+      --navy: #141B30;
+      --card: #1A2238;
+      --border: #252D45;
+      --gold: #C9A84C;
+      --gold-light: #E5C96A;
+      --gold-dim: rgba(201, 168, 76, 0.15);
+      --star: #F0E6C8;
+      --text: #D4DCEE;
+      --muted: #7A85A0;
+      --white: #FFFFFF;
+      --green: #4CAF82;
+    }
+
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: 'Outfit', sans-serif;
+      background: var(--night);
+      color: var(--text);
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      background-image:
+        radial-gradient(1px 1px at 10% 15%, rgba(240, 230, 200, 0.6) 0%, transparent 100%),
+        radial-gradient(1px 1px at 25% 40%, rgba(240, 230, 200, 0.4) 0%, transparent 100%),
+        radial-gradient(1.5px 1.5px at 40% 10%, rgba(240, 230, 200, 0.5) 0%, transparent 100%),
+        radial-gradient(1px 1px at 55% 30%, rgba(240, 230, 200, 0.3) 0%, transparent 100%),
+        radial-gradient(1px 1px at 70% 5%, rgba(240, 230, 200, 0.6) 0%, transparent 100%),
+        radial-gradient(1.5px 1.5px at 80% 20%, rgba(240, 230, 200, 0.4) 0%, transparent 100%),
+        radial-gradient(1px 1px at 90% 45%, rgba(240, 230, 200, 0.3) 0%, transparent 100%);
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    nav {
+      position: sticky; top: 0; z-index: 100;
+      background: rgba(10, 14, 26, 0.92);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+      padding: 0 6%; height: 68px;
+      display: flex; align-items: center; justify-content: space-between;
+    }
+    .logo { font-family: 'Cormorant Garamond', serif; font-size: 1.6rem; font-weight: 700; color: var(--star); text-decoration: none; }
+    .logo span { color: var(--gold); }
+    .nav-links { display: flex; gap: 2rem; list-style: none; }
+    .nav-links a { text-decoration: none; color: var(--muted); font-size: 0.88rem; font-weight: 500; transition: color 0.2s; }
+    .nav-links a:hover { color: var(--gold); }
+    .nav-cta { background: var(--gold-dim); color: var(--gold) !important; border: 1px solid rgba(201, 168, 76, 0.3); padding: 7px 16px; border-radius: 4px; }
+
+    .article-wrapper {
+      position: relative; z-index: 1;
+      max-width: 800px; margin: 0 auto; padding: 50px 6% 80px;
+    }
+    .article-meta-top { display: flex; flex-wrap: wrap; align-items: center; gap: 0.8rem; margin-bottom: 1.2rem; }
+    .tag { background: var(--gold); color: var(--night); padding: 5px 12px; border-radius: 4px; font-size: 0.72rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; }
+    .meta-text { color: var(--muted); font-size: 0.82rem; }
+    .article-wrapper h1 { font-family: 'Cormorant Garamond', serif; font-size: 2.4rem; font-weight: 600; color: var(--star); line-height: 1.2; margin-bottom: 1.2rem; }
+    .article-intro { font-size: 1.1rem; color: var(--text); line-height: 1.7; margin-bottom: 2rem; font-weight: 300; }
+    .author-box { display: flex; align-items: center; gap: 1rem; margin-bottom: 1.5rem; padding: 1rem; background: var(--card); border-radius: 8px; border: 1px solid var(--border); }
+    .author-avatar { font-size: 2.5rem; }
+    .author-name { color: var(--star); font-weight: 500; }
+    .author-name a { color: var(--gold); text-decoration: none; }
+    .author-role { color: var(--muted); font-size: 0.82rem; }
+    .disclosure-box { background: rgba(201, 168, 76, 0.08); border: 1px solid rgba(201, 168, 76, 0.2); border-radius: 8px; padding: 1rem 1.2rem; font-size: 0.82rem; color: var(--muted); margin-bottom: 2rem; }
+    .article-wrapper h2 { font-family: 'Cormorant Garamond', serif; font-size: 1.6rem; font-weight: 600; color: var(--star); margin: 2.5rem 0 1rem; padding-top: 1rem; }
+    .article-wrapper h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.2rem; color: var(--star); margin: 1.5rem 0 0.8rem; }
+    .article-wrapper p { margin-bottom: 1rem; font-weight: 300; line-height: 1.8; }
+    .article-wrapper ul, .article-wrapper ol { margin: 1rem 0 1.5rem 1.5rem; }
+    .article-wrapper li { margin-bottom: 0.5rem; font-weight: 300; }
+    .callout { background: var(--card); border-left: 3px solid var(--gold); padding: 1rem 1.5rem; margin: 1.5rem 0; border-radius: 0 8px 8px 0; font-size: 0.92rem; }
+    .callout-green { background: var(--card); border-left: 3px solid var(--green); padding: 1rem 1.5rem; margin: 1.5rem 0; border-radius: 0 8px 8px 0; font-size: 0.92rem; }
+    .callout-green strong { color: var(--green); }
+
+    .stat-block { background: var(--navy); border: 1px solid var(--border); border-radius: 12px; padding: 1.5rem; margin: 2rem 0; display: flex; gap: 1.5rem; flex-wrap: wrap; }
+    .stat-item { text-align: center; flex: 1; min-width: 120px; }
+    .stat-number { font-family: 'Cormorant Garamond', serif; font-size: 2.6rem; font-weight: 700; color: var(--gold); line-height: 1; }
+    .stat-label { font-size: 0.8rem; color: var(--muted); margin-top: 0.4rem; }
+
+    .product-cta { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 1.5rem; margin: 2rem 0; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; }
+    .product-cta-text { color: var(--star); font-weight: 500; }
+    .product-cta-sub { color: var(--muted); font-size: 0.82rem; margin-top: 0.2rem; }
+    .btn-amazon { background: var(--gold); color: var(--night); text-decoration: none; padding: 10px 20px; border-radius: 6px; font-weight: 600; font-size: 0.88rem; transition: background 0.2s; white-space: nowrap; }
+    .btn-amazon:hover { background: var(--gold-light); }
+
+    .article-cta { background: linear-gradient(135deg, var(--card), var(--navy)); border: 1px solid var(--border); border-radius: 12px; padding: 2rem; text-align: center; margin: 3rem 0; }
+    .article-cta h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.4rem; color: var(--star); margin-bottom: 0.8rem; }
+    .article-cta p { color: var(--muted); margin-bottom: 1.2rem; }
+
+    .related-articles { margin: 3rem 0; }
+    .related-articles h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.3rem; color: var(--star); margin-bottom: 1rem; }
+    .related-articles ul { list-style: none; margin: 0; }
+    .related-articles li { margin-bottom: 0.6rem; }
+    .related-articles a { color: var(--gold); text-decoration: none; font-size: 0.95rem; }
+    .related-articles a:hover { text-decoration: underline; }
+
+    footer { background: #060912; border-top: 1px solid var(--border); padding: 50px 6% 30px; }
+    .footer-top { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 3rem; margin-bottom: 3rem; padding-bottom: 3rem; border-bottom: 1px solid var(--border); }
+    .footer-brand p { color: var(--muted); font-size: 0.82rem; margin-top: 0.8rem; line-height: 1.6; font-weight: 300; max-width: 260px; }
+    .footer-col h4 { font-size: 0.78rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--gold); margin-bottom: 1rem; }
+    .footer-col ul { list-style: none; display: flex; flex-direction: column; gap: 0.6rem; }
+    .footer-col a { color: var(--muted); text-decoration: none; font-size: 0.85rem; transition: color 0.2s; }
+    .footer-col a:hover { color: var(--gold); }
+    .footer-bottom { display: flex; justify-content: space-between; font-size: 0.78rem; color: var(--muted); flex-wrap: wrap; gap: 0.5rem; }
+    .affiliate-disc { font-size: 0.75rem; max-width: 600px; }
+
+    @media (max-width: 900px) {
+      .nav-links { display: none; }
+      .article-wrapper h1 { font-size: 1.8rem; }
+      .footer-top { grid-template-columns: 1fr 1fr; }
+      .product-cta { flex-direction: column; text-align: center; }
+      .stat-block { flex-direction: column; }
+    }
+  </style>
+</head>
+
+<body>
+  <nav>
+    <a class="logo" href="../">SleepWise<span>Reviews</span></a>
+    <ul class="nav-links">
+      <li><a href="../#picks">Top Picks</a></li>
+      <li><a href="../#reviews">Reviews</a></li>
+      <li><a href="../pages/about.html">About Harry</a></li>
+      <li><a href="../#newsletter" class="nav-cta">Free Sleep Guide</a></li>
+    </ul>
+  </nav>
+
+  <article class="article-wrapper">
+    <div class="article-meta-top">
+      <span class="tag">Sleep Science</span>
+      <span class="meta-text">📅 November 2023 · ⏱ 7 min read · 🔄 Updated Mar 2026</span>
+    </div>
+
+    <h1>How Daylight Saving Time Disrupts Sleep (And How to Cope)</h1>
+    <p class="article-intro">The spring daylight saving transition is associated with a 6% spike in traffic accidents the following Monday — and that is just the beginning. Behind that statistic is a biological story about what happens when a society collectively loses one hour of sleep overnight.</p>
+
+    <div class="author-box">
+      <div class="author-avatar">😴</div>
+      <div class="author-info">
+        <div class="author-name">By <a href="../pages/about.html">Harry Soul</a> - SleepWiseReviews</div>
+        <div class="author-role">Independent Sleep Researcher — November 2023</div>
+      </div>
+    </div>
+
+    <div class="disclosure-box">
+      <strong>Affiliate Disclosure:</strong> This article contains affiliate links. We earn a small commission if you purchase through our links at no extra cost to you. <a href="../pages/affiliate-disclosure.html" style="color:var(--gold)">Full disclosure</a>
+    </div>
+
+    <h2>The Numbers That Should Alarm You</h2>
+    <p>Every year, more than 1.5 billion people across 70 countries participate in the daylight saving time experiment — whether they want to or not. For most, it feels like minor inconvenience. The science tells a different story.</p>
+    <p>A widely cited study published in <em>Current Biology</em> found that fatal traffic accidents increase by 6% in the week following the spring "spring forward" transition in the United States. A separate analysis of hospital records in Michigan found a 24% jump in heart attack admissions on the Monday after the spring clock change, compared to other Mondays throughout the year. Workplace injuries spike. Judges hand down harsher sentences. Cyberloafing — time wasted online at work — increases measurably.</p>
+    <p>One hour. That is all it takes to measurably bend the statistics of human health and safety across an entire nation.</p>
+
+    <div class="stat-block">
+      <div class="stat-item">
+        <div class="stat-number">+6%</div>
+        <div class="stat-label">Fatal traffic accidents the Monday after spring forward</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-number">+24%</div>
+        <div class="stat-label">Heart attack admissions the Monday after spring forward (Michigan study)</div>
+      </div>
+      <div class="stat-item">
+        <div class="stat-number">−40min</div>
+        <div class="stat-label">Average sleep lost in the week following the spring transition</div>
+      </div>
+    </div>
+
+    <h2>Why the Clock Shift Breaks Your Circadian System</h2>
+    <p>To understand why one hour causes so much damage, you need to understand what your body's circadian clock actually does. It is not simply a timer telling you when to feel tired. It is a master regulatory system that coordinates body temperature, hormone secretion, digestion, immune function, cardiovascular activity, and cognition — all timed to precise windows across a 24-hour cycle.</p>
+    <p>As Dr. Satchin Panda explains in <em>The Circadian Code</em> (2019), virtually every organ in the body has its own peripheral clock, and these clocks are synchronized by the master pacemaker in the suprachiasmatic nucleus (SCN) of the hypothalamus — itself entrained primarily by light. When the external clock shifts by one hour but the sun's position in the sky does not, a mismatch opens up between your social schedule and your biological program.</p>
+    <p>In practical terms: your body expects darkness and melatonin release at, say, 10 pm. After daylight saving takes effect, the clock says 11 pm before that same biological dusk signal arrives. You go to bed an hour earlier by social time than your biology is ready for. Your core body temperature has not yet dropped. Your melatonin has not yet peaked. Sleep takes longer to arrive and tends to be shallower when it does.</p>
+    <p>This is, in essence, a form of jet lag — imposed simultaneously on hundreds of millions of people without a flight or a choice.</p>
+
+    <div class="callout">
+      💡 <strong>The jet lag analogy is precise:</strong> Research models estimate the spring DST transition is equivalent to flying one time zone east overnight. The difference from real jet lag is that you cannot adapt by timing your meals and light exposure differently in a new city — your city itself has changed, and your neighbors, employers, and schools demand you comply immediately.
+    </div>
+
+    <h2>Spring vs. Fall: Why Losing Is Much Harder Than Gaining</h2>
+    <p>Not all transitions are equal. The fall "fall back" transition — where clocks move back one hour and most people gain a notional extra hour in bed — is largely benign in the data. Traffic accidents do not spike. Cardiac events do not increase. The reason is straightforward: gaining time creates a brief over-supply of sleep opportunity, and a rested brain functions safely.</p>
+    <p>Spring is the opposite. Losing an hour of sleep in an already sleep-deprived society is like removing water from a glass that was already half empty. Population-level surveys consistently show that most adults in developed nations are already sleeping less than the seven to nine hours recommended by the American Academy of Sleep Medicine. The spring transition pushes people below a functional threshold.</p>
+    <p>There is also an asymmetry in circadian adaptation. The human circadian system adapts more easily to delays (staying up later) than to advances (going to bed and waking earlier). Spring forward is an advance — biologically the harder direction. Studies tracking people with wrist actigraphy after the spring transition show that full adaptation of the circadian rhythm can take five to seven days for healthy adults, and longer for those with existing sleep disorders.</p>
+
+    <h2>The Cardiac Connection: A Natural Experiment</h2>
+    <p>Cardiologists have long noted that heart attacks cluster in the early morning hours — between 6 am and noon — when cortisol surges, blood pressure rises, and platelets are stickier. Disrupted sleep amplifies all of these factors simultaneously.</p>
+    <p>The Michigan study (Sandhu et al., 2014) found not only a 24% increase in heart attacks on the Monday following spring forward but also a corresponding 21% <em>decrease</em> the Monday after the fall transition, when people received extra sleep. This bidirectional effect reads as a near-perfect natural experiment: the clock is the variable, and the heart is the outcome.</p>
+    <p>The mechanism involves multiple pathways. Sleep deprivation elevates inflammatory markers including C-reactive protein and interleukin-6. It increases sympathetic nervous system tone, raising resting heart rate and blood pressure. It impairs endothelial function — the health of blood vessel walls. One bad night does not cause a heart attack, but for someone already living with coronary artery disease, the spring transition can be the straw that breaks the system.</p>
+
+    <h2>How to Prepare: The Four-Night Gradual Shift</h2>
+    <p>The single most effective strategy to minimize the spring transition impact is to begin shifting your schedule before the clock changes. Rather than absorbing a one-hour jump on a single Sunday night, spread the adaptation over four days — moving bedtime and wake time 15 minutes earlier each night starting Thursday.</p>
+
+    <div class="callout-green">
+      <strong>Practical Takeaway — The 4-Night Pre-Transition Protocol:</strong>
+      <br><br>
+      Starting the <strong>Thursday before spring forward</strong>, shift your schedule 15 minutes earlier each night:
+      <ul style="margin: 0.8rem 0 0.4rem 1.2rem;">
+        <li><strong>Thursday night:</strong> Bed 15 min earlier than usual</li>
+        <li><strong>Friday night:</strong> Bed 30 min earlier than usual</li>
+        <li><strong>Saturday night:</strong> Bed 45 min earlier than usual</li>
+        <li><strong>Sunday night (transition night):</strong> Your usual time is now the new DST time</li>
+      </ul>
+      Apply the same shift to your wake alarm. The goal is to arrive at the Monday morning work alarm already adjusted, rather than absorbing the full shock in one night.
+    </div>
+
+    <h2>Light Exposure: Your Most Powerful Circadian Tool</h2>
+    <p>Because light is the primary signal that sets the circadian clock, strategic light exposure is the highest-leverage intervention you have available — at zero cost.</p>
+    <p>For the spring transition, the goal is to advance your clock to match the new schedule as quickly as possible. This means seeking bright light as early as possible after waking in the days before and after the transition. Morning sunlight — even on a cloudy day — delivers 1,000 to 10,000 lux to the retina, directly suppressing melatonin and signaling "morning" to the SCN.</p>
+    <p>Equally important: reduce evening light exposure in the days following the spring transition. Blue light from screens, overhead LED lighting, and bright lamps all delay melatonin onset. In the post-transition adjustment period, switching to dim amber lighting after 8 pm can meaningfully accelerate adaptation. Blackout curtains become particularly valuable in spring and summer when early dawn can wake you before your body is ready.</p>
+    <p>For the fall transition, the calculus reverses. If you want to shift your body earlier (to match the fact that it will now be dark at 5 pm), get bright light exposure in the morning and avoid it in the evening. If you want to enjoy the extra hour and stay up later, a short evening light exposure session can delay your clock slightly.</p>
+
+    <h3>The Case for a Sunrise Alarm Clock</h3>
+    <p>One practical tool that directly addresses the light problem is a sunrise alarm clock — also called a dawn simulator. These devices gradually increase light intensity over 20 to 30 minutes before your alarm time, simulating a natural sunrise inside your bedroom. The gradual light increase begins triggering cortisol release and suppressing melatonin before your alarm sounds, so you wake during a lighter sleep stage rather than being jolted from deep sleep into darkness.</p>
+    <p>Multiple clinical studies, including those reviewed in the journal <em>Chronobiology International</em>, find that dawn simulation improves morning alertness, reduces sleep inertia, and can help advance the circadian phase — exactly what is needed in the spring transition period.</p>
+
+    <div class="product-cta">
+      <div>
+        <div class="product-cta-text">Sunrise Alarm Clocks — Gradual Dawn Simulation</div>
+        <div class="product-cta-sub">Browse top-rated models that ease the spring forward transition</div>
+      </div>
+      <a class="btn-amazon" href="https://www.amazon.com/s?k=sunrise+alarm+clock+gradual&tag=sleepwiserevi-20" target="_blank" rel="noopener nofollow">Shop on Amazon</a>
+    </div>
+
+    <h2>The Growing Case Against Daylight Saving Time</h2>
+    <p>The science has become difficult to ignore, and legislative momentum is building. The American Academy of Sleep Medicine, the American Academy of Neurology, and the Society for Research on Biological Rhythms have all issued formal position statements calling for the abolition of seasonal clock changes in favor of permanent standard time.</p>
+    <p>Their reasoning centers on a crucial distinction: the question is not just whether to eliminate clock changes, but which time to make permanent. Standard time — not permanent daylight saving time — better aligns civil time with the natural position of the sun. Under permanent DST, winter mornings in northern latitudes would see sunrise as late as 9 or 10 am, meaning commuters and schoolchildren would leave for work and school in complete darkness for months. Sleep researchers argue this would compound, rather than solve, the circadian disruption problem.</p>
+    <p>The United States Senate passed the Sunshine Protection Act in 2022, which would have made DST permanent nationally. The bill stalled in the House. Several US states have already passed legislation to observe permanent standard time if federal law permits it. The European Union voted to end seasonal clock changes in 2019; implementation has been delayed by the complexity of coordinating which time each member state adopts. The global debate is far from resolved, but the scientific consensus has never been clearer.</p>
+
+    <h2>Protecting Children's Sleep During the Transition</h2>
+    <p>Children are arguably more vulnerable to the DST transition than adults, for two reasons. First, school start times are fixed — children cannot simply "sleep in" to recover, even on weekdays. Second, children's circadian systems are often biologically delayed relative to typical school schedules to begin with, particularly in adolescence. Losing an additional hour compounds a deficit that was already chronic for many teenagers.</p>
+    <p>For younger children (ages 3–10), the four-night gradual shift is especially valuable because young children are highly sensitive to sleep deprivation and have less capacity to compensate. Begin shifting bedtime earlier by 10–15 minutes per night starting four nights before the transition. On the nights around the spring change, keep the bedroom dark with blackout curtains to prevent early morning light from disrupting sleep. Maintain consistent mealtimes alongside sleep schedule shifts — as Panda's research emphasizes, food timing is a secondary clock-setting cue, and meal consistency reinforces the circadian adjustments you are making with light.</p>
+    <p>For teenagers, the honest advice is harder: the transition will likely hurt, because they were already not getting enough sleep. The best mitigation is to enforce an earlier bedtime in the week before, remove screens from the bedroom entirely, and advocate — loudly — for later school start times, which the American Academy of Pediatrics has recommended since 2014.</p>
+
+    <div class="callout-green">
+      <strong>Practical Takeaway — Summary Checklist:</strong>
+      <ul style="margin: 0.8rem 0 0.4rem 1.2rem;">
+        <li>Start the 15-min/night gradual shift 4 nights before spring forward</li>
+        <li>Seek bright morning light starting Thursday before the transition</li>
+        <li>Dim all indoor lighting after 8 pm during the adjustment week</li>
+        <li>Use blackout curtains to block early spring sunrise</li>
+        <li>Consider a sunrise alarm clock to ease morning wake-ups</li>
+        <li>Keep meal times consistent — they reinforce the circadian shift</li>
+        <li>Avoid alcohol in transition week — it fragments sleep architecture</li>
+        <li>For children: start the gradual shift early and keep bedrooms dark</li>
+      </ul>
+    </div>
+
+    <h2>The Bottom Line</h2>
+    <p>Daylight saving time is not merely a calendrical inconvenience. It is a twice-yearly experiment in population-scale circadian disruption, with measurable costs paid in traffic fatalities, cardiac events, workplace errors, and billions of hours of lost or degraded sleep. The spring transition is by far the more dangerous of the two, and its effects ripple through the week that follows.</p>
+    <p>The scientific community has largely reached its verdict: permanent standard time is the healthiest option. Until legislators act, the most powerful thing you can do is prepare your own biology in advance — using light exposure, gradual schedule shifts, and the right sleep environment tools to make the annual clock change a minor inconvenience rather than a health event.</p>
+
+    <div class="article-cta">
+      <h3>Get Our Free 7-Day Sleep Reset Guide</h3>
+      <p>Join 18,000 readers who get weekly sleep science insights and honest product reviews every Sunday.</p>
+      <a class="btn-amazon" href="../#newsletter">Subscribe Free</a>
+    </div>
+
+    <div class="related-articles">
+      <h3>Related Articles</h3>
+      <ul>
+        <li><a href="social-jetlag.html">Social Jet Lag: Why You Feel Tired Even on 8 Hours</a></li>
+        <li><a href="circadian-rhythm-basics.html">Circadian Rhythm Basics: How Your Internal Clock Works</a></li>
+        <li><a href="reset-sleep-schedule.html">How to Reset Your Sleep Schedule in 7 Days</a></li>
+      </ul>
+    </div>
+  </article>
+
+  <footer>
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a class="logo" href="../">SleepWise<span>Reviews</span></a>
+        <p>Honest, science-backed reviews to help you sleep deeper, recover faster, and wake up energized.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Reviews</h4>
+        <ul>
+          <li><a href="https://www.amazon.com/s?k=weighted+blanket&tag=sleepwiserevi-20" target="_blank">Weighted Blankets</a></li>
+          <li><a href="https://www.amazon.com/s?k=white+noise+machine&tag=sleepwiserevi-20" target="_blank">White Noise Machines</a></li>
+          <li><a href="https://www.amazon.com/s?k=sleep+supplements&tag=sleepwiserevi-20" target="_blank">Supplements</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Guides</h4>
+        <ul>
+          <li><a href="../#picks">Sleep Optimization</a></li>
+          <li><a href="../#reviews">Bedtime Routines</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Site</h4>
+        <ul>
+          <li><a href="../pages/about.html">About Harry Soul</a></li>
+          <li><a href="../pages/privacy-policy.html">Privacy Policy</a></li>
+          <li><a href="../pages/affiliate-disclosure.html">Affiliate Disclosure</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div>© 2025 SleepWiseReviews. All rights reserved.</div>
+      <div class="affiliate-disc">SleepWiseReviews is a participant in the Amazon Services LLC Associates Program.</div>
+    </div>
+  </footer>
+</body>
+</html>
