@@ -1,0 +1,878 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Product Reviews – SleepWiseReviews</title>
+  <meta name="description"
+    content="In-depth, hands-on reviews of sleep products — tested for 30 nights each. No paid placements. Only products we genuinely recommend. 45 articles." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Outfit:wght@300;400;500;600&display=swap"
+    rel="stylesheet" />
+  <style type="text/css">
+    :root {
+      --night: #0A0E1A;
+      --deep: #0F1525;
+      --navy: #141B30;
+      --card: #1A2238;
+      --border: #252D45;
+      --gold: #C9A84C;
+      --gold-light: #E5C96A;
+      --gold-dim: rgba(201, 168, 76, 0.15);
+      --star: #F0E6C8;
+      --text: #D4DCEE;
+      --muted: #7A85A0;
+      --white: #FFFFFF;
+      --green: #4CAF82;
+    }
+
+    *,
+    *::before,
+    *::after {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      font-family: 'Outfit', sans-serif;
+      background: var(--night);
+      color: var(--text);
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      background-image:
+        radial-gradient(1px 1px at 10% 15%, rgba(240, 230, 200, 0.6) 0%, transparent 100%),
+        radial-gradient(1px 1px at 25% 40%, rgba(240, 230, 200, 0.4) 0%, transparent 100%),
+        radial-gradient(1.5px 1.5px at 40% 10%, rgba(240, 230, 200, 0.5) 0%, transparent 100%),
+        radial-gradient(1px 1px at 55% 30%, rgba(240, 230, 200, 0.3) 0%, transparent 100%),
+        radial-gradient(1px 1px at 70% 5%, rgba(240, 230, 200, 0.6) 0%, transparent 100%),
+        radial-gradient(1.5px 1.5px at 80% 20%, rgba(240, 230, 200, 0.4) 0%, transparent 100%),
+        radial-gradient(1px 1px at 90% 45%, rgba(240, 230, 200, 0.3) 0%, transparent 100%),
+        radial-gradient(1px 1px at 15% 70%, rgba(240, 230, 200, 0.2) 0%, transparent 100%),
+        radial-gradient(1px 1px at 60% 80%, rgba(240, 230, 200, 0.3) 0%, transparent 100%),
+        radial-gradient(1px 1px at 35% 90%, rgba(240, 230, 200, 0.2) 0%, transparent 100%);
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    /* NAV */
+    nav {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(10, 14, 26, 0.92);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+      padding: 0 6%;
+      height: 68px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .logo {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.6rem;
+      font-weight: 700;
+      color: var(--star);
+      text-decoration: none;
+      letter-spacing: 0.02em;
+    }
+
+    .logo span {
+      color: var(--gold);
+    }
+
+    .nav-links {
+      display: flex;
+      gap: 2rem;
+      list-style: none;
+    }
+
+    .nav-links a {
+      text-decoration: none;
+      color: var(--muted);
+      font-size: 0.88rem;
+      font-weight: 500;
+      letter-spacing: 0.03em;
+      transition: color 0.2s;
+    }
+
+    .nav-links a:hover {
+      color: var(--gold);
+    }
+
+    .nav-cta {
+      background: var(--gold-dim);
+      color: var(--gold) !important;
+      border: 1px solid rgba(201, 168, 76, 0.3);
+      padding: 7px 16px;
+      border-radius: 4px;
+      transition: background 0.2s !important;
+    }
+
+    .nav-cta:hover {
+      background: rgba(201, 168, 76, 0.25) !important;
+    }
+
+    /* CATEGORY PAGE */
+    .cat-page {
+      position: relative;
+      z-index: 1;
+      max-width: 1100px;
+      margin: 0 auto;
+      padding: 48px 6% 80px;
+    }
+
+    /* BREADCRUMB */
+    .breadcrumb {
+      display: flex;
+      align-items: center;
+      gap: 0.5rem;
+      font-size: 0.82rem;
+      color: var(--muted);
+      margin-bottom: 2rem;
+    }
+
+    .breadcrumb a {
+      color: var(--muted);
+      text-decoration: none;
+      transition: color 0.2s;
+    }
+
+    .breadcrumb a:hover {
+      color: var(--gold);
+    }
+
+    .breadcrumb-sep {
+      color: var(--border);
+    }
+
+    .breadcrumb-current {
+      color: var(--gold);
+    }
+
+    /* HERO */
+    .cat-page-hero {
+      text-align: center;
+      padding: 3rem 2rem 3.5rem;
+      background: linear-gradient(135deg, var(--deep) 0%, var(--navy) 100%);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      margin-bottom: 3rem;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .cat-page-hero::before {
+      content: '';
+      position: absolute;
+      inset: 0;
+      background: radial-gradient(ellipse at 50% 0%, rgba(201, 168, 76, 0.08) 0%, transparent 70%);
+      pointer-events: none;
+    }
+
+    .hero-icon {
+      font-size: 3.5rem;
+      margin-bottom: 1rem;
+      display: block;
+    }
+
+    .hero-title {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 3rem;
+      font-weight: 700;
+      color: var(--star);
+      margin-bottom: 0.5rem;
+      letter-spacing: 0.01em;
+    }
+
+    .hero-count {
+      display: inline-block;
+      background: var(--gold-dim);
+      color: var(--gold);
+      border: 1px solid rgba(201, 168, 76, 0.25);
+      border-radius: 20px;
+      padding: 4px 14px;
+      font-size: 0.82rem;
+      font-weight: 500;
+      letter-spacing: 0.05em;
+      margin-bottom: 1.2rem;
+    }
+
+    .hero-desc {
+      max-width: 580px;
+      margin: 0 auto;
+      color: var(--muted);
+      font-size: 0.95rem;
+      font-weight: 300;
+      line-height: 1.75;
+    }
+
+    /* ARTICLES GRID */
+    .cat-articles-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1.5rem;
+    }
+
+    .cat-article-card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.6rem;
+      text-decoration: none;
+      display: flex;
+      flex-direction: column;
+      gap: 0.75rem;
+      transition: border-color 0.2s, transform 0.2s, box-shadow 0.2s;
+    }
+
+    .cat-article-card:hover {
+      border-color: var(--gold);
+      transform: translateY(-3px);
+      box-shadow: 0 8px 30px rgba(0, 0, 0, 0.35);
+    }
+
+    .card-meta {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 0.5rem;
+    }
+
+    .card-tag {
+      font-size: 0.7rem;
+      font-weight: 600;
+      color: var(--gold);
+      text-transform: uppercase;
+      letter-spacing: 0.1em;
+    }
+
+    .card-date {
+      font-size: 0.75rem;
+      color: var(--muted);
+    }
+
+    .card-title {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: var(--star);
+      line-height: 1.45;
+    }
+
+    .card-arrow {
+      margin-top: auto;
+      font-size: 0.8rem;
+      color: var(--gold);
+      font-weight: 500;
+      letter-spacing: 0.03em;
+    }
+
+    /* FOOTER */
+    footer {
+      background: #060912;
+      border-top: 1px solid var(--border);
+      padding: 50px 6% 30px;
+    }
+
+    .footer-top {
+      display: grid;
+      grid-template-columns: 2fr 1fr 1fr 1fr;
+      gap: 3rem;
+      margin-bottom: 3rem;
+      padding-bottom: 3rem;
+      border-bottom: 1px solid var(--border);
+    }
+
+    .footer-brand .logo {
+      font-size: 1.4rem;
+    }
+
+    .footer-brand p {
+      color: var(--muted);
+      font-size: 0.82rem;
+      margin-top: 0.8rem;
+      line-height: 1.6;
+      font-weight: 300;
+      max-width: 260px;
+    }
+
+    .footer-col h4 {
+      font-size: 0.78rem;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 1rem;
+    }
+
+    .footer-col ul {
+      list-style: none;
+      display: flex;
+      flex-direction: column;
+      gap: 0.6rem;
+    }
+
+    .footer-col a {
+      color: var(--muted);
+      text-decoration: none;
+      font-size: 0.85rem;
+      transition: color 0.2s;
+    }
+
+    .footer-col a:hover {
+      color: var(--gold);
+    }
+
+    .footer-bottom {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      font-size: 0.78rem;
+      color: var(--muted);
+      flex-wrap: wrap;
+      gap: 0.5rem;
+    }
+
+    .affiliate-disc {
+      font-size: 0.75rem;
+      color: var(--muted);
+      line-height: 1.6;
+      max-width: 600px;
+    }
+
+    /* RESPONSIVE */
+    @media (max-width: 900px) {
+      .nav-links {
+        display: none;
+      }
+
+      .hero-title {
+        font-size: 2.2rem;
+      }
+
+      .cat-articles-grid {
+        grid-template-columns: repeat(2, 1fr);
+      }
+
+      .footer-top {
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+
+    @media (max-width: 600px) {
+      .cat-articles-grid {
+        grid-template-columns: 1fr;
+      }
+
+      .footer-top {
+        grid-template-columns: 1fr;
+      }
+
+      .hero-title {
+        font-size: 1.8rem;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <!-- NAV -->
+  <nav>
+    <a class="logo" href="../">SleepWise<span>Reviews</span></a>
+    <ul class="nav-links">
+      <li><a href="../#picks">Top Picks</a></li>
+      <li><a href="../#reviews">Reviews</a></li>
+      <li><a href="about.html">About Harry</a></li>
+      <li><a href="../#newsletter" class="nav-cta">Free Sleep Guide</a></li>
+    </ul>
+  </nav>
+
+  <div class="cat-page">
+
+    <!-- BREADCRUMB -->
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <a href="../">Home</a>
+      <span class="breadcrumb-sep">›</span>
+      <span class="breadcrumb-current">Product Reviews</span>
+    </nav>
+
+    <!-- HERO -->
+    <div class="cat-page-hero">
+      <span class="hero-icon">🛍️</span>
+      <h1 class="hero-title">Product Reviews</h1>
+      <div class="hero-count">45 Articles</div>
+      <p class="hero-desc">In-depth, hands-on reviews of sleep products — tested for 30 nights each. No paid placements. Only products we genuinely recommend.</p>
+    </div>
+
+    <!-- ARTICLES GRID -->
+    <div class="cat-articles-grid">
+
+      <a class="cat-article-card" href="../posts/article-weighted-blanket.html">
+        <div class="card-meta">
+          <span class="card-tag">Product Review</span>
+          <span class="card-date">Feb 2025</span>
+        </div>
+        <div class="card-title">7 Best Weighted Blankets for Deep Sleep in 2025</div>
+        <div class="card-arrow">Read review →</div>
+      </a>
+
+      <a class="cat-article-card" href="../posts/article-magnesium-sleep.html">
+        <div class="card-meta">
+          <span class="card-tag">Product Review</span>
+          <span class="card-date">Feb 2025</span>
+        </div>
+        <div class="card-title">Best Magnesium for Sleep: Glycinate vs Citrate vs Threonate</div>
+        <div class="card-arrow">Read review →</div>
+      </a>
+
+      <a class="cat-article-card" href="../posts/article-white-noise-machines.html">
+        <div class="card-meta">
+          <span class="card-tag">Product Review</span>
+          <span class="card-date">Feb 2025</span>
+        </div>
+        <div class="card-title">7 Best White Noise Machines That Actually Block Sound</div>
+        <div class="card-arrow">Read review →</div>
+      </a>
+
+      <a class="cat-article-card" href="../posts/best-sleep-masks.html">
+        <div class="card-meta">
+          <span class="card-tag">Product Review</span>
+          <span class="card-date">Jan 2026</span>
+        </div>
+        <div class="card-title">7 Best Sleep Masks in 2026 (Tested for Full Blackout)</div>
+        <div class="card-arrow">Read review →</div>
+      </a>
+
+      <a class="cat-article-card" href="../posts/best-cooling-mattress-pads.html">
+        <div class="card-meta">
+          <span class="card-tag">Product Review</span>
+          <span class="card-date">Feb 2026</span>
+        </div>
+        <div class="card-title">Best Cooling Mattress Pads for Hot Sleepers</div>
+        <div class="card-arrow">Read review →</div>
+      </a>
+
+      <a class="cat-article-card" href="../posts/best-sunrise-alarm-clocks.html">
+        <div class="card-meta">
+          <span class="card-tag">Product Review</span>
+          <span class="card-date">Dec 2025</span>
+        </div>
+        <div class="card-title">Best Sunrise Alarm Clocks: Wake Up Without the Shock</div>
+        <div class="card-arrow">Read review →</div>
+      </a>
+
+      <a class="cat-article-card" href="../posts/best-blackout-curtains.html">
+        <div class="card-meta">
+          <span class="card-tag">Product Review</span>
+          <span class="card-date">Nov 2025</span>
+        </div>
+        <div class="card-title">Best Blackout Curtains for Sleep</div>
+        <div class="card-arrow">Read review →</div>
+      </a>
+
+      <a class="cat-article-card" href="../posts/best-melatonin-supplements.html">
+        <div class="card-meta">
+          <span class="card-tag">Product Review</span>
+          <span class="card-date">Oct 2025</span>
+        </div>
+        <div class="card-title">Best Melatonin Supplements in 2026</div>
+        <div class="card-arrow">Read review →</div>
+      </a>
+
+      <a class="cat-article-card" href="../posts/best-sleep-apps.html">
+        <div class="card-meta">
+          <span class="card-tag">Product Review</span>
+          <span class="card-date">Sep 2025</span>
+        </div>
+        <div class="card-title">Best Sleep Apps in 2026</div>
+        <div class="card-arrow">Read review →</div>
+      </a>
+
+      <a class="cat-article-card" href="../posts/best-earplugs-sleeping.html">
+        <div class="card-meta">
+          <span class="card-tag">Product Review</span>
+          <span class="card-date">Aug 2025</span>
+        </div>
+        <div class="card-title">Best Earplugs for Sleeping</div>
+        <div class="card-arrow">Read review →</div>
+      </a>
+
+      <a class="cat-article-card" href="../posts/best-pillow-sleep-position.html">
+        <div class="card-meta">
+          <span class="card-tag">Product Review</span>
+          <span class="card-date">Jul 2025</span>
+        </div>
+        <div class="card-title">Best Pillows for Every Sleep Position</div>
+        <div class="card-arrow">Read review →</div>
+      </a>
+
+      <a class="cat-article-card" href="../posts/best-blue-light-glasses.html">
+        <div class="card-meta">
+          <span class="card-tag">Product Review</span>
+          <span class="card-date">Jun 2025</span>
+        </div>
+        <div class="card-title">Best Blue Light Glasses for Sleep</div>
+        <div class="card-arrow">Read review →</div>
+      </a>
+
+      <a class="cat-article-card" href="../posts/best-sleep-supplements-guide.html">
+        <div class="card-meta">
+          <span class="card-tag">Product Review</span>
+          <span class="card-date">May 2025</span>
+        </div>
+        <div class="card-title">The 7 Best Sleep Supplements in 2026</div>
+        <div class="card-arrow">Read review →</div>
+      </a>
+
+      <a class="cat-article-card" href="../posts/best-mattress-toppers.html">
+        <div class="card-meta">
+          <span class="card-tag">Product Review</span>
+          <span class="card-date">Aug 2021</span>
+        </div>
+        <div class="card-title">Best Mattress Toppers for Better Sleep</div>
+        <div class="card-arrow">Read review →</div>
+      </a>
+
+      <a class="cat-article-card" href="../posts/best-humidifiers-sleep.html">
+        <div class="card-meta">
+          <span class="card-tag">Product Review</span>
+          <span class="card-date">Jul 2021</span>
+        </div>
+        <div class="card-title">Best Humidifiers for Sleep</div>
+        <div class="card-arrow">Read review →</div>
+      </a>
+
+      <a class="cat-article-card" href="../posts/best-sleep-headphones.html">
+        <div class="card-meta">
+          <span class="card-tag">Product Review</span>
+          <span class="card-date">Jun 2021</span>
+        </div>
+        <div class="card-title">Best Headphones for Sleeping</div>
+        <div class="card-arrow">Read review →</div>
+      </a>
+
+      <a class="cat-article-card" href="../posts/best-anti-snoring-devices.html">
+        <div class="card-meta">
+          <span class="card-tag">Product Review</span>
+          <span class="card-date">May 2021</span>
+        </div>
+        <div class="card-title">Best Anti-Snoring Devices That Actually Work</div>
+        <div class="card-arrow">Read review →</div>
+      </a>
+
+      <a class="cat-article-card" href="../posts/best-aromatherapy-sleep.html">
+        <div class="card-meta">
+          <span class="card-tag">Product Review</span>
+          <span class="card-date">Apr 2021</span>
+        </div>
+        <div class="card-title">Best Essential Oils and Diffusers for Sleep</div>
+        <div class="card-arrow">Read review →</div>
+      </a>
+
+      <a class="cat-article-card" href="../posts/best-grounding-sheets.html">
+        <div class="card-meta">
+          <span class="card-tag">Product Review</span>
+          <span class="card-date">Mar 2021</span>
+        </div>
+        <div class="card-title">Grounding Sheets for Sleep: The Evidence, Honestly Assessed</div>
+        <div class="card-arrow">Read review →</div>
+      </a>
+
+      <a class="cat-article-card" href="../posts/best-sleep-monitors.html">
+        <div class="card-meta">
+          <span class="card-tag">Product Review</span>
+          <span class="card-date">Feb 2021</span>
+        </div>
+        <div class="card-title">Best Bedside Sleep Monitors</div>
+        <div class="card-arrow">Read review →</div>
+      </a>
+
+      <a class="cat-article-card" href="../posts/best-cpap-alternatives.html">
+        <div class="card-meta">
+          <span class="card-tag">Product Review</span>
+          <span class="card-date">Jan 2021</span>
+        </div>
+        <div class="card-title">CPAP Alternatives for Mild Sleep Apnea</div>
+        <div class="card-arrow">Read review →</div>
+      </a>
+
+      <a class="cat-article-card" href="../posts/best-pregnancy-pillows.html">
+        <div class="card-meta">
+          <span class="card-tag">Product Review</span>
+          <span class="card-date">Dec 2020</span>
+        </div>
+        <div class="card-title">Best Pregnancy Pillows for Every Sleep Position</div>
+        <div class="card-arrow">Read review →</div>
+      </a>
+
+      <a class="cat-article-card" href="../posts/best-cooling-pillows.html">
+        <div class="card-meta">
+          <span class="card-tag">Product Review</span>
+          <span class="card-date">Nov 2020</span>
+        </div>
+        <div class="card-title">Best Cooling Pillows for Hot Sleepers</div>
+        <div class="card-arrow">Read review →</div>
+      </a>
+
+      <a class="cat-article-card" href="../posts/best-smart-mattresses.html">
+        <div class="card-meta">
+          <span class="card-tag">Product Review</span>
+          <span class="card-date">Mar 2026</span>
+        </div>
+        <div class="card-title">Best Smart Mattresses With Sleep Tracking</div>
+        <div class="card-arrow">Read review →</div>
+      </a>
+
+      <a class="cat-article-card" href="../posts/best-light-therapy-lamps.html">
+        <div class="card-meta">
+          <span class="card-tag">Product Review</span>
+          <span class="card-date">Dec 2024</span>
+        </div>
+        <div class="card-title">Best Light Therapy Lamps for Sleep</div>
+        <div class="card-arrow">Read review →</div>
+      </a>
+
+      <a class="cat-article-card" href="../posts/best-sleep-tracking-rings.html">
+        <div class="card-meta">
+          <span class="card-tag">Product Review</span>
+          <span class="card-date">Oct 2024</span>
+        </div>
+        <div class="card-title">Best Sleep Tracking Rings: Oura vs. Ultrahuman vs. RingConn</div>
+        <div class="card-arrow">Read review →</div>
+      </a>
+
+      <a class="cat-article-card" href="../posts/sleep-tracking-worth-it.html">
+        <div class="card-meta">
+          <span class="card-tag">Product Review</span>
+          <span class="card-date">Apr 2025</span>
+        </div>
+        <div class="card-title">Are Sleep Trackers Worth It?</div>
+        <div class="card-arrow">Read review →</div>
+      </a>
+
+      <a class="cat-article-card" href="../posts/bedroom-tech-sleep.html">
+        <div class="card-meta">
+          <span class="card-tag">Product Review</span>
+          <span class="card-date">Apr 2025</span>
+        </div>
+        <div class="card-title">The Best (and Worst) Bedroom Tech for Sleep</div>
+        <div class="card-arrow">Read review →</div>
+      </a>
+
+      <a class="cat-article-card" href="../posts/best-valerian-root-supplements.html">
+        <div class="card-meta">
+          <span class="card-tag">Product Review</span>
+          <span class="card-date">Oct 2023</span>
+        </div>
+        <div class="card-title">Best Valerian Root Supplements for Sleep</div>
+        <div class="card-arrow">Read review →</div>
+      </a>
+
+      <a class="cat-article-card" href="../posts/power-nap-science.html">
+        <div class="card-meta">
+          <span class="card-tag">Product Review</span>
+          <span class="card-date">Feb 2022</span>
+        </div>
+        <div class="card-title">The Science of the Power Nap</div>
+        <div class="card-arrow">Read review →</div>
+      </a>
+
+      <a class="cat-article-card" href="../posts/sleep-tracking-data.html">
+        <div class="card-meta">
+          <span class="card-tag">Product Review</span>
+          <span class="card-date">Jan 2022</span>
+        </div>
+        <div class="card-title">Understanding Your Sleep Tracker Data</div>
+        <div class="card-arrow">Read review →</div>
+      </a>
+
+      <a class="cat-article-card" href="../posts/best-sleep-supplements-guide.html">
+        <div class="card-meta">
+          <span class="card-tag">Product Review</span>
+          <span class="card-date">May 2025</span>
+        </div>
+        <div class="card-title">Best Sleep Supplements Guide</div>
+        <div class="card-arrow">Read review →</div>
+      </a>
+
+      <a class="cat-article-card" href="../posts/caffeine-half-life-sleep.html">
+        <div class="card-meta">
+          <span class="card-tag">Product Review</span>
+          <span class="card-date">Nov 2020</span>
+        </div>
+        <div class="card-title">Caffeine's Hidden Impact</div>
+        <div class="card-arrow">Read review →</div>
+      </a>
+
+      <a class="cat-article-card" href="../posts/blue-light-melatonin.html">
+        <div class="card-meta">
+          <span class="card-tag">Product Review</span>
+          <span class="card-date">Apr 2025</span>
+        </div>
+        <div class="card-title">How Blue Light Destroys Your Sleep</div>
+        <div class="card-arrow">Read review →</div>
+      </a>
+
+      <a class="cat-article-card" href="../posts/bedroom-temperature-sleep.html">
+        <div class="card-meta">
+          <span class="card-tag">Product Review</span>
+          <span class="card-date">Feb 2021</span>
+        </div>
+        <div class="card-title">The Perfect Bedroom Temperature for Sleep</div>
+        <div class="card-arrow">Read review →</div>
+      </a>
+
+      <a class="cat-article-card" href="../posts/bedroom-plants-sleep.html">
+        <div class="card-meta">
+          <span class="card-tag">Product Review</span>
+          <span class="card-date">Apr 2024</span>
+        </div>
+        <div class="card-title">Do Bedroom Plants Improve Sleep?</div>
+        <div class="card-arrow">Read review →</div>
+      </a>
+
+      <a class="cat-article-card" href="../posts/sleep-hydration.html">
+        <div class="card-meta">
+          <span class="card-tag">Product Review</span>
+          <span class="card-date">Jan 2024</span>
+        </div>
+        <div class="card-title">Sleep and Hydration</div>
+        <div class="card-arrow">Read review →</div>
+      </a>
+
+      <a class="cat-article-card" href="../posts/sleep-sanctuary-guide.html">
+        <div class="card-meta">
+          <span class="card-tag">Product Review</span>
+          <span class="card-date">May 2023</span>
+        </div>
+        <div class="card-title">The Perfect Bedroom as Sleep Sanctuary</div>
+        <div class="card-arrow">Read review →</div>
+      </a>
+
+      <a class="cat-article-card" href="../posts/sleep-environment-optimization.html">
+        <div class="card-meta">
+          <span class="card-tag">Product Review</span>
+          <span class="card-date">Mar 2025</span>
+        </div>
+        <div class="card-title">The Perfect Sleep Environment</div>
+        <div class="card-arrow">Read review →</div>
+      </a>
+
+      <a class="cat-article-card" href="../posts/sleep-sanctuary-guide.html">
+        <div class="card-meta">
+          <span class="card-tag">Product Review</span>
+          <span class="card-date">May 2023</span>
+        </div>
+        <div class="card-title">Sleep Optimization with Bedroom Guide</div>
+        <div class="card-arrow">Read review →</div>
+      </a>
+
+      <a class="cat-article-card" href="../posts/article-weighted-blanket.html">
+        <div class="card-meta">
+          <span class="card-tag">Product Review</span>
+          <span class="card-date">Feb 2025</span>
+        </div>
+        <div class="card-title">Weighted Blankets Review</div>
+        <div class="card-arrow">Read review →</div>
+      </a>
+
+      <a class="cat-article-card" href="../posts/article-white-noise-machines.html">
+        <div class="card-meta">
+          <span class="card-tag">Product Review</span>
+          <span class="card-date">Feb 2025</span>
+        </div>
+        <div class="card-title">White Noise Machine Guide</div>
+        <div class="card-arrow">Read review →</div>
+      </a>
+
+      <a class="cat-article-card" href="../posts/magnesium-types-sleep.html">
+        <div class="card-meta">
+          <span class="card-tag">Product Review</span>
+          <span class="card-date">Apr 2025</span>
+        </div>
+        <div class="card-title">Magnesium Types for Sleep</div>
+        <div class="card-arrow">Read review →</div>
+      </a>
+
+      <a class="cat-article-card" href="../posts/melatonin-guide.html">
+        <div class="card-meta">
+          <span class="card-tag">Product Review</span>
+          <span class="card-date">Mar 2025</span>
+        </div>
+        <div class="card-title">Melatonin: Dosage and Timing Guide</div>
+        <div class="card-arrow">Read review →</div>
+      </a>
+
+      <a class="cat-article-card" href="../posts/natural-sleep-aids.html">
+        <div class="card-meta">
+          <span class="card-tag">Product Review</span>
+          <span class="card-date">Aug 2024</span>
+        </div>
+        <div class="card-title">10 Natural Sleep Aids Ranked</div>
+        <div class="card-arrow">Read review →</div>
+      </a>
+
+    </div><!-- /cat-articles-grid -->
+
+  </div><!-- /cat-page -->
+
+  <footer>
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a class="logo" href="../">SleepWise<span>Reviews</span></a>
+        <p>Honest, science-backed reviews to help you sleep deeper, recover faster, and wake up energized.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Reviews</h4>
+        <ul>
+          <li><a href="../posts/article-weighted-blanket.html">Weighted Blankets</a></li>
+          <li><a href="../posts/article-white-noise-machines.html">White Noise Machines</a></li>
+          <li><a href="../posts/best-sleep-tracking-rings.html">Sleep Trackers</a></li>
+          <li><a href="../posts/article-magnesium-sleep.html">Supplements</a></li>
+          <li><a href="../posts/best-sleep-masks.html">Sleep Masks</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Guides</h4>
+        <ul>
+          <li><a href="../posts/sleep-environment-optimization.html">Sleep Optimization</a></li>
+          <li><a href="../posts/best-cpap-alternatives.html">Sleep Disorders</a></li>
+          <li><a href="../posts/sleep-sanctuary-guide.html">Bedtime Routines</a></li>
+          <li><a href="../posts/sleep-tracking-data.html">Sleep Science</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Site</h4>
+        <ul>
+          <li><a href="about.html">About Harry Soul</a></li>
+          <li><a href="mailto:contact@sleepwisereviews.com">Contact</a></li>
+          <li><a href="privacy-policy.html">Privacy Policy</a></li>
+          <li><a href="affiliate-disclosure.html">Affiliate Disclosure</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div>&copy; 2026 SleepWiseReviews. All rights reserved.</div>
+      <div class="affiliate-disc">SleepWiseReviews is a participant in the Amazon Services LLC Associates Program. As an Amazon Associate we earn from qualifying purchases.</div>
+    </div>
+  </footer>
+
+</body>
+
+</html>
