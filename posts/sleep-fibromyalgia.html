@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Fibromyalgia and Sleep: The Painful Cycle and How to Break It - SleepWiseReviews</title>
+  <meta name="description" content="Fibromyalgia disrupts the slow-wave deep sleep your muscles need to repair — which then worsens the pain that disrupts sleep in the first place. Breaking this cycle requires targeting sleep specifically, not just pain management." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <style type='text/css'>
+    :root {
+      --night: #0A0E1A; --deep: #0F1525; --navy: #141B30; --card: #1A2238;
+      --border: #252D45; --gold: #C9A84C; --gold-light: #E5C96A;
+      --gold-dim: rgba(201, 168, 76, 0.15); --star: #F0E6C8; --text: #D4DCEE;
+      --muted: #7A85A0; --white: #FFFFFF; --green: #4CAF82;
+    }
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body { font-family: 'Outfit', sans-serif; background: var(--night); color: var(--text); line-height: 1.6; overflow-x: hidden; }
+    body::before {
+      content: ''; position: fixed; inset: 0;
+      background-image: radial-gradient(1px 1px at 10% 15%, rgba(240,230,200,0.6) 0%, transparent 100%), radial-gradient(1px 1px at 25% 40%, rgba(240,230,200,0.4) 0%, transparent 100%), radial-gradient(1.5px 1.5px at 40% 10%, rgba(240,230,200,0.5) 0%, transparent 100%), radial-gradient(1px 1px at 70% 5%, rgba(240,230,200,0.6) 0%, transparent 100%), radial-gradient(1.5px 1.5px at 80% 20%, rgba(240,230,200,0.4) 0%, transparent 100%);
+      pointer-events: none; z-index: 0;
+    }
+    nav { position: sticky; top: 0; z-index: 100; background: rgba(10,14,26,0.92); backdrop-filter: blur(12px); border-bottom: 1px solid var(--border); padding: 0 6%; height: 68px; display: flex; align-items: center; justify-content: space-between; }
+    .logo { font-family: 'Cormorant Garamond', serif; font-size: 1.6rem; font-weight: 700; color: var(--star); text-decoration: none; }
+    .logo span { color: var(--gold); }
+    .nav-links { display: flex; gap: 2rem; list-style: none; }
+    .nav-links a { text-decoration: none; color: var(--muted); font-size: 0.88rem; font-weight: 500; transition: color 0.2s; }
+    .nav-links a:hover { color: var(--gold); }
+    .nav-cta { background: var(--gold-dim); color: var(--gold) !important; border: 1px solid rgba(201,168,76,0.3); padding: 7px 16px; border-radius: 4px; }
+    .article-wrapper { position: relative; z-index: 1; max-width: 800px; margin: 0 auto; padding: 50px 6% 80px; }
+    .article-meta-top { display: flex; flex-wrap: wrap; align-items: center; gap: 0.8rem; margin-bottom: 1.2rem; }
+    .tag { background: var(--gold); color: var(--night); padding: 5px 12px; border-radius: 4px; font-size: 0.72rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; }
+    .meta-text { color: var(--muted); font-size: 0.82rem; }
+    .article-wrapper h1 { font-family: 'Cormorant Garamond', serif; font-size: 2.4rem; font-weight: 600; color: var(--star); line-height: 1.2; margin-bottom: 1.2rem; }
+    .article-intro { font-size: 1.1rem; color: var(--text); line-height: 1.7; margin-bottom: 2rem; font-weight: 300; }
+    .author-box { display: flex; align-items: center; gap: 1rem; margin-bottom: 1.5rem; padding: 1rem; background: var(--card); border-radius: 8px; border: 1px solid var(--border); }
+    .author-avatar { font-size: 2.5rem; }
+    .author-name { color: var(--star); font-weight: 500; }
+    .author-name a { color: var(--gold); text-decoration: none; }
+    .author-role { color: var(--muted); font-size: 0.82rem; }
+    .disclosure-box { background: rgba(26,34,56,0.6); border: 1px solid var(--border); border-radius: 8px; padding: 0.9rem 1.2rem; margin-bottom: 2rem; font-size: 0.8rem; color: var(--muted); line-height: 1.6; }
+    .disclosure-box a { color: var(--gold); text-decoration: none; }
+    .disclosure-box a:hover { text-decoration: underline; }
+    .article-wrapper h2 { font-family: 'Cormorant Garamond', serif; font-size: 1.6rem; font-weight: 600; color: var(--star); margin: 2.5rem 0 1rem; padding-top: 1rem; }
+    .article-wrapper h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.2rem; color: var(--star); margin: 1.5rem 0 0.8rem; }
+    .article-wrapper p { margin-bottom: 1rem; font-weight: 300; line-height: 1.8; }
+    .article-wrapper ul, .article-wrapper ol { margin: 1rem 0 1.5rem 1.5rem; }
+    .article-wrapper li { margin-bottom: 0.5rem; font-weight: 300; }
+    .callout { background: var(--card); border-left: 3px solid var(--gold); padding: 1rem 1.5rem; margin: 1.5rem 0; border-radius: 0 8px 8px 0; font-size: 0.92rem; }
+    .callout.green { border-left-color: var(--green); }
+    .stage-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; margin: 1.5rem 0; }
+    .stage-card { background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 1.2rem; }
+    .stage-label { color: var(--gold); font-size: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.07em; margin-bottom: 0.5rem; }
+    .stage-title { color: var(--star); font-weight: 500; margin-bottom: 0.5rem; }
+    .stage-body { color: var(--text); font-size: 0.85rem; font-weight: 300; line-height: 1.6; }
+    .comparison-table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; font-size: 0.88rem; }
+    .comparison-table th { background: var(--card); color: var(--gold); padding: 0.7rem 1rem; text-align: left; font-size: 0.75rem; text-transform: uppercase; letter-spacing: 0.07em; border-bottom: 1px solid var(--border); }
+    .comparison-table td { padding: 0.7rem 1rem; border-bottom: 1px solid rgba(37,45,69,0.6); color: var(--text); font-weight: 300; }
+    .comparison-table tr:hover td { background: rgba(26,34,56,0.5); }
+    .product-cta { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 1.5rem; margin: 2rem 0; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; }
+    .product-cta-text { color: var(--star); font-weight: 500; }
+    .btn-amazon { background: var(--gold); color: var(--night); text-decoration: none; padding: 10px 20px; border-radius: 6px; font-weight: 600; font-size: 0.88rem; transition: background 0.2s; white-space: nowrap; }
+    .btn-amazon:hover { background: var(--gold-light); }
+    .article-cta { background: linear-gradient(135deg, var(--card), var(--navy)); border: 1px solid var(--border); border-radius: 12px; padding: 2rem; text-align: center; margin: 3rem 0; }
+    .article-cta h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.4rem; color: var(--star); margin-bottom: 0.8rem; }
+    .article-cta p { color: var(--muted); margin-bottom: 1.2rem; }
+    .related-articles { margin: 3rem 0; }
+    .related-articles h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.3rem; color: var(--star); margin-bottom: 1rem; }
+    .related-articles ul { list-style: none; margin: 0; }
+    .related-articles li { margin-bottom: 0.6rem; }
+    .related-articles a { color: var(--gold); text-decoration: none; font-size: 0.95rem; }
+    .related-articles a:hover { text-decoration: underline; }
+    footer { background: #060912; border-top: 1px solid var(--border); padding: 50px 6% 30px; }
+    .footer-top { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 3rem; margin-bottom: 3rem; padding-bottom: 3rem; border-bottom: 1px solid var(--border); }
+    .footer-brand p { color: var(--muted); font-size: 0.82rem; margin-top: 0.8rem; line-height: 1.6; font-weight: 300; max-width: 260px; }
+    .footer-col h4 { font-size: 0.78rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--gold); margin-bottom: 1rem; }
+    .footer-col ul { list-style: none; display: flex; flex-direction: column; gap: 0.6rem; }
+    .footer-col a { color: var(--muted); text-decoration: none; font-size: 0.85rem; transition: color 0.2s; }
+    .footer-col a:hover { color: var(--gold); }
+    .footer-bottom { display: flex; justify-content: space-between; font-size: 0.78rem; color: var(--muted); flex-wrap: wrap; gap: 0.5rem; }
+    @media (max-width: 900px) {
+      .nav-links { display: none; }
+      .article-wrapper h1 { font-size: 1.8rem; }
+      .footer-top { grid-template-columns: 1fr 1fr; }
+      .product-cta { flex-direction: column; text-align: center; }
+      .stage-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+
+<body>
+  <nav>
+    <a class="logo" href="../">SleepWise<span>Reviews</span></a>
+    <ul class="nav-links">
+      <li><a href="../#picks">Top Picks</a></li>
+      <li><a href="../#reviews">Reviews</a></li>
+      <li><a href="../pages/about.html">About Harry</a></li>
+      <li><a href="../#newsletter" class="nav-cta">Free Sleep Guide</a></li>
+    </ul>
+  </nav>
+
+  <article class="article-wrapper">
+    <div class="article-meta-top">
+      <span class="tag">Pain &amp; Sleep</span>
+      <span class="meta-text">📅 December 2025 · ⏱ 8 min read · 🔄 Updated Mar 2026</span>
+    </div>
+
+    <h1>Fibromyalgia and Sleep: The Painful Cycle and How to Break It</h1>
+
+    <p class="article-intro">Fibromyalgia disrupts the slow-wave deep sleep your muscles need to repair — which then worsens the pain that disrupts sleep in the first place. Breaking this cycle requires targeting sleep specifically, not just pain management.</p>
+
+    <div class="author-box">
+      <div class="author-avatar">😴</div>
+      <div class="author-info">
+        <div class="author-name">By <a href="../pages/about.html">Harry Soul</a> — SleepWiseReviews</div>
+        <div class="author-role">Independent Sleep Researcher · Updated March 2026</div>
+      </div>
+    </div>
+
+    <div class="disclosure-box">
+      <strong>Disclosure:</strong> This article contains affiliate links. If you purchase through our links, we may earn a small commission at no extra cost to you. We only recommend products relevant to improving sleep. See our <a href="../pages/affiliate-disclosure.html">full affiliate disclosure</a>.
+    </div>
+
+    <p>Fibromyalgia affects an estimated 4 million adults in the United States alone, yet its relationship with sleep remains one of the most under-addressed dimensions of the condition. Most patients are told to manage pain — but the pain cannot fully resolve while sleep architecture remains compromised, and sleep architecture cannot normalize while pain continues to intrude into deep sleep. This is the central trap that makes fibromyalgia so difficult to treat with conventional pain-focused approaches.</p>
+
+    <p>W. Chris Winter, in <em>The Sleep Solution</em> (2017), describes how chronic pain conditions create a vicious feedback loop at the neurological level: "Pain activates the brain's arousal systems during sleep, fragmenting the slow-wave stages that are most restorative — and the resulting sleep deprivation lowers pain thresholds, creating a self-perpetuating cycle" (Winter, 2017). Understanding precisely how fibromyalgia disrupts sleep stages — and which interventions target that disruption — is the key to breaking out of this cycle.</p>
+
+    <h2>How Fibromyalgia Disrupts Sleep Stages</h2>
+
+    <p>Normal sleep cycles through four distinct stages roughly every 90 minutes: Stage 1 (light transition sleep), Stage 2 (consolidated light sleep with sleep spindles), Stage 3 (slow-wave deep sleep), and REM sleep. Each stage has specific restorative functions. In people with fibromyalgia, this architecture is systematically disrupted in measurable ways that a standard sleep study can detect.</p>
+
+    <div class="stage-grid">
+      <div class="stage-card">
+        <div class="stage-label">Stage 1 &amp; 2</div>
+        <div class="stage-title">Light Sleep — Overrepresented</div>
+        <div class="stage-body">Fibromyalgia patients spend disproportionately more time in lighter sleep stages. The brain cycles back repeatedly to Stage 1 instead of progressing into restorative deep sleep, generating a pattern of constant shallow sleep rather than the progressively deeper cycles healthy sleepers experience.</div>
+      </div>
+      <div class="stage-card">
+        <div class="stage-label">Stage 3</div>
+        <div class="stage-title">Deep Sleep — Severely Reduced</div>
+        <div class="stage-body">Slow-wave (deep) sleep is when the body releases growth hormone and repairs muscle tissue. Fibromyalgia patients achieve significantly less Stage 3 sleep, and the deep sleep they do get is frequently interrupted by microarousals triggered by pain signals — returning the brain to lighter stages before full restoration can occur.</div>
+      </div>
+      <div class="stage-card">
+        <div class="stage-label">REM Sleep</div>
+        <div class="stage-title">Disrupted and Fragmented</div>
+        <div class="stage-body">REM sleep, critical for emotional regulation and memory consolidation, is also compromised. Many fibromyalgia patients report vivid, distressing dreams or frequent REM-stage awakenings. Disrupted REM contributes to the mood dysregulation, brain fog, and emotional sensitivity that accompany the condition.</div>
+      </div>
+      <div class="stage-card">
+        <div class="stage-label">Overall</div>
+        <div class="stage-title">Sleep Efficiency — Dramatically Lower</div>
+        <div class="stage-body">Sleep efficiency (the ratio of time asleep to time in bed) is consistently lower in fibromyalgia patients — often below 70%, compared to the healthy target of 85% or above. Many patients spend 8–9 hours in bed while achieving fewer than 5 hours of genuinely restorative sleep.</div>
+      </div>
+    </div>
+
+    <h2>The Alpha-Delta Anomaly: A Sleep EEG Signature of Fibromyalgia</h2>
+
+    <p>One of the most striking findings in fibromyalgia sleep research is the alpha-delta sleep anomaly — a pattern first identified in the 1970s and now considered a hallmark of the condition. In healthy deep sleep, brain activity is dominated by slow, synchronized delta waves (0.5–4 Hz) that characterize the restorative, disengaged state of Stage 3 sleep. In fibromyalgia patients, alpha waves (8–13 Hz) — the brain's alert, wakeful rhythm — intrude persistently into delta sleep.</p>
+
+    <p>The practical result is that patients experience what sleep researchers call "non-restorative sleep": the EEG registers deep sleep, but the brain is simultaneously running an alert, semi-conscious arousal pattern. Patients wake feeling as though they have not slept at all, because at the neurological level, the restorative disengagement of genuine slow-wave sleep never fully occurred. Importantly, this phenomenon is not simply a consequence of pain waking the patient — alpha intrusion occurs even in periods of deep sleep where pain-related movement does not occur, suggesting a primary dysregulation of the arousal system itself.</p>
+
+    <p>Research published in the <em>Journal of Rheumatology</em> found that the severity of alpha-delta anomaly in fibromyalgia patients correlated more strongly with daytime pain levels and fatigue than did objective pain measures alone, reinforcing the idea that sleep disruption is not merely a symptom but an active driver of fibromyalgia's most debilitating features.</p>
+
+    <div class="callout">
+      💡 <strong>Key insight:</strong> The alpha-delta anomaly explains why many fibromyalgia patients say "I sleep but I'm never rested." The EEG signature of wakefulness is literally present during what looks like deep sleep — which is why increasing sleep duration alone does not resolve fibromyalgia fatigue. The quality and architecture of sleep must be addressed directly.
+    </div>
+
+    <h2>Sleep Interventions Specifically Effective for Fibromyalgia</h2>
+
+    <p>Standard sleep hygiene advice — avoid caffeine, keep a consistent schedule, limit screens — is necessary but insufficient for fibromyalgia patients. The interventions that produce measurable improvement in both sleep architecture and pain outcomes are those that specifically target the arousal dysregulation and alpha intrusion pattern, not just general sleep latency or duration.</p>
+
+    <h3>Cognitive Behavioral Therapy for Insomnia (CBT-I)</h3>
+    <p>CBT-I is the gold-standard treatment for insomnia in the general population, and multiple randomized controlled trials have demonstrated its effectiveness specifically in fibromyalgia. The techniques most relevant to fibromyalgia include stimulus control (breaking the bed-pain-wakefulness association), sleep restriction therapy (temporarily reducing time in bed to build sleep pressure and consolidate sleep), and cognitive restructuring of catastrophic thinking about sleep and pain. A 2019 meta-analysis found that CBT-I in fibromyalgia patients reduced pain scores alongside sleep improvements — evidence that correcting sleep architecture directly reduces pain sensitivity, not just fatigue.</p>
+
+    <h3>Low-Dose Naltrexone (LDN) and Sleep Architecture</h3>
+    <p>Low-dose naltrexone (1.5–4.5 mg at bedtime) has emerged as one of the more promising pharmacological approaches specifically because of its mechanism: LDN transiently blocks opioid receptors, triggering a compensatory upregulation in endorphin production and reducing microglial activation — the central nervous system inflammatory process believed to underlie both the alpha-delta anomaly and central sensitization in fibromyalgia. Multiple pilot studies report improvements in sleep quality and pain reduction, though large randomized trials are still underway. Discuss with a physician familiar with fibromyalgia.</p>
+
+    <h3>Gabapentinoids and Sleep Stage Management</h3>
+    <p>Pregabalin (Lyrica) and gabapentin act on calcium channels in the central nervous system, reducing the neuronal hyperexcitability that drives both pain sensitization and the arousal intrusions during sleep. Pregabalin is one of the few FDA-approved treatments specifically for fibromyalgia and has demonstrated measurable improvements in slow-wave sleep in clinical trials — not just subjective sleep quality, but EEG-confirmed increases in delta activity. The key is that it addresses the mechanism, not just the symptom.</p>
+
+    <h3>Mindfulness-Based Stress Reduction (MBSR)</h3>
+    <p>MBSR — typically an 8-week structured program — has consistent evidence in fibromyalgia for reducing the hypervigilance and catastrophizing that amplify both pain and nocturnal arousal. Pain catastrophizing (the tendency to ruminate on pain and expect the worst) is one of the strongest predictors of poor sleep in fibromyalgia. MBSR reduces this pattern at the cognitive level, which translates into measurable reductions in sleep-onset difficulty and nocturnal awakenings.</p>
+
+    <table class="comparison-table">
+      <thead>
+        <tr>
+          <th>Intervention</th>
+          <th>Targets Alpha-Delta?</th>
+          <th>Pain Reduction?</th>
+          <th>Evidence Level</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>CBT-I</td><td>Yes (indirectly)</td><td>Yes</td><td>Strong (multiple RCTs)</td></tr>
+        <tr><td>Pregabalin / Gabapentin</td><td>Yes (directly)</td><td>Yes</td><td>Strong (FDA-approved)</td></tr>
+        <tr><td>Low-Dose Naltrexone</td><td>Likely</td><td>Yes</td><td>Moderate (pilot studies)</td></tr>
+        <tr><td>Mindfulness (MBSR)</td><td>Yes (indirectly)</td><td>Yes</td><td>Moderate (multiple RCTs)</td></tr>
+        <tr><td>Aerobic Exercise</td><td>Yes</td><td>Yes</td><td>Strong</td></tr>
+        <tr><td>Heat Therapy</td><td>Yes (sleep onset)</td><td>Yes</td><td>Moderate</td></tr>
+      </tbody>
+    </table>
+
+    <h2>The Role of Heat and Exercise in Fibromyalgia Sleep</h2>
+
+    <p>Two of the most accessible and well-evidenced non-pharmacological interventions for fibromyalgia sleep are heat therapy and graded aerobic exercise — and both work through mechanisms directly relevant to the sleep disruption pattern, not just general comfort.</p>
+
+    <h3>Why Heat Works at the Physiological Level</h3>
+    <p>Fibromyalgia is associated with dysregulation of the autonomic nervous system, including impaired thermoregulation. Normal sleep onset requires core body temperature to drop by approximately 1–2°F, a process driven by peripheral vasodilation (heat dissipation through the skin). In fibromyalgia patients, this thermoregulatory mechanism is frequently blunted — the body is slower to initiate the cooling process, delaying sleep onset and making it harder to maintain deep sleep during the night.</p>
+
+    <p>Applying external warmth — through a heated mattress pad, warm bath, or electric blanket — before sleep triggers the same vasodilation response, accelerating the core temperature drop. The warmth also directly reduces the muscle tension and hypersensitivity that generates pain signals at the skin surface, lowering the arousal threshold and allowing the brain to descend into deeper sleep stages without pain-triggered interruption. Multiple fibromyalgia studies have confirmed that heat therapy reduces both pain scores and sleep-onset latency.</p>
+
+    <div class="callout green" style="border-left:3px solid var(--green)">💚 <strong>Tonight's action:</strong> Gentle heat (a heated mattress pad set to a moderate temperature) can reduce fibromyalgia pain enough to improve sleep onset. Use it to warm your bed before sleep, then lower the temperature — the cooling effect also aids sleep depth.</div>
+
+    <div class="product-cta">
+      <div class="product-cta-text">A heated mattress pad or electric blanket can reduce fibromyalgia pain at the skin surface, improving sleep onset and reducing nighttime awakenings.</div>
+      <a class="btn-amazon" href="https://www.amazon.com/s?k=heated+mattress+pad+electric+blanket+sleep&tag=sleepwiserevi-20" target="_blank" rel="noopener">See Heated Mattress Pads on Amazon →</a>
+    </div>
+
+    <h3>Graded Exercise: Counterintuitive but Essential</h3>
+    <p>Exercise is often the last thing a fibromyalgia patient wants to hear about — because exercising when in pain feels counterproductive, and because poorly managed exercise can trigger post-exertional flares. But the evidence is clear: graded aerobic exercise, introduced gradually and consistently, is one of the most effective interventions for both pain and sleep in fibromyalgia. The mechanism is threefold.</p>
+
+    <p>First, aerobic exercise increases adenosine accumulation — the sleep pressure molecule — producing deeper, more consolidated slow-wave sleep on the following night. Second, exercise reduces central sensitization through its anti-inflammatory effects (reducing pro-inflammatory cytokines like IL-6 and TNF-alpha that are elevated in fibromyalgia). Third, regular exercise improves thermoregulatory function, restoring the normal temperature drop at sleep onset that facilitates deep sleep entry. The key is gradual progression: beginning with 10 minutes of low-intensity walking three times per week and increasing slowly over weeks, rather than attempting high-intensity sessions that trigger post-exertional symptom worsening.</p>
+
+    <h3>Water Exercise (Hydrotherapy) as a Gentler Entry Point</h3>
+    <p>For fibromyalgia patients who find land-based exercise too painful to begin, warm-water hydrotherapy — exercise performed in a heated pool (92–96°F) — provides an effective bridge. The buoyancy reduces joint load and gravitational impact, while the warmth provides simultaneous heat therapy. Multiple studies specifically in fibromyalgia show that pool-based aerobic exercise produces comparable sleep and pain improvements to land-based exercise, with significantly better adherence because the pain barrier to participation is lower.</p>
+
+    <h2>Building a Fibromyalgia Sleep Protocol: Putting It Together</h2>
+
+    <p>Because fibromyalgia sleep disruption operates through multiple simultaneous mechanisms — alpha-delta anomaly, thermoregulatory dysfunction, pain-triggered arousal, and autonomic dysregulation — the most effective approach addresses all of them together rather than one at a time. As Winter (2017) notes, sleep improvement in chronic pain conditions requires treating the system, not just the symptom: adjusting the environment, the nervous system's arousal threshold, the thermoregulatory process, and the cognitive relationship with pain and sleep simultaneously.</p>
+
+    <p>A practical protocol built from the evidence reviewed here would begin with heat preparation (warmed bed 30 minutes before sleep, then cooling before sleep onset), combine graded daily exercise in the morning or afternoon rather than evening, add a consistent CBT-I-based sleep restriction and stimulus control protocol, and — in consultation with a physician — consider LDN or pregabalin if non-pharmacological approaches alone are insufficient after 6–8 weeks. Pain management medications should be coordinated with sleep timing: some have sedating properties helpful at bedtime; others can disrupt REM if taken too late.</p>
+
+    <p>The most important reframe for fibromyalgia patients is that sleep is not a passive victim of the condition — it is an active treatment target. Improving sleep architecture does not just reduce fatigue; it directly reduces pain sensitivity, lowers the inflammatory burden, and restores the body's repair processes that fibromyalgia has compromised. Sleep and pain are not separate problems to solve in sequence. They are the same problem, and they respond to treatment together.</p>
+
+    <div class="callout">
+      💡 <strong>Practical summary:</strong> For fibromyalgia sleep, the hierarchy of interventions by evidence strength is: (1) graded aerobic exercise, (2) CBT-I with a clinician familiar with chronic pain, (3) heat therapy before bed, (4) MBSR or mindfulness practice, (5) discuss pregabalin or LDN with your physician. Starting with heat and exercise tonight costs nothing and has no side effects — both produce measurable improvements within two to four weeks of consistent use.
+    </div>
+
+    <div class="article-cta">
+      <h3>Struggling with chronic pain and sleep?</h3>
+      <p>Our guide to pain and sleep covers the evidence on how different chronic pain conditions disrupt sleep architecture — and what the research says works for each.</p>
+      <a class="btn-amazon" href="chronic-pain-sleep.html">Read: Chronic Pain and Sleep — The Complete Guide →</a>
+    </div>
+
+    <div class="related-articles">
+      <h3>Related Articles</h3>
+      <ul>
+        <li><a href="deep-sleep-benefits.html">What Deep Sleep Actually Does: Stage 3 Science Explained</a></li>
+        <li><a href="cbt-i-guide.html">The Complete CBT-I Guide: Fix Insomnia Without Medication</a></li>
+        <li><a href="sleep-and-inflammation.html">Sleep and Inflammation: The Bidirectional Relationship</a></li>
+        <li><a href="chronic-pain-sleep.html">Chronic Pain and Sleep: Evidence-Based Approaches</a></li>
+        <li><a href="aging-and-sleep.html">How Sleep Changes as You Age (And What to Do About It)</a></li>
+      </ul>
+    </div>
+  </article>
+
+  <footer>
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a class="logo" href="../">SleepWise<span>Reviews</span></a>
+        <p>Independent sleep research and honest product reviews since 2020. We test everything we recommend.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Pain &amp; Sleep</h4>
+        <ul>
+          <li><a href="sleep-fibromyalgia.html">Fibromyalgia &amp; Sleep</a></li>
+          <li><a href="chronic-pain-sleep.html">Chronic Pain &amp; Sleep</a></li>
+          <li><a href="sleep-and-inflammation.html">Sleep &amp; Inflammation</a></li>
+          <li><a href="deep-sleep-benefits.html">Deep Sleep</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Products</h4>
+        <ul>
+          <li><a href="https://www.amazon.com/s?k=heated+mattress+pad+electric+blanket+sleep&tag=sleepwiserevi-20">Heated Mattress Pads</a></li>
+          <li><a href="best-sleep-masks.html">Sleep Masks</a></li>
+          <li><a href="best-earplugs-sleeping.html">Earplugs</a></li>
+          <li><a href="best-blackout-curtains.html">Blackout Curtains</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>About</h4>
+        <ul>
+          <li><a href="../pages/about.html">About Harry</a></li>
+          <li><a href="../pages/affiliate-disclosure.html">Affiliate Disclosure</a></li>
+          <li><a href="../pages/privacy-policy.html">Privacy Policy</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 SleepWiseReviews. All rights reserved.</span>
+      <span>Independent reviews. Affiliate links support our research.</span>
+    </div>
+  </footer>
+</body>
+</html>
