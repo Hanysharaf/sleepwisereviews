@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>How to Sleep Better in Winter (Darkness, Cold, and Seasonal Mood) - SleepWiseReviews</title>
+  <meta name="description" content="Winter light levels can drop to 1/500th of summer levels — your circadian clock feels every bit of it. Learn how darkness, cold, and seasonal mood affect your sleep and what to do about it." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <style type='text/css'>
+    :root {
+      --night: #0A0E1A;
+      --deep: #0F1525;
+      --navy: #141B30;
+      --card: #1A2238;
+      --border: #252D45;
+      --gold: #C9A84C;
+      --gold-light: #E5C96A;
+      --gold-dim: rgba(201, 168, 76, 0.15);
+      --star: #F0E6C8;
+      --text: #D4DCEE;
+      --muted: #7A85A0;
+      --white: #FFFFFF;
+      --green: #4CAF82;
+    }
+
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: 'Outfit', sans-serif;
+      background: var(--night);
+      color: var(--text);
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      background-image:
+        radial-gradient(1px 1px at 10% 15%, rgba(240, 230, 200, 0.6) 0%, transparent 100%),
+        radial-gradient(1px 1px at 25% 40%, rgba(240, 230, 200, 0.4) 0%, transparent 100%),
+        radial-gradient(1.5px 1.5px at 40% 10%, rgba(240, 230, 200, 0.5) 0%, transparent 100%),
+        radial-gradient(1px 1px at 55% 30%, rgba(240, 230, 200, 0.3) 0%, transparent 100%),
+        radial-gradient(1px 1px at 70% 5%, rgba(240, 230, 200, 0.6) 0%, transparent 100%),
+        radial-gradient(1.5px 1.5px at 80% 20%, rgba(240, 230, 200, 0.4) 0%, transparent 100%),
+        radial-gradient(1px 1px at 90% 45%, rgba(240, 230, 200, 0.3) 0%, transparent 100%);
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    nav {
+      position: sticky; top: 0; z-index: 100;
+      background: rgba(10, 14, 26, 0.92);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+      padding: 0 6%; height: 68px;
+      display: flex; align-items: center; justify-content: space-between;
+    }
+    .logo { font-family: 'Cormorant Garamond', serif; font-size: 1.6rem; font-weight: 700; color: var(--star); text-decoration: none; }
+    .logo span { color: var(--gold); }
+    .nav-links { display: flex; gap: 2rem; list-style: none; }
+    .nav-links a { text-decoration: none; color: var(--muted); font-size: 0.88rem; font-weight: 500; transition: color 0.2s; }
+    .nav-links a:hover { color: var(--gold); }
+    .nav-cta { background: var(--gold-dim); color: var(--gold) !important; border: 1px solid rgba(201, 168, 76, 0.3); padding: 7px 16px; border-radius: 4px; }
+
+    .article-wrapper {
+      position: relative; z-index: 1;
+      max-width: 800px; margin: 0 auto; padding: 50px 6% 80px;
+    }
+    .article-meta-top { display: flex; flex-wrap: wrap; align-items: center; gap: 0.8rem; margin-bottom: 1.2rem; }
+    .tag { background: var(--gold); color: var(--night); padding: 5px 12px; border-radius: 4px; font-size: 0.72rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; }
+    .meta-text { color: var(--muted); font-size: 0.82rem; }
+    .article-wrapper h1 { font-family: 'Cormorant Garamond', serif; font-size: 2.4rem; font-weight: 600; color: var(--star); line-height: 1.2; margin-bottom: 1.2rem; }
+    .article-intro { font-size: 1.1rem; color: var(--text); line-height: 1.7; margin-bottom: 2rem; font-weight: 300; }
+    .author-box { display: flex; align-items: center; gap: 1rem; margin-bottom: 1.5rem; padding: 1rem; background: var(--card); border-radius: 8px; border: 1px solid var(--border); }
+    .author-avatar { font-size: 2.5rem; }
+    .author-name { color: var(--star); font-weight: 500; }
+    .author-name a { color: var(--gold); text-decoration: none; }
+    .author-role { color: var(--muted); font-size: 0.82rem; }
+    .disclosure-box { background: rgba(201, 168, 76, 0.08); border: 1px solid rgba(201, 168, 76, 0.2); border-radius: 8px; padding: 1rem 1.2rem; font-size: 0.82rem; color: var(--muted); margin-bottom: 2rem; }
+    .article-wrapper h2 { font-family: 'Cormorant Garamond', serif; font-size: 1.6rem; font-weight: 600; color: var(--star); margin: 2.5rem 0 1rem; padding-top: 1rem; }
+    .article-wrapper h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.2rem; color: var(--star); margin: 1.5rem 0 0.8rem; }
+    .article-wrapper p { margin-bottom: 1rem; font-weight: 300; line-height: 1.8; }
+    .article-wrapper ul, .article-wrapper ol { margin: 1rem 0 1.5rem 1.5rem; }
+    .article-wrapper li { margin-bottom: 0.5rem; font-weight: 300; }
+    .callout { background: var(--card); border-left: 3px solid var(--gold); padding: 1rem 1.5rem; margin: 1.5rem 0; border-radius: 0 8px 8px 0; font-size: 0.92rem; }
+    .callout-green { background: var(--card); border-left: 3px solid var(--green); padding: 1rem 1.5rem; margin: 1.5rem 0; border-radius: 0 8px 8px 0; font-size: 0.92rem; }
+
+    .product-cta { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 1.5rem; margin: 2rem 0; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; }
+    .product-cta-text { color: var(--star); font-weight: 500; }
+    .btn-amazon { background: var(--gold); color: var(--night); text-decoration: none; padding: 10px 20px; border-radius: 6px; font-weight: 600; font-size: 0.88rem; transition: background 0.2s; }
+    .btn-amazon:hover { background: var(--gold-light); }
+
+    .article-cta { background: linear-gradient(135deg, var(--card), var(--navy)); border: 1px solid var(--border); border-radius: 12px; padding: 2rem; text-align: center; margin: 3rem 0; }
+    .article-cta h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.4rem; color: var(--star); margin-bottom: 0.8rem; }
+    .article-cta p { color: var(--muted); margin-bottom: 1.2rem; }
+
+    .related-articles { margin: 3rem 0; }
+    .related-articles h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.3rem; color: var(--star); margin-bottom: 1rem; }
+    .related-articles ul { list-style: none; margin: 0; }
+    .related-articles li { margin-bottom: 0.6rem; }
+    .related-articles a { color: var(--gold); text-decoration: none; font-size: 0.95rem; }
+    .related-articles a:hover { text-decoration: underline; }
+
+    footer { background: #060912; border-top: 1px solid var(--border); padding: 50px 6% 30px; }
+    .footer-top { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 3rem; margin-bottom: 3rem; padding-bottom: 3rem; border-bottom: 1px solid var(--border); }
+    .footer-brand p { color: var(--muted); font-size: 0.82rem; margin-top: 0.8rem; line-height: 1.6; font-weight: 300; max-width: 260px; }
+    .footer-col h4 { font-size: 0.78rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--gold); margin-bottom: 1rem; }
+    .footer-col ul { list-style: none; display: flex; flex-direction: column; gap: 0.6rem; }
+    .footer-col a { color: var(--muted); text-decoration: none; font-size: 0.85rem; transition: color 0.2s; }
+    .footer-col a:hover { color: var(--gold); }
+    .footer-bottom { display: flex; justify-content: space-between; font-size: 0.78rem; color: var(--muted); flex-wrap: wrap; gap: 0.5rem; }
+    .affiliate-disc { font-size: 0.75rem; max-width: 600px; }
+
+    @media (max-width: 900px) {
+      .nav-links { display: none; }
+      .article-wrapper h1 { font-size: 1.8rem; }
+      .footer-top { grid-template-columns: 1fr 1fr; }
+      .product-cta { flex-direction: column; text-align: center; }
+    }
+  </style>
+</head>
+
+<body>
+  <nav>
+    <a class="logo" href="../">SleepWise<span>Reviews</span></a>
+    <ul class="nav-links">
+      <li><a href="../#picks">Top Picks</a></li>
+      <li><a href="../#reviews">Reviews</a></li>
+      <li><a href="../pages/about.html">About Harry</a></li>
+      <li><a href="../#newsletter" class="nav-cta">Free Sleep Guide</a></li>
+    </ul>
+  </nav>
+
+  <article class="article-wrapper">
+    <div class="article-meta-top">
+      <span class="tag">Seasonal</span>
+      <span class="meta-text">&#128197; January 2024</span>
+      <span class="meta-text">·</span>
+      <span class="meta-text">&#9201; 8 min read</span>
+      <span class="meta-text">·</span>
+      <span class="meta-text">&#128260; Updated Mar 2026</span>
+    </div>
+    <h1>How to Sleep Better in Winter (Darkness, Cold, and Seasonal Mood)</h1>
+    <p class="article-intro">Winter light levels can drop to 1/500th of summer levels — your circadian clock feels every bit of it. If your sleep feels off from November through February, the problem is not your mattress or your habits; it is the planet itself tilting away from the sun.</p>
+
+    <div class="author-box">
+      <div class="author-avatar">&#128564;</div>
+      <div class="author-info">
+        <div class="author-name">By <a href="../pages/about.html">Harry Soul</a> - SleepWiseReviews</div>
+        <div class="author-role">Independent Sleep Researcher - January 2024</div>
+      </div>
+    </div>
+
+    <div class="disclosure-box">
+      <strong>Affiliate Disclosure:</strong> This article contains affiliate links. We earn a small commission if you purchase through our links at no extra cost to you. <a href="../pages/affiliate-disclosure.html" style="color:var(--gold)">Full disclosure</a>
+    </div>
+
+    <h2>Why Winter Disrupts Circadian Timing</h2>
+    <p>Your circadian clock is a roughly 24-hour biological timer embedded in nearly every cell of your body. It runs on light. Specifically, it is calibrated by the intensity and timing of light entering your eyes each morning, which signals the suprachiasmatic nucleus (SCN) in your hypothalamus to anchor the start of your day.</p>
+    <p>In summer, outdoor light at midday exceeds 100,000 lux. On a clear winter day, the same outdoor scene might deliver only 2,000–5,000 lux at ground level — and on an overcast day, as little as 200 lux. Step indoors and that drops further to the 100–500 lux range typical of office lighting. Your circadian system, built over hundreds of thousands of years of outdoor life, interprets anything below about 1,000 lux as dim ambient light rather than a true dawn signal.</p>
+    <p>The result: your body clock drifts. Without a strong morning light anchor, the internal timer loses its fixed reference point and begins to slide later. Sleep pressure builds later. Melatonin releases later. Waking up at a fixed alarm time pulls you out of sleep before your biology agrees it is morning.</p>
+
+    <div class="callout">&#128161; <strong>Key insight:</strong> The problem is not the length of night in winter — it is the weakness of the morning light signal. Even a 20-minute bright-light session after waking can compensate for months of dim winter dawns.</div>
+
+    <h2>Delayed Melatonin Onset: Why You Wake Harder in Winter</h2>
+    <p>Melatonin is often called the "darkness hormone" — it does not make you sleep directly, but it signals to your body that night has arrived and sleep should begin. Its release is suppressed by light and triggered by darkness, typically starting 2–3 hours before your habitual sleep time.</p>
+    <p>In winter, shortened days and weaker light exposure mean that melatonin secretion can shift later and persist longer into the morning. Many people notice they feel fine going to bed at roughly the same time as always, but waking up is dramatically harder. This is not laziness; it is melatonin still circulating at levels that say "it is still the middle of the night" when the alarm goes off at 7am on a grey January morning.</p>
+    <p>This phase delay also affects core body temperature, cortisol awakening response, and cognitive alertness — all of which are downstream of that same circadian anchor. Correcting the light signal in the morning is the single most effective intervention for this pattern.</p>
+
+    <h2>Seasonal Affective Disorder: The Sleep-Mood Connection</h2>
+    <p>Seasonal Affective Disorder (SAD) affects an estimated 5% of the population, with a further 10–20% experiencing a milder "winter blues" pattern. While it is classified as a mood disorder, the sleep component is central: most people with SAD report hypersomnia (sleeping too much), difficulty waking, increased carbohydrate craving, and low energy — a cluster that maps precisely onto circadian disruption and serotonin dysregulation.</p>
+    <p>As Dr. Satchin Panda explains in <em>The Circadian Code</em> (2019), light is not merely a visual input — it is the primary environmental signal that synchronises virtually every physiological process in your body, from hormone release and immune function to gut motility and mood regulation. When that signal weakens for months at a time, the downstream effects extend far beyond feeling sleepy. The same circadian misalignment that disrupts sleep timing also disrupts the serotonin-to-melatonin conversion pathway, linking winter darkness directly to the mood symptoms of SAD.</p>
+    <p>The good news is that light therapy, the primary evidence-based treatment for SAD, addresses both the sleep disruption and the mood symptoms simultaneously — because they share the same root cause.</p>
+
+    <h2>Why Cold Temperatures Actually Help Sleep</h2>
+    <p>Here is a counterintuitive truth about winter sleeping: the cold is an ally, not an obstacle. Your core body temperature needs to drop by approximately 1–1.5°C to initiate and maintain deep sleep. This is why you naturally fall asleep faster in a cool room than a warm one — your environment is doing some of the thermal work for your body.</p>
+    <p>Sleep scientists broadly agree that a bedroom temperature between 16–19°C (60–67°F) is optimal for most adults. Winter naturally pushes ambient temperatures into this range or below, which means your sleep architecture — particularly the proportion of deep, slow-wave sleep — can actually improve in winter if you resist the urge to overheat your bedroom.</p>
+    <p>The common mistake is cranking up the heating to match summer comfort levels. This eliminates the thermal advantage winter provides. Instead, keep the room cool and use bedding to manage warmth at the surface level, which gives your body control over its own temperature regulation throughout the night.</p>
+
+    <h2>The Winter Paradox: Good for Sleep Timing, Bad for Morning Anchoring</h2>
+    <p>Winter presents a genuine paradox for sleep. On the one hand, longer nights and earlier darkness support the biological signal for sleep — if you allow yourself to wind down with dimming light in the evening, melatonin rises earlier and sleep pressure builds naturally. Many people find it easier to fall asleep in winter because the environmental cue (darkness) arrives earlier.</p>
+    <p>On the other hand, the weak morning light signal means that waking up at a socially and professionally required time is harder to anchor biologically. You are fighting against a circadian system that wants to let you sleep until 8am on a grey winter morning when light levels outside barely exceed twilight.</p>
+    <p>The resolution to this paradox is asymmetric intervention: protect the evening darkness (stop fighting it with bright screens and overhead lighting after 9pm) while aggressively supplementing the morning light signal (bright artificial light within 30 minutes of waking). This approach works with winter biology on both ends of the night rather than against it.</p>
+
+    <div class="callout-green">&#9889; <strong>Practical takeaway:</strong> Dim your home lights after 9pm in winter — this works with your biology, not against it. Then hit a 10,000 lux light therapy lamp for 20–30 minutes immediately after waking to anchor your morning clock. These two steps address the winter paradox from both ends.</div>
+
+    <h2>Light Therapy: 10,000 Lux for 20–30 Minutes on Waking</h2>
+    <p>Light therapy is the most evidence-backed intervention for winter sleep disruption and SAD, with a response rate comparable to antidepressants in multiple clinical trials — but with a faster onset (days rather than weeks) and no pharmaceutical side effects.</p>
+    <p>The protocol is straightforward: use a full-spectrum light therapy lamp rated at 10,000 lux, positioned at roughly 30–40cm from your face, for 20–30 minutes within 30 minutes of waking. You do not need to stare at it — reading, eating breakfast, or working during the session is fine. The key variables are intensity (10,000 lux), timing (immediately after waking), and consistency (daily).</p>
+    <p>The mechanism is direct: high-intensity light hitting the retina sends an amplified signal to the SCN, overriding the weak signal from winter dawn and re-anchoring your circadian clock to a fixed wake time. Within 3–5 days of consistent use, most people report easier waking, improved morning alertness, and stabilised mood.</p>
+
+    <div class="product-cta">
+      <span class="product-cta-text">Browse 10,000 lux light therapy lamps — the most effective tool for winter sleep anchoring</span>
+      <a class="btn-amazon" href="https://www.amazon.com/s?k=light+therapy+lamp+10000+lux&tag=sleepwiserevi-20" target="_blank" rel="noopener nofollow">Shop on Amazon</a>
+    </div>
+
+    <h2>Vitamin D and Sleep: The Winter Deficiency Link</h2>
+    <p>Vitamin D is synthesised in the skin through exposure to UVB radiation from sunlight. In winter at latitudes above approximately 35°N or below 35°S, the sun's angle is too low to produce meaningful UVB radiation for several months. The result is a predictable, population-wide drop in vitamin D levels that begins in autumn and bottoms out in late winter.</p>
+    <p>The connection to sleep is increasingly well-documented. Vitamin D receptors are present in the brain regions that regulate sleep-wake cycles, and deficiency has been associated with shorter sleep duration, poorer sleep quality, and increased daytime sleepiness. One proposed mechanism is that vitamin D influences the production of serotonin, which is the precursor to melatonin — meaning low vitamin D in winter may compound the melatonin dysregulation caused by weak light signals.</p>
+    <p>Blood testing is the only reliable way to assess your vitamin D status. If you live above 35°N latitude and do not supplement, there is a high probability your levels are suboptimal by February. Many physicians recommend 1,000–2,000 IU daily as a maintenance dose during winter months, though individual needs vary.</p>
+
+    <h2>Bedding Adjustments for Winter: Comfort Without Overheating</h2>
+    <p>The goal of winter bedding is to maintain skin-level warmth without trapping enough heat to raise your core body temperature. These are opposing requirements, which is why the layering system matters more than any single product choice.</p>
+    <p>A practical winter bedding setup uses a medium-weight duvet (around 10–12 tog for most climates) combined with breathable materials — wool, down, or quality synthetic fills that wick moisture and allow air circulation. Avoid heavy fleece or synthetic blankets directly against your skin, which trap body heat and can cause micro-waking as your core temperature rises in the second half of the night.</p>
+    <ul>
+      <li>Keep the room temperature at 16–19°C and let your bedding provide warmth, not the heating system.</li>
+      <li>Use a wool or moisture-wicking fitted sheet rather than a flannel one — warmth at the surface, breathability underneath.</li>
+      <li>Wear socks to bed if your feet are cold — warming the extremities accelerates core body cooling by promoting heat dissipation through vasodilation.</li>
+      <li>Consider a duvet with different weight sections (warmer on the body, lighter at the feet) if you run hot in the lower half of the night.</li>
+    </ul>
+
+    <h2>Practical Morning Light Protocol When the Sun Rises Late</h2>
+    <p>If your wake time is 6:30am and the sun does not rise until 8am in January, you are starting every day in complete darkness. This is a recent evolutionary problem — artificial lighting and fixed work schedules have only existed for a tiny fraction of human history, and your circadian system has not adapted.</p>
+    <p>Here is a practical morning protocol that compensates for a late winter sunrise:</p>
+    <ol>
+      <li><strong>Immediate light exposure:</strong> Switch on a bright overhead light or, ideally, your 10,000 lux light therapy lamp within 5 minutes of waking. Even a standard 200-watt-equivalent LED bulb at close range (under 1,000 lux) is better than nothing, but a dedicated therapy lamp is significantly more effective.</li>
+      <li><strong>Consistent wake time:</strong> The single most important habit for circadian health in winter is a fixed wake time, seven days a week. Sleeping in on weekends extends the phase delay and makes Monday mornings progressively harder. A 30-minute variation maximum is the clinical recommendation.</li>
+      <li><strong>Outdoor exposure when available:</strong> Even on overcast days, outdoor light at 10am delivers 5,000–10,000 lux — far more than any indoor environment. A 10-minute walk outside in the morning has measurable circadian benefits. If you work from home, this is non-negotiable in winter.</li>
+      <li><strong>Avoid bright light after 9pm:</strong> Blue-light blocking glasses or warm-toned lighting after 9pm protect the melatonin rise that winter darkness provides. Do not work against the one seasonal advantage winter offers.</li>
+      <li><strong>Temperature as a secondary anchor:</strong> A brief cold face splash or cool shower in the morning accelerates cortisol awakening response and supports the core body temperature rebound that marks circadian morning. Small effect, but useful when layered with light.</li>
+    </ol>
+
+    <div class="callout-green">&#9989; <strong>Practical takeaway:</strong> The complete winter morning protocol — light therapy lamp on immediately, fixed 7-day wake time, outdoor walk when possible, blue light reduction after 9pm — costs nothing except consistency. Implemented for two weeks, most people notice measurable improvement in morning alertness and sleep quality without any other changes.</div>
+
+    <h2>Putting It All Together: A Winter Sleep Strategy</h2>
+    <p>Winter sleep disruption is not one problem but several overlapping problems that share a common cause: insufficient and poorly timed light exposure. The circadian clock that governs your sleep is not broken in winter — it is doing exactly what it was designed to do when light signals are weak and late. The intervention is to give it the information it needs.</p>
+    <p>The hierarchy of impact, from highest to lowest: (1) consistent wake time with immediate bright light exposure, (2) light therapy lamp for morning anchoring, (3) cool bedroom maintained at 16–19°C, (4) evening light reduction after 9pm, (5) vitamin D assessment and supplementation, (6) appropriate breathable bedding. Each step compounds the others. The combination is substantially more powerful than any single intervention.</p>
+    <p>What you do not need to do is fight winter. The longer nights, the earlier darkness, the cold air — these are not obstacles to good sleep. They are the conditions under which human beings slept well for most of our history. The problem is the collision between winter biology and modern schedules. The solution is targeted, evidence-based anchoring of the one signal your circadian clock most needs: a bright, consistent, timely morning light.</p>
+
+    <div class="article-cta">
+      <h3>Get Our Free 7-Day Sleep Reset</h3>
+      <p>Join 18,000 readers who get weekly sleep tips and honest product reviews every Sunday.</p>
+      <a class="btn-amazon" href="../#newsletter">Subscribe Free</a>
+    </div>
+
+    <div class="related-articles">
+      <h3>Related Articles</h3>
+      <ul>
+        <li><a href="sleep-light-therapy.html">Light Therapy for Sleep: How to Use It Correctly</a></li>
+        <li><a href="circadian-rhythm-basics.html">Circadian Rhythm Basics: How Your Body Clock Controls Sleep</a></li>
+        <li><a href="bedroom-temperature-sleep.html">The Ideal Bedroom Temperature for Deep Sleep</a></li>
+      </ul>
+    </div>
+  </article>
+
+  <footer>
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a class="logo" href="../">SleepWise<span>Reviews</span></a>
+        <p>Honest, science-backed reviews to help you sleep deeper, recover faster, and wake up energized.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Reviews</h4>
+        <ul>
+          <li><a href="https://www.amazon.com/s?k=weighted+blanket&tag=sleepwiserevi-20" target="_blank">Weighted Blankets</a></li>
+          <li><a href="https://www.amazon.com/s?k=white+noise+machine&tag=sleepwiserevi-20" target="_blank">White Noise Machines</a></li>
+          <li><a href="https://www.amazon.com/s?k=sleep+supplements&tag=sleepwiserevi-20" target="_blank">Supplements</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Guides</h4>
+        <ul>
+          <li><a href="../#picks">Sleep Optimization</a></li>
+          <li><a href="../#reviews">Bedtime Routines</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Site</h4>
+        <ul>
+          <li><a href="../pages/about.html">About Harry Soul</a></li>
+          <li><a href="../pages/privacy-policy.html">Privacy Policy</a></li>
+          <li><a href="../pages/affiliate-disclosure.html">Affiliate Disclosure</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div>&copy; 2025 SleepWiseReviews. All rights reserved.</div>
+      <div class="affiliate-disc">SleepWiseReviews is a participant in the Amazon Services LLC Associates Program.</div>
+    </div>
+  </footer>
+</body>
+</html>
