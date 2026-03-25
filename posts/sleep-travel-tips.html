@@ -1,0 +1,683 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>How to Sleep on Planes, Trains, and Hotel Rooms | SleepWiseReviews</title>
+  <meta name="description" content="Beat the first-night effect and sleep better anywhere you travel — planes, trains, and hotel rooms. Evidence-based tips from sleep science." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --night: #0A0E1A;
+      --deep: #0F1525;
+      --navy: #141B30;
+      --card: #1A2238;
+      --border: #252D45;
+      --gold: #C9A84C;
+      --gold-light: #E5C96A;
+      --gold-dim: rgba(201, 168, 76, 0.15);
+      --star: #F0E6C8;
+      --text: #D4DCEE;
+      --muted: #7A85A0;
+      --green: #4CAF82;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: var(--night);
+      color: var(--text);
+      font-family: 'Outfit', sans-serif;
+      font-size: 17px;
+      line-height: 1.75;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    /* ── STICKY HEADER ── */
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(10, 14, 26, 0.95);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+      padding: 0 24px;
+    }
+    .header-inner {
+      max-width: 800px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 60px;
+    }
+    .site-logo {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.35rem;
+      font-weight: 700;
+      color: var(--gold);
+      text-decoration: none;
+      letter-spacing: 0.02em;
+    }
+    .site-logo span { color: var(--star); }
+    nav a {
+      color: var(--muted);
+      text-decoration: none;
+      font-size: 0.85rem;
+      font-weight: 500;
+      margin-left: 20px;
+      transition: color 0.2s;
+    }
+    nav a:hover { color: var(--gold-light); }
+
+    /* ── LAYOUT ── */
+    main {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 48px 24px 80px;
+    }
+
+    /* ── BADGE ── */
+    .badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      background: var(--gold-dim);
+      border: 1px solid rgba(201, 168, 76, 0.3);
+      color: var(--gold-light);
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      padding: 4px 12px;
+      border-radius: 20px;
+      margin-bottom: 20px;
+    }
+
+    /* ── TITLE ── */
+    h1 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(2rem, 5vw, 2.9rem);
+      font-weight: 700;
+      color: var(--star);
+      line-height: 1.2;
+      margin-bottom: 16px;
+    }
+
+    /* ── DATE HEADER ── */
+    .date-meta {
+      font-size: 0.85rem;
+      color: var(--muted);
+      margin-bottom: 32px;
+      padding-bottom: 24px;
+      border-bottom: 1px solid var(--border);
+    }
+    .date-meta span { margin-right: 4px; }
+
+    /* ── HOOK ── */
+    .hook {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.25rem;
+      font-style: italic;
+      color: var(--star);
+      line-height: 1.7;
+      background: var(--deep);
+      border-left: 3px solid var(--gold);
+      padding: 20px 24px;
+      border-radius: 0 8px 8px 0;
+      margin-bottom: 36px;
+    }
+
+    /* ── HEADINGS ── */
+    h2 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.7rem;
+      font-weight: 600;
+      color: var(--gold-light);
+      margin: 40px 0 14px;
+      line-height: 1.3;
+    }
+    h3 {
+      font-family: 'Outfit', sans-serif;
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: var(--star);
+      margin: 28px 0 10px;
+    }
+
+    p { margin-bottom: 18px; }
+
+    /* ── CITATION ── */
+    cite {
+      font-style: normal;
+      color: var(--gold);
+      font-weight: 500;
+    }
+
+    /* ── TAKEAWAY BOX ── */
+    .takeaway {
+      background: rgba(76, 175, 130, 0.08);
+      border: 1px solid var(--green);
+      border-radius: 10px;
+      padding: 20px 24px;
+      margin: 32px 0;
+    }
+    .takeaway-title {
+      font-family: 'Outfit', sans-serif;
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--green);
+      margin-bottom: 10px;
+    }
+    .takeaway p { margin-bottom: 0; color: var(--text); }
+    .takeaway ul {
+      margin: 8px 0 0 0;
+      padding-left: 20px;
+    }
+    .takeaway ul li { margin-bottom: 6px; color: var(--text); }
+
+    /* ── TRAVEL KIT CHECKLIST ── */
+    .kit-section { margin: 40px 0; }
+    .kit-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+      gap: 14px;
+      margin-top: 20px;
+    }
+    .kit-item {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 16px;
+      transition: border-color 0.2s;
+    }
+    .kit-item:hover { border-color: var(--gold); }
+    .kit-item-header {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 8px;
+      margin-bottom: 8px;
+    }
+    .kit-icon { font-size: 1.4rem; flex-shrink: 0; }
+    .kit-name {
+      font-weight: 600;
+      font-size: 0.9rem;
+      color: var(--star);
+      flex: 1;
+    }
+    .priority-badge {
+      font-size: 0.65rem;
+      font-weight: 700;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      padding: 2px 8px;
+      border-radius: 10px;
+      flex-shrink: 0;
+    }
+    .priority-essential {
+      background: rgba(201, 168, 76, 0.2);
+      color: var(--gold-light);
+      border: 1px solid rgba(201, 168, 76, 0.4);
+    }
+    .priority-recommended {
+      background: rgba(76, 175, 130, 0.15);
+      color: var(--green);
+      border: 1px solid rgba(76, 175, 130, 0.35);
+    }
+    .priority-optional {
+      background: rgba(122, 133, 160, 0.15);
+      color: var(--muted);
+      border: 1px solid rgba(122, 133, 160, 0.3);
+    }
+    .kit-why {
+      font-size: 0.82rem;
+      color: var(--muted);
+      line-height: 1.5;
+    }
+
+    /* ── SEAT GUIDE ── */
+    .seat-guide { margin: 40px 0; }
+    .seat-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+      gap: 16px;
+      margin-top: 20px;
+    }
+    .seat-card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      overflow: hidden;
+    }
+    .seat-card-header {
+      padding: 14px 16px 10px;
+      border-bottom: 1px solid var(--border);
+    }
+    .seat-label {
+      font-weight: 600;
+      font-size: 1rem;
+      color: var(--star);
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+    .seat-card-body { padding: 14px 16px; }
+    .seat-pro, .seat-con {
+      font-size: 0.82rem;
+      line-height: 1.55;
+      display: flex;
+      gap: 6px;
+      margin-bottom: 5px;
+    }
+    .seat-pro::before { content: '+'; color: var(--green); font-weight: 700; flex-shrink: 0; }
+    .seat-con::before { content: '−'; color: #e05c5c; font-weight: 700; flex-shrink: 0; }
+    .seat-tip {
+      font-size: 0.78rem;
+      color: var(--gold);
+      margin-top: 10px;
+      padding-top: 10px;
+      border-top: 1px solid var(--border);
+      font-style: italic;
+    }
+
+    /* ── AFFILIATE BOX ── */
+    .affiliate-box {
+      background: var(--navy);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 24px;
+      margin: 40px 0;
+      display: flex;
+      gap: 20px;
+      align-items: flex-start;
+    }
+    .affiliate-icon {
+      font-size: 2.4rem;
+      flex-shrink: 0;
+      margin-top: 2px;
+    }
+    .affiliate-content { flex: 1; }
+    .affiliate-label {
+      font-size: 0.7rem;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 6px;
+    }
+    .affiliate-title {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.25rem;
+      font-weight: 700;
+      color: var(--star);
+      margin-bottom: 8px;
+      line-height: 1.3;
+    }
+    .affiliate-desc {
+      font-size: 0.85rem;
+      color: var(--muted);
+      margin-bottom: 14px;
+      line-height: 1.6;
+    }
+    .affiliate-btn {
+      display: inline-block;
+      background: var(--gold);
+      color: var(--night);
+      font-weight: 700;
+      font-size: 0.85rem;
+      padding: 10px 20px;
+      border-radius: 6px;
+      text-decoration: none;
+      transition: background 0.2s;
+    }
+    .affiliate-btn:hover { background: var(--gold-light); }
+    .affiliate-disclaimer {
+      font-size: 0.72rem;
+      color: var(--muted);
+      margin-top: 10px;
+    }
+
+    /* ── FOOTER ── */
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 32px 24px;
+      text-align: center;
+    }
+    .footer-inner {
+      max-width: 800px;
+      margin: 0 auto;
+      font-size: 0.8rem;
+      color: var(--muted);
+    }
+    .footer-inner a { color: var(--gold); text-decoration: none; }
+    .footer-inner a:hover { color: var(--gold-light); }
+
+    @media (max-width: 600px) {
+      .affiliate-box { flex-direction: column; gap: 12px; }
+      .kit-grid, .seat-grid { grid-template-columns: 1fr; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- STICKY HEADER -->
+<header>
+  <div class="header-inner">
+    <a href="/" class="site-logo">SleepWise<span>Reviews</span></a>
+    <nav>
+      <a href="/posts/">Articles</a>
+      <a href="/about.html">About</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <!-- BADGE -->
+  <div class="badge">✈ Travel Sleep</div>
+
+  <!-- TITLE -->
+  <h1>How to Sleep on Planes, Trains, and Hotel Rooms</h1>
+
+  <!-- DATE HEADER -->
+  <div class="date-meta">
+    <span>📅 October 2021</span>&nbsp;&nbsp;<span>⏱ 7 min read</span>&nbsp;&nbsp;<span>🔄 Updated Mar 2026</span>
+  </div>
+
+  <!-- HOOK -->
+  <p class="hook">
+    "Your brain keeps one hemisphere alert in unfamiliar environments. Researchers call it the 'first-night effect' — and it's not just jet lag. It's your brain's threat-detection system treating your hotel room like a potentially dangerous new territory."
+  </p>
+
+  <!-- INTRO -->
+  <p>
+    You've done everything right: booked the nice hotel, packed your travel pillow, promised yourself an early night. Then 2 a.m. rolls around and you're staring at the ceiling, listening to the ice machine down the hall. Sound familiar? Travel disrupts sleep on multiple levels simultaneously — unfamiliar surroundings, changed schedules, cabin pressure, noise, and light all conspire against your rest. But sleep science has concrete answers for each of these obstacles.
+  </p>
+
+  <p>
+    This guide pulls together everything you need to sleep well on planes, trains, and in hotel rooms — from the neuroscience of why new places keep you awake, to exactly which gear belongs in your travel sleep kit.
+  </p>
+
+  <!-- SECTION 1: FIRST-NIGHT EFFECT -->
+  <h2>The First-Night Effect: Why Your Brain Won't Shut Off</h2>
+
+  <p>
+    In 2016, researchers at Brown University published a landmark study in <em>Current Biology</em> identifying what sleep scientists had long suspected: during sleep in a novel environment, one cerebral hemisphere remains significantly more alert than the other. The left hemisphere, in particular, shows reduced slow-wave activity — the deep, restorative sleep signature — while the right hemisphere sleeps more normally. This asymmetry is your brain's default-mode sentinel, keeping one "watch" eye open in case the new territory turns out to be dangerous.
+  </p>
+
+  <p>
+    This is the same mechanism observed in migratory birds and aquatic mammals like dolphins, which can sleep with one hemisphere at a time. For humans, it's a vestigial survival reflex — and it explains why the second night in the same location almost always feels dramatically better. Your brain has had time to classify the environment as safe.
+  </p>
+
+  <div class="takeaway">
+    <div class="takeaway-title">Key Takeaway — First-Night Effect</div>
+    <p>The first night in any new location will almost always be suboptimal sleep — not because anything is wrong, but because your brain is doing its job. Plan accordingly: don't schedule critical meetings or long drives the morning after your first night somewhere new. The second night will be noticeably better.</p>
+  </div>
+
+  <!-- SECTION 2: HOTEL ROOM FIXES -->
+  <h2>Hotel Room Fixes: Recreating Your Sleep Environment</h2>
+
+  <p>
+    The most effective way to counteract the first-night effect is to make the unfamiliar feel familiar. Your brain's threat system responds to sensory cues — light, sound, smell, and temperature. Manipulating these consciously can dramatically shorten the time it takes your nervous system to classify a hotel room as "safe."
+  </p>
+
+  <h3>Room Selection</h3>
+  <p>
+    When booking or checking in, specifically request a room away from the elevator shaft and ice machine — both generate intermittent noise throughout the night that's particularly disruptive because it's unpredictable. Rooms on higher floors tend to have less street noise. A room at the end of a corridor has fewer neighbors and less foot-traffic sound. These are free upgrades that cost only a polite request at check-in.
+  </p>
+
+  <h3>Familiar Scent</h3>
+  <p>
+    Scent is the one sensory pathway that bypasses the thalamus and connects directly to the amygdala — your brain's threat-detection center. Bringing a familiar scent from home (a pillow spray you use nightly, or even a small sachet from your laundry) gives your olfactory system the signal that this is a known, safe place. This sounds minor but the research on scent-based sleep priming is surprisingly robust.
+  </p>
+
+  <h3>Blackout the Room</h3>
+  <p>
+    Hotel curtains are notorious for leaving a strip of light along the bottom or center gap. Light suppresses melatonin even at low intensities — a crack of streetlight at 2 a.m. can shift your circadian clock. Bring a sleep mask as a non-negotiable item, or use a rolled-up towel against the door gap. Some travelers pack binder clips to close curtain gaps — genuinely effective.
+  </p>
+
+  <h3>Temperature Control</h3>
+  <p>
+    Hotel rooms are frequently kept warmer than optimal sleep temperature. Core body temperature needs to drop 1–2°C for sleep onset; a room above 19–20°C actively fights this. Request extra blankets to layer and remove rather than heating up. If the thermostat seems unresponsive (a common complaint), placing a cold, damp cloth on your wrists and the back of your neck before sleep can assist the cooling process.
+  </p>
+
+  <!-- SECTION 3: PLANE SLEEP -->
+  <h2>Sleeping on Planes: The Science of In-Flight Rest</h2>
+
+  <p>
+    Airplane cabins present a unique combination of challenges: pressurization equivalent to 6,000–8,000 feet of altitude (reducing blood oxygen saturation slightly), very low humidity (10–20% versus 40–60% at home), engine drone in the 80–90 dB range, limited space, and a near-impossible choice between reclining and annoying the person behind you.
+  </p>
+
+  <h3>Seat Selection Matters More Than You Think</h3>
+  <p>
+    Where you sit on a plane shapes how well you can sleep. Each seat type has real trade-offs depending on how you sleep naturally.
+  </p>
+
+  <!-- PLANE SEAT GUIDE -->
+  <div class="seat-guide">
+    <div class="seat-grid">
+
+      <div class="seat-card">
+        <div class="seat-card-header">
+          <div class="seat-label">🪟 Window Seat</div>
+        </div>
+        <div class="seat-card-body">
+          <div class="seat-pro">Wall to lean against — no neck strain</div>
+          <div class="seat-pro">Control over window shade</div>
+          <div class="seat-pro">Not disturbed by neighbors needing the bathroom</div>
+          <div class="seat-con">Hardest to get up without waking others</div>
+          <div class="seat-con">Can feel claustrophobic on long flights</div>
+          <div class="seat-con">Curved wall isn't always comfortable</div>
+          <div class="seat-tip">Best for: side sleepers who sleep 4+ hours</div>
+        </div>
+      </div>
+
+      <div class="seat-card">
+        <div class="seat-card-header">
+          <div class="seat-label">🪑 Middle Seat</div>
+        </div>
+        <div class="seat-card-body">
+          <div class="seat-pro">Claim both armrests by convention</div>
+          <div class="seat-pro">Can lean either direction</div>
+          <div class="seat-con">No surface to lean on for neck support</div>
+          <div class="seat-con">Light from both sides harder to block</div>
+          <div class="seat-con">Disturbed by both neighbors getting up</div>
+          <div class="seat-tip">Best for: short naps only; avoid for overnight flights</div>
+        </div>
+      </div>
+
+      <div class="seat-card">
+        <div class="seat-card-header">
+          <div class="seat-label">🚶 Aisle Seat</div>
+        </div>
+        <div class="seat-card-body">
+          <div class="seat-pro">Stretch legs and stand easily</div>
+          <div class="seat-pro">Freedom of movement helps circulation</div>
+          <div class="seat-pro">Easier bathroom access</div>
+          <div class="seat-con">Cart bumps and flight attendant traffic</div>
+          <div class="seat-con">Neighbor must climb over you (or wake you)</div>
+          <div class="seat-con">Aisle light is brighter</div>
+          <div class="seat-tip">Best for: tall travelers, light sleepers who wake easily anyway</div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <h3>Overnight Flight Strategy</h3>
+  <p>
+    For eastbound overnight flights, the goal is to shift your sleep timing toward destination night. <cite>(Breus, 2016)</cite> recommends timing sleep and light exposure strategically based on your chronotype when traveling — noting that a Wolf chronotype (natural night owl) arriving eastbound has a fundamentally different optimal sleep window than a Lion (early riser) in the same situation. A Wolf whose body clock runs late should resist sleeping in the first two to three hours of the flight even if tired, then sleep during the middle portion that aligns with the destination's midnight. A Lion, already inclined toward earlier sleep, can attempt sleep sooner.
+  </p>
+
+  <p>
+    The key principle: use melatonin at the destination's bedtime, not at your departure city's bedtime. Dosing 0.5–1mg (lower doses are as effective as higher ones for most people) approximately an hour before your target sleep time on the plane sends your circadian clock the right timing signal without the grogginess that higher doses can cause.
+  </p>
+
+  <h3>Daytime Flight Strategy</h3>
+  <p>
+    If your flight arrives in daylight at your destination, resist sleeping on the plane entirely. Use the flight to get work done, watch films, stay hydrated. Upon arrival, expose yourself to natural light immediately — a walk outside, sunlit café seating — to anchor your circadian clock to local time. The light-dark cycle is the primary zeitgeber (time-giver) for your circadian rhythm, and strategic light exposure is more powerful than any supplement.
+  </p>
+
+  <h3>Noise Management at Altitude</h3>
+  <p>
+    Airplane engine noise occupies a persistent low-frequency band that standard foam earplugs don't fully attenuate. Active noise cancellation (ANC) headphones work by generating an inverse sound wave, and they are dramatically more effective against this kind of steady drone. For random sounds — a crying child, someone's tinny music — earplugs add a layer of protection. Using both together (ANC headphones over foam earplugs) is the gold standard for in-flight sleep. A white noise app playing through the headphones adds another layer of masking.
+  </p>
+
+  <p>
+    Cabin air is also extremely dry, which dehydrates your mucous membranes and can cause throat discomfort that disrupts sleep. Eye drops and nasal saline spray help. Drink water consistently; alcohol and caffeine exacerbate the dehydration and disrupt sleep architecture regardless of how sedating they initially feel.
+  </p>
+
+  <!-- AFFILIATE BOX -->
+  <div class="affiliate-box">
+    <div class="affiliate-icon">😴</div>
+    <div class="affiliate-content">
+      <div class="affiliate-label">Recommended Gear</div>
+      <div class="affiliate-title">Manta Sleep Mask Pro + Earplugs Bundle</div>
+      <div class="affiliate-desc">
+        Zero light leakage with contoured eye cups that don't press on eyelids — plus paired earplugs for the complete travel blackout kit. The Pro's adjustable strap works over ANC headphones and doesn't leave marks after long flights. One of the few sleep masks comfortable for side sleepers.
+      </div>
+      <a href="https://www.amazon.com/dp/B07Y1MWL1M?tag=sleepwiserevi-20" target="_blank" rel="noopener" class="affiliate-btn">View on Amazon →</a>
+      <div class="affiliate-disclaimer">As an Amazon Associate, SleepWiseReviews earns from qualifying purchases. This does not affect our editorial recommendations.</div>
+    </div>
+  </div>
+
+  <!-- SECTION 4: TRAINS -->
+  <h2>Trains vs. Planes: Why Rail Sleep Is Easier</h2>
+
+  <p>
+    Overnight trains have a meaningful advantage over planes for sleep quality, and it comes down to physics. Train cars aren't pressurized, so you breathe normal-altitude air without the oxygen reduction of a plane cabin. Trains move more smoothly — the rocking motion of rail travel actually has a mild sleep-promoting effect, possibly because it mimics the rhythmic motion of being carried (an evolutionarily ancient sleep signal). And crucially, on most sleeper trains you can stand up and walk to a dining car, which helps circulation and the restlessness that accumulates on long journeys.
+  </p>
+
+  <p>
+    The downsides of train sleep are station stops — sudden noise and light at 2 a.m. — and the narrowness of sleeper berths. Window berths on trains, like window seats on planes, give you a surface to brace against. Upper berths on overnight trains tend to be slightly quieter and have less foot traffic passing by. Bring the same sleep kit you'd use on a plane; the noise profile is different (wheel rhythms instead of engine drone) but masking it helps equally.
+  </p>
+
+  <!-- SECTION 5: TAKEAWAYS -->
+  <h2>Putting It Together: The Travel Sleeper's Checklist</h2>
+
+  <p>
+    Every item below has a specific sleep function. The priority tiers reflect how much sleep impact each item delivers per gram of luggage weight.
+  </p>
+
+  <!-- TRAVEL KIT GRID -->
+  <div class="kit-section">
+    <div class="kit-grid">
+
+      <div class="kit-item">
+        <div class="kit-item-header">
+          <div class="kit-icon">😷</div>
+          <div class="kit-name">Sleep Mask</div>
+          <div class="priority-badge priority-essential">Essential</div>
+        </div>
+        <div class="kit-why">Blocks ambient light that suppresses melatonin — critical in hotel rooms with poor curtains and on morning flights.</div>
+      </div>
+
+      <div class="kit-item">
+        <div class="kit-item-header">
+          <div class="kit-icon">🔇</div>
+          <div class="kit-name">Earplugs</div>
+          <div class="priority-badge priority-essential">Essential</div>
+        </div>
+        <div class="kit-why">Attenuates random noise spikes. Most effective when layered with ANC headphones for in-flight use.</div>
+      </div>
+
+      <div class="kit-item">
+        <div class="kit-item-header">
+          <div class="kit-icon">🌙</div>
+          <div class="kit-name">Melatonin (0.5–1mg)</div>
+          <div class="priority-badge priority-essential">Essential</div>
+        </div>
+        <div class="kit-why">Use at destination bedtime — not departure time. Low doses are as effective as high. Times your circadian shift.</div>
+      </div>
+
+      <div class="kit-item">
+        <div class="kit-item-header">
+          <div class="kit-icon">🎧</div>
+          <div class="kit-name">White Noise App</div>
+          <div class="priority-badge priority-essential">Essential</div>
+        </div>
+        <div class="kit-why">Masks unpredictable sounds (hallway noise, ice machines). Works via phone speaker in hotel rooms — no headphones needed.</div>
+      </div>
+
+      <div class="kit-item">
+        <div class="kit-item-header">
+          <div class="kit-icon">🌬️</div>
+          <div class="kit-name">Neck Pillow</div>
+          <div class="priority-badge priority-recommended">Recommended</div>
+        </div>
+        <div class="kit-why">Prevents cervical strain from head-drop during seat sleep. Inflatable versions pack flat. Memory foam versions are more comfortable.</div>
+      </div>
+
+      <div class="kit-item">
+        <div class="kit-item-header">
+          <div class="kit-icon">🧦</div>
+          <div class="kit-name">Compression Socks</div>
+          <div class="priority-badge priority-recommended">Recommended</div>
+        </div>
+        <div class="kit-why">Reduces leg swelling and restless legs during long flights, which disturbs sleep onset. Also reduces DVT risk on flights over 4 hours.</div>
+      </div>
+
+      <div class="kit-item">
+        <div class="kit-item-header">
+          <div class="kit-icon">💧</div>
+          <div class="kit-name">Eye Drops</div>
+          <div class="priority-badge priority-recommended">Recommended</div>
+        </div>
+        <div class="kit-why">Cabin air at 10–20% humidity dries eyes rapidly. Dry, irritated eyes disrupt sleep onset. Preservative-free drops are best for frequent use.</div>
+      </div>
+
+      <div class="kit-item">
+        <div class="kit-item-header">
+          <div class="kit-icon">🔊</div>
+          <div class="kit-name">Portable Sound Machine</div>
+          <div class="priority-badge priority-optional">Optional</div>
+        </div>
+        <div class="kit-why">Better speaker quality than a phone for hotel room use. Dedicated device means phone battery isn't depleted. Worth it for frequent travelers.</div>
+      </div>
+
+      <div class="kit-item">
+        <div class="kit-item-header">
+          <div class="kit-icon">🧊</div>
+          <div class="kit-name">Cooling Towel</div>
+          <div class="priority-badge priority-optional">Optional</div>
+        </div>
+        <div class="kit-why">Assists core body temperature drop when hotel room is too warm. Dampen and apply to wrists or forehead before sleep.</div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- FINAL TAKEAWAY -->
+  <div class="takeaway">
+    <div class="takeaway-title">The Bottom Line</div>
+    <ul>
+      <li>Expect worse sleep on night one — this is neurological, not your fault</li>
+      <li>Recreate home sleep cues: darkness, familiar scent, cool temperature</li>
+      <li>Match melatonin timing to <em>destination</em> bedtime, not departure city bedtime</li>
+      <li>On overnight flights, use ANC headphones plus earplugs plus eye mask as a complete system</li>
+      <li>Choose window seat for lean support; aisle seat if you need to move</li>
+      <li>Trains beat planes for sleep quality — use them when possible on shorter legs</li>
+      <li>Light exposure on arrival is your most powerful circadian reset tool</li>
+    </ul>
+  </div>
+
+  <p>
+    Travel will never be as good as your own bed. But with a systematic approach — managing light, noise, temperature, and timing based on your chronotype rather than guesswork — you can arrive at your destination genuinely rested. The brain's sentinel system is looking for safety signals. Your job is to give it enough of them to stand down.
+  </p>
+
+</main>
+
+<footer>
+  <div class="footer-inner">
+    <p>© 2026 SleepWiseReviews · <a href="/about.html">About</a> · <a href="/posts/">All Articles</a></p>
+    <p style="margin-top:8px;">Content is for informational purposes only and does not constitute medical advice. Consult a sleep specialist for clinical concerns.</p>
+  </div>
+</footer>
+
+</body>
+</html>
