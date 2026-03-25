@@ -1,0 +1,668 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Best Bedside Sleep Monitors (Beyond Wrist Trackers) | SleepWise Reviews</title>
+  <meta name="description" content="Wrist trackers miss up to 30% of nighttime awakenings. Bedside monitors using radar, sonar, and ballistocardiography capture sleep data that wearables simply can't." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --night: #0A0E1A;
+      --deep: #0F1525;
+      --navy: #141B30;
+      --card: #1A2238;
+      --border: #252D45;
+      --gold: #C9A84C;
+      --gold-light: #E5C96A;
+      --gold-dim: rgba(201,168,76,0.15);
+      --star: #F0E6C8;
+      --text: #D4DCEE;
+      --muted: #7A85A0;
+      --green: #4CAF82;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+      background: var(--night);
+      color: var(--text);
+      font-family: 'Outfit', sans-serif;
+      font-size: 17px;
+      line-height: 1.75;
+    }
+
+    /* ── HEADER ── */
+    header {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      background: rgba(10,14,26,0.92);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+      padding: 0 1.5rem;
+    }
+    .header-inner {
+      max-width: 800px;
+      margin: 0 auto;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      height: 58px;
+    }
+    .site-logo {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.4rem;
+      font-weight: 600;
+      color: var(--gold);
+      text-decoration: none;
+      letter-spacing: 0.02em;
+    }
+    .site-logo span { color: var(--star); }
+    nav a {
+      color: var(--muted);
+      text-decoration: none;
+      font-size: 0.875rem;
+      font-weight: 500;
+      margin-left: 1.5rem;
+      transition: color 0.2s;
+    }
+    nav a:hover { color: var(--gold-light); }
+
+    /* ── MAIN ── */
+    main {
+      max-width: 800px;
+      margin: 0 auto;
+      padding: 3rem 1.5rem 5rem;
+    }
+
+    /* ── BADGE ── */
+    .badge {
+      display: inline-block;
+      background: var(--gold-dim);
+      color: var(--gold-light);
+      border: 1px solid rgba(201,168,76,0.3);
+      border-radius: 4px;
+      font-size: 0.72rem;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      padding: 3px 10px;
+      margin-bottom: 1rem;
+    }
+
+    /* ── TITLE ── */
+    h1 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: clamp(2rem, 5vw, 2.9rem);
+      font-weight: 700;
+      color: var(--star);
+      line-height: 1.2;
+      margin-bottom: 0.75rem;
+    }
+
+    /* ── DATE HEADER ── */
+    .date-header {
+      font-size: 0.85rem;
+      color: var(--muted);
+      margin-bottom: 2rem;
+      letter-spacing: 0.01em;
+    }
+
+    /* ── HOOK ── */
+    .hook {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.35rem;
+      font-style: italic;
+      color: var(--gold-light);
+      border-left: 3px solid var(--gold);
+      padding: 0.75rem 1.25rem;
+      margin-bottom: 2.5rem;
+      background: var(--gold-dim);
+      border-radius: 0 6px 6px 0;
+      line-height: 1.6;
+    }
+
+    /* ── SECTION HEADINGS ── */
+    h2 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.65rem;
+      font-weight: 600;
+      color: var(--star);
+      margin: 2.5rem 0 0.9rem;
+      border-bottom: 1px solid var(--border);
+      padding-bottom: 0.4rem;
+    }
+    h3 {
+      font-family: 'Outfit', sans-serif;
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: var(--gold-light);
+      margin: 1.8rem 0 0.5rem;
+    }
+
+    p { margin-bottom: 1.1rem; }
+
+    /* ── TAKEAWAY BOX ── */
+    .takeaway {
+      border: 1px solid var(--green);
+      border-radius: 8px;
+      padding: 1.2rem 1.5rem;
+      background: rgba(76,175,130,0.07);
+      margin: 2rem 0;
+    }
+    .takeaway-label {
+      font-size: 0.7rem;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      text-transform: uppercase;
+      color: var(--green);
+      margin-bottom: 0.5rem;
+    }
+    .takeaway p {
+      font-size: 0.95rem;
+      color: var(--text);
+      margin-bottom: 0;
+    }
+
+    /* ── SENSOR COMPARISON TABLE ── */
+    .sensor-section {
+      margin: 2.5rem 0;
+    }
+    .sensor-grid {
+      overflow-x: auto;
+      border-radius: 8px;
+      border: 1px solid var(--border);
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 0.88rem;
+      min-width: 580px;
+    }
+    thead {
+      background: var(--navy);
+    }
+    thead th {
+      padding: 0.75rem 1rem;
+      text-align: left;
+      font-weight: 600;
+      color: var(--gold-light);
+      font-family: 'Outfit', sans-serif;
+      font-size: 0.78rem;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      border-bottom: 1px solid var(--border);
+    }
+    tbody tr {
+      border-bottom: 1px solid var(--border);
+      transition: background 0.15s;
+    }
+    tbody tr:last-child { border-bottom: none; }
+    tbody tr:hover { background: rgba(255,255,255,0.02); }
+    tbody td {
+      padding: 0.7rem 1rem;
+      color: var(--text);
+      vertical-align: top;
+    }
+    tbody td:first-child {
+      font-weight: 500;
+      color: var(--star);
+    }
+    .yes { color: var(--green); font-weight: 600; }
+    .no  { color: #E07070;       font-weight: 600; }
+    .partial { color: var(--gold); font-weight: 600; }
+
+    /* ── PRODUCT CARDS ── */
+    .product-grid {
+      display: grid;
+      gap: 1.1rem;
+      margin: 2rem 0;
+    }
+    .product-card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 1.25rem 1.4rem;
+      transition: border-color 0.2s, transform 0.2s;
+    }
+    .product-card:hover {
+      border-color: var(--gold);
+      transform: translateY(-2px);
+    }
+    .product-header {
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      gap: 1rem;
+      margin-bottom: 0.6rem;
+    }
+    .product-name {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: var(--star);
+    }
+    .product-tech {
+      font-size: 0.72rem;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--gold);
+      background: var(--gold-dim);
+      border-radius: 4px;
+      padding: 2px 8px;
+      white-space: nowrap;
+    }
+    .product-desc {
+      font-size: 0.93rem;
+      color: var(--muted);
+      margin-bottom: 0.9rem;
+      line-height: 1.6;
+    }
+    .product-meta {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-bottom: 0.9rem;
+    }
+    .meta-tag {
+      font-size: 0.75rem;
+      background: rgba(255,255,255,0.04);
+      border: 1px solid var(--border);
+      color: var(--text);
+      border-radius: 4px;
+      padding: 2px 8px;
+    }
+    .affiliate-btn {
+      display: inline-block;
+      background: var(--gold);
+      color: var(--night);
+      font-weight: 700;
+      font-size: 0.82rem;
+      letter-spacing: 0.04em;
+      border-radius: 5px;
+      padding: 7px 16px;
+      text-decoration: none;
+      transition: background 0.2s;
+    }
+    .affiliate-btn:hover { background: var(--gold-light); }
+
+    /* ── CITATION ── */
+    .citation-block {
+      background: var(--deep);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 1.1rem 1.4rem;
+      margin: 2rem 0;
+      font-size: 0.9rem;
+      color: var(--muted);
+      font-style: italic;
+    }
+    .citation-block strong { color: var(--text); font-style: normal; }
+
+    /* ── REFERENCES ── */
+    .references {
+      margin-top: 3rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--border);
+      font-size: 0.83rem;
+      color: var(--muted);
+    }
+    .references h2 {
+      font-size: 1.1rem;
+      margin-top: 0;
+      margin-bottom: 0.7rem;
+      color: var(--muted);
+      border-bottom: none;
+    }
+    .references li { margin-bottom: 0.4rem; }
+
+    /* ── FOOTER ── */
+    footer {
+      text-align: center;
+      padding: 2rem 1.5rem;
+      border-top: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 0.8rem;
+    }
+    footer a { color: var(--gold); text-decoration: none; }
+
+    /* ── DIVIDER ── */
+    .divider {
+      height: 1px;
+      background: linear-gradient(to right, transparent, var(--border), transparent);
+      margin: 2.5rem 0;
+    }
+
+    @media (max-width: 600px) {
+      main { padding: 2rem 1rem 4rem; }
+      h1 { font-size: 1.8rem; }
+      .hook { font-size: 1.1rem; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ── STICKY HEADER ── -->
+<header>
+  <div class="header-inner">
+    <a class="site-logo" href="/">SleepWise<span>Reviews</span></a>
+    <nav>
+      <a href="/reviews">Reviews</a>
+      <a href="/guides">Guides</a>
+      <a href="/science">Science</a>
+    </nav>
+  </div>
+</header>
+
+<!-- ── MAIN ARTICLE ── -->
+<main>
+
+  <div class="badge">Sleep Tech</div>
+
+  <h1>Best Bedside Sleep Monitors<br>(Beyond Wrist Trackers)</h1>
+
+  <p class="date-header">📅 February 2021 &nbsp;·&nbsp; ⏱ 7 min read &nbsp;·&nbsp; 🔄 Updated Mar 2026</p>
+
+  <!-- HOOK -->
+  <p class="hook">
+    Wrist trackers miss up to 30% of nighttime awakenings. Bedside monitors use radar, sonar, and ballistocardiography to track your sleep without touching you — and the data is fundamentally different.
+  </p>
+
+  <p>
+    Every major fitness brand has a wrist tracker that claims to map your sleep. But if you've ever woken feeling exhausted despite your app reporting "8h 20m — excellent recovery," you've encountered the core limitation of wrist-worn actigraphy: it measures movement. What it can't reliably detect are the quiet, still moments when your body is in fact disturbed — micro-arousals, breathing irregularities, cardiac-rhythm fluctuations — because you haven't physically moved your arm.
+  </p>
+
+  <p>
+    The alternative is a class of devices that sit on your bedside table, slide under your mattress, or mount on a wall. They don't touch you at all. And the science behind them is, in several ways, more capable of capturing what actually happens during the night.
+  </p>
+
+  <!-- CITATION BLOCK -->
+  <div class="citation-block">
+    <strong>From the science:</strong> In <em>The Power of When</em>, sleep clinician Michael Breus, PhD notes that the most accurate consumer sleep data comes not from wrist-worn actigraphy but from under-mattress and bedside sensors that capture subtle body movements and micro-vibrations associated with breathing and cardiac activity during each sleep stage (Breus, 2016).
+  </div>
+
+  <!-- SECTION 1 -->
+  <h2>Why Non-Wearable Monitoring Matters</h2>
+
+  <p>
+    The appeal is practical as much as technical. A significant portion of the population simply won't wear a device to bed — wristbands feel constricting, rings are unfamiliar, and there's the nightly friction of remembering to put it on and keep it charged. Bedside devices remove all of that. You set them up once and they run every night, automatically, without any action on your part.
+  </p>
+
+  <p>
+    But the more important difference is physiological. Bedside sensors are designed to capture signals that wrist actigraphy is structurally poor at detecting:
+  </p>
+
+  <ul style="margin: 0 0 1.1rem 1.5rem; color: var(--text);">
+    <li style="margin-bottom:0.4rem"><strong style="color:var(--star)">Respiratory rate:</strong> The rise and fall of your chest produces mechanical vibration in the mattress or detectable micro-Doppler shifts in the air around you. A wristband cannot see this.</li>
+    <li style="margin-bottom:0.4rem"><strong style="color:var(--star)">Heart rate variability during transitions:</strong> The subtle cardiac-cycle signals that distinguish light NREM from deep slow-wave sleep are captured at the source — your torso — not your wrist.</li>
+    <li style="margin-bottom:0.4rem"><strong style="color:var(--star)">Snoring and breathing pauses:</strong> Acoustic and vibration detection of snoring is a category that wrist trackers cannot meaningfully enter.</li>
+    <li style="margin-bottom:0.4rem"><strong style="color:var(--star)">Micro-arousals:</strong> The brief (3–15 second) awakenings that fragment sleep quality without you consciously "waking up" leave a physical signature in your breathing pattern and body position, visible to bedside sensors.</li>
+  </ul>
+
+  <p>
+    For people with suspected sleep apnea who want a consumer-level screening tool before a clinical sleep study, bedside sensors are the only consumer category even attempting to address that need.
+  </p>
+
+  <!-- SENSOR TECH COMPARISON TABLE -->
+  <div class="sensor-section">
+    <h2>Sensor Technology Comparison</h2>
+    <p style="margin-bottom:1rem; color:var(--muted); font-size:0.92rem;">
+      Four core technologies power non-wearable sleep monitoring. Wrist actigraphy is included as a baseline for comparison.
+    </p>
+
+    <div class="sensor-grid">
+      <table>
+        <thead>
+          <tr>
+            <th>Technology</th>
+            <th>Requires Contact</th>
+            <th>Detects Breathing</th>
+            <th>Detects Heart Rate</th>
+            <th>Stage Accuracy</th>
+            <th>Snore Detection</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Ballistocardiography<br><span style="font-size:0.78rem;color:var(--muted)">Under-mattress vibration (Withings)</span></td>
+            <td><span class="partial">Indirect</span><br><span style="font-size:0.76rem;color:var(--muted)">Under mattress only</span></td>
+            <td><span class="yes">Yes</span></td>
+            <td><span class="yes">Yes</span></td>
+            <td><span class="yes">High</span></td>
+            <td><span class="yes">Yes</span></td>
+          </tr>
+          <tr>
+            <td>Radar (FMCW)<br><span style="font-size:0.78rem;color:var(--muted)">Contactless room monitoring (Amazon Halo Rise)</span></td>
+            <td><span class="yes">No</span></td>
+            <td><span class="yes">Yes</span></td>
+            <td><span class="partial">Limited</span></td>
+            <td><span class="partial">Moderate</span></td>
+            <td><span class="no">No</span></td>
+          </tr>
+          <tr>
+            <td>Sonar (Ultrasound)<br><span style="font-size:0.78rem;color:var(--muted)">Contactless (Google Nest Hub, SleepScore Max)</span></td>
+            <td><span class="yes">No</span></td>
+            <td><span class="yes">Yes</span></td>
+            <td><span class="partial">Partial</span></td>
+            <td><span class="partial">Moderate</span></td>
+            <td><span class="partial">Some</span></td>
+          </tr>
+          <tr>
+            <td>Wrist Actigraphy<br><span style="font-size:0.78rem;color:var(--muted)">Movement-based (Fitbit, Apple Watch — baseline)</span></td>
+            <td><span class="no">Yes</span><br><span style="font-size:0.76rem;color:var(--muted)">Must be worn</span></td>
+            <td><span class="no">No</span></td>
+            <td><span class="yes">Yes</span></td>
+            <td><span class="partial">Low–Moderate</span></td>
+            <td><span class="no">No</span></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <!-- TAKEAWAY BOX -->
+  <div class="takeaway">
+    <div class="takeaway-label">Key Takeaway</div>
+    <p>
+      If your primary concern is detecting breathing irregularities or potential sleep apnea indicators, under-mattress ballistocardiography (Withings Sleep Analyzer) is the only consumer-accessible technology that directly captures the respiratory and cardiac micro-vibration data needed. No wrist tracker can substitute for this.
+    </p>
+  </div>
+
+  <!-- SECTION 2: TOP 5 PRODUCTS -->
+  <h2>Top 5 Bedside &amp; Non-Wearable Sleep Monitors</h2>
+
+  <div class="product-grid">
+
+    <!-- #1 Withings Sleep Analyzer -->
+    <div class="product-card">
+      <div class="product-header">
+        <div class="product-name">#1 — Withings Sleep Analyzer</div>
+        <div class="product-tech">Ballistocardiography</div>
+      </div>
+      <p class="product-desc">
+        The most clinically-adjacent consumer device available. Slides under your mattress and picks up the micro-vibrations of your heartbeat and breathing through the mattress surface — no wearable, no charging, no setup friction after day one. The headline feature is breathing disturbance detection: the device can flag patterns consistent with sleep apnea risk and produces a monthly "sleep apnea risk" indicator in the Health Mate app.
+      </p>
+      <p class="product-desc">
+        The SNORE feature records acoustic snoring events via a built-in microphone and overlays them on your sleep timeline. The result is a nightly report that looks closer to a simplified polysomnography summary than anything else in the consumer space: sleep cycles, heart rate, breathing disturbances, snoring, and duration — all in one overnight passive capture.
+      </p>
+      <div class="product-meta">
+        <span class="meta-tag">Under-mattress</span>
+        <span class="meta-tag">Snore detection</span>
+        <span class="meta-tag">Apnea risk screening</span>
+        <span class="meta-tag">No wearing required</span>
+        <span class="meta-tag">Health Mate app</span>
+      </div>
+      <a class="affiliate-btn" href="https://www.amazon.com/dp/B07HHGR7ZF?tag=sleepwiserevi-20" rel="nofollow sponsored" target="_blank">
+        Check Price on Amazon →
+      </a>
+    </div>
+
+    <!-- #2 Google Nest Hub 2nd Gen -->
+    <div class="product-card">
+      <div class="product-header">
+        <div class="product-name">#2 — Google Nest Hub (2nd Gen)</div>
+        <div class="product-tech">Sonar / Soli Radar</div>
+      </div>
+      <p class="product-desc">
+        The most accessible entry point in this category — if you don't already own one, the hardware price is competitive, and the sleep tracking feature is completely free with no subscription. Google's Soli chip emits low-power radar pulses that detect your breathing movements from across the room. The device already sits on your bedside table as a smart display; sleep tracking is a passive bonus that activates automatically when you're in bed.
+      </p>
+      <p class="product-desc">
+        Integration with Google Home means sleep data feeds into a broader wellness view. The interface is clean and the morning summary on the display screen is genuinely informative. Accuracy is limited compared to under-mattress solutions but best-in-class for zero-contact, zero-subscription monitoring.
+      </p>
+      <div class="product-meta">
+        <span class="meta-tag">No subscription</span>
+        <span class="meta-tag">Google Home integration</span>
+        <span class="meta-tag">Zero contact</span>
+        <span class="meta-tag">Smart display</span>
+        <span class="meta-tag">Free feature</span>
+      </div>
+    </div>
+
+    <!-- #3 Amazon Halo Rise -->
+    <div class="product-card">
+      <div class="product-header">
+        <div class="product-name">#3 — Amazon Halo Rise</div>
+        <div class="product-tech">FMCW Radar</div>
+      </div>
+      <p class="product-desc">
+        Amazon's entry uses frequency-modulated continuous-wave radar — the same underlying technology found in automotive collision detection — to track breathing movement without any physical contact. The standout feature is the integrated smart alarm: it monitors your sleep cycle in real-time and wakes you during a light-sleep phase within a configurable window, meaning you're less likely to wake groggily mid-cycle.
+      </p>
+      <p class="product-desc">
+        The built-in sunrise light simulation is a meaningful bonus for winter months when waking in darkness disrupts circadian anchoring. As a radar-only device it doesn't capture heart rate, but for breathing-pattern and sleep-stage detection at a reasonable price point it competes well.
+      </p>
+      <div class="product-meta">
+        <span class="meta-tag">FMCW radar</span>
+        <span class="meta-tag">Smart alarm</span>
+        <span class="meta-tag">Sunrise light</span>
+        <span class="meta-tag">Contactless</span>
+        <span class="meta-tag">Alexa enabled</span>
+      </div>
+    </div>
+
+    <!-- #4 SleepScore Max -->
+    <div class="product-card">
+      <div class="product-header">
+        <div class="product-name">#4 — SleepScore Max</div>
+        <div class="product-tech">Sonar (Ultrasound)</div>
+      </div>
+      <p class="product-desc">
+        The SleepScore Max uses proprietary sonar technology to emit ultrasound from a dedicated bedside unit and detect the micro-movements of your breathing from across the bed. The app is notably strong: the SleepScore platform has been validated against PSG in independent studies and the coaching recommendations are more specific than most competitors. It tracks sleep architecture (light, deep, REM), breathing patterns, and produces a daily "SleepScore" calibrated against a population database.
+      </p>
+      <p class="product-desc">
+        It requires its own dedicated device on the nightstand, which is a minor drawback compared to the Nest Hub's dual-use design. But for users who want a standalone non-contact solution with a research-backed algorithm, it's the most credible sonar option.
+      </p>
+      <div class="product-meta">
+        <span class="meta-tag">Ultrasound sonar</span>
+        <span class="meta-tag">PSG-validated algorithm</span>
+        <span class="meta-tag">Contactless</span>
+        <span class="meta-tag">Coaching app</span>
+        <span class="meta-tag">Population scoring</span>
+      </div>
+    </div>
+
+    <!-- #5 Emfit QS -->
+    <div class="product-card">
+      <div class="product-header">
+        <div class="product-name">#5 — Emfit QS</div>
+        <div class="product-tech">Under-Mattress BCG</div>
+      </div>
+      <p class="product-desc">
+        The Emfit QS is the professional athlete's choice in this category — a thin under-mattress sensor that produces HRV-focused data at a granularity that most consumer apps ignore. Where Withings aims at the general health consumer, Emfit is built around recovery metrics: resting heart rate, HRV trends, and autonomic nervous system balance scores that matter to high-performance training blocks. The data is exportable and can integrate with training log platforms.
+      </p>
+      <p class="product-desc">
+        The app is more spartan than Withings or SleepScore, but the raw data quality is arguably the highest in this category. Best suited for users who have a specific reason to monitor recovery with precision — endurance athletes, those managing chronic fatigue, or biohackers comfortable interpreting HRV trends.
+      </p>
+      <div class="product-meta">
+        <span class="meta-tag">Under-mattress</span>
+        <span class="meta-tag">HRV focus</span>
+        <span class="meta-tag">Recovery metrics</span>
+        <span class="meta-tag">Data export</span>
+        <span class="meta-tag">Athlete-oriented</span>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- SECTION 3: ACCURACY -->
+  <h2>Accuracy vs. Polysomnography</h2>
+
+  <p>
+    The honest benchmark for any sleep device is polysomnography (PSG) — the gold standard clinical sleep study that uses EEG, EOG, EMG, airflow sensors, and pulse oximetry simultaneously. Consumer devices are not PSG and should never be treated as clinical diagnostics. But within that caveat, the comparison is instructive.
+  </p>
+
+  <p>
+    For sleep stage classification, PSG-validated studies on under-mattress sensors like Withings and SleepScore Max typically show epoch-by-epoch agreement in the range of 70–78% — comparable to or slightly better than wrist actigraphy, which averages 65–72% in similar studies. The difference is modest for stages. The difference is larger for breathing:
+  </p>
+
+  <ul style="margin: 0 0 1.1rem 1.5rem; color: var(--text);">
+    <li style="margin-bottom:0.4rem">Under-mattress ballistocardiography can detect breathing irregularities with sufficient sensitivity to flag apnea-hypopnea index (AHI) patterns correlated with clinical thresholds.</li>
+    <li style="margin-bottom:0.4rem">Wrist trackers, with no respiratory sensor, cannot make this detection at all.</li>
+    <li style="margin-bottom:0.4rem">Radar and sonar devices detect respiratory rate reliably but are not validated for apnea event detection in clinical terms.</li>
+  </ul>
+
+  <p>
+    The practical upshot: if your goal is better sleep stage data, any bedside device is comparable to a wrist tracker with lower wearing burden. If your goal is respiratory monitoring — either for apnea screening or general interest in breathing quality — only under-mattress sensors are doing meaningful work in this space.
+  </p>
+
+  <!-- SECTION 4: WHO SHOULD USE THESE -->
+  <h2>Who Should Use a Bedside Monitor</h2>
+
+  <h3>People who dislike wearing devices to bed</h3>
+  <p>
+    The most obvious use case. If you've tried a smartwatch or fitness band and found the sensation disruptive — or simply can't maintain the habit of wearing it every night — a passive bedside sensor removes all friction entirely. You set it up once. After that, tracking happens automatically with zero nightly input.
+  </p>
+
+  <h3>People with suspected sleep apnea seeking pre-clinical screening</h3>
+  <p>
+    Clinical sleep studies involve scheduling, insurance, and overnight lab stays. For the large population of people who snore heavily, wake feeling unrefreshed, or have been told by a partner about breathing pauses, a device like the Withings Sleep Analyzer offers a meaningful first data point. It won't replace a sleep physician's diagnosis, but it can document months of nightly breathing data and help you have a more informed conversation with your doctor about whether a formal study is warranted.
+  </p>
+
+  <h3>Couples sharing a bed</h3>
+  <p>
+    Under-mattress sensors designed for two people (Withings has dual-zone options) can track both occupants independently without either person wearing anything. This is genuinely impractical for wrist-worn solutions and not possible at all for single-unit wearables.
+  </p>
+
+  <h3>Elderly users or individuals with medical conditions</h3>
+  <p>
+    For users who may not reliably remember to wear a tracker, find wearables uncomfortable due to skin sensitivity, or have medical devices that interfere with wrist-worn hardware, bedside monitoring offers continuous overnight tracking without any compliance requirement.
+  </p>
+
+  <div class="takeaway">
+    <div class="takeaway-label">Bottom Line</div>
+    <p>
+      For most people who dislike wearables, the Withings Sleep Analyzer is the strongest recommendation: it is the only consumer device that combines under-mattress accuracy, breathing disturbance detection, snore analysis, and a well-designed app at a one-time price. For those already invested in the Google ecosystem, the Nest Hub's built-in sonar tracking is a free and surprisingly capable baseline that requires no additional hardware.
+    </p>
+  </div>
+
+  <div class="divider"></div>
+
+  <!-- REFERENCES -->
+  <div class="references">
+    <h2>References</h2>
+    <ul>
+      <li>Breus, M. (2016). <em>The Power of When: Discover Your Chronotype — and the Best Time to Eat Lunch, Ask for a Raise, Have Sex, Write a Novel, Take Your Meds, and More.</em> Little, Brown and Company.</li>
+      <li>Beattie, Z., et al. (2017). Estimation of sleep stages in a healthy adult population from optical plethysmography and accelerometer signals. <em>Physiological Measurement</em>, 38(11).</li>
+      <li>Mikkelsen, K. B., et al. (2019). Accurate whole-night sleep monitoring with dry-contact ear-EEG. <em>Scientific Reports</em>, 9(1).</li>
+    </ul>
+  </div>
+
+</main>
+
+<!-- ── FOOTER ── -->
+<footer>
+  <p style="margin-bottom:0.4rem">
+    This article contains affiliate links. If you purchase through our links, we may earn a commission at no extra cost to you.
+  </p>
+  <p>
+    &copy; 2026 <a href="/">SleepWiseReviews</a> &nbsp;·&nbsp; <a href="/privacy">Privacy</a> &nbsp;·&nbsp; <a href="/disclaimer">Affiliate Disclaimer</a>
+  </p>
+</footer>
+
+</body>
+</html>
