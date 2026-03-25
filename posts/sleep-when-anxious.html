@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>A Practical Guide to Sleeping When Anxiety Won't Let You - SleepWiseReviews</title>
+  <meta name="description" content="Trying harder to sleep when anxious only makes things worse. Learn the science-backed CBT-I techniques — from paradoxical intention to worry time — that actually break the anxiety-insomnia cycle." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <style type='text/css'>
+    :root {
+      --night: #0A0E1A;
+      --deep: #0F1525;
+      --navy: #141B30;
+      --card: #1A2238;
+      --border: #252D45;
+      --gold: #C9A84C;
+      --gold-light: #E5C96A;
+      --gold-dim: rgba(201, 168, 76, 0.15);
+      --star: #F0E6C8;
+      --text: #D4DCEE;
+      --muted: #7A85A0;
+      --white: #FFFFFF;
+      --green: #4CAF82;
+    }
+
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: 'Outfit', sans-serif;
+      background: var(--night);
+      color: var(--text);
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      background-image:
+        radial-gradient(1px 1px at 10% 15%, rgba(240, 230, 200, 0.6) 0%, transparent 100%),
+        radial-gradient(1px 1px at 25% 40%, rgba(240, 230, 200, 0.4) 0%, transparent 100%),
+        radial-gradient(1.5px 1.5px at 40% 10%, rgba(240, 230, 200, 0.5) 0%, transparent 100%),
+        radial-gradient(1px 1px at 55% 30%, rgba(240, 230, 200, 0.3) 0%, transparent 100%),
+        radial-gradient(1px 1px at 70% 5%, rgba(240, 230, 200, 0.6) 0%, transparent 100%),
+        radial-gradient(1.5px 1.5px at 80% 20%, rgba(240, 230, 200, 0.4) 0%, transparent 100%),
+        radial-gradient(1px 1px at 90% 45%, rgba(240, 230, 200, 0.3) 0%, transparent 100%);
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    nav {
+      position: sticky; top: 0; z-index: 100;
+      background: rgba(10, 14, 26, 0.92);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+      padding: 0 6%; height: 68px;
+      display: flex; align-items: center; justify-content: space-between;
+    }
+    .logo { font-family: 'Cormorant Garamond', serif; font-size: 1.6rem; font-weight: 700; color: var(--star); text-decoration: none; }
+    .logo span { color: var(--gold); }
+    .nav-links { display: flex; gap: 2rem; list-style: none; }
+    .nav-links a { text-decoration: none; color: var(--muted); font-size: 0.88rem; font-weight: 500; transition: color 0.2s; }
+    .nav-links a:hover { color: var(--gold); }
+    .nav-cta { background: var(--gold-dim); color: var(--gold) !important; border: 1px solid rgba(201, 168, 76, 0.3); padding: 7px 16px; border-radius: 4px; }
+
+    .article-wrapper {
+      position: relative; z-index: 1;
+      max-width: 800px; margin: 0 auto; padding: 50px 6% 80px;
+    }
+    .article-meta-top { display: flex; flex-wrap: wrap; align-items: center; gap: 0.8rem; margin-bottom: 1.2rem; }
+    .tag { background: var(--gold); color: var(--night); padding: 5px 12px; border-radius: 4px; font-size: 0.72rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; }
+    .meta-text { color: var(--muted); font-size: 0.82rem; }
+    .article-wrapper h1 { font-family: 'Cormorant Garamond', serif; font-size: 2.4rem; font-weight: 600; color: var(--star); line-height: 1.2; margin-bottom: 1.2rem; }
+    .article-intro { font-size: 1.1rem; color: var(--text); line-height: 1.7; margin-bottom: 2rem; font-weight: 300; }
+    .author-box { display: flex; align-items: center; gap: 1rem; margin-bottom: 1.5rem; padding: 1rem; background: var(--card); border-radius: 8px; border: 1px solid var(--border); }
+    .author-avatar { font-size: 2.5rem; }
+    .author-name { color: var(--star); font-weight: 500; }
+    .author-name a { color: var(--gold); text-decoration: none; }
+    .author-role { color: var(--muted); font-size: 0.82rem; }
+    .disclosure-box { background: rgba(201, 168, 76, 0.08); border: 1px solid rgba(201, 168, 76, 0.2); border-radius: 8px; padding: 1rem 1.2rem; font-size: 0.82rem; color: var(--muted); margin-bottom: 2rem; }
+    .article-wrapper h2 { font-family: 'Cormorant Garamond', serif; font-size: 1.6rem; font-weight: 600; color: var(--star); margin: 2.5rem 0 1rem; padding-top: 1rem; }
+    .article-wrapper h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.2rem; color: var(--star); margin: 1.5rem 0 0.8rem; }
+    .article-wrapper p { margin-bottom: 1rem; font-weight: 300; line-height: 1.8; }
+    .article-wrapper ul, .article-wrapper ol { margin: 1rem 0 1.5rem 1.5rem; }
+    .article-wrapper li { margin-bottom: 0.5rem; font-weight: 300; }
+    .callout { background: var(--card); border-left: 3px solid var(--gold); padding: 1rem 1.5rem; margin: 1.5rem 0; border-radius: 0 8px 8px 0; font-size: 0.92rem; }
+    .callout-green { background: var(--card); border-left: 3px solid var(--green); padding: 1rem 1.5rem; margin: 1.5rem 0; border-radius: 0 8px 8px 0; font-size: 0.92rem; }
+
+    .product-cta { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 1.5rem; margin: 2rem 0; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; }
+    .product-cta-text { color: var(--star); font-weight: 500; }
+    .btn-amazon { background: var(--gold); color: var(--night); text-decoration: none; padding: 10px 20px; border-radius: 6px; font-weight: 600; font-size: 0.88rem; transition: background 0.2s; }
+    .btn-amazon:hover { background: var(--gold-light); }
+
+    .article-cta { background: linear-gradient(135deg, var(--card), var(--navy)); border: 1px solid var(--border); border-radius: 12px; padding: 2rem; text-align: center; margin: 3rem 0; }
+    .article-cta h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.4rem; color: var(--star); margin-bottom: 0.8rem; }
+    .article-cta p { color: var(--muted); margin-bottom: 1.2rem; }
+
+    .related-articles { margin: 3rem 0; }
+    .related-articles h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.3rem; color: var(--star); margin-bottom: 1rem; }
+    .related-articles ul { list-style: none; margin: 0; }
+    .related-articles li { margin-bottom: 0.6rem; }
+    .related-articles a { color: var(--gold); text-decoration: none; font-size: 0.95rem; }
+    .related-articles a:hover { text-decoration: underline; }
+
+    footer { background: #060912; border-top: 1px solid var(--border); padding: 50px 6% 30px; }
+    .footer-top { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 3rem; margin-bottom: 3rem; padding-bottom: 3rem; border-bottom: 1px solid var(--border); }
+    .footer-brand p { color: var(--muted); font-size: 0.82rem; margin-top: 0.8rem; line-height: 1.6; font-weight: 300; max-width: 260px; }
+    .footer-col h4 { font-size: 0.78rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--gold); margin-bottom: 1rem; }
+    .footer-col ul { list-style: none; display: flex; flex-direction: column; gap: 0.6rem; }
+    .footer-col a { color: var(--muted); text-decoration: none; font-size: 0.85rem; transition: color 0.2s; }
+    .footer-col a:hover { color: var(--gold); }
+    .footer-bottom { display: flex; justify-content: space-between; font-size: 0.78rem; color: var(--muted); flex-wrap: wrap; gap: 0.5rem; }
+    .affiliate-disc { font-size: 0.75rem; max-width: 600px; }
+
+    @media (max-width: 900px) {
+      .nav-links { display: none; }
+      .article-wrapper h1 { font-size: 1.8rem; }
+      .footer-top { grid-template-columns: 1fr 1fr; }
+      .product-cta { flex-direction: column; text-align: center; }
+    }
+  </style>
+</head>
+
+<body>
+  <nav>
+    <a class="logo" href="../">SleepWise<span>Reviews</span></a>
+    <ul class="nav-links">
+      <li><a href="../#picks">Top Picks</a></li>
+      <li><a href="../#reviews">Reviews</a></li>
+      <li><a href="../pages/about.html">About Harry</a></li>
+      <li><a href="../#newsletter" class="nav-cta">Free Sleep Guide</a></li>
+    </ul>
+  </nav>
+
+  <article class="article-wrapper">
+    <div class="article-meta-top">
+      <span class="tag">Mental Health</span>
+      <span class="meta-text">📅 April 2023</span>
+      <span class="meta-text">·</span>
+      <span class="meta-text">⏱ 9 min read</span>
+      <span class="meta-text">·</span>
+      <span class="meta-text">🔄 Updated Mar 2026</span>
+    </div>
+    <h1>A Practical Guide to Sleeping When Anxiety Won't Let You</h1>
+    <p class="article-intro">Trying harder to sleep when anxious is like trying to stay still when you're told not to think of elephants. The effort itself becomes the obstacle — and breaking that loop requires a fundamentally different approach.</p>
+
+    <div class="author-box">
+      <div class="author-avatar">😴</div>
+      <div class="author-info">
+        <div class="author-name">By <a href="../pages/about.html">Harry Soul</a> - SleepWiseReviews</div>
+        <div class="author-role">Independent Sleep Researcher - April 2023</div>
+      </div>
+    </div>
+
+    <div class="disclosure-box">
+      <strong>Affiliate Disclosure:</strong> This article contains affiliate links. We earn a small commission if you purchase through our links at no extra cost to you. <a href="../pages/affiliate-disclosure.html" style="color:var(--gold)">Full disclosure</a>
+    </div>
+
+    <h2>The Anxiety-Insomnia Paradox: The Harder You Try, the Worse It Gets</h2>
+    <p>There is a cruel irony at the heart of anxiety-driven insomnia: sleep is one of the few things in life that cannot be forced. The moment you decide you <em>must</em> sleep — that failing to sleep will ruin tomorrow, that you've already lost too many hours, that you absolutely cannot be awake at 3am again — your nervous system interprets that urgency as a threat signal and responds accordingly. Cortisol rises. Muscles tighten. The mind accelerates.</p>
+    <p>This is not a character flaw or a sign of weakness. It is neurophysiology doing exactly what it was designed to do. The brain cannot simultaneously maintain a threat-response state and a rest-recovery state. When anxiety occupies the driver's seat, sleep is pushed out of the vehicle entirely.</p>
+    <p>As Dr. Gregg Jacobs explains in <em>Say Good Night to Insomnia</em> (1998), the majority of chronic insomnia is perpetuated not by the original trigger — stress, illness, a life event — but by the conditioned arousal and negative thinking patterns that develop in response to a few bad nights. The bed itself can become a cue for wakefulness rather than rest. Breaking the cycle requires addressing the cognitive and physiological arousal directly, not just the lost sleep.</p>
+
+    <div class="callout">💡 <strong>Key insight:</strong> Chronic insomnia driven by anxiety is largely a learned problem — which means it can be unlearned. CBT-I (Cognitive Behavioral Therapy for Insomnia) has a higher long-term success rate than sleeping pills for anxiety-related insomnia.</div>
+
+    <h2>Hyperarousal: Why Anxiety Activates the Exact Systems That Prevent Sleep</h2>
+    <p>Sleep onset requires a specific physiological cascade: core body temperature must drop, heart rate must slow, and the prefrontal cortex — the brain's "thinking" region — must progressively disengage. Anxiety does the opposite of all three. It activates the sympathetic nervous system, raises core temperature via increased metabolic activity, elevates heart rate, and floods the prefrontal cortex with problem-solving and threat-scanning demands.</p>
+    <p>This state is called <strong>hyperarousal</strong>, and research consistently shows that anxious insomniacs display elevated physiological arousal not just at night but around the clock. Their baseline cortisol is higher. Their resting heart rate is faster. Their brains show more high-frequency beta wave activity — the signature of active, alert processing — at times when non-insomniacs produce slow, calming alpha waves.</p>
+    <p>What this means practically: you cannot simply "relax" your way out of hyperarousal through willpower. You need techniques that directly engage the parasympathetic nervous system — the body's rest-and-digest counterpart to the fight-or-flight response.</p>
+
+    <h2>Cognitive Arousal vs. Somatic Arousal: Different Interventions for Each</h2>
+    <p>Anxiety manifests in sleep disruption in two distinct channels, and identifying which one is dominant for you determines which interventions will work best.</p>
+    <p><strong>Cognitive arousal</strong> is the racing mind — the loop of worst-case scenarios, tomorrow's to-do lists running unbidden, replays of conversations that went wrong, and catastrophic predictions about what will happen if you don't sleep. This is the mental chatter that seems to intensify the moment your head hits the pillow.</p>
+    <p><strong>Somatic arousal</strong> is the body's physical response — the tight chest, the tension in the jaw and shoulders, the restless legs, the heart that seems to pound loudly in the quiet of the bedroom. Some people experience both simultaneously; others find that one clearly dominates.</p>
+    <ul>
+      <li>If cognitive arousal is your primary issue: worry time, thought records, and paradoxical intention are your most effective tools.</li>
+      <li>If somatic arousal is your primary issue: progressive muscle relaxation, body scan meditation, and controlled breathing techniques target the physical tension directly.</li>
+      <li>If both are present: a combined approach — often formalized in CBT-I programs — addresses each channel in sequence.</li>
+    </ul>
+
+    <h2>Worry Time: Scheduling Anxiety to Contain It</h2>
+    <p>One of the most counterintuitive — and reliably effective — CBT-I techniques is the concept of "worry time." Rather than trying to suppress anxious thoughts (which tends to amplify them, via the same ironic process that makes "don't think about elephants" impossible), you deliberately schedule a fixed period each day — typically 15 to 20 minutes in the late afternoon — to do nothing but worry.</p>
+    <p>During worry time, you write down every concern on your mind, no matter how trivial or catastrophic it seems. You acknowledge each worry explicitly. Then, when the scheduled period ends, you close the notebook and redirect your attention.</p>
+    <p>The effect at bedtime is striking. When anxious thoughts arise as you try to sleep, you have a ready response: <em>I've already dealt with that — it goes on tomorrow's worry list.</em> Over time, the brain learns that the bed is not the designated space for problem-solving, and the automatic association between "lying down" and "thinking about everything that could go wrong" weakens.</p>
+
+    <div class="callout-green">
+      <strong>Practical Takeaway:</strong> Set a daily 15-minute "worry window" between 4pm and 6pm. Keep a dedicated notebook nearby. Write every concern down — then physically close the book. When a worry surfaces at bedtime, acknowledge it briefly and remind yourself it has a designated time tomorrow. This isn't avoidance; it's containment.
+    </div>
+
+    <h2>Paradoxical Intention: The CBT-I Technique of "Trying to Stay Awake"</h2>
+    <p>Paradoxical intention is one of the stranger-sounding techniques in the CBT-I toolkit, but the research behind it is solid. The premise: if sleep anxiety is driven by the fear of not sleeping, and that fear itself prevents sleep, then eliminating the fear removes the barrier. And the most direct way to eliminate the fear of not sleeping is to deliberately try to stay awake.</p>
+    <p>In practice, this means lying in bed in the dark with eyes open, making no effort to sleep, and gently resisting drowsiness when it arrives. The goal is explicitly <em>not</em> to sleep. This sounds absurd until you experience the result: freed from the performance pressure of "I must fall asleep," the body often does exactly that within minutes.</p>
+    <p>The mechanism is thought to work via reducing performance anxiety around sleep onset. Sleep is an involuntary process; trying to control it triggers the same kind of self-conscious interference that makes walking up stairs awkward when you think too carefully about each foot placement. Paradoxical intention removes the conscious attempt and lets the automatic process run.</p>
+
+    <h2>Body Scan and Progressive Muscle Relaxation: Reducing Somatic Arousal</h2>
+    <p>Progressive Muscle Relaxation (PMR), developed by Edmund Jacobson in the 1920s and refined extensively since, works on a simple physiological principle: it is impossible to maintain muscular tension in a muscle you have just deliberately tensed and released. By systematically working through major muscle groups — feet, calves, thighs, abdomen, hands, arms, shoulders, face — and alternating 5-second tension holds with 30-second releases, you deplete the residual somatic arousal that anxiety loads into the body throughout the day.</p>
+    <p>A body scan is the gentler, more meditative counterpart. Rather than actively tensing muscles, you move attention slowly from toes to crown, noticing physical sensation without trying to change it. The act of redirecting attention to physical sensation — even uncomfortable sensation — pulls cognitive processing away from anxious thought loops and grounds awareness in the present moment.</p>
+    <p>Both techniques require consistent practice to become effective sleep-onset tools. The first few sessions may feel frustrating or even counterproductive, particularly if somatic awareness is uncomfortable. Persistence over two to three weeks typically produces measurable results.</p>
+
+    <h2>The 4-7-8 Breathing Method: Activating the Parasympathetic Nervous System</h2>
+    <p>Controlled breathing is one of the fastest routes to parasympathetic activation because the breath is the only autonomic function we can consciously regulate. The 4-7-8 method — inhale for 4 counts, hold for 7, exhale for 8 — is particularly effective for anxiety-driven arousal because the extended exhale phase directly stimulates the vagus nerve, triggering a parasympathetic response within seconds.</p>
+    <p>The extended hold also temporarily reduces blood oxygen saturation in a mild, controlled way, which triggers a reflexive calming response as the body prioritizes metabolic efficiency over vigilance. The counting itself serves a secondary function: it occupies the cognitive bandwidth that anxiety typically uses for rumination, leaving less mental space for worry loops to run.</p>
+    <p>Begin with four complete cycles. If dizziness occurs, return to normal breathing and try fewer repetitions. Most people find the technique produces noticeable physical relaxation within two to three minutes.</p>
+
+    <div class="callout-green">
+      <strong>Practical Takeaway:</strong> Try 4-7-8 breathing before reaching for a screen or getting out of bed during a night waking. Inhale through the nose for 4 counts, hold for 7, exhale completely through the mouth for 8. Repeat four times. The extended exhale is the critical component — don't shorten it.
+    </div>
+
+    <h2>Limiting Clock Watching: Time Monitoring as an Anxiety Amplifier</h2>
+    <p>The clock is one of the most potent anxiety amplifiers in the bedroom. Each time you check the time during the night, you perform an automatic calculation: <em>it's 2:17am, I have to be up at 6:30, that's only four hours and thirteen minutes, and that's not enough, and now I'm stressed about not sleeping which means I definitely won't sleep...</em> The cognitive chain from time-check to catastrophic projection takes approximately three seconds and produces a measurable spike in arousal.</p>
+    <p>Turn clocks away from the bed. Move your phone to the other side of the room or use an old-fashioned alarm. Remove the ability to perform that calculation, and you remove one of the most reliable reinforcers of bedtime anxiety. Research on stimulus control — a core CBT-I component — shows that reducing arousal-linked behaviors in the bedroom environment produces lasting improvements in sleep efficiency.</p>
+
+    <h2>When Anxiety About Not Sleeping Becomes the Primary Problem</h2>
+    <p>For some people, the original source of anxiety — work, relationships, health, finances — has long since resolved, but the sleep anxiety itself has become the dominant concern. This is sometimes called <strong>sleep anxiety disorder</strong> or orthosomnia in its technology-mediated form, and it represents a particularly tenacious variant of insomnia because the feared outcome (not sleeping) is intimately bound to the feared context (the bedroom at night).</p>
+    <p>Signs that sleep anxiety has become the primary driver include: dreading bedtime hours in advance, feeling calm and sleepy everywhere except in your own bed, experiencing relief rather than disappointment when a commitment allows you to skip a night at home, and finding that sleep comes easily in unfamiliar environments (hotels, sofas) but not in your bedroom.</p>
+    <p>If this pattern describes your experience, stimulus control therapy — reconditioning the association between your bed and sleepiness rather than arousal — is the most targeted intervention. This involves using the bed only for sleep and sex, getting out of bed after 20 minutes of wakefulness, and rebuilding the automatic sleep association through consistent repetition over three to five weeks. It is uncomfortable in the short term and reliably effective in the long term.</p>
+    <p>Supplementing these behavioral techniques with magnesium glycinate — which supports both muscle relaxation and the nervous system's stress-response regulation — is one of the most commonly cited adjunct strategies among sleep researchers and practitioners. It does not induce sleep directly, but it reduces the physiological substrate of hyperarousal that makes sleep elusive.</p>
+
+    <div class="product-cta">
+      <span class="product-cta-text">Magnesium glycinate supports relaxation and nervous system calm — browse top-rated options</span>
+      <a class="btn-amazon" href="https://www.amazon.com/s?k=magnesium+glycinate+sleep+anxiety&tag=sleepwiserevi-20" target="_blank" rel="noopener nofollow">Shop on Amazon</a>
+    </div>
+
+    <h2>Putting It Together: A Practical Nightly Protocol</h2>
+    <p>The techniques above are not equally appropriate for every person or every night. But a workable protocol for most anxiety-driven insomnia looks something like this:</p>
+    <ol>
+      <li><strong>Afternoon (4–6pm):</strong> Complete your worry time. Write every concern in a dedicated notebook and close it.</li>
+      <li><strong>90 minutes before bed:</strong> Begin your wind-down. Dim lights, avoid screens, keep body temperature from rising (no hot showers immediately before bed).</li>
+      <li><strong>At bedtime:</strong> Use 4-7-8 breathing for four cycles, then body scan or PMR for 10–15 minutes.</li>
+      <li><strong>In bed:</strong> Practice paradoxical intention — lie still with eyes open, make no effort to sleep. Let sleep approach rather than chasing it.</li>
+      <li><strong>If awake after 20 minutes:</strong> Get up, go to another room, do something calm and non-stimulating until sleepy. Return to bed only when drowsiness is strong.</li>
+      <li><strong>Do not check the clock.</strong> Remove the ability to calculate remaining sleep time.</li>
+    </ol>
+
+    <div class="callout-green">
+      <strong>Practical Takeaway:</strong> Consistency matters more than perfection with these techniques. CBT-I research shows that most people see meaningful improvement within 4–6 weeks of consistent practice — but week one and two often feel harder, not easier, as old habits are disrupted. Stay with the protocol through that initial discomfort. The improvement is on the other side of it.
+    </div>
+
+    <div class="article-cta">
+      <h3>Get Our Free 7-Day Sleep Reset</h3>
+      <p>Join 18,000 readers who get weekly sleep tips and honest product reviews every Sunday.</p>
+      <a class="btn-amazon" href="../#newsletter">Subscribe Free</a>
+    </div>
+
+    <div class="related-articles">
+      <h3>Related Articles</h3>
+      <ul>
+        <li><a href="sleep-anxiety-techniques.html">7 Evidence-Based Sleep Anxiety Techniques That Actually Work</a></li>
+        <li><a href="cbt-i-guide.html">The Complete CBT-I Guide: How Cognitive Behavioral Therapy Cures Insomnia</a></li>
+        <li><a href="insomnia-types.html">The 5 Types of Insomnia — and Why the Difference Matters for Treatment</a></li>
+      </ul>
+    </div>
+  </article>
+
+  <footer>
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a class="logo" href="../">SleepWise<span>Reviews</span></a>
+        <p>Honest, science-backed reviews to help you sleep deeper, recover faster, and wake up energized.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Reviews</h4>
+        <ul>
+          <li><a href="https://www.amazon.com/s?k=weighted+blanket&tag=sleepwiserevi-20" target="_blank">Weighted Blankets</a></li>
+          <li><a href="https://www.amazon.com/s?k=white+noise+machine&tag=sleepwiserevi-20" target="_blank">White Noise Machines</a></li>
+          <li><a href="https://www.amazon.com/s?k=sleep+supplements&tag=sleepwiserevi-20" target="_blank">Supplements</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Guides</h4>
+        <ul>
+          <li><a href="../#picks">Sleep Optimization</a></li>
+          <li><a href="../#reviews">Bedtime Routines</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Site</h4>
+        <ul>
+          <li><a href="../pages/about.html">About Harry Soul</a></li>
+          <li><a href="../pages/privacy-policy.html">Privacy Policy</a></li>
+          <li><a href="../pages/affiliate-disclosure.html">Affiliate Disclosure</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div>© 2025 SleepWiseReviews. All rights reserved.</div>
+      <div class="affiliate-disc">SleepWiseReviews is a participant in the Amazon Services LLC Associates Program.</div>
+    </div>
+  </footer>
+</body>
+</html>
