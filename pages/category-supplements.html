@@ -40,6 +40,7 @@
       font-size: 16px;
       line-height: 1.7;
       -webkit-font-smoothing: antialiased;
+      overflow-x: hidden;
     }
     a { color: inherit; text-decoration: none; }
     img { display: block; max-width: 100%; }
@@ -433,6 +434,29 @@
       .footer-bottom { flex-direction: column; text-align: center; }
       .footer-disclaimer { text-align: center; }
     }
+
+    .nav-hamburger { display: none; flex-direction: column; gap: 5px; background: none; border: none; cursor: pointer; padding: 8px; }
+    .nav-hamburger span { display: block; width: 22px; height: 2px; background: var(--star); border-radius: 2px; transition: all 0.3s; }
+    .nav-hamburger.active span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+    .nav-hamburger.active span:nth-child(2) { opacity: 0; }
+    .nav-hamburger.active span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+    @media (max-width: 768px) {
+      .nav-hamburger { display: flex; }
+      .nav-links { display: none; position: fixed; top: 68px; left: 0; right: 0; background: rgba(10,14,26,0.97); flex-direction: column; padding: 1.5rem 6%; gap: 1rem; z-index: 99; border-bottom: 1px solid var(--border); }
+      .nav-links.open { display: flex; }
+    }
+    @media (max-width: 768px) {
+      .cat-hero-content { flex-direction: column; gap: 16px; }
+      .cat-hero-title { font-size: clamp(1.8rem, 5vw, 2.4rem); }
+      .breadcrumb { flex-wrap: wrap; word-break: break-word; }
+      .cat-articles-grid { grid-template-columns: 1fr; }
+      .footer-grid { grid-template-columns: 1fr 1fr; gap: 1.5rem; }
+    }
+    @media (max-width: 480px) {
+      .cat-hero-title { font-size: 1.6rem; }
+      .footer-grid { grid-template-columns: 1fr; gap: 1rem; }
+      .cat-hero-icon { font-size: 3rem; }
+    }
   </style>
 </head>
 <body>
@@ -441,7 +465,7 @@
   <nav class="nav" role="navigation" aria-label="Main navigation">
     <div class="nav-inner">
       <a href="../" class="nav-logo">SleepWise<span>Reviews</span></a>
-      <ul class="nav-links">
+      <ul class="nav-links" id="navLinks">
         <li><a href="../">Home</a></li>
         <li><a href="../pages/category-supplements.html" class="active">Supplements</a></li>
         <li><a href="../pages/category-sleep-science.html">Sleep Science</a></li>
@@ -449,6 +473,9 @@
         <li><a href="../pages/category-products.html">Products</a></li>
         <li><a href="../pages/about.html" class="nav-cta">About</a></li>
       </ul>
+      <button class="nav-hamburger" id="navToggle" onclick="this.classList.toggle('active');document.getElementById('navLinks').classList.toggle('open')" aria-label="Menu">
+        <span></span><span></span><span></span>
+      </button>
     </div>
   </nav>
 
