@@ -87,19 +87,86 @@
     .footer-col a:hover { color: var(--gold); }
     .footer-bottom { display: flex; justify-content: space-between; font-size: 0.78rem; color: var(--muted); flex-wrap: wrap; gap: 0.5rem; }
     .affiliate-disc { font-size: 0.75rem; max-width: 600px; }
-    @media (max-width: 900px) { .nav-links { display: none; } .article-wrapper h1 { font-size: 1.8rem; } .footer-top { grid-template-columns: 1fr 1fr; } .product-cta { flex-direction: column; text-align: center; } .pros-cons { grid-template-columns: 1fr; } }
+    .nav-hamburger { display: none; flex-direction: column; gap: 5px; background: none; border: none; cursor: pointer; padding: 8px; }
+    .nav-hamburger span { display: block; width: 22px; height: 2px; background: var(--star); border-radius: 2px; transition: all 0.3s; }
+    .nav-hamburger.active span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
+    .nav-hamburger.active span:nth-child(2) { opacity: 0; }
+    .nav-hamburger.active span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
+
+    /* A. Breadcrumb */
+    .article-breadcrumb { display: flex; align-items: center; gap: 0.5rem; font-size: 0.78rem; color: var(--muted); margin-bottom: 1.5rem; flex-wrap: wrap; }
+    .article-breadcrumb a { color: var(--muted); text-decoration: none; transition: color 0.2s; }
+    .article-breadcrumb a:hover { color: var(--gold); }
+    .article-breadcrumb span { color: var(--muted); }
+
+    /* B. Article Likes */
+    .article-likes { margin-bottom: 1.5rem; }
+    .like-btn { display: inline-flex; align-items: center; gap: 0.5rem; background: var(--card); border: 1px solid var(--border); border-radius: 50px; padding: 8px 18px; color: var(--muted); font-size: 0.85rem; font-family: inherit; cursor: pointer; transition: all 0.2s; }
+    .like-btn:hover { border-color: rgba(201,168,76,0.4); color: var(--text); }
+    .like-btn.liked { background: rgba(201,168,76,0.1); border-color: rgba(201,168,76,0.5); color: var(--gold); }
+    .like-btn.liked svg { fill: var(--gold); stroke: var(--gold); }
+
+    /* C. Social Share */
+    .social-share { display: flex; align-items: center; gap: 0.6rem; margin-bottom: 1.5rem; flex-wrap: wrap; }
+    .share-label { font-size: 0.8rem; color: var(--muted); font-weight: 500; }
+    .share-btn { display: inline-flex; align-items: center; gap: 0.4rem; padding: 6px 14px; border-radius: 50px; font-size: 0.8rem; font-weight: 500; text-decoration: none; border: 1px solid var(--border); cursor: pointer; font-family: inherit; transition: all 0.2s; background: var(--card); color: var(--text); }
+    .share-btn:hover { border-color: var(--gold); color: var(--gold); }
+
+    /* D. Table of Contents */
+    .article-toc { background: var(--card); border: 1px solid var(--border); border-left: 3px solid var(--gold); border-radius: 0 8px 8px 0; padding: 1.2rem 1.5rem; margin: 1.5rem 0 2rem; }
+    .toc-title { font-size: 0.82rem; font-weight: 600; color: var(--gold); text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 0.8rem; }
+    .toc-list { list-style: none; margin: 0; padding: 0; display: flex; flex-direction: column; gap: 0.4rem; }
+    .toc-list a { color: var(--text); text-decoration: none; font-size: 0.88rem; transition: color 0.2s; }
+    .toc-list a:hover { color: var(--gold); }
+
+    /* E. Sticky Buy Bar */
+    .sticky-buy-bar { position: fixed; bottom: 0; left: 0; right: 0; background: var(--card); border-top: 1px solid var(--border); padding: 12px 6%; display: none; align-items: center; justify-content: space-between; gap: 1rem; z-index: 400; flex-wrap: wrap; }
+    .sticky-buy-text { color: var(--text); font-size: 0.88rem; }
+    .sticky-buy-btn { background: var(--gold); color: var(--night); padding: 9px 18px; border-radius: 6px; text-decoration: none; font-weight: 600; font-size: 0.85rem; white-space: nowrap; transition: background 0.2s; }
+    .sticky-buy-btn:hover { background: var(--gold-light); }
+    .sticky-buy-close { background: none; border: none; color: var(--muted); cursor: pointer; font-size: 1rem; }
+
+    /* F. Print CSS */
+    @media print {
+      nav, footer, .disclosure-box, .product-cta, .article-cta, .social-share, .article-likes, .sticky-buy-bar, .related-articles { display: none !important; }
+      body { background: white; color: black; }
+      .article-wrapper { max-width: 100%; padding: 0; }
+      .article-wrapper h1, .article-wrapper h2, .article-wrapper h3 { color: black; }
+      .article-wrapper p, .article-wrapper li { color: #333; }
+    }
+
+    @media (max-width: 900px) { .footer-top { grid-template-columns: 1fr 1fr; } .pros-cons { grid-template-columns: 1fr; } }
+
+    @media (max-width: 768px) {
+      .nav-hamburger { display: flex; }
+      .nav-links { display: none; position: fixed; top: 68px; left: 0; right: 0; background: rgba(10,14,26,0.97); flex-direction: column; padding: 1.5rem 6%; gap: 1rem; z-index: 99; border-bottom: 1px solid var(--border); }
+      .nav-links.open { display: flex; }
+      .footer-top { grid-template-columns: 1fr 1fr; gap: 1.5rem; }
+      .article-wrapper h1 { font-size: 2rem; }
+      .product-cta { flex-direction: column; text-align: center; }
+    }
+
+    @media (max-width: 480px) {
+      .footer-top { grid-template-columns: 1fr; gap: 1rem; }
+      .article-wrapper h1 { font-size: 1.6rem; }
+      .article-intro { font-size: 0.95rem; }
+      .btn-amazon { padding: 12px 24px; min-height: 44px; display: inline-flex; align-items: center; }
+    }
   </style>
 </head>
 
 <body>
   <nav>
     <a class="logo" href="../">SleepWise<span>Reviews</span></a>
-    <ul class="nav-links">
+    <ul class="nav-links" id="navLinks">
       <li><a href="../#picks">Top Picks</a></li>
       <li><a href="../#reviews">Reviews</a></li>
       <li><a href="../pages/about.html">About Harry</a></li>
       <li><a href="../#newsletter" class="nav-cta">Free Sleep Guide</a></li>
     </ul>
+    <button class="nav-hamburger" id="navToggle" onclick="this.classList.toggle('active');document.getElementById('navLinks').classList.toggle('open')" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
   </nav>
 
   <article class="article-wrapper">
