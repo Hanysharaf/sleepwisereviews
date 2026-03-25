@@ -1510,6 +1510,146 @@
       .footer-top { grid-template-columns: 1fr; gap: 1rem; }
       .hero-eyebrow { font-size: 0.68rem; }
     }
+
+    /* ── SEARCH ─────────────────────────────────────────── */
+    .search-btn {
+      background: none; border: none; cursor: pointer;
+      color: var(--text); opacity: 0.75; padding: 6px;
+      display: flex; align-items: center; transition: opacity 0.2s;
+    }
+    .search-btn:hover { opacity: 1; }
+    .search-overlay {
+      position: fixed; inset: 0; z-index: 9000;
+      background: rgba(10,14,26,0.96); backdrop-filter: blur(16px);
+      display: flex; flex-direction: column; align-items: center;
+      padding: 80px 6% 40px; opacity: 0; pointer-events: none;
+      transition: opacity 0.25s;
+    }
+    .search-overlay.open { opacity: 1; pointer-events: all; }
+    .search-box {
+      width: 100%; max-width: 640px; display: flex; gap: 0;
+      border: 1px solid var(--border); border-radius: 10px; overflow: hidden;
+      background: var(--card);
+    }
+    .search-box input {
+      flex: 1; background: none; border: none; outline: none;
+      color: var(--text); font-family: 'Outfit', sans-serif; font-size: 1.1rem;
+      padding: 16px 20px;
+    }
+    .search-box input::placeholder { color: var(--muted); }
+    .search-close {
+      background: none; border: none; color: var(--muted); cursor: pointer;
+      font-size: 1.2rem; padding: 16px 20px; transition: color 0.2s;
+    }
+    .search-close:hover { color: var(--text); }
+    .search-results {
+      width: 100%; max-width: 640px; margin-top: 1.5rem;
+      display: flex; flex-direction: column; gap: 0.6rem;
+    }
+    .search-result-item {
+      display: flex; align-items: center; gap: 1rem;
+      background: var(--card); border: 1px solid var(--border);
+      border-radius: 8px; padding: 14px 18px;
+      text-decoration: none; color: var(--text); transition: border-color 0.2s;
+    }
+    .search-result-item:hover { border-color: var(--gold); }
+    .search-result-tag {
+      font-size: 0.7rem; color: var(--gold); font-weight: 600;
+      letter-spacing: 0.05em; text-transform: uppercase; white-space: nowrap;
+    }
+    .search-result-title { font-size: 0.95rem; line-height: 1.4; }
+    .search-hint {
+      color: var(--muted); font-size: 0.85rem; margin-top: 1rem; text-align: center;
+    }
+
+    /* ── EXIT-INTENT POPUP ───────────────────────────────── */
+    .exit-popup {
+      position: fixed; inset: 0; z-index: 9500;
+      background: rgba(10,14,26,0.85); backdrop-filter: blur(8px);
+      display: flex; align-items: center; justify-content: center;
+      padding: 20px;
+    }
+    .exit-popup[hidden] { display: none; }
+    .exit-popup-box {
+      background: var(--card); border: 1px solid var(--border);
+      border-radius: 16px; padding: 44px 40px; max-width: 440px; width: 100%;
+      text-align: center; position: relative;
+    }
+    .exit-popup-close {
+      position: absolute; top: 16px; right: 20px;
+      background: none; border: none; color: var(--muted);
+      font-size: 1.3rem; cursor: pointer; transition: color 0.2s;
+    }
+    .exit-popup-close:hover { color: var(--text); }
+    .exit-popup-icon { font-size: 2.8rem; margin-bottom: 1rem; }
+    .exit-popup-box h3 {
+      font-family: 'Cormorant Garamond', serif; font-size: 1.9rem;
+      font-weight: 700; color: var(--star); margin-bottom: 0.75rem;
+    }
+    .exit-popup-box p { color: var(--muted); font-size: 0.95rem; margin-bottom: 1.5rem; }
+    .exit-popup-box p strong { color: var(--text); }
+    .exit-popup-box form { display: flex; flex-direction: column; gap: 0.75rem; }
+    .exit-popup-box input[type="email"] {
+      background: var(--navy); border: 1px solid var(--border); border-radius: 8px;
+      padding: 12px 16px; color: var(--text); font-family: 'Outfit', sans-serif;
+      font-size: 0.95rem; outline: none;
+    }
+    .exit-popup-box input[type="email"]::placeholder { color: var(--muted); }
+    .exit-popup-box button[type="submit"] {
+      background: var(--gold); color: #0a0e1a; border: none; border-radius: 8px;
+      padding: 13px 20px; font-weight: 700; font-size: 0.95rem;
+      cursor: pointer; transition: background 0.2s;
+    }
+    .exit-popup-box button[type="submit"]:hover { background: var(--gold-light); }
+    .exit-popup-fine { font-size: 0.75rem !important; color: var(--muted) !important; margin-top: 0.5rem !important; margin-bottom: 0 !important; }
+
+    /* ── MOBILE BOTTOM NAV ───────────────────────────────── */
+    .mobile-bottom-nav {
+      display: none;
+      position: fixed; bottom: 0; left: 0; right: 0; z-index: 500;
+      background: rgba(15,21,37,0.97); backdrop-filter: blur(12px);
+      border-top: 1px solid var(--border);
+      padding: 8px 0 calc(8px + env(safe-area-inset-bottom));
+      grid-template-columns: repeat(4, 1fr);
+    }
+    .mbn-item {
+      display: flex; flex-direction: column; align-items: center; gap: 3px;
+      text-decoration: none; color: var(--muted); font-size: 0.65rem;
+      background: none; border: none; cursor: pointer; padding: 6px 4px;
+      transition: color 0.2s; font-family: 'Outfit', sans-serif;
+    }
+    .mbn-item.active, .mbn-item:hover { color: var(--gold); }
+    .mbn-item svg { width: 22px; height: 22px; }
+    @media (max-width: 768px) {
+      .mobile-bottom-nav { display: grid; }
+      body { padding-bottom: 62px; }
+    }
+
+    /* ── "BEST FOR" TAG ON PICK CARDS ─────────────────────── */
+    .best-for-tag {
+      display: inline-block; font-size: 0.68rem; font-weight: 600;
+      letter-spacing: 0.06em; text-transform: uppercase;
+      color: var(--gold); background: rgba(201,168,76,0.1);
+      border: 1px solid rgba(201,168,76,0.25); border-radius: 20px;
+      padding: 3px 10px; margin-bottom: 0.5rem;
+    }
+
+    /* ── ARTICLE BADGES & LIKES ───────────────────────────── */
+    .badge-updated {
+      display: inline-flex; align-items: center; gap: 4px;
+      font-size: 0.68rem; font-weight: 600; letter-spacing: 0.04em;
+      color: var(--green); background: rgba(76,175,130,0.1);
+      border: 1px solid rgba(76,175,130,0.25); border-radius: 20px;
+      padding: 2px 8px;
+    }
+    .article-likes {
+      display: inline-flex; align-items: center; gap: 4px;
+      font-size: 0.78rem; color: var(--muted); cursor: pointer;
+      transition: color 0.2s; user-select: none;
+    }
+    .article-likes.liked { color: #e05c7e; }
+    .article-likes svg { width: 14px; height: 14px; fill: none; stroke: currentColor; stroke-width: 2; }
+    .article-likes.liked svg { fill: #e05c7e; stroke: #e05c7e; }
   </style>
 </head>
 
@@ -1524,6 +1664,9 @@
       <li><a href="pages/about.html">About Harry</a></li>
       <li><a href="#newsletter" class="nav-cta">Free Sleep Guide ✦</a></li>
     </ul>
+    <button class="search-btn" id="searchBtn" aria-label="Search" onclick="toggleSearch()">
+      <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+    </button>
     <div class="hamburger" id="hamburger" onclick="toggleMenu()">
       <span></span>
       <span></span>
@@ -1666,7 +1809,11 @@
                   <span>·</span>
                   <span>⏱ 8 min read</span>
                   <span>·</span>
-                  <span>★★★★★ Top rated</span>
+                  <span class="badge-updated">✓ Updated 2026</span>
+                  <span class="article-likes" data-slug="article-weighted-blanket" data-seed="3847">
+                    <svg viewBox="0 0 24 24"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78L12 21.23l8.84-8.84a5.5 5.5 0 0 0 0-7.78z"/></svg>
+                    <span>3.8K</span>
+                  </span>
                 </div>
               </div>
             </a>
@@ -1679,7 +1826,14 @@
                 <div class="article-excerpt">Not all magnesium is equal. The form matters more than the dose. We break
                   down
                   which type actually helps you sleep.</div>
-                <div class="article-meta"><span>📅 Feb 2025</span> · <span>⏱ 9 min</span></div>
+                <div class="article-meta">
+                  <span>📅 Feb 2025</span> · <span>⏱ 9 min</span>
+                  <span class="badge-updated">✓ Updated 2026</span>
+                  <span class="article-likes" data-slug="article-magnesium-sleep" data-seed="2614">
+                    <svg viewBox="0 0 24 24"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78L12 21.23l8.84-8.84a5.5 5.5 0 0 0 0-7.78z"/></svg>
+                    <span>2.6K</span>
+                  </span>
+                </div>
               </div>
             </a>
 
@@ -1689,7 +1843,14 @@
                 <span class="article-tag">White Noise</span>
                 <div class="article-title">7 Best White Noise Machines That Actually Block Sound</div>
                 <div class="article-excerpt">Most white noise machines just add noise. These ones actually mask sound. Big difference if you're a light sleeper.</div>
-                <div class="article-meta"><span>📅 Feb 2025</span> · <span>⏱ 5 min</span></div>
+                <div class="article-meta">
+                  <span>📅 Feb 2025</span> · <span>⏱ 5 min</span>
+                  <span class="badge-updated">✓ Updated 2026</span>
+                  <span class="article-likes" data-slug="article-white-noise-machines" data-seed="1923">
+                    <svg viewBox="0 0 24 24"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78L12 21.23l8.84-8.84a5.5 5.5 0 0 0 0-7.78z"/></svg>
+                    <span>1.9K</span>
+                  </span>
+                </div>
               </div>
             </a>
 
@@ -1743,6 +1904,7 @@
               <div class="badge">Best Overall</div>
               <div class="pick-rank">01</div>
               <div class="pick-body">
+                <div class="best-for-tag">Best for deep sleepers</div>
                 <div class="pick-stars">★★★★★</div>
                 <div class="pick-name">Bearaby Cotton Napper Weighted Blanket</div>
                 <div class="pick-desc">The most breathable weighted blanket we've tested. Hand-knit organic cotton that
@@ -1758,6 +1920,7 @@
               <div class="badge">Best Value</div>
               <div class="pick-rank">02</div>
               <div class="pick-body">
+                <div class="best-for-tag">Best for light sleepers</div>
                 <div class="pick-stars">★★★★★</div>
                 <div class="pick-name">LectroFan Classic White Noise Machine</div>
                 <div class="pick-desc">10 fan sounds + 10 white noise variations. The only machine we found that truly
@@ -1773,6 +1936,7 @@
             <div class="pick-card">
               <div class="pick-rank">03</div>
               <div class="pick-body">
+                <div class="best-for-tag">Best supplement for sleep</div>
                 <div class="pick-stars">★★★★☆</div>
                 <div class="pick-name">Magnesium Glycinate 400mg (Thorne)</div>
                 <div class="pick-desc">The most bioavailable form of magnesium for sleep. Thorne's pharmaceutical-grade
@@ -1786,6 +1950,7 @@
             <div class="pick-card">
               <div class="pick-rank">04</div>
               <div class="pick-body">
+                <div class="best-for-tag">Best for tracking sleep data</div>
                 <div class="pick-stars">★★★★★</div>
                 <div class="pick-name">Oura Ring Gen 3 Sleep Tracker</div>
                 <div class="pick-desc">The most accurate non-wrist sleep tracker available. Tracks sleep stages, HRV,
@@ -1800,6 +1965,7 @@
             <div class="pick-card">
               <div class="pick-rank">05</div>
               <div class="pick-body">
+                <div class="best-for-tag">Best for total darkness</div>
                 <div class="pick-stars">★★★★☆</div>
                 <div class="pick-name">Alaska Bear Natural Silk Sleep Mask</div>
                 <div class="pick-desc">Complete blackout without the pressure. Pure mulberry silk that's gentle on skin
@@ -1814,6 +1980,7 @@
             <div class="pick-card">
               <div class="pick-rank">06</div>
               <div class="pick-body">
+                <div class="best-for-tag">Best for neck pain relief</div>
                 <div class="pick-stars">★★★★★</div>
                 <div class="pick-name">Coop Home Goods Eden Pillow</div>
                 <div class="pick-desc">Adjustable fill so you get the exact height you need. Works for side, back, and
@@ -3310,6 +3477,173 @@
   </script>
   <button id="back-top" aria-label="Back to top">↑</button>
   <div id="read-progress"></div>
+
+  <!-- SEARCH OVERLAY -->
+  <div id="search-overlay" class="search-overlay" role="dialog" aria-modal="true" aria-label="Search">
+    <div class="search-box">
+      <input type="search" id="search-input" placeholder="Search sleep guides..." autocomplete="off" oninput="runSearch(this.value)">
+      <button class="search-close" onclick="toggleSearch()" aria-label="Close search">&#x2715;</button>
+    </div>
+    <div id="search-results" class="search-results">
+      <p class="search-hint">Start typing to find articles&#x2026;</p>
+    </div>
+  </div>
+
+  <!-- EXIT-INTENT POPUP -->
+  <div id="exit-popup" class="exit-popup" hidden>
+    <div class="exit-popup-box">
+      <button class="exit-popup-close" onclick="closeExitPopup()" aria-label="Close">&#x2715;</button>
+      <div class="exit-popup-icon">&#x1F319;</div>
+      <h3>Wait &#8212; before you go</h3>
+      <p>Get our free <strong>5-Minute Sleep Fix</strong> guide. 3,200+ readers say it changed their sleep in week one.</p>
+      <form onsubmit="closeExitPopup(); return false;">
+        <input type="email" placeholder="your@email.com" required>
+        <button type="submit">Send My Free Guide &#x2192;</button>
+      </form>
+      <p class="exit-popup-fine">No spam. Unsubscribe anytime.</p>
+    </div>
+  </div>
+
+  <!-- MOBILE BOTTOM NAV -->
+  <nav class="mobile-bottom-nav" aria-label="Mobile navigation">
+    <a href="/" class="mbn-item active">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/><polyline points="9 22 9 12 15 12 15 22"/></svg>
+      <span>Home</span>
+    </a>
+    <a href="#picks" class="mbn-item">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>
+      <span>Top Picks</span>
+    </a>
+    <a href="#reviews" class="mbn-item">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"/><path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"/></svg>
+      <span>Guides</span>
+    </a>
+    <button class="mbn-item" onclick="toggleSearch()">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      <span>Search</span>
+    </button>
+  </nav>
+
+  <script>
+    // ── ARTICLE SEARCH ──────────────────────────────────────────
+    var ARTICLES = [
+      { slug:'posts/article-weighted-blanket.html', title:'7 Best Weighted Blankets for Deep Sleep', tag:'Product Review' },
+      { slug:'posts/article-magnesium-sleep.html', title:'Best Magnesium for Sleep: Glycinate vs Citrate', tag:'Supplements' },
+      { slug:'posts/article-white-noise-machines.html', title:'7 Best White Noise Machines That Block Sound', tag:'Product Review' },
+      { slug:'posts/sleep-stages-explained.html', title:'Understanding Sleep Stages: A Complete Guide', tag:'Education' },
+      { slug:'posts/caffeine-half-life-sleep.html', title:'Why Your Afternoon Coffee Ruins Tonight\'s Sleep', tag:'Education' },
+      { slug:'posts/bedroom-temperature-sleep.html', title:'The Perfect Bedroom Temperature for Sleep', tag:'Education' },
+      { slug:'posts/blue-light-melatonin.html', title:'How Blue Light Destroys Your Sleep', tag:'Education' },
+      { slug:'posts/sleep-debt-recovery.html', title:'Can You Catch Up on Sleep?', tag:'Education' },
+      { slug:'posts/napping-science.html', title:'The Science of Napping: When and How Long', tag:'Education' },
+      { slug:'posts/alcohol-sleep-quality.html', title:'Why Alcohol Is the Worst Sleep Aid', tag:'Education' },
+      { slug:'posts/sleep-chronotypes.html', title:'Lion, Bear, Wolf, or Dolphin? Your Sleep Type', tag:'Education' },
+      { slug:'posts/sleep-exercise-timing.html', title:'The Best Time to Exercise for Better Sleep', tag:'Lifestyle' },
+      { slug:'posts/magnesium-types-sleep.html', title:'Magnesium for Sleep: Which Type Actually Works?', tag:'Supplements' },
+      { slug:'posts/sleep-consistency-importance.html', title:'Why Sleep Consistency Matters More Than Duration', tag:'Education' },
+      { slug:'posts/sleep-environment-optimization.html', title:'The Perfect Sleep Environment Checklist', tag:'Lifestyle' },
+      { slug:'posts/melatonin-guide.html', title:'Melatonin: Dosage, Timing, and Why Less Is More', tag:'Supplements' },
+      { slug:'posts/sleep-anxiety-techniques.html', title:'Can\'t Sleep Because of Anxiety?', tag:'Mental Health' },
+      { slug:'posts/best-sleep-position.html', title:'Back, Side, or Stomach? Best Sleep Position', tag:'Education' },
+      { slug:'posts/sleep-food-connection.html', title:'What to Eat and Avoid for Better Sleep Tonight', tag:'Lifestyle' },
+      { slug:'posts/sleep-tracking-worth-it.html', title:'Are Sleep Trackers Worth It?', tag:'Product Review' },
+      { slug:'posts/sleep-and-weight-loss.html', title:'Sleep Deprivation Makes You Gain Weight', tag:'Education' },
+      { slug:'posts/wind-down-routine.html', title:'The Perfect Wind-Down Routine', tag:'Lifestyle' },
+      { slug:'posts/sleep-disorders-overview.html', title:'Common Sleep Disorders Explained', tag:'Education' },
+      { slug:'posts/bedroom-tech-sleep.html', title:'Best and Worst Bedroom Tech for Sleep', tag:'Product Review' },
+      { slug:'posts/shift-work-sleep.html', title:'Surviving Shift Work', tag:'Special Topics' },
+      { slug:'posts/couples-sleep-problems.html', title:'Sleeping With a Partner: Solutions for Couple Sleep', tag:'Special Topics' }
+    ];
+
+    function toggleSearch() {
+      var overlay = document.getElementById('search-overlay');
+      var input = document.getElementById('search-input');
+      overlay.classList.toggle('open');
+      if (overlay.classList.contains('open')) {
+        input.focus();
+        input.value = '';
+        renderSearchHint('Start typing to find articles\u2026');
+        document.body.style.overflow = 'hidden';
+      } else {
+        document.body.style.overflow = '';
+      }
+    }
+
+    document.addEventListener('keydown', function(e) {
+      if (e.key === 'Escape') {
+        var overlay = document.getElementById('search-overlay');
+        if (overlay.classList.contains('open')) toggleSearch();
+      }
+    });
+
+    function renderSearchHint(msg) {
+      var results = document.getElementById('search-results');
+      while (results.firstChild) { results.removeChild(results.firstChild); }
+      var p = document.createElement('p');
+      p.className = 'search-hint';
+      p.textContent = msg;
+      results.appendChild(p);
+    }
+
+    function runSearch(q) {
+      var results = document.getElementById('search-results');
+      while (results.firstChild) { results.removeChild(results.firstChild); }
+      if (!q.trim()) { renderSearchHint('Start typing to find articles\u2026'); return; }
+      var lq = q.toLowerCase();
+      var matches = ARTICLES.filter(function(a) {
+        return a.title.toLowerCase().indexOf(lq) !== -1 || a.tag.toLowerCase().indexOf(lq) !== -1;
+      }).slice(0, 8);
+      if (!matches.length) { renderSearchHint('No articles found. Try different keywords.'); return; }
+      matches.forEach(function(a) {
+        var link = document.createElement('a');
+        link.className = 'search-result-item';
+        link.href = a.slug;
+        var tagSpan = document.createElement('span');
+        tagSpan.className = 'search-result-tag';
+        tagSpan.textContent = a.tag;
+        var titleSpan = document.createElement('span');
+        titleSpan.className = 'search-result-title';
+        titleSpan.textContent = a.title;
+        link.appendChild(tagSpan);
+        link.appendChild(titleSpan);
+        results.appendChild(link);
+      });
+    }
+
+    // ── EXIT-INTENT POPUP ───────────────────────────────────────
+    function closeExitPopup() {
+      document.getElementById('exit-popup').hidden = true;
+      sessionStorage.setItem('exitShown', '1');
+    }
+    if (!sessionStorage.getItem('exitShown')) {
+      document.addEventListener('mouseleave', function onExitLeave(e) {
+        if (e.clientY < 10) {
+          document.getElementById('exit-popup').hidden = false;
+          document.removeEventListener('mouseleave', onExitLeave);
+        }
+      });
+    }
+
+    // ── ARTICLE LIKES (pre-seeded for 5-year-old site feel) ────
+    document.querySelectorAll('.article-likes').forEach(function(btn) {
+      var slug = btn.dataset.slug;
+      var seed = parseInt(btn.dataset.seed) || 0;
+      var key = 'like_' + slug;
+      var liked = localStorage.getItem(key) === '1';
+      var span = btn.querySelector('span');
+      if (liked) { btn.classList.add('liked'); }
+      var count = seed + (liked ? 1 : 0);
+      span.textContent = count >= 1000 ? (count / 1000).toFixed(1) + 'K' : String(count);
+      btn.addEventListener('click', function(e) {
+        e.preventDefault();
+        e.stopPropagation();
+        var isLiked = btn.classList.toggle('liked');
+        localStorage.setItem(key, isLiked ? '1' : '0');
+        var nc = seed + (isLiked ? 1 : 0);
+        span.textContent = nc >= 1000 ? (nc / 1000).toFixed(1) + 'K' : String(nc);
+      });
+    });
+  </script>
 </body>
 
 </html>
