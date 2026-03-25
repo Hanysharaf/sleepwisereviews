@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Thyroid Disorders and Sleep: What Hypo and Hyperthyroid Patients Need to Know - SleepWiseReviews</title>
+  <meta name="description" content="Both over- and under-active thyroids disrupt sleep — but in completely opposite ways. Here's what hypothyroid and hyperthyroid patients need to know about sleep." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,600;0,700;1,400;1,600&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <style type='text/css'>
+    :root {
+      --night: #0A0E1A;
+      --deep: #0F1525;
+      --navy: #141B30;
+      --card: #1A2238;
+      --border: #252D45;
+      --gold: #C9A84C;
+      --gold-light: #E5C96A;
+      --gold-dim: rgba(201, 168, 76, 0.15);
+      --star: #F0E6C8;
+      --text: #D4DCEE;
+      --muted: #7A85A0;
+      --white: #FFFFFF;
+      --green: #4CAF82;
+    }
+
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+    body {
+      font-family: 'Outfit', sans-serif;
+      background: var(--night);
+      color: var(--text);
+      line-height: 1.6;
+      overflow-x: hidden;
+    }
+
+    body::before {
+      content: '';
+      position: fixed;
+      inset: 0;
+      background-image:
+        radial-gradient(1px 1px at 10% 15%, rgba(240, 230, 200, 0.6) 0%, transparent 100%),
+        radial-gradient(1px 1px at 25% 40%, rgba(240, 230, 200, 0.4) 0%, transparent 100%),
+        radial-gradient(1.5px 1.5px at 40% 10%, rgba(240, 230, 200, 0.5) 0%, transparent 100%),
+        radial-gradient(1px 1px at 55% 30%, rgba(240, 230, 200, 0.3) 0%, transparent 100%),
+        radial-gradient(1px 1px at 70% 5%, rgba(240, 230, 200, 0.6) 0%, transparent 100%),
+        radial-gradient(1.5px 1.5px at 80% 20%, rgba(240, 230, 200, 0.4) 0%, transparent 100%),
+        radial-gradient(1px 1px at 90% 45%, rgba(240, 230, 200, 0.3) 0%, transparent 100%);
+      pointer-events: none;
+      z-index: 0;
+    }
+
+    nav {
+      position: sticky; top: 0; z-index: 100;
+      background: rgba(10, 14, 26, 0.92);
+      backdrop-filter: blur(12px);
+      border-bottom: 1px solid var(--border);
+      padding: 0 6%; height: 68px;
+      display: flex; align-items: center; justify-content: space-between;
+    }
+    .logo { font-family: 'Cormorant Garamond', serif; font-size: 1.6rem; font-weight: 700; color: var(--star); text-decoration: none; }
+    .logo span { color: var(--gold); }
+    .nav-links { display: flex; gap: 2rem; list-style: none; }
+    .nav-links a { text-decoration: none; color: var(--muted); font-size: 0.88rem; font-weight: 500; transition: color 0.2s; }
+    .nav-links a:hover { color: var(--gold); }
+    .nav-cta { background: var(--gold-dim); color: var(--gold) !important; border: 1px solid rgba(201, 168, 76, 0.3); padding: 7px 16px; border-radius: 4px; }
+
+    .article-wrapper {
+      position: relative; z-index: 1;
+      max-width: 800px; margin: 0 auto; padding: 50px 6% 80px;
+    }
+    .article-meta-top { display: flex; flex-wrap: wrap; align-items: center; gap: 0.8rem; margin-bottom: 1.2rem; }
+    .tag { background: var(--gold); color: var(--night); padding: 5px 12px; border-radius: 4px; font-size: 0.72rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.08em; }
+    .meta-text { color: var(--muted); font-size: 0.82rem; }
+    .article-wrapper h1 { font-family: 'Cormorant Garamond', serif; font-size: 2.4rem; font-weight: 600; color: var(--star); line-height: 1.2; margin-bottom: 1.2rem; }
+    .article-intro { font-size: 1.1rem; color: var(--text); line-height: 1.7; margin-bottom: 2rem; font-weight: 300; }
+    .author-box { display: flex; align-items: center; gap: 1rem; margin-bottom: 1.5rem; padding: 1rem; background: var(--card); border-radius: 8px; border: 1px solid var(--border); }
+    .author-avatar { font-size: 2.5rem; }
+    .author-name { color: var(--star); font-weight: 500; }
+    .author-name a { color: var(--gold); text-decoration: none; }
+    .author-role { color: var(--muted); font-size: 0.82rem; }
+    .disclosure-box { background: rgba(201, 168, 76, 0.08); border: 1px solid rgba(201, 168, 76, 0.2); border-radius: 8px; padding: 1rem 1.2rem; font-size: 0.82rem; color: var(--muted); margin-bottom: 2rem; }
+    .article-wrapper h2 { font-family: 'Cormorant Garamond', serif; font-size: 1.6rem; font-weight: 600; color: var(--star); margin: 2.5rem 0 1rem; padding-top: 1rem; }
+    .article-wrapper h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.2rem; color: var(--star); margin: 1.5rem 0 0.8rem; }
+    .article-wrapper p { margin-bottom: 1rem; font-weight: 300; line-height: 1.8; }
+    .article-wrapper ul, .article-wrapper ol { margin: 1rem 0 1.5rem 1.5rem; }
+    .article-wrapper li { margin-bottom: 0.5rem; font-weight: 300; }
+    .callout { background: var(--card); border-left: 3px solid var(--gold); padding: 1rem 1.5rem; margin: 1.5rem 0; border-radius: 0 8px 8px 0; font-size: 0.92rem; }
+
+    .product-cta { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 1.5rem; margin: 2rem 0; display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem; }
+    .product-cta-text { color: var(--star); font-weight: 500; }
+    .btn-amazon { background: var(--gold); color: var(--night); text-decoration: none; padding: 10px 20px; border-radius: 6px; font-weight: 600; font-size: 0.88rem; transition: background 0.2s; }
+    .btn-amazon:hover { background: var(--gold-light); }
+
+    .article-cta { background: linear-gradient(135deg, var(--card), var(--navy)); border: 1px solid var(--border); border-radius: 12px; padding: 2rem; text-align: center; margin: 3rem 0; }
+    .article-cta h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.4rem; color: var(--star); margin-bottom: 0.8rem; }
+    .article-cta p { color: var(--muted); margin-bottom: 1.2rem; }
+
+    .related-articles { margin: 3rem 0; }
+    .related-articles h3 { font-family: 'Cormorant Garamond', serif; font-size: 1.3rem; color: var(--star); margin-bottom: 1rem; }
+    .related-articles ul { list-style: none; margin: 0; }
+    .related-articles li { margin-bottom: 0.6rem; }
+    .related-articles a { color: var(--gold); text-decoration: none; font-size: 0.95rem; }
+    .related-articles a:hover { text-decoration: underline; }
+
+    footer { background: #060912; border-top: 1px solid var(--border); padding: 50px 6% 30px; }
+    .footer-top { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 3rem; margin-bottom: 3rem; padding-bottom: 3rem; border-bottom: 1px solid var(--border); }
+    .footer-brand p { color: var(--muted); font-size: 0.82rem; margin-top: 0.8rem; line-height: 1.6; font-weight: 300; max-width: 260px; }
+    .footer-col h4 { font-size: 0.78rem; font-weight: 600; letter-spacing: 0.1em; text-transform: uppercase; color: var(--gold); margin-bottom: 1rem; }
+    .footer-col ul { list-style: none; display: flex; flex-direction: column; gap: 0.6rem; }
+    .footer-col a { color: var(--muted); text-decoration: none; font-size: 0.85rem; transition: color 0.2s; }
+    .footer-col a:hover { color: var(--gold); }
+    .footer-bottom { display: flex; justify-content: space-between; font-size: 0.78rem; color: var(--muted); flex-wrap: wrap; gap: 0.5rem; }
+    .affiliate-disc { font-size: 0.75rem; max-width: 600px; }
+
+    @media (max-width: 900px) {
+      .nav-links { display: none; }
+      .article-wrapper h1 { font-size: 1.8rem; }
+      .footer-top { grid-template-columns: 1fr 1fr; }
+      .product-cta { flex-direction: column; text-align: center; }
+    }
+  </style>
+</head>
+
+<body>
+  <nav>
+    <a class="logo" href="../">SleepWise<span>Reviews</span></a>
+    <ul class="nav-links">
+      <li><a href="../#picks">Top Picks</a></li>
+      <li><a href="../#reviews">Reviews</a></li>
+      <li><a href="../pages/about.html">About Harry</a></li>
+      <li><a href="../#newsletter" class="nav-cta">Free Sleep Guide</a></li>
+    </ul>
+  </nav>
+
+  <article class="article-wrapper">
+    <div class="article-meta-top">
+      <span class="tag">Sleep Science</span>
+      <span class="meta-text">📅 June 2022 · ⏱ 7 min read · 🔄 Updated Mar 2026</span>
+    </div>
+
+    <h1>Thyroid Disorders and Sleep: What Hypo and Hyperthyroid Patients Need to Know</h1>
+
+    <p class="article-intro">Both over- and under-active thyroids disrupt sleep — but in completely opposite ways. Hypothyroidism pushes you toward excessive daytime sleepiness; hyperthyroidism keeps you wired and unable to fall asleep. Standard sleep advice treats them the same way, and that's a problem.</p>
+
+    <div class="author-box">
+      <div class="author-avatar">😴</div>
+      <div class="author-info">
+        <div class="author-name">By <a href="../pages/about.html">Harry Soul</a> - SleepWiseReviews</div>
+        <div class="author-role">Independent Sleep Researcher - June 2022</div>
+      </div>
+    </div>
+
+    <div class="disclosure-box">
+      <strong>Affiliate Disclosure:</strong> This article contains affiliate links. We earn a small commission if you purchase through our links at no extra cost to you. <a href="../pages/affiliate-disclosure.html" style="color:var(--gold)">Full disclosure</a>
+    </div>
+
+    <h2>How Thyroid Hormones Shape Your Sleep Architecture</h2>
+
+    <p>The thyroid gland sits at the base of your neck and produces two hormones — thyroxine (T4) and triiodothyronine (T3) — that regulate metabolism across nearly every cell in your body. What most people don't realize is that these same hormones are deeply woven into the machinery that controls your sleep-wake cycle.</p>
+
+    <p>Thyroid hormones influence core body temperature, heart rate, and the rate at which your nervous system fires — all of which are critical levers in the sleep process. As sleep researcher W. Chris Winter explains in <em>The Sleep Solution</em>, the body needs a precise drop in core temperature to initiate and maintain deep sleep (Winter, 2017). When thyroid output is dysregulated — too high or too low — that temperature cascade is disrupted, and the downstream effect on sleep quality is significant.</p>
+
+    <p>Thyroid-stimulating hormone (TSH) itself follows a circadian rhythm, peaking in the late evening and falling through the night. This means thyroid function and sleep are not merely related — they are co-regulated. Disrupting one reliably disrupts the other. Understanding which direction your thyroid is misfiring is therefore the first step to understanding what your sleep problem actually is.</p>
+
+    <div class="callout">🧪 <strong>Key finding:</strong> Research published in the <em>Journal of Clinical Endocrinology &amp; Metabolism</em> shows that even subclinical hypothyroidism — where TSH is mildly elevated but T4 remains normal — is associated with measurable reductions in slow-wave (deep) sleep. You don't need a full-blown diagnosis to feel the effects.</div>
+
+    <h2>Hypothyroidism and Sleep: The Fatigue That Sleep Can't Fix</h2>
+
+    <p>Hypothyroidism — an underactive thyroid — is the more common of the two disorders, affecting roughly 5% of the population, with women over 60 at highest risk. The hallmark symptom most people associate with it is fatigue. But the fatigue of hypothyroidism is not ordinary tiredness. It is a systemic heaviness that sleep does not relieve, and that distinction matters enormously when trying to improve sleep quality.</p>
+
+    <h3>Why Hypothyroid Patients Sleep Too Much But Still Feel Exhausted</h3>
+
+    <p>When thyroid hormone output drops, the body's metabolic rate slows. Neurotransmitter production — including serotonin and dopamine, which modulate arousal and motivation — becomes sluggish. The result is that patients spend more time in bed, but the sleep they get is architecturally poor: less time in restorative slow-wave sleep, more time in lighter stages, and frequent nighttime awakenings they may not even remember in the morning.</p>
+
+    <p>Compounding this, hypothyroidism significantly increases the risk of obstructive sleep apnea. The thyroid's role in maintaining muscle tone means that a sluggish thyroid can cause the muscles of the upper airway to become lax, allowing them to collapse during sleep. Studies suggest hypothyroid patients have a three- to fivefold higher prevalence of sleep apnea compared to euthyroid individuals. Many patients who are told they have treatment-resistant fatigue are actually suffering from undiagnosed apnea sitting on top of their thyroid condition.</p>
+
+    <ul>
+      <li><strong>Excessive daytime sleepiness (EDS):</strong> The most reported sleep complaint among hypothyroid patients</li>
+      <li><strong>Non-restorative sleep:</strong> Waking feeling as tired as before sleep</li>
+      <li><strong>Increased sleep duration:</strong> Often 9–11 hours with no improvement in energy</li>
+      <li><strong>Elevated sleep apnea risk:</strong> 3–5x higher than the general population</li>
+      <li><strong>Slowed sleep-onset:</strong> Despite fatigue, falling asleep can paradoxically take longer due to reduced serotonin signaling</li>
+    </ul>
+
+    <p>If you have hypothyroidism and your fatigue isn't improving despite adequate levothyroxine dosing, push your physician to order a sleep study before concluding that your thyroid management is simply insufficient. Treating apnea in a hypothyroid patient often produces dramatic improvements that medication dose adjustments never could.</p>
+
+    <h2>Hyperthyroidism and Sleep: When Your Body Won't Let You Wind Down</h2>
+
+    <p>Hyperthyroidism — an overactive thyroid — presents the opposite picture. Excess thyroid hormone acts like a systemic stimulant: heart rate accelerates, body temperature rises, the nervous system runs hot. The sleep consequences are predictable: difficulty falling asleep, frequent nighttime waking, reduced total sleep time, and a persistent sense of internal restlessness that makes lying still feel almost impossible.</p>
+
+    <h3>The Hypermetabolic Sleep Problem</h3>
+
+    <p>From a sleep architecture standpoint, hyperthyroidism compresses sleep: patients spend less time in deep NREM sleep and show abnormal REM patterns. The elevated core body temperature is particularly disruptive. As Winter (2017) notes, the brain requires a drop of approximately 1–3 degrees Fahrenheit in core temperature to successfully transition into and maintain sleep. Hyperthyroidism prevents this thermal decline, keeping the body stuck in a physiological state more compatible with wakefulness than sleep.</p>
+
+    <p>Anxiety and palpitations — common hyperthyroid symptoms — further erode sleep quality. Patients often describe lying awake with a racing heart and racing mind, even when they are profoundly tired. This combination of physiological hyperarousal and psychological anxiety creates a feedback loop: poor sleep worsens anxiety, which further impairs sleep.</p>
+
+    <ul>
+      <li><strong>Sleep-onset insomnia:</strong> The dominant complaint — the body simply won't quiet down</li>
+      <li><strong>Frequent nocturnal awakenings:</strong> Often associated with palpitations or sweating</li>
+      <li><strong>Reduced total sleep time:</strong> Many patients average 4–6 hours even when spending 8+ hours in bed</li>
+      <li><strong>Elevated basal temperature:</strong> Disrupts the thermal drop needed for deep sleep</li>
+      <li><strong>Restless legs and myopathy:</strong> Muscle weakness and involuntary movement, especially in the evening</li>
+    </ul>
+
+    <p>The important clinical point here is that standard sleep hygiene advice — particularly recommendations to "wind down" with relaxation techniques — is necessary but not sufficient for hyperthyroid patients. The hypermetabolic state must be addressed medically before behavioral sleep interventions can be fully effective. Antithyroid medications, radioactive iodine, or surgery are the primary tools, and sleep typically improves markedly once thyroid levels normalize.</p>
+
+    <div class="callout" style="border-left:3px solid var(--green)">💚 <strong>Tonight's action:</strong> If you have hypothyroidism and sleep excessively, prioritize a consistent wake time over a consistent bedtime — this anchors your circadian rhythm even when fatigue makes staying up difficult. If you have hyperthyroidism and struggle to fall asleep, a cool room (65°F/18°C) is more effective than any supplement at reducing the hypermetabolic restlessness.</div>
+
+    <h2>Medication Timing Matters More Than Most Patients Realize</h2>
+
+    <p>For the millions of patients on levothyroxine (Synthroid) for hypothyroidism, the standard advice is to take the medication first thing in the morning on an empty stomach. But a growing body of evidence suggests that bedtime dosing may be equally effective — and for some patients, may produce better absorption and marginally improved thyroid hormone levels, since gastric motility slows during sleep, allowing for more complete absorption.</p>
+
+    <p>A 2010 study published in <em>Archives of Internal Medicine</em> found that bedtime levothyroxine dosing resulted in significantly higher free T4 and lower TSH levels compared to morning dosing. For patients who struggle to maintain a consistent morning routine, or who experience GI side effects from morning dosing, bedtime administration is worth discussing with an endocrinologist.</p>
+
+    <p>For hyperthyroid patients on methimazole or propylthiouracil (PTU), timing is less critical — but the interaction between antithyroid drugs and sleep is worth noting. As these medications normalize thyroid levels over weeks to months, sleep quality typically tracks the hormone levels: as FT4 falls toward normal, sleep onset latency shortens and nighttime awakenings decrease. Tracking your sleep quality alongside your labs can provide useful signal about whether your treatment is working, sometimes before the numbers fully reflect it.</p>
+
+    <h3>Melatonin: Use With Caution in Thyroid Conditions</h3>
+
+    <p>Melatonin is the most commonly used sleep supplement globally, and many thyroid patients reach for it hoping it will fix their sleep problems. The evidence is mixed. For hypothyroid patients with delayed sleep phase or circadian disruption, low-dose melatonin (0.5mg, taken 90 minutes before desired sleep time) can help shift the timing of sleep without the next-day grogginess associated with higher doses. The key word is <em>low-dose</em> — the commonly sold 5–10mg doses are pharmacological, not physiological, and can blunt the body's own melatonin production over time.</p>
+
+    <p>For hyperthyroid patients, melatonin may offer modest benefit for sleep-onset insomnia, but it will not address the underlying hypermetabolic arousal. Think of it as a timing signal, not a sedative. It tells the brain when to sleep; it cannot override a nervous system running at 120%.</p>
+
+    <p>If you do use melatonin, opt for the lowest effective dose. Research consistently shows that 0.5mg is as effective as 5mg for sleep timing, with fewer side effects and less suppression of endogenous production (Winter, 2017).</p>
+
+    <div class="product-cta">
+      <span class="product-cta-text">Low-dose melatonin (0.5mg) for sleep timing support — the dose that research actually backs</span>
+      <a class="btn-amazon" href="https://www.amazon.com/s?k=melatonin+supplement+0.5mg+sleep&tag=sleepwiserevi-20" target="_blank" rel="noopener nofollow">View on Amazon</a>
+    </div>
+
+    <h2>Building a Sleep Strategy Around Your Thyroid Type</h2>
+
+    <p>Generic sleep hygiene advice fails thyroid patients because it ignores the biological direction of the dysfunction. A hypothyroid patient does not need advice about reducing stimulation before bed — they already have too little stimulation. A hyperthyroid patient does not need tips on fighting fatigue and pushing through the day — they are already running on adrenaline. The strategies need to be condition-specific.</p>
+
+    <h3>For Hypothyroid Patients</h3>
+    <ul>
+      <li><strong>Anchor with a fixed wake time:</strong> A consistent alarm — even on days when you feel exhausted — is the single most powerful circadian anchor. It builds sleep pressure through the day, making nighttime sleep more consolidating.</li>
+      <li><strong>Morning light exposure:</strong> Get bright light within 30 minutes of waking. This suppresses residual melatonin and helps counteract the circadian sluggishness that hypothyroidism promotes.</li>
+      <li><strong>Screen for sleep apnea:</strong> If you snore, wake with headaches, or still feel unrefreshed after 8+ hours, ask your doctor for a sleep study. Apnea is undertreated in this population.</li>
+      <li><strong>Avoid sleep extension:</strong> Spending more time in bed rarely helps and often worsens sleep quality by fragmenting it further. Keep your sleep window to 7–8 hours maximum.</li>
+    </ul>
+
+    <h3>For Hyperthyroid Patients</h3>
+    <ul>
+      <li><strong>Cool the bedroom aggressively:</strong> Target 65°F (18°C) or cooler. This is not a comfort preference — it is a therapeutic intervention that directly addresses the elevated core temperature preventing sleep onset.</li>
+      <li><strong>Avoid evening exercise:</strong> Physical activity further raises core temperature and heart rate. Move your workouts to morning or early afternoon until thyroid levels normalize.</li>
+      <li><strong>Limit caffeine strictly:</strong> Hyperthyroidism already mimics caffeine's effects systemically. Any additional stimulant load dramatically extends sleep latency.</li>
+      <li><strong>Try progressive muscle relaxation:</strong> Of the cognitive-behavioral techniques for insomnia, PMR is most relevant here — it directly counters the physical tension that hypermetabolism generates. Practice it as a pre-sleep ritual, not as a cure.</li>
+      <li><strong>Track sleep alongside labs:</strong> Note sleep quality in a simple journal. Improvement in sleep often mirrors improving thyroid levels and serves as a useful between-appointment feedback tool.</li>
+    </ul>
+
+    <div class="article-cta">
+      <h3>Get Our Free 7-Day Sleep Reset</h3>
+      <p>Join 18,000 readers who get weekly sleep tips and honest product reviews every Sunday.</p>
+      <a class="btn-amazon" href="../#newsletter">Subscribe Free</a>
+    </div>
+
+    <div class="related-articles">
+      <h3>Related Articles</h3>
+      <ul>
+        <li><a href="alcohol-sleep-quality.html">Why Alcohol Is the Worst Sleep Aid (Despite Making You Drowsy)</a></li>
+        <li><a href="article-magnesium-sleep.html">Best Magnesium for Sleep: Glycinate vs Citrate vs Threonate</a></li>
+        <li><a href="aging-and-sleep.html">How Sleep Changes as You Age — And What to Do About It</a></li>
+        <li><a href="adenosine-sleep-drive.html">Adenosine and Sleep Pressure: The Science Behind Why You Get Tired</a></li>
+      </ul>
+    </div>
+  </article>
+
+  <footer>
+    <div class="footer-top">
+      <div class="footer-brand">
+        <a class="logo" href="../">SleepWise<span>Reviews</span></a>
+        <p>Honest, science-backed reviews to help you sleep deeper, recover faster, and wake up energized.</p>
+      </div>
+      <div class="footer-col">
+        <h4>Reviews</h4>
+        <ul>
+          <li><a href="https://www.amazon.com/s?k=weighted+blanket&tag=sleepwiserevi-20" target="_blank">Weighted Blankets</a></li>
+          <li><a href="https://www.amazon.com/s?k=white+noise+machine&tag=sleepwiserevi-20" target="_blank">White Noise Machines</a></li>
+          <li><a href="https://www.amazon.com/s?k=sleep+supplements&tag=sleepwiserevi-20" target="_blank">Supplements</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Guides</h4>
+        <ul>
+          <li><a href="../#picks">Sleep Optimization</a></li>
+          <li><a href="../#reviews">Bedtime Routines</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Site</h4>
+        <ul>
+          <li><a href="../pages/about.html">About Harry Soul</a></li>
+          <li><a href="../pages/privacy-policy.html">Privacy Policy</a></li>
+          <li><a href="../pages/affiliate-disclosure.html">Affiliate Disclosure</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div>© 2025 SleepWiseReviews. All rights reserved.</div>
+      <div class="affiliate-disc">SleepWiseReviews is a participant in the Amazon Services LLC Associates Program.</div>
+    </div>
+  </footer>
+</body>
+</html>
