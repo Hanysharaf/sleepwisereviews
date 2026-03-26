@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2026-03-25T16:53:36.233070+00:00",
+  "last_updated": "2026-03-26T06:56:58.269743+00:00",
   "description": "Pre-written content queue - NO API credits needed! Add more using Claude Code sessions.",
   "daily_tips": [
     {
@@ -102,7 +102,8 @@
     {
       "id": "tip_017",
       "content": "Your pillow height matters! Side sleepers need higher pillows, back sleepers need medium, stomach sleepers need flat.",
-      "sent": false
+      "sent": true,
+      "sent_at": "2026-03-26T06:56:58.269729+00:00"
     },
     {
       "id": "tip_018",
