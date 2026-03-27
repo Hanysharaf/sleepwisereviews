@@ -556,5 +556,11 @@
     "task": "daily_tip",
     "success": true,
     "details": "Daily tip sent: tip_018"
+  },
+  {
+    "timestamp": "2026-03-27T08:39:50.393129+00:00",
+    "task": "weekly_task",
+    "success": true,
+    "details": "Weekly task sent"
   }
 ]
