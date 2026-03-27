@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2026-03-26T16:52:55.257971+00:00",
+  "last_updated": "2026-03-27T06:56:36.358451+00:00",
   "description": "Pre-written content queue - NO API credits needed! Add more using Claude Code sessions.",
   "daily_tips": [
     {
@@ -108,7 +108,8 @@
     {
       "id": "tip_018",
       "content": "Naps are best kept under 20 minutes to avoid sleep inertia. The ideal nap time is between 1-3 PM.",
-      "sent": false
+      "sent": true,
+      "sent_at": "2026-03-27T06:56:36.358439+00:00"
     },
     {
       "id": "tip_019",
