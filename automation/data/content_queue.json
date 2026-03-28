@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2026-03-28T06:45:21.635191+00:00",
+  "last_updated": "2026-03-28T12:31:59.614700+00:00",
   "description": "Pre-written content queue - NO API credits needed! Add more using Claude Code sessions.",
   "daily_tips": [
     {
@@ -286,7 +286,8 @@
         "#SleepScience"
       ],
       "product_link": "https://www.amazon.com/s?k=blue+light+blocking+glasses&tag=sleepwiserevi-20",
-      "sent": false
+      "sent": true,
+      "sent_at": "2026-03-28T12:31:59.614685+00:00"
     },
     {
       "id": "ig_009",
