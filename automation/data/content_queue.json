@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2026-03-27T16:42:10.139203+00:00",
+  "last_updated": "2026-03-28T06:45:21.635191+00:00",
   "description": "Pre-written content queue - NO API credits needed! Add more using Claude Code sessions.",
   "daily_tips": [
     {
@@ -114,7 +114,8 @@
     {
       "id": "tip_019",
       "content": "A warm bath 1-2 hours before bed helps. As your body cools down afterward, it triggers sleepiness.",
-      "sent": false
+      "sent": true,
+      "sent_at": "2026-03-28T06:45:21.635178+00:00"
     },
     {
       "id": "tip_020",
