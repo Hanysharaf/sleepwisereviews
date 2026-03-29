@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2026-03-28T16:21:30.148726+00:00",
+  "last_updated": "2026-03-29T06:52:50.627467+00:00",
   "description": "Pre-written content queue - NO API credits needed! Add more using Claude Code sessions.",
   "daily_tips": [
     {
@@ -120,7 +120,8 @@
     {
       "id": "tip_020",
       "content": "Reserve your bed for sleep only. Working or watching TV in bed weakens the mental association with rest.",
-      "sent": false
+      "sent": true,
+      "sent_at": "2026-03-29T06:52:50.627454+00:00"
     },
     {
       "id": "tip_021",
