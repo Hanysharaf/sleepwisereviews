@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2026-03-29T06:52:50.627467+00:00",
+  "last_updated": "2026-03-29T12:31:57.742691+00:00",
   "description": "Pre-written content queue - NO API credits needed! Add more using Claude Code sessions.",
   "daily_tips": [
     {
@@ -307,7 +307,8 @@
         "#SleepHacks"
       ],
       "product_link": "https://www.amazon.com/s?k=sleep+tracker&tag=sleepwiserevi-20",
-      "sent": false
+      "sent": true,
+      "sent_at": "2026-03-29T12:31:57.742679+00:00"
     },
     {
       "id": "ig_010",
