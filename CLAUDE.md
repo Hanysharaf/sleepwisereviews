@@ -9,23 +9,23 @@ A sleep product review website built as a static HTML site hosted on GitHub Page
 - **Pinterest**: https://www.pinterest.com/sleepwisereviews (Board ID: 1104437646027276054)
 - **Instagram**: https://www.instagram.com/sleepwise.reviews
 
-## Current Automation Status (March 2026)
+## Analytics (added 2026-04-01)
+- **Google Analytics 4**: G-ZKGY2B72WH — injected into all 160 HTML pages
+- **Google Search Console**: Verified via GA tag, sitemap.xml submitted (30 pages discovered)
+- **Amazon Associates**: March 2026 — 38 clicks, $0.00 earnings, 0 conversions
+- **Email**: Brevo form exists — check subscriber count at app.brevo.com
+- **dream/ folder**: Evaluation workspace with audit, revenue-log, content-gaps, weekly-check
+
+## Automation Status
 
 ### Working:
+- n8n Cloud: 3 Pinterest pins/day (free, live)
 - Telegram notifications (daily tips, content reminders, reports)
-- Content queue with 10 Pinterest pins ready
-- Daily report showing stats and website link
 - GitHub Actions runs every 2 hours
 
-### Simulation Mode (Not Fully Automated):
-- Pinterest posting generates simulated URLs
-- Content sent to Telegram for manual posting
-- Full automation requires Buffer ($6/mo) or Tailwind ($15/mo)
-
-### Why Pinterest API Doesn't Work:
-- Pinterest API requires business app approval
-- Activepieces integration has API errors
-- Direct API token gives "consumer type not supported" error
+### Not Automated:
+- Instagram — decision pending (in or out)
+- Pinterest direct API still blocked ("consumer type not supported")
 
 ## Folder Structure
 ```

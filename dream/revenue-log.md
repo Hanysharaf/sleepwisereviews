@@ -6,7 +6,8 @@ _Updated monthly from Amazon Associates dashboard_
 
 | Month | Clicks | Orders | Earnings ($) | Notes |
 |-------|--------|--------|--------------|-------|
-| 2026-04 | — | — | — | First log entry |
+| 2026-03 | 38 | 0 | $0.00 | First data — links working, 0 conversions |
+| 2026-04 | — | — | — | Check end of month |
 
 ---
 

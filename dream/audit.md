@@ -13,10 +13,10 @@ _Last updated: 2026-04-01_
 | Articles published | 151 |
 | Affiliate tag | sleepwiserevi-20 |
 | Pinterest automation | ✅ n8n — 3 pins/day |
-| Google Analytics | ❌ Not connected |
-| Google Search Console | ❌ Not connected |
-| Email list | ❌ Not set up |
-| Instagram | ❌ Manual only |
+| Google Analytics | ✅ G-ZKGY2B72WH — live 2026-04-01 |
+| Google Search Console | ✅ Verified + sitemap submitted 2026-04-01 |
+| Email list | ⚠️ Brevo form exists — verify subscribers |
+| Instagram | ❌ Manual only — decision pending |
 
 ---
 
@@ -36,10 +36,10 @@ _Last updated: 2026-04-01_
 
 | Metric | Value |
 |--------|-------|
-| Total clicks (all time) | — |
-| Total orders | — |
-| Total earnings | — |
-| Best-performing article | — |
+| March 2026 clicks | 38 |
+| March 2026 orders | 0 |
+| March 2026 earnings | $0.00 |
+| Conversion rate | 0.00% — links work, no purchases yet |
 
 ---
 
@@ -58,5 +58,6 @@ _Last updated: 2026-04-01_
 ## Open Decisions
 
 - [ ] Instagram: in or out?
-- [ ] Email list: which provider?
-- [ ] GA4 tracking ID: add to all HTML pages
+- [x] GA4 tracking ID: added to all 160 HTML pages 2026-04-01
+- [x] Search Console: verified + sitemap submitted 2026-04-01
+- [ ] Brevo email list: check subscriber count, add form to top articles if < 10 subs
