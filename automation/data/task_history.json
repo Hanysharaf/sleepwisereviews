@@ -1,11 +1,5 @@
 [
   {
-    "timestamp": "2026-03-11T20:24:08.030710+00:00",
-    "task": "daily_summary",
-    "success": true,
-    "details": "Daily summary sent"
-  },
-  {
     "timestamp": "2026-03-12T06:40:48.398997+00:00",
     "task": "daily_tip",
     "success": true,
@@ -598,5 +592,11 @@
     "task": "engagement_tips",
     "success": true,
     "details": "Engagement reminder sent: eng_010"
+  },
+  {
+    "timestamp": "2026-04-01T20:34:43.126119+00:00",
+    "task": "daily_summary",
+    "success": true,
+    "details": "Daily summary with links sent"
   }
 ]
