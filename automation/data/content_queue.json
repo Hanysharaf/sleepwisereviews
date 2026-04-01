@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2026-03-31T16:47:41.790588+00:00",
+  "last_updated": "2026-04-01T12:54:32.892179+00:00",
   "description": "Pre-written content queue - NO API credits needed! Add more using Claude Code sessions.",
   "daily_tips": [
     {
@@ -367,7 +367,8 @@
         "#SleepHacks"
       ],
       "product_link": "https://www.amazon.com/s?k=light+therapy+lamp&tag=sleepwiserevi-20",
-      "sent": false
+      "sent": true,
+      "sent_at": "2026-04-01T12:54:32.892165+00:00"
     }
   ],
   "engagement_messages": [
