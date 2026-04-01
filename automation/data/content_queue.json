@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2026-04-01T12:54:32.892179+00:00",
+  "last_updated": "2026-04-01T16:43:26.919257+00:00",
   "description": "Pre-written content queue - NO API credits needed! Add more using Claude Code sessions.",
   "daily_tips": [
     {
@@ -429,7 +429,8 @@
     {
       "id": "eng_010",
       "message": "Review your top 5 Amazon affiliate links. Are the products still available and well-reviewed? Update if needed.",
-      "sent": false
+      "sent": true,
+      "sent_at": "2026-04-01T16:43:26.919238+00:00"
     },
     {
       "id": "eng_011",
