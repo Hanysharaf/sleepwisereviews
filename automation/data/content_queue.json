@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2026-04-02T12:47:27.469167+00:00",
+  "last_updated": "2026-04-02T16:44:48.374701+00:00",
   "description": "Pre-written content queue - NO API credits needed! Add more using Claude Code sessions.",
   "daily_tips": [
     {
@@ -424,7 +424,8 @@
     {
       "id": "eng_011",
       "message": "Follow 10 accounts in your niche on Instagram. Genuine engagement often leads to follow-backs and collaboration opportunities.",
-      "sent": false
+      "sent": true,
+      "sent_at": "2026-04-02T16:44:48.374688+00:00"
     },
     {
       "id": "eng_012",
