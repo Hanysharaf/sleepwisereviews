@@ -15,7 +15,7 @@ _Last updated: 2026-04-01_
 | Pinterest automation | ✅ n8n — 3 pins/day |
 | Google Analytics | ✅ G-ZKGY2B72WH — live 2026-04-01 |
 | Google Search Console | ✅ Verified + sitemap submitted 2026-04-01 |
-| Email list | ⚠️ Brevo form exists — verify subscribers |
+| Email list | ❌ Brevo account exists, 1 subscriber (you) — form not embedded in site |
 | Instagram | ❌ Manual only — decision pending |
 
 ---
@@ -60,4 +60,4 @@ _Last updated: 2026-04-01_
 - [ ] Instagram: in or out?
 - [x] GA4 tracking ID: added to all 160 HTML pages 2026-04-01
 - [x] Search Console: verified + sitemap submitted 2026-04-01
-- [ ] Brevo email list: check subscriber count, add form to top articles if < 10 subs
+- [ ] Embed Brevo signup form into homepage + top 5 articles (currently 0 real subscribers)
