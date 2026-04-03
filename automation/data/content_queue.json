@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2026-04-02T16:44:48.374701+00:00",
+  "last_updated": "2026-04-03T06:57:27.230736+00:00",
   "description": "Pre-written content queue - NO API credits needed! Add more using Claude Code sessions.",
   "daily_tips": [
     {
@@ -126,7 +126,8 @@
     {
       "id": "tip_021",
       "content": "Chamomile tea contains apigenin, which binds to receptors in your brain that promote sleepiness.",
-      "sent": false
+      "sent": true,
+      "sent_at": "2026-04-03T06:57:27.230723+00:00"
     }
   ],
   "instagram_captions": [
