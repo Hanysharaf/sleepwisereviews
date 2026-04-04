@@ -1,133 +1,113 @@
 {
   "version": "1.0",
-  "last_updated": "2026-04-03T16:28:26.898385+00:00",
+  "last_updated": "2026-04-04T06:47:11.990058+00:00",
   "description": "Pre-written content queue - NO API credits needed! Add more using Claude Code sessions.",
   "daily_tips": [
     {
       "id": "tip_001",
       "content": "Keep your bedroom at 65-68F (18-20C) for optimal sleep. Your body temperature needs to drop for quality rest.",
       "sent": true,
-      "sent_at": "2026-03-09T06:49:32.073164+00:00"
+      "sent_at": "2026-04-04T06:47:11.990044+00:00"
     },
     {
       "id": "tip_002",
       "content": "Stop caffeine 8-10 hours before bed. That afternoon coffee might be why you can't fall asleep!",
-      "sent": true,
-      "sent_at": "2026-03-10T06:36:02.987054+00:00"
+      "sent": false
     },
     {
       "id": "tip_003",
       "content": "Blue light from screens suppresses melatonin. Use night mode or stop screens 1 hour before bed.",
-      "sent": true,
-      "sent_at": "2026-03-11T06:39:10.790627+00:00"
+      "sent": false
     },
     {
       "id": "tip_004",
       "content": "Exercise improves sleep quality, but finish workouts 3-4 hours before bed to avoid being too energized.",
-      "sent": true,
-      "sent_at": "2026-03-12T06:40:48.398228+00:00"
+      "sent": false
     },
     {
       "id": "tip_005",
       "content": "Consistent sleep schedule is key! Go to bed and wake up at the same time, even on weekends.",
-      "sent": true,
-      "sent_at": "2026-03-13T06:38:43.578732+00:00"
+      "sent": false
     },
     {
       "id": "tip_006",
       "content": "Weighted blankets (7-12% of body weight) can reduce anxiety and improve sleep quality through deep pressure therapy.",
-      "sent": true,
-      "sent_at": "2026-03-14T06:34:37.769220+00:00"
+      "sent": false
     },
     {
       "id": "tip_007",
       "content": "White noise masks disruptive sounds and creates a consistent audio environment for better sleep.",
-      "sent": true,
-      "sent_at": "2026-03-15T06:43:38.073812+00:00"
+      "sent": false
     },
     {
       "id": "tip_008",
       "content": "Avoid large meals 2-3 hours before bed. Digestion can disrupt your sleep quality.",
-      "sent": true,
-      "sent_at": "2026-03-17T06:52:04.975914+00:00"
+      "sent": false
     },
     {
       "id": "tip_009",
       "content": "Magnesium glycinate helps relax muscles and calm the nervous system. Take 200-400mg 1 hour before bed.",
-      "sent": true,
-      "sent_at": "2026-03-18T06:50:48.421894+00:00"
+      "sent": false
     },
     {
       "id": "tip_010",
       "content": "Your mattress matters! Replace every 7-10 years. A sagging mattress can cause back pain and poor sleep.",
-      "sent": true,
-      "sent_at": "2026-03-19T06:44:41.176149+00:00"
+      "sent": false
     },
     {
       "id": "tip_011",
       "content": "The 4-7-8 breathing technique: Inhale 4 sec, hold 7 sec, exhale 8 sec. Repeat 4x to calm your nervous system.",
-      "sent": true,
-      "sent_at": "2026-03-20T06:41:18.818660+00:00"
+      "sent": false
     },
     {
       "id": "tip_012",
       "content": "Alcohol may help you fall asleep but disrupts REM sleep. Avoid drinking 3+ hours before bed.",
-      "sent": true,
-      "sent_at": "2026-03-21T06:30:50.072310+00:00"
+      "sent": false
     },
     {
       "id": "tip_013",
       "content": "Complete darkness is essential. Even small lights from electronics can disrupt melatonin production.",
-      "sent": true,
-      "sent_at": "2026-03-22T06:38:16.138196+00:00"
+      "sent": false
     },
     {
       "id": "tip_014",
       "content": "Can't sleep after 20 minutes? Get up and do something relaxing until you feel sleepy. Don't toss and turn.",
-      "sent": true,
-      "sent_at": "2026-03-23T06:57:49.649957+00:00"
+      "sent": false
     },
     {
       "id": "tip_015",
       "content": "Lavender essential oil has been shown to improve sleep quality. Try a few drops on your pillow.",
-      "sent": true,
-      "sent_at": "2026-03-24T06:52:28.402440+00:00"
+      "sent": false
     },
     {
       "id": "tip_016",
       "content": "Morning sunlight exposure helps set your circadian rhythm. Get 10-30 min of natural light after waking.",
-      "sent": true,
-      "sent_at": "2026-03-25T06:51:29.534345+00:00"
+      "sent": false
     },
     {
       "id": "tip_017",
       "content": "Your pillow height matters! Side sleepers need higher pillows, back sleepers need medium, stomach sleepers need flat.",
-      "sent": true,
-      "sent_at": "2026-03-26T06:56:58.269729+00:00"
+      "sent": false
     },
     {
       "id": "tip_018",
       "content": "Naps are best kept under 20 minutes to avoid sleep inertia. The ideal nap time is between 1-3 PM.",
-      "sent": true,
-      "sent_at": "2026-03-27T06:56:36.358439+00:00"
+      "sent": false
     },
     {
       "id": "tip_019",
       "content": "A warm bath 1-2 hours before bed helps. As your body cools down afterward, it triggers sleepiness.",
-      "sent": true,
-      "sent_at": "2026-03-28T06:45:21.635178+00:00"
+      "sent": false
     },
     {
       "id": "tip_020",
       "content": "Reserve your bed for sleep only. Working or watching TV in bed weakens the mental association with rest.",
-      "sent": true,
-      "sent_at": "2026-03-29T06:52:50.627454+00:00"
+      "sent": false
     },
     {
       "id": "tip_021",
       "content": "Chamomile tea contains apigenin, which binds to receptors in your brain that promote sleepiness.",
-      "sent": true,
-      "sent_at": "2026-04-03T06:57:27.230723+00:00"
+      "sent": false
     }
   ],
   "instagram_captions": [
