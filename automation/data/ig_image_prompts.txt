@@ -11,14 +11,24 @@
 
 --------------------------------------------------------------
 IG-001 | Carousel
-SAVE PATH: O:\MyFiles\Projects\SleepReviewes\images\instagram\ig-001.png
-PROMPT: Premium lifestyle advertising photography for a luxury sleep wellness brand. Beautiful radiant woman in her late 20s wrapped in a soft weighted blanket on a plush sofa, serene smile, warm evening candlelight glow. Elegant minimalist living room, cream and warm neutral tones. Editorial lifestyle photography series. Commercial quality, sharp focus, shallow depth of field. No text, no logos. Square 1:1 crop.
+PHOTO: ig-001/s1.png
+PROMPT: Woman in late 20s pressing both hands into a mattress, examining it thoughtfully, bright natural bedroom light. Educational lifestyle editorial photography. No text, no logos. Square 1:1 crop.
+HOOK: You don't need to spend $3,000 on a mattress. Here's what actually works
+POINT-1: 💰 Best picks under $500 | Casper Element, Nectar Classic & Tuft+Needle outscored mattresses at 3x the price in our pressure tests
+POINT-2: 🛏️ Match your sleep position | Side: soft-medium. Back: medium-firm. Stomach: firm. Wrong choice = neck pain every single morning
+POINT-3: ⚖️ Body type matters | Over 220 lbs? Skip all-foam — edges collapse within a year. You need a hybrid with a steel coil base
+CTA: Full review → sleepwisereviews.com
 --------------------------------------------------------------
 
 --------------------------------------------------------------
-IG-002 | Reel
-SAVE PATH: O:\MyFiles\Projects\SleepReviewes\images\instagram\ig-002.png
-PROMPT: Premium lifestyle advertising photography for a luxury sleep wellness brand. Beautiful radiant woman in her late 20s sleeping comfortably on her side, supportive pillow tucked between her knees, peaceful bedroom scene, soft dawn light through sheer curtains. Dynamic editorial frame, crisp depth of field, lifestyle magazine quality. No text, no logos. Square 1:1 crop.
+IG-002 | Carousel
+PHOTO: ig-002/s1.png
+PROMPT: Woman in late 20s sleeping on her side, supportive pillow under her head, peaceful bedroom, soft dawn light through sheer curtains. No text, no logos. Square 1:1 crop.
+HOOK: Side sleepers wake up with neck pain for one reason: the wrong pillow height
+POINT-1: 📏 Loft height is everything | Side sleepers need high loft to fill the neck-to-mattress gap
+POINT-2: 🧠 Fill type matters | Memory foam holds shape; down compresses and loses support overnight
+POINT-3: 💪 Go medium-firm | It keeps your spine aligned from shoulder to ear all night
+CTA: Our top 3 picks for side sleepers → sleepwisereviews.com
 --------------------------------------------------------------
 
 --------------------------------------------------------------
@@ -65,8 +75,13 @@ PROMPT: Premium lifestyle advertising photography for a luxury sleep wellness br
 
 --------------------------------------------------------------
 IG-010 | Carousel
-SAVE PATH: O:\MyFiles\Projects\SleepReviewes\images\instagram\ig-010.png
-PROMPT: Premium lifestyle advertising photography for a luxury sleep wellness brand. Beautiful radiant woman in her late 20s examining her mattress thoughtfully, pressing both hands into it, bright natural bedroom light. Educational lifestyle editorial photography. Commercial quality, sharp focus. No text, no logos. Square 1:1 crop.
+PHOTO: ig-010.png
+PROMPT: Woman in late 20s relaxing comfortably on a sofa wrapped in a soft blanket, warm candlelight glow, cozy living room. She looks more at ease than she does in bed. No text, no logos. Square 1:1 crop.
+HOOK: If your sofa puts you to sleep faster than your bed — that's sign #1 your mattress needs to go
+POINT-1: 😴 You wake up stiff every morning | A good mattress should feel better, not worse, by morning
+POINT-2: 🛋️ Your sofa or floor feels better | You've started avoiding your bed without realising it
+POINT-3: 📅 It's over 7-8 years old | Even "good" mattresses lose support after 7 years
+CTA: 7 signs checklist → sleepwisereviews.com
 --------------------------------------------------------------
 
 --------------------------------------------------------------
