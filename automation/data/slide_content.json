@@ -1,0 +1,254 @@
+{
+  "IG-003": {
+    "hook": "We tested 6 weighted blankets for 30 nights. Here's what happened",
+    "points": [
+      "🧪 Real data, not just comfort opinions | 6 blankets tested over 30 nights with sleep tracker — anxiety scores, sleep onset, and deep sleep minutes all measured",
+      "⚖️ Weight matters more than brand | 15% of body weight is the sweet spot — too light does nothing, too heavy restricts movement and raises temperature all night",
+      "🌡️ Fill material controls temperature | Glass bead fills stay cool; plastic pellets trap heat — the single most important factor for hot sleepers choosing a weighted blanket"
+    ],
+    "cta": "Full review -> sleepwisereviews.com"
+  },
+  "IG-004": {
+    "hook": "Sleeping 8 hours isn't the goal — here's what actually matters",
+    "points": [
+      "🔬 Sleep cycles beat clock time | 90-minute cycles matter more than total hours — waking mid-cycle leaves you groggy even after a full night",
+      "🚫 Eating before bed cuts deep sleep | Eating within 2 hours of bed raises core temperature and shortens slow-wave sleep by up to 20%",
+      "📊 REM quality predicts morning energy | Time in deep and REM sleep determines how you feel — not total hours on the clock"
+    ],
+    "cta": "Full review -> sleepwisereviews.com"
+  },
+  "IG-005": {
+    "hook": "Memory foam or hybrid? After 3 months of testing, here's the honest answer",
+    "points": [
+      "🌡️ Heat retention decides the winner | Memory foam traps body heat — hybrids run 3-5°F cooler due to coil airflow underneath",
+      "🛡️ Edge support separates them | Hybrid coils hold the perimeter firm — foam compresses at edges, reducing usable sleep surface by up to 15%",
+      "💫 Motion isolation favors foam | Memory foam absorbs movement better — if you share a bed, foam transfers significantly less partner disturbance"
+    ],
+    "cta": "Full review -> sleepwisereviews.com"
+  },
+  "IG-006": {
+    "hook": "One device changed how fast I fall asleep. Here's what it is",
+    "points": [
+      "🔇 Masking beats silence every time | White noise covers sudden sounds that pull you from light sleep — silence leaves you exposed to every creak and car",
+      "💰 Our $30 pick beat the $180 model | Budget white noise machines outscored premium options in blind tests for masking consistency and volume range",
+      "🎚️ Fan-based vs digital matters | Mechanical fans produce natural, varied tone — digital loops repeat and some sleepers detect the cycle after a few nights"
+    ],
+    "cta": "Full review -> sleepwisereviews.com"
+  },
+  "IG-007": {
+    "hook": "I wore all 3 for 60 days. Only one is actually worth the money",
+    "points": [
+      "📊 Oura matched clinical accuracy closest | Oura Ring aligned with lab polysomnography data better than Whoop or Garmin for sleep stage detection",
+      "💡 They solve different problems | Garmin excels at fitness metrics — Oura gives sleep-specific insight — Whoop sits awkwardly between the two",
+      "💸 Oura wins total cost over 2 years | Oura: $299 one-time. Whoop: $0 device but $360/year subscription — that's $720 more for less sleep insight"
+    ],
+    "cta": "Full review -> sleepwisereviews.com"
+  },
+  "IG-008": {
+    "hook": "Every sleep expert agrees on these 4 steps. Most people skip 2 of them",
+    "points": [
+      "🌡️ Temperature is step 1 | Set your room to 65-68°F before bed — most people sleep 5°F too warm, which delays sleep onset by 20+ minutes",
+      "📵 Screens cut melatonin for 2+ hours | Blue light at 460nm delays melatonin release — Night Shift and f.lux help but don't fully compensate after 9pm",
+      "⏰ Fixed wake time is the anchor | Consistent wake time — even weekends — stabilizes your circadian rhythm faster than any supplement on the market"
+    ],
+    "cta": "Full review -> sleepwisereviews.com"
+  },
+  "IG-009": {
+    "hook": "Your mattress might be causing your back pain — not curing it",
+    "points": [
+      "🏥 Medium-firm beats soft and firm | Medium-firm (5-6 out of 10) consistently outperforms other firmness levels for lumbar support across body weights under 200 lbs",
+      "🔄 1-inch sag is the breaking point | Once a mattress sags more than 1 inch at your sleep position, spinal alignment is compromised regardless of the original quality",
+      "⚖️ Body weight changes everything | Over 230 lbs, all-foam mattresses bottom out within 2-3 years — a hybrid coil base maintains proper support significantly longer"
+    ],
+    "cta": "Full review -> sleepwisereviews.com"
+  },
+  "IG-011": {
+    "hook": "Hot sleeper? You don't need a $4,000 mattress. This $80 fix works",
+    "points": [
+      "❄️ Phase-change toppers cost under $100 | PCM-infused toppers regulate surface temperature within 2°F overnight — a fraction of the cost of a cooling mattress",
+      "📐 2 inches is the minimum thickness | Under 2 inches buffers almost no heat — over 3 inches changes the firmness feel of your existing mattress significantly",
+      "🛏️ Pad vs topper is a critical difference | Thin mattress pads do nothing for heat — you need a proper 2-inch topper with gel or PCM fill to see measurable cooling"
+    ],
+    "cta": "Full review -> sleepwisereviews.com"
+  },
+  "IG-012": {
+    "hook": "Melatonin is one of the most misused sleep supplements. Here's why",
+    "points": [
+      "💊 0.5mg works as well as 10mg | Research shows 0.3-0.5mg is the effective dose — most pills are 10-20x that, which can suppress your natural production over time",
+      "⏰ Timing beats dosage every time | Take it 1-2 hours before your target sleep time, not right before bed — melatonin signals timing, not sedation",
+      "🎯 It only fixes circadian problems | Melatonin helps jet lag, shift work, and delayed sleep phase — it has no proven benefit for anxiety-based or chronic insomnia"
+    ],
+    "cta": "Full review -> sleepwisereviews.com"
+  },
+  "IG-013": {
+    "hook": "Even a little light disrupts deep sleep. Here's the fix",
+    "points": [
+      "🔬 1 lux is enough to suppress melatonin | A nightlight or standby LED reduces melatonin by up to 50% — your eyes detect light even through closed eyelids",
+      "🪟 Most blackout curtains aren't blackout | We used a lux meter — 8 of 10 curtains tested let in 15-40% light at the edges. Only 2 achieved true blackout",
+      "🏆 Installation method matters as much as fabric | Standard curtain rods gap at corners — true blackout needs wraparound or tension mount to eliminate all edge light"
+    ],
+    "cta": "Full review -> sleepwisereviews.com"
+  },
+  "IG-014": {
+    "hook": "Change 1 thing in your bedroom every day for 7 days. Here's the order",
+    "points": [
+      "🌡️ Day 1 — Lower the temperature | Drop your thermostat to 67°F at bedtime — this single change improves sleep onset time by an average of 12 minutes",
+      "🔇 Day 3 — Add white noise | A white noise machine at 65dB drowns out household sounds that cause micro-arousals you don't even remember in the morning",
+      "🛏️ Day 7 — Fix your pillow height | Most people sleep on the wrong loft — a pillow that keeps your spine neutral costs under $60 and changes sleep quality immediately"
+    ],
+    "cta": "Full review -> sleepwisereviews.com"
+  },
+  "IG-015": {
+    "hook": "Three of the biggest mattress brands. One honest comparison",
+    "points": [
+      "🟣 Purple edges out on pressure relief | Purple's grid doesn't compress under shoulders — Casper and Nectar both showed more pressure at the hip point in our testing",
+      "💰 Nectar wins on value | Nectar delivers comparable support to Casper at 40% lower price — plus a 365-night trial vs Casper's 100 nights",
+      "🔄 Hybrid outlasts all-foam | Casper Original foam showed 15% more body impression at 12 months than the Casper Wave Hybrid in extended durability testing"
+    ],
+    "cta": "Full review -> sleepwisereviews.com"
+  },
+  "IG-016": {
+    "hook": "I spent $200 on a pillow so you don't have to make the same mistake",
+    "points": [
+      "💡 The $40-70 tier wins | 4 of our top 5 pillows cost between $40-70 — premium $150+ pillows showed no measurable sleep quality improvement in tracker data",
+      "🔄 Fill type matters more than price | Shredded memory foam outperformed solid foam and down alternatives in support consistency and temperature regulation overnight",
+      "📐 Adjustable loft solves the fit problem | Adjustable-fill pillows corrected fit issues for 80% of testers — a fixed-loft pillow that's wrong for your shoulder width can't be fixed"
+    ],
+    "cta": "Full review -> sleepwisereviews.com"
+  },
+  "IG-017": {
+    "hook": "You can't out-diet bad sleep. Here's the science",
+    "points": [
+      "🍔 One bad night increases hunger by 24% | Sleep deprivation raises ghrelin significantly — you consume an average of 385 extra calories the day after poor sleep",
+      "🏋️ Muscle repair needs sleep, not just protein | Growth hormone releases during slow-wave sleep — without 7+ hours, protein intake doesn't convert to muscle recovery effectively",
+      "⚡ Leptin drops 18% after poor sleep | Your fullness signal weakens when sleep-deprived — the urge to overeat isn't willpower failure, it's a direct hormone response"
+    ],
+    "cta": "Full review -> sleepwisereviews.com"
+  },
+  "IG-018": {
+    "hook": "Quick tips: Best Mattresses Under $500 — Honest Reviews",
+    "points": [
+      "💰 Nectar Classic sets the benchmark | At $499 queen, Nectar outscored mattresses at 3x the price in pressure mapping — with a 365-night trial as a safety net",
+      "🛏️ Match firmness to sleep position | Side sleepers: medium-soft. Back sleepers: medium-firm. Wrong firmness causes pain regardless of mattress quality",
+      "⚖️ Hybrid beats foam for heavier sleepers | All-foam under $500 compresses at edges and sags early over 200 lbs — a budget hybrid coil holds shape significantly longer"
+    ],
+    "cta": "Full review -> sleepwisereviews.com"
+  },
+  "IG-019": {
+    "hook": "Quick tips: Side Sleeper Pillow Guide — What to Look For",
+    "points": [
+      "📐 High loft fills the shoulder gap | Side sleepers need 4-6 inch loft to fill the space between shoulder and ear — standard medium pillows cause neck flexion all night",
+      "🧠 Shredded fill holds shape through movement | Solid foam compresses and stays compressed — shredded fill adjusts and recovers as you shift positions during the night",
+      "💪 Medium-firm keeps the spine neutral | Too soft collapses under the head; too firm pushes it up — medium-firm keeps ear, shoulder, and hip in a straight horizontal line"
+    ],
+    "cta": "Full review -> sleepwisereviews.com"
+  },
+  "IG-020": {
+    "hook": "Quick tips: Weighted Blanket Review — Does It Actually Help Anxiety?",
+    "points": [
+      "🧪 Deep pressure stimulation is proven | The pressure activates the parasympathetic nervous system — all 6 blankets we tested reduced reported anxiety scores vs regular blankets",
+      "⚖️ 15% body weight is the target | A 150lb person needs a ~22lb blanket — lighter provides no DPS benefit; heavier restricts movement and raises temperature",
+      "🌡️ Cooling fill is essential for most | Glass bead blankets run 4-6°F cooler than plastic pellet versions — overheating was the #1 reason people stopped using their blanket"
+    ],
+    "cta": "Full review -> sleepwisereviews.com"
+  },
+  "IG-021": {
+    "hook": "Quick tips: 5 Sleep Myths Debunked by Science",
+    "points": [
+      "⏰ Myth: everyone needs exactly 8 hours | Sleep need ranges from 6-9 hours depending on genetics — track your REM and deep sleep totals, not the clock",
+      "🍷 Myth: alcohol helps you fall asleep | Alcohol reduces REM sleep by up to 24% in the second half of the night — you feel sedated but your brain isn't recovering",
+      "🛌 Myth: you can catch up on weekends | Sleeping in on weekends creates social jetlag that shifts your circadian rhythm and takes 3-5 days to recalibrate"
+    ],
+    "cta": "Full review -> sleepwisereviews.com"
+  },
+  "IG-022": {
+    "hook": "Quick tips: Memory Foam vs Hybrid Mattress — Which One Is Right for You?",
+    "points": [
+      "🌡️ Foam sleeps hot, hybrid sleeps cool | Coil systems create airflow that keeps the sleep surface 3-5°F lower — critical difference for anyone who overheats at night",
+      "🛡️ Hybrids hold their edge | Innerspring base prevents the perimeter collapse common in all-foam — you lose usable sleep surface at the edges of foam over time",
+      "🔇 Foam wins on motion isolation | Memory foam absorbs 60% more motion than hybrid coils — if you share a bed and your partner moves, foam makes a real difference"
+    ],
+    "cta": "Full review -> sleepwisereviews.com"
+  },
+  "IG-023": {
+    "hook": "Quick tips: Best White Noise Machines for Deep Sleep",
+    "points": [
+      "🎚️ Fan-based sounds mask better | Mechanical fan noise has natural variation — digital loops repeat every 2-8 minutes and some sleepers subconsciously detect the cycle",
+      "💰 $30 Lectrofan beat $180 Marpac Dohm | In blind masking tests, the budget Lectrofan outscored the premium Dohm on consistency and volume range",
+      "📻 You need at least 65dB at sleep distance | Machines maxing out at 55dB won't cover a snoring partner or street traffic — check the dB spec before buying"
+    ],
+    "cta": "Full review -> sleepwisereviews.com"
+  },
+  "IG-024": {
+    "hook": "Quick tips: Sleep Tracker Comparison — Oura Ring vs Whoop vs Garmin",
+    "points": [
+      "💍 Oura matches lab accuracy closest | Compared against clinical polysomnography, Oura Ring had the lowest error rate for REM and deep sleep stage detection",
+      "💡 Whoop is built for athletes, not sleepers | Whoop's recovery score weights HRV and resting HR for workout timing — sleep stage breakdown is its weakest feature",
+      "💸 Oura wins total cost over 2 years | Oura: $299 one-time. Whoop: $360/year subscription. At 2 years, Whoop costs $720 more for less sleep-specific insight"
+    ],
+    "cta": "Full review -> sleepwisereviews.com"
+  },
+  "IG-025": {
+    "hook": "Quick tips: How to Build a Sleep Routine That Actually Sticks",
+    "points": [
+      "🕰️ Start with wake time, not bedtime | Fix your alarm to the same time 7 days a week first — a consistent wake time stabilizes circadian rhythm within 2 weeks",
+      "📵 The 90-minute screen cutoff | Stop bright screens 90 minutes before bed, not 30 — it takes 90 minutes for blue light's melatonin suppression effect to clear",
+      "🌡️ Temperature drop triggers sleep | Set your thermostat to 67°F one hour before bed — core body temperature drop is the primary physiological trigger for sleep onset"
+    ],
+    "cta": "Full review -> sleepwisereviews.com"
+  },
+  "IG-026": {
+    "hook": "Quick tips: Top 5 Mattresses for Back Pain in 2026",
+    "points": [
+      "🏥 Medium-firm is the clinical standard | Studies consistently show medium-firm (5-6 out of 10) reduces chronic low back pain better than soft or firm across all sleep positions",
+      "🔄 Zoned support beats uniform foam | Mattresses with softer shoulder zones and firmer lumbar zones maintain spinal alignment without sacrificing pressure relief",
+      "⏱️ Trial period matters more than reviews | Back pain improvement takes 3-4 weeks to assess — only buy from brands with 100+ night trials so you can feel the real difference"
+    ],
+    "cta": "Full review -> sleepwisereviews.com"
+  },
+  "IG-027": {
+    "hook": "Quick tips: What Happens to Your Body When You Sleep on a Bad Mattress",
+    "points": [
+      "📈 Cortisol rises after one bad night | Spinal misalignment triggers a physical stress response — waking up tense or sore is your body reporting elevated cortisol",
+      "🔄 Repositioning 3+ times is a warning sign | Waking to shift position more than 3-4 times a night signals pressure point failure — it's the mattress, not insomnia",
+      "⚠️ 7 years is the replacement threshold | Support degrades significantly after 7-8 years even without visible sag — body impressions over 1 inch confirm it's time to replace"
+    ],
+    "cta": "Full review -> sleepwisereviews.com"
+  },
+  "IG-028": {
+    "hook": "Quick tips: Cooling Mattress Pad vs Cooling Mattress — Worth It?",
+    "points": [
+      "💰 Pad costs 10x less for the same result | A $90 PCM topper reduced surface temperature as effectively as a $1,100 cooling mattress in our 30-night blind test",
+      "📐 2-3 inch thickness is the minimum | Thin mattress pads under 1 inch buffer almost no heat — you need a proper topper with gel or phase-change material",
+      "🔄 Your mattress may not need replacing | If it's structurally sound but sleeps hot, a cooling topper is the fastest cheapest fix — replacing the whole mattress for cooling alone is rarely worth it"
+    ],
+    "cta": "Full review -> sleepwisereviews.com"
+  },
+  "IG-029": {
+    "hook": "Quick tips: Melatonin — Is It Actually Helping Your Sleep?",
+    "points": [
+      "⚡ 0.5mg is enough — most pills are 20x that | Low-dose 0.3-0.5mg melatonin is as effective as 10mg and doesn't risk suppressing your body's natural production",
+      "⏰ Take it 90 minutes early, not at bedtime | Melatonin signals your sleep window timing — taken right before bed it's already too late to shift your circadian clock",
+      "🎯 Only effective for circadian disruption | Melatonin consistently helps jet lag, shift workers, and delayed sleep phase — no proven benefit for anxiety-based insomnia"
+    ],
+    "cta": "Full review -> sleepwisereviews.com"
+  },
+  "IG-030": {
+    "hook": "Quick tips: Best Blackout Curtains for Light Sleepers",
+    "points": [
+      "🔬 True blackout needs edge sealing | 8 of 10 curtains we tested let in 15-40% light at rod gaps and sides — only wrap-around or tension-mount systems hit near-zero lux",
+      "🏆 Budget options outperformed premium brands | $35 Nicetown curtains scored better on actual light blockage than $180 Pottery Barn options in our lux meter tests",
+      "🌡️ Blackout doubles as thermal insulation | Curtains with thermal lining reduce room temperature fluctuation — a useful bonus for maintaining that 67°F sleep environment"
+    ],
+    "cta": "Full review -> sleepwisereviews.com"
+  },
+  "IG-031": {
+    "hook": "Quick tips: Bedroom Setup Challenge — 7 Days to Better Sleep",
+    "points": [
+      "🌡️ Day 1 — Temperature to 67°F | This single change improves sleep onset time by 10-12 minutes on average — most people keep bedrooms 5°F too warm without knowing it",
+      "🔇 Day 3 — Block sound and light together | Combining blackout curtains with white noise on day 3 eliminates the two most common causes of nighttime awakening in one step",
+      "🛏️ Day 7 — Fix your pillow loft | A pillow that doesn't match your shoulder width causes neck flexion all night — the correct loft for your sleep position costs under $60"
+    ],
+    "cta": "Full review -> sleepwisereviews.com"
+  }
+}
