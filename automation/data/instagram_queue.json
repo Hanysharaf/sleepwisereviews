@@ -1,1 +1,101 @@
-[]
+[
+  {
+    "id": "ig_001",
+    "topic": "Sleep Temperature",
+    "caption": "Did you know the ideal bedroom temperature for sleep is 65-68F (18-20C)? Your body needs to cool down to fall asleep! Try lowering your thermostat tonight and see the difference.",
+    "hashtags": "#SleepTips #BetterSleep #SleepScience #HealthySleep #SleepWell #RestfulNights #SleepHacks #WellnessJourney #SelfCare #NightRoutine",
+    "image_url": "https://raw.githubusercontent.com/Hanysharaf/sleepwisereviews/main/images/instagram/ig-001.png",
+    "product_link": "https://www.amazon.com/s?k=cooling+mattress+pad&tag=sleepwiserevi-20",
+    "posted": false
+  },
+  {
+    "id": "ig_002",
+    "topic": "Caffeine Timing",
+    "caption": "That 3pm coffee might be ruining your sleep! Caffeine has a half-life of 5-6 hours, meaning half is still in your system. Cut off caffeine by 2pm for better rest tonight.",
+    "hashtags": "#CaffeineFree #SleepBetter #HealthyHabits #SleepTips #Wellness #BetterSleep #NoCaffeine #SleepHygiene #HealthyLifestyle #RestfulSleep",
+    "image_url": "https://raw.githubusercontent.com/Hanysharaf/sleepwisereviews/main/images/instagram/ig-002.png",
+    "product_link": "https://www.amazon.com/s?k=herbal+sleep+tea&tag=sleepwiserevi-20",
+    "posted": false
+  },
+  {
+    "id": "ig_003",
+    "topic": "Weighted Blankets",
+    "caption": "Weighted blankets aren't just cozy - they're science! Deep pressure stimulation triggers your parasympathetic nervous system, reducing anxiety and promoting calm. Game changer for anxious sleepers!",
+    "hashtags": "#WeightedBlanket #AnxietyRelief #DeepSleep #SleepProducts #CozyNights #SleepBetter #Relaxation #StressRelief #SleepWell #BetterSleep",
+    "image_url": "https://raw.githubusercontent.com/Hanysharaf/sleepwisereviews/main/images/instagram/ig-003.png",
+    "product_link": "https://www.amazon.com/s?k=weighted+blanket&tag=sleepwiserevi-20",
+    "posted": false
+  },
+  {
+    "id": "ig_004",
+    "topic": "White Noise",
+    "caption": "Why does white noise help you sleep? It masks sudden noises that would otherwise wake you up. Your brain stays in a consistent sound environment all night. Try it if you're a light sleeper!",
+    "hashtags": "#WhiteNoise #SleepSounds #BetterSleep #SleepTips #LightSleeper #SleepHacks #RestfulNights #SleepWell #SoundSleep #SleepBetter",
+    "image_url": "https://raw.githubusercontent.com/Hanysharaf/sleepwisereviews/main/images/instagram/ig-004.png",
+    "product_link": "https://www.amazon.com/s?k=white+noise+machine&tag=sleepwiserevi-20",
+    "posted": false
+  },
+  {
+    "id": "ig_005",
+    "topic": "Magnesium for Sleep",
+    "caption": "Magnesium is the relaxation mineral! It helps regulate neurotransmitters that calm your nervous system. Most people are deficient. Try magnesium glycinate 1 hour before bed.",
+    "hashtags": "#Magnesium #NaturalSleep #SleepSupplements #SleepNaturally #Wellness #HealthySleep #SleepTips #NaturalRemedies #BetterSleep #SleepWell",
+    "image_url": "https://raw.githubusercontent.com/Hanysharaf/sleepwisereviews/main/images/instagram/ig-005.png",
+    "product_link": "https://www.amazon.com/s?k=magnesium+glycinate+sleep&tag=sleepwiserevi-20",
+    "posted": false
+  },
+  {
+    "id": "ig_006",
+    "topic": "Sleep Mask Benefits",
+    "caption": "Even tiny amounts of light can disrupt your melatonin production. A quality sleep mask creates complete darkness, signaling your brain it's time for deep rest. Especially helpful if you live in a city!",
+    "hashtags": "#SleepMask #DeepSleep #Melatonin #SleepHacks #BetterSleep #RestfulNights #SleepProducts #DarknessSleep #QualitySleep #SleepWell",
+    "image_url": "https://raw.githubusercontent.com/Hanysharaf/sleepwisereviews/main/images/instagram/ig-006.png",
+    "product_link": "https://www.amazon.com/s?k=silk+sleep+mask&tag=sleepwiserevi-20",
+    "posted": false
+  },
+  {
+    "id": "ig_007",
+    "topic": "Pillow Selection",
+    "caption": "Wrong pillow = neck pain + poor sleep. Side sleepers need firm, high pillows. Back sleepers need medium. Stomach sleepers need thin. What's your sleep position?",
+    "hashtags": "#SleepPillow #NeckPain #SleepPosition #BetterSleep #SleepProducts #PillowTalk #QualitySleep #SleepTips #HealthySleep #RestfulNights",
+    "image_url": "https://raw.githubusercontent.com/Hanysharaf/sleepwisereviews/main/images/instagram/ig-007.png",
+    "product_link": "https://www.amazon.com/s?k=ergonomic+pillow&tag=sleepwiserevi-20",
+    "posted": false
+  },
+  {
+    "id": "ig_008",
+    "topic": "Blue Light Blocking",
+    "caption": "Screens before bed suppress melatonin by up to 50%! Blue light blocking glasses can help if you can't avoid screens. Put them on 2 hours before bed for best results.",
+    "hashtags": "#BlueLightGlasses #Melatonin #ScreenTime #SleepHacks #BetterSleep #DigitalWellness #SleepTips #NightRoutine #HealthySleep #SleepScience",
+    "image_url": "https://raw.githubusercontent.com/Hanysharaf/sleepwisereviews/main/images/instagram/ig-008.png",
+    "product_link": "https://www.amazon.com/s?k=blue+light+blocking+glasses&tag=sleepwiserevi-20",
+    "posted": false
+  },
+  {
+    "id": "ig_009",
+    "topic": "Sleep Tracking",
+    "caption": "You can't improve what you don't measure! Sleep trackers show your sleep stages, duration, and quality. Data helps you identify what's helping or hurting your sleep.",
+    "hashtags": "#SleepTracker #SleepData #QuantifiedSelf #SleepScience #BetterSleep #SleepQuality #HealthTech #WellnessJourney #SleepTips #SleepHacks",
+    "image_url": "https://raw.githubusercontent.com/Hanysharaf/sleepwisereviews/main/images/instagram/ig-009.png",
+    "product_link": "https://www.amazon.com/s?k=sleep+tracker&tag=sleepwiserevi-20",
+    "posted": false
+  },
+  {
+    "id": "ig_010",
+    "topic": "Blackout Curtains",
+    "caption": "Street lights, car headlights, early morning sun - all enemies of deep sleep! Blackout curtains block 99% of light, helping your body produce more melatonin naturally.",
+    "hashtags": "#BlackoutCurtains #DeepSleep #Melatonin #SleepEnvironment #BetterSleep #SleepHacks #BedroomDecor #QualitySleep #SleepTips #RestfulNights",
+    "image_url": "https://raw.githubusercontent.com/Hanysharaf/sleepwisereviews/main/images/instagram/ig-010.png",
+    "product_link": "https://www.amazon.com/s?k=blackout+curtains&tag=sleepwiserevi-20",
+    "posted": false
+  },
+  {
+    "id": "ig_011",
+    "topic": "Aromatherapy",
+    "caption": "Lavender isn't just a nice smell - studies show it can lower heart rate and blood pressure, creating the perfect conditions for sleep. Try a diffuser with lavender essential oil!",
+    "hashtags": "#Aromatherapy #Lavender #EssentialOils #NaturalSleep #RelaxationTime #SleepNaturally #BetterSleep #SleepTips #HolisticHealth #SelfCare",
+    "image_url": "https://raw.githubusercontent.com/Hanysharaf/sleepwisereviews/main/images/instagram/ig-011.png",
+    "product_link": "https://www.amazon.com/s?k=lavender+essential+oil+diffuser&tag=sleepwiserevi-20",
+    "posted": false
+  }
+]
