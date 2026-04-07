@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2026-04-07T12:56:26.210304+00:00",
+  "last_updated": "2026-04-07T16:45:29.440671+00:00",
   "description": "Pre-written content queue - NO API credits needed! Add more using Claude Code sessions.",
   "daily_tips": [
     {
@@ -357,7 +357,8 @@
     {
       "id": "eng_002",
       "message": "Reply to any comments on your Instagram posts from the last 24 hours. Engagement boosts your visibility!",
-      "sent": false
+      "sent": true,
+      "sent_at": "2026-04-07T16:45:29.440661+00:00"
     },
     {
       "id": "eng_003",
