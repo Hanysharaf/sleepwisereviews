@@ -1,6 +1,6 @@
 {
   "version": "1.0",
-  "last_updated": "2026-04-08T12:56:55.296209+00:00",
+  "last_updated": "2026-04-08T16:51:13.128031+00:00",
   "description": "Pre-written content queue - NO API credits needed! Add more using Claude Code sessions.",
   "daily_tips": [
     {
@@ -364,7 +364,8 @@
     {
       "id": "eng_003",
       "message": "Save 5-10 pins from other sleep/wellness accounts to your boards. This helps Pinterest show your content to similar audiences.",
-      "sent": false
+      "sent": true,
+      "sent_at": "2026-04-08T16:51:13.128013+00:00"
     },
     {
       "id": "eng_004",

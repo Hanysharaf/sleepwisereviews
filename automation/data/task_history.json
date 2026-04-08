@@ -1,11 +1,5 @@
 [
   {
-    "timestamp": "2026-03-17T20:29:16.236420+00:00",
-    "task": "daily_summary",
-    "success": true,
-    "details": "Daily summary sent"
-  },
-  {
     "timestamp": "2026-03-18T06:50:48.422642+00:00",
     "task": "daily_tip",
     "success": true,
@@ -598,5 +592,11 @@
     "task": "instagram_notify",
     "success": true,
     "details": "Instagram content sent: ig_007"
+  },
+  {
+    "timestamp": "2026-04-08T16:51:13.128778+00:00",
+    "task": "engagement_tips",
+    "success": true,
+    "details": "Engagement reminder sent: eng_003"
   }
 ]
