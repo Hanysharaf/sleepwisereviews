@@ -54,7 +54,6 @@ CONTENT_CONFIG = {
     "max_tokens": 4096,
     "article_length": 1500,  # words
 
-    # Educational topics (inspired by sleep books: Why We Sleep, Sleep Smarter, etc.)
     "educational_topics": [
         "why we need 8 hours of sleep",
         "sleep stages and REM cycles explained",
@@ -78,7 +77,6 @@ CONTENT_CONFIG = {
         "meditation and sleep quality"
     ],
 
-    # Product topics (affiliate content)
     "product_topics": [
         "weighted blankets",
         "sleep pillows",
@@ -97,15 +95,12 @@ CONTENT_CONFIG = {
         "sleep headphones"
     ],
 
-    # Combined topics list (for random selection)
     "topics": [
-        # Educational
         "why we need 8 hours of sleep",
         "sleep stages and REM cycles",
         "how sleep affects memory",
         "circadian rhythms explained",
         "sleep and mental health",
-        # Products
         "weighted blankets",
         "sleep pillows",
         "white noise machines",
@@ -114,16 +109,15 @@ CONTENT_CONFIG = {
     ],
 
     "content_types": [
-        "educational_article",    # Sleep science content
-        "product_review",         # Single product review
-        "buying_guide",           # Best X for Y
-        "how_to",                 # How to improve sleep
-        "comparison",             # Product vs product
-        "tips_list",              # 10 tips for better sleep
-        "book_insights"           # Key insights from sleep books
+        "educational_article",
+        "product_review",
+        "buying_guide",
+        "how_to",
+        "comparison",
+        "tips_list",
+        "book_insights"
     ],
 
-    # Book references for educational content
     "book_inspirations": [
         "Why We Sleep by Matthew Walker",
         "Sleep Smarter by Shawn Stevenson",
@@ -137,7 +131,7 @@ CONTENT_CONFIG = {
 # Website Configuration
 # =============================================================================
 WEBSITE_CONFIG = {
-    "base_url": "https://sleepwisereviews.com",  # Update with actual URL
+    "base_url": "https://sleepwisereviews.com",
     "articles_per_week": 1,
     "sitemap_path": PROJECT_ROOT / "sitemap.xml",
     "template_path": TEMPLATES_DIR / "article_template.html"
@@ -146,19 +140,15 @@ WEBSITE_CONFIG = {
 # =============================================================================
 # Scheduling Configuration
 # =============================================================================
-# Queue-based tasks (NO API CREDITS NEEDED!)
-# Content is pre-written using Claude Code sessions
+# Only meaningful project-status notifications remain.
+# Generic tips, engagement reminders, and queue-based Instagram captions removed.
+# Instagram post confirmations are sent directly from Make.com scenario.
 SCHEDULE_CONFIG = {
     "timezone": "UTC",
     "tasks": {
-        "06:00": "daily_tip",           # Morning sleep tip
-        "08:00": "weekly_task",          # Weekly task reminder (if applicable)
-        "12:00": "instagram_notify",     # Instagram content from queue
-        "16:00": "engagement_tips",      # Engagement reminder from queue
-        "20:00": "daily_summary"         # Daily stats summary
+        "20:00": "daily_summary"         # Daily stats: Pinterest pins posted + links
     },
     "weekly_tasks": {
-        # Article generation still needs API - skip if no credits
         # "sunday": ["generate_article"]
     }
 }
