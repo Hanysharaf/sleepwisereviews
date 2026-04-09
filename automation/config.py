@@ -140,13 +140,12 @@ WEBSITE_CONFIG = {
 # =============================================================================
 # Scheduling Configuration
 # =============================================================================
-# Only meaningful project-status notifications remain.
-# Generic tips, engagement reminders, and queue-based Instagram captions removed.
-# Instagram post confirmations are sent directly from Make.com scenario.
+# daily_summary removed — it only tracked agent-side actions, not Make.com posts.
+# Make.com sends its own Telegram notification when Instagram posts successfully.
 SCHEDULE_CONFIG = {
     "timezone": "UTC",
     "tasks": {
-        "20:00": "daily_summary"         # Daily stats: Pinterest pins posted + links
+        # No scheduled tasks — all posting handled by Make.com
     },
     "weekly_tasks": {
         # "sunday": ["generate_article"]
