@@ -12,6 +12,7 @@
 </script>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/svg+xml" href="../favicon.svg">
   <title>Privacy Policy – SleepWiseReviews</title>
   <meta name="description" content="SleepWiseReviews privacy policy. We collect minimal data, never sell it, and only use it to improve your experience." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -70,7 +71,6 @@
       z-index: 0;
     }
 
-    /* NAV */
     nav {
       position: sticky;
       top: 0;
@@ -94,9 +94,7 @@
       letter-spacing: 0.02em;
     }
 
-    .logo span {
-      color: var(--gold);
-    }
+    .logo span { color: var(--gold); }
 
     .nav-links {
       display: flex;
@@ -113,9 +111,7 @@
       transition: color 0.2s;
     }
 
-    .nav-links a:hover {
-      color: var(--gold);
-    }
+    .nav-links a:hover { color: var(--gold); }
 
     .nav-cta {
       background: var(--gold-dim);
@@ -126,11 +122,8 @@
       transition: background 0.2s !important;
     }
 
-    .nav-cta:hover {
-      background: rgba(201, 168, 76, 0.25) !important;
-    }
+    .nav-cta:hover { background: rgba(201, 168, 76, 0.25) !important; }
 
-    /* PAGE STYLES */
     .page-wrapper {
       position: relative;
       z-index: 1;
@@ -201,12 +194,8 @@
       line-height: 1.7;
     }
 
-    .page-wrapper strong {
-      color: var(--star);
-      font-weight: 600;
-    }
+    .page-wrapper strong { color: var(--star); font-weight: 600; }
 
-    /* FOOTER */
     footer {
       background: #060912;
       border-top: 1px solid var(--border);
@@ -222,9 +211,7 @@
       border-bottom: 1px solid var(--border);
     }
 
-    .footer-brand .logo {
-      font-size: 1.4rem;
-    }
+    .footer-brand .logo { font-size: 1.4rem; }
 
     .footer-brand p {
       color: var(--muted);
@@ -259,9 +246,7 @@
       transition: color 0.2s;
     }
 
-    .footer-col a:hover {
-      color: var(--gold);
-    }
+    .footer-col a:hover { color: var(--gold); }
 
     .footer-bottom {
       display: flex;
@@ -280,20 +265,13 @@
       max-width: 600px;
     }
 
-    /* HAMBURGER */
     .nav-hamburger { display: none; flex-direction: column; gap: 5px; background: none; border: none; cursor: pointer; padding: 8px; }
     .nav-hamburger span { display: block; width: 22px; height: 2px; background: var(--star); border-radius: 2px; transition: all 0.3s; }
     .nav-hamburger.active span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
     .nav-hamburger.active span:nth-child(2) { opacity: 0; }
     .nav-hamburger.active span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
 
-    /* RESPONSIVE */
-    @media (max-width: 900px) {
-      .footer-top {
-        grid-template-columns: 1fr 1fr;
-      }
-    }
-
+    @media (max-width: 900px) { .footer-top { grid-template-columns: 1fr 1fr; } }
     @media (max-width: 768px) {
       .nav-hamburger { display: flex; }
       .nav-links { display: none; position: fixed; top: 68px; left: 0; right: 0; background: rgba(10,14,26,0.97); flex-direction: column; padding: 1.5rem 6%; gap: 1rem; z-index: 99; border-bottom: 1px solid var(--border); }
@@ -301,7 +279,6 @@
       .footer-top { grid-template-columns: 1fr 1fr; gap: 1.5rem; }
       .page-wrapper h1 { font-size: 2rem; }
     }
-
     @media (max-width: 480px) {
       .footer-top { grid-template-columns: 1fr; gap: 1rem; }
       .page-wrapper h1 { font-size: 1.6rem; }
@@ -313,7 +290,6 @@
 
 <body>
 
-  <!-- NAV -->
   <nav>
     <a class="logo" href="../">SleepWise<span>Reviews</span></a>
     <ul class="nav-links" id="navLinks">
@@ -442,5 +418,4 @@
   </footer>
 
 </body>
-
 </html>
