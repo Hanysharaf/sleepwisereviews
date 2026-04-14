@@ -1,0 +1,39 @@
+name: Publish Scheduled Articles
+
+on:
+  schedule:
+    - cron: '0 8 * * *'  # 08:00 UTC daily = 10:00 Cairo (EET)
+  workflow_dispatch:
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install gspread requests
+
+      - name: Run publish scheduler
+        env:
+          GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python automation/publish_scheduler.py
+
+      - name: Commit and push published articles
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add posts/ sitemap.xml
+          git diff --staged --quiet || git commit -m "publish: scheduled articles $(date +%Y-%m-%d)"
+          git push
