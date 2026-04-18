@@ -1,4 +1,4 @@
-# SleepWiseReviews — Posts Index (150 Articles)
+# SleepWiseReviews — Posts Index (153 Articles)
 
 All articles in sequence order as defined in the master content plan.
 Template reference: `sleep-stages-explained.html` (has breadcrumb, likes, TOC, social share, sticky buy bar, print CSS)
@@ -155,3 +155,6 @@ Template reference: `sleep-stages-explained.html` (has breadcrumb, likes, TOC, s
 | 148 | sleep-after-covid.html | Long COVID and Sleep: Understanding Post-COVID Insomnia | Special Topics | May 2024 |
 | 149 | best-valerian-root-supplements.html | Best Valerian Root Supplements for Sleep (Evidence Review 2026) | Product Review | Oct 2023 |
 | 150 | ultimate-sleep-guide.html | The Complete Sleep Optimization Master Guide | Education | Mar 2025 |
+| 151 | memory-foam-vs-hybrid-mattress.html | Memory Foam vs Hybrid Mattress: Which One Actually Sleeps Better? | Product Guide | Apr 2026 |
+| 152 | best-mattresses-back-pain.html | Best Mattresses for Back Pain: What Research Actually Recommends | Product Guide | Apr 2026 |
+| 153 | bad-mattress-health-effects.html | What a Bad Mattress Does to Your Body (Over Days, Weeks, and Years) | Education | Apr 2026 |
