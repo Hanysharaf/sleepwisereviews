@@ -160,3 +160,4 @@ Template reference: `sleep-stages-explained.html` (has breadcrumb, likes, TOC, s
 | 153 | bad-mattress-health-effects.html | What a Bad Mattress Does to Your Body (Over Days, Weeks, and Years) | Education | Apr 2026 |
 | 154 | sleep-myths-series.html | 7 Sleep Myths That Are Ruining Your Sleep (Debunked by Science) | Education | Apr 2026 |
 | 155 | sex-and-sleep-intimacy-quality.html | Sex and Sleep: How Intimacy Affects Your Sleep Quality | Sex & Sleep | Apr 2026 |
+| 156 | sleep-myth-8-hours.html | Sleep Myth: You Need Exactly 8 Hours Every Night | Sleep Myths | Apr 2026 |
