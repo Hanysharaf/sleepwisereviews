@@ -161,3 +161,4 @@ Template reference: `sleep-stages-explained.html` (has breadcrumb, likes, TOC, s
 | 154 | sleep-myths-series.html | 7 Sleep Myths That Are Ruining Your Sleep (Debunked by Science) | Education | Apr 2026 |
 | 155 | sex-and-sleep-intimacy-quality.html | Sex and Sleep: How Intimacy Affects Your Sleep Quality | Sex & Sleep | Apr 2026 |
 | 156 | sleep-myth-8-hours.html | Sleep Myth: You Need Exactly 8 Hours Every Night | Sleep Myths | Apr 2026 |
+| 157 | wrong-sleeping-in-weekends.html | Wrong: Sleeping In on Weekends. Right: Sleep Consistency Tools That Actually Work | Wrong vs Right | May 2026 |
