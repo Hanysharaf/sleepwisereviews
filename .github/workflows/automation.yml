@@ -38,7 +38,7 @@ concurrency:
 jobs:
   run-agent:
     runs-on: ubuntu-latest
-    timeout-minutes: 15
+    timeout-minutes: 25
 
     steps:
       # Checkout repository
@@ -120,7 +120,7 @@ jobs:
   notify-on-failure:
     runs-on: ubuntu-latest
     needs: run-agent
-    if: failure()
+    if: failure() || cancelled()
 
     steps:
       - name: Send failure notification

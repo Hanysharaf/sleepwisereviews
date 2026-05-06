@@ -177,9 +177,19 @@ def main():
 
         print(f"Publishing: {filename}")
 
-        # 1. Copy file (keep original in /scheduled/ as backup)
+        # 1. Copy file with canonical tag injection
         POSTS_DIR.mkdir(parents=True, exist_ok=True)
-        shutil.copy(source, dest)
+        html = source.read_text(encoding="utf-8")
+        canonical_url = f"{BASE_URL}/posts/{filename}"
+        canonical_tag = f'<link rel="canonical" href="{canonical_url}" />'
+        if 'rel="canonical"' not in html:
+            # inject after <title> close tag if present, otherwise before </head>
+            if "</title>" in html:
+                html = html.replace("</title>", f"</title>\n  {canonical_tag}", 1)
+            else:
+                html = html.replace("</head>", f"  {canonical_tag}\n</head>", 1)
+            print(f"  Injected canonical: {canonical_url}")
+        dest.write_text(html, encoding="utf-8")
         print(f"  Copied to /posts/{filename}")
 
         # 2. Append to INDEX.md
