@@ -148,7 +148,8 @@ SCHEDULE_CONFIG = {
         # No scheduled tasks — all posting handled by Make.com
     },
     "weekly_tasks": {
-        # "sunday": ["generate_article"]
+        "sunday": ["generate_article"],
+        "wednesday": ["generate_article"]
     }
 }
 
