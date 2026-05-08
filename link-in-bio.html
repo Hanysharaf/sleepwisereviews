@@ -218,6 +218,80 @@
 
     .bio-footer a { color: var(--gold); text-decoration: none; }
 
+    /* AUDIBLE PROMO CARD */
+    .audible-promo {
+      background: linear-gradient(135deg, rgba(201,168,76,0.12), rgba(15,21,37,0.9));
+      border: 1px solid rgba(201,168,76,0.45);
+      border-radius: 14px;
+      padding: 1.2rem 1.3rem;
+      margin-bottom: 1.75rem;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .audible-promo::before {
+      content: '';
+      position: absolute;
+      top: -30px; right: -30px;
+      width: 100px; height: 100px;
+      background: radial-gradient(circle, rgba(201,168,76,0.15), transparent 70%);
+      pointer-events: none;
+    }
+
+    .audible-badge {
+      display: inline-block;
+      background: var(--gold);
+      color: #0A0E1A;
+      font-size: 0.62rem;
+      font-weight: 700;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      padding: 0.25rem 0.65rem;
+      border-radius: 50px;
+      margin-bottom: 0.7rem;
+    }
+
+    .audible-title {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 1.15rem;
+      font-weight: 700;
+      color: var(--star);
+      margin-bottom: 0.4rem;
+      line-height: 1.3;
+    }
+
+    .audible-sub {
+      font-size: 0.8rem;
+      color: var(--muted);
+      margin-bottom: 1rem;
+      line-height: 1.5;
+    }
+
+    .audible-btn {
+      display: inline-block;
+      background: var(--gold);
+      color: #0A0E1A;
+      font-weight: 700;
+      font-size: 0.88rem;
+      padding: 0.65rem 1.6rem;
+      border-radius: 50px;
+      text-decoration: none;
+      letter-spacing: 0.02em;
+      transition: background 0.2s, transform 0.15s;
+    }
+
+    .audible-btn:hover {
+      background: var(--gold-light);
+      transform: translateY(-1px);
+    }
+
+    .audible-fine {
+      font-size: 0.68rem;
+      color: var(--muted);
+      margin-top: 0.6rem;
+    }
+
     /* AFFILIATE NOTICE */
     .affiliate-notice {
       background: rgba(201,168,76,0.04);
@@ -244,6 +318,14 @@
 
     <div class="latest-banner">
       ✨ New: 7 Sleep Myths Debunked by Science — Is Your Advice Wrong?
+    </div>
+
+    <div class="audible-promo">
+      <div class="audible-badge">🎧 Limited Time Offer</div>
+      <div class="audible-title">Can't Switch Off at Night?</div>
+      <div class="audible-sub">Try Audible free for 30 days — sleep stories, relaxation guides, and audiobooks that quiet a racing mind.</div>
+      <a href="https://www.amazon.com/audible/dp/B00NB86OYE?tag=sleepwiserevi-20" target="_blank" rel="nofollow sponsored" class="audible-btn">Start Your Free 30-Day Trial →</a>
+      <div class="audible-fine">No charge for 30 days · Cancel anytime</div>
     </div>
 
     <div class="section-label">Top Guides Right Now</div>
