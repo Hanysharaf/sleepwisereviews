@@ -1,11 +1,5 @@
 [
   {
-    "timestamp": "2026-03-18T16:50:06.652066+00:00",
-    "task": "engagement_tips",
-    "success": true,
-    "details": "Engagement reminder sent: eng_010"
-  },
-  {
     "timestamp": "2026-03-18T20:25:52.590579+00:00",
     "task": "daily_summary",
     "success": true,
@@ -595,6 +589,12 @@
   },
   {
     "timestamp": "2026-05-10T12:53:38.367314+00:00",
+    "task": "generate_article",
+    "success": false,
+    "details": ""
+  },
+  {
+    "timestamp": "2026-05-17T12:54:49.426024+00:00",
     "task": "generate_article",
     "success": false,
     "details": ""
