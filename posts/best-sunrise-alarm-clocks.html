@@ -293,7 +293,82 @@
     .nrr-fill {
       transition: width 1.2s ease;
     }
+    /* FAQ Accordion */
+    .faq-section { margin: 3rem 0; }
+    .faq-section h2 { font-family: 'Cormorant Garamond', serif; font-size: 1.6rem; color: var(--star); margin-bottom: 1.5rem; }
+    .faq-item { border: 1px solid var(--border); border-radius: 8px; margin-bottom: 0.8rem; overflow: hidden; transition: border-color 0.2s; }
+    .faq-item:hover { border-color: rgba(201,168,76,0.4); }
+    .faq-item summary { padding: 1rem 1.2rem; cursor: pointer; font-weight: 500; color: var(--star); font-size: 0.95rem; display: flex; justify-content: space-between; align-items: center; background: var(--card); list-style: none; }
+    .faq-item summary::-webkit-details-marker { display: none; }
+    .faq-item summary::after { content: '+'; color: var(--gold); font-size: 1.2rem; font-weight: 300; transition: transform 0.3s; flex-shrink: 0; margin-left: 1rem; }
+    .faq-item[open] summary::after { transform: rotate(45deg); }
+    .faq-item[open] summary { border-bottom: 1px solid var(--border); }
+    .faq-answer { padding: 1rem 1.2rem; font-size: 0.92rem; color: var(--text); line-height: 1.7; background: var(--card); font-weight: 300; }
   </style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Do sunrise alarm clocks actually work?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, for most people. The mechanism is real: gradual light increasing from warm orange to white simulates the natural sunrise, suppressing melatonin and raising cortisol 15-30 minutes before your alarm. Independent studies show reduced sleep inertia (that groggy feeling) compared to abrupt sound alarms. They work best in darker bedrooms - if your room already gets morning light, the effect is diminished."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long before wake-up should the sunrise light start?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most research points to 20-30 minutes as the effective window. Most sunrise alarm clocks offer 15-90 minute ramp options. Start at 30 minutes and adjust based on how naturally you're waking before the backup sound alarm triggers. If you're waking before the alarm, the ramp is working."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do sunrise alarm clocks work for heavy sleepers?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "They can, but they work better when paired with a sound alarm as a backup. Light alone is rarely sufficient to wake heavy sleepers. Use the sunrise function to ease the transition out of deep sleep, with a sound alarm set at the end of the ramp as the final trigger."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What lux brightness do I need?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Minimum 200 lux for meaningful dawn simulation. The best models reach 300-400 lux at peak. Note: this is different from light therapy (SAD treatment), which requires 10,000 lux. For wake-up simulation, 200-300 lux is sufficient."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does a sunrise alarm clock work if my room is already bright in the morning?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Not as effectively. The device needs to be the dominant light source during the ramp phase. If your room is already lit from windows, blackout curtains are necessary for the sunrise effect to register. The clock works best pointed directly at your face from bedside."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does the Hatch sunrise alarm clock require a subscription?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. The Hatch Restore 3 requires a Hatch+ subscription ($4.99/month) to access the full sound library and most features. Basic alarm functionality works without it, but you lose most of what makes it worth buying. If you want a no-subscription option, Philips SmartSleep and Lumie Bodyclock offer the full feature set without recurring costs."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are sunrise alarm clocks worth the price?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "For people who struggle with morning grogginess, winter mornings, or shift work sleep disruption, yes. The premium models ($100-$200) pay for themselves in improved morning mood and reduced sleep inertia. The budget models ($30-$60) deliver most of the core benefit. The main caveat: they require a dark bedroom to work well."
+      }
+    }
+  ]
+}
+</script>
 </head>
 
 <body>
@@ -674,6 +749,38 @@
       <p>Join 18,000 readers who get weekly sleep tips and honest product reviews every Sunday.</p>
       <a class="btn-amazon" href="../#newsletter">Subscribe Free</a>
     </div>
+
+    <section class="faq-section">
+      <h2>Frequently Asked Questions</h2>
+      <details class="faq-item">
+        <summary>Do sunrise alarm clocks actually work?</summary>
+        <div class="faq-answer"><p>Yes, for most people. The mechanism is real: gradual light increasing from warm orange to white simulates the natural sunrise, suppressing melatonin and raising cortisol 15–30 minutes before your alarm. Independent studies show reduced sleep inertia (that groggy feeling) compared to abrupt sound alarms. They work best in darker bedrooms — if your room already gets morning light, the effect is diminished.</p></div>
+      </details>
+      <details class="faq-item">
+        <summary>How long before wake-up should the sunrise light start?</summary>
+        <div class="faq-answer"><p>Most research points to 20–30 minutes as the effective window. Most sunrise alarm clocks offer 15–90 minute ramp options. Start at 30 minutes and adjust based on how naturally you're waking before the backup sound alarm triggers. If you're waking before the alarm, the ramp is working.</p></div>
+      </details>
+      <details class="faq-item">
+        <summary>Do sunrise alarm clocks work for heavy sleepers?</summary>
+        <div class="faq-answer"><p>They can, but they work better when paired with a sound alarm as a backup. Light alone is rarely sufficient to wake heavy sleepers. Use the sunrise function to ease the transition out of deep sleep, with a sound alarm set at the end of the ramp as the final trigger.</p></div>
+      </details>
+      <details class="faq-item">
+        <summary>What lux brightness do I need?</summary>
+        <div class="faq-answer"><p>Minimum 200 lux for meaningful dawn simulation. The best models reach 300–400 lux at peak. Note: this is different from light therapy (SAD treatment), which requires 10,000 lux. For wake-up simulation, 200–300 lux is sufficient.</p></div>
+      </details>
+      <details class="faq-item">
+        <summary>Does a sunrise alarm clock work if my room is already bright in the morning?</summary>
+        <div class="faq-answer"><p>Not as effectively. The device needs to be the dominant light source during the ramp phase. If your room is already lit from windows, blackout curtains are necessary for the sunrise effect to register. The clock works best pointed directly at your face from bedside.</p></div>
+      </details>
+      <details class="faq-item">
+        <summary>Does the Hatch sunrise alarm clock require a subscription?</summary>
+        <div class="faq-answer"><p>Yes. The Hatch Restore 3 requires a Hatch+ subscription ($4.99/month) to access the full sound library and most features. Basic alarm functionality works without it, but you lose most of what makes it worth buying. If you want a no-subscription option, Philips SmartSleep and Lumie Bodyclock offer the full feature set without recurring costs.</p></div>
+      </details>
+      <details class="faq-item">
+        <summary>Are sunrise alarm clocks worth the price?</summary>
+        <div class="faq-answer"><p>For people who struggle with morning grogginess, winter mornings, or shift work sleep disruption, yes. The premium models ($100–$200) pay for themselves in improved morning mood and reduced sleep inertia. The budget models ($30–$60) deliver most of the core benefit. The main caveat: they require a dark bedroom to work well.</p></div>
+      </details>
+    </section>
 
     <div class="related-articles">
       <h3>Related Articles</h3>

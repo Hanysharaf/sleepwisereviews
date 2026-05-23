@@ -230,7 +230,82 @@
     .nrr-fill {
       transition: width 1.2s ease;
     }
+    /* FAQ Accordion */
+    .faq-section { margin: 3rem 0; }
+    .faq-section h2 { font-family: 'Cormorant Garamond', serif; font-size: 1.6rem; color: var(--star); margin-bottom: 1.5rem; }
+    .faq-item { border: 1px solid var(--border); border-radius: 8px; margin-bottom: 0.8rem; overflow: hidden; transition: border-color 0.2s; }
+    .faq-item:hover { border-color: rgba(201,168,76,0.4); }
+    .faq-item summary { padding: 1rem 1.2rem; cursor: pointer; font-weight: 500; color: var(--star); font-size: 0.95rem; display: flex; justify-content: space-between; align-items: center; background: var(--card); list-style: none; }
+    .faq-item summary::-webkit-details-marker { display: none; }
+    .faq-item summary::after { content: '+'; color: var(--gold); font-size: 1.2rem; font-weight: 300; transition: transform 0.3s; flex-shrink: 0; margin-left: 1rem; }
+    .faq-item[open] summary::after { transform: rotate(45deg); }
+    .faq-item[open] summary { border-bottom: 1px solid var(--border); }
+    .faq-answer { padding: 1rem 1.2rem; font-size: 0.92rem; color: var(--text); line-height: 1.7; background: var(--card); font-weight: 300; }
   </style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Are earplugs safe to use every night?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, for most people. The main risks — earwax buildup and minor irritation — are preventable with regular ear hygiene and rotating between pairs. Foam earplugs carry slightly more risk than flanged silicone because they compress into the canal. Limit use to when you genuinely need them, and if you notice pain, discharge, or hearing changes, take a break."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What NRR rating is best for sleeping?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "For most sleep environments, an NRR of 27-32 is ideal. The real-world reduction is roughly half the stated NRR - so a 32 NRR earplug reduces noise by about 16 dB in practice. City noise and partner snoring typically fall between 40-70 dB. An NRR of 27+ brings your effective noise exposure below the disruptive threshold. Maximum-rated (33 NRR) is rarely necessary and can feel uncomfortably isolating."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do earplugs actually block snoring?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "They reduce it significantly, but complete silence is unlikely. A 33 NRR earplug reduces perceived snoring volume by roughly 50% in real-world use. Most snorers produce 50-70 dB; with good earplugs that drops to 33-50 dB, which is the difference between can't sleep and manageable. Low-profile silicone earplugs (Loop, Mack's Slim Fit) outperform foam for snoring because they maintain a better seal when you're on your side."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What earplugs are best for side sleepers?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Low-profile designs that don't protrude from the ear canal. The Mack's Slim Fit and Loop Experience are specifically designed to avoid the pressure buildup that standard cylindrical foam plugs cause after hours against a pillow. Avoid wide T-shape plugs if you're a strict side sleeper."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can you hear a fire alarm with earplugs in?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes. A standard residential fire alarm produces 85-110 dB at close range. Even with a 33 NRR earplug (real-world reduction ~16 dB), the alarm comes through at 69-94 dB - well above the threshold you'd sleep through. That said, test your specific setup if you have concerns."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do foam earplugs work better than silicone?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Foam typically achieves a higher NRR (up to 33 dB) because it expands to fill the canal. Silicone flanged earplugs are more comfortable for side sleepers due to their lower profile and don't require rolling before insertion. For maximum noise reduction, foam wins. For all-night comfort, silicone usually does."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can earplugs cause ear infections?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Rarely, with proper hygiene. Shared or unwashed reusable earplugs can introduce bacteria. Disposable foam plugs are single-use for a reason. If you reuse silicone plugs, clean them with mild soap weekly. Infections from earplugs in otherwise healthy ears are uncommon."
+      }
+    }
+  ]
+}
+</script>
 </head>
 
 <body>
@@ -574,6 +649,38 @@
       <p>Join 18,000 readers who get weekly sleep tips and honest product reviews every Sunday.</p>
       <a class="btn-amazon" href="../#newsletter">Subscribe Free</a>
     </div>
+
+    <section class="faq-section">
+      <h2>Frequently Asked Questions</h2>
+      <details class="faq-item">
+        <summary>Are earplugs safe to use every night?</summary>
+        <div class="faq-answer"><p>Yes, for most people. The main risks — earwax buildup and minor irritation — are preventable with regular ear hygiene and rotating between pairs. Foam earplugs carry slightly more risk than flanged silicone because they compress into the canal. Limit use to when you genuinely need them, and if you notice pain, discharge, or hearing changes, take a break.</p></div>
+      </details>
+      <details class="faq-item">
+        <summary>What NRR rating is best for sleeping?</summary>
+        <div class="faq-answer"><p>For most sleep environments, an NRR of 27–32 is ideal. The real-world reduction is roughly half the stated NRR — so a 32 NRR earplug reduces noise by about 16 dB in practice. City noise and partner snoring typically fall between 40–70 dB. An NRR of 27+ brings your effective noise exposure below the disruptive threshold. Maximum-rated (33 NRR) is rarely necessary and can feel uncomfortably isolating.</p></div>
+      </details>
+      <details class="faq-item">
+        <summary>Do earplugs actually block snoring?</summary>
+        <div class="faq-answer"><p>They reduce it significantly, but complete silence is unlikely. A 33 NRR earplug reduces perceived snoring volume by roughly 50% in real-world use. Most snorers produce 50–70 dB; with good earplugs that drops to 33–50 dB, which is the difference between "can't sleep" and "manageable." Low-profile silicone earplugs (Loop, Mack's Slim Fit) outperform foam for snoring because they maintain a better seal when you're on your side.</p></div>
+      </details>
+      <details class="faq-item">
+        <summary>What earplugs are best for side sleepers?</summary>
+        <div class="faq-answer"><p>Low-profile designs that don't protrude from the ear canal. The Mack's Slim Fit and Loop Experience are specifically designed to avoid the pressure buildup that standard cylindrical foam plugs cause after hours against a pillow. Avoid wide T-shape plugs if you're a strict side sleeper.</p></div>
+      </details>
+      <details class="faq-item">
+        <summary>Can you hear a fire alarm with earplugs in?</summary>
+        <div class="faq-answer"><p>Yes. A standard residential fire alarm produces 85–110 dB at close range. Even with a 33 NRR earplug (real-world reduction ~16 dB), the alarm comes through at 69–94 dB — well above the threshold you'd sleep through. That said, test your specific setup if you have concerns.</p></div>
+      </details>
+      <details class="faq-item">
+        <summary>Do foam earplugs work better than silicone?</summary>
+        <div class="faq-answer"><p>Foam typically achieves a higher NRR (up to 33 dB) because it expands to fill the canal. Silicone flanged earplugs are more comfortable for side sleepers due to their lower profile and don't require rolling before insertion. For maximum noise reduction, foam wins. For all-night comfort, silicone usually does.</p></div>
+      </details>
+      <details class="faq-item">
+        <summary>Can earplugs cause ear infections?</summary>
+        <div class="faq-answer"><p>Rarely, with proper hygiene. Shared or unwashed reusable earplugs can introduce bacteria. Disposable foam plugs are single-use for a reason. If you reuse silicone plugs, clean them with mild soap weekly. Infections from earplugs in otherwise healthy ears are uncommon.</p></div>
+      </details>
+    </section>
 
     <div class="related-articles">
       <h3>Related Articles</h3>

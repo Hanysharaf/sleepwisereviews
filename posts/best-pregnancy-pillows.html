@@ -260,7 +260,82 @@
     .nrr-fill {
       transition: width 1.2s ease;
     }
+    /* FAQ Accordion */
+    .faq-section { margin: 3rem 0; }
+    .faq-section h2 { font-family: 'Cormorant Garamond', serif; font-size: 1.6rem; color: var(--star); margin-bottom: 1.5rem; }
+    .faq-item { border: 1px solid var(--border); border-radius: 8px; margin-bottom: 0.8rem; overflow: hidden; transition: border-color 0.2s; }
+    .faq-item:hover { border-color: rgba(201,168,76,0.4); }
+    .faq-item summary { padding: 1rem 1.2rem; cursor: pointer; font-weight: 500; color: var(--star); font-size: 0.95rem; display: flex; justify-content: space-between; align-items: center; background: var(--card); list-style: none; }
+    .faq-item summary::-webkit-details-marker { display: none; }
+    .faq-item summary::after { content: '+'; color: var(--gold); font-size: 1.2rem; font-weight: 300; transition: transform 0.3s; flex-shrink: 0; margin-left: 1rem; }
+    .faq-item[open] summary::after { transform: rotate(45deg); }
+    .faq-item[open] summary { border-bottom: 1px solid var(--border); }
+    .faq-answer { padding: 1rem 1.2rem; font-size: 0.92rem; color: var(--text); line-height: 1.7; background: var(--card); font-weight: 300; }
   </style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "When should I start using a pregnancy pillow?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most women find them helpful from weeks 12-16, when the belly begins causing discomfort in standard sleep positions. There's no reason to wait - using one from the first trimester is safe and may help you adapt to side-sleeping before it becomes necessary. Side sleeping (particularly left side) is recommended after 20 weeks."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "What is the difference between a C-shaped and U-shaped pregnancy pillow?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A C-shaped pillow supports one side - typically the belly in front and the back behind - and is more compact. A U-shaped pillow wraps around both sides, supporting your belly, back, knees, and head simultaneously without needing to reposition when you switch sides. U-shaped pillows take more bed space but eliminate the need to flip the pillow when you roll over."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Which pregnancy pillow is best for back pain?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "A U-shaped or full-length pillow that simultaneously supports your lower back and positions your knees. The goal is preventing your upper leg from dropping forward and rotating your lumbar spine. The Leachco Snoogle Total Body Pillow and similar full-curve designs do this well. A wedge placed behind the lower back also works as a low-cost alternative."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I use a pregnancy pillow after giving birth?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes - many women use them for months postpartum. C-shaped and J-shaped pillows double effectively as nursing pillows to support the baby during breastfeeding. U-shaped pillows are useful for supported sitting during recovery."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Do pregnancy pillows help with hip pain?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Significantly. Hip pain during pregnancy is often caused by the top leg dropping and rotating the pelvis during side sleeping. Placing the pillow between your knees keeps your hips aligned and relieves that rotation. This is one of the clearest documented benefits of pregnancy pillows - users report improvement quickly."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How do you wash a pregnancy pillow?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Most covers are machine washable on a cold, gentle cycle. The inner pillow itself is usually spot-clean only - submerging a large pillow insert causes filling clumping. Remove the cover immediately after purchase and wash it before first use. Replace covers that develop persistent odors."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is a U-shaped or C-shaped pillow better for sharing a bed?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "C-shaped, strongly. A U-shaped pillow typically takes 12-20 inches of bed width, which significantly reduces your partner's space in a queen bed. A C-shaped pillow is a reasonable compromise that provides substantial support while preserving bed space. If you have a king bed, a U-shaped is workable for couples."
+      }
+    }
+  ]
+}
+</script>
 </head>
 
 <body>
@@ -495,6 +570,38 @@
       <p>Join 18,000 readers who get weekly sleep tips and honest product reviews every Sunday.</p>
       <a class="btn-amazon" href="../#newsletter">Subscribe Free</a>
     </div>
+
+    <section class="faq-section">
+      <h2>Frequently Asked Questions</h2>
+      <details class="faq-item">
+        <summary>When should I start using a pregnancy pillow?</summary>
+        <div class="faq-answer"><p>Most women find them helpful from weeks 12–16, when the belly begins causing discomfort in standard sleep positions. There's no reason to wait — using one from the first trimester is safe and may help you adapt to side-sleeping before it becomes necessary. Side sleeping (particularly left side) is recommended after 20 weeks.</p></div>
+      </details>
+      <details class="faq-item">
+        <summary>What is the difference between a C-shaped and U-shaped pregnancy pillow?</summary>
+        <div class="faq-answer"><p>A C-shaped pillow supports one side — typically the belly in front and the back behind — and is more compact. A U-shaped pillow wraps around both sides, supporting your belly, back, knees, and head simultaneously without needing to reposition when you switch sides. U-shaped pillows take more bed space but eliminate the need to flip the pillow when you roll over.</p></div>
+      </details>
+      <details class="faq-item">
+        <summary>Which pregnancy pillow is best for back pain?</summary>
+        <div class="faq-answer"><p>A U-shaped or full-length pillow that simultaneously supports your lower back and positions your knees. The goal is preventing your upper leg from dropping forward and rotating your lumbar spine. The Leachco Snoogle Total Body Pillow and similar full-curve designs do this well. A wedge placed behind the lower back also works as a low-cost alternative.</p></div>
+      </details>
+      <details class="faq-item">
+        <summary>Can I use a pregnancy pillow after giving birth?</summary>
+        <div class="faq-answer"><p>Yes — many women use them for months postpartum. C-shaped and J-shaped pillows double effectively as nursing pillows to support the baby during breastfeeding. U-shaped pillows are useful for supported sitting during recovery.</p></div>
+      </details>
+      <details class="faq-item">
+        <summary>Do pregnancy pillows help with hip pain?</summary>
+        <div class="faq-answer"><p>Significantly. Hip pain during pregnancy is often caused by the top leg dropping and rotating the pelvis during side sleeping. Placing the pillow between your knees keeps your hips aligned and relieves that rotation. This is one of the clearest documented benefits of pregnancy pillows — users report improvement quickly.</p></div>
+      </details>
+      <details class="faq-item">
+        <summary>How do you wash a pregnancy pillow?</summary>
+        <div class="faq-answer"><p>Most covers are machine washable on a cold, gentle cycle. The inner pillow itself is usually spot-clean only — submerging a large pillow insert causes filling clumping. Remove the cover immediately after purchase and wash it before first use. Replace covers that develop persistent odors.</p></div>
+      </details>
+      <details class="faq-item">
+        <summary>Is a U-shaped or C-shaped pillow better for sharing a bed?</summary>
+        <div class="faq-answer"><p>C-shaped, strongly. A U-shaped pillow typically takes 12–20 inches of bed width, which significantly reduces your partner's space in a queen bed. A C-shaped pillow is a reasonable compromise that provides substantial support while preserving bed space. If you have a king bed, a U-shaped is workable for couples.</p></div>
+      </details>
+    </section>
 
     <div class="related-articles">
       <h3>Related Articles</h3>
