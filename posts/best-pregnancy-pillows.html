@@ -192,6 +192,74 @@
       .article-intro { font-size: 0.95rem; }
       .btn-amazon { padding: 12px 24px; min-height: 44px; display: inline-flex; align-items: center; }
     }
+
+    /* ── Scroll Animation Layer ── */
+    @keyframes fadeInUp {
+      from { opacity: 0; transform: translateY(30px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+    @keyframes slideInLeft {
+      from { opacity: 0; transform: translateX(-20px); }
+      to   { opacity: 1; transform: translateX(0); }
+    }
+    @keyframes shimmer {
+      0%   { background-position: -200% center; }
+      100% { background-position:  200% center; }
+    }
+    @keyframes btnPulse {
+      0%, 100% { transform: scale(1); }
+      50%       { transform: scale(1.03); }
+    }
+
+    .hero-text { position: relative; }
+    .hero-text::before {
+      content: '';
+      position: absolute;
+      top: -40px; left: -60px;
+      width: 400px; height: 300px;
+      background: radial-gradient(ellipse, rgba(201,168,76,0.06) 0%, transparent 70%);
+      pointer-events: none;
+      z-index: -1;
+    }
+
+    .article-wrapper h1 {
+      animation: fadeInUp 0.8s ease both;
+    }
+    .article-intro {
+      animation: fadeInUp 0.8s ease 0.2s both;
+    }
+
+    .animate-hidden {
+      opacity: 0;
+      transform: translateY(24px);
+      transition: opacity 0.6s ease, transform 0.6s ease;
+    }
+    .animate-hidden.animate-visible {
+      opacity: 1;
+      transform: translateY(0);
+    }
+
+    .product-card {
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .product-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 8px 32px rgba(201,168,76,0.15);
+    }
+
+    .btn-amazon {
+      animation: btnPulse 2s ease-in-out infinite;
+      transition: background 0.2s, box-shadow 0.2s;
+    }
+    .btn-amazon:hover {
+      background: var(--gold-light);
+      box-shadow: 0 0 16px rgba(201,168,76,0.4);
+      animation: none;
+    }
+
+    .nrr-fill {
+      transition: width 1.2s ease;
+    }
   </style>
 </head>
 
@@ -225,8 +293,10 @@
       <span class="meta-text">·</span>
       <span class="meta-text">🔄 Updated Mar 2026</span>
     </div>
-    <h1>Best Pregnancy Pillows for Every Sleep Position</h1>
-    <p class="article-intro">By the second trimester, every sleep position except side-lying cuts blood flow to the fetus. That single anatomical fact turns something as simple as getting comfortable in bed into one of the most consequential choices of your pregnancy — and the right pillow can make all the difference.</p>
+    <div class="hero-text">
+      <h1>Best Pregnancy Pillows for Every Sleep Position</h1>
+      <p class="article-intro">By the second trimester, every sleep position except side-lying cuts blood flow to the fetus. That single anatomical fact turns something as simple as getting comfortable in bed into one of the most consequential choices of your pregnancy — and the right pillow can make all the difference.</p>
+    </div>
 
     <div class="author-box">
       <div class="author-avatar">😴</div>
@@ -529,6 +599,76 @@
       if(pct > 0.35 && bar.style.display !== 'none'){ bar.style.display = 'flex'; }
       else if(pct <= 0.35){ bar.style.display = 'none'; }
     }, {passive:true});
+  </script>
+
+  <script>
+    /* ── Scroll-triggered animations ── */
+    (function() {
+      /* Step 1: Apply animate-hidden to scroll targets */
+      var scrollSelectors = ['.product-card', '.article-wrapper h2', '.callout', '.comparison-table', '.article-toc', '.related-articles'];
+      scrollSelectors.forEach(function(sel) {
+        document.querySelectorAll(sel).forEach(function(el) {
+          el.classList.add('animate-hidden');
+        });
+      });
+
+      /* Step 2: Stagger product cards */
+      var cards = document.querySelectorAll('.product-card');
+      cards.forEach(function(card, i) {
+        card.style.transitionDelay = (i * 100) + 'ms';
+      });
+
+      /* Step 3: NRR bars — store target width, collapse to 0 */
+      document.querySelectorAll('.nrr-fill').forEach(function(bar) {
+        var w = bar.style.width;
+        if (w) {
+          bar.dataset.targetWidth = w;
+          bar.style.width = '0%';
+        }
+      });
+
+      /* Step 4: Fallback for no IntersectionObserver support */
+      if (!('IntersectionObserver' in window)) {
+        document.querySelectorAll('.animate-hidden').forEach(function(el) {
+          el.classList.add('animate-visible');
+        });
+        document.querySelectorAll('.nrr-fill').forEach(function(bar) {
+          if (bar.dataset.targetWidth) bar.style.width = bar.dataset.targetWidth;
+        });
+        return;
+      }
+
+      /* Step 5: IntersectionObserver — reveal on enter */
+      var observer = new IntersectionObserver(function(entries) {
+        entries.forEach(function(entry) {
+          if (!entry.isIntersecting) return;
+          var el = entry.target;
+          el.classList.add('animate-visible');
+
+          /* Clear stagger delay after reveal so hover transitions are instant */
+          if (el.classList.contains('product-card')) {
+            var delay = parseFloat(el.style.transitionDelay) || 0;
+            setTimeout(function() {
+              el.style.transitionDelay = '';
+            }, 600 + delay);
+
+            /* Fill NRR bars after card is visible */
+            el.querySelectorAll('.nrr-fill').forEach(function(bar) {
+              var target = bar.dataset.targetWidth;
+              if (target) {
+                setTimeout(function() { bar.style.width = target; }, 100 + delay);
+              }
+            });
+          }
+
+          observer.unobserve(el);
+        });
+      }, { threshold: 0.12 });
+
+      document.querySelectorAll('.animate-hidden').forEach(function(el) {
+        observer.observe(el);
+      });
+    })();
   </script>
 </body>
 </html>
