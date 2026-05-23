@@ -96,7 +96,7 @@ Two options documented but neither activated:
 
 - [x] ~~AUTO-POSTING NOT LIVE~~ — RESOLVED. Make.com scenario 8993709 is LIVE.
 - [x] ~~Make.com webhook not configured~~ — RESOLVED. Scenario active and posting daily.
-- [ ] **GA4 Instagram traffic attribution** — Instagram in-app browser strips referrer. Traffic lands as "(direct)" in GA4. Fix: add UTM params to link-in-bio.html links (`?utm_source=instagram&utm_medium=social`).
+- [x] ~~**GA4 Instagram traffic attribution**~~ — RESOLVED. UTM params added to all 10 link-in-bio links (2026-05-23).
 - [ ] ig-mcp not installed — needed for seo_pipeline.py direct posting. Blocked on Meta app submission.
 - [ ] Instagram follower count and engagement rate unknown — check manually in Instagram Insights
 - [ ] SEO pipeline (seo_pipeline.py) posting step not connected — until ig-mcp is set up, IG posts from pipeline go to Google Sheets only (not auto-posted)
