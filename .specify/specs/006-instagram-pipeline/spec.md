@@ -1,7 +1,7 @@
 # Spec 006: Instagram Pipeline
 
 **Principle refs:** II (Affiliate Compliance), IV (One Article → All Channels)
-**Status:** PARTIAL — content generation works; auto-posting NOT yet live
+**Status:** LIVE — auto-posting via Make.com scenario 8993709 (updated 2026-05-23)
 
 ---
 
@@ -19,8 +19,8 @@ Pipeline for generating, queuing, and posting Instagram content for @sleepwise.r
 | Carousel image creation | ACTIVE | `build_carousels_batch.py` + `image_generator.py` |
 | DALL-E 3 single images | ACTIVE | `generate_ig_images.py` |
 | Queue management | ACTIVE | `instagram_queue.json` + Google Sheets |
-| Auto-posting | NOT LIVE | Decision pending (Make.com / ig-mcp) |
-| Instagram profile linking | UNKNOWN | `link-in-bio.html` exists but profile link unconfirmed |
+| Auto-posting | LIVE | Make.com scenario 8993709 — posts daily at 15:00 Cairo |
+| Instagram profile linking | CONFIRMED | `link-in-bio.html` at sleepwisereviews.com/link-in-bio.html — profile links there |
 
 ---
 
@@ -72,15 +72,15 @@ Pipeline for generating, queuing, and posting Instagram content for @sleepwise.r
 
 Two options documented but neither activated:
 
-**Option A: Make.com** (`automation/modules/make_integration.py`)
-- Setup docs: `docs/MAKE-INTEGRATION-PLAN.md`, `docs/MAKE-INSTAGRAM-SETUP.md`
-- Status: integration code exists, webhook not configured
+**Active: Make.com scenario 8993709**
+- Posts daily at 15:00 Cairo → Google Sheets content calendar → Instagram → Telegram confirmation
+- Facebook cross-posting via Instagram Accounts Centre (automatic, no extra module)
+- Status: LIVE as of 2026-04-12
 
-**Option B: ig-mcp** (`jlbadano/ig-mcp`, 129 stars on GitHub)
-- An MCP server for Instagram posting
-- Status: not yet installed
-- Prerequisite: IG Business account + Facebook Page linked
-- Task logged: "Meta MCP setup" in current_session.md
+**Future option: ig-mcp** (`jlbadano/ig-mcp`)
+- Will enable direct posting from SEO pipeline (seo_pipeline.py)
+- Blocked on: Meta app submission (Task 17) → then install + configure
+- Prerequisite: IG Business account + Facebook Page linked (already done)
 
 ---
 
@@ -94,10 +94,9 @@ Two options documented but neither activated:
 
 ## Gaps
 
-- [ ] **AUTO-POSTING NOT LIVE** — This is the main gap. Content is generated but not posted.
-- [ ] Make.com Instagram webhook not configured — needs setup
-- [ ] ig-mcp not installed — needs Meta Business account verification first
-- [ ] Instagram follower count and engagement rate unknown — no analytics pull
-- [ ] `link-in-bio.html` contents not verified to match current article catalog
-- [ ] No scheduling logic — posts would go out whenever triggered, not at optimal engagement times
-- [ ] Instagram Business account status unconfirmed — required for API access
+- [x] ~~AUTO-POSTING NOT LIVE~~ — RESOLVED. Make.com scenario 8993709 is LIVE.
+- [x] ~~Make.com webhook not configured~~ — RESOLVED. Scenario active and posting daily.
+- [ ] **GA4 Instagram traffic attribution** — Instagram in-app browser strips referrer. Traffic lands as "(direct)" in GA4. Fix: add UTM params to link-in-bio.html links (`?utm_source=instagram&utm_medium=social`).
+- [ ] ig-mcp not installed — needed for seo_pipeline.py direct posting. Blocked on Meta app submission.
+- [ ] Instagram follower count and engagement rate unknown — check manually in Instagram Insights
+- [ ] SEO pipeline (seo_pipeline.py) posting step not connected — until ig-mcp is set up, IG posts from pipeline go to Google Sheets only (not auto-posted)
