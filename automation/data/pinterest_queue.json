@@ -1,106 +1,401 @@
 [
   {
     "title": "Best Magnesium Type for Sleep (Not Oxide!)",
-    "description": "Magnesium oxide = 4% absorption. Glycinate = 80%+ and actually helps sleep. Take 400mg 1 hour before bed. Here's the exact brand I use.",
-    "link": "https://hanysharaf.github.io/sleepwisereviews/",
+    "description": "Magnesium oxide = 4% absorption. Glycinate = 80%+ and actually crosses the blood-brain barrier. Take 400mg 1 hour before bed. Full supplement guide at the link.",
+    "link": "https://sleepwisereviews.com/posts/best-sleep-supplements-guide.html",
     "image_url": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=800",
-    "hashtags": [
-      "magnesium",
-      "sleepsupplements",
-      "naturalsleep",
-      "sleephealth"
-    ],
-    "category": "supplements"
-  },
-  {
-    "title": "Why Magnesium is the #1 Sleep Mineral",
-    "description": "68% of Americans are magnesium deficient. Symptoms: can't relax, racing thoughts, muscle tension. Glycinate form crosses blood-brain barrier for calm sleep.",
-    "link": "https://hanysharaf.github.io/sleepwisereviews/",
-    "image_url": "https://images.unsplash.com/photo-1559757175-0eb30cd8c063?w=800",
-    "hashtags": [
-      "sleepscience",
-      "magnesiumdeficiency",
-      "bettersleep",
-      "wellness"
-    ],
-    "category": "supplements"
-  },
-  {
-    "title": "White Noise vs Brown Noise vs Pink Noise",
-    "description": "TikTok lied about brown noise. Science says: white noise best for falling asleep, pink noise for deep sleep, brown noise for focus. Here's what to actually use.",
-    "link": "https://hanysharaf.github.io/sleepwisereviews/",
-    "image_url": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800",
-    "hashtags": [
-      "whitenoise",
-      "sleepsounds",
-      "sleephacks",
-      "deepsleep"
-    ],
-    "category": "white_noise"
-  },
-  {
-    "title": "5 Best White Noise Machines (Tested)",
-    "description": "LectroFan Evo won for sound variety. Hatch Restore best for sunrise wake. Yogasleep Dohm for pure fan sound. Full comparison with prices inside.",
-    "link": "https://hanysharaf.github.io/sleepwisereviews/",
-    "image_url": "https://images.unsplash.com/photo-1505330622279-bf7d7fc918f4?w=800",
-    "hashtags": [
-      "soundmachine",
-      "sleepproducts",
-      "bettersleep",
-      "sleeptech"
-    ],
-    "category": "white_noise"
+    "hashtags": ["magnesium", "sleepsupplements", "naturalsleep", "sleephealth"]
   },
   {
     "title": "Why You Wake Up at 3am Every Night",
-    "description": "It's not random. Cortisol spikes at 3-4am naturally. If stressed, spike is bigger = wide awake. Fix: blood sugar stability, magnesium, weighted blanket.",
-    "link": "https://hanysharaf.github.io/sleepwisereviews/",
+    "description": "It's not random. Cortisol spikes at 3-4am naturally. If stressed, spike is bigger = wide awake. Fix: blood sugar stability before bed + magnesium glycinate.",
+    "link": "https://sleepwisereviews.com/posts/best-sleep-supplements-guide.html",
     "image_url": "https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?w=800",
-    "hashtags": [
-      "insomniatips",
-      "sleepproblems",
-      "cortisol",
-      "sleepscience"
-    ],
-    "category": "tips"
+    "hashtags": ["insomniatips", "sleepproblems", "cortisol", "sleepscience"]
   },
   {
-    "title": "Bedroom Temperature for Best Sleep",
-    "description": "65-68\u00b0F (18-20\u00b0C) is optimal. Your body needs to drop 2-3 degrees to trigger sleep. Too hot = fragmented sleep. Too cold = can't relax muscles.",
-    "link": "https://hanysharaf.github.io/sleepwisereviews/",
+    "title": "5 Best Earplugs for Sleeping (NRR 33 Rated)",
+    "description": "NRR 33 is what you need to block snoring. Howard Leight MAX and Mack's Ultra Soft both hit this rating for under $15 for 50 pairs. Full comparison inside.",
+    "link": "https://sleepwisereviews.com/posts/best-earplugs-sleeping.html",
+    "image_url": "https://images.unsplash.com/photo-1594744803329-e58b31de8bf5?w=800",
+    "hashtags": ["earplugs", "sleeptips", "snoring", "bettersleep"]
+  },
+  {
+    "title": "How to Insert Earplugs Correctly for Maximum Noise Blocking",
+    "description": "Most people insert foam earplugs wrong and lose 50% of their NRR. Roll thin, pull ear up and back, hold 30 seconds. The seal matters more than the brand.",
+    "link": "https://sleepwisereviews.com/posts/best-earplugs-sleeping.html",
+    "image_url": "https://images.unsplash.com/photo-1574680096145-d05b474e2155?w=800",
+    "hashtags": ["earplugs", "sleephacks", "snoringsolution", "sleepwell"]
+  },
+  {
+    "title": "Best White Noise Machines for Sleep 2026",
+    "description": "Marpac Dohm uses a real fan (no loop). LectroFan Evo has 22 sound options. Hatch Restore adds sunrise alarm. Tested all three. Full comparison inside.",
+    "link": "https://sleepwisereviews.com/posts/best-white-noise-machines-sleeping.html",
+    "image_url": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800",
+    "hashtags": ["whitenoisemachine", "sleepsounds", "bettersleep", "sleepproducts"]
+  },
+  {
+    "title": "White Noise vs Brown Noise vs Pink Noise for Sleep",
+    "description": "White noise: best for falling asleep (masks sudden sounds). Pink noise: best for deep sleep (boosts slow-wave activity). Brown noise: best for focus. What science actually says.",
+    "link": "https://sleepwisereviews.com/posts/best-white-noise-machines-sleeping.html",
+    "image_url": "https://images.unsplash.com/photo-1505330622279-bf7d7fc918f4?w=800",
+    "hashtags": ["whitenoise", "brownnoise", "pinknoise", "sleepscience"]
+  },
+  {
+    "title": "Best Mattress Under $500 That Actually Works",
+    "description": "You don't need to spend $2,000. These 7 mattresses under $500 outperformed options 4x their price in our pressure-mapping tests. Full breakdown inside.",
+    "link": "https://sleepwisereviews.com/posts/best-mattresses-under-500.html",
     "image_url": "https://images.unsplash.com/photo-1560185893-a55cbc8c57e8?w=800",
-    "hashtags": [
-      "sleeptips",
-      "bedroomsetup",
-      "sleeptemperature",
-      "bettersleep"
-    ],
-    "category": "tips"
+    "hashtags": ["bestmattress", "mattressonbudget", "sleepproducts", "bedroomsetup"]
   },
   {
-    "title": "Best Sleep Mask for Complete Darkness",
-    "description": "Manta Sleep Mask: adjustable eye cups, zero pressure on eyes. Even tiny light disrupts melatonin. This blocks 100%. Essential for city dwellers.",
-    "link": "https://hanysharaf.github.io/sleepwisereviews/",
+    "title": "How to Choose a Mattress Without Getting Overwhelmed",
+    "description": "Side sleeper = medium-soft. Back sleeper = medium-firm. Stomach sleeper = firm. Hot sleeper = foam-free or hybrid. That's 80% of the decision right there.",
+    "link": "https://sleepwisereviews.com/posts/best-mattresses-under-500.html",
+    "image_url": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=800",
+    "hashtags": ["mattresstips", "bettersleep", "sleepposition", "mattress"]
+  },
+  {
+    "title": "Best Pillow for Side Sleepers (High Loft = Key)",
+    "description": "Side sleepers need a high-loft pillow (4-6 inches) to keep spine neutral. Most pillows are too flat. These are the only ones that actually work for side sleepers.",
+    "link": "https://sleepwisereviews.com/posts/best-pillow-side-sleepers.html",
+    "image_url": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=800",
+    "hashtags": ["sleeppillow", "sidesleeper", "bettersleep", "sleepproducts"]
+  },
+  {
+    "title": "Why Your Pillow is Causing Neck Pain",
+    "description": "Wrong pillow height = head drops too low or tilts up = neck strain. Side sleepers need 4-6 inches. Back sleepers need 2-3 inches. Stomach sleepers: just quit that position.",
+    "link": "https://sleepwisereviews.com/posts/best-pillow-side-sleepers.html",
+    "image_url": "https://images.unsplash.com/photo-1586105251261-72a756497a11?w=800",
+    "hashtags": ["neckpain", "sleeppillow", "sleeptips", "bettersleep"]
+  },
+  {
+    "title": "Best Sleep Mask for Complete Darkness (Zero Eye Pressure)",
+    "description": "Manta Sleep Mask uses adjustable eye cups so nothing touches your eyelids. Even tiny light signals suppress melatonin. This blocks 100% — essential for light-sensitive sleepers.",
+    "link": "https://sleepwisereviews.com/posts/best-sleep-masks.html",
     "image_url": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=800",
-    "hashtags": [
-      "sleepmask",
-      "melatonin",
-      "sleepproducts",
-      "blackoutsleep"
-    ],
-    "category": "sleep_masks"
+    "hashtags": ["sleepmask", "melatonin", "sleepproducts", "blackoutsleep"]
   },
   {
-    "title": "Blue Light Blocks Melatonin by 50%",
-    "description": "Screens before bed = suppressed melatonin = can't sleep. Blue light glasses 2 hours before bed. Or just put down the phone. Your choice.",
-    "link": "https://hanysharaf.github.io/sleepwisereviews/",
+    "title": "Why Even a Tiny Light Destroys Your Sleep",
+    "description": "Your retina detects light even through closed eyelids. Any light source suppresses melatonin — streetlights, phone charge LEDs, TV standby lights. Blackout is not optional for deep sleep.",
+    "link": "https://sleepwisereviews.com/posts/best-sleep-masks.html",
+    "image_url": "https://images.unsplash.com/photo-1519681393784-d120267933ba?w=800",
+    "hashtags": ["melatonin", "sleepscience", "sleeptips", "bettersleep"]
+  },
+  {
+    "title": "Sunrise Alarm Clocks: Do They Actually Work?",
+    "description": "Yes — but only if your room is dark. The light gradually raises cortisol and drops melatonin over 30 minutes before your alarm. Philips SmartSleep HF3520 is the benchmark.",
+    "link": "https://sleepwisereviews.com/posts/best-sunrise-alarm-clocks.html",
+    "image_url": "https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?w=800",
+    "hashtags": ["sunriseclock", "alarcclock", "bettersleep", "morningroutine"]
+  },
+  {
+    "title": "Best Sunrise Alarm Clock for Heavy Sleepers",
+    "description": "If you hit snooze 4 times every morning, you need this. The Philips HF3520 starts at 1 lux and reaches 200 lux sunrise simulation. Your body wakes up before the alarm sounds.",
+    "link": "https://sleepwisereviews.com/posts/best-sunrise-alarm-clocks.html",
+    "image_url": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800",
+    "hashtags": ["sunriseclock", "heavysleeper", "sleeptips", "morningroutine"]
+  },
+  {
+    "title": "Best Pregnancy Pillow for Second Trimester",
+    "description": "From week 20, side sleeping is required — and your regular pillows won't cut it. C-shaped supports belly + back. U-shaped wraps both sides. Leachco Snoogle wins for most pregnant women.",
+    "link": "https://sleepwisereviews.com/posts/best-pregnancy-pillows.html",
+    "image_url": "https://images.unsplash.com/photo-1569003339405-ea396a5a8a90?w=800",
+    "hashtags": ["pregnancypillow", "maternitysleep", "pregnancy", "sleeptips"]
+  },
+  {
+    "title": "C-Shaped vs U-Shaped Pregnancy Pillow: Which Do You Need?",
+    "description": "C-shaped: smaller footprint, supports one side, easier to share bed. U-shaped: wraps both sides, better if you turn frequently, but takes 2/3 of a queen bed. This matters.",
+    "link": "https://sleepwisereviews.com/posts/best-pregnancy-pillows.html",
+    "image_url": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=800",
+    "hashtags": ["pregnancypillow", "maternity", "babybump", "sleeptips"]
+  },
+  {
+    "title": "Blue Light Blocks Melatonin by 50% — Here's the Fix",
+    "description": "Screens 2 hours before bed suppress melatonin by up to 50%. Blue light glasses filter the specific wavelengths (450-490nm) that trigger the problem. Our tested picks inside.",
+    "link": "https://sleepwisereviews.com/posts/best-blue-light-glasses.html",
     "image_url": "https://images.unsplash.com/photo-1573164713714-d95e436ab8d6?w=800",
-    "hashtags": [
-      "bluelightglasses",
-      "screentime",
-      "melatonin",
-      "sleephacks"
-    ],
-    "category": "tips"
+    "hashtags": ["bluelightglasses", "screentime", "melatonin", "sleephacks"]
+  },
+  {
+    "title": "Best Blue Light Blocking Glasses for Night Use",
+    "description": "Not all blue light glasses are equal. Clear lenses block maybe 30%. Amber lenses block 90%+. For sleep, you want amber — style tradeoff is worth it.",
+    "link": "https://sleepwisereviews.com/posts/best-blue-light-glasses.html",
+    "image_url": "https://images.unsplash.com/photo-1574258495973-f010dfbb5371?w=800",
+    "hashtags": ["bluelightglasses", "sleeptips", "eyehealth", "bettersleep"]
+  },
+  {
+    "title": "Best Mattress Topper to Fix a Too-Firm Mattress",
+    "description": "2-inch memory foam topper is the $100 fix for a mattress that's too hard. Adds pressure relief without replacing a $1,500 mattress. Our tested picks for side and back sleepers.",
+    "link": "https://sleepwisereviews.com/posts/best-mattress-toppers.html",
+    "image_url": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=800",
+    "hashtags": ["mattresstopper", "bettersleep", "sleepproducts", "bedroomupgrade"]
+  },
+  {
+    "title": "Why Cooling Mattress Pads Are Worth It",
+    "description": "Sleep quality drops when body temperature rises above 1 degree. Cooling pads actively draw heat away. If you wake up sweating or kick off covers, this is your fix.",
+    "link": "https://sleepwisereviews.com/posts/best-cooling-mattress-pads.html",
+    "image_url": "https://images.unsplash.com/photo-1560185007-cde436f6a4d0?w=800",
+    "hashtags": ["coolingmattress", "hotsleeper", "bettersleep", "sleepproducts"]
+  },
+  {
+    "title": "Best Blackout Curtains for Shift Workers and Light Sleepers",
+    "description": "99% blackout rating = no streetlight seep, no early morning sun. Deconovo and NICETOWN both hit true blackout for under $35. Essential for anyone sleeping before 7am.",
+    "link": "https://sleepwisereviews.com/posts/best-blackout-curtains.html",
+    "image_url": "https://images.unsplash.com/photo-1519689680058-324335c77eba?w=800",
+    "hashtags": ["blackoutcurtains", "shiftworker", "sleepproducts", "bettersleep"]
+  },
+  {
+    "title": "Best Sleep Headphones for Side Sleepers",
+    "description": "Normal headphones are painful on your ear when lying sideways. Sleep headphones are flat (headband style) or tiny wireless. Kokoon and AcousticSheep SleepPhones are the standards.",
+    "link": "https://sleepwisereviews.com/posts/best-sleep-headphones.html",
+    "image_url": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=800",
+    "hashtags": ["sleepheadphones", "sidesleeper", "whitenoise", "sleepproducts"]
+  },
+  {
+    "title": "Melatonin Dosage: Most People Take 10x Too Much",
+    "description": "The research-backed dose is 0.5-1mg, NOT 10mg. Higher doses don't help you sleep better — they cause grogginess next morning. Less is more with melatonin.",
+    "link": "https://sleepwisereviews.com/posts/best-melatonin-supplements.html",
+    "image_url": "https://images.unsplash.com/photo-1559757175-0eb30cd8c063?w=800",
+    "hashtags": ["melatonin", "sleepsupplements", "sleeptips", "sleepscience"]
+  },
+  {
+    "title": "Best Melatonin Supplements That Actually Work",
+    "description": "Gummies lose 30% potency. Liquid drops absorb fastest. Sublingual tablets second fastest. Full timing guide: take 30-60 min before target sleep time, not bedtime.",
+    "link": "https://sleepwisereviews.com/posts/best-melatonin-supplements.html",
+    "image_url": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=800",
+    "hashtags": ["melatonin", "sleepsupplements", "naturalsleep", "bettersleep"]
+  },
+  {
+    "title": "Best Humidifier for Sleep (40-60% Humidity = Sweet Spot)",
+    "description": "Below 30% humidity = dry throat, nose bleeds, interrupted sleep. Above 60% = mold risk + congestion. The ultrasonic models are quietest. Our tested picks for bedrooms.",
+    "link": "https://sleepwisereviews.com/posts/best-humidifiers-sleep.html",
+    "image_url": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=800",
+    "hashtags": ["humidifier", "sleeptips", "bettersleep", "bedroomsetup"]
+  },
+  {
+    "title": "Best Light Therapy Lamps for Winter Sleep Issues",
+    "description": "SAD affects 5% of the US population. Light therapy at 10,000 lux for 20-30 minutes in the morning resets your circadian clock. The Carex Day-Light Classic is the clinical standard.",
+    "link": "https://sleepwisereviews.com/posts/best-light-therapy-lamps.html",
+    "image_url": "https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?w=800",
+    "hashtags": ["lighttherapy", "SAD", "winterblues", "circadianrhythm"]
+  },
+  {
+    "title": "Best Cooling Pillow for Hot Sleepers",
+    "description": "Your pillow traps heat for 8 hours unless it has copper infusion or gel memory foam. These 5 cooling pillows dropped our testers' pillow temp by 4-6 degrees within 10 minutes.",
+    "link": "https://sleepwisereviews.com/posts/best-cooling-pillows.html",
+    "image_url": "https://images.unsplash.com/photo-1586105251261-72a756497a11?w=800",
+    "hashtags": ["coolingpillow", "hotsleeper", "sleepproducts", "bettersleep"]
+  },
+  {
+    "title": "Best Sleep Tracker Without a Subscription",
+    "description": "Oura Ring is the most accurate but costs $6/month. Withings ScanWatch tracks sleep stages free forever. Garmin devices give sleep scoring without subscription. Full comparison.",
+    "link": "https://sleepwisereviews.com/posts/best-sleep-monitors.html",
+    "image_url": "https://images.unsplash.com/photo-1434494878577-86c23bcb06b9?w=800",
+    "hashtags": ["sleeptracker", "wearables", "sleeptech", "sleepmonitoring"]
+  },
+  {
+    "title": "Best Sleep Tracking Ring 2026 (Oura vs Alternatives)",
+    "description": "Oura Ring Gen 4 leads in accuracy but requires $6/month subscription. RingConn is the best alternative with lifetime free app access. Full accuracy comparison inside.",
+    "link": "https://sleepwisereviews.com/posts/best-sleep-tracking-rings.html",
+    "image_url": "https://images.unsplash.com/photo-1434494878577-86c23bcb06b9?w=800",
+    "hashtags": ["ouraRing", "sleepring", "sleeptracker", "wearabletech"]
+  },
+  {
+    "title": "Best Apps for Sleep Tracking (Free and Paid)",
+    "description": "Sleep Cycle uses your phone microphone to detect sleep stages — free and surprisingly accurate. Pillow works with Apple Watch. Full tier list of what's worth installing.",
+    "link": "https://sleepwisereviews.com/posts/best-sleep-apps.html",
+    "image_url": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=800",
+    "hashtags": ["sleepapp", "sleeptracker", "bettersleep", "phonedetox"]
+  },
+  {
+    "title": "Best Anti-Snoring Devices That Actually Work",
+    "description": "Mandibular advancement devices (MADs) are 70% effective for mild-moderate snoring. CPAP alternatives for sleep apnea: positional therapy, chin straps, tongue devices. Full comparison.",
+    "link": "https://sleepwisereviews.com/posts/best-anti-snoring-devices.html",
+    "image_url": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800",
+    "hashtags": ["snoring", "sleepapnea", "antisnoring", "bettersleep"]
+  },
+  {
+    "title": "Best Mattress for Back Pain (Firmness Is Not the Answer)",
+    "description": "Counterintuitive: medium-firm, NOT firm, reduces back pain best per research. Firm mattresses create pressure points at hips and shoulders that misalign the spine. Full guide.",
+    "link": "https://sleepwisereviews.com/posts/best-mattresses-back-pain.html",
+    "image_url": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=800",
+    "hashtags": ["backpain", "mattress", "bettersleep", "sleephealth"]
+  },
+  {
+    "title": "Best Mattress for Couples (Motion Isolation = Priority #1)",
+    "description": "If your partner's movement wakes you up, you need a mattress with good motion isolation. Memory foam wins over innerspring every time. Best 5 picks for couples in 2026.",
+    "link": "https://sleepwisereviews.com/posts/best-mattresses-couples-2026.html",
+    "image_url": "https://images.unsplash.com/photo-1560185893-a55cbc8c57e8?w=800",
+    "hashtags": ["mattress", "couples", "motionisolation", "bettersleep"]
+  },
+  {
+    "title": "The 10-3-2-1-0 Sleep Rule (Save This)",
+    "description": "10 hours before bed: no caffeine. 3 hours: no food or alcohol. 2 hours: no work. 1 hour: no screens. 0: times you hit snooze. Simple system, massive results.",
+    "link": "https://sleepwisereviews.com/posts/best-sleep-supplements-guide.html",
+    "image_url": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800",
+    "hashtags": ["sleeptips", "sleephygiene", "bettersleep", "sleepscience"]
+  },
+  {
+    "title": "Bedroom Temperature for Deep Sleep: 65-68 Degrees",
+    "description": "Your core body temperature must drop 2-3 degrees to trigger sleep onset. A room that's too warm prevents this. 65-68F (18-20C) is the optimal range for most adults.",
+    "link": "https://sleepwisereviews.com/posts/best-cooling-mattress-pads.html",
+    "image_url": "https://images.unsplash.com/photo-1560185007-cde436f6a4d0?w=800",
+    "hashtags": ["sleeptemperature", "bettersleep", "sleeptips", "sleepscience"]
+  },
+  {
+    "title": "Valerian Root for Sleep: What Research Actually Says",
+    "description": "Valerian reduces sleep latency (time to fall asleep) by 15-20 minutes in studies. Effect builds over 2-4 weeks. Take 300-600mg 30 min before bed. Quality control is critical.",
+    "link": "https://sleepwisereviews.com/posts/best-valerian-root-supplements.html",
+    "image_url": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=800",
+    "hashtags": ["valerianroot", "naturalsleep", "sleepsupplements", "herbalremedies"]
+  },
+  {
+    "title": "Best Aromatherapy Diffusers for Sleep",
+    "description": "Lavender at 4% concentration reduced anxiety by 45% in clinical trials. Cedarwood activates GABA receptors (similar to anxiety medication). Our tested diffuser picks for bedrooms.",
+    "link": "https://sleepwisereviews.com/posts/best-aromatherapy-sleep.html",
+    "image_url": "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=800",
+    "hashtags": ["aromatherapy", "lavender", "sleeptips", "naturalsleep"]
+  },
+  {
+    "title": "Grounding Sheets: Pseudoscience or Legit?",
+    "description": "The honest answer: cortisol reduction studies exist but sample sizes are tiny. If you want to try: connected to wall outlet ground, NOT a power circuit. Full breakdown inside.",
+    "link": "https://sleepwisereviews.com/posts/best-grounding-sheets.html",
+    "image_url": "https://images.unsplash.com/photo-1519681393784-d120267933ba?w=800",
+    "hashtags": ["groundingsheets", "earthing", "sleepscience", "wellness"]
+  },
+  {
+    "title": "CPAP Alternatives That Actually Work for Sleep Apnea",
+    "description": "CPAP compliance rates are only 30-60%. Alternatives by severity: mild = MAD device. Moderate = positional therapy + MAD. Severe = inspire implant or bilevel PAP. Full guide.",
+    "link": "https://sleepwisereviews.com/posts/best-cpap-alternatives.html",
+    "image_url": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800",
+    "hashtags": ["sleepapnea", "CPAP", "snoring", "sleephealth"]
+  },
+  {
+    "title": "Smart Mattresses: Worth the Price?",
+    "description": "Eight Sleep Pod detects body temperature and adjusts it automatically. Couples can set different temperatures on each side. Expensive but the best sleep tech available in 2026.",
+    "link": "https://sleepwisereviews.com/posts/best-smart-mattresses.html",
+    "image_url": "https://images.unsplash.com/photo-1560185893-a55cbc8c57e8?w=800",
+    "hashtags": ["smartmattress", "sleeptech", "eightsleep", "bettersleep"]
+  },
+  {
+    "title": "Best Pillow by Sleep Position (Quick Guide)",
+    "description": "Side = high loft 4-6in firm. Back = medium loft 3-4in medium. Stomach = thin soft or nothing. Mixed = adjustable-fill. Memory foam good for all except stomach. Full guide.",
+    "link": "https://sleepwisereviews.com/posts/best-pillow-sleep-position.html",
+    "image_url": "https://images.unsplash.com/photo-1586105251261-72a756497a11?w=800",
+    "hashtags": ["sleeppillow", "sleepposition", "bettersleep", "pillowguide"]
+  },
+  {
+    "title": "Sleep Inertia: Why Your Brain Is Impaired for 30 Minutes After Waking",
+    "description": "Your prefrontal cortex takes 20-30 minutes to fully activate after sleep. During this window: reaction time is worse than drunk driving. Fix: bright light + water immediately on waking.",
+    "link": "https://sleepwisereviews.com/posts/best-sunrise-alarm-clocks.html",
+    "image_url": "https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?w=800",
+    "hashtags": ["sleepinertia", "sleepscience", "morningroutine", "brainfog"]
+  },
+  {
+    "title": "5 Things Making Your Sleep Worse That You Think Are Fine",
+    "description": "1. Phone as alarm clock 2. Blackout curtains open 3. Memory foam pillow that's 5 years old 4. Alcohol as sleep aid 5. Sleeping in on weekends. All documented sleep disruptors.",
+    "link": "https://sleepwisereviews.com/posts/best-earplugs-sleeping.html",
+    "image_url": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?w=800",
+    "hashtags": ["sleeptips", "bettersleep", "sleephygiene", "sleepfacts"]
+  },
+  {
+    "title": "Do You Really Need 8 Hours of Sleep?",
+    "description": "The range is 7-9 hours for adults. Only 3% are genetic short-sleepers who genuinely thrive on 6. To find YOUR number: sleep without an alarm for 5 nights on vacation.",
+    "link": "https://sleepwisereviews.com/posts/best-sleep-supplements-guide.html",
+    "image_url": "https://images.unsplash.com/photo-1519681393784-d120267933ba?w=800",
+    "hashtags": ["sleepscience", "8hours", "sleeptips", "bettersleep"]
+  },
+  {
+    "title": "Why Your Pillow Causes Morning Neck Pain",
+    "description": "The spine has a natural curve that must be maintained during sleep. Wrong pillow height = neck flexes out of neutral for 8 hours. Side sleepers especially need high-loft support.",
+    "link": "https://sleepwisereviews.com/posts/best-pillow-side-sleepers.html",
+    "image_url": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=800",
+    "hashtags": ["neckpain", "sleeppillow", "bettersleep", "sleephealth"]
+  },
+  {
+    "title": "The Correct Bedroom Sleep Setup (From Someone Who Tested Everything)",
+    "description": "Dark = blackout curtains + sleep mask. Cool = 65-68F. Quiet = earplugs or white noise. The trifecta. Add good pillow for your position and you've solved 90% of sleep issues.",
+    "link": "https://sleepwisereviews.com/posts/best-blackout-curtains.html",
+    "image_url": "https://images.unsplash.com/photo-1560185893-a55cbc8c57e8?w=800",
+    "hashtags": ["bedroomsetup", "sleeptips", "bettersleep", "sleephygiene"]
+  },
+  {
+    "title": "Alcohol and Sleep: The Truth Nobody Wants to Hear",
+    "description": "Alcohol makes you fall asleep faster but destroys sleep quality. It suppresses REM sleep (memory consolidation), increases wake-arousals in the second half of the night, and dehydrates you.",
+    "link": "https://sleepwisereviews.com/posts/best-sleep-supplements-guide.html",
+    "image_url": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=800",
+    "hashtags": ["alcoholsleep", "sleepscience", "sleeptips", "bettersleep"]
+  },
+  {
+    "title": "Weighted Blanket Weight Guide: How Heavy Should It Be?",
+    "description": "The rule is 10% of your body weight. Too light = no effect. Too heavy = restricted movement disrupts sleep. Under 120lbs = 10-12lb. 120-180lbs = 15lb. 180lb+ = 20lb.",
+    "link": "https://sleepwisereviews.com/posts/best-mattress-toppers.html",
+    "image_url": "https://images.unsplash.com/photo-1586105251261-72a756497a11?w=800",
+    "hashtags": ["weightedblanket", "sleeptips", "bettersleep", "sleepproducts"]
+  },
+  {
+    "title": "Caffeine Half-Life: Why 2pm Coffee Ruins Your Sleep",
+    "description": "Caffeine's half-life is 5-7 hours. A 2pm coffee = half the caffeine still circulating at 9pm. Quarter still active at 2am. The 10-hour rule: no caffeine 10 hours before sleep.",
+    "link": "https://sleepwisereviews.com/posts/best-sleep-supplements-guide.html",
+    "image_url": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800",
+    "hashtags": ["caffeine", "coffeesleep", "sleeptips", "sleepscience"]
+  },
+  {
+    "title": "REM vs Deep Sleep: What Actually Matters",
+    "description": "REM sleep = emotional processing, memory consolidation, creativity. Deep sleep (N3) = physical repair, immune function, growth hormone release. You need both. Neither is optional.",
+    "link": "https://sleepwisereviews.com/posts/best-sleep-monitors.html",
+    "image_url": "https://images.unsplash.com/photo-1434494878577-86c23bcb06b9?w=800",
+    "hashtags": ["REMsleep", "deepsleep", "sleepscience", "sleepstages"]
+  },
+  {
+    "title": "The Best Sleep Position for Back Pain",
+    "description": "Back sleeping with knees elevated = best for back pain (neutral spine). Fetal position = also good (side). Stomach = worst (hyperextends lumbar spine). Pillow placement matters.",
+    "link": "https://sleepwisereviews.com/posts/best-sleep-position.html",
+    "image_url": "https://images.unsplash.com/photo-1555041469-a586c61ea9bc?w=800",
+    "hashtags": ["backpain", "sleepposition", "bettersleep", "sleephealth"]
+  },
+  {
+    "title": "Why Side Sleeping is the Best Position (Science-Backed)",
+    "description": "Side sleeping clears amyloid plaques (linked to Alzheimer's) via the glymphatic system more efficiently than back or stomach. Left side specifically reduces acid reflux. Evidence is real.",
+    "link": "https://sleepwisereviews.com/posts/best-sleep-position.html",
+    "image_url": "https://images.unsplash.com/photo-1519681393784-d120267933ba?w=800",
+    "hashtags": ["sidesleeping", "sleepposition", "brainhealth", "sleepscience"]
+  },
+  {
+    "title": "Best Sleep Supplements Guide: What Works and What's Hype",
+    "description": "Tier 1 (evidence-backed): Magnesium Glycinate, Melatonin 0.5-1mg. Tier 2 (moderate evidence): L-Theanine, Valerian. Tier 3 (weak evidence): most herbal blends. Full ranking.",
+    "link": "https://sleepwisereviews.com/posts/best-sleep-supplements-guide.html",
+    "image_url": "https://images.unsplash.com/photo-1559757175-0eb30cd8c063?w=800",
+    "hashtags": ["sleepsupplements", "naturalsleep", "sleeptips", "wellness"]
+  },
+  {
+    "title": "Circadian Rhythm: The Internal Clock That Controls Everything",
+    "description": "Your body runs on a 24-hour biological clock tied to light. Morning light sets the clock forward. Evening darkness signals sleep. Disrupting this causes everything from insomnia to weight gain.",
+    "link": "https://sleepwisereviews.com/posts/best-light-therapy-lamps.html",
+    "image_url": "https://images.unsplash.com/photo-1470252649378-9c29740c9fa8?w=800",
+    "hashtags": ["circadianrhythm", "sleepscience", "biologicalclock", "bettersleep"]
+  },
+  {
+    "title": "Best Smart Alarm Clock 2026 (Sunrise + Sound + Sleep Tracking)",
+    "description": "Hatch Restore 2 is the complete sleep system: sunrise simulation, sleep sounds, gentle alarm, sleep tracking via app. More expensive but replaces 3 separate products.",
+    "link": "https://sleepwisereviews.com/posts/best-sunrise-alarm-clocks.html",
+    "image_url": "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800",
+    "hashtags": ["smartclock", "hatchrestore", "sleeptech", "bettersleep"]
+  },
+  {
+    "title": "What Happens to Your Body During Sleep (Stage by Stage)",
+    "description": "Stage 1-2: light sleep, easy to wake. Stage 3 (N3): deep sleep, growth hormone released, immune repair. REM: dreaming, memory consolidation, emotional regulation. Every stage matters.",
+    "link": "https://sleepwisereviews.com/posts/best-sleep-monitors.html",
+    "image_url": "https://images.unsplash.com/photo-1434494878577-86c23bcb06b9?w=800",
+    "hashtags": ["sleepstages", "sleepscience", "REMsleep", "deepsleep"]
+  },
+  {
+    "title": "The Real Cost of Sleep Deprivation on Your Health",
+    "description": "Less than 7 hours: 3x higher risk of catching a cold. 4-6 hours: same impairment as 24 hours awake. Chronic: linked to Alzheimer's, diabetes, cardiovascular disease. Sleep is not optional.",
+    "link": "https://sleepwisereviews.com/posts/best-sleep-supplements-guide.html",
+    "image_url": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=800",
+    "hashtags": ["sleepdeprivation", "sleephealth", "immunesystem", "sleepscience"]
   }
 ]
