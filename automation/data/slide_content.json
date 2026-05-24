@@ -250,5 +250,131 @@
       "🛏️ Day 7 — Fix your pillow loft | A pillow that doesn't match your shoulder width causes neck flexion all night — the correct loft for your sleep position costs under $60"
     ],
     "cta": "Full review -> sleepwisereviews.com"
+  },
+  "IG-032": {
+    "hook": "The 10-3-2-1-0 sleep rule most people have never heard of",
+    "points": [
+      "🕙 10 hours before bed — cut caffeine | Coffee has a 5-6 hour half-life — a 3pm latte is still 12% active at midnight, delaying sleep onset without you realising it",
+      "🍽️ 3 hours before bed — stop eating | Digestion raises core body temperature, which delays sleep onset by 20+ minutes and compresses your first deep sleep cycle",
+      "📵 1 hour before bed — screens off | Blue light at 460nm blocks melatonin for 90 minutes after exposure — Night Shift mode doesn't fully compensate after 9pm"
+    ],
+    "cta": "Save this for tonight -> sleepwisereviews.com"
+  },
+  "IG-033": {
+    "hook": "Stop using your fan for white noise — here's what actually works better",
+    "points": [
+      "🔊 Fan noise isn't consistent | Fan speed shifts as the motor heats up — the frequency changes mid-night and light sleepers wake to the variation without knowing why",
+      "🎚️ Dedicated machines hold steady Hz all night | Purpose-built white noise machines have one job — their output stays constant from midnight to morning",
+      "💰 Our $30 pick beat a $120 Marpac Dohm | In 30-night blind tests, the budget option outscored premium machines for masking consistency and volume range"
+    ],
+    "cta": "Our top picks -> sleepwisereviews.com"
+  },
+  "IG-034": {
+    "hook": "Low magnesium is silently wrecking your sleep — 75% of adults are deficient",
+    "points": [
+      "🧠 Magnesium activates GABA | GABA is the neurotransmitter that quiets your nervous system for sleep — without enough magnesium, GABA receptors can't bind properly",
+      "📊 Modern diets consistently under-deliver | Even healthy eaters often fall short of the 400mg daily requirement — processed food strips magnesium at the source",
+      "💊 Glycinate beats oxide | Magnesium glycinate has 80% bioavailability vs 4% for oxide — most cheap supplements use oxide and produce virtually no measurable effect"
+    ],
+    "cta": "Full breakdown -> sleepwisereviews.com"
+  },
+  "IG-035": {
+    "hook": "Sleep inertia: why you feel like a zombie after a full night's sleep",
+    "points": [
+      "🧬 It's the adenosine effect | Sleep inertia peaks when adenosine hasn't fully cleared — the deeper your sleep, the more intense the grogginess on waking",
+      "☀️ Light is the fastest fix | 10,000 lux exposure within 5 minutes of waking clears sleep inertia 40% faster than coffee alone — light before caffeine",
+      "⏰ Wake timing eliminates it | Waking at the end of a 90-minute cycle instead of mid-cycle reduces inertia intensity by up to 50% — the alarm placement matters"
+    ],
+    "cta": "Learn more -> sleepwisereviews.com"
+  },
+  "IG-036": {
+    "hook": "Do you really need 8 hours? The honest, science-backed answer",
+    "points": [
+      "📊 7-9 hours is the actual range | The 8-hour figure is an average — individual sleep need varies by 1-2 hours based on genetics, age, and activity level",
+      "🧬 True short sleepers are rare | Under 3% of people genuinely thrive on 6 hours — most who think they're fine on 6 are running a chronic sleep debt without noticing",
+      "🔁 Quality beats quantity | 6.5 hours of uninterrupted deep sleep outperforms 9 fragmented hours — sleep efficiency matters more than the total clock time"
+    ],
+    "cta": "Full guide -> sleepwisereviews.com"
+  },
+  "IG-037": {
+    "hook": "3 evening habits that signal your brain it's time to sleep",
+    "points": [
+      "🌡️ Lower room temperature 90 minutes early | Drop your thermostat to 65-67°F before bed — core body temperature must fall 1-2°F to trigger sleep onset",
+      "📵 Swap screens for something tactile | Reading, journaling, or a weighted blanket reduce cortisol without suppressing melatonin — screens do the opposite",
+      "⏰ Same wind-down time every night | Consistency trains your body when to release melatonin — a predictable routine is worth more than any sleep supplement"
+    ],
+    "cta": "Save this routine -> sleepwisereviews.com"
+  },
+  "IG-038": {
+    "hook": "5 minutes tonight can reset your entire sleep week",
+    "points": [
+      "✏️ Write tomorrow's three priorities now | Unfinished mental loops cause 78% of pre-sleep rumination — offloading them to paper quiets the planning centres of your brain",
+      "🌡️ Set your room 5°F cooler than usual | Most bedrooms run 3-5°F too warm — cooling down tonight extends your deep sleep window without any other change",
+      "📵 Lock your phone out of the bedroom | Proximity alone reduces sleep time — phones within arm's reach increase night wakings even when silent and face-down"
+    ],
+    "cta": "Start tonight -> sleepwisereviews.com"
+  },
+  "IG-039": {
+    "hook": "Your wake time is the most powerful sleep tool you're not using",
+    "points": [
+      "⏰ Wake time anchors your circadian clock | Sleep drive builds from the moment you wake — a consistent wake time makes sleep onset predictable every single night",
+      "😴 Sleeping in on weekends backfires | Weekend lie-ins shift your sleep phase 1.5-2 hours — the equivalent of flying west by 3 time zones and back, every week",
+      "☀️ Morning light within 30 minutes locks it in | Outdoor light in the first 30 minutes suppresses residual melatonin and resets your internal clock for the full week"
+    ],
+    "cta": "Try it this week -> sleepwisereviews.com"
+  },
+  "IG-040": {
+    "hook": "We tested 9 blackout curtains. Most 99% blackout claims are false.",
+    "points": [
+      "🔦 Room darkening is not blackout | Room-darkening curtains allow 15-30% light transmission — enough to suppress melatonin and reduce REM quality throughout the night",
+      "📏 Ceiling-to-floor coverage is non-negotiable | Light enters from top and sides when curtains don't extend fully — any gap reaches your retina and delays sleep onset",
+      "💰 Budget wins for blackout performance | Our top pick at $35/panel matched $120 premium models in lux measurement tests — brand name does not predict effectiveness"
+    ],
+    "cta": "Our top 3 picks -> sleepwisereviews.com"
+  },
+  "IG-041": {
+    "hook": "L-Theanine and caffeine together: the combination that changes focus and sleep",
+    "points": [
+      "🍵 L-Theanine is what makes green tea calming | At 200mg it counteracts caffeine's anxious edge — the combination is documented in 6 double-blind clinical trials",
+      "🧠 Together they produce alpha brain waves | 200mg L-Theanine + 100mg caffeine = focused calm without the jitters — peak productivity without the cortisol spike",
+      "🌙 Alone at night it promotes relaxation | L-Theanine without caffeine at 200-400mg before bed promotes GABA and reduces cortisol — calm without sedation or grogginess"
+    ],
+    "cta": "Full breakdown -> sleepwisereviews.com"
+  },
+  "IG-042": {
+    "hook": "Your brain runs a cleaning cycle every night — here's what stops it",
+    "points": [
+      "🧹 The glymphatic system activates in deep sleep | Cerebrospinal fluid pulses through brain tissue during slow-wave sleep, clearing metabolic waste including amyloid-beta",
+      "🧠 Poor sleep links directly to Alzheimer's risk | Chronic shallow sleep is associated with amyloid plaque accumulation — the same plaques found in Alzheimer's disease",
+      "🍷 Alcohol blocks the cleaning cycle | Even moderate alcohol before bed suppresses slow-wave sleep by 25%, meaning the glymphatic system runs at 75% capacity all night"
+    ],
+    "cta": "Learn the science -> sleepwisereviews.com"
+  },
+  "IG-043": {
+    "hook": "Can you catch up on lost sleep? The science gives a complicated answer.",
+    "points": [
+      "✅ Weekend sleep partially restores alertness | Recovery sleep rebounds subjective alertness within 2-3 nights — you feel better and performance partially recovers",
+      "❌ Metabolic damage does not reverse | Chronic sleep debt changes insulin sensitivity, cortisol rhythm, and immune markers in ways that 2 recovery nights don't normalise",
+      "🔁 Prevention is the only real solution | Consistent 7-8 hours prevents the debt from accumulating — catching up works occasionally, not as a weekly strategy"
+    ],
+    "cta": "Full guide -> sleepwisereviews.com"
+  },
+  "IG-044": {
+    "hook": "The 4 Saturday night habits silently ruining your Sunday sleep",
+    "points": [
+      "🍷 Alcohol after 9pm doubles night wakings | Two drinks in the evening suppress REM by 25% and cause rebound waking in the second half of the night",
+      "🍕 Late meals push your sleep phase | Eating past 10pm delays your circadian clock — your body stays metabolically active when it should be cooling down",
+      "📱 Scrolling until 1am shifts your clock 2 hours | Weekend screen time delays melatonin onset, making Sunday night's sleep onset harder when Monday arrives"
+    ],
+    "cta": "Protect your sleep this weekend -> sleepwisereviews.com"
+  },
+  "IG-045": {
+    "hook": "Don't overhaul your sleep routine. Just fix one thing. Here's which one.",
+    "points": [
+      "🎯 One habit outperforms five unfinished ones | Sleep research consistently shows single-habit changes maintained 7+ days produce more improvement than multi-habit programs",
+      "⏰ Fixed wake time has the highest ROI | Of all single sleep habits, a consistent wake time anchors circadian rhythm faster than any supplement or device on the market",
+      "📊 Consistency beats optimisation | Sleeping 7.5 hours at the same times beats 8.5 fragmented hours with a perfect environment — regularity is the variable that matters most"
+    ],
+    "cta": "Pick your one thing -> sleepwisereviews.com"
   }
 }
