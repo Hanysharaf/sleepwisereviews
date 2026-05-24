@@ -1,0 +1,428 @@
+"""Generate posts/best-l-theanine-supplement.html"""
+import os
+
+out = r"""<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Best L-Theanine Supplements 2026: Dosage, Sleep &amp; Anxiety Guide | SleepWise Reviews</title>
+  <meta name="description" content="The best L-theanine supplements for sleep and anxiety in 2026. Dosage guide, Suntheanine vs generic, stacking with caffeine, and expert product picks." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://sleepwisereviews.com/posts/best-l-theanine-supplement.html" />
+  <meta property="og:title" content="Best L-Theanine Supplements 2026: Sleep &amp; Anxiety Guide" />
+  <meta property="og:description" content="Top L-theanine supplements ranked by purity and dose. Suntheanine vs generic, sleep stacks, and anxiety dosing explained." />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://sleepwisereviews.com/posts/best-l-theanine-supplement.html" />
+  <meta property="og:image" content="https://sleepwisereviews.com/images/og-default.png" />
+  <meta property="og:site_name" content="SleepWise Reviews" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "Best L-Theanine Supplements 2026",
+    "description": "Top-rated L-theanine supplements for sleep quality and anxiety relief.",
+    "url": "https://sleepwisereviews.com/posts/best-l-theanine-supplement.html",
+    "numberOfItems": 6,
+    "itemListElement": [
+      {"@type":"ListItem","position":1,"name":"Jarrow Formulas Theanine 200","url":"https://www.amazon.com/s?k=Jarrow+Formulas+Theanine+200&tag=sleepwiserevi-20"},
+      {"@type":"ListItem","position":2,"name":"NOW Foods L-Theanine 200 mg","url":"https://www.amazon.com/s?k=NOW+Foods+L-Theanine+200+mg&tag=sleepwiserevi-20"},
+      {"@type":"ListItem","position":3,"name":"Thorne Theanine","url":"https://www.amazon.com/s?k=Thorne+Theanine&tag=sleepwiserevi-20"},
+      {"@type":"ListItem","position":4,"name":"Natural Stacks GABA Brain Food","url":"https://www.amazon.com/s?k=Natural+Stacks+GABA+Brain+Food&tag=sleepwiserevi-20"},
+      {"@type":"ListItem","position":5,"name":"Sports Research L-Theanine 200 mg","url":"https://www.amazon.com/s?k=Sports+Research+L-Theanine+200+mg&tag=sleepwiserevi-20"},
+      {"@type":"ListItem","position":6,"name":"Bulk Supplements L-Theanine Powder","url":"https://www.amazon.com/s?k=Bulk+Supplements+L-Theanine+Powder&tag=sleepwiserevi-20"}
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What is the best L-theanine dosage for sleep?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "For sleep, the most-studied dose range is 100-400 mg taken 30-60 minutes before bed. A 2019 randomized controlled trial found 200 mg significantly improved sleep quality, efficiency, and morning alertness compared to placebo. 100 mg is a good starting dose; 200-400 mg is appropriate for people with significant anxiety-driven sleep disruption. Doses above 400 mg show diminishing returns and are not supported by current evidence."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What is the difference between Suntheanine and generic L-theanine?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Suntheanine is a patented, pure L-theanine form manufactured through enzymatic synthesis by Taiyo International. It has been used in the majority of L-theanine clinical trials, giving it stronger evidence backing than generic L-theanine (which may come from tea extraction or less controlled synthesis routes). Generic L-theanine is not inherently inferior if it is verified pure by third-party testing, but Suntheanine provides the highest confidence in purity and isomeric form (L-form only, not D-form). Products using Suntheanine typically state it on the label."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can I take L-theanine with melatonin and magnesium?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. L-theanine, melatonin, and magnesium glycinate work through complementary mechanisms and can be safely combined. A common sleep protocol: magnesium glycinate (200-350 mg) + L-theanine (200 mg) taken 60 minutes before bed, with low-dose melatonin (0.5-1 mg) taken 30 minutes before bed. This triple stack addresses muscle relaxation (magnesium), alpha-wave promotion and GABA support (L-theanine), and circadian signaling (melatonin). No known adverse interactions between these three."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Does L-theanine work without caffeine?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. L-theanine has meaningful effects on its own — it promotes alpha brainwave activity, reduces stress hormone response, and improves subjective relaxation without caffeine. The caffeine + L-theanine stack (typically 100 mg caffeine + 200 mg L-theanine) is popular for focused wakefulness, but this is a different use case from L-theanine's sleep and anxiety applications. For sleep, take L-theanine without caffeine — ideally well after your last caffeine dose of the day."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How long does L-theanine take to work?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "L-theanine is absorbed rapidly — EEG studies show alpha brainwave increases within 30-60 minutes of oral ingestion. For acute anxiety reduction, effects are typically noticed within 45 minutes. For sleep quality improvements (deeper sleep, better efficiency), the effects build over the first week of consistent use as cumulative relaxation patterns establish. It is not a sedative — it promotes calm alertness rather than drowsiness, which is why it can be taken in the evening without impairing daytime function the following morning."
+        }
+      }
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {"@type":"ListItem","position":1,"name":"Home","item":"https://sleepwisereviews.com/"},
+      {"@type":"ListItem","position":2,"name":"All Posts","item":"https://sleepwisereviews.com/posts/"},
+      {"@type":"ListItem","position":3,"name":"Best L-Theanine Supplements 2026","item":"https://sleepwisereviews.com/posts/best-l-theanine-supplement.html"}
+    ]
+  }
+  </script>
+  <style>
+    :root{--bg:#0a1628;--card:#111e33;--gold:#c9a84c;--text:#e8e0d0;--muted:#8899aa;--border:rgba(201,168,76,0.15)}
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{background:var(--bg);color:var(--text);font-family:'Georgia',serif;line-height:1.8}
+    header{background:var(--card);border-bottom:1px solid var(--border);padding:1rem 2rem;display:flex;align-items:center;justify-content:space-between}
+    .logo{color:var(--gold);text-decoration:none;font-size:1.3rem;font-weight:700}
+    .logo span{color:var(--text)}
+    main{max-width:860px;margin:0 auto;padding:3rem 1.5rem}
+    h1{font-size:2rem;color:var(--gold);margin-bottom:1rem}
+    h2{font-size:1.4rem;color:var(--gold);margin:2.5rem 0 1rem}
+    h3{font-size:1.1rem;color:var(--text);margin:1.5rem 0 0.5rem}
+    p{margin-bottom:1rem;color:var(--text)}
+    .intro-meta{color:var(--muted);font-size:0.9rem;margin-bottom:2rem}
+    .callout{background:var(--card);border-left:4px solid var(--gold);padding:1.2rem 1.5rem;margin:2rem 0;border-radius:0 8px 8px 0}
+    .callout strong{color:var(--gold)}
+    .product-card{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:1.8rem;margin:2rem 0}
+    .product-card .rank{font-size:0.8rem;color:var(--muted);text-transform:uppercase;letter-spacing:1px;margin-bottom:0.3rem}
+    .product-title{font-size:1.2rem;color:var(--gold);font-weight:700;margin-bottom:0.8rem}
+    .product-meta{display:flex;flex-wrap:wrap;gap:0.6rem;margin-bottom:1rem}
+    .tag{background:rgba(201,168,76,0.1);border:1px solid rgba(201,168,76,0.3);color:var(--gold);font-size:0.78rem;padding:0.2rem 0.7rem;border-radius:20px}
+    .pros-cons{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin:1rem 0}
+    .pros,.cons{padding:1rem}
+    .pros{background:rgba(45,106,79,0.08);border-radius:8px}
+    .cons{background:rgba(201,168,76,0.05);border-radius:8px}
+    .pros h4{color:#52b788;margin-bottom:0.5rem;font-size:0.85rem;text-transform:uppercase}
+    .cons h4{color:var(--gold);margin-bottom:0.5rem;font-size:0.85rem;text-transform:uppercase}
+    ul.check li{list-style:none;padding-left:1.4rem;position:relative;margin-bottom:0.3rem;font-size:0.9rem;color:var(--text)}
+    ul.check li::before{content:'\2713';position:absolute;left:0;color:#52b788}
+    ul.cross li{list-style:none;padding-left:1.4rem;position:relative;margin-bottom:0.3rem;font-size:0.9rem;color:var(--text)}
+    ul.cross li::before{content:'\2717';position:absolute;left:0;color:#e07070}
+    .cta-btn{display:inline-block;background:var(--gold);color:#0a1628;font-weight:700;padding:0.7rem 1.6rem;border-radius:8px;text-decoration:none;margin-top:1rem;font-size:0.95rem}
+    .cta-btn:hover{opacity:0.88}
+    table{width:100%;border-collapse:collapse;margin:1.5rem 0;font-size:0.88rem}
+    th{background:var(--card);color:var(--gold);padding:0.7rem;text-align:left;border-bottom:2px solid var(--border)}
+    td{padding:0.65rem;border-bottom:1px solid var(--border);color:var(--text)}
+    tr:nth-child(even) td{background:rgba(255,255,255,0.02)}
+    .stack-box{background:rgba(201,168,76,0.06);border:1px solid rgba(201,168,76,0.25);border-radius:10px;padding:1.5rem;margin:2rem 0}
+    .stack-box h3{color:var(--gold);margin-bottom:0.8rem}
+    .related-box{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:1.5rem;margin:2.5rem 0}
+    .related-box h3{color:var(--gold);margin-bottom:1rem;font-size:1rem}
+    .related-box ul{list-style:none}
+    .related-box li{margin-bottom:0.5rem}
+    .related-box a{color:var(--text);text-decoration:none;font-size:0.9rem}
+    .related-box a:hover{color:var(--gold)}
+    .faq-section{margin:3rem 0}
+    .faq-item{border-bottom:1px solid var(--border);padding:1.2rem 0}
+    .faq-item h3{color:var(--gold);font-size:1rem;margin-bottom:0.6rem}
+    footer{text-align:center;padding:2rem;color:var(--muted);font-size:0.85rem;border-top:1px solid var(--border)}
+    footer a{color:var(--gold)}
+    @media(max-width:600px){.pros-cons{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+  <header>
+    <a class="logo" href="../">SleepWise<span>Reviews</span></a>
+    <a href="index.html" style="color:var(--muted);font-size:0.9rem;text-decoration:none;">&#8592; All Posts</a>
+  </header>
+  <main>
+    <article>
+    <h1>Best L-Theanine Supplements 2026: Sleep, Anxiety &amp; Dosage Guide</h1>
+    <p class="intro-meta">Updated May 2026 &nbsp;|&nbsp; 6 supplements reviewed &nbsp;|&nbsp; By SleepWise Reviews</p>
+
+    <p>L-theanine is the amino acid responsible for tea's calming effect despite containing caffeine. It increases alpha brainwave activity — the same pattern seen during meditation — without sedation. This makes it uniquely useful for sleep: it promotes the transition to relaxed wakefulness without causing drowsiness that would impair next-day function.</p>
+
+    <p>The supplement market is crowded with L-theanine products at wildly different dose points and quality levels. This guide ranks six products by purity verification, dose accuracy, and value — with a full explanation of the Suntheanine question and the optimal stack protocols.</p>
+
+    <div class="callout">
+      <strong>Bottom line:</strong> <strong>Jarrow Theanine 200</strong> uses Suntheanine (the form used in clinical trials) at the best price point for a verified product. <strong>Thorne Theanine</strong> if you want NSF certification. <strong>Bulk Supplements Powder</strong> for maximum value if you're comfortable with powder dosing.
+    </div>
+
+    <h2>The 6 Best L-Theanine Supplements</h2>
+
+    <div class="product-card">
+      <div class="rank">Best Overall</div>
+      <div class="product-title">1. Jarrow Formulas Theanine 200</div>
+      <div class="product-meta">
+        <span class="tag">Suntheanine (Patented L-Theanine)</span>
+        <span class="tag">200 mg per capsule</span>
+        <span class="tag">~$0.18/serving</span>
+      </div>
+      <p>Jarrow Theanine 200 uses Suntheanine — the patented, enzymatically synthesized L-theanine form produced by Taiyo International that has been used in the majority of human clinical trials on L-theanine. This matters: Suntheanine is 100% L-isomer (the active form), while some generic extracts may contain a mixture of L and D isomers, with only the L form being biologically active.</p>
+      <p>200 mg per capsule is the most commonly studied dose for sleep quality improvement. Jarrow's price per serving is excellent for a Suntheanine product, making it the default recommendation for most people seeking L-theanine for sleep and anxiety.</p>
+      <div class="pros-cons">
+        <div class="pros">
+          <h4>Pros</h4>
+          <ul class="check">
+            <li>Suntheanine — clinical trial form</li>
+            <li>200 mg — optimal sleep dose</li>
+            <li>Excellent price for Suntheanine quality</li>
+            <li>Widely available</li>
+          </ul>
+        </div>
+        <div class="cons">
+          <h4>Cons</h4>
+          <ul class="cross">
+            <li>Not NSF/USP independently certified</li>
+            <li>Capsule only — no powder option</li>
+          </ul>
+        </div>
+      </div>
+      <a href="https://www.amazon.com/s?k=Jarrow+Formulas+Theanine+200&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" class="cta-btn">Check Jarrow Price on Amazon &rarr;</a>
+    </div>
+
+    <div class="product-card">
+      <div class="rank">Best Value</div>
+      <div class="product-title">2. NOW Foods L-Theanine 200 mg</div>
+      <div class="product-meta">
+        <span class="tag">200 mg per serving</span>
+        <span class="tag">GMP Certified</span>
+        <span class="tag">~$0.13/serving</span>
+      </div>
+      <p>NOW Foods L-Theanine consistently passes independent lab testing (ConsumerLab and similar) for label accuracy and purity. At $0.13/serving, it is the most affordable verified L-theanine on this list. GMP certified, made in a facility with no major allergens, and available in both 100 mg and 200 mg capsules to allow flexible dosing.</p>
+      <p>The source is not specified as Suntheanine on the label, but NOW's manufacturing standards and consistent test results give reasonable confidence in purity. For budget-conscious daily supplementation where cost compliance matters for long-term use, NOW is the correct choice.</p>
+      <div class="pros-cons">
+        <div class="pros">
+          <h4>Pros</h4>
+          <ul class="check">
+            <li>Lowest cost per serving on this list</li>
+            <li>Consistent lab test results</li>
+            <li>Available in 100 mg and 200 mg</li>
+            <li>Widely available</li>
+          </ul>
+        </div>
+        <div class="cons">
+          <h4>Cons</h4>
+          <ul class="cross">
+            <li>Not Suntheanine labeled</li>
+            <li>Not NSF certified</li>
+          </ul>
+        </div>
+      </div>
+      <a href="https://www.amazon.com/s?k=NOW+Foods+L-Theanine+200+mg&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" class="cta-btn">Check NOW Foods Price &rarr;</a>
+    </div>
+
+    <div class="product-card">
+      <div class="rank">Best Certified / Clinical Grade</div>
+      <div class="product-title">3. Thorne Theanine</div>
+      <div class="product-meta">
+        <span class="tag">Suntheanine 200 mg</span>
+        <span class="tag">NSF Certified for Sport</span>
+        <span class="tag">~$0.53/serving</span>
+      </div>
+      <p>Thorne Theanine combines Suntheanine with NSF Certified for Sport batch testing — the highest independent verification standard available for supplements. This makes it the choice for people who need absolute confidence in purity (competitive athletes subject to drug testing, medical professionals, or anyone with zero tolerance for label inaccuracy).</p>
+      <p>The price premium over Jarrow is purely for the NSF certification. The active ingredient and dose are effectively the same. If you have no specific need for NSF certification, Jarrow Theanine 200 provides equivalent efficacy at a significantly lower cost.</p>
+      <div class="pros-cons">
+        <div class="pros">
+          <h4>Pros</h4>
+          <ul class="check">
+            <li>NSF Certified for Sport (batch tested)</li>
+            <li>Suntheanine — clinical trial form</li>
+            <li>No magnesium stearate</li>
+          </ul>
+        </div>
+        <div class="cons">
+          <h4>Cons</h4>
+          <ul class="cross">
+            <li>Significantly more expensive than Jarrow</li>
+            <li>Smaller count per bottle</li>
+          </ul>
+        </div>
+      </div>
+      <a href="https://www.amazon.com/s?k=Thorne+Theanine&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" class="cta-btn">Check Thorne Price &rarr;</a>
+    </div>
+
+    <div class="product-card">
+      <div class="rank">Best Combined Stack</div>
+      <div class="product-title">4. Natural Stacks GABA Brain Food</div>
+      <div class="product-meta">
+        <span class="tag">L-Theanine 250 mg + GABA 300 mg + Magnesium</span>
+        <span class="tag">Sleep Stack Formula</span>
+        <span class="tag">~$0.90/serving</span>
+      </div>
+      <p>Natural Stacks GABA Brain Food is included here as the best pre-formulated sleep stack containing L-theanine. It combines 250 mg L-theanine with 300 mg GABA and magnesium in a single product — addressing multiple neurotransmitter pathways involved in sleep onset simultaneously. GABA is the primary inhibitory neurotransmitter in the brain; theanine enhances GABAergic transmission.</p>
+      <p>Note: oral GABA has limited blood-brain barrier penetration, which is why the theanine + magnesium components do most of the functional work. But the combination is well-tolerated and many users report better results from the stack than single-ingredient L-theanine. Useful for people who want a single-capsule sleep supplement rather than managing multiple bottles.</p>
+      <div class="pros-cons">
+        <div class="pros">
+          <h4>Pros</h4>
+          <ul class="check">
+            <li>Pre-formulated stack — one capsule routine</li>
+            <li>250 mg theanine — above standard dose</li>
+            <li>Adds GABA and magnesium synergy</li>
+          </ul>
+        </div>
+        <div class="cons">
+          <h4>Cons</h4>
+          <ul class="cross">
+            <li>Higher price per serving</li>
+            <li>Less flexibility to adjust individual doses</li>
+          </ul>
+        </div>
+      </div>
+      <a href="https://www.amazon.com/s?k=Natural+Stacks+GABA+Brain+Food&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" class="cta-btn">Check Natural Stacks Price &rarr;</a>
+    </div>
+
+    <div class="product-card">
+      <div class="rank">Best Third-Party Tested Mid-Range</div>
+      <div class="product-title">5. Sports Research L-Theanine 200 mg</div>
+      <div class="product-meta">
+        <span class="tag">Suntheanine 200 mg</span>
+        <span class="tag">Certified by Informed Sport</span>
+        <span class="tag">~$0.24/serving</span>
+      </div>
+      <p>Sports Research uses Suntheanine in their L-theanine product and is certified by Informed Sport — a third-party testing program that independently validates each batch. The price sits between Jarrow and Thorne, offering Suntheanine quality with a second-tier certification (Informed Sport, not NSF Certified for Sport) at a reasonable price point.</p>
+      <p>Softgel format (not hard capsule) — some users find softgels easier to swallow and believe absorption is faster, though the clinical evidence for faster softgel absorption of water-soluble compounds like theanine is not strong.</p>
+      <div class="pros-cons">
+        <div class="pros">
+          <h4>Pros</h4>
+          <ul class="check">
+            <li>Suntheanine + Informed Sport certified</li>
+            <li>Softgel format</li>
+            <li>Mid-range price for certified quality</li>
+          </ul>
+        </div>
+        <div class="cons">
+          <h4>Cons</h4>
+          <ul class="cross">
+            <li>Informed Sport (not NSF) certification</li>
+            <li>Softgel requires gelatin — not vegan</li>
+          </ul>
+        </div>
+      </div>
+      <a href="https://www.amazon.com/s?k=Sports+Research+L-Theanine+200+mg&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" class="cta-btn">Check Sports Research Price &rarr;</a>
+    </div>
+
+    <div class="product-card">
+      <div class="rank">Best Bulk Value</div>
+      <div class="product-title">6. Bulk Supplements L-Theanine Powder</div>
+      <div class="product-meta">
+        <span class="tag">Pure L-Theanine Powder</span>
+        <span class="tag">~$0.06/serving at 200 mg</span>
+        <span class="tag">COA available on request</span>
+      </div>
+      <p>Bulk Supplements offers pharmaceutical-grade L-theanine powder with certificate of analysis (COA) testing available for each batch. At 200 mg per serving, this works out to approximately $0.06/serving — by far the lowest cost on this list. Appropriate for people comfortable with measuring powders and mixing into water or adding to protein shakes.</p>
+      <p>The powder format allows flexible dosing (100 mg, 200 mg, 300 mg, 400 mg) without buying separate products. Not Suntheanine labeled, but Bulk Supplements' COAs consistently show &gt;99% purity. Not certified by a third party like NSF or Informed Sport.</p>
+      <div class="pros-cons">
+        <div class="pros">
+          <h4>Pros</h4>
+          <ul class="check">
+            <li>Lowest cost per serving by far</li>
+            <li>Completely flexible dosing</li>
+            <li>COA available per batch</li>
+          </ul>
+        </div>
+        <div class="cons">
+          <h4>Cons</h4>
+          <ul class="cross">
+            <li>Requires scale for accurate dosing</li>
+            <li>Not Suntheanine labeled</li>
+            <li>No third-party certification</li>
+          </ul>
+        </div>
+      </div>
+      <a href="https://www.amazon.com/s?k=Bulk+Supplements+L-Theanine+Powder&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" class="cta-btn">Check Bulk Supplements Price &rarr;</a>
+    </div>
+
+    <h2>Comparison Table</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Product</th>
+          <th>Dose</th>
+          <th>Suntheanine</th>
+          <th>Certification</th>
+          <th>Price/Serving</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>Jarrow Theanine 200</td><td>200 mg</td><td>Yes</td><td>GMP</td><td>~$0.18</td></tr>
+        <tr><td>NOW Foods</td><td>200 mg</td><td>Not stated</td><td>GMP</td><td>~$0.13</td></tr>
+        <tr><td>Thorne Theanine</td><td>200 mg</td><td>Yes</td><td>NSF Certified for Sport</td><td>~$0.53</td></tr>
+        <tr><td>Natural Stacks GABA</td><td>250 mg</td><td>Not stated</td><td>GMP</td><td>~$0.90</td></tr>
+        <tr><td>Sports Research</td><td>200 mg</td><td>Yes</td><td>Informed Sport</td><td>~$0.24</td></tr>
+        <tr><td>Bulk Supplements</td><td>Flexible</td><td>Not stated</td><td>COA only</td><td>~$0.06</td></tr>
+      </tbody>
+    </table>
+
+    <div class="stack-box">
+      <h3>Evidence-Based Sleep Stack with L-Theanine</h3>
+      <p><strong>60 minutes before bed:</strong> Magnesium glycinate 200-350 mg + L-theanine 200 mg</p>
+      <p><strong>30 minutes before bed:</strong> Melatonin 0.5-1 mg (only if needed for circadian shifting or jet lag)</p>
+      <p>L-theanine promotes alpha brainwave activity and supports GABA; magnesium glycinate provides muscle relaxation and enhances GABA receptor sensitivity; melatonin signals the circadian clock. The combination targets three separate mechanisms of sleep onset without sedating next-day function.</p>
+    </div>
+
+    <div class="related-box">
+      <h3>Related Sleep Supplement Guides</h3>
+      <ul>
+        <li><a href="best-magnesium-glycinate.html">&#8594; Best Magnesium Glycinate for Sleep</a></li>
+        <li><a href="best-sleep-gummies.html">&#8594; Best Sleep Gummies (with L-Theanine)</a></li>
+        <li><a href="best-melatonin-supplements.html">&#8594; Best Melatonin Supplements</a></li>
+        <li><a href="best-ashwagandha-sleep.html">&#8594; Best Ashwagandha for Sleep and Anxiety</a></li>
+        <li><a href="best-sleep-supplements-guide.html">&#8594; Complete Sleep Supplements Guide</a></li>
+        <li><a href="natural-sleep-aids.html">&#8594; Natural Sleep Aids: What Actually Works</a></li>
+      </ul>
+    </div>
+
+    <div class="faq-section">
+      <h2>Frequently Asked Questions</h2>
+      <div class="faq-item">
+        <h3>What is the best L-theanine dosage for sleep?</h3>
+        <p>For sleep, the most-studied dose range is 100-400 mg taken 30-60 minutes before bed. A 2019 RCT found 200 mg significantly improved sleep quality, efficiency, and morning alertness. 100 mg is a good starting dose; 200-400 mg is appropriate for significant anxiety-driven sleep disruption.</p>
+      </div>
+      <div class="faq-item">
+        <h3>What is the difference between Suntheanine and generic L-theanine?</h3>
+        <p>Suntheanine is a patented, pure L-theanine form used in the majority of clinical trials. It is 100% L-isomer (the active form). Generic L-theanine is not inherently inferior if third-party tested for purity, but Suntheanine provides higher confidence. Products using Suntheanine typically state it on the label.</p>
+      </div>
+      <div class="faq-item">
+        <h3>Can I take L-theanine with melatonin and magnesium?</h3>
+        <p>Yes. L-theanine, melatonin, and magnesium glycinate work through complementary mechanisms and can be safely combined. A common protocol: magnesium glycinate (200-350 mg) + L-theanine (200 mg) 60 minutes before bed, with low-dose melatonin (0.5-1 mg) 30 minutes before bed. No known adverse interactions between these three.</p>
+      </div>
+      <div class="faq-item">
+        <h3>Does L-theanine work without caffeine?</h3>
+        <p>Yes. L-theanine promotes alpha brainwave activity, reduces stress hormone response, and improves subjective relaxation independently. The caffeine + L-theanine stack is for focused wakefulness — a different use case from sleep and anxiety. For sleep, take L-theanine without caffeine, well after your last caffeine dose of the day.</p>
+      </div>
+      <div class="faq-item">
+        <h3>How long does L-theanine take to work?</h3>
+        <p>EEG studies show alpha brainwave increases within 30-60 minutes of oral ingestion. For acute anxiety reduction, effects are noticed within 45 minutes. For sleep quality improvements, effects build over the first week of consistent use. It is not a sedative — it promotes calm alertness without causing drowsiness.</p>
+      </div>
+    </div>
+
+    </article>
+  </main>
+  <footer>
+    <p>&copy; 2025-2026 <a href="../">SleepWise Reviews</a> &middot; Evidence-based sleep guidance</p>
+    <p style="margin-top:0.5rem;font-size:0.8rem;">Some links on this page are affiliate links. We may earn a commission at no extra cost to you.</p>
+  </footer>
+</body>
+</html>"""
+
+path = os.path.join(os.path.dirname(__file__), 'posts', 'best-l-theanine-supplement.html')
+with open(path, 'w', encoding='utf-8') as f:
+    f.write(out)
+print('Written:', path)
