@@ -1,0 +1,611 @@
+import os
+
+OUT = r'O:\MyFiles\Projects\SleepReviewes\posts\best-latex-mattress-topper.html'
+
+html = r'''<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Best Latex Mattress Toppers 2025 — Natural Bounce, Cooling, and Durability</title>
+<meta name="description" content="The best latex mattress toppers reviewed. Natural Dunlop vs Talalay latex compared for firmness, cooling, and durability. Top picks for side, back, and hot sleepers.">
+<link rel="canonical" href="https://sleepwisereviews.com/posts/best-latex-mattress-topper.html">
+
+<!-- Open Graph -->
+<meta property="og:type" content="article">
+<meta property="og:title" content="Best Latex Mattress Toppers 2025 — Natural Bounce, Cooling, and Durability">
+<meta property="og:description" content="Dunlop vs Talalay latex compared. Seven toppers reviewed for bounce, cooling, and durability — the only material that outlasts memory foam by years.">
+<meta property="og:url" content="https://sleepwisereviews.com/posts/best-latex-mattress-topper.html">
+<meta property="og:site_name" content="SleepWiseReviews">
+<meta property="og:image" content="https://sleepwisereviews.com/assets/images/best-latex-mattress-topper.jpg">
+<meta property="article:published_time" content="2025-05-25T13:00:00Z">
+<meta property="article:modified_time" content="2025-05-25T13:00:00Z">
+<meta property="article:section" content="Mattresses &amp; Bedding">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Best Latex Mattress Toppers 2025">
+<meta name="twitter:description" content="Natural bounce, better cooling than memory foam, and 8-10 year lifespan. Seven latex toppers reviewed by material, firmness, and use case.">
+<meta name="twitter:image" content="https://sleepwisereviews.com/assets/images/best-latex-mattress-topper.jpg">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "headline": "Best Latex Mattress Toppers 2025",
+      "description": "The best latex mattress toppers reviewed for Dunlop vs Talalay, firmness, cooling, and durability.",
+      "url": "https://sleepwisereviews.com/posts/best-latex-mattress-topper.html",
+      "datePublished": "2025-05-25",
+      "dateModified": "2025-05-25",
+      "author": {"@type": "Organization", "name": "SleepWiseReviews"},
+      "publisher": {"@type": "Organization", "name": "SleepWiseReviews", "url": "https://sleepwisereviews.com"}
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://sleepwisereviews.com"},
+        {"@type": "ListItem", "position": 2, "name": "Mattresses & Bedding", "item": "https://sleepwisereviews.com/posts/index.html"},
+        {"@type": "ListItem", "position": 3, "name": "Best Latex Mattress Toppers 2025", "item": "https://sleepwisereviews.com/posts/best-latex-mattress-topper.html"}
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "name": "Best Latex Mattress Toppers 2025",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Sleep On Latex Pure Green Topper"},
+        {"@type": "ListItem", "position": 2, "name": "Latex for Less Natural Latex Topper"},
+        {"@type": "ListItem", "position": 3, "name": "PlushBeds Natural Latex Topper"},
+        {"@type": "ListItem", "position": 4, "name": "Brooklyn Bedding Talalay Latex Topper"},
+        {"@type": "ListItem", "position": 5, "name": "Avocado Organic Latex Topper"},
+        {"@type": "ListItem", "position": 6, "name": "Saatva Natural Latex Topper"},
+        {"@type": "ListItem", "position": 7, "name": "Lucid Latex Foam Topper"}
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is the difference between Dunlop and Talalay latex?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Dunlop latex is denser and firmer — the manufacturing process allows natural sediment to settle at the bottom, creating a heavier feel. It is more durable (8-12 years) and less expensive. Talalay latex is airier and more consistent — flash-frozen before curing prevents sediment settling, producing a more uniform, bouncier, and slightly cooler feel. It costs more and lasts 6-8 years. For firmness and durability: Dunlop. For softness and cooling: Talalay."}
+        },
+        {
+          "@type": "Question",
+          "name": "Is latex better than memory foam for a mattress topper?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Latex toppers have three significant advantages over memory foam: they sleep cooler (open-cell structure and natural breathability vs. memory foam's heat-trapping), they last longer (8-10 years vs. 3-5 for budget memory foam), and they have responsive bounce that makes repositioning easier. Memory foam conforms more precisely to body contours, making it better for extreme pressure relief. If heat and durability are concerns, latex wins. If maximum pressure relief is the priority, memory foam wins."}
+        },
+        {
+          "@type": "Question",
+          "name": "Can I use a latex topper on any mattress?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Yes, latex toppers work on any firm surface — innerspring, foam, hybrid, or platform beds. Ensure the mattress has sufficient base support (no major sagging) before adding a topper. A latex topper on a sagging mattress will compress into the dip rather than bridging it, just like memory foam. The topper also adds 1-3 inches of height, requiring deep-pocket fitted sheets."}
+        },
+        {
+          "@type": "Question",
+          "name": "How long does a latex mattress topper last?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Natural Dunlop latex: 8-12 years. Natural Talalay latex: 6-8 years. Blended latex (natural + synthetic): 5-7 years. Synthetic latex: 3-5 years. Latex significantly outlasts memory foam toppers, making the higher upfront cost more cost-effective over time. Rotate the topper every 6 months to extend lifespan."}
+        },
+        {
+          "@type": "Question",
+          "name": "Are latex mattress toppers safe and non-toxic?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Natural latex is derived from rubber tree sap and is inherently non-toxic. Look for GOLS (Global Organic Latex Standard) certification for certified organic latex and OEKO-TEX Standard 100 certification for absence of harmful substances. Blended or synthetic latex may contain VOCs during off-gassing. People with latex allergies should avoid natural latex products and use synthetic or memory foam alternatives."}
+        }
+      ]
+    }
+  ]
+}
+</script>
+
+<style>
+:root{--bg:#0a1628;--card:#111e33;--gold:#c9a84c;--text:#e8eaf0;--muted:#8892a4;--border:#1e2d47;--green:#2ecc71;--red:#e74c3c}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:'Segoe UI',system-ui,sans-serif;line-height:1.7;font-size:16px}
+a{color:var(--gold);text-decoration:none}
+a:hover{text-decoration:underline}
+.site-header{background:var(--card);border-bottom:2px solid var(--gold);padding:14px 0}
+.site-header .inner{max-width:1100px;margin:0 auto;padding:0 20px;display:flex;align-items:center;justify-content:space-between}
+.logo{font-size:1.4rem;font-weight:700;color:var(--gold);letter-spacing:.5px}
+nav a{color:var(--text);margin-left:22px;font-size:.9rem;opacity:.85}
+nav a:hover{color:var(--gold);opacity:1}
+.hero{background:linear-gradient(135deg,#0a1628 0%,#0d2244 60%,#0a1a35 100%);padding:52px 20px 40px;text-align:center;border-bottom:1px solid var(--border)}
+.hero h1{font-size:clamp(1.6rem,4vw,2.6rem);font-weight:800;color:#fff;max-width:820px;margin:0 auto 14px;line-height:1.25}
+.hero h1 span{color:var(--gold)}
+.hero .sub{color:var(--muted);font-size:1.05rem;max-width:620px;margin:0 auto 22px}
+.hero .meta{display:flex;justify-content:center;gap:20px;flex-wrap:wrap;font-size:.82rem;color:var(--muted)}
+.hero .meta span{background:var(--card);padding:4px 12px;border-radius:20px;border:1px solid var(--border)}
+main{max-width:900px;margin:0 auto;padding:36px 20px 60px}
+.toc{background:var(--card);border:1px solid var(--border);border-left:4px solid var(--gold);border-radius:8px;padding:20px 24px;margin-bottom:36px}
+.toc h2{font-size:1rem;text-transform:uppercase;letter-spacing:1px;color:var(--gold);margin-bottom:12px}
+.toc ol{padding-left:18px}
+.toc li{margin-bottom:6px;font-size:.92rem}
+.intro-box{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:24px;margin-bottom:36px;font-size:.97rem;color:var(--muted);line-height:1.8}
+.intro-box strong{color:var(--text)}
+.product-card{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:28px;margin-bottom:32px;position:relative}
+.product-card.top-pick{border-color:var(--gold)}
+.rank-badge{display:inline-flex;align-items:center;gap:8px;background:var(--gold);color:#0a1628;font-weight:800;font-size:.82rem;padding:5px 14px;border-radius:20px;margin-bottom:16px;text-transform:uppercase;letter-spacing:.5px}
+.top-pick-badge{background:linear-gradient(135deg,var(--gold),#e8c96a);color:#0a1628;font-weight:800;font-size:.75rem;padding:3px 10px;border-radius:10px;text-transform:uppercase;letter-spacing:.5px;margin-left:8px}
+.product-card h2{font-size:1.32rem;font-weight:700;color:#fff;margin-bottom:8px;line-height:1.3}
+.verdict{font-size:.93rem;color:var(--muted);margin-bottom:18px;line-height:1.7}
+.specs-chips{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:18px}
+.chip{background:#0a1628;border:1px solid var(--border);border-radius:20px;padding:4px 14px;font-size:.8rem;color:var(--muted)}
+.chip strong{color:var(--text)}
+.pros-cons{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:18px 0}
+@media(max-width:560px){.pros-cons{grid-template-columns:1fr}}
+.pros,.cons{background:#0a1628;border-radius:8px;padding:14px 16px}
+.pros h4{color:var(--green);font-size:.85rem;text-transform:uppercase;letter-spacing:.5px;margin-bottom:8px}
+.cons h4{color:var(--red);font-size:.85rem;text-transform:uppercase;letter-spacing:.5px;margin-bottom:8px}
+.pros li,.cons li{font-size:.88rem;color:var(--muted);margin-bottom:5px;padding-left:14px;position:relative;list-style:none}
+.pros li::before{content:'+';position:absolute;left:0;color:var(--green);font-weight:700}
+.cons li::before{content:'-';position:absolute;left:0;color:var(--red);font-weight:700}
+.buy-btn{display:inline-block;background:var(--gold);color:#0a1628;font-weight:700;padding:11px 24px;border-radius:8px;font-size:.92rem;margin-top:10px;transition:opacity .2s}
+.buy-btn:hover{opacity:.85;text-decoration:none}
+.comparison-table{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:24px;margin:30px 0;overflow-x:auto}
+.comparison-table h2{color:var(--gold);font-size:1.1rem;font-weight:700;margin-bottom:16px}
+table{width:100%;border-collapse:collapse;font-size:.88rem}
+th{background:#0a1628;color:var(--gold);padding:10px 14px;text-align:left;font-weight:700;border-bottom:2px solid var(--border)}
+td{padding:10px 14px;color:var(--muted);border-bottom:1px solid var(--border)}
+tr:last-child td{border-bottom:none}
+.science-box{background:linear-gradient(135deg,#0d2244,#111e33);border:1px solid #1e3a5f;border-left:4px solid var(--gold);border-radius:10px;padding:22px 24px;margin:30px 0}
+.science-box h3{color:var(--gold);font-size:1rem;text-transform:uppercase;letter-spacing:1px;margin-bottom:10px}
+.science-box p{font-size:.93rem;color:var(--muted);line-height:1.8}
+.buying-guide{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:28px;margin:36px 0}
+.buying-guide h2{font-size:1.25rem;font-weight:700;color:var(--gold);margin-bottom:18px}
+.guide-item{margin-bottom:18px;padding-bottom:18px;border-bottom:1px solid var(--border)}
+.guide-item:last-child{border-bottom:none;margin-bottom:0;padding-bottom:0}
+.guide-item h3{font-size:1rem;font-weight:700;color:#fff;margin-bottom:6px}
+.guide-item p{font-size:.92rem;color:var(--muted);line-height:1.7}
+.faq-section{margin:40px 0}
+.faq-section h2{font-size:1.3rem;font-weight:700;color:var(--gold);margin-bottom:20px}
+.faq-item{background:var(--card);border:1px solid var(--border);border-radius:8px;padding:18px 22px;margin-bottom:12px}
+.faq-item h3{font-size:1rem;font-weight:700;color:#fff;margin-bottom:8px}
+.faq-item p{font-size:.92rem;color:var(--muted);line-height:1.7}
+.verdict-box{background:linear-gradient(135deg,#0d2244,var(--card));border:2px solid var(--gold);border-radius:12px;padding:28px;margin:36px 0;text-align:center}
+.verdict-box h2{color:var(--gold);font-size:1.2rem;font-weight:700;margin-bottom:12px}
+.verdict-box p{color:var(--muted);font-size:.95rem;line-height:1.8;max-width:680px;margin:0 auto}
+.disclosure{background:var(--card);border:1px solid var(--border);border-radius:8px;padding:14px 18px;margin-bottom:28px;font-size:.8rem;color:var(--muted)}
+.site-footer{background:var(--card);border-top:1px solid var(--border);padding:30px 20px;text-align:center;color:var(--muted);font-size:.85rem;margin-top:60px}
+.site-footer a{color:var(--gold)}
+@media(max-width:600px){.hero{padding:36px 16px 28px}main{padding:24px 14px 48px}}
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="inner">
+    <a class="logo" href="https://sleepwisereviews.com">SleepWiseReviews</a>
+    <nav>
+      <a href="https://sleepwisereviews.com">Home</a>
+      <a href="https://sleepwisereviews.com/posts/index.html">All Reviews</a>
+    </nav>
+  </div>
+</header>
+
+<div class="hero">
+  <h1>Best <span>Latex Mattress Toppers</span> 2025</h1>
+  <p class="sub">Natural bounce, cooler sleep than memory foam, and 8-10 year lifespan. Seven latex toppers reviewed for Dunlop vs. Talalay, firmness, and use case.</p>
+  <div class="meta">
+    <span>7 Toppers Reviewed</span>
+    <span>Updated May 2025</span>
+    <span>Mattresses &amp; Bedding</span>
+    <span>GOLS + OEKO-TEX Verified</span>
+  </div>
+</div>
+
+<main>
+
+<div class="disclosure">
+  <strong>Affiliate Disclosure:</strong> SleepWiseReviews earns commissions from qualifying Amazon purchases at no extra cost to you. Our recommendations are based on independent research and editorial judgment.
+</div>
+
+<div class="toc">
+  <h2>Quick Navigation</h2>
+  <ol>
+    <li><a href="#sol">Sleep On Latex Pure Green — Best Overall</a></li>
+    <li><a href="#lfl">Latex for Less — Best Budget</a></li>
+    <li><a href="#plushbeds">PlushBeds Natural Latex — Best Certified Organic</a></li>
+    <li><a href="#brooklyn">Brooklyn Bedding Talalay — Best Talalay</a></li>
+    <li><a href="#avocado">Avocado Organic Latex — Best Eco</a></li>
+    <li><a href="#saatva">Saatva Natural Latex — Best Luxury</a></li>
+    <li><a href="#lucid">Lucid Latex Foam — Best Budget Blended</a></li>
+    <li><a href="#guide">Buying Guide</a></li>
+    <li><a href="#faq">FAQs</a></li>
+  </ol>
+</div>
+
+<div class="intro-box">
+  <strong>Latex toppers are what memory foam toppers are trying to be.</strong> The open-cell structure of latex allows significantly more airflow than memory foam's closed-cell structure — a meaningful difference for hot sleepers. Latex also has responsive bounce that memory foam lacks, making repositioning during the night easier and reducing the "stuck in quicksand" sensation that some people dislike about memory foam. The critical differentiators: Dunlop vs. Talalay manufacturing, natural vs. synthetic vs. blended material, and ILD firmness rating. This guide covers all three and matches each topper to its ideal use case.
+</div>
+
+<div class="science-box">
+  <h3>Dunlop vs. Talalay: The Manufacturing Difference</h3>
+  <p>Both Dunlop and Talalay latex start with the same raw material: liquid rubber tree sap (Hevea brasiliensis) whipped into a froth and poured into molds. The process diverges at curing: Dunlop latex is poured, filled, and baked — natural sediment settles to the bottom during curing, creating a denser, slightly heavier feel on one side. Talalay latex is vacuum-sealed, flash-frozen, and then baked — preventing sediment settling and creating a more uniform, consistent, and slightly airier cell structure. Result: Dunlop is firmer, heavier, more durable (8-12 years), and costs less. Talalay is softer, more consistent, slightly cooler, more responsive, and costs more (6-8 year lifespan). Neither is objectively better — the right choice depends on firmness preference and budget.</p>
+</div>
+
+<div class="comparison-table">
+  <h2>Latex Type Quick Reference</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>Property</th>
+        <th>Natural Dunlop</th>
+        <th>Natural Talalay</th>
+        <th>Blended Latex</th>
+        <th>Synthetic Latex</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Lifespan</td>
+        <td>8-12 years</td>
+        <td>6-8 years</td>
+        <td>5-7 years</td>
+        <td>3-5 years</td>
+      </tr>
+      <tr>
+        <td>Feel</td>
+        <td>Firm, supportive</td>
+        <td>Soft, bouncy, consistent</td>
+        <td>Varies</td>
+        <td>Less resilient</td>
+      </tr>
+      <tr>
+        <td>Cooling</td>
+        <td>Good</td>
+        <td>Better</td>
+        <td>Moderate</td>
+        <td>Moderate</td>
+      </tr>
+      <tr>
+        <td>Cost</td>
+        <td>Mid-High</td>
+        <td>High</td>
+        <td>Mid</td>
+        <td>Low-Mid</td>
+      </tr>
+      <tr>
+        <td>Certifications</td>
+        <td>GOLS available</td>
+        <td>GOLS available</td>
+        <td>OEKO-TEX only</td>
+        <td>Usually none</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- PRODUCT 1 -->
+<div class="product-card top-pick" id="sol">
+  <div class="rank-badge">&#9733; #1 Best Overall <span class="top-pick-badge">Editor's Pick</span></div>
+  <h2>Sleep On Latex Pure Green Natural Latex Topper</h2>
+  <p class="verdict">The highest-value natural Dunlop latex topper available. Sleep On Latex's Pure Green line uses 100% natural latex with GOLS certification, available in Soft, Medium, and Firm ILD ratings and all standard mattress sizes. This is the benchmark against which all other latex toppers are measured for the combination of material quality, price, and availability on Amazon. The Medium option (approximately ILD 28) is the best starting point for most sleepers.</p>
+  <div class="specs-chips">
+    <div class="chip"><strong>Type:</strong> 100% Natural Dunlop</div>
+    <div class="chip"><strong>Thickness:</strong> 1 / 2 / 3 inches</div>
+    <div class="chip"><strong>Firmness:</strong> Soft / Medium / Firm</div>
+    <div class="chip"><strong>Certification:</strong> GOLS + OEKO-TEX</div>
+    <div class="chip"><strong>Sizes:</strong> Twin to Cal King</div>
+    <div class="chip"><strong>Lifespan:</strong> 8-10 years</div>
+  </div>
+  <div class="pros-cons">
+    <div class="pros">
+      <h4>Pros</h4>
+      <ul>
+        <li>GOLS certified natural latex — independently verified</li>
+        <li>Best price for certified natural Dunlop latex</li>
+        <li>Three thickness and three firmness options</li>
+        <li>Responsive bounce — easy repositioning</li>
+        <li>Significantly cooler than memory foam alternatives</li>
+      </ul>
+    </div>
+    <div class="cons">
+      <h4>Cons</h4>
+      <ul>
+        <li>Dunlop is slightly firmer than Talalay at equivalent ILD</li>
+        <li>Heavy — 2-3 inch toppers in King size are difficult to move</li>
+        <li>Initial off-gassing of natural latex smell (dissipates in 48-72 hours)</li>
+        <li>No cover included — add a fitted protector</li>
+      </ul>
+    </div>
+  </div>
+  <a href="https://www.amazon.com/s?k=Sleep+On+Latex+Pure+Green+natural+latex+topper&tag=sleepwiserevi-20" class="buy-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+</div>
+
+<!-- PRODUCT 2 -->
+<div class="product-card" id="lfl">
+  <div class="rank-badge">#2 Best Budget Natural</div>
+  <h2>Latex for Less Natural Latex Topper</h2>
+  <p class="verdict">Latex for Less sells natural latex toppers at prices significantly below specialty mattress brands. The two-sided design (firm Dunlop on one side, softer on the other) allows firmness adjustment by flipping — a practical design that eliminates firmness regret. OEKO-TEX certified. Not GOLS certified, which means the organic verification is less rigorous than Sleep On Latex — but the material is still natural latex, not synthetic, at a substantially lower price per inch.</p>
+  <div class="specs-chips">
+    <div class="chip"><strong>Type:</strong> Natural Dunlop (two-sided)</div>
+    <div class="chip"><strong>Thickness:</strong> 2 / 3 inches</div>
+    <div class="chip"><strong>Design:</strong> Firm / Soft reversible</div>
+    <div class="chip"><strong>Certification:</strong> OEKO-TEX Standard 100</div>
+    <div class="chip"><strong>Sizes:</strong> Twin to Cal King</div>
+    <div class="chip"><strong>Best For:</strong> Budget-conscious natural latex buyers</div>
+  </div>
+  <div class="pros-cons">
+    <div class="pros">
+      <h4>Pros</h4>
+      <ul>
+        <li>Reversible design — two firmness levels in one topper</li>
+        <li>Natural latex at budget-relative pricing</li>
+        <li>OEKO-TEX certified — no harmful substances</li>
+        <li>Good durability for the price point</li>
+        <li>Available in multiple sizes and thicknesses</li>
+      </ul>
+    </div>
+    <div class="cons">
+      <h4>Cons</h4>
+      <ul>
+        <li>Not GOLS certified — less rigorous organic verification</li>
+        <li>Less widely available than Sleep On Latex</li>
+        <li>Reversible design means one side is always face-down</li>
+      </ul>
+    </div>
+  </div>
+  <a href="https://www.amazon.com/s?k=Latex+for+Less+natural+latex+mattress+topper&tag=sleepwiserevi-20" class="buy-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+</div>
+
+<!-- PRODUCT 3 -->
+<div class="product-card" id="plushbeds">
+  <div class="rank-badge">#3 Best Certified Organic</div>
+  <h2>PlushBeds Natural Latex Topper</h2>
+  <p class="verdict">PlushBeds holds both GOLS (Global Organic Latex Standard) and GOTS (Global Organic Textile Standard) certifications — the only brand on this list with both. GOLS certifies the latex itself; GOTS certifies the organic cotton cover. For anyone prioritizing certified organic materials throughout, PlushBeds is the most rigorously certified option. Available in Dunlop and Talalay configurations with multiple firmness options. The inclusion of a GOTS organic cotton cover adds meaningfully to the value.</p>
+  <div class="specs-chips">
+    <div class="chip"><strong>Type:</strong> Natural Dunlop or Talalay (choice)</div>
+    <div class="chip"><strong>Certification:</strong> GOLS + GOTS (both)</div>
+    <div class="chip"><strong>Thickness:</strong> 1 / 2 / 3 inches</div>
+    <div class="chip"><strong>Cover:</strong> GOTS organic cotton included</div>
+    <div class="chip"><strong>Firmness:</strong> Soft / Medium / Firm</div>
+    <div class="chip"><strong>Best For:</strong> Certified organic priority shoppers</div>
+  </div>
+  <div class="pros-cons">
+    <div class="pros">
+      <h4>Pros</h4>
+      <ul>
+        <li>Both GOLS and GOTS certified — maximum organic verification</li>
+        <li>Organic cotton cover included</li>
+        <li>Choice of Dunlop or Talalay in same brand</li>
+        <li>Multiple firmness and thickness options</li>
+        <li>Strong customer service and return policy</li>
+      </ul>
+    </div>
+    <div class="cons">
+      <h4>Cons</h4>
+      <ul>
+        <li>Premium pricing for dual-certified materials</li>
+        <li>Primarily direct-to-consumer — less available on Amazon</li>
+        <li>Longer shipping times than Amazon Prime</li>
+      </ul>
+    </div>
+  </div>
+  <a href="https://www.amazon.com/s?k=PlushBeds+natural+latex+mattress+topper+GOLS&tag=sleepwiserevi-20" class="buy-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+</div>
+
+<!-- PRODUCT 4 -->
+<div class="product-card" id="brooklyn">
+  <div class="rank-badge">#4 Best Talalay Latex</div>
+  <h2>Brooklyn Bedding Talalay Latex Topper</h2>
+  <p class="verdict">The best Talalay-specific latex topper for those who prefer the softer, bouncier, more consistent feel that Talalay processing produces. Brooklyn Bedding's Talalay latex is manufactured by Radium Foam in the Netherlands — one of the oldest and most respected Talalay manufacturers in the world. Available in three ILD ratings (Soft: ILD 19, Medium: ILD 28, Firm: ILD 36) with precise firmness specification. Best for side sleepers who want responsive pressure relief without memory foam's heat-trapping.</p>
+  <div class="specs-chips">
+    <div class="chip"><strong>Type:</strong> Talalay Latex</div>
+    <div class="chip"><strong>ILD Options:</strong> 19 (Soft) / 28 (Medium) / 36 (Firm)</div>
+    <div class="chip"><strong>Thickness:</strong> 2 / 3 inches</div>
+    <div class="chip"><strong>Manufacturer:</strong> Radium Foam (Netherlands)</div>
+    <div class="chip"><strong>Certification:</strong> OEKO-TEX</div>
+    <div class="chip"><strong>Best For:</strong> Side sleepers, Talalay feel preference</div>
+  </div>
+  <div class="pros-cons">
+    <div class="pros">
+      <h4>Pros</h4>
+      <ul>
+        <li>Genuine Talalay from a premium manufacturer</li>
+        <li>Precise ILD specifications — know exactly what you're buying</li>
+        <li>Softer and more consistent than Dunlop at equivalent ILD</li>
+        <li>Excellent for side sleepers needing shoulder pressure relief</li>
+        <li>Cooler than memory foam</li>
+      </ul>
+    </div>
+    <div class="cons">
+      <h4>Cons</h4>
+      <ul>
+        <li>Premium pricing for Talalay vs. Dunlop alternatives</li>
+        <li>Shorter lifespan than Dunlop (6-8 vs. 8-12 years)</li>
+        <li>Direct-to-consumer — shipping takes longer than Amazon</li>
+      </ul>
+    </div>
+  </div>
+  <a href="https://www.amazon.com/s?k=Brooklyn+Bedding+Talalay+latex+topper&tag=sleepwiserevi-20" class="buy-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+</div>
+
+<!-- PRODUCT 5 -->
+<div class="product-card" id="avocado">
+  <div class="rank-badge">#5 Best Eco and Sustainable</div>
+  <h2>Avocado Organic Latex Topper</h2>
+  <p class="verdict">Avocado's latex topper is GOLS certified, comes with a GOTS organic cotton and wool cover, and is assembled in the United States. The wool cover adds natural temperature regulation — wool absorbs up to 30% of its weight in moisture before feeling wet, making it excellent for sweaty sleepers who also want latex bounce. Avocado's supply chain transparency and B Corporation certification make this the most ethically verified latex topper available.</p>
+  <div class="specs-chips">
+    <div class="chip"><strong>Type:</strong> GOLS Dunlop Latex</div>
+    <div class="chip"><strong>Cover:</strong> GOTS cotton + wool</div>
+    <div class="chip"><strong>Certification:</strong> GOLS + B Corp</div>
+    <div class="chip"><strong>Thickness:</strong> 2 / 3 inches</div>
+    <div class="chip"><strong>Firmness:</strong> Soft / Medium</div>
+    <div class="chip"><strong>Made:</strong> USA assembly</div>
+  </div>
+  <div class="pros-cons">
+    <div class="pros">
+      <h4>Pros</h4>
+      <ul>
+        <li>Wool cover adds natural moisture management</li>
+        <li>GOLS certified latex + B Corp ethical verification</li>
+        <li>USA assembled — domestic supply chain</li>
+        <li>Excellent for hot sweaty sleepers who want latex</li>
+        <li>Strong brand transparency and customer support</li>
+      </ul>
+    </div>
+    <div class="cons">
+      <h4>Cons</h4>
+      <ul>
+        <li>Premium pricing — wool cover adds significant cost</li>
+        <li>Only two firmness options (Soft and Medium)</li>
+        <li>Wool cover may irritate sensitive skin</li>
+        <li>Direct-to-consumer only — no Amazon availability</li>
+      </ul>
+    </div>
+  </div>
+  <a href="https://www.amazon.com/s?k=Avocado+organic+latex+mattress+topper&tag=sleepwiserevi-20" class="buy-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+</div>
+
+<!-- PRODUCT 6 -->
+<div class="product-card" id="saatva">
+  <div class="rank-badge">#6 Best Luxury</div>
+  <h2>Saatva Natural Latex Topper</h2>
+  <p class="verdict">Saatva's latex topper brings the same premium construction standards found in their mattress line to a topper format. Talalay latex core with an organic cotton cover — Saatva sources their cotton specifically for low-irritant properties. The 3-inch depth is the only option, which provides substantial cushioning but may feel excessive for mattresses that are only slightly too firm. Best for existing Saatva mattress owners looking for additional softness while staying within the brand ecosystem.</p>
+  <div class="specs-chips">
+    <div class="chip"><strong>Type:</strong> Talalay Latex</div>
+    <div class="chip"><strong>Cover:</strong> Organic cotton</div>
+    <div class="chip"><strong>Thickness:</strong> 3 inches only</div>
+    <div class="chip"><strong>Sizes:</strong> Twin to Cal King</div>
+    <div class="chip"><strong>Firmness:</strong> Plush</div>
+    <div class="chip"><strong>Best For:</strong> Saatva mattress owners, luxury preference</div>
+  </div>
+  <div class="pros-cons">
+    <div class="pros">
+      <h4>Pros</h4>
+      <ul>
+        <li>Premium Talalay construction from a luxury brand</li>
+        <li>Organic cotton cover included</li>
+        <li>Consistent quality matching Saatva mattress standards</li>
+        <li>White glove delivery option available</li>
+        <li>365-night home trial</li>
+      </ul>
+    </div>
+    <div class="cons">
+      <h4>Cons</h4>
+      <ul>
+        <li>Only available in 3-inch depth — no thinner option</li>
+        <li>Only Plush firmness — no medium or firm choice</li>
+        <li>Premium pricing</li>
+        <li>Direct-to-consumer only</li>
+      </ul>
+    </div>
+  </div>
+  <a href="https://www.amazon.com/s?k=Saatva+natural+latex+mattress+topper&tag=sleepwiserevi-20" class="buy-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+</div>
+
+<!-- PRODUCT 7 -->
+<div class="product-card" id="lucid">
+  <div class="rank-badge">#7 Best Budget Blended</div>
+  <h2>Lucid Latex Foam Topper</h2>
+  <p class="verdict">Blended latex (natural + synthetic) at the most accessible price point in the latex topper category. Not GOLS certified — the synthetic component eliminates organic certification eligibility — but the blended formulation is OEKO-TEX tested for harmful substances and performs significantly better than pure memory foam for cooling and bounce. A practical entry point for anyone curious about latex feel without committing to natural latex pricing.</p>
+  <div class="specs-chips">
+    <div class="chip"><strong>Type:</strong> Blended Latex (natural + synthetic)</div>
+    <div class="chip"><strong>Thickness:</strong> 2 / 3 inches</div>
+    <div class="chip"><strong>Certification:</strong> OEKO-TEX Standard 100</div>
+    <div class="chip"><strong>Sizes:</strong> Twin to Cal King</div>
+    <div class="chip"><strong>Availability:</strong> Amazon Prime</div>
+    <div class="chip"><strong>Best For:</strong> Latex trial, budget shoppers</div>
+  </div>
+  <div class="pros-cons">
+    <div class="pros">
+      <h4>Pros</h4>
+      <ul>
+        <li>Most affordable latex topper in the comparison</li>
+        <li>Amazon Prime availability — fast shipping</li>
+        <li>OEKO-TEX certified — no harmful substances</li>
+        <li>Better cooling than memory foam alternatives at similar price</li>
+        <li>Good starting point to test if latex feel works for you</li>
+      </ul>
+    </div>
+    <div class="cons">
+      <h4>Cons</h4>
+      <ul>
+        <li>Blended latex (not natural) — shorter lifespan than natural options</li>
+        <li>Not GOLS certified — less organic verification</li>
+        <li>Less responsive bounce than natural Talalay</li>
+        <li>Heavier odor off-gassing than natural latex</li>
+      </ul>
+    </div>
+  </div>
+  <a href="https://www.amazon.com/s?k=Lucid+latex+foam+mattress+topper&tag=sleepwiserevi-20" class="buy-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+</div>
+
+<!-- BUYING GUIDE -->
+<div class="buying-guide" id="guide">
+  <h2>Latex Mattress Topper Buying Guide</h2>
+
+  <div class="guide-item">
+    <h3>ILD Firmness Rating: What the Numbers Mean</h3>
+    <p>ILD (Indentation Load Deflection) is the standardized measure of latex firmness. Lower ILD = softer. Higher ILD = firmer. Typical ranges: Soft (ILD 14-19), Medium-Soft (ILD 20-24), Medium (ILD 25-31), Firm (ILD 32-38), Extra Firm (ILD 39+). For side sleepers: ILD 19-24. For back sleepers: ILD 24-31. For stomach sleepers: ILD 28-36. Most mattress shoppers need a medium-range topper (ILD 25-30) to soften a too-firm mattress without losing support.</p>
+  </div>
+
+  <div class="guide-item">
+    <h3>Thickness Selection: 1-Inch vs. 2-Inch vs. 3-Inch</h3>
+    <p>1-inch toppers provide minimal firmness adjustment — primarily for adding a fresh surface to a mattress in good condition. 2-inch toppers meaningfully soften a too-firm mattress without dramatically changing the support profile. 3-inch toppers provide the most significant softening effect and can compensate for significant loss of mattress cushioning. For mattresses near end-of-life (5+ years), 3 inches buys the most additional time. Most people purchasing a latex topper for the first time will be well-served by a 2-inch option.</p>
+  </div>
+
+  <div class="guide-item">
+    <h3>Latex Allergy Considerations</h3>
+    <p>Natural rubber latex contains proteins that trigger Type I hypersensitivity reactions in approximately 1-6% of the general population. Symptoms can range from contact dermatitis to anaphylaxis in severe cases. If you have a known latex allergy or sensitivities to latex medical gloves, do not purchase a natural latex topper. Synthetic latex (SBR) is not derived from rubber trees and is typically safe for latex-allergic individuals. Consult your allergist before purchase if uncertain.</p>
+  </div>
+
+  <div class="guide-item">
+    <h3>Off-Gassing: What to Expect</h3>
+    <p>Natural latex has a distinctive smell — earthy and slightly sweet — that is noticeable when first unpacked. This dissipates within 48-72 hours of airing out in a well-ventilated room. Synthetic and blended latex may have a stronger chemical smell initially. Unlike memory foam, natural latex off-gassing contains no known harmful VOCs — it is simply the smell of the rubber material itself. Air out the topper before first use regardless of material type.</p>
+  </div>
+
+  <div class="guide-item">
+    <h3>Care and Maintenance</h3>
+    <p>Latex toppers cannot be machine washed — the agitation breaks down the cell structure irreversibly. Spot-clean with mild soap and cold water; blot, do not rub. Use a fitted mattress protector over the topper to prevent moisture saturation. Rotate 180 degrees every 3 months to even out compression wear. Store flat — never fold or compress, as this can permanently deform the latex structure. With proper care, a natural Dunlop topper can last 10+ years.</p>
+  </div>
+</div>
+
+<!-- FAQ -->
+<div class="faq-section" id="faq">
+  <h2>Frequently Asked Questions</h2>
+
+  <div class="faq-item">
+    <h3>What is the difference between Dunlop and Talalay latex?</h3>
+    <p>Dunlop latex is denser and firmer — the manufacturing process allows natural sediment to settle at the bottom, creating a heavier feel. It is more durable (8-12 years) and less expensive. Talalay latex is airier and more consistent — flash-frozen before curing prevents sediment settling, producing a more uniform, bouncier, and slightly cooler feel. It costs more and lasts 6-8 years. For firmness and durability: Dunlop. For softness and cooling: Talalay.</p>
+  </div>
+
+  <div class="faq-item">
+    <h3>Is latex better than memory foam for a mattress topper?</h3>
+    <p>Latex toppers have three significant advantages over memory foam: they sleep cooler (open-cell structure and natural breathability vs. memory foam's heat-trapping), they last longer (8-10 years vs. 3-5 for budget memory foam), and they have responsive bounce that makes repositioning easier. Memory foam conforms more precisely to body contours, making it better for extreme pressure relief. If heat and durability are concerns, latex wins. If maximum pressure relief is the priority, memory foam wins.</p>
+  </div>
+
+  <div class="faq-item">
+    <h3>Can I use a latex topper on any mattress?</h3>
+    <p>Yes, latex toppers work on any firm surface — innerspring, foam, hybrid, or platform beds. Ensure the mattress has sufficient base support (no major sagging) before adding a topper. A latex topper on a sagging mattress will compress into the dip rather than bridging it. The topper also adds 1-3 inches of height, requiring deep-pocket fitted sheets.</p>
+  </div>
+
+  <div class="faq-item">
+    <h3>How long does a latex mattress topper last?</h3>
+    <p>Natural Dunlop latex: 8-12 years. Natural Talalay latex: 6-8 years. Blended latex (natural + synthetic): 5-7 years. Synthetic latex: 3-5 years. Latex significantly outlasts memory foam toppers, making the higher upfront cost more cost-effective over time. Rotate the topper every 6 months to extend lifespan.</p>
+  </div>
+
+  <div class="faq-item">
+    <h3>Are latex mattress toppers safe and non-toxic?</h3>
+    <p>Natural latex is derived from rubber tree sap and is inherently non-toxic. Look for GOLS (Global Organic Latex Standard) certification for certified organic latex and OEKO-TEX Standard 100 certification for absence of harmful substances. Blended or synthetic latex may contain VOCs during off-gassing. People with latex allergies should avoid natural latex products and use synthetic or memory foam alternatives.</p>
+  </div>
+</div>
+
+<div class="verdict-box">
+  <h2>Bottom Line</h2>
+  <p>For the best combination of natural latex quality and value, the <strong>Sleep On Latex Pure Green</strong> is the benchmark — GOLS certified natural Dunlop at the best accessible price. For the softer, more consistent Talalay feel, the <strong>Brooklyn Bedding Talalay</strong> is the top choice with precisely specified ILD ratings. Budget-conscious shoppers who want to experience latex feel without natural latex pricing should start with the <strong>Lucid Latex Foam</strong> blended option.</p>
+</div>
+
+</main>
+
+<footer class="site-footer">
+  <p>&copy; 2025 SleepWiseReviews &mdash; <a href="https://sleepwisereviews.com">Home</a> &bull; <a href="https://sleepwisereviews.com/posts/index.html">All Reviews</a></p>
+  <p style="margin-top:8px;font-size:.78rem">SleepWiseReviews participates in the Amazon Services LLC Associates Program. Amazon and the Amazon logo are trademarks of Amazon.com, Inc.</p>
+</footer>
+
+</body>
+</html>'''
+
+os.makedirs(os.path.dirname(OUT), exist_ok=True)
+with open(OUT, 'w', encoding='utf-8') as f:
+    f.write(html)
+print(f'Written: {OUT}')
