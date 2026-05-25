@@ -1,0 +1,393 @@
+html = """<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Best Mattress During Cancer Treatment (2026): 7 Picks for Chemo Sleep</title>
+<meta name="description" content="Best mattresses during cancer treatment in 2026. 7 expert picks for chemotherapy and radiation sleep disruption -- peripheral neuropathy, bone pain, treatment fatigue, immune compromise, hot flashes from surgical menopause, and steroid-induced insomnia.">
+<link rel="canonical" href="https://sleepwisereviews.com/posts/best-mattress-cancer-treatment.html">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Best Mattress During Cancer Treatment (2026): 7 Picks for Chemo Sleep",
+  "description": "7 expert picks for cancer treatment sleep disruption -- chemotherapy neuropathy, bone pain, treatment fatigue, immune compromise, hot flashes, and steroid-induced insomnia.",
+  "author": {"@type": "Organization", "name": "SleepWise Reviews"},
+  "publisher": {"@type": "Organization", "name": "SleepWise Reviews"},
+  "datePublished": "2026-05-25",
+  "dateModified": "2026-05-25"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://sleepwisereviews.com/"},
+    {"@type": "ListItem", "position": 2, "name": "Posts", "item": "https://sleepwisereviews.com/posts/index.html"},
+    {"@type": "ListItem", "position": 3, "name": "Best Mattress During Cancer Treatment", "item": "https://sleepwisereviews.com/posts/best-mattress-cancer-treatment.html"}
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Best Mattresses for Cancer Treatment 2026",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Tempur-ProAdapt Soft", "url": "https://www.amazon.com/s?k=Tempur-ProAdapt+Soft+mattress&tag=sleepwiserevi-20"},
+    {"@type": "ListItem", "position": 2, "name": "Casper Wave Hybrid", "url": "https://www.amazon.com/s?k=Casper+Wave+Hybrid+mattress&tag=sleepwiserevi-20"},
+    {"@type": "ListItem", "position": 3, "name": "Saatva Classic Plush Soft", "url": "https://www.amazon.com/s?k=Saatva+Classic+Plush+mattress&tag=sleepwiserevi-20"},
+    {"@type": "ListItem", "position": 4, "name": "Purple Restore Hybrid", "url": "https://www.amazon.com/s?k=Purple+Restore+Hybrid+mattress&tag=sleepwiserevi-20"},
+    {"@type": "ListItem", "position": 5, "name": "Helix Midnight Luxe", "url": "https://www.amazon.com/s?k=Helix+Midnight+Luxe+mattress&tag=sleepwiserevi-20"},
+    {"@type": "ListItem", "position": 6, "name": "Nectar Premier", "url": "https://www.amazon.com/s?k=Nectar+Premier+mattress&tag=sleepwiserevi-20"},
+    {"@type": "ListItem", "position": 7, "name": "DreamCloud Premier", "url": "https://www.amazon.com/s?k=DreamCloud+Premier+mattress&tag=sleepwiserevi-20"}
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How common are sleep problems during cancer treatment?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Sleep disturbances affect 80-95% of cancer patients during active treatment -- among the highest rates of any medical condition. Chemotherapy, radiation, steroids, and the psychological burden of diagnosis all independently disrupt sleep architecture. Sleep is often cited by oncology patients as their most impactful quality-of-life issue during treatment."}
+    },
+    {
+      "@type": "Question",
+      "name": "What mattress is best for chemo-induced neuropathy?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Chemo-induced peripheral neuropathy (CIPN) creates burning and tingling in the hands and feet that worsens with contact pressure. A pressure-minimizing surface -- the softest option that still provides adequate spinal support -- reduces the contact loading that aggravates CIPN. The Tempur-ProAdapt Soft provides the highest pressure redistribution available, making it the primary recommendation for CIPN-dominant profiles."}
+    },
+    {
+      "@type": "Question",
+      "name": "Does mattress material matter for immunocompromised cancer patients?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Yes. Immunocompromised patients are more susceptible to allergens, dust mites, and mold. A mattress with an antimicrobial cover (Tencel, copper-infused) and CertiPUR-US certified foam reduces allergen load. Encasing the mattress in an allergen-barrier protector is strongly recommended. Avoid latex if the patient has latex sensitivity -- latex allergy is associated with increased risk in cancer populations who have had frequent medical procedures."}
+    },
+    {
+      "@type": "Question",
+      "name": "How do steroids given during chemo affect sleep?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Corticosteroids (dexamethasone, prednisone) used to manage chemotherapy side effects cause significant sleep disruption: delayed sleep onset, reduced total sleep time, and early morning waking. The effect typically peaks 1-3 days after infusion. On steroid days, a cooling mattress is preferred (steroids increase core body temperature). On non-steroid days, thermal needs return to baseline. A temperature-neutral mattress handles both states."}
+    },
+    {
+      "@type": "Question",
+      "name": "Should cancer patients avoid memory foam mattresses?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Not necessarily. CertiPUR-US certified foam has low VOC emissions and is safe for immunocompromised patients. The concern is heat retention: dense memory foam traps body heat, which worsens steroid-driven and hot-flash-driven sleep disruption. Gel-infused memory foam or hybrid designs (foam + coil) manage heat better than traditional memory foam. Avoid traditional dense all-foam mattresses during active treatment."}
+    }
+  ]
+}
+</script>
+<style>
+:root{--bg:#0a1628;--card:#111e33;--gold:#c9a84c;--text:#e2e8f0;--muted:#94a3b8;--accent:#3b82f6}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:'Segoe UI',system-ui,sans-serif;line-height:1.7;font-size:16px}
+a{color:var(--gold);text-decoration:none}
+a:hover{text-decoration:underline}
+header{background:linear-gradient(135deg,#0a1628 0%,#1a2f4e 100%);padding:16px 24px;border-bottom:1px solid #1e3a5f}
+.logo{font-size:1.4rem;font-weight:700;color:var(--gold)}
+nav{margin-top:8px;display:flex;gap:16px;flex-wrap:wrap}
+nav a{color:var(--muted);font-size:.9rem}
+nav a:hover{color:var(--gold)}
+.container{max-width:860px;margin:0 auto;padding:0 20px}
+.hero{padding:48px 0 32px}
+.cat-badge{display:inline-block;padding:4px 12px;border-radius:20px;font-size:.75rem;font-weight:600;letter-spacing:.05em;text-transform:uppercase;margin-bottom:16px;background:#dc2626;color:#fff}
+h1{font-size:clamp(1.6rem,4vw,2.4rem);font-weight:800;line-height:1.2;color:#fff;margin-bottom:16px}
+.subtitle{color:var(--muted);font-size:1.05rem;margin-bottom:24px}
+.quick-nav{background:var(--card);border:1px solid #1e3a5f;border-radius:8px;padding:20px;margin-bottom:40px}
+.quick-nav h3{color:var(--gold);font-size:.85rem;text-transform:uppercase;letter-spacing:.08em;margin-bottom:12px}
+.quick-nav ol{padding-left:20px;display:flex;flex-direction:column;gap:6px}
+.quick-nav a{color:var(--text);font-size:.95rem}
+.section-title{font-size:1.5rem;font-weight:700;color:#fff;margin:40px 0 20px;padding-bottom:8px;border-bottom:2px solid var(--gold)}
+.science-box{background:linear-gradient(135deg,#0f1f3d,#1a2f4e);border:1px solid #2d4a7a;border-radius:12px;padding:28px;margin:32px 0}
+.science-box h3{color:var(--gold);font-size:1rem;text-transform:uppercase;letter-spacing:.08em;margin-bottom:16px}
+.science-box ul{list-style:none;padding:0;display:flex;flex-direction:column;gap:10px}
+.science-box li{padding-left:20px;position:relative;color:var(--text)}
+.science-box li::before{content:">";position:absolute;left:0;color:var(--gold);font-weight:700}
+.pick-card{background:var(--card);border:1px solid #1e3a5f;border-radius:12px;padding:28px;margin-bottom:24px}
+.pick-header{display:flex;align-items:flex-start;gap:16px;margin-bottom:16px}
+.pick-num{background:var(--gold);color:#000;width:36px;height:36px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:1rem;flex-shrink:0}
+.pick-title{flex:1}
+.pick-title h3{font-size:1.15rem;font-weight:700;color:#fff;margin-bottom:4px}
+.pick-tag{display:inline-block;padding:2px 10px;border-radius:12px;font-size:.75rem;font-weight:600;background:#1e3a5f;color:var(--gold)}
+.pick-body p{color:var(--muted);margin-bottom:12px;font-size:.95rem}
+.pick-body strong{color:var(--text)}
+.cta-btn{display:inline-block;background:var(--gold);color:#000;padding:10px 22px;border-radius:6px;font-weight:700;font-size:.9rem;margin-top:8px}
+.cta-btn:hover{background:#e0b84d;text-decoration:none}
+.comparison-table{width:100%;border-collapse:collapse;margin:24px 0;font-size:.9rem}
+.comparison-table th{background:#1e3a5f;color:var(--gold);padding:12px 14px;text-align:left;font-size:.8rem;text-transform:uppercase;letter-spacing:.05em}
+.comparison-table td{padding:11px 14px;border-bottom:1px solid #1e3a5f;color:var(--text);vertical-align:top}
+.comparison-table tr:nth-child(even) td{background:#0d1a2e}
+.comparison-table tr:hover td{background:#152238}
+.info-box{background:#0f2a1e;border:1px solid #1a5c38;border-left:4px solid #22c55e;border-radius:8px;padding:20px;margin:24px 0}
+.info-box h4{color:#22c55e;margin-bottom:8px;font-size:.95rem}
+.info-box p,.info-box ul{color:var(--muted);font-size:.9rem}
+.info-box ul{padding-left:18px;margin-top:8px}
+.info-box li{margin-bottom:4px}
+.warning-box{background:#1a1000;border:1px solid #5c3a00;border-left:4px solid #f59e0b;border-radius:8px;padding:20px;margin:24px 0}
+.warning-box h4{color:#f59e0b;margin-bottom:8px;font-size:.95rem}
+.warning-box p{color:var(--muted);font-size:.9rem}
+.faq-section{margin:48px 0}
+.faq-item{border-bottom:1px solid #1e3a5f;padding:20px 0}
+.faq-item h3{font-size:1rem;color:#fff;margin-bottom:10px;cursor:pointer}
+.faq-item p{color:var(--muted);font-size:.95rem}
+.related-section{background:var(--card);border:1px solid #1e3a5f;border-radius:12px;padding:28px;margin:48px 0}
+.related-section h2{color:var(--gold);font-size:1.1rem;margin-bottom:16px}
+.related-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px}
+.related-link{background:#0d1a2e;border:1px solid #1e3a5f;border-radius:8px;padding:12px 16px;color:var(--text);font-size:.9rem;display:block}
+.related-link:hover{border-color:var(--gold);color:var(--gold);text-decoration:none}
+footer{background:#060e1a;border-top:1px solid #1e3a5f;padding:32px 0;margin-top:64px;text-align:center;color:var(--muted);font-size:.85rem}
+footer a{color:var(--muted)}
+@media(max-width:600px){.pick-header{flex-direction:column}.pick-num{width:30px;height:30px;font-size:.9rem}}
+</style>
+</head>
+<body>
+<header>
+<div class="container">
+<div class="logo"><a href="/" style="color:var(--gold);text-decoration:none">SleepWise Reviews</a></div>
+<nav>
+<a href="/">Home</a>
+<a href="/posts/index.html">All Posts</a>
+<a href="/posts/index.html#health-conditions">Health</a>
+<a href="/about.html">About</a>
+</nav>
+</div>
+</header>
+
+<div class="container">
+<div class="hero">
+<span class="cat-badge">Health Conditions</span>
+<h1>Best Mattress During Cancer Treatment (2026)</h1>
+<p class="subtitle">7 expert picks for chemotherapy and radiation sleep disruption -- peripheral neuropathy, bone pain, treatment fatigue, immune compromise, hot flashes, and steroid-altered sleep architecture.</p>
+</div>
+
+<div class="quick-nav">
+<h3>Quick Navigation</h3>
+<ol>
+<li><a href="#science">The Sleep Science of Cancer Treatment</a></li>
+<li><a href="#picks">Our 7 Top Picks</a></li>
+<li><a href="#treatment-guide">Treatment Type Mattress Guide</a></li>
+<li><a href="#profile-guide">Which Pick Fits Your Profile</a></li>
+<li><a href="#faq">Frequently Asked Questions</a></li>
+</ol>
+</div>
+
+<div class="science-box" id="science">
+<h3>The Sleep Science of Cancer Treatment</h3>
+<ul>
+<li><strong>80-95% prevalence:</strong> Sleep disturbances affect 80-95% of cancer patients during active treatment -- among the highest rates of any medical condition. Sleep is consistently rated as the most impactful quality-of-life concern during chemotherapy (JCO 2019).</li>
+<li><strong>Chemo-induced peripheral neuropathy (CIPN):</strong> Affects 30-40% of chemotherapy patients. Platinum-based drugs (cisplatin, oxaliplatin), taxanes (paclitaxel, docetaxel), and vinca alkaloids damage sensory nerves, producing burning, tingling, and hypersensitivity in the hands and feet. Contact pressure from a mattress directly aggravates CIPN symptoms.</li>
+<li><strong>Bone pain from G-CSF:</strong> Granulocyte-colony stimulating factors (filgrastim, pegfilgrastim) used to boost white blood cell counts cause bone marrow stimulation pain in up to 80% of users. This diffuse bone pain, particularly in the sternum, spine, and pelvis, directly maps to mattress contact areas during sleep.</li>
+<li><strong>Corticosteroid insomnia:</strong> Dexamethasone given with many chemotherapy regimens causes delayed sleep onset, reduced total sleep time, and early morning waking. Effect peaks 1-3 days post-infusion. Steroids also elevate core body temperature, making cooling surfaces preferable on steroid administration days.</li>
+<li><strong>Surgical menopause and hot flashes:</strong> Women undergoing oophorectomy for ovarian or hormone-sensitive cancers experience immediate surgical menopause with severe hot flashes. Aromatase inhibitors for breast cancer also cause significant hot flashes in 80% of users. These are more severe and more frequent than natural menopause hot flashes.</li>
+<li><strong>Immune compromise:</strong> Neutropenic patients (low white blood cells during active chemo cycles) are susceptible to allergens and microorganisms. Mattress material selection and antimicrobial cover use affect allergen load for immunocompromised sleepers.</li>
+</ul>
+</div>
+
+<div class="warning-box">
+<h4>Important: Consult Your Oncology Team</h4>
+<p>Mattress selection is one component of cancer treatment sleep management. Many oncology centers offer integrative sleep programs, cognitive behavioral therapy for cancer-related insomnia (CBT-CI), and medication management for treatment-specific sleep disruption. This guide addresses mattress selection specifically -- it is not a substitute for oncology-guided sleep intervention.</p>
+</div>
+
+<h2 class="section-title" id="picks">Our 7 Top Picks</h2>
+
+<div class="pick-card">
+<div class="pick-header">
+<div class="pick-num">1</div>
+<div class="pick-title">
+<h3>Tempur-ProAdapt Soft</h3>
+<span class="pick-tag">Best for CIPN + Bone Pain -- Maximum Pressure Relief</span>
+</div>
+</div>
+<div class="pick-body">
+<p>Chemo-induced peripheral neuropathy creates contact hypersensitivity at the hands and feet. G-CSF bone pain concentrates at the sternum, spine, and pelvis -- the exact contact points with a mattress surface. The Tempur-ProAdapt Soft provides the highest pressure redistribution of any consumer mattress: TEMPUR-ES material conforms slowly and deeply to body contours, distributing weight across the maximum possible surface area and minimizing focal pressure at any single point. For patients experiencing both CIPN and bone pain simultaneously, this level of pressure relief is clinically relevant, not merely a comfort feature.</p>
+<p><strong>Why it wins for cancer treatment:</strong> Unmatched pressure relief for the two most common mattress-relevant chemo side effects. When neuropathy and bone pain are active, no other consumer mattress reduces contact loading comparably.</p>
+<p><strong>TEMPUR-CM+ cover:</strong> Actively cooling, which offsets the conforming foam's warmth retention -- critical on steroid infusion days when core temperature is elevated.</p>
+<a href="https://www.amazon.com/s?k=Tempur-ProAdapt+Soft+mattress&tag=sleepwiserevi-20" class="cta-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</div>
+</div>
+
+<div class="pick-card">
+<div class="pick-header">
+<div class="pick-num">2</div>
+<div class="pick-title">
+<h3>Casper Wave Hybrid</h3>
+<span class="pick-tag">Best Zoned Support for Distributed Treatment Pain</span>
+</div>
+</div>
+<div class="pick-body">
+<p>Cancer treatment pain is often distributed across multiple body regions simultaneously. The Casper Wave Hybrid's 7-zone system tailors pressure relief to each body section independently: softest under lumbar (addresses spinal bone pain from G-CSF), firmer under shoulders (maintains position during treatment fatigue), softer under knees (reduces pressure at joint pain sites from bone marrow stimulation). AirScape foam perforations manage the temperature variability between steroid and non-steroid treatment days. The coil base allows easy position changes for nausea-driven repositioning.</p>
+<p><strong>Why it wins for cancer treatment:</strong> Best multi-site pain management in a single mattress design. When multiple treatment side effects create different pain locations simultaneously, zoned support addresses them concurrently.</p>
+<a href="https://www.amazon.com/s?k=Casper+Wave+Hybrid+mattress&tag=sleepwiserevi-20" class="cta-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</div>
+</div>
+
+<div class="pick-card">
+<div class="pick-header">
+<div class="pick-num">3</div>
+<div class="pick-title">
+<h3>Saatva Classic Plush Soft</h3>
+<span class="pick-tag">Best for Chemo Fatigue + Extended Bed Rest</span>
+</div>
+</div>
+<div class="pick-body">
+<p>Chemotherapy-related fatigue (cancer-related fatigue, CRF) is distinct from normal tiredness -- it is not relieved by rest and involves profound physical exhaustion that may keep patients bedridden for days after infusion. Extended bed rest periods create pressure injury risk at bony prominences. The Saatva Plush Soft's Euro pillow-top distributes pressure across the full body surface during extended lying. The organic cotton cover is a clean material choice for immunocompromised patients. The dual-coil structure allows enough responsiveness for caregivers to assist position changes without the patient needing to exert themselves.</p>
+<p><strong>Why it wins for cancer treatment:</strong> Best for CRF-dominated profiles where extended bed rest is the primary sleep challenge. Caregiver-assisted repositioning is a practical consideration the Saatva handles well.</p>
+<a href="https://www.amazon.com/s?k=Saatva+Classic+Plush+mattress&tag=sleepwiserevi-20" class="cta-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</div>
+</div>
+
+<div class="pick-card">
+<div class="pick-header">
+<div class="pick-num">4</div>
+<div class="pick-title">
+<h3>Purple Restore Hybrid</h3>
+<span class="pick-tag">Best for Hot Flashes + Steroid Temperature Swings</span>
+</div>
+</div>
+<div class="pick-body">
+<p>Surgical menopause from oophorectomy and aromatase inhibitor-induced hot flashes are severe and frequent -- often more intense than natural menopause hot flashes. Steroid administration also elevates core body temperature on infusion days. The Purple Grid's temperature-neutral polymer design is uniquely effective here: it neither adds warmth during hot flash episodes nor creates a cold surface during the chills that follow hot flashes. This bidirectional temperature neutrality is more useful during cancer treatment's thermal extremes than any cooling-only design. Zero polyurethane foam means no off-gassing -- important for patients with treatment-induced chemical sensitivity.</p>
+<p><strong>Why it wins for cancer treatment:</strong> Best for hot-flash-dominant profiles (breast/ovarian cancer patients, aromatase inhibitor users). Temperature neutrality manages the hot-then-cold cycle that cooling-only surfaces cannot.</p>
+<a href="https://www.amazon.com/s?k=Purple+Restore+Hybrid+mattress&tag=sleepwiserevi-20" class="cta-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</div>
+</div>
+
+<div class="pick-card">
+<div class="pick-header">
+<div class="pick-num">5</div>
+<div class="pick-title">
+<h3>Helix Midnight Luxe</h3>
+<span class="pick-tag">Best for Nausea Fragmentation + Immune Safety</span>
+</div>
+</div>
+<div class="pick-body">
+<p>Chemo-induced nausea and vomiting (CINV) produces episodic urgency-waking similar to IBS: rapid exits from the mattress, followed by attempts to return to sleep. The Midnight Luxe's individually wrapped coil system provides quick-exit responsiveness. The Tencel cover is antimicrobial and moisture-wicking -- both relevant for immunocompromised patients and for managing the night sweats that accompany many chemotherapy regimens. Motion isolation ensures that nausea-driven movement does not disturb a caregiver or partner sharing the bed.</p>
+<p><strong>Why it wins for cancer treatment:</strong> Best for CINV (nausea) as the dominant sleep disruption, plus the antimicrobial cover specifically addresses immune compromise concerns. Two clinically relevant features in one design.</p>
+<a href="https://www.amazon.com/s?k=Helix+Midnight+Luxe+mattress&tag=sleepwiserevi-20" class="cta-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</div>
+</div>
+
+<div class="pick-card">
+<div class="pick-header">
+<div class="pick-num">6</div>
+<div class="pick-title">
+<h3>Nectar Premier</h3>
+<span class="pick-tag">Best Value -- 365-Night Trial Spans Treatment Course</span>
+</div>
+</div>
+<div class="pick-body">
+<p>Standard chemotherapy courses run 3-6 months; radiation 4-8 weeks. Sleep disruption patterns change significantly across a treatment course: severe during active infusion weeks, moderate between cycles, mild during recovery. The Nectar Premier's 365-night trial covers a full treatment course plus the recovery period that follows, allowing evaluation across the full symptom range before committing permanently. The gel-infused foam provides moderate pressure relief for CIPN and bone pain. CertiPUR-US certification meets the low-VOC standard appropriate for immunocompromised patients.</p>
+<p><strong>Why it wins for cancer treatment:</strong> The trial period is the most valuable feature for cancer patients. A mattress that works during active chemo may need adjustment during recovery -- the 365-night window covers the full arc.</p>
+<a href="https://www.amazon.com/s?k=Nectar+Premier+mattress&tag=sleepwiserevi-20" class="cta-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</div>
+</div>
+
+<div class="pick-card">
+<div class="pick-header">
+<div class="pick-num">7</div>
+<div class="pick-title">
+<h3>DreamCloud Premier</h3>
+<span class="pick-tag">Best Budget + Caregiver-Friendly</span>
+</div>
+</div>
+<div class="pick-body">
+<p>Cancer treatment creates financial burden alongside physical burden. The DreamCloud Premier provides a cashmere-blend Euro pillow-top with individually wrapped coils at a mid-range price -- the best pressure relief and responsiveness combination at this price tier. The coil system allows easy position changes with caregiver assistance. The 365-night trial covers most standard treatment courses. For patients or families managing treatment costs, the DreamCloud Premier provides the essential features (pressure relief, responsive coils, long trial) without the premium pricing of the top-tier picks.</p>
+<p><strong>Best for:</strong> Budget-constrained cancer patients, those in early treatment uncertain of their dominant sleep disruption, or families purchasing for a loved one during treatment.</p>
+<a href="https://www.amazon.com/s?k=DreamCloud+Premier+mattress&tag=sleepwiserevi-20" class="cta-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</div>
+</div>
+
+<h2 class="section-title" id="treatment-guide">Treatment Type Mattress Priority Guide</h2>
+<p style="color:var(--muted);margin-bottom:16px">Different cancer treatments create different primary sleep disruptions. Match your treatment to the mattress feature that matters most.</p>
+<table class="comparison-table">
+<thead><tr><th>Treatment Type</th><th>Primary Sleep Disruption</th><th>Mattress Priority</th><th>Best Pick</th></tr></thead>
+<tbody>
+<tr><td>Platinum/taxane chemotherapy</td><td>CIPN (neuropathy in hands/feet)</td><td>Maximum pressure relief, minimal contact loading</td><td>Tempur-ProAdapt Soft</td></tr>
+<tr><td>G-CSF (neulasta, neupogen)</td><td>Bone pain (sternum, spine, pelvis)</td><td>Zoned pressure relief at bone contact points</td><td>Casper Wave Hybrid</td></tr>
+<tr><td>Any chemo with dexamethasone</td><td>Steroid insomnia + temperature elevation</td><td>Temperature-neutral + pressure relief</td><td>Purple Restore Hybrid</td></tr>
+<tr><td>Oophorectomy / aromatase inhibitors</td><td>Surgical menopause hot flashes</td><td>Temperature neutrality (hot-then-cold cycling)</td><td>Purple Restore Hybrid</td></tr>
+<tr><td>High-dose chemo with severe CRF</td><td>Extended bed rest, prolonged lying</td><td>Full-body pressure distribution during extended lying</td><td>Saatva Classic Plush Soft</td></tr>
+<tr><td>Any chemo with CINV (nausea/vomiting)</td><td>Nausea-driven urgency waking, night sweats</td><td>Quick-exit coils + antimicrobial cover</td><td>Helix Midnight Luxe</td></tr>
+<tr><td>Radiation (localized)</td><td>Treatment fatigue + localized skin sensitivity</td><td>Pressure relief at radiation site; avoid pressure on treated skin</td><td>Casper Wave Hybrid or Nectar Premier</td></tr>
+</tbody>
+</table>
+
+<div class="info-box">
+<h4>Mattress Hygiene During Immunocompromise</h4>
+<p>During neutropenic periods (low white blood cells, typically 7-14 days after chemo infusion), allergen management is important:</p>
+<ul>
+<li>Use an allergen-barrier mattress encasement (full zippered encasement, not a pad) -- wash monthly at 60C/140F</li>
+<li>Tencel or copper-infused covers have antimicrobial properties; standard cotton does not</li>
+<li>Air the bedroom daily; moisture control reduces mold risk in foam mattresses</li>
+<li>Avoid latex mattresses if the patient has had multiple medical procedures (increased latex sensitization risk)</li>
+<li>Replace mattress protector if it becomes soiled during treatment -- bacteria load is a real concern</li>
+</ul>
+</div>
+
+<h2 class="section-title" id="profile-guide">Which Pick Fits Your Profile</h2>
+<table class="comparison-table">
+<thead><tr><th>Profile</th><th>Best Pick</th><th>Key Reason</th></tr></thead>
+<tbody>
+<tr><td>CIPN (neuropathy) + bone pain (G-CSF)</td><td>Tempur-ProAdapt Soft</td><td>Highest pressure redistribution for contact hypersensitivity</td></tr>
+<tr><td>Multiple treatment pains, different sites</td><td>Casper Wave Hybrid</td><td>7-zone system addresses multiple pain locations independently</td></tr>
+<tr><td>Severe CRF, extended bed rest</td><td>Saatva Classic Plush Soft</td><td>Pressure distribution for prolonged lying + caregiver access</td></tr>
+<tr><td>Hot flashes + steroid temperature swings</td><td>Purple Restore Hybrid</td><td>Bidirectional temperature neutrality, no foam off-gassing</td></tr>
+<tr><td>Nausea-driven waking + immunocompromise</td><td>Helix Midnight Luxe</td><td>Quick-exit coils + antimicrobial Tencel cover</td></tr>
+<tr><td>Full treatment course evaluation needed</td><td>Nectar Premier</td><td>365-night trial covers complete treatment arc</td></tr>
+<tr><td>Budget + caregiver-friendly</td><td>DreamCloud Premier</td><td>Best pressure+responsiveness at mid-range price + long trial</td></tr>
+</tbody>
+</table>
+
+<div class="faq-section" id="faq">
+<h2 class="section-title">Frequently Asked Questions</h2>
+<div class="faq-item">
+<h3>How common are sleep problems during cancer treatment?</h3>
+<p>Sleep disturbances affect 80-95% of cancer patients during active treatment -- among the highest rates of any medical condition. Chemotherapy, radiation, steroids, and the psychological burden of diagnosis all independently disrupt sleep architecture. Sleep is often cited by oncology patients as their most impactful quality-of-life issue during treatment.</p>
+</div>
+<div class="faq-item">
+<h3>What mattress is best for chemo-induced neuropathy?</h3>
+<p>Chemo-induced peripheral neuropathy (CIPN) creates burning and tingling in the hands and feet that worsens with contact pressure. A pressure-minimizing surface -- the softest option that still provides adequate spinal support -- reduces the contact loading that aggravates CIPN. The Tempur-ProAdapt Soft provides the highest pressure redistribution available, making it the primary recommendation for CIPN-dominant profiles.</p>
+</div>
+<div class="faq-item">
+<h3>Does mattress material matter for immunocompromised cancer patients?</h3>
+<p>Yes. Immunocompromised patients are more susceptible to allergens, dust mites, and mold. A mattress with an antimicrobial cover (Tencel, copper-infused) and CertiPUR-US certified foam reduces allergen load. Encasing the mattress in an allergen-barrier protector is strongly recommended. Avoid latex if the patient has latex sensitivity -- latex allergy risk is increased in cancer populations who have had frequent medical procedures.</p>
+</div>
+<div class="faq-item">
+<h3>How do steroids given during chemo affect sleep?</h3>
+<p>Corticosteroids (dexamethasone, prednisone) used to manage chemotherapy side effects cause significant sleep disruption: delayed sleep onset, reduced total sleep time, and early morning waking. The effect typically peaks 1-3 days after infusion. On steroid days, a cooling mattress is preferred (steroids increase core body temperature). On non-steroid days, thermal needs return to baseline. A temperature-neutral mattress handles both states.</p>
+</div>
+<div class="faq-item">
+<h3>Should cancer patients avoid memory foam mattresses?</h3>
+<p>Not necessarily. CertiPUR-US certified foam has low VOC emissions and is safe for immunocompromised patients. The concern is heat retention: dense memory foam traps body heat, which worsens steroid-driven and hot-flash-driven sleep disruption. Gel-infused memory foam or hybrid designs (foam + coil) manage heat better than traditional memory foam. Avoid traditional dense all-foam mattresses during active treatment.</p>
+</div>
+</div>
+
+<div class="related-section">
+<h2>Related Guides</h2>
+<div class="related-grid">
+<a href="best-mattress-chronic-fatigue.html" class="related-link">Best Mattress for Chronic Fatigue</a>
+<a href="best-mattress-neuropathy.html" class="related-link">Best Mattress for Neuropathy</a>
+<a href="best-mattress-fibromyalgia.html" class="related-link">Best Mattress for Fibromyalgia</a>
+<a href="best-mattress-menopause.html" class="related-link">Best Mattress for Menopause</a>
+<a href="best-mattress-night-sweats.html" class="related-link">Best Mattress for Night Sweats</a>
+<a href="best-mattress-insomnia.html" class="related-link">Best Mattress for Insomnia</a>
+<a href="best-mattress-anxiety.html" class="related-link">Best Mattress for Anxiety</a>
+<a href="best-mattress-back-pain.html" class="related-link">Best Mattress for Back Pain</a>
+</div>
+</div>
+
+</div>
+
+<footer>
+<div class="container">
+<p>SleepWise Reviews &mdash; Evidence-based sleep product recommendations</p>
+<p style="margin-top:8px"><a href="/about.html">About</a> &middot; <a href="/privacy.html">Privacy</a> &middot; <a href="/disclaimer.html">Affiliate Disclaimer</a></p>
+<p style="margin-top:12px;font-size:.8rem">SleepWise Reviews participates in the Amazon Associates program. As an Amazon Associate we earn from qualifying purchases. This does not affect our recommendations.</p>
+</div>
+</footer>
+</body>
+</html>"""
+
+with open("posts/best-mattress-cancer-treatment.html", "w", encoding="utf-8") as f:
+    f.write(html)
+print("Created posts/best-mattress-cancer-treatment.html")
