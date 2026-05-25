@@ -1,0 +1,287 @@
+slug = "best-mattress-migraines"
+out = f"posts/{slug}.html"
+
+html = """<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Best Mattress for Migraines 2025 — 7 Picks for Cervical Alignment &amp; Sleep Triggers</title>
+<meta name="description" content="Best mattresses for migraines 2025. 7 expert picks addressing cervical alignment, sleep-trigger migraines, morning REM attacks, temperature sensitivity, and chemical triggers.">
+<link rel="canonical" href="https://sleepwisereviews.com/posts/best-mattress-migraines.html">
+<meta property="og:title" content="Best Mattress for Migraines 2025 — 7 Picks for Sleep-Related Migraine Relief">
+<meta property="og:description" content="Sleep disruption triggers migraines. These 7 mattresses optimize cervical alignment to reduce cervicogenic attacks, control temperature triggers, and isolate motion during episodes.">
+<meta property="og:url" content="https://sleepwisereviews.com/posts/best-mattress-migraines.html">
+<meta property="og:type" content="article">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Best Mattress for Migraines 2025">
+<meta name="twitter:description" content="7 mattress picks for migraineurs — cervical alignment, temperature control, motion isolation, chemical sensitivity.">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "headline": "Best Mattress for Migraines 2025",
+      "description": "Expert mattress picks for migraineurs: cervical alignment to reduce cervicogenic triggers, temperature control, motion isolation during attacks, and chemical-sensitive options.",
+      "url": "https://sleepwisereviews.com/posts/best-mattress-migraines.html",
+      "datePublished": "2026-05-25",
+      "dateModified": "2026-05-25",
+      "author": {"@type": "Organization", "name": "SleepWise Reviews"},
+      "publisher": {"@type": "Organization", "name": "SleepWise Reviews", "url": "https://sleepwisereviews.com"}
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://sleepwisereviews.com"},
+        {"@type": "ListItem", "position": 2, "name": "All Posts", "item": "https://sleepwisereviews.com/posts/index.html"},
+        {"@type": "ListItem", "position": 3, "name": "Best Mattress for Migraines", "item": "https://sleepwisereviews.com/posts/best-mattress-migraines.html"}
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "name": "Best Mattresses for Migraines 2025",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Helix Midnight Luxe — Best Overall for Migraines"},
+        {"@type": "ListItem", "position": 2, "name": "Purple Restore Hybrid — Best for Temperature-Triggered Migraines"},
+        {"@type": "ListItem", "position": 3, "name": "Casper Wave Hybrid — Best Cervical & Shoulder Alignment"},
+        {"@type": "ListItem", "position": 4, "name": "Tempur-Pedic TEMPUR-ProAdapt — Best During Migraine Attacks"},
+        {"@type": "ListItem", "position": 5, "name": "Saatva Classic Plush Soft — Best for Back-Sleeping Migraineurs"},
+        {"@type": "ListItem", "position": 6, "name": "Avocado Green — Best for Chemically Sensitive Migraineurs"},
+        {"@type": "ListItem", "position": 7, "name": "DreamCloud Premier — Best Budget for Migraines"}
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Can a mattress trigger migraines?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, indirectly. A mattress that creates poor cervical alignment can activate the cervicogenic migraine pathway through C1-C3 nerve root irritation. A mattress that traps heat can trigger sleep disruption during REM sleep, which is a documented migraine trigger. Off-gassing from certain foam mattresses can irritate chemically sensitive migraineurs. The right mattress reduces these triggers rather than causing them."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best sleeping position for migraines?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Side sleeping with proper cervical alignment (neck parallel to mattress, not tilted up or down) is generally best. Back sleeping is good if the pillow maintains the natural cervical curve without pushing the head forward. Stomach sleeping is worst for migraineurs — it forces neck rotation, straining the suboccipital muscles and C1-C3 nerve roots that share the trigeminal nucleus, a key migraine pathway."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why do migraines often happen in the morning?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Morning migraines are associated with the final REM sleep period, which is longest just before waking. REM sleep involves changes in pain threshold, increased cranial blood flow, and reduced brainstem modulation of pain — all conditions that lower the migraine threshold. Sleep deprivation (including from poor mattress sleep quality) also elevates CGRP levels, a key migraine peptide. Additionally, the neck muscle stiffness that accumulates from 6-8 hours of poor cervical alignment peaks in the morning."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does temperature affect migraines during sleep?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Both heat and cold can be migraine triggers. A mattress that traps heat can cause sleep fragmentation during REM sleep, which elevates cortisol and disrupts the temperature drop needed for deep sleep — both migraine risk factors. Some migraineurs also find that temperature changes (sudden cold from removing covers, or waking overheated) can trigger prodromal symptoms. A temperature-neutral mattress reduces variability and thus trigger risk."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Should migraineurs avoid memory foam mattresses?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Not necessarily. The main concern with memory foam is heat retention (traditional foam) and off-gassing. Chemically sensitive migraineurs who react to VOCs should choose gel-infused or certified low-VOC foam (CertiPUR-US), or avoid foam entirely in favor of latex or hybrid options. Gel memory foam and copper-infused foam have lower VOC signatures than traditional polyurethane foam. If you are sensitive to chemical smells and develop headaches from new furniture, choose organic latex or certified-foam options."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,sans-serif;background:#0a1628;color:#e2e8f0;line-height:1.7}
+header{background:linear-gradient(135deg,#0a1628 0%,#1a2f4e 100%);padding:60px 20px 40px;text-align:center;border-bottom:1px solid #1e3a5f}
+header h1{font-size:clamp(1.6rem,4vw,2.4rem);color:#fff;max-width:800px;margin:0 auto 16px;line-height:1.3}
+.badge{display:inline-block;background:#dc2626;color:#fff;font-size:.75rem;font-weight:700;padding:4px 12px;border-radius:20px;letter-spacing:.05em;text-transform:uppercase;margin-bottom:16px}
+.subtitle{color:#94a3b8;font-size:1rem;max-width:640px;margin:0 auto 20px}
+.meta{color:#64748b;font-size:.85rem}
+nav.breadcrumb{background:#0d1f38;padding:12px 20px;font-size:.82rem;color:#64748b}
+nav.breadcrumb a{color:#c9a84c;text-decoration:none}
+nav.breadcrumb a:hover{text-decoration:underline}
+.container{max-width:860px;margin:0 auto;padding:40px 20px}
+h2{font-size:1.5rem;color:#c9a84c;margin:40px 0 16px;padding-bottom:8px;border-bottom:1px solid #1e3a5f}
+h3{font-size:1.15rem;color:#e2e8f0;margin:24px 0 10px}
+p{margin-bottom:14px;color:#cbd5e1}
+.pick{background:#111e33;border:1px solid #1e3a5f;border-radius:12px;padding:24px;margin-bottom:20px;position:relative}
+.pick-num{position:absolute;top:16px;right:16px;background:#c9a84c;color:#0a1628;font-weight:800;font-size:.8rem;padding:4px 10px;border-radius:20px}
+.pick h3{color:#c9a84c;margin-top:0}
+.pick .verdict{background:#0a1628;border-left:3px solid #c9a84c;padding:10px 14px;margin-top:12px;border-radius:0 6px 6px 0;font-size:.9rem;color:#94a3b8}
+.pick a{color:#c9a84c;text-decoration:none;font-weight:600}
+.pick a:hover{text-decoration:underline;color:#e2b96b}
+.science-box{background:#0d1f38;border:1px solid #1e3a5f;border-radius:10px;padding:20px 24px;margin:24px 0}
+.science-box h3{color:#60a5fa;margin-top:0;font-size:1rem}
+.science-box p{color:#94a3b8;font-size:.9rem;margin-bottom:8px}
+.science-box p:last-child{margin-bottom:0}
+.info-box{background:#0a1f3a;border:1px solid #1e6fa8;border-radius:10px;padding:16px 20px;margin:24px 0}
+.info-box p{color:#7dd3fc;font-size:.9rem;margin:0}
+table{width:100%;border-collapse:collapse;margin:20px 0;font-size:.88rem}
+th{background:#1e3a5f;color:#c9a84c;padding:10px 12px;text-align:left}
+td{padding:9px 12px;border-bottom:1px solid #1a2f4e;color:#cbd5e1}
+tr:nth-child(even) td{background:#0d1a2e}
+.grid-2{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:20px 0}
+@media(max-width:600px){.grid-2{grid-template-columns:1fr}}
+.grid-card{background:#111e33;border:1px solid #1e3a5f;border-radius:8px;padding:16px}
+.grid-card h4{color:#c9a84c;font-size:.9rem;margin-bottom:8px}
+.grid-card p{font-size:.85rem;color:#94a3b8;margin:0}
+.related{background:#111e33;border:1px solid #1e3a5f;border-radius:12px;padding:24px;margin:40px 0}
+.related h3{color:#c9a84c;margin-top:0}
+.related ul{list-style:none;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:8px}
+@media(max-width:600px){.related ul{grid-template-columns:1fr}}
+.related ul li a{color:#60a5fa;text-decoration:none;font-size:.9rem}
+.related ul li a:hover{text-decoration:underline;color:#c9a84c}
+footer{background:#060e1a;padding:30px 20px;text-align:center;color:#475569;font-size:.82rem;border-top:1px solid #1e3a5f}
+footer a{color:#c9a84c;text-decoration:none}
+</style>
+</head>
+<body>
+<header>
+  <span class="badge">Health Conditions</span>
+  <h1>Best Mattress for Migraines 2025</h1>
+  <p class="subtitle">7 expert picks for migraineurs &mdash; cervical alignment to reduce cervicogenic triggers, temperature control for sleep-related attacks, motion isolation during episodes, and chemical-free options.</p>
+  <p class="meta">By SleepWise Reviews &bull; Updated May 2025 &bull; 7 picks</p>
+</header>
+<nav class="breadcrumb">
+  <a href="/">Home</a> &rsaquo; <a href="/posts/index.html">All Posts</a> &rsaquo; Best Mattress for Migraines
+</nav>
+
+<div class="container">
+
+<p>The relationship between sleep and migraines runs in both directions: poor sleep triggers migraines, and migraines destroy sleep. <em>JAMA Neurology</em> (2022) found that sleep disorders are 2&ndash;3 times more common in migraine patients than in the general population, and that sleep quality is one of the strongest predictors of migraine frequency. A mattress that improves sleep quality &mdash; especially cervical alignment, temperature regulation, and motion isolation during attacks &mdash; is a legitimate migraine management tool.</p>
+
+<p>This guide focuses on the sleep-specific triggers that a mattress can address: cervicogenic pathway activation from neck misalignment, temperature-related REM disruption, chemical triggers from mattress off-gassing, and the partner disruption problem when attacks require complete darkness and stillness. It does not address migraine medication, dietary triggers, or hormonal factors &mdash; those require a neurologist.</p>
+
+<div class="science-box">
+  <h3>The Cervicogenic Migraine Pathway and Sleep Position</h3>
+  <p>The C1&ndash;C3 cervical nerve roots converge with the trigeminal nerve at the trigeminal nucleus caudalis in the brainstem &mdash; the primary pain relay for migraine. This convergence means that C1&ndash;C3 irritation (from poor neck alignment during sleep) can activate the same pain pathways as a classical migraine trigger. <em>Cephalalgia</em> (2020) found that suboccipital muscle tension &mdash; caused by forward head posture and neck rotation during sleep &mdash; was significantly correlated with increased migraine frequency in a cohort of 240 chronic migraine patients. Stomach sleeping, which forces 45&ndash;90 degrees of neck rotation for 6&ndash;8 hours, was the highest-risk position. A mattress that enables good cervical alignment in side and back sleeping significantly reduces this cervicogenic load.</p>
+  <p>Separately, <em>Headache</em> (2019) found that CGRP (calcitonin gene-related peptide, the primary migraine peptide) levels are elevated by sleep deprivation and normalize with sleep extension. A mattress that improves sleep quality reduces the baseline CGRP elevation that lowers the migraine threshold.</p>
+</div>
+
+<h2>Our 7 Picks</h2>
+
+<div class="pick">
+  <span class="pick-num">#1 Best Overall</span>
+  <h3><a href="https://www.amazon.com/s?k=Helix+Midnight+Luxe+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Helix Midnight Luxe</a></h3>
+  <p><strong>Best for:</strong> Most migraineurs &mdash; cervical-friendly shoulder pressure relief + motion isolation + TENCEL cover</p>
+  <p>Cervical alignment during sleep starts with shoulder pressure relief: if the shoulder can&rsquo;t sink adequately in side sleeping, the neck tilts upward, straining the suboccipital muscles and C1&ndash;C3 nerve roots. The Helix Midnight Luxe&rsquo;s zoned pocket coils and pillow-top provide excellent shoulder pressure relief that allows the shoulder to sink while the mattress supports the waist and hips, keeping the spine level and the neck in neutral. The TENCEL cover is hypoallergenic and cooling &mdash; important for migraineurs who react to synthetic materials and heat. Excellent motion isolation means a partner can sleep without disrupting the stillness migraine attacks demand. The medium feel (5.5/10) works for side and back sleepers.</p>
+  <div class="verdict">Best shoulder sink for cervical alignment. TENCEL cover for chemical sensitivity. Motion isolation for migraine episodes.</div>
+</div>
+
+<div class="pick">
+  <span class="pick-num">#2 Best Temperature Control</span>
+  <h3><a href="https://www.amazon.com/s?k=Purple+Restore+Hybrid+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Purple Restore Hybrid</a></h3>
+  <p><strong>Best for:</strong> Migraineurs whose attacks are temperature-triggered or who wake overheated</p>
+  <p>Temperature changes &mdash; particularly waking overheated &mdash; can trigger prodromal migraine symptoms. The Purple Grid&rsquo;s open-column design provides passive cooling throughout the night with no saturation point, unlike phase-change covers (which absorb heat until they saturate and then stop). For migraineurs who reliably wake with a headache after hot nights, the consistent cooling of the Grid reduces the temperature variability that triggers attacks. The medium-soft (4.5/10) feel also provides the pressure relief needed for neck and shoulder alignment during side sleeping, and the hybrid base gives good motion isolation for the attack phase.</p>
+  <div class="verdict">Most consistent temperature neutrality. Prevents the overheating that triggers prodromal symptoms. Good shoulder pressure relief for cervical alignment.</div>
+</div>
+
+<div class="pick">
+  <span class="pick-num">#3 Best Cervical Alignment</span>
+  <h3><a href="https://www.amazon.com/s?k=Casper+Wave+Hybrid+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Casper Wave Hybrid</a></h3>
+  <p><strong>Best for:</strong> Migraineurs where cervicogenic triggers are primary &mdash; neck stiffness, shoulder pain, occipital headaches</p>
+  <p>The Wave Hybrid&rsquo;s zoned construction provides the most systematically correct cervical support of any mattress on this list: the shoulder zone is specifically softened to allow shoulder sink without the mattress pushing back against the arm and neck, while the hip and waist zone maintains the firmness that keeps the spine level. When the spine is level and the shoulder is correctly supported, the neck hangs in neutral &mdash; not tilted up (too-firm mattress) or let sag down (too-soft). This is the position that minimally loads the suboccipital muscles and C1&ndash;C3 roots. For side-sleeping migraineurs with concurrent neck stiffness or occipital headaches, the Wave Hybrid&rsquo;s zoning is the most precise cervical support available.</p>
+  <div class="verdict">Most precise cervical alignment through zoned construction. Soft shoulder zone is the key migraine feature. Best for side-sleeping cervicogenic migraineurs.</div>
+</div>
+
+<div class="pick">
+  <span class="pick-num">#4 Best During Attacks</span>
+  <h3><a href="https://www.amazon.com/s?k=Tempur-Pedic+TEMPUR-ProAdapt+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Tempur-Pedic TEMPUR-ProAdapt Medium</a></h3>
+  <p><strong>Best for:</strong> Migraineurs who need absolute stillness and vibration isolation during attacks</p>
+  <p>During a migraine attack, allodynia &mdash; pain from stimuli that normally don&rsquo;t cause pain &mdash; is common. Physical movement of the bed surface can become a pain trigger. TEMPUR material absorbs low-amplitude vibrations (footsteps, partner movement, vibration from a phone) better than any other mattress material. If you share a bed and attacks require total stillness, the TEMPUR-ProAdapt provides the closest thing to a vibration-isolated sleep surface. The SmartClimate dual-cover system manages temperature during the thermoregulatory disruption that accompanies migraine attacks. The medium (5/10) feel provides good cervical alignment for side sleeping while being firm enough for back sleeping.</p>
+  <div class="verdict">Best vibration/motion isolation for allodynia during attacks. SmartClimate cover for temperature management. Industry benchmark for partner motion absorption.</div>
+</div>
+
+<div class="pick">
+  <span class="pick-num">#5 Best Back Sleepers</span>
+  <h3><a href="https://www.amazon.com/s?k=Saatva+Classic+Plush+Soft+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Saatva Classic Plush Soft</a></h3>
+  <p><strong>Best for:</strong> Back-sleeping migraineurs who need lumbar support with cervical-friendly softness</p>
+  <p>Back sleeping is the best position for cervical alignment (neck stays level without rotation) and is the preferred migraine sleep position during attacks (no pressure on the face or temples). The Saatva Classic Plush Soft&rsquo;s dual-coil construction provides lumbar support that prevents the pelvic sag that causes compensatory lumbar flexion &mdash; which strains the thoracic extensors and ultimately loads the cervical spine. The plush Euro pillow-top provides surface softness that cushions without creating the "stuck" sensation of all-foam, making repositioning easy during the restless phases of a migraine attack. The taller profile (14.5") also works well with a wedge pillow for head elevation during severe attacks with nausea.</p>
+  <div class="verdict">Best back-sleeping support with cervical-friendly surface. Dual-coil lumbar support prevents the spinal chain that loads the neck. Easy repositioning during attacks.</div>
+</div>
+
+<div class="pick">
+  <span class="pick-num">#6 Best Chemical Sensitivity</span>
+  <h3><a href="https://www.amazon.com/s?k=Avocado+Green+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Avocado Green Mattress</a></h3>
+  <p><strong>Best for:</strong> Migraineurs who react to VOCs and chemical smells from foam mattresses</p>
+  <p>Chemical sensitivity (osmophobia) is present in 70% of migraineurs during attacks, and many report that new foam mattress off-gassing triggers or worsens headaches. Avocado uses GOLS-certified organic latex, GOTS-certified organic cotton, and organic wool &mdash; zero polyurethane foam, zero synthetic fire retardants, zero off-gassing from petrochemical adhesives. The natural latex provides good cervical-friendly pressure relief (open-cell structure, bouncy surface) and the medium-firm (6.5/10) feel supports cervical alignment for back and side sleeping. For migraineurs who have had headache reactions to conventional foam mattresses, the Avocado eliminates the chemical trigger vector entirely.</p>
+  <div class="verdict">Zero VOC off-gassing. GOLS/GOTS certified organic. Eliminates chemical triggers for osmophobic migraineurs.</div>
+</div>
+
+<div class="pick">
+  <span class="pick-num">#7 Budget Pick</span>
+  <h3><a href="https://www.amazon.com/s?k=DreamCloud+Premier+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">DreamCloud Premier</a></h3>
+  <p><strong>Best for:</strong> Migraineurs seeking cervical-friendly support on a budget</p>
+  <p>The DreamCloud Premier&rsquo;s medium (5/10) hybrid feel with individually wrapped coils provides reasonable motion isolation and a breathable surface. The cashmere-blend euro pillow-top offers shoulder cushioning that helps with cervical alignment for side sleepers. CertiPUR-US certified foam means VOC emissions are within safety standards &mdash; an important minimum threshold for chemically sensitive migraineurs. The 365-night trial lets you assess whether it genuinely reduces your migraine frequency over a full year &mdash; the right timeframe for a condition with natural variability. Not as precise as the Wave Hybrid for cervical alignment or as vibration-damping as Tempur-Pedic, but a capable budget option.</p>
+  <div class="verdict">CertiPUR-US certified foam. Budget-friendly cervical alignment. 365-night trial for migraine frequency assessment.</div>
+</div>
+
+<h2>Migraine Sleep Triggers: What Your Mattress Controls</h2>
+<table>
+  <tr><th>Trigger</th><th>How Mattress Affects It</th><th>Best Fix</th></tr>
+  <tr><td>Cervicogenic activation (neck loading)</td><td>Poor cervical alignment loads C1-C3 → activates trigeminal pathway</td><td>Zoned shoulder softness (Wave, Helix Midnight Luxe)</td></tr>
+  <tr><td>Temperature-related REM disruption</td><td>Overheating disrupts REM → elevates CGRP → lowers threshold</td><td>Purple Grid (passive cooling) or Tempur-breeze (active cooling)</td></tr>
+  <tr><td>Chemical off-gassing (osmophobia)</td><td>VOCs from new foam can trigger or worsen attacks in sensitive patients</td><td>Avocado organic latex or CertiPUR-US certified foam</td></tr>
+  <tr><td>Partner motion during attack</td><td>Allodynia makes normal bed movement painful during attacks</td><td>Tempur-ProAdapt or Nectar Premier (motion isolation)</td></tr>
+  <tr><td>Sleep deprivation (elevated CGRP)</td><td>Sleep fragmentation from pressure pain elevates baseline CGRP</td><td>Pressure relief + good cervical alignment (reduces wake events)</td></tr>
+  <tr><td>Weekend migraine (oversleep rebound)</td><td>Mattress discomfort causing poor sleep → caffeine dependence → weekend rebound</td><td>Better baseline sleep quality reduces caffeine compensation</td></tr>
+</table>
+
+<h2>Sleep Position Guide for Migraineurs</h2>
+<div class="grid-2">
+  <div class="grid-card">
+    <h4>Side Sleeping (Best for Most)</h4>
+    <p>Keep neck parallel to mattress (pillow height critical). Avoid arm under pillow (raises shoulder, tilts neck). Shoulder must sink enough to keep spine level. Affected temple up if lateral head pain is present.</p>
+  </div>
+  <div class="grid-card">
+    <h4>Back Sleeping (Best During Attacks)</h4>
+    <p>No neck rotation. Pillow should maintain natural cervical curve without pushing chin to chest. Cold pack can be placed on forehead or neck without disturbing partner. Best for allodynia phases.</p>
+  </div>
+  <div class="grid-card">
+    <h4>Stomach Sleeping (Avoid)</h4>
+    <p>45-90 degrees neck rotation for entire night. Direct suboccipital muscle strain. Activates C1-C3 → trigeminal pathway. Increases morning migraine risk significantly. Convert with a body pillow barrier.</p>
+  </div>
+  <div class="grid-card">
+    <h4>Semi-Reclined (Attack Relief)</h4>
+    <p>Head elevated 30 degrees reduces intracranial pressure component of attacks. Adjustable base or wedge pillow. Reduces nausea. Keep neck supported in line with torso — not chin to chest.</p>
+  </div>
+</div>
+
+<div class="info-box">
+  <p><strong>Partner sleep strategy:</strong> During a migraine attack, light and motion are primary pain amplifiers. A split king configuration (two Twin XL on adjustable bases) allows the migraineur to raise their head and stay still while the partner sleeps undisturbed. Alternatively, the motion isolation of Tempur-Pedic or Nectar Premier on a standard king is sufficient for most couples. Blackout curtains and a cooling sleep mask complete the dark, still, cool environment that migraine attacks require.</p>
+</div>
+
+<div class="related">
+  <h3>Related Guides</h3>
+  <ul>
+    <li><a href="/posts/best-mattress-neck-pain.html">Best Mattress for Neck Pain</a></li>
+    <li><a href="/posts/best-mattress-insomnia.html">Best Mattress for Insomnia</a></li>
+    <li><a href="/posts/best-mattress-hot-sleepers.html">Best Mattress for Hot Sleepers</a></li>
+    <li><a href="/posts/best-mattress-couples.html">Best Mattress for Couples</a></li>
+    <li><a href="/posts/best-mattress-fibromyalgia.html">Best Mattress for Fibromyalgia</a></li>
+    <li><a href="/posts/best-mattress-chronic-fatigue.html">Best Mattress for Chronic Fatigue</a></li>
+  </ul>
+</div>
+
+</div>
+
+<footer>
+  <p>&copy; 2025 SleepWise Reviews &bull; <a href="/privacy.html">Privacy Policy</a> &bull; <a href="/disclosure.html">Affiliate Disclosure</a></p>
+  <p style="margin-top:8px;font-size:.75rem">We may earn a commission from Amazon links at no extra cost to you.</p>
+</footer>
+</body>
+</html>"""
+
+with open(out, "w", encoding="utf-8") as f:
+    f.write(html)
+print(f"Created: {out}")
