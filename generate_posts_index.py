@@ -36,17 +36,33 @@ for fn in os.listdir(POSTS_DIR):
     title = re.sub(r'\s*[|\-–]\s*(SleepWise.*|Sleep.*)$', '', title).strip()
     title_map[slug] = title
 
+CAT_ANCHOR = {
+    'Insomnia & CBT-I': 'insomnia-cbti',
+    'Sleep Science': 'sleep-science',
+    'Caffeine & Nutrition': 'caffeine-nutrition',
+    'Sleep Environment': 'sleep-environment',
+    'Health Conditions': 'health-conditions',
+    'Life Stages': 'life-stages',
+    'Timing & Jet Lag': 'timing-jet-lag',
+    'Napping & Performance': 'napping-performance',
+    'Guides & Plans': 'guides-plans',
+    'Mattresses & Bedding': 'mattresses-bedding',
+    'Sleep Products': 'sleep-products',
+    'Supplements': 'supplements',
+}
+
 # Build category sections HTML
 category_html = ''
 for cat_name, slugs in CATEGORIES.items():
     valid_slugs = [s for s in slugs if os.path.exists(os.path.join(POSTS_DIR, s + '.html'))]
     if not valid_slugs:
         continue
+    anchor = CAT_ANCHOR.get(cat_name, cat_name.lower().replace(' ', '-').replace('&', '').replace('--', '-'))
     links = ''
     for slug in valid_slugs:
         title = title_map.get(slug, slug.replace('-', ' ').title())
         links += f'          <li><a href="{slug}.html">{title}</a></li>\n'
-    category_html += f'''      <section class="cat-section">
+    category_html += f'''      <section class="cat-section" id="{anchor}">
         <h2>{cat_name} <span class="count">({len(valid_slugs)})</span></h2>
         <ul class="post-list">
 {links}        </ul>
