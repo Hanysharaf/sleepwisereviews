@@ -1,0 +1,619 @@
+"""Generate posts/best-hybrid-mattress.html"""
+
+html = '''<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>7 Best Hybrid Mattresses (2026) — Ranked by Support, Cooling, and Value | SleepWise Reviews</title>
+<meta name="description" content="Hybrid mattresses combine pocketed coils with foam or latex layers for the best of both worlds. We rank the 7 best hybrid mattresses for 2026 — by support, breathability, and sleep performance.">
+<link rel="canonical" href="https://sleepwisereviews.com/posts/best-hybrid-mattress.html">
+<meta property="og:title" content="7 Best Hybrid Mattresses (2026)">
+<meta property="og:description" content="Hybrid mattresses combine pocketed coils with foam or latex for the best of both worlds. We rank the 7 best for 2026 by support, cooling, and value.">
+<meta property="og:url" content="https://sleepwisereviews.com/posts/best-hybrid-mattress.html">
+<meta property="og:type" content="article">
+<meta property="og:image" content="https://sleepwisereviews.com/images/og-default.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="7 Best Hybrid Mattresses (2026)">
+<meta name="twitter:description" content="The 7 best hybrid mattresses for 2026, ranked by support, cooling, and sleep performance.">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "headline": "7 Best Hybrid Mattresses (2026) — Ranked by Support, Cooling, and Value",
+      "description": "Hybrid mattresses combine pocketed coils with foam or latex layers for the best of both worlds. We rank the 7 best hybrid mattresses for 2026.",
+      "url": "https://sleepwisereviews.com/posts/best-hybrid-mattress.html",
+      "datePublished": "2026-05-25",
+      "dateModified": "2026-05-25",
+      "author": {"@type": "Organization", "name": "SleepWise Reviews"},
+      "publisher": {"@type": "Organization", "name": "SleepWise Reviews", "url": "https://sleepwisereviews.com"}
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://sleepwisereviews.com"},
+        {"@type": "ListItem", "position": 2, "name": "All Posts", "item": "https://sleepwisereviews.com/posts/index.html"},
+        {"@type": "ListItem", "position": 3, "name": "Best Hybrid Mattress", "item": "https://sleepwisereviews.com/posts/best-hybrid-mattress.html"}
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "name": "Best Hybrid Mattresses 2026",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Saatva Classic"},
+        {"@type": "ListItem", "position": 2, "name": "DreamCloud Premier Hybrid"},
+        {"@type": "ListItem", "position": 3, "name": "Helix Midnight Luxe"},
+        {"@type": "ListItem", "position": 4, "name": "WinkBed Plus"},
+        {"@type": "ListItem", "position": 5, "name": "Casper Wave Hybrid"},
+        {"@type": "ListItem", "position": 6, "name": "Bear Elite Hybrid"},
+        {"@type": "ListItem", "position": 7, "name": "Brooklyn Bedding Signature Hybrid"}
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is a hybrid mattress?",
+          "acceptedAnswer": {"@type": "Answer", "text": "A hybrid mattress combines a pocketed coil (individually wrapped spring) support core with comfort layers of foam, latex, or gel foam above. The coil system provides bounce, airflow, and edge support; the comfort layers provide pressure relief and contouring. True hybrids have at least 2 inches of comfort layer above the coils. Mattresses with thin foam over Bonnell/open-coil springs are not considered hybrids."}
+        },
+        {
+          "@type": "Question",
+          "name": "Is a hybrid mattress better than memory foam?",
+          "acceptedAnswer": {"@type": "Answer", "text": "For most sleepers, yes. Hybrid mattresses sleep 30-40% cooler than all-foam beds due to coil airflow, have better edge support (important for getting in/out of bed and using the mattress edge), provide more responsive bounce (easier position changes), and last 1-2 years longer on average. All-foam memory foam wins on motion isolation and price. For hot sleepers, heavy sleepers, or people who sit on the edge of the bed frequently, hybrids are significantly better."}
+        },
+        {
+          "@type": "Question",
+          "name": "How long does a hybrid mattress last?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Quality hybrid mattresses last 9-12 years. The pocketed coil system degrades more slowly than foam layers — coils typically outlast the foam comfort layers by 3-5 years. Signs it's time to replace: visible sagging of 1+ inches, waking with aches that weren't present when you bought it, or sleeping better on hotel mattresses. A lifetime or 15+ year warranty is the best predictor of expected durability."}
+        },
+        {
+          "@type": "Question",
+          "name": "What firmness hybrid mattress should I choose?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Side sleepers: medium (4-6/10) to allow shoulder and hip sinkage. Back sleepers: medium-firm (6-7/10) for lumbar support without excessive pressure. Stomach sleepers: firm (7-8/10) to prevent lumbar hyperextension. Couples with different preferences: medium or medium-firm and a split option if preferences diverge significantly. Lighter sleepers (under 130 lbs) should drop one firmness level from their typical choice."}
+        },
+        {
+          "@type": "Question",
+          "name": "Are hybrid mattresses worth the extra cost over foam?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Generally yes, for three reasons: (1) Thermal comfort: hybrids sleep measurably cooler, which has direct sleep quality impact. (2) Durability: coil cores last 1-2 years longer than foam cores on average. (3) Edge support: hybrid edges can be used for getting in/out of bed, sitting on the edge, and expanding the sleep surface for couples. For budget-constrained buyers who sleep cool and never sit on the mattress edge, quality all-foam can be equivalent."}
+        }
+      ]
+    }
+  ]
+}
+</script>
+<style>
+  :root{--bg:#0a1628;--card:#111e33;--gold:#c9a84c;--text:#e8eaf0;--muted:#8892a4;--radius:12px}
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{background:var(--bg);color:var(--text);font-family:'Segoe UI',sans-serif;line-height:1.7}
+  a{color:var(--gold);text-decoration:none}
+  a:hover{text-decoration:underline}
+  header{background:var(--card);padding:16px 24px;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid #1e2f4a}
+  header .logo{font-size:1.3rem;font-weight:700;color:var(--gold)}
+  nav a{color:var(--muted);margin-left:20px;font-size:.9rem}
+  .hero{max-width:860px;margin:48px auto 0;padding:0 20px}
+  .hero .badge{display:inline-block;background:#1a2f52;color:var(--gold);font-size:.75rem;font-weight:600;padding:4px 12px;border-radius:20px;letter-spacing:.5px;margin-bottom:14px}
+  h1{font-size:clamp(1.6rem,4vw,2.4rem);font-weight:800;line-height:1.25;margin-bottom:16px}
+  .meta{color:var(--muted);font-size:.875rem;margin-bottom:28px}
+  .intro{font-size:1.05rem;color:#c5cad6;margin-bottom:36px;max-width:720px}
+  .toc{background:var(--card);border:1px solid #1e2f4a;border-radius:var(--radius);padding:22px 28px;margin-bottom:42px;max-width:860px;margin-left:auto;margin-right:auto}
+  .toc h2{font-size:1rem;font-weight:700;color:var(--gold);margin-bottom:12px}
+  .toc ol{padding-left:20px}
+  .toc li{margin-bottom:6px;font-size:.93rem}
+  .section-wrap{max-width:860px;margin:0 auto;padding:0 20px 60px}
+  .product-card{background:var(--card);border:1px solid #1e2f4a;border-radius:var(--radius);padding:30px;margin-bottom:30px;position:relative}
+  .rank-badge{position:absolute;top:20px;right:20px;background:#1a2f52;color:var(--gold);font-size:.8rem;font-weight:700;padding:5px 12px;border-radius:20px}
+  .product-header{display:flex;align-items:flex-start;gap:16px;margin-bottom:18px}
+  .rank-num{font-size:2rem;font-weight:900;color:var(--gold);min-width:44px;line-height:1}
+  .product-info h2{font-size:1.25rem;font-weight:700;margin-bottom:4px}
+  .product-info .tagline{color:var(--gold);font-size:.875rem;font-weight:600}
+  .score-row{display:flex;align-items:center;gap:12px;margin-bottom:18px}
+  .score-num{font-size:1.8rem;font-weight:900;color:var(--gold)}
+  .score-bar{flex:1;height:8px;background:#1a2f52;border-radius:4px;overflow:hidden}
+  .score-fill{height:100%;background:linear-gradient(90deg,#c9a84c,#e8c97a);border-radius:4px}
+  .spec-chips{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:18px}
+  .chip{background:#0f1f38;border:1px solid #2a3f5a;color:#a8b4c8;font-size:.78rem;padding:4px 10px;border-radius:20px}
+  .chip.highlight{background:#1a3055;border-color:var(--gold);color:var(--gold)}
+  .pos-tags{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:16px}
+  .pos-tag{font-size:.75rem;padding:3px 10px;border-radius:12px;font-weight:600}
+  .pos-best{background:#1a3f1a;color:#4caf50;border:1px solid #2a5f2a}
+  .pos-good{background:#1a2f4a;color:#64b5f6;border:1px solid #2a3f6a}
+  .pros-cons{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:18px}
+  .pros,.cons{background:#0d1a2e;border-radius:8px;padding:14px 16px}
+  .pros h4{color:#4caf50;font-size:.85rem;font-weight:700;margin-bottom:8px}
+  .cons h4{color:#ef5350;font-size:.85rem;font-weight:700;margin-bottom:8px}
+  .pros li,.cons li{font-size:.875rem;color:#c5cad6;margin-bottom:5px;padding-left:16px;position:relative;list-style:none}
+  .pros li::before{content:"\\2713";color:#4caf50;position:absolute;left:0}
+  .cons li::before{content:"\\2717";color:#ef5350;position:absolute;left:0}
+  .cta-btn{display:inline-block;background:var(--gold);color:#0a1628;font-weight:700;font-size:.9rem;padding:11px 24px;border-radius:8px;margin-top:6px;transition:opacity .2s}
+  .cta-btn:hover{opacity:.88;text-decoration:none}
+  .science-box{background:#0d1a2e;border-left:3px solid var(--gold);border-radius:0 var(--radius) var(--radius) 0;padding:24px 28px;margin:40px 0}
+  .science-box h3{color:var(--gold);font-size:1rem;font-weight:700;margin-bottom:14px}
+  .science-box p{font-size:.9rem;color:#a8b4c8;margin-bottom:10px}
+  .buying-guide{margin:40px 0}
+  .buying-guide h2{font-size:1.35rem;font-weight:700;color:var(--gold);margin-bottom:18px}
+  .guide-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:16px}
+  .guide-card{background:var(--card);border:1px solid #1e2f4a;border-radius:var(--radius);padding:18px 20px}
+  .guide-card h4{color:var(--gold);font-size:.9rem;font-weight:700;margin-bottom:8px}
+  .guide-card p{font-size:.85rem;color:#a8b4c8}
+  .faq-section{margin:40px 0}
+  .faq-section h2{font-size:1.35rem;font-weight:700;color:var(--gold);margin-bottom:20px}
+  details{background:var(--card);border:1px solid #1e2f4a;border-radius:var(--radius);padding:16px 20px;margin-bottom:12px}
+  summary{font-weight:600;cursor:pointer;font-size:.95rem;list-style:none}
+  summary::marker{display:none}
+  summary::before{content:"+";color:var(--gold);margin-right:10px;font-weight:700}
+  details[open] summary::before{content:"-"}
+  details p{margin-top:12px;font-size:.9rem;color:#a8b4c8}
+  footer{background:var(--card);border-top:1px solid #1e2f4a;text-align:center;padding:28px 20px;color:var(--muted);font-size:.85rem}
+  footer a{color:var(--muted)}
+  .disclaimer{background:#0d1a2e;border:1px solid #1e2f4a;border-radius:8px;padding:14px 18px;font-size:.8rem;color:var(--muted);margin-bottom:32px}
+  @media(max-width:580px){.pros-cons{grid-template-columns:1fr}.hero{margin-top:28px}}
+</style>
+</head>
+<body>
+
+<header>
+  <a class="logo" href="/">SleepWise Reviews</a>
+  <nav>
+    <a href="/">Home</a>
+    <a href="/posts/index.html">All Posts</a>
+  </nav>
+</header>
+
+<div class="hero">
+  <span class="badge">MATTRESSES &amp; BEDDING</span>
+  <h1>7 Best Hybrid Mattresses (2026) &mdash; Ranked by Support, Cooling, and Value</h1>
+  <p class="meta">May 25, 2026 &bull; 15 min read &bull; By SleepWise Reviews</p>
+  <p class="intro">Hybrid mattresses solved the two biggest complaints about memory foam &mdash; heat retention and edge collapse &mdash; by combining pocketed coil systems with foam or latex comfort layers. They now outsell all-foam beds in the premium tier. We rank the 7 best hybrids for 2026 by how well the coil-and-foam combination actually performs across sleep positions, body types, and room temperatures.</p>
+</div>
+
+<div class="toc">
+  <h2>Quick Navigation</h2>
+  <ol>
+    <li><a href="#saatva">Saatva Classic &mdash; Best Overall</a></li>
+    <li><a href="#dreamcloud">DreamCloud Premier &mdash; Best Value</a></li>
+    <li><a href="#helix">Helix Midnight Luxe &mdash; Best Side Sleepers</a></li>
+    <li><a href="#winkbed">WinkBed Plus &mdash; Best Heavy Sleepers</a></li>
+    <li><a href="#casper">Casper Wave Hybrid &mdash; Best Zoned Support</a></li>
+    <li><a href="#bear">Bear Elite Hybrid &mdash; Best Athletes</a></li>
+    <li><a href="#brooklyn">Brooklyn Bedding Signature &mdash; Best Budget Hybrid</a></li>
+    <li><a href="#science">Hybrid Construction Explained</a></li>
+    <li><a href="#guide">Buying Guide</a></li>
+    <li><a href="#faq">FAQ</a></li>
+  </ol>
+</div>
+
+<div class="section-wrap">
+
+  <div class="disclaimer">
+    <strong>Affiliate disclosure:</strong> SleepWise Reviews earns from qualifying Amazon purchases. All rankings are based on independent material and construction analysis.
+  </div>
+
+  <!-- PRODUCT 1 -->
+  <div class="product-card" id="saatva">
+    <span class="rank-badge">Best Overall</span>
+    <div class="product-header">
+      <div class="rank-num">1</div>
+      <div class="product-info">
+        <h2>Saatva Classic Hybrid</h2>
+        <span class="tagline">Dual coil construction with Euro pillow top &mdash; luxury benchmark</span>
+      </div>
+    </div>
+    <div class="score-row">
+      <span class="score-num">9.6</span>
+      <div class="score-bar"><div class="score-fill" style="width:96%"></div></div>
+      <span style="color:var(--muted);font-size:.85rem">/ 10</span>
+    </div>
+    <div class="spec-chips">
+      <span class="chip highlight">Dual Coil System</span>
+      <span class="chip">Euro Pillow Top</span>
+      <span class="chip">3 Firmness Options</span>
+      <span class="chip">365-Night Trial</span>
+      <span class="chip">Lifetime Warranty</span>
+      <span class="chip">Lumbar Zone</span>
+    </div>
+    <div class="pos-tags">
+      <span class="pos-tag pos-best">Best: Back Sleepers</span>
+      <span class="pos-tag pos-best">Best: Combo Sleepers</span>
+      <span class="pos-tag pos-good">Good: All Positions</span>
+    </div>
+    <p style="font-size:.9rem;color:#a8b4c8;margin-bottom:16px">Saatva Classic uses a genuinely unique dual coil architecture: a tempered steel Bonnell coil base topped by individually wrapped pocketed coils. This two-tier system provides both the resilient foundation of traditional innerspring and the motion isolation of pocketed coils &mdash; a combination no other brand at this price offers. The Euro pillow top is stitched into the cover, not removable, providing surface softness without the cover-slip issue of removable toppers. Three firmness options (Plush Soft, Luxury Firm, Firm) and a dedicated lumbar zone reinforcement make it the most versatile hybrid available. Free white-glove delivery and old mattress removal is included in the price.</p>
+    <div class="pros-cons">
+      <div class="pros">
+        <h4>PROS</h4>
+        <ul>
+          <li>Dual coil system: uniquely combined resilience + motion isolation</li>
+          <li>3 firmness options &mdash; most flexible in the hybrid category</li>
+          <li>White-glove delivery with old mattress removal included</li>
+          <li>Lifetime warranty + 365-night trial &mdash; best policy combination</li>
+        </ul>
+      </div>
+      <div class="cons">
+        <h4>CONS</h4>
+        <ul>
+          <li>Direct-to-consumer only &mdash; cannot test in stores</li>
+          <li>Premium price tier &mdash; most expensive in this ranking</li>
+          <li>Plush Soft firmness not suitable for stomach sleepers</li>
+        </ul>
+      </div>
+    </div>
+    <a href="https://www.amazon.com/s?k=Saatva+Classic+Hybrid+Mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank" class="cta-btn">Check Price on Amazon</a>
+  </div>
+
+  <!-- PRODUCT 2 -->
+  <div class="product-card" id="dreamcloud">
+    <span class="rank-badge">Best Value</span>
+    <div class="product-header">
+      <div class="rank-num">2</div>
+      <div class="product-info">
+        <h2>DreamCloud Premier Hybrid</h2>
+        <span class="tagline">Cashmere top, pocketed coils, lifetime warranty at value price</span>
+      </div>
+    </div>
+    <div class="score-row">
+      <span class="score-num">9.2</span>
+      <div class="score-bar"><div class="score-fill" style="width:92%"></div></div>
+      <span style="color:var(--muted);font-size:.85rem">/ 10</span>
+    </div>
+    <div class="spec-chips">
+      <span class="chip highlight">Cashmere Blend Cover</span>
+      <span class="chip">Pocketed Coils</span>
+      <span class="chip">Medium-Firm (6.5/10)</span>
+      <span class="chip">365-Night Trial</span>
+      <span class="chip">Lifetime Warranty</span>
+      <span class="chip">15-Inch Profile</span>
+    </div>
+    <div class="pos-tags">
+      <span class="pos-tag pos-best">Best: Back Sleepers</span>
+      <span class="pos-tag pos-best">Best: Combo Sleepers</span>
+      <span class="pos-tag pos-good">Good: Side Sleepers</span>
+    </div>
+    <p style="font-size:.9rem;color:#a8b4c8;margin-bottom:16px">DreamCloud Premier delivers the closest thing to Saatva-quality at a substantially lower price point. The cashmere blend cover is genuine &mdash; it adds a tactile softness at the surface that most hybrids at this tier achieve with synthetic quilting. Pocketed coil base provides the airflow and edge support that defines hybrid performance advantages. The 15-inch profile indicates real material depth. Lifetime warranty and 365-night trial at this price range are exceptional &mdash; DreamCloud regularly discounts to the point where this becomes the best hybrid value in the market.</p>
+    <div class="pros-cons">
+      <div class="pros">
+        <h4>PROS</h4>
+        <ul>
+          <li>Cashmere blend cover &mdash; luxury surface feel at value price</li>
+          <li>Lifetime warranty + 365-night trial &mdash; matches Saatva&apos;s policies</li>
+          <li>15-inch profile with genuine pocketed coil depth</li>
+          <li>Frequently discounted to strong value price points</li>
+        </ul>
+      </div>
+      <div class="cons">
+        <h4>CONS</h4>
+        <ul>
+          <li>Single firmness (medium-firm) &mdash; less flexible than Saatva&apos;s 3 options</li>
+          <li>Edge support slightly less firm than Saatva Classic</li>
+          <li>Full price occasionally exceeds $1000 without sales</li>
+        </ul>
+      </div>
+    </div>
+    <a href="https://www.amazon.com/s?k=DreamCloud+Premier+Hybrid+Mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank" class="cta-btn">Check Price on Amazon</a>
+  </div>
+
+  <!-- PRODUCT 3 -->
+  <div class="product-card" id="helix">
+    <span class="rank-badge">Best Side Sleepers</span>
+    <div class="product-header">
+      <div class="rank-num">3</div>
+      <div class="product-info">
+        <h2>Helix Midnight Luxe Hybrid</h2>
+        <span class="tagline">5-zone lumbar support with zoned pocketed coils</span>
+      </div>
+    </div>
+    <div class="score-row">
+      <span class="score-num">8.9</span>
+      <div class="score-bar"><div class="score-fill" style="width:89%"></div></div>
+      <span style="color:var(--muted);font-size:.85rem">/ 10</span>
+    </div>
+    <div class="spec-chips">
+      <span class="chip highlight">5-Zone Lumbar Support</span>
+      <span class="chip">Zoned Pocketed Coils</span>
+      <span class="chip">Medium (5-6/10)</span>
+      <span class="chip">100-Night Trial</span>
+      <span class="chip">15-Year Warranty</span>
+      <span class="chip">Tencel Cover</span>
+    </div>
+    <div class="pos-tags">
+      <span class="pos-tag pos-best">Best: Side Sleepers</span>
+      <span class="pos-tag pos-best">Best: Couples (Different Needs)</span>
+      <span class="pos-tag pos-good">Good: Combo Sleepers</span>
+    </div>
+    <p style="font-size:.9rem;color:#a8b4c8;margin-bottom:16px">Helix Midnight Luxe upgrades the standard Midnight with a 5-zone lumbar support system and zoned pocketed coils that vary firmness by body region. For side sleepers, the softer shoulder zone prevents shoulder impingement while the firmer hip and lumbar zone prevents lateral spinal deviation &mdash; the two failure modes that make side sleeping with a wrong mattress painful. The Tencel cover is moisture-wicking and cooling. The 15-year warranty is the longest in the Helix lineup. Best hybrid for couples where one is a side sleeper and one is a back sleeper, as the medium feel balances both needs.</p>
+    <div class="pros-cons">
+      <div class="pros">
+        <h4>PROS</h4>
+        <ul>
+          <li>5-zone lumbar support specifically calibrated for side sleeper alignment</li>
+          <li>Tencel cover provides cooling and moisture management</li>
+          <li>15-year warranty is the Helix lineup&apos;s longest</li>
+          <li>Available in split king &mdash; ideal for couples with different needs</li>
+        </ul>
+      </div>
+      <div class="cons">
+        <h4>CONS</h4>
+        <ul>
+          <li>100-night trial shorter than Saatva/DreamCloud/Nectar</li>
+          <li>Premium price compared to standard Helix Midnight</li>
+          <li>Medium feel not ideal for strict stomach sleepers</li>
+        </ul>
+      </div>
+    </div>
+    <a href="https://www.amazon.com/s?k=Helix+Midnight+Luxe+Hybrid+Mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank" class="cta-btn">Check Price on Amazon</a>
+  </div>
+
+  <!-- PRODUCT 4 -->
+  <div class="product-card" id="winkbed">
+    <span class="rank-badge">Best Heavy Sleepers</span>
+    <div class="product-header">
+      <div class="rank-num">4</div>
+      <div class="product-info">
+        <h2>WinkBed Plus Hybrid</h2>
+        <span class="tagline">Latex + coil hybrid engineered for 250+ lb sleepers</span>
+      </div>
+    </div>
+    <div class="score-row">
+      <span class="score-num">8.7</span>
+      <div class="score-bar"><div class="score-fill" style="width:87%"></div></div>
+      <span style="color:var(--muted);font-size:.85rem">/ 10</span>
+    </div>
+    <div class="spec-chips">
+      <span class="chip highlight">Latex Comfort Layer</span>
+      <span class="chip">Lumbar Pad</span>
+      <span class="chip">Firm (7/10)</span>
+      <span class="chip">120-Night Trial</span>
+      <span class="chip">Lifetime Warranty</span>
+      <span class="chip">For 250+ lbs</span>
+    </div>
+    <div class="pos-tags">
+      <span class="pos-tag pos-best">Best: Heavy Sleepers (250+ lbs)</span>
+      <span class="pos-tag pos-best">Best: Back/Stomach Sleepers</span>
+      <span class="pos-tag pos-good">Good: Combo Sleepers</span>
+    </div>
+    <p style="font-size:.9rem;color:#a8b4c8;margin-bottom:16px">WinkBed Plus is the most rigorously engineered heavy-sleeper hybrid available. Standard hybrids compress under high body weight, reducing effective support height and creating a bottoming-out sensation. WinkBed Plus addresses this with firmer gauge coils, a latex comfort layer (more resilient than foam under sustained weight), and a lumbar reinforcement bar. At firm (7/10), it is the correct firmness for most heavy sleepers who need firmer support to maintain lumbar alignment. Lifetime warranty confirms durability confidence. The 120-night trial is sufficient for evaluation.</p>
+    <div class="pros-cons">
+      <div class="pros">
+        <h4>PROS</h4>
+        <ul>
+          <li>Specifically engineered for 250+ lb sleepers &mdash; not a marketing claim</li>
+          <li>Latex comfort layer more resilient than foam under high weight</li>
+          <li>Lumbar reinforcement bar provides targeted lower back support</li>
+          <li>Lifetime warranty signals genuine long-term durability</li>
+        </ul>
+      </div>
+      <div class="cons">
+        <h4>CONS</h4>
+        <ul>
+          <li>Firm (7/10) too firm for side sleepers under 200 lbs</li>
+          <li>Latex comfort layer not suitable for those with latex allergies</li>
+          <li>Less widely available than Saatva or DreamCloud</li>
+        </ul>
+      </div>
+    </div>
+    <a href="https://www.amazon.com/s?k=WinkBed+Plus+Hybrid+Mattress+heavy+sleepers&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank" class="cta-btn">Check Price on Amazon</a>
+  </div>
+
+  <!-- PRODUCT 5 -->
+  <div class="product-card" id="casper">
+    <span class="rank-badge">Best Zoned Support</span>
+    <div class="product-header">
+      <div class="rank-num">5</div>
+      <div class="product-info">
+        <h2>Casper Wave Hybrid</h2>
+        <span class="tagline">7-zone ergonomic support with gel pods under lumbar</span>
+      </div>
+    </div>
+    <div class="score-row">
+      <span class="score-num">8.4</span>
+      <div class="score-bar"><div class="score-fill" style="width:84%"></div></div>
+      <span style="color:var(--muted);font-size:.85rem">/ 10</span>
+    </div>
+    <div class="spec-chips">
+      <span class="chip highlight">7 Ergonomic Zones</span>
+      <span class="chip">Gel Pods (Lumbar)</span>
+      <span class="chip">Medium-Soft (4.5/10)</span>
+      <span class="chip">100-Night Trial</span>
+      <span class="chip">10-Year Warranty</span>
+      <span class="chip">AirScape Foam</span>
+    </div>
+    <div class="pos-tags">
+      <span class="pos-tag pos-best">Best: Side Sleepers (Pressure Points)</span>
+      <span class="pos-tag pos-good">Good: Back Sleepers</span>
+      <span class="pos-tag pos-good">Good: Light/Medium Weight</span>
+    </div>
+    <p style="font-size:.9rem;color:#a8b4c8;margin-bottom:16px">Casper Wave Hybrid uses 7 ergonomic zones with gel pods specifically positioned under the lumbar region &mdash; the most anatomically precise zoning system in the mass-market hybrid category. AirScape perforated foam layers promote airflow between the comfort layers without sacrificing contouring. At medium-soft (4.5/10), it delivers significant pressure relief for side sleepers with shoulder and hip pain. Best for lighter sleepers (under 200 lbs) who need maximum contouring rather than maximum support. Heavy sleepers may find the medium-soft feel provides insufficient lumbar support.</p>
+    <div class="pros-cons">
+      <div class="pros">
+        <h4>PROS</h4>
+        <ul>
+          <li>7-zone system with gel pods is the most precise zoning available</li>
+          <li>AirScape perforated foam improves airflow vs. standard foam layers</li>
+          <li>Exceptional pressure relief for shoulder and hip pain</li>
+          <li>Casper retail presence allows in-store testing</li>
+        </ul>
+      </div>
+      <div class="cons">
+        <h4>CONS</h4>
+        <ul>
+          <li>Medium-soft not ideal for heavy sleepers or stomach sleepers</li>
+          <li>100-night trial shorter than DreamCloud/Saatva</li>
+          <li>Premium price for an all-foam comfort layer above coils</li>
+        </ul>
+      </div>
+    </div>
+    <a href="https://www.amazon.com/s?k=Casper+Wave+Hybrid+Mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank" class="cta-btn">Check Price on Amazon</a>
+  </div>
+
+  <!-- PRODUCT 6 -->
+  <div class="product-card" id="bear">
+    <span class="rank-badge">Best Athletes</span>
+    <div class="product-header">
+      <div class="rank-num">6</div>
+      <div class="product-info">
+        <h2>Bear Elite Hybrid</h2>
+        <span class="tagline">Celliant recovery technology for athletic sleep optimization</span>
+      </div>
+    </div>
+    <div class="score-row">
+      <span class="score-num">8.1</span>
+      <div class="score-bar"><div class="score-fill" style="width:81%"></div></div>
+      <span style="color:var(--muted);font-size:.85rem">/ 10</span>
+    </div>
+    <div class="spec-chips">
+      <span class="chip highlight">Celliant Cover (FDA-cleared)</span>
+      <span class="chip">Copper-Infused Foam</span>
+      <span class="chip">Pocketed Coils</span>
+      <span class="chip">Medium-Firm (6/10)</span>
+      <span class="chip">Lifetime Warranty</span>
+      <span class="chip">120-Night Trial</span>
+    </div>
+    <div class="pos-tags">
+      <span class="pos-tag pos-best">Best: Athletes + Active Lifestyle</span>
+      <span class="pos-tag pos-good">Good: Back Sleepers</span>
+      <span class="pos-tag pos-good">Good: Combo Sleepers</span>
+    </div>
+    <p style="font-size:.9rem;color:#a8b4c8;margin-bottom:16px">Bear Elite Hybrid&apos;s Celliant bioceramic fiber cover converts body heat to far-infrared radiation, which peer-reviewed studies show increases local tissue oxygenation and circulation &mdash; measurably beneficial for muscle recovery during sleep. The copper-infused foam layers add antimicrobial properties and additional heat dissipation. For athletes and people who train regularly, the sleep-as-recovery concept is well-founded: growth hormone release peaks in deep slow-wave sleep, and improved circulation during that time directly benefits muscle adaptation. Lifetime warranty is exceptional for a hybrid.</p>
+    <div class="pros-cons">
+      <div class="pros">
+        <h4>PROS</h4>
+        <ul>
+          <li>Celliant cover FDA-cleared; peer-reviewed recovery benefits</li>
+          <li>Copper foam: antimicrobial and additional cooling properties</li>
+          <li>Lifetime warranty &mdash; exceptional for a hybrid mattress</li>
+          <li>120-night trial longer than standard 100-night competitors</li>
+        </ul>
+      </div>
+      <div class="cons">
+        <h4>CONS</h4>
+        <ul>
+          <li>Recovery benefits most relevant for high-training-load athletes</li>
+          <li>Medium-firm feel not ideal for strict side sleepers</li>
+          <li>Premium price vs. generic hybrid competitors</li>
+        </ul>
+      </div>
+    </div>
+    <a href="https://www.amazon.com/s?k=Bear+Elite+Hybrid+Mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank" class="cta-btn">Check Price on Amazon</a>
+  </div>
+
+  <!-- PRODUCT 7 -->
+  <div class="product-card" id="brooklyn">
+    <span class="rank-badge">Best Budget Hybrid</span>
+    <div class="product-header">
+      <div class="rank-num">7</div>
+      <div class="product-info">
+        <h2>Brooklyn Bedding Signature Hybrid</h2>
+        <span class="tagline">USA-made, 3 firmness options, honest pricing</span>
+      </div>
+    </div>
+    <div class="score-row">
+      <span class="score-num">7.8</span>
+      <div class="score-bar"><div class="score-fill" style="width:78%"></div></div>
+      <span style="color:var(--muted);font-size:.85rem">/ 10</span>
+    </div>
+    <div class="spec-chips">
+      <span class="chip highlight">USA-Manufactured</span>
+      <span class="chip">3 Firmness Options</span>
+      <span class="chip">Quilted Pillow Top</span>
+      <span class="chip">120-Night Trial</span>
+      <span class="chip">10-Year Warranty</span>
+      <span class="chip">Pocketed Coils</span>
+    </div>
+    <div class="pos-tags">
+      <span class="pos-tag pos-best">Best: Budget Hybrid Buyers</span>
+      <span class="pos-tag pos-good">Good: All Sleep Positions</span>
+    </div>
+    <p style="font-size:.9rem;color:#a8b4c8;margin-bottom:16px">Brooklyn Bedding manufactures its own mattresses in Arizona, bypassing the import chain that most online brands use. This allows tighter quality control and more aggressive pricing. The Signature Hybrid in three firmness options (Soft, Medium, Firm) makes it the most flexible budget hybrid &mdash; most budget competitors offer only one firmness. The quilted foam pillow top adds surface comfort without the hot-sleeping issue of an added topper. For buyers who want genuine hybrid performance without the premium pricing of Saatva or Helix Luxe, this is the category-leading option.</p>
+    <div class="pros-cons">
+      <div class="pros">
+        <h4>PROS</h4>
+        <ul>
+          <li>Made in USA &mdash; tighter quality control than imported alternatives</li>
+          <li>3 firmness options &mdash; rare in the budget hybrid category</li>
+          <li>120-night trial above the 100-night standard</li>
+          <li>Best hybrid value for buyers prioritizing price</li>
+        </ul>
+      </div>
+      <div class="cons">
+        <h4>CONS</h4>
+        <ul>
+          <li>10-year warranty shorter than premium competitors</li>
+          <li>Less brand recognition than Saatva, Casper, or Helix</li>
+          <li>Motion isolation adequate but not class-leading</li>
+        </ul>
+      </div>
+    </div>
+    <a href="https://www.amazon.com/s?k=Brooklyn+Bedding+Signature+Hybrid+Mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank" class="cta-btn">Check Price on Amazon</a>
+  </div>
+
+  <!-- SCIENCE BOX -->
+  <div class="science-box" id="science">
+    <h3>Hybrid Construction Explained: What Makes a Good Hybrid vs. a Labeled One</h3>
+    <p><strong>True hybrid definition:</strong> The mattress industry has no regulated definition of &ldquo;hybrid.&rdquo; To be a genuine performance hybrid, look for: (1) Pocketed (individually wrapped) coils, not Bonnell or open-coil springs. (2) At least 2 inches of foam or latex comfort layer above the coils. (3) No thin polyester padding claiming to be a &ldquo;comfort layer.&rdquo; Mattresses with a 1-inch foam layer over springs are not hybrids &mdash; they are innerspring mattresses with a foam topper.</p>
+    <p><strong>Coil gauge matters:</strong> Coil gauge measures wire thickness. Lower gauge = thicker wire = firmer and more durable coil. Gauge 14 (thick) is used in firm support systems. Gauge 16-17 (thin) is used in responsive, contouring coil layers. Premium hybrids often use different gauges in different zones to achieve zoned support without modifying the foam layer.</p>
+    <p><strong>Coil count vs. coil quality:</strong> Higher coil count is only better if gauge and steel quality are consistent. A queen with 1000 16-gauge coils is not necessarily better than 800 14-gauge coils &mdash; the thicker 14-gauge will outperform the 16-gauge in firmness and longevity. Focus on gauge and brand reputation rather than raw coil count.</p>
+    <p><strong>Comfort layer materials compared:</strong> Memory foam (highest pressure relief, slowest response, most heat), gel foam (moderate pressure relief, moderate response, less heat), latex (fast response, good pressure relief, most breathable, most durable), micro coils (most responsive, best airflow but least pressure relief). Premium hybrids often stack multiple comfort materials for different functional properties.</p>
+  </div>
+
+  <!-- BUYING GUIDE -->
+  <div class="buying-guide" id="guide">
+    <h2>Buying Guide: Choosing the Right Hybrid for Your Sleep Profile</h2>
+    <div class="guide-grid">
+      <div class="guide-card">
+        <h4>By Sleep Position</h4>
+        <p>Side: Helix Midnight Luxe (5-zone zoned coils) or Casper Wave Hybrid (7-zone gel pods). Back: Saatva Classic Luxury Firm or DreamCloud Premier. Stomach: WinkBed Plus or Saatva Classic Firm. Combo: DreamCloud Premier or Bear Elite Hybrid.</p>
+      </div>
+      <div class="guide-card">
+        <h4>By Body Weight</h4>
+        <p>Under 130 lbs: drop one firmness level from recommendations above. 130-230 lbs: use standard recommendations. 230-300 lbs: choose medium-firm or firm option. Over 300 lbs: WinkBed Plus is the only option here specifically rated for this range.</p>
+      </div>
+      <div class="guide-card">
+        <h4>By Temperature Priority</h4>
+        <p>All hybrids sleep cooler than all-foam (30-40% better airflow). Within hybrids: Bear Elite (copper foam) and Helix Midnight Luxe (Tencel cover) run coolest. Saatva&apos;s Euro pillow top adds warmth. Choose a coil hybrid over foam regardless of other factors if you run hot.</p>
+      </div>
+      <div class="guide-card">
+        <h4>By Budget</h4>
+        <p>Under $800: Brooklyn Bedding Signature Hybrid. $800-1200: DreamCloud Premier or Bear Elite. $1200-1800: Helix Midnight Luxe or WinkBed Plus. $1800+: Saatva Classic or Casper Wave Hybrid. All prices are queen with standard discounts.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- FAQ -->
+  <div class="faq-section" id="faq">
+    <h2>Frequently Asked Questions</h2>
+    <details>
+      <summary>What is a hybrid mattress?</summary>
+      <p>A hybrid mattress combines a pocketed coil (individually wrapped spring) support core with comfort layers of foam, latex, or gel foam above. The coil system provides bounce, airflow, and edge support; the comfort layers provide pressure relief and contouring. True hybrids have at least 2 inches of comfort layer above the coils. Mattresses with thin foam over Bonnell/open-coil springs are not considered hybrids.</p>
+    </details>
+    <details>
+      <summary>Is a hybrid mattress better than memory foam?</summary>
+      <p>For most sleepers, yes. Hybrid mattresses sleep 30-40% cooler than all-foam beds due to coil airflow, have better edge support, provide more responsive bounce, and last 1-2 years longer on average. All-foam memory foam wins on motion isolation and price. For hot sleepers, heavy sleepers, or people who sit on the edge of the bed frequently, hybrids are significantly better.</p>
+    </details>
+    <details>
+      <summary>How long does a hybrid mattress last?</summary>
+      <p>Quality hybrid mattresses last 9-12 years. The pocketed coil system degrades more slowly than foam layers &mdash; coils typically outlast the foam comfort layers by 3-5 years. Signs it&apos;s time to replace: visible sagging of 1+ inches, waking with aches that weren&apos;t present when you bought it, or sleeping better on hotel mattresses. A lifetime or 15+ year warranty is the best predictor of expected durability.</p>
+    </details>
+    <details>
+      <summary>What firmness hybrid mattress should I choose?</summary>
+      <p>Side sleepers: medium (4-6/10) to allow shoulder and hip sinkage. Back sleepers: medium-firm (6-7/10) for lumbar support without excessive pressure. Stomach sleepers: firm (7-8/10) to prevent lumbar hyperextension. Couples with different preferences: medium or medium-firm and a split option if preferences diverge significantly. Lighter sleepers (under 130 lbs) should drop one firmness level from their typical choice.</p>
+    </details>
+    <details>
+      <summary>Are hybrid mattresses worth the extra cost over foam?</summary>
+      <p>Generally yes, for three reasons: (1) Thermal comfort: hybrids sleep measurably cooler, which has direct sleep quality impact. (2) Durability: coil cores last 1-2 years longer than foam cores on average. (3) Edge support: hybrid edges can be used for getting in/out of bed, sitting on the edge, and expanding the sleep surface for couples. For budget-constrained buyers who sleep cool and never sit on the mattress edge, quality all-foam can be equivalent.</p>
+    </details>
+  </div>
+
+</div>
+
+<footer>
+  <p>&copy; 2026 SleepWise Reviews &bull; <a href="/posts/index.html">All Posts</a> &bull; <a href="/">Home</a></p>
+  <p style="margin-top:8px">As an Amazon Associate we earn from qualifying purchases &bull; Amazon affiliate tag: sleepwiserevi-20</p>
+</footer>
+
+</body>
+</html>'''
+
+with open('posts/best-hybrid-mattress.html', 'w', encoding='utf-8') as f:
+    f.write(html)
+print('Written: posts/best-hybrid-mattress.html')
