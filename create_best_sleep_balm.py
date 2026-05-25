@@ -1,0 +1,289 @@
+"""Generate posts/best-sleep-balm.html"""
+import os
+
+OUT = os.path.join(os.path.dirname(__file__), 'posts', 'best-sleep-balm.html')
+
+html = '''<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Best Sleep Balms 2026 — Topical Relaxation Salves for Better Sleep | SleepWise Reviews</title>
+  <meta name="description" content="The best sleep balms of 2026. Topical aromatherapy salves with lavender, chamomile, and CBD formulas applied to temples, wrists, and chest for pre-sleep relaxation. Expert picks tested." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://sleepwisereviews.com/posts/best-sleep-balm.html" />
+  <meta property="og:title" content="Best Sleep Balms 2026 — Topical Relaxation Salves" />
+  <meta property="og:description" content="Top 7 sleep balms applied to temples, wrists, and chest for pre-sleep aromatherapy and relaxation. Lavender, chamomile, and botanical formulas." />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://sleepwisereviews.com/posts/best-sleep-balm.html" />
+  <meta property="og:image" content="https://sleepwisereviews.com/images/og-default.png" />
+  <meta property="og:site_name" content="SleepWise Reviews" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Best Sleep Balms 2026" />
+  <meta name="twitter:description" content="Top sleep balms for pre-bed relaxation. Lavender, chamomile, and botanical salves applied to pulse points." />
+  <meta name="twitter:image" content="https://sleepwisereviews.com/images/og-default.png" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Best Sleep Balms 2026 — Topical Relaxation Salves for Better Sleep",
+    "description": "Expert review of the top sleep balms for pre-sleep relaxation through topical aromatherapy and botanical ingredients.",
+    "url": "https://sleepwisereviews.com/posts/best-sleep-balm.html",
+    "datePublished": "2026-05-25",
+    "dateModified": "2026-05-25",
+    "author": {"@type": "Organization", "name": "SleepWise Reviews"},
+    "publisher": {"@type": "Organization", "name": "SleepWise Reviews", "url": "https://sleepwisereviews.com/"}
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://sleepwisereviews.com/"},
+      {"@type": "ListItem", "position": 2, "name": "All Guides", "item": "https://sleepwisereviews.com/posts/"},
+      {"@type": "ListItem", "position": 3, "name": "Best Sleep Balms", "item": "https://sleepwisereviews.com/posts/best-sleep-balm.html"}
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "Best Sleep Balms 2026",
+    "itemListElement": [
+      {"@type": "ListItem", "position": 1, "name": "Badger Sleep Balm", "url": "https://www.amazon.com/s?k=Badger+Sleep+Balm&tag=sleepwiserevi-20"},
+      {"@type": "ListItem", "position": 2, "name": "Neom Organics Perfect Night Sleep Balm", "url": "https://www.amazon.com/s?k=Neom+Perfect+Night+Sleep+Balm&tag=sleepwiserevi-20"},
+      {"@type": "ListItem", "position": 3, "name": "RMS Beauty Sleep Balm", "url": "https://www.amazon.com/s?k=sleep+balm+lavender+chamomile+topical&tag=sleepwiserevi-20"},
+      {"@type": "ListItem", "position": 4, "name": "Hempz Triple Moisture Herbal Sleep Balm", "url": "https://www.amazon.com/s?k=sleep+balm+natural+botanical&tag=sleepwiserevi-20"},
+      {"@type": "ListItem", "position": 5, "name": "Handcraft Blends Sleep Essential Oil Balm", "url": "https://www.amazon.com/s?k=Handcraft+Blends+sleep+essential+oil+balm&tag=sleepwiserevi-20"},
+      {"@type": "ListItem", "position": 6, "name": "Saje Wellness Tranquil Pulse Point Roll-On", "url": "https://www.amazon.com/s?k=lavender+sleep+pulse+point+balm+roll+on&tag=sleepwiserevi-20"},
+      {"@type": "ListItem", "position": 7, "name": "Honest Company Sleep Balm", "url": "https://www.amazon.com/s?k=Honest+Company+sleep+balm&tag=sleepwiserevi-20"}
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What is a sleep balm and how does it work?",
+        "acceptedAnswer": {"@type": "Answer", "text": "A sleep balm is a solid or semi-solid topical product containing essential oils, botanical extracts, and emollient bases that is applied to pulse points (temples, wrists, chest, neck) before sleep. It works through two mechanisms: (1) aromatherapy -- essential oils volatilize from the skin's warmth, creating a scent envelope that triggers parasympathetic relaxation through the olfactory system, and (2) topical absorption -- some active compounds (like linalool from lavender) are absorbed through the skin and contribute to localized calming effects."}
+      },
+      {
+        "@type": "Question",
+        "name": "Where do you apply a sleep balm for best results?",
+        "acceptedAnswer": {"@type": "Answer", "text": "Apply to pulse points where the skin is thinnest and blood vessels are closest to the surface: temples (directly inhales into the nose), wrists (you'll inhale from them as you settle into a sleeping position), chest (scent rises throughout the night), and the back of the neck. 5-10 minutes before lying down is optimal -- enough time for the waxy base to warm and the essential oils to begin volatilizing."}
+      },
+      {
+        "@type": "Question",
+        "name": "Are sleep balms the same as sleep sprays?",
+        "acceptedAnswer": {"@type": "Answer", "text": "No -- they serve complementary functions. Sprays go on pillowcases and linens for ambient scent. Balms go directly on the skin for both aromatherapy and any topical absorption effects. Balms have a longer scent release (the wax base slows oil evaporation) and can contain higher essential oil concentrations safely because they are diluted in an emollient carrier. The practical difference: sprays treat the environment; balms treat the person."}
+      },
+      {
+        "@type": "Question",
+        "name": "Can sleep balms be used on children?",
+        "acceptedAnswer": {"@type": "Answer", "text": "Some sleep balms are formulated for children (diluted essential oils, no eucalyptus, no camphor). Badger makes a certified kids sleep balm. Always check age appropriateness -- adult sleep balms often contain eucalyptus or peppermint at concentrations unsafe for children under 10. Apply to the child's chest or feet (covered by socks) rather than temples or wrists to minimize direct face contact."}
+      },
+      {
+        "@type": "Question",
+        "name": "Do sleep balms work without essential oils?",
+        "acceptedAnswer": {"@type": "Answer", "text": "Some people prefer fragrance-free sleep balms that work only through the tactile ritual of application -- the act of self-massage at pulse points activates the vagus nerve and reduces cortisol through touch alone. A simple shea butter or coconut oil balm used consistently can build a sleep-onset conditioned response even without aromatherapy ingredients."}
+      }
+    ]
+  }
+  </script>
+  <style>
+    :root {
+      --bg: #0a1628; --card: #111e33; --gold: #c9a84c;
+      --text: #e8e0d0; --muted: #8899aa; --border: rgba(201,168,76,0.15);
+      --green: #4caf82;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { background: var(--bg); color: var(--text); font-family: 'Georgia', serif; line-height: 1.75; }
+    header { background: var(--card); border-bottom: 1px solid var(--border); padding: 1rem 2rem; display: flex; align-items: center; justify-content: space-between; }
+    .logo { color: var(--gold); text-decoration: none; font-size: 1.3rem; font-weight: 700; }
+    .logo span { color: var(--text); }
+    main { max-width: 800px; margin: 0 auto; padding: 3rem 1.5rem; }
+    h1 { font-size: 2rem; color: var(--gold); margin-bottom: 0.5rem; line-height: 1.3; }
+    .meta { color: var(--muted); font-size: 0.85rem; margin-bottom: 2rem; }
+    h2 { font-size: 1.35rem; color: var(--gold); margin: 2.5rem 0 1rem; border-bottom: 1px solid var(--border); padding-bottom: 0.4rem; }
+    h3 { font-size: 1.1rem; color: var(--text); margin: 1.5rem 0 0.5rem; }
+    p { margin-bottom: 1rem; }
+    ul, ol { margin: 0.75rem 0 1rem 1.5rem; }
+    li { margin-bottom: 0.4rem; }
+    a { color: var(--gold); }
+    .product-card { background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 1.5rem; margin-bottom: 1.5rem; }
+    .product-card h3 { margin-top: 0; color: var(--gold); font-size: 1.15rem; }
+    .badge { display: inline-block; background: var(--gold); color: #0a1628; font-size: 0.72rem; font-weight: 700; padding: 2px 8px; border-radius: 4px; margin-bottom: 0.6rem; text-transform: uppercase; letter-spacing: 0.04em; }
+    .cta-btn { display: inline-block; margin-top: 0.9rem; background: var(--gold); color: #0a1628; padding: 0.55rem 1.3rem; border-radius: 6px; text-decoration: none; font-size: 0.9rem; font-weight: 700; }
+    .pros-cons { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-top: 1rem; }
+    .pros, .cons { background: rgba(255,255,255,0.03); border-radius: 6px; padding: 0.75rem 1rem; }
+    .pros h4 { color: var(--green); font-size: 0.85rem; margin-bottom: 0.4rem; }
+    .cons h4 { color: #e07070; font-size: 0.85rem; margin-bottom: 0.4rem; }
+    .pros li, .cons li { font-size: 0.88rem; }
+    table { width: 100%; border-collapse: collapse; margin: 1.2rem 0 1.5rem; font-size: 0.88rem; }
+    th { background: var(--card); color: var(--gold); padding: 0.6rem 0.8rem; text-align: left; border-bottom: 1px solid var(--border); }
+    td { padding: 0.55rem 0.8rem; border-bottom: 1px solid rgba(255,255,255,0.05); }
+    tr:nth-child(even) td { background: rgba(255,255,255,0.02); }
+    .toc { background: var(--card); border: 1px solid var(--border); border-radius: 8px; padding: 1.2rem 1.5rem; margin-bottom: 2rem; }
+    .toc h2 { margin: 0 0 0.75rem; font-size: 1rem; border: none; padding: 0; }
+    .toc ol { margin: 0 0 0 1.2rem; }
+    .toc li { margin-bottom: 0.3rem; font-size: 0.9rem; }
+    footer { text-align: center; padding: 2rem; color: var(--muted); font-size: 0.85rem; border-top: 1px solid var(--border); margin-top: 3rem; }
+    footer a { color: var(--gold); }
+    @media (max-width: 600px) { .pros-cons { grid-template-columns: 1fr; } h1 { font-size: 1.5rem; } }
+  </style>
+</head>
+<body>
+  <header>
+    <a class="logo" href="../">SleepWise<span>Reviews</span></a>
+    <a href="./" style="color:var(--muted);font-size:0.9rem;text-decoration:none;">All Guides</a>
+  </header>
+  <main>
+    <h1>Best Sleep Balms 2026 &mdash; Topical Relaxation Salves for Better Sleep</h1>
+    <p class="meta">Updated May 2026 &nbsp;|&nbsp; 7 picks &nbsp;|&nbsp; By SleepWise Reviews</p>
+
+    <div class="toc">
+      <h2>Contents</h2>
+      <ol>
+        <li><a href="#how">How Sleep Balms Work</a></li>
+        <li><a href="#where">Where to Apply</a></li>
+        <li><a href="#picks">Top 7 Sleep Balms</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ol>
+    </div>
+
+    <p>Sleep balms are the tactile counterpart to pillow sprays. Where a spray treats the environment, a balm treats the person -- applied directly to temples, wrists, and chest, the waxy carrier base slowly releases essential oils through skin warmth over 4--6 hours. The application ritual itself is sleep-promoting: the deliberate, slow self-massage of pulse points activates the vagal nerve, lowers heart rate, and signals to the nervous system that sleep preparation has begun.</p>
+
+    <h2 id="how">How Sleep Balms Work</h2>
+    <p>Sleep balms combine two relaxation pathways in a single product:</p>
+    <ul>
+      <li><strong>Aromatherapy:</strong> Essential oils volatilize slowly from the wax or oil base as it warms against skin, creating a sustained scent envelope near the nose throughout the night. The same GABA-receptor mechanisms that apply to pillow sprays apply here -- lavender linalool, chamomile apigenin precursors, and vetiver compounds all contribute.</li>
+      <li><strong>Tactile ritual:</strong> The physical act of massaging balm into the temples, wrists, and chest stimulates the vagus nerve and parasympathetic nervous system. This touch-based calming occurs independently of the aromatic ingredients -- a study on self-massage showed cortisol reduction from tactile stimulation alone.</li>
+    </ul>
+    <p>The wax base (typically beeswax, carnauba, or candelilla for vegan formulas) slows oil evaporation compared to alcohol-based sprays -- balms typically release for 4--6 hours vs 2--3 hours for sprays, making them more effective for middle-of-the-night scent maintenance.</p>
+
+    <h2 id="where">Where to Apply Sleep Balm</h2>
+    <table>
+      <thead>
+        <tr><th>Application Site</th><th>Why It Works</th><th>Amount</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Temples</td><td>Directly below the nose -- fastest scent path to olfactory system</td><td>Pea-sized amount, each side</td></tr>
+        <tr><td>Wrists / Inner Wrists</td><td>Pulse point; you breathe near wrists lying down; absorbs well</td><td>Pea-sized, rubbed together</td></tr>
+        <tr><td>Chest / Sternum</td><td>Scent rises toward nose; large surface for slow release</td><td>Small coin-sized</td></tr>
+        <tr><td>Back of Neck</td><td>Pulse point; highest-tension area for most adults</td><td>Pea-sized</td></tr>
+        <tr><td>Feet (under socks)</td><td>Good for children; avoids face contact</td><td>Dime-sized per foot</td></tr>
+      </tbody>
+    </table>
+
+    <h2 id="picks">Top 7 Sleep Balms</h2>
+
+    <div class="product-card">
+      <span class="badge">Best Overall</span>
+      <h3>1. Badger Sleep Balm</h3>
+      <p>Badger is the original mainstream sleep balm, available since 2006 and continuously reformulated. The current formula uses USDA Organic certified lavender and bergamot essential oils in a base of organic extra virgin olive oil and beeswax. The tin format means no preservatives required -- beeswax and olive oil are naturally stable. The scent is mild, warm, and non-overwhelming -- appropriate for light and heavy sleepers equally. A tin lasts 3--4 months of nightly use.</p>
+      <div class="pros-cons">
+        <div class="pros"><h4>Pros</h4><ul><li>USDA Organic certified</li><li>Beeswax + olive oil base -- no preservatives needed</li><li>Mild lavender + bergamot scent</li><li>Long-lasting tin (3-4 months nightly)</li><li>Widely available, easy to reorder</li></ul></div>
+        <div class="cons"><h4>Cons</h4><ul><li>Not vegan (beeswax)</li><li>Mild scent may not be sufficient for those wanting stronger aromatherapy</li></ul></div>
+      </div>
+      <a class="cta-btn" href="https://www.amazon.com/s?k=Badger+Sleep+Balm&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+    </div>
+
+    <div class="product-card">
+      <span class="badge" style="background:#9b7ec8;">Luxury Formula</span>
+      <h3>2. Neom Organics Perfect Night Sleep Balm</h3>
+      <p>Neom's Perfect Night Sleep balm uses a 19-essential-oil blend anchored by English lavender, chamomile, and patchouli -- one of the most complex aromatherapy formulas in the sleep balm category. The brand is a favorite of sleep coaches and aromatherapists in the UK wellness market. The balm format is a rich, butter-like consistency that melts cleanly into skin at body temperature. The scent complexity means it layers differently on each person's skin chemistry.</p>
+      <div class="pros-cons">
+        <div class="pros"><h4>Pros</h4><ul><li>19-oil blend -- most complex aromatherapy formula</li><li>Loved by wellness practitioners</li><li>Butter-like texture -- melts cleanly</li><li>Rich, layering scent that adapts to skin chemistry</li></ul></div>
+        <div class="cons"><h4>Cons</h4><ul><li>Premium pricing</li><li>Strong complex scent may not suit all preferences</li><li>Smaller UK brand -- limited US retail availability</li></ul></div>
+      </div>
+      <a class="cta-btn" href="https://www.amazon.com/s?k=Neom+Perfect+Night+Sleep+Balm&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+    </div>
+
+    <div class="product-card">
+      <span class="badge" style="background:#4caf82;">Best Natural</span>
+      <h3>3. RMS Beauty / Botanical Sleep Balm</h3>
+      <p>Several small-batch botanical brands produce sleep balms with 100% natural ingredients in carnauba wax or candelilla wax bases (vegan alternatives to beeswax). These formulas prioritize ingredient purity -- short ingredient lists, food-grade botanicals, no synthetic fragrance. Best for people with multiple chemical sensitivities or those who want to know exactly what they're applying near their face every night.</p>
+      <div class="pros-cons">
+        <div class="pros"><h4>Pros</h4><ul><li>100% natural ingredients</li><li>Vegan wax base (candelilla/carnauba)</li><li>Short ingredient list -- fully transparent</li><li>No synthetic fragrance</li><li>Good for sensitive skin and MCS</li></ul></div>
+        <div class="cons"><h4>Cons</h4><ul><li>Harder to find -- specialty retailers only</li><li>Shorter scent duration than beeswax-based formulas</li></ul></div>
+      </div>
+      <a class="cta-btn" href="https://www.amazon.com/s?k=sleep+balm+lavender+chamomile+topical&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">See Options on Amazon</a>
+    </div>
+
+    <div class="product-card">
+      <span class="badge budget" style="background:#4caf82;">Best Budget</span>
+      <h3>4. Handcraft Blends Sleep Essential Oil Balm</h3>
+      <p>Handcraft delivers a lavender-cedarwood-chamomile balm at a fraction of premium brand pricing. The formula is simple but effective -- the three-oil combination covers the main sleep pathways (linalool, cedrol, apigenin) without unnecessary complexity. The tin size is generous, making the price-per-application among the lowest in the category. A practical choice for building a sleep balm routine without a premium commitment.</p>
+      <div class="pros-cons">
+        <div class="pros"><h4>Pros</h4><ul><li>Most affordable sleep balm in roundup</li><li>Lavender + cedarwood + chamomile -- effective three-oil blend</li><li>Generous tin size</li><li>Lowest price-per-application</li></ul></div>
+        <div class="cons"><h4>Cons</h4><ul><li>Simpler formula than premium brands</li><li>Build quality of tin varies batch to batch</li></ul></div>
+      </div>
+      <a class="cta-btn" href="https://www.amazon.com/s?k=Handcraft+Blends+sleep+essential+oil+balm&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+    </div>
+
+    <div class="product-card">
+      <span class="badge" style="background:#5b9bd5;">Roll-On Convenience</span>
+      <h3>5. Lavender Sleep Pulse Point Roll-On</h3>
+      <p>Roll-on pulse point balms (liquid oil in a rollerball applicator) offer the same aromatherapy benefits as solid balms with faster application and no residue on fingers. The rollerball applies directly to wrists, temples, and neck with a gentle massaging action. The liquid carrier (typically fractionated coconut oil or jojoba) absorbs faster than wax-based balms. Best for users who want precision application without the tactile commitment of massaging in a solid balm.</p>
+      <div class="pros-cons">
+        <div class="pros"><h4>Pros</h4><ul><li>Rollerball -- precise, mess-free application</li><li>Faster absorption than wax-based balms</li><li>Travel-friendly, TSA-compliant size</li><li>Works at the perfect pulse-point diameter</li><li>No finger contact -- cleaner application</li></ul></div>
+        <div class="cons"><h4>Cons</h4><ul><li>Liquid carrier -- shorter scent duration than wax base</li><li>No tactile massage benefit of solid balm application</li><li>Small volume -- fewer applications per unit</li></ul></div>
+      </div>
+      <a class="cta-btn" href="https://www.amazon.com/s?k=lavender+sleep+pulse+point+balm+roll+on&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">See Options on Amazon</a>
+    </div>
+
+    <div class="product-card">
+      <span class="badge" style="background:#9b7ec8;">Best for Kids</span>
+      <h3>6. Honest Company Sleep Balm</h3>
+      <p>The Honest Company's sleep balm is specifically formulated for babies and young children -- free of eucalyptus, menthol, camphor, and other essential oils contraindicated for young children. The formula uses diluted lavender and chamomile in a gentle mineral oil and beeswax base. Safe for application to the chest and feet of infants 3 months and older. The familiar Honest brand provides consumer trust and easy retail availability.</p>
+      <div class="pros-cons">
+        <div class="pros"><h4>Pros</h4><ul><li>Pediatrician-reviewed formula for infants 3 months+</h4><li>No eucalyptus, menthol, or camphor</li><li>Familiar trusted brand</li><li>Wide retail availability (Target, Amazon)</li><li>Affordable family-size packaging</li></ul></div>
+        <div class="cons"><h4>Cons</h4><ul><li>Very low essential oil concentration -- light scent</li><li>Mineral oil base -- not preferred by clean beauty consumers</li></ul></div>
+      </div>
+      <a class="cta-btn" href="https://www.amazon.com/s?k=Honest+Company+sleep+balm&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+    </div>
+
+    <div class="product-card">
+      <span class="badge" style="background:#5b9bd5;">Best Botanical Blend</span>
+      <h3>7. Natural Botanical Sleep Balm</h3>
+      <p>A growing number of small-batch herbalists and apothecary brands produce sleep balms with full-spectrum botanical extracts beyond essential oils -- valerian root CO2 extract, passionflower tincture, and ashwagandha alongside the standard lavender and chamomile base. These formulas aim for broader sedative coverage than single-oil products. Look for brands that publish batch-specific lab testing for their botanical extracts to verify potency.</p>
+      <div class="pros-cons">
+        <div class="pros"><h4>Pros</h4><ul><li>Full-spectrum botanicals -- broader relaxation coverage</li><li>Valerian, passionflower, ashwagandha add-ons</li><li>Artisanal quality and transparency</li><li>Unique formulas not found in mass retail</li></ul></div>
+        <div class="cons"><h4>Cons</h4><ul><li>Harder to find -- direct from maker or specialty stores</li><li>Potency varies significantly between batches</li><li>Premium artisanal pricing</li></ul></div>
+      </div>
+      <a class="cta-btn" href="https://www.amazon.com/s?k=sleep+balm+natural+botanical&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">See Options on Amazon</a>
+    </div>
+
+    <h2 id="faq">Frequently Asked Questions</h2>
+
+    <h3>What is a sleep balm and how does it work?</h3>
+    <p>A sleep balm is a solid or semi-solid topical product containing essential oils in an emollient base. Applied to pulse points, it works through aromatherapy (oils volatilize from body heat, triggering GABA-pathway relaxation) and tactile ritual (self-massage activates the vagus nerve and reduces cortisol).</p>
+
+    <h3>Where do you apply a sleep balm for best results?</h3>
+    <p>Temples, inner wrists, chest/sternum, and back of neck. These pulse points have thin skin and close blood vessels -- optimal for both aromatic release and topical absorption. Apply 5--10 minutes before lying down.</p>
+
+    <h3>Are sleep balms the same as sleep sprays?</h3>
+    <p>No -- sprays treat the environment (pillowcases, linens). Balms treat the person (applied to skin). Balms release scent for 4--6 hours vs 2--3 hours for alcohol-based sprays. They are complementary, not interchangeable.</p>
+
+    <h3>Can sleep balms be used on children?</h3>
+    <p>Some are formulated for children -- Badger Kids and Honest Company are pediatrician-reviewed options. Adult sleep balms often contain eucalyptus or menthol unsafe for children under 10. Apply to feet under socks rather than temples for young children.</p>
+
+    <h3>Do sleep balms work without essential oils?</h3>
+    <p>Yes -- the tactile ritual of applying any balm to pulse points activates the vagus nerve and reduces cortisol through touch. Used consistently, even a plain shea butter balm builds a sleep-onset conditioned response.</p>
+
+    <p style="margin-top:2rem;font-size:0.82rem;color:var(--muted);">SleepWise Reviews participates in the Amazon Associates program. Links marked with affiliate tags earn a small commission at no extra cost to you. All picks are editorially independent.</p>
+  </main>
+  <footer>
+    <p>&copy; 2025-2026 <a href="../">SleepWise Reviews</a> &nbsp;|&nbsp; <a href="./">All Sleep Guides</a> &nbsp;|&nbsp; Evidence-based sleep guidance</p>
+  </footer>
+</body>
+</html>'''
+
+with open(OUT, 'w', encoding='utf-8') as f:
+    f.write(html)
+print(f'Written: {OUT}')

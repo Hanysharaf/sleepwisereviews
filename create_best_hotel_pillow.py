@@ -1,0 +1,392 @@
+"""Generate posts/best-hotel-pillow.html"""
+import os
+
+OUT = os.path.join(os.path.dirname(__file__), 'posts', 'best-hotel-pillow.html')
+
+HTML = r"""<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Best Hotel Pillows 2026 — Recreate That Luxury Sleep at Home | SleepWise Reviews</title>
+  <meta name="description" content="Discover the exact pillows used in 5-star hotels plus the best alternatives to buy. 7 top picks to recreate that perfect hotel sleep at home in 2026." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://sleepwisereviews.com/posts/best-hotel-pillow.html" />
+  <meta property="og:title" content="Best Hotel Pillows 2026 | SleepWise Reviews" />
+  <meta property="og:description" content="7 hotel-quality pillows you can buy today. Recreate that 5-star sleep feeling at home -- with the exact fill and loft hotels actually use." />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://sleepwisereviews.com/posts/best-hotel-pillow.html" />
+  <meta property="og:image" content="https://sleepwisereviews.com/images/og-default.png" />
+  <meta property="og:site_name" content="SleepWise Reviews" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Best Hotel Pillows 2026 — Recreate Luxury Sleep at Home" />
+  <meta name="twitter:description" content="The pillows 5-star hotels actually use -- and the best alternatives available on Amazon." />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://sleepwisereviews.com/"},
+      {"@type": "ListItem", "position": 2, "name": "All Guides", "item": "https://sleepwisereviews.com/posts/"},
+      {"@type": "ListItem", "position": 3, "name": "Best Hotel Pillows", "item": "https://sleepwisereviews.com/posts/best-hotel-pillow.html"}
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Best Hotel Pillows 2026",
+    "description": "The 7 best hotel-quality pillows to recreate luxury sleep at home in 2026.",
+    "author": {"@type": "Organization", "name": "SleepWise Reviews"},
+    "publisher": {"@type": "Organization", "name": "SleepWise Reviews", "url": "https://sleepwisereviews.com/"},
+    "url": "https://sleepwisereviews.com/posts/best-hotel-pillow.html",
+    "datePublished": "2026-05-25",
+    "dateModified": "2026-05-25"
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "Best Hotel Pillows 2026",
+    "numberOfItems": 7,
+    "itemListElement": [
+      {"@type": "ListItem", "position": 1, "name": "Pacific Coast Hotel Touch of Down Pillow", "url": "https://www.amazon.com/s?k=Pacific+Coast+Hotel+Touch+of+Down+Pillow&tag=sleepwiserevi-20"},
+      {"@type": "ListItem", "position": 2, "name": "Marriott Hotel Pillow by Standard Textile", "url": "https://www.amazon.com/s?k=Marriott+hotel+pillow+Standard+Textile&tag=sleepwiserevi-20"},
+      {"@type": "ListItem", "position": 3, "name": "Parachute Down Alternative Pillow", "url": "https://www.amazon.com/s?k=Parachute+Down+Alternative+Pillow&tag=sleepwiserevi-20"},
+      {"@type": "ListItem", "position": 4, "name": "Beckham Hotel Collection Bed Pillows", "url": "https://www.amazon.com/s?k=Beckham+Hotel+Collection+Bed+Pillows&tag=sleepwiserevi-20"},
+      {"@type": "ListItem", "position": 5, "name": "Westin Heavenly Pillow", "url": "https://www.amazon.com/s?k=Westin+Heavenly+Pillow&tag=sleepwiserevi-20"},
+      {"@type": "ListItem", "position": 6, "name": "Hilton Hotel Pillow by Pacific Coast", "url": "https://www.amazon.com/s?k=Hilton+hotel+pillow+Pacific+Coast&tag=sleepwiserevi-20"},
+      {"@type": "ListItem", "position": 7, "name": "Coop Home Goods Eden Pillow", "url": "https://www.amazon.com/s?k=Coop+Home+Goods+Eden+Pillow&tag=sleepwiserevi-20"}
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What pillows do 5-star hotels use?",
+        "acceptedAnswer": {"@type": "Answer", "text": "Most 5-star hotels use white goose down or premium down-alternative pillows with a 300-600 thread count percale or sateen cotton shell. Common hotel pillow suppliers include Pacific Coast Feather Company (used by Hilton, Hyatt, Marriott) and Standard Textile. Hotels typically layer two pillows -- one firm euro and one soft standard -- to let guests customize their preference."}
+      },
+      {
+        "@type": "Question",
+        "name": "Why do hotel pillows feel so much better than mine?",
+        "acceptedAnswer": {"@type": "Answer", "text": "Hotel pillows typically feel better for three reasons: (1) they are freshly laundered in industrial machines that fully re-loft down fill, (2) hotels use higher fill-power down (600-800 FP) than most retail pillows, and (3) hotels provide multiple pillows of different firmness so you naturally position them correctly. Replicating this at home means buying good fill-power down, washing it quarterly, and layering two firmness levels."}
+      },
+      {
+        "@type": "Question",
+        "name": "Can I buy the exact pillow from my favorite hotel?",
+        "acceptedAnswer": {"@type": "Answer", "text": "Yes -- many luxury hotel chains sell their pillows directly. Westin sells the Heavenly Pillow through their online store. Marriott sells their Standard Textile pillows. Pacific Coast supplies Hilton and sells the same pillows retail. Search '[hotel name] shop' or '[hotel name] pillow' and you will usually find the official store with the identical product."}
+      },
+      {
+        "@type": "Question",
+        "name": "How often should you replace your pillow to keep that hotel feeling?",
+        "acceptedAnswer": {"@type": "Answer", "text": "Down pillows should be replaced every 2-3 years with regular washing. Down alternative lasts 1-2 years before losing loft. A simple test: fold your pillow in half -- if it doesn't spring back, it's dead. Hotels replace pillows more frequently (every 1-2 years) because guest volume accelerates wear, which is partly why they feel so fresh."}
+      },
+      {
+        "@type": "Question",
+        "name": "What thread count pillow cover do hotels use?",
+        "acceptedAnswer": {"@type": "Answer", "text": "Most 5-star hotels use 300-400 thread count 100% cotton percale or sateen shells. Percale (weave pattern) is crisp and cool, which is why hotel pillows often have that starched-clean feel. Very high thread counts (800+) are a marketing gimmick -- at that level, the cotton fibers are folded rather than single-ply, and durability decreases."}
+      }
+    ]
+  }
+  </script>
+  <style>
+    :root {
+      --bg: #0a1628; --card: #111e33; --gold: #c9a84c;
+      --text: #e8e0d0; --muted: #8899aa; --border: rgba(201,168,76,0.15);
+      --green: #4caf7d;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { background: var(--bg); color: var(--text); font-family: 'Georgia', serif; line-height: 1.7; }
+    header { background: var(--card); border-bottom: 1px solid var(--border); padding: 1rem 2rem; display: flex; align-items: center; justify-content: space-between; }
+    .logo { color: var(--gold); text-decoration: none; font-size: 1.3rem; font-weight: 700; }
+    .logo span { color: var(--text); }
+    nav a { color: var(--muted); text-decoration: none; margin-left: 1.5rem; font-size: 0.9rem; }
+    nav a:hover { color: var(--gold); }
+    main { max-width: 860px; margin: 0 auto; padding: 3rem 1.5rem; }
+    .breadcrumb { font-size: 0.8rem; color: var(--muted); margin-bottom: 2rem; }
+    .breadcrumb a { color: var(--muted); text-decoration: none; }
+    .breadcrumb a:hover { color: var(--gold); }
+    h1 { font-size: 2.1rem; color: var(--gold); line-height: 1.3; margin-bottom: 1rem; }
+    .subtitle { color: var(--muted); margin-bottom: 2rem; font-size: 1.05rem; border-left: 3px solid var(--gold); padding-left: 1rem; }
+    h2 { font-size: 1.4rem; color: var(--gold); margin: 2.5rem 0 1rem; }
+    h3 { font-size: 1.15rem; color: var(--text); margin: 1.5rem 0 0.5rem; }
+    p { margin-bottom: 1rem; }
+    .product-card { background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 1.5rem; margin-bottom: 1.5rem; }
+    .product-card .rank { font-size: 0.75rem; color: var(--gold); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 0.4rem; }
+    .product-card h3 { margin-top: 0; font-size: 1.2rem; color: var(--gold); }
+    .product-card .price { color: var(--green); font-weight: 700; margin-bottom: 0.5rem; font-family: sans-serif; }
+    .product-card .pros-cons { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin: 1rem 0; font-size: 0.9rem; }
+    .product-card .pros li { color: #7ec8a0; list-style: none; padding-left: 1.2rem; position: relative; margin-bottom: 0.3rem; }
+    .product-card .pros li::before { content: '+'; position: absolute; left: 0; color: var(--green); font-weight: 700; }
+    .product-card .cons li { color: #e07070; list-style: none; padding-left: 1.2rem; position: relative; margin-bottom: 0.3rem; }
+    .product-card .cons li::before { content: '-'; position: absolute; left: 0; color: #e07070; font-weight: 700; }
+    .btn { display: inline-block; background: var(--gold); color: #0a1628; padding: 0.6rem 1.4rem; border-radius: 6px; text-decoration: none; font-weight: 700; font-size: 0.9rem; font-family: sans-serif; margin-top: 0.5rem; }
+    .btn:hover { opacity: 0.88; }
+    .verdict-tag { display: inline-block; background: rgba(201,168,76,0.15); color: var(--gold); font-size: 0.75rem; padding: 0.2rem 0.6rem; border-radius: 4px; margin-bottom: 0.5rem; font-family: sans-serif; }
+    table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; font-size: 0.88rem; }
+    th { background: var(--card); color: var(--gold); padding: 0.7rem 0.8rem; text-align: left; border-bottom: 1px solid var(--border); }
+    td { padding: 0.65rem 0.8rem; border-bottom: 1px solid rgba(255,255,255,0.05); }
+    tr:nth-child(even) td { background: rgba(255,255,255,0.02); }
+    .insight-box { background: var(--card); border-left: 4px solid var(--gold); padding: 1.2rem 1.5rem; margin: 2rem 0; border-radius: 0 8px 8px 0; }
+    .insight-box h3 { margin-top: 0; color: var(--gold); font-size: 1rem; }
+    .faq-item { margin-bottom: 1.5rem; border-bottom: 1px solid var(--border); padding-bottom: 1.5rem; }
+    .faq-item:last-child { border-bottom: none; }
+    .faq-item h3 { color: var(--gold); margin-bottom: 0.5rem; font-size: 1rem; }
+    .related-box { background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 1.5rem; margin: 3rem 0 1rem; }
+    .related-box h3 { color: var(--gold); margin-bottom: 1rem; font-size: 1rem; }
+    .related-box ul { list-style: none; }
+    .related-box ul li { margin-bottom: 0.5rem; }
+    .related-box ul li a { color: var(--text); text-decoration: none; font-size: 0.9rem; }
+    .related-box ul li a:hover { color: var(--gold); }
+    footer { text-align: center; padding: 2rem; color: var(--muted); font-size: 0.82rem; border-top: 1px solid var(--border); margin-top: 3rem; }
+    footer a { color: var(--gold); }
+    .disclaimer { font-size: 0.8rem; color: var(--muted); font-style: italic; margin-bottom: 2rem; }
+    @media (max-width: 600px) { .pros-cons { grid-template-columns: 1fr; } h1 { font-size: 1.6rem; } }
+  </style>
+</head>
+<body>
+  <header>
+    <a class="logo" href="../">SleepWise<span>Reviews</span></a>
+    <nav>
+      <a href="../">Home</a>
+      <a href="index.html">All Guides</a>
+    </nav>
+  </header>
+  <main>
+    <div class="breadcrumb">
+      <a href="../">Home</a> &rsaquo; <a href="index.html">All Guides</a> &rsaquo; Best Hotel Pillows
+    </div>
+
+    <h1>Best Hotel Pillows 2026 &mdash; Recreate That Luxury Sleep at Home</h1>
+    <p class="subtitle">You're not imagining it &mdash; hotel pillows genuinely are better. Here's what 5-star properties actually use, and the 7 best versions you can buy right now.</p>
+    <p class="disclaimer">We research independently. Some links are affiliate links &mdash; we earn a small commission at no cost to you.</p>
+
+    <div class="insight-box">
+      <h3>What Makes Hotel Pillows Feel Different</h3>
+      <p>Three factors separate hotel pillows from your home pillow: <strong>higher fill power</strong> (600-800 FP down vs. the 400-500 FP in most retail pillows), <strong>industrial laundering</strong> (commercial washing machines fully re-loft down that household machines flatten), and <strong>layering</strong> (hotels provide 4-6 pillows per bed &mdash; mixing firm and soft &mdash; so guests instinctively find the right support without thinking about it).</p>
+    </div>
+
+    <h2>What Hotels Actually Use</h2>
+    <table>
+      <tr><th>Hotel Brand</th><th>Pillow Supplier</th><th>Fill Type</th><th>Fill Power</th></tr>
+      <tr><td>Hilton</td><td>Pacific Coast Feather Co.</td><td>White goose down</td><td>600+ FP</td></tr>
+      <tr><td>Marriott</td><td>Standard Textile</td><td>Down alternative (microfiber)</td><td>N/A</td></tr>
+      <tr><td>Westin</td><td>Pacific Coast Feather Co.</td><td>White goose down</td><td>650+ FP</td></tr>
+      <tr><td>Four Seasons</td><td>Proprietary blend</td><td>Goose down + feather</td><td>550-700 FP</td></tr>
+      <tr><td>Hyatt</td><td>Pacific Coast Feather Co.</td><td>White goose down</td><td>600+ FP</td></tr>
+      <tr><td>IHG / Holiday Inn</td><td>American Textile</td><td>Down alternative</td><td>N/A</td></tr>
+    </table>
+
+    <h2>Fill Power Guide</h2>
+    <table>
+      <tr><th>Fill Power</th><th>Quality</th><th>Feel</th><th>Price Range</th></tr>
+      <tr><td>300&ndash;499 FP</td><td>Budget</td><td>Dense, heavy, hot</td><td>$15&ndash;$40</td></tr>
+      <tr><td>500&ndash;599 FP</td><td>Mid-grade</td><td>Decent loft, some warmth</td><td>$40&ndash;$80</td></tr>
+      <tr><td>600&ndash;699 FP</td><td>Hotel-grade</td><td>Soft, lofty, cloud-like</td><td>$80&ndash;$150</td></tr>
+      <tr><td>700&ndash;799 FP</td><td>Premium</td><td>Exceptionally lofty, ultra-light</td><td>$150&ndash;$300</td></tr>
+      <tr><td>800+ FP</td><td>Luxury / Expedition</td><td>Maximum loft &amp; warmth</td><td>$300+</td></tr>
+    </table>
+
+    <h2>The 7 Best Hotel-Quality Pillows</h2>
+
+    <div class="product-card">
+      <div class="rank">#1 &mdash; Best Overall Hotel Pillow</div>
+      <div class="verdict-tag">Editor's Pick</div>
+      <h3>Pacific Coast Touch of Down Pillow</h3>
+      <div class="price">~$89&ndash;$119 (Queen) | Available in Standard / Queen / King</div>
+      <p>This is the identical Pacific Coast pillow supplied to Hilton, Hyatt, and Westin. The outer shell is filled with 550 FP white goose down &mdash; soft, lofty, and breathable &mdash; while the inner baffle contains a mix of down and feather for structure. The "touch of down" construction gives you hotel softness without collapsing under head weight. Available in soft, medium, and firm.</p>
+      <div class="pros-cons">
+        <div class="pros"><ul>
+          <li>Same supplier as Hilton / Westin</li>
+          <li>550 FP white goose down</li>
+          <li>Multiple firmness options</li>
+          <li>Machine washable</li>
+        </ul></div>
+        <div class="cons"><ul>
+          <li>Not for down allergy sufferers</li>
+          <li>Needs professional cleaning for best results</li>
+        </ul></div>
+      </div>
+      <a class="btn" href="https://www.amazon.com/s?k=Pacific+Coast+Hotel+Touch+of+Down+Pillow&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+    </div>
+
+    <div class="product-card">
+      <div class="rank">#2 &mdash; Best Marriott-Style Pillow</div>
+      <h3>Standard Textile Marriott Hotel Pillow</h3>
+      <div class="price">~$49&ndash;$79 (Queen) | Standard / Queen</div>
+      <p>Standard Textile is the official supplier for Marriott, Sheraton, and Westin's down-alternative pillow lines. This is a microfiber fill pillow engineered specifically to feel like down &mdash; no animal products, hypoallergenic, machine washable. The cotton percale shell has that crisp, hotel-fresh feel. If you've stayed at a Marriott and loved the pillow, this is likely the one.</p>
+      <div class="pros-cons">
+        <div class="pros"><ul>
+          <li>Official Marriott supplier</li>
+          <li>Hypoallergenic microfiber fill</li>
+          <li>Crisp percale cotton shell</li>
+          <li>Machine washable &mdash; easy care</li>
+        </ul></div>
+        <div class="cons"><ul>
+          <li>Less lofty than real down</li>
+          <li>Flattens faster (1-2 years)</li>
+        </ul></div>
+      </div>
+      <a class="btn" href="https://www.amazon.com/s?k=Marriott+hotel+pillow+Standard+Textile&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+    </div>
+
+    <div class="product-card">
+      <div class="rank">#3 &mdash; Best Luxury Budget</div>
+      <h3>Beckham Hotel Collection Bed Pillows</h3>
+      <div class="price">~$29&ndash;$39 (Set of 2) | Standard / Queen / King</div>
+      <p>One of the top-selling pillows on Amazon for a reason: Beckham delivers genuine hotel-feel quality at a fraction of premium pricing. The gel-fiber fill is engineered to mimic down without animal products. The 250 thread count cotton-poly shell is smooth and hotel-cool to the touch. For budget shoppers who want the hotel experience without the hotel price, this is the entry point that actually delivers.</p>
+      <div class="pros-cons">
+        <div class="pros"><ul>
+          <li>Outstanding value &mdash; 2-pack</li>
+          <li>Gel fiber mimics down feel</li>
+          <li>Hypoallergenic</li>
+          <li>Machine washable</li>
+        </ul></div>
+        <div class="cons"><ul>
+          <li>Shorter lifespan than premium down</li>
+          <li>Less breathable than pure cotton</li>
+        </ul></div>
+      </div>
+      <a class="btn" href="https://www.amazon.com/s?k=Beckham+Hotel+Collection+Bed+Pillows&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+    </div>
+
+    <div class="product-card">
+      <div class="rank">#4 &mdash; Best Westin Experience</div>
+      <h3>Westin Heavenly Pillow</h3>
+      <div class="price">~$99&ndash;$139 (Standard)</div>
+      <p>Westin sells the exact Heavenly Pillow from their rooms through their online shop. Same 600 FP white goose down, same cotton percale shell, same baffle-box construction that prevents fill from clumping. If you have a specific Westin bed experience you want to recreate at home, this is the only pillow that is genuinely identical &mdash; not "inspired by" or "similar to" &mdash; the real product.</p>
+      <div class="pros-cons">
+        <div class="pros"><ul>
+          <li>Identical to the hotel room product</li>
+          <li>600 FP white goose down</li>
+          <li>Baffle-box construction</li>
+          <li>Premium cotton percale shell</li>
+        </ul></div>
+        <div class="cons"><ul>
+          <li>Premium price</li>
+          <li>Not for down allergy sufferers</li>
+        </ul></div>
+      </div>
+      <a class="btn" href="https://www.amazon.com/s?k=Westin+Heavenly+Pillow&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+    </div>
+
+    <div class="product-card">
+      <div class="rank">#5 &mdash; Best Down Alternative Hotel Pillow</div>
+      <h3>Parachute Down Alternative Pillow</h3>
+      <div class="price">~$79 (Standard/Queen) | Soft / Medium / Firm</div>
+      <p>Parachute's down alternative is consistently rated the best non-down hotel experience available to the public. The microfiber fill uses a cluster-fiber construction that more closely mimics natural down clusters than flat sheet fill. The 300 thread count percale shell is OEKO-TEX certified. Available in three loft options, letting you dial in the support level without any feathers or down concerns.</p>
+      <div class="pros-cons">
+        <div class="pros"><ul>
+          <li>Best hotel feel without down</li>
+          <li>Cluster-fiber fill (most realistic)</li>
+          <li>3 loft options</li>
+          <li>OEKO-TEX certified</li>
+        </ul></div>
+        <div class="cons"><ul>
+          <li>Not as lofty as 600+ FP down</li>
+          <li>Premium price for a synthetic</li>
+        </ul></div>
+      </div>
+      <a class="btn" href="https://www.amazon.com/s?k=Parachute+Down+Alternative+Pillow&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+    </div>
+
+    <div class="product-card">
+      <div class="rank">#6 &mdash; Best Adjustable Loft</div>
+      <h3>Coop Home Goods Eden Pillow</h3>
+      <div class="price">~$109 (Queen)</div>
+      <p>For people who don't know their ideal loft yet, the Eden's adjustable shredded memory foam + microfiber fill is a practical solution. You add or remove fill through the zipper until you find the exact height that feels like your best hotel night. It's not the classic cloud-down experience, but for back and stomach sleepers who need precise loft control, it recreates the "perfectly dialed in" feeling that hotels achieve through multiple pillow layering.</p>
+      <div class="pros-cons">
+        <div class="pros"><ul>
+          <li>Adjustable fill &mdash; find your perfect loft</li>
+          <li>Washable (cover + fill)</li>
+          <li>CertiPUR + GREENGUARD certified</li>
+          <li>Good for back / stomach sleepers</li>
+        </ul></div>
+        <div class="cons"><ul>
+          <li>Not the traditional down-cloud feel</li>
+          <li>Heavier than down pillows</li>
+        </ul></div>
+      </div>
+      <a class="btn" href="https://www.amazon.com/s?k=Coop+Home+Goods+Eden+Pillow&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+    </div>
+
+    <div class="product-card">
+      <div class="rank">#7 &mdash; Best Premium Down (Hilton Experience)</div>
+      <h3>Hilton Hotel Pillow by Pacific Coast</h3>
+      <div class="price">~$79&ndash;$109 (Queen) | Soft / Firm</div>
+      <p>The Hilton-branded Pacific Coast pillow is the same construction as the Touch of Down but with the Hilton label and quality assurance standards. 550 FP white goose down with a hypo-allergenic (but not allergy-free) cotton shell. Available directly through Hilton's online hotel store or via Amazon marketplace. Soft and firm versions let you stack one of each for the layered hotel experience.</p>
+      <div class="pros-cons">
+        <div class="pros"><ul>
+          <li>Official Hilton hotel supplier</li>
+          <li>550 FP goose down</li>
+          <li>Stackable &mdash; buy one soft + one firm</li>
+          <li>Machine washable on delicate</li>
+        </ul></div>
+        <div class="cons"><ul>
+          <li>Not allergy-safe (real down)</li>
+          <li>Industrial washing needed for full re-loft</li>
+        </ul></div>
+      </div>
+      <a class="btn" href="https://www.amazon.com/s?k=Hilton+hotel+pillow+Pacific+Coast&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+    </div>
+
+    <h2>How to Recreate the Full Hotel Bed Experience</h2>
+    <p>The pillow is only part of the equation. Hotels combine multiple elements:</p>
+    <table>
+      <tr><th>Element</th><th>Hotel Standard</th><th>Home Equivalent</th></tr>
+      <tr><td>Pillows</td><td>4&ndash;6 per king bed (mixed loft)</td><td>2 sleeping + 2 support pillows</td></tr>
+      <tr><td>Pillowcase</td><td>300&ndash;400 TC percale cotton</td><td>Any quality percale cotton case</td></tr>
+      <tr><td>Laundering</td><td>Industrial hot-wash + tumble dry</td><td>Hot wash + dry on high + tennis balls</td></tr>
+      <tr><td>Replacement</td><td>Every 1&ndash;2 years</td><td>Every 2&ndash;3 years (home use)</td></tr>
+      <tr><td>Duvet</td><td>White baffle-box down comforter</td><td>Hotel Collection duvet insert</td></tr>
+    </table>
+    <p><strong>The tennis ball trick:</strong> Hotel laundries use commercial dryers that maintain 140&deg;F for 45+ minutes to fully re-loft down. At home, throw 2-3 clean tennis balls in the dryer on medium-high heat with your pillow for 30-40 minutes. It replicates the mechanical agitation that breaks up clumps and restores loft.</p>
+
+    <h2>Frequently Asked Questions</h2>
+    <div class="faq-item">
+      <h3>What pillows do 5-star hotels use?</h3>
+      <p>Most 5-star hotels use white goose down or premium down-alternative pillows with 300-600 thread count percale or sateen cotton shells. Common hotel pillow suppliers include Pacific Coast Feather Company (Hilton, Hyatt, Marriott) and Standard Textile. Hotels typically layer two pillows &mdash; one firm euro and one soft standard &mdash; to let guests customize their preference.</p>
+    </div>
+    <div class="faq-item">
+      <h3>Why do hotel pillows feel so much better than mine?</h3>
+      <p>Three factors: higher fill power (600-800 FP down vs. 400-500 FP retail), industrial laundering (fully re-lofts compressed down), and layering (hotels provide 4-6 pillows so you instinctively find the right support). Replicate this at home by buying higher fill-power down, washing quarterly with tennis balls, and layering two firmness levels.</p>
+    </div>
+    <div class="faq-item">
+      <h3>Can I buy the exact pillow from my favorite hotel?</h3>
+      <p>Yes &mdash; many luxury hotel chains sell their pillows directly. Westin sells the Heavenly Pillow through their online store. Marriott sells their Standard Textile pillows. Pacific Coast supplies Hilton and sells the same pillows retail. Search '[hotel name] shop' to find the official store.</p>
+    </div>
+    <div class="faq-item">
+      <h3>How often should you replace your pillow?</h3>
+      <p>Down pillows: every 2-3 years with regular washing. Down alternative: every 1-2 years before losing loft. Simple test: fold your pillow in half &mdash; if it doesn't spring back, it's dead. Hotels replace pillows more frequently (every 1-2 years) because guest volume accelerates wear.</p>
+    </div>
+    <div class="faq-item">
+      <h3>What thread count do hotel pillowcases use?</h3>
+      <p>Most 5-star hotels use 300-400 TC 100% cotton percale or sateen shells. Percale is crisp and cool &mdash; which is why hotel pillows have that starched-clean feel. Very high thread counts (800+) are a marketing gimmick &mdash; at that level, cotton fibers are folded rather than single-ply, and durability decreases.</p>
+    </div>
+
+    <div class="related-box">
+      <h3>Related Guides</h3>
+      <ul>
+        <li><a href="best-pillow-side-sleepers.html">Best Pillows for Side Sleepers &rarr;</a></li>
+        <li><a href="best-pillow-back-sleepers.html">Best Pillows for Back Sleepers &rarr;</a></li>
+        <li><a href="best-pillow-neck-pain.html">Best Pillows for Neck Pain &rarr;</a></li>
+        <li><a href="best-cooling-sheets.html">Best Cooling Sheets &rarr;</a></li>
+        <li><a href="best-duvet-insert.html">Best Duvet Inserts &rarr;</a></li>
+      </ul>
+    </div>
+  </main>
+  <footer>
+    <p>&copy; 2025&ndash;2026 <a href="../">SleepWise Reviews</a> &middot; Evidence-based sleep guidance</p>
+  </footer>
+</body>
+</html>"""
+
+with open(OUT, 'w', encoding='utf-8') as f:
+    f.write(HTML)
+print(f'Written: {OUT}')

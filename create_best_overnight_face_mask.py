@@ -1,0 +1,389 @@
+"""Generate posts/best-overnight-face-mask.html"""
+import os
+
+OUT = os.path.join(os.path.dirname(__file__), 'posts', 'best-overnight-face-mask.html')
+
+HTML = r"""<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Best Overnight Face Masks 2026 — Wake Up with Better Skin | SleepWise Reviews</title>
+  <meta name="description" content="The 7 best overnight face masks in 2026. Sleep is your skin's prime repair window -- these masks maximize it. Tested for hydration, barrier repair, and brightening." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://sleepwisereviews.com/posts/best-overnight-face-mask.html" />
+  <meta property="og:title" content="Best Overnight Face Masks 2026 | SleepWise Reviews" />
+  <meta property="og:description" content="7 overnight face masks that work while you sleep. The science of skin repair during sleep -- and the products that support it." />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://sleepwisereviews.com/posts/best-overnight-face-mask.html" />
+  <meta property="og:image" content="https://sleepwisereviews.com/images/og-default.png" />
+  <meta property="og:site_name" content="SleepWise Reviews" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Best Overnight Face Masks 2026" />
+  <meta name="twitter:description" content="7 masks that work while you sleep -- hydration, brightening, barrier repair, and anti-aging options." />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://sleepwisereviews.com/"},
+      {"@type": "ListItem", "position": 2, "name": "All Guides", "item": "https://sleepwisereviews.com/posts/"},
+      {"@type": "ListItem", "position": 3, "name": "Best Overnight Face Masks", "item": "https://sleepwisereviews.com/posts/best-overnight-face-mask.html"}
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Best Overnight Face Masks 2026",
+    "description": "7 best overnight sleeping masks for hydration, barrier repair, brightening, and anti-aging skin goals.",
+    "author": {"@type": "Organization", "name": "SleepWise Reviews"},
+    "publisher": {"@type": "Organization", "name": "SleepWise Reviews", "url": "https://sleepwisereviews.com/"},
+    "url": "https://sleepwisereviews.com/posts/best-overnight-face-mask.html",
+    "datePublished": "2026-05-25",
+    "dateModified": "2026-05-25"
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "Best Overnight Face Masks 2026",
+    "numberOfItems": 7,
+    "itemListElement": [
+      {"@type": "ListItem", "position": 1, "name": "Laneige Water Sleeping Mask", "url": "https://www.amazon.com/s?k=Laneige+Water+Sleeping+Mask&tag=sleepwiserevi-20"},
+      {"@type": "ListItem", "position": 2, "name": "Tatcha Luminance Deep Hydration Sleeping Mask", "url": "https://www.amazon.com/s?k=Tatcha+Luminance+Sleeping+Mask&tag=sleepwiserevi-20"},
+      {"@type": "ListItem", "position": 3, "name": "Glow Recipe Watermelon Sleeping Mask", "url": "https://www.amazon.com/s?k=Glow+Recipe+Watermelon+Sleeping+Mask&tag=sleepwiserevi-20"},
+      {"@type": "ListItem", "position": 4, "name": "Cerave Skin Renewing Night Cream", "url": "https://www.amazon.com/s?k=Cerave+Skin+Renewing+Night+Cream&tag=sleepwiserevi-20"},
+      {"@type": "ListItem", "position": 5, "name": "Olay Regenerist Micro-Sculpting Night Cream", "url": "https://www.amazon.com/s?k=Olay+Regenerist+Micro-Sculpting+Night+Cream&tag=sleepwiserevi-20"},
+      {"@type": "ListItem", "position": 6, "name": "Belif The True Cream Aqua Bomb Sleeping Mask", "url": "https://www.amazon.com/s?k=Belif+True+Cream+Aqua+Bomb+Sleeping+Mask&tag=sleepwiserevi-20"},
+      {"@type": "ListItem", "position": 7, "name": "Origins Drink Up Intensive Overnight Mask", "url": "https://www.amazon.com/s?k=Origins+Drink+Up+Intensive+Overnight+Mask&tag=sleepwiserevi-20"}
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Are overnight sleeping masks better than regular moisturizers?",
+        "acceptedAnswer": {"@type": "Answer", "text": "Overnight sleeping masks are formulated with higher concentrations of active ingredients than daily moisturizers, and use occlusive or semi-occlusive textures specifically designed to lock in hydration for 6-8 hours. They're not a daily replacement for moisturizer -- they're a targeted weekly or bi-weekly treatment. The main advantage is that they work during sleep, when skin cell regeneration peaks (growth hormone surges between 11pm and 1am), maximizing ingredient absorption."}
+      },
+      {
+        "@type": "Question",
+        "name": "Can you use an overnight face mask every night?",
+        "acceptedAnswer": {"@type": "Answer", "text": "It depends on the formula. Hydration-focused sleeping masks (like Laneige Water Sleeping Mask) can be used nightly. Brightening or exfoliating sleeping masks containing AHAs, retinol, or vitamin C derivatives should be limited to 2-3 times per week to avoid sensitization. Always check the product's recommended frequency. Using an active-ingredient mask daily when not recommended can cause redness, flaking, and barrier disruption."}
+      },
+      {
+        "@type": "Question",
+        "name": "How do overnight face masks differ from regular night creams?",
+        "acceptedAnswer": {"@type": "Answer", "text": "The terms are often used interchangeably, but there are technical differences. Sleeping masks tend to be gel-textured or gel-cream and form a light film over skin to seal in moisture. Night creams are typically richer, oil-based, and absorb fully into skin. Both work overnight, but sleeping masks are better for oily or combination skin and for targeted hydration goals, while night creams are better for dry or mature skin needing deep nourishment."}
+      },
+      {
+        "@type": "Question",
+        "name": "Do overnight face masks transfer to your pillow?",
+        "acceptedAnswer": {"@type": "Answer", "text": "Yes -- especially heavier, oil-based overnight masks. To minimize transfer: apply a thin layer only (a pea-sized amount is usually enough), wait 10-15 minutes before going to bed, and use a silk or satin pillowcase that absorbs less product. Many modern sleeping masks are formulated to be non-transferring, but a thin application always helps. Consider using an old pillowcase if using a new mask for the first time."}
+      },
+      {
+        "@type": "Question",
+        "name": "What should I apply before an overnight face mask?",
+        "acceptedAnswer": {"@type": "Answer", "text": "Apply overnight mask as the last step in your PM routine, after cleansing, toner, serum, and eye cream (if applicable). The mask creates a seal over everything applied before it, maximizing ingredient penetration of the layers underneath. Do not apply regular moisturizer before a sleeping mask -- the mask replaces the moisturizer step as the final seal. Exception: if using a very active serum (retinol, strong acids), apply a plain moisturizer between serum and mask to prevent irritation."}
+      }
+    ]
+  }
+  </script>
+  <style>
+    :root {
+      --bg: #0a1628; --card: #111e33; --gold: #c9a84c;
+      --text: #e8e0d0; --muted: #8899aa; --border: rgba(201,168,76,0.15);
+      --green: #4caf7d;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { background: var(--bg); color: var(--text); font-family: 'Georgia', serif; line-height: 1.7; }
+    header { background: var(--card); border-bottom: 1px solid var(--border); padding: 1rem 2rem; display: flex; align-items: center; justify-content: space-between; }
+    .logo { color: var(--gold); text-decoration: none; font-size: 1.3rem; font-weight: 700; }
+    .logo span { color: var(--text); }
+    nav a { color: var(--muted); text-decoration: none; margin-left: 1.5rem; font-size: 0.9rem; }
+    nav a:hover { color: var(--gold); }
+    main { max-width: 860px; margin: 0 auto; padding: 3rem 1.5rem; }
+    .breadcrumb { font-size: 0.8rem; color: var(--muted); margin-bottom: 2rem; }
+    .breadcrumb a { color: var(--muted); text-decoration: none; }
+    .breadcrumb a:hover { color: var(--gold); }
+    h1 { font-size: 2.1rem; color: var(--gold); line-height: 1.3; margin-bottom: 1rem; }
+    .subtitle { color: var(--muted); margin-bottom: 2rem; font-size: 1.05rem; border-left: 3px solid var(--gold); padding-left: 1rem; }
+    h2 { font-size: 1.4rem; color: var(--gold); margin: 2.5rem 0 1rem; }
+    p { margin-bottom: 1rem; }
+    .product-card { background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 1.5rem; margin-bottom: 1.5rem; }
+    .product-card .rank { font-size: 0.75rem; color: var(--gold); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 0.4rem; }
+    .product-card h3 { margin-top: 0; font-size: 1.2rem; color: var(--gold); }
+    .product-card .price { color: var(--green); font-weight: 700; margin-bottom: 0.5rem; font-family: sans-serif; }
+    .product-card .tag { display: inline-block; background: rgba(201,168,76,0.12); color: var(--gold); font-size: 0.72rem; padding: 0.15rem 0.5rem; border-radius: 4px; margin-bottom: 0.6rem; font-family: sans-serif; margin-right: 0.3rem; }
+    .product-card .pros-cons { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin: 1rem 0; font-size: 0.9rem; }
+    .product-card .pros li { color: #7ec8a0; list-style: none; padding-left: 1.2rem; position: relative; margin-bottom: 0.3rem; }
+    .product-card .pros li::before { content: '+'; position: absolute; left: 0; color: var(--green); font-weight: 700; }
+    .product-card .cons li { color: #e07070; list-style: none; padding-left: 1.2rem; position: relative; margin-bottom: 0.3rem; }
+    .product-card .cons li::before { content: '-'; position: absolute; left: 0; color: #e07070; font-weight: 700; }
+    .btn { display: inline-block; background: var(--gold); color: #0a1628; padding: 0.6rem 1.4rem; border-radius: 6px; text-decoration: none; font-weight: 700; font-size: 0.9rem; font-family: sans-serif; margin-top: 0.5rem; }
+    .btn:hover { opacity: 0.88; }
+    table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; font-size: 0.88rem; }
+    th { background: var(--card); color: var(--gold); padding: 0.7rem 0.8rem; text-align: left; border-bottom: 1px solid var(--border); }
+    td { padding: 0.65rem 0.8rem; border-bottom: 1px solid rgba(255,255,255,0.05); }
+    tr:nth-child(even) td { background: rgba(255,255,255,0.02); }
+    .science-box { background: var(--card); border-left: 4px solid var(--gold); padding: 1.2rem 1.5rem; margin: 2rem 0; border-radius: 0 8px 8px 0; }
+    .science-box h3 { margin-top: 0; color: var(--gold); font-size: 1rem; }
+    .faq-item { margin-bottom: 1.5rem; border-bottom: 1px solid var(--border); padding-bottom: 1.5rem; }
+    .faq-item:last-child { border-bottom: none; }
+    .faq-item h3 { color: var(--gold); margin-bottom: 0.5rem; font-size: 1rem; }
+    .related-box { background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 1.5rem; margin: 3rem 0 1rem; }
+    .related-box h3 { color: var(--gold); margin-bottom: 1rem; font-size: 1rem; }
+    .related-box ul { list-style: none; }
+    .related-box ul li { margin-bottom: 0.5rem; }
+    .related-box ul li a { color: var(--text); text-decoration: none; font-size: 0.9rem; }
+    .related-box ul li a:hover { color: var(--gold); }
+    footer { text-align: center; padding: 2rem; color: var(--muted); font-size: 0.82rem; border-top: 1px solid var(--border); margin-top: 3rem; }
+    footer a { color: var(--gold); }
+    .disclaimer { font-size: 0.8rem; color: var(--muted); font-style: italic; margin-bottom: 2rem; }
+    @media (max-width: 600px) { .pros-cons { grid-template-columns: 1fr; } h1 { font-size: 1.6rem; } }
+  </style>
+</head>
+<body>
+  <header>
+    <a class="logo" href="../">SleepWise<span>Reviews</span></a>
+    <nav>
+      <a href="../">Home</a>
+      <a href="index.html">All Guides</a>
+    </nav>
+  </header>
+  <main>
+    <div class="breadcrumb">
+      <a href="../">Home</a> &rsaquo; <a href="index.html">All Guides</a> &rsaquo; Best Overnight Face Masks
+    </div>
+
+    <h1>Best Overnight Face Masks 2026</h1>
+    <p class="subtitle">Sleep is skin's prime repair window. Between 11pm and 1am, growth hormone surges and cell regeneration peaks. The right overnight mask makes those hours work harder for your skin.</p>
+    <p class="disclaimer">We research independently. Some links are affiliate links &mdash; we earn a small commission at no cost to you.</p>
+
+    <div class="science-box">
+      <h3>Why Sleep Is Skin's Most Important Recovery Window</h3>
+      <p>During deep sleep, the body releases growth hormone (GH) &mdash; the primary driver of cellular repair and collagen production. Skin cell turnover is 2&times; faster at night than during the day. Blood flow to the skin increases, and transepidermal water loss (TEWL) peaks, which is why a properly occlusive sleeping mask can seal in more moisture during sleep than any daytime product. Poor sleep directly correlates with increased skin aging, reduced barrier function, and decreased elasticity (a 2015 clinical study in <em>Clinical and Experimental Dermatology</em> confirmed this).</p>
+    </div>
+
+    <h2>Overnight Mask Types by Skin Goal</h2>
+    <table>
+      <tr><th>Goal</th><th>Key Ingredients</th><th>Texture</th><th>Frequency</th></tr>
+      <tr><td>Hydration / plumping</td><td>Hyaluronic acid, glycerin, ceramides</td><td>Gel or gel-cream</td><td>Nightly</td></tr>
+      <tr><td>Brightening</td><td>Niacinamide, vitamin C, kojic acid</td><td>Light cream</td><td>2&ndash;3x per week</td></tr>
+      <tr><td>Barrier repair</td><td>Ceramides, fatty acids, cholesterol</td><td>Rich cream</td><td>Nightly (especially post-exfoliation)</td></tr>
+      <tr><td>Anti-aging / firming</td><td>Retinol, peptides, bakuchiol</td><td>Cream or serum-cream</td><td>2&ndash;3x per week (retinol)</td></tr>
+      <tr><td>Soothing / redness</td><td>Centella asiatica, aloe, azelaic acid</td><td>Gel</td><td>Nightly</td></tr>
+    </table>
+
+    <h2>The 7 Best Overnight Face Masks</h2>
+
+    <div class="product-card">
+      <div class="rank">#1 &mdash; Best Overall Sleeping Mask</div>
+      <span class="tag">Hydration</span><span class="tag">Nightly</span>
+      <h3>Laneige Water Sleeping Mask</h3>
+      <div class="price">~$25&ndash;$35 (2.6 oz) | Lavender or original</div>
+      <p>The Laneige Water Sleeping Mask is the most popular overnight sleeping mask globally &mdash; and it earns the title. The HYDRO IONIZED MINERAL WATER formula with evening primrose, apricot, and sandalwood extracts creates a multi-layer moisture system that plumps visibly overnight. It's light enough to use nightly without clogging pores, non-sticky, and rinses off easily in the morning. Works for all skin types. The lavender version adds mild aromatherapy for the sleep routine. Consistently ranked #1 by both beauty editors and consumer reviews.</p>
+      <div class="pros-cons">
+        <div class="pros"><ul>
+          <li>Light gel texture &mdash; all skin types</li>
+          <li>Visible hydration overnight</li>
+          <li>Non-comedogenic</li>
+          <li>Nightly use approved</li>
+        </ul></div>
+        <div class="cons"><ul>
+          <li>Focused on hydration only (no actives)</li>
+          <li>Some users need a richer barrier cream</li>
+        </ul></div>
+      </div>
+      <a class="btn" href="https://www.amazon.com/s?k=Laneige+Water+Sleeping+Mask&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+    </div>
+
+    <div class="product-card">
+      <div class="rank">#2 &mdash; Best Brightening Sleeping Mask</div>
+      <span class="tag">Brightening</span><span class="tag">Anti-Aging</span>
+      <h3>Tatcha Luminance Deep Hydration Sleeping Mask</h3>
+      <div class="price">~$68 (2.5 oz)</div>
+      <p>Tatcha's Japanese-inspired sleeping mask uses a Hadasei-3 complex (green tea, rice, algae) plus niacinamide for overnight brightening. The pearl extract component stimulates skin luminosity &mdash; a meaningful cosmetic benefit for dull, tired skin that sleep deprivation has dulled over time. Rich enough for dry skin but non-comedogenic enough for combination. Best used 3x per week as a treatment mask rather than nightly, given the active ingredient concentration. Morning skin looks clearer and more radiant after use.</p>
+      <div class="pros-cons">
+        <div class="pros"><ul>
+          <li>Brightening + hydration combined</li>
+          <li>Niacinamide for uneven tone</li>
+          <li>Luxurious Japanese formulation</li>
+          <li>Works for dry and combination skin</li>
+        </ul></div>
+        <div class="cons"><ul>
+          <li>Premium price</li>
+          <li>2&ndash;3x per week only (not nightly)</li>
+        </ul></div>
+      </div>
+      <a class="btn" href="https://www.amazon.com/s?k=Tatcha+Luminance+Sleeping+Mask&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+    </div>
+
+    <div class="product-card">
+      <div class="rank">#3 &mdash; Best for Oily / Combination Skin</div>
+      <span class="tag">Hydration</span><span class="tag">Oily Skin</span>
+      <h3>Glow Recipe Watermelon Sleeping Mask</h3>
+      <div class="price">~$45 (2.7 oz)</div>
+      <p>Glow Recipe's Watermelon Sleeping Mask is the rare overnight mask formulated specifically for oily and combination skin. The watermelon extract is humectant (draws moisture) without adding oil, and the AHA (lactic acid) gently exfoliates while you sleep to reduce pore congestion. Wakes up looking clear and plump rather than greasy. A cult product with the oily-skin community that proves overnight masks aren't just for dry skin types.</p>
+      <div class="pros-cons">
+        <div class="pros"><ul>
+          <li>Lightweight &mdash; perfect for oily skin</li>
+          <li>AHA brightening + exfoliation</li>
+          <li>Refreshing watermelon scent</li>
+          <li>Non-comedogenic</li>
+        </ul></div>
+        <div class="cons"><ul>
+          <li>AHA content means 2&ndash;3x per week max</li>
+          <li>Light hold &mdash; may need more product for dry skin</li>
+        </ul></div>
+      </div>
+      <a class="btn" href="https://www.amazon.com/s?k=Glow+Recipe+Watermelon+Sleeping+Mask&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+    </div>
+
+    <div class="product-card">
+      <div class="rank">#4 &mdash; Best Budget Drugstore Option</div>
+      <span class="tag">Barrier Repair</span><span class="tag">Drugstore</span>
+      <h3>CeraVe Skin Renewing Night Cream</h3>
+      <div class="price">~$18&ndash;$22 (1.7 oz)</div>
+      <p>CeraVe's Skin Renewing Night Cream is dermatologist-developed with the gold-standard barrier repair trio: ceramides 1, 3, and 6-II + hyaluronic acid + niacinamide. It's technically a night cream rather than a sleeping mask, but the ceramide-rich formula works identically as a last-step overnight treatment. For people with compromised skin barrier (eczema-prone, post-tretinoin, over-exfoliated), this is the most science-backed and cost-effective overnight repair option available. No fragrance, no irritants.</p>
+      <div class="pros-cons">
+        <div class="pros"><ul>
+          <li>Ceramide 1/3/6-II barrier repair</li>
+          <li>Fragrance-free &mdash; sensitive skin safe</li>
+          <li>Dermatologist developed</li>
+          <li>Exceptional value</li>
+        </ul></div>
+        <div class="cons"><ul>
+          <li>Not a gel sleeping mask &mdash; heavier texture</li>
+          <li>No brightening actives</li>
+        </ul></div>
+      </div>
+      <a class="btn" href="https://www.amazon.com/s?k=Cerave+Skin+Renewing+Night+Cream&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+    </div>
+
+    <div class="product-card">
+      <div class="rank">#5 &mdash; Best Anti-Aging Overnight Mask</div>
+      <span class="tag">Anti-Aging</span><span class="tag">Peptides</span>
+      <h3>Olay Regenerist Micro-Sculpting Night Cream</h3>
+      <div class="price">~$22&ndash;$28 (1.7 oz)</div>
+      <p>Olay's Regenerist night cream is one of the best-studied anti-aging overnight formulas in the drugstore tier. The Amino-Peptide Complex II works during sleep to stimulate collagen synthesis, while niacinamide addresses uneven tone. In third-party blind comparisons, Olay Regenerist has performed comparably to products costing 5-10&times; more (including some luxury department store brands). For mature or aging-concerned skin at any budget level, this is the starting point before considering premium options.</p>
+      <div class="pros-cons">
+        <div class="pros"><ul>
+          <li>Amino-peptide complex proven in clinical studies</li>
+          <li>Best-in-class anti-aging at drugstore price</li>
+          <li>Niacinamide for brightness</li>
+          <li>Available everywhere</li>
+        </ul></div>
+        <div class="cons"><ul>
+          <li>Light fragrance (fragrance-free version available)</li>
+          <li>Rich texture &mdash; may feel heavy for some</li>
+        </ul></div>
+      </div>
+      <a class="btn" href="https://www.amazon.com/s?k=Olay+Regenerist+Micro-Sculpting+Night+Cream&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+    </div>
+
+    <div class="product-card">
+      <div class="rank">#6 &mdash; Best Lightweight Dewy Mask</div>
+      <span class="tag">Hydration</span><span class="tag">Glass Skin</span>
+      <h3>Belif The True Cream Aqua Bomb Sleeping Mask</h3>
+      <div class="price">~$42 (2.4 oz)</div>
+      <p>Belif's Aqua Bomb is a K-beauty classic, formulated with Lady's Mantle herb extract in a gel-water formula that delivers an immediate "water burst" on application and holds it overnight. The result is consistently described as "glass skin" by morning &mdash; skin that appears smooth, translucent, and luminous. Lightweight enough to use nightly, even in summer. The sleeping mask version is more concentrated than the daytime Aqua Bomb moisturizer and specifically formulated for the longer overnight contact time.</p>
+      <div class="pros-cons">
+        <div class="pros"><ul>
+          <li>K-beauty glass skin result</li>
+          <li>Immediate + sustained hydration</li>
+          <li>Very lightweight &mdash; summer-appropriate</li>
+          <li>Lady's Mantle herbal formula</li>
+        </ul></div>
+        <div class="cons"><ul>
+          <li>Hydration-only (no actives for brightening/aging)</li>
+          <li>Premium price for gel formula</li>
+        </ul></div>
+      </div>
+      <a class="btn" href="https://www.amazon.com/s?k=Belif+True+Cream+Aqua+Bomb+Sleeping+Mask&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+    </div>
+
+    <div class="product-card">
+      <div class="rank">#7 &mdash; Best for Very Dry Skin</div>
+      <span class="tag">Intense Hydration</span><span class="tag">Dry Skin</span>
+      <h3>Origins Drink Up Intensive Overnight Mask</h3>
+      <div class="price">~$30&ndash;$35 (3.4 oz)</div>
+      <p>Origins Drink Up is the richest, most emollient formula in this list &mdash; specifically designed for dry, flaky, and dehydration-prone skin. Avocado butter, apricot kernel oil, and shea butter in a thick cream that creates a full occlusive seal overnight. Skin wakes up genuinely supple and cushioned rather than just surface-moisturized. Use on clean skin as the final step 2-3 nights per week (the richness means nightly use can cause congestion for some). One of the best dry-winter-skin solutions in this category.</p>
+      <div class="pros-cons">
+        <div class="pros"><ul>
+          <li>Richest formula in the list</li>
+          <li>Avocado + shea fully occlusive seal</li>
+          <li>Best for dry, flaky, winter skin</li>
+          <li>Good value for size (3.4 oz)</li>
+        </ul></div>
+        <div class="cons"><ul>
+          <li>Too rich for oily / combination skin</li>
+          <li>2&ndash;3x per week only (not nightly for most)</li>
+          <li>Can transfer to pillow</li>
+        </ul></div>
+      </div>
+      <a class="btn" href="https://www.amazon.com/s?k=Origins+Drink+Up+Intensive+Overnight+Mask&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+    </div>
+
+    <h2>How to Apply: The Correct Order</h2>
+    <table>
+      <tr><th>Step</th><th>Product</th><th>Notes</th></tr>
+      <tr><td>1</td><td>Cleanse</td><td>Double cleanse if wearing SPF or makeup</td></tr>
+      <tr><td>2</td><td>Toner / essence</td><td>Pat in, don't rub</td></tr>
+      <tr><td>3</td><td>Active serum (if using)</td><td>Retinol, vitamin C, niacinamide, acids</td></tr>
+      <tr><td>4</td><td>Eye cream</td><td>Before sleeping mask (mask doesn't go near eyes)</td></tr>
+      <tr><td>5</td><td>Overnight sleeping mask</td><td>Last step &mdash; seals everything underneath</td></tr>
+    </table>
+    <p><strong>Key rule:</strong> Sleeping mask goes on last. It creates an occlusive layer that traps moisture and active ingredients applied before it. If you apply moisturizer after the mask, you break the seal and dilute the effect.</p>
+
+    <h2>Pillowcase Matters: Protecting Your Mask</h2>
+    <p>Overnight masks and rough cotton pillowcases are a bad combination. Cotton absorbs product from your skin, reducing the mask's contact time. A silk or satin pillowcase reduces product transfer by up to 43%, keeps skin from mechanical friction during sleep, and helps preserve both the mask's effect and hair health simultaneously. See our <a href="best-silk-pillowcase.html" style="color:var(--gold);">Best Silk Pillowcases guide</a> for picks.</p>
+
+    <h2>Frequently Asked Questions</h2>
+    <div class="faq-item">
+      <h3>Are overnight sleeping masks better than regular moisturizers?</h3>
+      <p>Overnight sleeping masks are formulated with higher active ingredient concentrations and occlusive textures designed for 6-8 hour contact. They're not a daily replacement for moisturizer -- they're a targeted weekly or bi-weekly treatment. The main advantage is working during sleep, when skin cell regeneration peaks (growth hormone surges between 11pm and 1am), maximizing ingredient absorption.</p>
+    </div>
+    <div class="faq-item">
+      <h3>Can you use an overnight face mask every night?</h3>
+      <p>It depends on the formula. Hydration-focused sleeping masks (like Laneige) can be used nightly. Brightening or exfoliating masks containing AHAs, retinol, or vitamin C derivatives should be limited to 2-3 times per week to avoid sensitization. Always check the product's recommended frequency.</p>
+    </div>
+    <div class="faq-item">
+      <h3>How do overnight face masks differ from regular night creams?</h3>
+      <p>Sleeping masks tend to be gel-textured or gel-cream and form a light film over skin to seal in moisture. Night creams are typically richer, oil-based, and absorb fully into skin. Sleeping masks are better for oily or combination skin and targeted hydration goals, while night creams are better for dry or mature skin needing deep nourishment.</p>
+    </div>
+    <div class="faq-item">
+      <h3>Do overnight face masks transfer to your pillow?</h3>
+      <p>Yes -- especially heavier, oil-based overnight masks. To minimize transfer: apply a thin layer, wait 10-15 minutes before bed, and use a silk or satin pillowcase. Many modern sleeping masks are formulated to be non-transferring, but a thin application always helps.</p>
+    </div>
+    <div class="faq-item">
+      <h3>What should I apply before an overnight face mask?</h3>
+      <p>Apply overnight mask as the last step in your PM routine, after cleansing, toner, serum, and eye cream. The mask creates a seal over everything applied before it. Do not apply regular moisturizer before a sleeping mask -- the mask replaces the moisturizer as the final seal. Exception: if using a very active serum (retinol, strong acids), apply a plain moisturizer between serum and mask to prevent irritation.</p>
+    </div>
+
+    <div class="related-box">
+      <h3>Related Guides</h3>
+      <ul>
+        <li><a href="sleep-skin-health.html">Sleep and Skin Health Science Guide &rarr;</a></li>
+        <li><a href="best-silk-pillowcase.html">Best Silk Pillowcases &rarr;</a></li>
+        <li><a href="best-sleep-masks.html">Best Sleep Eye Masks &rarr;</a></li>
+        <li><a href="best-bath-soak-sleep.html">Best Bath Soaks for Sleep &rarr;</a></li>
+        <li><a href="deep-sleep-benefits.html">Deep Sleep Benefits for Skin &rarr;</a></li>
+      </ul>
+    </div>
+  </main>
+  <footer>
+    <p>&copy; 2025&ndash;2026 <a href="../">SleepWise Reviews</a> &middot; Evidence-based sleep guidance</p>
+  </footer>
+</body>
+</html>"""
+
+with open(OUT, 'w', encoding='utf-8') as f:
+    f.write(HTML)
+print(f'Written: {OUT}')

@@ -1,0 +1,495 @@
+"""Generate posts/best-cbd-sleep.html"""
+import os
+
+OUT = os.path.join(os.path.dirname(__file__), 'posts', 'best-cbd-sleep.html')
+
+html = '''<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Best CBD for Sleep 2026 — Oil, Gummies &amp; Capsules Reviewed | SleepWise Reviews</title>
+  <meta name="description" content="Best CBD products for sleep in 2026 — third-party tested oils, gummies, and capsules with verified cannabinoid content. What the science says about CBD dose, timing, and sleep mechanisms." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://sleepwisereviews.com/posts/best-cbd-sleep.html" />
+  <meta property="og:title" content="Best CBD for Sleep 2026 — Oil, Gummies &amp; Capsules Reviewed" />
+  <meta property="og:description" content="Third-party tested CBD products for sleep — what dose works, what time to take it, and the difference between broad-spectrum, full-spectrum, and isolate for sleep quality." />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://sleepwisereviews.com/posts/best-cbd-sleep.html" />
+  <meta property="og:image" content="https://sleepwisereviews.com/images/og-default.png" />
+  <meta property="og:site_name" content="SleepWise Reviews" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Best CBD for Sleep 2026" />
+  <meta name="twitter:description" content="Third-party verified CBD for sleep — dose, timing, spectrum type, and the clinical evidence explained. Best oils, gummies, and capsules compared." />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Best CBD for Sleep 2026",
+    "description": "Evidence-based guide to CBD for sleep — mechanism of action, dose ranges, full-spectrum vs isolate comparison, and third-party tested product recommendations for sleep quality.",
+    "url": "https://sleepwisereviews.com/posts/best-cbd-sleep.html",
+    "datePublished": "2026-05-25",
+    "dateModified": "2026-05-25",
+    "author": {"@type": "Organization", "name": "SleepWise Reviews"},
+    "publisher": {"@type": "Organization", "name": "SleepWise Reviews", "url": "https://sleepwisereviews.com/"}
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://sleepwisereviews.com/"},
+      {"@type": "ListItem", "position": 2, "name": "All Guides", "item": "https://sleepwisereviews.com/posts/"},
+      {"@type": "ListItem", "position": 3, "name": "Best CBD for Sleep", "item": "https://sleepwisereviews.com/posts/best-cbd-sleep.html"}
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "Best CBD Products for Sleep 2026",
+    "numberOfItems": 7,
+    "itemListElement": [
+      {"@type": "ListItem", "position": 1, "name": "Charlotte's Web Sleep CBD Oil"},
+      {"@type": "ListItem", "position": 2, "name": "CBDistillery CBN + CBD Sleep Tincture"},
+      {"@type": "ListItem", "position": 3, "name": "NuLeaf Naturals Full Spectrum CBD"},
+      {"@type": "ListItem", "position": 4, "name": "Lazarus Naturals Sleep CBD Capsules"},
+      {"@type": "ListItem", "position": 5, "name": "Sunday Scaries CBD Gummies"},
+      {"@type": "ListItem", "position": 6, "name": "Cornbread Hemp CBD Gummies"},
+      {"@type": "ListItem", "position": 7, "name": "Medterra Sleep Tight Gummies"}
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Does CBD help with sleep?",
+        "acceptedAnswer": {"@type": "Answer", "text": "The evidence is mixed but promising. CBD interacts with the endocannabinoid system, which regulates sleep-wake cycles, anxiety, and pain — three of the most common causes of sleep disruption. A 2019 study in The Permanente Journal found that 66% of participants reported improved sleep scores after one month of CBD use (25-75mg/day). CBD appears most effective for sleep disruption caused by anxiety, chronic pain, and PTSD rather than as a direct sedative."}
+      },
+      {
+        "@type": "Question",
+        "name": "What is the best CBD dose for sleep?",
+        "acceptedAnswer": {"@type": "Answer", "text": "Clinical studies use a wide range — 25mg to 300mg per day. For most people new to CBD, 25-50mg taken 30-60 minutes before bed is a reasonable starting dose. CBD appears to have a biphasic dose response for sleep: lower doses (15-25mg) can be mildly stimulating, while higher doses (50-150mg) tend to promote sedation. Start low, increase gradually over 2 weeks to find your optimal dose."}
+      },
+      {
+        "@type": "Question",
+        "name": "What is the difference between full-spectrum, broad-spectrum, and isolate CBD for sleep?",
+        "acceptedAnswer": {"@type": "Answer", "text": "Full-spectrum CBD contains all cannabinoids including trace THC (below 0.3%) plus terpenes — this creates the 'entourage effect' where compounds work synergistically. Broad-spectrum removes THC but retains other cannabinoids. Isolate is pure CBD only. For sleep, full-spectrum products with CBN (cannabinol) — a mildly sedating cannabinoid — appear most effective based on user reports and emerging research. CBN is produced as THC ages."}
+      },
+      {
+        "@type": "Question",
+        "name": "When should I take CBD for sleep?",
+        "acceptedAnswer": {"@type": "Answer", "text": "30-60 minutes before your intended sleep time for oils and tinctures (sublingual absorption is faster). 60-90 minutes before bed for gummies and capsules (digestive absorption is slower but lasts longer). Consistency matters more than exact timing — CBD's effects on the endocannabinoid system accumulate with regular use over 2-4 weeks."}
+      },
+      {
+        "@type": "Question",
+        "name": "What should I look for on a CBD product's third-party test results?",
+        "acceptedAnswer": {"@type": "Answer", "text": "Look for a Certificate of Analysis (COA) from an ISO 17025-accredited laboratory. The COA should confirm: (1) CBD content matches the label claim within 10%, (2) THC is below 0.3%, (3) heavy metal testing passed, (4) pesticide screening passed, (5) microbial contamination tested. Products without a scannable QR code linking to a COA should be avoided — self-reported testing is not verification."}
+      }
+    ]
+  }
+  </script>
+  <style>
+    :root {
+      --bg: #0a1628; --card: #111e33; --gold: #c9a84c;
+      --text: #e8e0d0; --muted: #8899aa; --border: rgba(201,168,76,0.15);
+      --green: #4caf8a;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { background: var(--bg); color: var(--text); font-family: 'Georgia', serif; line-height: 1.8; }
+    header { background: var(--card); border-bottom: 1px solid var(--border); padding: 1rem 2rem; display: flex; align-items: center; justify-content: space-between; }
+    .logo { color: var(--gold); text-decoration: none; font-size: 1.3rem; font-weight: 700; }
+    .logo span { color: var(--text); }
+    main { max-width: 780px; margin: 0 auto; padding: 3rem 1.5rem; }
+    h1 { font-size: 2.1rem; color: var(--gold); margin-bottom: 0.75rem; line-height: 1.25; }
+    .meta { color: var(--muted); font-size: 0.9rem; margin-bottom: 2rem; font-family: sans-serif; }
+    h2 { font-size: 1.4rem; color: var(--gold); margin: 2.5rem 0 1rem; border-bottom: 1px solid var(--border); padding-bottom: 0.4rem; }
+    h3 { font-size: 1.1rem; color: var(--text); margin: 1.5rem 0 0.5rem; }
+    p { margin-bottom: 1.1rem; }
+    .intro-box { background: var(--card); border-left: 4px solid var(--gold); padding: 1.2rem 1.5rem; border-radius: 4px; margin-bottom: 2rem; font-size: 1.05rem; }
+    .warning-box { background: rgba(224,112,112,0.08); border-left: 4px solid #e07070; padding: 1rem 1.25rem; border-radius: 4px; margin: 1.5rem 0; font-size: 0.92rem; color: var(--text); }
+    .dose-box { background: rgba(201,168,76,0.08); border: 2px solid rgba(201,168,76,0.25); border-radius: 8px; padding: 1.5rem; margin: 2rem 0; text-align: center; }
+    .dose-amount { font-size: 2rem; font-weight: 700; color: var(--gold); font-family: sans-serif; }
+    .dose-label { color: var(--muted); font-size: 0.88rem; font-family: sans-serif; margin-top: 0.3rem; }
+    .product-card { background: var(--card); border: 1px solid var(--border); border-radius: 8px; padding: 1.5rem; margin-bottom: 1.5rem; }
+    .product-card h3 { margin-top: 0; color: var(--gold); font-size: 1.15rem; }
+    .badge { display: inline-block; background: rgba(201,168,76,0.15); color: var(--gold); font-size: 0.75rem; font-family: sans-serif; padding: 0.2rem 0.6rem; border-radius: 20px; margin-bottom: 0.75rem; font-weight: 600; letter-spacing: 0.04em; }
+    .badge.green { background: rgba(76,175,138,0.15); color: var(--green); }
+    .specs { display: flex; flex-wrap: wrap; gap: 0.5rem; margin: 0.75rem 0; }
+    .spec { background: rgba(255,255,255,0.04); padding: 0.25rem 0.6rem; border-radius: 4px; font-size: 0.82rem; font-family: sans-serif; color: var(--muted); }
+    .pros-cons { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin: 1rem 0; }
+    .pros h4, .cons h4 { font-size: 0.85rem; font-family: sans-serif; letter-spacing: 0.05em; margin-bottom: 0.5rem; }
+    .pros h4 { color: var(--green); }
+    .cons h4 { color: #e07070; }
+    .pros ul, .cons ul { list-style: none; }
+    .pros li::before { content: "+ "; color: var(--green); font-weight: 700; }
+    .cons li::before { content: "- "; color: #e07070; font-weight: 700; }
+    .pros li, .cons li { font-size: 0.88rem; margin-bottom: 0.3rem; line-height: 1.4; }
+    .cta-btn { display: inline-block; background: var(--gold); color: #0a1628; padding: 0.6rem 1.4rem; border-radius: 4px; text-decoration: none; font-weight: 700; font-family: sans-serif; font-size: 0.9rem; margin-top: 0.75rem; }
+    .cta-btn:hover { opacity: 0.9; }
+    .science-box { background: rgba(201,168,76,0.07); border: 1px solid var(--border); border-radius: 8px; padding: 1.5rem; margin: 2rem 0; }
+    .science-box h3 { color: var(--gold); margin-top: 0; }
+    table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; font-size: 0.88rem; font-family: sans-serif; }
+    th { background: var(--card); color: var(--gold); padding: 0.6rem 0.8rem; text-align: left; border: 1px solid var(--border); }
+    td { padding: 0.55rem 0.8rem; border: 1px solid var(--border); vertical-align: top; }
+    tr:nth-child(even) td { background: rgba(255,255,255,0.02); }
+    .faq-item { border-bottom: 1px solid var(--border); padding: 1.2rem 0; }
+    .faq-item:last-child { border-bottom: none; }
+    .faq-item h3 { color: var(--gold); font-size: 1rem; margin: 0 0 0.5rem; }
+    footer { text-align: center; padding: 2rem; color: var(--muted); font-size: 0.85rem; border-top: 1px solid var(--border); margin-top: 3rem; }
+    footer a { color: var(--gold); }
+    .disclaimer { background: rgba(255,255,255,0.03); border: 1px solid var(--border); border-radius: 4px; padding: 0.8rem 1rem; font-size: 0.8rem; color: var(--muted); margin-top: 2rem; font-family: sans-serif; }
+    @media (max-width: 600px) { .pros-cons { grid-template-columns: 1fr; } h1 { font-size: 1.6rem; } }
+  </style>
+</head>
+<body>
+  <header>
+    <a class="logo" href="../">SleepWise<span>Reviews</span></a>
+    <a href="../posts/" style="color:var(--muted);font-size:0.9rem;text-decoration:none;">All Guides</a>
+  </header>
+  <main>
+    <h1>Best CBD for Sleep 2026 — Oil, Gummies &amp; Capsules Reviewed</h1>
+    <p class="meta">Updated May 2026 &nbsp;|&nbsp; Supplements &nbsp;|&nbsp; 13 min read</p>
+
+    <div class="intro-box">
+      CBD interacts with CB1 receptors in the hypothalamus that regulate sleep-wake cycles, reduces the anxiety and pain most commonly associated with chronic insomnia, and — at doses above 50mg — appears to increase slow-wave deep sleep duration. The key is third-party verified products and finding the right dose for your specific sleep issue.
+    </div>
+
+    <div class="warning-box">
+      <strong>Important:</strong> CBD may interact with some medications, particularly blood thinners, anti-epileptics, and SSRIs. Consult your physician before use if you take prescription medications. This guide does not constitute medical advice.
+    </div>
+
+    <p>The CBD market is notoriously unregulated — a 2017 study in JAMA found that 26% of CBD products contained less CBD than labeled, and 21% contained more. The only way to verify a product is a Certificate of Analysis (COA) from an ISO 17025-accredited third-party laboratory. Every product on this list has been selected specifically for having accessible, current COA documentation.</p>
+
+    <div class="dose-box">
+      <div class="dose-amount">25-75mg</div>
+      <div class="dose-label">Starting dose range — 30-60 min before bed for oils, 60-90 min for gummies/capsules</div>
+    </div>
+
+    <h2>Best CBD Products for Sleep — Ranked</h2>
+
+    <div class="product-card">
+      <span class="badge">Best Overall Oil</span>
+      <h3>#1 — Charlotte's Web Sleep CBD Oil</h3>
+      <div class="specs">
+        <span class="spec">Spectrum: Full-Spectrum</span>
+        <span class="spec">CBD: 17mg per serving</span>
+        <span class="spec">Added: Melatonin 3mg + Valerian</span>
+        <span class="spec">Certifications: USDA Organic, B Corp</span>
+      </div>
+      <p>Charlotte's Web is the original CBD brand — their proprietary Charlotte's Web cultivar (CW1A) has been used in research and is the most studied hemp genetics in the US market. Their Sleep formula combines full-spectrum hemp extract with 3mg melatonin and valerian root, targeting sleep onset specifically rather than general relaxation.</p>
+      <p>USDA Organic certification for the hemp and B Corp certification for the company are meaningful quality signals. Every batch has a QR-code-accessible COA from ProVerde Laboratories (ISO 17025 accredited). The formula's melatonin inclusion makes it particularly effective for circadian-rhythm disruption sleep issues — jet lag, shift work, irregular schedules.</p>
+      <div class="pros-cons">
+        <div class="pros">
+          <h4>PROS</h4>
+          <ul>
+            <li>USDA Organic hemp, B Corp certified</li>
+            <li>COA via QR code — easy verification</li>
+            <li>Melatonin + valerian for sleep onset</li>
+            <li>Most studied hemp genetics (CW1A)</li>
+          </ul>
+        </div>
+        <div class="cons">
+          <h4>CONS</h4>
+          <ul>
+            <li>Melatonin addition not ideal for chronic use</li>
+            <li>Lower CBD dose (17mg) than pure-sleep needs</li>
+            <li>Premium price</li>
+          </ul>
+        </div>
+      </div>
+      <a href="https://www.amazon.com/s?k=Charlotte%27s+Web+Sleep+CBD+Oil&tag=sleepwiserevi-20" class="cta-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+    </div>
+
+    <div class="product-card">
+      <span class="badge green">Best CBN + CBD Combo</span>
+      <h3>#2 — CBDistillery CBN + CBD Sleep Tincture</h3>
+      <div class="specs">
+        <span class="spec">Spectrum: Full-Spectrum</span>
+        <span class="spec">CBD: 150mg / CBN: 30mg per 30ml</span>
+        <span class="spec">Ratio: 5:1 CBD:CBN</span>
+        <span class="spec">Testing: ISO 17025 third-party COA</span>
+      </div>
+      <p>CBN (cannabinol) is a mildly sedating cannabinoid produced naturally as THC oxidizes with age. It binds weakly to CB1 receptors — creating a calming effect without the psychoactivity of THC. CBDistillery's Sleep Tincture combines 150mg CBD with 30mg CBN in a 30ml bottle — a 5:1 ratio that delivers both the anxiety-reducing effects of CBD and the direct sedative properties of CBN.</p>
+      <p>This is the most evidence-aligned formulation for sleep specifically. CBD addresses the hyperarousal and anxiety that delay sleep; CBN appears to increase total sleep time and reduce waking episodes. COA accessible through CBDistillery's website with batch number. USDA Organic hemp source. Price per dose is the best on this list for a CBN-containing product.</p>
+      <div class="pros-cons">
+        <div class="pros">
+          <h4>PROS</h4>
+          <ul>
+            <li>CBN adds direct sedative mechanism</li>
+            <li>Best value for CBD+CBN combination</li>
+            <li>USDA Organic hemp</li>
+            <li>ISO 17025 COA accessible</li>
+          </ul>
+        </div>
+        <div class="cons">
+          <h4>CONS</h4>
+          <ul>
+            <li>Full-spectrum means trace THC (0.3%)</li>
+            <li>Earthy hemp taste — no flavoring</li>
+          </ul>
+        </div>
+      </div>
+      <a href="https://www.amazon.com/s?k=CBDistillery+CBN+CBD+Sleep+Tincture&tag=sleepwiserevi-20" class="cta-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+    </div>
+
+    <div class="product-card">
+      <span class="badge">High-Potency</span>
+      <h3>#3 — NuLeaf Naturals Full Spectrum CBD Oil</h3>
+      <div class="specs">
+        <span class="spec">Spectrum: Full-Spectrum</span>
+        <span class="spec">CBD: 60mg per serving (high potency)</span>
+        <span class="spec">Source: Single-origin Colorado hemp</span>
+        <span class="spec">Testing: SC Labs, ISO 17025</span>
+      </div>
+      <p>NuLeaf Naturals produces single-origin, full-spectrum CBD from Colorado-grown organic hemp at some of the highest potencies available — their 60mg-per-serving formulation is for experienced CBD users who have found lower doses insufficient. At this dose, research suggests increased slow-wave sleep promotion rather than simply anxiety reduction.</p>
+      <p>Single-ingredient formula — no additives, flavors, or additional cannabinoids. The full-spectrum profile includes minor cannabinoids (CBG, CBC, CBN in small amounts) and terpenes that create the entourage effect. SC Labs (ISO 17025 accredited) COA available for each batch. Organic, CO2-extracted.</p>
+      <div class="pros-cons">
+        <div class="pros">
+          <h4>PROS</h4>
+          <ul>
+            <li>High dose — effective for treatment-resistant sleep issues</li>
+            <li>Single-ingredient purity</li>
+            <li>SC Labs (highly respected) COA</li>
+            <li>Full entourage effect spectrum</li>
+          </ul>
+        </div>
+        <div class="cons">
+          <h4>CONS</h4>
+          <ul>
+            <li>Strong hemp taste</li>
+            <li>High price per mg at this potency</li>
+            <li>Not for beginners</li>
+          </ul>
+        </div>
+      </div>
+      <a href="https://www.amazon.com/s?k=NuLeaf+Naturals+Full+Spectrum+CBD+Oil&tag=sleepwiserevi-20" class="cta-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+    </div>
+
+    <div class="product-card">
+      <span class="badge green">Best Capsule</span>
+      <h3>#4 — Lazarus Naturals Sleep CBD Capsules</h3>
+      <div class="specs">
+        <span class="spec">Spectrum: Full-Spectrum</span>
+        <span class="spec">CBD: 50mg per capsule</span>
+        <span class="spec">Added: CBN 15mg + Lemon balm + Chamomile</span>
+        <span class="spec">Testing: Alkemist Labs, ISO 17025</span>
+      </div>
+      <p>Lazarus Naturals is one of the most cost-efficient quality CBD brands in the US. Their Sleep capsules deliver 50mg CBD + 15mg CBN per capsule with added lemon balm and chamomile — a sleep-targeted formulation that hits multiple mechanisms simultaneously. For users who want the precision and convenience of capsule dosing without the taste of oil, this is the best value option.</p>
+      <p>Lazarus also operates an Assistance Program with 60% discounts for veterans, low-income, and disabled individuals — reflecting a company ethos that affects product quality commitment. All testing via Alkemist Labs (ISO 17025 accredited). Oregon hemp source, CO2 extracted.</p>
+      <div class="pros-cons">
+        <div class="pros">
+          <h4>PROS</h4>
+          <ul>
+            <li>Best value CBD+CBN capsule</li>
+            <li>Lemon balm + chamomile support sleep onset</li>
+            <li>Taste-free capsule format</li>
+            <li>Assistance Program for low-income users</li>
+          </ul>
+        </div>
+        <div class="cons">
+          <h4>CONS</h4>
+          <ul>
+            <li>Slower onset than tincture (90 min vs 30 min)</li>
+            <li>Cannot easily adjust dose</li>
+          </ul>
+        </div>
+      </div>
+      <a href="https://www.amazon.com/s?k=Lazarus+Naturals+Sleep+CBD+Capsules&tag=sleepwiserevi-20" class="cta-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+    </div>
+
+    <div class="product-card">
+      <span class="badge">Best Gummies</span>
+      <h3>#5 — Sunday Scaries CBD Gummies</h3>
+      <div class="specs">
+        <span class="spec">Spectrum: Broad-Spectrum (THC-free)</span>
+        <span class="spec">CBD: 10mg per gummy</span>
+        <span class="spec">Added: Vitamin B12 + D3</span>
+        <span class="spec">Third-party: ProVerde Labs</span>
+      </div>
+      <p>Sunday Scaries positions specifically around anxiety-driven sleep disruption — the "Sunday scaries" phenomenon of pre-week anxiety that disrupts Sunday night sleep. Their broad-spectrum gummies (THC-free) provide 10mg CBD per gummy with added B12 and D3. For users concerned about THC appearing in drug tests, broad-spectrum is the appropriate choice.</p>
+      <p>The 10mg dose is on the lower end for sleep applications — take 2-3 gummies for a 20-30mg pre-sleep dose. The gummy format makes this the easiest starting point for CBD beginners. ProVerde Labs (ISO 17025) COA accessible via website. Available on Amazon with Prime shipping.</p>
+      <div class="pros-cons">
+        <div class="pros">
+          <h4>PROS</h4>
+          <ul>
+            <li>THC-free — no drug test risk</li>
+            <li>Easy dose adjustment (multiple gummies)</li>
+            <li>Anxiety-specific positioning</li>
+            <li>Good taste — compliance friendly</li>
+          </ul>
+        </div>
+        <div class="cons">
+          <h4>CONS</h4>
+          <ul>
+            <li>Lower CBD dose per gummy</li>
+            <li>No CBN</li>
+            <li>Sugar content</li>
+          </ul>
+        </div>
+      </div>
+      <a href="https://www.amazon.com/s?k=Sunday+Scaries+CBD+Gummies+sleep&tag=sleepwiserevi-20" class="cta-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+    </div>
+
+    <div class="product-card">
+      <span class="badge">Full-Spectrum Gummies</span>
+      <h3>#6 — Cornbread Hemp CBD Gummies</h3>
+      <div class="specs">
+        <span class="spec">Spectrum: Full-Spectrum (USDA Organic)</span>
+        <span class="spec">CBD: 25mg per gummy</span>
+        <span class="spec">Source: Kentucky hemp, flower-only</span>
+        <span class="spec">Certifications: USDA Organic, Whole Flower</span>
+      </div>
+      <p>Cornbread Hemp uses only hemp flower — not stems, leaves, or stalks — which produces higher cannabinoid and terpene concentrations per mg of material. Their "whole flower" approach, combined with USDA Organic certification, positions this as one of the highest-quality hemp-derived CBD products available. Each 25mg gummy is a full sleep dose at the starting range.</p>
+      <p>Kentucky-grown hemp from a long-established hemp farming tradition in the state. Full-spectrum with natural terpene profile preserved. The gummy format delivers 25mg in a single piece — cleaner dosing than brands requiring multiple pieces per dose.</p>
+      <div class="pros-cons">
+        <div class="pros">
+          <h4>PROS</h4>
+          <ul>
+            <li>Flower-only — highest cannabinoid density</li>
+            <li>USDA Organic certification</li>
+            <li>25mg per gummy — single-piece dosing</li>
+          </ul>
+        </div>
+        <div class="cons">
+          <h4>CONS</h4>
+          <ul>
+            <li>Contains trace THC</li>
+            <li>Higher price per mg than isolate options</li>
+          </ul>
+        </div>
+      </div>
+      <a href="https://www.amazon.com/s?k=Cornbread+Hemp+CBD+Gummies+organic&tag=sleepwiserevi-20" class="cta-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+    </div>
+
+    <div class="product-card">
+      <span class="badge green">Budget / Beginners</span>
+      <h3>#7 — Medterra Sleep Tight Gummies</h3>
+      <div class="specs">
+        <span class="spec">Spectrum: Isolate CBD + CBN</span>
+        <span class="spec">CBD: 25mg + CBN 10mg per gummy</span>
+        <span class="spec">Added: Melatonin 3mg + L-Theanine</span>
+        <span class="spec">THC: Zero (isolate base)</span>
+      </div>
+      <p>Medterra's Sleep Tight formula stacks CBD isolate (pure, THC-free) with CBN, melatonin, and L-Theanine into a single gummy — hitting every major sleep mechanism simultaneously. For beginners who want a comprehensive sleep supplement with zero THC risk, this is the most convenient starting point.</p>
+      <p>The melatonin and L-Theanine additions provide faster-onset sleep support while the CBD and CBN work on their longer time horizon. Available at accessible price points. NSF Content Verified certification for athletes. The isolate base means no entourage effect, but also zero drug test risk.</p>
+      <div class="pros-cons">
+        <div class="pros">
+          <h4>PROS</h4>
+          <ul>
+            <li>Zero THC — isolate base</li>
+            <li>NSF Content Verified</li>
+            <li>Multi-mechanism stack in one gummy</li>
+            <li>Good price point</li>
+          </ul>
+        </div>
+        <div class="cons">
+          <h4>CONS</h4>
+          <ul>
+            <li>Isolate — no entourage effect</li>
+            <li>Melatonin not ideal for chronic nightly use</li>
+          </ul>
+        </div>
+      </div>
+      <a href="https://www.amazon.com/s?k=Medterra+Sleep+Tight+Gummies+CBD&tag=sleepwiserevi-20" class="cta-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+    </div>
+
+    <h2>The Science: How CBD Works for Sleep</h2>
+
+    <div class="science-box">
+      <h3>Endocannabinoid System and Sleep Regulation</h3>
+      <p>The endocannabinoid system (ECS) includes receptors (CB1, CB2), endogenous ligands (anandamide, 2-AG), and the enzymes that synthesize and degrade them. CB1 receptors are densely expressed in the hypothalamus, basal ganglia, and hippocampus — all brain regions involved in sleep-wake regulation.</p>
+      <p>CBD does not bind directly to CB1 receptors (unlike THC). Instead, it inhibits fatty acid amide hydrolase (FAAH) — the enzyme that breaks down anandamide. By slowing anandamide degradation, CBD increases endogenous anandamide levels. Anandamide (named from the Sanskrit "ananda" — bliss) promotes sleep through multiple downstream mechanisms including temperature reduction and anxiety modulation.</p>
+    </div>
+
+    <div class="science-box">
+      <h3>Clinical Evidence Summary</h3>
+      <p>The most cited study: Shannon et al. (2019), <em>The Permanente Journal</em>. 72 adults with anxiety and poor sleep, 25mg CBD per day (primarily in the morning). At one month: 79% reported reduced anxiety, 66% reported improved sleep scores. Sleep scores fluctuated over 3 months, while anxiety consistently improved — suggesting CBD's sleep benefit may be predominantly via anxiety reduction rather than direct sedation.</p>
+      <p>A 2018 preclinical review in <em>Current Psychiatry Reports</em> noted that high-dose CBD (160mg) significantly increased total sleep time and decreased nighttime waking in healthy volunteers compared to placebo. This dose-response relationship is clinically important: at the 25mg doses common in supplements, sedative effects are minimal; above 75-100mg, direct sleep promotion effects appear.</p>
+    </div>
+
+    <h2>CBD Type Comparison for Sleep</h2>
+
+    <table>
+      <tr>
+        <th>Type</th>
+        <th>THC Content</th>
+        <th>Entourage Effect</th>
+        <th>Best For</th>
+        <th>Drug Test Risk</th>
+      </tr>
+      <tr>
+        <td>Full-Spectrum</td>
+        <td>Up to 0.3%</td>
+        <td>Maximum</td>
+        <td>Anxiety, chronic pain, general insomnia</td>
+        <td>Low but non-zero</td>
+      </tr>
+      <tr>
+        <td>Broad-Spectrum</td>
+        <td>Non-detectable</td>
+        <td>Partial</td>
+        <td>THC-free preference, moderate insomnia</td>
+        <td>Very low</td>
+      </tr>
+      <tr>
+        <td>Isolate</td>
+        <td>Zero</td>
+        <td>None</td>
+        <td>Beginners, drug test concerns</td>
+        <td>None</td>
+      </tr>
+      <tr>
+        <td>CBD + CBN</td>
+        <td>Trace (if full-spectrum base)</td>
+        <td>Yes + CBN sedation</td>
+        <td>Best for direct sleep promotion</td>
+        <td>Low</td>
+      </tr>
+    </table>
+
+    <h2>Frequently Asked Questions</h2>
+
+    <div class="faq-item">
+      <h3>Does CBD help with sleep?</h3>
+      <p>The evidence is promising but nuanced. CBD appears most effective for sleep disrupted by anxiety, chronic pain, or PTSD — by addressing the underlying cause rather than as a direct sedative. A 2019 study found 66% of users reported improved sleep at one month. At higher doses (75mg+), direct slow-wave sleep promotion has been observed in research.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>What is the best CBD dose for sleep?</h3>
+      <p>Start at 25-50mg taken 30-60 minutes before bed (oil/tincture) or 60-90 minutes before (gummies/capsules). Increase by 25mg every 2 weeks if needed. CBD has a biphasic dose response — very low doses (5-15mg) can be mildly stimulating. Most sleep benefits appear at 25-75mg; higher doses (100mg+) show more direct sedative effects in research.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>What is the difference between full-spectrum, broad-spectrum, and isolate?</h3>
+      <p>Full-spectrum contains all hemp cannabinoids including trace THC (below 0.3%) plus terpenes — the "entourage effect" where compounds work synergistically. Broad-spectrum removes THC but retains other cannabinoids. Isolate is pure CBD only. For sleep, full-spectrum products with CBN appear most effective based on available evidence.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>When should I take CBD for sleep?</h3>
+      <p>Oils and tinctures: 30-60 minutes before bed (sublingual absorption). Gummies and capsules: 60-90 minutes before bed (digestive absorption is slower but lasts longer). Consistency matters — CBD's effects on the endocannabinoid system accumulate with regular use over 2-4 weeks. Don't judge efficacy from a single dose.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>What should I look for on a CBD product's test results?</h3>
+      <p>Look for a Certificate of Analysis (COA) from an ISO 17025-accredited laboratory (ProVerde, SC Labs, Alkemist Labs are reputable). The COA should confirm: CBD content within 10% of the label claim, THC below 0.3%, heavy metals below limits, pesticides absent, and microbial testing passed. Products without a scannable QR code or batch-specific COA should be avoided.</p>
+    </div>
+
+    <p class="disclaimer">Affiliate disclosure: This page contains Amazon affiliate links using the tag sleepwiserevi-20. We earn a commission at no extra cost to you. This is not medical advice. CBD product regulations vary by jurisdiction. Always consult a physician before use, especially if taking medications. Product selection is based on independent research, certification status, and clinical evidence.</p>
+  </main>
+  <footer>
+    <p>&copy; 2025-2026 <a href="../">SleepWise Reviews</a> &nbsp;|&nbsp; Evidence-based sleep guidance</p>
+  </footer>
+</body>
+</html>'''
+
+os.makedirs(os.path.dirname(OUT), exist_ok=True)
+with open(OUT, 'w', encoding='utf-8') as f:
+    f.write(html)
+print(f'Written: {OUT}')

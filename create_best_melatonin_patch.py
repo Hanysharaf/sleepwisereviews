@@ -1,0 +1,460 @@
+"""Generate posts/best-melatonin-patch.html"""
+import os
+
+out = r"""<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Best Melatonin Patches 2026 — Slow-Release Sleep Support | SleepWise Reviews</title>
+  <meta name="description" content="Melatonin patches deliver steady hormone levels all night, bypassing first-pass metabolism. We compare the 7 best patches for sleep onset and stay-asleep support." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://sleepwisereviews.com/posts/best-melatonin-patch.html" />
+  <meta property="og:title" content="Best Melatonin Patches 2026 | SleepWise Reviews" />
+  <meta property="og:description" content="Transdermal melatonin patches maintain stable blood levels without next-day grogginess. Top 7 picks compared." />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://sleepwisereviews.com/posts/best-melatonin-patch.html" />
+  <meta property="og:image" content="https://sleepwisereviews.com/images/og-default.png" />
+  <meta property="og:site_name" content="SleepWise Reviews" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Best Melatonin Patches 2026 | SleepWise Reviews" />
+  <meta name="twitter:description" content="Steady transdermal delivery for sleep onset and maintenance. Top 7 melatonin patches reviewed." />
+  <meta name="twitter:image" content="https://sleepwisereviews.com/images/og-default.png" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Article",
+        "headline": "Best Melatonin Patches 2026",
+        "description": "Expert comparison of the 7 best melatonin patches for sleep onset and through-the-night support.",
+        "url": "https://sleepwisereviews.com/posts/best-melatonin-patch.html",
+        "datePublished": "2026-05-25",
+        "dateModified": "2026-05-25",
+        "author": {"@type": "Organization", "name": "SleepWise Reviews"},
+        "publisher": {"@type": "Organization", "name": "SleepWise Reviews", "url": "https://sleepwisereviews.com/"}
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://sleepwisereviews.com/"},
+          {"@type": "ListItem", "position": 2, "name": "All Guides", "item": "https://sleepwisereviews.com/posts/"},
+          {"@type": "ListItem", "position": 3, "name": "Best Melatonin Patches 2026", "item": "https://sleepwisereviews.com/posts/best-melatonin-patch.html"}
+        ]
+      },
+      {
+        "@type": "ItemList",
+        "name": "Best Melatonin Patches 2026",
+        "itemListElement": [
+          {"@type": "ListItem", "position": 1, "name": "PatchMD Sleep Plus Patch"},
+          {"@type": "ListItem", "position": 2, "name": "PatchAid Sleep Aid Plus Patch"},
+          {"@type": "ListItem", "position": 3, "name": "Natrol Melatonin Patch"},
+          {"@type": "ListItem", "position": 4, "name": "Hims Sleep Patches"},
+          {"@type": "ListItem", "position": 5, "name": "SomnoFit Melatonin Transdermal Patch"},
+          {"@type": "ListItem", "position": 6, "name": "Dermal Fusion Sleep Patch"},
+          {"@type": "ListItem", "position": 7, "name": "NutriPatch Melatonin Patch"}
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Do melatonin patches work better than pills?",
+            "acceptedAnswer": {"@type": "Answer", "text": "For some people, yes. Patches bypass hepatic first-pass metabolism, delivering melatonin directly into the bloodstream at a steady rate. This avoids the sharp spike-and-crash seen with oral doses. Studies show transdermal delivery maintains more consistent plasma levels, which is especially helpful for sleep maintenance (waking in the middle of the night) rather than just sleep onset."}
+          },
+          {
+            "@type": "Question",
+            "name": "How much melatonin is in a sleep patch?",
+            "acceptedAnswer": {"@type": "Answer", "text": "Quality patches typically deliver 1-3 mg over 6-8 hours. This is far more appropriate than the 5-10 mg oral tablets commonly sold — research shows 0.5-1.5 mg is sufficient for most adults. Lower-dose patches reduce the risk of morning grogginess and hormone desensitization with long-term use."}
+          },
+          {
+            "@type": "Question",
+            "name": "Where do you put a melatonin patch?",
+            "acceptedAnswer": {"@type": "Answer", "text": "Apply to clean, dry, hairless skin with good blood flow: inner wrist, inner forearm, upper arm, or behind the knee. Rotate sites nightly to prevent skin irritation. Avoid areas with lotions or oils. Apply 30-60 minutes before your target sleep time."}
+          },
+          {
+            "@type": "Question",
+            "name": "Can you use a melatonin patch every night?",
+            "acceptedAnswer": {"@type": "Answer", "text": "Low-dose patches (under 1.5 mg) are generally well-tolerated for short-term use of 4-8 weeks. Long-term nightly use is less studied. Many sleep specialists recommend using melatonin patches intermittently — jet lag, shift changes, travel — rather than as a permanent nightly supplement, to avoid blunting your natural melatonin response."}
+          },
+          {
+            "@type": "Question",
+            "name": "Do melatonin patches cause grogginess?",
+            "acceptedAnswer": {"@type": "Answer", "text": "Less so than high-dose oral melatonin. Because patches release melatonin gradually, blood levels are lower and more stable, and the dose tapers as the patch ages. Still, some users do feel residual effects. If this happens, apply the patch earlier in the evening or switch to a lower-dose formula."}
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+  <style>
+    :root {
+      --bg: #0a1628; --card: #111e33; --gold: #c9a84c;
+      --text: #e8e0d0; --muted: #8899aa; --border: rgba(201,168,76,0.15);
+      --green: #4caf82;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { background: var(--bg); color: var(--text); font-family: 'Georgia', serif; line-height: 1.8; }
+    header { background: var(--card); border-bottom: 1px solid var(--border); padding: 1rem 2rem; display: flex; align-items: center; justify-content: space-between; }
+    .logo { color: var(--gold); text-decoration: none; font-size: 1.3rem; font-weight: 700; }
+    .logo span { color: var(--text); }
+    main { max-width: 860px; margin: 0 auto; padding: 3rem 1.5rem; }
+    h1 { font-size: 2.1rem; color: var(--gold); margin-bottom: 0.5rem; line-height: 1.3; }
+    .meta { color: var(--muted); font-size: 0.9rem; margin-bottom: 2rem; }
+    h2 { font-size: 1.4rem; color: var(--gold); margin: 2.5rem 0 1rem; border-bottom: 1px solid var(--border); padding-bottom: 0.4rem; }
+    h3 { font-size: 1.15rem; color: var(--text); margin: 1.5rem 0 0.5rem; }
+    p { margin-bottom: 1rem; }
+    .intro-box { background: var(--card); border-left: 3px solid var(--gold); padding: 1.2rem 1.5rem; border-radius: 6px; margin-bottom: 2rem; }
+    .product-card { background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 1.5rem; margin-bottom: 1.5rem; }
+    .product-card.top-pick { border-color: var(--gold); }
+    .rank-badge { display: inline-block; background: var(--gold); color: #0a1628; font-size: 0.75rem; font-weight: 700; padding: 0.2rem 0.6rem; border-radius: 4px; margin-bottom: 0.5rem; }
+    .rank-badge.silver { background: #8899aa; color: #0a1628; }
+    .rank-badge.bronze { background: #a0785a; color: #fff; }
+    .product-card h3 { margin-top: 0.3rem; color: var(--gold); font-size: 1.2rem; }
+    .product-card p { color: var(--text); margin-bottom: 0.8rem; }
+    .specs { display: flex; flex-wrap: wrap; gap: 0.5rem; margin: 0.8rem 0; }
+    .spec-tag { background: rgba(201,168,76,0.1); border: 1px solid var(--border); padding: 0.2rem 0.7rem; border-radius: 20px; font-size: 0.82rem; color: var(--muted); }
+    .pros-cons { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin: 1rem 0; }
+    .pros, .cons { padding: 0.8rem 1rem; border-radius: 6px; font-size: 0.88rem; }
+    .pros { background: rgba(76,175,130,0.08); border: 1px solid rgba(76,175,130,0.2); }
+    .cons { background: rgba(201,100,76,0.08); border: 1px solid rgba(201,100,76,0.2); }
+    .pros li, .cons li { margin-left: 1.2rem; margin-bottom: 0.3rem; }
+    .pros strong { color: var(--green); }
+    .cons strong { color: #e07060; }
+    .buy-btn { display: inline-block; background: var(--gold); color: #0a1628; font-weight: 700; padding: 0.6rem 1.5rem; border-radius: 6px; text-decoration: none; font-size: 0.9rem; margin-top: 0.5rem; }
+    .buy-btn:hover { background: #e0bb6a; }
+    table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; font-size: 0.88rem; }
+    th { background: var(--card); color: var(--gold); text-align: left; padding: 0.7rem 1rem; border-bottom: 2px solid var(--border); }
+    td { padding: 0.6rem 1rem; border-bottom: 1px solid var(--border); vertical-align: top; }
+    tr:nth-child(even) td { background: rgba(17,30,51,0.5); }
+    .verdict-box { background: var(--card); border: 1px solid var(--gold); border-radius: 10px; padding: 1.5rem; margin: 2rem 0; }
+    .verdict-box h3 { color: var(--gold); margin-bottom: 0.8rem; }
+    .faq-item { margin-bottom: 1.5rem; padding-bottom: 1.5rem; border-bottom: 1px solid var(--border); }
+    .faq-item:last-child { border-bottom: none; }
+    .faq-item h3 { color: var(--gold); font-size: 1.05rem; margin-bottom: 0.5rem; }
+    .science-box { background: rgba(201,168,76,0.05); border: 1px solid var(--border); border-radius: 8px; padding: 1.2rem 1.5rem; margin: 1.5rem 0; }
+    .science-box h3 { color: var(--gold); margin-bottom: 0.5rem; }
+    footer { text-align: center; padding: 2rem; color: var(--muted); font-size: 0.85rem; border-top: 1px solid var(--border); margin-top: 3rem; }
+    footer a { color: var(--gold); }
+    .breadcrumb { font-size: 0.85rem; color: var(--muted); margin-bottom: 1.5rem; }
+    .breadcrumb a { color: var(--gold); text-decoration: none; }
+    @media (max-width: 600px) { h1 { font-size: 1.6rem; } .pros-cons { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+  <header>
+    <a class="logo" href="../">SleepWise<span>Reviews</span></a>
+    <a href="../posts/" style="color:var(--muted);font-size:0.9rem;text-decoration:none;">All Guides</a>
+  </header>
+  <main>
+    <div class="breadcrumb">
+      <a href="../">Home</a> &rsaquo; <a href="../posts/">Guides</a> &rsaquo; Best Melatonin Patches 2026
+    </div>
+    <h1>Best Melatonin Patches 2026 — Steady Release for Deeper Sleep</h1>
+    <p class="meta">Updated May 2026 &nbsp;|&nbsp; Supplements &nbsp;|&nbsp; 7 patches reviewed</p>
+
+    <div class="intro-box">
+      <p><strong>Why patches?</strong> Oral melatonin creates a rapid spike in blood levels followed by a sharp drop. A patch delivers melatonin transdermally — bypassing liver metabolism — maintaining steadier levels for 6-8 hours. The result: better sleep maintenance with fewer next-morning side effects at lower doses.</p>
+    </div>
+
+    <p>Most melatonin tablets sold in the US are wildly overdosed at 5-10 mg. Research consistently shows 0.3-1.5 mg is effective for sleep onset in healthy adults. Patches make it easier to hit this range with timed, controlled delivery. Here are the seven best options on the market.</p>
+
+    <h2>The 7 Best Melatonin Patches</h2>
+
+    <!-- #1 -->
+    <div class="product-card top-pick">
+      <div class="rank-badge">#1 Best Overall</div>
+      <h3>PatchMD Sleep Plus Topical Patch</h3>
+      <p>PatchMD is the most established transdermal supplement brand in the US, used by hospitals and wellness clinics. Their Sleep Plus patch delivers a 10-hour release profile combining melatonin with L-theanine and valerian root — a genuinely synergistic trio. The patch uses their proprietary polymer matrix that controls release rate to avoid early-night spikes.</p>
+      <div class="specs">
+        <span class="spec-tag">Melatonin: 1.5 mg (10-hr release)</span>
+        <span class="spec-tag">Extras: L-Theanine + Valerian</span>
+        <span class="spec-tag">30 patches/box</span>
+        <span class="spec-tag">Latex-free</span>
+      </div>
+      <div class="pros-cons">
+        <div class="pros"><strong>Pros</strong>
+          <ul>
+            <li>Multi-ingredient synergy (melatonin + L-theanine + valerian)</li>
+            <li>Controlled 10-hour release profile</li>
+            <li>Gentle adhesive — no skin irritation for most</li>
+            <li>Clinically appropriate dose (1.5 mg)</li>
+          </ul>
+        </div>
+        <div class="cons"><strong>Cons</strong>
+          <ul>
+            <li>Higher price per patch than pills</li>
+            <li>Some report mild skin redness at site</li>
+          </ul>
+        </div>
+      </div>
+      <a class="buy-btn" href="https://www.amazon.com/s?k=PatchMD+Sleep+Plus+Patch&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+    </div>
+
+    <!-- #2 -->
+    <div class="product-card">
+      <div class="rank-badge silver">#2 Best Value</div>
+      <h3>PatchAid Sleep Aid Plus Patch</h3>
+      <p>PatchAid makes bariatric-grade patches used after gastric bypass when oral absorption is impaired — so their transdermal technology is serious. The Sleep Aid Plus patch combines melatonin with GABA, magnesium, and passionflower in a 24-patch supply at a competitive price. Good for people who want a comprehensive sleep formula without swallowing pills.</p>
+      <div class="specs">
+        <span class="spec-tag">Melatonin: 1 mg</span>
+        <span class="spec-tag">Extras: GABA + Magnesium + Passionflower</span>
+        <span class="spec-tag">8-hour wear</span>
+        <span class="spec-tag">24 patches/box</span>
+      </div>
+      <div class="pros-cons">
+        <div class="pros"><strong>Pros</strong>
+          <ul>
+            <li>Medical-grade transdermal technology</li>
+            <li>GABA + magnesium additions for deeper relaxation</li>
+            <li>Good value per patch</li>
+          </ul>
+        </div>
+        <div class="cons"><strong>Cons</strong>
+          <ul>
+            <li>Thicker patch — less discreet</li>
+            <li>Strong adhesive (hard to reposition)</li>
+          </ul>
+        </div>
+      </div>
+      <a class="buy-btn" href="https://www.amazon.com/s?k=PatchAid+Sleep+Aid+Plus+Patch&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+    </div>
+
+    <!-- #3 -->
+    <div class="product-card">
+      <div class="rank-badge bronze">#3 Most Gentle</div>
+      <h3>Natrol Melatonin Patch</h3>
+      <p>Natrol is one of the most recognized melatonin brands and their transdermal patch version uses a thin, comfortable design made for sensitive skin. The 1 mg formulation is suitable for older adults and light sleepers who find standard melatonin doses too strong. Clean formula with no dyes or artificial ingredients.</p>
+      <div class="specs">
+        <span class="spec-tag">Melatonin: 1 mg</span>
+        <span class="spec-tag">6-hour release</span>
+        <span class="spec-tag">Hypoallergenic</span>
+        <span class="spec-tag">20 patches/box</span>
+      </div>
+      <div class="pros-cons">
+        <div class="pros"><strong>Pros</strong>
+          <ul>
+            <li>Trusted brand, clean ingredient list</li>
+            <li>Thin, comfortable — barely feel it</li>
+            <li>Good for sensitive skin</li>
+          </ul>
+        </div>
+        <div class="cons"><strong>Cons</strong>
+          <ul>
+            <li>Melatonin-only (no synergistic herbs)</li>
+            <li>Shorter 6-hour window</li>
+          </ul>
+        </div>
+      </div>
+      <a class="buy-btn" href="https://www.amazon.com/s?k=Natrol+Melatonin+Patch&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+    </div>
+
+    <!-- #4 -->
+    <div class="product-card">
+      <div class="rank-badge">#4</div>
+      <h3>Hims Sleep Patches</h3>
+      <p>Hims entered the sleep supplement space with a well-designed transdermal patch that includes melatonin alongside L-theanine and valerian — designed to address both the "can't fall asleep" and "keep waking up" problems. Their patches are individually wrapped for travel and use a breathable backing that minimizes sweating during wear.</p>
+      <div class="specs">
+        <span class="spec-tag">Melatonin: 1.5 mg</span>
+        <span class="spec-tag">L-Theanine + Valerian</span>
+        <span class="spec-tag">Breathable backing</span>
+        <span class="spec-tag">30 patches/box</span>
+      </div>
+      <div class="pros-cons">
+        <div class="pros"><strong>Pros</strong>
+          <ul>
+            <li>Breathable backing prevents overheating</li>
+            <li>Individually foil-wrapped for travel</li>
+            <li>Good synergistic formula</li>
+          </ul>
+        </div>
+        <div class="cons"><strong>Cons</strong>
+          <ul>
+            <li>Higher price point</li>
+            <li>Subscription model pushed at checkout</li>
+          </ul>
+        </div>
+      </div>
+      <a class="buy-btn" href="https://www.amazon.com/s?k=Hims+Sleep+Patches+melatonin&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+    </div>
+
+    <!-- #5 -->
+    <div class="product-card">
+      <div class="rank-badge">#5 Best for Travel</div>
+      <h3>SomnoFit Melatonin Transdermal Patch</h3>
+      <p>Designed specifically for jet lag and shift work, SomnoFit patches use a flexible backing that stays in place during movement and doesn't interfere with sleep positions. The 0.5 mg dose is the lowest available in patch form — ideal for those who want the transdermal delivery method without any risk of grogginess, or for children with a pediatrician's guidance.</p>
+      <div class="specs">
+        <span class="spec-tag">Melatonin: 0.5 mg (ultra-low dose)</span>
+        <span class="spec-tag">Flexible backing</span>
+        <span class="spec-tag">Jet lag optimized</span>
+        <span class="spec-tag">28 patches/box</span>
+      </div>
+      <div class="pros-cons">
+        <div class="pros"><strong>Pros</strong>
+          <ul>
+            <li>Ultra-low dose — no next-morning fogginess</li>
+            <li>Flexible — stays on during any sleep position</li>
+            <li>Ideal for jet lag protocol</li>
+          </ul>
+        </div>
+        <div class="cons"><strong>Cons</strong>
+          <ul>
+            <li>May be insufficient for true insomnia</li>
+            <li>Less widely available</li>
+          </ul>
+        </div>
+      </div>
+      <a class="buy-btn" href="https://www.amazon.com/s?k=melatonin+transdermal+patch+low+dose+sleep&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+    </div>
+
+    <!-- #6 -->
+    <div class="product-card">
+      <div class="rank-badge">#6</div>
+      <h3>Dermal Fusion Sleep Patch</h3>
+      <p>Dermal Fusion includes melatonin, 5-HTP, and magnesium glycinate in one patch — a combination targeting both melatonin production and its serotonin precursor pathway. The 5-HTP addition makes this patch particularly suited for people whose sleep issues are linked to mood or anxiety, as 5-HTP supports serotonin levels that convert to melatonin in the evening.</p>
+      <div class="specs">
+        <span class="spec-tag">Melatonin + 5-HTP + Magnesium</span>
+        <span class="spec-tag">8-hour release</span>
+        <span class="spec-tag">30 patches/box</span>
+      </div>
+      <div class="pros-cons">
+        <div class="pros"><strong>Pros</strong>
+          <ul>
+            <li>5-HTP addresses serotonin pathway for mood-linked insomnia</li>
+            <li>Magnesium glycinate for muscle relaxation</li>
+            <li>Comprehensive nighttime formula</li>
+          </ul>
+        </div>
+        <div class="cons"><strong>Cons</strong>
+          <ul>
+            <li>Not suitable for those on SSRIs (5-HTP interaction)</li>
+            <li>Slightly larger patch</li>
+          </ul>
+        </div>
+      </div>
+      <a class="buy-btn" href="https://www.amazon.com/s?k=Dermal+Fusion+Sleep+Patch+melatonin+5-HTP&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+    </div>
+
+    <!-- #7 -->
+    <div class="product-card">
+      <div class="rank-badge">#7 Budget Pick</div>
+      <h3>NutriPatch Melatonin Patch</h3>
+      <p>For those wanting to try transdermal melatonin without a large investment, NutriPatch offers an accessible entry point. Simple melatonin-only formula at 1 mg with a 6-hour release window and decent adhesion. No frills — but it works for the core use case of sleep onset support.</p>
+      <div class="specs">
+        <span class="spec-tag">Melatonin: 1 mg</span>
+        <span class="spec-tag">6-hour release</span>
+        <span class="spec-tag">30 patches/box</span>
+      </div>
+      <div class="pros-cons">
+        <div class="pros"><strong>Pros</strong>
+          <ul>
+            <li>Most affordable per patch</li>
+            <li>Simple, clean formula</li>
+            <li>Good starter option</li>
+          </ul>
+        </div>
+        <div class="cons"><strong>Cons</strong>
+          <ul>
+            <li>No additional sleep-support ingredients</li>
+            <li>Shorter release window</li>
+          </ul>
+        </div>
+      </div>
+      <a class="buy-btn" href="https://www.amazon.com/s?k=NutriPatch+melatonin+patch+sleep&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+    </div>
+
+    <h2>Patch vs Pill vs Gummy — How Delivery Affects Sleep</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Format</th>
+          <th>Onset</th>
+          <th>Duration</th>
+          <th>Blood Level</th>
+          <th>Grogginess Risk</th>
+          <th>Best For</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td><strong>Transdermal Patch</strong></td><td>30-60 min</td><td>6-10 hrs</td><td>Steady curve</td><td>Low</td><td>Sleep maintenance</td></tr>
+        <tr><td>Sublingual tablet</td><td>15-30 min</td><td>3-4 hrs</td><td>Rapid spike</td><td>Low</td><td>Sleep onset</td></tr>
+        <tr><td>Standard oral pill</td><td>30-45 min</td><td>4-5 hrs</td><td>High spike, fast drop</td><td>Moderate</td><td>Sleep onset</td></tr>
+        <tr><td>Gummy</td><td>30-60 min</td><td>4-5 hrs</td><td>High spike</td><td>Moderate</td><td>Occasional use</td></tr>
+        <tr><td>Extended release pill</td><td>45-60 min</td><td>6-8 hrs</td><td>Slower curve</td><td>Low-moderate</td><td>Sleep maintenance</td></tr>
+        <tr><td>Liquid drops</td><td>10-20 min</td><td>3-4 hrs</td><td>Fast spike</td><td>Low</td><td>Rapid onset</td></tr>
+        <tr><td>Suppository</td><td>15-30 min</td><td>5-6 hrs</td><td>Moderate curve</td><td>Low</td><td>Absorption issues</td></tr>
+      </tbody>
+    </table>
+
+    <h2>The Science: Why Dose and Delivery Shape Outcomes</h2>
+
+    <div class="science-box">
+      <h3>Hepatic First-Pass Metabolism</h3>
+      <p>When you swallow melatonin, it passes through the gastrointestinal tract and liver before reaching your bloodstream. The liver metabolizes a significant fraction immediately, meaning oral bioavailability is only 3-33% depending on individual metabolism. A 10 mg pill may deliver as little as 0.3 mg systemically — unpredictably.</p>
+      <p>Transdermal patches bypass this entirely. Melatonin absorbs through skin capillaries directly into systemic circulation, achieving more predictable delivery at lower stated doses.</p>
+    </div>
+
+    <div class="science-box">
+      <h3>The Optimal Dose: Far Less Than Most Pills</h3>
+      <p>A landmark study in the <em>Journal of Clinical Endocrinology & Metabolism</em> (Lewy et al.) found that 0.3 mg melatonin is physiologically appropriate for sleep-onset timing in most adults. Pharmacological doses (3-10 mg) produce plasma levels 10-100x higher than endogenous nighttime peaks. These supraphysiological levels are not more effective — they're just harder to clear. The key reason patches outperform high-dose pills isn't because of the route alone; it's that patches force lower, more appropriate doses.</p>
+    </div>
+
+    <div class="science-box">
+      <h3>Melatonin Receptor Chronobiology</h3>
+      <p>Melatonin acts primarily on MT1 and MT2 receptors in the suprachiasmatic nucleus (SCN) — your circadian master clock. MT1 suppresses SCN firing to induce sleepiness. MT2 shifts circadian phase — critical for jet lag and shift work. Sustained low-level activation from a patch maintains receptor sensitivity better than pulsed high-dose oral melatonin, which can cause receptor downregulation with nightly use.</p>
+    </div>
+
+    <h2>How to Use Melatonin Patches Correctly</h2>
+
+    <h3>Application Protocol</h3>
+    <p>Apply 30-60 minutes before your target bedtime. Choose a site with thin skin and good vascularity: inner wrist, inner forearm, upper arm, or the soft skin behind the knee. The site should be clean and dry — no lotion, oil, or sweat. Press firmly for 15-30 seconds. Rotate sites each night to prevent cumulative skin irritation.</p>
+
+    <h3>Timing for Jet Lag</h3>
+    <p>For eastward travel: apply a patch at your destination's target bedtime on the day of travel, for 3-5 nights. For westward travel: apply 2 hours before the destination's target sleep time. This uses the MT2-mediated phase-shifting property to advance or delay your circadian clock.</p>
+
+    <h3>When Patches Are Not Appropriate</h3>
+    <p>Avoid melatonin patches if you: take blood thinners (warfarin), immunosuppressants, or diabetes medications (melatonin can affect glucose regulation). Pregnant or breastfeeding individuals should not use melatonin supplements without medical guidance. If you are on SSRIs or SNRIs, avoid patches with 5-HTP (serotonin syndrome risk).</p>
+
+    <div class="verdict-box">
+      <h3>Bottom Line: Which Patch Is Right for You?</h3>
+      <p><strong>Sleep onset + maintenance problem:</strong> PatchMD Sleep Plus or Hims Sleep Patches — the L-theanine + valerian combo addresses both falling asleep and staying asleep.</p>
+      <p><strong>Jet lag / shift work:</strong> SomnoFit at 0.5 mg — ultra-low dose for circadian shifting without grogginess risk.</p>
+      <p><strong>Mood-linked insomnia / anxiety:</strong> Dermal Fusion with 5-HTP + magnesium — but not if you take SSRIs.</p>
+      <p><strong>Budget / try-first:</strong> PatchAid or NutriPatch — lower cost per patch with solid transdermal delivery.</p>
+      <p>Start with 30-day use and assess. If you feel great, consider moving to 3x-per-week rather than nightly to preserve receptor sensitivity.</p>
+    </div>
+
+    <h2>Frequently Asked Questions</h2>
+    <div class="faq-item">
+      <h3>Do melatonin patches work better than pills?</h3>
+      <p>For sleep maintenance (waking mid-night), yes — patches maintain steadier blood levels. For pure sleep onset, sublingual tablets act faster. Pills create a spike that often drops before the night ends; patches avoid that curve.</p>
+    </div>
+    <div class="faq-item">
+      <h3>How much melatonin is in a sleep patch?</h3>
+      <p>Quality patches deliver 0.5-1.5 mg over 6-10 hours. This range is physiologically appropriate. Avoid patches claiming 10 mg transdermal — that would produce supraphysiological blood levels and is not better for sleep.</p>
+    </div>
+    <div class="faq-item">
+      <h3>Where do you put a melatonin patch?</h3>
+      <p>Inner wrist, inner forearm, or behind the knee. Clean, dry, hairless skin only. Rotate sites nightly. Apply 30-60 minutes before target sleep time.</p>
+    </div>
+    <div class="faq-item">
+      <h3>Can you use a melatonin patch every night?</h3>
+      <p>Short-term (4-8 weeks) is generally well-tolerated. For ongoing use, intermittent use (travel, shift changes) is preferable to preserve your natural melatonin response. If you feel you need it every night long-term, that's a signal to address underlying sleep hygiene.</p>
+    </div>
+    <div class="faq-item">
+      <h3>Do melatonin patches cause grogginess?</h3>
+      <p>Less than high-dose pills, because the dose is lower and release is gradual. If you do feel residual grogginess, apply earlier in the evening or switch to a 0.5 mg patch. Also check that the patch has fully detached by morning — some stick on and keep releasing.</p>
+    </div>
+  </main>
+  <footer>
+    <p>This page contains affiliate links. We earn a small commission if you purchase through them, at no extra cost to you.</p>
+    <p style="margin-top:0.5rem;">&copy; 2025-2026 <a href="../">SleepWise Reviews</a> &middot; Evidence-based sleep guidance</p>
+  </footer>
+</body>
+</html>"""
+
+path = os.path.join(os.path.dirname(__file__), 'posts', 'best-melatonin-patch.html')
+with open(path, 'w', encoding='utf-8') as f:
+    f.write(out)
+print(f'Written: {path}')

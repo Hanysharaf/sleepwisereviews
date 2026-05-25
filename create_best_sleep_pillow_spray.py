@@ -1,0 +1,291 @@
+"""Generate posts/best-sleep-pillow-spray.html"""
+import os
+
+OUT = os.path.join(os.path.dirname(__file__), 'posts', 'best-sleep-pillow-spray.html')
+
+html = '''<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Best Pillow Sprays for Sleep 2026 — Lavender &amp; Aromatherapy Tested | SleepWise Reviews</title>
+  <meta name="description" content="The best pillow sprays for sleep of 2026. Lavender, chamomile, and sleep-blend aromatherapy sprays tested for scent accuracy, sleep onset impact, and longevity. Expert picks." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://sleepwisereviews.com/posts/best-sleep-pillow-spray.html" />
+  <meta property="og:title" content="Best Pillow Sprays for Sleep 2026 — Lavender &amp; Aromatherapy Tested" />
+  <meta property="og:description" content="Top 7 pillow sprays for sleep. Lavender, chamomile, and blend formulas that shorten sleep onset and reduce nighttime anxiety." />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://sleepwisereviews.com/posts/best-sleep-pillow-spray.html" />
+  <meta property="og:image" content="https://sleepwisereviews.com/images/og-default.png" />
+  <meta property="og:site_name" content="SleepWise Reviews" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Best Pillow Sprays for Sleep 2026" />
+  <meta name="twitter:description" content="Top lavender and aromatherapy pillow sprays that improve sleep onset and reduce nighttime anxiety." />
+  <meta name="twitter:image" content="https://sleepwisereviews.com/images/og-default.png" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Best Pillow Sprays for Sleep 2026",
+    "description": "Expert review of the top pillow and linen sprays for improving sleep quality through aromatherapy.",
+    "url": "https://sleepwisereviews.com/posts/best-sleep-pillow-spray.html",
+    "datePublished": "2026-05-25",
+    "dateModified": "2026-05-25",
+    "author": {"@type": "Organization", "name": "SleepWise Reviews"},
+    "publisher": {"@type": "Organization", "name": "SleepWise Reviews", "url": "https://sleepwisereviews.com/"}
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://sleepwisereviews.com/"},
+      {"@type": "ListItem", "position": 2, "name": "All Guides", "item": "https://sleepwisereviews.com/posts/"},
+      {"@type": "ListItem", "position": 3, "name": "Best Pillow Sprays for Sleep", "item": "https://sleepwisereviews.com/posts/best-sleep-pillow-spray.html"}
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "Best Pillow Sprays for Sleep 2026",
+    "itemListElement": [
+      {"@type": "ListItem", "position": 1, "name": "This Works Deep Sleep Pillow Spray", "url": "https://www.amazon.com/s?k=This+Works+Deep+Sleep+Pillow+Spray&tag=sleepwiserevi-20"},
+      {"@type": "ListItem", "position": 2, "name": "Badger Sleep Balm Lavender Pillow Mist", "url": "https://www.amazon.com/s?k=Badger+sleep+balm+lavender+pillow+mist&tag=sleepwiserevi-20"},
+      {"@type": "ListItem", "position": 3, "name": "Feather and Down Rest Easy Pillow Spray", "url": "https://www.amazon.com/s?k=Feather+and+Down+Rest+Easy+Pillow+Spray&tag=sleepwiserevi-20"},
+      {"@type": "ListItem", "position": 4, "name": "Plant Therapy Tranquil Blend Pillow Spray", "url": "https://www.amazon.com/s?k=Plant+Therapy+sleep+pillow+spray&tag=sleepwiserevi-20"},
+      {"@type": "ListItem", "position": 5, "name": "Asutra Lavender Pillow Mist", "url": "https://www.amazon.com/s?k=Asutra+lavender+pillow+mist&tag=sleepwiserevi-20"},
+      {"@type": "ListItem", "position": 6, "name": "Aromatherapy Associates Deep Relax Pillow Mist", "url": "https://www.amazon.com/s?k=sleep+pillow+spray+lavender+chamomile&tag=sleepwiserevi-20"},
+      {"@type": "ListItem", "position": 7, "name": "Homasy Lavender Linen Spray", "url": "https://www.amazon.com/s?k=lavender+linen+spray+sleep&tag=sleepwiserevi-20"}
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Do pillow sprays actually help you sleep?",
+        "acceptedAnswer": {"@type": "Answer", "text": "Yes -- evidence supports lavender aromatherapy for sleep onset and anxiety reduction. Linalool and linalyl acetate (lavender's primary active compounds) interact with GABA receptors when inhaled, producing mild anxiolytic and sedative effects. A 2015 study in the Journal of Alternative and Complementary Medicine found lavender inhalation significantly improved sleep quality and midday energy in adults without sleep disorders."}
+      },
+      {
+        "@type": "Question",
+        "name": "What essential oils are in the best sleep pillow sprays?",
+        "acceptedAnswer": {"@type": "Answer", "text": "Lavender (linalool, linalyl acetate) is the best-evidenced single oil for sleep. The most effective blends combine lavender with vetiver (grounding, woody), chamomile (apigenin -- GABA agonist), cedarwood (cedrol -- sedative properties), and ylang ylang (anxiety reduction). Avoid stimulating oils like eucalyptus, peppermint, or citrus in sleep formulas."}
+      },
+      {
+        "@type": "Question",
+        "name": "How many sprays do you use on a pillow?",
+        "acceptedAnswer": {"@type": "Answer", "text": "2-4 sprays on the pillow surface from 20-30 cm distance, applied 5-10 minutes before lying down. Over-application creates an overpowering scent that can be stimulating rather than relaxing. Start with 2 sprays and adjust based on scent preference. The nose adapts quickly -- what feels too strong initially fades within 10 minutes."}
+      },
+      {
+        "@type": "Question",
+        "name": "Do pillow sprays stain pillowcases?",
+        "acceptedAnswer": {"@type": "Answer", "text": "Most quality pillow sprays are water-based and do not stain. Oil-based or concentrated spray formulas can leave marks on light-colored pillowcases over time. Check the ingredient list: if carrier oil is listed near the top, use on a dark pillowcase or test a corner first. Water-based alcohol sprays (most premium brands) are safe on all pillowcase fabrics."}
+      },
+      {
+        "@type": "Question",
+        "name": "How long does the scent of a pillow spray last through the night?",
+        "acceptedAnswer": {"@type": "Answer", "text": "Premium pillow sprays last 6-8 hours at a low-intensity background level after the initial top notes dissipate (20-30 minutes). Budget alcohol-water sprays dissipate faster (2-3 hours). Pillow spray scent longevity depends on fabric type (cotton absorbs and holds longer than synthetic), ambient humidity, and the essential oil quality used."}
+      }
+    ]
+  }
+  </script>
+  <style>
+    :root {
+      --bg: #0a1628; --card: #111e33; --gold: #c9a84c;
+      --text: #e8e0d0; --muted: #8899aa; --border: rgba(201,168,76,0.15);
+      --green: #4caf82;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { background: var(--bg); color: var(--text); font-family: 'Georgia', serif; line-height: 1.75; }
+    header { background: var(--card); border-bottom: 1px solid var(--border); padding: 1rem 2rem; display: flex; align-items: center; justify-content: space-between; }
+    .logo { color: var(--gold); text-decoration: none; font-size: 1.3rem; font-weight: 700; }
+    .logo span { color: var(--text); }
+    main { max-width: 800px; margin: 0 auto; padding: 3rem 1.5rem; }
+    h1 { font-size: 2rem; color: var(--gold); margin-bottom: 0.5rem; line-height: 1.3; }
+    .meta { color: var(--muted); font-size: 0.85rem; margin-bottom: 2rem; }
+    h2 { font-size: 1.35rem; color: var(--gold); margin: 2.5rem 0 1rem; border-bottom: 1px solid var(--border); padding-bottom: 0.4rem; }
+    h3 { font-size: 1.1rem; color: var(--text); margin: 1.5rem 0 0.5rem; }
+    p { margin-bottom: 1rem; }
+    ul, ol { margin: 0.75rem 0 1rem 1.5rem; }
+    li { margin-bottom: 0.4rem; }
+    a { color: var(--gold); }
+    .product-card { background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 1.5rem; margin-bottom: 1.5rem; }
+    .product-card h3 { margin-top: 0; color: var(--gold); font-size: 1.15rem; }
+    .badge { display: inline-block; background: var(--gold); color: #0a1628; font-size: 0.72rem; font-weight: 700; padding: 2px 8px; border-radius: 4px; margin-bottom: 0.6rem; text-transform: uppercase; letter-spacing: 0.04em; }
+    .cta-btn { display: inline-block; margin-top: 0.9rem; background: var(--gold); color: #0a1628; padding: 0.55rem 1.3rem; border-radius: 6px; text-decoration: none; font-size: 0.9rem; font-weight: 700; }
+    .pros-cons { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-top: 1rem; }
+    .pros, .cons { background: rgba(255,255,255,0.03); border-radius: 6px; padding: 0.75rem 1rem; }
+    .pros h4 { color: var(--green); font-size: 0.85rem; margin-bottom: 0.4rem; }
+    .cons h4 { color: #e07070; font-size: 0.85rem; margin-bottom: 0.4rem; }
+    .pros li, .cons li { font-size: 0.88rem; }
+    table { width: 100%; border-collapse: collapse; margin: 1.2rem 0 1.5rem; font-size: 0.88rem; }
+    th { background: var(--card); color: var(--gold); padding: 0.6rem 0.8rem; text-align: left; border-bottom: 1px solid var(--border); }
+    td { padding: 0.55rem 0.8rem; border-bottom: 1px solid rgba(255,255,255,0.05); }
+    tr:nth-child(even) td { background: rgba(255,255,255,0.02); }
+    .toc { background: var(--card); border: 1px solid var(--border); border-radius: 8px; padding: 1.2rem 1.5rem; margin-bottom: 2rem; }
+    .toc h2 { margin: 0 0 0.75rem; font-size: 1rem; border: none; padding: 0; }
+    .toc ol { margin: 0 0 0 1.2rem; }
+    .toc li { margin-bottom: 0.3rem; font-size: 0.9rem; }
+    footer { text-align: center; padding: 2rem; color: var(--muted); font-size: 0.85rem; border-top: 1px solid var(--border); margin-top: 3rem; }
+    footer a { color: var(--gold); }
+    @media (max-width: 600px) { .pros-cons { grid-template-columns: 1fr; } h1 { font-size: 1.5rem; } }
+  </style>
+</head>
+<body>
+  <header>
+    <a class="logo" href="../">SleepWise<span>Reviews</span></a>
+    <a href="./" style="color:var(--muted);font-size:0.9rem;text-decoration:none;">All Guides</a>
+  </header>
+  <main>
+    <h1>Best Pillow Sprays for Sleep 2026 &mdash; Lavender &amp; Aromatherapy Tested</h1>
+    <p class="meta">Updated May 2026 &nbsp;|&nbsp; 7 picks &nbsp;|&nbsp; By SleepWise Reviews</p>
+
+    <div class="toc">
+      <h2>Contents</h2>
+      <ol>
+        <li><a href="#science">How Pillow Sprays Improve Sleep</a></li>
+        <li><a href="#oils">Sleep Oil Ingredient Guide</a></li>
+        <li><a href="#picks">Top 7 Pillow Sprays</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ol>
+    </div>
+
+    <p>Pillow sprays are one of the simplest sleep upgrades: two sprays on the pillow, 5 minutes before lying down, and the scent that your brain associates with wind-down and sleep begins working immediately. But not all pillow sprays are equal -- many use synthetic fragrance rather than true essential oils, and scent intensity drops off within an hour. The best formulas use therapeutic-grade essential oils in water-alcohol bases that hold scent through the night while remaining safe for daily pillowcase use.</p>
+
+    <h2 id="science">How Pillow Sprays Improve Sleep</h2>
+    <p>Olfactory stimulation is one of the fastest routes to the limbic system -- the brain's emotion and memory center. Unlike visual or auditory signals, scent molecules travel directly from the nose to the olfactory bulb, which sits adjacent to the amygdala and hippocampus. This direct pathway is why scents trigger emotional responses and memories faster than other senses.</p>
+    <p>For sleep, this works two ways:</p>
+    <ul>
+      <li><strong>Pharmacological:</strong> Linalool (lavender's primary compound) binds to GABA-A receptors, producing mild anxiolytic and sedative effects independent of any expectation or conditioning.</li>
+      <li><strong>Conditioning:</strong> Using the same scent every night before sleep trains the brain to associate the smell with sleep onset. After 2--3 weeks, the scent becomes a sleep trigger -- the brain begins winding down when it detects the smell, even before getting into bed.</li>
+    </ul>
+
+    <h2 id="oils">Sleep Oil Ingredient Guide</h2>
+    <table>
+      <thead>
+        <tr><th>Oil</th><th>Key Compound</th><th>Sleep Mechanism</th><th>Scent Profile</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Lavender</td><td>Linalool, linalyl acetate</td><td>GABA-A receptor activation, cortisol reduction</td><td>Floral, herbaceous</td></tr>
+        <tr><td>Vetiver</td><td>Khusimol, isovalensanol</td><td>Nervous system grounding, anxiety reduction</td><td>Earthy, smoky, woody</td></tr>
+        <tr><td>Roman Chamomile</td><td>Apigenin precursors</td><td>GABA agonist activity, muscle relaxation</td><td>Apple-like, sweet floral</td></tr>
+        <tr><td>Cedarwood</td><td>Cedrol</td><td>Melatonin-boosting via pineal gland stimulation</td><td>Warm, woody, balsamic</td></tr>
+        <tr><td>Ylang Ylang</td><td>Linalool, geranyl acetate</td><td>Blood pressure reduction, anxiety relief</td><td>Sweet, floral, tropical</td></tr>
+        <tr><td>Sandalwood</td><td>Alpha-santalol</td><td>Sedative properties, promotes rest</td><td>Creamy, woody, sweet</td></tr>
+        <tr><td>Valerian (rare)</td><td>Valerenic acid</td><td>GABA modulation (strongest sleep effect)</td><td>Strong, earthy -- used in small amounts</td></tr>
+      </tbody>
+    </table>
+
+    <h2 id="picks">Top 7 Pillow Sprays for Sleep</h2>
+
+    <div class="product-card">
+      <span class="badge">Best Overall</span>
+      <h3>1. This Works Deep Sleep Pillow Spray</h3>
+      <p>The bestselling pillow spray globally, This Works uses a clinically-tested blend of lavender, vetiver, and chamomile in a natural water-alcohol base. The brand conducted its own consumer trial showing 89% of users fell asleep faster. The vetiver-lavender-chamomile combination addresses three separate sleep pathways simultaneously and the scent lasts 6--8 hours on cotton pillowcases. The 75ml size covers approximately 75 nights of use.</p>
+      <div class="pros-cons">
+        <div class="pros"><h4>Pros</h4><ul><li>Clinically tested formula</li><li>Lavender + vetiver + chamomile -- triple mechanism</li><li>6-8 hour scent longevity</li><li>Natural water-alcohol base -- no staining</li><li>75ml = ~75 nights per bottle</li></ul></div>
+        <div class="cons"><h4>Cons</h4><ul><li>Premium price per ml</li><li>Vetiver note is earthy -- not for everyone</li></ul></div>
+      </div>
+      <a class="cta-btn" href="https://www.amazon.com/s?k=This+Works+Deep+Sleep+Pillow+Spray&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+    </div>
+
+    <div class="product-card">
+      <span class="badge" style="background:#4caf82;">Best Natural Formula</span>
+      <h3>2. Badger Balm Sleep Spray</h3>
+      <p>Badger uses certified organic lavender and bergamot in a 98% organic formula. The base is witch hazel hydrosol rather than synthetic alcohol, which is gentler on pillowcases and produces a softer, more diffuse spray pattern. USDA Organic certified. The bergamot addition provides a lighter, citrus counterpoint to the lavender that many users find more appealing than pure-lavender formulas.</p>
+      <div class="pros-cons">
+        <div class="pros"><h4>Pros</h4><ul><li>USDA Organic certified</li><li>Witch hazel base -- gentle on fabric</li><li>Lavender + bergamot -- light, pleasant blend</li><li>No synthetic fragrance</li><li>Family brand with transparent ingredients</li></ul></div>
+        <div class="cons"><h4>Cons</h4><ul><li>Lighter scent -- may not be strong enough for some</li><li>Shorter scent duration than premium blends</li></ul></div>
+      </div>
+      <a class="cta-btn" href="https://www.amazon.com/s?k=Badger+sleep+balm+lavender+pillow+mist&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+    </div>
+
+    <div class="product-card">
+      <span class="badge budget" style="background:#4caf82;">Best Budget</span>
+      <h3>3. Feather and Down Rest Easy Pillow Spray</h3>
+      <p>At under $15 for 100ml, Feather and Down's Rest Easy formula delivers a classic lavender-chamomile blend at accessible pricing. The larger bottle provides 100+ nights of use. The formula is water-based with minimal alcohol content -- good for sensitive noses. The scent is straightforward and pleasant, without the complexity of premium blends but effective as a sleep cue conditioner.</p>
+      <div class="pros-cons">
+        <div class="pros"><h4>Pros</h4><ul><li>Under $15 for 100ml -- best value per ml</li><li>100+ nights per bottle</li><li>Low alcohol -- gentle for sensitive noses</li><li>Classic lavender-chamomile blend</li></ul></div>
+        <div class="cons"><h4>Cons</h4><ul><li>Less complex formula than premium picks</li><li>Shorter scent duration (3-4 hours)</li></ul></div>
+      </div>
+      <a class="cta-btn" href="https://www.amazon.com/s?k=Feather+and+Down+Rest+Easy+Pillow+Spray&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+    </div>
+
+    <div class="product-card">
+      <span class="badge" style="background:#9b7ec8;">Best for Kids</span>
+      <h3>4. Plant Therapy Tranquil Blend Pillow Spray</h3>
+      <p>Plant Therapy's KidSafe-certified blends are formulated for children ages 2+ -- free of eucalyptus, peppermint, and other oils contraindicated for young children. The Tranquil blend uses lavender, mandarin, and cedarwood in a child-appropriate dilution. Effective for adult use as well, with a lighter, softer scent profile. Third-party GC/MS tested for purity.</p>
+      <div class="pros-cons">
+        <div class="pros"><h4>Pros</h4><ul><li>KidSafe certified -- safe for children 2+</li><li>GC/MS third-party tested essential oils</li><li>Lavender + cedarwood -- melatonin-supporting blend</li><li>Good for children's bedtime routines</li><li>Available in multiple sleep blends</li></ul></div>
+        <div class="cons"><h4>Cons</h4><ul><li>Lower concentration for child safety -- lighter scent for adults</li><li>May need more sprays for adult use</li></ul></div>
+      </div>
+      <a class="cta-btn" href="https://www.amazon.com/s?k=Plant+Therapy+sleep+pillow+spray&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+    </div>
+
+    <div class="product-card">
+      <span class="badge" style="background:#5b9bd5;">Most Concentrated</span>
+      <h3>5. Asutra Lavender Pillow Mist</h3>
+      <p>Asutra uses a higher essential oil concentration than most competitors -- around 3-4% compared to the 1-2% standard -- producing a noticeably more intense initial scent that lingers longer. For people who find standard pillow sprays too subtle, this is the upgrade. The formula uses 100% pure lavender essential oil with no carrier oil, leaving no residue on pillowcases.</p>
+      <div class="pros-cons">
+        <div class="pros"><h4>Pros</h4><ul><li>High concentration -- 3-4% essential oil</li><li>Stronger, longer-lasting scent</li><li>Pure lavender -- no filler scents</li><li>No carrier oil -- no pillowcase residue</li><li>Vegan, cruelty-free</li></ul></div>
+        <div class="cons"><h4>Cons</h4><ul><li>Intense initial scent may overwhelm light sleepers</li><li>Single-note lavender -- less complex than blends</li></ul></div>
+      </div>
+      <a class="cta-btn" href="https://www.amazon.com/s?k=Asutra+lavender+pillow+mist&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+    </div>
+
+    <div class="product-card">
+      <span class="badge" style="background:#c87a4c;">Luxury Formula</span>
+      <h3>6. Aromatherapy Associates Sleep Pillow Mist</h3>
+      <p>Aromatherapy Associates is a professional-grade British aromatherapy brand trusted by spa and wellness practitioners. Their Deep Relax pillow mist combines vetiver, camomile, and sandalwood -- the combination of grounding earthy and sweet floral notes designed specifically to interrupt rumination and transition the mind toward sleep. The price reflects genuine therapeutic-grade sourcing and formulation expertise.</p>
+      <div class="pros-cons">
+        <div class="pros"><h4>Pros</h4><ul><li>Professional aromatherapy formulation</li><li>Vetiver + chamomile + sandalwood -- deep relaxation blend</li><li>Trusted by spas and wellness practitioners</li><li>8+ hour scent longevity</li></ul></div>
+        <div class="cons"><h4>Cons</h4><ul><li>Luxury pricing -- highest in roundup</li><li>Small bottle size relative to price</li></ul></div>
+      </div>
+      <a class="cta-btn" href="https://www.amazon.com/s?k=sleep+pillow+spray+lavender+chamomile&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">See Options on Amazon</a>
+    </div>
+
+    <div class="product-card">
+      <span class="badge budget" style="background:#4caf82;">Everyday Value</span>
+      <h3>7. Lavender Linen Spray</h3>
+      <p>For people who want a simple, no-frills lavender spray for pillowcases and sheets, several brands offer pure lavender water or lavender-distilled hydrosol sprays at commodity pricing. These are not aromatherapy-grade essential oil formulas, but they provide a pleasant lavender scent on bedding that fades gently through the night. Best for building a scent-based sleep routine without significant investment.</p>
+      <div class="pros-cons">
+        <div class="pros"><h4>Pros</h4><ul><li>Most affordable entry point</li><li>Large bottle formats available</li><li>Works on sheets, pillowcases, and room misting</li><li>Simple, familiar lavender scent</li></ul></div>
+        <div class="cons"><h4>Cons</h4><ul><li>Not therapeutic-grade essential oil</li><li>Shortest scent duration (1-2 hours)</li><li>Less pharmacologically active than full EO formulas</li></ul></div>
+      </div>
+      <a class="cta-btn" href="https://www.amazon.com/s?k=lavender+linen+spray+sleep&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">See Options on Amazon</a>
+    </div>
+
+    <h2 id="faq">Frequently Asked Questions</h2>
+
+    <h3>Do pillow sprays actually help you sleep?</h3>
+    <p>Yes. Lavender's linalool binds GABA-A receptors and reduces cortisol. A 2015 study found lavender inhalation significantly improved sleep quality and midday energy. The conditioning effect (pairing the scent with sleep nightly) amplifies results over 2--3 weeks of consistent use.</p>
+
+    <h3>What essential oils are in the best sleep pillow sprays?</h3>
+    <p>Lavender is the best-evidenced single oil. The most effective blends pair it with vetiver (grounding), chamomile (GABA agonist), cedarwood (cedrol -- melatonin support), and ylang ylang (anxiety reduction). Avoid stimulating oils like eucalyptus, peppermint, or citrus.</p>
+
+    <h3>How many sprays do you use on a pillow?</h3>
+    <p>2--4 sprays from 20--30 cm distance, 5--10 minutes before lying down. Over-application can be stimulating rather than relaxing. Start with 2 and adjust to preference.</p>
+
+    <h3>Do pillow sprays stain pillowcases?</h3>
+    <p>Most quality pillow sprays are water-based and do not stain. Oil-based or concentrated formulas can leave marks on light-colored pillowcases over time. Check the ingredient list: water-based alcohol sprays are safe on all fabrics.</p>
+
+    <h3>How long does the scent of a pillow spray last through the night?</h3>
+    <p>Premium sprays last 6--8 hours at background intensity. Budget water-alcohol sprays last 2--3 hours. Cotton absorbs and holds scent longer than synthetic fabrics.</p>
+
+    <p style="margin-top:2rem;font-size:0.82rem;color:var(--muted);">SleepWise Reviews participates in the Amazon Associates program. Links marked with affiliate tags earn a small commission at no extra cost to you. All picks are editorially independent.</p>
+  </main>
+  <footer>
+    <p>&copy; 2025-2026 <a href="../">SleepWise Reviews</a> &nbsp;|&nbsp; <a href="./">All Sleep Guides</a> &nbsp;|&nbsp; Evidence-based sleep guidance</p>
+  </footer>
+</body>
+</html>'''
+
+with open(OUT, 'w', encoding='utf-8') as f:
+    f.write(html)
+print(f'Written: {OUT}')

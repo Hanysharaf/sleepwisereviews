@@ -1,0 +1,472 @@
+"""Generate posts/best-body-pillow.html"""
+import os
+
+out = r"""<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Best Body Pillows 2026: Side Sleeping, Pregnancy &amp; Full-Length Picks | SleepWise Reviews</title>
+  <meta name="description" content="The best body pillows for 2026 — for side sleepers, pregnancy support, and back pain. U-shape vs C-shape vs straight compared with expert picks." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://sleepwisereviews.com/posts/best-body-pillow.html" />
+  <meta property="og:title" content="Best Body Pillows 2026: Side Sleeping, Pregnancy &amp; Full-Length" />
+  <meta property="og:description" content="Top body pillows for side sleepers and pregnancy support. U-shape vs C-shape vs straight compared — expert picks for every need." />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://sleepwisereviews.com/posts/best-body-pillow.html" />
+  <meta property="og:image" content="https://sleepwisereviews.com/images/og-default.png" />
+  <meta property="og:site_name" content="SleepWise Reviews" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "Best Body Pillows 2026",
+    "description": "Top-rated body pillows for side sleeping, pregnancy, and back pain support.",
+    "url": "https://sleepwisereviews.com/posts/best-body-pillow.html",
+    "numberOfItems": 7,
+    "itemListElement": [
+      {"@type":"ListItem","position":1,"name":"Snuggle-Pedic Full Body Pillow","url":"https://www.amazon.com/s?k=Snuggle-Pedic+Full+Body+Pillow&tag=sleepwiserevi-20"},
+      {"@type":"ListItem","position":2,"name":"Leachco Snoogle Total Body Pillow","url":"https://www.amazon.com/s?k=Leachco+Snoogle+Total+Body+Pillow&tag=sleepwiserevi-20"},
+      {"@type":"ListItem","position":3,"name":"PharMeDoc Full Body Pregnancy Pillow U-Shape","url":"https://www.amazon.com/s?k=PharMeDoc+Full+Body+Pregnancy+Pillow&tag=sleepwiserevi-20"},
+      {"@type":"ListItem","position":4,"name":"Coop Home Goods Full Body Pillow","url":"https://www.amazon.com/s?k=Coop+Home+Goods+Full+Body+Pillow&tag=sleepwiserevi-20"},
+      {"@type":"ListItem","position":5,"name":"Comfort U Total Body Support Pillow","url":"https://www.amazon.com/s?k=Comfort+U+Total+Body+Support+Pillow&tag=sleepwiserevi-20"},
+      {"@type":"ListItem","position":6,"name":"Moonlight Slumber Comfort U Pillow","url":"https://www.amazon.com/s?k=Moonlight+Slumber+Comfort+U+Pillow&tag=sleepwiserevi-20"},
+      {"@type":"ListItem","position":7,"name":"Husband Pillow Bedrest Back Rest Pillow","url":"https://www.amazon.com/s?k=Husband+Pillow+Bedrest+Back+Rest&tag=sleepwiserevi-20"}
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What shape body pillow is best for pregnancy?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "C-shaped body pillows are the most popular for early to mid pregnancy — they support the front of the body and between the knees simultaneously while leaving the back open. U-shaped pillows offer the most complete support for late pregnancy — they surround both front and back, preventing rolling and supporting the belly from multiple sides. Straight full-length pillows are the most flexible and least expensive but require repositioning when you roll over. Most OBGYNs recommend sleeping on the left side during pregnancy; a pillow between the knees reduces hip pressure and keeps the pelvis aligned."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Are body pillows only for pregnancy?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Body pillows are beneficial for many people beyond pregnancy. Side sleepers use them to keep the top knee from dropping and twisting the spine — this prevents hip and lower back pain from improper overnight alignment. People recovering from surgery (particularly hip, knee, or abdominal surgery) use them to maintain required positioning. People with back pain, sciatica, or hip pain benefit from the knee separation and lateral lumbar support. They also reduce partner disturbance for restless sleepers by providing something to hold against that replaces movement toward a sleeping partner."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "How do I choose between a C-shaped and U-shaped body pillow?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Choose a C-shape if: you are in early pregnancy or want a body pillow for side sleeping (non-pregnant), you sleep on one preferred side, you have a smaller bed (C-pillows take less horizontal space), and you want lower cost. Choose a U-shape if: you are in late pregnancy (30+ weeks) and need support when rolling between sides, you tend to roll onto your back at night and need a barrier, you share a king-size bed and space is not a constraint, or you want maximum surrounding support for injury recovery."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "What fill type is best for a body pillow?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Memory foam: best support and neck/back alignment, heaviest, runs hot. Shredded memory foam: adjustable loft, better airflow than solid, mid-weight. Down alternative microfiber: softest feel, lightest, most huggable, compresses over time (requires fluffing). Latex: durable, naturally cool, responsive, heaviest. For pregnancy, softer fills (down alternative or shredded foam) are preferred for their huggability and lighter weight when repositioning at night. For side sleeping and alignment purposes, denser fills (solid or shredded memory foam) provide more consistent hip-to-knee separation."
+        }
+      },
+      {
+        "@type": "Question",
+        "name": "Can body pillows help with back pain and sciatica?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes. Placing a body pillow between the knees while side sleeping keeps the hips stacked and prevents the top leg from rotating forward — a movement that twists the lumbar spine and can aggravate sciatica or herniated discs. For people with piriformis syndrome (a common cause of sciatic-like pain), knee separation during sleep is one of the most effective positional interventions. A pillow behind the back simultaneously prevents unconscious rolling to the painful position. This is why body pillows are frequently recommended in physical therapy for sleep position management during sciatica recovery."
+        }
+      }
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {"@type":"ListItem","position":1,"name":"Home","item":"https://sleepwisereviews.com/"},
+      {"@type":"ListItem","position":2,"name":"All Posts","item":"https://sleepwisereviews.com/posts/"},
+      {"@type":"ListItem","position":3,"name":"Best Body Pillows 2026","item":"https://sleepwisereviews.com/posts/best-body-pillow.html"}
+    ]
+  }
+  </script>
+  <style>
+    :root{--bg:#0a1628;--card:#111e33;--gold:#c9a84c;--text:#e8e0d0;--muted:#8899aa;--border:rgba(201,168,76,0.15)}
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{background:var(--bg);color:var(--text);font-family:'Georgia',serif;line-height:1.8}
+    header{background:var(--card);border-bottom:1px solid var(--border);padding:1rem 2rem;display:flex;align-items:center;justify-content:space-between}
+    .logo{color:var(--gold);text-decoration:none;font-size:1.3rem;font-weight:700}
+    .logo span{color:var(--text)}
+    main{max-width:860px;margin:0 auto;padding:3rem 1.5rem}
+    h1{font-size:2rem;color:var(--gold);margin-bottom:1rem}
+    h2{font-size:1.4rem;color:var(--gold);margin:2.5rem 0 1rem}
+    h3{font-size:1.1rem;color:var(--text);margin:1.5rem 0 0.5rem}
+    p{margin-bottom:1rem;color:var(--text)}
+    .intro-meta{color:var(--muted);font-size:0.9rem;margin-bottom:2rem}
+    .callout{background:var(--card);border-left:4px solid var(--gold);padding:1.2rem 1.5rem;margin:2rem 0;border-radius:0 8px 8px 0}
+    .callout strong{color:var(--gold)}
+    .product-card{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:1.8rem;margin:2rem 0}
+    .product-card .rank{font-size:0.8rem;color:var(--muted);text-transform:uppercase;letter-spacing:1px;margin-bottom:0.3rem}
+    .product-title{font-size:1.2rem;color:var(--gold);font-weight:700;margin-bottom:0.8rem}
+    .product-meta{display:flex;flex-wrap:wrap;gap:0.6rem;margin-bottom:1rem}
+    .tag{background:rgba(201,168,76,0.1);border:1px solid rgba(201,168,76,0.3);color:var(--gold);font-size:0.78rem;padding:0.2rem 0.7rem;border-radius:20px}
+    .pros-cons{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin:1rem 0}
+    .pros,.cons{padding:1rem}
+    .pros{background:rgba(45,106,79,0.08);border-radius:8px}
+    .cons{background:rgba(201,168,76,0.05);border-radius:8px}
+    .pros h4{color:#52b788;margin-bottom:0.5rem;font-size:0.85rem;text-transform:uppercase}
+    .cons h4{color:var(--gold);margin-bottom:0.5rem;font-size:0.85rem;text-transform:uppercase}
+    ul.check li{list-style:none;padding-left:1.4rem;position:relative;margin-bottom:0.3rem;font-size:0.9rem;color:var(--text)}
+    ul.check li::before{content:'\2713';position:absolute;left:0;color:#52b788}
+    ul.cross li{list-style:none;padding-left:1.4rem;position:relative;margin-bottom:0.3rem;font-size:0.9rem;color:var(--text)}
+    ul.cross li::before{content:'\2717';position:absolute;left:0;color:#e07070}
+    .cta-btn{display:inline-block;background:var(--gold);color:#0a1628;font-weight:700;padding:0.7rem 1.6rem;border-radius:8px;text-decoration:none;margin-top:1rem;font-size:0.95rem}
+    .cta-btn:hover{opacity:0.88}
+    table{width:100%;border-collapse:collapse;margin:1.5rem 0;font-size:0.88rem}
+    th{background:var(--card);color:var(--gold);padding:0.7rem;text-align:left;border-bottom:2px solid var(--border)}
+    td{padding:0.65rem;border-bottom:1px solid var(--border);color:var(--text)}
+    tr:nth-child(even) td{background:rgba(255,255,255,0.02)}
+    .shape-guide{background:var(--card);border-radius:10px;padding:1.5rem;margin:2rem 0}
+    .shape-guide h3{color:var(--gold);margin-bottom:1rem}
+    .related-box{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:1.5rem;margin:2.5rem 0}
+    .related-box h3{color:var(--gold);margin-bottom:1rem;font-size:1rem}
+    .related-box ul{list-style:none}
+    .related-box li{margin-bottom:0.5rem}
+    .related-box a{color:var(--text);text-decoration:none;font-size:0.9rem}
+    .related-box a:hover{color:var(--gold)}
+    .faq-section{margin:3rem 0}
+    .faq-item{border-bottom:1px solid var(--border);padding:1.2rem 0}
+    .faq-item h3{color:var(--gold);font-size:1rem;margin-bottom:0.6rem}
+    footer{text-align:center;padding:2rem;color:var(--muted);font-size:0.85rem;border-top:1px solid var(--border)}
+    footer a{color:var(--gold)}
+    @media(max-width:600px){.pros-cons{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+  <header>
+    <a class="logo" href="../">SleepWise<span>Reviews</span></a>
+    <a href="index.html" style="color:var(--muted);font-size:0.9rem;text-decoration:none;">&#8592; All Posts</a>
+  </header>
+  <main>
+    <article>
+    <h1>Best Body Pillows 2026: Side Sleeping, Pregnancy &amp; Back Pain</h1>
+    <p class="intro-meta">Updated May 2026 &nbsp;|&nbsp; 7 pillows reviewed &nbsp;|&nbsp; By SleepWise Reviews</p>
+
+    <p>Body pillows solve a specific alignment problem: when you sleep on your side without support, the top leg drops forward, rotating the pelvis and twisting the lumbar spine. Over 7-8 hours, this can cause or worsen lower back pain, hip pain, and sciatica. A body pillow separates the knees, stacks the hips, and keeps the pelvis neutral.</p>
+
+    <p>For pregnant sleepers, they add belly support and prevent unconscious rolling to the back. This guide ranks seven body pillows across straight, C-shaped, and U-shaped categories — with a clear comparison of when each shape is appropriate.</p>
+
+    <div class="callout">
+      <strong>Quick picks:</strong> <strong>Snuggle-Pedic</strong> for the most versatile straight body pillow. <strong>Leachco Snoogle</strong> for C-shape pregnancy support. <strong>PharMeDoc U-Shape</strong> for the most complete late-pregnancy and post-surgery support.
+    </div>
+
+    <div class="shape-guide">
+      <h3>Body Pillow Shape Guide</h3>
+      <table style="margin:0.5rem 0">
+        <thead>
+          <tr><th>Shape</th><th>Best For</th><th>Space Required</th><th>Repositioning</th></tr>
+        </thead>
+        <tbody>
+          <tr><td>Straight (Full-Length)</td><td>Side sleepers, back pain, general use</td><td>Low</td><td>Carry to other side</td></tr>
+          <tr><td>C-Shape</td><td>Pregnancy (early/mid), preferred-side sleepers</td><td>Medium</td><td>Flip or turn pillow</td></tr>
+          <tr><td>U-Shape</td><td>Pregnancy (late), surgery recovery, maximum support</td><td>High</td><td>Just roll — pillow stays</td></tr>
+        </tbody>
+      </table>
+    </div>
+
+    <h2>The 7 Best Body Pillows</h2>
+
+    <div class="product-card">
+      <div class="rank">Best Overall / Best for Side Sleepers</div>
+      <div class="product-title">1. Snuggle-Pedic Full Body Pillow</div>
+      <div class="product-meta">
+        <span class="tag">Shredded Memory Foam</span>
+        <span class="tag">Straight / Full-Length</span>
+        <span class="tag">Bamboo Cover</span>
+        <span class="tag">~$89-$109</span>
+      </div>
+      <p>Snuggle-Pedic's Full Body Pillow uses their shredded Kool-Flow memory foam in a flexible bamboo-cotton cover — the same construction as their highly-rated standard pillows but in a 54-inch full-length format. The shredded fill allows the pillow to be shaped (bent around the body, tucked between the knees, draped forward or back) and stays cooler than solid foam alternatives.</p>
+      <p>GREENGUARD Gold certified, machine washable cover, and the shredded fill can be removed and replaced through the inner zipper. The 54-inch length suits most adults up to 6'2" for full knee-to-chest coverage. For non-pregnant side sleepers who want a straight body pillow that doubles as a knee separator and back support, this is the recommended default.</p>
+      <div class="pros-cons">
+        <div class="pros">
+          <h4>Pros</h4>
+          <ul class="check">
+            <li>Shredded foam — moldable, stays cool</li>
+            <li>GREENGUARD Gold certified</li>
+            <li>Machine washable bamboo cover</li>
+            <li>Adjustable fill through inner zipper</li>
+          </ul>
+        </div>
+        <div class="cons">
+          <h4>Cons</h4>
+          <ul class="cross">
+            <li>Must reposition when rolling over (straight style)</li>
+            <li>54 inches — may be short for very tall sleepers</li>
+          </ul>
+        </div>
+      </div>
+      <a href="https://www.amazon.com/s?k=Snuggle-Pedic+Full+Body+Pillow&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" class="cta-btn">Check Snuggle-Pedic Price &rarr;</a>
+    </div>
+
+    <div class="product-card">
+      <div class="rank">Best C-Shape / Pregnancy</div>
+      <div class="product-title">2. Leachco Snoogle Original Pregnancy Pillow</div>
+      <div class="product-meta">
+        <span class="tag">C-Shape</span>
+        <span class="tag">Polyester Fill</span>
+        <span class="tag">Early-Mid Pregnancy</span>
+        <span class="tag">~$65-$80</span>
+      </div>
+      <p>The Leachco Snoogle is the original C-shaped pregnancy pillow and has been the market leader for over two decades. The curved design supports the head at the top, drapes down the back, and curves under to support between the knees — all in one piece without needing to position multiple pillows. It is designed specifically for left-side sleeping, the recommended position during pregnancy.</p>
+      <p>The removable jersey knit cover is machine washable. The polyester fill is soft and light (easier to reposition at night than foam fills). Best suited for sleepers who consistently sleep on the same side — the C-shape is not as convenient for side switching as U-shaped alternatives. Most popular during the second trimester.</p>
+      <div class="pros-cons">
+        <div class="pros">
+          <h4>Pros</h4>
+          <ul class="check">
+            <li>Classic C-shape designed for pregnancy</li>
+            <li>Lightweight — easy to reposition</li>
+            <li>Machine washable cover</li>
+            <li>Decades of proven use — trusted by OBGYNs</li>
+          </ul>
+        </div>
+        <div class="cons">
+          <h4>Cons</h4>
+          <ul class="cross">
+            <li>Inconvenient for side-switchers</li>
+            <li>Polyester fill compresses over time</li>
+            <li>Not ideal for non-pregnant use</li>
+          </ul>
+        </div>
+      </div>
+      <a href="https://www.amazon.com/s?k=Leachco+Snoogle+Total+Body+Pillow&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" class="cta-btn">Check Leachco Snoogle Price &rarr;</a>
+    </div>
+
+    <div class="product-card">
+      <div class="rank">Best U-Shape / Late Pregnancy</div>
+      <div class="product-title">3. PharMeDoc Full Body Pregnancy Pillow</div>
+      <div class="product-meta">
+        <span class="tag">U-Shape</span>
+        <span class="tag">Jersey Knit Cover</span>
+        <span class="tag">Late Pregnancy + Recovery</span>
+        <span class="tag">~$50-$75</span>
+      </div>
+      <p>PharMeDoc's U-shaped pregnancy pillow surrounds the sleeper on both sides — front and back support simultaneously. This is the key advantage over C-shaped pillows for late pregnancy: as the belly grows, support is needed from both directions, not just one. The U-shape also prevents rolling to the back without requiring the sleeper to consciously reposition the pillow when switching sides.</p>
+      <p>Available in two sizes (standard and total body) and multiple colors. The jersey knit cover is removable and machine washable. At $50-75, it is significantly more affordable than premium U-shaped alternatives while delivering the essential U-shape functionality. The fill is soft polyester — comfortable but will need fluffing over time.</p>
+      <div class="pros-cons">
+        <div class="pros">
+          <h4>Pros</h4>
+          <ul class="check">
+            <li>Full U-shape support — front and back simultaneously</li>
+            <li>No repositioning needed when rolling over</li>
+            <li>Affordable for U-shape style</li>
+            <li>Multiple color options</li>
+          </ul>
+        </div>
+        <div class="cons">
+          <h4>Cons</h4>
+          <ul class="cross">
+            <li>Takes significant bed space</li>
+            <li>Polyester fill compresses faster than foam</li>
+          </ul>
+        </div>
+      </div>
+      <a href="https://www.amazon.com/s?k=PharMeDoc+Full+Body+Pregnancy+Pillow&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" class="cta-btn">Check PharMeDoc Price &rarr;</a>
+    </div>
+
+    <div class="product-card">
+      <div class="rank">Best for Adjustable / Customizable</div>
+      <div class="product-title">4. Coop Home Goods Full Body Pillow</div>
+      <div class="product-meta">
+        <span class="tag">Adjustable Shredded Foam</span>
+        <span class="tag">Straight</span>
+        <span class="tag">GREENGUARD Gold</span>
+        <span class="tag">~$89-$99</span>
+      </div>
+      <p>Coop Home Goods extends their adjustable pillow system to a 54-inch body pillow format. The same shredded foam and microfiber fill system as their standard pillows, with fill adjustable through the inner zipper. For people who found the Coop standard pillow loft ideal and want the same feel in a full-body format, this is the natural extension.</p>
+      <p>The bamboo-cotton cover is breathable and soft. Like the standard Coop pillow, fill can be removed for a flatter, softer feel or kept full for a firmer, higher support profile. A free fill bag is available for those who want to add loft. Best choice for back pain management side sleeping where you want to fine-tune the knee separation height.</p>
+      <div class="pros-cons">
+        <div class="pros">
+          <h4>Pros</h4>
+          <ul class="check">
+            <li>Adjustable fill — tune loft precisely</li>
+            <li>GREENGUARD Gold certified</li>
+            <li>Breathable bamboo-cotton cover</li>
+          </ul>
+        </div>
+        <div class="cons">
+          <h4>Cons</h4>
+          <ul class="cross">
+            <li>Premium price for a straight body pillow</li>
+            <li>Straight style requires repositioning</li>
+          </ul>
+        </div>
+      </div>
+      <a href="https://www.amazon.com/s?k=Coop+Home+Goods+Full+Body+Pillow&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" class="cta-btn">Check Coop Body Pillow Price &rarr;</a>
+    </div>
+
+    <div class="product-card">
+      <div class="rank">Best for Tall Sleepers</div>
+      <div class="product-title">5. Comfort U Total Body Support Pillow</div>
+      <div class="product-meta">
+        <span class="tag">U-Shape (60 inches)</span>
+        <span class="tag">Microfiber Fill</span>
+        <span class="tag">Oversized</span>
+        <span class="tag">~$99-$129</span>
+      </div>
+      <p>The Comfort U is a U-shaped body pillow sized for taller sleepers and larger beds. At 60 inches, it covers more vertical range than standard U-pillows (typically 54-56 inches), making it suitable for adults over 6 feet without leaving the legs unsupported. The oversized format is best suited for king beds — it will dominate a queen.</p>
+      <p>Microfiber fill is soft and huggable, with a cotton-poly cover that is machine washable. Positioned as a pregnancy pillow but equally useful for injury recovery, post-surgery positioning, or anyone who needs surrounding support on a larger frame. The 60-inch length and U-shape combination make it the best option for tall side sleepers who have outgrown standard body pillow lengths.</p>
+      <div class="pros-cons">
+        <div class="pros">
+          <h4>Pros</h4>
+          <ul class="check">
+            <li>60-inch length — best for tall sleepers (&gt;6 ft)</li>
+            <li>U-shape — no repositioning when rolling</li>
+            <li>Soft microfiber fill — very huggable</li>
+          </ul>
+        </div>
+        <div class="cons">
+          <h4>Cons</h4>
+          <ul class="cross">
+            <li>Requires king-size bed for comfortable use</li>
+            <li>Microfiber compresses — needs regular fluffing</li>
+          </ul>
+        </div>
+      </div>
+      <a href="https://www.amazon.com/s?k=Comfort+U+Total+Body+Support+Pillow&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" class="cta-btn">Check Comfort U Price &rarr;</a>
+    </div>
+
+    <div class="product-card">
+      <div class="rank">Best Budget</div>
+      <div class="product-title">6. Moonlight Slumber Comfort U Pillow</div>
+      <div class="product-meta">
+        <span class="tag">U-Shape</span>
+        <span class="tag">Luxury Fiber Fill</span>
+        <span class="tag">~$69-$99</span>
+      </div>
+      <p>Moonlight Slumber's Comfort U is a well-regarded budget U-shaped pregnancy pillow with a luxury fiber fill that maintains loft better than standard polyester. The cotton-poly cover is washable and comfortable. A reliable mid-range option for those who need U-shape functionality without paying for the PharMeDoc's premium or Comfort U Total Body's oversized format.</p>
+      <div class="pros-cons">
+        <div class="pros">
+          <h4>Pros</h4>
+          <ul class="check">
+            <li>Good loft retention for price</li>
+            <li>U-shape convenience</li>
+            <li>Trusted pregnancy brand</li>
+          </ul>
+        </div>
+        <div class="cons">
+          <h4>Cons</h4>
+          <ul class="cross">
+            <li>Standard 54-inch length</li>
+            <li>Less fill adjustment than shredded foam options</li>
+          </ul>
+        </div>
+      </div>
+      <a href="https://www.amazon.com/s?k=Moonlight+Slumber+Comfort+U+Pillow&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" class="cta-btn">Check Moonlight Slumber Price &rarr;</a>
+    </div>
+
+    <div class="product-card">
+      <div class="rank">Best for Reading in Bed / Back Support</div>
+      <div class="product-title">7. Husband Pillow Bedrest Backrest</div>
+      <div class="product-meta">
+        <span class="tag">Shredded Foam</span>
+        <span class="tag">Armrests + High Back</span>
+        <span class="tag">~$45-$75</span>
+      </div>
+      <p>The Husband Pillow is a bedrest pillow with a high back and armrests — different in function from a standard body pillow but included because it is frequently searched alongside body pillows for its back support while sitting in bed. The shredded foam fill keeps its shape during extended use (reading, watching TV, working on a laptop in bed).</p>
+      <p>Not intended for sleeping — it is too thick and upright to use while lying down. Best for postpartum mothers recovering in bed, people convalescing after surgery, or anyone who spends extended time sitting up in bed. Removable cover, machine washable.</p>
+      <div class="pros-cons">
+        <div class="pros">
+          <h4>Pros</h4>
+          <ul class="check">
+            <li>Armrests — comfortable for extended sitting up</li>
+            <li>Good lumbar support while in bed</li>
+            <li>Machine washable cover</li>
+          </ul>
+        </div>
+        <div class="cons">
+          <h4>Cons</h4>
+          <ul class="cross">
+            <li>For sitting up, not sleeping</li>
+            <li>Takes significant bed space</li>
+          </ul>
+        </div>
+      </div>
+      <a href="https://www.amazon.com/s?k=Husband+Pillow+Bedrest+Back+Rest&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" class="cta-btn">Check Husband Pillow Price &rarr;</a>
+    </div>
+
+    <h2>Comparison Table</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Pillow</th>
+          <th>Shape</th>
+          <th>Fill</th>
+          <th>Best For</th>
+          <th>Price</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr><td>Snuggle-Pedic</td><td>Straight</td><td>Shredded Foam</td><td>Side sleepers (all)</td><td>~$95</td></tr>
+        <tr><td>Leachco Snoogle</td><td>C-Shape</td><td>Polyester</td><td>Early/mid pregnancy</td><td>~$70</td></tr>
+        <tr><td>PharMeDoc</td><td>U-Shape</td><td>Polyester</td><td>Late pregnancy</td><td>~$60</td></tr>
+        <tr><td>Coop Body Pillow</td><td>Straight</td><td>Shredded Foam</td><td>Back pain / adjustable</td><td>~$95</td></tr>
+        <tr><td>Comfort U Total</td><td>U-Shape</td><td>Microfiber</td><td>Tall sleepers / King beds</td><td>~$110</td></tr>
+        <tr><td>Moonlight Slumber</td><td>U-Shape</td><td>Luxury Fiber</td><td>Budget U-shape</td><td>~$80</td></tr>
+        <tr><td>Husband Pillow</td><td>Backrest</td><td>Shredded Foam</td><td>Sitting up in bed</td><td>~$55</td></tr>
+      </tbody>
+    </table>
+
+    <div class="related-box">
+      <h3>Related Pillow &amp; Sleep Guides</h3>
+      <ul>
+        <li><a href="best-pregnancy-pillows.html">&#8594; Best Pregnancy Pillows</a></li>
+        <li><a href="best-memory-foam-pillow.html">&#8594; Best Memory Foam Pillows</a></li>
+        <li><a href="best-pillow-side-sleepers.html">&#8594; Best Pillows for Side Sleepers</a></li>
+        <li><a href="pregnancy-sleep-guide.html">&#8594; Complete Pregnancy Sleep Guide</a></li>
+        <li><a href="sleep-chronic-pain.html">&#8594; Sleep and Chronic Pain</a></li>
+        <li><a href="best-sleep-position.html">&#8594; Best Sleep Position Guide</a></li>
+      </ul>
+    </div>
+
+    <div class="faq-section">
+      <h2>Frequently Asked Questions</h2>
+      <div class="faq-item">
+        <h3>What shape body pillow is best for pregnancy?</h3>
+        <p>C-shaped pillows are most popular for early to mid pregnancy — they support the front and between the knees while leaving the back open. U-shaped pillows offer the most complete support for late pregnancy — they surround both front and back, preventing rolling and supporting the belly from both sides. Straight full-length pillows are the most flexible and least expensive but require repositioning when rolling over.</p>
+      </div>
+      <div class="faq-item">
+        <h3>Are body pillows only for pregnancy?</h3>
+        <p>No. Side sleepers use them to prevent the top knee from dropping and twisting the spine — preventing hip and lower back pain. People recovering from surgery use them to maintain required positioning. People with sciatica or hip pain benefit from knee separation and lateral support. They also reduce partner disturbance for restless sleepers.</p>
+      </div>
+      <div class="faq-item">
+        <h3>How do I choose between C-shape and U-shape?</h3>
+        <p>Choose C-shape for early pregnancy or if you sleep on one preferred side (takes less bed space). Choose U-shape for late pregnancy (30+ weeks) when rolling support is needed from both sides, or if you tend to roll to your back at night and want a barrier. U-shapes need more space — best on a king-size bed.</p>
+      </div>
+      <div class="faq-item">
+        <h3>Can body pillows help with sciatica and back pain?</h3>
+        <p>Yes. Placing a body pillow between the knees while side sleeping keeps the hips stacked and prevents the top leg from rotating forward — a movement that twists the lumbar spine and aggravates sciatica or herniated discs. For piriformis syndrome (a common cause of sciatic-like pain), knee separation during sleep is one of the most effective positional interventions recommended in physical therapy.</p>
+      </div>
+      <div class="faq-item">
+        <h3>What fill type is best for a body pillow?</h3>
+        <p>Memory foam (shredded): best support and alignment, adjustable, better airflow than solid foam. Polyester microfiber: softest feel, most huggable, lightest — good for pregnancy repositioning. Down alternative: similar to polyester but softer. For side sleeping and alignment, denser fills (shredded foam) provide more consistent hip-to-knee separation. For pregnancy huggability and light repositioning, soft microfiber is preferred.</p>
+      </div>
+    </div>
+
+    </article>
+  </main>
+  <footer>
+    <p>&copy; 2025-2026 <a href="../">SleepWise Reviews</a> &middot; Evidence-based sleep guidance</p>
+    <p style="margin-top:0.5rem;font-size:0.8rem;">Some links on this page are affiliate links. We may earn a commission at no extra cost to you.</p>
+  </footer>
+</body>
+</html>"""
+
+path = os.path.join(os.path.dirname(__file__), 'posts', 'best-body-pillow.html')
+with open(path, 'w', encoding='utf-8') as f:
+    f.write(out)
+print('Written:', path)

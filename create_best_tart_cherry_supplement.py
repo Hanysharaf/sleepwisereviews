@@ -1,0 +1,511 @@
+"""Generate posts/best-tart-cherry-supplement.html"""
+import os
+
+OUT = os.path.join(os.path.dirname(__file__), 'posts', 'best-tart-cherry-supplement.html')
+
+html = '''<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Best Tart Cherry Supplements for Sleep 2026 — Natural Melatonin Source | SleepWise Reviews</title>
+  <meta name="description" content="Tart cherry is the only food source with measurable natural melatonin plus anthocyanins that extend melatonin availability. Best tart cherry supplements for sleep — concentrate vs capsule vs juice compared." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://sleepwisereviews.com/posts/best-tart-cherry-supplement.html" />
+  <meta property="og:title" content="Best Tart Cherry Supplements for Sleep 2026" />
+  <meta property="og:description" content="Tart cherry contains natural melatonin plus anthocyanins that inhibit melatonin breakdown — extending sleep duration by up to 84 minutes in clinical trials." />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://sleepwisereviews.com/posts/best-tart-cherry-supplement.html" />
+  <meta property="og:image" content="https://sleepwisereviews.com/images/og-default.png" />
+  <meta property="og:site_name" content="SleepWise Reviews" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Best Tart Cherry Supplements for Sleep 2026" />
+  <meta name="twitter:description" content="Natural melatonin from tart cherry — 84 minutes more sleep in clinical trials. Best concentrate, capsule, and gummy forms compared." />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Best Tart Cherry Supplements for Sleep 2026",
+    "description": "Evidence-based guide to tart cherry supplements for sleep — natural melatonin content, anthocyanin mechanisms, clinical trial results, and the best concentrate, capsule, and juice forms.",
+    "url": "https://sleepwisereviews.com/posts/best-tart-cherry-supplement.html",
+    "datePublished": "2026-05-25",
+    "dateModified": "2026-05-25",
+    "author": {"@type": "Organization", "name": "SleepWise Reviews"},
+    "publisher": {"@type": "Organization", "name": "SleepWise Reviews", "url": "https://sleepwisereviews.com/"}
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://sleepwisereviews.com/"},
+      {"@type": "ListItem", "position": 2, "name": "All Guides", "item": "https://sleepwisereviews.com/posts/"},
+      {"@type": "ListItem", "position": 3, "name": "Best Tart Cherry Supplements for Sleep", "item": "https://sleepwisereviews.com/posts/best-tart-cherry-supplement.html"}
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "Best Tart Cherry Supplements for Sleep 2026",
+    "numberOfItems": 7,
+    "itemListElement": [
+      {"@type": "ListItem", "position": 1, "name": "Cheribundi Tart Cherry Juice"},
+      {"@type": "ListItem", "position": 2, "name": "FreshCap Tart Cherry Concentrate"},
+      {"@type": "ListItem", "position": 3, "name": "NOW Foods Tart Cherry Capsules"},
+      {"@type": "ListItem", "position": 4, "name": "Natural Stacks Tart Cherry"},
+      {"@type": "ListItem", "position": 5, "name": "Montmorency Tart Cherry Gummies"},
+      {"@type": "ListItem", "position": 6, "name": "Puritan's Pride Tart Cherry"},
+      {"@type": "ListItem", "position": 7, "name": "Country Life Tart Cherry Extract"}
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "How does tart cherry help with sleep?",
+        "acceptedAnswer": {"@type": "Answer", "text": "Tart cherry (Montmorency variety) works through two mechanisms: it contains natural melatonin (0.1-0.2 mcg per 100g of cherries) and high concentrations of anthocyanins that inhibit the enzyme indoleamine 2,3-dioxygenase (IDO), which breaks down tryptophan — the precursor to both serotonin and melatonin. A 2012 study in the European Journal of Nutrition found tart cherry juice increased melatonin bioavailability and extended sleep time by an average of 84 minutes in older adults."}
+      },
+      {
+        "@type": "Question",
+        "name": "What dose of tart cherry is effective for sleep?",
+        "acceptedAnswer": {"@type": "Answer", "text": "Clinical trials used the equivalent of approximately 100 Montmorency cherries, typically delivered as 30ml of concentrate (diluted 1:1 with water) or 480ml of juice, taken twice daily — morning and 1-2 hours before bed. Capsule equivalents providing 500-1000mg of tart cherry extract are commonly used, though juice and concentrate forms have more direct clinical validation."}
+      },
+      {
+        "@type": "Question",
+        "name": "Is Montmorency tart cherry the only variety that works?",
+        "acceptedAnswer": {"@type": "Answer", "text": "Montmorency cherries (Prunus cerasus) have the highest anthocyanin content of any commercial cherry variety — significantly higher than sweet cherry varieties (Prunus avium). All published sleep studies used Montmorency specifically. Other tart cherry varieties may have similar properties, but Montmorency is the only one with direct clinical evidence for sleep improvement."}
+      },
+      {
+        "@type": "Question",
+        "name": "How long does tart cherry take to work for sleep?",
+        "acceptedAnswer": {"@type": "Answer", "text": "Clinical studies typically show measurable effects after 7-14 days of consistent use. Unlike melatonin (which has a 30-60 minute onset effect), tart cherry works by gradually increasing melatonin synthesis and availability over time. Taking it consistently twice daily — morning and pre-bed — produces cumulative benefits that peak around the 2-week mark."}
+      },
+      {
+        "@type": "Question",
+        "name": "Can I take tart cherry with melatonin?",
+        "acceptedAnswer": {"@type": "Answer", "text": "Yes, and the combination may be synergistic. Tart cherry anthocyanins inhibit melatonin breakdown, which can extend the effective duration of supplemental melatonin. A reasonable stack: tart cherry concentrate (30ml) twice daily (morning + pre-bed) with low-dose melatonin (0.5mg) 30-60 minutes before bed. This provides natural melatonin baseline support plus the IDO-inhibiting effect."}
+      }
+    ]
+  }
+  </script>
+  <style>
+    :root {
+      --bg: #0a1628; --card: #111e33; --gold: #c9a84c;
+      --text: #e8e0d0; --muted: #8899aa; --border: rgba(201,168,76,0.15);
+      --green: #4caf8a; --cherry: #c0392b;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { background: var(--bg); color: var(--text); font-family: 'Georgia', serif; line-height: 1.8; }
+    header { background: var(--card); border-bottom: 1px solid var(--border); padding: 1rem 2rem; display: flex; align-items: center; justify-content: space-between; }
+    .logo { color: var(--gold); text-decoration: none; font-size: 1.3rem; font-weight: 700; }
+    .logo span { color: var(--text); }
+    main { max-width: 780px; margin: 0 auto; padding: 3rem 1.5rem; }
+    h1 { font-size: 2.1rem; color: var(--gold); margin-bottom: 0.75rem; line-height: 1.25; }
+    .meta { color: var(--muted); font-size: 0.9rem; margin-bottom: 2rem; font-family: sans-serif; }
+    h2 { font-size: 1.4rem; color: var(--gold); margin: 2.5rem 0 1rem; border-bottom: 1px solid var(--border); padding-bottom: 0.4rem; }
+    h3 { font-size: 1.1rem; color: var(--text); margin: 1.5rem 0 0.5rem; }
+    p { margin-bottom: 1.1rem; }
+    .intro-box { background: var(--card); border-left: 4px solid var(--gold); padding: 1.2rem 1.5rem; border-radius: 4px; margin-bottom: 2rem; font-size: 1.05rem; }
+    .dose-box { background: rgba(192,57,43,0.1); border: 2px solid rgba(192,57,43,0.3); border-radius: 8px; padding: 1.5rem; margin: 2rem 0; text-align: center; }
+    .dose-amount { font-size: 2.5rem; font-weight: 700; color: var(--gold); font-family: sans-serif; }
+    .dose-label { color: var(--muted); font-size: 0.9rem; font-family: sans-serif; margin-top: 0.3rem; }
+    .product-card { background: var(--card); border: 1px solid var(--border); border-radius: 8px; padding: 1.5rem; margin-bottom: 1.5rem; }
+    .product-card h3 { margin-top: 0; color: var(--gold); font-size: 1.15rem; }
+    .badge { display: inline-block; background: rgba(201,168,76,0.15); color: var(--gold); font-size: 0.75rem; font-family: sans-serif; padding: 0.2rem 0.6rem; border-radius: 20px; margin-bottom: 0.75rem; font-weight: 600; letter-spacing: 0.04em; }
+    .badge.green { background: rgba(76,175,138,0.15); color: var(--green); }
+    .specs { display: flex; flex-wrap: wrap; gap: 0.5rem; margin: 0.75rem 0; }
+    .spec { background: rgba(255,255,255,0.04); padding: 0.25rem 0.6rem; border-radius: 4px; font-size: 0.82rem; font-family: sans-serif; color: var(--muted); }
+    .pros-cons { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin: 1rem 0; }
+    .pros h4, .cons h4 { font-size: 0.85rem; font-family: sans-serif; letter-spacing: 0.05em; margin-bottom: 0.5rem; }
+    .pros h4 { color: var(--green); }
+    .cons h4 { color: #e07070; }
+    .pros ul, .cons ul { list-style: none; }
+    .pros li::before { content: "+ "; color: var(--green); font-weight: 700; }
+    .cons li::before { content: "- "; color: #e07070; font-weight: 700; }
+    .pros li, .cons li { font-size: 0.88rem; margin-bottom: 0.3rem; line-height: 1.4; }
+    .cta-btn { display: inline-block; background: var(--gold); color: #0a1628; padding: 0.6rem 1.4rem; border-radius: 4px; text-decoration: none; font-weight: 700; font-family: sans-serif; font-size: 0.9rem; margin-top: 0.75rem; }
+    .cta-btn:hover { opacity: 0.9; }
+    .science-box { background: rgba(201,168,76,0.07); border: 1px solid var(--border); border-radius: 8px; padding: 1.5rem; margin: 2rem 0; }
+    .science-box h3 { color: var(--gold); margin-top: 0; }
+    table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; font-size: 0.88rem; font-family: sans-serif; }
+    th { background: var(--card); color: var(--gold); padding: 0.6rem 0.8rem; text-align: left; border: 1px solid var(--border); }
+    td { padding: 0.55rem 0.8rem; border: 1px solid var(--border); vertical-align: top; }
+    tr:nth-child(even) td { background: rgba(255,255,255,0.02); }
+    .faq-item { border-bottom: 1px solid var(--border); padding: 1.2rem 0; }
+    .faq-item:last-child { border-bottom: none; }
+    .faq-item h3 { color: var(--gold); font-size: 1rem; margin: 0 0 0.5rem; }
+    footer { text-align: center; padding: 2rem; color: var(--muted); font-size: 0.85rem; border-top: 1px solid var(--border); margin-top: 3rem; }
+    footer a { color: var(--gold); }
+    .disclaimer { background: rgba(255,255,255,0.03); border: 1px solid var(--border); border-radius: 4px; padding: 0.8rem 1rem; font-size: 0.8rem; color: var(--muted); margin-top: 2rem; font-family: sans-serif; }
+    @media (max-width: 600px) { .pros-cons { grid-template-columns: 1fr; } h1 { font-size: 1.6rem; } }
+  </style>
+</head>
+<body>
+  <header>
+    <a class="logo" href="../">SleepWise<span>Reviews</span></a>
+    <a href="../posts/" style="color:var(--muted);font-size:0.9rem;text-decoration:none;">All Guides</a>
+  </header>
+  <main>
+    <h1>Best Tart Cherry Supplements for Sleep 2026</h1>
+    <p class="meta">Updated May 2026 &nbsp;|&nbsp; Supplements &nbsp;|&nbsp; 11 min read</p>
+
+    <div class="intro-box">
+      Tart cherry is the only food source proven to raise urinary melatonin levels and extend total sleep time in controlled trials. The mechanism goes beyond simple melatonin content — anthocyanins in Montmorency cherry inhibit the enzyme that breaks down melatonin, effectively extending its availability in the bloodstream.
+    </div>
+
+    <p>A 2012 randomized controlled trial published in the <em>European Journal of Nutrition</em> found that tart cherry juice consumption increased sleep time by an average of 84 minutes and improved sleep efficiency in older adults. This is one of the largest sleep-duration effects documented for any natural supplement.</p>
+
+    <p>The active variety is <em>Prunus cerasus</em> — Montmorency sour cherry — which has significantly higher anthocyanin content than sweet cherry varieties. The best supplements concentrate this specific cultivar to deliver clinically relevant doses without requiring the volume of whole juice.</p>
+
+    <div class="dose-box">
+      <div class="dose-amount">30ml concentrate</div>
+      <div class="dose-label">Twice daily — morning and 1-2 hours before bed &nbsp;|&nbsp; Equivalent to ~100 Montmorency cherries</div>
+    </div>
+
+    <h2>Best Tart Cherry Supplements — Ranked</h2>
+
+    <div class="product-card">
+      <span class="badge">Best Overall — Juice Concentrate</span>
+      <h3>#1 — Cheribundi Tart Cherry Juice</h3>
+      <div class="specs">
+        <span class="spec">Form: 100% Juice</span>
+        <span class="spec">Cherry Equivalent: 50 per 8oz serving</span>
+        <span class="spec">Variety: Montmorency</span>
+        <span class="spec">Added Sugar: None</span>
+      </div>
+      <p>Cheribundi produces what is arguably the closest commercial equivalent to the juice used in published sleep trials. Their tart cherry juice is cold-pressed from Montmorency cherries with no added sugar, no artificial flavors, and no dilution — the same profile used in the Howatson et al. 2012 study that showed 84 minutes of additional sleep.</p>
+      <p>The key differentiator vs concentrate: no reconstitution required, and the anthocyanin content is preserved through cold-press processing rather than heat concentration. Each 8oz serving delivers approximately 50 cherry equivalents — take twice daily (morning + 1-2 hrs before bed) to reach the 100-cherry clinical dose used in trials.</p>
+      <div class="pros-cons">
+        <div class="pros">
+          <h4>PROS</h4>
+          <ul>
+            <li>Closest to clinical trial formulation</li>
+            <li>No added sugar or dilution</li>
+            <li>Cold-press preserves anthocyanins</li>
+            <li>Montmorency variety confirmed</li>
+          </ul>
+        </div>
+        <div class="cons">
+          <h4>CONS</h4>
+          <ul>
+            <li>Refrigeration required after opening</li>
+            <li>Larger volume (16oz/day) than capsule options</li>
+            <li>Higher cost than concentrate per dose</li>
+          </ul>
+        </div>
+      </div>
+      <a href="https://www.amazon.com/s?k=Cheribundi+tart+cherry+juice&tag=sleepwiserevi-20" class="cta-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+    </div>
+
+    <div class="product-card">
+      <span class="badge green">Best Concentrate</span>
+      <h3>#2 — Dynamic Health Tart Cherry Concentrate</h3>
+      <div class="specs">
+        <span class="spec">Form: Liquid Concentrate</span>
+        <span class="spec">Serving: 1 tbsp diluted</span>
+        <span class="spec">Servings per Bottle: ~32</span>
+        <span class="spec">Variety: Montmorency</span>
+      </div>
+      <p>Dynamic Health's Montmorency tart cherry concentrate delivers a high anthocyanin dose in a small volume — 1 tablespoon (15ml) diluted with 8oz water, taken twice daily, reaches the clinical equivalent. The concentrate format offers the longest shelf life and the lowest cost per dose of any liquid option.</p>
+      <p>The tart flavor is strong and unmistakable when properly diluted — which is useful as a behavioral anchor for a pre-bed supplement routine. Adding to a small glass of water or warm herbal tea 90 minutes before bed integrates well into a wind-down routine. No added sugar in the concentrate itself — sweetness comes entirely from the cherries.</p>
+      <div class="pros-cons">
+        <div class="pros">
+          <h4>PROS</h4>
+          <ul>
+            <li>Best cost per dose of liquid options</li>
+            <li>Long shelf life (concentrate format)</li>
+            <li>High anthocyanin density</li>
+            <li>No added sugar</li>
+          </ul>
+        </div>
+        <div class="cons">
+          <h4>CONS</h4>
+          <ul>
+            <li>Strong tart taste — not for everyone</li>
+            <li>Requires mixing each serving</li>
+          </ul>
+        </div>
+      </div>
+      <a href="https://www.amazon.com/s?k=Dynamic+Health+Tart+Cherry+Concentrate+Montmorency&tag=sleepwiserevi-20" class="cta-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+    </div>
+
+    <div class="product-card">
+      <span class="badge">Best Capsule</span>
+      <h3>#3 — NOW Foods Tart Cherry Capsules</h3>
+      <div class="specs">
+        <span class="spec">Form: Capsules</span>
+        <span class="spec">Dose: 500mg per capsule</span>
+        <span class="spec">Serving: 2 capsules (1000mg) per day</span>
+        <span class="spec">Certifications: GMP Certified</span>
+      </div>
+      <p>NOW Foods' tart cherry capsules are the most cost-effective and convenient capsule option. Each capsule provides 500mg of tart cherry extract — the recommended split is 1 capsule in the morning and 1 capsule 1-2 hours before bed, mirroring the twice-daily protocol of clinical trials.</p>
+      <p>NOW Foods is one of the most trusted brands in the supplement industry — GMP certified manufacturing, third-party tested for identity and purity, and consistent potency across batches. The capsule format eliminates the taste challenge and is ideal for travelers or anyone who finds the juice/concentrate format impractical.</p>
+      <div class="pros-cons">
+        <div class="pros">
+          <h4>PROS</h4>
+          <ul>
+            <li>No refrigeration — travel-friendly</li>
+            <li>Taste-neutral — no tart flavor</li>
+            <li>GMP certified, third-party tested</li>
+            <li>Consistent dosing</li>
+          </ul>
+        </div>
+        <div class="cons">
+          <h4>CONS</h4>
+          <ul>
+            <li>Extract concentration varies by manufacturer</li>
+            <li>Less direct clinical validation vs juice forms</li>
+          </ul>
+        </div>
+      </div>
+      <a href="https://www.amazon.com/s?k=NOW+Foods+Tart+Cherry+Capsules+sleep&tag=sleepwiserevi-20" class="cta-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+    </div>
+
+    <div class="product-card">
+      <span class="badge">Athlete Recovery</span>
+      <h3>#4 — Thorne Research Tart Cherry (Converta)</h3>
+      <div class="specs">
+        <span class="spec">Form: Capsules</span>
+        <span class="spec">Dose: 400mg Montmorency extract</span>
+        <span class="spec">Certifications: NSF Certified for Sport</span>
+        <span class="spec">Third-Party Testing: Yes</span>
+      </div>
+      <p>Thorne's tart cherry supplement is NSF Certified for Sport — the most stringent third-party certification available, testing for banned substances in addition to label accuracy and contaminant screening. This makes it the preferred choice for competitive athletes who need a certified supplement that won't risk a false positive.</p>
+      <p>The sleep benefit for athletes is compounded by tart cherry's well-documented anti-inflammatory and muscle recovery properties — reducing DOMS (delayed onset muscle soreness) while simultaneously supporting sleep architecture. The combination of recovery and sleep benefits makes this the best choice for physically active users.</p>
+      <div class="pros-cons">
+        <div class="pros">
+          <h4>PROS</h4>
+          <ul>
+            <li>NSF Certified for Sport — athlete grade</li>
+            <li>Anti-inflammatory + sleep benefits combined</li>
+            <li>Highest purity standards</li>
+          </ul>
+        </div>
+        <div class="cons">
+          <h4>CONS</h4>
+          <ul>
+            <li>Premium price vs non-sport certified options</li>
+            <li>Lower anthocyanin dose per capsule</li>
+          </ul>
+        </div>
+      </div>
+      <a href="https://www.amazon.com/s?k=Thorne+Tart+Cherry+NSF+Certified+sleep&tag=sleepwiserevi-20" class="cta-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+    </div>
+
+    <div class="product-card">
+      <span class="badge green">Best Gummy</span>
+      <h3>#5 — Nutricost Tart Cherry Gummies</h3>
+      <div class="specs">
+        <span class="spec">Form: Gummies</span>
+        <span class="spec">Dose: 1000mg per 2 gummies</span>
+        <span class="spec">Sugar: 3g per serving (real cherry flavor)</span>
+        <span class="spec">Third-Party Testing: Yes</span>
+      </div>
+      <p>For those who struggle with capsules or find the liquid tart, Nutricost's gummies deliver 1000mg of tart cherry extract in a pleasant, chewable form. The gummy format appeals to habit formation — something enjoyable about the pre-bed supplement routine reduces compliance friction significantly.</p>
+      <p>The sugar content (3g per serving) is minimal and comes primarily from the cherry flavoring — not a concern for most users. Third-party tested for potency. Take 2 gummies 1-2 hours before bed as the pre-sleep dose; take a second serving in the morning to mirror the clinical twice-daily protocol.</p>
+      <div class="pros-cons">
+        <div class="pros">
+          <h4>PROS</h4>
+          <ul>
+            <li>Pleasant taste — high compliance</li>
+            <li>No water needed — pre-bed convenience</li>
+            <li>Good dose per serving (1000mg)</li>
+          </ul>
+        </div>
+        <div class="cons">
+          <h4>CONS</h4>
+          <ul>
+            <li>Sugar content (small but present)</li>
+            <li>Not suitable for strict sugar-free diets</li>
+          </ul>
+        </div>
+      </div>
+      <a href="https://www.amazon.com/s?k=tart+cherry+gummies+sleep+supplement&tag=sleepwiserevi-20" class="cta-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+    </div>
+
+    <div class="product-card">
+      <span class="badge">Budget Option</span>
+      <h3>#6 — Puritan's Pride Tart Cherry Extract</h3>
+      <div class="specs">
+        <span class="spec">Form: Softgels</span>
+        <span class="spec">Dose: 1000mg per 2 softgels</span>
+        <span class="spec">Servings: 60 per bottle</span>
+        <span class="spec">Certification: USP verified</span>
+      </div>
+      <p>Puritan's Pride offers the lowest price-per-dose for a quality-verified tart cherry supplement. The 1000mg dose per 2-softgel serving is appropriate for the pre-sleep dose. USP verification confirms the product contains what the label claims. For budget-conscious buyers who want a consistent nightly supplement without the cost of premium brands, this is the rational choice.</p>
+      <div class="pros-cons">
+        <div class="pros">
+          <h4>PROS</h4>
+          <ul>
+            <li>Lowest cost per dose with quality verification</li>
+            <li>USP verified — label accuracy confirmed</li>
+            <li>Widely available</li>
+          </ul>
+        </div>
+        <div class="cons">
+          <h4>CONS</h4>
+          <ul>
+            <li>No Montmorency variety specification on label</li>
+            <li>No sport certification</li>
+          </ul>
+        </div>
+      </div>
+      <a href="https://www.amazon.com/s?k=Puritan%27s+Pride+Tart+Cherry+Extract+sleep&tag=sleepwiserevi-20" class="cta-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+    </div>
+
+    <div class="product-card">
+      <span class="badge">Powder Format</span>
+      <h3>#7 — BulkSupplements Tart Cherry Powder</h3>
+      <div class="specs">
+        <span class="spec">Form: Powder</span>
+        <span class="spec">Dose: 1000mg per serving</span>
+        <span class="spec">Sizes: 100g to 5kg</span>
+        <span class="spec">Certification: GMP</span>
+      </div>
+      <p>BulkSupplements' tart cherry powder is the most flexible format — it mixes into smoothies, sleep drinks, or protein shakes, making it easy to incorporate into existing supplement routines. At bulk pricing, the cost per gram is the lowest of any option on this list. The pharmaceutical-grade facility and GMP certification provide adequate quality assurance for most users.</p>
+      <p>The powder's versatility makes it useful for those who already take a pre-bed drink (chamomile tea, warm milk, sleep protein shake) and want to add tart cherry without an additional pill or liquid to manage.</p>
+      <div class="pros-cons">
+        <div class="pros">
+          <h4>PROS</h4>
+          <ul>
+            <li>Best bulk cost per gram</li>
+            <li>Mixes into any existing drink</li>
+            <li>Flexible dosing</li>
+          </ul>
+        </div>
+        <div class="cons">
+          <h4>CONS</h4>
+          <ul>
+            <li>Measuring required per dose</li>
+            <li>Tart flavor when mixed in small liquid volumes</li>
+          </ul>
+        </div>
+      </div>
+      <a href="https://www.amazon.com/s?k=BulkSupplements+Tart+Cherry+Powder&tag=sleepwiserevi-20" class="cta-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+    </div>
+
+    <h2>The Science: How Tart Cherry Works for Sleep</h2>
+
+    <div class="science-box">
+      <h3>The IDO Inhibition Mechanism</h3>
+      <p>Tart cherry's sleep effects are driven primarily by anthocyanins — specifically cyanidin-3-glucoside and cyanidin-3-rutinoside, the dominant anthocyanins in Montmorency cherries. These compounds inhibit the enzyme indoleamine 2,3-dioxygenase (IDO), which metabolizes tryptophan away from the serotonin-melatonin pathway.</p>
+      <p>By inhibiting IDO, tart cherry anthocyanins redirect more tryptophan toward melatonin synthesis — increasing the body's endogenous melatonin production rather than supplying exogenous melatonin. This distinction is significant: the effect is longer-lasting and more physiologically natural than supplemental melatonin, and doesn't carry the same risk of receptor downregulation from chronic use.</p>
+    </div>
+
+    <div class="science-box">
+      <h3>Clinical Evidence Summary</h3>
+      <p>The landmark trial: Howatson et al. (2012), <em>European Journal of Nutrition</em>. Double-blind, crossover design. 20 volunteers consumed 30ml Montmorency tart cherry concentrate (diluted 1:1 with water) twice daily for 7 days. Results: urinary melatonin levels increased significantly; total sleep time increased by an average of 84 minutes vs placebo; sleep efficiency improved. Actigraphy-validated, not self-reported.</p>
+      <p>A 2018 study in <em>American Journal of Therapeutics</em> replicated the effect in insomnia patients specifically: tart cherry juice increased total sleep time by 84 minutes and sleep efficiency by 5.5% vs placebo in a crossover design. The consistency across two independent trials strengthens the evidence considerably.</p>
+      <p>The anti-inflammatory mechanism is a secondary benefit: tart cherry reduces oxidative stress markers and inflammatory cytokines (IL-6, CRP) — both of which can interfere with sleep architecture when chronically elevated. Athletes with higher baseline inflammation may see amplified sleep benefits.</p>
+    </div>
+
+    <h2>Tart Cherry vs Other Natural Sleep Supplements</h2>
+
+    <table>
+      <tr>
+        <th>Supplement</th>
+        <th>Mechanism</th>
+        <th>Clinical Evidence</th>
+        <th>Onset</th>
+        <th>Risk of Dependence</th>
+      </tr>
+      <tr>
+        <td>Tart Cherry</td>
+        <td>IDO inhibition, natural melatonin</td>
+        <td>Strong (2 RCTs, 84 min effect)</td>
+        <td>7-14 days</td>
+        <td>None</td>
+      </tr>
+      <tr>
+        <td>Melatonin (low dose)</td>
+        <td>Circadian signal</td>
+        <td>Strong for jet lag/shift work</td>
+        <td>30-60 min</td>
+        <td>Low, but receptor adaptation possible</td>
+      </tr>
+      <tr>
+        <td>Magnesium Glycinate</td>
+        <td>GABA-A modulation, glycine</td>
+        <td>Moderate (multiple small RCTs)</td>
+        <td>1-2 weeks</td>
+        <td>None</td>
+      </tr>
+      <tr>
+        <td>Glycine</td>
+        <td>Core temp reduction</td>
+        <td>Moderate (Yamadera 2007)</td>
+        <td>Acute (single dose)</td>
+        <td>None</td>
+      </tr>
+      <tr>
+        <td>L-Theanine</td>
+        <td>Alpha wave promotion, GABA</td>
+        <td>Moderate</td>
+        <td>30-60 min</td>
+        <td>None</td>
+      </tr>
+      <tr>
+        <td>Valerian</td>
+        <td>GABA modulation</td>
+        <td>Mixed evidence</td>
+        <td>2-4 weeks</td>
+        <td>Low</td>
+      </tr>
+    </table>
+
+    <h2>Pre-Sleep Supplement Stack with Tart Cherry</h2>
+
+    <div class="science-box">
+      <h3>Optimal Protocol</h3>
+      <p><strong>Morning (with breakfast):</strong> 30ml tart cherry concentrate + water, OR 500mg tart cherry capsule</p>
+      <p><strong>90 minutes before bed:</strong> 30ml tart cherry concentrate + water, OR 500mg tart cherry capsule</p>
+      <p><strong>30-60 minutes before bed (optional additions):</strong> Magnesium glycinate 300-400mg + Glycine 3g + L-Theanine 100-200mg</p>
+      <p>The twice-daily tart cherry protocol maintains consistent anthocyanin levels in circulation — the morning dose is as important as the pre-bed dose for building the IDO-inhibiting effect over time.</p>
+    </div>
+
+    <h2>Frequently Asked Questions</h2>
+
+    <div class="faq-item">
+      <h3>How does tart cherry help with sleep?</h3>
+      <p>Tart cherry (Montmorency variety) works through two mechanisms: natural melatonin content and anthocyanins that inhibit the enzyme IDO, which normally breaks down tryptophan. By blocking IDO, anthocyanins redirect more tryptophan toward melatonin synthesis — increasing endogenous melatonin production. A 2012 RCT found this increased sleep time by 84 minutes in older adults.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>What dose of tart cherry is effective for sleep?</h3>
+      <p>Clinical trials used 30ml of concentrate (diluted 1:1 with water) twice daily, or approximately 480ml of juice daily — equivalent to around 100 Montmorency cherries. Capsule equivalents of 500-1000mg twice daily are commonly used, though juice and concentrate have more direct clinical validation.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>Is Montmorency tart cherry the only variety that works?</h3>
+      <p>Yes — all published sleep trials used Montmorency specifically (Prunus cerasus), which has significantly higher anthocyanin content than sweet cherry varieties. Look for "Montmorency" on the label when choosing a supplement. Generic "tart cherry" without variety specification may be lower potency.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>How long does tart cherry take to work for sleep?</h3>
+      <p>7-14 days of consistent use before measurable effects appear. Unlike melatonin (30-60 minute onset), tart cherry builds cumulatively by gradually increasing melatonin synthesis. Take it consistently twice daily — morning and pre-bed — for the full effect. Results are most pronounced after two weeks.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>Can I take tart cherry with melatonin?</h3>
+      <p>Yes, and the combination is likely synergistic. Tart cherry anthocyanins inhibit melatonin breakdown, extending the effective duration of supplemental melatonin. A reasonable stack: tart cherry concentrate twice daily + low-dose melatonin (0.5mg) 30-60 minutes before bed. This provides natural melatonin baseline support plus the IDO-inhibiting effect.</p>
+    </div>
+
+    <p class="disclaimer">Affiliate disclosure: This page contains Amazon affiliate links using the tag sleepwiserevi-20. We earn a commission at no extra cost to you. All product selections are based on independent research and clinical evidence. This is not medical advice — consult your physician before starting any supplement regimen.</p>
+  </main>
+  <footer>
+    <p>&copy; 2025-2026 <a href="../">SleepWise Reviews</a> &nbsp;|&nbsp; Evidence-based sleep guidance</p>
+  </footer>
+</body>
+</html>'''
+
+os.makedirs(os.path.dirname(OUT), exist_ok=True)
+with open(OUT, 'w', encoding='utf-8') as f:
+    f.write(html)
+print(f'Written: {OUT}')

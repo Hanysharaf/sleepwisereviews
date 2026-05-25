@@ -1,0 +1,487 @@
+"""Generate posts/best-passionflower-supplement-sleep.html"""
+import os
+
+OUT = os.path.join(os.path.dirname(__file__), 'posts', 'best-passionflower-supplement-sleep.html')
+
+html = '''<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Best Passionflower Supplements for Sleep 2026 — GABA-A Agonist Evidence | SleepWise Reviews</title>
+  <meta name="description" content="Passionflower (Passiflora incarnata) modulates GABA-A receptors and reduces anxiety-driven sleep disruption. A 2011 RCT found 1 cup of passionflower tea improved sleep quality scores significantly. Best supplements compared." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://sleepwisereviews.com/posts/best-passionflower-supplement-sleep.html" />
+  <meta property="og:title" content="Best Passionflower Supplements for Sleep 2026" />
+  <meta property="og:description" content="Passionflower modulates GABA-A receptors — the same target as benzodiazepines, but without sedation or dependence risk. Clinical evidence and best supplement forms compared." />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://sleepwisereviews.com/posts/best-passionflower-supplement-sleep.html" />
+  <meta property="og:image" content="https://sleepwisereviews.com/images/og-default.png" />
+  <meta property="og:site_name" content="SleepWise Reviews" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Best Passionflower Supplements for Sleep 2026" />
+  <meta name="twitter:description" content="GABA-A modulation without sedation or dependence. Passionflower clinical evidence and best tea, capsule, and tincture forms for sleep compared." />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Best Passionflower Supplements for Sleep 2026",
+    "description": "Evidence-based guide to passionflower (Passiflora incarnata) for sleep — GABA-A receptor mechanism, clinical trial results, chrysin content, and the best tea, capsule, and tincture forms.",
+    "url": "https://sleepwisereviews.com/posts/best-passionflower-supplement-sleep.html",
+    "datePublished": "2026-05-25",
+    "dateModified": "2026-05-25",
+    "author": {"@type": "Organization", "name": "SleepWise Reviews"},
+    "publisher": {"@type": "Organization", "name": "SleepWise Reviews", "url": "https://sleepwisereviews.com/"}
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://sleepwisereviews.com/"},
+      {"@type": "ListItem", "position": 2, "name": "All Guides", "item": "https://sleepwisereviews.com/posts/"},
+      {"@type": "ListItem", "position": 3, "name": "Best Passionflower for Sleep", "item": "https://sleepwisereviews.com/posts/best-passionflower-supplement-sleep.html"}
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "Best Passionflower Supplements for Sleep 2026",
+    "numberOfItems": 7,
+    "itemListElement": [
+      {"@type": "ListItem", "position": 1, "name": "Oregon's Wild Harvest Passionflower"},
+      {"@type": "ListItem", "position": 2, "name": "Gaia Herbs Passionflower"},
+      {"@type": "ListItem", "position": 3, "name": "Herb Pharm Passionflower Liquid Extract"},
+      {"@type": "ListItem", "position": 4, "name": "Nature's Way Passionflower"},
+      {"@type": "ListItem", "position": 5, "name": "Alvita Passionflower Tea"},
+      {"@type": "ListItem", "position": 6, "name": "NOW Foods Passionflower Extract"},
+      {"@type": "ListItem", "position": 7, "name": "Planetary Herbals Passionflower"}
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "How does passionflower help with sleep?",
+        "acceptedAnswer": {"@type": "Answer", "text": "Passionflower (Passiflora incarnata) contains flavonoids — primarily chrysin and isovitexin — that bind to GABA-A receptors in the brain, the same receptors targeted by benzodiazepines. This modulation increases inhibitory neurotransmitter activity, reducing neuronal excitability and promoting relaxation without the sedation or dependence risk of pharmaceutical anxiolytics. It is particularly effective for anxiety-driven sleep disruption."}
+      },
+      {
+        "@type": "Question",
+        "name": "What is the clinical evidence for passionflower and sleep?",
+        "acceptedAnswer": {"@type": "Answer", "text": "The strongest clinical evidence: Ngan and Conduit (2011), published in Phytotherapy Research. A double-blind, placebo-controlled crossover trial found that one cup of passionflower tea per night for one week significantly improved sleep quality scores compared to placebo. Participants reported higher sleep quality diary scores on passionflower nights. A 2017 trial also found passionflower reduced anxiety and improved sleep in hospitalized patients undergoing surgery."}
+      },
+      {
+        "@type": "Question",
+        "name": "What dose of passionflower is effective for sleep?",
+        "acceptedAnswer": {"@type": "Answer", "text": "The Ngan and Conduit 2011 trial used one cup of passionflower tea (2g dried herb) per night. Capsule equivalents: 250-500mg of dried passionflower extract (standardized to 3.5% isovitexin) taken 30-60 minutes before bed. Tinctures: 20-40 drops in water. Start at the lower end and adjust based on response."}
+      },
+      {
+        "@type": "Question",
+        "name": "Is passionflower safe for long-term use?",
+        "acceptedAnswer": {"@type": "Answer", "text": "Passionflower has a long history of traditional use and is generally regarded as safe (GRAS) for short-term use. Long-term safety data beyond 6 months is limited. It does not appear to cause dependence or tolerance — unlike pharmaceutical GABA-A modulators (benzodiazepines). Do not combine with sedative medications, alcohol, or other central nervous system depressants. Not recommended during pregnancy."}
+      },
+      {
+        "@type": "Question",
+        "name": "What is the difference between tea and capsule passionflower for sleep?",
+        "acceptedAnswer": {"@type": "Answer", "text": "The clinical trial used tea (2g dried herb). Tea has slower absorption but the ritual of making warm tea before bed adds a behavioral sleep-cue component that may amplify the pharmacological effect. Capsules and tinctures provide faster, more consistent dosing — better for users who want precision. Tinctures (liquid extract) absorb fastest. For most users, capsules or tinctures with standardized isovitexin content provide more reliable sleep benefits than unstandardized tea."}
+      }
+    ]
+  }
+  </script>
+  <style>
+    :root {
+      --bg: #0a1628; --card: #111e33; --gold: #c9a84c;
+      --text: #e8e0d0; --muted: #8899aa; --border: rgba(201,168,76,0.15);
+      --green: #4caf8a;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { background: var(--bg); color: var(--text); font-family: 'Georgia', serif; line-height: 1.8; }
+    header { background: var(--card); border-bottom: 1px solid var(--border); padding: 1rem 2rem; display: flex; align-items: center; justify-content: space-between; }
+    .logo { color: var(--gold); text-decoration: none; font-size: 1.3rem; font-weight: 700; }
+    .logo span { color: var(--text); }
+    main { max-width: 780px; margin: 0 auto; padding: 3rem 1.5rem; }
+    h1 { font-size: 2.1rem; color: var(--gold); margin-bottom: 0.75rem; line-height: 1.25; }
+    .meta { color: var(--muted); font-size: 0.9rem; margin-bottom: 2rem; font-family: sans-serif; }
+    h2 { font-size: 1.4rem; color: var(--gold); margin: 2.5rem 0 1rem; border-bottom: 1px solid var(--border); padding-bottom: 0.4rem; }
+    h3 { font-size: 1.1rem; color: var(--text); margin: 1.5rem 0 0.5rem; }
+    p { margin-bottom: 1.1rem; }
+    .intro-box { background: var(--card); border-left: 4px solid var(--gold); padding: 1.2rem 1.5rem; border-radius: 4px; margin-bottom: 2rem; font-size: 1.05rem; }
+    .product-card { background: var(--card); border: 1px solid var(--border); border-radius: 8px; padding: 1.5rem; margin-bottom: 1.5rem; }
+    .product-card h3 { margin-top: 0; color: var(--gold); font-size: 1.15rem; }
+    .badge { display: inline-block; background: rgba(201,168,76,0.15); color: var(--gold); font-size: 0.75rem; font-family: sans-serif; padding: 0.2rem 0.6rem; border-radius: 20px; margin-bottom: 0.75rem; font-weight: 600; letter-spacing: 0.04em; }
+    .badge.green { background: rgba(76,175,138,0.15); color: var(--green); }
+    .specs { display: flex; flex-wrap: wrap; gap: 0.5rem; margin: 0.75rem 0; }
+    .spec { background: rgba(255,255,255,0.04); padding: 0.25rem 0.6rem; border-radius: 4px; font-size: 0.82rem; font-family: sans-serif; color: var(--muted); }
+    .pros-cons { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin: 1rem 0; }
+    .pros h4, .cons h4 { font-size: 0.85rem; font-family: sans-serif; letter-spacing: 0.05em; margin-bottom: 0.5rem; }
+    .pros h4 { color: var(--green); }
+    .cons h4 { color: #e07070; }
+    .pros ul, .cons ul { list-style: none; }
+    .pros li::before { content: "+ "; color: var(--green); font-weight: 700; }
+    .cons li::before { content: "- "; color: #e07070; font-weight: 700; }
+    .pros li, .cons li { font-size: 0.88rem; margin-bottom: 0.3rem; line-height: 1.4; }
+    .cta-btn { display: inline-block; background: var(--gold); color: #0a1628; padding: 0.6rem 1.4rem; border-radius: 4px; text-decoration: none; font-weight: 700; font-family: sans-serif; font-size: 0.9rem; margin-top: 0.75rem; }
+    .cta-btn:hover { opacity: 0.9; }
+    .science-box { background: rgba(201,168,76,0.07); border: 1px solid var(--border); border-radius: 8px; padding: 1.5rem; margin: 2rem 0; }
+    .science-box h3 { color: var(--gold); margin-top: 0; }
+    table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; font-size: 0.88rem; font-family: sans-serif; }
+    th { background: var(--card); color: var(--gold); padding: 0.6rem 0.8rem; text-align: left; border: 1px solid var(--border); }
+    td { padding: 0.55rem 0.8rem; border: 1px solid var(--border); vertical-align: top; }
+    tr:nth-child(even) td { background: rgba(255,255,255,0.02); }
+    .faq-item { border-bottom: 1px solid var(--border); padding: 1.2rem 0; }
+    .faq-item:last-child { border-bottom: none; }
+    .faq-item h3 { color: var(--gold); font-size: 1rem; margin: 0 0 0.5rem; }
+    footer { text-align: center; padding: 2rem; color: var(--muted); font-size: 0.85rem; border-top: 1px solid var(--border); margin-top: 3rem; }
+    footer a { color: var(--gold); }
+    .disclaimer { background: rgba(255,255,255,0.03); border: 1px solid var(--border); border-radius: 4px; padding: 0.8rem 1rem; font-size: 0.8rem; color: var(--muted); margin-top: 2rem; font-family: sans-serif; }
+    @media (max-width: 600px) { .pros-cons { grid-template-columns: 1fr; } h1 { font-size: 1.6rem; } }
+  </style>
+</head>
+<body>
+  <header>
+    <a class="logo" href="../">SleepWise<span>Reviews</span></a>
+    <a href="../posts/" style="color:var(--muted);font-size:0.9rem;text-decoration:none;">All Guides</a>
+  </header>
+  <main>
+    <h1>Best Passionflower Supplements for Sleep 2026</h1>
+    <p class="meta">Updated May 2026 &nbsp;|&nbsp; Supplements &nbsp;|&nbsp; 10 min read</p>
+
+    <div class="intro-box">
+      Passionflower (Passiflora incarnata) modulates GABA-A receptors through its flavonoid compounds — chrysin and isovitexin — producing anxiolytic and sleep-promoting effects without the sedation or dependence risk of pharmaceutical GABA modulators. A 2011 randomized crossover trial found it significantly improved subjective sleep quality in healthy adults.
+    </div>
+
+    <p>Passionflower occupies a specific niche in the herbal sleep medicine landscape: it works primarily on anxiety-driven sleep disruption rather than as a direct sedative. For people who struggle to fall asleep because they can't stop thinking, or who wake at 3am with racing thoughts, passionflower's GABA-A modulation addresses the underlying neurological mechanism rather than blunting consciousness broadly.</p>
+
+    <p>It also has one of the cleanest safety profiles in the herbal anxiolytic category — no dependence, no morning grogginess at appropriate doses, and no significant drug interactions (except with CNS depressants and sedative medications). Here are the seven best forms for sleep use.</p>
+
+    <h2>Best Passionflower Supplements — Ranked</h2>
+
+    <div class="product-card">
+      <span class="badge">Best Capsule</span>
+      <h3>#1 — Oregon's Wild Harvest Passionflower</h3>
+      <div class="specs">
+        <span class="spec">Form: Capsules (dried herb)</span>
+        <span class="spec">Dose: 400mg per capsule</span>
+        <span class="spec">Source: Certified Organic</span>
+        <span class="spec">Certifications: USDA Organic, Non-GMO</span>
+      </div>
+      <p>Oregon's Wild Harvest produces certified organic passionflower capsules from fresh-freeze-dried herb — a processing method that preserves the flavonoid content (chrysin, isovitexin, vitexin) better than conventional drying. The USDA Organic certification covers both farming practices and processing. Each 400mg capsule is close to the 500mg dose range used in clinical extrapolations from the herbal medicine literature.</p>
+      <p>The freeze-dried format is particularly relevant because passionflower's active flavonoids are partially heat-labile — conventional drying and manufacturing can reduce potency. Oregon's Wild Harvest's fresh-freeze-dried approach maximizes the bioactive compound content per capsule. Two capsules (800mg) 30-60 minutes before bed represents a clinically informed dose.</p>
+      <div class="pros-cons">
+        <div class="pros">
+          <h4>PROS</h4>
+          <ul>
+            <li>Fresh-freeze-dried — maximum flavonoid preservation</li>
+            <li>USDA Organic certified</li>
+            <li>Clean ingredient list</li>
+            <li>Potent 400mg per capsule</li>
+          </ul>
+        </div>
+        <div class="cons">
+          <h4>CONS</h4>
+          <ul>
+            <li>Not standardized to isovitexin percentage</li>
+            <li>Higher price than commodity capsules</li>
+          </ul>
+        </div>
+      </div>
+      <a href="https://www.amazon.com/s?k=Oregon%27s+Wild+Harvest+Passionflower+Capsules&tag=sleepwiserevi-20" class="cta-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+    </div>
+
+    <div class="product-card">
+      <span class="badge green">Best Standardized Extract</span>
+      <h3>#2 — Gaia Herbs Passionflower</h3>
+      <div class="specs">
+        <span class="spec">Form: Liquid Phyto-Capsules</span>
+        <span class="spec">Standardized: Minimum 3.5% isovitexin</span>
+        <span class="spec">Source: USDA Organic</span>
+        <span class="spec">Certifications: Certified B Corp, Non-GMO</span>
+      </div>
+      <p>Gaia Herbs is one of the most respected herbal supplement brands for product integrity — they operate their own organic farm in North Carolina, use liquid phyto-capsules for better absorption vs dry capsules, and publish detailed phytochemical testing on their Meet Your Herbs platform (scan QR code to see full lab results for your specific lot). Their passionflower is standardized to minimum 3.5% isovitexin — the bioactive flavonoid with the strongest GABA-A binding affinity.</p>
+      <p>The liquid phyto-capsule format dissolves faster than hard-pressed dry capsules and doesn't require an intact capsule shell to release the active compounds. For a plant whose flavonoids benefit from rapid absorption before bed, this format advantage is real. B Corp certification adds supply chain and environmental accountability.</p>
+      <div class="pros-cons">
+        <div class="pros">
+          <h4>PROS</h4>
+          <ul>
+            <li>Standardized 3.5% isovitexin — consistent potency</li>
+            <li>Liquid phyto-capsule — faster absorption</li>
+            <li>Meet Your Herbs lot tracking</li>
+            <li>Farm-to-shelf vertical integration</li>
+          </ul>
+        </div>
+        <div class="cons">
+          <h4>CONS</h4>
+          <ul>
+            <li>Premium price</li>
+            <li>Liquid capsules can leak if stored improperly</li>
+          </ul>
+        </div>
+      </div>
+      <a href="https://www.amazon.com/s?k=Gaia+Herbs+Passionflower+sleep&tag=sleepwiserevi-20" class="cta-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+    </div>
+
+    <div class="product-card">
+      <span class="badge">Best Tincture</span>
+      <h3>#3 — Herb Pharm Passionflower Liquid Extract</h3>
+      <div class="specs">
+        <span class="spec">Form: Liquid Tincture (alcohol-based)</span>
+        <span class="spec">Extraction: Fresh herb ratio 1:2</span>
+        <span class="spec">Source: Certified Organic</span>
+        <span class="spec">Serving: 30-40 drops in water</span>
+      </div>
+      <p>Herb Pharm is the leading liquid herbal extract brand in the US, with over 40 years of experience in botanical medicine. Their passionflower tincture uses fresh herb at a 1:2 ratio — meaning 1 part herb to 2 parts solvent — producing a potent extraction of the aerial parts (leaves, flowers, stems). The fresh herb extraction preserves labile compounds better than dried herb extraction.</p>
+      <p>Tinctures absorb faster than capsules (sublingual absorption through the mouth tissues before swallowing). For sleep use, this means taking 30-40 drops in a small amount of water 30 minutes before bed provides faster onset than capsule options. The alcohol content per serving is minimal (2-3% of the dose volume). Available alcohol-free glycerite for those who avoid alcohol.</p>
+      <div class="pros-cons">
+        <div class="pros">
+          <h4>PROS</h4>
+          <ul>
+            <li>Fastest absorption — sublingual uptake</li>
+            <li>Fresh herb 1:2 extraction — potent</li>
+            <li>40+ year herbal medicine reputation</li>
+            <li>Alcohol-free version available</li>
+          </ul>
+        </div>
+        <div class="cons">
+          <h4>CONS</h4>
+          <ul>
+            <li>Requires measuring drops</li>
+            <li>Distinct herb taste</li>
+            <li>Alcohol-containing (trace)</li>
+          </ul>
+        </div>
+      </div>
+      <a href="https://www.amazon.com/s?k=Herb+Pharm+Passionflower+Liquid+Extract&tag=sleepwiserevi-20" class="cta-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+    </div>
+
+    <div class="product-card">
+      <span class="badge green">Best Value Capsule</span>
+      <h3>#4 — Nature's Way Passionflower</h3>
+      <div class="specs">
+        <span class="spec">Form: Capsules</span>
+        <span class="spec">Dose: 350mg per capsule</span>
+        <span class="spec">Certifications: TRU-ID tested</span>
+        <span class="spec">Count: 90 capsules</span>
+      </div>
+      <p>Nature's Way is one of the most price-accessible quality herbal brands. Their passionflower capsules use 350mg of dried herb per capsule, TRU-ID tested for botanical identity (confirming it's actually Passiflora incarnata and not a substitute). The 90-count bottle offers good value for a supplement taken nightly.</p>
+      <p>For budget-conscious users who want a reliable, identity-verified passionflower supplement without premium brand markup, Nature's Way is the rational choice. Take 1-2 capsules 30-45 minutes before bed.</p>
+      <div class="pros-cons">
+        <div class="pros">
+          <h4>PROS</h4>
+          <ul>
+            <li>TRU-ID botanical identity testing</li>
+            <li>Good value per dose</li>
+            <li>90-count bottle for long supply</li>
+            <li>Widely available</li>
+          </ul>
+        </div>
+        <div class="cons">
+          <h4>CONS</h4>
+          <ul>
+            <li>Not standardized to isovitexin %</li>
+            <li>Dried herb (vs freeze-dried)</li>
+          </ul>
+        </div>
+      </div>
+      <a href="https://www.amazon.com/s?k=Nature%27s+Way+Passionflower+Capsules+sleep&tag=sleepwiserevi-20" class="cta-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+    </div>
+
+    <div class="product-card">
+      <span class="badge">Best Tea (Closest to Trial)</span>
+      <h3>#5 — Alvita Passionflower Tea</h3>
+      <div class="specs">
+        <span class="spec">Form: Tea bags</span>
+        <span class="spec">Dose: 1.5-2g dried herb per bag</span>
+        <span class="spec">Source: Certified Organic</span>
+        <span class="spec">Note: Closest to clinical trial format</span>
+      </div>
+      <p>The Ngan and Conduit 2011 clinical trial used one cup of passionflower tea (2g dried herb steeped for 10 minutes). Alvita's passionflower tea bags are the commercially available product closest to this formulation. For users who want to replicate the clinical protocol exactly — and who value the behavioral ritual of making warm tea as part of their pre-sleep routine — this is the evidence-aligned choice.</p>
+      <p>Certified organic. Steep covered for 10 minutes (covering the cup preserves volatile aromatic compounds that may contribute to the anxiolytic effect). Drink 30-60 minutes before bed. The warm liquid and ritual aspects add non-pharmacological sleep benefit beyond the herbal compounds.</p>
+      <div class="pros-cons">
+        <div class="pros">
+          <h4>PROS</h4>
+          <ul>
+            <li>Closest to clinical trial format</li>
+            <li>Ritual component enhances sleep-cue effect</li>
+            <li>Organic certification</li>
+            <li>Most accessible and lowest cost option</li>
+          </ul>
+        </div>
+        <div class="cons">
+          <h4>CONS</h4>
+          <ul>
+            <li>Less precise dosing than capsules</li>
+            <li>Requires steeping time</li>
+            <li>Consuming liquid before bed may increase waking for bathroom</li>
+          </ul>
+        </div>
+      </div>
+      <a href="https://www.amazon.com/s?k=Alvita+Passionflower+Tea+organic&tag=sleepwiserevi-20" class="cta-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+    </div>
+
+    <div class="product-card">
+      <span class="badge">Budget Capsule</span>
+      <h3>#6 — NOW Foods Passionflower Extract</h3>
+      <div class="specs">
+        <span class="spec">Form: Capsules</span>
+        <span class="spec">Dose: 350mg 4:1 extract per capsule</span>
+        <span class="spec">Equivalent: ~1400mg dried herb</span>
+        <span class="spec">Certifications: GMP</span>
+      </div>
+      <p>NOW Foods' passionflower uses a 4:1 concentrated extract — meaning 4g of herb is concentrated into 1g of extract, so each 350mg capsule is equivalent to approximately 1,400mg of dried herb. This is a more potent formulation than simple dried herb capsules, making it effective at lower milligram doses while maintaining NOW's characteristic GMP-certified, cost-efficient pricing.</p>
+      <div class="pros-cons">
+        <div class="pros">
+          <h4>PROS</h4>
+          <ul>
+            <li>4:1 concentrated extract — high potency</li>
+            <li>GMP certified, reliable brand</li>
+            <li>Best price per equivalent herbal dose</li>
+          </ul>
+        </div>
+        <div class="cons">
+          <h4>CONS</h4>
+          <ul>
+            <li>Not standardized to specific flavonoids</li>
+            <li>Concentration ratio varies in industry</li>
+          </ul>
+        </div>
+      </div>
+      <a href="https://www.amazon.com/s?k=NOW+Foods+Passionflower+Extract+sleep&tag=sleepwiserevi-20" class="cta-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+    </div>
+
+    <div class="product-card">
+      <span class="badge">Combination Formula</span>
+      <h3>#7 — Planetary Herbals Passionflower Calm</h3>
+      <div class="specs">
+        <span class="spec">Form: Tablets</span>
+        <span class="spec">Formula: Passionflower + Valerian + Hops</span>
+        <span class="spec">Brand: Planetary Herbals (Michael Tierra)</span>
+        <span class="spec">Tradition: Western + Ayurvedic formulation</span>
+      </div>
+      <p>Planetary Herbals combines passionflower with valerian root and hops in a synergistic formula. This combination targets multiple sleep mechanisms: passionflower (GABA-A modulation), valerian (valerianic acid GABA-A effect + adenosine interaction), and hops (GABA-A modulation + mild sedation via methylbutenol). For users with significant sleep difficulty who want a comprehensive herbal approach, this multi-herb formula may be more effective than passionflower alone.</p>
+      <div class="pros-cons">
+        <div class="pros">
+          <h4>PROS</h4>
+          <ul>
+            <li>Multi-herb synergy — multiple mechanisms</li>
+            <li>Passionflower + valerian + hops</li>
+            <li>Long-established Western herbal formula</li>
+          </ul>
+        </div>
+        <div class="cons">
+          <h4>CONS</h4>
+          <ul>
+            <li>Harder to isolate which herb is effective</li>
+            <li>Tablet form — slower dissolution</li>
+          </ul>
+        </div>
+      </div>
+      <a href="https://www.amazon.com/s?k=Planetary+Herbals+Passionflower+Calm+sleep&tag=sleepwiserevi-20" class="cta-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+    </div>
+
+    <h2>The Science: Passionflower and Sleep</h2>
+
+    <div class="science-box">
+      <h3>GABA-A Receptor Modulation</h3>
+      <p>GABA (gamma-aminobutyric acid) is the brain's primary inhibitory neurotransmitter. GABA-A receptors are ion channels that — when activated — allow chloride ions to flow into neurons, hyperpolarizing them and reducing excitability. This is the same mechanism targeted by benzodiazepines (diazepam, lorazepam) and Z-drugs (zolpidem).</p>
+      <p>Passionflower flavonoids — principally chrysin and isovitexin — bind to the benzodiazepine site on GABA-A receptors as partial agonists. The key distinction from benzodiazepines: passionflower's partial agonism produces anxiolysis without the full sedation, muscle relaxation, and amnesia of benzodiazepines, and without the receptor downregulation (tolerance) that leads to dependence. Multiple animal studies have confirmed the GABA-A binding mechanism; the Ngan and Conduit 2011 human trial confirmed the clinical sleep quality improvement.</p>
+    </div>
+
+    <div class="science-box">
+      <h3>Key Clinical Evidence</h3>
+      <p>Ngan A and Conduit R (2011). "A Preliminary Investigation of the Effects of Passionflower Herbal Tea on Subjective Sleep Quality." <em>Phytotherapy Research</em>, 25(8), 1153-1159. Double-blind, placebo-controlled, randomized crossover design. 41 adults, one cup passionflower tea vs placebo tea nightly for one week, one-week washout, crossover. Result: significantly improved sleep quality diary scores on passionflower nights. Effect size was moderate — meaningful clinically for subjective sleep quality, not a major polysomnography-level architecture change.</p>
+      <p>A 2020 randomized trial in hospitalized patients found 0.5mg of passionflower extract significantly reduced preoperative anxiety and improved sleep the night before surgery — reinforcing the anxiety-driven sleep disruption mechanism.</p>
+    </div>
+
+    <h2>Herbal Sleep Supplement Comparison</h2>
+
+    <table>
+      <tr>
+        <th>Herb</th>
+        <th>Primary Mechanism</th>
+        <th>Best For</th>
+        <th>Evidence Level</th>
+        <th>Dependence Risk</th>
+      </tr>
+      <tr>
+        <td>Passionflower</td>
+        <td>GABA-A partial agonism</td>
+        <td>Anxiety-driven insomnia</td>
+        <td>Moderate (1 RCT)</td>
+        <td>None</td>
+      </tr>
+      <tr>
+        <td>Valerian</td>
+        <td>GABA-A + adenosine</td>
+        <td>Sleep onset, general insomnia</td>
+        <td>Moderate (mixed RCTs)</td>
+        <td>Very low</td>
+      </tr>
+      <tr>
+        <td>Lemon Balm</td>
+        <td>GABA transaminase inhibition</td>
+        <td>Stress, mild anxiety</td>
+        <td>Low-moderate</td>
+        <td>None</td>
+      </tr>
+      <tr>
+        <td>Hops</td>
+        <td>GABA-A + melatonin receptor</td>
+        <td>Mild sedation, restlessness</td>
+        <td>Low</td>
+        <td>None</td>
+      </tr>
+      <tr>
+        <td>Ashwagandha</td>
+        <td>GABA-A + cortisol reduction</td>
+        <td>Stress-induced insomnia</td>
+        <td>Moderate (multiple RCTs)</td>
+        <td>None</td>
+      </tr>
+    </table>
+
+    <h2>Frequently Asked Questions</h2>
+
+    <div class="faq-item">
+      <h3>How does passionflower help with sleep?</h3>
+      <p>Passionflower flavonoids — chrysin and isovitexin — bind to the benzodiazepine site on GABA-A receptors as partial agonists, increasing inhibitory neurotransmitter activity and reducing neuronal excitability. This produces anxiolysis and relaxation without the sedation or dependence risk of pharmaceutical GABA modulators, making it specifically effective for anxiety-driven sleep disruption.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>What is the clinical evidence for passionflower and sleep?</h3>
+      <p>The strongest evidence: Ngan and Conduit (2011), a double-blind RCT finding that one cup of passionflower tea per night for one week significantly improved subjective sleep quality scores versus placebo. A 2020 trial also confirmed anxiety reduction and improved pre-sleep quality in hospitalized patients. Evidence is moderate — one solid RCT and supporting mechanistic and animal data.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>What dose of passionflower is effective for sleep?</h3>
+      <p>Tea form: 2g dried herb (1 strong tea bag) steeped covered for 10 minutes, 30-60 minutes before bed — this replicates the clinical trial exactly. Capsule equivalent: 250-500mg of standardized extract (3.5% isovitexin) or 400-800mg of dried herb. Tincture: 20-40 drops in water. Start at the lower end and adjust.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>Is passionflower safe for long-term use?</h3>
+      <p>Passionflower is generally regarded as safe for short-to-medium term use. It does not appear to cause dependence or tolerance. Do not combine with sedative medications, alcohol, or other CNS depressants. Not recommended during pregnancy. Long-term safety data beyond 6 months is limited — cycling off every 2-3 months is prudent.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>What is the difference between tea and capsule passionflower?</h3>
+      <p>Tea is closest to the clinical trial format and adds a behavioral sleep-cue component (warm drink ritual). Capsules and tinctures provide more precise and consistent dosing — better for users who want reliable pharmacological effects. Tinctures absorb fastest. Standardized capsules (isovitexin content listed) are most reliable for consistent potency across batches.</p>
+    </div>
+
+    <p class="disclaimer">Affiliate disclosure: This page contains Amazon affiliate links using the tag sleepwiserevi-20. We earn a commission at no extra cost to you. This is not medical advice. Consult your physician before use, particularly if taking sedative medications or CNS depressants. Not recommended during pregnancy.</p>
+  </main>
+  <footer>
+    <p>&copy; 2025-2026 <a href="../">SleepWise Reviews</a> &nbsp;|&nbsp; Evidence-based sleep guidance</p>
+  </footer>
+</body>
+</html>'''
+
+os.makedirs(os.path.dirname(OUT), exist_ok=True)
+with open(OUT, 'w', encoding='utf-8') as f:
+    f.write(html)
+print(f'Written: {OUT}')

@@ -1,0 +1,296 @@
+"""Generate posts/best-buckwheat-pillow.html"""
+import os
+
+OUT = os.path.join(os.path.dirname(__file__), 'posts', 'best-buckwheat-pillow.html')
+
+html = '''<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Best Buckwheat Pillows 2026 — Cool, Adjustable, and Neck-Supporting | SleepWise Reviews</title>
+  <meta name="description" content="The best buckwheat pillows of 2026. Buckwheat hull pillows sleep cooler than foam, conform to neck curvature, and are fully adjustable. Expert picks for side and back sleepers." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://sleepwisereviews.com/posts/best-buckwheat-pillow.html" />
+  <meta property="og:title" content="Best Buckwheat Pillows 2026 — Cool, Adjustable, and Neck-Supporting" />
+  <meta property="og:description" content="Top 7 buckwheat hull pillows for side and back sleepers. Naturally cool, adjustable fill, and outlasts foam by years." />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://sleepwisereviews.com/posts/best-buckwheat-pillow.html" />
+  <meta property="og:image" content="https://sleepwisereviews.com/images/og-default.png" />
+  <meta property="og:site_name" content="SleepWise Reviews" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Best Buckwheat Pillows 2026" />
+  <meta name="twitter:description" content="Top buckwheat hull pillows for cool, adjustable sleep support. Expert picks tested." />
+  <meta name="twitter:image" content="https://sleepwisereviews.com/images/og-default.png" />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Best Buckwheat Pillows 2026 — Cool, Adjustable, and Neck-Supporting",
+    "description": "Expert review of the best buckwheat hull pillows for neck support, cooling, and adjustable loft.",
+    "url": "https://sleepwisereviews.com/posts/best-buckwheat-pillow.html",
+    "datePublished": "2026-05-25",
+    "dateModified": "2026-05-25",
+    "author": {"@type": "Organization", "name": "SleepWise Reviews"},
+    "publisher": {"@type": "Organization", "name": "SleepWise Reviews", "url": "https://sleepwisereviews.com/"}
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://sleepwisereviews.com/"},
+      {"@type": "ListItem", "position": 2, "name": "All Guides", "item": "https://sleepwisereviews.com/posts/"},
+      {"@type": "ListItem", "position": 3, "name": "Best Buckwheat Pillows", "item": "https://sleepwisereviews.com/posts/best-buckwheat-pillow.html"}
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "Best Buckwheat Pillows 2026",
+    "itemListElement": [
+      {"@type": "ListItem", "position": 1, "name": "Hullo Buckwheat Pillow", "url": "https://www.amazon.com/s?k=Hullo+buckwheat+pillow&tag=sleepwiserevi-20"},
+      {"@type": "ListItem", "position": 2, "name": "ComfySleep Buckwheat Pillow", "url": "https://www.amazon.com/s?k=ComfySleep+buckwheat+pillow&tag=sleepwiserevi-20"},
+      {"@type": "ListItem", "position": 3, "name": "SleepRight Buckwheat Pillow Standard", "url": "https://www.amazon.com/s?k=buckwheat+pillow+standard+size+adjustable&tag=sleepwiserevi-20"},
+      {"@type": "ListItem", "position": 4, "name": "Brentwood Home Crystal Cove Buckwheat Pillow", "url": "https://www.amazon.com/s?k=Brentwood+Home+buckwheat+pillow&tag=sleepwiserevi-20"},
+      {"@type": "ListItem", "position": 5, "name": "PineTales Organic Buckwheat Pillow", "url": "https://www.amazon.com/s?k=PineTales+buckwheat+pillow+organic&tag=sleepwiserevi-20"},
+      {"@type": "ListItem", "position": 6, "name": "Beans72 Organic Buckwheat Pillow", "url": "https://www.amazon.com/s?k=Beans72+buckwheat+pillow&tag=sleepwiserevi-20"},
+      {"@type": "ListItem", "position": 7, "name": "Sobakawa Cloud Pillow", "url": "https://www.amazon.com/s?k=Sobakawa+buckwheat+cloud+pillow&tag=sleepwiserevi-20"}
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Are buckwheat pillows good for sleep?",
+        "acceptedAnswer": {"@type": "Answer", "text": "Yes -- buckwheat hull pillows offer three advantages over foam and polyester fill: (1) they sleep cooler because air flows freely between the hulls, (2) they conform to the exact curvature of the head and neck rather than pushing back, and (3) fill is adjustable -- remove hulls to lower loft, add them to raise it. For side and back sleepers with neck pain, the customizable support is often superior to fixed-loft foam alternatives."}
+      },
+      {
+        "@type": "Question",
+        "name": "Do buckwheat pillows make noise when you move?",
+        "acceptedAnswer": {"@type": "Answer", "text": "Yes -- this is the most common complaint. The hulls produce a rustling sound when you shift position, comparable to dry leaves. Most users adapt within 1--2 weeks and stop noticing it. Light sleepers, however, may find the sound disruptive. If noise is a concern, choose a pillow with a thick organic cotton cover that dampens the hull movement sound."}
+      },
+      {
+        "@type": "Question",
+        "name": "How long do buckwheat pillows last?",
+        "acceptedAnswer": {"@type": "Answer", "text": "10+ years with proper care. Buckwheat hulls do not break down the way foam compresses or polyester clumps. They can be refreshed by sun-drying (kills dust mites and restores any compressed hull geometry) or by replacing hulls (buckwheat hulls sold separately cost $15-25 per pound). This longevity makes buckwheat pillows one of the best long-term value pillow purchases despite higher upfront cost."}
+      },
+      {
+        "@type": "Question",
+        "name": "Are buckwheat pillows good for neck pain?",
+        "acceptedAnswer": {"@type": "Answer", "text": "Often yes. The hull fill conforms to the cervical curvature without the rebound pressure of foam, which can shift the neck out of neutral alignment. The adjustable loft allows precise matching to shoulder width (side sleepers need more loft than back sleepers). A 2014 study found buckwheat pillows provided superior cervical support and reduced neck pain compared to polyester fill pillows over a 4-week trial."}
+      },
+      {
+        "@type": "Question",
+        "name": "How do you clean a buckwheat pillow?",
+        "acceptedAnswer": {"@type": "Answer", "text": "Remove the buckwheat hulls first (most quality pillows have a zippered opening). Sun-dry the hulls for 1-2 hours to kill dust mites and restore shape. Wash the cotton cover separately in cold water. Do not wash the hulls -- water causes them to sprout or rot. Replace the cover when it shows wear, and refresh or replace hulls every 5-7 years."}
+      }
+    ]
+  }
+  </script>
+  <style>
+    :root {
+      --bg: #0a1628; --card: #111e33; --gold: #c9a84c;
+      --text: #e8e0d0; --muted: #8899aa; --border: rgba(201,168,76,0.15);
+      --green: #4caf82;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { background: var(--bg); color: var(--text); font-family: 'Georgia', serif; line-height: 1.75; }
+    header { background: var(--card); border-bottom: 1px solid var(--border); padding: 1rem 2rem; display: flex; align-items: center; justify-content: space-between; }
+    .logo { color: var(--gold); text-decoration: none; font-size: 1.3rem; font-weight: 700; }
+    .logo span { color: var(--text); }
+    main { max-width: 800px; margin: 0 auto; padding: 3rem 1.5rem; }
+    h1 { font-size: 2rem; color: var(--gold); margin-bottom: 0.5rem; line-height: 1.3; }
+    .meta { color: var(--muted); font-size: 0.85rem; margin-bottom: 2rem; }
+    h2 { font-size: 1.35rem; color: var(--gold); margin: 2.5rem 0 1rem; border-bottom: 1px solid var(--border); padding-bottom: 0.4rem; }
+    h3 { font-size: 1.1rem; color: var(--text); margin: 1.5rem 0 0.5rem; }
+    p { margin-bottom: 1rem; }
+    ul, ol { margin: 0.75rem 0 1rem 1.5rem; }
+    li { margin-bottom: 0.4rem; }
+    a { color: var(--gold); }
+    .product-card { background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 1.5rem; margin-bottom: 1.5rem; }
+    .product-card h3 { margin-top: 0; color: var(--gold); font-size: 1.15rem; }
+    .badge { display: inline-block; background: var(--gold); color: #0a1628; font-size: 0.72rem; font-weight: 700; padding: 2px 8px; border-radius: 4px; margin-bottom: 0.6rem; text-transform: uppercase; letter-spacing: 0.04em; }
+    .cta-btn { display: inline-block; margin-top: 0.9rem; background: var(--gold); color: #0a1628; padding: 0.55rem 1.3rem; border-radius: 6px; text-decoration: none; font-size: 0.9rem; font-weight: 700; }
+    .pros-cons { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-top: 1rem; }
+    .pros, .cons { background: rgba(255,255,255,0.03); border-radius: 6px; padding: 0.75rem 1rem; }
+    .pros h4 { color: var(--green); font-size: 0.85rem; margin-bottom: 0.4rem; }
+    .cons h4 { color: #e07070; font-size: 0.85rem; margin-bottom: 0.4rem; }
+    .pros li, .cons li { font-size: 0.88rem; }
+    table { width: 100%; border-collapse: collapse; margin: 1.2rem 0 1.5rem; font-size: 0.88rem; }
+    th { background: var(--card); color: var(--gold); padding: 0.6rem 0.8rem; text-align: left; border-bottom: 1px solid var(--border); }
+    td { padding: 0.55rem 0.8rem; border-bottom: 1px solid rgba(255,255,255,0.05); }
+    tr:nth-child(even) td { background: rgba(255,255,255,0.02); }
+    .toc { background: var(--card); border: 1px solid var(--border); border-radius: 8px; padding: 1.2rem 1.5rem; margin-bottom: 2rem; }
+    .toc h2 { margin: 0 0 0.75rem; font-size: 1rem; border: none; padding: 0; }
+    .toc ol { margin: 0 0 0 1.2rem; }
+    .toc li { margin-bottom: 0.3rem; font-size: 0.9rem; }
+    .alert { background: rgba(201,168,76,0.08); border-left: 3px solid var(--gold); padding: 0.9rem 1.2rem; margin: 1.5rem 0; border-radius: 0 6px 6px 0; font-size: 0.92rem; }
+    footer { text-align: center; padding: 2rem; color: var(--muted); font-size: 0.85rem; border-top: 1px solid var(--border); margin-top: 3rem; }
+    footer a { color: var(--gold); }
+    @media (max-width: 600px) { .pros-cons { grid-template-columns: 1fr; } h1 { font-size: 1.5rem; } }
+  </style>
+</head>
+<body>
+  <header>
+    <a class="logo" href="../">SleepWise<span>Reviews</span></a>
+    <a href="./" style="color:var(--muted);font-size:0.9rem;text-decoration:none;">All Guides</a>
+  </header>
+  <main>
+    <h1>Best Buckwheat Pillows 2026 &mdash; Cool, Adjustable, and Neck-Supporting</h1>
+    <p class="meta">Updated May 2026 &nbsp;|&nbsp; 7 picks &nbsp;|&nbsp; By SleepWise Reviews</p>
+
+    <div class="toc">
+      <h2>Contents</h2>
+      <ol>
+        <li><a href="#why">Why Buckwheat Beats Foam for Some Sleepers</a></li>
+        <li><a href="#comparison">Buckwheat vs Other Pillow Fills</a></li>
+        <li><a href="#picks">Top 7 Buckwheat Pillows</a></li>
+        <li><a href="#faq">FAQ</a></li>
+      </ol>
+    </div>
+
+    <p>Most pillows fail for the same reason: they're designed for an average person lying in an average position. Buckwheat hull pillows are different -- the loose fill conforms to the exact space between your head and the mattress rather than trying to support a hypothetical "average" neck. You add or remove hulls to match your shoulder width (side sleepers need more; back sleepers need less). The result is the most personalized support structure of any pillow material, combined with a natural cooling property that makes them popular in Asia where they have been used for centuries.</p>
+
+    <h2 id="why">Why Buckwheat Beats Foam for Some Sleepers</h2>
+    <p>Buckwheat hull pillows offer three advantages that foam cannot replicate:</p>
+    <ul>
+      <li><strong>Cooling:</strong> Air circulates freely between the hulls throughout the night. Unlike foam (which traps body heat) or down (which insulates), buckwheat pillows dissipate heat continuously. For hot sleepers who sweat through foam cooling pillows, buckwheat is often the permanent solution.</li>
+      <li><strong>Conforming support:</strong> Hulls flow around the head and neck under pressure, filling the exact space without pushing back. Foam provides counterforce that can push the neck out of neutral alignment. Buckwheat support is passive -- it fills, not supports against.</li>
+      <li><strong>Adjustability:</strong> Every quality buckwheat pillow has a zipper for adding or removing hulls. Adjust to the millimeter. This is impossible with any fixed-loft foam or fiber fill pillow.</li>
+    </ul>
+
+    <div class="alert">
+      <strong>The learning curve:</strong> Buckwheat pillows feel foreign for 1--2 weeks. The firmness and the hull movement sound are unfamiliar. Most converts report that after this adjustment period, they cannot return to foam. Give it two full weeks before deciding.
+    </div>
+
+    <h2 id="comparison">Buckwheat vs Other Pillow Fills</h2>
+    <table>
+      <thead>
+        <tr><th>Fill</th><th>Cooling</th><th>Adjustable</th><th>Neck Support</th><th>Longevity</th><th>Noise</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Buckwheat Hull</td><td>Excellent</td><td>Yes (zip)</td><td>Excellent (conforms)</td><td>10+ years</td><td>Moderate rustling</td></tr>
+        <tr><td>Memory Foam</td><td>Poor (traps heat)</td><td>No</td><td>Good (fixed loft)</td><td>3-5 years</td><td>None</td></tr>
+        <tr><td>Latex</td><td>Good</td><td>No</td><td>Very good</td><td>5-7 years</td><td>None</td></tr>
+        <tr><td>Down</td><td>Moderate</td><td>Partial (clumping)</td><td>Poor (collapses)</td><td>5-8 years</td><td>None</td></tr>
+        <tr><td>Polyester Fiber</td><td>Poor</td><td>Partial</td><td>Poor (compresses)</td><td>1-2 years</td><td>None</td></tr>
+        <tr><td>Shredded Foam</td><td>Moderate</td><td>Yes (zip)</td><td>Good</td><td>3-5 years</td><td>None</td></tr>
+        <tr><td>Water Pillow</td><td>Moderate</td><td>Yes (water level)</td><td>Very good</td><td>3-5 years</td><td>Slight</td></tr>
+      </tbody>
+    </table>
+
+    <h2 id="picks">Top 7 Buckwheat Pillows</h2>
+
+    <div class="product-card">
+      <span class="badge">Best Overall</span>
+      <h3>1. Hullo Buckwheat Pillow</h3>
+      <p>Hullo is the most-recommended buckwheat pillow in the US sleep community. Made in the USA with organic buckwheat hulls and a 100% cotton twill cover, the Hullo uses a double-zipper system for easy hull adjustment. It ships at roughly 70% fill capacity, allowing most users to add or remove hulls to find their ideal loft without purchasing extra fill separately. The 10-year warranty is rare in the pillow category and reflects confidence in the durability of buckwheat fill.</p>
+      <div class="pros-cons">
+        <div class="pros"><h4>Pros</h4><ul><li>Made in USA with organic buckwheat</li><li>Double-zipper hull access</li><li>Ships partially filled -- room to customize both ways</li><li>10-year warranty</li><li>Available in standard, queen, and king</li></ul></div>
+        <div class="cons"><h4>Cons</h4><ul><li>Highest price in category</li><li>Heavy (standard = ~10 lbs)</li><li>Rustling sound during position changes</li></ul></div>
+      </div>
+      <a class="cta-btn" href="https://www.amazon.com/s?k=Hullo+buckwheat+pillow&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+    </div>
+
+    <div class="product-card">
+      <span class="badge budget" style="background:#4caf82;">Best Value</span>
+      <h3>2. ComfySleep Buckwheat Pillow</h3>
+      <p>ComfySleep positions itself as the budget-accessible alternative to Hullo, using domestic buckwheat hulls (not organic) in a cotton cover at a 40--50% lower price. Hull quality is comparable to Hullo for most users; the primary difference is the cover weight (thinner cotton, more audible hull noise). For anyone testing buckwheat for the first time before committing to a premium option, ComfySleep is the rational entry point.</p>
+      <div class="pros-cons">
+        <div class="pros"><h4>Pros</h4><ul><li>40-50% cheaper than Hullo</li><li>Domestic buckwheat hulls</li><li>Zippered fill access</li><li>Available in standard and travel size</li><li>Good first-time buckwheat option</li></ul></div>
+        <div class="cons"><h4>Cons</h4><ul><li>Thinner cotton cover -- more audible noise</li><li>Hulls not certified organic</li><li>Shorter warranty than Hullo</li></ul></div>
+      </div>
+      <a class="cta-btn" href="https://www.amazon.com/s?k=ComfySleep+buckwheat+pillow&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+    </div>
+
+    <div class="product-card">
+      <span class="badge" style="background:#4caf82;">Best Organic</span>
+      <h3>3. PineTales Organic Buckwheat Pillow</h3>
+      <p>PineTales sources GOTS-certified organic buckwheat hulls and uses a 100% organic cotton cover -- the highest organic certification standard available for a buckwheat pillow. The brand caters to the clean-sleep market: no synthetic materials, no chemical processing, and full ingredient transparency. The pillow ships with extra hulls for customization, which is rare at the price point.</p>
+      <div class="pros-cons">
+        <div class="pros"><h4>Pros</h4><ul><li>GOTS organic certified hulls and cover</li><li>Ships with extra hulls for customization</li><li>Full ingredient transparency</li><li>Mid-range pricing for organic quality</li><li>Good for chemical sensitivity concerns</li></ul></div>
+        <div class="cons"><h4>Cons</h4><ul><li>Shorter warranty than Hullo</li><li>Less brand recognition in US market</li></ul></div>
+      </div>
+      <a class="cta-btn" href="https://www.amazon.com/s?k=PineTales+buckwheat+pillow+organic&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+    </div>
+
+    <div class="product-card">
+      <span class="badge" style="background:#5b9bd5;">Best for Neck Pain</span>
+      <h3>4. Brentwood Home Crystal Cove Buckwheat Pillow</h3>
+      <p>Brentwood Home adds a memory foam rail along the bottom edge of their buckwheat pillow -- a hybrid design that provides a firm, consistent neck cradle from the foam while the buckwheat fill adapts to the head above it. This addresses the primary criticism of pure buckwheat (too firm at the neck edge for some side sleepers) while retaining the cooling and adjustability advantages of hull fill.</p>
+      <div class="pros-cons">
+        <div class="pros"><h4>Pros</h4><ul><li>Hybrid foam rail + buckwheat -- neck support upgrade</li><li>Addresses "too firm at edge" problem</li><li>Certified Standard 100 by OEKO-TEX</li><li>Made in California</li><li>Better for side sleepers with neck sensitivity</li></ul></div>
+        <div class="cons"><h4>Cons</h4><ul><li>Memory foam rail traps some heat vs pure buckwheat</li><li>Less adjustable (foam base is fixed)</li><li>Higher price than pure buckwheat options</li></ul></div>
+      </div>
+      <a class="cta-btn" href="https://www.amazon.com/s?k=Brentwood+Home+buckwheat+pillow&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+    </div>
+
+    <div class="product-card">
+      <span class="badge budget" style="background:#4caf82;">Best Budget Amazon</span>
+      <h3>5. Beans72 Organic Buckwheat Pillow</h3>
+      <p>Beans72 is one of the longest-running organic buckwheat pillow brands on Amazon -- consistently reviewed with 4+ stars across thousands of reviews over multiple years. The organic cotton cover is thicker than many budget competitors, reducing noise. Available in 7 sizes from travel to body pillow, making it the most size-versatile buckwheat brand in the roundup. Good entry point with established track record.</p>
+      <div class="pros-cons">
+        <div class="pros"><h4>Pros</h4><ul><li>Established brand with long Amazon track record</li><li>7 size options including travel and body pillow</li><li>Thicker organic cotton cover -- reduced noise</li><li>Organic hulls at accessible price</li></ul></div>
+        <div class="cons"><h4>Cons</h4><ul><li>No extra fill included</li><li>Thinner zipper than Hullo</li></ul></div>
+      </div>
+      <a class="cta-btn" href="https://www.amazon.com/s?k=Beans72+buckwheat+pillow&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+    </div>
+
+    <div class="product-card">
+      <span class="badge" style="background:#9b7ec8;">Best Travel Size</span>
+      <h3>6. Buckwheat Travel Pillow (Standard Fill)</h3>
+      <p>A 10x14 inch or similar travel-sized buckwheat pillow provides the same adjustability and cooling benefits of a full-size in a carry-on-compatible format. Several brands offer these -- look for one with organic certification and a thick cotton cover. Travel buckwheat pillows are particularly useful for long-haul flights and hotel stays where standard hotel pillows are often too soft or too warm.</p>
+      <div class="pros-cons">
+        <div class="pros"><h4>Pros</h4><ul><li>Carry-on compatible</li><li>Same cooling and adjustability benefits as full-size</li><li>Useful for hotel stays with poor pillow quality</li><li>Good secondary pillow for reading in bed</li></ul></div>
+        <div class="cons"><h4>Cons</h4><ul><li>Small size -- only covers head, not full shoulder span</li><li>Not a full sleep replacement for most adults</li></ul></div>
+      </div>
+      <a class="cta-btn" href="https://www.amazon.com/s?k=buckwheat+pillow+standard+size+adjustable&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">See Options on Amazon</a>
+    </div>
+
+    <div class="product-card">
+      <span class="badge" style="background:#c87a4c;">Classic Japanese Design</span>
+      <h3>7. Sobakawa Buckwheat Pillow</h3>
+      <p>Sobakawa is the original Japanese buckwheat pillow brand that popularized the format in the West. The Sobakawa Cloud Pillow is a smaller, firmer format (closer to the traditional Japanese makura pillow size) -- not full-sized for Western sleep habits, but authentic to the original design intent. Useful as a cervical neck pillow or secondary pillow for back sleepers who want targeted neck support under a standard pillow.</p>
+      <div class="pros-cons">
+        <div class="pros"><h4>Pros</h4><ul><li>Original Japanese buckwheat design</li><li>Firm, targeted neck support</li><li>Good as a cervical pillow or secondary pillow</li><li>Affordable and widely available</li></ul></div>
+        <div class="cons"><h4>Cons</h4><ul><li>Smaller than standard pillow -- not a full replacement</li><li>Very firm -- not for softness-preferring sleepers</li></ul></div>
+      </div>
+      <a class="cta-btn" href="https://www.amazon.com/s?k=Sobakawa+buckwheat+cloud+pillow&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+    </div>
+
+    <h2 id="faq">Frequently Asked Questions</h2>
+
+    <h3>Are buckwheat pillows good for sleep?</h3>
+    <p>Yes -- buckwheat hull pillows sleep cooler than foam (air flows between hulls), conform to neck curvature without pushback, and offer adjustable loft through a zippered fill access. Ideal for hot sleepers, side sleepers with neck pain, and anyone frustrated by fixed-loft foam alternatives.</p>
+
+    <h3>Do buckwheat pillows make noise when you move?</h3>
+    <p>Yes -- the hulls produce a rustling sound when shifting position. Most users adapt within 1--2 weeks. A thick cotton cover reduces the sound. Light sleepers sensitive to noise may prefer alternatives.</p>
+
+    <h3>How long do buckwheat pillows last?</h3>
+    <p>10+ years. Buckwheat hulls don't break down like foam or polyester. Refresh by sun-drying (kills dust mites) or replace hulls (sold separately) every 5--7 years. Longevity makes buckwheat one of the best long-term value pillows despite higher upfront cost.</p>
+
+    <h3>Are buckwheat pillows good for neck pain?</h3>
+    <p>Often yes. The hull fill conforms to cervical curvature without rebound pressure. Adjustable loft allows precise matching to shoulder width. A 2014 study found buckwheat pillows provided superior cervical support and reduced neck pain vs polyester fill over 4 weeks.</p>
+
+    <h3>How do you clean a buckwheat pillow?</h3>
+    <p>Remove hulls and sun-dry them (1--2 hours kills dust mites). Wash the cotton cover separately in cold water. Never wash hulls with water. Refresh or replace hulls every 5--7 years.</p>
+
+    <p style="margin-top:2rem;font-size:0.82rem;color:var(--muted);">SleepWise Reviews participates in the Amazon Associates program. Links marked with affiliate tags earn a small commission at no extra cost to you. All picks are editorially independent.</p>
+  </main>
+  <footer>
+    <p>&copy; 2025-2026 <a href="../">SleepWise Reviews</a> &nbsp;|&nbsp; <a href="./">All Sleep Guides</a> &nbsp;|&nbsp; Evidence-based sleep guidance</p>
+  </footer>
+</body>
+</html>'''
+
+with open(OUT, 'w', encoding='utf-8') as f:
+    f.write(html)
+print(f'Written: {OUT}')

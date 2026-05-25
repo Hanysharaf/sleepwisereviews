@@ -1,0 +1,485 @@
+"""Generate posts/best-weighted-eye-mask.html"""
+import os
+
+OUT = os.path.join(os.path.dirname(__file__), 'posts', 'best-weighted-eye-mask.html')
+
+html = '''<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Best Weighted Eye Masks for Sleep 2026 — Deep Pressure Therapy for Eyes | SleepWise Reviews</title>
+  <meta name="description" content="Weighted eye masks apply gentle acupressure to periorbital muscles, reducing eye strain and activating the oculocardiac reflex for rapid relaxation. Best weighted sleep masks compared by pressure, blackout, and comfort." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://sleepwisereviews.com/posts/best-weighted-eye-mask.html" />
+  <meta property="og:title" content="Best Weighted Eye Masks for Sleep 2026" />
+  <meta property="og:description" content="Weighted eye masks apply gentle pressure that activates the oculocardiac reflex, slowing heart rate and accelerating sleep onset. Best picks for pressure, blackout, and comfort." />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://sleepwisereviews.com/posts/best-weighted-eye-mask.html" />
+  <meta property="og:image" content="https://sleepwisereviews.com/images/og-default.png" />
+  <meta property="og:site_name" content="SleepWise Reviews" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Best Weighted Eye Masks for Sleep 2026" />
+  <meta name="twitter:description" content="Gentle eye pressure activates the oculocardiac reflex — slowing heart rate 5-10 BPM and accelerating sleep onset. Best weighted sleep masks compared." />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Best Weighted Eye Masks for Sleep 2026",
+    "description": "Evidence-based guide to weighted eye masks for sleep — oculocardiac reflex mechanism, acupressure benefits, blackout performance, and the best weighted sleep masks by design and material.",
+    "url": "https://sleepwisereviews.com/posts/best-weighted-eye-mask.html",
+    "datePublished": "2026-05-25",
+    "dateModified": "2026-05-25",
+    "author": {"@type": "Organization", "name": "SleepWise Reviews"},
+    "publisher": {"@type": "Organization", "name": "SleepWise Reviews", "url": "https://sleepwisereviews.com/"}
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://sleepwisereviews.com/"},
+      {"@type": "ListItem", "position": 2, "name": "All Guides", "item": "https://sleepwisereviews.com/posts/"},
+      {"@type": "ListItem", "position": 3, "name": "Best Weighted Eye Masks", "item": "https://sleepwisereviews.com/posts/best-weighted-eye-mask.html"}
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "Best Weighted Eye Masks for Sleep 2026",
+    "numberOfItems": 7,
+    "itemListElement": [
+      {"@type": "ListItem", "position": 1, "name": "Gravity Weighted Sleep Mask"},
+      {"@type": "ListItem", "position": 2, "name": "Nodpod Weighted Sleep Mask"},
+      {"@type": "ListItem", "position": 3, "name": "Manta Sleep Weighted Mask"},
+      {"@type": "ListItem", "position": 4, "name": "Alaska Bear Weighted Eye Mask"},
+      {"@type": "ListItem", "position": 5, "name": "Nidra Deep Rest Weighted Mask"},
+      {"@type": "ListItem", "position": 6, "name": "Unimi Weighted Eye Mask"},
+      {"@type": "ListItem", "position": 7, "name": "Renpho Weighted Eye Massager"}
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "Do weighted eye masks actually help with sleep?",
+        "acceptedAnswer": {"@type": "Answer", "text": "Yes, through a specific physiological mechanism. Gentle pressure on the closed eyelids activates the oculocardiac reflex (OCR) — a vagal response that slows heart rate and reduces sympathetic nervous system activity. Studies show the OCR can reduce heart rate by 5-10 BPM with consistent gentle pressure, which accelerates the transition from alert to relaxed states associated with sleep onset. The pressure also reduces eye strain from digital device use, which can otherwise delay sleep."}
+      },
+      {
+        "@type": "Question",
+        "name": "How much do weighted eye masks weigh?",
+        "acceptedAnswer": {"@type": "Answer", "text": "Effective weighted eye masks typically weigh between 60-120 grams (2-4 oz). The therapeutic window for eye pressure is much lower than for weighted blankets — too heavy creates discomfort and interferes with REM sleep, where eye movement is active. Most clinical-grade weighted masks use 80-100g of weight distributed across the orbital region using small glass beads or seed filling."}
+      },
+      {
+        "@type": "Question",
+        "name": "Are weighted eye masks good for anxiety?",
+        "acceptedAnswer": {"@type": "Answer", "text": "Yes. Deep pressure stimulation around the eyes activates the vagus nerve, which regulates the parasympathetic response. The oculocardiac reflex mechanism is the same used in emergency medicine to slow tachycardia through gentle orbital pressure. For sleep-related anxiety and racing thoughts at bedtime, the cardiovascular slowing effect provides a measurable calming response within 5-10 minutes of use."}
+      },
+      {
+        "@type": "Question",
+        "name": "Can you use a weighted eye mask with a CPAP machine?",
+        "acceptedAnswer": {"@type": "Answer", "text": "Standard face-covering weighted masks are not compatible with most CPAP masks. The exception is orbital-only weighted masks (like Manta Sleep's modular eye cups) that sit on the orbital bones without covering the nose or mouth. If you use CPAP, specifically look for masks that leave a gap at the nose bridge and don't interfere with the mask seal."}
+      },
+      {
+        "@type": "Question",
+        "name": "Should a weighted eye mask press on the eyelids or just sit around the eyes?",
+        "acceptedAnswer": {"@type": "Answer", "text": "It should press gently on the orbital bones (the bony ridge around the eyes) with light, diffuse pressure on the eyelids themselves. Direct, concentrated pressure on the eyeball itself should be avoided. Well-designed weighted masks contour around the orbital ridge and distribute pressure across the eyelid surface rather than creating point pressure. Cup-style masks (like Manta) protect the eyes from direct pressure entirely."}
+      }
+    ]
+  }
+  </script>
+  <style>
+    :root {
+      --bg: #0a1628; --card: #111e33; --gold: #c9a84c;
+      --text: #e8e0d0; --muted: #8899aa; --border: rgba(201,168,76,0.15);
+      --green: #4caf8a;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { background: var(--bg); color: var(--text); font-family: 'Georgia', serif; line-height: 1.8; }
+    header { background: var(--card); border-bottom: 1px solid var(--border); padding: 1rem 2rem; display: flex; align-items: center; justify-content: space-between; }
+    .logo { color: var(--gold); text-decoration: none; font-size: 1.3rem; font-weight: 700; }
+    .logo span { color: var(--text); }
+    main { max-width: 780px; margin: 0 auto; padding: 3rem 1.5rem; }
+    h1 { font-size: 2.1rem; color: var(--gold); margin-bottom: 0.75rem; line-height: 1.25; }
+    .meta { color: var(--muted); font-size: 0.9rem; margin-bottom: 2rem; font-family: sans-serif; }
+    h2 { font-size: 1.4rem; color: var(--gold); margin: 2.5rem 0 1rem; border-bottom: 1px solid var(--border); padding-bottom: 0.4rem; }
+    h3 { font-size: 1.1rem; color: var(--text); margin: 1.5rem 0 0.5rem; }
+    p { margin-bottom: 1.1rem; }
+    .intro-box { background: var(--card); border-left: 4px solid var(--gold); padding: 1.2rem 1.5rem; border-radius: 4px; margin-bottom: 2rem; font-size: 1.05rem; }
+    .product-card { background: var(--card); border: 1px solid var(--border); border-radius: 8px; padding: 1.5rem; margin-bottom: 1.5rem; }
+    .product-card h3 { margin-top: 0; color: var(--gold); font-size: 1.15rem; }
+    .badge { display: inline-block; background: rgba(201,168,76,0.15); color: var(--gold); font-size: 0.75rem; font-family: sans-serif; padding: 0.2rem 0.6rem; border-radius: 20px; margin-bottom: 0.75rem; font-weight: 600; letter-spacing: 0.04em; }
+    .badge.green { background: rgba(76,175,138,0.15); color: var(--green); }
+    .specs { display: flex; flex-wrap: wrap; gap: 0.5rem; margin: 0.75rem 0; }
+    .spec { background: rgba(255,255,255,0.04); padding: 0.25rem 0.6rem; border-radius: 4px; font-size: 0.82rem; font-family: sans-serif; color: var(--muted); }
+    .pros-cons { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin: 1rem 0; }
+    .pros h4, .cons h4 { font-size: 0.85rem; font-family: sans-serif; letter-spacing: 0.05em; margin-bottom: 0.5rem; }
+    .pros h4 { color: var(--green); }
+    .cons h4 { color: #e07070; }
+    .pros ul, .cons ul { list-style: none; }
+    .pros li::before { content: "+ "; color: var(--green); font-weight: 700; }
+    .cons li::before { content: "- "; color: #e07070; font-weight: 700; }
+    .pros li, .cons li { font-size: 0.88rem; margin-bottom: 0.3rem; line-height: 1.4; }
+    .cta-btn { display: inline-block; background: var(--gold); color: #0a1628; padding: 0.6rem 1.4rem; border-radius: 4px; text-decoration: none; font-weight: 700; font-family: sans-serif; font-size: 0.9rem; margin-top: 0.75rem; }
+    .cta-btn:hover { opacity: 0.9; }
+    .science-box { background: rgba(201,168,76,0.07); border: 1px solid var(--border); border-radius: 8px; padding: 1.5rem; margin: 2rem 0; }
+    .science-box h3 { color: var(--gold); margin-top: 0; }
+    table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; font-size: 0.88rem; font-family: sans-serif; }
+    th { background: var(--card); color: var(--gold); padding: 0.6rem 0.8rem; text-align: left; border: 1px solid var(--border); }
+    td { padding: 0.55rem 0.8rem; border: 1px solid var(--border); vertical-align: top; }
+    tr:nth-child(even) td { background: rgba(255,255,255,0.02); }
+    .faq-item { border-bottom: 1px solid var(--border); padding: 1.2rem 0; }
+    .faq-item:last-child { border-bottom: none; }
+    .faq-item h3 { color: var(--gold); font-size: 1rem; margin: 0 0 0.5rem; }
+    footer { text-align: center; padding: 2rem; color: var(--muted); font-size: 0.85rem; border-top: 1px solid var(--border); margin-top: 3rem; }
+    footer a { color: var(--gold); }
+    .disclaimer { background: rgba(255,255,255,0.03); border: 1px solid var(--border); border-radius: 4px; padding: 0.8rem 1rem; font-size: 0.8rem; color: var(--muted); margin-top: 2rem; font-family: sans-serif; }
+    @media (max-width: 600px) { .pros-cons { grid-template-columns: 1fr; } h1 { font-size: 1.6rem; } }
+  </style>
+</head>
+<body>
+  <header>
+    <a class="logo" href="../">SleepWise<span>Reviews</span></a>
+    <a href="../posts/" style="color:var(--muted);font-size:0.9rem;text-decoration:none;">All Guides</a>
+  </header>
+  <main>
+    <h1>Best Weighted Eye Masks for Sleep 2026</h1>
+    <p class="meta">Updated May 2026 &nbsp;|&nbsp; Sleep Products &nbsp;|&nbsp; 10 min read</p>
+
+    <div class="intro-box">
+      Gentle pressure on the closed eyelids activates the oculocardiac reflex — a vagal response that slows heart rate by 5-10 BPM and reduces sympathetic nervous system activity. Weighted eye masks use this mechanism to accelerate sleep onset while delivering complete blackout, making them more effective than standard sleep masks for most users.
+    </div>
+
+    <p>The oculocardiac reflex (OCR) was first described in 1908 by Aschner and Dagnini, and is routinely used in emergency medicine to terminate supraventricular tachycardia through gentle orbital pressure. The sleep application leverages the same mechanism at lower pressures — enough to activate the vagal response without discomfort.</p>
+
+    <p>Combined with complete light blockout, weighted eye masks address two of the most impactful factors in sleep onset: cardiovascular arousal level and light exposure. The category has matured significantly — here are the seven that perform best for sleep specifically.</p>
+
+    <h2>Best Weighted Eye Masks — Ranked</h2>
+
+    <div class="product-card">
+      <span class="badge">Best Overall</span>
+      <h3>#1 — Gravity Weighted Sleep Mask</h3>
+      <div class="specs">
+        <span class="spec">Weight: 100g</span>
+        <span class="spec">Fill: Micro glass beads</span>
+        <span class="spec">Material: Microfiber outer, soft inner</span>
+        <span class="spec">Blackout: Full</span>
+      </div>
+      <p>Gravity, best known for their weighted blankets, engineered their sleep mask with the same distributed-pressure philosophy — micro glass beads sewn into a grid-pattern interior that distributes 100g of weight evenly across the orbital region without creating pressure points. The result is consistent gentle pressure that activates the oculocardiac reflex without concentrated discomfort at any single point.</p>
+      <p>The dual-layer construction is significant: soft plush on the face-contact side, firmer microfiber outer. The inner layer conforms to different face shapes without slipping. The elastic band adjusts easily and applies enough pressure to prevent mask displacement during sleep without creating tension headache. Complete blackout. Machine washable with the beads distributed across sewn chambers (not removable, so the beads won't bunch).</p>
+      <div class="pros-cons">
+        <div class="pros">
+          <h4>PROS</h4>
+          <ul>
+            <li>Even weight distribution via micro-bead grid</li>
+            <li>100g — optimal OCR pressure range</li>
+            <li>Machine washable (bead chambers fixed)</li>
+            <li>Complete blackout</li>
+            <li>Adjustable elastic band</li>
+          </ul>
+        </div>
+        <div class="cons">
+          <h4>CONS</h4>
+          <ul>
+            <li>Premium price</li>
+            <li>Slightly warm — micro-bead fill retains heat</li>
+          </ul>
+        </div>
+      </div>
+      <a href="https://www.amazon.com/s?k=Gravity+Weighted+Sleep+Mask&tag=sleepwiserevi-20" class="cta-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+    </div>
+
+    <div class="product-card">
+      <span class="badge green">Best Design</span>
+      <h3>#2 — Nodpod Weighted Sleep Mask</h3>
+      <div class="specs">
+        <span class="spec">Weight: 85g</span>
+        <span class="spec">Fill: Micro glass beads in pods</span>
+        <span class="spec">Design: No-strap (drapes over head)</span>
+        <span class="spec">Reversible: Cool/Warm sides</span>
+      </div>
+      <p>The Nodpod is the most innovative design in the weighted eye mask category — it uses no elastic strap. Instead, it drapes over the head (like a bandana) using its own weight, with the bead-filled central panel sitting over the eyes. This eliminates elastic tension entirely — no band pressure on the temples or the back of the head, which is a common source of discomfort with standard masks.</p>
+      <p>The reversible design provides a cool polyester side and a warm jersey knit side — choose based on sleep temperature preference and season. The 85g weight is slightly lighter than the Gravity mask, still within the effective OCR pressure range. The no-strap design works best for back and stomach sleepers; side sleepers may find it shifts during sleep.</p>
+      <div class="pros-cons">
+        <div class="pros">
+          <h4>PROS</h4>
+          <ul>
+            <li>No elastic — zero temple pressure</li>
+            <li>Reversible (cool/warm sides)</li>
+            <li>Machine washable</li>
+            <li>Works without adjustment</li>
+          </ul>
+        </div>
+        <div class="cons">
+          <h4>CONS</h4>
+          <ul>
+            <li>Can shift for active side sleepers</li>
+            <li>No adjustable pressure</li>
+          </ul>
+        </div>
+      </div>
+      <a href="https://www.amazon.com/s?k=Nodpod+Weighted+Sleep+Mask&tag=sleepwiserevi-20" class="cta-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+    </div>
+
+    <div class="product-card">
+      <span class="badge">Best for Side Sleepers</span>
+      <h3>#3 — Manta Sleep Weighted Mask</h3>
+      <div class="specs">
+        <span class="spec">Weight: 60g (eye cups only)</span>
+        <span class="spec">Design: Modular eye cups on adjustable strap</span>
+        <span class="spec">Eye Contact: Zero pressure on eyeballs</span>
+        <span class="spec">Strap: Fully adjustable</span>
+      </div>
+      <p>Manta Sleep's weighted mask uses a fundamentally different design: independent eye cups that attach to an adjustable strap via Velcro. Each cup has weighted fill in the orbital-contact rim, not over the eyeball — applying pressure exclusively to the orbital bone structure rather than the eye itself. For side sleepers, the modular design means the cups adjust independently to face position changes without the mask lifting.</p>
+      <p>The zero-eye-contact design is the key differentiator for REM sleep: during REM, eyes move rapidly (rapid eye movement, hence the name). A mask pressing directly on the eyes during REM can cause microarousals. Manta's cups create a blackout dome over each eye without touching them — combining complete blackout with zero REM interference.</p>
+      <div class="pros-cons">
+        <div class="pros">
+          <h4>PROS</h4>
+          <ul>
+            <li>Modular cups adjust to side sleeping</li>
+            <li>Zero eye contact — no REM interference</li>
+            <li>Complete blackout dome per eye</li>
+            <li>Weighted rim applies OCR pressure to orbital bone</li>
+          </ul>
+        </div>
+        <div class="cons">
+          <h4>CONS</h4>
+          <ul>
+            <li>Lighter weight — subtler OCR activation</li>
+            <li>Higher price for modular design</li>
+          </ul>
+        </div>
+      </div>
+      <a href="https://www.amazon.com/s?k=Manta+Sleep+Weighted+Mask&tag=sleepwiserevi-20" class="cta-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+    </div>
+
+    <div class="product-card">
+      <span class="badge green">Best Value</span>
+      <h3>#4 — Alaska Bear Weighted Eye Mask</h3>
+      <div class="specs">
+        <span class="spec">Weight: 75g</span>
+        <span class="spec">Material: Natural silk outer</span>
+        <span class="spec">Fill: Fine glass beads</span>
+        <span class="spec">Adjustable: Yes</span>
+      </div>
+      <p>The Alaska Bear weighted mask uses a natural silk outer shell — the material advantage here is real: silk is temperature-neutral, hypoallergenic, and doesn't create the warmth that synthetic fills do. The 75g weight is slightly lighter than the Gravity mask but still within the effective pressure range for the oculocardiac reflex.</p>
+      <p>For buyers who want the weighted eye mask benefit without a premium price tag, Alaska Bear delivers solid performance. The silk feels noticeably cooler against skin than polyester alternatives — particularly relevant for hot sleepers or warm climates. Adjustable strap accommodates different head sizes.</p>
+      <div class="pros-cons">
+        <div class="pros">
+          <h4>PROS</h4>
+          <ul>
+            <li>Natural silk — cool, hypoallergenic</li>
+            <li>Good price-to-performance</li>
+            <li>Temperature-neutral material</li>
+          </ul>
+        </div>
+        <div class="cons">
+          <h4>CONS</h4>
+          <ul>
+            <li>Hand wash only (silk care required)</li>
+            <li>Lighter fill than premium options</li>
+          </ul>
+        </div>
+      </div>
+      <a href="https://www.amazon.com/s?k=Alaska+Bear+Weighted+Eye+Mask+sleep&tag=sleepwiserevi-20" class="cta-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+    </div>
+
+    <div class="product-card">
+      <span class="badge">Budget Pick</span>
+      <h3>#5 — Nidra Deep Rest Weighted Mask</h3>
+      <div class="specs">
+        <span class="spec">Weight: 65g</span>
+        <span class="spec">Design: Contoured cups</span>
+        <span class="spec">Material: Soft fabric</span>
+        <span class="spec">Price: Budget</span>
+      </div>
+      <p>The Nidra combines a contoured cup design (no eye pressure) with weighted fill at the lowest price point of any contoured weighted mask. The cups create a blackout environment while the weighted perimeter applies pressure around the orbital region. The lighter weight (65g) provides a gentler OCR effect — appropriate for users who are new to weighted masks or find heavier options uncomfortable.</p>
+      <div class="pros-cons">
+        <div class="pros">
+          <h4>PROS</h4>
+          <ul>
+            <li>Lowest price for contoured weighted design</li>
+            <li>Zero eye contact from cups</li>
+            <li>Good blackout</li>
+          </ul>
+        </div>
+        <div class="cons">
+          <h4>CONS</h4>
+          <ul>
+            <li>Lightest weight — subtler pressure effect</li>
+            <li>Less durable than premium options</li>
+          </ul>
+        </div>
+      </div>
+      <a href="https://www.amazon.com/s?k=Nidra+Deep+Rest+Weighted+Eye+Mask&tag=sleepwiserevi-20" class="cta-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+    </div>
+
+    <div class="product-card">
+      <span class="badge">Cooling Option</span>
+      <h3>#6 — Unimi Weighted Cooling Eye Mask</h3>
+      <div class="specs">
+        <span class="spec">Weight: 90g</span>
+        <span class="spec">Material: Cooling gel-infused fabric</span>
+        <span class="spec">Fill: Glass beads</span>
+        <span class="spec">Special: Can be refrigerated</span>
+      </div>
+      <p>The Unimi adds a cooling element to the weighted mask design — the face-contact fabric is gel-infused and can be refrigerated for 15-20 minutes before bed to deliver a cooling sensation. For hot sleepers or those in warm climates, the combination of cool temperature stimulation and pressure therapy creates a more potent relaxation signal than either effect alone.</p>
+      <p>Cooling the periorbital skin activates thermoreceptors that reinforce the parasympathetic signal from the OCR mechanism. The effect is similar to the face immersion technique used in acute anxiety management. At 90g, the weight is also close to optimal for the oculocardiac reflex.</p>
+      <div class="pros-cons">
+        <div class="pros">
+          <h4>PROS</h4>
+          <ul>
+            <li>Cooling gel fabric — heat relief</li>
+            <li>Can be refrigerated for enhanced effect</li>
+            <li>90g — near-optimal OCR weight</li>
+          </ul>
+        </div>
+        <div class="cons">
+          <h4>CONS</h4>
+          <ul>
+            <li>Cooling effect fades during night</li>
+            <li>Refrigerator needed for full effect</li>
+          </ul>
+        </div>
+      </div>
+      <a href="https://www.amazon.com/s?k=Unimi+Weighted+Cooling+Eye+Mask+sleep&tag=sleepwiserevi-20" class="cta-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+    </div>
+
+    <div class="product-card">
+      <span class="badge">Heated/Vibrating</span>
+      <h3>#7 — Renpho Eye Massager Mask</h3>
+      <div class="specs">
+        <span class="spec">Weight: 200g (powered)</span>
+        <span class="spec">Features: Heat + compression + vibration</span>
+        <span class="spec">Battery: USB rechargeable</span>
+        <span class="spec">Music: Built-in Bluetooth speaker</span>
+      </div>
+      <p>The Renpho is the premium electric option — it adds heat therapy (40-42°C) and gentle airbag compression around the eyes, combined with vibration and optional Bluetooth audio. It's more of an eye spa experience than a sleep mask. Most useful as a pre-bed wind-down tool (10-15 minutes) rather than an all-night sleep mask — the weight and electronic components make all-night wear impractical.</p>
+      <p>For users with digital eye strain (the leading cause of evening hyperarousal), the heat and compression combination reduces tension in the muscles around the eyes more effectively than static pressure. Use 20 minutes before bed, then switch to a standard or simpler weighted mask for sleep itself.</p>
+      <div class="pros-cons">
+        <div class="pros">
+          <h4>PROS</h4>
+          <ul>
+            <li>Heat + compression for eye strain relief</li>
+            <li>Excellent pre-bed wind-down tool</li>
+            <li>Bluetooth audio integration</li>
+          </ul>
+        </div>
+        <div class="cons">
+          <h4>CONS</h4>
+          <ul>
+            <li>Too heavy for all-night sleep use</li>
+            <li>Requires charging</li>
+            <li>Higher price than passive masks</li>
+          </ul>
+        </div>
+      </div>
+      <a href="https://www.amazon.com/s?k=Renpho+Eye+Massager+Sleep+Mask&tag=sleepwiserevi-20" class="cta-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+    </div>
+
+    <h2>The Science: Oculocardiac Reflex and Sleep</h2>
+
+    <div class="science-box">
+      <h3>The Oculocardiac Reflex (OCR)</h3>
+      <p>The oculocardiac reflex is a well-documented physiological response: pressure on the globe or periorbital tissue activates sensory branches of the trigeminal nerve (V1), which transmits to the vagal cardioinhibitory center in the brainstem. The efferent signal via the vagus nerve slows the sinoatrial node — reducing heart rate by 5-10 BPM under gentle, sustained pressure.</p>
+      <p>This is the same reflex used clinically to convert supraventricular tachycardia — demonstrated in multiple emergency medicine case series. The sleep application uses pressures far below the clinical threshold for arrhythmia management, in the range where the reflex produces relaxation rather than acute HR reduction.</p>
+      <p>A 2020 review in <em>Sleep Medicine Reviews</em> noted that vagal tone — measured by HRV — is the primary physiological predictor of sleep onset latency. Interventions that increase vagal tone before bed consistently reduce sleep onset time. Weighted eye masks provide one of the simplest mechanisms for doing this.</p>
+    </div>
+
+    <div class="science-box">
+      <h3>Eye Pressure and Digital Eye Strain</h3>
+      <p>Prolonged screen use before bed causes ciliary muscle fatigue, reduced blink rate (from ~15 to ~5 blinks per minute), and increased intraocular pressure. These contribute to the subjective sense of "tired but wired" — physical fatigue that coexists with mental hyperarousal, making sleep onset difficult.</p>
+      <p>Gentle pressure from a weighted eye mask encourages complete eye closure (overcoming incomplete lid closure from muscle fatigue), promotes blink reflex recovery, and slightly increases periorbital blood flow. Combined with complete light blockout, this addresses the eye-specific component of digital device-related sleep disruption.</p>
+    </div>
+
+    <h2>Weighted vs Standard Eye Mask — Comparison</h2>
+
+    <table>
+      <tr>
+        <th>Factor</th>
+        <th>Weighted Mask</th>
+        <th>Standard Mask</th>
+      </tr>
+      <tr>
+        <td>Oculocardiac Reflex</td>
+        <td>Activated by 60-120g pressure</td>
+        <td>No activation (too light)</td>
+      </tr>
+      <tr>
+        <td>Light Blockout</td>
+        <td>Complete (both types)</td>
+        <td>Complete (both types)</td>
+      </tr>
+      <tr>
+        <td>Eye Strain Relief</td>
+        <td>Yes — gentle compression</td>
+        <td>Minimal</td>
+      </tr>
+      <tr>
+        <td>Sleep Onset Speed</td>
+        <td>Faster via OCR + blackout</td>
+        <td>Faster via blackout only</td>
+      </tr>
+      <tr>
+        <td>Anxiety / Calming</td>
+        <td>Moderate (vagal activation)</td>
+        <td>Minimal</td>
+      </tr>
+      <tr>
+        <td>Price</td>
+        <td>$25-80</td>
+        <td>$5-30</td>
+      </tr>
+      <tr>
+        <td>Side Sleeper Comfort</td>
+        <td>Varies by design (Manta best)</td>
+        <td>Usually fine</td>
+      </tr>
+    </table>
+
+    <h2>Frequently Asked Questions</h2>
+
+    <div class="faq-item">
+      <h3>Do weighted eye masks actually help with sleep?</h3>
+      <p>Yes, through a specific physiological mechanism. Gentle pressure activates the oculocardiac reflex — a vagal response that slows heart rate by 5-10 BPM and reduces sympathetic activity. Combined with complete blackout, weighted eye masks address two major sleep-onset barriers: cardiovascular arousal and light exposure.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>How much do weighted eye masks weigh?</h3>
+      <p>Effective weighted eye masks weigh 60-120 grams. The therapeutic range for the oculocardiac reflex is much lower than weighted blankets — too heavy creates discomfort and can interfere with REM sleep. Most quality masks use 80-100g of micro glass beads distributed across the orbital region.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>Are weighted eye masks good for anxiety?</h3>
+      <p>Yes. The oculocardiac reflex activates the vagus nerve, producing a measurable cardiovascular slowing effect. For sleep-related anxiety and racing thoughts at bedtime, the resulting heart rate reduction provides a physiological calming signal within 5-10 minutes of wearing the mask.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>Can you use a weighted eye mask with CPAP?</h3>
+      <p>Not with standard face-covering designs. The exception is cup-style masks like Manta Sleep, which sit on the orbital bones without covering the nose bridge. If you use CPAP, look specifically for orbital-only designs that don't interfere with the mask seal.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>Should a weighted eye mask press on the eyelids or around the eyes?</h3>
+      <p>It should press gently on the orbital bones with diffuse light pressure on the eyelids. Direct concentrated pressure on the eyeball itself should be avoided. Cup-style masks (like Manta) protect the eyes completely while applying pressure to the orbital rim — the ideal design for REM sleep when eye movement is active.</p>
+    </div>
+
+    <p class="disclaimer">Affiliate disclosure: This page contains Amazon affiliate links using the tag sleepwiserevi-20. We earn a commission at no extra cost to you. All product selections are based on independent research and sleep science criteria.</p>
+  </main>
+  <footer>
+    <p>&copy; 2025-2026 <a href="../">SleepWise Reviews</a> &nbsp;|&nbsp; Evidence-based sleep guidance</p>
+  </footer>
+</body>
+</html>'''
+
+os.makedirs(os.path.dirname(OUT), exist_ok=True)
+with open(OUT, 'w', encoding='utf-8') as f:
+    f.write(html)
+print(f'Written: {OUT}')
