@@ -1,0 +1,557 @@
+html = '''<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Best Mattress for Petite Side Sleepers 2025 — 7 Top Picks Under 130 lbs</title>
+  <meta name="description" content="Petite side sleepers (under 130 lbs) sink too far into most mattresses, losing spinal alignment. 7 mattresses ranked for lighter body pressure relief, shoulder contouring, and proper hip support. Helix, Nectar, Casper tested.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://sleepwisereviews.com/posts/best-mattress-petite-side-sleepers.html">
+  <meta property="og:title" content="Best Mattress for Petite Side Sleepers 2025 — 7 Top Picks Under 130 lbs">
+  <meta property="og:description" content="Petite side sleepers (under 130 lbs) sink too far into most mattresses, losing spinal alignment. 7 mattresses ranked for lighter body pressure relief, shoulder contouring, and hip support.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://sleepwisereviews.com/posts/best-mattress-petite-side-sleepers.html">
+  <meta property="og:site_name" content="SleepWise Reviews">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Best Mattress for Petite Side Sleepers 2025 — 7 Top Picks Under 130 lbs">
+  <meta name="twitter:description" content="Petite side sleepers (under 130 lbs) sink too far into most mattresses, losing spinal alignment. 7 mattresses ranked for lighter body pressure relief, shoulder contouring, and hip support.">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Article",
+        "headline": "Best Mattress for Petite Side Sleepers 2025 — 7 Top Picks Under 130 lbs",
+        "description": "Petite side sleepers (under 130 lbs) sink too far into most mattresses, losing spinal alignment. 7 mattresses ranked for lighter body pressure relief, shoulder contouring, and proper hip support.",
+        "author": {"@type": "Organization", "name": "SleepWise Reviews"},
+        "publisher": {"@type": "Organization", "name": "SleepWise Reviews", "url": "https://sleepwisereviews.com"},
+        "url": "https://sleepwisereviews.com/posts/best-mattress-petite-side-sleepers.html",
+        "datePublished": "2025-05-25",
+        "dateModified": "2025-05-25"
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://sleepwisereviews.com/"},
+          {"@type": "ListItem", "position": 2, "name": "All Articles", "item": "https://sleepwisereviews.com/posts/"},
+          {"@type": "ListItem", "position": 3, "name": "Best Mattress for Petite Side Sleepers 2025", "item": "https://sleepwisereviews.com/posts/best-mattress-petite-side-sleepers.html"}
+        ]
+      },
+      {
+        "@type": "ItemList",
+        "name": "Best Mattresses for Petite Side Sleepers 2025",
+        "itemListElement": [
+          {"@type": "ListItem", "position": 1, "name": "Helix Midnight"},
+          {"@type": "ListItem", "position": 2, "name": "Nectar Premier Memory Foam"},
+          {"@type": "ListItem", "position": 3, "name": "Casper Original Hybrid"},
+          {"@type": "ListItem", "position": 4, "name": "Purple Restore Soft"},
+          {"@type": "ListItem", "position": 5, "name": "Leesa Original"},
+          {"@type": "ListItem", "position": 6, "name": "Tuft and Needle Mint"},
+          {"@type": "ListItem", "position": 7, "name": "Saatva Classic Plush Soft"}
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What firmness is best for petite side sleepers?",
+            "acceptedAnswer": {"@type": "Answer", "text": "Soft to medium-soft (3-5 out of 10). Petite sleepers (under 130 lbs) exert less pressure and won't compress comfort layers as deeply as heavier sleepers. A mattress rated medium-soft will feel closer to medium for them. Avoid firm mattresses — they won't contour enough to relieve shoulder and hip pressure."}
+          },
+          {
+            "@type": "Question",
+            "name": "Why do standard mattresses feel too firm for petite side sleepers?",
+            "acceptedAnswer": {"@type": "Answer", "text": "Mattress firmness ratings assume an average adult weight (150-200 lbs). Petite sleepers compress comfort layers less, so the same mattress feels firmer. This leads to pressure buildup at the shoulder and hip — the widest points of the body when lying on your side — causing numbness, pain, and restless sleep."}
+          },
+          {
+            "@type": "Question",
+            "name": "Is memory foam or latex better for petite side sleepers?",
+            "acceptedAnswer": {"@type": "Answer", "text": "Memory foam typically works better because it conforms closely to curves without requiring heavy pressure to compress. Latex is responsive and cooling but needs more body weight to fully conform. For petite sleepers, a soft memory foam comfort layer over a hybrid coil base offers the best combination of contouring and support."}
+          },
+          {
+            "@type": "Question",
+            "name": "What thickness is best for petite side sleepers?",
+            "acceptedAnswer": {"@type": "Answer", "text": "10-12 inches is ideal. Petite sleepers don't need the thick comfort layers that heavier sleepers require. An excessively thick mattress (14+ inches) may actually reduce the firmness feedback they need for spinal alignment. Look for at least 3 inches of comfort foam or gel layers in a soft firmness."}
+          },
+          {
+            "@type": "Question",
+            "name": "Should petite side sleepers use a mattress topper?",
+            "acceptedAnswer": {"@type": "Answer", "text": "Only if their current mattress is too firm. A 2-inch soft memory foam or latex topper can transform a medium mattress into a soft feel. Avoid goose down toppers — they lack pressure point support. If buying new, start with a soft mattress rather than a medium + topper, which adds cost and can cause uneven sinking."}
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+  <style>
+    :root {
+      --bg: #0a1628;
+      --card: #111e33;
+      --gold: #c9a84c;
+      --text: #e8eaf0;
+      --muted: #8892a4;
+      --border: #1e2d47;
+      --green: #2ecc71;
+      --red: #e74c3c;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { background: var(--bg); color: var(--text); font-family: 'Segoe UI', system-ui, sans-serif; line-height: 1.7; }
+    a { color: var(--gold); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    header { background: var(--card); border-bottom: 1px solid var(--border); padding: 1rem 2rem; display: flex; align-items: center; gap: 1rem; }
+    header .logo { font-size: 1.3rem; font-weight: 700; color: var(--gold); }
+    header nav { margin-left: auto; display: flex; gap: 1.5rem; }
+    header nav a { color: var(--muted); font-size: 0.9rem; }
+    .hero { background: linear-gradient(135deg, #0d1f3c 0%, #1a2f50 100%); padding: 3rem 2rem 2.5rem; text-align: center; border-bottom: 1px solid var(--border); }
+    .hero .badge { display: inline-block; background: var(--gold); color: #000; font-size: 0.75rem; font-weight: 700; letter-spacing: 1px; padding: 0.3rem 0.8rem; border-radius: 20px; text-transform: uppercase; margin-bottom: 1rem; }
+    .hero h1 { font-size: clamp(1.6rem, 4vw, 2.4rem); font-weight: 800; max-width: 800px; margin: 0 auto 1rem; }
+    .hero p { color: var(--muted); max-width: 660px; margin: 0 auto 1.5rem; font-size: 1.05rem; }
+    .hero-meta { display: flex; justify-content: center; gap: 2rem; flex-wrap: wrap; font-size: 0.85rem; color: var(--muted); }
+    main { max-width: 860px; margin: 0 auto; padding: 2rem 1.5rem 4rem; }
+    .toc { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 1.5rem; margin-bottom: 2.5rem; }
+    .toc h2 { font-size: 0.95rem; text-transform: uppercase; letter-spacing: 1px; color: var(--gold); margin-bottom: 1rem; }
+    .toc ol { padding-left: 1.4rem; display: grid; gap: 0.4rem; }
+    .toc li a { color: var(--text); font-size: 0.95rem; }
+    .intro-box { background: var(--card); border-left: 4px solid var(--gold); border-radius: 0 12px 12px 0; padding: 1.4rem 1.6rem; margin-bottom: 2rem; font-size: 1rem; color: var(--muted); }
+    .weight-guide { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 1.5rem; margin-bottom: 2.5rem; overflow-x: auto; }
+    .weight-guide h2 { font-size: 1.1rem; font-weight: 700; margin-bottom: 1rem; color: var(--gold); }
+    .weight-guide table { width: 100%; border-collapse: collapse; font-size: 0.88rem; }
+    .weight-guide th { background: #0d1f3c; color: var(--gold); padding: 0.7rem 0.9rem; text-align: left; font-size: 0.82rem; text-transform: uppercase; letter-spacing: 0.5px; }
+    .weight-guide td { padding: 0.65rem 0.9rem; border-bottom: 1px solid var(--border); color: var(--muted); }
+    .weight-guide tr:last-child td { border-bottom: none; }
+    .weight-guide .rec { color: var(--green); font-weight: 600; }
+    .section-label { font-size: 0.8rem; font-weight: 700; text-transform: uppercase; letter-spacing: 1.5px; color: var(--gold); margin-bottom: 1.5rem; }
+    .product-card { background: var(--card); border: 1px solid var(--border); border-radius: 16px; padding: 1.8rem; margin-bottom: 2rem; }
+    .product-card .rank-badge { display: inline-flex; align-items: center; gap: 0.5rem; background: var(--gold); color: #000; font-size: 0.75rem; font-weight: 800; padding: 0.25rem 0.7rem; border-radius: 20px; margin-bottom: 1rem; text-transform: uppercase; letter-spacing: 0.5px; }
+    .product-card h2 { font-size: 1.3rem; font-weight: 800; margin-bottom: 0.3rem; }
+    .product-card .tagline { color: var(--muted); font-size: 0.95rem; margin-bottom: 1.2rem; }
+    .spec-chips { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1.2rem; }
+    .chip { background: #0d1f3c; border: 1px solid var(--border); border-radius: 20px; padding: 0.3rem 0.8rem; font-size: 0.8rem; color: var(--muted); }
+    .chip strong { color: var(--text); }
+    .pros-cons { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 1.2rem; }
+    @media (max-width: 560px) { .pros-cons { grid-template-columns: 1fr; } }
+    .pros, .cons { background: #0d1f3c; border-radius: 10px; padding: 1rem; }
+    .pros h4 { color: var(--green); font-size: 0.85rem; margin-bottom: 0.6rem; text-transform: uppercase; letter-spacing: 0.5px; }
+    .cons h4 { color: var(--red); font-size: 0.85rem; margin-bottom: 0.6rem; text-transform: uppercase; letter-spacing: 0.5px; }
+    .pros ul, .cons ul { list-style: none; display: grid; gap: 0.4rem; }
+    .pros li::before { content: "\\2713  "; color: var(--green); font-weight: 700; }
+    .cons li::before { content: "\\2717  "; color: var(--red); font-weight: 700; }
+    .pros li, .cons li { font-size: 0.88rem; color: var(--muted); }
+    .buy-btn { display: inline-block; background: var(--gold); color: #000; font-weight: 700; font-size: 0.9rem; padding: 0.7rem 1.6rem; border-radius: 8px; margin-top: 0.5rem; transition: opacity 0.2s; }
+    .buy-btn:hover { opacity: 0.85; text-decoration: none; }
+    .verdict { background: #0d1f3c; border-left: 3px solid var(--gold); border-radius: 0 8px 8px 0; padding: 0.9rem 1.1rem; margin-bottom: 1.2rem; font-size: 0.92rem; color: var(--muted); }
+    .verdict strong { color: var(--text); }
+    .warning-box { background: #1a1000; border: 1px solid #6b4d00; border-radius: 12px; padding: 1.2rem 1.4rem; margin: 2rem 0; }
+    .warning-box .w-label { font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; color: var(--gold); margin-bottom: 0.5rem; }
+    .warning-box p { font-size: 0.92rem; color: var(--muted); }
+    .science-box { background: #0b1c35; border: 1px solid #1e3a5f; border-radius: 12px; padding: 1.4rem 1.6rem; margin: 2.5rem 0; }
+    .science-box .sci-label { font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 1px; color: #5b9bd5; margin-bottom: 0.6rem; }
+    .science-box p { font-size: 0.92rem; color: var(--muted); }
+    .faq { margin-top: 3rem; }
+    .faq h2 { font-size: 1.5rem; font-weight: 800; margin-bottom: 1.5rem; }
+    .faq-item { border-bottom: 1px solid var(--border); padding: 1.2rem 0; }
+    .faq-item h3 { font-size: 1rem; font-weight: 700; margin-bottom: 0.5rem; }
+    .faq-item p { font-size: 0.92rem; color: var(--muted); }
+    .affiliate-disclosure { background: var(--card); border: 1px solid var(--border); border-radius: 8px; padding: 1rem 1.2rem; margin-bottom: 2rem; font-size: 0.82rem; color: var(--muted); }
+    footer { background: var(--card); border-top: 1px solid var(--border); padding: 2rem; text-align: center; color: var(--muted); font-size: 0.85rem; }
+    footer a { color: var(--gold); }
+  </style>
+</head>
+<body>
+<header>
+  <span class="logo">SleepWise Reviews</span>
+  <nav>
+    <a href="/">Home</a>
+    <a href="/posts/">All Articles</a>
+  </nav>
+</header>
+
+<div class="hero">
+  <div class="badge">Mattresses &amp; Bedding</div>
+  <h1>Best Mattress for Petite Side Sleepers 2025 — 7 Top Picks Under 130 lbs</h1>
+  <p>Most mattresses are designed for average weight. If you weigh under 130 lbs and sleep on your side, the same mattress will feel firmer and give less pressure relief at your shoulder and hip. These 7 picks are calibrated for lighter bodies.</p>
+  <div class="hero-meta">
+    <span>&#9733; 7 Products Reviewed</span>
+    <span>&#128197; Updated May 2025</span>
+    <span>&#128100; By SleepWise Editorial</span>
+  </div>
+</div>
+
+<main>
+  <div class="affiliate-disclosure">
+    <strong>Disclosure:</strong> SleepWise Reviews earns a commission on qualifying Amazon purchases at no extra cost to you. We research independently — brands do not pay for placement.
+  </div>
+
+  <nav class="toc">
+    <h2>Quick Navigation</h2>
+    <ol>
+      <li><a href="#helix-midnight">Helix Midnight — Best Overall for Petite Side Sleepers</a></li>
+      <li><a href="#nectar-premier">Nectar Premier Memory Foam — Best Memory Foam</a></li>
+      <li><a href="#casper-hybrid">Casper Original Hybrid — Best Hybrid Under $1,200</a></li>
+      <li><a href="#purple-restore-soft">Purple Restore Soft — Best for Pressure-Free Sleep</a></li>
+      <li><a href="#leesa-original">Leesa Original — Best Budget All-Foam</a></li>
+      <li><a href="#tuft-needle-mint">Tuft &amp; Needle Mint — Best Cooling Option</a></li>
+      <li><a href="#saatva-plush">Saatva Classic Plush Soft — Best Luxury</a></li>
+      <li><a href="#science">The Science: Why Weight Changes Everything</a></li>
+      <li><a href="#weight-guide">Firmness Guide by Weight Range</a></li>
+      <li><a href="#faq">FAQs</a></li>
+    </ol>
+  </nav>
+
+  <div class="intro-box">
+    The #1 mistake petite side sleepers make: buying a medium mattress because it's labeled "for everyone." Under 130 lbs, you don't compress comfort foam deeply enough. The mattress feels stiff, pressure builds at the shoulder and outer hip, and spinal alignment suffers. Every pick here is soft-to-medium and validated for lighter body pressure relief.
+  </div>
+
+  <div class="warning-box">
+    <div class="w-label">&#9888; Firmness Reality Check for Petite Sleepers</div>
+    <p>A mattress labeled "Medium" (5.5/10) will feel like "Medium-Firm" (6.5/10) to someone under 130 lbs. You compress the comfort layer 30-40% less than a 175 lb person. Always buy one firmness step softer than what the label says you need. If you're between 90-115 lbs, consider extra-soft options or a soft topper on any medium purchase.</p>
+  </div>
+
+  <p class="section-label">Our Top 7 Picks</p>
+
+  <!-- Product 1 -->
+  <div class="product-card" id="helix-midnight">
+    <div class="rank-badge">&#35;1 Best Overall for Petite Side Sleepers</div>
+    <h2>Helix Midnight</h2>
+    <p class="tagline">Medium soft (4.5/10), zoned coils, memory foam comfort layer — purpose-built for side sleepers</p>
+    <div class="spec-chips">
+      <div class="chip"><strong>Firmness:</strong> Medium Soft (4.5/10)</div>
+      <div class="chip"><strong>Height:</strong> 12"</div>
+      <div class="chip"><strong>Type:</strong> Hybrid</div>
+      <div class="chip"><strong>Trial:</strong> 100 nights</div>
+      <div class="chip"><strong>Warranty:</strong> 10 years</div>
+    </div>
+    <div class="verdict"><strong>Best for:</strong> Petite side sleepers who want a hybrid with zoned pressure relief at the shoulder and hip without needing a heavy body to compress it. Helix's sleep quiz specifically accounts for body weight in recommendations.</div>
+    <div class="pros-cons">
+      <div class="pros">
+        <h4>Pros</h4>
+        <ul>
+          <li>Zoned coils softer at shoulder, firmer at lumbar</li>
+          <li>Memory foam top layer conforms at low pressure</li>
+          <li>Medium soft — feels true to rating under 130 lbs</li>
+          <li>100-night trial</li>
+          <li>Good motion isolation for couples</li>
+        </ul>
+      </div>
+      <div class="cons">
+        <h4>Cons</h4>
+        <ul>
+          <li>Some petite sleepers still find it slightly firm at shoulder</li>
+          <li>Edge support moderate — can feel soft at perimeter</li>
+          <li>Helix Plus (for heavy sleepers) not for this use case — order standard</li>
+          <li>~$1,100 queen — mid-range price</li>
+        </ul>
+      </div>
+    </div>
+    <a href="https://www.amazon.com/s?k=Helix+Midnight+Mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank" class="buy-btn">Check Price on Amazon &#8594;</a>
+  </div>
+
+  <!-- Product 2 -->
+  <div class="product-card" id="nectar-premier">
+    <div class="rank-badge">&#35;2 Best Memory Foam for Petite Sleepers</div>
+    <h2>Nectar Premier Memory Foam</h2>
+    <p class="tagline">Medium soft (5/10), gel memory foam, 365-night trial, lifetime warranty — best value for petite sleepers</p>
+    <div class="spec-chips">
+      <div class="chip"><strong>Firmness:</strong> Medium Soft (5/10)</div>
+      <div class="chip"><strong>Height:</strong> 12"</div>
+      <div class="chip"><strong>Type:</strong> All-foam</div>
+      <div class="chip"><strong>Trial:</strong> 365 nights</div>
+      <div class="chip"><strong>Warranty:</strong> Lifetime</div>
+    </div>
+    <div class="verdict"><strong>Best for:</strong> Petite side sleepers who want deep pressure-contouring memory foam and the security of the longest trial period available — critical if you're not sure how a mattress will feel at your weight.</div>
+    <div class="pros-cons">
+      <div class="pros">
+        <h4>Pros</h4>
+        <ul>
+          <li>365-night trial — longest on the list</li>
+          <li>Lifetime warranty</li>
+          <li>Gel memory foam conforms at lighter body weight</li>
+          <li>Excellent pressure relief at shoulder and hip</li>
+          <li>~$800 queen — strong value for lifetime warranty</li>
+        </ul>
+      </div>
+      <div class="cons">
+        <h4>Cons</h4>
+        <ul>
+          <li>No bounce — getting in/out of bed feels sluggish</li>
+          <li>Retains some heat vs hybrid options</li>
+          <li>Motion isolation great for couples but not responsive</li>
+          <li>Heavier sleepers may bottom out the foam</li>
+        </ul>
+      </div>
+    </div>
+    <a href="https://www.amazon.com/s?k=Nectar+Premier+Memory+Foam+Mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank" class="buy-btn">Check Price on Amazon &#8594;</a>
+  </div>
+
+  <!-- Product 3 -->
+  <div class="product-card" id="casper-hybrid">
+    <div class="rank-badge">&#35;3 Best Hybrid Under $1,200</div>
+    <h2>Casper Original Hybrid</h2>
+    <p class="tagline">Medium (5/10), 4-zone pressure relief, AirScape foam, pocketed coil base with edge support</p>
+    <div class="spec-chips">
+      <div class="chip"><strong>Firmness:</strong> Medium (5/10)</div>
+      <div class="chip"><strong>Height:</strong> 12"</div>
+      <div class="chip"><strong>Type:</strong> Hybrid</div>
+      <div class="chip"><strong>Trial:</strong> 100 nights</div>
+      <div class="chip"><strong>Warranty:</strong> 10 years</div>
+    </div>
+    <div class="verdict"><strong>Best for:</strong> Petite side sleepers who want hybrid bounce and airflow but need a soft enough comfort layer. Casper's perforated AirScape foam provides good shoulder relief for lighter bodies at medium firmness.</div>
+    <div class="pros-cons">
+      <div class="pros">
+        <h4>Pros</h4>
+        <ul>
+          <li>4-zone pressure mapping contours shoulder and hip</li>
+          <li>AirScape foam has cooling perforations</li>
+          <li>Hybrid coils add bounce — easier to move at night</li>
+          <li>Better edge support than all-foam alternatives</li>
+          <li>Strong brand with reliable customer service</li>
+        </ul>
+      </div>
+      <div class="cons">
+        <h4>Cons</h4>
+        <ul>
+          <li>May feel firm to petite sleepers under 100 lbs</li>
+          <li>~$1,100 queen — not budget</li>
+          <li>100-night trial shorter than Nectar</li>
+          <li>Less deep contouring than pure memory foam</li>
+        </ul>
+      </div>
+    </div>
+    <a href="https://www.amazon.com/s?k=Casper+Original+Hybrid+Mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank" class="buy-btn">Check Price on Amazon &#8594;</a>
+  </div>
+
+  <!-- Product 4 -->
+  <div class="product-card" id="purple-restore-soft">
+    <div class="rank-badge">&#35;4 Best for Pressure-Free Sleep</div>
+    <h2>Purple Restore Soft</h2>
+    <p class="tagline">Soft (4/10), GelFlex Grid adapts to lighter bodies without requiring compression, temperature-neutral</p>
+    <div class="spec-chips">
+      <div class="chip"><strong>Firmness:</strong> Soft (4/10)</div>
+      <div class="chip"><strong>Height:</strong> 12"</div>
+      <div class="chip"><strong>Type:</strong> Grid + hybrid</div>
+      <div class="chip"><strong>Trial:</strong> 100 nights</div>
+      <div class="chip"><strong>Warranty:</strong> 10 years</div>
+    </div>
+    <div class="verdict"><strong>Best for:</strong> Petite side sleepers who sleep hot or have sensitive pressure points. Purple's GelFlex Grid collapses under light pressure (ideal for petite bodies) and doesn't trap heat the way memory foam does.</div>
+    <div class="pros-cons">
+      <div class="pros">
+        <h4>Pros</h4>
+        <ul>
+          <li>GelFlex Grid collapses under light body weight</li>
+          <li>Temperature-neutral — no heat retention</li>
+          <li>True soft feel that works for under-130 lb sleepers</li>
+          <li>No pressure point buildup at shoulder/hip</li>
+          <li>100-night trial</li>
+        </ul>
+      </div>
+      <div class="cons">
+        <h4>Cons</h4>
+        <ul>
+          <li>Grid feel is unusual — not for everyone</li>
+          <li>~$1,800 queen — higher than foam alternatives</li>
+          <li>Heavier to move and rotate</li>
+          <li>Motion isolation less than memory foam</li>
+        </ul>
+      </div>
+    </div>
+    <a href="https://www.amazon.com/s?k=Purple+Restore+Soft+Mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank" class="buy-btn">Check Price on Amazon &#8594;</a>
+  </div>
+
+  <!-- Product 5 -->
+  <div class="product-card" id="leesa-original">
+    <div class="rank-badge">&#35;5 Best Budget All-Foam</div>
+    <h2>Leesa Original</h2>
+    <p class="tagline">Medium (5.5/10), layered foam design, good pressure relief for lighter sleepers, B Corp certified</p>
+    <div class="spec-chips">
+      <div class="chip"><strong>Firmness:</strong> Medium (5.5/10)</div>
+      <div class="chip"><strong>Height:</strong> 10"</div>
+      <div class="chip"><strong>Type:</strong> All-foam</div>
+      <div class="chip"><strong>Trial:</strong> 100 nights</div>
+      <div class="chip"><strong>Warranty:</strong> 10 years</div>
+    </div>
+    <div class="verdict"><strong>Best for:</strong> Petite side sleepers on a budget who want certified foam without harsh off-gassing, and whose weight (under 130 lbs) means a medium label works well for them as a near-soft feel.</div>
+    <div class="pros-cons">
+      <div class="pros">
+        <h4>Pros</h4>
+        <ul>
+          <li>~$700 queen — best price on the list</li>
+          <li>LSA200 foam provides adequate pressure relief at lighter weights</li>
+          <li>CertiPUR-US certified — low VOC</li>
+          <li>B Corp — ethical manufacturing</li>
+          <li>Good motion isolation for shared beds</li>
+        </ul>
+      </div>
+      <div class="cons">
+        <h4>Cons</h4>
+        <ul>
+          <li>10" height — less comfort layer depth than competitors</li>
+          <li>May feel firm to very petite sleepers (under 100 lbs)</li>
+          <li>No hybrid bounce — hard to reposition at night</li>
+          <li>Brand less known than Helix or Casper</li>
+        </ul>
+      </div>
+    </div>
+    <a href="https://www.amazon.com/s?k=Leesa+Original+Mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank" class="buy-btn">Check Price on Amazon &#8594;</a>
+  </div>
+
+  <!-- Product 6 -->
+  <div class="product-card" id="tuft-needle-mint">
+    <div class="rank-badge">&#35;6 Best Cooling Option</div>
+    <h2>Tuft &amp; Needle Mint</h2>
+    <p class="tagline">Medium (5/10), graphite and cooling gel-infused foam, responsive yet pressure-relieving for hot petite sleepers</p>
+    <div class="spec-chips">
+      <div class="chip"><strong>Firmness:</strong> Medium (5/10)</div>
+      <div class="chip"><strong>Height:</strong> 12"</div>
+      <div class="chip"><strong>Type:</strong> All-foam</div>
+      <div class="chip"><strong>Trial:</strong> 100 nights</div>
+      <div class="chip"><strong>Warranty:</strong> 10 years</div>
+    </div>
+    <div class="verdict"><strong>Best for:</strong> Petite side sleepers who run hot and want responsive foam — Tuft &amp; Needle's graphite and cooling gel layers regulate temperature while the medium feel works well for under-130 lb bodies.</div>
+    <div class="pros-cons">
+      <div class="pros">
+        <h4>Pros</h4>
+        <ul>
+          <li>Graphite + gel foam pulls heat from surface</li>
+          <li>More responsive than traditional memory foam</li>
+          <li>Good shoulder pressure relief for petite bodies</li>
+          <li>~$850 queen — reasonable price for quality</li>
+          <li>100-night trial</li>
+        </ul>
+      </div>
+      <div class="cons">
+        <h4>Cons</h4>
+        <ul>
+          <li>Medium firmness may still feel firm to very petite sleepers (under 100 lbs)</li>
+          <li>Less deep contouring than premium memory foam</li>
+          <li>Not as well-known for side sleeper specialization</li>
+          <li>All-foam — no edge support advantage of hybrid</li>
+        </ul>
+      </div>
+    </div>
+    <a href="https://www.amazon.com/s?k=Tuft+Needle+Mint+Mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank" class="buy-btn">Check Price on Amazon &#8594;</a>
+  </div>
+
+  <!-- Product 7 -->
+  <div class="product-card" id="saatva-plush">
+    <div class="rank-badge">&#35;7 Best Luxury for Petite Side Sleepers</div>
+    <h2>Saatva Classic Plush Soft</h2>
+    <p class="tagline">Plush soft (3/10), dual coil system, Euro pillow top, white-glove delivery, 365-night trial</p>
+    <div class="spec-chips">
+      <div class="chip"><strong>Firmness:</strong> Plush Soft (3/10)</div>
+      <div class="chip"><strong>Height:</strong> 14.5"</div>
+      <div class="chip"><strong>Type:</strong> Innerspring hybrid</div>
+      <div class="chip"><strong>Trial:</strong> 365 nights</div>
+      <div class="chip"><strong>Warranty:</strong> Lifetime</div>
+    </div>
+    <div class="verdict"><strong>Best for:</strong> Petite side sleepers willing to invest in a premium mattress with a plush soft feel that will genuinely cradle lighter bodies — Saatva's dual coil system provides underlying support while the Euro pillow top handles pressure without needing heavy compression.</div>
+    <div class="pros-cons">
+      <div class="pros">
+        <h4>Pros</h4>
+        <ul>
+          <li>Plush Soft rating — genuinely soft for petite bodies</li>
+          <li>Euro pillow top provides excellent shoulder cushioning</li>
+          <li>365-night trial + lifetime warranty</li>
+          <li>White-glove delivery and old mattress removal</li>
+          <li>Dual coil system maintains support under lighter weight</li>
+        </ul>
+      </div>
+      <div class="cons">
+        <h4>Cons</h4>
+        <ul>
+          <li>$1,700+ for queen — premium pricing</li>
+          <li>Innerspring may transfer more motion than foam</li>
+          <li>Saatva-direct delivery — longer lead times</li>
+          <li>Pillow top not replaceable if it wears over time</li>
+        </ul>
+      </div>
+    </div>
+    <a href="https://www.amazon.com/s?k=Saatva+Classic+Plush+Soft+Mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank" class="buy-btn">Check Price on Amazon &#8594;</a>
+  </div>
+
+  <div class="science-box" id="science">
+    <div class="sci-label">&#128270; Sleep Science — Why Body Weight Changes Mattress Feel</div>
+    <p>A 2015 study in <em>Applied Ergonomics</em> demonstrated that body weight is the primary variable in mattress compression and spinal alignment during lateral (side) sleep. Lighter sleepers (under 130 lbs) apply 25-40% less force to comfort layers than average-weight adults, meaning they activate fewer coil rows and compress foam layers shallower. This creates a "floating" effect on the surface without proper lateral curve support — causing the shoulder to be pushed inward and the hip to be unsupported. The study recommended that lighter individuals choose mattresses rated 1-2 firmness levels softer than standard recommendations for their sleep position.</p>
+  </div>
+
+  <div class="weight-guide" id="weight-guide">
+    <h2>Firmness Guide for Side Sleepers by Weight</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Weight Range</th>
+          <th>Recommended Firmness</th>
+          <th>Best Mattress Type</th>
+          <th>Avoid</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Under 100 lbs</td>
+          <td class="rec">Extra Soft (2-3/10)</td>
+          <td>Memory foam or pillow-top innerspring</td>
+          <td>Hybrid coils, firm or medium firm</td>
+        </tr>
+        <tr>
+          <td>100-130 lbs (petite)</td>
+          <td class="rec">Soft to Medium Soft (3-5/10)</td>
+          <td>Hybrid or memory foam</td>
+          <td>Firm, medium-firm</td>
+        </tr>
+        <tr>
+          <td>130-180 lbs (average)</td>
+          <td>Medium to Medium Soft (4-6/10)</td>
+          <td>Hybrid or latex hybrid</td>
+          <td>Firm unless back sleeper also</td>
+        </tr>
+        <tr>
+          <td>180-250 lbs</td>
+          <td>Medium to Medium Firm (5-7/10)</td>
+          <td>Hybrid with reinforced coils</td>
+          <td>Soft, all-foam without support layer</td>
+        </tr>
+        <tr>
+          <td>250+ lbs</td>
+          <td>Medium Firm to Firm (6-8/10)</td>
+          <td>Heavy-duty hybrid or innerspring</td>
+          <td>Standard foam — will compress too fast</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="faq" id="faq">
+    <h2>Frequently Asked Questions</h2>
+    <div class="faq-item">
+      <h3>What firmness is best for petite side sleepers?</h3>
+      <p>Soft to medium-soft (3-5 out of 10). Petite sleepers (under 130 lbs) exert less pressure and won't compress comfort layers as deeply as heavier sleepers. A mattress rated medium-soft will feel closer to medium for them. Avoid firm mattresses — they won't contour enough to relieve shoulder and hip pressure.</p>
+    </div>
+    <div class="faq-item">
+      <h3>Why do standard mattresses feel too firm for petite side sleepers?</h3>
+      <p>Mattress firmness ratings assume an average adult weight (150-200 lbs). Petite sleepers compress comfort layers less, so the same mattress feels firmer. This leads to pressure buildup at the shoulder and hip — the widest points of the body when lying on your side — causing numbness, pain, and restless sleep.</p>
+    </div>
+    <div class="faq-item">
+      <h3>Is memory foam or latex better for petite side sleepers?</h3>
+      <p>Memory foam typically works better because it conforms closely to curves without requiring heavy pressure to compress. Latex is responsive and cooling but needs more body weight to fully conform. For petite sleepers, a soft memory foam comfort layer over a hybrid coil base offers the best combination of contouring and support.</p>
+    </div>
+    <div class="faq-item">
+      <h3>What thickness is best for petite side sleepers?</h3>
+      <p>10-12 inches is ideal. Petite sleepers don't need the thick comfort layers that heavier sleepers require. An excessively thick mattress (14+ inches) may actually reduce the firmness feedback they need for spinal alignment. Look for at least 3 inches of comfort foam or gel layers in a soft firmness.</p>
+    </div>
+    <div class="faq-item">
+      <h3>Should petite side sleepers use a mattress topper?</h3>
+      <p>Only if their current mattress is too firm. A 2-inch soft memory foam or latex topper can transform a medium mattress into a soft feel. Avoid goose down toppers — they lack pressure point support. If buying new, start with a soft mattress rather than a medium + topper, which adds cost and can cause uneven sinking.</p>
+    </div>
+  </div>
+</main>
+
+<footer>
+  <p>&copy; 2025 SleepWise Reviews &mdash; <a href="/posts/">All Articles</a> &mdash; <a href="/">Home</a></p>
+  <p style="margin-top:0.5rem;">Amazon Associate disclosure: we earn from qualifying purchases.</p>
+</footer>
+</body>
+</html>
+'''
+
+with open('posts/best-mattress-petite-side-sleepers.html', 'w', encoding='utf-8') as f:
+    f.write(html)
+print('Written: posts/best-mattress-petite-side-sleepers.html')

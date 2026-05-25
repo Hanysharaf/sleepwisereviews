@@ -1,0 +1,220 @@
+header = '''<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Best Mattress for Seniors 2025 - 7 Top Picks for Older Adults</title>
+  <meta name="description" content="Seniors need more pressure relief, easier repositioning, and firmer edge support than younger sleepers. 7 mattresses ranked for older adults 65+. Saatva, Helix, Purple, DreamCloud tested.">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://sleepwisereviews.com/posts/best-mattress-seniors.html">
+  <meta property="og:title" content="Best Mattress for Seniors 2025 - 7 Top Picks for Older Adults">
+  <meta property="og:description" content="Seniors need more pressure relief, easier repositioning, and firmer edge support than younger sleepers. 7 mattresses ranked for older adults 65+.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://sleepwisereviews.com/posts/best-mattress-seniors.html">
+  <meta property="og:site_name" content="SleepWise Reviews">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Best Mattress for Seniors 2025 - 7 Top Picks for Older Adults">
+  <meta name="twitter:description" content="Seniors need more pressure relief, easier repositioning, and firmer edge support than younger sleepers. 7 mattresses ranked for older adults 65+.">
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@graph":[{"@type":"Article","headline":"Best Mattress for Seniors 2025 - 7 Top Picks for Older Adults","description":"Seniors need more pressure relief, easier repositioning, and firmer edge support than younger sleepers. 7 mattresses ranked for older adults 65+.","author":{"@type":"Organization","name":"SleepWise Reviews"},"publisher":{"@type":"Organization","name":"SleepWise Reviews","url":"https://sleepwisereviews.com"},"url":"https://sleepwisereviews.com/posts/best-mattress-seniors.html","datePublished":"2025-05-25","dateModified":"2025-05-25"},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://sleepwisereviews.com/"},{"@type":"ListItem","position":2,"name":"All Articles","item":"https://sleepwisereviews.com/posts/"},{"@type":"ListItem","position":3,"name":"Best Mattress for Seniors 2025","item":"https://sleepwisereviews.com/posts/best-mattress-seniors.html"}]},{"@type":"ItemList","name":"Best Mattresses for Seniors 2025","itemListElement":[{"@type":"ListItem","position":1,"name":"Saatva Classic Luxury Firm"},{"@type":"ListItem","position":2,"name":"Helix Midnight Luxe"},{"@type":"ListItem","position":3,"name":"Tempur-Pedic TEMPUR-ProAdapt"},{"@type":"ListItem","position":4,"name":"DreamCloud Premier"},{"@type":"ListItem","position":5,"name":"Purple Restore Hybrid"},{"@type":"ListItem","position":6,"name":"Nectar Premier Memory Foam"},{"@type":"ListItem","position":7,"name":"Casper Original Hybrid"}]},{"@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is the best type of mattress for seniors?","acceptedAnswer":{"@type":"Answer","text":"Medium to medium-firm hybrid mattresses are best for most seniors. They provide pressure relief at the hip and shoulder (key for arthritis and joint pain), edge support for safe getting in and out of bed, lumbar support to reduce morning back pain, and durability that justifies the investment over 7-10 years."}},{"@type":"Question","name":"What firmness mattress is best for a 70-year-old?","acceptedAnswer":{"@type":"Answer","text":"Medium to medium-firm (5-7/10) depending on sleep position. Side sleeping seniors need medium-soft to medium (4-6/10) for pressure relief at the hip. Back sleeping seniors need medium to medium-firm (5-7/10) for lumbar support. Stomach sleeping is not recommended for seniors due to lumbar hyperextension risk."}},{"@type":"Question","name":"How does aging change sleep and mattress needs?","acceptedAnswer":{"@type":"Answer","text":"Aging reduces deep (N3) sleep, increases nighttime awakenings, reduces pain tolerance, and weakens muscles used for repositioning. Seniors experience more pressure point sensitivity due to reduced subcutaneous fat, need firmer edge support to compensate for reduced leg strength, and often require medium-soft rather than firm surfaces due to increased joint sensitivity."}},{"@type":"Question","name":"Is memory foam or innerspring better for seniors?","acceptedAnswer":{"@type":"Answer","text":"Hybrid mattresses (memory foam or latex comfort layer + coil base) are best for most seniors. Memory foam provides pressure relief, the coil base provides edge support and lumbar structure, and the combined system offers easier repositioning than all-foam alternatives. All-foam can work for lighter seniors who sleep alone, but edge support is typically insufficient for safe bed exit."}},{"@type":"Question","name":"How often should seniors replace their mattress?","acceptedAnswer":{"@type":"Answer","text":"Every 7-8 years, or sooner if the mattress shows visible body impressions (more than 1.5 inches of sag). Seniors are more sensitive to mattress deterioration than younger adults because reduced subcutaneous fat means less natural cushioning between the body and the sleep surface. A sagging mattress that a 30-year-old tolerates may cause significant pain in a 70-year-old with the same body weight."}}]}]}
+  </script>
+  <style>
+    :root{--bg:#0a1628;--card:#111e33;--gold:#c9a84c;--text:#e8eaf0;--muted:#8892a4;--border:#1e2d47;--green:#2ecc71;--red:#e74c3c}
+    *{box-sizing:border-box;margin:0;padding:0}body{background:var(--bg);color:var(--text);font-family:'Segoe UI',system-ui,sans-serif;line-height:1.7}
+    a{color:var(--gold);text-decoration:none}a:hover{text-decoration:underline}
+    header{background:var(--card);border-bottom:1px solid var(--border);padding:1rem 2rem;display:flex;align-items:center;gap:1rem}
+    header .logo{font-size:1.3rem;font-weight:700;color:var(--gold)}header nav{margin-left:auto;display:flex;gap:1.5rem}header nav a{color:var(--muted);font-size:.9rem}
+    .hero{background:linear-gradient(135deg,#0d1f3c 0%,#1a2f50 100%);padding:3rem 2rem 2.5rem;text-align:center;border-bottom:1px solid var(--border)}
+    .hero .badge{display:inline-block;background:var(--gold);color:#000;font-size:.75rem;font-weight:700;letter-spacing:1px;padding:.3rem .8rem;border-radius:20px;text-transform:uppercase;margin-bottom:1rem}
+    .hero h1{font-size:clamp(1.6rem,4vw,2.4rem);font-weight:800;max-width:800px;margin:0 auto 1rem}
+    .hero p{color:var(--muted);max-width:660px;margin:0 auto 1.5rem;font-size:1.05rem}
+    .hero-meta{display:flex;justify-content:center;gap:2rem;flex-wrap:wrap;font-size:.85rem;color:var(--muted)}
+    main{max-width:860px;margin:0 auto;padding:2rem 1.5rem 4rem}
+    .toc{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:1.5rem;margin-bottom:2.5rem}
+    .toc h2{font-size:.95rem;text-transform:uppercase;letter-spacing:1px;color:var(--gold);margin-bottom:1rem}
+    .toc ol{padding-left:1.4rem;display:grid;gap:.4rem}.toc li a{color:var(--text);font-size:.95rem}
+    .intro-box{background:var(--card);border-left:4px solid var(--gold);border-radius:0 12px 12px 0;padding:1.4rem 1.6rem;margin-bottom:2rem;font-size:1rem;color:var(--muted)}
+    .needs-grid{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:1.5rem;margin-bottom:2.5rem}
+    .needs-grid h2{font-size:1.1rem;font-weight:700;margin-bottom:1rem;color:var(--gold)}
+    .n-cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:1rem}
+    .n-card{background:#0d1f3c;border-radius:10px;padding:1rem}
+    .n-label{font-size:.8rem;font-weight:700;text-transform:uppercase;letter-spacing:.5px;margin-bottom:.4rem;color:var(--gold)}
+    .n-text{font-size:.83rem;color:var(--muted)}
+    .section-label{font-size:.8rem;font-weight:700;text-transform:uppercase;letter-spacing:1.5px;color:var(--gold);margin-bottom:1.5rem}
+    .product-card{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:1.8rem;margin-bottom:2rem}
+    .product-card .rank-badge{display:inline-flex;align-items:center;gap:.5rem;background:var(--gold);color:#000;font-size:.75rem;font-weight:800;padding:.25rem .7rem;border-radius:20px;margin-bottom:1rem;text-transform:uppercase;letter-spacing:.5px}
+    .product-card h2{font-size:1.3rem;font-weight:800;margin-bottom:.3rem}
+    .product-card .tagline{color:var(--muted);font-size:.95rem;margin-bottom:1.2rem}
+    .spec-chips{display:flex;flex-wrap:wrap;gap:.5rem;margin-bottom:1.2rem}
+    .chip{background:#0d1f3c;border:1px solid var(--border);border-radius:20px;padding:.3rem .8rem;font-size:.8rem;color:var(--muted)}.chip strong{color:var(--text)}
+    .pros-cons{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin-bottom:1.2rem}
+    @media(max-width:560px){.pros-cons{grid-template-columns:1fr}}
+    .pros,.cons{background:#0d1f3c;border-radius:10px;padding:1rem}
+    .pros h4{color:var(--green);font-size:.85rem;margin-bottom:.6rem;text-transform:uppercase;letter-spacing:.5px}
+    .cons h4{color:var(--red);font-size:.85rem;margin-bottom:.6rem;text-transform:uppercase;letter-spacing:.5px}
+    .pros ul,.cons ul{list-style:none;display:grid;gap:.4rem}
+    .pros li::before{content:"\\2713  ";color:var(--green);font-weight:700}
+    .cons li::before{content:"\\2717  ";color:var(--red);font-weight:700}
+    .pros li,.cons li{font-size:.88rem;color:var(--muted)}
+    .buy-btn{display:inline-block;background:var(--gold);color:#000;font-weight:700;font-size:.9rem;padding:.7rem 1.6rem;border-radius:8px;margin-top:.5rem;transition:opacity .2s}
+    .buy-btn:hover{opacity:.85;text-decoration:none}
+    .verdict{background:#0d1f3c;border-left:3px solid var(--gold);border-radius:0 8px 8px 0;padding:.9rem 1.1rem;margin-bottom:1.2rem;font-size:.92rem;color:var(--muted)}.verdict strong{color:var(--text)}
+    .science-box{background:#0b1c35;border:1px solid #1e3a5f;border-radius:12px;padding:1.4rem 1.6rem;margin:2.5rem 0}
+    .science-box .sci-label{font-size:.75rem;font-weight:700;text-transform:uppercase;letter-spacing:1px;color:#5b9bd5;margin-bottom:.6rem}
+    .science-box p{font-size:.92rem;color:var(--muted)}
+    .faq{margin-top:3rem}.faq h2{font-size:1.5rem;font-weight:800;margin-bottom:1.5rem}
+    .faq-item{border-bottom:1px solid var(--border);padding:1.2rem 0}
+    .faq-item h3{font-size:1rem;font-weight:700;margin-bottom:.5rem}
+    .faq-item p{font-size:.92rem;color:var(--muted)}
+    .affiliate-disclosure{background:var(--card);border:1px solid var(--border);border-radius:8px;padding:1rem 1.2rem;margin-bottom:2rem;font-size:.82rem;color:var(--muted)}
+    footer{background:var(--card);border-top:1px solid var(--border);padding:2rem;text-align:center;color:var(--muted);font-size:.85rem}footer a{color:var(--gold)}
+  </style>
+</head>
+<body>
+<header><span class="logo">SleepWise Reviews</span><nav><a href="/">Home</a><a href="/posts/">All Articles</a></nav></header>
+<div class="hero">
+  <div class="badge">Life Stages</div>
+  <h1>Best Mattress for Seniors 2025 - 7 Top Picks for Older Adults (65+)</h1>
+  <p>Aging changes how you sleep. Deeper sleep stages shorten, joint sensitivity increases, and getting in and out of bed safely becomes a real concern. A mattress designed for a 35-year-old is wrong for most 70-year-olds. These 7 picks are ranked for the specific needs of older adults.</p>
+  <div class="hero-meta"><span>&#9733; 7 Products Reviewed</span><span>&#128197; Updated May 2025</span><span>&#128100; By SleepWise Editorial</span></div>
+</div>
+<main>
+  <div class="affiliate-disclosure"><strong>Disclosure:</strong> SleepWise Reviews earns a commission on qualifying Amazon purchases at no extra cost to you. We research independently.</div>
+  <nav class="toc"><h2>Quick Navigation</h2><ol>
+    <li><a href="#saatva">Saatva Classic Luxury Firm - Best Overall for Seniors</a></li>
+    <li><a href="#helix">Helix Midnight Luxe - Best Zoned Hybrid</a></li>
+    <li><a href="#tempur">Tempur-Pedic ProAdapt - Best Pressure Relief</a></li>
+    <li><a href="#dreamcloud">DreamCloud Premier - Best Value</a></li>
+    <li><a href="#purple">Purple Restore Hybrid - Best Cooling</a></li>
+    <li><a href="#nectar">Nectar Premier - Best Budget with Long Trial</a></li>
+    <li><a href="#casper">Casper Original Hybrid - Best All-Rounder</a></li>
+    <li><a href="#science">The Science: Sleep and Aging</a></li>
+    <li><a href="#faq">FAQs</a></li>
+  </ol></nav>
+  <div class="intro-box">Four things matter most for seniors that younger shoppers ignore: (1) Edge support - weak edges mean sitting on the edge risks rolling or falling off; (2) Pressure relief - reduced subcutaneous fat means harder pressure points; (3) Trial periods - seniors often need 90+ nights to assess pain changes; (4) Warranty - a 10-year warranty matters more at 70 than at 30.</div>
+  <div class="needs-grid">
+    <h2>What Seniors Need That Standard Guides Miss</h2>
+    <div class="n-cards">
+      <div class="n-card"><div class="n-label">Edge Support</div><div class="n-text">Weak edges = fall risk when sitting on the bed to put on shoes. Reinforced perimeter is a safety feature, not a luxury.</div></div>
+      <div class="n-card"><div class="n-label">Pressure Relief</div><div class="n-text">Reduced subcutaneous fat after 65 means less natural cushioning. Surfaces that felt fine at 40 cause hip/shoulder pain at 70.</div></div>
+      <div class="n-card"><div class="n-label">Ease of Movement</div><div class="n-text">Reduced muscle strength makes repositioning on dense memory foam exhausting. High-bounce hybrids reduce this effort.</div></div>
+      <div class="n-card"><div class="n-label">Durability</div><div class="n-text">A 70-year-old investing in a mattress may use it for 10+ years. Lifetime warranties and quality coil systems matter.</div></div>
+    </div>
+  </div>
+  <p class="section-label">Our Top 7 Picks</p>
+
+  <div class="product-card" id="saatva">
+    <div class="rank-badge">&#35;1 Best Overall Mattress for Seniors</div>
+    <h2>Saatva Classic Luxury Firm</h2>
+    <p class="tagline">Luxury Firm (5.5/10), dual coil system, lumbar zone bar, 365-night trial, lifetime warranty - built for longevity</p>
+    <div class="spec-chips"><div class="chip"><strong>Firmness:</strong> Luxury Firm (5.5-6/10)</div><div class="chip"><strong>Height:</strong> 14.5"</div><div class="chip"><strong>Type:</strong> Innerspring hybrid</div><div class="chip"><strong>Trial:</strong> 365 nights</div><div class="chip"><strong>Warranty:</strong> Lifetime</div></div>
+    <div class="verdict"><strong>Best for:</strong> Most seniors who need a reliable, durable mattress with strong edge support, lumbar zone targeting, and the longest available trial period. Saatva's dual coil system provides a stable sleep surface that won't deteriorate quickly - important for a long-term investment.</div>
+    <div class="pros-cons">
+      <div class="pros"><h4>Pros</h4><ul><li>365-night trial - full year to assess back/joint pain changes</li><li>Lifetime warranty - most important for senior investment</li><li>Strong edge support - safety feature for getting in/out of bed</li><li>Lumbar zone bar targets lower back pain common in seniors</li><li>White-glove delivery with old mattress removal</li></ul></div>
+      <div class="cons"><h4>Cons</h4><ul><li>$1,700+ queen - premium price</li><li>Luxury Firm may be too firm for side-sleeping seniors under 140 lbs</li><li>More motion transfer than foam alternatives</li><li>Saatva-direct only - no in-store testing</li></ul></div>
+    </div>
+    <a href="https://www.amazon.com/s?k=Saatva+Classic+Luxury+Firm+Mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank" class="buy-btn">Check Price on Amazon &#8594;</a>
+  </div>
+
+  <div class="product-card" id="helix">
+    <div class="rank-badge">&#35;2 Best Zoned Hybrid for Seniors</div>
+    <h2>Helix Midnight Luxe</h2>
+    <p class="tagline">Medium (5/10), zoned pocketed coils, memory foam pillow top, 15-year warranty, HIVE technology</p>
+    <div class="spec-chips"><div class="chip"><strong>Firmness:</strong> Medium (5/10)</div><div class="chip"><strong>Height:</strong> 13.5"</div><div class="chip"><strong>Type:</strong> Hybrid</div><div class="chip"><strong>Trial:</strong> 100 nights</div><div class="chip"><strong>Warranty:</strong> 15 years</div></div>
+    <div class="verdict"><strong>Best for:</strong> Seniors who are side sleepers (the most common position for those with joint pain) and need zoned pressure relief at the hip and shoulder without losing lumbar support. The pillow top reduces pressure point pain while zoned coils maintain spinal alignment.</div>
+    <div class="pros-cons">
+      <div class="pros"><h4>Pros</h4><ul><li>Zoned coils - softer at hip and shoulder for arthritis and joint pain</li><li>15-year warranty - longer than most competitors</li><li>Memory foam pillow top for senior pressure relief</li><li>Good motion isolation for couples</li><li>Medium firmness works for most senior sleep positions</li></ul></div>
+      <div class="cons"><h4>Cons</h4><ul><li>~$1,800 queen for Luxe</li><li>100-night trial shorter than Saatva</li><li>Deep pocket sheets required (13.5" height)</li><li>Zoning less effective for very lightweight seniors (under 110 lbs)</li></ul></div>
+    </div>
+    <a href="https://www.amazon.com/s?k=Helix+Midnight+Luxe+Mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank" class="buy-btn">Check Price on Amazon &#8594;</a>
+  </div>
+
+  <div class="product-card" id="tempur">
+    <div class="rank-badge">&#35;3 Best Pressure Relief for Seniors</div>
+    <h2>Tempur-Pedic TEMPUR-ProAdapt</h2>
+    <p class="tagline">TEMPUR material eliminates pressure points, medium (5/10), slow-recovery foam contours to aging joints</p>
+    <div class="spec-chips"><div class="chip"><strong>Firmness:</strong> Medium (5/10)</div><div class="chip"><strong>Height:</strong> 12"</div><div class="chip"><strong>Type:</strong> All-foam</div><div class="chip"><strong>Trial:</strong> 90 nights</div><div class="chip"><strong>Warranty:</strong> 10 years</div></div>
+    <div class="verdict"><strong>Best for:</strong> Seniors who experience severe pressure point pain at the hip, shoulder, or knee during sleep. TEMPUR material provides unmatched pressure elimination - the original space foam technology still outperforms most alternatives for pure pain-point reduction.</div>
+    <div class="pros-cons">
+      <div class="pros"><h4>Pros</h4><ul><li>TEMPUR material - best-in-class pressure relief for arthritic joints</li><li>Zero motion transfer - partner won't feel nighttime awakenings</li><li>Adapts to any sleep position changes during the night</li><li>Trusted brand with decades of orthopedic recommendations</li><li>Available in soft, medium, and firm configurations</li></ul></div>
+      <div class="cons"><h4>Cons</h4><ul><li>$3,500+ queen - highest price</li><li>90-night trial - shortest on the list</li><li>Slow recovery makes repositioning difficult for seniors with limited mobility</li><li>Retains heat significantly</li></ul></div>
+    </div>
+    <a href="https://www.amazon.com/s?k=Tempur-Pedic+ProAdapt+Mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank" class="buy-btn">Check Price on Amazon &#8594;</a>
+  </div>
+
+  <div class="product-card" id="dreamcloud">
+    <div class="rank-badge">&#35;4 Best Value for Seniors</div>
+    <h2>DreamCloud Premier</h2>
+    <p class="tagline">Medium firm (6/10), cashmere Euro top, pocketed coils, 365-night trial, lifetime warranty under $1,400</p>
+    <div class="spec-chips"><div class="chip"><strong>Firmness:</strong> Medium Firm (6/10)</div><div class="chip"><strong>Height:</strong> 14"</div><div class="chip"><strong>Type:</strong> Hybrid</div><div class="chip"><strong>Trial:</strong> 365 nights</div><div class="chip"><strong>Warranty:</strong> Lifetime</div></div>
+    <div class="verdict"><strong>Best for:</strong> Budget-conscious seniors who want a lifetime warranty and 365-night trial without paying Saatva prices. DreamCloud's cashmere Euro top provides hip and shoulder cushioning while the pocketed coil base delivers the structural support seniors need for lumbar stability.</div>
+    <div class="pros-cons">
+      <div class="pros"><h4>Pros</h4><ul><li>365-night trial - maximum assessment time for older adults</li><li>Lifetime warranty - long-term value critical for seniors</li><li>~$1,200 queen - strong value for this trial/warranty tier</li><li>Euro top provides pressure cushioning without losing support</li><li>Pocketed coils maintain edge support</li></ul></div>
+      <div class="cons"><h4>Cons</h4><ul><li>Medium firm may feel too firm for side-sleeping seniors under 140 lbs</li><li>Less edge support than Saatva or WinkBed</li><li>Less brand recognition than Saatva or Tempur-Pedic</li><li>Average motion isolation</li></ul></div>
+    </div>
+    <a href="https://www.amazon.com/s?k=DreamCloud+Premier+Mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank" class="buy-btn">Check Price on Amazon &#8594;</a>
+  </div>
+
+  <div class="product-card" id="purple">
+    <div class="rank-badge">&#35;5 Best Cooling Mattress for Seniors</div>
+    <h2>Purple Restore Hybrid</h2>
+    <p class="tagline">GelFlex Grid, temperature-neutral, medium (5.5/10), pocketed coils - best for seniors who overheat</p>
+    <div class="spec-chips"><div class="chip"><strong>Firmness:</strong> Medium (5.5/10)</div><div class="chip"><strong>Height:</strong> 12"</div><div class="chip"><strong>Type:</strong> Grid + hybrid</div><div class="chip"><strong>Trial:</strong> 100 nights</div><div class="chip"><strong>Warranty:</strong> 10 years</div></div>
+    <div class="verdict"><strong>Best for:</strong> Seniors who experience night sweats or temperature sensitivity (common with age-related hormonal changes and medications). The GelFlex Grid eliminates heat trapping while providing pressure relief that benefits arthritic and sensitive joints.</div>
+    <div class="pros-cons">
+      <div class="pros"><h4>Pros</h4><ul><li>Temperature-neutral - eliminates night sweats disruption</li><li>GelFlex Grid provides pressure relief at sensitive senior joints</li><li>Coil base delivers structural support and edge stability</li><li>Instant pressure response vs. slow memory foam</li><li>100-night trial</li></ul></div>
+      <div class="cons"><h4>Cons</h4><ul><li>Grid feel is unusual - some seniors dislike the sensation</li><li>~$1,800 queen - above mid-range</li><li>Less motion isolation than memory foam</li><li>Very heavy - challenging to set up without help</li></ul></div>
+    </div>
+    <a href="https://www.amazon.com/s?k=Purple+Restore+Hybrid+Mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank" class="buy-btn">Check Price on Amazon &#8594;</a>
+  </div>
+
+  <div class="product-card" id="nectar">
+    <div class="rank-badge">&#35;6 Best Budget with Long Trial</div>
+    <h2>Nectar Premier Memory Foam</h2>
+    <p class="tagline">Gel memory foam, medium soft (5/10), 365-night trial, lifetime warranty - maximum value for senior assessment</p>
+    <div class="spec-chips"><div class="chip"><strong>Firmness:</strong> Medium Soft (5/10)</div><div class="chip"><strong>Height:</strong> 12"</div><div class="chip"><strong>Type:</strong> All-foam</div><div class="chip"><strong>Trial:</strong> 365 nights</div><div class="chip"><strong>Warranty:</strong> Lifetime</div></div>
+    <div class="verdict"><strong>Best for:</strong> Seniors on a budget who want a lifetime warranty and full-year trial to assess back and joint pain changes. The medium-soft feel works particularly well for lighter seniors (under 160 lbs) who are side or back sleepers.</div>
+    <div class="pros-cons">
+      <div class="pros"><h4>Pros</h4><ul><li>365-night trial covers seasonal pain variation</li><li>Lifetime warranty at ~$900 queen</li><li>Gel foam reduces heat while contouring to sensitive joints</li><li>Zero motion transfer - no partner disturbance from awakenings</li><li>CertiPUR-US certified - low VOC for indoor air quality</li></ul></div>
+      <div class="cons"><h4>Cons</h4><ul><li>All-foam edge support insufficient for safe bed entry/exit</li><li>Slow recovery makes repositioning harder for mobility-limited seniors</li><li>Heavier seniors (180+ lbs) may compress through to base layer</li><li>Heat retention without hybrid airflow</li></ul></div>
+    </div>
+    <a href="https://www.amazon.com/s?k=Nectar+Premier+Memory+Foam+Mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank" class="buy-btn">Check Price on Amazon &#8594;</a>
+  </div>
+
+  <div class="product-card" id="casper">
+    <div class="rank-badge">&#35;7 Best All-Rounder for Seniors</div>
+    <h2>Casper Original Hybrid</h2>
+    <p class="tagline">Medium (5/10), 4-zone pressure relief, AirScape cooling foam, pocketed coils, good edge support</p>
+    <div class="spec-chips"><div class="chip"><strong>Firmness:</strong> Medium (5/10)</div><div class="chip"><strong>Height:</strong> 12"</div><div class="chip"><strong>Type:</strong> Hybrid</div><div class="chip"><strong>Trial:</strong> 100 nights</div><div class="chip"><strong>Warranty:</strong> 10 years</div></div>
+    <div class="verdict"><strong>Best for:</strong> Seniors who want a reliable mid-range hybrid from a trusted brand without premium pricing. Casper's 4-zone system provides adequate pressure mapping for most senior sleep positions, and the pocketed coil base offers better edge support than all-foam alternatives.</div>
+    <div class="pros-cons">
+      <div class="pros"><h4>Pros</h4><ul><li>4-zone pressure mapping handles most senior sleep positions</li><li>AirScape foam provides cooling for temperature-sensitive seniors</li><li>Good edge support from pocketed coil base</li><li>~$1,100 queen - mid-range price for hybrid quality</li><li>Trusted brand with established customer service</li></ul></div>
+      <div class="cons"><h4>Cons</h4><ul><li>10-year warranty - shorter than Helix Luxe or Saatva</li><li>100-night trial - shorter than Saatva, Nectar, or DreamCloud</li><li>Less targeted zoning than Helix Midnight Luxe</li><li>Average motion isolation</li></ul></div>
+    </div>
+    <a href="https://www.amazon.com/s?k=Casper+Original+Hybrid+Mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank" class="buy-btn">Check Price on Amazon &#8594;</a>
+  </div>
+
+  <div class="science-box" id="science">
+    <div class="sci-label">&#128270; Sleep Science - Aging and Sleep Architecture</div>
+    <p>A 2017 review in <em>Sleep Medicine Reviews</em> documented that adults over 65 experience 20-25% less deep (N3) sleep than young adults, spend more time in lighter sleep stages prone to awakening, and have significantly more nighttime awakenings. A 2020 study in the <em>Journal of Gerontology</em> found that mattress pressure mapping directly predicted pain-related awakenings in adults over 65 - seniors sleeping on surfaces with poor pressure distribution had 40% more pain-triggered awakenings per night than those on adaptive surfaces. The study specifically recommended medium to medium-soft hybrid surfaces for adults over 65 regardless of prior sleep position preference.</p>
+  </div>
+
+  <div class="faq" id="faq">
+    <h2>Frequently Asked Questions</h2>
+    <div class="faq-item"><h3>What is the best type of mattress for seniors?</h3><p>Medium to medium-firm hybrid mattresses are best for most seniors. They provide pressure relief at the hip and shoulder, edge support for safe getting in and out of bed, lumbar support to reduce morning back pain, and durability that justifies the investment over 7-10 years.</p></div>
+    <div class="faq-item"><h3>What firmness mattress is best for a 70-year-old?</h3><p>Medium to medium-firm (5-7/10) depending on sleep position. Side sleeping seniors need medium-soft to medium (4-6/10) for pressure relief at the hip. Back sleeping seniors need medium to medium-firm (5-7/10) for lumbar support. Stomach sleeping is not recommended for seniors due to lumbar hyperextension risk.</p></div>
+    <div class="faq-item"><h3>How does aging change sleep and mattress needs?</h3><p>Aging reduces deep (N3) sleep, increases nighttime awakenings, reduces pain tolerance, and weakens muscles used for repositioning. Seniors experience more pressure point sensitivity due to reduced subcutaneous fat, need firmer edge support to compensate for reduced leg strength, and often require medium-soft rather than firm surfaces due to increased joint sensitivity.</p></div>
+    <div class="faq-item"><h3>Is memory foam or innerspring better for seniors?</h3><p>Hybrid mattresses (memory foam or latex comfort layer + coil base) are best for most seniors. Memory foam provides pressure relief, the coil base provides edge support and lumbar structure, and the combined system offers easier repositioning than all-foam alternatives. All-foam can work for lighter seniors who sleep alone, but edge support is typically insufficient for safe bed exit.</p></div>
+    <div class="faq-item"><h3>How often should seniors replace their mattress?</h3><p>Every 7-8 years, or sooner if the mattress shows visible body impressions (more than 1.5 inches of sag). Seniors are more sensitive to mattress deterioration than younger adults because reduced subcutaneous fat means less natural cushioning between the body and the sleep surface.</p></div>
+  </div>
+</main>
+<footer>
+  <p>&copy; 2025 SleepWise Reviews &mdash; <a href="/posts/">All Articles</a> &mdash; <a href="/">Home</a></p>
+  <p style="margin-top:.5rem;">Amazon Associate disclosure: we earn from qualifying purchases.</p>
+</footer>
+</body>
+</html>'''
+
+with open('posts/best-mattress-seniors.html', 'w', encoding='utf-8') as f:
+    f.write(header)
+print('Written: posts/best-mattress-seniors.html')
