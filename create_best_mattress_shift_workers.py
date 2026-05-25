@@ -1,0 +1,286 @@
+slug = "best-mattress-shift-workers"
+out = f"posts/{slug}.html"
+
+html = """<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Best Mattress for Shift Workers 2025 — 7 Picks for Day Sleeping &amp; Circadian Recovery</title>
+<meta name="description" content="Best mattresses for shift workers 2025. 7 expert picks for day sleeping, circadian disruption, heat management, and motion isolation when partners and households are active.">
+<link rel="canonical" href="https://sleepwisereviews.com/posts/best-mattress-shift-workers.html">
+<meta property="og:title" content="Best Mattress for Shift Workers 2025 — 7 Picks for Day Sleep Quality">
+<meta property="og:description" content="Shift workers sleep when the world is awake and awake when others sleep. These 7 mattresses address daytime heat, household noise transmission, and circadian rhythm recovery.">
+<meta property="og:url" content="https://sleepwisereviews.com/posts/best-mattress-shift-workers.html">
+<meta property="og:type" content="article">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Best Mattress for Shift Workers 2025">
+<meta name="twitter:description" content="7 mattress picks for shift workers — daytime cooling, motion isolation, circadian disruption guide.">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "headline": "Best Mattress for Shift Workers 2025",
+      "description": "Expert mattress picks for shift workers: daytime heat management, motion isolation from household activity, and circadian rhythm recovery strategies.",
+      "url": "https://sleepwisereviews.com/posts/best-mattress-shift-workers.html",
+      "datePublished": "2026-05-25",
+      "dateModified": "2026-05-25",
+      "author": {"@type": "Organization", "name": "SleepWise Reviews"},
+      "publisher": {"@type": "Organization", "name": "SleepWise Reviews", "url": "https://sleepwisereviews.com"}
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://sleepwisereviews.com"},
+        {"@type": "ListItem", "position": 2, "name": "All Posts", "item": "https://sleepwisereviews.com/posts/index.html"},
+        {"@type": "ListItem", "position": 3, "name": "Best Mattress for Shift Workers", "item": "https://sleepwisereviews.com/posts/best-mattress-shift-workers.html"}
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "name": "Best Mattresses for Shift Workers 2025",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Purple Restore Hybrid — Best Overall for Shift Workers"},
+        {"@type": "ListItem", "position": 2, "name": "Tempur-Pedic TEMPUR-breeze — Best for Day Sleep Heat"},
+        {"@type": "ListItem", "position": 3, "name": "Nectar Premier — Best Motion Isolation (Active Household)"},
+        {"@type": "ListItem", "position": 4, "name": "Casper Wave Hybrid — Best for Split Shifts (Nap + Night Combo)"},
+        {"@type": "ListItem", "position": 5, "name": "Saatva Classic Medium-Firm — Best for Longer Day Sleeps"},
+        {"@type": "ListItem", "position": 6, "name": "Helix Midnight Luxe — Best for Side-Sleeping Shift Workers"},
+        {"@type": "ListItem", "position": 7, "name": "DreamCloud Premier — Best Budget Shift Worker Mattress"}
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What mattress is best for someone who works night shifts?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A cooling hybrid with excellent motion isolation is best for night shift workers. Daytime sleeping is warmer than nighttime (ambient temperature peaks between 2-4 PM), so cooling is the first priority. Motion isolation protects daytime sleep from household activity — a partner, children, or pets moving around during your sleep window. A medium feel (5-6/10) provides all-position comfort for the irregular sleep timing shift workers experience."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why is it harder to sleep during the day for shift workers?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Three biological factors work against day sleeping: (1) Core body temperature is elevated during the day compared to nighttime — the body expects to be awake at 2 PM, not asleep. (2) Melatonin secretion is suppressed by daylight, even through closed eyelids. (3) The homeostatic sleep drive (adenosine accumulation) competes with the circadian alertness signal, making deep sleep harder to achieve. A cool, dark sleep environment and a temperature-neutral mattress work with the biology instead of fighting it."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does shift work permanently damage sleep quality?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Chronic shift work (10+ years) is associated with long-term circadian dysregulation, higher rates of insomnia, and increased cardiovascular and metabolic risk. However, proper sleep hygiene — consistent sleep schedule, blackout environment, cool temperature, and a quality mattress — significantly reduces the sleep debt accumulation. Many shift workers achieve adequate total sleep time even with circadian disruption by optimizing sleep efficiency during their available sleep window."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Should shift workers use a firm or soft mattress?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Medium (5-6/10) is optimal for most shift workers. Shift workers often have irregular sleep positions (side, back, combination) because circadian disruption affects the normal sleep architecture that keeps people in one position. A medium feel accommodates position changes without pressure point buildup. Cooling is more important than firmness for day sleepers — prioritize thermal management before firmness optimization."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How can I improve my sleep quality as a shift worker?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Four non-medication interventions have the strongest evidence: (1) Complete blackout (eye mask + blackout curtains) — melatonin suppression through light is the primary obstacle to day sleeping. (2) Cooling the bedroom and using a temperature-neutral mattress — daytime ambient temperature is 2-4°C higher than nighttime. (3) Motion isolation from household activity — a mattress that absorbs partner or pet movement. (4) Consistent sleep timing — sleeping at the same time after each shift, even on days off, reduces social jet lag."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,sans-serif;background:#0a1628;color:#e2e8f0;line-height:1.7}
+header{background:linear-gradient(135deg,#0a1628 0%,#1a2f4e 100%);padding:60px 20px 40px;text-align:center;border-bottom:1px solid #1e3a5f}
+header h1{font-size:clamp(1.6rem,4vw,2.4rem);color:#fff;max-width:800px;margin:0 auto 16px;line-height:1.3}
+.badge{display:inline-block;background:#0e7490;color:#fff;font-size:.75rem;font-weight:700;padding:4px 12px;border-radius:20px;letter-spacing:.05em;text-transform:uppercase;margin-bottom:16px}
+.subtitle{color:#94a3b8;font-size:1rem;max-width:640px;margin:0 auto 20px}
+.meta{color:#64748b;font-size:.85rem}
+nav.breadcrumb{background:#0d1f38;padding:12px 20px;font-size:.82rem;color:#64748b}
+nav.breadcrumb a{color:#c9a84c;text-decoration:none}
+nav.breadcrumb a:hover{text-decoration:underline}
+.container{max-width:860px;margin:0 auto;padding:40px 20px}
+h2{font-size:1.5rem;color:#c9a84c;margin:40px 0 16px;padding-bottom:8px;border-bottom:1px solid #1e3a5f}
+h3{font-size:1.15rem;color:#e2e8f0;margin:24px 0 10px}
+p{margin-bottom:14px;color:#cbd5e1}
+.pick{background:#111e33;border:1px solid #1e3a5f;border-radius:12px;padding:24px;margin-bottom:20px;position:relative}
+.pick-num{position:absolute;top:16px;right:16px;background:#c9a84c;color:#0a1628;font-weight:800;font-size:.8rem;padding:4px 10px;border-radius:20px}
+.pick h3{color:#c9a84c;margin-top:0}
+.pick .verdict{background:#0a1628;border-left:3px solid #c9a84c;padding:10px 14px;margin-top:12px;border-radius:0 6px 6px 0;font-size:.9rem;color:#94a3b8}
+.pick a{color:#c9a84c;text-decoration:none;font-weight:600}
+.pick a:hover{text-decoration:underline;color:#e2b96b}
+.science-box{background:#0d1f38;border:1px solid #1e3a5f;border-radius:10px;padding:20px 24px;margin:24px 0}
+.science-box h3{color:#60a5fa;margin-top:0;font-size:1rem}
+.science-box p{color:#94a3b8;font-size:.9rem;margin-bottom:8px}
+.science-box p:last-child{margin-bottom:0}
+.info-box{background:#0a1f3a;border:1px solid #1e6fa8;border-radius:10px;padding:16px 20px;margin:24px 0}
+.info-box p{color:#7dd3fc;font-size:.9rem;margin:0}
+table{width:100%;border-collapse:collapse;margin:20px 0;font-size:.88rem}
+th{background:#1e3a5f;color:#c9a84c;padding:10px 12px;text-align:left}
+td{padding:9px 12px;border-bottom:1px solid #1a2f4e;color:#cbd5e1}
+tr:nth-child(even) td{background:#0d1a2e}
+.grid-2{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:20px 0}
+@media(max-width:600px){.grid-2{grid-template-columns:1fr}}
+.grid-card{background:#111e33;border:1px solid #1e3a5f;border-radius:8px;padding:16px}
+.grid-card h4{color:#c9a84c;font-size:.9rem;margin-bottom:8px}
+.grid-card p{font-size:.85rem;color:#94a3b8;margin:0}
+.related{background:#111e33;border:1px solid #1e3a5f;border-radius:12px;padding:24px;margin:40px 0}
+.related h3{color:#c9a84c;margin-top:0}
+.related ul{list-style:none;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:8px}
+@media(max-width:600px){.related ul{grid-template-columns:1fr}}
+.related ul li a{color:#60a5fa;text-decoration:none;font-size:.9rem}
+.related ul li a:hover{text-decoration:underline;color:#c9a84c}
+footer{background:#060e1a;padding:30px 20px;text-align:center;color:#475569;font-size:.82rem;border-top:1px solid #1e3a5f}
+footer a{color:#c9a84c;text-decoration:none}
+</style>
+</head>
+<body>
+<header>
+  <span class="badge">Lifestyle</span>
+  <h1>Best Mattress for Shift Workers 2025</h1>
+  <p class="subtitle">7 expert picks for night nurses, first responders, factory workers, and anyone who sleeps when the world is awake &mdash; daytime cooling, household motion isolation, and circadian recovery guide.</p>
+  <p class="meta">By SleepWise Reviews &bull; Updated May 2025 &bull; 7 picks</p>
+</header>
+<nav class="breadcrumb">
+  <a href="/">Home</a> &rsaquo; <a href="/posts/index.html">All Posts</a> &rsaquo; Best Mattress for Shift Workers
+</nav>
+
+<div class="container">
+
+<p>Shift workers &mdash; nurses, emergency responders, factory workers, pilots, logistics staff &mdash; sleep against their biology. Human circadian rhythms evolved over millions of years to produce alertness during daylight and sleep during darkness. Shift work asks the body to override this 24-hour program, with predictable consequences: lighter sleep, less deep NREM sleep, frequent wake events, and morning fatigue that doesn&rsquo;t respond to standard sleep hygiene.</p>
+
+<p>A mattress cannot fix circadian disruption. But it can remove the additional barriers that compound an already difficult situation: daytime heat that prevents the core temperature drop needed to initiate sleep, household motion transfer that wakes a day-sleeper when others are active, and inadequate pressure relief that causes early wake events. Shift workers need to maximize the sleep quality achievable within the hours they have, and a mattress is one of the few factors they can actually control.</p>
+
+<div class="science-box">
+  <h3>Shift Work Sleep Disorder: The Circadian Biology</h3>
+  <p>The suprachiasmatic nucleus (SCN) in the hypothalamus is the master circadian clock, synchronized to the 24-hour light-dark cycle. It drives cortisol release in the morning (alertness), melatonin release at night (sleep onset), and the 1&ndash;2&deg;C core body temperature drop that initiates sleep around midnight. When a shift worker tries to sleep at 9 AM, the SCN is already producing wakefulness signals &mdash; cortisol has peaked, melatonin has dropped, and core body temperature is rising. The National Institute for Occupational Safety and Health (NIOSH) estimates that shift workers accumulate 1&ndash;4 hours of sleep debt per night compared to day workers. Chronic shift workers have a 33% higher cardiovascular disease risk, linked to the cumulative sleep debt and inflammatory marker elevation that accompanies circadian misalignment.</p>
+  <p>Daytime sleep is also physically warmer. Average indoor ambient temperature at 2 PM (a common shift worker sleep time) is 2&ndash;4&deg;C higher than at 2 AM. Combined with the elevated core body temperature at this time, daytime sleeping on a heat-trapping mattress creates a thermal environment that actively prevents the temperature drop needed for NREM3 (deep slow-wave) sleep onset.</p>
+</div>
+
+<h2>Our 7 Picks</h2>
+
+<div class="pick">
+  <span class="pick-num">#1 Best Overall</span>
+  <h3><a href="https://www.amazon.com/s?k=Purple+Restore+Hybrid+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Purple Restore Hybrid</a></h3>
+  <p><strong>Best for:</strong> Most shift workers &mdash; the best cooling of any mainstream mattress, combined with motion isolation and medium responsiveness</p>
+  <p>For day-sleeping shift workers, cooling is not a preference &mdash; it is a necessity. The Purple Grid&rsquo;s open-column design maintains continuous airflow across the entire sleep surface with no saturation point: unlike phase-change covers (which absorb heat until they reach equilibrium and then stop cooling), the Grid provides passive thermal neutrality throughout a 6&ndash;8 hour sleep. This is critical for day sleeping, when ambient temperatures are highest and the body is in a circadian phase that resists the temperature drop needed for deep sleep. The medium-soft (4.5/10) feel accommodates the irregular sleep positions of circadian-disrupted sleepers. The hybrid base provides good motion isolation for a partner or household moving during the shift worker&rsquo;s sleep. Adjustable base compatible for positional cooling strategies.</p>
+  <div class="verdict">Best cooling for day sleeping. Continuous airflow vs. phase-change saturation. Good motion isolation for active household. Top pick for night shift nurses and responders.</div>
+</div>
+
+<div class="pick">
+  <span class="pick-num">#2 Best Daytime Heat</span>
+  <h3><a href="https://www.amazon.com/s?k=Tempur-Pedic+TEMPUR-breeze+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Tempur-Pedic TEMPUR-breeze</a></h3>
+  <p><strong>Best for:</strong> Shift workers who run hot and live in warm climates or work summers</p>
+  <p>When passive cooling is not enough &mdash; in warm climates or summer, when indoor temperatures exceed 26&deg;C during a shift worker&rsquo;s sleep window &mdash; active cooling is the step up. The TEMPUR-breeze&rsquo;s phase-change cover drops the sleep surface temperature by up to 8&deg;F on contact, providing an immediate thermal intervention that facilitates the core temperature drop needed for sleep onset. For shift workers who have tried everything and still can&rsquo;t get through deep sleep in warm conditions, the breeze is the most aggressive thermal solution in a mainstream mattress. TEMPUR material also provides the best motion isolation of any material, critical when sleeping during household activity. Trade-off: premium price and slower repositioning than hybrids.</p>
+  <div class="verdict">Active phase-change cooling for severe heat environments. Best motion isolation for active household. Premium price justified for warm-climate shift workers.</div>
+</div>
+
+<div class="pick">
+  <span class="pick-num">#3 Best Motion Isolation</span>
+  <h3><a href="https://www.amazon.com/s?k=Nectar+Premier+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Nectar Premier</a></h3>
+  <p><strong>Best for:</strong> Shift workers whose main problem is household motion disruption (partner, children, pets)</p>
+  <p>When a shift worker sleeps at 9 AM, the household may be at full activity: a partner getting ready for work, children before school, pets moving around. Standard mattresses transmit these vibrations to the sleeping person, causing micro-arousals that prevent deep sleep consolidation. The Nectar Premier&rsquo;s thick gel memory foam comfort layer (3" gel + 1" dynamic support foam) is the second-best motion isolator on this list after Tempur-Pedic, and significantly cheaper. For shift workers who primarily lose sleep to household motion rather than heat, the Nectar Premier at medium (5.5/10) provides cost-effective vibration isolation. The 365-night trial allows assessment across multiple shift rotation cycles. Gel infusion prevents the worst of memory foam heat retention.</p>
+  <div class="verdict">Best motion isolation per dollar. 365-night trial across rotation cycles. Gel infusion for thermal management. Best for households with children or active partners.</div>
+</div>
+
+<div class="pick">
+  <span class="pick-num">#4 Best Split Shifts</span>
+  <h3><a href="https://www.amazon.com/s?k=Casper+Wave+Hybrid+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Casper Wave Hybrid</a></h3>
+  <p><strong>Best for:</strong> Split-shift workers who use the mattress for both naps and main sleep sessions</p>
+  <p>Split-shift workers (those with a main sleep period and a planned nap between shifts) need a mattress that works for two different sleep modes: a 20&ndash;90 minute nap and a 5&ndash;7 hour main sleep. The Wave Hybrid&rsquo;s medium feel and responsive coil base allow easy nap exit without the "stuck" feeling of all-foam (important when waking from a nap to return to work). The zoned support provides both pressure relief for longer main sleep sessions and responsive surface for quick nap transitions. The AirScape foam layers provide good thermal management for both daytime nap and any overnight sleep periods. Good motion isolation for a household that may be active during both sleep windows.</p>
+  <div class="verdict">Best for split-shift nap + main sleep dual use. Responsive surface for quick nap exit. Zoned support for both 20-minute naps and 6-hour main sleep.</div>
+</div>
+
+<div class="pick">
+  <span class="pick-num">#5 Best Long Day Sleeps</span>
+  <h3><a href="https://www.amazon.com/s?k=Saatva+Classic+medium+firm+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Saatva Classic Medium-Firm</a></h3>
+  <p><strong>Best for:</strong> Shift workers who sleep 7&ndash;9 hours in a single daytime block and need consistent support</p>
+  <p>For shift workers who achieve their full sleep quota in a single daytime block &mdash; rather than split across nap + main sleep &mdash; the Saatva Classic Medium-Firm&rsquo;s dual-coil construction provides consistent support that doesn&rsquo;t degrade through a long sleep session. Memory foam can create "sleep grooves" that make repositioning uncomfortable mid-sleep; the Saatva&rsquo;s responsive coil system maintains its profile throughout the sleep period. The lumbar zone enhancement supports lower back health for workers with physically demanding roles (nursing, manufacturing, warehousing). White glove delivery is valuable for shift workers who may not have daytime availability to receive and set up a heavy mattress during their usual sleep hours.</p>
+  <div class="verdict">Best for 7-9 hour daytime blocks. Coil system maintains profile without grooves. Lumbar zone for physically demanding shift roles. White glove delivery flexibility.</div>
+</div>
+
+<div class="pick">
+  <span class="pick-num">#6 Best Side Sleepers</span>
+  <h3><a href="https://www.amazon.com/s?k=Helix+Midnight+Luxe+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Helix Midnight Luxe</a></h3>
+  <p><strong>Best for:</strong> Side-sleeping shift workers who prioritize pressure relief for daytime shoulder and hip pain</p>
+  <p>Shift work often involves physically demanding roles: nursing staff who are on their feet for 12-hour shifts, manufacturing workers, emergency responders. Physical demand increases the likelihood of hip, shoulder, and back soreness that compounds the sleep difficulties from circadian disruption. The Helix Midnight Luxe&rsquo;s zoned pocket coils and pillow-top provide excellent hip and shoulder pressure relief for side sleepers, reducing the pressure point pain that causes early wake events. The TENCEL cover is cooling and hypoallergenic &mdash; important for shift workers who may arrive home sweating and go directly to bed. The 10-year warranty and trial period provide long-term value for workers on variable incomes.</p>
+  <div class="verdict">Best for physically demanding shift workers with hip/shoulder pain. TENCEL cover for post-shift heat dissipation. Zoned support for side-lying recovery sleep.</div>
+</div>
+
+<div class="pick">
+  <span class="pick-num">#7 Budget Pick</span>
+  <h3><a href="https://www.amazon.com/s?k=DreamCloud+Premier+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">DreamCloud Premier</a></h3>
+  <p><strong>Best for:</strong> Shift workers on a budget who need cooling and motion isolation without premium pricing</p>
+  <p>The DreamCloud Premier&rsquo;s cashmere-blend cover and medium (5/10) hybrid design provide reasonable cooling (better than standard memory foam, not as good as Purple Grid), good motion isolation for a hybrid, and a 365-night trial that covers a full year of shift rotation cycles. For shift workers who are just starting to optimize their sleep environment and want to invest without committing to a premium price, the DreamCloud is a strong starting point. It doesn&rsquo;t match the thermal performance of Purple or the motion isolation of Tempur-Pedic, but it addresses both issues to a degree that represents genuine improvement over a budget innerspring or aging mattress.</p>
+  <div class="verdict">Best budget shift worker mattress. 365-night trial covers rotation cycle assessment. Reasonable cooling + motion isolation without premium price.</div>
+</div>
+
+<h2>Shift Type vs Mattress Priority</h2>
+<table>
+  <tr><th>Shift Type</th><th>Sleep Window</th><th>Primary Challenge</th><th>Top Priority</th></tr>
+  <tr><td>Night shift (7 PM&ndash;7 AM)</td><td>8 AM&ndash;4 PM</td><td>Peak ambient heat, full household activity</td><td>Cooling + motion isolation</td></tr>
+  <tr><td>Evening shift (3 PM&ndash;11 PM)</td><td>12 AM&ndash;8 AM</td><td>Delayed sleep phase, morning light intrusion</td><td>Blackout environment + cooling</td></tr>
+  <tr><td>Rotating shifts</td><td>Variable, changes weekly</td><td>Social jet lag, no consistent schedule</td><td>Motion isolation + responsive surface for variable positions</td></tr>
+  <tr><td>Split shifts (two short shifts)</td><td>Nap between + main sleep</td><td>Dual sleep mode — nap exit speed + main rest</td><td>Responsive surface + good pressure relief</td></tr>
+  <tr><td>24-hour on-call shifts</td><td>Irregular, opportunity-based</td><td>Unpredictable sleep initiation</td><td>Fast sleep onset support — cooling + pressure relief</td></tr>
+</table>
+
+<h2>The 4 Controllable Sleep Factors for Shift Workers</h2>
+<div class="grid-2">
+  <div class="grid-card">
+    <h4>1. Light (Most Important)</h4>
+    <p>Blackout curtains + sleep mask. Melatonin suppression by light through eyelids is the #1 obstacle to day sleeping. Even indirect light reduces melatonin by 50%. No screen time 30 min before sleep.</p>
+  </div>
+  <div class="grid-card">
+    <h4>2. Temperature</h4>
+    <p>Target 16-19°C (61-67°F) bedroom temperature. Cooling mattress helps when AC isn&rsquo;t sufficient. Pre-cooling the room before your sleep window is more effective than trying to cool it once you&rsquo;re in bed.</p>
+  </div>
+  <div class="grid-card">
+    <h4>3. Motion/Noise Isolation</h4>
+    <p>Mattress motion isolation + white noise machine. The mattress handles bed vibration from household movement. White noise (or earplugs) handles airborne sound. Both are needed for full household-activity isolation.</p>
+  </div>
+  <div class="grid-card">
+    <h4>4. Consistent Timing</h4>
+    <p>Same sleep time after every shift, even days off. Social jet lag (sleeping at different times on off days) compounds circadian disruption. The mattress supports the consistent sleep environment; the schedule sets the circadian anchor.</p>
+  </div>
+</div>
+
+<div class="info-box">
+  <p><strong>Split king for shift worker couples:</strong> If one partner is a shift worker and the other has a standard schedule, a split king (two Twin XL on separate adjustable bases) is the single most effective setup. The shift worker can use their base for optimal positioning without affecting the partner. Motion isolation is complete. Each person has their own temperature-controlled surface. This is the professional recommendation for shift-working couples when budget allows.</p>
+</div>
+
+<div class="related">
+  <h3>Related Guides</h3>
+  <ul>
+    <li><a href="/posts/best-mattress-insomnia.html">Best Mattress for Insomnia</a></li>
+    <li><a href="/posts/best-mattress-hot-sleepers.html">Best Mattress for Hot Sleepers</a></li>
+    <li><a href="/posts/best-mattress-couples.html">Best Mattress for Couples</a></li>
+    <li><a href="/posts/best-mattress-adjustable-base.html">Best Mattress for Adjustable Base</a></li>
+    <li><a href="/posts/best-mattress-night-sweats.html">Best Mattress for Night Sweats</a></li>
+    <li><a href="/posts/best-mattress-back-pain.html">Best Mattress for Back Pain</a></li>
+  </ul>
+</div>
+
+</div>
+
+<footer>
+  <p>&copy; 2025 SleepWise Reviews &bull; <a href="/privacy.html">Privacy Policy</a> &bull; <a href="/disclosure.html">Affiliate Disclosure</a></p>
+  <p style="margin-top:8px;font-size:.75rem">We may earn a commission from Amazon links at no extra cost to you.</p>
+</footer>
+</body>
+</html>"""
+
+with open(out, "w", encoding="utf-8") as f:
+    f.write(html)
+print(f"Created: {out}")
