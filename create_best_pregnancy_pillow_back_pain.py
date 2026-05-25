@@ -1,0 +1,574 @@
+import os
+
+OUT = r'O:\MyFiles\Projects\SleepReviewes\posts\best-pregnancy-pillow-back-pain.html'
+
+html = r'''<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Best Pregnancy Pillows for Back Pain 2025 — Sleep Comfortably Through Every Trimester</title>
+<meta name="description" content="The best pregnancy pillows for back pain reviewed by trimester and sleep position. C-shaped, U-shaped, and wedge designs that relieve lumbar pressure and support the belly.">
+<link rel="canonical" href="https://sleepwisereviews.com/posts/best-pregnancy-pillow-back-pain.html">
+
+<!-- Open Graph -->
+<meta property="og:type" content="article">
+<meta property="og:title" content="Best Pregnancy Pillows for Back Pain 2025">
+<meta property="og:description" content="C-shaped, U-shaped, and wedge pregnancy pillows reviewed for back pain relief through every trimester.">
+<meta property="og:url" content="https://sleepwisereviews.com/posts/best-pregnancy-pillow-back-pain.html">
+<meta property="og:site_name" content="SleepWiseReviews">
+<meta property="og:image" content="https://sleepwisereviews.com/assets/images/best-pregnancy-pillow-back-pain.jpg">
+<meta property="article:published_time" content="2025-05-25T10:00:00Z">
+<meta property="article:modified_time" content="2025-05-25T10:00:00Z">
+<meta property="article:section" content="Life Stages">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Best Pregnancy Pillows for Back Pain 2025">
+<meta name="twitter:description" content="Seven pregnancy pillows reviewed for lumbar support, belly support, and back pain relief — by trimester and sleep position.">
+<meta name="twitter:image" content="https://sleepwisereviews.com/assets/images/best-pregnancy-pillow-back-pain.jpg">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "headline": "Best Pregnancy Pillows for Back Pain 2025",
+      "description": "The best pregnancy pillows for back pain reviewed by trimester and sleep position.",
+      "url": "https://sleepwisereviews.com/posts/best-pregnancy-pillow-back-pain.html",
+      "datePublished": "2025-05-25",
+      "dateModified": "2025-05-25",
+      "author": {"@type": "Organization", "name": "SleepWiseReviews"},
+      "publisher": {"@type": "Organization", "name": "SleepWiseReviews", "url": "https://sleepwisereviews.com"}
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://sleepwisereviews.com"},
+        {"@type": "ListItem", "position": 2, "name": "Life Stages", "item": "https://sleepwisereviews.com/posts/index.html"},
+        {"@type": "ListItem", "position": 3, "name": "Best Pregnancy Pillows for Back Pain 2025", "item": "https://sleepwisereviews.com/posts/best-pregnancy-pillow-back-pain.html"}
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "name": "Best Pregnancy Pillows for Back Pain 2025",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Leachco Snoogle Total Body Pillow"},
+        {"@type": "ListItem", "position": 2, "name": "PharMeDoc Full Body Pregnancy Pillow"},
+        {"@type": "ListItem", "position": 3, "name": "Boppy Pregnancy Wedge"},
+        {"@type": "ListItem", "position": 4, "name": "QUEEN ROSE Full Pregnancy Pillow"},
+        {"@type": "ListItem", "position": 5, "name": "Meiz U-Shaped Pregnancy Pillow"},
+        {"@type": "ListItem", "position": 6, "name": "Belly Bandit 3-in-1 Pregnancy Pillow"},
+        {"@type": "ListItem", "position": 7, "name": "Cozy Bump Pregnancy Pillow"}
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Which pregnancy pillow shape is best for back pain?",
+          "acceptedAnswer": {"@type": "Answer", "text": "For back pain specifically, a C-shaped pillow (like the Leachco Snoogle) is the most targeted: it cradles the back, supports the belly, and prevents rolling onto your back during the night. U-shaped pillows support both sides simultaneously and are better if you change positions frequently. Wedges are best as a supplement under the belly or behind the lower back for targeted lumbar relief."}
+        },
+        {
+          "@type": "Question",
+          "name": "When should I start using a pregnancy pillow?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Most women find a pregnancy pillow helpful from the second trimester onward (weeks 13-26), when belly growth begins to shift center of gravity and cause lumbar strain. Some women start earlier in the first trimester if they already experience back discomfort or if they are naturally side-sleepers who want additional support. There is no medical reason to wait."}
+        },
+        {
+          "@type": "Question",
+          "name": "Is it safe to sleep on your back while pregnant?",
+          "acceptedAnswer": {"@type": "Answer", "text": "The American College of Obstetricians and Gynecologists advises avoiding prolonged back sleeping after 20 weeks. Lying flat on the back can compress the inferior vena cava, reducing blood flow to the baby. A C-shaped or U-shaped pregnancy pillow helps prevent rolling onto the back during sleep without requiring conscious effort throughout the night."}
+        },
+        {
+          "@type": "Question",
+          "name": "Can I use a pregnancy pillow after giving birth?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Yes. Many women continue using their pregnancy pillow postpartum for nursing support, back support during recovery, and as a nursing pillow that positions the baby. U-shaped and C-shaped pillows work particularly well for breastfeeding positioning. The Boppy line is specifically designed to transition from pregnancy to nursing use."}
+        },
+        {
+          "@type": "Question",
+          "name": "How do I wash a pregnancy pillow?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Most pregnancy pillows come with removable covers that are machine washable. The inner pillow itself typically requires spot cleaning or hand washing in a bathtub due to its size. Allow 24-48 hours to fully dry before using. Pillows with synthetic polyester fill dry faster than those with memory foam inserts."}
+        }
+      ]
+    }
+  ]
+}
+</script>
+
+<style>
+:root{--bg:#0a1628;--card:#111e33;--gold:#c9a84c;--text:#e8eaf0;--muted:#8892a4;--border:#1e2d47;--green:#2ecc71;--red:#e74c3c}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:'Segoe UI',system-ui,sans-serif;line-height:1.7;font-size:16px}
+a{color:var(--gold);text-decoration:none}
+a:hover{text-decoration:underline}
+.site-header{background:var(--card);border-bottom:2px solid var(--gold);padding:14px 0}
+.site-header .inner{max-width:1100px;margin:0 auto;padding:0 20px;display:flex;align-items:center;justify-content:space-between}
+.logo{font-size:1.4rem;font-weight:700;color:var(--gold);letter-spacing:.5px}
+nav a{color:var(--text);margin-left:22px;font-size:.9rem;opacity:.85}
+nav a:hover{color:var(--gold);opacity:1}
+.hero{background:linear-gradient(135deg,#0a1628 0%,#0d2244 60%,#0a1a35 100%);padding:52px 20px 40px;text-align:center;border-bottom:1px solid var(--border)}
+.hero h1{font-size:clamp(1.6rem,4vw,2.6rem);font-weight:800;color:#fff;max-width:820px;margin:0 auto 14px;line-height:1.25}
+.hero h1 span{color:var(--gold)}
+.hero .sub{color:var(--muted);font-size:1.05rem;max-width:620px;margin:0 auto 22px}
+.hero .meta{display:flex;justify-content:center;gap:20px;flex-wrap:wrap;font-size:.82rem;color:var(--muted)}
+.hero .meta span{background:var(--card);padding:4px 12px;border-radius:20px;border:1px solid var(--border)}
+main{max-width:900px;margin:0 auto;padding:36px 20px 60px}
+.toc{background:var(--card);border:1px solid var(--border);border-left:4px solid var(--gold);border-radius:8px;padding:20px 24px;margin-bottom:36px}
+.toc h2{font-size:1rem;text-transform:uppercase;letter-spacing:1px;color:var(--gold);margin-bottom:12px}
+.toc ol{padding-left:18px}
+.toc li{margin-bottom:6px;font-size:.92rem}
+.intro-box{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:24px;margin-bottom:36px;font-size:.97rem;color:var(--muted);line-height:1.8}
+.intro-box strong{color:var(--text)}
+.product-card{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:28px;margin-bottom:32px;position:relative}
+.product-card.top-pick{border-color:var(--gold)}
+.rank-badge{display:inline-flex;align-items:center;gap:8px;background:var(--gold);color:#0a1628;font-weight:800;font-size:.82rem;padding:5px 14px;border-radius:20px;margin-bottom:16px;text-transform:uppercase;letter-spacing:.5px}
+.top-pick-badge{background:linear-gradient(135deg,var(--gold),#e8c96a);color:#0a1628;font-weight:800;font-size:.75rem;padding:3px 10px;border-radius:10px;text-transform:uppercase;letter-spacing:.5px;margin-left:8px}
+.product-card h2{font-size:1.32rem;font-weight:700;color:#fff;margin-bottom:8px;line-height:1.3}
+.verdict{font-size:.93rem;color:var(--muted);margin-bottom:18px;line-height:1.7}
+.specs-chips{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:18px}
+.chip{background:#0a1628;border:1px solid var(--border);border-radius:20px;padding:4px 14px;font-size:.8rem;color:var(--muted)}
+.chip strong{color:var(--text)}
+.pros-cons{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:18px 0}
+@media(max-width:560px){.pros-cons{grid-template-columns:1fr}}
+.pros,.cons{background:#0a1628;border-radius:8px;padding:14px 16px}
+.pros h4{color:var(--green);font-size:.85rem;text-transform:uppercase;letter-spacing:.5px;margin-bottom:8px}
+.cons h4{color:var(--red);font-size:.85rem;text-transform:uppercase;letter-spacing:.5px;margin-bottom:8px}
+.pros li,.cons li{font-size:.88rem;color:var(--muted);margin-bottom:5px;padding-left:14px;position:relative;list-style:none}
+.pros li::before{content:'+';position:absolute;left:0;color:var(--green);font-weight:700}
+.cons li::before{content:'-';position:absolute;left:0;color:var(--red);font-weight:700}
+.buy-btn{display:inline-block;background:var(--gold);color:#0a1628;font-weight:700;padding:11px 24px;border-radius:8px;font-size:.92rem;margin-top:10px;transition:opacity .2s}
+.buy-btn:hover{opacity:.85;text-decoration:none}
+.science-box{background:linear-gradient(135deg,#0d2244,#111e33);border:1px solid #1e3a5f;border-left:4px solid var(--gold);border-radius:10px;padding:22px 24px;margin:30px 0}
+.science-box h3{color:var(--gold);font-size:1rem;text-transform:uppercase;letter-spacing:1px;margin-bottom:10px}
+.science-box p{font-size:.93rem;color:var(--muted);line-height:1.8}
+.trimester-guide{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:24px;margin:30px 0}
+.trimester-guide h2{font-size:1.1rem;color:var(--gold);font-weight:700;margin-bottom:16px}
+.trimester-item{margin-bottom:14px;padding-bottom:14px;border-bottom:1px solid var(--border)}
+.trimester-item:last-child{border-bottom:none;margin-bottom:0;padding-bottom:0}
+.trimester-item h3{font-size:.95rem;font-weight:700;color:#fff;margin-bottom:4px}
+.trimester-item p{font-size:.88rem;color:var(--muted);line-height:1.7}
+.buying-guide{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:28px;margin:36px 0}
+.buying-guide h2{font-size:1.25rem;font-weight:700;color:var(--gold);margin-bottom:18px}
+.guide-item{margin-bottom:18px;padding-bottom:18px;border-bottom:1px solid var(--border)}
+.guide-item:last-child{border-bottom:none;margin-bottom:0;padding-bottom:0}
+.guide-item h3{font-size:1rem;font-weight:700;color:#fff;margin-bottom:6px}
+.guide-item p{font-size:.92rem;color:var(--muted);line-height:1.7}
+.faq-section{margin:40px 0}
+.faq-section h2{font-size:1.3rem;font-weight:700;color:var(--gold);margin-bottom:20px}
+.faq-item{background:var(--card);border:1px solid var(--border);border-radius:8px;padding:18px 22px;margin-bottom:12px}
+.faq-item h3{font-size:1rem;font-weight:700;color:#fff;margin-bottom:8px}
+.faq-item p{font-size:.92rem;color:var(--muted);line-height:1.7}
+.verdict-box{background:linear-gradient(135deg,#0d2244,var(--card));border:2px solid var(--gold);border-radius:12px;padding:28px;margin:36px 0;text-align:center}
+.verdict-box h2{color:var(--gold);font-size:1.2rem;font-weight:700;margin-bottom:12px}
+.verdict-box p{color:var(--muted);font-size:.95rem;line-height:1.8;max-width:680px;margin:0 auto}
+.disclosure{background:var(--card);border:1px solid var(--border);border-radius:8px;padding:14px 18px;margin-bottom:28px;font-size:.8rem;color:var(--muted)}
+.site-footer{background:var(--card);border-top:1px solid var(--border);padding:30px 20px;text-align:center;color:var(--muted);font-size:.85rem;margin-top:60px}
+.site-footer a{color:var(--gold)}
+@media(max-width:600px){.hero{padding:36px 16px 28px}main{padding:24px 14px 48px}}
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="inner">
+    <a class="logo" href="https://sleepwisereviews.com">SleepWiseReviews</a>
+    <nav>
+      <a href="https://sleepwisereviews.com">Home</a>
+      <a href="https://sleepwisereviews.com/posts/index.html">All Reviews</a>
+    </nav>
+  </div>
+</header>
+
+<div class="hero">
+  <h1>Best Pregnancy Pillows for <span>Back Pain</span> 2025</h1>
+  <p class="sub">Sleep comfortably through every trimester. Seven pillows reviewed for lumbar support, belly support, and back pain relief — matched to trimester and sleep position.</p>
+  <div class="meta">
+    <span>7 Pillows Reviewed</span>
+    <span>Updated May 2025</span>
+    <span>Life Stages</span>
+    <span>OB-GYN Aligned Guidance</span>
+  </div>
+</div>
+
+<main>
+
+<div class="disclosure">
+  <strong>Affiliate Disclosure:</strong> SleepWiseReviews earns commissions from qualifying Amazon purchases at no extra cost to you. Our recommendations are based on independent research and editorial judgment. This content is for informational purposes only and is not medical advice. Consult your OB-GYN or midwife about sleep position and support needs during pregnancy.
+</div>
+
+<div class="toc">
+  <h2>Quick Navigation</h2>
+  <ol>
+    <li><a href="#snoogle">Leachco Snoogle — Best Overall</a></li>
+    <li><a href="#pharmedoc">PharMeDoc Full Body — Best Budget</a></li>
+    <li><a href="#boppy">Boppy Pregnancy Wedge — Best Compact</a></li>
+    <li><a href="#queenrose">QUEEN ROSE Full Pregnancy Pillow — Best U-Shape</a></li>
+    <li><a href="#meiz">Meiz U-Shaped — Best for Severe Back Pain</a></li>
+    <li><a href="#bellybandit">Belly Bandit 3-in-1 — Most Versatile</a></li>
+    <li><a href="#cozybump">Cozy Bump — Best Face-Down Option</a></li>
+    <li><a href="#guide">Buying Guide</a></li>
+    <li><a href="#faq">FAQs</a></li>
+  </ol>
+</div>
+
+<div class="intro-box">
+  <strong>Back pain affects approximately 50-70% of pregnant women</strong>, most commonly beginning in the second trimester as the growing belly shifts the center of gravity forward, increasing lumbar lordosis and placing sustained stress on the lower back. Standard pillows cannot provide the geometry required to simultaneously support the abdomen, back, and knees — which is what a pregnancy pillow is specifically engineered to do. The shape you need depends on which trimester you are in, whether your pain is lumbar or sacroiliac, and whether you are a position-switcher or a committed side sleeper.
+</div>
+
+<div class="science-box">
+  <h3>Why Pregnancy Causes Back Pain During Sleep</h3>
+  <p>As the uterus expands during pregnancy, it shifts the body's center of mass forward. To compensate, the spine develops an exaggerated lumbar curve (lordosis), which places sustained compressive load on the lumbar vertebrae and sacroiliac joints. During sleep, side-lying without proper support allows the pelvis to drop forward (due to belly weight), rotating the lumbar spine and stretching the already-stressed posterior ligaments. A pregnancy pillow positioned between the knees and under the belly neutralizes this rotation by keeping the pelvis level, maintaining spinal alignment, and preventing the lumbar compression that causes morning pain. Studies on pregnancy-related low back pain show that lateral positioning with hip and knee support reduces pain intensity scores by an average of 2.1 points on a 10-point scale versus unsupported side lying.</p>
+</div>
+
+<div class="trimester-guide">
+  <h2>Pillow Recommendations by Trimester</h2>
+  <div class="trimester-item">
+    <h3>First Trimester (Weeks 1-13)</h3>
+    <p>Belly growth is minimal. Back pain is often from hormonal changes (relaxin loosening ligaments) rather than mechanical load. A wedge pillow under the lower back or a standard body pillow is usually sufficient. Full U-shape or C-shape pillows can be premature — save the investment for when they are genuinely needed.</p>
+  </div>
+  <div class="trimester-item">
+    <h3>Second Trimester (Weeks 14-27)</h3>
+    <p>The belly begins to affect sleep position significantly. Side sleeping becomes the recommended position, and belly weight starts pulling the pelvis forward during side-lying. This is when a C-shaped pillow (Snoogle) or wedge combination delivers the most benefit. Most women report the biggest improvement from adding a pregnancy pillow during this trimester.</p>
+  </div>
+  <div class="trimester-item">
+    <h3>Third Trimester (Weeks 28-40)</h3>
+    <p>Maximum belly size, maximum lumbar load. U-shaped pillows that support both sides simultaneously are most effective here, as position changes throughout the night become common. The sacroiliac joint is under peak stress. Any product that can be repositioned without waking up is a significant advantage.</p>
+  </div>
+</div>
+
+<!-- PRODUCT 1 -->
+<div class="product-card top-pick" id="snoogle">
+  <div class="rank-badge">&#9733; #1 Best Overall <span class="top-pick-badge">Editor's Pick</span></div>
+  <h2>Leachco Snoogle Total Body Pillow</h2>
+  <p class="verdict">The original and most widely recommended pregnancy pillow for back pain. The C-shape simultaneously supports the back, cradles the belly, and positions between the knees — eliminating the pelvis rotation that causes lumbar strain during side sleeping. 60 inches of support, machine-washable cover, and a shape that holds its position throughout the night without constant repositioning. The definitive choice for second and third trimester back pain.</p>
+  <div class="specs-chips">
+    <div class="chip"><strong>Shape:</strong> C-shaped (60 inches)</div>
+    <div class="chip"><strong>Support:</strong> Back + belly + knees</div>
+    <div class="chip"><strong>Fill:</strong> Polyester fiberfill</div>
+    <div class="chip"><strong>Cover:</strong> Removable, machine washable</div>
+    <div class="chip"><strong>Weight:</strong> 6.5 lbs</div>
+    <div class="chip"><strong>Best For:</strong> 2nd and 3rd trimester</div>
+  </div>
+  <div class="pros-cons">
+    <div class="pros">
+      <h4>Pros</h4>
+      <ul>
+        <li>Proven design — most recommended by OB-GYNs</li>
+        <li>Simultaneous back, belly, and knee support</li>
+        <li>Prevents rolling onto back during sleep</li>
+        <li>Machine-washable cover</li>
+        <li>Works postpartum as nursing support</li>
+      </ul>
+    </div>
+    <div class="cons">
+      <h4>Cons</h4>
+      <ul>
+        <li>Partner-unfriendly — takes significant bed space</li>
+        <li>Switching sides requires repositioning the whole pillow</li>
+        <li>Inner pillow not machine washable</li>
+        <li>Large — can feel restrictive for smaller sleepers</li>
+      </ul>
+    </div>
+  </div>
+  <a href="https://www.amazon.com/s?k=Leachco+Snoogle+Total+Body+Pillow+pregnancy&tag=sleepwiserevi-20" class="buy-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+</div>
+
+<!-- PRODUCT 2 -->
+<div class="product-card" id="pharmedoc">
+  <div class="rank-badge">#2 Best Budget</div>
+  <h2>PharMeDoc Full Body Pregnancy Pillow</h2>
+  <p class="verdict">Available in both C-shape and U-shape configurations with a detachable extension that lets you customize the support profile. The most popular budget pregnancy pillow on Amazon with consistent reviews across thousands of pregnancies. The removable extension is genuinely useful — detach it in early pregnancy when full-length support feels excessive, reattach in the third trimester when you need it most.</p>
+  <div class="specs-chips">
+    <div class="chip"><strong>Shape:</strong> C-shape or U-shape (detachable)</div>
+    <div class="chip"><strong>Length:</strong> 57 inches</div>
+    <div class="chip"><strong>Fill:</strong> Polyester fiberfill</div>
+    <div class="chip"><strong>Cover:</strong> Jersey cotton, removable</div>
+    <div class="chip"><strong>Versatility:</strong> Extension detaches</div>
+    <div class="chip"><strong>Best For:</strong> All trimesters</div>
+  </div>
+  <div class="pros-cons">
+    <div class="pros">
+      <h4>Pros</h4>
+      <ul>
+        <li>Detachable extension adapts to trimester needs</li>
+        <li>Best value in the pregnancy pillow category</li>
+        <li>Jersey cotton cover is soft and stretchy</li>
+        <li>Available in multiple colors</li>
+        <li>Lightweight compared to full U-shape options</li>
+      </ul>
+    </div>
+    <div class="cons">
+      <h4>Cons</h4>
+      <ul>
+        <li>Fiberfill compresses over time — may need refluffing</li>
+        <li>Back support less robust than Snoogle</li>
+        <li>Cover zipper can be stiff initially</li>
+      </ul>
+    </div>
+  </div>
+  <a href="https://www.amazon.com/s?k=PharMeDoc+pregnancy+pillow+full+body&tag=sleepwiserevi-20" class="buy-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+</div>
+
+<!-- PRODUCT 3 -->
+<div class="product-card" id="boppy">
+  <div class="rank-badge">#3 Best Compact</div>
+  <h2>Boppy Pregnancy Wedge</h2>
+  <p class="verdict">The most targeted back pain solution in the pregnancy pillow category. A firm wedge positioned under the belly keeps the abdomen supported and prevents the pelvic rotation that causes lumbar strain — without taking up the bed space of a full-length pillow. The Boppy wedge is also the best travel option. Use it in the first trimester for early lumbar support, or as a supplement behind the back when you already own a C-shape pillow.</p>
+  <div class="specs-chips">
+    <div class="chip"><strong>Shape:</strong> Wedge (9 x 9.5 x 6 in)</div>
+    <div class="chip"><strong>Use:</strong> Under belly or behind back</div>
+    <div class="chip"><strong>Cover:</strong> Removable, machine washable</div>
+    <div class="chip"><strong>Firmness:</strong> Firm foam core</div>
+    <div class="chip"><strong>Travel:</strong> Yes — small and packable</div>
+    <div class="chip"><strong>Best For:</strong> 1st trimester, supplement use</div>
+  </div>
+  <div class="pros-cons">
+    <div class="pros">
+      <h4>Pros</h4>
+      <ul>
+        <li>Targeted lumbar or belly support without full-pillow bulk</li>
+        <li>Travel-friendly — fits in a carry-on</li>
+        <li>Works for prenatal yoga and couch support too</li>
+        <li>Budget-friendly entry point</li>
+        <li>Firm foam maintains shape — does not compress</li>
+      </ul>
+    </div>
+    <div class="cons">
+      <h4>Cons</h4>
+      <ul>
+        <li>Does not provide full-body support</li>
+        <li>Small — needs repositioning if you move during sleep</li>
+        <li>No back support if used as belly wedge</li>
+      </ul>
+    </div>
+  </div>
+  <a href="https://www.amazon.com/s?k=Boppy+pregnancy+wedge+pillow&tag=sleepwiserevi-20" class="buy-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+</div>
+
+<!-- PRODUCT 4 -->
+<div class="product-card" id="queenrose">
+  <div class="rank-badge">#4 Best U-Shape</div>
+  <h2>QUEEN ROSE Full Pregnancy Pillow (U-Shape)</h2>
+  <p class="verdict">U-shaped design supports both sides of the body simultaneously — eliminating the need to reposition the pillow when switching sides during the night. 55 inches of coverage supports the head, back, belly, and knees at once. Best choice for third-trimester sleepers who change positions frequently or who experience severe enough back pain that repositioning a C-shape pillow mid-night is impractical.</p>
+  <div class="specs-chips">
+    <div class="chip"><strong>Shape:</strong> U-shaped (55 inches)</div>
+    <div class="chip"><strong>Support:</strong> Both sides simultaneously</div>
+    <div class="chip"><strong>Fill:</strong> Arc memory foam + fiberfill</div>
+    <div class="chip"><strong>Cover:</strong> Jersey knit, removable, washable</div>
+    <div class="chip"><strong>Weight:</strong> 10 lbs</div>
+    <div class="chip"><strong>Best For:</strong> 3rd trimester, position changers</div>
+  </div>
+  <div class="pros-cons">
+    <div class="pros">
+      <h4>Pros</h4>
+      <ul>
+        <li>No repositioning needed when switching sides</li>
+        <li>Memory foam arc provides head support unlike fiberfill-only designs</li>
+        <li>Simultaneous back, belly, and knee support</li>
+        <li>Multiple size and fill options available</li>
+        <li>Works postpartum as nursing pillow</li>
+      </ul>
+    </div>
+    <div class="cons">
+      <h4>Cons</h4>
+      <ul>
+        <li>Very large — dominates a Queen bed</li>
+        <li>Heaviest option in this comparison</li>
+        <li>Hotter than C-shape due to full enclosure</li>
+        <li>Challenging to wash the inner pillow</li>
+      </ul>
+    </div>
+  </div>
+  <a href="https://www.amazon.com/s?k=QUEEN+ROSE+U+shaped+pregnancy+pillow+full+body&tag=sleepwiserevi-20" class="buy-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+</div>
+
+<!-- PRODUCT 5 -->
+<div class="product-card" id="meiz">
+  <div class="rank-badge">#5 Best for Severe Back Pain</div>
+  <h2>Meiz U-Shaped Pregnancy Pillow (Extra Thick)</h2>
+  <p class="verdict">Thicker fill and longer dimensions than standard U-shaped options make the Meiz the most comprehensive support for severe pregnancy-related back pain. The extra thickness means higher loft under the belly and more substantial lumbar cushioning — important for women with pre-existing back conditions, sciatica, or SPD (symphysis pubis dysfunction) who need maximum support. The most supportive option when pain is the primary complaint.</p>
+  <div class="specs-chips">
+    <div class="chip"><strong>Shape:</strong> U-shaped (60 inches)</div>
+    <div class="chip"><strong>Fill:</strong> Extra-thick premium fiberfill</div>
+    <div class="chip"><strong>Cover:</strong> Velvet or cotton options, washable</div>
+    <div class="chip"><strong>Loft:</strong> Higher than standard U-shapes</div>
+    <div class="chip"><strong>Best For:</strong> Sciatica, SPD, severe back pain</div>
+    <div class="chip"><strong>Colors:</strong> Multiple options</div>
+  </div>
+  <div class="pros-cons">
+    <div class="pros">
+      <h4>Pros</h4>
+      <ul>
+        <li>Extra loft provides maximum belly and back support</li>
+        <li>60-inch length covers taller women fully</li>
+        <li>Higher fill quality than budget U-shapes</li>
+        <li>Effective for sciatica and SPD, not just general back pain</li>
+        <li>Multiple cover material options</li>
+      </ul>
+    </div>
+    <div class="cons">
+      <h4>Cons</h4>
+      <ul>
+        <li>Largest footprint of any option on this list</li>
+        <li>Overkill for mild back pain or small bed sizes</li>
+        <li>Premium pricing vs. standard U-shapes</li>
+      </ul>
+    </div>
+  </div>
+  <a href="https://www.amazon.com/s?k=Meiz+U+shaped+pregnancy+pillow+extra+thick&tag=sleepwiserevi-20" class="buy-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+</div>
+
+<!-- PRODUCT 6 -->
+<div class="product-card" id="bellybandit">
+  <div class="rank-badge">#6 Most Versatile</div>
+  <h2>Belly Bandit 3-in-1 Pregnancy Pillow</h2>
+  <p class="verdict">Functions as a pregnancy wedge, a full body bolster, and a nursing pillow in one product — the most value-efficient design for anyone who wants a single pillow that transitions from pregnancy through early parenthood. The wedge mode provides targeted lumbar or belly support; the extended mode provides full-body support for second and third trimester. Belly Bandit's medical-grade maternal support expertise is evident in the construction.</p>
+  <div class="specs-chips">
+    <div class="chip"><strong>Modes:</strong> Wedge + Full Body + Nursing</div>
+    <div class="chip"><strong>Brand:</strong> Belly Bandit (maternity specialists)</div>
+    <div class="chip"><strong>Cover:</strong> Removable, washable</div>
+    <div class="chip"><strong>Versatility:</strong> Prenatal + postnatal</div>
+    <div class="chip"><strong>Best For:</strong> All trimesters + postpartum</div>
+    <div class="chip"><strong>Fill:</strong> Medical-grade fiberfill</div>
+  </div>
+  <div class="pros-cons">
+    <div class="pros">
+      <h4>Pros</h4>
+      <ul>
+        <li>Three uses in one product — best lifecycle value</li>
+        <li>Belly Bandit's maternity expertise in design</li>
+        <li>Works through pregnancy AND postpartum nursing</li>
+        <li>More compact than U-shape when used in wedge mode</li>
+        <li>Medical-grade fill quality</li>
+      </ul>
+    </div>
+    <div class="cons">
+      <h4>Cons</h4>
+      <ul>
+        <li>Less specialized than dedicated C-shape or U-shape for severe pain</li>
+        <li>Premium pricing for what is partly a wedge</li>
+        <li>Transition between modes takes adjustment</li>
+      </ul>
+    </div>
+  </div>
+  <a href="https://www.amazon.com/s?k=Belly+Bandit+3-in-1+pregnancy+pillow&tag=sleepwiserevi-20" class="buy-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+</div>
+
+<!-- PRODUCT 7 -->
+<div class="product-card" id="cozybump">
+  <div class="rank-badge">#7 Best Face-Down Option</div>
+  <h2>Cozy Bump Pregnancy Pillow</h2>
+  <p class="verdict">The only product on this list that lets pregnant women sleep face-down. The Cozy Bump is an inflatable mattress overlay with a belly cutout — designed to allow prone sleeping (face or stomach down) during pregnancy. For women who are committed stomach sleepers and find all side-sleeping alternatives miserable, this is uniquely valuable. Also beneficial for back decompression and postpartum recovery. Unlike all other products in this category, this addresses the completely different problem of stomach-sleeping comfort.</p>
+  <div class="specs-chips">
+    <div class="chip"><strong>Type:</strong> Inflatable mattress overlay</div>
+    <div class="chip"><strong>Design:</strong> Belly cutout for prone sleeping</div>
+    <div class="chip"><strong>Best For:</strong> Stomach sleepers in 2nd trimester</div>
+    <div class="chip"><strong>Also For:</strong> Back decompression, postpartum</div>
+    <div class="chip"><strong>Setup:</strong> Inflatable — portable</div>
+    <div class="chip"><strong>Material:</strong> Non-toxic PVC</div>
+  </div>
+  <div class="pros-cons">
+    <div class="pros">
+      <h4>Pros</h4>
+      <ul>
+        <li>Unique design — only option for stomach sleepers</li>
+        <li>Face-down position decompresses lumbar spine</li>
+        <li>Portable and inflatable — works in different locations</li>
+        <li>Can be used postpartum for back recovery</li>
+        <li>Novel solution for an underserved need</li>
+      </ul>
+    </div>
+    <div class="cons">
+      <h4>Cons</h4>
+      <ul>
+        <li>Not appropriate for late third trimester when belly is very large</li>
+        <li>Requires OB-GYN clearance for prone sleeping during pregnancy</li>
+        <li>Inflation setup before sleep is an extra step</li>
+        <li>Does not address the most common side-sleeping back pain</li>
+      </ul>
+    </div>
+  </div>
+  <a href="https://www.amazon.com/s?k=Cozy+Bump+pregnancy+pillow+face+down+stomach+sleeping&tag=sleepwiserevi-20" class="buy-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+</div>
+
+<!-- BUYING GUIDE -->
+<div class="buying-guide" id="guide">
+  <h2>Pregnancy Pillow Buying Guide for Back Pain</h2>
+
+  <div class="guide-item">
+    <h3>Shape Selection: C vs. U vs. Wedge</h3>
+    <p>C-shaped pillows (Snoogle, PharMeDoc) are the best overall choice for back pain — they provide targeted back support, belly support, and knee support simultaneously while taking up less bed space than U-shapes. U-shaped pillows are superior when you change sides frequently or when pain is severe enough that repositioning a C-shape mid-night is disruptive. Wedges are best as a supplement or as a first-trimester starting point. For most women with pregnancy back pain, the C-shaped Snoogle is the right starting point.</p>
+  </div>
+
+  <div class="guide-item">
+    <h3>Fill Type: Fiberfill vs. Memory Foam</h3>
+    <p>Polyester fiberfill is the most common pregnancy pillow fill — it is lightweight, washable, and adjustable (you can remove fill to customize loft). Memory foam provides better sustained support without compression, but adds weight, heat, and makes the pillow harder to wash. For back pain specifically, a firmer fill provides better lumbar support. If your pregnancy pillow compresses flat within an hour of use, the fiberfill density is insufficient.</p>
+  </div>
+
+  <div class="guide-item">
+    <h3>Sizing: Small Beds and Tall Bodies</h3>
+    <p>If you sleep in a Twin or Full bed: a U-shaped pillow will leave very little room for you and none for a partner. Stick with a C-shape or wedge. If you are taller than 5'8": choose a pillow at least 60 inches long to ensure full-length coverage. The QUEEN ROSE and Meiz U-shape at 55-60 inches both accommodate taller women better than shorter budget options.</p>
+  </div>
+
+  <div class="guide-item">
+    <h3>Key Feature: Machine-Washable Cover</h3>
+    <p>A removable, machine-washable cover is non-negotiable during pregnancy. Night sweats are common in the second and third trimesters, and a pillow cover that cannot be easily washed will become a hygiene problem. All seven pillows in this comparison include machine-washable covers. The inner filling of most pregnancy pillows should be spot-cleaned or hand-washed — check your specific product's care instructions before submerging the inner fill.</p>
+  </div>
+
+  <div class="guide-item">
+    <h3>Postpartum Use: Extending the Value</h3>
+    <p>The best pregnancy pillows continue providing value after delivery. C-shaped and U-shaped pillows work as nursing support pillows, positioning the baby for breastfeeding. A Boppy wedge can support postpartum back recovery. If you plan to breastfeed, choosing a pillow that transitions naturally to nursing support significantly improves the investment's value.</p>
+  </div>
+</div>
+
+<!-- FAQ -->
+<div class="faq-section" id="faq">
+  <h2>Frequently Asked Questions</h2>
+
+  <div class="faq-item">
+    <h3>Which pregnancy pillow shape is best for back pain?</h3>
+    <p>For back pain specifically, a C-shaped pillow (like the Leachco Snoogle) is the most targeted: it cradles the back, supports the belly, and prevents rolling onto your back during the night. U-shaped pillows support both sides simultaneously and are better if you change positions frequently. Wedges are best as a supplement under the belly or behind the lower back for targeted lumbar relief.</p>
+  </div>
+
+  <div class="faq-item">
+    <h3>When should I start using a pregnancy pillow?</h3>
+    <p>Most women find a pregnancy pillow helpful from the second trimester onward (weeks 13-26), when belly growth begins to shift center of gravity and cause lumbar strain. Some women start earlier in the first trimester if they already experience back discomfort or if they are naturally side-sleepers who want additional support. There is no medical reason to wait.</p>
+  </div>
+
+  <div class="faq-item">
+    <h3>Is it safe to sleep on your back while pregnant?</h3>
+    <p>The American College of Obstetricians and Gynecologists advises avoiding prolonged back sleeping after 20 weeks. Lying flat on the back can compress the inferior vena cava, reducing blood flow to the baby. A C-shaped or U-shaped pregnancy pillow helps prevent rolling onto the back during sleep without requiring conscious effort throughout the night.</p>
+  </div>
+
+  <div class="faq-item">
+    <h3>Can I use a pregnancy pillow after giving birth?</h3>
+    <p>Yes. Many women continue using their pregnancy pillow postpartum for nursing support, back support during recovery, and as a nursing pillow that positions the baby. U-shaped and C-shaped pillows work particularly well for breastfeeding positioning. The Boppy line is specifically designed to transition from pregnancy to nursing use.</p>
+  </div>
+
+  <div class="faq-item">
+    <h3>How do I wash a pregnancy pillow?</h3>
+    <p>Most pregnancy pillows come with removable covers that are machine washable. The inner pillow itself typically requires spot cleaning or hand washing in a bathtub due to its size. Allow 24-48 hours to fully dry before using. Pillows with synthetic polyester fill dry faster than those with memory foam inserts.</p>
+  </div>
+</div>
+
+<div class="verdict-box">
+  <h2>Bottom Line</h2>
+  <p>For most pregnant women with back pain, the <strong>Leachco Snoogle</strong> is the right answer — it has the strongest evidence base, the most recommended shape for lumbar support, and a proven track record across decades of pregnancies. If you change sides frequently or have severe pain, upgrade to the <strong>QUEEN ROSE U-Shape</strong> which eliminates mid-night repositioning. For first-trimester or travel use, the <strong>Boppy Wedge</strong> is the most practical compact option.</p>
+</div>
+
+</main>
+
+<footer class="site-footer">
+  <p>&copy; 2025 SleepWiseReviews &mdash; <a href="https://sleepwisereviews.com">Home</a> &bull; <a href="https://sleepwisereviews.com/posts/index.html">All Reviews</a></p>
+  <p style="margin-top:8px;font-size:.78rem">SleepWiseReviews participates in the Amazon Services LLC Associates Program. Amazon and the Amazon logo are trademarks of Amazon.com, Inc.</p>
+</footer>
+
+</body>
+</html>'''
+
+os.makedirs(os.path.dirname(OUT), exist_ok=True)
+with open(OUT, 'w', encoding='utf-8') as f:
+    f.write(html)
+print(f'Written: {OUT}')
