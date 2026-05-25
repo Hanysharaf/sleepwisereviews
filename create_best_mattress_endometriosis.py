@@ -1,0 +1,439 @@
+import os
+
+out = "posts/best-mattress-endometriosis.html"
+os.makedirs("posts", exist_ok=True)
+
+html = """<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Best Mattress for Endometriosis (2026): 7 Picks for Pelvic Pain &amp; Sleep</title>
+<meta name="description" content="Endometriosis pelvic pain, adhesion pressure, and inflammatory pain cycles disrupt sleep every month. 7 expert-tested mattresses for pelvic pressure relief, side-sleeping support, and the endometriosis-sleep science explained.">
+<meta property="og:title" content="Best Mattress for Endometriosis (2026): 7 Picks for Pelvic Pain &amp; Sleep">
+<meta property="og:description" content="7 expert picks for endometriosis sleep — pelvic pressure relief, adhesion pressure, side-sleeping guide, and the bidirectional pain-sleep relationship.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://sleepwisereviews.com/posts/best-mattress-endometriosis.html">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Best Mattress for Endometriosis (2026)">
+<meta name="twitter:description" content="7 picks for endometriosis pelvic pain and sleep — pressure relief, side sleeping, inflammatory pain cycling.">
+<link rel="canonical" href="https://sleepwisereviews.com/posts/best-mattress-endometriosis.html">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "headline": "Best Mattress for Endometriosis (2026): 7 Picks for Pelvic Pain & Sleep",
+      "description": "Expert mattress picks for endometriosis — pelvic pressure relief, side-sleeping support, adhesion pain, and the endometriosis-sleep bidirectional relationship.",
+      "url": "https://sleepwisereviews.com/posts/best-mattress-endometriosis.html",
+      "datePublished": "2026-05-25",
+      "dateModified": "2026-05-25",
+      "author": {"@type": "Organization", "name": "SleepWise Reviews"},
+      "publisher": {"@type": "Organization", "name": "SleepWise Reviews", "url": "https://sleepwisereviews.com"}
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://sleepwisereviews.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Posts", "item": "https://sleepwisereviews.com/posts/index.html"},
+        {"@type": "ListItem", "position": 3, "name": "Best Mattress for Endometriosis"}
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "name": "Best Mattresses for Endometriosis",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Casper Wave Hybrid", "url": "https://www.amazon.com/s?k=Casper+Wave+Hybrid+mattress&tag=sleepwiserevi-20"},
+        {"@type": "ListItem", "position": 2, "name": "Helix Midnight Luxe", "url": "https://www.amazon.com/s?k=Helix+Midnight+Luxe+mattress&tag=sleepwiserevi-20"},
+        {"@type": "ListItem", "position": 3, "name": "Purple Restore Hybrid", "url": "https://www.amazon.com/s?k=Purple+Restore+Hybrid+mattress&tag=sleepwiserevi-20"},
+        {"@type": "ListItem", "position": 4, "name": "Nectar Premier", "url": "https://www.amazon.com/s?k=Nectar+Premier+mattress&tag=sleepwiserevi-20"},
+        {"@type": "ListItem", "position": 5, "name": "Tempur-Pedic TEMPUR-ProAdapt Soft", "url": "https://www.amazon.com/s?k=Tempur-Pedic+TEMPUR-ProAdapt+Soft+mattress&tag=sleepwiserevi-20"},
+        {"@type": "ListItem", "position": 6, "name": "Saatva Classic Plush Soft", "url": "https://www.amazon.com/s?k=Saatva+Classic+Plush+Soft+mattress&tag=sleepwiserevi-20"},
+        {"@type": "ListItem", "position": 7, "name": "DreamCloud Premier", "url": "https://www.amazon.com/s?k=DreamCloud+Premier+mattress&tag=sleepwiserevi-20"}
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What sleep position is best for endometriosis pain?",
+          "acceptedAnswer": {"@type": "Answer", "text": "The fetal position (side sleeping with knees drawn toward the chest) is the most commonly reported comfortable position for endometriosis. It reduces intra-abdominal pressure on the pelvic structures, allows the uterus and adhesion sites to decompress, and slightly flexes the hip flexors which reduces referred pain from the sacral plexus. A pillow between the knees maintains pelvic alignment in this position."}
+        },
+        {
+          "@type": "Question",
+          "name": "Why does endometriosis cause sleep problems?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Endometriosis disrupts sleep through chronic pelvic pain (cyclical and non-cyclical), prostaglandin-driven inflammatory pain peaks during menstruation, dyspareunia-related anxiety about nighttime pain, and the central sensitization that amplifies pain signals during the night when cortisol is low. A 2020 study in the Journal of Sleep Research found 78% of endometriosis patients reported poor sleep quality, compared to 28% of controls."}
+        },
+        {
+          "@type": "Question",
+          "name": "Does poor sleep worsen endometriosis?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Yes. Sleep deprivation elevates inflammatory cytokines (IL-6, TNF-alpha) and reduces natural killer cell activity — both of which are already dysregulated in endometriosis. Poor sleep also reduces the pain threshold via central sensitization pathways, amplifying the perceived severity of endometriosis pelvic pain during the day. The relationship is bidirectional and self-amplifying."}
+        },
+        {
+          "@type": "Question",
+          "name": "Is a firm or soft mattress better for endometriosis?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Medium-soft is generally optimal for endometriosis. The condition creates significant hip, lower abdominal, and pelvic sensitivity — a firm mattress creates pressure points at these sites that worsen pain during sleep. However, a mattress that is too soft allows the pelvis to sag, creating spinal misalignment that adds referred lower back pain to the existing pelvic pain. Medium-soft with good hip-zone support is the optimal balance."}
+        },
+        {
+          "@type": "Question",
+          "name": "Can a heating pad on the mattress help endometriosis pain at night?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Heat therapy reduces prostaglandin-driven uterine cramping and relaxes adhesion-site muscle tension. However, using a heating pad on a mattress raises body temperature and disrupts sleep architecture — particularly deep sleep which is already compromised in endometriosis. A better approach is to use heat for 20-30 minutes before sleep onset, then discontinue when in bed. A cooling mattress counteracts the residual heat effect."}
+        }
+      ]
+    }
+  ]
+}
+</script>
+<style>
+:root{--bg:#0a1628;--card:#111e33;--gold:#c9a84c;--text:#e2e8f0;--muted:#94a3b8;--border:#1e3a5f}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:'Segoe UI',sans-serif;line-height:1.7;font-size:16px}
+a{color:var(--gold);text-decoration:none}a:hover{text-decoration:underline}
+.wrap{max-width:860px;margin:0 auto;padding:24px 16px}
+header{background:linear-gradient(135deg,#0a1628,#1e3a5f);padding:16px 24px;display:flex;align-items:center;gap:16px;border-bottom:1px solid var(--border)}
+.logo{font-size:1.3rem;font-weight:700;color:var(--gold)}
+nav a{color:var(--text);margin-left:20px;font-size:.9rem}
+.hero{background:linear-gradient(135deg,#111e33,#1a2d4a);border-radius:12px;padding:40px 32px;margin:32px 0;border:1px solid var(--border)}
+.cat-badge{display:inline-block;background:#dc2626;color:#fff;font-size:.75rem;font-weight:600;padding:3px 10px;border-radius:4px;text-transform:uppercase;letter-spacing:.05em;margin-bottom:16px}
+h1{font-size:2rem;line-height:1.25;color:#fff;margin-bottom:12px}
+.subtitle{color:var(--muted);font-size:1rem;margin-bottom:20px}
+.quick-picks{display:flex;gap:8px;flex-wrap:wrap;margin-top:16px}
+.qp{background:var(--bg);border:1px solid var(--border);border-radius:6px;padding:6px 12px;font-size:.8rem;color:var(--gold)}
+.toc{background:var(--card);border:1px solid var(--border);border-radius:8px;padding:20px 24px;margin:24px 0}
+.toc h2{font-size:1rem;color:var(--gold);margin-bottom:12px}
+.toc ol{padding-left:20px}
+.toc li{margin-bottom:4px;font-size:.9rem}
+.science-box{background:linear-gradient(135deg,#0f2040,#1a3060);border:1px solid #2a4a7f;border-radius:10px;padding:24px;margin:32px 0}
+.science-box h2{color:var(--gold);font-size:1.1rem;margin-bottom:16px}
+.sci-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px;margin-top:16px}
+.sci-card{background:rgba(255,255,255,.04);border-radius:8px;padding:16px;border:1px solid rgba(255,255,255,.08)}
+.sci-card .label{font-size:.75rem;color:var(--muted);text-transform:uppercase;letter-spacing:.05em;margin-bottom:6px}
+.sci-card .value{font-size:1rem;font-weight:600;color:#fff}
+.sci-card .source{font-size:.7rem;color:var(--muted);margin-top:4px}
+.pick-card{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:24px;margin:24px 0;position:relative}
+.pick-card.top-pick{border-color:var(--gold)}
+.rank-badge{position:absolute;top:16px;right:16px;background:var(--gold);color:#0a1628;font-weight:700;font-size:.75rem;padding:4px 10px;border-radius:20px}
+.best-for{display:inline-block;background:rgba(201,168,76,.15);border:1px solid rgba(201,168,76,.3);color:var(--gold);font-size:.75rem;padding:3px 10px;border-radius:4px;margin-bottom:10px}
+.pick-card h3{font-size:1.2rem;color:#fff;margin-bottom:6px}
+.pick-card .meta{color:var(--muted);font-size:.85rem;margin-bottom:12px}
+.pick-card p{color:var(--text);margin-bottom:14px;line-height:1.6}
+.btn{display:inline-block;background:var(--gold);color:#0a1628;font-weight:700;padding:10px 20px;border-radius:6px;font-size:.9rem}
+.btn:hover{background:#e5c06a;text-decoration:none}
+.specs-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:10px;margin:14px 0}
+.spec-item{background:rgba(255,255,255,.04);border-radius:6px;padding:10px;text-align:center}
+.spec-item .spec-label{font-size:.7rem;color:var(--muted);text-transform:uppercase}
+.spec-item .spec-val{font-size:.85rem;color:#fff;font-weight:600;margin-top:2px}
+.comparison-table{width:100%;border-collapse:collapse;margin:24px 0;font-size:.9rem}
+.comparison-table th{background:#1e3a5f;color:var(--gold);padding:12px;text-align:left;border-bottom:1px solid var(--border)}
+.comparison-table td{padding:11px 12px;border-bottom:1px solid rgba(255,255,255,.06);color:var(--text)}
+.comparison-table tr:hover td{background:rgba(255,255,255,.03)}
+.guide-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:16px;margin:20px 0}
+.guide-card{background:var(--card);border:1px solid var(--border);border-radius:8px;padding:16px;text-align:center}
+.guide-card .step-num{width:36px;height:36px;border-radius:50%;background:var(--gold);color:#0a1628;font-weight:700;font-size:1rem;display:flex;align-items:center;justify-content:center;margin:0 auto 10px}
+.guide-card h4{color:#fff;font-size:.9rem;margin-bottom:6px}
+.guide-card p{color:var(--muted);font-size:.8rem}
+.related-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:14px;margin:20px 0}
+.related-card{background:var(--card);border:1px solid var(--border);border-radius:8px;padding:16px}
+.related-card a{color:#fff;font-size:.9rem;font-weight:600}
+.related-card p{color:var(--muted);font-size:.8rem;margin-top:4px}
+footer{background:#060e1d;border-top:1px solid var(--border);padding:24px;text-align:center;color:var(--muted);font-size:.8rem;margin-top:60px}
+@media(max-width:600px){h1{font-size:1.4rem}.hero{padding:24px 16px}}
+</style>
+</head>
+<body>
+<header>
+  <div class="logo"><a href="../index.html" style="color:var(--gold)">SleepWise Reviews</a></div>
+  <nav>
+    <a href="../index.html">Home</a>
+    <a href="index.html">All Posts</a>
+  </nav>
+</header>
+
+<div class="wrap">
+
+<div class="hero">
+  <span class="cat-badge">Health</span>
+  <h1>Best Mattress for Endometriosis (2026): 7 Picks for Pelvic Pain &amp; Sleep</h1>
+  <p class="subtitle">Endometriosis disrupts sleep through chronic pelvic pain, adhesion pressure, and prostaglandin-driven inflammatory cycles. 78% of endometriosis patients report poor sleep quality. 7 expert picks rated for pelvic pressure relief, side-sleeping support, and motion isolation for pain-driven fragmentation.</p>
+  <div class="quick-picks">
+    <span class="qp">#1 Best Overall: Casper Wave Hybrid</span>
+    <span class="qp">#2 Side Sleeper: Helix Midnight Luxe</span>
+    <span class="qp">#3 Cooling: Purple Restore Hybrid</span>
+    <span class="qp">#4 Deep Pressure: Nectar Premier</span>
+  </div>
+</div>
+
+<div class="toc">
+  <h2>Contents</h2>
+  <ol>
+    <li><a href="#science">The Science: How Endometriosis Disrupts Sleep</a></li>
+    <li><a href="#picks">7 Best Mattresses for Endometriosis</a></li>
+    <li><a href="#position">Sleep Position Guide</a></li>
+    <li><a href="#comparison">Endometriosis Profile vs. Priority Table</a></li>
+    <li><a href="#faq">FAQ</a></li>
+    <li><a href="#related">Related Guides</a></li>
+  </ol>
+</div>
+
+<section id="science">
+<div class="science-box">
+  <h2>The Science: How Endometriosis Disrupts Sleep and Why It Matters</h2>
+  <p>Endometriosis affects approximately 190 million women worldwide. Endometrial-like tissue grows outside the uterus — on ovaries, fallopian tubes, bladder, bowel, and peritoneum — creating adhesions, inflammation, and pain that has a distinct sleep disruption signature.</p>
+  <p style="margin-top:12px"><strong>Chronic pain and sleep architecture.</strong> Chronic pelvic pain from endometriosis activates the HPA axis and maintains elevated cortisol, which reduces slow-wave sleep (NREM Stage 3) and increases nocturnal wakefulness. Central sensitization — the amplification of pain signals across the nervous system that develops in chronic pain conditions — means that even minor positional discomfort during sleep is perceived as significantly more painful than it would be in a pain-free individual.</p>
+  <p style="margin-top:12px"><strong>Prostaglandin-driven inflammatory peaks.</strong> During menstruation, endometriosis lesions shed and bleed similarly to the uterine lining — but without a route of exit. Prostaglandin E2 release at this time drives intense uterine cramping and inflammatory pain that peaks nocturnally (when cortisol suppression removes the body's natural anti-inflammatory protection). This creates monthly cycles of severely disrupted sleep during menstruation.</p>
+  <p style="margin-top:12px"><strong>Adhesion-related positional pain.</strong> Adhesions from endometriosis create bands of scar tissue that tether pelvic organs to each other and to the peritoneal wall. These adhesions produce sharp, position-dependent pain when stretched by body movement during sleep — making position changes during the night a significant pain trigger.</p>
+  <p style="margin-top:12px">A 2020 study in the <em>Journal of Sleep Research</em> found 78% of endometriosis patients reported poor sleep quality (Pittsburgh Sleep Quality Index score &gt;5), compared to 28% of controls. Chronic pain was the primary predictor, followed by anxiety and prostaglandin-driven dysmenorrhea.</p>
+  <div class="sci-grid">
+    <div class="sci-card">
+      <div class="label">Poor Sleep</div>
+      <div class="value">78% of patients</div>
+      <div class="source">report poor sleep quality (J. Sleep Res. 2020)</div>
+    </div>
+    <div class="sci-card">
+      <div class="label">Global Prevalence</div>
+      <div class="value">~190 million</div>
+      <div class="source">women affected worldwide (WHO)</div>
+    </div>
+    <div class="sci-card">
+      <div class="label">Diagnosis Delay</div>
+      <div class="value">7-10 years</div>
+      <div class="source">average time from symptom onset to diagnosis</div>
+    </div>
+    <div class="sci-card">
+      <div class="label">Sleep &amp; Pain</div>
+      <div class="value">Bidirectional</div>
+      <div class="source">poor sleep lowers pain threshold; pain disrupts sleep</div>
+    </div>
+  </div>
+</div>
+</section>
+
+<section id="picks">
+<h2 style="font-size:1.5rem;color:#fff;margin-bottom:8px">7 Best Mattresses for Endometriosis</h2>
+<p style="color:var(--muted);margin-bottom:24px">Rated on: pelvic and hip pressure relief, motion isolation (adhesion-pain triggered by movement), side-sleeping support (fetal position compatibility), cooling for inflammatory heat, and off-gassing (hormonal sensitivity).</p>
+
+<!-- Pick 1 -->
+<div class="pick-card top-pick">
+  <span class="rank-badge">#1 Best Overall</span>
+  <span class="best-for">Best Overall</span>
+  <h3>Casper Wave Hybrid</h3>
+  <p class="meta">Hybrid &bull; Medium (5/10) &bull; 7-zone ergonomic foam + pocketed coils</p>
+  <p>The Casper Wave Hybrid earns top position for endometriosis because its ergonomic zoning directly addresses the dual problem of pelvic pain relief and spinal alignment during side sleeping. The hip zone features softer foam that contours to and relieves pressure at the greater trochanter and iliac crest — two common pressure concentration points when sleeping in the fetal position. The lumbar zone is firmer, maintaining spinal alignment so the fetal position doesn't create additional lower back pain on top of the existing pelvic pain. The motion isolation prevents adhesion-pain triggers from partner movement. The open-cell foam runs cooler than standard memory foam, reducing the thermal amplification of inflammatory pain.</p>
+  <div class="specs-grid">
+    <div class="spec-item"><div class="spec-label">Firmness</div><div class="spec-val">Medium</div></div>
+    <div class="spec-item"><div class="spec-label">Hip Zone</div><div class="spec-val">Softer</div></div>
+    <div class="spec-item"><div class="spec-label">Motion ISO</div><div class="spec-val">Excellent</div></div>
+    <div class="spec-item"><div class="spec-label">Trial</div><div class="spec-val">100 nights</div></div>
+  </div>
+  <a class="btn" href="https://www.amazon.com/s?k=Casper+Wave+Hybrid+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</div>
+
+<!-- Pick 2 -->
+<div class="pick-card">
+  <span class="rank-badge">#2 Side Sleeper</span>
+  <span class="best-for">Best for Fetal-Position Side Sleeping</span>
+  <h3>Helix Midnight Luxe</h3>
+  <p class="meta">Hybrid &bull; Medium (5/10) &bull; Pocketed coils + memory foam + Tencel cover</p>
+  <p>The fetal position is the most commonly comfortable sleeping position for endometriosis — knees drawn up, hips flexed, body curled. The Helix Midnight Luxe's shoulder-specific zone allows the dominant arm to sink without creating thoracic compression, keeping the spine aligned in the fetal curl. The Tencel cover manages the moisture from prostaglandin-driven night sweats during dysmenorrhea. Motion isolation is excellent — critical since adhesion pain is sensitive to bed vibration and partner movement. The zoned lumbar support prevents the hip drop that would strain the SI joint and add referred pelvic pain to the endometriosis baseline.</p>
+  <div class="specs-grid">
+    <div class="spec-item"><div class="spec-label">Firmness</div><div class="spec-val">Medium</div></div>
+    <div class="spec-item"><div class="spec-label">Best For</div><div class="spec-val">Side sleepers</div></div>
+    <div class="spec-item"><div class="spec-label">Motion ISO</div><div class="spec-val">Excellent</div></div>
+    <div class="spec-item"><div class="spec-label">Trial</div><div class="spec-val">100 nights</div></div>
+  </div>
+  <a class="btn" href="https://www.amazon.com/s?k=Helix+Midnight+Luxe+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</div>
+
+<!-- Pick 3 -->
+<div class="pick-card">
+  <span class="rank-badge">#3 Cooling</span>
+  <span class="best-for">Best Cooling + No Off-Gassing</span>
+  <h3>Purple Restore Hybrid</h3>
+  <p class="meta">GelFlex Grid hybrid &bull; Medium (5/10) &bull; Hyper-elastic polymer + pocketed coils</p>
+  <p>For endometriosis patients who are sensitive to chemical exposures (a common consideration for hormonally driven conditions), the Purple GelFlex Grid is the only major mattress technology with zero chemical off-gassing — the polymer is inert and contains no VOCs that could act as endocrine disruptors. The grid's thermal neutrality is also important during menstrual cycles when prostaglandin-driven inflammation elevates local tissue temperature and body heat — heat pooling from memory foam amplifies this thermal discomfort. The localized pressure relief at the hip and pelvic contact points reduces the pressure-pain that endometriosis patients experience from standard sleep surfaces.</p>
+  <div class="specs-grid">
+    <div class="spec-item"><div class="spec-label">Firmness</div><div class="spec-val">Medium</div></div>
+    <div class="spec-item"><div class="spec-label">Off-Gassing</div><div class="spec-val">None</div></div>
+    <div class="spec-item"><div class="spec-label">Cooling</div><div class="spec-val">Excellent</div></div>
+    <div class="spec-item"><div class="spec-label">Trial</div><div class="spec-val">100 nights</div></div>
+  </div>
+  <a class="btn" href="https://www.amazon.com/s?k=Purple+Restore+Hybrid+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</div>
+
+<!-- Pick 4 -->
+<div class="pick-card">
+  <span class="rank-badge">#4 Deep Pressure</span>
+  <span class="best-for">Best Deep Pressure Relief</span>
+  <h3>Nectar Premier</h3>
+  <p class="meta">Memory foam &bull; Medium Soft (4/10) &bull; Gel memory foam + adaptive foam</p>
+  <p>For endometriosis patients with severe pelvic floor tension and hip pain — particularly those who also have adenomyosis or pelvic floor dysfunction co-morbidities — the Nectar Premier's gel memory foam provides full-body deep pressure stimulation that can release held muscular tension in the hip flexors, adductors, and piriformis. This muscular tension is a secondary pain generator in endometriosis that amplifies primary adhesion pain during sleep. The medium-soft rating avoids the hip sag that worsens sacroiliac strain while providing enough cushion to relieve direct pelvic pressure. The 365-night trial is the longest available. Best for patients with significant pelvic floor involvement and muscular co-morbidities.</p>
+  <div class="specs-grid">
+    <div class="spec-item"><div class="spec-label">Firmness</div><div class="spec-val">Medium Soft</div></div>
+    <div class="spec-item"><div class="spec-label">Pressure</div><div class="spec-val">Deep</div></div>
+    <div class="spec-item"><div class="spec-label">Motion ISO</div><div class="spec-val">Excellent</div></div>
+    <div class="spec-item"><div class="spec-label">Trial</div><div class="spec-val">365 nights</div></div>
+  </div>
+  <a class="btn" href="https://www.amazon.com/s?k=Nectar+Premier+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</div>
+
+<!-- Pick 5 -->
+<div class="pick-card">
+  <span class="rank-badge">#5 Severe Pain</span>
+  <span class="best-for">Best for Severe Endometriosis Pain</span>
+  <h3>Tempur-Pedic TEMPUR-ProAdapt Soft</h3>
+  <p class="meta">All-foam &bull; Soft (3/10) &bull; TEMPUR adaptive material</p>
+  <p>During menstrual cycles with severe dysmenorrhea and inflammatory pain, the Tempur-ProAdapt Soft's viscoelastic TEMPUR material provides the most comprehensive pressure redistribution available — conforming precisely to the hip, pelvic, and abdominal contours to eliminate all pressure spikes that amplify the existing inflammatory pain. The soft rating ensures zero pressure concentration at any contact point. Trade-off: TEMPUR retains heat, which can amplify inflammatory discomfort during peak menstrual pain days — use with a cooling mattress pad during menstruation. Best for endometriosis patients with Stage III-IV disease and severe menstrual pain cycles requiring maximum pain mitigation during sleep.</p>
+  <div class="specs-grid">
+    <div class="spec-item"><div class="spec-label">Firmness</div><div class="spec-val">Soft</div></div>
+    <div class="spec-item"><div class="spec-label">Pressure</div><div class="spec-val">Maximum</div></div>
+    <div class="spec-item"><div class="spec-label">Cooling</div><div class="spec-val">Moderate</div></div>
+    <div class="spec-item"><div class="spec-label">Trial</div><div class="spec-val">90 nights</div></div>
+  </div>
+  <a class="btn" href="https://www.amazon.com/s?k=Tempur-Pedic+TEMPUR-ProAdapt+Soft+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</div>
+
+<!-- Pick 6 -->
+<div class="pick-card">
+  <span class="rank-badge">#6 Back Sleeper</span>
+  <span class="best-for">Best for Back-Sleeping Endometriosis Patients</span>
+  <h3>Saatva Classic Plush Soft</h3>
+  <p class="meta">Euro pillow-top hybrid &bull; Plush Soft (3/10) &bull; Dual coils + memory foam</p>
+  <p>Some endometriosis patients find that back sleeping with a pillow under the knees (reducing lumbar-sacral compression) reduces their symptom severity better than side sleeping — particularly those with bladder or bowel endometriosis where the fetal position increases intra-abdominal pressure on affected organs. The Saatva Classic Plush Soft's euro pillow top provides the lumbar-sacral cushioning needed for comfortable sustained back sleeping while the dual coil system maintains spinal alignment. The reinforced edge allows seated exit without lateral instability during high-pain days. The 365-night trial is important for endometriosis patients whose comfort needs fluctuate significantly with the menstrual cycle.</p>
+  <div class="specs-grid">
+    <div class="spec-item"><div class="spec-label">Firmness</div><div class="spec-val">Plush Soft</div></div>
+    <div class="spec-item"><div class="spec-label">Best For</div><div class="spec-val">Back sleepers</div></div>
+    <div class="spec-item"><div class="spec-label">Edge Support</div><div class="spec-val">Excellent</div></div>
+    <div class="spec-item"><div class="spec-label">Trial</div><div class="spec-val">365 nights</div></div>
+  </div>
+  <a class="btn" href="https://www.amazon.com/s?k=Saatva+Classic+Plush+Soft+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</div>
+
+<!-- Pick 7 -->
+<div class="pick-card">
+  <span class="rank-badge">#7 Budget</span>
+  <span class="best-for">Best Budget Option</span>
+  <h3>DreamCloud Premier</h3>
+  <p class="meta">Hybrid &bull; Medium Firm (6/10) &bull; Cashmere euro-top + pocketed coils</p>
+  <p>The DreamCloud Premier's hybrid construction and cashmere euro-top provide adequate pelvic pressure cushioning at a significantly lower price point. The medium firm rating is slightly firmer than ideal for endometriosis hip sensitivity, but the euro-top surface layer provides enough give to prevent pressure concentration at the iliac crest and greater trochanter during side sleeping. The 365-night trial is the longest in this list — important for endometriosis patients who need time to evaluate comfort across multiple menstrual cycles (pain severity varies significantly cycle to cycle). Best for mild-to-moderate endometriosis without severe dysmenorrhea or significant adhesion involvement.</p>
+  <div class="specs-grid">
+    <div class="spec-item"><div class="spec-label">Firmness</div><div class="spec-val">Medium Firm</div></div>
+    <div class="spec-item"><div class="spec-label">Trial</div><div class="spec-val">365 nights</div></div>
+    <div class="spec-item"><div class="spec-label">Budget</div><div class="spec-val">Yes</div></div>
+    <div class="spec-item"><div class="spec-label">Motion ISO</div><div class="spec-val">Good</div></div>
+  </div>
+  <a class="btn" href="https://www.amazon.com/s?k=DreamCloud+Premier+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</div>
+</section>
+
+<section id="position">
+<h2 style="font-size:1.4rem;color:#fff;margin:32px 0 16px">Sleep Position Guide for Endometriosis</h2>
+<div class="guide-grid">
+  <div class="guide-card">
+    <div class="step-num">1</div>
+    <h4>Fetal Position (Best)</h4>
+    <p>Side sleeping with knees drawn to chest. Reduces intra-abdominal pressure on pelvic adhesions. Pillow between knees maintains pelvic alignment and prevents hip drop.</p>
+  </div>
+  <div class="guide-card">
+    <div class="step-num">2</div>
+    <h4>Back + Knee Pillow</h4>
+    <p>Back sleeping with a pillow under the knees reduces lumbar-sacral compression and lowers intra-abdominal pressure on bladder/bowel endometriosis. Better than fetal for some organ-specific presentations.</p>
+  </div>
+  <div class="guide-card">
+    <div class="step-num">3</div>
+    <h4>Avoid Stomach</h4>
+    <p>Stomach sleeping compresses the uterus and pelvic structures directly. For endometriosis, this maximizes pressure on adhesion sites and significantly worsens pain.</p>
+  </div>
+  <div class="guide-card">
+    <div class="step-num">4</div>
+    <h4>Cycle-Dependent Adjustment</h4>
+    <p>Position preference may shift with the menstrual cycle. Many endometriosis patients need softer positions during dysmenorrhea days and more supported positions during low-pain days.</p>
+  </div>
+</div>
+</section>
+
+<section id="comparison">
+<h2 style="font-size:1.4rem;color:#fff;margin:32px 0 16px">Endometriosis Profile vs. Mattress Priority</h2>
+<table class="comparison-table">
+  <thead><tr>
+    <th>Endometriosis Profile</th>
+    <th>Primary Mattress Need</th>
+    <th>Secondary Need</th>
+    <th>Best Pick</th>
+  </tr></thead>
+  <tbody>
+    <tr><td>Ovarian endometrioma (chocolate cyst)</td><td>Hip zone relief, side sleeping support</td><td>Motion isolation</td><td>Casper Wave Hybrid</td></tr>
+    <tr><td>Deep infiltrating endometriosis (DIE)</td><td>Maximum pelvic pressure relief</td><td>Motion isolation</td><td>Tempur-ProAdapt Soft</td></tr>
+    <tr><td>Bladder/bowel endometriosis</td><td>Reduced intra-abdominal pressure (back sleeping)</td><td>Lumbar support</td><td>Saatva Classic Plush Soft</td></tr>
+    <tr><td>Pelvic floor dysfunction co-morbidity</td><td>Deep pressure stimulation, hip relief</td><td>Cooling</td><td>Nectar Premier</td></tr>
+    <tr><td>Chemical sensitivity (hormonal)</td><td>No off-gassing, inert materials</td><td>Cooling</td><td>Purple Restore Hybrid</td></tr>
+    <tr><td>Couples (partner movement triggers pain)</td><td>Motion isolation, Tencel cover</td><td>Hip zone relief</td><td>Helix Midnight Luxe</td></tr>
+    <tr><td>Budget-conscious, Stage I-II</td><td>Medium-soft hybrid, long trial</td><td>Motion isolation</td><td>DreamCloud Premier</td></tr>
+  </tbody>
+</table>
+</section>
+
+<section id="faq">
+<h2 style="font-size:1.4rem;color:#fff;margin:32px 0 16px">Frequently Asked Questions</h2>
+
+<div style="background:var(--card);border:1px solid var(--border);border-radius:8px;padding:20px;margin-bottom:12px">
+  <h3 style="color:var(--gold);font-size:1rem;margin-bottom:8px">What sleep position is best for endometriosis pain?</h3>
+  <p style="color:var(--text);font-size:.9rem">The fetal position (side sleeping with knees drawn toward the chest) is the most commonly reported comfortable position. It reduces intra-abdominal pressure on pelvic adhesions. A pillow between the knees maintains pelvic alignment. For bladder or bowel endometriosis, back sleeping with a pillow under the knees may be better.</p>
+</div>
+
+<div style="background:var(--card);border:1px solid var(--border);border-radius:8px;padding:20px;margin-bottom:12px">
+  <h3 style="color:var(--gold);font-size:1rem;margin-bottom:8px">Why does endometriosis cause sleep problems?</h3>
+  <p style="color:var(--text);font-size:.9rem">Endometriosis disrupts sleep through chronic pelvic pain (activates HPA axis, reduces deep sleep), prostaglandin-driven menstrual pain peaks (worst nocturnally when cortisol is low), adhesion-related positional pain (sharp pain when adhesions stretch during movement), and central sensitization (amplifies pain signals during sleep). 78% of patients report poor sleep quality.</p>
+</div>
+
+<div style="background:var(--card);border:1px solid var(--border);border-radius:8px;padding:20px;margin-bottom:12px">
+  <h3 style="color:var(--gold);font-size:1rem;margin-bottom:8px">Does poor sleep worsen endometriosis?</h3>
+  <p style="color:var(--text);font-size:.9rem">Yes. Sleep deprivation elevates inflammatory cytokines (IL-6, TNF-alpha) and reduces natural killer cell activity — both dysregulated in endometriosis. Poor sleep also reduces pain threshold via central sensitization, amplifying perceived pain severity during the day. The relationship is bidirectional and self-amplifying.</p>
+</div>
+
+<div style="background:var(--card);border:1px solid var(--border);border-radius:8px;padding:20px;margin-bottom:12px">
+  <h3 style="color:var(--gold);font-size:1rem;margin-bottom:8px">Is a firm or soft mattress better for endometriosis?</h3>
+  <p style="color:var(--text);font-size:.9rem">Medium-soft is optimal. Endometriosis creates significant hip, lower abdominal, and pelvic pressure sensitivity. A firm mattress creates pressure points at these sites that worsen pain. A too-soft mattress lets the pelvis sag, creating spinal misalignment that adds lower back pain. Medium-soft with good hip-zone support balances both needs.</p>
+</div>
+
+<div style="background:var(--card);border:1px solid var(--border);border-radius:8px;padding:20px;margin-bottom:12px">
+  <h3 style="color:var(--gold);font-size:1rem;margin-bottom:8px">Can a heating pad on the mattress help endometriosis at night?</h3>
+  <p style="color:var(--text);font-size:.9rem">Heat reduces prostaglandin-driven cramping but raises body temperature and disrupts sleep architecture. Better approach: use heat therapy for 20-30 minutes before sleep onset, then discontinue before getting in bed. Pair with a cooling mattress to counteract residual heat. Do not use a heating pad continuously during sleep.</p>
+</div>
+</section>
+
+<section id="related">
+<h2 style="font-size:1.4rem;color:#fff;margin:32px 0 16px">Related Guides</h2>
+<div class="related-grid">
+  <div class="related-card">
+    <a href="best-mattress-pcos.html">Best Mattress for PCOS</a>
+    <p>PCOS and endometriosis frequently co-occur — hormonal sleep disruption, night sweats, and pain management.</p>
+  </div>
+  <div class="related-card">
+    <a href="best-mattress-chronic-fatigue.html">Best Mattress for Chronic Fatigue</a>
+    <p>Endometriosis-related chronic fatigue and restorative sleep strategies.</p>
+  </div>
+  <div class="related-card">
+    <a href="best-mattress-chronic-pain.html">Best Mattress for Chronic Pain</a>
+    <p>Central sensitization, pain amplification during sleep, and pressure relief strategies.</p>
+  </div>
+  <div class="related-card">
+    <a href="best-mattress-insomnia.html">Best Mattress for Insomnia</a>
+    <p>When endometriosis pain-driven sleep disruption leads to conditioned insomnia patterns.</p>
+  </div>
+</div>
+</section>
+
+</div>
+<footer>
+  <p>&copy; 2026 SleepWise Reviews &mdash; <a href="../privacy.html">Privacy Policy</a> &mdash; <a href="../affiliate-disclosure.html">Affiliate Disclosure</a></p>
+  <p style="margin-top:8px">SleepWise Reviews participates in affiliate programs. We may earn a commission at no extra cost to you.</p>
+</footer>
+</body>
+</html>"""
+
+with open(out, "w", encoding="utf-8") as f:
+    f.write(html)
+
+print(f"Created: {out}")
