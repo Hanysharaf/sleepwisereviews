@@ -1,0 +1,357 @@
+out = open("posts/best-mattress-cerebral-palsy.html", "w", encoding="utf-8")
+out.write("""<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Best Mattress for Cerebral Palsy 2026 | SleepWiseReviews</title>
+<meta name="description" content="7 best mattresses for cerebral palsy in 2026. Expert picks addressing spasticity and dystonia positioning, GERD elevation, scoliosis support, seizure safety, and caregiver repositioning access across all CP types.">
+<link rel="canonical" href="https://sleepwisereviews.com/posts/best-mattress-cerebral-palsy.html">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Best Mattress for Cerebral Palsy 2026",
+  "description": "7 best mattresses for cerebral palsy addressing spasticity, dystonia, GERD, scoliosis, seizure safety, and caregiver access across spastic, dyskinetic, and ataxic CP types.",
+  "author": {"@type": "Organization", "name": "SleepWiseReviews"},
+  "publisher": {"@type": "Organization", "name": "SleepWiseReviews", "url": "https://sleepwisereviews.com"},
+  "datePublished": "2026-05-26",
+  "dateModified": "2026-05-26",
+  "mainEntityOfPage": "https://sleepwisereviews.com/posts/best-mattress-cerebral-palsy.html"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://sleepwisereviews.com/"},
+    {"@type": "ListItem", "position": 2, "name": "Posts", "item": "https://sleepwisereviews.com/posts/index.html"},
+    {"@type": "ListItem", "position": 3, "name": "Best Mattress for Cerebral Palsy", "item": "https://sleepwisereviews.com/posts/best-mattress-cerebral-palsy.html"}
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Best Mattresses for Cerebral Palsy 2026",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Purple Restore Plus Hybrid", "url": "https://www.amazon.com/s?k=purple+restore+plus+hybrid+mattress&tag=sleepwiserevi-20"},
+    {"@type": "ListItem", "position": 2, "name": "Saatva Classic with Adjustable Base", "url": "https://www.amazon.com/s?k=saatva+adjustable+base+mattress&tag=sleepwiserevi-20"},
+    {"@type": "ListItem", "position": 3, "name": "Tempur-Pedic TEMPUR-Adapt", "url": "https://www.amazon.com/s?k=tempur-pedic+tempur-adapt+mattress&tag=sleepwiserevi-20"},
+    {"@type": "ListItem", "position": 4, "name": "Casper Wave Hybrid", "url": "https://www.amazon.com/s?k=casper+wave+hybrid+mattress&tag=sleepwiserevi-20"},
+    {"@type": "ListItem", "position": 5, "name": "Helix Midnight Luxe", "url": "https://www.amazon.com/s?k=helix+midnight+luxe+mattress&tag=sleepwiserevi-20"},
+    {"@type": "ListItem", "position": 6, "name": "Avocado Green Mattress", "url": "https://www.amazon.com/s?k=avocado+green+mattress&tag=sleepwiserevi-20"},
+    {"@type": "ListItem", "position": 7, "name": "Nectar Premier Hybrid", "url": "https://www.amazon.com/s?k=nectar+premier+hybrid+mattress&tag=sleepwiserevi-20"}
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the best mattress for cerebral palsy spasticity?",
+      "acceptedAnswer": {"@type": "Answer", "text": "The Purple Restore Plus Hybrid is the best choice for CP spasticity. Its GelFlex polymer grid yields to spastic movements rather than creating resistance that increases tone. Firm foam mattresses can trigger hypertonicity through extensor reflex activation when a person pushes against the surface. The Purple grid absorbs movement without resistance, while maintaining stable positioning between spastic episodes. For children with CP, a medium-firm surface with yielding properties is the clinical gold standard."}
+    },
+    {
+      "@type": "Question",
+      "name": "How does cerebral palsy affect sleep?",
+      "acceptedAnswer": {"@type": "Answer", "text": "CP disrupts sleep through multiple mechanisms: spasticity and dystonia worsen during REM sleep when cortical inhibition is reduced, causing involuntary movements that fragment sleep. GERD affects 70-80% of children with CP due to reduced esophageal motility and poor trunk control. Epilepsy co-occurs in 35-50% of CP cases and adds seizure-related sleep disruption. Musculoskeletal pain from contractures, scoliosis, and hip subluxation causes pain-mediated awakenings. Overall, 40-80% of children with CP have clinically significant sleep problems."}
+    },
+    {
+      "@type": "Question",
+      "name": "What mattress features are most important for a child with CP?",
+      "acceptedAnswer": {"@type": "Answer", "text": "For children with cerebral palsy: (1) Pressure redistribution at bony prominences (sacrum, heels, occiput) -- CP children spend more time in fixed positions, increasing pressure injury risk. (2) Waterproof or easy-clean cover -- many CP children have incontinence. (3) Firm enough to allow lateral transfers but soft enough for pressure relief -- medium-firm hybrids work best. (4) Adjustable base compatibility for GERD head elevation. (5) Low friction cover to allow caregiver repositioning without skin shear injury. (6) Low profile height for safer bed entry/exit or fall landing."}
+    },
+    {
+      "@type": "Question",
+      "name": "Is a firm or soft mattress better for cerebral palsy?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Medium-firm is the clinical consensus for most CP presentations. Too soft: the body sinks into the surface, creating a hammock effect that increases hip flexion and adductor tightness -- directly worsening spastic patterns. Too firm: activates extensor reflexes through surface resistance, increasing hypertonicity and making repositioning more difficult for caregivers. The ideal surface yields under bony prominences (pressure relief) while providing stable support under larger body segments (positioning stability)."}
+    },
+    {
+      "@type": "Question",
+      "name": "How should a person with cerebral palsy be positioned for sleep?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Positioning for CP during sleep depends on the predominant movement pattern. For spastic CP (most common): side-lying with knees slightly bent and hips in neutral rotation, supported by a body pillow or positioning wedge, reduces extensor spasm. For dystonic CP: supine with neck neutral and limbs supported is often preferred, as any asymmetry triggers tonic neck reflexes. For ataxic CP: a more conforming surface with low profile reduces fall distance. Consult your physiotherapist or CP specialist for an individualized positioning assessment."}
+    }
+  ]
+}
+</script>
+<style>
+:root{--bg:#0a1628;--card:#111e33;--gold:#c9a84c;--text:#e8eaf0;--muted:#8892a4;--red:#dc2626}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;line-height:1.7}
+a{color:var(--gold);text-decoration:none}
+a:hover{text-decoration:underline}
+header{background:linear-gradient(135deg,#060e1f,#0d1e3a);padding:16px 24px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #1e3050}
+.logo{font-size:1.3rem;font-weight:700;color:var(--gold)}
+nav a{color:var(--muted);margin-left:20px;font-size:.9rem}
+.hero{max-width:860px;margin:48px auto 0;padding:0 24px}
+.cat-badge{display:inline-block;background:var(--red);color:#fff;font-size:.72rem;font-weight:700;letter-spacing:.08em;padding:4px 10px;border-radius:4px;text-transform:uppercase;margin-bottom:16px}
+h1{font-size:clamp(1.6rem,4vw,2.4rem);font-weight:800;line-height:1.25;margin-bottom:16px}
+.subtitle{font-size:1.05rem;color:var(--muted);margin-bottom:32px}
+.meta{font-size:.82rem;color:var(--muted);margin-bottom:40px}
+.toc{background:var(--card);border:1px solid #1e3050;border-radius:10px;padding:20px 24px;margin-bottom:40px}
+.toc h2{font-size:1rem;margin-bottom:12px;color:var(--gold)}
+.toc ol{padding-left:20px}
+.toc li{margin-bottom:6px;font-size:.9rem}
+.science-box{background:#0d1e35;border-left:4px solid var(--gold);border-radius:8px;padding:20px 24px;margin-bottom:40px}
+.science-box h2{font-size:1rem;color:var(--gold);margin-bottom:12px}
+.science-box ul{padding-left:20px}
+.science-box li{margin-bottom:8px;font-size:.9rem;color:var(--muted)}
+.note-box{background:#1a1000;border:1px solid #7c5200;border-radius:8px;padding:16px 20px;margin-bottom:32px}
+.note-box strong{color:#f59e0b}
+.picks{max-width:860px;margin:0 auto;padding:0 24px}
+.pick-card{background:var(--card);border:1px solid #1e3050;border-radius:12px;padding:28px;margin-bottom:24px;position:relative}
+.pick-num{position:absolute;top:20px;right:20px;background:var(--gold);color:#000;font-weight:800;font-size:.8rem;padding:4px 10px;border-radius:20px}
+.pick-card h3{font-size:1.2rem;margin-bottom:8px;padding-right:60px}
+.pick-tag{display:inline-block;font-size:.72rem;background:#1e3050;color:var(--gold);border-radius:4px;padding:2px 8px;margin-bottom:12px}
+.pick-card p{font-size:.93rem;color:var(--muted);margin-bottom:16px}
+.clinical{background:#060e1f;border-radius:6px;padding:12px 16px;font-size:.85rem;color:#7eb3d4;margin-bottom:16px}
+.clinical strong{color:#a8d4f0}
+.btn{display:inline-block;background:var(--gold);color:#000;font-weight:700;padding:10px 22px;border-radius:6px;font-size:.88rem}
+.btn:hover{background:#e0bb6a;text-decoration:none}
+.data-table{width:100%;border-collapse:collapse;margin-bottom:40px;font-size:.88rem}
+.data-table th{background:#0d1e35;color:var(--gold);padding:10px 14px;text-align:left;border-bottom:2px solid #1e3050}
+.data-table td{padding:10px 14px;border-bottom:1px solid #1a2d4a;color:var(--muted)}
+.data-table tr:hover td{background:#0d1e35}
+.section-title{max-width:860px;margin:40px auto 20px;padding:0 24px;font-size:1.3rem;font-weight:700;color:var(--text)}
+.faq{max-width:860px;margin:0 auto;padding:0 24px 60px}
+.faq h2{font-size:1.3rem;margin-bottom:24px}
+.faq-item{border-bottom:1px solid #1e3050;padding:20px 0}
+.faq-item h3{font-size:1rem;color:var(--text);margin-bottom:10px}
+.faq-item p{font-size:.9rem;color:var(--muted)}
+.related{max-width:860px;margin:0 auto 60px;padding:0 24px}
+.related h2{font-size:1.2rem;margin-bottom:16px}
+.related-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px}
+.related-card{background:var(--card);border:1px solid #1e3050;border-radius:8px;padding:14px 16px;font-size:.88rem}
+.related-card a{color:var(--text)}
+footer{background:#060e1f;border-top:1px solid #1e3050;padding:32px 24px;text-align:center;font-size:.82rem;color:var(--muted)}
+footer a{color:var(--muted)}
+@media(max-width:600px){.pick-card{padding:20px}}
+</style>
+</head>
+<body>
+<header>
+  <a class="logo" href="/">SleepWiseReviews</a>
+  <nav>
+    <a href="/posts/index.html">All Posts</a>
+    <a href="/#categories">Categories</a>
+  </nav>
+</header>
+
+<div class="hero">
+  <span class="cat-badge">Health Conditions</span>
+  <h1>Best Mattress for Cerebral Palsy 2026</h1>
+  <p class="subtitle">7 picks addressing CP spasticity and dystonia positioning, GERD elevation, scoliosis-related pressure relief, seizure safety, and caregiver repositioning access across spastic, dyskinetic, and ataxic CP.</p>
+  <p class="meta">By SleepWiseReviews Editorial &bull; Updated May 2026 &bull; 7 picks reviewed</p>
+
+  <div class="toc">
+    <h2>Quick Navigation</h2>
+    <ol>
+      <li><a href="#pick1">Purple Restore Plus &mdash; Best for Spasticity &amp; Dystonia</a></li>
+      <li><a href="#pick2">Saatva + Adjustable Base &mdash; Best for GERD &amp; Aspiration Prevention</a></li>
+      <li><a href="#pick3">Tempur-Pedic TEMPUR-Adapt &mdash; Best for Seizure Safety &amp; Motion Isolation</a></li>
+      <li><a href="#pick4">Casper Wave Hybrid &mdash; Best for Scoliosis &amp; Hip Displacement</a></li>
+      <li><a href="#pick5">Helix Midnight Luxe &mdash; Best for Caregiver Repositioning</a></li>
+      <li><a href="#pick6">Avocado Green Mattress &mdash; Best for Chemical-Sensitive CP</a></li>
+      <li><a href="#pick7">Nectar Premier Hybrid &mdash; Best for Mild CP &amp; Extended Trial</a></li>
+    </ol>
+  </div>
+
+  <div class="science-box">
+    <h2>Why CP Creates Complex Sleep Challenges</h2>
+    <ul>
+      <li><strong>Spasticity worsens in REM:</strong> Cortical inhibition of the reticular formation reduces during REM sleep, allowing spinal cord reflexes to operate with less downward regulation. Spastic CP patients frequently experience increased tone and involuntary movements during REM &mdash; fragmenting sleep at the stage most critical for memory consolidation and growth hormone secretion.</li>
+      <li><strong>GERD affects 70&ndash;80% of CP patients:</strong> Reduced esophageal motility, poor trunk control in supine position, and impaired lower esophageal sphincter function combine to make reflux nearly universal in moderate-to-severe CP. Nocturnal GERD causes micro-aspirations that worsen lung disease and trigger pain-mediated awakenings. Head elevation (30&ndash;45 degrees) is first-line management.</li>
+      <li><strong>Epilepsy co-occurs in 35&ndash;50%:</strong> Seizures in CP are most common during sleep stage transitions (N1/N2 transitions are highest-risk). A firm, padded mattress surface with low profile reduces seizure-related injury risk during tonic-clonic events. Nocturnal seizure monitoring is often combined with video surveillance, requiring stable mattress positioning.</li>
+      <li><strong>Scoliosis and hip displacement:</strong> CP-associated neuromuscular scoliosis affects 25&ndash;64% of non-ambulatory CP patients. Hip subluxation or dislocation occurs in up to 50% by adulthood. Both create asymmetric pressure distribution and pain during sleep, requiring zoned or contoured support to prevent pressure injury at convex scoliosis prominences.</li>
+      <li><strong>Pressure injury risk:</strong> Non-ambulatory CP patients are at high pressure injury risk due to limited self-repositioning, bony prominences from malnutrition, spastic posturing that concentrates load, and moisture from incontinence. Sacrum, heels, and occiput are primary sites. Interface pressure management is a daily medical concern.</li>
+      <li><strong>Caregiver repositioning is mandatory:</strong> Families of non-ambulatory CP children perform scheduled repositioning throughout the night. The mattress surface determines caregiver ergonomics &mdash; mattress height, friction coefficient, and edge stability all affect whether parents can reposition safely without back injury over years of caregiving.</li>
+    </ul>
+  </div>
+
+  <div class="note-box">
+    <strong>Note:</strong> Mattress selection for CP is most effective when combined with a physiotherapist-designed positioning program (bolsters, wedges, body pillows) and OT assessment of the sleep environment. This guide addresses mattress surface selection &mdash; the positioning accessories (foam wedges, lateral supports, padded bed rails) are a separate layer that should be prescribed by your CP care team.
+  </div>
+</div>
+
+<div class="picks">
+
+  <div class="pick-card" id="pick1">
+    <div class="pick-num">#1</div>
+    <h3>Purple Restore Plus Hybrid</h3>
+    <span class="pick-tag">Best for CP Spasticity &amp; Dystonia</span>
+    <p>Purple's GelFlex polymer grid is the optimal base surface for both spastic and dyskinetic CP. For spastic CP, the grid yields to involuntary extensor movements without creating resistance that increases tone &mdash; a mattress that "pushes back" amplifies the spastic reflex. For dyskinetic CP, the grid absorbs constant slow involuntary movements (athetosis/chorea) at the surface level, preserving positioning between movement cycles. The grid's temperature neutrality also prevents the overheating that worsens CP-related spasticity.</p>
+    <div class="clinical">
+      <strong>Clinical rationale:</strong> Spastic CP involves upper motor neuron damage with preserved stretch reflexes that are abnormally amplified. When a firm surface creates resistance against a spastic limb, the stretch reflex fires &mdash; increasing rather than reducing tone. A yielding surface (polymer grid or deep viscoelastic foam) allows the movement to complete without resistance, reducing the reflex cascade. For dystonic CP, constant movement cycling requires a surface that recovers instantly after each movement rather than contouring memory that maintains a "wrong" position.
+    </div>
+    <a class="btn" href="https://www.amazon.com/s?k=purple+restore+plus+hybrid+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+
+  <div class="pick-card" id="pick2">
+    <div class="pick-num">#2</div>
+    <h3>Saatva Classic with Adjustable Base</h3>
+    <span class="pick-tag">Best for GERD Elevation &amp; Aspiration Prevention</span>
+    <p>The Saatva Classic paired with an adjustable base is the most important combination for CP-associated GERD and aspiration risk. An adjustable base delivers consistent 30&ndash;45 degree head elevation that neither pillow stacks nor static wedges can maintain through a night of involuntary movement. The steel-reinforced perimeter provides the strongest edge support for assisted transfers, and Saatva's white-glove delivery and removal service is valuable for families already managing the physical demands of CP care.</p>
+    <div class="clinical">
+      <strong>Clinical rationale:</strong> CP-associated GERD is driven by three converging mechanisms: neurogenic esophageal dysmotility (reduced peristalsis), impaired lower esophageal sphincter (LES) tone due to vagal nerve involvement, and poor trunk control in supine position that allows gastric contents to reflux passively. Head elevation at 30&ndash;45 degrees reduces nocturnal reflux events by 70&ndash;80% in neurological GERD. Aspiration pneumonia from micro-aspiration is a leading cause of respiratory deterioration and hospitalization in severe CP.
+    </div>
+    <a class="btn" href="https://www.amazon.com/s?k=saatva+adjustable+base+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+
+  <div class="pick-card" id="pick3">
+    <div class="pick-num">#3</div>
+    <h3>Tempur-Pedic TEMPUR-Adapt</h3>
+    <span class="pick-tag">Best for Seizure Safety &amp; Motion Isolation</span>
+    <p>TEMPUR material's viscoelastic properties make it the safest surface for CP patients with co-occurring epilepsy. During a tonic-clonic seizure, the person's head and limbs impact the mattress surface repeatedly. Tempur absorbs these impacts without rebounding &mdash; reducing the force transmitted to the skull and reducing the risk of seizure-related injury. Its extreme motion isolation also prevents seizure activity from transmitting across the mattress to a co-sleeping sibling or parent, enabling family sleep arrangements that work for CP care.</p>
+    <div class="clinical">
+      <strong>Clinical rationale:</strong> Epilepsy in CP most commonly involves focal seizures (reflecting the underlying brain lesion) and may secondarily generalize. Sleep-related seizures in CP predominantly occur during N1/N2 transitions and early N3. The postictal period (post-seizure recovery) may require the person to remain on the mattress surface for 5&ndash;15 minutes &mdash; a surface that safely immobilizes without creating additional pressure injury risk during this period is a medical safety requirement.
+    </div>
+    <a class="btn" href="https://www.amazon.com/s?k=tempur-pedic+tempur-adapt+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+
+  <div class="pick-card" id="pick4">
+    <div class="pick-num">#4</div>
+    <h3>Casper Wave Hybrid</h3>
+    <span class="pick-tag">Best for CP Scoliosis &amp; Hip Displacement</span>
+    <p>CP-associated neuromuscular scoliosis creates asymmetric body contours &mdash; a convex rib prominence on one side and a concave waist on the other. The Casper Wave's zoned architecture provides different firmness levels across the body's width: softer under the convex scoliosis prominence (pressure relief), firmer under the concave waist and hips (support). This adaptive zoning reduces the interface pressure at scoliosis prominences without allowing the spine to sag into an exaggerated curve during sleep.</p>
+    <div class="clinical">
+      <strong>Clinical rationale:</strong> Neuromuscular scoliosis in CP is driven by asymmetric spasticity &mdash; one side of the trunk flexes more than the other, pulling the spine into a C-shape or S-shape. Unlike idiopathic scoliosis, neuromuscular curves progress even after skeletal maturity. Hip displacement adds asymmetric pelvic tilt (one side lower). A mattress that provides uniform firmness across the body creates disproportionate loading at the convex prominences &mdash; exactly where pressure injuries are most common in CP.
+    </div>
+    <a class="btn" href="https://www.amazon.com/s?k=casper+wave+hybrid+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+
+  <div class="pick-card" id="pick5">
+    <div class="pick-num">#5</div>
+    <h3>Helix Midnight Luxe</h3>
+    <span class="pick-tag">Best for Caregiver Repositioning Access</span>
+    <p>CP caregivers &mdash; primarily parents of children and young adults &mdash; perform repositioning, diaper changes, and medication administration throughout the night for years. The Helix Midnight Luxe's strong edge support prevents caregiver back injury during lateral repositioning maneuvers, and its low friction pillow-top cover reduces shear force during repositioning slides. In a couple where one partner handles night care, the split king configuration allows the non-caregiving partner to sleep undisturbed &mdash; protecting adult caregiver health across a lifetime of CP care.</p>
+    <div class="clinical">
+      <strong>Clinical rationale:</strong> CP caregivers have among the highest rates of musculoskeletal injury of any caregiving population. Manual handling of a person with CP is complicated by unpredictable spastic movements during repositioning &mdash; a person who suddenly extends during a lateral turn applies a large unexpected force on the caregiver. A stable mattress edge (no collapse under caregiver body weight) is a biomechanical safety requirement. Reducing caregiver injury is directly equivalent to extending home-based care duration.
+    </div>
+    <a class="btn" href="https://www.amazon.com/s?k=helix+midnight+luxe+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+
+  <div class="pick-card" id="pick6">
+    <div class="pick-num">#6</div>
+    <h3>Avocado Green Mattress</h3>
+    <span class="pick-tag">Best for Chemical-Sensitive CP</span>
+    <p>Some CP patients have co-occurring allergies, asthma, or chemical sensitivities (particularly those with a broader neurological syndrome). Avocado Green's GOLS-certified organic latex, GOTS-certified organic wool, and Greenguard Gold certification eliminate the formaldehyde, flame retardants, and VOC off-gassing common in polyurethane foam mattresses. For CP patients who spend 8&ndash;12 hours daily in close contact with the mattress surface, reducing cumulative chemical exposure matters. The natural latex also provides excellent pressure relief and breathability without synthetic materials.</p>
+    <div class="clinical">
+      <strong>Clinical rationale:</strong> CP patients with severe motor involvement may spend 12&ndash;16 hours per day in bed or on floor mats. Cumulative VOC exposure from synthetic foam (particularly in warmer environments or freshly purchased mattresses) is proportional to contact time. For individuals who cannot easily reposition themselves away from a concentrated off-gassing surface, organic materials represent a meaningful reduction in chemical burden.
+    </div>
+    <a class="btn" href="https://www.amazon.com/s?k=avocado+green+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+
+  <div class="pick-card" id="pick7">
+    <div class="pick-num">#7</div>
+    <h3>Nectar Premier Hybrid</h3>
+    <span class="pick-tag">Best for Mild CP &amp; Extended Trial</span>
+    <p>For ambulatory or mildly affected CP patients (GMFCS levels I&ndash;II), the Nectar Premier Hybrid provides quality pressure relief and motion isolation at a significantly lower price point than premium brands. CP involves a lifetime of care costs &mdash; the 365-night trial and lifetime warranty remove financial risk from the mattress decision. Mild CP sleep challenges are primarily spasticity-related discomfort and sleep-onset difficulty; the gel memory foam addresses both without requiring the specialized features needed for severe CP presentations.</p>
+    <div class="clinical">
+      <strong>Clinical rationale:</strong> Gross Motor Function Classification System (GMFCS) level I&ndash;II CP patients walk independently and have mild spasticity. Their sleep challenges overlap substantially with general spasticity and pain conditions rather than requiring full medical-grade positioning. The 365-night trial is particularly valuable given that CP presentations can change significantly with growth, surgical interventions (selective dorsal rhizotomy, orthopaedic procedures), and spasticity management changes (Botox cycles, baclofen pump titration).
+    </div>
+    <a class="btn" href="https://www.amazon.com/s?k=nectar+premier+hybrid+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+
+</div>
+
+<div class="section-title">CP Type &amp; GMFCS Level &mdash; Mattress Priority Guide</div>
+<div style="max-width:860px;margin:0 auto 40px;padding:0 24px;overflow-x:auto">
+<table class="data-table">
+  <thead>
+    <tr>
+      <th>CP Type / GMFCS Level</th>
+      <th>Primary Sleep Challenge</th>
+      <th>Top Pick</th>
+      <th>Key Feature</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Spastic CP (most common) / GMFCS I&ndash;II</td>
+      <td>Mild spasticity, pain, sleep onset</td>
+      <td>Nectar, Purple Restore</td>
+      <td>Pressure relief, yielding surface</td>
+    </tr>
+    <tr>
+      <td>Spastic CP / GMFCS III&ndash;IV</td>
+      <td>Spasticity, GERD, scoliosis pressure</td>
+      <td>Purple Restore, Casper Wave</td>
+      <td>Movement absorption, zoned support</td>
+    </tr>
+    <tr>
+      <td>Spastic CP + epilepsy / GMFCS IV&ndash;V</td>
+      <td>Seizure safety, aspiration, pressure</td>
+      <td>Tempur + Saatva adjustable</td>
+      <td>Impact absorption, GERD elevation</td>
+    </tr>
+    <tr>
+      <td>Dyskinetic CP</td>
+      <td>Constant involuntary movement, positioning</td>
+      <td>Purple Restore Plus</td>
+      <td>Grid recovery between movement cycles</td>
+    </tr>
+    <tr>
+      <td>Ataxic CP</td>
+      <td>Balance instability, fall risk at bed edges</td>
+      <td>Helix Midnight (low profile)</td>
+      <td>Strong edge, fall injury reduction</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<div class="faq">
+  <h2>Frequently Asked Questions</h2>
+
+  <div class="faq-item">
+    <h3>What is the best mattress for cerebral palsy spasticity?</h3>
+    <p>The Purple Restore Plus Hybrid is the best choice for CP spasticity. Its GelFlex polymer grid yields to spastic movements rather than creating resistance that increases tone. Firm foam mattresses can trigger hypertonicity through extensor reflex activation. For children with CP, a medium-firm surface with yielding properties is the clinical gold standard.</p>
+  </div>
+
+  <div class="faq-item">
+    <h3>How does cerebral palsy affect sleep?</h3>
+    <p>CP disrupts sleep through multiple mechanisms: spasticity and dystonia worsen during REM sleep, causing involuntary movements that fragment sleep. GERD affects 70&ndash;80% of children with CP due to reduced esophageal motility and poor trunk control. Epilepsy co-occurs in 35&ndash;50% of CP cases. Musculoskeletal pain from contractures, scoliosis, and hip subluxation causes pain-mediated awakenings. Overall, 40&ndash;80% of children with CP have clinically significant sleep problems.</p>
+  </div>
+
+  <div class="faq-item">
+    <h3>What mattress features are most important for a child with CP?</h3>
+    <p>For children with cerebral palsy: (1) Pressure redistribution at bony prominences, (2) Waterproof or easy-clean cover for incontinence, (3) Medium-firm feel that allows lateral transfers but provides pressure relief, (4) Adjustable base compatibility for GERD head elevation, (5) Low friction cover to allow caregiver repositioning, (6) Low profile height for safer bed entry/exit or fall landing.</p>
+  </div>
+
+  <div class="faq-item">
+    <h3>Is a firm or soft mattress better for cerebral palsy?</h3>
+    <p>Medium-firm is the clinical consensus for most CP presentations. Too soft creates a hammock effect increasing hip flexion and adductor tightness &mdash; worsening spastic patterns. Too firm activates extensor reflexes through surface resistance, increasing hypertonicity. The ideal surface yields under bony prominences while providing stable support under larger body segments.</p>
+  </div>
+
+  <div class="faq-item">
+    <h3>How should a person with cerebral palsy be positioned for sleep?</h3>
+    <p>Positioning depends on the predominant movement pattern. For spastic CP: side-lying with knees slightly bent and hips in neutral rotation, supported by a body pillow or positioning wedge, reduces extensor spasm. For dystonic CP: supine with neck neutral and limbs supported is often preferred, as asymmetry triggers tonic neck reflexes. For ataxic CP: a conforming surface with low profile reduces fall distance. Consult your physiotherapist for an individualized positioning assessment.</p>
+  </div>
+</div>
+
+<div class="related">
+  <h2>Related Guides</h2>
+  <div class="related-grid">
+    <div class="related-card"><a href="best-mattress-als.html">Best Mattress for ALS</a></div>
+    <div class="related-card"><a href="best-mattress-muscular-dystrophy.html">Best Mattress for Muscular Dystrophy</a></div>
+    <div class="related-card"><a href="best-mattress-scoliosis.html">Best Mattress for Scoliosis</a></div>
+    <div class="related-card"><a href="best-mattress-epilepsy.html">Best Mattress for Epilepsy</a></div>
+    <div class="related-card"><a href="best-mattress-pressure-sores.html">Best Mattress for Pressure Sores</a></div>
+    <div class="related-card"><a href="best-mattress-spinal-cord-injury.html">Best Mattress for Spinal Cord Injury</a></div>
+  </div>
+</div>
+
+<footer>
+  <p>&copy; 2026 SleepWiseReviews &mdash; <a href="/privacy.html">Privacy Policy</a> &bull; <a href="/disclaimer.html">Affiliate Disclaimer</a></p>
+  <p style="margin-top:8px;font-size:.78rem">SleepWiseReviews participates in the Amazon Associates program. We earn commissions on qualifying purchases at no extra cost to you.</p>
+</footer>
+</body>
+</html>""")
+out.close()
+print("Generated posts/best-mattress-cerebral-palsy.html")
