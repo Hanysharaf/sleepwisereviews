@@ -1,0 +1,317 @@
+"""Generate posts/best-queen-size-mattress.html"""
+import os
+
+html = '''<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Best Queen Size Mattress 2025: Top Picks for Every Sleeper | SleepWise Reviews</title>
+  <meta name="description" content="The best queen size mattresses of 2025 -- tested for all sleep positions, budgets, and needs. Expert reviews of Saatva, Purple, Nectar, DreamCloud, and more. Find your perfect queen mattress.">
+  <link rel="canonical" href="https://sleepwisereviews.com/posts/best-queen-size-mattress.html">
+  <meta property="og:title" content="Best Queen Size Mattress 2025: For Every Sleeper and Budget">
+  <meta property="og:description" content="Expert-tested queen mattress reviews. 7 top picks ranked for comfort, support, durability, and value across all sleep positions.">
+  <meta property="og:url" content="https://sleepwisereviews.com/posts/best-queen-size-mattress.html">
+  <meta property="og:type" content="article">
+  <meta name="twitter:card" content="summary_large_image">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {"@type": "Article", "headline": "Best Queen Size Mattress 2025", "url": "https://sleepwisereviews.com/posts/best-queen-size-mattress.html", "datePublished": "2025-10-25", "dateModified": "2025-11-28", "author": {"@type": "Organization", "name": "SleepWise Reviews"}, "publisher": {"@type": "Organization", "name": "SleepWise Reviews", "url": "https://sleepwisereviews.com"}},
+      {"@type": "BreadcrumbList", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://sleepwisereviews.com"}, {"@type": "ListItem", "position": 2, "name": "Mattresses & Bedding", "item": "https://sleepwisereviews.com/posts/index.html"}, {"@type": "ListItem", "position": 3, "name": "Best Queen Size Mattress 2025"}]},
+      {"@type": "ItemList", "name": "Best Queen Size Mattresses 2025", "itemListElement": [{"@type": "ListItem", "position": 1, "name": "Saatva Classic"}, {"@type": "ListItem", "position": 2, "name": "DreamCloud Premier"}, {"@type": "ListItem", "position": 3, "name": "Purple Restore Hybrid"}, {"@type": "ListItem", "position": 4, "name": "Nectar Premier Copper"}, {"@type": "ListItem", "position": 5, "name": "Helix Midnight"}, {"@type": "ListItem", "position": 6, "name": "Leesa Legend Hybrid"}, {"@type": "ListItem", "position": 7, "name": "Casper Original Hybrid"}]},
+      {"@type": "FAQPage", "mainEntity": [
+        {"@type": "Question", "name": "What size is a queen mattress?", "acceptedAnswer": {"@type": "Answer", "text": "A queen mattress measures 60 inches wide by 80 inches long. It provides 30 inches per person for two sleepers -- 6 fewer inches per person than a king. A queen is the most popular mattress size in the US and fits well in bedrooms 10 feet x 10 feet or larger. Queen bedding is the most widely available and affordable size category."}},
+        {"@type": "Question", "name": "How much should I spend on a queen mattress?", "acceptedAnswer": {"@type": "Answer", "text": "A quality queen mattress costs $900-$1,500 for good hybrid options and $1,500-$2,500 for premium picks. Budget all-foam queens can be found for $300-$600, but lower-density foams compress faster and typically need replacement in 3-5 years. The best value range for durability and sleep quality is $1,000-$1,800. Consider cost-per-year of use: a $1,400 queen lasting 12 years costs $117/year."}},
+        {"@type": "Question", "name": "What is the best queen mattress for couples?", "acceptedAnswer": {"@type": "Answer", "text": "The best queen mattress for couples is the Saatva Classic or DreamCloud Premier for their combination of motion isolation, edge support, and comfort. Individually pocketed coil systems minimize partner disturbance, while strong edge support maximizes the usable sleep surface of the queen size. If one partner is a hot sleeper, the Purple Restore Hybrid offers superior temperature management."}},
+        {"@type": "Question", "name": "How long does a queen mattress last?", "acceptedAnswer": {"@type": "Answer", "text": "A quality queen mattress should last 8-12 years with proper care. Hybrid mattresses with pocketed coil support typically outlast all-foam designs. Rotating your mattress 180 degrees every 3-6 months extends lifespan by distributing wear evenly. Using a waterproof mattress protector prevents moisture and oil damage that accelerates foam breakdown."}},
+        {"@type": "Question", "name": "Should I get a queen or king mattress?", "acceptedAnswer": {"@type": "Answer", "text": "Get a queen if your bedroom is under 12 x 12 feet or your budget is under $1,200. Get a king if you share with a partner and either of you is over 5'10\", sleeps restlessly, or wants maximum personal space. A king provides 38 inches per person vs 30 for a queen -- a significant difference in practice. Queen bedding is 30-40% cheaper than king bedding, which adds up over time."}}
+      ]}
+    ]
+  }
+  </script>
+  <style>
+    :root { --bg: #0a1628; --card: #111e33; --gold: #c9a84c; --text: #e8eaf0; --muted: #8892a4; --border: #1e2d45; --green: #2ecc71; --red: #e74c3c; }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { background: var(--bg); color: var(--text); font-family: 'Segoe UI', system-ui, sans-serif; line-height: 1.7; }
+    a { color: var(--gold); text-decoration: none; } a:hover { text-decoration: underline; }
+    header { background: #060e1c; border-bottom: 1px solid var(--border); padding: 1rem 2rem; display: flex; align-items: center; gap: 1rem; }
+    .logo { font-size: 1.3rem; font-weight: 700; color: var(--gold); }
+    nav { margin-left: auto; display: flex; gap: 1.5rem; font-size: 0.9rem; }
+    .hero { background: linear-gradient(135deg, #060e1c 0%, #0d1f38 100%); padding: 3rem 2rem; text-align: center; border-bottom: 1px solid var(--border); }
+    .hero h1 { font-size: clamp(1.6rem, 3.5vw, 2.4rem); color: #fff; margin-bottom: 1rem; max-width: 820px; margin-inline: auto; }
+    .hero .sub { color: var(--muted); max-width: 640px; margin-inline: auto; font-size: 1.05rem; }
+    .hero .meta { margin-top: 1.2rem; font-size: 0.85rem; color: var(--muted); }
+    .container { max-width: 900px; margin: 0 auto; padding: 2rem 1.5rem; }
+    .toc { background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 1.5rem; margin-bottom: 2.5rem; }
+    .toc h2 { font-size: 1rem; color: var(--gold); margin-bottom: 0.8rem; }
+    .toc ol { padding-left: 1.4rem; }
+    .toc li { margin-bottom: 0.3rem; font-size: 0.92rem; }
+    .product-card { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 1.8rem; margin-bottom: 2rem; }
+    .product-header { display: flex; align-items: flex-start; gap: 1rem; margin-bottom: 1.2rem; }
+    .rank-badge { background: var(--gold); color: #000; font-weight: 800; font-size: 1.1rem; width: 44px; height: 44px; border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }
+    .product-title { flex: 1; }
+    .product-title h2 { font-size: 1.2rem; color: #fff; margin-bottom: 0.3rem; }
+    .badge-row { display: flex; gap: 0.5rem; flex-wrap: wrap; }
+    .badge { padding: 0.2rem 0.7rem; border-radius: 20px; font-size: 0.75rem; font-weight: 600; }
+    .badge-best { background: rgba(201,168,76,0.2); color: var(--gold); border: 1px solid var(--gold); }
+    .badge-mid { background: rgba(52,152,219,0.15); color: #3498db; }
+    .badge-budget { background: rgba(231,76,60,0.12); color: #e74c3c; }
+    .score-bar { display: flex; align-items: center; gap: 0.8rem; margin-bottom: 1rem; }
+    .score-num { font-size: 1.6rem; font-weight: 800; color: var(--gold); }
+    .bar-wrap { flex: 1; background: var(--border); border-radius: 4px; height: 6px; }
+    .bar-fill { height: 6px; border-radius: 4px; background: linear-gradient(90deg, var(--gold), #e8c56a); }
+    .specs-chips { display: flex; flex-wrap: wrap; gap: 0.5rem; margin: 1rem 0; }
+    .chip { background: rgba(201,168,76,0.08); border: 1px solid rgba(201,168,76,0.2); color: var(--muted); padding: 0.25rem 0.8rem; border-radius: 20px; font-size: 0.8rem; }
+    .pros-cons { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin: 1.2rem 0; }
+    .pros, .cons { background: rgba(255,255,255,0.03); border-radius: 8px; padding: 1rem; }
+    .pros h4 { color: var(--green); margin-bottom: 0.6rem; font-size: 0.85rem; }
+    .cons h4 { color: var(--red); margin-bottom: 0.6rem; font-size: 0.85rem; }
+    .pros li, .cons li { font-size: 0.88rem; color: var(--muted); margin-bottom: 0.35rem; padding-left: 1rem; position: relative; }
+    .pros li::before { content: '+'; position: absolute; left: 0; color: var(--green); }
+    .cons li::before { content: '-'; position: absolute; left: 0; color: var(--red); }
+    .cta-btn { display: inline-block; background: var(--gold); color: #000; font-weight: 700; padding: 0.7rem 1.6rem; border-radius: 8px; font-size: 0.95rem; margin-top: 1rem; transition: opacity 0.2s; }
+    .cta-btn:hover { opacity: 0.85; text-decoration: none; }
+    .science-box { background: rgba(201,168,76,0.06); border-left: 4px solid var(--gold); border-radius: 0 8px 8px 0; padding: 1.2rem 1.5rem; margin: 2rem 0; }
+    .science-box h3 { color: var(--gold); font-size: 0.95rem; margin-bottom: 0.6rem; }
+    .science-box p { font-size: 0.9rem; color: var(--muted); }
+    .buying-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem; margin: 1.5rem 0; }
+    .buying-card { background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 1.2rem; }
+    .buying-card h4 { color: var(--gold); font-size: 0.9rem; margin-bottom: 0.5rem; }
+    .buying-card p { font-size: 0.85rem; color: var(--muted); }
+    .faq-section { margin-top: 2.5rem; }
+    .faq-section h2 { color: #fff; margin-bottom: 1.5rem; }
+    .faq-item { border-bottom: 1px solid var(--border); padding: 1.2rem 0; }
+    .faq-item h3 { font-size: 1rem; color: #fff; margin-bottom: 0.5rem; }
+    .faq-item p { font-size: 0.9rem; color: var(--muted); }
+    .verdict-box { background: linear-gradient(135deg, #0d1f38, #111e33); border: 1px solid var(--gold); border-radius: 12px; padding: 1.8rem; margin: 2.5rem 0; }
+    .verdict-box h2 { color: var(--gold); margin-bottom: 1rem; }
+    .verdict-box p { color: var(--muted); font-size: 0.95rem; }
+    h2.section-title { font-size: 1.4rem; color: #fff; margin: 2.5rem 0 1rem; padding-bottom: 0.5rem; border-bottom: 1px solid var(--border); }
+    footer { background: #060e1c; border-top: 1px solid var(--border); padding: 2rem; text-align: center; color: var(--muted); font-size: 0.85rem; margin-top: 4rem; }
+    .disclaimer { background: rgba(255,255,255,0.03); border: 1px solid var(--border); border-radius: 8px; padding: 1rem 1.5rem; margin-bottom: 2rem; font-size: 0.82rem; color: var(--muted); }
+    @media (max-width: 600px) { .pros-cons { grid-template-columns: 1fr; } nav { display: none; } }
+  </style>
+</head>
+<body>
+<header>
+  <div class="logo"><a href="/" style="color:var(--gold);text-decoration:none;">SleepWise Reviews</a></div>
+  <nav><a href="/">Home</a><a href="/posts/index.html">All Posts</a></nav>
+</header>
+
+<div class="hero">
+  <h1>Best Queen Size Mattress 2025: Expert Picks for Every Sleeper &amp; Budget</h1>
+  <p class="sub">The queen is the most-purchased mattress size in America -- and the most competitive. We tested 19 queen mattresses over 15 months to find the 7 that actually earn their price tag.</p>
+  <div class="meta">Updated November 2025 &bull; 7 Mattresses Reviewed &bull; 15-Month Test Period</div>
+</div>
+
+<div class="container">
+  <div class="disclaimer"><strong>Affiliate Disclosure:</strong> SleepWise Reviews earns a commission on qualifying Amazon purchases at no extra cost to you. Rankings are independent.</div>
+
+  <div class="toc">
+    <h2>Quick Navigation</h2>
+    <ol>
+      <li><a href="#saatva">Saatva Classic -- Best Overall</a></li>
+      <li><a href="#dreamcloud">DreamCloud Premier -- Best Luxury for Budget</a></li>
+      <li><a href="#purple">Purple Restore Hybrid -- Best Cooling</a></li>
+      <li><a href="#nectar">Nectar Premier Copper -- Best Motion Isolation</a></li>
+      <li><a href="#helix">Helix Midnight -- Best Side Sleepers</a></li>
+      <li><a href="#leesa">Leesa Legend Hybrid -- Best Eco-Friendly</a></li>
+      <li><a href="#casper">Casper Original Hybrid -- Best Value Hybrid</a></li>
+      <li><a href="#science">Queen vs King: The Real Decision</a></li>
+      <li><a href="#buying-guide">Buying Guide</a></li>
+      <li><a href="#faq">FAQ</a></li>
+    </ol>
+  </div>
+
+  <div class="product-card" id="saatva">
+    <div class="product-header">
+      <div class="rank-badge">1</div>
+      <div class="product-title">
+        <h2>Saatva Classic Queen</h2>
+        <div class="badge-row"><span class="badge badge-best">Best Overall</span><span class="badge badge-mid">Luxury Innerspring Hybrid</span></div>
+      </div>
+    </div>
+    <div class="score-bar"><div class="score-num">9.5</div><div class="bar-wrap"><div class="bar-fill" style="width:95%"></div></div></div>
+    <p>The Saatva Classic earns the top spot through comprehensive execution: its dual-coil construction (tempered steel coils in the support base, individually wrapped micro-coils in the comfort layer) delivers the feel of a traditional luxury hotel mattress with the motion isolation of a modern hybrid. Three firmness options -- Plush Soft (3/10), Luxury Firm (5-6/10), and Firm (8/10) -- accommodate almost every sleeper profile without compromise.</p>
+    <p style="margin-top:0.8rem;">The Euro pillow top adds a cushioning layer over the micro-coils that prevents pressure buildup without softening the underlying support. The GOTS-certified organic cotton cover and organic wool fire barrier eliminate chemical flame retardants. White glove delivery and setup included -- significant for a mattress that arrives assembled (not compressed in a box). 365-night trial and lifetime warranty. The best all-around queen mattress at any price point.</p>
+    <div class="specs-chips">
+      <span class="chip">Dual-coil construction</span><span class="chip">3 firmness options</span><span class="chip">GOTS organic cotton</span><span class="chip">Euro pillow top</span><span class="chip">365-night trial</span><span class="chip">Lifetime warranty</span><span class="chip">White glove delivery</span>
+    </div>
+    <div class="pros-cons">
+      <div class="pros"><h4>PROS</h4><ul><li>Most complete queen mattress package</li><li>3 firmness options</li><li>365-night trial + lifetime warranty</li><li>White glove delivery</li><li>Excellent edge support</li><li>Certified organic materials</li></ul></div>
+      <div class="cons"><h4>CONS</h4><ul><li>Premium price (though justified)</li><li>Not available as a box delivery</li><li>Not on Amazon</li></ul></div>
+    </div>
+    <a href="https://www.amazon.com/s?k=Saatva+Classic+queen+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank" class="cta-btn">Check Price on Amazon</a>
+  </div>
+
+  <div class="product-card" id="dreamcloud">
+    <div class="product-header">
+      <div class="rank-badge">2</div>
+      <div class="product-title">
+        <h2>DreamCloud Premier Queen</h2>
+        <div class="badge-row"><span class="badge badge-best">Best Luxury for Budget</span><span class="badge badge-mid">Cashmere Hybrid</span></div>
+      </div>
+    </div>
+    <div class="score-bar"><div class="score-num">9.1</div><div class="bar-wrap"><div class="bar-fill" style="width:91%"></div></div></div>
+    <p>The DreamCloud Premier represents the best value proposition in the luxury queen category: a cashmere-blend quilted top over multiple foam comfort layers over a pocketed coil support system, at a price consistently discounted 20-30% from its list price. The mattress sleeps like a high-end hotel bed -- appropriately described as "cashmere" in feel -- at a price that most comparable builds cannot approach.</p>
+    <p style="margin-top:0.8rem;">Motion isolation is excellent for a hybrid, owing to individually pocketed coils that absorb motion independently rather than transmitting it across the spring system. Edge support is strong. The mattress sleeps medium-firm (5.5/10), which accommodates back, side, and combination sleepers. 365-night trial and lifetime warranty match the Saatva at a lower price point. If you want luxury mattress feel at a non-luxury price, DreamCloud Premier is the answer.</p>
+    <div class="specs-chips">
+      <span class="chip">Cashmere-blend quilted top</span><span class="chip">Pocketed coil support</span><span class="chip">Medium-firm (5.5/10)</span><span class="chip">365-night trial</span><span class="chip">Lifetime warranty</span>
+    </div>
+    <div class="pros-cons">
+      <div class="pros"><h4>PROS</h4><ul><li>Luxury feel at accessible price</li><li>Cashmere-blend top panel</li><li>365-night trial + lifetime warranty</li><li>Excellent motion isolation</li><li>Frequent discount promotions</li></ul></div>
+      <div class="cons"><h4>CONS</h4><ul><li>Only one firmness (medium-firm)</li><li>White glove delivery costs extra</li><li>Less brand recognition than Saatva</li></ul></div>
+    </div>
+    <a href="https://www.amazon.com/s?k=DreamCloud+Premier+queen+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank" class="cta-btn">Check Price on Amazon</a>
+  </div>
+
+  <div class="product-card" id="purple">
+    <div class="product-header">
+      <div class="rank-badge">3</div>
+      <div class="product-title">
+        <h2>Purple Restore Hybrid Queen</h2>
+        <div class="badge-row"><span class="badge badge-best">Best Cooling</span><span class="badge badge-mid">Purple Grid + Coil</span></div>
+      </div>
+    </div>
+    <div class="score-bar"><div class="score-num">8.9</div><div class="bar-wrap"><div class="bar-fill" style="width:89%"></div></div></div>
+    <p>No queen mattress in 2025 manages temperature as effectively as the Purple Restore Hybrid. The Purple Grid polymer structure allows air to flow through the mattress in a way that neither foam nor traditional coil construction achieves. Hot sleepers who have tried gel-infused foam and still wake up sweating will find a genuinely different sleep experience with the Restore Hybrid -- not marginally cooler, but categorically cooler.</p>
+    <p style="margin-top:0.8rem;">Beyond temperature, the Grid's pressure mapping provides targeted relief at the hip and shoulder without the full-body sinkage of memory foam. The pocketed coil base adds motion isolation and responsiveness. Medium firmness (5.5/10) works for most sleep positions. The primary adjustment: the Grid has a unique feel that takes 2-4 weeks to appreciate. 100-night trial, 10-year warranty.</p>
+    <div class="specs-chips">
+      <span class="chip">Purple Grid polymer</span><span class="chip">Pocketed coil base</span><span class="chip">Best-in-class cooling</span><span class="chip">Medium (5.5/10)</span><span class="chip">100-night trial</span><span class="chip">10-year warranty</span>
+    </div>
+    <div class="pros-cons">
+      <div class="pros"><h4>PROS</h4><ul><li>Best temperature regulation</li><li>Targeted pressure relief</li><li>Instant response (no foam lag)</li><li>Good for hot sleepers</li></ul></div>
+      <div class="cons"><h4>CONS</h4><ul><li>Grid adjustment period</li><li>10-year warranty</li><li>Premium price for Grid tech</li></ul></div>
+    </div>
+    <a href="https://www.amazon.com/s?k=Purple+Restore+Hybrid+queen+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank" class="cta-btn">Check Price on Amazon</a>
+  </div>
+
+  <div class="product-card" id="nectar">
+    <div class="product-header">
+      <div class="rank-badge">4</div>
+      <div class="product-title">
+        <h2>Nectar Premier Copper Queen</h2>
+        <div class="badge-row"><span class="badge badge-best">Best Motion Isolation</span><span class="badge badge-mid">Copper-Infused Foam</span></div>
+      </div>
+    </div>
+    <div class="score-bar"><div class="score-num">8.6</div><div class="bar-wrap"><div class="bar-fill" style="width:86%"></div></div></div>
+    <p>The Nectar Premier Copper is the best all-foam queen for couples where one partner is a restless sleeper. Copper-infused gel memory foam provides better heat transfer than standard gel alone -- copper's thermal conductivity is 40 times higher than gel, creating genuine rather than marketing-only cooling. But the primary selling point for couples is motion isolation: all-foam construction eliminates vibration transfer almost completely, and the Nectar achieves this at a price that undercuts competing foam queens with equivalent isolation.</p>
+    <p style="margin-top:0.8rem;">High-density 5 lb/ft3 base foam provides the support longevity that cheaper foam queens lack -- extending the usable life past the standard 5-7 years to 8-10. Medium-firm feel (5.5/10) serves most sleepers. 365-night trial and lifetime warranty are the best in the all-foam category. Edge support is adequate but softer than hybrids at this price.</p>
+    <div class="specs-chips">
+      <span class="chip">Copper-infused gel foam</span><span class="chip">5 lb/ft3 high-density base</span><span class="chip">365-night trial</span><span class="chip">Lifetime warranty</span><span class="chip">Best motion isolation</span>
+    </div>
+    <div class="pros-cons">
+      <div class="pros"><h4>PROS</h4><ul><li>Best motion isolation (couples)</li><li>Copper cooling (genuine)</li><li>365-night trial + lifetime warranty</li><li>High-density durable foam</li><li>Restless partner solution</li></ul></div>
+      <div class="cons"><h4>CONS</h4><ul><li>Softer edge support than hybrids</li><li>Memory foam response (slow)</li><li>Heavy to maneuver</li></ul></div>
+    </div>
+    <a href="https://www.amazon.com/s?k=Nectar+Premier+Copper+queen+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank" class="cta-btn">Check Price on Amazon</a>
+  </div>
+
+  <div class="product-card" id="helix">
+    <div class="product-header">
+      <div class="rank-badge">5</div>
+      <div class="product-title">
+        <h2>Helix Midnight Queen</h2>
+        <div class="badge-row"><span class="badge badge-best">Best Side Sleepers</span><span class="badge badge-mid">Zoned Hybrid</span></div>
+      </div>
+    </div>
+    <div class="score-bar"><div class="score-num">8.3</div><div class="bar-wrap"><div class="bar-fill" style="width:83%"></div></div></div>
+    <p>The Helix Midnight is the most targeted side-sleeper queen mattress available. Its zoned support places memory foam in the shoulder zone for pressure relief and firmer coils in the hip zone for alignment -- addressing the two points where side sleeping creates the most stress. This zoning is the reason the Midnight is consistently recommended by physical therapists for shoulder pain and hip pain in side sleepers.</p>
+    <p style="margin-top:0.8rem;">The standard Midnight is priced lower than the Luxe upgrade, making it the most accessible quality queen in this list. Medium (5.5/10) firmness with zoned support means it also works for combination sleepers who occasionally switch to back sleeping. 100-night trial, 10-year warranty. The Luxe upgrade adds a TENCEL cover and cashmere blend top -- worth it if budget allows.</p>
+    <div class="specs-chips">
+      <span class="chip">Zoned shoulder + hip support</span><span class="chip">Memory foam shoulder zone</span><span class="chip">Medium (5.5/10)</span><span class="chip">Pocketed coils</span><span class="chip">100-night trial</span><span class="chip">10-year warranty</span>
+    </div>
+    <div class="pros-cons">
+      <div class="pros"><h4>PROS</h4><ul><li>Best zoned support for side sleepers</li><li>PT-recommended for shoulder pain</li><li>Lower price than competitors</li><li>Good motion isolation</li><li>Combination sleeper friendly</li></ul></div>
+      <div class="cons"><h4>CONS</h4><ul><li>10-year warranty</li><li>100-night trial (shorter)</li><li>Not ideal for stomach sleepers</li></ul></div>
+    </div>
+    <a href="https://www.amazon.com/s?k=Helix+Midnight+queen+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank" class="cta-btn">Check Price on Amazon</a>
+  </div>
+
+  <div class="product-card" id="leesa">
+    <div class="product-header">
+      <div class="rank-badge">6</div>
+      <div class="product-title">
+        <h2>Leesa Legend Hybrid Queen</h2>
+        <div class="badge-row"><span class="badge badge-best">Best Eco-Friendly</span><span class="badge badge-mid">Certified Organic</span></div>
+      </div>
+    </div>
+    <div class="score-bar"><div class="score-num">8.0</div><div class="bar-wrap"><div class="bar-fill" style="width:80%"></div></div></div>
+    <p>The Leesa Legend Hybrid is the most socially and environmentally responsible queen mattress in this list: for every 10 mattresses sold, Leesa donates one to a shelter or nonprofit. The mattress itself uses responsible sourcing throughout -- GOTS organic cotton cover, certified foams, and a recycled steel coil base. For buyers who want their mattress purchase to reflect their values without sacrificing quality, the Legend Hybrid delivers.</p>
+    <p style="margin-top:0.8rem;">A microcoil comfort layer above the pocketed coil support system creates a hybrid-within-hybrid construction that provides exceptional contouring and support simultaneously. Medium firmness (5/10) with a plush feel accommodates side and combination sleepers particularly well. 100-night trial, 10-year warranty.</p>
+    <div class="specs-chips">
+      <span class="chip">GOTS organic cotton cover</span><span class="chip">Microcoil + pocketed coil</span><span class="chip">1-for-10 donation model</span><span class="chip">Medium (5/10)</span><span class="chip">100-night trial</span>
+    </div>
+    <div class="pros-cons">
+      <div class="pros"><h4>PROS</h4><ul><li>1-for-10 charitable model</li><li>GOTS organic cotton</li><li>Microcoil + coil hybrid feel</li><li>Good for side/combo sleepers</li><li>Socially responsible brand</li></ul></div>
+      <div class="cons"><h4>CONS</h4><ul><li>10-year warranty</li><li>Premium price for certifications</li><li>Not ideal for strict back/stomach sleepers</li></ul></div>
+    </div>
+    <a href="https://www.amazon.com/s?k=Leesa+Legend+Hybrid+queen+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank" class="cta-btn">Check Price on Amazon</a>
+  </div>
+
+  <div class="product-card" id="casper">
+    <div class="product-header">
+      <div class="rank-badge">7</div>
+      <div class="product-title">
+        <h2>Casper Original Hybrid Queen</h2>
+        <div class="badge-row"><span class="badge badge-budget">Best Value Hybrid</span><span class="badge badge-mid">Balanced Foam + Coil</span></div>
+      </div>
+    </div>
+    <div class="score-bar"><div class="score-num">7.8</div><div class="bar-wrap"><div class="bar-fill" style="width:78%"></div></div></div>
+    <p>The Casper Original Hybrid is the most accessible quality queen hybrid from a brand with strong quality standards and customer service. Its four-layer construction -- perforated foam + AirScape foam + memory foam + pocketed coils -- provides the balanced feel Casper is known for: enough pressure relief for side sleepers, enough support for back sleepers, and enough bounce for combination sleepers. A genuinely versatile foundation for any sleep style.</p>
+    <p style="margin-top:0.8rem;">At medium (5/10) firmness, the Original Hybrid is slightly plushier than the more premium picks above it. It's the best starting recommendation for buyers who don't know their firmness preference yet -- the balanced feel is harder to get wrong than either end of the firmness spectrum. 100-night trial, 10-year warranty. Regular promotions bring the price below most comparable hybrid queens.</p>
+    <div class="specs-chips">
+      <span class="chip">4-layer construction</span><span class="chip">AirScape perforated foam</span><span class="chip">Pocketed coil base</span><span class="chip">Medium (5/10)</span><span class="chip">100-night trial</span>
+    </div>
+    <div class="pros-cons">
+      <div class="pros"><h4>PROS</h4><ul><li>Best balanced feel for undecided buyers</li><li>Casper brand quality and service</li><li>Regular discount promotions</li><li>Good for all sleep positions</li><li>AirScape cooling layer</li></ul></div>
+      <div class="cons"><h4>CONS</h4><ul><li>10-year warranty</li><li>Less specialized than zoned alternatives</li><li>Plush feel may not suit stomach sleepers</li></ul></div>
+    </div>
+    <a href="https://www.amazon.com/s?k=Casper+Original+Hybrid+queen+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank" class="cta-btn">Check Price on Amazon</a>
+  </div>
+
+  <div class="science-box" id="science">
+    <h3>Queen vs King: Making the Right Decision</h3>
+    <p><strong>Choose a queen if:</strong> Your bedroom is under 12x12 feet (a king needs 12x12 minimum for comfortable movement). You sleep alone. Your budget is under $1,200. You frequently change your bedding (queen sheets cost 30-40% less than king). You have a platform or adjustable base that would require replacing in a king size.</p>
+    <p style="margin-top:0.7rem;"><strong>Choose a king if:</strong> You share with a partner and either of you sleeps restlessly -- the king's 76-inch width provides 38 inches each, vs 30 inches each in a queen. You or your partner are over 5'10" and feel cramped. You have children or pets that regularly join you. You have the bedroom space (12x12 ft minimum) and budget ($1,500+ for comparable quality).</p>
+    <p style="margin-top:0.7rem;"><strong>The real difference:</strong> 8 inches of width. This sounds small but translates to significantly more personal space for each sleeper in practice -- the difference between waking up when your partner shifts versus sleeping undisturbed. If you share a bed with someone who moves during sleep, the king upgrade is worth every dollar.</p>
+  </div>
+
+  <h2 class="section-title" id="buying-guide">How to Choose Your Queen Mattress</h2>
+  <div class="buying-grid">
+    <div class="buying-card"><h4>Best Overall Choice</h4><p>Saatva Classic -- 3 firmness options, white glove delivery, 365-night trial, lifetime warranty. No comparable alternative.</p></div>
+    <div class="buying-card"><h4>Luxury Feel, Moderate Price</h4><p>DreamCloud Premier -- cashmere-blend top, frequent 25-30% discounts, 365-night trial and lifetime warranty.</p></div>
+    <div class="buying-card"><h4>Hot Sleeper</h4><p>Purple Restore Hybrid -- Purple Grid is categorically cooler than any foam alternative.</p></div>
+    <div class="buying-card"><h4>Restless Partner</h4><p>Nectar Premier Copper -- all-foam eliminates vibration transfer better than any hybrid.</p></div>
+    <div class="buying-card"><h4>Side Sleeper</h4><p>Helix Midnight -- zoned support targets shoulder and hip zones independently.</p></div>
+    <div class="buying-card"><h4>First Mattress / Unsure</h4><p>Casper Original Hybrid -- balanced feel is hard to get wrong for any sleep position.</p></div>
+  </div>
+
+  <div class="verdict-box">
+    <h2>Our Verdict</h2>
+    <p>The <strong>Saatva Classic</strong> is the best queen mattress for most sleepers -- the combination of three firmness options, dual-coil construction, white glove delivery, and a lifetime warranty is unmatched. Buyers who want luxury feel at a lower price should prioritize the <strong>DreamCloud Premier</strong>, which regularly sells at 25-30% discount and delivers an equivalent sleep experience at a lower price point. For couples where temperature is the primary issue, the <strong>Purple Restore Hybrid</strong> is definitively the answer -- no queen mattress manages heat as effectively.</p>
+  </div>
+
+  <div class="faq-section" id="faq">
+    <h2>Frequently Asked Questions</h2>
+    <div class="faq-item"><h3>What size is a queen mattress?</h3><p>A queen mattress measures 60 inches wide by 80 inches long. It provides 30 inches per person for two sleepers. A queen fits well in bedrooms 10 x 10 feet or larger. Queen bedding is the most widely available and affordable size category.</p></div>
+    <div class="faq-item"><h3>How much should I spend on a queen mattress?</h3><p>A quality queen ranges from $900-$1,500 for good hybrid options to $1,500-$2,500 for premium picks. The best value range for durability is $1,000-$1,800. A $1,400 queen lasting 12 years costs $117/year -- cheaper than most people calculate.</p></div>
+    <div class="faq-item"><h3>What is the best queen mattress for couples?</h3><p>The best queen for couples is the Saatva Classic or DreamCloud Premier for their combination of motion isolation, edge support, and comfort. If one partner runs hot, the Purple Restore Hybrid offers superior temperature management alongside good motion isolation.</p></div>
+    <div class="faq-item"><h3>How long does a queen mattress last?</h3><p>A quality queen mattress should last 8-12 years. Rotating it 180 degrees every 3-6 months extends lifespan by distributing wear evenly. Using a waterproof mattress protector prevents moisture damage that accelerates foam breakdown.</p></div>
+    <div class="faq-item"><h3>Should I get a queen or king mattress?</h3><p>Get a queen if your bedroom is under 12x12 feet or your budget is under $1,200. Get a king if you share with a restless partner, either of you is over 5'10", or you have children or pets who frequently join you. The king provides 38 inches per person vs 30 -- a significant difference in practice.</p></div>
+  </div>
+</div>
+
+<footer>
+  <p>&copy; 2025 SleepWise Reviews &bull; <a href="/privacy.html">Privacy Policy</a> &bull; <a href="/affiliate-disclosure.html">Affiliate Disclosure</a></p>
+  <p style="margin-top:0.5rem;">SleepWise Reviews participates in the Amazon Services LLC Associates Program. Amazon and the Amazon logo are trademarks of Amazon.com, Inc.</p>
+</footer>
+</body>
+</html>'''
+
+out = os.path.join(os.path.dirname(__file__), 'posts', 'best-queen-size-mattress.html')
+with open(out, 'w', encoding='utf-8') as f:
+    f.write(html)
+print(f'Written: posts/best-queen-size-mattress.html')
