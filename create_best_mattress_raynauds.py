@@ -1,0 +1,410 @@
+slug = "best-mattress-raynauds"
+out = f"posts/{slug}.html"
+
+html = r"""<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Best Mattress for Raynaud's 2026 — Cold Vasospasm Prevention, Scleroderma Overlap &amp; Warmth Picks</title>
+<meta name="description" content="7 expert-picked mattresses for Raynaud's disease and phenomenon. Covers cold surface vasospasm triggers, scleroderma secondary Raynaud's, digital ulcer pressure relief, temperature management during sleep, and lupus/CTD overlap.">
+<link rel="canonical" href="https://sleepwisereviews.com/posts/best-mattress-raynauds.html">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Best Mattress for Raynaud's 2026",
+  "description": "7 expert-picked mattresses for Raynaud's disease and phenomenon covering cold vasospasm triggers, scleroderma overlap, digital ulcer pressure relief, and temperature management during sleep.",
+  "author": {"@type": "Organization", "name": "SleepWiseReviews"},
+  "publisher": {"@type": "Organization", "name": "SleepWiseReviews", "url": "https://sleepwisereviews.com"},
+  "datePublished": "2026-05-26",
+  "dateModified": "2026-05-26",
+  "mainEntityOfPage": {"@type": "WebPage", "@id": "https://sleepwisereviews.com/posts/best-mattress-raynauds.html"}
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://sleepwisereviews.com/"},
+    {"@type": "ListItem", "position": 2, "name": "Posts", "item": "https://sleepwisereviews.com/posts/index.html"},
+    {"@type": "ListItem", "position": 3, "name": "Best Mattress for Raynaud's", "item": "https://sleepwisereviews.com/posts/best-mattress-raynauds.html"}
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Best Mattresses for Raynaud's 2026",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Purple Restore Plus Hybrid", "url": "https://www.amazon.com/s?k=purple+restore+plus+mattress&tag=sleepwiserevi-20"},
+    {"@type": "ListItem", "position": 2, "name": "Saatva Classic + Adjustable Base", "url": "https://www.amazon.com/s?k=saatva+classic+mattress&tag=sleepwiserevi-20"},
+    {"@type": "ListItem", "position": 3, "name": "Tempur-Adapt", "url": "https://www.amazon.com/s?k=tempur+adapt+mattress&tag=sleepwiserevi-20"},
+    {"@type": "ListItem", "position": 4, "name": "Helix Midnight Luxe", "url": "https://www.amazon.com/s?k=helix+midnight+luxe+mattress&tag=sleepwiserevi-20"},
+    {"@type": "ListItem", "position": 5, "name": "Casper Wave Hybrid", "url": "https://www.amazon.com/s?k=casper+wave+hybrid+mattress&tag=sleepwiserevi-20"},
+    {"@type": "ListItem", "position": 6, "name": "Nectar Premier Hybrid", "url": "https://www.amazon.com/s?k=nectar+premier+hybrid+mattress&tag=sleepwiserevi-20"},
+    {"@type": "ListItem", "position": 7, "name": "Avocado Green Mattress", "url": "https://www.amazon.com/s?k=avocado+green+mattress&tag=sleepwiserevi-20"}
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Can a cold mattress trigger Raynaud's attacks during sleep?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Yes. Cold surfaces are a primary vasospasm trigger in Raynaud's. A cold mattress surface in contact with fingers, toes, or other extremities during sleep can initiate the exaggerated sympathetic vasoconstriction that causes Raynaud's attacks. Mattresses that retain or conduct heat (memory foam, phase-change covers) reduce the cold surface trigger, while open-cell grid mattresses may require additional bedding layers to maintain warmth at the contact surface."}
+    },
+    {
+      "@type": "Question",
+      "name": "What is the best sleeping position for Raynaud's?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Sleeping with extremities close to the body core (avoiding extended limb positions that allow extremities to cool) helps prevent Raynaud's attacks during sleep. Avoid sleeping with arms extended overhead or legs hanging off the mattress edge, as peripheral cooling is rapid in these positions. Keeping hands and feet under warm blankets and using bed socks is often more effective than mattress choice alone."}
+    },
+    {
+      "@type": "Question",
+      "name": "How does scleroderma-associated Raynaud's affect mattress needs?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Scleroderma (systemic sclerosis) causes Raynaud's in 95% of cases plus additional complications: skin thickening that makes pressure painful, GI dysmotility requiring lateral sleeping, digital ulcers requiring pressure-free finger positioning, pulmonary hypertension that may require head elevation, and extreme chemical sensitivity from systemic inflammation. These combined needs require a mattress with pressure relief, chemical safety, and adjustable-base compatibility."}
+    },
+    {
+      "@type": "Question",
+      "name": "Should someone with Raynaud's sleep on a heating mattress pad?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Heated mattress pads can help prevent cold-triggered Raynaud's attacks but carry risks: electric heating elements can malfunction; direct heat application to skin with compromised circulation (especially in secondary Raynaud's) can cause burns that the patient cannot feel if there is concurrent neuropathy. Consult your rheumatologist before using heated bedding, particularly if you have scleroderma-associated Raynaud's with digital ulcers or concurrent neuropathy."}
+    },
+    {
+      "@type": "Question",
+      "name": "What bedding works best with Raynaud's disease?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Wool or down duvets with high tog ratings (13.5 tog or higher for winter) trap body heat around the extremities better than synthetic fills. Merino wool bed socks maintain foot temperature without overheating the core. Lightweight liner gloves can be worn during sleep to maintain finger temperature. The mattress base should retain rather than dissipate heat in Raynaud's, making memory foam a better base than open-grid designs in cold climates."}
+    }
+  ]
+}
+</script>
+<style>
+:root{--bg:#0a1628;--card:#111e33;--gold:#c9a84c;--text:#e2e8f0;--muted:#94a3b8;--red:#dc2626}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:'Segoe UI',sans-serif;line-height:1.7}
+header{background:linear-gradient(135deg,#0a1628 0%,#1a2f4e 100%);padding:2rem 1rem;text-align:center;border-bottom:2px solid var(--gold)}
+header h1{font-size:clamp(1.4rem,4vw,2rem);color:#fff;margin-bottom:.5rem}
+header p{color:var(--muted);font-size:.95rem}
+nav{background:#0d1f3a;padding:.75rem 1rem;text-align:center;font-size:.85rem}
+nav a{color:var(--gold);text-decoration:none;margin:0 .5rem}
+.container{max-width:900px;margin:0 auto;padding:2rem 1rem}
+.intro{background:var(--card);border-left:4px solid var(--gold);padding:1.25rem 1.5rem;border-radius:8px;margin-bottom:2rem}
+.pick-card{background:var(--card);border-radius:10px;padding:1.5rem;margin-bottom:1.5rem;border:1px solid #1e3a5f}
+.pick-header{display:flex;align-items:center;gap:1rem;margin-bottom:1rem}
+.pick-num{background:var(--gold);color:#0a1628;font-weight:700;font-size:1.1rem;width:2.2rem;height:2.2rem;border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.pick-title{font-size:1.15rem;font-weight:700;color:#fff}
+.pick-sub{font-size:.8rem;color:var(--gold);margin-top:.1rem}
+.pick-body p{color:var(--muted);margin-bottom:.75rem;font-size:.95rem}
+.pick-body ul{color:var(--muted);padding-left:1.25rem;font-size:.95rem}
+.pick-body li{margin-bottom:.35rem}
+.cta-btn{display:inline-block;background:var(--gold);color:#0a1628;font-weight:700;padding:.55rem 1.25rem;border-radius:6px;text-decoration:none;font-size:.9rem;margin-top:.75rem}
+.cta-btn:hover{opacity:.88}
+.science-box{background:#0d1f3a;border:1px solid #1e3a5f;border-left:4px solid var(--gold);border-radius:8px;padding:1.25rem 1.5rem;margin:2rem 0}
+.science-box h2{color:var(--gold);margin-bottom:.75rem;font-size:1.05rem}
+.science-box ul{padding-left:1.25rem;color:var(--muted);font-size:.9rem}
+.science-box li{margin-bottom:.4rem}
+.note-box{background:#1a2f0a;border:1px solid #2d5a0a;border-radius:8px;padding:1rem 1.25rem;margin:1.5rem 0;font-size:.9rem;color:#a3c47a}
+table{width:100%;border-collapse:collapse;margin:1.5rem 0;font-size:.88rem}
+th{background:#1e3a5f;color:var(--gold);padding:.6rem .75rem;text-align:left}
+td{padding:.55rem .75rem;border-bottom:1px solid #1e3a5f;color:var(--muted)}
+tr:hover td{background:#0d1f3a}
+h2.section-title{color:var(--gold);font-size:1.15rem;margin:2rem 0 1rem;border-bottom:1px solid #1e3a5f;padding-bottom:.4rem}
+.related-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:1rem;margin-top:1rem}
+.related-card{background:var(--card);border:1px solid #1e3a5f;border-radius:8px;padding:1rem;text-decoration:none;color:var(--text);transition:.2s}
+.related-card:hover{border-color:var(--gold)}
+.related-card h3{font-size:.95rem;margin-bottom:.3rem;color:#fff}
+.related-card p{font-size:.82rem;color:var(--muted)}
+footer{text-align:center;padding:2rem 1rem;background:#060e1a;color:var(--muted);font-size:.82rem;border-top:1px solid #1e3a5f;margin-top:3rem}
+footer a{color:var(--gold);text-decoration:none}
+.badge{display:inline-block;padding:.2rem .6rem;border-radius:4px;font-size:.75rem;font-weight:600;margin-bottom:.5rem}
+.badge-health{background:var(--red);color:#fff}
+</style>
+</head>
+<body>
+<header>
+  <p><a href="../index.html" style="color:var(--gold);text-decoration:none">SleepWiseReviews</a></p>
+  <span class="badge badge-health">Health Conditions</span>
+  <h1>Best Mattress for Raynaud's Disease 2026</h1>
+  <p>7 picks for cold vasospasm prevention, scleroderma overlap, digital ulcer pressure relief &amp; nighttime temperature management</p>
+</header>
+<nav>
+  <a href="../index.html">Home</a> &rsaquo;
+  <a href="index.html">All Posts</a> &rsaquo;
+  Best Mattress for Raynaud's
+</nav>
+<div class="container">
+
+<div class="intro">
+  <p><strong>The Raynaud's sleep trigger:</strong> Cold is the primary vasospasm trigger in Raynaud's phenomenon. During sleep, skin temperature at the extremities drops by 2&ndash;4&deg;C in the first hour as core body temperature falls and peripheral circulation reduces. A cold mattress surface in direct contact with fingers and toes provides exactly the temperature stimulus that initiates the exaggerated sympathetic vasoconstriction cascade &mdash; white fingers, blue fingers, red-flush return &mdash; disrupting sleep and causing pain. The mattress choice is therefore a temperature management decision, not primarily a comfort or support decision.</p>
+</div>
+
+<div class="science-box">
+  <h2>Clinical Context &mdash; Raynaud's Phenomenon &amp; Sleep</h2>
+  <ul>
+    <li><strong>Prevalence:</strong> Primary Raynaud's affects 5&ndash;10% of the general population; secondary Raynaud's affects 95% of scleroderma patients, 35% of lupus patients, and 30% of Sjogren's syndrome patients</li>
+    <li><strong>Vasospasm mechanism:</strong> Exaggerated alpha-2 adrenergic receptor response to cold or stress causes digital artery smooth muscle contraction &mdash; triphasic color change (pallor/cyanosis/erythema) lasting minutes to hours</li>
+    <li><strong>Nocturnal pattern:</strong> Raynaud's attacks are more frequent in the early sleep period (first 1&ndash;2 hours) when ambient and surface temperature drops fastest; core body temperature nadir (around 3&ndash;4 AM) is associated with reduced attacks as vasodilation occurs</li>
+    <li><strong>Scleroderma (systemic sclerosis) overlap:</strong> 95% Raynaud's prevalence; digital ulcers in 50% of patients; skin tightening (sclerodactyly) makes pressure on fingers painful; pulmonary hypertension in 15% requires head elevation; GI dysmotility in 90%</li>
+    <li><strong>Digital ulcers:</strong> Ischemic ulcers at fingertips occur in severe secondary Raynaud's; any contact pressure on active ulcers causes severe pain; healing ulcers are extremely pressure-sensitive</li>
+    <li><strong>Treatment:</strong> Calcium channel blockers (nifedipine, amlodipine) are first-line; PDE5 inhibitors (sildenafil) for severe cases; sympathetic nervous system blockers. Temperature avoidance remains a cornerstone of non-pharmacological management</li>
+    <li><strong>Sleep disruption:</strong> 60&ndash;75% of secondary Raynaud's patients (particularly scleroderma) report sleep disruption; primary Raynaud's less severe but cold-triggered nocturnal attacks still common</li>
+  </ul>
+</div>
+
+<h2 class="section-title">The 7 Best Mattresses for Raynaud's</h2>
+
+<div class="pick-card">
+  <div class="pick-header">
+    <div class="pick-num">1</div>
+    <div>
+      <div class="pick-title">Purple Restore Plus Hybrid</div>
+      <div class="pick-sub">Best Overall for Raynaud's &mdash; Temperature-Neutral Grid Prevents Cold Surface Trigger</div>
+    </div>
+  </div>
+  <div class="pick-body">
+    <p>The fundamental challenge for Raynaud's is the cold surface trigger. Purple's polymer grid works differently from both memory foam and coil systems: rather than absorbing and retaining body heat (foam) or conducting it away (open coil), the grid maintains a stable microclimate at the contact surface. Body heat warms the grid cells in contact with the skin, creating localized warmth retention around fingers and extremities without systemic overheating. The grid's thousands of independent cells also prevent the "cold pocket" formation that occurs on open-coil mattresses where unoccupied grid areas remain cold during the night.</p>
+    <ul>
+      <li>Grid cells retain localized body heat at extremity contact points &mdash; reduces cold surface trigger</li>
+      <li>No "cold pocket" zones unlike open-coil construction &mdash; consistent temperature across entire surface</li>
+      <li>Pressure-neutral surface: no concentrated contact at digital ulcer-prone fingertips</li>
+      <li>Responsive grid allows easy position changes without cold-exposure of uncovered skin</li>
+      <li>Chemical neutrality avoids triggers for scleroderma patients with systemic chemical sensitivity</li>
+    </ul>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=purple+restore+plus+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+</div>
+
+<div class="pick-card">
+  <div class="pick-header">
+    <div class="pick-num">2</div>
+    <div>
+      <div class="pick-title">Saatva Classic + Adjustable Base</div>
+      <div class="pick-sub">Best for Scleroderma-Associated Raynaud's &mdash; Zero-Gravity + Pulmonary Hypertension Support</div>
+    </div>
+  </div>
+  <div class="pick-body">
+    <p>Scleroderma-associated secondary Raynaud's comes with a cluster of additional complications that a mattress must address simultaneously. Pulmonary hypertension (affecting 15% of scleroderma patients) requires head elevation to reduce dyspnea in lying position. GI dysmotility and GERD (90% of scleroderma) also benefit from head elevation. Digital ulcers require that no pressure be applied to fingertip contact points. Skin tightening (sclerodactyly) makes any concentrated surface pressure painful. Saatva's adjustable-base compatibility addresses the elevation need while its Euro pillow-top distributes surface pressure broadly enough to avoid painful concentration on thickened skin.</p>
+    <ul>
+      <li>Adjustable base head elevation addresses scleroderma pulmonary hypertension dyspnea</li>
+      <li>Head elevation reduces GERD/regurgitation from scleroderma GI dysmotility during sleep</li>
+      <li>Euro pillow-top distributes pressure broadly &mdash; reduces painful contact on sclerodactyly-thickened skin</li>
+      <li>Lumbar crown maintains spinal alignment at elevation without sclerodactyly skin friction</li>
+      <li>White-glove delivery removes the handling stress that can trigger Raynaud's attacks in anxious patients</li>
+    </ul>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=saatva+classic+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+</div>
+
+<div class="pick-card">
+  <div class="pick-header">
+    <div class="pick-num">3</div>
+    <div>
+      <div class="pick-title">Tempur-Adapt</div>
+      <div class="pick-sub">Best for Digital Ulcers &mdash; Zero Interface Pressure at Fingertip Contact Points</div>
+    </div>
+  </div>
+  <div class="pick-body">
+    <p>Digital ulcers &mdash; ischemic wounds at fingertips in severe secondary Raynaud's &mdash; are exquisitely pressure-sensitive. Any contact pressure on an active digital ulcer during sleep causes pain intense enough to wake the patient. TEMPUR material's viscoelastic properties distribute weight across the widest possible surface area, reducing interface pressure at fingertip contact points to the minimum physically achievable. The material warms and softens around the contact area, conforming to the irregular surface of finger anatomy rather than pressing against it. Heat retention also prevents the cold surface trigger that causes vasospasm and reduces blood flow to already ischemic ulcers.</p>
+    <ul>
+      <li>Maximum surface area pressure distribution &mdash; minimizes contact pressure at active digital ulcer sites</li>
+      <li>Viscoelastic warming softens around finger anatomy &mdash; no hard pressure points against ulcerated tips</li>
+      <li>Heat retention reduces cold surface trigger &mdash; prevents vasospasm that compromises ulcer blood supply</li>
+      <li>Temperature-sensitive conforming provides custom fit to individual finger contour changes from sclerodactyly</li>
+      <li>Deep pressure properties reduce pain sensitization around chronic digital ulcer wound sites</li>
+    </ul>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=tempur+adapt+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+</div>
+
+<div class="pick-card">
+  <div class="pick-header">
+    <div class="pick-num">4</div>
+    <div>
+      <div class="pick-title">Helix Midnight Luxe</div>
+      <div class="pick-sub">Best for Couples with Temperature Mismatch &mdash; Split King for Raynaud's vs. Hot Sleeper</div>
+    </div>
+  </div>
+  <div class="pick-body">
+    <p>Raynaud's patients need warmth retention at the sleep surface; their partners often have opposite needs and sleep hot. This creates a fundamental conflict that standard double mattresses cannot resolve. Helix Midnight Luxe's split king configuration allows each side to be independently adjusted &mdash; the Raynaud's patient can use a memory foam topper or warm bedding on their side while the partner sleeps with cooling options on theirs. The TENCEL temperature-regulating cover provides the baseline while allowing each side to be customized for individual thermal needs without affecting the other.</p>
+    <ul>
+      <li>Split king: completely independent thermal environments for each sleeper</li>
+      <li>Raynaud's patient side can use warm topper; partner uses cooling without compromise</li>
+      <li>TENCEL cover provides temperature-neutral baseline for customization on both sides</li>
+      <li>Reinforced perimeter for safe bed entry/exit even when warming arthritic or scleroderma-affected joints</li>
+      <li>Zoned coil system provides support independent of the thermal modifications applied on each side</li>
+    </ul>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=helix+midnight+luxe+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+</div>
+
+<div class="pick-card">
+  <div class="pick-header">
+    <div class="pick-num">5</div>
+    <div>
+      <div class="pick-title">Casper Wave Hybrid</div>
+      <div class="pick-sub">Best for Lupus + Raynaud's &mdash; Zoned Support for Joint Pain &amp; Vasospasm Combination</div>
+    </div>
+  </div>
+  <div class="pick-body">
+    <p>Lupus causes Raynaud's in 35% of patients alongside lupus arthritis (affecting 90%), skin photosensitivity, and fatigue. The combination of Raynaud's vasospasm and lupus arthralgia creates conflicting mattress needs: warmth retention at extremities (Raynaud's) and pressure relief at inflamed joints (lupus arthritis). Casper Wave's 7-zone ergonomic system provides pressure relief at the hip and shoulder zones that bear lupus arthritis load, while the firmness of the lumbar zone supports spinal alignment without the cold conduction of an open-coil design. The hybrid construction retains more surface heat than a pure coil mattress while maintaining the joint-relief zoning.</p>
+    <ul>
+      <li>Zone 5 hip and zone 2 shoulder pressure relief addresses lupus arthritis joint pain</li>
+      <li>Hybrid foam base retains more surface heat than open-coil &mdash; reduces cold surface trigger</li>
+      <li>Zone 3 lumbar firmness maintains spinal alignment without cold-conducting coil contact zones</li>
+      <li>Adaptable for both side and back sleeping as lupus joint location changes</li>
+      <li>Responsive hybrid allows position changes without significant cold-air exposure on uncovered surfaces</li>
+    </ul>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=casper+wave+hybrid+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+</div>
+
+<div class="pick-card">
+  <div class="pick-header">
+    <div class="pick-num">6</div>
+    <div>
+      <div class="pick-title">Nectar Premier Hybrid</div>
+      <div class="pick-sub">Best for Primary Raynaud's &mdash; Memory Foam Heat Retention + 365-Night Trial</div>
+    </div>
+  </div>
+  <div class="pick-body">
+    <p>Primary Raynaud's (no underlying autoimmune disease) has simpler needs: prevent the cold surface trigger, manage comfort, and allow for seasonal variation in attack frequency (Raynaud's is typically worse in winter). Nectar Premier's gel-infused memory foam base retains body heat at the sleep surface, maintaining the extremity warmth that prevents vasospasm during early sleep. The gel infusion prevents the excessive heat trapping that can make pure memory foam uncomfortable in warmer seasons. The 365-night trial covers a complete seasonal cycle &mdash; important because Raynaud's severity is highly seasonal and the mattress should be assessed across both winter (high attack risk) and summer (lower risk).</p>
+    <ul>
+      <li>Gel-infused memory foam retains body heat at sleep surface &mdash; prevents cold-surface vasospasm trigger</li>
+      <li>Gel infusion prevents overheating in warmer months when Raynaud's attacks are less frequent</li>
+      <li>365-night trial covers a full seasonal cycle for genuine Raynaud's severity assessment</li>
+      <li>Phase-change cover maintains a warm-but-not-hot surface temperature in the 68&ndash;72&deg;F optimal zone</li>
+      <li>Lifetime warranty matches the long-term nature of primary Raynaud's management</li>
+    </ul>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=nectar+premier+hybrid+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+</div>
+
+<div class="pick-card">
+  <div class="pick-header">
+    <div class="pick-num">7</div>
+    <div>
+      <div class="pick-title">Avocado Green Mattress</div>
+      <div class="pick-sub">Best for Scleroderma Chemical Sensitivity &mdash; Zero Off-Gassing + Organic Warmth</div>
+    </div>
+  </div>
+  <div class="pick-body">
+    <p>Scleroderma patients with secondary Raynaud's frequently develop multi-system chemical sensitivity from systemic inflammation. VOC off-gassing from synthetic mattress foams can trigger respiratory symptoms, skin reactions, and systemic flares in scleroderma. Avocado Green's GOLS-certified organic latex, GOTS wool, and Greenguard Gold certification provide a chemical-free sleep surface. The organic wool batting is a natural insulator that maintains body warmth at the sleep surface &mdash; GOTS wool has significantly better heat retention than synthetic fills &mdash; providing the warmth layer that prevents cold-surface vasospasm without any chemical exposure risk.</p>
+    <ul>
+      <li>Zero VOC off-gassing &mdash; GOLS/GOTS/Greenguard Gold certified for scleroderma chemical sensitivity</li>
+      <li>GOTS organic wool batting provides natural insulation &mdash; maintains extremity warmth at sleep surface</li>
+      <li>Wool's natural lanolin content provides moisture management &mdash; relevant for scleroderma skin</li>
+      <li>Firm natural latex avoids the pooled cold zones that form between coils in innerspring mattresses</li>
+      <li>Natural antimicrobial properties relevant for patients with digital ulcer wound care near sleep surface</li>
+    </ul>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=avocado+green+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+</div>
+
+<h2 class="section-title">Raynaud's Type &amp; Sleep Priority Table</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Type / Situation</th>
+      <th>Underlying Condition</th>
+      <th>Primary Sleep Concern</th>
+      <th>Mattress Priority</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Primary Raynaud's</td>
+      <td>None (idiopathic)</td>
+      <td>Cold surface trigger, seasonal attacks</td>
+      <td>Heat retention, long trial</td>
+    </tr>
+    <tr>
+      <td>Scleroderma (SSc)</td>
+      <td>Systemic sclerosis</td>
+      <td>Digital ulcers, PH, GI dysmotility, chemical sensitivity</td>
+      <td>Pressure relief + adjustable + chemical-free</td>
+    </tr>
+    <tr>
+      <td>Lupus (SLE)</td>
+      <td>Systemic lupus erythematosus</td>
+      <td>Joint pain + cold vasospasm combination</td>
+      <td>Zoned pressure relief + heat retention</td>
+    </tr>
+    <tr>
+      <td>Mixed CTD / Sjogren's</td>
+      <td>Mixed connective tissue disease</td>
+      <td>Multiple symptoms, dryness, fatigue</td>
+      <td>Balanced pressure relief + warmth</td>
+    </tr>
+    <tr>
+      <td>Couples (temperature mismatch)</td>
+      <td>Primary or secondary</td>
+      <td>Cold vs. hot sleeper conflict</td>
+      <td>Split king independent thermal zones</td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="note-box">
+  <strong>Bedding Strategy for Raynaud's:</strong> The mattress base creates the thermal floor &mdash; bedding layering above it is equally important. Merino wool or down-filled duvets (13.5+ tog rating for cold climates) trap body heat around extremities. Bed socks made from merino wool prevent foot vasospasm without overheating the core. Lightweight liner gloves can reduce finger attack frequency during sleep onset. Consider these as a system with the mattress, not independent interventions.
+</div>
+
+<h2 class="section-title">Frequently Asked Questions</h2>
+
+<h3 style="color:#fff;margin-bottom:.5rem">Can a cold mattress trigger Raynaud's attacks during sleep?</h3>
+<p style="color:var(--muted);margin-bottom:1.25rem">Yes. Cold surfaces are a primary vasospasm trigger in Raynaud's. A cold mattress surface in contact with fingers or toes during sleep can initiate the exaggerated sympathetic vasoconstriction that causes Raynaud's attacks. Mattresses that retain heat (memory foam) reduce this trigger, while open-coil designs may require additional bedding layers to maintain warmth at the contact surface.</p>
+
+<h3 style="color:#fff;margin-bottom:.5rem">What is the best sleeping position for Raynaud's?</h3>
+<p style="color:var(--muted);margin-bottom:1.25rem">Sleeping with extremities close to the body core helps prevent Raynaud's attacks. Avoid extended limb positions that allow extremities to cool rapidly. Keeping hands and feet under warm blankets and using bed socks is often as effective as mattress choice alone for primary Raynaud's.</p>
+
+<h3 style="color:#fff;margin-bottom:.5rem">How does scleroderma-associated Raynaud's affect mattress needs?</h3>
+<p style="color:var(--muted);margin-bottom:1.25rem">Scleroderma causes Raynaud's in 95% of cases plus skin thickening, digital ulcers, GI dysmotility, and often pulmonary hypertension. These combined needs require a mattress with pressure relief at ulcer sites, adjustable-base compatibility for head elevation, and zero chemical off-gassing for chemically sensitive patients.</p>
+
+<h3 style="color:#fff;margin-bottom:.5rem">Should someone with Raynaud's sleep on a heating mattress pad?</h3>
+<p style="color:var(--muted);margin-bottom:1.25rem">Heated mattress pads can help prevent cold-triggered attacks but carry risks: direct heat application to skin with compromised circulation can cause burns that the patient cannot feel, especially if there is concurrent neuropathy. Consult your rheumatologist before using heated bedding, particularly if you have scleroderma-associated Raynaud's with digital ulcers.</p>
+
+<h3 style="color:#fff;margin-bottom:.5rem">What bedding works best with Raynaud's disease?</h3>
+<p style="color:var(--muted);margin-bottom:1.25rem">Wool or down duvets with high tog ratings (13.5 tog or higher for winter) trap body heat around extremities better than synthetic fills. Merino wool bed socks maintain foot temperature without overheating the core. The mattress base should retain rather than dissipate heat in Raynaud's, making memory foam a better base than open-grid designs in cold climates.</p>
+
+<h2 class="section-title">Related Guides</h2>
+<div class="related-grid">
+  <a class="related-card" href="best-mattress-lupus.html">
+    <h3>Best Mattress for Lupus</h3>
+    <p>Joint pain, photosensitivity, steroid use and fatigue-related sleep</p>
+  </a>
+  <a class="related-card" href="best-mattress-ankylosing-spondylitis.html">
+    <h3>Best Mattress for Ankylosing Spondylitis</h3>
+    <p>Spinal fusion, sacroiliac inflammation and inflammatory arthritis sleep</p>
+  </a>
+  <a class="related-card" href="best-mattress-arthritis.html">
+    <h3>Best Mattress for Arthritis</h3>
+    <p>Joint pressure relief, morning stiffness and anti-inflammatory positioning</p>
+  </a>
+  <a class="related-card" href="best-mattress-neuropathy.html">
+    <h3>Best Mattress for Neuropathy</h3>
+    <p>Peripheral nerve pain, burning extremities and pressure-free surfaces</p>
+  </a>
+  <a class="related-card" href="best-mattress-mcas.html">
+    <h3>Best Mattress for MCAS</h3>
+    <p>Chemical triggers, temperature instability and mast cell sleep disruption</p>
+  </a>
+  <a class="related-card" href="best-mattress-fibromyalgia.html">
+    <h3>Best Mattress for Fibromyalgia</h3>
+    <p>Widespread pain, pressure sensitivity and restorative sleep</p>
+  </a>
+</div>
+
+</div>
+<footer>
+  <p>&copy; 2026 SleepWiseReviews &mdash; <a href="../about.html">About</a> &mdash; <a href="../privacy.html">Privacy Policy</a> &mdash; <a href="../affiliate-disclosure.html">Affiliate Disclosure</a></p>
+  <p style="margin-top:.5rem">Affiliate links on this page may earn us a commission at no extra cost to you.</p>
+</footer>
+</body>
+</html>"""
+
+with open(out, "w", encoding="utf-8") as f:
+    f.write(html)
+print(f"Generated {out}")
