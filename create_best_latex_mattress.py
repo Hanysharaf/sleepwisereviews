@@ -1,4 +1,7 @@
-<!DOCTYPE html>
+"""Generate posts/best-latex-mattress.html"""
+import os
+
+html = '''<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -64,7 +67,7 @@
           {
             "@type": "Question",
             "name": "Is a latex mattress good for back pain?",
-            "acceptedAnswer": {"@type": "Answer", "text": "Yes. Natural latex provides excellent pressure relief while maintaining enough support to keep the spine aligned. Unlike memory foam, latex responds immediately to movement and doesn't create the "stuck" feeling that can exacerbate pain during repositioning. Most back pain sufferers do best with a medium-firm latex mattress that contours without excessive sinkage."}
+            "acceptedAnswer": {"@type": "Answer", "text": "Yes. Natural latex provides excellent pressure relief while maintaining enough support to keep the spine aligned. Unlike memory foam, latex responds immediately to movement and doesn't create the \"stuck\" feeling that can exacerbate pain during repositioning. Most back pain sufferers do best with a medium-firm latex mattress that contours without excessive sinkage."}
           },
           {
             "@type": "Question",
@@ -674,4 +677,9 @@
 </footer>
 
 </body>
-</html>
+</html>'''
+
+out = os.path.join(os.path.dirname(__file__), 'posts', 'best-latex-mattress.html')
+with open(out, 'w', encoding='utf-8') as f:
+    f.write(html)
+print(f'Written: posts/best-latex-mattress.html')
