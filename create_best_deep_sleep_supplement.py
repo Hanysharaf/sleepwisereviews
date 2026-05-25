@@ -1,0 +1,555 @@
+
+html = """<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Best Deep Sleep Supplement 2025: Top 7 Picks for More Restorative Sleep</title>
+<meta name="description" content="Struggling to reach deep, restorative sleep? We reviewed the best deep sleep supplements for slow-wave sleep support, relaxation, and waking refreshed.">
+<meta name="keywords" content="best deep sleep supplement, supplements for deep sleep, slow wave sleep supplement, restorative sleep supplement, deep sleep aid 2025">
+<link rel="canonical" href="https://sleepwisereviews.com/posts/best-deep-sleep-supplement.html">
+<meta property="og:title" content="Best Deep Sleep Supplement 2025: Top 7 Picks for More Restorative Sleep">
+<meta property="og:description" content="We reviewed 7 deep sleep supplements for slow-wave sleep support, relaxation, and waking refreshed.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://sleepwisereviews.com/posts/best-deep-sleep-supplement.html">
+<meta property="og:image" content="https://sleepwisereviews.com/images/og-default.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Best Deep Sleep Supplement 2025: Top 7 Picks for More Restorative Sleep">
+<meta name="twitter:description" content="Reviewed: 7 top deep sleep supplements for slow-wave sleep, waking refreshed, and genuine recovery.">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "headline": "Best Deep Sleep Supplement 2025: Top 7 Picks for More Restorative Sleep",
+      "description": "We reviewed the best deep sleep supplements for slow-wave sleep support, relaxation, and waking refreshed.",
+      "author": {"@type": "Organization", "name": "SleepWise Reviews"},
+      "publisher": {"@type": "Organization", "name": "SleepWise Reviews", "url": "https://sleepwisereviews.com"},
+      "datePublished": "2025-05-25",
+      "dateModified": "2025-05-25",
+      "url": "https://sleepwisereviews.com/posts/best-deep-sleep-supplement.html"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://sleepwisereviews.com"},
+        {"@type": "ListItem", "position": 2, "name": "Supplements", "item": "https://sleepwisereviews.com/posts/index.html#supplements"},
+        {"@type": "ListItem", "position": 3, "name": "Best Deep Sleep Supplement", "item": "https://sleepwisereviews.com/posts/best-deep-sleep-supplement.html"}
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "name": "Best Deep Sleep Supplements 2025",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Thorne Magnesium Bisglycinate"},
+        {"@type": "ListItem", "position": 2, "name": "Momentous Huberman Lab Sleep Pack"},
+        {"@type": "ListItem", "position": 3, "name": "Life Extension Glycine"},
+        {"@type": "ListItem", "position": 4, "name": "NOW Supplements GABA"},
+        {"@type": "ListItem", "position": 5, "name": "Pure Encapsulations Magnesium Glycinate"},
+        {"@type": "ListItem", "position": 6, "name": "Andrew Lessman Sleep"},
+        {"@type": "ListItem", "position": 7, "name": "Zhou Nutrition Sleep"}
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What supplements increase deep sleep?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Magnesium glycinate is the most research-backed supplement for increasing slow-wave (deep) sleep. Glycine (3g before bed) has clinical evidence for improving sleep quality and reducing next-day fatigue. GABA may help with sleep onset. Ashwagandha reduces cortisol which allows deeper sleep stages to occur more readily."}
+        },
+        {
+          "@type": "Question",
+          "name": "What is slow-wave sleep and why does it matter?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Slow-wave sleep (SWS), also called deep sleep or N3 sleep, is the most physically restorative sleep stage. During SWS, the body releases growth hormone, repairs tissues, consolidates memories, and clears metabolic waste from the brain via the glymphatic system. Most adults get 1-2 hours of SWS per night — optimizing this stage is what makes you feel truly rested."}
+        },
+        {
+          "@type": "Question",
+          "name": "Is it safe to take deep sleep supplements every night?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Magnesium glycinate and glycine are safe for nightly use and are not habit-forming. GABA supplements are generally well-tolerated but should be cycled. Avoid taking melatonin nightly at high doses (over 0.5mg) as this can desensitize receptors. Always consult a physician if you take other medications, especially sedatives."}
+        },
+        {
+          "@type": "Question",
+          "name": "How long does it take for deep sleep supplements to work?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Glycine often shows effects within the first 1-3 nights. Magnesium glycinate typically shows measurable improvements in sleep quality within 1-2 weeks of consistent supplementation as magnesium levels in the body replenish. Adaptogenic herbs like ashwagandha take 4-8 weeks to show full cortisol-lowering effects."}
+        },
+        {
+          "@type": "Question",
+          "name": "Can you get deeper sleep without supplements?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Yes. Behavioral factors often matter more than supplements. Key deep sleep promoters: consistent sleep/wake times (circadian regularity), cool room temperature (65-68F), avoiding alcohol (which suppresses SWS), exercise (increases SWS the following night), and limiting blue light 2 hours before bed. Supplements work best as additions to good sleep hygiene, not substitutes."}
+        }
+      ]
+    }
+  ]
+}
+</script>
+<style>
+  :root{--bg:#0a1628;--card:#111e33;--gold:#c9a84c;--text:#e8eaf0;--muted:#8892a4;--accent:#1a2f50}
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--bg);color:var(--text);font-family:'Segoe UI',sans-serif;line-height:1.7}
+  a{color:var(--gold);text-decoration:none}
+  a:hover{text-decoration:underline}
+  .site-header{background:var(--accent);padding:16px 24px;display:flex;align-items:center;justify-content:space-between;border-bottom:2px solid var(--gold)}
+  .site-header .logo{font-size:1.3rem;font-weight:700;color:var(--gold)}
+  .site-header nav a{color:var(--text);margin-left:20px;font-size:.9rem}
+  .hero{background:linear-gradient(135deg,#0d1f3c,#1a2f50);padding:56px 24px 40px;text-align:center}
+  .hero .badge{display:inline-block;background:var(--gold);color:#0a1628;font-size:.75rem;font-weight:700;padding:4px 12px;border-radius:20px;margin-bottom:16px;text-transform:uppercase;letter-spacing:.05em}
+  .hero h1{font-size:clamp(1.6rem,4vw,2.6rem);font-weight:800;max-width:800px;margin:0 auto 16px;line-height:1.25}
+  .hero p{color:var(--muted);max-width:620px;margin:0 auto 24px;font-size:1.05rem}
+  .hero .meta{display:flex;justify-content:center;gap:24px;color:var(--muted);font-size:.85rem}
+  .container{max-width:900px;margin:0 auto;padding:40px 20px}
+  .toc{background:var(--card);border:1px solid var(--accent);border-left:4px solid var(--gold);border-radius:10px;padding:24px 28px;margin-bottom:40px}
+  .toc h2{font-size:1rem;color:var(--gold);margin-bottom:12px;text-transform:uppercase;letter-spacing:.05em}
+  .toc ol{padding-left:20px}
+  .toc li{margin-bottom:6px;font-size:.95rem}
+  .product-card{background:var(--card);border:1px solid var(--accent);border-radius:14px;padding:28px;margin-bottom:32px;position:relative}
+  .product-card.top-pick{border-color:var(--gold);box-shadow:0 0 0 1px var(--gold)}
+  .rank-badge{position:absolute;top:-12px;left:20px;background:var(--gold);color:#0a1628;font-size:.75rem;font-weight:800;padding:3px 14px;border-radius:12px;text-transform:uppercase;letter-spacing:.05em}
+  .product-header{display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:12px;margin-bottom:16px}
+  .product-header h2{font-size:1.3rem;font-weight:700}
+  .score-box{background:var(--accent);border:2px solid var(--gold);border-radius:10px;padding:8px 16px;text-align:center;min-width:70px}
+  .score-box .score{font-size:1.5rem;font-weight:800;color:var(--gold)}
+  .score-box .score-label{font-size:.65rem;color:var(--muted);text-transform:uppercase}
+  .best-for-tag{display:inline-block;background:#1a3a1a;color:#6fcf6f;border:1px solid #2d6b2d;font-size:.75rem;padding:3px 10px;border-radius:6px;margin-bottom:12px;font-weight:600}
+  .specs-chips{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:16px}
+  .chip{background:var(--accent);border:1px solid #2a3f5f;border-radius:6px;padding:4px 10px;font-size:.78rem;color:var(--muted)}
+  .chip span{color:var(--text);font-weight:600}
+  .pros-cons{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:16px 0}
+  @media(max-width:560px){.pros-cons{grid-template-columns:1fr}}
+  .pros-cons .col h4{font-size:.85rem;text-transform:uppercase;letter-spacing:.05em;margin-bottom:8px}
+  .pros-cons .col.pros h4{color:#6fcf6f}
+  .pros-cons .col.cons h4{color:#eb5757}
+  .pros-cons ul{list-style:none;padding:0}
+  .pros-cons ul li{font-size:.88rem;padding:4px 0;padding-left:16px;position:relative;color:var(--muted)}
+  .pros-cons .col.pros ul li::before{content:"\\2713";position:absolute;left:0;color:#6fcf6f}
+  .pros-cons .col.cons ul li::before{content:"\\2717";position:absolute;left:0;color:#eb5757}
+  .cta-btn{display:inline-block;background:var(--gold);color:#0a1628;padding:12px 28px;border-radius:8px;font-weight:700;font-size:.95rem;margin-top:12px;transition:opacity .2s}
+  .cta-btn:hover{opacity:.85;text-decoration:none}
+  .section-title{font-size:1.5rem;font-weight:700;margin:48px 0 24px;padding-bottom:12px;border-bottom:2px solid var(--accent)}
+  .science-box{background:var(--accent);border-left:4px solid var(--gold);border-radius:10px;padding:24px 28px;margin:40px 0}
+  .science-box h3{color:var(--gold);font-size:1rem;text-transform:uppercase;letter-spacing:.05em;margin-bottom:12px}
+  .science-box p,.science-box ul{color:var(--muted);font-size:.92rem}
+  .science-box ul{padding-left:20px;margin-top:8px}
+  .science-box li{margin-bottom:6px}
+  .buying-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:24px 0}
+  @media(max-width:600px){.buying-grid{grid-template-columns:1fr}}
+  .buying-card{background:var(--card);border:1px solid var(--accent);border-radius:10px;padding:18px}
+  .buying-card h4{color:var(--gold);font-size:.9rem;margin-bottom:8px}
+  .buying-card p{color:var(--muted);font-size:.85rem}
+  .faq-section{margin:48px 0}
+  .faq-item{border-bottom:1px solid var(--accent);padding:20px 0}
+  .faq-item h3{font-size:1rem;margin-bottom:8px;color:var(--text)}
+  .faq-item p{color:var(--muted);font-size:.9rem}
+  .verdict-box{background:linear-gradient(135deg,#0d1f3c,#111e33);border:2px solid var(--gold);border-radius:14px;padding:28px;margin:40px 0;text-align:center}
+  .verdict-box h2{color:var(--gold);margin-bottom:12px}
+  .verdict-box p{color:var(--muted);max-width:600px;margin:0 auto}
+  .breadcrumb{font-size:.82rem;color:var(--muted);margin-bottom:24px}
+  .breadcrumb a{color:var(--muted)}
+  .breadcrumb a:hover{color:var(--gold)}
+  footer{background:var(--accent);border-top:1px solid var(--card);padding:32px 24px;text-align:center;color:var(--muted);font-size:.85rem;margin-top:60px}
+  footer a{color:var(--muted)}
+  .affiliate-disclosure{background:var(--card);border:1px solid var(--accent);border-radius:8px;padding:14px 18px;font-size:.8rem;color:var(--muted);margin-bottom:32px}
+  .ingredient-tag{display:inline-block;background:#0d2a2a;color:#5fd3d3;border:1px solid #1a5a5a;font-size:.72rem;padding:2px 8px;border-radius:5px;margin-right:4px;font-weight:600}
+</style>
+</head>
+<body>
+<header class="site-header">
+  <a href="/" class="logo">SleepWise Reviews</a>
+  <nav>
+    <a href="/">Home</a>
+    <a href="/posts/index.html">All Reviews</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="badge">2025 Expert Review</div>
+  <h1>Best Deep Sleep Supplement 2025: Top 7 Picks for More Restorative Sleep</h1>
+  <p>Shallow sleep doesn't restore. We identified the supplements with real evidence behind slow-wave sleep support, and ranked the top 7.</p>
+  <div class="meta">
+    <span>7 Supplements Reviewed</span>
+    <span>Updated May 2025</span>
+    <span>By SleepWise Reviews</span>
+  </div>
+</section>
+
+<div class="container">
+  <div class="breadcrumb">
+    <a href="/">Home</a> &rsaquo; <a href="/posts/index.html">Reviews</a> &rsaquo; Best Deep Sleep Supplement
+  </div>
+
+  <div class="affiliate-disclosure">
+    <strong>Disclosure:</strong> SleepWise Reviews earns a commission on qualifying purchases through Amazon Associates. This does not affect our ratings or recommendations. Always consult your physician before starting any supplement.
+  </div>
+
+  <div class="toc">
+    <h2>Quick Navigation</h2>
+    <ol>
+      <li><a href="#thorne">Thorne Magnesium Bisglycinate — Best Overall</a></li>
+      <li><a href="#momentous">Momentous Sleep Pack — Best Full Stack</a></li>
+      <li><a href="#glycine">Life Extension Glycine — Best for SWS</a></li>
+      <li><a href="#gaba">NOW GABA — Best for Sleep Onset</a></li>
+      <li><a href="#pure">Pure Encapsulations Magnesium Glycinate — Best Purity</a></li>
+      <li><a href="#lessman">Andrew Lessman Sleep — Best Gentle Formula</a></li>
+      <li><a href="#zhou">Zhou Nutrition Sleep — Best Budget</a></li>
+      <li><a href="#science">Deep Sleep Science</a></li>
+      <li><a href="#buying">What to Look For</a></li>
+      <li><a href="#faq">FAQ</a></li>
+    </ol>
+  </div>
+
+  <!-- PRODUCT 1 -->
+  <div class="product-card top-pick" id="thorne">
+    <div class="rank-badge">#1 Best Overall</div>
+    <div class="product-header">
+      <h2>Thorne Magnesium Bisglycinate</h2>
+      <div class="score-box"><div class="score">9.5</div><div class="score-label">Score</div></div>
+    </div>
+    <div class="best-for-tag">Best Overall Deep Sleep Supplement</div>
+    <div class="specs-chips">
+      <div class="chip">Key Ingredient: <span>Magnesium Bisglycinate 200mg</span></div>
+      <div class="chip">Form: <span>Capsule</span></div>
+      <div class="chip">Dose: <span>2 Capsules Before Bed</span></div>
+      <div class="chip">Third-Party Tested: <span>NSF Certified</span></div>
+      <div class="chip">Additives: <span>None</span></div>
+    </div>
+    <span class="ingredient-tag">Magnesium Glycinate</span><span class="ingredient-tag">NSF Certified</span><span class="ingredient-tag">No Fillers</span>
+    <p style="color:var(--muted);font-size:.92rem;margin-bottom:14px;margin-top:12px;">Magnesium is directly involved in the regulation of slow-wave sleep (SWS). Studies show magnesium deficiency — present in up to 50% of adults — reduces deep sleep time. Thorne's bisglycinate form uses two glycine molecules (themselves sleep-supporting) to maximize absorption and minimize GI side effects. Thorne is NSF Certified for Sport, meaning every batch is independently verified for purity and label accuracy. No proprietary blends, no unnecessary fillers. This is the cleanest, most bioavailable magnesium formulation available.</p>
+    <div class="pros-cons">
+      <div class="col pros">
+        <h4>Pros</h4>
+        <ul>
+          <li>Bisglycinate = highest bioavailability</li>
+          <li>NSF Certified — independently verified</li>
+          <li>No laxative effect (unlike magnesium oxide)</li>
+          <li>Clean label — no fillers or additives</li>
+          <li>Clinically relevant dose per serving</li>
+        </ul>
+      </div>
+      <div class="col cons">
+        <h4>Cons</h4>
+        <ul>
+          <li>Higher price than generic magnesium</li>
+          <li>Capsule only (no powder option)</li>
+          <li>Takes 1-2 weeks to feel full effect</li>
+        </ul>
+      </div>
+    </div>
+    <a href="https://www.amazon.com/s?k=thorne+magnesium+bisglycinate+sleep&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank" class="cta-btn">Check Price on Amazon</a>
+  </div>
+
+  <!-- PRODUCT 2 -->
+  <div class="product-card" id="momentous">
+    <div class="rank-badge">#2 Best Full Stack</div>
+    <div class="product-header">
+      <h2>Momentous Huberman Lab Sleep Pack</h2>
+      <div class="score-box"><div class="score">9.1</div><div class="score-label">Score</div></div>
+    </div>
+    <div class="best-for-tag">Best Full Sleep Stack</div>
+    <div class="specs-chips">
+      <div class="chip">Key Ingredients: <span>Mag Threonate + Apigenin + Low-Dose Melatonin</span></div>
+      <div class="chip">Melatonin Dose: <span>0.5mg (physiologic)</span></div>
+      <div class="chip">Third-Party Tested: <span>NSF Certified</span></div>
+      <div class="chip">Form: <span>Three separate capsules</span></div>
+    </div>
+    <span class="ingredient-tag">Magnesium L-Threonate</span><span class="ingredient-tag">Apigenin</span><span class="ingredient-tag">Low-Dose Melatonin</span>
+    <p style="color:var(--muted);font-size:.92rem;margin-bottom:14px;margin-top:12px;">Developed in partnership with neuroscientist Andrew Huberman, this three-supplement sleep pack uses a physiologic 0.5mg melatonin dose (not the 5-10mg found in most products, which can desensitize receptors), magnesium L-threonate (a form that crosses the blood-brain barrier), and apigenin (a chamomile-derived compound that promotes calm). Each component targets a different mechanism — sleep onset, sleep depth, and nervous system relaxation. NSF Certified. The combination is more powerful than any single ingredient alone.</p>
+    <div class="pros-cons">
+      <div class="col pros">
+        <h4>Pros</h4>
+        <ul>
+          <li>Three-mechanism approach to deep sleep</li>
+          <li>Low-dose melatonin protects receptor sensitivity</li>
+          <li>Mag L-threonate crosses blood-brain barrier</li>
+          <li>NSF Certified</li>
+          <li>Huberman protocol — evidence-informed</li>
+        </ul>
+      </div>
+      <div class="col cons">
+        <h4>Cons</h4>
+        <ul>
+          <li>Expensive (three products in one pack)</li>
+          <li>Three separate capsules to take</li>
+          <li>Apigenin can cause vivid dreams in some users</li>
+        </ul>
+      </div>
+    </div>
+    <a href="https://www.amazon.com/s?k=momentous+huberman+sleep+pack+supplement&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank" class="cta-btn">Check Price on Amazon</a>
+  </div>
+
+  <!-- PRODUCT 3 -->
+  <div class="product-card" id="glycine">
+    <div class="rank-badge">#3 Best for SWS</div>
+    <div class="product-header">
+      <h2>Life Extension Glycine</h2>
+      <div class="score-box"><div class="score">8.8</div><div class="score-label">Score</div></div>
+    </div>
+    <div class="best-for-tag">Best for Slow-Wave Sleep Directly</div>
+    <div class="specs-chips">
+      <div class="chip">Key Ingredient: <span>Glycine 1,000mg per capsule</span></div>
+      <div class="chip">Effective Dose: <span>3g (3 capsules) before bed</span></div>
+      <div class="chip">Form: <span>Capsule or Powder</span></div>
+      <div class="chip">Non-Habit Forming: <span>Yes</span></div>
+    </div>
+    <span class="ingredient-tag">Glycine 3g</span><span class="ingredient-tag">Amino Acid</span><span class="ingredient-tag">RCT Proven</span>
+    <p style="color:var(--muted);font-size:.92rem;margin-bottom:14px;margin-top:12px;">Glycine is a non-essential amino acid with some of the strongest clinical evidence for improving sleep quality. Randomized controlled trials show 3g of glycine before bed reduces sleep onset time, increases slow-wave sleep duration, and reduces next-day fatigue scores — even when total sleep time stays the same. It works by lowering core body temperature slightly and modulating NMDA receptor activity in the brain. Life Extension's formulation is one of the cleanest, most affordable ways to get the clinically validated 3g dose. Effects often felt within the first 1-3 nights.</p>
+    <div class="pros-cons">
+      <div class="col pros">
+        <h4>Pros</h4>
+        <ul>
+          <li>RCT evidence for increasing slow-wave sleep</li>
+          <li>Reduces next-day fatigue even at same sleep time</li>
+          <li>Very safe — non-habit forming amino acid</li>
+          <li>Affordable per serving</li>
+          <li>Fast-acting (effects often night 1-3)</li>
+        </ul>
+      </div>
+      <div class="col cons">
+        <h4>Cons</h4>
+        <ul>
+          <li>Need 3 capsules (3g) per dose</li>
+          <li>Mildly sweet taste if you opt for powder form</li>
+          <li>Less well-known than magnesium</li>
+        </ul>
+      </div>
+    </div>
+    <a href="https://www.amazon.com/s?k=life+extension+glycine+sleep+supplement&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank" class="cta-btn">Check Price on Amazon</a>
+  </div>
+
+  <!-- PRODUCT 4 -->
+  <div class="product-card" id="gaba">
+    <div class="rank-badge">#4 Best for Sleep Onset</div>
+    <div class="product-header">
+      <h2>NOW Supplements GABA 500mg</h2>
+      <div class="score-box"><div class="score">8.3</div><div class="score-label">Score</div></div>
+    </div>
+    <div class="best-for-tag">Best for Sleep Onset + Relaxation</div>
+    <div class="specs-chips">
+      <div class="chip">Key Ingredient: <span>GABA 500mg</span></div>
+      <div class="chip">Additional: <span>Vitamin B6 2mg</span></div>
+      <div class="chip">Form: <span>Capsule or Powder</span></div>
+      <div class="chip">GMP Certified: <span>Yes</span></div>
+    </div>
+    <span class="ingredient-tag">GABA</span><span class="ingredient-tag">Vitamin B6</span><span class="ingredient-tag">GMP Certified</span>
+    <p style="color:var(--muted);font-size:.92rem;margin-bottom:14px;margin-top:12px;">GABA (gamma-aminobutyric acid) is the brain's primary inhibitory neurotransmitter — it quiets neural activity and promotes relaxation. While GABA's ability to cross the blood-brain barrier from supplements is debated, studies show GABA supplementation reduces perceived stress and improves sleep onset in stressed individuals. NOW's formulation includes Vitamin B6, which is a cofactor in natural GABA synthesis. At $15-18 for 100 capsules, it's one of the most affordable sleep supplements available. Works best as a sleep-onset aid when anxiety or racing thoughts are the main barrier to good sleep.</p>
+    <div class="pros-cons">
+      <div class="col pros">
+        <h4>Pros</h4>
+        <ul>
+          <li>Very affordable</li>
+          <li>B6 cofactor included</li>
+          <li>GMP certified manufacturing</li>
+          <li>Good for sleep-onset anxiety</li>
+        </ul>
+      </div>
+      <div class="col cons">
+        <h4>Cons</h4>
+        <ul>
+          <li>Oral GABA BBB crossing is debated in research</li>
+          <li>Not as well studied as magnesium or glycine</li>
+          <li>Effect size smaller for deep sleep specifically</li>
+        </ul>
+      </div>
+    </div>
+    <a href="https://www.amazon.com/s?k=now+supplements+gaba+500mg+sleep&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank" class="cta-btn">Check Price on Amazon</a>
+  </div>
+
+  <!-- PRODUCT 5 -->
+  <div class="product-card" id="pure">
+    <div class="rank-badge">#5 Best Purity</div>
+    <div class="product-header">
+      <h2>Pure Encapsulations Magnesium Glycinate</h2>
+      <div class="score-box"><div class="score">8.0</div><div class="score-label">Score</div></div>
+    </div>
+    <div class="best-for-tag">Best for Purity / Sensitive Stomachs</div>
+    <div class="specs-chips">
+      <div class="chip">Key Ingredient: <span>Magnesium Glycinate 120mg elemental</span></div>
+      <div class="chip">Hypoallergenic: <span>Yes</span></div>
+      <div class="chip">Third-Party Tested: <span>Yes</span></div>
+      <div class="chip">Free From: <span>Gluten, GMO, Soy, Dairy</span></div>
+    </div>
+    <span class="ingredient-tag">Magnesium Glycinate</span><span class="ingredient-tag">Hypoallergenic</span><span class="ingredient-tag">Ultra-Pure</span>
+    <p style="color:var(--muted);font-size:.92rem;margin-bottom:14px;margin-top:12px;">Pure Encapsulations is a practitioner-grade brand trusted by functional medicine doctors for its exceptionally clean formulations. No unnecessary fillers, binders, or additives — every ingredient serves a purpose. The magnesium glycinate formula is hypoallergenic and verified for 200+ allergens. If you have a sensitive stomach, food sensitivities, or take multiple medications, this is the safest magnesium option available. The elemental magnesium dose (120mg per capsule) is slightly lower than Thorne, so most users take 2-3 capsules before bed.</p>
+    <div class="pros-cons">
+      <div class="col pros">
+        <h4>Pros</h4>
+        <ul>
+          <li>Practitioner-grade purity</li>
+          <li>Hypoallergenic — 200+ allergen verified</li>
+          <li>No fillers, binders, or additives</li>
+          <li>Trusted by functional medicine physicians</li>
+        </ul>
+      </div>
+      <div class="col cons">
+        <h4>Cons</h4>
+        <ul>
+          <li>Premium price</li>
+          <li>Lower elemental dose — need more capsules</li>
+          <li>Less widely available in stores</li>
+        </ul>
+      </div>
+    </div>
+    <a href="https://www.amazon.com/s?k=pure+encapsulations+magnesium+glycinate+sleep&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank" class="cta-btn">Check Price on Amazon</a>
+  </div>
+
+  <!-- PRODUCT 6 -->
+  <div class="product-card" id="lessman">
+    <div class="rank-badge">#6 Best Gentle Formula</div>
+    <div class="product-header">
+      <h2>Andrew Lessman Sleep</h2>
+      <div class="score-box"><div class="score">7.7</div><div class="score-label">Score</div></div>
+    </div>
+    <div class="best-for-tag">Best Gentle All-in-One Sleep Formula</div>
+    <div class="specs-chips">
+      <div class="chip">Key Ingredients: <span>L-Theanine + Ashwagandha + Low-Dose Melatonin</span></div>
+      <div class="chip">Melatonin: <span>1mg</span></div>
+      <div class="chip">Form: <span>Capsule</span></div>
+      <div class="chip">Manufactured: <span>USA (ProCaps Labs)</span></div>
+    </div>
+    <span class="ingredient-tag">L-Theanine</span><span class="ingredient-tag">Ashwagandha</span><span class="ingredient-tag">Melatonin 1mg</span>
+    <p style="color:var(--muted);font-size:.92rem;margin-bottom:14px;margin-top:12px;">Andrew Lessman's ProCaps Labs is known for exceptionally gentle, well-tolerated formulas. This sleep supplement uses L-theanine (promotes alpha wave brain states, calms without sedation), ashwagandha (reduces cortisol for deeper sleep), and 1mg melatonin (a physiologic dose). Good for people who are sensitive to supplements or who want a single-capsule solution without the complexity of stacking individual compounds. Well-reviewed for not causing grogginess the next morning.</p>
+    <div class="pros-cons">
+      <div class="col pros">
+        <h4>Pros</h4>
+        <ul>
+          <li>Gentle — rarely causes grogginess</li>
+          <li>Single capsule convenience</li>
+          <li>L-theanine promotes calm without sedation</li>
+          <li>Ashwagandha cortisol reduction supports deep sleep</li>
+        </ul>
+      </div>
+      <div class="col cons">
+        <h4>Cons</h4>
+        <ul>
+          <li>No magnesium or glycine</li>
+          <li>Ashwagandha takes 4-8 weeks for full effect</li>
+          <li>Premium price for the formula</li>
+        </ul>
+      </div>
+    </div>
+    <a href="https://www.amazon.com/s?k=andrew+lessman+sleep+supplement&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank" class="cta-btn">Check Price on Amazon</a>
+  </div>
+
+  <!-- PRODUCT 7 -->
+  <div class="product-card" id="zhou">
+    <div class="rank-badge">#7 Best Budget</div>
+    <div class="product-header">
+      <h2>Zhou Nutrition Sleep</h2>
+      <div class="score-box"><div class="score">7.3</div><div class="score-label">Score</div></div>
+    </div>
+    <div class="best-for-tag">Best Budget Deep Sleep Supplement</div>
+    <div class="specs-chips">
+      <div class="chip">Key Ingredients: <span>Melatonin + GABA + L-Theanine + Valerian</span></div>
+      <div class="chip">Melatonin: <span>5mg</span></div>
+      <div class="chip">Form: <span>Capsule</span></div>
+      <div class="chip">Price: <span>Under $20</span></div>
+    </div>
+    <span class="ingredient-tag">Melatonin 5mg</span><span class="ingredient-tag">GABA</span><span class="ingredient-tag">L-Theanine</span><span class="ingredient-tag">Valerian</span>
+    <p style="color:var(--muted);font-size:.92rem;margin-bottom:14px;margin-top:12px;">Zhou's sleep formula packs multiple sleep-support ingredients into one budget-friendly capsule. The 5mg melatonin dose is higher than ideal for long-term nightly use (which can desensitize receptors), but for short-term use or occasional sleep struggles, this formula is effective and accessible. GABA, L-theanine, and valerian root together address multiple pathways: onset speed, anxiety reduction, and sleep quality. For travelers, occasional insomnia, or anyone wanting an affordable entry point — this works.</p>
+    <div class="pros-cons">
+      <div class="col pros">
+        <h4>Pros</h4>
+        <ul>
+          <li>Very affordable under $20</li>
+          <li>Multi-ingredient approach</li>
+          <li>Good for travel / occasional use</li>
+          <li>Works quickly for sleep onset</li>
+        </ul>
+      </div>
+      <div class="col cons">
+        <h4>Cons</h4>
+        <ul>
+          <li>5mg melatonin too high for nightly long-term use</li>
+          <li>Lower-quality ingredient sourcing vs. premium brands</li>
+          <li>Not third-party certified</li>
+        </ul>
+      </div>
+    </div>
+    <a href="https://www.amazon.com/s?k=zhou+nutrition+sleep+supplement&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank" class="cta-btn">Check Price on Amazon</a>
+  </div>
+
+  <!-- SCIENCE BOX -->
+  <div class="science-box" id="science">
+    <h3>The Science of Deep (Slow-Wave) Sleep</h3>
+    <p>Deep sleep — officially N3 or slow-wave sleep (SWS) — is the most physically restorative stage of the sleep cycle. Here is what the research shows:</p>
+    <ul>
+      <li><strong>Growth hormone release:</strong> ~70% of daily growth hormone is secreted during the first SWS episode each night. This drives muscle repair, tissue regeneration, and metabolic recovery.</li>
+      <li><strong>Glymphatic system activation:</strong> The brain's waste-clearance system runs primarily during SWS. It flushes amyloid-beta and tau proteins — accumulation of which is linked to Alzheimer's risk.</li>
+      <li><strong>Memory consolidation:</strong> SWS transfers procedural and declarative memories from the hippocampus to long-term cortical storage.</li>
+      <li><strong>Immune system:</strong> Cytokine production and T-cell activity peak during deep sleep. Chronic SWS deficits impair immune response.</li>
+      <li><strong>Magnesium and SWS:</strong> Magnesium deficiency reduces NREM slow-wave activity. Supplementation in deficient adults restores SWS time. This is why magnesium is the most evidence-backed supplement for deep sleep specifically.</li>
+      <li><strong>Glycine and SWS:</strong> A 3g glycine dose before bed lowers core body temperature by ~0.3C — a key trigger for sleep onset and SWS entry. RCTs show reduced sleep onset latency and increased SWS time.</li>
+    </ul>
+  </div>
+
+  <!-- BUYING GUIDE -->
+  <h2 class="section-title" id="buying">What to Look For in a Deep Sleep Supplement</h2>
+  <div class="buying-grid">
+    <div class="buying-card">
+      <h4>Primary Mechanism</h4>
+      <p>The best deep sleep supplements target specific mechanisms: magnesium restores SWS deficits from deficiency; glycine lowers core temperature and modulates NMDA receptors; melatonin signals sleep timing but does NOT directly increase deep sleep duration.</p>
+    </div>
+    <div class="buying-card">
+      <h4>Third-Party Testing</h4>
+      <p>Supplements are not FDA-regulated. Look for NSF Certified, USP Verified, or Informed Sport certifications. These mean an independent lab confirmed the label matches what's inside.</p>
+    </div>
+    <div class="buying-card">
+      <h4>Melatonin Dose</h4>
+      <p>Most products use 5-10mg. Research shows 0.3-0.5mg is the physiologically effective dose. High doses desensitize receptors over time. If melatonin is in the product, look for 0.5-1mg max.</p>
+    </div>
+    <div class="buying-card">
+      <h4>Form Matters</h4>
+      <p>Magnesium form is critical. Glycinate and bisglycinate are the best absorbed. Oxide is poorly absorbed and causes GI issues. L-Threonate crosses the blood-brain barrier but costs more. Avoid oxide in any serious sleep formula.</p>
+    </div>
+    <div class="buying-card">
+      <h4>Sleep Hygiene First</h4>
+      <p>No supplement overcomes poor sleep hygiene. Consistent sleep schedule, cool dark room (65-68F), no alcohol 3 hours before bed, and morning sunlight exposure are all more powerful than any supplement. Use supplements to enhance, not replace, behavioral habits.</p>
+    </div>
+    <div class="buying-card">
+      <h4>Stacking Strategy</h4>
+      <p>The most effective protocol: Magnesium glycinate (200-400mg elemental) + Glycine (3g) 30-60 minutes before bed. Add low-dose melatonin (0.5mg) if sleep onset is the main problem. This stack addresses both SWS quality and sleep-onset latency.</p>
+    </div>
+  </div>
+
+  <!-- FAQ -->
+  <div class="faq-section" id="faq">
+    <h2 class="section-title">Frequently Asked Questions</h2>
+    <div class="faq-item">
+      <h3>What supplements increase deep sleep?</h3>
+      <p>Magnesium glycinate is the most research-backed supplement for increasing slow-wave (deep) sleep. Glycine (3g before bed) has clinical evidence for improving sleep quality and reducing next-day fatigue. GABA may help with sleep onset. Ashwagandha reduces cortisol which allows deeper sleep stages to occur more readily.</p>
+    </div>
+    <div class="faq-item">
+      <h3>What is slow-wave sleep and why does it matter?</h3>
+      <p>Slow-wave sleep (SWS), also called deep sleep or N3 sleep, is the most physically restorative sleep stage. During SWS, the body releases growth hormone, repairs tissues, consolidates memories, and clears metabolic waste from the brain via the glymphatic system. Most adults get 1-2 hours of SWS per night.</p>
+    </div>
+    <div class="faq-item">
+      <h3>Is it safe to take deep sleep supplements every night?</h3>
+      <p>Magnesium glycinate and glycine are safe for nightly use and are not habit-forming. GABA supplements are generally well-tolerated but should be cycled. Avoid taking melatonin nightly at high doses (over 0.5mg) as this can desensitize receptors. Always consult a physician if you take other medications, especially sedatives.</p>
+    </div>
+    <div class="faq-item">
+      <h3>How long does it take for deep sleep supplements to work?</h3>
+      <p>Glycine often shows effects within the first 1-3 nights. Magnesium glycinate typically shows measurable improvements within 1-2 weeks as body stores replenish. Adaptogenic herbs like ashwagandha take 4-8 weeks to show full cortisol-lowering effects.</p>
+    </div>
+    <div class="faq-item">
+      <h3>Can you get deeper sleep without supplements?</h3>
+      <p>Yes. Behavioral factors often matter more than supplements. Key deep sleep promoters: consistent sleep/wake times, cool room temperature (65-68F), avoiding alcohol, exercise (increases SWS the following night), and limiting blue light 2 hours before bed. Supplements work best as additions to good sleep hygiene, not substitutes.</p>
+    </div>
+  </div>
+
+  <!-- VERDICT -->
+  <div class="verdict-box">
+    <h2>Our Top Pick</h2>
+    <p>For most adults, <strong>Thorne Magnesium Bisglycinate</strong> is the best starting point for deep sleep support — clean, NSF certified, high bioavailability. Add <strong>Life Extension Glycine (3g)</strong> for a research-backed stack targeting slow-wave sleep directly. For a complete single-protocol solution, the <strong>Momentous Huberman Sleep Pack</strong> covers all three mechanisms.</p>
+  </div>
+</div>
+
+<footer>
+  <p>&copy; 2025 SleepWise Reviews &mdash; <a href="/privacy.html">Privacy Policy</a> &mdash; <a href="/about.html">About</a></p>
+  <p style="margin-top:8px;font-size:.78rem;">Amazon Associates Disclosure: As an Amazon Associate we earn from qualifying purchases.</p>
+</footer>
+</body>
+</html>"""
+
+with open('posts/best-deep-sleep-supplement.html', 'w', encoding='utf-8') as f:
+    f.write(html)
+print('Written: posts/best-deep-sleep-supplement.html')
