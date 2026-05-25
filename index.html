@@ -1767,6 +1767,40 @@
     .reviews-archive-grid .article-card .card-body { display: contents; }
     @media (max-width: 900px) { .reviews-archive-grid { grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 1rem; } }
     @media (max-width: 500px) { .reviews-archive-grid { grid-template-columns: 1fr; } }
+
+    /* CATEGORY OVERVIEW GRID */
+    .cat-overview-section { padding: 2.5rem 0 1rem; }
+    .cat-overview-section .section-inner { max-width: 1400px; margin: 0 auto; padding: 0 1.5rem; }
+    .cat-overview-label { font-size: 0.75rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; color: var(--gold); margin-bottom: 0.5rem; }
+    .cat-overview-title { font-size: 1.5rem; font-weight: 800; color: #f0e6c8; margin-bottom: 0.4rem; }
+    .cat-overview-sub { font-size: 0.9rem; color: var(--muted); margin-bottom: 1.8rem; }
+    .cat-overview-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+      gap: 1rem;
+    }
+    .cat-card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 1.2rem 1.4rem;
+      text-decoration: none;
+      color: var(--text);
+      display: flex;
+      flex-direction: column;
+      transition: border-color 0.2s, transform 0.15s;
+    }
+    .cat-card:hover {
+      border-color: rgba(201,168,76,0.45);
+      transform: translateY(-2px);
+    }
+    .cat-card .cat-icon { font-size: 1.6rem; margin-bottom: 0.6rem; line-height: 1; }
+    .cat-card .cat-name { font-size: 0.95rem; font-weight: 700; color: #f0e6c8; margin-bottom: 0.25rem; }
+    .cat-card .cat-count { font-size: 0.72rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.06em; color: var(--gold); margin-bottom: 0.55rem; }
+    .cat-card .cat-desc { font-size: 0.8rem; color: var(--muted); line-height: 1.5; flex-grow: 1; margin-bottom: 0.7rem; }
+    .cat-card .cat-arrow { font-size: 0.8rem; color: var(--gold); font-weight: 600; margin-top: auto; }
+    @media (max-width: 700px) { .cat-overview-grid { grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 0.75rem; } }
+    @media (max-width: 420px) { .cat-overview-grid { grid-template-columns: 1fr 1fr; } }
   </style>
   <meta property="og:title" content="SleepWise Reviews — Science-Backed Sleep Guidance" />
   <meta property="og:description" content="Expert sleep guides, product reviews, and research-backed tips for better rest." />
@@ -2056,6 +2090,101 @@
           </div>
         </div>
       
+      <!-- CATEGORY OVERVIEW -->
+      <section class="cat-overview-section">
+        <div class="cat-overview-section section-inner">
+          <div class="cat-overview-label">Complete Library</div>
+          <h2 class="cat-overview-title">All Sleep Guides &amp; Articles</h2>
+          <p class="cat-overview-sub">353 articles across 12 categories &#x2014; independent sleep research and testing.</p>
+          <div class="cat-overview-grid">
+          <a class="cat-card" href="posts/index.html#mattresses-bedding">
+            <div class="cat-icon">&#x1F6CF;</div>
+            <div class="cat-name">Mattresses & Bedding</div>
+            <div class="cat-count">90 Articles</div>
+            <div class="cat-desc">Mattresses, pillows, toppers, sheets, and bedding — ranked by sleep position and budget.</div>
+            <div class="cat-arrow">Browse all &#x2192;</div>
+          </a>
+          <a class="cat-card" href="posts/index.html#sleep-products">
+            <div class="cat-icon">&#x1F3A7;</div>
+            <div class="cat-name">Sleep Products</div>
+            <div class="cat-count">68 Articles</div>
+            <div class="cat-desc">Sleep masks, white noise machines, trackers, blackout curtains, and gadgets that actually work.</div>
+            <div class="cat-arrow">Browse all &#x2192;</div>
+          </a>
+          <a class="cat-card" href="posts/index.html#supplements">
+            <div class="cat-icon">&#x1F48A;</div>
+            <div class="cat-name">Supplements</div>
+            <div class="cat-count">35 Articles</div>
+            <div class="cat-desc">Melatonin, magnesium, valerian, and natural sleep aids ranked by clinical evidence strength.</div>
+            <div class="cat-arrow">Browse all &#x2192;</div>
+          </a>
+          <a class="cat-card" href="posts/index.html#guides-plans">
+            <div class="cat-icon">&#x1F4CB;</div>
+            <div class="cat-name">Guides & Plans</div>
+            <div class="cat-count">34 Articles</div>
+            <div class="cat-desc">Step-by-step sleep improvement guides, wind-down routines, and 30-day sleep challenges.</div>
+            <div class="cat-arrow">Browse all &#x2192;</div>
+          </a>
+          <a class="cat-card" href="posts/index.html#health-conditions">
+            <div class="cat-icon">&#x1FA7A;</div>
+            <div class="cat-name">Health Conditions</div>
+            <div class="cat-count">30 Articles</div>
+            <div class="cat-desc">Sleep with back pain, apnea, fibromyalgia, shoulder pain, sciatica, and chronic conditions.</div>
+            <div class="cat-arrow">Browse all &#x2192;</div>
+          </a>
+          <a class="cat-card" href="posts/index.html#life-stages">
+            <div class="cat-icon">&#x1F476;</div>
+            <div class="cat-name">Life Stages</div>
+            <div class="cat-count">23 Articles</div>
+            <div class="cat-desc">Pregnancy, baby years, teens, menopause, aging, and couples sleep — all stages covered.</div>
+            <div class="cat-arrow">Browse all &#x2192;</div>
+          </a>
+          <a class="cat-card" href="posts/index.html#caffeine-nutrition">
+            <div class="cat-icon">&#x2615;</div>
+            <div class="cat-name">Caffeine & Nutrition</div>
+            <div class="cat-count">15 Articles</div>
+            <div class="cat-desc">How caffeine timing, alcohol, magnesium, blue light, and food choices affect your sleep.</div>
+            <div class="cat-arrow">Browse all &#x2192;</div>
+          </a>
+          <a class="cat-card" href="posts/index.html#timing-jet-lag">
+            <div class="cat-icon">&#x2708;</div>
+            <div class="cat-name">Timing & Jet Lag</div>
+            <div class="cat-count">15 Articles</div>
+            <div class="cat-desc">Sleep schedule resets, jet lag recovery, shift work optimization, and circadian timing.</div>
+            <div class="cat-arrow">Browse all &#x2192;</div>
+          </a>
+          <a class="cat-card" href="posts/index.html#sleep-science">
+            <div class="cat-icon">&#x1F9E0;</div>
+            <div class="cat-name">Sleep Science</div>
+            <div class="cat-count">12 Articles</div>
+            <div class="cat-desc">Deep dives into sleep stages, REM, circadian rhythms, sleep genetics, and brain science.</div>
+            <div class="cat-arrow">Browse all &#x2192;</div>
+          </a>
+          <a class="cat-card" href="posts/index.html#napping-performance">
+            <div class="cat-icon">&#x26A1;</div>
+            <div class="cat-name">Napping & Performance</div>
+            <div class="cat-count">11 Articles</div>
+            <div class="cat-desc">Power naps, athletic recovery, cognitive performance, creativity, and productivity science.</div>
+            <div class="cat-arrow">Browse all &#x2192;</div>
+          </a>
+          <a class="cat-card" href="posts/index.html#sleep-environment">
+            <div class="cat-icon">&#x1F319;</div>
+            <div class="cat-name">Sleep Environment</div>
+            <div class="cat-count">11 Articles</div>
+            <div class="cat-desc">Bedroom temperature, light control, tech detox, plants, and environment optimization.</div>
+            <div class="cat-arrow">Browse all &#x2192;</div>
+          </a>
+          <a class="cat-card" href="posts/index.html#insomnia-cbti">
+            <div class="cat-icon">&#x1F634;</div>
+            <div class="cat-name">Insomnia & CBT-I</div>
+            <div class="cat-count">9 Articles</div>
+            <div class="cat-desc">Evidence-based CBT-I techniques, stimulus control, sleep restriction, and insomnia recovery.</div>
+            <div class="cat-arrow">Browse all &#x2192;</div>
+          </a>
+          </div>
+        </div>
+      </section>
+      <!-- END CATEGORY OVERVIEW -->
       <!-- ALL REVIEWS GRID -->
       <div class="reviews-archive-section">
         <div class="section-inner">

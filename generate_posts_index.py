@@ -129,7 +129,25 @@ html_out = f'''<!DOCTYPE html>
     .search-wrap input:focus {{ border-color: var(--gold); }}
     .search-wrap input::placeholder {{ color: var(--muted); }}
     .search-wrap svg {{ position: absolute; left: 1rem; top: 50%; transform: translateY(-50%); opacity: 0.5; pointer-events: none; }}
-    .no-results {{ display: none; color: var(--muted); font-size: 0.95rem; padding: 1rem 0; }}
+    .no-results {{ display: none; }}
+    .no-results-panel {{
+      background: var(--card); border: 1px solid var(--border); border-radius: 12px;
+      padding: 1.8rem 2rem; margin: 0.5rem 0 2rem;
+    }}
+    .no-results-panel h3 {{ color: var(--gold); font-size: 1rem; margin-bottom: 0.5rem; }}
+    .no-results-panel p {{ color: var(--muted); font-size: 0.9rem; margin-bottom: 1.2rem; }}
+    .contact-options {{ display: flex; flex-wrap: wrap; gap: 0.75rem; margin-bottom: 1.2rem; }}
+    .contact-btn {{
+      display: inline-flex; align-items: center; gap: 0.4rem;
+      padding: 0.5rem 1.1rem; border-radius: 8px; font-size: 0.88rem;
+      font-family: inherit; text-decoration: none; font-weight: 600;
+      border: 1px solid var(--border); color: var(--text); background: rgba(255,255,255,0.04);
+      transition: border-color 0.2s, color 0.2s;
+    }}
+    .contact-btn:hover {{ border-color: var(--gold); color: var(--gold); }}
+    .contact-btn.gold {{ background: var(--gold); color: #07101f; border-color: var(--gold); }}
+    .contact-btn.gold:hover {{ background: #e8c96a; }}
+    .faq-anchor-link {{ color: var(--gold); font-size: 0.88rem; }}
     .cat-grid {{ display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 2rem; }}
     .cat-section {{ background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 1.4rem 1.6rem; }}
     .cat-section h2 {{ font-size: 1rem; font-weight: 600; color: var(--gold); border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; margin-bottom: 0.9rem; }}
@@ -159,16 +177,67 @@ html_out = f'''<!DOCTYPE html>
       <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
       <input type="text" id="search" placeholder="Search {total_count} articles — try 'mattress', 'melatonin', 'back pain'..." autocomplete="off" />
     </div>
-    <p class="no-results" id="no-results">No articles match your search. Try a different keyword.</p>
+    <div class="no-results" id="no-results">
+      <div class="no-results-panel">
+        <h3>No articles match your search</h3>
+        <p>Try a different keyword, or let us help you find what you need:</p>
+        <div class="contact-options">
+          <a href="#faq-section" class="contact-btn" onclick="document.getElementById('faq-section').scrollIntoView({{behavior:'smooth'}});return false;">&#x2753; Browse our FAQ</a>
+          <a href="mailto:hello@sleepwisereviews.com" class="contact-btn">&#x2709; Email Us</a>
+          <a href="https://www.instagram.com/sleepwisereviews/" class="contact-btn" rel="noopener noreferrer" target="_blank">&#x1F4F7; Instagram DM</a>
+          <a href="https://www.facebook.com/sleepwisereviews/" class="contact-btn" rel="noopener noreferrer" target="_blank">&#x1F4AC; Facebook</a>
+          <a href="https://sleepwisereviews.com/subscribe.html" class="contact-btn gold">&#x1F4E7; Weekly Sleep Tips</a>
+        </div>
+        <p style="font-size:0.82rem;">We publish new guides every week. <a href="https://sleepwisereviews.com/subscribe.html" class="faq-anchor-link">Subscribe</a> and we'll send the right guide to your inbox.</p>
+      </div>
+    </div>
     <div class="cat-grid" id="cat-grid">
 {category_html}    </div>
   </main>
+  <section id="faq-section" style="max-width:1400px;margin:3rem auto 0;padding:0 3% 2rem;">
+    <h2 style="color:var(--gold);font-size:1.3rem;margin-bottom:1.5rem;padding-top:1rem;border-top:1px solid var(--border);">Common Questions</h2>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:1.2rem;">
+      <div style="background:var(--card);border:1px solid var(--border);border-radius:10px;padding:1.2rem 1.4rem;">
+        <h3 style="font-size:0.95rem;color:#f0e6c8;margin-bottom:0.4rem;">What is the best mattress for back pain?</h3>
+        <p style="font-size:0.85rem;color:var(--muted);margin-bottom:0.6rem;">Medium-Firm (5.5-7/10) hybrids with zoned support perform best for most back pain types.</p>
+        <a href="best-mattresses-back-pain.html" style="color:var(--gold);font-size:0.82rem;">Read our back pain mattress guide &#x2192;</a>
+      </div>
+      <div style="background:var(--card);border:1px solid var(--border);border-radius:10px;padding:1.2rem 1.4rem;">
+        <h3 style="font-size:0.95rem;color:#f0e6c8;margin-bottom:0.4rem;">How do I fall asleep faster?</h3>
+        <p style="font-size:0.85rem;color:var(--muted);margin-bottom:0.6rem;">CBT-I techniques, consistent sleep schedules, and bedroom temperature control are the most evidence-backed approaches.</p>
+        <a href="how-to-fall-asleep-fast.html" style="color:var(--gold);font-size:0.82rem;">Read our fast sleep guide &#x2192;</a>
+      </div>
+      <div style="background:var(--card);border:1px solid var(--border);border-radius:10px;padding:1.2rem 1.4rem;">
+        <h3 style="font-size:0.95rem;color:#f0e6c8;margin-bottom:0.4rem;">Which supplements actually help with sleep?</h3>
+        <p style="font-size:0.85rem;color:var(--muted);margin-bottom:0.6rem;">Magnesium glycinate, low-dose melatonin (0.3mg), and L-theanine have the strongest clinical evidence.</p>
+        <a href="best-sleep-supplements-guide.html" style="color:var(--gold);font-size:0.82rem;">Read our supplements guide &#x2192;</a>
+      </div>
+      <div style="background:var(--card);border:1px solid var(--border);border-radius:10px;padding:1.2rem 1.4rem;">
+        <h3 style="font-size:0.95rem;color:#f0e6c8;margin-bottom:0.4rem;">What pillow is best for side sleepers?</h3>
+        <p style="font-size:0.85rem;color:var(--muted);margin-bottom:0.6rem;">Side sleepers need a higher loft (4-6 inches) to fill the gap between head and shoulder for neutral neck alignment.</p>
+        <a href="best-pillow-side-sleepers.html" style="color:var(--gold);font-size:0.82rem;">Read our side sleeper pillow guide &#x2192;</a>
+      </div>
+      <div style="background:var(--card);border:1px solid var(--border);border-radius:10px;padding:1.2rem 1.4rem;">
+        <h3 style="font-size:0.95rem;color:#f0e6c8;margin-bottom:0.4rem;">How much sleep do adults actually need?</h3>
+        <p style="font-size:0.85rem;color:var(--muted);margin-bottom:0.6rem;">Most adults need 7-9 hours. Chronotype, age, and activity level all influence the exact amount for each individual.</p>
+        <a href="how-much-sleep-do-i-need.html" style="color:var(--gold);font-size:0.82rem;">Read the full sleep needs guide &#x2192;</a>
+      </div>
+      <div style="background:var(--card);border:1px solid var(--border);border-radius:10px;padding:1.2rem 1.4rem;">
+        <h3 style="font-size:0.95rem;color:#f0e6c8;margin-bottom:0.4rem;">Still can't find what you need?</h3>
+        <p style="font-size:0.85rem;color:var(--muted);margin-bottom:0.6rem;">Send us a message and we'll point you to the right guide — or write a new one.</p>
+        <a href="mailto:hello@sleepwisereviews.com" style="color:var(--gold);font-size:0.82rem;">Email us &#x2192;</a>
+        &nbsp;&nbsp;
+        <a href="https://www.instagram.com/sleepwisereviews/" style="color:var(--gold);font-size:0.82rem;" rel="noopener noreferrer" target="_blank">Instagram DM &#x2192;</a>
+      </div>
+    </div>
+  </section>
   <footer>
     <p>&copy; 2025-2026 <a href="../">SleepWise Reviews</a> · Evidence-based sleep guidance</p>
   </footer>
   <script>
     const input = document.getElementById('search');
     const noResults = document.getElementById('no-results');
+    const catGrid = document.getElementById('cat-grid');
     input.addEventListener('input', function() {{
       const q = this.value.toLowerCase().trim();
       let anyVisible = false;
@@ -183,6 +252,7 @@ html_out = f'''<!DOCTYPE html>
         if (secVisible) anyVisible = true;
       }});
       noResults.style.display = (!anyVisible && q) ? 'block' : 'none';
+      catGrid.style.display = (!anyVisible && q) ? 'none' : '';
     }});
   </script>
 </body>
