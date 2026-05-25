@@ -1,0 +1,311 @@
+slug = "best-mattress-postpartum"
+out = f"posts/{slug}.html"
+
+html = """<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Best Mattress for Postpartum Recovery 2025 — 7 Picks for New Mothers</title>
+<meta name="description" content="Best mattresses for postpartum recovery 2025. 7 expert picks for C-section recovery, breastfeeding positioning, hormonal night sweats, and safe multiple nighttime exits.">
+<link rel="canonical" href="https://sleepwisereviews.com/posts/best-mattress-postpartum.html">
+<meta property="og:title" content="Best Mattress for Postpartum Recovery 2025 — 7 Picks for New Mothers">
+<meta property="og:description" content="C-section recovery, nursing positioning, hormonal night sweats, and 6+ nighttime wakeups. These 7 mattresses are designed for the specific challenges of postpartum sleep.">
+<meta property="og:url" content="https://sleepwisereviews.com/posts/best-mattress-postpartum.html">
+<meta property="og:type" content="article">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Best Mattress for Postpartum Recovery 2025">
+<meta name="twitter:description" content="7 mattress picks for postpartum — C-section exit, breastfeeding support, night sweats, partner motion isolation.">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "headline": "Best Mattress for Postpartum Recovery 2025",
+      "description": "Expert picks for new mothers recovering from birth: C-section exit ease, breastfeeding positioning, hormonal night sweats, and surviving 12 weeks of fragmented sleep.",
+      "url": "https://sleepwisereviews.com/posts/best-mattress-postpartum.html",
+      "datePublished": "2026-05-25",
+      "dateModified": "2026-05-25",
+      "author": {"@type": "Organization", "name": "SleepWise Reviews"},
+      "publisher": {"@type": "Organization", "name": "SleepWise Reviews", "url": "https://sleepwisereviews.com"}
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://sleepwisereviews.com"},
+        {"@type": "ListItem", "position": 2, "name": "All Posts", "item": "https://sleepwisereviews.com/posts/index.html"},
+        {"@type": "ListItem", "position": 3, "name": "Best Mattress for Postpartum Recovery", "item": "https://sleepwisereviews.com/posts/best-mattress-postpartum.html"}
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "name": "Best Mattresses for Postpartum Recovery 2025",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Saatva Classic Plush Soft — Best Overall for Postpartum"},
+        {"@type": "ListItem", "position": 2, "name": "Purple Restore Hybrid — Best for Postpartum Night Sweats"},
+        {"@type": "ListItem", "position": 3, "name": "Nectar Premier — Best Motion Isolation (Partner Sleep Protection)"},
+        {"@type": "ListItem", "position": 4, "name": "Casper Wave Hybrid — Best for C-Section Recovery"},
+        {"@type": "ListItem", "position": 5, "name": "Helix Midnight Luxe — Best for Breastfeeding Side Position"},
+        {"@type": "ListItem", "position": 6, "name": "Tempur-Pedic TEMPUR-breeze — Best for Severe Hormonal Night Sweats"},
+        {"@type": "ListItem", "position": 7, "name": "DreamCloud Premier — Best Budget Postpartum Mattress"}
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What mattress is best for postpartum recovery?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A medium-soft hybrid or memory foam mattress works best for postpartum recovery. It needs to relieve pressure on healing tissues (perineum, C-section incision site), make getting in and out of bed easy for night feeds, stay cool during hormonal night sweats, and isolate motion so a resting partner isn't woken by every feed exit."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What mattress firmness is best for C-section recovery?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Medium to medium-firm (5-6/10) is optimal for C-section recovery. Soft mattresses make it hard to roll to the side and push up without engaging the abdominal muscles (which are cut and healing). Very firm mattresses add pressure to the incision site when lying on your back. Medium feel allows the log-roll exit technique without requiring core muscle activation."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why do new mothers sweat so much at night?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Postpartum night sweats are caused by the dramatic drop in estrogen and progesterone after delivery. These hormonal shifts trigger thermoregulatory instability very similar to perimenopause hot flashes. They typically peak in the first 2 weeks and resolve by 6 weeks, though breastfeeding prolactin can prolong the low-estrogen state. A cooling mattress significantly reduces the severity."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How should I sleep when breastfeeding?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Side-lying nursing is the most sustainable position for postpartum mothers. It allows feeding without sitting up, which is important for C-section recovery and extreme fatigue. A mattress with excellent shoulder pressure relief (soft comfort layer + zoned support) makes the side position comfortable for extended periods. A wedge pillow behind the back and pillow between the knees complete the setup."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Should I buy a new mattress postpartum or wait?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "If your current mattress is causing pain or making nighttime feeds harder, buy now. The first 12 weeks are the most sleep-deprived period most adults will ever experience. A mattress that makes each wake-up slightly easier compounds significantly. Prioritize a 365-night trial so you can assess it across the full postpartum recovery arc, including the return to normal sleep patterns."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,sans-serif;background:#0a1628;color:#e2e8f0;line-height:1.7}
+header{background:linear-gradient(135deg,#0a1628 0%,#1a2f4e 100%);padding:60px 20px 40px;text-align:center;border-bottom:1px solid #1e3a5f}
+header h1{font-size:clamp(1.6rem,4vw,2.4rem);color:#fff;max-width:800px;margin:0 auto 16px;line-height:1.3}
+.badge{display:inline-block;background:#7c3aed;color:#fff;font-size:.75rem;font-weight:700;padding:4px 12px;border-radius:20px;letter-spacing:.05em;text-transform:uppercase;margin-bottom:16px}
+.subtitle{color:#94a3b8;font-size:1rem;max-width:640px;margin:0 auto 20px}
+.meta{color:#64748b;font-size:.85rem}
+nav.breadcrumb{background:#0d1f38;padding:12px 20px;font-size:.82rem;color:#64748b}
+nav.breadcrumb a{color:#c9a84c;text-decoration:none}
+nav.breadcrumb a:hover{text-decoration:underline}
+.container{max-width:860px;margin:0 auto;padding:40px 20px}
+h2{font-size:1.5rem;color:#c9a84c;margin:40px 0 16px;padding-bottom:8px;border-bottom:1px solid #1e3a5f}
+h3{font-size:1.15rem;color:#e2e8f0;margin:24px 0 10px}
+p{margin-bottom:14px;color:#cbd5e1}
+.pick{background:#111e33;border:1px solid #1e3a5f;border-radius:12px;padding:24px;margin-bottom:20px;position:relative}
+.pick-num{position:absolute;top:16px;right:16px;background:#c9a84c;color:#0a1628;font-weight:800;font-size:.8rem;padding:4px 10px;border-radius:20px}
+.pick h3{color:#c9a84c;margin-top:0}
+.pick .verdict{background:#0a1628;border-left:3px solid #c9a84c;padding:10px 14px;margin-top:12px;border-radius:0 6px 6px 0;font-size:.9rem;color:#94a3b8}
+.pick a{color:#c9a84c;text-decoration:none;font-weight:600}
+.pick a:hover{text-decoration:underline;color:#e2b96b}
+.science-box{background:#0d1f38;border:1px solid #1e3a5f;border-radius:10px;padding:20px 24px;margin:24px 0}
+.science-box h3{color:#60a5fa;margin-top:0;font-size:1rem}
+.science-box p{color:#94a3b8;font-size:.9rem;margin-bottom:0}
+.warning-box{background:#1a1200;border:1px solid #c9a84c;border-radius:10px;padding:16px 20px;margin:24px 0}
+.warning-box p{color:#fbbf24;font-size:.9rem;margin:0}
+.info-box{background:#0a1f3a;border:1px solid #1e6fa8;border-radius:10px;padding:16px 20px;margin:24px 0}
+.info-box p{color:#7dd3fc;font-size:.9rem;margin:0}
+table{width:100%;border-collapse:collapse;margin:20px 0;font-size:.88rem}
+th{background:#1e3a5f;color:#c9a84c;padding:10px 12px;text-align:left}
+td{padding:9px 12px;border-bottom:1px solid #1a2f4e;color:#cbd5e1}
+tr:nth-child(even) td{background:#0d1a2e}
+.grid-2{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:20px 0}
+@media(max-width:600px){.grid-2{grid-template-columns:1fr}}
+.grid-card{background:#111e33;border:1px solid #1e3a5f;border-radius:8px;padding:16px}
+.grid-card h4{color:#c9a84c;font-size:.9rem;margin-bottom:8px}
+.grid-card p{font-size:.85rem;color:#94a3b8;margin:0}
+.related{background:#111e33;border:1px solid #1e3a5f;border-radius:12px;padding:24px;margin:40px 0}
+.related h3{color:#c9a84c;margin-top:0}
+.related ul{list-style:none;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:8px}
+@media(max-width:600px){.related ul{grid-template-columns:1fr}}
+.related ul li a{color:#60a5fa;text-decoration:none;font-size:.9rem}
+.related ul li a:hover{text-decoration:underline;color:#c9a84c}
+footer{background:#060e1a;padding:30px 20px;text-align:center;color:#475569;font-size:.82rem;border-top:1px solid #1e3a5f}
+footer a{color:#c9a84c;text-decoration:none}
+</style>
+</head>
+<body>
+<header>
+  <span class="badge">Life Stages</span>
+  <h1>Best Mattress for Postpartum Recovery 2025</h1>
+  <p class="subtitle">7 expert picks for new mothers &mdash; C-section exit ease, breastfeeding positioning, hormonal night sweats, and protecting a partner&rsquo;s sleep through 12 weeks of feeds.</p>
+  <p class="meta">By SleepWise Reviews &bull; Updated May 2025 &bull; 7 picks</p>
+</header>
+<nav class="breadcrumb">
+  <a href="/">Home</a> &rsaquo; <a href="/posts/index.html">All Posts</a> &rsaquo; Best Mattress for Postpartum Recovery
+</nav>
+
+<div class="container">
+
+<p>Postpartum sleep is categorically different from pregnancy sleep. The belly is gone, but recovery is ongoing: a C-section incision healing over 6&ndash;8 weeks, pelvic floor rebuilding, perineal tissue recovering, and hormonal fluctuations driving night sweats as dramatic as perimenopause. On top of this, a new mother wakes 6&ndash;12 times per night during the first weeks &mdash; making bed exit and re-entry a repeated test of mattress design.</p>
+
+<p>This guide is distinct from our pregnancy mattress guide. Pregnancy prioritizes belly support, side-sleeping alignment, and SPD/sciatic relief. Postpartum prioritizes recovery from birth injury, nursing positioning, rapid exit capability, and partner sleep protection. The right mattress changes when you deliver.</p>
+
+<div class="science-box">
+  <h3>Postpartum Sleep Science: Why It&rsquo;s the Hardest Sleep Period</h3>
+  <p>The <em>American Journal of Obstetrics &amp; Gynecology</em> (2020) found that new mothers average 4.5 hours of fragmented sleep in the first 12 weeks, with no sleep period exceeding 2&ndash;3 hours. Prolactin (elevated to support lactation) promotes deep NREM sleep between feeds, but the feed intervals prevent full sleep cycle consolidation, resulting in chronic slow-wave sleep deprivation. Postpartum night sweats are caused by the estrogen/progesterone crash after delivery &mdash; estrogen drops from pregnancy peak to sub-menopausal levels within 24 hours of delivery, destabilizing the hypothalamic thermostat. In breastfeeding mothers, prolactin suppresses estrogen, prolonging the low-estrogen state and extending night sweats. Wound healing (C-section and perineal) peaks in weeks 2&ndash;4 and requires pressure management at the incision site.</p>
+</div>
+
+<h2>Our 7 Picks</h2>
+
+<div class="pick">
+  <span class="pick-num">#1 Best Overall</span>
+  <h3><a href="https://www.amazon.com/s?k=Saatva+Classic+Plush+Soft+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Saatva Classic Plush Soft</a></h3>
+  <p><strong>Best for:</strong> Most postpartum mothers &mdash; pressure relief, strong edge for nursing position, easy exit</p>
+  <p>The Saatva Classic Plush Soft provides the ideal combination of surface softness (for healing tissue pressure relief) and structural integrity (for safe, easy exit). The plush Euro pillow-top cushions the perineum and incision site, while the dual-coil foundation prevents the deep sinking that makes getting up difficult. Sitting on the edge of the Saatva is stable and firm &mdash; critical when core muscles are healing post-C-section and you need to push up using arms and legs alone. The taller profile (14.5") also means the mattress surface is closer to standing height, reducing the sit-to-stand effort. White glove delivery and free mattress removal are genuinely valuable when you have a newborn at home.</p>
+  <div class="verdict">Best balance of pressure relief and exit ease. Stable edge for nursing sit. White glove delivery for new parents.</div>
+</div>
+
+<div class="pick">
+  <span class="pick-num">#2 Best for Night Sweats</span>
+  <h3><a href="https://www.amazon.com/s?k=Purple+Restore+Hybrid+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Purple Restore Hybrid</a></h3>
+  <p><strong>Best for:</strong> Postpartum mothers with severe hormonal night sweats</p>
+  <p>Postpartum night sweats can be as severe as hot flashes &mdash; waking soaked in the first 2&ndash;6 weeks is common and exhausting. The Purple Grid is the most temperature-neutral sleep surface available, with no foam trapping body heat and open airflow channels throughout. Unlike phase-change covers (which have a finite thermal absorption capacity), the Grid provides continuous passive cooling with no "saturation point." The medium-soft (4.5/10) feel is gentle on healing tissues, and the hybrid coil base provides enough response for easy repositioning. The Grid also wipes clean easily &mdash; important when night sweats leave the mattress surface damp.</p>
+  <div class="verdict">Most effective passive cooling for hormonal night sweats. Easy-clean Grid surface. Medium-soft for healing tissue.</div>
+</div>
+
+<div class="pick">
+  <span class="pick-num">#3 Best Motion Isolation</span>
+  <h3><a href="https://www.amazon.com/s?k=Nectar+Premier+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Nectar Premier</a></h3>
+  <p><strong>Best for:</strong> Protecting a partner&rsquo;s sleep through 6&ndash;12 nightly feed exits</p>
+  <p>The Nectar Premier&rsquo;s thick memory foam comfort layer (3" gel memory foam + 1" dynamic foam) is the gold standard for motion isolation. A partner who can sleep through feed exits recovers better and is more functional the next day &mdash; a critical factor when two sleep-deprived adults are sharing newborn care. The medium feel (5.5/10) is gentle enough for healing tissues and firm enough for easy repositioning. Gel infusion keeps temperatures lower than standard memory foam. The 365-night trial covers the entire first postpartum year &mdash; long enough to assess sleep quality improvements as the baby&rsquo;s sleep extends.</p>
+  <div class="verdict">Best motion isolation for partner sleep protection. 365-night trial covers the full newborn adjustment period.</div>
+</div>
+
+<div class="pick">
+  <span class="pick-num">#4 Best C-Section Recovery</span>
+  <h3><a href="https://www.amazon.com/s?k=Casper+Wave+Hybrid+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Casper Wave Hybrid</a></h3>
+  <p><strong>Best for:</strong> Mothers recovering from C-section &mdash; log-roll exit without core engagement</p>
+  <p>C-section recovery specifically requires log-roll bed exit: roll to the side (no sit-up motion, which engages transverse abdominis &mdash; the cut muscle), push up with arms, swing legs to floor. The Wave Hybrid&rsquo;s zoned construction is uniquely suited to this: the softer shoulder zone allows the roll without friction or resistance, while the firmer hip/waist zone provides the stable base needed to push up. The medium (5/10) feel avoids deep sinking at the waist that would make rolling harder. The AirScape foam provides cooling for post-operative hormonal sweating. The zoned support also maintains spinal alignment for back sleeping, which many C-section mothers prefer in the early weeks.</p>
+  <div class="verdict">Best for log-roll C-section exit technique. Zoned construction supports shoulder roll. Good cooling for post-op sweating.</div>
+</div>
+
+<div class="pick">
+  <span class="pick-num">#5 Best for Breastfeeding Position</span>
+  <h3><a href="https://www.amazon.com/s?k=Helix+Midnight+Luxe+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Helix Midnight Luxe</a></h3>
+  <p><strong>Best for:</strong> Mothers using side-lying nursing position for nighttime feeds</p>
+  <p>Side-lying nursing is the most sustainable nighttime position: the mother lies on her side, baby at breast level, both supported by the mattress. This position is especially important for C-section mothers (no abdominal pressure) and mothers with perineal trauma (no sitting pressure). The Helix Midnight Luxe&rsquo;s pillow-top and zoned pocket coils provide exceptional hip and shoulder pressure relief for extended side lying. The TENCEL cover is cooling and soft enough not to cause skin irritation during postpartum sensitivity. The pillow-top doesn&rsquo;t bottom out under prolonged side pressure &mdash; important when you may hold this position for 20&ndash;40 minutes at 3 AM.</p>
+  <div class="verdict">Best hip and shoulder relief for side-lying nursing. TENCEL cover soft for postpartum skin sensitivity. Won't bottom out under extended side pressure.</div>
+</div>
+
+<div class="pick">
+  <span class="pick-num">#6 Best for Severe Night Sweats</span>
+  <h3><a href="https://www.amazon.com/s?k=Tempur-Pedic+TEMPUR-breeze+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Tempur-Pedic TEMPUR-breeze</a></h3>
+  <p><strong>Best for:</strong> Mothers with severe postpartum night sweats + significant pain (back, incision, pelvic)</p>
+  <p>When hormonal night sweats are severe AND pain is a primary issue, the TEMPUR-breeze addresses both simultaneously. The phase-change material in the cover actively pulls heat away from the body (up to 8&deg;F cooler surface), and the TEMPUR material provides unmatched pressure relief at healing tissue sites. TEMPUR also delivers the best motion isolation of any material &mdash; a partner will not feel feed exits or repositioning. The trade-off is price and the fact that memory foam can feel "stuck" &mdash; if C-section exit ease is a priority, the Wave Hybrid is a better fit. But for mothers where pain and night sweats are both severe, this is the premium solution.</p>
+  <div class="verdict">Active phase-change cooling + best-in-class pressure relief. Best when both pain and night sweats are severe.</div>
+</div>
+
+<div class="pick">
+  <span class="pick-num">#7 Budget Pick</span>
+  <h3><a href="https://www.amazon.com/s?k=DreamCloud+Premier+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">DreamCloud Premier</a></h3>
+  <p><strong>Best for:</strong> Postpartum mothers on a budget who need pressure relief without a premium price</p>
+  <p>The DreamCloud Premier&rsquo;s cashmere-blend euro pillow-top and medium feel (5/10) provide solid pressure relief for healing tissues. The hybrid coil base gives enough response for nighttime repositioning without being too firm for postpartum comfort. The 365-night trial covers the full newborn period. Good motion isolation for a hybrid &mdash; a partner will feel some exits but not be jolted awake. The breathable cover helps with night sweats. Not as cooling as Purple or as isolating as Nectar, but a genuinely good postpartum mattress at a price that matters when new baby expenses are high.</p>
+  <div class="verdict">Best value postpartum. Cashmere pillow-top for healing tissue comfort. 365-night trial covers the newborn year.</div>
+</div>
+
+<h2>Postpartum Recovery Timeline &amp; Mattress Needs</h2>
+<table>
+  <tr><th>Recovery Phase</th><th>Primary Challenge</th><th>Mattress Priority</th></tr>
+  <tr><td>Week 1&ndash;2 (acute)</td><td>Wound pain, extreme night sweats, every-2-hr feeds</td><td>Maximum pressure relief + cooling + motion isolation</td></tr>
+  <tr><td>Week 3&ndash;6 (healing)</td><td>C-section/perineal healing, pelvic floor rebuilding</td><td>Pressure relief + easy log-roll exit + edge support</td></tr>
+  <tr><td>Week 7&ndash;12 (stabilizing)</td><td>Night sweats reducing, feeds spacing to 3&ndash;4 hrs</td><td>Comfort + partner sleep protection + sleeping position flexibility</td></tr>
+  <tr><td>Month 4&ndash;6 (normalizing)</td><td>Returning to normal sleep positions, partner need</td><td>Standard couple preference takes over</td></tr>
+</table>
+
+<h2>C-Section Exit Protocol</h2>
+<p>The log-roll technique is essential for the first 6&ndash;8 weeks. A good mattress makes it work. A bad one makes it a painful ordeal.</p>
+
+<div class="grid-2">
+  <div class="grid-card">
+    <h4>Step 1: Roll to Side (No Core Activation)</h4>
+    <p>Bend knees, use arms to pull yourself to the side. Do NOT sit up straight from back &mdash; that engages the transverse abdominis (the cut muscle). A mattress with soft shoulder zone makes this roll smooth.</p>
+  </div>
+  <div class="grid-card">
+    <h4>Step 2: Lower Legs Over Edge</h4>
+    <p>Use gravity to help lower legs while pushing torso up. Firm mattress edge critical here &mdash; it shouldn't collapse under your arm pressure. The Saatva Classic edge is the most stable.</p>
+  </div>
+  <div class="grid-card">
+    <h4>Step 3: Sit at Edge (Pause)</h4>
+    <p>Sit upright on the edge for 30 seconds before standing. Prevents orthostatic dizziness (common postpartum from blood volume changes). Stable edge = safer pause.</p>
+  </div>
+  <div class="grid-card">
+    <h4>Step 4: Stand Using Arms</h4>
+    <p>Push from mattress edge to standing. Arms and legs do the work &mdash; not core. A higher mattress (12"&ndash;14") reduces the standing effort significantly versus a low mattress.</p>
+  </div>
+</div>
+
+<div class="warning-box">
+  <p><strong>Safe Sleep Note:</strong> This guide is for the mother&rsquo;s mattress. For baby&rsquo;s sleep surface, always follow AAP safe sleep guidelines: firm, flat, separate sleep surface (crib or bassinet), no soft bedding. Bedsharing on an adult mattress is not recommended by the AAP regardless of mattress type.</p>
+</div>
+
+<h2>Breastfeeding Position Guide</h2>
+<div class="grid-2">
+  <div class="grid-card">
+    <h4>Side-Lying (Best for Nighttime)</h4>
+    <p>Mother and baby face each other, baby at breast level. No sitting required. Best for C-section recovery and extreme fatigue. Needs excellent shoulder/hip pressure relief for extended holds.</p>
+  </div>
+  <div class="grid-card">
+    <h4>Laid-Back (Biological Nurturing)</h4>
+    <p>Mother reclined at 30-45 degrees, baby on chest. Adjustable base or wedge pillow sets the angle. Reduces nipple pain and aids latch. Mattress needs to support inclined position without pressure points.</p>
+  </div>
+  <div class="grid-card">
+    <h4>Football Hold (Post-C-Section)</h4>
+    <p>Baby tucked under arm, facing breast. Keeps baby off abdominal incision. Can be done sitting on mattress edge &mdash; firm edge critical for comfortable sit without sinking.</p>
+  </div>
+  <div class="grid-card">
+    <h4>Cradle (Sitting Up)</h4>
+    <p>Traditional position, sitting in bed with back supported. Requires good lumbar support when sitting upright. An adjustable base raised to 45-60 degrees replicates this without mattress-specific requirements.</p>
+  </div>
+</div>
+
+<div class="info-box">
+  <p><strong>Adjustable base for postpartum:</strong> An adjustable base with inclined head position (30&ndash;45 degrees) is one of the most overlooked postpartum tools. It allows breastfeeding without sitting fully upright, reduces GERD (common postpartum from relaxin still in system), and makes both the log-roll and sitting-up exit easier by pre-positioning the body. Most hybrids and memory foam mattresses are adjustable-base compatible.</p>
+</div>
+
+<div class="related">
+  <h3>Related Guides</h3>
+  <ul>
+    <li><a href="/posts/best-mattress-pregnancy.html">Best Mattress for Pregnancy</a></li>
+    <li><a href="/posts/best-mattress-night-sweats.html">Best Mattress for Night Sweats</a></li>
+    <li><a href="/posts/best-mattress-couples.html">Best Mattress for Couples</a></li>
+    <li><a href="/posts/best-mattress-adjustable-base.html">Best Mattress for Adjustable Base</a></li>
+    <li><a href="/posts/best-mattress-hot-sleepers.html">Best Mattress for Hot Sleepers</a></li>
+    <li><a href="/posts/best-mattress-newlyweds.html">Best Mattress for Newlyweds</a></li>
+  </ul>
+</div>
+
+</div>
+
+<footer>
+  <p>&copy; 2025 SleepWise Reviews &bull; <a href="/privacy.html">Privacy Policy</a> &bull; <a href="/disclosure.html">Affiliate Disclosure</a></p>
+  <p style="margin-top:8px;font-size:.75rem">We may earn a commission from Amazon links at no extra cost to you.</p>
+</footer>
+</body>
+</html>"""
+
+with open(out, "w", encoding="utf-8") as f:
+    f.write(html)
+print(f"Created: {out}")
