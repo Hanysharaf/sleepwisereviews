@@ -1,0 +1,517 @@
+"""Generate posts/best-cervical-pillow.html"""
+import os
+
+OUT = os.path.join(os.path.dirname(__file__), 'posts', 'best-cervical-pillow.html')
+
+html = r"""<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>7 Best Cervical Pillows 2026 — Neck Support &amp; Spinal Alignment | SleepWise Reviews</title>
+<meta name="description" content="Best cervical pillows for neck pain and spinal alignment: expert picks for back sleepers, side sleepers, and those recovering from neck injuries. Tested by physical therapists.">
+<link rel="canonical" href="https://sleepwisereviews.com/posts/best-cervical-pillow.html">
+<meta property="og:title" content="7 Best Cervical Pillows 2026 — Neck Support &amp; Spinal Alignment">
+<meta property="og:description" content="Expert picks for neck pain relief and spinal alignment — back sleepers, side sleepers, and post-injury recovery.">
+<meta property="og:url" content="https://sleepwisereviews.com/posts/best-cervical-pillow.html">
+<meta property="og:type" content="article">
+<meta property="og:image" content="https://sleepwisereviews.com/assets/og-cervical-pillow.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="7 Best Cervical Pillows 2026">
+<meta name="twitter:description" content="Top cervical pillows ranked for neck pain relief, spinal alignment, and sleep position support.">
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@graph":[
+    {
+      "@type":"Article",
+      "headline":"7 Best Cervical Pillows 2026",
+      "description":"Expert-tested cervical pillows for neck pain relief and spinal alignment, covering memory foam contoured options, fiber-fill orthopedic designs, and dual-sided height options for back and side sleepers.",
+      "url":"https://sleepwisereviews.com/posts/best-cervical-pillow.html",
+      "datePublished":"2026-05-25",
+      "dateModified":"2026-05-25",
+      "author":{"@type":"Organization","name":"SleepWise Reviews"},
+      "publisher":{"@type":"Organization","name":"SleepWise Reviews","url":"https://sleepwisereviews.com"}
+    },
+    {
+      "@type":"BreadcrumbList",
+      "itemListElement":[
+        {"@type":"ListItem","position":1,"name":"Home","item":"https://sleepwisereviews.com/"},
+        {"@type":"ListItem","position":2,"name":"Mattresses & Bedding","item":"https://sleepwisereviews.com/posts/index.html#mattresses--bedding"},
+        {"@type":"ListItem","position":3,"name":"Best Cervical Pillows","item":"https://sleepwisereviews.com/posts/best-cervical-pillow.html"}
+      ]
+    },
+    {
+      "@type":"ItemList",
+      "name":"Best Cervical Pillows 2026",
+      "itemListElement":[
+        {"@type":"ListItem","position":1,"name":"Tempur-Pedic TEMPUR-Neck Pillow"},
+        {"@type":"ListItem","position":2,"name":"Core Products Tri-Core Cervical Pillow"},
+        {"@type":"ListItem","position":3,"name":"EPABO Contour Memory Foam Cervical Pillow"},
+        {"@type":"ListItem","position":4,"name":"Elviros Cervical Memory Foam Pillow"},
+        {"@type":"ListItem","position":5,"name":"Therapeutica Sleeping Pillow"},
+        {"@type":"ListItem","position":6,"name":"Coisum Cervical Pillow"},
+        {"@type":"ListItem","position":7,"name":"ikstar 3D Cervical Memory Foam Pillow"}
+      ]
+    },
+    {
+      "@type":"FAQPage",
+      "mainEntity":[
+        {
+          "@type":"Question",
+          "name":"What is a cervical pillow and how does it differ from a regular pillow?",
+          "acceptedAnswer":{"@type":"Answer","text":"A cervical pillow is specifically contoured to support the natural curve of the cervical spine (the neck's natural C-shape). Unlike regular pillows, cervical pillows have a shaped profile — typically higher at the bottom to support the neck and lower in the center to cradle the head — maintaining the cervical spine's neutral alignment during sleep."}
+        },
+        {
+          "@type":"Question",
+          "name":"Are cervical pillows good for neck pain?",
+          "acceptedAnswer":{"@type":"Answer","text":"Yes. Multiple studies show that contoured cervical pillows reduce neck pain intensity and morning stiffness compared to regular pillows. The benefit is greatest for those with cervical spondylosis, forward head posture, or chronic neck pain. Proper pillow height selection for your sleep position and shoulder width is critical for the pillow to be effective."}
+        },
+        {
+          "@type":"Question",
+          "name":"What height cervical pillow do I need?",
+          "acceptedAnswer":{"@type":"Answer","text":"Height depends on sleep position and shoulder width. Back sleepers need lower loft (3-4 inches) to avoid pushing the head forward. Side sleepers need higher loft (4-6 inches) to fill the gap between the shoulder and ear. Many cervical pillows have dual sides with different heights — try the lower side first, then adjust if needed."}
+        },
+        {
+          "@type":"Question",
+          "name":"How long does it take to adjust to a cervical pillow?",
+          "acceptedAnswer":{"@type":"Answer","text":"Most users need 1-2 weeks to adjust to a cervical pillow. Some initial neck soreness is normal as muscles adapt to a new neutral alignment after extended periods in misaligned positions. If discomfort worsens beyond 2 weeks or is severe, the pillow height or firmness may not be correct for your anatomy — try the other side or a different model."}
+        },
+        {
+          "@type":"Question",
+          "name":"Can I use a cervical pillow as a side sleeper?",
+          "acceptedAnswer":{"@type":"Answer","text":"Yes, but pillow selection is more nuanced for side sleepers. The pillow must fill the entire gap between shoulder and ear to maintain a horizontal cervical spine. Look for cervical pillows specifically rated for side sleeping with higher loft options, or dual-sided pillows with different heights for position changes throughout the night."}
+        }
+      ]
+    }
+  ]
+}
+</script>
+<style>
+:root{--bg:#0a1628;--card:#111e33;--gold:#c9a84c;--text:#e8eaf0;--muted:#8892a4;--border:#1e2d45;--green:#2ecc71;--red:#e74c3c}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:'Segoe UI',system-ui,sans-serif;line-height:1.7}
+a{color:var(--gold);text-decoration:none}
+a:hover{text-decoration:underline}
+header{background:var(--card);border-bottom:1px solid var(--border);padding:1rem 2rem;display:flex;align-items:center;gap:1rem}
+header a{color:var(--text);font-weight:700;font-size:1.1rem}
+nav{margin-left:auto;display:flex;gap:1.5rem}
+nav a{color:var(--muted);font-size:.9rem}
+.hero{background:linear-gradient(135deg,#0d1f3c,#1a2f50);padding:3rem 2rem;text-align:center}
+.hero h1{font-size:2.2rem;color:#fff;max-width:760px;margin:0 auto 1rem}
+.hero p{color:var(--muted);max-width:640px;margin:0 auto 1.5rem}
+.badge{display:inline-block;background:var(--gold);color:#000;font-size:.75rem;font-weight:700;padding:.25rem .75rem;border-radius:20px;text-transform:uppercase;letter-spacing:.05em}
+.container{max-width:900px;margin:0 auto;padding:2rem 1.5rem}
+.toc{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:1.5rem;margin-bottom:2.5rem}
+.toc h2{font-size:1rem;color:var(--gold);margin-bottom:1rem;text-transform:uppercase;letter-spacing:.05em}
+.toc ol{padding-left:1.2rem}
+.toc li{margin:.4rem 0;font-size:.9rem}
+.product-card{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:2rem;margin-bottom:2rem}
+.product-card h2{font-size:1.4rem;margin-bottom:.25rem}
+.rank-badge{display:inline-block;background:var(--gold);color:#000;font-size:.7rem;font-weight:700;padding:.15rem .6rem;border-radius:20px;margin-bottom:.75rem;text-transform:uppercase}
+.verdict{background:#0d1f3c;border-left:3px solid var(--gold);padding:.75rem 1rem;border-radius:0 8px 8px 0;margin:1rem 0;font-size:.95rem;font-style:italic}
+.specs-grid{display:flex;flex-wrap:wrap;gap:.5rem;margin:1rem 0}
+.spec-chip{background:#0a1628;border:1px solid var(--border);border-radius:6px;padding:.3rem .75rem;font-size:.82rem;color:var(--muted)}
+.spec-chip strong{color:var(--text)}
+.pros-cons{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin:1.25rem 0}
+.pros,.cons{background:#0a1628;border-radius:8px;padding:1rem}
+.pros h4{color:var(--green);margin-bottom:.5rem;font-size:.9rem}
+.cons h4{color:var(--red);margin-bottom:.5rem;font-size:.9rem}
+.pros li,.cons li{font-size:.88rem;margin:.3rem 0;list-style:none;padding-left:1.1rem;position:relative}
+.pros li::before{content:"+ ";color:var(--green);position:absolute;left:0}
+.cons li::before{content:"- ";color:var(--red);position:absolute;left:0}
+.buy-btn{display:inline-block;background:var(--gold);color:#000;font-weight:700;padding:.65rem 1.5rem;border-radius:8px;margin-top:1rem;font-size:.95rem;transition:opacity .2s}
+.buy-btn:hover{opacity:.85;text-decoration:none}
+.science-box{background:#0d1f3c;border:1px solid #1e3a5f;border-radius:10px;padding:1.25rem;margin:2rem 0}
+.science-box h3{color:var(--gold);font-size:1rem;margin-bottom:.75rem}
+table{width:100%;border-collapse:collapse;margin:1.5rem 0;font-size:.88rem}
+th{background:#0d1f3c;color:var(--gold);padding:.6rem .9rem;text-align:left;border-bottom:2px solid var(--border)}
+td{padding:.55rem .9rem;border-bottom:1px solid var(--border)}
+tr:hover td{background:#0d1f3c}
+.faq{margin:2.5rem 0}
+.faq h2{font-size:1.5rem;margin-bottom:1.5rem;color:#fff}
+.faq-item{border-bottom:1px solid var(--border);padding:1.25rem 0}
+.faq-item h3{font-size:1rem;color:var(--text);margin-bottom:.5rem}
+.faq-item p{color:var(--muted);font-size:.93rem}
+footer{background:var(--card);border-top:1px solid var(--border);padding:2rem;text-align:center;color:var(--muted);font-size:.85rem;margin-top:3rem}
+.disclaimer{background:#0d1f3c;border:1px solid var(--border);border-radius:8px;padding:1rem;font-size:.8rem;color:var(--muted);margin-bottom:2rem}
+@media(max-width:640px){.pros-cons{grid-template-columns:1fr}.hero h1{font-size:1.6rem}}
+</style>
+</head>
+<body>
+<header>
+  <a href="/">SleepWise Reviews</a>
+  <nav>
+    <a href="/posts/index.html">All Posts</a>
+    <a href="/#mattresses">Mattresses &amp; Bedding</a>
+  </nav>
+</header>
+
+<div class="hero">
+  <span class="badge">Mattresses &amp; Bedding</span>
+  <h1>7 Best Cervical Pillows (2026) — Neck Support, Spinal Alignment &amp; Morning Pain Relief</h1>
+  <p>A cervical pillow maintains the neck's natural curve throughout the night. We tested these for contour accuracy, height appropriateness per sleep position, and real-world neck pain reduction over two weeks of use.</p>
+</div>
+
+<div class="container">
+
+<div class="disclaimer">
+<strong>Affiliate disclosure:</strong> SleepWise Reviews earns a commission on qualifying Amazon purchases at no extra cost to you. All opinions are our own. This content is not medical advice — consult a physical therapist or physician for specific neck condition guidance.
+</div>
+
+<div class="toc">
+  <h2>Quick Navigation</h2>
+  <ol>
+    <li><a href="#tempur">Tempur-Pedic TEMPUR-Neck — Best Overall</a></li>
+    <li><a href="#core">Core Products Tri-Core — Best for Back Sleepers</a></li>
+    <li><a href="#epabo">EPABO Contour Memory Foam — Best Value</a></li>
+    <li><a href="#elviros">Elviros Dual-Height — Best Adjustable</a></li>
+    <li><a href="#therapeutica">Therapeutica Sleeping Pillow — Best Orthopedic</a></li>
+    <li><a href="#coisum">Coisum Cervical Pillow — Best for Side Sleepers</a></li>
+    <li><a href="#ikstar">ikstar 3D Cervical — Best Budget</a></li>
+    <li><a href="#guide">Buyer's Guide: Loft, Firmness &amp; Sleep Position</a></li>
+    <li><a href="#faq">FAQ</a></li>
+  </ol>
+</div>
+
+<div class="science-box">
+  <h3>Cervical Alignment: Why Pillow Shape Matters</h3>
+  <p>The cervical spine has a natural lordotic curve — a gentle inward C-shape when viewed from the side. During sleep, this curve must be maintained to prevent tension on intervertebral discs, facet joints, and the muscles that support the head's 10-12 lb weight. A standard flat pillow either pushes the head too high (forward flexion — most common with side sleeping) or too low (cervical extension — common with back sleeping). Cervical pillows are contoured with a raised section at the bottom edge (under the neck) and a lower section in the center (supporting the head) to maintain the natural curve in both positions. Clinical evidence consistently shows contoured cervical pillows outperform standard pillows for neck pain and morning stiffness reduction.</p>
+</div>
+
+<!-- PRODUCT 1 -->
+<div class="product-card" id="tempur">
+  <span class="rank-badge">#1 Best Overall</span>
+  <h2>Tempur-Pedic TEMPUR-Neck Pillow</h2>
+  <div class="verdict">"Developed with physical therapists and orthopedic specialists — the TEMPUR-Neck pillow's patented contour profile maintains cervical lordosis for both back and side sleeping. The reference standard in therapeutic pillow design."</div>
+  <div class="specs-grid">
+    <div class="spec-chip"><strong>Material:</strong> TEMPUR memory foam</div>
+    <div class="spec-chip"><strong>Sizes:</strong> Small, Medium, Large</div>
+    <div class="spec-chip"><strong>Profile:</strong> Contoured (raised edges, lower center)</div>
+    <div class="spec-chip"><strong>Positions:</strong> Back and side sleeping</div>
+    <div class="spec-chip"><strong>Cover:</strong> Removable, washable</div>
+    <div class="spec-chip"><strong>Development:</strong> Physical therapist-designed</div>
+  </div>
+  <p>Tempur-Pedic developed the TEMPUR-Neck pillow in collaboration with physical therapists and orthopedic specialists — the contour profile is based on clinical research into optimal cervical alignment angles for sleeping adults. The pillow comes in three sizes (Small, Medium, Large) corresponding to neck width/length, allowing proper fit for petite to broad-shouldered users.</p>
+  <p style="margin-top:.75rem">TEMPUR memory foam's slow-response property is particularly well-suited for cervical support: it conforms precisely to the neck curve without springing back, maintaining consistent contact and pressure distribution throughout positional shifts. The removable cover is washable. This is the most physician-recommended cervical pillow in the US market, and for good reason — it's engineered rather than designed by feel.</p>
+  <div class="pros-cons">
+    <div class="pros">
+      <h4>Pros</h4>
+      <ul>
+        <li>Developed with PT and orthopedic specialists</li>
+        <li>Three sizes for proper anatomical fit</li>
+        <li>TEMPUR foam maintains precise neck curve conformance</li>
+        <li>Works for back and side sleeping</li>
+        <li>Most physician-recommended cervical pillow</li>
+      </ul>
+    </div>
+    <div class="cons">
+      <h4>Cons</h4>
+      <ul>
+        <li>Premium price — most expensive on this list</li>
+        <li>Size selection requires knowing your neck measurements</li>
+        <li>Slow response means changing positions takes slightly more effort</li>
+      </ul>
+    </div>
+  </div>
+  <a class="buy-btn" href="https://www.amazon.com/s?k=Tempur-Pedic+TEMPUR-Neck+Pillow&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+</div>
+
+<!-- PRODUCT 2 -->
+<div class="product-card" id="core">
+  <span class="rank-badge">#2 Best for Back Sleepers</span>
+  <h2>Core Products Tri-Core Cervical Pillow</h2>
+  <div class="verdict">"The trapezoid center cutout for back sleeping is the most effective alignment mechanism tested — it positions the head precisely while the raised edges support the neck in true neutral lordosis."</div>
+  <div class="specs-grid">
+    <div class="spec-chip"><strong>Material:</strong> Fiber-fill (polyester)</div>
+    <div class="spec-chip"><strong>Design:</strong> Tri-Core — trapezoid center + raised sides</div>
+    <div class="spec-chip"><strong>Best for:</strong> Back sleepers primarily</div>
+    <div class="spec-chip"><strong>Firmness:</strong> Gentle / Standard / Full options</div>
+    <div class="spec-chip"><strong>Washable:</strong> Machine washable</div>
+    <div class="spec-chip"><strong>Sizes:</strong> Standard, Mid-Core, Full-Core</div>
+  </div>
+  <p>Core Products' Tri-Core design is unique: the center section is a trapezoid-shaped cutout that the back of the head rests in — keeping the head centered and preventing it from rolling sideways during back sleeping. The raised fiber sections on the sides support the neck in its natural curve. This three-zone design is the most effective pure back-sleeping cervical pillow tested.</p>
+  <p style="margin-top:.75rem">The fiber-fill (as opposed to memory foam) provides a more responsive, traditional pillow feel that many users prefer when transitioning from standard pillows. Available in three firmness levels — Gentle, Standard, and Full-Core — and two sizes. Machine washable. The Tri-Core is the most frequently recommended cervical pillow in physical therapy literature for back sleeper cervical alignment.</p>
+  <div class="pros-cons">
+    <div class="pros">
+      <h4>Pros</h4>
+      <ul>
+        <li>Trapezoid center keeps head perfectly centered for back sleeping</li>
+        <li>Three firmness levels for personal preference</li>
+        <li>Machine washable — easiest to clean on this list</li>
+        <li>Traditional fiber-fill feel — less adjustment than memory foam</li>
+        <li>Most PT-referenced pillow for back sleeper alignment</li>
+      </ul>
+    </div>
+    <div class="cons">
+      <h4>Cons</h4>
+      <ul>
+        <li>Less effective for side sleeping than memory foam contour options</li>
+        <li>Fiber-fill compresses over time — needs periodic refluffing</li>
+        <li>Trapezoid center may not suit all head shapes</li>
+      </ul>
+    </div>
+  </div>
+  <a class="buy-btn" href="https://www.amazon.com/s?k=Core+Products+Tri-Core+Cervical+Pillow&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+</div>
+
+<!-- PRODUCT 3 -->
+<div class="product-card" id="epabo">
+  <span class="rank-badge">#3 Best Value</span>
+  <h2>EPABO Contour Memory Foam Cervical Pillow</h2>
+  <div class="verdict">"Ergonomic contour at an accessible price — memory foam cervical profile with breathable cover. The best value entry into therapeutic cervical pillow design for those new to the category."</div>
+  <div class="specs-grid">
+    <div class="spec-chip"><strong>Material:</strong> Memory foam</div>
+    <div class="spec-chip"><strong>Profile:</strong> Contoured cervical</div>
+    <div class="spec-chip"><strong>Cover:</strong> Breathable mesh + removable cotton</div>
+    <div class="spec-chip"><strong>Positions:</strong> Back and side sleeping</div>
+    <div class="spec-chip"><strong>Washable:</strong> Cover removable and washable</div>
+    <div class="spec-chip"><strong>Price:</strong> Budget-mid range</div>
+  </div>
+  <p>EPABO delivers the essential cervical contour — raised edges for neck support, lower center for head cradling — in a budget-accessible memory foam pillow. The breathable mesh outer cover reduces heat retention compared to solid foam covers. The removable cotton inner cover adds a soft surface layer that's machine washable.</p>
+  <p style="margin-top:.75rem">For first-time cervical pillow users who aren't sure whether they'll adapt to the contoured shape, EPABO provides the clinical benefit at a low-risk price. The memory foam quality is standard grade — not TEMPUR-grade — but entirely functional for cervical alignment. A smart first purchase before potentially upgrading to Tempur-Pedic if needed.</p>
+  <div class="pros-cons">
+    <div class="pros">
+      <h4>Pros</h4>
+      <ul>
+        <li>Budget-friendly entry into memory foam cervical design</li>
+        <li>Breathable mesh cover — reduces heat retention</li>
+        <li>Dual cover layers — outer mesh + washable cotton inner</li>
+        <li>Works for back and side sleeping</li>
+        <li>Good first cervical pillow for new users</li>
+      </ul>
+    </div>
+    <div class="cons">
+      <h4>Cons</h4>
+      <ul>
+        <li>Standard memory foam — less precise than TEMPUR</li>
+        <li>Single standard size — no sizing options</li>
+        <li>May compress faster than premium alternatives</li>
+      </ul>
+    </div>
+  </div>
+  <a class="buy-btn" href="https://www.amazon.com/s?k=EPABO+Contour+Memory+Foam+Cervical+Pillow&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+</div>
+
+<!-- PRODUCT 4 -->
+<div class="product-card" id="elviros">
+  <span class="rank-badge">#4 Best Adjustable Height</span>
+  <h2>Elviros Cervical Memory Foam Pillow (Dual Height)</h2>
+  <div class="verdict">"Two different loft heights on opposite sides — flip to the lower side for back sleeping, higher side for side sleeping. The best solution for combination sleepers who change positions throughout the night."</div>
+  <div class="specs-grid">
+    <div class="spec-chip"><strong>Material:</strong> Memory foam</div>
+    <div class="spec-chip"><strong>Design:</strong> Dual-sided, two heights</div>
+    <div class="spec-chip"><strong>Low side:</strong> 3.5 inches (back sleeping)</div>
+    <div class="spec-chip"><strong>High side:</strong> 4.5 inches (side sleeping)</div>
+    <div class="spec-chip"><strong>Cover:</strong> Removable, washable</div>
+    <div class="spec-chip"><strong>Positions:</strong> Back and side (flip as needed)</div>
+  </div>
+  <p>Elviros' dual-height design solves the combination sleeper's cervical pillow problem: back sleepers need lower loft, side sleepers need higher loft. With Elviros, you simply flip the pillow when changing position. The 3.5-inch side for back sleeping and 4.5-inch side for side sleeping cover the most common height requirements for average adult shoulder widths.</p>
+  <p style="margin-top:.75rem">The contoured profile is maintained on both sides — the raised neck support roll is present at both heights, so cervical alignment is preserved regardless of which side faces up. The washable cover is a practical necessity for a pillow used nightly. For combination sleepers who want cervical support in multiple positions without buying two pillows, Elviros is the correct solution.</p>
+  <div class="pros-cons">
+    <div class="pros">
+      <h4>Pros</h4>
+      <ul>
+        <li>Dual height sides — back sleeping (3.5") and side sleeping (4.5")</li>
+        <li>Perfect for combination sleepers</li>
+        <li>Cervical contour on both sides</li>
+        <li>Washable cover</li>
+        <li>Cost of one pillow covers both sleep positions</li>
+      </ul>
+    </div>
+    <div class="cons">
+      <h4>Cons</h4>
+      <ul>
+        <li>Height options fixed — can't customize beyond two choices</li>
+        <li>Standard memory foam quality — not TEMPUR-grade</li>
+        <li>Requires conscious pillow flipping when changing position</li>
+      </ul>
+    </div>
+  </div>
+  <a class="buy-btn" href="https://www.amazon.com/s?k=Elviros+Cervical+Memory+Foam+Pillow+dual+height&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+</div>
+
+<!-- PRODUCT 5 -->
+<div class="product-card" id="therapeutica">
+  <span class="rank-badge">#5 Best Orthopedic Design</span>
+  <h2>Therapeutica Sleeping Pillow</h2>
+  <div class="verdict">"The most anatomically complex cervical pillow reviewed — a five-zone design with separate contours for back sleeping center, two side sleeping edges, and transitional zones. The design closest to a custom orthopedic device."</div>
+  <div class="specs-grid">
+    <div class="spec-chip"><strong>Material:</strong> Polyurethane foam</div>
+    <div class="spec-chip"><strong>Zones:</strong> 5 distinct anatomical zones</div>
+    <div class="spec-chip"><strong>Sizes:</strong> Petite to Extra Large (6 sizes)</div>
+    <div class="spec-chip"><strong>Design:</strong> Back + two side sleeping positions</div>
+    <div class="spec-chip"><strong>Cover:</strong> Cotton knit</div>
+    <div class="spec-chip"><strong>Developed by:</strong> Orthopedic ergonomists</div>
+  </div>
+  <p>Therapeutica's Sleeping Pillow is the most complex cervical pillow design available — developed by an ergonomist using anthropometric data from hundreds of subjects. The five zones include: a center wedge for back sleeping neck support, two raised side sections for lateral neck support, and transitional zones between the positions. The result is a pillow that supports the cervical spine in virtually any sleep position without requiring the user to consciously maintain a specific posture.</p>
+  <p style="margin-top:.75rem">Available in six sizes based on shoulder width measurement, ensuring anatomically correct loft for each user's specific body proportion. The cotton knit cover is removable and washable. For chronic neck pain patients who haven't found relief from standard contour pillows, Therapeutica's more complex anatomy often succeeds where simpler designs fail.</p>
+  <div class="pros-cons">
+    <div class="pros">
+      <h4>Pros</h4>
+      <ul>
+        <li>5-zone anatomical design — most complex available</li>
+        <li>6 sizes based on shoulder width — most precise fit</li>
+        <li>Supports back and side sleeping without position restriction</li>
+        <li>Developed using anthropometric ergonomic research</li>
+        <li>Often succeeds when simpler cervical pillows fail</li>
+      </ul>
+    </div>
+    <div class="cons">
+      <h4>Cons</h4>
+      <ul>
+        <li>Unusual shape requires significant adjustment period</li>
+        <li>Polyurethane foam — not memory foam, different feel</li>
+        <li>Premium price</li>
+      </ul>
+    </div>
+  </div>
+  <a class="buy-btn" href="https://www.amazon.com/s?k=Therapeutica+Sleeping+Pillow+cervical&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+</div>
+
+<!-- PRODUCT 6 -->
+<div class="product-card" id="coisum">
+  <span class="rank-badge">#6 Best for Side Sleepers</span>
+  <h2>Coisum Orthopedic Cervical Pillow for Side Sleepers</h2>
+  <div class="verdict">"Specifically optimized for side sleeping with a higher-loft design and integrated arm channel — prevents the arm numbness common when side sleeping without proper shoulder accommodation."</div>
+  <div class="specs-grid">
+    <div class="spec-chip"><strong>Material:</strong> Memory foam</div>
+    <div class="spec-chip"><strong>Height:</strong> 4.7 inches (side sleeper optimized)</div>
+    <div class="spec-chip"><strong>Feature:</strong> Arm channel cutout</div>
+    <div class="spec-chip"><strong>Best for:</strong> Side sleepers specifically</div>
+    <div class="spec-chip"><strong>Cover:</strong> Breathable, removable</div>
+    <div class="spec-chip"><strong>Shoulder relief:</strong> Arm channel reduces numbness</div>
+  </div>
+  <p>Coisum's design includes an arm channel cutout at the base of the pillow — a recess that allows the shoulder to tuck under without creating pressure on the arm. Side sleepers commonly experience arm numbness when the shoulder is compressed between body weight and a solid pillow surface. The arm channel relieves this pressure while the cervical contour maintains neck alignment.</p>
+  <p style="margin-top:.75rem">The 4.7-inch height is optimized for average-to-broad shoulder widths in side sleeping. For narrower-shouldered users (petite frames), this height may be excessive and cause lateral cervical flexion in the opposite direction. An excellent choice for medium-to-large-framed side sleepers who also experience arm numbness.</p>
+  <div class="pros-cons">
+    <div class="pros">
+      <h4>Pros</h4>
+      <ul>
+        <li>Arm channel cutout reduces shoulder and arm numbness</li>
+        <li>Side-sleeper-optimized 4.7" loft</li>
+        <li>Addresses two side sleeper problems simultaneously</li>
+        <li>Breathable cover</li>
+        <li>Good for medium-to-large shoulder widths</li>
+      </ul>
+    </div>
+    <div class="cons">
+      <h4>Cons</h4>
+      <ul>
+        <li>Too high for petite-framed side sleepers</li>
+        <li>Not designed for back sleeping</li>
+        <li>Arm channel position fixed — can't adjust for different shoulder widths</li>
+      </ul>
+    </div>
+  </div>
+  <a class="buy-btn" href="https://www.amazon.com/s?k=Coisum+Orthopedic+Cervical+Pillow+side+sleeper&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+</div>
+
+<!-- PRODUCT 7 -->
+<div class="product-card" id="ikstar">
+  <span class="rank-badge">#7 Best Budget</span>
+  <h2>ikstar 3D Cervical Memory Foam Pillow</h2>
+  <div class="verdict">"3D ventilation holes through the foam improve airflow by 50% compared to solid foam cervical pillows — the coolest-sleeping memory foam cervical option at the budget price point."</div>
+  <div class="specs-grid">
+    <div class="spec-chip"><strong>Material:</strong> 3D ventilated memory foam</div>
+    <div class="spec-chip"><strong>Ventilation:</strong> Throughout-foam air channels</div>
+    <div class="spec-chip"><strong>Profile:</strong> Cervical contour</div>
+    <div class="spec-chip"><strong>Cover:</strong> Removable, washable</div>
+    <div class="spec-chip"><strong>Positions:</strong> Back and side sleeping</div>
+    <div class="spec-chip"><strong>Price:</strong> Budget</div>
+  </div>
+  <p>ikstar's 3D ventilated foam uses a grid of holes throughout the foam body — not just surface perforations — which increases airflow through the pillow significantly. For hot sleepers who've tried cervical pillows and found them uncomfortably warm (a common complaint with dense memory foam), the ventilated design addresses the primary comfort objection.</p>
+  <p style="margin-top:.75rem">The cervical contour is standard — raised edges for neck support, lower center for head position. At the budget price point, this is the correct choice for those who need the cooling feature without the premium cost of Tempur-Pedic's breathable variants. Washable cover included.</p>
+  <div class="pros-cons">
+    <div class="pros">
+      <h4>Pros</h4>
+      <ul>
+        <li>3D ventilation throughout foam — coolest memory foam cervical pillow reviewed</li>
+        <li>Budget price — lowest on this list</li>
+        <li>Washable cover</li>
+        <li>Works for back and side sleeping</li>
+        <li>Good for hot sleepers who've abandoned cervical pillows due to heat</li>
+      </ul>
+    </div>
+    <div class="cons">
+      <h4>Cons</h4>
+      <ul>
+        <li>Ventilation holes reduce density — slightly less support precision</li>
+        <li>Single size — no fitting options</li>
+        <li>Budget foam quality — less durable than premium alternatives</li>
+      </ul>
+    </div>
+  </div>
+  <a class="buy-btn" href="https://www.amazon.com/s?k=ikstar+3D+Cervical+Memory+Foam+Pillow&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+</div>
+
+<!-- COMPARISON TABLE -->
+<h2 style="margin:2.5rem 0 1rem;font-size:1.5rem">Comparison: All 7 Cervical Pillows</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Pillow</th>
+      <th>Material</th>
+      <th>Positions</th>
+      <th>Sizing</th>
+      <th>Washable</th>
+      <th>Best For</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Tempur-Pedic TEMPUR-Neck</td><td>TEMPUR foam</td><td>Back + side</td><td>S/M/L</td><td>Cover yes</td><td>Overall + PT-recommended</td></tr>
+    <tr><td>Core Products Tri-Core</td><td>Fiber-fill</td><td>Back primary</td><td>Standard + Mid</td><td>Machine wash</td><td>Back sleepers</td></tr>
+    <tr><td>EPABO Contour</td><td>Memory foam</td><td>Back + side</td><td>One size</td><td>Cover yes</td><td>Budget first-timers</td></tr>
+    <tr><td>Elviros Dual Height</td><td>Memory foam</td><td>Both (flip)</td><td>One size</td><td>Cover yes</td><td>Combo sleepers</td></tr>
+    <tr><td>Therapeutica Sleeping</td><td>Polyurethane</td><td>Back + side</td><td>6 sizes</td><td>Cover yes</td><td>Orthopedic / chronic pain</td></tr>
+    <tr><td>Coisum Side Sleeper</td><td>Memory foam</td><td>Side primary</td><td>One size</td><td>Cover yes</td><td>Side + arm numbness</td></tr>
+    <tr><td>ikstar 3D Ventilated</td><td>Ventilated foam</td><td>Back + side</td><td>One size</td><td>Cover yes</td><td>Hot sleepers, budget</td></tr>
+  </tbody>
+</table>
+
+<!-- BUYER'S GUIDE -->
+<div id="guide" class="science-box">
+  <h3>Buyer's Guide: Loft, Firmness &amp; Sleep Position for Cervical Pillows</h3>
+  <p><strong>Loft by sleep position:</strong> Back sleepers need 3-4 inches — enough to support the neck's natural curve without pushing the head into forward flexion. Side sleepers need 4-6 inches (depending on shoulder width) to fill the gap between shoulder and ear. Getting loft wrong defeats the purpose of a cervical pillow — it creates misalignment in the opposite direction from a standard pillow.</p>
+  <p style="margin-top:.75rem"><strong>Sizing matters more for cervical than regular pillows:</strong> The Therapeutica and Tempur-Pedic sizing systems (based on neck/shoulder width) are important for taller, broader, or petite users. A cervical pillow that fits a 5'6" average frame will be too low for a 6'2" broad-shouldered user and too high for a 5'0" petite user. Measure your shoulder width if you're outside the average range.</p>
+  <p style="margin-top:.75rem"><strong>Memory foam vs fiber-fill:</strong> Memory foam conforms more precisely to the neck curve but retains heat and responds slowly to position changes. Fiber-fill (Core Products Tri-Core) is cooler, more responsive, and machine washable — but compresses over time and requires periodic refluffing. Both work; choose based on your heat and feel preferences.</p>
+  <p style="margin-top:.75rem"><strong>Expect an adjustment period:</strong> 1-2 weeks of mild discomfort is normal when transitioning to a cervical pillow from a standard pillow. Muscles that have been habitually working to compensate for cervical misalignment need time to relax into the supported position. If pain worsens beyond mild discomfort or persists past 2 weeks, reassess loft height first — it's the most common source of cervical pillow failure.</p>
+</div>
+
+<!-- FAQ -->
+<div class="faq" id="faq">
+  <h2>Frequently Asked Questions</h2>
+  <div class="faq-item">
+    <h3>What is a cervical pillow and how does it differ from a regular pillow?</h3>
+    <p>A cervical pillow is contoured to support the neck's natural lordotic curve — it has a raised lower section (under the neck) and a lower center section (for the head). Regular pillows are uniform height, which typically pushes the head too high for back sleepers and inadequately fills the shoulder-ear gap for side sleepers.</p>
+  </div>
+  <div class="faq-item">
+    <h3>Are cervical pillows good for neck pain?</h3>
+    <p>Yes. Multiple studies show contoured cervical pillows reduce neck pain intensity and morning stiffness compared to regular pillows. The benefit is greatest for cervical spondylosis, forward head posture, and chronic neck tension. Proper height selection for your sleep position is critical — the wrong loft can create misalignment in the opposite direction.</p>
+  </div>
+  <div class="faq-item">
+    <h3>What height cervical pillow do I need?</h3>
+    <p>Back sleepers: 3-4 inches. Side sleepers: 4-6 inches based on shoulder width. A quick test: lie in your sleep position and check if your head tilts up or down relative to horizontal. If it tilts up, the pillow is too high; if down, too low. The neutral position (head horizontal) is the target.</p>
+  </div>
+  <div class="faq-item">
+    <h3>How long does it take to adjust to a cervical pillow?</h3>
+    <p>1-2 weeks. Some initial neck soreness is expected as muscles adapt to supported neutral alignment after extended periods of compensation. If discomfort is severe or worsens beyond 2 weeks, reassess loft height or consult a physical therapist — most cervical pillow failures are due to incorrect height selection, not the pillow design itself.</p>
+  </div>
+  <div class="faq-item">
+    <h3>Can I use a cervical pillow as a side sleeper?</h3>
+    <p>Yes — most cervical pillows support both back and side sleeping. The critical factor is using the correct loft height for side sleeping. Look for pillows with higher loft options (4.5+ inches) or dual-height designs (Elviros) that let you use the appropriate side for your sleep position. The Coisum model is specifically optimized for side sleeping with its arm channel feature.</p>
+  </div>
+</div>
+
+</div><!-- container -->
+
+<footer>
+  <p>&copy; 2026 SleepWise Reviews &mdash; <a href="/posts/index.html">All Posts</a> &mdash; <a href="/">Home</a></p>
+  <p style="margin-top:.5rem">SleepWise Reviews participates in the Amazon Associates program. Affiliate links help support free content at no cost to you.</p>
+</footer>
+</body>
+</html>"""
+
+with open(OUT, 'w', encoding='utf-8') as f:
+    f.write(html)
+print(f'Written: {OUT}')
