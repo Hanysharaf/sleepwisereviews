@@ -1,0 +1,468 @@
+content = '''<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Best Mattress for Lyme Disease 2026 | Lyme Arthritis, Neuroborreliosis &amp; PTLDS Sleep</title>
+<meta name="description" content="7 expert-tested mattresses for Lyme disease. Science-backed picks for Lyme arthritis joint pain, neuroborreliosis encephalopathy, PTLDS fatigue, tick-borne co-infection night sweats, and Lyme fog sleep disruption.">
+<link rel="canonical" href="https://sleepwisereviews.com/posts/best-mattress-lyme-disease.html">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Best Mattress for Lyme Disease 2026",
+  "description": "Expert-tested mattress picks for Lyme disease: Lyme arthritis, neuroborreliosis encephalopathy, PTLDS fatigue, co-infection night sweats, and Lyme fog sleep disruption.",
+  "author": {"@type": "Organization", "name": "SleepWise Reviews"},
+  "publisher": {"@type": "Organization", "name": "SleepWise Reviews", "url": "https://sleepwisereviews.com"},
+  "datePublished": "2026-05-26",
+  "dateModified": "2026-05-26",
+  "url": "https://sleepwisereviews.com/posts/best-mattress-lyme-disease.html"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://sleepwisereviews.com"},
+    {"@type": "ListItem", "position": 2, "name": "Health Conditions", "item": "https://sleepwisereviews.com/posts/index.html#health-conditions"},
+    {"@type": "ListItem", "position": 3, "name": "Best Mattress for Lyme Disease", "item": "https://sleepwisereviews.com/posts/best-mattress-lyme-disease.html"}
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Best Mattresses for Lyme Disease",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Purple Restore Hybrid", "url": "https://www.amazon.com/s?k=Purple+Restore+Hybrid+mattress&tag=sleepwiserevi-20"},
+    {"@type": "ListItem", "position": 2, "name": "Tempur-ProAdapt Soft", "url": "https://www.amazon.com/s?k=Tempur-ProAdapt+Soft+mattress&tag=sleepwiserevi-20"},
+    {"@type": "ListItem", "position": 3, "name": "Saatva Classic Plush Soft", "url": "https://www.amazon.com/s?k=Saatva+Classic+Plush+Soft+mattress&tag=sleepwiserevi-20"},
+    {"@type": "ListItem", "position": 4, "name": "Casper Wave Hybrid", "url": "https://www.amazon.com/s?k=Casper+Wave+Hybrid+mattress&tag=sleepwiserevi-20"},
+    {"@type": "ListItem", "position": 5, "name": "Helix Midnight Luxe", "url": "https://www.amazon.com/s?k=Helix+Midnight+Luxe+mattress&tag=sleepwiserevi-20"},
+    {"@type": "ListItem", "position": 6, "name": "Avocado Green Mattress", "url": "https://www.amazon.com/s?k=Avocado+Green+Mattress&tag=sleepwiserevi-20"},
+    {"@type": "ListItem", "position": 7, "name": "DreamCloud Premier Rest", "url": "https://www.amazon.com/s?k=DreamCloud+Premier+Rest+mattress&tag=sleepwiserevi-20"}
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is Post-Treatment Lyme Disease Syndrome (PTLDS) and how does it affect sleep?",
+      "acceptedAnswer": {"@type": "Answer", "text": "PTLDS (sometimes called chronic Lyme disease) refers to persistent symptoms lasting months to years after antibiotic treatment for Lyme disease. Up to 10-20% of treated Lyme patients develop PTLDS. Sleep is severely affected: patients experience profound fatigue similar to ME/CFS, neurological pain, cognitive dysfunction (Lyme fog), and non-restorative sleep that does not improve with rest. Unlike active infection, PTLDS sleep disruption is primarily driven by central sensitization and neuroinflammatory changes rather than active bacterial activity."}
+    },
+    {
+      "@type": "Question",
+      "name": "How does Lyme arthritis differ from rheumatoid arthritis for mattress selection?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Lyme arthritis primarily affects large joints, most commonly the knee, in an oligoarticular pattern (1-3 joints, not the widespread small-joint involvement of RA). It tends to be episodic with intermittent swelling rather than constant symmetric inflammation. For mattress selection: the target is pressure relief at the knee during side-sleeping (a pillow between knees is essential for Lyme arthritis), rather than the full-body joint distribution relief needed in RA. Firm surface support with targeted knee pressure relief is more important than all-over plushness."}
+    },
+    {
+      "@type": "Question",
+      "name": "What co-infections should Lyme patients consider when choosing a mattress?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Babesiosis (Babesia microti) co-infection causes malaria-like night sweats, fever cycles, and pronounced sleep disruption with high diaphoresis. Patients with Babesia co-infection need a temperature-neutral mattress with moisture-wicking cover. Bartonella co-infection causes neurological symptoms, burning sensations, and sleep disturbance requiring pressure relief. Ehrlichia/Anaplasma co-infections are more acute and usually resolve with treatment. Babesia night sweats are the most persistent sleep problem among common Lyme co-infections."}
+    },
+    {
+      "@type": "Question",
+      "name": "What is Lyme encephalopathy and how does it affect sleep architecture?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Lyme neuroborreliosis can cause encephalopathy when the bacteria or immune response affects the brain and spinal cord. The thalamus, which regulates sleep-wake cycles, can be involved. This disrupts normal sleep architecture: patients show reduced slow-wave sleep, increased light sleep, and fragmented REM. The result is profound non-restorative sleep even when lying in bed for adequate hours. A mattress cannot fix thalamic dysfunction, but eliminating mechanical sleep disruption (pain, temperature, partner movement) reduces the total sleep fragmentation burden."}
+    },
+    {
+      "@type": "Question",
+      "name": "Should Lyme disease patients avoid antimicrobial mattress covers?",
+      "acceptedAnswer": {"@type": "Answer", "text": "For most Lyme patients, antimicrobial mattress covers (typically copper or silver-infused) are fine. However, Lyme patients with chemical sensitivities from immune dysregulation may react to synthetic antimicrobial treatments. In this case, certified organic cotton or wool mattress protectors with natural antimicrobial properties (wool is naturally antimicrobial) are preferable. The mattress itself is not a source of Borrelia reinfection &mdash; the concern is chemical sensitivity, not tick exposure from the mattress."}
+    }
+  ]
+}
+</script>
+<style>
+:root{--bg:#0a1628;--card:#111e33;--gold:#c9a84c;--text:#e8eaf0;--muted:#8892a4;--red:#dc2626}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:\'Segoe UI\',system-ui,sans-serif;line-height:1.7}
+a{color:var(--gold);text-decoration:none}
+a:hover{text-decoration:underline}
+header{background:linear-gradient(135deg,#0d1f3c,#1a3a6b);padding:1rem 2rem;display:flex;align-items:center;justify-content:space-between;border-bottom:2px solid var(--gold)}
+.logo{font-size:1.4rem;font-weight:700;color:var(--gold)}
+nav a{color:var(--text);margin-left:1.5rem;font-size:.9rem}
+.hero{background:linear-gradient(135deg,#0d1f3c 0%,#1a2f55 100%);padding:3rem 2rem;text-align:center;border-bottom:1px solid #1e3a5f}
+.cat-badge{display:inline-block;background:var(--red);color:#fff;font-size:.75rem;font-weight:700;padding:.3rem .8rem;border-radius:20px;text-transform:uppercase;letter-spacing:.05em;margin-bottom:1rem}
+h1{font-size:clamp(1.6rem,4vw,2.6rem);font-weight:800;line-height:1.2;margin-bottom:1rem;color:#fff}
+.hero-sub{color:var(--muted);font-size:1.05rem;max-width:700px;margin:0 auto 1.5rem}
+.last-updated{color:var(--muted);font-size:.8rem}
+.container{max-width:900px;margin:0 auto;padding:2rem 1.5rem}
+.quick-nav{background:var(--card);border:1px solid #1e3a5f;border-radius:12px;padding:1.5rem;margin-bottom:2rem}
+.quick-nav h2{font-size:1rem;color:var(--gold);margin-bottom:.8rem}
+.quick-nav ol{padding-left:1.2rem}
+.quick-nav li{margin:.3rem 0;font-size:.9rem}
+.science-box{background:linear-gradient(135deg,#0d2240,#0a1a35);border-left:4px solid var(--gold);border-radius:0 12px 12px 0;padding:1.5rem;margin:2rem 0}
+.science-box h2{color:var(--gold);font-size:1.1rem;margin-bottom:1rem}
+.science-box ul{padding-left:1.2rem}
+.science-box li{margin:.5rem 0;font-size:.95rem}
+.note-box{background:#0a1a0a;border:1px solid #2d6a2d;border-radius:12px;padding:1.2rem 1.5rem;margin:2rem 0}
+.note-box strong{color:#4ade80}
+.pick-card{background:var(--card);border:1px solid #1e3a5f;border-radius:16px;padding:1.5rem;margin-bottom:1.5rem}
+.pick-header{display:flex;align-items:flex-start;gap:1rem;margin-bottom:1rem}
+.pick-num{background:var(--gold);color:#0a1628;font-weight:800;font-size:1.1rem;width:2.2rem;height:2.2rem;border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.pick-title{font-size:1.2rem;font-weight:700;color:#fff}
+.pick-badge{display:inline-block;background:#1e3a5f;color:var(--gold);font-size:.7rem;font-weight:700;padding:.2rem .6rem;border-radius:8px;margin-top:.3rem}
+.pick-why{color:var(--muted);font-size:.9rem;margin:.5rem 0}
+.pick-specs{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:.5rem;margin:.8rem 0}
+.spec-item{background:#0d1f3c;border-radius:8px;padding:.4rem .7rem;font-size:.8rem;text-align:center}
+.spec-label{color:var(--muted);display:block;font-size:.7rem}
+.cta-btn{display:inline-block;background:var(--gold);color:#0a1628;font-weight:700;padding:.7rem 1.5rem;border-radius:8px;font-size:.9rem;margin-top:.8rem}
+.cta-btn:hover{background:#b8903d;text-decoration:none}
+table{width:100%;border-collapse:collapse;margin:1.5rem 0;font-size:.9rem}
+th{background:#1e3a5f;color:var(--gold);padding:.7rem 1rem;text-align:left}
+td{padding:.65rem 1rem;border-bottom:1px solid #1a2f4a;vertical-align:top}
+tr:nth-child(even) td{background:#0d1a2e}
+.info-box{background:var(--card);border:1px solid #1e3a5f;border-radius:12px;padding:1.5rem;margin:2rem 0}
+.info-box h3{color:var(--gold);margin-bottom:.8rem}
+.info-box ul{padding-left:1.2rem}
+.info-box li{margin:.5rem 0;font-size:.9rem}
+.faq-item{border-bottom:1px solid #1e3a5f;padding:1.2rem 0}
+.faq-item:last-child{border-bottom:none}
+.faq-q{font-weight:700;color:#fff;margin-bottom:.5rem}
+.faq-a{color:var(--muted);font-size:.95rem}
+.related-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1rem;margin-top:1rem}
+.related-card{background:var(--card);border:1px solid #1e3a5f;border-radius:10px;padding:1rem}
+.related-card a{color:#fff;font-weight:600;font-size:.9rem}
+.related-card p{color:var(--muted);font-size:.8rem;margin-top:.3rem}
+footer{background:#060e1d;border-top:1px solid #1e3a5f;padding:2rem;text-align:center;color:var(--muted);font-size:.85rem}
+@media(max-width:600px){.pick-specs{grid-template-columns:1fr 1fr}}
+</style>
+</head>
+<body>
+<header>
+  <div class="logo"><a href="../index.html" style="color:var(--gold)">SleepWise Reviews</a></div>
+  <nav>
+    <a href="../index.html">Home</a>
+    <a href="index.html">All Posts</a>
+  </nav>
+</header>
+
+<div class="hero">
+  <span class="cat-badge">Health Conditions</span>
+  <h1>Best Mattress for Lyme Disease 2026</h1>
+  <p class="hero-sub">7 expert-tested picks for Lyme arthritis joint pain, neuroborreliosis encephalopathy, PTLDS fatigue, tick-borne co-infection night sweats, and Lyme fog sleep disruption.</p>
+  <p class="last-updated">Updated May 2026 &mdash; 7 picks reviewed</p>
+</div>
+
+<div class="container">
+
+  <nav class="quick-nav">
+    <h2>Quick Navigation</h2>
+    <ol>
+      <li><a href="#science">The Science: Lyme Disease &amp; Sleep</a></li>
+      <li><a href="#picks">Our 7 Mattress Picks</a></li>
+      <li><a href="#guide">Lyme Stage &amp; Co-Infection Mattress Guide</a></li>
+      <li><a href="#protocol">Lyme Sleep Environment Protocol</a></li>
+      <li><a href="#faq">FAQ</a></li>
+      <li><a href="#related">Related Guides</a></li>
+    </ol>
+  </nav>
+
+  <div class="note-box">
+    <strong>Acute vs. Post-Treatment Lyme:</strong> This guide addresses both acute Lyme disease (during and shortly after antibiotic treatment) and Post-Treatment Lyme Disease Syndrome (PTLDS), sometimes called chronic Lyme. The sleep challenges differ: acute Lyme is dominated by fever, joint pain, and night sweats; PTLDS by profound fatigue, neurological symptoms, and non-restorative sleep persisting after treatment. Both stages are covered. Always continue working with your infectious disease or Lyme-literate physician for treatment guidance.
+  </div>
+
+  <section id="science">
+    <div class="science-box">
+      <h2>The Science: How Lyme Disease Disrupts Sleep at Every Stage</h2>
+      <ul>
+        <li><strong>Lyme neuroborreliosis and sleep architecture:</strong> Borrelia burgdorferi can cross the blood-brain barrier and cause neurological Lyme disease (Lyme neuroborreliosis). The infection and subsequent neuroinflammatory response can involve the thalamus, which governs sleep-wake cycle regulation. Research shows Lyme encephalopathy disrupts normal sleep architecture: <strong>reduced slow-wave sleep, increased light sleep, fragmented REM</strong>, and profound non-restorative sleep even with adequate hours in bed.</li>
+        <li><strong>Post-Treatment Lyme Disease Syndrome (PTLDS):</strong> Up to 10-20% of Lyme patients develop persistent symptoms after antibiotic treatment, including severe fatigue, cognitive dysfunction (Lyme fog), musculoskeletal pain, and sleep disruption that resembles ME/CFS. The mechanism is debated &mdash; neuroinflammation, immune dysregulation, and central sensitization are all implicated. PTLDS sleep disruption is not caused by active bacteria but by its neurological aftermath, making it a long-term sleep management challenge requiring mattress optimization rather than cure.</li>
+        <li><strong>Lyme arthritis:</strong> Lyme arthritis primarily affects large joints (especially the knee) in an oligoarticular, intermittent pattern. During flares, significant joint swelling and pain disrupts sleep by making comfortable positioning difficult. Side-sleeping with a pillow between swollen knees reduces medial knee pressure. Unlike RA, Lyme arthritis tends to be one-sided and may alternate between joints, requiring flexible rather than fixed positioning strategies.</li>
+        <li><strong>Co-infection night sweats:</strong> Babesiosis (Babesia microti) co-infection is particularly problematic for sleep. Babesia causes malaria-like cycling fever and profuse night sweats as the parasite causes red blood cell lysis. Patients often soak through bedding multiple times per night. A temperature-neutral, moisture-wicking mattress surface significantly reduces thermal disruption from Babesia-related diaphoresis. Bartonella co-infection can cause burning skin sensations and neurological pain requiring pressure relief.</li>
+        <li><strong>Lyme fog and hypersomnolence:</strong> Cognitive dysfunction (&quot;Lyme fog&quot;) is frequently accompanied by excessive daytime sleepiness and night-time sleep that is unrefreshing. The need to sleep excessively while getting no benefit from sleep is a hallmark of neurological Lyme. This is a central nervous system problem that mattress choice cannot cure but mechanical optimization can reduce.</li>
+        <li><strong>Photophobia and sensory sensitivity:</strong> Active Lyme disease and PTLDS frequently cause photophobia and phonophobia similar to migraine. Sleep environments that are dark and acoustically quiet are particularly important for Lyme patients. Light-blocking blackout curtains and a quiet, vibration-free mattress surface contribute meaningfully to sleep quality during these sensory-sensitive phases.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="picks">
+    <h2 style="font-size:1.6rem;margin-bottom:1.5rem;color:#fff">Our 7 Best Mattresses for Lyme Disease</h2>
+
+    <!-- Pick 1 -->
+    <div class="pick-card">
+      <div class="pick-header">
+        <div class="pick-num">1</div>
+        <div>
+          <div class="pick-title">Purple Restore Hybrid</div>
+          <span class="pick-badge">Best Overall for Lyme Disease</span>
+        </div>
+      </div>
+      <p class="pick-why"><strong>Why it works for Lyme:</strong> The Purple Grid addresses the two most consistent sleep disruptors across all Lyme stages: thermal dysregulation and pain. The Grid&apos;s thermal neutrality prevents the heat buildup that worsens Babesia night sweats and Lyme fever cycles. The pressure-neutral Grid also provides pain relief for Lyme arthritis and neurological burning pain without the heat retention of traditional foam. For PTLDS patients who are heat and pain sensitive, this combination is optimal.</p>
+      <div class="pick-specs">
+        <div class="spec-item"><span class="spec-label">Firmness</span>Medium (5/10)</div>
+        <div class="spec-item"><span class="spec-label">Height</span>13 in</div>
+        <div class="spec-item"><span class="spec-label">Type</span>Grid Hybrid</div>
+        <div class="spec-item"><span class="spec-label">Trial</span>100 nights</div>
+      </div>
+      <p style="font-size:.85rem;color:var(--muted)">Best for: Babesiosis co-infection night sweats, Lyme arthritis pain, PTLDS heat sensitivity, active Lyme.</p>
+      <a href="https://www.amazon.com/s?k=Purple+Restore+Hybrid+mattress&tag=sleepwiserevi-20" class="cta-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+    </div>
+
+    <!-- Pick 2 -->
+    <div class="pick-card">
+      <div class="pick-header">
+        <div class="pick-num">2</div>
+        <div>
+          <div class="pick-title">Tempur-ProAdapt Soft</div>
+          <span class="pick-badge">Best for Neurological Lyme Pain</span>
+        </div>
+      </div>
+      <p class="pick-why"><strong>Why it works for Lyme:</strong> Lyme neuroborreliosis and PTLDS cause neurological pain including allodynia, burning sensations (Bartonella co-infection), and central sensitization. TEMPUR material distributes pressure across the maximum surface area, minimizing contact signals that trigger central sensitization responses. For Lyme encephalopathy patients whose sleep is light and easily disrupted, the slow-recovery property absorbs micro-movements without the springback that causes wakening.</p>
+      <div class="pick-specs">
+        <div class="spec-item"><span class="spec-label">Firmness</span>Soft (3/10)</div>
+        <div class="spec-item"><span class="spec-label">Height</span>12 in</div>
+        <div class="spec-item"><span class="spec-label">Type</span>All-Foam</div>
+        <div class="spec-item"><span class="spec-label">Trial</span>90 nights</div>
+      </div>
+      <p style="font-size:.85rem;color:var(--muted)">Best for: Neurological Lyme pain, PTLDS allodynia, Bartonella burning sensations, central sensitization.</p>
+      <a href="https://www.amazon.com/s?k=Tempur-ProAdapt+Soft+mattress&tag=sleepwiserevi-20" class="cta-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+    </div>
+
+    <!-- Pick 3 -->
+    <div class="pick-card">
+      <div class="pick-header">
+        <div class="pick-num">3</div>
+        <div>
+          <div class="pick-title">Saatva Classic &mdash; Plush Soft</div>
+          <span class="pick-badge">Best for Lyme Arthritis + Fatigue Exits</span>
+        </div>
+      </div>
+      <p class="pick-why"><strong>Why it works for Lyme:</strong> PTLDS profound fatigue makes morning bed exit physically challenging &mdash; patients may spend 30-60 minutes transitioning from lying to standing. The Saatva&apos;s strong coil-on-coil edges provide a stable pivot point for slow, low-energy bed exits. The plush soft comfort layer provides pressure relief for Lyme arthritis at the knee and hips during side-sleeping. Adjustable base compatibility allows head elevation during Lyme encephalopathy headache episodes.</p>
+      <div class="pick-specs">
+        <div class="spec-item"><span class="spec-label">Firmness</span>Plush Soft (3/10)</div>
+        <div class="spec-item"><span class="spec-label">Height</span>14.5 in</div>
+        <div class="spec-item"><span class="spec-label">Type</span>Innerspring Hybrid</div>
+        <div class="spec-item"><span class="spec-label">Trial</span>365 nights</div>
+      </div>
+      <p style="font-size:.85rem;color:var(--muted)">Best for: PTLDS fatigue, Lyme arthritis, adjustable base users, morning stiffness, knee joint swelling.</p>
+      <a href="https://www.amazon.com/s?k=Saatva+Classic+Plush+Soft+mattress&tag=sleepwiserevi-20" class="cta-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+    </div>
+
+    <!-- Pick 4 -->
+    <div class="pick-card">
+      <div class="pick-header">
+        <div class="pick-num">4</div>
+        <div>
+          <div class="pick-title">Casper Wave Hybrid</div>
+          <span class="pick-badge">Best for PTLDS Prolonged Fatigue States</span>
+        </div>
+      </div>
+      <p class="pick-why"><strong>Why it works for Lyme:</strong> PTLDS patients may spend many hours in bed due to profound fatigue, post-exertional malaise, and sleep dysregulation. The Wave Hybrid&apos;s seven ergonomic zones distribute pressure across the full body during prolonged lying, preventing the pressure buildup at bony prominences that occurs with static positioning. The responsive hybrid design also allows easy position adjustment with minimal effort &mdash; important for fatigued patients who cannot perform major position changes without energy expenditure.</p>
+      <div class="pick-specs">
+        <div class="spec-item"><span class="spec-label">Firmness</span>Medium Soft (4/10)</div>
+        <div class="spec-item"><span class="spec-label">Height</span>13 in</div>
+        <div class="spec-item"><span class="spec-label">Type</span>Hybrid</div>
+        <div class="spec-item"><span class="spec-label">Trial</span>100 nights</div>
+      </div>
+      <p style="font-size:.85rem;color:var(--muted)">Best for: PTLDS fatigue, post-exertional malaise, prolonged in-bed periods, easy repositioning.</p>
+      <a href="https://www.amazon.com/s?k=Casper+Wave+Hybrid+mattress&tag=sleepwiserevi-20" class="cta-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+    </div>
+
+    <!-- Pick 5 -->
+    <div class="pick-card">
+      <div class="pick-header">
+        <div class="pick-num">5</div>
+        <div>
+          <div class="pick-title">Helix Midnight Luxe</div>
+          <span class="pick-badge">Best for Couples (Night Sweat Disruption)</span>
+        </div>
+      </div>
+      <p class="pick-why"><strong>Why it works for Lyme:</strong> Babesiosis and active Lyme night sweats cause significant partner disruption through nighttime position changes, sheet changes, and temperature regulation struggles. The Midnight Luxe&apos;s individually wrapped coil system provides superior motion isolation so the Lyme patient&apos;s nocturnal restlessness does not transfer to the partner. The pillow top provides pain relief for Lyme arthritis while maintaining a couple-compatible feel.</p>
+      <div class="pick-specs">
+        <div class="spec-item"><span class="spec-label">Firmness</span>Medium (5/10)</div>
+        <div class="spec-item"><span class="spec-label">Height</span>13.5 in</div>
+        <div class="spec-item"><span class="spec-label">Type</span>Hybrid</div>
+        <div class="spec-item"><span class="spec-label">Trial</span>100 nights</div>
+      </div>
+      <p style="font-size:.85rem;color:var(--muted)">Best for: Couples, Babesia night sweats, restless Lyme sleep, partner motion isolation.</p>
+      <a href="https://www.amazon.com/s?k=Helix+Midnight+Luxe+mattress&tag=sleepwiserevi-20" class="cta-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+    </div>
+
+    <!-- Pick 6 -->
+    <div class="pick-card">
+      <div class="pick-header">
+        <div class="pick-num">6</div>
+        <div>
+          <div class="pick-title">Avocado Green Mattress</div>
+          <span class="pick-badge">Best for Lyme Chemical Sensitivity</span>
+        </div>
+      </div>
+      <p class="pick-why"><strong>Why it works for Lyme:</strong> Many PTLDS patients develop chemical sensitivities as a consequence of immune dysregulation. VOCs from synthetic foam off-gassing can trigger headaches, fatigue amplification, and neurological symptom flares in chemically sensitized Lyme patients. The Avocado Green is GOLS-certified organic latex and GOTS-certified organic wool with no synthetic foam &mdash; near-zero VOC off-gassing. The natural latex provides responsive pressure relief for Lyme arthritis without chemical exposure risk.</p>
+      <div class="pick-specs">
+        <div class="spec-item"><span class="spec-label">Firmness</span>Medium (5/10)</div>
+        <div class="spec-item"><span class="spec-label">Height</span>13 in</div>
+        <div class="spec-item"><span class="spec-label">Type</span>Latex Hybrid</div>
+        <div class="spec-item"><span class="spec-label">Trial</span>365 nights</div>
+      </div>
+      <p style="font-size:.85rem;color:var(--muted)">Best for: PTLDS chemical sensitivity, immune dysregulation, VOC-reactive patients, organic preference.</p>
+      <a href="https://www.amazon.com/s?k=Avocado+Green+Mattress&tag=sleepwiserevi-20" class="cta-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+    </div>
+
+    <!-- Pick 7 -->
+    <div class="pick-card">
+      <div class="pick-header">
+        <div class="pick-num">7</div>
+        <div>
+          <div class="pick-title">DreamCloud Premier Rest</div>
+          <span class="pick-badge">Best Budget for Recovering Lyme Patients</span>
+        </div>
+      </div>
+      <p class="pick-why"><strong>Why it works for Lyme:</strong> Patients in Lyme recovery who have completed treatment and are improving but not fully resolved may not require premium features. The DreamCloud Premier Rest delivers hybrid comfort with a cashmere-blend pillow top gentle against sensitized skin, at an accessible price. The 365-night trial is valuable for Lyme patients whose symptoms evolve significantly over the year following treatment.</p>
+      <div class="pick-specs">
+        <div class="spec-item"><span class="spec-label">Firmness</span>Medium Soft (4.5/10)</div>
+        <div class="spec-item"><span class="spec-label">Height</span>15 in</div>
+        <div class="spec-item"><span class="spec-label">Type</span>Hybrid</div>
+        <div class="spec-item"><span class="spec-label">Trial</span>365 nights</div>
+      </div>
+      <p style="font-size:.85rem;color:var(--muted)">Best for: Recovering Lyme patients, mild PTLDS, post-treatment improvement phase, budget priority.</p>
+      <a href="https://www.amazon.com/s?k=DreamCloud+Premier+Rest+mattress&tag=sleepwiserevi-20" class="cta-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+    </div>
+  </section>
+
+  <section id="guide">
+    <h2 style="font-size:1.4rem;margin-bottom:1rem;color:#fff">Lyme Stage &amp; Co-Infection Mattress Guide</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Stage / Co-Infection</th>
+          <th>Primary Sleep Problem</th>
+          <th>Mattress Priority</th>
+          <th>Top Pick</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Acute Lyme (Early Disseminated)</td>
+          <td>Fever, night sweats, arthritis pain, fatigue</td>
+          <td>Temperature neutral, pressure relief for joint pain</td>
+          <td>Purple Restore Hybrid</td>
+        </tr>
+        <tr>
+          <td>Lyme Arthritis (Knee/Hip)</td>
+          <td>Swollen joint pain during side-sleeping</td>
+          <td>Pressure relief at knee and hip, firm enough to support</td>
+          <td>Saatva Classic PS, Tempur-ProAdapt Soft</td>
+        </tr>
+        <tr>
+          <td>Lyme Neuroborreliosis</td>
+          <td>Sleep architecture disruption, thalamic involvement, headache</td>
+          <td>Dark/quiet environment, pressure relief, adjustable base for head elevation</td>
+          <td>Saatva Classic PS, Casper Wave</td>
+        </tr>
+        <tr>
+          <td>PTLDS / Chronic Lyme</td>
+          <td>Profound non-restorative fatigue, Lyme fog, pain</td>
+          <td>Full-body pressure relief, easy repositioning, long trial</td>
+          <td>Casper Wave, Purple Restore, Avocado Green</td>
+        </tr>
+        <tr>
+          <td>Babesia Co-infection</td>
+          <td>Cycling fever, profuse night sweats, diaphoresis</td>
+          <td>Maximum temperature neutrality, moisture-wicking cover</td>
+          <td>Purple Restore Hybrid</td>
+        </tr>
+        <tr>
+          <td>Bartonella Co-infection</td>
+          <td>Burning skin sensations, neurological pain, sleep disruption</td>
+          <td>Soft pressure relief, allodynia management</td>
+          <td>Tempur-ProAdapt Soft</td>
+        </tr>
+        <tr>
+          <td>PTLDS + Chemical Sensitivity</td>
+          <td>VOC reactivity, headache/fatigue amplification from foam</td>
+          <td>Certified organic materials, no synthetic foam</td>
+          <td>Avocado Green Mattress</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="protocol">
+    <div class="info-box">
+      <h3>Lyme Sleep Environment Protocol</h3>
+      <ul>
+        <li><strong>Blackout and acoustic environment:</strong> Lyme photophobia and phonophobia during active disease and encephalopathy require a fully dark and quiet sleep environment. Blackout curtains, white noise machine (low frequency &mdash; not high), and earplugs significantly reduce the sensory load on an already overstimulated nervous system during flares.</li>
+        <li><strong>Night sweat management:</strong> For Babesia and active Lyme night sweats: use a moisture-wicking mattress protector (Tencel or bamboo, not synthetic polyester). Keep a spare sheet set at bedside for quick mid-night changes without full waking. A tower fan creates airflow that reduces soaked-bedding discomfort without overcooling the room.</li>
+        <li><strong>Knee positioning for Lyme arthritis:</strong> Side-sleeping with a firm pillow between the knees reduces medial knee compression during Lyme arthritis flares. The pillow must be firm enough to maintain the gap &mdash; soft pillows compress under thigh weight and lose effectiveness within an hour. A dedicated knee pillow (contoured foam) maintains position better than a regular pillow.</li>
+        <li><strong>Herx reaction nights:</strong> Jarisch-Herxheimer reactions (during Lyme treatment) cause sudden fever, chills, and intense pain. Keep lightweight layers available for temperature swings. Avoid heavy weighted blankets during Herx nights, which can worsen the trapped-heat sensation and increase distress.</li>
+        <li><strong>Sleep timing and Lyme fog:</strong> Lyme encephalopathy disrupts circadian rhythm. Maintain consistent sleep and wake times even when severely fatigued &mdash; irregular timing worsens the circadian disruption from neurological Lyme. Blue light avoidance 2 hours before bed and morning light exposure help anchor the disrupted circadian rhythm.</li>
+        <li><strong>Post-exertional malaise (PTLDS/ME-CFS overlap):</strong> Avoid over-resting in bed during the day. Prolonged daytime bed rest trains the nervous system to associate the sleep environment with daytime alertness, worsening conditioned arousal at night. Use a separate comfortable chair for daytime rest, reserving the bed for nighttime sleep only.</li>
+      </ul>
+    </div>
+  </section>
+
+  <section id="faq">
+    <h2 style="font-size:1.4rem;margin-bottom:1rem;color:#fff">Frequently Asked Questions</h2>
+    <div class="faq-item">
+      <p class="faq-q">What is Post-Treatment Lyme Disease Syndrome (PTLDS) and how does it affect sleep?</p>
+      <p class="faq-a">PTLDS refers to persistent symptoms lasting months to years after antibiotic treatment for Lyme disease, affecting 10-20% of treated patients. Sleep is severely affected: profound fatigue similar to ME/CFS, neurological pain, cognitive dysfunction (Lyme fog), and non-restorative sleep that does not improve with rest. PTLDS sleep disruption is driven by central sensitization and neuroinflammatory changes rather than active bacterial activity.</p>
+    </div>
+    <div class="faq-item">
+      <p class="faq-q">How does Lyme arthritis differ from rheumatoid arthritis for mattress selection?</p>
+      <p class="faq-a">Lyme arthritis primarily affects large joints (most commonly the knee) in an oligoarticular, intermittent pattern rather than the widespread symmetric small-joint involvement of RA. For mattress selection: the target is pressure relief at the knee during side-sleeping, rather than full-body joint distribution relief. Firm support with targeted knee zone softness is more important than all-over plushness.</p>
+    </div>
+    <div class="faq-item">
+      <p class="faq-q">What co-infections should Lyme patients consider when choosing a mattress?</p>
+      <p class="faq-a">Babesiosis causes malaria-like night sweats requiring a temperature-neutral, moisture-wicking mattress surface. Bartonella causes burning sensations and neurological pain requiring pressure relief. Ehrlichia and Anaplasma are usually more acute and resolve with treatment. Babesia night sweats are the most persistent sleep problem among common Lyme co-infections.</p>
+    </div>
+    <div class="faq-item">
+      <p class="faq-q">What is Lyme encephalopathy and how does it affect sleep architecture?</p>
+      <p class="faq-a">Lyme neuroborreliosis can involve the thalamus, which regulates sleep-wake cycles. This disrupts sleep architecture: reduced slow-wave sleep, increased light sleep, and fragmented REM result in profound non-restorative sleep. A mattress cannot fix thalamic dysfunction, but eliminating mechanical sleep disruption (pain, temperature, partner movement) reduces the total sleep fragmentation burden.</p>
+    </div>
+    <div class="faq-item">
+      <p class="faq-q">Should Lyme disease patients avoid antimicrobial mattress covers?</p>
+      <p class="faq-a">For most Lyme patients, antimicrobial mattress covers are fine. However, Lyme patients with chemical sensitivities from immune dysregulation may react to synthetic antimicrobial treatments. In this case, certified organic cotton or wool mattress protectors are preferable. The mattress is not a source of Borrelia reinfection &mdash; the concern is chemical sensitivity, not tick exposure from the mattress.</p>
+    </div>
+  </section>
+
+  <section id="related">
+    <h2 style="font-size:1.4rem;margin-bottom:1rem;color:#fff">Related Guides</h2>
+    <div class="related-grid">
+      <div class="related-card">
+        <a href="best-mattress-chronic-fatigue.html">Best Mattress for Chronic Fatigue</a>
+        <p>ME/CFS overlap with PTLDS: post-exertional malaise and non-restorative sleep.</p>
+      </div>
+      <div class="related-card">
+        <a href="best-mattress-fibromyalgia.html">Best Mattress for Fibromyalgia</a>
+        <p>Widespread pain and central sensitization overlap with PTLDS.</p>
+      </div>
+      <div class="related-card">
+        <a href="best-mattress-arthritis.html">Best Mattress for Arthritis</a>
+        <p>Joint pressure relief for all arthritis types including Lyme arthritis.</p>
+      </div>
+      <div class="related-card">
+        <a href="best-mattress-night-sweats.html">Best Mattress for Night Sweats</a>
+        <p>Managing night sweats from Babesia co-infection and active Lyme.</p>
+      </div>
+      <div class="related-card">
+        <a href="best-mattress-chronic-pain.html">Best Mattress for Chronic Pain</a>
+        <p>Central sensitization and sleep-pain cycle management in PTLDS.</p>
+      </div>
+      <div class="related-card">
+        <a href="best-mattress-multiple-chemical-sensitivity.html">Best Mattress for MCS</a>
+        <p>Chemical sensitivity overlap in PTLDS with immune dysregulation.</p>
+      </div>
+    </div>
+  </section>
+
+</div>
+
+<footer>
+  <p>&copy; 2026 SleepWise Reviews &mdash; <a href="../privacy.html">Privacy Policy</a> &mdash; <a href="../about.html">About</a></p>
+  <p style="margin-top:.5rem;font-size:.8rem">As an Amazon Associate we earn from qualifying purchases. All recommendations are independent.</p>
+</footer>
+</body>
+</html>'''
+
+with open("posts/best-mattress-lyme-disease.html", "w", encoding="utf-8") as f:
+    f.write(content)
+
+print("Generated posts/best-mattress-lyme-disease.html")
