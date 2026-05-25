@@ -1,54 +1,54 @@
-"""Generate posts/best-mattress-sciatica.html"""
+slug = "best-mattress-sciatica"
+out = f"posts/{slug}.html"
 
-html = '''<!DOCTYPE html>
+html = """<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Best Mattress for Sciatica 2026 | SleepWise Reviews</title>
-<meta name="description" content="The best mattresses for sciatica pain tested for lumbar support, pressure relief, and spinal alignment. Stop waking up with shooting leg and back pain.">
+<title>Best Mattress for Sciatica 2025 — 7 Picks for L4-L5-S1 Nerve Pain Relief</title>
+<meta name="description" content="Best mattresses for sciatica 2025. 7 expert picks for L4-L5-S1 nerve root compression, piriformis syndrome, and radiating leg pain. Sleeping position guide and what to avoid.">
 <link rel="canonical" href="https://sleepwisereviews.com/posts/best-mattress-sciatica.html">
-<meta property="og:title" content="Best Mattress for Sciatica 2026 | SleepWise Reviews">
-<meta property="og:description" content="Top mattresses for sciatica ranked by lumbar support, pressure relief, and alignment. Expert picks for side and back sleepers with sciatic nerve pain.">
+<meta property="og:title" content="Best Mattress for Sciatica 2025 — 7 Picks for Nerve Pain Relief">
+<meta property="og:description" content="Sciatica is nerve pain, not muscle pain. These 7 mattresses address L4-L5-S1 compression, piriformis entrapment, and radiating leg pain with targeted support and spinal decompression.">
 <meta property="og:url" content="https://sleepwisereviews.com/posts/best-mattress-sciatica.html">
 <meta property="og:type" content="article">
-<meta property="og:site_name" content="SleepWise Reviews">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Best Mattress for Sciatica 2026">
-<meta name="twitter:description" content="Expert-ranked mattresses for sciatic nerve pain -- zoned lumbar support, pressure relief, and spinal alignment for side and back sleepers.">
+<meta name="twitter:title" content="Best Mattress for Sciatica 2025">
+<meta name="twitter:description" content="7 mattress picks for sciatica — nerve decompression, piriformis relief, L4-L5-S1 support, sleeping position guide.">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@graph": [
     {
       "@type": "Article",
-      "headline": "Best Mattress for Sciatica 2026",
-      "description": "The best mattresses for sciatica pain tested for lumbar support, pressure relief, and spinal alignment.",
-      "author": {"@type": "Organization", "name": "SleepWise Reviews"},
-      "publisher": {"@type": "Organization", "name": "SleepWise Reviews", "url": "https://sleepwisereviews.com"},
+      "headline": "Best Mattress for Sciatica 2025",
+      "description": "Expert mattress picks for sciatica: L4-L5-S1 nerve root compression, piriformis entrapment, and radiating leg pain. Sleeping position guide and what to avoid.",
+      "url": "https://sleepwisereviews.com/posts/best-mattress-sciatica.html",
       "datePublished": "2026-05-25",
       "dateModified": "2026-05-25",
-      "url": "https://sleepwisereviews.com/posts/best-mattress-sciatica.html"
+      "author": {"@type": "Organization", "name": "SleepWise Reviews"},
+      "publisher": {"@type": "Organization", "name": "SleepWise Reviews", "url": "https://sleepwisereviews.com"}
     },
     {
       "@type": "BreadcrumbList",
       "itemListElement": [
         {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://sleepwisereviews.com"},
-        {"@type": "ListItem", "position": 2, "name": "Health Conditions", "item": "https://sleepwisereviews.com/posts/index.html"},
+        {"@type": "ListItem", "position": 2, "name": "All Posts", "item": "https://sleepwisereviews.com/posts/index.html"},
         {"@type": "ListItem", "position": 3, "name": "Best Mattress for Sciatica", "item": "https://sleepwisereviews.com/posts/best-mattress-sciatica.html"}
       ]
     },
     {
       "@type": "ItemList",
-      "name": "Best Mattress for Sciatica 2026",
+      "name": "Best Mattresses for Sciatica 2025",
       "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Saatva Classic"},
-        {"@type": "ListItem", "position": 2, "name": "Helix Midnight Luxe"},
-        {"@type": "ListItem", "position": 3, "name": "Casper Wave Hybrid"},
-        {"@type": "ListItem", "position": 4, "name": "DreamCloud Premier Rest"},
-        {"@type": "ListItem", "position": 5, "name": "WinkBed Plus"},
-        {"@type": "ListItem", "position": 6, "name": "Nectar Premier Memory Foam"},
-        {"@type": "ListItem", "position": 7, "name": "Leesa Sapira Hybrid"}
+        {"@type": "ListItem", "position": 1, "name": "Saatva Classic Plush Soft — Best Overall for Sciatica"},
+        {"@type": "ListItem", "position": 2, "name": "Casper Wave Hybrid — Best Zoned Spinal Decompression"},
+        {"@type": "ListItem", "position": 3, "name": "Purple Restore Hybrid — Best for Piriformis/Side Sciatica"},
+        {"@type": "ListItem", "position": 4, "name": "Helix Midnight Luxe — Best for Side Sleepers with Sciatica"},
+        {"@type": "ListItem", "position": 5, "name": "Tempur-Pedic TEMPUR-ProAdapt — Best for Acute Sciatica Flares"},
+        {"@type": "ListItem", "position": 6, "name": "WinkBed Medium — Best for Back Sleepers with Sciatica"},
+        {"@type": "ListItem", "position": 7, "name": "DreamCloud Premier — Best Budget for Sciatica"}
       ]
     },
     {
@@ -57,27 +57,42 @@ html = '''<!DOCTYPE html>
         {
           "@type": "Question",
           "name": "Is a firm or soft mattress better for sciatica?",
-          "acceptedAnswer": {"@type": "Answer", "text": "Medium-firm is best for most sciatica patients. A too-soft mattress allows the hips to sink, rotating the pelvis posteriorly and compressing the piriformis muscle against the sciatic nerve. A too-firm mattress doesn\'t accommodate the hips and shoulders, creating pressure points that force the spine into lateral flexion. Medium-firm mattresses (4-6 on a 1-10 scale) keep the spine neutral while providing enough give to relieve pressure at the hip and shoulder -- the key balance for sciatic nerve decompression during sleep."}
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Medium to medium-firm (5-6.5/10) is best for most sciatica sufferers. A firm mattress creates excessive pressure at the hip and sacrum, compressing the piriformis muscle against the sciatic nerve. A very soft mattress allows the pelvis to sag, increasing lumbar flexion and disc pressure on the nerve root. Medium feel maintains neutral spine alignment while cushioning the hip and sacrum."
+          }
         },
         {
           "@type": "Question",
-          "name": "What sleeping position is best for sciatica?",
-          "acceptedAnswer": {"@type": "Answer", "text": "Side sleeping with a pillow between the knees is consistently recommended for sciatica. The pillow aligns the hips and reduces the rotational force on the piriformis muscle that compresses the sciatic nerve. The fetal position (knees slightly drawn up) opens the lumbar vertebral foramen slightly, reducing direct nerve root compression from disc herniation. Avoid stomach sleeping -- it hyperextends the lumbar spine and directly increases sciatic nerve tension. Back sleeping is acceptable with a pillow under the knees to flatten the lumbar curve."}
+          "name": "What is the best sleeping position for sciatica?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Side sleeping with a pillow between the knees is best for most sciatica patients. The pillow aligns the pelvis, reducing piriformis tension and sciatic nerve stretch. The non-affected side down is usually more comfortable. Back sleeping with a pillow under the knees (reducing lumbar lordosis) is good for disc-caused sciatica. Stomach sleeping is contraindicated — it extends the lumbar spine and maximally compresses the nerve root."
+          }
         },
         {
           "@type": "Question",
-          "name": "How long does a new mattress take to help sciatica?",
-          "acceptedAnswer": {"@type": "Answer", "text": "Most people notice improvement within 2-4 weeks of switching to a properly supportive mattress. However, full adaptation takes 4-8 weeks as the muscles and soft tissue adjust to new positioning. Sciatica caused by disc herniation or spinal stenosis requires concurrent medical treatment -- a better mattress reduces nighttime pain but doesn\'t resolve the underlying compression. If symptoms worsen after 2-3 weeks or are accompanied by bladder/bowel dysfunction or bilateral leg weakness, consult a physician immediately."}
+          "name": "Can a bad mattress cause or worsen sciatica?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. A mattress that allows hip sinkage creates lateral spinal curvature during side sleeping, placing the lumbar discs in a position that compresses the L4-L5 or L5-S1 nerve root. A mattress that is too firm prevents the hip from sinking enough, forcing the piriformis muscle into a position that can entrap the sciatic nerve. The right mattress maintains neutral lumbar alignment regardless of sleep position."
+          }
         },
         {
           "@type": "Question",
-          "name": "Should I sleep on a mattress topper if I have sciatica?",
-          "acceptedAnswer": {"@type": "Answer", "text": "A mattress topper can help if your current mattress is too firm. A 2-3 inch memory foam or latex topper at medium-soft firmness can reduce the pressure points at the hip and shoulder that contribute to sciatic nerve compression during side sleeping. However, if your mattress is already too soft, a topper will worsen the problem. Assess first: if you sink into the mattress, you need a firmer surface (or a new mattress), not a topper."}
+          "name": "How long does sciatica pain at night last?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Acute sciatica pain typically resolves in 4-8 weeks with conservative management. Chronic sciatica (12+ weeks) requires medical evaluation. Nighttime sciatica that wakes you from sleep, or pain that is worse lying down than standing, may indicate a more serious condition requiring imaging. A mattress that relieves nighttime sciatica pain significantly can help you maintain the rest needed for recovery."
+          }
         },
         {
           "@type": "Question",
-          "name": "Can a bad mattress cause sciatica?",
-          "acceptedAnswer": {"@type": "Answer", "text": "A bad mattress can worsen sciatica or provoke flares, but it doesn\'t cause the underlying anatomical issue (disc herniation, piriformis syndrome, spinal stenosis, etc.). However, sleeping on a too-soft mattress for years can contribute to chronic lumbar muscle weakness and poor spinal alignment that makes sciatic nerve compression more likely. A mattress that sags significantly, especially at the hip area for side sleepers, creates a nightly sustained stretch of the sciatic nerve and its surrounding soft tissue."}
+          "name": "What is the difference between sciatica from a disc and sciatica from piriformis syndrome?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Discogenic sciatica comes from a herniated or bulging disc at L4-L5 or L5-S1 compressing the nerve root. It is often worse with lumbar flexion (bending forward, sitting). Piriformis syndrome is compression of the sciatic nerve by the piriformis muscle in the gluteal region. It is often worse with hip external rotation and direct pressure on the buttock. Mattress firmness affects both: a mattress that creates excessive hip pressure worsens piriformis syndrome, while one that allows pelvic sag worsens disc-caused sciatica."
+          }
         }
       ]
     }
@@ -85,549 +100,204 @@ html = '''<!DOCTYPE html>
 }
 </script>
 <style>
-:root{--bg:#0a1628;--card:#111e33;--gold:#c9a84c;--text:#e8eaf0;--muted:#8892a4;--border:#1e2d45;--green:#2ecc71;--red:#e74c3c}
-*{margin:0;padding:0;box-sizing:border-box}
-body{background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,sans-serif;line-height:1.7;font-size:16px}
-a{color:var(--gold);text-decoration:none}
-.site-header{background:var(--card);border-bottom:1px solid var(--border);padding:16px 24px;display:flex;align-items:center;gap:16px}
-.site-header .logo{font-size:1.3rem;font-weight:700;color:var(--gold)}
-.site-header nav a{color:var(--muted);margin-left:20px;font-size:.9rem}
-.hero{background:linear-gradient(135deg,#0d1f3c,#162848);padding:60px 24px 40px;text-align:center;border-bottom:1px solid var(--border)}
-.hero h1{font-size:clamp(1.6rem,4vw,2.6rem);font-weight:800;line-height:1.25;margin-bottom:16px}
-.hero h1 span{color:var(--gold)}
-.hero p{font-size:1.05rem;color:var(--muted);max-width:640px;margin:0 auto 24px}
-.hero-meta{display:flex;gap:20px;justify-content:center;flex-wrap:wrap;font-size:.85rem;color:var(--muted)}
-.hero-meta span{display:flex;align-items:center;gap:6px}
-.container{max-width:900px;margin:0 auto;padding:40px 24px}
-.toc{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:24px;margin-bottom:40px}
-.toc h2{font-size:1rem;font-weight:700;color:var(--gold);margin-bottom:12px}
-.toc ol{padding-left:20px}
-.toc li{margin-bottom:6px;font-size:.9rem}
-.toc a{color:var(--muted)}
-.toc a:hover{color:var(--gold)}
-.product-card{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:32px;margin-bottom:32px;position:relative}
-.rank-badge{position:absolute;top:-14px;left:24px;background:var(--gold);color:#0a1628;font-size:.75rem;font-weight:800;padding:4px 14px;border-radius:20px;text-transform:uppercase;letter-spacing:.5px}
-.product-header{display:flex;align-items:flex-start;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-bottom:20px}
-.product-title h3{font-size:1.3rem;font-weight:700;margin-bottom:4px}
-.product-title .verdict{font-size:.85rem;color:var(--gold);font-weight:600}
-.rating-box{text-align:center;flex-shrink:0}
-.rating-box .score{font-size:2rem;font-weight:800;color:var(--gold);line-height:1}
-.rating-box .label{font-size:.7rem;color:var(--muted)}
-.stars{color:var(--gold);font-size:.9rem;margin-top:2px}
-.spec-chips{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:20px}
-.chip{background:#1a2d47;border:1px solid var(--border);border-radius:20px;padding:4px 12px;font-size:.8rem;color:var(--muted)}
-.chip strong{color:var(--text)}
-.pros-cons{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:20px}
-@media(max-width:600px){.pros-cons{grid-template-columns:1fr}}
-.pros-cons-box{background:#0d1a2e;border-radius:10px;padding:16px}
-.pros-cons-box h4{font-size:.8rem;font-weight:700;margin-bottom:10px;text-transform:uppercase;letter-spacing:.5px}
-.pros-cons-box.pros h4{color:var(--green)}
-.pros-cons-box.cons h4{color:var(--red)}
-.pros-cons-box ul{list-style:none;padding:0}
-.pros-cons-box li{font-size:.88rem;padding:3px 0;padding-left:16px;position:relative;color:var(--muted)}
-.pros-cons-box.pros li::before{content:"+";;color:var(--green);position:absolute;left:0;font-weight:700}
-.pros-cons-box.cons li::before{content:"-";color:var(--red);position:absolute;left:0;font-weight:700}
-.cta-btn{display:inline-block;background:var(--gold);color:#0a1628;font-weight:700;padding:12px 28px;border-radius:8px;font-size:.95rem;margin-top:8px}
-.cta-btn:hover{opacity:.9}
-.sleep-position-tag{display:inline-block;background:#1a3a2a;border:1px solid #2ecc71;color:#2ecc71;border-radius:6px;padding:3px 10px;font-size:.78rem;margin-right:6px;margin-bottom:8px}
-.science-box{background:linear-gradient(135deg,#0d1f3c,#0f2545);border:1px solid #1e3a6e;border-radius:16px;padding:32px;margin:40px 0}
-.science-box h2{color:var(--gold);margin-bottom:16px;font-size:1.2rem}
-.science-box p{color:var(--muted);margin-bottom:12px;font-size:.95rem}
-.buying-guide{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:32px;margin:40px 0}
-.buying-guide h2{color:var(--gold);margin-bottom:20px}
-.buying-guide h3{color:var(--text);font-size:1rem;margin:20px 0 8px}
-.buying-guide p{color:var(--muted);font-size:.95rem;margin-bottom:8px}
-.faq{margin:40px 0}
-.faq h2{color:var(--gold);margin-bottom:24px;font-size:1.3rem}
-.faq-item{border:1px solid var(--border);border-radius:12px;margin-bottom:12px;overflow:hidden}
-.faq-q{background:var(--card);padding:18px 20px;font-weight:600;font-size:.95rem;cursor:pointer}
-.faq-a{padding:16px 20px;color:var(--muted);font-size:.9rem;border-top:1px solid var(--border)}
-.verdict-table{width:100%;border-collapse:collapse;margin:40px 0;background:var(--card);border-radius:12px;overflow:hidden}
-.verdict-table th{background:#162030;padding:12px 16px;text-align:left;font-size:.8rem;color:var(--muted);text-transform:uppercase;letter-spacing:.5px}
-.verdict-table td{padding:12px 16px;border-top:1px solid var(--border);font-size:.88rem}
-.verdict-table tr:hover td{background:#0d1a2e}
-.verdict-table .gold{color:var(--gold);font-weight:600}
-footer{text-align:center;padding:40px 24px;color:var(--muted);font-size:.85rem;border-top:1px solid var(--border);margin-top:60px}
-footer a{color:var(--muted)}
-.affiliate-disclosure{background:#1a2d47;border-left:4px solid var(--gold);padding:16px 20px;border-radius:0 8px 8px 0;margin-bottom:32px;font-size:.85rem;color:var(--muted)}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,sans-serif;background:#0a1628;color:#e2e8f0;line-height:1.7}
+header{background:linear-gradient(135deg,#0a1628 0%,#1a2f4e 100%);padding:60px 20px 40px;text-align:center;border-bottom:1px solid #1e3a5f}
+header h1{font-size:clamp(1.6rem,4vw,2.4rem);color:#fff;max-width:800px;margin:0 auto 16px;line-height:1.3}
+.badge{display:inline-block;background:#dc2626;color:#fff;font-size:.75rem;font-weight:700;padding:4px 12px;border-radius:20px;letter-spacing:.05em;text-transform:uppercase;margin-bottom:16px}
+.subtitle{color:#94a3b8;font-size:1rem;max-width:640px;margin:0 auto 20px}
+.meta{color:#64748b;font-size:.85rem}
+nav.breadcrumb{background:#0d1f38;padding:12px 20px;font-size:.82rem;color:#64748b}
+nav.breadcrumb a{color:#c9a84c;text-decoration:none}
+nav.breadcrumb a:hover{text-decoration:underline}
+.container{max-width:860px;margin:0 auto;padding:40px 20px}
+h2{font-size:1.5rem;color:#c9a84c;margin:40px 0 16px;padding-bottom:8px;border-bottom:1px solid #1e3a5f}
+h3{font-size:1.15rem;color:#e2e8f0;margin:24px 0 10px}
+p{margin-bottom:14px;color:#cbd5e1}
+.pick{background:#111e33;border:1px solid #1e3a5f;border-radius:12px;padding:24px;margin-bottom:20px;position:relative}
+.pick-num{position:absolute;top:16px;right:16px;background:#c9a84c;color:#0a1628;font-weight:800;font-size:.8rem;padding:4px 10px;border-radius:20px}
+.pick h3{color:#c9a84c;margin-top:0}
+.pick .verdict{background:#0a1628;border-left:3px solid #c9a84c;padding:10px 14px;margin-top:12px;border-radius:0 6px 6px 0;font-size:.9rem;color:#94a3b8}
+.pick a{color:#c9a84c;text-decoration:none;font-weight:600}
+.pick a:hover{text-decoration:underline;color:#e2b96b}
+.science-box{background:#0d1f38;border:1px solid #1e3a5f;border-radius:10px;padding:20px 24px;margin:24px 0}
+.science-box h3{color:#60a5fa;margin-top:0;font-size:1rem}
+.science-box p{color:#94a3b8;font-size:.9rem;margin-bottom:8px}
+.science-box p:last-child{margin-bottom:0}
+.warning-box{background:#1a1200;border:1px solid #c9a84c;border-radius:10px;padding:16px 20px;margin:24px 0}
+.warning-box p{color:#fbbf24;font-size:.9rem;margin:0}
+.info-box{background:#0a1f3a;border:1px solid #1e6fa8;border-radius:10px;padding:16px 20px;margin:24px 0}
+.info-box p{color:#7dd3fc;font-size:.9rem;margin:0}
+table{width:100%;border-collapse:collapse;margin:20px 0;font-size:.88rem}
+th{background:#1e3a5f;color:#c9a84c;padding:10px 12px;text-align:left}
+td{padding:9px 12px;border-bottom:1px solid #1a2f4e;color:#cbd5e1}
+tr:nth-child(even) td{background:#0d1a2e}
+.grid-2{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:20px 0}
+@media(max-width:600px){.grid-2{grid-template-columns:1fr}}
+.grid-card{background:#111e33;border:1px solid #1e3a5f;border-radius:8px;padding:16px}
+.grid-card h4{color:#c9a84c;font-size:.9rem;margin-bottom:8px}
+.grid-card p{font-size:.85rem;color:#94a3b8;margin:0}
+.related{background:#111e33;border:1px solid #1e3a5f;border-radius:12px;padding:24px;margin:40px 0}
+.related h3{color:#c9a84c;margin-top:0}
+.related ul{list-style:none;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:8px}
+@media(max-width:600px){.related ul{grid-template-columns:1fr}}
+.related ul li a{color:#60a5fa;text-decoration:none;font-size:.9rem}
+.related ul li a:hover{text-decoration:underline;color:#c9a84c}
+footer{background:#060e1a;padding:30px 20px;text-align:center;color:#475569;font-size:.82rem;border-top:1px solid #1e3a5f}
+footer a{color:#c9a84c;text-decoration:none}
 </style>
 </head>
 <body>
-<header class="site-header">
-  <a href="/" class="logo">SleepWise Reviews</a>
-  <nav>
-    <a href="/posts/index.html">All Guides</a>
-    <a href="/#reviews">Reviews</a>
-  </nav>
+<header>
+  <span class="badge">Health Conditions</span>
+  <h1>Best Mattress for Sciatica 2025</h1>
+  <p class="subtitle">7 expert picks for L4-L5-S1 nerve root compression and piriformis syndrome &mdash; spinal decompression positioning, hip pressure relief, and a complete sleeping position guide.</p>
+  <p class="meta">By SleepWise Reviews &bull; Updated May 2025 &bull; 7 picks</p>
 </header>
+<nav class="breadcrumb">
+  <a href="/">Home</a> &rsaquo; <a href="/posts/index.html">All Posts</a> &rsaquo; Best Mattress for Sciatica
+</nav>
 
-<div class="hero">
-  <h1>Best Mattress for <span>Sciatica</span> (2026)</h1>
-  <p>Sciatica that flares every morning is almost always a positioning problem. The right mattress keeps the sciatic nerve decompressed through 7-8 hours of sleep. These seven do exactly that.</p>
-  <div class="hero-meta">
-    <span>&#128338; Updated May 2026</span>
-    <span>&#127981; 7 mattresses tested</span>
-    <span>&#9733; Lumbar support focus</span>
+<div class="container">
+
+<p>Sciatica is not back pain. It is nerve pain &mdash; specifically, compression or irritation of the sciatic nerve, which originates from nerve roots at L4, L5, and S1 in the lumbar spine and runs through the buttock, down the back of the leg, and into the foot. The burning, shooting, or electric pain of sciatica is qualitatively different from muscle pain, and the mattress requirements are different too.</p>
+
+<p>A mattress that treats sciatica like general back pain will fail it. General back pain responds to firm support. Sciatica responds to nerve decompression &mdash; which means reducing the mechanical pressure on the nerve root or the piriformis muscle. This requires maintaining precise spinal alignment so the lumbar discs stay in neutral position, and cushioning the hip so the piriformis isn&rsquo;t compressed against the sciatic nerve at the gluteal level.</p>
+
+<div class="science-box">
+  <h3>Sciatica Anatomy: Why Mattress Choice Is Different from Back Pain</h3>
+  <p>The sciatic nerve is the widest nerve in the body, formed from the L4&ndash;S1 nerve roots. Discogenic sciatica (most common, ~90% of cases) occurs when a herniated disc nucleus contacts the nerve root &mdash; creating chemical irritation as well as mechanical compression. <em>The Spine Journal</em> (2016) found that disc material causes an inflammatory cascade involving prostaglandins and cytokines, meaning sciatic pain has both mechanical and inflammatory components. This is why lying in certain positions dramatically increases or decreases pain: the disc-nerve contact changes with lumbar spine positioning.</p>
+  <p>Piriformis syndrome (5&ndash;10% of cases) occurs when the sciatic nerve passes through or under the piriformis muscle in the gluteal region. Direct pressure on the buttock compresses the piriformis against the nerve. This is why a mattress that is too firm &mdash; creating a hard surface against the greater trochanter and piriformis &mdash; worsens piriformis-type sciatica, while discogenic sciatica worsens with hip sag (lumbar flexion under load).</p>
+</div>
+
+<h2>Our 7 Picks</h2>
+
+<div class="pick">
+  <span class="pick-num">#1 Best Overall</span>
+  <h3><a href="https://www.amazon.com/s?k=Saatva+Classic+Plush+Soft+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Saatva Classic Plush Soft</a></h3>
+  <p><strong>Best for:</strong> Most sciatica sufferers &mdash; zoned lumbar support + surface softness to cushion the piriformis/greater trochanter</p>
+  <p>The Saatva Classic Plush Soft&rsquo;s dual-coil construction provides something uniquely useful for sciatica: a soft surface that cushions the hip and piriformis region, built on a coil foundation that maintains lumbar support and prevents pelvic sag. Many mattresses offer one or the other. The Saatva does both through construction rather than foam layers: the lumbar zone of the innerspring provides targeted mid-back support while the plush Euro pillow-top absorbs pressure at the hip. The result is a mattress that doesn&rsquo;t compress the piriformis (because the surface is soft) and doesn&rsquo;t let the lumbar spine sag into disc-compressing flexion (because the inner structure is firm). White glove delivery and setup included.</p>
+  <div class="verdict">Best dual-function: soft hip cushioning + firm lumbar support. Lumbar zone enhancement targets L4-S1 region. Adjustable base compatible.</div>
+</div>
+
+<div class="pick">
+  <span class="pick-num">#2 Best Zoned Decompression</span>
+  <h3><a href="https://www.amazon.com/s?k=Casper+Wave+Hybrid+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Casper Wave Hybrid</a></h3>
+  <p><strong>Best for:</strong> Sciatica patients who sleep on their back or switch positions frequently</p>
+  <p>The Wave Hybrid&rsquo;s zoned construction is engineered specifically for spinal alignment: softer under the shoulders (allows them to sink to neutral), firmer under the hips and lumbar spine (prevents the pelvic sag that increases disc pressure on L4-L5-S1), and softer again under the knees and legs. For back-sleeping sciatica patients, this means the pelvis stays level and the lumbar spine maintains its natural lordosis &mdash; the position that maximally opens the neural foramina (the channels through which nerve roots exit the spine). Keeping these channels open reduces the mechanical component of disc-related sciatica. The medium feel (5/10) is soft enough for hip cushioning but structured enough to prevent sag.</p>
+  <div class="verdict">Best zoned architecture for spinal alignment. Firmer hip zone prevents the pelvic sag that compresses L4-S1 nerve roots.</div>
+</div>
+
+<div class="pick">
+  <span class="pick-num">#3 Best for Piriformis Sciatica</span>
+  <h3><a href="https://www.amazon.com/s?k=Purple+Restore+Hybrid+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Purple Restore Hybrid</a></h3>
+  <p><strong>Best for:</strong> Piriformis syndrome sciatica &mdash; where hip pressure is the primary trigger</p>
+  <p>The Purple Grid&rsquo;s buckling-column design responds differently to point loads than foam: it collapses locally under concentrated pressure (like the greater trochanter or sit bone) while remaining supportive around it. This means the hip sinks into the Grid just enough to relieve the direct pressure on the piriformis muscle, without the full hip sinkage that would allow lumbar flexion. For piriformis syndrome, where the nerve is compressed by muscle tension aggravated by external pressure on the buttock, this targeted pressure relief is more effective than simply choosing a soft mattress (which would relieve hip pressure but cause pelvic sag). The medium-soft (4.5/10) feel suits side sleepers with sciatica particularly well.</p>
+  <div class="verdict">Best hip pressure relief without pelvic sag. Grid geometry releases piriformis pressure locally. Good for side-sleeping piriformis sciatica.</div>
+</div>
+
+<div class="pick">
+  <span class="pick-num">#4 Best Side Sleepers</span>
+  <h3><a href="https://www.amazon.com/s?k=Helix+Midnight+Luxe+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Helix Midnight Luxe</a></h3>
+  <p><strong>Best for:</strong> Side sleepers with sciatica &mdash; hip and shoulder pressure relief with spinal alignment</p>
+  <p>Side sleeping is the recommended position for most sciatica patients &mdash; with the affected side up (non-affected side down), knees bent, and a pillow between the knees. The pillow between the knees is critical: it keeps the pelvis level so the spine doesn&rsquo;t rotate, reducing piriformis stretch and disc torsion. The Helix Midnight Luxe&rsquo;s pillow-top and zoned pocket coils provide excellent pressure relief at the greater trochanter (the bony hip prominence that bears the lateral body weight in side sleeping). The TENCEL cover is cooling and hypoallergenic. The zoned design maintains lumbar support while allowing adequate hip and shoulder sink &mdash; the right balance for sciatic nerve decompression in side sleeping.</p>
+  <div class="verdict">Best hip pressure relief for side-sleeping sciatica. Zoned support maintains lumbar alignment while cushioning greater trochanter.</div>
+</div>
+
+<div class="pick">
+  <span class="pick-num">#5 Best Acute Flares</span>
+  <h3><a href="https://www.amazon.com/s?k=Tempur-Pedic+TEMPUR-ProAdapt+Medium+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Tempur-Pedic TEMPUR-ProAdapt Medium</a></h3>
+  <p><strong>Best for:</strong> Acute sciatica episodes where any movement causes pain</p>
+  <p>During acute sciatica flares, the inflammatory component dominates &mdash; the nerve root is chemically irritated as well as mechanically compressed, and even minor position changes can trigger severe pain. In this phase, the priority is minimizing the need for repositioning. TEMPUR material distributes body weight so evenly that pressure point pain is essentially eliminated, reducing the involuntary shifting that happens when the body tries to relieve pressure. This means fewer painful repositioning events through the night. The ProAdapt Medium (5/10) provides enough surface conformance for acute pain relief without the "stuck" feeling of softer Tempur models. Motion isolation is unmatched &mdash; a partner&rsquo;s movement will not reach the patient.</p>
+  <div class="verdict">Best for acute sciatica flares. Maximum pressure equalization reduces need for repositioning. Best motion isolation for partner.</div>
+</div>
+
+<div class="pick">
+  <span class="pick-num">#6 Best Back Sleepers</span>
+  <h3><a href="https://www.amazon.com/s?k=WinkBed+medium+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">WinkBed Medium</a></h3>
+  <p><strong>Best for:</strong> Back sleepers with discogenic sciatica</p>
+  <p>Back sleeping with a pillow under the knees is the best position for disc-related sciatica: it slightly flexes the hips, which reduces lumbar lordosis, opens the neural foramina, and takes pressure off the L4-L5-S1 nerve roots. The WinkBed Medium (5.5/10) provides the support necessary to maintain this position through the night &mdash; firm enough at the lumbar zone to prevent the pelvis from sinking into the mattress (which would recreate the disc pressure), soft enough at the shoulders and hips for comfort. The high-coil-count pocketed spring system provides zonal support without foam layers that could trap heat and cause night sweating. The Euro pillow-top adds surface comfort without compromising lumbar support.</p>
+  <div class="verdict">Best back-sleeping support for discogenic sciatica. Lumbar zone prevents pelvic sag that closes neural foramina. Coil system avoids heat trapping.</div>
+</div>
+
+<div class="pick">
+  <span class="pick-num">#7 Budget Pick</span>
+  <h3><a href="https://www.amazon.com/s?k=DreamCloud+Premier+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">DreamCloud Premier</a></h3>
+  <p><strong>Best for:</strong> Sciatica relief on a budget with a full year to assess</p>
+  <p>The DreamCloud Premier provides a medium (5/10) hybrid feel with reasonable zonal support from its individually wrapped coil system. The cashmere-blend euro pillow-top provides hip cushioning without the full sinkage of an all-foam surface. For sciatica patients who need a capable mattress without premium pricing, the DreamCloud performs well &mdash; especially with the 365-night trial that allows assessment across multiple sciatica episodes and recovery phases. Good motion isolation for a hybrid. The breathable cover helps with any night sweating during acute phases. Not as precisely engineered as Casper Wave or Saatva, but a solid sciatica-appropriate choice at a lower price point.</p>
+  <div class="verdict">Best budget option for sciatica. 365-night trial covers multiple flare cycles. Medium hybrid works for most sciatica types.</div>
+</div>
+
+<h2>Sleeping Position Guide for Sciatica</h2>
+<table>
+  <tr><th>Position</th><th>Effect on Sciatica</th><th>Best For</th><th>Key Modification</th></tr>
+  <tr><td>Side (affected side UP)</td><td>Reduces nerve stretch, reduces piriformis tension</td><td>Piriformis and disc sciatica</td><td>Pillow between knees to level pelvis</td></tr>
+  <tr><td>Side (affected side DOWN)</td><td>Compresses piriformis, worsens piriformis sciatica</td><td>Avoid if possible</td><td>If needed: use very soft mattress to relieve hip pressure</td></tr>
+  <tr><td>Back flat</td><td>Neutral lumbar lordosis, moderate disc pressure</td><td>Disc sciatica (mild)</td><td>Pillow under knees to reduce lumbar extension</td></tr>
+  <tr><td>Back with knee pillow</td><td>Slight hip flexion, opens neural foramina, reduces disc pressure</td><td>Best back position for disc sciatica</td><td>Single pillow under both knees</td></tr>
+  <tr><td>Stomach</td><td>Maximally extends lumbar spine, closes neural foramina, increases disc pressure</td><td>AVOID</td><td>If committed: pillow under pelvis to reduce extension</td></tr>
+  <tr><td>Fetal (curled)</td><td>Reduces disc protrusion, opens posterior disc space</td><td>Acute disc sciatica</td><td>Avoid twisting upper body; keep spine aligned</td></tr>
+</table>
+
+<h2>Disc vs Piriformis Sciatica: Different Mattress Priorities</h2>
+<div class="grid-2">
+  <div class="grid-card">
+    <h4>Discogenic Sciatica (L4-L5-S1)</h4>
+    <p>Priority: maintain neutral lumbar lordosis. Avoid: hip sag (pelvic sag causes disc bulge to press harder on nerve root). Best: medium-firm with lumbar zone support. Best position: back with knee pillow.</p>
+  </div>
+  <div class="grid-card">
+    <h4>Piriformis Syndrome</h4>
+    <p>Priority: relieve hip pressure. Avoid: hard surface under greater trochanter and sit bones (compresses piriformis). Best: medium-soft with point-relief hip cushioning. Best position: affected side up with knee pillow.</p>
+  </div>
+  <div class="grid-card">
+    <h4>Mixed / Unknown Origin</h4>
+    <p>Start medium (5-6/10). Assess after 2 weeks: if worse with hip sinking, go firmer. If worse with hip pressure, go softer. Use trial period to calibrate. Hybrid coil base recommended over all-foam for adjustability.</p>
+  </div>
+  <div class="grid-card">
+    <h4>Post-Surgical (Discectomy / Microdiscectomy)</h4>
+    <p>Follow surgeon guidance. Generally: medium-firm, easy getting in/out, no mattress that requires extreme position change to exit. Adjustable base for head elevation. Avoid all-foam that makes rolling difficult in first 4-6 weeks.</p>
   </div>
 </div>
 
-<div class="container">
-  <div class="affiliate-disclosure">
-    <strong>Affiliate disclosure:</strong> SleepWise Reviews earns a commission on qualifying purchases at no extra cost to you. Our editorial picks are based on testing and research. This guide does not substitute medical advice &mdash; consult your physician about your specific sciatic condition.
-  </div>
+<div class="warning-box">
+  <p><strong>When to see a doctor immediately:</strong> If sciatica is accompanied by loss of bladder or bowel control, saddle anesthesia (numbness in the inner thighs, perineum), or sudden bilateral leg weakness &mdash; these are signs of cauda equina syndrome, a surgical emergency. A mattress cannot treat cauda equina syndrome. Seek emergency care immediately.</p>
+</div>
 
-  <div class="toc">
-    <h2>Quick Navigation</h2>
-    <ol>
-      <li><a href="#saatva">Saatva Classic &mdash; Best Overall</a></li>
-      <li><a href="#helix">Helix Midnight Luxe &mdash; Best for Side Sleepers</a></li>
-      <li><a href="#casper">Casper Wave Hybrid &mdash; Best Zoned Support</a></li>
-      <li><a href="#dreamcloud">DreamCloud Premier Rest &mdash; Best Hybrid Value</a></li>
-      <li><a href="#winkbed">WinkBed Plus &mdash; Best for Heavy Bodies</a></li>
-      <li><a href="#nectar">Nectar Premier &mdash; Best Memory Foam</a></li>
-      <li><a href="#leesa">Leesa Sapira Hybrid &mdash; Best for Couples</a></li>
-      <li><a href="#science">How Sciatica and Sleep Interact</a></li>
-      <li><a href="#buying-guide">Buying Guide</a></li>
-      <li><a href="#faq">FAQ</a></li>
-    </ol>
-  </div>
+<h2>What to Avoid for Sciatica</h2>
+<table>
+  <tr><th>Feature</th><th>Why It Worsens Sciatica</th></tr>
+  <tr><td>Very firm mattress (8+/10)</td><td>No hip cushioning &mdash; piriformis compressed against nerve at greater trochanter</td></tr>
+  <tr><td>Very soft mattress (3/10 or lower)</td><td>Hip sinks too far, lumbar spine flexes, disc pressure on nerve root increases</td></tr>
+  <tr><td>Old sagging mattress</td><td>Creates a hammock effect &mdash; hips sink, lumbar spine is in constant flexion, L4-S1 disc pressure sustained all night</td></tr>
+  <tr><td>Stomach sleeping on any mattress</td><td>Lumbar hyperextension compresses nerve root regardless of mattress firmness</td></tr>
+  <tr><td>All-foam without zoning</td><td>Uniform compression allows pelvic sag in the lumbar zone &mdash; good for shoulders but bad for L4-S1</td></tr>
+</table>
 
-  <!-- Product 1 -->
-  <div class="product-card" id="saatva">
-    <div class="rank-badge">#1 Best Overall</div>
-    <div class="product-header">
-      <div class="product-title">
-        <h3>Saatva Classic</h3>
-        <div class="verdict">Best Overall &mdash; Zoned lumbar support, innerspring hybrid, spinal alignment system</div>
-      </div>
-      <div class="rating-box">
-        <div class="score">9.6</div>
-        <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-        <div class="label">Expert Score</div>
-      </div>
-    </div>
-    <div class="spec-chips">
-      <div class="chip"><strong>Type:</strong> Innerspring hybrid (dual-coil)</div>
-      <div class="chip"><strong>Firmness:</strong> Plush Soft, Luxury Firm, Firm</div>
-      <div class="chip"><strong>Height:</strong> 11.5&quot; or 14.5&quot;</div>
-      <div class="chip"><strong>Trial:</strong> 365-night</div>
-      <div class="chip"><strong>Warranty:</strong> Lifetime</div>
-      <div class="chip"><strong>White glove delivery:</strong> Included free</div>
-    </div>
-    <div style="margin-bottom:12px">
-      <span class="sleep-position-tag">Best: Back sleepers</span>
-      <span class="sleep-position-tag">Good: Side sleepers (Luxury Firm)</span>
-    </div>
-    <div class="pros-cons">
-      <div class="pros-cons-box pros">
-        <h4>Pros</h4>
-        <ul>
-          <li>Lumbar Zone technology &mdash; zoned coil support specifically under L1-L5</li>
-          <li>Dual-coil system (micro coils + pocketed coils) provides both pressure relief and support</li>
-          <li>Three firmness options &mdash; Luxury Firm (6/10) is ideal for most sciatica patients</li>
-          <li>Lifetime warranty &mdash; exceptional commitment</li>
-          <li>White glove delivery and setup included</li>
-        </ul>
-      </div>
-      <div class="pros-cons-box cons">
-        <h4>Cons</h4>
-        <ul>
-          <li>Not available on Amazon &mdash; must purchase direct from Saatva</li>
-          <li>Higher price point than online-only mattress brands</li>
-          <li>Innerspring bouncy feel not for everyone</li>
-        </ul>
-      </div>
-    </div>
-    <p style="color:var(--muted);font-size:.9rem;margin-bottom:16px">Saatva&rsquo;s Lumbar Zone is not marketing &mdash; it&rsquo;s a specific coil configuration that provides 30% firmer support in the lower back region while allowing the shoulders and hips to sink to their natural positions. This zoned approach is precisely what sciatica patients need: lumbar support that maintains the natural lordotic curve (preventing nerve root compression from lumbar flexion) while relieving hip pressure that would otherwise compress the piriformis muscle. The Luxury Firm option (6/10) is the standard recommendation for back sleepers with sciatica; Plush Soft works better for side sleepers with broader hips.</p>
-    <a href="https://www.amazon.com/s?k=Saatva+Classic+Mattress+Luxury+Firm&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank" class="cta-btn">Check Price on Amazon &rarr;</a>
-  </div>
+<div class="info-box">
+  <p><strong>Mattress topper shortcut:</strong> If you can&rsquo;t replace your mattress immediately, a 2"&ndash;3" medium-density memory foam topper on a firm mattress can provide the hip cushioning needed for piriformis relief without changing the underlying support profile. A topper on a soft sagging mattress will not help &mdash; you need a firm base for the topper to work. This is a short-term fix; a purpose-built mattress addresses both surface and support simultaneously.</p>
+</div>
 
-  <!-- Product 2 -->
-  <div class="product-card" id="helix">
-    <div class="rank-badge">#2 Best for Side Sleepers</div>
-    <div class="product-header">
-      <div class="product-title">
-        <h3>Helix Midnight Luxe</h3>
-        <div class="verdict">Best for Side Sleepers &mdash; Zoned pressure relief with soft shoulder and firm hip zones</div>
-      </div>
-      <div class="rating-box">
-        <div class="score">9.2</div>
-        <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-        <div class="label">Expert Score</div>
-      </div>
-    </div>
-    <div class="spec-chips">
-      <div class="chip"><strong>Type:</strong> Hybrid (pocketed coils + foam)</div>
-      <div class="chip"><strong>Firmness:</strong> Medium (5-6/10)</div>
-      <div class="chip"><strong>Height:</strong> 13.5&quot;</div>
-      <div class="chip"><strong>Trial:</strong> 100-night</div>
-      <div class="chip"><strong>Warranty:</strong> 15 years</div>
-      <div class="chip"><strong>Zoned support:</strong> Yes</div>
-    </div>
-    <div style="margin-bottom:12px">
-      <span class="sleep-position-tag">Best: Side sleepers</span>
-      <span class="sleep-position-tag">Good: Combination sleepers</span>
-    </div>
-    <div class="pros-cons">
-      <div class="pros-cons-box pros">
-        <h4>Pros</h4>
-        <ul>
-          <li>5-zone support system: softer shoulders, firmer lumbar, softer hip transition</li>
-          <li>Zulu coils (1,000+ individually wrapped) respond independently per zone</li>
-          <li>Medium firmness ideal for side sleepers with sciatica</li>
-          <li>Strong pressure relief at hip &mdash; reduces piriformis compression</li>
-          <li>100-night trial, 15-year warranty</li>
-        </ul>
-      </div>
-      <div class="pros-cons-box cons">
-        <h4>Cons</h4>
-        <ul>
-          <li>Luxe tier is significantly more expensive than base Midnight</li>
-          <li>Some edge support loss at the perimeter</li>
-          <li>Not ideal for strict back sleepers who need firmer lumbar</li>
-        </ul>
-      </div>
-    </div>
-    <p style="color:var(--muted);font-size:.9rem;margin-bottom:16px">Side sleeping with sciatica requires a mattress that allows the hip and shoulder to sink (reducing pressure on the piriformis and shoulder joint) while still supporting the lumbar region. The Midnight Luxe&rsquo;s five-zone coil system is designed precisely for this: the hip zone is medium-firm (supporting the pelvis without lateral compression), the shoulder zone is softer (preventing the shoulder from riding high and inducing lateral spinal flexion), and the lumbar zone is firmer (maintaining the natural inward curve that keeps the L4-S1 nerve roots decompressed). This is the most anatomically thoughtful mid-range mattress for side sleepers with sciatic pain.</p>
-    <a href="https://www.amazon.com/s?k=Helix+Midnight+Luxe+Mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank" class="cta-btn">Check Price on Amazon &rarr;</a>
-  </div>
-
-  <!-- Product 3 -->
-  <div class="product-card" id="casper">
-    <div class="rank-badge">#3 Best Zoned Support</div>
-    <div class="product-header">
-      <div class="product-title">
-        <h3>Casper Wave Hybrid</h3>
-        <div class="verdict">Best Zoned Support &mdash; Ergonomic foam zones with 7 distinct support regions</div>
-      </div>
-      <div class="rating-box">
-        <div class="score">8.9</div>
-        <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
-        <div class="label">Expert Score</div>
-      </div>
-    </div>
-    <div class="spec-chips">
-      <div class="chip"><strong>Type:</strong> Hybrid (foam + springs)</div>
-      <div class="chip"><strong>Firmness:</strong> Medium-soft (4.5/10)</div>
-      <div class="chip"><strong>Height:</strong> 13&quot;</div>
-      <div class="chip"><strong>Trial:</strong> 100-night</div>
-      <div class="chip"><strong>Warranty:</strong> 10 years</div>
-      <div class="chip"><strong>Zones:</strong> 7 ergonomic zones</div>
-    </div>
-    <div style="margin-bottom:12px">
-      <span class="sleep-position-tag">Best: Side sleepers</span>
-      <span class="sleep-position-tag">Good: Combination sleepers</span>
-    </div>
-    <div class="pros-cons">
-      <div class="pros-cons-box pros">
-        <h4>Pros</h4>
-        <ul>
-          <li>7 distinct ergonomic zones &mdash; most granular zoning in consumer mattresses</li>
-          <li>Gel pods under lumbar provide targeted lift without pressure</li>
-          <li>AirScape foam breathes well &mdash; no overheating</li>
-          <li>Softer hip and shoulder zones effectively reduce piriformis compression</li>
-          <li>100-night trial</li>
-        </ul>
-      </div>
-      <div class="pros-cons-box cons">
-        <h4>Cons</h4>
-        <ul>
-          <li>Medium-soft may be too soft for heavier bodies (&gt;230 lbs)</li>
-          <li>Premium price point</li>
-          <li>Not ideal for strict back sleepers who want firmer lumbar</li>
-        </ul>
-      </div>
-    </div>
-    <p style="color:var(--muted);font-size:.9rem;margin-bottom:16px">Casper&rsquo;s Wave Hybrid uses a gel pod system embedded in the foam to create targeted lift under the lumbar region while the surrounding foam remains softer. This means the lower back gets additional support &mdash; preventing the lumbar from flattening &mdash; without the firmer feel of the entire sleeping surface. For sciatica patients whose nerve compression comes from lumbar disc herniation, this targeted lumbar lift can meaningfully reduce nocturnal symptoms. The 7-zone system is the most granular support differentiation available at this price range.</p>
-    <a href="https://www.amazon.com/s?k=Casper+Wave+Hybrid+Mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank" class="cta-btn">Check Price on Amazon &rarr;</a>
-  </div>
-
-  <!-- Product 4 -->
-  <div class="product-card" id="dreamcloud">
-    <div class="rank-badge">#4 Best Hybrid Value</div>
-    <div class="product-header">
-      <div class="product-title">
-        <h3>DreamCloud Premier Rest</h3>
-        <div class="verdict">Best Hybrid Value &mdash; Cashmere-blend top, 365-night trial, strong lumbar support</div>
-      </div>
-      <div class="rating-box">
-        <div class="score">8.6</div>
-        <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9734;</div>
-        <div class="label">Expert Score</div>
-      </div>
-    </div>
-    <div class="spec-chips">
-      <div class="chip"><strong>Type:</strong> Hybrid (memory foam + pocketed coils)</div>
-      <div class="chip"><strong>Firmness:</strong> Medium-firm (6/10)</div>
-      <div class="chip"><strong>Height:</strong> 15&quot;</div>
-      <div class="chip"><strong>Trial:</strong> 365-night</div>
-      <div class="chip"><strong>Warranty:</strong> Lifetime</div>
-    </div>
-    <div style="margin-bottom:12px">
-      <span class="sleep-position-tag">Best: Back sleepers</span>
-      <span class="sleep-position-tag">Good: Combination sleepers</span>
-    </div>
-    <div class="pros-cons">
-      <div class="pros-cons-box pros">
-        <h4>Pros</h4>
-        <ul>
-          <li>365-night trial is among the longest available</li>
-          <li>Lifetime warranty</li>
-          <li>Medium-firm (6/10) is the ideal firmness for most back-sleeping sciatica patients</li>
-          <li>Memory foam comfort layer conforms around the lumbar region</li>
-          <li>Excellent price-to-feature ratio for a premium hybrid</li>
-        </ul>
-      </div>
-      <div class="pros-cons-box cons">
-        <h4>Cons</h4>
-        <ul>
-          <li>No dedicated lumbar zone &mdash; consistent firmness throughout</li>
-          <li>Memory foam can sleep warm at higher body weights</li>
-          <li>Less specialized for sciatica than Saatva or Helix Luxe</li>
-        </ul>
-      </div>
-    </div>
-    <p style="color:var(--muted);font-size:.9rem;margin-bottom:16px">The DreamCloud Premier Rest is the practical choice for sciatica patients who want a premium hybrid without Saatva&rsquo;s direct-only purchase model or Helix Luxe&rsquo;s price point. The medium-firm (6/10) feel is the clinical sweet spot for most back-sleeping sciatica patients &mdash; firm enough to prevent lumbar flexion, soft enough to relieve hip and shoulder pressure. The 365-night trial is the longest in the industry, providing genuine time to evaluate whether the mattress improves your specific sciatica pattern. The lifetime warranty signals confidence in long-term durability.</p>
-    <a href="https://www.amazon.com/s?k=DreamCloud+Premier+Rest+Mattress+Hybrid&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank" class="cta-btn">Check Price on Amazon &rarr;</a>
-  </div>
-
-  <!-- Product 5 -->
-  <div class="product-card" id="winkbed">
-    <div class="rank-badge">#5 Best for Heavy Bodies</div>
-    <div class="product-header">
-      <div class="product-title">
-        <h3>WinkBed Plus</h3>
-        <div class="verdict">Best for Heavy Bodies &mdash; Specifically engineered for 250 lbs+ with targeted lumbar support</div>
-      </div>
-      <div class="rating-box">
-        <div class="score">8.4</div>
-        <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9734;</div>
-        <div class="label">Expert Score</div>
-      </div>
-    </div>
-    <div class="spec-chips">
-      <div class="chip"><strong>Type:</strong> Hybrid (latex + pocketed coils)</div>
-      <div class="chip"><strong>Firmness:</strong> Firm (7/10) for heavy bodies</div>
-      <div class="chip"><strong>Height:</strong> 13.5&quot;</div>
-      <div class="chip"><strong>Trial:</strong> 120-night</div>
-      <div class="chip"><strong>Target weight:</strong> 250+ lbs</div>
-      <div class="chip"><strong>Lumbar:</strong> Extra support layer</div>
-    </div>
-    <div style="margin-bottom:12px">
-      <span class="sleep-position-tag">Best: Back sleepers 250+ lbs</span>
-      <span class="sleep-position-tag">Good: Side sleepers 250+ lbs</span>
-    </div>
-    <div class="pros-cons">
-      <div class="pros-cons-box pros">
-        <h4>Pros</h4>
-        <ul>
-          <li>Engineered for 250+ lbs where standard mattresses compress too deeply</li>
-          <li>Reinforced edge support prevents perimeter sag</li>
-          <li>Lumbar bar provides targeted support at the critical L1-L5 region</li>
-          <li>Latex comfort layer is more durable than memory foam under heavier body weights</li>
-          <li>120-night trial</li>
-        </ul>
-      </div>
-      <div class="pros-cons-box cons">
-        <h4>Cons</h4>
-        <ul>
-          <li>Too firm for lighter bodies (&lt;150 lbs) &mdash; overly rigid feel</li>
-          <li>Latex can feel bouncy compared to memory foam</li>
-          <li>Higher price tier</li>
-        </ul>
-      </div>
-    </div>
-    <p style="color:var(--muted);font-size:.9rem;margin-bottom:16px">Heavier bodies create a specific sciatica problem: standard mattresses compress under higher body weight, causing the hip to sink below the lumbar region and flattening the lumbar curve. This drops the lumbar spine into flexion &mdash; the position that maximally compresses herniated disc material against nerve roots. The WinkBed Plus is specifically engineered to resist this compression, with a reinforced coil system and lumbar bar that maintains structural support at higher body weights. For sciatica patients over 250 lbs, this is the most clinically appropriate standard mattress option.</p>
-    <a href="https://www.amazon.com/s?k=WinkBed+Plus+Mattress+Heavy&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank" class="cta-btn">Check Price on Amazon &rarr;</a>
-  </div>
-
-  <!-- Product 6 -->
-  <div class="product-card" id="nectar">
-    <div class="rank-badge">#6 Best Memory Foam</div>
-    <div class="product-header">
-      <div class="product-title">
-        <h3>Nectar Premier Memory Foam</h3>
-        <div class="verdict">Best Memory Foam &mdash; 5-layer gel memory foam with targeted lumbar support at value pricing</div>
-      </div>
-      <div class="rating-box">
-        <div class="score">8.1</div>
-        <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9734;</div>
-        <div class="label">Expert Score</div>
-      </div>
-    </div>
-    <div class="spec-chips">
-      <div class="chip"><strong>Type:</strong> All-foam (memory foam)</div>
-      <div class="chip"><strong>Firmness:</strong> Medium-firm (5.5/10)</div>
-      <div class="chip"><strong>Height:</strong> 13&quot;</div>
-      <div class="chip"><strong>Trial:</strong> 365-night</div>
-      <div class="chip"><strong>Warranty:</strong> Forever (lifetime)</div>
-    </div>
-    <div style="margin-bottom:12px">
-      <span class="sleep-position-tag">Best: Side sleepers &lt;200 lbs</span>
-      <span class="sleep-position-tag">Good: Back sleepers &lt;200 lbs</span>
-    </div>
-    <div class="pros-cons">
-      <div class="pros-cons-box pros">
-        <h4>Pros</h4>
-        <ul>
-          <li>365-night trial + forever warranty &mdash; industry-leading guarantees</li>
-          <li>Memory foam contours to lumbar curve without pressure points</li>
-          <li>Gel-infused top layers reduce heat retention</li>
-          <li>Excellent value for a 5-layer foam mattress</li>
-          <li>Strong motion isolation &mdash; good for couples where one partner has sciatica</li>
-        </ul>
-      </div>
-      <div class="pros-cons-box cons">
-        <h4>Cons</h4>
-        <ul>
-          <li>All-foam can feel too conforming for heavier bodies &mdash; not recommended 200+ lbs</li>
-          <li>No zoned support &mdash; consistent feel throughout</li>
-          <li>Slower response than hybrid or latex</li>
-        </ul>
-      </div>
-    </div>
-    <p style="color:var(--muted);font-size:.9rem;margin-bottom:16px">For sciatica patients under 200 lbs who prefer the conforming feel of memory foam and want maximum motion isolation, Nectar Premier is the value champion. The 5-layer construction provides enough foam depth to properly contour around the lumbar region, and the gel-infused top layer reduces the heat buildup that pure memory foam generates. The forever warranty and 365-night trial eliminate purchase risk entirely. The main limitation is body weight &mdash; above 200 lbs, all-foam mattresses typically compress too deeply in the hip area, flattening the lumbar curve in exactly the way sciatica patients need to avoid.</p>
-    <a href="https://www.amazon.com/s?k=Nectar+Premier+Memory+Foam+Mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank" class="cta-btn">Check Price on Amazon &rarr;</a>
-  </div>
-
-  <!-- Product 7 -->
-  <div class="product-card" id="leesa">
-    <div class="rank-badge">#7 Best for Couples</div>
-    <div class="product-header">
-      <div class="product-title">
-        <h3>Leesa Sapira Hybrid</h3>
-        <div class="verdict">Best for Couples &mdash; Balanced medium-firm hybrid with excellent motion isolation</div>
-      </div>
-      <div class="rating-box">
-        <div class="score">7.9</div>
-        <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9734;</div>
-        <div class="label">Expert Score</div>
-      </div>
-    </div>
-    <div class="spec-chips">
-      <div class="chip"><strong>Type:</strong> Hybrid (foam + pocketed springs)</div>
-      <div class="chip"><strong>Firmness:</strong> Medium-firm (5.5/10)</div>
-      <div class="chip"><strong>Height:</strong> 11&quot;</div>
-      <div class="chip"><strong>Trial:</strong> 100-night</div>
-      <div class="chip"><strong>Warranty:</strong> 10 years</div>
-      <div class="chip"><strong>Motion isolation:</strong> Excellent</div>
-    </div>
-    <div style="margin-bottom:12px">
-      <span class="sleep-position-tag">Good: Side sleepers</span>
-      <span class="sleep-position-tag">Good: Back sleepers</span>
-      <span class="sleep-position-tag">Best: Couples with different needs</span>
-    </div>
-    <div class="pros-cons">
-      <div class="pros-cons-box pros">
-        <h4>Pros</h4>
-        <ul>
-          <li>Excellent motion isolation for couples &mdash; partner movement doesn&rsquo;t disturb the sciatica patient</li>
-          <li>Medium-firm balance works for both side and back sleeping</li>
-          <li>1,000+ pocketed coils provide good structural support</li>
-          <li>Social mission: Leesa donates mattresses to those in need</li>
-          <li>100-night trial</li>
-        </ul>
-      </div>
-      <div class="pros-cons-box cons">
-        <h4>Cons</h4>
-        <ul>
-          <li>No dedicated zoned lumbar support</li>
-          <li>11&rdquo; profile is shorter than competitors at similar price</li>
-          <li>Less specialized for pain relief than Saatva or Helix Luxe</li>
-        </ul>
-      </div>
-    </div>
-    <p style="color:var(--muted);font-size:.9rem;margin-bottom:16px">Leesa Sapira Hybrid is the choice for couples where one partner has sciatica and the other doesn&rsquo;t. The pocketed coil system minimizes motion transfer &mdash; when the sciatica patient shifts positions in the night (which happens frequently as they try to find a pain-free position), the partner isn&rsquo;t disturbed. The medium-firm feel (5.5/10) is an acceptable compromise that works adequately for both side and back sleeping without being overly specialized for either. It&rsquo;s not the best mattress on this list for sciatica in isolation, but it&rsquo;s the best for shared sleep where sciatica is a factor.</p>
-    <a href="https://www.amazon.com/s?k=Leesa+Sapira+Hybrid+Mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank" class="cta-btn">Check Price on Amazon &rarr;</a>
-  </div>
-
-  <!-- Comparison Table -->
-  <h2 style="color:var(--gold);margin-bottom:16px">Quick Comparison</h2>
-  <table class="verdict-table">
-    <thead>
-      <tr>
-        <th>Mattress</th>
-        <th>Type</th>
-        <th>Firmness</th>
-        <th>Best For</th>
-        <th>Score</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr><td class="gold">Saatva Classic</td><td>Innerspring hybrid</td><td>Medium-firm (6)</td><td>Back sleepers, general</td><td>9.6</td></tr>
-      <tr><td class="gold">Helix Midnight Luxe</td><td>Hybrid</td><td>Medium (5-6)</td><td>Side sleepers</td><td>9.2</td></tr>
-      <tr><td class="gold">Casper Wave Hybrid</td><td>Hybrid</td><td>Medium-soft (4.5)</td><td>Zoned support, side sleepers</td><td>8.9</td></tr>
-      <tr><td class="gold">DreamCloud Premier Rest</td><td>Hybrid</td><td>Medium-firm (6)</td><td>Back sleepers, value hybrid</td><td>8.6</td></tr>
-      <tr><td class="gold">WinkBed Plus</td><td>Latex hybrid</td><td>Firm (7)</td><td>Heavy bodies 250+ lbs</td><td>8.4</td></tr>
-      <tr><td class="gold">Nectar Premier</td><td>All-foam</td><td>Medium-firm (5.5)</td><td>Side sleepers &lt;200 lbs</td><td>8.1</td></tr>
-      <tr><td class="gold">Leesa Sapira Hybrid</td><td>Hybrid</td><td>Medium-firm (5.5)</td><td>Couples</td><td>7.9</td></tr>
-    </tbody>
-  </table>
-
-  <!-- Science Box -->
-  <div class="science-box" id="science">
-    <h2>&#128300; How Sciatica and Sleep Interact</h2>
-    <p><strong>What sciatica is:</strong> Sciatica refers to pain that radiates along the path of the sciatic nerve &mdash; from the lower back through the hip and down one leg. It is most commonly caused by disc herniation (where disc material protrudes and compresses a nerve root), piriformis syndrome (where the piriformis muscle compresses the sciatic nerve as it passes through or near the muscle), or lumbar spinal stenosis (narrowing of the spinal canal).</p>
-    <p><strong>The nighttime amplification effect:</strong> In upright positions, the lumbar spine&rsquo;s natural lordotic curve distributes load across the vertebrae and discs. When lying flat on an unsupportive mattress, this curve flattens &mdash; a position called lumbar kyphosis. Flat lumbar position increases intradiscal pressure at L4-L5 and L5-S1 (the most common herniation sites), directly increasing nerve root compression. Sustained for 7-8 hours nightly, this position can significantly worsen morning sciatica symptoms.</p>
-    <p><strong>The piriformis position component:</strong> Side sleeping without proper hip support allows the top leg to internally rotate and adduct, placing the piriformis muscle in a shortened position that compresses the sciatic nerve underneath it. A pillow between the knees corrects this rotation, but an appropriately firm mattress under the hip is the foundation &mdash; too soft a surface allows the hip to sink into the position that triggers piriformis compression.</p>
-    <p><strong>The morning flare mechanism:</strong> Sciatica that is worst upon waking and improves within 30-60 minutes of movement is almost always sleep-position related. The 7-8 hours of sustained spinal position creates sustained nerve root irritation that manifests as morning flare. Improving mattress support and sleeping position is often more effective than morning pain medication for this pattern.</p>
-  </div>
-
-  <!-- Buying Guide -->
-  <div class="buying-guide" id="buying-guide">
-    <h2>Mattress Buying Guide for Sciatica</h2>
-
-    <h3>Firmness by Sleep Position and Body Weight</h3>
-    <p><strong>Side sleepers &lt;150 lbs:</strong> Medium-soft (4-5/10) &mdash; lighter bodies don&rsquo;t compress mattresses enough; need softer surface to allow hip and shoulder sinkage.<br>
-    <strong>Side sleepers 150-230 lbs:</strong> Medium (5-6/10) &mdash; the ideal range for hip pressure relief without excessive sinkage.<br>
-    <strong>Side sleepers 230+ lbs:</strong> Medium-firm (6-7/10) &mdash; needed to prevent excessive hip sinkage under heavier body weight.<br>
-    <strong>Back sleepers &lt;200 lbs:</strong> Medium-firm (6/10) &mdash; supports lumbar curve without creating pressure at the sacrum.<br>
-    <strong>Back sleepers 200+ lbs:</strong> Firm (7/10) &mdash; prevents lumbar from sinking below hip level.</p>
-
-    <h3>Key Features to Look For</h3>
-    <p><strong>Zoned support:</strong> Mattresses with dedicated lumbar zones (like Saatva, Helix Midnight Luxe) provide targeted support exactly where the sciatic nerve is most vulnerable to compression during sleep.<br>
-    <strong>Hybrid construction:</strong> Coil + foam hybrids are generally preferred over all-foam for sciatica because coils provide more consistent support under varying body weights and positions, while the foam comfort layer relieves pressure at the hip and shoulder.<br>
-    <strong>Cooling:</strong> Inflammation increases with heat. A mattress that sleeps cool reduces inflammation in tissues surrounding the sciatic nerve.</p>
-
-    <h3>Trial Length Recommendation</h3>
-    <p>Sciatica response to a new mattress takes 4-8 weeks to fully manifest. Choose a mattress with at least a 100-night trial &mdash; 365-night options (Saatva, DreamCloud, Nectar) are ideal. Do not evaluate based on the first 1-2 nights, which rarely reflect the full adaptation.</p>
-  </div>
-
-  <!-- FAQ -->
-  <div class="faq" id="faq">
-    <h2>Frequently Asked Questions</h2>
-    <div class="faq-item">
-      <div class="faq-q">Is a firm or soft mattress better for sciatica?</div>
-      <div class="faq-a">Medium-firm is best for most sciatica patients. A too-soft mattress allows the hips to sink, rotating the pelvis posteriorly and compressing the piriformis muscle against the sciatic nerve. A too-firm mattress doesn\'t accommodate the hips and shoulders, creating pressure points that force the spine into lateral flexion. Medium-firm mattresses (4-6 on a 1-10 scale) keep the spine neutral while providing enough give to relieve pressure at the hip and shoulder -- the key balance for sciatic nerve decompression during sleep.</div>
-    </div>
-    <div class="faq-item">
-      <div class="faq-q">What sleeping position is best for sciatica?</div>
-      <div class="faq-a">Side sleeping with a pillow between the knees is consistently recommended for sciatica. The pillow aligns the hips and reduces the rotational force on the piriformis muscle that compresses the sciatic nerve. The fetal position (knees slightly drawn up) opens the lumbar vertebral foramen slightly, reducing direct nerve root compression from disc herniation. Avoid stomach sleeping -- it hyperextends the lumbar spine and directly increases sciatic nerve tension. Back sleeping is acceptable with a pillow under the knees to flatten the lumbar curve.</div>
-    </div>
-    <div class="faq-item">
-      <div class="faq-q">How long does a new mattress take to help sciatica?</div>
-      <div class="faq-a">Most people notice improvement within 2-4 weeks of switching to a properly supportive mattress. However, full adaptation takes 4-8 weeks as the muscles and soft tissue adjust to new positioning. Sciatica caused by disc herniation or spinal stenosis requires concurrent medical treatment -- a better mattress reduces nighttime pain but doesn\'t resolve the underlying compression. If symptoms worsen after 2-3 weeks or are accompanied by bladder/bowel dysfunction or bilateral leg weakness, consult a physician immediately.</div>
-    </div>
-    <div class="faq-item">
-      <div class="faq-q">Should I sleep on a mattress topper if I have sciatica?</div>
-      <div class="faq-a">A mattress topper can help if your current mattress is too firm. A 2-3 inch memory foam or latex topper at medium-soft firmness can reduce the pressure points at the hip and shoulder that contribute to sciatic nerve compression during side sleeping. However, if your mattress is already too soft, a topper will worsen the problem. Assess first: if you sink into the mattress, you need a firmer surface (or a new mattress), not a topper.</div>
-    </div>
-    <div class="faq-item">
-      <div class="faq-q">Can a bad mattress cause sciatica?</div>
-      <div class="faq-a">A bad mattress can worsen sciatica or provoke flares, but it doesn\'t cause the underlying anatomical issue (disc herniation, piriformis syndrome, spinal stenosis, etc.). However, sleeping on a too-soft mattress for years can contribute to chronic lumbar muscle weakness and poor spinal alignment that makes sciatic nerve compression more likely. A mattress that sags significantly, especially at the hip area for side sleepers, creates a nightly sustained stretch of the sciatic nerve and its surrounding soft tissue.</div>
-    </div>
-  </div>
+<div class="related">
+  <h3>Related Guides</h3>
+  <ul>
+    <li><a href="/posts/best-mattress-back-pain.html">Best Mattress for Back Pain</a></li>
+    <li><a href="/posts/best-mattress-herniated-disc.html">Best Mattress for Herniated Disc</a></li>
+    <li><a href="/posts/best-mattress-hip-pain.html">Best Mattress for Hip Pain</a></li>
+    <li><a href="/posts/best-mattress-ankylosing-spondylitis.html">Best Mattress for Ankylosing Spondylitis</a></li>
+    <li><a href="/posts/best-mattress-back-pain-side-sleeper.html">Best Mattress for Back Pain Side Sleepers</a></li>
+    <li><a href="/posts/best-mattress-spinal-stenosis.html">Best Mattress for Spinal Stenosis</a></li>
+  </ul>
+</div>
 
 </div>
 
 <footer>
-  <p style="margin-bottom:8px"><a href="/">SleepWise Reviews</a> &mdash; <a href="/posts/index.html">All Guides</a></p>
-  <p>This content is for informational purposes only and does not constitute medical advice. Consult your physician.</p>
-  <p style="margin-top:8px">Affiliate disclosure: We earn commissions on qualifying purchases. Picks are editorially independent.</p>
+  <p>&copy; 2025 SleepWise Reviews &bull; <a href="/privacy.html">Privacy Policy</a> &bull; <a href="/disclosure.html">Affiliate Disclosure</a></p>
+  <p style="margin-top:8px;font-size:.75rem">We may earn a commission from Amazon links at no extra cost to you.</p>
 </footer>
 </body>
-</html>'''
+</html>"""
 
-with open('posts/best-mattress-sciatica.html', 'w', encoding='utf-8') as f:
+with open(out, "w", encoding="utf-8") as f:
     f.write(html)
-print('Written: posts/best-mattress-sciatica.html')
+print(f"Created: {out}")
