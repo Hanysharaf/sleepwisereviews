@@ -1,0 +1,304 @@
+slug = "best-mattress-parkinsons"
+out = f"posts/{slug}.html"
+
+html = """<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Best Mattress for Parkinson's Disease 2025 — 7 Picks for Rigidity, RBD &amp; Safe Exit</title>
+<meta name="description" content="Best mattresses for Parkinson's disease 2025. 7 expert picks addressing rigidity, REM sleep behavior disorder, tremor, and safe nighttime exit. Caregiver guide included.">
+<link rel="canonical" href="https://sleepwisereviews.com/posts/best-mattress-parkinsons.html">
+<meta property="og:title" content="Best Mattress for Parkinson's Disease 2025 — 7 Picks">
+<meta property="og:description" content="PD affects turning, REM sleep, and safe exit. These 7 mattresses help with rigidity, RBD protection, and caregiver access.">
+<meta property="og:url" content="https://sleepwisereviews.com/posts/best-mattress-parkinsons.html">
+<meta property="og:type" content="article">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Best Mattress for Parkinson's Disease 2025">
+<meta name="twitter:description" content="7 mattress picks for PD — rigidity, REM behavior disorder, tremor, safe nighttime exit.">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "headline": "Best Mattress for Parkinson's Disease 2025",
+      "description": "Expert picks addressing PD rigidity, REM sleep behavior disorder (RBD), tremor, and safe nighttime exits for patients and caregivers.",
+      "url": "https://sleepwisereviews.com/posts/best-mattress-parkinsons.html",
+      "datePublished": "2026-05-25",
+      "dateModified": "2026-05-25",
+      "author": {"@type": "Organization", "name": "SleepWise Reviews"},
+      "publisher": {"@type": "Organization", "name": "SleepWise Reviews", "url": "https://sleepwisereviews.com"}
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://sleepwisereviews.com"},
+        {"@type": "ListItem", "position": 2, "name": "All Posts", "item": "https://sleepwisereviews.com/posts/index.html"},
+        {"@type": "ListItem", "position": 3, "name": "Best Mattress for Parkinson's Disease", "item": "https://sleepwisereviews.com/posts/best-mattress-parkinsons.html"}
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "name": "Best Mattresses for Parkinson's Disease 2025",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Saatva Classic Medium-Firm — Best Overall for Parkinson's"},
+        {"@type": "ListItem", "position": 2, "name": "WinkBed Medium-Firm — Best for Turning Ease (Rigidity)"},
+        {"@type": "ListItem", "position": 3, "name": "Purple Restore Hybrid — Best for RBD Partner Safety"},
+        {"@type": "ListItem", "position": 4, "name": "Tempur-Pedic TEMPUR-ProAdapt — Best for Tremor Dampening"},
+        {"@type": "ListItem", "position": 5, "name": "Casper Wave Hybrid — Best for PD + Caregiver Access"},
+        {"@type": "ListItem", "position": 6, "name": "Avocado Green — Best for Chemical Sensitivity"},
+        {"@type": "ListItem", "position": 7, "name": "DreamCloud Premier — Best Budget for Parkinson's"}
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is the best mattress for someone with Parkinson's disease?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A medium-firm hybrid mattress is best for Parkinson's disease. The coil layer provides bounce that helps with turning (rigidity makes rolling difficult), while the comfort layer cushions pressure points. Strong edge support is critical for safe nighttime exits. Avoid deep memory foam, which traps patients and makes turning and exiting difficult."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is REM sleep behavior disorder in Parkinson's?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "REM Sleep Behavior Disorder (RBD) is a sleep condition where the normal paralysis during REM sleep fails. Parkinson's patients may physically act out their dreams — punching, kicking, shouting. RBD is present in up to 90% of PD patients and often precedes motor symptoms by years. Motion-isolating mattresses reduce the impact transmitted to a bed partner, and some patients benefit from a separate sleep surface or bed rail installation."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Should a Parkinson's patient use a firm or soft mattress?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Medium-firm (5.5-7/10) is optimal. Soft mattresses trap patients with rigidity — turning requires pushing against resistance, which is difficult with PD muscle stiffness. Very firm mattresses create pressure points at the hip and shoulder. Medium-firm provides the responsive surface needed for repositioning while cushioning bony prominences."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Are bed rails helpful for Parkinson's patients?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Half-length bed rails (also called grab rails) can be very helpful for PD patients — they provide a grip point for turning and a handle for sitting up and standing. A mattress with a firm perimeter (edge support) works best with bed rails, as it provides a stable surface to push against. Ensure the rail is properly fitted to your mattress depth to prevent entrapment."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is an adjustable base good for Parkinson's disease?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. An adjustable base helps PD patients in several ways: raising the head reduces aspiration risk from drooling/dysphagia; raising the foot reduces leg edema from reduced mobility; the inclined position makes it easier to sit up and transfer to standing. The zero gravity position distributes weight evenly and reduces pressure points for patients who spend more time in bed. Choose a mattress rated for adjustable base use."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,sans-serif;background:#0a1628;color:#e2e8f0;line-height:1.7}
+header{background:linear-gradient(135deg,#0a1628 0%,#1a2f4e 100%);padding:60px 20px 40px;text-align:center;border-bottom:1px solid #1e3a5f}
+header h1{font-size:clamp(1.6rem,4vw,2.4rem);color:#fff;max-width:800px;margin:0 auto 16px;line-height:1.3}
+.badge{display:inline-block;background:#dc2626;color:#fff;font-size:.75rem;font-weight:700;padding:4px 12px;border-radius:20px;letter-spacing:.05em;text-transform:uppercase;margin-bottom:16px}
+.subtitle{color:#94a3b8;font-size:1rem;max-width:640px;margin:0 auto 20px}
+.meta{color:#64748b;font-size:.85rem}
+nav.breadcrumb{background:#0d1f38;padding:12px 20px;font-size:.82rem;color:#64748b}
+nav.breadcrumb a{color:#c9a84c;text-decoration:none}
+nav.breadcrumb a:hover{text-decoration:underline}
+.container{max-width:860px;margin:0 auto;padding:40px 20px}
+h2{font-size:1.5rem;color:#c9a84c;margin:40px 0 16px;padding-bottom:8px;border-bottom:1px solid #1e3a5f}
+h3{font-size:1.15rem;color:#e2e8f0;margin:24px 0 10px}
+p{margin-bottom:14px;color:#cbd5e1}
+.pick{background:#111e33;border:1px solid #1e3a5f;border-radius:12px;padding:24px;margin-bottom:20px;position:relative}
+.pick-num{position:absolute;top:16px;right:16px;background:#c9a84c;color:#0a1628;font-weight:800;font-size:.8rem;padding:4px 10px;border-radius:20px}
+.pick h3{color:#c9a84c;margin-top:0}
+.pick .verdict{background:#0a1628;border-left:3px solid #c9a84c;padding:10px 14px;margin-top:12px;border-radius:0 6px 6px 0;font-size:.9rem;color:#94a3b8}
+.pick a{color:#c9a84c;text-decoration:none;font-weight:600}
+.pick a:hover{text-decoration:underline;color:#e2b96b}
+.science-box{background:#0d1f38;border:1px solid #1e3a5f;border-radius:10px;padding:20px 24px;margin:24px 0}
+.science-box h3{color:#60a5fa;margin-top:0;font-size:1rem}
+.science-box p{color:#94a3b8;font-size:.9rem;margin-bottom:0}
+.warning-box{background:#1a1200;border:1px solid #c9a84c;border-radius:10px;padding:16px 20px;margin:24px 0}
+.warning-box p{color:#fbbf24;font-size:.9rem;margin:0}
+.info-box{background:#0a1f3a;border:1px solid #1e6fa8;border-radius:10px;padding:16px 20px;margin:24px 0}
+.info-box p{color:#7dd3fc;font-size:.9rem;margin:0}
+table{width:100%;border-collapse:collapse;margin:20px 0;font-size:.88rem}
+th{background:#1e3a5f;color:#c9a84c;padding:10px 12px;text-align:left}
+td{padding:9px 12px;border-bottom:1px solid #1a2f4e;color:#cbd5e1}
+tr:nth-child(even) td{background:#0d1a2e}
+.grid-2{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:20px 0}
+@media(max-width:600px){.grid-2{grid-template-columns:1fr}}
+.grid-card{background:#111e33;border:1px solid #1e3a5f;border-radius:8px;padding:16px}
+.grid-card h4{color:#c9a84c;font-size:.9rem;margin-bottom:8px}
+.grid-card p{font-size:.85rem;color:#94a3b8;margin:0}
+.related{background:#111e33;border:1px solid #1e3a5f;border-radius:12px;padding:24px;margin:40px 0}
+.related h3{color:#c9a84c;margin-top:0}
+.related ul{list-style:none;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:8px}
+@media(max-width:600px){.related ul{grid-template-columns:1fr}}
+.related ul li a{color:#60a5fa;text-decoration:none;font-size:.9rem}
+.related ul li a:hover{text-decoration:underline;color:#c9a84c}
+footer{background:#060e1a;padding:30px 20px;text-align:center;color:#475569;font-size:.82rem;border-top:1px solid #1e3a5f}
+footer a{color:#c9a84c;text-decoration:none}
+</style>
+</head>
+<body>
+<header>
+  <span class="badge">Health Conditions</span>
+  <h1>Best Mattress for Parkinson&rsquo;s Disease 2025</h1>
+  <p class="subtitle">7 expert picks for PD rigidity, REM sleep behavior disorder, tremor, and safe nighttime exit &mdash; for patients and caregivers.</p>
+  <p class="meta">By SleepWise Reviews &bull; Updated May 2025 &bull; 7 picks</p>
+</header>
+<nav class="breadcrumb">
+  <a href="/">Home</a> &rsaquo; <a href="/posts/index.html">All Posts</a> &rsaquo; Best Mattress for Parkinson&rsquo;s Disease
+</nav>
+
+<div class="container">
+
+<p>Parkinson&rsquo;s disease (PD) creates sleep challenges that are fundamentally different from most conditions. Rigidity makes turning in bed effortful or impossible without a responsive surface. REM Sleep Behavior Disorder (RBD) &mdash; present in up to 90% of PD patients &mdash; causes physical acting-out of dreams, threatening the safety of both patient and partner. Orthostatic hypotension means getting up too fast causes dizziness and fall risk. Tremor disrupts both the patient&rsquo;s sleep and anyone sharing the bed.</p>
+
+<p>The wrong mattress compounds every one of these problems. Deep memory foam traps patients with rigidity, preventing the small repositioning movements that reduce pressure point pain. A mattress without strong edge support is a fall risk at every exit. The right mattress works as part of the broader PD sleep environment &mdash; alongside bed rails, adjustable bases, and caregiver positioning.</p>
+
+<div class="science-box">
+  <h3>PD Sleep Science: RBD and the Alpha-Synuclein Connection</h3>
+  <p>REM Sleep Behavior Disorder is now recognized as a prodromal marker of Parkinson&rsquo;s disease. <em>Lancet Neurology</em> (2019) established that alpha-synuclein pathology in the brainstem REM sleep circuit impairs the normal atonia (muscle paralysis) that prevents acting out dreams. Studies show that 80&ndash;90% of PD patients have polysomnography-confirmed RBD. Separately, dopamine depletion in the basal ganglia explains the freezing episodes and initiation difficulties that affect turning in bed &mdash; the same mechanism behind motor "off" periods. Orthostatic hypotension from autonomic dysfunction (failure of norepinephrine release on standing) is a leading cause of PD falls, with up to 50% of patients affected.</p>
+</div>
+
+<h2>Our 7 Picks</h2>
+
+<div class="pick">
+  <span class="pick-num">#1 Best Overall</span>
+  <h3><a href="https://www.amazon.com/s?k=Saatva+Classic+mattress+medium+firm&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Saatva Classic Medium-Firm</a></h3>
+  <p><strong>Best for:</strong> Most Parkinson&rsquo;s patients &mdash; responsive coil system aids turning, superior edge support for safe exit</p>
+  <p>The Saatva Classic&rsquo;s dual-coil construction is uniquely suited to PD. The individually wrapped comfort coils provide a responsive, springy surface that assists with turning &mdash; unlike memory foam, which requires you to push against resistance. For patients with PD rigidity, this difference is significant: the bed pushes back, providing kinesthetic cues and reducing the muscular effort needed to reposition. The tempered steel perimeter foundation creates the firmest, most stable edge of any mattress &mdash; critical for patients who need to sit on the edge, grip a bed rail, and stand without the bed collapsing. White glove delivery and in-home setup included.</p>
+  <div class="verdict">Best turning assist + best edge support. Split king option for caregiver on separate surface. Adjustable base compatible.</div>
+</div>
+
+<div class="pick">
+  <span class="pick-num">#2 Best for Turning</span>
+  <h3><a href="https://www.amazon.com/s?k=WinkBed+medium+firm+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">WinkBed Medium-Firm</a></h3>
+  <p><strong>Best for:</strong> PD patients whose primary problem is difficulty turning and repositioning</p>
+  <p>The WinkBed&rsquo;s high-coil-count pocketed spring system (1,000+ coils in a queen) provides exceptional bounce and responsiveness. When PD rigidity makes initiating movement difficult, a responsive mattress surface provides the physical feedback that helps overcome the initiation failure. The medium-firm (6/10) feel is firm enough to sleep on the back without excessive sinking (which would make turning harder) but cushioned enough at the shoulder and hip for comfortable side sleeping. The Euro pillow-top adds surface comfort without reducing the responsiveness of the underlying coil system. Gel lumbar zone adds lower back support.</p>
+  <div class="verdict">Most responsive hybrid coil system for turning assist. Strong edge support. Lifetime comfort guarantee.</div>
+</div>
+
+<div class="pick">
+  <span class="pick-num">#3 Best for RBD Partner Safety</span>
+  <h3><a href="https://www.amazon.com/s?k=Purple+Restore+Hybrid+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Purple Restore Hybrid</a></h3>
+  <p><strong>Best for:</strong> PD patients with active RBD where partner safety and sleep disruption are the priority</p>
+  <p>When RBD is the dominant issue &mdash; kicking, punching, or violent movements during REM sleep &mdash; the goal is absorbing and dissipating movement before it transmits to a partner. The Purple Grid&rsquo;s buckling-column design absorbs horizontal and vertical force differently than traditional foam or coils: it collapses locally under point loads (like a knee or elbow impact) rather than transmitting them outward. The hybrid coil base provides responsiveness for turning assist while the Grid handles the RBD impact absorption. The medium-soft (4.5/10) feel also reduces the surface resistance that can worsen frustration during freezing episodes.</p>
+  <div class="verdict">Best impact absorption for RBD. Grid geometry isolates sudden impacts. Good cooling for night sweats from levodopa.</div>
+</div>
+
+<div class="pick">
+  <span class="pick-num">#4 Best for Tremor</span>
+  <h3><a href="https://www.amazon.com/s?k=Tempur-Pedic+TEMPUR-ProAdapt+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Tempur-Pedic TEMPUR-ProAdapt Medium</a></h3>
+  <p><strong>Best for:</strong> PD patients where resting tremor is the dominant sleep disruptor for the partner</p>
+  <p>Resting tremor &mdash; the characteristic 4&ndash;6 Hz "pill-rolling" movement &mdash; is maximal at rest and often persists into light sleep. TEMPUR material is unmatched at dampening repetitive low-frequency vibration: the viscoelastic foam dissipates energy within the material rather than transmitting it. For a partner lying next to someone with active tremor, the Tempur-ProAdapt provides the closest thing to a vibration-isolated surface. The medium version (5/10) balances the pressure relief needed for reduced mobility patients with enough surface response for repositioning. The ProAdapt also uses SmartClimate dual cover for temperature regulation, helpful for levodopa-induced night sweats.</p>
+  <div class="verdict">Best tremor dampening for partner. TEMPUR material absorbs 4-6 Hz resting tremor. SmartClimate cover for medication-induced sweating.</div>
+</div>
+
+<div class="pick">
+  <span class="pick-num">#5 Best for Caregiver Access</span>
+  <h3><a href="https://www.amazon.com/s?k=Casper+Wave+Hybrid+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Casper Wave Hybrid</a></h3>
+  <p><strong>Best for:</strong> PD patients with a live-in caregiver &mdash; zoned support distributes weight for assisted turning</p>
+  <p>When a caregiver assists with nighttime turning or repositioning, the mattress surface matters significantly. The Wave Hybrid&rsquo;s zoned foam layers (softer under shoulder, firmer under hip and waist) reduce the surface resistance at the shoulder zone &mdash; the key leverage point for caregiver-assisted turning. The patient&rsquo;s hips and lower body remain supported by the firmer zone, giving the caregiver a stable base to work against. The medium (5/10) feel avoids the deep sink of soft foam while providing enough cushion for pressure point management in patients spending more time in bed. The AirScape foam layers provide cooling for patients with reduced activity-induced night sweats.</p>
+  <div class="verdict">Best for caregiver-assisted repositioning. Zoned construction reduces shoulder resistance. Good motion isolation for caregiver on split king setup.</div>
+</div>
+
+<div class="pick">
+  <span class="pick-num">#6 Best Chemical Sensitivity</span>
+  <h3><a href="https://www.amazon.com/s?k=Avocado+Green+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Avocado Green Mattress</a></h3>
+  <p><strong>Best for:</strong> PD patients with heightened chemical or olfactory sensitivity</p>
+  <p>Some Parkinson&rsquo;s patients develop olfactory sensitivity or chemical sensitivities as part of the broader autonomic dysfunction. Avocado uses certified organic latex (GOLS), organic cotton (GOTS), and organic wool &mdash; no polyurethane foam, no synthetic adhesives, no fire retardant chemicals. The medium-firm (6.5/10) feel provides good support for back and side sleeping. The latex layer has natural bounce that assists with turning. The wool fire barrier is naturally temperature-regulating. For PD patients who are already managing a complex medication regimen, minimizing environmental chemical exposure in the sleep environment is a reasonable and increasingly recognized priority.</p>
+  <div class="verdict">GOLS/GOTS certified organic. Natural latex bounce assists turning. No off-gassing for chemically sensitive PD patients.</div>
+</div>
+
+<div class="pick">
+  <span class="pick-num">#7 Budget Pick</span>
+  <h3><a href="https://www.amazon.com/s?k=DreamCloud+Premier+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">DreamCloud Premier</a></h3>
+  <p><strong>Best for:</strong> PD patients on a budget who need hybrid responsiveness without a premium price</p>
+  <p>The DreamCloud Premier provides a medium (5/10) hybrid feel with individually wrapped coils that offer reasonable turning assist compared to all-foam options. The cashmere-blend pillow-top provides surface cushioning for pressure points. The 365-night trial gives caregivers and patients time to assess whether it genuinely improves sleep quality through a full seasonal cycle of PD symptom variation. Good edge support for nighttime exits. Not as responsive as WinkBed or as isolating as Tempur-Pedic, but a strong all-round option when caregiver-level customization and specialist features are not the priority.</p>
+  <div class="verdict">Best value hybrid for PD. 365-night trial, lifetime warranty. Hybrid coil assist for turning.</div>
+</div>
+
+<h2>PD Symptom vs Mattress Priority</h2>
+<table>
+  <tr><th>Primary PD Sleep Challenge</th><th>Priority Feature</th><th>Top Pick</th></tr>
+  <tr><td>Rigidity (hard to turn in bed)</td><td>Responsive coil bounce</td><td>WinkBed or Saatva Classic</td></tr>
+  <tr><td>RBD (kicking, punching during REM)</td><td>Impact absorption for partner</td><td>Purple Restore Hybrid</td></tr>
+  <tr><td>Resting tremor disrupting partner</td><td>Vibration dampening</td><td>Tempur-Pedic TEMPUR-ProAdapt</td></tr>
+  <tr><td>Falls risk / orthostatic hypotension</td><td>Edge support + easy exit</td><td>Saatva Classic</td></tr>
+  <tr><td>Caregiver-assisted repositioning</td><td>Zoned support + surface access</td><td>Casper Wave Hybrid</td></tr>
+  <tr><td>Chemical or olfactory sensitivity</td><td>Organic certified materials</td><td>Avocado Green</td></tr>
+  <tr><td>Budget constraint</td><td>Hybrid responsiveness + trial</td><td>DreamCloud Premier</td></tr>
+</table>
+
+<h2>Nighttime Exit Safety Guide</h2>
+<p>Orthostatic hypotension affects up to 50% of PD patients. Getting up too quickly from a lying position can cause dizziness, loss of balance, and falls. The mattress is one part of a safe exit protocol:</p>
+
+<div class="grid-2">
+  <div class="grid-card">
+    <h4>Step 1: Log Roll (Don't Sit Straight Up)</h4>
+    <p>Roll to the side first, using the mattress edge for resistance. This is much easier on a firm-edge hybrid than on memory foam that collapses. The log roll minimizes orthostatic drop by keeping the body horizontal longer.</p>
+  </div>
+  <div class="grid-card">
+    <h4>Step 2: Dangle (Sit on Edge, Wait)</h4>
+    <p>Sit on the edge of the bed with feet on the floor. Wait 30-60 seconds before standing. Strong mattress edge critical here &mdash; a collapsing edge makes dangling unsafe and uncomfortable.</p>
+  </div>
+  <div class="grid-card">
+    <h4>Step 3: Grab Rail (Push, Don't Pull)</h4>
+    <p>A half-length bed rail gives a push point for standing. Combined with a firm mattress edge, this provides two anchor points. "Push up" from the mattress &mdash; avoid leaning forward (freezing risk).</p>
+  </div>
+  <div class="grid-card">
+    <h4>Step 4: Adjustable Base (Pre-Position)</h4>
+    <p>Raise head of bed to 30-45 degrees before attempting to exit. Reduces orthostatic drop, makes log roll easier, and gives the torso a head start. Must use adjustable-base compatible mattress.</p>
+  </div>
+</div>
+
+<div class="warning-box">
+  <p><strong>RBD Safety Note:</strong> If RBD episodes include violent movements, consider a split king configuration (two Twin XL mattresses side by side with separate foundations). This allows the PD patient and partner to have completely independent surfaces &mdash; eliminating motion transfer while maintaining the same bed. Both can use adjustable bases independently. Many couples find this the single most impactful change for partner sleep quality.</p>
+</div>
+
+<h2>What to Avoid for Parkinson&rsquo;s</h2>
+<table>
+  <tr><th>Feature</th><th>Why It&rsquo;s a Problem for PD</th></tr>
+  <tr><td>Deep memory foam (4"+ comfort layer)</td><td>Creates "quicksand" effect for patients with rigidity &mdash; turning requires fighting the foam</td></tr>
+  <tr><td>Very soft mattresses (3/10 or lower)</td><td>Unstable edge, difficult to sit up, high fall risk on exit</td></tr>
+  <tr><td>Latex-only (no coil base)</td><td>Good bounce but lacks the structured edge support critical for safe PD exits</td></tr>
+  <tr><td>Pillow-top that compresses at edge</td><td>Edge collapse during dangling phase increases fall risk</td></tr>
+  <tr><td>Low-height mattresses (&lt;10")</td><td>Low beds are harder to exit for PD patients &mdash; target 12"+ for easier transfer height</td></tr>
+</table>
+
+<div class="info-box">
+  <p><strong>Caregiver note:</strong> If you are choosing a mattress for a family member with PD, prioritize: (1) edge support so they can exit safely, (2) coil responsiveness for turning assist, (3) adjustable-base compatibility for positional changes. Mattress height matters &mdash; the top of the mattress should be at approximately knee height of the standing patient to minimize the distance of the transfer. A mattress that is too low creates a difficult "standing from squat" motion that is especially hard for PD patients.</p>
+</div>
+
+<div class="related">
+  <h3>Related Guides</h3>
+  <ul>
+    <li><a href="/posts/best-mattress-restless-legs.html">Best Mattress for Restless Legs</a></li>
+    <li><a href="/posts/best-mattress-neuropathy.html">Best Mattress for Neuropathy</a></li>
+    <li><a href="/posts/best-mattress-multiple-sclerosis.html">Best Mattress for Multiple Sclerosis</a></li>
+    <li><a href="/posts/best-mattress-adjustable-base.html">Best Mattress for Adjustable Base</a></li>
+    <li><a href="/posts/best-mattress-arthritis.html">Best Mattress for Arthritis</a></li>
+    <li><a href="/posts/best-mattress-chronic-fatigue.html">Best Mattress for Chronic Fatigue</a></li>
+  </ul>
+</div>
+
+</div>
+
+<footer>
+  <p>&copy; 2025 SleepWise Reviews &bull; <a href="/privacy.html">Privacy Policy</a> &bull; <a href="/disclosure.html">Affiliate Disclosure</a></p>
+  <p style="margin-top:8px;font-size:.75rem">We may earn a commission from Amazon links at no extra cost to you.</p>
+</footer>
+</body>
+</html>"""
+
+with open(out, "w", encoding="utf-8") as f:
+    f.write(html)
+print(f"Created: {out}")
