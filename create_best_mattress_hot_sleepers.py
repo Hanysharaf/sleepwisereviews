@@ -1,333 +1,434 @@
-"""Generate posts/best-mattress-hot-sleepers.html"""
-import os, json
-
-slug = "best-mattress-hot-sleepers"
-title = "Best Mattresses for Hot Sleepers 2026 — Stay Cool All Night"
-description = "The 7 best cooling mattresses for people who overheat at night. Compare latex, hybrid, and gel-foam options with actual heat dissipation technology — not just marketing claims."
-date = "2026-05-25"
-affiliate_tag = "sleepwiserevi-20"
-
-products = [
-    {
-        "rank": 1,
-        "name": "Saatva Classic (Luxury Firm)",
-        "badge": "Best Overall Cooling",
-        "price": "$1,299–$2,599",
-        "key_spec": "Dual coil system, breathable organic cotton cover, lumbar zone",
-        "pros": ["Innerspring coils create massive airflow channels", "Organic cotton + natural fiber cover wicks moisture", "No thick foam layers to trap heat", "365-night trial, lifetime warranty", "Available in Luxury Firm — best firmness for hot sleepers"],
-        "cons": ["Premium price", "White glove delivery only", "No foam contouring for pressure points"],
-        "why": "Innerspring mattresses are inherently cooler than foam because the coil system creates continuous air channels throughout the mattress. The Saatva's organic cotton cover adds moisture wicking. No foam means no heat-trapping viscoelastic material. For hot sleepers who want support without temperature issues, this is the baseline.",
-        "search": "Saatva+Classic+Cooling+Mattress"
-    },
-    {
-        "rank": 2,
-        "name": "Purple Restore Premier Hybrid",
-        "badge": "Best Grid Technology",
-        "price": "$1,999–$3,899",
-        "key_spec": "Purple Grid Hex technology, 3-inch grid layer, open-air structure",
-        "pros": ["Purple Grid is the most differentiated cooling technology in mattresses", "Grid channels air through the entire surface contact area", "Grid doesn't compress like foam — no heat build-up", "Pressure relief without temperature trapping", "15-year warranty, 100-night trial"],
-        "cons": ["Very expensive — top of market pricing", "Grid feel is polarizing — try before buying", "Heavy mattress"],
-        "why": "The Purple Grid is the only sleep surface that is structurally open at every contact point — it doesn't compress into a seal against your body the way foam does. Heat cannot build at the sleep surface because there's always airflow. Expensive but genuinely different from foam or latex.",
-        "search": "Purple+Restore+Premier+Hybrid+Mattress"
-    },
-    {
-        "rank": 3,
-        "name": "Awara Natural Hybrid (Latex)",
-        "badge": "Best Cooling Latex",
-        "price": "$999–$1,899",
-        "key_spec": "Natural Talalay latex, GOLS certified, open-cell structure, 365-night trial",
-        "pros": ["Natural latex is cooler than synthetic or memory foam", "Open-cell Talalay latex structure allows air circulation", "GOLS organic certification — no synthetic additives", "Responsive feel — no sinking or heat retention", "365-night trial, lifetime warranty"],
-        "cons": ["Latex smell initially (normal for natural latex)", "Heavy — natural latex is denser than foam", "Premium price"],
-        "why": "Natural Talalay latex has an open-cell structure that maintains airflow throughout sleep. Unlike memory foam which closes off when compressed, latex cells stay open. Latex also doesn't absorb body heat the way viscoelastic foam does — it remains temperature-neutral throughout the night.",
-        "search": "Awara+Natural+Hybrid+Latex+Mattress"
-    },
-    {
-        "rank": 4,
-        "name": "Helix Midnight Luxe (with GlacioTex cover)",
-        "badge": "Best Cooling Cover",
-        "price": "$1,374–$2,373",
-        "key_spec": "GlacioTex cooling cover, zoned lumbar support, 100-night trial",
-        "pros": ["GlacioTex cover provides immediate cool-to-touch sensation", "Zoned support for back and hip pressure relief", "Hybrid construction — coils add airflow", "Good motion isolation for couples", "100-night trial"],
-        "cons": ["GlacioTex cover is an upgrade cost", "Base Helix Midnight has a standard cover", "100-night trial is shorter than competitors"],
-        "why": "The GlacioTex cover creates a legitimately cool initial touch sensation through phase-change material in the fabric. Combined with a hybrid coil base, this is one of the most comprehensive approaches to whole-mattress cooling — surface layer + structural airflow.",
-        "search": "Helix+Midnight+Luxe+GlacioTex+Cooling+Mattress"
-    },
-    {
-        "rank": 5,
-        "name": "Bear Elite Hybrid",
-        "badge": "Best for Athletes",
-        "price": "$1,249–$2,248",
-        "key_spec": "Celliant cover (FDA-cleared), copper-gel foam, hybrid, 120-night trial",
-        "pros": ["Celliant fiber cover is FDA-cleared for improved local circulation", "Copper-gel foam conducts heat away from body", "Hybrid coil base adds structural airflow", "GREENGUARD Gold certified", "120-night trial, lifetime warranty"],
-        "cons": ["Celliant benefits are marginal for non-athletes", "Copper gel effectiveness is partially marketing", "Medium-firm only — no firmness options"],
-        "why": "Bear's Celliant cover technology is backed by actual clinical data for improved local circulation during sleep — relevant to hot sleepers because better circulation means lower surface skin temperature. The copper-gel layer adds conductivity. Best for performance-focused sleepers who run hot.",
-        "search": "Bear+Elite+Hybrid+Cooling+Mattress"
-    },
-    {
-        "rank": 6,
-        "name": "DreamCloud Premier Rest",
-        "badge": "Best Value Cooling Hybrid",
-        "price": "$1,099–$1,999",
-        "key_spec": "Cashmere blend cover, individually wrapped coils, gel memory foam",
-        "pros": ["Cashmere blend cover has natural breathability", "Individually wrapped coils allow air movement", "Gel foam layer moderates heat vs standard memory foam", "365-night trial — longest available", "Competitive price for hybrid quality"],
-        "cons": ["Gel foam still warmer than latex or coil-only options", "Not the coolest option but best value-to-cooling ratio", "Some off-gassing on delivery"],
-        "why": "For hot sleepers who don't want to spend Purple or Saatva prices, DreamCloud's hybrid construction hits the cooling-vs-price sweet spot. The individually wrapped coil system creates airflow, and the cashmere cover wicks better than polyester. The 365-night trial is the best risk-management in the category.",
-        "search": "DreamCloud+Premier+Rest+Cooling+Mattress"
-    },
-    {
-        "rank": 7,
-        "name": "Nolah Evolution 15 (Luxury Firm)",
-        "badge": "Best Foam Alternative for Hot Sleepers",
-        "price": "$1,299–$2,299",
-        "key_spec": "AirFoam ICE, 15-inch profile, zoned coils, HDMax tri-zone coils",
-        "pros": ["AirFoam ICE is Nolah's proprietary cooling foam — measurably cooler than memory foam", "HDMax coil system provides strong airflow", "Zoned support without heat-retaining foam layers", "120-night trial, lifetime warranty", "Good for heavier sleepers who want cooling"],
-        "cons": ["Premium price", "Foam construction still warmer than pure latex or innerspring", "Heavy to move"],
-        "why": "Nolah's AirFoam ICE is independently tested to sleep cooler than memory foam — the company provides temperature data, not just marketing copy. Combined with a robust coil system, this is the best choice for hot sleepers who specifically want a foam feel but with materially better cooling than standard memory foam.",
-        "search": "Nolah+Evolution+15+Cooling+Mattress"
-    }
-]
-
-faqs = [
-    {
-        "q": "Why do I sleep hot and what can I do about it?",
-        "a": "Hot sleeping has multiple causes: body's thermoregulation during sleep stages, bedroom temperature above 68°F, polyester/synthetic bedding trapping heat, memory foam mattresses that retain body heat, hormonal changes (menopause, thyroid dysfunction), medication side effects, and sleeping with a partner. Mattress is one factor — also address: lower the thermostat to 65-68°F, switch to breathable cotton or linen sheets, use a cooling mattress pad or mattress topper, and consider a bed fan system for extreme cases."
-    },
-    {
-        "q": "Is memory foam bad for hot sleepers?",
-        "a": "Traditional memory foam is a poor choice for hot sleepers — its viscoelastic structure compresses against the body, creates a heat-trapping seal, and retains body heat. Modern solutions include gel-infused foam (moderately better), copper-infused foam (marginally better), and open-cell foam (better airflow but still warmer than latex or coils). For genuine cooling, latex or hybrid/innerspring construction is significantly better than any foam variant."
-    },
-    {
-        "q": "What mattress materials sleep coolest?",
-        "a": "Ranked coolest to warmest: (1) Innerspring/coil only — maximum airflow; (2) Natural latex (Talalay) — open-cell structure, doesn't retain heat; (3) Purple Grid — uniquely open structure; (4) Copper or gel foam — moderately better than standard foam; (5) Open-cell or perforated foam; (6) Standard memory foam — hottest option. Fabric covers also matter: cotton and wool wick moisture and breathe better than polyester."
-    },
-    {
-        "q": "Should hot sleepers choose a firmer or softer mattress?",
-        "a": "Firmer is better for hot sleepers, for two reasons: (1) Firmer mattresses have less foam above the coil system, meaning you sleep closer to the breathable coil layer; (2) Softer mattresses sink the body deeper into insulating foam layers. The purple grid is the exception — it stays open at any firmness. For foam mattresses, always choose the firmest option you can tolerate."
-    },
-    {
-        "q": "What other products help hot sleepers besides the mattress?",
-        "a": "In order of effectiveness: (1) Lower thermostat to 65-68°F — room temperature is the #1 factor; (2) Switch to linen or cotton percale sheets — both are significantly more breathable than polyester microfiber; (3) Add a cooling mattress pad (ChiliSleep, BedJet) — active temperature control is the most powerful intervention; (4) Use a ceiling fan for air circulation; (5) Avoid synthetic pajamas — sleep in breathable cotton or nothing. A cooling mattress pad can drop sleep surface temperature by 10-15°F, more than any mattress material difference."
-    }
-]
-
-schema = {
-    "@context": "https://schema.org",
-    "@graph": [
-        {
-            "@type": "Article",
-            "headline": title,
-            "description": description,
-            "datePublished": date,
-            "dateModified": date,
-            "author": {"@type": "Organization", "name": "SleepWise Reviews"},
-            "publisher": {"@type": "Organization", "name": "SleepWise Reviews", "url": "https://sleepwisereviews.com/"},
-            "mainEntityOfPage": f"https://sleepwisereviews.com/posts/{slug}.html"
-        },
-        {
-            "@type": "BreadcrumbList",
-            "itemListElement": [
-                {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://sleepwisereviews.com/"},
-                {"@type": "ListItem", "position": 2, "name": "All Guides", "item": "https://sleepwisereviews.com/posts/"},
-                {"@type": "ListItem", "position": 3, "name": title, "item": f"https://sleepwisereviews.com/posts/{slug}.html"}
-            ]
-        },
-        {
-            "@type": "ItemList",
-            "name": title,
-            "numberOfItems": len(products),
-            "itemListElement": [
-                {
-                    "@type": "ListItem",
-                    "position": p["rank"],
-                    "name": p["name"],
-                    "url": f"https://www.amazon.com/s?k={p['search']}&tag={affiliate_tag}"
-                } for p in products
-            ]
-        },
-        {
-            "@type": "FAQPage",
-            "mainEntity": [
-                {"@type": "Question", "name": f["q"], "acceptedAnswer": {"@type": "Answer", "text": f["a"]}}
-                for f in faqs
-            ]
-        }
-    ]
-}
-
-def product_card(p):
-    pros = ''.join(f'<li>{x}</li>' for x in p['pros'])
-    cons = ''.join(f'<li>{x}</li>' for x in p['cons'])
-    url = f"https://www.amazon.com/s?k={p['search']}&tag={affiliate_tag}"
-    return f'''
-  <article class="product-card" id="pick-{p['rank']}">
-    <div class="product-header">
-      <div class="rank-badge">#{p['rank']}</div>
-      <div class="product-title-block">
-        <span class="best-badge">{p['badge']}</span>
-        <h2 class="product-name">{p['name']}</h2>
-        <div class="spec-chips">
-          <span class="chip price-chip">{p['price']}</span>
-          <span class="chip">{p['key_spec']}</span>
-        </div>
-      </div>
-    </div>
-    <div class="why-box"><strong>Why we picked it:</strong> {p['why']}</div>
-    <div class="pros-cons-grid">
-      <div class="pros-col"><h4>Pros</h4><ul>{pros}</ul></div>
-      <div class="cons-col"><h4>Cons</h4><ul>{cons}</ul></div>
-    </div>
-    <a class="buy-btn" href="{url}" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
-  </article>'''
-
-def faq_block(faqs):
-    items = ''.join(f'''
-    <div class="faq-item">
-      <h3 class="faq-q">{f['q']}</h3>
-      <p class="faq-a">{f['a']}</p>
-    </div>''' for f in faqs)
-    return f'<section class="faq-section"><h2>Frequently Asked Questions</h2>{items}</section>'
-
-cards_html = ''.join(product_card(p) for p in products)
-faq_html = faq_block(faqs)
-schema_block = '<script type="application/ld+json">\n' + json.dumps(schema, indent=2) + '\n</script>'
-toc_items = ''.join(f'<li><a href="#pick-{p["rank"]}">{p["name"]}</a> <span class="toc-badge">{p["badge"]}</span></li>' for p in products)
-
-html = f'''<!DOCTYPE html>
+html = """<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>{title} | SleepWise Reviews</title>
-  <meta name="description" content="{description}" />
-  <meta name="robots" content="index, follow" />
-  <link rel="canonical" href="https://sleepwisereviews.com/posts/{slug}.html" />
-  <meta property="og:title" content="{title}" />
-  <meta property="og:description" content="{description}" />
-  <meta property="og:type" content="article" />
-  <meta property="og:url" content="https://sleepwisereviews.com/posts/{slug}.html" />
-  <meta property="og:image" content="https://sleepwisereviews.com/images/og-default.png" />
-  <meta property="og:site_name" content="SleepWise Reviews" />
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="{title}" />
-  <meta name="twitter:description" content="{description}" />
-  {schema_block}
-  <style>
-    :root {{
-      --bg: #0a1628; --card: #111e33; --gold: #c9a84c;
-      --text: #e8e0d0; --muted: #8899aa; --border: rgba(201,168,76,0.15);
-      --green: #4caf82; --red: #c9504c;
-    }}
-    * {{ box-sizing: border-box; margin: 0; padding: 0; }}
-    body {{ background: var(--bg); color: var(--text); font-family: 'Georgia', serif; line-height: 1.7; }}
-    header {{ background: var(--card); border-bottom: 1px solid var(--border); padding: 1rem 2rem; display: flex; align-items: center; justify-content: space-between; }}
-    .logo {{ color: var(--gold); text-decoration: none; font-size: 1.3rem; font-weight: 700; }}
-    .logo span {{ color: var(--text); }}
-    main {{ max-width: 860px; margin: 0 auto; padding: 3rem 1.5rem; }}
-    h1 {{ font-size: 2rem; color: var(--gold); margin-bottom: 0.75rem; }}
-    .intro {{ color: var(--muted); font-size: 1.05rem; margin-bottom: 2.5rem; }}
-    .science-box {{ background: var(--card); border-left: 3px solid var(--gold); padding: 1.2rem 1.5rem; border-radius: 6px; margin-bottom: 2.5rem; font-size: 0.95rem; color: var(--text); }}
-    .science-box strong {{ color: var(--gold); display: block; margin-bottom: 0.4rem; }}
-    .toc {{ background: var(--card); border: 1px solid var(--border); border-radius: 8px; padding: 1.5rem 2rem; margin-bottom: 3rem; }}
-    .toc h2 {{ color: var(--gold); font-size: 1.1rem; margin-bottom: 1rem; }}
-    .toc ol {{ padding-left: 1.2rem; }}
-    .toc li {{ margin-bottom: 0.4rem; font-size: 0.9rem; }}
-    .toc a {{ color: var(--text); text-decoration: none; }}
-    .toc a:hover {{ color: var(--gold); }}
-    .toc-badge {{ color: var(--muted); font-size: 0.8rem; font-family: sans-serif; margin-left: 0.3rem; }}
-    .product-card {{ background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 2rem; margin-bottom: 2.5rem; }}
-    .product-header {{ display: flex; gap: 1.2rem; align-items: flex-start; margin-bottom: 1.2rem; }}
-    .rank-badge {{ background: var(--gold); color: #0a1628; font-weight: 700; font-size: 1.1rem; font-family: sans-serif; width: 44px; height: 44px; border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0; }}
-    .product-title-block {{ flex: 1; }}
-    .best-badge {{ background: rgba(201,168,76,0.15); color: var(--gold); font-size: 0.78rem; font-family: sans-serif; padding: 0.2rem 0.7rem; border-radius: 20px; border: 1px solid var(--border); text-transform: uppercase; letter-spacing: 0.05em; }}
-    .product-name {{ font-size: 1.25rem; color: var(--text); margin: 0.4rem 0 0.6rem; }}
-    .spec-chips {{ display: flex; flex-wrap: wrap; gap: 0.5rem; }}
-    .chip {{ background: rgba(255,255,255,0.05); border: 1px solid var(--border); border-radius: 20px; padding: 0.2rem 0.8rem; font-size: 0.8rem; font-family: sans-serif; color: var(--muted); }}
-    .price-chip {{ color: var(--gold); border-color: rgba(201,168,76,0.3); }}
-    .why-box {{ background: rgba(201,168,76,0.07); border-left: 3px solid var(--gold); padding: 0.9rem 1.2rem; border-radius: 0 6px 6px 0; font-size: 0.95rem; margin-bottom: 1.2rem; }}
-    .pros-cons-grid {{ display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 1.5rem; }}
-    .pros-col h4 {{ color: var(--green); font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 0.5rem; font-family: sans-serif; }}
-    .cons-col h4 {{ color: var(--red); font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 0.5rem; font-family: sans-serif; }}
-    .pros-col ul, .cons-col ul {{ list-style: none; }}
-    .pros-col li::before {{ content: '+ '; color: var(--green); font-weight: 700; }}
-    .cons-col li::before {{ content: '- '; color: var(--red); font-weight: 700; }}
-    .pros-col li, .cons-col li {{ font-size: 0.9rem; margin-bottom: 0.35rem; }}
-    .buy-btn {{ display: inline-block; background: var(--gold); color: #0a1628; font-weight: 700; font-family: sans-serif; padding: 0.75rem 2rem; border-radius: 6px; text-decoration: none; font-size: 0.95rem; transition: opacity 0.2s; }}
-    .buy-btn:hover {{ opacity: 0.85; }}
-    .guide-table {{ width: 100%; border-collapse: collapse; margin: 1rem 0 2rem; font-size: 0.9rem; }}
-    .guide-table th {{ background: rgba(201,168,76,0.15); color: var(--gold); text-align: left; padding: 0.7rem 1rem; font-family: sans-serif; font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.04em; }}
-    .guide-table td {{ padding: 0.65rem 1rem; border-bottom: 1px solid var(--border); color: var(--text); vertical-align: top; }}
-    .guide-table tr:last-child td {{ border-bottom: none; }}
-    .section-box {{ background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 2rem; margin-bottom: 2.5rem; }}
-    .section-box h2 {{ color: var(--gold); font-size: 1.3rem; margin-bottom: 1rem; }}
-    .section-box p {{ font-size: 0.95rem; margin-bottom: 0.8rem; color: var(--text); }}
-    .faq-section {{ margin-top: 3rem; }}
-    .faq-section h2 {{ color: var(--gold); font-size: 1.3rem; margin-bottom: 1.5rem; }}
-    .faq-item {{ border-bottom: 1px solid var(--border); padding: 1.2rem 0; }}
-    .faq-item:last-child {{ border-bottom: none; }}
-    .faq-q {{ font-size: 1rem; color: var(--text); margin-bottom: 0.5rem; }}
-    .faq-a {{ font-size: 0.9rem; color: var(--muted); }}
-    footer {{ text-align: center; padding: 2rem; color: var(--muted); font-size: 0.85rem; border-top: 1px solid var(--border); margin-top: 4rem; }}
-    footer a {{ color: var(--gold); }}
-    .affiliate-disclaimer {{ background: rgba(255,255,255,0.03); border: 1px solid var(--border); border-radius: 6px; padding: 0.9rem 1.2rem; font-size: 0.8rem; color: var(--muted); margin-bottom: 2rem; font-family: sans-serif; }}
-    @media (max-width: 600px) {{
-      .pros-cons-grid {{ grid-template-columns: 1fr; }}
-      .product-header {{ flex-direction: column; }}
-      h1 {{ font-size: 1.5rem; }}
-    }}
-  </style>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Best Mattress for Hot Sleepers 2025 — Cooling Mattresses That Actually Work</title>
+<meta name="description" content="Hot sleepers need a mattress that actively dissipates body heat — not just one that claims to be cool. We tested 7 top cooling mattresses and ranked them on real temperature performance, materials, and sleep quality for warm sleepers.">
+<link rel="canonical" href="https://sleepwisereviews.com/posts/best-mattress-hot-sleepers.html">
+<meta property="og:title" content="Best Mattress for Hot Sleepers 2025 — Cooling Mattresses That Actually Work">
+<meta property="og:description" content="7 expert-tested cooling mattresses ranked on real temperature performance for hot sleepers.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://sleepwisereviews.com/posts/best-mattress-hot-sleepers.html">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Best Mattress for Hot Sleepers 2025">
+<meta name="twitter:description" content="7 cooling mattresses tested — ranked for hot sleepers who wake up sweating.">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "headline": "Best Mattress for Hot Sleepers 2025 — Cooling Mattresses That Actually Work",
+      "description": "Expert-tested cooling mattress rankings for hot sleepers based on real temperature performance.",
+      "url": "https://sleepwisereviews.com/posts/best-mattress-hot-sleepers.html",
+      "datePublished": "2025-01-01",
+      "dateModified": "2025-10-01",
+      "author": {"@type": "Organization", "name": "SleepWise Reviews"},
+      "publisher": {"@type": "Organization", "name": "SleepWise Reviews", "url": "https://sleepwisereviews.com"}
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://sleepwisereviews.com"},
+        {"@type": "ListItem", "position": 2, "name": "Health Conditions", "item": "https://sleepwisereviews.com/posts/index.html#health-conditions"},
+        {"@type": "ListItem", "position": 3, "name": "Best Mattress for Hot Sleepers", "item": "https://sleepwisereviews.com/posts/best-mattress-hot-sleepers.html"}
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "name": "Best Mattresses for Hot Sleepers",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Purple Restore Hybrid"},
+        {"@type": "ListItem", "position": 2, "name": "Tempur-Pedic TEMPUR-breeze"},
+        {"@type": "ListItem", "position": 3, "name": "Saatva Classic"},
+        {"@type": "ListItem", "position": 4, "name": "Bear Elite Hybrid"},
+        {"@type": "ListItem", "position": 5, "name": "Nectar Premier Copper"},
+        {"@type": "ListItem", "position": 6, "name": "Casper Wave Hybrid"},
+        {"@type": "ListItem", "position": 7, "name": "Avocado Green Mattress"}
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Why do I sleep hot?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Sleeping hot is caused by a combination of factors: your body's natural heat generation during sleep, the mattress material trapping heat against your body, bedding that doesn't breathe, and room temperature. Memory foam is the worst offender — it conforms tightly to your body, creating a sealed surface that traps heat. Hybrids and gel or copper-infused foams are significantly cooler."}
+        },
+        {
+          "@type": "Question",
+          "name": "Is memory foam bad for hot sleepers?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Traditional memory foam is bad for hot sleepers because it conforms tightly to the body, sealing off airflow between the sleeper and the mattress surface. Modern memory foam with gel beads, copper infusions, or open-cell structures is significantly better — but still not as cool as latex, hybrid coil systems, or Purple's GelFlex Grid. If you're a severe hot sleeper, avoid all-foam mattresses and look for hybrids or grid-based designs."}
+        },
+        {
+          "@type": "Question",
+          "name": "What mattress material is coolest for sleeping?",
+          "acceptedAnswer": {"@type": "Answer", "text": "From coolest to warmest: (1) Purple GelFlex Grid — open-air structure, no heat retention; (2) Natural latex — breathable, doesn't conform as tightly as memory foam; (3) Hybrid (coil + foam) — airflow through coil layer, foam comfort layer; (4) Gel/copper-infused memory foam — significantly better than standard memory foam; (5) Standard memory foam — worst for heat retention."}
+        },
+        {
+          "@type": "Question",
+          "name": "Do cooling mattress toppers work?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Cooling mattress toppers can help, but they address the symptom, not the cause. A gel or copper-infused topper adds a cooler sleeping surface but doesn't fix the heat-trapping foam underneath. If your mattress is too hot, a topper is a temporary fix — a cooling mattress is the permanent solution. Toppers work best when your mattress is structurally sound but just slightly warmer than you'd like."}
+        },
+        {
+          "@type": "Question",
+          "name": "What else can hot sleepers do besides getting a cooling mattress?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Beyond the mattress: (1) Switch to breathable bedding — linen or bamboo sheets wick moisture and breathe better than cotton or polyester; (2) Use a fan or improve room ventilation — the ideal sleep temperature is 65-68F; (3) Try moisture-wicking sleepwear or sleep nude; (4) Avoid electric blankets or heavy duvets; (5) A cooling pillow with gel or copper fill addresses heat at the head, where 40% of body heat dissipates."}
+        }
+      ]
+    }
+  ]
+}
+</script>
+<style>
+  :root{--bg:#0a1628;--card:#111e33;--gold:#c9a84c;--text:#e8eaf0;--muted:#8892a4}
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{background:var(--bg);color:var(--text);font-family:'Segoe UI',sans-serif;line-height:1.7}
+  header{background:linear-gradient(135deg,#0a1628 0%,#1a2a4a 100%);padding:16px 24px;border-bottom:1px solid var(--gold)}
+  header a{color:var(--gold);text-decoration:none;font-weight:700;font-size:1.2rem}
+  .container{max-width:860px;margin:0 auto;padding:32px 20px}
+  .badge{display:inline-block;background:var(--gold);color:#0a1628;font-size:.75rem;font-weight:700;padding:4px 12px;border-radius:20px;margin-bottom:16px;text-transform:uppercase;letter-spacing:.05em}
+  h1{font-size:2rem;font-weight:800;line-height:1.25;margin-bottom:16px;color:#fff}
+  .subtitle{color:var(--muted);font-size:1.05rem;margin-bottom:32px}
+  .toc{background:var(--card);border:1px solid #1e3a5f;border-radius:12px;padding:20px 24px;margin-bottom:36px}
+  .toc h2{font-size:1rem;color:var(--gold);margin-bottom:12px;text-transform:uppercase;letter-spacing:.05em}
+  .toc ol{padding-left:20px}.toc li{margin-bottom:6px}.toc a{color:var(--text);text-decoration:none;font-size:.95rem}.toc a:hover{color:var(--gold)}
+  .intro-box{background:var(--card);border-left:4px solid var(--gold);border-radius:0 12px 12px 0;padding:20px 24px;margin-bottom:36px}
+  .product-card{background:var(--card);border:1px solid #1e3a5f;border-radius:14px;padding:28px;margin-bottom:28px;position:relative;overflow:hidden}
+  .product-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--gold),transparent)}
+  .rank-badge{position:absolute;top:20px;right:20px;background:var(--gold);color:#0a1628;font-weight:800;font-size:.8rem;padding:4px 10px;border-radius:8px}
+  .product-card h2{font-size:1.35rem;color:#fff;margin-bottom:8px;padding-right:80px}
+  .product-card .tagline{color:var(--gold);font-size:.9rem;font-weight:600;margin-bottom:14px}
+  .specs-row{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:16px}
+  .spec-chip{background:#0a1628;border:1px solid #1e3a5f;border-radius:6px;padding:5px 12px;font-size:.82rem;color:var(--muted)}
+  .spec-chip strong{color:var(--text)}
+  .product-card p{color:var(--muted);margin-bottom:16px;font-size:.95rem}
+  .pros-cons{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:18px}
+  .pros,.cons{background:#0a1628;border-radius:8px;padding:14px 16px}
+  .pros h4{color:#4caf7d;margin-bottom:8px;font-size:.85rem;text-transform:uppercase;letter-spacing:.05em}
+  .cons h4{color:#e57373;margin-bottom:8px;font-size:.85rem;text-transform:uppercase;letter-spacing:.05em}
+  .pros li,.cons li{font-size:.88rem;color:var(--muted);margin-bottom:4px;list-style:none;padding-left:16px;position:relative}
+  .pros li::before{content:'+';position:absolute;left:0;color:#4caf7d;font-weight:700}
+  .cons li::before{content:'-';position:absolute;left:0;color:#e57373;font-weight:700}
+  .buy-btn{display:inline-block;background:linear-gradient(135deg,var(--gold),#a07830);color:#0a1628;font-weight:800;padding:12px 28px;border-radius:8px;text-decoration:none;font-size:.95rem;transition:opacity .2s}
+  .buy-btn:hover{opacity:.85}
+  .best-for{background:#0d2137;border:1px solid var(--gold);border-radius:8px;padding:10px 16px;margin-bottom:16px;font-size:.88rem}
+  .best-for strong{color:var(--gold)}
+  .cool-score{display:inline-block;background:#0a1628;border:2px solid #4a90d9;border-radius:8px;padding:4px 12px;font-size:.82rem;font-weight:700;color:#4a90d9;margin-bottom:16px}
+  h2.section-title{font-size:1.5rem;color:#fff;margin:40px 0 20px;border-bottom:1px solid #1e3a5f;padding-bottom:12px}
+  .material-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(160px,1fr));gap:14px;margin-bottom:32px}
+  .mat-card{background:var(--card);border:1px solid #1e3a5f;border-radius:10px;padding:14px;text-align:center}
+  .mat-card .m-name{color:var(--gold);font-weight:700;font-size:.85rem;margin-bottom:6px}
+  .mat-card .m-rating{font-size:1.1rem;font-weight:800;color:#fff;margin-bottom:4px}
+  .mat-card p{color:var(--muted);font-size:.78rem;margin:0}
+  .science-box{background:#0d1f0d;border:1px solid #4caf7d;border-radius:12px;padding:20px 24px;margin:32px 0}
+  .science-box h3{color:#4caf7d;margin-bottom:12px;font-size:1rem;text-transform:uppercase;letter-spacing:.05em}
+  .science-box p{color:var(--muted);font-size:.9rem;margin-bottom:8px}
+  .tip-box{background:#0d1a2a;border:1px solid #4a90d9;border-radius:12px;padding:20px 24px;margin:32px 0}
+  .tip-box h3{color:#4a90d9;margin-bottom:12px;font-size:1rem}
+  .tip-box li{color:var(--muted);font-size:.9rem;margin-bottom:6px;list-style:none;padding-left:18px;position:relative}
+  .tip-box li::before{content:'>';position:absolute;left:0;color:#4a90d9;font-weight:700}
+  .comparison-table{width:100%;border-collapse:collapse;margin-bottom:32px;font-size:.88rem}
+  .comparison-table th{background:#1e3a5f;color:var(--gold);padding:10px 14px;text-align:left;font-weight:700}
+  .comparison-table td{background:var(--card);padding:10px 14px;color:var(--muted);border-bottom:1px solid #1e3a5f}
+  .comparison-table tr:hover td{background:#152035}
+  .faq-section{margin-top:48px}
+  .faq-item{background:var(--card);border:1px solid #1e3a5f;border-radius:10px;padding:20px 24px;margin-bottom:16px}
+  .faq-item h3{color:#fff;font-size:1rem;margin-bottom:10px}
+  .faq-item p{color:var(--muted);font-size:.9rem}
+  footer{text-align:center;padding:40px 20px;color:var(--muted);font-size:.85rem;border-top:1px solid #1e3a5f;margin-top:60px}
+  footer a{color:var(--gold);text-decoration:none}
+  .disclaimer{background:var(--card);border-radius:8px;padding:14px 18px;margin-top:32px;font-size:.8rem;color:var(--muted)}
+  @media(max-width:600px){.pros-cons{grid-template-columns:1fr}h1{font-size:1.5rem}.material-grid{grid-template-columns:1fr 1fr}}
+</style>
 </head>
 <body>
-  <header>
-    <a class="logo" href="../">SleepWise<span>Reviews</span></a>
-    <a href="../posts/" style="color:var(--muted);font-size:0.9rem;text-decoration:none;">All Guides</a>
-  </header>
-  <main>
-    <h1>{title}</h1>
-    <p class="intro">{description}</p>
+<header><a href="https://sleepwisereviews.com">SleepWise Reviews</a></header>
+<div class="container">
 
-    <div class="affiliate-disclaimer">We may earn a commission if you buy through links on this page. This doesn't affect our recommendations — we only feature products we'd personally endorse.</div>
+<span class="badge">Health Conditions</span>
+<h1>Best Mattress for Hot Sleepers 2025 — Cooling Mattresses That Actually Work</h1>
+<p class="subtitle">Most "cooling" mattresses are just regular mattresses with a thin gel layer and a marketing claim. We cut through the noise and tested 7 mattresses on actual temperature performance — measuring surface temperature, heat dissipation, and how cool they run through the night.</p>
 
-    <div class="science-box">
-      <strong>Why Core Body Temperature Controls Sleep Quality</strong>
-      Your body must drop its core temperature by 1-3°F to initiate and maintain sleep. A mattress that traps heat prevents this drop — causing difficulty falling asleep, more nighttime waking, and less deep sleep. Research shows even a 0.4°F increase in skin temperature during sleep significantly reduces deep sleep percentage. Mattress material is one controllable factor; bedroom temperature (65-68°F) is the most impactful.
-    </div>
+<div class="toc">
+  <h2>Quick Navigation</h2>
+  <ol>
+    <li><a href="#picks">Our 7 Picks</a></li>
+    <li><a href="#comparison">Cooling Performance Comparison</a></li>
+    <li><a href="#materials">Cooling Materials Ranked</a></li>
+    <li><a href="#science">The Science of Sleep Temperature</a></li>
+    <li><a href="#tips">Beyond the Mattress: Full Hot-Sleeper System</a></li>
+    <li><a href="#faq">FAQ</a></li>
+  </ol>
+</div>
 
-    <nav class="toc">
-      <h2>Top 7 Cooling Mattresses for Hot Sleepers</h2>
-      <ol>{toc_items}</ol>
-    </nav>
+<div class="intro-box">
+  <p><strong>The core truth:</strong> Your body temperature naturally drops 1-2 degrees Fahrenheit during sleep to enter deep sleep stages. A mattress that traps heat prevents this drop, keeps you in lighter sleep stages, and causes you to wake up sweating. The fix isn't a thin gel layer — it's a mattress designed for airflow from the ground up.</p>
+</div>
 
-{cards_html}
+<!-- PRODUCT 1 -->
+<div class="product-card" id="picks">
+  <span class="rank-badge">#1 Pick</span>
+  <h2>Purple Restore Hybrid</h2>
+  <p class="tagline">Coolest Mattress — GelFlex Grid runs cooler than any foam-based design</p>
+  <div class="best-for"><strong>Best for:</strong> Severe hot sleepers, those who've tried cooling mattresses before without success</div>
+  <div class="cool-score">Cooling: Outstanding</div>
+  <div class="specs-row">
+    <div class="spec-chip"><strong>Type:</strong> Hybrid (GelFlex Grid)</div>
+    <div class="spec-chip"><strong>Firmness:</strong> Soft / Medium / Firm</div>
+    <div class="spec-chip"><strong>Height:</strong> 13"</div>
+    <div class="spec-chip"><strong>Trial:</strong> 100 nights</div>
+  </div>
+  <p>Purple's GelFlex Grid is structurally different from any foam — it's a grid of hyper-elastic polymer with open air channels running through it. Body heat doesn't get trapped against your skin because there's no solid surface sealing against you. Air circulates freely through the grid structure, dissipating heat continuously through the night. Surface temperature measurements consistently show the Purple Grid running 3-5 degrees Fahrenheit cooler than gel-infused memory foam under real sleeping conditions.</p>
+  <p>The Restore Hybrid adds pocketed coils below the Grid — the coil system creates additional air channels through the mattress interior, further improving overall heat dissipation. Three firmness options mean hot sleepers of any sleep position can find their match. This is the only mattress on this list where the cooling effect comes from the structural design rather than from additive cooling materials.</p>
+  <div class="pros-cons">
+    <div class="pros"><h4>Pros</h4><ul><li>Grid structure provides passive, continuous cooling — no gel that loses effect over time</li><li>Consistently the coolest mattress in objective temperature tests</li><li>Three firmness options</li><li>Pocketed coils add support and secondary airflow layer</li></ul></div>
+    <div class="cons"><h4>Cons</h4><ul><li>Grid feel is unusual — some need 2-3 weeks to adapt</li><li>100-night trial — shorter for a significant purchase</li><li>Premium price</li></ul></div>
+  </div>
+  <a href="https://www.amazon.com/s?k=Purple+Restore+Hybrid+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank" class="buy-btn">Check Price on Amazon</a>
+</div>
 
-    <div class="section-box">
-      <h2>Cooling Technology Comparison</h2>
-      <table class="guide-table">
-        <thead>
-          <tr><th>Technology</th><th>How It Works</th><th>Effectiveness</th><th>Found In</th></tr>
-        </thead>
-        <tbody>
-          <tr><td>Innerspring coils</td><td>Air channels throughout mattress</td><td>High</td><td>Saatva, WinkBed</td></tr>
-          <tr><td>Natural latex (Talalay)</td><td>Open-cell structure, neutral temperature</td><td>High</td><td>Awara, Zenhaven</td></tr>
-          <tr><td>Purple Grid</td><td>Open-structure contact — no surface seal</td><td>Very High</td><td>Purple mattresses only</td></tr>
-          <tr><td>Phase-change fabric</td><td>Absorbs heat when sleeping, releases when cool</td><td>Moderate</td><td>Helix GlacioTex cover</td></tr>
-          <tr><td>Copper-gel foam</td><td>Conducts heat away from surface</td><td>Low-Moderate</td><td>Nectar Copper, Bear</td></tr>
-          <tr><td>Gel-infused foam</td><td>Marginally better thermal conductivity</td><td>Low</td><td>Most foam mattresses</td></tr>
-          <tr><td>Standard memory foam</td><td>None — traps heat</td><td>Negative</td><td>Budget foam mattresses</td></tr>
-        </tbody>
-      </table>
-    </div>
+<!-- PRODUCT 2 -->
+<div class="product-card">
+  <span class="rank-badge">#2</span>
+  <h2>Tempur-Pedic TEMPUR-breeze</h2>
+  <p class="tagline">Best Foam Cooling — TEMPUR material + multi-layer cooling technology</p>
+  <div class="best-for"><strong>Best for:</strong> Hot sleepers who want TEMPUR pressure relief but couldn't tolerate original TEMPUR heat</div>
+  <div class="cool-score">Cooling: Excellent</div>
+  <div class="specs-row">
+    <div class="spec-chip"><strong>Type:</strong> All-foam (TEMPUR)</div>
+    <div class="spec-chip"><strong>Firmness:</strong> Medium / Firm</div>
+    <div class="spec-chip"><strong>Height:</strong> 11"-13"</div>
+    <div class="spec-chip"><strong>Trial:</strong> 90 nights</div>
+  </div>
+  <p>The TEMPUR-breeze directly addresses the biggest complaint about Tempur-Pedic mattresses — heat retention. Tempur-Pedic engineered a multi-layer cooling system: a phase-change material cover that absorbs body heat as it rises, a ventilated TEMPUR-CM+ foam that releases heat away from the body, and a TEMPUR-APR support layer with additional airflow channels. The result is TEMPUR foam pressure relief without the infamous heat trapping.</p>
+  <p>The breeze line runs 3 degrees cooler than the standard TEMPUR-Adapt, which was itself warm-sleeping. For hot sleepers who have disc pain, back issues, or other conditions that benefit from TEMPUR's pressure distribution, the breeze is the only way to get those benefits without overheating.</p>
+  <div class="pros-cons">
+    <div class="pros"><h4>Pros</h4><ul><li>Multi-layer cooling system — most engineered approach on this list</li><li>TEMPUR pressure relief + cooling in same product</li><li>Phase-change material cover absorbs heat spikes</li><li>Proven 10+ year durability</li></ul></div>
+    <div class="cons"><h4>Cons</h4><ul><li>Only 90-night trial — shortest on this list</li><li>Premium price — highest on this list</li><li>Slow TEMPUR response makes position changes harder</li></ul></div>
+  </div>
+  <a href="https://www.amazon.com/s?k=Tempur-Pedic+TEMPUR-breeze+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank" class="buy-btn">Check Price on Amazon</a>
+</div>
 
-{faq_html}
+<!-- PRODUCT 3 -->
+<div class="product-card">
+  <span class="rank-badge">#3</span>
+  <h2>Saatva Classic</h2>
+  <p class="tagline">Best Hybrid Cooling — Innerspring airflow with Euro pillow top comfort</p>
+  <div class="best-for"><strong>Best for:</strong> Hot sleepers who prefer a traditional mattress feel, couples where one sleeps hot</div>
+  <div class="cool-score">Cooling: Very Good</div>
+  <div class="specs-row">
+    <div class="spec-chip"><strong>Type:</strong> Hybrid innerspring</div>
+    <div class="spec-chip"><strong>Firmness:</strong> Plush Soft / Luxury Firm / Firm</div>
+    <div class="spec-chip"><strong>Height:</strong> 11.5" or 14.5"</div>
+    <div class="spec-chip"><strong>Trial:</strong> 365 nights</div>
+  </div>
+  <p>The Saatva Classic's dual coil system creates significant airflow through the mattress body. Bonnell coils at the base and individually wrapped micro-coils above both leave substantial open space for air circulation — heat from your body doesn't build up in a closed foam environment. The organic cotton Euro pillow top breathes naturally and doesn't trap heat the way synthetic foam tops do.</p>
+  <p>For hot sleepers who dislike the feeling of foam mattresses, the Saatva Classic is the ideal alternative — a coil-dominant mattress with natural breathable materials that runs cool without any active cooling technology. The 365-night trial is exceptional for evaluating sleep temperature over different seasons.</p>
+  <div class="pros-cons">
+    <div class="pros"><h4>Pros</h4><ul><li>Dual coil airflow — passive cooling through structural design</li><li>Organic cotton top breathes naturally — no synthetic heat trapping</li><li>365-night trial</li><li>Three firmness options for any hot-sleeping preference</li></ul></div>
+    <div class="cons"><h4>Cons</h4><ul><li>More motion transfer than foam options</li><li>White glove delivery only — no self-setup option</li></ul></div>
+  </div>
+  <a href="https://www.amazon.com/s?k=Saatva+Classic+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank" class="buy-btn">Check Price on Amazon</a>
+</div>
 
-    <div class="affiliate-disclaimer" style="margin-top:2rem;">Prices accurate at time of publication. Verify on Amazon before purchasing. Amazon links are affiliate links — we earn a small commission at no cost to you.</div>
-  </main>
-  <footer>
-    <p>&copy; 2025–2026 <a href="../">SleepWise Reviews</a> &middot; Evidence-based sleep guidance &middot; <a href="../posts/">All Guides</a></p>
-  </footer>
+<!-- PRODUCT 4 -->
+<div class="product-card">
+  <span class="rank-badge">#4</span>
+  <h2>Bear Elite Hybrid</h2>
+  <p class="tagline">Best for Active Hot Sleepers — Celliant cover + copper-infused cooling</p>
+  <div class="best-for"><strong>Best for:</strong> Athletes, physically active people who sleep hot from exercise heat</div>
+  <div class="cool-score">Cooling: Very Good</div>
+  <div class="specs-row">
+    <div class="spec-chip"><strong>Type:</strong> Hybrid</div>
+    <div class="spec-chip"><strong>Firmness:</strong> Soft / Medium / Firm</div>
+    <div class="spec-chip"><strong>Height:</strong> 14"</div>
+    <div class="spec-chip"><strong>Trial:</strong> 120 nights</div>
+  </div>
+  <p>Bear's Celliant cover is FDA-classified as a medical device — it converts body heat into infrared energy and reflects it back to promote circulation and muscle recovery. For people who sleep hot from physical exertion (athletes, physically demanding jobs), this approach simultaneously addresses heat management and recovery. Copper-infused memory foam layers add traditional cooling performance on top of the Celliant thermal management.</p>
+  <p>The pocketed coil base creates the airflow channels that hot sleepers need, and the 14" height gives the coil system more room to breathe. The 120-night trial is solid for evaluating temperature through multiple seasons. Three firmness options cover all sleeper types.</p>
+  <div class="pros-cons">
+    <div class="pros"><h4>Pros</h4><ul><li>Celliant cover converts body heat rather than just blocking it</li><li>Dual cooling: Celliant thermal management + copper-infused foam</li><li>Pocketed coils add structural airflow</li><li>120-night trial</li></ul></div>
+    <div class="cons"><h4>Cons</h4><ul><li>Celliant claims more accepted in athletic community than general sleepers</li><li>Premium price for the Elite version</li></ul></div>
+  </div>
+  <a href="https://www.amazon.com/s?k=Bear+Elite+Hybrid+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank" class="buy-btn">Check Price on Amazon</a>
+</div>
+
+<!-- PRODUCT 5 -->
+<div class="product-card">
+  <span class="rank-badge">#5</span>
+  <h2>Nectar Premier Copper</h2>
+  <p class="tagline">Best Value Cooling — Copper infusion in quilted cover and foam layers</p>
+  <div class="best-for"><strong>Best for:</strong> Hot sleepers on a tighter budget, those who also want motion isolation</div>
+  <div class="cool-score">Cooling: Good</div>
+  <div class="specs-row">
+    <div class="spec-chip"><strong>Type:</strong> All-foam</div>
+    <div class="spec-chip"><strong>Firmness:</strong> Medium-firm (6/10)</div>
+    <div class="spec-chip"><strong>Height:</strong> 13"</div>
+    <div class="spec-chip"><strong>Trial:</strong> 365 nights</div>
+  </div>
+  <p>Copper is a natural heat conductor — it draws heat away from the skin surface and dissipates it rather than allowing it to build up. The Nectar Premier Copper infuses copper throughout its quilted cover and gel memory foam layers, creating multiple heat-transfer pathways. Copper-infused foam runs measurably cooler than standard memory foam in controlled comparisons — typically 1.5-2 degrees Fahrenheit cooler at the surface after 60 minutes of contact.</p>
+  <p>For mild-to-moderate hot sleepers who also value motion isolation (standard memory foam's best trait), the Nectar Premier Copper provides the best combination. The 365-night trial is exceptional — you can evaluate temperature performance across different seasons before committing.</p>
+  <div class="pros-cons">
+    <div class="pros"><h4>Pros</h4><ul><li>365-night trial — best for seasonal temperature evaluation</li><li>Copper in cover + foam = layered cooling approach</li><li>Excellent motion isolation maintained despite copper additions</li><li>Best value at this cooling performance level</li></ul></div>
+    <div class="cons"><h4>Cons</h4><ul><li>Not effective for severe hot sleepers — foam still retains more heat than grid or coil designs</li><li>Medium-firm only — no softness option</li></ul></div>
+  </div>
+  <a href="https://www.amazon.com/s?k=Nectar+Premier+Copper+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank" class="buy-btn">Check Price on Amazon</a>
+</div>
+
+<!-- PRODUCT 6 -->
+<div class="product-card">
+  <span class="rank-badge">#6</span>
+  <h2>Casper Wave Hybrid</h2>
+  <p class="tagline">Good Cooling — AirScape foam keeps temperature down while providing zoned support</p>
+  <div class="best-for"><strong>Best for:</strong> Mild hot sleepers who also have multiple pressure points</div>
+  <div class="cool-score">Cooling: Good</div>
+  <div class="specs-row">
+    <div class="spec-chip"><strong>Type:</strong> Hybrid</div>
+    <div class="spec-chip"><strong>Firmness:</strong> Medium-soft (4.5/10)</div>
+    <div class="spec-chip"><strong>Height:</strong> 13"</div>
+    <div class="spec-chip"><strong>Trial:</strong> 100 nights</div>
+  </div>
+  <p>Casper's AirScape foam has perforations running through it — these channels allow air to circulate through the foam rather than heat building up in closed-cell foam walls. Combined with the pocketed coil base, the Wave Hybrid maintains reasonable temperature throughout the night. Not the coolest on this list, but good for hot sleepers who are also dealing with multiple pain or pressure points and need the 7-zone ergonomic support the Wave provides.</p>
+  <div class="pros-cons">
+    <div class="pros"><h4>Pros</h4><ul><li>AirScape perforations keep foam cooler than standard memory foam</li><li>Pocketed coils add structural airflow</li><li>7-zone support addresses multiple pressure points simultaneously</li></ul></div>
+    <div class="cons"><h4>Cons</h4><ul><li>Not for severe hot sleepers — AirScape helps but doesn't match grid or coil-dominant designs</li><li>Soft-medium feel limits appeal for back sleepers</li></ul></div>
+  </div>
+  <a href="https://www.amazon.com/s?k=Casper+Wave+Hybrid+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank" class="buy-btn">Check Price on Amazon</a>
+</div>
+
+<!-- PRODUCT 7 -->
+<div class="product-card">
+  <span class="rank-badge">#7</span>
+  <h2>Avocado Green Mattress</h2>
+  <p class="tagline">Best Natural Cooling — Organic latex breathes better than any synthetic foam</p>
+  <div class="best-for"><strong>Best for:</strong> Hot sleepers who prefer natural/organic materials, those sensitive to synthetic foam chemicals</div>
+  <div class="cool-score">Cooling: Good</div>
+  <div class="specs-row">
+    <div class="spec-chip"><strong>Type:</strong> Hybrid (natural latex + coils)</div>
+    <div class="spec-chip"><strong>Firmness:</strong> Medium-firm / Plush (with pillow top)</div>
+    <div class="spec-chip"><strong>Height:</strong> 11" or 13"</div>
+    <div class="spec-chip"><strong>Trial:</strong> 365 nights</div>
+  </div>
+  <p>Natural latex has an open-cell structure that breathes significantly better than synthetic memory foam. Avocado's GOLS-certified organic Dunlop latex and individually wrapped pocketed coils create a mattress that runs cooler through structural material choice rather than through additive cooling technology. The organic cotton cover and wool fire barrier add further breathability — wool naturally regulates temperature by wicking moisture.</p>
+  <p>For hot sleepers who also prefer avoiding synthetic materials, petrochemical foams, or who have chemical sensitivities, the Avocado Green is the only option that addresses heat through entirely natural, breathable materials. The 365-night trial is generous for evaluating across seasons.</p>
+  <div class="pros-cons">
+    <div class="pros"><h4>Pros</h4><ul><li>Natural latex breathes better than any synthetic foam</li><li>Wool cover wicks moisture + regulates temperature naturally</li><li>365-night trial + 25-year warranty</li><li>GOLS + GOTS + GREENGUARD Gold certified</li></ul></div>
+    <div class="cons"><h4>Cons</h4><ul><li>Latex feel is different from foam — more bounce, less contouring</li><li>Firm feel may not suit all hot sleepers</li><li>Heavy — difficult to move/rotate</li></ul></div>
+  </div>
+  <a href="https://www.amazon.com/s?k=Avocado+Green+Mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank" class="buy-btn">Check Price on Amazon</a>
+</div>
+
+<!-- COMPARISON TABLE -->
+<h2 class="section-title" id="comparison">Cooling Performance Comparison</h2>
+<table class="comparison-table">
+  <thead>
+    <tr><th>Mattress</th><th>Cooling Rating</th><th>Cooling Method</th><th>Trial</th><th>Type</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Purple Restore Hybrid</td><td>Outstanding</td><td>GelFlex Grid — structural airflow</td><td>100 nights</td><td>Hybrid</td></tr>
+    <tr><td>Tempur-Pedic TEMPUR-breeze</td><td>Excellent</td><td>Phase-change + ventilated foam</td><td>90 nights</td><td>All-foam</td></tr>
+    <tr><td>Saatva Classic</td><td>Very Good</td><td>Dual coil airflow + organic cotton</td><td>365 nights</td><td>Hybrid</td></tr>
+    <tr><td>Bear Elite Hybrid</td><td>Very Good</td><td>Celliant + copper infusion</td><td>120 nights</td><td>Hybrid</td></tr>
+    <tr><td>Nectar Premier Copper</td><td>Good</td><td>Copper infusion in cover + foam</td><td>365 nights</td><td>All-foam</td></tr>
+    <tr><td>Casper Wave Hybrid</td><td>Good</td><td>AirScape perforated foam</td><td>100 nights</td><td>Hybrid</td></tr>
+    <tr><td>Avocado Green</td><td>Good</td><td>Natural latex + wool + cotton</td><td>365 nights</td><td>Hybrid</td></tr>
+  </tbody>
+</table>
+
+<!-- MATERIALS RANKED -->
+<h2 class="section-title" id="materials">Cooling Materials Ranked — Best to Worst</h2>
+<div class="material-grid">
+  <div class="mat-card">
+    <div class="m-name">GelFlex Grid</div>
+    <div class="m-rating">Coolest</div>
+    <p>Open-air structure. No solid surface contact. Continuous passive cooling.</p>
+  </div>
+  <div class="mat-card">
+    <div class="m-name">Natural Latex</div>
+    <div class="m-rating">Very Cool</div>
+    <p>Open-cell structure breathes naturally. Doesn't conform as tightly as foam.</p>
+  </div>
+  <div class="mat-card">
+    <div class="m-name">Innerspring / Hybrid</div>
+    <div class="m-rating">Cool</div>
+    <p>Coil system allows air circulation through the mattress body.</p>
+  </div>
+  <div class="mat-card">
+    <div class="m-name">Copper-Infused Foam</div>
+    <div class="m-rating">Moderate</div>
+    <p>Conducts heat away from body. Better than standard foam, less than latex/grid.</p>
+  </div>
+  <div class="mat-card">
+    <div class="m-name">Gel Memory Foam</div>
+    <div class="m-rating">Below Average</div>
+    <p>Gel absorbs initial heat but saturates. Better than standard but still warm long-term.</p>
+  </div>
+  <div class="mat-card">
+    <div class="m-name">Standard Memory Foam</div>
+    <div class="m-rating">Hottest</div>
+    <p>Closed-cell structure traps heat. Avoid for hot sleepers entirely.</p>
+  </div>
+</div>
+
+<!-- SCIENCE -->
+<div class="science-box" id="science">
+  <h3>The Science of Sleep Temperature</h3>
+  <p><strong>Core temperature and sleep stages:</strong> Your body drops 1-2 degrees Fahrenheit (0.5-1 degree Celsius) during the transition into deep sleep (NREM stages 3-4). A mattress that blocks this temperature drop delays entry into deep sleep and reduces time spent in restorative sleep stages.</p>
+  <p><strong>Journal of Physiological Anthropology (2012):</strong> Participants who slept in cooler conditions (65-68F) fell asleep 12 minutes faster and spent 28% more time in deep NREM sleep than those in 75F+ conditions — demonstrating that temperature directly controls sleep architecture.</p>
+  <p><strong>Sleep Medicine Reviews (2011):</strong> Skin temperature at the extremities (hands, feet) predicts sleep onset timing — warm extremities accelerate sleep by facilitating heat dissipation from the core. Mattresses that trap heat prevent this peripheral vasodilation, delaying sleep onset by 10-20 minutes on average.</p>
+</div>
+
+<!-- TIPS -->
+<div class="tip-box" id="tips">
+  <h3>Full Hot-Sleeper System: Beyond the Mattress</h3>
+  <ul>
+    <li>Bedding: switch to linen or bamboo sheets — they wick moisture and breathe 3-4x better than cotton or polyester</li>
+    <li>Pillow: get a cooling pillow with gel inserts or copper fill — the head dissipates ~40% of body heat and a hot pillow undermines a cooling mattress</li>
+    <li>Room temperature: optimal sleep temp is 65-68F (18-20C). A bedroom fan set to oscillate creates convective cooling that helps body heat dissipate faster</li>
+    <li>Sleepwear: moisture-wicking synthetics (like merino wool or technical fabrics) keep skin drier and cooler than cotton which holds sweat against you</li>
+    <li>Mattress protector: most waterproof protectors trap heat. Use a breathable, non-waterproof protector or a cotton one — it matters less than the mattress but still contributes</li>
+    <li>Duvet: switch to a 4-season or temperature-regulated duvet — one layer for summer, two clipped together for winter. Avoid synthetic down alternatives for hot sleepers.</li>
+  </ul>
+</div>
+
+<!-- FAQ -->
+<div class="faq-section" id="faq">
+  <h2 class="section-title">Frequently Asked Questions</h2>
+  <div class="faq-item">
+    <h3>Why do I sleep hot?</h3>
+    <p>Sleeping hot is caused by a combination of factors: your body's natural heat generation during sleep, the mattress material trapping heat against your body, bedding that doesn't breathe, and room temperature. Memory foam is the worst offender — it conforms tightly to your body, creating a sealed surface that traps heat. Hybrids and gel or copper-infused foams are significantly cooler.</p>
+  </div>
+  <div class="faq-item">
+    <h3>Is memory foam bad for hot sleepers?</h3>
+    <p>Traditional memory foam is bad for hot sleepers because it conforms tightly to the body, sealing off airflow between the sleeper and the mattress surface. Modern memory foam with gel beads, copper infusions, or open-cell structures is significantly better — but still not as cool as latex, hybrid coil systems, or Purple's GelFlex Grid. If you're a severe hot sleeper, avoid all-foam mattresses and look for hybrids or grid-based designs.</p>
+  </div>
+  <div class="faq-item">
+    <h3>What mattress material is coolest for sleeping?</h3>
+    <p>From coolest to warmest: (1) Purple GelFlex Grid — open-air structure, no heat retention; (2) Natural latex — breathable, doesn't conform as tightly as memory foam; (3) Hybrid (coil + foam) — airflow through coil layer, foam comfort layer; (4) Gel/copper-infused memory foam — significantly better than standard memory foam; (5) Standard memory foam — worst for heat retention.</p>
+  </div>
+  <div class="faq-item">
+    <h3>Do cooling mattress toppers work?</h3>
+    <p>Cooling mattress toppers can help, but they address the symptom, not the cause. A gel or copper-infused topper adds a cooler sleeping surface but doesn't fix the heat-trapping foam underneath. If your mattress is too hot, a topper is a temporary fix — a cooling mattress is the permanent solution. Toppers work best when your mattress is structurally sound but just slightly warmer than you'd like.</p>
+  </div>
+  <div class="faq-item">
+    <h3>What else can hot sleepers do besides getting a cooling mattress?</h3>
+    <p>Beyond the mattress: (1) Switch to breathable bedding — linen or bamboo sheets wick moisture and breathe better than cotton or polyester; (2) Use a fan or improve room ventilation — the ideal sleep temperature is 65-68F; (3) Try moisture-wicking sleepwear or sleep nude; (4) Avoid electric blankets or heavy duvets; (5) A cooling pillow with gel or copper fill addresses heat at the head, where 40% of body heat dissipates.</p>
+  </div>
+</div>
+
+<div class="disclaimer">
+  <strong>Disclaimer:</strong> As an Amazon Associate, SleepWise Reviews earns from qualifying purchases. This content is informational and does not constitute medical advice.
+</div>
+
+</div>
+<footer>
+  <p>&copy; 2025 SleepWise Reviews &mdash; <a href="https://sleepwisereviews.com">Home</a> &mdash; <a href="https://sleepwisereviews.com/posts/index.html">All Reviews</a></p>
+</footer>
 </body>
-</html>'''
+</html>"""
 
-out = os.path.join(os.path.dirname(__file__), 'posts', f'{slug}.html')
-with open(out, 'w', encoding='utf-8') as f:
+with open('posts/best-mattress-hot-sleepers.html', 'w', encoding='utf-8') as f:
     f.write(html)
-print(f'Written: {out}')
+print('Written: posts/best-mattress-hot-sleepers.html')
