@@ -1,0 +1,543 @@
+"""Generate posts/best-magnesium-glycinate-sleep.html"""
+import os
+
+html = '''<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Best Magnesium Glycinate for Sleep (2026): Top 7 Picks Reviewed | SleepWise Reviews</title>
+  <meta name="description" content="Magnesium glycinate is the most bioavailable magnesium form for sleep. We review 7 top supplements — capsules, powder, and gummies — for dosage, purity, and sleep results.">
+  <meta name="keywords" content="best magnesium glycinate for sleep, magnesium glycinate supplement review, magnesium bisglycinate sleep, magnesium glycinate dosage sleep, magnesium for deep sleep">
+  <link rel="canonical" href="https://sleepwisereviews.com/posts/best-magnesium-glycinate-sleep.html">
+  <meta property="og:title" content="Best Magnesium Glycinate for Sleep (2026)">
+  <meta property="og:description" content="7 magnesium glycinate supplements reviewed for bioavailability, purity, dosage, and sleep outcomes. Expert picks for deep sleep support.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://sleepwisereviews.com/posts/best-magnesium-glycinate-sleep.html">
+  <meta property="og:site_name" content="SleepWise Reviews">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Best Magnesium Glycinate for Sleep (2026)">
+  <meta name="twitter:description" content="7 magnesium glycinate supplements for better deep sleep — capsules, powder, and gummies reviewed.">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Article",
+        "headline": "Best Magnesium Glycinate for Sleep (2026): Top 7 Picks Reviewed",
+        "description": "Magnesium glycinate reviewed for sleep: bioavailability, purity, dosage, and the right form for your needs.",
+        "author": {"@type": "Organization", "name": "SleepWise Reviews"},
+        "publisher": {"@type": "Organization", "name": "SleepWise Reviews"},
+        "datePublished": "2026-05-25",
+        "dateModified": "2026-05-25",
+        "mainEntityOfPage": {"@type": "WebPage", "@id": "https://sleepwisereviews.com/posts/best-magnesium-glycinate-sleep.html"}
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://sleepwisereviews.com"},
+          {"@type": "ListItem", "position": 2, "name": "Supplements", "item": "https://sleepwisereviews.com/posts/index.html"},
+          {"@type": "ListItem", "position": 3, "name": "Best Magnesium Glycinate for Sleep"}
+        ]
+      },
+      {
+        "@type": "ItemList",
+        "name": "Best Magnesium Glycinate for Sleep 2026",
+        "itemListElement": [
+          {"@type": "ListItem", "position": 1, "name": "Thorne Magnesium Bisglycinate"},
+          {"@type": "ListItem", "position": 2, "name": "Pure Encapsulations Magnesium Glycinate"},
+          {"@type": "ListItem", "position": 3, "name": "Klaire Labs Magnesium Glycinate Complex"},
+          {"@type": "ListItem", "position": 4, "name": "Doctor's Best High Absorption Magnesium"},
+          {"@type": "ListItem", "position": 5, "name": "Natural Vitality Calm Magnesium Glycinate Powder"},
+          {"@type": "ListItem", "position": 6, "name": "MagSRT by Jigsaw Health"},
+          {"@type": "ListItem", "position": 7, "name": "NOW Foods Magnesium Glycinate"}
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Why is magnesium glycinate better for sleep than other forms?",
+            "acceptedAnswer": {"@type": "Answer", "text": "Magnesium glycinate is bound to the amino acid glycine. Both components independently support sleep: magnesium modulates GABA receptors and reduces cortisol, while glycine lowers core body temperature and has been shown in clinical trials to reduce time to sleep onset and improve sleep quality scores. Other forms like magnesium citrate are effective but have a laxative effect at higher doses. Magnesium oxide has very low bioavailability (~4%). Glycinate provides high absorption without the laxative threshold problem."}
+          },
+          {
+            "@type": "Question",
+            "name": "What is the right dosage of magnesium glycinate for sleep?",
+            "acceptedAnswer": {"@type": "Answer", "text": "Most sleep-focused studies use 200-400mg elemental magnesium per day. With magnesium glycinate, check the label for elemental magnesium content — not the total compound weight. A 500mg capsule of magnesium glycinate typically provides around 50-65mg elemental magnesium. Aim for 200-400mg elemental magnesium daily, divided between dinner and bedtime for sleep benefit."}
+          },
+          {
+            "@type": "Question",
+            "name": "How long does magnesium glycinate take to work for sleep?",
+            "acceptedAnswer": {"@type": "Answer", "text": "Cellular magnesium levels take 4-6 weeks of consistent supplementation to meaningfully increase in deficient individuals. Some people notice improved sleep within 1-2 weeks as acute serum levels rise. For best results, take it consistently for 6-8 weeks before evaluating effectiveness."}
+          },
+          {
+            "@type": "Question",
+            "name": "Can you take magnesium glycinate every night?",
+            "acceptedAnswer": {"@type": "Answer", "text": "Yes. Magnesium glycinate is safe for long-term daily use at standard doses. Unlike melatonin, there is no evidence that chronic use causes dependence or receptor downregulation. The kidneys excrete excess magnesium, making toxicity rare except in people with severe kidney disease."}
+          },
+          {
+            "@type": "Question",
+            "name": "What is the difference between magnesium glycinate and magnesium bisglycinate?",
+            "acceptedAnswer": {"@type": "Answer", "text": "They are the same compound. Bisglycinate means two glycine molecules are chelated to each magnesium ion. Some brands call it glycinate (one glycine implied), others call it bisglycinate to signal the double-chelation. Both terms refer to the same high-bioavailability magnesium form. Look at the elemental magnesium content, not the marketing terminology."}
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+  <style>
+    :root{--bg:#0a1628;--card:#111e33;--gold:#c9a84c;--text:#e8eaf0;--muted:#8892a4;--border:#1e2d45;--green:#2ecc71;--red:#e74c3c}
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{background:var(--bg);color:var(--text);font-family:'Segoe UI',system-ui,sans-serif;line-height:1.7}
+    a{color:var(--gold);text-decoration:none}
+    a:hover{text-decoration:underline}
+    header{background:var(--card);border-bottom:1px solid var(--border);padding:16px 24px;display:flex;align-items:center;justify-content:space-between}
+    header .logo{font-size:1.2rem;font-weight:700;color:var(--gold)}
+    nav a{margin-left:20px;color:var(--muted);font-size:.9rem}
+    .hero{background:linear-gradient(135deg,#0d1f38 0%,#1a2d4a 100%);padding:60px 24px;text-align:center;border-bottom:1px solid var(--border)}
+    .hero h1{font-size:clamp(1.6rem,4vw,2.6rem);font-weight:800;color:#fff;max-width:800px;margin:0 auto 16px}
+    .hero .sub{color:var(--muted);font-size:1.05rem;max-width:600px;margin:0 auto 24px}
+    .badge-row{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-bottom:10px}
+    .badge{background:rgba(201,168,76,.15);border:1px solid rgba(201,168,76,.4);color:var(--gold);padding:4px 14px;border-radius:20px;font-size:.82rem;font-weight:600}
+    .container{max-width:960px;margin:0 auto;padding:40px 20px}
+    .toc{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:24px;margin-bottom:40px}
+    .toc h2{font-size:1rem;color:var(--gold);margin-bottom:12px;text-transform:uppercase;letter-spacing:.05em}
+    .toc ol{padding-left:20px}
+    .toc li{margin-bottom:6px;font-size:.95rem}
+    .product-card{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:28px;margin-bottom:28px}
+    .product-header{display:flex;align-items:flex-start;gap:16px;margin-bottom:16px}
+    .rank{background:var(--gold);color:#0a1628;font-weight:800;font-size:.85rem;padding:4px 12px;border-radius:20px;white-space:nowrap}
+    .product-header h2{font-size:1.25rem;color:#fff;line-height:1.3}
+    .product-header h2 span{display:block;font-size:.82rem;color:var(--muted);font-weight:400;margin-top:2px}
+    .specs-row{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0}
+    .spec-chip{background:rgba(255,255,255,.06);border:1px solid var(--border);padding:4px 12px;border-radius:20px;font-size:.8rem;color:var(--muted)}
+    .spec-chip strong{color:var(--text)}
+    .pros-cons{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:16px 0}
+    @media(max-width:560px){.pros-cons{grid-template-columns:1fr}}
+    .pros,.cons{background:rgba(255,255,255,.04);border-radius:10px;padding:14px}
+    .pros h4{color:var(--green);margin-bottom:8px;font-size:.9rem}
+    .cons h4{color:var(--red);margin-bottom:8px;font-size:.9rem}
+    .pros ul,.cons ul{list-style:none;font-size:.88rem}
+    .pros li::before{content:"+ ";color:var(--green);font-weight:700}
+    .cons li::before{content:"- ";color:var(--red);font-weight:700}
+    .pros li,.cons li{margin-bottom:4px}
+    .cta-btn{display:inline-block;background:var(--gold);color:#0a1628;font-weight:700;padding:11px 24px;border-radius:8px;margin-top:14px;font-size:.95rem}
+    .cta-btn:hover{background:#e0b84a;text-decoration:none}
+    .science-box{background:linear-gradient(135deg,rgba(201,168,76,.08),rgba(201,168,76,.03));border:1px solid rgba(201,168,76,.25);border-radius:12px;padding:24px;margin:40px 0}
+    .science-box h3{color:var(--gold);margin-bottom:12px;font-size:1.05rem}
+    .buying-guide{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:28px;margin:40px 0}
+    .buying-guide h2{color:var(--gold);margin-bottom:20px;font-size:1.2rem}
+    .guide-item{margin-bottom:20px}
+    .guide-item h3{color:#fff;margin-bottom:6px;font-size:1rem}
+    .guide-item p{color:var(--muted);font-size:.93rem}
+    .faq{margin:40px 0}
+    .faq h2{color:var(--gold);margin-bottom:20px;font-size:1.2rem}
+    .faq-item{border-bottom:1px solid var(--border);padding:18px 0}
+    .faq-item:last-child{border-bottom:none}
+    .faq-item h3{color:#fff;font-size:.98rem;margin-bottom:8px}
+    .faq-item p{color:var(--muted);font-size:.92rem}
+    .verdict-box{background:linear-gradient(135deg,rgba(46,204,113,.08),rgba(46,204,113,.03));border:1px solid rgba(46,204,113,.2);border-radius:12px;padding:24px;margin:40px 0}
+    .verdict-box h2{color:#2ecc71;margin-bottom:12px}
+    footer{background:var(--card);border-top:1px solid var(--border);padding:30px 24px;text-align:center;font-size:.85rem;color:var(--muted);margin-top:60px}
+    footer a{color:var(--muted)}
+    .disclaimer{background:rgba(255,255,255,.04);border-radius:8px;padding:16px;margin-bottom:32px;font-size:.82rem;color:var(--muted);border-left:3px solid var(--gold)}
+    .medical-note{background:rgba(231,76,60,.08);border:1px solid rgba(231,76,60,.2);border-radius:8px;padding:14px;margin-bottom:24px;font-size:.85rem;color:var(--muted)}
+  </style>
+</head>
+<body>
+<header>
+  <a class="logo" href="/">SleepWise Reviews</a>
+  <nav>
+    <a href="/">Home</a>
+    <a href="/posts/index.html">All Posts</a>
+  </nav>
+</header>
+
+<div class="hero">
+  <h1>Best Magnesium Glycinate for Sleep (2026)</h1>
+  <p class="sub">The most bioavailable magnesium form for sleep support — without the laxative effect. 7 expert-reviewed supplements for deep sleep, anxiety relief, and muscle relaxation.</p>
+  <div class="badge-row">
+    <span class="badge">7 Supplements Reviewed</span>
+    <span class="badge">Updated May 2026</span>
+    <span class="badge">Third-Party Tested</span>
+    <span class="badge">No Laxative Effect</span>
+  </div>
+</div>
+
+<div class="container">
+  <div class="medical-note">
+    <strong>Medical Note:</strong> Supplements are not FDA-evaluated for treating sleep disorders. Consult your healthcare provider before starting any supplement regimen, especially if you have kidney disease or take medications.
+  </div>
+  <div class="disclaimer">
+    <strong>Affiliate Disclosure:</strong> SleepWise Reviews earns a commission from qualifying purchases at no extra cost to you.
+  </div>
+
+  <div class="toc">
+    <h2>Quick Navigation</h2>
+    <ol>
+      <li><a href="#thorne">Thorne Magnesium Bisglycinate — Best Overall</a></li>
+      <li><a href="#pure">Pure Encapsulations — Best for Sensitive Stomachs</a></li>
+      <li><a href="#klaire">Klaire Labs — Best Clinical Grade</a></li>
+      <li><a href="#doctors">Doctor's Best — Best Value Capsule</a></li>
+      <li><a href="#natural">Natural Vitality Calm — Best Powder</a></li>
+      <li><a href="#jigsaw">Jigsaw MagSRT — Best Sustained Release</a></li>
+      <li><a href="#now">NOW Foods — Best Budget</a></li>
+      <li><a href="#science">How Magnesium Glycinate Improves Sleep</a></li>
+      <li><a href="#guide">Buying Guide</a></li>
+      <li><a href="#faq">FAQ</a></li>
+    </ol>
+  </div>
+
+  <!-- PRODUCT 1 -->
+  <div class="product-card" id="thorne">
+    <div class="product-header">
+      <span class="rank">#1 Best Overall</span>
+      <h2>Thorne Magnesium Bisglycinate
+        <span>NSF Certified for Sport, no fillers, clean label</span>
+      </h2>
+    </div>
+    <p>Thorne is the gold standard in professional-grade supplements. Their magnesium bisglycinate is NSF Certified for Sport — meaning it's third-party tested for banned substances, heavy metals, and label accuracy. The powder form dissolves cleanly with no chalky residue, and Thorne uses no unnecessary excipients, binders, or fillers that could interfere with absorption. The glycinate form provides both the elemental magnesium and glycine amino acid, both of which have independent sleep-supporting mechanisms. Used by Olympic athletes and functional medicine practitioners.</p>
+    <div class="specs-row">
+      <span class="spec-chip"><strong>Form:</strong> Powder</span>
+      <span class="spec-chip"><strong>Elemental Mg per serving:</strong> 200mg</span>
+      <span class="spec-chip"><strong>Servings:</strong> 75 (200g container)</span>
+      <span class="spec-chip"><strong>Certification:</strong> NSF Certified for Sport</span>
+      <span class="spec-chip"><strong>Additives:</strong> None</span>
+    </div>
+    <div class="pros-cons">
+      <div class="pros">
+        <h4>Pros</h4>
+        <ul>
+          <li>NSF Certified for Sport — rigorous third-party testing</li>
+          <li>Zero unnecessary additives or fillers</li>
+          <li>Powder absorbs quickly vs. capsules</li>
+          <li>200mg elemental Mg per serving — therapeutic dose</li>
+          <li>Trusted by functional medicine practitioners</li>
+        </ul>
+      </div>
+      <div class="cons">
+        <h4>Cons</h4>
+        <ul>
+          <li>Premium price</li>
+          <li>Powder form requires mixing — less convenient than capsules</li>
+          <li>Unflavored — some find taste neutral, others less so</li>
+        </ul>
+      </div>
+    </div>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=Thorne+magnesium+bisglycinate+powder&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+  </div>
+
+  <!-- PRODUCT 2 -->
+  <div class="product-card" id="pure">
+    <div class="product-header">
+      <span class="rank">#2 Best for Sensitive Stomachs</span>
+      <h2>Pure Encapsulations Magnesium Glycinate
+        <span>Hypoallergenic formula — no common allergens or excipients</span>
+      </h2>
+    </div>
+    <p>Pure Encapsulations builds every product for people with sensitivities — no gluten, dairy, soy, artificial colors, or unnecessary excipients. Their magnesium glycinate is the cleanest capsule option available, using only the active ingredient and a vegetable cellulose capsule. This matters because many supplement digestive issues are actually caused by fillers and binders, not the magnesium itself. Each capsule delivers 120mg elemental magnesium in the bisglycinate form. The brand is a favorite among integrative physicians for patients with multiple chemical sensitivities.</p>
+    <div class="specs-row">
+      <span class="spec-chip"><strong>Form:</strong> Capsule</span>
+      <span class="spec-chip"><strong>Elemental Mg per capsule:</strong> 120mg</span>
+      <span class="spec-chip"><strong>Allergens:</strong> Free of 14 common allergens</span>
+      <span class="spec-chip"><strong>Capsule type:</strong> Vegetable cellulose</span>
+      <span class="spec-chip"><strong>Certifications:</strong> USP verified</span>
+    </div>
+    <div class="pros-cons">
+      <div class="pros">
+        <h4>Pros</h4>
+        <ul>
+          <li>Truly hypoallergenic — no common allergens</li>
+          <li>No fillers, binders, or flowing agents</li>
+          <li>Physician-trusted brand</li>
+          <li>Vegetarian capsule</li>
+          <li>Suitable for the most sensitive individuals</li>
+        </ul>
+      </div>
+      <div class="cons">
+        <h4>Cons</h4>
+        <ul>
+          <li>120mg per capsule — need 2 for full therapeutic dose</li>
+          <li>Higher price per serving</li>
+          <li>Capsule size medium-large</li>
+        </ul>
+      </div>
+    </div>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=Pure+Encapsulations+magnesium+glycinate&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+  </div>
+
+  <!-- PRODUCT 3 -->
+  <div class="product-card" id="klaire">
+    <div class="product-header">
+      <span class="rank">#3 Best Clinical Grade</span>
+      <h2>Klaire Labs Magnesium Glycinate Complex
+        <span>Professional dispensing brand with verified elemental content</span>
+      </h2>
+    </div>
+    <p>Klaire Labs is a professional supplement brand that was previously available only through healthcare practitioners. Their magnesium glycinate complex uses Albion TRAACS magnesium bisglycinate — a patented, research-backed chelate with documented bioavailability studies. Albion's chelation process protects the magnesium ion through the digestive tract, delivering more magnesium to the bloodstream per milligram consumed. The complex also includes a small amount of magnesium oxide to round out the elemental content while keeping the glycinate fraction primary. A solid clinical-grade option now available direct to consumers.</p>
+    <div class="specs-row">
+      <span class="spec-chip"><strong>Form:</strong> Capsule</span>
+      <span class="spec-chip"><strong>Chelate type:</strong> Albion TRAACS bisglycinate</span>
+      <span class="spec-chip"><strong>Elemental Mg per serving:</strong> 100mg</span>
+      <span class="spec-chip"><strong>Servings per container:</strong> 100</span>
+      <span class="spec-chip"><strong>Third-party tested:</strong> Yes</span>
+    </div>
+    <div class="pros-cons">
+      <div class="pros">
+        <h4>Pros</h4>
+        <ul>
+          <li>Albion TRAACS — most studied chelate form</li>
+          <li>Professional formulation with documented bioavailability</li>
+          <li>100 servings per container — good value long-term</li>
+          <li>Third-party purity verification</li>
+        </ul>
+      </div>
+      <div class="cons">
+        <h4>Cons</h4>
+        <ul>
+          <li>Contains small amount of magnesium oxide</li>
+          <li>100mg per serving — need 2-4 for therapeutic dose</li>
+          <li>Less widely available than consumer brands</li>
+        </ul>
+      </div>
+    </div>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=Klaire+Labs+magnesium+glycinate&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+  </div>
+
+  <!-- PRODUCT 4 -->
+  <div class="product-card" id="doctors">
+    <div class="product-header">
+      <span class="rank">#4 Best Value Capsule</span>
+      <h2>Doctor's Best High Absorption Magnesium
+        <span>Albion TRAACS chelate at accessible pricing</span>
+      </h2>
+    </div>
+    <p>Doctor's Best uses the same Albion TRAACS bisglycinate chelate as clinical brands at a significantly more accessible price point. Each two-tablet serving provides 200mg elemental magnesium — a full therapeutic dose in one serving. The tablets are large but scored for splitting. This is the best price-per-milligram-of-elemental-magnesium option using a premium chelate form. For people who want the documented bioavailability of TRAACS without spending premium brand money, Doctor's Best is the logical choice. It's one of the bestselling magnesium supplements on Amazon for good reason.</p>
+    <div class="specs-row">
+      <span class="spec-chip"><strong>Form:</strong> Tablet (scored)</span>
+      <span class="spec-chip"><strong>Elemental Mg per 2 tablets:</strong> 200mg</span>
+      <span class="spec-chip"><strong>Chelate:</strong> Albion TRAACS</span>
+      <span class="spec-chip"><strong>Price per dose:</strong> Very affordable</span>
+      <span class="spec-chip"><strong>Gluten-free:</strong> Yes</span>
+    </div>
+    <div class="pros-cons">
+      <div class="pros">
+        <h4>Pros</h4>
+        <ul>
+          <li>TRAACS chelate at budget-friendly pricing</li>
+          <li>200mg elemental Mg per serving</li>
+          <li>Scored tablet — can split for smaller doses</li>
+          <li>Widely available, consistent supply</li>
+          <li>Best mg-per-dollar in this category</li>
+        </ul>
+      </div>
+      <div class="cons">
+        <h4>Cons</h4>
+        <ul>
+          <li>Tablets are large — may be difficult for some</li>
+          <li>Contains some non-active excipients</li>
+          <li>Tablet form absorbs slightly slower than powder</li>
+        </ul>
+      </div>
+    </div>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=Doctor+Best+High+Absorption+Magnesium+glycinate&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+  </div>
+
+  <!-- PRODUCT 5 -->
+  <div class="product-card" id="natural">
+    <div class="product-header">
+      <span class="rank">#5 Best Powder</span>
+      <h2>Natural Vitality Calm Magnesium Glycinate Powder
+        <span>Flavored powder for pre-bedtime ritual — fast absorption</span>
+      </h2>
+    </div>
+    <p>Natural Vitality's CALM line popularized the magnesium drink ritual, and their glycinate formula brings that format to the higher-bioavailability form. The flavored powder mixes easily in warm or cold water and absorbs faster than capsules or tablets due to the pre-dissolved state. Building a pre-sleep ritual around a warm magnesium drink also provides psychological wind-down cues that support sleep onset. Available in raspberry lemon, sweet lemon, and unflavored. The original CALM formula uses magnesium citrate, which is effective but has a laxative effect at higher doses — the glycinate version resolves this.</p>
+    <div class="specs-row">
+      <span class="spec-chip"><strong>Form:</strong> Powder (flavored)</span>
+      <span class="spec-chip"><strong>Elemental Mg per serving:</strong> 150-200mg</span>
+      <span class="spec-chip"><strong>Flavors:</strong> Raspberry lemon, sweet lemon, unflavored</span>
+      <span class="spec-chip"><strong>Sweetener:</strong> Stevia</span>
+      <span class="spec-chip"><strong>Vegan:</strong> Yes</span>
+    </div>
+    <div class="pros-cons">
+      <div class="pros">
+        <h4>Pros</h4>
+        <ul>
+          <li>Powder absorbs faster than capsules/tablets</li>
+          <li>Pre-sleep drink ritual aids psychological wind-down</li>
+          <li>Flavored — enjoyable to take</li>
+          <li>Glycinate form avoids laxative effect of original CALM</li>
+          <li>Stevia sweetened — no sugar</li>
+        </ul>
+      </div>
+      <div class="cons">
+        <h4>Cons</h4>
+        <ul>
+          <li>Stevia taste not for everyone</li>
+          <li>Less portable than capsules</li>
+          <li>Requires mixing — can't dry-swallow</li>
+        </ul>
+      </div>
+    </div>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=Natural+Vitality+Calm+magnesium+glycinate+powder&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+  </div>
+
+  <!-- PRODUCT 6 -->
+  <div class="product-card" id="jigsaw">
+    <div class="product-header">
+      <span class="rank">#6 Best Sustained Release</span>
+      <h2>Jigsaw Health MagSRT
+        <span>Time-release delivery for sustained overnight magnesium levels</span>
+      </h2>
+    </div>
+    <p>Most magnesium supplements release all their content within 30-60 minutes of ingestion. The Jigsaw MagSRT uses a sustained-release matrix (SRT) that spreads magnesium delivery over 8 hours — matching the overnight sleep window. This sustained release serves two purposes: it reduces the peak concentration that triggers GI sensitivity in some people, and it maintains elevated blood magnesium levels through the night rather than delivering a bolus at bedtime only. The formula uses dimagnesium malate as the primary form (not glycinate) supplemented with B vitamins; it's included here because its overnight delivery mechanism is uniquely relevant to sleep. Best for people who wake in the early morning hours.</p>
+    <div class="specs-row">
+      <span class="spec-chip"><strong>Form:</strong> Tablet (sustained release matrix)</span>
+      <span class="spec-chip"><strong>Release window:</strong> 8 hours</span>
+      <span class="spec-chip"><strong>Elemental Mg per serving:</strong> 500mg</span>
+      <span class="spec-chip"><strong>Additional:</strong> B vitamins co-factors</span>
+      <span class="spec-chip"><strong>Third-party tested:</strong> Yes</span>
+    </div>
+    <div class="pros-cons">
+      <div class="pros">
+        <h4>Pros</h4>
+        <ul>
+          <li>8-hour release matches overnight sleep window</li>
+          <li>Reduces GI sensitivity compared to immediate-release</li>
+          <li>Maintains blood magnesium levels through the night</li>
+          <li>B vitamin co-factors support absorption pathways</li>
+          <li>Good for early-morning waking</li>
+        </ul>
+      </div>
+      <div class="cons">
+        <h4>Cons</h4>
+        <ul>
+          <li>Uses malate form, not glycinate — misses glycine sleep benefit</li>
+          <li>Premium price</li>
+          <li>Large tablets</li>
+          <li>Less commonly available</li>
+        </ul>
+      </div>
+    </div>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=Jigsaw+Health+MagSRT+magnesium&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+  </div>
+
+  <!-- PRODUCT 7 -->
+  <div class="product-card" id="now">
+    <div class="product-header">
+      <span class="rank">#7 Best Budget</span>
+      <h2>NOW Foods Magnesium Glycinate
+        <span>180 capsules, GMP certified, under $20</span>
+      </h2>
+    </div>
+    <p>NOW Foods has been producing quality supplements since 1968 and their magnesium glycinate delivers solid performance at an accessible price. Each capsule provides 100mg elemental magnesium in the bisglycinate form, manufactured in NOW's own GMP-certified facilities. NOW is one of the few supplement brands to consistently pass independent testing by organizations like ConsumerLab and USP. For someone starting magnesium supplementation who wants to verify effectiveness before committing to premium brands, the NOW Foods offering is a responsible, low-cost entry point with a brand that has demonstrated quality control over decades.</p>
+    <div class="specs-row">
+      <span class="spec-chip"><strong>Form:</strong> Capsule</span>
+      <span class="spec-chip"><strong>Elemental Mg per capsule:</strong> 100mg</span>
+      <span class="spec-chip"><strong>Capsules per container:</strong> 180</span>
+      <span class="spec-chip"><strong>Manufacturing:</strong> GMP certified facility</span>
+      <span class="spec-chip"><strong>Price range:</strong> Under $20</span>
+    </div>
+    <div class="pros-cons">
+      <div class="pros">
+        <h4>Pros</h4>
+        <ul>
+          <li>Excellent price for 180 capsules</li>
+          <li>GMP certified NOW Foods facility</li>
+          <li>Consistently passes independent testing</li>
+          <li>Good entry-point for testing efficacy</li>
+          <li>Widely available — Prime eligible</li>
+        </ul>
+      </div>
+      <div class="cons">
+        <h4>Cons</h4>
+        <ul>
+          <li>100mg per capsule — need 2-4 for therapeutic dose</li>
+          <li>Contains some flow agents not in premium brands</li>
+          <li>Not NSF or USP individually certified</li>
+        </ul>
+      </div>
+    </div>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=NOW+Foods+magnesium+glycinate+capsules&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+  </div>
+
+  <!-- SCIENCE BOX -->
+  <div class="science-box" id="science">
+    <h3>How Magnesium Glycinate Improves Sleep — The Dual Mechanism</h3>
+    <p><strong>Magnesium's role:</strong> Magnesium is a cofactor in over 300 enzymatic reactions and acts as a natural calcium channel blocker in neurons. It binds to and activates GABA-A receptors — the primary inhibitory receptors in the brain — and simultaneously blocks NMDA glutamate receptors, which are excitatory. The net effect is reduced neuronal excitability, lower cortisol production, and activation of the parasympathetic nervous system. Deficiency (which affects an estimated 50-80% of adults in developed countries) is associated with hyperarousal, insomnia, and fragmented sleep.</p>
+    <p style="margin-top:12px"><strong>Glycine's independent role:</strong> Glycine, the amino acid component of magnesium glycinate, has been studied as a sleep aid in its own right. In a 2012 randomized controlled trial published in <em>Sleep and Biological Rhythms</em>, glycine (3g) taken before bed significantly reduced time to sleep onset, improved sleep efficiency, and reduced daytime fatigue. The mechanism is partly thermoregulatory — glycine stimulates peripheral vasodilation, accelerating heat dissipation and lowering core body temperature, which is necessary for sleep initiation. Glycine also potentiates glycinergic inhibitory neurotransmission in the spinal cord, contributing to muscle relaxation.</p>
+    <p style="margin-top:12px"><strong>Combined benefit:</strong> Magnesium glycinate delivers both mechanisms simultaneously, making it pharmacologically distinct from magnesium citrate, oxide, or malate — none of which carry the glycine sleep benefit.</p>
+  </div>
+
+  <!-- BUYING GUIDE -->
+  <div class="buying-guide" id="guide">
+    <h2>Buying Guide: What to Check Before You Buy</h2>
+    <div class="guide-item">
+      <h3>Elemental Magnesium Content — The Number That Matters</h3>
+      <p>Labels show the total compound weight (e.g., 400mg magnesium glycinate) but the therapeutic dose is determined by elemental magnesium content. A 400mg glycinate capsule typically contains only 40-60mg elemental magnesium. Target 200-400mg elemental magnesium per day for sleep benefit. Always read the "elemental magnesium" line in the supplement facts panel.</p>
+    </div>
+    <div class="guide-item">
+      <h3>Third-Party Testing</h3>
+      <p>NSF Certified for Sport, USP Verified, or Informed Sport certification means an independent lab has verified that the product contains what the label claims, at the stated amounts, without contaminants or undisclosed ingredients. Prioritize brands with one of these marks, especially for long-term daily use.</p>
+    </div>
+    <div class="guide-item">
+      <h3>Form: Powder vs. Capsule vs. Tablet</h3>
+      <p>Powder absorbs fastest and allows precise dosing but requires mixing. Capsules are convenient for travel and bedside. Tablets are often more economical but absorb slower and are harder to split accurately. For sleep specifically, powder taken 30-60 minutes before bed in warm water creates the fastest onset and a useful pre-sleep ritual.</p>
+    </div>
+    <div class="guide-item">
+      <h3>When to Take It</h3>
+      <p>Divide your dose: half with dinner, half 30-60 minutes before bed. Taking the full dose at once on an empty stomach increases the chance of loose stools even with glycinate. The dinner dose begins raising magnesium levels through the evening; the bedtime dose is timed for sleep onset.</p>
+    </div>
+    <div class="guide-item">
+      <h3>Magnesium Glycinate vs. Other Sleep Supplements</h3>
+      <p>Magnesium glycinate is not a sedative — it normalizes sleep by correcting a deficiency and supporting natural sleep physiology. It pairs well with glycine (additional 1-3g), L-theanine, or low-dose melatonin. It does not cause grogginess and is safe to take nightly long-term, unlike sedative herbs or prescription sleep aids.</p>
+    </div>
+  </div>
+
+  <!-- FAQ -->
+  <div class="faq" id="faq">
+    <h2>Frequently Asked Questions</h2>
+    <div class="faq-item">
+      <h3>Why is magnesium glycinate better for sleep than other forms?</h3>
+      <p>Both magnesium and glycine independently support sleep through different mechanisms. Magnesium activates GABA receptors and reduces cortisol. Glycine lowers core body temperature via vasodilation and acts as an inhibitory neurotransmitter. Combined, they deliver dual-pathway sleep support that other magnesium forms don't provide.</p>
+    </div>
+    <div class="faq-item">
+      <h3>What is the right dosage for sleep?</h3>
+      <p>Target 200-400mg elemental magnesium daily. Check the supplement facts for elemental content — not the compound weight. Split between dinner and bedtime for best tolerance and effect.</p>
+    </div>
+    <div class="faq-item">
+      <h3>How long does it take to work?</h3>
+      <p>Some people notice improvement within 1-2 weeks as serum magnesium rises. Cellular repletion takes 4-6 weeks of consistent use. Evaluate effectiveness after 6-8 weeks of daily use.</p>
+    </div>
+    <div class="faq-item">
+      <h3>Can you take magnesium glycinate every night?</h3>
+      <p>Yes. It is safe for long-term daily use. Unlike melatonin, there is no evidence of tolerance or receptor downregulation. Kidneys excrete excess magnesium, making toxicity rare except in people with severe kidney disease.</p>
+    </div>
+    <div class="faq-item">
+      <h3>What is the difference between magnesium glycinate and bisglycinate?</h3>
+      <p>They are the same compound. Bisglycinate specifies that two glycine molecules are chelated to each magnesium ion. Some brands use glycinate, others bisglycinate — both terms describe the same high-bioavailability form. Focus on the elemental magnesium content, not the naming convention.</p>
+    </div>
+  </div>
+
+  <!-- VERDICT -->
+  <div class="verdict-box">
+    <h2>Our Bottom Line</h2>
+    <p>For most adults, <strong>Thorne Magnesium Bisglycinate</strong> is the cleanest, most rigorously tested option available — NSF certified, zero fillers, 200mg elemental magnesium per serving. Sensitive stomachs should go with <strong>Pure Encapsulations</strong>. Tightest budget: <strong>Doctor's Best</strong> uses the same TRAACS chelate as clinical brands at a fraction of the price. If you want a pre-sleep drink ritual, <strong>Natural Vitality CALM Glycinate</strong> is the enjoyable choice.</p>
+    <p style="margin-top:12px">Expect 4-8 weeks before evaluating full effectiveness. The most common mistake is stopping too early or using a form (oxide, citrate) that causes GI issues before seeing sleep benefits.</p>
+  </div>
+
+  <p style="text-align:center;margin-top:20px"><a href="/posts/index.html" style="color:var(--muted);font-size:.9rem">&larr; Browse All Supplement Reviews</a></p>
+</div>
+
+<footer>
+  <p>&copy; 2026 SleepWise Reviews &mdash; <a href="/privacy.html">Privacy Policy</a> &middot; <a href="/disclaimer.html">Disclaimer</a></p>
+  <p style="margin-top:8px">Amazon affiliate links: as an Amazon Associate we earn from qualifying purchases.</p>
+</footer>
+</body>
+</html>'''
+
+out_path = os.path.join(os.path.dirname(__file__), 'posts', 'best-magnesium-glycinate-sleep.html')
+with open(out_path, 'w', encoding='utf-8') as f:
+    f.write(html)
+print(f'Written: {out_path}')
