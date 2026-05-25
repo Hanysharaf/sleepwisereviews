@@ -1,0 +1,360 @@
+"""Generate posts/best-pregnenolone-sleep.html"""
+import os
+
+OUT = os.path.join(os.path.dirname(__file__), 'posts', 'best-pregnenolone-sleep.html')
+
+html = '''<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Best Pregnenolone Supplements for Sleep 2026 | SleepWise Reviews</title>
+  <meta name="description" content="The 7 best pregnenolone supplements for sleep 2026 -- the master hormone precursor that restores DHEA, progesterone, and cortisol balance for deeper rest." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://sleepwisereviews.com/posts/best-pregnenolone-sleep.html" />
+  <meta property="og:title" content="Best Pregnenolone Supplements for Sleep 2026 | SleepWise Reviews" />
+  <meta property="og:description" content="7 best pregnenolone supplements for hormone-related sleep disruption -- dosing, science, and expert picks." />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://sleepwisereviews.com/posts/best-pregnenolone-sleep.html" />
+  <meta property="og:image" content="https://sleepwisereviews.com/images/og-default.png" />
+  <meta property="og:site_name" content="SleepWise Reviews" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Best Pregnenolone Supplements for Sleep 2026 | SleepWise Reviews" />
+  <meta name="twitter:description" content="7 best pregnenolone supplements for sleep -- the master hormone for REM and deep sleep restoration." />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Article",
+        "headline": "Best Pregnenolone Supplements for Sleep 2026",
+        "description": "The 7 best pregnenolone supplements for hormone-related sleep disruption.",
+        "url": "https://sleepwisereviews.com/posts/best-pregnenolone-sleep.html",
+        "datePublished": "2026-05-25",
+        "dateModified": "2026-05-25",
+        "author": {"@type": "Organization", "name": "SleepWise Reviews"},
+        "publisher": {"@type": "Organization", "name": "SleepWise Reviews", "url": "https://sleepwisereviews.com/"}
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://sleepwisereviews.com/"},
+          {"@type": "ListItem", "position": 2, "name": "All Guides", "item": "https://sleepwisereviews.com/posts/"},
+          {"@type": "ListItem", "position": 3, "name": "Best Pregnenolone Supplements for Sleep 2026", "item": "https://sleepwisereviews.com/posts/best-pregnenolone-sleep.html"}
+        ]
+      },
+      {
+        "@type": "ItemList",
+        "name": "Best Pregnenolone Supplements for Sleep 2026",
+        "itemListElement": [
+          {"@type": "ListItem", "position": 1, "name": "Life Extension Pregnenolone 100mg"},
+          {"@type": "ListItem", "position": 2, "name": "Thorne Pregnenolone"},
+          {"@type": "ListItem", "position": 3, "name": "Pure Encapsulations Pregnenolone"},
+          {"@type": "ListItem", "position": 4, "name": "Seeking Health Pregnenolone"},
+          {"@type": "ListItem", "position": 5, "name": "NOW Foods Pregnenolone 10mg"},
+          {"@type": "ListItem", "position": 6, "name": "Douglas Laboratories Pregnenolone"},
+          {"@type": "ListItem", "position": 7, "name": "Designs for Health Pregnenolone"}
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Does pregnenolone improve sleep?",
+            "acceptedAnswer": {"@type": "Answer", "text": "Pregnenolone directly modulates GABA-A receptors and has been shown to increase slow-wave (deep) sleep and REM sleep in research settings. As the precursor to all steroid hormones including DHEA, cortisol, and progesterone, pregnenolone decline with age can disrupt hormonal balance that regulates sleep architecture."}
+          },
+          {
+            "@type": "Question",
+            "name": "What is the best dose of pregnenolone for sleep?",
+            "acceptedAnswer": {"@type": "Answer", "text": "Research uses doses from 10mg to 500mg. For sleep, most practitioners recommend starting at 10-25mg taken in the morning (not at bedtime, as it can be stimulating for some). Some people respond well to 50-100mg. Because pregnenolone affects multiple hormone pathways, it is advisable to start low and adjust. Blood testing before and after is recommended."}
+          },
+          {
+            "@type": "Question",
+            "name": "Should pregnenolone be taken at night or morning?",
+            "acceptedAnswer": {"@type": "Answer", "text": "Morning is generally recommended. Pregnenolone can be stimulating for some individuals, particularly at higher doses, because it converts to cortisol and other activating hormones. Taking it in the morning aligns with the natural cortisol awakening response and avoids potential stimulating effects at bedtime. Individual responses vary -- some people sleep better with evening doses."}
+          },
+          {
+            "@type": "Question",
+            "name": "Is pregnenolone safe?",
+            "acceptedAnswer": {"@type": "Answer", "text": "Pregnenolone is generally well-tolerated at low to moderate doses (10-50mg). It is a naturally occurring hormone produced in the body. However, because it influences the entire steroid hormone cascade, it should be used with medical supervision, particularly in those with hormone-sensitive conditions, on hormone therapies, or with adrenal or thyroid disorders."}
+          },
+          {
+            "@type": "Question",
+            "name": "How does pregnenolone compare to DHEA for sleep?",
+            "acceptedAnswer": {"@type": "Answer", "text": "Pregnenolone is the upstream precursor to DHEA -- it converts to DHEA, which then converts to sex hormones. Pregnenolone has more direct neurological effects including GABA-A modulation. DHEA more directly affects sex hormone levels and energy. For sleep specifically, pregnenolone may have a more direct mechanism through GABA modulation, while DHEA primarily helps through improving hormonal balance in those deficient."}
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+  <style>
+    :root {
+      --bg: #0a1628; --card: #111e33; --gold: #c9a84c;
+      --text: #e8e0d0; --muted: #8899aa; --border: rgba(201,168,76,0.15);
+      --green: #4caf82; --red: #e05c5c;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { background: var(--bg); color: var(--text); font-family: Georgia, serif; line-height: 1.75; }
+    header { background: var(--card); border-bottom: 1px solid var(--border); padding: 1rem 2rem; display: flex; align-items: center; justify-content: space-between; }
+    .logo { color: var(--gold); text-decoration: none; font-size: 1.3rem; font-weight: 700; }
+    .logo span { color: var(--text); }
+    main { max-width: 860px; margin: 0 auto; padding: 3rem 1.5rem; }
+    h1 { font-size: 2.1rem; color: var(--gold); margin-bottom: 0.5rem; }
+    .meta { color: var(--muted); font-size: 0.9rem; margin-bottom: 2rem; }
+    h2 { font-size: 1.4rem; color: var(--gold); margin: 2.5rem 0 1rem; border-bottom: 1px solid var(--border); padding-bottom: 0.4rem; }
+    h3 { font-size: 1.15rem; color: var(--text); margin: 1.5rem 0 0.5rem; }
+    p { margin-bottom: 1rem; }
+    .product-card { background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 1.5rem; margin-bottom: 1.5rem; }
+    .product-card .rank { color: var(--muted); font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 0.3rem; }
+    .product-card h3 { margin-top: 0; color: var(--gold); font-size: 1.1rem; }
+    .badge { display: inline-block; background: rgba(201,168,76,0.15); color: var(--gold); font-size: 0.75rem; padding: 0.2rem 0.6rem; border-radius: 20px; margin-bottom: 0.75rem; font-family: sans-serif; }
+    .specs { display: flex; flex-wrap: wrap; gap: 0.5rem; margin: 0.75rem 0; }
+    .spec-chip { background: rgba(255,255,255,0.05); border: 1px solid var(--border); border-radius: 20px; padding: 0.25rem 0.7rem; font-size: 0.8rem; font-family: sans-serif; color: var(--muted); }
+    .pros-cons { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin: 1rem 0; }
+    .pros, .cons { background: rgba(255,255,255,0.03); border-radius: 8px; padding: 0.75rem 1rem; }
+    .pros h4 { color: var(--green); font-size: 0.85rem; margin-bottom: 0.5rem; }
+    .cons h4 { color: var(--red); font-size: 0.85rem; margin-bottom: 0.5rem; }
+    .pros ul, .cons ul { list-style: none; font-size: 0.88rem; }
+    .pros li::before { content: "✓ "; color: var(--green); }
+    .cons li::before { content: "✗ "; color: var(--red); }
+    .pros li, .cons li { margin-bottom: 0.3rem; }
+    .cta-btn { display: inline-block; background: var(--gold); color: #0a1628; padding: 0.6rem 1.4rem; border-radius: 6px; text-decoration: none; font-weight: 700; font-size: 0.9rem; margin-top: 0.75rem; font-family: sans-serif; }
+    .cta-btn:hover { opacity: 0.9; }
+    .science-box { background: rgba(201,168,76,0.07); border-left: 3px solid var(--gold); border-radius: 6px; padding: 1rem 1.25rem; margin: 1.5rem 0; font-size: 0.92rem; }
+    .science-box strong { color: var(--gold); }
+    .warning-box { background: rgba(224,92,92,0.08); border-left: 3px solid var(--red); border-radius: 6px; padding: 1rem 1.25rem; margin: 1.5rem 0; font-size: 0.92rem; }
+    .warning-box strong { color: var(--red); }
+    table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; font-size: 0.88rem; font-family: sans-serif; }
+    th { background: rgba(201,168,76,0.12); color: var(--gold); padding: 0.6rem 0.8rem; text-align: left; }
+    td { padding: 0.55rem 0.8rem; border-bottom: 1px solid var(--border); color: var(--text); }
+    tr:hover td { background: rgba(255,255,255,0.02); }
+    .faq-item { margin-bottom: 1.25rem; }
+    .faq-item h3 { color: var(--gold); font-size: 1rem; margin-bottom: 0.4rem; }
+    footer { text-align: center; padding: 2rem; color: var(--muted); font-size: 0.85rem; border-top: 1px solid var(--border); }
+    footer a { color: var(--gold); }
+    .breadcrumb { font-size: 0.85rem; color: var(--muted); margin-bottom: 1.5rem; font-family: sans-serif; }
+    .breadcrumb a { color: var(--muted); text-decoration: none; }
+    .breadcrumb a:hover { color: var(--gold); }
+    @media (max-width: 600px) { .pros-cons { grid-template-columns: 1fr; } h1 { font-size: 1.6rem; } }
+  </style>
+</head>
+<body>
+  <header>
+    <a class="logo" href="../">SleepWise<span>Reviews</span></a>
+    <a href="../posts/" style="color:var(--muted);font-size:0.9rem;text-decoration:none;">All Guides</a>
+  </header>
+  <main>
+    <div class="breadcrumb"><a href="../">Home</a> &rsaquo; <a href="../posts/">All Guides</a> &rsaquo; Best Pregnenolone Supplements for Sleep</div>
+    <h1>Best Pregnenolone Supplements for Sleep 2026</h1>
+    <p class="meta">Updated May 2026 &middot; 7 picks &middot; Supplements</p>
+
+    <p>Pregnenolone is the master precursor hormone -- the raw material from which your body synthesizes DHEA, cortisol, progesterone, testosterone, and estrogen. Beyond its role as a hormonal building block, pregnenolone functions as a neurosteroid that directly modulates GABA-A receptors, increasing slow-wave sleep and REM sleep in research settings. Pregnenolone levels peak in your 20s and decline steadily with age; by 75, levels can be 60% lower than youthful peaks. This decline is increasingly recognized as a contributor to the fragmented sleep, reduced deep sleep, and early morning awakening patterns common in older adults.</p>
+
+    <div class="warning-box">
+      <strong>Medical guidance recommended:</strong> Pregnenolone modulates the entire steroid hormone cascade. While sold over-the-counter and generally well-tolerated at low doses, consult a doctor before starting -- especially if you have hormone-sensitive conditions, take hormone therapies, or have adrenal or thyroid disorders. Blood testing before and after is advisable.
+    </div>
+
+    <div class="science-box">
+      <strong>Neurosteroid GABA-A activity:</strong> Pregnenolone sulfate (the sulfated form active in the brain) directly binds GABA-A receptors and acts as a positive allosteric modulator -- the same mechanism as many sleep medications, but without dependency risk. Research by Majewska et al. demonstrated this in 1988, and subsequent studies have confirmed the connection between pregnenolone levels and slow-wave sleep architecture.
+    </div>
+
+    <h2>The 7 Best Pregnenolone Supplements</h2>
+
+    <!-- Product 1 -->
+    <div class="product-card">
+      <div class="rank">#1 Best Overall</div>
+      <h3>Life Extension Pregnenolone 100mg</h3>
+      <span class="badge">100mg &bull; 60 years research focus &bull; Third-party tested</span>
+      <p>Life Extension has been researching pregnenolone for over 30 years and produces one of the most studied formulations available. Their 100mg capsule uses a pharmaceutical-grade pregnenolone in an oil base for improved absorption. Life Extension conducts rigorous third-party testing and publishes detailed certificates of analysis. The 100mg dose is in the mid-range studied for sleep and cognitive benefits. Start at 10-25mg and work up; many users find their effective dose below 100mg. Life Extension also provides detailed prescriber-grade protocols for pregnenolone optimization on their website.</p>
+      <div class="specs">
+        <span class="spec-chip">100mg per capsule</span>
+        <span class="spec-chip">Oil-base for absorption</span>
+        <span class="spec-chip">Third-party tested</span>
+        <span class="spec-chip">Non-GMO</span>
+        <span class="spec-chip">60-count bottle</span>
+      </div>
+      <div class="pros-cons">
+        <div class="pros"><h4>Pros</h4><ul><li>Trusted brand with 30+ years pregnenolone research</li><li>Oil-base improves absorption</li><li>Rigorous third-party testing</li><li>Detailed supporting research available</li><li>Capsule format allows easy dose splitting</li></ul></div>
+        <div class="cons"><h4>Cons</h4><ul><li>100mg may be too high to start</li><li>Cannot halve dose without capsule splitting</li><li>Premium price point</li></ul></div>
+      </div>
+      <a href="https://www.amazon.com/s?k=Life+Extension+Pregnenolone+100mg&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank" class="cta-btn">Check Price on Amazon</a>
+    </div>
+
+    <!-- Product 2 -->
+    <div class="product-card">
+      <div class="rank">#2 Best Purity and QA</div>
+      <h3>Thorne Pregnenolone 5mg</h3>
+      <span class="badge">5mg micro-dose &bull; NSF Certified &bull; Practitioner grade</span>
+      <p>Thorne Research is the gold standard for practitioner-grade supplements, and their 5mg pregnenolone is the ideal starting dose for anyone new to this hormone. The micro-dose format allows precise titration -- start at 5mg, stay there for 2 weeks, then increase by 5mg increments until you reach your effective dose. NSF Certified for Sport means every batch is tested by an independent laboratory for contaminants and label accuracy. Thorne's production facility is regularly audited and meets pharmaceutical-grade manufacturing standards. Particularly appropriate for those who are hormone-sensitive or working with a doctor.</p>
+      <div class="specs">
+        <span class="spec-chip">5mg per capsule</span>
+        <span class="spec-chip">NSF Certified for Sport</span>
+        <span class="spec-chip">Practitioner grade</span>
+        <span class="spec-chip">No fillers</span>
+        <span class="spec-chip">Precise titration dose</span>
+      </div>
+      <div class="pros-cons">
+        <div class="pros"><h4>Pros</h4><ul><li>Lowest dose for precise starting titration</li><li>NSF Certified -- highest supplement standard</li><li>Pharmaceutical-grade manufacturing</li><li>Practitioner endorsed</li><li>Ideal for hormone-sensitive individuals</li></ul></div>
+        <div class="cons"><h4>Cons</h4><ul><li>Multiple capsules needed at higher doses</li><li>Most expensive per mg</li><li>Overkill for users already taking higher doses</li></ul></div>
+      </div>
+      <a href="https://www.amazon.com/s?k=Thorne+Pregnenolone+5mg&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank" class="cta-btn">Check Price on Amazon</a>
+    </div>
+
+    <!-- Product 3 -->
+    <div class="product-card">
+      <div class="rank">#3 Best Hypoallergenic Formula</div>
+      <h3>Pure Encapsulations Pregnenolone 10mg</h3>
+      <span class="badge">10mg &bull; Hypoallergenic &bull; Free of common allergens</span>
+      <p>Pure Encapsulations is the specialist in hypoallergenic supplements -- every product is free of wheat, gluten, dairy, soy, tree nuts, peanuts, eggs, and artificial colors. Their 10mg pregnenolone is the ideal choice for those with multiple food sensitivities or those following elimination diets. The clean formulation makes it easier to identify any response to the pregnenolone itself without confounding allergen reactions. Pure Encapsulations manufactures in a certified pharmaceutical-grade GMP facility. The 10mg dose allows for easy titration in 10mg increments, which most practitioners find sufficient for sleep benefits.</p>
+      <div class="specs">
+        <span class="spec-chip">10mg per capsule</span>
+        <span class="spec-chip">Hypoallergenic formula</span>
+        <span class="spec-chip">Gluten-free, dairy-free</span>
+        <span class="spec-chip">GMP pharmaceutical grade</span>
+        <span class="spec-chip">Vegetarian capsule</span>
+      </div>
+      <div class="pros-cons">
+        <div class="pros"><h4>Pros</h4><ul><li>Free of all major allergens</li><li>Clean formulation for sensitive individuals</li><li>Pharmaceutical-grade manufacturing</li><li>10mg allows easy titration</li><li>Vegetarian capsule</li></ul></div>
+        <div class="cons"><h4>Cons</h4><ul><li>Premium price</li><li>Multiple capsules needed for higher doses</li><li>Plain packaging -- no extensive product support</li></ul></div>
+      </div>
+      <a href="https://www.amazon.com/s?k=Pure+Encapsulations+Pregnenolone+10mg&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank" class="cta-btn">Check Price on Amazon</a>
+    </div>
+
+    <!-- Product 4 -->
+    <div class="product-card">
+      <div class="rank">#4 Best Sublingual Formula</div>
+      <h3>Seeking Health Pregnenolone 10mg (Sublingual)</h3>
+      <span class="badge">Sublingual &bull; Rapid absorption &bull;10mg</span>
+      <p>Seeking Health, founded by Dr. Ben Lynch (a leading figure in methylation and nutrigenomics), produces a sublingual (under-tongue) pregnenolone that bypasses first-pass liver metabolism for more predictable absorption. Sublingual hormone administration delivers active compound directly to the bloodstream through oral mucosa -- the same approach used in pharmaceutical hormone replacement protocols. The 10mg sublingual dose is equivalent to a higher oral dose in terms of bioavailability. Seeking Health's formulations are designed for practitioners and informed patients; their website provides detailed clinical guidance. Manufactured in a GMP-certified facility.</p>
+      <div class="specs">
+        <span class="spec-chip">Sublingual delivery</span>
+        <span class="spec-chip">10mg per lozenge</span>
+        <span class="spec-chip">Bypasses first-pass metabolism</span>
+        <span class="spec-chip">GMP certified</span>
+        <span class="spec-chip">Dr. Ben Lynch formulation</span>
+      </div>
+      <div class="pros-cons">
+        <div class="pros"><h4>Pros</h4><ul><li>Sublingual for superior bioavailability</li><li>Faster onset than oral capsules</li><li>More predictable absorption</li><li>Clinical-grade formulation philosophy</li><li>No liver first-pass dilution</li></ul></div>
+        <div class="cons"><h4>Cons</h4><ul><li>Lozenge must dissolve completely under tongue</li><li>Cannot eat or drink for 5 min after</li><li>Slightly higher price</li></ul></div>
+      </div>
+      <a href="https://www.amazon.com/s?k=Seeking+Health+Pregnenolone+sublingual&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank" class="cta-btn">Check Price on Amazon</a>
+    </div>
+
+    <!-- Product 5 -->
+    <div class="product-card">
+      <div class="rank">#5 Best Budget Option</div>
+      <h3>NOW Foods Pregnenolone 10mg</h3>
+      <span class="badge">10mg &bull; GMP Certified &bull; Best Value</span>
+      <p>NOW Foods offers reliable pharmaceutical-grade supplements at accessible prices, and their 10mg pregnenolone is no exception. GMP-certified manufacturing and third-party testing provide quality assurance without the premium brand markup. The 90-capsule count at 10mg per capsule makes this the most economical way to titrate pregnenolone systematically over a 3-month period. NOW has been manufacturing supplements since 1968 and maintains consistent quality across their line. The 10mg dose is the most commonly recommended starting point in functional medicine protocols for sleep and cognitive function.</p>
+      <div class="specs">
+        <span class="spec-chip">10mg per capsule</span>
+        <span class="spec-chip">90-count bottle</span>
+        <span class="spec-chip">GMP certified</span>
+        <span class="spec-chip">Since 1968</span>
+        <span class="spec-chip">Best value per capsule</span>
+      </div>
+      <div class="pros-cons">
+        <div class="pros"><h4>Pros</h4><ul><li>Most affordable option for titration</li><li>90-count for 3-month supply</li><li>Trusted brand with 50+ year history</li><li>GMP certified manufacturing</li><li>Widely available</li></ul></div>
+        <div class="cons"><h4>Cons</h4><ul><li>Less testing transparency than Thorne or Pure Encapsulations</li><li>Contains rice flour filler</li><li>Basic formulation without absorption enhancers</li></ul></div>
+      </div>
+      <a href="https://www.amazon.com/s?k=NOW+Foods+Pregnenolone+10mg&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank" class="cta-btn">Check Price on Amazon</a>
+    </div>
+
+    <!-- Product 6 -->
+    <div class="product-card">
+      <div class="rank">#6 Best 50mg Option</div>
+      <h3>Douglas Laboratories Pregnenolone 50mg</h3>
+      <span class="badge">50mg &bull; Professional Distribution &bull; High potency</span>
+      <p>Douglas Laboratories is a practitioner-only brand that has made its products available to consumers online. Their 50mg pregnenolone is the ideal intermediate dose for those who have already titrated past low doses and found 50mg to be their effective level. The formulation uses micronized pregnenolone in an oil suspension for improved absorption compared to simple powder-filled capsules. Douglas Laboratories has a 60-year history supplying licensed healthcare providers and maintains stringent quality standards. The 50mg dose range is where most research on sleep improvement has been conducted.</p>
+      <div class="specs">
+        <span class="spec-chip">50mg per capsule</span>
+        <span class="spec-chip">Micronized in oil base</span>
+        <span class="spec-chip">Practitioner distribution</span>
+        <span class="spec-chip">60+ year history</span>
+        <span class="spec-chip">Improved absorption</span>
+      </div>
+      <div class="pros-cons">
+        <div class="pros"><h4>Pros</h4><ul><li>Research-aligned 50mg dose</li><li>Micronized oil-base for bioavailability</li><li>Practitioner-grade quality standards</li><li>60-year brand track record</li><li>Good for established users</li></ul></div>
+        <div class="cons"><h4>Cons</h4><ul><li>Too high for beginners</li><li>Less accessible than mainstream brands</li><li>Premium price</li></ul></div>
+      </div>
+      <a href="https://www.amazon.com/s?k=Douglas+Laboratories+Pregnenolone+50mg&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank" class="cta-btn">Check Price on Amazon</a>
+    </div>
+
+    <!-- Product 7 -->
+    <div class="product-card">
+      <div class="rank">#7 Best Combination Formula</div>
+      <h3>Designs for Health Pregnenolone + DHEA</h3>
+      <span class="badge">Pregnenolone + DHEA &bull; Synergistic &bull; Practitioner grade</span>
+      <p>Designs for Health produces a combination pregnenolone and DHEA formula that addresses both the upstream precursor and its primary downstream metabolite simultaneously. Since DHEA is the most abundant steroid hormone in youth (declining sharply after 30), combining both supports the steroid hormone cascade at two points. This is particularly relevant for sleep in older adults where both pregnenolone and DHEA have declined significantly. Designs for Health products are exclusively distributed through licensed healthcare practitioners but are available online. The formula is manufactured in an NSF-audited facility.</p>
+      <div class="specs">
+        <span class="spec-chip">Pregnenolone + DHEA</span>
+        <span class="spec-chip">NSF-audited facility</span>
+        <span class="spec-chip">Practitioner grade</span>
+        <span class="spec-chip">Dual hormone support</span>
+        <span class="spec-chip">Combined cascade approach</span>
+      </div>
+      <div class="pros-cons">
+        <div class="pros"><h4>Pros</h4><ul><li>Targets two levels of the steroid cascade</li><li>Convenient single capsule</li><li>Practitioner-grade facility</li><li>Synergistic approach for older adults</li><li>NSF-audited quality</li></ul></div>
+        <div class="cons"><h4>Cons</h4><ul><li>DHEA not appropriate for everyone</li><li>Cannot adjust compounds independently</li><li>Requires more caution for hormone-sensitive conditions</li></ul></div>
+      </div>
+      <a href="https://www.amazon.com/s?k=Designs+for+Health+Pregnenolone+DHEA&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank" class="cta-btn">Check Price on Amazon</a>
+    </div>
+
+    <h2>The Science: Pregnenolone and Sleep Architecture</h2>
+
+    <div class="science-box">
+      <strong>GABA-A modulation (Majewska et al., 1988):</strong> Pregnenolone sulfate was identified as a positive allosteric modulator of GABA-A receptors in landmark research by Majewska and colleagues. This mechanism directly increases chloride channel conductance, reducing neuronal excitability -- the same fundamental process targeted by benzodiazepines, barbiturates, and alcohol, but without receptor downregulation or dependency.
+    </div>
+
+    <div class="science-box">
+      <strong>Slow-wave sleep increase (Friess et al., 2004):</strong> A double-blind crossover study found that pregnenolone administration significantly increased slow-wave sleep (SWS) duration compared to placebo. SWS is the most restorative sleep stage, associated with memory consolidation, growth hormone release, and immune function. Decline in SWS is a primary complaint in adults over 50 -- the same demographic most affected by pregnenolone decline.
+    </div>
+
+    <div class="science-box">
+      <strong>Age-related decline:</strong> Pregnenolone is synthesized primarily in the adrenal glands, brain, and gonads from cholesterol via the enzyme cytochrome P450scc. Production peaks in the 20s and declines approximately 60% by age 75. This decline cascades through the entire steroid hormone axis, reducing DHEA, testosterone, estrogen, and progesterone -- all hormones with documented roles in sleep regulation.
+    </div>
+
+    <h2>Hormone Cascade Map</h2>
+    <table>
+      <thead><tr><th>Hormone</th><th>Converted From</th><th>Sleep Role</th><th>Declines With Age</th></tr></thead>
+      <tbody>
+        <tr><td>Pregnenolone</td><td>Cholesterol</td><td>GABA-A modulation, SWS increase</td><td>~60% by age 75</td></tr>
+        <tr><td>DHEA</td><td>Pregnenolone</td><td>REM sleep support, cortisol balance</td><td>~80% by age 75</td></tr>
+        <tr><td>Progesterone</td><td>Pregnenolone</td><td>GABA-A modulation, sleep onset</td><td>Significant (women)</td></tr>
+        <tr><td>Cortisol</td><td>Pregnenolone</td><td>Circadian rhythm regulation</td><td>Pattern shifts, less decline</td></tr>
+        <tr><td>Testosterone</td><td>DHEA</td><td>Sleep apnea risk, deep sleep</td><td>~1% per year after 30</td></tr>
+        <tr><td>Estradiol</td><td>Testosterone/DHEA</td><td>Hot flashes, sleep continuity</td><td>Significant (menopause)</td></tr>
+      </tbody>
+    </table>
+
+    <h2>Dosing Protocol for Sleep</h2>
+    <p>The following is a general titration guide used by many functional medicine practitioners. Always work with a doctor for personalized guidance:</p>
+    <ul style="list-style:disc;padding-left:1.5rem;margin-bottom:1rem;">
+      <li><strong>Week 1-2:</strong> 5-10mg in the morning with food</li>
+      <li><strong>Week 3-4:</strong> If no adverse effects, increase to 15-25mg</li>
+      <li><strong>Month 2:</strong> Evaluate sleep quality -- if improved, maintain dose</li>
+      <li><strong>Month 3:</strong> Blood test to confirm hormone levels in range</li>
+      <li><strong>Max without supervision:</strong> 50mg daily</li>
+    </ul>
+    <p>Higher doses (100mg+) should only be taken under medical supervision with regular monitoring.</p>
+
+    <h2>Frequently Asked Questions</h2>
+    <div class="faq-item"><h3>Does pregnenolone improve sleep?</h3><p>Research shows it can increase slow-wave sleep and modulate GABA-A receptors. Most benefit is seen in older adults with documented pregnenolone decline. Blood testing can confirm whether supplementation is appropriate for your situation.</p></div>
+    <div class="faq-item"><h3>What is the best dose of pregnenolone for sleep?</h3><p>10-50mg is the evidence range for sleep. Start at 5-10mg and titrate upward over weeks. Some people respond at 10mg; others need 50mg. Blood testing after 8-12 weeks guides dose optimization.</p></div>
+    <div class="faq-item"><h3>Should pregnenolone be taken at night or morning?</h3><p>Morning is generally recommended. At higher doses it can be stimulating due to conversion to activating hormones. Individual responses vary -- track your sleep quality for 2 weeks with each dosing time to determine what works for you.</p></div>
+    <div class="faq-item"><h3>Is pregnenolone safe?</h3><p>Generally well-tolerated at low to moderate doses for healthy adults. Requires caution in hormone-sensitive conditions, on hormone therapies, or with adrenal/thyroid disorders. Medical supervision is advisable especially above 50mg.</p></div>
+    <div class="faq-item"><h3>How does pregnenolone compare to DHEA for sleep?</h3><p>Pregnenolone has more direct neurological effects through GABA-A modulation. DHEA primarily helps through sex hormone balance. For sleep specifically, pregnenolone may have a more direct and faster mechanism; DHEA benefits build more gradually through hormonal cascade effects.</p></div>
+  </main>
+  <footer>
+    <p>&copy; 2025-2026 <a href="../">SleepWise Reviews</a> &middot; Evidence-based sleep guidance &middot; <a href="../posts/">All Guides</a></p>
+    <p style="margin-top:0.5rem;font-size:0.8rem;">Amazon affiliate disclosure: we earn a small commission on qualifying purchases at no extra cost to you.</p>
+  </footer>
+</body>
+</html>'''
+
+os.makedirs(os.path.dirname(OUT), exist_ok=True)
+with open(OUT, 'w', encoding='utf-8') as f:
+    f.write(html)
+print(f'Written: {OUT}')
