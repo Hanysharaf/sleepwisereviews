@@ -164,3 +164,4 @@ Template reference: `sleep-stages-explained.html` (has breadcrumb, likes, TOC, s
 | 157 | wrong-sleeping-in-weekends.html | Wrong: Sleeping In on Weekends. Right: Sleep Consistency Tools That Actually Work | Wrong vs Right | May 2026 |
 | 158 | best-mattresses-couples-2026.html | Best Mattresses for Couples in 2026: Motion Isolation, Noise, and Firmness | Sex & Mattress | May 2026 |
 | 159 | does-sex-before-bed-help-sleep.html | Does Sex Before Bed Actually Help You Sleep? The Science | Sex & Sleep | May 2026 |
+| 160 | sleep-myth-older-people-less-sleep.html | Sleep Myth: Older People Need Less Sleep | Sleep Myths | May 2026 |
