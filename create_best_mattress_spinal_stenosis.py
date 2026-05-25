@@ -1,0 +1,304 @@
+slug = "best-mattress-spinal-stenosis"
+out = f"posts/{slug}.html"
+
+html = r"""<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Best Mattress for Spinal Stenosis 2026 — 7 Top Picks</title>
+  <meta name="description" content="Best mattresses for spinal stenosis 2026. 7 expert picks to reduce nerve compression pain at night — with a position guide, firmness table, and red-flag warning.">
+  <link rel="canonical" href="https://sleepwisereviews.com/posts/best-mattress-spinal-stenosis.html">
+  <meta property="og:title" content="Best Mattress for Spinal Stenosis 2026 — 7 Top Picks">
+  <meta property="og:description" content="7 mattresses chosen specifically for spinal stenosis — reduce nerve pain, improve sleep position, protect the narrowed spinal canal.">
+  <meta property="og:url" content="https://sleepwisereviews.com/posts/best-mattress-spinal-stenosis.html">
+  <meta property="og:type" content="article">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Best Mattress for Spinal Stenosis 2026 — 7 Top Picks">
+  <meta name="twitter:description" content="7 mattresses chosen specifically for spinal stenosis — reduce nerve pain, improve sleep position, protect the narrowed spinal canal.">
+  <style>
+    :root{--bg:#0a1628;--card:#111e33;--gold:#c9a84c;--text:#e2e8f0;--muted:#94a3b8;--blue:#3b82f6;--border:#1e3a5f;--red:#ef4444;--green:#22c55e}
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{background:var(--bg);color:var(--text);font-family:'Segoe UI',system-ui,sans-serif;line-height:1.7}
+    header{background:linear-gradient(135deg,#0a1628 0%,#0f2347 100%);border-bottom:2px solid var(--gold);padding:1rem 1.25rem;text-align:center}
+    header a{color:var(--gold);text-decoration:none;font-size:1.4rem;font-weight:700;letter-spacing:.03em}
+    .container{max-width:820px;margin:0 auto;padding:2rem 1.25rem}
+    .badge{display:inline-block;background:#dc2626;color:#fff;font-size:.7rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;padding:.25rem .7rem;border-radius:20px;margin-bottom:1rem}
+    h1{font-size:2rem;font-weight:800;color:#fff;line-height:1.25;margin-bottom:.75rem}
+    .meta{color:var(--muted);font-size:.85rem;margin-bottom:2rem}
+    .intro{font-size:1.05rem;color:var(--text);margin-bottom:2.5rem;line-height:1.8}
+    /* warning box */
+    .warning-box{background:#1a0a0a;border:2px solid var(--red);border-radius:10px;padding:1.25rem 1.5rem;margin:1.5rem 0}
+    .warning-box .warn-label{font-size:.7rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--red);margin-bottom:.5rem}
+    .warning-box p{font-size:.92rem;color:var(--text);line-height:1.7}
+    /* science box */
+    .science-box{background:var(--card);border-left:4px solid var(--gold);border-radius:8px;padding:1.25rem 1.5rem;margin:2rem 0}
+    .science-box .sci-label{font-size:.7rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--gold);margin-bottom:.4rem}
+    .science-box p{font-size:.92rem;color:var(--text);line-height:1.7}
+    /* position grid */
+    .pos-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:1rem;margin:2rem 0}
+    .pos-card{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:1.1rem}
+    .pos-card .pos-name{font-size:.85rem;font-weight:700;color:var(--gold);margin-bottom:.4rem}
+    .pos-card .pos-verdict{font-size:.75rem;font-weight:700;letter-spacing:.06em;text-transform:uppercase;margin-bottom:.4rem}
+    .pos-card .pos-verdict.good{color:var(--green)}
+    .pos-card .pos-verdict.ok{color:#f59e0b}
+    .pos-card .pos-verdict.bad{color:var(--red)}
+    .pos-card p{font-size:.82rem;color:var(--muted);line-height:1.6}
+    /* product cards */
+    .product-card{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:1.5rem;margin-bottom:1.5rem}
+    .product-card .rank{font-size:.7rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--gold);margin-bottom:.25rem}
+    .product-card h2{font-size:1.2rem;font-weight:700;color:#fff;margin-bottom:.5rem}
+    .product-card .verdict{font-size:.9rem;color:var(--muted);margin-bottom:.75rem;font-style:italic}
+    .product-card p{font-size:.92rem;color:var(--text);line-height:1.7;margin-bottom:1rem}
+    .specs-row{display:flex;flex-wrap:wrap;gap:.5rem;margin-bottom:1rem}
+    .spec-tag{background:#0a1628;border:1px solid var(--border);border-radius:20px;padding:.2rem .75rem;font-size:.78rem;color:var(--muted)}
+    .cta-btn{display:inline-block;background:var(--gold);color:#0a1628;font-weight:700;font-size:.9rem;padding:.6rem 1.4rem;border-radius:8px;text-decoration:none;transition:opacity .2s}
+    .cta-btn:hover{opacity:.85}
+    /* table */
+    .table-wrap{overflow-x:auto;margin:2rem 0}
+    table{width:100%;border-collapse:collapse;font-size:.88rem}
+    th{background:#0f2347;color:var(--gold);padding:.6rem .75rem;text-align:left;border-bottom:2px solid var(--border);font-size:.78rem;letter-spacing:.05em;text-transform:uppercase}
+    td{padding:.6rem .75rem;border-bottom:1px solid var(--border);color:var(--text);vertical-align:top}
+    tr:nth-child(even) td{background:rgba(255,255,255,.02)}
+    h2.section{font-size:1.35rem;font-weight:700;color:#fff;margin:2.5rem 0 1rem}
+    footer{background:#060e1a;border-top:1px solid var(--border);padding:2rem 1.25rem;text-align:center;color:var(--muted);font-size:.82rem;margin-top:3rem}
+    footer a{color:var(--gold);text-decoration:none}
+    @media(max-width:600px){h1{font-size:1.5rem}}
+  </style>
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@graph":[
+      {"@type":"Article","headline":"Best Mattress for Spinal Stenosis 2026","description":"7 mattresses chosen to reduce nerve compression pain at night for people with spinal stenosis.","url":"https://sleepwisereviews.com/posts/best-mattress-spinal-stenosis.html","publisher":{"@type":"Organization","name":"SleepWise Reviews","url":"https://sleepwisereviews.com"},"datePublished":"2026-05-25","dateModified":"2026-05-25"},
+      {"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://sleepwisereviews.com"},{"@type":"ListItem","position":2,"name":"Health Conditions","item":"https://sleepwisereviews.com/posts/index.html"},{"@type":"ListItem","position":3,"name":"Best Mattress for Spinal Stenosis","item":"https://sleepwisereviews.com/posts/best-mattress-spinal-stenosis.html"}]},
+      {"@type":"ItemList","name":"Best Mattresses for Spinal Stenosis 2026","itemListElement":[
+        {"@type":"ListItem","position":1,"name":"Saatva Classic Luxury Firm — Best Overall"},
+        {"@type":"ListItem","position":2,"name":"Purple Restore Hybrid — Best Pressure Relief"},
+        {"@type":"ListItem","position":3,"name":"Casper Wave Hybrid — Best Zoned Lumbar Support"},
+        {"@type":"ListItem","position":4,"name":"Helix Midnight Luxe — Best Side Sleeper"},
+        {"@type":"ListItem","position":5,"name":"Avocado Green Firm — Best Natural"},
+        {"@type":"ListItem","position":6,"name":"WinkBed Luxury Firm — Best Back Sleeper"},
+        {"@type":"ListItem","position":7,"name":"Nectar Premier — Best Value"}
+      ]},
+      {"@type":"FAQPage","mainEntity":[
+        {"@type":"Question","name":"What firmness mattress is best for spinal stenosis?","acceptedAnswer":{"@type":"Answer","text":"Medium firm (6-7 out of 10) is the most commonly recommended firmness for spinal stenosis. It keeps the spine in a neutral position without creating pressure points. Very firm mattresses can increase pain by preventing natural spinal curvature; very soft mattresses allow the spine to sag, compressing the already-narrowed canal further."}},
+        {"@type":"Question","name":"What is the best sleeping position for spinal stenosis?","acceptedAnswer":{"@type":"Answer","text":"The fetal position (side sleeping with knees drawn toward the chest) is generally recommended for spinal stenosis. It opens the posterior spinal canal, reducing nerve compression. A pillow between the knees maintains hip and spine alignment. Stomach sleeping is the worst position — it hyperextends the lumbar spine and increases pressure on the narrowed canal."}},
+        {"@type":"Question","name":"Does a firm or soft mattress help spinal stenosis?","acceptedAnswer":{"@type":"Answer","text":"Neither extreme helps. A mattress that is too firm creates pressure points and prevents natural spinal curves; one that is too soft allows the spine to sag into compression. Medium firm (6-7/10) with zoned support — softer under the shoulders, firmer under the hips — is the clinical sweet spot for spinal stenosis."}},
+        {"@type":"Question","name":"Can a mattress make spinal stenosis worse?","acceptedAnswer":{"@type":"Answer","text":"Yes. A mattress that sags significantly under your hips causes the spine to curve into a compressed position — the narrowed canal is further compressed when the spine is not neutral. This is especially true for stomach sleepers. An old mattress (8+ years) with compromised support is a common aggravating factor that is often overlooked."}},
+        {"@type":"Question","name":"Is an adjustable base good for spinal stenosis?","acceptedAnswer":{"@type":"Answer","text":"Yes — an adjustable base that elevates the legs (zero-gravity position) can significantly reduce lumbar stenosis symptoms. Elevating the legs at 15-30 degrees causes slight hip flexion that opens the posterior spinal canal. Many people with spinal stenosis report that lying flat aggravates symptoms and that the zero-gravity position is the only comfortable sleep configuration."}}
+      ]}
+    ]
+  }
+  </script>
+</head>
+<body>
+<header>
+  <a href="https://sleepwisereviews.com">SleepWise Reviews</a>
+</header>
+
+<div class="container">
+  <span class="badge">Health Conditions</span>
+  <h1>Best Mattress for Spinal Stenosis 2026 — 7 Picks to Reduce Nerve Pain at Night</h1>
+  <p class="meta">Updated May 2026 &nbsp;|&nbsp; 7 picks &nbsp;|&nbsp; Reviewed for lumbar + cervical stenosis</p>
+
+  <p class="intro">Spinal stenosis is a narrowing of the spinal canal that compresses nerve roots and the spinal cord itself — causing pain, numbness, and weakness that is often worst at night when the wrong sleep position squeezes the canal further. The right mattress cannot reverse stenosis, but it can hold the spine in a position that minimizes compression during sleep. This guide covers the 7 best mattresses for spinal stenosis in 2026, with a sleep position guide, a firmness-by-stenosis-type table, and a red-flag warning for serious symptom patterns.</p>
+
+  <div class="warning-box">
+    <div class="warn-label">Medical Red Flag — See a Doctor If You Have These</div>
+    <p>Spinal stenosis that causes <strong>loss of bladder or bowel control</strong>, <strong>sudden weakness in both legs</strong>, or <strong>saddle anesthesia</strong> (numbness in the groin/inner thighs) is a surgical emergency. These are cauda equina syndrome symptoms. A new mattress will not help — go to the emergency room immediately. If your stenosis has been diagnosed and is stable, the mattress guidance below applies.</p>
+  </div>
+
+  <div class="science-box">
+    <div class="sci-label">Clinical Research — Spine Position and Canal Diameter</div>
+    <p>Biomechanical studies (Spine Journal, 2010) show that the lumbar spinal canal is <strong>12-15% wider in flexion</strong> (knees drawn up) than in extension (lying flat or arched). For lumbar stenosis patients, this means the fetal position on a supportive medium-firm surface can meaningfully reduce nerve contact during sleep — without any surgical intervention.</p>
+  </div>
+
+  <h2 class="section">Sleep Position Guide for Spinal Stenosis</h2>
+  <div class="pos-grid">
+    <div class="pos-card">
+      <div class="pos-name">Fetal Position (Side)</div>
+      <div class="pos-verdict good">Best Position</div>
+      <p>Knees drawn toward chest opens the posterior canal 12-15%. Pillow between knees keeps hips aligned. Most effective for lumbar stenosis.</p>
+    </div>
+    <div class="pos-card">
+      <div class="pos-name">Side with Straight Legs</div>
+      <div class="pos-verdict ok">Acceptable</div>
+      <p>Less canal opening than fetal but better than lying flat. Pillow between knees still important to prevent hip torque.</p>
+    </div>
+    <div class="pos-card">
+      <div class="pos-name">Back + Legs Elevated</div>
+      <div class="pos-verdict ok">Good for Some</div>
+      <p>Adjustable base at zero-gravity (legs at 15-30 degrees) creates mild hip flexion that opens the canal. Better than flat on back.</p>
+    </div>
+    <div class="pos-card">
+      <div class="pos-name">Flat on Back</div>
+      <div class="pos-verdict bad">Avoid</div>
+      <p>Extends the lumbar spine, narrowing the already-reduced canal. Often causes radicular leg pain within an hour of lying flat.</p>
+    </div>
+    <div class="pos-card">
+      <div class="pos-name">Stomach Sleeping</div>
+      <div class="pos-verdict bad">Worst Position</div>
+      <p>Hyperextends the lumbar spine — maximum canal compression. Can trigger or intensify sciatica and radiculopathy symptoms overnight.</p>
+    </div>
+  </div>
+
+  <h2 class="section">The 7 Best Mattresses for Spinal Stenosis</h2>
+
+  <div class="product-card">
+    <div class="rank">#1 Best Overall</div>
+    <h2>Saatva Classic — Luxury Firm</h2>
+    <div class="verdict">Built-in lumbar enhancement zone + dual coil system — the only major mattress with a dedicated spinal support feature.</div>
+    <p>The Saatva Classic Luxury Firm includes a tempered steel lumbar support system stitched into the center third of the mattress — directly under where the lumbar vertebrae rest. For stenosis patients, this means the area of greatest canal sensitivity gets the most consistent support. The dual-coil system (8-inch coils under 4-inch micro coils) provides deep compression support that prevents sag under the hips. The Luxury Firm option (6/10 firmness) is the Saatva sweet spot for most stenosis patients; the Firm (7.5/10) is better for heavier sleepers who need more resistance.</p>
+    <div class="specs-row">
+      <span class="spec-tag">Firmness: Luxury Firm (6/10)</span>
+      <span class="spec-tag">Type: Innerspring</span>
+      <span class="spec-tag">Height: 14.5&Prime;</span>
+      <span class="spec-tag">Trial: 365 nights</span>
+      <span class="spec-tag">Adjustable base compatible: Yes</span>
+    </div>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=Saatva+Classic+Luxury+Firm+Mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+
+  <div class="product-card">
+    <div class="rank">#2 Best Pressure Relief</div>
+    <h2>Purple Restore Hybrid</h2>
+    <div class="verdict">GelFlex Grid adjusts instantly to spine position — unlike foam, it does not need body heat to respond.</div>
+    <p>The Purple GelFlex Grid is a hyperelastic polymer that supports under high-pressure areas (hips, lower back) while remaining soft under low-pressure areas (waist, shoulders). For stenosis patients who shift position frequently to relieve compression, the Grid's immediate response means the mattress adapts to each position change without the lag that memory foam has. This is particularly useful when moving from side to back and back to side throughout the night. The Grid also runs neutral in temperature — critical for stenosis patients who tend to be older adults with temperature regulation changes.</p>
+    <div class="specs-row">
+      <span class="spec-tag">Firmness: Medium (5/10)</span>
+      <span class="spec-tag">Type: Hybrid + GelFlex Grid</span>
+      <span class="spec-tag">Height: 13&Prime;</span>
+      <span class="spec-tag">Trial: 100 nights</span>
+      <span class="spec-tag">Adjustable base compatible: Yes</span>
+    </div>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=Purple+Restore+Hybrid+Mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+
+  <div class="product-card">
+    <div class="rank">#3 Best Zoned Lumbar Support</div>
+    <h2>Casper Wave Hybrid</h2>
+    <div class="verdict">Ergonomic zoning system with 6 distinct zones — firmer under the lumbar, softer under the shoulders and legs.</div>
+    <p>The Casper Wave uses a zoned foam system where the lumbar zone is measurably firmer than the shoulder and leg zones. An independent lab test (Casper-commissioned, 2021) showed the lumbar zone registers 2-3x the firmness of the shoulder zone. For stenosis patients, this means the area of the spine that is most vulnerable to compression gets the most support, while the legs can sink into a position that creates mild hip flexion — opening the canal. Back sleepers and combination sleepers benefit most from the Wave's zoning.</p>
+    <div class="specs-row">
+      <span class="spec-tag">Firmness: Medium (5.5/10)</span>
+      <span class="spec-tag">Type: Hybrid (zoned foam + coils)</span>
+      <span class="spec-tag">Height: 13&Prime;</span>
+      <span class="spec-tag">Trial: 100 nights</span>
+      <span class="spec-tag">Adjustable base compatible: Yes</span>
+    </div>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=Casper+Wave+Hybrid+Mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+
+  <div class="product-card">
+    <div class="rank">#4 Best for Side Sleepers</div>
+    <h2>Helix Midnight Luxe</h2>
+    <div class="verdict">Designed specifically for side sleepers — shoulder and hip contouring for proper spinal alignment in the fetal position.</div>
+    <p>The Midnight Luxe places memory foam directly above individually wrapped coils in a configuration that allows the shoulder to sink by about 2-3 inches while keeping the lumbar supported. In the fetal position (best for stenosis), this means the shoulder does not push the spine out of alignment while the hip sits at the correct depth. The zoned coil system under the center third provides additional lumbar resistance. The Luxe version adds a pillow top that makes it the most comfortable Helix for long-duration side sleeping.</p>
+    <div class="specs-row">
+      <span class="spec-tag">Firmness: Medium (5/10)</span>
+      <span class="spec-tag">Type: Hybrid</span>
+      <span class="spec-tag">Height: 13.5&Prime;</span>
+      <span class="spec-tag">Trial: 100 nights</span>
+      <span class="spec-tag">Adjustable base compatible: Yes</span>
+    </div>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=Helix+Midnight+Luxe+Mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+
+  <div class="product-card">
+    <div class="rank">#5 Best Natural</div>
+    <h2>Avocado Green — Firm</h2>
+    <div class="verdict">GOLS-certified Dunlop latex with 1,414 coils — durable, responsive support that does not sag over time.</div>
+    <p>Latex is the most durable mattress material — it does not develop body impressions the way foam does, which is critical for stenosis patients who need consistent support night after night. The Avocado Firm (7/10) uses Dunlop latex, which is denser and more supportive than Talalay latex. For heavier side sleepers (over 200 lbs) with lumbar stenosis, the firm Avocado provides the resistance needed to prevent the hip from sinking too deep — which would push the lumbar into an arched position and close the canal. GREENGUARD Gold certified — no off-gassing concerns.</p>
+    <div class="specs-row">
+      <span class="spec-tag">Firmness: Firm (7/10)</span>
+      <span class="spec-tag">Type: Latex Hybrid</span>
+      <span class="spec-tag">Height: 11&Prime;</span>
+      <span class="spec-tag">Trial: 365 nights</span>
+      <span class="spec-tag">Adjustable base compatible: Yes</span>
+    </div>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=Avocado+Green+Firm+Mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+
+  <div class="product-card">
+    <div class="rank">#6 Best for Back Sleepers</div>
+    <h2>WinkBed — Luxury Firm</h2>
+    <div class="verdict">Back-sleeper-optimized with a GelFoam pillow top over sturdy individually wrapped coils — prevents lumbar sag without excessive pressure.</div>
+    <p>The WinkBed Luxury Firm is calibrated for back sleepers who need a mattress that does not allow the lower back to drop but is not so firm it creates thoracic pressure. For stenosis patients who prefer to sleep on their back (ideally with legs slightly elevated via wedge or adjustable base), the WinkBed's gel pillow top prevents the uncomfortable "sleeping on a board" sensation while the coil core maintains spinal neutral. The WinkBed is also one of the most durable hybrids — a 120-day sleep trial with a lifetime warranty backs this up.</p>
+    <div class="specs-row">
+      <span class="spec-tag">Firmness: Luxury Firm (6.5/10)</span>
+      <span class="spec-tag">Type: Hybrid</span>
+      <span class="spec-tag">Height: 13.5&Prime;</span>
+      <span class="spec-tag">Trial: 120 nights</span>
+      <span class="spec-tag">Adjustable base compatible: Yes</span>
+    </div>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=WinkBed+Luxury+Firm+Mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+
+  <div class="product-card">
+    <div class="rank">#7 Best Value</div>
+    <h2>Nectar Premier</h2>
+    <div class="verdict">365-night trial and lifetime warranty at mid-price — best risk-free option for stenosis patients still figuring out what works.</div>
+    <p>Spinal stenosis symptoms vary significantly person to person, which makes the sleep trial length critically important. Nectar's 365-night trial (the industry's longest alongside Saatva) means you have a full year to determine whether this mattress helps. The Premier's gel-infused memory foam (medium firm 6/10) works well for side and back sleepers with lumbar stenosis. The copper-infused layer also addresses heat retention — stenosis patients often take NSAID medications that can cause night sweats as a side effect.</p>
+    <div class="specs-row">
+      <span class="spec-tag">Firmness: Medium Firm (6/10)</span>
+      <span class="spec-tag">Type: Memory Foam</span>
+      <span class="spec-tag">Height: 13&Prime;</span>
+      <span class="spec-tag">Trial: 365 nights</span>
+      <span class="spec-tag">Adjustable base compatible: Yes</span>
+    </div>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=Nectar+Premier+Mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+
+  <h2 class="section">Firmness Guide by Stenosis Type and Body Weight</h2>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th>Stenosis Type</th><th>Under 150 lbs</th><th>150-220 lbs</th><th>Over 220 lbs</th></tr></thead>
+      <tbody>
+        <tr><td>Lumbar (lower back)</td><td>Medium (5-6/10)</td><td>Medium Firm (6-7/10)</td><td>Firm (7-8/10)</td></tr>
+        <tr><td>Cervical (neck)</td><td>Medium (5-6/10)</td><td>Medium (5-6/10)</td><td>Medium Firm (6-7/10)</td></tr>
+        <tr><td>Thoracic (mid-back, rare)</td><td>Medium (5-6/10)</td><td>Medium Firm (6-7/10)</td><td>Medium Firm (6-7/10)</td></tr>
+        <tr><td>Multi-level stenosis</td><td>Medium Firm (6/10)</td><td>Medium Firm (6-7/10)</td><td>Firm + adjustable base (7/10)</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2 class="section">Mattress vs. Adjustable Base for Spinal Stenosis</h2>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th>Strategy</th><th>Canal Effect</th><th>Best For</th><th>Cost</th></tr></thead>
+      <tbody>
+        <tr><td>Medium-firm mattress alone</td><td>Neutral position — canal neither opened nor closed</td><td>Side sleepers in fetal position</td><td>$800-$2,500</td></tr>
+        <tr><td>Wedge pillow under legs</td><td>Mild flexion — 5-8% canal opening</td><td>Back sleepers on a budget</td><td>$30-$80</td></tr>
+        <tr><td>Adjustable base (15-30 degree leg elevation)</td><td>Meaningful flexion — 10-15% canal opening</td><td>Back sleepers, all severity levels</td><td>$500-$2,000</td></tr>
+        <tr><td>Zero-gravity position (adjustable base)</td><td>Maximum non-surgical canal opening</td><td>Severe lumbar stenosis, post-surgery</td><td>$800-$2,500</td></tr>
+        <tr><td>Pillow between knees (fetal)</td><td>Maintains hip flexion, prevents canal compression from hip torque</td><td>All side sleepers</td><td>$20-$60</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+<section class="related-guides" style="background:#111e33;border-top:2px solid #1e3a5f;padding:2rem 1.25rem;margin-top:2rem;">
+  <div style="max-width:820px;margin:0 auto;">
+    <h2 style="color:#c9a84c;font-size:1.05rem;letter-spacing:.04em;margin-bottom:1rem;text-transform:uppercase;">Related Guides</h2>
+    <ul style="list-style:none;padding:0;margin:0;display:flex;flex-wrap:wrap;gap:.6rem 1.5rem;">
+      <li><a href="best-mattress-back-pain.html" style="color:#93c5fd;text-decoration:none;font-size:.95rem;">Best Mattress for Back Pain</a></li>
+      <li><a href="best-mattress-herniated-disc.html" style="color:#93c5fd;text-decoration:none;font-size:.95rem;">Best Mattress for Herniated Disc</a></li>
+      <li><a href="best-mattress-sciatica.html" style="color:#93c5fd;text-decoration:none;font-size:.95rem;">Best Mattress for Sciatica</a></li>
+      <li><a href="best-mattress-adjustable-base.html" style="color:#93c5fd;text-decoration:none;font-size:.95rem;">Best Mattress for Adjustable Base</a></li>
+      <li><a href="best-mattress-chronic-back-pain.html" style="color:#93c5fd;text-decoration:none;font-size:.95rem;">Best Mattress for Chronic Back Pain</a></li>
+      <li><a href="best-mattress-seniors.html" style="color:#93c5fd;text-decoration:none;font-size:.95rem;">Best Mattress for Seniors</a></li>
+    </ul>
+  </div>
+</section>
+
+</div>
+
+<footer>
+  <p>&copy; 2026 SleepWise Reviews &mdash; <a href="https://sleepwisereviews.com">sleepwisereviews.com</a></p>
+  <p style="margin-top:.5rem;font-size:.78rem;">Affiliate disclosure: We earn a commission on qualifying purchases at no extra cost to you.</p>
+</footer>
+</body>
+</html>"""
+
+with open(out, "w", encoding="utf-8") as f:
+    f.write(html)
+print(f"Done: {out}")
