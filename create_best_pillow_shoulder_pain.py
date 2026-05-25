@@ -1,0 +1,463 @@
+"""Generate posts/best-pillow-shoulder-pain.html"""
+slug = 'best-pillow-shoulder-pain'
+title = 'Best Pillows for Shoulder Pain (2026): Side Sleeper Relief for Rotator Cuff & Bursitis'
+description = 'Top pillows for shoulder pain that reduce pressure on the rotator cuff, relieve bursitis, and maintain proper shoulder-to-neck alignment. Orthopedic picks for side and back sleepers.'
+
+html = f'''<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{title} | SleepWise Reviews</title>
+  <meta name="description" content="{description}" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://sleepwisereviews.com/posts/{slug}.html" />
+  <meta property="og:title" content="{title}" />
+  <meta property="og:description" content="{description}" />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://sleepwisereviews.com/posts/{slug}.html" />
+  <meta property="og:image" content="https://sleepwisereviews.com/images/og-default.png" />
+  <meta property="og:site_name" content="SleepWise Reviews" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="{title}" />
+  <meta name="twitter:description" content="{description}" />
+  <script type="application/ld+json">
+  {{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "{title}",
+    "description": "{description}",
+    "url": "https://sleepwisereviews.com/posts/{slug}.html",
+    "datePublished": "2026-05-25",
+    "dateModified": "2026-05-25",
+    "author": {{"@type": "Organization", "name": "SleepWise Reviews"}},
+    "publisher": {{"@type": "Organization", "name": "SleepWise Reviews", "url": "https://sleepwisereviews.com/"}}
+  }}
+  </script>
+  <script type="application/ld+json">
+  {{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://sleepwisereviews.com/"}},
+      {{"@type": "ListItem", "position": 2, "name": "Posts", "item": "https://sleepwisereviews.com/posts/"}},
+      {{"@type": "ListItem", "position": 3, "name": "{title}", "item": "https://sleepwisereviews.com/posts/{slug}.html"}}
+    ]
+  }}
+  </script>
+  <script type="application/ld+json">
+  {{
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "{title}",
+    "itemListElement": [
+      {{"@type": "ListItem", "position": 1, "name": "Pillow with Arm Hole — Coisum Orthopedic Pillow"}},
+      {{"@type": "ListItem", "position": 2, "name": "Tempur-Pedic TEMPUR-Cloud Pillow"}},
+      {{"@type": "ListItem", "position": 3, "name": "Coop Home Goods Eden Adjustable"}},
+      {{"@type": "ListItem", "position": 4, "name": "Eli & Elm Side Sleeper Pillow"}},
+      {{"@type": "ListItem", "position": 5, "name": "Sleepgram Pillow"}},
+      {{"@type": "ListItem", "position": 6, "name": "Saatva Pillow (Latex Loft)"}},
+      {{"@type": "ListItem", "position": 7, "name": "EPABO Contour Memory Foam Pillow"}}
+    ]
+  }}
+  </script>
+  <script type="application/ld+json">
+  {{
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {{
+        "@type": "Question",
+        "name": "What type of pillow is best for shoulder pain?",
+        "acceptedAnswer": {{"@type": "Answer", "text": "For side sleepers with shoulder pain, a pillow with a shoulder cutout or arm slot is the most direct solution — it eliminates the compression at the rotator cuff entirely. Otherwise, an adjustable-loft pillow that can be set precisely to shoulder-to-neck height prevents lateral spine misalignment that aggravates shoulder pain."}}
+      }},
+      {{
+        "@type": "Question",
+        "name": "Should I sleep on my bad shoulder or avoid it?",
+        "acceptedAnswer": {{"@type": "Answer", "text": "Avoid sleeping on the affected shoulder if pain is acute. The sustained compression during side sleeping on an inflamed shoulder worsens bursitis and rotator cuff tendinopathy. Back sleeping with a supportive pillow under the painful arm is the ideal recovery position. If you must side sleep, use the unaffected shoulder side."}}
+      }},
+      {{
+        "@type": "Question",
+        "name": "What pillow loft is best for shoulder pain in side sleepers?",
+        "acceptedAnswer": {{"@type": "Answer", "text": "Loft should match the distance from your shoulder to your ear when lying on your side. This keeps the cervical spine neutral without lateral flexion that stresses the shoulder. For most adults, 10-14 cm loft is appropriate for side sleeping, but shoulder width varies — adjustable loft pillows allow precise matching."}}
+      }},
+      {{
+        "@type": "Question",
+        "name": "Can a pillow help rotator cuff injury recovery?",
+        "acceptedAnswer": {{"@type": "Answer", "text": "Yes. Sustained nighttime compression of an injured rotator cuff delays healing by impairing circulation and increasing inflammatory pressure. The right pillow prevents compression at the subacromial space (the area most affected in rotator cuff injuries and bursitis), supporting healing between physiotherapy sessions."}}
+      }},
+      {{
+        "@type": "Question",
+        "name": "How do you sleep with shoulder bursitis?",
+        "acceptedAnswer": {{"@type": "Answer", "text": "Back sleeping is best during acute bursitis flares. Place a small pillow under the affected arm to maintain a slightly abducted shoulder position (arm slightly away from body), which reduces subacromial pressure. If side sleeping is necessary, lie on the unaffected shoulder. A pillow between the arms can prevent the affected shoulder from rolling forward."}}
+      }}
+    ]
+  }}
+  </script>
+  <style>
+    :root {{
+      --bg: #0a1628; --card: #111e33; --gold: #c9a84c;
+      --text: #e8e0d0; --muted: #8899aa; --border: rgba(201,168,76,0.15);
+      --green: #4caf7d; --red: #e05c5c;
+    }}
+    * {{ box-sizing: border-box; margin: 0; padding: 0; }}
+    body {{ background: var(--bg); color: var(--text); font-family: 'Georgia', serif; line-height: 1.7; }}
+    header {{ background: var(--card); border-bottom: 1px solid var(--border); padding: 1rem 2rem; display: flex; align-items: center; justify-content: space-between; }}
+    .logo {{ color: var(--gold); text-decoration: none; font-size: 1.3rem; font-weight: 700; }}
+    .logo span {{ color: var(--text); }}
+    main {{ max-width: 860px; margin: 0 auto; padding: 3rem 1.5rem; }}
+    h1 {{ font-size: 2rem; color: var(--gold); margin-bottom: 1rem; line-height: 1.3; }}
+    .meta {{ color: var(--muted); font-size: 0.85rem; margin-bottom: 2rem; }}
+    h2 {{ font-size: 1.4rem; color: var(--gold); margin: 2.5rem 0 1rem; }}
+    h3 {{ font-size: 1.15rem; color: var(--text); margin: 1.5rem 0 0.5rem; }}
+    p {{ margin-bottom: 1rem; }}
+    .intro-box {{ background: var(--card); border-left: 3px solid var(--gold); padding: 1.2rem 1.5rem; border-radius: 6px; margin-bottom: 2rem; }}
+    .product-card {{ background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 1.5rem; margin-bottom: 2rem; }}
+    .product-card .badge {{ display: inline-block; background: var(--gold); color: #0a1628; font-size: 0.75rem; font-weight: 700; padding: 0.2rem 0.7rem; border-radius: 20px; margin-bottom: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; }}
+    .product-card h3 {{ color: var(--gold); margin-top: 0; font-size: 1.2rem; }}
+    .specs {{ display: flex; flex-wrap: wrap; gap: 0.5rem; margin: 0.8rem 0; }}
+    .spec-chip {{ background: rgba(201,168,76,0.1); border: 1px solid var(--border); border-radius: 20px; padding: 0.2rem 0.8rem; font-size: 0.8rem; color: var(--muted); }}
+    .pros-cons {{ display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin: 1rem 0; }}
+    .pros, .cons {{ padding: 0.8rem 1rem; border-radius: 6px; }}
+    .pros {{ background: rgba(76,175,125,0.08); border: 1px solid rgba(76,175,125,0.2); }}
+    .cons {{ background: rgba(224,92,92,0.08); border: 1px solid rgba(224,92,92,0.2); }}
+    .pros h4 {{ color: var(--green); font-size: 0.85rem; margin-bottom: 0.5rem; }}
+    .cons h4 {{ color: var(--red); font-size: 0.85rem; margin-bottom: 0.5rem; }}
+    .pros ul, .cons ul {{ list-style: none; padding: 0; }}
+    .pros ul li::before {{ content: "+ "; color: var(--green); }}
+    .cons ul li::before {{ content: "- "; color: var(--red); }}
+    .pros ul li, .cons ul li {{ font-size: 0.88rem; margin-bottom: 0.3rem; }}
+    .buy-btn {{ display: inline-block; background: var(--gold); color: #0a1628; font-weight: 700; padding: 0.6rem 1.4rem; border-radius: 6px; text-decoration: none; font-size: 0.9rem; margin-top: 0.8rem; }}
+    .buy-btn:hover {{ opacity: 0.9; }}
+    .science-box {{ background: rgba(201,168,76,0.06); border: 1px solid var(--border); border-radius: 8px; padding: 1.2rem 1.5rem; margin: 2rem 0; }}
+    .science-box h3 {{ color: var(--gold); margin-top: 0; }}
+    .faq-item {{ border-bottom: 1px solid var(--border); padding: 1rem 0; }}
+    .faq-item:last-child {{ border-bottom: none; }}
+    .faq-item h3 {{ color: var(--gold); font-size: 1rem; margin-bottom: 0.5rem; }}
+    .verdict-box {{ background: var(--card); border: 2px solid var(--gold); border-radius: 10px; padding: 1.5rem; margin: 2.5rem 0; }}
+    .verdict-box h2 {{ margin-top: 0; }}
+    footer {{ text-align: center; padding: 2rem; color: var(--muted); font-size: 0.85rem; border-top: 1px solid var(--border); margin-top: 3rem; }}
+    footer a {{ color: var(--gold); }}
+    .affiliate-note {{ background: rgba(201,168,76,0.05); border: 1px solid var(--border); border-radius: 6px; padding: 0.8rem 1rem; font-size: 0.8rem; color: var(--muted); margin-bottom: 2rem; }}
+    @media (max-width: 600px) {{ .pros-cons {{ grid-template-columns: 1fr; }} h1 {{ font-size: 1.5rem; }} }}
+  </style>
+</head>
+<body>
+  <header>
+    <a class="logo" href="../">SleepWise<span>Reviews</span></a>
+    <a href="../posts/" style="color:var(--muted);font-size:0.9rem;text-decoration:none;">&larr; All Guides</a>
+  </header>
+  <main>
+    <h1>{title}</h1>
+    <p class="meta">Updated May 2026 &nbsp;&middot;&nbsp; Mattresses &amp; Bedding &nbsp;&middot;&nbsp; 11 min read</p>
+
+    <div class="affiliate-note">
+      This page contains affiliate links. We earn a commission if you purchase through our links, at no extra cost to you. We only recommend products we would use ourselves.
+    </div>
+
+    <div class="intro-box">
+      <p>Shoulder pain during sleep has a specific cause: the side-sleeping position compresses the subacromial space — the gap between the top of the humerus and the acromion where the rotator cuff tendons pass. Hours of sustained compression inflames tendons, aggravates bursitis, and causes the characteristic waking pain that gets worse toward morning.</p>
+      <p>The right pillow either eliminates this compression (arm-slot designs) or prevents the lateral spine flexion that loads the shoulder incorrectly (precise loft matching). All seven picks below address shoulder pain from this mechanical understanding, not just "comfort."</p>
+    </div>
+
+    <h2>Our Top 7 Pillows for Shoulder Pain</h2>
+
+    <!-- Product 1 -->
+    <div class="product-card">
+      <span class="badge">#1 Best Shoulder Pain Solution</span>
+      <h3>Coisum Orthopedic Side Sleeper Pillow (Arm Hole Design)</h3>
+      <div class="specs">
+        <span class="spec-chip">Arm hole cutout design</span>
+        <span class="spec-chip">Memory foam contour</span>
+        <span class="spec-chip">Shoulder cutout eliminates compression</span>
+        <span class="spec-chip">Side sleeper specific</span>
+        <span class="spec-chip">CertiPUR-US certified</span>
+        <span class="spec-chip">Washable cover</span>
+      </div>
+      <p>The arm-hole pillow is the only design that directly addresses subacromial compression during side sleeping: your arm passes through the cutout, suspending the shoulder in free space rather than bearing weight against the mattress. This fundamentally solves the problem rather than reducing it. Coisum's version adds a cervical contour to maintain neck alignment while the arm is positioned through the slot.</p>
+      <p>Takes 1-2 nights to adjust to the different arm position. Once adjusted, rotator cuff and bursitis patients consistently report dramatically reduced morning pain. The design is most effective for strict side sleepers who stay on one side for most of the night.</p>
+      <div class="pros-cons">
+        <div class="pros">
+          <h4>Pros</h4>
+          <ul>
+            <li>Eliminates subacromial compression entirely</li>
+            <li>Most effective for rotator cuff injuries and bursitis</li>
+            <li>Cervical contour for neck alignment</li>
+            <li>CertiPUR-US certified foam</li>
+            <li>Directly addresses the mechanical cause</li>
+          </ul>
+        </div>
+        <div class="cons">
+          <h4>Cons</h4>
+          <ul>
+            <li>Adjustment period 1-2 nights</li>
+            <li>Only works well for side sleepers</li>
+            <li>Arm position feels unusual initially</li>
+          </ul>
+        </div>
+      </div>
+      <a class="buy-btn" href="https://www.amazon.com/s?k=Coisum+Orthopedic+Side+Sleeper+Pillow+arm+hole+shoulder&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+    </div>
+
+    <!-- Product 2 -->
+    <div class="product-card">
+      <span class="badge">#2 Best Memory Foam</span>
+      <h3>Tempur-Pedic TEMPUR-Cloud Pillow</h3>
+      <div class="specs">
+        <span class="spec-chip">TEMPUR material (dense, slow-response)</span>
+        <span class="spec-chip">Removable, washable cover</span>
+        <span class="spec-chip">10-year warranty</span>
+        <span class="spec-chip">Back and side sleeper design</span>
+        <span class="spec-chip">Two size options</span>
+      </div>
+      <p>TEMPUR material's slow-response conforming creates a gradual pressure distribution that standard memory foam cannot match. For shoulder conditions where any rapid pressure change causes pain, this sustained, adaptive conforming keeps peak pressure below the pain threshold at the shoulder contact zone. The TEMPUR-Cloud is the softest Tempur-Pedic model — prioritizing surface comfort over structured support, which benefits shoulder pain patients more than back pain patients.</p>
+      <p>The 10-year warranty is exceptional for a pillow. TEMPUR material does not lose its conforming properties the way standard memory foam does — it maintains performance longer and the warranty reflects this longevity.</p>
+      <div class="pros-cons">
+        <div class="pros">
+          <h4>Pros</h4>
+          <ul>
+            <li>Slow-response conforming prevents pressure spikes</li>
+            <li>10-year warranty (exceptional for pillows)</li>
+            <li>Durable TEMPUR material (outlasts standard foam)</li>
+            <li>Washable cover</li>
+            <li>Softest Tempur-Pedic model (best for shoulder)</li>
+          </ul>
+        </div>
+        <div class="cons">
+          <h4>Cons</h4>
+          <ul>
+            <li>Runs warm (dense foam)</li>
+            <li>Premium price</li>
+            <li>Not adjustable in loft</li>
+          </ul>
+        </div>
+      </div>
+      <a class="buy-btn" href="https://www.amazon.com/s?k=Tempur-Pedic+TEMPUR-Cloud+Pillow+shoulder+pain&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+    </div>
+
+    <!-- Product 3 -->
+    <div class="product-card">
+      <span class="badge">#3 Best Adjustable Loft</span>
+      <h3>Coop Home Goods Eden Adjustable Pillow</h3>
+      <div class="specs">
+        <span class="spec-chip">Shredded memory foam + microfiber fill</span>
+        <span class="spec-chip">Adjustable fill</span>
+        <span class="spec-chip">GreenGuard Gold certified</span>
+        <span class="spec-chip">Machine washable</span>
+        <span class="spec-chip">100-night trial</span>
+      </div>
+      <p>Precise loft matching — matching the pillow height exactly to your shoulder-to-neck distance — is the most important specification for shoulder pain. A pillow that's too tall forces lateral cervical flexion, which loads the shoulder joint. Too short and the shoulder internally rotates under body weight. The Eden's adjustable fill lets you dial in the exact height through add/remove iterations.</p>
+      <p>The shredded fill also means no single pressure point — the fill conforms around the shoulder, distributing contact area. GreenGuard Gold certification ensures no off-gassing concerns for a pillow near your face. Machine washable entire pillow.</p>
+      <div class="pros-cons">
+        <div class="pros">
+          <h4>Pros</h4>
+          <ul>
+            <li>Adjustable to exact loft needed</li>
+            <li>GreenGuard Gold (strictest off-gassing standard)</li>
+            <li>Machine washable entire pillow</li>
+            <li>Shredded fill conforms without pressure points</li>
+            <li>100-night trial</li>
+          </ul>
+        </div>
+        <div class="cons">
+          <h4>Cons</h4>
+          <ul>
+            <li>Takes time to find the right fill level</li>
+            <li>Requires fluffing after washing</li>
+            <li>Premium price</li>
+          </ul>
+        </div>
+      </div>
+      <a class="buy-btn" href="https://www.amazon.com/s?k=Coop+Home+Goods+Eden+Adjustable+Pillow+shoulder+pain&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+    </div>
+
+    <div class="science-box">
+      <h3>The Subacromial Space and Nighttime Shoulder Pain</h3>
+      <p>The subacromial space is the 6-14mm gap between the acromion (the bony projection at the top of the shoulder blade) and the humeral head. The supraspinatus tendon, subacromial bursa, and long head of the biceps tendon pass through this space. When compressed — either from impingement syndrome, bursitis, or external pressure during side sleeping — pain, inflammation, and gradual structural damage follow.</p>
+      <p>Side sleeping compresses the subacromial space two ways: direct downward pressure of body weight on the shoulder, and the internal rotation of the arm that occurs when a pillow is too high (shoulder rolls inward). Both mechanisms reduce the subacromial space. Arm-slot pillows eliminate downward pressure; precise loft matching eliminates the internal rotation component. Together, they address both vectors of compression.</p>
+    </div>
+
+    <!-- Product 4 -->
+    <div class="product-card">
+      <span class="badge">#4 Best Side Sleeper Design</span>
+      <h3>Eli &amp; Elm Side Sleeper Pillow</h3>
+      <div class="specs">
+        <span class="spec-chip">U-shaped cutout for shoulder</span>
+        <span class="spec-chip">Adjustable fill</span>
+        <span class="spec-chip">Latex + polyester blend</span>
+        <span class="spec-chip">Washable cover</span>
+        <span class="spec-chip">Side sleeper optimized</span>
+      </div>
+      <p>The Eli &amp; Elm pillow features a U-shaped bottom cutout that accommodates the shoulder directly. Unlike the full arm-hole design, the U-shape allows the shoulder to position into the gap, reducing — but not fully eliminating — subacromial compression. This design is less extreme than an arm-hole pillow and easier to adapt to, making it a good middle option between a standard pillow and the Coisum arm-hole design.</p>
+      <p>The adjustable fill means you can fine-tune height in addition to the shoulder accommodation. Latex and polyester blend runs cooler than memory foam and provides responsive support that makes repositioning easy during the night.</p>
+      <div class="pros-cons">
+        <div class="pros">
+          <h4>Pros</h4>
+          <ul>
+            <li>U-shape shoulder cutout reduces compression</li>
+            <li>Adjustable fill for loft matching</li>
+            <li>Latex blend for cooler sleep and responsiveness</li>
+            <li>Easier adaptation than arm-hole designs</li>
+            <li>Washable cover</li>
+          </ul>
+        </div>
+        <div class="cons">
+          <h4>Cons</h4>
+          <ul>
+            <li>Less compression reduction than full arm-hole design</li>
+            <li>Takes experimentation to find optimal fill</li>
+            <li>Not suitable for back or stomach sleepers</li>
+          </ul>
+        </div>
+      </div>
+      <a class="buy-btn" href="https://www.amazon.com/s?k=Eli+Elm+Side+Sleeper+Pillow+shoulder+cutout&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+    </div>
+
+    <!-- Product 5 -->
+    <div class="product-card">
+      <span class="badge">#5 Best Budget Pick</span>
+      <h3>Sleepgram Pillow</h3>
+      <div class="specs">
+        <span class="spec-chip">3-in-1 adjustable loft</span>
+        <span class="spec-chip">Microfiber fill</span>
+        <span class="spec-chip">Inner pillow removable</span>
+        <span class="spec-chip">Machine washable</span>
+        <span class="spec-chip">2 firmness levels in 1</span>
+      </div>
+      <p>The Sleepgram uses a 3-in-1 design: a firm inner pillow and a soft inner pillow inside a main casing, giving you three loft options — just firm, just soft, or both together. This budget approach to loft adjustability is effective for shoulder pain patients finding their ideal height without spending premium prices on shredded fill alternatives.</p>
+      <p>Fully machine washable including the inner pillows. For shoulder pain patients on a budget who primarily need to find their correct loft, this delivers the core functionality at a fraction of the cost of premium adjustable options.</p>
+      <div class="pros-cons">
+        <div class="pros">
+          <h4>Pros</h4>
+          <ul>
+            <li>3 loft options via removable inner pillows</li>
+            <li>Machine washable (including inners)</li>
+            <li>Budget-friendly price</li>
+            <li>Good for loft experimentation</li>
+            <li>Hypoallergenic fill</li>
+          </ul>
+        </div>
+        <div class="cons">
+          <h4>Cons</h4>
+          <ul>
+            <li>Less fine-tuned than shredded fill options</li>
+            <li>No shoulder-specific design elements</li>
+            <li>Compresses more than foam over time</li>
+          </ul>
+        </div>
+      </div>
+      <a class="buy-btn" href="https://www.amazon.com/s?k=Sleepgram+Pillow+adjustable+shoulder+pain&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+    </div>
+
+    <!-- Product 6 -->
+    <div class="product-card">
+      <span class="badge">#6 Best for Back Sleepers with Shoulder Pain</span>
+      <h3>Saatva Latex Loft Pillow</h3>
+      <div class="specs">
+        <span class="spec-chip">Shredded Talalay latex fill</span>
+        <span class="spec-chip">GOLS organic certified</span>
+        <span class="spec-chip">Responsive support</span>
+        <span class="spec-chip">Medium loft</span>
+        <span class="spec-chip">OEKO-TEX certified cover</span>
+        <span class="spec-chip">Free shipping + returns</span>
+      </div>
+      <p>For back sleepers with shoulder pain, compression is less of an issue but shoulder tension from forward-rolling still occurs. Shredded Talalay latex provides responsive, conforming support that keeps the shoulder in a neutral position (not internally rotated) without the heat or slow-response issues of memory foam. GOLS-certified organic latex and OEKO-TEX cover mean no chemical concerns sleeping directly against the pillow surface.</p>
+      <p>Saatva's latex pillow is also an excellent companion to a Saatva mattress for a coordinated sleep system. The medium loft works for most back sleepers and lighter-framed side sleepers.</p>
+      <div class="pros-cons">
+        <div class="pros">
+          <h4>Pros</h4>
+          <ul>
+            <li>GOLS organic latex (clean materials)</li>
+            <li>Responsive latex easier to reposition on</li>
+            <li>OEKO-TEX certified cover</li>
+            <li>Free returns (easy trial)</li>
+            <li>Runs cooler than memory foam</li>
+          </ul>
+        </div>
+        <div class="cons">
+          <h4>Cons</h4>
+          <ul>
+            <li>Premium price</li>
+            <li>Not adjustable in loft</li>
+            <li>Less compression relief than arm-hole designs</li>
+          </ul>
+        </div>
+      </div>
+      <a class="buy-btn" href="https://www.amazon.com/s?k=Saatva+Latex+Loft+Pillow+shoulder+pain&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+    </div>
+
+    <!-- Product 7 -->
+    <div class="product-card">
+      <span class="badge">#7 Best Contour Option</span>
+      <h3>EPABO Contour Memory Foam Pillow</h3>
+      <div class="specs">
+        <span class="spec-chip">Ergonomic contour</span>
+        <span class="spec-chip">Dual height sides</span>
+        <span class="spec-chip">Memory foam</span>
+        <span class="spec-chip">CertiPUR-US certified</span>
+        <span class="spec-chip">Washable cover</span>
+        <span class="spec-chip">Back and side sleeper design</span>
+      </div>
+      <p>The EPABO contour provides a structured cervical support combined with a slight shoulder accommodation in its design. The raised edge that supports the neck also creates a partial cutout effect that reduces direct contact at the shoulder tip — not as effective as a dedicated shoulder-slot design, but superior to a flat pillow. The dual-height sides accommodate different sleep positions.</p>
+      <p>At its accessible price, the EPABO is the best starting point for shoulder pain patients who want an ergonomic upgrade from a standard flat pillow before committing to a specialty design. CertiPUR-US certification confirms no harmful chemicals.</p>
+      <div class="pros-cons">
+        <div class="pros">
+          <h4>Pros</h4>
+          <ul>
+            <li>Excellent price for ergonomic design</li>
+            <li>Dual height for position flexibility</li>
+            <li>CertiPUR-US certified</li>
+            <li>Cervical support integrated with shoulder relief</li>
+            <li>Good starter upgrade from flat pillow</li>
+          </ul>
+        </div>
+        <div class="cons">
+          <h4>Cons</h4>
+          <ul>
+            <li>Less targeted than arm-hole designs</li>
+            <li>Runs warm (solid memory foam)</li>
+            <li>Fixed loft (no adjustment)</li>
+          </ul>
+        </div>
+      </div>
+      <a class="buy-btn" href="https://www.amazon.com/s?k=EPABO+Contour+Memory+Foam+Pillow+shoulder+pain&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+    </div>
+
+    <div class="verdict-box">
+      <h2>Bottom Line</h2>
+      <p><strong>Best overall:</strong> Coisum Arm-Hole Pillow for direct elimination of subacromial compression — the most targeted solution for rotator cuff and bursitis patients. <strong>Best memory foam:</strong> Tempur-Pedic TEMPUR-Cloud for sustained low-pressure conforming. <strong>Best adjustable:</strong> Coop Eden for precise loft matching. <strong>Best middle ground:</strong> Eli &amp; Elm for shoulder-accommodation without full arm-hole commitment. <strong>Best budget:</strong> EPABO Contour for an affordable ergonomic upgrade.</p>
+    </div>
+
+    <h2>Frequently Asked Questions</h2>
+    <div class="faq-item">
+      <h3>What type of pillow is best for shoulder pain?</h3>
+      <p>For side sleepers, an arm-hole or U-cutout pillow most directly eliminates subacromial compression. For those who can't adapt, an adjustable-loft pillow set precisely to shoulder-to-neck height prevents the lateral spine misalignment that loads the shoulder. Memory foam contour pillows provide better relief than flat pillows but less than specialized shoulder designs.</p>
+    </div>
+    <div class="faq-item">
+      <h3>Should I sleep on my bad shoulder or avoid it?</h3>
+      <p>Avoid sleeping on the affected shoulder during acute pain or active inflammation. Sustained compression worsens bursitis and rotator cuff tendinopathy. Back sleeping with a small pillow under the affected arm (to maintain slight abduction) is the optimal recovery position. If side sleeping, sleep on the unaffected side.</p>
+    </div>
+    <div class="faq-item">
+      <h3>What pillow loft is best for shoulder pain in side sleepers?</h3>
+      <p>Loft should match the distance from your shoulder to your ear when lying on your side. For most adults, 10-14 cm. A pillow too tall forces the neck to tilt away from the shoulder (creating lateral tension that loads the shoulder from above); too low and the neck tilts toward the shoulder (compressing it from the side). Adjustable fill pillows let you match this precisely.</p>
+    </div>
+    <div class="faq-item">
+      <h3>Can a pillow help rotator cuff injury recovery?</h3>
+      <p>Yes. Nighttime subacromial compression delays healing by impairing circulation and sustaining inflammatory pressure at injured tendon insertions. The right pillow prevents this compression during the 7-8 hours you spend sleeping, allowing physiotherapy-driven healing to proceed without nightly reversal of progress.</p>
+    </div>
+    <div class="faq-item">
+      <h3>How do you sleep with shoulder bursitis?</h3>
+      <p>Back sleeping is best during active bursitis flares. Place a small pillow under the affected arm to maintain slight abduction (arm 15-20 degrees from the body), which reduces subacromial pressure. Avoid arm across the chest positions. If side sleeping is necessary, lie on the unaffected shoulder and place a pillow between your arms to prevent the affected shoulder from rolling forward.</p>
+    </div>
+  </main>
+  <footer>
+    <p>&copy; 2025-2026 <a href="../">SleepWise Reviews</a> &middot; Evidence-based sleep guidance &middot; <a href="../posts/">All Guides</a></p>
+  </footer>
+</body>
+</html>'''
+
+import os
+out = os.path.join(os.path.dirname(__file__), 'posts', f'{slug}.html')
+with open(out, 'w', encoding='utf-8') as f:
+    f.write(html)
+print(f'Written: {out}')
