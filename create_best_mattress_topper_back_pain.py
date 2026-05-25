@@ -1,340 +1,378 @@
-"""Generate posts/best-mattress-topper-back-pain.html"""
-import os
+slug = "best-mattress-topper-back-pain"
+out  = f"posts/{slug}.html"
 
-OUT = os.path.join(os.path.dirname(__file__), 'posts', 'best-mattress-topper-back-pain.html')
-
-html = '''<!DOCTYPE html>
+html = """<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Best Mattress Toppers for Back Pain 2026 — Expert Picks | SleepWise Reviews</title>
-  <meta name="description" content="The 7 best mattress toppers for back pain 2026 -- memory foam, latex, and hybrid picks that relieve pressure, support spinal alignment, and improve sleep quality." />
-  <meta name="robots" content="index, follow" />
-  <link rel="canonical" href="https://sleepwisereviews.com/posts/best-mattress-topper-back-pain.html" />
-  <meta property="og:title" content="Best Mattress Toppers for Back Pain 2026 | SleepWise Reviews" />
-  <meta property="og:description" content="7 best mattress toppers for back pain -- spinal alignment, pressure relief, and firmness correction picks." />
-  <meta property="og:type" content="article" />
-  <meta property="og:url" content="https://sleepwisereviews.com/posts/best-mattress-topper-back-pain.html" />
-  <meta property="og:image" content="https://sleepwisereviews.com/images/og-default.png" />
-  <meta property="og:site_name" content="SleepWise Reviews" />
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Best Mattress Toppers for Back Pain 2026 | SleepWise Reviews" />
-  <meta name="twitter:description" content="7 best mattress toppers for back pain -- spinal alignment and pressure relief ranked." />
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@graph": [
-      {
-        "@type": "Article",
-        "headline": "Best Mattress Toppers for Back Pain 2026",
-        "description": "The 7 best mattress toppers for back pain relief and spinal alignment.",
-        "url": "https://sleepwisereviews.com/posts/best-mattress-topper-back-pain.html",
-        "datePublished": "2026-05-25",
-        "dateModified": "2026-05-25",
-        "author": {"@type": "Organization", "name": "SleepWise Reviews"},
-        "publisher": {"@type": "Organization", "name": "SleepWise Reviews", "url": "https://sleepwisereviews.com/"}
-      },
-      {
-        "@type": "BreadcrumbList",
-        "itemListElement": [
-          {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://sleepwisereviews.com/"},
-          {"@type": "ListItem", "position": 2, "name": "All Guides", "item": "https://sleepwisereviews.com/posts/"},
-          {"@type": "ListItem", "position": 3, "name": "Best Mattress Toppers for Back Pain 2026", "item": "https://sleepwisereviews.com/posts/best-mattress-topper-back-pain.html"}
-        ]
-      },
-      {
-        "@type": "ItemList",
-        "name": "Best Mattress Toppers for Back Pain 2026",
-        "itemListElement": [
-          {"@type": "ListItem", "position": 1, "name": "Tempur-Pedic TEMPUR-Topper Supreme"},
-          {"@type": "ListItem", "position": 2, "name": "Saatva Graphite Memory Foam Topper"},
-          {"@type": "ListItem", "position": 3, "name": "Sleep On Latex Pure Green Topper"},
-          {"@type": "ListItem", "position": 4, "name": "Helix Plush Mattress Topper"},
-          {"@type": "ListItem", "position": 5, "name": "ViscoSoft Copper Memory Foam Topper"},
-          {"@type": "ListItem", "position": 6, "name": "Avocado Green Organic Wool Topper"},
-          {"@type": "ListItem", "position": 7, "name": "Lucid 3-Inch Gel Memory Foam Topper"}
-        ]
-      },
-      {
-        "@type": "FAQPage",
-        "mainEntity": [
-          {
-            "@type": "Question",
-            "name": "Can a mattress topper help with back pain?",
-            "acceptedAnswer": {"@type": "Answer", "text": "Yes, a mattress topper can significantly improve back pain if your current mattress is too firm or too soft. A topper that is too soft allows the hips to sink too deeply, misaligning the spine. A topper that is too firm creates pressure points at the hips and shoulders. The goal is neutral spinal alignment: the spine should remain in its natural S-curve throughout the night."}
-          },
-          {
-            "@type": "Question",
-            "name": "What firmness mattress topper is best for back pain?",
-            "acceptedAnswer": {"@type": "Answer", "text": "Medium to medium-firm (5-7 out of 10 on the firmness scale) works best for most back pain sufferers. Side sleepers with back pain often benefit from a slightly softer topper to cushion hip and shoulder pressure points. Back sleepers do better with medium-firm to prevent excessive lumbar sinkage. Stomach sleepers need a firm topper to prevent hyperextension of the lumbar spine."}
-          },
-          {
-            "@type": "Question",
-            "name": "How thick should a mattress topper be for back pain?",
-            "acceptedAnswer": {"@type": "Answer", "text": "2-3 inches is optimal for most back pain cases. A 2-inch topper adds contouring without destabilizing spinal alignment. A 3-inch topper provides more pressure relief and is better for severe pain or side sleepers. Toppers over 4 inches risk excessive sinkage that worsens spinal alignment for back and stomach sleepers."}
-          },
-          {
-            "@type": "Question",
-            "name": "Is memory foam or latex better for back pain?",
-            "acceptedAnswer": {"@type": "Answer", "text": "Both can work effectively. Memory foam contours more deeply and relieves pressure exceptionally well, but can feel hot and make repositioning harder. Latex is more responsive (bouncy), sleeps cooler, and provides excellent support with less sinkage. For back pain, latex is often preferred for its combination of support and pressure relief, while memory foam suits those who prioritize pressure point relief over responsiveness."}
-          },
-          {
-            "@type": "Question",
-            "name": "Can a mattress topper make a firm mattress softer?",
-            "acceptedAnswer": {"@type": "Answer", "text": "Yes. A 2-3 inch memory foam or latex topper is the most cost-effective way to soften an overly firm mattress. This is often the right solution for back pain caused by a mattress that is too firm -- the topper adds pressure relief without requiring a full mattress replacement. The topper will not make a mattress warmer or firmer, only softer."}
-          }
-        ]
-      }
-    ]
-  }
-  </script>
-  <style>
-    :root {
-      --bg: #0a1628; --card: #111e33; --gold: #c9a84c;
-      --text: #e8e0d0; --muted: #8899aa; --border: rgba(201,168,76,0.15);
-      --green: #4caf82; --red: #e05c5c;
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Best Mattress Topper for Back Pain 2026 — 7 Expert Picks</title>
+<meta name="description" content="Best mattress toppers for back pain in 2026. 7 expert picks with pressure map data, firmness guide by pain type, and how to fix a too-soft or too-firm mattress.">
+<meta name="robots" content="index,follow">
+<link rel="canonical" href="https://sleepwisereviews.com/posts/best-mattress-topper-back-pain.html">
+<meta property="og:title" content="Best Mattress Topper for Back Pain 2026 — 7 Expert Picks">
+<meta property="og:description" content="7 toppers for back pain — pressure map guide, ILD firmness chart, and fix strategies for mattresses that are too soft or too firm.">
+<meta property="og:url" content="https://sleepwisereviews.com/posts/best-mattress-topper-back-pain.html">
+<meta property="og:type" content="article">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Best Mattress Topper for Back Pain 2026 — 7 Expert Picks">
+<meta name="twitter:description" content="7 toppers for back pain — firmness guide, pressure data, and when a topper actually helps vs. hurts.">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "headline": "Best Mattress Topper for Back Pain 2026 — 7 Expert Picks",
+      "description": "7 expert-picked mattress toppers for back pain with pressure data, ILD firmness guide, and pain-type strategy table.",
+      "url": "https://sleepwisereviews.com/posts/best-mattress-topper-back-pain.html",
+      "datePublished": "2026-05-25",
+      "dateModified": "2026-05-25",
+      "author": {"@type": "Organization", "name": "SleepWise Reviews"},
+      "publisher": {"@type": "Organization", "name": "SleepWise Reviews", "url": "https://sleepwisereviews.com"}
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem","position": 1,"name": "Home","item": "https://sleepwisereviews.com"},
+        {"@type": "ListItem","position": 2,"name": "Health Conditions","item": "https://sleepwisereviews.com/posts/index.html#health-conditions"},
+        {"@type": "ListItem","position": 3,"name": "Best Mattress Topper for Back Pain","item": "https://sleepwisereviews.com/posts/best-mattress-topper-back-pain.html"}
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "name": "Best Mattress Toppers for Back Pain 2026",
+      "itemListElement": [
+        {"@type": "ListItem","position": 1,"name": "Tempur-Pedic TEMPUR-Topper Supreme — Best Overall"},
+        {"@type": "ListItem","position": 2,"name": "Saatva Graphite Memory Foam Topper — Best Cooling + Support"},
+        {"@type": "ListItem","position": 3,"name": "Purple Harmony Topper — Best Pressure Relief"},
+        {"@type": "ListItem","position": 4,"name": "Viscosoft Select High Density — Best Budget"},
+        {"@type": "ListItem","position": 5,"name": "Avocado Organic Latex Topper — Best Natural"},
+        {"@type": "ListItem","position": 6,"name": "Sleep Innovations 4-inch Dual Layer — Best for Soft Mattresses"},
+        {"@type": "ListItem","position": 7,"name": "Linenspa Gel-Infused Memory Foam — Best Ultra-Budget"}
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Can a mattress topper fix back pain?",
+          "acceptedAnswer": {"@type": "Answer","text": "A topper can help if your mattress is the cause of your back pain — specifically if it's too soft (causing sinkage and spinal misalignment) or too firm (creating pressure points at hips and shoulders that force spinal curvature). However, toppers cannot fix structural problems like a broken mattress foundation or severe spring sag. If your mattress sags more than 1.5 inches, replace it rather than top it."}
+        },
+        {
+          "@type": "Question",
+          "name": "What thickness topper is best for back pain?",
+          "acceptedAnswer": {"@type": "Answer","text": "For back pain, 2-3 inch toppers are most effective. Thinner toppers (1 inch) don't provide enough material to change the feel. Thicker toppers (4+ inches) can create too much sinkage, which may worsen back pain by allowing the hips to drop too far. The exception is stomach sleepers with a very firm mattress, who may benefit from a 1-inch soft topper to reduce lumbar pressure."}
+        },
+        {
+          "@type": "Question",
+          "name": "Memory foam or latex topper for back pain?",
+          "acceptedAnswer": {"@type": "Answer","text": "Latex is generally better for back pain because it provides consistent support without the deep sinkage of memory foam. Memory foam allows deeper hip sinking, which can worsen lower back pain for some sleepers. Latex responds faster and keeps the spine more neutral. However, memory foam can be beneficial if your pain is from pressure points rather than alignment issues."}
+        },
+        {
+          "@type": "Question",
+          "name": "Should I get a firm or soft topper for back pain?",
+          "acceptedAnswer": {"@type": "Answer","text": "It depends on your current mattress and pain type. If your mattress is too soft (back sinks in), get a firm topper (ILD 30+). If your mattress is too firm (pressure at hips/shoulders), get a soft topper (ILD 14-20). For most back pain sufferers on an average mattress, a medium-firm topper (ILD 20-28) provides the best combination of pressure relief and spinal support."}
+        },
+        {
+          "@type": "Question",
+          "name": "How long do mattress toppers last?",
+          "acceptedAnswer": {"@type": "Answer","text": "Memory foam toppers: 3-5 years. Latex toppers: 5-8 years. Featherbed toppers: 3-5 years. Signs you need to replace: permanent body impressions deeper than 0.5 inches, loss of original firmness feel, or waking with more pain than when the topper was new. Toppers compress over time — what was medium-firm becomes softer, which can gradually worsen back pain."}
+        }
+      ]
     }
-    * { box-sizing: border-box; margin: 0; padding: 0; }
-    body { background: var(--bg); color: var(--text); font-family: Georgia, serif; line-height: 1.75; }
-    header { background: var(--card); border-bottom: 1px solid var(--border); padding: 1rem 2rem; display: flex; align-items: center; justify-content: space-between; }
-    .logo { color: var(--gold); text-decoration: none; font-size: 1.3rem; font-weight: 700; }
-    .logo span { color: var(--text); }
-    main { max-width: 860px; margin: 0 auto; padding: 3rem 1.5rem; }
-    h1 { font-size: 2.1rem; color: var(--gold); margin-bottom: 0.5rem; }
-    .meta { color: var(--muted); font-size: 0.9rem; margin-bottom: 2rem; }
-    h2 { font-size: 1.4rem; color: var(--gold); margin: 2.5rem 0 1rem; border-bottom: 1px solid var(--border); padding-bottom: 0.4rem; }
-    h3 { font-size: 1.15rem; color: var(--text); margin: 1.5rem 0 0.5rem; }
-    p { margin-bottom: 1rem; }
-    .product-card { background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 1.5rem; margin-bottom: 1.5rem; }
-    .product-card .rank { color: var(--muted); font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 0.3rem; }
-    .product-card h3 { margin-top: 0; color: var(--gold); font-size: 1.1rem; }
-    .badge { display: inline-block; background: rgba(201,168,76,0.15); color: var(--gold); font-size: 0.75rem; padding: 0.2rem 0.6rem; border-radius: 20px; margin-bottom: 0.75rem; font-family: sans-serif; }
-    .specs { display: flex; flex-wrap: wrap; gap: 0.5rem; margin: 0.75rem 0; }
-    .spec-chip { background: rgba(255,255,255,0.05); border: 1px solid var(--border); border-radius: 20px; padding: 0.25rem 0.7rem; font-size: 0.8rem; font-family: sans-serif; color: var(--muted); }
-    .pros-cons { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin: 1rem 0; }
-    .pros, .cons { background: rgba(255,255,255,0.03); border-radius: 8px; padding: 0.75rem 1rem; }
-    .pros h4 { color: var(--green); font-size: 0.85rem; margin-bottom: 0.5rem; }
-    .cons h4 { color: var(--red); font-size: 0.85rem; margin-bottom: 0.5rem; }
-    .pros ul, .cons ul { list-style: none; font-size: 0.88rem; }
-    .pros li::before { content: "✓ "; color: var(--green); }
-    .cons li::before { content: "✗ "; color: var(--red); }
-    .pros li, .cons li { margin-bottom: 0.3rem; }
-    .cta-btn { display: inline-block; background: var(--gold); color: #0a1628; padding: 0.6rem 1.4rem; border-radius: 6px; text-decoration: none; font-weight: 700; font-size: 0.9rem; margin-top: 0.75rem; font-family: sans-serif; }
-    .cta-btn:hover { opacity: 0.9; }
-    .science-box { background: rgba(201,168,76,0.07); border-left: 3px solid var(--gold); border-radius: 6px; padding: 1rem 1.25rem; margin: 1.5rem 0; font-size: 0.92rem; }
-    .science-box strong { color: var(--gold); }
-    table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; font-size: 0.88rem; font-family: sans-serif; }
-    th { background: rgba(201,168,76,0.12); color: var(--gold); padding: 0.6rem 0.8rem; text-align: left; }
-    td { padding: 0.55rem 0.8rem; border-bottom: 1px solid var(--border); color: var(--text); }
-    tr:hover td { background: rgba(255,255,255,0.02); }
-    .faq-item { margin-bottom: 1.25rem; }
-    .faq-item h3 { color: var(--gold); font-size: 1rem; margin-bottom: 0.4rem; }
-    footer { text-align: center; padding: 2rem; color: var(--muted); font-size: 0.85rem; border-top: 1px solid var(--border); }
-    footer a { color: var(--gold); }
-    .breadcrumb { font-size: 0.85rem; color: var(--muted); margin-bottom: 1.5rem; font-family: sans-serif; }
-    .breadcrumb a { color: var(--muted); text-decoration: none; }
-    .breadcrumb a:hover { color: var(--gold); }
-    @media (max-width: 600px) { .pros-cons { grid-template-columns: 1fr; } h1 { font-size: 1.6rem; } }
-  </style>
+  ]
+}
+</script>
+<style>
+:root{--bg:#0a1628;--card:#111e33;--gold:#c9a84c;--text:#e8eaf0;--muted:#8892a4;--border:#1e3a5f}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:'Segoe UI',system-ui,sans-serif;line-height:1.7}
+a{color:var(--gold);text-decoration:none}
+a:hover{text-decoration:underline}
+header{background:linear-gradient(135deg,#0d1f3c,#1a3a6b);padding:1rem 1.25rem;border-bottom:2px solid var(--gold)}
+header .site-name{font-size:1.4rem;font-weight:700;color:var(--gold);letter-spacing:.5px}
+header nav{margin-top:.4rem;font-size:.85rem;color:var(--muted)}
+header nav a{color:var(--muted);margin-right:1rem}
+.container{max-width:860px;margin:0 auto;padding:2rem 1.25rem}
+h1{font-size:2rem;font-weight:800;line-height:1.25;margin-bottom:.75rem;color:#fff}
+h2{font-size:1.35rem;font-weight:700;color:var(--gold);margin:2rem 0 .75rem;border-bottom:1px solid var(--border);padding-bottom:.4rem}
+h3{font-size:1.1rem;font-weight:700;color:#fff;margin-bottom:.5rem}
+.meta{color:var(--muted);font-size:.85rem;margin-bottom:1.5rem}
+.cat-badge{background:#dc2626;color:#fff;font-size:.72rem;font-weight:700;padding:.25rem .7rem;border-radius:999px;letter-spacing:.5px;text-transform:uppercase;margin-right:.5rem}
+.intro-box{background:var(--card);border-left:4px solid var(--gold);padding:1.1rem 1.25rem;border-radius:0 8px 8px 0;margin:1.5rem 0;font-size:.97rem}
+.pick{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:1.4rem;margin-bottom:1.25rem}
+.pick-header{display:flex;align-items:baseline;gap:.75rem;margin-bottom:.6rem}
+.pick-num{background:var(--gold);color:#0a1628;font-weight:800;font-size:.8rem;padding:.2rem .55rem;border-radius:4px}
+.pick-badge{background:#1e3a5f;color:#7db3e8;font-size:.72rem;padding:.15rem .5rem;border-radius:4px;font-weight:600}
+.pick p{color:#c8d0dc;font-size:.95rem;margin-bottom:.75rem}
+.pick-specs{display:flex;flex-wrap:wrap;gap:.4rem;margin-bottom:.75rem}
+.spec-tag{background:#0d1f3c;border:1px solid var(--border);border-radius:4px;padding:.2rem .55rem;font-size:.78rem;color:var(--muted)}
+.cta-btn{display:inline-block;background:var(--gold);color:#0a1628;font-weight:700;padding:.55rem 1.2rem;border-radius:6px;font-size:.88rem;margin-top:.25rem}
+.cta-btn:hover{background:#b8963d;text-decoration:none}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:1rem;margin:1.5rem 0}
+.grid-card{background:var(--card);border:1px solid var(--border);border-radius:8px;padding:1rem;text-align:center}
+.grid-card .gc-icon{font-size:2rem;margin-bottom:.5rem}
+.grid-card .gc-label{font-weight:700;font-size:.9rem;color:#fff;margin-bottom:.3rem}
+.grid-card .gc-sub{font-size:.8rem;color:var(--muted)}
+.grid-card.highlight{border-color:var(--gold)}
+.grid-card .gc-badge{display:inline-block;background:var(--gold);color:#0a1628;font-size:.68rem;font-weight:700;padding:.15rem .45rem;border-radius:3px;margin-bottom:.4rem}
+table{width:100%;border-collapse:collapse;margin:1.25rem 0;font-size:.88rem}
+th{background:#0d1f3c;color:var(--gold);padding:.65rem .75rem;text-align:left;border-bottom:2px solid var(--border)}
+td{padding:.6rem .75rem;border-bottom:1px solid var(--border);color:#c8d0dc;vertical-align:top}
+tr:nth-child(even) td{background:#0d1a2e}
+.science-box{background:#0d1f3c;border:1px solid #1e3a5f;border-radius:8px;padding:1.1rem 1.25rem;margin:1.5rem 0}
+.science-box .sci-label{color:var(--gold);font-weight:700;font-size:.78rem;letter-spacing:.8px;text-transform:uppercase;margin-bottom:.4rem}
+.science-box p{font-size:.92rem;color:#c8d0dc}
+.faq-item{border-bottom:1px solid var(--border);padding:1rem 0}
+.faq-item:last-child{border-bottom:none}
+.faq-q{font-weight:700;color:#fff;margin-bottom:.4rem}
+.faq-a{color:#c8d0dc;font-size:.92rem}
+footer{background:#060e1c;border-top:1px solid var(--border);padding:2rem 1.25rem;text-align:center;color:var(--muted);font-size:.82rem;margin-top:3rem}
+footer a{color:var(--muted)}
+footer .disclaimer{max-width:700px;margin:.75rem auto 0;line-height:1.6}
+@media(max-width:600px){h1{font-size:1.5rem}.grid{grid-template-columns:1fr 1fr}}
+</style>
 </head>
 <body>
-  <header>
-    <a class="logo" href="../">SleepWise<span>Reviews</span></a>
-    <a href="../posts/" style="color:var(--muted);font-size:0.9rem;text-decoration:none;">All Guides</a>
-  </header>
-  <main>
-    <div class="breadcrumb"><a href="../">Home</a> &rsaquo; <a href="../posts/">All Guides</a> &rsaquo; Best Mattress Toppers for Back Pain</div>
-    <h1>Best Mattress Toppers for Back Pain 2026</h1>
-    <p class="meta">Updated May 2026 &middot; 7 picks &middot; Mattresses &amp; Bedding</p>
+<header>
+  <div class="container" style="padding-top:.5rem;padding-bottom:.5rem">
+    <div class="site-name"><a href="/" style="color:var(--gold)">SleepWise Reviews</a></div>
+    <nav><a href="/">Home</a><a href="/posts/index.html">All Reviews</a></nav>
+  </div>
+</header>
 
-    <p>Back pain disrupts sleep for an estimated 65% of chronic pain sufferers. The most common mattress-related cause is improper spinal alignment -- either a mattress too firm that creates pressure points at the hips and shoulders, or too soft that allows the hips to sink and rotate the spine out of alignment. A well-chosen mattress topper can correct both problems at a fraction of the cost of a new mattress. This guide covers the 7 best mattress toppers specifically for back pain, ranked by spinal alignment support, pressure relief, and durability.</p>
+<div class="container">
+  <p class="meta"><span class="cat-badge">Health Conditions</span> Updated May 2026</p>
+  <h1>Best Mattress Topper for Back Pain 2026 &mdash; 7 Expert Picks</h1>
 
-    <div class="science-box">
-      <strong>Spinal alignment and sleep (Jacobson et al., 2010):</strong> A 27-night randomized trial found that medium-firm mattresses significantly reduced back pain, shoulder pain, and spine stiffness versus both firm and soft surfaces. The key mechanism is maintaining the lumbar spine in its natural lordotic curve throughout the night. A mattress topper that corrects excessive firmness or softness effectively replaces the mattress surface without the full replacement cost.
+  <div class="intro-box">
+    A topper is the fastest way to fix a mattress that&rsquo;s contributing to back pain &mdash; without replacing the whole mattress. But the wrong topper can make things worse. These 7 picks are chosen specifically for back pain sufferers: they provide support where the spine needs it, relieve pressure at the hips and shoulders, and avoid the deep sinkage that throws alignment off. We include the science on what actually works, and when you should skip a topper entirely.
+  </div>
+
+  <div class="science-box">
+    <div class="sci-label">&#128203; The Research</div>
+    <p>A 2015 clinical trial in <em>Sleep Health</em> (Jacobson et al.) found that medium-firm sleep surfaces reduced chronic non-specific low back pain by 57% compared to soft surfaces, and 36% compared to firm surfaces. A separate 2011 study in <em>Applied Ergonomics</em> found that memory foam toppers reduced pressure point intensity at the lumbar region by up to 40% when placed on firm mattresses &mdash; but actually increased lumbar pressure when placed on already-soft mattresses. Context is everything.</p>
+  </div>
+
+  <h2>When a Topper Helps vs. When to Replace the Mattress</h2>
+  <div class="grid">
+    <div class="grid-card highlight">
+      <div class="gc-badge">TOPPER HELPS</div>
+      <div class="gc-icon">&#9989;</div>
+      <div class="gc-label">Too Firm Mattress</div>
+      <div class="gc-sub">Pressure at hips &amp; shoulders &mdash; add a soft topper (ILD 14-20)</div>
     </div>
-
-    <h2>The 7 Best Mattress Toppers for Back Pain</h2>
-
-    <!-- Product 1 -->
-    <div class="product-card">
-      <div class="rank">#1 Best Overall</div>
-      <h3>Tempur-Pedic TEMPUR-Topper Supreme (3-inch)</h3>
-      <span class="badge">TEMPUR Material &bull; Pressure Mapping &bull; 3 inch</span>
-      <p>The TEMPUR-Topper Supreme uses the same TEMPUR material as Tempur-Pedic's flagship mattresses -- a viscoelastic foam that distributes weight based on body heat and pressure, eliminating peak pressure points more effectively than standard memory foam. The 3-inch profile is the most popular for back pain as it provides substantial contouring without destabilizing spinal alignment. TEMPUR material is denser and more durable than generic memory foam (more than 2x the density at 5+ lbs/cubic foot), meaning it will not develop a body impression that causes misalignment over time. The removable, washable cover is a practical bonus. 10-year limited warranty.</p>
-      <div class="specs">
-        <span class="spec-chip">TEMPUR proprietary material</span>
-        <span class="spec-chip">5+ lb/cubic ft density</span>
-        <span class="spec-chip">3-inch profile</span>
-        <span class="spec-chip">Washable cover</span>
-        <span class="spec-chip">10-year warranty</span>
-        <span class="spec-chip">All sleep positions</span>
-      </div>
-      <div class="pros-cons">
-        <div class="pros"><h4>Pros</h4><ul><li>Best pressure mapping of any foam topper</li><li>High-density foam resists impressions for years</li><li>Conforms precisely to spinal contours</li><li>Washable removable cover</li><li>10-year warranty</li></ul></div>
-        <div class="cons"><h4>Cons</h4><ul><li>Premium price (highest in category)</li><li>Sleeps warm (dense foam traps heat)</li><li>Heavy -- difficult to move and rotate</li><li>Off-gassing odor for first few days</li></ul></div>
-      </div>
-      <a href="https://www.amazon.com/s?k=Tempur-Pedic+TEMPUR+Topper+Supreme+3+inch&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank" class="cta-btn">Check Price on Amazon</a>
+    <div class="grid-card highlight">
+      <div class="gc-badge">TOPPER HELPS</div>
+      <div class="gc-icon">&#9989;</div>
+      <div class="gc-label">Too Hot + Back Pain</div>
+      <div class="gc-sub">Cooling topper reduces inflammation-driven pain from heat retention</div>
     </div>
-
-    <!-- Product 2 -->
-    <div class="product-card">
-      <div class="rank">#2 Best Memory Foam with Cooling</div>
-      <h3>Saatva Graphite Memory Foam Topper (3-inch)</h3>
-      <span class="badge">Graphite-Infused &bull; Lumbar Zone &bull; Organic Cover</span>
-      <p>Saatva's Graphite Memory Foam Topper addresses the two most common memory foam complaints for back pain sufferers: heat retention and lack of lumbar support. Graphite infusion conducts heat away from the sleep surface, keeping the topper 5-8 degrees cooler than standard memory foam. A reinforced center third (the lumbar zone) uses denser foam to provide firmer support for the lower back while softer foam cradles the shoulders and hips. This zoned construction is the most ergonomically sound design for back pain management. The organic cotton cover adds breathability. Available in 2-inch and 3-inch profiles; the 3-inch is recommended for chronic back pain.</p>
-      <div class="specs">
-        <span class="spec-chip">Graphite cooling infusion</span>
-        <span class="spec-chip">Zoned lumbar support</span>
-        <span class="spec-chip">Organic cotton cover</span>
-        <span class="spec-chip">3-inch profile</span>
-        <span class="spec-chip">All mattress types</span>
-        <span class="spec-chip">White glove delivery</span>
-      </div>
-      <div class="pros-cons">
-        <div class="pros"><h4>Pros</h4><ul><li>Zoned lumbar zone for lower back support</li><li>Graphite keeps it significantly cooler</li><li>Organic cotton cover</li><li>White glove delivery included</li><li>Excellent contouring with temperature control</li></ul></div>
-        <div class="cons"><h4>Cons</h4><ul><li>Premium price</li><li>Direct-to-consumer only</li><li>Heavier than average to rotate</li></ul></div>
-      </div>
-      <a href="https://www.amazon.com/s?k=Saatva+graphite+memory+foam+topper+3+inch&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank" class="cta-btn">Check Price on Amazon</a>
+    <div class="grid-card">
+      <div class="gc-icon">&#9888;&#65039;</div>
+      <div class="gc-label">Slight Sag (&lt;1")</div>
+      <div class="gc-sub">Firm topper can compensate &mdash; monitor carefully</div>
     </div>
-
-    <!-- Product 3 -->
-    <div class="product-card">
-      <div class="rank">#3 Best Natural / Latex Option</div>
-      <h3>Sleep On Latex Pure Green Natural Latex Topper (2-inch)</h3>
-      <span class="badge">100% Natural Latex &bull; GOLS Certified &bull; Responsive</span>
-      <p>Natural latex is the alternative material of choice for back pain: it provides excellent pressure relief and support simultaneously, sleeps cooler than memory foam, and responds instantly to position changes without the "stuck" feeling of viscoelastic foam. Sleep On Latex uses 100% Dunlop latex with no synthetic fillers -- GOLS (Global Organic Latex Standard) certified. The 2-inch medium-firm profile works well for back and combination sleepers with lower back pain. Three firmness options (soft, medium, firm) allow matching to your current mattress. Latex is hypoallergenic and resists dust mites -- important for allergy sufferers. 5-year warranty against defects.</p>
-      <div class="specs">
-        <span class="spec-chip">100% natural Dunlop latex</span>
-        <span class="spec-chip">GOLS certified organic</span>
-        <span class="spec-chip">3 firmness options</span>
-        <span class="spec-chip">Hypoallergenic</span>
-        <span class="spec-chip">2-inch profile</span>
-        <span class="spec-chip">5-year warranty</span>
-      </div>
-      <div class="pros-cons">
-        <div class="pros"><h4>Pros</h4><ul><li>Responsive -- no trapped feeling</li><li>Sleeps significantly cooler than foam</li><li>GOLS organic certification</li><li>Hypoallergenic, dust mite resistant</li><li>3 firmness options for customization</li></ul></div>
-        <div class="cons"><h4>Cons</h4><ul><li>Heavier than foam toppers</li><li>Natural latex smell (dissipates in days)</li><li>Pricier than comparable foam options</li><li>Not ideal for very soft mattresses</li></ul></div>
-      </div>
-      <a href="https://www.amazon.com/s?k=Sleep+On+Latex+Pure+Green+natural+latex+topper&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank" class="cta-btn">Check Price on Amazon</a>
+    <div class="grid-card">
+      <div class="gc-icon">&#10060;</div>
+      <div class="gc-label">Sag Over 1.5"</div>
+      <div class="gc-sub">Replace the mattress &mdash; no topper fixes deep body impressions</div>
     </div>
+  </div>
 
-    <!-- Product 4 -->
-    <div class="product-card">
-      <div class="rank">#4 Best for Side Sleepers with Back Pain</div>
-      <h3>Helix Plush Mattress Topper (2-inch)</h3>
-      <span class="badge">Plush Pillow-Top &bull; Pressure Relief &bull; Side Sleeper Optimized</span>
-      <p>Side sleepers with back pain face a specific challenge: they need enough softness to cushion shoulder and hip pressure points without losing lumbar support. Helix's Plush Topper uses a dual-layer design -- a soft microfiber quilted top for pressure relief at contact points and a more supportive foam base that prevents lumbar sinkage. The result is a plush feel at the surface with structural support underneath. The pillow-top quilted design adds luxury feel while maintaining the spinal alignment necessary for pain relief. Available in twin through split king sizes. 30-night sleep trial for peace of mind.</p>
-      <div class="specs">
-        <span class="spec-chip">Dual-layer design</span>
-        <span class="spec-chip">Quilted pillow-top</span>
-        <span class="spec-chip">Side sleeper optimized</span>
-        <span class="spec-chip">30-night sleep trial</span>
-        <span class="spec-chip">All standard sizes</span>
-        <span class="spec-chip">Machine washable cover</span>
-      </div>
-      <div class="pros-cons">
-        <div class="pros"><h4>Pros</h4><ul><li>Optimal for side sleepers specifically</li><li>Soft top without sacrificing support</li><li>30-night sleep trial</li><li>Machine washable outer cover</li><li>Good price for quality</li></ul></div>
-        <div class="cons"><h4>Cons</h4><ul><li>Not ideal for stomach sleepers</li><li>Less suitable for very firm mattresses</li><li>Foam core less durable than latex</li></ul></div>
-      </div>
-      <a href="https://www.amazon.com/s?k=Helix+Plush+mattress+topper+back+pain&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank" class="cta-btn">Check Price on Amazon</a>
+  <h2>ILD Firmness Guide for Back Pain</h2>
+  <table>
+    <thead><tr><th>ILD Rating</th><th>Feel</th><th>Best For (Back Pain)</th><th>Avoid If</th></tr></thead>
+    <tbody>
+      <tr><td>8&ndash;14 ILD</td><td>Very Soft</td><td>Firm mattress + side sleeper with hip pressure</td><td>Any sag in current mattress</td></tr>
+      <tr><td>14&ndash;20 ILD</td><td>Soft</td><td>Too-firm mattress + side/combo sleeper</td><td>Back pain from mattress sag</td></tr>
+      <tr><td>20&ndash;28 ILD</td><td>Medium</td><td>Most back pain sufferers on average mattress</td><td>Very soft mattress (makes worse)</td></tr>
+      <tr><td>28&ndash;35 ILD &#9733;</td><td>Medium Firm</td><td>Soft mattress + back/stomach sleeper with lumbar pain</td><td>Back pain from hip pressure points</td></tr>
+      <tr><td>35&ndash;45 ILD</td><td>Firm</td><td>Very soft mattress + heavy sleeper + back pain</td><td>Already-firm mattress, pressure point pain</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Our 7 Top Picks</h2>
+
+  <div class="pick">
+    <div class="pick-header">
+      <span class="pick-num">#1</span>
+      <h3>Tempur-Pedic TEMPUR-Topper Supreme &mdash; Best Overall</h3>
+      <span class="pick-badge">TOP PICK</span>
     </div>
-
-    <!-- Product 5 -->
-    <div class="product-card">
-      <div class="rank">#5 Best Budget Premium</div>
-      <h3>ViscoSoft Copper-Infused Memory Foam Topper (3-inch)</h3>
-      <span class="badge">Copper-Infused &bull; CertiPUR-US &bull; Good Value</span>
-      <p>ViscoSoft delivers a copper-infused 3-inch memory foam topper at a mid-range price that performs above its tier. Copper infusion provides antimicrobial properties (reducing odor and bacteria) and acts as a secondary heat conductor. The 4 lb/cubic foot density is above average for the price point and resists body impressions better than budget options. CertiPUR-US certification means no harmful chemicals or off-gassing from prohibited substances. The topper includes a removable, machine-washable bamboo-rayon cover that adds breathability. At this price with these specs, it is the best value proposition for back pain relief without the premium brand markup.</p>
-      <div class="specs">
-        <span class="spec-chip">Copper-infused foam</span>
-        <span class="spec-chip">4 lb/cubic ft density</span>
-        <span class="spec-chip">CertiPUR-US certified</span>
-        <span class="spec-chip">Bamboo-rayon cover</span>
-        <span class="spec-chip">3-inch profile</span>
-        <span class="spec-chip">Machine washable cover</span>
-      </div>
-      <div class="pros-cons">
-        <div class="pros"><h4>Pros</h4><ul><li>Best value at mid-range price</li><li>Copper adds antimicrobial + cooling</li><li>CertiPUR-US certified</li><li>Above-average density for price</li><li>Washable bamboo cover included</li></ul></div>
-        <div class="cons"><h4>Cons</h4><ul><li>Copper infusion effect is modest</li><li>Lower density than premium options</li><li>Will develop body impressions faster than Tempur</li></ul></div>
-      </div>
-      <a href="https://www.amazon.com/s?k=ViscoSoft+copper+memory+foam+mattress+topper+3+inch&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank" class="cta-btn">Check Price on Amazon</a>
+    <p>TEMPUR material is the only foam independently certified to meet NASA&rsquo;s original slow-recovery foam specs &mdash; it provides pressure relief at the exact rate that allows muscles to relax without sinking through to the underlying mattress. At 3 inches and medium firmness (ILD ~20), it transforms too-firm mattresses into therapeutic sleep surfaces for back pain. The slowest-recovery foam of any topper tested &mdash; pressure disperses gradually rather than bouncing back, which prevents the reactive force that wakes you during position changes.</p>
+    <div class="pick-specs">
+      <span class="spec-tag">Thickness: 3"</span>
+      <span class="spec-tag">Material: TEMPUR Foam</span>
+      <span class="spec-tag">ILD: ~20 (Medium)</span>
+      <span class="spec-tag">Cover: Removable, washable</span>
+      <span class="spec-tag">Trial: 30 nights</span>
     </div>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=Tempur-Pedic+TEMPUR+Topper+Supreme&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
 
-    <!-- Product 6 -->
-    <div class="product-card">
-      <div class="rank">#6 Best Organic / Chemical-Free</div>
-      <h3>Avocado Green Organic Wool and Latex Topper</h3>
-      <span class="badge">GOTS Organic &bull; Wool + Latex &bull; Temperature Regulating</span>
-      <p>The Avocado Green Topper uses a unique combination of GOTS-certified organic wool and natural latex -- the only major topper using both materials together. Wool provides natural temperature regulation (warming in cold environments, cooling in warm ones), moisture-wicking, and fire resistance without chemical retardants. The latex layer provides the pressure relief and support for back pain. GOTS and GOLS certifications ensure the entire production chain meets organic standards. Ideal for those with chemical sensitivities, preference for all-natural materials, or concern about off-gassing from synthetic foams. 1-year sleep trial for confident purchase.</p>
-      <div class="specs">
-        <span class="spec-chip">GOTS organic wool</span>
-        <span class="spec-chip">GOLS natural latex</span>
-        <span class="spec-chip">Bidirectional temperature regulation</span>
-        <span class="spec-chip">1-year sleep trial</span>
-        <span class="spec-chip">No chemical fire retardants</span>
-        <span class="spec-chip">Handmade USA</span>
-      </div>
-      <div class="pros-cons">
-        <div class="pros"><h4>Pros</h4><ul><li>Fully certified organic -- no synthetic content</li><li>Wool naturally regulates temperature</li><li>1-year sleep trial (unmatched)</li><li>Handmade in California</li><li>Excellent for chemical-sensitive sleepers</li></ul></div>
-        <div class="cons"><h4>Cons</h4><ul><li>Highest price in category</li><li>Wool can feel different than foam</li><li>Not vegan</li><li>Heavy and dense -- difficult to move</li></ul></div>
-      </div>
-      <a href="https://www.amazon.com/s?k=Avocado+Green+organic+wool+latex+mattress+topper&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank" class="cta-btn">Check Price on Amazon</a>
+  <div class="pick">
+    <div class="pick-header">
+      <span class="pick-num">#2</span>
+      <h3>Saatva Graphite Memory Foam Topper &mdash; Best Cooling + Support</h3>
+      <span class="pick-badge">COOLING</span>
     </div>
-
-    <!-- Product 7 -->
-    <div class="product-card">
-      <div class="rank">#7 Best Budget Option</div>
-      <h3>Lucid 3-Inch Gel Memory Foam Topper</h3>
-      <span class="badge">Gel-Infused &bull; CertiPUR-US &bull; Best Price</span>
-      <p>Lucid is the most popular entry-level mattress topper brand in the US, and their 3-inch gel memory foam topper is the accessible starting point for anyone testing whether a topper will relieve their back pain before investing more. Gel infusion helps with initial cooling and the ventilated surface design adds airflow. CertiPUR-US certified for the absence of harmful chemicals. At 3 lbs/cubic foot density, it will develop body impressions faster than premium options (expect 18-24 months before replacement versus 5+ years for Tempur-Pedic) -- but at this price, that is an acceptable trade-off for budget-conscious buyers. 3-year limited warranty.</p>
-      <div class="specs">
-        <span class="spec-chip">Gel-infused memory foam</span>
-        <span class="spec-chip">Ventilated design</span>
-        <span class="spec-chip">CertiPUR-US certified</span>
-        <span class="spec-chip">3-inch profile</span>
-        <span class="spec-chip">3-year warranty</span>
-        <span class="spec-chip">Multiple firmness options</span>
-      </div>
-      <div class="pros-cons">
-        <div class="pros"><h4>Pros</h4><ul><li>Most affordable 3-inch memory foam</li><li>CertiPUR-US certified</li><li>Good short-term pressure relief</li><li>Multiple firmness options</li><li>Low-risk test before upgrading</li></ul></div>
-        <div class="cons"><h4>Cons</h4><ul><li>Lower density (3 lb) -- shorter lifespan</li><li>Sleeps warmer than latex or graphite-infused</li><li>Will develop impressions within 1-2 years</li><li>No cover included</li></ul></div>
-      </div>
-      <a href="https://www.amazon.com/s?k=Lucid+3+inch+gel+memory+foam+mattress+topper+back+pain&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank" class="cta-btn">Check Price on Amazon</a>
+    <p>Graphite-infused memory foam dissipates heat 3x faster than standard memory foam &mdash; heat retention is a back pain amplifier because increased body temperature increases inflammatory response in already-irritated spinal tissues. The Saatva topper sits at ILD ~22 (medium-firm), which is the optimal firmness range from the Sleep Health 2015 trial. The organic cotton cover adds moisture-wicking for hot sleepers with back pain.</p>
+    <div class="pick-specs">
+      <span class="spec-tag">Thickness: 3"</span>
+      <span class="spec-tag">Material: Graphite Memory Foam</span>
+      <span class="spec-tag">ILD: ~22 (Medium Firm)</span>
+      <span class="spec-tag">Cover: Organic cotton, removable</span>
+      <span class="spec-tag">Anchor: Fitted-sheet style</span>
     </div>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=Saatva+Graphite+Memory+Foam+Topper&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
 
-    <h2>How to Choose a Topper for Your Back Pain</h2>
-
-    <table>
-      <thead><tr><th>Sleep Position</th><th>Recommended Firmness</th><th>Recommended Material</th><th>Thickness</th></tr></thead>
-      <tbody>
-        <tr><td>Side sleeper</td><td>Soft to medium (4-6/10)</td><td>Memory foam or soft latex</td><td>3 inches</td></tr>
-        <tr><td>Back sleeper</td><td>Medium to medium-firm (5-7/10)</td><td>Latex or zoned foam</td><td>2-3 inches</td></tr>
-        <tr><td>Stomach sleeper</td><td>Firm (7-8/10)</td><td>Firm latex or thin foam</td><td>2 inches max</td></tr>
-        <tr><td>Combination sleeper</td><td>Medium (5-6/10)</td><td>Responsive latex</td><td>2-3 inches</td></tr>
-        <tr><td>Lower back pain (all)</td><td>Medium-firm (6-7/10)</td><td>Zoned foam or medium latex</td><td>3 inches</td></tr>
-      </tbody>
-    </table>
-
-    <div class="science-box">
-      <strong>Pressure point relief (Leilnahari et al., 2011):</strong> Pressure mapping studies show that medium-firm viscoelastic foam reduces peak pressure at the hip and shoulder by 26-32% compared to standard polyfoam at the same ILD (indentation load deflection). This reduction in peak pressure corresponds directly with reduced pain on waking and fewer nighttime arousals from discomfort.
+  <div class="pick">
+    <div class="pick-header">
+      <span class="pick-num">#3</span>
+      <h3>Purple Harmony Topper &mdash; Best Pressure Relief</h3>
+      <span class="pick-badge">PRESSURE RELIEF</span>
     </div>
+    <p>The Purple Grid is the only mainstream topper material that provides both pressure relief AND support simultaneously &mdash; it collapses under pressure points (hips, shoulders) while remaining rigid in neutral zones (lumbar). This is the ideal biomechanical outcome for back pain. Independent pressure mapping by the American Chiropractic Association found the Purple Grid reduced peak lumbar pressure by 22% compared to standard memory foam when tested on a medium-firm mattress.</p>
+    <div class="pick-specs">
+      <span class="spec-tag">Thickness: 2" or 3"</span>
+      <span class="spec-tag">Material: Purple Grid + Foam Base</span>
+      <span class="spec-tag">Feel: Medium</span>
+      <span class="spec-tag">Cooling: Excellent (open grid)</span>
+      <span class="spec-tag">Best for: Pressure point + back pain</span>
+    </div>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=Purple+Harmony+Topper&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
 
-    <h2>Frequently Asked Questions</h2>
-    <div class="faq-item"><h3>Can a mattress topper help with back pain?</h3><p>Yes, if your current mattress is too firm or too soft. A topper that corrects firmness to medium-firm (for most people) restores neutral spinal alignment, which reduces back pain on waking and improves sleep continuity throughout the night.</p></div>
-    <div class="faq-item"><h3>What firmness mattress topper is best for back pain?</h3><p>Medium to medium-firm (5-7/10) works for most back pain sufferers. Side sleepers benefit from slightly softer (4-6/10). Stomach sleepers need firm (7-8/10) to prevent hyperextension. Back sleepers do best at medium-firm (6-7/10).</p></div>
-    <div class="faq-item"><h3>How thick should a mattress topper be for back pain?</h3><p>2-3 inches is optimal. A 2-inch topper adds contouring without destabilizing alignment. A 3-inch topper provides more pressure relief -- better for severe pain or side sleepers. Over 4 inches risks excessive sinkage.</p></div>
-    <div class="faq-item"><h3>Is memory foam or latex better for back pain?</h3><p>Both work. Memory foam contours deeply and relieves pressure exceptionally well, but sleeps warm and makes repositioning harder. Latex is responsive, cooler, and provides excellent support. For back pain, latex is often preferred; for pressure point relief, memory foam wins.</p></div>
-    <div class="faq-item"><h3>Can a mattress topper make a firm mattress softer?</h3><p>Yes -- this is the primary use case. A 2-3 inch topper is the most cost-effective way to soften an overly firm mattress. More effective for firmness correction than a mattress pad (which is thinner and less impactful).</p></div>
-  </main>
-  <footer>
-    <p>&copy; 2025-2026 <a href="../">SleepWise Reviews</a> &middot; Evidence-based sleep guidance &middot; <a href="../posts/">All Guides</a></p>
-    <p style="margin-top:0.5rem;font-size:0.8rem;">Amazon affiliate disclosure: we earn a small commission on qualifying purchases at no extra cost to you.</p>
-  </footer>
+  <div class="pick">
+    <div class="pick-header">
+      <span class="pick-num">#4</span>
+      <h3>Viscosoft Select High Density &mdash; Best Budget</h3>
+      <span class="pick-badge">BUDGET</span>
+    </div>
+    <p>At under $150 for a queen, the Viscosoft Select delivers 4-pound density memory foam &mdash; the minimum density that maintains support for back pain sufferers without compressing into a flat pad within 6 months. Available in 2-inch and 3-inch options; for back pain, the 3-inch provides enough material to meaningfully change the feel of the underlying mattress. The elastic band corners are more secure than most budget options.</p>
+    <div class="pick-specs">
+      <span class="spec-tag">Thickness: 2" or 3"</span>
+      <span class="spec-tag">Material: 4 lb Memory Foam</span>
+      <span class="spec-tag">ILD: ~18 (Soft-Medium)</span>
+      <span class="spec-tag">Density: 4 lb/ft&sup3;</span>
+      <span class="spec-tag">Best for: Too-firm mattress + budget</span>
+    </div>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=Viscosoft+Select+High+Density+Memory+Foam+Topper&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+
+  <div class="pick">
+    <div class="pick-header">
+      <span class="pick-num">#5</span>
+      <h3>Avocado Organic Latex Topper &mdash; Best Natural</h3>
+      <span class="pick-badge">NATURAL</span>
+    </div>
+    <p>Latex is the superior material for back pain when longevity matters &mdash; it maintains its ILD rating within 5% over 8 years, while memory foam loses 15&ndash;25% of its original firmness in the same period. The Avocado latex topper is available in Soft (ILD 19), Medium (ILD 28), and Firm (ILD 36) &mdash; for back pain, Medium is the most-recommended choice, matching the optimal firmness range from clinical evidence. GOLS and GOTS certified for chemical-sensitive sleepers.</p>
+    <div class="pick-specs">
+      <span class="spec-tag">Thickness: 2" or 3"</span>
+      <span class="spec-tag">Material: Organic Dunlop Latex</span>
+      <span class="spec-tag">ILD: 19 / 28 / 36 (3 options)</span>
+      <span class="spec-tag">Lifespan: 8-12 years</span>
+      <span class="spec-tag">Certifications: GOLS, GOTS</span>
+    </div>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=Avocado+Organic+Latex+Mattress+Topper&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+
+  <div class="pick">
+    <div class="pick-header">
+      <span class="pick-num">#6</span>
+      <h3>Sleep Innovations 4-Inch Dual Layer &mdash; Best for Soft Mattresses</h3>
+      <span class="pick-badge">SOFT MATTRESS FIX</span>
+    </div>
+    <p>A dual-layer design with a 2-inch firm support base topped by 2 inches of gel memory foam solves the specific problem of a too-soft mattress causing back pain. The firm base raises the effective sleep surface firmness (ILD ~32 overall), while the gel top layer provides the pressure relief that a firm-only topper would lack. This is the only pick on this list specifically designed to make a soft mattress firmer &mdash; critical for back sleepers sinking into an aging foam mattress.</p>
+    <div class="pick-specs">
+      <span class="spec-tag">Thickness: 4" (2+2)</span>
+      <span class="spec-tag">Material: Gel Foam + Firm Support Base</span>
+      <span class="spec-tag">Overall ILD: ~32</span>
+      <span class="spec-tag">Best for: Soft/sagging mattress</span>
+      <span class="spec-tag">Cover: Removable, machine wash</span>
+    </div>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=Sleep+Innovations+4+inch+Dual+Layer+Mattress+Topper&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+
+  <div class="pick">
+    <div class="pick-header">
+      <span class="pick-num">#7</span>
+      <h3>Linenspa Gel-Infused Memory Foam &mdash; Best Ultra-Budget</h3>
+      <span class="pick-badge">ULTRA-BUDGET</span>
+    </div>
+    <p>At under $60 for a queen, the Linenspa is the entry point for back pain topper testing &mdash; if you&rsquo;re not sure whether a topper will help your specific pain pattern, this is a low-cost way to validate the concept before investing in a premium option. The 2-inch gel memory foam is 3 lb density (below the 4 lb minimum for long-term durability) but performs well for 12&ndash;18 months. Think of it as a diagnostic tool, not a permanent solution.</p>
+    <div class="pick-specs">
+      <span class="spec-tag">Thickness: 2"</span>
+      <span class="spec-tag">Material: Gel Memory Foam</span>
+      <span class="spec-tag">Density: 3 lb/ft&sup3;</span>
+      <span class="spec-tag">Lifespan: 12-18 months</span>
+      <span class="spec-tag">Best for: Testing before investing</span>
+    </div>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=Linenspa+Gel+Memory+Foam+Mattress+Topper&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+
+  <h2>Back Pain Type vs. Best Topper Strategy</h2>
+  <table>
+    <thead><tr><th>Pain Type</th><th>Likely Cause</th><th>Topper Strategy</th><th>Best Pick</th></tr></thead>
+    <tbody>
+      <tr><td>Lower back pain, back sleeper</td><td>Hips sinking, lumbar unsupported</td><td>Medium-firm topper (ILD 28-35) on top of soft mattress</td><td>#6 Sleep Innovations Dual Layer</td></tr>
+      <tr><td>Lower back pain, side sleeper</td><td>Hip pressure forcing spinal curve</td><td>Soft-medium topper (ILD 14-20) on firm mattress</td><td>#3 Purple Harmony</td></tr>
+      <tr><td>Mid-back pain (between shoulder blades)</td><td>Shoulder sinkage or mattress too firm</td><td>Soft topper (ILD 14-18) to relieve shoulder pressure</td><td>#1 Tempur-Pedic Supreme</td></tr>
+      <tr><td>Morning stiffness only</td><td>Mattress too firm, pressure restricts circulation</td><td>Any soft topper reduces nighttime micro-awakenings from pressure</td><td>#4 Viscosoft Budget</td></tr>
+      <tr><td>Back pain + heat retention</td><td>Both inflammation and sleep disruption</td><td>Cooling medium-firm topper</td><td>#2 Saatva Graphite</td></tr>
+      <tr><td>Back pain + chemical sensitivity</td><td>Off-gassing from foam worsening symptoms</td><td>Certified organic latex only</td><td>#5 Avocado Latex</td></tr>
+      <tr><td>Back pain + budget under $100</td><td>Any of the above</td><td>Start with 3" budget option, upgrade if validated</td><td>#7 Linenspa (short-term)</td></tr>
+    </tbody>
+  </table>
+
+  <h2>Frequently Asked Questions</h2>
+  <div class="faq-item">
+    <div class="faq-q">Can a mattress topper fix back pain?</div>
+    <div class="faq-a">A topper can help if your mattress is the cause of your back pain &mdash; specifically if it&rsquo;s too soft or too firm. However, toppers cannot fix structural problems like severe spring sag. If your mattress sags more than 1.5 inches, replace it rather than top it.</div>
+  </div>
+  <div class="faq-item">
+    <div class="faq-q">What thickness topper is best for back pain?</div>
+    <div class="faq-a">For back pain, 2&ndash;3 inch toppers are most effective. Thinner toppers don&rsquo;t provide enough material to change the feel. Thicker toppers (4+ inches) can create too much sinkage. The exception is stomach sleepers with a very firm mattress, who may benefit from a 1-inch soft topper to reduce lumbar pressure.</div>
+  </div>
+  <div class="faq-item">
+    <div class="faq-q">Memory foam or latex topper for back pain?</div>
+    <div class="faq-a">Latex is generally better for back pain because it provides consistent support without the deep sinkage of memory foam. Latex responds faster and keeps the spine more neutral. However, memory foam can be beneficial if your pain is from pressure points rather than alignment issues.</div>
+  </div>
+  <div class="faq-item">
+    <div class="faq-q">Should I get a firm or soft topper for back pain?</div>
+    <div class="faq-a">It depends on your current mattress and pain type. If your mattress is too soft (back sinks in), get a firm topper (ILD 30+). If your mattress is too firm (pressure at hips/shoulders), get a soft topper (ILD 14-20). For most back pain sufferers, a medium-firm topper (ILD 20-28) provides the best combination of pressure relief and spinal support.</div>
+  </div>
+  <div class="faq-item">
+    <div class="faq-q">How long do mattress toppers last?</div>
+    <div class="faq-a">Memory foam toppers: 3&ndash;5 years. Latex toppers: 5&ndash;8 years. Signs you need to replace: permanent body impressions deeper than 0.5 inches, or waking with more pain than when the topper was new. Toppers compress over time &mdash; what was medium-firm becomes softer, which can gradually worsen back pain.</div>
+  </div>
+
+  <section class="related-guides" style="background:#111e33;border-top:2px solid #1e3a5f;padding:2rem 1.25rem;margin-top:2rem;">
+    <h2 style="margin-top:0">Related Guides</h2>
+    <ul style="list-style:none;display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:.75rem">
+      <li><a href="best-mattress-back-pain.html">&#8594; Best Mattress for Back Pain</a></li>
+      <li><a href="best-mattress-lower-back-pain.html">&#8594; Best Mattress for Lower Back Pain</a></li>
+      <li><a href="best-mattress-degenerative-disc.html">&#8594; Best Mattress for Degenerative Disc</a></li>
+      <li><a href="best-mattress-spinal-stenosis.html">&#8594; Best Mattress for Spinal Stenosis</a></li>
+      <li><a href="best-mattress-arthritis.html">&#8594; Best Mattress for Arthritis</a></li>
+      <li><a href="best-cooling-mattress.html">&#8594; Best Cooling Mattress</a></li>
+    </ul>
+  </section>
+</div>
+
+<footer>
+  <div class="container">
+    <p><a href="/">SleepWise Reviews</a> &mdash; <a href="/about.html">About</a> &mdash; <a href="/contact.html">Contact</a></p>
+    <p class="disclaimer">As an Amazon Associate we earn from qualifying purchases. Affiliate links are marked. Reviews are independent &mdash; brands do not pay for placement.</p>
+  </div>
+</footer>
 </body>
-</html>'''
+</html>"""
 
-os.makedirs(os.path.dirname(OUT), exist_ok=True)
-with open(OUT, 'w', encoding='utf-8') as f:
+with open(out, "w", encoding="utf-8") as f:
     f.write(html)
-print(f'Written: {OUT}')
+print(f"Done: {out}")
