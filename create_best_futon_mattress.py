@@ -1,0 +1,273 @@
+slug = "best-futon-mattress"
+out = f"posts/{slug}.html"
+
+html = r"""<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Best Futon Mattress 2026 — Top 7 Picks for Sofa Beds</title>
+  <meta name="description" content="Best futon mattresses of 2026. 7 expert picks for daily use, guest rooms, and sofa beds — with a thickness guide, material comparison, and fold-flex rating table.">
+  <link rel="canonical" href="https://sleepwisereviews.com/posts/best-futon-mattress.html">
+  <meta property="og:title" content="Best Futon Mattress 2026 — Top 7 Picks for Sofa Beds">
+  <meta property="og:description" content="7 futon mattress picks for daily use, guest rooms, and sofa beds — thickness guide, material comparison, fold-flex ratings.">
+  <meta property="og:url" content="https://sleepwisereviews.com/posts/best-futon-mattress.html">
+  <meta property="og:type" content="article">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Best Futon Mattress 2026 — Top 7 Picks for Sofa Beds">
+  <meta name="twitter:description" content="7 futon mattress picks — thickness guide, material comparison, fold-flex ratings for daily use and guest rooms.">
+  <style>
+    :root{--bg:#0a1628;--card:#111e33;--gold:#c9a84c;--text:#e2e8f0;--muted:#94a3b8;--blue:#3b82f6;--border:#1e3a5f}
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{background:var(--bg);color:var(--text);font-family:'Segoe UI',system-ui,sans-serif;line-height:1.7}
+    header{background:linear-gradient(135deg,#0a1628 0%,#0f2347 100%);border-bottom:2px solid var(--gold);padding:1rem 1.25rem;text-align:center}
+    header a{color:var(--gold);text-decoration:none;font-size:1.4rem;font-weight:700;letter-spacing:.03em}
+    .container{max-width:820px;margin:0 auto;padding:2rem 1.25rem}
+    .badge{display:inline-block;background:var(--blue);color:#fff;font-size:.7rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;padding:.25rem .7rem;border-radius:20px;margin-bottom:1rem}
+    h1{font-size:2rem;font-weight:800;color:#fff;line-height:1.25;margin-bottom:.75rem}
+    .meta{color:var(--muted);font-size:.85rem;margin-bottom:2rem}
+    .intro{font-size:1.05rem;color:var(--text);margin-bottom:2.5rem;line-height:1.8}
+    /* thickness grid */
+    .thick-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:1rem;margin:2rem 0}
+    .thick-card{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:1.1rem;text-align:center}
+    .thick-card.featured{border-color:var(--gold)}
+    .thick-card .inches{font-size:1.5rem;font-weight:800;color:var(--gold);margin-bottom:.2rem}
+    .thick-card .label{font-size:.78rem;font-weight:700;color:var(--muted);margin-bottom:.4rem}
+    .thick-card p{font-size:.8rem;color:var(--text);line-height:1.5}
+    /* product cards */
+    .product-card{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:1.5rem;margin-bottom:1.5rem}
+    .product-card .rank{font-size:.7rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--gold);margin-bottom:.25rem}
+    .product-card h2{font-size:1.2rem;font-weight:700;color:#fff;margin-bottom:.5rem}
+    .product-card .verdict{font-size:.9rem;color:var(--muted);margin-bottom:.75rem;font-style:italic}
+    .product-card p{font-size:.92rem;color:var(--text);line-height:1.7;margin-bottom:1rem}
+    .specs-row{display:flex;flex-wrap:wrap;gap:.5rem;margin-bottom:1rem}
+    .spec-tag{background:#0a1628;border:1px solid var(--border);border-radius:20px;padding:.2rem .75rem;font-size:.78rem;color:var(--muted)}
+    .cta-btn{display:inline-block;background:var(--gold);color:#0a1628;font-weight:700;font-size:.9rem;padding:.6rem 1.4rem;border-radius:8px;text-decoration:none;transition:opacity .2s}
+    .cta-btn:hover{opacity:.85}
+    /* table */
+    .table-wrap{overflow-x:auto;margin:2rem 0}
+    table{width:100%;border-collapse:collapse;font-size:.88rem}
+    th{background:#0f2347;color:var(--gold);padding:.6rem .75rem;text-align:left;border-bottom:2px solid var(--border);font-size:.78rem;letter-spacing:.05em;text-transform:uppercase}
+    td{padding:.6rem .75rem;border-bottom:1px solid var(--border);color:var(--text);vertical-align:top}
+    tr:nth-child(even) td{background:rgba(255,255,255,.02)}
+    h2.section{font-size:1.35rem;font-weight:700;color:#fff;margin:2.5rem 0 1rem}
+    footer{background:#060e1a;border-top:1px solid var(--border);padding:2rem 1.25rem;text-align:center;color:var(--muted);font-size:.82rem;margin-top:3rem}
+    footer a{color:var(--gold);text-decoration:none}
+    @media(max-width:600px){h1{font-size:1.5rem}}
+  </style>
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@graph":[
+      {"@type":"Article","headline":"Best Futon Mattress 2026","description":"7 futon mattresses for daily use, guest rooms, and sofa beds — with thickness guide, material comparison, and fold-flex ratings.","url":"https://sleepwisereviews.com/posts/best-futon-mattress.html","publisher":{"@type":"Organization","name":"SleepWise Reviews","url":"https://sleepwisereviews.com"},"datePublished":"2026-05-25","dateModified":"2026-05-25"},
+      {"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://sleepwisereviews.com"},{"@type":"ListItem","position":2,"name":"Mattresses & Bedding","item":"https://sleepwisereviews.com/posts/index.html"},{"@type":"ListItem","position":3,"name":"Best Futon Mattress","item":"https://sleepwisereviews.com/posts/best-futon-mattress.html"}]},
+      {"@type":"ItemList","name":"Best Futon Mattresses 2026","itemListElement":[
+        {"@type":"ListItem","position":1,"name":"DHP 8-Inch Independently Encased Coil — Best Overall"},
+        {"@type":"ListItem","position":2,"name":"Mozaic 6-Inch Cotton Futon — Best Budget"},
+        {"@type":"ListItem","position":3,"name":"Serta Ashland 8-Inch Futon Mattress — Best Comfort"},
+        {"@type":"ListItem","position":4,"name":"Lucid 10-Inch Memory Foam — Best for Daily Sleeping"},
+        {"@type":"ListItem","position":5,"name":"Milliard Tri-Fold — Best for Guest Rooms"},
+        {"@type":"ListItem","position":6,"name":"Kodiak Brooklyn Bedding — Best Natural"},
+        {"@type":"ListItem","position":7,"name":"Night Therapy 8-Inch Spring Futon — Best Value Coil"}
+      ]},
+      {"@type":"FAQPage","mainEntity":[
+        {"@type":"Question","name":"How thick should a futon mattress be?","acceptedAnswer":{"@type":"Answer","text":"For occasional guest use: 6 inches is sufficient. For regular sofa-to-bed use (a few nights per week): 8 inches is the minimum. For daily sleeping as a primary bed: 10 inches or more. Thinner futon mattresses (under 6 inches) are comfortable as seating but cause back pain when used for extended sleeping."}},
+        {"@type":"Question","name":"What is the best filling for a futon mattress?","acceptedAnswer":{"@type":"Answer","text":"For daily sleeping: memory foam or innerspring (best support, longest durability). For guest/occasional use: cotton or foam (acceptable, lower cost). For natural materials: wool or cotton layered futons. Cotton filling is the most traditional but compresses over time and needs regular rotation. Memory foam maintains shape longest but does not allow folding as easily."}},
+        {"@type":"Question","name":"Can you use a regular mattress on a futon frame?","acceptedAnswer":{"@type":"Answer","text":"No — a regular mattress cannot fold, which means it cannot convert between sofa and bed mode on a futon frame. You need a mattress specifically designed for futon use, which uses flexible materials (cotton, foam, or flexible coils) that can be bent at the fold point without damage."}},
+        {"@type":"Question","name":"How long does a futon mattress last?","acceptedAnswer":{"@type":"Answer","text":"Cotton futon mattresses: 5-7 years with regular rotation. Foam futon mattresses: 5-8 years. Innerspring futon mattresses: 8-10 years. Durability depends heavily on frequency of use — a futon used daily as a primary bed will wear 2-3x faster than one used only for occasional guests."}},
+        {"@type":"Question","name":"Are futon mattresses good for your back?","acceptedAnswer":{"@type":"Answer","text":"A high-quality 8-10 inch futon mattress with innerspring or memory foam can provide adequate back support for short-term use. For long-term primary sleeping, futon mattresses are generally not as supportive as dedicated mattresses because the fold point reduces structural integrity over time. For daily sleeping, choose a 10-inch+ futon with individually wrapped coils or high-density memory foam."}}
+      ]}
+    ]
+  }
+  </script>
+</head>
+<body>
+<header>
+  <a href="https://sleepwisereviews.com">SleepWise Reviews</a>
+</header>
+
+<div class="container">
+  <span class="badge">Mattresses &amp; Bedding</span>
+  <h1>Best Futon Mattress 2026 — Top 7 Picks for Sofa Beds</h1>
+  <p class="meta">Updated May 2026 &nbsp;|&nbsp; 7 picks &nbsp;|&nbsp; Daily use, guest rooms, dorms, studio apartments</p>
+
+  <p class="intro">The futon mattress is a dual-purpose product — it needs to be comfortable as a sofa cushion and supportive as a sleeping surface. Most futon mattresses fail at one or the other. The best ones use flexible filling materials (cotton layers, foam, or specially wound flexible coils) that fold cleanly at the hinge point without creating a ridge, and thick enough to support a sleeping adult without causing back pain. This guide covers the 7 best futon mattresses of 2026 — with a thickness guide, material comparison, and fold-flex ratings.</p>
+
+  <h2 class="section">Futon Mattress Thickness Guide</h2>
+  <div class="thick-grid">
+    <div class="thick-card">
+      <div class="inches">4-5&Prime;</div>
+      <div class="label">Seating Only</div>
+      <p>Comfortable as a seat cushion. Not recommended for sleeping — will cause back pain overnight.</p>
+    </div>
+    <div class="thick-card">
+      <div class="inches">6&Prime;</div>
+      <div class="label">Occasional Sleep</div>
+      <p>Adequate for 1-2 nights per week (guests). Too thin for regular sleeping.</p>
+    </div>
+    <div class="thick-card featured">
+      <div class="inches">8&Prime;</div>
+      <div class="label">Regular Use &#9733;</div>
+      <p>The sweet spot — folds well, supports sleeping several nights per week, works as seating.</p>
+    </div>
+    <div class="thick-card">
+      <div class="inches">10&Prime;+</div>
+      <div class="label">Daily Sleeping</div>
+      <p>Best if the futon is your primary bed. Some folding resistance — check frame compatibility.</p>
+    </div>
+  </div>
+
+  <h2 class="section">The 7 Best Futon Mattresses</h2>
+
+  <div class="product-card">
+    <div class="rank">#1 Best Overall</div>
+    <h2>DHP 8-Inch Independently Encased Coil Futon Mattress</h2>
+    <div class="verdict">Flexible micro coils fold cleanly at the hinge — the best of both worlds for sleeping support and sofa use.</div>
+    <p>DHP's 8-inch futon mattress uses individually encased micro coils that are thin enough to flex at the fold point without creating a permanent ridge. This is the primary failure mode for coil futon mattresses — standard coils create a hump at the fold over time. The individually encased design prevents this. The quilted cover provides a finished appearance when used as a sofa. At 8 inches, it provides sufficient sleeping support for adults up to 220 lbs. Available in full and queen sizes.</p>
+    <div class="specs-row">
+      <span class="spec-tag">Thickness: 8&Prime;</span>
+      <span class="spec-tag">Fill: Individually encased coils + foam</span>
+      <span class="spec-tag">Fold-flex: Excellent</span>
+      <span class="spec-tag">Best for: Regular guest use, sofa conversion</span>
+    </div>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=DHP+8+inch+futon+mattress+coil&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+
+  <div class="product-card">
+    <div class="rank">#2 Best Budget</div>
+    <h2>Mozaic 6-Inch Cotton Twill Futon Mattress</h2>
+    <div class="verdict">Traditional cotton fill — the most foldable and affordable futon mattress for light guest use.</div>
+    <p>Cotton is the original futon material — it folds completely flat with zero resistance and weighs less than foam alternatives, making it easy to fold and unfold the frame daily. The Mozaic uses a dense cotton blend fill in a durable twill cover. At 6 inches, it is not a primary sleeping surface — but for guests who stay 1-2 nights and daytime seating, it performs well at a significantly lower price than foam or coil alternatives. Needs rotating every 2-3 months to prevent compression patterns.</p>
+    <div class="specs-row">
+      <span class="spec-tag">Thickness: 6&Prime;</span>
+      <span class="spec-tag">Fill: Cotton blend</span>
+      <span class="spec-tag">Fold-flex: Perfect</span>
+      <span class="spec-tag">Best for: Budget, occasional guest use</span>
+    </div>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=Mozaic+6+inch+cotton+futon+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+
+  <div class="product-card">
+    <div class="rank">#3 Best Comfort</div>
+    <h2>Serta Ashland 8-Inch Futon Mattress</h2>
+    <div class="verdict">Serta's mattress engineering applied to a futon format — the most hotel-like sleep experience in a foldable mattress.</div>
+    <p>Serta brings its standard mattress manufacturing quality to the futon category with a layered system: a foam base, a transition layer, and a quilted comfort layer. The result is a futon mattress that feels substantially more like a real mattress than most futon options — it has a finished pillow-top feel on the sleep surface while maintaining the fold flexibility that the futon frame requires. At 8 inches, it is Serta's sweet spot for comfort vs. fold capability. Best for guest rooms where the futon converts to a bed regularly.</p>
+    <div class="specs-row">
+      <span class="spec-tag">Thickness: 8&Prime;</span>
+      <span class="spec-tag">Fill: Foam + quilted comfort layer</span>
+      <span class="spec-tag">Fold-flex: Good</span>
+      <span class="spec-tag">Best for: Guest rooms, regular conversion</span>
+    </div>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=Serta+Ashland+futon+mattress+8+inch&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+
+  <div class="product-card">
+    <div class="rank">#4 Best for Daily Sleeping</div>
+    <h2>Lucid 10-Inch Gel Memory Foam Futon Mattress</h2>
+    <div class="verdict">At 10 inches with gel memory foam, this is the only futon mattress that works as a primary sleeping surface.</div>
+    <p>For studio apartment dwellers or anyone using a futon as their only bed, the Lucid 10-inch is the correct choice. The extra depth (vs. 8-inch options) provides enough foam volume that the comfort layer does not bottom out overnight. The gel-infused memory foam adds temperature regulation. The trade-off: at 10 inches, folding requires more force and will develop a fold point indentation over time. For daily sleepers who fold it every morning, this is acceptable; for those who leave it unfolded indefinitely and use the futon as a platform bed, the fold issue is irrelevant.</p>
+    <div class="specs-row">
+      <span class="spec-tag">Thickness: 10&Prime;</span>
+      <span class="spec-tag">Fill: Gel memory foam</span>
+      <span class="spec-tag">Fold-flex: Moderate (stiff when new)</span>
+      <span class="spec-tag">Best for: Daily sleeping, studio apartments</span>
+    </div>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=Lucid+10+inch+memory+foam+futon+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+
+  <div class="product-card">
+    <div class="rank">#5 Best for Guest Rooms</div>
+    <h2>Milliard Tri-Fold Foam Folding Mattress</h2>
+    <div class="verdict">Tri-fold design stores in a closet — the best solution for guest rooms where the futon is not a permanent fixture.</div>
+    <p>The Milliard Tri-Fold is not technically a futon frame mattress — it is a free-standing folding mattress that functions as a guest bed without any frame at all. It folds into thirds, fits in a closet, and deploys in seconds. At 4 inches of memory foam + 2 inches of support foam (6 total), it is adequate for 1-3 night guest stays. The velvet cover is washable. For guest rooms where a full futon frame would take up permanent space, the Milliard approach (fold and store) is often the better solution.</p>
+    <div class="specs-row">
+      <span class="spec-tag">Thickness: 6&Prime;</span>
+      <span class="spec-tag">Fill: Memory foam + support foam</span>
+      <span class="spec-tag">Fold-flex: Perfect (tri-fold design)</span>
+      <span class="spec-tag">Best for: No-frame guest solution, closet storage</span>
+    </div>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=Milliard+Tri-Fold+folding+mattress+guest&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+
+  <div class="product-card">
+    <div class="rank">#6 Best Natural</div>
+    <h2>Kodiak by Brooklyn Bedding — Organic Cotton Futon</h2>
+    <div class="verdict">GOTS-certified organic cotton fill — the cleanest material option for a futon mattress.</div>
+    <p>Brooklyn Bedding's Kodiak uses GOTS-certified organic cotton batting in multiple layers to create a dense, supportive futon mattress without synthetic foams or coils. The cotton construction is the most foldable filling material — it flexes naturally at any point without creating a permanent crease. For buyers who want chemical-free sleeping surfaces (important for studios and bedrooms with limited ventilation), the all-organic construction eliminates off-gassing concerns. At 8 inches, the dense cotton layering provides adequate support for most adult sleepers.</p>
+    <div class="specs-row">
+      <span class="spec-tag">Thickness: 8&Prime;</span>
+      <span class="spec-tag">Fill: GOTS organic cotton</span>
+      <span class="spec-tag">Fold-flex: Excellent</span>
+      <span class="spec-tag">Best for: Chemical sensitivity, natural materials</span>
+    </div>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=Brooklyn+Bedding+organic+cotton+futon+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+
+  <div class="product-card">
+    <div class="rank">#7 Best Value Coil</div>
+    <h2>Night Therapy 8-Inch Spring Futon Mattress</h2>
+    <div class="verdict">Bonnell spring system at a budget price — good edge support and bounce for the money.</div>
+    <p>The Night Therapy uses a Bonnell (open coil) spring system — the most common and least expensive coil type. Unlike individually wrapped coils, Bonnell springs are connected and move together, which can cause motion transfer if two people share the futon. For solo use or guest situations, this is a non-issue and the Bonnell system provides good bounce and edge support at a lower price than independently encased alternatives. The 8-inch profile folds adequately on standard futon frames. Good for buyers who want coil support without the premium price of individually encased designs.</p>
+    <div class="specs-row">
+      <span class="spec-tag">Thickness: 8&Prime;</span>
+      <span class="spec-tag">Fill: Bonnell coils + foam</span>
+      <span class="spec-tag">Fold-flex: Good</span>
+      <span class="spec-tag">Best for: Budget-conscious, solo use</span>
+    </div>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=Night+Therapy+8+inch+spring+futon+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+
+  <h2 class="section">Futon Mattress Material Comparison</h2>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th>Fill Material</th><th>Fold Flexibility</th><th>Support Level</th><th>Durability</th><th>Best For</th></tr></thead>
+      <tbody>
+        <tr><td>Cotton / wool blend</td><td>Excellent — folds anywhere</td><td>Low-Medium (compresses)</td><td>5-7 years (with rotation)</td><td>Budget, traditional, natural preference</td></tr>
+        <tr><td>Foam (standard polyfoam)</td><td>Good — fold point stiffens</td><td>Medium</td><td>5-7 years</td><td>Occasional use, low cost</td></tr>
+        <tr><td>Memory foam</td><td>Moderate — stiff at fold</td><td>Medium-High</td><td>7-8 years</td><td>Daily sleeping, pressure relief</td></tr>
+        <tr><td>Bonnell springs</td><td>Good — fixed fold point</td><td>Medium-High</td><td>7-10 years</td><td>Budget coil option, solo sleepers</td></tr>
+        <tr><td>Individually wrapped coils</td><td>Good — flexible fold</td><td>High</td><td>9-12 years</td><td>Best overall if budget allows</td></tr>
+        <tr><td>Latex</td><td>Poor — too rigid for futon use</td><td>Very High</td><td>12-15 years</td><td>Not recommended for standard futon frames</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2 class="section">Futon Mattress Buying Guide by Use Case</h2>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th>Use Case</th><th>Minimum Thickness</th><th>Recommended Fill</th><th>Key Feature to Check</th></tr></thead>
+      <tbody>
+        <tr><td>Studio apartment primary bed</td><td>10&Prime;</td><td>Memory foam or individually wrapped coils</td><td>Daily fold durability — ask about fold warranty</td></tr>
+        <tr><td>Guest room (weekly use)</td><td>8&Prime;</td><td>Individually wrapped coils or foam</td><td>Comfort layer — guests need a quality sleep experience</td></tr>
+        <tr><td>Dorm room sofa-bed</td><td>8&Prime;</td><td>Foam or cotton blend</td><td>Weight — lighter is easier to fold/manage in small spaces</td></tr>
+        <tr><td>Living room sofa (rare guest)</td><td>6&Prime;</td><td>Cotton or foam</td><td>Appearance — cover quality matters more for sofa look</td></tr>
+        <tr><td>Kids' playroom</td><td>4-6&Prime;</td><td>Cotton or basic foam</td><td>Washable cover — spill protection</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+<section class="related-guides" style="background:#111e33;border-top:2px solid #1e3a5f;padding:2rem 1.25rem;margin-top:2rem;">
+  <div style="max-width:820px;margin:0 auto;">
+    <h2 style="color:#c9a84c;font-size:1.05rem;letter-spacing:.04em;margin-bottom:1rem;text-transform:uppercase;">Related Guides</h2>
+    <ul style="list-style:none;padding:0;margin:0;display:flex;flex-wrap:wrap;gap:.6rem 1.5rem;">
+      <li><a href="best-full-mattress.html" style="color:#93c5fd;text-decoration:none;font-size:.95rem;">Best Full Size Mattress</a></li>
+      <li><a href="best-mattress-guest-room.html" style="color:#93c5fd;text-decoration:none;font-size:.95rem;">Best Guest Room Mattress</a></li>
+      <li><a href="best-mattress-college-students.html" style="color:#93c5fd;text-decoration:none;font-size:.95rem;">Best Mattress for College Students</a></li>
+      <li><a href="best-mattress-under-300.html" style="color:#93c5fd;text-decoration:none;font-size:.95rem;">Best Mattress Under $300</a></li>
+      <li><a href="best-mattress-under-500.html" style="color:#93c5fd;text-decoration:none;font-size:.95rem;">Best Mattress Under $500</a></li>
+    </ul>
+  </div>
+</section>
+
+</div>
+
+<footer>
+  <p>&copy; 2026 SleepWise Reviews &mdash; <a href="https://sleepwisereviews.com">sleepwisereviews.com</a></p>
+  <p style="margin-top:.5rem;font-size:.78rem;">Affiliate disclosure: We earn a commission on qualifying purchases at no extra cost to you.</p>
+</footer>
+</body>
+</html>"""
+
+with open(out, "w", encoding="utf-8") as f:
+    f.write(html)
+print(f"Done: {out}")
