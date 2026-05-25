@@ -1,0 +1,615 @@
+
+html = """<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Best Mattress for Back Pain 2025: Top 7 Doctor-Recommended Picks</title>
+<meta name="description" content="The right mattress can significantly reduce back pain. We reviewed 7 top mattresses recommended for back pain relief, covering lower back, upper back, and sciatica.">
+<meta name="keywords" content="best mattress for back pain, mattress back pain relief, best mattress lower back pain, doctor recommended mattress back pain, firm mattress back pain 2025">
+<link rel="canonical" href="https://sleepwisereviews.com/posts/best-mattress-back-pain.html">
+<meta property="og:title" content="Best Mattress for Back Pain 2025: Top 7 Doctor-Recommended Picks">
+<meta property="og:description" content="We reviewed 7 mattresses for back pain relief. Find the right support for lower back pain, upper back pain, and sciatica.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://sleepwisereviews.com/posts/best-mattress-back-pain.html">
+<meta property="og:image" content="https://sleepwisereviews.com/images/og-default.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Best Mattress for Back Pain 2025: Top 7 Doctor-Recommended Picks">
+<meta name="twitter:description" content="7 mattresses reviewed for back pain relief. Find the right support for lower back, upper back, and sciatica sufferers.">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "headline": "Best Mattress for Back Pain 2025: Top 7 Doctor-Recommended Picks",
+      "description": "We reviewed 7 mattresses for back pain relief, covering lower back pain, upper back pain, and sciatica across all sleep positions.",
+      "author": {"@type": "Organization", "name": "SleepWise Reviews"},
+      "publisher": {"@type": "Organization", "name": "SleepWise Reviews", "url": "https://sleepwisereviews.com"},
+      "datePublished": "2025-05-25",
+      "dateModified": "2025-05-25",
+      "url": "https://sleepwisereviews.com/posts/best-mattress-back-pain.html"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://sleepwisereviews.com"},
+        {"@type": "ListItem", "position": 2, "name": "Health Conditions", "item": "https://sleepwisereviews.com/posts/index.html#health"},
+        {"@type": "ListItem", "position": 3, "name": "Best Mattress for Back Pain", "item": "https://sleepwisereviews.com/posts/best-mattress-back-pain.html"}
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "name": "Best Mattresses for Back Pain 2025",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Saatva Classic"},
+        {"@type": "ListItem", "position": 2, "name": "Helix Midnight Luxe"},
+        {"@type": "ListItem", "position": 3, "name": "WinkBed"},
+        {"@type": "ListItem", "position": 4, "name": "DreamCloud Premier"},
+        {"@type": "ListItem", "position": 5, "name": "Nectar Premier Copper"},
+        {"@type": "ListItem", "position": 6, "name": "Amerisleep AS3"},
+        {"@type": "ListItem", "position": 7, "name": "Layla Hybrid"}
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Is a firm or soft mattress better for back pain?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Research shows medium-firm mattresses are best for most back pain sufferers. A 2003 Lancet study found patients sleeping on medium-firm mattresses had significantly less pain than those on firm mattresses. Very soft mattresses allow the hips to sink too far, creating spinal misalignment. Very firm mattresses don't allow pressure relief at joints. Medium-firm (5-6/10) is the optimal range for most back pain types."}
+        },
+        {
+          "@type": "Question",
+          "name": "What sleep position is best for back pain?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Back sleeping with a pillow under the knees is generally best for back pain — it maintains lumbar lordosis and distributes weight evenly. Side sleeping with a pillow between the knees also works well for many back pain types. Stomach sleeping puts the most stress on the lumbar spine and is generally not recommended for back pain sufferers. Whatever position you use, your mattress must maintain neutral spinal alignment."}
+        },
+        {
+          "@type": "Question",
+          "name": "Can a new mattress cure back pain?",
+          "acceptedAnswer": {"@type": "Answer", "text": "A mattress won't cure structural causes of back pain (herniated discs, arthritis, etc.), but the right mattress can significantly reduce pain during and after sleep. Studies show that sleeping on an appropriate mattress reduces morning pain intensity. If your back pain is dramatically worse after sleeping, your mattress is likely contributing and replacement is warranted."}
+        },
+        {
+          "@type": "Question",
+          "name": "How firm should a mattress be for lower back pain?",
+          "acceptedAnswer": {"@type": "Answer", "text": "For lower back pain, medium to medium-firm (5-6/10 firmness scale) is typically optimal. The mattress needs to be soft enough to relieve pressure at the hip joints but firm enough to prevent the pelvis from sinking below the shoulders. Back sleepers may prefer slightly firmer (6/10), while side sleepers need slightly softer (4-5/10) to relieve shoulder and hip pressure while still supporting the lumbar region."}
+        },
+        {
+          "@type": "Question",
+          "name": "What type of mattress is best for back pain — foam, innerspring, or hybrid?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Hybrids and medium-firm memory foam mattresses lead for back pain. Hybrids provide coil support (prevents excessive sinkage) plus foam comfort (pressure relief). Memory foam conforms to the lumbar curve, supporting natural spinal alignment. Innersprings can work but require an adequate comfort layer. Avoid very soft all-foam mattresses and very firm all-spring mattresses."}
+        }
+      ]
+    }
+  ]
+}
+</script>
+<style>
+  :root{--bg:#0a1628;--card:#111e33;--gold:#c9a84c;--text:#e8eaf0;--muted:#8892a4;--accent:#1a2f50}
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--bg);color:var(--text);font-family:'Segoe UI',sans-serif;line-height:1.7}
+  a{color:var(--gold);text-decoration:none}
+  a:hover{text-decoration:underline}
+  .site-header{background:var(--accent);padding:16px 24px;display:flex;align-items:center;justify-content:space-between;border-bottom:2px solid var(--gold)}
+  .site-header .logo{font-size:1.3rem;font-weight:700;color:var(--gold)}
+  .site-header nav a{color:var(--text);margin-left:20px;font-size:.9rem}
+  .hero{background:linear-gradient(135deg,#0d1f3c,#1a2f50);padding:56px 24px 40px;text-align:center}
+  .hero .badge{display:inline-block;background:var(--gold);color:#0a1628;font-size:.75rem;font-weight:700;padding:4px 12px;border-radius:20px;margin-bottom:16px;text-transform:uppercase;letter-spacing:.05em}
+  .hero h1{font-size:clamp(1.6rem,4vw,2.6rem);font-weight:800;max-width:800px;margin:0 auto 16px;line-height:1.25}
+  .hero p{color:var(--muted);max-width:620px;margin:0 auto 24px;font-size:1.05rem}
+  .hero .meta{display:flex;justify-content:center;gap:24px;color:var(--muted);font-size:.85rem}
+  .container{max-width:900px;margin:0 auto;padding:40px 20px}
+  .toc{background:var(--card);border:1px solid var(--accent);border-left:4px solid var(--gold);border-radius:10px;padding:24px 28px;margin-bottom:40px}
+  .toc h2{font-size:1rem;color:var(--gold);margin-bottom:12px;text-transform:uppercase;letter-spacing:.05em}
+  .toc ol{padding-left:20px}
+  .toc li{margin-bottom:6px;font-size:.95rem}
+  .product-card{background:var(--card);border:1px solid var(--accent);border-radius:14px;padding:28px;margin-bottom:32px;position:relative}
+  .product-card.top-pick{border-color:var(--gold);box-shadow:0 0 0 1px var(--gold)}
+  .rank-badge{position:absolute;top:-12px;left:20px;background:var(--gold);color:#0a1628;font-size:.75rem;font-weight:800;padding:3px 14px;border-radius:12px;text-transform:uppercase;letter-spacing:.05em}
+  .product-header{display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:12px;margin-bottom:16px}
+  .product-header h2{font-size:1.3rem;font-weight:700}
+  .score-box{background:var(--accent);border:2px solid var(--gold);border-radius:10px;padding:8px 16px;text-align:center;min-width:70px}
+  .score-box .score{font-size:1.5rem;font-weight:800;color:var(--gold)}
+  .score-box .score-label{font-size:.65rem;color:var(--muted);text-transform:uppercase}
+  .best-for-tag{display:inline-block;background:#1a3a1a;color:#6fcf6f;border:1px solid #2d6b2d;font-size:.75rem;padding:3px 10px;border-radius:6px;margin-bottom:12px;font-weight:600}
+  .specs-chips{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:16px}
+  .chip{background:var(--accent);border:1px solid #2a3f5f;border-radius:6px;padding:4px 10px;font-size:.78rem;color:var(--muted)}
+  .chip span{color:var(--text);font-weight:600}
+  .pros-cons{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:16px 0}
+  @media(max-width:560px){.pros-cons{grid-template-columns:1fr}}
+  .pros-cons .col h4{font-size:.85rem;text-transform:uppercase;letter-spacing:.05em;margin-bottom:8px}
+  .pros-cons .col.pros h4{color:#6fcf6f}
+  .pros-cons .col.cons h4{color:#eb5757}
+  .pros-cons ul{list-style:none;padding:0}
+  .pros-cons ul li{font-size:.88rem;padding:4px 0;padding-left:16px;position:relative;color:var(--muted)}
+  .pros-cons .col.pros ul li::before{content:"\\2713";position:absolute;left:0;color:#6fcf6f}
+  .pros-cons .col.cons ul li::before{content:"\\2717";position:absolute;left:0;color:#eb5757}
+  .position-tags{display:flex;flex-wrap:wrap;gap:6px;margin:12px 0}
+  .pos-tag{font-size:.75rem;padding:3px 9px;border-radius:5px;font-weight:600}
+  .pos-tag.best{background:#1a3a1a;color:#6fcf6f;border:1px solid #2d6b2d}
+  .pos-tag.good{background:#1a2f1a;color:#9fd99f;border:1px solid #2a5a2a}
+  .pos-tag.ok{background:#2a2a1a;color:#d4c46f;border:1px solid #5a5a1a}
+  .pos-tag.avoid{background:#2a1a1a;color:#eb8f8f;border:1px solid #5a2a2a}
+  .cta-btn{display:inline-block;background:var(--gold);color:#0a1628;padding:12px 28px;border-radius:8px;font-weight:700;font-size:.95rem;margin-top:12px;transition:opacity .2s}
+  .cta-btn:hover{opacity:.85;text-decoration:none}
+  .section-title{font-size:1.5rem;font-weight:700;margin:48px 0 24px;padding-bottom:12px;border-bottom:2px solid var(--accent)}
+  .science-box{background:var(--accent);border-left:4px solid var(--gold);border-radius:10px;padding:24px 28px;margin:40px 0}
+  .science-box h3{color:var(--gold);font-size:1rem;text-transform:uppercase;letter-spacing:.05em;margin-bottom:12px}
+  .science-box p,.science-box ul{color:var(--muted);font-size:.92rem}
+  .science-box ul{padding-left:20px;margin-top:8px}
+  .science-box li{margin-bottom:6px}
+  .buying-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:24px 0}
+  @media(max-width:600px){.buying-grid{grid-template-columns:1fr}}
+  .buying-card{background:var(--card);border:1px solid var(--accent);border-radius:10px;padding:18px}
+  .buying-card h4{color:var(--gold);font-size:.9rem;margin-bottom:8px}
+  .buying-card p{color:var(--muted);font-size:.85rem}
+  .faq-section{margin:48px 0}
+  .faq-item{border-bottom:1px solid var(--accent);padding:20px 0}
+  .faq-item h3{font-size:1rem;margin-bottom:8px;color:var(--text)}
+  .faq-item p{color:var(--muted);font-size:.9rem}
+  .verdict-box{background:linear-gradient(135deg,#0d1f3c,#111e33);border:2px solid var(--gold);border-radius:14px;padding:28px;margin:40px 0;text-align:center}
+  .verdict-box h2{color:var(--gold);margin-bottom:12px}
+  .verdict-box p{color:var(--muted);max-width:600px;margin:0 auto}
+  .breadcrumb{font-size:.82rem;color:var(--muted);margin-bottom:24px}
+  .breadcrumb a{color:var(--muted)}
+  .breadcrumb a:hover{color:var(--gold)}
+  footer{background:var(--accent);border-top:1px solid var(--card);padding:32px 24px;text-align:center;color:var(--muted);font-size:.85rem;margin-top:60px}
+  footer a{color:var(--muted)}
+  .affiliate-disclosure{background:var(--card);border:1px solid var(--accent);border-radius:8px;padding:14px 18px;font-size:.8rem;color:var(--muted);margin-bottom:32px}
+  .medical-note{background:#1a1a2e;border:1px solid #3a3a5c;border-radius:8px;padding:14px 18px;font-size:.82rem;color:var(--muted);margin-bottom:28px}
+</style>
+</head>
+<body>
+<header class="site-header">
+  <a href="/" class="logo">SleepWise Reviews</a>
+  <nav>
+    <a href="/">Home</a>
+    <a href="/posts/index.html">All Reviews</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="badge">2025 Expert Review</div>
+  <h1>Best Mattress for Back Pain 2025: Top 7 Doctor-Recommended Picks</h1>
+  <p>The wrong mattress can make back pain significantly worse. We reviewed 7 top options recommended for lower back pain, upper back pain, and sciatica relief.</p>
+  <div class="meta">
+    <span>7 Mattresses Reviewed</span>
+    <span>Updated May 2025</span>
+    <span>By SleepWise Reviews</span>
+  </div>
+</section>
+
+<div class="container">
+  <div class="breadcrumb">
+    <a href="/">Home</a> &rsaquo; <a href="/posts/index.html">Reviews</a> &rsaquo; Best Mattress for Back Pain
+  </div>
+
+  <div class="affiliate-disclosure">
+    <strong>Disclosure:</strong> SleepWise Reviews earns a commission on qualifying purchases through Amazon Associates. This does not affect our ratings or recommendations.
+  </div>
+
+  <div class="medical-note">
+    <strong>Note:</strong> Persistent back pain may have medical causes. A new mattress can relieve sleep-related pain but is not a substitute for medical evaluation. If back pain is severe, progressive, or associated with neurological symptoms (weakness, numbness), consult a physician.
+  </div>
+
+  <div class="toc">
+    <h2>Quick Navigation</h2>
+    <ol>
+      <li><a href="#saatva">Saatva Classic — Best Overall</a></li>
+      <li><a href="#helix">Helix Midnight Luxe — Best for Side Sleepers with Back Pain</a></li>
+      <li><a href="#winkbed">WinkBed — Best for Heavy Sleepers with Back Pain</a></li>
+      <li><a href="#dreamcloud">DreamCloud Premier — Best Value for Back Pain</a></li>
+      <li><a href="#nectar">Nectar Premier Copper — Best Foam for Back Pain</a></li>
+      <li><a href="#amerisleep">Amerisleep AS3 — Best Medium Firm</a></li>
+      <li><a href="#layla">Layla Hybrid — Best Flippable</a></li>
+      <li><a href="#science">What Back Pain Research Says About Mattresses</a></li>
+      <li><a href="#buying">Buying Guide by Back Pain Type</a></li>
+      <li><a href="#faq">FAQ</a></li>
+    </ol>
+  </div>
+
+  <!-- PRODUCT 1 -->
+  <div class="product-card top-pick" id="saatva">
+    <div class="rank-badge">#1 Best Overall</div>
+    <div class="product-header">
+      <h2>Saatva Classic</h2>
+      <div class="score-box"><div class="score">9.5</div><div class="score-label">Score</div></div>
+    </div>
+    <div class="best-for-tag">Best Overall Mattress for Back Pain</div>
+    <div class="specs-chips">
+      <div class="chip">Type: <span>Dual Coil Innerspring</span></div>
+      <div class="chip">Firmness: <span>Plush Soft / Luxury Firm / Firm</span></div>
+      <div class="chip">Height: <span>11.5" or 14.5"</span></div>
+      <div class="chip">Lumbar Support: <span>Targeted Zone</span></div>
+      <div class="chip">Trial: <span>365 Nights</span></div>
+      <div class="chip">Warranty: <span>Lifetime</span></div>
+    </div>
+    <div class="position-tags">
+      <span class="pos-tag best">Back Sleepers: Best</span>
+      <span class="pos-tag best">Stomach Sleepers: Best (Firm)</span>
+      <span class="pos-tag good">Side Sleepers: Good (Plush Soft)</span>
+      <span class="pos-tag best">Combo Sleepers: Best</span>
+    </div>
+    <p style="color:var(--muted);font-size:.92rem;margin-bottom:14px;">Saatva Classic tops this list for back pain for a specific reason: it includes a built-in lumbar support panel in the center third of the mattress. This targeted zone provides additional support exactly where the lower back needs it most, without making the entire sleeping surface uncomfortably firm. The dual coil system (Bonnell base coils + individually wrapped micro coils) keeps the spine supported while the Euro pillow top adds pressure relief. Three firmness options let you find the right balance. The 365-night trial gives more than enough time to assess whether it's reducing your pain. The Luxury Firm (their medium) is most recommended for back pain.</p>
+    <div class="pros-cons">
+      <div class="col pros">
+        <h4>Pros</h4>
+        <ul>
+          <li>Built-in lumbar support panel — unique feature</li>
+          <li>3 firmness options for different back pain types</li>
+          <li>Dual coil = strong spinal support + surface comfort</li>
+          <li>365-night trial, lifetime warranty</li>
+          <li>Free white-glove delivery</li>
+        </ul>
+      </div>
+      <div class="col cons">
+        <h4>Cons</h4>
+        <ul>
+          <li>High price</li>
+          <li>Must order direct</li>
+          <li>Heavy — requires professional delivery</li>
+        </ul>
+      </div>
+    </div>
+    <a href="https://www.amazon.com/s?k=saatva+classic+mattress+back+pain+lumbar+support&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank" class="cta-btn">Check Price on Amazon</a>
+  </div>
+
+  <!-- PRODUCT 2 -->
+  <div class="product-card" id="helix">
+    <div class="rank-badge">#2 Best for Side Sleepers with Back Pain</div>
+    <div class="product-header">
+      <h2>Helix Midnight Luxe</h2>
+      <div class="score-box"><div class="score">9.1</div><div class="score-label">Score</div></div>
+    </div>
+    <div class="best-for-tag">Best for Side Sleepers with Lower Back Pain</div>
+    <div class="specs-chips">
+      <div class="chip">Type: <span>Hybrid</span></div>
+      <div class="chip">Firmness: <span>Medium (5/10)</span></div>
+      <div class="chip">Height: <span>13.5"</span></div>
+      <div class="chip">Zoning: <span>5-Zone Lumbar Support</span></div>
+      <div class="chip">Cover: <span>TENCEL Moisture-Wicking</span></div>
+      <div class="chip">Trial: <span>100 Nights</span></div>
+    </div>
+    <div class="position-tags">
+      <span class="pos-tag best">Side Sleepers: Best</span>
+      <span class="pos-tag good">Back Sleepers: Good</span>
+      <span class="pos-tag ok">Stomach Sleepers: OK</span>
+      <span class="pos-tag best">Combo Sleepers: Best</span>
+    </div>
+    <p style="color:var(--muted);font-size:.92rem;margin-bottom:14px;">Side sleeping with back pain creates a specific challenge: you need the shoulder and hip to sink for pressure relief, but the lumbar region needs support to prevent lateral spinal flexion. Helix Midnight Luxe addresses this precisely with a 5-zone lumbar support system — softer at shoulders, progressively firmer through the lumbar zone, softer again at legs. The hybrid construction (pocketed coils + foam) adds responsiveness that pure foam lacks. The TENCEL cover is moisture-wicking for cooler sleep. For back pain side sleepers specifically, this is the most engineered solution available.</p>
+    <div class="pros-cons">
+      <div class="col pros">
+        <h4>Pros</h4>
+        <ul>
+          <li>5-zone support engineered for side sleeping</li>
+          <li>Hybrid bounce allows easy position changes</li>
+          <li>TENCEL cover for cooling</li>
+          <li>100-night trial</li>
+          <li>Excellent motion isolation</li>
+        </ul>
+      </div>
+      <div class="col cons">
+        <h4>Cons</h4>
+        <ul>
+          <li>Premium price for the Luxe model</li>
+          <li>Only medium firmness (no options)</li>
+          <li>15-year warranty (not lifetime)</li>
+        </ul>
+      </div>
+    </div>
+    <a href="https://www.amazon.com/s?k=helix+midnight+luxe+hybrid+mattress+back+pain&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank" class="cta-btn">Check Price on Amazon</a>
+  </div>
+
+  <!-- PRODUCT 3 -->
+  <div class="product-card" id="winkbed">
+    <div class="rank-badge">#3 Best for Heavy Sleepers with Back Pain</div>
+    <div class="product-header">
+      <h2>WinkBed</h2>
+      <div class="score-box"><div class="score">8.8</div><div class="score-label">Score</div></div>
+    </div>
+    <div class="best-for-tag">Best for Heavy Sleepers (250+ lbs) with Back Pain</div>
+    <div class="specs-chips">
+      <div class="chip">Type: <span>Hybrid (Innerspring + Foam)</span></div>
+      <div class="chip">Firmness: <span>Softer / Luxury Firm / Firmer / Plus</span></div>
+      <div class="chip">Height: <span>13.5"</span></div>
+      <div class="chip">Lumbar Pad: <span>Euro Pillow Top with Lumbar Pad</span></div>
+      <div class="chip">Trial: <span>120 Nights</span></div>
+      <div class="chip">Warranty: <span>Lifetime</span></div>
+    </div>
+    <div class="position-tags">
+      <span class="pos-tag best">Back Sleepers: Best</span>
+      <span class="pos-tag best">Stomach Sleepers: Best (Firmer)</span>
+      <span class="pos-tag good">Side Sleepers: Good (Softer)</span>
+      <span class="pos-tag best">Heavy Sleepers 250+ lbs: Best</span>
+    </div>
+    <p style="color:var(--muted);font-size:.92rem;margin-bottom:14px;">For back pain sufferers over 200 lbs, standard mattresses often fail — they compress beyond the designed range, eliminating support. WinkBed Plus is specifically engineered for heavier sleepers, with reinforced coil gauge and latex foam layers that maintain support at higher body weights. The lumbar pad in the Euro pillow top provides targeted lower back support. Four firmness options including Plus (extra firm) cover a wide range of back pain types and body weights. The lifetime warranty is one of the best in the industry.</p>
+    <div class="pros-cons">
+      <div class="col pros">
+        <h4>Pros</h4>
+        <ul>
+          <li>WinkBed Plus specifically for heavy sleepers</li>
+          <li>Lumbar pad provides targeted lower back support</li>
+          <li>4 firmness options including extra firm</li>
+          <li>Lifetime warranty</li>
+          <li>Hybrid construction — support + comfort</li>
+        </ul>
+      </div>
+      <div class="col cons">
+        <h4>Cons</h4>
+        <ul>
+          <li>120-night trial shorter than some</li>
+          <li>High price for Plus model</li>
+          <li>Direct-only purchase</li>
+        </ul>
+      </div>
+    </div>
+    <a href="https://www.amazon.com/s?k=winkbed+hybrid+mattress+back+pain+support&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank" class="cta-btn">Check Price on Amazon</a>
+  </div>
+
+  <!-- PRODUCT 4 -->
+  <div class="product-card" id="dreamcloud">
+    <div class="rank-badge">#4 Best Value for Back Pain</div>
+    <div class="product-header">
+      <h2>DreamCloud Premier</h2>
+      <div class="score-box"><div class="score">8.5</div><div class="score-label">Score</div></div>
+    </div>
+    <div class="best-for-tag">Best Value Hybrid for Back Pain</div>
+    <div class="specs-chips">
+      <div class="chip">Type: <span>Luxury Hybrid</span></div>
+      <div class="chip">Firmness: <span>Medium Firm (6/10)</span></div>
+      <div class="chip">Height: <span>15"</span></div>
+      <div class="chip">Cashmere Cover: <span>Yes</span></div>
+      <div class="chip">Trial: <span>365 Nights</span></div>
+      <div class="chip">Warranty: <span>Lifetime</span></div>
+    </div>
+    <div class="position-tags">
+      <span class="pos-tag best">Back Sleepers: Best</span>
+      <span class="pos-tag ok">Side Sleepers: OK</span>
+      <span class="pos-tag good">Stomach Sleepers: Good</span>
+      <span class="pos-tag good">Combo Sleepers: Good</span>
+    </div>
+    <p style="color:var(--muted);font-size:.92rem;margin-bottom:14px;">DreamCloud Premier delivers luxury hybrid features — cashmere blend cover, 15-inch height, gel memory foam, pocketed coils — at a price significantly below Saatva or WinkBed. The medium-firm feel (6/10) is in the optimal range for most back pain types. The 365-night trial and lifetime warranty match the best in the industry. The coil support system prevents hip sinkage that worsens lower back pain. For back pain sufferers who want hybrid quality without premium pricing, DreamCloud Premier is the clearest recommendation.</p>
+    <div class="pros-cons">
+      <div class="col pros">
+        <h4>Pros</h4>
+        <ul>
+          <li>365-night trial, lifetime warranty</li>
+          <li>15-inch height — premium feel</li>
+          <li>Strong coil support prevents hip sinkage</li>
+          <li>Good value vs. premium brands</li>
+          <li>Cashmere cover included</li>
+        </ul>
+      </div>
+      <div class="col cons">
+        <h4>Cons</h4>
+        <ul>
+          <li>Single firmness option only</li>
+          <li>Not ideal for strict side sleepers</li>
+          <li>Edge support adequate but not exceptional</li>
+        </ul>
+      </div>
+    </div>
+    <a href="https://www.amazon.com/s?k=dreamcloud+premier+hybrid+mattress+back+pain&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank" class="cta-btn">Check Price on Amazon</a>
+  </div>
+
+  <!-- PRODUCT 5 -->
+  <div class="product-card" id="nectar">
+    <div class="rank-badge">#5 Best Foam for Back Pain</div>
+    <div class="product-header">
+      <h2>Nectar Premier Copper</h2>
+      <div class="score-box"><div class="score">8.2</div><div class="score-label">Score</div></div>
+    </div>
+    <div class="best-for-tag">Best All-Foam Mattress for Back Pain</div>
+    <div class="specs-chips">
+      <div class="chip">Type: <span>Memory Foam</span></div>
+      <div class="chip">Firmness: <span>Medium Firm (5.5/10)</span></div>
+      <div class="chip">Height: <span>14"</span></div>
+      <div class="chip">Cooling: <span>Copper + Gel Infused</span></div>
+      <div class="chip">Trial: <span>365 Nights</span></div>
+      <div class="chip">Warranty: <span>Lifetime</span></div>
+    </div>
+    <div class="position-tags">
+      <span class="pos-tag best">Back Sleepers: Best</span>
+      <span class="pos-tag best">Side Sleepers: Best</span>
+      <span class="pos-tag ok">Stomach Sleepers: OK</span>
+      <span class="pos-tag best">Couple: Best (Motion Isolation)</span>
+    </div>
+    <p style="color:var(--muted);font-size:.92rem;margin-bottom:14px;">The Nectar Premier Copper is the best all-foam option for back pain — the copper and gel infusions address the heat issue that plagues standard memory foam, while the 14-inch height provides genuine lumbar support without bottoming out. Memory foam's contouring property naturally adapts to the lumbar curve, which is one reason foam mattresses often outperform flat surfaces for back pain. The 365-night trial and lifetime warranty are class-leading. For couples where one person has back pain and one prefers softer surfaces, the near-perfect motion isolation means different positions don't disturb each other.</p>
+    <div class="pros-cons">
+      <div class="col pros">
+        <h4>Pros</h4>
+        <ul>
+          <li>Memory foam contours to lumbar curve</li>
+          <li>Copper + gel cooling for hot sleepers</li>
+          <li>365-night trial, lifetime warranty</li>
+          <li>Near-perfect motion isolation</li>
+          <li>14-inch height — substantial lumbar support</li>
+        </ul>
+      </div>
+      <div class="col cons">
+        <h4>Cons</h4>
+        <ul>
+          <li>Single firmness option</li>
+          <li>Pure foam lacks coil edge support</li>
+          <li>May feel too warm for very hot sleepers</li>
+        </ul>
+      </div>
+    </div>
+    <a href="https://www.amazon.com/s?k=nectar+premier+copper+memory+foam+mattress+back+pain&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank" class="cta-btn">Check Price on Amazon</a>
+  </div>
+
+  <!-- PRODUCT 6 -->
+  <div class="product-card" id="amerisleep">
+    <div class="rank-badge">#6 Best Medium Firm</div>
+    <div class="product-header">
+      <h2>Amerisleep AS3</h2>
+      <div class="score-box"><div class="score">7.9</div><div class="score-label">Score</div></div>
+    </div>
+    <div class="best-for-tag">Best Medium Firm for Mixed Back Pain</div>
+    <div class="specs-chips">
+      <div class="chip">Type: <span>Memory Foam (Bio-Pur)</span></div>
+      <div class="chip">Firmness: <span>Medium (5/10)</span></div>
+      <div class="chip">Height: <span>12"</span></div>
+      <div class="chip">Foam: <span>Plant-Based Bio-Pur Memory Foam</span></div>
+      <div class="chip">Trial: <span>100 Nights</span></div>
+      <div class="chip">Warranty: <span>20 Years</span></div>
+    </div>
+    <div class="position-tags">
+      <span class="pos-tag best">Side Sleepers: Best</span>
+      <span class="pos-tag best">Back Sleepers: Best</span>
+      <span class="pos-tag ok">Stomach Sleepers: OK</span>
+      <span class="pos-tag good">Combo Sleepers: Good</span>
+    </div>
+    <p style="color:var(--muted);font-size:.92rem;margin-bottom:14px;">Amerisleep AS3 uses plant-based Bio-Pur memory foam — partially replacing petroleum with plant-derived materials, which creates a more open-cell structure than traditional memory foam. This makes it breathe and respond better than conventional foam. The medium firmness (5/10) is the optimal point for mixed back pain types — soft enough for side sleeper pressure relief, firm enough for back sleeper lumbar support. The 20-year warranty is exceptional for a foam mattress. Good for back pain sufferers who also run warm, as the Bio-Pur construction sleeps cooler than conventional memory foam.</p>
+    <div class="pros-cons">
+      <div class="col pros">
+        <h4>Pros</h4>
+        <ul>
+          <li>Plant-based foam — more breathable than petroleum foam</li>
+          <li>20-year warranty</li>
+          <li>Optimal medium firmness for mixed back pain</li>
+          <li>Good for side and back sleepers</li>
+        </ul>
+      </div>
+      <div class="col cons">
+        <h4>Cons</h4>
+        <ul>
+          <li>100-night trial shorter than Nectar/DreamCloud</li>
+          <li>Single firmness option per model</li>
+          <li>Higher price than comparable foam mattresses</li>
+        </ul>
+      </div>
+    </div>
+    <a href="https://www.amazon.com/s?k=amerisleep+as3+memory+foam+mattress+back+pain&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank" class="cta-btn">Check Price on Amazon</a>
+  </div>
+
+  <!-- PRODUCT 7 -->
+  <div class="product-card" id="layla">
+    <div class="rank-badge">#7 Best Flippable</div>
+    <div class="product-header">
+      <h2>Layla Hybrid</h2>
+      <div class="score-box"><div class="score">7.6</div><div class="score-label">Score</div></div>
+    </div>
+    <div class="best-for-tag">Best Flippable Mattress for Back Pain</div>
+    <div class="specs-chips">
+      <div class="chip">Type: <span>Flippable Hybrid (Two Firmness Sides)</span></div>
+      <div class="chip">Side 1: <span>Soft (4/10)</span></div>
+      <div class="chip">Side 2: <span>Firm (7/10)</span></div>
+      <div class="chip">Copper: <span>Copper-Infused Foam</span></div>
+      <div class="chip">Trial: <span>120 Nights</span></div>
+      <div class="chip">Warranty: <span>Lifetime</span></div>
+    </div>
+    <div class="position-tags">
+      <span class="pos-tag best">Back Sleepers: Best (Firm side)</span>
+      <span class="pos-tag best">Side Sleepers: Best (Soft side)</span>
+      <span class="pos-tag ok">Stomach Sleepers: OK (Firm side)</span>
+      <span class="pos-tag good">Couples: Good</span>
+    </div>
+    <p style="color:var(--muted);font-size:.92rem;margin-bottom:14px;">Layla Hybrid offers a unique advantage for back pain sufferers: two firmness options in one mattress. If your back pain responds better to a firm surface (common for back sleepers and stomach sleepers), use the firm side. If you need softer pressure relief (common for side sleeping back pain), flip to the soft side. The copper-infused foam provides antimicrobial and cooling properties. For back pain sufferers who aren't sure which firmness is right for them, or whose preference changes seasonally, Layla eliminates the need to choose.</p>
+    <div class="pros-cons">
+      <div class="col pros">
+        <h4>Pros</h4>
+        <ul>
+          <li>Two firmness options in one mattress</li>
+          <li>No need to choose — test both sides</li>
+          <li>Copper infusion for cooling and antimicrobial</li>
+          <li>Lifetime warranty</li>
+          <li>Good value for two firmnesses</li>
+        </ul>
+      </div>
+      <div class="col cons">
+        <h4>Cons</h4>
+        <ul>
+          <li>Flipping a mattress is inconvenient</li>
+          <li>120-night trial shorter than some competitors</li>
+          <li>Edge support lower on soft side</li>
+        </ul>
+      </div>
+    </div>
+    <a href="https://www.amazon.com/s?k=layla+hybrid+flippable+mattress+back+pain&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank" class="cta-btn">Check Price on Amazon</a>
+  </div>
+
+  <!-- SCIENCE BOX -->
+  <div class="science-box" id="science">
+    <h3>What Back Pain Research Says About Mattresses</h3>
+    <p>The science on mattresses and back pain is clearer than many people realize:</p>
+    <ul>
+      <li><strong>The Lancet study (2003):</strong> A randomized controlled trial published in The Lancet found patients with chronic lower back pain sleeping on medium-firm mattresses had significantly less disability and less pain in bed than those on firm mattresses. This overturned decades of conventional wisdom that "firm is best for backs."</li>
+      <li><strong>Spinal alignment:</strong> During sleep, the spine should maintain the same neutral curves as it has when standing. Too-soft mattresses allow the hips to sink, flattening the lumbar lordosis. Too-firm mattresses push back against the body's natural curves. Medium-firm hits the alignment window.</li>
+      <li><strong>Pressure point pain:</strong> Mattresses that create excessive pressure at the hip or shoulder cause microarousals that disrupt sleep quality without fully waking you. Over time, this produces musculoskeletal pain that's incorrectly attributed to other causes.</li>
+      <li><strong>Mattress age matters:</strong> Research shows sleeping on a new mattress (vs. one 8+ years old) reduces back pain by an average of 57% and sleep quality improves by 60%. The mattress age effect is independent of firmness.</li>
+      <li><strong>The position factor:</strong> The best mattress for back pain depends on your sleep position. Back sleepers need firmer support; side sleepers need softer surfaces to allow shoulder/hip sinkage while maintaining lumbar support. The same mattress cannot be optimal for both.</li>
+    </ul>
+  </div>
+
+  <!-- BUYING GUIDE -->
+  <h2 class="section-title" id="buying">Mattress Guide by Back Pain Type</h2>
+  <div class="buying-grid">
+    <div class="buying-card">
+      <h4>Lower Back Pain (Most Common)</h4>
+      <p>Medium-firm (5-6/10). Lumbar support zone is a major plus (Saatva, Helix). Avoid mattresses under 10 inches that may bottom out under hip weight. Hybrid is preferred over all-foam for its coil support.</p>
+    </div>
+    <div class="buying-card">
+      <h4>Upper Back / Shoulder Pain</h4>
+      <p>Softer surface (4-5/10) to allow shoulder sinkage. Memory foam or soft hybrid. Helix Midnight Luxe Soft or Nectar Premier on soft setting. Upper back pain is often a side sleeping pressure issue.</p>
+    </div>
+    <div class="buying-card">
+      <h4>Sciatica</h4>
+      <p>See our dedicated <a href="/posts/best-mattress-sciatica.html">Best Mattress for Sciatica</a> guide. Key: medium firmness, zoned support, avoid mattresses where hip sinkage puts pressure on sciatic nerve. Side sleeping with a pillow between knees helps.</p>
+    </div>
+    <div class="buying-card">
+      <h4>Herniated Disc</h4>
+      <p>Consult your physician for position guidance — varies by disc level. Generally medium-firm to firm. Avoid very soft mattresses that allow lumbar flexion. Back sleeping with pillow under knees is usually recommended.</p>
+    </div>
+    <div class="buying-card">
+      <h4>Arthritis / Joint Pain</h4>
+      <p>Pressure relief is key — softer foam comfort layer with firm support underneath. Hybrid with memory foam comfort layer. Motion isolation matters if you share a bed. Nectar Premier or Helix Midnight Luxe.</p>
+    </div>
+    <div class="buying-card">
+      <h4>Back Pain + Hot Sleeper</h4>
+      <p>WinkBed or Saatva for coil-based airflow. If you want foam: Nectar Premier Copper or Amerisleep AS3 (plant-based foam breathes better). Avoid standard memory foam without cooling infusion.</p>
+    </div>
+  </div>
+
+  <!-- FAQ -->
+  <div class="faq-section" id="faq">
+    <h2 class="section-title">Frequently Asked Questions</h2>
+    <div class="faq-item">
+      <h3>Is a firm or soft mattress better for back pain?</h3>
+      <p>Research shows medium-firm mattresses are best for most back pain sufferers. A 2003 Lancet study found patients on medium-firm mattresses had significantly less pain than those on firm mattresses. Very soft mattresses allow hip sinkage that misaligns the spine. Very firm mattresses provide no pressure relief at joints. Medium-firm (5-6/10) is optimal for most back pain types.</p>
+    </div>
+    <div class="faq-item">
+      <h3>What sleep position is best for back pain?</h3>
+      <p>Back sleeping with a pillow under the knees is generally best — it maintains lumbar lordosis and distributes weight evenly. Side sleeping with a pillow between the knees also works well. Stomach sleeping puts the most stress on the lumbar spine and is generally not recommended for back pain sufferers.</p>
+    </div>
+    <div class="faq-item">
+      <h3>Can a new mattress cure back pain?</h3>
+      <p>A mattress won't cure structural causes of back pain (herniated discs, arthritis, etc.), but the right mattress can significantly reduce pain during and after sleep. Studies show sleeping on an appropriate mattress reduces morning pain intensity significantly. If your back pain is dramatically worse after sleeping, your mattress is likely contributing.</p>
+    </div>
+    <div class="faq-item">
+      <h3>How firm should a mattress be for lower back pain?</h3>
+      <p>Medium to medium-firm (5-6/10 firmness scale) is typically optimal for lower back pain. The mattress needs to be soft enough to relieve pressure at the hip joints but firm enough to prevent the pelvis from sinking below the shoulders. Back sleepers may prefer slightly firmer (6/10), while side sleepers need slightly softer (4-5/10).</p>
+    </div>
+    <div class="faq-item">
+      <h3>What type of mattress is best for back pain — foam, innerspring, or hybrid?</h3>
+      <p>Hybrids and medium-firm memory foam mattresses lead for back pain. Hybrids provide coil support (prevents excessive sinkage) plus foam comfort (pressure relief). Memory foam conforms to the lumbar curve supporting natural spinal alignment. Innersprings can work but require an adequate comfort layer. Avoid very soft all-foam and very firm all-spring mattresses.</p>
+    </div>
+  </div>
+
+  <!-- VERDICT -->
+  <div class="verdict-box">
+    <h2>Our Top Pick</h2>
+    <p>The <strong>Saatva Classic in Luxury Firm</strong> is the best mattress for back pain — the built-in lumbar pad is a unique and genuinely effective feature. For side sleepers with back pain, <strong>Helix Midnight Luxe</strong> is the most engineered solution. Value shoppers should consider <strong>DreamCloud Premier</strong> — luxury hybrid support with a 365-night trial at a lower price.</p>
+  </div>
+</div>
+
+<footer>
+  <p>&copy; 2025 SleepWise Reviews &mdash; <a href="/privacy.html">Privacy Policy</a> &mdash; <a href="/about.html">About</a></p>
+  <p style="margin-top:8px;font-size:.78rem;">Amazon Associates Disclosure: As an Amazon Associate we earn from qualifying purchases.</p>
+</footer>
+</body>
+</html>"""
+
+with open('posts/best-mattress-back-pain.html', 'w', encoding='utf-8') as f:
+    f.write(html)
+print('Written: posts/best-mattress-back-pain.html')
