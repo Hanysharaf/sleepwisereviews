@@ -1,0 +1,444 @@
+html = """<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Best California King Mattress (2026): 7 Top Picks for Tall Sleepers</title>
+  <meta name="description" content="California king mattresses are 4 inches longer and 4 inches narrower than standard kings. We picked 7 top options for tall sleepers, couples, and luxury buyers — with size comparison and buying guide.">
+  <meta property="og:title" content="Best California King Mattress (2026): 7 Top Picks for Tall Sleepers">
+  <meta property="og:description" content="California king mattresses are 4 inches longer and 4 inches narrower than standard kings. 7 top options for tall sleepers and luxury buyers.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://sleepwisereviews.com/posts/best-california-king-mattress.html">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Best California King Mattress (2026)">
+  <meta name="twitter:description" content="7 top California king mattresses for tall sleepers — size guide, comparison table, and ranked picks.">
+  <link rel="canonical" href="https://sleepwisereviews.com/posts/best-california-king-mattress.html">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Article",
+        "headline": "Best California King Mattress (2026): 7 Top Picks for Tall Sleepers",
+        "description": "7 top California king mattresses ranked for tall sleepers, couples, and luxury buyers — with size comparison and full buying guide.",
+        "url": "https://sleepwisereviews.com/posts/best-california-king-mattress.html",
+        "datePublished": "2026-05-25",
+        "dateModified": "2026-05-25",
+        "author": {"@type": "Organization", "name": "SleepWise Reviews"},
+        "publisher": {"@type": "Organization", "name": "SleepWise Reviews", "url": "https://sleepwisereviews.com"}
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://sleepwisereviews.com"},
+          {"@type": "ListItem", "position": 2, "name": "Mattresses & Bedding", "item": "https://sleepwisereviews.com/posts/index.html#mattresses-bedding"},
+          {"@type": "ListItem", "position": 3, "name": "Best California King Mattress"}
+        ]
+      },
+      {
+        "@type": "ItemList",
+        "name": "Best California King Mattresses",
+        "numberOfItems": 7,
+        "itemListElement": [
+          {"@type": "ListItem", "position": 1, "name": "Saatva Classic"},
+          {"@type": "ListItem", "position": 2, "name": "Purple Restore Plus Hybrid"},
+          {"@type": "ListItem", "position": 3, "name": "Helix Midnight Luxe"},
+          {"@type": "ListItem", "position": 4, "name": "WinkBed"},
+          {"@type": "ListItem", "position": 5, "name": "Nectar Premier Copper"},
+          {"@type": "ListItem", "position": 6, "name": "Casper Wave Hybrid"},
+          {"@type": "ListItem", "position": 7, "name": "Avocado Green Mattress"}
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is the difference between a California king and a regular king?",
+            "acceptedAnswer": {"@type": "Answer", "text": "A California king measures 72 x 84 inches. A standard king measures 76 x 80 inches. The California king is 4 inches longer but 4 inches narrower. It has the same square footage (6,048 sq in vs 6,080 sq in for a standard king) but redistributes it toward length rather than width."}
+          },
+          {
+            "@type": "Question",
+            "name": "Who should buy a California king mattress?",
+            "acceptedAnswer": {"@type": "Answer", "text": "California kings suit sleepers over 6'2\" who want foot-of-bed clearance, long narrow bedrooms, and single sleepers or couples who prefer length over width. Standard kings are better for couples who prioritize side-by-side width."}
+          },
+          {
+            "@type": "Question",
+            "name": "Are California king mattresses more expensive?",
+            "acceptedAnswer": {"@type": "Answer", "text": "Typically 5-15% more expensive than the same model in standard king due to lower production volume and non-standard dimensions. Bedding and accessories are also slightly more expensive and less widely available."}
+          },
+          {
+            "@type": "Question",
+            "name": "Can a California king mattress be used with a split king adjustable base?",
+            "acceptedAnswer": {"@type": "Answer", "text": "No. Split king adjustable bases use two twin XL mattresses (38 x 80 inches each). California king dimensions (72 x 84) do not have a compatible split version. A split California king adjustable base would require two 36 x 84 mattresses, which are not widely manufactured."}
+          },
+          {
+            "@type": "Question",
+            "name": "How do I find bedding for a California king?",
+            "acceptedAnswer": {"@type": "Answer", "text": "California king bedding is widely available at major retailers but in smaller quantities than standard king. Look for sheets labeled 'California King' specifically — standard king sheets are 16 inches shorter and will not fit. Most premium sheet brands (Brooklinen, Parachute, Boll & Branch) carry California king sizes."}
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+  <style>
+    :root {
+      --bg: #0a1628;
+      --card: #111e33;
+      --gold: #c9a84c;
+      --text: #e8eaf0;
+      --muted: #8892a4;
+      --border: #1e2d45;
+      --green: #2ecc71;
+      --red: #e74c3c;
+      --blue: #3498db;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { background: var(--bg); color: var(--text); font-family: 'Segoe UI', system-ui, sans-serif; line-height: 1.7; }
+    a { color: var(--gold); text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    header { background: var(--card); border-bottom: 1px solid var(--border); padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center; }
+    header .logo { font-size: 1.3rem; font-weight: 700; color: var(--gold); }
+    nav a { color: var(--muted); margin-left: 1.5rem; font-size: 0.9rem; }
+    .hero { max-width: 860px; margin: 3rem auto 2rem; padding: 0 1.5rem; }
+    .badge { display: inline-block; background: var(--gold); color: var(--bg); font-size: 0.75rem; font-weight: 700; padding: 0.25rem 0.75rem; border-radius: 20px; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 1rem; }
+    h1 { font-size: clamp(1.6rem, 4vw, 2.2rem); line-height: 1.3; margin-bottom: 1rem; }
+    .meta { color: var(--muted); font-size: 0.85rem; margin-bottom: 1.5rem; }
+    .intro { font-size: 1.05rem; color: #c0c8d8; margin-bottom: 2rem; }
+    .toc { background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 1.5rem; margin-bottom: 2.5rem; }
+    .toc h2 { font-size: 1rem; color: var(--gold); margin-bottom: 1rem; }
+    .toc ol { padding-left: 1.5rem; }
+    .toc li { margin-bottom: 0.4rem; font-size: 0.95rem; }
+    main { max-width: 860px; margin: 0 auto; padding: 0 1.5rem 4rem; }
+    .product-card { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 1.8rem; margin-bottom: 2rem; }
+    .product-card .rank { color: var(--gold); font-size: 0.8rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.1em; margin-bottom: 0.4rem; }
+    .product-card h2 { font-size: 1.3rem; margin-bottom: 0.3rem; }
+    .product-card .tagline { color: var(--muted); font-size: 0.9rem; margin-bottom: 1rem; font-style: italic; }
+    .why-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 0.75rem; margin: 1.2rem 0; }
+    .why-item { background: rgba(201,168,76,0.08); border: 1px solid rgba(201,168,76,0.2); border-radius: 8px; padding: 0.75rem; font-size: 0.85rem; }
+    .why-item strong { display: block; color: var(--gold); margin-bottom: 0.2rem; font-size: 0.8rem; text-transform: uppercase; }
+    .verdict { background: rgba(46,204,113,0.08); border-left: 3px solid var(--green); padding: 0.75rem 1rem; border-radius: 0 8px 8px 0; font-size: 0.9rem; margin-top: 1rem; }
+    .cta-btn { display: inline-block; background: var(--gold); color: var(--bg); font-weight: 700; padding: 0.65rem 1.4rem; border-radius: 8px; margin-top: 1rem; font-size: 0.9rem; }
+    .cta-btn:hover { background: #dbb85c; text-decoration: none; }
+    .info-box { background: rgba(52,152,219,0.08); border: 1px solid rgba(52,152,219,0.25); border-radius: 10px; padding: 1.2rem 1.5rem; margin: 2rem 0; }
+    .info-box h3 { color: var(--blue); margin-bottom: 0.75rem; font-size: 1rem; }
+    .section-title { font-size: 1.4rem; margin: 2.5rem 0 1.2rem; border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; }
+    table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; font-size: 0.88rem; }
+    th { background: var(--border); color: var(--gold); padding: 0.75rem; text-align: left; }
+    td { padding: 0.7rem 0.75rem; border-bottom: 1px solid var(--border); }
+    tr:nth-child(even) td { background: rgba(255,255,255,0.02); }
+    .highlight { background: rgba(201,168,76,0.1); }
+    .size-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 0.75rem; margin: 1.5rem 0; }
+    .size-card { background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 1rem; text-align: center; }
+    .size-card.featured { border-color: var(--gold); background: rgba(201,168,76,0.05); }
+    .size-card .size-name { font-weight: 700; margin-bottom: 0.25rem; }
+    .size-card .size-dims { font-size: 1.2rem; color: var(--gold); font-weight: 700; margin-bottom: 0.25rem; }
+    .size-card .size-note { font-size: 0.8rem; color: var(--muted); }
+    .faq-section { margin-top: 3rem; }
+    .faq-item { border-bottom: 1px solid var(--border); padding: 1.2rem 0; }
+    .faq-item h3 { font-size: 1rem; margin-bottom: 0.5rem; color: var(--text); }
+    .faq-item p { color: var(--muted); font-size: 0.9rem; }
+    footer { background: var(--card); border-top: 1px solid var(--border); padding: 2rem; text-align: center; color: var(--muted); font-size: 0.85rem; margin-top: 4rem; }
+    footer a { color: var(--muted); }
+    .breadcrumb { font-size: 0.8rem; color: var(--muted); margin-bottom: 1rem; }
+    .breadcrumb a { color: var(--muted); }
+    @media (max-width: 600px) { header { flex-direction: column; gap: 0.5rem; } nav a { margin-left: 0.75rem; } }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo"><a href="/" style="color:var(--gold);text-decoration:none;">SleepWise Reviews</a></div>
+    <nav>
+      <a href="/posts/index.html">All Posts</a>
+      <a href="/">Home</a>
+    </nav>
+  </header>
+
+  <div class="hero">
+    <div class="breadcrumb"><a href="/">Home</a> &rsaquo; <a href="/posts/index.html#mattresses-bedding">Mattresses &amp; Bedding</a> &rsaquo; Best California King Mattress</div>
+    <span class="badge">Mattresses &amp; Bedding</span>
+    <h1>Best California King Mattress (2026): 7 Top Picks for Tall Sleepers</h1>
+    <p class="meta">Updated May 2026 &bull; 7 picks &bull; 11-minute read</p>
+    <p class="intro">The California king is 4 inches longer than a standard king &mdash; the only mattress size that actually gives tall sleepers foot-of-bed clearance. But the selection is narrower than standard sizes and the quality gap between options is wide. Here are the 7 best available right now.</p>
+  </div>
+
+  <main>
+    <div class="toc">
+      <h2>Quick Navigation</h2>
+      <ol>
+        <li><a href="#saatva-classic">Saatva Classic &mdash; Best Overall</a></li>
+        <li><a href="#purple-restore-plus">Purple Restore Plus Hybrid &mdash; Best for Pressure Relief</a></li>
+        <li><a href="#helix-midnight-luxe">Helix Midnight Luxe &mdash; Best Luxury Hybrid</a></li>
+        <li><a href="#winkbed">WinkBed &mdash; Best for Back Pain</a></li>
+        <li><a href="#nectar-premier-copper">Nectar Premier Copper &mdash; Best Memory Foam</a></li>
+        <li><a href="#casper-wave-hybrid">Casper Wave Hybrid &mdash; Best Zoned Support</a></li>
+        <li><a href="#avocado-green">Avocado Green &mdash; Best Organic</a></li>
+        <li><a href="#size-guide">Size Comparison Guide</a></li>
+        <li><a href="#comparison">Comparison Table</a></li>
+        <li><a href="#faq">FAQs</a></li>
+      </ol>
+    </div>
+
+    <h2 class="section-title">California King vs. Other Sizes</h2>
+    <div class="size-grid">
+      <div class="size-card">
+        <div class="size-name">Twin</div>
+        <div class="size-dims">38" x 75"</div>
+        <div class="size-note">Solo / child</div>
+      </div>
+      <div class="size-card">
+        <div class="size-name">Twin XL</div>
+        <div class="size-dims">38" x 80"</div>
+        <div class="size-note">Solo / tall</div>
+      </div>
+      <div class="size-card">
+        <div class="size-name">Full</div>
+        <div class="size-dims">54" x 75"</div>
+        <div class="size-note">Solo wide</div>
+      </div>
+      <div class="size-card">
+        <div class="size-name">Queen</div>
+        <div class="size-dims">60" x 80"</div>
+        <div class="size-note">Most popular</div>
+      </div>
+      <div class="size-card">
+        <div class="size-name">King</div>
+        <div class="size-dims">76" x 80"</div>
+        <div class="size-note">Wide couple</div>
+      </div>
+      <div class="size-card featured">
+        <div class="size-name">Cal King</div>
+        <div class="size-dims">72" x 84"</div>
+        <div class="size-note">Long couple / tall solo</div>
+      </div>
+    </div>
+
+    <div class="info-box">
+      <h3>Cal King vs. Standard King: The Key Numbers</h3>
+      <p>California king: <strong>72" wide x 84" long.</strong> Standard king: <strong>76" wide x 80" long.</strong> The Cal King is 4 inches longer and 4 inches narrower. If you're over 6'2" and sleeping with a partner, Cal King gives you the foot clearance. If you're under 6' and sleeping with a wide-sleeping partner, the standard king's extra width may serve you better.</p>
+    </div>
+
+    <!-- PRODUCT 1 -->
+    <div class="product-card" id="saatva-classic">
+      <div class="rank">#1 Best Overall</div>
+      <h2>Saatva Classic</h2>
+      <div class="tagline">The most complete Cal King option &mdash; luxury coil-on-coil with three firmness levels</div>
+      <div class="why-grid">
+        <div class="why-item"><strong>Firmness</strong>Plush Soft / Luxury Firm / Firm</div>
+        <div class="why-item"><strong>Height</strong>11.5" or 14.5"</div>
+        <div class="why-item"><strong>Construction</strong>Dual coil + Euro pillow top</div>
+        <div class="why-item"><strong>Trial</strong>365 nights</div>
+        <div class="why-item"><strong>Warranty</strong>Lifetime</div>
+        <div class="why-item"><strong>Delivery</strong>White glove</div>
+      </div>
+      <p>Saatva's Classic is one of the few luxury mattresses that carries all three firmness options in California king &mdash; Plush Soft, Luxury Firm, and Firm &mdash; with no upcharge for the size differential. The dual coil construction (tempered steel base + individually wrapped comfort coils) provides the durability profile that a premium Cal King investment requires.</p>
+      <p style="margin-top:0.75rem;">White-glove delivery includes setup and old mattress removal &mdash; especially valuable at the California king scale, where moving a mattress alone is genuinely difficult. The lifetime warranty and 365-night trial make it the lowest-risk premium purchase in this category.</p>
+      <div class="verdict">Best for: Tall couples who want firmness options, luxury construction quality, and full-service delivery at the California king size.</div>
+      <a href="https://www.amazon.com/s?k=saatva+classic+california+king+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank" class="cta-btn">Check Price on Amazon</a>
+    </div>
+
+    <!-- PRODUCT 2 -->
+    <div class="product-card" id="purple-restore-plus">
+      <div class="rank">#2 Best for Pressure Relief</div>
+      <h2>Purple Restore Plus Hybrid</h2>
+      <div class="tagline">Larger GelFlex Grid cells designed for higher-pressure sleep profiles</div>
+      <div class="why-grid">
+        <div class="why-item"><strong>Firmness</strong>Soft or Medium</div>
+        <div class="why-item"><strong>Height</strong>15 inches</div>
+        <div class="why-item"><strong>Construction</strong>4" GelFlex Grid + pocketed coils</div>
+        <div class="why-item"><strong>Trial</strong>100 nights</div>
+        <div class="why-item"><strong>Warranty</strong>10 years</div>
+        <div class="why-item"><strong>Grid Size</strong>3.5" cells (larger than Original)</div>
+      </div>
+      <p>The Restore Plus uses 4-inch GelFlex Grid cells &mdash; larger than the original Purple's 2-inch cells &mdash; which means more give before the grid collapses into pressure-relief mode. This creates a softer immediate feel while maintaining the grid's signature pressure-free sleep surface for tall sleepers who generate higher pressure at heel and shoulder contact zones.</p>
+      <p style="margin-top:0.75rem;">At 15 inches, the Restore Plus has enough material buffer to handle the full Cal King length without the construction issues that affect thinner mattresses at long spans.</p>
+      <div class="verdict">Best for: Tall side sleepers who need pressure relief at the shoulder and hip without sinking through the comfort layer entirely.</div>
+      <a href="https://www.amazon.com/s?k=purple+restore+plus+hybrid+california+king&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank" class="cta-btn">Check Price on Amazon</a>
+    </div>
+
+    <!-- PRODUCT 3 -->
+    <div class="product-card" id="helix-midnight-luxe">
+      <div class="rank">#3 Best Luxury Hybrid</div>
+      <h2>Helix Midnight Luxe</h2>
+      <div class="tagline">Dual-comfort option available in Cal King &mdash; each side independently configured</div>
+      <div class="why-grid">
+        <div class="why-item"><strong>Firmness</strong>Medium or Dual Comfort</div>
+        <div class="why-item"><strong>Height</strong>13.5 inches</div>
+        <div class="why-item"><strong>Construction</strong>Zoned memory foam + pocketed coils</div>
+        <div class="why-item"><strong>Trial</strong>100 nights</div>
+        <div class="why-item"><strong>Warranty</strong>15 years</div>
+        <div class="why-item"><strong>Cooling</strong>Tencel cover + airflow channels</div>
+      </div>
+      <p>The Midnight Luxe's dual-comfort option is a standout feature for the Cal King format: each half of the mattress uses different foam configurations &mdash; one side soft, one side medium &mdash; so couples with different preferences don't have to compromise. This is achieved without a seam running down the center, unlike split mattress approaches.</p>
+      <p style="margin-top:0.75rem;">The 15-year warranty (longer than most competitors at this price point) reflects construction confidence. The Tencel cover and airflow channels handle temperature regulation better than most memory foam alternatives.</p>
+      <div class="verdict">Best for: Tall couples with different firmness preferences who want dual-comfort construction without a split mattress setup.</div>
+      <a href="https://www.amazon.com/s?k=helix+midnight+luxe+california+king&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank" class="cta-btn">Check Price on Amazon</a>
+    </div>
+
+    <!-- PRODUCT 4 -->
+    <div class="product-card" id="winkbed">
+      <div class="rank">#4 Best for Back Pain</div>
+      <h2>WinkBed</h2>
+      <div class="tagline">Targeted lumbar support system in a Cal King that few competitors match</div>
+      <div class="why-grid">
+        <div class="why-item"><strong>Firmness</strong>Softer / Luxury Firm / Firmer / Plus (heavy)</div>
+        <div class="why-item"><strong>Height</strong>13.5 inches</div>
+        <div class="why-item"><strong>Construction</strong>Euro pillow top + zoned pocketed coils</div>
+        <div class="why-item"><strong>Trial</strong>120 nights</div>
+        <div class="why-item"><strong>Warranty</strong>Lifetime</div>
+        <div class="why-item"><strong>Lumbar Zone</strong>Reinforced center third</div>
+      </div>
+      <p>WinkBed's lumbar support system uses reinforced coils in the center third of the mattress &mdash; the zone that bears the most weight in back and side sleeping positions. For tall sleepers, the extra 4 inches of Cal King length means this lumbar zone hits anatomically correctly rather than the mattress being too short to provide lumbar contact.</p>
+      <p style="margin-top:0.75rem;">Four firmness options including the Plus version (designed for heavier bodies) give WinkBed the widest body-type compatibility range in the Cal King format. The 120-night trial is one of the longest in this category.</p>
+      <div class="verdict">Best for: Tall back or side sleepers with chronic back pain who need targeted lumbar reinforcement across the full Cal King length.</div>
+      <a href="https://www.amazon.com/s?k=winkbed+california+king+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank" class="cta-btn">Check Price on Amazon</a>
+    </div>
+
+    <!-- PRODUCT 5 -->
+    <div class="product-card" id="nectar-premier-copper">
+      <div class="rank">#5 Best Memory Foam</div>
+      <h2>Nectar Premier Copper</h2>
+      <div class="tagline">Best-value memory foam option in Cal King with a lifetime warranty and 365-night trial</div>
+      <div class="why-grid">
+        <div class="why-item"><strong>Firmness</strong>Medium-firm (6/10)</div>
+        <div class="why-item"><strong>Height</strong>14 inches</div>
+        <div class="why-item"><strong>Construction</strong>Copper-infused memory foam + base foam</div>
+        <div class="why-item"><strong>Trial</strong>365 nights</div>
+        <div class="why-item"><strong>Warranty</strong>Lifetime</div>
+        <div class="why-item"><strong>Cooling</strong>Copper heat dissipation</div>
+      </div>
+      <p>Nectar offers a lifetime warranty and 365-night trial on all sizes including Cal King &mdash; terms that most competitors don't match even on standard sizes. The copper-infused comfort layer addresses memory foam's primary weakness (heat retention) while the 14-inch profile prevents the bottoming-out issue common in thinner foam mattresses at long Cal King spans.</p>
+      <p style="margin-top:0.75rem;">The value-to-quality ratio at the Cal King size is strong: Nectar's manufacturing scale lets it maintain competitive pricing across all sizes without the premium markup common on Cal King orders.</p>
+      <div class="verdict">Best for: Tall sleepers who want memory foam's conforming feel, can't justify premium pricing, and want the best trial/warranty terms available.</div>
+      <a href="https://www.amazon.com/s?k=nectar+premier+copper+california+king&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank" class="cta-btn">Check Price on Amazon</a>
+    </div>
+
+    <!-- PRODUCT 6 -->
+    <div class="product-card" id="casper-wave-hybrid">
+      <div class="rank">#6 Best Zoned Support</div>
+      <h2>Casper Wave Hybrid</h2>
+      <div class="tagline">Ergonomic zoning maps directly to tall body proportions across the full Cal King length</div>
+      <div class="why-grid">
+        <div class="why-item"><strong>Firmness</strong>Medium (5/10)</div>
+        <div class="why-item"><strong>Height</strong>13 inches</div>
+        <div class="why-item"><strong>Construction</strong>Zoned foam + pocketed coils</div>
+        <div class="why-item"><strong>Trial</strong>100 nights</div>
+        <div class="why-item"><strong>Warranty</strong>10 years</div>
+        <div class="why-item"><strong>Zones</strong>7-zone ergonomic system</div>
+      </div>
+      <p>Casper Wave Hybrid's 7-zone ergonomic system is designed for full-length body mapping. For standard-height sleepers on a standard king, the zones can misalign with actual body proportions. The Cal King's additional 4 inches gives taller sleepers the length needed for the zones to actually align &mdash; shoulder zone at the shoulders, lumbar zone at the lumbar, and so on.</p>
+      <div class="verdict">Best for: Tall sleepers (6'1" to 6'5") who want ergonomic zoning that actually aligns with their body rather than stopping at the foot of the mattress.</div>
+      <a href="https://www.amazon.com/s?k=casper+wave+hybrid+california+king&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank" class="cta-btn">Check Price on Amazon</a>
+    </div>
+
+    <!-- PRODUCT 7 -->
+    <div class="product-card" id="avocado-green">
+      <div class="rank">#7 Best Organic</div>
+      <h2>Avocado Green Mattress</h2>
+      <div class="tagline">GOLS-certified organic latex in Cal King &mdash; durable, natural, and long-lasting</div>
+      <div class="why-grid">
+        <div class="why-item"><strong>Firmness</strong>Medium-firm (6.5/10)</div>
+        <div class="why-item"><strong>Height</strong>11 or 13 inches</div>
+        <div class="why-item"><strong>Construction</strong>GOLS organic latex + pocketed coils</div>
+        <div class="why-item"><strong>Trial</strong>365 nights</div>
+        <div class="why-item"><strong>Warranty</strong>25 years</div>
+        <div class="why-item"><strong>Certifications</strong>GOLS, GOTS, Greenguard Gold</div>
+      </div>
+      <p>Avocado's 25-year warranty reflects natural latex's durability advantage &mdash; it outlasts foam at every size, and the Cal King's long span puts more stress on construction integrity than shorter mattresses. The GOLS-certified organic Dunlop latex doesn't sag or compress unevenly over time, which matters more in a Cal King format where replacement is logistically difficult.</p>
+      <p style="margin-top:0.75rem;">The Greenguard Gold certification makes it the right choice for chemically-sensitive buyers. The higher firmness profile (6.5/10) suits back and stomach sleepers more than side sleepers.</p>
+      <div class="verdict">Best for: Environmentally-conscious buyers or chemically-sensitive sleepers who want the most durable construction in the Cal King format.</div>
+      <a href="https://www.amazon.com/s?k=avocado+green+mattress+california+king&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank" class="cta-btn">Check Price on Amazon</a>
+    </div>
+
+    <!-- COMPARISON TABLE -->
+    <h2 class="section-title" id="comparison">California King Comparison</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Mattress</th>
+          <th>Firmness Options</th>
+          <th>Height</th>
+          <th>Trial</th>
+          <th>Warranty</th>
+          <th>Best For</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr class="highlight"><td>Saatva Classic</td><td>3 options</td><td>11.5" / 14.5"</td><td>365 nights</td><td>Lifetime</td><td>Overall</td></tr>
+        <tr><td>Purple Restore Plus</td><td>2 options</td><td>15"</td><td>100 nights</td><td>10 years</td><td>Pressure relief</td></tr>
+        <tr><td>Helix Midnight Luxe</td><td>2 + Dual</td><td>13.5"</td><td>100 nights</td><td>15 years</td><td>Couples</td></tr>
+        <tr><td>WinkBed</td><td>4 options</td><td>13.5"</td><td>120 nights</td><td>Lifetime</td><td>Back pain</td></tr>
+        <tr><td>Nectar Premier Copper</td><td>1 (Med-firm)</td><td>14"</td><td>365 nights</td><td>Lifetime</td><td>Value</td></tr>
+        <tr><td>Casper Wave Hybrid</td><td>1 (Medium)</td><td>13"</td><td>100 nights</td><td>10 years</td><td>Zoned support</td></tr>
+        <tr><td>Avocado Green</td><td>1 (Med-firm)</td><td>11" / 13"</td><td>365 nights</td><td>25 years</td><td>Organic</td></tr>
+      </tbody>
+    </table>
+
+    <!-- SIZE GUIDE -->
+    <h2 class="section-title" id="size-guide">Should You Buy a California King?</h2>
+    <table>
+      <thead>
+        <tr><th>Situation</th><th>Cal King?</th><th>Why</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Over 6'2" sleeping solo</td><td style="color:var(--green);font-weight:700;">Yes</td><td>Foot-of-bed clearance is the primary reason for Cal King</td></tr>
+        <tr><td>Over 6'2" sleeping with partner</td><td style="color:var(--green);font-weight:700;">Yes</td><td>Cal King's length serves both; 4" less width than standard king</td></tr>
+        <tr><td>Under 6' sleeping with partner</td><td style="color:var(--red);font-weight:700;">No</td><td>Standard king's 76" width is better for side-by-side comfort</td></tr>
+        <tr><td>Long narrow bedroom</td><td style="color:var(--green);font-weight:700;">Yes</td><td>Cal King is 4" narrower &mdash; may fit where standard king doesn't</td></tr>
+        <tr><td>Square or wide bedroom</td><td style="color:var(--red);font-weight:700;">No</td><td>Standard king uses the room more efficiently</td></tr>
+        <tr><td>Want split-king adjustable base</td><td style="color:var(--red);font-weight:700;">No</td><td>Split Cal King mattresses are not widely available</td></tr>
+        <tr><td>Budget-constrained</td><td style="color:var(--red);font-weight:700;">Consider</td><td>Cal King typically costs 5-15% more; bedding harder to find</td></tr>
+      </tbody>
+    </table>
+
+    <h2 class="section-title">Buying Tips</h2>
+    <ul style="padding-left:1.5rem;line-height:2.2;">
+      <li><strong>Measure your room first</strong> &mdash; you need at least 2 feet clearance on each side and at the foot for comfortable movement.</li>
+      <li><strong>Confirm bedding availability</strong> &mdash; California king sheets, duvet covers, and bed frames are less commonly stocked. Check before you buy the mattress.</li>
+      <li><strong>Weight matters at this size</strong> &mdash; Cal King mattresses can weigh 100-150 lbs. Consider white-glove delivery if available.</li>
+      <li><strong>Box spring vs. foundation</strong> &mdash; most modern Cal King mattresses use a slatted platform bed or foundation, not a traditional box spring. Verify your frame compatibility.</li>
+      <li><strong>Cal King vs. Eastern King</strong> &mdash; "California King" and "Western King" are the same thing. "Eastern King" means standard king. Verify dimensions before purchase.</li>
+      <li><strong>No split Cal King standard</strong> &mdash; unlike standard king (which splits into two twin XLs), there is no widely available split California king adjustable base system.</li>
+    </ul>
+
+    <!-- FAQ -->
+    <div class="faq-section" id="faq">
+      <h2 class="section-title">Frequently Asked Questions</h2>
+      <div class="faq-item">
+        <h3>What is the difference between a California king and a regular king?</h3>
+        <p>A California king measures 72 x 84 inches. A standard king measures 76 x 80 inches. The California king is 4 inches longer but 4 inches narrower, with essentially the same total surface area.</p>
+      </div>
+      <div class="faq-item">
+        <h3>Who should buy a California king mattress?</h3>
+        <p>California kings suit sleepers over 6'2" who want foot-of-bed clearance, rooms that are long and narrow, and couples where at least one partner is very tall. Standard kings are better for couples who prioritize side-by-side width.</p>
+      </div>
+      <div class="faq-item">
+        <h3>Are California king mattresses more expensive?</h3>
+        <p>Typically 5-15% more expensive than the same model in standard king due to lower production volume and non-standard dimensions. Bedding and accessories are also slightly more expensive and less widely available.</p>
+      </div>
+      <div class="faq-item">
+        <h3>Can a California king mattress be used with a split king adjustable base?</h3>
+        <p>No. Split king adjustable bases use two twin XL mattresses (38 x 80 inches each). California king dimensions (72 x 84) do not have a compatible split version. A dual-zone California king adjustable base would require custom 36 x 84 mattresses, which are not widely available.</p>
+      </div>
+      <div class="faq-item">
+        <h3>How do I find bedding for a California king?</h3>
+        <p>California king bedding is widely available at major retailers but in smaller quantities than standard king. Look for sheets labeled 'California King' specifically &mdash; standard king sheets are 16 inches shorter and will not fit. Most premium sheet brands carry California king sizes.</p>
+      </div>
+    </div>
+
+    <div style="margin-top:3rem;padding:1.5rem;background:var(--card);border:1px solid var(--border);border-radius:10px;font-size:0.8rem;color:var(--muted);">
+      <strong>Affiliate Disclosure:</strong> SleepWise Reviews earns a commission on qualifying purchases made through links on this page. This does not affect our editorial independence or product rankings.
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2026 SleepWise Reviews &bull; <a href="/posts/index.html">All Articles</a> &bull; <a href="/">Home</a></p>
+    <p style="margin-top:0.5rem;">For informational purposes only. Verify all dimensions and compatibility with the manufacturer before purchase.</p>
+  </footer>
+</body>
+</html>"""
+
+with open('posts/best-california-king-mattress.html', 'w', encoding='utf-8') as f:
+    f.write(html)
+print('Written: posts/best-california-king-mattress.html')
