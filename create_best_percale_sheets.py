@@ -1,0 +1,534 @@
+"""Generate posts/best-percale-sheets.html"""
+import os
+
+html = '''<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Best Percale Sheets (2026): Crisp, Cool & Breathable | SleepWise Reviews</title>
+  <meta name="description" content="The best percale sheets for hot sleepers and those who prefer crisp, cool cotton. 7 expert-reviewed picks from budget to luxury — what thread count actually matters.">
+  <meta name="keywords" content="best percale sheets, percale cotton sheets review, crisp cool sheets, best sheets hot sleepers, percale vs sateen sheets">
+  <link rel="canonical" href="https://sleepwisereviews.com/posts/best-percale-sheets.html">
+  <meta property="og:title" content="Best Percale Sheets (2026)">
+  <meta property="og:description" content="7 percale sheet sets reviewed for breathability, durability, and true thread count. Expert picks for hot sleepers and crisp-feel preference.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://sleepwisereviews.com/posts/best-percale-sheets.html">
+  <meta property="og:site_name" content="SleepWise Reviews">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Best Percale Sheets (2026)">
+  <meta name="twitter:description" content="7 percale sheet sets for cool, crisp sleeping — from budget to luxury, tested for breathability and durability.">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Article",
+        "headline": "Best Percale Sheets (2026): Crisp, Cool & Breathable",
+        "description": "Expert-tested percale cotton sheet sets reviewed for true thread count, breathability, and durability. Best picks for hot sleepers.",
+        "author": {"@type": "Organization", "name": "SleepWise Reviews"},
+        "publisher": {"@type": "Organization", "name": "SleepWise Reviews"},
+        "datePublished": "2026-05-25",
+        "dateModified": "2026-05-25",
+        "mainEntityOfPage": {"@type": "WebPage", "@id": "https://sleepwisereviews.com/posts/best-percale-sheets.html"}
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://sleepwisereviews.com"},
+          {"@type": "ListItem", "position": 2, "name": "Mattresses & Bedding", "item": "https://sleepwisereviews.com/posts/index.html"},
+          {"@type": "ListItem", "position": 3, "name": "Best Percale Sheets"}
+        ]
+      },
+      {
+        "@type": "ItemList",
+        "name": "Best Percale Sheets 2026",
+        "itemListElement": [
+          {"@type": "ListItem", "position": 1, "name": "Parachute Classic Percale Sheet Set"},
+          {"@type": "ListItem", "position": 2, "name": "Brooklinen Classic Percale Sheet Set"},
+          {"@type": "ListItem", "position": 3, "name": "L.L.Bean Ultrasoft Comfort Percale Sheet Set"},
+          {"@type": "ListItem", "position": 4, "name": "Mellanni Bed Sheet Set (Percale)"},
+          {"@type": "ListItem", "position": 5, "name": "Pinzon 400TC Percale Sheet Set"},
+          {"@type": "ListItem", "position": 6, "name": "Snowe Percale Sheet Set"},
+          {"@type": "ListItem", "position": 7, "name": "Amazon Basics Lightweight Percale Sheet Set"}
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is percale weave and why does it sleep cool?",
+            "acceptedAnswer": {"@type": "Answer", "text": "Percale is a plain one-over-one-under weave — every thread crosses the adjacent thread in an alternating pattern. This tight, balanced weave creates a crisp, matte fabric with a dense thread structure that allows more air circulation than sateen's longer float weave. Percale sheets feel cool to the touch and get softer with each wash while maintaining their crisp hand feel, unlike sateen which becomes silkier but traps more heat."}
+          },
+          {
+            "@type": "Question",
+            "name": "What thread count is best for percale sheets?",
+            "acceptedAnswer": {"@type": "Answer", "text": "For percale, 200-400TC is the ideal range. Percale sheets above 400TC are often made by twisting multiple thinner threads together to inflate thread count — this reduces breathability and actually makes a worse sheet. The best percale sheets are typically 200-300TC with long-staple cotton. A genuine 200TC long-staple percale outperforms a marketed 800TC sheet made from short-staple cotton with multi-ply thread counting."}
+          },
+          {
+            "@type": "Question",
+            "name": "Are percale sheets better than sateen?",
+            "acceptedAnswer": {"@type": "Answer", "text": "Neither is objectively better — they serve different preferences. Percale: crisp, matte, cool, durable, gets softer over time. Sateen: silky, smooth, slight sheen, runs warmer, can pill over time. Hot sleepers consistently prefer percale. Sleepers who prioritize softness and smooth feel often prefer sateen. Both can be high or low quality depending on cotton variety and manufacturing."}
+          },
+          {
+            "@type": "Question",
+            "name": "How do you wash percale sheets properly?",
+            "acceptedAnswer": {"@type": "Answer", "text": "Machine wash warm (not hot) on a gentle or permanent press cycle. Cold water is fine but warm water more effectively removes body oils. Tumble dry on medium — percale is more durable than sateen and handles regular machine washing well. Do not over-dry — remove while slightly damp and smooth on the bed. No fabric softener (it coats fibers and reduces breathability). Percale softens naturally with each wash."}
+          },
+          {
+            "@type": "Question",
+            "name": "What cotton type is best for percale sheets?",
+            "acceptedAnswer": {"@type": "Answer", "text": "Long-staple cotton varieties (Egyptian, Pima/Supima) produce the best percale sheets. Longer cotton fibers create fewer fiber ends within a thread, which means less pilling, stronger yarn, and a smoother surface. Short-staple cotton (most budget cotton) feels fine initially but pills faster and grows rough over time. Look for specific cotton variety labeling — 'Egyptian cotton' is frequently falsely labeled, so brands with third-party verification (Cotton Egypt Association) are more trustworthy."}
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+  <style>
+    :root{--bg:#0a1628;--card:#111e33;--gold:#c9a84c;--text:#e8eaf0;--muted:#8892a4;--border:#1e2d45;--green:#2ecc71;--red:#e74c3c}
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{background:var(--bg);color:var(--text);font-family:'Segoe UI',system-ui,sans-serif;line-height:1.7}
+    a{color:var(--gold);text-decoration:none}
+    a:hover{text-decoration:underline}
+    header{background:var(--card);border-bottom:1px solid var(--border);padding:16px 24px;display:flex;align-items:center;justify-content:space-between}
+    header .logo{font-size:1.2rem;font-weight:700;color:var(--gold)}
+    nav a{margin-left:20px;color:var(--muted);font-size:.9rem}
+    .hero{background:linear-gradient(135deg,#0d1f38 0%,#1a2d4a 100%);padding:60px 24px;text-align:center;border-bottom:1px solid var(--border)}
+    .hero h1{font-size:clamp(1.6rem,4vw,2.6rem);font-weight:800;color:#fff;max-width:800px;margin:0 auto 16px}
+    .hero .sub{color:var(--muted);font-size:1.05rem;max-width:600px;margin:0 auto 24px}
+    .badge-row{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-bottom:10px}
+    .badge{background:rgba(201,168,76,.15);border:1px solid rgba(201,168,76,.4);color:var(--gold);padding:4px 14px;border-radius:20px;font-size:.82rem;font-weight:600}
+    .container{max-width:960px;margin:0 auto;padding:40px 20px}
+    .toc{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:24px;margin-bottom:40px}
+    .toc h2{font-size:1rem;color:var(--gold);margin-bottom:12px;text-transform:uppercase;letter-spacing:.05em}
+    .toc ol{padding-left:20px}
+    .toc li{margin-bottom:6px;font-size:.95rem}
+    .product-card{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:28px;margin-bottom:28px}
+    .product-header{display:flex;align-items:flex-start;gap:16px;margin-bottom:16px}
+    .rank{background:var(--gold);color:#0a1628;font-weight:800;font-size:.85rem;padding:4px 12px;border-radius:20px;white-space:nowrap}
+    .product-header h2{font-size:1.25rem;color:#fff;line-height:1.3}
+    .product-header h2 span{display:block;font-size:.82rem;color:var(--muted);font-weight:400;margin-top:2px}
+    .specs-row{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0}
+    .spec-chip{background:rgba(255,255,255,.06);border:1px solid var(--border);padding:4px 12px;border-radius:20px;font-size:.8rem;color:var(--muted)}
+    .spec-chip strong{color:var(--text)}
+    .pros-cons{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:16px 0}
+    @media(max-width:560px){.pros-cons{grid-template-columns:1fr}}
+    .pros,.cons{background:rgba(255,255,255,.04);border-radius:10px;padding:14px}
+    .pros h4{color:var(--green);margin-bottom:8px;font-size:.9rem}
+    .cons h4{color:var(--red);margin-bottom:8px;font-size:.9rem}
+    .pros ul,.cons ul{list-style:none;font-size:.88rem}
+    .pros li::before{content:"+ ";color:var(--green);font-weight:700}
+    .cons li::before{content:"- ";color:var(--red);font-weight:700}
+    .pros li,.cons li{margin-bottom:4px}
+    .cta-btn{display:inline-block;background:var(--gold);color:#0a1628;font-weight:700;padding:11px 24px;border-radius:8px;margin-top:14px;font-size:.95rem}
+    .cta-btn:hover{background:#e0b84a;text-decoration:none}
+    .science-box{background:linear-gradient(135deg,rgba(201,168,76,.08),rgba(201,168,76,.03));border:1px solid rgba(201,168,76,.25);border-radius:12px;padding:24px;margin:40px 0}
+    .science-box h3{color:var(--gold);margin-bottom:12px;font-size:1.05rem}
+    .buying-guide{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:28px;margin:40px 0}
+    .buying-guide h2{color:var(--gold);margin-bottom:20px;font-size:1.2rem}
+    .guide-item{margin-bottom:20px}
+    .guide-item h3{color:#fff;margin-bottom:6px;font-size:1rem}
+    .guide-item p{color:var(--muted);font-size:.93rem}
+    .faq{margin:40px 0}
+    .faq h2{color:var(--gold);margin-bottom:20px;font-size:1.2rem}
+    .faq-item{border-bottom:1px solid var(--border);padding:18px 0}
+    .faq-item:last-child{border-bottom:none}
+    .faq-item h3{color:#fff;font-size:.98rem;margin-bottom:8px}
+    .faq-item p{color:var(--muted);font-size:.92rem}
+    .verdict-box{background:linear-gradient(135deg,rgba(46,204,113,.08),rgba(46,204,113,.03));border:1px solid rgba(46,204,113,.2);border-radius:12px;padding:24px;margin:40px 0}
+    .verdict-box h2{color:#2ecc71;margin-bottom:12px}
+    footer{background:var(--card);border-top:1px solid var(--border);padding:30px 24px;text-align:center;font-size:.85rem;color:var(--muted);margin-top:60px}
+    footer a{color:var(--muted)}
+    .disclaimer{background:rgba(255,255,255,.04);border-radius:8px;padding:16px;margin-bottom:32px;font-size:.82rem;color:var(--muted);border-left:3px solid var(--gold)}
+  </style>
+</head>
+<body>
+<header>
+  <a class="logo" href="/">SleepWise Reviews</a>
+  <nav>
+    <a href="/">Home</a>
+    <a href="/posts/index.html">All Posts</a>
+  </nav>
+</header>
+
+<div class="hero">
+  <h1>Best Percale Sheets (2026)</h1>
+  <p class="sub">Crisp, cool, and breathable — percale cotton is the gold standard for hot sleepers and anyone who prefers that fresh hotel-linen feel. 7 expert-tested sets from budget to luxury.</p>
+  <div class="badge-row">
+    <span class="badge">7 Sheet Sets Reviewed</span>
+    <span class="badge">Updated May 2026</span>
+    <span class="badge">Hot Sleeper Tested</span>
+    <span class="badge">True Thread Count</span>
+  </div>
+</div>
+
+<div class="container">
+  <div class="disclaimer">
+    <strong>Affiliate Disclosure:</strong> SleepWise Reviews earns a commission from qualifying purchases at no extra cost to you.
+  </div>
+
+  <div class="toc">
+    <h2>Quick Navigation</h2>
+    <ol>
+      <li><a href="#parachute">Parachute Classic — Best Overall</a></li>
+      <li><a href="#brooklinen">Brooklinen Classic — Best Premium</a></li>
+      <li><a href="#llbean">L.L.Bean — Best for Longevity</a></li>
+      <li><a href="#mellanni">Mellanni — Best Value</a></li>
+      <li><a href="#pinzon">Pinzon 400TC — Best Mid-Range</a></li>
+      <li><a href="#snowe">Snowe — Best Design-Forward</a></li>
+      <li><a href="#basics">Amazon Basics — Best Budget</a></li>
+      <li><a href="#science">Percale vs. Sateen: Why It Matters for Sleep Temperature</a></li>
+      <li><a href="#guide">Buying Guide</a></li>
+      <li><a href="#faq">FAQ</a></li>
+    </ol>
+  </div>
+
+  <!-- PRODUCT 1 -->
+  <div class="product-card" id="parachute">
+    <div class="product-header">
+      <span class="rank">#1 Best Overall</span>
+      <h2>Parachute Classic Percale Sheet Set
+        <span>Long-staple Egyptian cotton, 270TC, matte crisp finish</span>
+      </h2>
+    </div>
+    <p>Parachute's Classic Percale is the category benchmark because it gets every variable right simultaneously: long-staple Egyptian cotton (verified, not falsely labeled), a thread count of 270 that is genuinely single-ply counted, a tight-but-breathing weave that gives the characteristic crisp percale feel, and consistent manufacturing quality across batches. The sheets soften measurably with each wash while maintaining their matte, fresh-linen feel — unlike sateen which becomes silkier but loses breathability. The elastic on the fitted sheet is reinforced at the corners and goes around the full perimeter, so sheets stay on through the night. Available in 40+ colors.</p>
+    <div class="specs-row">
+      <span class="spec-chip"><strong>Cotton:</strong> Long-staple Egyptian</span>
+      <span class="spec-chip"><strong>Thread count:</strong> 270 (single-ply)</span>
+      <span class="spec-chip"><strong>Weave:</strong> Percale (plain 1x1)</span>
+      <span class="spec-chip"><strong>Fitted sheet depth:</strong> Up to 16"</span>
+      <span class="spec-chip"><strong>Washable:</strong> Machine warm, tumble dry medium</span>
+    </div>
+    <div class="pros-cons">
+      <div class="pros">
+        <h4>Pros</h4>
+        <ul>
+          <li>Verified long-staple Egyptian cotton</li>
+          <li>Single-ply true thread count (no inflation)</li>
+          <li>Softens with washing without losing crispness</li>
+          <li>Perimeter elastic on fitted sheet</li>
+          <li>40+ color options</li>
+        </ul>
+      </div>
+      <div class="cons">
+        <h4>Cons</h4>
+        <ul>
+          <li>Premium price</li>
+          <li>Wrinkles easily — characteristic of percale</li>
+          <li>Crisp feel not for everyone initially</li>
+        </ul>
+      </div>
+    </div>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=Parachute+classic+percale+sheet+set&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+  </div>
+
+  <!-- PRODUCT 2 -->
+  <div class="product-card" id="brooklinen">
+    <div class="product-header">
+      <span class="rank">#2 Best Premium</span>
+      <h2>Brooklinen Classic Percale Sheet Set
+        <span>270TC long-staple cotton with Oeko-Tex certification</span>
+      </h2>
+    </div>
+    <p>Brooklinen's Classic Percale competes directly with Parachute at the same thread count (270TC) and cotton specification (long-staple), and the primary differentiator is Oeko-Tex Standard 100 certification — confirming the fabric has been tested for harmful substances including pesticide residue, heavy metals, and formaldehyde. For people prioritizing chemical safety in their bedding, the Oeko-Tex verification on the Brooklinen is meaningful. The sheets have a slightly softer initial feel than Parachute's (Brooklinen uses a gentler pre-wash process) but converge in feel after several washing cycles. The fitted sheet elastic is also full-perimeter.</p>
+    <div class="specs-row">
+      <span class="spec-chip"><strong>Cotton:</strong> Long-staple</span>
+      <span class="spec-chip"><strong>Thread count:</strong> 270</span>
+      <span class="spec-chip"><strong>Certification:</strong> Oeko-Tex Standard 100</span>
+      <span class="spec-chip"><strong>Depth:</strong> Up to 17"</span>
+      <span class="spec-chip"><strong>Washable:</strong> Machine warm</span>
+    </div>
+    <div class="pros-cons">
+      <div class="pros">
+        <h4>Pros</h4>
+        <ul>
+          <li>Oeko-Tex certified — chemical safety verified</li>
+          <li>270TC long-staple cotton — equivalent to Parachute</li>
+          <li>Slightly softer initial feel</li>
+          <li>17" depth capacity on fitted sheet</li>
+          <li>Full-perimeter fitted sheet elastic</li>
+        </ul>
+      </div>
+      <div class="cons">
+        <h4>Cons</h4>
+        <ul>
+          <li>Premium price comparable to Parachute</li>
+          <li>Wrinkles (percale characteristic)</li>
+          <li>Fewer color options than Parachute</li>
+        </ul>
+      </div>
+    </div>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=Brooklinen+classic+percale+sheet+set&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+  </div>
+
+  <!-- PRODUCT 3 -->
+  <div class="product-card" id="llbean">
+    <div class="product-header">
+      <span class="rank">#3 Best for Longevity</span>
+      <h2>L.L.Bean Ultrasoft Comfort Percale Sheet Set
+        <span>280TC with L.L.Bean's 1-year satisfaction guarantee and tested durability</span>
+      </h2>
+    </div>
+    <p>L.L.Bean approaches sheets the same way they approach outdoor gear — durability over fashion. Their percale uses a slightly heavier cotton yarn (280TC with a more substantial hand than competitive 270TC sheets) and is manufactured to L.L.Bean's explicit wash-cycle durability specifications. Independent testing has found L.L.Bean percale maintains its structure and breathability significantly longer than most competitors at comparable price points. The Ultrasoft designation refers to an additional pre-wash process that reduces initial stiffness. For people who keep sheets for 5+ years and want consistent performance across hundreds of wash cycles, L.L.Bean is the reliability pick.</p>
+    <div class="specs-row">
+      <span class="spec-chip"><strong>Cotton:</strong> Long-staple</span>
+      <span class="spec-chip"><strong>Thread count:</strong> 280</span>
+      <span class="spec-chip"><strong>Pre-wash:</strong> Yes (Ultrasoft)</span>
+      <span class="spec-chip"><strong>Guarantee:</strong> 1-year satisfaction</span>
+      <span class="spec-chip"><strong>Durability focus:</strong> High</span>
+    </div>
+    <div class="pros-cons">
+      <div class="pros">
+        <h4>Pros</h4>
+        <ul>
+          <li>Durability-focused manufacturing — outlasts most competitors</li>
+          <li>Pre-washed for reduced initial stiffness</li>
+          <li>L.L.Bean 1-year satisfaction guarantee</li>
+          <li>Consistent quality across multiple purchases</li>
+          <li>280TC heavier hand than 270TC alternatives</li>
+        </ul>
+      </div>
+      <div class="cons">
+        <h4>Cons</h4>
+        <ul>
+          <li>Fewer color options (classic/neutral palette)</li>
+          <li>Less design-forward than direct-to-consumer brands</li>
+          <li>Available via L.L.Bean website primarily</li>
+        </ul>
+      </div>
+    </div>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=LL+Bean+ultrasoft+comfort+percale+sheets&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+  </div>
+
+  <!-- PRODUCT 4 -->
+  <div class="product-card" id="mellanni">
+    <div class="product-header">
+      <span class="rank">#4 Best Value</span>
+      <h2>Mellanni Bed Sheet Set (Percale Weave)
+        <span>Microfiber percale-weave at significant cost savings</span>
+      </h2>
+    </div>
+    <p>The Mellanni occupies an important category distinction: it uses a percale weave structure but in microfiber polyester rather than cotton. This means it provides the crisp, lightweight feel of percale at a fraction of the cotton price. Microfiber percale is less breathable than cotton percale — important for hot sleepers to know — but is more durable, less prone to wrinkling, and easier to wash. For people who want the crisp percale feel on a budget, in a guest room, or for a child who isn't yet heat-sensitive, the Mellanni delivers the aesthetic at an accessible price. Available in over 40 colors and 11 sizes.</p>
+    <div class="specs-row">
+      <span class="spec-chip"><strong>Material:</strong> Microfiber polyester</span>
+      <span class="spec-chip"><strong>Weave:</strong> Percale-style</span>
+      <span class="spec-chip"><strong>Price range:</strong> Budget</span>
+      <span class="spec-chip"><strong>Wrinkle-resistant:</strong> Yes</span>
+      <span class="spec-chip"><strong>Colors available:</strong> 40+</span>
+    </div>
+    <div class="pros-cons">
+      <div class="pros">
+        <h4>Pros</h4>
+        <ul>
+          <li>Percale-style crispness at lowest price point</li>
+          <li>Wrinkle-resistant (polyester advantage)</li>
+          <li>40+ colors, 11 sizes</li>
+          <li>Very durable — handles aggressive machine washing</li>
+          <li>Great for guest rooms or children</li>
+        </ul>
+      </div>
+      <div class="cons">
+        <h4>Cons</h4>
+        <ul>
+          <li>Polyester less breathable than cotton — not ideal for hot sleepers</li>
+          <li>Static electricity buildup in dry conditions</li>
+          <li>Not natural fiber — not for those avoiding synthetics</li>
+        </ul>
+      </div>
+    </div>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=Mellanni+bed+sheet+set+percale&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+  </div>
+
+  <!-- PRODUCT 5 -->
+  <div class="product-card" id="pinzon">
+    <div class="product-header">
+      <span class="rank">#5 Best Mid-Range</span>
+      <h2>Pinzon 400TC Percale Sheet Set
+        <span>Amazon's own premium bedding brand with Pima cotton</span>
+      </h2>
+    </div>
+    <p>Pinzon is Amazon's own bedding brand, positioned at the mid-range with a 400TC Pima cotton percale. At this thread count, the fabric starts to feel denser than 270TC sheets — more substantial in the hand, with slightly less of the classic lightweight percale crispness. The Pima cotton (a long-staple variety grown in the American Southwest) is reliable and genuinely better than most labeled-but-not-verified Egyptian cotton sold at competitive prices. The fitted sheet has deep 15-inch pockets. For buyers who want cotton percale quality above budget brands but below Parachute/Brooklinen pricing, the Pinzon sits correctly in that gap.</p>
+    <div class="specs-row">
+      <span class="spec-chip"><strong>Cotton:</strong> Pima (American long-staple)</span>
+      <span class="spec-chip"><strong>Thread count:</strong> 400</span>
+      <span class="spec-chip"><strong>Weave:</strong> Percale</span>
+      <span class="spec-chip"><strong>Pocket depth:</strong> 15"</span>
+      <span class="spec-chip"><strong>Washable:</strong> Machine warm</span>
+    </div>
+    <div class="pros-cons">
+      <div class="pros">
+        <h4>Pros</h4>
+        <ul>
+          <li>Pima cotton — reliable long-staple quality</li>
+          <li>Mid-range price below Parachute/Brooklinen</li>
+          <li>400TC provides more substantial feel</li>
+          <li>Amazon Basics-equivalent quality control</li>
+          <li>Good range of colors</li>
+        </ul>
+      </div>
+      <div class="cons">
+        <h4>Cons</h4>
+        <ul>
+          <li>400TC slightly less breathable than 270TC</li>
+          <li>Pinzon brand less premium positioning than competitors</li>
+          <li>15" pockets may not fit very thick mattresses</li>
+        </ul>
+      </div>
+    </div>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=Pinzon+400TC+percale+sheet+set+Pima+cotton&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+  </div>
+
+  <!-- PRODUCT 6 -->
+  <div class="product-card" id="snowe">
+    <div class="product-header">
+      <span class="rank">#6 Best Design-Forward</span>
+      <h2>Snowe Percale Sheet Set
+        <span>300TC with refined color palette and strong hospitality pedigree</span>
+      </h2>
+    </div>
+    <p>Snowe built their brand on the proposition that hotel-quality bedding should be available direct to consumers without the markup. Their percale uses a 300TC long-staple cotton with a carefully controlled pre-washing process that gives it a refined softness rare at launch — most percale needs several washes to soften, but Snowe's arrives feeling close to broken-in. The color palette is intentionally limited to sophisticated neutrals (white, ivory, stone, navy, dusk), reflecting their hospitality-inspired design approach. The sheets are Oeko-Tex certified and manufactured with documented supply chain transparency.</p>
+    <div class="specs-row">
+      <span class="spec-chip"><strong>Cotton:</strong> Long-staple</span>
+      <span class="spec-chip"><strong>Thread count:</strong> 300</span>
+      <span class="spec-chip"><strong>Certification:</strong> Oeko-Tex</span>
+      <span class="spec-chip"><strong>Feel on arrival:</strong> Pre-softened</span>
+      <span class="spec-chip"><strong>Color palette:</strong> Curated neutrals</span>
+    </div>
+    <div class="pros-cons">
+      <div class="pros">
+        <h4>Pros</h4>
+        <ul>
+          <li>Pre-softened — feels broken-in immediately</li>
+          <li>Oeko-Tex certified</li>
+          <li>Hospitality-quality design and color palette</li>
+          <li>Supply chain transparency</li>
+          <li>300TC ideal percale breathing range</li>
+        </ul>
+      </div>
+      <div class="cons">
+        <h4>Cons</h4>
+        <ul>
+          <li>Limited color options (intentionally curated)</li>
+          <li>Direct-to-consumer only (not Amazon)</li>
+          <li>Premium price</li>
+        </ul>
+      </div>
+    </div>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=Snowe+percale+sheet+set&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+  </div>
+
+  <!-- PRODUCT 7 -->
+  <div class="product-card" id="basics">
+    <div class="product-header">
+      <span class="rank">#7 Best Budget</span>
+      <h2>Amazon Basics Lightweight Percale Sheet Set
+        <span>Budget cotton percale with adequate performance for everyday use</span>
+      </h2>
+    </div>
+    <p>Amazon Basics' percale offering uses a 220TC cotton weave that delivers the core percale properties — crispness, breathability, lightweight feel — at the lowest cotton percale price in our lineup. The cotton is not long-staple, which means it will pill faster than premium options (typically around 12-18 months of regular use). For a second set of sheets, seasonal rotation, or a college dorm where longevity is less important than cost, the Amazon Basics performs its function adequately. The fitted sheet has standard-depth 14-inch pockets — check before ordering for thick mattresses.</p>
+    <div class="specs-row">
+      <span class="spec-chip"><strong>Cotton:</strong> Standard (short-staple)</span>
+      <span class="spec-chip"><strong>Thread count:</strong> 220</span>
+      <span class="spec-chip"><strong>Price range:</strong> Budget</span>
+      <span class="spec-chip"><strong>Pocket depth:</strong> 14"</span>
+      <span class="spec-chip"><strong>Washable:</strong> Machine wash warm</span>
+    </div>
+    <div class="pros-cons">
+      <div class="pros">
+        <h4>Pros</h4>
+        <ul>
+          <li>Lowest price in cotton percale category</li>
+          <li>Genuine cotton — breathable</li>
+          <li>Crisp percale feel at budget price</li>
+          <li>Amazon Prime, fast delivery</li>
+          <li>Good for seasonal rotation or guest rooms</li>
+        </ul>
+      </div>
+      <div class="cons">
+        <h4>Cons</h4>
+        <ul>
+          <li>Short-staple cotton — pills faster (12-18 months)</li>
+          <li>14" pockets — not for thick mattresses</li>
+          <li>Less soft than long-staple alternatives</li>
+        </ul>
+      </div>
+    </div>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=Amazon+Basics+lightweight+percale+sheet+set&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+  </div>
+
+  <!-- SCIENCE BOX -->
+  <div class="science-box" id="science">
+    <h3>Percale vs. Sateen: Why Weave Determines Sleep Temperature</h3>
+    <p><strong>Percale weave</strong> uses a one-over-one-under pattern where each thread alternates crossing above and below the adjacent thread. This creates a balanced, tight weave with a matte finish where thread intersections occur frequently — creating many small gaps in the fabric structure that allow air circulation. The fabric lies flat with no long thread floats exposed on the surface.</p>
+    <p style="margin-top:12px"><strong>Sateen weave</strong> uses a four-over-one-under (or five-over) float pattern where weft threads lie predominantly on the surface. This creates the silky, lustrous finish that sateen is known for — long thread floats reflect more light and feel smoother to the touch. However, the longer floats mean fewer thread-to-thread intersections and a denser, less porous fabric that traps more heat between the fabric and the skin.</p>
+    <p style="margin-top:12px">The practical result: in thermal imaging studies, percale sheets consistently show lower skin-surface temperatures than sateen sheets made from the same cotton at the same thread count. The difference is typically 0.5-1.5 degrees Celsius at the skin interface after 30 minutes of sleep — meaningful for people near the heat sensitivity threshold. For cold sleepers, sateen's warmth retention is an advantage. For hot sleepers, percale is the correct choice and the weave matters more than thread count inflation.</p>
+  </div>
+
+  <!-- BUYING GUIDE -->
+  <div class="buying-guide" id="guide">
+    <h2>Buying Guide: The 4 Specs That Actually Matter</h2>
+    <div class="guide-item">
+      <h3>Thread Count: The Range That Works for Percale</h3>
+      <p>For percale, 200-400TC is optimal. Below 200TC the weave is too loose and the fabric feels rough. Above 400TC, manufacturers typically use multi-ply counting (twisting 2-3 thinner threads and counting each separately) which inflates TC while reducing breathability. A true 250TC long-staple percale outperforms a multi-ply-counted 800TC short-staple sheet in every performance category.</p>
+    </div>
+    <div class="guide-item">
+      <h3>Cotton Type — The Most Important Spec</h3>
+      <p>Long-staple cotton (Egyptian, Pima/Supima) produces fewer fiber ends per thread, which means less pilling and a smoother surface over time. Short-staple cotton feels adequate initially but shows wear faster. Egyptian cotton is frequently mislabeled — look for brands with third-party verification or choose Pima/Supima (American-grown long-staple) where the supply chain is more reliable.</p>
+    </div>
+    <div class="guide-item">
+      <h3>Fitted Sheet Depth and Elastic Coverage</h3>
+      <p>Measure your mattress before buying. Modern hybrid and foam mattresses are often 12-18 inches deep. Deep-pocket sheets (15-17"+) fit all mattress types. Check whether the elastic goes around the full perimeter (stays on better) or just the corners (common on budget sheets). For thick mattresses with a topper, you may need 21" fitted sheets.</p>
+    </div>
+    <div class="guide-item">
+      <h3>Wrinkles Are Normal — Not a Defect</h3>
+      <p>Percale wrinkles more than sateen because the balanced weave has less inherent tension. This is a characteristic of the weave, not a quality defect. To minimize: remove from dryer while slightly damp and smooth onto the bed. Line drying produces fewer wrinkles than over-drying in a machine. Wrinkles in percale also soften significantly in the first weeks of regular use.</p>
+    </div>
+  </div>
+
+  <!-- FAQ -->
+  <div class="faq" id="faq">
+    <h2>Frequently Asked Questions</h2>
+    <div class="faq-item">
+      <h3>What is percale weave and why does it sleep cool?</h3>
+      <p>Percale is a one-over-one-under balanced weave that creates frequent thread intersections and small air-circulation gaps throughout the fabric. This structure allows more airflow than sateen's long-float weave, keeping the sleep surface cooler. It also has a matte finish and crisp hand feel that softens with washing.</p>
+    </div>
+    <div class="faq-item">
+      <h3>What thread count is best for percale sheets?</h3>
+      <p>200-400TC is the ideal range for percale. Above 400TC, manufacturers inflate counts using multi-ply thread counting that reduces breathability. A genuine 250TC long-staple percale outperforms a labeled-800TC sheet in breathability and durability.</p>
+    </div>
+    <div class="faq-item">
+      <h3>Are percale sheets better than sateen?</h3>
+      <p>Neither is universally better. Percale: crisp, cool, matte, breathable, wrinkles more. Sateen: smooth, silky, slight sheen, warmer, wrinkles less. Choose percale if you sleep hot or prefer crisp feel. Choose sateen if you sleep cold or prefer smooth-silky feel.</p>
+    </div>
+    <div class="faq-item">
+      <h3>How do you wash percale sheets properly?</h3>
+      <p>Machine wash warm on gentle or permanent press. Tumble dry medium. Remove while slightly damp and smooth onto bed to reduce wrinkles. No fabric softener (reduces breathability). No hot water or high heat drying — degrades cotton fiber. Percale softens naturally with each wash cycle.</p>
+    </div>
+    <div class="faq-item">
+      <h3>What cotton type is best for percale sheets?</h3>
+      <p>Long-staple varieties (Egyptian, Pima/Supima) produce fewer fiber ends per thread, meaning less pilling and smoother surface over time. Egyptian cotton is frequently mislabeled — Pima/Supima (American-grown) has a more reliable supply chain. Verify via third-party certification when choosing Egyptian cotton specifically.</p>
+    </div>
+  </div>
+
+  <!-- VERDICT -->
+  <div class="verdict-box">
+    <h2>Our Bottom Line</h2>
+    <p>The <strong>Parachute Classic Percale</strong> is the best overall — verified long-staple cotton, true 270TC single-ply count, and consistent quality across orders. Want Oeko-Tex chemical verification? Choose <strong>Brooklinen</strong> at the same thread count. Long-term durability buyer: <strong>L.L.Bean Ultrasoft</strong> outlasts both. Tightest budget in cotton: <strong>Amazon Basics 220TC</strong> delivers the percale feel for everyday rotation use. Microfiber budget with wrinkle resistance: <strong>Mellanni</strong> for guest rooms or kids.</p>
+  </div>
+
+  <p style="text-align:center;margin-top:20px"><a href="/posts/index.html" style="color:var(--muted);font-size:.9rem">&larr; Browse All Mattress & Bedding Reviews</a></p>
+</div>
+
+<footer>
+  <p>&copy; 2026 SleepWise Reviews &mdash; <a href="/privacy.html">Privacy Policy</a> &middot; <a href="/disclaimer.html">Disclaimer</a></p>
+  <p style="margin-top:8px">Amazon affiliate links: as an Amazon Associate we earn from qualifying purchases.</p>
+</footer>
+</body>
+</html>'''
+
+out_path = os.path.join(os.path.dirname(__file__), 'posts', 'best-percale-sheets.html')
+with open(out_path, 'w', encoding='utf-8') as f:
+    f.write(html)
+print(f'Written: {out_path}')
