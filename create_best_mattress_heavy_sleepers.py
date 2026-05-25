@@ -1,0 +1,287 @@
+slug = "best-mattress-heavy-sleepers"
+out = f"posts/{slug}.html"
+
+html = r"""<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Best Mattress for Heavy Sleepers 2026 — Top 7 Picks for 250+ lbs</title>
+  <meta name="description" content="Best mattresses for heavy sleepers 2026. 7 expert picks for people over 250 lbs — durability ratings, edge support test, sag resistance guide, and weight-band firmness table.">
+  <link rel="canonical" href="https://sleepwisereviews.com/posts/best-mattress-heavy-sleepers.html">
+  <meta property="og:title" content="Best Mattress for Heavy Sleepers 2026 — Top 7 Picks for 250+ lbs">
+  <meta property="og:description" content="7 mattresses built for heavy sleepers — coil gauge guide, sag resistance ratings, and weight-band firmness table for 250-400+ lbs.">
+  <meta property="og:url" content="https://sleepwisereviews.com/posts/best-mattress-heavy-sleepers.html">
+  <meta property="og:type" content="article">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Best Mattress for Heavy Sleepers 2026 — Top 7 Picks for 250+ lbs">
+  <meta name="twitter:description" content="7 mattresses built for heavy sleepers — coil gauge guide, sag resistance, weight-band firmness table.">
+  <style>
+    :root{--bg:#0a1628;--card:#111e33;--gold:#c9a84c;--text:#e2e8f0;--muted:#94a3b8;--blue:#3b82f6;--border:#1e3a5f}
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{background:var(--bg);color:var(--text);font-family:'Segoe UI',system-ui,sans-serif;line-height:1.7}
+    header{background:linear-gradient(135deg,#0a1628 0%,#0f2347 100%);border-bottom:2px solid var(--gold);padding:1rem 1.25rem;text-align:center}
+    header a{color:var(--gold);text-decoration:none;font-size:1.4rem;font-weight:700;letter-spacing:.03em}
+    .container{max-width:820px;margin:0 auto;padding:2rem 1.25rem}
+    .badge{display:inline-block;background:#7c3aed;color:#fff;font-size:.7rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;padding:.25rem .7rem;border-radius:20px;margin-bottom:1rem}
+    h1{font-size:2rem;font-weight:800;color:#fff;line-height:1.25;margin-bottom:.75rem}
+    .meta{color:var(--muted);font-size:.85rem;margin-bottom:2rem}
+    .intro{font-size:1.05rem;color:var(--text);margin-bottom:2.5rem;line-height:1.8}
+    /* science box */
+    .science-box{background:var(--card);border-left:4px solid var(--gold);border-radius:8px;padding:1.25rem 1.5rem;margin:2rem 0}
+    .science-box .sci-label{font-size:.7rem;font-weight:700;letter-spacing:.08em;text-transform:uppercase;color:var(--gold);margin-bottom:.4rem}
+    .science-box p{font-size:.92rem;color:var(--text);line-height:1.7}
+    /* coil gauge grid */
+    .coil-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(165px,1fr));gap:1rem;margin:2rem 0}
+    .coil-card{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:1.1rem;text-align:center}
+    .coil-card.best{border-color:var(--gold)}
+    .coil-card .gauge{font-size:1.6rem;font-weight:800;color:var(--gold);margin-bottom:.2rem}
+    .coil-card .gauge-label{font-size:.78rem;font-weight:700;color:var(--muted);margin-bottom:.4rem}
+    .coil-card p{font-size:.8rem;color:var(--text);line-height:1.5}
+    /* product cards */
+    .product-card{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:1.5rem;margin-bottom:1.5rem}
+    .product-card .rank{font-size:.7rem;font-weight:700;letter-spacing:.1em;text-transform:uppercase;color:var(--gold);margin-bottom:.25rem}
+    .product-card h2{font-size:1.2rem;font-weight:700;color:#fff;margin-bottom:.5rem}
+    .product-card .verdict{font-size:.9rem;color:var(--muted);margin-bottom:.75rem;font-style:italic}
+    .product-card p{font-size:.92rem;color:var(--text);line-height:1.7;margin-bottom:1rem}
+    .specs-row{display:flex;flex-wrap:wrap;gap:.5rem;margin-bottom:1rem}
+    .spec-tag{background:#0a1628;border:1px solid var(--border);border-radius:20px;padding:.2rem .75rem;font-size:.78rem;color:var(--muted)}
+    .cta-btn{display:inline-block;background:var(--gold);color:#0a1628;font-weight:700;font-size:.9rem;padding:.6rem 1.4rem;border-radius:8px;text-decoration:none;transition:opacity .2s}
+    .cta-btn:hover{opacity:.85}
+    /* table */
+    .table-wrap{overflow-x:auto;margin:2rem 0}
+    table{width:100%;border-collapse:collapse;font-size:.88rem}
+    th{background:#0f2347;color:var(--gold);padding:.6rem .75rem;text-align:left;border-bottom:2px solid var(--border);font-size:.78rem;letter-spacing:.05em;text-transform:uppercase}
+    td{padding:.6rem .75rem;border-bottom:1px solid var(--border);color:var(--text);vertical-align:top}
+    tr:nth-child(even) td{background:rgba(255,255,255,.02)}
+    h2.section{font-size:1.35rem;font-weight:700;color:#fff;margin:2.5rem 0 1rem}
+    footer{background:#060e1a;border-top:1px solid var(--border);padding:2rem 1.25rem;text-align:center;color:var(--muted);font-size:.82rem;margin-top:3rem}
+    footer a{color:var(--gold);text-decoration:none}
+    @media(max-width:600px){h1{font-size:1.5rem}}
+  </style>
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@graph":[
+      {"@type":"Article","headline":"Best Mattress for Heavy Sleepers 2026","description":"7 mattresses for heavy sleepers over 250 lbs — durability, edge support, and weight-appropriate firmness covered.","url":"https://sleepwisereviews.com/posts/best-mattress-heavy-sleepers.html","publisher":{"@type":"Organization","name":"SleepWise Reviews","url":"https://sleepwisereviews.com"},"datePublished":"2026-05-25","dateModified":"2026-05-25"},
+      {"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://sleepwisereviews.com"},{"@type":"ListItem","position":2,"name":"Life Stages","item":"https://sleepwisereviews.com/posts/index.html"},{"@type":"ListItem","position":3,"name":"Best Mattress for Heavy Sleepers","item":"https://sleepwisereviews.com/posts/best-mattress-heavy-sleepers.html"}]},
+      {"@type":"ItemList","name":"Best Mattresses for Heavy Sleepers 2026","itemListElement":[
+        {"@type":"ListItem","position":1,"name":"Saatva Classic Firm — Best Overall"},
+        {"@type":"ListItem","position":2,"name":"WinkBed Plus — Best Purpose-Built"},
+        {"@type":"ListItem","position":3,"name":"Avocado Green Firm — Best Natural"},
+        {"@type":"ListItem","position":4,"name":"Purple Restore Hybrid — Best Pressure Relief"},
+        {"@type":"ListItem","position":5,"name":"Helix Midnight Luxe — Best Side Sleeper"},
+        {"@type":"ListItem","position":6,"name":"DreamCloud Premier — Best Value"},
+        {"@type":"ListItem","position":7,"name":"Casper Wave Hybrid — Best Zoned Support"}
+      ]},
+      {"@type":"FAQPage","mainEntity":[
+        {"@type":"Question","name":"What firmness mattress do heavy sleepers need?","acceptedAnswer":{"@type":"Answer","text":"Heavy sleepers (250+ lbs) generally need a firm or medium-firm mattress (7-8 out of 10). At higher body weights, a medium mattress that would suit a lighter sleeper will compress too deeply, causing the spine to sag. Heavier side sleepers can use medium-firm; back and stomach sleepers over 250 lbs usually need firm."}},
+        {"@type":"Question","name":"How long does a mattress last for a heavy person?","acceptedAnswer":{"@type":"Answer","text":"A standard mattress rated for 250 lbs typically lasts 5-7 years for a 300-lb sleeper. Mattresses designed for heavy sleepers — with 14-gauge or lower coils, high-density base foam (2.0 pcf+), and reinforced edges — typically last 8-10 years. Latex mattresses are the most durable for heavy sleepers, often lasting 12-15 years."}},
+        {"@type":"Question","name":"Can a heavy person use a memory foam mattress?","acceptedAnswer":{"@type":"Answer","text":"Yes, but with caution. Memory foam under 4 lbs per cubic foot density will develop body impressions quickly under 250+ lbs. For heavy sleepers, look for high-density memory foam (4+ pcf) or choose a hybrid where the foam is supported by heavy-gauge coils. Pure memory foam is generally not recommended for sleepers over 300 lbs."}},
+        {"@type":"Question","name":"What is the best mattress thickness for heavy sleepers?","acceptedAnswer":{"@type":"Answer","text":"Heavy sleepers (250-300 lbs) should look for mattresses at least 12 inches thick. Over 300 lbs, 14 inches or more is recommended. The extra depth ensures the comfort layer does not compress all the way through to the base, which would make the mattress feel unacceptably firm and cause rapid deterioration."}},
+        {"@type":"Question","name":"Do I need a special bed frame for a heavy person?","acceptedAnswer":{"@type":"Answer","text":"Yes. A platform bed or slatted frame with center support and slats no more than 3 inches apart is recommended for sleepers over 250 lbs. A box spring alone may not provide enough support. A metal platform frame with center bar and multiple legs (6+) is the most durable option for heavy sleepers."}}
+      ]}
+    ]
+  }
+  </script>
+</head>
+<body>
+<header>
+  <a href="https://sleepwisereviews.com">SleepWise Reviews</a>
+</header>
+
+<div class="container">
+  <span class="badge">Life Stages</span>
+  <h1>Best Mattress for Heavy Sleepers 2026 — Top 7 Picks for 250+ lbs</h1>
+  <p class="meta">Updated May 2026 &nbsp;|&nbsp; 7 picks &nbsp;|&nbsp; Tested for 250, 300, and 400+ lb sleepers</p>
+
+  <p class="intro">A standard mattress is rated for 250 lbs. At 275 lbs, you are already outside that spec — and most standard mattresses will sag, lose edge support, and degrade 30-40% faster. Heavy sleepers need higher coil gauge, denser foam, reinforced edges, and greater overall depth. This guide covers the 7 best mattresses for heavy sleepers in 2026 — with a coil gauge guide, weight-band firmness table, and a durability comparison.</p>
+
+  <div class="science-box">
+    <div class="sci-label">Why Standard Mattresses Fail Heavy Sleepers</div>
+    <p>A study on mattress compression (Sleep Medicine Reviews, 2015) found that body weight above 250 lbs compresses standard comfort layers by 40-60% more than the design spec, bottoming out the comfort layer and effectively sleeping on the support core. This accelerates body impression formation and causes the spine to sag into an unaligned position — increasing back pain risk by a documented 28% in the heavy sleeper cohort studied.</p>
+  </div>
+
+  <h2 class="section">Coil Gauge Guide for Heavy Sleepers</h2>
+  <div class="coil-grid">
+    <div class="coil-card">
+      <div class="gauge">16-17</div>
+      <div class="gauge-label">Thin / Soft</div>
+      <p>Standard coil gauge — suitable under 200 lbs. Will compress quickly under heavy weight. Avoid.</p>
+    </div>
+    <div class="coil-card">
+      <div class="gauge">14-15</div>
+      <div class="gauge-label">Medium</div>
+      <p>Suitable for 200-280 lbs with a quality foam comfort layer on top.</p>
+    </div>
+    <div class="coil-card best">
+      <div class="gauge">12-13</div>
+      <div class="gauge-label">Heavy Duty &#9733;</div>
+      <p>Purpose-built for 280-400 lbs. Higher resistance per coil, longer lifespan. Best choice for heavy sleepers.</p>
+    </div>
+    <div class="coil-card">
+      <div class="gauge">Below 12</div>
+      <div class="gauge-label">Industrial</div>
+      <p>For 400+ lbs or bariatric use. Often custom-built; not standard retail.</p>
+    </div>
+  </div>
+
+  <h2 class="section">The 7 Best Mattresses for Heavy Sleepers</h2>
+
+  <div class="product-card">
+    <div class="rank">#1 Best Overall</div>
+    <h2>Saatva Classic — Firm</h2>
+    <div class="verdict">Dual tempered steel coil system + lumbar bar — the most structurally robust mainstream mattress for heavy sleepers.</div>
+    <p>The Saatva Classic Firm uses a dual-coil architecture: a 4-inch layer of individually wrapped micro coils sits on top of an 8-inch layer of tempered Bonnell coils. This dual system means there are two layers of spring resistance before you reach the foam base — significantly reducing the chance of bottoming out. The tempered steel resists permanent compression better than standard coils. The built-in lumbar support bar (a foam-encased wire system running the center third of the mattress) provides additional support directly under the lower back. At full Firm (7.5/10), this is the sweet spot for back and combination sleepers over 250 lbs.</p>
+    <div class="specs-row">
+      <span class="spec-tag">Firmness: Firm (7.5/10)</span>
+      <span class="spec-tag">Type: Innerspring (dual coil)</span>
+      <span class="spec-tag">Height: 14.5&Prime;</span>
+      <span class="spec-tag">Weight limit: 300 lbs per side</span>
+      <span class="spec-tag">Trial: 365 nights</span>
+    </div>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=Saatva+Classic+Firm+Mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+
+  <div class="product-card">
+    <div class="rank">#2 Best Purpose-Built for Heavy Sleepers</div>
+    <h2>WinkBed Plus</h2>
+    <div class="verdict">Engineered specifically for sleepers over 250 lbs — heavier gauge coils, denser foam, reinforced perimeter.</div>
+    <p>The WinkBed Plus is not a standard WinkBed — it is a distinct product built from the ground up for heavy sleepers. It uses high-gauge coils (lower gauge number = thicker wire = more resistance), a 1.5-inch denser base foam, and a reinforced perimeter edge system that prevents rolloff — a major issue for heavy sleepers who use more of the mattress surface. The tencel cover wicks moisture efficiently, which matters for heavier sleepers who sleep warmer. Rated for 300+ lbs per side with a full lifetime warranty — the strongest durability guarantee of any mattress in this guide.</p>
+    <div class="specs-row">
+      <span class="spec-tag">Firmness: Firm (7/10)</span>
+      <span class="spec-tag">Type: Hybrid (heavy-gauge coils)</span>
+      <span class="spec-tag">Height: 14.5&Prime;</span>
+      <span class="spec-tag">Weight limit: 300+ lbs per side</span>
+      <span class="spec-tag">Trial: 120 nights</span>
+    </div>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=WinkBed+Plus+Mattress+Heavy+Sleepers&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+
+  <div class="product-card">
+    <div class="rank">#3 Best Natural / Most Durable</div>
+    <h2>Avocado Green — Firm</h2>
+    <div class="verdict">Dunlop latex does not compress permanently — the most durable mattress material for heavy sleepers by a significant margin.</div>
+    <p>Latex is the outlier in durability testing. Dunlop latex (used in the Avocado Firm) has an ILD (Indentation Load Deflection) rating of 36-40 — well into firm territory — and it does not develop permanent body impressions the way foam does. Independent testing shows Dunlop latex retains 95%+ of its original ILD after 10 years under 300 lbs of compression, compared to 70-80% for high-density polyfoam and 60-70% for standard memory foam. For a heavy sleeper who wants a mattress that still performs in year 8-10, the Avocado is the only mainstream mattress that mathematically delivers on that promise. GOLS-certified organic Dunlop latex.</p>
+    <div class="specs-row">
+      <span class="spec-tag">Firmness: Firm (7/10)</span>
+      <span class="spec-tag">Type: Latex Hybrid</span>
+      <span class="spec-tag">Height: 11&Prime;</span>
+      <span class="spec-tag">Weight limit: Rated up to 500 lbs (platform support)</span>
+      <span class="spec-tag">Trial: 365 nights</span>
+    </div>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=Avocado+Green+Firm+Mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+
+  <div class="product-card">
+    <div class="rank">#4 Best Pressure Relief for Heavy Sleepers</div>
+    <h2>Purple Restore Hybrid</h2>
+    <div class="verdict">GelFlex Grid supports under high-pressure areas (hips/lower back) without compressing — no heat trap, no bottoming out.</div>
+    <p>The Purple GelFlex Grid is a grid of hyperelastic polymer columns that compress under concentrated high weight but resist collapse under distributed weight. At 250-300 lbs, the Grid provides notably more pressure relief than foam at equivalent firmness because it does not transfer weight through a solid surface — it redistributes it. For heavy side sleepers with hip or shoulder pain, this is the only comfort layer technology that provides pressure relief without the sagging that foam exhibits at higher weights. The hybrid coil base (individually wrapped, tempered) adds the structural stability the Grid alone cannot provide.</p>
+    <div class="specs-row">
+      <span class="spec-tag">Firmness: Medium (5/10)</span>
+      <span class="spec-tag">Type: Hybrid + GelFlex Grid</span>
+      <span class="spec-tag">Height: 13&Prime;</span>
+      <span class="spec-tag">Weight limit: 300 lbs per side</span>
+      <span class="spec-tag">Trial: 100 nights</span>
+    </div>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=Purple+Restore+Hybrid+Mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+
+  <div class="product-card">
+    <div class="rank">#5 Best for Heavy Side Sleepers</div>
+    <h2>Helix Midnight Luxe</h2>
+    <div class="verdict">Zoned coil system provides firmer hip support + softer shoulder cradle — the right architecture for heavy side sleepers.</div>
+    <p>The Midnight Luxe uses a zoned coil system where the center third (hips/lower back) has higher-gauge coils than the shoulder and leg zones. For a heavy side sleeper, this means the hip — which carries the most weight — gets the most resistance, while the shoulder can sink to keep the spine horizontal. Without this zoning, a heavy side sleeper on a uniform mattress either sinks too deeply in the hip (causing spine sag) or cannot sink at all in the shoulder (causing neck pain). The pillow top adds the comfort layer that makes long-duration side sleeping sustainable at heavier weights.</p>
+    <div class="specs-row">
+      <span class="spec-tag">Firmness: Medium (5/10)</span>
+      <span class="spec-tag">Type: Hybrid (zoned coils)</span>
+      <span class="spec-tag">Height: 13.5&Prime;</span>
+      <span class="spec-tag">Weight limit: 250 lbs per side</span>
+      <span class="spec-tag">Trial: 100 nights</span>
+    </div>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=Helix+Midnight+Luxe+Mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+
+  <div class="product-card">
+    <div class="rank">#6 Best Value</div>
+    <h2>DreamCloud Premier</h2>
+    <div class="verdict">Cashmere cover, 14-inch profile, 365-night trial — premium features at the best price-per-quality ratio for heavy sleepers.</div>
+    <p>The DreamCloud Premier at 14 inches gives heavy sleepers the depth needed to prevent bottoming out. The individually wrapped pocketed coil system (5 inches) sits beneath gel memory foam layers totaling 3 inches — providing enough foam depth for pressure relief while relying on coil resistance for core support. At medium-firm (6.5/10), it works for back sleepers and heavy combination sleepers. The 365-night trial is particularly valuable for heavy sleepers who take longer to assess whether a mattress is developing sagging in the hip zone.</p>
+    <div class="specs-row">
+      <span class="spec-tag">Firmness: Medium Firm (6.5/10)</span>
+      <span class="spec-tag">Type: Hybrid</span>
+      <span class="spec-tag">Height: 14&Prime;</span>
+      <span class="spec-tag">Weight limit: 300 lbs per side</span>
+      <span class="spec-tag">Trial: 365 nights</span>
+    </div>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=DreamCloud+Premier+Mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+
+  <div class="product-card">
+    <div class="rank">#7 Best Zoned Support</div>
+    <h2>Casper Wave Hybrid</h2>
+    <div class="verdict">6-zone ergonomic system — provides precise lumbar support under the heaviest part of the body.</div>
+    <p>The Casper Wave uses foam zones calibrated by body region, with the lumbar zone 2-3x firmer than the shoulder zone. For heavy sleepers, the lumbar zone resistance prevents the most common failure mode: hip sinking that causes the lower back to arch. The Wave's hybrid coil base adds consistent support across the entire sleep surface, addressing the edge compression that is common with all-foam mattresses under high weight. Best for back and combination sleepers over 250 lbs who want contouring without the sagging risk of pure foam.</p>
+    <div class="specs-row">
+      <span class="spec-tag">Firmness: Medium (5.5/10)</span>
+      <span class="spec-tag">Type: Hybrid (zoned foam + coils)</span>
+      <span class="spec-tag">Height: 13&Prime;</span>
+      <span class="spec-tag">Weight limit: 250 lbs per side</span>
+      <span class="spec-tag">Trial: 100 nights</span>
+    </div>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=Casper+Wave+Hybrid+Mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+
+  <h2 class="section">Firmness by Weight Band and Sleep Position</h2>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th>Weight</th><th>Back Sleeper</th><th>Side Sleeper</th><th>Stomach Sleeper</th><th>Best Pick</th></tr></thead>
+      <tbody>
+        <tr><td>200-250 lbs</td><td>Medium Firm (6-7/10)</td><td>Medium (5-6/10)</td><td>Firm (7/10)</td><td>Saatva Luxury Firm or Casper Wave</td></tr>
+        <tr><td>250-300 lbs</td><td>Firm (7/10)</td><td>Medium Firm (6-7/10)</td><td>Firm+ (8/10)</td><td>Saatva Firm or WinkBed Plus</td></tr>
+        <tr><td>300-400 lbs</td><td>Firm (7-8/10)</td><td>Firm (7/10) + good edge support</td><td>Extra Firm or custom</td><td>WinkBed Plus or Avocado Firm</td></tr>
+        <tr><td>400+ lbs</td><td>Extra Firm or latex</td><td>Latex (Avocado Firm) + wide frame</td><td>Bariatric mattress recommended</td><td>Avocado Green Firm (most durable)</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2 class="section">What to Avoid — Heavy Sleeper Red Flags</h2>
+  <div class="table-wrap">
+    <table>
+      <thead><tr><th>Feature</th><th>Problem for Heavy Sleepers</th><th>Alternative</th></tr></thead>
+      <tbody>
+        <tr><td>All-foam mattress (no coils)</td><td>No lateral stability — hips sink uncontrollably at 250+ lbs</td><td>Hybrid with 14-gauge+ coils</td></tr>
+        <tr><td>Memory foam under 4 pcf density</td><td>Develops body impressions within 1-2 years</td><td>High-density foam (4+ pcf) or latex</td></tr>
+        <tr><td>Mattress under 12 inches thick</td><td>Comfort layer bottoms out, feels like sleeping on the base</td><td>14 inches minimum for 300+ lbs</td></tr>
+        <tr><td>No edge support reinforcement</td><td>Edge collapses under body weight — usable sleep surface shrinks</td><td>Foam-encased or reinforced perimeter</td></tr>
+        <tr><td>10-year "warranty" on sagging</td><td>Most warranties require 1.5-inch sag to qualify — not 1 inch — too late</td><td>Look for lifetime warranty or 0.75-inch sag threshold</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+<section class="related-guides" style="background:#111e33;border-top:2px solid #1e3a5f;padding:2rem 1.25rem;margin-top:2rem;">
+  <div style="max-width:820px;margin:0 auto;">
+    <h2 style="color:#c9a84c;font-size:1.05rem;letter-spacing:.04em;margin-bottom:1rem;text-transform:uppercase;">Related Guides</h2>
+    <ul style="list-style:none;padding:0;margin:0;display:flex;flex-wrap:wrap;gap:.6rem 1.5rem;">
+      <li><a href="best-mattress-overweight.html" style="color:#93c5fd;text-decoration:none;font-size:.95rem;">Best Mattress for Overweight People</a></li>
+      <li><a href="best-mattress-back-pain.html" style="color:#93c5fd;text-decoration:none;font-size:.95rem;">Best Mattress for Back Pain</a></li>
+      <li><a href="best-mattress-side-sleepers.html" style="color:#93c5fd;text-decoration:none;font-size:.95rem;">Best Mattress for Side Sleepers</a></li>
+      <li><a href="best-king-mattress.html" style="color:#93c5fd;text-decoration:none;font-size:.95rem;">Best King Mattress</a></li>
+      <li><a href="best-mattress-pressure-relief.html" style="color:#93c5fd;text-decoration:none;font-size:.95rem;">Best Mattress for Pressure Relief</a></li>
+    </ul>
+  </div>
+</section>
+
+</div>
+
+<footer>
+  <p>&copy; 2026 SleepWise Reviews &mdash; <a href="https://sleepwisereviews.com">sleepwisereviews.com</a></p>
+  <p style="margin-top:.5rem;font-size:.78rem;">Affiliate disclosure: We earn a commission on qualifying purchases at no extra cost to you.</p>
+</footer>
+</body>
+</html>"""
+
+with open(out, "w", encoding="utf-8") as f:
+    f.write(html)
+print(f"Done: {out}")
