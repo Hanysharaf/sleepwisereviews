@@ -1,0 +1,516 @@
+"""Generate posts/best-5-htp-supplement-sleep.html"""
+import os
+
+OUT = os.path.join(os.path.dirname(__file__), 'posts', 'best-5-htp-supplement-sleep.html')
+
+html = '''<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Best 5-HTP Supplements for Sleep 2026 — Serotonin Precursor Guide | SleepWise Reviews</title>
+  <meta name="description" content="5-HTP is the direct precursor to serotonin and melatonin — taken before bed, it increases both. Best 5-HTP supplements for sleep reviewed by dose, purity, and clinical evidence. Key safety considerations included." />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://sleepwisereviews.com/posts/best-5-htp-supplement-sleep.html" />
+  <meta property="og:title" content="Best 5-HTP Supplements for Sleep 2026" />
+  <meta property="og:description" content="5-HTP converts directly to serotonin and melatonin in the brain. Taken before bed, it increases sleep quality and REM duration — best supplements compared by dose and purity." />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://sleepwisereviews.com/posts/best-5-htp-supplement-sleep.html" />
+  <meta property="og:image" content="https://sleepwisereviews.com/images/og-default.png" />
+  <meta property="og:site_name" content="SleepWise Reviews" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Best 5-HTP Supplements for Sleep 2026" />
+  <meta name="twitter:description" content="5-HTP converts to serotonin then melatonin in the brain — clinical evidence supports improved sleep onset, REM duration, and morning mood. Best supplements reviewed." />
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Best 5-HTP Supplements for Sleep 2026",
+    "description": "Evidence-based guide to 5-HTP for sleep — serotonin-to-melatonin conversion pathway, clinical trial doses, safety considerations, and the best 5-HTP supplements by purity and dose.",
+    "url": "https://sleepwisereviews.com/posts/best-5-htp-supplement-sleep.html",
+    "datePublished": "2026-05-25",
+    "dateModified": "2026-05-25",
+    "author": {"@type": "Organization", "name": "SleepWise Reviews"},
+    "publisher": {"@type": "Organization", "name": "SleepWise Reviews", "url": "https://sleepwisereviews.com/"}
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://sleepwisereviews.com/"},
+      {"@type": "ListItem", "position": 2, "name": "All Guides", "item": "https://sleepwisereviews.com/posts/"},
+      {"@type": "ListItem", "position": 3, "name": "Best 5-HTP for Sleep", "item": "https://sleepwisereviews.com/posts/best-5-htp-supplement-sleep.html"}
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "Best 5-HTP Supplements for Sleep 2026",
+    "numberOfItems": 7,
+    "itemListElement": [
+      {"@type": "ListItem", "position": 1, "name": "NOW Foods 5-HTP"},
+      {"@type": "ListItem", "position": 2, "name": "Natrol 5-HTP Time Release"},
+      {"@type": "ListItem", "position": 3, "name": "Thorne Research 5-HTP"},
+      {"@type": "ListItem", "position": 4, "name": "Natural Stacks 5-HTP Brain Food"},
+      {"@type": "ListItem", "position": 5, "name": "Doctor's Best 5-HTP"},
+      {"@type": "ListItem", "position": 6, "name": "Source Naturals 5-HTP"},
+      {"@type": "ListItem", "position": 7, "name": "Sports Research 5-HTP"}
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "How does 5-HTP help with sleep?",
+        "acceptedAnswer": {"@type": "Answer", "text": "5-HTP (5-hydroxytryptophan) is the direct metabolic precursor to serotonin. In the brain, it crosses the blood-brain barrier and converts to serotonin via the enzyme aromatic L-amino acid decarboxylase (AADC). Serotonin in the pineal gland is then N-acetylated and O-methylated to form melatonin. Supplementing 5-HTP before bed increases both serotonin and melatonin levels in the brain, improving sleep onset and increasing REM sleep duration."}
+      },
+      {
+        "@type": "Question",
+        "name": "What is the best 5-HTP dose for sleep?",
+        "acceptedAnswer": {"@type": "Answer", "text": "Clinical studies for sleep use 100-300mg of 5-HTP taken 30-45 minutes before bed. Start at 50-100mg and increase by 50mg per week if needed. Higher doses (150-300mg) have been used in fibromyalgia and depression research with sleep improvement as an outcome measure. Do not exceed 300mg without medical supervision due to serotonin syndrome risk at very high doses."}
+      },
+      {
+        "@type": "Question",
+        "name": "Can I take 5-HTP with melatonin?",
+        "acceptedAnswer": {"@type": "Answer", "text": "Yes, but keep melatonin dose low (0.5-1mg) when combining. 5-HTP increases endogenous melatonin production — adding high-dose supplemental melatonin can create excess total melatonin and cause next-day grogginess. If combining, use the lowest effective melatonin dose. Alternatively, use 5-HTP alone for 2 weeks before adding melatonin if needed."}
+      },
+      {
+        "@type": "Question",
+        "name": "Are there any safety concerns with 5-HTP?",
+        "acceptedAnswer": {"@type": "Answer", "text": "Key safety considerations: (1) Do NOT combine with SSRIs, SNRIs, MAOIs, tramadol, or other serotonergic medications — this creates serotonin syndrome risk. (2) Do not use with St. John's Wort. (3) Start at 50-100mg and increase slowly. (4) Use with carbidopa if prescribed (reduces peripheral conversion). (5) Some users experience nausea, particularly on an empty stomach — take with a small meal. (6) Consult a physician if you have any mental health condition."}
+      },
+      {
+        "@type": "Question",
+        "name": "How long does 5-HTP take to work for sleep?",
+        "acceptedAnswer": {"@type": "Answer", "text": "Many users notice effects within the first 1-3 nights. The conversion to serotonin and melatonin is relatively rapid — 5-HTP reaches peak plasma concentration in 1-2 hours after ingestion. For best results, take 30-45 minutes before bed. Consistent benefits (particularly improved REM sleep and morning mood) develop over 2-4 weeks of regular use."}
+      }
+    ]
+  }
+  </script>
+  <style>
+    :root {
+      --bg: #0a1628; --card: #111e33; --gold: #c9a84c;
+      --text: #e8e0d0; --muted: #8899aa; --border: rgba(201,168,76,0.15);
+      --green: #4caf8a;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { background: var(--bg); color: var(--text); font-family: 'Georgia', serif; line-height: 1.8; }
+    header { background: var(--card); border-bottom: 1px solid var(--border); padding: 1rem 2rem; display: flex; align-items: center; justify-content: space-between; }
+    .logo { color: var(--gold); text-decoration: none; font-size: 1.3rem; font-weight: 700; }
+    .logo span { color: var(--text); }
+    main { max-width: 780px; margin: 0 auto; padding: 3rem 1.5rem; }
+    h1 { font-size: 2.1rem; color: var(--gold); margin-bottom: 0.75rem; line-height: 1.25; }
+    .meta { color: var(--muted); font-size: 0.9rem; margin-bottom: 2rem; font-family: sans-serif; }
+    h2 { font-size: 1.4rem; color: var(--gold); margin: 2.5rem 0 1rem; border-bottom: 1px solid var(--border); padding-bottom: 0.4rem; }
+    h3 { font-size: 1.1rem; color: var(--text); margin: 1.5rem 0 0.5rem; }
+    p { margin-bottom: 1.1rem; }
+    .intro-box { background: var(--card); border-left: 4px solid var(--gold); padding: 1.2rem 1.5rem; border-radius: 4px; margin-bottom: 2rem; font-size: 1.05rem; }
+    .warning-box { background: rgba(224,112,112,0.1); border-left: 4px solid #e07070; padding: 1rem 1.25rem; border-radius: 4px; margin: 1.5rem 0; font-size: 0.92rem; }
+    .pathway-box { background: var(--card); border: 1px solid var(--border); border-radius: 8px; padding: 1.5rem; margin: 2rem 0; text-align: center; }
+    .pathway { display: flex; align-items: center; justify-content: center; flex-wrap: wrap; gap: 0.5rem; font-family: sans-serif; font-size: 0.9rem; }
+    .pathway-step { background: rgba(201,168,76,0.15); color: var(--gold); padding: 0.4rem 0.8rem; border-radius: 20px; font-weight: 600; }
+    .pathway-arrow { color: var(--muted); font-size: 1.2rem; }
+    .dose-box { background: rgba(201,168,76,0.08); border: 2px solid rgba(201,168,76,0.25); border-radius: 8px; padding: 1.5rem; margin: 2rem 0; text-align: center; }
+    .dose-amount { font-size: 2.2rem; font-weight: 700; color: var(--gold); font-family: sans-serif; }
+    .dose-label { color: var(--muted); font-size: 0.88rem; font-family: sans-serif; margin-top: 0.3rem; }
+    .product-card { background: var(--card); border: 1px solid var(--border); border-radius: 8px; padding: 1.5rem; margin-bottom: 1.5rem; }
+    .product-card h3 { margin-top: 0; color: var(--gold); font-size: 1.15rem; }
+    .badge { display: inline-block; background: rgba(201,168,76,0.15); color: var(--gold); font-size: 0.75rem; font-family: sans-serif; padding: 0.2rem 0.6rem; border-radius: 20px; margin-bottom: 0.75rem; font-weight: 600; letter-spacing: 0.04em; }
+    .badge.green { background: rgba(76,175,138,0.15); color: var(--green); }
+    .specs { display: flex; flex-wrap: wrap; gap: 0.5rem; margin: 0.75rem 0; }
+    .spec { background: rgba(255,255,255,0.04); padding: 0.25rem 0.6rem; border-radius: 4px; font-size: 0.82rem; font-family: sans-serif; color: var(--muted); }
+    .pros-cons { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin: 1rem 0; }
+    .pros h4, .cons h4 { font-size: 0.85rem; font-family: sans-serif; letter-spacing: 0.05em; margin-bottom: 0.5rem; }
+    .pros h4 { color: var(--green); }
+    .cons h4 { color: #e07070; }
+    .pros ul, .cons ul { list-style: none; }
+    .pros li::before { content: "+ "; color: var(--green); font-weight: 700; }
+    .cons li::before { content: "- "; color: #e07070; font-weight: 700; }
+    .pros li, .cons li { font-size: 0.88rem; margin-bottom: 0.3rem; line-height: 1.4; }
+    .cta-btn { display: inline-block; background: var(--gold); color: #0a1628; padding: 0.6rem 1.4rem; border-radius: 4px; text-decoration: none; font-weight: 700; font-family: sans-serif; font-size: 0.9rem; margin-top: 0.75rem; }
+    .cta-btn:hover { opacity: 0.9; }
+    .science-box { background: rgba(201,168,76,0.07); border: 1px solid var(--border); border-radius: 8px; padding: 1.5rem; margin: 2rem 0; }
+    .science-box h3 { color: var(--gold); margin-top: 0; }
+    table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; font-size: 0.88rem; font-family: sans-serif; }
+    th { background: var(--card); color: var(--gold); padding: 0.6rem 0.8rem; text-align: left; border: 1px solid var(--border); }
+    td { padding: 0.55rem 0.8rem; border: 1px solid var(--border); vertical-align: top; }
+    tr:nth-child(even) td { background: rgba(255,255,255,0.02); }
+    .faq-item { border-bottom: 1px solid var(--border); padding: 1.2rem 0; }
+    .faq-item:last-child { border-bottom: none; }
+    .faq-item h3 { color: var(--gold); font-size: 1rem; margin: 0 0 0.5rem; }
+    footer { text-align: center; padding: 2rem; color: var(--muted); font-size: 0.85rem; border-top: 1px solid var(--border); margin-top: 3rem; }
+    footer a { color: var(--gold); }
+    .disclaimer { background: rgba(255,255,255,0.03); border: 1px solid var(--border); border-radius: 4px; padding: 0.8rem 1rem; font-size: 0.8rem; color: var(--muted); margin-top: 2rem; font-family: sans-serif; }
+    @media (max-width: 600px) { .pros-cons { grid-template-columns: 1fr; } h1 { font-size: 1.6rem; } }
+  </style>
+</head>
+<body>
+  <header>
+    <a class="logo" href="../">SleepWise<span>Reviews</span></a>
+    <a href="../posts/" style="color:var(--muted);font-size:0.9rem;text-decoration:none;">All Guides</a>
+  </header>
+  <main>
+    <h1>Best 5-HTP Supplements for Sleep 2026</h1>
+    <p class="meta">Updated May 2026 &nbsp;|&nbsp; Supplements &nbsp;|&nbsp; 12 min read</p>
+
+    <div class="intro-box">
+      5-HTP is the direct biochemical precursor to serotonin — and serotonin in the pineal gland converts to melatonin. Taking 5-HTP before bed increases both serotonin availability and melatonin production simultaneously, which is why it improves sleep quality through a fundamentally different mechanism than either melatonin or GABA supplements alone.
+    </div>
+
+    <div class="warning-box">
+      <strong>Safety first:</strong> Do NOT take 5-HTP if you use SSRIs, SNRIs, MAOIs, tramadol, lithium, or St. John's Wort. Combining serotonergic supplements with serotonergic medications risks serotonin syndrome — a potentially serious condition. Consult your physician before use. This is not medical advice.
+    </div>
+
+    <div class="pathway-box">
+      <p style="color:var(--muted);font-size:0.85rem;font-family:sans-serif;margin-bottom:1rem;">The Serotonin-Melatonin Pathway</p>
+      <div class="pathway">
+        <span class="pathway-step">Tryptophan</span>
+        <span class="pathway-arrow">&#8594;</span>
+        <span class="pathway-step">5-HTP</span>
+        <span class="pathway-arrow">&#8594;</span>
+        <span class="pathway-step">Serotonin (5-HT)</span>
+        <span class="pathway-arrow">&#8594;</span>
+        <span class="pathway-step">N-Acetylserotonin</span>
+        <span class="pathway-arrow">&#8594;</span>
+        <span class="pathway-step">Melatonin</span>
+      </div>
+      <p style="color:var(--muted);font-size:0.82rem;font-family:sans-serif;margin-top:0.75rem;">5-HTP bypasses the rate-limiting tryptophan hydroxylase step — the bottleneck in this pathway</p>
+    </div>
+
+    <div class="dose-box">
+      <div class="dose-amount">100-200mg</div>
+      <div class="dose-label">Starting dose — 30-45 minutes before bed &nbsp;|&nbsp; Begin at 50mg, titrate up weekly</div>
+    </div>
+
+    <h2>Best 5-HTP Supplements for Sleep — Ranked</h2>
+
+    <div class="product-card">
+      <span class="badge">Best Overall</span>
+      <h3>#1 — NOW Foods 5-HTP 100mg</h3>
+      <div class="specs">
+        <span class="spec">Dose: 100mg per capsule</span>
+        <span class="spec">Source: Griffonia simplicifolia seed extract</span>
+        <span class="spec">Certifications: GMP Certified, Non-GMO</span>
+        <span class="spec">Third-party: Yes</span>
+      </div>
+      <p>NOW Foods is one of the most trusted supplement manufacturers in the US, with GMP-certified facilities, rigorous in-house and third-party testing, and over 50 years in the industry. Their 5-HTP capsules use Griffonia simplicifolia seed extract — the same plant source used in clinical research — at 100mg per capsule with no unnecessary additives.</p>
+      <p>The 100mg dose is the most clinically studied dose for sleep. For beginners, starting with half a capsule (using a pill cutter) provides 50mg to assess tolerance. The non-GMO, GMP certified manufacturing means consistent potency across batches — critical for a supplement where dose accuracy matters for safety and efficacy.</p>
+      <div class="pros-cons">
+        <div class="pros">
+          <h4>PROS</h4>
+          <ul>
+            <li>GMP certified, 50+ year reputation</li>
+            <li>Griffonia simplicifolia source — clinically studied</li>
+            <li>Clean formula — no unnecessary additives</li>
+            <li>Multiple potency options (50mg, 100mg, 200mg)</li>
+          </ul>
+        </div>
+        <div class="cons">
+          <h4>CONS</h4>
+          <ul>
+            <li>No time-release coating</li>
+            <li>Some users experience nausea at 100mg</li>
+          </ul>
+        </div>
+      </div>
+      <a href="https://www.amazon.com/s?k=NOW+Foods+5-HTP+100mg+sleep&tag=sleepwiserevi-20" class="cta-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+    </div>
+
+    <div class="product-card">
+      <span class="badge green">Best Time-Release</span>
+      <h3>#2 — Natrol 5-HTP Time Release 100mg</h3>
+      <div class="specs">
+        <span class="spec">Dose: 100mg per tablet</span>
+        <span class="spec">Format: Time-release tablet</span>
+        <span class="spec">Release: Over 5-6 hours</span>
+        <span class="spec">Certifications: USP Verified</span>
+      </div>
+      <p>Natrol's time-release formulation is the only 5-HTP product designed to release gradually over 5-6 hours — spanning the critical early sleep window. Conventional 5-HTP reaches peak plasma concentration in 1-2 hours then declines; the time-release format maintains elevated 5-HTP levels through the first half of sleep, when serotonin-to-melatonin conversion is most active.</p>
+      <p>USP Verified certification confirms the product meets United States Pharmacopeia purity, potency, and dissolution standards — a meaningful quality signal for time-release formulations where release kinetics can vary significantly between manufacturers. Suitable for users who find standard 5-HTP works initially but wears off before morning.</p>
+      <div class="pros-cons">
+        <div class="pros">
+          <h4>PROS</h4>
+          <ul>
+            <li>Time-release — sustained 5-6 hour effect</li>
+            <li>USP Verified for release kinetics</li>
+            <li>Better for maintaining sleep vs onset only</li>
+          </ul>
+        </div>
+        <div class="cons">
+          <h4>CONS</h4>
+          <ul>
+            <li>Tablet form — cannot split for lower dose</li>
+            <li>Slightly higher price than standard</li>
+          </ul>
+        </div>
+      </div>
+      <a href="https://www.amazon.com/s?k=Natrol+5-HTP+Time+Release+sleep&tag=sleepwiserevi-20" class="cta-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+    </div>
+
+    <div class="product-card">
+      <span class="badge">Highest Quality</span>
+      <h3>#3 — Thorne Research 5-HTP 100mg</h3>
+      <div class="specs">
+        <span class="spec">Dose: 100mg per capsule</span>
+        <span class="spec">Certifications: NSF Certified for Sport</span>
+        <span class="spec">Formula: Hypoallergenic capsule</span>
+        <span class="spec">Testing: Quarterly third-party</span>
+      </div>
+      <p>Thorne Research maintains some of the most stringent manufacturing standards in the supplement industry — NSF Certified for Sport (tested for 270+ banned substances), quarterly third-party testing, and pharmaceutical-grade raw material sourcing. Their 5-HTP capsules use hypoallergenic vegetable capsules with zero fillers, binders, or unnecessary additives.</p>
+      <p>For individuals with sensitivities, allergies, or who are taking multiple supplements and want to minimize potential interactions from inactive ingredients, Thorne's clean formulation is the gold standard. The NSF Sport certification is also relevant for athletes who need guaranteed banned substance testing.</p>
+      <div class="pros-cons">
+        <div class="pros">
+          <h4>PROS</h4>
+          <ul>
+            <li>NSF Certified for Sport — most rigorous testing</li>
+            <li>Hypoallergenic — no common allergens</li>
+            <li>Zero fillers or unnecessary ingredients</li>
+            <li>Quarterly third-party testing</li>
+          </ul>
+        </div>
+        <div class="cons">
+          <h4>CONS</h4>
+          <ul>
+            <li>Premium price</li>
+            <li>Smaller serving count per bottle</li>
+          </ul>
+        </div>
+      </div>
+      <a href="https://www.amazon.com/s?k=Thorne+5-HTP+100mg+NSF&tag=sleepwiserevi-20" class="cta-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+    </div>
+
+    <div class="product-card">
+      <span class="badge">With EGCG Cofactor</span>
+      <h3>#4 — Natural Stacks 5-HTP Brain Food</h3>
+      <div class="specs">
+        <span class="spec">Dose: 100mg 5-HTP + EGCG cofactor</span>
+        <span class="spec">Special: Epigallocatechin gallate (EGCG) for conversion</span>
+        <span class="spec">Source: Open source — public lab results</span>
+      </div>
+      <p>Natural Stacks adds EGCG (epigallocatechin gallate, from green tea) to their 5-HTP formula. EGCG supports the conversion of 5-HTP to serotonin by providing cofactors for the AADC enzyme — theoretically improving the efficiency of the conversion process. This is a differentiated approach based on biochemistry research, though direct clinical trials of the EGCG + 5-HTP combination for sleep are limited.</p>
+      <p>Natural Stacks uses an "open source" model — publishing all lab results publicly with batch numbers. This is the most transparent testing approach in the supplement industry. For buyers who value supply chain transparency, this is unmatched.</p>
+      <div class="pros-cons">
+        <div class="pros">
+          <h4>PROS</h4>
+          <ul>
+            <li>EGCG cofactor supports 5-HTP conversion</li>
+            <li>Open source — all lab results publicly posted</li>
+            <li>Innovative, research-informed formula</li>
+          </ul>
+        </div>
+        <div class="cons">
+          <h4>CONS</h4>
+          <ul>
+            <li>EGCG combination not directly studied for sleep</li>
+            <li>Higher price than standard 5-HTP</li>
+          </ul>
+        </div>
+      </div>
+      <a href="https://www.amazon.com/s?k=Natural+Stacks+5-HTP+Brain+Food+sleep&tag=sleepwiserevi-20" class="cta-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+    </div>
+
+    <div class="product-card">
+      <span class="badge green">Best Budget</span>
+      <h3>#5 — Doctor's Best 5-HTP 100mg</h3>
+      <div class="specs">
+        <span class="spec">Dose: 100mg per capsule</span>
+        <span class="spec">Source: Griffonia simplicifolia</span>
+        <span class="spec">Price: Budget-friendly</span>
+        <span class="spec">Certifications: GMP</span>
+      </div>
+      <p>Doctor's Best delivers a straightforward, high-potency 5-HTP from Griffonia simplicifolia at one of the lowest prices per capsule on the market. GMP certified manufacturing, clean ingredient list, and the same plant source as clinical research. For cost-conscious buyers who want a reliable 5-HTP without premium brand markup, this is the logical choice.</p>
+      <p>Available in 90 and 180-count bottles — the 180-count provides the best per-dose cost for long-term use. Identical active ingredient and source plant to NOW Foods at a lower price point.</p>
+      <div class="pros-cons">
+        <div class="pros">
+          <h4>PROS</h4>
+          <ul>
+            <li>Lowest price per capsule for quality 5-HTP</li>
+            <li>Same Griffonia source as clinical research</li>
+            <li>Large bottle sizes available</li>
+          </ul>
+        </div>
+        <div class="cons">
+          <h4>CONS</h4>
+          <ul>
+            <li>Less rigorous testing than NSF/USP brands</li>
+            <li>No time-release option</li>
+          </ul>
+        </div>
+      </div>
+      <a href="https://www.amazon.com/s?k=Doctor%27s+Best+5-HTP+100mg&tag=sleepwiserevi-20" class="cta-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+    </div>
+
+    <div class="product-card">
+      <span class="badge">With B6 Cofactor</span>
+      <h3>#6 — Source Naturals 5-HTP + B6</h3>
+      <div class="specs">
+        <span class="spec">Dose: 100mg 5-HTP + 10mg B6 (P5P form)</span>
+        <span class="spec">B6 Form: Pyridoxal-5-phosphate (active form)</span>
+        <span class="spec">Certifications: GMP</span>
+      </div>
+      <p>Vitamin B6 (specifically as pyridoxal-5-phosphate, the active cofactor form) is required by the AADC enzyme that converts 5-HTP to serotonin. Many people are marginally deficient in B6 — particularly those on certain diets or medications. Source Naturals combines 100mg 5-HTP with 10mg P5P B6 to ensure the conversion enzyme has adequate cofactor availability.</p>
+      <p>For users who suspect B6 insufficiency (common with high alcohol intake, certain medications, or poor diet), this combination may produce better conversion efficiency than 5-HTP alone. The P5P form of B6 is more bioavailable than standard pyridoxine hydrochloride.</p>
+      <div class="pros-cons">
+        <div class="pros">
+          <h4>PROS</h4>
+          <ul>
+            <li>B6 (P5P form) supports 5-HTP conversion</li>
+            <li>Useful if marginally B6 deficient</li>
+            <li>Active form of B6 — better absorbed</li>
+          </ul>
+        </div>
+        <div class="cons">
+          <h4>CONS</h4>
+          <ul>
+            <li>Excess B6 unnecessary if already sufficient</li>
+            <li>Slightly higher price than plain 5-HTP</li>
+          </ul>
+        </div>
+      </div>
+      <a href="https://www.amazon.com/s?k=Source+Naturals+5-HTP+B6+sleep&tag=sleepwiserevi-20" class="cta-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+    </div>
+
+    <div class="product-card">
+      <span class="badge">Softgel Format</span>
+      <h3>#7 — Sports Research 5-HTP with Coconut Oil</h3>
+      <div class="specs">
+        <span class="spec">Dose: 100mg per softgel</span>
+        <span class="spec">Carrier: Organic coconut oil (fat-soluble absorption)</span>
+        <span class="spec">Certifications: NSF Contents Certified</span>
+      </div>
+      <p>Sports Research delivers 5-HTP in a softgel with organic coconut oil — the fat-soluble carrier may improve absorption of 5-HTP, though the direct evidence for this specific improvement is limited. The NSF Contents Certified label confirms label accuracy and absence of contaminants. The softgel format dissolves faster than hard capsules — relevant for the 30-minute pre-bed timing window.</p>
+      <div class="pros-cons">
+        <div class="pros">
+          <h4>PROS</h4>
+          <ul>
+            <li>NSF Contents Certified</li>
+            <li>Softgel dissolves faster than capsules</li>
+            <li>Coconut oil carrier</li>
+          </ul>
+        </div>
+        <div class="cons">
+          <h4>CONS</h4>
+          <ul>
+            <li>Fat-carrier benefit for 5-HTP not well studied</li>
+            <li>Not suitable for vegans (gelatin softgel)</li>
+          </ul>
+        </div>
+      </div>
+      <a href="https://www.amazon.com/s?k=Sports+Research+5-HTP+Coconut+Oil&tag=sleepwiserevi-20" class="cta-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+    </div>
+
+    <h2>The Science: 5-HTP and Sleep Architecture</h2>
+
+    <div class="science-box">
+      <h3>5-HTP and REM Sleep</h3>
+      <p>A key differentiator of 5-HTP vs direct melatonin supplementation: 5-HTP increases REM sleep duration, while high-dose melatonin can suppress REM. A 1990 study by Bhattacharya et al. demonstrated that 5-HTP administration increased REM sleep in rats by 53%. Human studies using polysomnography have shown increased REM density and improved REM latency (reaching REM faster) with 5-HTP supplementation.</p>
+      <p>This matters because REM sleep is associated with emotional memory consolidation, creative problem solving, and psychological processing. Improving REM quality has downstream benefits for morning mood, stress resilience, and cognitive performance — effects that distinguish 5-HTP from sleep aids that simply sedate.</p>
+    </div>
+
+    <div class="science-box">
+      <h3>Clinical Evidence Summary</h3>
+      <p>The most relevant sleep trial: Puttini and Caruso (1992) examined 5-HTP (100mg three times daily) in fibromyalgia patients with significant sleep disturbance. Significant improvements in sleep quality, morning stiffness, and pain were observed at 30 and 90 days. Since sleep disruption in fibromyalgia is mechanistically similar to primary insomnia (poor sleep architecture, inadequate slow-wave sleep), these findings are clinically relevant.</p>
+      <p>A 2010 study using a 5-HTP + GABA combination found significantly reduced sleep onset time and improved sleep quality vs placebo. The GABA component may have contributed to the result — but 5-HTP's independent effects are well-supported by preclinical data and the serotonin-melatonin pathway biochemistry.</p>
+    </div>
+
+    <h2>5-HTP vs Other Sleep Supplements</h2>
+
+    <table>
+      <tr>
+        <th>Supplement</th>
+        <th>Mechanism</th>
+        <th>REM Effect</th>
+        <th>Onset Time</th>
+        <th>Drug Interactions</th>
+      </tr>
+      <tr>
+        <td>5-HTP</td>
+        <td>Serotonin + Melatonin precursor</td>
+        <td>Increases REM</td>
+        <td>30-45 min</td>
+        <td>High (serotonergics)</td>
+      </tr>
+      <tr>
+        <td>Melatonin</td>
+        <td>Circadian hormone signal</td>
+        <td>Suppresses at high dose</td>
+        <td>20-30 min</td>
+        <td>Low</td>
+      </tr>
+      <tr>
+        <td>Magnesium Glycinate</td>
+        <td>GABA-A modulation</td>
+        <td>Neutral</td>
+        <td>1-2 weeks</td>
+        <td>Very low</td>
+      </tr>
+      <tr>
+        <td>Glycine</td>
+        <td>Core temp reduction</td>
+        <td>Increases REM</td>
+        <td>Acute (single dose)</td>
+        <td>None</td>
+      </tr>
+      <tr>
+        <td>L-Theanine</td>
+        <td>Alpha wave, GABA</td>
+        <td>Neutral-positive</td>
+        <td>30-60 min</td>
+        <td>None</td>
+      </tr>
+      <tr>
+        <td>Valerian</td>
+        <td>GABA modulation</td>
+        <td>Neutral</td>
+        <td>2-4 weeks</td>
+        <td>Low-moderate</td>
+      </tr>
+    </table>
+
+    <h2>Frequently Asked Questions</h2>
+
+    <div class="faq-item">
+      <h3>How does 5-HTP help with sleep?</h3>
+      <p>5-HTP is the direct precursor to serotonin — crossing the blood-brain barrier and converting to serotonin via the AADC enzyme. Serotonin in the pineal gland then converts to melatonin via N-acetylation and O-methylation. By supplementing 5-HTP, you simultaneously increase both serotonin and melatonin production, improving sleep onset and increasing REM sleep duration.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>What is the best 5-HTP dose for sleep?</h3>
+      <p>Start at 50-100mg taken 30-45 minutes before bed. Increase by 50mg per week if needed, up to 200-300mg maximum. Most clinical sleep research uses 100-300mg. The time-release format (Natrol) is preferable for maintaining sleep throughout the night rather than just improving onset.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>Can I take 5-HTP with melatonin?</h3>
+      <p>Yes, but keep melatonin dose low (0.5mg) when combining. 5-HTP already increases endogenous melatonin production — adding high-dose supplemental melatonin risks excess total melatonin and next-day grogginess. If combining, use the lowest effective melatonin dose.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>Are there safety concerns with 5-HTP?</h3>
+      <p>Yes — critical safety considerations: Do NOT combine with SSRIs, SNRIs, MAOIs, tramadol, or St. John's Wort (serotonin syndrome risk). Start at 50mg and increase slowly. Take with food to reduce nausea risk. Do not use for more than 3 months continuously without a break. Consult your physician if you have any mental health condition or take prescription medications.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>How long does 5-HTP take to work for sleep?</h3>
+      <p>Many users notice effects within 1-3 nights of the first dose (onset effect via rapid serotonin and melatonin increase). Full benefits — particularly improved REM sleep and morning mood — develop over 2-4 weeks of consistent use. Take 30-45 minutes before your target sleep time for best results.</p>
+    </div>
+
+    <p class="disclaimer">Affiliate disclosure: This page contains Amazon affiliate links using the tag sleepwiserevi-20. We earn a commission at no extra cost to you. This is not medical advice. 5-HTP has significant drug interactions — always consult your physician before use, especially if taking prescription medications. Do NOT use with SSRIs, SNRIs, MAOIs, or other serotonergic drugs.</p>
+  </main>
+  <footer>
+    <p>&copy; 2025-2026 <a href="../">SleepWise Reviews</a> &nbsp;|&nbsp; Evidence-based sleep guidance</p>
+  </footer>
+</body>
+</html>'''
+
+os.makedirs(os.path.dirname(OUT), exist_ok=True)
+with open(OUT, 'w', encoding='utf-8') as f:
+    f.write(html)
+print(f'Written: {OUT}')
