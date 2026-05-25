@@ -45,13 +45,12 @@ for cat_name, slugs in CATEGORIES.items():
     links = ''
     for slug in valid_slugs:
         title = title_map.get(slug, slug.replace('-', ' ').title())
-        links += f'      <li><a href="{slug}.html">{title}</a></li>\n'
-    category_html += f'''  <section class="cat-section">
-    <h2>{cat_name} <span class="count">({len(valid_slugs)})</span></h2>
-    <ul class="post-list">
-{links}    </ul>
-  </section>
-
+        links += f'          <li><a href="{slug}.html">{title}</a></li>\n'
+    category_html += f'''      <section class="cat-section">
+        <h2>{cat_name} <span class="count">({len(valid_slugs)})</span></h2>
+        <ul class="post-list">
+{links}        </ul>
+      </section>
 '''
 
 # Track uncategorized posts
@@ -64,13 +63,12 @@ if uncategorized:
     links = ''
     for slug in sorted(uncategorized):
         title = title_map.get(slug, slug.replace('-', ' ').title())
-        links += f'      <li><a href="{slug}.html">{title}</a></li>\n'
-    category_html += f'''  <section class="cat-section">
-    <h2>Other Guides <span class="count">({len(uncategorized)})</span></h2>
-    <ul class="post-list">
-{links}    </ul>
-  </section>
-
+        links += f'          <li><a href="{slug}.html">{title}</a></li>\n'
+    category_html += f'''      <section class="cat-section">
+        <h2>Other Guides <span class="count">({len(uncategorized)})</span></h2>
+        <ul class="post-list">
+{links}        </ul>
+      </section>
 '''
 
 # Schema
@@ -106,29 +104,45 @@ html_out = f'''<!DOCTYPE html>
   <meta property="og:image" content="https://sleepwisereviews.com/images/og-default.png" />
   <meta property="og:site_name" content="SleepWise Reviews" />
   {schema_block}
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
   <style>
     :root {{
-      --bg: #0a1628; --card: #111e33; --gold: #c9a84c;
+      --bg: #0a1628; --card: #111e33; --gold: #c9a84c; --gold-dim: rgba(201,168,76,0.15);
       --text: #e8e0d0; --muted: #8899aa; --border: rgba(201,168,76,0.15);
     }}
     * {{ box-sizing: border-box; margin: 0; padding: 0; }}
-    body {{ background: var(--bg); color: var(--text); font-family: 'Georgia', serif; line-height: 1.7; }}
-    header {{ background: var(--card); border-bottom: 1px solid var(--border); padding: 1rem 2rem; display: flex; align-items: center; justify-content: space-between; }}
+    body {{ background: var(--bg); color: var(--text); font-family: 'Outfit', 'Georgia', sans-serif; line-height: 1.7; }}
+    header {{ background: var(--card); border-bottom: 1px solid var(--border); padding: 1rem 3%; display: flex; align-items: center; justify-content: space-between; }}
     .logo {{ color: var(--gold); text-decoration: none; font-size: 1.3rem; font-weight: 700; }}
     .logo span {{ color: var(--text); }}
-    main {{ max-width: 960px; margin: 0 auto; padding: 3rem 1.5rem; }}
-    h1 {{ font-size: 2rem; color: var(--gold); margin-bottom: 0.5rem; }}
-    .subtitle {{ color: var(--muted); margin-bottom: 3rem; font-size: 1.05rem; }}
-    .cat-section {{ margin-bottom: 2.5rem; }}
-    .cat-section h2 {{ font-size: 1.2rem; color: var(--gold); border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; margin-bottom: 1rem; }}
-    .count {{ color: var(--muted); font-size: 0.85rem; font-family: sans-serif; }}
-    .post-list {{ list-style: none; columns: 2; column-gap: 2rem; }}
-    .post-list li {{ break-inside: avoid; margin-bottom: 0.4rem; }}
-    .post-list a {{ color: var(--text); text-decoration: none; font-size: 0.9rem; }}
+    main {{ max-width: 1400px; margin: 0 auto; padding: 2.5rem 3%; }}
+    .page-hero {{ margin-bottom: 2rem; }}
+    h1 {{ font-size: 2rem; color: var(--gold); margin-bottom: 0.4rem; }}
+    .subtitle {{ color: var(--muted); font-size: 1rem; }}
+    .search-wrap {{ margin: 1.5rem 0 2.5rem; position: relative; }}
+    .search-wrap input {{
+      width: 100%; padding: 0.85rem 1.2rem 0.85rem 3rem;
+      background: var(--card); border: 1px solid var(--border);
+      border-radius: 8px; color: var(--text); font-family: inherit; font-size: 1rem;
+      outline: none; transition: border-color 0.2s;
+    }}
+    .search-wrap input:focus {{ border-color: var(--gold); }}
+    .search-wrap input::placeholder {{ color: var(--muted); }}
+    .search-wrap svg {{ position: absolute; left: 1rem; top: 50%; transform: translateY(-50%); opacity: 0.5; pointer-events: none; }}
+    .no-results {{ display: none; color: var(--muted); font-size: 0.95rem; padding: 1rem 0; }}
+    .cat-grid {{ display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 2rem; }}
+    .cat-section {{ background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 1.4rem 1.6rem; }}
+    .cat-section h2 {{ font-size: 1rem; font-weight: 600; color: var(--gold); border-bottom: 1px solid var(--border); padding-bottom: 0.5rem; margin-bottom: 0.9rem; }}
+    .count {{ color: var(--muted); font-size: 0.8rem; font-weight: 400; }}
+    .post-list {{ list-style: none; }}
+    .post-list li {{ margin-bottom: 0.35rem; }}
+    .post-list a {{ color: var(--text); text-decoration: none; font-size: 0.88rem; line-height: 1.4; display: block; }}
     .post-list a:hover {{ color: var(--gold); }}
-    footer {{ text-align: center; padding: 2rem; color: var(--muted); font-size: 0.85rem; border-top: 1px solid var(--border); }}
+    .hidden-cat {{ display: none; }}
+    footer {{ text-align: center; padding: 2rem; color: var(--muted); font-size: 0.85rem; border-top: 1px solid var(--border); margin-top: 2rem; }}
     footer a {{ color: var(--gold); }}
-    @media (max-width: 600px) {{ .post-list {{ columns: 1; }} }}
+    @media (max-width: 900px) {{ .cat-grid {{ grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1.2rem; }} }}
+    @media (max-width: 500px) {{ .cat-grid {{ grid-template-columns: 1fr; }} h1 {{ font-size: 1.5rem; }} }}
   </style>
 </head>
 <body>
@@ -137,12 +151,40 @@ html_out = f'''<!DOCTYPE html>
     <a href="../" style="color:var(--muted);font-size:0.9rem;text-decoration:none;">← Home</a>
   </header>
   <main>
-    <h1>All Sleep Guides</h1>
-    <p class="subtitle">{total_count} articles covering sleep science, insomnia, mattresses, health conditions, and more.</p>
-{category_html}  </main>
+    <div class="page-hero">
+      <h1>All Sleep Guides</h1>
+      <p class="subtitle">{total_count} science-backed articles covering mattresses, insomnia, supplements, sleep science, and more.</p>
+    </div>
+    <div class="search-wrap">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg>
+      <input type="text" id="search" placeholder="Search {total_count} articles — try 'mattress', 'melatonin', 'back pain'..." autocomplete="off" />
+    </div>
+    <p class="no-results" id="no-results">No articles match your search. Try a different keyword.</p>
+    <div class="cat-grid" id="cat-grid">
+{category_html}    </div>
+  </main>
   <footer>
-    <p>&copy; 2025–2026 <a href="../">SleepWise Reviews</a> · Evidence-based sleep guidance</p>
+    <p>&copy; 2025-2026 <a href="../">SleepWise Reviews</a> · Evidence-based sleep guidance</p>
   </footer>
+  <script>
+    const input = document.getElementById('search');
+    const noResults = document.getElementById('no-results');
+    input.addEventListener('input', function() {{
+      const q = this.value.toLowerCase().trim();
+      let anyVisible = false;
+      document.querySelectorAll('.cat-section').forEach(sec => {{
+        let secVisible = false;
+        sec.querySelectorAll('.post-list li').forEach(li => {{
+          const match = !q || li.textContent.toLowerCase().includes(q);
+          li.style.display = match ? '' : 'none';
+          if (match) secVisible = true;
+        }});
+        sec.style.display = secVisible ? '' : 'none';
+        if (secVisible) anyVisible = true;
+      }});
+      noResults.style.display = (!anyVisible && q) ? 'block' : 'none';
+    }});
+  </script>
 </body>
 </html>
 '''
