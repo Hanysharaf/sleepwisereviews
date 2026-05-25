@@ -1690,6 +1690,83 @@
     .pick-best-for { font-size: 0.72rem; color: var(--muted); margin-top: 0.4rem; }
     .pick-best-for span { color: var(--gold); font-weight: 500; }
     .article-card { position: relative; }
+    /* REVIEWS ARCHIVE GRID */
+    .reviews-archive-section { padding: 1rem 0 4rem; }
+    .reviews-archive-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 1.5rem;
+      margin-top: 1.5rem;
+    }
+    .reviews-archive-grid .article-card {
+      min-width: 0 !important;
+      max-width: none !important;
+      width: 100%;
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      overflow: hidden;
+      text-decoration: none;
+      color: var(--text);
+      display: flex;
+      flex-direction: column;
+      padding: 1.3rem;
+      transition: border-color 0.2s, transform 0.2s, box-shadow 0.2s;
+    }
+    .reviews-archive-grid .article-card:hover {
+      border-color: rgba(201,168,76,0.4);
+      transform: translateY(-3px);
+      box-shadow: 0 12px 32px rgba(0,0,0,0.3);
+    }
+    .reviews-archive-grid .article-card .card-cat,
+    .reviews-archive-grid .article-card .card-badge,
+    .reviews-archive-grid .article-card .article-tag,
+    .reviews-archive-grid .article-card .category-tag,
+    .reviews-archive-grid .article-card .card-tag {
+      display: inline-block;
+      font-size: 0.72rem;
+      font-family: sans-serif;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: 0.07em;
+      color: var(--gold);
+      background: rgba(201,168,76,0.1);
+      border: 1px solid rgba(201,168,76,0.25);
+      border-radius: 20px;
+      padding: 0.2rem 0.65rem;
+      margin-bottom: 0.6rem;
+    }
+    .reviews-archive-grid .article-card h2,
+    .reviews-archive-grid .article-card h3,
+    .reviews-archive-grid .article-card .article-title,
+    .reviews-archive-grid .article-card .card-title,
+    .reviews-archive-grid .article-card .article-card-title {
+      font-size: 0.97rem;
+      font-weight: 700;
+      line-height: 1.35;
+      color: #f0e6c8;
+      margin-bottom: 0.5rem;
+      font-family: sans-serif;
+    }
+    .reviews-archive-grid .article-card p,
+    .reviews-archive-grid .article-card .article-excerpt,
+    .reviews-archive-grid .article-card .card-desc {
+      font-size: 0.83rem;
+      color: var(--muted);
+      line-height: 1.55;
+      margin-bottom: 0.5rem;
+    }
+    .reviews-archive-grid .article-card .card-meta,
+    .reviews-archive-grid .article-card .article-card-meta { font-size: 0.75rem; color: var(--muted); font-family: sans-serif; }
+    .reviews-archive-grid .article-card .card-meta span { margin-right: 0.6rem; }
+    .reviews-archive-grid .article-card .read-more,
+    .reviews-archive-grid .article-card .card-cta { font-size: 0.8rem; color: var(--gold); font-family: sans-serif; }
+    .reviews-archive-grid .article-card .card-img-wrap,
+    .reviews-archive-grid .article-card .article-thumb { display: none; }
+    .reviews-archive-grid .article-card .article-body,
+    .reviews-archive-grid .article-card .card-body { display: contents; }
+    @media (max-width: 900px) { .reviews-archive-grid { grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); gap: 1rem; } }
+    @media (max-width: 500px) { .reviews-archive-grid { grid-template-columns: 1fr; } }
   </style>
   <meta property="og:title" content="SleepWise Reviews — Science-Backed Sleep Guidance" />
   <meta property="og:description" content="Expert sleep guides, product reviews, and research-backed tips for better rest." />
@@ -1979,6 +2056,12 @@
           </div>
         </div>
       
+      <!-- ALL REVIEWS GRID -->
+      <div class="reviews-archive-section">
+        <div class="section-inner">
+          <div class="label">All reviews</div>
+          <div class="section-title" style="margin-bottom:1.5rem;">Every Guide We've Published</div>
+          <div class="reviews-archive-grid">
               <a class="article-card" href="posts/bad-mattress-health-effects.html">
                 <div class="article-thumb">🛏️</div>
                 <div class="article-body">
@@ -3364,7 +3447,10 @@
                   <div class="article-excerpt">The 8-hour rule is a population average. Your genetic sleep need may be 6.5 or 9.5 hours. Here's how to measure yours.</div>
                 </div>
               </a>
-</section>
+          </div><!-- /reviews-archive-grid -->
+        </div><!-- /section-inner -->
+      </div><!-- /reviews-archive-section -->
+      </section>
 
       <!-- TOP PICKS -->
       <section class="top-picks" id="picks">
