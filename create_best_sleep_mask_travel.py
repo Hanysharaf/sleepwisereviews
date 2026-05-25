@@ -1,0 +1,517 @@
+"""Generate posts/best-sleep-mask-travel.html"""
+import os
+
+OUT = os.path.join(os.path.dirname(__file__), 'posts', 'best-sleep-mask-travel.html')
+
+html = r"""<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>7 Best Sleep Masks for Travel 2026 | SleepWise Reviews</title>
+<meta name="description" content="Best sleep masks for travel: expert picks for total blackout, comfort on long flights, and lightweight packability. Tested on planes, trains, and road trips.">
+<link rel="canonical" href="https://sleepwisereviews.com/posts/best-sleep-mask-travel.html">
+<meta property="og:title" content="7 Best Sleep Masks for Travel 2026">
+<meta property="og:description" content="Expert picks for total blackout, comfort on long flights, and lightweight packability. Tested on planes, trains, and road trips.">
+<meta property="og:url" content="https://sleepwisereviews.com/posts/best-sleep-mask-travel.html">
+<meta property="og:type" content="article">
+<meta property="og:image" content="https://sleepwisereviews.com/assets/og-sleep-mask-travel.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="7 Best Sleep Masks for Travel 2026">
+<meta name="twitter:description" content="Top travel sleep masks ranked for blackout performance, comfort, and packability.">
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@graph":[
+    {
+      "@type":"Article",
+      "headline":"7 Best Sleep Masks for Travel 2026",
+      "description":"Expert-tested travel sleep masks covering blackout performance, comfort on long flights, and packability for frequent travelers.",
+      "url":"https://sleepwisereviews.com/posts/best-sleep-mask-travel.html",
+      "datePublished":"2026-05-25",
+      "dateModified":"2026-05-25",
+      "author":{"@type":"Organization","name":"SleepWise Reviews"},
+      "publisher":{"@type":"Organization","name":"SleepWise Reviews","url":"https://sleepwisereviews.com"}
+    },
+    {
+      "@type":"BreadcrumbList",
+      "itemListElement":[
+        {"@type":"ListItem","position":1,"name":"Home","item":"https://sleepwisereviews.com/"},
+        {"@type":"ListItem","position":2,"name":"Sleep Products","item":"https://sleepwisereviews.com/posts/index.html#sleep-products"},
+        {"@type":"ListItem","position":3,"name":"Best Sleep Masks for Travel","item":"https://sleepwisereviews.com/posts/best-sleep-mask-travel.html"}
+      ]
+    },
+    {
+      "@type":"ItemList",
+      "name":"Best Sleep Masks for Travel 2026",
+      "itemListElement":[
+        {"@type":"ListItem","position":1,"name":"Tempur-Pedic Sleep Mask"},
+        {"@type":"ListItem","position":2,"name":"Manta Sleep Mask Pro"},
+        {"@type":"ListItem","position":3,"name":"Alaska Bear Natural Silk Sleep Mask"},
+        {"@type":"ListItem","position":4,"name":"Lewis N. Clark Comfort Eye Mask"},
+        {"@type":"ListItem","position":5,"name":"Nidra Deep Rest Eye Mask"},
+        {"@type":"ListItem","position":6,"name":"Bucky 40 Blinks Ultralight Eye Mask"},
+        {"@type":"ListItem","position":7,"name":"MZOO Sleep Eye Mask"}
+      ]
+    },
+    {
+      "@type":"FAQPage",
+      "mainEntity":[
+        {
+          "@type":"Question",
+          "name":"What makes a good sleep mask for travel?",
+          "acceptedAnswer":{"@type":"Answer","text":"A good travel sleep mask needs total blackout (no light leaks at the nose bridge), comfort for hours of wear without pressure on eyes, a secure fit that won't slide during sleep, and lightweight packability. Contoured masks that create eye cups prevent lash contact and REM interference."}
+        },
+        {
+          "@type":"Question",
+          "name":"Are silk sleep masks better for travel?",
+          "acceptedAnswer":{"@type":"Answer","text":"Silk masks are gentle on skin and hair, naturally temperature-regulating, and lightweight — making them good for travel. However they typically don't contour as well as foam or memory foam masks, so blackout performance can be less complete around the nose bridge."}
+        },
+        {
+          "@type":"Question",
+          "name":"Can you sleep in a sleep mask on a plane?",
+          "acceptedAnswer":{"@type":"Answer","text":"Yes. Sleep masks are one of the most effective tools for improving sleep quality on planes. Pair with earplugs or noise-cancelling headphones for maximum effect. Look for masks with adjustable straps that don't put pressure on the back of the head against the seat."}
+        },
+        {
+          "@type":"Question",
+          "name":"How do I prevent a sleep mask from pressing on my eyes?",
+          "acceptedAnswer":{"@type":"Answer","text":"Use a contoured or 3D molded mask that creates an eye cup dome over the eyes. These maintain a gap between the mask surface and your eyelids — important for REM sleep and lash comfort. Flat masks made from foam or fabric will contact your eyes directly."}
+        },
+        {
+          "@type":"Question",
+          "name":"What is the most packable sleep mask for travel?",
+          "acceptedAnswer":{"@type":"Answer","text":"The Alaska Bear Natural Silk mask packs flat and weighs under 20g — easily stored in a carry-on pocket. The Bucky 40 Blinks is the lightest contoured option at 0.8oz. Both come with pouches and pack to near-nothing in a travel bag."}
+        }
+      ]
+    }
+  ]
+}
+</script>
+<style>
+:root{--bg:#0a1628;--card:#111e33;--gold:#c9a84c;--text:#e8eaf0;--muted:#8892a4;--border:#1e2d45;--green:#2ecc71;--red:#e74c3c}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:'Segoe UI',system-ui,sans-serif;line-height:1.7}
+a{color:var(--gold);text-decoration:none}
+a:hover{text-decoration:underline}
+header{background:var(--card);border-bottom:1px solid var(--border);padding:1rem 2rem;display:flex;align-items:center;gap:1rem}
+header a{color:var(--text);font-weight:700;font-size:1.1rem}
+nav{margin-left:auto;display:flex;gap:1.5rem}
+nav a{color:var(--muted);font-size:.9rem}
+.hero{background:linear-gradient(135deg,#0d1f3c,#1a2f50);padding:3rem 2rem;text-align:center}
+.hero h1{font-size:2.2rem;color:#fff;max-width:760px;margin:0 auto 1rem}
+.hero p{color:var(--muted);max-width:640px;margin:0 auto 1.5rem}
+.badge{display:inline-block;background:var(--gold);color:#000;font-size:.75rem;font-weight:700;padding:.25rem .75rem;border-radius:20px;text-transform:uppercase;letter-spacing:.05em}
+.container{max-width:900px;margin:0 auto;padding:2rem 1.5rem}
+.toc{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:1.5rem;margin-bottom:2.5rem}
+.toc h2{font-size:1rem;color:var(--gold);margin-bottom:1rem;text-transform:uppercase;letter-spacing:.05em}
+.toc ol{padding-left:1.2rem}
+.toc li{margin:.4rem 0;font-size:.9rem}
+.product-card{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:2rem;margin-bottom:2rem}
+.product-card h2{font-size:1.4rem;margin-bottom:.25rem}
+.rank-badge{display:inline-block;background:var(--gold);color:#000;font-size:.7rem;font-weight:700;padding:.15rem .6rem;border-radius:20px;margin-bottom:.75rem;text-transform:uppercase}
+.verdict{background:#0d1f3c;border-left:3px solid var(--gold);padding:.75rem 1rem;border-radius:0 8px 8px 0;margin:1rem 0;font-size:.95rem;font-style:italic}
+.specs-grid{display:flex;flex-wrap:wrap;gap:.5rem;margin:1rem 0}
+.spec-chip{background:#0a1628;border:1px solid var(--border);border-radius:6px;padding:.3rem .75rem;font-size:.82rem;color:var(--muted)}
+.spec-chip strong{color:var(--text)}
+.pros-cons{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin:1.25rem 0}
+.pros,.cons{background:#0a1628;border-radius:8px;padding:1rem}
+.pros h4{color:var(--green);margin-bottom:.5rem;font-size:.9rem}
+.cons h4{color:var(--red);margin-bottom:.5rem;font-size:.9rem}
+.pros li,.cons li{font-size:.88rem;margin:.3rem 0;list-style:none;padding-left:1.1rem;position:relative}
+.pros li::before{content:"+ ";color:var(--green);position:absolute;left:0}
+.cons li::before{content:"- ";color:var(--red);position:absolute;left:0}
+.buy-btn{display:inline-block;background:var(--gold);color:#000;font-weight:700;padding:.65rem 1.5rem;border-radius:8px;margin-top:1rem;font-size:.95rem;transition:opacity .2s}
+.buy-btn:hover{opacity:.85;text-decoration:none}
+.science-box{background:#0d1f3c;border:1px solid #1e3a5f;border-radius:10px;padding:1.25rem;margin:2rem 0}
+.science-box h3{color:var(--gold);font-size:1rem;margin-bottom:.75rem}
+table{width:100%;border-collapse:collapse;margin:1.5rem 0;font-size:.88rem}
+th{background:#0d1f3c;color:var(--gold);padding:.6rem .9rem;text-align:left;border-bottom:2px solid var(--border)}
+td{padding:.55rem .9rem;border-bottom:1px solid var(--border)}
+tr:hover td{background:#0d1f3c}
+.faq{margin:2.5rem 0}
+.faq h2{font-size:1.5rem;margin-bottom:1.5rem;color:#fff}
+.faq-item{border-bottom:1px solid var(--border);padding:1.25rem 0}
+.faq-item h3{font-size:1rem;color:var(--text);margin-bottom:.5rem}
+.faq-item p{color:var(--muted);font-size:.93rem}
+footer{background:var(--card);border-top:1px solid var(--border);padding:2rem;text-align:center;color:var(--muted);font-size:.85rem;margin-top:3rem}
+.disclaimer{background:#0d1f3c;border:1px solid var(--border);border-radius:8px;padding:1rem;font-size:.8rem;color:var(--muted);margin-bottom:2rem}
+@media(max-width:640px){.pros-cons{grid-template-columns:1fr}.hero h1{font-size:1.6rem}}
+</style>
+</head>
+<body>
+<header>
+  <a href="/">SleepWise Reviews</a>
+  <nav>
+    <a href="/posts/index.html">All Posts</a>
+    <a href="/#sleep-products">Sleep Products</a>
+  </nav>
+</header>
+
+<div class="hero">
+  <span class="badge">Sleep Products</span>
+  <h1>7 Best Sleep Masks for Travel (2026) — Tested on Planes, Trains &amp; Road Trips</h1>
+  <p>We tested travel sleep masks for total blackout, fit across face shapes, comfort on 10+ hour flights, and packability under 2oz. These are the ones worth packing.</p>
+</div>
+
+<div class="container">
+
+<div class="disclaimer">
+<strong>Affiliate disclosure:</strong> SleepWise Reviews earns a commission on qualifying Amazon purchases at no extra cost to you. All opinions are our own.
+</div>
+
+<div class="toc">
+  <h2>Quick Navigation</h2>
+  <ol>
+    <li><a href="#tempur">Tempur-Pedic Sleep Mask — Best Overall</a></li>
+    <li><a href="#manta">Manta Sleep Mask Pro — Best Eye Cups</a></li>
+    <li><a href="#alaska">Alaska Bear Silk — Best Lightweight</a></li>
+    <li><a href="#lewis">Lewis N. Clark Comfort — Best Budget</a></li>
+    <li><a href="#nidra">Nidra Deep Rest — Best 3D Contour</a></li>
+    <li><a href="#bucky">Bucky 40 Blinks — Best Ultralight</a></li>
+    <li><a href="#mzoo">MZOO Sleep Mask — Best Memory Foam</a></li>
+    <li><a href="#guide">Buyer's Guide</a></li>
+    <li><a href="#faq">FAQ</a></li>
+  </ol>
+</div>
+
+<div class="science-box">
+  <h3>Why Sleep Masks Matter More Than You Think for Travel</h3>
+  <p>Light is the primary signal your circadian clock uses to calibrate itself. On planes, light exposure from windows and cabin lighting can suppress melatonin production mid-flight, making it harder to sleep and worsening jet lag on arrival. A well-fitted sleep mask that blocks 100% of light keeps your circadian signal clean. Studies on shift workers and travelers show light-blocking masks significantly improve sleep quality in disrupted environments. The contoured design also prevents mask pressure on eyelids — which interrupts REM sleep.</p>
+</div>
+
+<!-- PRODUCT 1 -->
+<div class="product-card" id="tempur">
+  <span class="rank-badge">#1 Best Overall</span>
+  <h2>Tempur-Pedic Sleep Mask</h2>
+  <div class="verdict">"Memory foam conforms perfectly to your face shape, eliminates light leaks at the nose bridge, and remains comfortable across 10+ hour flights without leaving marks."</div>
+  <div class="specs-grid">
+    <div class="spec-chip"><strong>Material:</strong> TEMPUR memory foam</div>
+    <div class="spec-chip"><strong>Blackout:</strong> 100%</div>
+    <div class="spec-chip"><strong>Weight:</strong> 2.8oz</div>
+    <div class="spec-chip"><strong>Eye cups:</strong> Contoured</div>
+    <div class="spec-chip"><strong>Strap:</strong> Adjustable elastic</div>
+    <div class="spec-chip"><strong>Cover:</strong> Removable, washable</div>
+  </div>
+  <p>Tempur-Pedic's proprietary memory foam isn't just a branding gimmick here — it genuinely conforms to your face contours in a way that eliminates the nose-bridge light leak that plagues most flat masks. The foam layer is 1cm thick, providing enough structure to maintain eye cups while remaining flexible enough to not create pressure points.</p>
+  <p style="margin-top:.75rem">The removable cover is machine washable, which matters for frequent travelers. The adjustable elastic strap is wide enough to not cut into your head during 8+ hour flights. The single weakness: at 2.8oz, it's heavier than flat silk masks — though still carry-on friendly by any measure.</p>
+  <div class="pros-cons">
+    <div class="pros">
+      <h4>Pros</h4>
+      <ul>
+        <li>TEMPUR foam eliminates nose-bridge light leak</li>
+        <li>Maintains shape without pressure on eyes</li>
+        <li>Removable, washable cover</li>
+        <li>Stays in place throughout long flights</li>
+        <li>Comfortable for side sleeping on airplane seat</li>
+      </ul>
+    </div>
+    <div class="cons">
+      <h4>Cons</h4>
+      <ul>
+        <li>2.8oz — heavier than ultralight options</li>
+        <li>Premium price compared to competitors</li>
+        <li>Takes time to conform to new face shapes</li>
+      </ul>
+    </div>
+  </div>
+  <a class="buy-btn" href="https://www.amazon.com/s?k=Tempur-Pedic+Sleep+Mask&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+</div>
+
+<!-- PRODUCT 2 -->
+<div class="product-card" id="manta">
+  <span class="rank-badge">#2 Best Eye Cups</span>
+  <h2>Manta Sleep Mask Pro</h2>
+  <div class="verdict">"The deepest eye cups of any mask tested — zero contact with eyelids, zero restriction for REM movement. The best engineering for serious REM sleepers."</div>
+  <div class="specs-grid">
+    <div class="spec-chip"><strong>Material:</strong> Memory foam eye cups</div>
+    <div class="spec-chip"><strong>Eye cup depth:</strong> 15mm domed cavity</div>
+    <div class="spec-chip"><strong>Adjustable:</strong> Eye cups slide laterally</div>
+    <div class="spec-chip"><strong>Blackout:</strong> 100%</div>
+    <div class="spec-chip"><strong>Weight:</strong> 1.7oz</div>
+    <div class="spec-chip"><strong>Cover:</strong> Washable</div>
+  </div>
+  <p>Manta's signature feature is the adjustable-position eye cup system: the two foam cups slide independently on the strap, letting you position them precisely over your eye sockets regardless of face shape. The 15mm dome cavity means zero contact with eyelashes or eyelids even during REM rapid eye movement.</p>
+  <p style="margin-top:.75rem">The Pro version adds enhanced foam density and a redesigned nose section for better blackout at the cheekbone line. For travelers who have tried multiple masks and found them all pressing on their eyes uncomfortably, Manta Pro typically solves the problem. Lighter than the Tempur-Pedic at 1.7oz.</p>
+  <div class="pros-cons">
+    <div class="pros">
+      <h4>Pros</h4>
+      <ul>
+        <li>Adjustable eye cup position fits any face shape</li>
+        <li>15mm dome — no eyelid contact, even during REM</li>
+        <li>Works with eyelash extensions without damage</li>
+        <li>1.7oz — significantly lighter than Tempur-Pedic</li>
+        <li>Can be used for meditation with eyes open inside the cups</li>
+      </ul>
+    </div>
+    <div class="cons">
+      <h4>Cons</h4>
+      <ul>
+        <li>Higher price than most travel masks</li>
+        <li>Larger profile — takes more bag space than flat masks</li>
+        <li>Some users find nose section allows chin-area light leak</li>
+      </ul>
+    </div>
+  </div>
+  <a class="buy-btn" href="https://www.amazon.com/s?k=Manta+Sleep+Mask+Pro&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+</div>
+
+<!-- PRODUCT 3 -->
+<div class="product-card" id="alaska">
+  <span class="rank-badge">#3 Best Lightweight</span>
+  <h2>Alaska Bear Natural Silk Sleep Mask</h2>
+  <div class="verdict">"Under 20g, packs flat into any pocket, and the natural silk is temperature-regulating and gentle on skin — the ideal companion for frequent flyers who travel light."</div>
+  <div class="specs-grid">
+    <div class="spec-chip"><strong>Material:</strong> 100% natural mulberry silk</div>
+    <div class="spec-chip"><strong>Weight:</strong> Under 20g</div>
+    <div class="spec-chip"><strong>Momme:</strong> 19 momme (high-grade silk)</div>
+    <div class="spec-chip"><strong>Strap:</strong> Adjustable satin</div>
+    <div class="spec-chip"><strong>Comes with:</strong> Travel pouch</div>
+    <div class="spec-chip"><strong>Machine washable:</strong> Yes (gentle cycle)</div>
+  </div>
+  <p>At 19 momme, Alaska Bear uses higher-grade silk than most silk masks (usually 16 momme) — the difference in feel and durability is noticeable. The natural silk is temperature-regulating (cool to the touch), hypoallergenic, and won't absorb skincare products from your face the way cotton does.</p>
+  <p style="margin-top:.75rem">The satin adjustable strap doesn't tug on hair — a meaningful upgrade over elastic straps that snag. The mask packs flat into the included travel pouch and adds virtually no weight or volume to your carry-on. Blackout performance is good (not perfect at the nose) but sufficient for blocking cabin ambient light.</p>
+  <div class="pros-cons">
+    <div class="pros">
+      <h4>Pros</h4>
+      <ul>
+        <li>Under 20g — virtually weightless for travel</li>
+        <li>19 momme mulberry silk — premium grade</li>
+        <li>Temperature-regulating, cool to touch</li>
+        <li>Satin strap doesn't pull hair</li>
+        <li>Excellent value for natural silk quality</li>
+      </ul>
+    </div>
+    <div class="cons">
+      <h4>Cons</h4>
+      <ul>
+        <li>Flat design allows some nose-bridge light leak</li>
+        <li>No eye cup structure — contacts eyelids directly</li>
+        <li>May slide during active sleep movement</li>
+      </ul>
+    </div>
+  </div>
+  <a class="buy-btn" href="https://www.amazon.com/s?k=Alaska+Bear+Natural+Silk+Sleep+Mask&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+</div>
+
+<!-- PRODUCT 4 -->
+<div class="product-card" id="lewis">
+  <span class="rank-badge">#4 Best Budget</span>
+  <h2>Lewis N. Clark Comfort Eye Mask</h2>
+  <div class="verdict">"The go-to budget travel mask — molded foam that creates real eye cups, adjustable strap, and comes with earplugs. Under $10 and outperforms many pricier flat masks."</div>
+  <div class="specs-grid">
+    <div class="spec-chip"><strong>Material:</strong> Molded foam</div>
+    <div class="spec-chip"><strong>Includes:</strong> Earplugs + carry pouch</div>
+    <div class="spec-chip"><strong>Weight:</strong> 1.1oz</div>
+    <div class="spec-chip"><strong>Eye cups:</strong> Contoured foam</div>
+    <div class="spec-chip"><strong>Strap:</strong> Adjustable elastic</div>
+    <div class="spec-chip"><strong>Price range:</strong> Budget</div>
+  </div>
+  <p>Lewis N. Clark has been making travel accessories since 1921, and their Comfort Eye Mask is a perennial travel staple for good reason. The molded foam creates genuine eye cups without the premium price of Manta or Tempur-Pedic. It comes with foam earplugs and a carry pouch — effectively a budget sleep kit.</p>
+  <p style="margin-top:.75rem">The foam construction is firm enough to maintain its shape across a long flight but soft enough not to dig in. The adjustable strap handles head sizes from petite to large without issue. For travelers who want a step up from a flat airline mask without spending $30+, this is the smart call.</p>
+  <div class="pros-cons">
+    <div class="pros">
+      <h4>Pros</h4>
+      <ul>
+        <li>Budget price — one of the most affordable contoured masks</li>
+        <li>Includes earplugs and carry pouch</li>
+        <li>Molded eye cups provide real blackout</li>
+        <li>Durable foam holds shape over time</li>
+        <li>1.1oz — very light for a contoured mask</li>
+      </ul>
+    </div>
+    <div class="cons">
+      <h4>Cons</h4>
+      <ul>
+        <li>Foam can feel warm in hot cabins</li>
+        <li>Non-washable — accumulates oils over time</li>
+        <li>Basic design — no size adjustability for eye cup position</li>
+      </ul>
+    </div>
+  </div>
+  <a class="buy-btn" href="https://www.amazon.com/s?k=Lewis+N+Clark+Comfort+Eye+Mask+travel&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+</div>
+
+<!-- PRODUCT 5 -->
+<div class="product-card" id="nidra">
+  <span class="rank-badge">#5 Best 3D Contour</span>
+  <h2>Nidra Deep Rest Eye Mask</h2>
+  <div class="verdict">"The best 3D-molded option under $15 — the bird-beak nose design eliminates the #1 failure point of flat masks, and the contoured cups allow eye movement during REM."</div>
+  <div class="specs-grid">
+    <div class="spec-chip"><strong>Design:</strong> 3D molded / bird-beak style</div>
+    <div class="spec-chip"><strong>Blackout:</strong> 100% claimed</div>
+    <div class="spec-chip"><strong>Material:</strong> Soft ABS shell + padding</div>
+    <div class="spec-chip"><strong>Weight:</strong> 1.1oz</div>
+    <div class="spec-chip"><strong>Strap:</strong> Adjustable elastic</div>
+    <div class="spec-chip"><strong>Eye contact:</strong> None</div>
+  </div>
+  <p>Nidra uses a rigid 3D-molded shell with soft inner padding — the "bird beak" profile extends over the nose, which is the key innovation. Most flat masks fail at the nose bridge where light enters from below. Nidra's extended nose section eliminates this gap without adding significant weight or bulk.</p>
+  <p style="margin-top:.75rem">The rigid shell maintains its shape even when pressed against an airplane seat or neck pillow. The inner padding is soft enough for extended wear. Eye cups are spacious — comfortable for open-eye REM movement. A significant upgrade in blackout performance over flat masks at a still-accessible price point.</p>
+  <div class="pros-cons">
+    <div class="pros">
+      <h4>Pros</h4>
+      <ul>
+        <li>Bird-beak nose eliminates nose-bridge light leak</li>
+        <li>Rigid shell maintains shape under pressure</li>
+        <li>Zero eye contact in contoured cups</li>
+        <li>Mid-range price with premium blackout performance</li>
+        <li>Works with glasses-shaped faces</li>
+      </ul>
+    </div>
+    <div class="cons">
+      <h4>Cons</h4>
+      <ul>
+        <li>Rigid shell takes more packing space than flat masks</li>
+        <li>Hard shell can feel less comfortable than foam alternatives</li>
+        <li>Not suitable for side sleeping into a firm surface</li>
+      </ul>
+    </div>
+  </div>
+  <a class="buy-btn" href="https://www.amazon.com/s?k=Nidra+Deep+Rest+Eye+Mask+3D&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+</div>
+
+<!-- PRODUCT 6 -->
+<div class="product-card" id="bucky">
+  <span class="rank-badge">#6 Best Ultralight</span>
+  <h2>Bucky 40 Blinks Ultralight Eye Mask</h2>
+  <div class="verdict">"0.8oz and packs to the size of a pocket square — the most packable contoured mask we tested. The foam cups eliminate eye contact while adding no meaningful weight."</div>
+  <div class="specs-grid">
+    <div class="spec-chip"><strong>Weight:</strong> 0.8oz</div>
+    <div class="spec-chip"><strong>Eye cups:</strong> Yes — molded foam</div>
+    <div class="spec-chip"><strong>Strap:</strong> Adjustable elastic (back clasp)</div>
+    <div class="spec-chip"><strong>Colors:</strong> 20+ available</div>
+    <div class="spec-chip"><strong>Washable:</strong> Hand wash</div>
+    <div class="spec-chip"><strong>Packs to:</strong> Flat (folded)</div>
+  </div>
+  <p>Bucky's 40 Blinks has been a travel staple for over 20 years, and the design has been refined to a point where there's little to improve. The molded foam cups weigh almost nothing while still providing the eye-clearance that flat masks don't. The back clasp adjusts in micro-increments — more precise than standard elastic adjusters.</p>
+  <p style="margin-top:.75rem">Twenty-plus color options mean you can match it to your travel gear or keep it distinctive enough to find in a bag easily. The mask folds flat for storage. At 0.8oz, it adds nothing meaningful to pack weight. Best for minimalist travelers or those who already carry contoured masks and want a backup that packs flat.</p>
+  <div class="pros-cons">
+    <div class="pros">
+      <h4>Pros</h4>
+      <ul>
+        <li>0.8oz — lightest contoured mask tested</li>
+        <li>20+ color options</li>
+        <li>Micro-adjust back clasp — precise fit</li>
+        <li>Folds flat for storage</li>
+        <li>20+ year track record — proven design</li>
+      </ul>
+    </div>
+    <div class="cons">
+      <h4>Cons</h4>
+      <ul>
+        <li>Thin foam padding — less comfortable than thicker alternatives for 10+ hour flights</li>
+        <li>Blackout performance is good but not perfect at the nose</li>
+        <li>Cup shape may not fit all face geometries</li>
+      </ul>
+    </div>
+  </div>
+  <a class="buy-btn" href="https://www.amazon.com/s?k=Bucky+40+Blinks+Ultralight+Eye+Mask&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+</div>
+
+<!-- PRODUCT 7 -->
+<div class="product-card" id="mzoo">
+  <span class="rank-badge">#7 Best Memory Foam</span>
+  <h2>MZOO Sleep Eye Mask</h2>
+  <div class="verdict">"A memory foam contoured mask at an accessible price — the soft padding conforms to face shape and the wide strap prevents the headband pressure that ruins long flights."</div>
+  <div class="specs-grid">
+    <div class="spec-chip"><strong>Material:</strong> Memory foam + velvet cover</div>
+    <div class="spec-chip"><strong>Eye cups:</strong> Contoured</div>
+    <div class="spec-chip"><strong>Strap width:</strong> Wide (reduces pressure)</div>
+    <div class="spec-chip"><strong>Cover:</strong> Removable velvet</div>
+    <div class="spec-chip"><strong>Blackout:</strong> 100%</div>
+    <div class="spec-chip"><strong>Weight:</strong> 2.0oz</div>
+  </div>
+  <p>MZOO combines the adaptability of memory foam with a wider-than-average strap — the combination that most affects long-flight comfort. Narrow straps concentrate pressure on one point of the head; the MZOO's wide elastic strap distributes that pressure across a larger surface, reducing the headache effect of long wear.</p>
+  <p style="margin-top:.75rem">The velvet cover is removable and washable. The memory foam conforms to face shape within a few minutes of wear. At 2.0oz, it's heavier than the Bucky or Alaska Bear, but significantly cheaper than the Tempur-Pedic with comparable memory foam performance. Good value for travelers who want memory foam without the premium price.</p>
+  <div class="pros-cons">
+    <div class="pros">
+      <h4>Pros</h4>
+      <ul>
+        <li>Wide strap prevents headache during long wear</li>
+        <li>Memory foam at a fraction of Tempur-Pedic price</li>
+        <li>Removable, washable velvet cover</li>
+        <li>Total blackout with contoured cups</li>
+        <li>Conforms to face shape within minutes</li>
+      </ul>
+    </div>
+    <div class="cons">
+      <h4>Cons</h4>
+      <ul>
+        <li>2.0oz — heavier than ultralight options</li>
+        <li>Memory foam can feel warm during long flights</li>
+        <li>Wide strap may feel bulky against some pillow types</li>
+      </ul>
+    </div>
+  </div>
+  <a class="buy-btn" href="https://www.amazon.com/s?k=MZOO+Sleep+Eye+Mask+memory+foam&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+</div>
+
+<!-- COMPARISON TABLE -->
+<h2 style="margin:2.5rem 0 1rem;font-size:1.5rem">Comparison: All 7 Travel Sleep Masks</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Product</th>
+      <th>Weight</th>
+      <th>Eye Cups</th>
+      <th>Blackout</th>
+      <th>Washable</th>
+      <th>Best For</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Tempur-Pedic</td><td>2.8oz</td><td>Contoured foam</td><td>100%</td><td>Cover yes</td><td>All-day flights</td></tr>
+    <tr><td>Manta Sleep Pro</td><td>1.7oz</td><td>15mm dome, adjustable</td><td>100%</td><td>Yes</td><td>REM sleepers</td></tr>
+    <tr><td>Alaska Bear Silk</td><td>&lt;20g</td><td>None (flat)</td><td>Good</td><td>Yes</td><td>Minimalist travelers</td></tr>
+    <tr><td>Lewis N. Clark</td><td>1.1oz</td><td>Molded foam</td><td>Good</td><td>No</td><td>Budget pick</td></tr>
+    <tr><td>Nidra Deep Rest</td><td>1.1oz</td><td>3D rigid shell</td><td>100%</td><td>No</td><td>Nose-leak problem</td></tr>
+    <tr><td>Bucky 40 Blinks</td><td>0.8oz</td><td>Molded foam</td><td>Good</td><td>Hand wash</td><td>Ultralight packing</td></tr>
+    <tr><td>MZOO</td><td>2.0oz</td><td>Memory foam</td><td>100%</td><td>Cover yes</td><td>Long-haul comfort</td></tr>
+  </tbody>
+</table>
+
+<!-- BUYER'S GUIDE -->
+<div id="guide" class="science-box">
+  <h3>Buyer's Guide: How to Pick a Travel Sleep Mask</h3>
+  <p><strong>Contoured vs flat:</strong> Contoured masks (with eye cups) prevent contact with eyelids, support REM eye movement, and typically block more light at the cheekbone. Flat masks are lighter and pack smaller but allow eye contact — uncomfortable for extended wear and sleep quality-disrupting if they restrict eye movement.</p>
+  <p style="margin-top:.75rem"><strong>The nose bridge problem:</strong> Most light enters from below the mask at the nose bridge. Prioritize masks that explicitly address this: Tempur-Pedic (memory foam conforms), Nidra (extended nose beak), Manta (adjustable cups seal at different face contours). Flat masks almost always fail here.</p>
+  <p style="margin-top:.75rem"><strong>Strap matters on long flights:</strong> Narrow elastic straps create point pressure on the back of the head after 4+ hours. Look for wide straps (MZOO), adjustable back clasps (Bucky), or material straps (Alaska Bear satin) to prevent the "wake up with a headache" problem.</p>
+  <p style="margin-top:.75rem"><strong>Washability:</strong> Oils from your face accumulate on any mask. Prefer masks with removable, washable covers (Tempur-Pedic, Manta, MZOO) for frequent travel. Silk masks are hand-washable. Foam-only masks are the hardest to keep clean.</p>
+</div>
+
+<!-- FAQ -->
+<div class="faq" id="faq">
+  <h2>Frequently Asked Questions</h2>
+  <div class="faq-item">
+    <h3>What makes a good sleep mask for travel?</h3>
+    <p>Total blackout (especially at the nose bridge), contoured eye cups that don't contact your eyelids, a secure fit that doesn't slide, and lightweight packability. Contoured masks that create eye domes prevent lash contact and REM interference that flat masks cause.</p>
+  </div>
+  <div class="faq-item">
+    <h3>Are silk sleep masks better for travel?</h3>
+    <p>Silk masks are gentle, temperature-regulating, and ultra-light — great for travel. The tradeoff: flat silk masks don't contour well, allowing nose-bridge light leaks. If total blackout is the priority, a contoured foam or 3D mask outperforms silk despite the extra weight.</p>
+  </div>
+  <div class="faq-item">
+    <h3>Can you sleep in a sleep mask on a plane?</h3>
+    <p>Yes — it's one of the most effective tools for in-flight sleep. Pair with earplugs or noise-cancelling headphones. Look for masks with straps that don't create pressure against the seat headrest — wide straps and side-adjusting clasps work best in airline seats.</p>
+  </div>
+  <div class="faq-item">
+    <h3>How do I prevent a sleep mask from pressing on my eyes?</h3>
+    <p>Use a contoured or 3D molded mask that creates a dome over the eyes. These maintain a gap between the mask surface and your eyelids. Flat masks made from foam or fabric contact your eyes directly — uncomfortable over time and potentially disruptive to REM eye movement.</p>
+  </div>
+  <div class="faq-item">
+    <h3>What is the most packable sleep mask for travel?</h3>
+    <p>The Alaska Bear Natural Silk mask packs flat and weighs under 20g — essentially weightless. The Bucky 40 Blinks is the lightest contoured option at 0.8oz. Both fold flat and include pouches. For those who won't compromise on blackout performance, the Manta Sleep Mask Pro at 1.7oz is the best packability-to-blackout tradeoff.</p>
+  </div>
+</div>
+
+</div><!-- container -->
+
+<footer>
+  <p>&copy; 2026 SleepWise Reviews &mdash; <a href="/posts/index.html">All Posts</a> &mdash; <a href="/">Home</a></p>
+  <p style="margin-top:.5rem">SleepWise Reviews participates in the Amazon Associates program. Affiliate links help support free content at no cost to you.</p>
+</footer>
+</body>
+</html>"""
+
+with open(OUT, 'w', encoding='utf-8') as f:
+    f.write(html)
+print(f'Written: {OUT}')
