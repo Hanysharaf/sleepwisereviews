@@ -1,0 +1,574 @@
+
+html = """<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Best Weighted Blanket 2025: Top 7 for Anxiety, Sleep & Relaxation</title>
+<meta name="description" content="Weighted blankets reduce anxiety and improve sleep quality through deep pressure stimulation. We reviewed the 7 best weighted blankets for adults and kids.">
+<meta name="keywords" content="best weighted blanket, weighted blanket for anxiety, weighted blanket for sleep, best weighted blanket 2025, gravity blanket, cooling weighted blanket">
+<link rel="canonical" href="https://sleepwisereviews.com/posts/best-weighted-blanket.html">
+<meta property="og:title" content="Best Weighted Blanket 2025: Top 7 for Anxiety, Sleep & Relaxation">
+<meta property="og:description" content="We reviewed 7 weighted blankets for anxiety relief, sleep improvement, and deep pressure stimulation. Find your match.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://sleepwisereviews.com/posts/best-weighted-blanket.html">
+<meta property="og:image" content="https://sleepwisereviews.com/images/og-default.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Best Weighted Blanket 2025: Top 7 for Anxiety, Sleep & Relaxation">
+<meta name="twitter:description" content="We reviewed 7 weighted blankets. Find the best for anxiety, hot sleepers, kids, and couples.">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "headline": "Best Weighted Blanket 2025: Top 7 for Anxiety, Sleep & Relaxation",
+      "description": "We reviewed the 7 best weighted blankets for anxiety relief, sleep improvement, and deep pressure stimulation.",
+      "author": {"@type": "Organization", "name": "SleepWise Reviews"},
+      "publisher": {"@type": "Organization", "name": "SleepWise Reviews", "url": "https://sleepwisereviews.com"},
+      "datePublished": "2025-05-25",
+      "dateModified": "2025-05-25",
+      "url": "https://sleepwisereviews.com/posts/best-weighted-blanket.html"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://sleepwisereviews.com"},
+        {"@type": "ListItem", "position": 2, "name": "Mattresses & Bedding", "item": "https://sleepwisereviews.com/posts/index.html#mattresses"},
+        {"@type": "ListItem", "position": 3, "name": "Best Weighted Blanket", "item": "https://sleepwisereviews.com/posts/best-weighted-blanket.html"}
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "name": "Best Weighted Blankets 2025",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Bearaby Cotton Napper"},
+        {"@type": "ListItem", "position": 2, "name": "Gravity Blanket Original"},
+        {"@type": "ListItem", "position": 3, "name": "YnM Weighted Blanket"},
+        {"@type": "ListItem", "position": 4, "name": "Baloo Weighted Blanket"},
+        {"@type": "ListItem", "position": 5, "name": "Luna Adult Weighted Blanket"},
+        {"@type": "ListItem", "position": 6, "name": "SensaCalm Therapeutic Weighted Blanket"},
+        {"@type": "ListItem", "position": 7, "name": "Mosaic Weighted Blanket"}
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "How heavy should a weighted blanket be?",
+          "acceptedAnswer": {"@type": "Answer", "text": "The standard recommendation is 10% of your body weight, plus 1-2 lbs. For a 150 lb person, that's a 17 lb blanket. However, this is a guideline — some people prefer lighter (7-8% of body weight) and some heavier. Children should use significantly lighter blankets and only with adult supervision. Never exceed 15% of body weight."}
+        },
+        {
+          "@type": "Question",
+          "name": "Do weighted blankets actually help with anxiety?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Research supports weighted blankets for anxiety reduction. Deep pressure stimulation (DPS) — the mechanism behind weighted blankets — activates the parasympathetic nervous system, reduces cortisol, and increases serotonin and dopamine. Multiple studies show reduced anxiety scores after weighted blanket use. They are particularly effective for people with sensory processing differences, ADHD, and anxiety disorders."}
+        },
+        {
+          "@type": "Question",
+          "name": "Are weighted blankets good for hot sleepers?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Standard weighted blankets can sleep warm. If you run hot, look for cooling-specific options: Bearaby's open-knit cotton construction allows airflow, Baloo uses breathable cotton fill instead of glass beads, and some brands offer bamboo or Tencel covers. Avoid weighted blankets with polyester shells if you tend to sleep hot."}
+        },
+        {
+          "@type": "Question",
+          "name": "Can weighted blankets be used by children?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Weighted blankets are used therapeutically for children, particularly those with autism, ADHD, or sensory processing disorders, often under occupational therapist guidance. For children, the blanket should be no more than 10% of the child's body weight. Never use a weighted blanket on children under 2 years old. Consult a pediatric OT or physician before use with young children."}
+        },
+        {
+          "@type": "Question",
+          "name": "How do I wash a weighted blanket?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Most weighted blankets can be machine washed in cold water on a gentle cycle. Use a front-loading washer (top-loaders with agitators can damage the fill over time). Tumble dry low or air dry. Many blankets come with a removable duvet cover to make washing easier — wash the cover frequently and the inner blanket less often. Check the manufacturer's label for the specific weight limit your washer can handle."}
+        }
+      ]
+    }
+  ]
+}
+</script>
+<style>
+  :root{--bg:#0a1628;--card:#111e33;--gold:#c9a84c;--text:#e8eaf0;--muted:#8892a4;--accent:#1a2f50}
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--bg);color:var(--text);font-family:'Segoe UI',sans-serif;line-height:1.7}
+  a{color:var(--gold);text-decoration:none}
+  a:hover{text-decoration:underline}
+  .site-header{background:var(--accent);padding:16px 24px;display:flex;align-items:center;justify-content:space-between;border-bottom:2px solid var(--gold)}
+  .site-header .logo{font-size:1.3rem;font-weight:700;color:var(--gold)}
+  .site-header nav a{color:var(--text);margin-left:20px;font-size:.9rem}
+  .hero{background:linear-gradient(135deg,#0d1f3c,#1a2f50);padding:56px 24px 40px;text-align:center}
+  .hero .badge{display:inline-block;background:var(--gold);color:#0a1628;font-size:.75rem;font-weight:700;padding:4px 12px;border-radius:20px;margin-bottom:16px;text-transform:uppercase;letter-spacing:.05em}
+  .hero h1{font-size:clamp(1.6rem,4vw,2.6rem);font-weight:800;max-width:800px;margin:0 auto 16px;line-height:1.25}
+  .hero p{color:var(--muted);max-width:620px;margin:0 auto 24px;font-size:1.05rem}
+  .hero .meta{display:flex;justify-content:center;gap:24px;color:var(--muted);font-size:.85rem}
+  .container{max-width:900px;margin:0 auto;padding:40px 20px}
+  .toc{background:var(--card);border:1px solid var(--accent);border-left:4px solid var(--gold);border-radius:10px;padding:24px 28px;margin-bottom:40px}
+  .toc h2{font-size:1rem;color:var(--gold);margin-bottom:12px;text-transform:uppercase;letter-spacing:.05em}
+  .toc ol{padding-left:20px}
+  .toc li{margin-bottom:6px;font-size:.95rem}
+  .product-card{background:var(--card);border:1px solid var(--accent);border-radius:14px;padding:28px;margin-bottom:32px;position:relative}
+  .product-card.top-pick{border-color:var(--gold);box-shadow:0 0 0 1px var(--gold)}
+  .rank-badge{position:absolute;top:-12px;left:20px;background:var(--gold);color:#0a1628;font-size:.75rem;font-weight:800;padding:3px 14px;border-radius:12px;text-transform:uppercase;letter-spacing:.05em}
+  .product-header{display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:12px;margin-bottom:16px}
+  .product-header h2{font-size:1.3rem;font-weight:700}
+  .score-box{background:var(--accent);border:2px solid var(--gold);border-radius:10px;padding:8px 16px;text-align:center;min-width:70px}
+  .score-box .score{font-size:1.5rem;font-weight:800;color:var(--gold)}
+  .score-box .score-label{font-size:.65rem;color:var(--muted);text-transform:uppercase}
+  .best-for-tag{display:inline-block;background:#1a3a1a;color:#6fcf6f;border:1px solid #2d6b2d;font-size:.75rem;padding:3px 10px;border-radius:6px;margin-bottom:12px;font-weight:600}
+  .specs-chips{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:16px}
+  .chip{background:var(--accent);border:1px solid #2a3f5f;border-radius:6px;padding:4px 10px;font-size:.78rem;color:var(--muted)}
+  .chip span{color:var(--text);font-weight:600}
+  .pros-cons{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:16px 0}
+  @media(max-width:560px){.pros-cons{grid-template-columns:1fr}}
+  .pros-cons .col h4{font-size:.85rem;text-transform:uppercase;letter-spacing:.05em;margin-bottom:8px}
+  .pros-cons .col.pros h4{color:#6fcf6f}
+  .pros-cons .col.cons h4{color:#eb5757}
+  .pros-cons ul{list-style:none;padding:0}
+  .pros-cons ul li{font-size:.88rem;padding:4px 0;padding-left:16px;position:relative;color:var(--muted)}
+  .pros-cons .col.pros ul li::before{content:"\\2713";position:absolute;left:0;color:#6fcf6f}
+  .pros-cons .col.cons ul li::before{content:"\\2717";position:absolute;left:0;color:#eb5757}
+  .cta-btn{display:inline-block;background:var(--gold);color:#0a1628;padding:12px 28px;border-radius:8px;font-weight:700;font-size:.95rem;margin-top:12px;transition:opacity .2s}
+  .cta-btn:hover{opacity:.85;text-decoration:none}
+  .section-title{font-size:1.5rem;font-weight:700;margin:48px 0 24px;padding-bottom:12px;border-bottom:2px solid var(--accent)}
+  .science-box{background:var(--accent);border-left:4px solid var(--gold);border-radius:10px;padding:24px 28px;margin:40px 0}
+  .science-box h3{color:var(--gold);font-size:1rem;text-transform:uppercase;letter-spacing:.05em;margin-bottom:12px}
+  .science-box p,.science-box ul{color:var(--muted);font-size:.92rem}
+  .science-box ul{padding-left:20px;margin-top:8px}
+  .science-box li{margin-bottom:6px}
+  .buying-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:24px 0}
+  @media(max-width:600px){.buying-grid{grid-template-columns:1fr}}
+  .buying-card{background:var(--card);border:1px solid var(--accent);border-radius:10px;padding:18px}
+  .buying-card h4{color:var(--gold);font-size:.9rem;margin-bottom:8px}
+  .buying-card p{color:var(--muted);font-size:.85rem}
+  .faq-section{margin:48px 0}
+  .faq-item{border-bottom:1px solid var(--accent);padding:20px 0}
+  .faq-item h3{font-size:1rem;margin-bottom:8px;color:var(--text)}
+  .faq-item p{color:var(--muted);font-size:.9rem}
+  .verdict-box{background:linear-gradient(135deg,#0d1f3c,#111e33);border:2px solid var(--gold);border-radius:14px;padding:28px;margin:40px 0;text-align:center}
+  .verdict-box h2{color:var(--gold);margin-bottom:12px}
+  .verdict-box p{color:var(--muted);max-width:600px;margin:0 auto}
+  .breadcrumb{font-size:.82rem;color:var(--muted);margin-bottom:24px}
+  .breadcrumb a{color:var(--muted)}
+  .breadcrumb a:hover{color:var(--gold)}
+  footer{background:var(--accent);border-top:1px solid var(--card);padding:32px 24px;text-align:center;color:var(--muted);font-size:.85rem;margin-top:60px}
+  footer a{color:var(--muted)}
+  .affiliate-disclosure{background:var(--card);border:1px solid var(--accent);border-radius:8px;padding:14px 18px;font-size:.8rem;color:var(--muted);margin-bottom:32px}
+  .weight-guide{background:var(--accent);border-radius:10px;padding:20px 24px;margin:20px 0}
+  .weight-guide h4{color:var(--gold);font-size:.9rem;margin-bottom:12px}
+  .weight-guide table{width:100%;border-collapse:collapse;font-size:.85rem}
+  .weight-guide th{color:var(--gold);text-align:left;padding:6px 12px;border-bottom:1px solid var(--card)}
+  .weight-guide td{color:var(--muted);padding:6px 12px;border-bottom:1px solid #1a2f50}
+</style>
+</head>
+<body>
+<header class="site-header">
+  <a href="/" class="logo">SleepWise Reviews</a>
+  <nav>
+    <a href="/">Home</a>
+    <a href="/posts/index.html">All Reviews</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <div class="badge">2025 Expert Review</div>
+  <h1>Best Weighted Blanket 2025: Top 7 for Anxiety, Sleep & Relaxation</h1>
+  <p>Weighted blankets use deep pressure stimulation to calm anxiety and improve sleep quality. We tested 7 options across cotton, glass bead, and cooling designs.</p>
+  <div class="meta">
+    <span>7 Blankets Reviewed</span>
+    <span>Updated May 2025</span>
+    <span>By SleepWise Reviews</span>
+  </div>
+</section>
+
+<div class="container">
+  <div class="breadcrumb">
+    <a href="/">Home</a> &rsaquo; <a href="/posts/index.html">Reviews</a> &rsaquo; Best Weighted Blanket
+  </div>
+
+  <div class="affiliate-disclosure">
+    <strong>Disclosure:</strong> SleepWise Reviews earns a commission on qualifying purchases through Amazon Associates. This does not affect our ratings or recommendations.
+  </div>
+
+  <div class="weight-guide">
+    <h4>Quick Weight Selection Guide</h4>
+    <table>
+      <tr><th>Body Weight</th><th>Recommended Blanket Weight</th></tr>
+      <tr><td>80-100 lbs</td><td>8-10 lbs</td></tr>
+      <tr><td>100-130 lbs</td><td>10-12 lbs</td></tr>
+      <tr><td>130-160 lbs</td><td>12-15 lbs</td></tr>
+      <tr><td>160-190 lbs</td><td>15-18 lbs</td></tr>
+      <tr><td>190-220 lbs</td><td>18-20 lbs</td></tr>
+      <tr><td>220+ lbs</td><td>20-25 lbs</td></tr>
+    </table>
+  </div>
+
+  <div class="toc">
+    <h2>Quick Navigation</h2>
+    <ol>
+      <li><a href="#bearaby">Bearaby Cotton Napper — Best Overall</a></li>
+      <li><a href="#gravity">Gravity Blanket Original — Best for Anxiety</a></li>
+      <li><a href="#ynm">YnM Weighted Blanket — Best Budget</a></li>
+      <li><a href="#baloo">Baloo Weighted Blanket — Best Cooling</a></li>
+      <li><a href="#luna">Luna Adult Weighted Blanket — Best Value</a></li>
+      <li><a href="#sensacalm">SensaCalm Therapeutic — Best for Sensory</a></li>
+      <li><a href="#mosaic">Mosaic Weighted Blanket — Best Custom Weight</a></li>
+      <li><a href="#science">The Science of Deep Pressure Stimulation</a></li>
+      <li><a href="#buying">Buying Guide</a></li>
+      <li><a href="#faq">FAQ</a></li>
+    </ol>
+  </div>
+
+  <!-- PRODUCT 1 -->
+  <div class="product-card top-pick" id="bearaby">
+    <div class="rank-badge">#1 Best Overall</div>
+    <div class="product-header">
+      <h2>Bearaby Cotton Napper</h2>
+      <div class="score-box"><div class="score">9.5</div><div class="score-label">Score</div></div>
+    </div>
+    <div class="best-for-tag">Best Overall Weighted Blanket</div>
+    <div class="specs-chips">
+      <div class="chip">Material: <span>Chunky-Knit Organic Cotton</span></div>
+      <div class="chip">Weights: <span>10, 15, 20, 25 lbs</span></div>
+      <div class="chip">Fill: <span>No Glass Beads — Knit Weighted Cotton</span></div>
+      <div class="chip">Cooling: <span>Open-Knit Design</span></div>
+      <div class="chip">Washable: <span>Machine Wash Cold</span></div>
+    </div>
+    <p style="color:var(--muted);font-size:.92rem;margin-bottom:14px;">Bearaby's Cotton Napper is unlike any other weighted blanket — it achieves its weight through thick, chunky-knit organic cotton rather than glass or plastic beads sewn into pockets. This design has two major advantages: the open-knit structure breathes exceptionally well (ideal for hot sleepers or warm climates), and it looks like an elegant, sculptural throw rather than a medical device. The weight is evenly distributed through the natural drape of the knit. Available in 10-25 lb options. GOTS organic certified cotton. Becomes softer with every wash. If you're investing in one premium weighted blanket, this is the one.</p>
+    <div class="pros-cons">
+      <div class="col pros">
+        <h4>Pros</h4>
+        <ul>
+          <li>No glass beads — weighted knit construction</li>
+          <li>Breathable open-knit design — best for hot sleepers</li>
+          <li>GOTS organic cotton certified</li>
+          <li>Beautiful aesthetic — doubles as decor</li>
+          <li>Gets softer with washing</li>
+          <li>Machine washable</li>
+        </ul>
+      </div>
+      <div class="col cons">
+        <h4>Cons</h4>
+        <ul>
+          <li>Expensive</li>
+          <li>Knit can snag on jewelry or rough surfaces</li>
+          <li>Not as "hugging" as bead-filled blankets</li>
+        </ul>
+      </div>
+    </div>
+    <a href="https://www.amazon.com/s?k=bearaby+cotton+napper+weighted+blanket&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank" class="cta-btn">Check Price on Amazon</a>
+  </div>
+
+  <!-- PRODUCT 2 -->
+  <div class="product-card" id="gravity">
+    <div class="rank-badge">#2 Best for Anxiety</div>
+    <div class="product-header">
+      <h2>Gravity Blanket Original</h2>
+      <div class="score-box"><div class="score">9.1</div><div class="score-label">Score</div></div>
+    </div>
+    <div class="best-for-tag">Best Weighted Blanket for Anxiety</div>
+    <div class="specs-chips">
+      <div class="chip">Fill: <span>Micro Glass Beads</span></div>
+      <div class="chip">Cover: <span>Microfiber Duvet (Removable)</span></div>
+      <div class="chip">Weights: <span>15, 20, 25 lbs</span></div>
+      <div class="chip">Construction: <span>7-Layer Duvet Design</span></div>
+      <div class="chip">Trial: <span>30 Nights</span></div>
+    </div>
+    <p style="color:var(--muted);font-size:.92rem;margin-bottom:14px;">The Gravity Blanket is the original modern weighted blanket — the one that launched the category into mainstream consciousness with its 2017 Kickstarter. The 7-layer construction distributes micro glass beads in a grid pattern for even weight across the body. The removable microfiber cover is soft and cozy. Three weight options (15, 20, 25 lbs) cover most adult users. Strong research backing and thousands of verified anxiety-reduction reviews. If the therapeutic use case (anxiety, ADHD, insomnia) is your primary goal, the Gravity is purpose-built for it.</p>
+    <div class="pros-cons">
+      <div class="col pros">
+        <h4>Pros</h4>
+        <ul>
+          <li>Purpose-built for anxiety and stress relief</li>
+          <li>7-layer grid prevents bead migration</li>
+          <li>Removable washable cover</li>
+          <li>Strong brand reputation and customer reviews</li>
+          <li>30-night trial</li>
+        </ul>
+      </div>
+      <div class="col cons">
+        <h4>Cons</h4>
+        <ul>
+          <li>Can sleep warm (microfiber cover)</li>
+          <li>Heavy to maneuver for washing</li>
+          <li>Only 3 weight options</li>
+        </ul>
+      </div>
+    </div>
+    <a href="https://www.amazon.com/s?k=gravity+blanket+original+weighted+blanket&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank" class="cta-btn">Check Price on Amazon</a>
+  </div>
+
+  <!-- PRODUCT 3 -->
+  <div class="product-card" id="ynm">
+    <div class="rank-badge">#3 Best Budget</div>
+    <div class="product-header">
+      <h2>YnM Weighted Blanket</h2>
+      <div class="score-box"><div class="score">8.7</div><div class="score-label">Score</div></div>
+    </div>
+    <div class="best-for-tag">Best Budget Weighted Blanket</div>
+    <div class="specs-chips">
+      <div class="chip">Fill: <span>Hypoallergenic Glass Beads</span></div>
+      <div class="chip">Cover: <span>100% Cotton</span></div>
+      <div class="chip">Weights: <span>5-30 lbs (many options)</span></div>
+      <div class="chip">Sizes: <span>Multiple from Throw to King</span></div>
+      <div class="chip">Price: <span>Under $80</span></div>
+    </div>
+    <p style="color:var(--muted);font-size:.92rem;margin-bottom:14px;">YnM is the Amazon bestseller in weighted blankets — and with good reason. It offers the widest weight range (5-30 lbs) at the lowest price point. The 100% cotton shell breathes reasonably well. The 7-layer grid construction keeps glass beads evenly distributed. At under $80, it's significantly more affordable than premium brands while delivering comparable therapeutic deep pressure stimulation. Perfect for first-time weighted blanket buyers who want to try the experience without a large financial commitment. Available in a large selection of colors and patterns.</p>
+    <div class="pros-cons">
+      <div class="col pros">
+        <h4>Pros</h4>
+        <ul>
+          <li>Exceptional value — under $80</li>
+          <li>Widest weight range (5-30 lbs)</li>
+          <li>Cotton shell is more breathable than polyester</li>
+          <li>Large color and size selection</li>
+          <li>Amazon #1 bestseller with thousands of reviews</li>
+        </ul>
+      </div>
+      <div class="col cons">
+        <h4>Cons</h4>
+        <ul>
+          <li>Quality control inconsistency at this price</li>
+          <li>Less durable than premium options</li>
+          <li>No trial policy (but Amazon return covers it)</li>
+        </ul>
+      </div>
+    </div>
+    <a href="https://www.amazon.com/s?k=ynm+weighted+blanket+cotton&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank" class="cta-btn">Check Price on Amazon</a>
+  </div>
+
+  <!-- PRODUCT 4 -->
+  <div class="product-card" id="baloo">
+    <div class="rank-badge">#4 Best Cooling</div>
+    <div class="product-header">
+      <h2>Baloo Living Weighted Blanket</h2>
+      <div class="score-box"><div class="score">8.4</div><div class="score-label">Score</div></div>
+    </div>
+    <div class="best-for-tag">Best Cooling Weighted Blanket</div>
+    <div class="specs-chips">
+      <div class="chip">Fill: <span>Micro Glass Beads in Cotton Pockets</span></div>
+      <div class="chip">Shell: <span>100% GOTS Organic Cotton</span></div>
+      <div class="chip">Weights: <span>12, 15, 20 lbs</span></div>
+      <div class="chip">No Polyester: <span>Yes</span></div>
+      <div class="chip">Washable: <span>Machine Wash</span></div>
+    </div>
+    <p style="color:var(--muted);font-size:.92rem;margin-bottom:14px;">Baloo is the cooling-focused answer to the weighted blanket market. No polyester anywhere — shell and pockets are 100% GOTS certified organic cotton, which is naturally breathable and moisture-wicking. The micro glass beads sit in cotton pockets (not polyester pockets), making the entire construction breathable from fill to surface. For hot sleepers who want the benefits of a weighted blanket without waking up sweating at 2am, Baloo is the choice. The organic cotton also gets softer with washing, and the construction is durable enough to handle regular machine washing.</p>
+    <div class="pros-cons">
+      <div class="col pros">
+        <h4>Pros</h4>
+        <ul>
+          <li>100% cotton — no polyester anywhere</li>
+          <li>GOTS organic certified</li>
+          <li>Most breathable bead-filled weighted blanket</li>
+          <li>Machine washable entire blanket</li>
+          <li>Gets softer with washing</li>
+        </ul>
+      </div>
+      <div class="col cons">
+        <h4>Cons</h4>
+        <ul>
+          <li>Limited weight range (12-20 lbs)</li>
+          <li>Higher price than standard cotton blankets</li>
+          <li>Less "plush" feel than microfiber shells</li>
+        </ul>
+      </div>
+    </div>
+    <a href="https://www.amazon.com/s?k=baloo+living+weighted+blanket+organic+cotton&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank" class="cta-btn">Check Price on Amazon</a>
+  </div>
+
+  <!-- PRODUCT 5 -->
+  <div class="product-card" id="luna">
+    <div class="rank-badge">#5 Best Value</div>
+    <div class="product-header">
+      <h2>Luna Adult Weighted Blanket</h2>
+      <div class="score-box"><div class="score">8.0</div><div class="score-label">Score</div></div>
+    </div>
+    <div class="best-for-tag">Best Overall Value</div>
+    <div class="specs-chips">
+      <div class="chip">Fill: <span>Glass Microbeads</span></div>
+      <div class="chip">Shell: <span>100% Organic Cotton</span></div>
+      <div class="chip">Weights: <span>10-25 lbs</span></div>
+      <div class="chip">OEKO-TEX: <span>Certified</span></div>
+      <div class="chip">Made In: <span>USA</span></div>
+    </div>
+    <p style="color:var(--muted);font-size:.92rem;margin-bottom:14px;">Luna hits the sweet spot between Bearaby's premium and YnM's budget positioning. OEKO-TEX certified organic cotton, made in the USA, glass microbeads in a 7-layer grid — all the features that matter, at a price that's reasonable. The blanket is notably soft out of the box and maintains its quality after multiple washes. Available in 10-25 lb range covering most adults. A straightforward, honest product without gimmicks or marketing inflation. Good choice for someone who wants reliable quality without either end of the price spectrum.</p>
+    <div class="pros-cons">
+      <div class="col pros">
+        <h4>Pros</h4>
+        <ul>
+          <li>OEKO-TEX certified organic cotton</li>
+          <li>Made in the USA</li>
+          <li>Soft out of the box, stays soft</li>
+          <li>Good weight range coverage</li>
+          <li>Transparent about materials</li>
+        </ul>
+      </div>
+      <div class="col cons">
+        <h4>Cons</h4>
+        <ul>
+          <li>No removable cover option</li>
+          <li>Less distinctive than premium brands</li>
+          <li>Limited color options</li>
+        </ul>
+      </div>
+    </div>
+    <a href="https://www.amazon.com/s?k=luna+adult+weighted+blanket+organic+cotton+usa&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank" class="cta-btn">Check Price on Amazon</a>
+  </div>
+
+  <!-- PRODUCT 6 -->
+  <div class="product-card" id="sensacalm">
+    <div class="rank-badge">#6 Best for Sensory Needs</div>
+    <div class="product-header">
+      <h2>SensaCalm Therapeutic Weighted Blanket</h2>
+      <div class="score-box"><div class="score">7.7</div><div class="score-label">Score</div></div>
+    </div>
+    <div class="best-for-tag">Best for Sensory Processing / Autism / ADHD</div>
+    <div class="specs-chips">
+      <div class="chip">Fill: <span>Poly Pellets (no beads)</span></div>
+      <div class="chip">Design: <span>Therapeutic, OT-Recommended</span></div>
+      <div class="chip">Weights: <span>Fully Customizable</span></div>
+      <div class="chip">Made In: <span>USA</span></div>
+      <div class="chip">Custom Sizing: <span>Yes</span></div>
+    </div>
+    <p style="color:var(--muted);font-size:.92rem;margin-bottom:14px;">SensaCalm is designed specifically for therapeutic use — children and adults with sensory processing disorders, autism, ADHD, and anxiety. They offer fully customizable weight and size options, made in the USA, with occupational therapist input in their design. Poly pellet fill (no glass beads) makes it safer and quieter. While not the most budget-friendly option, the ability to get an exact therapeutic weight recommendation and custom size is genuinely valuable for caregivers managing sensory needs. Many schools, therapists, and parents purchase SensaCalm specifically.</p>
+    <div class="pros-cons">
+      <div class="col pros">
+        <h4>Pros</h4>
+        <ul>
+          <li>OT-designed for genuine therapeutic use</li>
+          <li>Fully customizable weight and size</li>
+          <li>Made in the USA</li>
+          <li>Safe poly pellet fill (no glass bead risk)</li>
+          <li>Quiet fill (no bead noise)</li>
+        </ul>
+      </div>
+      <div class="col cons">
+        <h4>Cons</h4>
+        <ul>
+          <li>Expensive for the materials</li>
+          <li>Poly pellet fill less aesthetically premium</li>
+          <li>Longer lead time on custom orders</li>
+        </ul>
+      </div>
+    </div>
+    <a href="https://www.amazon.com/s?k=sensacalm+therapeutic+weighted+blanket&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank" class="cta-btn">Check Price on Amazon</a>
+  </div>
+
+  <!-- PRODUCT 7 -->
+  <div class="product-card" id="mosaic">
+    <div class="rank-badge">#7 Best Custom Weight</div>
+    <div class="product-header">
+      <h2>Mosaic Weighted Blanket</h2>
+      <div class="score-box"><div class="score">7.4</div><div class="score-label">Score</div></div>
+    </div>
+    <div class="best-for-tag">Best for Custom Weight & Size Options</div>
+    <div class="specs-chips">
+      <div class="chip">Fill: <span>Poly Pellets or Glass Beads</span></div>
+      <div class="chip">Shell: <span>Cotton or Minky</span></div>
+      <div class="chip">Weights: <span>5-35 lbs</span></div>
+      <div class="chip">Made In: <span>USA</span></div>
+    </div>
+    <p style="color:var(--muted);font-size:.92rem;margin-bottom:14px;">Mosaic has been making weighted blankets since 2009 — before the category went mainstream. Their experience shows in the construction quality and the range of customization options. Choose your weight (5-35 lbs), your fill (poly pellets or glass beads), and your cover material (cotton or Minky plush). Twin, Full, Queen, and custom sizes. Particularly popular for children and adults who need an exact therapeutic weight that falls between standard options. Handmade in the USA. Slower shipping than Amazon Prime but worth it for the customization.</p>
+    <div class="pros-cons">
+      <div class="col pros">
+        <h4>Pros</h4>
+        <ul>
+          <li>Widest weight range (5-35 lbs)</li>
+          <li>Choice of fill and cover material</li>
+          <li>Made in USA since 2009</li>
+          <li>Good for very specific therapeutic weight needs</li>
+        </ul>
+      </div>
+      <div class="col cons">
+        <h4>Cons</h4>
+        <ul>
+          <li>Longer shipping than Amazon</li>
+          <li>Higher price for customization</li>
+          <li>Less immediate purchase experience</li>
+        </ul>
+      </div>
+    </div>
+    <a href="https://www.amazon.com/s?k=mosaic+weighted+blanket+custom&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank" class="cta-btn">Check Price on Amazon</a>
+  </div>
+
+  <!-- SCIENCE BOX -->
+  <div class="science-box" id="science">
+    <h3>The Science of Deep Pressure Stimulation (DPS)</h3>
+    <p>Weighted blankets work through a mechanism called Deep Pressure Stimulation (DPS) or Deep Pressure Touch (DPT). Here is what the research shows:</p>
+    <ul>
+      <li><strong>Autonomic nervous system:</strong> DPS activates the parasympathetic (rest-and-digest) branch of the autonomic nervous system, reducing fight-or-flight activation. Heart rate, respiratory rate, and blood pressure all decrease measurably.</li>
+      <li><strong>Serotonin and dopamine:</strong> DPS stimulates mechanoreceptors in the skin that trigger serotonin production. Serotonin is a precursor to melatonin — the sleep hormone. This is one mechanism by which weighted blankets improve sleep onset.</li>
+      <li><strong>Cortisol reduction:</strong> Studies show measurable reductions in cortisol (the primary stress hormone) after weighted blanket use. Lower cortisol enables deeper sleep stages.</li>
+      <li><strong>Clinical evidence:</strong> A 2020 randomized controlled trial in the Journal of Clinical Sleep Medicine found weighted blankets (with approximately 12% of body weight) significantly improved insomnia severity, fatigue, depression, and anxiety compared to light blankets.</li>
+      <li><strong>Sensory processing:</strong> DPS is well-established in occupational therapy for individuals with sensory processing differences. The same mechanism that helps autistic individuals regulate sensory input also benefits neurotypical adults under stress.</li>
+      <li><strong>The 10% rule:</strong> The 10% of body weight recommendation comes from OT practice, not rigorous clinical trials — but it has remained the standard because most people find it provides enough pressure without feeling restrictive.</li>
+    </ul>
+  </div>
+
+  <!-- BUYING GUIDE -->
+  <h2 class="section-title" id="buying">Weighted Blanket Buying Guide</h2>
+  <div class="buying-grid">
+    <div class="buying-card">
+      <h4>Hot Sleepers</h4>
+      <p>Choose Bearaby Cotton Napper (open-knit breathes best) or Baloo (100% organic cotton, no polyester). Avoid microfiber shells or thick cover materials. Consider going 1-2 lbs lighter than the 10% recommendation for better airflow.</p>
+    </div>
+    <div class="buying-card">
+      <h4>Anxiety Relief</h4>
+      <p>Gravity Blanket and YnM are purpose-built for this. Higher weight (closer to 12-15% of body weight) often feels more therapeutic for anxiety. Focus on even bead distribution in a 7-layer grid construction.</p>
+    </div>
+    <div class="buying-card">
+      <h4>Children</h4>
+      <p>Never exceed 10% of child's body weight. Use poly pellets over glass beads for safety. SensaCalm or Mosaic for therapeutic/OT use. Never use on children under 2. Consult an OT for children with sensory needs.</p>
+    </div>
+    <div class="buying-card">
+      <h4>Couples Sharing</h4>
+      <p>Weighted blankets work best for individual use — they're meant to conform to one body. For couples, consider two separate lighter blankets rather than one heavy shared blanket. A 15 lb blanket for each partner beats a 25 lb shared blanket.</p>
+    </div>
+    <div class="buying-card">
+      <h4>Washing Ease</h4>
+      <p>Blankets under 15 lbs can go in a standard home washer. 15-25 lb blankets usually require a commercial washer (laundromat). Choose a blanket with a removable, washable cover if you want to wash frequently at home without hauling to a laundromat.</p>
+    </div>
+    <div class="buying-card">
+      <h4>First-Time Buyer</h4>
+      <p>Start with YnM (affordable, Amazon returns easy). Try for 2-4 weeks before evaluating — many people need an adjustment period. If you love it, upgrade to Bearaby or Gravity for a premium long-term option.</p>
+    </div>
+  </div>
+
+  <!-- FAQ -->
+  <div class="faq-section" id="faq">
+    <h2 class="section-title">Frequently Asked Questions</h2>
+    <div class="faq-item">
+      <h3>How heavy should a weighted blanket be?</h3>
+      <p>The standard recommendation is 10% of your body weight, plus 1-2 lbs. For a 150 lb person, that's a 17 lb blanket. However, this is a guideline — some people prefer lighter (7-8% of body weight) and some heavier. Children should use significantly lighter blankets. Never exceed 15% of body weight.</p>
+    </div>
+    <div class="faq-item">
+      <h3>Do weighted blankets actually help with anxiety?</h3>
+      <p>Research supports weighted blankets for anxiety reduction. Deep pressure stimulation (DPS) activates the parasympathetic nervous system, reduces cortisol, and increases serotonin and dopamine. Multiple studies show reduced anxiety scores after weighted blanket use, particularly for people with sensory processing differences, ADHD, and anxiety disorders.</p>
+    </div>
+    <div class="faq-item">
+      <h3>Are weighted blankets good for hot sleepers?</h3>
+      <p>Standard weighted blankets can sleep warm. If you run hot, look for cooling-specific options: Bearaby's open-knit cotton construction allows airflow, Baloo uses breathable cotton fill instead of glass beads. Avoid weighted blankets with polyester shells if you tend to sleep hot.</p>
+    </div>
+    <div class="faq-item">
+      <h3>Can weighted blankets be used by children?</h3>
+      <p>Weighted blankets are used therapeutically for children with autism, ADHD, or sensory processing disorders, often under occupational therapist guidance. The blanket should be no more than 10% of the child's body weight. Never use on children under 2 years old. Consult a pediatric OT or physician before use with young children.</p>
+    </div>
+    <div class="faq-item">
+      <h3>How do I wash a weighted blanket?</h3>
+      <p>Most weighted blankets can be machine washed in cold water on a gentle cycle. Use a front-loading washer for blankets over 12 lbs. Tumble dry low or air dry. Many blankets come with a removable duvet cover to make washing easier — wash the cover frequently and the inner blanket less often.</p>
+    </div>
+  </div>
+
+  <!-- VERDICT -->
+  <div class="verdict-box">
+    <h2>Our Top Pick</h2>
+    <p>The <strong>Bearaby Cotton Napper</strong> is the best overall weighted blanket — breathable, beautiful, organic, and therapeutic. For anxiety relief specifically, the <strong>Gravity Blanket</strong> remains the gold standard. Budget shoppers should start with <strong>YnM</strong> — it delivers the same deep pressure stimulation at a fraction of the cost.</p>
+  </div>
+</div>
+
+<footer>
+  <p>&copy; 2025 SleepWise Reviews &mdash; <a href="/privacy.html">Privacy Policy</a> &mdash; <a href="/about.html">About</a></p>
+  <p style="margin-top:8px;font-size:.78rem;">Amazon Associates Disclosure: As an Amazon Associate we earn from qualifying purchases.</p>
+</footer>
+</body>
+</html>"""
+
+with open('posts/best-weighted-blanket.html', 'w', encoding='utf-8') as f:
+    f.write(html)
+print('Written: posts/best-weighted-blanket.html')
