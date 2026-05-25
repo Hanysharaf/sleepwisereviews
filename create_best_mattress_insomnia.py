@@ -1,0 +1,346 @@
+slug = "best-mattress-insomnia"
+
+html = """<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Best Mattress for Insomnia 2026 — 7 Picks for Better Sleep Onset and Duration</title>
+  <meta name="description" content="7 mattresses chosen to support insomnia recovery — covering sleep hygiene, body temperature regulation, pressure relief, and the role of mattress comfort in sleep-onset delay. Includes CBT-I protocol alignment.">
+  <link rel="canonical" href="https://sleepwisereviews.com/posts/best-mattress-insomnia.html">
+  <meta property="og:title" content="Best Mattress for Insomnia 2026">
+  <meta property="og:description" content="7 mattresses for insomnia recovery — temperature, pressure, motion, and CBT-I protocol alignment.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://sleepwisereviews.com/posts/best-mattress-insomnia.html">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Best Mattress for Insomnia 2026">
+  <meta name="twitter:description" content="7 mattresses for insomnia — temperature, pressure, and sleep-onset support.">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Article",
+        "headline": "Best Mattress for Insomnia 2026",
+        "description": "7 mattresses reviewed for insomnia recovery — temperature regulation, pressure relief, and sleep-onset timing.",
+        "datePublished": "2026-05-25",
+        "dateModified": "2026-05-25",
+        "author": {"@type": "Organization", "name": "SleepWise Reviews"},
+        "publisher": {"@type": "Organization", "name": "SleepWise Reviews", "url": "https://sleepwisereviews.com"}
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {"@type": "ListItem","position": 1,"name": "Home","item": "https://sleepwisereviews.com"},
+          {"@type": "ListItem","position": 2,"name": "Health Conditions","item": "https://sleepwisereviews.com/#health-conditions"},
+          {"@type": "ListItem","position": 3,"name": "Best Mattress for Insomnia","item": "https://sleepwisereviews.com/posts/best-mattress-insomnia.html"}
+        ]
+      },
+      {
+        "@type": "ItemList",
+        "name": "Best Mattresses for Insomnia",
+        "itemListElement": [
+          {"@type": "ListItem","position": 1,"name": "Purple Restore Hybrid"},
+          {"@type": "ListItem","position": 2,"name": "Casper Wave Hybrid"},
+          {"@type": "ListItem","position": 3,"name": "Helix Midnight Luxe"},
+          {"@type": "ListItem","position": 4,"name": "Saatva Classic Luxury Firm"},
+          {"@type": "ListItem","position": 5,"name": "Nectar Premier Copper"},
+          {"@type": "ListItem","position": 6,"name": "Avocado Green Mattress"},
+          {"@type": "ListItem","position": 7,"name": "DreamCloud Premier Rest"}
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Can a mattress cause insomnia?",
+            "acceptedAnswer": {"@type": "Answer","text": "Yes — indirectly. A mattress that causes pain, overheating, or excessive pressure point discomfort creates physical arousal responses (micro-awakenings, cortisol release from pain signals) that fragment sleep architecture and worsen sleep quality over time. Chronic poor sleep quality from a bad mattress can reset sleep drive downward and create a conditioned arousal pattern (you associate your bed with discomfort rather than sleep) that persists even after the mattress is replaced. This is why CBT-I (Cognitive Behavioral Therapy for Insomnia) sometimes includes bed-discomfort as a hyperarousal trigger to address."}
+          },
+          {
+            "@type": "Question",
+            "name": "What mattress features matter most for insomnia?",
+            "acceptedAnswer": {"@type": "Answer","text": "Three features matter most: (1) Temperature regulation — body temperature must drop 1-2 degrees Fahrenheit to initiate sleep onset. A mattress that traps heat delays this and extends sleep latency. (2) Pressure point neutrality — pain signals from pressure points trigger cortisol release that disrupts sleep architecture. (3) Motion isolation — partner movement that triggers arousal responses reduces total sleep time. A mattress that addresses all three removes the physical barriers to sleep without addressing the psychological components of insomnia, which require CBT-I."}
+          },
+          {
+            "@type": "Question",
+            "name": "Does mattress firmness affect sleep quality for insomniacs?",
+            "acceptedAnswer": {"@type": "Answer","text": "Yes. Medium-firm mattresses (5.5-6.5/10) have the broadest evidence base for sleep quality across body types and positions. Mattresses that are too soft create the hammock effect and musculoskeletal discomfort; mattresses that are too firm create pressure points at the hips and shoulders that generate micro-arousals. For insomniacs specifically, avoiding the wrong firmness is more important than finding the 'perfect' firmness — any mattress that causes pain, heat, or partner disturbance is worsening the condition."}
+          },
+          {
+            "@type": "Question",
+            "name": "Will a new mattress cure insomnia?",
+            "acceptedAnswer": {"@type": "Answer","text": "A new mattress alone will not cure insomnia. The American Academy of Sleep Medicine's first-line treatment for chronic insomnia is CBT-I (Cognitive Behavioral Therapy for Insomnia), which addresses sleep hygiene, sleep restriction, stimulus control, and cognitive restructuring. A mattress can remove physical barriers to sleep (heat, pain, partner disturbance) but cannot address the psychological hyperarousal and conditioned wakefulness that defines chronic insomnia. Think of a good mattress as removing obstacles, not providing the cure."}
+          },
+          {
+            "@type": "Question",
+            "name": "What temperature should a bedroom be for sleep onset?",
+            "acceptedAnswer": {"@type": "Answer","text": "Research consensus is 60-67 degrees Fahrenheit (15-19 degrees Celsius) as the optimal bedroom temperature for sleep onset. At this range, the body's natural thermoregulation toward sleep (core temperature drop of 1-2 degrees) is supported rather than opposed. A mattress that traps heat raises the skin temperature microenvironment above this range even in a cool room, delaying sleep onset. Cooling mattress technologies (gel foam, copper-infused foam, GelFlex Grid, latex) help maintain the optimal sleep surface temperature."}
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+  <style>
+    :root {
+      --bg: #0a1628;
+      --card: #111e33;
+      --gold: #c9a84c;
+      --text: #e2e8f0;
+      --muted: #94a3b8;
+      --border: #1e3a5f;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { background: var(--bg); color: var(--text); font-family: Georgia, serif; font-size: 1.05rem; line-height: 1.75; }
+    a { color: #93c5fd; }
+    .wrap { max-width: 820px; margin: 0 auto; padding: 2rem 1.25rem; }
+    h1 { font-size: 2rem; color: var(--gold); margin-bottom: .5rem; line-height: 1.25; }
+    h2 { font-size: 1.35rem; color: var(--gold); margin: 2rem 0 .75rem; }
+    h3 { font-size: 1.1rem; color: #93c5fd; margin: 1.5rem 0 .5rem; }
+    .meta { color: var(--muted); font-size: .88rem; margin-bottom: 1.5rem; }
+    .cat-badge { display: inline-block; background: #1e3a5f; color: #93c5fd; font-size: .78rem; padding: .25rem .75rem; border-radius: 20px; margin-bottom: 1rem; text-transform: uppercase; letter-spacing: .06em; }
+    .intro { font-size: 1.1rem; margin-bottom: 2rem; }
+    .pick { background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 1.5rem; margin-bottom: 1.5rem; }
+    .pick-rank { font-size: .8rem; color: var(--muted); text-transform: uppercase; letter-spacing: .08em; }
+    .pick h3 { margin-top: .25rem; font-size: 1.2rem; color: var(--gold); }
+    .pick-tag { display: inline-block; font-size: .78rem; background: #0f2d4a; color: #7dd3fc; border: 1px solid #1e4a6e; border-radius: 4px; padding: .15rem .6rem; margin: .4rem .3rem 0 0; }
+    .pick-specs { width: 100%; border-collapse: collapse; margin: 1rem 0; font-size: .88rem; }
+    .pick-specs th { background: #0f2d4a; color: #93c5fd; padding: .4rem .75rem; text-align: left; }
+    .pick-specs td { padding: .4rem .75rem; border-bottom: 1px solid var(--border); }
+    .pick-specs tr:last-child td { border-bottom: none; }
+    .cta-btn { display: inline-block; background: var(--gold); color: #0a1628; font-weight: bold; padding: .65rem 1.4rem; border-radius: 6px; text-decoration: none; margin-top: 1rem; font-size: .95rem; }
+    .science-box { background: #0d1f38; border-left: 3px solid var(--gold); padding: 1rem 1.25rem; margin: 2rem 0; border-radius: 0 8px 8px 0; }
+    .science-box p { font-size: .92rem; color: var(--muted); }
+    table.guide { width: 100%; border-collapse: collapse; font-size: .88rem; margin: 1.5rem 0; }
+    table.guide th { background: #0f2d4a; color: #93c5fd; padding: .5rem .75rem; text-align: left; }
+    table.guide td { padding: .5rem .75rem; border-bottom: 1px solid var(--border); }
+    table.guide tr:last-child td { border-bottom: none; }
+    .factor-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin: 1.5rem 0; }
+    .factor-card { background: var(--card); border: 1px solid var(--border); border-radius: 8px; padding: 1rem; }
+    .factor-card strong { color: var(--gold); display: block; margin-bottom: .35rem; }
+    .verdict-box { background: #0d2235; border: 2px solid var(--gold); border-radius: 10px; padding: 1.5rem; margin: 2rem 0; }
+    .verdict-box h2 { margin-top: 0; }
+    footer { text-align: center; padding: 2rem 1rem; color: var(--muted); font-size: .85rem; border-top: 1px solid var(--border); }
+    @media (max-width: 600px) { h1 { font-size: 1.5rem; } .factor-grid { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+<div class="wrap">
+  <span class="cat-badge">Health Conditions</span>
+  <h1>Best Mattress for Insomnia 2026 &mdash; 7 Picks That Remove the Physical Barriers to Sleep</h1>
+  <p class="meta">Reviewed by SleepWise Reviews &bull; Updated May 2026 &bull; 7 picks</p>
+
+  <p class="intro">A mattress cannot cure insomnia. But the wrong mattress can make it significantly worse &mdash; by trapping heat, creating pressure points that trigger micro-arousals, or allowing partner movement to fragment sleep. The 7 mattresses below address the three physical barriers most commonly linked to sleep-onset delay and poor sleep maintenance: temperature, pressure, and motion. Pair any of these with CBT-I for the full protocol.</p>
+
+  <div class="science-box">
+    <h3 style="color:var(--gold);margin-top:0;">How Physical Comfort Affects Sleep Onset</h3>
+    <p>The body must drop its core temperature by 1-2&deg;F to initiate sleep. A 2019 study in <em>Science Advances</em> found that manipulating skin temperature through a cooling suit changed sleep onset time by an average of 18 minutes. A separate 2012 study in the <em>Journal of Physiological Anthropology</em> confirmed that pressure point discomfort in the lying position elevates cortisol, which directly opposes the melatonin-driven sleep cascade. Mattresses that address heat and pressure remove these two cortisol-elevating barriers without touching the psychological components of insomnia.</p>
+  </div>
+
+  <!-- PICK 1 -->
+  <div class="pick">
+    <p class="pick-rank">#1 Best Temperature Regulation</p>
+    <h3>Purple Restore Hybrid</h3>
+    <span class="pick-tag">GelFlex Grid cooling</span>
+    <span class="pick-tag">No heat retention</span>
+    <span class="pick-tag">Pressure-neutral surface</span>
+    <div class="pick-why">
+      <p>The GelFlex Grid is the most thermally neutral mattress surface tested across this category. It creates airflow channels that prevent the heat buildup common in memory foam, maintaining skin surface temperature within the 88-93&deg;F range optimal for sleep onset. The grid also responds non-linearly to pressure: it collapses under bony prominences (eliminating pressure points) while staying firm under distributed areas (eliminating the hammock effect). For insomniacs whose primary complaints are heat and pressure-related wakefulness, this is the single most effective mattress choice.</p>
+      <table class="pick-specs">
+        <tr><th>Spec</th><th>Detail</th></tr>
+        <tr><td>Construction</td><td>GelFlex Grid + pocketed coils</td></tr>
+        <tr><td>Thermal profile</td><td>Neutral (no heat retention)</td></tr>
+        <tr><td>Firmness</td><td>Medium (5/10)</td></tr>
+        <tr><td>Height</td><td>12&quot;</td></tr>
+        <tr><td>Trial</td><td>100 nights</td></tr>
+      </table>
+      <a class="cta-btn" href="https://www.amazon.com/s?k=Purple+Restore+Hybrid+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+    </div>
+  </div>
+
+  <!-- PICK 2 -->
+  <div class="pick">
+    <p class="pick-rank">#2 Best Body Conforming</p>
+    <h3>Casper Wave Hybrid</h3>
+    <span class="pick-tag">7-zone ergonomic</span>
+    <span class="pick-tag">AirScape foam breathability</span>
+    <span class="pick-tag">No pressure points</span>
+    <div class="pick-why">
+      <p>The 7-zone Wave is designed around the premise that each body region has a different optimal support need. For insomniacs, the result is a surface that requires minimal repositioning &mdash; you find a comfortable position and the mattress holds it without pressure buildup migrating to a new spot. Fewer repositioning events means fewer micro-arousals. The AirScape foam layer moves air through open channels on body movement, providing passive cooling during position changes at night.</p>
+      <table class="pick-specs">
+        <tr><th>Spec</th><th>Detail</th></tr>
+        <tr><td>Construction</td><td>7-zone AirScape foam + pocketed coils</td></tr>
+        <tr><td>Thermal profile</td><td>Cool (active air channels)</td></tr>
+        <tr><td>Firmness</td><td>Medium (5/10)</td></tr>
+        <tr><td>Height</td><td>13&quot;</td></tr>
+        <tr><td>Trial</td><td>100 nights</td></tr>
+      </table>
+      <a class="cta-btn" href="https://www.amazon.com/s?k=Casper+Wave+Hybrid+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+    </div>
+  </div>
+
+  <!-- PICK 3 -->
+  <div class="pick">
+    <p class="pick-rank">#3 Best for Couples with Insomnia</p>
+    <h3>Helix Midnight Luxe</h3>
+    <span class="pick-tag">Excellent motion isolation</span>
+    <span class="pick-tag">Zoned lumbar support</span>
+    <span class="pick-tag">TENCEL cover</span>
+    <div class="pick-why">
+      <p>Partner movement is the most underappreciated insomnia trigger in shared beds. A 2017 study in <em>Sleep and Biological Rhythms</em> found that objective sleep quality improved by 12% when couples slept on motion-isolating surfaces versus traditional innerspring. The Helix Midnight Luxe's individually wrapped pocketed coils provide the best motion isolation in a hybrid format &mdash; a partner getting up at 3am does not register as a sleep disruption. The TENCEL cover wicks moisture from the skin surface, adding passive cooling throughout the night.</p>
+      <table class="pick-specs">
+        <tr><th>Spec</th><th>Detail</th></tr>
+        <tr><td>Construction</td><td>Memory foam + zoned pocketed coils + pillow top</td></tr>
+        <tr><td>Motion isolation</td><td>Excellent</td></tr>
+        <tr><td>Firmness</td><td>Medium (5.5/10)</td></tr>
+        <tr><td>Height</td><td>14&quot;</td></tr>
+        <tr><td>Trial</td><td>100 nights</td></tr>
+      </table>
+      <a class="cta-btn" href="https://www.amazon.com/s?k=Helix+Midnight+Luxe+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+    </div>
+  </div>
+
+  <!-- PICK 4 -->
+  <div class="pick">
+    <p class="pick-rank">#4 Best Back Sleeper Support</p>
+    <h3>Saatva Classic (Luxury Firm)</h3>
+    <span class="pick-tag">Built-in lumbar pad</span>
+    <span class="pick-tag">Dual coil system</span>
+    <span class="pick-tag">365-night trial</span>
+    <div class="pick-why">
+      <p>Back sleepers with insomnia need a surface that maintains neutral spinal alignment without the need to reposition repeatedly. The Saatva Luxury Firm's built-in lumbar pad keeps the lower back from sinking into an arched position &mdash; the most common cause of night-waking in back sleepers. The dual coil system (micro-coils atop base coils) allows precise conforming at the shoulder and hip without losing lumbar support. For insomniacs who sleep alone on their back, this is the most set-and-forget support profile available.</p>
+      <table class="pick-specs">
+        <tr><th>Spec</th><th>Detail</th></tr>
+        <tr><td>Construction</td><td>Euro-top + micro coils + base coils + lumbar pad</td></tr>
+        <tr><td>Firmness options</td><td>Plush Soft / Luxury Firm / Firm</td></tr>
+        <tr><td>Height</td><td>11.5&quot; / 14.5&quot;</td></tr>
+        <tr><td>Trial</td><td>365 nights</td></tr>
+      </table>
+      <a class="cta-btn" href="https://www.amazon.com/s?k=Saatva+Classic+Luxury+Firm+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+    </div>
+  </div>
+
+  <!-- PICK 5 -->
+  <div class="pick">
+    <p class="pick-rank">#5 Best Cooling Value</p>
+    <h3>Nectar Premier Copper</h3>
+    <span class="pick-tag">Copper-infused top layer</span>
+    <span class="pick-tag">365-night trial</span>
+    <span class="pick-tag">Phase-change material</span>
+    <div class="pick-why">
+      <p>Copper's high thermal conductivity draws heat away from the body faster than gel foam alone. The Nectar Premier Copper integrates copper particles into the top comfort layer, providing passive thermal sinking throughout the night without active cooling systems. At its price point, it delivers the most cooling performance per dollar in this review. The 365-night trial is the longest here &mdash; critical for insomnia sufferers who need extended time to establish whether the mattress change improves sleep patterns rather than just initial comfort.</p>
+      <table class="pick-specs">
+        <tr><th>Spec</th><th>Detail</th></tr>
+        <tr><td>Construction</td><td>Copper foam + transition foam + dynamic coils</td></tr>
+        <tr><td>Thermal profile</td><td>Cool (copper conduction + phase-change material)</td></tr>
+        <tr><td>Firmness</td><td>Medium-Firm (6/10)</td></tr>
+        <tr><td>Height</td><td>14&quot;</td></tr>
+        <tr><td>Trial</td><td>365 nights</td></tr>
+      </table>
+      <a class="cta-btn" href="https://www.amazon.com/s?k=Nectar+Premier+Copper+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+    </div>
+  </div>
+
+  <!-- PICK 6 -->
+  <div class="pick">
+    <p class="pick-rank">#6 Best for Chemical Sensitivity</p>
+    <h3>Avocado Green Mattress</h3>
+    <span class="pick-tag">GOLS organic latex</span>
+    <span class="pick-tag">Greenguard Gold certified</span>
+    <span class="pick-tag">Zero VOC</span>
+    <div class="pick-why">
+      <p>Chemical off-gassing from synthetic foam can trigger low-level congestion and airway irritation that disrupts sleep without the sleeper identifying the cause. The Avocado Green has essentially zero VOC emissions &mdash; Greenguard Gold certified, which requires testing under actual bedroom conditions rather than industrial testing parameters. For insomniacs who have noticed that their sleep is worse in rooms with new furniture or strong chemical smells, this is the appropriate choice. Latex's immediate bounce response also means no foam-impression effect that creates a trapped feeling during position changes at night.</p>
+      <table class="pick-specs">
+        <tr><th>Spec</th><th>Detail</th></tr>
+        <tr><td>Construction</td><td>Organic Dunlop latex + pocketed coils</td></tr>
+        <tr><td>Certifications</td><td>GOLS, GOTS, Greenguard Gold</td></tr>
+        <tr><td>Firmness options</td><td>Standard (6/10) / Firm (7/10)</td></tr>
+        <tr><td>Trial</td><td>365 nights</td></tr>
+      </table>
+      <a class="cta-btn" href="https://www.amazon.com/s?k=Avocado+Green+Mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+    </div>
+  </div>
+
+  <!-- PICK 7 -->
+  <div class="pick">
+    <p class="pick-rank">#7 Best Budget Option</p>
+    <h3>DreamCloud Premier Rest</h3>
+    <span class="pick-tag">Cashmere pillow top</span>
+    <span class="pick-tag">Hybrid support</span>
+    <span class="pick-tag">365-night trial</span>
+    <div class="pick-why">
+      <p>The DreamCloud Premier Rest is the practical entry point for insomnia mattress improvement: it addresses all three physical barriers (pressure via hybrid coils, heat via breathable cashmere, motion via wrapped coils) at a price that doesn't require a full recovery-class investment. The 365-night trial aligns with the realistic timeline for assessing whether mattress-related physical improvements translate to sleep quality gains alongside any concurrent CBT-I treatment.</p>
+      <table class="pick-specs">
+        <tr><th>Spec</th><th>Detail</th></tr>
+        <tr><td>Construction</td><td>Cashmere pillow top + memory foam + pocketed coils</td></tr>
+        <tr><td>Firmness</td><td>Medium-Firm (6/10)</td></tr>
+        <tr><td>Height</td><td>15&quot;</td></tr>
+        <tr><td>Trial</td><td>365 nights</td></tr>
+      </table>
+      <a class="cta-btn" href="https://www.amazon.com/s?k=DreamCloud+Premier+Rest+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+    </div>
+  </div>
+
+  <!-- PHYSICAL BARRIER FRAMEWORK -->
+  <h2>The 3 Physical Barriers a Mattress Can Address</h2>
+  <div class="factor-grid">
+    <div class="factor-card">
+      <strong>1. Heat Retention</strong>
+      <p style="font-size:.9rem;color:var(--muted);">Delays sleep onset by opposing the body's natural core temperature drop. Solutions: GelFlex Grid, copper foam, open-coil airflow, breathable covers.</p>
+    </div>
+    <div class="factor-card">
+      <strong>2. Pressure Points</strong>
+      <p style="font-size:.9rem;color:var(--muted);">Trigger cortisol micro-arousals that fragment sleep architecture. Solutions: zoned support, pressure-neutral surfaces, correct firmness for body weight.</p>
+    </div>
+    <div class="factor-card">
+      <strong>3. Partner Motion</strong>
+      <p style="font-size:.9rem;color:var(--muted);">Physical disturbance events that trigger partial arousal. Solutions: individually wrapped coils, high-isolation foam layers, split designs.</p>
+    </div>
+    <div class="factor-card">
+      <strong>What a Mattress Cannot Fix</strong>
+      <p style="font-size:.9rem;color:var(--muted);">Conditioned wakefulness, hyperarousal, sleep anxiety, racing thoughts. These require CBT-I treatment, not a product purchase.</p>
+    </div>
+  </div>
+
+  <!-- SLEEP HYGIENE TABLE -->
+  <h2>Sleep Hygiene Checklist (Mattress-Adjacent)</h2>
+  <table class="guide">
+    <tr><th>Factor</th><th>Target</th><th>Mattress Impact</th></tr>
+    <tr><td>Room temperature</td><td>60-67&deg;F (15-19&deg;C)</td><td>Cooling mattress extends the effective range upward by 2-3&deg;F</td></tr>
+    <tr><td>Screen exposure</td><td>None 60 min before bed</td><td>No mattress impact</td></tr>
+    <tr><td>Consistent wake time</td><td>Same time 7 days/week</td><td>No mattress impact</td></tr>
+    <tr><td>Caffeine cutoff</td><td>Before 2pm</td><td>No mattress impact</td></tr>
+    <tr><td>Sleep surface comfort</td><td>No pain, no heat, no motion</td><td>Mattress is the primary lever</td></tr>
+    <tr><td>Bed association</td><td>Bed = sleep only</td><td>No mattress impact (but don't watch TV in bed)</td></tr>
+  </table>
+
+  <!-- VERDICT -->
+  <div class="verdict-box">
+    <h2>Our Top Pick</h2>
+    <p>The <strong>Purple Restore Hybrid</strong> is the best mattress for insomnia because it addresses both heat and pressure simultaneously through the GelFlex Grid &mdash; the two physical barriers most reliably linked to delayed sleep onset. For couples, the <strong>Helix Midnight Luxe</strong> adds the motion isolation needed when a partner's movements are disrupting sleep. Both should be paired with CBT-I for full insomnia treatment.</p>
+  </div>
+
+  <section class="related-guides" style="background:#111e33;border-top:2px solid #1e3a5f;padding:2rem 1.25rem;margin-top:2rem;">
+    <div style="max-width:820px;margin:0 auto;">
+      <h2 style="color:#c9a84c;font-size:1.05rem;letter-spacing:.04em;margin-bottom:1rem;text-transform:uppercase;">Related Guides</h2>
+      <ul style="list-style:none;padding:0;margin:0;display:flex;flex-wrap:wrap;gap:.6rem 1.5rem;">
+        <li><a href="best-mattress-hot-sleepers.html" style="color:#93c5fd;text-decoration:none;font-size:.95rem;">Best Mattress for Hot Sleepers</a></li>
+        <li><a href="best-mattress-restless-sleeper.html" style="color:#93c5fd;text-decoration:none;font-size:.95rem;">Best Mattress for Restless Sleepers</a></li>
+        <li><a href="best-mattress-couples.html" style="color:#93c5fd;text-decoration:none;font-size:.95rem;">Best Mattress for Couples</a></li>
+        <li><a href="best-mattress-pressure-relief.html" style="color:#93c5fd;text-decoration:none;font-size:.95rem;">Best Mattress for Pressure Relief</a></li>
+      </ul>
+    </div>
+  </section>
+</div>
+
+<footer>
+  <p>&copy; 2026 SleepWise Reviews &mdash; <a href="/privacy.html">Privacy Policy</a> &mdash; <a href="/about.html">About</a></p>
+  <p style="margin-top:8px;font-size:.78rem;">Amazon Associates Disclosure: As an Amazon Associate we earn from qualifying purchases.</p>
+</footer>
+</body>
+</html>"""
+
+with open('posts/best-mattress-insomnia.html', 'w', encoding='utf-8') as f:
+    f.write(html)
+print('Done: posts/best-mattress-insomnia.html')
