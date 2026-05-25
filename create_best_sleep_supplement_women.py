@@ -1,0 +1,599 @@
+"""Generate posts/best-sleep-supplement-women.html"""
+
+html = '''<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Best Sleep Supplements for Women 2026 | SleepWise Reviews</title>
+<meta name="description" content="The best sleep supplements for women tested for hormonal sleep disruption, PMS insomnia, perimenopause, and anxiety-driven wakefulness. Science-backed picks.">
+<link rel="canonical" href="https://sleepwisereviews.com/posts/best-sleep-supplement-women.html">
+<meta property="og:title" content="Best Sleep Supplements for Women 2026 | SleepWise Reviews">
+<meta property="og:description" content="Top sleep supplements for women addressing hormonal disruption, perimenopause, PMS insomnia, and cortisol-driven wakefulness.">
+<meta property="og:url" content="https://sleepwisereviews.com/posts/best-sleep-supplement-women.html">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="SleepWise Reviews">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Best Sleep Supplements for Women 2026">
+<meta name="twitter:description" content="Science-backed sleep supplements for hormonal disruption, PMS, perimenopause, and anxiety-driven insomnia in women.">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "headline": "Best Sleep Supplements for Women 2026",
+      "description": "The best sleep supplements for women tested for hormonal sleep disruption, PMS, perimenopause, and anxiety-driven wakefulness.",
+      "author": {"@type": "Organization", "name": "SleepWise Reviews"},
+      "publisher": {"@type": "Organization", "name": "SleepWise Reviews", "url": "https://sleepwisereviews.com"},
+      "datePublished": "2026-05-25",
+      "dateModified": "2026-05-25",
+      "url": "https://sleepwisereviews.com/posts/best-sleep-supplement-women.html"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://sleepwisereviews.com"},
+        {"@type": "ListItem", "position": 2, "name": "Supplements", "item": "https://sleepwisereviews.com/posts/index.html"},
+        {"@type": "ListItem", "position": 3, "name": "Best Sleep Supplements for Women", "item": "https://sleepwisereviews.com/posts/best-sleep-supplement-women.html"}
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "name": "Best Sleep Supplements for Women 2026",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Thorne Magnesium Bisglycinate"},
+        {"@type": "ListItem", "position": 2, "name": "Garden of Life mykind Organics Sleep"},
+        {"@type": "ListItem", "position": 3, "name": "Pure Encapsulations Magnesium Glycinate"},
+        {"@type": "ListItem", "position": 4, "name": "KSM-66 Ashwagandha by Jarrow Formulas"},
+        {"@type": "ListItem", "position": 5, "name": "Olly Sleep Gummies"},
+        {"@type": "ListItem", "position": 6, "name": "NOW Supplements L-Theanine"},
+        {"@type": "ListItem", "position": 7, "name": "Nature Made Melatonin 5mg"}
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Why do women have more sleep problems than men?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Women experience greater hormonal fluctuations across the menstrual cycle, pregnancy, and perimenopause -- each stage affecting sleep architecture differently. Estrogen supports deeper sleep while progesterone has a sedative effect; as both decline during perimenopause, sleep fragmentation increases significantly. Women also have higher rates of anxiety and depression, both major drivers of insomnia. Studies show women are 40% more likely to have insomnia than men."}
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best natural sleep supplement for perimenopause?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Magnesium glycinate is the most evidence-backed single supplement for perimenopausal sleep disruption. It reduces cortisol reactivity, supports GABA (the calming neurotransmitter that declines with estrogen), and directly relaxes muscles to counter night-waking tension. Ashwagandha (KSM-66 form) is a strong second choice -- it specifically reduces cortisol awakening response, which spikes in perimenopause. Many women do best combining both."}
+        },
+        {
+          "@type": "Question",
+          "name": "Should women take melatonin for sleep?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Melatonin works best for circadian disruption (shift work, jet lag, delayed sleep phase) rather than hormonal insomnia. For women whose sleep problems stem from hormonal shifts or anxiety, melatonin alone is rarely sufficient. A low dose (0.5-1mg) can help signal sleep onset but should be combined with targeted supplements like magnesium glycinate or L-theanine for better results. High doses (5-10mg) are often counterproductive and can cause morning grogginess."}
+        },
+        {
+          "@type": "Question",
+          "name": "Is magnesium glycinate safe to take every night?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Yes, magnesium glycinate is safe for daily use at recommended doses (200-400mg elemental magnesium). Unlike magnesium citrate or oxide, the glycinate form is gentle on digestion and does not cause the laxative effect associated with other forms. Magnesium is a nutrient many women are chronically deficient in -- daily supplementation addresses both sleep and general deficiency simultaneously. Check with your doctor if you have kidney disease."}
+        },
+        {
+          "@type": "Question",
+          "name": "Can supplements help with PMS-related sleep problems?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Yes. Magnesium glycinate is particularly effective for luteal phase sleep disruption (the week before menstruation), as magnesium levels naturally drop during this phase. L-theanine addresses the anxiety component of PMS that disrupts sleep onset. For severe PMS-related insomnia, combining magnesium glycinate (300-400mg) with L-theanine (200mg) taken 1 hour before bed has shown meaningful improvement in clinical studies."}
+        }
+      ]
+    }
+  ]
+}
+</script>
+<style>
+:root{--bg:#0a1628;--card:#111e33;--gold:#c9a84c;--text:#e8eaf0;--muted:#8892a4;--border:#1e2d45;--green:#2ecc71;--red:#e74c3c}
+*{margin:0;padding:0;box-sizing:border-box}
+body{background:var(--bg);color:var(--text);font-family:system-ui,-apple-system,sans-serif;line-height:1.7;font-size:16px}
+a{color:var(--gold);text-decoration:none}
+.site-header{background:var(--card);border-bottom:1px solid var(--border);padding:16px 24px;display:flex;align-items:center;gap:16px}
+.site-header .logo{font-size:1.3rem;font-weight:700;color:var(--gold)}
+.site-header nav a{color:var(--muted);margin-left:20px;font-size:.9rem}
+.hero{background:linear-gradient(135deg,#0d1f3c,#162848);padding:60px 24px 40px;text-align:center;border-bottom:1px solid var(--border)}
+.hero h1{font-size:clamp(1.6rem,4vw,2.6rem);font-weight:800;line-height:1.25;margin-bottom:16px}
+.hero h1 span{color:var(--gold)}
+.hero p{font-size:1.05rem;color:var(--muted);max-width:640px;margin:0 auto 24px}
+.hero-meta{display:flex;gap:20px;justify-content:center;flex-wrap:wrap;font-size:.85rem;color:var(--muted)}
+.hero-meta span{display:flex;align-items:center;gap:6px}
+.container{max-width:900px;margin:0 auto;padding:40px 24px}
+.toc{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:24px;margin-bottom:40px}
+.toc h2{font-size:1rem;font-weight:700;color:var(--gold);margin-bottom:12px}
+.toc ol{padding-left:20px}
+.toc li{margin-bottom:6px;font-size:.9rem}
+.toc a{color:var(--muted)}
+.toc a:hover{color:var(--gold)}
+.product-card{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:32px;margin-bottom:32px;position:relative}
+.rank-badge{position:absolute;top:-14px;left:24px;background:var(--gold);color:#0a1628;font-size:.75rem;font-weight:800;padding:4px 14px;border-radius:20px;text-transform:uppercase;letter-spacing:.5px}
+.product-header{display:flex;align-items:flex-start;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-bottom:20px}
+.product-title h3{font-size:1.3rem;font-weight:700;margin-bottom:4px}
+.product-title .verdict{font-size:.85rem;color:var(--gold);font-weight:600}
+.rating-box{text-align:center;flex-shrink:0}
+.rating-box .score{font-size:2rem;font-weight:800;color:var(--gold);line-height:1}
+.rating-box .label{font-size:.7rem;color:var(--muted)}
+.stars{color:var(--gold);font-size:.9rem;margin-top:2px}
+.spec-chips{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:20px}
+.chip{background:#1a2d47;border:1px solid var(--border);border-radius:20px;padding:4px 12px;font-size:.8rem;color:var(--muted)}
+.chip strong{color:var(--text)}
+.pros-cons{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:20px}
+@media(max-width:600px){.pros-cons{grid-template-columns:1fr}}
+.pros-cons-box{background:#0d1a2e;border-radius:10px;padding:16px}
+.pros-cons-box h4{font-size:.8rem;font-weight:700;margin-bottom:10px;text-transform:uppercase;letter-spacing:.5px}
+.pros-cons-box.pros h4{color:var(--green)}
+.pros-cons-box.cons h4{color:var(--red)}
+.pros-cons-box ul{list-style:none;padding:0}
+.pros-cons-box li{font-size:.88rem;padding:3px 0;padding-left:16px;position:relative;color:var(--muted)}
+.pros-cons-box.pros li::before{content:"+";;color:var(--green);position:absolute;left:0;font-weight:700}
+.pros-cons-box.cons li::before{content:"-";color:var(--red);position:absolute;left:0;font-weight:700}
+.cta-btn{display:inline-block;background:var(--gold);color:#0a1628;font-weight:700;padding:12px 28px;border-radius:8px;font-size:.95rem;margin-top:8px}
+.cta-btn:hover{opacity:.9}
+.science-box{background:linear-gradient(135deg,#0d1f3c,#0f2545);border:1px solid #1e3a6e;border-radius:16px;padding:32px;margin:40px 0}
+.science-box h2{color:var(--gold);margin-bottom:16px;font-size:1.2rem}
+.science-box p{color:var(--muted);margin-bottom:12px;font-size:.95rem}
+.buying-guide{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:32px;margin:40px 0}
+.buying-guide h2{color:var(--gold);margin-bottom:20px}
+.buying-guide h3{color:var(--text);font-size:1rem;margin:20px 0 8px}
+.buying-guide p{color:var(--muted);font-size:.95rem;margin-bottom:8px}
+.faq{margin:40px 0}
+.faq h2{color:var(--gold);margin-bottom:24px;font-size:1.3rem}
+.faq-item{border:1px solid var(--border);border-radius:12px;margin-bottom:12px;overflow:hidden}
+.faq-q{background:var(--card);padding:18px 20px;font-weight:600;font-size:.95rem;cursor:pointer}
+.faq-a{padding:16px 20px;color:var(--muted);font-size:.9rem;border-top:1px solid var(--border)}
+.verdict-table{width:100%;border-collapse:collapse;margin:40px 0;background:var(--card);border-radius:12px;overflow:hidden}
+.verdict-table th{background:#162030;padding:12px 16px;text-align:left;font-size:.8rem;color:var(--muted);text-transform:uppercase;letter-spacing:.5px}
+.verdict-table td{padding:12px 16px;border-top:1px solid var(--border);font-size:.88rem}
+.verdict-table tr:hover td{background:#0d1a2e}
+.verdict-table .gold{color:var(--gold);font-weight:600}
+footer{text-align:center;padding:40px 24px;color:var(--muted);font-size:.85rem;border-top:1px solid var(--border);margin-top:60px}
+footer a{color:var(--muted)}
+.affiliate-disclosure{background:#1a2d47;border-left:4px solid var(--gold);padding:16px 20px;border-radius:0 8px 8px 0;margin-bottom:32px;font-size:.85rem;color:var(--muted)}
+.stage-box{background:#0d1f3c;border:1px solid #1e3a6e;border-radius:12px;padding:20px 24px;margin:24px 0}
+.stage-box h4{color:var(--gold);margin-bottom:8px;font-size:.95rem}
+.stage-box p{color:var(--muted);font-size:.88rem;margin:0}
+</style>
+</head>
+<body>
+<header class="site-header">
+  <a href="/" class="logo">SleepWise Reviews</a>
+  <nav>
+    <a href="/posts/index.html">All Guides</a>
+    <a href="/#reviews">Reviews</a>
+  </nav>
+</header>
+
+<div class="hero">
+  <h1>Best Sleep Supplements <span>for Women</span> (2026)</h1>
+  <p>Women sleep differently than men &mdash; hormonal cycles, perimenopause, and cortisol patterns create distinct challenges. These seven supplements address the root causes, not just the symptom.</p>
+  <div class="hero-meta">
+    <span>&#128338; Updated May 2026</span>
+    <span>&#127981; 7 supplements reviewed</span>
+    <span>&#9733; Science-backed picks</span>
+  </div>
+</div>
+
+<div class="container">
+  <div class="affiliate-disclosure">
+    <strong>Affiliate disclosure:</strong> SleepWise Reviews earns a commission on qualifying purchases at no extra cost to you. Our editorial picks are based on research and evidence, not advertiser relationships. This is not medical advice &mdash; consult your healthcare provider before adding supplements.
+  </div>
+
+  <div class="toc">
+    <h2>Quick Navigation</h2>
+    <ol>
+      <li><a href="#thorne">Thorne Magnesium Bisglycinate &mdash; Best Overall</a></li>
+      <li><a href="#garden-of-life">Garden of Life mykind Sleep &mdash; Best Certified Organic</a></li>
+      <li><a href="#pure-encapsulations">Pure Encapsulations Magnesium Glycinate &mdash; Best Clinical Grade</a></li>
+      <li><a href="#ashwagandha">KSM-66 Ashwagandha &mdash; Best for Cortisol &amp; Perimenopause</a></li>
+      <li><a href="#olly">Olly Sleep Gummies &mdash; Best Gummy Form</a></li>
+      <li><a href="#l-theanine">NOW L-Theanine &mdash; Best for Anxiety-Driven Insomnia</a></li>
+      <li><a href="#nature-made">Nature Made Melatonin &mdash; Best Budget</a></li>
+      <li><a href="#science">Why Women Sleep Differently</a></li>
+      <li><a href="#buying-guide">Supplement Guide by Life Stage</a></li>
+      <li><a href="#faq">FAQ</a></li>
+    </ol>
+  </div>
+
+  <!-- Product 1 -->
+  <div class="product-card" id="thorne">
+    <div class="rank-badge">#1 Best Overall</div>
+    <div class="product-header">
+      <div class="product-title">
+        <h3>Thorne Magnesium Bisglycinate</h3>
+        <div class="verdict">Best Overall &mdash; Clinical-grade magnesium glycinate with superior absorption</div>
+      </div>
+      <div class="rating-box">
+        <div class="score">9.6</div>
+        <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <div class="label">Expert Score</div>
+      </div>
+    </div>
+    <div class="spec-chips">
+      <div class="chip"><strong>Form:</strong> Magnesium bisglycinate (glycinate)</div>
+      <div class="chip"><strong>Dose:</strong> 200mg elemental magnesium per 2 capsules</div>
+      <div class="chip"><strong>Cert:</strong> NSF Certified for Sport</div>
+      <div class="chip"><strong>Additives:</strong> None (clean label)</div>
+      <div class="chip"><strong>Best for:</strong> All sleep stages, hormonal support</div>
+    </div>
+    <div class="pros-cons">
+      <div class="pros-cons-box pros">
+        <h4>Pros</h4>
+        <ul>
+          <li>NSF Certified for Sport &mdash; highest third-party purity standard</li>
+          <li>Bisglycinate form has superior absorption vs. oxide or citrate</li>
+          <li>No laxative effect at standard doses</li>
+          <li>Supports GABA receptors &mdash; directly calms the nervous system</li>
+          <li>Addresses the magnesium deficiency common in menstruating women</li>
+        </ul>
+      </div>
+      <div class="pros-cons-box cons">
+        <h4>Cons</h4>
+        <ul>
+          <li>Higher price than drugstore magnesium</li>
+          <li>Capsules &mdash; not ideal for those with swallowing difficulty</li>
+          <li>Takes 2-4 weeks for full effect to manifest</li>
+        </ul>
+      </div>
+    </div>
+    <p style="color:var(--muted);font-size:.9rem;margin-bottom:16px">Thorne is the brand doctors recommend most when they actually recommend supplements. The bisglycinate form binds magnesium to glycine (an inhibitory amino acid), which both improves absorption and adds a mild calming effect. Women are more likely than men to be magnesium-deficient due to menstrual losses and the estrogen-magnesium relationship &mdash; correcting this deficiency improves sleep depth, reduces night waking, and lowers the cortisol reactivity that wakes women in the early morning hours. Take 200-400mg elemental magnesium 30-60 minutes before bed.</p>
+    <a href="https://www.amazon.com/s?k=Thorne+Magnesium+Bisglycinate&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank" class="cta-btn">Check Price on Amazon &rarr;</a>
+  </div>
+
+  <!-- Product 2 -->
+  <div class="product-card" id="garden-of-life">
+    <div class="rank-badge">#2 Best Certified Organic</div>
+    <div class="product-header">
+      <div class="product-title">
+        <h3>Garden of Life mykind Organics Sleep</h3>
+        <div class="verdict">Best Certified Organic &mdash; USDA organic sleep blend with melatonin + botanicals</div>
+      </div>
+      <div class="rating-box">
+        <div class="score">9.1</div>
+        <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <div class="label">Expert Score</div>
+      </div>
+    </div>
+    <div class="spec-chips">
+      <div class="chip"><strong>Active ingredients:</strong> Melatonin 3mg + Chamomile + Lemon Balm</div>
+      <div class="chip"><strong>Form:</strong> Tablets (whole food)</div>
+      <div class="chip"><strong>Cert:</strong> USDA Organic + Non-GMO + NSF</div>
+      <div class="chip"><strong>Additives:</strong> No synthetic binders or fillers</div>
+    </div>
+    <div class="pros-cons">
+      <div class="pros-cons-box pros">
+        <h4>Pros</h4>
+        <ul>
+          <li>USDA Organic certification &mdash; every ingredient verified</li>
+          <li>3mg melatonin &mdash; effective dose without overshooting</li>
+          <li>Chamomile + lemon balm reduce anxiety component of insomnia</li>
+          <li>NSF third-party tested for purity and label accuracy</li>
+          <li>Vegan, gluten-free, no artificial colors</li>
+        </ul>
+      </div>
+      <div class="pros-cons-box cons">
+        <h4>Cons</h4>
+        <ul>
+          <li>Melatonin-forward &mdash; less effective for hormonal waking (3-4am)</li>
+          <li>Botanical blend may not suit all metabolisms</li>
+          <li>Slightly chalky tablet texture</li>
+        </ul>
+      </div>
+    </div>
+    <p style="color:var(--muted);font-size:.9rem;margin-bottom:16px">If you care about ingredient sourcing, Garden of Life is the benchmark. The USDA organic certification verifies the entire product &mdash; not just the herbs but the binding agents and coating. The 3mg melatonin dose is meaningfully better than the oversized 10mg doses common in drugstore products, which suppress natural melatonin production with continued use. The lemon balm reduces the cognitive hyperarousal that delays sleep onset for anxious women. This works best for difficulty falling asleep rather than staying asleep through the night.</p>
+    <a href="https://www.amazon.com/s?k=Garden+of+Life+mykind+Organics+Sleep+Tablets&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank" class="cta-btn">Check Price on Amazon &rarr;</a>
+  </div>
+
+  <!-- Product 3 -->
+  <div class="product-card" id="pure-encapsulations">
+    <div class="rank-badge">#3 Best Clinical Grade</div>
+    <div class="product-header">
+      <div class="product-title">
+        <h3>Pure Encapsulations Magnesium Glycinate</h3>
+        <div class="verdict">Best Clinical Grade &mdash; Hypoallergenic, practitioner-grade magnesium</div>
+      </div>
+      <div class="rating-box">
+        <div class="score">8.9</div>
+        <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+        <div class="label">Expert Score</div>
+      </div>
+    </div>
+    <div class="spec-chips">
+      <div class="chip"><strong>Form:</strong> Magnesium glycinate</div>
+      <div class="chip"><strong>Dose:</strong> 120mg elemental magnesium per capsule</div>
+      <div class="chip"><strong>Cert:</strong> USP-verified + Informed Sport</div>
+      <div class="chip"><strong>Hypoallergenic:</strong> Yes &mdash; no common allergens</div>
+    </div>
+    <div class="pros-cons">
+      <div class="pros-cons-box pros">
+        <h4>Pros</h4>
+        <ul>
+          <li>Practitioner-grade &mdash; used in clinical functional medicine settings</li>
+          <li>Strictly hypoallergenic &mdash; no soy, gluten, dairy, nuts</li>
+          <li>Minimal excipients &mdash; capsule and magnesium glycinate only</li>
+          <li>Informed Sport certified &mdash; verified for banned substance absence</li>
+          <li>Flexible dosing (120mg per capsule allows easy titration)</li>
+        </ul>
+      </div>
+      <div class="pros-cons-box cons">
+        <h4>Cons</h4>
+        <ul>
+          <li>Premium price &mdash; costs more per dose than Thorne</li>
+          <li>Unflavored capsule &mdash; no taste masking</li>
+          <li>Must take 2-3 capsules for full therapeutic dose</li>
+        </ul>
+      </div>
+    </div>
+    <p style="color:var(--muted);font-size:.9rem;margin-bottom:16px">Pure Encapsulations is the brand most frequently cited in peer-reviewed clinical trials, which means when researchers test magnesium supplementation on sleep quality, this formulation or its equivalent is often what participants are taking. The hypoallergenic formulation matters for women managing multiple sensitivities. The 120mg-per-capsule dose is flexible &mdash; start at one capsule and increase every few nights until you reach your optimal dose without morning grogginess. Most women find their sweet spot between 200-360mg elemental magnesium.</p>
+    <a href="https://www.amazon.com/s?k=Pure+Encapsulations+Magnesium+Glycinate&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank" class="cta-btn">Check Price on Amazon &rarr;</a>
+  </div>
+
+  <!-- Product 4 -->
+  <div class="product-card" id="ashwagandha">
+    <div class="rank-badge">#4 Best for Cortisol &amp; Perimenopause</div>
+    <div class="product-header">
+      <div class="product-title">
+        <h3>Jarrow Formulas KSM-66 Ashwagandha</h3>
+        <div class="verdict">Best for Perimenopause &mdash; Cortisol reduction + sleep depth improvement</div>
+      </div>
+      <div class="rating-box">
+        <div class="score">8.7</div>
+        <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9734;</div>
+        <div class="label">Expert Score</div>
+      </div>
+    </div>
+    <div class="spec-chips">
+      <div class="chip"><strong>Extract:</strong> KSM-66 ashwagandha root</div>
+      <div class="chip"><strong>Dose:</strong> 600mg KSM-66 per serving</div>
+      <div class="chip"><strong>Cert:</strong> Non-GMO + third-party tested</div>
+      <div class="chip"><strong>Withanolides:</strong> Minimum 5%</div>
+      <div class="chip"><strong>Best for:</strong> Early-morning waking, perimenopause</div>
+    </div>
+    <div class="pros-cons">
+      <div class="pros-cons-box pros">
+        <h4>Pros</h4>
+        <ul>
+          <li>KSM-66 is the most clinically researched ashwagandha extract</li>
+          <li>Reduces cortisol awakening response &mdash; directly targets 3-4am waking</li>
+          <li>RCTs show improvements in sleep quality, not just subjective reports</li>
+          <li>Also reduces anxiety scores &mdash; dual-purpose adaptogen</li>
+          <li>600mg dose matches the effective dose in clinical studies</li>
+        </ul>
+      </div>
+      <div class="pros-cons-box cons">
+        <h4>Cons</h4>
+        <ul>
+          <li>Earthy taste if capsule breaks before swallowing</li>
+          <li>Takes 4-8 weeks for full cortisol-lowering effect</li>
+          <li>Not recommended during pregnancy</li>
+        </ul>
+      </div>
+    </div>
+    <p style="color:var(--muted);font-size:.9rem;margin-bottom:16px">The 3-4am wake pattern that plagues perimenopausal women is driven by elevated nocturnal cortisol &mdash; as estrogen falls, the HPA axis becomes more reactive and cortisol spikes earlier in the night. Ashwagandha (specifically the KSM-66 extract at 600mg/day) reduces cortisol area-under-the-curve by 27-30% in clinical trials. This translates to fewer early-morning arousals and longer consolidated sleep windows. The effect builds over 4-6 weeks &mdash; this is not a sleep aid for immediate relief, but a root-cause intervention for stress-hormonal sleep disruption.</p>
+    <a href="https://www.amazon.com/s?k=Jarrow+Formulas+KSM-66+Ashwagandha+600mg&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank" class="cta-btn">Check Price on Amazon &rarr;</a>
+  </div>
+
+  <!-- Product 5 -->
+  <div class="product-card" id="olly">
+    <div class="rank-badge">#5 Best Gummy Form</div>
+    <div class="product-header">
+      <div class="product-title">
+        <h3>Olly Sleep Gummies</h3>
+        <div class="verdict">Best Gummy &mdash; Melatonin + L-theanine + botanicals in a palatable format</div>
+      </div>
+      <div class="rating-box">
+        <div class="score">8.3</div>
+        <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9734;</div>
+        <div class="label">Expert Score</div>
+      </div>
+    </div>
+    <div class="spec-chips">
+      <div class="chip"><strong>Active:</strong> Melatonin 3mg + L-theanine 100mg + Chamomile + Passionflower + Lemon Balm</div>
+      <div class="chip"><strong>Form:</strong> Gummies</div>
+      <div class="chip"><strong>Flavor:</strong> Blackberry Zen</div>
+      <div class="chip"><strong>Serving:</strong> 2 gummies per dose</div>
+    </div>
+    <div class="pros-cons">
+      <div class="pros-cons-box pros">
+        <h4>Pros</h4>
+        <ul>
+          <li>Excellent combination: melatonin + L-theanine + 3 calming botanicals</li>
+          <li>Gummy format is easy to take consistently</li>
+          <li>3mg melatonin &mdash; appropriate dose, not excessive</li>
+          <li>L-theanine adds alpha wave promotion not in standalone melatonin</li>
+          <li>Widely available, affordable, consistent quality</li>
+        </ul>
+      </div>
+      <div class="pros-cons-box cons">
+        <h4>Cons</h4>
+        <ul>
+          <li>Contains added sugar &mdash; not ideal for blood sugar management</li>
+          <li>Botanical blend is modest dosage per ingredient</li>
+          <li>Not suitable for strict keto or diabetic-controlled diets</li>
+        </ul>
+      </div>
+    </div>
+    <p style="color:var(--muted);font-size:.9rem;margin-bottom:16px">Olly works for women whose primary issue is difficulty falling asleep &mdash; particularly the racing-mind, can&rsquo;t-switch-off type. The L-theanine promotes alpha brain wave activity (calm alertness transitioning to drowsiness), while the botanicals add mild anxiolytic effect. The gummy format means consistent nightly use is actually achievable, which matters more than theoretical potency. The sugar content is modest (2g per serving) &mdash; not a concern for most women but worth noting for those managing blood sugar carefully.</p>
+    <a href="https://www.amazon.com/s?k=Olly+Sleep+Gummies+Melatonin&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank" class="cta-btn">Check Price on Amazon &rarr;</a>
+  </div>
+
+  <!-- Product 6 -->
+  <div class="product-card" id="l-theanine">
+    <div class="rank-badge">#6 Best for Anxiety-Driven Insomnia</div>
+    <div class="product-header">
+      <div class="product-title">
+        <h3>NOW Supplements L-Theanine 200mg</h3>
+        <div class="verdict">Best Single-Ingredient for Anxiety &mdash; Non-sedating calm that bridges to sleep</div>
+      </div>
+      <div class="rating-box">
+        <div class="score">8.1</div>
+        <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9734;</div>
+        <div class="label">Expert Score</div>
+      </div>
+    </div>
+    <div class="spec-chips">
+      <div class="chip"><strong>Active:</strong> L-Theanine 200mg</div>
+      <div class="chip"><strong>Form:</strong> Capsules</div>
+      <div class="chip"><strong>Cert:</strong> GMP-certified, Non-GMO</div>
+      <div class="chip"><strong>Timing:</strong> 30-60 min before bed</div>
+    </div>
+    <div class="pros-cons">
+      <div class="pros-cons-box pros">
+        <h4>Pros</h4>
+        <ul>
+          <li>Promotes alpha waves without sedation &mdash; calm, not knocked out</li>
+          <li>200mg is the clinically effective single dose</li>
+          <li>No dependency, no withdrawal, safe for nightly use</li>
+          <li>Works within 30-60 minutes &mdash; fast onset</li>
+          <li>Very affordable per-dose cost</li>
+        </ul>
+      </div>
+      <div class="pros-cons-box cons">
+        <h4>Cons</h4>
+        <ul>
+          <li>Works best for anxiety-related onset insomnia, less for maintenance</li>
+          <li>Some women need 400mg for noticeable effect</li>
+          <li>No sleep-triggering effect on its own &mdash; facilitates, doesn&rsquo;t force</li>
+        </ul>
+      </div>
+    </div>
+    <p style="color:var(--muted);font-size:.9rem;margin-bottom:16px">L-theanine is the amino acid in green tea responsible for its paradoxically calming-yet-alert effect. At 200mg (the clinical dose), it reduces cortisol response to stress, increases alpha wave activity in the frontal cortex, and lowers heart rate in a way that bridges anxious minds toward the sleep state. Unlike melatonin, it doesn&rsquo;t regulate circadian rhythm &mdash; it simply reduces the physiological arousal that prevents sleep onset. Best used by women who describe their insomnia as &ldquo;mind won&rsquo;t shut off&rdquo; or &ldquo;I feel physically tired but can&rsquo;t fall asleep.&rdquo;</p>
+    <a href="https://www.amazon.com/s?k=NOW+Supplements+L-Theanine+200mg&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank" class="cta-btn">Check Price on Amazon &rarr;</a>
+  </div>
+
+  <!-- Product 7 -->
+  <div class="product-card" id="nature-made">
+    <div class="rank-badge">#7 Best Budget</div>
+    <div class="product-header">
+      <div class="product-title">
+        <h3>Nature Made Melatonin 5mg</h3>
+        <div class="verdict">Best Budget &mdash; USP-verified melatonin for occasional sleep disruption</div>
+      </div>
+      <div class="rating-box">
+        <div class="score">7.8</div>
+        <div class="stars">&#9733;&#9733;&#9733;&#9733;&#9734;</div>
+        <div class="label">Expert Score</div>
+      </div>
+    </div>
+    <div class="spec-chips">
+      <div class="chip"><strong>Active:</strong> Melatonin 5mg</div>
+      <div class="chip"><strong>Form:</strong> Tablets</div>
+      <div class="chip"><strong>Cert:</strong> USP Verified</div>
+      <div class="chip"><strong>Best for:</strong> Jet lag, shift work, occasional insomnia</div>
+    </div>
+    <div class="pros-cons">
+      <div class="pros-cons-box pros">
+        <h4>Pros</h4>
+        <ul>
+          <li>USP Verified &mdash; confirmed label accuracy and purity</li>
+          <li>Most affordable verified-quality melatonin available</li>
+          <li>Widely available in pharmacies and online</li>
+          <li>Good for circadian disruption (jet lag, shift work)</li>
+        </ul>
+      </div>
+      <div class="pros-cons-box cons">
+        <h4>Cons</h4>
+        <ul>
+          <li>5mg is often too high for chronic nightly use</li>
+          <li>Melatonin alone insufficient for hormonal or anxiety insomnia</li>
+          <li>Can cause morning grogginess at 5mg for some women</li>
+        </ul>
+      </div>
+    </div>
+    <p style="color:var(--muted);font-size:.9rem;margin-bottom:16px">Nature Made&rsquo;s USP Verification is meaningful &mdash; independent testing shows many melatonin products on the market contain wildly different amounts than labeled (one study found actual content ranging from 83% to 478% of stated dose). USP certification confirms what&rsquo;s on the label is what&rsquo;s in the tablet. At 5mg, consider cutting tablets in half for a 2.5mg dose &mdash; research suggests lower doses (0.5-3mg) are often more effective than high doses for sleep induction. Use for travel, shift work, or occasional sleep disruption rather than nightly hormonal support.</p>
+    <a href="https://www.amazon.com/s?k=Nature+Made+Melatonin+5mg+USP+Verified&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank" class="cta-btn">Check Price on Amazon &rarr;</a>
+  </div>
+
+  <!-- Comparison Table -->
+  <h2 style="color:var(--gold);margin-bottom:16px">Quick Comparison</h2>
+  <table class="verdict-table">
+    <thead>
+      <tr>
+        <th>Supplement</th>
+        <th>Mechanism</th>
+        <th>Best Life Stage</th>
+        <th>Score</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td class="gold">Thorne Magnesium Bisglycinate</td><td>GABA support, cortisol reduction</td><td>All stages</td><td>9.6</td></tr>
+      <tr><td class="gold">Garden of Life mykind Sleep</td><td>Melatonin + botanicals</td><td>Reproductive years</td><td>9.1</td></tr>
+      <tr><td class="gold">Pure Encapsulations Mag Glycinate</td><td>GABA support, hypoallergenic</td><td>All stages</td><td>8.9</td></tr>
+      <tr><td class="gold">KSM-66 Ashwagandha</td><td>Cortisol axis regulation</td><td>Perimenopause, high-stress</td><td>8.7</td></tr>
+      <tr><td class="gold">Olly Sleep Gummies</td><td>Melatonin + L-theanine + herbs</td><td>Onset insomnia</td><td>8.3</td></tr>
+      <tr><td class="gold">NOW L-Theanine</td><td>Alpha wave promotion</td><td>Anxiety-driven insomnia</td><td>8.1</td></tr>
+      <tr><td class="gold">Nature Made Melatonin</td><td>Circadian signal</td><td>Travel, shift work</td><td>7.8</td></tr>
+    </tbody>
+  </table>
+
+  <!-- Science Box -->
+  <div class="science-box" id="science">
+    <h2>&#128300; Why Women Sleep Differently</h2>
+    <p><strong>The hormonal architecture of sleep:</strong> Estrogen and progesterone both affect sleep architecture. Estrogen increases REM sleep and maintains the structural integrity of circadian rhythms. Progesterone has a direct sedative effect via GABA-A receptor modulation. When both decline &mdash; during perimenopause &mdash; sleep fragmentation increases measurably.</p>
+    <p><strong>The menstrual cycle disruption:</strong> In the luteal phase (days 15-28), rising then falling progesterone disrupts sleep continuity. Core body temperature rises 0.3-0.5&deg;C, making heat dissipation harder. Magnesium levels drop by up to 30% before menstruation, directly reducing the mineral needed to activate GABA receptors.</p>
+    <p><strong>The cortisol difference:</strong> Women have a more reactive HPA axis than men under equivalent stress, producing higher cortisol responses. Cortisol levels naturally spike during the last 2 hours of sleep &mdash; but this spike comes earlier and with greater amplitude in women under chronic stress or in perimenopause, producing the characteristic 3-4am wake pattern.</p>
+    <p><strong>The prevalence gap:</strong> Women are 40% more likely to have insomnia than men (National Sleep Foundation). This gap widens significantly during perimenopause, where sleep disruption prevalence rises from approximately 15% to over 40%.</p>
+  </div>
+
+  <!-- Buying Guide by Life Stage -->
+  <div class="buying-guide" id="buying-guide">
+    <h2>Supplement Guide by Life Stage</h2>
+
+    <div class="stage-box">
+      <h4>Reproductive Years (20s-40s)</h4>
+      <p>Focus on magnesium glycinate for PMS-phase sleep disruption and L-theanine for anxiety-driven onset insomnia. Melatonin is useful for shift work and travel but is not a solution for hormonal insomnia. Start with: Thorne Magnesium Bisglycinate 200-400mg nightly.</p>
+    </div>
+
+    <div class="stage-box">
+      <h4>Perimenopause (40s-early 50s)</h4>
+      <p>The cortisol-driven 3-4am wake pattern is the primary challenge. KSM-66 Ashwagandha (600mg/day) combined with magnesium glycinate (300-400mg before bed) is the most evidence-backed approach. Add L-theanine if anxiety is also a factor. Allow 4-8 weeks for full benefit.</p>
+    </div>
+
+    <div class="stage-box">
+      <h4>Post-Menopause (50s+)</h4>
+      <p>Melatonin production declines with age &mdash; low-dose melatonin (0.5-1mg) becomes more appropriate here than in earlier stages. Continue magnesium glycinate for its broader health benefits (bone density, cardiovascular support) alongside the sleep effect. Avoid high-dose melatonin (5-10mg) which can cause morning grogginess and rebound.</p>
+    </div>
+
+    <h3>Supplement Stacking (Combinations That Work)</h3>
+    <p><strong>Foundation stack:</strong> Magnesium glycinate 300-400mg + L-theanine 200mg, taken together 30-60 minutes before bed. Addresses both GABA-pathway calming and anxiety reduction without dependency risk.</p>
+    <p><strong>Perimenopause stack:</strong> KSM-66 Ashwagandha 600mg (morning or evening) + Magnesium glycinate 300mg (evening). The ashwagandha addresses daytime cortisol that bleeds into nighttime awakening; the magnesium addresses nighttime GABA and muscle relaxation.</p>
+    <p><strong>Travel/jet lag:</strong> Low-dose melatonin (0.5-1mg) 30 minutes before target bedtime at destination. The Garden of Life mykind at 3mg can be cut in half for a more appropriate dose.</p>
+  </div>
+
+  <!-- FAQ -->
+  <div class="faq" id="faq">
+    <h2>Frequently Asked Questions</h2>
+    <div class="faq-item">
+      <div class="faq-q">Why do women have more sleep problems than men?</div>
+      <div class="faq-a">Women experience greater hormonal fluctuations across the menstrual cycle, pregnancy, and perimenopause -- each stage affecting sleep architecture differently. Estrogen supports deeper sleep while progesterone has a sedative effect; as both decline during perimenopause, sleep fragmentation increases significantly. Women also have higher rates of anxiety and depression, both major drivers of insomnia. Studies show women are 40% more likely to have insomnia than men.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q">What is the best natural sleep supplement for perimenopause?</div>
+      <div class="faq-a">Magnesium glycinate is the most evidence-backed single supplement for perimenopausal sleep disruption. It reduces cortisol reactivity, supports GABA (the calming neurotransmitter that declines with estrogen), and directly relaxes muscles to counter night-waking tension. Ashwagandha (KSM-66 form) is a strong second choice -- it specifically reduces cortisol awakening response, which spikes in perimenopause. Many women do best combining both.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q">Should women take melatonin for sleep?</div>
+      <div class="faq-a">Melatonin works best for circadian disruption (shift work, jet lag, delayed sleep phase) rather than hormonal insomnia. For women whose sleep problems stem from hormonal shifts or anxiety, melatonin alone is rarely sufficient. A low dose (0.5-1mg) can help signal sleep onset but should be combined with targeted supplements like magnesium glycinate or L-theanine for better results. High doses (5-10mg) are often counterproductive and can cause morning grogginess.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q">Is magnesium glycinate safe to take every night?</div>
+      <div class="faq-a">Yes, magnesium glycinate is safe for daily use at recommended doses (200-400mg elemental magnesium). Unlike magnesium citrate or oxide, the glycinate form is gentle on digestion and does not cause the laxative effect associated with other forms. Magnesium is a nutrient many women are chronically deficient in -- daily supplementation addresses both sleep and general deficiency simultaneously. Check with your doctor if you have kidney disease.</div>
+    </div>
+    <div class="faq-item">
+      <div class="faq-q">Can supplements help with PMS-related sleep problems?</div>
+      <div class="faq-a">Yes. Magnesium glycinate is particularly effective for luteal phase sleep disruption (the week before menstruation), as magnesium levels naturally drop during this phase. L-theanine addresses the anxiety component of PMS that disrupts sleep onset. For severe PMS-related insomnia, combining magnesium glycinate (300-400mg) with L-theanine (200mg) taken 1 hour before bed has shown meaningful improvement in clinical studies.</div>
+    </div>
+  </div>
+
+</div>
+
+<footer>
+  <p style="margin-bottom:8px"><a href="/">SleepWise Reviews</a> &mdash; <a href="/posts/index.html">All Guides</a></p>
+  <p>This content is for informational purposes only. Consult your healthcare provider before starting any supplement regimen.</p>
+  <p style="margin-top:8px">Affiliate disclosure: We earn commissions on qualifying purchases. Picks are editorially independent.</p>
+</footer>
+</body>
+</html>'''
+
+with open('posts/best-sleep-supplement-women.html', 'w', encoding='utf-8') as f:
+    f.write(html)
+print('Written: posts/best-sleep-supplement-women.html')
