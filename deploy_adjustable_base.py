@@ -25,15 +25,14 @@ else:
 count = sitemap.count("<loc>")
 print(f"Sitemap now has {count} URLs")
 
-# 2. CATEGORIES in generate_posts_index.py
+# 2. CATEGORIES — Mattresses & Bedding (after best-mattress-platform-bed)
 with open("generate_posts_index.py", "r", encoding="utf-8") as f:
     gen = f.read()
 
 if slug not in gen:
-    # Insert in Mattresses & Bedding after best-adjustable-base-bed-frame
     gen = gen.replace(
-        "'best-adjustable-base-bed-frame'",
-        "'best-adjustable-base-bed-frame', 'best-mattress-adjustable-base'"
+        "'best-mattress-platform-bed'",
+        "'best-mattress-platform-bed', 'best-mattress-adjustable-base'"
     )
     with open("generate_posts_index.py", "w", encoding="utf-8") as f:
         f.write(gen)
@@ -52,7 +51,7 @@ card = (
     '        <div class="card-cat">\n'
     '          <span class="cat-badge">Mattresses &amp; Bedding</span>\n'
     '          <h3><a href="posts/best-mattress-adjustable-base.html">Best Mattress for Adjustable Bases</a></h3>\n'
-    '          <p>7 mattresses tested for flex compatibility, articulation recovery, and durability on adjustable bases &mdash; from zero-gravity to anti-snore positions.</p>\n'
+    '          <p>7 flex-certified picks with compatibility guide &mdash; split king vs full king, what voids your warranty, thickness rules, and the mattress types that cannot safely bend.</p>\n'
     '          <div class="card-meta"><span>7 picks</span><span>Mattresses &amp; Bedding</span></div>\n'
     '        </div>\n'
     '        '
