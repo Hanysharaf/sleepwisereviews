@@ -1,0 +1,540 @@
+"""Generate posts/best-feather-pillow.html"""
+import os
+
+html = '''<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Best Feather Pillows (2026): Soft, Moldable & Long-Lasting | SleepWise Reviews</title>
+  <meta name="description" content="The best feather pillows for 2026 — from pure feather to feather-down blends. 7 expert-tested picks for stomach sleepers, soft-preference sleepers, and hotel-quality comfort at home.">
+  <meta name="keywords" content="best feather pillow, feather down pillow review, soft feather pillow, hotel feather pillow, best feather pillow for stomach sleepers">
+  <link rel="canonical" href="https://sleepwisereviews.com/posts/best-feather-pillow.html">
+  <meta property="og:title" content="Best Feather Pillows (2026)">
+  <meta property="og:description" content="7 feather pillows reviewed for softness, moldability, and fill quality. Expert picks for stomach sleepers and soft-preference sleepers.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://sleepwisereviews.com/posts/best-feather-pillow.html">
+  <meta property="og:site_name" content="SleepWise Reviews">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Best Feather Pillows (2026)">
+  <meta name="twitter:description" content="7 feather pillows for hotel-quality softness at home — pure feather, feather-down blends, and hypoallergenic options reviewed.">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Article",
+        "headline": "Best Feather Pillows (2026): Soft, Moldable & Long-Lasting",
+        "description": "Expert-tested feather pillows — from pure feather to blended down options — reviewed for softness, durability, and fill quality.",
+        "author": {"@type": "Organization", "name": "SleepWise Reviews"},
+        "publisher": {"@type": "Organization", "name": "SleepWise Reviews"},
+        "datePublished": "2026-05-25",
+        "dateModified": "2026-05-25",
+        "mainEntityOfPage": {"@type": "WebPage", "@id": "https://sleepwisereviews.com/posts/best-feather-pillow.html"}
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://sleepwisereviews.com"},
+          {"@type": "ListItem", "position": 2, "name": "Mattresses & Bedding", "item": "https://sleepwisereviews.com/posts/index.html"},
+          {"@type": "ListItem", "position": 3, "name": "Best Feather Pillows"}
+        ]
+      },
+      {
+        "@type": "ItemList",
+        "name": "Best Feather Pillows 2026",
+        "itemListElement": [
+          {"@type": "ListItem", "position": 1, "name": "Pacific Coast Feather Pillow"},
+          {"@type": "ListItem", "position": 2, "name": "Parachute Down Alternative Pillow"},
+          {"@type": "ListItem", "position": 3, "name": "Hotel Grand Feather & Down Pillow"},
+          {"@type": "ListItem", "position": 4, "name": "Egyptian Bedding Luxurious Goose Down Pillow"},
+          {"@type": "ListItem", "position": 5, "name": "Brooklinen Down Pillow"},
+          {"@type": "ListItem", "position": 6, "name": "Utopia Bedding Feather Pillow"},
+          {"@type": "ListItem", "position": 7, "name": "Beckham Hotel Collection Goose Feather Pillow"}
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is the difference between a feather pillow and a down pillow?",
+            "acceptedAnswer": {"@type": "Answer", "text": "Feathers are the flat, quill-containing plumage from the body and wings. Down is the soft, three-dimensional cluster found under the outer feathers on geese and ducks. Down is softer, lighter, and more insulating. Feathers are firmer and heavier. Most pillows marketed as feather pillows are actually feather-down blends — pure feather pillows are relatively rare. A higher down percentage means softer, more expensive, and less loft-stable."}
+          },
+          {
+            "@type": "Question",
+            "name": "Are feather pillows good for side sleepers?",
+            "acceptedAnswer": {"@type": "Answer", "text": "Feather pillows are generally better for stomach and back sleepers. Side sleepers need higher, firmer loft to fill the shoulder gap — feather pillows compress too much and can bottom out under side-sleeping weight, leaving the neck unsupported. Side sleepers who prefer feather feel should choose a high-fill-power down pillow (600+ fill power) rather than a feather-dominant blend."}
+          },
+          {
+            "@type": "Question",
+            "name": "How do you wash a feather pillow?",
+            "acceptedAnswer": {"@type": "Answer", "text": "Machine wash on a gentle cycle in warm water with mild, low-suds detergent. Use a front-loading washer if possible — top-loader agitators can break down feather clusters. Run two rinse cycles to fully remove soap. Tumble dry on low heat with 2-3 clean tennis balls or dryer balls to redistribute fill. Ensure the pillow is completely dry (may take 2-3 drying cycles) before use — damp feathers develop mold."}
+          },
+          {
+            "@type": "Question",
+            "name": "What fill power should I look for in a feather or down pillow?",
+            "acceptedAnswer": {"@type": "Answer", "text": "Fill power measures the loft of one ounce of down in cubic inches. Higher fill power = larger, better-quality down clusters. 400-500 fill power is entry-level, adequate for medium support. 600-700 fill power is mid-range, good loft with softer feel. 800+ fill power is premium, very light and luxurious. For a feather (not down) pillow, fill power is less relevant as feathers provide structure differently than down clusters."}
+          },
+          {
+            "@type": "Question",
+            "name": "Do feather pillows smell?",
+            "acceptedAnswer": {"@type": "Answer", "text": "Fresh, quality feather and down pillows should have no smell after proper factory washing. A slight barnyard or musty odor indicates poorly washed fill or moisture during shipping. Air a new pillow for 24-48 hours if you notice any odor — it typically dissipates. Persistent odor after airing suggests substandard fill processing and the pillow should be returned."}
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+  <style>
+    :root{--bg:#0a1628;--card:#111e33;--gold:#c9a84c;--text:#e8eaf0;--muted:#8892a4;--border:#1e2d45;--green:#2ecc71;--red:#e74c3c}
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{background:var(--bg);color:var(--text);font-family:'Segoe UI',system-ui,sans-serif;line-height:1.7}
+    a{color:var(--gold);text-decoration:none}
+    a:hover{text-decoration:underline}
+    header{background:var(--card);border-bottom:1px solid var(--border);padding:16px 24px;display:flex;align-items:center;justify-content:space-between}
+    header .logo{font-size:1.2rem;font-weight:700;color:var(--gold)}
+    nav a{margin-left:20px;color:var(--muted);font-size:.9rem}
+    .hero{background:linear-gradient(135deg,#0d1f38 0%,#1a2d4a 100%);padding:60px 24px;text-align:center;border-bottom:1px solid var(--border)}
+    .hero h1{font-size:clamp(1.6rem,4vw,2.6rem);font-weight:800;color:#fff;max-width:800px;margin:0 auto 16px}
+    .hero .sub{color:var(--muted);font-size:1.05rem;max-width:600px;margin:0 auto 24px}
+    .badge-row{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-bottom:10px}
+    .badge{background:rgba(201,168,76,.15);border:1px solid rgba(201,168,76,.4);color:var(--gold);padding:4px 14px;border-radius:20px;font-size:.82rem;font-weight:600}
+    .container{max-width:960px;margin:0 auto;padding:40px 20px}
+    .toc{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:24px;margin-bottom:40px}
+    .toc h2{font-size:1rem;color:var(--gold);margin-bottom:12px;text-transform:uppercase;letter-spacing:.05em}
+    .toc ol{padding-left:20px}
+    .toc li{margin-bottom:6px;font-size:.95rem}
+    .product-card{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:28px;margin-bottom:28px}
+    .product-header{display:flex;align-items:flex-start;gap:16px;margin-bottom:16px}
+    .rank{background:var(--gold);color:#0a1628;font-weight:800;font-size:.85rem;padding:4px 12px;border-radius:20px;white-space:nowrap}
+    .product-header h2{font-size:1.25rem;color:#fff;line-height:1.3}
+    .product-header h2 span{display:block;font-size:.82rem;color:var(--muted);font-weight:400;margin-top:2px}
+    .specs-row{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0}
+    .spec-chip{background:rgba(255,255,255,.06);border:1px solid var(--border);padding:4px 12px;border-radius:20px;font-size:.8rem;color:var(--muted)}
+    .spec-chip strong{color:var(--text)}
+    .pros-cons{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:16px 0}
+    @media(max-width:560px){.pros-cons{grid-template-columns:1fr}}
+    .pros,.cons{background:rgba(255,255,255,.04);border-radius:10px;padding:14px}
+    .pros h4{color:var(--green);margin-bottom:8px;font-size:.9rem}
+    .cons h4{color:var(--red);margin-bottom:8px;font-size:.9rem}
+    .pros ul,.cons ul{list-style:none;font-size:.88rem}
+    .pros li::before{content:"+ ";color:var(--green);font-weight:700}
+    .cons li::before{content:"- ";color:var(--red);font-weight:700}
+    .pros li,.cons li{margin-bottom:4px}
+    .cta-btn{display:inline-block;background:var(--gold);color:#0a1628;font-weight:700;padding:11px 24px;border-radius:8px;margin-top:14px;font-size:.95rem}
+    .cta-btn:hover{background:#e0b84a;text-decoration:none}
+    .science-box{background:linear-gradient(135deg,rgba(201,168,76,.08),rgba(201,168,76,.03));border:1px solid rgba(201,168,76,.25);border-radius:12px;padding:24px;margin:40px 0}
+    .science-box h3{color:var(--gold);margin-bottom:12px;font-size:1.05rem}
+    .buying-guide{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:28px;margin:40px 0}
+    .buying-guide h2{color:var(--gold);margin-bottom:20px;font-size:1.2rem}
+    .guide-item{margin-bottom:20px}
+    .guide-item h3{color:#fff;margin-bottom:6px;font-size:1rem}
+    .guide-item p{color:var(--muted);font-size:.93rem}
+    .faq{margin:40px 0}
+    .faq h2{color:var(--gold);margin-bottom:20px;font-size:1.2rem}
+    .faq-item{border-bottom:1px solid var(--border);padding:18px 0}
+    .faq-item:last-child{border-bottom:none}
+    .faq-item h3{color:#fff;font-size:.98rem;margin-bottom:8px}
+    .faq-item p{color:var(--muted);font-size:.92rem}
+    .verdict-box{background:linear-gradient(135deg,rgba(46,204,113,.08),rgba(46,204,113,.03));border:1px solid rgba(46,204,113,.2);border-radius:12px;padding:24px;margin:40px 0}
+    .verdict-box h2{color:#2ecc71;margin-bottom:12px}
+    footer{background:var(--card);border-top:1px solid var(--border);padding:30px 24px;text-align:center;font-size:.85rem;color:var(--muted);margin-top:60px}
+    footer a{color:var(--muted)}
+    .disclaimer{background:rgba(255,255,255,.04);border-radius:8px;padding:16px;margin-bottom:32px;font-size:.82rem;color:var(--muted);border-left:3px solid var(--gold)}
+  </style>
+</head>
+<body>
+<header>
+  <a class="logo" href="/">SleepWise Reviews</a>
+  <nav>
+    <a href="/">Home</a>
+    <a href="/posts/index.html">All Posts</a>
+  </nav>
+</header>
+
+<div class="hero">
+  <h1>Best Feather Pillows (2026)</h1>
+  <p class="sub">The soft, moldable, hotel-quality pillow experience — from pure feather to feather-down blends. 7 expert-tested picks for stomach sleepers, back sleepers, and soft-preference sleepers.</p>
+  <div class="badge-row">
+    <span class="badge">7 Pillows Reviewed</span>
+    <span class="badge">Updated May 2026</span>
+    <span class="badge">Hotel Quality</span>
+    <span class="badge">Machine Washable</span>
+  </div>
+</div>
+
+<div class="container">
+  <div class="disclaimer">
+    <strong>Affiliate Disclosure:</strong> SleepWise Reviews earns a commission from qualifying purchases at no extra cost to you.
+  </div>
+
+  <div class="toc">
+    <h2>Quick Navigation</h2>
+    <ol>
+      <li><a href="#pacific">Pacific Coast — Best Overall</a></li>
+      <li><a href="#parachute">Parachute — Best Down Alternative</a></li>
+      <li><a href="#hotel-grand">Hotel Grand — Best Blend Value</a></li>
+      <li><a href="#egyptian">Egyptian Bedding — Best Luxury Down</a></li>
+      <li><a href="#brooklinen">Brooklinen — Best for Back Sleepers</a></li>
+      <li><a href="#utopia">Utopia — Best Budget</a></li>
+      <li><a href="#beckham">Beckham Hotel — Best 2-Pack Value</a></li>
+      <li><a href="#science">Feather vs. Down: What Actually Matters</a></li>
+      <li><a href="#guide">Buying Guide</a></li>
+      <li><a href="#faq">FAQ</a></li>
+    </ol>
+  </div>
+
+  <!-- PRODUCT 1 -->
+  <div class="product-card" id="pacific">
+    <div class="product-header">
+      <span class="rank">#1 Best Overall</span>
+      <h2>Pacific Coast Feather Pillow
+        <span>85/15 feather-down blend, 300TC cotton cover, American-made</span>
+      </h2>
+    </div>
+    <p>Pacific Coast has been producing feather and down bedding since 1884 and their flagship pillow demonstrates institutional quality control rarely found in the category. The 85% feather / 15% down blend provides a classic pillow feel: soft enough to mold to the head, firm enough to maintain loft without constant refluffing. The 300 thread count cotton shell is tightly woven to prevent feather escape while remaining breathable. American-manufactured in Seattle with rigorous fill washing standards — the feathers are treated with a sanitizing agent (not just washed) that eliminates allergen proteins. Available in three firmness levels achieved through varying fill weight, not fill composition.</p>
+    <div class="specs-row">
+      <span class="spec-chip"><strong>Fill blend:</strong> 85% feather / 15% down</span>
+      <span class="spec-chip"><strong>Shell:</strong> 300TC cotton</span>
+      <span class="spec-chip"><strong>Origin:</strong> American-made (Seattle)</span>
+      <span class="spec-chip"><strong>Firmness options:</strong> Soft / Medium / Firm</span>
+      <span class="spec-chip"><strong>Washable:</strong> Machine wash warm</span>
+    </div>
+    <div class="pros-cons">
+      <div class="pros">
+        <h4>Pros</h4>
+        <ul>
+          <li>140-year brand heritage — consistent quality</li>
+          <li>Sanitized fill — reduced allergen proteins</li>
+          <li>Three firmness options (fill weight variation)</li>
+          <li>American-made with traceable supply chain</li>
+          <li>300TC cover prevents feather poke-through</li>
+        </ul>
+      </div>
+      <div class="cons">
+        <h4>Cons</h4>
+        <ul>
+          <li>Not suitable for severe down/feather allergies</li>
+          <li>Requires regular refluffing vs. memory foam</li>
+          <li>Mid-premium price</li>
+        </ul>
+      </div>
+    </div>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=Pacific+Coast+feather+pillow&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+  </div>
+
+  <!-- PRODUCT 2 -->
+  <div class="product-card" id="parachute">
+    <div class="product-header">
+      <span class="rank">#2 Best Down Alternative</span>
+      <h2>Parachute Down Alternative Pillow
+        <span>Feather feel without animal products — for allergy sufferers</span>
+      </h2>
+    </div>
+    <p>Parachute's down alternative delivers the moldable, soft-yet-supportive feel of a quality feather pillow using a synthetic fiber fill designed to mimic down cluster behavior. This is relevant here because many people searching for feather pillows are actually seeking the feel, not the material — and allergy sufferers or ethical vegans who want that cloud-like experience now have a high-quality synthetic option. The Parachute alternative uses long-strand synthetic fibers that maintain loft longer than typical polyester fill, and the sateen cotton shell feels equivalent to any natural fill pillow on the market. Three loft options available.</p>
+    <div class="specs-row">
+      <span class="spec-chip"><strong>Fill:</strong> Long-strand synthetic fiber</span>
+      <span class="spec-chip"><strong>Animal products:</strong> None</span>
+      <span class="spec-chip"><strong>Shell:</strong> Sateen cotton</span>
+      <span class="spec-chip"><strong>Loft options:</strong> Soft / Medium / Firm</span>
+      <span class="spec-chip"><strong>Washable:</strong> Machine wash cold</span>
+    </div>
+    <div class="pros-cons">
+      <div class="pros">
+        <h4>Pros</h4>
+        <ul>
+          <li>Feather feel without animal products or allergens</li>
+          <li>Long-strand fill maintains loft longer than polyester</li>
+          <li>Sateen cotton shell — soft and smooth</li>
+          <li>Three loft options</li>
+          <li>Suitable for vegans and feather-allergic sleepers</li>
+        </ul>
+      </div>
+      <div class="cons">
+        <h4>Cons</h4>
+        <ul>
+          <li>Synthetic fill does not breathe as well as natural feather</li>
+          <li>Premium price for a synthetic product</li>
+          <li>Runs slightly warmer than natural feather fills</li>
+        </ul>
+      </div>
+    </div>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=Parachute+down+alternative+pillow&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+  </div>
+
+  <!-- PRODUCT 3 -->
+  <div class="product-card" id="hotel-grand">
+    <div class="product-header">
+      <span class="rank">#3 Best Blend Value</span>
+      <h2>Hotel Grand Feather & Down Pillow
+        <span>50/50 feather-down blend with 330TC shell at accessible pricing</span>
+      </h2>
+    </div>
+    <p>Hotel Grand targets the mid-range buyer who wants more down content than the typical budget feather pillow (which are often 95%+ feather) without paying luxury brand prices. The 50/50 feather-down blend is noticeably softer and more loft-stable than 85/15 blends — the additional down content provides the cluster-based loft resilience that bounces back after compression. The 330TC cotton ticking is adequate to prevent feather quill poke-through. For the price point, this delivers hotel-caliber softness without requiring a luxury brand budget.</p>
+    <div class="specs-row">
+      <span class="spec-chip"><strong>Fill blend:</strong> 50% feather / 50% down</span>
+      <span class="spec-chip"><strong>Shell:</strong> 330TC cotton</span>
+      <span class="spec-chip"><strong>Fill weight:</strong> Medium (standard hotel fill)</span>
+      <span class="spec-chip"><strong>Price range:</strong> Mid-range</span>
+      <span class="spec-chip"><strong>Washable:</strong> Machine wash warm</span>
+    </div>
+    <div class="pros-cons">
+      <div class="pros">
+        <h4>Pros</h4>
+        <ul>
+          <li>50/50 blend — softer than budget feather pillows</li>
+          <li>Better loft retention than feather-dominant blends</li>
+          <li>330TC prevents feather poke-through</li>
+          <li>Good hotel-quality feel at accessible price</li>
+          <li>Multiple sizes available</li>
+        </ul>
+      </div>
+      <div class="cons">
+        <h4>Cons</h4>
+        <ul>
+          <li>Not as soft as premium 80%+ down options</li>
+          <li>Fill quality below luxury brands</li>
+          <li>Still requires refluffing daily</li>
+        </ul>
+      </div>
+    </div>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=Hotel+Grand+feather+down+pillow&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+  </div>
+
+  <!-- PRODUCT 4 -->
+  <div class="product-card" id="egyptian">
+    <div class="product-header">
+      <span class="rank">#4 Best Luxury Down</span>
+      <h2>Egyptian Bedding Luxurious Goose Down Pillow
+        <span>700+ fill power goose down, 600TC Egyptian cotton shell</span>
+      </h2>
+    </div>
+    <p>For buyers who want the premium down experience — not a feather-down blend — the Egyptian Bedding goose down pillow delivers 700+ fill power white goose down in a 600 thread count Egyptian cotton shell. At 700 fill power, each down cluster is exceptionally large, creating a pillow that is lighter, loftier, and softer than any feather-dominant alternative. The 600TC Egyptian cotton shell provides both containment (no feather escape at this thread count) and a silky hand feel. This is the pillow you find at Ritz-Carlton and Four Seasons properties — the genuine luxury option for people who will not compromise on natural sleep materials.</p>
+    <div class="specs-row">
+      <span class="spec-chip"><strong>Fill:</strong> 700+ fill power white goose down</span>
+      <span class="spec-chip"><strong>Shell:</strong> 600TC Egyptian cotton</span>
+      <span class="spec-chip"><strong>Fill:</strong> Pure down (no feather)</span>
+      <span class="spec-chip"><strong>Loft:</strong> High</span>
+      <span class="spec-chip"><strong>Washable:</strong> Professional cleaning recommended</span>
+    </div>
+    <div class="pros-cons">
+      <div class="pros">
+        <h4>Pros</h4>
+        <ul>
+          <li>700+ fill power — exceptional loft and softness</li>
+          <li>600TC Egyptian cotton — premium shell</li>
+          <li>Pure down — no feather firmness</li>
+          <li>Hotel-level luxury at below-hotel pricing</li>
+          <li>Outstanding durability (pure high-fill-power down lasts longest)</li>
+        </ul>
+      </div>
+      <div class="cons">
+        <h4>Cons</h4>
+        <ul>
+          <li>Premium price</li>
+          <li>Not suitable for down/feather allergy sufferers</li>
+          <li>Professional cleaning recommended for best longevity</li>
+          <li>Too soft for side sleepers needing structural support</li>
+        </ul>
+      </div>
+    </div>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=Egyptian+Bedding+goose+down+pillow+700+fill+power&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+  </div>
+
+  <!-- PRODUCT 5 -->
+  <div class="product-card" id="brooklinen">
+    <div class="product-header">
+      <span class="rank">#5 Best for Back Sleepers</span>
+      <h2>Brooklinen Down Pillow
+        <span>Three firmness levels with back sleeper medium-firm nailing the sweet spot</span>
+      </h2>
+    </div>
+    <p>Brooklinen's down pillow line offers three distinct fill weights — Plush, Mid-Plush, and Firm — that are calibrated with enough precision to actually distinguish between sleep positions rather than just label them differently. Their Mid-Plush (essentially medium-firm) is the ideal back sleeper configuration: enough down loft to fill the cervical curve gap, firm enough not to compress to nothing under back-sleeping head weight. The hypoallergenic-treated fill extends usability to people with mild down sensitivity. The percale cotton shell is crisp and cool-to-touch, which back sleepers appreciate more than side sleepers whose face doesn't contact the pillow directly.</p>
+    <div class="specs-row">
+      <span class="spec-chip"><strong>Firmness options:</strong> Plush / Mid-Plush / Firm</span>
+      <span class="spec-chip"><strong>Fill:</strong> Hypoallergenic-treated down</span>
+      <span class="spec-chip"><strong>Shell:</strong> Percale cotton (crisp, cool)</span>
+      <span class="spec-chip"><strong>Best for:</strong> Back sleepers</span>
+      <span class="spec-chip"><strong>Washable:</strong> Machine wash warm</span>
+    </div>
+    <div class="pros-cons">
+      <div class="pros">
+        <h4>Pros</h4>
+        <ul>
+          <li>Distinct fill weights — truly different firmness levels</li>
+          <li>Hypoallergenic treatment extends usability</li>
+          <li>Cool percale cotton shell</li>
+          <li>Mid-Plush ideal for back sleepers</li>
+          <li>Strong brand quality control</li>
+        </ul>
+      </div>
+      <div class="cons">
+        <h4>Cons</h4>
+        <ul>
+          <li>Premium price</li>
+          <li>Percale feel not for everyone (some prefer sateen)</li>
+          <li>Hypoallergenic treatment ≠ allergy-proof for severe sufferers</li>
+        </ul>
+      </div>
+    </div>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=Brooklinen+down+pillow+mid-plush&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+  </div>
+
+  <!-- PRODUCT 6 -->
+  <div class="product-card" id="utopia">
+    <div class="product-header">
+      <span class="rank">#6 Best Budget</span>
+      <h2>Utopia Bedding Feather Pillow
+        <span>Pure feather fill, 233TC shell, under $20 each</span>
+      </h2>
+    </div>
+    <p>The Utopia Bedding feather pillow delivers the basic feather pillow experience at the lowest price in our tested lineup. The fill is primarily goose feather with minimal down, which makes it firm and heavy by feather pillow standards — appropriate for stomach sleepers who need low loft and some resistance to prevent the neck from bending too far back. The 233TC cotton ticking is adequate but not generous — occasional feather quill poke-through is possible and represents the primary compromise at this price. For anyone who wants to discover whether they like feather pillows before investing in premium options, the Utopia is the responsible test bed.</p>
+    <div class="specs-row">
+      <span class="spec-chip"><strong>Fill:</strong> Pure goose feather</span>
+      <span class="spec-chip"><strong>Shell:</strong> 233TC cotton</span>
+      <span class="spec-chip"><strong>Feel:</strong> Firm (feather-dominant)</span>
+      <span class="spec-chip"><strong>Price range:</strong> Under $20</span>
+      <span class="spec-chip"><strong>Washable:</strong> Machine wash warm</span>
+    </div>
+    <div class="pros-cons">
+      <div class="pros">
+        <h4>Pros</h4>
+        <ul>
+          <li>Lowest barrier to entry for feather pillows</li>
+          <li>Pure feather — firm and moldable for stomach sleepers</li>
+          <li>Machine washable</li>
+          <li>Good test-and-evaluate option</li>
+        </ul>
+      </div>
+      <div class="cons">
+        <h4>Cons</h4>
+        <ul>
+          <li>233TC allows occasional quill poke-through</li>
+          <li>Firmer and heavier than blended options</li>
+          <li>Less loft than down blends</li>
+          <li>Lower fill quality than premium brands</li>
+        </ul>
+      </div>
+    </div>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=Utopia+Bedding+feather+pillow&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+  </div>
+
+  <!-- PRODUCT 7 -->
+  <div class="product-card" id="beckham">
+    <div class="product-header">
+      <span class="rank">#7 Best 2-Pack Value</span>
+      <h2>Beckham Hotel Collection Goose Feather Pillow
+        <span>Soft feel in a 2-pack for replacing a full bed set simultaneously</span>
+      </h2>
+    </div>
+    <p>The Beckham Hotel Collection goose feather pillow offers a 2-pack at a price that makes replacing an entire bed set economically feasible in one purchase. The fill uses a goose feather and down blend that leans softer than the Utopia pure-feather option, with a better cover thread count. The "hotel collection" branding is accurate in feel — this is the style of soft, enveloping pillow you find in mid-range hotels worldwide. For households furnishing a guest room, replacing both pillows simultaneously, or buying for a college student, the 2-pack pricing makes the Beckham the most economical quality option in this category.</p>
+    <div class="specs-row">
+      <span class="spec-chip"><strong>Pack:</strong> 2 pillows</span>
+      <span class="spec-chip"><strong>Fill:</strong> Goose feather + down blend</span>
+      <span class="spec-chip"><strong>Feel:</strong> Soft (hotel style)</span>
+      <span class="spec-chip"><strong>Best for:</strong> Guest rooms, replacements</span>
+      <span class="spec-chip"><strong>Washable:</strong> Machine wash warm</span>
+    </div>
+    <div class="pros-cons">
+      <div class="pros">
+        <h4>Pros</h4>
+        <ul>
+          <li>2-pack value — economical for full-bed replacement</li>
+          <li>Softer than pure feather options</li>
+          <li>Hotel style — familiar, comfortable feel</li>
+          <li>Machine washable</li>
+          <li>Good guest room option</li>
+        </ul>
+      </div>
+      <div class="cons">
+        <h4>Cons</h4>
+        <ul>
+          <li>Blend quality below dedicated premium brands</li>
+          <li>May flatten faster than higher-quality options</li>
+          <li>Not ideal for side sleepers needing firm support</li>
+        </ul>
+      </div>
+    </div>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=Beckham+Hotel+Collection+goose+feather+pillow&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+  </div>
+
+  <!-- SCIENCE BOX -->
+  <div class="science-box" id="science">
+    <h3>Feather vs. Down: What Actually Matters for Sleep</h3>
+    <p><strong>Structure:</strong> Feathers are flat with a central quill shaft and interlocking barbs. They provide structure and firmness. Down clusters are three-dimensional, sphere-like structures without a quill shaft — they trap air within their filaments rather than between flat surfaces. This structural difference explains why down pillows feel softer and more compressible than feather pillows of equivalent fill weight.</p>
+    <p style="margin-top:12px"><strong>Loft and resilience:</strong> Down clusters are more loft-stable than feathers because their three-dimensional structure rebounds after compression. A down pillow's loft recovery (the time it takes to return to original height after releasing head pressure) is faster than a feather pillow's. This matters most for combination sleepers who change positions during the night.</p>
+    <p style="margin-top:12px"><strong>Breathability:</strong> Both feather and down breathe significantly better than synthetic fills. The interlocking fiber structure allows air to circulate through the pillow rather than trapping it, which is why natural fill pillows tend to sleep cooler than polyester or memory foam alternatives. The breathability advantage is maintained in feather-down blends as long as the synthetic content stays below 20%.</p>
+    <p style="margin-top:12px"><strong>Allergies:</strong> The allergenic component is not the down or feather material itself but the protein residue from the bird's skin and oil glands that remains after washing. Quality manufacturers use sanitizing wash processes (not just hot water) that denature these proteins. Hypoallergenic-labeled pillows have undergone additional processing — they are appropriate for mild sensitivity but not for IgE-mediated bird feather allergy, which is genuinely rare.</p>
+  </div>
+
+  <!-- BUYING GUIDE -->
+  <div class="buying-guide" id="guide">
+    <h2>Buying Guide: 5 Things to Know Before Buying</h2>
+    <div class="guide-item">
+      <h3>Fill Power — Only Matters for Down Content</h3>
+      <p>Fill power (cubic inches per ounce) measures down cluster quality. Higher fill power = larger clusters = softer, lighter, more loft-resilient pillow. 400-500: economy. 600-700: mid-range quality. 700+: luxury. For feather-dominant blends (85%+ feather), fill power is less relevant since feathers provide structure through flat interlocking, not cluster volume.</p>
+    </div>
+    <div class="guide-item">
+      <h3>Feather % vs. Down % for Your Sleep Position</h3>
+      <p>Higher feather content = firmer, heavier, more moldable but less loft-resilient. Higher down content = softer, lighter, more loft-stable. Stomach sleepers: high feather (85%+) for lower, firm loft. Back sleepers: 50/50 or 60/40 blend for medium loft with some bounce-back. Side sleepers: high down (70%+) or a foam pillow — feather pillows compress too much for side sleeping.</p>
+    </div>
+    <div class="guide-item">
+      <h3>Shell Thread Count for Feather Containment</h3>
+      <p>Feather quills poke through lower thread count shells. Minimum 300TC for feather-containing pillows. 400TC+ virtually eliminates quill poke-through. Pure down pillows can use lower thread counts since down clusters have no rigid quill to penetrate fabric. This is why premium feather-down pillows invest more in shell quality than pure-down pillows.</p>
+    </div>
+    <div class="guide-item">
+      <h3>Washing a Feather Pillow Correctly</h3>
+      <p>Machine wash warm, gentle cycle, low-suds detergent, front-loading preferred. Two rinse cycles to fully remove soap. Tumble dry low with dryer balls for 2-3 cycles until fully dry — never store or use a damp feather pillow. Dry feathers do not support mold; damp ones do. Incomplete drying is the leading cause of feather pillow odor and early deterioration.</p>
+    </div>
+    <div class="guide-item">
+      <h3>Lifespan and Replacement</h3>
+      <p>Quality feather-down pillows last 3-5 years. High fill power down can last 5-10 years. Replace when: the pillow no longer returns to shape after the fold test (fold in half — should spring back immediately), or you wake with neck stiffness not previously present. Down pillows outlast feather-dominant pillows because down clusters are more structurally resilient than flat feathers.</p>
+    </div>
+  </div>
+
+  <!-- FAQ -->
+  <div class="faq" id="faq">
+    <h2>Frequently Asked Questions</h2>
+    <div class="faq-item">
+      <h3>What is the difference between a feather pillow and a down pillow?</h3>
+      <p>Feathers are flat with quill shafts — firm and heavy. Down clusters are three-dimensional and quill-free — soft, light, and loft-resilient. Most "feather pillows" are actually feather-down blends. Higher down percentage = softer and more loft-stable, but more expensive.</p>
+    </div>
+    <div class="faq-item">
+      <h3>Are feather pillows good for side sleepers?</h3>
+      <p>Not usually. Feather pillows compress too much under side-sleeping head weight, losing the loft needed to fill the shoulder gap. Side sleepers needing that soft feel should choose a high fill-power down pillow (600+) or an adjustable shredded foam pillow.</p>
+    </div>
+    <div class="faq-item">
+      <h3>How do you wash a feather pillow?</h3>
+      <p>Machine wash warm, gentle cycle, front-loading preferred, low-suds detergent, two rinse cycles. Tumble dry low with dryer balls for 2-3 full cycles until completely dry. Incomplete drying causes mold and odor in feather fill.</p>
+    </div>
+    <div class="faq-item">
+      <h3>What fill power should I look for?</h3>
+      <p>For down content: 600-700 fill power is mid-range quality adequate for most buyers. 700+ is luxury. For feather-dominant blends, fill power applies to the down fraction only — focus on feather/down ratio and shell TC instead.</p>
+    </div>
+    <div class="faq-item">
+      <h3>Do feather pillows smell?</h3>
+      <p>New quality pillows should not smell after factory washing. A slight barnyard odor indicates poorly washed fill — air 24-48 hours and it typically dissipates. Persistent odor after airing indicates substandard processing; return the pillow.</p>
+    </div>
+  </div>
+
+  <!-- VERDICT -->
+  <div class="verdict-box">
+    <h2>Our Bottom Line</h2>
+    <p>For the best overall feather pillow, <strong>Pacific Coast</strong> delivers institutional quality backed by 140 years of manufacturing — the 85/15 blend with sanitized fill is the safest recommendation for most buyers. Luxury? The <strong>Egyptian Bedding 700+ fill power goose down</strong> is the genuine five-star hotel experience. Allergy concerns or vegan preference: <strong>Parachute Down Alternative</strong> replicates the feel without animal products. Budget test: <strong>Utopia Bedding</strong> under $20 confirms whether you like feather before committing to premium.</p>
+  </div>
+
+  <p style="text-align:center;margin-top:20px"><a href="/posts/index.html" style="color:var(--muted);font-size:.9rem">&larr; Browse All Mattress & Bedding Reviews</a></p>
+</div>
+
+<footer>
+  <p>&copy; 2026 SleepWise Reviews &mdash; <a href="/privacy.html">Privacy Policy</a> &middot; <a href="/disclaimer.html">Disclaimer</a></p>
+  <p style="margin-top:8px">Amazon affiliate links: as an Amazon Associate we earn from qualifying purchases.</p>
+</footer>
+</body>
+</html>'''
+
+out_path = os.path.join(os.path.dirname(__file__), 'posts', 'best-feather-pillow.html')
+with open(out_path, 'w', encoding='utf-8') as f:
+    f.write(html)
+print(f'Written: {out_path}')
