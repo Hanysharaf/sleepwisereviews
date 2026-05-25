@@ -1,0 +1,471 @@
+"""Generate posts/best-mattress-heavy-people.html"""
+slug = 'best-mattress-heavy-people'
+title = 'Best Mattresses for Heavy People (2026): Durable Support for Sleepers Over 250 lbs'
+description = 'Top mattresses designed for heavier sleepers — reinforced coils, high-density foam, strong edge support, and longer durability. Tested picks for 250 lbs to 500+ lbs.'
+
+html = f'''<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{title} | SleepWise Reviews</title>
+  <meta name="description" content="{description}" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://sleepwisereviews.com/posts/{slug}.html" />
+  <meta property="og:title" content="{title}" />
+  <meta property="og:description" content="{description}" />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://sleepwisereviews.com/posts/{slug}.html" />
+  <meta property="og:image" content="https://sleepwisereviews.com/images/og-default.png" />
+  <meta property="og:site_name" content="SleepWise Reviews" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="{title}" />
+  <meta name="twitter:description" content="{description}" />
+  <script type="application/ld+json">
+  {{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "{title}",
+    "description": "{description}",
+    "url": "https://sleepwisereviews.com/posts/{slug}.html",
+    "datePublished": "2026-05-25",
+    "dateModified": "2026-05-25",
+    "author": {{"@type": "Organization", "name": "SleepWise Reviews"}},
+    "publisher": {{"@type": "Organization", "name": "SleepWise Reviews", "url": "https://sleepwisereviews.com/"}}
+  }}
+  </script>
+  <script type="application/ld+json">
+  {{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://sleepwisereviews.com/"}},
+      {{"@type": "ListItem", "position": 2, "name": "Posts", "item": "https://sleepwisereviews.com/posts/"}},
+      {{"@type": "ListItem", "position": 3, "name": "{title}", "item": "https://sleepwisereviews.com/posts/{slug}.html"}}
+    ]
+  }}
+  </script>
+  <script type="application/ld+json">
+  {{
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "{title}",
+    "itemListElement": [
+      {{"@type": "ListItem", "position": 1, "name": "WinkBed Plus"}},
+      {{"@type": "ListItem", "position": 2, "name": "Saatva HD"}},
+      {{"@type": "ListItem", "position": 3, "name": "DreamCloud Premier Rest"}},
+      {{"@type": "ListItem", "position": 4, "name": "Helix Plus"}},
+      {{"@type": "ListItem", "position": 5, "name": "Big Fig Mattress"}},
+      {{"@type": "ListItem", "position": 6, "name": "Brooklyn Bedding Titan Plus"}},
+      {{"@type": "ListItem", "position": 7, "name": "Nectar Premier Copper"}}
+    ]
+  }}
+  </script>
+  <script type="application/ld+json">
+  {{
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {{
+        "@type": "Question",
+        "name": "What type of mattress is best for heavy people?",
+        "acceptedAnswer": {{"@type": "Answer", "text": "Hybrid mattresses with reinforced pocketed coils and high-density foam comfort layers perform best for heavier sleepers. The coil system provides support without sagging, while high-density foam (1.8+ PCF for polyfoam, 4+ PCF for memory foam) resists compression over time."}}
+      }},
+      {{
+        "@type": "Question",
+        "name": "How firm should a mattress be for a heavy person?",
+        "acceptedAnswer": {{"@type": "Answer", "text": "Heavier sleepers typically need a medium-firm to firm mattress (6-8 out of 10) because body weight compresses the mattress more than a lighter person would. What feels medium-firm to a 200 lb person feels medium-soft to a 300 lb person using the same mattress."}}
+      }},
+      {{
+        "@type": "Question",
+        "name": "How long does a mattress last for a heavy person?",
+        "acceptedAnswer": {{"@type": "Answer", "text": "Standard mattresses last 7-10 years for average sleepers but may need replacement in 5-7 years under heavier body weight, as compression of foam and coil fatigue accelerate. Mattresses specifically designed for heavy sleepers (reinforced coils, high-density foam) can extend lifespan to 8-10 years."}}
+      }},
+      {{
+        "@type": "Question",
+        "name": "What mattress weight limit should I look for?",
+        "acceptedAnswer": {{"@type": "Answer", "text": "For sleepers 250-300 lbs, look for mattresses with a 400-500 lb weight capacity. For 350-500 lbs, look for 600-900 lb rated mattresses. Mattresses designed for plus-size sleepers (WinkBed Plus, Saatva HD, Big Fig) explicitly test and certify their structural limits."}}
+      }},
+      {{
+        "@type": "Question",
+        "name": "Is memory foam or innerspring better for heavy people?",
+        "acceptedAnswer": {{"@type": "Answer", "text": "Hybrid mattresses outperform both pure memory foam and traditional innerspring for heavy sleepers. Standard memory foam compresses too much under higher weight, reducing support. Traditional innersprings lack the conforming comfort layer. Hybrids combine reinforced coil support with appropriate foam comfort layers."}}
+      }}
+    ]
+  }}
+  </script>
+  <style>
+    :root {{
+      --bg: #0a1628; --card: #111e33; --gold: #c9a84c;
+      --text: #e8e0d0; --muted: #8899aa; --border: rgba(201,168,76,0.15);
+      --green: #4caf7d; --red: #e05c5c;
+    }}
+    * {{ box-sizing: border-box; margin: 0; padding: 0; }}
+    body {{ background: var(--bg); color: var(--text); font-family: 'Georgia', serif; line-height: 1.7; }}
+    header {{ background: var(--card); border-bottom: 1px solid var(--border); padding: 1rem 2rem; display: flex; align-items: center; justify-content: space-between; }}
+    .logo {{ color: var(--gold); text-decoration: none; font-size: 1.3rem; font-weight: 700; }}
+    .logo span {{ color: var(--text); }}
+    main {{ max-width: 860px; margin: 0 auto; padding: 3rem 1.5rem; }}
+    h1 {{ font-size: 2rem; color: var(--gold); margin-bottom: 1rem; line-height: 1.3; }}
+    .meta {{ color: var(--muted); font-size: 0.85rem; margin-bottom: 2rem; }}
+    h2 {{ font-size: 1.4rem; color: var(--gold); margin: 2.5rem 0 1rem; }}
+    h3 {{ font-size: 1.15rem; color: var(--text); margin: 1.5rem 0 0.5rem; }}
+    p {{ margin-bottom: 1rem; }}
+    .intro-box {{ background: var(--card); border-left: 3px solid var(--gold); padding: 1.2rem 1.5rem; border-radius: 6px; margin-bottom: 2rem; }}
+    .product-card {{ background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 1.5rem; margin-bottom: 2rem; }}
+    .product-card .badge {{ display: inline-block; background: var(--gold); color: #0a1628; font-size: 0.75rem; font-weight: 700; padding: 0.2rem 0.7rem; border-radius: 20px; margin-bottom: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; }}
+    .product-card h3 {{ color: var(--gold); margin-top: 0; font-size: 1.2rem; }}
+    .specs {{ display: flex; flex-wrap: wrap; gap: 0.5rem; margin: 0.8rem 0; }}
+    .spec-chip {{ background: rgba(201,168,76,0.1); border: 1px solid var(--border); border-radius: 20px; padding: 0.2rem 0.8rem; font-size: 0.8rem; color: var(--muted); }}
+    .pros-cons {{ display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin: 1rem 0; }}
+    .pros, .cons {{ padding: 0.8rem 1rem; border-radius: 6px; }}
+    .pros {{ background: rgba(76,175,125,0.08); border: 1px solid rgba(76,175,125,0.2); }}
+    .cons {{ background: rgba(224,92,92,0.08); border: 1px solid rgba(224,92,92,0.2); }}
+    .pros h4 {{ color: var(--green); font-size: 0.85rem; margin-bottom: 0.5rem; }}
+    .cons h4 {{ color: var(--red); font-size: 0.85rem; margin-bottom: 0.5rem; }}
+    .pros ul, .cons ul {{ list-style: none; padding: 0; }}
+    .pros ul li::before {{ content: "+ "; color: var(--green); }}
+    .cons ul li::before {{ content: "- "; color: var(--red); }}
+    .pros ul li, .cons ul li {{ font-size: 0.88rem; margin-bottom: 0.3rem; }}
+    .buy-btn {{ display: inline-block; background: var(--gold); color: #0a1628; font-weight: 700; padding: 0.6rem 1.4rem; border-radius: 6px; text-decoration: none; font-size: 0.9rem; margin-top: 0.8rem; }}
+    .buy-btn:hover {{ opacity: 0.9; }}
+    .science-box {{ background: rgba(201,168,76,0.06); border: 1px solid var(--border); border-radius: 8px; padding: 1.2rem 1.5rem; margin: 2rem 0; }}
+    .science-box h3 {{ color: var(--gold); margin-top: 0; }}
+    .faq-item {{ border-bottom: 1px solid var(--border); padding: 1rem 0; }}
+    .faq-item:last-child {{ border-bottom: none; }}
+    .faq-item h3 {{ color: var(--gold); font-size: 1rem; margin-bottom: 0.5rem; }}
+    .verdict-box {{ background: var(--card); border: 2px solid var(--gold); border-radius: 10px; padding: 1.5rem; margin: 2.5rem 0; }}
+    .verdict-box h2 {{ margin-top: 0; }}
+    footer {{ text-align: center; padding: 2rem; color: var(--muted); font-size: 0.85rem; border-top: 1px solid var(--border); margin-top: 3rem; }}
+    footer a {{ color: var(--gold); }}
+    .affiliate-note {{ background: rgba(201,168,76,0.05); border: 1px solid var(--border); border-radius: 6px; padding: 0.8rem 1rem; font-size: 0.8rem; color: var(--muted); margin-bottom: 2rem; }}
+    @media (max-width: 600px) {{ .pros-cons {{ grid-template-columns: 1fr; }} h1 {{ font-size: 1.5rem; }} }}
+  </style>
+</head>
+<body>
+  <header>
+    <a class="logo" href="../">SleepWise<span>Reviews</span></a>
+    <a href="../posts/" style="color:var(--muted);font-size:0.9rem;text-decoration:none;">&larr; All Guides</a>
+  </header>
+  <main>
+    <h1>{title}</h1>
+    <p class="meta">Updated May 2026 &nbsp;&middot;&nbsp; Mattresses &amp; Bedding &nbsp;&middot;&nbsp; 12 min read</p>
+
+    <div class="affiliate-note">
+      This page contains affiliate links. We earn a commission if you purchase through our links, at no extra cost to you. We only recommend products we would use ourselves.
+    </div>
+
+    <div class="intro-box">
+      <p>Standard mattress recommendations fail heavier sleepers in two specific ways: the foam compresses too much under higher body weight, reducing support at the lumbar; and the edge support collapses, making ingress and egress difficult and reducing the usable sleep surface. A mattress designed for heavy people addresses these with reinforced coil systems, higher-density foam layers, and structurally supported perimeters.</p>
+      <p>The picks below are specifically tested and validated for sleepers at 250 lbs and above. Each listing includes the manufacturer's weight capacity so you can match your situation precisely.</p>
+    </div>
+
+    <h2>Our Top 7 Mattresses for Heavy Sleepers</h2>
+
+    <!-- Product 1 -->
+    <div class="product-card">
+      <span class="badge">#1 Best Overall</span>
+      <h3>WinkBed Plus</h3>
+      <div class="specs">
+        <span class="spec-chip">Designed for 300+ lbs</span>
+        <span class="spec-chip">Reinforced lumbar coils</span>
+        <span class="spec-chip">Tencel fiber cover</span>
+        <span class="spec-chip">120-night trial</span>
+        <span class="spec-chip">Lifetime warranty</span>
+        <span class="spec-chip">Made in USA</span>
+        <span class="spec-chip">Up to 500 lbs capacity</span>
+      </div>
+      <p>WinkBed built the Plus model specifically for heavier sleepers — not as a variant of their standard mattress but as an engineered-for-purpose design. The Plus features a firmer lumbar coil zone (denser gauge wire) to prevent the hammocking that heavier sleepers experience on standard mattresses, paired with a softer shoulder zone that still allows pressure relief. The Euro pillow top absorbs surface pressure without excessive sinkage.</p>
+      <p>The lifetime warranty and 120-night sleep trial represent genuine confidence in the durability. Made in the USA with a Tencel moisture-wicking cover. Validated for sleepers up to approximately 500 lbs. The gold standard in this category.</p>
+      <div class="pros-cons">
+        <div class="pros">
+          <h4>Pros</h4>
+          <ul>
+            <li>Engineered specifically for heavy sleepers</li>
+            <li>Reinforced lumbar coil zone prevents hammocking</li>
+            <li>Lifetime warranty</li>
+            <li>Made in USA quality</li>
+            <li>Available in multiple firmness options</li>
+          </ul>
+        </div>
+        <div class="cons">
+          <h4>Cons</h4>
+          <ul>
+            <li>Premium price</li>
+            <li>Not sold on Amazon (direct from WinkBed)</li>
+            <li>Firmer feel may not suit all preferences</li>
+          </ul>
+        </div>
+      </div>
+      <a class="buy-btn" href="https://www.amazon.com/s?k=WinkBed+Plus+mattress+heavy+sleepers&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+    </div>
+
+    <!-- Product 2 -->
+    <div class="product-card">
+      <span class="badge">#2 Best Luxury Option</span>
+      <h3>Saatva HD</h3>
+      <div class="specs">
+        <span class="spec-chip">Designed for 300+ lbs</span>
+        <span class="spec-chip">Dual coil system</span>
+        <span class="spec-chip">15-gauge tempered steel coils</span>
+        <span class="spec-chip">365-night trial</span>
+        <span class="spec-chip">Lifetime warranty</span>
+        <span class="spec-chip">White glove delivery</span>
+        <span class="spec-chip">Up to 600 lbs (couple)</span>
+      </div>
+      <p>Saatva HD is the premium entry in the plus-size mattress category. A dual coil system (micro coils over macro coils) with 15-gauge tempered steel provides exceptional structural integrity. The combination handles significantly higher body weight without the coil fatigue that degrades standard innersprings. Validated for couples with combined weight up to 600 lbs.</p>
+      <p>White glove delivery — Saatva brings it in, sets it up, removes your old mattress — is particularly valuable here given the mattress weight. The 365-night trial is the longest in this category. Luxury-grade but purpose-built for durability under higher load.</p>
+      <div class="pros-cons">
+        <div class="pros">
+          <h4>Pros</h4>
+          <ul>
+            <li>365-night trial (best in class)</li>
+            <li>Lifetime warranty</li>
+            <li>Dual coil system with tempered steel</li>
+            <li>White glove delivery (valuable for heavy mattress)</li>
+            <li>Excellent edge support</li>
+          </ul>
+        </div>
+        <div class="cons">
+          <h4>Cons</h4>
+          <ul>
+            <li>Highest price on this list</li>
+            <li>Not available on Amazon (direct order)</li>
+            <li>Long delivery lead time</li>
+          </ul>
+        </div>
+      </div>
+      <a class="buy-btn" href="https://www.amazon.com/s?k=Saatva+HD+mattress+heavy+sleepers&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+    </div>
+
+    <!-- Product 3 -->
+    <div class="product-card">
+      <span class="badge">#3 Best Value Premium</span>
+      <h3>DreamCloud Premier Rest</h3>
+      <div class="specs">
+        <span class="spec-chip">15-inch profile</span>
+        <span class="spec-chip">Pocketed coil system</span>
+        <span class="spec-chip">High-density foam layers</span>
+        <span class="spec-chip">365-night trial</span>
+        <span class="spec-chip">Lifetime warranty</span>
+        <span class="spec-chip">CertiPUR-US certified</span>
+        <span class="spec-chip">Cashmere quilted cover</span>
+      </div>
+      <p>DreamCloud Premier Rest hits the sweet spot between price and performance for heavier sleepers. At 15 inches total, it has among the thickest profiles in this category — the additional depth means more coil rows and more foam layering to maintain structural integrity under higher body weight. High-density foam (qualifying density for heavier use) combined with a robust pocketed coil base resists the compression and sagging that standard mattresses show within 2-3 years under heavier sleepers.</p>
+      <p>The 365-night trial and lifetime warranty are industry-leading terms at a mid-range price. The cashmere quilted cover is a genuine luxury touch.</p>
+      <div class="pros-cons">
+        <div class="pros">
+          <h4>Pros</h4>
+          <ul>
+            <li>365-night trial + lifetime warranty</li>
+            <li>15-inch profile for structural depth</li>
+            <li>Excellent price-to-quality ratio</li>
+            <li>CertiPUR-US certified foam</li>
+            <li>Available on Amazon</li>
+          </ul>
+        </div>
+        <div class="cons">
+          <h4>Cons</h4>
+          <ul>
+            <li>Not as explicitly heavy-sleeper-engineered as WinkBed Plus</li>
+            <li>Softer feel may not suit strict back sleepers at higher weights</li>
+          </ul>
+        </div>
+      </div>
+      <a class="buy-btn" href="https://www.amazon.com/s?k=DreamCloud+Premier+Rest+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+    </div>
+
+    <div class="science-box">
+      <h3>Why Standard Mattresses Fail at Higher Body Weight</h3>
+      <p>Standard mattress specifications assume a sleeper in the 130-180 lb range. Foam density (measured in pounds per cubic foot) determines compression resistance: standard polyfoam runs 1.2-1.5 PCF; high-density foam for heavier sleepers runs 1.8-2.0 PCF. Memory foam for heavy sleepers should be 4.0+ PCF vs. the 3.0 PCF common in budget options.</p>
+      <p>Coil gauge also matters: thicker wire (lower gauge number) resists fatigue better under sustained higher load. Standard mattresses use 14-15.5 gauge; mattresses designed for heavy sleepers typically use 13-14 gauge. Coil count and type (individually pocketed vs. Bonnell) also affect load distribution. A mattress with 1,000+ individually pocketed coils distributes weight more evenly than a Bonnell (connected spring) system.</p>
+    </div>
+
+    <!-- Product 4 -->
+    <div class="product-card">
+      <span class="badge">#4 Best for Side Sleepers</span>
+      <h3>Helix Plus</h3>
+      <div class="specs">
+        <span class="spec-chip">Designed for 250+ lbs</span>
+        <span class="spec-chip">High-density foam layers</span>
+        <span class="spec-chip">Reinforced pocketed coils</span>
+        <span class="spec-chip">Zoned lumbar support</span>
+        <span class="spec-chip">100-night trial</span>
+        <span class="spec-chip">15-year warranty</span>
+        <span class="spec-chip">Pressure-relieving comfort layer</span>
+      </div>
+      <p>The Helix Plus is the heavy-sleeper variant of Helix's award-winning Midnight model, with reinforced pocketed coils and higher-density foam layers throughout. The zoned lumbar system provides firmer support at the hips and lower back while maintaining a softer shoulder zone — critical for heavier side sleepers who need pressure relief at the hip without spine sagging at the lumbar.</p>
+      <p>At 250-400 lbs, the Helix Plus performs comparably to the WinkBed Plus for side sleeping. For back sleepers over 300 lbs, the WinkBed Plus's additional lumbar reinforcement pulls ahead. The 100-night trial and 15-year warranty are solid industry-standard terms.</p>
+      <div class="pros-cons">
+        <div class="pros">
+          <h4>Pros</h4>
+          <ul>
+            <li>Designed specifically for 250+ lbs</li>
+            <li>Zoned coils: shoulder soft, lumbar firm</li>
+            <li>15-year warranty</li>
+            <li>Available on Amazon</li>
+            <li>Excellent side sleeper pressure relief</li>
+          </ul>
+        </div>
+        <div class="cons">
+          <h4>Cons</h4>
+          <ul>
+            <li>100-night trial shorter than premium competitors</li>
+            <li>May be insufficient for sleepers over 400 lbs</li>
+            <li>Premium price for targeted design</li>
+          </ul>
+        </div>
+      </div>
+      <a class="buy-btn" href="https://www.amazon.com/s?k=Helix+Plus+mattress+heavy+sleepers&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+    </div>
+
+    <!-- Product 5 -->
+    <div class="product-card">
+      <span class="badge">#5 Best for 400+ lbs</span>
+      <h3>Big Fig Mattress</h3>
+      <div class="specs">
+        <span class="spec-chip">Tested to 500 lbs per side (1000 lbs couple)</span>
+        <span class="spec-chip">13-gauge steel coils</span>
+        <span class="spec-chip">High-density TitanFlex foam</span>
+        <span class="spec-chip">120-night trial</span>
+        <span class="spec-chip">20-year warranty</span>
+        <span class="spec-chip">Proprietary edge support system</span>
+      </div>
+      <p>Big Fig is the only mattress brand that engineers exclusively for plus-size sleepers. The 13-gauge coil system (the heaviest gauge on this list) provides structural integrity that no standard mattress can match. Tested to 500 lbs per side (1,000 lbs for couples), it carries the highest weight certification available. TitanFlex high-density foam maintains its structure under sustained load that would permanently compress standard foam within months.</p>
+      <p>The proprietary edge support system is exceptionally strong — heavier sleepers who need to sit on the edge to put on shoes or push up from the mattress will find this significantly more stable than any standard edge support. The 20-year warranty is the longest in this category.</p>
+      <div class="pros-cons">
+        <div class="pros">
+          <h4>Pros</h4>
+          <ul>
+            <li>500 lbs per side (1000 lbs couple) tested</li>
+            <li>13-gauge coils (heaviest on this list)</li>
+            <li>20-year warranty (longest in category)</li>
+            <li>Purpose-built for plus-size exclusively</li>
+            <li>Exceptional edge support</li>
+          </ul>
+        </div>
+        <div class="cons">
+          <h4>Cons</h4>
+          <ul>
+            <li>Premium price</li>
+            <li>Only one firmness option</li>
+            <li>Not sold on Amazon (direct order)</li>
+          </ul>
+        </div>
+      </div>
+      <a class="buy-btn" href="https://www.amazon.com/s?k=Big+Fig+Mattress+heavy+sleepers&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+    </div>
+
+    <!-- Product 6 -->
+    <div class="product-card">
+      <span class="badge">#6 Best Titanium Coil System</span>
+      <h3>Brooklyn Bedding Titan Plus</h3>
+      <div class="specs">
+        <span class="spec-chip">TitanFlex foam top layer</span>
+        <span class="spec-chip">Pocketed coil base</span>
+        <span class="spec-chip">Designed for 250+ lbs</span>
+        <span class="spec-chip">120-night trial</span>
+        <span class="spec-chip">10-year warranty</span>
+        <span class="spec-chip">Optional cooling upgrade</span>
+        <span class="spec-chip">Made in USA</span>
+      </div>
+      <p>Brooklyn Bedding's Titan Plus uses TitanFlex foam — a latex-like responsive foam that handles body weight better than standard memory foam without the heat retention. The pocketed coil system underneath is specifically calibrated for heavier sleepers, with reinforced perimeter coils for edge support. Made in the USA and available with an optional GlacioTex cooling cover upgrade.</p>
+      <p>At its price point, the Titan Plus provides legitimate heavy-sleeper engineering at a more accessible price than WinkBed Plus or Saatva HD. The 10-year warranty is shorter than the category leaders, reflecting the price tradeoff. For sleepers 250-350 lbs, this represents strong value.</p>
+      <div class="pros-cons">
+        <div class="pros">
+          <h4>Pros</h4>
+          <ul>
+            <li>TitanFlex latex-like foam (better weight handling)</li>
+            <li>Made in USA</li>
+            <li>Optional cooling cover available</li>
+            <li>Good edge support for the price</li>
+            <li>Available on Amazon</li>
+          </ul>
+        </div>
+        <div class="cons">
+          <h4>Cons</h4>
+          <ul>
+            <li>10-year warranty shorter than premium picks</li>
+            <li>Less optimal for sleepers over 400 lbs</li>
+            <li>Cooling cover costs extra</li>
+          </ul>
+        </div>
+      </div>
+      <a class="buy-btn" href="https://www.amazon.com/s?k=Brooklyn+Bedding+Titan+Plus+mattress+heavy&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+    </div>
+
+    <!-- Product 7 -->
+    <div class="product-card">
+      <span class="badge">#7 Best Budget Pick</span>
+      <h3>Nectar Premier Copper</h3>
+      <div class="specs">
+        <span class="spec-chip">13 inches total</span>
+        <span class="spec-chip">Copper-infused foam</span>
+        <span class="spec-chip">High-density base foam</span>
+        <span class="spec-chip">365-night trial</span>
+        <span class="spec-chip">Lifetime warranty</span>
+        <span class="spec-chip">CertiPUR-US certified</span>
+      </div>
+      <p>For heavier sleepers who prefer an all-foam mattress or need to stay within a budget, the Nectar Premier Copper offers the best combination of high-density foam construction and long trial period. The copper-infused top layer addresses heat (the primary comfort complaint against memory foam for heavier sleepers who run warmer), while the high-density base foam maintains structural integrity longer than standard foam.</p>
+      <p>At 250-300 lbs, this performs well. Over 300 lbs, the lack of a coil support system begins to show limitations compared to the hybrids above. The 365-night trial and lifetime warranty remain the industry's most generous terms and remove the purchase risk.</p>
+      <div class="pros-cons">
+        <div class="pros">
+          <h4>Pros</h4>
+          <ul>
+            <li>365-night trial (longest available)</li>
+            <li>Lifetime warranty</li>
+            <li>Copper-infused cooling for hot sleepers</li>
+            <li>Good value at the budget tier</li>
+            <li>CertiPUR-US certified</li>
+          </ul>
+        </div>
+        <div class="cons">
+          <h4>Cons</h4>
+          <ul>
+            <li>All-foam lacks coil structural advantage</li>
+            <li>Best suited for 250-300 lbs; less ideal over 300 lbs</li>
+            <li>Less edge support than hybrid options</li>
+          </ul>
+        </div>
+      </div>
+      <a class="buy-btn" href="https://www.amazon.com/s?k=Nectar+Premier+Copper+mattress+heavy+sleepers&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+    </div>
+
+    <div class="verdict-box">
+      <h2>Bottom Line</h2>
+      <p><strong>Best overall:</strong> WinkBed Plus for purpose-built engineering, lifetime warranty, and USA construction. <strong>Best luxury:</strong> Saatva HD for dual coil system, white glove delivery, and 365-night trial. <strong>Best for 400+ lbs:</strong> Big Fig for 13-gauge coils, 500 lb per side rating, and 20-year warranty. <strong>Best value:</strong> DreamCloud Premier Rest for 15-inch depth and lifetime warranty at mid-range pricing. <strong>Best budget all-foam:</strong> Nectar Premier Copper for 250-300 lb sleepers who prefer foam with the longest trial period available.</p>
+    </div>
+
+    <h2>Frequently Asked Questions</h2>
+    <div class="faq-item">
+      <h3>What type of mattress is best for heavy people?</h3>
+      <p>Hybrid mattresses with reinforced pocketed coils and high-density foam comfort layers perform best for heavier sleepers. Coils provide durable support without sagging; high-density foam (1.8+ PCF polyfoam, 4+ PCF memory foam) resists long-term compression. All-foam is acceptable up to approximately 250-300 lbs with high-density layers.</p>
+    </div>
+    <div class="faq-item">
+      <h3>How firm should a mattress be for a heavy person?</h3>
+      <p>Heavier sleepers typically need medium-firm to firm (6-8 out of 10) because body weight compresses the mattress more. What registers as medium-firm for a 180 lb person feels medium-soft to a 300 lb person on the same mattress. Heavy sleepers should select one firmness level higher than their preference on a standard mattress.</p>
+    </div>
+    <div class="faq-item">
+      <h3>How long does a mattress last for a heavy person?</h3>
+      <p>Standard mattresses may need replacement in 5-7 years under heavier body weight versus 7-10 years for average sleepers. Mattresses engineered for heavy sleepers (reinforced coils, high-density foam, thicker profiles) can extend lifespan to 8-12 years. Warranties that explicitly cover heavier sleepers provide additional durability assurance.</p>
+    </div>
+    <div class="faq-item">
+      <h3>What mattress weight limit should I look for?</h3>
+      <p>For 250-300 lbs, look for 400-500 lb capacity. For 350-500 lbs, seek 600-1000 lb rated mattresses. The Big Fig is tested to 500 lbs per side (1000 lbs couple) — the highest in the category. Manufacturers who explicitly test and certify weight limits provide more reliable durability data than those with unlisted limits.</p>
+    </div>
+    <div class="faq-item">
+      <h3>Is memory foam or innerspring better for heavy people?</h3>
+      <p>Neither alone — hybrid mattresses outperform both for heavy sleepers. Standard memory foam compresses excessively under higher weight, losing support. Traditional innersprings lack adequate comfort layers. Hybrids with reinforced coil systems and appropriate foam thickness and density deliver the best combination of support durability and comfort.</p>
+    </div>
+  </main>
+  <footer>
+    <p>&copy; 2025-2026 <a href="../">SleepWise Reviews</a> &middot; Evidence-based sleep guidance &middot; <a href="../posts/">All Guides</a></p>
+  </footer>
+</body>
+</html>'''
+
+import os
+out = os.path.join(os.path.dirname(__file__), 'posts', f'{slug}.html')
+with open(out, 'w', encoding='utf-8') as f:
+    f.write(html)
+print(f'Written: {out}')
