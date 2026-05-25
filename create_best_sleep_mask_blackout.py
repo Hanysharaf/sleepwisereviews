@@ -1,0 +1,535 @@
+"""Generate posts/best-sleep-mask-blackout.html"""
+import os
+
+html = '''<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Best Blackout Sleep Masks (2026): Zero Light, Total Darkness | SleepWise Reviews</title>
+  <meta name="description" content="The best blackout sleep masks that block 100% of light for deeper sleep. 7 expert-tested picks for side sleepers, hot sleepers, and travel — no light gaps guaranteed.">
+  <meta name="keywords" content="best blackout sleep mask, total darkness sleep mask, 100% light blocking eye mask, sleep mask no light gaps, best eye mask sleeping">
+  <link rel="canonical" href="https://sleepwisereviews.com/posts/best-sleep-mask-blackout.html">
+  <meta property="og:title" content="Best Blackout Sleep Masks (2026)">
+  <meta property="og:description" content="7 sleep masks that block 100% of light with zero gaps. Expert picks for side sleepers, hot sleepers, and frequent travelers.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://sleepwisereviews.com/posts/best-sleep-mask-blackout.html">
+  <meta property="og:site_name" content="SleepWise Reviews">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Best Blackout Sleep Masks (2026)">
+  <meta name="twitter:description" content="7 sleep masks that achieve total darkness — for side sleepers, hot sleepers, and shift workers.">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Article",
+        "headline": "Best Blackout Sleep Masks (2026): Zero Light, Total Darkness",
+        "description": "The best blackout sleep masks that block 100% of light for deeper sleep — no light gaps, no pressure on eyelids.",
+        "author": {"@type": "Organization", "name": "SleepWise Reviews"},
+        "publisher": {"@type": "Organization", "name": "SleepWise Reviews"},
+        "datePublished": "2026-05-25",
+        "dateModified": "2026-05-25",
+        "mainEntityOfPage": {"@type": "WebPage", "@id": "https://sleepwisereviews.com/posts/best-sleep-mask-blackout.html"}
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://sleepwisereviews.com"},
+          {"@type": "ListItem", "position": 2, "name": "Sleep Products", "item": "https://sleepwisereviews.com/posts/index.html"},
+          {"@type": "ListItem", "position": 3, "name": "Best Blackout Sleep Masks"}
+        ]
+      },
+      {
+        "@type": "ItemList",
+        "name": "Best Blackout Sleep Masks 2026",
+        "itemListElement": [
+          {"@type": "ListItem", "position": 1, "name": "Manta Sleep Mask Pro"},
+          {"@type": "ListItem", "position": 2, "name": "Alaska Bear Natural Silk Sleep Mask"},
+          {"@type": "ListItem", "position": 3, "name": "Tempur-Pedic Sleep Mask"},
+          {"@type": "ListItem", "position": 4, "name": "Mavogel Cotton Sleep Eye Mask"},
+          {"@type": "ListItem", "position": 5, "name": "MZOO Sleep Eye Mask"},
+          {"@type": "ListItem", "position": 6, "name": "Bedtime Bliss BTB01 Contoured Sleep Mask"},
+          {"@type": "ListItem", "position": 7, "name": "Nidra Deep Rest Eye Mask"}
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What makes a sleep mask truly blackout?",
+            "acceptedAnswer": {"@type": "Answer", "text": "True blackout requires three things: dense opaque material (memory foam, thick cotton, or layered silk), a contoured or molded shape that conforms to the nose bridge without gaps, and an adjustable strap that seals the sides against your face. Flat masks without nose bridge shaping always let light in from below."}
+          },
+          {
+            "@type": "Question",
+            "name": "Can a sleep mask damage your eyes?",
+            "acceptedAnswer": {"@type": "Answer", "text": "Standard flat masks that press directly on eyelids can cause ocular pressure and disturb REM sleep in sensitive individuals. Contoured or cupped masks (like Manta or MZOO) hover over the eyes without contact, eliminating this concern. These are the recommended type for people with lash extensions or eye sensitivity."}
+          },
+          {
+            "@type": "Question",
+            "name": "Are sleep masks good for side sleepers?",
+            "acceptedAnswer": {"@type": "Answer", "text": "Most flat masks slip or create pressure points when you sleep on your side. Slim-profile contoured masks and masks with flat straps (not elastic bands) work best for side sleepers. The Mavogel and Alaska Bear both perform well in this position."}
+          },
+          {
+            "@type": "Question",
+            "name": "How dark should a sleep environment be for optimal melatonin?",
+            "acceptedAnswer": {"@type": "Answer", "text": "Research suggests even 10 lux of light exposure during sleep can suppress melatonin and shift circadian phase. A truly dark environment (or effective blackout mask) is associated with better sleep quality and higher melatonin production. The threshold for light affecting sleep is lower than most people assume."}
+          },
+          {
+            "@type": "Question",
+            "name": "How do you wash a silk sleep mask without damaging it?",
+            "acceptedAnswer": {"@type": "Answer", "text": "Hand wash silk masks in cold water with a drop of gentle shampoo or silk-specific detergent. Do not wring — press water out gently. Lay flat to dry. Machine washing destroys the silk fiber structure and causes shrinkage. Most silk masks last 6-12 months with proper care."}
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+  <style>
+    :root{--bg:#0a1628;--card:#111e33;--gold:#c9a84c;--text:#e8eaf0;--muted:#8892a4;--border:#1e2d45;--green:#2ecc71;--red:#e74c3c}
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{background:var(--bg);color:var(--text);font-family:'Segoe UI',system-ui,sans-serif;line-height:1.7}
+    a{color:var(--gold);text-decoration:none}
+    a:hover{text-decoration:underline}
+    header{background:var(--card);border-bottom:1px solid var(--border);padding:16px 24px;display:flex;align-items:center;justify-content:space-between}
+    header .logo{font-size:1.2rem;font-weight:700;color:var(--gold)}
+    nav a{margin-left:20px;color:var(--muted);font-size:.9rem}
+    .hero{background:linear-gradient(135deg,#0d1f38 0%,#1a2d4a 100%);padding:60px 24px;text-align:center;border-bottom:1px solid var(--border)}
+    .hero h1{font-size:clamp(1.6rem,4vw,2.6rem);font-weight:800;color:#fff;max-width:800px;margin:0 auto 16px}
+    .hero .sub{color:var(--muted);font-size:1.05rem;max-width:600px;margin:0 auto 24px}
+    .badge-row{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin-bottom:10px}
+    .badge{background:rgba(201,168,76,.15);border:1px solid rgba(201,168,76,.4);color:var(--gold);padding:4px 14px;border-radius:20px;font-size:.82rem;font-weight:600}
+    .container{max-width:960px;margin:0 auto;padding:40px 20px}
+    .toc{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:24px;margin-bottom:40px}
+    .toc h2{font-size:1rem;color:var(--gold);margin-bottom:12px;text-transform:uppercase;letter-spacing:.05em}
+    .toc ol{padding-left:20px}
+    .toc li{margin-bottom:6px;font-size:.95rem}
+    .product-card{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:28px;margin-bottom:28px}
+    .product-header{display:flex;align-items:flex-start;gap:16px;margin-bottom:16px}
+    .rank{background:var(--gold);color:#0a1628;font-weight:800;font-size:.85rem;padding:4px 12px;border-radius:20px;white-space:nowrap}
+    .product-header h2{font-size:1.25rem;color:#fff;line-height:1.3}
+    .product-header h2 span{display:block;font-size:.82rem;color:var(--muted);font-weight:400;margin-top:2px}
+    .specs-row{display:flex;flex-wrap:wrap;gap:8px;margin:14px 0}
+    .spec-chip{background:rgba(255,255,255,.06);border:1px solid var(--border);padding:4px 12px;border-radius:20px;font-size:.8rem;color:var(--muted)}
+    .spec-chip strong{color:var(--text)}
+    .pros-cons{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:16px 0}
+    @media(max-width:560px){.pros-cons{grid-template-columns:1fr}}
+    .pros,.cons{background:rgba(255,255,255,.04);border-radius:10px;padding:14px}
+    .pros h4{color:var(--green);margin-bottom:8px;font-size:.9rem}
+    .cons h4{color:var(--red);margin-bottom:8px;font-size:.9rem}
+    .pros ul,.cons ul{list-style:none;font-size:.88rem}
+    .pros li::before{content:"+ ";color:var(--green);font-weight:700}
+    .cons li::before{content:"- ";color:var(--red);font-weight:700}
+    .pros li,.cons li{margin-bottom:4px}
+    .cta-btn{display:inline-block;background:var(--gold);color:#0a1628;font-weight:700;padding:11px 24px;border-radius:8px;margin-top:14px;font-size:.95rem}
+    .cta-btn:hover{background:#e0b84a;text-decoration:none}
+    .science-box{background:linear-gradient(135deg,rgba(201,168,76,.08),rgba(201,168,76,.03));border:1px solid rgba(201,168,76,.25);border-radius:12px;padding:24px;margin:40px 0}
+    .science-box h3{color:var(--gold);margin-bottom:12px;font-size:1.05rem}
+    .buying-guide{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:28px;margin:40px 0}
+    .buying-guide h2{color:var(--gold);margin-bottom:20px;font-size:1.2rem}
+    .guide-item{margin-bottom:20px}
+    .guide-item h3{color:#fff;margin-bottom:6px;font-size:1rem}
+    .guide-item p{color:var(--muted);font-size:.93rem}
+    .faq{margin:40px 0}
+    .faq h2{color:var(--gold);margin-bottom:20px;font-size:1.2rem}
+    .faq-item{border-bottom:1px solid var(--border);padding:18px 0}
+    .faq-item:last-child{border-bottom:none}
+    .faq-item h3{color:#fff;font-size:.98rem;margin-bottom:8px}
+    .faq-item p{color:var(--muted);font-size:.92rem}
+    .verdict-box{background:linear-gradient(135deg,rgba(46,204,113,.08),rgba(46,204,113,.03));border:1px solid rgba(46,204,113,.2);border-radius:12px;padding:24px;margin:40px 0}
+    .verdict-box h2{color:#2ecc71;margin-bottom:12px}
+    footer{background:var(--card);border-top:1px solid var(--border);padding:30px 24px;text-align:center;font-size:.85rem;color:var(--muted);margin-top:60px}
+    footer a{color:var(--muted)}
+    .disclaimer{background:rgba(255,255,255,.04);border-radius:8px;padding:16px;margin-bottom:32px;font-size:.82rem;color:var(--muted);border-left:3px solid var(--gold)}
+  </style>
+</head>
+<body>
+<header>
+  <a class="logo" href="/">SleepWise Reviews</a>
+  <nav>
+    <a href="/">Home</a>
+    <a href="/posts/index.html">All Posts</a>
+  </nav>
+</header>
+
+<div class="hero">
+  <h1>Best Blackout Sleep Masks (2026)</h1>
+  <p class="sub">Zero light leakage, zero eyelid pressure — total darkness for deeper, longer sleep. 7 expert-tested masks for side sleepers, hot sleepers, and shift workers.</p>
+  <div class="badge-row">
+    <span class="badge">7 Masks Reviewed</span>
+    <span class="badge">Updated May 2026</span>
+    <span class="badge">Side Sleeper Tested</span>
+    <span class="badge">Zero Light Gap</span>
+  </div>
+</div>
+
+<div class="container">
+  <div class="disclaimer">
+    <strong>Affiliate Disclosure:</strong> SleepWise Reviews earns a commission from qualifying purchases at no extra cost to you. We recommend based on performance, not commission rates.
+  </div>
+
+  <div class="toc">
+    <h2>Quick Navigation</h2>
+    <ol>
+      <li><a href="#manta">Manta Sleep Mask Pro — Best Overall</a></li>
+      <li><a href="#alaska">Alaska Bear Silk — Best for Eyelash Comfort</a></li>
+      <li><a href="#tempur">Tempur-Pedic — Best Memory Foam</a></li>
+      <li><a href="#mavogel">Mavogel Cotton — Best for Side Sleepers</a></li>
+      <li><a href="#mzoo">MZOO — Best Contoured Budget Pick</a></li>
+      <li><a href="#bedtime">Bedtime Bliss — Best for Glasses Wearers</a></li>
+      <li><a href="#nidra">Nidra Deep Rest — Best Compact Travel</a></li>
+      <li><a href="#science">Why Light Ruins Sleep</a></li>
+      <li><a href="#guide">Buying Guide</a></li>
+      <li><a href="#faq">FAQ</a></li>
+    </ol>
+  </div>
+
+  <!-- PRODUCT 1 -->
+  <div class="product-card" id="manta">
+    <div class="product-header">
+      <span class="rank">#1 Best Overall</span>
+      <h2>Manta Sleep Mask Pro
+        <span>Modular eye cups with zero eyelid contact and true seal</span>
+      </h2>
+    </div>
+    <p>The Manta Pro is the most thoughtfully engineered sleep mask on the market. Its signature feature is the independently movable eye cups — padded cups on flexible arms that you position precisely over your eyes before the mask seals against your face. The cups hover above your eyelids entirely, eliminating the eyelid-pressure problem that plagues flat masks. The nose bridge seal is a soft foam baffles system that conforms to any face shape without gaps. The strap is wide and padded, which distributes tension evenly and stays in place without slipping through the night.</p>
+    <div class="specs-row">
+      <span class="spec-chip"><strong>Eye contact:</strong> Zero (floating cups)</span>
+      <span class="spec-chip"><strong>Cup adjustment:</strong> 20+ positions</span>
+      <span class="spec-chip"><strong>Strap width:</strong> 38mm padded</span>
+      <span class="spec-chip"><strong>Blackout rating:</strong> 100%</span>
+      <span class="spec-chip"><strong>Washable:</strong> Hand wash</span>
+    </div>
+    <div class="pros-cons">
+      <div class="pros">
+        <h4>Pros</h4>
+        <ul>
+          <li>Zero eyelid contact — lash extension safe</li>
+          <li>Adjustable eye cups for perfect positioning</li>
+          <li>Nose bridge seal eliminates light leakage</li>
+          <li>Can blink and open eyes inside cups</li>
+          <li>Wide padded strap — no hair creasing</li>
+        </ul>
+      </div>
+      <div class="cons">
+        <h4>Cons</h4>
+        <ul>
+          <li>Bulkier than flat masks — takes adjustment</li>
+          <li>Higher price than basic options</li>
+          <li>Cups can shift if you toss and turn aggressively</li>
+        </ul>
+      </div>
+    </div>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=Manta+Sleep+Mask+Pro&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+  </div>
+
+  <!-- PRODUCT 2 -->
+  <div class="product-card" id="alaska">
+    <div class="product-header">
+      <span class="rank">#2 Best for Eyelash Comfort</span>
+      <h2>Alaska Bear Natural Silk Sleep Mask
+        <span>19-momme mulberry silk, soft band, ultra-lightweight</span>
+      </h2>
+    </div>
+    <p>The Alaska Bear has developed a devoted following because it gets the basics exactly right: 19-momme mulberry silk (heavier and more opaque than cheaper 16-momme versions), a contoured nose bridge that doesn't gap, and an elastic band soft enough to not leave indentations. At 20 grams, it's light enough to genuinely forget you're wearing it. The silk doesn't tug on facial hair or eyelashes the way synthetic materials do. The blackout performance is excellent for a flat mask — the contoured nose bridge is the key differentiator from cheaper silk alternatives that leak light from below.</p>
+    <div class="specs-row">
+      <span class="spec-chip"><strong>Material:</strong> 19-momme mulberry silk</span>
+      <span class="spec-chip"><strong>Weight:</strong> ~20g</span>
+      <span class="spec-chip"><strong>Nose bridge:</strong> Contoured foam insert</span>
+      <span class="spec-chip"><strong>Strap:</strong> Adjustable elastic</span>
+      <span class="spec-chip"><strong>Washable:</strong> Hand wash cold</span>
+    </div>
+    <div class="pros-cons">
+      <div class="pros">
+        <h4>Pros</h4>
+        <ul>
+          <li>19-momme silk — heavier, more opaque</li>
+          <li>Ultra-lightweight at 20g</li>
+          <li>Contoured nose bridge seals light</li>
+          <li>Gentle on eyelashes and skin</li>
+          <li>Excellent value for silk quality</li>
+        </ul>
+      </div>
+      <div class="cons">
+        <h4>Cons</h4>
+        <ul>
+          <li>Some side sleeper light leakage possible</li>
+          <li>Flat profile touches eyelids</li>
+          <li>Delicate — requires hand washing</li>
+        </ul>
+      </div>
+    </div>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=Alaska+Bear+silk+sleep+mask&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+  </div>
+
+  <!-- PRODUCT 3 -->
+  <div class="product-card" id="tempur">
+    <div class="product-header">
+      <span class="rank">#3 Best Memory Foam</span>
+      <h2>Tempur-Pedic Sleep Mask
+        <span>TEMPUR material that conforms to your face for a custom seal</span>
+      </h2>
+    </div>
+    <p>Tempur-Pedic applies the same pressure-relief material they use in their mattresses to a sleep mask, and the result is remarkable. The TEMPUR memory foam conforms to your specific facial topography — nose bridge height, cheekbone prominence, orbital depth — in a way that generic foam cannot replicate. Light leakage is essentially zero once the foam has molded to your face. The warmth generated by memory foam is a trade-off: it molds faster but runs warmer than silk or mesh. Not ideal for hot sleepers, but excellent for anyone who struggles to get a seal with standard flat masks.</p>
+    <div class="specs-row">
+      <span class="spec-chip"><strong>Material:</strong> TEMPUR memory foam</span>
+      <span class="spec-chip"><strong>Conforming:</strong> Body-heat activated</span>
+      <span class="spec-chip"><strong>Blackout:</strong> Custom-seal 100%</span>
+      <span class="spec-chip"><strong>Eye contact:</strong> Minimal (deep orbital cavity)</span>
+      <span class="spec-chip"><strong>Brand warranty:</strong> Yes</span>
+    </div>
+    <div class="pros-cons">
+      <div class="pros">
+        <h4>Pros</h4>
+        <ul>
+          <li>TEMPUR foam conforms to your specific face</li>
+          <li>Custom seal eliminates light gaps</li>
+          <li>Deep orbital cavity reduces eyelid pressure</li>
+          <li>Backed by Tempur-Pedic quality</li>
+          <li>Very stable — doesn't shift at night</li>
+        </ul>
+      </div>
+      <div class="cons">
+        <h4>Cons</h4>
+        <ul>
+          <li>Warmer than silk or mesh options</li>
+          <li>Heavier — less suitable for travel</li>
+          <li>Premium price</li>
+        </ul>
+      </div>
+    </div>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=Tempur-Pedic+sleep+mask&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+  </div>
+
+  <!-- PRODUCT 4 -->
+  <div class="product-card" id="mavogel">
+    <div class="product-header">
+      <span class="rank">#4 Best for Side Sleepers</span>
+      <h2>Mavogel Cotton Sleep Eye Mask
+        <span>Ergonomic flat design that stays sealed when you're on your side</span>
+      </h2>
+    </div>
+    <p>The Mavogel is engineered around the side-sleeping use case. Its unique feature is a fold-over nose bridge made of flexible wire inside a cotton sleeve — you bend it to match your nose exactly, and it holds that shape. This is crucial for side sleepers whose face is pressed into a pillow at an angle, because contoured foam nose bridges can gap when your head tilts. The seven-layer cotton construction is also breathable without being thin enough to allow light penetration. The result is a flat mask that achieves near-blackout performance in positions that defeat most competitors.</p>
+    <div class="specs-row">
+      <span class="spec-chip"><strong>Nose bridge:</strong> Moldable wire insert</span>
+      <span class="spec-chip"><strong>Layers:</strong> 7 cotton layers</span>
+      <span class="spec-chip"><strong>Best for:</strong> Side sleepers</span>
+      <span class="spec-chip"><strong>Strap:</strong> Adjustable elastic</span>
+      <span class="spec-chip"><strong>Washable:</strong> Machine wash (delicate)</span>
+    </div>
+    <div class="pros-cons">
+      <div class="pros">
+        <h4>Pros</h4>
+        <ul>
+          <li>Moldable nose bridge stays sealed when sideways</li>
+          <li>7 layers block light without being heavy</li>
+          <li>Machine washable on delicate</li>
+          <li>Breathable cotton — suitable for warm sleepers</li>
+          <li>Affordable</li>
+        </ul>
+      </div>
+      <div class="cons">
+        <h4>Cons</h4>
+        <ul>
+          <li>Flat profile — does touch eyelids</li>
+          <li>Cotton absorbs sweat over time — wash weekly</li>
+          <li>Wire can eventually fatigue with daily bending</li>
+        </ul>
+      </div>
+    </div>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=Mavogel+cotton+sleep+eye+mask&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+  </div>
+
+  <!-- PRODUCT 5 -->
+  <div class="product-card" id="mzoo">
+    <div class="product-header">
+      <span class="rank">#5 Best Contoured Budget Pick</span>
+      <h2>MZOO Sleep Eye Mask
+        <span>3D contoured shell keeps mask off eyelids under $15</span>
+      </h2>
+    </div>
+    <p>The MZOO proves that contoured (cup-over-eye) design doesn't have to be expensive. The molded resin shell creates a cavity over each eye, preventing fabric contact with lids or lashes. The padding around the shell perimeter is thick enough to seal against most face shapes without custom adjustment. For under $15, this is the most blackout performance per dollar available — the contoured shape blocks more light than flat masks at twice the price. The elastic strap is adequate but not exceptional; dedicated side sleepers may prefer the Mavogel's moldable nose bridge.</p>
+    <div class="specs-row">
+      <span class="spec-chip"><strong>Design:</strong> 3D contoured shell</span>
+      <span class="spec-chip"><strong>Eye contact:</strong> None (hovering shell)</span>
+      <span class="spec-chip"><strong>Price range:</strong> Under $15</span>
+      <span class="spec-chip"><strong>Material:</strong> Memory foam + resin shell</span>
+      <span class="spec-chip"><strong>Washable:</strong> Wipe clean</span>
+    </div>
+    <div class="pros-cons">
+      <div class="pros">
+        <h4>Pros</h4>
+        <ul>
+          <li>Zero eyelid contact at fraction of Manta's price</li>
+          <li>Excellent blackout for the price point</li>
+          <li>Can open eyes and blink freely inside</li>
+          <li>Lash-extension friendly</li>
+          <li>Good for REM sleep preservation</li>
+        </ul>
+      </div>
+      <div class="cons">
+        <h4>Cons</h4>
+        <ul>
+          <li>Bulky — not the best for travel packing</li>
+          <li>Strap quality below premium options</li>
+          <li>Shell can feel stiff initially</li>
+          <li>Limited nose bridge adjustability</li>
+        </ul>
+      </div>
+    </div>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=MZOO+sleep+eye+mask+3D+contoured&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+  </div>
+
+  <!-- PRODUCT 6 -->
+  <div class="product-card" id="bedtime">
+    <div class="product-header">
+      <span class="rank">#6 Best for Glasses Wearers</span>
+      <h2>Bedtime Bliss BTB01 Contoured Sleep Mask
+        <span>Extra-deep cavity fits over eyeglasses</span>
+      </h2>
+    </div>
+    <p>Most sleep masks are incompatible with eyeglasses — the frame presses into the mask, creating gaps and discomfort. The Bedtime Bliss BTB01 has a significantly deeper contoured cavity specifically designed to accommodate standard eyeglass frames worn during sleep (for those who need to see a clock or navigate in the night). The cavity depth is also beneficial for anyone with prominent cheekbones or deep-set eyes. The mask comes with a travel pouch and earplugs, making it a good all-in-one sleep kit for travel situations.</p>
+    <div class="specs-row">
+      <span class="spec-chip"><strong>Cavity depth:</strong> Extra deep (glasses clearance)</span>
+      <span class="spec-chip"><strong>Material:</strong> Soft foam + jersey lining</span>
+      <span class="spec-chip"><strong>Includes:</strong> Travel pouch + earplugs</span>
+      <span class="spec-chip"><strong>Strap:</strong> Adjustable elastic</span>
+      <span class="spec-chip"><strong>Washable:</strong> Hand wash</span>
+    </div>
+    <div class="pros-cons">
+      <div class="pros">
+        <h4>Pros</h4>
+        <ul>
+          <li>Fits over standard eyeglass frames</li>
+          <li>Extra-deep cavity comfortable for all face types</li>
+          <li>Travel pouch and earplugs included</li>
+          <li>Good value as a kit</li>
+          <li>Soft jersey lining gentle against skin</li>
+        </ul>
+      </div>
+      <div class="cons">
+        <h4>Cons</h4>
+        <ul>
+          <li>Bulkier than non-glasses designs</li>
+          <li>Not all eyeglass frame sizes compatible</li>
+          <li>Foam less breathable than silk or mesh</li>
+        </ul>
+      </div>
+    </div>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=Bedtime+Bliss+BTB01+sleep+mask&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+  </div>
+
+  <!-- PRODUCT 7 -->
+  <div class="product-card" id="nidra">
+    <div class="product-header">
+      <span class="rank">#7 Best Compact Travel</span>
+      <h2>Nidra Deep Rest Eye Mask
+        <span>Ultra-thin profile with contoured nose for carry-on packing</span>
+      </h2>
+    </div>
+    <p>The Nidra solves the travel dilemma: contoured masks block more light but are bulkier; flat masks pack small but leak light. The Nidra achieves a meaningful compromise — a contoured nose bridge and partial eye cavity in a profile thin enough to fold flat for packing. The mask weighs under 30 grams and fits in a coat pocket. The soft silicone-padded bridge is the most travel-durable nose seal in this category — it won't compress permanently the way foam does after repeated packing. A legitimate blackout option in a format that doesn't dominate your carry-on.</p>
+    <div class="specs-row">
+      <span class="spec-chip"><strong>Weight:</strong> Under 30g</span>
+      <span class="spec-chip"><strong>Nose bridge:</strong> Silicone padded (packing-durable)</span>
+      <span class="spec-chip"><strong>Profile:</strong> Foldable flat</span>
+      <span class="spec-chip"><strong>Material:</strong> Polyester + silicone accents</span>
+      <span class="spec-chip"><strong>Best for:</strong> Travel, carry-on</span>
+    </div>
+    <div class="pros-cons">
+      <div class="pros">
+        <h4>Pros</h4>
+        <ul>
+          <li>Folds flat for packing</li>
+          <li>Silicone nose pad doesn't compress with packing</li>
+          <li>Contoured enough for meaningful light reduction</li>
+          <li>Under 30g — feather-light</li>
+          <li>Budget-friendly for a travel kit</li>
+        </ul>
+      </div>
+      <div class="cons">
+        <h4>Cons</h4>
+        <ul>
+          <li>Not 100% blackout — partial cavity only</li>
+          <li>Better for reducing light than eliminating it</li>
+          <li>Thinner padding — less comfortable for all-night wear vs. home masks</li>
+        </ul>
+      </div>
+    </div>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=Nidra+deep+rest+eye+mask&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+  </div>
+
+  <!-- SCIENCE BOX -->
+  <div class="science-box" id="science">
+    <h3>Why Light Ruins Sleep — The Photoreceptor Mechanism</h3>
+    <p>Your eyes contain specialized photoreceptive cells called intrinsically photosensitive retinal ganglion cells (ipRGCs), which contain the photopigment melanopsin. These cells are maximally sensitive to short-wavelength blue light (around 480nm) but respond to a broad spectrum. Critically, these cells project directly to the suprachiasmatic nucleus (SCN) — the brain's master circadian clock — and to the pineal gland via the retinohypothalamic tract.</p>
+    <p style="margin-top:12px">Even low-level light exposure during sleep activates these pathways. The pineal gland suppresses melatonin production in response, the SCN shifts its phase, and cortisol begins rising earlier than appropriate — all of which fragment sleep architecture and reduce time spent in slow-wave and REM stages. Studies have demonstrated significant melatonin suppression at light levels as low as 10 lux, well within the range of a dimly lit room or digital clock display.</p>
+    <p style="margin-top:12px">A properly fitted blackout sleep mask effectively eliminates the input at the source, allowing melatonin to remain elevated and sleep architecture to remain intact across the full night regardless of ambient light conditions.</p>
+  </div>
+
+  <!-- BUYING GUIDE -->
+  <div class="buying-guide" id="guide">
+    <h2>Buying Guide: The 4 Features That Actually Matter</h2>
+    <div class="guide-item">
+      <h3>1. Flat vs. Contoured Design</h3>
+      <p>Flat masks are lighter and pack smaller but contact eyelids directly — problematic for lash extensions and light REM sleepers. Contoured (3D) masks hover over eyes, allowing blinking and preventing makeup smearing, but are bulkier. If you have lash extensions or prefer zero eye pressure, choose contoured. If weight and packability are priority, choose flat with a good nose bridge.</p>
+    </div>
+    <div class="guide-item">
+      <h3>2. The Nose Bridge — Where Most Masks Fail</h3>
+      <p>The nose bridge seal is the most common source of light leakage. Look for: moldable wire inserts (best for side sleepers), contoured foam that matches your nose height, or soft silicone baffles. Masks with no nose bridge shaping will always leak light from below, regardless of how opaque the fabric is.</p>
+    </div>
+    <div class="guide-item">
+      <h3>3. Strap Design for Side Sleepers</h3>
+      <p>Thin elastic straps create pressure points and cut into the ears when you sleep on your side. Wide padded straps (Manta's 38mm strap) distribute tension across more surface area and stay comfortable through position changes. Flat straps sit lower-profile against a pillow than round elastic bands.</p>
+    </div>
+    <div class="guide-item">
+      <h3>4. Material for Your Sleep Temperature</h3>
+      <p>Hot sleepers: choose silk or mesh — maximum breathability with adequate opacity. Cool sleepers: memory foam gives the best conforming seal but runs warm. Cotton is the middle ground — breathable, opaque, and easier to wash than silk. Synthetic materials (polyester) are the most affordable but least breathable.</p>
+    </div>
+  </div>
+
+  <!-- FAQ -->
+  <div class="faq" id="faq">
+    <h2>Frequently Asked Questions</h2>
+    <div class="faq-item">
+      <h3>What makes a sleep mask truly blackout?</h3>
+      <p>True blackout requires dense opaque material, a contoured or molded nose bridge that seals without gaps, and an adjustable strap that seals the sides. Flat masks without nose bridge shaping always let light in from below.</p>
+    </div>
+    <div class="faq-item">
+      <h3>Can a sleep mask damage your eyes?</h3>
+      <p>Standard flat masks that press directly on eyelids can cause ocular pressure and disturb REM sleep in sensitive individuals. Contoured or cupped masks (Manta, MZOO) hover over eyes without contact, eliminating this concern. These are recommended for anyone with lash extensions or eye sensitivity.</p>
+    </div>
+    <div class="faq-item">
+      <h3>Are sleep masks good for side sleepers?</h3>
+      <p>Most flat masks slip or create pressure points on your side. Slim-profile contoured masks and masks with flat straps work best for side sleepers. The Mavogel moldable nose bridge and the Manta's padded flat strap both handle side sleeping well.</p>
+    </div>
+    <div class="faq-item">
+      <h3>How dark should a sleep environment be for optimal melatonin?</h3>
+      <p>Even 10 lux of light can suppress melatonin and shift circadian phase. A truly dark environment or an effective blackout mask is associated with better sleep quality and higher melatonin production across the night.</p>
+    </div>
+    <div class="faq-item">
+      <h3>How do you wash a silk sleep mask without damaging it?</h3>
+      <p>Hand wash in cold water with a drop of gentle shampoo or silk-specific detergent. Press water out gently — do not wring. Lay flat to dry. Machine washing destroys silk fiber structure and causes shrinkage.</p>
+    </div>
+  </div>
+
+  <!-- VERDICT -->
+  <div class="verdict-box">
+    <h2>Our Bottom Line</h2>
+    <p>For most sleepers, the <strong>Manta Sleep Mask Pro</strong> is the definitive choice — zero eyelid contact, adjustable cups, and a genuine nose bridge seal make it the best all-round blackout mask available. Budget? The <strong>MZOO</strong> delivers the same zero-eyelid-contact principle under $15. Side sleepers who toss should look at the <strong>Mavogel</strong> and its moldable wire nose bridge. Travelers packing light should take the <strong>Nidra</strong> — it earns its place in your carry-on.</p>
+  </div>
+
+  <p style="text-align:center;margin-top:20px"><a href="/posts/index.html" style="color:var(--muted);font-size:.9rem">&larr; Browse All Sleep Product Reviews</a></p>
+</div>
+
+<footer>
+  <p>&copy; 2026 SleepWise Reviews &mdash; <a href="/privacy.html">Privacy Policy</a> &middot; <a href="/disclaimer.html">Disclaimer</a></p>
+  <p style="margin-top:8px">Amazon affiliate links: as an Amazon Associate we earn from qualifying purchases.</p>
+</footer>
+</body>
+</html>'''
+
+out_path = os.path.join(os.path.dirname(__file__), 'posts', 'best-sleep-mask-blackout.html')
+with open(out_path, 'w', encoding='utf-8') as f:
+    f.write(html)
+print(f'Written: {out_path}')
