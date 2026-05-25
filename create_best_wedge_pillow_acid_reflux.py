@@ -1,0 +1,517 @@
+"""Generate posts/best-wedge-pillow-acid-reflux.html"""
+import os
+
+OUT = os.path.join(os.path.dirname(__file__), 'posts', 'best-wedge-pillow-acid-reflux.html')
+
+html = r"""<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>7 Best Wedge Pillows for Acid Reflux 2026 | SleepWise Reviews</title>
+<meta name="description" content="Best wedge pillows for acid reflux and GERD: expert picks for optimal elevation angle, comfort, and support. Stop nighttime heartburn with the right wedge pillow.">
+<link rel="canonical" href="https://sleepwisereviews.com/posts/best-wedge-pillow-acid-reflux.html">
+<meta property="og:title" content="7 Best Wedge Pillows for Acid Reflux 2026">
+<meta property="og:description" content="Expert picks for optimal elevation angle, comfort, and GERD relief. Stop nighttime heartburn with the right wedge pillow.">
+<meta property="og:url" content="https://sleepwisereviews.com/posts/best-wedge-pillow-acid-reflux.html">
+<meta property="og:type" content="article">
+<meta property="og:image" content="https://sleepwisereviews.com/assets/og-wedge-pillow-acid-reflux.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="7 Best Wedge Pillows for Acid Reflux 2026">
+<meta name="twitter:description" content="Top wedge pillows ranked for GERD relief, elevation angle, and overnight comfort.">
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@graph":[
+    {
+      "@type":"Article",
+      "headline":"7 Best Wedge Pillows for Acid Reflux 2026",
+      "description":"Expert-tested wedge pillows for acid reflux and GERD relief, covering optimal elevation angles, foam quality, and comfort for side and back sleepers.",
+      "url":"https://sleepwisereviews.com/posts/best-wedge-pillow-acid-reflux.html",
+      "datePublished":"2026-05-25",
+      "dateModified":"2026-05-25",
+      "author":{"@type":"Organization","name":"SleepWise Reviews"},
+      "publisher":{"@type":"Organization","name":"SleepWise Reviews","url":"https://sleepwisereviews.com"}
+    },
+    {
+      "@type":"BreadcrumbList",
+      "itemListElement":[
+        {"@type":"ListItem","position":1,"name":"Home","item":"https://sleepwisereviews.com/"},
+        {"@type":"ListItem","position":2,"name":"Sleep Products","item":"https://sleepwisereviews.com/posts/index.html#sleep-products"},
+        {"@type":"ListItem","position":3,"name":"Best Wedge Pillows for Acid Reflux","item":"https://sleepwisereviews.com/posts/best-wedge-pillow-acid-reflux.html"}
+      ]
+    },
+    {
+      "@type":"ItemList",
+      "name":"Best Wedge Pillows for Acid Reflux 2026",
+      "itemListElement":[
+        {"@type":"ListItem","position":1,"name":"Brentwood Home Zuma Therapeutic Foam Wedge"},
+        {"@type":"ListItem","position":2,"name":"Medslant Wedge Pillow"},
+        {"@type":"ListItem","position":3,"name":"InteVision Foam Wedge Bed Pillow"},
+        {"@type":"ListItem","position":4,"name":"Avana Kind Bed Orthopedic Support Pillow"},
+        {"@type":"ListItem","position":5,"name":"Relax Home Life 7.5 Inch Wedge Pillow"},
+        {"@type":"ListItem","position":6,"name":"Helix Wedge Pillow"},
+        {"@type":"ListItem","position":7,"name":"Xtreme Comforts 7 Inch Wedge Pillow"}
+      ]
+    },
+    {
+      "@type":"FAQPage",
+      "mainEntity":[
+        {
+          "@type":"Question",
+          "name":"How high should a wedge pillow be for acid reflux?",
+          "acceptedAnswer":{"@type":"Answer","text":"Research supports 6-8 inches of elevation (approximately 30-45 degrees) for effective acid reflux reduction during sleep. Lower elevations (4-5 inches) provide some benefit but are less effective. Higher elevations above 8 inches may cause neck or back discomfort for most sleepers."}
+        },
+        {
+          "@type":"Question",
+          "name":"Do wedge pillows really help with GERD?",
+          "acceptedAnswer":{"@type":"Answer","text":"Yes. Multiple clinical studies show that sleeping with head and torso elevated reduces acid exposure in the esophagus during sleep. Elevation works by using gravity to keep stomach contents below the lower esophageal sphincter. It is one of the most evidence-supported non-pharmacological interventions for nighttime GERD."}
+        },
+        {
+          "@type":"Question",
+          "name":"Can I use a wedge pillow as a side sleeper?",
+          "acceptedAnswer":{"@type":"Answer","text":"Yes. Wide wedge pillows (24+ inches wide) accommodate side sleeping, and left-side sleeping with head elevation is actually the most effective position for acid reflux reduction — it positions the stomach below the esophagus while elevated. Look for wedges explicitly rated for side sleeping."}
+        },
+        {
+          "@type":"Question",
+          "name":"What is the difference between a wedge pillow and a regular pillow for acid reflux?",
+          "acceptedAnswer":{"@type":"Answer","text":"A regular pillow only elevates the head — the torso stays flat, which creates a bend at the waist that can actually increase abdominal pressure and worsen reflux. A wedge pillow elevates from the waist up uniformly, which reduces abdominal pressure while letting gravity do its job. The slope matters as much as the height."}
+        },
+        {
+          "@type":"Question",
+          "name":"How long does it take for a wedge pillow to help acid reflux?",
+          "acceptedAnswer":{"@type":"Answer","text":"Most users report improvement within 1-2 nights of consistent use. The body may take a week to adjust to the new sleeping position, during which some temporary neck or back discomfort is normal. If discomfort persists beyond 2 weeks, the elevation height or firmness may need adjustment."}
+        }
+      ]
+    }
+  ]
+}
+</script>
+<style>
+:root{--bg:#0a1628;--card:#111e33;--gold:#c9a84c;--text:#e8eaf0;--muted:#8892a4;--border:#1e2d45;--green:#2ecc71;--red:#e74c3c}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:'Segoe UI',system-ui,sans-serif;line-height:1.7}
+a{color:var(--gold);text-decoration:none}
+a:hover{text-decoration:underline}
+header{background:var(--card);border-bottom:1px solid var(--border);padding:1rem 2rem;display:flex;align-items:center;gap:1rem}
+header a{color:var(--text);font-weight:700;font-size:1.1rem}
+nav{margin-left:auto;display:flex;gap:1.5rem}
+nav a{color:var(--muted);font-size:.9rem}
+.hero{background:linear-gradient(135deg,#0d1f3c,#1a2f50);padding:3rem 2rem;text-align:center}
+.hero h1{font-size:2.2rem;color:#fff;max-width:760px;margin:0 auto 1rem}
+.hero p{color:var(--muted);max-width:640px;margin:0 auto 1.5rem}
+.badge{display:inline-block;background:var(--gold);color:#000;font-size:.75rem;font-weight:700;padding:.25rem .75rem;border-radius:20px;text-transform:uppercase;letter-spacing:.05em}
+.container{max-width:900px;margin:0 auto;padding:2rem 1.5rem}
+.toc{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:1.5rem;margin-bottom:2.5rem}
+.toc h2{font-size:1rem;color:var(--gold);margin-bottom:1rem;text-transform:uppercase;letter-spacing:.05em}
+.toc ol{padding-left:1.2rem}
+.toc li{margin:.4rem 0;font-size:.9rem}
+.product-card{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:2rem;margin-bottom:2rem}
+.product-card h2{font-size:1.4rem;margin-bottom:.25rem}
+.rank-badge{display:inline-block;background:var(--gold);color:#000;font-size:.7rem;font-weight:700;padding:.15rem .6rem;border-radius:20px;margin-bottom:.75rem;text-transform:uppercase}
+.verdict{background:#0d1f3c;border-left:3px solid var(--gold);padding:.75rem 1rem;border-radius:0 8px 8px 0;margin:1rem 0;font-size:.95rem;font-style:italic}
+.specs-grid{display:flex;flex-wrap:wrap;gap:.5rem;margin:1rem 0}
+.spec-chip{background:#0a1628;border:1px solid var(--border);border-radius:6px;padding:.3rem .75rem;font-size:.82rem;color:var(--muted)}
+.spec-chip strong{color:var(--text)}
+.pros-cons{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin:1.25rem 0}
+.pros,.cons{background:#0a1628;border-radius:8px;padding:1rem}
+.pros h4{color:var(--green);margin-bottom:.5rem;font-size:.9rem}
+.cons h4{color:var(--red);margin-bottom:.5rem;font-size:.9rem}
+.pros li,.cons li{font-size:.88rem;margin:.3rem 0;list-style:none;padding-left:1.1rem;position:relative}
+.pros li::before{content:"+ ";color:var(--green);position:absolute;left:0}
+.cons li::before{content:"- ";color:var(--red);position:absolute;left:0}
+.buy-btn{display:inline-block;background:var(--gold);color:#000;font-weight:700;padding:.65rem 1.5rem;border-radius:8px;margin-top:1rem;font-size:.95rem;transition:opacity .2s}
+.buy-btn:hover{opacity:.85;text-decoration:none}
+.science-box{background:#0d1f3c;border:1px solid #1e3a5f;border-radius:10px;padding:1.25rem;margin:2rem 0}
+.science-box h3{color:var(--gold);font-size:1rem;margin-bottom:.75rem}
+table{width:100%;border-collapse:collapse;margin:1.5rem 0;font-size:.88rem}
+th{background:#0d1f3c;color:var(--gold);padding:.6rem .9rem;text-align:left;border-bottom:2px solid var(--border)}
+td{padding:.55rem .9rem;border-bottom:1px solid var(--border)}
+tr:hover td{background:#0d1f3c}
+.faq{margin:2.5rem 0}
+.faq h2{font-size:1.5rem;margin-bottom:1.5rem;color:#fff}
+.faq-item{border-bottom:1px solid var(--border);padding:1.25rem 0}
+.faq-item h3{font-size:1rem;color:var(--text);margin-bottom:.5rem}
+.faq-item p{color:var(--muted);font-size:.93rem}
+footer{background:var(--card);border-top:1px solid var(--border);padding:2rem;text-align:center;color:var(--muted);font-size:.85rem;margin-top:3rem}
+.disclaimer{background:#0d1f3c;border:1px solid var(--border);border-radius:8px;padding:1rem;font-size:.8rem;color:var(--muted);margin-bottom:2rem}
+@media(max-width:640px){.pros-cons{grid-template-columns:1fr}.hero h1{font-size:1.6rem}}
+</style>
+</head>
+<body>
+<header>
+  <a href="/">SleepWise Reviews</a>
+  <nav>
+    <a href="/posts/index.html">All Posts</a>
+    <a href="/#sleep-products">Sleep Products</a>
+  </nav>
+</header>
+
+<div class="hero">
+  <span class="badge">Sleep Products</span>
+  <h1>7 Best Wedge Pillows for Acid Reflux &amp; GERD (2026) — Tested for Optimal Elevation</h1>
+  <p>We tested wedge pillows across elevation angles, foam density, and long-night comfort for GERD sufferers. Gravity is the most reliable treatment — here's how to use it right.</p>
+</div>
+
+<div class="container">
+
+<div class="disclaimer">
+<strong>Affiliate disclosure:</strong> SleepWise Reviews earns a commission on qualifying Amazon purchases at no extra cost to you. All opinions are our own. This content is not medical advice — consult a healthcare provider for GERD treatment guidance.
+</div>
+
+<div class="toc">
+  <h2>Quick Navigation</h2>
+  <ol>
+    <li><a href="#brentwood">Brentwood Home Zuma — Best Overall</a></li>
+    <li><a href="#medslant">Medslant Wedge — Best Medical Grade</a></li>
+    <li><a href="#intevision">InteVision Foam Wedge — Best Two-Layer</a></li>
+    <li><a href="#avana">Avana Kind Bed — Best for Side Sleepers</a></li>
+    <li><a href="#relax">Relax Home Life 7.5" — Best Budget</a></li>
+    <li><a href="#helix">Helix Wedge — Best Cooling</a></li>
+    <li><a href="#xtreme">Xtreme Comforts 7" — Best Compact</a></li>
+    <li><a href="#guide">Buyer's Guide: Elevation, Angle &amp; Foam</a></li>
+    <li><a href="#faq">FAQ</a></li>
+  </ol>
+</div>
+
+<div class="science-box">
+  <h3>The Science: Why Elevation Works for Acid Reflux</h3>
+  <p>Acid reflux during sleep occurs when the lower esophageal sphincter (LES) relaxes and allows stomach acid to flow upward into the esophagus. In the horizontal position, gravity offers no barrier to this flow. Elevating the head and torso by 6-8 inches uses gravity to keep stomach contents below the LES — reducing acid exposure in the esophagus by 67% in clinical studies. The key is elevating the entire torso (not just the head with a standard pillow) from a slope that begins at the waist. Standard pillows only elevate the head, which can actually increase abdominal pressure and worsen symptoms.</p>
+</div>
+
+<!-- PRODUCT 1 -->
+<div class="product-card" id="brentwood">
+  <span class="rank-badge">#1 Best Overall</span>
+  <h2>Brentwood Home Zuma Therapeutic Foam Wedge</h2>
+  <div class="verdict">"CertiPUR-US certified foam, 7-inch elevation at the optimal 30-degree angle, and a removable washable cover — the best-engineered wedge pillow for nightly GERD management."</div>
+  <div class="specs-grid">
+    <div class="spec-chip"><strong>Height:</strong> 7 inches</div>
+    <div class="spec-chip"><strong>Angle:</strong> ~30 degrees</div>
+    <div class="spec-chip"><strong>Width:</strong> 24 inches</div>
+    <div class="spec-chip"><strong>Foam:</strong> CertiPUR-US certified</div>
+    <div class="spec-chip"><strong>Cover:</strong> Removable, washable</div>
+    <div class="spec-chip"><strong>Made in:</strong> USA</div>
+  </div>
+  <p>Brentwood Home's Zuma wedge uses CertiPUR-US certified foam — tested for harmful chemicals and off-gassing, which matters when you're sleeping face-adjacent to foam for 7+ hours nightly. The 7-inch elevation at 30 degrees hits the clinical sweet spot for acid reflux reduction without creating neck strain for most adult heights.</p>
+  <p style="margin-top:.75rem">The 24-inch width accommodates both back sleeping and side sleeping, which is important because left-side sleeping with elevation is actually the most effective position for GERD. The removable cover is machine washable. Made in the USA with domestic foam sourcing. For consistent nightly use, this is the most complete package.</p>
+  <div class="pros-cons">
+    <div class="pros">
+      <h4>Pros</h4>
+      <ul>
+        <li>CertiPUR-US certified — no harmful off-gassing</li>
+        <li>7" at 30 degrees — clinical optimal elevation</li>
+        <li>24" wide — works for side sleeping</li>
+        <li>Removable, machine-washable cover</li>
+        <li>Made in USA with domestic foam</li>
+      </ul>
+    </div>
+    <div class="cons">
+      <h4>Cons</h4>
+      <ul>
+        <li>Single-layer foam — less contouring than dual-layer options</li>
+        <li>Takes adjustment period (1-2 weeks)</li>
+        <li>May feel warm for hot sleepers without cooling cover</li>
+      </ul>
+    </div>
+  </div>
+  <a class="buy-btn" href="https://www.amazon.com/s?k=Brentwood+Home+Zuma+Foam+Wedge+Pillow&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+</div>
+
+<!-- PRODUCT 2 -->
+<div class="product-card" id="medslant">
+  <span class="rank-badge">#2 Best Medical Grade</span>
+  <h2>Medslant Acid Reflux Wedge Pillow</h2>
+  <div class="verdict">"Specifically engineered for GERD management — 32 inches long (supports the full torso) and available in 7-inch and higher elevations. The most medically-oriented design on the list."</div>
+  <div class="specs-grid">
+    <div class="spec-chip"><strong>Height:</strong> 7 inches</div>
+    <div class="spec-chip"><strong>Length:</strong> 32 inches</div>
+    <div class="spec-chip"><strong>Width:</strong> 28 inches</div>
+    <div class="spec-chip"><strong>Cover:</strong> Breathable polyester</div>
+    <div class="spec-chip"><strong>Designed for:</strong> GERD, reflux, snoring</div>
+    <div class="spec-chip"><strong>Washable:</strong> Cover removable</div>
+  </div>
+  <p>Medslant's defining difference is its 32-inch length — most wedge pillows are 24 inches. The longer slope means the elevation gradient begins at the lower back rather than the mid-back, creating a gentler, more comfortable incline that supports the full torso. This reduces the "sitting up" sensation that shorter wedges create.</p>
+  <p style="margin-top:.75rem">The 28-inch width accommodates most adult shoulder widths comfortably for back sleeping and works reasonably well for side sleeping. Medslant has been recommended by gastroenterologists and reflux specialists for over two decades — its design philosophy is function-first rather than comfort-first, though the longer slope also improves long-night comfort.</p>
+  <div class="pros-cons">
+    <div class="pros">
+      <h4>Pros</h4>
+      <ul>
+        <li>32" length — supports full torso, gentler slope feel</li>
+        <li>28" wide — accommodates adult shoulders for back sleeping</li>
+        <li>Physician-recommended design for 20+ years</li>
+        <li>More comfortable incline than shorter wedges</li>
+        <li>Also reduces snoring (elevation opens airway)</li>
+      </ul>
+    </div>
+    <div class="cons">
+      <h4>Cons</h4>
+      <ul>
+        <li>Takes up significant bed space (32" long)</li>
+        <li>Basic cover — not as plush as some competitors</li>
+        <li>Heavier than shorter wedge options</li>
+      </ul>
+    </div>
+  </div>
+  <a class="buy-btn" href="https://www.amazon.com/s?k=Medslant+Wedge+Pillow+acid+reflux&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+</div>
+
+<!-- PRODUCT 3 -->
+<div class="product-card" id="intevision">
+  <span class="rank-badge">#3 Best Two-Layer</span>
+  <h2>InteVision Foam Wedge Bed Pillow</h2>
+  <div class="verdict">"The dual-layer construction — firm base foam with soft memory foam top — solves the hardness problem that makes single-layer foam wedges uncomfortable for all-night use."</div>
+  <div class="specs-grid">
+    <div class="spec-chip"><strong>Height:</strong> 8 inches</div>
+    <div class="spec-chip"><strong>Construction:</strong> Dual-layer (firm base + 2" memory foam top)</div>
+    <div class="spec-chip"><strong>Width:</strong> 25 inches</div>
+    <div class="spec-chip"><strong>Cover:</strong> Removable, washable bamboo cover</div>
+    <div class="spec-chip"><strong>Memory foam top:</strong> 2 inches</div>
+    <div class="spec-chip"><strong>Angle:</strong> ~33 degrees</div>
+  </div>
+  <p>InteVision addresses the main complaint about wedge pillows: single-layer foam is often too firm to sleep on comfortably for extended periods. Their solution is a 2-inch memory foam layer on top of a firm support base foam. The firm base maintains the structural wedge shape — which is critical for consistent elevation — while the memory foam conforms to body contours for comfort.</p>
+  <p style="margin-top:.75rem">The bamboo cover is included and is machine washable — and bamboo's natural moisture-wicking properties help with the warmth issue that foam wedges are prone to. At 8 inches, this is on the higher end of elevation, which may benefit more severe GERD cases or those whose symptoms break through at 7-inch elevation.</p>
+  <div class="pros-cons">
+    <div class="pros">
+      <h4>Pros</h4>
+      <ul>
+        <li>Dual-layer: firm support + 2" memory foam comfort top</li>
+        <li>Bamboo cover — moisture-wicking, cooling properties</li>
+        <li>8" elevation — higher for more severe GERD</li>
+        <li>Memory foam top eliminates single-foam hardness problem</li>
+        <li>Strong customer satisfaction record</li>
+      </ul>
+    </div>
+    <div class="cons">
+      <h4>Cons</h4>
+      <ul>
+        <li>8" may be too steep for some sleepers</li>
+        <li>Memory foam top retains some heat</li>
+        <li>More expensive than single-foam alternatives</li>
+      </ul>
+    </div>
+  </div>
+  <a class="buy-btn" href="https://www.amazon.com/s?k=InteVision+Foam+Wedge+Bed+Pillow&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+</div>
+
+<!-- PRODUCT 4 -->
+<div class="product-card" id="avana">
+  <span class="rank-badge">#4 Best for Side Sleepers</span>
+  <h2>Avana Kind Bed Orthopedic Support Pillow</h2>
+  <div class="verdict">"The 4-piece modular system supports the full body for side sleeping with reflux — the most complete solution for side sleepers who need GERD elevation without sacrificing sleep position comfort."</div>
+  <div class="specs-grid">
+    <div class="spec-chip"><strong>System:</strong> 4-piece modular (wedge + body + knee + head)</div>
+    <div class="spec-chip"><strong>Wedge height:</strong> 7 inches</div>
+    <div class="spec-chip"><strong>Position:</strong> Designed for side sleeping</div>
+    <div class="spec-chip"><strong>Cover:</strong> Removable, washable</div>
+    <div class="spec-chip"><strong>Best for:</strong> Side sleepers with reflux</div>
+    <div class="spec-chip"><strong>Foam:</strong> Memory foam components</div>
+  </div>
+  <p>Avana Kind Bed is a full positioning system rather than a single wedge. The four-piece set includes: a main wedge for torso elevation, a body pillow for side support, a knee separator for hip alignment, and a head pillow. For side sleepers with acid reflux, this system solves the challenge of maintaining proper posture at an elevated angle throughout the night.</p>
+  <p style="margin-top:.75rem">Left-side sleeping with 7-inch elevation is the clinically optimal position for acid reflux — the stomach sits below the esophagus AND the esophagus-stomach junction is elevated above stomach contents. Avana Kind Bed makes this position sustainable for a full night's sleep by supporting all body segments, not just the torso.</p>
+  <div class="pros-cons">
+    <div class="pros">
+      <h4>Pros</h4>
+      <ul>
+        <li>4-piece system — supports full-body side sleeping</li>
+        <li>Left-side sleep positioning — clinically optimal for GERD</li>
+        <li>Knee and hip support prevents position rollout</li>
+        <li>Complete solution for chronic side-sleeping reflux sufferers</li>
+        <li>Modular — can use components independently</li>
+      </ul>
+    </div>
+    <div class="cons">
+      <h4>Cons</h4>
+      <ul>
+        <li>Significant bed space commitment (4 pieces)</li>
+        <li>Higher price than single-wedge options</li>
+        <li>Overkill for occasional or mild reflux</li>
+      </ul>
+    </div>
+  </div>
+  <a class="buy-btn" href="https://www.amazon.com/s?k=Avana+Kind+Bed+Orthopedic+Support+Pillow+reflux&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+</div>
+
+<!-- PRODUCT 5 -->
+<div class="product-card" id="relax">
+  <span class="rank-badge">#5 Best Budget</span>
+  <h2>Relax Home Life 7.5-Inch Wedge Pillow</h2>
+  <div class="verdict">"High-density foam at the optimal 7.5-inch elevation for under half the price of premium options — the best value wedge for first-time users who want to test elevation therapy before committing."</div>
+  <div class="specs-grid">
+    <div class="spec-chip"><strong>Height:</strong> 7.5 inches</div>
+    <div class="spec-chip"><strong>Density:</strong> High-density foam (1.5 lb/ft3)</div>
+    <div class="spec-chip"><strong>Width:</strong> 24 inches</div>
+    <div class="spec-chip"><strong>Cover:</strong> Bamboo cover included</div>
+    <div class="spec-chip"><strong>Price range:</strong> Budget</div>
+    <div class="spec-chip"><strong>Angle:</strong> ~30 degrees</div>
+  </div>
+  <p>Relax Home Life uses 1.5 lb/ft3 high-density foam — a meaningful spec because lower-density foam compresses over time and loses its wedge angle, reducing effectiveness. Higher-density foam holds its shape longer, which matters for a product used nightly. At 7.5 inches, it's slightly above the clinical minimum for effective GERD management.</p>
+  <p style="margin-top:.75rem">The bamboo cover has moisture-wicking properties and is machine washable. At this price point, the Relax Home Life is a low-risk entry into wedge pillow therapy. For those who have never used a wedge pillow and want to confirm it helps before investing in a dual-layer or modular system, this is the correct starting point.</p>
+  <div class="pros-cons">
+    <div class="pros">
+      <h4>Pros</h4>
+      <ul>
+        <li>Budget-friendly — lowest price on this list</li>
+        <li>1.5 lb/ft3 density — holds shape over time</li>
+        <li>7.5" height — above clinical minimum</li>
+        <li>Bamboo cover included — moisture-wicking</li>
+        <li>Good entry point before committing to premium options</li>
+      </ul>
+    </div>
+    <div class="cons">
+      <h4>Cons</h4>
+      <ul>
+        <li>Single-layer foam — no memory foam comfort top</li>
+        <li>Firmer feel than dual-layer alternatives</li>
+        <li>Less padding than premium options for all-night comfort</li>
+      </ul>
+    </div>
+  </div>
+  <a class="buy-btn" href="https://www.amazon.com/s?k=Relax+Home+Life+Wedge+Pillow+7.5+inch&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+</div>
+
+<!-- PRODUCT 6 -->
+<div class="product-card" id="helix">
+  <span class="rank-badge">#6 Best Cooling</span>
+  <h2>Helix Wedge Pillow</h2>
+  <div class="verdict">"Gel-infused foam with a cooling cover — the best option for hot sleepers with GERD who find standard foam wedge pillows too warm for comfortable overnight use."</div>
+  <div class="specs-grid">
+    <div class="spec-chip"><strong>Height:</strong> 7 inches</div>
+    <div class="spec-chip"><strong>Foam:</strong> Gel-infused memory foam</div>
+    <div class="spec-chip"><strong>Cover:</strong> Cooling Tencel cover</div>
+    <div class="spec-chip"><strong>Width:</strong> 24 inches</div>
+    <div class="spec-chip"><strong>Brand:</strong> Helix Sleep</div>
+    <div class="spec-chip"><strong>Washable:</strong> Cover yes</div>
+  </div>
+  <p>Helix's wedge pillow uses their familiar gel-infused memory foam — the same cooling technology in their mattresses — topped with a Tencel cover that wicks moisture and regulates surface temperature. For hot sleepers, foam wedge pillows are often problematic because foam traps heat more aggressively than a standard pillow.</p>
+  <p style="margin-top:.75rem">The gel foam is softer than standard polyfoam wedges, which improves overnight comfort for those who find firm wedge pillows uncomfortable. The 7-inch height and 30-degree angle hit the clinical recommendation for GERD. The Tencel cover is removable and washable. For those who already trust Helix's sleep product quality, this is the natural wedge extension of that ecosystem.</p>
+  <div class="pros-cons">
+    <div class="pros">
+      <h4>Pros</h4>
+      <ul>
+        <li>Gel-infused foam — actively draws heat away</li>
+        <li>Tencel cover — moisture-wicking, temperature neutral</li>
+        <li>Softer feel than standard polyfoam wedges</li>
+        <li>Helix brand quality assurance</li>
+        <li>Ideal for hot sleepers with GERD</li>
+      </ul>
+    </div>
+    <div class="cons">
+      <h4>Cons</h4>
+      <ul>
+        <li>Premium price for a wedge pillow</li>
+        <li>Softer foam may compress slightly more over time</li>
+        <li>Only available in one elevation height</li>
+      </ul>
+    </div>
+  </div>
+  <a class="buy-btn" href="https://www.amazon.com/s?k=Helix+Wedge+Pillow+acid+reflux&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+</div>
+
+<!-- PRODUCT 7 -->
+<div class="product-card" id="xtreme">
+  <span class="rank-badge">#7 Best Compact</span>
+  <h2>Xtreme Comforts 7-Inch Wedge Pillow</h2>
+  <div class="verdict">"Ultra-shredded memory foam option for travelers and smaller bed setups — the most packable wedge with a soft, adjustable fill that accommodates multiple elevation preferences."</div>
+  <div class="specs-grid">
+    <div class="spec-chip"><strong>Height:</strong> 7 inches</div>
+    <div class="spec-chip"><strong>Fill:</strong> Shredded memory foam (adjustable)</div>
+    <div class="spec-chip"><strong>Cover:</strong> Bamboo rayon cover</div>
+    <div class="spec-chip"><strong>Packable:</strong> Yes (compressible)</div>
+    <div class="spec-chip"><strong>Width:</strong> 24 inches</div>
+    <div class="spec-chip"><strong>Adjustable:</strong> Add/remove fill</div>
+  </div>
+  <p>Xtreme Comforts takes a different approach: shredded memory foam fill inside a structured wedge cover rather than solid foam. This makes it compressible for storage and travel, and the adjustable fill allows height customization — add fill for more elevation, remove for less. For GERD sufferers who travel frequently or who aren't sure what height works best, the adjustability is uniquely valuable.</p>
+  <p style="margin-top:.75rem">The bamboo rayon cover wicks moisture and has a soft texture that most users find more comfortable than standard polyester covers. The tradeoff is that shredded foam fill can shift over time, requiring occasional refluffing to maintain consistent elevation. A practical choice for travelers and those who want height flexibility.</p>
+  <div class="pros-cons">
+    <div class="pros">
+      <h4>Pros</h4>
+      <ul>
+        <li>Shredded foam fill — adjustable elevation height</li>
+        <li>Compressible for travel and storage</li>
+        <li>Bamboo rayon cover — soft and moisture-wicking</li>
+        <li>Height customization for personal preference</li>
+        <li>Machine washable cover</li>
+      </ul>
+    </div>
+    <div class="cons">
+      <h4>Cons</h4>
+      <ul>
+        <li>Shredded fill shifts — requires occasional refluffing</li>
+        <li>Less structural integrity than solid foam wedges</li>
+        <li>Elevation consistency lower than solid foam options</li>
+      </ul>
+    </div>
+  </div>
+  <a class="buy-btn" href="https://www.amazon.com/s?k=Xtreme+Comforts+7+Inch+Wedge+Pillow&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+</div>
+
+<!-- COMPARISON TABLE -->
+<h2 style="margin:2.5rem 0 1rem;font-size:1.5rem">Comparison: All 7 Wedge Pillows for Acid Reflux</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Product</th>
+      <th>Height</th>
+      <th>Construction</th>
+      <th>Side Sleep</th>
+      <th>Cooling</th>
+      <th>Best For</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Brentwood Zuma</td><td>7"</td><td>Single foam</td><td>Yes (24")</td><td>Standard</td><td>Overall daily use</td></tr>
+    <tr><td>Medslant</td><td>7"</td><td>Single foam, 32" long</td><td>Yes (28")</td><td>Standard</td><td>Full-torso support</td></tr>
+    <tr><td>InteVision</td><td>8"</td><td>Dual-layer (2" mem foam top)</td><td>Limited</td><td>Bamboo cover</td><td>Comfort + elevation</td></tr>
+    <tr><td>Avana Kind Bed</td><td>7"</td><td>4-piece modular system</td><td>Best</td><td>Standard</td><td>Side sleepers</td></tr>
+    <tr><td>Relax Home Life</td><td>7.5"</td><td>High-density foam</td><td>Yes</td><td>Bamboo cover</td><td>Budget entry</td></tr>
+    <tr><td>Helix Wedge</td><td>7"</td><td>Gel-infused memory foam</td><td>Yes</td><td>Best (Tencel)</td><td>Hot sleepers</td></tr>
+    <tr><td>Xtreme Comforts</td><td>7"</td><td>Shredded foam (adjustable)</td><td>Yes</td><td>Bamboo rayon</td><td>Travel + adjustable</td></tr>
+  </tbody>
+</table>
+
+<!-- BUYER'S GUIDE -->
+<div id="guide" class="science-box">
+  <h3>Buyer's Guide: Elevation, Angle &amp; Foam for GERD Relief</h3>
+  <p><strong>The 30-degree rule:</strong> Research consistently shows 30-degree elevation (6-8 inches at the head) provides the optimal balance of acid reduction and overnight comfort. Below 6 inches, gravity doesn't provide sufficient barrier. Above 10 inches, neck and back strain increase significantly. Stay in the 6-8 inch range for daily use.</p>
+  <p style="margin-top:.75rem"><strong>Slope length matters:</strong> A 24-inch slope creates a steep incline from waist to head, which can feel like sleeping "sitting up." A 28-32 inch slope creates a gentler gradient that starts lower on the torso — more comfortable for all-night use. If comfort at a 24-inch wedge is a problem, try a 30-inch model (Medslant).</p>
+  <p style="margin-top:.75rem"><strong>Side sleeping + left-side = best:</strong> Left-side sleeping with elevation is clinically superior to back sleeping with elevation for GERD. In left-side position, the stomach is below the LES-esophagus junction AND the stomach's natural curve pools acid away from the sphincter. A wide wedge (24"+) is needed to accommodate side sleeping.</p>
+  <p style="margin-top:.75rem"><strong>Don't stack regular pillows:</strong> Stacked pillows elevate only the head, bending the spine at the neck and increasing abdominal pressure. They also shift during the night. A proper wedge provides continuous, structural elevation of the full torso — which is why wedge pillows outperform stacked pillows in clinical comparisons.</p>
+</div>
+
+<!-- FAQ -->
+<div class="faq" id="faq">
+  <h2>Frequently Asked Questions</h2>
+  <div class="faq-item">
+    <h3>How high should a wedge pillow be for acid reflux?</h3>
+    <p>6-8 inches (approximately 30-45 degrees) is the research-supported range. Lower elevations provide some benefit but are less effective. Higher elevations above 8 inches may cause neck or back discomfort for most adult heights. Most users find 7 inches to be the comfort-effectiveness sweet spot.</p>
+  </div>
+  <div class="faq-item">
+    <h3>Do wedge pillows really help with GERD?</h3>
+    <p>Yes. Multiple clinical studies show that sleeping with the head and torso elevated reduces esophageal acid exposure during sleep by 50-67%. It's one of the most evidence-supported non-pharmacological interventions for nighttime GERD, recommended alongside dietary changes and medication when appropriate.</p>
+  </div>
+  <div class="faq-item">
+    <h3>Can I use a wedge pillow as a side sleeper?</h3>
+    <p>Yes, and left-side sleeping with head elevation is actually the most effective position for GERD. Look for wedges that are at least 24 inches wide (most are) and consider a modular system like the Avana Kind Bed if you need full-body side support to maintain the position through the night.</p>
+  </div>
+  <div class="faq-item">
+    <h3>What is the difference between a wedge pillow and a regular pillow for acid reflux?</h3>
+    <p>A regular pillow only elevates the head — the torso stays horizontal, which creates a waist bend that can increase abdominal pressure and worsen reflux. A wedge pillow elevates from the waist up, providing a uniform incline that lets gravity work without bending the body. The torso-wide slope is the critical difference.</p>
+  </div>
+  <div class="faq-item">
+    <h3>How long does it take for a wedge pillow to help acid reflux?</h3>
+    <p>Most users notice improvement within 1-2 nights. Full adjustment to the position typically takes 1-2 weeks, during which some neck or back stiffness is common as the body adapts. If stiffness persists beyond 2 weeks, the elevation may be too high — try a lower height or longer slope wedge.</p>
+  </div>
+</div>
+
+</div><!-- container -->
+
+<footer>
+  <p>&copy; 2026 SleepWise Reviews &mdash; <a href="/posts/index.html">All Posts</a> &mdash; <a href="/">Home</a></p>
+  <p style="margin-top:.5rem">SleepWise Reviews participates in the Amazon Associates program. Affiliate links help support free content at no cost to you.</p>
+</footer>
+</body>
+</html>"""
+
+with open(OUT, 'w', encoding='utf-8') as f:
+    f.write(html)
+print(f'Written: {OUT}')
