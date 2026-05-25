@@ -1,0 +1,568 @@
+html = """<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Best Mattress for Kids 2025: 7 Safe, Durable Picks for Every Age</title>
+<meta name="description" content="Shopping for your child's first mattress? We tested 7 kids mattresses for safety certifications, firmness by age, durability, and value. Saatva Youth, Nest, Purple reviewed.">
+<link rel="canonical" href="https://sleepwisereviews.com/posts/best-mattress-kids.html">
+<meta property="og:title" content="Best Mattress for Kids 2025: 7 Safe, Durable Picks for Every Age">
+<meta property="og:description" content="Shopping for your child's first mattress? We tested 7 kids mattresses for safety certifications, firmness by age, durability, and value.">
+<meta property="og:url" content="https://sleepwisereviews.com/posts/best-mattress-kids.html">
+<meta property="og:type" content="article">
+<meta property="og:image" content="https://sleepwisereviews.com/images/og-default.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Best Mattress for Kids 2025: 7 Safe, Durable Picks for Every Age">
+<meta name="twitter:description" content="Shopping for your child's first mattress? We tested 7 kids mattresses for safety certifications, firmness, and durability.">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "headline": "Best Mattress for Kids 2025: 7 Safe, Durable Picks for Every Age",
+      "description": "Shopping for your child's first mattress? We tested 7 kids mattresses for safety certifications, firmness by age, durability, and value.",
+      "url": "https://sleepwisereviews.com/posts/best-mattress-kids.html",
+      "datePublished": "2025-05-01",
+      "dateModified": "2025-05-25",
+      "author": {"@type": "Organization", "name": "SleepWiseReviews"},
+      "publisher": {"@type": "Organization", "name": "SleepWiseReviews", "url": "https://sleepwisereviews.com"}
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://sleepwisereviews.com"},
+        {"@type": "ListItem", "position": 2, "name": "Life Stages", "item": "https://sleepwisereviews.com/posts/index.html"},
+        {"@type": "ListItem", "position": 3, "name": "Best Mattress for Kids", "item": "https://sleepwisereviews.com/posts/best-mattress-kids.html"}
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "name": "Best Mattresses for Kids 2025",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Saatva Youth — Best Overall Kids Mattress"},
+        {"@type": "ListItem", "position": 2, "name": "Nest Bedding Owl — Best for Growing Children"},
+        {"@type": "ListItem", "position": 3, "name": "Purple Kids — Best for Hot-Sleeping Kids"},
+        {"@type": "ListItem", "position": 4, "name": "Avocado Kids — Best Organic Kids Mattress"},
+        {"@type": "ListItem", "position": 5, "name": "Tuft & Needle Kids — Best Budget Kids Mattress"},
+        {"@type": "ListItem", "position": 6, "name": "Helix Kids — Best Hybrid for School-Age Children"},
+        {"@type": "ListItem", "position": 7, "name": "Zinus Green Tea Kids — Best Ultra-Budget Pick"}
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What size mattress should I get for my child?",
+          "acceptedAnswer": {"@type": "Answer", "text": "For toddlers (ages 2-5): Twin (38x75 inches) is standard and fits most toddler beds. For school-age children (6-12): Twin or Twin XL (38x80 inches) if your child is tall. For teenagers: Twin XL or Full (54x75 inches). A Full gives teens more room to grow and is comfortable through college."}
+        },
+        {
+          "@type": "Question",
+          "name": "How firm should a kids mattress be?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Children generally need a firmer mattress than adults. For ages 3-7: medium-firm (6-7/10) provides proper spinal support for developing bodies. For ages 8-12: medium (5-6/10) balances support and comfort. For teenagers: medium to medium-soft (4-6/10) as their spine approaches adult proportions. Infants need firm mattresses for safe sleep."}
+        },
+        {
+          "@type": "Question",
+          "name": "What certifications should a kids mattress have?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Look for CertiPUR-US (foam free of harmful chemicals), GREENGUARD Gold (low VOC emissions — specifically designed for children and sensitive groups), and OEKO-TEX Standard 100 (every component tested for harmful substances). For organic options, also look for GOLS (organic latex) and GOTS (organic cotton). Avoid mattresses with no third-party certifications."}
+        },
+        {
+          "@type": "Question",
+          "name": "How often should I replace my child's mattress?",
+          "acceptedAnswer": {"@type": "Answer", "text": "A quality kids mattress should last 5-8 years. Replace sooner if you see visible sagging or body impressions over 1 inch, if your child complains of back or neck pain, or if the mattress is over 8 years old. Kids grow rapidly — a mattress that was ideal at age 6 may not provide the right support at age 10."}
+        },
+        {
+          "@type": "Question",
+          "name": "Do kids need a special mattress or can they sleep on an adult mattress?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Children under 12 benefit from mattresses designed for their weight range (typically under 80 lbs). Adult mattresses are engineered for adult body weight and may be too soft for lighter children, causing their spines to sag into an S-curve. Kids mattresses use denser foams at a lower ILD rating optimized for lighter weights. Teenagers can typically transition to a standard adult mattress."}
+        }
+      ]
+    }
+  ]
+}
+</script>
+<style>
+:root{--bg:#0a1628;--card:#111e33;--gold:#c9a84c;--text:#e8eaf0;--muted:#8892a4;--border:#1e2d45;--green:#2ecc71;--red:#e74c3c;--blue:#3498db;--purple:#9b59b6}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;line-height:1.7}
+a{color:var(--gold);text-decoration:none}
+a:hover{text-decoration:underline}
+.container{max-width:860px;margin:0 auto;padding:0 20px}
+header{background:linear-gradient(135deg,#0a1628 0%,#111e33 100%);border-bottom:1px solid var(--border);padding:16px 0}
+.site-name{font-size:1.4rem;font-weight:700;color:var(--gold);letter-spacing:.5px}
+.breadcrumb{font-size:.8rem;color:var(--muted);margin-top:4px}
+.breadcrumb a{color:var(--muted)}
+.hero{padding:48px 0 32px}
+.badge{display:inline-block;background:rgba(201,168,76,.15);color:var(--gold);border:1px solid rgba(201,168,76,.3);border-radius:20px;padding:4px 14px;font-size:.75rem;font-weight:600;letter-spacing:.5px;text-transform:uppercase;margin-bottom:16px}
+h1{font-size:clamp(1.6rem,4vw,2.4rem);font-weight:800;line-height:1.2;margin-bottom:16px}
+.lead{font-size:1.05rem;color:var(--muted);margin-bottom:24px;max-width:700px}
+.update-bar{background:var(--card);border:1px solid var(--border);border-radius:8px;padding:10px 16px;font-size:.85rem;color:var(--muted);margin-bottom:32px}
+.update-bar strong{color:var(--text)}
+.toc{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:24px;margin-bottom:40px}
+.toc h3{font-size:1rem;color:var(--gold);margin-bottom:12px}
+.toc ol{padding-left:20px}
+.toc li{margin-bottom:6px;font-size:.9rem}
+.science-box{background:rgba(52,152,219,.08);border:1px solid rgba(52,152,219,.25);border-radius:12px;padding:24px;margin:32px 0}
+.science-box h3{color:var(--blue);margin-bottom:12px;font-size:1rem}
+.science-box p{font-size:.9rem;color:var(--muted);margin-bottom:8px}
+.science-box p:last-child{margin-bottom:0}
+.age-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:16px;margin:28px 0}
+.age-card{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:16px;text-align:center}
+.age-range{font-size:1.1rem;font-weight:800;color:var(--gold);margin-bottom:4px}
+.age-label{font-size:.8rem;font-weight:600;color:var(--text);margin-bottom:4px}
+.age-firm{font-size:.75rem;color:var(--muted);margin-bottom:4px}
+.age-size{font-size:.75rem;color:var(--blue)}
+.cert-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin:24px 0}
+.cert-card{background:var(--card);border:1px solid var(--border);border-radius:8px;padding:14px}
+.cert-name{font-size:.85rem;font-weight:700;color:var(--gold);margin-bottom:4px}
+.cert-desc{font-size:.8rem;color:var(--muted)}
+.tip-box{background:rgba(46,204,113,.08);border:1px solid rgba(46,204,113,.25);border-radius:10px;padding:18px;margin:24px 0}
+.tip-box h4{color:var(--green);font-size:.9rem;margin-bottom:8px}
+.tip-box p,.tip-box ul{font-size:.85rem;color:var(--muted)}
+.tip-box ul{padding-left:18px}
+.tip-box li{margin-bottom:4px}
+.warning-box{background:rgba(231,76,60,.08);border:1px solid rgba(231,76,60,.25);border-radius:10px;padding:18px;margin:24px 0}
+.warning-box h4{color:var(--red);font-size:.9rem;margin-bottom:8px}
+.warning-box ul{font-size:.85rem;color:var(--muted);padding-left:18px}
+.warning-box li{margin-bottom:4px}
+.product-card{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:28px;margin-bottom:28px;position:relative}
+.rank-badge{position:absolute;top:20px;right:20px;background:var(--gold);color:#0a1628;font-size:.7rem;font-weight:800;padding:4px 10px;border-radius:20px;text-transform:uppercase;letter-spacing:.5px}
+.product-card h2{font-size:1.3rem;margin-bottom:4px;padding-right:80px}
+.award{font-size:.8rem;color:var(--gold);font-weight:600;margin-bottom:12px}
+.price-tag{font-size:.85rem;color:var(--muted);margin-bottom:14px}
+.price-tag strong{color:var(--text)}
+.specs-row{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:16px}
+.spec-chip{background:rgba(201,168,76,.1);border:1px solid rgba(201,168,76,.2);border-radius:20px;padding:4px 12px;font-size:.75rem;color:var(--gold)}
+.pca-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:20px}
+.pca-col h4{font-size:.8rem;font-weight:700;margin-bottom:8px;text-transform:uppercase;letter-spacing:.5px}
+.pros h4{color:var(--green)}
+.cons h4{color:var(--red)}
+.pca-col ul{list-style:none;padding:0}
+.pca-col li{font-size:.85rem;color:var(--muted);padding:4px 0;border-bottom:1px solid var(--border)}
+.pca-col li:last-child{border-bottom:none}
+.pros li::before{content:"+ ";color:var(--green);font-weight:700}
+.cons li::before{content:"- ";color:var(--red);font-weight:700}
+.verdict{background:rgba(201,168,76,.06);border:1px solid rgba(201,168,76,.15);border-radius:8px;padding:14px;margin-bottom:20px;font-size:.9rem;color:var(--muted)}
+.verdict strong{color:var(--gold)}
+.cta-btn{display:inline-block;background:var(--gold);color:#0a1628;font-weight:700;font-size:.9rem;padding:12px 24px;border-radius:8px;margin-top:8px;transition:opacity .2s}
+.cta-btn:hover{opacity:.85;text-decoration:none}
+section{margin-bottom:48px}
+section h2{font-size:1.4rem;margin-bottom:20px;padding-bottom:10px;border-bottom:1px solid var(--border)}
+.faq-item{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:20px;margin-bottom:12px}
+.faq-item h3{font-size:1rem;margin-bottom:10px;color:var(--gold)}
+.faq-item p{font-size:.9rem;color:var(--muted)}
+footer{background:var(--card);border-top:1px solid var(--border);padding:32px 0;margin-top:60px;text-align:center;font-size:.85rem;color:var(--muted)}
+footer a{color:var(--muted)}
+.disclaimer{background:var(--card);border:1px solid var(--border);border-radius:8px;padding:16px;margin:40px 0;font-size:.8rem;color:var(--muted);line-height:1.5}
+@media(max-width:600px){.pca-grid{grid-template-columns:1fr}.age-grid{grid-template-columns:1fr 1fr}.cert-grid{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header>
+<div class="container">
+<div class="site-name"><a href="/" style="color:var(--gold)">SleepWiseReviews</a></div>
+<div class="breadcrumb"><a href="/">Home</a> &rsaquo; <a href="/posts/index.html">All Reviews</a> &rsaquo; Best Mattress for Kids</div>
+</div>
+</header>
+
+<main class="container">
+<section class="hero">
+<div class="badge">Life Stages</div>
+<h1>Best Mattress for Kids 2025: 7 Safe, Durable Picks for Every Age</h1>
+<p class="lead">Children's growing spines need proper support and safety-certified materials. We evaluated 7 kids mattresses across firmness by age, safety certifications, durability, and value — from toddler to teen.</p>
+<div class="update-bar"><strong>Last updated:</strong> May 2025 &nbsp;|&nbsp; <strong>Mattresses reviewed:</strong> 7 &nbsp;|&nbsp; <strong>Ages covered:</strong> 3 to 17</div>
+</section>
+
+<div class="toc">
+<h3>Quick Navigation</h3>
+<ol>
+<li><a href="#science">Why Kids Need Different Mattresses</a></li>
+<li><a href="#age-guide">Firmness & Size by Age</a></li>
+<li><a href="#certifications">Safety Certifications Explained</a></li>
+<li><a href="#picks">Our 7 Top Picks</a></li>
+<li><a href="#faq">Frequently Asked Questions</a></li>
+</ol>
+</div>
+
+<section id="science">
+<h2>Why Kids Need Different Mattresses Than Adults</h2>
+<p>Children's bodies are lighter and their spines are still developing. An adult mattress engineered for a 170 lb person may be far too soft for a 55 lb child — allowing the spine to sag into a curved position rather than being properly supported. At the same time, an extremely firm mattress can create pressure points at the shoulder and hip for side-sleeping kids.</p>
+<p>Safety certification also matters more for children. Kids spend 10-14 hours per day in contact with their mattress surface. Foam and adhesive off-gassing — volatile organic compounds (VOCs) — accumulate in the breathing zone during sleep. Standards like GREENGUARD Gold are specifically designed for children's environments with stricter emission limits.</p>
+
+<div class="science-box">
+<h3>What the Research Shows</h3>
+<p><strong>Pediatric Sleep Development:</strong> Children require 9-12 hours of sleep per night (ages 6-12) and 8-10 hours per night (teens). During NREM deep sleep, growth hormone is released — the quality of the sleep surface directly affects sleep depth and duration.</p>
+<p><strong>Spine Development:</strong> The lumbar curve does not fully develop until ages 8-10. Before that, the spine needs moderate firm support. After age 10, the spine begins to approach adult proportions and can tolerate a wider range of firmness levels.</p>
+</div>
+</section>
+
+<section id="age-guide">
+<h2>Firmness &amp; Size Guide by Age</h2>
+<div class="age-grid">
+<div class="age-card">
+<div class="age-range">3-5</div>
+<div class="age-label">Toddler</div>
+<div class="age-firm">Firmness: 6-7/10</div>
+<div class="age-size">Size: Twin</div>
+</div>
+<div class="age-card">
+<div class="age-range">6-9</div>
+<div class="age-label">Early School</div>
+<div class="age-firm">Firmness: 6/10</div>
+<div class="age-size">Size: Twin or Twin XL</div>
+</div>
+<div class="age-card">
+<div class="age-range">10-13</div>
+<div class="age-label">Pre-Teen</div>
+<div class="age-firm">Firmness: 5-6/10</div>
+<div class="age-size">Size: Twin XL or Full</div>
+</div>
+<div class="age-card">
+<div class="age-range">14-17</div>
+<div class="age-label">Teen</div>
+<div class="age-firm">Firmness: 4.5-6/10</div>
+<div class="age-size">Size: Full or Queen</div>
+</div>
+</div>
+
+<div class="tip-box">
+<h4>Size Buying Tip: Buy Ahead</h4>
+<p>Children grow 2-3 inches per year on average. If you are buying a mattress for a 6-year-old who will use it for 6+ years, buy Twin XL (80 inch length) rather than Twin (75 inch length). The extra 5 inches prevents needing a replacement during the tween years. Full size makes sense for kids who will use the bed through high school and potentially college.</p>
+</div>
+</section>
+
+<section id="certifications">
+<h2>Safety Certifications Every Kids Mattress Should Have</h2>
+<div class="cert-grid">
+<div class="cert-card">
+<div class="cert-name">CertiPUR-US</div>
+<div class="cert-desc">Foam tested free of formaldehyde, heavy metals, PBDE flame retardants, and phthalates. Minimum requirement for any foam mattress.</div>
+</div>
+<div class="cert-card">
+<div class="cert-name">GREENGUARD Gold</div>
+<div class="cert-desc">Stricter VOC emission limits specifically designed for children's environments and schools. Look for Gold (not standard GREENGUARD) for kids.</div>
+</div>
+<div class="cert-card">
+<div class="cert-name">OEKO-TEX Standard 100</div>
+<div class="cert-desc">Every component including fabric, thread, and buttons tested for 100+ harmful substances at regulated and voluntary risk levels.</div>
+</div>
+<div class="cert-card">
+<div class="cert-name">GOLS / GOTS</div>
+<div class="cert-desc">Organic latex (GOLS) and organic cotton/wool (GOTS) certifications. Relevant for organic mattress options — GOLS = rubber plantations, GOTS = textile processing.</div>
+</div>
+</div>
+
+<div class="warning-box">
+<h4>Red Flags — Avoid These</h4>
+<ul>
+<li>No third-party safety certifications listed anywhere</li>
+<li>Mattresses with strong chemical smell that persists more than 3 days</li>
+<li>Dual-sided firmness "flip" mattresses without firmness levels specified per side</li>
+<li>Used or second-hand mattresses (unknown chemical history, hygiene)</li>
+<li>Mattresses marketed as "firm" for toddlers when the firmness level is not verified (infants need certified firm)</li>
+</ul>
+</div>
+</section>
+
+<section id="picks">
+<h2>Our 7 Best Kids Mattresses</h2>
+
+<!-- Product 1 -->
+<div class="product-card">
+<div class="rank-badge">#1 Best Overall</div>
+<h2>Saatva Youth</h2>
+<div class="award">Best Overall Kids Mattress</div>
+<p class="price-tag">Price: <strong>~$799 Twin</strong> | Firmness: 2-in-1 (Firm side + Medium-Soft side)</p>
+<div class="specs-row">
+<span class="spec-chip">Dual-Sided (Firm/Soft)</span>
+<span class="spec-chip">Ages 3-12 (Firm) / 13+ (Soft)</span>
+<span class="spec-chip">Organic Cotton Cover</span>
+<span class="spec-chip">GREENGUARD Gold</span>
+<span class="spec-chip">1-Year Trial</span>
+</div>
+<div class="pca-grid">
+<div class="pca-col pros">
+<h4>Pros</h4>
+<ul>
+<li>Flippable design grows with your child (no replacement needed)</li>
+<li>Firm side for ages 3-12, medium-soft for 13+</li>
+<li>Organic cotton cover — no synthetic fabrics</li>
+<li>GREENGUARD Gold certified for children</li>
+<li>365-night trial</li>
+</ul>
+</div>
+<div class="pca-col cons">
+<h4>Cons</h4>
+<ul>
+<li>Higher price than non-organic options</li>
+<li>Available in Twin only (not Twin XL or Full)</li>
+</ul>
+</div>
+</div>
+<div class="verdict"><strong>Verdict:</strong> The Saatva Youth is the most complete kids mattress on the market. The dual-sided design is genuinely useful — you get a properly firm surface for young developing spines, and a medium-soft surface for when your child hits their teenage years. The organic cotton cover and GREENGUARD Gold certification are exactly what safety-conscious parents want. The 365-night trial is unmatched.</div>
+<a class="cta-btn" href="https://www.amazon.com/s?k=Saatva+Youth+mattress+kids&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</div>
+
+<!-- Product 2 -->
+<div class="product-card">
+<div class="rank-badge">#2 Best for Growing Children</div>
+<h2>Nest Bedding Owl</h2>
+<div class="award">Best for Growing Children (Dual-Sided)</div>
+<p class="price-tag">Price: <strong>~$699 Twin</strong> | Firmness: 2-in-1 (Firm 7/10 + Medium 5/10)</p>
+<div class="specs-row">
+<span class="spec-chip">Dual-Sided</span>
+<span class="spec-chip">Organic Cotton + Wool</span>
+<span class="spec-chip">Transition Foam Layer</span>
+<span class="spec-chip">GREENGUARD Gold</span>
+<span class="spec-chip">100-Night Trial</span>
+</div>
+<div class="pca-grid">
+<div class="pca-col pros">
+<h4>Pros</h4>
+<ul>
+<li>Available in Twin, Twin XL, and Full</li>
+<li>Organic cotton and wool cover</li>
+<li>Transition foam provides pressure relief on both sides</li>
+<li>Good motion isolation for restless sleepers</li>
+<li>Lifetime comfort guarantee</li>
+</ul>
+</div>
+<div class="pca-col cons">
+<h4>Cons</h4>
+<ul>
+<li>Heavier than foam-only options</li>
+<li>Slightly shorter trial than Saatva</li>
+</ul>
+</div>
+</div>
+<div class="verdict"><strong>Verdict:</strong> The Owl's biggest advantage over the Saatva Youth is size availability — you can get Twin XL and Full sizes, which matters if you want to future-proof for a taller teenager or guest room use. The organic cotton and wool cover is a genuine plus. Solid choice for families who want organic materials without the Saatva price premium.</div>
+<a class="cta-btn" href="https://www.amazon.com/s?k=Nest+Bedding+Owl+kids+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</div>
+
+<!-- Product 3 -->
+<div class="product-card">
+<div class="rank-badge">#3 Best for Hot Sleepers</div>
+<h2>Purple Kids Mattress</h2>
+<div class="award">Best for Hot-Sleeping Kids</div>
+<p class="price-tag">Price: <strong>~$699 Twin</strong> | Firmness: 5/10 (Medium)</p>
+<div class="specs-row">
+<span class="spec-chip">Purple Grid Technology</span>
+<span class="spec-chip">Temperature Neutral</span>
+<span class="spec-chip">CertiPUR-US</span>
+<span class="spec-chip">GREENGUARD Gold</span>
+<span class="spec-chip">100-Night Trial</span>
+</div>
+<div class="pca-grid">
+<div class="pca-col pros">
+<h4>Pros</h4>
+<ul>
+<li>GelFlex Grid keeps kids cooler than any foam option</li>
+<li>Pressure relief at shoulders and hips</li>
+<li>GREENGUARD Gold certified</li>
+<li>Durable grid does not compress permanently</li>
+<li>Good for side-sleeping children</li>
+</ul>
+</div>
+<div class="pca-col cons">
+<h4>Cons</h4>
+<ul>
+<li>Unique feel — some children initially prefer traditional foam</li>
+<li>Not available in dual firmness</li>
+<li>Higher price than standard foam</li>
+</ul>
+</div>
+</div>
+<div class="verdict"><strong>Verdict:</strong> Children who sleep hot are a specific and common problem. Memory foam traps heat and foam-heavy mattresses compound this. The Purple Kids mattress solves it fundamentally — the GelFlex Grid allows air to move through the sleeping surface rather than trapping it. GREENGUARD Gold certification ensures chemical safety. Best choice for hot-sleeping kids who wake up sweaty.</div>
+<a class="cta-btn" href="https://www.amazon.com/s?k=Purple+Kids+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</div>
+
+<!-- Product 4 -->
+<div class="product-card">
+<div class="rank-badge">#4 Best Organic</div>
+<h2>Avocado Kids Organic Mattress</h2>
+<div class="award">Best Organic Kids Mattress</div>
+<p class="price-tag">Price: <strong>~$999 Twin</strong> | Firmness: 6/10 (Firm) or 4/10 (Pillow Top)</p>
+<div class="specs-row">
+<span class="spec-chip">GOLS Organic Latex</span>
+<span class="spec-chip">GOTS Organic Cotton</span>
+<span class="spec-chip">GREENGUARD Gold</span>
+<span class="spec-chip">MADE SAFE Certified</span>
+<span class="spec-chip">1-Year Trial</span>
+</div>
+<div class="pca-grid">
+<div class="pca-col pros">
+<h4>Pros</h4>
+<ul>
+<li>Highest organic certification stack of any kids mattress</li>
+<li>GOLS latex + GOTS cotton + GREENGUARD Gold + MADE SAFE</li>
+<li>Natural latex is inherently antimicrobial and dust-mite resistant</li>
+<li>Durable — latex outlasts foam by 5-10 years</li>
+<li>1-year sleep trial</li>
+</ul>
+</div>
+<div class="pca-col cons">
+<h4>Cons</h4>
+<ul>
+<li>Most expensive option on this list</li>
+<li>Natural latex has a slight rubbery smell initially</li>
+<li>Heavier than foam mattresses</li>
+</ul>
+</div>
+</div>
+<div class="verdict"><strong>Verdict:</strong> The Avocado Kids is for parents who want zero compromise on chemical exposure. The GOLS + GOTS + GREENGUARD Gold + MADE SAFE combination is the most comprehensive certification stack available. Natural latex is inherently resistant to dust mites and mold — a genuine health benefit for allergic children. Worth the premium if organic materials are a priority.</div>
+<a class="cta-btn" href="https://www.amazon.com/s?k=Avocado+Kids+organic+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</div>
+
+<!-- Product 5 -->
+<div class="product-card">
+<div class="rank-badge">#5 Best Budget Pick</div>
+<h2>Tuft &amp; Needle Kids</h2>
+<div class="award">Best Budget Kids Mattress</div>
+<p class="price-tag">Price: <strong>~$395 Twin</strong> | Firmness: 6/10 (Medium-Firm)</p>
+<div class="specs-row">
+<span class="spec-chip">Adaptive Foam</span>
+<span class="spec-chip">CertiPUR-US</span>
+<span class="spec-chip">GREENGUARD Gold</span>
+<span class="spec-chip">100-Night Trial</span>
+<span class="spec-chip">10-Year Warranty</span>
+</div>
+<div class="pca-grid">
+<div class="pca-col pros">
+<h4>Pros</h4>
+<ul>
+<li>Excellent price-to-certification ratio</li>
+<li>GREENGUARD Gold at a budget price</li>
+<li>Adaptive foam is more responsive than traditional memory foam</li>
+<li>10-year warranty — long for a budget mattress</li>
+<li>Available in multiple sizes</li>
+</ul>
+</div>
+<div class="pca-col cons">
+<h4>Cons</h4>
+<ul>
+<li>Single-sided — no flip firmness option</li>
+<li>Not organic materials</li>
+<li>Lighter feel than latex or hybrid options</li>
+</ul>
+</div>
+</div>
+<div class="verdict"><strong>Verdict:</strong> If budget is the main constraint, the Tuft and Needle Kids delivers the non-negotiables: GREENGUARD Gold certification and CertiPUR-US foam at under $400 for a Twin. The adaptive foam is appropriately firm for school-age children. This is the minimum viable safe kids mattress — it does the job without the premium of organic options.</div>
+<a class="cta-btn" href="https://www.amazon.com/s?k=Tuft+Needle+Kids+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</div>
+
+<!-- Product 6 -->
+<div class="product-card">
+<div class="rank-badge">#6 Best Hybrid</div>
+<h2>Helix Kids</h2>
+<div class="award">Best Hybrid for School-Age Children</div>
+<p class="price-tag">Price: <strong>~$599 Twin</strong> | Firmness: 5.5/10 (Medium)</p>
+<div class="specs-row">
+<span class="spec-chip">Memory Foam + Coils</span>
+<span class="spec-chip">Moisture-Wicking Cover</span>
+<span class="spec-chip">CertiPUR-US</span>
+<span class="spec-chip">GREENGUARD Gold</span>
+<span class="spec-chip">100-Night Trial</span>
+</div>
+<div class="pca-grid">
+<div class="pca-col pros">
+<h4>Pros</h4>
+<ul>
+<li>Hybrid coil system provides more bounce for active kids</li>
+<li>Better edge support than all-foam options</li>
+<li>Moisture-wicking cover handles night sweats</li>
+<li>GREENGUARD Gold certified</li>
+<li>Available in Twin, Twin XL, and Full</li>
+</ul>
+</div>
+<div class="pca-col cons">
+<h4>Cons</h4>
+<ul>
+<li>More motion transfer than all-foam (coils transmit bounce)</li>
+<li>Not dual-sided</li>
+</ul>
+</div>
+</div>
+<div class="verdict"><strong>Verdict:</strong> Kids who like to jump on the bed (and who do not) benefit from a hybrid mattress's bounce and resilience. The Helix Kids has better edge support than foam options — meaning more usable sleep surface. The moisture-wicking cover is a practical feature for children who run warm. Good choice for ages 6-12 who are past the toddler stage.</div>
+<a class="cta-btn" href="https://www.amazon.com/s?k=Helix+Kids+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</div>
+
+<!-- Product 7 -->
+<div class="product-card">
+<div class="rank-badge">#7 Ultra-Budget</div>
+<h2>Zinus Green Tea Kids</h2>
+<div class="award">Best Ultra-Budget Kids Mattress</div>
+<p class="price-tag">Price: <strong>~$179-$229 Twin</strong> | Firmness: 6/10 (Medium-Firm)</p>
+<div class="specs-row">
+<span class="spec-chip">Green Tea Infused Foam</span>
+<span class="spec-chip">CertiPUR-US</span>
+<span class="spec-chip">100-Night Trial</span>
+<span class="spec-chip">10-Year Warranty</span>
+<span class="spec-chip">Amazon's Choice</span>
+</div>
+<div class="pca-grid">
+<div class="pca-col pros">
+<h4>Pros</h4>
+<ul>
+<li>Lowest price with CertiPUR-US certification</li>
+<li>Green tea and castor seed oil help control odor</li>
+<li>Adequate firmness for children aged 3-10</li>
+<li>Multiple thickness options (6", 8", 10")</li>
+<li>Amazon Prime shipping — fast delivery</li>
+</ul>
+</div>
+<div class="pca-col cons">
+<h4>Cons</h4>
+<ul>
+<li>No GREENGUARD Gold certification</li>
+<li>Less durable than premium options (3-5 year lifespan)</li>
+<li>Not suitable for teens or heavier children</li>
+</ul>
+</div>
+</div>
+<div class="verdict"><strong>Verdict:</strong> The Zinus Green Tea Kids is the bare-minimum entry point. It has CertiPUR-US foam certification (safe formulation) but lacks GREENGUARD Gold (low emissions). Acceptable for a short-term solution — guest room, travel crib, or a first bed knowing you will upgrade in 4-5 years. Do not use this as a long-term primary mattress for a child who will sleep on it for 8+ years.</div>
+<a class="cta-btn" href="https://www.amazon.com/s?k=Zinus+Green+Tea+kids+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</div>
+</section>
+
+<section id="faq">
+<h2>Frequently Asked Questions</h2>
+<div class="faq-item">
+<h3>What size mattress should I get for my child?</h3>
+<p>For toddlers (ages 2-5): Twin (38x75 inches) is standard and fits most toddler beds. For school-age children (6-12): Twin or Twin XL (38x80 inches) if your child is tall. For teenagers: Twin XL or Full (54x75 inches). A Full gives teens more room to grow and is comfortable through college.</p>
+</div>
+<div class="faq-item">
+<h3>How firm should a kids mattress be?</h3>
+<p>Children generally need a firmer mattress than adults. For ages 3-7: medium-firm (6-7/10) provides proper spinal support for developing bodies. For ages 8-12: medium (5-6/10) balances support and comfort. For teenagers: medium to medium-soft (4-6/10) as their spine approaches adult proportions.</p>
+</div>
+<div class="faq-item">
+<h3>What certifications should a kids mattress have?</h3>
+<p>Look for CertiPUR-US (foam free of harmful chemicals), GREENGUARD Gold (low VOC emissions — specifically designed for children and sensitive groups), and OEKO-TEX Standard 100 (every component tested for harmful substances). For organic options, also look for GOLS (organic latex) and GOTS (organic cotton). Avoid mattresses with no third-party certifications.</p>
+</div>
+<div class="faq-item">
+<h3>How often should I replace my child's mattress?</h3>
+<p>A quality kids mattress should last 5-8 years. Replace sooner if you see visible sagging or body impressions over 1 inch, if your child complains of back or neck pain, or if the mattress is over 8 years old. Kids grow rapidly — a mattress that was ideal at age 6 may not provide the right support at age 10.</p>
+</div>
+<div class="faq-item">
+<h3>Do kids need a special mattress or can they sleep on an adult mattress?</h3>
+<p>Children under 12 benefit from mattresses designed for their weight range (typically under 80 lbs). Adult mattresses are engineered for adult body weight and may be too soft for lighter children, causing their spines to sag. Kids mattresses use denser foams at a lower ILD rating optimized for lighter weights. Teenagers can typically transition to a standard adult mattress.</p>
+</div>
+</section>
+
+<div class="disclaimer">
+<strong>Affiliate Disclosure:</strong> SleepWiseReviews earns commissions from qualifying Amazon purchases at no extra cost to you. This does not influence our recommendations. We only recommend products we have researched and believe provide genuine value.
+</div>
+</main>
+
+<footer>
+<div class="container">
+<p>&copy; 2025 SleepWiseReviews &nbsp;|&nbsp; <a href="/pages/privacy.html">Privacy Policy</a> &nbsp;|&nbsp; <a href="/pages/about.html">About</a></p>
+<p style="margin-top:8px">Part of the SleepWise family of sleep product guides.</p>
+</div>
+</footer>
+</body>
+</html>"""
+
+with open('posts/best-mattress-kids.html', 'w', encoding='utf-8') as f:
+    f.write(html)
+print('Written: posts/best-mattress-kids.html')
