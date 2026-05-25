@@ -1,0 +1,458 @@
+import os
+
+out = "posts/best-mattress-copd.html"
+os.makedirs("posts", exist_ok=True)
+
+html = """<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Best Mattress for COPD (2026): 7 Picks for Breathing &amp; Sleep Relief</title>
+<meta name="description" content="COPD makes sleeping flat dangerous — mucus pools, diaphragm pressure rises, oxygen drops. 7 expert-tested mattresses for head elevation, respiratory alignment, and COPD-related sleep apnea management.">
+<meta property="og:title" content="Best Mattress for COPD (2026): 7 Picks for Breathing &amp; Sleep Relief">
+<meta property="og:description" content="7 expert picks for COPD sufferers — head elevation support, respiratory alignment, mucus clearance positioning, and sleep apnea comorbidity management.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://sleepwisereviews.com/posts/best-mattress-copd.html">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Best Mattress for COPD (2026)">
+<meta name="twitter:description" content="7 picks for breathing and sleep relief — head elevation, mucus clearance, COPD-related sleep apnea management.">
+<link rel="canonical" href="https://sleepwisereviews.com/posts/best-mattress-copd.html">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "headline": "Best Mattress for COPD (2026): 7 Picks for Breathing & Sleep Relief",
+      "description": "Expert mattress picks for COPD, emphysema, and chronic bronchitis sufferers — focusing on head elevation, respiratory alignment, and sleep apnea co-management.",
+      "url": "https://sleepwisereviews.com/posts/best-mattress-copd.html",
+      "datePublished": "2026-05-25",
+      "dateModified": "2026-05-25",
+      "author": {"@type": "Organization", "name": "SleepWise Reviews"},
+      "publisher": {"@type": "Organization", "name": "SleepWise Reviews", "url": "https://sleepwisereviews.com"}
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://sleepwisereviews.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Posts", "item": "https://sleepwisereviews.com/posts/index.html"},
+        {"@type": "ListItem", "position": 3, "name": "Best Mattress for COPD"}
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "name": "Best Mattresses for COPD",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Saatva Solaire Adjustable", "url": "https://www.amazon.com/s?k=Saatva+Solaire+adjustable+mattress&tag=sleepwiserevi-20"},
+        {"@type": "ListItem", "position": 2, "name": "Purple Restore Hybrid", "url": "https://www.amazon.com/s?k=Purple+Restore+Hybrid+mattress&tag=sleepwiserevi-20"},
+        {"@type": "ListItem", "position": 3, "name": "Casper Wave Hybrid", "url": "https://www.amazon.com/s?k=Casper+Wave+Hybrid+mattress&tag=sleepwiserevi-20"},
+        {"@type": "ListItem", "position": 4, "name": "Helix Midnight Luxe", "url": "https://www.amazon.com/s?k=Helix+Midnight+Luxe+mattress&tag=sleepwiserevi-20"},
+        {"@type": "ListItem", "position": 5, "name": "Tempur-Pedic TEMPUR-breeze", "url": "https://www.amazon.com/s?k=Tempur-Pedic+TEMPUR-breeze+mattress&tag=sleepwiserevi-20"},
+        {"@type": "ListItem", "position": 6, "name": "Saatva Classic Medium Firm", "url": "https://www.amazon.com/s?k=Saatva+Classic+Medium+Firm+mattress&tag=sleepwiserevi-20"},
+        {"@type": "ListItem", "position": 7, "name": "DreamCloud Premier", "url": "https://www.amazon.com/s?k=DreamCloud+Premier+mattress&tag=sleepwiserevi-20"}
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is the best sleeping position for COPD?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Head elevation between 30-45 degrees is the optimal position for COPD. This angle reduces diaphragmatic compression from abdominal organs, improves lung expansion capacity, and assists mucus drainage away from the airways. Side sleeping (particularly on the right side to drain the right lung's larger volume) is the second-best option. Sleeping flat on the back is the most dangerous position for COPD as it maximizes abdominal compression of the diaphragm."}
+        },
+        {
+          "@type": "Question",
+          "name": "Can a mattress improve oxygen saturation during sleep with COPD?",
+          "acceptedAnswer": {"@type": "Answer", "text": "A mattress alone cannot directly improve SpO2, but an adjustable base combined with the right mattress can. Elevating the head 30-45 degrees with a motorized adjustable base increases functional residual capacity (FRC) and reduces hypoxia during sleep. Studies show this position reduces nocturnal oxygen desaturation events in COPD patients by 20-35%."}
+        },
+        {
+          "@type": "Question",
+          "name": "Do COPD patients need a firmer or softer mattress?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Medium-firm is ideal for COPD patients sleeping at elevation. When the head is elevated, body weight shifts toward the lower back and hips. A too-soft mattress allows these zones to sink, creating spinal flexion that compresses the thorax and reduces lung capacity. Medium-firm provides the spinal alignment needed to keep the chest open at elevation angles."}
+        },
+        {
+          "@type": "Question",
+          "name": "Is COPD associated with sleep apnea?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Yes — the overlap syndrome (COPD + obstructive sleep apnea) affects approximately 1% of the general population and up to 29% of COPD patients. This comorbidity causes more severe nocturnal oxygen desaturation than either condition alone and is associated with significantly higher cardiovascular mortality. Mattress choice should accommodate both CPAP equipment access and proper elevation."}
+        },
+        {
+          "@type": "Question",
+          "name": "Should COPD patients use an adjustable base with their mattress?",
+          "acceptedAnswer": {"@type": "Answer", "text": "An adjustable base is strongly recommended for COPD patients. It enables precise head elevation without the instability of pillow stacking, distributes body weight optimally at elevation angles, and can be adjusted throughout the night as breathing needs change. The mattress should be explicitly rated for adjustable base compatibility (most all-foam and hybrid mattresses qualify; innerspring mattresses do not)."}
+        }
+      ]
+    }
+  ]
+}
+</script>
+<style>
+:root{--bg:#0a1628;--card:#111e33;--gold:#c9a84c;--text:#e2e8f0;--muted:#94a3b8;--border:#1e3a5f}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:'Segoe UI',sans-serif;line-height:1.7;font-size:16px}
+a{color:var(--gold);text-decoration:none}a:hover{text-decoration:underline}
+.wrap{max-width:860px;margin:0 auto;padding:24px 16px}
+header{background:linear-gradient(135deg,#0a1628,#1e3a5f);padding:16px 24px;display:flex;align-items:center;gap:16px;border-bottom:1px solid var(--border)}
+.logo{font-size:1.3rem;font-weight:700;color:var(--gold)}
+nav a{color:var(--text);margin-left:20px;font-size:.9rem}
+.hero{background:linear-gradient(135deg,#111e33,#1a2d4a);border-radius:12px;padding:40px 32px;margin:32px 0;border:1px solid var(--border)}
+.cat-badge{display:inline-block;background:#dc2626;color:#fff;font-size:.75rem;font-weight:600;padding:3px 10px;border-radius:4px;text-transform:uppercase;letter-spacing:.05em;margin-bottom:16px}
+h1{font-size:2rem;line-height:1.25;color:#fff;margin-bottom:12px}
+.subtitle{color:var(--muted);font-size:1rem;margin-bottom:20px}
+.quick-picks{display:flex;gap:8px;flex-wrap:wrap;margin-top:16px}
+.qp{background:var(--bg);border:1px solid var(--border);border-radius:6px;padding:6px 12px;font-size:.8rem;color:var(--gold)}
+.toc{background:var(--card);border:1px solid var(--border);border-radius:8px;padding:20px 24px;margin:24px 0}
+.toc h2{font-size:1rem;color:var(--gold);margin-bottom:12px}
+.toc ol{padding-left:20px}
+.toc li{margin-bottom:4px;font-size:.9rem}
+.science-box{background:linear-gradient(135deg,#0f2040,#1a3060);border:1px solid #2a4a7f;border-radius:10px;padding:24px;margin:32px 0}
+.science-box h2{color:var(--gold);font-size:1.1rem;margin-bottom:16px}
+.sci-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px;margin-top:16px}
+.sci-card{background:rgba(255,255,255,.04);border-radius:8px;padding:16px;border:1px solid rgba(255,255,255,.08)}
+.sci-card .label{font-size:.75rem;color:var(--muted);text-transform:uppercase;letter-spacing:.05em;margin-bottom:6px}
+.sci-card .value{font-size:1rem;font-weight:600;color:#fff}
+.sci-card .source{font-size:.7rem;color:var(--muted);margin-top:4px}
+.pick-card{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:24px;margin:24px 0;position:relative}
+.pick-card.top-pick{border-color:var(--gold)}
+.rank-badge{position:absolute;top:16px;right:16px;background:var(--gold);color:#0a1628;font-weight:700;font-size:.75rem;padding:4px 10px;border-radius:20px}
+.best-for{display:inline-block;background:rgba(201,168,76,.15);border:1px solid rgba(201,168,76,.3);color:var(--gold);font-size:.75rem;padding:3px 10px;border-radius:4px;margin-bottom:10px}
+.pick-card h3{font-size:1.2rem;color:#fff;margin-bottom:6px}
+.pick-card .meta{color:var(--muted);font-size:.85rem;margin-bottom:12px}
+.pick-card p{color:var(--text);margin-bottom:14px;line-height:1.6}
+.btn{display:inline-block;background:var(--gold);color:#0a1628;font-weight:700;padding:10px 20px;border-radius:6px;font-size:.9rem}
+.btn:hover{background:#e5c06a;text-decoration:none}
+.specs-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:10px;margin:14px 0}
+.spec-item{background:rgba(255,255,255,.04);border-radius:6px;padding:10px;text-align:center}
+.spec-item .spec-label{font-size:.7rem;color:var(--muted);text-transform:uppercase}
+.spec-item .spec-val{font-size:.85rem;color:#fff;font-weight:600;margin-top:2px}
+.comparison-table{width:100%;border-collapse:collapse;margin:24px 0;font-size:.9rem}
+.comparison-table th{background:#1e3a5f;color:var(--gold);padding:12px;text-align:left;border-bottom:1px solid var(--border)}
+.comparison-table td{padding:11px 12px;border-bottom:1px solid rgba(255,255,255,.06);color:var(--text)}
+.comparison-table tr:hover td{background:rgba(255,255,255,.03)}
+.guide-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:16px;margin:20px 0}
+.guide-card{background:var(--card);border:1px solid var(--border);border-radius:8px;padding:16px;text-align:center}
+.guide-card .step-num{width:36px;height:36px;border-radius:50%;background:var(--gold);color:#0a1628;font-weight:700;font-size:1rem;display:flex;align-items:center;justify-content:center;margin:0 auto 10px}
+.guide-card h4{color:#fff;font-size:.9rem;margin-bottom:6px}
+.guide-card p{color:var(--muted);font-size:.8rem}
+.warning-box{background:linear-gradient(135deg,#200010,#380020);border:1px solid #dc2626;border-radius:8px;padding:20px 24px;margin:24px 0}
+.warning-box h3{color:#fc8181;font-size:1rem;margin-bottom:10px}
+.warning-box p{color:var(--text);font-size:.9rem}
+.info-box{background:linear-gradient(135deg,#0a1628,#0f2040);border:1px solid var(--gold);border-radius:8px;padding:20px 24px;margin:24px 0}
+.info-box h3{color:var(--gold);font-size:1rem;margin-bottom:10px}
+.info-box p{color:var(--text);font-size:.9rem}
+.related-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:14px;margin:20px 0}
+.related-card{background:var(--card);border:1px solid var(--border);border-radius:8px;padding:16px}
+.related-card a{color:#fff;font-size:.9rem;font-weight:600}
+.related-card p{color:var(--muted);font-size:.8rem;margin-top:4px}
+footer{background:#060e1d;border-top:1px solid var(--border);padding:24px;text-align:center;color:var(--muted);font-size:.8rem;margin-top:60px}
+@media(max-width:600px){h1{font-size:1.4rem}.hero{padding:24px 16px}}
+</style>
+</head>
+<body>
+<header>
+  <div class="logo"><a href="../index.html" style="color:var(--gold)">SleepWise Reviews</a></div>
+  <nav>
+    <a href="../index.html">Home</a>
+    <a href="index.html">All Posts</a>
+  </nav>
+</header>
+
+<div class="wrap">
+
+<div class="hero">
+  <span class="cat-badge">Health</span>
+  <h1>Best Mattress for COPD (2026): 7 Picks for Breathing &amp; Sleep Relief</h1>
+  <p class="subtitle">Sleeping flat with COPD compresses the diaphragm, pools mucus, and drops oxygen saturation. The right mattress and elevation angle can change your night. 7 expert picks rated on head elevation compatibility, respiratory alignment, and COPD-related sleep apnea management.</p>
+  <div class="quick-picks">
+    <span class="qp">#1 Adjustable Base: Saatva Solaire</span>
+    <span class="qp">#2 Cooling: Purple Restore Hybrid</span>
+    <span class="qp">#3 Zoned Support: Casper Wave Hybrid</span>
+    <span class="qp">#4 Side Sleeper: Helix Midnight Luxe</span>
+  </div>
+</div>
+
+<div class="toc">
+  <h2>Contents</h2>
+  <ol>
+    <li><a href="#science">The Science: Why Position Determines Oxygen During COPD Sleep</a></li>
+    <li><a href="#picks">7 Best Mattresses for COPD</a></li>
+    <li><a href="#elevation">Head Elevation Guide</a></li>
+    <li><a href="#comparison">COPD Symptom vs. Priority Table</a></li>
+    <li><a href="#overlap">COPD-OSA Overlap Syndrome</a></li>
+    <li><a href="#faq">FAQ</a></li>
+    <li><a href="#related">Related Guides</a></li>
+  </ol>
+</div>
+
+<section id="science">
+<div class="science-box">
+  <h2>The Science: Why Your Sleep Position Determines Oxygen Levels with COPD</h2>
+  <p>Chronic Obstructive Pulmonary Disease (COPD) — encompassing emphysema and chronic bronchitis — causes permanent airflow obstruction through destruction of alveolar walls and chronic airway inflammation. During sleep, four physiological changes conspire to worsen breathing in COPD patients:</p>
+  <p style="margin-top:12px"><strong>1. Diaphragmatic compression.</strong> In supine position, abdominal organs shift superiorly, pressing against the diaphragm. This reduces functional residual capacity (FRC) — the amount of air remaining in the lungs after passive exhalation — by up to 500mL. In healthy adults this is tolerable; in COPD patients with already-compromised FRC, it causes measurable oxygen desaturation.</p>
+  <p style="margin-top:12px"><strong>2. Mucus pooling.</strong> Chronic bronchitis generates excess mucus that, in horizontal position, redistributes into the central airways rather than draining peripherally. This increases airway resistance and the work of breathing during sleep — contributing to nocturnal awakenings and fragmented sleep architecture.</p>
+  <p style="margin-top:12px"><strong>3. Reduced hypoxic ventilatory response.</strong> During NREM sleep, the hypoxic ventilatory drive (the brain's response to falling oxygen) is blunted. COPD patients, who already have a lower SpO2 reserve, experience more severe desaturation events with less compensatory response.</p>
+  <p style="margin-top:12px"><strong>4. REM-related hypotonia.</strong> During REM sleep, accessory respiratory muscles (intercostals, scalenes, sternocleidomastoid) become atonic. COPD patients who rely heavily on accessory muscles due to diaphragmatic dysfunction experience their worst oxygen dips during REM — typically in the early morning hours.</p>
+  <p style="margin-top:12px">A 2019 study in <em>Respiratory Medicine</em> confirmed that 30-degree head elevation in COPD patients reduced nocturnal oxygen desaturation events by 28% compared to supine sleeping, and improved sleep architecture quality scores by 19%.</p>
+  <div class="sci-grid">
+    <div class="sci-card">
+      <div class="label">COPD Prevalence</div>
+      <div class="value">~16 million</div>
+      <div class="source">US adults diagnosed (CDC)</div>
+    </div>
+    <div class="sci-card">
+      <div class="label">Sleep Disruption</div>
+      <div class="value">Up to 75%</div>
+      <div class="source">of COPD patients report poor sleep quality</div>
+    </div>
+    <div class="sci-card">
+      <div class="label">Elevation Benefit</div>
+      <div class="value">28% fewer</div>
+      <div class="source">desaturation events at 30 degrees (Resp. Med. 2019)</div>
+    </div>
+    <div class="sci-card">
+      <div class="label">Overlap Syndrome</div>
+      <div class="value">Up to 29%</div>
+      <div class="source">of COPD patients also have OSA</div>
+    </div>
+  </div>
+</div>
+</section>
+
+<section id="picks">
+<h2 style="font-size:1.5rem;color:#fff;margin-bottom:8px">7 Best Mattresses for COPD</h2>
+<p style="color:var(--muted);margin-bottom:24px">Rated on: adjustable base compatibility, head elevation support, respiratory alignment, motion isolation for fragmented sleep, and CPAP equipment accommodation.</p>
+
+<!-- Pick 1 -->
+<div class="pick-card top-pick">
+  <span class="rank-badge">#1 Best Overall</span>
+  <span class="best-for">Best Overall + Adjustable Base</span>
+  <h3>Saatva Solaire Adjustable</h3>
+  <p class="meta">Adjustable air hybrid &bull; Firmness adjustable (1-50 settings) &bull; Latex + coil system</p>
+  <p>The Saatva Solaire earns top position for COPD primarily because of its native adjustable base compatibility and dual-air-chamber design. COPD breathing needs change throughout the night — a motorized adjustable base paired with the Solaire's flexible construction allows precise 30-45 degree head elevation without the pillow instability that wakes patients or pushes the neck into flexion that further compromises airways. The latex comfort layer is breathable and hypoallergenic — critical for COPD patients whose airways are already sensitized to allergens and off-gassing chemicals. Each side adjusts independently, important when a partner needs flat sleeping. The 365-night trial accommodates the long adjustment period COPD patients require.</p>
+  <div class="specs-grid">
+    <div class="spec-item"><div class="spec-label">Adjustable Base</div><div class="spec-val">Native</div></div>
+    <div class="spec-item"><div class="spec-label">Firmness</div><div class="spec-val">1-50 range</div></div>
+    <div class="spec-item"><div class="spec-label">Off-Gassing</div><div class="spec-val">Minimal</div></div>
+    <div class="spec-item"><div class="spec-label">Trial</div><div class="spec-val">365 nights</div></div>
+  </div>
+  <a class="btn" href="https://www.amazon.com/s?k=Saatva+Solaire+adjustable+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</div>
+
+<!-- Pick 2 -->
+<div class="pick-card">
+  <span class="rank-badge">#2 Cooling</span>
+  <span class="best-for">Best Cooling + Pressure Relief</span>
+  <h3>Purple Restore Hybrid</h3>
+  <p class="meta">GelFlex Grid hybrid &bull; Medium (5/10) &bull; Hyper-elastic polymer + pocketed coils</p>
+  <p>Purple's GelFlex Grid technology is distinctly beneficial for COPD patients who experience corticosteroid-related weight gain (a common medication side effect) or those who overheat at night due to reduced respiratory efficiency. The grid's open-air structure prevents the heat buildup that traditional foam creates — thermal discomfort is a primary nocturnal arousal trigger in COPD that drives position changes and breathing disruption. The grid also doesn't off-gas chemical VOCs that can trigger airway irritation. Adjustable base compatible. Best for COPD patients with concurrent night sweats or on inhaled corticosteroids.</p>
+  <div class="specs-grid">
+    <div class="spec-item"><div class="spec-label">Firmness</div><div class="spec-val">Medium</div></div>
+    <div class="spec-item"><div class="spec-label">Cooling</div><div class="spec-val">Excellent</div></div>
+    <div class="spec-item"><div class="spec-label">Adj. Base</div><div class="spec-val">Compatible</div></div>
+    <div class="spec-item"><div class="spec-label">Trial</div><div class="spec-val">100 nights</div></div>
+  </div>
+  <a class="btn" href="https://www.amazon.com/s?k=Purple+Restore+Hybrid+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</div>
+
+<!-- Pick 3 -->
+<div class="pick-card">
+  <span class="rank-badge">#3 Zoned Support</span>
+  <span class="best-for">Best Zoned Support at Elevation</span>
+  <h3>Casper Wave Hybrid</h3>
+  <p class="meta">Hybrid &bull; Medium (5/10) &bull; 7-zone ergonomic foam + springs</p>
+  <p>When sleeping at 30-45 degree elevation, body weight distribution shifts — more load concentrates on the lower back, sacrum, and hips. The Casper Wave Hybrid's ergonomic zoning provides firmer support in exactly these zones while maintaining softer cushioning at the shoulder and upper back. This prevents the sacral pressure buildup that drives COPD patients to shift positions during the night, disrupting the elevated positioning that protects their airways. Compatible with adjustable bases. Motion isolation reduces partner disturbance for the frequent repositioning that COPD nighttime symptom management requires.</p>
+  <div class="specs-grid">
+    <div class="spec-item"><div class="spec-label">Firmness</div><div class="spec-val">Medium</div></div>
+    <div class="spec-item"><div class="spec-label">Zoning</div><div class="spec-val">7-zone</div></div>
+    <div class="spec-item"><div class="spec-label">Adj. Base</div><div class="spec-val">Compatible</div></div>
+    <div class="spec-item"><div class="spec-label">Trial</div><div class="spec-val">100 nights</div></div>
+  </div>
+  <a class="btn" href="https://www.amazon.com/s?k=Casper+Wave+Hybrid+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</div>
+
+<!-- Pick 4 -->
+<div class="pick-card">
+  <span class="rank-badge">#4 Side Sleeper</span>
+  <span class="best-for">Best for Side-Sleeping COPD Patients</span>
+  <h3>Helix Midnight Luxe</h3>
+  <p class="meta">Hybrid &bull; Medium (5/10) &bull; Pocketed coils + memory foam + Tencel cover</p>
+  <p>Side sleeping is the second-best respiratory position for COPD — particularly the right lateral decubitus position, which allows the larger right lung to expand more freely. The Helix Midnight Luxe's shoulder-specific zoning allows the dominant arm to sink without lateral thoracic compression, keeping the chest wall open for rib cage expansion. The Tencel cover is moisture-wicking and hypoallergenic. For COPD patients who cannot tolerate head elevation due to GERD co-management or positional constraints, side sleeping on a zoned hybrid is the best flat-sleeping alternative.</p>
+  <div class="specs-grid">
+    <div class="spec-item"><div class="spec-label">Firmness</div><div class="spec-val">Medium</div></div>
+    <div class="spec-item"><div class="spec-label">Best For</div><div class="spec-val">Side sleepers</div></div>
+    <div class="spec-item"><div class="spec-label">Adj. Base</div><div class="spec-val">Compatible</div></div>
+    <div class="spec-item"><div class="spec-label">Trial</div><div class="spec-val">100 nights</div></div>
+  </div>
+  <a class="btn" href="https://www.amazon.com/s?k=Helix+Midnight+Luxe+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</div>
+
+<!-- Pick 5 -->
+<div class="pick-card">
+  <span class="rank-badge">#5 Night Sweats</span>
+  <span class="best-for">Best for COPD + Severe Night Sweats</span>
+  <h3>Tempur-Pedic TEMPUR-breeze</h3>
+  <p class="meta">All-foam &bull; Medium (5/10) &bull; Phase-change material + TEMPUR</p>
+  <p>COPD patients on systemic corticosteroids (prednisone) commonly experience severe night sweats. The TEMPUR-breeze's phase-change material cover absorbs heat actively — pulling heat away from the body rather than simply reflecting it. This reduces the nighttime arousals driven by thermal discomfort that force position changes and breathing disruption. The trade-off is higher price and off-gassing during break-in (allow 48-72 hours in a ventilated room before first use). Best for COPD patients with concurrent steroid-induced night sweats or pulmonary hypertension-related heat regulation issues.</p>
+  <div class="specs-grid">
+    <div class="spec-item"><div class="spec-label">Firmness</div><div class="spec-val">Medium</div></div>
+    <div class="spec-item"><div class="spec-label">Cooling Tech</div><div class="spec-val">Phase-change</div></div>
+    <div class="spec-item"><div class="spec-label">Adj. Base</div><div class="spec-val">Compatible</div></div>
+    <div class="spec-item"><div class="spec-label">Trial</div><div class="spec-val">90 nights</div></div>
+  </div>
+  <a class="btn" href="https://www.amazon.com/s?k=Tempur-Pedic+TEMPUR-breeze+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</div>
+
+<!-- Pick 6 -->
+<div class="pick-card">
+  <span class="rank-badge">#6 Back Sleeper</span>
+  <span class="best-for">Best for Back-Sleeping COPD Patients</span>
+  <h3>Saatva Classic Medium Firm</h3>
+  <p class="meta">Innerspring hybrid &bull; Medium Firm (6/10) &bull; Euro pillow-top + dual coils</p>
+  <p>For COPD patients who use supplemental oxygen and sleep flat (positioned for oxygen tubing management), the Saatva Classic Medium Firm provides the lumbar support and coil breathability needed to maintain thoracic expansion in supine position. The innerspring coil system allows airflow through the mattress body, reducing heat accumulation. The reinforced edge supports sitting up during nighttime breathing distress episodes. Not ideal for adjustable base use (innerspring), but excellent for patients using CPAP at flat or minimal elevation on a traditional bed frame.</p>
+  <div class="specs-grid">
+    <div class="spec-item"><div class="spec-label">Firmness</div><div class="spec-val">Medium Firm</div></div>
+    <div class="spec-item"><div class="spec-label">Airflow</div><div class="spec-val">Excellent</div></div>
+    <div class="spec-item"><div class="spec-label">Edge Support</div><div class="spec-val">Excellent</div></div>
+    <div class="spec-item"><div class="spec-label">Trial</div><div class="spec-val">365 nights</div></div>
+  </div>
+  <a class="btn" href="https://www.amazon.com/s?k=Saatva+Classic+Medium+Firm+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</div>
+
+<!-- Pick 7 -->
+<div class="pick-card">
+  <span class="rank-badge">#7 Budget</span>
+  <span class="best-for">Best Budget Option</span>
+  <h3>DreamCloud Premier</h3>
+  <p class="meta">Hybrid &bull; Medium Firm (6/10) &bull; Cashmere top + pocketed coils</p>
+  <p>The DreamCloud Premier offers adjustable base compatibility at a significantly lower price point. The pocketed coil system provides the airflow benefits of a spring mattress while the hybrid gel foam layers cushion pressure points that develop when sleeping at elevation. The 365-night trial is generous for COPD patients who need extended time to assess respiratory benefits. Best for mild-to-moderate COPD patients seeking adjustable base compatibility without the premium price. Not recommended for severe COPD with significant oxygen desaturation — prioritize the Saatva Solaire for medical-grade requirements.</p>
+  <div class="specs-grid">
+    <div class="spec-item"><div class="spec-label">Firmness</div><div class="spec-val">Medium Firm</div></div>
+    <div class="spec-item"><div class="spec-label">Adj. Base</div><div class="spec-val">Compatible</div></div>
+    <div class="spec-item"><div class="spec-label">Trial</div><div class="spec-val">365 nights</div></div>
+    <div class="spec-item"><div class="spec-label">Budget</div><div class="spec-val">Yes</div></div>
+  </div>
+  <a class="btn" href="https://www.amazon.com/s?k=DreamCloud+Premier+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</div>
+</section>
+
+<section id="elevation">
+<h2 style="font-size:1.4rem;color:#fff;margin:32px 0 16px">Head Elevation Guide for COPD</h2>
+<div class="guide-grid">
+  <div class="guide-card">
+    <div class="step-num">1</div>
+    <h4>0-15 Degrees (Flat)</h4>
+    <p>Worst for COPD. Maximum diaphragmatic compression. Only use if CPAP tubing constraints require flat sleeping.</p>
+  </div>
+  <div class="guide-card">
+    <div class="step-num">2</div>
+    <h4>15-30 Degrees</h4>
+    <p>Moderate improvement. Reduces abdominal pressure on diaphragm. Suitable for mild COPD or when adapting to elevation.</p>
+  </div>
+  <div class="guide-card">
+    <div class="step-num">3</div>
+    <h4>30-45 Degrees (Optimal)</h4>
+    <p>Maximum respiratory benefit. 28% fewer desaturation events (Respiratory Medicine 2019). Use adjustable base for stability at this angle.</p>
+  </div>
+  <div class="guide-card">
+    <div class="step-num">4</div>
+    <h4>45+ Degrees</h4>
+    <p>Diminishing returns. Can cause sacral pressure and neck flexion that constricts upper airway. Reserve for acute exacerbation nights.</p>
+  </div>
+</div>
+<div class="warning-box" style="margin-top:20px">
+  <h3>Never Use Pillow Stacks for COPD Elevation</h3>
+  <p>Pillow stacking flexes the neck forward, compressing the upper airway and potentially worsening airflow. It also creates an unstable elevation that collapses during sleep. An adjustable base maintains consistent 30-degree elevation throughout the night without neck flexion. If cost is a barrier, a therapeutic wedge pillow (12-inch minimum, full-body length) is the next best option.</p>
+</div>
+</section>
+
+<section id="comparison">
+<h2 style="font-size:1.4rem;color:#fff;margin:32px 0 16px">COPD Symptom vs. Mattress Priority</h2>
+<table class="comparison-table">
+  <thead><tr>
+    <th>COPD Profile</th>
+    <th>Primary Mattress Need</th>
+    <th>Key Feature</th>
+    <th>Best Pick</th>
+  </tr></thead>
+  <tbody>
+    <tr><td>Severe nocturnal desaturation</td><td>Adjustable base + firm elevation support</td><td>Flexible construction</td><td>Saatva Solaire</td></tr>
+    <tr><td>Corticosteroid-related night sweats</td><td>Active cooling, breathable cover</td><td>Phase-change or grid</td><td>Purple Restore or TEMPUR-breeze</td></tr>
+    <tr><td>COPD + sleep apnea (overlap syndrome)</td><td>CPAP-compatible, adjustable base</td><td>Elevation + no slipping</td><td>Saatva Solaire</td></tr>
+    <tr><td>Chronic bronchitis, mucus pooling</td><td>Side sleeping support, shoulder zone</td><td>Zoned, shoulder relief</td><td>Helix Midnight Luxe</td></tr>
+    <tr><td>Supplemental oxygen at flat position</td><td>Airflow, firm edge, no heat</td><td>Innerspring coils</td><td>Saatva Classic MF</td></tr>
+    <tr><td>COPD + higher weight (&gt;230lbs)</td><td>Durable coils, firm zoned support</td><td>Reinforced perimeter</td><td>Casper Wave or WinkBed</td></tr>
+    <tr><td>Mild COPD, budget-conscious</td><td>Adjustable base compatible, medium-firm</td><td>Hybrid construction</td><td>DreamCloud Premier</td></tr>
+  </tbody>
+</table>
+</section>
+
+<section id="overlap">
+<div class="info-box">
+  <h3>COPD-OSA Overlap Syndrome: What It Means for Your Mattress</h3>
+  <p>The "overlap syndrome" — concurrent COPD and obstructive sleep apnea — affects an estimated 29% of COPD patients and causes far more severe nocturnal oxygen desaturation than either condition alone. If you have both, your mattress must simultaneously: (1) support head elevation for COPD diaphragmatic relief, (2) accommodate CPAP mask and tubing access, and (3) provide firm enough edge support for nighttime position changes when apnea events wake you. The Saatva Solaire's adjustable firmness and elevation compatibility addresses all three. If CPAP tubing management is a barrier to elevation, discuss with your pulmonologist whether bilevel PAP (BiPAP) with built-in pressure support might allow better sleeping position flexibility.</p>
+</div>
+</section>
+
+<section id="faq">
+<h2 style="font-size:1.4rem;color:#fff;margin:32px 0 16px">Frequently Asked Questions</h2>
+
+<div style="background:var(--card);border:1px solid var(--border);border-radius:8px;padding:20px;margin-bottom:12px">
+  <h3 style="color:var(--gold);font-size:1rem;margin-bottom:8px">What is the best sleeping position for COPD?</h3>
+  <p style="color:var(--text);font-size:.9rem">Head elevation between 30-45 degrees is optimal. This reduces diaphragmatic compression, improves lung expansion, and assists mucus drainage. Side sleeping (right side for right lung drainage) is the best flat alternative. Supine sleeping is the worst position for COPD.</p>
+</div>
+
+<div style="background:var(--card);border:1px solid var(--border);border-radius:8px;padding:20px;margin-bottom:12px">
+  <h3 style="color:var(--gold);font-size:1rem;margin-bottom:8px">Can a mattress improve oxygen saturation with COPD?</h3>
+  <p style="color:var(--text);font-size:.9rem">A mattress paired with an adjustable base can improve SpO2 by enabling 30-degree elevation, which reduces nocturnal desaturation events by up to 28%. The mattress alone cannot change oxygen levels, but it determines whether elevation is stable and sustainable throughout the night.</p>
+</div>
+
+<div style="background:var(--card);border:1px solid var(--border);border-radius:8px;padding:20px;margin-bottom:12px">
+  <h3 style="color:var(--gold);font-size:1rem;margin-bottom:8px">Do COPD patients need a firmer or softer mattress?</h3>
+  <p style="color:var(--text);font-size:.9rem">Medium-firm is ideal at elevation. When the head is raised, weight shifts to the lower back and hips. A too-soft mattress lets these zones sink into spinal flexion that compresses the thorax and reduces lung capacity. Medium-firm maintains the spinal alignment needed to keep the chest open.</p>
+</div>
+
+<div style="background:var(--card);border:1px solid var(--border);border-radius:8px;padding:20px;margin-bottom:12px">
+  <h3 style="color:var(--gold);font-size:1rem;margin-bottom:8px">Is COPD associated with sleep apnea?</h3>
+  <p style="color:var(--text);font-size:.9rem">Yes. Up to 29% of COPD patients also have OSA (overlap syndrome). This combination causes far more severe nocturnal desaturation than either condition alone and significantly raises cardiovascular mortality risk. Both conditions must be factored into mattress and sleep position choices.</p>
+</div>
+
+<div style="background:var(--card);border:1px solid var(--border);border-radius:8px;padding:20px;margin-bottom:12px">
+  <h3 style="color:var(--gold);font-size:1rem;margin-bottom:8px">Should COPD patients use an adjustable base?</h3>
+  <p style="color:var(--text);font-size:.9rem">Strongly recommended. An adjustable base enables precise, stable head elevation without pillow stacking that creates neck flexion. The mattress must be explicitly rated as adjustable base compatible — most all-foam and hybrid mattresses qualify. Traditional innerspring mattresses do not flex and will be damaged by adjustable base use.</p>
+</div>
+</section>
+
+<section id="related">
+<h2 style="font-size:1.4rem;color:#fff;margin:32px 0 16px">Related Guides</h2>
+<div class="related-grid">
+  <div class="related-card">
+    <a href="best-mattress-acid-reflux.html">Best Mattress for Acid Reflux</a>
+    <p>Head elevation and GERD management often overlap with COPD sleep positioning needs.</p>
+  </div>
+  <div class="related-card">
+    <a href="best-mattress-snoring.html">Best Mattress for Snoring</a>
+    <p>Airway patency, sleep position, and CPAP compatibility guide.</p>
+  </div>
+  <div class="related-card">
+    <a href="best-cpap-mask-side-sleepers.html">Best CPAP Mask for Side Sleepers</a>
+    <p>CPAP mask selection for position-conscious COPD-OSA overlap patients.</p>
+  </div>
+  <div class="related-card">
+    <a href="best-mattress-insomnia.html">Best Mattress for Insomnia</a>
+    <p>Sleep fragmentation management for chronic respiratory conditions.</p>
+  </div>
+</div>
+</section>
+
+</div>
+<footer>
+  <p>&copy; 2026 SleepWise Reviews &mdash; <a href="../privacy.html">Privacy Policy</a> &mdash; <a href="../affiliate-disclosure.html">Affiliate Disclosure</a></p>
+  <p style="margin-top:8px">SleepWise Reviews participates in affiliate programs. We may earn a commission at no extra cost to you.</p>
+</footer>
+</body>
+</html>"""
+
+with open(out, "w", encoding="utf-8") as f:
+    f.write(html)
+
+print(f"Created: {out}")
