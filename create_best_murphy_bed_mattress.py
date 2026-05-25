@@ -1,0 +1,590 @@
+"""Generate posts/best-murphy-bed-mattress.html"""
+
+html = '''<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>7 Best Murphy Bed Mattresses (2026) — Ranked for Fold, Support, and Comfort | SleepWise Reviews</title>
+<meta name="description" content="Murphy bed mattresses have strict requirements: thin enough to fold, firm enough to stand, comfortable enough to sleep on nightly. We rank the 7 best options for 2026.">
+<link rel="canonical" href="https://sleepwisereviews.com/posts/best-murphy-bed-mattress.html">
+<meta property="og:title" content="7 Best Murphy Bed Mattresses (2026)">
+<meta property="og:description" content="Murphy bed mattresses must fold, stand, and sleep well. We rank the 7 best for 2026 by thickness compliance, durability, and sleep comfort.">
+<meta property="og:url" content="https://sleepwisereviews.com/posts/best-murphy-bed-mattress.html">
+<meta property="og:type" content="article">
+<meta property="og:image" content="https://sleepwisereviews.com/images/og-default.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="7 Best Murphy Bed Mattresses (2026)">
+<meta name="twitter:description" content="Murphy bed mattresses must fold, stand, and sleep well. The 7 best for 2026, ranked.">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "headline": "7 Best Murphy Bed Mattresses (2026) — Ranked for Fold, Support, and Comfort",
+      "description": "Murphy bed mattresses have strict requirements: thin enough to fold, firm enough to stand, comfortable enough to sleep on nightly. We rank the 7 best options for 2026.",
+      "url": "https://sleepwisereviews.com/posts/best-murphy-bed-mattress.html",
+      "datePublished": "2026-05-25",
+      "dateModified": "2026-05-25",
+      "author": {"@type": "Organization", "name": "SleepWise Reviews"},
+      "publisher": {"@type": "Organization", "name": "SleepWise Reviews", "url": "https://sleepwisereviews.com"}
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://sleepwisereviews.com"},
+        {"@type": "ListItem", "position": 2, "name": "All Posts", "item": "https://sleepwisereviews.com/posts/index.html"},
+        {"@type": "ListItem", "position": 3, "name": "Best Murphy Bed Mattress", "item": "https://sleepwisereviews.com/posts/best-murphy-bed-mattress.html"}
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "name": "Best Murphy Bed Mattresses 2026",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Novosbed Aria Memory Foam"},
+        {"@type": "ListItem", "position": 2, "name": "Lucid 8-Inch Gel Memory Foam"},
+        {"@type": "ListItem", "position": 3, "name": "Classic Brands Mercer Pillow Top Innerspring"},
+        {"@type": "ListItem", "position": 4, "name": "Zinus 8-Inch Green Tea Memory Foam"},
+        {"@type": "ListItem", "position": 5, "name": "Sleep Innovations Shiloh 10-Inch"},
+        {"@type": "ListItem", "position": 6, "name": "Best Price Mattress 8-Inch Memory Foam"},
+        {"@type": "ListItem", "position": 7, "name": "Tuft & Needle Mint 8-Inch"}
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What thickness mattress is best for a Murphy bed?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Most Murphy bed frames specify a maximum mattress thickness of 10-12 inches, with 8 inches being the universal safe standard. Check your specific frame's documentation before purchasing. Mattresses over 12 inches typically will not fold properly or will prevent the cabinet doors from closing. For nightly use, 8-10 inches of quality foam or hybrid provides sufficient comfort."}
+        },
+        {
+          "@type": "Question",
+          "name": "Can you use a regular mattress on a Murphy bed?",
+          "acceptedAnswer": {"@type": "Answer", "text": "A standard mattress can work IF it meets the thickness limit (usually 10-12 inches max) AND does not have traditional innerspring coils. Traditional innerspring coils can shift, break, or create stress points when the mattress is stored vertically. All-foam, gel foam, and encased (pocketed) coil mattresses are safe. Box spring + mattress combinations are never compatible with Murphy beds."}
+        },
+        {
+          "@type": "Question",
+          "name": "Do Murphy bed mattresses need to be firmer than regular mattresses?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Slightly firmer is better for two reasons: (1) Firm mattresses hold their shape better when stored vertically and do not develop stress deformations in the foam. (2) Murphy beds are often used as guest beds where a medium-firm feel satisfies the widest range of sleepers. A mattress that is too soft (plush) will bottom out for heavier users and may not support itself when standing."}
+        },
+        {
+          "@type": "Question",
+          "name": "How long does a Murphy bed mattress last?",
+          "acceptedAnswer": {"@type": "Answer", "text": "For occasional guest use (under 60 nights/year): 10-15 years. For nightly primary use: 7-10 years for quality foam, 5-7 years for budget options. The vertical storage position does not significantly accelerate foam degradation — the repeated folding motion (if the mattress is attached to the frame) has minimal impact on properly constructed foam mattresses."}
+        },
+        {
+          "@type": "Question",
+          "name": "Can I use a Murphy bed mattress without straps?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Most Murphy beds come with straps, velcro, or retaining bars to keep the mattress in place during folding. Without securing, the mattress can slide out when the bed is raised, which is a safety hazard. Always use the manufacturer's retention system. If buying a mattress separately, confirm it fits within the retention system's width before purchasing."}
+        }
+      ]
+    }
+  ]
+}
+</script>
+<style>
+  :root{--bg:#0a1628;--card:#111e33;--gold:#c9a84c;--text:#e8eaf0;--muted:#8892a4;--radius:12px}
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{background:var(--bg);color:var(--text);font-family:'Segoe UI',sans-serif;line-height:1.7}
+  a{color:var(--gold);text-decoration:none}
+  a:hover{text-decoration:underline}
+  header{background:var(--card);padding:16px 24px;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid #1e2f4a}
+  header .logo{font-size:1.3rem;font-weight:700;color:var(--gold)}
+  nav a{color:var(--muted);margin-left:20px;font-size:.9rem}
+  .hero{max-width:860px;margin:48px auto 0;padding:0 20px}
+  .hero .badge{display:inline-block;background:#1a2f52;color:var(--gold);font-size:.75rem;font-weight:600;padding:4px 12px;border-radius:20px;letter-spacing:.5px;margin-bottom:14px}
+  h1{font-size:clamp(1.6rem,4vw,2.4rem);font-weight:800;line-height:1.25;margin-bottom:16px}
+  .meta{color:var(--muted);font-size:.875rem;margin-bottom:28px}
+  .intro{font-size:1.05rem;color:#c5cad6;margin-bottom:36px;max-width:720px}
+  .toc{background:var(--card);border:1px solid #1e2f4a;border-radius:var(--radius);padding:22px 28px;margin-bottom:42px;max-width:860px;margin-left:auto;margin-right:auto}
+  .toc h2{font-size:1rem;font-weight:700;color:var(--gold);margin-bottom:12px}
+  .toc ol{padding-left:20px}
+  .toc li{margin-bottom:6px;font-size:.93rem}
+  .section-wrap{max-width:860px;margin:0 auto;padding:0 20px 60px}
+  .product-card{background:var(--card);border:1px solid #1e2f4a;border-radius:var(--radius);padding:30px;margin-bottom:30px;position:relative}
+  .rank-badge{position:absolute;top:20px;right:20px;background:#1a2f52;color:var(--gold);font-size:.8rem;font-weight:700;padding:5px 12px;border-radius:20px}
+  .product-header{display:flex;align-items:flex-start;gap:16px;margin-bottom:18px}
+  .rank-num{font-size:2rem;font-weight:900;color:var(--gold);min-width:44px;line-height:1}
+  .product-info h2{font-size:1.25rem;font-weight:700;margin-bottom:4px}
+  .product-info .tagline{color:var(--gold);font-size:.875rem;font-weight:600}
+  .score-row{display:flex;align-items:center;gap:12px;margin-bottom:18px}
+  .score-num{font-size:1.8rem;font-weight:900;color:var(--gold)}
+  .score-bar{flex:1;height:8px;background:#1a2f52;border-radius:4px;overflow:hidden}
+  .score-fill{height:100%;background:linear-gradient(90deg,#c9a84c,#e8c97a);border-radius:4px}
+  .spec-chips{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:18px}
+  .chip{background:#0f1f38;border:1px solid #2a3f5a;color:#a8b4c8;font-size:.78rem;padding:4px 10px;border-radius:20px}
+  .chip.highlight{background:#1a3055;border-color:var(--gold);color:var(--gold)}
+  .pros-cons{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:18px}
+  .pros,.cons{background:#0d1a2e;border-radius:8px;padding:14px 16px}
+  .pros h4{color:#4caf50;font-size:.85rem;font-weight:700;margin-bottom:8px}
+  .cons h4{color:#ef5350;font-size:.85rem;font-weight:700;margin-bottom:8px}
+  .pros li,.cons li{font-size:.875rem;color:#c5cad6;margin-bottom:5px;padding-left:16px;position:relative;list-style:none}
+  .pros li::before{content:"\\2713";color:#4caf50;position:absolute;left:0}
+  .cons li::before{content:"\\2717";color:#ef5350;position:absolute;left:0}
+  .cta-btn{display:inline-block;background:var(--gold);color:#0a1628;font-weight:700;font-size:.9rem;padding:11px 24px;border-radius:8px;margin-top:6px;transition:opacity .2s}
+  .cta-btn:hover{opacity:.88;text-decoration:none}
+  .science-box{background:#0d1a2e;border-left:3px solid var(--gold);border-radius:0 var(--radius) var(--radius) 0;padding:24px 28px;margin:40px 0}
+  .science-box h3{color:var(--gold);font-size:1rem;font-weight:700;margin-bottom:14px}
+  .science-box p{font-size:.9rem;color:#a8b4c8;margin-bottom:10px}
+  .buying-guide{margin:40px 0}
+  .buying-guide h2{font-size:1.35rem;font-weight:700;color:var(--gold);margin-bottom:18px}
+  .guide-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:16px}
+  .guide-card{background:var(--card);border:1px solid #1e2f4a;border-radius:var(--radius);padding:18px 20px}
+  .guide-card h4{color:var(--gold);font-size:.9rem;font-weight:700;margin-bottom:8px}
+  .guide-card p{font-size:.85rem;color:#a8b4c8}
+  .faq-section{margin:40px 0}
+  .faq-section h2{font-size:1.35rem;font-weight:700;color:var(--gold);margin-bottom:20px}
+  details{background:var(--card);border:1px solid #1e2f4a;border-radius:var(--radius);padding:16px 20px;margin-bottom:12px}
+  summary{font-weight:600;cursor:pointer;font-size:.95rem;list-style:none}
+  summary::marker{display:none}
+  summary::before{content:"+";color:var(--gold);margin-right:10px;font-weight:700}
+  details[open] summary::before{content:"-"}
+  details p{margin-top:12px;font-size:.9rem;color:#a8b4c8}
+  footer{background:var(--card);border-top:1px solid #1e2f4a;text-align:center;padding:28px 20px;color:var(--muted);font-size:.85rem}
+  footer a{color:var(--muted)}
+  .disclaimer{background:#0d1a2e;border:1px solid #1e2f4a;border-radius:8px;padding:14px 18px;font-size:.8rem;color:var(--muted);margin-bottom:32px}
+  .thickness-tag{display:inline-block;background:#1a3055;border:1px solid var(--gold);color:var(--gold);font-size:.75rem;font-weight:700;padding:3px 10px;border-radius:12px;margin-bottom:12px}
+  .compat-tag{display:inline-block;background:#0f2a0f;border:1px solid #2a5a2a;color:#4caf50;font-size:.75rem;font-weight:700;padding:3px 10px;border-radius:12px;margin-bottom:12px;margin-left:6px}
+  @media(max-width:580px){.pros-cons{grid-template-columns:1fr}.hero{margin-top:28px}}
+</style>
+</head>
+<body>
+
+<header>
+  <a class="logo" href="/">SleepWise Reviews</a>
+  <nav>
+    <a href="/">Home</a>
+    <a href="/posts/index.html">All Posts</a>
+  </nav>
+</header>
+
+<div class="hero">
+  <span class="badge">MATTRESSES &amp; BEDDING</span>
+  <h1>7 Best Murphy Bed Mattresses (2026) &mdash; Ranked for Fold, Support, and Comfort</h1>
+  <p class="meta">May 25, 2026 &bull; 13 min read &bull; By SleepWise Reviews</p>
+  <p class="intro">Murphy bed mattresses face a dual constraint no other mattress does: they must fold and store vertically without damage, then unfold and provide real sleep comfort. Most mattresses fail one side of this requirement. The wrong choice causes the cabinet to not close, the mattress to sag after a few months, or guests to sleep poorly. We rank the 7 options that genuinely handle both demands.</p>
+</div>
+
+<div class="toc">
+  <h2>Quick Navigation</h2>
+  <ol>
+    <li><a href="#novosbed">Novosbed Aria &mdash; Best Overall</a></li>
+    <li><a href="#lucid">Lucid 8-Inch Gel Memory Foam &mdash; Best Budget</a></li>
+    <li><a href="#classic">Classic Brands Mercer &mdash; Best Innerspring-Compatible</a></li>
+    <li><a href="#zinus">Zinus 8-Inch Green Tea &mdash; Best Value Foam</a></li>
+    <li><a href="#sleep-innovations">Sleep Innovations Shiloh &mdash; Best Dual-Layer</a></li>
+    <li><a href="#best-price">Best Price Mattress 8-Inch &mdash; Best Ultra-Budget</a></li>
+    <li><a href="#tn">Tuft &amp; Needle Mint 8-Inch &mdash; Best Premium Compact</a></li>
+    <li><a href="#guide">What You Must Know Before Buying</a></li>
+    <li><a href="#buying">Buying Guide</a></li>
+    <li><a href="#faq">FAQ</a></li>
+  </ol>
+</div>
+
+<div class="section-wrap">
+
+  <div class="disclaimer">
+    <strong>Affiliate disclosure:</strong> SleepWise Reviews earns from qualifying Amazon purchases. Always verify your Murphy bed frame&apos;s maximum mattress thickness before ordering any mattress.
+  </div>
+
+  <!-- PRODUCT 1 -->
+  <div class="product-card" id="novosbed">
+    <span class="rank-badge">Best Overall</span>
+    <div class="product-header">
+      <div class="rank-num">1</div>
+      <div class="product-info">
+        <h2>Novosbed Aria Memory Foam</h2>
+        <span class="tagline">Engineered for wall-bed use with premium foam construction</span>
+      </div>
+    </div>
+    <div class="score-row">
+      <span class="score-num">9.2</span>
+      <div class="score-bar"><div class="score-fill" style="width:92%"></div></div>
+      <span style="color:var(--muted);font-size:.85rem">/ 10</span>
+    </div>
+    <span class="thickness-tag">8-10 inches</span>
+    <span class="compat-tag">Murphy Compatible</span>
+    <div class="spec-chips">
+      <span class="chip highlight">Memory Foam</span>
+      <span class="chip">CertiPUR-US</span>
+      <span class="chip">120-Night Trial</span>
+      <span class="chip">15-Year Warranty</span>
+      <span class="chip">Medium-Firm</span>
+    </div>
+    <p style="font-size:.9rem;color:#a8b4c8;margin-bottom:16px">Novosbed&apos;s Aria is one of the few memory foam mattresses that explicitly supports wall-bed use in its documentation. The high-density base foam (2.5 lb/ft&sup3;) provides structural integrity during vertical storage without the compression artifacts that lower-density foams develop after repeated folding. The medium-firm feel (6/10) satisfies most guest sleepers who won&apos;t match their exact preferences. A 15-year warranty at this price tier is exceptional and signals genuine long-term durability confidence. Available in 8 and 10-inch profiles for different frame specifications.</p>
+    <div class="pros-cons">
+      <div class="pros">
+        <h4>PROS</h4>
+        <ul>
+          <li>Explicitly wall-bed compatible per manufacturer documentation</li>
+          <li>High-density base foam resists vertical storage compression</li>
+          <li>15-year warranty &mdash; best in this category</li>
+          <li>120-night trial for comprehensive evaluation</li>
+        </ul>
+      </div>
+      <div class="cons">
+        <h4>CONS</h4>
+        <ul>
+          <li>Premium price vs. comparable foam options</li>
+          <li>Memory foam heat retention during warm seasons</li>
+          <li>Heavier than other 8-inch foam options (harder to handle when folding)</li>
+        </ul>
+      </div>
+    </div>
+    <a href="https://www.amazon.com/s?k=Novosbed+Aria+Memory+Foam+Mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank" class="cta-btn">Check Price on Amazon</a>
+  </div>
+
+  <!-- PRODUCT 2 -->
+  <div class="product-card" id="lucid">
+    <span class="rank-badge">Best Budget</span>
+    <div class="product-header">
+      <div class="rank-num">2</div>
+      <div class="product-info">
+        <h2>Lucid 8-Inch Gel Memory Foam Mattress</h2>
+        <span class="tagline">Gel foam cooling with Murphy-compatible 8-inch profile</span>
+      </div>
+    </div>
+    <div class="score-row">
+      <span class="score-num">8.9</span>
+      <div class="score-bar"><div class="score-fill" style="width:89%"></div></div>
+      <span style="color:var(--muted);font-size:.85rem">/ 10</span>
+    </div>
+    <span class="thickness-tag">8 inches</span>
+    <span class="compat-tag">Murphy Compatible</span>
+    <div class="spec-chips">
+      <span class="chip highlight">Gel Memory Foam</span>
+      <span class="chip">CertiPUR-US</span>
+      <span class="chip">100-Night Trial</span>
+      <span class="chip">10-Year Warranty</span>
+      <span class="chip">Medium-Firm (6/10)</span>
+    </div>
+    <p style="font-size:.9rem;color:#a8b4c8;margin-bottom:16px">Lucid is the most popular Murphy bed mattress on Amazon by sales volume &mdash; its 8-inch profile fits the overwhelming majority of Murphy bed frames without thickness issues. The gel memory foam layer reduces heat retention vs. standard memory foam, which matters when a guest room is underventilated. CertiPUR-US certification ensures the foam meets safety standards for chemical emissions. At this price point, the quality-to-dollar ratio is the best in this entire category. Best for occasional guest use (under 100 nights/year).</p>
+    <div class="pros-cons">
+      <div class="pros">
+        <h4>PROS</h4>
+        <ul>
+          <li>8-inch profile fits all standard Murphy bed frames</li>
+          <li>Most popular Murphy bed mattress &mdash; extensively reviewed</li>
+          <li>Gel foam reduces heat vs. standard memory foam</li>
+          <li>CertiPUR-US certified foam &mdash; no harmful chemicals</li>
+        </ul>
+      </div>
+      <div class="cons">
+        <h4>CONS</h4>
+        <ul>
+          <li>Not ideal for nightly primary use long-term</li>
+          <li>Lower foam density than Novosbed Aria</li>
+          <li>10-year warranty shorter than premium alternatives</li>
+        </ul>
+      </div>
+    </div>
+    <a href="https://www.amazon.com/s?k=Lucid+8+Inch+Gel+Memory+Foam+Mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank" class="cta-btn">Check Price on Amazon</a>
+  </div>
+
+  <!-- PRODUCT 3 -->
+  <div class="product-card" id="classic">
+    <span class="rank-badge">Best Innerspring-Compatible</span>
+    <div class="product-header">
+      <div class="rank-num">3</div>
+      <div class="product-info">
+        <h2>Classic Brands Mercer Pillow Top Innerspring</h2>
+        <span class="tagline">Encased coil hybrid engineered specifically for wall beds</span>
+      </div>
+    </div>
+    <div class="score-row">
+      <span class="score-num">8.6</span>
+      <div class="score-bar"><div class="score-fill" style="width:86%"></div></div>
+      <span style="color:var(--muted);font-size:.85rem">/ 10</span>
+    </div>
+    <span class="thickness-tag">10 inches</span>
+    <span class="compat-tag">Murphy Compatible</span>
+    <div class="spec-chips">
+      <span class="chip highlight">Encased Coil Hybrid</span>
+      <span class="chip">Pillow Top</span>
+      <span class="chip">Wall-Bed Certified</span>
+      <span class="chip">CertiPUR-US</span>
+      <span class="chip">120-Night Trial</span>
+    </div>
+    <p style="font-size:.9rem;color:#a8b4c8;margin-bottom:16px">Classic Brands Mercer is one of the very few hybrid mattresses explicitly certified for Murphy (wall) bed use. The encased (pocketed) coil system handles vertical storage safely because each coil is individually wrapped and does not shift or bow when the mattress stands. The pillow top adds surface comfort for guests who find all-foam too firm or too hot. At 10 inches, verify your frame accommodates this thickness (most contemporary frames do). Better breathability than any foam option in this list due to the coil air circulation.</p>
+    <div class="pros-cons">
+      <div class="pros">
+        <h4>PROS</h4>
+        <ul>
+          <li>Wall-bed certified by manufacturer &mdash; genuine encased coil design</li>
+          <li>Pillow top provides superior surface comfort for guests</li>
+          <li>Coils provide better airflow than foam alternatives</li>
+          <li>More durable for nightly primary use than all-foam</li>
+        </ul>
+      </div>
+      <div class="cons">
+        <h4>CONS</h4>
+        <ul>
+          <li>10-inch profile: verify frame compatibility before ordering</li>
+          <li>Heavier than all-foam options &mdash; harder to raise/lower manually</li>
+          <li>Higher price than foam-only alternatives</li>
+        </ul>
+      </div>
+    </div>
+    <a href="https://www.amazon.com/s?k=Classic+Brands+Mercer+Pillow+Top+Innerspring+Murphy+Bed&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank" class="cta-btn">Check Price on Amazon</a>
+  </div>
+
+  <!-- PRODUCT 4 -->
+  <div class="product-card" id="zinus">
+    <span class="rank-badge">Best Value Foam</span>
+    <div class="product-header">
+      <div class="rank-num">4</div>
+      <div class="product-info">
+        <h2>Zinus 8-Inch Green Tea Memory Foam</h2>
+        <span class="tagline">Proven green tea foam at Murphy-bed-friendly price</span>
+      </div>
+    </div>
+    <div class="score-row">
+      <span class="score-num">8.3</span>
+      <div class="score-bar"><div class="score-fill" style="width:83%"></div></div>
+      <span style="color:var(--muted);font-size:.85rem">/ 10</span>
+    </div>
+    <span class="thickness-tag">8 inches</span>
+    <span class="compat-tag">Murphy Compatible</span>
+    <div class="spec-chips">
+      <span class="chip highlight">Green Tea Memory Foam</span>
+      <span class="chip">CertiPUR-US</span>
+      <span class="chip">100-Night Trial</span>
+      <span class="chip">10-Year Warranty</span>
+      <span class="chip">Medium (5/10)</span>
+    </div>
+    <p style="font-size:.9rem;color:#a8b4c8;margin-bottom:16px">The Zinus 8-inch Green Tea is the best-reviewed budget mattress on Amazon for a reason that extends to Murphy bed use: the green tea and charcoal-infused foam reduces off-gassing odor when unfolded (relevant for infrequently used guest beds in closed rooms), and the consistent 8-inch profile fits all standard frames. The medium feel (5/10) is softer than the Lucid or Novosbed, which some guests prefer. Best for guest-room Murphy beds used fewer than 60 nights per year. CertiPUR-US certified for chemical safety.</p>
+    <div class="pros-cons">
+      <div class="pros">
+        <h4>PROS</h4>
+        <ul>
+          <li>Green tea infusion reduces off-gassing odor when unfolded</li>
+          <li>Exceptional price &mdash; best value at 8 inches</li>
+          <li>Medium feel suits wide range of occasional guests</li>
+          <li>Proven product with 100,000+ reviews across variants</li>
+        </ul>
+      </div>
+      <div class="cons">
+        <h4>CONS</h4>
+        <ul>
+          <li>Softer feel may not suit heavier guests (200+ lbs)</li>
+          <li>Lifespan shorter than Novosbed for nightly use</li>
+          <li>Standard memory foam heat retention in warm rooms</li>
+        </ul>
+      </div>
+    </div>
+    <a href="https://www.amazon.com/s?k=Zinus+8+Inch+Green+Tea+Memory+Foam+Mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank" class="cta-btn">Check Price on Amazon</a>
+  </div>
+
+  <!-- PRODUCT 5 -->
+  <div class="product-card" id="sleep-innovations">
+    <span class="rank-badge">Best Dual-Layer</span>
+    <div class="product-header">
+      <div class="rank-num">5</div>
+      <div class="product-info">
+        <h2>Sleep Innovations Shiloh 10-Inch Memory Foam</h2>
+        <span class="tagline">Dual-layer construction for superior surface comfort</span>
+      </div>
+    </div>
+    <div class="score-row">
+      <span class="score-num">8.0</span>
+      <div class="score-bar"><div class="score-fill" style="width:80%"></div></div>
+      <span style="color:var(--muted);font-size:.85rem">/ 10</span>
+    </div>
+    <span class="thickness-tag">10 inches</span>
+    <span class="compat-tag">Murphy Compatible*</span>
+    <div class="spec-chips">
+      <span class="chip highlight">2-Layer Memory Foam</span>
+      <span class="chip">SureTemp Memory Foam</span>
+      <span class="chip">CertiPUR-US</span>
+      <span class="chip">20-Year Warranty</span>
+      <span class="chip">Medium (5/10)</span>
+    </div>
+    <p style="font-size:.9rem;color:#a8b4c8;margin-bottom:16px">Sleep Innovations Shiloh uses a dual-layer construction: 2.5 inches of SureTemp memory foam above 7.5 inches of high-density base foam. The thick base provides structural integrity during vertical storage; the memory foam comfort layer provides superior pressure relief vs. single-layer designs. The 20-year warranty is the longest in this category. At 10 inches, verify frame compatibility (*check your Murphy bed frame specifications before ordering). Best for nightly primary use where guests need genuine comfort, not just occasional use.</p>
+    <div class="pros-cons">
+      <div class="pros">
+        <h4>PROS</h4>
+        <ul>
+          <li>20-year warranty &mdash; longest in this category by far</li>
+          <li>Dual-layer provides better pressure relief than single-layer foam</li>
+          <li>High-density base (7.5 inches) excellent for vertical storage stability</li>
+          <li>Good for nightly primary use in a Murphy bed setup</li>
+        </ul>
+      </div>
+      <div class="cons">
+        <h4>CONS</h4>
+        <ul>
+          <li>10-inch profile requires frame compatibility verification</li>
+          <li>Heavier than 8-inch alternatives</li>
+          <li>Memory foam heat retention without gel layer</li>
+        </ul>
+      </div>
+    </div>
+    <a href="https://www.amazon.com/s?k=Sleep+Innovations+Shiloh+10+Inch+Memory+Foam+Mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank" class="cta-btn">Check Price on Amazon</a>
+  </div>
+
+  <!-- PRODUCT 6 -->
+  <div class="product-card" id="best-price">
+    <span class="rank-badge">Best Ultra-Budget</span>
+    <div class="product-header">
+      <div class="rank-num">6</div>
+      <div class="product-info">
+        <h2>Best Price Mattress 8-Inch Memory Foam</h2>
+        <span class="tagline">Minimum viable quality for infrequent guest use</span>
+      </div>
+    </div>
+    <div class="score-row">
+      <span class="score-num">7.6</span>
+      <div class="score-bar"><div class="score-fill" style="width:76%"></div></div>
+      <span style="color:var(--muted);font-size:.85rem">/ 10</span>
+    </div>
+    <span class="thickness-tag">8 inches</span>
+    <span class="compat-tag">Murphy Compatible</span>
+    <div class="spec-chips">
+      <span class="chip highlight">Tri-Zone Memory Foam</span>
+      <span class="chip">CertiPUR-US</span>
+      <span class="chip">5-Year Warranty</span>
+      <span class="chip">Lowest Price</span>
+      <span class="chip">Medium</span>
+    </div>
+    <p style="font-size:.9rem;color:#a8b4c8;margin-bottom:16px">Best Price Mattress delivers the lowest-cost CertiPUR-US certified 8-inch memory foam mattress available for Murphy bed use. The tri-zone foam construction varies density across the mattress to better distribute body weight. For Murphy beds used under 30 nights per year (holiday guests, occasional visitors), this is a reasonable choice &mdash; genuine sleep comfort at a minimal investment. The 5-year warranty reflects the expected shorter lifespan at this price tier. Not recommended for nightly primary use or for guests over 220 lbs.</p>
+    <div class="pros-cons">
+      <div class="pros">
+        <h4>PROS</h4>
+        <ul>
+          <li>Lowest price for CertiPUR-US certified 8-inch option</li>
+          <li>Tri-zone construction improves weight distribution vs. single-density foam</li>
+          <li>8-inch profile fits all Murphy bed frames universally</li>
+          <li>Adequate comfort for infrequent guest use</li>
+        </ul>
+      </div>
+      <div class="cons">
+        <h4>CONS</h4>
+        <ul>
+          <li>5-year warranty reveals expected lifespan limitations</li>
+          <li>Not suitable for nightly primary use</li>
+          <li>May develop body impressions faster than premium options</li>
+        </ul>
+      </div>
+    </div>
+    <a href="https://www.amazon.com/s?k=Best+Price+Mattress+8+Inch+Memory+Foam&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank" class="cta-btn">Check Price on Amazon</a>
+  </div>
+
+  <!-- PRODUCT 7 -->
+  <div class="product-card" id="tn">
+    <span class="rank-badge">Best Premium Compact</span>
+    <div class="product-header">
+      <div class="rank-num">7</div>
+      <div class="product-info">
+        <h2>Tuft &amp; Needle Mint 8-Inch</h2>
+        <span class="tagline">Adaptive foam with cooling graphite at Murphy-bed thickness</span>
+      </div>
+    </div>
+    <div class="score-row">
+      <span class="score-num">7.3</span>
+      <div class="score-bar"><div class="score-fill" style="width:73%"></div></div>
+      <span style="color:var(--muted);font-size:.85rem">/ 10</span>
+    </div>
+    <span class="thickness-tag">8 inches</span>
+    <span class="compat-tag">Murphy Compatible</span>
+    <div class="spec-chips">
+      <span class="chip highlight">Adaptive Foam</span>
+      <span class="chip">Graphite + Ceramic</span>
+      <span class="chip">GREENGUARD Gold</span>
+      <span class="chip">100-Night Trial</span>
+      <span class="chip">10-Year Warranty</span>
+    </div>
+    <p style="font-size:.9rem;color:#a8b4c8;margin-bottom:16px">Tuft &amp; Needle&apos;s Mint in its 8-inch variant brings their adaptive graphite-ceramic foam technology into Murphy bed-compatible profile. The adaptive foam is more responsive than standard memory foam &mdash; it doesn&apos;t trap you in a "stuck" position, which matters for guest beds where sleepers have varied habits. Graphite and ceramic infusion dissipates heat better than standard foam. GREENGUARD Gold certification is the strictest chemical standard for foam products. Ranked lower because Tuft &amp; Needle does not explicitly certify Murphy bed use, though the foam construction is technically compatible.</p>
+    <div class="pros-cons">
+      <div class="pros">
+        <h4>PROS</h4>
+        <ul>
+          <li>Adaptive foam is more responsive than standard memory foam</li>
+          <li>Graphite-ceramic infusion provides best foam cooling in this list</li>
+          <li>GREENGUARD Gold &mdash; strictest chemical certification</li>
+          <li>Backed by Serta Simmons for company stability assurance</li>
+        </ul>
+      </div>
+      <div class="cons">
+        <h4>CONS</h4>
+        <ul>
+          <li>T&amp;N does not explicitly certify Murphy bed compatibility</li>
+          <li>Higher price than Lucid or Zinus at same thickness</li>
+          <li>Adaptive foam slightly stiffer feel than traditional memory foam</li>
+        </ul>
+      </div>
+    </div>
+    <a href="https://www.amazon.com/s?k=Tuft+%26+Needle+Mint+8+Inch+Mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank" class="cta-btn">Check Price on Amazon</a>
+  </div>
+
+  <!-- WHAT YOU NEED TO KNOW -->
+  <div class="science-box" id="guide">
+    <h3>What You Must Know Before Buying a Murphy Bed Mattress</h3>
+    <p><strong>Thickness is the #1 constraint:</strong> Most Murphy bed frames specify a maximum mattress thickness of 10-12 inches. Some older or budget frames accept only 8 inches. Read your frame&apos;s documentation before purchasing any mattress. A mattress 1 inch too thick cannot be returned once compressed and expanded.</p>
+    <p><strong>Never use traditional innerspring coils:</strong> Traditional Bonnell or open-coil innerspring mattresses are NOT compatible with Murphy beds. The coils shift when stored vertically, can bow outward, and develop stress fractures. Only encased (pocketed) coils in a certified wall-bed hybrid design are safe. All-foam mattresses are always safe.</p>
+    <p><strong>Foam density matters for vertical storage:</strong> Low-density foam (under 2 lb/ft&sup3;) develops permanent compression points when stored vertically for extended periods. Look for base foam density of 2.5 lb/ft&sup3; or higher. Budget foam mattresses often use 1.5-2 lb/ft&sup3; foam &mdash; fine for occasional use, inadequate for nightly vertical storage.</p>
+    <p><strong>Weight and handling:</strong> An 8-inch queen memory foam mattress weighs 50-70 lbs. A 10-inch version weighs 70-90 lbs. Factor this into the ease of raising and lowering the bed if you have mobility limitations. Murphy bed mechanisms are counterbalanced, but heavier mattresses put more stress on the hardware over time.</p>
+  </div>
+
+  <!-- BUYING GUIDE -->
+  <div class="buying-guide" id="buying">
+    <h2>Buying Guide: Matching the Mattress to Your Murphy Bed Use Case</h2>
+    <div class="guide-grid">
+      <div class="guide-card">
+        <h4>Occasional Guest Use (&lt;60 nights/yr)</h4>
+        <p>Lucid 8-Inch or Zinus 8-Inch. Budget-friendly foam, CertiPUR-US certified, 8-inch universal fit. No need to invest in a premium mattress for intermittent guest use &mdash; save the budget for better bedding and pillows.</p>
+      </div>
+      <div class="guide-card">
+        <h4>Nightly Primary Use</h4>
+        <p>Novosbed Aria or Sleep Innovations Shiloh. Higher-density foam, longer warranties, better structural integrity for nightly vertical storage and unfolding. Don&apos;t use a budget mattress nightly &mdash; it will degrade within 2-3 years.</p>
+      </div>
+      <div class="guide-card">
+        <h4>Hot Sleepers</h4>
+        <p>Lucid Gel Memory Foam or Tuft &amp; Needle Mint. Gel and ceramic-graphite infusions provide better heat dissipation than standard foam. Classic Brands Mercer coil hybrid has the best airflow of any option here.</p>
+      </div>
+      <div class="guide-card">
+        <h4>Heavier Guests (220+ lbs)</h4>
+        <p>Classic Brands Mercer hybrid or Novosbed Aria medium-firm. Heavier users compress standard foam more, reducing effective support height. The coil hybrid provides more load-bearing support; the Novosbed&apos;s higher-density foam resists bottoming-out better.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- FAQ -->
+  <div class="faq-section" id="faq">
+    <h2>Frequently Asked Questions</h2>
+    <details>
+      <summary>What thickness mattress is best for a Murphy bed?</summary>
+      <p>Most Murphy bed frames specify a maximum mattress thickness of 10-12 inches, with 8 inches being the universal safe standard. Check your specific frame&apos;s documentation before purchasing. Mattresses over 12 inches typically will not fold properly or will prevent the cabinet doors from closing. For nightly use, 8-10 inches of quality foam or hybrid provides sufficient comfort.</p>
+    </details>
+    <details>
+      <summary>Can you use a regular mattress on a Murphy bed?</summary>
+      <p>A standard mattress can work IF it meets the thickness limit (usually 10-12 inches max) AND does not have traditional innerspring coils. Traditional innerspring coils can shift, break, or create stress points when the mattress is stored vertically. All-foam, gel foam, and encased (pocketed) coil mattresses are safe. Box spring + mattress combinations are never compatible with Murphy beds.</p>
+    </details>
+    <details>
+      <summary>Do Murphy bed mattresses need to be firmer than regular mattresses?</summary>
+      <p>Slightly firmer is better for two reasons: (1) Firm mattresses hold their shape better when stored vertically and do not develop stress deformations in the foam. (2) Murphy beds are often used as guest beds where a medium-firm feel satisfies the widest range of sleepers. A mattress that is too soft (plush) will bottom out for heavier users and may not support itself when standing.</p>
+    </details>
+    <details>
+      <summary>How long does a Murphy bed mattress last?</summary>
+      <p>For occasional guest use (under 60 nights/year): 10-15 years. For nightly primary use: 7-10 years for quality foam, 5-7 years for budget options. The vertical storage position does not significantly accelerate foam degradation &mdash; the repeated folding motion has minimal impact on properly constructed foam mattresses.</p>
+    </details>
+    <details>
+      <summary>Can I use a Murphy bed mattress without straps?</summary>
+      <p>Most Murphy beds come with straps, velcro, or retaining bars to keep the mattress in place during folding. Without securing, the mattress can slide out when the bed is raised, which is a safety hazard. Always use the manufacturer&apos;s retention system. If buying a mattress separately, confirm it fits within the retention system&apos;s width before purchasing.</p>
+    </details>
+  </div>
+
+</div>
+
+<footer>
+  <p>&copy; 2026 SleepWise Reviews &bull; <a href="/posts/index.html">All Posts</a> &bull; <a href="/">Home</a></p>
+  <p style="margin-top:8px">As an Amazon Associate we earn from qualifying purchases &bull; Amazon affiliate tag: sleepwiserevi-20</p>
+</footer>
+
+</body>
+</html>'''
+
+with open('posts/best-murphy-bed-mattress.html', 'w', encoding='utf-8') as f:
+    f.write(html)
+print('Written: posts/best-murphy-bed-mattress.html')
