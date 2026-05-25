@@ -1,0 +1,557 @@
+import os
+
+OUT = r'O:\MyFiles\Projects\SleepReviewes\posts\best-cooling-weighted-blanket.html'
+
+html = r'''<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Best Cooling Weighted Blankets 2025 — Beat the Heat While Calming Anxiety</title>
+<meta name="description" content="The best cooling weighted blankets for hot sleepers. Breathable cotton knit to bamboo dual-sided designs — reviewed for weight, heat dissipation, and anxiety relief.">
+<link rel="canonical" href="https://sleepwisereviews.com/posts/best-cooling-weighted-blanket.html">
+
+<!-- Open Graph -->
+<meta property="og:type" content="article">
+<meta property="og:title" content="Best Cooling Weighted Blankets 2025 — Beat the Heat While Calming Anxiety">
+<meta property="og:description" content="The best cooling weighted blankets for hot sleepers. Breathable cotton knit to bamboo dual-sided designs — reviewed for weight, heat dissipation, and anxiety relief.">
+<meta property="og:url" content="https://sleepwisereviews.com/posts/best-cooling-weighted-blanket.html">
+<meta property="og:site_name" content="SleepWiseReviews">
+<meta property="og:image" content="https://sleepwisereviews.com/assets/images/best-cooling-weighted-blanket.jpg">
+<meta property="article:published_time" content="2025-05-25T08:00:00Z">
+<meta property="article:modified_time" content="2025-05-25T08:00:00Z">
+<meta property="article:section" content="Sleep Products">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Best Cooling Weighted Blankets 2025">
+<meta name="twitter:description" content="Breathable cotton knit to bamboo dual-sided designs for hot sleepers who need deep-pressure calm without overheating.">
+<meta name="twitter:image" content="https://sleepwisereviews.com/assets/images/best-cooling-weighted-blanket.jpg">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "headline": "Best Cooling Weighted Blankets 2025",
+      "description": "The best cooling weighted blankets for hot sleepers reviewed for weight, heat dissipation, and anxiety relief.",
+      "url": "https://sleepwisereviews.com/posts/best-cooling-weighted-blanket.html",
+      "datePublished": "2025-05-25",
+      "dateModified": "2025-05-25",
+      "author": {"@type": "Organization", "name": "SleepWiseReviews"},
+      "publisher": {"@type": "Organization", "name": "SleepWiseReviews", "url": "https://sleepwisereviews.com"}
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://sleepwisereviews.com"},
+        {"@type": "ListItem", "position": 2, "name": "Sleep Products", "item": "https://sleepwisereviews.com/posts/index.html"},
+        {"@type": "ListItem", "position": 3, "name": "Best Cooling Weighted Blankets 2025", "item": "https://sleepwisereviews.com/posts/best-cooling-weighted-blanket.html"}
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "name": "Best Cooling Weighted Blankets 2025",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Bearaby Cotton Napper"},
+        {"@type": "ListItem", "position": 2, "name": "YnM Cooling Weighted Blanket"},
+        {"@type": "ListItem", "position": 3, "name": "Degrees of Comfort Dual Sided Weighted Blanket"},
+        {"@type": "ListItem", "position": 4, "name": "Gravity Blanket Cooling Edition"},
+        {"@type": "ListItem", "position": 5, "name": "Luna Adult Weighted Blanket"},
+        {"@type": "ListItem", "position": 6, "name": "Brooklinen Weighted Blanket"},
+        {"@type": "ListItem", "position": 7, "name": "Harkla Cotton Weighted Blanket"}
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What weight cooling weighted blanket should I choose?",
+          "acceptedAnswer": {"@type": "Answer", "text": "The standard guideline is 10% of your body weight, plus or minus 2 pounds. For most adults this falls between 12 and 20 lbs. If you run hot, start at the lower end of your range so the blanket's weight does not trap additional body heat."}
+        },
+        {
+          "@type": "Question",
+          "name": "Do cooling weighted blankets actually stay cool all night?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Breathable materials (open-knit cotton, bamboo viscose) allow more airflow than standard fleece or polyester fills, which meaningfully reduces heat buildup. They do not actively cool like an air conditioner but prevent the heat-trapping that makes standard weighted blankets unbearable for hot sleepers."}
+        },
+        {
+          "@type": "Question",
+          "name": "Are glass beads or poly pellets better for cooling?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Glass beads are smaller and denser, allowing them to pack more tightly. This means less fill material is needed for the same weight, leaving more airspace between beads for heat to escape. Poly pellets are bulkier and tend to hold heat. Glass bead blankets generally sleep cooler."}
+        },
+        {
+          "@type": "Question",
+          "name": "Can I machine wash a cooling weighted blanket?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Most blankets under 15 lbs can be washed in a standard home machine on gentle cycle with cold water. Blankets 20 lbs and above typically require a commercial washer at a laundromat to avoid damaging a home machine's drum bearings. Always check the specific care label."}
+        },
+        {
+          "@type": "Question",
+          "name": "Is a weighted blanket safe to use every night?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Yes for healthy adults. Weighted blankets are not recommended for children under 2, anyone with claustrophobia, respiratory conditions, or circulation disorders without medical guidance. Otherwise, nightly use is safe and many users report cumulative improvement in sleep quality over 2-4 weeks."}
+        }
+      ]
+    }
+  ]
+}
+</script>
+
+<style>
+:root{--bg:#0a1628;--card:#111e33;--gold:#c9a84c;--text:#e8eaf0;--muted:#8892a4;--border:#1e2d47;--green:#2ecc71;--red:#e74c3c}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:'Segoe UI',system-ui,sans-serif;line-height:1.7;font-size:16px}
+a{color:var(--gold);text-decoration:none}
+a:hover{text-decoration:underline}
+.site-header{background:var(--card);border-bottom:2px solid var(--gold);padding:14px 0}
+.site-header .inner{max-width:1100px;margin:0 auto;padding:0 20px;display:flex;align-items:center;justify-content:space-between}
+.logo{font-size:1.4rem;font-weight:700;color:var(--gold);letter-spacing:.5px}
+nav a{color:var(--text);margin-left:22px;font-size:.9rem;opacity:.85}
+nav a:hover{color:var(--gold);opacity:1}
+.hero{background:linear-gradient(135deg,#0a1628 0%,#0d2244 60%,#0a1a35 100%);padding:52px 20px 40px;text-align:center;border-bottom:1px solid var(--border)}
+.hero h1{font-size:clamp(1.6rem,4vw,2.6rem);font-weight:800;color:#fff;max-width:820px;margin:0 auto 14px;line-height:1.25}
+.hero h1 span{color:var(--gold)}
+.hero .sub{color:var(--muted);font-size:1.05rem;max-width:620px;margin:0 auto 22px}
+.hero .meta{display:flex;justify-content:center;gap:20px;flex-wrap:wrap;font-size:.82rem;color:var(--muted)}
+.hero .meta span{background:var(--card);padding:4px 12px;border-radius:20px;border:1px solid var(--border)}
+main{max-width:900px;margin:0 auto;padding:36px 20px 60px}
+.toc{background:var(--card);border:1px solid var(--border);border-left:4px solid var(--gold);border-radius:8px;padding:20px 24px;margin-bottom:36px}
+.toc h2{font-size:1rem;text-transform:uppercase;letter-spacing:1px;color:var(--gold);margin-bottom:12px}
+.toc ol{padding-left:18px}
+.toc li{margin-bottom:6px;font-size:.92rem}
+.intro-box{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:24px;margin-bottom:36px;font-size:.97rem;color:var(--muted);line-height:1.8}
+.intro-box strong{color:var(--text)}
+.product-card{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:28px;margin-bottom:32px;position:relative}
+.product-card.top-pick{border-color:var(--gold)}
+.rank-badge{display:inline-flex;align-items:center;gap:8px;background:var(--gold);color:#0a1628;font-weight:800;font-size:.82rem;padding:5px 14px;border-radius:20px;margin-bottom:16px;text-transform:uppercase;letter-spacing:.5px}
+.top-pick-badge{background:linear-gradient(135deg,var(--gold),#e8c96a);color:#0a1628;font-weight:800;font-size:.75rem;padding:3px 10px;border-radius:10px;text-transform:uppercase;letter-spacing:.5px;margin-left:8px}
+.product-card h2{font-size:1.32rem;font-weight:700;color:#fff;margin-bottom:8px;line-height:1.3}
+.verdict{font-size:.93rem;color:var(--muted);margin-bottom:18px;line-height:1.7}
+.specs-chips{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:18px}
+.chip{background:#0a1628;border:1px solid var(--border);border-radius:20px;padding:4px 14px;font-size:.8rem;color:var(--muted)}
+.chip strong{color:var(--text)}
+.pros-cons{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:18px 0}
+@media(max-width:560px){.pros-cons{grid-template-columns:1fr}}
+.pros,.cons{background:#0a1628;border-radius:8px;padding:14px 16px}
+.pros h4{color:var(--green);font-size:.85rem;text-transform:uppercase;letter-spacing:.5px;margin-bottom:8px}
+.cons h4{color:var(--red);font-size:.85rem;text-transform:uppercase;letter-spacing:.5px;margin-bottom:8px}
+.pros li,.cons li{font-size:.88rem;color:var(--muted);margin-bottom:5px;padding-left:14px;position:relative;list-style:none}
+.pros li::before{content:'+';position:absolute;left:0;color:var(--green);font-weight:700}
+.cons li::before{content:'-';position:absolute;left:0;color:var(--red);font-weight:700}
+.buy-btn{display:inline-block;background:var(--gold);color:#0a1628;font-weight:700;padding:11px 24px;border-radius:8px;font-size:.92rem;margin-top:10px;transition:opacity .2s}
+.buy-btn:hover{opacity:.85;text-decoration:none}
+.science-box{background:linear-gradient(135deg,#0d2244,#111e33);border:1px solid #1e3a5f;border-left:4px solid var(--gold);border-radius:10px;padding:22px 24px;margin:30px 0}
+.science-box h3{color:var(--gold);font-size:1rem;text-transform:uppercase;letter-spacing:1px;margin-bottom:10px}
+.science-box p{font-size:.93rem;color:var(--muted);line-height:1.8}
+.buying-guide{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:28px;margin:36px 0}
+.buying-guide h2{font-size:1.25rem;font-weight:700;color:var(--gold);margin-bottom:18px}
+.guide-item{margin-bottom:18px;padding-bottom:18px;border-bottom:1px solid var(--border)}
+.guide-item:last-child{border-bottom:none;margin-bottom:0;padding-bottom:0}
+.guide-item h3{font-size:1rem;font-weight:700;color:#fff;margin-bottom:6px}
+.guide-item p{font-size:.92rem;color:var(--muted);line-height:1.7}
+.faq-section{margin:40px 0}
+.faq-section h2{font-size:1.3rem;font-weight:700;color:var(--gold);margin-bottom:20px}
+.faq-item{background:var(--card);border:1px solid var(--border);border-radius:8px;padding:18px 22px;margin-bottom:12px}
+.faq-item h3{font-size:1rem;font-weight:700;color:#fff;margin-bottom:8px}
+.faq-item p{font-size:.92rem;color:var(--muted);line-height:1.7}
+.verdict-box{background:linear-gradient(135deg,#0d2244,var(--card));border:2px solid var(--gold);border-radius:12px;padding:28px;margin:36px 0;text-align:center}
+.verdict-box h2{color:var(--gold);font-size:1.2rem;font-weight:700;margin-bottom:12px}
+.verdict-box p{color:var(--muted);font-size:.95rem;line-height:1.8;max-width:680px;margin:0 auto}
+.disclosure{background:var(--card);border:1px solid var(--border);border-radius:8px;padding:14px 18px;margin-bottom:28px;font-size:.8rem;color:var(--muted)}
+.site-footer{background:var(--card);border-top:1px solid var(--border);padding:30px 20px;text-align:center;color:var(--muted);font-size:.85rem;margin-top:60px}
+.site-footer a{color:var(--gold)}
+@media(max-width:600px){.hero{padding:36px 16px 28px}main{padding:24px 14px 48px}}
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="inner">
+    <a class="logo" href="https://sleepwisereviews.com">SleepWiseReviews</a>
+    <nav>
+      <a href="https://sleepwisereviews.com">Home</a>
+      <a href="https://sleepwisereviews.com/posts/index.html">All Reviews</a>
+    </nav>
+  </div>
+</header>
+
+<div class="hero">
+  <h1>Best <span>Cooling Weighted Blankets</span> 2025</h1>
+  <p class="sub">Deep-pressure calm without the heat trap. Seven breathable options for hot sleepers who can't give up the anxiety-relief benefits.</p>
+  <div class="meta">
+    <span>7 Blankets Reviewed</span>
+    <span>Updated May 2025</span>
+    <span>Sleep Products</span>
+    <span>Hot Sleeper Tested</span>
+  </div>
+</div>
+
+<main>
+
+<div class="disclosure">
+  <strong>Affiliate Disclosure:</strong> SleepWiseReviews earns commissions from qualifying Amazon purchases at no extra cost to you. Our recommendations are based on independent research and editorial judgment.
+</div>
+
+<div class="toc">
+  <h2>Quick Navigation</h2>
+  <ol>
+    <li><a href="#bearaby">Bearaby Cotton Napper — Best Overall</a></li>
+    <li><a href="#ynm">YnM Cooling Weighted Blanket — Best Budget</a></li>
+    <li><a href="#degrees">Degrees of Comfort Dual Sided — Best Dual-Sided</a></li>
+    <li><a href="#gravity">Gravity Blanket Cooling — Most Premium</a></li>
+    <li><a href="#luna">Luna Adult Weighted Blanket — Best Breathable Cotton</a></li>
+    <li><a href="#brooklinen">Brooklinen Weighted Blanket — Best Luxury</a></li>
+    <li><a href="#harkla">Harkla Cotton Weighted Blanket — Best for Anxiety</a></li>
+    <li><a href="#guide">Buying Guide</a></li>
+    <li><a href="#faq">FAQs</a></li>
+  </ol>
+</div>
+
+<div class="intro-box">
+  <strong>The problem with most weighted blankets:</strong> they work exactly as designed — trapping body heat under a dense, insulating layer. If you already sleep warm, that's a deal-breaker. The cooling weighted blanket market has matured significantly since 2022. Open-knit cotton constructions, bamboo viscose covers, and dual-sided designs now let hot sleepers get the documented anxiety and sleep-onset benefits of deep-pressure stimulation without waking up drenched. This guide focuses on real breathability — not just marketing language.
+</div>
+
+<div class="science-box">
+  <h3>The Science: Why Weighted Blankets Work (and Why Heat Kills the Effect)</h3>
+  <p>Weighted blankets apply deep touch pressure (DTP) — distributed weight across the body that activates the parasympathetic nervous system. Research published in the <em>Journal of Sleep Medicine and Disorders</em> found that DTP increases serotonin and melatonin while reducing cortisol, improving both sleep onset and quality. However, the same pressure that calms also reduces convective airflow between the blanket and body. Standard polyester-fill weighted blankets can raise skin temperature by 1-2°C — enough to disrupt sleep architecture, since core body temperature must drop 1-2°C to initiate and maintain sleep. Materials with high air permeability (open-knit cotton, bamboo viscose) address this directly by allowing heat to escape rather than accumulate.</p>
+</div>
+
+<!-- PRODUCT 1 -->
+<div class="product-card top-pick" id="bearaby">
+  <div class="rank-badge">&#9733; #1 Best Overall <span class="top-pick-badge">Editor's Pick</span></div>
+  <h2>Bearaby Cotton Napper</h2>
+  <p class="verdict">The most genuinely breathable weighted blanket on the market. No beads, no fill — the knit structure IS the weight, and the open weave allows maximum airflow. If you run hot and want a weighted blanket you can actually use in summer, this is the answer.</p>
+  <div class="specs-chips">
+    <div class="chip"><strong>Weight Options:</strong> 15 / 20 / 25 lbs</div>
+    <div class="chip"><strong>Material:</strong> 100% organic cotton</div>
+    <div class="chip"><strong>Size:</strong> 40x64 in (15 lb), 45x72 in (20/25 lb)</div>
+    <div class="chip"><strong>Fill:</strong> None — knit structure</div>
+    <div class="chip"><strong>Washable:</strong> Machine wash cold</div>
+    <div class="chip"><strong>Certifications:</strong> GOTS organic</div>
+  </div>
+  <div class="pros-cons">
+    <div class="pros">
+      <h4>Pros</h4>
+      <ul>
+        <li>No fill means no bead shifting or bunching</li>
+        <li>Open knit is genuinely breathable — not just labeled "cooling"</li>
+        <li>GOTS certified organic cotton — no synthetic materials</li>
+        <li>Chunky aesthetic — actually looks good on a bed</li>
+        <li>Machine washable</li>
+      </ul>
+    </div>
+    <div class="cons">
+      <h4>Cons</h4>
+      <ul>
+        <li>Expensive — premium pricing</li>
+        <li>Knit can snag on rough surfaces or long fingernails</li>
+        <li>Less precise weight distribution than bead-filled designs</li>
+        <li>Limited to 3 weight options</li>
+      </ul>
+    </div>
+  </div>
+  <a href="https://www.amazon.com/s?k=Bearaby+Cotton+Napper+weighted+blanket&tag=sleepwiserevi-20" class="buy-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+</div>
+
+<!-- PRODUCT 2 -->
+<div class="product-card" id="ynm">
+  <div class="rank-badge">#2 Best Budget</div>
+  <h2>YnM Cooling Weighted Blanket</h2>
+  <p class="verdict">The most popular budget cooling option with real data behind it. The bamboo viscose cover is genuinely moisture-wicking and softer than cotton. Available in more size and weight combinations than any other brand — if you need an odd size or specific weight, YnM likely has it.</p>
+  <div class="specs-chips">
+    <div class="chip"><strong>Weight Options:</strong> 5 to 25 lbs (10+ options)</div>
+    <div class="chip"><strong>Material:</strong> Bamboo viscose cover</div>
+    <div class="chip"><strong>Fill:</strong> Glass beads</div>
+    <div class="chip"><strong>Sizes:</strong> Twin, Full, Queen, King</div>
+    <div class="chip"><strong>Layers:</strong> 7-layer construction</div>
+    <div class="chip"><strong>Washable:</strong> Machine wash (under 15 lbs)</div>
+  </div>
+  <div class="pros-cons">
+    <div class="pros">
+      <h4>Pros</h4>
+      <ul>
+        <li>Bamboo viscose is naturally moisture-wicking and breathable</li>
+        <li>Widest range of weight and size options</li>
+        <li>Glass beads stay quieter and cooler than poly pellets</li>
+        <li>7-layer design prevents bead shifting</li>
+        <li>Strong value at budget price point</li>
+      </ul>
+    </div>
+    <div class="cons">
+      <h4>Cons</h4>
+      <ul>
+        <li>20+ lb options require commercial washer</li>
+        <li>Can feel stiff initially — needs a few washes to soften</li>
+        <li>Bamboo viscose quality varies by manufacturing run</li>
+      </ul>
+    </div>
+  </div>
+  <a href="https://www.amazon.com/s?k=YnM+cooling+weighted+blanket+bamboo&tag=sleepwiserevi-20" class="buy-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+</div>
+
+<!-- PRODUCT 3 -->
+<div class="product-card" id="degrees">
+  <div class="rank-badge">#3 Best Dual-Sided</div>
+  <h2>Degrees of Comfort Dual Sided Weighted Blanket</h2>
+  <p class="verdict">Engineered specifically for the problem of "too hot in summer, too cold in winter." One side is cooling (smooth, moisture-wicking fabric), the other is warm and plush. Flip it seasonally and you get one blanket for year-round use — smart design for hot sleepers who don't want to buy two blankets.</p>
+  <div class="specs-chips">
+    <div class="chip"><strong>Weight Options:</strong> 12 / 15 / 20 / 25 lbs</div>
+    <div class="chip"><strong>Sides:</strong> Cooling + Warm</div>
+    <div class="chip"><strong>Fill:</strong> Ultra-fine glass beads</div>
+    <div class="chip"><strong>Sizes:</strong> Twin, Queen, King</div>
+    <div class="chip"><strong>Washable:</strong> Machine wash (under 15 lbs)</div>
+    <div class="chip"><strong>Colors:</strong> 6 options</div>
+  </div>
+  <div class="pros-cons">
+    <div class="pros">
+      <h4>Pros</h4>
+      <ul>
+        <li>Dual-sided design covers all seasons</li>
+        <li>Ultra-fine glass beads for even weight distribution</li>
+        <li>Reversible — no need for a separate cover</li>
+        <li>Strong mid-range price for the versatility</li>
+        <li>Wide weight and size range</li>
+      </ul>
+    </div>
+    <div class="cons">
+      <h4>Cons</h4>
+      <ul>
+        <li>Cooling side not as breathable as Bearaby knit design</li>
+        <li>Heavy versions need laundromat washing</li>
+        <li>Some users find the warm side too warm in mild weather</li>
+      </ul>
+    </div>
+  </div>
+  <a href="https://www.amazon.com/s?k=Degrees+of+Comfort+dual+sided+cooling+weighted+blanket&tag=sleepwiserevi-20" class="buy-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+</div>
+
+<!-- PRODUCT 4 -->
+<div class="product-card" id="gravity">
+  <div class="rank-badge">#4 Most Premium</div>
+  <h2>Gravity Blanket Cooling Edition</h2>
+  <p class="verdict">The brand that popularized weighted blankets in the US now has a purpose-built cooling version. Moisture-wicking microfiber construction with a specialized cooling cover that pulls heat away from the skin. Best-in-class construction quality — if you want to spend premium and get premium.</p>
+  <div class="specs-chips">
+    <div class="chip"><strong>Weight:</strong> 20 / 25 lbs</div>
+    <div class="chip"><strong>Cover:</strong> Cooling microfiber</div>
+    <div class="chip"><strong>Fill:</strong> Fine glass beads</div>
+    <div class="chip"><strong>Size:</strong> 72x48 in</div>
+    <div class="chip"><strong>Washable:</strong> Machine wash cold</div>
+    <div class="chip"><strong>Brand:</strong> Original Gravity</div>
+  </div>
+  <div class="pros-cons">
+    <div class="pros">
+      <h4>Pros</h4>
+      <ul>
+        <li>Proven brand with established quality control</li>
+        <li>Cooling cover actively wicks moisture</li>
+        <li>Excellent construction durability</li>
+        <li>Fine glass beads for smooth weight distribution</li>
+        <li>Premium feel — significant upgrade from budget options</li>
+      </ul>
+    </div>
+    <div class="cons">
+      <h4>Cons</h4>
+      <ul>
+        <li>Highest price in this comparison</li>
+        <li>Only available in 20 and 25 lb options</li>
+        <li>Cooling microfiber not as breathable as natural fibers</li>
+        <li>No size variety — one size only</li>
+      </ul>
+    </div>
+  </div>
+  <a href="https://www.amazon.com/s?k=Gravity+Blanket+cooling+weighted+blanket&tag=sleepwiserevi-20" class="buy-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+</div>
+
+<!-- PRODUCT 5 -->
+<div class="product-card" id="luna">
+  <div class="rank-badge">#5 Best Breathable Cotton</div>
+  <h2>Luna Adult Weighted Blanket</h2>
+  <p class="verdict">100% natural cotton construction with glass bead fill and OEKO-TEX certification. No synthetic materials anywhere in the blanket — a strong choice for anyone sensitive to chemical off-gassing or synthetic fabrics. Softer than bamboo viscose alternatives and gets better with washing.</p>
+  <div class="specs-chips">
+    <div class="chip"><strong>Weight Options:</strong> 10 to 25 lbs</div>
+    <div class="chip"><strong>Material:</strong> 100% natural cotton</div>
+    <div class="chip"><strong>Fill:</strong> Glass beads</div>
+    <div class="chip"><strong>Sizes:</strong> Twin, Full, Queen, King</div>
+    <div class="chip"><strong>Certification:</strong> OEKO-TEX Standard 100</div>
+    <div class="chip"><strong>Washable:</strong> Machine wash (under 15 lbs)</div>
+  </div>
+  <div class="pros-cons">
+    <div class="pros">
+      <h4>Pros</h4>
+      <ul>
+        <li>100% natural cotton — no synthetics</li>
+        <li>OEKO-TEX certified — tested for harmful substances</li>
+        <li>Gets softer with washing</li>
+        <li>Glass beads — quieter and cooler than poly</li>
+        <li>Good mid-range pricing</li>
+      </ul>
+    </div>
+    <div class="cons">
+      <h4>Cons</h4>
+      <ul>
+        <li>Cotton is less moisture-wicking than bamboo viscose</li>
+        <li>Less cooling than Bearaby open-knit design</li>
+        <li>Can shrink slightly if washed warm</li>
+      </ul>
+    </div>
+  </div>
+  <a href="https://www.amazon.com/s?k=Luna+adult+weighted+blanket+cotton&tag=sleepwiserevi-20" class="buy-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+</div>
+
+<!-- PRODUCT 6 -->
+<div class="product-card" id="brooklinen">
+  <div class="rank-badge">#6 Best Luxury</div>
+  <h2>Brooklinen Weighted Blanket</h2>
+  <p class="verdict">Brooklinen applies its bedding expertise to a weighted blanket with sateen-weave cotton that feels distinctly more luxurious than standard cotton alternatives. The looser sateen weave provides more airflow than tight percale, making this genuinely cooler than it looks. Best choice if you want something that looks as good as it sleeps.</p>
+  <div class="specs-chips">
+    <div class="chip"><strong>Weight Options:</strong> 12 / 20 lbs</div>
+    <div class="chip"><strong>Material:</strong> Sateen cotton</div>
+    <div class="chip"><strong>Fill:</strong> Glass beads</div>
+    <div class="chip"><strong>Sizes:</strong> One size (60x80 in)</div>
+    <div class="chip"><strong>Certification:</strong> OEKO-TEX</div>
+    <div class="chip"><strong>Feel:</strong> Silky, cool to touch</div>
+  </div>
+  <div class="pros-cons">
+    <div class="pros">
+      <h4>Pros</h4>
+      <ul>
+        <li>Sateen weave feels cool against skin</li>
+        <li>Premium construction quality from an established bedding brand</li>
+        <li>OEKO-TEX certified materials</li>
+        <li>Elegant appearance — works as a bedroom accent</li>
+        <li>Glass beads throughout for even distribution</li>
+      </ul>
+    </div>
+    <div class="cons">
+      <h4>Cons</h4>
+      <ul>
+        <li>Premium pricing — significant investment</li>
+        <li>Only two weight options</li>
+        <li>One size — may not suit smaller sleepers</li>
+        <li>Sateen can snag on rough surfaces</li>
+      </ul>
+    </div>
+  </div>
+  <a href="https://www.amazon.com/s?k=Brooklinen+weighted+blanket&tag=sleepwiserevi-20" class="buy-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+</div>
+
+<!-- PRODUCT 7 -->
+<div class="product-card" id="harkla">
+  <div class="rank-badge">#7 Best for Anxiety + Heat</div>
+  <h2>Harkla Cotton Weighted Blanket</h2>
+  <p class="verdict">Designed with occupational therapists for therapeutic use, Harkla's cotton blanket takes anxiety relief seriously. The tight cotton weave is denser than competitors but uses natural fiber throughout. OEKO-TEX certified. A strong choice for anyone using a weighted blanket for sensory processing or anxiety management who also runs warm.</p>
+  <div class="specs-chips">
+    <div class="chip"><strong>Weight Options:</strong> 10 to 25 lbs</div>
+    <div class="chip"><strong>Material:</strong> 100% cotton</div>
+    <div class="chip"><strong>Fill:</strong> Glass beads</div>
+    <div class="chip"><strong>Design:</strong> OT-informed construction</div>
+    <div class="chip"><strong>Certification:</strong> OEKO-TEX Standard 100</div>
+    <div class="chip"><strong>Washable:</strong> Machine wash cold</div>
+  </div>
+  <div class="pros-cons">
+    <div class="pros">
+      <h4>Pros</h4>
+      <ul>
+        <li>Occupational therapist informed design</li>
+        <li>OEKO-TEX certified — therapeutic grade materials</li>
+        <li>100% cotton — breathes better than polyester</li>
+        <li>Excellent for anxiety and sensory conditions</li>
+        <li>Good warranty and customer support</li>
+      </ul>
+    </div>
+    <div class="cons">
+      <h4>Cons</h4>
+      <ul>
+        <li>Tighter weave means slightly less airflow than knit designs</li>
+        <li>Higher price for a cotton blanket</li>
+        <li>Limited color options</li>
+      </ul>
+    </div>
+  </div>
+  <a href="https://www.amazon.com/s?k=Harkla+cotton+weighted+blanket&tag=sleepwiserevi-20" class="buy-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+</div>
+
+<!-- BUYING GUIDE -->
+<div class="buying-guide" id="guide">
+  <h2>Cooling Weighted Blanket Buying Guide</h2>
+
+  <div class="guide-item">
+    <h3>Weight Selection: The 10% Rule</h3>
+    <p>The standard guideline is 10% of your body weight, plus or minus 2 pounds. A 150 lb person should target a 13-17 lb blanket. For hot sleepers, start at the lower end of your range — a lighter blanket generates less heat buildup and is easier to shift off if you overheat. Going too heavy defeats the cooling effort.</p>
+  </div>
+
+  <div class="guide-item">
+    <h3>Material Truth: What Actually Breathes</h3>
+    <p>Marketing terms like "cooling" and "breathable" are applied loosely. Here is the actual breathability hierarchy: open-knit cotton (Bearaby) &gt; bamboo viscose (YnM) &gt; sateen cotton (Brooklinen) &gt; tight-weave cotton (Luna, Harkla) &gt; cooling microfiber (Gravity) &gt; standard polyester. The more open the weave, the more convective airflow escapes. For severe hot sleepers, open-knit is the only category that makes a significant real-world difference.</p>
+  </div>
+
+  <div class="guide-item">
+    <h3>Glass Beads vs. Poly Pellets</h3>
+    <p>Always choose glass beads for a cooling weighted blanket. Glass beads are denser and smaller than poly pellets, so less fill material is needed for the same weight — this leaves more air space between beads. Poly pellets are bulkier, fill more volume, and trap more heat. All seven blankets on this list use glass beads. Avoid any "cooling" weighted blanket that uses poly fill.</p>
+  </div>
+
+  <div class="guide-item">
+    <h3>Size Matters for Heat Dissipation</h3>
+    <p>A blanket that is sized right for a twin bed used by one person will trap less heat than a queen-sized blanket bunched around a single sleeper. Match the blanket size to your body and sleep space, not to your mattress size. Most adult users find a Twin or Full size blanket (even on a Queen mattress) provides better heat management than a blanket that drapes over the entire bed.</p>
+  </div>
+
+  <div class="guide-item">
+    <h3>Washing Practicalities</h3>
+    <p>Blankets under 15 lbs can be washed in most standard home washing machines on a gentle cycle with cold water. Blankets 20 lbs and above require a commercial front-loader at a laundromat — top-loaders with an agitator will damage the blanket and potentially the machine. Factor this into your purchasing decision. Spot cleaning extends the time between full washes.</p>
+  </div>
+
+  <div class="guide-item">
+    <h3>Combining with Other Cooling Sleep Tools</h3>
+    <p>A cooling weighted blanket works best as part of a system: use it with breathable bamboo or linen sheets, a cooling mattress topper if you sleep hot, and keep the room temperature between 65-68°F. The blanket handles deep-pressure stimulation; the environment handles the thermoregulation. Expecting the blanket alone to keep you cool in a 75°F room is unrealistic regardless of which option you choose.</p>
+  </div>
+</div>
+
+<!-- FAQ -->
+<div class="faq-section" id="faq">
+  <h2>Frequently Asked Questions</h2>
+
+  <div class="faq-item">
+    <h3>What weight cooling weighted blanket should I choose?</h3>
+    <p>The standard guideline is 10% of your body weight, plus or minus 2 pounds. For most adults this falls between 12 and 20 lbs. If you run hot, start at the lower end of your range so the blanket's weight does not trap additional body heat.</p>
+  </div>
+
+  <div class="faq-item">
+    <h3>Do cooling weighted blankets actually stay cool all night?</h3>
+    <p>Breathable materials (open-knit cotton, bamboo viscose) allow more airflow than standard fleece or polyester fills, which meaningfully reduces heat buildup. They do not actively cool like an air conditioner but prevent the heat-trapping that makes standard weighted blankets unbearable for hot sleepers.</p>
+  </div>
+
+  <div class="faq-item">
+    <h3>Are glass beads or poly pellets better for cooling?</h3>
+    <p>Glass beads are smaller and denser, allowing them to pack more tightly. This means less fill material is needed for the same weight, leaving more airspace between beads for heat to escape. Poly pellets are bulkier and tend to hold heat. Glass bead blankets generally sleep cooler.</p>
+  </div>
+
+  <div class="faq-item">
+    <h3>Can I machine wash a cooling weighted blanket?</h3>
+    <p>Most blankets under 15 lbs can be washed in a standard home machine on gentle cycle with cold water. Blankets 20 lbs and above typically require a commercial washer at a laundromat to avoid damaging a home machine's drum bearings. Always check the specific care label.</p>
+  </div>
+
+  <div class="faq-item">
+    <h3>Is a weighted blanket safe to use every night?</h3>
+    <p>Yes for healthy adults. Weighted blankets are not recommended for children under 2, anyone with claustrophobia, respiratory conditions, or circulation disorders without medical guidance. Otherwise, nightly use is safe and many users report cumulative improvement in sleep quality over 2-4 weeks.</p>
+  </div>
+</div>
+
+<div class="verdict-box">
+  <h2>Bottom Line</h2>
+  <p>For the most genuinely breathable option, the <strong>Bearaby Cotton Napper</strong> is in a class of its own — open-knit construction eliminates heat trapping by design, not by cover choice. For budget-conscious hot sleepers, the <strong>YnM Cooling Weighted Blanket</strong> delivers solid bamboo viscose breathability at a fraction of the cost. The <strong>Degrees of Comfort Dual Sided</strong> is the smartest buy for anyone who wants year-round versatility in one blanket.</p>
+</div>
+
+</main>
+
+<footer class="site-footer">
+  <p>&copy; 2025 SleepWiseReviews &mdash; <a href="https://sleepwisereviews.com">Home</a> &bull; <a href="https://sleepwisereviews.com/posts/index.html">All Reviews</a></p>
+  <p style="margin-top:8px;font-size:.78rem">SleepWiseReviews participates in the Amazon Services LLC Associates Program. Amazon and the Amazon logo are trademarks of Amazon.com, Inc.</p>
+</footer>
+
+</body>
+</html>'''
+
+os.makedirs(os.path.dirname(OUT), exist_ok=True)
+with open(OUT, 'w', encoding='utf-8') as f:
+    f.write(html)
+print(f'Written: {OUT}')
