@@ -1,0 +1,389 @@
+html = """<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Best Mattress for Bipolar Disorder (2026): Picks for Both Phases</title>
+<meta name="description" content="Best mattresses for bipolar disorder in 2026. 7 expert picks addressing thermal dysregulation in mania, hypersomnia in depression, mood-phase sleep variability, and medication-altered sleep architecture.">
+<link rel="canonical" href="https://sleepwisereviews.com/posts/best-mattress-bipolar.html">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Best Mattress for Bipolar Disorder (2026): Picks for Both Phases",
+  "description": "7 expert picks for bipolar disorder sleep — manic thermal dysregulation, depressive hypersomnia, mood-phase variability, and medication-altered sleep architecture.",
+  "author": {"@type": "Organization", "name": "SleepWise Reviews"},
+  "publisher": {"@type": "Organization", "name": "SleepWise Reviews"},
+  "datePublished": "2026-05-25",
+  "dateModified": "2026-05-25"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://sleepwisereviews.com/"},
+    {"@type": "ListItem", "position": 2, "name": "Posts", "item": "https://sleepwisereviews.com/posts/index.html"},
+    {"@type": "ListItem", "position": 3, "name": "Best Mattress for Bipolar Disorder", "item": "https://sleepwisereviews.com/posts/best-mattress-bipolar.html"}
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Best Mattresses for Bipolar Disorder 2026",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Purple Restore Hybrid", "url": "https://www.amazon.com/s?k=Purple+Restore+Hybrid+mattress&tag=sleepwiserevi-20"},
+    {"@type": "ListItem", "position": 2, "name": "Saatva Classic Medium Firm", "url": "https://www.amazon.com/s?k=Saatva+Classic+mattress&tag=sleepwiserevi-20"},
+    {"@type": "ListItem", "position": 3, "name": "Helix Midnight Luxe", "url": "https://www.amazon.com/s?k=Helix+Midnight+Luxe+mattress&tag=sleepwiserevi-20"},
+    {"@type": "ListItem", "position": 4, "name": "Casper Wave Hybrid", "url": "https://www.amazon.com/s?k=Casper+Wave+Hybrid+mattress&tag=sleepwiserevi-20"},
+    {"@type": "ListItem", "position": 5, "name": "Tempur-ProAdapt Soft", "url": "https://www.amazon.com/s?k=Tempur-ProAdapt+Soft+mattress&tag=sleepwiserevi-20"},
+    {"@type": "ListItem", "position": 6, "name": "Nectar Premier", "url": "https://www.amazon.com/s?k=Nectar+Premier+mattress&tag=sleepwiserevi-20"},
+    {"@type": "ListItem", "position": 7, "name": "DreamCloud Premier", "url": "https://www.amazon.com/s?k=DreamCloud+Premier+mattress&tag=sleepwiserevi-20"}
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Does a mattress really affect bipolar disorder sleep?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Yes. Thermal dysregulation during manic phases and prolonged pressure exposure during depressive hypersomnia both have direct mattress solutions. A cooling, pressure-relieving surface addresses the two most damaging phase-specific sleep problems."}
+    },
+    {
+      "@type": "Question",
+      "name": "What mattress firmness is best for bipolar disorder?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Medium (5/10) works across both phases. During mania, medium provides enough responsiveness to relieve heat. During depressive hypersomnia, medium provides enough cushion to prevent pressure injury from extended lying. Avoid firm (insufficient cushion for hypersomnia) and ultra-soft (heat-trapping)."}
+    },
+    {
+      "@type": "Question",
+      "name": "Do bipolar medications affect sleep quality?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Significantly. Lithium causes mild sedation and polyuria (nighttime urination). Valproate and quetiapine are sedating and can increase total sleep time. Lamotrigine is activating and may delay sleep onset. Your mattress should accommodate whichever medication effect is primary for you."}
+    },
+    {
+      "@type": "Question",
+      "name": "Is cooling important in a mattress for bipolar disorder?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Critical during manic phases. Core body temperature rises during mania and hyperthermia actively disrupts sleep consolidation. Gel-infused foam and open coil systems dissipate heat. During depressive phases, temperature neutrality matters less, but a hot mattress can still worsen fragmentation."}
+    },
+    {
+      "@type": "Question",
+      "name": "Should a person with bipolar disorder avoid memory foam?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Traditional dense memory foam traps heat and is best avoided due to manic-phase hyperthermia risk. Open-cell or gel-infused memory foam is better. Hybrid mattresses with coil support and a modest foam comfort layer give the best balance of cooling and pressure relief across both phases."}
+    }
+  ]
+}
+</script>
+<style>
+:root{--bg:#0a1628;--card:#111e33;--gold:#c9a84c;--text:#e2e8f0;--muted:#94a3b8;--accent:#3b82f6}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:'Segoe UI',system-ui,sans-serif;line-height:1.7;font-size:16px}
+a{color:var(--gold);text-decoration:none}
+a:hover{text-decoration:underline}
+header{background:linear-gradient(135deg,#0a1628 0%,#1a2f4e 100%);padding:16px 24px;border-bottom:1px solid #1e3a5f}
+.logo{font-size:1.4rem;font-weight:700;color:var(--gold)}
+nav{margin-top:8px;display:flex;gap:16px;flex-wrap:wrap}
+nav a{color:var(--muted);font-size:.9rem}
+nav a:hover{color:var(--gold)}
+.container{max-width:860px;margin:0 auto;padding:0 20px}
+.hero{padding:48px 0 32px}
+.cat-badge{display:inline-block;padding:4px 12px;border-radius:20px;font-size:.75rem;font-weight:600;letter-spacing:.05em;text-transform:uppercase;margin-bottom:16px;background:#dc2626;color:#fff}
+h1{font-size:clamp(1.6rem,4vw,2.4rem);font-weight:800;line-height:1.2;color:#fff;margin-bottom:16px}
+.subtitle{color:var(--muted);font-size:1.05rem;margin-bottom:24px}
+.quick-nav{background:var(--card);border:1px solid #1e3a5f;border-radius:8px;padding:20px;margin-bottom:40px}
+.quick-nav h3{color:var(--gold);font-size:.85rem;text-transform:uppercase;letter-spacing:.08em;margin-bottom:12px}
+.quick-nav ol{padding-left:20px;display:flex;flex-direction:column;gap:6px}
+.quick-nav a{color:var(--text);font-size:.95rem}
+.section-title{font-size:1.5rem;font-weight:700;color:#fff;margin:40px 0 20px;padding-bottom:8px;border-bottom:2px solid var(--gold)}
+.science-box{background:linear-gradient(135deg,#0f1f3d,#1a2f4e);border:1px solid #2d4a7a;border-radius:12px;padding:28px;margin:32px 0}
+.science-box h3{color:var(--gold);font-size:1rem;text-transform:uppercase;letter-spacing:.08em;margin-bottom:16px}
+.science-box ul{list-style:none;padding:0;display:flex;flex-direction:column;gap:10px}
+.science-box li{padding-left:20px;position:relative;color:var(--text)}
+.science-box li::before{content:">";position:absolute;left:0;color:var(--gold);font-weight:700}
+.pick-card{background:var(--card);border:1px solid #1e3a5f;border-radius:12px;padding:28px;margin-bottom:24px}
+.pick-header{display:flex;align-items:flex-start;gap:16px;margin-bottom:16px}
+.pick-num{background:var(--gold);color:#000;width:36px;height:36px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:1rem;flex-shrink:0}
+.pick-title{flex:1}
+.pick-title h3{font-size:1.15rem;font-weight:700;color:#fff;margin-bottom:4px}
+.pick-tag{display:inline-block;padding:2px 10px;border-radius:12px;font-size:.75rem;font-weight:600;background:#1e3a5f;color:var(--gold)}
+.pick-body p{color:var(--muted);margin-bottom:12px;font-size:.95rem}
+.pick-body strong{color:var(--text)}
+.cta-btn{display:inline-block;background:var(--gold);color:#000;padding:10px 22px;border-radius:6px;font-weight:700;font-size:.9rem;margin-top:8px}
+.cta-btn:hover{background:#e0b84d;text-decoration:none}
+.comparison-table{width:100%;border-collapse:collapse;margin:24px 0;font-size:.9rem}
+.comparison-table th{background:#1e3a5f;color:var(--gold);padding:12px 14px;text-align:left;font-size:.8rem;text-transform:uppercase;letter-spacing:.05em}
+.comparison-table td{padding:11px 14px;border-bottom:1px solid #1e3a5f;color:var(--text);vertical-align:top}
+.comparison-table tr:nth-child(even) td{background:#0d1a2e}
+.comparison-table tr:hover td{background:#152238}
+.info-box{background:#0f2a1e;border:1px solid #1a5c38;border-left:4px solid #22c55e;border-radius:8px;padding:20px;margin:24px 0}
+.info-box h4{color:#22c55e;margin-bottom:8px;font-size:.95rem}
+.info-box p,.info-box ul{color:var(--muted);font-size:.9rem}
+.info-box ul{padding-left:18px;margin-top:8px}
+.info-box li{margin-bottom:4px}
+.warning-box{background:#1a1000;border:1px solid #5c3a00;border-left:4px solid #f59e0b;border-radius:8px;padding:20px;margin:24px 0}
+.warning-box h4{color:#f59e0b;margin-bottom:8px;font-size:.95rem}
+.warning-box p{color:var(--muted);font-size:.9rem}
+.faq-section{margin:48px 0}
+.faq-item{border-bottom:1px solid #1e3a5f;padding:20px 0}
+.faq-item h3{font-size:1rem;color:#fff;margin-bottom:10px;cursor:pointer}
+.faq-item p{color:var(--muted);font-size:.95rem}
+.related-section{background:var(--card);border:1px solid #1e3a5f;border-radius:12px;padding:28px;margin:48px 0}
+.related-section h2{color:var(--gold);font-size:1.1rem;margin-bottom:16px}
+.related-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px}
+.related-link{background:#0d1a2e;border:1px solid #1e3a5f;border-radius:8px;padding:12px 16px;color:var(--text);font-size:.9rem;display:block}
+.related-link:hover{border-color:var(--gold);color:var(--gold);text-decoration:none}
+footer{background:#060e1a;border-top:1px solid #1e3a5f;padding:32px 0;margin-top:64px;text-align:center;color:var(--muted);font-size:.85rem}
+footer a{color:var(--muted)}
+@media(max-width:600px){.pick-header{flex-direction:column}.pick-num{width:30px;height:30px;font-size:.9rem}}
+</style>
+</head>
+<body>
+<header>
+<div class="container">
+<div class="logo"><a href="/" style="color:var(--gold);text-decoration:none">SleepWise Reviews</a></div>
+<nav>
+<a href="/">Home</a>
+<a href="/posts/index.html">All Posts</a>
+<a href="/posts/index.html#health-conditions">Health</a>
+<a href="/about.html">About</a>
+</nav>
+</div>
+</header>
+
+<div class="container">
+<div class="hero">
+<span class="cat-badge">Health Conditions</span>
+<h1>Best Mattress for Bipolar Disorder (2026)</h1>
+<p class="subtitle">7 picks addressing manic-phase thermal dysregulation, depressive-phase hypersomnia, mood-phase sleep variability, and medication-altered sleep architecture.</p>
+</div>
+
+<div class="quick-nav">
+<h3>Quick Navigation</h3>
+<ol>
+<li><a href="#science">The Sleep Science of Bipolar Disorder</a></li>
+<li><a href="#picks">Our 7 Top Picks</a></li>
+<li><a href="#phase-guide">Phase-by-Phase Mattress Guide</a></li>
+<li><a href="#profile-guide">Which Pick Fits Your Profile</a></li>
+<li><a href="#faq">Frequently Asked Questions</a></li>
+</ol>
+</div>
+
+<div class="science-box" id="science">
+<h3>The Sleep Science of Bipolar Disorder</h3>
+<ul>
+<li><strong>80-90% prevalence:</strong> Sleep disturbances affect 80-90% of people with bipolar disorder during mood episodes and persist in euthymic (stable) periods (BJPsych 2019).</li>
+<li><strong>Bidirectional driver:</strong> Sleep disruption is both a symptom and a trigger of mood episodes. Even one night of sleep deprivation can precipitate a manic episode in genetically predisposed individuals.</li>
+<li><strong>Manic hyperthermia:</strong> Core body temperature rises during manic phases. Elevated CBT disrupts sleep architecture by preventing the normal 1-2 degree drop required for sleep onset and SWS consolidation.</li>
+<li><strong>Depressive hypersomnia:</strong> Up to 40% of bipolar depressive episodes involve hypersomnia (10-14+ hours). Extended lying time dramatically increases risk of pressure points, interface heat, and musculoskeletal pain that further fragments sleep.</li>
+<li><strong>Circadian core pathology:</strong> Circadian rhythm disruption is central to BD pathophysiology, not incidental (Chronobiology International 2018). Social rhythm therapy (SRT) specifically targets sleep-wake cycles as primary treatment.</li>
+<li><strong>Medication effects:</strong> Lithium (mild sedation, polyuria), valproate and quetiapine (sedating, increase TST), lamotrigine (activating, may delay onset), olanzapine (highly sedating, weight gain alters pressure distribution).</li>
+</ul>
+</div>
+
+<div class="warning-box">
+<h4>Bipolar vs. Depression: Why This Post Is Different</h4>
+<p>The <a href="best-mattress-depression.html">best mattress for depression</a> addresses unipolar hypersomnia and anhedonia. Bipolar requires a mattress that performs across two opposing phases: manic (minimal sleep, hyperthermia, restlessness) and depressive (extended sleep, immobility, pressure accumulation). No single feature solves both without deliberate balance.</p>
+</div>
+
+<h2 class="section-title" id="picks">Our 7 Top Picks</h2>
+
+<div class="pick-card">
+<div class="pick-header">
+<div class="pick-num">1</div>
+<div class="pick-title">
+<h3>Purple Restore Hybrid</h3>
+<span class="pick-tag">Best Overall — Thermal Balance Across Both Phases</span>
+</div>
+</div>
+<div class="pick-body">
+<p>The Purple Grid polymer is the only comfort layer that remains temperature-neutral across both manic hyperthermia and depressive extended lying. Unlike foam, the Grid does not trap body heat regardless of how long you lie still or how elevated your core temperature runs. During mania, it prevents the heat accumulation that prolongs sleep-onset delay. During depression, extended 10-14 hour contact does not create the interface heat that fragments late-stage sleep.</p>
+<p><strong>Why it wins for bipolar:</strong> Phase-agnostic thermal performance. Neither extreme of the bipolar sleep cycle degrades mattress function.</p>
+<p><strong>Support:</strong> Coil base provides responsive lift for manic-phase positional restlessness. Medium feel works across both phases.</p>
+<a href="https://www.amazon.com/s?k=Purple+Restore+Hybrid+mattress&tag=sleepwiserevi-20" class="cta-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</div>
+</div>
+
+<div class="pick-card">
+<div class="pick-header">
+<div class="pick-num">2</div>
+<div class="pick-title">
+<h3>Saatva Classic Medium Firm</h3>
+<span class="pick-tag">Best for Structural Support During Both Phases</span>
+</div>
+</div>
+<div class="pick-body">
+<p>Dual-coil construction (innerspring over micro-coils) provides airflow through the entire mattress depth, essential for manic-phase heat dissipation. The Euro pillow-top adds enough cushion for depressive-phase hypersomnia without creating a conforming heat pocket. Lumbar Zone technology maintains spinal alignment whether you sleep 3 hours (manic) or 13 hours (depressive) without postural drift.</p>
+<p><strong>Why it wins for bipolar:</strong> Durability under variable use patterns. A bipolar sleeper may cycle between minimal and maximal sleep across weeks — the Saatva's construction handles both without compression.</p>
+<p><strong>Note:</strong> Medium Firm preferred over Plush Soft; Plush Soft traps more heat during extended lying.</p>
+<a href="https://www.amazon.com/s?k=Saatva+Classic+mattress&tag=sleepwiserevi-20" class="cta-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</div>
+</div>
+
+<div class="pick-card">
+<div class="pick-header">
+<div class="pick-num">3</div>
+<div class="pick-title">
+<h3>Helix Midnight Luxe</h3>
+<span class="pick-tag">Best for Motion Isolation During Manic Restlessness</span>
+</div>
+</div>
+<div class="pick-body">
+<p>Manic episodes often involve significant movement — positional changes, inability to stay still, fragmented short sleep bouts. If sharing a bed, this movement is severely disruptive to a partner. The Midnight Luxe's individually wrapped zoned coils with memory foam comfort layer achieves high motion isolation (0.6-1.0 cm transfer) while maintaining enough cooling for thermal management. Pillow-top surface provides adequate pressure relief for depressive-phase lying.</p>
+<p><strong>Why it wins for bipolar:</strong> Relationship protection during manic episodes. The motion transfer issue is underreported but significant for couples navigating bipolar sleep.</p>
+<p><strong>Tencel cover:</strong> Moisture-wicking, relevant for night sweats associated with some bipolar medications.</p>
+<a href="https://www.amazon.com/s?k=Helix+Midnight+Luxe+mattress&tag=sleepwiserevi-20" class="cta-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</div>
+</div>
+
+<div class="pick-card">
+<div class="pick-header">
+<div class="pick-num">4</div>
+<div class="pick-title">
+<h3>Casper Wave Hybrid</h3>
+<span class="pick-tag">Best Zoned Support for Depressive-Phase Immobility</span>
+</div>
+</div>
+<div class="pick-body">
+<p>Casper's Zoned Support system (7 zones, firmer under hips/shoulders, softer under lumbar/knees) specifically addresses the pressure accumulation that occurs during depressive hypersomnia. When lying 12+ hours in the same position, standard mattresses create progressive pressure injury at bony prominences. The zoning distributes load to prevent the musculoskeletal pain that fragments late-stage sleep and can worsen depressive-phase fatigue.</p>
+<p><strong>Why it wins for bipolar:</strong> Best engineering specifically for the depressive sleep pattern. The Wave was designed for long-duration lying in a way most hybrid mattresses were not.</p>
+<p><strong>Foam composition:</strong> Open-cell foam with AirScape perforations; acceptable cooling for manic phases.</p>
+<a href="https://www.amazon.com/s?k=Casper+Wave+Hybrid+mattress&tag=sleepwiserevi-20" class="cta-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</div>
+</div>
+
+<div class="pick-card">
+<div class="pick-header">
+<div class="pick-num">5</div>
+<div class="pick-title">
+<h3>Tempur-ProAdapt Soft</h3>
+<span class="pick-tag">Best for Severe Depressive-Phase Hypersomnia</span>
+</div>
+</div>
+<div class="pick-body">
+<p>For bipolar II with predominantly depressive episodes and severe hypersomnia (12-16 hours), the Tempur-ProAdapt Soft's TEMPUR-ES material provides the highest pressure relief available in a consumer mattress. Soft conforming reduces the physical sensation of bed-confinement that can reinforce depressive behaviors. TEMPUR-CM+ cover is actively cooling, mitigating the primary disadvantage of TEMPUR-foam for manic phases.</p>
+<p><strong>Who this fits:</strong> Bipolar II predominantly depressive subtype, especially with medication-induced weight gain (valproate, quetiapine, olanzapine) that increases pressure loads during extended lying.</p>
+<p><strong>Caution:</strong> Not recommended for bipolar I with frequent severe manic episodes — conforming depth can feel claustrophobic during agitated manic sleep.</p>
+<a href="https://www.amazon.com/s?k=Tempur-ProAdapt+Soft+mattress&tag=sleepwiserevi-20" class="cta-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</div>
+</div>
+
+<div class="pick-card">
+<div class="pick-header">
+<div class="pick-num">6</div>
+<div class="pick-title">
+<h3>Nectar Premier</h3>
+<span class="pick-tag">Best Value for Depressive Phase + Night Sweats</span>
+</div>
+</div>
+<div class="pick-body">
+<p>The Nectar Premier's Dynamic Support Foam (DSF) layer adapts to pressure distribution changes across long-duration lying without permanent body impressions — a real issue when the same sleeping position is maintained for 12+ hour depressive episodes. The cooling cover manages the night sweats common with lithium and mood-stabilizing medications. 365-night trial accommodates the difficulty of assessing mattress fit across multiple mood cycles.</p>
+<p><strong>Why it wins for bipolar:</strong> Best value-per-feature for the specific depressive-phase profile. The 1-year trial period is genuinely useful when it takes months to experience both phases on a new mattress.</p>
+<a href="https://www.amazon.com/s?k=Nectar+Premier+mattress&tag=sleepwiserevi-20" class="cta-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</div>
+</div>
+
+<div class="pick-card">
+<div class="pick-header">
+<div class="pick-num">7</div>
+<div class="pick-title">
+<h3>DreamCloud Premier</h3>
+<span class="pick-tag">Best Budget Pick — 365-Night Trial</span>
+</div>
+</div>
+<div class="pick-body">
+<p>The DreamCloud Premier provides cashmere-blend Euro pillow-top with individually wrapped coils at a mid-range price point. Adequate cooling for moderate manic-phase hyperthermia. The coil system handles motion from manic restlessness without significant transfer. The 365-night trial is the longest available at this price tier and matters for bipolar sleepers who need to assess mattress performance across full mood cycles before committing.</p>
+<p><strong>Best for:</strong> Budget-conscious buyers or those recently diagnosed whose sleep patterns are still being stabilized by medication.</p>
+<a href="https://www.amazon.com/s?k=DreamCloud+Premier+mattress&tag=sleepwiserevi-20" class="cta-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</div>
+</div>
+
+<h2 class="section-title" id="phase-guide">Phase-by-Phase Mattress Guide</h2>
+<p style="color:var(--muted);margin-bottom:16px">Different phases create opposite mattress demands. The picks above were selected to work across both, but knowing what matters by phase helps you identify your priority.</p>
+<table class="comparison-table">
+<thead><tr><th>Sleep Challenge</th><th>Manic Phase</th><th>Depressive Phase</th><th>Best Feature</th></tr></thead>
+<tbody>
+<tr><td>Temperature</td><td>Hyperthermia, elevated CBT</td><td>Normal or hypothermic</td><td>Cooling grid or coil airflow</td></tr>
+<tr><td>Sleep Duration</td><td>2-5 hours (feels sufficient)</td><td>10-16 hours (non-restorative)</td><td>Phase-agnostic comfort layer</td></tr>
+<tr><td>Movement</td><td>High positional restlessness</td><td>Minimal movement (immobility)</td><td>Motion isolation + zoned support</td></tr>
+<tr><td>Primary Risk</td><td>Sleep-onset delay from heat</td><td>Pressure injury from immobility</td><td>Cooling + pressure distribution</td></tr>
+<tr><td>Medication Effect</td><td>Activating (lamotrigine)</td><td>Sedating (quetiapine, valproate)</td><td>Medium feel, not phase-specific</td></tr>
+<tr><td>Partner Impact</td><td>High (motion transfer)</td><td>Low</td><td>Individually wrapped coils</td></tr>
+</tbody>
+</table>
+
+<div class="info-box">
+<h4>The Long Trial Period Rule for Bipolar</h4>
+<p>Most people evaluate a mattress in the first 2-4 weeks. For bipolar disorder, that window often covers only one mood phase. You may feel the mattress is wrong during mania (too conforming, too hot) and correct during depression, or vice versa. A 365-night trial is not marketing — it is functionally required to evaluate performance across both phases. Prioritize picks with the longest trials.</p>
+</div>
+
+<h2 class="section-title" id="profile-guide">Which Pick Fits Your Profile</h2>
+<table class="comparison-table">
+<thead><tr><th>Profile</th><th>Best Pick</th><th>Key Reason</th></tr></thead>
+<tbody>
+<tr><td>Frequent cycling between phases</td><td>Purple Restore Hybrid</td><td>Phase-agnostic thermal neutrality</td></tr>
+<tr><td>Primarily manic episodes</td><td>Saatva Classic MF</td><td>Airflow + structural durability</td></tr>
+<tr><td>Couples / partner sleep disruption</td><td>Helix Midnight Luxe</td><td>Best motion isolation at manic restlessness</td></tr>
+<tr><td>Primarily depressive episodes</td><td>Casper Wave Hybrid</td><td>Zoned pressure relief for immobility</td></tr>
+<tr><td>Bipolar II, severe hypersomnia</td><td>Tempur-ProAdapt Soft</td><td>Maximum pressure relief for long lying</td></tr>
+<tr><td>Medication-induced night sweats</td><td>Nectar Premier</td><td>Cooling cover + long trial period</td></tr>
+<tr><td>Budget / newly diagnosed</td><td>DreamCloud Premier</td><td>365-night trial spans full mood cycles</td></tr>
+</tbody>
+</table>
+
+<div class="faq-section" id="faq">
+<h2 class="section-title">Frequently Asked Questions</h2>
+<div class="faq-item">
+<h3>Does a mattress really affect bipolar disorder sleep?</h3>
+<p>Yes. Thermal dysregulation during manic phases and prolonged pressure exposure during depressive hypersomnia both have direct mattress solutions. A cooling, pressure-relieving surface addresses the two most damaging phase-specific sleep problems.</p>
+</div>
+<div class="faq-item">
+<h3>What mattress firmness is best for bipolar disorder?</h3>
+<p>Medium (5/10) works across both phases. During mania, medium provides enough responsiveness to relieve heat. During depressive hypersomnia, medium provides enough cushion to prevent pressure injury from extended lying. Avoid firm (insufficient cushion for hypersomnia) and ultra-soft (heat-trapping).</p>
+</div>
+<div class="faq-item">
+<h3>Do bipolar medications affect sleep quality?</h3>
+<p>Significantly. Lithium causes mild sedation and polyuria (nighttime urination). Valproate and quetiapine are sedating and can increase total sleep time. Lamotrigine is activating and may delay sleep onset. Your mattress should accommodate whichever medication effect is primary for you.</p>
+</div>
+<div class="faq-item">
+<h3>Is cooling important in a mattress for bipolar disorder?</h3>
+<p>Critical during manic phases. Core body temperature rises during mania and hyperthermia actively disrupts sleep consolidation. Gel-infused foam and open coil systems dissipate heat. During depressive phases, temperature neutrality matters less, but a hot mattress can still worsen fragmentation.</p>
+</div>
+<div class="faq-item">
+<h3>Should a person with bipolar disorder avoid memory foam?</h3>
+<p>Traditional dense memory foam traps heat and is best avoided due to manic-phase hyperthermia risk. Open-cell or gel-infused memory foam is better. Hybrid mattresses with coil support and a modest foam comfort layer give the best balance of cooling and pressure relief across both phases.</p>
+</div>
+</div>
+
+<div class="related-section">
+<h2>Related Guides</h2>
+<div class="related-grid">
+<a href="best-mattress-depression.html" class="related-link">Best Mattress for Depression</a>
+<a href="best-mattress-anxiety.html" class="related-link">Best Mattress for Anxiety</a>
+<a href="best-mattress-ptsd.html" class="related-link">Best Mattress for PTSD</a>
+<a href="best-mattress-adhd.html" class="related-link">Best Mattress for ADHD</a>
+<a href="best-mattress-insomnia.html" class="related-link">Best Mattress for Insomnia</a>
+<a href="best-mattress-hot-sleepers.html" class="related-link">Best Mattress for Hot Sleepers</a>
+<a href="best-mattress-side-sleepers.html" class="related-link">Best Mattress for Side Sleepers</a>
+<a href="best-mattress-back-pain.html" class="related-link">Best Mattress for Back Pain</a>
+</div>
+</div>
+
+</div>
+
+<footer>
+<div class="container">
+<p>SleepWise Reviews &mdash; Evidence-based sleep product recommendations</p>
+<p style="margin-top:8px"><a href="/about.html">About</a> &middot; <a href="/privacy.html">Privacy</a> &middot; <a href="/disclaimer.html">Affiliate Disclaimer</a></p>
+<p style="margin-top:12px;font-size:.8rem">SleepWise Reviews participates in the Amazon Associates program. As an Amazon Associate we earn from qualifying purchases. This does not affect our recommendations.</p>
+</div>
+</footer>
+</body>
+</html>"""
+
+with open("posts/best-mattress-bipolar.html", "w", encoding="utf-8") as f:
+    f.write(html)
+print("Created posts/best-mattress-bipolar.html")
