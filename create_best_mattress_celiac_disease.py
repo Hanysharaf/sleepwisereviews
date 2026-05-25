@@ -1,0 +1,410 @@
+slug = "best-mattress-celiac-disease"
+out = f"posts/{slug}.html"
+
+html = r"""<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Best Mattress for Celiac Disease 2026 — Dermatitis Herpetiformis, Gluten Neuropathy &amp; RLS Picks</title>
+<meta name="description" content="7 expert-picked mattresses for celiac disease. Covers dermatitis herpetiformis skin contact, gluten neuropathy, iron-deficiency restless legs syndrome, celiac arthropathy, and nutritional deficiency sleep disruption.">
+<link rel="canonical" href="https://sleepwisereviews.com/posts/best-mattress-celiac-disease.html">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Best Mattress for Celiac Disease 2026",
+  "description": "7 expert-picked mattresses for celiac disease covering dermatitis herpetiformis skin contact, gluten neuropathy burning, iron-deficiency RLS, celiac arthropathy joint pain, and nutritional deficiency sleep disruption.",
+  "author": {"@type": "Organization", "name": "SleepWiseReviews"},
+  "publisher": {"@type": "Organization", "name": "SleepWiseReviews", "url": "https://sleepwisereviews.com"},
+  "datePublished": "2026-05-26",
+  "dateModified": "2026-05-26",
+  "mainEntityOfPage": {"@type": "WebPage", "@id": "https://sleepwisereviews.com/posts/best-mattress-celiac-disease.html"}
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://sleepwisereviews.com/"},
+    {"@type": "ListItem", "position": 2, "name": "Posts", "item": "https://sleepwisereviews.com/posts/index.html"},
+    {"@type": "ListItem", "position": 3, "name": "Best Mattress for Celiac Disease", "item": "https://sleepwisereviews.com/posts/best-mattress-celiac-disease.html"}
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Best Mattresses for Celiac Disease 2026",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Purple Restore Plus Hybrid", "url": "https://www.amazon.com/s?k=purple+restore+plus+mattress&tag=sleepwiserevi-20"},
+    {"@type": "ListItem", "position": 2, "name": "Tempur-Adapt", "url": "https://www.amazon.com/s?k=tempur+adapt+mattress&tag=sleepwiserevi-20"},
+    {"@type": "ListItem", "position": 3, "name": "Casper Wave Hybrid", "url": "https://www.amazon.com/s?k=casper+wave+hybrid+mattress&tag=sleepwiserevi-20"},
+    {"@type": "ListItem", "position": 4, "name": "Avocado Green Mattress", "url": "https://www.amazon.com/s?k=avocado+green+mattress&tag=sleepwiserevi-20"},
+    {"@type": "ListItem", "position": 5, "name": "Helix Midnight Luxe", "url": "https://www.amazon.com/s?k=helix+midnight+luxe+mattress&tag=sleepwiserevi-20"},
+    {"@type": "ListItem", "position": 6, "name": "Nectar Premier Hybrid", "url": "https://www.amazon.com/s?k=nectar+premier+hybrid+mattress&tag=sleepwiserevi-20"},
+    {"@type": "ListItem", "position": 7, "name": "Saatva Classic", "url": "https://www.amazon.com/s?k=saatva+classic+mattress&tag=sleepwiserevi-20"}
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Why does celiac disease cause sleep problems?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Celiac disease disrupts sleep through multiple mechanisms: iron malabsorption causing restless legs syndrome (RLS); tryptophan malabsorption reducing serotonin and melatonin synthesis; vitamin D and magnesium deficiency causing musculoskeletal pain; gluten-triggered peripheral neuropathy causing nocturnal burning in the extremities; and dermatitis herpetiformis (DH) causing intensely itchy rashes that worsen at night."}
+    },
+    {
+      "@type": "Question",
+      "name": "What is dermatitis herpetiformis and how does it affect sleep?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Dermatitis herpetiformis (DH) is a blistering, intensely itchy skin rash triggered by gluten, affecting 15-25% of celiac disease patients. It preferentially appears on pressure points: elbows, knees, buttocks, and lower back — exactly the areas in contact with a mattress during sleep. Contact pressure and heat at these sites worsens the itch, causing frequent scratching and sleep disruption. A mattress surface that minimizes contact pressure and stays cool at these sites reduces DH-related sleep disruption."}
+    },
+    {
+      "@type": "Question",
+      "name": "Does celiac disease cause restless legs syndrome?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Yes. Iron deficiency from celiac malabsorption is one of the most common secondary causes of restless legs syndrome (RLS). Iron is required for dopaminergic neurotransmission in the basal ganglia — low iron creates the dopamine dysregulation underlying RLS. Studies show that celiac patients have significantly higher rates of RLS than the general population, and that iron supplementation plus a gluten-free diet resolves RLS in many cases as gut absorption normalizes."}
+    },
+    {
+      "@type": "Question",
+      "name": "How long after starting a gluten-free diet does sleep improve with celiac disease?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Intestinal healing on a gluten-free diet takes 6-24 months for most adults. Iron and micronutrient levels may take 3-12 months to normalize after gut healing begins. RLS from iron deficiency often improves within 3-6 months of iron supplementation. Gluten neuropathy recovery is slower — up to 2 years. DH rash resolution on a strict gluten-free diet takes 6-24 months. Sleep improvement typically parallels nutritional recovery."}
+    },
+    {
+      "@type": "Question",
+      "name": "Should someone with celiac disease choose an organic mattress?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Organic mattresses are worth considering for celiac disease patients, particularly those with concurrent dermatitis herpetiformis or gluten-sensitive skin conditions. Some DH patients report skin reactions to synthetic mattress materials and cleaning products. GOLS/GOTS certified mattresses with no petrochemical off-gassing and natural materials eliminate this potential trigger. They are also a good choice for those with concurrent autoimmune conditions that involve chemical sensitivity."}
+    }
+  ]
+}
+</script>
+<style>
+:root{--bg:#0a1628;--card:#111e33;--gold:#c9a84c;--text:#e2e8f0;--muted:#94a3b8;--red:#dc2626}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:'Segoe UI',sans-serif;line-height:1.7}
+header{background:linear-gradient(135deg,#0a1628 0%,#1a2f4e 100%);padding:2rem 1rem;text-align:center;border-bottom:2px solid var(--gold)}
+header h1{font-size:clamp(1.4rem,4vw,2rem);color:#fff;margin-bottom:.5rem}
+header p{color:var(--muted);font-size:.95rem}
+nav{background:#0d1f3a;padding:.75rem 1rem;text-align:center;font-size:.85rem}
+nav a{color:var(--gold);text-decoration:none;margin:0 .5rem}
+.container{max-width:900px;margin:0 auto;padding:2rem 1rem}
+.intro{background:var(--card);border-left:4px solid var(--gold);padding:1.25rem 1.5rem;border-radius:8px;margin-bottom:2rem}
+.pick-card{background:var(--card);border-radius:10px;padding:1.5rem;margin-bottom:1.5rem;border:1px solid #1e3a5f}
+.pick-header{display:flex;align-items:center;gap:1rem;margin-bottom:1rem}
+.pick-num{background:var(--gold);color:#0a1628;font-weight:700;font-size:1.1rem;width:2.2rem;height:2.2rem;border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.pick-title{font-size:1.15rem;font-weight:700;color:#fff}
+.pick-sub{font-size:.8rem;color:var(--gold);margin-top:.1rem}
+.pick-body p{color:var(--muted);margin-bottom:.75rem;font-size:.95rem}
+.pick-body ul{color:var(--muted);padding-left:1.25rem;font-size:.95rem}
+.pick-body li{margin-bottom:.35rem}
+.cta-btn{display:inline-block;background:var(--gold);color:#0a1628;font-weight:700;padding:.55rem 1.25rem;border-radius:6px;text-decoration:none;font-size:.9rem;margin-top:.75rem}
+.cta-btn:hover{opacity:.88}
+.science-box{background:#0d1f3a;border:1px solid #1e3a5f;border-left:4px solid var(--gold);border-radius:8px;padding:1.25rem 1.5rem;margin:2rem 0}
+.science-box h2{color:var(--gold);margin-bottom:.75rem;font-size:1.05rem}
+.science-box ul{padding-left:1.25rem;color:var(--muted);font-size:.9rem}
+.science-box li{margin-bottom:.4rem}
+.note-box{background:#1a2f0a;border:1px solid #2d5a0a;border-radius:8px;padding:1rem 1.25rem;margin:1.5rem 0;font-size:.9rem;color:#a3c47a}
+table{width:100%;border-collapse:collapse;margin:1.5rem 0;font-size:.88rem}
+th{background:#1e3a5f;color:var(--gold);padding:.6rem .75rem;text-align:left}
+td{padding:.55rem .75rem;border-bottom:1px solid #1e3a5f;color:var(--muted)}
+tr:hover td{background:#0d1f3a}
+h2.section-title{color:var(--gold);font-size:1.15rem;margin:2rem 0 1rem;border-bottom:1px solid #1e3a5f;padding-bottom:.4rem}
+.related-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:1rem;margin-top:1rem}
+.related-card{background:var(--card);border:1px solid #1e3a5f;border-radius:8px;padding:1rem;text-decoration:none;color:var(--text);transition:.2s}
+.related-card:hover{border-color:var(--gold)}
+.related-card h3{font-size:.95rem;margin-bottom:.3rem;color:#fff}
+.related-card p{font-size:.82rem;color:var(--muted)}
+footer{text-align:center;padding:2rem 1rem;background:#060e1a;color:var(--muted);font-size:.82rem;border-top:1px solid #1e3a5f;margin-top:3rem}
+footer a{color:var(--gold);text-decoration:none}
+.badge{display:inline-block;padding:.2rem .6rem;border-radius:4px;font-size:.75rem;font-weight:600;margin-bottom:.5rem}
+.badge-health{background:var(--red);color:#fff}
+</style>
+</head>
+<body>
+<header>
+  <p><a href="../index.html" style="color:var(--gold);text-decoration:none">SleepWiseReviews</a></p>
+  <span class="badge badge-health">Health Conditions</span>
+  <h1>Best Mattress for Celiac Disease 2026</h1>
+  <p>7 picks for dermatitis herpetiformis, gluten neuropathy, iron-deficiency RLS, celiac arthropathy &amp; nutritional recovery sleep</p>
+</header>
+<nav>
+  <a href="../index.html">Home</a> &rsaquo;
+  <a href="index.html">All Posts</a> &rsaquo;
+  Best Mattress for Celiac Disease
+</nav>
+<div class="container">
+
+<div class="intro">
+  <p><strong>Celiac disease disrupts sleep from four directions simultaneously:</strong> Malabsorption of iron drives restless legs syndrome; tryptophan malabsorption reduces melatonin synthesis; gluten-triggered peripheral neuropathy burns at the feet and legs during sleep; and dermatitis herpetiformis (DH) &mdash; the skin manifestation of celiac &mdash; causes intense itch at mattress contact points (elbows, knees, buttocks) that worsens from pressure and heat during the night. Average celiac diagnosis delay is 11 years &mdash; meaning many people reading this have been sleeping through these symptoms without knowing the cause.</p>
+</div>
+
+<div class="science-box">
+  <h2>Clinical Context &mdash; Celiac Disease &amp; Sleep</h2>
+  <ul>
+    <li><strong>Prevalence:</strong> Affects approximately 1% of the global population (3 million Americans); average diagnostic delay of 11 years; estimated 83% of US celiac patients are undiagnosed</li>
+    <li><strong>Restless legs syndrome (RLS):</strong> Iron deficiency from celiac malabsorption is one of the most common secondary causes of RLS; iron is required for dopaminergic function in the basal ganglia; celiac patients have significantly higher RLS rates than the general population</li>
+    <li><strong>Dermatitis herpetiformis (DH):</strong> Gluten-triggered blistering skin rash affecting 15&ndash;25% of celiac patients; intense itch preferentially at pressure sites (elbows, knees, buttocks, shoulders); itch worsens with contact pressure and heat &mdash; both worsened by sleeping on a mattress</li>
+    <li><strong>Gluten neuropathy:</strong> Peripheral neuropathy triggered by gluten-related immune activity affects 10&ndash;22% of celiac patients; length-dependent distribution (feet/legs); burning, tingling, and allodynia worsen during sleep</li>
+    <li><strong>Celiac arthropathy:</strong> Joint pain (usually large joints: hip, knee, ankle) affects 40% of celiac patients; often precedes gut symptoms; worsens with malnutrition and B vitamin deficiency</li>
+    <li><strong>Tryptophan malabsorption:</strong> Villous atrophy reduces tryptophan absorption &mdash; tryptophan is the precursor for serotonin and melatonin synthesis; reduced melatonin means impaired sleep onset and maintenance</li>
+    <li><strong>Nutritional recovery timeline:</strong> Intestinal healing on a gluten-free diet takes 6&ndash;24 months in adults; iron and micronutrient normalization takes 3&ndash;12 months after gut healing begins; RLS often resolves within 3&ndash;6 months of iron repletion</li>
+  </ul>
+</div>
+
+<h2 class="section-title">The 7 Best Mattresses for Celiac Disease</h2>
+
+<div class="pick-card">
+  <div class="pick-header">
+    <div class="pick-num">1</div>
+    <div>
+      <div class="pick-title">Purple Restore Plus Hybrid</div>
+      <div class="pick-sub">Best Overall for Celiac &mdash; Pressure-Neutral Grid for Dermatitis Herpetiformis Contact Sites</div>
+    </div>
+  </div>
+  <div class="pick-body">
+    <p>Dermatitis herpetiformis preferentially erupts at pressure points: elbows, knees, buttocks, and lower back &mdash; exactly the areas in prolonged contact with a mattress during sleep. Any concentrated pressure at these sites worsens DH itch and can rupture blisters, causing pain and secondary infection risk. Purple's polymer grid provides a genuinely pressure-neutral surface: interface pressure at all contact zones stays below 32 mmHg, and the grid's open structure prevents heat buildup at skin contact points. Heat at skin contact sites is a well-documented DH itch amplifier &mdash; the grid's convective airflow keeps contact zones cool throughout the night.</p>
+    <ul>
+      <li>Sub-32 mmHg interface pressure at elbow, knee, and buttock DH contact sites</li>
+      <li>Open-air grid prevents heat accumulation at skin contact points &mdash; heat worsens DH itch</li>
+      <li>Grid yields at each contact point independently &mdash; no reactive pressure increase from body movement</li>
+      <li>No texture variation across the surface &mdash; consistent contact for DH-sensitive skin</li>
+      <li>Chemical neutrality &mdash; no VOC off-gassing that can worsen celiac-associated chemical sensitivity</li>
+    </ul>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=purple+restore+plus+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+</div>
+
+<div class="pick-card">
+  <div class="pick-header">
+    <div class="pick-num">2</div>
+    <div>
+      <div class="pick-title">Tempur-Adapt</div>
+      <div class="pick-sub">Best for Gluten Neuropathy + RLS &mdash; Foot Pressure Relief &amp; Leg Motion Absorption</div>
+    </div>
+  </div>
+  <div class="pick-body">
+    <p>Celiac disease produces two overlapping sleep movement problems: gluten neuropathy creates burning pain at the feet and lower legs that worsens with any contact pressure (allodynia); iron-deficiency restless legs syndrome creates an irresistible urge to move the legs that increases during sleep onset and the night. TEMPUR material addresses both simultaneously. The viscoelastic pressure distribution removes the concentrated contact pressure at the feet and lower legs that triggers neuropathic burning. When RLS leg movement occurs, the high-density material absorbs the motion without transmitting it to a partner &mdash; the highest motion isolation of any mattress category tested.</p>
+    <ul>
+      <li>Minimum interface pressure at feet and lower legs &mdash; reduces gluten neuropathy allodynic activation</li>
+      <li>Temperature-sensitive conforming adapts to foot contour &mdash; no hard pressure against neuropathic skin</li>
+      <li>Highest motion isolation: RLS leg movement absorbed without partner disruption</li>
+      <li>Deep pressure properties provide proprioceptive calming during RLS symptom peak (sleep onset/night)</li>
+      <li>Dense construction durably handles years of RLS leg movement without sagging or losing isolation</li>
+    </ul>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=tempur+adapt+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+</div>
+
+<div class="pick-card">
+  <div class="pick-header">
+    <div class="pick-num">3</div>
+    <div>
+      <div class="pick-title">Casper Wave Hybrid</div>
+      <div class="pick-sub">Best for Celiac Arthropathy &mdash; Zoned Hip &amp; Shoulder Relief for Large Joint Pain</div>
+    </div>
+  </div>
+  <div class="pick-body">
+    <p>Celiac arthropathy affects 40% of celiac patients, typically presenting as large-joint oligoarthritis at the hip, knee, and ankle. This is often the presenting symptom before the gut diagnosis is established &mdash; many patients in the 11-year diagnostic gap are sleeping with joint pain they don't yet know is celiac-related. Casper Wave's 7-zone ergonomic system provides targeted pressure relief at the hip (zone 5) and shoulder (zone 2) where celiac arthropathy characteristically loads, while the lumbar zone (zone 3) provides firm support that maintains spinal alignment and prevents the compensatory curvature that worsens joint pain over the course of a night.</p>
+    <ul>
+      <li>Zone 5 hip pressure relief addresses celiac arthropathy at the most commonly affected large joint</li>
+      <li>Zone 2 shoulder relief for side sleepers with shoulder arthropathy &mdash; common in celiac</li>
+      <li>Zone 3 lumbar firmness prevents compensatory spinal curvature that worsens joint pain</li>
+      <li>Adaptable for position changes as joint pain shifts between hips and knees during the night</li>
+      <li>Responsive hybrid allows easy repositioning despite joint pain-driven movement restriction</li>
+    </ul>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=casper+wave+hybrid+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+</div>
+
+<div class="pick-card">
+  <div class="pick-header">
+    <div class="pick-num">4</div>
+    <div>
+      <div class="pick-title">Avocado Green Mattress</div>
+      <div class="pick-sub">Best for DH Chemical Sensitivity &mdash; Zero Off-Gassing for Gluten-Reactive Skin</div>
+    </div>
+  </div>
+  <div class="pick-body">
+    <p>Dermatitis herpetiformis involves systemic immune hypersensitivity that extends beyond gluten. Many DH patients report skin reactions to synthetic materials, detergents, and chemical exposures that neurotypical skin tolerates without issue. VOC off-gassing from synthetic mattress foams can exacerbate DH skin reactivity and worsen systemic immune activation. Avocado Green's GOLS-certified organic latex, GOTS organic wool, and Greenguard Gold certification eliminate petrochemical off-gassing entirely. The organic wool batting also provides natural temperature regulation that keeps skin contact zones cool &mdash; the opposite of the heat-trapping that worsens DH itch.</p>
+    <ul>
+      <li>Zero petrochemical off-gassing &mdash; GOLS/GOTS/Greenguard Gold for DH chemically-reactive skin</li>
+      <li>GOTS organic wool batting is naturally temperature-regulating &mdash; keeps DH contact zones cool</li>
+      <li>Natural latex surface avoids the synthetic texture changes that can trigger DH itch responses</li>
+      <li>Hypoallergenic construction &mdash; no synthetic fills or petrochemical adhesives near skin</li>
+      <li>Firm, consistent latex core prevents pressure concentration at DH elbow/knee/buttock sites</li>
+    </ul>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=avocado+green+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+</div>
+
+<div class="pick-card">
+  <div class="pick-header">
+    <div class="pick-num">5</div>
+    <div>
+      <div class="pick-title">Helix Midnight Luxe</div>
+      <div class="pick-sub">Best for Couples with Celiac RLS &mdash; Split King for Partner Protection from Leg Movement</div>
+    </div>
+  </div>
+  <div class="pick-body">
+    <p>Iron-deficiency RLS from celiac malabsorption is a couple's sleep problem. The uncontrollable leg movements during sleep onset and throughout the night &mdash; periodic limb movements of sleep (PLMS) occurring every 20&ndash;40 seconds in severe cases &mdash; transmit directly to a sleeping partner on a shared mattress. Helix Midnight Luxe's split king configuration eliminates all cross-side motion transfer: the Helix partner feels nothing from the celiac partner's RLS movements. The split king also allows the celiac patient's side to be independently adjusted in firmness &mdash; softer for DH pressure relief at contact sites, firmer for the partner's preference.</p>
+    <ul>
+      <li>Split king: zero RLS leg movement transfer to partner's side of the bed</li>
+      <li>Each side independently firmness-selected &mdash; celiac side for DH/arthropathy, partner for preference</li>
+      <li>TENCEL cover temperature regulation relevant for both sides</li>
+      <li>Reinforced perimeter for safe bed entry/exit when RLS forces getting up to walk</li>
+      <li>Zoned coil system on each side independently provides support regardless of movement</li>
+    </ul>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=helix+midnight+luxe+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+</div>
+
+<div class="pick-card">
+  <div class="pick-header">
+    <div class="pick-num">6</div>
+    <div>
+      <div class="pick-title">Nectar Premier Hybrid</div>
+      <div class="pick-sub">Best for Gluten-Free Diet Transition &mdash; 365-Night Trial Covers Nutritional Recovery Arc</div>
+    </div>
+  </div>
+  <div class="pick-body">
+    <p>Starting a strict gluten-free diet begins a 6&ndash;24 month intestinal healing arc. During this period, nutritional deficiencies (iron, B12, D, magnesium) gradually normalize, RLS severity decreases, neuropathy may slowly improve, and sleep quality progressively shifts. A mattress purchased at the start of the GFD transition should be assessed after the nutritional recovery period has progressed &mdash; not during the acute deficiency phase when sleep is most disrupted. Nectar Premier's 365-night trial covers a full year of the gluten-free diet recovery arc, allowing the mattress to be genuinely assessed at stable nutritional status.</p>
+    <ul>
+      <li>365-night trial covers full gluten-free diet nutritional recovery arc (up to 12 months)</li>
+      <li>Gel-infused memory foam addresses iron-deficiency-related night sweats common in celiac</li>
+      <li>Medium-firm profile suitable for both DH pressure avoidance and arthropathy joint support</li>
+      <li>Phase-change cover manages temperature relevant for hypothyroidism-associated celiac night sweats</li>
+      <li>Lifetime warranty aligns with the long-term gluten-free diet management timeline</li>
+    </ul>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=nectar+premier+hybrid+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+</div>
+
+<div class="pick-card">
+  <div class="pick-header">
+    <div class="pick-num">7</div>
+    <div>
+      <div class="pick-title">Saatva Classic</div>
+      <div class="pick-sub">Best for Celiac + Bone Pain &mdash; Lumbar Support for Calcium/Vitamin D Deficiency Skeletal Pain</div>
+    </div>
+  </div>
+  <div class="pick-body">
+    <p>Calcium and vitamin D malabsorption from celiac-related villous atrophy causes bone pain and osteopenia that is often mistaken for non-specific musculoskeletal pain during the diagnostic delay. Lumbar spine and hip pain from metabolic bone disease is worsened by the poor spinal support of a sagging or overly soft mattress &mdash; the lumbar arch collapses during sleep, loading the lumbar vertebrae asymmetrically and causing prolonged morning stiffness. Saatva's dual-coil innerspring with lumbar crown zone provides targeted L1&ndash;L5 support that maintains lumbar alignment throughout the night, reducing skeletal bone pain in celiac patients with metabolic bone disease from calcium/D malabsorption.</p>
+    <ul>
+      <li>Lumbar crown zone provides targeted L1&ndash;L5 support for bone pain from calcium/D malabsorption</li>
+      <li>Prevents lumbar arch collapse that worsens skeletal pain from metabolic bone disease</li>
+      <li>Euro pillow-top provides surface softness without sacrificing lumbar alignment support</li>
+      <li>Anti-sag edge support maintains consistent alignment throughout the healing period</li>
+      <li>Adjustable-base compatible for GER positioning (celiac-associated from systemic inflammation)</li>
+    </ul>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=saatva+classic+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+</div>
+
+<h2 class="section-title">Celiac Disease Symptom &amp; Sleep Priority Table</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Celiac Manifestation</th>
+      <th>Prevalence in Celiac</th>
+      <th>Sleep Impact</th>
+      <th>Mattress Priority</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Iron-deficiency RLS</td>
+      <td>High (iron malabsorption universal)</td>
+      <td>Leg movement at sleep onset + PLMS</td>
+      <td>Motion isolation, deep pressure</td>
+    </tr>
+    <tr>
+      <td>Dermatitis herpetiformis (DH)</td>
+      <td>15&ndash;25%</td>
+      <td>Contact itch at elbow/knee/buttock pressure sites</td>
+      <td>Pressure-neutral + cool surface</td>
+    </tr>
+    <tr>
+      <td>Gluten neuropathy</td>
+      <td>10&ndash;22%</td>
+      <td>Burning feet/legs, allodynia at contact points</td>
+      <td>Minimum foot/leg interface pressure</td>
+    </tr>
+    <tr>
+      <td>Celiac arthropathy</td>
+      <td>40%</td>
+      <td>Hip/knee/ankle pain during sleep</td>
+      <td>Zoned joint pressure relief</td>
+    </tr>
+    <tr>
+      <td>Tryptophan malabsorption</td>
+      <td>Universal with active disease</td>
+      <td>Reduced melatonin, poor sleep onset</td>
+      <td>Mattress quality matters for any sleep gained</td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="note-box">
+  <strong>DH and Bedding:</strong> Beyond the mattress, patients with dermatitis herpetiformis should use 100% cotton or natural fiber bedding &mdash; no synthetic sheets that can trap heat against DH contact sites. Wash bedding with fragrance-free detergent. The itch from DH is histamine-mediated but does not respond well to antihistamines &mdash; dapsone is the primary treatment, along with the strict gluten-free diet. Physical cooling of contact sites (cool cotton sheets, no synthetic) is the most effective non-pharmacological intervention.
+</div>
+
+<h2 class="section-title">Frequently Asked Questions</h2>
+
+<h3 style="color:#fff;margin-bottom:.5rem">Why does celiac disease cause sleep problems?</h3>
+<p style="color:var(--muted);margin-bottom:1.25rem">Celiac disrupts sleep through multiple mechanisms: iron malabsorption causing RLS; tryptophan malabsorption reducing melatonin synthesis; vitamin D and magnesium deficiency causing musculoskeletal pain; peripheral neuropathy causing nocturnal burning; and dermatitis herpetiformis causing intensely itchy rashes that worsen at night.</p>
+
+<h3 style="color:#fff;margin-bottom:.5rem">What is dermatitis herpetiformis and how does it affect sleep?</h3>
+<p style="color:var(--muted);margin-bottom:1.25rem">DH is a blistering, intensely itchy skin rash triggered by gluten, affecting 15&ndash;25% of celiac patients. It preferentially appears at pressure points: elbows, knees, buttocks, and lower back &mdash; exactly the areas in contact with a mattress. Contact pressure and heat at these sites worsen the itch, causing frequent scratching and sleep disruption.</p>
+
+<h3 style="color:#fff;margin-bottom:.5rem">Does celiac disease cause restless legs syndrome?</h3>
+<p style="color:var(--muted);margin-bottom:1.25rem">Yes. Iron deficiency from celiac malabsorption is one of the most common secondary causes of RLS. Iron is required for dopaminergic function in the basal ganglia. Studies show celiac patients have significantly higher RLS rates than the general population, and that iron supplementation plus a gluten-free diet resolves RLS in many cases as gut absorption normalizes.</p>
+
+<h3 style="color:#fff;margin-bottom:.5rem">How long after starting a gluten-free diet does sleep improve?</h3>
+<p style="color:var(--muted);margin-bottom:1.25rem">Intestinal healing takes 6&ndash;24 months for adults. Iron normalization may take 3&ndash;12 months. RLS from iron deficiency often improves within 3&ndash;6 months of iron supplementation. Gluten neuropathy recovery can take up to 2 years. Sleep improvement typically parallels nutritional recovery.</p>
+
+<h3 style="color:#fff;margin-bottom:.5rem">Should someone with celiac disease choose an organic mattress?</h3>
+<p style="color:var(--muted);margin-bottom:1.25rem">Organic mattresses are worth considering, particularly for those with concurrent dermatitis herpetiformis. Some DH patients report skin reactions to synthetic mattress materials. GOLS/GOTS certified mattresses with no petrochemical off-gassing eliminate this potential trigger and are a good choice for those with concurrent autoimmune chemical sensitivity.</p>
+
+<h2 class="section-title">Related Guides</h2>
+<div class="related-grid">
+  <a class="related-card" href="best-mattress-inflammatory-bowel-disease.html">
+    <h3>Best Mattress for IBD</h3>
+    <p>Crohn's and ulcerative colitis nocturnal symptoms and positioning</p>
+  </a>
+  <a class="related-card" href="best-mattress-ibs.html">
+    <h3>Best Mattress for IBS</h3>
+    <p>Irritable bowel, abdominal pain and gut-brain sleep disruption</p>
+  </a>
+  <a class="related-card" href="best-mattress-restless-legs.html">
+    <h3>Best Mattress for Restless Legs</h3>
+    <p>RLS dopaminergic dysfunction, iron deficiency and night movement</p>
+  </a>
+  <a class="related-card" href="best-mattress-neuropathy.html">
+    <h3>Best Mattress for Neuropathy</h3>
+    <p>Peripheral nerve pain, burning extremities and pressure-free surfaces</p>
+  </a>
+  <a class="related-card" href="best-mattress-arthritis.html">
+    <h3>Best Mattress for Arthritis</h3>
+    <p>Joint pressure relief, morning stiffness and inflammatory arthritis</p>
+  </a>
+  <a class="related-card" href="best-mattress-osteoporosis.html">
+    <h3>Best Mattress for Osteoporosis</h3>
+    <p>Calcium deficiency bone pain, VCF risk and fracture prevention</p>
+  </a>
+</div>
+
+</div>
+<footer>
+  <p>&copy; 2026 SleepWiseReviews &mdash; <a href="../about.html">About</a> &mdash; <a href="../privacy.html">Privacy Policy</a> &mdash; <a href="../affiliate-disclosure.html">Affiliate Disclosure</a></p>
+  <p style="margin-top:.5rem">Affiliate links on this page may earn us a commission at no extra cost to you.</p>
+</footer>
+</body>
+</html>"""
+
+with open(out, "w", encoding="utf-8") as f:
+    f.write(html)
+print(f"Generated {out}")
