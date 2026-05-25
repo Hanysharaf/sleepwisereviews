@@ -1,0 +1,412 @@
+html = """<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Best Mattress for Couples 2025 — Motion Isolation, Edge Support, and Shared Comfort</title>
+<meta name="description" content="The best mattress for couples must satisfy two people with different sleep needs. We ranked 7 top picks for motion isolation, edge support, temperature regulation, and value — so both partners sleep well.">
+<link rel="canonical" href="https://sleepwisereviews.com/posts/best-mattress-couples.html">
+<meta property="og:title" content="Best Mattress for Couples 2025 — Motion Isolation, Edge Support, and Shared Comfort">
+<meta property="og:description" content="7 top mattress picks for couples — motion isolation, edge support, cooling, and value for two people sharing a bed.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://sleepwisereviews.com/posts/best-mattress-couples.html">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Best Mattress for Couples 2025">
+<meta name="twitter:description" content="7 expert-tested mattresses for couples — motion isolation, edge support, and comfort for two.">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "headline": "Best Mattress for Couples 2025",
+      "description": "Expert guide to the best mattresses for couples covering motion isolation, edge support, temperature, and value.",
+      "url": "https://sleepwisereviews.com/posts/best-mattress-couples.html",
+      "datePublished": "2025-01-01",
+      "dateModified": "2025-10-01",
+      "author": {"@type": "Organization", "name": "SleepWise Reviews"},
+      "publisher": {"@type": "Organization", "name": "SleepWise Reviews", "url": "https://sleepwisereviews.com"}
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://sleepwisereviews.com"},
+        {"@type": "ListItem", "position": 2, "name": "Sleep Positions", "item": "https://sleepwisereviews.com/posts/index.html#sleep-positions"},
+        {"@type": "ListItem", "position": 3, "name": "Best Mattress for Couples", "item": "https://sleepwisereviews.com/posts/best-mattress-couples.html"}
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "name": "Best Mattresses for Couples",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Saatva Classic"},
+        {"@type": "ListItem", "position": 2, "name": "Helix Midnight Luxe (Dual Comfort)"},
+        {"@type": "ListItem", "position": 3, "name": "Purple Restore Hybrid"},
+        {"@type": "ListItem", "position": 4, "name": "Nectar Premier Copper"},
+        {"@type": "ListItem", "position": 5, "name": "Casper Original Hybrid"},
+        {"@type": "ListItem", "position": 6, "name": "WinkBed"},
+        {"@type": "ListItem", "position": 7, "name": "Tempur-Pedic TEMPUR-Adapt"}
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What should couples look for in a mattress?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Couples should prioritize four things: (1) Motion isolation — so one partner's movement doesn't wake the other; (2) Edge support — so both partners can use the full width without rolling off; (3) Temperature regulation — so one hot-sleeping partner doesn't overheat the bed; (4) A firmness that works for both sleep positions. Hybrid mattresses with pocketed coils and foam comfort layers typically satisfy all four criteria."}
+        },
+        {
+          "@type": "Question",
+          "name": "What is the best mattress size for couples?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Queen (60 x 80 inches) is the minimum for couples — it gives each person 30 inches. King (76 x 80 inches) gives each person 38 inches — the same as a twin bed — and significantly reduces sleep disturbance from partner movement. If budget and room size allow, king is consistently the better choice for couples, especially restless sleepers or those with very different sleep preferences."}
+        },
+        {
+          "@type": "Question",
+          "name": "What is a dual-comfort mattress for couples?",
+          "acceptedAnswer": {"@type": "Answer", "text": "A dual-comfort mattress has different firmness levels on each side — typically one half softer and one half firmer. This lets each partner sleep on their ideal surface without compromising. Helix, WinkBed, and several other brands offer dual-comfort options in queen and king. The gap between the two sides is minimal and usually not felt during sleep. Bedding covers both halves seamlessly."}
+        },
+        {
+          "@type": "Question",
+          "name": "Is a soft or firm mattress better for couples?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Medium to medium-firm (5-7/10) is the best compromise for most couples. Softer mattresses reduce motion transfer but may not support back sleepers. Firmer mattresses provide back support but transmit more movement. The middle range accommodates most sleep positions while providing enough give to absorb movement. For couples with very different needs, a dual-comfort option resolves the tradeoff entirely."}
+        },
+        {
+          "@type": "Question",
+          "name": "How do I share a mattress with a partner who sleeps differently?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Options in order of effectiveness: (1) Dual-comfort mattress — each half a different firmness, both partners sleep ideally; (2) Split king — two separate twin XL mattresses side by side, complete independence; (3) Zoned support mattress — different support levels mapped to body zones rather than bed halves; (4) Medium mattress — the compromise choice that neither partner will find perfect but both can sleep on. A split king adjustable base system is the gold standard for couples with fundamentally different sleep needs."}
+        }
+      ]
+    }
+  ]
+}
+</script>
+<style>
+  :root{--bg:#0a1628;--card:#111e33;--gold:#c9a84c;--text:#e8eaf0;--muted:#8892a4}
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{background:var(--bg);color:var(--text);font-family:'Segoe UI',sans-serif;line-height:1.7}
+  header{background:linear-gradient(135deg,#0a1628 0%,#1a2a4a 100%);padding:16px 24px;border-bottom:1px solid var(--gold)}
+  header a{color:var(--gold);text-decoration:none;font-weight:700;font-size:1.2rem}
+  .container{max-width:860px;margin:0 auto;padding:32px 20px}
+  .badge{display:inline-block;background:var(--gold);color:#0a1628;font-size:.75rem;font-weight:700;padding:4px 12px;border-radius:20px;margin-bottom:16px;text-transform:uppercase;letter-spacing:.05em}
+  h1{font-size:2rem;font-weight:800;line-height:1.25;margin-bottom:16px;color:#fff}
+  .subtitle{color:var(--muted);font-size:1.05rem;margin-bottom:32px}
+  .toc{background:var(--card);border:1px solid #1e3a5f;border-radius:12px;padding:20px 24px;margin-bottom:36px}
+  .toc h2{font-size:1rem;color:var(--gold);margin-bottom:12px;text-transform:uppercase;letter-spacing:.05em}
+  .toc ol{padding-left:20px}.toc li{margin-bottom:6px}.toc a{color:var(--text);text-decoration:none;font-size:.95rem}.toc a:hover{color:var(--gold)}
+  .intro-box{background:var(--card);border-left:4px solid var(--gold);border-radius:0 12px 12px 0;padding:20px 24px;margin-bottom:36px}
+  .product-card{background:var(--card);border:1px solid #1e3a5f;border-radius:14px;padding:28px;margin-bottom:28px;position:relative;overflow:hidden}
+  .product-card::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;background:linear-gradient(90deg,var(--gold),transparent)}
+  .rank-badge{position:absolute;top:20px;right:20px;background:var(--gold);color:#0a1628;font-weight:800;font-size:.8rem;padding:4px 10px;border-radius:8px}
+  .product-card h2{font-size:1.35rem;color:#fff;margin-bottom:8px;padding-right:80px}
+  .product-card .tagline{color:var(--gold);font-size:.9rem;font-weight:600;margin-bottom:14px}
+  .specs-row{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:16px}
+  .spec-chip{background:#0a1628;border:1px solid #1e3a5f;border-radius:6px;padding:5px 12px;font-size:.82rem;color:var(--muted)}
+  .spec-chip strong{color:var(--text)}
+  .product-card p{color:var(--muted);margin-bottom:16px;font-size:.95rem}
+  .pros-cons{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:18px}
+  .pros,.cons{background:#0a1628;border-radius:8px;padding:14px 16px}
+  .pros h4{color:#4caf7d;margin-bottom:8px;font-size:.85rem;text-transform:uppercase;letter-spacing:.05em}
+  .cons h4{color:#e57373;margin-bottom:8px;font-size:.85rem;text-transform:uppercase;letter-spacing:.05em}
+  .pros li,.cons li{font-size:.88rem;color:var(--muted);margin-bottom:4px;list-style:none;padding-left:16px;position:relative}
+  .pros li::before{content:'+';position:absolute;left:0;color:#4caf7d;font-weight:700}
+  .cons li::before{content:'-';position:absolute;left:0;color:#e57373;font-weight:700}
+  .buy-btn{display:inline-block;background:linear-gradient(135deg,var(--gold),#a07830);color:#0a1628;font-weight:800;padding:12px 28px;border-radius:8px;text-decoration:none;font-size:.95rem;transition:opacity .2s}
+  .buy-btn:hover{opacity:.85}
+  .best-for{background:#0d2137;border:1px solid var(--gold);border-radius:8px;padding:10px 16px;margin-bottom:16px;font-size:.88rem}
+  .best-for strong{color:var(--gold)}
+  h2.section-title{font-size:1.5rem;color:#fff;margin:40px 0 20px;border-bottom:1px solid #1e3a5f;padding-bottom:12px}
+  .criteria-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:14px;margin-bottom:32px}
+  .crit-card{background:var(--card);border:1px solid #1e3a5f;border-radius:10px;padding:14px}
+  .crit-card .c-title{color:var(--gold);font-weight:700;font-size:.88rem;margin-bottom:6px}
+  .crit-card p{color:var(--muted);font-size:.82rem;margin:0}
+  .comparison-table{width:100%;border-collapse:collapse;margin-bottom:32px;font-size:.88rem}
+  .comparison-table th{background:#1e3a5f;color:var(--gold);padding:10px 14px;text-align:left;font-weight:700}
+  .comparison-table td{background:var(--card);padding:10px 14px;color:var(--muted);border-bottom:1px solid #1e3a5f}
+  .comparison-table tr:hover td{background:#152035}
+  .tip-box{background:#0d1a2a;border:1px solid #4a90d9;border-radius:12px;padding:20px 24px;margin:32px 0}
+  .tip-box h3{color:#4a90d9;margin-bottom:12px;font-size:1rem}
+  .tip-box li{color:var(--muted);font-size:.9rem;margin-bottom:6px;list-style:none;padding-left:18px;position:relative}
+  .tip-box li::before{content:'>';position:absolute;left:0;color:#4a90d9;font-weight:700}
+  .faq-section{margin-top:48px}
+  .faq-item{background:var(--card);border:1px solid #1e3a5f;border-radius:10px;padding:20px 24px;margin-bottom:16px}
+  .faq-item h3{color:#fff;font-size:1rem;margin-bottom:10px}
+  .faq-item p{color:var(--muted);font-size:.9rem}
+  footer{text-align:center;padding:40px 20px;color:var(--muted);font-size:.85rem;border-top:1px solid #1e3a5f;margin-top:60px}
+  footer a{color:var(--gold);text-decoration:none}
+  .disclaimer{background:var(--card);border-radius:8px;padding:14px 18px;margin-top:32px;font-size:.8rem;color:var(--muted)}
+  @media(max-width:600px){.pros-cons{grid-template-columns:1fr}h1{font-size:1.5rem}.criteria-grid{grid-template-columns:1fr 1fr}}
+</style>
+</head>
+<body>
+<header><a href="https://sleepwisereviews.com">SleepWise Reviews</a></header>
+<div class="container">
+
+<span class="badge">Sleep Positions</span>
+<h1>Best Mattress for Couples 2025 — Motion Isolation, Edge Support, and Shared Comfort</h1>
+<p class="subtitle">Choosing a mattress as a couple means satisfying two people who probably have different weights, sleep positions, temperature preferences, and pain points. These 7 picks are selected specifically because they handle the complexity of shared sleep — not just because they perform well for a single sleeper.</p>
+
+<div class="toc">
+  <h2>Quick Navigation</h2>
+  <ol>
+    <li><a href="#criteria">What Couples Actually Need</a></li>
+    <li><a href="#picks">Our 7 Picks</a></li>
+    <li><a href="#comparison">Couples Performance Comparison</a></li>
+    <li><a href="#dual">Dual-Comfort Options Explained</a></li>
+    <li><a href="#tips">Couples Buying Tips</a></li>
+    <li><a href="#faq">FAQ</a></li>
+  </ol>
+</div>
+
+<div class="intro-box">
+  <p><strong>The 4 non-negotiables for couples:</strong> motion isolation (your movement doesn't wake your partner), edge support (both of you can use the full width), temperature neutrality (one hot sleeper doesn't overheat both sides), and a firmness that both sleep positions can live with. A mattress that fails any one of these will cause sleep problems for at least one partner.</p>
+</div>
+
+<!-- WHAT COUPLES NEED -->
+<h2 class="section-title" id="criteria">What Couples Actually Need from a Mattress</h2>
+<div class="criteria-grid">
+  <div class="crit-card">
+    <div class="c-title">Motion Isolation</div>
+    <p>When one partner shifts position, turns over, or gets up — the other side shouldn't feel it. Pocketed coils and foam comfort layers absorb movement before it travels across the mattress.</p>
+  </div>
+  <div class="crit-card">
+    <div class="c-title">Edge Support</div>
+    <p>Poor edge support means each partner unconsciously migrates toward the center — reducing usable width and increasing the chance of disturbing each other. Strong edge support means you can sleep to the perimeter.</p>
+  </div>
+  <div class="crit-card">
+    <div class="c-title">Temperature Neutrality</div>
+    <p>One hot-sleeping partner can overheat both sides of the bed. Hybrid mattresses with coil airflow and breathable cover materials prevent heat buildup from transferring to the cooler partner.</p>
+  </div>
+  <div class="crit-card">
+    <div class="c-title">Firmness Range</div>
+    <p>One partner often sleeps on their side (needs softer), one on their back (needs firmer). Medium to medium-firm (5-7/10) is the compromise zone. Dual-comfort options resolve this entirely.</p>
+  </div>
+</div>
+
+<!-- PRODUCT 1 -->
+<div class="product-card" id="picks">
+  <span class="rank-badge">#1 Pick</span>
+  <h2>Saatva Classic</h2>
+  <p class="tagline">Best Overall for Couples — Edge support, three firmness options, luxury hybrid feel</p>
+  <div class="best-for"><strong>Best for:</strong> Couples who want a luxury experience without compromise; back pain sufferers sharing a bed</div>
+  <div class="specs-row">
+    <div class="spec-chip"><strong>Type:</strong> Hybrid innerspring</div>
+    <div class="spec-chip"><strong>Firmness:</strong> Plush Soft / Luxury Firm / Firm</div>
+    <div class="spec-chip"><strong>Trial:</strong> 365 nights</div>
+    <div class="spec-chip"><strong>Edge Support:</strong> Excellent</div>
+  </div>
+  <p>The Saatva Classic earns the top couple spot because it delivers across all four non-negotiables. The dual coil system with individually wrapped micro-coils above the Bonnell base gives it better motion isolation than most innerspring hybrids. The reinforced perimeter maintains edge support across the full width — both partners can sleep to the edge without rolling off or sagging. The organic cotton Euro pillow top breathes naturally, preventing heat buildup from a warm-sleeping partner.</p>
+  <p>Three firmness options mean couples can choose the one that splits the difference between their individual preferences. The 14.5" height option improves edge support further — the additional coil travel gives the perimeter more structural resistance. The 365-night trial is exceptional for a couple evaluating whether a mattress works for both over time.</p>
+  <div class="pros-cons">
+    <div class="pros"><h4>Pros</h4><ul><li>Three firmness options — find the couple's common ground</li><li>Excellent edge support — full-width usable surface</li><li>365-night trial for thorough couple evaluation</li><li>White glove delivery + old mattress removal</li><li>Organic cotton top breathes naturally</li></ul></div>
+    <div class="cons"><h4>Cons</h4><ul><li>Some motion transfer through coil system vs. foam-only options</li><li>No dual-comfort option — one firmness for both sides</li><li>Premium price</li></ul></div>
+  </div>
+  <a href="https://www.amazon.com/s?k=Saatva+Classic+mattress+couples&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank" class="buy-btn">Check Price on Amazon</a>
+</div>
+
+<!-- PRODUCT 2 -->
+<div class="product-card">
+  <span class="rank-badge">#2</span>
+  <h2>Helix Midnight Luxe (Dual Comfort Option)</h2>
+  <p class="tagline">Best for Different Sleep Styles — Each side of the bed customized to each partner</p>
+  <div class="best-for"><strong>Best for:</strong> Couples with fundamentally different sleep positions or firmness preferences</div>
+  <div class="specs-row">
+    <div class="spec-chip"><strong>Type:</strong> Hybrid</div>
+    <div class="spec-chip"><strong>Firmness:</strong> Dual-comfort — Medium + Medium Soft</div>
+    <div class="spec-chip"><strong>Trial:</strong> 100 nights</div>
+    <div class="spec-chip"><strong>Edge Support:</strong> Very Good</div>
+  </div>
+  <p>Helix's dual-comfort option is the most accessible way for couples to get their ideal individual firmness without a full split king setup. Each half of the Midnight Luxe king can be a different firmness — the "Midnight" (medium, 5/10) on one side for back/combination sleepers, and "Midnight" (medium soft) or a softer variant on the other side for side sleepers. The zoned support within each half provides shoulder and lumbar targeting regardless of which side you're on.</p>
+  <p>The TENCEL cover with quilted memory foam pillow top adds a soft, breathable surface across both halves simultaneously. Motion isolation from the pocketed coils is good — movements in one half don't create a significant wave in the other. The gap between the two halves is minimal and covered by the pillow top so neither partner feels it.</p>
+  <div class="pros-cons">
+    <div class="pros"><h4>Pros</h4><ul><li>Dual-comfort — each partner gets their ideal firmness</li><li>5-zone coil support on each side</li><li>Good motion isolation between sides</li><li>TENCEL cover — cooling and breathable</li></ul></div>
+    <div class="cons"><h4>Cons</h4><ul><li>100-night trial — shorter than ideal for couple evaluation</li><li>Premium price for the dual-comfort Luxe version</li></ul></div>
+  </div>
+  <a href="https://www.amazon.com/s?k=Helix+Midnight+Luxe+mattress+dual+comfort&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank" class="buy-btn">Check Price on Amazon</a>
+</div>
+
+<!-- PRODUCT 3 -->
+<div class="product-card">
+  <span class="rank-badge">#3</span>
+  <h2>Purple Restore Hybrid</h2>
+  <p class="tagline">Best for Mixed Temperature Couples — Grid keeps both sides cool</p>
+  <div class="best-for"><strong>Best for:</strong> Couples where one partner sleeps hot; combination sleepers who need both support and pressure relief</div>
+  <div class="specs-row">
+    <div class="spec-chip"><strong>Type:</strong> Hybrid (GelFlex Grid)</div>
+    <div class="spec-chip"><strong>Firmness:</strong> Soft / Medium / Firm</div>
+    <div class="spec-chip"><strong>Trial:</strong> 100 nights</div>
+    <div class="spec-chip"><strong>Edge Support:</strong> Good</div>
+  </div>
+  <p>When one partner sleeps hot, they can overheat the entire bed surface — affecting the cooler-sleeping partner. Purple's GelFlex Grid prevents this: heat from the warm-sleeping partner dissipates through the open-air grid structure rather than building up and radiating to the other side. Three firmness options mean couples can find a level that works for both without the hot-sleeping compromise problem.</p>
+  <p>The pocketed coil base provides motion isolation between sides — movements in the Grid don't travel through the coil system to the other side. The Grid's responsive nature also makes position changes easier for the restless partner, reducing the frequency of disturbances in the first place.</p>
+  <div class="pros-cons">
+    <div class="pros"><h4>Pros</h4><ul><li>Grid prevents heat buildup from warm-sleeping partner affecting the bed</li><li>Three firmness options for couple compromise</li><li>Pocketed coils isolate motion between sides</li><li>Pressure-eliminating Grid reduces restless repositioning</li></ul></div>
+    <div class="cons"><h4>Cons</h4><ul><li>Grid feel polarizing — confirm both partners accept it</li><li>100-night trial</li><li>Premium price</li></ul></div>
+  </div>
+  <a href="https://www.amazon.com/s?k=Purple+Restore+Hybrid+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank" class="buy-btn">Check Price on Amazon</a>
+</div>
+
+<!-- PRODUCT 4 -->
+<div class="product-card">
+  <span class="rank-badge">#4</span>
+  <h2>Nectar Premier Copper</h2>
+  <p class="tagline">Best Motion Isolation — Foam absorbs movement before it crosses to the other side</p>
+  <div class="best-for"><strong>Best for:</strong> Couples where one is a very light sleeper; restless partner who tosses frequently</div>
+  <div class="specs-row">
+    <div class="spec-chip"><strong>Type:</strong> All-foam</div>
+    <div class="spec-chip"><strong>Firmness:</strong> Medium-firm (6/10)</div>
+    <div class="spec-chip"><strong>Trial:</strong> 365 nights</div>
+    <div class="spec-chip"><strong>Edge Support:</strong> Moderate</div>
+  </div>
+  <p>For couples where one partner is an extremely light sleeper, the Nectar Premier Copper's motion isolation is the priority metric. Memory foam absorbs movement in place — it doesn't transmit waves across the mattress the way coils do. The copper infusion adds temperature management that prevents the heat buildup that turns a memory foam queen or king into an uncomfortable hot-box for both partners.</p>
+  <p>The 365-night trial is exceptional — couples need time across different seasons to fully evaluate whether a mattress works for both. The lifetime warranty adds peace of mind for a shared investment. Medium-firm feel works for most couples who share a bed, though strict side sleepers may want something softer.</p>
+  <div class="pros-cons">
+    <div class="pros"><h4>Pros</h4><ul><li>Outstanding motion isolation — best for light-sleeping partners</li><li>365-night trial + lifetime warranty</li><li>Copper reduces heat for warm-sleeping partner</li><li>Good value for the performance delivered</li></ul></div>
+    <div class="cons"><h4>Cons</h4><ul><li>Moderate edge support — perimeter not as strong as hybrids</li><li>One firmness option — no customization for different needs</li><li>Not ideal if one partner is over 230 lbs</li></ul></div>
+  </div>
+  <a href="https://www.amazon.com/s?k=Nectar+Premier+Copper+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank" class="buy-btn">Check Price on Amazon</a>
+</div>
+
+<!-- PRODUCT 5 -->
+<div class="product-card">
+  <span class="rank-badge">#5</span>
+  <h2>Casper Original Hybrid</h2>
+  <p class="tagline">Best Mid-Range Couple Pick — Balanced motion isolation, support, and value</p>
+  <div class="best-for"><strong>Best for:</strong> Couples on a mid-range budget; couples with similar sleep positions</div>
+  <div class="specs-row">
+    <div class="spec-chip"><strong>Type:</strong> Hybrid</div>
+    <div class="spec-chip"><strong>Firmness:</strong> Medium (5-6/10)</div>
+    <div class="spec-chip"><strong>Trial:</strong> 100 nights</div>
+    <div class="spec-chip"><strong>Edge Support:</strong> Good</div>
+  </div>
+  <p>The Casper Original Hybrid is the strongest mid-range couple mattress. Pocketed coils with foam encasing provide good motion isolation for a hybrid. The AirScape foam layer handles temperature and pressure. Zoned support (softer at shoulders, firmer at lumbar) works for both side and back sleepers without either feeling compromised. Edge support from the perimeter coils allows both partners to use the full width.</p>
+  <p>At the mid-range price point, the Casper delivers on all four couple priorities without requiring a premium investment. The limitation is that there's one firmness option — couples with significantly different needs may outgrow it.</p>
+  <div class="pros-cons">
+    <div class="pros"><h4>Pros</h4><ul><li>Good motion isolation for a hybrid at this price</li><li>Zoned support works for most sleep position combinations</li><li>Good edge support — full-width usable surface</li><li>AirScape foam helps temperature regulation</li></ul></div>
+    <div class="cons"><h4>Cons</h4><ul><li>One firmness — no customization for different needs</li><li>100-night trial — shorter for couple evaluation</li></ul></div>
+  </div>
+  <a href="https://www.amazon.com/s?k=Casper+Original+Hybrid+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank" class="buy-btn">Check Price on Amazon</a>
+</div>
+
+<!-- PRODUCT 6 -->
+<div class="product-card">
+  <span class="rank-badge">#6</span>
+  <h2>WinkBed</h2>
+  <p class="tagline">Best for Heavier Couples — Reinforced edge support, four firmness options</p>
+  <div class="best-for"><strong>Best for:</strong> Couples over 200 lbs each; couples who want four firmness options</div>
+  <div class="specs-row">
+    <div class="spec-chip"><strong>Type:</strong> Hybrid</div>
+    <div class="spec-chip"><strong>Firmness:</strong> Softer / Luxury Firm / Firmer / Plus</div>
+    <div class="spec-chip"><strong>Trial:</strong> 120 nights</div>
+    <div class="spec-chip"><strong>Edge Support:</strong> Excellent</div>
+  </div>
+  <p>WinkBed's reinforced perimeter coils and high-density base foam maintain structural integrity under combined couple weight across the full queen or king width. Most mattresses compress at the edges under the weight of two adults — WinkBed's design prevents this, keeping both partners on a flat, supportive surface regardless of where they sleep. The four firmness options (including Plus for 300+ lb sleepers) give couples more choice than almost any other brand.</p>
+  <div class="pros-cons">
+    <div class="pros"><h4>Pros</h4><ul><li>Best-in-class edge support for couples</li><li>Four firmness options — widest range available</li><li>120-night trial</li><li>Handles combined couple weight without structural compromise</li></ul></div>
+    <div class="cons"><h4>Cons</h4><ul><li>Firmer feel on most options — may not suit side sleepers</li><li>No dual-comfort option</li></ul></div>
+  </div>
+  <a href="https://www.amazon.com/s?k=WinkBed+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank" class="buy-btn">Check Price on Amazon</a>
+</div>
+
+<!-- PRODUCT 7 -->
+<div class="product-card">
+  <span class="rank-badge">#7</span>
+  <h2>Tempur-Pedic TEMPUR-Adapt</h2>
+  <p class="tagline">Best for Light-Sleeping Partners — TEMPUR motion isolation is the industry benchmark</p>
+  <div class="best-for"><strong>Best for:</strong> Couples where one partner has extreme sensitivity to movement or noise</div>
+  <div class="specs-row">
+    <div class="spec-chip"><strong>Type:</strong> All-foam (TEMPUR)</div>
+    <div class="spec-chip"><strong>Firmness:</strong> Medium / Medium Hybrid / Firm</div>
+    <div class="spec-chip"><strong>Trial:</strong> 90 nights</div>
+    <div class="spec-chip"><strong>Edge Support:</strong> Moderate</div>
+  </div>
+  <p>TEMPUR foam sets the motion isolation benchmark — it moves slowly and in place, absorbing partner movement without transmitting any wave to the other side. For couples where one partner is so sensitive to movement that other mattresses still cause waking, TEMPUR is the only material that consistently eliminates the disturbance entirely. The Medium Hybrid version adds pocketed coils for some bounce and airflow, making it more couple-friendly than the original all-foam TEMPUR.</p>
+  <div class="pros-cons">
+    <div class="pros"><h4>Pros</h4><ul><li>Benchmark motion isolation — best for extreme movement sensitivity</li><li>Medium Hybrid adds bounce and airflow to TEMPUR performance</li><li>Proven 10+ year durability — couple's investment holds up</li></ul></div>
+    <div class="cons"><h4>Cons</h4><ul><li>Only 90-night trial — shortest on this list</li><li>Slow response — harder for restless sleeper to change positions</li><li>Premium price + moderate edge support</li></ul></div>
+  </div>
+  <a href="https://www.amazon.com/s?k=Tempur-Pedic+TEMPUR-Adapt+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank" class="buy-btn">Check Price on Amazon</a>
+</div>
+
+<!-- COMPARISON TABLE -->
+<h2 class="section-title" id="comparison">Couples Performance Comparison</h2>
+<table class="comparison-table">
+  <thead>
+    <tr><th>Mattress</th><th>Motion Isolation</th><th>Edge Support</th><th>Cooling</th><th>Dual-Comfort?</th><th>Trial</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Saatva Classic</td><td>Good</td><td>Excellent</td><td>Very Good</td><td>No</td><td>365 nights</td></tr>
+    <tr><td>Helix Midnight Luxe</td><td>Very Good</td><td>Very Good</td><td>Good</td><td>Yes</td><td>100 nights</td></tr>
+    <tr><td>Purple Restore Hybrid</td><td>Good</td><td>Good</td><td>Excellent</td><td>No</td><td>100 nights</td></tr>
+    <tr><td>Nectar Premier Copper</td><td>Excellent</td><td>Moderate</td><td>Good</td><td>No</td><td>365 nights</td></tr>
+    <tr><td>Casper Original Hybrid</td><td>Very Good</td><td>Good</td><td>Good</td><td>No</td><td>100 nights</td></tr>
+    <tr><td>WinkBed</td><td>Good</td><td>Excellent</td><td>Good</td><td>No</td><td>120 nights</td></tr>
+    <tr><td>Tempur-Pedic TEMPUR-Adapt</td><td>Outstanding</td><td>Moderate</td><td>Average</td><td>No</td><td>90 nights</td></tr>
+  </tbody>
+</table>
+
+<!-- DUAL COMFORT -->
+<div class="tip-box" id="dual">
+  <h3>Dual-Comfort Mattresses — The Couple's Solution When Nothing Else Works</h3>
+  <ul>
+    <li>A dual-comfort mattress has different firmness on each side of the same bed — typically achieved by using different foam densities or coil tensions on each half</li>
+    <li>The gap between the two halves is covered by the mattress cover and pillow top — most couples can't feel it during sleep</li>
+    <li>Available from Helix, WinkBed, Layla, and a few other brands in queen and king (not full or twin)</li>
+    <li>The step up from dual-comfort is a split king: two separate twin XL mattresses on a king frame, with fully independent adjustable bases — the gold standard for couples with major sleep differences</li>
+    <li>When evaluating dual-comfort options: both partners should trial the mattress for at least 30 nights before the return window closes — firmness preferences often shift after the break-in period</li>
+  </ul>
+</div>
+
+<!-- BUYING TIPS -->
+<div class="tip-box" id="tips">
+  <h3>Couples Mattress Buying Tips</h3>
+  <ul>
+    <li>Buy the largest size your room allows — king vs. queen means each partner gets 8 more inches of personal space, significantly reducing sleep disturbance</li>
+    <li>Prioritize trial length — couples need 60+ nights to properly evaluate whether a mattress works for both partners across all sleep conditions</li>
+    <li>Read the return policy together — confirm both partners understand the terms and the return process before purchasing</li>
+    <li>Consider a mattress protector on day one — protecting the surface keeps the return option viable (most brands won't accept stained or damaged returns)</li>
+    <li>Separate duvets instead of one shared blanket eliminates the blanket-pulling that causes as many couple sleep disruptions as mattress movement</li>
+    <li>If one partner has a very specific need (back pain, side sleeping, weight over 250 lbs), that need should take priority — a mattress that works for both without meeting the specific need will fail the more constrained partner first</li>
+    <li>Schedule the mattress delivery together — both partners should be present for setup and can confirm placement and assembly</li>
+  </ul>
+</div>
+
+<!-- FAQ -->
+<div class="faq-section" id="faq">
+  <h2 class="section-title">Frequently Asked Questions</h2>
+  <div class="faq-item">
+    <h3>What should couples look for in a mattress?</h3>
+    <p>Couples should prioritize four things: (1) Motion isolation — so one partner's movement doesn't wake the other; (2) Edge support — so both partners can use the full width without rolling off; (3) Temperature regulation — so one hot-sleeping partner doesn't overheat the bed; (4) A firmness that works for both sleep positions. Hybrid mattresses with pocketed coils and foam comfort layers typically satisfy all four criteria.</p>
+  </div>
+  <div class="faq-item">
+    <h3>What is the best mattress size for couples?</h3>
+    <p>Queen (60 x 80 inches) is the minimum for couples — it gives each person 30 inches. King (76 x 80 inches) gives each person 38 inches — the same as a twin bed — and significantly reduces sleep disturbance from partner movement. If budget and room size allow, king is consistently the better choice for couples, especially restless sleepers or those with very different sleep preferences.</p>
+  </div>
+  <div class="faq-item">
+    <h3>What is a dual-comfort mattress for couples?</h3>
+    <p>A dual-comfort mattress has different firmness levels on each side — typically one half softer and one half firmer. This lets each partner sleep on their ideal surface without compromising. Helix, WinkBed, and several other brands offer dual-comfort options in queen and king. The gap between the two sides is minimal and usually not felt during sleep. Bedding covers both halves seamlessly.</p>
+  </div>
+  <div class="faq-item">
+    <h3>Is a soft or firm mattress better for couples?</h3>
+    <p>Medium to medium-firm (5-7/10) is the best compromise for most couples. Softer mattresses reduce motion transfer but may not support back sleepers. Firmer mattresses provide back support but transmit more movement. The middle range accommodates most sleep positions while providing enough give to absorb movement. For couples with very different needs, a dual-comfort option resolves the tradeoff entirely.</p>
+  </div>
+  <div class="faq-item">
+    <h3>How do I share a mattress with a partner who sleeps differently?</h3>
+    <p>Options in order of effectiveness: (1) Dual-comfort mattress — each half a different firmness, both partners sleep ideally; (2) Split king — two separate twin XL mattresses side by side, complete independence; (3) Zoned support mattress — different support levels mapped to body zones rather than bed halves; (4) Medium mattress — the compromise choice that neither partner will find perfect but both can sleep on. A split king adjustable base system is the gold standard for couples with fundamentally different sleep needs.</p>
+  </div>
+</div>
+
+<div class="disclaimer">
+  <strong>Disclaimer:</strong> As an Amazon Associate, SleepWise Reviews earns from qualifying purchases. This content is for informational purposes only.
+</div>
+
+</div>
+<footer>
+  <p>&copy; 2025 SleepWise Reviews &mdash; <a href="https://sleepwisereviews.com">Home</a> &mdash; <a href="https://sleepwisereviews.com/posts/index.html">All Reviews</a></p>
+</footer>
+</body>
+</html>"""
+
+with open('posts/best-mattress-couples.html', 'w', encoding='utf-8') as f:
+    f.write(html)
+print('Written: posts/best-mattress-couples.html')
