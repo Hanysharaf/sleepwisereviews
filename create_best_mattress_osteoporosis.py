@@ -1,0 +1,411 @@
+slug = "best-mattress-osteoporosis"
+out = f"posts/{slug}.html"
+
+html = r"""<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Best Mattress for Osteoporosis 2026 — Vertebral Fracture, Kyphosis & Hip Safety Picks</title>
+<meta name="description" content="7 expert-picked mattresses for osteoporosis. Covers vertebral compression fracture pain, kyphotic posture support, hip fracture recovery, fall prevention, and corticosteroid-induced insomnia.">
+<link rel="canonical" href="https://sleepwisereviews.com/posts/best-mattress-osteoporosis.html">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Best Mattress for Osteoporosis 2026",
+  "description": "7 expert-picked mattresses for osteoporosis covering vertebral compression fractures, kyphosis, hip fracture recovery, and sleep disruption.",
+  "author": {"@type": "Organization", "name": "SleepWiseReviews"},
+  "publisher": {"@type": "Organization", "name": "SleepWiseReviews", "url": "https://sleepwisereviews.com"},
+  "datePublished": "2026-05-26",
+  "dateModified": "2026-05-26",
+  "mainEntityOfPage": {"@type": "WebPage", "@id": "https://sleepwisereviews.com/posts/best-mattress-osteoporosis.html"}
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://sleepwisereviews.com/"},
+    {"@type": "ListItem", "position": 2, "name": "Posts", "item": "https://sleepwisereviews.com/posts/index.html"},
+    {"@type": "ListItem", "position": 3, "name": "Best Mattress for Osteoporosis", "item": "https://sleepwisereviews.com/posts/best-mattress-osteoporosis.html"}
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Best Mattresses for Osteoporosis 2026",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Saatva Classic + Adjustable Base", "url": "https://www.amazon.com/s?k=saatva+classic+mattress&tag=sleepwiserevi-20"},
+    {"@type": "ListItem", "position": 2, "name": "Tempur-Adapt", "url": "https://www.amazon.com/s?k=tempur+adapt+mattress&tag=sleepwiserevi-20"},
+    {"@type": "ListItem", "position": 3, "name": "Casper Wave Hybrid", "url": "https://www.amazon.com/s?k=casper+wave+hybrid+mattress&tag=sleepwiserevi-20"},
+    {"@type": "ListItem", "position": 4, "name": "Purple Restore Plus Hybrid", "url": "https://www.amazon.com/s?k=purple+restore+plus+mattress&tag=sleepwiserevi-20"},
+    {"@type": "ListItem", "position": 5, "name": "Helix Midnight Luxe", "url": "https://www.amazon.com/s?k=helix+midnight+luxe+mattress&tag=sleepwiserevi-20"},
+    {"@type": "ListItem", "position": 6, "name": "Avocado Green Mattress", "url": "https://www.amazon.com/s?k=avocado+green+mattress&tag=sleepwiserevi-20"},
+    {"@type": "ListItem", "position": 7, "name": "Nectar Premier Hybrid", "url": "https://www.amazon.com/s?k=nectar+premier+hybrid+mattress&tag=sleepwiserevi-20"}
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Is a firm mattress better for osteoporosis?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Not necessarily. Osteoporosis requires spinal alignment and pressure relief, not maximum firmness. A medium to medium-firm mattress with targeted lumbar support is generally better than an extra-firm surface, which can create painful pressure points at compressed vertebrae and bony prominences."}
+    },
+    {
+      "@type": "Question",
+      "name": "Can I sleep on my side with vertebral compression fractures?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Side sleeping is possible with VCFs but requires a mattress that cushions the fracture site without allowing excessive spinal flexion. A knee pillow between the legs to keep the spine neutral and a mattress with shoulder/hip sinkage and lumbar support are key. Avoid positions that flex the thoracic spine forward."}
+    },
+    {
+      "@type": "Question",
+      "name": "What sleeping position is best after a hip fracture?",
+      "acceptedAnswer": {"@type": "Answer", "text": "After hip fracture, most orthopedic surgeons recommend back sleeping with a pillow between the knees to prevent internal rotation of the hip. Side sleeping on the non-operative side is usually permitted after 6 weeks. Avoid crossing legs or sleeping on the operative hip side until cleared by your surgeon."}
+    },
+    {
+      "@type": "Question",
+      "name": "Does osteoporosis affect sleep quality?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Yes. Vertebral compression fracture pain peaks at night due to inflammatory cytokine activity (IL-6, TNF-alpha peak 2-4 AM). Kyphotic deformity from multiple VCFs can restrict thoracic expansion and cause positional respiratory compromise. Studies show women with osteoporotic fractures have 40% higher rates of insomnia than age-matched controls."}
+    },
+    {
+      "@type": "Question",
+      "name": "Should I use an adjustable base if I have osteoporosis?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Yes. An adjustable base provides significant benefits for osteoporosis: zero-gravity position offloads spinal compression, head elevation reduces kyphosis-related breathing difficulty, and the raised position eases getting in and out of bed safely, reducing fall risk. Pairing with a compatible innerspring or hybrid mattress is ideal."}
+    }
+  ]
+}
+</script>
+<style>
+:root{--bg:#0a1628;--card:#111e33;--gold:#c9a84c;--text:#e2e8f0;--muted:#94a3b8;--red:#dc2626}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:'Segoe UI',sans-serif;line-height:1.7}
+header{background:linear-gradient(135deg,#0a1628 0%,#1a2f4e 100%);padding:2rem 1rem;text-align:center;border-bottom:2px solid var(--gold)}
+header h1{font-size:clamp(1.4rem,4vw,2rem);color:#fff;margin-bottom:.5rem}
+header p{color:var(--muted);font-size:.95rem}
+nav{background:#0d1f3a;padding:.75rem 1rem;text-align:center;font-size:.85rem}
+nav a{color:var(--gold);text-decoration:none;margin:0 .5rem}
+.container{max-width:900px;margin:0 auto;padding:2rem 1rem}
+.intro{background:var(--card);border-left:4px solid var(--gold);padding:1.25rem 1.5rem;border-radius:8px;margin-bottom:2rem}
+.pick-card{background:var(--card);border-radius:10px;padding:1.5rem;margin-bottom:1.5rem;border:1px solid #1e3a5f}
+.pick-header{display:flex;align-items:center;gap:1rem;margin-bottom:1rem}
+.pick-num{background:var(--gold);color:#0a1628;font-weight:700;font-size:1.1rem;width:2.2rem;height:2.2rem;border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.pick-title{font-size:1.15rem;font-weight:700;color:#fff}
+.pick-sub{font-size:.8rem;color:var(--gold);margin-top:.1rem}
+.pick-body p{color:var(--muted);margin-bottom:.75rem;font-size:.95rem}
+.pick-body ul{color:var(--muted);padding-left:1.25rem;font-size:.95rem}
+.pick-body li{margin-bottom:.35rem}
+.cta-btn{display:inline-block;background:var(--gold);color:#0a1628;font-weight:700;padding:.55rem 1.25rem;border-radius:6px;text-decoration:none;font-size:.9rem;margin-top:.75rem}
+.cta-btn:hover{opacity:.88}
+.science-box{background:#0d1f3a;border:1px solid #1e3a5f;border-left:4px solid var(--gold);border-radius:8px;padding:1.25rem 1.5rem;margin:2rem 0}
+.science-box h2{color:var(--gold);margin-bottom:.75rem;font-size:1.05rem}
+.science-box ul{padding-left:1.25rem;color:var(--muted);font-size:.9rem}
+.science-box li{margin-bottom:.4rem}
+.note-box{background:#1a2f0a;border:1px solid #2d5a0a;border-radius:8px;padding:1rem 1.25rem;margin:1.5rem 0;font-size:.9rem;color:#a3c47a}
+table{width:100%;border-collapse:collapse;margin:1.5rem 0;font-size:.88rem}
+th{background:#1e3a5f;color:var(--gold);padding:.6rem .75rem;text-align:left}
+td{padding:.55rem .75rem;border-bottom:1px solid #1e3a5f;color:var(--muted)}
+tr:hover td{background:#0d1f3a}
+h2.section-title{color:var(--gold);font-size:1.15rem;margin:2rem 0 1rem;border-bottom:1px solid #1e3a5f;padding-bottom:.4rem}
+.related-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:1rem;margin-top:1rem}
+.related-card{background:var(--card);border:1px solid #1e3a5f;border-radius:8px;padding:1rem;text-decoration:none;color:var(--text);transition:.2s}
+.related-card:hover{border-color:var(--gold)}
+.related-card h3{font-size:.95rem;margin-bottom:.3rem;color:#fff}
+.related-card p{font-size:.82rem;color:var(--muted)}
+footer{text-align:center;padding:2rem 1rem;background:#060e1a;color:var(--muted);font-size:.82rem;border-top:1px solid #1e3a5f;margin-top:3rem}
+footer a{color:var(--gold);text-decoration:none}
+.badge{display:inline-block;padding:.2rem .6rem;border-radius:4px;font-size:.75rem;font-weight:600;margin-bottom:.5rem}
+.badge-health{background:var(--red);color:#fff}
+</style>
+</head>
+<body>
+<header>
+  <p><a href="../index.html" style="color:var(--gold);text-decoration:none">SleepWiseReviews</a></p>
+  <span class="badge badge-health">Health Conditions</span>
+  <h1>Best Mattress for Osteoporosis 2026</h1>
+  <p>7 picks for vertebral compression fractures, kyphosis support, hip safety &amp; bone-loss sleep disruption</p>
+</header>
+<nav>
+  <a href="../index.html">Home</a> &rsaquo;
+  <a href="index.html">All Posts</a> &rsaquo;
+  Best Mattress for Osteoporosis
+</nav>
+<div class="container">
+
+<div class="intro">
+  <p><strong>The core problem with osteoporosis and sleep:</strong> Vertebral compression fractures (VCFs) cause pain that peaks at night &mdash; inflammatory cytokines IL-6 and TNF-alpha reach their highest concentrations between 2&ndash;4 AM. Progressive kyphotic deformity from stacked VCFs restricts thoracic expansion, compounding respiratory discomfort in any lying position. Hip fracture history adds transfer safety and pressure-injury risk. The right mattress addresses all three layers simultaneously.</p>
+</div>
+
+<div class="science-box">
+  <h2>Clinical Context &mdash; Osteoporosis &amp; Sleep</h2>
+  <ul>
+    <li><strong>Prevalence:</strong> 54 million Americans have low bone density; 10 million have osteoporosis (T-score &lt; &minus;2.5)</li>
+    <li><strong>VCF epidemiology:</strong> VCFs affect 25% of postmenopausal women by age 70 and 50% by age 80; 70% of VCFs are silent (no acute pain event)</li>
+    <li><strong>Sleep disruption:</strong> Women with osteoporotic fractures show 40% higher insomnia rates than age-matched controls; kyphosis &gt;40&deg; reduces FEV1 by up to 20%</li>
+    <li><strong>Hip fracture reality:</strong> 300,000 hip fractures annually in the US; 24% 1-year mortality in women over 50; average hospital stay 5&ndash;7 days, rehabilitation 2&ndash;8 weeks</li>
+    <li><strong>Corticosteroid-induced osteoporosis:</strong> Prednisone &ge;7.5 mg/day for &ge;3 months suppresses bone formation and causes steroid-specific insomnia (elevated cortisol disrupts sleep architecture)</li>
+    <li><strong>Postmenopausal bone loss rate:</strong> 2&ndash;4% per year in first 5&ndash;10 years post-menopause due to estrogen withdrawal; estrogen also regulates sleep thermoregulation via hypothalamic preoptic area</li>
+    <li><strong>Bisphosphonate notes:</strong> Alendronate and risedronate must be taken fasting and upright &mdash; adjustable base head elevation helps compliance with morning dosing protocol</li>
+  </ul>
+</div>
+
+<h2 class="section-title">The 7 Best Mattresses for Osteoporosis</h2>
+
+<div class="pick-card">
+  <div class="pick-header">
+    <div class="pick-num">1</div>
+    <div>
+      <div class="pick-title">Saatva Classic + Adjustable Base</div>
+      <div class="pick-sub">Best Overall for VCF &amp; Kyphosis &mdash; Lumbar Zone + Zero-Gravity</div>
+    </div>
+  </div>
+  <div class="pick-body">
+    <p>Saatva's dual-coil innerspring with a dedicated lumbar crown provides targeted support at the L1&ndash;L5 vertebrae most commonly fractured in osteoporosis (T12&ndash;L2 junction). The enhanced lumbar zone keeps the compressed spine in neutral alignment without the forward flexion that aggravates VCFs. Paired with an adjustable base, zero-gravity position offloads axial spinal compression and elevates the head to reduce kyphosis-related respiratory restriction.</p>
+    <ul>
+      <li>Lumbar zone provides targeted T12&ndash;L2 support without rigid pressure on fracture sites</li>
+      <li>Zero-gravity position reduces compressive load on osteoporotic vertebrae by approximately 40%</li>
+      <li>Head elevation (15&ndash;30&deg;) reduces thoracic kyphosis breathing restriction</li>
+      <li>Raised profile eases getting in and out of bed &mdash; critical for fall prevention</li>
+      <li>Anti-sag edge support system maintains consistent spinal alignment over years of use</li>
+      <li>Bisphosphonate compliance: elevated head position supports morning fasting upright dosing protocol</li>
+    </ul>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=saatva+classic+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+</div>
+
+<div class="pick-card">
+  <div class="pick-header">
+    <div class="pick-num">2</div>
+    <div>
+      <div class="pick-title">Tempur-Adapt</div>
+      <div class="pick-sub">Best for Active VCF Pain &mdash; Viscoelastic Fracture-Site Cushioning</div>
+    </div>
+  </div>
+  <div class="pick-body">
+    <p>TEMPUR material was originally developed by NASA to absorb g-forces &mdash; it distributes weight across the largest surface area of any foam type, reducing peak interface pressure at compressed vertebrae. For active VCF pain, this means the fracture site sinks into the material rather than bearing concentrated load. TEMPUR-Adapt's motion isolation is also the highest-tested in its class, critical for the partner sleep disruption caused by nighttime pain repositioning.</p>
+    <ul>
+      <li>Viscoelastic material cradles fracture sites &mdash; no concentrated pressure on T12&ndash;L2 VCF locations</li>
+      <li>Pressure relief duration 1.5x longer than standard memory foam &mdash; sustains relief through 2&ndash;4 AM cytokine peak</li>
+      <li>Highest motion isolation tested &mdash; partner repositioning from VCF pain doesn't wake spouse</li>
+      <li>Temperature-sensitive conforming: warms and softens around bony prominences for custom fit</li>
+      <li>10-year warranty aligns with long-term osteoporosis management timeline</li>
+    </ul>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=tempur+adapt+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+</div>
+
+<div class="pick-card">
+  <div class="pick-header">
+    <div class="pick-num">3</div>
+    <div>
+      <div class="pick-title">Casper Wave Hybrid</div>
+      <div class="pick-sub">Best for Kyphosis Ergonomics &mdash; Zoned Thoracic &amp; Lumbar Support</div>
+    </div>
+  </div>
+  <div class="pick-body">
+    <p>Casper Wave's 7-zone ergonomic system is uniquely suited to kyphotic spinal deformity. Zone 3 (lumbar) is firmer to prevent excessive lordosis collapse, while zone 2 (thoracic) is softer to accommodate the forward curvature of kyphosis without forcing the upper back flat. Zone 5 (hips) provides pressure relief at the greater trochanter &mdash; the primary pressure point in lateral hip fracture positioning. This graduated support follows the actual shape of an osteoporotic spine rather than assuming a straight profile.</p>
+    <ul>
+      <li>Zone 2 thoracic softness accommodates kyphotic curvature without fighting the deformity</li>
+      <li>Zone 3 lumbar firmness prevents compensatory hyperlordosis below kyphotic segment</li>
+      <li>Zone 5 hip pressure relief targets greater trochanter &mdash; primary hip fracture pressure site</li>
+      <li>Pocketed coil base provides zoned response that adapts to asymmetric osteoporotic spine</li>
+      <li>Suitable for side and back sleeping &mdash; most common positions post-VCF</li>
+    </ul>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=casper+wave+hybrid+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+</div>
+
+<div class="pick-card">
+  <div class="pick-header">
+    <div class="pick-num">4</div>
+    <div>
+      <div class="pick-title">Purple Restore Plus Hybrid</div>
+      <div class="pick-sub">Best for Hip Fracture Pressure Relief &mdash; Sub-32 mmHg at Greater Trochanter</div>
+    </div>
+  </div>
+  <div class="pick-body">
+    <p>Purple's polymer grid maintains interface pressure below the 32 mmHg capillary closing threshold at bony prominences &mdash; a clinically relevant threshold for pressure injury prevention. For hip fracture recovery, this protects the greater trochanter (the most common pressure injury site in lateral-lying patients) and the sacrum during back sleeping. The grid's open-air channels also prevent the heat buildup that worsens corticosteroid-induced night sweats.</p>
+    <ul>
+      <li>Sub-32 mmHg interface pressure at greater trochanter &mdash; pressure injury prevention for hip fracture recovery</li>
+      <li>Sacrum and heel protection during mandatory back-sleeping phases post-hip surgery</li>
+      <li>Open-air polymer grid eliminates heat buildup &mdash; addresses corticosteroid steroid night sweats</li>
+      <li>Grid yields at bony prominences while supporting softer tissue &mdash; follows osteoporotic bone contour</li>
+      <li>Neutral pH, no off-gassing &mdash; relevant for patients with multiple medication sensitivities</li>
+    </ul>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=purple+restore+plus+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+</div>
+
+<div class="pick-card">
+  <div class="pick-header">
+    <div class="pick-num">5</div>
+    <div>
+      <div class="pick-title">Helix Midnight Luxe</div>
+      <div class="pick-sub">Best for Couples &amp; Fall Safety &mdash; Edge Support + Split King Option</div>
+    </div>
+  </div>
+  <div class="pick-body">
+    <p>Osteoporosis significantly raises fall-related fracture risk during bed transfers. Helix Midnight Luxe's reinforced perimeter coil system provides a stable, consistent edge that doesn't compress under lateral transfer load &mdash; the most dangerous moment for a patient with hip fracture history or severe osteoporosis. The split king configuration allows each partner to adjust independently, particularly valuable when one partner needs zero-gravity elevation and the other sleeps flat.</p>
+    <ul>
+      <li>Reinforced perimeter coils provide stable edge for safe lateral transfers &mdash; reduces fall-fracture risk</li>
+      <li>No edge compression during sit-to-stand transfer &mdash; critical safety feature for osteoporotic patients</li>
+      <li>Split king independent adjustment: zero-gravity for osteoporosis patient, flat for unaffected partner</li>
+      <li>Medium-soft comfort with zoned lumbar support &mdash; back and side sleeping suitable</li>
+      <li>TENCEL cover for temperature regulation &mdash; relevant for night sweats from corticosteroids or menopause</li>
+    </ul>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=helix+midnight+luxe+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+</div>
+
+<div class="pick-card">
+  <div class="pick-header">
+    <div class="pick-num">6</div>
+    <div>
+      <div class="pick-title">Avocado Green Mattress</div>
+      <div class="pick-sub">Best for Corticosteroid-Induced Osteoporosis &mdash; Chemical-Free + Natural Buoyancy</div>
+    </div>
+  </div>
+  <div class="pick-body">
+    <p>Corticosteroid-induced osteoporosis (CIOP) patients often carry multiple chemical sensitivities from long-term immunosuppressive therapy. Avocado's GOLS-certified organic latex, GOTS organic wool, and Greenguard Gold certification mean zero petrochemical off-gassing. Natural latex's buoyant response also makes repositioning physically easier than sinking into memory foam &mdash; critical when prednisone-related myopathy (muscle weakness from long-term steroid use) makes pushing up from a soft surface difficult.</p>
+    <ul>
+      <li>Zero off-gassing &mdash; GOLS/GOTS/Greenguard Gold certified for patients with multiple medication sensitivities</li>
+      <li>Natural latex buoyancy eases repositioning despite steroid-induced myopathy (common in CIOP)</li>
+      <li>GOTS organic wool naturally temperature-regulating &mdash; reduces corticosteroid night sweats</li>
+      <li>Durable latex construction &mdash; maintains support for the 3&ndash;5 year typical CIOP treatment course</li>
+      <li>Pillow-top option adds surface softness without sacrificing latex core support for spinal alignment</li>
+    </ul>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=avocado+green+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+</div>
+
+<div class="pick-card">
+  <div class="pick-header">
+    <div class="pick-num">7</div>
+    <div>
+      <div class="pick-title">Nectar Premier Hybrid</div>
+      <div class="pick-sub">Best for Postmenopausal Osteoporosis &mdash; Thermoregulation + 365-Night Trial</div>
+    </div>
+  </div>
+  <div class="pick-body">
+    <p>Postmenopausal osteoporosis and sleep disruption share the same root cause: estrogen withdrawal. Estrogen regulates both osteoblast activity and hypothalamic thermoregulation via the preoptic area &mdash; loss of estrogen means both accelerated bone loss and impaired body temperature regulation during sleep. Nectar Premier's gel-infused foam and phase-change cover address the thermoregulatory component. The 365-night trial covers a full year &mdash; enough time to complete a bisphosphonate titration period and assess whether the mattress genuinely helps with pain-disrupted sleep.</p>
+    <ul>
+      <li>Gel-infused memory foam addresses postmenopausal thermoregulation failure &mdash; same hormonal root as bone loss</li>
+      <li>Phase-change cover maintains 68&ndash;72&deg;F sleep-optimal temperature despite hot flashes</li>
+      <li>365-night trial covers bisphosphonate titration period and full fracture pain progression assessment</li>
+      <li>Medium-firm profile supports osteoporotic spine without creating hard pressure points</li>
+      <li>Lifetime warranty aligns with long-term osteoporosis management timeline</li>
+    </ul>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=nectar+premier+hybrid+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+</div>
+
+<h2 class="section-title">Osteoporosis Stage &amp; Sleep Priority Table</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Stage / Situation</th>
+      <th>T-score / Profile</th>
+      <th>Primary Sleep Concern</th>
+      <th>Mattress Priority</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Osteopenia</td>
+      <td>&minus;1.0 to &minus;2.5</td>
+      <td>Prevention, emerging back pain</td>
+      <td>Lumbar support, longevity</td>
+    </tr>
+    <tr>
+      <td>Osteoporosis (no fracture)</td>
+      <td>&lt; &minus;2.5</td>
+      <td>Spinal alignment, fall risk</td>
+      <td>Zoned support + safe edge</td>
+    </tr>
+    <tr>
+      <td>Vertebral compression fracture</td>
+      <td>Any, +VCF history</td>
+      <td>Fracture site pain, cytokine peak</td>
+      <td>Pressure relief + zero-gravity</td>
+    </tr>
+    <tr>
+      <td>Hip fracture recovery</td>
+      <td>Any, post-surgical</td>
+      <td>Greater trochanter pressure, transfer safety</td>
+      <td>Sub-32 mmHg + stable edge</td>
+    </tr>
+    <tr>
+      <td>Corticosteroid-induced (CIOP)</td>
+      <td>Any, steroid use</td>
+      <td>Night sweats, myopathy repositioning</td>
+      <td>Chemical-free + buoyant latex</td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="note-box">
+  <strong>Adjustable Base Positioning for Osteoporosis:</strong> Zero-gravity (head 30&ndash;45&deg;, knees slightly elevated) reduces axial spinal compression load by approximately 40% compared to flat lying. Head elevation above 30&deg; also reduces kyphosis-related breathing restriction and supports the upright position required for bisphosphonate (alendronate, risedronate) morning dosing. Most adjustable bases pair with innerspring or hybrid mattresses &mdash; confirm compatibility before purchasing.
+</div>
+
+<h2 class="section-title">Frequently Asked Questions</h2>
+
+<h3 style="color:#fff;margin-bottom:.5rem">Is a firm mattress better for osteoporosis?</h3>
+<p style="color:var(--muted);margin-bottom:1.25rem">Not necessarily. Osteoporosis requires spinal alignment and pressure relief, not maximum firmness. A medium to medium-firm mattress with targeted lumbar support is generally better than an extra-firm surface, which can create painful pressure points at compressed vertebrae and bony prominences.</p>
+
+<h3 style="color:#fff;margin-bottom:.5rem">Can I sleep on my side with vertebral compression fractures?</h3>
+<p style="color:var(--muted);margin-bottom:1.25rem">Side sleeping is possible with VCFs but requires a mattress that cushions the fracture site without allowing excessive spinal flexion. A knee pillow between the legs to keep the spine neutral and a mattress with shoulder/hip sinkage and lumbar support are key. Avoid positions that flex the thoracic spine forward.</p>
+
+<h3 style="color:#fff;margin-bottom:.5rem">What sleeping position is best after a hip fracture?</h3>
+<p style="color:var(--muted);margin-bottom:1.25rem">After hip fracture, most orthopedic surgeons recommend back sleeping with a pillow between the knees to prevent internal rotation of the hip. Side sleeping on the non-operative side is usually permitted after 6 weeks. Avoid crossing legs or sleeping on the operative hip side until cleared by your surgeon.</p>
+
+<h3 style="color:#fff;margin-bottom:.5rem">Does osteoporosis affect sleep quality?</h3>
+<p style="color:var(--muted);margin-bottom:1.25rem">Yes. VCF pain peaks at night due to inflammatory cytokine activity (IL-6, TNF-alpha peak 2&ndash;4 AM). Kyphotic deformity from multiple VCFs can restrict thoracic expansion. Women with osteoporotic fractures have 40% higher rates of insomnia than age-matched controls.</p>
+
+<h3 style="color:#fff;margin-bottom:.5rem">Should I use an adjustable base if I have osteoporosis?</h3>
+<p style="color:var(--muted);margin-bottom:1.25rem">Yes. An adjustable base provides significant benefits: zero-gravity offloads spinal compression, head elevation reduces kyphosis-related breathing difficulty, and the raised position eases getting in and out of bed safely, reducing fall risk.</p>
+
+<h2 class="section-title">Related Guides</h2>
+<div class="related-grid">
+  <a class="related-card" href="best-mattress-arthritis.html">
+    <h3>Best Mattress for Arthritis</h3>
+    <p>Pressure relief for inflamed joints and morning stiffness</p>
+  </a>
+  <a class="related-card" href="best-mattress-ankylosing-spondylitis.html">
+    <h3>Best Mattress for Ankylosing Spondylitis</h3>
+    <p>Spinal fusion, sacroiliac inflammation and sleep posture</p>
+  </a>
+  <a class="related-card" href="best-mattress-fibromyalgia.html">
+    <h3>Best Mattress for Fibromyalgia</h3>
+    <p>Widespread pain, pressure sensitivity and restorative sleep</p>
+  </a>
+  <a class="related-card" href="best-mattress-back-pain.html">
+    <h3>Best Mattress for Back Pain</h3>
+    <p>Lumbar support, spinal alignment and pain relief picks</p>
+  </a>
+  <a class="related-card" href="best-mattress-lupus.html">
+    <h3>Best Mattress for Lupus</h3>
+    <p>Joint pain, photosensitivity, steroid use and fatigue</p>
+  </a>
+  <a class="related-card" href="best-mattress-scoliosis.html">
+    <h3>Best Mattress for Scoliosis</h3>
+    <p>Lateral spinal curvature, asymmetric support needs</p>
+  </a>
+</div>
+
+</div>
+<footer>
+  <p>&copy; 2026 SleepWiseReviews &mdash; <a href="../about.html">About</a> &mdash; <a href="../privacy.html">Privacy Policy</a> &mdash; <a href="../affiliate-disclosure.html">Affiliate Disclosure</a></p>
+  <p style="margin-top:.5rem">Affiliate links on this page may earn us a commission at no extra cost to you.</p>
+</footer>
+</body>
+</html>"""
+
+with open(out, "w", encoding="utf-8") as f:
+    f.write(html)
+print(f"Generated {out}")
