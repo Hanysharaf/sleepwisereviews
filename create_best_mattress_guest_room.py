@@ -1,0 +1,547 @@
+html = """<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Best Mattress for Guest Room 2025: 7 Picks That Work for Everyone</title>
+<meta name="description" content="Choosing a guest room mattress? It needs to work for all sleep positions and body types. We tested 7 options for versatility, value, easy setup, and space-saving design.">
+<link rel="canonical" href="https://sleepwisereviews.com/posts/best-mattress-guest-room.html">
+<meta property="og:title" content="Best Mattress for Guest Room 2025: 7 Picks That Work for Everyone">
+<meta property="og:description" content="Choosing a guest room mattress? We tested 7 options for versatility, value, easy setup, and space-saving design.">
+<meta property="og:url" content="https://sleepwisereviews.com/posts/best-mattress-guest-room.html">
+<meta property="og:type" content="article">
+<meta property="og:image" content="https://sleepwisereviews.com/images/og-default.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Best Mattress for Guest Room 2025: 7 Picks That Work for Everyone">
+<meta name="twitter:description" content="Choosing a guest room mattress? We tested 7 options for versatility, value, and easy setup.">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "headline": "Best Mattress for Guest Room 2025: 7 Picks That Work for Everyone",
+      "description": "Choosing a guest room mattress? We tested 7 options for versatility, value, easy setup, and space-saving design.",
+      "url": "https://sleepwisereviews.com/posts/best-mattress-guest-room.html",
+      "datePublished": "2025-05-01",
+      "dateModified": "2025-05-25",
+      "author": {"@type": "Organization", "name": "SleepWiseReviews"},
+      "publisher": {"@type": "Organization", "name": "SleepWiseReviews", "url": "https://sleepwisereviews.com"}
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://sleepwisereviews.com"},
+        {"@type": "ListItem", "position": 2, "name": "Mattresses & Bedding", "item": "https://sleepwisereviews.com/posts/index.html"},
+        {"@type": "ListItem", "position": 3, "name": "Best Mattress for Guest Room", "item": "https://sleepwisereviews.com/posts/best-mattress-guest-room.html"}
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "name": "Best Guest Room Mattresses 2025",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Casper Original Hybrid — Best Overall Guest Room Mattress"},
+        {"@type": "ListItem", "position": 2, "name": "Saatva Classic — Best Luxury Guest Room Mattress"},
+        {"@type": "ListItem", "position": 3, "name": "Tuft & Needle Mint — Best Mid-Range Guest Mattress"},
+        {"@type": "ListItem", "position": 4, "name": "Linenspa 8-Inch Hybrid — Best Budget Guest Mattress"},
+        {"@type": "ListItem", "position": 5, "name": "Avocado Green Mattress — Best Organic Guest Mattress"},
+        {"@type": "ListItem", "position": 6, "name": "Purple Original — Best Cooling Guest Mattress"},
+        {"@type": "ListItem", "position": 7, "name": "Lucid 10-Inch Hybrid — Best Space-Saving Guest Mattress"}
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What size mattress is best for a guest room?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Queen (60x80 inches) is the gold standard for guest rooms. It accommodates single sleepers and couples, fits most guest room furniture arrangements, and is the most widely available size. Full (54x75 inches) is a good choice for smaller rooms or if the room is primarily used by one adult. Twin is acceptable only for a dedicated single-adult guest space or a kids room that doubles as a guest room."}
+        },
+        {
+          "@type": "Question",
+          "name": "How much should I spend on a guest room mattress?",
+          "acceptedAnswer": {"@type": "Answer", "text": "For a guest room used 10-30 nights per year, $400-700 is the sweet spot. At this price you get quality materials, a 100-night trial, and a mattress that will last 8-10 years with low usage. Spending under $300 risks a mattress that sags within 3 years. Spending over $1,000 is usually overkill for a low-use guest space — save that budget for your primary mattress."}
+        },
+        {
+          "@type": "Question",
+          "name": "What firmness is best for a guest room mattress?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Medium (5-6/10 firmness) is the safest choice for a guest room. It accommodates side sleepers, back sleepers, and most combination sleepers. Very soft mattresses work for dedicated side sleepers but feel wrong for back sleepers. Very firm mattresses work for stomach sleepers but create pressure points for side sleepers. Medium is the universal default."}
+        },
+        {
+          "@type": "Question",
+          "name": "Should I get a mattress-in-a-box for a guest room?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Yes — a mattress-in-a-box (bed-in-a-box) is often ideal for a guest room. It ships to your door in a compact box, self-expands within 24-72 hours, and eliminates the need to navigate stairs with a traditional mattress. Most major brands now offer bed-in-a-box options with 100-night trials. Allow 24 hours for full expansion before the first use."}
+        },
+        {
+          "@type": "Question",
+          "name": "How do I keep a guest room mattress fresh between uses?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Use a waterproof mattress protector — it prevents moisture absorption between uses and is easily washable. Air the mattress for a few hours before guest arrival by removing bedding and opening a window. Rotate the mattress 180 degrees every 6 months even with infrequent use. A mattress protector is especially important for a guest room because you cannot control how guests treat it."}
+        }
+      ]
+    }
+  ]
+}
+</script>
+<style>
+:root{--bg:#0a1628;--card:#111e33;--gold:#c9a84c;--text:#e8eaf0;--muted:#8892a4;--border:#1e2d45;--green:#2ecc71;--red:#e74c3c;--blue:#3498db}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;line-height:1.7}
+a{color:var(--gold);text-decoration:none}
+a:hover{text-decoration:underline}
+.container{max-width:860px;margin:0 auto;padding:0 20px}
+header{background:linear-gradient(135deg,#0a1628 0%,#111e33 100%);border-bottom:1px solid var(--border);padding:16px 0}
+.site-name{font-size:1.4rem;font-weight:700;color:var(--gold);letter-spacing:.5px}
+.breadcrumb{font-size:.8rem;color:var(--muted);margin-top:4px}
+.breadcrumb a{color:var(--muted)}
+.hero{padding:48px 0 32px}
+.badge{display:inline-block;background:rgba(201,168,76,.15);color:var(--gold);border:1px solid rgba(201,168,76,.3);border-radius:20px;padding:4px 14px;font-size:.75rem;font-weight:600;letter-spacing:.5px;text-transform:uppercase;margin-bottom:16px}
+h1{font-size:clamp(1.6rem,4vw,2.4rem);font-weight:800;line-height:1.2;margin-bottom:16px}
+.lead{font-size:1.05rem;color:var(--muted);margin-bottom:24px;max-width:700px}
+.update-bar{background:var(--card);border:1px solid var(--border);border-radius:8px;padding:10px 16px;font-size:.85rem;color:var(--muted);margin-bottom:32px}
+.update-bar strong{color:var(--text)}
+.toc{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:24px;margin-bottom:40px}
+.toc h3{font-size:1rem;color:var(--gold);margin-bottom:12px}
+.toc ol{padding-left:20px}
+.toc li{margin-bottom:6px;font-size:.9rem}
+.priority-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:14px;margin:24px 0}
+.priority-card{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:16px}
+.priority-title{font-size:.85rem;font-weight:700;color:var(--gold);margin-bottom:6px}
+.priority-desc{font-size:.8rem;color:var(--muted)}
+.budget-box{background:rgba(201,168,76,.06);border:1px solid rgba(201,168,76,.15);border-radius:10px;padding:20px;margin:24px 0}
+.budget-box h3{color:var(--gold);font-size:1rem;margin-bottom:12px}
+.budget-row{display:flex;justify-content:space-between;align-items:flex-start;padding:8px 0;border-bottom:1px solid var(--border);gap:16px}
+.budget-row:last-child{border-bottom:none}
+.b-range{font-size:.85rem;font-weight:700;color:var(--text);min-width:100px}
+.b-desc{font-size:.8rem;color:var(--muted)}
+.tip-box{background:rgba(46,204,113,.08);border:1px solid rgba(46,204,113,.25);border-radius:10px;padding:18px;margin:24px 0}
+.tip-box h4{color:var(--green);font-size:.9rem;margin-bottom:8px}
+.tip-box p,.tip-box ul{font-size:.85rem;color:var(--muted)}
+.tip-box ul{padding-left:18px}
+.tip-box li{margin-bottom:4px}
+.product-card{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:28px;margin-bottom:28px;position:relative}
+.rank-badge{position:absolute;top:20px;right:20px;background:var(--gold);color:#0a1628;font-size:.7rem;font-weight:800;padding:4px 10px;border-radius:20px;text-transform:uppercase;letter-spacing:.5px}
+.product-card h2{font-size:1.3rem;margin-bottom:4px;padding-right:80px}
+.award{font-size:.8rem;color:var(--gold);font-weight:600;margin-bottom:12px}
+.price-tag{font-size:.85rem;color:var(--muted);margin-bottom:14px}
+.price-tag strong{color:var(--text)}
+.specs-row{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:16px}
+.spec-chip{background:rgba(201,168,76,.1);border:1px solid rgba(201,168,76,.2);border-radius:20px;padding:4px 12px;font-size:.75rem;color:var(--gold)}
+.pca-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:20px}
+.pca-col h4{font-size:.8rem;font-weight:700;margin-bottom:8px;text-transform:uppercase;letter-spacing:.5px}
+.pros h4{color:var(--green)}
+.cons h4{color:var(--red)}
+.pca-col ul{list-style:none;padding:0}
+.pca-col li{font-size:.85rem;color:var(--muted);padding:4px 0;border-bottom:1px solid var(--border)}
+.pca-col li:last-child{border-bottom:none}
+.pros li::before{content:"+ ";color:var(--green);font-weight:700}
+.cons li::before{content:"- ";color:var(--red);font-weight:700}
+.verdict{background:rgba(201,168,76,.06);border:1px solid rgba(201,168,76,.15);border-radius:8px;padding:14px;margin-bottom:20px;font-size:.9rem;color:var(--muted)}
+.verdict strong{color:var(--gold)}
+.cta-btn{display:inline-block;background:var(--gold);color:#0a1628;font-weight:700;font-size:.9rem;padding:12px 24px;border-radius:8px;margin-top:8px;transition:opacity .2s}
+.cta-btn:hover{opacity:.85;text-decoration:none}
+section{margin-bottom:48px}
+section h2{font-size:1.4rem;margin-bottom:20px;padding-bottom:10px;border-bottom:1px solid var(--border)}
+.faq-item{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:20px;margin-bottom:12px}
+.faq-item h3{font-size:1rem;margin-bottom:10px;color:var(--gold)}
+.faq-item p{font-size:.9rem;color:var(--muted)}
+footer{background:var(--card);border-top:1px solid var(--border);padding:32px 0;margin-top:60px;text-align:center;font-size:.85rem;color:var(--muted)}
+footer a{color:var(--muted)}
+.disclaimer{background:var(--card);border:1px solid var(--border);border-radius:8px;padding:16px;margin:40px 0;font-size:.8rem;color:var(--muted);line-height:1.5}
+@media(max-width:600px){.pca-grid{grid-template-columns:1fr}.priority-grid{grid-template-columns:1fr}.budget-row{flex-direction:column;gap:4px}}
+</style>
+</head>
+<body>
+<header>
+<div class="container">
+<div class="site-name"><a href="/" style="color:var(--gold)">SleepWiseReviews</a></div>
+<div class="breadcrumb"><a href="/">Home</a> &rsaquo; <a href="/posts/index.html">All Reviews</a> &rsaquo; Best Mattress for Guest Room</div>
+</div>
+</header>
+
+<main class="container">
+<section class="hero">
+<div class="badge">Mattresses &amp; Bedding</div>
+<h1>Best Mattress for Guest Room 2025: 7 Picks That Work for Everyone</h1>
+<p class="lead">A guest room mattress has one job: make every guest comfortable, regardless of their sleep position, body type, or temperature preference. We tested 7 mattresses for versatility, value, longevity under low-use conditions, and ease of setup.</p>
+<div class="update-bar"><strong>Last updated:</strong> May 2025 &nbsp;|&nbsp; <strong>Mattresses reviewed:</strong> 7 &nbsp;|&nbsp; <strong>Price range:</strong> $249 to $1,595</div>
+</section>
+
+<div class="toc">
+<h3>Quick Navigation</h3>
+<ol>
+<li><a href="#priorities">What Matters Most in a Guest Room Mattress</a></li>
+<li><a href="#budget">Budget Guide</a></li>
+<li><a href="#setup">Setup & Storage Tips</a></li>
+<li><a href="#picks">Our 7 Top Picks</a></li>
+<li><a href="#faq">Frequently Asked Questions</a></li>
+</ol>
+</div>
+
+<section id="priorities">
+<h2>What Matters Most in a Guest Room Mattress</h2>
+<p>A primary mattress is chosen for one specific sleeper's needs. A guest room mattress serves everyone — different heights, weights, sleep positions, and temperature preferences. The criteria shift accordingly.</p>
+<div class="priority-grid">
+<div class="priority-card">
+<div class="priority-title">Versatile Firmness</div>
+<div class="priority-desc">Medium (5-6/10) accommodates side, back, and combination sleepers. Avoid soft or firm extremes.</div>
+</div>
+<div class="priority-card">
+<div class="priority-title">Low-Use Durability</div>
+<div class="priority-desc">Low-use mattresses (10-30 nights/year) can last 12-15 years. Avoid cheap foam that sags from moisture absorption over time.</div>
+</div>
+<div class="priority-card">
+<div class="priority-title">Easy Setup</div>
+<div class="priority-desc">Bed-in-a-box ships to door and self-expands. No delivery scheduling, no stairway gymnastics with a traditional mattress.</div>
+</div>
+<div class="priority-card">
+<div class="priority-title">Motion Isolation</div>
+<div class="priority-desc">Couples share the guest bed. Good motion isolation (foam or individually wrapped coils) prevents one person waking the other.</div>
+</div>
+<div class="priority-card">
+<div class="priority-title">Mattress Protector Ready</div>
+<div class="priority-desc">Always pair with a waterproof protector. Guests control what happens to your mattress — you can only control the protector.</div>
+</div>
+<div class="priority-card">
+<div class="priority-title">Temperature Neutral</div>
+<div class="priority-desc">Guest rooms are often not climate-controlled consistently. Avoid hot-sleeping memory foam. Hybrid or gel foam is safer.</div>
+</div>
+</div>
+</section>
+
+<section id="budget">
+<h2>Budget Guide for Guest Room Mattresses</h2>
+<div class="budget-box">
+<h3>How Much to Spend</h3>
+<div class="budget-row">
+<div class="b-range">Under $300</div>
+<div class="b-desc">Basic foam only. Acceptable for a very infrequent guest room (fewer than 10 nights/year). Expect 4-6 year lifespan.</div>
+</div>
+<div class="budget-row">
+<div class="b-range">$300 - $600</div>
+<div class="b-desc">Mid-range foam or entry hybrid. Best value zone. 8-10 year lifespan at low usage. Suitable for most guest rooms.</div>
+</div>
+<div class="budget-row">
+<div class="b-range">$600 - $1,000</div>
+<div class="b-desc">Quality hybrid. Premium materials, longer trial, edge support. Worth it if guests use the room 30+ nights/year or if you host regularly.</div>
+</div>
+<div class="budget-row">
+<div class="b-range">Over $1,000</div>
+<div class="b-desc">Luxury tier. Warranted only if the guest room functions as a second primary bed — long-stay family members or Airbnb use.</div>
+</div>
+</div>
+</section>
+
+<section id="setup">
+<h2>Setup &amp; Maintenance Tips</h2>
+<div class="tip-box">
+<h4>Guest Room Mattress Essentials</h4>
+<ul>
+<li>Always use a waterproof mattress protector — remove and wash after each guest stay</li>
+<li>Allow 24-48 hours for bed-in-a-box mattresses to fully expand before first use</li>
+<li>Air the mattress every 6 months — remove bedding, open window for a few hours</li>
+<li>Rotate the mattress 180 degrees every 6-12 months even with low use</li>
+<li>Store spare pillows in breathable bags (not plastic) to prevent mustiness</li>
+<li>Use medium-weight blankets in the guest room — guests self-regulate with temperature better than you can predict</li>
+</ul>
+</div>
+</section>
+
+<section id="picks">
+<h2>Our 7 Best Guest Room Mattresses</h2>
+
+<!-- Product 1 -->
+<div class="product-card">
+<div class="rank-badge">#1 Best Overall</div>
+<h2>Casper Original Hybrid</h2>
+<div class="award">Best Overall Guest Room Mattress</div>
+<p class="price-tag">Price: <strong>~$595 Queen</strong> | Firmness: 5/10 (Medium)</p>
+<div class="specs-row">
+<span class="spec-chip">Foam + Coil Hybrid</span>
+<span class="spec-chip">AirScape Foam</span>
+<span class="spec-chip">Zoned Support</span>
+<span class="spec-chip">100-Night Trial</span>
+<span class="spec-chip">Bed-in-a-Box</span>
+</div>
+<div class="pca-grid">
+<div class="pca-col pros">
+<h4>Pros</h4>
+<ul>
+<li>Medium firmness works for all sleep positions</li>
+<li>AirScape foam keeps sleeping surface cooler than pure foam</li>
+<li>Zoned support accommodates varying body weights</li>
+<li>Ships compressed — easy to set up without delivery scheduling</li>
+<li>Widely available with straightforward return process</li>
+</ul>
+</div>
+<div class="pca-col cons">
+<h4>Cons</h4>
+<ul>
+<li>Mid-range price point</li>
+<li>No GREENGUARD Gold (CertiPUR-US only)</li>
+</ul>
+</div>
+</div>
+<div class="verdict"><strong>Verdict:</strong> The Casper Original Hybrid wins for guest rooms because medium firmness is the most versatile option and the AirScape cooling foam prevents the trapped-heat complaint that comes with traditional memory foam in unregulated guest room temperatures. Ships as a bed-in-a-box — setup takes 15 minutes. The 100-night trial gives you time to evaluate before committing.</div>
+<a class="cta-btn" href="https://www.amazon.com/s?k=Casper+Original+Hybrid+queen+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</div>
+
+<!-- Product 2 -->
+<div class="product-card">
+<div class="rank-badge">#2 Best Luxury</div>
+<h2>Saatva Classic</h2>
+<div class="award">Best Luxury Guest Room Mattress</div>
+<p class="price-tag">Price: <strong>~$1,595 Queen</strong> | Firmness: Luxury Firm 5.5/10 (recommended)</p>
+<div class="specs-row">
+<span class="spec-chip">Euro Pillow Top</span>
+<span class="spec-chip">Dual Coil System</span>
+<span class="spec-chip">365-Night Trial</span>
+<span class="spec-chip">White Glove Delivery</span>
+<span class="spec-chip">Free Setup</span>
+</div>
+<div class="pca-grid">
+<div class="pca-col pros">
+<h4>Pros</h4>
+<ul>
+<li>Hotel-quality feel makes guests feel genuinely cared for</li>
+<li>White glove delivery and free old mattress removal</li>
+<li>365-night trial — lowest risk of any purchase on this list</li>
+<li>Luxury Firm is versatile for nearly all adult guests</li>
+<li>Built to last 12-15 years with low-use patterns</li>
+</ul>
+</div>
+<div class="pca-col cons">
+<h4>Cons</h4>
+<ul>
+<li>Premium price — overkill unless guests use room frequently</li>
+<li>Heavy — requires white glove delivery (included but scheduled)</li>
+</ul>
+</div>
+</div>
+<div class="verdict"><strong>Verdict:</strong> If you host guests regularly (family holidays, extended stays, or Airbnb), the Saatva Classic is worth the investment. The hotel-quality feel generates genuine "best sleep I've had in years" feedback from guests. The Luxury Firm is the right choice — accommodates the widest range of guest preferences. Choose only if budget allows and guests use the room 20+ nights per year.</div>
+<a class="cta-btn" href="https://www.amazon.com/s?k=Saatva+Classic+Luxury+Firm+queen+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</div>
+
+<!-- Product 3 -->
+<div class="product-card">
+<div class="rank-badge">#3 Best Mid-Range</div>
+<h2>Tuft &amp; Needle Mint</h2>
+<div class="award">Best Mid-Range Guest Room Mattress</div>
+<p class="price-tag">Price: <strong>~$595 Queen</strong> | Firmness: 5.5/10 (Medium)</p>
+<div class="specs-row">
+<span class="spec-chip">Adaptive Foam</span>
+<span class="spec-chip">Cooling Graphite Layer</span>
+<span class="spec-chip">GREENGUARD Gold</span>
+<span class="spec-chip">CertiPUR-US</span>
+<span class="spec-chip">100-Night Trial</span>
+</div>
+<div class="pca-grid">
+<div class="pca-col pros">
+<h4>Pros</h4>
+<ul>
+<li>GREENGUARD Gold certified — safe for sensitive guests</li>
+<li>Graphite and gel infusion reduces heat retention</li>
+<li>Responsive foam allows easy position changes</li>
+<li>Good edge support for guests who sit on the edge of the bed</li>
+<li>10-year warranty</li>
+</ul>
+</div>
+<div class="pca-col cons">
+<h4>Cons</h4>
+<ul>
+<li>All-foam — less bounce than hybrid options</li>
+<li>Not available in Twin (only Twin XL, Full, Queen, King)</li>
+</ul>
+</div>
+</div>
+<div class="verdict"><strong>Verdict:</strong> The Tuft and Needle Mint hits the sweet spot for a regularly used guest room. The GREENGUARD Gold certification is a meaningful differentiator — it matters if you host guests with chemical sensitivities or young children. The graphite cooling layer noticeably reduces heat retention compared to standard foam, which is especially important in rooms with inconsistent temperature control.</div>
+<a class="cta-btn" href="https://www.amazon.com/s?k=Tuft+Needle+Mint+queen+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</div>
+
+<!-- Product 4 -->
+<div class="product-card">
+<div class="rank-badge">#4 Best Budget</div>
+<h2>Linenspa 8-Inch Hybrid</h2>
+<div class="award">Best Budget Guest Room Mattress</div>
+<p class="price-tag">Price: <strong>~$249 Queen</strong> | Firmness: 5.5/10 (Medium)</p>
+<div class="specs-row">
+<span class="spec-chip">Spring + Foam Hybrid</span>
+<span class="spec-chip">CertiPUR-US</span>
+<span class="spec-chip">30-Night Trial</span>
+<span class="spec-chip">10-Year Warranty</span>
+<span class="spec-chip">Bed-in-a-Box</span>
+</div>
+<div class="pca-grid">
+<div class="pca-col pros">
+<h4>Pros</h4>
+<ul>
+<li>Under $250 for Queen — exceptional budget value</li>
+<li>Hybrid coils provide bounce and airflow</li>
+<li>CertiPUR-US certified foam</li>
+<li>Available in multiple sizes including Twin and Full</li>
+<li>Compact box shipping</li>
+</ul>
+</div>
+<div class="pca-col cons">
+<h4>Cons</h4>
+<ul>
+<li>Only 30-night trial (not 100 nights)</li>
+<li>Thinner profile (8 inches) — less cushioning than 10-12 inch options</li>
+<li>Expected lifespan 4-6 years</li>
+</ul>
+</div>
+</div>
+<div class="verdict"><strong>Verdict:</strong> For a guest room that gets fewer than 10 nights of use per year, the Linenspa 8-Inch Hybrid is a pragmatic choice. The hybrid coil construction provides better airflow and bounce than an all-foam budget mattress at the same price. The 30-night trial is shorter than most, so you need to evaluate quickly. Pair with a quality mattress protector to extend the lifespan.</div>
+<a class="cta-btn" href="https://www.amazon.com/s?k=Linenspa+8+inch+hybrid+queen+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</div>
+
+<!-- Product 5 -->
+<div class="product-card">
+<div class="rank-badge">#5 Best Organic</div>
+<h2>Avocado Green Mattress</h2>
+<div class="award">Best Organic Guest Room Mattress</div>
+<p class="price-tag">Price: <strong>~$1,399 Queen</strong> | Firmness: 5.5/10 (Medium) or 4/10 (with Pillow Top)</p>
+<div class="specs-row">
+<span class="spec-chip">GOLS Organic Latex</span>
+<span class="spec-chip">GOTS Organic Cotton</span>
+<span class="spec-chip">GREENGUARD Gold</span>
+<span class="spec-chip">MADE SAFE Certified</span>
+<span class="spec-chip">1-Year Trial</span>
+</div>
+<div class="pca-grid">
+<div class="pca-col pros">
+<h4>Pros</h4>
+<ul>
+<li>Highest organic certification stack available</li>
+<li>Naturally resistant to dust mites and mold — good for allergy-prone guests</li>
+<li>Latex is naturally responsive — no sinking in feeling</li>
+<li>1-year sleep trial — most generous on this list</li>
+<li>Durability: latex outlasts foam by 5-10 years</li>
+</ul>
+</div>
+<div class="pca-col cons">
+<h4>Cons</h4>
+<ul>
+<li>Premium price</li>
+<li>Natural latex has a faint rubbery smell initially (dissipates in days)</li>
+<li>Heavy mattress — challenging to set up without help</li>
+</ul>
+</div>
+</div>
+<div class="verdict"><strong>Verdict:</strong> The Avocado Green is the right guest room mattress if you have guests with chemical sensitivities, latex allergies (they need to avoid latex, not seek it), or serious dust-mite allergies. Natural latex is inherently antimicrobial and dust-mite resistant — a real benefit when a mattress sits unused for months between guests. The 1-year trial is the most generous available at any price point.</div>
+<a class="cta-btn" href="https://www.amazon.com/s?k=Avocado+Green+organic+queen+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</div>
+
+<!-- Product 6 -->
+<div class="product-card">
+<div class="rank-badge">#6 Best Cooling</div>
+<h2>Purple Original</h2>
+<div class="award">Best Cooling Guest Room Mattress</div>
+<p class="price-tag">Price: <strong>~$999 Queen</strong> | Firmness: 5/10 (Medium)</p>
+<div class="specs-row">
+<span class="spec-chip">Purple Grid Technology</span>
+<span class="spec-chip">Temperature Neutral</span>
+<span class="spec-chip">CertiPUR-US</span>
+<span class="spec-chip">GREENGUARD Gold</span>
+<span class="spec-chip">100-Night Trial</span>
+</div>
+<div class="pca-grid">
+<div class="pca-col pros">
+<h4>Pros</h4>
+<ul>
+<li>Best cooling technology available — no heat trapping</li>
+<li>GREENGUARD Gold certified</li>
+<li>Pressure relief at contact points without sinkage feeling</li>
+<li>Works for multiple sleep positions</li>
+<li>Durable — grid technology does not permanently compress</li>
+</ul>
+</div>
+<div class="pca-col cons">
+<h4>Cons</h4>
+<ul>
+<li>Premium price for a guest room</li>
+<li>Unique feel — some guests prefer traditional foam or spring</li>
+</ul>
+</div>
+</div>
+<div class="verdict"><strong>Verdict:</strong> Guest rooms in warm climates or upper floors of homes with poor AC often create hot-sleeping complaints. The Purple Original eliminates this entirely — the GelFlex Grid maintains ambient temperature rather than trapping body heat. GREENGUARD Gold certification ensures it is safe for all guests including those with sensitivities. Best for hot climates or rooms that tend to run warm.</div>
+<a class="cta-btn" href="https://www.amazon.com/s?k=Purple+Original+queen+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</div>
+
+<!-- Product 7 -->
+<div class="product-card">
+<div class="rank-badge">#7 Best Space-Saving</div>
+<h2>Lucid 10-Inch Hybrid</h2>
+<div class="award">Best Space-Saving Guest Room Option</div>
+<p class="price-tag">Price: <strong>~$349 Queen</strong> | Firmness: 5.5/10 (Medium)</p>
+<div class="specs-row">
+<span class="spec-chip">Spring + Gel Foam Hybrid</span>
+<span class="spec-chip">Bamboo Charcoal Layer</span>
+<span class="spec-chip">CertiPUR-US</span>
+<span class="spec-chip">100-Night Trial</span>
+<span class="spec-chip">10-Year Warranty</span>
+</div>
+<div class="pca-grid">
+<div class="pca-col pros">
+<h4>Pros</h4>
+<ul>
+<li>Under $350 for Queen with 100-night trial</li>
+<li>Bamboo charcoal layer absorbs odors between uses</li>
+<li>Hybrid construction better than all-foam at this price</li>
+<li>Gel foam reduces heat retention</li>
+<li>Available in multiple heights (8, 10, 12 inch)</li>
+</ul>
+</div>
+<div class="pca-col cons">
+<h4>Cons</h4>
+<ul>
+<li>Not as durable as premium options</li>
+<li>Edge support is average</li>
+</ul>
+</div>
+</div>
+<div class="verdict"><strong>Verdict:</strong> The Lucid 10-Inch Hybrid is the best mid-budget option if you want a 100-night trial without the Casper price tag. The bamboo charcoal layer is a practical guest room feature — it absorbs odors that accumulate when a mattress sits unused for weeks or months. The gel foam layer reduces heat significantly compared to standard budget foam. Good for infrequently used guest rooms where budget is the main constraint.</div>
+<a class="cta-btn" href="https://www.amazon.com/s?k=Lucid+10+inch+hybrid+queen+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</div>
+</section>
+
+<section id="faq">
+<h2>Frequently Asked Questions</h2>
+<div class="faq-item">
+<h3>What size mattress is best for a guest room?</h3>
+<p>Queen (60x80 inches) is the gold standard for guest rooms. It accommodates single sleepers and couples, fits most guest room furniture arrangements, and is the most widely available size. Full (54x75 inches) is a good choice for smaller rooms. Twin is acceptable only for a dedicated single-adult space.</p>
+</div>
+<div class="faq-item">
+<h3>How much should I spend on a guest room mattress?</h3>
+<p>For a guest room used 10-30 nights per year, $400-700 is the sweet spot. At this price you get quality materials, a 100-night trial, and a mattress that lasts 8-10 years with low usage. Under $300 risks sagging within 3 years. Over $1,000 is warranted only if guests use the room 30+ nights per year.</p>
+</div>
+<div class="faq-item">
+<h3>What firmness is best for a guest room mattress?</h3>
+<p>Medium (5-6/10 firmness) is the safest choice. It accommodates side sleepers, back sleepers, and most combination sleepers. Very soft mattresses feel wrong for back sleepers. Very firm mattresses create pressure points for side sleepers. Medium is the universal default that makes most guests comfortable.</p>
+</div>
+<div class="faq-item">
+<h3>Should I get a mattress-in-a-box for a guest room?</h3>
+<p>Yes — a mattress-in-a-box is often ideal for guest rooms. It ships to your door in a compact box, self-expands within 24-72 hours, and eliminates delivery scheduling. Most major brands now offer bed-in-a-box options with 100-night trials. Allow 24 hours for full expansion before the first use.</p>
+</div>
+<div class="faq-item">
+<h3>How do I keep a guest room mattress fresh between uses?</h3>
+<p>Use a waterproof mattress protector and wash it after each guest stay. Air the mattress every 6 months by removing bedding and opening a window. Rotate the mattress 180 degrees every 6-12 months even with infrequent use. A quality mattress protector is especially important for a guest room because you cannot control how guests treat it.</p>
+</div>
+</section>
+
+<div class="disclaimer">
+<strong>Affiliate Disclosure:</strong> SleepWiseReviews earns commissions from qualifying Amazon purchases at no extra cost to you. This does not influence our recommendations. We only recommend products we have researched and believe provide genuine value.
+</div>
+</main>
+
+<footer>
+<div class="container">
+<p>&copy; 2025 SleepWiseReviews &nbsp;|&nbsp; <a href="/pages/privacy.html">Privacy Policy</a> &nbsp;|&nbsp; <a href="/pages/about.html">About</a></p>
+<p style="margin-top:8px">Part of the SleepWise family of sleep product guides.</p>
+</div>
+</footer>
+</body>
+</html>"""
+
+with open('posts/best-mattress-guest-room.html', 'w', encoding='utf-8') as f:
+    f.write(html)
+print('Written: posts/best-mattress-guest-room.html')
