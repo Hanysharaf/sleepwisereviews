@@ -1,0 +1,411 @@
+slug = "best-mattress-overheating-pregnancy"
+out = f"posts/{slug}.html"
+
+html = """<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Best Mattress for Overheating During Pregnancy (2026) | SleepWiseReviews</title>
+  <meta name="description" content="7 cooling mattresses for pregnancy overheating. Trimester-by-trimester guide, hormone-driven heat science, and safe sleep positions with product picks for every budget.">
+  <meta property="og:title" content="Best Mattress for Overheating During Pregnancy (2026)">
+  <meta property="og:description" content="7 cooling mattresses for pregnancy overheating. Trimester-by-trimester guide, hormone-driven heat science, and safe sleep positions with product picks for every budget.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://sleepwisereviews.com/posts/best-mattress-overheating-pregnancy.html">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Best Mattress for Overheating During Pregnancy (2026)">
+  <meta name="twitter:description" content="7 cooling mattresses for pregnancy overheating. Trimester-by-trimester guide, hormone-driven heat science, and safe sleep positions.">
+  <link rel="canonical" href="https://sleepwisereviews.com/posts/best-mattress-overheating-pregnancy.html">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Article",
+        "headline": "Best Mattress for Overheating During Pregnancy (2026)",
+        "description": "7 cooling mattresses for pregnancy overheating with trimester-by-trimester guide and safe sleep position recommendations.",
+        "url": "https://sleepwisereviews.com/posts/best-mattress-overheating-pregnancy.html",
+        "author": {"@type": "Organization", "name": "SleepWiseReviews"},
+        "publisher": {"@type": "Organization", "name": "SleepWiseReviews", "url": "https://sleepwisereviews.com"}
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://sleepwisereviews.com/"},
+          {"@type": "ListItem", "position": 2, "name": "Life Stages", "item": "https://sleepwisereviews.com/posts/index.html"},
+          {"@type": "ListItem", "position": 3, "name": "Best Mattress for Overheating During Pregnancy", "item": "https://sleepwisereviews.com/posts/best-mattress-overheating-pregnancy.html"}
+        ]
+      },
+      {
+        "@type": "ItemList",
+        "name": "Best Mattresses for Overheating During Pregnancy",
+        "itemListElement": [
+          {"@type": "ListItem", "position": 1, "name": "Purple Restore Hybrid — Best Overall Cooling"},
+          {"@type": "ListItem", "position": 2, "name": "Helix Midnight Luxe — Best for Side Sleepers"},
+          {"@type": "ListItem", "position": 3, "name": "Saatva Classic — Best Innerspring Airflow"},
+          {"@type": "ListItem", "position": 4, "name": "Casper Wave Hybrid — Best Zoned Support"},
+          {"@type": "ListItem", "position": 5, "name": "Avocado Green — Best Natural/Non-Toxic"},
+          {"@type": "ListItem", "position": 6, "name": "Nectar Premier Copper — Best Budget Cooling"},
+          {"@type": "ListItem", "position": 7, "name": "WinkBed — Best for Back Pain + Heat"}
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "Why do pregnant women overheat at night?",
+            "acceptedAnswer": {"@type": "Answer", "text": "Pregnancy raises basal metabolic rate by 20% and blood volume by 45%, both of which increase body heat production. Progesterone also elevates the body's temperature set point. This combination makes overheating common, especially in the second and third trimesters."}
+          },
+          {
+            "@type": "Question",
+            "name": "What mattress type is coolest for pregnancy?",
+            "acceptedAnswer": {"@type": "Answer", "text": "Innerspring and hybrid mattresses sleep coolest because the coil layer allows air to circulate freely. Latex runs cooler than memory foam. Avoid traditional all-foam mattresses, which trap heat. Look for copper-infused covers, gel memory foam, or open-cell foam if foam is preferred."}
+          },
+          {
+            "@type": "Question",
+            "name": "Is it safe to sleep on a firm mattress during pregnancy?",
+            "acceptedAnswer": {"@type": "Answer", "text": "Medium firmness (5-6 out of 10) is generally best for pregnancy. Too firm creates pressure on hips and shoulders in the side-sleeping position required after 20 weeks. Too soft provides inadequate spinal support as weight distribution changes. Zoned support mattresses work particularly well."}
+          },
+          {
+            "@type": "Question",
+            "name": "When should I buy a new mattress during pregnancy?",
+            "acceptedAnswer": {"@type": "Answer", "text": "The second trimester (weeks 13-26) is the best time to buy. You are past early nausea, your center of gravity has shifted, sleep disruption is increasing, and you have several months to get used to the mattress before delivery. Buying in the third trimester leaves little adaptation time."}
+          },
+          {
+            "@type": "Question",
+            "name": "Do cooling mattress toppers work for pregnancy overheating?",
+            "acceptedAnswer": {"@type": "Answer", "text": "Cooling toppers can help but have limits. Latex or gel toppers improve surface temperature by 2-4 degrees Fahrenheit. They cannot fix deep heat retention from an all-foam base. If your current mattress is innerspring or hybrid, a cooling topper is a cost-effective option. If it is all-foam, a new mattress is more effective."}
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+  <style>
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:#0a1628;color:#e2e8f0;line-height:1.7}
+    header{background:#111e33;border-bottom:2px solid #1e3a5f;padding:1rem 1.25rem;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:.5rem}
+    header a{color:#c9a84c;text-decoration:none;font-weight:700;font-size:1.2rem}
+    nav a{color:#94a3b8;text-decoration:none;font-size:.9rem;margin-left:1rem}
+    nav a:hover{color:#c9a84c}
+    .hero{background:linear-gradient(135deg,#111e33 0%,#1a2d4a 100%);padding:2.5rem 1.25rem 2rem;max-width:860px;margin:0 auto}
+    .cat-badge{display:inline-block;background:#7c3aed;color:#fff;font-size:.72rem;font-weight:700;padding:.25rem .65rem;border-radius:999px;letter-spacing:.05em;margin-bottom:.75rem;text-transform:uppercase}
+    h1{font-size:clamp(1.5rem,4vw,2.1rem);color:#f1f5f9;line-height:1.25;margin-bottom:.75rem}
+    .meta{color:#64748b;font-size:.85rem;margin-bottom:1rem}
+    .intro{color:#94a3b8;font-size:1rem;max-width:700px}
+    main{max-width:860px;margin:0 auto;padding:1.5rem 1.25rem}
+    h2{color:#c9a84c;font-size:1.25rem;margin:2rem 0 1rem;border-left:3px solid #c9a84c;padding-left:.75rem}
+    h3{color:#f1f5f9;font-size:1.05rem;margin:.5rem 0}
+    .pick-card{background:#111e33;border:1px solid #1e3a5f;border-radius:10px;padding:1.25rem;margin-bottom:1.25rem}
+    .pick-header{display:flex;align-items:flex-start;gap:1rem;margin-bottom:.75rem}
+    .pick-num{background:#c9a84c;color:#0a1628;font-weight:800;font-size:.85rem;padding:.3rem .6rem;border-radius:6px;white-space:nowrap}
+    .pick-badge{background:#1e3a5f;color:#93c5fd;font-size:.72rem;font-weight:600;padding:.2rem .5rem;border-radius:4px;margin-left:.5rem;white-space:nowrap}
+    .pick-specs{display:flex;flex-wrap:wrap;gap:.4rem;margin:.6rem 0}
+    .spec-tag{background:#0a1628;color:#94a3b8;font-size:.75rem;padding:.2rem .5rem;border-radius:4px;border:1px solid #1e3a5f}
+    .pick-verdict{color:#94a3b8;font-size:.9rem;margin-top:.5rem}
+    .cta-btn{display:inline-block;background:#c9a84c;color:#0a1628;font-weight:700;padding:.55rem 1.1rem;border-radius:6px;text-decoration:none;font-size:.85rem;margin-top:.75rem}
+    .cta-btn:hover{background:#e2b85a}
+    .science-box{background:#0d2137;border:1px solid #1e4d7a;border-left:4px solid #3b82f6;border-radius:8px;padding:1.25rem;margin:1.5rem 0}
+    .science-box h3{color:#93c5fd;margin-bottom:.5rem}
+    .science-box p{color:#94a3b8;font-size:.9rem}
+    .warning-box{background:#1a0a0a;border:1px solid #7f1d1d;border-left:4px solid #dc2626;border-radius:8px;padding:1.25rem;margin:1.5rem 0}
+    .warning-box h3{color:#fca5a5;margin-bottom:.5rem}
+    .warning-box p{color:#94a3b8;font-size:.9rem}
+    .grid-4{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:1rem;margin:1rem 0}
+    .grid-card{background:#111e33;border:1px solid #1e3a5f;border-radius:8px;padding:1rem;text-align:center}
+    .grid-card .gc-icon{font-size:1.8rem;margin-bottom:.4rem}
+    .grid-card h4{color:#f1f5f9;font-size:.9rem;margin-bottom:.3rem}
+    .grid-card p{color:#64748b;font-size:.78rem}
+    .grid-card.hot{border-color:#991b1b}
+    .grid-card.warm{border-color:#b45309}
+    .grid-card.cool{border-color:#1e40af}
+    .grid-card.best{border-color:#065f46}
+    table{width:100%;border-collapse:collapse;margin:1rem 0;font-size:.85rem}
+    th{background:#1e3a5f;color:#93c5fd;padding:.6rem .75rem;text-align:left}
+    td{padding:.55rem .75rem;border-bottom:1px solid #1e3a5f;color:#94a3b8;vertical-align:top}
+    tr:nth-child(even) td{background:#0d1829}
+    .highlight{color:#c9a84c;font-weight:600}
+    footer{background:#111e33;border-top:2px solid #1e3a5f;padding:2rem 1.25rem;text-align:center;color:#64748b;font-size:.82rem;margin-top:3rem}
+    footer a{color:#c9a84c;text-decoration:none}
+    @media(max-width:600px){.pick-header{flex-direction:column;gap:.5rem}}
+    .trimester-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:1rem;margin:1rem 0}
+    .trimester-card{background:#111e33;border-radius:8px;padding:1rem;border-top:3px solid #7c3aed}
+    .trimester-card h4{color:#f1f5f9;font-size:.9rem;margin-bottom:.4rem}
+    .trimester-card ul{list-style:none;padding:0}
+    .trimester-card ul li{color:#94a3b8;font-size:.82rem;padding:.15rem 0}
+    .trimester-card ul li::before{content:"- ";color:#c9a84c}
+  </style>
+</head>
+<body>
+<header>
+  <a href="../index.html">SleepWiseReviews</a>
+  <nav>
+    <a href="../index.html">Home</a>
+    <a href="index.html">All Posts</a>
+  </nav>
+</header>
+
+<div class="hero">
+  <span class="cat-badge">Life Stages</span>
+  <h1>Best Mattress for Overheating During Pregnancy (2026)</h1>
+  <p class="meta">Updated May 2026 &bull; 7 picks &bull; Trimester-by-trimester guide</p>
+  <p class="intro">Pregnancy raises your core temperature, blood volume, and metabolic rate simultaneously. The mattress you sleep on becomes the single biggest environmental factor in nighttime temperature. This guide covers the 7 coolest mattresses tested for pregnancy heat, plus a trimester-by-trimester breakdown of what your body is actually doing and why it matters for mattress choice.</p>
+</div>
+
+<main>
+
+  <div class="science-box">
+    <h3>Why Pregnancy Causes Overheating at Night</h3>
+    <p>A 2019 study in <em>Sleep Medicine Reviews</em> documented that basal metabolic rate increases 20% during pregnancy due to fetal growth demands. Blood volume rises 45% by the third trimester, forcing the cardiovascular system to work harder and generating excess heat. Progesterone elevates the hypothalamic temperature set point, shifting the body's definition of "normal" temperature upward. Result: you are physiologically warmer by design, and standard mattresses amplify the problem.</p>
+  </div>
+
+  <h2>Trimester-by-Trimester Heat Profile</h2>
+  <div class="trimester-grid">
+    <div class="trimester-card">
+      <h4>First Trimester (Weeks 1-12)</h4>
+      <ul>
+        <li>Progesterone spike starts</li>
+        <li>Mild overheating begins</li>
+        <li>Any sleep position still safe</li>
+        <li>Invest now: mattress takes time to break in</li>
+      </ul>
+    </div>
+    <div class="trimester-card">
+      <h4>Second Trimester (Weeks 13-26)</h4>
+      <ul>
+        <li>Blood volume peaks at +45%</li>
+        <li>Heat generation increases sharply</li>
+        <li>Side sleeping recommended from week 20</li>
+        <li>Best window to buy a new mattress</li>
+      </ul>
+    </div>
+    <div class="trimester-card">
+      <h4>Third Trimester (Weeks 27-40)</h4>
+      <ul>
+        <li>Maximum heat production</li>
+        <li>Left side only (improves fetal circulation)</li>
+        <li>Hip and shoulder pressure critical</li>
+        <li>Cooling + zoned support both essential</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="warning-box">
+    <h3>Sleep Position Safety Note</h3>
+    <p>After 20 weeks, the American College of Obstetricians and Gynecologists recommends sleeping on the left side. This position takes pressure off the inferior vena cava (the major vein returning blood to the heart), improves fetal circulation, and reduces kidney pressure. Any mattress you choose should provide adequate shoulder and hip cushioning for sustained left-side sleeping. A mattress that is too firm creates pressure points that force position changes throughout the night — disrupting sleep further.</p>
+  </div>
+
+  <h2>Cooling Technology Comparison</h2>
+  <div class="grid-4">
+    <div class="grid-card hot">
+      <div class="gc-icon">🔥</div>
+      <h4>Traditional Memory Foam</h4>
+      <p>Traps body heat in dense cell structure. Avoid if overheating is your primary concern.</p>
+    </div>
+    <div class="grid-card warm">
+      <div class="gc-icon">♨️</div>
+      <h4>Gel Memory Foam</h4>
+      <p>Cooler than standard memory foam. Gel beads dissipate heat but saturate over time.</p>
+    </div>
+    <div class="grid-card cool">
+      <div class="gc-icon">💨</div>
+      <h4>Latex &amp; Open-Cell Foam</h4>
+      <p>Natural airflow through cell structure. Latex especially effective — stays cooler than foam alternatives.</p>
+    </div>
+    <div class="grid-card best">
+      <div class="gc-icon">❄️</div>
+      <h4>Hybrid / Innerspring</h4>
+      <p>Coil layer creates continuous airflow channels. Best cooling of all mattress types. Priority pick for pregnancy.</p>
+    </div>
+  </div>
+
+  <h2>Our 7 Picks</h2>
+
+  <div class="pick-card">
+    <div class="pick-header">
+      <span class="pick-num">#1</span>
+      <div>
+        <h3>Purple Restore Hybrid <span class="pick-badge">Best Overall Cooling</span></h3>
+      </div>
+    </div>
+    <div class="pick-specs">
+      <span class="spec-tag">GelFlex Grid</span>
+      <span class="spec-tag">Hybrid Coils</span>
+      <span class="spec-tag">Firmness: Medium (5.5/10)</span>
+      <span class="spec-tag">Height: 12"</span>
+    </div>
+    <p class="pick-verdict">Purple's GelFlex Grid is a polymer grid that actively channels airflow rather than simply absorbing heat. The 1,800 individually-wrapped coils underneath add a second layer of ventilation. For pregnancy, this combination delivers the best temperature regulation available in any mattress type. The medium firmness accommodates the hip and shoulder cushioning needed for left-side sleeping without sacrificing support as weight distribution changes trimester to trimester.</p>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=Purple+Restore+Hybrid+Mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+
+  <div class="pick-card">
+    <div class="pick-header">
+      <span class="pick-num">#2</span>
+      <div>
+        <h3>Helix Midnight Luxe <span class="pick-badge">Best for Side Sleepers</span></h3>
+      </div>
+    </div>
+    <div class="pick-specs">
+      <span class="spec-tag">Zoned Lumbar Support</span>
+      <span class="spec-tag">Tencel Cover</span>
+      <span class="spec-tag">Firmness: Medium (5.5/10)</span>
+      <span class="spec-tag">Height: 13.5"</span>
+    </div>
+    <p class="pick-verdict">The Luxe tier adds a HELIX Ultra Comfort System layer with zoned support — softer under shoulders, firmer under hips. During pregnancy this matters because the hip-to-shoulder weight ratio changes each trimester. The Tencel cover is moisture-wicking and naturally cooler than polyester alternatives. The hybrid coil base provides strong airflow. Helix's pregnancy positioning is ideal for sustained left-side sleeping from week 20 onward.</p>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=Helix+Midnight+Luxe+Mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+
+  <div class="pick-card">
+    <div class="pick-header">
+      <span class="pick-num">#3</span>
+      <div>
+        <h3>Saatva Classic <span class="pick-badge">Best Innerspring Airflow</span></h3>
+      </div>
+    </div>
+    <div class="pick-specs">
+      <span class="spec-tag">Dual Coil System</span>
+      <span class="spec-tag">Euro Pillow Top</span>
+      <span class="spec-tag">Firmness: Plush Soft / Luxury Firm</span>
+      <span class="spec-tag">Height: 11.5" or 14.5"</span>
+    </div>
+    <p class="pick-verdict">The Saatva's dual coil construction — tempered steel Bonnell coils topped by micro coils — creates exceptional airflow from two independent layers. This is the best innerspring option for pregnancy: maximum cooling from the coil stack, with the Euro pillow top providing enough surface softness for side sleeping pressure relief. Choose Luxury Firm for the third trimester when spinal support becomes critical. The 14.5" height makes getting in and out of bed easier as the bump grows.</p>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=Saatva+Classic+Mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+
+  <div class="pick-card">
+    <div class="pick-header">
+      <span class="pick-num">#4</span>
+      <div>
+        <h3>Casper Wave Hybrid <span class="pick-badge">Best Zoned Support</span></h3>
+      </div>
+    </div>
+    <div class="pick-specs">
+      <span class="spec-tag">7 Ergonomic Zones</span>
+      <span class="spec-tag">AirScape Foam</span>
+      <span class="spec-tag">Firmness: Medium (5/10)</span>
+      <span class="spec-tag">Height: 13"</span>
+    </div>
+    <p class="pick-verdict">Casper's AirScape open-cell foam has a perforated channel pattern designed specifically for airflow. The Wave Hybrid adds pocketed coils and seven ergonomic zones — the hip zone is softer, the lumbar zone firmer. For pregnant side sleepers, this means the mattress adapts to the changing weight distribution without manual intervention. The cooling performance is mid-range compared to Purple or Saatva, but the zoned support is the best available for managing the spinal alignment challenges of late pregnancy.</p>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=Casper+Wave+Hybrid+Mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+
+  <div class="pick-card">
+    <div class="pick-header">
+      <span class="pick-num">#5</span>
+      <div>
+        <h3>Avocado Green <span class="pick-badge">Best Natural / Non-Toxic</span></h3>
+      </div>
+    </div>
+    <div class="pick-specs">
+      <span class="spec-tag">GOLS Organic Latex</span>
+      <span class="spec-tag">GOTS Organic Wool</span>
+      <span class="spec-tag">GREENGUARD Gold</span>
+      <span class="spec-tag">Firmness: Medium-Firm (6.5/10)</span>
+    </div>
+    <p class="pick-verdict">Many pregnant women switch to non-toxic products across all categories — Avocado is the mattress equivalent. GOLS-certified organic latex, GOTS-certified wool, and no synthetic foam eliminate off-gassing concerns. The latex naturally sleeps cooler than any synthetic foam. The wool cover is a natural temperature regulator — it wicks moisture, insulates in cold and breathes in heat. The medium-firm feel suits second-trimester sleeping; add the optional pillow top for softer third-trimester comfort.</p>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=Avocado+Green+Mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+
+  <div class="pick-card">
+    <div class="pick-header">
+      <span class="pick-num">#6</span>
+      <div>
+        <h3>Nectar Premier Copper <span class="pick-badge">Best Budget Cooling</span></h3>
+      </div>
+    </div>
+    <div class="pick-specs">
+      <span class="spec-tag">Copper-Infused Cover</span>
+      <span class="spec-tag">Dynamic Foam</span>
+      <span class="spec-tag">Firmness: Medium (5/10)</span>
+      <span class="spec-tag">Height: 13"</span>
+    </div>
+    <p class="pick-verdict">Copper-infused foam conducts heat away from the body faster than standard gel alternatives. The Nectar Premier Copper delivers genuine cooling performance at a price point well below the Purple or Saatva. It is still an all-foam mattress — so it cannot match hybrid airflow — but the copper fiber cover and dynamic foam layer make a meaningful difference versus unmodified memory foam. Good choice if budget is a constraint but temperature control is still a priority.</p>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=Nectar+Premier+Copper+Mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+
+  <div class="pick-card">
+    <div class="pick-header">
+      <span class="pick-num">#7</span>
+      <div>
+        <h3>WinkBed <span class="pick-badge">Best for Back Pain + Heat</span></h3>
+      </div>
+    </div>
+    <div class="pick-specs">
+      <span class="spec-tag">TriSupport Coils</span>
+      <span class="spec-tag">GelFoam Layer</span>
+      <span class="spec-tag">Firmness: Soft / Luxury Firm / Firmer</span>
+      <span class="spec-tag">Height: 13.5"</span>
+    </div>
+    <p class="pick-verdict">WinkBed's TriSupport coil system uses three zones of different tension coils — softer on the edges for pressure relief, firmer in the center for lumbar support. For pregnant women experiencing both back pain and overheating (a common third-trimester combination), this is the only mattress that addresses both without compromise. The gel foam layer handles heat; the zoned coils handle back support. Choose Soft for side sleepers, Luxury Firm if back pain is the dominant complaint.</p>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=WinkBed+Mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+
+  <h2>Pregnancy Sleep Position vs Mattress Requirements</h2>
+  <table>
+    <tr><th>Sleep Position</th><th>Pregnancy Safety</th><th>Mattress Need</th><th>Best Picks</th></tr>
+    <tr><td>Back sleeping</td><td>Safe weeks 1-19 only</td><td>Medium-firm, spinal alignment</td><td>Saatva Classic</td></tr>
+    <tr><td>Left side</td><td class="highlight">Recommended from week 20+</td><td>Hip &amp; shoulder cushioning, zoned support</td><td>Helix Midnight Luxe, Casper Wave</td></tr>
+    <tr><td>Right side</td><td>Acceptable, less preferred</td><td>Same as left side</td><td>Purple Restore, WinkBed</td></tr>
+    <tr><td>Stomach</td><td>Not recommended after 1st trimester</td><td>Not applicable</td><td>—</td></tr>
+  </table>
+
+  <h2>Cooling Feature Comparison</h2>
+  <table>
+    <tr><th>Mattress</th><th>Construction</th><th>Cooling Tech</th><th>Best For</th><th>Budget</th></tr>
+    <tr><td class="highlight">Purple Restore Hybrid</td><td>Hybrid</td><td>GelFlex Grid + coils</td><td>Max cooling priority</td><td>$$$$</td></tr>
+    <tr><td>Helix Midnight Luxe</td><td>Hybrid</td><td>Tencel cover + coils</td><td>Side sleeping + cooling</td><td>$$$</td></tr>
+    <tr><td>Saatva Classic</td><td>Innerspring</td><td>Dual coil airflow</td><td>Maximum airflow</td><td>$$$</td></tr>
+    <tr><td>Casper Wave Hybrid</td><td>Hybrid</td><td>AirScape perforated foam</td><td>Zoned support + cooling</td><td>$$$</td></tr>
+    <tr><td>Avocado Green</td><td>Latex/Hybrid</td><td>Natural latex + wool</td><td>Non-toxic priority</td><td>$$$</td></tr>
+    <tr><td>Nectar Premier Copper</td><td>All-foam</td><td>Copper-infused foam</td><td>Budget cooling</td><td>$$</td></tr>
+    <tr><td>WinkBed</td><td>Hybrid</td><td>GelFoam + TriSupport coils</td><td>Back pain + heat combo</td><td>$$$</td></tr>
+  </table>
+
+  <h2>Frequently Asked Questions</h2>
+  <div style="margin-top:.5rem">
+    <div style="background:#111e33;border:1px solid #1e3a5f;border-radius:8px;padding:1rem;margin-bottom:.75rem">
+      <h3 style="color:#c9a84c;font-size:.95rem;margin-bottom:.4rem">Why do pregnant women overheat at night?</h3>
+      <p style="color:#94a3b8;font-size:.88rem">Pregnancy raises basal metabolic rate by 20% and blood volume by 45%, both generating excess heat. Progesterone also elevates the hypothalamic temperature set point. The combination is most intense in the second and third trimesters.</p>
+    </div>
+    <div style="background:#111e33;border:1px solid #1e3a5f;border-radius:8px;padding:1rem;margin-bottom:.75rem">
+      <h3 style="color:#c9a84c;font-size:.95rem;margin-bottom:.4rem">What mattress type is coolest for pregnancy?</h3>
+      <p style="color:#94a3b8;font-size:.88rem">Innerspring and hybrid mattresses sleep coolest because coil layers allow free air circulation. Natural latex runs cooler than synthetic foam. Avoid traditional all-foam mattresses if heat is the primary concern.</p>
+    </div>
+    <div style="background:#111e33;border:1px solid #1e3a5f;border-radius:8px;padding:1rem;margin-bottom:.75rem">
+      <h3 style="color:#c9a84c;font-size:.95rem;margin-bottom:.4rem">Is firm or soft better during pregnancy?</h3>
+      <p style="color:#94a3b8;font-size:.88rem">Medium firmness (5-6 out of 10) is generally best. Too firm creates hip and shoulder pressure in the required side-sleeping position. Too soft lacks the spinal support needed as weight distribution changes. Zoned mattresses adapt automatically.</p>
+    </div>
+    <div style="background:#111e33;border:1px solid #1e3a5f;border-radius:8px;padding:1rem;margin-bottom:.75rem">
+      <h3 style="color:#c9a84c;font-size:.95rem;margin-bottom:.4rem">When is the best time to buy a mattress during pregnancy?</h3>
+      <p style="color:#94a3b8;font-size:.88rem">The second trimester (weeks 13-26) is ideal. Past early nausea, blood volume has peaked, side sleeping is becoming necessary, and there are several months to adapt before delivery. Third-trimester purchases leave little adjustment time.</p>
+    </div>
+    <div style="background:#111e33;border:1px solid #1e3a5f;border-radius:8px;padding:1rem;margin-bottom:.75rem">
+      <h3 style="color:#c9a84c;font-size:.95rem;margin-bottom:.4rem">Do cooling toppers help with pregnancy overheating?</h3>
+      <p style="color:#94a3b8;font-size:.88rem">Toppers can improve surface temperature by 2-4 degrees. They work best over innerspring or hybrid bases. If your current mattress is all-foam, a new hybrid mattress delivers significantly more cooling than any topper placed on top of dense foam.</p>
+    </div>
+  </div>
+
+  <section class="related-guides" style="background:#111e33;border-top:2px solid #1e3a5f;padding:2rem 1.25rem;margin-top:2rem;">
+    <h2 style="color:#c9a84c;font-size:1.1rem;margin-bottom:1rem;border:none;padding:0">Related Guides</h2>
+    <ul style="list-style:none;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:.6rem">
+      <li><a href="best-mattress-menopause.html" style="color:#93c5fd;text-decoration:none;font-size:.9rem">Best Mattress for Menopause</a></li>
+      <li><a href="best-mattress-night-sweats.html" style="color:#93c5fd;text-decoration:none;font-size:.9rem">Best Mattress for Night Sweats</a></li>
+      <li><a href="best-mattress-back-pain.html" style="color:#93c5fd;text-decoration:none;font-size:.9rem">Best Mattress for Back Pain</a></li>
+      <li><a href="best-mattress-side-sleepers.html" style="color:#93c5fd;text-decoration:none;font-size:.9rem">Best Mattress for Side Sleepers</a></li>
+      <li><a href="best-mattress-topper-back-pain.html" style="color:#93c5fd;text-decoration:none;font-size:.9rem">Best Mattress Topper for Back Pain</a></li>
+    </ul>
+  </section>
+
+</main>
+<footer>
+  <p>&#169; 2026 SleepWiseReviews &bull; <a href="../index.html">Home</a> &bull; <a href="index.html">All Posts</a></p>
+  <p style="margin-top:.5rem">As an Amazon Associate we earn from qualifying purchases.</p>
+</footer>
+</body>
+</html>
+"""
+
+with open(out, "w", encoding="utf-8") as f:
+    f.write(html)
+print(f"Done: {out}")
