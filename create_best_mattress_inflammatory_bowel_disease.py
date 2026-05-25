@@ -1,0 +1,411 @@
+content = '''<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Best Mattress for Inflammatory Bowel Disease (Crohn\'s &amp; Colitis) 2026 | SleepWiseReviews</title>
+<meta name="description" content="7 mattresses for Crohn\'s disease and ulcerative colitis -- nighttime urgency positioning, steroid-induced insomnia, abdominal pain pressure relief, and IBD flare-remission sleep cycles.">
+<link rel="canonical" href="https://sleepwisereviews.com/posts/best-mattress-inflammatory-bowel-disease.html">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Best Mattress for Inflammatory Bowel Disease (Crohn\'s Disease and Ulcerative Colitis)",
+  "description": "7 mattresses for IBD -- nighttime urgency, steroid-induced insomnia, abdominal pain relief, and flare-remission cycle management.",
+  "author": {"@type": "Organization", "name": "SleepWiseReviews"},
+  "publisher": {"@type": "Organization", "name": "SleepWiseReviews", "url": "https://sleepwisereviews.com"},
+  "datePublished": "2026-05-25",
+  "dateModified": "2026-05-25",
+  "mainEntityOfPage": "https://sleepwisereviews.com/posts/best-mattress-inflammatory-bowel-disease.html"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://sleepwisereviews.com"},
+    {"@type": "ListItem", "position": 2, "name": "Posts", "item": "https://sleepwisereviews.com/posts/index.html"},
+    {"@type": "ListItem", "position": 3, "name": "Best Mattress for Inflammatory Bowel Disease", "item": "https://sleepwisereviews.com/posts/best-mattress-inflammatory-bowel-disease.html"}
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Best Mattresses for Inflammatory Bowel Disease",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Saatva Classic Plush Soft", "url": "https://www.amazon.com/s?k=Saatva+Classic+Plush+Soft+mattress&tag=sleepwiserevi-20"},
+    {"@type": "ListItem", "position": 2, "name": "Purple Restore Hybrid", "url": "https://www.amazon.com/s?k=Purple+Restore+Hybrid+mattress&tag=sleepwiserevi-20"},
+    {"@type": "ListItem", "position": 3, "name": "Tempur-ProAdapt Soft", "url": "https://www.amazon.com/s?k=Tempur-ProAdapt+Soft+mattress&tag=sleepwiserevi-20"},
+    {"@type": "ListItem", "position": 4, "name": "Casper Wave Hybrid", "url": "https://www.amazon.com/s?k=Casper+Wave+Hybrid+mattress&tag=sleepwiserevi-20"},
+    {"@type": "ListItem", "position": 5, "name": "Helix Midnight Luxe", "url": "https://www.amazon.com/s?k=Helix+Midnight+Luxe+mattress&tag=sleepwiserevi-20"},
+    {"@type": "ListItem", "position": 6, "name": "Nectar Premier", "url": "https://www.amazon.com/s?k=Nectar+Premier+mattress&tag=sleepwiserevi-20"},
+    {"@type": "ListItem", "position": 7, "name": "DreamCloud Premier", "url": "https://www.amazon.com/s?k=DreamCloud+Premier+mattress&tag=sleepwiserevi-20"}
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What sleeping position is best for Crohn\'s disease abdominal pain?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Left lateral (left-side sleeping) is generally recommended for Crohn\'s and UC patients during flares. This position aligns with the anatomical path of the colon -- stool moves more easily through the descending colon (left side) in left lateral position, reducing distension pressure and cramping. Avoid prone (stomach sleeping) during flares as direct abdominal pressure compresses inflamed bowel segments. Right lateral may worsen symptoms for UC patients with left-sided colitis. A mattress with softer hip and shoulder zones facilitates left lateral positioning without pain at the bony prominences."}
+    },
+    {
+      "@type": "Question",
+      "name": "How does IBD affect sleep quality?",
+      "acceptedAnswer": {"@type": "Answer", "text": "75-85% of IBD patients report sleep disturbance during active disease. Nighttime diarrhea affects 30-40% of IBD patients -- urgency arousals fragment sleep architecture and prevent deep restorative stages. Elevated inflammatory markers (CRP, TNF-alpha) directly disrupt circadian rhythm and sleep-wake regulation independently of pain. Corticosteroid therapy (prednisone) causes dose-dependent insomnia in 50-70% of patients. Anemia from intestinal blood loss reduces sleep quality through fatigue-arousal dysregulation."}
+    },
+    {
+      "@type": "Question",
+      "name": "Does mattress firmness affect abdominal discomfort during sleep in IBD?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Yes, significantly. A mattress that is too firm creates concentrated pressure at the hip in lateral position, causing the patient to unconsciously shift to supine -- which places the abdominal wall under gravity-driven pressure and can worsen cramping. A mattress that is too soft allows the hips to sink excessively, twisting the lower spine and adding mechanical abdominal compression. Medium-soft to medium (4-5.5 on a 10-point scale) with zoned support at the hip is optimal for IBD lateral sleeping."}
+    },
+    {
+      "@type": "Question",
+      "name": "How should IBD patients manage steroid-induced insomnia at night?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Corticosteroid-induced insomnia is primarily driven by cortisol mimicry disrupting the normal evening cortisol decline. Mattress choices that reduce additional sleep disruption sources (heat retention, pressure point arousals, partner disturbance) are especially valuable during steroid courses. A temperature-neutral mattress (Purple Grid, Tencel-covered foam hybrid) reduces the thermal component. Separately, taking prednisone earlier in the day (morning rather than evening) with the prescriber\'s approval significantly reduces the insomnia burden."}
+    },
+    {
+      "@type": "Question",
+      "name": "What mattress features matter most during IBD remission vs. active flare?",
+      "acceptedAnswer": {"@type": "Answer", "text": "During remission, comfort and sleep quality drive the decision -- any medium-quality hybrid serves well. During an active flare, three features become critical: (1) easy exit -- firm edge support allows the patient to sit up and move to the bathroom quickly without effort; (2) minimal motion transfer -- frequent arousals should not disturb a bed partner; (3) temperature neutrality -- active intestinal inflammation elevates systemic temperature, and a heat-trapping mattress amplifies this discomfort. The 365-night trial on picks like Nectar allows patients to evaluate the mattress across both disease states."}
+    }
+  ]
+}
+</script>
+<style>
+:root{--bg:#0a1628;--card:#111e33;--gold:#c9a84c;--text:#e8e8e8;--muted:#8899aa;--red:#dc2626}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:\'Segoe UI\',sans-serif;line-height:1.7}
+a{color:var(--gold);text-decoration:none}
+a:hover{text-decoration:underline}
+header{background:var(--card);border-bottom:2px solid var(--gold);padding:16px 24px;display:flex;align-items:center;justify-content:space-between}
+header .logo{font-size:1.3rem;font-weight:700;color:var(--gold)}
+nav a{margin-left:20px;color:var(--text);font-size:.9rem}
+.hero{background:linear-gradient(135deg,#0a1628 0%,#1a2f4a 100%);padding:60px 24px 40px;text-align:center;border-bottom:1px solid #1e3a5f}
+.hero h1{font-size:2rem;color:var(--gold);margin-bottom:16px;max-width:800px;margin-left:auto;margin-right:auto}
+.hero p{color:var(--muted);max-width:650px;margin:0 auto 24px}
+.badge{display:inline-block;background:var(--red);color:#fff;font-size:.75rem;font-weight:700;padding:4px 12px;border-radius:20px;margin-bottom:12px}
+.container{max-width:860px;margin:0 auto;padding:40px 24px}
+.quick-nav{background:var(--card);border:1px solid #1e3a5f;border-radius:8px;padding:20px 24px;margin-bottom:36px}
+.quick-nav h2{font-size:.9rem;color:var(--gold);margin-bottom:10px;text-transform:uppercase;letter-spacing:.05em}
+.quick-nav ol{padding-left:20px}
+.quick-nav li{margin-bottom:4px;font-size:.92rem}
+.science-box{background:#0d1f38;border-left:4px solid var(--gold);padding:20px 24px;border-radius:0 8px 8px 0;margin-bottom:36px}
+.science-box h2{color:var(--gold);font-size:1rem;margin-bottom:10px}
+.science-box ul{padding-left:18px}
+.science-box li{margin-bottom:6px;font-size:.93rem;color:var(--text)}
+.note-box{background:#1a2f0a;border-left:4px solid #4ade80;padding:16px 20px;border-radius:0 8px 8px 0;margin-bottom:36px}
+.note-box strong{color:#4ade80}
+h2.section-title{font-size:1.4rem;color:var(--gold);margin:40px 0 20px;border-bottom:1px solid #1e3a5f;padding-bottom:8px}
+.pick-card{background:var(--card);border:1px solid #1e3a5f;border-radius:10px;padding:24px;margin-bottom:24px}
+.pick-header{display:flex;align-items:flex-start;gap:16px;margin-bottom:14px}
+.pick-num{background:var(--gold);color:#0a1628;font-weight:800;font-size:1rem;width:36px;height:36px;border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.pick-title{font-size:1.15rem;font-weight:700;color:#fff;margin-bottom:4px}
+.pick-tag{font-size:.75rem;color:var(--gold);font-weight:600;text-transform:uppercase;letter-spacing:.04em}
+.specs-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:10px;margin:14px 0}
+.spec-item{background:#0a1628;border-radius:6px;padding:10px 12px;font-size:.83rem}
+.spec-label{color:var(--muted);display:block;margin-bottom:2px;font-size:.75rem}
+.spec-val{color:#fff;font-weight:600}
+.pick-why{font-size:.92rem;color:var(--text);margin-top:12px;line-height:1.65}
+.cta-btn{display:inline-block;background:var(--gold);color:#0a1628;font-weight:700;padding:10px 22px;border-radius:6px;margin-top:14px;font-size:.9rem}
+.cta-btn:hover{background:#b8943e;text-decoration:none}
+table{width:100%;border-collapse:collapse;margin-bottom:32px;font-size:.88rem}
+th{background:#1e3a5f;color:var(--gold);padding:10px 12px;text-align:left;font-weight:700}
+td{padding:9px 12px;border-bottom:1px solid #1a2f4a;vertical-align:top}
+tr:nth-child(even) td{background:#0d1a2e}
+.info-box{background:#1a1a38;border:1px solid #3a3a7a;border-radius:8px;padding:20px 24px;margin:28px 0}
+.info-box h3{color:#a0a0ff;margin-bottom:10px;font-size:1rem}
+.info-box ol,.info-box ul{padding-left:20px}
+.info-box li{margin-bottom:6px;font-size:.91rem}
+.faq-section{margin-top:40px}
+.faq-item{background:var(--card);border:1px solid #1e3a5f;border-radius:8px;padding:20px 24px;margin-bottom:16px}
+.faq-item h3{color:var(--gold);font-size:1rem;margin-bottom:8px}
+.faq-item p{font-size:.91rem;color:var(--text)}
+.related-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:14px;margin-top:16px}
+.related-card{background:var(--card);border:1px solid #1e3a5f;border-radius:8px;padding:16px;font-size:.88rem}
+.related-card a{color:var(--text);font-weight:600}
+.related-card a:hover{color:var(--gold)}
+footer{background:var(--card);border-top:1px solid #1e3a5f;padding:24px;text-align:center;font-size:.82rem;color:var(--muted);margin-top:60px}
+@media(max-width:600px){.hero h1{font-size:1.4rem}.specs-grid{grid-template-columns:1fr 1fr}}
+</style>
+</head>
+<body>
+<header>
+<span class="logo"><a href="/" style="color:var(--gold)">SleepWiseReviews</a></span>
+<nav>
+<a href="/posts/index.html">All Posts</a>
+<a href="/#picks">Top Picks</a>
+</nav>
+</header>
+
+<div class="hero">
+<span class="badge">Health Conditions</span>
+<h1>Best Mattress for Inflammatory Bowel Disease &mdash; Crohn\'s &amp; Colitis (2026)</h1>
+<p>7 picks for IBD &mdash; nighttime urgency positioning, steroid-induced insomnia, abdominal pain pressure relief, and flare-remission sleep cycle management.</p>
+</div>
+
+<div class="container">
+
+<div class="quick-nav">
+<h2>Quick Navigation</h2>
+<ol>
+<li><a href="#science">How IBD Disrupts Sleep</a></li>
+<li><a href="#picks">7 Best Mattresses for IBD</a></li>
+<li><a href="#ibd-guide">IBD Disease State &amp; Mattress Guide</a></li>
+<li><a href="#flare-protocol">Flare Night Protocol</a></li>
+<li><a href="#profile">Which Pick Fits Your Profile</a></li>
+<li><a href="#faq">Frequently Asked Questions</a></li>
+</ol>
+</div>
+
+<div class="science-box" id="science">
+<h2>How Inflammatory Bowel Disease Disrupts Sleep</h2>
+<ul>
+<li><strong>Sleep disruption prevalence:</strong> 75-85% of IBD patients report sleep disturbance during active disease. Nighttime diarrhea affects 30-40% &mdash; urgency arousals fragment sleep architecture and prevent restorative slow-wave and REM stages (Inflamm Bowel Dis 2021).</li>
+<li><strong>Inflammatory cytokine disruption:</strong> Elevated TNF-alpha, IL-6, and CRP directly disrupt circadian clock gene expression (CLOCK, BMAL1), advancing sleep phase and reducing total sleep time independently of pain.</li>
+<li><strong>Steroid-induced insomnia:</strong> Prednisone and methylprednisolone cause dose-dependent insomnia in 50-70% of IBD patients &mdash; corticosteroids mimic cortisol, blocking the normal evening cortisol decline that signals sleep onset.</li>
+<li><strong>Abdominal cramping during sleep:</strong> Intestinal smooth muscle contractions in active IBD increase at night (reduced inhibitory neurotransmission during sleep). Sleeping position determines whether these contractions cause distension pain.</li>
+<li><strong>Anemia of IBD:</strong> Iron-deficiency anemia from intestinal bleeding causes fatigue-arousal dysregulation, reducing sleep quality even during remission. 30-50% of active IBD patients have clinically significant anemia.</li>
+<li><strong>IBD-associated arthropathy:</strong> 20-40% of IBD patients develop peripheral or axial arthropathy (enteropathic arthritis) &mdash; adding joint pain as a separate sleep-disrupting mechanism that compounds abdominal discomfort.</li>
+</ul>
+</div>
+
+<div class="note-box">
+<strong>Medical note:</strong> These mattress recommendations address sleep environment factors in IBD. Active disease management, biologic therapy, and corticosteroid optimization are medical decisions. Sleep improvement does not replace GI treatment &mdash; it supports it.
+</div>
+
+<h2 class="section-title" id="picks">7 Best Mattresses for Inflammatory Bowel Disease</h2>
+
+<div class="pick-card">
+<div class="pick-header">
+<div class="pick-num">1</div>
+<div>
+<div class="pick-title">Saatva Classic Plush Soft</div>
+<div class="pick-tag">Best Overall &mdash; Abdominal Pain Relief + Edge Support for Urgent Exit</div>
+</div>
+</div>
+<div class="specs-grid">
+<div class="spec-item"><span class="spec-label">Firmness</span><span class="spec-val">Plush Soft (3/10)</span></div>
+<div class="spec-item"><span class="spec-label">Type</span><span class="spec-val">Dual coil + foam</span></div>
+<div class="spec-item"><span class="spec-label">Height</span><span class="spec-val">14.5"</span></div>
+<div class="spec-item"><span class="spec-label">Edge Support</span><span class="spec-val">Reinforced perimeter</span></div>
+<div class="spec-item"><span class="spec-label">Trial</span><span class="spec-val">365 nights</span></div>
+<div class="spec-item"><span class="spec-label">Warranty</span><span class="spec-val">Lifetime</span></div>
+</div>
+<p class="pick-why">The Saatva Classic Plush Soft addresses both primary IBD sleep challenges simultaneously. The plush-soft surface (3/10 firmness) with individually-wrapped coil support relieves pressure at the hip and shoulder in left lateral position &mdash; the anatomically optimal sleeping position for IBD patients, as it aligns stool flow through the descending colon and reduces distension pressure. Critically, the Saatva Classic uses dual coil construction: a base Bonnell coil layer provides a firm perimeter edge (reinforced with a high-density foam rail), while the soft comfort layer sits on top. This means the edge of the mattress stays firm and supportive even as the surface is soft &mdash; essential for IBD patients who need to exit quickly to the bathroom at 2am without effort. Sitting up from a soft mattress without perimeter support requires significant core effort, which IBD patients in flare cannot reliably manage. The Saatva\'s edge system allows the patient to swing their legs off the bed and sit upright using arm support alone. GREENGUARD Gold certified, organic cotton cover. Lifetime warranty + 365-night trial covers full disease cycle evaluation.</p>
+<a class="cta-btn" href="https://www.amazon.com/s?k=Saatva+Classic+Plush+Soft+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</div>
+
+<div class="pick-card">
+<div class="pick-header">
+<div class="pick-num">2</div>
+<div>
+<div class="pick-title">Purple Restore Hybrid</div>
+<div class="pick-tag">Best for Steroid Night Sweats + Inflammatory Heat</div>
+</div>
+</div>
+<div class="specs-grid">
+<div class="spec-item"><span class="spec-label">Firmness</span><span class="spec-val">Medium (5/10)</span></div>
+<div class="spec-item"><span class="spec-label">Type</span><span class="spec-val">Grid polymer + coil</span></div>
+<div class="spec-item"><span class="spec-label">Height</span><span class="spec-val">12"</span></div>
+<div class="spec-item"><span class="spec-label">Edge Support</span><span class="spec-val">Good</span></div>
+<div class="spec-item"><span class="spec-label">Trial</span><span class="spec-val">100 nights</span></div>
+<div class="spec-item"><span class="spec-label">Warranty</span><span class="spec-val">10 years</span></div>
+</div>
+<p class="pick-why">IBD patients on corticosteroid therapy and those experiencing active intestinal inflammation face a compounded thermal challenge: prednisone elevates core body temperature through cortisol mimicry, and active intestinal inflammation raises systemic temperature via cytokine release. Together, these make a heat-trapping foam mattress a major sleep disruptor. The Purple GelFlex Grid is an open-structure polymer &mdash; it is physically incapable of trapping heat because there is no closed-cell foam architecture. Convective airflow moves through the grid continuously, maintaining near-ambient temperature at the sleep surface. This is passive and permanent &mdash; it does not degrade over time the way gel-infused foam does. For IBD patients specifically, temperature relief removes one compounding sleep disruption from a condition that already delivers multiple simultaneous stressors. The medium firmness (5/10) with grid softness provides adequate hip cushioning for left lateral positioning without excessive sinkage that could twist the lower abdomen.</p>
+<a class="cta-btn" href="https://www.amazon.com/s?k=Purple+Restore+Hybrid+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</div>
+
+<div class="pick-card">
+<div class="pick-header">
+<div class="pick-num">3</div>
+<div>
+<div class="pick-title">Tempur-ProAdapt Soft</div>
+<div class="pick-tag">Best for Severe Flares &mdash; Abdominal Pressure Elimination + IBD Arthropathy</div>
+</div>
+</div>
+<div class="specs-grid">
+<div class="spec-item"><span class="spec-label">Firmness</span><span class="spec-val">Soft (3/10)</span></div>
+<div class="spec-item"><span class="spec-label">Type</span><span class="spec-val">TEMPUR foam layers</span></div>
+<div class="spec-item"><span class="spec-label">Height</span><span class="spec-val">12"</span></div>
+<div class="spec-item"><span class="spec-label">Edge Support</span><span class="spec-val">Moderate</span></div>
+<div class="spec-item"><span class="spec-label">Trial</span><span class="spec-val">90 nights</span></div>
+<div class="spec-item"><span class="spec-label">Warranty</span><span class="spec-val">10 years</span></div>
+</div>
+<p class="pick-why">During severe IBD flares with multi-day abdominal cramping and significant systemic inflammation, the TEMPUR material offers a specific advantage over other foams: it distributes pressure below the capillary closure threshold across the entire body surface, eliminating any concentrated pressure point that would trigger a repositioning arousal. Every positional shift during a severe flare is painful &mdash; a mattress that requires fewer repositioning movements to relieve pressure directly reduces nighttime pain-arousal events. For IBD patients with concurrent enteropathic arthropathy (joint inflammation in the knees, ankles, wrists that tracks with IBD activity), the TEMPUR pressure elimination addresses both the abdominal and joint pressure components simultaneously. The TEMPUR-ProAdapt Soft also eliminates motion transfer completely &mdash; when the patient moves urgently to exit the bed, the partner is undisturbed. Note: TEMPUR retains heat more than hybrids; best for cold or temperature-comfortable environments, or with the Breeze version for heat-sensitive patients.</p>
+<a class="cta-btn" href="https://www.amazon.com/s?k=Tempur-ProAdapt+Soft+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</div>
+
+<div class="pick-card">
+<div class="pick-header">
+<div class="pick-num">4</div>
+<div>
+<div class="pick-title">Casper Wave Hybrid</div>
+<div class="pick-tag">Best Zoned Support &mdash; Left Lateral IBD Positioning + Partner Motion Isolation</div>
+</div>
+</div>
+<div class="specs-grid">
+<div class="spec-item"><span class="spec-label">Firmness</span><span class="spec-val">Medium (5.5/10)</span></div>
+<div class="spec-item"><span class="spec-label">Type</span><span class="spec-val">Foam zones + coil</span></div>
+<div class="spec-item"><span class="spec-label">Height</span><span class="spec-val">13"</span></div>
+<div class="spec-item"><span class="spec-label">Edge Support</span><span class="spec-val">Good</span></div>
+<div class="spec-item"><span class="spec-label">Trial</span><span class="spec-val">100 nights</span></div>
+<div class="spec-item"><span class="spec-label">Warranty</span><span class="spec-val">10 years</span></div>
+</div>
+<p class="pick-why">The Casper Wave\'s 7-zone ergonomic design specifically benefits IBD patients sleeping in the left lateral position: the softer shoulder zone (zone 2) reduces pressure at the shoulder, the softer hip zone (zone 4) cradles the iliac crest without driving the hip up, and the firmer lumbar zone (zone 3) keeps the spine neutral so the abdominal contents are not compressed by spinal curvature. This zoned architecture facilitates all-night left lateral positioning without discomfort forcing the patient to roll supine &mdash; which places gravity pressure directly on the transverse and descending colon. For IBD couples, the pocketed coil construction minimizes motion transfer when the IBD patient exits urgently at night: the partner experiences less than 20% of the exit movement energy compared to a continuous foam mattress. The 13-inch height is appropriate for most bed frame heights &mdash; not too low to require significant leg lowering effort during urgent exits.</p>
+<a class="cta-btn" href="https://www.amazon.com/s?k=Casper+Wave+Hybrid+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</div>
+
+<div class="pick-card">
+<div class="pick-header">
+<div class="pick-num">5</div>
+<div>
+<div class="pick-title">Helix Midnight Luxe</div>
+<div class="pick-tag">Best for IBD + Chronic Fatigue &mdash; Restorative Deep Sleep Support</div>
+</div>
+</div>
+<div class="specs-grid">
+<div class="spec-item"><span class="spec-label">Firmness</span><span class="spec-val">Medium (5/10)</span></div>
+<div class="spec-item"><span class="spec-label">Type</span><span class="spec-val">Foam + coil hybrid</span></div>
+<div class="spec-item"><span class="spec-label">Height</span><span class="spec-val">13.5"</span></div>
+<div class="spec-item"><span class="spec-label">Edge Support</span><span class="spec-val">Strong</span></div>
+<div class="spec-item"><span class="spec-label">Trial</span><span class="spec-val">100 nights</span></div>
+<div class="spec-item"><span class="spec-label">Warranty</span><span class="spec-val">10 years</span></div>
+</div>
+<p class="pick-why">IBD-associated chronic fatigue affects 40-50% of patients even during remission &mdash; independent of disease activity, driven by cytokine-mediated fatigue pathways and anemia. The Helix Midnight Luxe is specifically designed for side sleepers who need consistent, pressure-free sleep to maximize whatever restorative sleep is achievable despite disease burden. The Tencel cover actively wicks moisture from the sleep surface &mdash; relevant for IBD patients who sweat during nocturnal inflammatory episodes. The strong perimeter edge support on the Helix Midnight Luxe (reinforced foam rails) facilitates urgent bathroom exits without the patient feeling like they might roll off during a rapid, semi-alert exit. The pillow-top comfort layer provides enough surface cushioning for hip and shoulder comfort in lateral position without the heat-retention issues of all-foam designs.</p>
+<a class="cta-btn" href="https://www.amazon.com/s?k=Helix+Midnight+Luxe+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</div>
+
+<div class="pick-card">
+<div class="pick-header">
+<div class="pick-num">6</div>
+<div>
+<div class="pick-title">Nectar Premier</div>
+<div class="pick-tag">Best Value &mdash; 365-Night Flare-Remission Evaluation Cycle</div>
+</div>
+</div>
+<div class="specs-grid">
+<div class="spec-item"><span class="spec-label">Firmness</span><span class="spec-val">Medium-firm (6/10)</span></div>
+<div class="spec-item"><span class="spec-label">Type</span><span class="spec-val">Memory foam + coil</span></div>
+<div class="spec-item"><span class="spec-label">Height</span><span class="spec-val">13"</span></div>
+<div class="spec-item"><span class="spec-label">Edge Support</span><span class="spec-val">Good</span></div>
+<div class="spec-item"><span class="spec-label">Trial</span><span class="spec-val">365 nights</span></div>
+<div class="spec-item"><span class="spec-label">Warranty</span><span class="spec-val">Forever</span></div>
+</div>
+<p class="pick-why">IBD is episodic &mdash; a mattress that feels adequate during remission may be inadequate during a severe flare, and vice versa. The Nectar Premier\'s 365-night trial is the longest in the industry and allows IBD patients to evaluate the mattress across at least one full disease cycle including flare, induction of remission, and maintained remission. The medium-firm rating (6/10) with memory foam comfort is a practical choice for IBD patients who do not have concurrent joint disease requiring softer pressure relief &mdash; the firmer surface provides more supportive lateral positioning without hip sinkage. The gel memory foam layer adds modest temperature management. The forever warranty removes the concern that heavy use during prolonged bed-rest flares will void coverage. For IBD patients who are budget-conscious and need a reliable trial period rather than a premium feature set, the Nectar Premier is the most practical choice.</p>
+<a class="cta-btn" href="https://www.amazon.com/s?k=Nectar+Premier+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</div>
+
+<div class="pick-card">
+<div class="pick-header">
+<div class="pick-num">7</div>
+<div>
+<div class="pick-title">DreamCloud Premier</div>
+<div class="pick-tag">Best Budget &mdash; IBD Remission / Mild-Moderate Crohn\'s Without Arthropathy</div>
+</div>
+</div>
+<div class="specs-grid">
+<div class="spec-item"><span class="spec-label">Firmness</span><span class="spec-val">Medium-firm (6/10)</span></div>
+<div class="spec-item"><span class="spec-label">Type</span><span class="spec-val">Foam + coil hybrid</span></div>
+<div class="spec-item"><span class="spec-label">Height</span><span class="spec-val">14"</span></div>
+<div class="spec-item"><span class="spec-label">Edge Support</span><span class="spec-val">Good</span></div>
+<div class="spec-item"><span class="spec-label">Trial</span><span class="spec-val">365 nights</span></div>
+<div class="spec-item"><span class="spec-label">Warranty</span><span class="spec-val">Lifetime</span></div>
+</div>
+<p class="pick-why">For IBD patients in established remission on maintenance biologics, without significant arthropathy, and with infrequent nighttime urgency, the DreamCloud Premier provides hybrid quality at an accessible price. The cashmere-blend pillow top provides comfort layer cushioning at the hip and shoulder for left lateral sleeping without the premium cost of ergonomic zoned systems. The 14-inch height and good perimeter support still allow adequate urgent exits. CertiPUR-US certified foams minimize VOC exposure &mdash; relevant for patients with IBD-associated chemical sensitivities or concurrent MCS. Not recommended for severe UC or Crohn\'s with frequent nocturnal urgency &mdash; upgrade to Pick #1 for edge support or Pick #2 for heat management in active disease.</p>
+<a class="cta-btn" href="https://www.amazon.com/s?k=DreamCloud+Premier+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</div>
+
+<h2 class="section-title" id="ibd-guide">IBD Disease State &amp; Mattress Selection Guide</h2>
+<table>
+<tr><th>Disease State</th><th>Key Sleep Challenge</th><th>Critical Mattress Feature</th><th>Best Pick</th></tr>
+<tr><td>Active severe flare</td><td>Abdominal pain, frequent urgency, joint pain</td><td>Pressure elimination + firm edge exit</td><td>#1 Saatva Classic PS or #3 Tempur-ProAdapt</td></tr>
+<tr><td>Active moderate flare</td><td>Nighttime urgency, night sweats, steroid insomnia</td><td>Temperature neutrality + edge support</td><td>#2 Purple Restore or #5 Helix Midnight</td></tr>
+<tr><td>Steroid course (prednisone)</td><td>Insomnia, night sweats, cortisol dysregulation</td><td>Temperature-neutral surface</td><td>#2 Purple Restore</td></tr>
+<tr><td>IBD + enteropathic arthropathy</td><td>Joint pain + abdominal pain compound disruption</td><td>Soft pressure elimination at joints</td><td>#3 Tempur-ProAdapt Soft</td></tr>
+<tr><td>Remission, chronic fatigue</td><td>Fatigue-arousal dysregulation, anemia</td><td>Restorative sleep surface, moisture-wicking</td><td>#5 Helix Midnight Luxe</td></tr>
+<tr><td>Couples &mdash; one partner with IBD</td><td>Urgent exits disturbing partner</td><td>Motion isolation + good edge support</td><td>#4 Casper Wave Hybrid</td></tr>
+<tr><td>Remission, mild-moderate IBD</td><td>General sleep quality</td><td>Budget hybrid quality</td><td>#7 DreamCloud or #6 Nectar</td></tr>
+</table>
+
+<div class="info-box" id="flare-protocol">
+<h3>IBD Flare Night Protocol &mdash; Bedside Setup</h3>
+<ul>
+<li><strong>Bathroom path:</strong> Clear path from bed to toilet completely &mdash; no rugs, no obstacles. Motion-activated night lights at floor level. Urgency exits happen in the dark, semi-alert state.</li>
+<li><strong>Bed height:</strong> Adjust bed frame so feet reach the floor flat when seated at the mattress edge. Too high (feet dangle) or too low (knee rise) adds effort and time to the exit sequence.</li>
+<li><strong>Waterproof mattress protector:</strong> Use a thin (under 1mm) waterproof protector that does not create rustling sounds or alter mattress feel. Avoid thick terry protectors that trap heat and change firmness perception.</li>
+<li><strong>Positioning aid:</strong> A full-length body pillow maintains left lateral position through the night. Wedge between knees to prevent hip rotation to supine.</li>
+<li><strong>Bedside supplies:</strong> Wipes, change of clothes, and water on the bedside table. Reducing the decision and movement required after urgency episodes helps return to sleep faster.</li>
+<li><strong>Partner coordination:</strong> If sharing a bed, a split king (two twin XLs) with a center gap allows independent movement during exits without disturbing the partner. Adjustable base split also allows one side to elevate independently.</li>
+</ul>
+</div>
+
+<h2 class="section-title" id="profile">Which Pick Fits Your Profile</h2>
+<table>
+<tr><th>Profile</th><th>Best Pick</th><th>Why</th></tr>
+<tr><td>Severe flare, abdominal pain, frequent exits</td><td>#1 Saatva Classic PS</td><td>Firm edge for urgent exit + soft surface for abdominal pressure relief</td></tr>
+<tr><td>Prednisone course, night sweats</td><td>#2 Purple Restore</td><td>Temperature-neutral polymer grid eliminates heat trapping</td></tr>
+<tr><td>Severe flare + IBD arthropathy (joint pain)</td><td>#3 Tempur-ProAdapt Soft</td><td>TEMPUR pressure elimination addresses both abdominal and joint pain</td></tr>
+<tr><td>Couples, motion isolation priority</td><td>#4 Casper Wave</td><td>Pocketed coils + zoned foam reduce partner disturbance from urgent exits</td></tr>
+<tr><td>IBD-associated chronic fatigue, remission</td><td>#5 Helix Midnight Luxe</td><td>Tencel moisture-wicking, strong edge, restorative lateral support</td></tr>
+<tr><td>Long trial needed, variable disease</td><td>#6 Nectar Premier</td><td>365-night trial covers full flare-remission cycle</td></tr>
+<tr><td>Remission, budget, no arthropathy</td><td>#7 DreamCloud Premier</td><td>Hybrid quality at accessible price, 365-night trial</td></tr>
+</table>
+
+<div class="faq-section" id="faq">
+<h2 class="section-title">Frequently Asked Questions</h2>
+
+<div class="faq-item">
+<h3>What sleeping position is best for Crohn\'s disease abdominal pain?</h3>
+<p>Left lateral (left-side sleeping) is generally recommended for Crohn\'s and UC patients during flares. This position aligns with the anatomical path of the colon &mdash; stool moves more easily through the descending colon (left side) in left lateral position, reducing distension pressure and cramping. Avoid prone (stomach sleeping) during flares as direct abdominal pressure compresses inflamed bowel segments.</p>
+</div>
+
+<div class="faq-item">
+<h3>How does IBD affect sleep quality?</h3>
+<p>75-85% of IBD patients report sleep disturbance during active disease. Nighttime diarrhea affects 30-40% of IBD patients &mdash; urgency arousals fragment sleep architecture and prevent deep restorative stages. Elevated inflammatory markers (CRP, TNF-alpha) directly disrupt circadian rhythm independently of pain. Corticosteroid therapy causes dose-dependent insomnia in 50-70% of patients.</p>
+</div>
+
+<div class="faq-item">
+<h3>Does mattress firmness affect abdominal discomfort during sleep in IBD?</h3>
+<p>Yes, significantly. A mattress that is too firm creates concentrated pressure at the hip in lateral position, causing the patient to unconsciously shift to supine &mdash; which places the abdominal wall under gravity-driven pressure and can worsen cramping. A mattress that is too soft allows the hips to sink excessively, twisting the lower spine and compressing the abdomen. Medium-soft to medium (4-5.5 on a 10-point scale) with zoned hip support is optimal for IBD lateral sleeping.</p>
+</div>
+
+<div class="faq-item">
+<h3>How should IBD patients manage steroid-induced insomnia at night?</h3>
+<p>Corticosteroid-induced insomnia is primarily driven by cortisol mimicry disrupting the normal evening cortisol decline. Mattress choices that reduce additional sleep disruption sources (heat retention, pressure point arousals, partner disturbance) are especially valuable during steroid courses. A temperature-neutral mattress (Purple Grid, Tencel-covered hybrid) reduces the thermal component. Taking prednisone earlier in the day with your prescriber\'s approval also significantly reduces the insomnia burden.</p>
+</div>
+
+<div class="faq-item">
+<h3>What mattress features matter most during IBD remission vs. active flare?</h3>
+<p>During remission, comfort and sleep quality drive the decision. During an active flare, three features become critical: (1) easy exit &mdash; firm edge support allows quick bathroom access; (2) minimal motion transfer &mdash; frequent arousals should not disturb a bed partner; (3) temperature neutrality &mdash; active intestinal inflammation elevates systemic temperature and a heat-trapping mattress amplifies this. The 365-night trial on Nectar allows evaluation across both disease states.</p>
+</div>
+</div>
+
+<h2 class="section-title">Related Guides</h2>
+<div class="related-grid">
+<div class="related-card"><a href="best-mattress-arthritis.html">Best Mattress for Arthritis</a></div>
+<div class="related-card"><a href="best-mattress-chronic-fatigue-syndrome.html">Best Mattress for Chronic Fatigue</a></div>
+<div class="related-card"><a href="best-mattress-back-pain.html">Best Mattress for Back Pain</a></div>
+<div class="related-card"><a href="best-mattress-kidney-disease.html">Best Mattress for Kidney Disease</a></div>
+<div class="related-card"><a href="best-mattress-multiple-chemical-sensitivity.html">Best Mattress for Chemical Sensitivity</a></div>
+<div class="related-card"><a href="best-mattress-osteoarthritis.html">Best Mattress for Osteoarthritis</a></div>
+</div>
+
+</div>
+<footer>
+<p>&copy; 2026 SleepWiseReviews &mdash; <a href="/privacy.html">Privacy</a> &middot; <a href="/about.html">About</a></p>
+<p style="margin-top:8px;font-size:.78rem">Affiliate disclosure: We earn from qualifying Amazon purchases.</p>
+</footer>
+</body>
+</html>'''
+
+with open("posts/best-mattress-inflammatory-bowel-disease.html", "w", encoding="utf-8") as f:
+    f.write(content)
+print("Generated posts/best-mattress-inflammatory-bowel-disease.html")
