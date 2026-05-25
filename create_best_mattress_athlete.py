@@ -1,0 +1,299 @@
+slug = "best-mattress-athlete"
+out = f"posts/{slug}.html"
+
+html = """<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Best Mattress for Athletes 2025 — 7 Picks for Recovery, DOMS &amp; Sleep Performance</title>
+<meta name="description" content="Best mattresses for athletes in 2025. 7 expert picks for muscle recovery, DOMS relief, heat dissipation, and growth hormone sleep optimization. The Stanford sleep data explained.">
+<link rel="canonical" href="https://sleepwisereviews.com/posts/best-mattress-athlete.html">
+<meta property="og:title" content="Best Mattress for Athletes 2025 — 7 Picks for Sleep Recovery">
+<meta property="og:description" content="Sleep is where athletes recover. These 7 mattresses optimize pressure relief for DOMS, cooling for high-BMR bodies, and deep NREM for growth hormone release.">
+<meta property="og:url" content="https://sleepwisereviews.com/posts/best-mattress-athlete.html">
+<meta property="og:type" content="article">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Best Mattress for Athletes 2025">
+<meta name="twitter:description" content="7 mattress picks for athletic recovery — DOMS pressure relief, cooling, deep sleep optimization, sport-specific body support.">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "headline": "Best Mattress for Athletes 2025",
+      "description": "Expert mattress picks for athletic recovery: DOMS pressure relief, heat dissipation for high-BMR bodies, and deep NREM sleep optimization for growth hormone release.",
+      "url": "https://sleepwisereviews.com/posts/best-mattress-athlete.html",
+      "datePublished": "2026-05-25",
+      "dateModified": "2026-05-25",
+      "author": {"@type": "Organization", "name": "SleepWise Reviews"},
+      "publisher": {"@type": "Organization", "name": "SleepWise Reviews", "url": "https://sleepwisereviews.com"}
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://sleepwisereviews.com"},
+        {"@type": "ListItem", "position": 2, "name": "All Posts", "item": "https://sleepwisereviews.com/posts/index.html"},
+        {"@type": "ListItem", "position": 3, "name": "Best Mattress for Athletes", "item": "https://sleepwisereviews.com/posts/best-mattress-athlete.html"}
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "name": "Best Mattresses for Athletes 2025",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Purple Restore Hybrid Soft — Best Overall for Athletes"},
+        {"@type": "ListItem", "position": 2, "name": "Tempur-Pedic TEMPUR-breeze — Best Recovery Cooling + DOMS Relief"},
+        {"@type": "ListItem", "position": 3, "name": "Casper Wave Hybrid — Best Zoned Support for Sport-Specific Bodies"},
+        {"@type": "ListItem", "position": 4, "name": "Saatva Classic Medium-Firm — Best for Heavy/Muscular Athletes"},
+        {"@type": "ListItem", "position": 5, "name": "WinkBed Plus — Best for High Body Weight Athletes"},
+        {"@type": "ListItem", "position": 6, "name": "Avocado Green — Best for Clean Recovery (No Off-Gassing)"},
+        {"@type": "ListItem", "position": 7, "name": "DreamCloud Premier — Best Budget Athlete Mattress"}
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What mattress is best for athletic recovery?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A cooling hybrid with medium to medium-firm feel (5-6.5/10) is best for most athletes. Athletes have higher muscle mass and basal metabolic rates, generating more heat during sleep — cooling is the first priority. Pressure relief for DOMS-affected muscles is second. A responsive surface (hybrid coils rather than all-foam) also allows position changes without effort, which matters when soreness limits mobility."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does sleep actually improve athletic performance?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes — sleep is the single most impactful recovery tool available, outperforming nutrition timing and most supplements. The Stanford/Cheri Mah study of basketball players found that extending sleep from 7 to 10 hours improved sprint time by 5%, free throw accuracy by 9%, and 3-point accuracy by 9.2%. Growth hormone, which drives muscle protein synthesis and tissue repair, is released in pulses during NREM3 (deep) sleep. A mattress that improves sleep quality and depth directly improves this recovery cascade."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What firmness mattress should athletes use?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Medium to medium-firm (5-7/10) works for most athletes, but body weight and sport type matter. Endurance athletes (lighter, repetitive stress) typically prefer medium-soft to medium. Power athletes (heavier, muscular) need medium-firm to firm to avoid sinking that misaligns the spine. Cyclists and swimmers often need shoulder pressure relief; runners need hip and lower back support."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why do athletes sleep hot?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Athletes have higher basal metabolic rates (BMR) due to greater muscle mass — muscle tissue burns more calories at rest than fat. Higher BMR means more heat generated during sleep. Additionally, post-exercise elevated core body temperature persists 3-4 hours after training, which can overlap with sleep onset. A cooling mattress facilitates the core temperature drop that initiates and deepens sleep."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is DOMS and how does mattress firmness affect it?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Delayed Onset Muscle Soreness (DOMS) is the muscle pain and stiffness that peaks 24-48 hours after intense exercise. During DOMS, muscles are inflamed and pressure-sensitive. A mattress that is too firm creates pressure point pain at hips, shoulders, and knees that directly corresponds to DOMS-affected tissue. Medium-soft to medium firmness reduces this surface pressure while still providing enough support to maintain spinal alignment."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,sans-serif;background:#0a1628;color:#e2e8f0;line-height:1.7}
+header{background:linear-gradient(135deg,#0a1628 0%,#1a2f4e 100%);padding:60px 20px 40px;text-align:center;border-bottom:1px solid #1e3a5f}
+header h1{font-size:clamp(1.6rem,4vw,2.4rem);color:#fff;max-width:800px;margin:0 auto 16px;line-height:1.3}
+.badge{display:inline-block;background:#0e7490;color:#fff;font-size:.75rem;font-weight:700;padding:4px 12px;border-radius:20px;letter-spacing:.05em;text-transform:uppercase;margin-bottom:16px}
+.subtitle{color:#94a3b8;font-size:1rem;max-width:640px;margin:0 auto 20px}
+.meta{color:#64748b;font-size:.85rem}
+nav.breadcrumb{background:#0d1f38;padding:12px 20px;font-size:.82rem;color:#64748b}
+nav.breadcrumb a{color:#c9a84c;text-decoration:none}
+nav.breadcrumb a:hover{text-decoration:underline}
+.container{max-width:860px;margin:0 auto;padding:40px 20px}
+h2{font-size:1.5rem;color:#c9a84c;margin:40px 0 16px;padding-bottom:8px;border-bottom:1px solid #1e3a5f}
+h3{font-size:1.15rem;color:#e2e8f0;margin:24px 0 10px}
+p{margin-bottom:14px;color:#cbd5e1}
+.pick{background:#111e33;border:1px solid #1e3a5f;border-radius:12px;padding:24px;margin-bottom:20px;position:relative}
+.pick-num{position:absolute;top:16px;right:16px;background:#c9a84c;color:#0a1628;font-weight:800;font-size:.8rem;padding:4px 10px;border-radius:20px}
+.pick h3{color:#c9a84c;margin-top:0}
+.pick .verdict{background:#0a1628;border-left:3px solid #c9a84c;padding:10px 14px;margin-top:12px;border-radius:0 6px 6px 0;font-size:.9rem;color:#94a3b8}
+.pick a{color:#c9a84c;text-decoration:none;font-weight:600}
+.pick a:hover{text-decoration:underline;color:#e2b96b}
+.science-box{background:#0d1f38;border:1px solid #1e3a5f;border-radius:10px;padding:20px 24px;margin:24px 0}
+.science-box h3{color:#60a5fa;margin-top:0;font-size:1rem}
+.science-box p{color:#94a3b8;font-size:.9rem;margin-bottom:8px}
+.science-box p:last-child{margin-bottom:0}
+.info-box{background:#0a1f3a;border:1px solid #1e6fa8;border-radius:10px;padding:16px 20px;margin:24px 0}
+.info-box p{color:#7dd3fc;font-size:.9rem;margin:0}
+table{width:100%;border-collapse:collapse;margin:20px 0;font-size:.88rem}
+th{background:#1e3a5f;color:#c9a84c;padding:10px 12px;text-align:left}
+td{padding:9px 12px;border-bottom:1px solid #1a2f4e;color:#cbd5e1}
+tr:nth-child(even) td{background:#0d1a2e}
+.grid-2{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:20px 0}
+@media(max-width:600px){.grid-2{grid-template-columns:1fr}}
+.grid-card{background:#111e33;border:1px solid #1e3a5f;border-radius:8px;padding:16px}
+.grid-card h4{color:#c9a84c;font-size:.9rem;margin-bottom:8px}
+.grid-card p{font-size:.85rem;color:#94a3b8;margin:0}
+.related{background:#111e33;border:1px solid #1e3a5f;border-radius:12px;padding:24px;margin:40px 0}
+.related h3{color:#c9a84c;margin-top:0}
+.related ul{list-style:none;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:8px}
+@media(max-width:600px){.related ul{grid-template-columns:1fr}}
+.related ul li a{color:#60a5fa;text-decoration:none;font-size:.9rem}
+.related ul li a:hover{text-decoration:underline;color:#c9a84c}
+footer{background:#060e1a;padding:30px 20px;text-align:center;color:#475569;font-size:.82rem;border-top:1px solid #1e3a5f}
+footer a{color:#c9a84c;text-decoration:none}
+</style>
+</head>
+<body>
+<header>
+  <span class="badge">Performance</span>
+  <h1>Best Mattress for Athletes 2025</h1>
+  <p class="subtitle">7 expert picks for sports recovery &mdash; DOMS pressure relief, cooling for high-BMR bodies, and deep NREM sleep for growth hormone release. The Stanford performance data, applied to mattress choice.</p>
+  <p class="meta">By SleepWise Reviews &bull; Updated May 2025 &bull; 7 picks</p>
+</header>
+<nav class="breadcrumb">
+  <a href="/">Home</a> &rsaquo; <a href="/posts/index.html">All Posts</a> &rsaquo; Best Mattress for Athletes
+</nav>
+
+<div class="container">
+
+<p>Sleep is the single most impactful recovery tool available to an athlete &mdash; and the one most often compromised by a bad mattress. Training damages muscle tissue; sleep is when it rebuilds. Growth hormone, the primary driver of muscle protein synthesis and tissue repair, is released in pulses during NREM3 (deep slow-wave) sleep. Anything that disrupts sleep depth &mdash; heat, pressure point pain, poor surface support &mdash; directly compromises the recovery that makes training productive.</p>
+
+<p>This guide is specifically for trained athletes: people engaged in consistent, high-intensity training who need to optimize recovery between sessions. The priorities differ from general fitness: heat dissipation is more critical (higher muscle mass = higher basal metabolic rate = more heat during sleep), support requirements vary by sport and body composition, and the consequences of poor recovery compound across a training cycle.</p>
+
+<div class="science-box">
+  <h3>The Stanford Sleep &amp; Athletic Performance Data</h3>
+  <p>Cheri Mah&rsquo;s landmark Stanford study (2011) had basketball players extend sleep from 7 to 10 hours per night for 5&ndash;7 weeks. Results: sprint time improved 5%, free throw accuracy +9%, 3-point accuracy +9.2%, reaction time +14%, mood and vigor improved significantly. No training change &mdash; only sleep extension.</p>
+  <p><em>Sleep Medicine</em> (2021) meta-analysis confirmed: athletes sleeping &lt;8 hours have 1.7x higher injury risk than those sleeping &gt;8 hours. Sleep deprivation elevates cortisol (catabolic, breaks down muscle) and suppresses growth hormone (anabolic, builds muscle) &mdash; the precise opposite of what training is trying to achieve. A mattress that improves sleep quality and depth by even 20&ndash;30 minutes of additional NREM3 is a legitimate performance intervention.</p>
+</div>
+
+<h2>Our 7 Picks</h2>
+
+<div class="pick">
+  <span class="pick-num">#1 Best Overall</span>
+  <h3><a href="https://www.amazon.com/s?k=Purple+Restore+Hybrid+Soft+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Purple Restore Hybrid Soft</a></h3>
+  <p><strong>Best for:</strong> Most athletes &mdash; cooling-first design for high-BMR bodies, DOMS pressure relief, responsive repositioning</p>
+  <p>Athletes run hot. Higher muscle mass means higher basal metabolic rate, which means more heat generated during sleep. The Purple Grid is the most temperature-neutral mainstream mattress surface: open buckling-column design allows airflow across the entire sleep surface with no foam trapping heat against the body. This facilitates the core temperature drop that initiates and deepens sleep &mdash; critical for reaching the NREM3 phase where growth hormone is released. The medium-soft (4.5/10) feel provides excellent pressure relief for DOMS-affected muscles (peaks 24&ndash;48 hours post-training). The hybrid coil base allows responsive repositioning for athletes who shift positions frequently due to training-related discomfort.</p>
+  <div class="verdict">Best cooling + best DOMS pressure relief. Grid allows continuous airflow regardless of sleep position. Adjustable base compatible.</div>
+</div>
+
+<div class="pick">
+  <span class="pick-num">#2 Best Recovery Cooling</span>
+  <h3><a href="https://www.amazon.com/s?k=Tempur-Pedic+TEMPUR-breeze+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Tempur-Pedic TEMPUR-breeze</a></h3>
+  <p><strong>Best for:</strong> Athletes who train in the evening and go to bed with elevated core temperature</p>
+  <p>Post-exercise core body temperature elevation persists 3&ndash;4 hours after training. For athletes who train at 6&ndash;8 PM and sleep at 10&ndash;11 PM, this means going to bed with a core temperature that is already elevated above baseline &mdash; delaying sleep onset and reducing NREM3 depth. The TEMPUR-breeze&rsquo;s phase-change cover actively absorbs body heat on contact, dropping the sleep surface temperature by up to 8&deg;F versus standard Tempur-Pedic. The TEMPUR-CM+ material also provides unmatched pressure relief at DOMS hotspots: quads, hamstrings, glutes, lats. The combination of active cooling and deep pressure relief makes this the best option for evening-training athletes willing to invest.</p>
+  <div class="verdict">Active phase-change cooling for post-training elevated temperature. Best DOMS pressure relief in memory foam category.</div>
+</div>
+
+<div class="pick">
+  <span class="pick-num">#3 Best Zoned Support</span>
+  <h3><a href="https://www.amazon.com/s?k=Casper+Wave+Hybrid+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Casper Wave Hybrid</a></h3>
+  <p><strong>Best for:</strong> Athletes with sport-specific body proportions requiring targeted support</p>
+  <p>Athletes rarely have average body proportions. Swimmers have broad shoulders; cyclists have tight hip flexors and quad hypertrophy; runners have asymmetric hip loading. The Wave Hybrid&rsquo;s zoned construction &mdash; softer under shoulders, firmer under hips and waist, softer again under knees and legs &mdash; provides differential support matched to the athletic body rather than the average sedentary body. For a swimmer sleeping on their side, the softer shoulder zone prevents the rotator cuff pressure that standard mattresses create. For a runner, the firmer hip zone maintains lumbar alignment through the night. The AirScape foam layers provide good cooling. Medium feel (5/10) works across most sport categories.</p>
+  <div class="verdict">Best zoned support for sport-specific body proportions. Shoulder zone critical for overhead athletes (swimmers, baseball, volleyball).</div>
+</div>
+
+<div class="pick">
+  <span class="pick-num">#4 Best for Heavy/Muscular Athletes</span>
+  <h3><a href="https://www.amazon.com/s?k=Saatva+Classic+medium+firm+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Saatva Classic Medium-Firm</a></h3>
+  <p><strong>Best for:</strong> Power athletes, weightlifters, linemen &mdash; higher body weight needing firm support without sinkage</p>
+  <p>Muscle mass is denser than fat, and heavier athletes compress mattresses more than the average user. Standard medium mattresses can cause hip sinkage for athletes over 200+ lbs, creating spinal misalignment that compounds training-induced lower back stress. The Saatva Classic Medium-Firm&rsquo;s dual-coil construction provides progressive resistance &mdash; it supports heavier bodies without the spine-misaligning compression that affects softer mattresses. The lumbar zone enhancement targets the area most stressed by compound lifting (deadlift, squat patterns). The Euro pillow-top adds surface comfort without compromising the underlying support. White glove delivery is genuinely useful for heavier mattresses.</p>
+  <div class="verdict">Best for 200+ lb athletes. Dual-coil progressive resistance prevents hip sinkage. Lumbar zone for weight-training recovery.</div>
+</div>
+
+<div class="pick">
+  <span class="pick-num">#5 Best High Body Weight</span>
+  <h3><a href="https://www.amazon.com/s?k=WinkBed+Plus+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">WinkBed Plus</a></h3>
+  <p><strong>Best for:</strong> Athletes 250+ lbs &mdash; engineered specifically for higher body weight</p>
+  <p>The WinkBed Plus is specifically engineered for heavier sleepers (250+ lbs): firmer latex comfort layer, higher-gauge steel coils, and reinforced edge support. For large power athletes &mdash; offensive linemen, competitive powerlifters, heavyweight judokas &mdash; standard mattresses bottom out under hip and shoulder weight, creating pressure points at the very tissue that needs pressure relief during recovery. The Plus model maintains its firmness profile under higher loads. The latex comfort layer (versus foam) provides natural bounce that assists with repositioning despite bodyweight, and latex runs cooler than memory foam. The gel-infused lumbar support targets the lower back loading pattern common in heavy compound training.</p>
+  <div class="verdict">Best for 250+ lb athletes. Engineered for high body weight without bottoming out. Latex cooling + responsive repositioning.</div>
+</div>
+
+<div class="pick">
+  <span class="pick-num">#6 Best Clean Recovery</span>
+  <h3><a href="https://www.amazon.com/s?k=Avocado+Green+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Avocado Green Mattress</a></h3>
+  <p><strong>Best for:</strong> Athletes focused on clean, non-toxic recovery environment</p>
+  <p>Serious athletes often apply the same scrutiny to their sleep environment that they apply to nutrition and supplementation: no synthetic compounds that could interfere with recovery. Avocado uses GOLS-certified organic latex (no synthetic latex), GOTS-certified organic cotton, and organic wool &mdash; no polyurethane foam, no synthetic adhesives, no added fire retardants (wool is the natural FR barrier). The natural latex provides excellent bounce for easy repositioning, and latex&rsquo;s open-cell structure makes it one of the cooler natural materials. The medium-firm feel (6.5/10) provides solid support for most athletic body types. For athletes already using organic bedding and prioritizing environmental cleanliness, the Avocado is consistent with that protocol.</p>
+  <div class="verdict">GOLS/GOTS organic certified. Natural latex cooling + bounce. For athletes who apply clean-living standards to sleep.</div>
+</div>
+
+<div class="pick">
+  <span class="pick-num">#7 Budget Pick</span>
+  <h3><a href="https://www.amazon.com/s?k=DreamCloud+Premier+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">DreamCloud Premier</a></h3>
+  <p><strong>Best for:</strong> Athletes on a budget who need hybrid performance without premium price</p>
+  <p>The DreamCloud Premier provides a hybrid coil system with individually wrapped springs (better response and airflow than all-foam), a cashmere-blend euro pillow-top that provides reasonable DOMS pressure relief, and a medium (5/10) feel that works across most sport types and body sizes under 220 lbs. The 365-night trial gives athletes time to assess it across a full training cycle &mdash; including heavy training blocks when DOMS is frequent. Not as cool as Purple or as pressure-relieving as Tempur-breeze, but a strong all-round athlete mattress when budget is the constraint. Breathable cover helps with training-induced heat.</p>
+  <div class="verdict">Best budget hybrid for athletes. 365-night trial covers a full training cycle. Cashmere pillow-top for DOMS relief.</div>
+</div>
+
+<h2>Sport Type vs Mattress Priority</h2>
+<table>
+  <tr><th>Sport / Training Type</th><th>Primary Recovery Need</th><th>Recommended Pick</th></tr>
+  <tr><td>Running (endurance)</td><td>Hip &amp; IT band pressure relief, lower back support</td><td>Purple Restore Hybrid or Casper Wave</td></tr>
+  <tr><td>Weightlifting / Powerlifting</td><td>Lower back + glute support, heavy body weight</td><td>Saatva Classic MF or WinkBed Plus</td></tr>
+  <tr><td>Swimming</td><td>Shoulder pressure relief (rotator cuff), cooling</td><td>Casper Wave or Purple Restore</td></tr>
+  <tr><td>Cycling</td><td>Hip flexor &amp; quad relief, lower back decompression</td><td>Purple Restore or Tempur-breeze</td></tr>
+  <tr><td>Team sports (basketball, soccer, football)</td><td>Full-body recovery, multiple pressure points</td><td>Casper Wave or Saatva Classic</td></tr>
+  <tr><td>Combat sports (wrestling, judo, MMA)</td><td>Shoulder &amp; hip impact recovery, high BMR cooling</td><td>Purple Restore or WinkBed Plus</td></tr>
+  <tr><td>Evening training (cool-down sleep overlap)</td><td>Active cooling for post-exercise temperature</td><td>Tempur-Pedic TEMPUR-breeze</td></tr>
+</table>
+
+<h2>Sleep Architecture &amp; Athletic Recovery</h2>
+<p>Not all sleep is equal for recovery. Understanding which sleep stages matter helps explain why a mattress that disrupts sleep quality &mdash; through heat, pressure pain, or partner disturbance &mdash; directly compromises recovery.</p>
+
+<div class="grid-2">
+  <div class="grid-card">
+    <h4>NREM3 (Deep Slow-Wave) Sleep</h4>
+    <p>Growth hormone is released in pulses here. This is when muscle protein synthesis and tissue repair is at its peak. Anything that disrupts sleep depth &mdash; heat, pain, noise &mdash; reduces NREM3 time and recovery quality.</p>
+  </div>
+  <div class="grid-card">
+    <h4>REM Sleep</h4>
+    <p>Motor skill consolidation and neural recovery. Athletes learning new movement patterns consolidate motor memory during REM. REM is temperature-sensitive &mdash; excessive body heat during REM suppresses the stage and reduces motor learning.</p>
+  </div>
+  <div class="grid-card">
+    <h4>NREM1 &amp; NREM2 (Light Sleep)</h4>
+    <p>Where most mattress-related disruptions occur. Pressure point pain from DOMS activates micro-arousals in light sleep, preventing deep descent. A mattress with poor pressure relief literally blocks deep sleep entry.</p>
+  </div>
+  <div class="grid-card">
+    <h4>Sleep Onset</h4>
+    <p>Core body temperature must drop ~1-2&deg;F to initiate sleep. Athletes with post-exercise elevated temperature have delayed sleep onset. A cool sleep surface accelerates this drop and reduces time-to-sleep significantly.</p>
+  </div>
+</div>
+
+<h2>Athlete Weight vs Recommended Firmness</h2>
+<table>
+  <tr><th>Body Weight</th><th>Recommended Firmness</th><th>Why</th></tr>
+  <tr><td>Under 150 lbs</td><td>Medium-soft (4-5/10)</td><td>Lighter athletes don't compress mattress enough on medium; shoulder/hip sink is insufficient</td></tr>
+  <tr><td>150&ndash;200 lbs</td><td>Medium (5-6/10)</td><td>Standard recommendation; full compression into comfort layer without hip sinkage</td></tr>
+  <tr><td>200&ndash;250 lbs</td><td>Medium-firm (6-7/10)</td><td>Prevents hip sinkage that misaligns spine under higher weight</td></tr>
+  <tr><td>250+ lbs</td><td>Firm (7-8/10) or Plus models</td><td>Standard firmness mattresses bottom out; engineered heavy-duty coils required</td></tr>
+</table>
+
+<div class="info-box">
+  <p><strong>Nap strategy:</strong> Many athletes use planned naps as part of recovery. A nap of 20&ndash;25 minutes (NREM1/NREM2 only &mdash; before deep sleep onset) reduces fatigue without sleep inertia. A 90-minute nap (one full sleep cycle) provides NREM3 recovery. For naps on the same mattress, a surface that is responsive enough to allow easy rising without full wake-up is important &mdash; avoid deep memory foam for napping athletes who need quick recovery from nap to performance.</p>
+</div>
+
+<div class="related">
+  <h3>Related Guides</h3>
+  <ul>
+    <li><a href="/posts/best-mattress-hot-sleepers.html">Best Mattress for Hot Sleepers</a></li>
+    <li><a href="/posts/best-mattress-back-pain.html">Best Mattress for Back Pain</a></li>
+    <li><a href="/posts/best-mattress-hip-pain.html">Best Mattress for Hip Pain</a></li>
+    <li><a href="/posts/best-mattress-shoulder-pain.html">Best Mattress for Shoulder Pain</a></li>
+    <li><a href="/posts/best-mattress-adjustable-base.html">Best Mattress for Adjustable Base</a></li>
+    <li><a href="/posts/best-mattress-couples.html">Best Mattress for Couples</a></li>
+  </ul>
+</div>
+
+</div>
+
+<footer>
+  <p>&copy; 2025 SleepWise Reviews &bull; <a href="/privacy.html">Privacy Policy</a> &bull; <a href="/disclosure.html">Affiliate Disclosure</a></p>
+  <p style="margin-top:8px;font-size:.75rem">We may earn a commission from Amazon links at no extra cost to you.</p>
+</footer>
+</body>
+</html>"""
+
+with open(out, "w", encoding="utf-8") as f:
+    f.write(html)
+print(f"Created: {out}")
