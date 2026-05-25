@@ -1,0 +1,351 @@
+out = open("posts/best-mattress-huntingtons-disease.html", "w", encoding="utf-8")
+out.write("""<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Best Mattress for Huntington's Disease 2026 | SleepWiseReviews</title>
+<meta name="description" content="7 best mattresses for Huntington's disease in 2026. Expert picks addressing sleep chorea, REM behavior disorder, circadian disruption, fall risk, late-stage dysphagia positioning, and caregiver sleep at every HD stage.">
+<link rel="canonical" href="https://sleepwisereviews.com/posts/best-mattress-huntingtons-disease.html">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Best Mattress for Huntington's Disease 2026",
+  "description": "7 best mattresses for Huntington's disease addressing chorea, REM behavior disorder, circadian disruption, and progressive disease staging.",
+  "author": {"@type": "Organization", "name": "SleepWiseReviews"},
+  "publisher": {"@type": "Organization", "name": "SleepWiseReviews", "url": "https://sleepwisereviews.com"},
+  "datePublished": "2026-05-26",
+  "dateModified": "2026-05-26",
+  "mainEntityOfPage": "https://sleepwisereviews.com/posts/best-mattress-huntingtons-disease.html"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://sleepwisereviews.com/"},
+    {"@type": "ListItem", "position": 2, "name": "Posts", "item": "https://sleepwisereviews.com/posts/index.html"},
+    {"@type": "ListItem", "position": 3, "name": "Best Mattress for Huntington's Disease", "item": "https://sleepwisereviews.com/posts/best-mattress-huntingtons-disease.html"}
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Best Mattresses for Huntington's Disease 2026",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Purple Restore Plus Hybrid", "url": "https://www.amazon.com/s?k=purple+restore+plus+hybrid+mattress&tag=sleepwiserevi-20"},
+    {"@type": "ListItem", "position": 2, "name": "Saatva Classic with Adjustable Base", "url": "https://www.amazon.com/s?k=saatva+adjustable+base+mattress&tag=sleepwiserevi-20"},
+    {"@type": "ListItem", "position": 3, "name": "Tempur-Pedic TEMPUR-Adapt", "url": "https://www.amazon.com/s?k=tempur-pedic+tempur-adapt+mattress&tag=sleepwiserevi-20"},
+    {"@type": "ListItem", "position": 4, "name": "Casper Wave Hybrid", "url": "https://www.amazon.com/s?k=casper+wave+hybrid+mattress&tag=sleepwiserevi-20"},
+    {"@type": "ListItem", "position": 5, "name": "Helix Midnight Luxe", "url": "https://www.amazon.com/s?k=helix+midnight+luxe+mattress&tag=sleepwiserevi-20"},
+    {"@type": "ListItem", "position": 6, "name": "Nectar Premier Hybrid", "url": "https://www.amazon.com/s?k=nectar+premier+hybrid+mattress&tag=sleepwiserevi-20"},
+    {"@type": "ListItem", "position": 7, "name": "DreamCloud Premier Rest", "url": "https://www.amazon.com/s?k=dreamcloud+premier+rest+mattress&tag=sleepwiserevi-20"}
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the best mattress for Huntington's disease chorea at night?",
+      "acceptedAnswer": {"@type": "Answer", "text": "The Purple Restore Plus Hybrid is the best choice for HD chorea during sleep. Its GelFlex polymer grid absorbs involuntary choreiform movements without transmitting them to the sleeping surface or partner. Unlike memory foam, the polymer grid does not resist involuntary movements -- it yields, dampens, and resets. This prevents the micro-injury accumulation that comes from chorea repeatedly pushing against an unyielding surface throughout the night."}
+    },
+    {
+      "@type": "Question",
+      "name": "Does Huntington's disease affect sleep?",
+      "acceptedAnswer": {"@type": "Answer", "text": "HD severely disrupts sleep through multiple mechanisms. Striatal neurodegeneration dysregulates the basal ganglia-thalamo-cortical sleep circuit, causing reduced slow-wave sleep and sleep spindle abnormalities detectable even in presymptomatic gene carriers. Choreiform movements persist into light sleep (N1/N2) and may partially continue in N3. REM behavior disorder (RBD) occurs in up to 40% of HD patients. Depression (30-40%), irritability/aggression (60-70%), and circadian rhythm disruption compound the neurological sleep architecture damage."}
+    },
+    {
+      "@type": "Question",
+      "name": "What mattress features help with REM behavior disorder in Huntington's?",
+      "acceptedAnswer": {"@type": "Answer", "text": "REM behavior disorder in HD requires a mattress with excellent motion isolation to protect partners from acting-out movements, and a low-profile or adjustable height to reduce fall injury risk when RBD episodes result in falling out of bed. Memory foam mattresses like Tempur-Pedic offer the highest motion isolation. Bed rails or positioning bolsters can be added alongside a low-motion mattress to create a safer sleep environment."}
+    },
+    {
+      "@type": "Question",
+      "name": "How does HD progression change mattress needs?",
+      "acceptedAnswer": {"@type": "Answer", "text": "HD mattress needs shift across three stages: Early stage (chorea mild, psychiatric prominent) -- prioritize psychiatric sleep support, circadian rhythm management, and partner motion isolation. Middle stage (chorea severe, cognitive decline) -- prioritize movement absorption, fall risk reduction at bed edge, and caregiver repositioning access. Late stage (rigid-akinetic phase, dysphagia) -- prioritize pressure injury prevention, head elevation for aspiration prevention, and maximum caregiver access. A mattress suitable at one stage may require supplemental overlays or replacement at a later stage."}
+    },
+    {
+      "@type": "Question",
+      "name": "Is there a genetic risk concern for HD caregivers' sleep?",
+      "acceptedAnswer": {"@type": "Answer", "text": "HD caregivers -- often spouses or adult children of the patient -- face a unique existential burden: adult children have a 50% chance of carrying the HD mutation themselves. This genetic anticipatory grief compounds normal caregiver sleep disruption with chronic anxiety and depression. HD caregiver sleep quality is substantially worse than general caregiver populations. A split king adjustable configuration allows independent sleep environments, protecting caregiver sleep as a long-term priority alongside patient care."}
+    }
+  ]
+}
+</script>
+<style>
+:root{--bg:#0a1628;--card:#111e33;--gold:#c9a84c;--text:#e8eaf0;--muted:#8892a4;--red:#dc2626}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;line-height:1.7}
+a{color:var(--gold);text-decoration:none}
+a:hover{text-decoration:underline}
+header{background:linear-gradient(135deg,#060e1f,#0d1e3a);padding:16px 24px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #1e3050}
+.logo{font-size:1.3rem;font-weight:700;color:var(--gold)}
+nav a{color:var(--muted);margin-left:20px;font-size:.9rem}
+.hero{max-width:860px;margin:48px auto 0;padding:0 24px}
+.cat-badge{display:inline-block;background:var(--red);color:#fff;font-size:.72rem;font-weight:700;letter-spacing:.08em;padding:4px 10px;border-radius:4px;text-transform:uppercase;margin-bottom:16px}
+h1{font-size:clamp(1.6rem,4vw,2.4rem);font-weight:800;line-height:1.25;margin-bottom:16px}
+.subtitle{font-size:1.05rem;color:var(--muted);margin-bottom:32px}
+.meta{font-size:.82rem;color:var(--muted);margin-bottom:40px}
+.toc{background:var(--card);border:1px solid #1e3050;border-radius:10px;padding:20px 24px;margin-bottom:40px}
+.toc h2{font-size:1rem;margin-bottom:12px;color:var(--gold)}
+.toc ol{padding-left:20px}
+.toc li{margin-bottom:6px;font-size:.9rem}
+.science-box{background:#0d1e35;border-left:4px solid var(--gold);border-radius:8px;padding:20px 24px;margin-bottom:40px}
+.science-box h2{font-size:1rem;color:var(--gold);margin-bottom:12px}
+.science-box ul{padding-left:20px}
+.science-box li{margin-bottom:8px;font-size:.9rem;color:var(--muted)}
+.note-box{background:#1a1000;border:1px solid #7c5200;border-radius:8px;padding:16px 20px;margin-bottom:32px}
+.note-box strong{color:#f59e0b}
+.picks{max-width:860px;margin:0 auto;padding:0 24px}
+.pick-card{background:var(--card);border:1px solid #1e3050;border-radius:12px;padding:28px;margin-bottom:24px;position:relative}
+.pick-num{position:absolute;top:20px;right:20px;background:var(--gold);color:#000;font-weight:800;font-size:.8rem;padding:4px 10px;border-radius:20px}
+.pick-card h3{font-size:1.2rem;margin-bottom:8px;padding-right:60px}
+.pick-tag{display:inline-block;font-size:.72rem;background:#1e3050;color:var(--gold);border-radius:4px;padding:2px 8px;margin-bottom:12px}
+.pick-card p{font-size:.93rem;color:var(--muted);margin-bottom:16px}
+.clinical{background:#060e1f;border-radius:6px;padding:12px 16px;font-size:.85rem;color:#7eb3d4;margin-bottom:16px}
+.clinical strong{color:#a8d4f0}
+.btn{display:inline-block;background:var(--gold);color:#000;font-weight:700;padding:10px 22px;border-radius:6px;font-size:.88rem}
+.btn:hover{background:#e0bb6a;text-decoration:none}
+.data-table{width:100%;border-collapse:collapse;margin-bottom:40px;font-size:.88rem}
+.data-table th{background:#0d1e35;color:var(--gold);padding:10px 14px;text-align:left;border-bottom:2px solid #1e3050}
+.data-table td{padding:10px 14px;border-bottom:1px solid #1a2d4a;color:var(--muted)}
+.data-table tr:hover td{background:#0d1e35}
+.section-title{max-width:860px;margin:40px auto 20px;padding:0 24px;font-size:1.3rem;font-weight:700;color:var(--text)}
+.faq{max-width:860px;margin:0 auto;padding:0 24px 60px}
+.faq h2{font-size:1.3rem;margin-bottom:24px}
+.faq-item{border-bottom:1px solid #1e3050;padding:20px 0}
+.faq-item h3{font-size:1rem;color:var(--text);margin-bottom:10px}
+.faq-item p{font-size:.9rem;color:var(--muted)}
+.related{max-width:860px;margin:0 auto 60px;padding:0 24px}
+.related h2{font-size:1.2rem;margin-bottom:16px}
+.related-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px}
+.related-card{background:var(--card);border:1px solid #1e3050;border-radius:8px;padding:14px 16px;font-size:.88rem}
+.related-card a{color:var(--text)}
+footer{background:#060e1f;border-top:1px solid #1e3050;padding:32px 24px;text-align:center;font-size:.82rem;color:var(--muted)}
+footer a{color:var(--muted)}
+@media(max-width:600px){.pick-card{padding:20px}}
+</style>
+</head>
+<body>
+<header>
+  <a class="logo" href="/">SleepWiseReviews</a>
+  <nav>
+    <a href="/posts/index.html">All Posts</a>
+    <a href="/#categories">Categories</a>
+  </nav>
+</header>
+
+<div class="hero">
+  <span class="cat-badge">Health Conditions</span>
+  <h1>Best Mattress for Huntington's Disease 2026</h1>
+  <p class="subtitle">7 picks addressing HD sleep chorea, REM behavior disorder, circadian rhythm disruption, fall risk, late-stage dysphagia positioning, and caregiver sleep across every disease stage.</p>
+  <p class="meta">By SleepWiseReviews Editorial &bull; Updated May 2026 &bull; 7 picks reviewed</p>
+
+  <div class="toc">
+    <h2>Quick Navigation</h2>
+    <ol>
+      <li><a href="#pick1">Purple Restore Plus &mdash; Best for HD Chorea Movement Absorption</a></li>
+      <li><a href="#pick2">Saatva + Adjustable Base &mdash; Best for Late-Stage &amp; Dysphagia</a></li>
+      <li><a href="#pick3">Tempur-Pedic TEMPUR-Adapt &mdash; Best for REM Behavior Disorder</a></li>
+      <li><a href="#pick4">Casper Wave Hybrid &mdash; Best for HD Cachexia &amp; Bony Prominences</a></li>
+      <li><a href="#pick5">Helix Midnight Luxe &mdash; Best for Caregiver Sleep</a></li>
+      <li><a href="#pick6">Nectar Premier Hybrid &mdash; Best for Circadian Rhythm Disruption</a></li>
+      <li><a href="#pick7">DreamCloud Premier &mdash; Best for Early-Stage &amp; Presymptomatic HD</a></li>
+    </ol>
+  </div>
+
+  <div class="science-box">
+    <h2>Why HD Creates a Unique Sleep Crisis</h2>
+    <ul>
+      <li><strong>Sleep chorea:</strong> HD choreiform movements partially persist into N1 and N2 sleep &mdash; the stages comprising 50&ndash;60% of a normal night. Unlike Parkinson's tremor (which largely stops during sleep), HD chorea continues through light sleep, only substantially reducing in N3 slow-wave sleep and REM. This means 3&ndash;4 hours per night of continuous involuntary micro-movements on the mattress surface.</li>
+      <li><strong>Striatal neurodegeneration disrupts sleep architecture:</strong> The basal ganglia-thalamo-cortical circuit regulates sleep stage transitions and sleep spindle generation. HD striatal neuron loss causes measurable sleep spindle abnormalities (reduced density and amplitude) even in presymptomatic gene carriers &mdash; years before motor symptoms. Slow-wave sleep (N3) is reduced by 30&ndash;40% by mid-stage HD.</li>
+      <li><strong>REM behavior disorder (RBD):</strong> Up to 40% of HD patients develop RBD &mdash; acting out dreams during REM sleep. HD-associated RBD differs from Parkinson's RBD: it occurs in the context of general sleep architecture collapse and may involve choreiform acting-out behaviors rather than purely purposeful dream-enacting movements.</li>
+      <li><strong>Circadian rhythm disruption:</strong> The suprachiasmatic nucleus (SCN) regulates circadian rhythms; striatal inputs modulate SCN output. HD disrupts this circuit, causing phase delays, irregular sleep-wake patterns, and circadian instability measurable by actigraphy in presymptomatic carriers. Circadian disruption is now considered a prodromal biomarker of HD.</li>
+      <li><strong>Psychiatric sleep burden:</strong> Depression (30&ndash;40%), irritability/aggression (60&ndash;70%), obsessive-compulsive behaviors (20&ndash;30%), and psychosis (3&ndash;11%) all independently disrupt sleep. HD depression responds poorly to standard antidepressants due to the neurological substrate, making sleep hygiene and environment optimization more critical.</li>
+      <li><strong>HD cachexia &amp; pressure vulnerability:</strong> HD causes significant weight loss (up to 15&ndash;20% of body mass) despite adequate caloric intake &mdash; driven by choreiform hypermetabolism (chorea burns 800&ndash;1,200 extra kcal/day) and dysphagia. Weight loss reduces adipose tissue padding over bony prominences, increasing pressure injury risk even in ambulatory patients.</li>
+    </ul>
+  </div>
+
+  <div class="note-box">
+    <strong>Note:</strong> HD follows an autosomal dominant inheritance pattern. Adult children of HD patients have a 50% chance of carrying the HTT gene expansion. Predictive genetic testing is available but not always chosen. Presymptomatic carriers often experience sleep disruption (particularly circadian abnormalities) years before motor onset. If you are caring for an HD patient, your own sleep health requires specific protection given the caregiver burden combined with potential genetic anxiety.
+  </div>
+</div>
+
+<div class="picks">
+
+  <div class="pick-card" id="pick1">
+    <div class="pick-num">#1</div>
+    <h3>Purple Restore Plus Hybrid</h3>
+    <span class="pick-tag">Best for HD Chorea Movement Absorption</span>
+    <p>Purple's GelFlex polymer grid is uniquely suited to HD chorea because it yields to involuntary movements rather than resisting them. Each grid column buckles independently &mdash; choreiform jerks push into the grid, the relevant columns collapse to absorb the movement, and adjacent columns remain stable. This prevents the micro-injury accumulation that occurs when chorea repetitively pushes against a resistant foam surface throughout the night, and preserves the patient's position between choreic episodes.</p>
+    <div class="clinical">
+      <strong>Clinical rationale:</strong> HD chorea scoring (UHDRS motor scale) correlates with sleep quality &mdash; higher chorea severity predicts worse sleep efficiency. Chorea in HD persists at 30&ndash;60% of waking intensity during N1/N2 sleep. A resistant mattress surface creates opposing force during choreiform movements, increasing muscle activation and prolonging choreic episodes. A yielding surface (polymer grid, or deep contouring foam) allows movements to complete their arc without resistance, reducing the energy each episode requires and shortening its duration.
+    </div>
+    <a class="btn" href="https://www.amazon.com/s?k=purple+restore+plus+hybrid+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+
+  <div class="pick-card" id="pick2">
+    <div class="pick-num">#2</div>
+    <h3>Saatva Classic with Adjustable Base</h3>
+    <span class="pick-tag">Best for Late-Stage HD &amp; Dysphagia Positioning</span>
+    <p>Late-stage HD transitions from choreiform to rigid-akinetic &mdash; patients become increasingly immobile and develop severe dysphagia. Saatva's adjustable base compatibility allows 30&ndash;45 degree head elevation to reduce aspiration risk from sialorrhea (excess saliva) and impaired swallowing reflexes. The steel-reinforced perimeter coils provide the edge strength required for caregiver pivot transfers as HD motor control deteriorates. The white-glove delivery includes in-home setup, removing installation burden from already-stretched caregivers.</p>
+    <div class="clinical">
+      <strong>Clinical rationale:</strong> Late-stage HD dysphagia is a primary cause of aspiration pneumonia &mdash; the leading cause of HD-related death. Nocturnal aspiration risk is highest in supine position with pooled secretions. Head elevation during sleep reduces pooling and activates gravity-assisted clearance. The rigid-akinetic late stage also creates bilateral pressure injury risk at sacrum, heels, and occiput. Adjustable positioning distributes these pressures across changing contact surfaces through the night.
+    </div>
+    <a class="btn" href="https://www.amazon.com/s?k=saatva+adjustable+base+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+
+  <div class="pick-card" id="pick3">
+    <div class="pick-num">#3</div>
+    <h3>Tempur-Pedic TEMPUR-Adapt</h3>
+    <span class="pick-tag">Best for REM Behavior Disorder &amp; Partner Protection</span>
+    <p>TEMPUR material provides the highest motion isolation of any mattress category &mdash; critical for HD-associated REM behavior disorder. When HD patients act out dreams during REM sleep, Tempur's viscoelastic structure absorbs the movement at the source rather than transmitting it across the mattress surface. This protects the partner from being struck during acting-out episodes and reduces the likelihood that the patient's own RBD movements will fully awaken them and disrupt their sleep architecture further.</p>
+    <div class="clinical">
+      <strong>Clinical rationale:</strong> RBD in HD reflects degeneration of the pedunculopontine nucleus (PPN) and adjacent brainstem structures that normally suppress motor output during REM. Unlike idiopathic RBD (which predicts Parkinson's/Lewy Body dementia), HD-associated RBD develops in the context of broader neurological collapse. Clonazepam and melatonin partially manage RBD episodes, but mattress motion isolation provides a physical safety layer independent of medication compliance (which is often inconsistent in HD due to cognitive decline).
+    </div>
+    <a class="btn" href="https://www.amazon.com/s?k=tempur-pedic+tempur-adapt+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+
+  <div class="pick-card" id="pick4">
+    <div class="pick-num">#4</div>
+    <h3>Casper Wave Hybrid</h3>
+    <span class="pick-tag">Best for HD Cachexia &amp; Bony Prominence Protection</span>
+    <p>HD cachexia reduces subcutaneous adipose tissue at bony prominences &mdash; the natural pressure cushion protecting skin from mattress contact. The Casper Wave's ergonomic zone system provides targeted pressure relief at hips and shoulders (the primary bony-prominence contact points for side sleepers) while maintaining firmer lumbar support to prevent spinal misalignment. This targeted architecture compensates for the lost adipose padding without requiring a medically-classified pressure relief surface.</p>
+    <div class="clinical">
+      <strong>Clinical rationale:</strong> HD hypermetabolism from choreiform movements burns 800&ndash;1,200 additional kcal/day. Combined with dysphagia-related caloric intake reduction in later stages, HD patients lose an average of 15&ndash;20% of pre-morbid body weight. At BMI below 18.5, bony prominence padding is clinically compromised. Zoned mattress support that delivers lower peak pressure (&lt;32 mmHg) at trochanters and lateral malleoli compensates for this reduced natural protection without requiring full hospital-grade pressure redistribution.
+    </div>
+    <a class="btn" href="https://www.amazon.com/s?k=casper+wave+hybrid+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+
+  <div class="pick-card" id="pick5">
+    <div class="pick-num">#5</div>
+    <h3>Helix Midnight Luxe</h3>
+    <span class="pick-tag">Best for Caregiver Sleep Preservation</span>
+    <p>HD caregivers &mdash; typically spouses or adult children who may carry the HD gene themselves &mdash; face a sleep burden unique to neurological caregiving: the combination of physical disruption (night repositioning, RBD episodes) and existential anxiety (genetic risk, disease trajectory grief). The Helix Midnight Luxe in split king configuration provides independent sleep environments: the patient's side absorbs choreiform movements, the caregiver's side remains undisturbed. Zoned lumbar support protects the caregiver's back during physical repositioning tasks.</p>
+    <div class="clinical">
+      <strong>Clinical rationale:</strong> HD caregiver sleep is among the most severely disrupted in neurological caregiving &mdash; worse than Alzheimer's or Parkinson's caregivers in some measures, due to the combination of unpredictable choreiform episodes, psychiatric behavioral disturbance at night, and unique existential burden. HD adult children caregivers face a 50% personal genetic risk, creating anticipatory anxiety that independently disrupts sleep independent of caregiving demands. Protecting caregiver sleep is not secondary &mdash; it determines how long home-based care is sustainable.
+    </div>
+    <a class="btn" href="https://www.amazon.com/s?k=helix+midnight+luxe+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+
+  <div class="pick-card" id="pick6">
+    <div class="pick-num">#6</div>
+    <h3>Nectar Premier Hybrid</h3>
+    <span class="pick-tag">Best for Circadian Rhythm Disruption &amp; Variable Disease Course</span>
+    <p>HD circadian rhythm disruption &mdash; measurable in presymptomatic carriers &mdash; causes irregular sleep onset times and fragmented sleep architecture that standard mattress-only interventions cannot fully resolve. Nectar's 365-night trial allows families to test sleep environment modifications over a full year across seasonal circadian changes, medication adjustments, and disease progression. The gel memory foam provides consistent pressure relief regardless of the irregular sleep positions that circadian-disrupted patients adopt.</p>
+    <div class="clinical">
+      <strong>Clinical rationale:</strong> Circadian rhythm disruption in HD is now considered a prodromal marker &mdash; actigraphy studies show abnormal rest-activity rhythms in CAG-expanded presymptomatic carriers up to 15 years before motor onset. Striatal projections to the suprachiasmatic nucleus (SCN) are disrupted early in HD neurodegeneration. Light therapy and melatonin partially compensate, but consistent sleep timing requires a comfortable, consistent sleep environment as the foundation. A 365-night trial provides a full seasonal cycle for assessment.
+    </div>
+    <a class="btn" href="https://www.amazon.com/s?k=nectar+premier+hybrid+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+
+  <div class="pick-card" id="pick7">
+    <div class="pick-num">#7</div>
+    <h3>DreamCloud Premier Rest</h3>
+    <span class="pick-tag">Best for Early-Stage &amp; Presymptomatic HD</span>
+    <p>At diagnosis or in the presymptomatic period, HD sleep disruption is primarily psychiatric and circadian &mdash; not yet dominated by chorea severity. The DreamCloud Premier Rest provides luxury-feel sleep quality appropriate for this stage, establishing the sleep environment and habits that will anchor the patient's routine as the disease progresses. Its hybrid construction offers the responsive feel preferred by early-stage patients who remain fully ambulatory, without the constraining contouring that becomes limiting when repositioning assistance begins.</p>
+    <div class="clinical">
+      <strong>Clinical rationale:</strong> Predictive genetic testing allows HD identification years before motor onset. Presymptomatic carriers demonstrate sleep abnormalities (circadian disruption, reduced sleep spindles) by actigraphy and polysomnography despite normal UHDRS motor scores. Treating sleep proactively at this stage preserves cognitive reserve &mdash; critical for HD patients, as cognitive decline is a major feature of mid-stage HD. Early sleep optimization is among the few modifiable factors available before motor symptoms become disabling.
+    </div>
+    <a class="btn" href="https://www.amazon.com/s?k=dreamcloud+premier+rest+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+
+</div>
+
+<div class="section-title">HD Disease Stage &mdash; Mattress Priority Guide</div>
+<div style="max-width:860px;margin:0 auto 40px;padding:0 24px;overflow-x:auto">
+<table class="data-table">
+  <thead>
+    <tr>
+      <th>HD Stage</th>
+      <th>Primary Sleep Problem</th>
+      <th>Top Pick</th>
+      <th>Key Feature</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Presymptomatic (CAG+ no motor signs)</td>
+      <td>Circadian disruption, psychiatric anxiety</td>
+      <td>DreamCloud, Nectar</td>
+      <td>Sleep quality foundation, extended trial</td>
+    </tr>
+    <tr>
+      <td>Early (mild chorea, ambulatory)</td>
+      <td>Chorea onset, RBD emerging, depression</td>
+      <td>Purple Restore Plus, Tempur</td>
+      <td>Chorea absorption, motion isolation</td>
+    </tr>
+    <tr>
+      <td>Middle (moderate chorea, cognitive decline)</td>
+      <td>Severe chorea, fall risk, caregiver strain</td>
+      <td>Purple Restore, Casper Wave, Helix</td>
+      <td>Movement dampening, pressure relief, caregiver access</td>
+    </tr>
+    <tr>
+      <td>Late (rigid-akinetic, dysphagia)</td>
+      <td>Aspiration, immobility, pressure injury</td>
+      <td>Saatva + adjustable, Purple</td>
+      <td>Head elevation, maximum pressure redistribution</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<div class="faq">
+  <h2>Frequently Asked Questions</h2>
+
+  <div class="faq-item">
+    <h3>What is the best mattress for Huntington's disease chorea at night?</h3>
+    <p>The Purple Restore Plus Hybrid is the best choice for HD chorea during sleep. Its GelFlex polymer grid absorbs involuntary choreiform movements without transmitting them to the sleeping surface or partner. Unlike memory foam, the polymer grid does not resist involuntary movements &mdash; it yields, dampens, and resets. This prevents micro-injury accumulation from chorea pushing against an unyielding surface throughout the night.</p>
+  </div>
+
+  <div class="faq-item">
+    <h3>Does Huntington's disease affect sleep?</h3>
+    <p>HD severely disrupts sleep through multiple mechanisms. Striatal neurodegeneration dysregulates the basal ganglia-thalamo-cortical sleep circuit, causing reduced slow-wave sleep and sleep spindle abnormalities detectable even in presymptomatic gene carriers. Choreiform movements persist into light sleep (N1/N2). REM behavior disorder occurs in up to 40% of HD patients. Depression (30&ndash;40%), irritability/aggression (60&ndash;70%), and circadian rhythm disruption compound the neurological damage.</p>
+  </div>
+
+  <div class="faq-item">
+    <h3>What mattress features help with REM behavior disorder in Huntington's?</h3>
+    <p>REM behavior disorder in HD requires a mattress with excellent motion isolation to protect partners from acting-out movements, and a low-profile or adjustable height to reduce fall injury risk when RBD episodes result in falling out of bed. Memory foam mattresses like Tempur-Pedic offer the highest motion isolation. Bed rails or positioning bolsters can be added alongside a low-motion mattress to create a safer sleep environment.</p>
+  </div>
+
+  <div class="faq-item">
+    <h3>How does HD progression change mattress needs?</h3>
+    <p>HD mattress needs shift across three stages: Early (chorea mild, psychiatric prominent) &mdash; prioritize movement absorption and partner motion isolation. Middle (chorea severe, cognitive decline) &mdash; prioritize choreiform absorption, fall risk reduction, and caregiver repositioning access. Late (rigid-akinetic, dysphagia) &mdash; prioritize pressure injury prevention, head elevation for aspiration prevention, and maximum caregiver access. A mattress suitable at one stage may require supplemental overlays or replacement at a later stage.</p>
+  </div>
+
+  <div class="faq-item">
+    <h3>Is there a genetic risk concern for HD caregivers' sleep?</h3>
+    <p>HD caregivers &mdash; often spouses or adult children of the patient &mdash; face a unique existential burden: adult children have a 50% chance of carrying the HD mutation themselves. This genetic anticipatory grief compounds normal caregiver sleep disruption with chronic anxiety and depression. A split king adjustable configuration allows independent sleep environments, protecting caregiver sleep as a long-term priority alongside patient care.</p>
+  </div>
+</div>
+
+<div class="related">
+  <h2>Related Guides</h2>
+  <div class="related-grid">
+    <div class="related-card"><a href="best-mattress-als.html">Best Mattress for ALS</a></div>
+    <div class="related-card"><a href="best-mattress-parkinsons.html">Best Mattress for Parkinson's Disease</a></div>
+    <div class="related-card"><a href="best-mattress-multiple-sclerosis.html">Best Mattress for Multiple Sclerosis</a></div>
+    <div class="related-card"><a href="best-mattress-chronic-pain.html">Best Mattress for Chronic Pain</a></div>
+    <div class="related-card"><a href="best-mattress-restless-legs.html">Best Mattress for Restless Legs Syndrome</a></div>
+    <div class="related-card"><a href="best-mattress-rem-sleep-disorder.html">Best Mattress for REM Sleep Disorder</a></div>
+  </div>
+</div>
+
+<footer>
+  <p>&copy; 2026 SleepWiseReviews &mdash; <a href="/privacy.html">Privacy Policy</a> &bull; <a href="/disclaimer.html">Affiliate Disclaimer</a></p>
+  <p style="margin-top:8px;font-size:.78rem">SleepWiseReviews participates in the Amazon Associates program. We earn commissions on qualifying purchases at no extra cost to you.</p>
+</footer>
+</body>
+</html>""")
+out.close()
+print("Generated posts/best-mattress-huntingtons-disease.html")
