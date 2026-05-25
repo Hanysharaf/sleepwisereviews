@@ -1,0 +1,489 @@
+"""Generate posts/best-vitamin-d-sleep.html"""
+slug = 'best-vitamin-d-sleep'
+title = 'Best Vitamin D Supplements for Sleep (2026): D3 Picks to Fix Deficiency-Related Insomnia'
+description = 'Top vitamin D3 supplements that address deficiency-linked sleep disruption — improving sleep duration, reducing nighttime waking, and supporting melatonin production. Evidence-based picks.'
+
+html = f'''<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{title} | SleepWise Reviews</title>
+  <meta name="description" content="{description}" />
+  <meta name="robots" content="index, follow" />
+  <link rel="canonical" href="https://sleepwisereviews.com/posts/{slug}.html" />
+  <meta property="og:title" content="{title}" />
+  <meta property="og:description" content="{description}" />
+  <meta property="og:type" content="article" />
+  <meta property="og:url" content="https://sleepwisereviews.com/posts/{slug}.html" />
+  <meta property="og:image" content="https://sleepwisereviews.com/images/og-default.png" />
+  <meta property="og:site_name" content="SleepWise Reviews" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="{title}" />
+  <meta name="twitter:description" content="{description}" />
+  <script type="application/ld+json">
+  {{
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "{title}",
+    "description": "{description}",
+    "url": "https://sleepwisereviews.com/posts/{slug}.html",
+    "datePublished": "2026-05-25",
+    "dateModified": "2026-05-25",
+    "author": {{"@type": "Organization", "name": "SleepWise Reviews"}},
+    "publisher": {{"@type": "Organization", "name": "SleepWise Reviews", "url": "https://sleepwisereviews.com/"}}
+  }}
+  </script>
+  <script type="application/ld+json">
+  {{
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://sleepwisereviews.com/"}},
+      {{"@type": "ListItem", "position": 2, "name": "Posts", "item": "https://sleepwisereviews.com/posts/"}},
+      {{"@type": "ListItem", "position": 3, "name": "{title}", "item": "https://sleepwisereviews.com/posts/{slug}.html"}}
+    ]
+  }}
+  </script>
+  <script type="application/ld+json">
+  {{
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "{title}",
+    "itemListElement": [
+      {{"@type": "ListItem", "position": 1, "name": "Thorne Vitamin D3/K2"}},
+      {{"@type": "ListItem", "position": 2, "name": "NatureWise Vitamin D3 5000 IU"}},
+      {{"@type": "ListItem", "position": 3, "name": "Nordic Naturals Vitamin D3"}},
+      {{"@type": "ListItem", "position": 4, "name": "Garden of Life mykind Vitamin D3"}},
+      {{"@type": "ListItem", "position": 5, "name": "Pure Encapsulations Vitamin D3"}},
+      {{"@type": "ListItem", "position": 6, "name": "Designs for Health Vitamin D Supreme"}},
+      {{"@type": "ListItem", "position": 7, "name": "Sports Research Vitamin D3 + K2"}}
+    ]
+  }}
+  </script>
+  <script type="application/ld+json">
+  {{
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {{
+        "@type": "Question",
+        "name": "Does vitamin D help with sleep?",
+        "acceptedAnswer": {{"@type": "Answer", "text": "Yes, particularly if you are deficient. Vitamin D receptors are present in the brain regions that regulate sleep, including the hypothalamus and the dorsal raphe nucleus. Studies show vitamin D deficiency is associated with shorter sleep duration, higher rates of insomnia, and more nighttime awakenings. Correcting deficiency improves these markers."}}
+      }},
+      {{
+        "@type": "Question",
+        "name": "Should I take vitamin D in the morning or at night for sleep?",
+        "acceptedAnswer": {{"@type": "Answer", "text": "Morning is preferred. Vitamin D regulates circadian signaling, and taking it at night may interfere with melatonin suppression timing. Some individuals report difficulty sleeping when taking vitamin D in the evening. Take with breakfast or your first meal of the day."}}
+      }},
+      {{
+        "@type": "Question",
+        "name": "How much vitamin D do I need for sleep benefits?",
+        "acceptedAnswer": {{"@type": "Answer", "text": "The RDA is 600-800 IU, but deficiency correction typically requires 1000-4000 IU daily depending on baseline blood levels. The Endocrine Society defines deficiency as serum 25(OH)D below 20 ng/mL. Blood testing is the only accurate way to determine your correct dose — over-supplementation (above 100 ng/mL) carries health risks."}}
+      }},
+      {{
+        "@type": "Question",
+        "name": "What is the difference between vitamin D2 and D3 for sleep?",
+        "acceptedAnswer": {{"@type": "Answer", "text": "Vitamin D3 (cholecalciferol) is significantly more effective at raising serum 25(OH)D levels than D2 (ergocalciferol). D3 is the form produced by the skin in sunlight and is the recommended form for supplementation. For sleep and all other health benefits, D3 is the preferred choice."}}
+      }},
+      {{
+        "@type": "Question",
+        "name": "Should I take vitamin D with K2?",
+        "acceptedAnswer": {{"@type": "Answer", "text": "Yes, particularly at higher doses (2000+ IU). Vitamin D increases calcium absorption; vitamin K2 (MK-7 form) directs this calcium into bones rather than soft tissues, preventing arterial calcification. The D3+K2 combination is the safest and most effective formulation for long-term supplementation."}}
+      }}
+    ]
+  }}
+  </script>
+  <style>
+    :root {{
+      --bg: #0a1628; --card: #111e33; --gold: #c9a84c;
+      --text: #e8e0d0; --muted: #8899aa; --border: rgba(201,168,76,0.15);
+      --green: #4caf7d; --red: #e05c5c;
+    }}
+    * {{ box-sizing: border-box; margin: 0; padding: 0; }}
+    body {{ background: var(--bg); color: var(--text); font-family: 'Georgia', serif; line-height: 1.7; }}
+    header {{ background: var(--card); border-bottom: 1px solid var(--border); padding: 1rem 2rem; display: flex; align-items: center; justify-content: space-between; }}
+    .logo {{ color: var(--gold); text-decoration: none; font-size: 1.3rem; font-weight: 700; }}
+    .logo span {{ color: var(--text); }}
+    main {{ max-width: 860px; margin: 0 auto; padding: 3rem 1.5rem; }}
+    h1 {{ font-size: 2rem; color: var(--gold); margin-bottom: 1rem; line-height: 1.3; }}
+    .meta {{ color: var(--muted); font-size: 0.85rem; margin-bottom: 2rem; }}
+    h2 {{ font-size: 1.4rem; color: var(--gold); margin: 2.5rem 0 1rem; }}
+    h3 {{ font-size: 1.15rem; color: var(--text); margin: 1.5rem 0 0.5rem; }}
+    p {{ margin-bottom: 1rem; }}
+    .intro-box {{ background: var(--card); border-left: 3px solid var(--gold); padding: 1.2rem 1.5rem; border-radius: 6px; margin-bottom: 2rem; }}
+    .product-card {{ background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 1.5rem; margin-bottom: 2rem; }}
+    .product-card .badge {{ display: inline-block; background: var(--gold); color: #0a1628; font-size: 0.75rem; font-weight: 700; padding: 0.2rem 0.7rem; border-radius: 20px; margin-bottom: 0.8rem; text-transform: uppercase; letter-spacing: 0.05em; }}
+    .product-card h3 {{ color: var(--gold); margin-top: 0; font-size: 1.2rem; }}
+    .specs {{ display: flex; flex-wrap: wrap; gap: 0.5rem; margin: 0.8rem 0; }}
+    .spec-chip {{ background: rgba(201,168,76,0.1); border: 1px solid var(--border); border-radius: 20px; padding: 0.2rem 0.8rem; font-size: 0.8rem; color: var(--muted); }}
+    .dose-box {{ background: rgba(76,175,125,0.07); border: 1px solid rgba(76,175,125,0.2); border-radius: 6px; padding: 0.8rem 1rem; margin: 0.8rem 0; font-size: 0.88rem; }}
+    .dose-box strong {{ color: var(--green); }}
+    .pros-cons {{ display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin: 1rem 0; }}
+    .pros, .cons {{ padding: 0.8rem 1rem; border-radius: 6px; }}
+    .pros {{ background: rgba(76,175,125,0.08); border: 1px solid rgba(76,175,125,0.2); }}
+    .cons {{ background: rgba(224,92,92,0.08); border: 1px solid rgba(224,92,92,0.2); }}
+    .pros h4 {{ color: var(--green); font-size: 0.85rem; margin-bottom: 0.5rem; }}
+    .cons h4 {{ color: var(--red); font-size: 0.85rem; margin-bottom: 0.5rem; }}
+    .pros ul, .cons ul {{ list-style: none; padding: 0; }}
+    .pros ul li::before {{ content: "+ "; color: var(--green); }}
+    .cons ul li::before {{ content: "- "; color: var(--red); }}
+    .pros ul li, .cons ul li {{ font-size: 0.88rem; margin-bottom: 0.3rem; }}
+    .buy-btn {{ display: inline-block; background: var(--gold); color: #0a1628; font-weight: 700; padding: 0.6rem 1.4rem; border-radius: 6px; text-decoration: none; font-size: 0.9rem; margin-top: 0.8rem; }}
+    .buy-btn:hover {{ opacity: 0.9; }}
+    .science-box {{ background: rgba(201,168,76,0.06); border: 1px solid var(--border); border-radius: 8px; padding: 1.2rem 1.5rem; margin: 2rem 0; }}
+    .science-box h3 {{ color: var(--gold); margin-top: 0; }}
+    .faq-item {{ border-bottom: 1px solid var(--border); padding: 1rem 0; }}
+    .faq-item:last-child {{ border-bottom: none; }}
+    .faq-item h3 {{ color: var(--gold); font-size: 1rem; margin-bottom: 0.5rem; }}
+    .verdict-box {{ background: var(--card); border: 2px solid var(--gold); border-radius: 10px; padding: 1.5rem; margin: 2.5rem 0; }}
+    .verdict-box h2 {{ margin-top: 0; }}
+    footer {{ text-align: center; padding: 2rem; color: var(--muted); font-size: 0.85rem; border-top: 1px solid var(--border); margin-top: 3rem; }}
+    footer a {{ color: var(--gold); }}
+    .affiliate-note {{ background: rgba(201,168,76,0.05); border: 1px solid var(--border); border-radius: 6px; padding: 0.8rem 1rem; font-size: 0.8rem; color: var(--muted); margin-bottom: 2rem; }}
+    .disclaimer {{ background: rgba(224,92,92,0.06); border: 1px solid rgba(224,92,92,0.2); border-radius: 6px; padding: 0.8rem 1rem; font-size: 0.8rem; color: var(--muted); margin-bottom: 2rem; }}
+    @media (max-width: 600px) {{ .pros-cons {{ grid-template-columns: 1fr; }} h1 {{ font-size: 1.5rem; }} }}
+  </style>
+</head>
+<body>
+  <header>
+    <a class="logo" href="../">SleepWise<span>Reviews</span></a>
+    <a href="../posts/" style="color:var(--muted);font-size:0.9rem;text-decoration:none;">&larr; All Guides</a>
+  </header>
+  <main>
+    <h1>{title}</h1>
+    <p class="meta">Updated May 2026 &nbsp;&middot;&nbsp; Supplements &nbsp;&middot;&nbsp; 10 min read</p>
+
+    <div class="affiliate-note">
+      This page contains affiliate links. We earn a commission if you purchase through our links, at no extra cost to you. We only recommend products we would use ourselves.
+    </div>
+    <div class="disclaimer">
+      <strong>Medical disclaimer:</strong> Vitamin D supplementation should be guided by blood testing. Excessive vitamin D causes hypercalcemia and other serious effects. Consult your doctor before starting supplementation, especially at doses above 2000 IU/day.
+    </div>
+
+    <div class="intro-box">
+      <p>Vitamin D deficiency affects an estimated 40% of adults in developed nations — and sleep disruption is one of the consequences that receives far less attention than bone health and immune function. Vitamin D receptors are found throughout the brain regions that regulate sleep, and the hormone plays a direct role in the brain's sleep-wake signaling pathways. Correcting deficiency-level blood concentrations is among the most impactful and underappreciated sleep interventions available.</p>
+      <p>The seven picks below represent the best D3 formulations across categories: D3+K2 combinations, high-dose options for deficiency correction, organic certified sources, and practitioner-grade formulas. All use D3 (cholecalciferol) — not D2 — the more bioavailable form.</p>
+    </div>
+
+    <h2>Our Top 7 Vitamin D Supplements for Sleep</h2>
+
+    <!-- Product 1 -->
+    <div class="product-card">
+      <span class="badge">#1 Best Overall</span>
+      <h3>Thorne Vitamin D3/K2</h3>
+      <div class="specs">
+        <span class="spec-chip">Vitamin D3 1000 IU + K2 (MK-4) 200mcg</span>
+        <span class="spec-chip">NSF Certified for Sport</span>
+        <span class="spec-chip">No fillers</span>
+        <span class="spec-chip">Third-party tested</span>
+        <span class="spec-chip">Vegetarian capsules</span>
+      </div>
+      <p>Thorne's D3/K2 is the gold standard formulation: D3 for bioavailability and K2 (MK-4 form) to direct calcium absorption safely into bones rather than soft tissues. NSF Certified for Sport means every batch is independently tested for label accuracy and purity — the most rigorous supplement certification available. Thorne uses no magnesium stearate or artificial additives.</p>
+      <p>At 1000 IU D3, this is appropriate for maintenance supplementation in people who are not severely deficient. For deficiency correction (serum 25(OH)D below 20 ng/mL), Thorne also produces a 5000 IU version. The K2 MK-4 form is fast-acting; some formulas use MK-7 (slower, longer-acting) — both are effective.</p>
+      <div class="dose-box">
+        <strong>Dose:</strong> 1 capsule (1000 IU) with breakfast. For deficiency correction, consult your doctor for appropriate higher-dose protocol. Test serum 25(OH)D before and after 3 months of supplementation.
+      </div>
+      <div class="pros-cons">
+        <div class="pros">
+          <h4>Pros</h4>
+          <ul>
+            <li>NSF Certified for Sport (top purity standard)</li>
+            <li>D3 + K2 MK-4 combination</li>
+            <li>No fillers or additives</li>
+            <li>Established practitioner-grade brand</li>
+            <li>Third-party verified every batch</li>
+          </ul>
+        </div>
+        <div class="cons">
+          <h4>Cons</h4>
+          <ul>
+            <li>Premium price vs. standard D3</li>
+            <li>1000 IU may be insufficient for severe deficiency</li>
+            <li>MK-4 (not MK-7) — shorter half-life</li>
+          </ul>
+        </div>
+      </div>
+      <a class="buy-btn" href="https://www.amazon.com/s?k=Thorne+Vitamin+D3+K2+sleep&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+    </div>
+
+    <!-- Product 2 -->
+    <div class="product-card">
+      <span class="badge">#2 Best High-Dose Option</span>
+      <h3>NatureWise Vitamin D3 5000 IU</h3>
+      <div class="specs">
+        <span class="spec-chip">Vitamin D3 5000 IU</span>
+        <span class="spec-chip">Organic olive oil base (fat-soluble absorption)</span>
+        <span class="spec-chip">360 softgels</span>
+        <span class="spec-chip">Non-GMO verified</span>
+        <span class="spec-chip">GMP certified</span>
+      </div>
+      <p>NatureWise is among the best-value, most widely used vitamin D3 supplements on the market. The 5000 IU dose is appropriate for adults with confirmed deficiency, under doctor supervision. The organic olive oil base is critical: vitamin D is fat-soluble and absorption dramatically increases when taken with dietary fat. Softgels dissolve in oil, eliminating the need to remember to take it with a fatty meal.</p>
+      <p>At 360 softgels per bottle, this is exceptional value per dose. Third-party tested through GMP certification. For someone newly diagnosed with vitamin D deficiency, this is a common physician-recommended dosing starting point for the first 8-12 weeks of correction.</p>
+      <div class="dose-box">
+        <strong>Dose:</strong> 5000 IU is appropriate for deficiency correction under medical guidance. Once serum levels are optimized (50-80 ng/mL), most adults maintain with 1000-2000 IU/day. Always take with food.
+      </div>
+      <div class="pros-cons">
+        <div class="pros">
+          <h4>Pros</h4>
+          <ul>
+            <li>Organic olive oil base for fat-soluble absorption</li>
+            <li>Excellent value per dose (360 count)</li>
+            <li>Non-GMO verified</li>
+            <li>GMP certified</li>
+            <li>Most commonly used deficiency-correction dose</li>
+          </ul>
+        </div>
+        <div class="cons">
+          <h4>Cons</h4>
+          <ul>
+            <li>No K2 included (buy separately at this dose)</li>
+            <li>5000 IU needs medical supervision long-term</li>
+            <li>Less third-party testing than Thorne</li>
+          </ul>
+        </div>
+      </div>
+      <a class="buy-btn" href="https://www.amazon.com/s?k=NatureWise+Vitamin+D3+5000+IU+sleep&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+    </div>
+
+    <!-- Product 3 -->
+    <div class="product-card">
+      <span class="badge">#3 Best Quality Control</span>
+      <h3>Nordic Naturals Vitamin D3</h3>
+      <div class="specs">
+        <span class="spec-chip">Vitamin D3 1000 IU or 2000 IU</span>
+        <span class="spec-chip">Extra virgin olive oil base</span>
+        <span class="spec-chip">Non-GMO certified</span>
+        <span class="spec-chip">Third-party purity tested</span>
+        <span class="spec-chip">No artificial additives</span>
+      </div>
+      <p>Nordic Naturals brings the same rigorous quality standards from their omega-3 line to vitamin D3. Every product is third-party tested for purity and potency, with results published on their website. The extra virgin olive oil base provides better absorption than many competitors using lower-grade carrier oils. Available in 1000 IU and 2000 IU versions to match maintenance vs. mild-deficiency needs.</p>
+      <p>One of the most trusted supplement brands in the industry for quality consistency. No artificial colors, flavors, or preservatives. For users who prioritize verified purity above everything else, Nordic Naturals is a reliable choice.</p>
+      <div class="dose-box">
+        <strong>Dose:</strong> 1000-2000 IU/day with breakfast. Appropriate for maintenance in non-deficient individuals or mild insufficiency correction.
+      </div>
+      <div class="pros-cons">
+        <div class="pros">
+          <h4>Pros</h4>
+          <ul>
+            <li>Published third-party purity results</li>
+            <li>Extra virgin olive oil base</li>
+            <li>Non-GMO certified</li>
+            <li>Two dose options (1000/2000 IU)</li>
+            <li>Trusted brand with quality reputation</li>
+          </ul>
+        </div>
+        <div class="cons">
+          <h4>Cons</h4>
+          <ul>
+            <li>No K2 included</li>
+            <li>Premium price vs. budget options</li>
+            <li>1000/2000 IU insufficient for severe deficiency</li>
+          </ul>
+        </div>
+      </div>
+      <a class="buy-btn" href="https://www.amazon.com/s?k=Nordic+Naturals+Vitamin+D3+sleep&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+    </div>
+
+    <div class="science-box">
+      <h3>Vitamin D, Melatonin, and the Sleep-Wake Cycle</h3>
+      <p>Vitamin D receptors (VDRs) are expressed throughout the brain, including the hypothalamus, the dorsal raphe nucleus (a major serotonin production center), and the pineal gland (the source of melatonin). Research suggests vitamin D modulates serotonin synthesis — and since serotonin is the precursor to melatonin, deficiency can impair melatonin production and the normal nocturnal melatonin rise that initiates sleep.</p>
+      <p>Epidemiological data is consistent: adults with serum 25(OH)D below 20 ng/mL have significantly higher rates of insomnia, shorter sleep duration, and more nighttime awakenings. Intervention studies show that correcting deficiency (raising serum levels to 40-60 ng/mL) improves sleep quality scores within 8-12 weeks. The effect size is larger in people who were more severely deficient at baseline.</p>
+      <p><strong>Key point:</strong> Blood testing is the only way to know your current level. Supplementing vitamin D when you're already sufficient provides no additional sleep benefit and risks toxicity at high doses.</p>
+    </div>
+
+    <!-- Product 4 -->
+    <div class="product-card">
+      <span class="badge">#4 Best Organic/Vegan</span>
+      <h3>Garden of Life mykind Organics Vitamin D3</h3>
+      <div class="specs">
+        <span class="spec-chip">USDA Organic certified</span>
+        <span class="spec-chip">Vegan D3 (from lichen)</span>
+        <span class="spec-chip">Non-GMO Project Verified</span>
+        <span class="spec-chip">Whole food based</span>
+        <span class="spec-chip">2000 IU per serving</span>
+      </div>
+      <p>Most vitamin D3 is derived from lanolin (sheep wool), which excludes it from vegan diets. Garden of Life uses lichen-sourced D3 — the only plant-based D3 source — USDA Organic certified and Non-GMO Project Verified. The whole food formulation adds organic fruits and vegetables for cofactors that may support absorption. For vegans or those who avoid animal-derived supplements, this is the definitive choice.</p>
+      <p>At 2000 IU, appropriate for mild insufficiency correction or maintenance in those who have previously corrected a deficiency. Certified by multiple independent bodies — the highest certification density in this category.</p>
+      <div class="dose-box">
+        <strong>Dose:</strong> 2000 IU/day with a fatty meal. Vegan-safe; suitable for those avoiding animal-derived supplements.
+      </div>
+      <div class="pros-cons">
+        <div class="pros">
+          <h4>Pros</h4>
+          <ul>
+            <li>USDA Organic certified</li>
+            <li>Vegan D3 (lichen source)</li>
+            <li>Non-GMO Project Verified</li>
+            <li>Whole food based with cofactors</li>
+            <li>Multiple independent certifications</li>
+          </ul>
+        </div>
+        <div class="cons">
+          <h4>Cons</h4>
+          <ul>
+            <li>2000 IU may need adjustment for deficiency correction</li>
+            <li>Premium price for organic certification</li>
+            <li>No K2 included</li>
+          </ul>
+        </div>
+      </div>
+      <a class="buy-btn" href="https://www.amazon.com/s?k=Garden+of+Life+mykind+Organics+Vitamin+D3+sleep&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+    </div>
+
+    <!-- Product 5 -->
+    <div class="product-card">
+      <span class="badge">#5 Best Practitioner-Grade</span>
+      <h3>Pure Encapsulations Vitamin D3</h3>
+      <div class="specs">
+        <span class="spec-chip">1000 IU or 5000 IU options</span>
+        <span class="spec-chip">Hypoallergenic formula</span>
+        <span class="spec-chip">No unnecessary additives</span>
+        <span class="spec-chip">GMP certified</span>
+        <span class="spec-chip">Practitioner-recommended</span>
+      </div>
+      <p>Pure Encapsulations is a practitioner-grade brand — originally sold only through healthcare providers — known for their hypoallergenic formulations that exclude virtually every common allergen and additive. For individuals with sensitivities to fillers, binders, or coating agents found in mass-market supplements, Pure Encapsulations provides confidence that the only active ingredient is vitamin D3.</p>
+      <p>Available in 1000 IU and 5000 IU versions. Used in clinical trials and functional medicine practices. The higher price reflects the purity discipline, not a marketing premium. For those reacting to other supplements or with multiple sensitivities, this is the recommended starting point.</p>
+      <div class="dose-box">
+        <strong>Dose:</strong> Available in 1000 IU (maintenance) and 5000 IU (deficiency correction under medical supervision). Take with breakfast or a fat-containing meal.
+      </div>
+      <div class="pros-cons">
+        <div class="pros">
+          <h4>Pros</h4>
+          <ul>
+            <li>Hypoallergenic — minimal additives</li>
+            <li>Practitioner-grade quality</li>
+            <li>Used in clinical research</li>
+            <li>Both 1000 and 5000 IU available</li>
+            <li>GMP certified</li>
+          </ul>
+        </div>
+        <div class="cons">
+          <h4>Cons</h4>
+          <ul>
+            <li>Premium price</li>
+            <li>No K2 included</li>
+            <li>Not vegan (lanolin-sourced D3)</li>
+          </ul>
+        </div>
+      </div>
+      <a class="buy-btn" href="https://www.amazon.com/s?k=Pure+Encapsulations+Vitamin+D3+sleep&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+    </div>
+
+    <!-- Product 6 -->
+    <div class="product-card">
+      <span class="badge">#6 Best D3+K2 MK-7 Formula</span>
+      <h3>Sports Research Vitamin D3 + K2 (MK-7)</h3>
+      <div class="specs">
+        <span class="spec-chip">D3 5000 IU + K2 MK-7 100mcg</span>
+        <span class="spec-chip">Organic coconut oil base</span>
+        <span class="spec-chip">Non-GMO Project Verified</span>
+        <span class="spec-chip">Gluten-free</span>
+        <span class="spec-chip">Third-party tested</span>
+      </div>
+      <p>Sports Research combines 5000 IU D3 with K2 MK-7 (the longer-acting, superior form for arterial protection). The organic coconut oil base provides excellent fat-soluble absorption. MK-7 from natto (fermented soy) has a 3-day half-life — far longer than MK-4's hours — meaning once-daily dosing maintains consistent K2 activity. Non-GMO Project Verified and third-party purity tested.</p>
+      <p>This is the best choice for those who want the complete D3+K2 stack at a higher dose without managing two separate products. The organic coconut oil base eliminates the need to take it with a fatty meal, simplifying the regimen.</p>
+      <div class="dose-box">
+        <strong>Dose:</strong> 1 softgel (5000 IU D3 + 100mcg K2 MK-7) with breakfast. The coconut oil base provides built-in fat for absorption — no additional fat required.
+      </div>
+      <div class="pros-cons">
+        <div class="pros">
+          <h4>Pros</h4>
+          <ul>
+            <li>D3 + K2 MK-7 (superior form) combined</li>
+            <li>Organic coconut oil base (no meal fat needed)</li>
+            <li>Non-GMO Project Verified</li>
+            <li>Third-party tested</li>
+            <li>Excellent value for complete stack</li>
+          </ul>
+        </div>
+        <div class="cons">
+          <h4>Cons</h4>
+          <ul>
+            <li>5000 IU needs medical supervision long-term</li>
+            <li>K2 from natto (fermented soy) — soy allergen consideration</li>
+            <li>Not vegan (D3 from lanolin)</li>
+          </ul>
+        </div>
+      </div>
+      <a class="buy-btn" href="https://www.amazon.com/s?k=Sports+Research+Vitamin+D3+K2+MK-7+sleep&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+    </div>
+
+    <!-- Product 7 -->
+    <div class="product-card">
+      <span class="badge">#7 Best Budget Option</span>
+      <h3>NOW Foods Vitamin D3 2000 IU</h3>
+      <div class="specs">
+        <span class="spec-chip">Vitamin D3 2000 IU</span>
+        <span class="spec-chip">GMP quality assured</span>
+        <span class="spec-chip">Non-GMO</span>
+        <span class="spec-chip">120 softgels</span>
+        <span class="spec-chip">Soy-free formula</span>
+      </div>
+      <p>NOW Foods provides consistent, GMP-certified vitamin D3 at a price accessible to anyone. The 2000 IU dose is appropriate for adults who want to ensure adequacy without confirmed deficiency, or for maintenance after correcting a deficiency with a higher-dose protocol. NOW Foods' quality record is strong for the price tier — regular independent testing, no major contamination or mislabeling incidents in their history.</p>
+      <p>For those new to vitamin D supplementation who want to start before getting blood work done, 2000 IU is a safe conservative starting point for most adults. Blood test after 3 months to confirm and adjust as needed.</p>
+      <div class="dose-box">
+        <strong>Dose:</strong> 1 softgel (2000 IU) with breakfast. A safe conservative starting dose before blood testing; adjust based on serum 25(OH)D results after 3 months.
+      </div>
+      <div class="pros-cons">
+        <div class="pros">
+          <h4>Pros</h4>
+          <ul>
+            <li>Excellent budget value</li>
+            <li>GMP certified, reliable manufacturer</li>
+            <li>Non-GMO, soy-free</li>
+            <li>Safe conservative starting dose</li>
+            <li>Widely available</li>
+          </ul>
+        </div>
+        <div class="cons">
+          <h4>Cons</h4>
+          <ul>
+            <li>No K2 included</li>
+            <li>Less rigorous third-party testing than premium brands</li>
+            <li>2000 IU insufficient for severe deficiency correction</li>
+          </ul>
+        </div>
+      </div>
+      <a class="buy-btn" href="https://www.amazon.com/s?k=NOW+Foods+Vitamin+D3+2000+IU+sleep&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+    </div>
+
+    <div class="verdict-box">
+      <h2>Bottom Line</h2>
+      <p><strong>Best overall:</strong> Thorne D3/K2 — NSF certified, D3+K2 combination, no fillers. <strong>Best high-dose:</strong> NatureWise 5000 IU with organic olive oil base for deficiency correction under medical guidance. <strong>Best vegan:</strong> Garden of Life mykind Organics for USDA Organic + lichen-sourced D3. <strong>Best complete stack:</strong> Sports Research D3+K2 MK-7 in one softgel with organic coconut oil. <strong>Best budget:</strong> NOW Foods 2000 IU for accessible starting supplementation before blood testing.</p>
+      <p><strong>Universal advice:</strong> Get a 25(OH)D blood test before and after 3 months of supplementation. Target serum level: 40-60 ng/mL. Always take K2 with doses above 2000 IU/day.</p>
+    </div>
+
+    <h2>Frequently Asked Questions</h2>
+    <div class="faq-item">
+      <h3>Does vitamin D help with sleep?</h3>
+      <p>Yes, particularly if you are deficient. Vitamin D receptors in sleep-regulating brain regions, including the hypothalamus and dorsal raphe nucleus, suggest a direct role in sleep-wake signaling. Studies show deficiency correlates with shorter sleep duration, higher insomnia rates, and more nighttime awakenings. Correcting deficiency improves these markers within 8-12 weeks.</p>
+    </div>
+    <div class="faq-item">
+      <h3>Should I take vitamin D in the morning or at night for sleep?</h3>
+      <p>Morning is preferred. Vitamin D may interfere with melatonin suppression timing if taken in the evening, as it influences circadian signaling. Take with breakfast or your first fat-containing meal. Some people report difficulty sleeping when taking vitamin D late in the day.</p>
+    </div>
+    <div class="faq-item">
+      <h3>How much vitamin D do I need for sleep benefits?</h3>
+      <p>The sleep benefits are dose-dependent on correcting deficiency, not on taking higher doses when already sufficient. Target serum 25(OH)D of 40-60 ng/mL. Deficiency correction typically requires 2000-5000 IU/day for 12 weeks, then maintenance at 1000-2000 IU. Blood testing is the only accurate guide.</p>
+    </div>
+    <div class="faq-item">
+      <h3>What is the difference between vitamin D2 and D3 for sleep?</h3>
+      <p>D3 (cholecalciferol) is significantly more effective at raising serum 25(OH)D levels than D2 (ergocalciferol). D3 is the form synthesized by skin in sunlight. For sleep and all other health applications, D3 is the recommended form. D2 is primarily used in prescription-dose formulations due to availability, not superior efficacy.</p>
+    </div>
+    <div class="faq-item">
+      <h3>Should I take vitamin D with K2?</h3>
+      <p>Yes, particularly at doses of 2000+ IU. Vitamin D increases calcium absorption. Without K2 (MK-7 form is preferred for its long half-life), this calcium can deposit in soft tissues including arterial walls. K2 activates osteocalcin and matrix Gla protein, directing calcium into bones. The D3+K2 combination is the safest and most effective long-term formulation.</p>
+    </div>
+  </main>
+  <footer>
+    <p>&copy; 2025-2026 <a href="../">SleepWise Reviews</a> &middot; Evidence-based sleep guidance &middot; <a href="../posts/">All Guides</a></p>
+  </footer>
+</body>
+</html>'''
+
+import os
+out = os.path.join(os.path.dirname(__file__), 'posts', f'{slug}.html')
+with open(out, 'w', encoding='utf-8') as f:
+    f.write(html)
+print(f'Written: {out}')
