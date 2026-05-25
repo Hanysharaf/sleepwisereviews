@@ -1,0 +1,423 @@
+slug = "best-mattress-lupus"
+filename = f"posts/{slug}.html"
+
+html = '''<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Best Mattress for Lupus 2025 — 7 Picks for SLE Joint Pain, Fatigue &amp; Flares | SleepWise Reviews</title>
+<meta name="description" content="7 mattresses for lupus (SLE) — pressure relief for joint pain, motion isolation for disrupted sleep, and cooling for temperature dysregulation. Flare phase guide included.">
+<link rel="canonical" href="https://sleepwisereviews.com/posts/best-mattress-lupus.html">
+<meta property="og:title" content="Best Mattress for Lupus 2025 — 7 Picks for SLE Joint Pain, Fatigue &amp; Flares">
+<meta property="og:description" content="7 mattresses for lupus — pressure relief, motion isolation, cooling, edge support for fatigue. Includes flare vs remission phase guide.">
+<meta property="og:url" content="https://sleepwisereviews.com/posts/best-mattress-lupus.html">
+<meta property="og:type" content="article">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Best Mattress for Lupus 2025 — 7 Picks for SLE">
+<meta name="twitter:description" content="7 mattresses for lupus — joint pain, fatigue, flare phase guide, cooling for temperature dysregulation.">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "headline": "Best Mattress for Lupus 2025 — 7 Picks for SLE Joint Pain, Fatigue and Flares",
+      "description": "7 mattresses for lupus (SLE) with flare phase guide, symptom cluster priority table, and sleep position recommendations.",
+      "url": "https://sleepwisereviews.com/posts/best-mattress-lupus.html",
+      "datePublished": "2026-05-25",
+      "dateModified": "2026-05-25",
+      "author": {"@type": "Organization", "name": "SleepWise Reviews"},
+      "publisher": {"@type": "Organization", "name": "SleepWise Reviews", "url": "https://sleepwisereviews.com"}
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://sleepwisereviews.com"},
+        {"@type": "ListItem", "position": 2, "name": "Health Conditions", "item": "https://sleepwisereviews.com/posts/index.html"},
+        {"@type": "ListItem", "position": 3, "name": "Best Mattress for Lupus", "item": "https://sleepwisereviews.com/posts/best-mattress-lupus.html"}
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "name": "Best Mattresses for Lupus 2025",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Purple Restore Hybrid Soft", "url": "https://www.amazon.com/s?k=Purple+Restore+Hybrid+Soft+mattress&tag=sleepwiserevi-20"},
+        {"@type": "ListItem", "position": 2, "name": "Tempur-Pedic TEMPUR-ProAdapt Soft", "url": "https://www.amazon.com/s?k=Tempur-Pedic+TEMPUR-ProAdapt+Soft+mattress&tag=sleepwiserevi-20"},
+        {"@type": "ListItem", "position": 3, "name": "Helix Midnight Luxe", "url": "https://www.amazon.com/s?k=Helix+Midnight+Luxe+mattress&tag=sleepwiserevi-20"},
+        {"@type": "ListItem", "position": 4, "name": "Saatva Classic Plush Soft", "url": "https://www.amazon.com/s?k=Saatva+Classic+Plush+Soft+mattress&tag=sleepwiserevi-20"},
+        {"@type": "ListItem", "position": 5, "name": "Casper Wave Hybrid", "url": "https://www.amazon.com/s?k=Casper+Wave+Hybrid+mattress&tag=sleepwiserevi-20"},
+        {"@type": "ListItem", "position": 6, "name": "Avocado Green Mattress with Pillow Top", "url": "https://www.amazon.com/s?k=Avocado+Green+Mattress+Pillow+Top&tag=sleepwiserevi-20"},
+        {"@type": "ListItem", "position": 7, "name": "DreamCloud Premier", "url": "https://www.amazon.com/s?k=DreamCloud+Premier+mattress&tag=sleepwiserevi-20"}
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What firmness is best for lupus?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Medium-soft to medium (4-6/10) works best for most lupus patients. Firm mattresses concentrate pressure on inflamed joints; very soft mattresses let you sink too deep, making it hard to reposition during the night. During flares, shifting to a soft mattress topper adds pressure relief without replacing your mattress."}
+        },
+        {
+          "@type": "Question",
+          "name": "Does lupus cause sleep problems?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Yes. Studies show over 70% of lupus patients report significant sleep disturbances. Contributing factors include joint pain that worsens at night, fatigue-related non-restorative sleep, and secondary fibromyalgia (which affects up to 30% of SLE patients). A pressure-relieving mattress addresses the pain component but does not replace medical treatment."}
+        },
+        {
+          "@type": "Question",
+          "name": "Is memory foam good for lupus?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Memory foam is excellent for pressure relief around inflamed joints. The main concern is heat retention -- many lupus patients experience temperature dysregulation, and traditional memory foam traps heat. Look for gel-infused memory foam or open-cell foam, or choose a hybrid that combines foam comfort layers with a breathable coil base."}
+        },
+        {
+          "@type": "Question",
+          "name": "What mattress features matter most during a lupus flare?",
+          "acceptedAnswer": {"@type": "Answer", "text": "During flares prioritize: (1) pressure relief -- inflamed joints need immediate cushioning; (2) edge support -- fatigue makes getting in and out of bed hard, and weak edges force you to drag yourself to the center; (3) motion isolation -- disturbed sleep during flares is common, and partner movement worsens it; (4) cooling -- fever and inflammation both raise body temperature."}
+        },
+        {
+          "@type": "Question",
+          "name": "Can the wrong mattress trigger a lupus flare?",
+          "acceptedAnswer": {"@type": "Answer", "text": "An unsupportive mattress cannot trigger a lupus flare directly (flares are immune-mediated), but poor sleep quality is a documented trigger for symptom worsening. Sleep deprivation elevates inflammatory cytokines, which can intensify existing lupus symptoms. Consistent quality sleep on a supportive mattress is therefore part of lupus management, not a luxury."}
+        }
+      ]
+    }
+  ]
+}
+</script>
+<style>
+:root{--bg:#0a1628;--card:#111e33;--gold:#c9a84c;--text:#e2e8f0;--muted:#94a3b8;--border:#1e3a5f}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:'Segoe UI',sans-serif;line-height:1.7}
+header{background:linear-gradient(135deg,#0a1628 0%,#111e33 100%);border-bottom:2px solid var(--gold);padding:1rem 1.25rem;display:flex;align-items:center;justify-content:space-between}
+header a{color:var(--gold);text-decoration:none;font-weight:700;font-size:1.2rem}
+nav a{color:var(--muted);text-decoration:none;margin-left:1.5rem;font-size:.9rem}
+nav a:hover{color:var(--gold)}
+.hero{max-width:860px;margin:2.5rem auto;padding:0 1.25rem}
+.cat-badge{background:#dc2626;color:#fff;font-size:.72rem;font-weight:700;padding:.25rem .65rem;border-radius:4px;text-transform:uppercase;letter-spacing:.05em}
+h1{font-size:2rem;font-weight:800;margin:.75rem 0 .5rem;color:#fff;line-height:1.25}
+.subtitle{color:var(--muted);font-size:1rem;margin-bottom:1.5rem}
+.toc{background:var(--card);border:1px solid var(--border);border-radius:8px;padding:1.25rem 1.5rem;margin-bottom:2rem}
+.toc h2{font-size:.85rem;text-transform:uppercase;letter-spacing:.08em;color:var(--gold);margin-bottom:.75rem}
+.toc ol{padding-left:1.25rem}
+.toc li{margin:.3rem 0;font-size:.9rem}
+.toc a{color:var(--muted);text-decoration:none}
+.toc a:hover{color:var(--gold)}
+.picks{max-width:860px;margin:0 auto;padding:0 1.25rem}
+.pick-card{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:1.75rem;margin-bottom:1.5rem;position:relative}
+.pick-num{position:absolute;top:1.25rem;right:1.25rem;background:var(--gold);color:#0a1628;font-weight:800;font-size:.8rem;padding:.2rem .55rem;border-radius:20px}
+.pick-badge{font-size:.7rem;font-weight:700;padding:.2rem .5rem;border-radius:4px;text-transform:uppercase;letter-spacing:.05em;margin-bottom:.5rem;display:inline-block}
+.badge-overall{background:#c9a84c22;color:var(--gold);border:1px solid var(--gold)}
+.badge-pain{background:#dc262622;color:#f87171;border:1px solid #dc2626}
+.badge-side{background:#7c3aed22;color:#a78bfa;border:1px solid #7c3aed}
+.badge-edge{background:#0e4f8a22;color:#60a5fa;border:1px solid #0e4f8a}
+.badge-zoned{background:#06966a22;color:#34d399;border:1px solid #06966a}
+.badge-natural{background:#65a30d22;color:#a3e635;border:1px solid #65a30d}
+.badge-value{background:#92400e22;color:#fbbf24;border:1px solid #92400e}
+.pick-name{font-size:1.2rem;font-weight:700;color:#fff;margin:.25rem 0 .6rem}
+.pick-why{font-size:.95rem;color:var(--text);margin-bottom:1rem}
+.specs{display:flex;gap:.75rem;flex-wrap:wrap;margin-bottom:1rem}
+.spec{background:#0a1628;border:1px solid var(--border);border-radius:6px;padding:.3rem .75rem;font-size:.8rem;color:var(--muted)}
+.spec strong{color:var(--text)}
+.pick-link{display:inline-block;background:var(--gold);color:#0a1628;font-weight:700;font-size:.85rem;padding:.55rem 1.25rem;border-radius:6px;text-decoration:none}
+.pick-link:hover{opacity:.9}
+.science-box{background:linear-gradient(135deg,#0e1f3a,#111e33);border-left:4px solid var(--gold);border-radius:0 8px 8px 0;padding:1.25rem 1.5rem;margin:2rem 0}
+.science-box h3{color:var(--gold);font-size:.85rem;text-transform:uppercase;letter-spacing:.08em;margin-bottom:.5rem}
+.section-block{max-width:860px;margin:2.5rem auto;padding:0 1.25rem}
+.section-block h2{font-size:1.3rem;font-weight:700;color:#fff;margin-bottom:1.25rem;padding-bottom:.5rem;border-bottom:1px solid var(--border)}
+.grid-4{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:1rem;margin-bottom:1.5rem}
+.grid-card{background:var(--card);border:1px solid var(--border);border-radius:8px;padding:1.1rem}
+.grid-card h4{font-size:.9rem;font-weight:700;color:var(--gold);margin-bottom:.4rem}
+.grid-card p{font-size:.82rem;color:var(--muted);line-height:1.5}
+table{width:100%;border-collapse:collapse;font-size:.88rem;margin-bottom:1.5rem}
+th{background:#0e2040;color:var(--gold);padding:.65rem .85rem;text-align:left;font-weight:600;border-bottom:2px solid var(--border)}
+td{padding:.6rem .85rem;border-bottom:1px solid var(--border);color:var(--text)}
+tr:hover td{background:#111e33}
+.warning-box{background:#1a0a0a;border:1px solid #dc2626;border-radius:8px;padding:1.1rem 1.25rem;margin:1.5rem 0}
+.warning-box h4{color:#f87171;font-size:.85rem;text-transform:uppercase;letter-spacing:.06em;margin-bottom:.4rem}
+.warning-box p{font-size:.88rem;color:var(--text)}
+footer{background:#060e1a;border-top:1px solid var(--border);padding:2rem 1.25rem;text-align:center;color:var(--muted);font-size:.82rem;margin-top:3rem}
+footer a{color:var(--gold);text-decoration:none}
+@media(max-width:600px){h1{font-size:1.5rem}.grid-4{grid-template-columns:1fr 1fr}}
+</style>
+</head>
+<body>
+<header>
+  <a href="/">SleepWise Reviews</a>
+  <nav>
+    <a href="/posts/index.html">All Reviews</a>
+    <a href="/pages/about.html">About</a>
+  </nav>
+</header>
+
+<div class="hero">
+  <span class="cat-badge">Health Conditions</span>
+  <h1>Best Mattress for Lupus 2025 &mdash; 7 Picks for SLE Joint Pain, Fatigue &amp; Flares</h1>
+  <p class="subtitle">Pressure relief for inflamed joints, motion isolation for disrupted sleep, cooling for temperature dysregulation. Flare vs remission phase guide included.</p>
+
+  <div class="toc">
+    <h2>Quick Navigation</h2>
+    <ol>
+      <li><a href="#picks">Top 7 Mattress Picks for Lupus</a></li>
+      <li><a href="#science">Why Lupus Disrupts Sleep</a></li>
+      <li><a href="#symptoms">Symptom Cluster vs Priority Guide</a></li>
+      <li><a href="#flare">Flare vs Remission Phase Guide</a></li>
+      <li><a href="#what-to-look-for">What to Look for in a Lupus Mattress</a></li>
+      <li><a href="#positions">Sleep Position Recommendations</a></li>
+      <li><a href="#faq">FAQ</a></li>
+    </ol>
+  </div>
+</div>
+
+<div class="picks" id="picks">
+
+  <div class="pick-card">
+    <span class="pick-num">#1</span>
+    <span class="pick-badge badge-overall">Best Overall</span>
+    <div class="pick-name">Purple Restore Hybrid Soft</div>
+    <p class="pick-why">Purple&rsquo;s GelFlex Grid redistributes weight across thousands of polymer columns, eliminating the pressure points that flare inflamed lupus joints. Unlike foam, the grid never traps heat &mdash; critical for lupus patients who experience fever and temperature dysregulation during flares. The pocketed coil base adds responsive edge support so fatigue-related difficulty getting out of bed is reduced. The Soft variant drops deep enough for hip and shoulder relief without letting you sink into an immovable position.</p>
+    <div class="specs">
+      <div class="spec"><strong>Firmness:</strong> Soft (3/10)</div>
+      <div class="spec"><strong>Type:</strong> Hybrid (Grid + Coils)</div>
+      <div class="spec"><strong>Height:</strong> 13&Prime;</div>
+      <div class="spec"><strong>Best for:</strong> All sleep positions</div>
+      <div class="spec"><strong>Cooling:</strong> Excellent (open grid)</div>
+    </div>
+    <a class="pick-link" href="https://www.amazon.com/s?k=Purple+Restore+Hybrid+Soft+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+  </div>
+
+  <div class="pick-card">
+    <span class="pick-num">#2</span>
+    <span class="pick-badge badge-pain">Pain + Fatigue</span>
+    <div class="pick-name">Tempur-Pedic TEMPUR-ProAdapt Soft</div>
+    <p class="pick-why">TEMPUR material conforms more slowly and more completely than standard memory foam, creating a &ldquo;body cast&rdquo; effect that distributes lupus joint pain across the entire contact surface. The Soft variant is designed specifically for pressure-point relief. Fatigue-driven sleep disruption benefits from TEMPUR&rsquo;s superior motion isolation &mdash; you won&rsquo;t register partner movement through these layers. The main trade-off is heat retention; the ProAdapt includes a TEMPUR-CM+ cooling layer that helps, though it won&rsquo;t match the Purple&rsquo;s open grid.</p>
+    <div class="specs">
+      <div class="spec"><strong>Firmness:</strong> Soft (3.5/10)</div>
+      <div class="spec"><strong>Type:</strong> All-foam (TEMPUR)</div>
+      <div class="spec"><strong>Height:</strong> 12&Prime;</div>
+      <div class="spec"><strong>Best for:</strong> Side sleepers</div>
+      <div class="spec"><strong>Cooling:</strong> Good (CM+ layer)</div>
+    </div>
+    <a class="pick-link" href="https://www.amazon.com/s?k=Tempur-Pedic+TEMPUR-ProAdapt+Soft+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+  </div>
+
+  <div class="pick-card">
+    <span class="pick-num">#3</span>
+    <span class="pick-badge badge-side">Side Sleepers</span>
+    <div class="pick-name">Helix Midnight Luxe</div>
+    <p class="pick-why">Helix&rsquo;s zoned coil system applies softer pressure under shoulders and hips &mdash; the two most commonly affected joint areas in lupus &mdash; while firmer coils support the lumbar zone. The result is side sleeping without hip-bone pressure or shoulder impingement. A cashmere-blend pillow top adds plush surface comfort. Motion isolation from individually wrapped coils is among the best in the mid-market price range. If you and a partner share the bed and have different firmness needs, Helix offers split versions.</p>
+    <div class="specs">
+      <div class="spec"><strong>Firmness:</strong> Medium (5/10)</div>
+      <div class="spec"><strong>Type:</strong> Hybrid (Foam + Zoned Coils)</div>
+      <div class="spec"><strong>Height:</strong> 13.5&Prime;</div>
+      <div class="spec"><strong>Best for:</strong> Side sleepers</div>
+      <div class="spec"><strong>Cooling:</strong> Good (coil airflow)</div>
+    </div>
+    <a class="pick-link" href="https://www.amazon.com/s?k=Helix+Midnight+Luxe+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+  </div>
+
+  <div class="pick-card">
+    <span class="pick-num">#4</span>
+    <span class="pick-badge badge-edge">Edge Support + Mobility</span>
+    <div class="pick-name">Saatva Classic Plush Soft</div>
+    <p class="pick-why">Lupus fatigue makes the act of getting in and out of bed genuinely difficult &mdash; especially after flares that involve extended bed rest. The Saatva Classic has one of the strongest edge systems of any mattress in its class: dual steel-tempered coils plus a foam-encased perimeter mean you can sit on the edge without it collapsing. The Plush Soft variant pairs this with a Euro pillow top for joint pressure relief. The coil-on-coil construction also keeps it breathable, which matters when fever is part of a flare episode.</p>
+    <div class="specs">
+      <div class="spec"><strong>Firmness:</strong> Plush Soft (3/10)</div>
+      <div class="spec"><strong>Type:</strong> Innerspring Hybrid</div>
+      <div class="spec"><strong>Height:</strong> 14.5&Prime; or 11.5&Prime;</div>
+      <div class="spec"><strong>Best for:</strong> Back + side sleepers</div>
+      <div class="spec"><strong>Cooling:</strong> Excellent (dual coil airflow)</div>
+    </div>
+    <a class="pick-link" href="https://www.amazon.com/s?k=Saatva+Classic+Plush+Soft+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+  </div>
+
+  <div class="pick-card">
+    <span class="pick-num">#5</span>
+    <span class="pick-badge badge-zoned">Zoned Support</span>
+    <div class="pick-name">Casper Wave Hybrid</div>
+    <p class="pick-why">Lupus affects multiple body systems simultaneously &mdash; some joints may be in flare while others are not. The Casper Wave&rsquo;s ergonomic zoning addresses this by providing targeted softness where the body exerts most pressure (shoulders, hips) and targeted firmness where support is needed (lower back, legs). Seven ergonomic zones align with natural spinal curves. The hybrid coil base adds bounce for easier repositioning during the night, which matters when joint stiffness makes rolling over difficult.</p>
+    <div class="specs">
+      <div class="spec"><strong>Firmness:</strong> Medium (5/10)</div>
+      <div class="spec"><strong>Type:</strong> Hybrid (7-zone foam + coils)</div>
+      <div class="spec"><strong>Height:</strong> 13&Prime;</div>
+      <div class="spec"><strong>Best for:</strong> Side + back sleepers</div>
+      <div class="spec"><strong>Cooling:</strong> Good (gel + coils)</div>
+    </div>
+    <a class="pick-link" href="https://www.amazon.com/s?k=Casper+Wave+Hybrid+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+  </div>
+
+  <div class="pick-card">
+    <span class="pick-num">#6</span>
+    <span class="pick-badge badge-natural">Natural / Non-Toxic</span>
+    <div class="pick-name">Avocado Green Mattress with Pillow Top</div>
+    <p class="pick-why">Some lupus patients develop chemical sensitivities or react to synthetic materials &mdash; particularly those with secondary Sjogren&rsquo;s syndrome or skin involvement. The Avocado Green is GOTS-certified organic cotton, GOLS-certified organic latex, and free of synthetic foams, flame retardants, and adhesives. The natural latex provides excellent pressure relief with more responsiveness than memory foam, making repositioning easier. The added pillow top brings the firmness down to medium-soft. Latex also runs naturally cooler than foam.</p>
+    <div class="specs">
+      <div class="spec"><strong>Firmness:</strong> Medium-Soft (4/10 with pillow top)</div>
+      <div class="spec"><strong>Type:</strong> Natural Latex Hybrid</div>
+      <div class="spec"><strong>Height:</strong> 14&Prime;</div>
+      <div class="spec"><strong>Best for:</strong> Chemical-sensitive lupus patients</div>
+      <div class="spec"><strong>Cooling:</strong> Excellent (natural latex)</div>
+    </div>
+    <a class="pick-link" href="https://www.amazon.com/s?k=Avocado+Green+Mattress+Pillow+Top&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+  </div>
+
+  <div class="pick-card">
+    <span class="pick-num">#7</span>
+    <span class="pick-badge badge-value">Budget Value</span>
+    <div class="pick-name">DreamCloud Premier</div>
+    <p class="pick-why">Medical costs from lupus management are significant, and a premium mattress budget is not always available. The DreamCloud Premier delivers a cashmere-blend cover, gel memory foam comfort layers, and an individually wrapped coil base at a price point well below the top picks. Motion isolation is above average for the price. Edge support is adequate for most body types. For lupus patients on a budget who cannot justify spending $2,000+, the DreamCloud Premier hits the key requirements &mdash; pressure relief and motion isolation &mdash; at roughly half the cost.</p>
+    <div class="specs">
+      <div class="spec"><strong>Firmness:</strong> Medium-Soft (4.5/10)</div>
+      <div class="spec"><strong>Type:</strong> Hybrid (Gel foam + coils)</div>
+      <div class="spec"><strong>Height:</strong> 14&Prime;</div>
+      <div class="spec"><strong>Best for:</strong> Budget-conscious shoppers</div>
+      <div class="spec"><strong>Cooling:</strong> Good (gel + coil)</div>
+    </div>
+    <a class="pick-link" href="https://www.amazon.com/s?k=DreamCloud+Premier+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+  </div>
+
+</div>
+
+<div class="section-block" id="science">
+  <div class="science-box">
+    <h3>The Research: Why Lupus Destroys Sleep Quality</h3>
+    <p>A 2020 review in <em>Lupus Science &amp; Medicine</em> found that <strong>over 70% of SLE patients</strong> report significant sleep disturbances, compared to 25% of the general population. The mechanisms are threefold: (1) nocturnal joint pain and stiffness that peaks between 2&ndash;6 AM; (2) inflammatory cytokines (especially IL-6 and TNF-&alpha;) that disrupt slow-wave sleep architecture; and (3) fatigue-related hypersomnolence during the day that fragments nighttime sleep. Secondary fibromyalgia, present in up to 30% of SLE patients, adds a further layer of pain-driven sleep disruption. Poor sleep in turn elevates inflammatory markers, creating a feedback loop that worsens lupus activity over time.</p>
+  </div>
+</div>
+
+<div class="section-block" id="symptoms">
+  <h2>Lupus Symptom Cluster vs Mattress Priority</h2>
+  <p style="color:var(--muted);font-size:.9rem;margin-bottom:1rem;">Match your primary symptom cluster to the mattress feature that addresses it most directly.</p>
+  <table>
+    <thead>
+      <tr><th>Primary Symptom</th><th>Priority Feature</th><th>Why It Matters</th><th>Best Pick</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Joint pain / arthritis overlap</td><td>Pressure relief</td><td>Distributes weight away from inflamed synovial joints</td><td>Purple Restore, Tempur-ProAdapt</td></tr>
+      <tr><td>Fatigue / extended bed rest</td><td>Edge support</td><td>Allows sitting on edge without collapse; easier exit</td><td>Saatva Classic, DreamCloud Premier</td></tr>
+      <tr><td>Temperature dysregulation / fever</td><td>Cooling / breathability</td><td>Reduces heat buildup during fever episodes and flares</td><td>Purple Restore, Avocado Green</td></tr>
+      <tr><td>Disrupted sleep / partner disturbance</td><td>Motion isolation</td><td>Prevents partner movement from waking you during fragile sleep</td><td>Tempur-ProAdapt, DreamCloud</td></tr>
+      <tr><td>Chemical sensitivity / skin involvement</td><td>Non-toxic materials</td><td>Avoids synthetic flame retardants and adhesive off-gassing</td><td>Avocado Green (GOTS/GOLS certified)</td></tr>
+      <tr><td>Fibromyalgia overlap</td><td>Zoned support</td><td>Softens pressure at pain-trigger points while supporting spine</td><td>Casper Wave Hybrid, Helix Midnight Luxe</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="section-block" id="flare">
+  <h2>Flare vs Remission Phase Guide</h2>
+  <p style="color:var(--muted);font-size:.9rem;margin-bottom:1rem;">Lupus is cyclical. What your mattress needs to do shifts significantly between active flares and periods of remission.</p>
+  <div class="grid-4">
+    <div class="grid-card">
+      <h4>Active Flare &mdash; Priority 1: Pressure</h4>
+      <p>Inflamed joints cannot tolerate any point loading. Pressure relief is non-negotiable. If your mattress is too firm during a flare, add a 3&Prime; soft foam topper immediately &mdash; no need to buy a new mattress.</p>
+    </div>
+    <div class="grid-card">
+      <h4>Active Flare &mdash; Priority 2: Cooling</h4>
+      <p>Lupus flares often include low-grade fever. A mattress that traps body heat will worsen night sweats and make it harder to sleep. Prioritize gel foam or open-grid designs during flares.</p>
+    </div>
+    <div class="grid-card">
+      <h4>Remission &mdash; Priority 1: Support</h4>
+      <p>In remission, spinal alignment matters more. Sleeping on too-soft a surface long-term can create back pain. A medium-soft mattress (4&ndash;5/10) gives pressure relief without undermining lumbar support.</p>
+    </div>
+    <div class="grid-card">
+      <h4>Remission &mdash; Priority 2: Durability</h4>
+      <p>Sagging mattresses are the leading cause of renewed sleep disruption. Check your mattress for body impressions deeper than 1.5&Prime; every 6 months. Lupus patients need a mattress that holds its shape through years of daily use.</p>
+    </div>
+  </div>
+
+  <div class="warning-box">
+    <h4>The Flare Topper Strategy</h4>
+    <p>You do not need to buy a new mattress every time your symptoms shift. Keep a 2&ndash;3&Prime; soft memory foam topper stored flat. Add it during flares for immediate pressure relief. Remove it during remission to restore support. This extends the useful life of your primary mattress and adapts to your changing symptom profile without additional cost.</p>
+  </div>
+</div>
+
+<div class="section-block" id="what-to-look-for">
+  <h2>What to Look for in a Lupus Mattress</h2>
+  <div class="grid-4">
+    <div class="grid-card">
+      <h4>Pressure Relief</h4>
+      <p>The defining requirement. Lupus inflammation concentrates in synovial joints (knees, hips, shoulders, wrists). A mattress that point-loads these areas worsens pain and disrupts sleep architecture at the deepest level.</p>
+    </div>
+    <div class="grid-card">
+      <h4>Motion Isolation</h4>
+      <p>Lupus disrupts sleep continuity. Any external disturbance (partner movement, pet, noise) is amplified when your sleep is already fragile. Foam and wrapped-coil hybrids absorb movement; traditional innersprings transfer it.</p>
+    </div>
+    <div class="grid-card">
+      <h4>Cooling Technology</h4>
+      <p>Temperature dysregulation is common in SLE. Gel infusions, open-cell foam, natural latex, or open coil systems all help. Avoid dense closed-cell foam as the primary comfort layer.</p>
+    </div>
+    <div class="grid-card">
+      <h4>Edge Support</h4>
+      <p>Fatigue from lupus makes physically getting out of bed hard. Strong edges mean you can push yourself up from a seated position at the edge without the mattress collapsing under you. Often overlooked &mdash; critical for lupus patients.</p>
+    </div>
+  </div>
+</div>
+
+<div class="section-block" id="positions">
+  <h2>Sleep Position Recommendations for Lupus</h2>
+  <table>
+    <thead>
+      <tr><th>Position</th><th>Verdict</th><th>Why</th><th>What You Need</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Side (fetal)</td><td>Best for most</td><td>Reduces spinal load; opens airway; reduces reflux if present</td><td>Soft shoulder zone; pillow between knees to protect hip joints</td></tr>
+      <tr><td>Back</td><td>Good with support</td><td>Even weight distribution; no hip pressure</td><td>Medium firmness; pillow under knees to reduce lumbar strain</td></tr>
+      <tr><td>Stomach</td><td>Avoid if possible</td><td>Forces neck rotation; compresses lumbar; stresses wrist joints if arms overhead</td><td>If unavoidable: thin pillow under hips; soft mattress only</td></tr>
+      <tr><td>Elevated head (30&ndash;45&deg;)</td><td>Flare-period option</td><td>Reduces systemic inflammation pressure on lungs if pleuritis present</td><td>Adjustable base or wedge pillow system</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<section class="related-guides" style="background:#111e33;border-top:2px solid #1e3a5f;padding:2rem 1.25rem;margin-top:2rem;">
+  <div style="max-width:860px;margin:0 auto;">
+    <h2 style="color:#fff;font-size:1.1rem;font-weight:700;margin-bottom:1rem;">Related Guides</h2>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:.75rem;">
+      <a href="/posts/best-mattress-arthritis.html" style="background:#0a1628;border:1px solid #1e3a5f;border-radius:8px;padding:.85rem 1rem;text-decoration:none;color:#e2e8f0;font-size:.88rem;">Best Mattress for Arthritis &rarr;</a>
+      <a href="/posts/best-mattress-fibromyalgia.html" style="background:#0a1628;border:1px solid #1e3a5f;border-radius:8px;padding:.85rem 1rem;text-decoration:none;color:#e2e8f0;font-size:.88rem;">Best Mattress for Fibromyalgia &rarr;</a>
+      <a href="/posts/best-mattress-chronic-fatigue.html" style="background:#0a1628;border:1px solid #1e3a5f;border-radius:8px;padding:.85rem 1rem;text-decoration:none;color:#e2e8f0;font-size:.88rem;">Best Mattress for Chronic Fatigue (CFS) &rarr;</a>
+      <a href="/posts/best-mattress-neuropathy.html" style="background:#0a1628;border:1px solid #1e3a5f;border-radius:8px;padding:.85rem 1rem;text-decoration:none;color:#e2e8f0;font-size:.88rem;">Best Mattress for Neuropathy &rarr;</a>
+      <a href="/posts/best-mattress-hot-sleepers.html" style="background:#0a1628;border:1px solid #1e3a5f;border-radius:8px;padding:.85rem 1rem;text-decoration:none;color:#e2e8f0;font-size:.88rm;">Best Mattress for Hot Sleepers &rarr;</a>
+      <a href="/posts/best-mattress-hip-pain.html" style="background:#0a1628;border:1px solid #1e3a5f;border-radius:8px;padding:.85rem 1rem;text-decoration:none;color:#e2e8f0;font-size:.88rem;">Best Mattress for Hip Pain &rarr;</a>
+    </div>
+  </div>
+</section>
+
+<div class="section-block" id="faq">
+  <h2>Frequently Asked Questions</h2>
+
+  <div style="margin-bottom:1.25rem">
+    <h3 style="font-size:1rem;color:#fff;margin-bottom:.4rem;">What firmness is best for lupus?</h3>
+    <p style="color:var(--muted);font-size:.9rem;">Medium-soft to medium (4&ndash;6/10) works best for most lupus patients. Firm mattresses concentrate pressure on inflamed joints; very soft mattresses let you sink too deep, making it hard to reposition during the night. During flares, a soft mattress topper adds pressure relief without replacing your mattress.</p>
+  </div>
+
+  <div style="margin-bottom:1.25rem">
+    <h3 style="font-size:1rem;color:#fff;margin-bottom:.4rem;">Does lupus cause sleep problems?</h3>
+    <p style="color:var(--muted);font-size:.9rem;">Yes. Studies show over 70% of lupus patients report significant sleep disturbances. Contributing factors include joint pain that worsens at night, fatigue-related non-restorative sleep, and secondary fibromyalgia (affecting up to 30% of SLE patients). A pressure-relieving mattress addresses the pain component but does not replace medical treatment.</p>
+  </div>
+
+  <div style="margin-bottom:1.25rem">
+    <h3 style="font-size:1rem;color:#fff;margin-bottom:.4rem;">Is memory foam good for lupus?</h3>
+    <p style="color:var(--muted);font-size:.9rem;">Memory foam is excellent for pressure relief around inflamed joints. The main concern is heat retention &mdash; many lupus patients experience temperature dysregulation, and traditional memory foam traps heat. Look for gel-infused memory foam or open-cell foam, or choose a hybrid that combines foam comfort layers with a breathable coil base.</p>
+  </div>
+
+  <div style="margin-bottom:1.25rem">
+    <h3 style="font-size:1rem;color:#fff;margin-bottom:.4rem;">What mattress features matter most during a lupus flare?</h3>
+    <p style="color:var(--muted);font-size:.9rem;">During flares prioritize: (1) pressure relief &mdash; inflamed joints need immediate cushioning; (2) edge support &mdash; fatigue makes getting in and out of bed hard; (3) motion isolation &mdash; disturbed sleep during flares is common; (4) cooling &mdash; fever and inflammation both raise body temperature.</p>
+  </div>
+
+  <div style="margin-bottom:1.25rem">
+    <h3 style="font-size:1rem;color:#fff;margin-bottom:.4rem;">Can the wrong mattress trigger a lupus flare?</h3>
+    <p style="color:var(--muted);font-size:.9rem;">An unsupportive mattress cannot trigger a flare directly (flares are immune-mediated), but poor sleep quality is a documented trigger for symptom worsening. Sleep deprivation elevates inflammatory cytokines, which can intensify existing lupus symptoms. Consistent quality sleep on a supportive mattress is part of lupus management, not a luxury.</p>
+  </div>
+</div>
+
+<footer>
+  <p>&copy; 2025 SleepWise Reviews &mdash; <a href="/pages/privacy.html">Privacy Policy</a> &mdash; <a href="/pages/about.html">About</a></p>
+  <p style="margin-top:.5rem;font-size:.75rem;">As an Amazon Associate we earn from qualifying purchases. Prices and availability are subject to change.</p>
+</footer>
+</body>
+</html>'''
+
+with open(filename, "w", encoding="utf-8") as f:
+    f.write(html)
+
+print(f"Created: {filename}")
