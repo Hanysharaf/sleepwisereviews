@@ -1,0 +1,404 @@
+slug = "best-mattress-dysautonomia"
+out = f"posts/{slug}.html"
+
+html = r"""<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Best Mattress for Dysautonomia 2026 — Supine Hypertension, Thermoregulation Failure &amp; ANS Sleep Picks</title>
+<meta name="description" content="7 expert-picked mattresses for dysautonomia. Covers supine hypertension management, anhydrosis thermoregulation failure, small fiber neuropathy pain, MSA sleep disorders, and orthostatic hypotension positioning.">
+<link rel="canonical" href="https://sleepwisereviews.com/posts/best-mattress-dysautonomia.html">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Best Mattress for Dysautonomia 2026",
+  "description": "7 expert-picked mattresses for dysautonomia covering supine hypertension, thermoregulation failure, small fiber neuropathy, MSA sleep disorders, and autonomic instability positioning.",
+  "author": {"@type": "Organization", "name": "SleepWiseReviews"},
+  "publisher": {"@type": "Organization", "name": "SleepWiseReviews", "url": "https://sleepwisereviews.com"},
+  "datePublished": "2026-05-26",
+  "dateModified": "2026-05-26",
+  "mainEntityOfPage": {"@type": "WebPage", "@id": "https://sleepwisereviews.com/posts/best-mattress-dysautonomia.html"}
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://sleepwisereviews.com/"},
+    {"@type": "ListItem", "position": 2, "name": "Posts", "item": "https://sleepwisereviews.com/posts/index.html"},
+    {"@type": "ListItem", "position": 3, "name": "Best Mattress for Dysautonomia", "item": "https://sleepwisereviews.com/posts/best-mattress-dysautonomia.html"}
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Best Mattresses for Dysautonomia 2026",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Saatva Classic + Adjustable Base", "url": "https://www.amazon.com/s?k=saatva+classic+mattress&tag=sleepwiserevi-20"},
+    {"@type": "ListItem", "position": 2, "name": "Purple Restore Plus Hybrid", "url": "https://www.amazon.com/s?k=purple+restore+plus+mattress&tag=sleepwiserevi-20"},
+    {"@type": "ListItem", "position": 3, "name": "Tempur-Adapt", "url": "https://www.amazon.com/s?k=tempur+adapt+mattress&tag=sleepwiserevi-20"},
+    {"@type": "ListItem", "position": 4, "name": "Casper Wave Hybrid", "url": "https://www.amazon.com/s?k=casper+wave+hybrid+mattress&tag=sleepwiserevi-20"},
+    {"@type": "ListItem", "position": 5, "name": "Helix Midnight Luxe", "url": "https://www.amazon.com/s?k=helix+midnight+luxe+mattress&tag=sleepwiserevi-20"},
+    {"@type": "ListItem", "position": 6, "name": "Nectar Premier Hybrid", "url": "https://www.amazon.com/s?k=nectar+premier+hybrid+mattress&tag=sleepwiserevi-20"},
+    {"@type": "ListItem", "position": 7, "name": "Avocado Green Mattress", "url": "https://www.amazon.com/s?k=avocado+green+mattress&tag=sleepwiserevi-20"}
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is supine hypertension in dysautonomia and how does sleep position affect it?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Supine hypertension occurs in Pure Autonomic Failure (PAF) and Multiple System Atrophy (MSA) when blood pressure rises significantly when lying flat. It occurs because the failed baroreflex cannot regulate blood pressure in horizontal position. Head-of-bed elevation (10-30 degrees) using an adjustable base reduces supine hypertension by maintaining partial gravitational pooling in the lower body, reducing central blood volume and thereby reducing blood pressure during sleep."}
+    },
+    {
+      "@type": "Question",
+      "name": "What sleeping position is best for dysautonomia?",
+      "acceptedAnswer": {"@type": "Answer", "text": "It depends on the type of dysautonomia. For orthostatic hypotension (blood pressure drops when upright), lying flat maximizes cerebral perfusion during sleep. For supine hypertension (PAF/MSA), head-of-bed elevation of 10-30 degrees is recommended to prevent dangerous nocturnal BP elevation and reduce overnight urinary sodium loss that worsens morning orthostatic hypotension. POTS (postural tachycardia) typically benefits from slight head elevation and compression-maintained positioning."}
+    },
+    {
+      "@type": "Question",
+      "name": "Why do people with dysautonomia overheat or undercool during sleep?",
+      "acceptedAnswer": {"@type": "Answer", "text": "The autonomic nervous system controls thermoregulation via sweating and peripheral vasodilation. In dysautonomia, this system fails. Anhydrosis (inability to sweat) causes dangerous overheating; hyperhidrosis (excessive sweating) causes heat loss and temperature instability. A mattress that actively manages heat without requiring the patient's thermoregulation system to respond is essential. Open-air grids and phase-change covers work independently of sweat-based cooling."}
+    },
+    {
+      "@type": "Question",
+      "name": "Does dysautonomia cause sleep disorders?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Yes. Multiple System Atrophy (a severe dysautonomia) is associated with REM sleep behavior disorder (RBD) in up to 90% of cases, where patients act out dreams. POTS is associated with non-restorative sleep and delayed sleep phase. Autonomic neuropathy causes nocturnal diarrhea, bladder dysfunction, and sleep-disordered breathing via impaired respiratory drive regulation."}
+    },
+    {
+      "@type": "Question",
+      "name": "What mattress features matter most for small fiber neuropathy with dysautonomia?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Small fiber neuropathy (SFN) concurrent with dysautonomia causes burning, allodynia (pain from non-painful stimuli like sheet contact), and hyperalgesia in the extremities. The mattress surface should minimize contact pressure at the feet and lower legs (where SFN burning is worst), avoid generating heat that worsens burning pain, and provide deep pressure properties that can downregulate sensitized pain pathways."}
+    }
+  ]
+}
+</script>
+<style>
+:root{--bg:#0a1628;--card:#111e33;--gold:#c9a84c;--text:#e2e8f0;--muted:#94a3b8;--red:#dc2626}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:'Segoe UI',sans-serif;line-height:1.7}
+header{background:linear-gradient(135deg,#0a1628 0%,#1a2f4e 100%);padding:2rem 1rem;text-align:center;border-bottom:2px solid var(--gold)}
+header h1{font-size:clamp(1.4rem,4vw,2rem);color:#fff;margin-bottom:.5rem}
+header p{color:var(--muted);font-size:.95rem}
+nav{background:#0d1f3a;padding:.75rem 1rem;text-align:center;font-size:.85rem}
+nav a{color:var(--gold);text-decoration:none;margin:0 .5rem}
+.container{max-width:900px;margin:0 auto;padding:2rem 1rem}
+.intro{background:var(--card);border-left:4px solid var(--gold);padding:1.25rem 1.5rem;border-radius:8px;margin-bottom:2rem}
+.pick-card{background:var(--card);border-radius:10px;padding:1.5rem;margin-bottom:1.5rem;border:1px solid #1e3a5f}
+.pick-header{display:flex;align-items:center;gap:1rem;margin-bottom:1rem}
+.pick-num{background:var(--gold);color:#0a1628;font-weight:700;font-size:1.1rem;width:2.2rem;height:2.2rem;border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.pick-title{font-size:1.15rem;font-weight:700;color:#fff}
+.pick-sub{font-size:.8rem;color:var(--gold);margin-top:.1rem}
+.pick-body p{color:var(--muted);margin-bottom:.75rem;font-size:.95rem}
+.pick-body ul{color:var(--muted);padding-left:1.25rem;font-size:.95rem}
+.pick-body li{margin-bottom:.35rem}
+.cta-btn{display:inline-block;background:var(--gold);color:#0a1628;font-weight:700;padding:.55rem 1.25rem;border-radius:6px;text-decoration:none;font-size:.9rem;margin-top:.75rem}
+.cta-btn:hover{opacity:.88}
+.science-box{background:#0d1f3a;border:1px solid #1e3a5f;border-left:4px solid var(--gold);border-radius:8px;padding:1.25rem 1.5rem;margin:2rem 0}
+.science-box h2{color:var(--gold);margin-bottom:.75rem;font-size:1.05rem}
+.science-box ul{padding-left:1.25rem;color:var(--muted);font-size:.9rem}
+.science-box li{margin-bottom:.4rem}
+.note-box{background:#1a2f0a;border:1px solid #2d5a0a;border-radius:8px;padding:1rem 1.25rem;margin:1.5rem 0;font-size:.9rem;color:#a3c47a}
+table{width:100%;border-collapse:collapse;margin:1.5rem 0;font-size:.88rem}
+th{background:#1e3a5f;color:var(--gold);padding:.6rem .75rem;text-align:left}
+td{padding:.55rem .75rem;border-bottom:1px solid #1e3a5f;color:var(--muted)}
+tr:hover td{background:#0d1f3a}
+h2.section-title{color:var(--gold);font-size:1.15rem;margin:2rem 0 1rem;border-bottom:1px solid #1e3a5f;padding-bottom:.4rem}
+.related-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:1rem;margin-top:1rem}
+.related-card{background:var(--card);border:1px solid #1e3a5f;border-radius:8px;padding:1rem;text-decoration:none;color:var(--text);transition:.2s}
+.related-card:hover{border-color:var(--gold)}
+.related-card h3{font-size:.95rem;margin-bottom:.3rem;color:#fff}
+.related-card p{font-size:.82rem;color:var(--muted)}
+footer{text-align:center;padding:2rem 1rem;background:#060e1a;color:var(--muted);font-size:.82rem;border-top:1px solid #1e3a5f;margin-top:3rem}
+footer a{color:var(--gold);text-decoration:none}
+.badge{display:inline-block;padding:.2rem .6rem;border-radius:4px;font-size:.75rem;font-weight:600;margin-bottom:.5rem}
+.badge-health{background:var(--red);color:#fff}
+</style>
+</head>
+<body>
+<header>
+  <p><a href="../index.html" style="color:var(--gold);text-decoration:none">SleepWiseReviews</a></p>
+  <span class="badge badge-health">Health Conditions</span>
+  <h1>Best Mattress for Dysautonomia 2026</h1>
+  <p>7 picks for supine hypertension, thermoregulation failure, small fiber neuropathy &amp; ANS sleep disorders</p>
+</header>
+<nav>
+  <a href="../index.html">Home</a> &rsaquo;
+  <a href="index.html">All Posts</a> &rsaquo;
+  Best Mattress for Dysautonomia
+</nav>
+<div class="container">
+
+<div class="intro">
+  <p><strong>Dysautonomia sleep complexity:</strong> The autonomic nervous system governs every non-voluntary sleep function &mdash; blood pressure maintenance, thermoregulation, respiratory drive, gut motility, and bladder control. When it fails, none of these work correctly during sleep. The primary battleground is position-dependent blood pressure: supine hypertension in Pure Autonomic Failure (PAF) and Multiple System Atrophy (MSA) means lying flat can raise blood pressure to dangerous levels; yet orthostatic hypotension means sitting up drops it equally dangerously. A mattress paired with an adjustable base is not optional &mdash; it is the physiological tool that allows positioning control to manage this gradient throughout the night.</p>
+</div>
+
+<div class="science-box">
+  <h2>Clinical Context &mdash; Dysautonomia Types &amp; Sleep</h2>
+  <ul>
+    <li><strong>Types covered:</strong> Pure Autonomic Failure (PAF), Multiple System Atrophy (MSA), Small Fiber Neuropathy (SFN) with autonomic involvement, Autoimmune Autonomic Ganglionopathy (AAG), Familial Dysautonomia, and non-POTS orthostatic hypotension</li>
+    <li><strong>Supine hypertension prevalence:</strong> Occurs in 50% of PAF patients and 30% of MSA patients; nocturnal BP can exceed 180/100 mmHg in severe cases; head-of-bed elevation of 10&ndash;30&deg; is the first-line non-pharmacological intervention</li>
+    <li><strong>Thermoregulation failure:</strong> Anhydrosis (inability to sweat) occurs in 60&ndash;80% of PAF patients and is the most dangerous thermoregulation failure; mattress heat management is critical when the patient cannot sweat to cool themselves</li>
+    <li><strong>MSA sleep disorders:</strong> REM sleep behavior disorder (RBD) occurs in up to 90% of MSA patients &mdash; patients physically act out dreams; central sleep apnea and inspiratory stridor occur from brainstem autonomic degeneration affecting respiratory control</li>
+    <li><strong>Small fiber neuropathy overlap:</strong> SFN concurrent with dysautonomia causes length-dependent burning pain (feet, lower legs), allodynia (sheet contact pain), and autonomic symptoms including abnormal sweating and blood pressure instability</li>
+    <li><strong>Nocturnal sodium loss:</strong> Supine hypertension causes pressure natriuresis &mdash; kidneys excrete excess sodium overnight &mdash; which worsens morning orthostatic hypotension; head-of-bed elevation reduces this natriuresis cycle</li>
+    <li><strong>Sleep quality:</strong> Studies show 70&ndash;90% of PAF/MSA patients report severely disrupted sleep; autonomic dysfunction is also associated with reduced REM sleep percentage and increased arousal index</li>
+  </ul>
+</div>
+
+<h2 class="section-title">The 7 Best Mattresses for Dysautonomia</h2>
+
+<div class="pick-card">
+  <div class="pick-header">
+    <div class="pick-num">1</div>
+    <div>
+      <div class="pick-title">Saatva Classic + Adjustable Base</div>
+      <div class="pick-sub">Best Overall for Dysautonomia &mdash; Supine Hypertension Management via Head Elevation</div>
+    </div>
+  </div>
+  <div class="pick-body">
+    <p>Head-of-bed elevation (HOB-E) is the most evidence-supported non-pharmacological intervention for supine hypertension in PAF and MSA. Elevating the head 10&ndash;30 degrees maintains partial gravitational pooling in the lower body during sleep, reducing central blood volume and thereby attenuating the BP rise that occurs when autonomic baroreflex control fails in the horizontal position. HOB-E also reduces the nocturnal pressure natriuresis cycle that depletes sodium overnight and worsens morning orthostatic hypotension. Saatva's lumbar crown maintains correct spinal alignment at elevation angles &mdash; the mattress doesn't fold or sag at the point of flexion the way cheaper hybrid beds do.</p>
+    <ul>
+      <li>Adjustable base head elevation (10&ndash;30&deg;) reduces supine hypertension &mdash; primary intervention for PAF/MSA</li>
+      <li>Reduces nocturnal pressure natriuresis that depletes sodium overnight and worsens morning OH</li>
+      <li>Lumbar crown maintains spinal alignment at elevation &mdash; no sag or fold at adjustable flex point</li>
+      <li>Raised bed profile eases sit-to-stand for patients with severe orthostatic hypotension on waking</li>
+      <li>Multiple elevation angles allow titration of HOB-E to individual BP response</li>
+    </ul>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=saatva+classic+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+</div>
+
+<div class="pick-card">
+  <div class="pick-header">
+    <div class="pick-num">2</div>
+    <div>
+      <div class="pick-title">Purple Restore Plus Hybrid</div>
+      <div class="pick-sub">Best for Thermoregulation Failure &mdash; Passive Temperature Control for Anhydrosis</div>
+    </div>
+  </div>
+  <div class="pick-body">
+    <p>Anhydrosis (inability to sweat) is the most dangerous thermoregulation failure in dysautonomia. Sweating dissipates approximately 80% of the body's heat load during exertion or elevated ambient temperature. When this system fails, core body temperature rises without correction. During sleep, the mattress surface becomes the primary heat dissipation pathway. Purple's open-air polymer grid allows continuous convective airflow across the body contact surface, conducting heat away without requiring any active response from the patient's thermoregulation system. This passive cooling works regardless of autonomic failure severity.</p>
+    <ul>
+      <li>Open-air polymer grid: passive heat dissipation works without sweat response (critical for anhydrosis)</li>
+      <li>Convective airflow across body contact zone &mdash; removes heat load independently of ANS function</li>
+      <li>Addresses hyperhidrosis side equally &mdash; wicks moisture from excessive autonomic sweating without retention</li>
+      <li>Pressure-neutral surface &mdash; no concentrated heat buildup at pressure points that worsen temperature instability</li>
+      <li>Chemical neutrality avoids the VOC off-gassing that can trigger autonomic flares in sensitive patients</li>
+    </ul>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=purple+restore+plus+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+</div>
+
+<div class="pick-card">
+  <div class="pick-header">
+    <div class="pick-num">3</div>
+    <div>
+      <div class="pick-title">Tempur-Adapt</div>
+      <div class="pick-sub">Best for Small Fiber Neuropathy + Dysautonomia &mdash; Allodynia-Safe Pressure Distribution</div>
+    </div>
+  </div>
+  <div class="pick-body">
+    <p>Small fiber neuropathy (SFN) concurrent with autonomic dysautonomia produces length-dependent burning pain at the feet and lower legs &mdash; areas that contact the mattress surface directly. Allodynia (pain from normally non-painful stimuli like sheet or mattress contact) is common in SFN. TEMPUR material distributes weight across the maximum surface area, reducing peak interface pressure at the feet and lower legs to levels below the allodynic threshold. The deep pressure properties also provide proprioceptive input that can downregulate the central sensitization driving SFN neuropathic pain during sleep.</p>
+    <ul>
+      <li>Maximum pressure distribution at feet and lower legs &mdash; reduces allodynic stimulation in SFN</li>
+      <li>No concentrated pressure at heel or Achilles tendon contact &mdash; primary SFN pain sites</li>
+      <li>Deep pressure proprioceptive input downregulates central sensitization in SFN neuropathic pain</li>
+      <li>Temperature-sensitive conforming &mdash; adapts to foot/leg contour to minimize contact pressure at pain sites</li>
+      <li>Motion isolation prevents partner movement from triggering allodynic flares during sleep</li>
+    </ul>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=tempur+adapt+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+</div>
+
+<div class="pick-card">
+  <div class="pick-header">
+    <div class="pick-num">4</div>
+    <div>
+      <div class="pick-title">Casper Wave Hybrid</div>
+      <div class="pick-sub">Best for MSA + Autonomic GI Dysfunction &mdash; Side-Sleep Zoned Support</div>
+    </div>
+  </div>
+  <div class="pick-body">
+    <p>Multiple System Atrophy patients face two compounding challenges: REM sleep behavior disorder (requiring a surface that absorbs dream-enactment movement safely) and autonomic GI dysmotility causing nocturnal nausea and regurgitation risk. Left lateral decubitus (left side sleeping) is the recommended position for reducing regurgitation and aspiration risk in autonomic GI dysfunction &mdash; it empties the stomach faster and reduces GER. Casper Wave's zone 2 (shoulder) and zone 5 (hip) pressure relief supports extended left-side sleeping without developing uncomfortable pressure at the shoulder or greater trochanter.</p>
+    <ul>
+      <li>Zone 2 shoulder pressure relief supports extended left-side sleeping for GI dysmotility management</li>
+      <li>Zone 5 hip pressure relief prevents greater trochanter pain during prolonged lateral positioning</li>
+      <li>Motion-absorbing hybrid construction limits the spread of RBD dream-enactment movement to partner</li>
+      <li>Maintains position stability for patients with limited ability to reposition during night</li>
+      <li>Zone 3 lumbar support maintains spinal alignment in lateral positions with head-of-bed elevation</li>
+    </ul>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=casper+wave+hybrid+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+</div>
+
+<div class="pick-card">
+  <div class="pick-header">
+    <div class="pick-num">5</div>
+    <div>
+      <div class="pick-title">Helix Midnight Luxe</div>
+      <div class="pick-sub">Best for Caregiver Couples &mdash; Split King + Safe Transfer Edge for Caregiver Support</div>
+    </div>
+  </div>
+  <div class="pick-body">
+    <p>Advanced dysautonomia, particularly PAF and MSA, often requires caregiver assistance for nighttime transfers, repositioning, and fall prevention when orthostatic hypotension makes independent standing dangerous. Helix Midnight Luxe's split king configuration allows the caregiver to sleep undisturbed while maintaining full motion independence from the patient's side. The reinforced perimeter provides a stable platform for caregiver-assisted transfers &mdash; the edge holds firm under the combined weight of patient and caregiver support without compressing.</p>
+    <ul>
+      <li>Split king: caregiver sleeps undisturbed; patient side independently adjustable via separate remote</li>
+      <li>Reinforced perimeter handles caregiver-assisted transfer weight without compressing or destabilizing</li>
+      <li>Dual-zone adjustment: patient uses head elevation for BP management; caregiver sleeps flat</li>
+      <li>TENCEL cover temperature management relevant for anhydrosis on patient side</li>
+      <li>Edge support allows sitting on bed edge during OH recovery (safe position during BP stabilization)</li>
+    </ul>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=helix+midnight+luxe+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+</div>
+
+<div class="pick-card">
+  <div class="pick-header">
+    <div class="pick-num">6</div>
+    <div>
+      <div class="pick-title">Nectar Premier Hybrid</div>
+      <div class="pick-sub">Best for Non-MSA Orthostatic Hypotension &mdash; Positioning Versatility + Long Trial</div>
+    </div>
+  </div>
+  <div class="pick-body">
+    <p>Non-MSA orthostatic hypotension (from diabetic autonomic neuropathy, medication-induced dysautonomia, or aging-related baroreflex decline) does not involve supine hypertension and therefore does not require head elevation. These patients benefit from lying flat to maximize cerebral perfusion during sleep, but need a sleep surface that manages the secondary dysautonomia symptoms: night sweats from autonomic hyperhidrosis, burning pain from concurrent peripheral neuropathy, and fatigue-related need for pressure relief. Nectar Premier's 365-night trial accommodates the long adjustment periods typical in dysautonomia medication management.</p>
+    <ul>
+      <li>Flat-position optimization for non-supine-hypertension OH &mdash; maximizes cerebral perfusion during sleep</li>
+      <li>Gel-infused memory foam addresses autonomic hyperhidrosis night sweats</li>
+      <li>Medium-firm profile provides pressure relief for neuropathic pain without sinking that complicates transfer</li>
+      <li>365-night trial covers medication titration period for autonomic treatments (fludrocortisone, midodrine, droxidopa)</li>
+      <li>Adjustable-base compatible for cases where supine hypertension develops during disease progression</li>
+    </ul>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=nectar+premier+hybrid+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+</div>
+
+<div class="pick-card">
+  <div class="pick-header">
+    <div class="pick-num">7</div>
+    <div>
+      <div class="pick-title">Avocado Green Mattress</div>
+      <div class="pick-sub">Best for hEDS-Associated Dysautonomia &mdash; Chemical-Free Support for Mast Cell Overlap</div>
+    </div>
+  </div>
+  <div class="pick-body">
+    <p>Hypermobile Ehlers-Danlos Syndrome (hEDS) is one of the most common underlying causes of dysautonomia in young patients &mdash; hEDS-related connective tissue laxity allows venous pooling that triggers autonomic instability. The hEDS/dysautonomia/mast cell activation (MCAS) triad is a recognized clinical cluster. MCAS patients react to chemical triggers including VOC off-gassing from synthetic mattress foams. Avocado's certified organic construction eliminates this trigger source while providing the firm, consistent support that hEDS joint instability requires &mdash; avoiding the sinking that causes joint subluxation during sleep.</p>
+    <ul>
+      <li>Zero VOC off-gassing &mdash; eliminates chemical trigger for mast cell activation in hEDS/MCAS/dysautonomia triad</li>
+      <li>Firm natural latex support prevents hEDS joint subluxation that triggers autonomic flares</li>
+      <li>GOTS organic wool naturally temperature-regulating &mdash; supports failed thermoregulation in dysautonomia</li>
+      <li>GOLS/GOTS/Greenguard Gold certified &mdash; comprehensive chemical safety for multi-system reactive patients</li>
+      <li>Buoyant latex response eases repositioning despite hEDS joint fragility and dysautonomia fatigue</li>
+    </ul>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=avocado+green+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+</div>
+
+<h2 class="section-title">Dysautonomia Type &amp; Sleep Priority Table</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Dysautonomia Type</th>
+      <th>Key Sleep Feature</th>
+      <th>Primary Mattress Need</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Pure Autonomic Failure (PAF)</td>
+      <td>Supine hypertension + anhydrosis</td>
+      <td>Head elevation (adjustable base) + passive temperature management</td>
+    </tr>
+    <tr>
+      <td>Multiple System Atrophy (MSA)</td>
+      <td>RBD + central apnea + supine hypertension</td>
+      <td>Adjustable elevation + motion absorption + lateral support</td>
+    </tr>
+    <tr>
+      <td>SFN with autonomic involvement</td>
+      <td>Burning pain at feet/legs, allodynia</td>
+      <td>Minimum interface pressure at distal extremities</td>
+    </tr>
+    <tr>
+      <td>hEDS-associated dysautonomia</td>
+      <td>Venous pooling, joint subluxation, MCAS overlap</td>
+      <td>Chemical-free, firm consistent support, no sinking</td>
+    </tr>
+    <tr>
+      <td>Diabetic/medication-induced OH</td>
+      <td>Flat position for cerebral perfusion, night sweats</td>
+      <td>Cooling foam, pressure relief, long trial</td>
+    </tr>
+  </tbody>
+</table>
+
+<div class="note-box">
+  <strong>Head-of-Bed Elevation Protocol:</strong> For PAF and MSA supine hypertension, head-of-bed elevation should be titrated starting at 10&deg; and increasing by 5&deg; increments every few nights while monitoring morning and nocturnal BP. The goal is to reduce nocturnal BP to &lt;150/90 mmHg without reducing morning systolic below 110 mmHg. An adjustable base with programmable angles (most modern models allow 0&ndash;60&deg; head adjustment in 1&deg; increments) is the only reliable way to achieve this precision. Work with your neurologist or cardiologist on target parameters.
+</div>
+
+<h2 class="section-title">Frequently Asked Questions</h2>
+
+<h3 style="color:#fff;margin-bottom:.5rem">What is supine hypertension in dysautonomia and how does sleep position affect it?</h3>
+<p style="color:var(--muted);margin-bottom:1.25rem">Supine hypertension occurs in PAF and MSA when blood pressure rises significantly when lying flat because the failed baroreflex cannot regulate BP in horizontal position. Head-of-bed elevation (10&ndash;30 degrees) reduces supine hypertension by maintaining partial gravitational pooling in the lower body, reducing central blood volume and thereby reducing BP during sleep.</p>
+
+<h3 style="color:#fff;margin-bottom:.5rem">What sleeping position is best for dysautonomia?</h3>
+<p style="color:var(--muted);margin-bottom:1.25rem">It depends on type. For orthostatic hypotension without supine hypertension, lying flat maximizes cerebral perfusion. For supine hypertension (PAF/MSA), head-of-bed elevation of 10&ndash;30 degrees is recommended to prevent dangerous nocturnal BP elevation and reduce the overnight sodium loss that worsens morning orthostatic hypotension.</p>
+
+<h3 style="color:#fff;margin-bottom:.5rem">Why do people with dysautonomia overheat or undercool during sleep?</h3>
+<p style="color:var(--muted);margin-bottom:1.25rem">The autonomic nervous system controls thermoregulation via sweating and peripheral vasodilation. In dysautonomia, this system fails. Anhydrosis (inability to sweat) causes dangerous overheating; hyperhidrosis causes heat loss. A mattress that manages heat passively &mdash; without requiring the patient's thermoregulation system to respond &mdash; is essential.</p>
+
+<h3 style="color:#fff;margin-bottom:.5rem">Does dysautonomia cause sleep disorders?</h3>
+<p style="color:var(--muted);margin-bottom:1.25rem">Yes. MSA is associated with REM sleep behavior disorder in up to 90% of cases. POTS is associated with non-restorative sleep and delayed sleep phase. Autonomic neuropathy causes nocturnal diarrhea, bladder dysfunction, and sleep-disordered breathing via impaired respiratory drive regulation.</p>
+
+<h3 style="color:#fff;margin-bottom:.5rem">What mattress features matter most for small fiber neuropathy with dysautonomia?</h3>
+<p style="color:var(--muted);margin-bottom:1.25rem">SFN concurrent with dysautonomia causes burning, allodynia, and hyperalgesia in the extremities. The mattress should minimize contact pressure at the feet and lower legs, avoid generating heat that worsens burning pain, and provide deep pressure properties that can downregulate sensitized pain pathways.</p>
+
+<h2 class="section-title">Related Guides</h2>
+<div class="related-grid">
+  <a class="related-card" href="best-mattress-pots.html">
+    <h3>Best Mattress for POTS</h3>
+    <p>Postural tachycardia, head-of-bed elevation and positional management</p>
+  </a>
+  <a class="related-card" href="best-mattress-ehlers-danlos.html">
+    <h3>Best Mattress for Ehlers-Danlos</h3>
+    <p>Joint hypermobility, subluxation and connective tissue sleep challenges</p>
+  </a>
+  <a class="related-card" href="best-mattress-mcas.html">
+    <h3>Best Mattress for MCAS</h3>
+    <p>Mast cell activation, chemical triggers and the hEDS/POTS triad</p>
+  </a>
+  <a class="related-card" href="best-mattress-neuropathy.html">
+    <h3>Best Mattress for Neuropathy</h3>
+    <p>Peripheral nerve pain, burning feet and pressure-free surfaces</p>
+  </a>
+  <a class="related-card" href="best-mattress-multiple-sclerosis.html">
+    <h3>Best Mattress for Multiple Sclerosis</h3>
+    <p>Autonomic dysfunction, spasticity and heat sensitivity</p>
+  </a>
+  <a class="related-card" href="best-mattress-chronic-fatigue.html">
+    <h3>Best Mattress for Chronic Fatigue</h3>
+    <p>ME/CFS post-exertional malaise and unrefreshing sleep</p>
+  </a>
+</div>
+
+</div>
+<footer>
+  <p>&copy; 2026 SleepWiseReviews &mdash; <a href="../about.html">About</a> &mdash; <a href="../privacy.html">Privacy Policy</a> &mdash; <a href="../affiliate-disclosure.html">Affiliate Disclosure</a></p>
+  <p style="margin-top:.5rem">Affiliate links on this page may earn us a commission at no extra cost to you.</p>
+</footer>
+</body>
+</html>"""
+
+with open(out, "w", encoding="utf-8") as f:
+    f.write(html)
+print(f"Generated {out}")
