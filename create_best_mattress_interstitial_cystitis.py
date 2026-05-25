@@ -1,0 +1,392 @@
+html = """<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Best Mattress for Interstitial Cystitis (2026): 7 Picks for IC Sleep</title>
+<meta name="description" content="Best mattresses for interstitial cystitis in 2026. 7 expert picks addressing nocturia-driven waking, pelvic floor tension, bladder pressure sensitivity, and position-sensitive IC pain during sleep.">
+<link rel="canonical" href="https://sleepwisereviews.com/posts/best-mattress-interstitial-cystitis.html">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Best Mattress for Interstitial Cystitis (2026): 7 Picks for IC Sleep",
+  "description": "7 expert picks for interstitial cystitis sleep -- nocturia management, pelvic floor tension, bladder pressure relief, and quick-exit responsiveness for urgency waking.",
+  "author": {"@type": "Organization", "name": "SleepWise Reviews"},
+  "publisher": {"@type": "Organization", "name": "SleepWise Reviews"},
+  "datePublished": "2026-05-25",
+  "dateModified": "2026-05-25"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://sleepwisereviews.com/"},
+    {"@type": "ListItem", "position": 2, "name": "Posts", "item": "https://sleepwisereviews.com/posts/index.html"},
+    {"@type": "ListItem", "position": 3, "name": "Best Mattress for Interstitial Cystitis", "item": "https://sleepwisereviews.com/posts/best-mattress-interstitial-cystitis.html"}
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Best Mattresses for Interstitial Cystitis 2026",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Casper Wave Hybrid", "url": "https://www.amazon.com/s?k=Casper+Wave+Hybrid+mattress&tag=sleepwiserevi-20"},
+    {"@type": "ListItem", "position": 2, "name": "Saatva Classic Plush Soft", "url": "https://www.amazon.com/s?k=Saatva+Classic+Plush+mattress&tag=sleepwiserevi-20"},
+    {"@type": "ListItem", "position": 3, "name": "Helix Midnight Luxe", "url": "https://www.amazon.com/s?k=Helix+Midnight+Luxe+mattress&tag=sleepwiserevi-20"},
+    {"@type": "ListItem", "position": 4, "name": "Purple Restore Hybrid", "url": "https://www.amazon.com/s?k=Purple+Restore+Hybrid+mattress&tag=sleepwiserevi-20"},
+    {"@type": "ListItem", "position": 5, "name": "Nectar Premier", "url": "https://www.amazon.com/s?k=Nectar+Premier+mattress&tag=sleepwiserevi-20"},
+    {"@type": "ListItem", "position": 6, "name": "Tempur-ProAdapt Soft", "url": "https://www.amazon.com/s?k=Tempur-ProAdapt+Soft+mattress&tag=sleepwiserevi-20"},
+    {"@type": "ListItem", "position": 7, "name": "DreamCloud Premier", "url": "https://www.amazon.com/s?k=DreamCloud+Premier+mattress&tag=sleepwiserevi-20"}
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How many times do IC patients wake up at night?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Mild IC: 2-4 times per night. Moderate IC: 4-8 times. Severe IC (active flare): 8+ times per night. Each waking requires exiting the mattress, walking to the bathroom, and returning -- meaning mattress responsiveness (how quickly you can get in and out) directly determines how much sleep is lost per waking episode."}
+    },
+    {
+      "@type": "Question",
+      "name": "What sleeping position reduces IC bladder pressure?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Left-side or right-side fetal position reduces bladder pressure compared to back sleeping. Back sleeping allows the full weight of abdominal contents to press down on the bladder. Fetal position on either side shifts this weight load laterally. The mattress must support hip and shoulder cushioning to maintain fetal position without building pressure at bony prominences."}
+    },
+    {
+      "@type": "Question",
+      "name": "Does mattress firmness affect IC bladder pain?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Yes. Firm mattresses create pressure points at the pelvis and hip bones during side sleeping. In IC, the pelvic floor is already hypersensitive -- additional external pressure triggers referred pain into the bladder and pelvic region. Medium-soft (4-5/10) distributes pelvic pressure across a larger surface area, reducing the focal loading that worsens IC pain during side sleeping."}
+    },
+    {
+      "@type": "Question",
+      "name": "Is IC sleep disruption the same as overactive bladder (OAB)?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Similar but different. Both involve nocturia (nighttime urination urgency). IC adds a chronic pelvic pain component -- the bladder pain itself is the primary driver, not just urgency. OAB is primarily a muscle control issue; IC is a bladder wall lining issue (GAG layer deficiency). Both benefit from responsive mattresses for quick exit, but IC additionally requires pelvic floor pressure relief that OAB does not specifically require."}
+    },
+    {
+      "@type": "Question",
+      "name": "Can a heating pad on the mattress help IC pain at night?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Heat therapy is commonly used for IC pelvic pain management. If using a heating pad, choose a mattress with a cooling cover to offset the added warmth from the pad. Do not use a heating pad on memory foam without a protective cover -- prolonged heat accelerates foam degradation. Gel-infused foam or hybrid mattresses handle localized heat better than pure memory foam."}
+    }
+  ]
+}
+</script>
+<style>
+:root{--bg:#0a1628;--card:#111e33;--gold:#c9a84c;--text:#e2e8f0;--muted:#94a3b8;--accent:#3b82f6}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:'Segoe UI',system-ui,sans-serif;line-height:1.7;font-size:16px}
+a{color:var(--gold);text-decoration:none}
+a:hover{text-decoration:underline}
+header{background:linear-gradient(135deg,#0a1628 0%,#1a2f4e 100%);padding:16px 24px;border-bottom:1px solid #1e3a5f}
+.logo{font-size:1.4rem;font-weight:700;color:var(--gold)}
+nav{margin-top:8px;display:flex;gap:16px;flex-wrap:wrap}
+nav a{color:var(--muted);font-size:.9rem}
+nav a:hover{color:var(--gold)}
+.container{max-width:860px;margin:0 auto;padding:0 20px}
+.hero{padding:48px 0 32px}
+.cat-badge{display:inline-block;padding:4px 12px;border-radius:20px;font-size:.75rem;font-weight:600;letter-spacing:.05em;text-transform:uppercase;margin-bottom:16px;background:#dc2626;color:#fff}
+h1{font-size:clamp(1.6rem,4vw,2.4rem);font-weight:800;line-height:1.2;color:#fff;margin-bottom:16px}
+.subtitle{color:var(--muted);font-size:1.05rem;margin-bottom:24px}
+.quick-nav{background:var(--card);border:1px solid #1e3a5f;border-radius:8px;padding:20px;margin-bottom:40px}
+.quick-nav h3{color:var(--gold);font-size:.85rem;text-transform:uppercase;letter-spacing:.08em;margin-bottom:12px}
+.quick-nav ol{padding-left:20px;display:flex;flex-direction:column;gap:6px}
+.quick-nav a{color:var(--text);font-size:.95rem}
+.section-title{font-size:1.5rem;font-weight:700;color:#fff;margin:40px 0 20px;padding-bottom:8px;border-bottom:2px solid var(--gold)}
+.science-box{background:linear-gradient(135deg,#0f1f3d,#1a2f4e);border:1px solid #2d4a7a;border-radius:12px;padding:28px;margin:32px 0}
+.science-box h3{color:var(--gold);font-size:1rem;text-transform:uppercase;letter-spacing:.08em;margin-bottom:16px}
+.science-box ul{list-style:none;padding:0;display:flex;flex-direction:column;gap:10px}
+.science-box li{padding-left:20px;position:relative;color:var(--text)}
+.science-box li::before{content:">";position:absolute;left:0;color:var(--gold);font-weight:700}
+.pick-card{background:var(--card);border:1px solid #1e3a5f;border-radius:12px;padding:28px;margin-bottom:24px}
+.pick-header{display:flex;align-items:flex-start;gap:16px;margin-bottom:16px}
+.pick-num{background:var(--gold);color:#000;width:36px;height:36px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:1rem;flex-shrink:0}
+.pick-title{flex:1}
+.pick-title h3{font-size:1.15rem;font-weight:700;color:#fff;margin-bottom:4px}
+.pick-tag{display:inline-block;padding:2px 10px;border-radius:12px;font-size:.75rem;font-weight:600;background:#1e3a5f;color:var(--gold)}
+.pick-body p{color:var(--muted);margin-bottom:12px;font-size:.95rem}
+.pick-body strong{color:var(--text)}
+.cta-btn{display:inline-block;background:var(--gold);color:#000;padding:10px 22px;border-radius:6px;font-weight:700;font-size:.9rem;margin-top:8px}
+.cta-btn:hover{background:#e0b84d;text-decoration:none}
+.comparison-table{width:100%;border-collapse:collapse;margin:24px 0;font-size:.9rem}
+.comparison-table th{background:#1e3a5f;color:var(--gold);padding:12px 14px;text-align:left;font-size:.8rem;text-transform:uppercase;letter-spacing:.05em}
+.comparison-table td{padding:11px 14px;border-bottom:1px solid #1e3a5f;color:var(--text);vertical-align:top}
+.comparison-table tr:nth-child(even) td{background:#0d1a2e}
+.comparison-table tr:hover td{background:#152238}
+.info-box{background:#0f2a1e;border:1px solid #1a5c38;border-left:4px solid #22c55e;border-radius:8px;padding:20px;margin:24px 0}
+.info-box h4{color:#22c55e;margin-bottom:8px;font-size:.95rem}
+.info-box p,.info-box ul{color:var(--muted);font-size:.9rem}
+.info-box ul{padding-left:18px;margin-top:8px}
+.info-box li{margin-bottom:4px}
+.warning-box{background:#1a1000;border:1px solid #5c3a00;border-left:4px solid #f59e0b;border-radius:8px;padding:20px;margin:24px 0}
+.warning-box h4{color:#f59e0b;margin-bottom:8px;font-size:.95rem}
+.warning-box p{color:var(--muted);font-size:.9rem}
+.faq-section{margin:48px 0}
+.faq-item{border-bottom:1px solid #1e3a5f;padding:20px 0}
+.faq-item h3{font-size:1rem;color:#fff;margin-bottom:10px;cursor:pointer}
+.faq-item p{color:var(--muted);font-size:.95rem}
+.related-section{background:var(--card);border:1px solid #1e3a5f;border-radius:12px;padding:28px;margin:48px 0}
+.related-section h2{color:var(--gold);font-size:1.1rem;margin-bottom:16px}
+.related-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px}
+.related-link{background:#0d1a2e;border:1px solid #1e3a5f;border-radius:8px;padding:12px 16px;color:var(--text);font-size:.9rem;display:block}
+.related-link:hover{border-color:var(--gold);color:var(--gold);text-decoration:none}
+footer{background:#060e1a;border-top:1px solid #1e3a5f;padding:32px 0;margin-top:64px;text-align:center;color:var(--muted);font-size:.85rem}
+footer a{color:var(--muted)}
+@media(max-width:600px){.pick-header{flex-direction:column}.pick-num{width:30px;height:30px;font-size:.9rem}}
+</style>
+</head>
+<body>
+<header>
+<div class="container">
+<div class="logo"><a href="/" style="color:var(--gold);text-decoration:none">SleepWise Reviews</a></div>
+<nav>
+<a href="/">Home</a>
+<a href="/posts/index.html">All Posts</a>
+<a href="/posts/index.html#health-conditions">Health</a>
+<a href="/about.html">About</a>
+</nav>
+</div>
+</header>
+
+<div class="container">
+<div class="hero">
+<span class="cat-badge">Health Conditions</span>
+<h1>Best Mattress for Interstitial Cystitis (2026)</h1>
+<p class="subtitle">7 expert picks for IC and bladder pain syndrome -- nocturia-driven waking, pelvic floor pressure relief, position-sensitive bladder pain, and responsive quick-exit design for urgency episodes.</p>
+</div>
+
+<div class="quick-nav">
+<h3>Quick Navigation</h3>
+<ol>
+<li><a href="#science">The Sleep Science of Interstitial Cystitis</a></li>
+<li><a href="#picks">Our 7 Top Picks</a></li>
+<li><a href="#nocturia-guide">Nocturia Severity and Mattress Selection</a></li>
+<li><a href="#profile-guide">Which Pick Fits Your Profile</a></li>
+<li><a href="#faq">Frequently Asked Questions</a></li>
+</ol>
+</div>
+
+<div class="science-box" id="science">
+<h3>The Sleep Science of Interstitial Cystitis</h3>
+<ul>
+<li><strong>Nocturia severity:</strong> IC patients average 4-8 nighttime voidings per night during flares; mild IC averages 2-3. Each waking involves bladder pain, urgency, ambulation, and return to sleep -- fragmenting sleep architecture across all stages and preventing restorative deep sleep (Journal of Urology 2019).</li>
+<li><strong>Pelvic floor hypersensitivity:</strong> IC involves chronic pelvic floor muscle tension, not just bladder wall inflammation. Sleeping positions that load the pelvis -- particularly firm surfaces that create pressure points at the hip and pelvic bones -- trigger referred pelvic pain that worsens overnight urgency and prevents sleep maintenance.</li>
+<li><strong>Bladder pressure during sleep:</strong> Back sleeping allows the weight of abdominal contents (bowel, uterus in women) to press directly on the bladder. For IC patients, this pressure activates the hypersensitive bladder wall, increasing urgency signals even when the bladder is not full. Side sleeping reduces this vertical pressure load.</li>
+<li><strong>Sleep deprivation and pain amplification:</strong> Sleep deprivation lowers pain thresholds significantly. In IC, where pelvic pain is already the primary complaint, fragmenting sleep with nocturia creates a cycle: pain disrupts sleep, sleep deprivation amplifies pain perception, which increases nocturia frequency and pain intensity the following night.</li>
+<li><strong>Anxiety comorbidity:</strong> 60-70% of IC patients have comorbid anxiety or depression (Urology 2018). Anticipatory anxiety about nocturia ("how many times will I wake up?") delays sleep onset and triggers the stress response that worsens pelvic floor tension -- creating a gut-brain style axis specific to the bladder.</li>
+<li><strong>Heat therapy:</strong> Localized heat is among the most effective non-pharmacological IC pain interventions. Patients who use heating pads at night need a mattress that can tolerate localized warmth without heat damage to foam layers.</li>
+</ul>
+</div>
+
+<div class="warning-box">
+<h4>IC vs. OAB: Similar Symptoms, Different Mattress Priorities</h4>
+<p>Overactive bladder (OAB) is primarily a urinary muscle control disorder -- urgency without pain. IC involves bladder wall damage (GAG layer deficiency) causing chronic pelvic pain in addition to urgency. Both benefit from responsive mattresses for quick nocturia exit. IC additionally requires pelvic floor pressure relief that OAB does not specifically need. If you have painful urgency, this IC guide applies. If urgency with no pain, OAB management is the primary focus.</p>
+</div>
+
+<h2 class="section-title" id="picks">Our 7 Top Picks</h2>
+
+<div class="pick-card">
+<div class="pick-header">
+<div class="pick-num">1</div>
+<div class="pick-title">
+<h3>Casper Wave Hybrid</h3>
+<span class="pick-tag">Best Overall -- Pelvic Zone Softening + Quick Exit</span>
+</div>
+</div>
+<div class="pick-body">
+<p>Casper's 7-zone system places the softest zone under the lumbar/pelvic region -- the exact area where IC pelvic floor tension concentrates during side sleeping. The softer pelvic zone reduces pressure loading on the hip joint and pelvic floor muscles, which decreases the referred bladder pain that worsens nocturia. Simultaneously, the coil base provides the responsive quick-exit performance required when urgency demands rapid mattress exit. The combination of zoned pelvic pressure relief and responsive support is unique to the Wave among mainstream hybrids.</p>
+<p><strong>Why it wins for IC:</strong> The only mattress with engineering specifically suited to the IC sleep profile: reduced pelvic pressure + fast exit capability in a single design.</p>
+<p><strong>Firmness:</strong> Medium (5/10) -- optimal for side sleeping with pelvic sensitivity. The softer pelvic zone acts as a 3.5/10 micro-zone within the larger medium surface.</p>
+<a href="https://www.amazon.com/s?k=Casper+Wave+Hybrid+mattress&tag=sleepwiserevi-20" class="cta-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</div>
+</div>
+
+<div class="pick-card">
+<div class="pick-header">
+<div class="pick-num">2</div>
+<div class="pick-title">
+<h3>Saatva Classic Plush Soft</h3>
+<span class="pick-tag">Best for Anxiety-Driven IC Sleep Onset</span>
+</div>
+</div>
+<div class="pick-body">
+<p>IC's anticipatory anxiety (fear of pain-driven waking, counting expected bathroom trips) delays sleep onset significantly. The Plush Soft's enveloping cushion reduces the body-tension state that maintains the anxiety loop at bedtime. Full-body pressure relief signals physical safety to the nervous system, reducing the cortisol elevation that keeps pelvic floor muscles in protective tension. The dual-coil base maintains enough responsiveness for adequate nocturia exit performance, though it is not the fastest-exit option.</p>
+<p><strong>Why it wins for IC:</strong> Best for IC patients whose primary sleep problem is anxiety-driven sleep onset delay rather than pain intensity during sleep. The cushioning surface breaks the tension-pain loop at bedtime.</p>
+<p><strong>Heat compatibility:</strong> Dual-coil structure allows airflow around a localized heating pad without trapping heat into the foam layers.</p>
+<a href="https://www.amazon.com/s?k=Saatva+Classic+Plush+mattress&tag=sleepwiserevi-20" class="cta-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</div>
+</div>
+
+<div class="pick-card">
+<div class="pick-header">
+<div class="pick-num">3</div>
+<div class="pick-title">
+<h3>Helix Midnight Luxe</h3>
+<span class="pick-tag">Best for Side Sleeping + Hip Cushioning</span>
+</div>
+</div>
+<div class="pick-body">
+<p>Most IC patients sleep in a fetal or semi-fetal side position to reduce bladder pressure. Maintaining this position through the night requires shoulder and hip cushioning that does not build pressure over time. The Midnight Luxe's shoulder-zone softening and hip-zone support allows sustained side sleeping without the progressive hip pain that forces position changes to stomach or back -- which increase bladder pressure and worsen IC symptoms. Motion isolation prevents a partner's movement from triggering nocturia urgency response in a hypersensitive nervous system.</p>
+<p><strong>Why it wins for IC:</strong> Best for patients who already know left- or right-side sleeping is their optimal IC position and need a mattress engineered to hold it without pressure buildup.</p>
+<a href="https://www.amazon.com/s?k=Helix+Midnight+Luxe+mattress&tag=sleepwiserevi-20" class="cta-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</div>
+</div>
+
+<div class="pick-card">
+<div class="pick-header">
+<div class="pick-num">4</div>
+<div class="pick-title">
+<h3>Purple Restore Hybrid</h3>
+<span class="pick-tag">Best for Temperature Control + Fast Exit</span>
+</div>
+</div>
+<div class="pick-body">
+<p>IC flares involve increased pelvic inflammation and associated body temperature elevation. Standard mattresses trap this heat, which increases discomfort and worsens urgency. The Purple Grid's temperature-neutral polymer maintains consistent surface temperature regardless of inflammatory state. The coil base provides immediate-response exit when urgency triggers -- no conforming delay. For severe IC with 6+ nocturia wakings per night, minimizing the time-to-exit on every waking accumulates to meaningful sleep preservation.</p>
+<p><strong>Why it wins for IC:</strong> Best temperature management during IC flares plus the fastest exit response of any comfort-layer option. Combining cooling and quick-exit in one mattress.</p>
+<a href="https://www.amazon.com/s?k=Purple+Restore+Hybrid+mattress&tag=sleepwiserevi-20" class="cta-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</div>
+</div>
+
+<div class="pick-card">
+<div class="pick-header">
+<div class="pick-num">5</div>
+<div class="pick-title">
+<h3>Nectar Premier</h3>
+<span class="pick-tag">Best Value -- Pelvic Pressure Relief + Long Trial</span>
+</div>
+</div>
+<div class="pick-body">
+<p>The Nectar Premier's Dynamic Support Foam adapts to pelvic and hip contours, distributing pressure across the full lateral surface of the lower body rather than concentrating it at bony prominences. For IC patients who use heating pads at night, the DSF layer handles localized thermal input better than standard memory foam -- the gel infusion dissipates concentrated heat. The 365-night trial accommodates IC's flare-and-remission cycle: you need to evaluate the mattress across symptomatic and asymptomatic periods before committing.</p>
+<p><strong>Why it wins for IC:</strong> Best value at this price tier for pelvic pressure relief. The trial period is functionally necessary for a condition with monthly symptom variability.</p>
+<a href="https://www.amazon.com/s?k=Nectar+Premier+mattress&tag=sleepwiserevi-20" class="cta-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</div>
+</div>
+
+<div class="pick-card">
+<div class="pick-header">
+<div class="pick-num">6</div>
+<div class="pick-title">
+<h3>Tempur-ProAdapt Soft</h3>
+<span class="pick-tag">Best for Severe Pelvic Pain During Flares</span>
+</div>
+</div>
+<div class="pick-body">
+<p>During severe IC flares with intense pelvic pain, maximum surface pressure relief is the priority. The TEMPUR-ES material provides the highest pressure redistribution of any consumer mattress -- conforming slowly and deeply to the hip and pelvic contours to minimize focal pressure at inflamed pelvic structures. The TEMPUR-CM+ cover manages heat from inflammatory states or heating pad use. The tradeoff is a slower exit response: TEMPUR conforming foam takes 1-2 seconds to release body weight. For patients with severe flare pain, this tradeoff in favor of pressure relief is appropriate.</p>
+<p><strong>Who this fits:</strong> IC with severe pelvic pain as the dominant sleep disruption (vs. urgency frequency). If urgency is the primary driver, choose a faster-exit pick (Wave Hybrid or Purple). If pain is the primary driver, the ProAdapt Soft provides the most relief.</p>
+<a href="https://www.amazon.com/s?k=Tempur-ProAdapt+Soft+mattress&tag=sleepwiserevi-20" class="cta-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</div>
+</div>
+
+<div class="pick-card">
+<div class="pick-header">
+<div class="pick-num">7</div>
+<div class="pick-title">
+<h3>DreamCloud Premier</h3>
+<span class="pick-tag">Best Budget -- Responsive Exit + 365-Night Trial</span>
+</div>
+</div>
+<div class="pick-body">
+<p>The DreamCloud Premier's individually wrapped coil system provides responsive exit performance essential for frequent IC nocturia waking. The cashmere-blend pillow-top adds moderate pelvic cushioning without the conforming delay of deeper memory foam layers. At a mid-range price, it offers both the exit responsiveness and the 365-night trial period that IC's symptom variability requires. For patients new to IC diagnosis, the DreamCloud's trial window allows evaluation across multiple symptom cycles before determining whether a more specialized pick is needed.</p>
+<p><strong>Best for:</strong> IC patients prioritizing budget and nocturia exit speed. Less pelvic pressure relief than the top picks but significantly less costly.</p>
+<a href="https://www.amazon.com/s?k=DreamCloud+Premier+mattress&tag=sleepwiserevi-20" class="cta-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</div>
+</div>
+
+<h2 class="section-title" id="nocturia-guide">Nocturia Severity and Mattress Selection</h2>
+<p style="color:var(--muted);margin-bottom:16px">Different nocturia frequencies create different mattress priorities. Use this guide to match severity to pick.</p>
+<table class="comparison-table">
+<thead><tr><th>Nocturia Frequency</th><th>IC Severity</th><th>Primary Mattress Need</th><th>Best Pick</th></tr></thead>
+<tbody>
+<tr><td>1-2x per night</td><td>Mild / remission</td><td>Pelvic pressure relief + sleep onset anxiety</td><td>Saatva Plush Soft</td></tr>
+<tr><td>3-5x per night</td><td>Moderate</td><td>Pressure relief + reasonable exit speed</td><td>Casper Wave Hybrid</td></tr>
+<tr><td>6-8x per night</td><td>Active flare</td><td>Fast exit + temperature control</td><td>Purple Restore Hybrid</td></tr>
+<tr><td>8+ per night, severe pain</td><td>Severe flare</td><td>Maximum pelvic pressure relief</td><td>Tempur-ProAdapt Soft</td></tr>
+<tr><td>Variable (remission/flare cycling)</td><td>Any</td><td>Long trial + adaptable comfort</td><td>Nectar Premier (365 nights)</td></tr>
+</tbody>
+</table>
+
+<div class="info-box">
+<h4>The Two-Second Exit Test for IC Patients</h4>
+<p>For IC with frequent nocturia, the time it takes to exit the mattress when urgency strikes matters. Test this before buying:</p>
+<ul>
+<li><strong>Dense memory foam (traditional):</strong> 2-4 second release -- problematic for severe urgency</li>
+<li><strong>Gel-infused memory foam (Nectar, Tempur-CM+):</strong> 1-2 second release -- acceptable</li>
+<li><strong>Responsive hybrid (Casper, Helix, DreamCloud):</strong> immediate -- best for urgency</li>
+<li><strong>Purple Grid:</strong> immediate -- no conforming delay</li>
+<li>If you wake 5+ times per night, shaving 2 seconds per exit saves 10+ seconds of urgency panic per night -- which directly affects bladder pain response</li>
+</ul>
+</div>
+
+<h2 class="section-title" id="profile-guide">Which Pick Fits Your Profile</h2>
+<table class="comparison-table">
+<thead><tr><th>Profile</th><th>Best Pick</th><th>Key Reason</th></tr></thead>
+<tbody>
+<tr><td>IC, moderate nocturia (3-5x/night)</td><td>Casper Wave Hybrid</td><td>Zoned pelvic softening + responsive exit</td></tr>
+<tr><td>IC with dominant sleep-onset anxiety</td><td>Saatva Classic Plush Soft</td><td>Pressure relief reduces pelvic floor tension loop</td></tr>
+<tr><td>Side sleeper needing hip/pelvic cushioning</td><td>Helix Midnight Luxe</td><td>Shoulder + hip zoning holds side position</td></tr>
+<tr><td>Flares with heat + rapid waking (6-8x/night)</td><td>Purple Restore Hybrid</td><td>Temperature neutral + fastest exit response</td></tr>
+<tr><td>Budget + long trial needed</td><td>Nectar Premier</td><td>365-night trial covers full flare-remission cycle</td></tr>
+<tr><td>Severe pelvic pain as primary disruption</td><td>Tempur-ProAdapt Soft</td><td>Maximum pelvic pressure redistribution</td></tr>
+<tr><td>IBS-D or budget, exit speed priority</td><td>DreamCloud Premier</td><td>Responsive coils + long trial at mid-price</td></tr>
+</tbody>
+</table>
+
+<div class="faq-section" id="faq">
+<h2 class="section-title">Frequently Asked Questions</h2>
+<div class="faq-item">
+<h3>How many times do IC patients wake up at night?</h3>
+<p>Mild IC: 2-4 times per night. Moderate IC: 4-8 times. Severe IC (active flare): 8+ times per night. Each waking requires exiting the mattress, walking to the bathroom, and returning -- meaning mattress responsiveness (how quickly you can get in and out) directly determines how much sleep is lost per waking episode.</p>
+</div>
+<div class="faq-item">
+<h3>What sleeping position reduces IC bladder pressure?</h3>
+<p>Left-side or right-side fetal position reduces bladder pressure compared to back sleeping. Back sleeping allows the full weight of abdominal contents to press down on the bladder. Fetal position on either side shifts this weight load laterally. The mattress must support hip and shoulder cushioning to maintain fetal position without building pressure at bony prominences.</p>
+</div>
+<div class="faq-item">
+<h3>Does mattress firmness affect IC bladder pain?</h3>
+<p>Yes. Firm mattresses create pressure points at the pelvis and hip bones during side sleeping. In IC, the pelvic floor is already hypersensitive -- additional external pressure triggers referred pain into the bladder and pelvic region. Medium-soft (4-5/10) distributes pelvic pressure across a larger surface area, reducing the focal loading that worsens IC pain during side sleeping.</p>
+</div>
+<div class="faq-item">
+<h3>Is IC sleep disruption the same as overactive bladder (OAB)?</h3>
+<p>Similar but different. Both involve nocturia (nighttime urination urgency). IC adds a chronic pelvic pain component -- the bladder pain itself is the primary driver, not just urgency. OAB is primarily a muscle control issue; IC is a bladder wall lining issue (GAG layer deficiency). Both benefit from responsive mattresses for quick exit, but IC additionally requires pelvic floor pressure relief that OAB does not specifically require.</p>
+</div>
+<div class="faq-item">
+<h3>Can a heating pad on the mattress help IC pain at night?</h3>
+<p>Heat therapy is commonly used for IC pelvic pain management. If using a heating pad, choose a mattress with a cooling cover to offset the added warmth from the pad. Do not use a heating pad on memory foam without a protective cover -- prolonged heat accelerates foam degradation. Gel-infused foam or hybrid mattresses handle localized heat better than pure memory foam.</p>
+</div>
+</div>
+
+<div class="related-section">
+<h2>Related Guides</h2>
+<div class="related-grid">
+<a href="best-mattress-ibs.html" class="related-link">Best Mattress for IBS</a>
+<a href="best-mattress-endometriosis.html" class="related-link">Best Mattress for Endometriosis</a>
+<a href="best-mattress-pcos.html" class="related-link">Best Mattress for PCOS</a>
+<a href="best-mattress-fibromyalgia.html" class="related-link">Best Mattress for Fibromyalgia</a>
+<a href="best-mattress-anxiety.html" class="related-link">Best Mattress for Anxiety</a>
+<a href="best-mattress-neuropathy.html" class="related-link">Best Mattress for Neuropathy</a>
+<a href="best-mattress-side-sleepers.html" class="related-link">Best Mattress for Side Sleepers</a>
+<a href="best-mattress-hip-pain.html" class="related-link">Best Mattress for Hip Pain</a>
+</div>
+</div>
+
+</div>
+
+<footer>
+<div class="container">
+<p>SleepWise Reviews &mdash; Evidence-based sleep product recommendations</p>
+<p style="margin-top:8px"><a href="/about.html">About</a> &middot; <a href="/privacy.html">Privacy</a> &middot; <a href="/disclaimer.html">Affiliate Disclaimer</a></p>
+<p style="margin-top:12px;font-size:.8rem">SleepWise Reviews participates in the Amazon Associates program. As an Amazon Associate we earn from qualifying purchases. This does not affect our recommendations.</p>
+</div>
+</footer>
+</body>
+</html>"""
+
+with open("posts/best-mattress-interstitial-cystitis.html", "w", encoding="utf-8") as f:
+    f.write(html)
+print("Created posts/best-mattress-interstitial-cystitis.html")
