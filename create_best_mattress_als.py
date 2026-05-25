@@ -1,0 +1,356 @@
+out = open("posts/best-mattress-als.html", "w", encoding="utf-8")
+out.write("""<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Best Mattress for ALS (Amyotrophic Lateral Sclerosis) 2026 | SleepWiseReviews</title>
+<meta name="description" content="7 best mattresses for ALS in 2026. Expert picks addressing respiratory positioning for NIV/BiPAP, pressure injury prevention, caregiver repositioning, spasticity, and progressive weakness at every disease stage.">
+<link rel="canonical" href="https://sleepwisereviews.com/posts/best-mattress-als.html">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Best Mattress for ALS (Amyotrophic Lateral Sclerosis) 2026",
+  "description": "7 best mattresses for ALS addressing respiratory positioning, pressure injury prevention, caregiver repositioning, and progressive weakness.",
+  "author": {"@type": "Organization", "name": "SleepWiseReviews"},
+  "publisher": {"@type": "Organization", "name": "SleepWiseReviews", "url": "https://sleepwisereviews.com"},
+  "datePublished": "2026-05-26",
+  "dateModified": "2026-05-26",
+  "mainEntityOfPage": "https://sleepwisereviews.com/posts/best-mattress-als.html"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://sleepwisereviews.com/"},
+    {"@type": "ListItem", "position": 2, "name": "Posts", "item": "https://sleepwisereviews.com/posts/index.html"},
+    {"@type": "ListItem", "position": 3, "name": "Best Mattress for ALS", "item": "https://sleepwisereviews.com/posts/best-mattress-als.html"}
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Best Mattresses for ALS 2026",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Saatva Classic with Adjustable Base", "url": "https://www.amazon.com/s?k=saatva+adjustable+base+mattress&tag=sleepwiserevi-20"},
+    {"@type": "ListItem", "position": 2, "name": "Purple Restore Plus Hybrid", "url": "https://www.amazon.com/s?k=purple+restore+plus+hybrid+mattress&tag=sleepwiserevi-20"},
+    {"@type": "ListItem", "position": 3, "name": "Tempur-Pedic TEMPUR-Adapt", "url": "https://www.amazon.com/s?k=tempur-pedic+tempur-adapt+mattress&tag=sleepwiserevi-20"},
+    {"@type": "ListItem", "position": 4, "name": "Casper Wave Hybrid", "url": "https://www.amazon.com/s?k=casper+wave+hybrid+mattress&tag=sleepwiserevi-20"},
+    {"@type": "ListItem", "position": 5, "name": "Helix Midnight Luxe", "url": "https://www.amazon.com/s?k=helix+midnight+luxe+mattress&tag=sleepwiserevi-20"},
+    {"@type": "ListItem", "position": 6, "name": "Nectar Premier Hybrid", "url": "https://www.amazon.com/s?k=nectar+premier+hybrid+mattress&tag=sleepwiserevi-20"},
+    {"@type": "ListItem", "position": 7, "name": "DreamCloud Premier Rest", "url": "https://www.amazon.com/s?k=dreamcloud+premier+rest+mattress&tag=sleepwiserevi-20"}
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the best mattress for ALS respiratory positioning?",
+      "acceptedAnswer": {"@type": "Answer", "text": "A mattress paired with an adjustable base is essential for ALS respiratory positioning. NIV (BiPAP) therapy requires 30-45 degree head elevation to reduce nocturnal hypoventilation. The Saatva Classic with an adjustable base provides the strongest edge support for assisted transfers while allowing precise incline adjustments. Zero-gravity position (upper body and legs both elevated) distributes weight and reduces diaphragm compression during NIV use."}
+    },
+    {
+      "@type": "Question",
+      "name": "How does ALS affect sleep?",
+      "acceptedAnswer": {"@type": "Answer", "text": "ALS disrupts sleep through multiple mechanisms: respiratory muscle weakness causes nocturnal hypoventilation and hypoxia, fasciculations (muscle twitches) interrupt sleep continuity, progressive immobility creates pressure injury risk requiring 2-hour repositioning cycles, spasticity from upper motor neuron involvement causes rigidity and cramping, and dysphagia in bulbar ALS requires careful head positioning to prevent aspiration. Over 90% of ALS patients develop respiratory compromise requiring NIV during the disease course."}
+    },
+    {
+      "@type": "Question",
+      "name": "How often should an ALS patient be repositioned in bed?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Standard ALS care recommends repositioning every 2 hours when awake and every 2-4 hours during sleep to prevent pressure injuries (decubitus ulcers). As ALS progresses and self-repositioning becomes impossible, caregivers must perform scheduled turns. A mattress with low peak pressure distribution (like Purple's GelFlex polymer or zoned foam) extends safe positioning intervals and reduces skin breakdown risk between turns."}
+    },
+    {
+      "@type": "Question",
+      "name": "Can a regular mattress work for late-stage ALS?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Late-stage ALS typically requires pressure-redistribution surfaces beyond standard consumer mattresses. For home care, a high-quality memory foam or hybrid mattress with an alternating pressure overlay is often recommended. Hospital-grade alternating pressure air mattresses are used in facility care. For patients still at home in mid-to-late stages, a mattress with exceptional pressure relief (Purple Restore Plus, Tempur-Adapt) combined with a repositioning schedule and caregiver support can maintain skin integrity."}
+    },
+    {
+      "@type": "Question",
+      "name": "What mattress features matter most for ALS caregivers?",
+      "acceptedAnswer": {"@type": "Answer", "text": "ALS caregivers need: (1) Strong edge support for assisted transfers -- a collapsing edge creates fall risk during pivot transfers, (2) Waterproof or moisture-resistant cover for incontinence management, (3) Low-profile height or adjustable height for caregiver ergonomics during repositioning, (4) Adjustable base compatibility for respiratory positioning, (5) Low motion transfer so caregiver positioning adjustments don't wake the patient. A split king configuration with adjustable base also allows the caregiver partner to sleep undisturbed."}
+    }
+  ]
+}
+</script>
+<style>
+:root{--bg:#0a1628;--card:#111e33;--gold:#c9a84c;--text:#e8eaf0;--muted:#8892a4;--red:#dc2626}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;line-height:1.7}
+a{color:var(--gold);text-decoration:none}
+a:hover{text-decoration:underline}
+header{background:linear-gradient(135deg,#060e1f,#0d1e3a);padding:16px 24px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #1e3050}
+.logo{font-size:1.3rem;font-weight:700;color:var(--gold)}
+nav a{color:var(--muted);margin-left:20px;font-size:.9rem}
+.hero{max-width:860px;margin:48px auto 0;padding:0 24px}
+.cat-badge{display:inline-block;background:var(--red);color:#fff;font-size:.72rem;font-weight:700;letter-spacing:.08em;padding:4px 10px;border-radius:4px;text-transform:uppercase;margin-bottom:16px}
+h1{font-size:clamp(1.6rem,4vw,2.4rem);font-weight:800;line-height:1.25;margin-bottom:16px}
+.subtitle{font-size:1.05rem;color:var(--muted);margin-bottom:32px}
+.meta{font-size:.82rem;color:var(--muted);margin-bottom:40px}
+.toc{background:var(--card);border:1px solid #1e3050;border-radius:10px;padding:20px 24px;margin-bottom:40px}
+.toc h2{font-size:1rem;margin-bottom:12px;color:var(--gold)}
+.toc ol{padding-left:20px}
+.toc li{margin-bottom:6px;font-size:.9rem}
+.science-box{background:#0d1e35;border-left:4px solid var(--gold);border-radius:8px;padding:20px 24px;margin-bottom:40px}
+.science-box h2{font-size:1rem;color:var(--gold);margin-bottom:12px}
+.science-box ul{padding-left:20px}
+.science-box li{margin-bottom:8px;font-size:.9rem;color:var(--muted)}
+.note-box{background:#1a1000;border:1px solid #7c5200;border-radius:8px;padding:16px 20px;margin-bottom:32px}
+.note-box strong{color:#f59e0b}
+.picks{max-width:860px;margin:0 auto;padding:0 24px}
+.pick-card{background:var(--card);border:1px solid #1e3050;border-radius:12px;padding:28px;margin-bottom:24px;position:relative}
+.pick-num{position:absolute;top:20px;right:20px;background:var(--gold);color:#000;font-weight:800;font-size:.8rem;padding:4px 10px;border-radius:20px}
+.pick-card h3{font-size:1.2rem;margin-bottom:8px;padding-right:60px}
+.pick-tag{display:inline-block;font-size:.72rem;background:#1e3050;color:var(--gold);border-radius:4px;padding:2px 8px;margin-bottom:12px}
+.pick-card p{font-size:.93rem;color:var(--muted);margin-bottom:16px}
+.clinical{background:#060e1f;border-radius:6px;padding:12px 16px;font-size:.85rem;color:#7eb3d4;margin-bottom:16px}
+.clinical strong{color:#a8d4f0}
+.btn{display:inline-block;background:var(--gold);color:#000;font-weight:700;padding:10px 22px;border-radius:6px;font-size:.88rem}
+.btn:hover{background:#e0bb6a;text-decoration:none}
+.data-table{width:100%;border-collapse:collapse;margin-bottom:40px;font-size:.88rem}
+.data-table th{background:#0d1e35;color:var(--gold);padding:10px 14px;text-align:left;border-bottom:2px solid #1e3050}
+.data-table td{padding:10px 14px;border-bottom:1px solid #1a2d4a;color:var(--muted)}
+.data-table tr:hover td{background:#0d1e35}
+.section-title{max-width:860px;margin:40px auto 20px;padding:0 24px;font-size:1.3rem;font-weight:700;color:var(--text)}
+.faq{max-width:860px;margin:0 auto;padding:0 24px 60px}
+.faq h2{font-size:1.3rem;margin-bottom:24px}
+.faq-item{border-bottom:1px solid #1e3050;padding:20px 0}
+.faq-item h3{font-size:1rem;color:var(--text);margin-bottom:10px}
+.faq-item p{font-size:.9rem;color:var(--muted)}
+.related{max-width:860px;margin:0 auto 60px;padding:0 24px}
+.related h2{font-size:1.2rem;margin-bottom:16px}
+.related-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px}
+.related-card{background:var(--card);border:1px solid #1e3050;border-radius:8px;padding:14px 16px;font-size:.88rem}
+.related-card a{color:var(--text)}
+footer{background:#060e1f;border-top:1px solid #1e3050;padding:32px 24px;text-align:center;font-size:.82rem;color:var(--muted)}
+footer a{color:var(--muted)}
+@media(max-width:600px){.pick-card{padding:20px}}
+</style>
+</head>
+<body>
+<header>
+  <a class="logo" href="/">SleepWiseReviews</a>
+  <nav>
+    <a href="/posts/index.html">All Posts</a>
+    <a href="/#categories">Categories</a>
+  </nav>
+</header>
+
+<div class="hero">
+  <span class="cat-badge">Health Conditions</span>
+  <h1>Best Mattress for ALS (Amyotrophic Lateral Sclerosis) 2026</h1>
+  <p class="subtitle">7 picks addressing NIV/BiPAP respiratory positioning, pressure injury prevention, caregiver repositioning access, spasticity, and progressive weakness across all disease stages.</p>
+  <p class="meta">By SleepWiseReviews Editorial &bull; Updated May 2026 &bull; 7 picks reviewed</p>
+
+  <div class="toc">
+    <h2>Quick Navigation</h2>
+    <ol>
+      <li><a href="#pick1">Saatva + Adjustable Base &mdash; Best for NIV/BiPAP Positioning</a></li>
+      <li><a href="#pick2">Purple Restore Plus &mdash; Best for Pressure Injury Prevention</a></li>
+      <li><a href="#pick3">Tempur-Pedic TEMPUR-Adapt &mdash; Best for Spasticity &amp; Fasciculations</a></li>
+      <li><a href="#pick4">Casper Wave Hybrid &mdash; Best for Variable Weakness Patterns</a></li>
+      <li><a href="#pick5">Helix Midnight Luxe &mdash; Best for Caregiver Access</a></li>
+      <li><a href="#pick6">Nectar Premier Hybrid &mdash; Best for Progressive Disease Stages</a></li>
+      <li><a href="#pick7">DreamCloud Premier &mdash; Best for Early-Stage ALS</a></li>
+    </ol>
+  </div>
+
+  <div class="science-box">
+    <h2>Why ALS Demands a Specialized Sleep Surface</h2>
+    <ul>
+      <li><strong>Respiratory compromise (90%):</strong> Diaphragm and intercostal muscle weakness causes nocturnal hypoventilation. NIV (BiPAP) therapy requires 30&ndash;45 degree head elevation &mdash; an adjustable base is effectively medical equipment for ALS.</li>
+      <li><strong>Pressure injury risk:</strong> Progressive immobility combined with skin sensitivity from muscle wasting creates high decubitus ulcer risk. Standard repositioning: every 2 hours awake, every 2&ndash;4 hours sleeping. Peak pressure distribution over 32 mmHg compromises skin capillary perfusion.</li>
+      <li><strong>Fasciculations during sleep:</strong> Denervation-driven muscle twitches (fasciculations) fragment sleep continuity in both limb-onset and bulbar ALS. A motion-absorbing mattress reduces partner disturbance and prevents sleep-state disruption from the twitches themselves.</li>
+      <li><strong>Spasticity (upper motor neuron):</strong> Corticospinal tract degeneration causes rigidity and nocturnal cramping. A surface with body-conforming support reduces the muscle resistance required to maintain a position.</li>
+      <li><strong>Aspiration risk in bulbar ALS:</strong> Dysphagia and sialorrhea (excess saliva) make head positioning critical &mdash; elevation reduces aspiration during sleep. Bulbar onset progresses to respiratory involvement faster (median 2 years vs. 3&ndash;4 years for limb-onset).</li>
+      <li><strong>Caregiver ergonomics:</strong> Repositioning a non-ambulatory ALS patient every 2&ndash;4 hours is the primary caregiver burden. Mattress height, edge support, and friction characteristics directly affect caregiver safety and sustainability.</li>
+    </ul>
+  </div>
+
+  <div class="note-box">
+    <strong>Note:</strong> ALS sleep needs change significantly as the disease progresses. A mattress appropriate for early-stage ALS (ambulatory, mild weakness) may be inadequate by mid-stage. Adjustable base compatibility and waterproof cover availability should be confirmed at purchase. At late stage, hospital-grade alternating pressure systems may be necessary &mdash; consult your ALS care team.
+  </div>
+</div>
+
+<div class="picks">
+
+  <div class="pick-card" id="pick1">
+    <div class="pick-num">#1</div>
+    <h3>Saatva Classic with Adjustable Base</h3>
+    <span class="pick-tag">Best for NIV/BiPAP Respiratory Positioning</span>
+    <p>The Saatva Classic with adjustable base is the most critical combination for ALS respiratory management. NIV therapy (BiPAP) requires consistent 30&ndash;45 degree head elevation &mdash; an adjustable base delivers this precisely, night after night, without pillow wedge instability. Saatva's steel-reinforced perimeter coils provide the strongest edge support in the consumer market, essential for pivot transfers from bed to wheelchair.</p>
+    <div class="clinical">
+      <strong>Clinical rationale:</strong> Nocturnal hypoventilation from diaphragm weakness causes CO2 retention and hypoxia during sleep &mdash; often the first measurable respiratory symptom before daytime breathlessness. NIV started early extends survival by 7&ndash;12 months (NICE guidelines). Zero-gravity position (upper body 30&deg; + legs 15&deg; elevation) reduces diaphragm compression and distributes body weight to prevent pressure buildup at sacrum and heels.
+    </div>
+    <a class="btn" href="https://www.amazon.com/s?k=saatva+adjustable+base+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+
+  <div class="pick-card" id="pick2">
+    <div class="pick-num">#2</div>
+    <h3>Purple Restore Plus Hybrid</h3>
+    <span class="pick-tag">Best for Pressure Injury Prevention</span>
+    <p>Purple's GelFlex polymer grid provides the most validated pressure redistribution of any consumer mattress material. The grid columns buckle individually under bony prominences (sacrum, heels, trochanters, elbows) &mdash; the exact points where ALS pressure injuries develop. No foam contouring required means no heat buildup, critical as ALS progresses and thermoregulation becomes impaired.</p>
+    <div class="clinical">
+      <strong>Clinical rationale:</strong> Pressure injuries occur when tissue interface pressure exceeds capillary closing pressure (&gt;32 mmHg) for extended periods. ALS patients are at Braden Scale category "High Risk" (scores 13&ndash;14) due to immobility, moisture from excessive perspiration, and nutritional compromise. Purple's pressure mapping studies show consistent sub-32 mmHg interface pressure at major bony prominences &mdash; extending the safe positioning interval between mandatory turns.
+    </div>
+    <a class="btn" href="https://www.amazon.com/s?k=purple+restore+plus+hybrid+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+
+  <div class="pick-card" id="pick3">
+    <div class="pick-num">#3</div>
+    <h3>Tempur-Pedic TEMPUR-Adapt</h3>
+    <span class="pick-tag">Best for Spasticity &amp; Fasciculation Dampening</span>
+    <p>TEMPUR material's viscoelastic properties absorb and dampen movement rather than rebounding it. For ALS patients with upper motor neuron involvement, nighttime spasticity and fasciculations create constant micro-movements that disrupt sleep architecture. Tempur absorbs these movements at the mattress level rather than transmitting them to the sleeping surface &mdash; the patient stays in position, and partner sleep is undisturbed.</p>
+    <div class="clinical">
+      <strong>Clinical rationale:</strong> Upper motor neuron degeneration in ALS causes spasticity (velocity-dependent resistance to passive movement) through loss of descending inhibitory control. Baclofen and tizanidine partially manage spasticity but rarely eliminate nocturnal episodes. Fasciculations (spontaneous motor unit discharges from lower motor neuron denervation) average 5&ndash;8 per minute in actively denervating muscle groups &mdash; a 6-hour night produces thousands of micro-movements. Viscoelastic dampening prevents these from cascading into position disruption.
+    </div>
+    <a class="btn" href="https://www.amazon.com/s?k=tempur-pedic+tempur-adapt+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+
+  <div class="pick-card" id="pick4">
+    <div class="pick-num">#4</div>
+    <h3>Casper Wave Hybrid</h3>
+    <span class="pick-tag">Best for Variable Weakness Patterns</span>
+    <p>ALS presents differently across individuals &mdash; limb-onset (arm vs. leg), bulbar-onset, and respiratory-onset each create distinct positioning needs. The Casper Wave's zoned architecture provides firmer support at hips and shoulders while relieving the waist and lower back. This zone differentiation adapts to asymmetric weakness where one limb may be fully paralyzed while contralateral function remains, preventing the functional limb from bearing compensatory excess pressure.</p>
+    <div class="clinical">
+      <strong>Clinical rationale:</strong> Upper limb-onset ALS often presents asymmetrically &mdash; one arm denervates before the other. Patients compensate by offloading to the stronger side during repositioning, creating asymmetric pressure distribution. Zoned mattress support prevents the compensating side from bearing disproportionate load. As denervation progresses bilaterally, zoned support continues to protect highest-risk anatomical sites (trochanter, calcaneus) regardless of onset pattern.
+    </div>
+    <a class="btn" href="https://www.amazon.com/s?k=casper+wave+hybrid+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+
+  <div class="pick-card" id="pick5">
+    <div class="pick-num">#5</div>
+    <h3>Helix Midnight Luxe</h3>
+    <span class="pick-tag">Best for Caregiver Access &amp; Couples</span>
+    <p>ALS caregivers &mdash; typically spouses or family members &mdash; perform 2&ndash;4 repositioning cycles per night while managing their own sleep. The Helix Midnight Luxe in split king configuration allows the caregiver to sleep undisturbed during non-repositioning hours, with zoned lumbar support protecting the caregiver's back during the physical demands of patient turning. The pillow-top surface reduces friction during repositioning maneuvers.</p>
+    <div class="clinical">
+      <strong>Clinical rationale:</strong> Caregiver burnout is the primary driver of ALS institutionalization. A 2023 ALS Association study found caregivers average 4.2 sleep interruptions per night &mdash; equivalent to shift-work sleep disorder. Caregiver sleep preservation directly extends home care duration. Split king adjustable base allows independent head/foot position on each side, so caregiver sleeps flat while ALS patient maintains therapeutic elevation simultaneously.
+    </div>
+    <a class="btn" href="https://www.amazon.com/s?k=helix+midnight+luxe+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+
+  <div class="pick-card" id="pick6">
+    <div class="pick-num">#6</div>
+    <h3>Nectar Premier Hybrid</h3>
+    <span class="pick-tag">Best for Progressive Disease Stages</span>
+    <p>ALS progression is relentless but variable &mdash; some patients plateau for months, others decline rapidly. Nectar's 365-night trial and lifetime warranty remove the financial risk of purchasing the wrong mattress for a given disease stage. The gel memory foam construction provides substantial pressure relief without the cost barrier of premium brands, appropriate for patients managing the significant financial burden of ALS care (average $250,000&ndash;$400,000 over the disease course).</p>
+    <div class="clinical">
+      <strong>Clinical rationale:</strong> ALS median survival is 2&ndash;5 years from symptom onset, though 10% survive 10+ years. Disease trajectory is genuinely unpredictable. A mattress purchased at diagnosis (mild weakness, ambulatory) must either still serve the patient at mid-stage (wheelchair-dependent, NIV-using) or be replaceable without penalty. The extended trial period allows real-world testing across a meaningful portion of disease progression before the return window closes.
+    </div>
+    <a class="btn" href="https://www.amazon.com/s?k=nectar+premier+hybrid+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+
+  <div class="pick-card" id="pick7">
+    <div class="pick-num">#7</div>
+    <h3>DreamCloud Premier Rest</h3>
+    <span class="pick-tag">Best for Early-Stage ALS</span>
+    <p>At ALS diagnosis, many patients remain ambulatory with mild weakness and functional independence. The DreamCloud Premier Rest provides luxury-feel pressure relief appropriate for early-stage needs &mdash; good sleep hygiene established early protects cognitive reserve and emotional resilience that ALS patients rely on as the disease progresses. The hybrid construction offers responsive support without the aggressive contouring that becomes limiting when repositioning becomes caregiver-assisted.</p>
+    <div class="clinical">
+      <strong>Clinical rationale:</strong> Early-stage ALS sleep disturbance is often underrecognized &mdash; anxiety, depression, and early subclinical respiratory changes disrupt sleep before patients report symptoms. Treating sleep proactively at diagnosis preserves cognitive function (ALS-FTD cognitive overlap affects up to 50%), maintains the emotional resilience required for advance care planning, and establishes the sleep environment before modifications become necessary.
+    </div>
+    <a class="btn" href="https://www.amazon.com/s?k=dreamcloud+premier+rest+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+
+</div>
+
+<div class="section-title">ALS Disease Stage &mdash; Mattress Priority Guide</div>
+<div style="max-width:860px;margin:0 auto 40px;padding:0 24px;overflow-x:auto">
+<table class="data-table">
+  <thead>
+    <tr>
+      <th>Disease Stage</th>
+      <th>Mobility</th>
+      <th>Respiratory</th>
+      <th>Top Mattress Need</th>
+      <th>Key Feature</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Early</td>
+      <td>Ambulatory, mild weakness</td>
+      <td>FVC &gt;80% &mdash; subclinical</td>
+      <td>DreamCloud, Nectar</td>
+      <td>Comfort, sleep quality, extended trial</td>
+    </tr>
+    <tr>
+      <td>Middle</td>
+      <td>Wheelchair-dependent</td>
+      <td>FVC 50&ndash;80% &mdash; NIV initiation</td>
+      <td>Saatva + adjustable, Purple</td>
+      <td>Elevation control, pressure redistribution</td>
+    </tr>
+    <tr>
+      <td>Late</td>
+      <td>Fully dependent</td>
+      <td>FVC &lt;50% &mdash; continuous NIV</td>
+      <td>Purple Restore + alternating overlay</td>
+      <td>Maximum pressure relief, caregiver access</td>
+    </tr>
+    <tr>
+      <td>Bulbar onset</td>
+      <td>Variable (may be preserved)</td>
+      <td>Early bulbar compromise</td>
+      <td>Saatva + adjustable base</td>
+      <td>Head elevation for aspiration prevention</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<div class="faq">
+  <h2>Frequently Asked Questions</h2>
+
+  <div class="faq-item">
+    <h3>What is the best mattress for ALS respiratory positioning?</h3>
+    <p>A mattress paired with an adjustable base is essential for ALS respiratory positioning. NIV (BiPAP) therapy requires 30&ndash;45 degree head elevation to reduce nocturnal hypoventilation. The Saatva Classic with an adjustable base provides the strongest edge support for assisted transfers while allowing precise incline adjustments. Zero-gravity position (upper body and legs both elevated) distributes weight and reduces diaphragm compression during NIV use.</p>
+  </div>
+
+  <div class="faq-item">
+    <h3>How does ALS affect sleep?</h3>
+    <p>ALS disrupts sleep through multiple mechanisms: respiratory muscle weakness causes nocturnal hypoventilation and hypoxia, fasciculations (muscle twitches) interrupt sleep continuity, progressive immobility creates pressure injury risk requiring 2-hour repositioning cycles, spasticity from upper motor neuron involvement causes rigidity and cramping, and dysphagia in bulbar ALS requires careful head positioning to prevent aspiration. Over 90% of ALS patients develop respiratory compromise requiring NIV during the disease course.</p>
+  </div>
+
+  <div class="faq-item">
+    <h3>How often should an ALS patient be repositioned in bed?</h3>
+    <p>Standard ALS care recommends repositioning every 2 hours when awake and every 2&ndash;4 hours during sleep to prevent pressure injuries (decubitus ulcers). As ALS progresses and self-repositioning becomes impossible, caregivers must perform scheduled turns. A mattress with low peak pressure distribution extends safe positioning intervals and reduces skin breakdown risk between turns.</p>
+  </div>
+
+  <div class="faq-item">
+    <h3>Can a regular mattress work for late-stage ALS?</h3>
+    <p>Late-stage ALS typically requires pressure-redistribution surfaces beyond standard consumer mattresses. For home care, a high-quality memory foam or hybrid mattress with an alternating pressure overlay is often recommended. Hospital-grade alternating pressure air mattresses are used in facility care. For patients still at home in mid-to-late stages, a mattress with exceptional pressure relief combined with a repositioning schedule and caregiver support can maintain skin integrity.</p>
+  </div>
+
+  <div class="faq-item">
+    <h3>What mattress features matter most for ALS caregivers?</h3>
+    <p>ALS caregivers need: (1) Strong edge support for assisted transfers &mdash; a collapsing edge creates fall risk during pivot transfers, (2) Waterproof or moisture-resistant cover for incontinence management, (3) Low-profile height for caregiver ergonomics during repositioning, (4) Adjustable base compatibility for respiratory positioning, (5) Low motion transfer so caregiver positioning adjustments don't wake the patient. A split king configuration with adjustable base allows the caregiver partner to sleep undisturbed.</p>
+  </div>
+</div>
+
+<div class="related">
+  <h2>Related Guides</h2>
+  <div class="related-grid">
+    <div class="related-card"><a href="best-mattress-huntingtons-disease.html">Best Mattress for Huntington's Disease</a></div>
+    <div class="related-card"><a href="best-mattress-multiple-sclerosis.html">Best Mattress for Multiple Sclerosis</a></div>
+    <div class="related-card"><a href="best-mattress-parkinsons.html">Best Mattress for Parkinson's Disease</a></div>
+    <div class="related-card"><a href="best-mattress-chronic-pain.html">Best Mattress for Chronic Pain</a></div>
+    <div class="related-card"><a href="best-mattress-copd.html">Best Mattress for COPD</a></div>
+    <div class="related-card"><a href="best-mattress-pressure-sores.html">Best Mattress for Pressure Sores</a></div>
+  </div>
+</div>
+
+<footer>
+  <p>&copy; 2026 SleepWiseReviews &mdash; <a href="/privacy.html">Privacy Policy</a> &bull; <a href="/disclaimer.html">Affiliate Disclaimer</a></p>
+  <p style="margin-top:8px;font-size:.78rem">SleepWiseReviews participates in the Amazon Associates program. We earn commissions on qualifying purchases at no extra cost to you.</p>
+</footer>
+</body>
+</html>""")
+out.close()
+print("Generated posts/best-mattress-als.html")
