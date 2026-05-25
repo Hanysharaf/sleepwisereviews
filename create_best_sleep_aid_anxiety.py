@@ -1,0 +1,574 @@
+"""Generate posts/best-sleep-aid-for-anxiety.html"""
+
+html = '''<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>7 Best Sleep Aids for Anxiety (2026) — Ranked by Calming Efficacy | SleepWise Reviews</title>
+<meta name="description" content="Racing thoughts keeping you awake? We rank the 7 best sleep aids for anxiety in 2026 — from melatonin and magnesium to L-theanine blends. Find drug-free relief tonight.">
+<link rel="canonical" href="https://sleepwisereviews.com/posts/best-sleep-aid-for-anxiety.html">
+<meta property="og:title" content="7 Best Sleep Aids for Anxiety (2026)">
+<meta property="og:description" content="Racing thoughts keeping you awake? We rank the 7 best sleep aids for anxiety in 2026 — from melatonin and magnesium to L-theanine blends.">
+<meta property="og:url" content="https://sleepwisereviews.com/posts/best-sleep-aid-for-anxiety.html">
+<meta property="og:type" content="article">
+<meta property="og:image" content="https://sleepwisereviews.com/images/og-default.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="7 Best Sleep Aids for Anxiety (2026)">
+<meta name="twitter:description" content="Racing thoughts keeping you awake? We rank the 7 best sleep aids for anxiety.">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "headline": "7 Best Sleep Aids for Anxiety (2026) — Ranked by Calming Efficacy",
+      "description": "Racing thoughts keeping you awake? We rank the 7 best sleep aids for anxiety in 2026 — from melatonin and magnesium to L-theanine blends.",
+      "url": "https://sleepwisereviews.com/posts/best-sleep-aid-for-anxiety.html",
+      "datePublished": "2026-05-25",
+      "dateModified": "2026-05-25",
+      "author": {"@type": "Organization", "name": "SleepWise Reviews"},
+      "publisher": {"@type": "Organization", "name": "SleepWise Reviews", "url": "https://sleepwisereviews.com"}
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://sleepwisereviews.com"},
+        {"@type": "ListItem", "position": 2, "name": "All Posts", "item": "https://sleepwisereviews.com/posts/index.html"},
+        {"@type": "ListItem", "position": 3, "name": "Best Sleep Aids for Anxiety", "item": "https://sleepwisereviews.com/posts/best-sleep-aid-for-anxiety.html"}
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "name": "Best Sleep Aids for Anxiety 2026",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Natrol Melatonin 5mg Time Release"},
+        {"@type": "ListItem", "position": 2, "name": "Nature Made Magnesium Glycinate 200mg"},
+        {"@type": "ListItem", "position": 3, "name": "Thorne Pharma GABA"},
+        {"@type": "ListItem", "position": 4, "name": "NOW Supplements L-Theanine 200mg"},
+        {"@type": "ListItem", "position": 5, "name": "Gaia Herbs Valerian Root"},
+        {"@type": "ListItem", "position": 6, "name": "Nested Naturals LUNA"},
+        {"@type": "ListItem", "position": 7, "name": "ZzzQuil Natura Melatonin Gummies"}
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is the best natural sleep aid for anxiety?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Magnesium glycinate and L-theanine are the most evidence-backed natural options for anxiety-related insomnia. Magnesium regulates GABA receptors and blunts cortisol; L-theanine promotes alpha brainwaves that calm racing thoughts without sedation. Melatonin helps shift timing but does not directly calm anxiety."}
+        },
+        {
+          "@type": "Question",
+          "name": "Is melatonin or magnesium better for anxiety insomnia?",
+          "acceptedAnswer": {"@type": "Answer", "text": "For anxiety-driven insomnia, magnesium glycinate is generally more effective than melatonin. Melatonin signals when to sleep; magnesium calms the nervous system so you can actually get there. For best results, combine 200mg magnesium glycinate + 0.5mg melatonin 60 minutes before bed."}
+        },
+        {
+          "@type": "Question",
+          "name": "Can I take L-theanine and melatonin together?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Yes, L-theanine (100-200mg) and melatonin (0.5-3mg) are safe to combine and work synergistically. L-theanine calms anxious thoughts; melatonin reduces sleep onset latency. This pairing is one of the most studied non-prescription combinations for anxiety-related sleep difficulty."}
+        },
+        {
+          "@type": "Question",
+          "name": "How long does it take for sleep supplements to work for anxiety?",
+          "acceptedAnswer": {"@type": "Answer", "text": "L-theanine takes 30-60 minutes for acute calming effects. Melatonin peaks in 1-2 hours. Magnesium glycinate builds over 2-4 weeks of daily use as tissue levels replenish. For immediate results: L-theanine + melatonin taken 1 hour before bed. For long-term relief: add magnesium glycinate daily."}
+        },
+        {
+          "@type": "Question",
+          "name": "Are sleep aids for anxiety habit-forming?",
+          "acceptedAnswer": {"@type": "Answer", "text": "The supplements ranked here (melatonin, magnesium, L-theanine, valerian, GABA) are not habit-forming in the clinical sense. They do not cause dependence or withdrawal. Unlike benzodiazepines or Z-drugs, stopping these supplements does not worsen anxiety or rebound insomnia. Psychological reliance is possible, but the substances themselves are not addictive."}
+        }
+      ]
+    }
+  ]
+}
+</script>
+<style>
+  :root{--bg:#0a1628;--card:#111e33;--gold:#c9a84c;--text:#e8eaf0;--muted:#8892a4;--radius:12px}
+  *{margin:0;padding:0;box-sizing:border-box}
+  body{background:var(--bg);color:var(--text);font-family:'Segoe UI',sans-serif;line-height:1.7}
+  a{color:var(--gold);text-decoration:none}
+  a:hover{text-decoration:underline}
+  header{background:var(--card);padding:16px 24px;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid #1e2f4a}
+  header .logo{font-size:1.3rem;font-weight:700;color:var(--gold)}
+  nav a{color:var(--muted);margin-left:20px;font-size:.9rem}
+  .hero{max-width:860px;margin:48px auto 0;padding:0 20px}
+  .hero .badge{display:inline-block;background:#1a2f52;color:var(--gold);font-size:.75rem;font-weight:600;padding:4px 12px;border-radius:20px;letter-spacing:.5px;margin-bottom:14px}
+  h1{font-size:clamp(1.6rem,4vw,2.4rem);font-weight:800;line-height:1.25;margin-bottom:16px}
+  .meta{color:var(--muted);font-size:.875rem;margin-bottom:28px}
+  .intro{font-size:1.05rem;color:#c5cad6;margin-bottom:36px;max-width:720px}
+  .toc{background:var(--card);border:1px solid #1e2f4a;border-radius:var(--radius);padding:22px 28px;margin-bottom:42px;max-width:860px;margin-left:auto;margin-right:auto}
+  .toc h2{font-size:1rem;font-weight:700;color:var(--gold);margin-bottom:12px}
+  .toc ol{padding-left:20px}
+  .toc li{margin-bottom:6px;font-size:.93rem}
+  .section-wrap{max-width:860px;margin:0 auto;padding:0 20px 60px}
+  .product-card{background:var(--card);border:1px solid #1e2f4a;border-radius:var(--radius);padding:30px;margin-bottom:30px;position:relative}
+  .rank-badge{position:absolute;top:20px;right:20px;background:#1a2f52;color:var(--gold);font-size:.8rem;font-weight:700;padding:5px 12px;border-radius:20px}
+  .product-header{display:flex;align-items:flex-start;gap:16px;margin-bottom:18px}
+  .rank-num{font-size:2rem;font-weight:900;color:var(--gold);min-width:44px;line-height:1}
+  .product-info h2{font-size:1.25rem;font-weight:700;margin-bottom:4px}
+  .product-info .tagline{color:var(--gold);font-size:.875rem;font-weight:600}
+  .score-row{display:flex;align-items:center;gap:12px;margin-bottom:18px}
+  .score-num{font-size:1.8rem;font-weight:900;color:var(--gold)}
+  .score-bar{flex:1;height:8px;background:#1a2f52;border-radius:4px;overflow:hidden}
+  .score-fill{height:100%;background:linear-gradient(90deg,#c9a84c,#e8c97a);border-radius:4px}
+  .spec-chips{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:18px}
+  .chip{background:#0f1f38;border:1px solid #2a3f5a;color:#a8b4c8;font-size:.78rem;padding:4px 10px;border-radius:20px}
+  .chip.highlight{background:#1a3055;border-color:var(--gold);color:var(--gold)}
+  .pros-cons{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:18px}
+  .pros,.cons{background:#0d1a2e;border-radius:8px;padding:14px 16px}
+  .pros h4{color:#4caf50;font-size:.85rem;font-weight:700;margin-bottom:8px}
+  .cons h4{color:#ef5350;font-size:.85rem;font-weight:700;margin-bottom:8px}
+  .pros li,.cons li{font-size:.875rem;color:#c5cad6;margin-bottom:5px;padding-left:16px;position:relative;list-style:none}
+  .pros li::before{content:"✓";color:#4caf50;position:absolute;left:0}
+  .cons li::before{content:"✗";color:#ef5350;position:absolute;left:0}
+  .cta-btn{display:inline-block;background:var(--gold);color:#0a1628;font-weight:700;font-size:.9rem;padding:11px 24px;border-radius:8px;margin-top:6px;transition:opacity .2s}
+  .cta-btn:hover{opacity:.88;text-decoration:none}
+  .science-box{background:#0d1a2e;border-left:3px solid var(--gold);border-radius:0 var(--radius) var(--radius) 0;padding:24px 28px;margin:40px 0}
+  .science-box h3{color:var(--gold);font-size:1rem;font-weight:700;margin-bottom:14px}
+  .science-box p{font-size:.9rem;color:#a8b4c8;margin-bottom:10px}
+  .buying-guide{margin:40px 0}
+  .buying-guide h2{font-size:1.35rem;font-weight:700;color:var(--gold);margin-bottom:18px}
+  .guide-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:16px}
+  .guide-card{background:var(--card);border:1px solid #1e2f4a;border-radius:var(--radius);padding:18px 20px}
+  .guide-card h4{color:var(--gold);font-size:.9rem;font-weight:700;margin-bottom:8px}
+  .guide-card p{font-size:.85rem;color:#a8b4c8}
+  .faq-section{margin:40px 0}
+  .faq-section h2{font-size:1.35rem;font-weight:700;color:var(--gold);margin-bottom:20px}
+  details{background:var(--card);border:1px solid #1e2f4a;border-radius:var(--radius);padding:16px 20px;margin-bottom:12px}
+  summary{font-weight:600;cursor:pointer;font-size:.95rem;list-style:none}
+  summary::marker{display:none}
+  summary::before{content:"+";color:var(--gold);margin-right:10px;font-weight:700}
+  details[open] summary::before{content:"-"}
+  details p{margin-top:12px;font-size:.9rem;color:#a8b4c8}
+  footer{background:var(--card);border-top:1px solid #1e2f4a;text-align:center;padding:28px 20px;color:var(--muted);font-size:.85rem}
+  footer a{color:var(--muted)}
+  .disclaimer{background:#0d1a2e;border:1px solid #1e2f4a;border-radius:8px;padding:14px 18px;font-size:.8rem;color:var(--muted);margin-bottom:32px}
+  @media(max-width:580px){.pros-cons{grid-template-columns:1fr}.hero{margin-top:28px}}
+</style>
+</head>
+<body>
+
+<header>
+  <a class="logo" href="/">SleepWise Reviews</a>
+  <nav>
+    <a href="/">Home</a>
+    <a href="/posts/index.html">All Posts</a>
+  </nav>
+</header>
+
+<div class="hero">
+  <span class="badge">SUPPLEMENTS</span>
+  <h1>7 Best Sleep Aids for Anxiety (2026) &mdash; Ranked by Calming Efficacy</h1>
+  <p class="meta">May 25, 2026 &bull; 13 min read &bull; By SleepWise Reviews</p>
+  <p class="intro">Anxiety hijacks sleep at the neurochemical level &mdash; elevated cortisol, overactive amygdala, suppressed GABA. The right supplement targets that loop directly. We rank the 7 best sleep aids for anxiety on calming efficacy, safety profile, and clinical backing &mdash; not marketing spend.</p>
+</div>
+
+<div class="toc">
+  <h2>Quick Navigation</h2>
+  <ol>
+    <li><a href="#natrol">Natrol Melatonin 5mg Time Release &mdash; Best Overall</a></li>
+    <li><a href="#magnesium">Nature Made Magnesium Glycinate &mdash; Best Magnesium</a></li>
+    <li><a href="#gaba">Thorne Pharma GABA &mdash; Best GABA Supplement</a></li>
+    <li><a href="#ltheanine">NOW L-Theanine 200mg &mdash; Best L-Theanine</a></li>
+    <li><a href="#valerian">Gaia Herbs Valerian Root &mdash; Best Herbal</a></li>
+    <li><a href="#luna">Nested Naturals LUNA &mdash; Best All-in-One Blend</a></li>
+    <li><a href="#zzzquil">ZzzQuil Natura Gummies &mdash; Best Gummies</a></li>
+    <li><a href="#science">The Anxiety-Insomnia Loop Explained</a></li>
+    <li><a href="#guide">Buying Guide &mdash; What to Look For</a></li>
+    <li><a href="#faq">FAQ</a></li>
+  </ol>
+</div>
+
+<div class="section-wrap">
+
+  <div class="disclaimer">
+    <strong>Affiliate disclosure:</strong> SleepWise Reviews earns from qualifying Amazon purchases. Products are ranked by research merit, not commission rate. Always consult your doctor before starting any supplement.
+  </div>
+
+  <!-- PRODUCT 1 -->
+  <div class="product-card" id="natrol">
+    <span class="rank-badge">Best Overall</span>
+    <div class="product-header">
+      <div class="rank-num">1</div>
+      <div class="product-info">
+        <h2>Natrol Melatonin 5mg Time Release</h2>
+        <span class="tagline">Gradual release for the full sleep window</span>
+      </div>
+    </div>
+    <div class="score-row">
+      <span class="score-num">9.5</span>
+      <div class="score-bar"><div class="score-fill" style="width:95%"></div></div>
+      <span style="color:var(--muted);font-size:.85rem">/ 10</span>
+    </div>
+    <div class="spec-chips">
+      <span class="chip highlight">5mg Melatonin</span>
+      <span class="chip">Time Release</span>
+      <span class="chip">Drug-Free</span>
+      <span class="chip">100% Vegetarian</span>
+      <span class="chip">USP Verified</span>
+    </div>
+    <p style="font-size:.9rem;color:#a8b4c8;margin-bottom:16px">Natrol's bi-layer tablet releases 1mg immediately to initiate sleep onset, then gradually dispenses the remaining 4mg over 8 hours to prevent 3am wake-ups &mdash; the pattern most common in anxiety-driven insomnia. It is one of the few melatonin products with USP verification for potency and purity. The 5mg dose is appropriate for anxiety sufferers who often need a stronger signal to override elevated cortisol.</p>
+    <div class="pros-cons">
+      <div class="pros">
+        <h4>PROS</h4>
+        <ul>
+          <li>Dual-layer time release prevents early morning waking</li>
+          <li>USP-verified purity and potency</li>
+          <li>100% drug-free, non-habit-forming</li>
+          <li>Widely available, affordable per dose</li>
+        </ul>
+      </div>
+      <div class="cons">
+        <h4>CONS</h4>
+        <ul>
+          <li>5mg may cause grogginess if sleep window is short</li>
+          <li>Does not directly reduce anxiety &mdash; pairs better with L-theanine</li>
+          <li>Tablets must be swallowed whole (not chewed)</li>
+        </ul>
+      </div>
+    </div>
+    <a href="https://www.amazon.com/s?k=Natrol+Melatonin+5mg+Time+Release&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank" class="cta-btn">Check Price on Amazon</a>
+  </div>
+
+  <!-- PRODUCT 2 -->
+  <div class="product-card" id="magnesium">
+    <span class="rank-badge">Best Magnesium</span>
+    <div class="product-header">
+      <div class="rank-num">2</div>
+      <div class="product-info">
+        <h2>Nature Made Magnesium Glycinate 200mg</h2>
+        <span class="tagline">Highly bioavailable GABA upregulation</span>
+      </div>
+    </div>
+    <div class="score-row">
+      <span class="score-num">9.2</span>
+      <div class="score-bar"><div class="score-fill" style="width:92%"></div></div>
+      <span style="color:var(--muted);font-size:.85rem">/ 10</span>
+    </div>
+    <div class="spec-chips">
+      <span class="chip highlight">Magnesium Glycinate</span>
+      <span class="chip">200mg Per Serving</span>
+      <span class="chip">USP Verified</span>
+      <span class="chip">Gentle on Stomach</span>
+      <span class="chip">No Laxative Effect</span>
+    </div>
+    <p style="font-size:.9rem;color:#a8b4c8;margin-bottom:16px">Magnesium glycinate is the premier form for anxiety and sleep: glycine acts as its own calming neurotransmitter, while magnesium upregulates GABA receptors and suppresses the HPA stress axis. Nature Made's formulation is USP-verified and uses the glycinate chelate that bypasses the intestinal discomfort of magnesium oxide or citrate. Most anxiety-insomnia cases involve magnesium insufficiency &mdash; replenishing over 2-4 weeks produces measurable sleep quality improvement.</p>
+    <div class="pros-cons">
+      <div class="pros">
+        <h4>PROS</h4>
+        <ul>
+          <li>Glycinate form: best absorption, no laxative effect</li>
+          <li>USP Verified for purity and potency</li>
+          <li>Addresses root cause (HPA dysregulation, GABA deficit)</li>
+          <li>Effective for both anxiety relief and sleep depth</li>
+        </ul>
+      </div>
+      <div class="cons">
+        <h4>CONS</h4>
+        <ul>
+          <li>Takes 2-4 weeks to reach optimal tissue levels</li>
+          <li>Not for immediate same-night relief</li>
+          <li>Large capsules may be difficult to swallow</li>
+        </ul>
+      </div>
+    </div>
+    <a href="https://www.amazon.com/s?k=Nature+Made+Magnesium+Glycinate+200mg&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank" class="cta-btn">Check Price on Amazon</a>
+  </div>
+
+  <!-- PRODUCT 3 -->
+  <div class="product-card" id="gaba">
+    <span class="rank-badge">Best GABA</span>
+    <div class="product-header">
+      <div class="rank-num">3</div>
+      <div class="product-info">
+        <h2>Thorne Pharma GABA</h2>
+        <span class="tagline">Direct GABAergic calming for racing thoughts</span>
+      </div>
+    </div>
+    <div class="score-row">
+      <span class="score-num">8.9</span>
+      <div class="score-bar"><div class="score-fill" style="width:89%"></div></div>
+      <span style="color:var(--muted);font-size:.85rem">/ 10</span>
+    </div>
+    <div class="spec-chips">
+      <span class="chip highlight">100mg GABA</span>
+      <span class="chip">Thorne Quality</span>
+      <span class="chip">NSF Certified</span>
+      <span class="chip">No Fillers</span>
+      <span class="chip">Capsule Form</span>
+    </div>
+    <p style="font-size:.9rem;color:#a8b4c8;margin-bottom:16px">GABA (gamma-aminobutyric acid) is the brain's primary inhibitory neurotransmitter &mdash; it quiets overactive neural firing that manifests as anxious rumination at bedtime. Thorne's formulation is NSF Certified for Sport, meaning third-party verified for potency, identity, and absence of contaminants. GABA supplements are debated for blood-brain barrier permeability, but subjective calming effects are well-documented and may work through gut-brain signaling. Best used 30 minutes before bed for racing thought suppression.</p>
+    <div class="pros-cons">
+      <div class="pros">
+        <h4>PROS</h4>
+        <ul>
+          <li>NSF Certified &mdash; elite third-party purity verification</li>
+          <li>Fast-acting calming within 30-45 minutes</li>
+          <li>No sedating hangover the next morning</li>
+          <li>Clean formulation with no artificial fillers</li>
+        </ul>
+      </div>
+      <div class="cons">
+        <h4>CONS</h4>
+        <ul>
+          <li>Blood-brain permeability debated in literature</li>
+          <li>Premium price point vs. generic GABA supplements</li>
+          <li>Effects vary by individual; some feel minimal response</li>
+        </ul>
+      </div>
+    </div>
+    <a href="https://www.amazon.com/s?k=Thorne+GABA+supplement+sleep&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank" class="cta-btn">Check Price on Amazon</a>
+  </div>
+
+  <!-- PRODUCT 4 -->
+  <div class="product-card" id="ltheanine">
+    <span class="rank-badge">Best L-Theanine</span>
+    <div class="product-header">
+      <div class="rank-num">4</div>
+      <div class="product-info">
+        <h2>NOW Supplements L-Theanine 200mg</h2>
+        <span class="tagline">Alpha brainwave promotion without sedation</span>
+      </div>
+    </div>
+    <div class="score-row">
+      <span class="score-num">8.7</span>
+      <div class="score-bar"><div class="score-fill" style="width:87%"></div></div>
+      <span style="color:var(--muted);font-size:.85rem">/ 10</span>
+    </div>
+    <div class="spec-chips">
+      <span class="chip highlight">200mg L-Theanine</span>
+      <span class="chip">GMP Certified</span>
+      <span class="chip">No Drowsiness</span>
+      <span class="chip">Pairs Well with Melatonin</span>
+      <span class="chip">Vegan Capsule</span>
+    </div>
+    <p style="font-size:.9rem;color:#a8b4c8;margin-bottom:16px">L-Theanine is an amino acid found in green tea that shifts the brain into an alpha brainwave state &mdash; alert calm without sedation. It is one of the most robust non-prescription anxiolytics: multiple RCTs confirm anxiety score reduction within 60 minutes. At 200mg, it blunts cortisol response, reduces resting heart rate, and shortens sleep onset latency. NOW Supplements offers pharmaceutical-grade L-theanine at exceptional value. Pairs optimally with 0.5-3mg melatonin for anxiety-driven insomnia.</p>
+    <div class="pros-cons">
+      <div class="pros">
+        <h4>PROS</h4>
+        <ul>
+          <li>Multiple RCTs confirm anxiety-reducing efficacy</li>
+          <li>Non-sedating &mdash; safe for daytime anxiety use too</li>
+          <li>Excellent safety profile, no known interactions</li>
+          <li>GMP certified manufacturing; strong value per dose</li>
+        </ul>
+      </div>
+      <div class="cons">
+        <h4>CONS</h4>
+        <ul>
+          <li>Not sedating on its own &mdash; pair with melatonin for sleep</li>
+          <li>Effects are subtle; some users expect stronger sedation</li>
+          <li>Capsule, not gummy &mdash; some prefer chewable format</li>
+        </ul>
+      </div>
+    </div>
+    <a href="https://www.amazon.com/s?k=NOW+L-Theanine+200mg+supplement&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank" class="cta-btn">Check Price on Amazon</a>
+  </div>
+
+  <!-- PRODUCT 5 -->
+  <div class="product-card" id="valerian">
+    <span class="rank-badge">Best Herbal</span>
+    <div class="product-header">
+      <div class="rank-num">5</div>
+      <div class="product-info">
+        <h2>Gaia Herbs Valerian Root</h2>
+        <span class="tagline">Valerian + passionflower dual-action formula</span>
+      </div>
+    </div>
+    <div class="score-row">
+      <span class="score-num">8.4</span>
+      <div class="score-bar"><div class="score-fill" style="width:84%"></div></div>
+      <span style="color:var(--muted);font-size:.85rem">/ 10</span>
+    </div>
+    <div class="spec-chips">
+      <span class="chip highlight">Valerian Root Extract</span>
+      <span class="chip">Passionflower Blend</span>
+      <span class="chip">Liquid Phyto-Caps</span>
+      <span class="chip">Certified B Corp</span>
+      <span class="chip">Herb ID Verified</span>
+    </div>
+    <p style="font-size:.9rem;color:#a8b4c8;margin-bottom:16px">Valerian root has been used for anxiety and insomnia for over 2,000 years, and modern trials confirm modulation of GABA-A receptors and adenosine signaling. Gaia Herbs combines valerian with passionflower, which independently reduces anxiety and extends slow-wave sleep. Their liquid phyto-cap delivery absorbs faster than pressed tablets and the brand uses Herb ID verification for species authenticity. Best for those who respond poorly to melatonin or prefer an herbal-first approach.</p>
+    <div class="pros-cons">
+      <div class="pros">
+        <h4>PROS</h4>
+        <ul>
+          <li>Valerian + passionflower synergy &mdash; dual anxiolytic pathways</li>
+          <li>Liquid phyto-caps absorb faster than pressed tablets</li>
+          <li>Herb ID verification ensures species authenticity</li>
+          <li>Certified B Corp &mdash; rigorous quality and sourcing standards</li>
+        </ul>
+      </div>
+      <div class="cons">
+        <h4>CONS</h4>
+        <ul>
+          <li>Valerian has a pungent smell some find off-putting</li>
+          <li>Effects build over 1-2 weeks of consistent use</li>
+          <li>Some users experience vivid dreams initially</li>
+        </ul>
+      </div>
+    </div>
+    <a href="https://www.amazon.com/s?k=Gaia+Herbs+Valerian+Root+passionflower&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank" class="cta-btn">Check Price on Amazon</a>
+  </div>
+
+  <!-- PRODUCT 6 -->
+  <div class="product-card" id="luna">
+    <span class="rank-badge">Best All-in-One Blend</span>
+    <div class="product-header">
+      <div class="rank-num">6</div>
+      <div class="product-info">
+        <h2>Nested Naturals LUNA</h2>
+        <span class="tagline">L-theanine + valerian + passionflower + melatonin</span>
+      </div>
+    </div>
+    <div class="score-row">
+      <span class="score-num">8.2</span>
+      <div class="score-bar"><div class="score-fill" style="width:82%"></div></div>
+      <span style="color:var(--muted);font-size:.85rem">/ 10</span>
+    </div>
+    <div class="spec-chips">
+      <span class="chip highlight">Melatonin + L-Theanine</span>
+      <span class="chip">Valerian Root</span>
+      <span class="chip">Passionflower</span>
+      <span class="chip">Hops Flower</span>
+      <span class="chip">Lemon Balm</span>
+    </div>
+    <p style="font-size:.9rem;color:#a8b4c8;margin-bottom:16px">LUNA stacks six ingredients into a single capsule: melatonin (6mg), L-theanine, valerian root, passionflower, hops flower, and lemon balm. For anxiety-driven insomnia, this multi-pathway approach is logical &mdash; targeting cortisol, GABA, adenosine, and circadian rhythm simultaneously. The 6mg melatonin is higher than ideal for most adults (0.5-3mg is evidence-preferred), but the blend still works well. Best for people who want one capsule rather than a custom stack.</p>
+    <div class="pros-cons">
+      <div class="pros">
+        <h4>PROS</h4>
+        <ul>
+          <li>6 complementary ingredients in one capsule</li>
+          <li>Targets multiple anxiety-sleep pathways simultaneously</li>
+          <li>Widely available; strong user review base</li>
+          <li>Affordable vs. buying ingredients separately</li>
+        </ul>
+      </div>
+      <div class="cons">
+        <h4>CONS</h4>
+        <ul>
+          <li>6mg melatonin is higher than evidence-based range</li>
+          <li>Proprietary blend doses not fully disclosed</li>
+          <li>Harder to adjust individual ingredient amounts</li>
+        </ul>
+      </div>
+    </div>
+    <a href="https://www.amazon.com/s?k=Nested+Naturals+LUNA+sleep+supplement&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank" class="cta-btn">Check Price on Amazon</a>
+  </div>
+
+  <!-- PRODUCT 7 -->
+  <div class="product-card" id="zzzquil">
+    <span class="rank-badge">Best Gummies</span>
+    <div class="product-header">
+      <div class="rank-num">7</div>
+      <div class="product-info">
+        <h2>ZzzQuil Natura Melatonin Gummies</h2>
+        <span class="tagline">Melatonin + elderberry for easy-to-take relief</span>
+      </div>
+    </div>
+    <div class="score-row">
+      <span class="score-num">7.9</span>
+      <div class="score-bar"><div class="score-fill" style="width:79%"></div></div>
+      <span style="color:var(--muted);font-size:.85rem">/ 10</span>
+    </div>
+    <div class="spec-chips">
+      <span class="chip highlight">1mg Melatonin Per Gummy</span>
+      <span class="chip">Elderberry</span>
+      <span class="chip">No Diphenhydramine</span>
+      <span class="chip">Drug-Free</span>
+      <span class="chip">Tropical Flavor</span>
+    </div>
+    <p style="font-size:.9rem;color:#a8b4c8;margin-bottom:16px">ZzzQuil Natura is the drug-free gummy line from Vicks &mdash; distinct from the original ZzzQuil which uses diphenhydramine (an antihistamine with dependence potential). Each gummy delivers 1mg melatonin, which aligns with the evidence-based low-dose range that works without morning grogginess. Elderberry provides mild antioxidant support. Best choice for those who dislike capsules or pills, or who need a gentle sleep signal without strong sedative ingredients.</p>
+    <div class="pros-cons">
+      <div class="pros">
+        <h4>PROS</h4>
+        <ul>
+          <li>Low 1mg dose aligns with evidence-based melatonin range</li>
+          <li>Drug-free &mdash; no diphenhydramine or antihistamines</li>
+          <li>Easy to take, pleasant taste</li>
+          <li>No morning grogginess at 1-2 gummy dose</li>
+        </ul>
+      </div>
+      <div class="cons">
+        <h4>CONS</h4>
+        <ul>
+          <li>Low potency for severe anxiety-driven insomnia</li>
+          <li>Contains added sugar</li>
+          <li>No L-theanine or herbal anxiolytics in the formula</li>
+        </ul>
+      </div>
+    </div>
+    <a href="https://www.amazon.com/s?k=ZzzQuil+Natura+Melatonin+Gummies+sleep&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank" class="cta-btn">Check Price on Amazon</a>
+  </div>
+
+  <!-- SCIENCE BOX -->
+  <div class="science-box" id="science">
+    <h3>The Anxiety-Insomnia Loop: Why It Persists and How Supplements Break It</h3>
+    <p><strong>The HPA axis and cortisol timing:</strong> Anxiety dysregulates the hypothalamic-pituitary-adrenal (HPA) axis, causing cortisol to remain elevated into the evening when it should be falling. Cortisol at 10pm tells the brain to stay alert &mdash; directly competing with melatonin's signal to sleep. Magnesium suppresses HPA reactivity and blunts cortisol's evening spike.</p>
+    <p><strong>GABA deficiency and racing thoughts:</strong> GABA is the nervous system's brake pedal. Anxiety depletes effective GABAergic tone, leading to the overactive amygdala activation experienced as racing thoughts at bedtime. Valerian root, passionflower, and magnesium all modulate GABA-A receptor activity through different mechanisms.</p>
+    <p><strong>The perpetuation loop:</strong> Anxiety causes poor sleep. Poor sleep increases anxiety the next day (via amygdala hypersensitivity and prefrontal underactivity). This creates the self-reinforcing anxiety-insomnia cycle. Supplements break the acute loop; CBT-I (cognitive behavioral therapy for insomnia) addresses the chronic pattern.</p>
+    <p><strong>Alpha brainwave state:</strong> L-theanine is the only non-sedating anxiolytic that shifts EEG readings toward alpha waves &mdash; the state of alert calm associated with meditation and creative flow. This is the brainwave state that makes sleep onset possible without forcing sedation.</p>
+  </div>
+
+  <!-- BUYING GUIDE -->
+  <div class="buying-guide" id="guide">
+    <h2>Buying Guide: Choosing the Right Sleep Aid for Your Anxiety Type</h2>
+    <div class="guide-grid">
+      <div class="guide-card">
+        <h4>Racing Thoughts at Bedtime</h4>
+        <p>Best: L-Theanine 200mg + Melatonin 1-3mg, taken 60 minutes before bed. L-theanine quiets rumination; melatonin signals sleep onset. This is the most evidence-backed acute pairing.</p>
+      </div>
+      <div class="guide-card">
+        <h4>3am Wake-Ups (Cortisol Surge)</h4>
+        <p>Best: Time-release melatonin (Natrol 5mg) + daily magnesium glycinate 200mg. Time-release sustains sleep pressure; magnesium reduces overnight cortisol surges over 2-4 weeks.</p>
+      </div>
+      <div class="guide-card">
+        <h4>Chronic Low-Grade Anxiety</h4>
+        <p>Best: Magnesium glycinate 200-400mg daily (not just at night) + valerian root in the evening. Both require consistent use to rebuild depleted reserves and GABA tone.</p>
+      </div>
+      <div class="guide-card">
+        <h4>Situational or Acute Anxiety</h4>
+        <p>Best: L-Theanine 200mg taken 30 minutes before the anxiety-inducing event or bed. Works quickly, no sedation, safe to use as needed without dependence risk.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- FAQ -->
+  <div class="faq-section" id="faq">
+    <h2>Frequently Asked Questions</h2>
+    <details>
+      <summary>What is the best natural sleep aid for anxiety?</summary>
+      <p>Magnesium glycinate and L-theanine are the most evidence-backed natural options for anxiety-related insomnia. Magnesium regulates GABA receptors and blunts cortisol; L-theanine promotes alpha brainwaves that calm racing thoughts without sedation. Melatonin helps shift timing but does not directly calm anxiety.</p>
+    </details>
+    <details>
+      <summary>Is melatonin or magnesium better for anxiety insomnia?</summary>
+      <p>For anxiety-driven insomnia, magnesium glycinate is generally more effective than melatonin. Melatonin signals when to sleep; magnesium calms the nervous system so you can actually get there. For best results, combine 200mg magnesium glycinate + 0.5mg melatonin 60 minutes before bed.</p>
+    </details>
+    <details>
+      <summary>Can I take L-theanine and melatonin together?</summary>
+      <p>Yes, L-theanine (100-200mg) and melatonin (0.5-3mg) are safe to combine and work synergistically. L-theanine calms anxious thoughts; melatonin reduces sleep onset latency. This pairing is one of the most studied non-prescription combinations for anxiety-related sleep difficulty.</p>
+    </details>
+    <details>
+      <summary>How long does it take for sleep supplements to work for anxiety?</summary>
+      <p>L-theanine takes 30-60 minutes for acute calming effects. Melatonin peaks in 1-2 hours. Magnesium glycinate builds over 2-4 weeks of daily use as tissue levels replenish. For immediate results: L-theanine + melatonin taken 1 hour before bed. For long-term relief: add magnesium glycinate daily.</p>
+    </details>
+    <details>
+      <summary>Are sleep aids for anxiety habit-forming?</summary>
+      <p>The supplements ranked here (melatonin, magnesium, L-theanine, valerian, GABA) are not habit-forming in the clinical sense. They do not cause dependence or withdrawal. Unlike benzodiazepines or Z-drugs, stopping these supplements does not worsen anxiety or rebound insomnia. Psychological reliance is possible with any sleep aid, but the substances themselves are not addictive.</p>
+    </details>
+  </div>
+
+</div>
+
+<footer>
+  <p>&copy; 2026 SleepWise Reviews &bull; <a href="/posts/index.html">All Posts</a> &bull; <a href="/">Home</a></p>
+  <p style="margin-top:8px">As an Amazon Associate we earn from qualifying purchases &bull; Amazon affiliate tag: sleepwiserevi-20</p>
+</footer>
+
+</body>
+</html>'''
+
+with open('posts/best-sleep-aid-for-anxiety.html', 'w', encoding='utf-8') as f:
+    f.write(html)
+print('Written: posts/best-sleep-aid-for-anxiety.html')
