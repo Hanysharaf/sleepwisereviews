@@ -1,0 +1,446 @@
+import os
+
+html = """<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Best Mattress for Guillain-Barr&eacute; Syndrome 2026 &mdash; 7 Picks for GBS Recovery, Pressure Injury Prevention &amp; Neuropathic Pain | SleepWise Reviews</title>
+<meta name="description" content="7 mattresses for Guillain-Barr&eacute; Syndrome (GBS) -- pressure injury prevention for immobility, sensory hypersensitivity relief, adjustable base for respiratory support. GBS recovery guide included.">
+<link rel="canonical" href="https://sleepwisereviews.com/posts/best-mattress-guillain-barre.html">
+<meta property="og:title" content="Best Mattress for Guillain-Barr&eacute; Syndrome 2026 &mdash; 7 Picks for GBS Recovery, Pressure Relief &amp; Neuropathic Pain">
+<meta property="og:description" content="7 mattresses for GBS -- pressure injury prevention for immobile patients, sensory hypersensitivity relief, HOB elevation for respiratory support. Acute and recovery phase guide.">
+<meta property="og:url" content="https://sleepwisereviews.com/posts/best-mattress-guillain-barre.html">
+<meta property="og:type" content="article">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Best Mattress for Guillain-Barr&eacute; Syndrome 2026 -- 7 GBS Picks">
+<meta name="twitter:description" content="7 mattresses for GBS -- pressure injury prevention, sensory hypersensitivity relief, HOB elevation. Acute and recovery phase guide inside.">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "headline": "Best Mattress for Guillain-Barre Syndrome 2026 -- 7 Picks for GBS Recovery, Pressure Injury Prevention and Neuropathic Pain",
+      "description": "7 mattresses for Guillain-Barre Syndrome covering the acute immobility phase, sensory hypersensitivity of early recovery, HOB elevation for respiratory support, and post-GBS fatigue.",
+      "url": "https://sleepwisereviews.com/posts/best-mattress-guillain-barre.html",
+      "datePublished": "2026-05-26",
+      "dateModified": "2026-05-26",
+      "author": {"@type": "Organization", "name": "SleepWise Reviews"},
+      "publisher": {"@type": "Organization", "name": "SleepWise Reviews", "url": "https://sleepwisereviews.com"}
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://sleepwisereviews.com"},
+        {"@type": "ListItem", "position": 2, "name": "Health Conditions", "item": "https://sleepwisereviews.com/posts/index.html"},
+        {"@type": "ListItem", "position": 3, "name": "Best Mattress for Guillain-Barre Syndrome", "item": "https://sleepwisereviews.com/posts/best-mattress-guillain-barre.html"}
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "name": "Best Mattresses for Guillain-Barre Syndrome 2026",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Alternating Pressure Mattress (Drive Medical)", "url": "https://www.amazon.com/s?k=Drive+Medical+alternating+pressure+mattress&tag=sleepwiserevi-20"},
+        {"@type": "ListItem", "position": 2, "name": "Saatva Adjustable Base + Classic Plush", "url": "https://www.amazon.com/s?k=Saatva+Classic+Plush+mattress&tag=sleepwiserevi-20"},
+        {"@type": "ListItem", "position": 3, "name": "Purple Restore Hybrid Soft", "url": "https://www.amazon.com/s?k=Purple+Restore+Hybrid+Soft+mattress&tag=sleepwiserevi-20"},
+        {"@type": "ListItem", "position": 4, "name": "Avocado Green Mattress", "url": "https://www.amazon.com/s?k=Avocado+Green+Mattress&tag=sleepwiserevi-20"},
+        {"@type": "ListItem", "position": 5, "name": "Tempur-Pedic TEMPUR-ProAdapt Soft", "url": "https://www.amazon.com/s?k=Tempur-Pedic+TEMPUR-ProAdapt+Soft+mattress&tag=sleepwiserevi-20"},
+        {"@type": "ListItem", "position": 6, "name": "Casper Wave Hybrid", "url": "https://www.amazon.com/s?k=Casper+Wave+Hybrid+mattress&tag=sleepwiserevi-20"},
+        {"@type": "ListItem", "position": 7, "name": "Nectar Premier Mattress", "url": "https://www.amazon.com/s?k=Nectar+Premier+mattress&tag=sleepwiserevi-20"}
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What mattress pressure threshold prevents pressure injuries during GBS immobility?",
+          "acceptedAnswer": {"@type": "Answer", "text": "The clinical threshold is 32 mmHg -- the capillary closing pressure above which sustained surface pressure occludes blood flow and initiates tissue ischemia. Standard consumer mattresses apply between 30 and 70 mmHg at bony prominences (heels, sacrum, occiput) in a fully immobile patient. Alternating pressure mattresses cycle surface pressure below this threshold every 5-10 minutes, preventing any single area from exceeding 32 mmHg long enough to cause injury. For the acute GBS phase with full or near-full immobility, an alternating pressure overlay or full alternating pressure mattress is not optional -- it is the standard of care. Recovery-phase patients who can reposition independently can transition to a high-quality foam or hybrid mattress."}
+        },
+        {
+          "@type": "Question",
+          "name": "Why does GBS cause sensory hypersensitivity and how does it affect mattress choice?",
+          "acceptedAnswer": {"@type": "Answer", "text": "In GBS (AIDP subtype), the immune system attacks peripheral myelin. As remyelination begins during recovery, regenerating nerve fibers fire spontaneously and respond abnormally to normal stimuli -- a state called allodynia or dysesthesia. Light touch, fabric contact, or mattress surface texture that would be imperceptible to a healthy person can register as burning, electric shock, or intense pain. The mattress choice during this phase must minimize surface intrusion: natural latex has the most neutral surface texture and does not off-gas synthetic chemicals that can irritate sensitized skin. A soft comfort layer (3-4 inches of latex or gel foam) distributes contact broadly to prevent point stimulation. Avoid textured mattress covers or surfaces with quilting patterns that press into sensitized skin."}
+        },
+        {
+          "@type": "Question",
+          "name": "What mattress features support HOB elevation for GBS respiratory compromise?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Head-of-bed (HOB) elevation is used in GBS patients with respiratory muscle weakness to reduce the work of breathing, manage secretions, and reduce aspiration risk in patients with bulbar involvement. To use HOB elevation at home, you need an adjustable base (motorized bed frame) plus a compatible mattress. Compatible mattresses are latex or individually pocketed coil -- they flex at the fold point without permanent deformation. Standard innerspring mattresses with bonded coils will not flex and can damage both the mattress and the base. A 30-45 degree HOB elevation is typically the clinical target. Ensure the mattress does not slide on the base -- choose a mattress with a non-slip bottom or use a mattress retainer bar."}
+        },
+        {
+          "@type": "Question",
+          "name": "How long does post-GBS fatigue last and how should I adjust my sleep setup?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Post-GBS fatigue is distinct from residual weakness -- it is a central fatigue syndrome that persists even after motor function returns, often lasting 6 to 24 months and sometimes longer. It is not proportional to exertion and is not relieved by sleep alone. For mattress purposes, this phase requires maximum sleep quality rather than medical-grade pressure redistribution. Prioritize motion isolation (to avoid being woken by a partner), pressure relief (to reduce the discomfort that fragments sleep), and a comfortable sleep temperature (GBS patients often report dysautonomia-related temperature instability). A medium-soft hybrid or memory foam mattress is appropriate at this stage."}
+        },
+        {
+          "@type": "Question",
+          "name": "Is GBS the same as CRPS or spinal cord injury for mattress purposes?",
+          "acceptedAnswer": {"@type": "Answer", "text": "No -- these three conditions have different mechanisms and different mattress requirements. GBS is acute immune-mediated peripheral nerve demyelination with ascending weakness and potential full immobility -- pressure injury prevention is the acute priority. CRPS is a regional pain syndrome following limb injury, localized to one extremity, without the systemic immobility of GBS -- the mattress priority is local contact minimization for the affected limb. Spinal cord injury is structural axonal damage with permanent functional deficits below the lesion level -- pressure injury prevention is permanent, not phase-dependent. GBS has a recovery trajectory that CRPS and SCI do not always share: most GBS patients return to independent ambulation, changing their mattress needs over time from medical-grade to consumer-grade."}
+        }
+      ]
+    }
+  ]
+}
+</script>
+<style>
+:root{--bg:#0a1628;--card:#111e33;--gold:#c9a84c;--text:#e2e8f0;--muted:#94a3b8;--border:#1e3a5f}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:'Segoe UI',sans-serif;line-height:1.7}
+header{background:linear-gradient(135deg,#0a1628 0%,#111e33 100%);border-bottom:2px solid var(--gold);padding:1rem 1.25rem;display:flex;align-items:center;justify-content:space-between}
+header a{color:var(--gold);text-decoration:none;font-weight:700;font-size:1.2rem}
+nav a{color:var(--muted);text-decoration:none;margin-left:1.5rem;font-size:.9rem}
+nav a:hover{color:var(--gold)}
+.hero{max-width:860px;margin:2.5rem auto;padding:0 1.25rem}
+.cat-badge{background:#dc2626;color:#fff;font-size:.72rem;font-weight:700;padding:.25rem .65rem;border-radius:4px;text-transform:uppercase;letter-spacing:.05em}
+h1{font-size:2rem;font-weight:800;margin:.75rem 0 .5rem;color:#fff;line-height:1.25}
+.subtitle{color:var(--muted);font-size:1rem;margin-bottom:1.5rem}
+.toc{background:var(--card);border:1px solid var(--border);border-radius:8px;padding:1.25rem 1.5rem;margin-bottom:2rem}
+.toc h2{font-size:.85rem;text-transform:uppercase;letter-spacing:.08em;color:var(--gold);margin-bottom:.75rem}
+.toc ol{padding-left:1.25rem}
+.toc li{margin:.3rem 0;font-size:.9rem}
+.toc a{color:var(--muted);text-decoration:none}
+.toc a:hover{color:var(--gold)}
+.picks{max-width:860px;margin:0 auto;padding:0 1.25rem}
+.pick-card{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:1.75rem;margin-bottom:1.5rem;position:relative}
+.pick-num{position:absolute;top:1.25rem;right:1.25rem;background:var(--gold);color:#0a1628;font-weight:800;font-size:.8rem;padding:.2rem .55rem;border-radius:20px}
+.pick-badge{font-size:.7rem;font-weight:700;padding:.2rem .5rem;border-radius:4px;text-transform:uppercase;letter-spacing:.05em;margin-bottom:.5rem;display:inline-block}
+.badge-overall{background:#c9a84c22;color:var(--gold);border:1px solid var(--gold)}
+.badge-adjust{background:#0e4f8a22;color:#60a5fa;border:1px solid #0e4f8a}
+.badge-sensory{background:#7c3aed22;color:#a78bfa;border:1px solid #7c3aed}
+.badge-latex{background:#65a30d22;color:#a3e635;border:1px solid #65a30d}
+.badge-fatigue{background:#0891b222;color:#22d3ee;border:1px solid #0891b2}
+.badge-motion{background:#dc262622;color:#f87171;border:1px solid #dc2626}
+.badge-value{background:#92400e22;color:#fbbf24;border:1px solid #92400e}
+.pick-name{font-size:1.2rem;font-weight:700;color:#fff;margin:.25rem 0 .6rem}
+.pick-why{font-size:.95rem;color:var(--text);margin-bottom:1rem}
+.specs{display:flex;gap:.75rem;flex-wrap:wrap;margin-bottom:1rem}
+.spec{background:#0a1628;border:1px solid var(--border);border-radius:6px;padding:.3rem .75rem;font-size:.8rem;color:var(--muted)}
+.spec strong{color:var(--text)}
+.pick-link{display:inline-block;background:var(--gold);color:#0a1628;font-weight:700;font-size:.85rem;padding:.55rem 1.25rem;border-radius:6px;text-decoration:none}
+.pick-link:hover{opacity:.9}
+.science-box{background:linear-gradient(135deg,#0e1f3a,#111e33);border-left:4px solid var(--gold);border-radius:0 8px 8px 0;padding:1.25rem 1.5rem;margin:2rem 0}
+.science-box h3{color:var(--gold);font-size:.85rem;text-transform:uppercase;letter-spacing:.08em;margin-bottom:.5rem}
+.section-block{max-width:860px;margin:2.5rem auto;padding:0 1.25rem}
+.section-block h2{font-size:1.3rem;font-weight:700;color:#fff;margin-bottom:1.25rem;padding-bottom:.5rem;border-bottom:1px solid var(--border)}
+.grid-4{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:1rem;margin-bottom:1.5rem}
+.grid-card{background:var(--card);border:1px solid var(--border);border-radius:8px;padding:1.1rem}
+.grid-card h4{font-size:.9rem;font-weight:700;color:var(--gold);margin-bottom:.4rem}
+.grid-card p{font-size:.82rem;color:var(--muted);line-height:1.5}
+table{width:100%;border-collapse:collapse;font-size:.88rem;margin-bottom:1.5rem}
+th{background:#0e2040;color:var(--gold);padding:.65rem .85rem;text-align:left;font-weight:600;border-bottom:2px solid var(--border)}
+td{padding:.6rem .85rem;border-bottom:1px solid var(--border);color:var(--text)}
+tr:hover td{background:#111e33}
+.warning-box{background:#0a1628;border:1px solid #0891b2;border-radius:8px;padding:1.1rem 1.25rem;margin:1.5rem 0}
+.warning-box h4{color:#22d3ee;font-size:.85rem;text-transform:uppercase;letter-spacing:.06em;margin-bottom:.4rem}
+.warning-box p{font-size:.88rem;color:var(--text)}
+footer{background:#060e1a;border-top:1px solid var(--border);padding:2rem 1.25rem;text-align:center;color:var(--muted);font-size:.82rem;margin-top:3rem}
+footer a{color:var(--gold);text-decoration:none}
+@media(max-width:600px){h1{font-size:1.5rem}.grid-4{grid-template-columns:1fr 1fr}}
+</style>
+</head>
+<body>
+<header>
+  <a href="/">SleepWise Reviews</a>
+  <nav>
+    <a href="/posts/index.html">All Reviews</a>
+    <a href="/pages/about.html">About</a>
+  </nav>
+</header>
+
+<div class="hero">
+  <span class="cat-badge">Health</span>
+  <h1>Best Mattress for Guillain-Barr&eacute; Syndrome 2026 &mdash; 7 Picks for GBS Recovery, Pressure Injury Prevention &amp; Neuropathic Pain</h1>
+  <p class="subtitle">From the acute immobility phase through sensory hypersensitivity of early recovery to post-GBS fatigue &mdash; the right mattress changes at each stage. Clinical pressure thresholds, HOB elevation guide, and phase-by-phase recommendations included.</p>
+
+  <div class="toc">
+    <h2>Quick Navigation</h2>
+    <ol>
+      <li><a href="#picks">Top 7 Mattress Picks for GBS</a></li>
+      <li><a href="#science">GBS Pathophysiology &mdash; Why Each Phase Needs a Different Surface</a></li>
+      <li><a href="#pressure">Pressure Injury Prevention &mdash; The 32 mmHg Threshold</a></li>
+      <li><a href="#phases">GBS Phase vs Mattress Priority</a></li>
+      <li><a href="#hob">HOB Elevation &amp; Respiratory Support</a></li>
+      <li><a href="#sensory">Sensory Hypersensitivity Guide</a></li>
+      <li><a href="#faq">FAQ</a></li>
+    </ol>
+  </div>
+</div>
+
+<div class="picks" id="picks">
+
+  <div class="pick-card">
+    <span class="pick-num">#1</span>
+    <span class="pick-badge badge-overall">Best for Acute Phase</span>
+    <div class="pick-name">Drive Medical Alternating Pressure Mattress Pad</div>
+    <p class="pick-why">During the acute GBS phase, a patient may be fully or partially immobile &mdash; unable to reposition independently. This is the highest-risk window for pressure injury at the sacrum, heels, and occiput. Standard consumer mattresses apply sustained pressure well above the 32 mmHg capillary closing threshold at bony prominences when the patient cannot shift weight. An alternating pressure overlay cycles the surface every 5&ndash;10 minutes, ensuring no single body zone sustains pressure long enough to initiate tissue ischemia. The Drive Medical unit fits over any standard mattress, requires no prescription for home use, and runs quietly on a bedside pump. It is not a permanent solution &mdash; once the patient can reposition independently (descending recovery phase), transition to a consumer mattress. Until then, this is the clinical standard of care at home.</p>
+    <div class="specs">
+      <div class="spec"><strong>Type:</strong> Alternating Pressure Overlay</div>
+      <div class="spec"><strong>Cycle Time:</strong> 5&ndash;10 minutes</div>
+      <div class="spec"><strong>Peak Pressure:</strong> &lt;32 mmHg</div>
+      <div class="spec"><strong>Weight Limit:</strong> 250 lb (standard)</div>
+      <div class="spec"><strong>Best for:</strong> Full immobility (acute GBS)</div>
+    </div>
+    <a class="pick-link" href="https://www.amazon.com/s?k=Drive+Medical+alternating+pressure+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+  </div>
+
+  <div class="pick-card">
+    <span class="pick-num">#2</span>
+    <span class="pick-badge badge-adjust">Best Adjustable Base Compatible</span>
+    <div class="pick-name">Saatva Classic Plush Soft</div>
+    <p class="pick-why">GBS respiratory muscle weakness affects approximately 20% of patients severely enough to require ventilatory support, and a broader group benefits from head-of-bed (HOB) elevation at home: it reduces the work of breathing, assists secretion clearance, and decreases aspiration risk in patients with bulbar involvement. HOB elevation requires a motorized adjustable base, and the mattress must be flex-compatible. The Saatva Classic in its Plush Soft configuration uses individually wrapped coils that articulate at the base&rsquo;s fold point without permanent structural damage. The dual-coil system (comfort coils over tempered steel base coils) maintains pressure distribution even when the head section is elevated 30&ndash;45 degrees. The foam-encased perimeter prevents the patient from rolling toward the edge when the angle shifts. Its 14.5&Prime; height also means a safe transfer height once the patient begins ambulating.</p>
+    <div class="specs">
+      <div class="spec"><strong>Firmness:</strong> Plush Soft (3/10)</div>
+      <div class="spec"><strong>Type:</strong> Innerspring Hybrid</div>
+      <div class="spec"><strong>Height:</strong> 14.5&Prime; or 11.5&Prime;</div>
+      <div class="spec"><strong>Adjustable Base:</strong> Compatible</div>
+      <div class="spec"><strong>Best for:</strong> HOB elevation (respiratory support)</div>
+    </div>
+    <a class="pick-link" href="https://www.amazon.com/s?k=Saatva+Classic+Plush+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+  </div>
+
+  <div class="pick-card">
+    <span class="pick-num">#3</span>
+    <span class="pick-badge badge-sensory">Best for Sensory Hypersensitivity</span>
+    <div class="pick-name">Purple Restore Hybrid Soft</div>
+    <p class="pick-why">Early GBS recovery is characterized by peripheral nerve regeneration and remyelination. Regenerating nerve fibers fire spontaneously and respond abnormally to normal stimuli &mdash; fabric contact, surface texture, or even light touch can register as burning, tingling, or electric shock. The GelFlex Grid&rsquo;s open polymer columns distribute contact force across thousands of small contact points rather than allowing the surface to press into localized skin zones. This broad load distribution is functionally the same principle as a pressure-relieving medical overlay, but delivered in a consumer mattress appropriate for the partial-recovery phase. The grid also avoids the deep body-contour sinking of memory foam that can increase proprioceptive confusion during recovery. The pocketed coil base limits motion transfer for patients being assisted by a caregiver during the night.</p>
+    <div class="specs">
+      <div class="spec"><strong>Firmness:</strong> Soft (3/10)</div>
+      <div class="spec"><strong>Type:</strong> Hybrid (Grid + Coils)</div>
+      <div class="spec"><strong>Height:</strong> 13&Prime;</div>
+      <div class="spec"><strong>Surface:</strong> Open polymer grid (no foam contact)</div>
+      <div class="spec"><strong>Best for:</strong> Allodynia / dysesthesia recovery</div>
+    </div>
+    <a class="pick-link" href="https://www.amazon.com/s?k=Purple+Restore+Hybrid+Soft+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+  </div>
+
+  <div class="pick-card">
+    <span class="pick-num">#4</span>
+    <span class="pick-badge badge-latex">Best Latex Option</span>
+    <div class="pick-name">Avocado Green Mattress</div>
+    <p class="pick-why">Natural latex is consistently identified as the most sensory-neutral mattress material for patients with neurological sensory changes. It does not off-gas the volatile organic compounds (VOCs) that synthetic foam produces, which is relevant because chemosensitivity often accompanies peripheral nerve hyperexcitability. Natural latex also avoids the synthetic flame-retardant chemicals that some GBS patients find intolerable during the dysesthesia phase. GOLS-certified organic latex has a consistent, fine-cell surface texture that does not create point stimulation. The material is inherently responsive (bounces back immediately rather than slowly conforming like memory foam), which eases caregiver-assisted repositioning and reduces the spatial disorientation that can accompany proprioceptive loss during GBS recovery. The GOTS-certified cotton cover is smooth rather than textured, minimizing fabric stimulation of sensitized skin.</p>
+    <div class="specs">
+      <div class="spec"><strong>Firmness:</strong> Medium (5.5/10)</div>
+      <div class="spec"><strong>Type:</strong> Natural Latex Hybrid</div>
+      <div class="spec"><strong>Height:</strong> 11&Prime;</div>
+      <div class="spec"><strong>Cover:</strong> GOTS organic cotton (smooth)</div>
+      <div class="spec"><strong>Best for:</strong> VOC sensitivity + dysesthesia</div>
+    </div>
+    <a class="pick-link" href="https://www.amazon.com/s?k=Avocado+Green+Mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+  </div>
+
+  <div class="pick-card">
+    <span class="pick-num">#5</span>
+    <span class="pick-badge badge-fatigue">Best for Post-GBS Fatigue</span>
+    <div class="pick-name">Tempur-Pedic TEMPUR-ProAdapt Soft</div>
+    <p class="pick-why">Post-GBS fatigue is a distinct clinical syndrome from residual motor weakness. It persists after motor function returns, is disproportionate to activity level, and is not relieved by sleep alone &mdash; it is a central fatigue state affecting the quality of rest itself. For this prolonged recovery phase (typically 6&ndash;24 months), maximum sleep quality is the priority over medical-grade pressure redistribution. The TEMPUR-ProAdapt Soft&rsquo;s TEMPUR-APR material conforms deeply to distribute bodyweight across the broadest possible surface area, minimizing the microarousals caused by pressure point discomfort that fragment light sleep. The slow-response material also absorbs movement thoroughly, preventing small involuntary muscle jerks (common during GBS recovery) from propagating through the mattress. The quilted cooling cover moderates temperature without sacrificing the pressure distribution that makes TEMPUR material clinically distinctive.</p>
+    <div class="specs">
+      <div class="spec"><strong>Firmness:</strong> Soft (3/10)</div>
+      <div class="spec"><strong>Type:</strong> All-foam (TEMPUR-APR)</div>
+      <div class="spec"><strong>Height:</strong> 12&Prime;</div>
+      <div class="spec"><strong>Motion Isolation:</strong> Excellent</div>
+      <div class="spec"><strong>Best for:</strong> Post-GBS fatigue (long recovery)</div>
+    </div>
+    <a class="pick-link" href="https://www.amazon.com/s?k=Tempur-Pedic+TEMPUR-ProAdapt+Soft+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+  </div>
+
+  <div class="pick-card">
+    <span class="pick-num">#6</span>
+    <span class="pick-badge badge-motion">Best Motion Isolation</span>
+    <div class="pick-name">Casper Wave Hybrid</div>
+    <p class="pick-why">GBS patients frequently require caregiver assistance during the night &mdash; repositioning, medication administration, suctioning for those with bulbar involvement, or helping with transfers. Every caregiver-initiated movement that propagates through the mattress risks waking a patient in a fragile recovery sleep state. The Casper Wave&rsquo;s seven ergonomic zones isolate motion because each zone uses different foam densities that absorb rather than transfer energy. The pocketed coils under the comfort layer further contain vibration to the local area of movement. The zoned system also provides softer cushioning at the shoulder and hip zones &mdash; the pressure points most likely to develop early-stage pressure changes even in partially mobile patients. Caregiver positioning during nighttime assistance is also easier: the Wave&rsquo;s firmness gradient means the caregiver&rsquo;s weight does not dramatically displace the patient.</p>
+    <div class="specs">
+      <div class="spec"><strong>Firmness:</strong> Medium (5/10)</div>
+      <div class="spec"><strong>Type:</strong> Hybrid (7-zone foam + coils)</div>
+      <div class="spec"><strong>Height:</strong> 13&Prime;</div>
+      <div class="spec"><strong>Motion Isolation:</strong> Excellent (7-zone)</div>
+      <div class="spec"><strong>Best for:</strong> Caregiver assistance + bed transfers</div>
+    </div>
+    <a class="pick-link" href="https://www.amazon.com/s?k=Casper+Wave+Hybrid+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+  </div>
+
+  <div class="pick-card">
+    <span class="pick-num">#7</span>
+    <span class="pick-badge badge-value">Best Budget Option</span>
+    <div class="pick-name">Nectar Premier</div>
+    <p class="pick-why">GBS treatment &mdash; IVIG infusion, plasmapheresis, inpatient rehabilitation, and outpatient physical therapy &mdash; carries substantial out-of-pocket costs even with insurance. The Nectar Premier delivers gel memory foam, a quilted cooling cover, and a pocketed coil base at a mid-market price point that is among the most accessible in the recovery-phase category. Gel-infused foam provides above-average motion isolation for caregiver-assisted nights and broad pressure distribution for patients still spending extended time in bed. The cooling cover reduces the heat retention that is the primary limitation of foam-based mattresses. The 365-night trial is the longest in the industry &mdash; valuable for GBS patients whose sleep needs shift substantially as they progress through recovery phases. Edge support is adequate for most body weights, supporting safe bed entry and exit as ambulation improves.</p>
+    <div class="specs">
+      <div class="spec"><strong>Firmness:</strong> Medium-Soft (4.5/10)</div>
+      <div class="spec"><strong>Type:</strong> Hybrid (gel foam + coils)</div>
+      <div class="spec"><strong>Height:</strong> 13&Prime;</div>
+      <div class="spec"><strong>Trial:</strong> 365 nights</div>
+      <div class="spec"><strong>Best for:</strong> Budget-conscious GBS recovery</div>
+    </div>
+    <a class="pick-link" href="https://www.amazon.com/s?k=Nectar+Premier+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+  </div>
+
+</div>
+
+<div class="section-block" id="science">
+  <div class="science-box">
+    <h3>GBS Pathophysiology &mdash; Why Each Phase Needs a Different Sleep Surface</h3>
+    <p>Guillain-Barr&eacute; Syndrome is an acute immune-mediated polyneuropathy. The most common subtype &mdash; acute inflammatory demyelinating polyradiculopathy (AIDP) &mdash; involves T-cell and macrophage attack on peripheral myelin, stripping axons of their insulating sheath and blocking or slowing nerve conduction. The onset is rapid: weakness typically ascends from the feet over days, reaching maximum severity within 2&ndash;4 weeks. Up to 30% of patients lose the ability to walk; 20% require mechanical ventilation for respiratory muscle failure.</p>
+    <p style="margin-top:.75rem">The recovery trajectory is roughly the reverse of onset: descending recovery begins as remyelination proceeds, typically over 3&ndash;6 months for motor function, with some patients experiencing residual deficits for 1&ndash;2 years. Autonomic dysfunction (orthostatic hypotension, cardiac arrhythmias, sudomotor changes) can persist independently of motor recovery. Post-GBS fatigue &mdash; a distinct central fatigue syndrome &mdash; is the most common long-term complaint and is present in over 60% of patients at 1 year.</p>
+    <p style="margin-top:.75rem">Each clinical phase creates different demands on the sleep surface: <strong>Acute phase (weeks 1&ndash;4):</strong> pressure injury prevention is the priority. <strong>Early recovery (months 1&ndash;3):</strong> sensory hypersensitivity and allodynia from remyelinating nerve fibers require a surface-neutral mattress. <strong>Mid-recovery (months 3&ndash;6):</strong> fatigue, autonomic instability, and partial motor deficits require an adjustable, supportive surface. <strong>Late recovery (months 6&ndash;24):</strong> post-GBS fatigue and residual sensory changes require maximum sleep quality.</p>
+  </div>
+</div>
+
+<div class="section-block" id="pressure">
+  <h2>Pressure Injury Prevention &mdash; The 32 mmHg Clinical Threshold</h2>
+  <div class="warning-box">
+    <h4>Acute Phase Clinical Note</h4>
+    <p>During full or near-full GBS immobility, a standard consumer mattress is not a safe sleep surface. The 32 mmHg capillary closing pressure threshold is a non-negotiable clinical standard. An alternating pressure overlay is required until the patient can independently reposition.</p>
+  </div>
+  <div class="grid-4">
+    <div class="grid-card">
+      <h4>Why 32 mmHg Matters</h4>
+      <p>32 mmHg is the pressure at which skin capillaries close, cutting off blood flow to underlying tissue. Sustained occlusion for 2 or more hours initiates irreversible ischemic tissue damage. In a fully immobile GBS patient, the sacrum, heels, and occiput are the primary risk zones. Standard mattresses apply 50&ndash;70 mmHg at these bony prominences in an immobile patient.</p>
+    </div>
+    <div class="grid-card">
+      <h4>How Alternating Pressure Works</h4>
+      <p>An alternating pressure mattress uses air cells that inflate and deflate on a timed cycle (typically every 5&ndash;10 minutes). No single area of skin sustains pressure for the 2+ hours required to initiate ischemic injury. The cycle continuously redistributes load regardless of the patient&rsquo;s ability to reposition.</p>
+    </div>
+    <div class="grid-card">
+      <h4>When to Transition Off</h4>
+      <p>The clinical indicator for transitioning to a consumer mattress is independent repositioning ability: if the patient can turn from supine to side-lying without assistance, they can manage skin pressure independently. Most GBS patients reach this milestone during the descending recovery phase, typically 4&ndash;12 weeks after peak weakness.</p>
+    </div>
+    <div class="grid-card">
+      <h4>Heel and Occiput Risk</h4>
+      <p>Heels are the highest-risk site in supine immobile patients and the most commonly missed. Heel protectors or positioning wedges to keep heels off the surface are required alongside any mattress choice. The occiput is at risk in patients with neck weakness. Standard hospital pillow positioning protocols apply at home.</p>
+    </div>
+  </div>
+</div>
+
+<div class="section-block" id="phases">
+  <h2>GBS Phase vs Mattress Priority</h2>
+  <p style="color:var(--muted);font-size:.9rem;margin-bottom:1rem;">GBS recovery follows a predictable trajectory. Match your current phase to the features that matter most for your sleep surface.</p>
+  <table>
+    <thead>
+      <tr><th>GBS Phase</th><th>Typical Timeline</th><th>Primary Priority</th><th>Secondary Priority</th><th>Best Pick</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Acute (ascending weakness)</td><td>Weeks 1&ndash;4</td><td>Pressure injury prevention (&lt;32 mmHg)</td><td>Heel and occiput offloading</td><td>Drive Medical Alternating Pressure</td></tr>
+      <tr><td>Plateau (maximum weakness)</td><td>Weeks 2&ndash;4</td><td>Continued pressure redistribution</td><td>HOB elevation if respiratory compromised</td><td>Alternating Pressure + Saatva (HOB)</td></tr>
+      <tr><td>Early recovery (descending)</td><td>Months 1&ndash;3</td><td>Sensory hypersensitivity / allodynia</td><td>Caregiver motion isolation</td><td>Purple Restore Hybrid, Avocado Green</td></tr>
+      <tr><td>Mid-recovery</td><td>Months 3&ndash;6</td><td>Fatigue management + pressure relief</td><td>Autonomic: positioning for hypotensive episodes</td><td>Tempur-ProAdapt Soft, Casper Wave</td></tr>
+      <tr><td>Late recovery / post-GBS fatigue</td><td>Months 6&ndash;24+</td><td>Sleep quality (fatigue syndrome)</td><td>Residual sensory comfort</td><td>Tempur-ProAdapt Soft, Nectar Premier</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="section-block" id="hob">
+  <h2>HOB Elevation &amp; Respiratory Support</h2>
+  <p style="color:var(--muted);font-size:.9rem;margin-bottom:1rem;">Head-of-bed (HOB) elevation is used in GBS patients with respiratory muscle weakness, bulbar involvement, or autonomic instability causing positional hypotension. Here is what you need to do it safely at home.</p>
+  <div class="grid-4">
+    <div class="grid-card">
+      <h4>What HOB Elevation Does</h4>
+      <p>Elevating the head 30&ndash;45 degrees reduces the diaphragm&rsquo;s load against gravity, assists passive secretion drainage, reduces aspiration risk in patients with impaired swallowing, and can reduce the orthostatic drop associated with autonomic instability. It is a standard supportive measure in GBS inpatient management, applicable at home once the patient is discharged.</p>
+    </div>
+    <div class="grid-card">
+      <h4>Adjustable Base Requirements</h4>
+      <p>A motorized adjustable bed base raises the head section independently. The mattress must flex at the fold point without permanent deformation. Compatible types: natural latex, individually pocketed coil, and open-cell foam. Incompatible: bonded innerspring (will crease and damage). Verify the base weight rating exceeds the combined weight of mattress and patient.</p>
+    </div>
+    <div class="grid-card">
+      <h4>Autonomic Instability Positioning</h4>
+      <p>GBS autonomic dysfunction can produce orthostatic hypotension (blood pressure drops when sitting or standing) or conversely, hypertensive episodes in supine position. For patients with positional hypotension, slight HOB elevation reduces the BP spike of full supine. For hypotensive episodes, the Trendelenburg position (feet elevated) increases venous return. An adjustable base handles both with a single remote control.</p>
+    </div>
+    <div class="grid-card">
+      <h4>Wedge Pillows as an Alternative</h4>
+      <p>If a full adjustable base is not feasible, medical wedge pillows (foam wedges sized for torso elevation) achieve 30&ndash;45 degree HOB at a fraction of the cost. They do not provide foot elevation for autonomic episodes. They must be used under the torso &mdash; not just under the head &mdash; to avoid neck hyperflexion that can worsen breathing mechanics.</p>
+    </div>
+  </div>
+  <table>
+    <thead>
+      <tr><th>GBS Symptom Requiring HOB</th><th>Target Angle</th><th>Equipment</th><th>Mattress Requirement</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Respiratory muscle weakness (mild)</td><td>30&deg; HOB</td><td>Adjustable base or wedge pillow</td><td>Flex-compatible (latex or pocketed coil)</td></tr>
+      <tr><td>Bulbar involvement (swallowing risk)</td><td>30&ndash;45&deg; HOB</td><td>Adjustable base preferred</td><td>Flex-compatible</td></tr>
+      <tr><td>Autonomic hypotension (supine)</td><td>15&ndash;30&deg; HOB</td><td>Adjustable base</td><td>Flex-compatible</td></tr>
+      <tr><td>Orthostatic hypotension (sitting/standing)</td><td>Feet elevated (Trendelenburg)</td><td>Adjustable base</td><td>Flex-compatible</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="section-block" id="sensory">
+  <h2>Sensory Hypersensitivity &mdash; Surface Choices During GBS Recovery</h2>
+  <div class="warning-box">
+    <h4>Remyelination Allodynia</h4>
+    <p>As GBS nerves remyelinate, they enter a hyperexcitable state. Normal surface contact can register as pain. This phase is temporary but can last weeks to months. Surface material choices matter significantly during this window.</p>
+  </div>
+  <div class="grid-4">
+    <div class="grid-card">
+      <h4>Avoid: Synthetic Foam Off-Gassing</h4>
+      <p>New polyurethane and memory foam products off-gas volatile organic compounds (VOCs) for weeks after unboxing. In a patient with heightened chemical sensitivity from peripheral nerve hyperexcitability, these odors can trigger or worsen symptoms. Allow new foam mattresses to air for 48&ndash;72 hours before use, or choose certified-low-VOC options.</p>
+    </div>
+    <div class="grid-card">
+      <h4>Avoid: Textured Covers</h4>
+      <p>Quilted, textured, or ridged mattress cover patterns press geometric patterns into sensitized skin. Choose smooth, flat-woven covers. GOTS-certified organic cotton and Tencel covers are the smoothest options. Avoid plush tops with raised patterns or dimple textures during the allodynia phase.</p>
+    </div>
+    <div class="grid-card">
+      <h4>Prefer: Broad Load Distribution</h4>
+      <p>The goal during allodynia is to spread contact force across the largest possible skin area so that no single point receives concentrated stimulus. The Purple Grid and natural latex both achieve this by deforming broadly under load rather than creating concentrated contact zones. Zoned foam systems achieve the same at specific body regions.</p>
+    </div>
+    <div class="grid-card">
+      <h4>GBS vs CRPS Distinction</h4>
+      <p>GBS sensory hypersensitivity is temporary and follows the remyelination timeline. CRPS regional pain is a separate syndrome that can develop after limb injury and is chronic without remission. If pain localizes to one extremity after GBS and does not follow the expected recovery pattern, raise this with the treating neurologist &mdash; secondary CRPS following GBS is documented.</p>
+    </div>
+  </div>
+</div>
+
+<section class="related-guides" style="background:#111e33;border-top:2px solid #1e3a5f;padding:2rem 1.25rem;margin-top:2rem;">
+  <div style="max-width:860px;margin:0 auto;">
+    <h2 style="color:#fff;font-size:1.1rem;font-weight:700;margin-bottom:1rem;">Related Guides</h2>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:.75rem;">
+      <a href="/posts/best-mattress-multiple-sclerosis.html" style="background:#0a1628;border:1px solid #1e3a5f;border-radius:8px;padding:.85rem 1rem;text-decoration:none;color:#e2e8f0;font-size:.88rem;">Best Mattress for Multiple Sclerosis &rarr;</a>
+      <a href="/posts/best-mattress-spinal-cord-injury.html" style="background:#0a1628;border:1px solid #1e3a5f;border-radius:8px;padding:.85rem 1rem;text-decoration:none;color:#e2e8f0;font-size:.88rem;">Best Mattress for Spinal Cord Injury &rarr;</a>
+      <a href="/posts/best-mattress-complex-regional-pain-syndrome.html" style="background:#0a1628;border:1px solid #1e3a5f;border-radius:8px;padding:.85rem 1rem;text-decoration:none;color:#e2e8f0;font-size:.88rem;">Best Mattress for CRPS &rarr;</a>
+      <a href="/posts/best-mattress-neuropathy.html" style="background:#0a1628;border:1px solid #1e3a5f;border-radius:8px;padding:.85rem 1rem;text-decoration:none;color:#e2e8f0;font-size:.88rem;">Best Mattress for Neuropathy &rarr;</a>
+      <a href="/posts/best-mattress-chronic-fatigue.html" style="background:#0a1628;border:1px solid #1e3a5f;border-radius:8px;padding:.85rem 1rem;text-decoration:none;color:#e2e8f0;font-size:.88rem;">Best Mattress for Chronic Fatigue &rarr;</a>
+    </div>
+  </div>
+</section>
+
+<div class="section-block" id="faq">
+  <h2>Frequently Asked Questions</h2>
+
+  <div style="margin-bottom:1.25rem">
+    <h3 style="font-size:1rem;color:#fff;margin-bottom:.4rem;">What mattress pressure threshold prevents pressure injuries during GBS immobility?</h3>
+    <p style="color:var(--muted);font-size:.9rem;">The clinical threshold is 32 mmHg &mdash; the capillary closing pressure above which sustained surface pressure occludes blood flow and initiates tissue ischemia. Standard consumer mattresses apply 50&ndash;70 mmHg at bony prominences in a fully immobile patient. An alternating pressure mattress cycles below this threshold every 5&ndash;10 minutes, preventing injury at sacrum, heels, and occiput. Until the patient can independently reposition, an alternating pressure overlay is the medically indicated home surface.</p>
+  </div>
+
+  <div style="margin-bottom:1.25rem">
+    <h3 style="font-size:1rem;color:#fff;margin-bottom:.4rem;">Why does GBS cause sensory hypersensitivity and how does it affect mattress choice?</h3>
+    <p style="color:var(--muted);font-size:.9rem;">As remyelination begins, regenerating nerve fibers fire spontaneously and respond abnormally to normal stimuli. Light surface contact can register as burning or electric shock. During this phase, choose a mattress with a smooth (non-textured) cover, broad load distribution (Purple Grid or natural latex), and low VOC off-gassing (GOLS-certified latex). Avoid synthetic foam with visible quilting patterns in the cover.</p>
+  </div>
+
+  <div style="margin-bottom:1.25rem">
+    <h3 style="font-size:1rem;color:#fff;margin-bottom:.4rem;">What mattress features support HOB elevation for GBS respiratory compromise?</h3>
+    <p style="color:var(--muted);font-size:.9rem;">Head-of-bed elevation requires a motorized adjustable base plus a flex-compatible mattress: natural latex, individually pocketed coil, or open-cell foam. Standard bonded innersprings will crease at the fold point and are not safe on adjustable bases. Target 30&ndash;45 degrees for respiratory muscle weakness or bulbar involvement. A wedge pillow under the full torso (not just the head) is the low-cost alternative.</p>
+  </div>
+
+  <div style="margin-bottom:1.25rem">
+    <h3 style="font-size:1rem;color:#fff;margin-bottom:.4rem;">How long does post-GBS fatigue last and how should I adjust my sleep setup?</h3>
+    <p style="color:var(--muted);font-size:.9rem;">Post-GBS fatigue persists in over 60% of patients at 1 year and can last 6&ndash;24 months or longer even after motor recovery. It is a central fatigue syndrome, not proportional to exertion. During this phase, the mattress priority shifts from medical-grade pressure redistribution to maximum sleep quality: motion isolation (to prevent microarousals), broad pressure distribution (to reduce comfort-fragmenting pain), and stable temperature. A medium-soft hybrid or all-foam mattress is appropriate.</p>
+  </div>
+
+  <div style="margin-bottom:1.25rem">
+    <h3 style="font-size:1rem;color:#fff;margin-bottom:.4rem;">Is GBS the same as CRPS or spinal cord injury for mattress purposes?</h3>
+    <p style="color:var(--muted);font-size:.9rem;">No. GBS is acute peripheral demyelination with systemic immobility &mdash; pressure injury prevention is the acute priority, but the condition has a recovery trajectory. CRPS is a regional pain syndrome localized to one extremity without systemic immobility &mdash; the priority is local surface contact minimization. Spinal cord injury is permanent structural axonal damage with chronic pressure injury risk. GBS differs from both: its mattress needs change over a recovery arc of months to years, from medical-grade overlay to consumer mattress.</p>
+  </div>
+</div>
+
+<footer>
+  <p>&copy; 2026 SleepWise Reviews &mdash; <a href="/pages/privacy.html">Privacy Policy</a> &mdash; <a href="/pages/about.html">About</a></p>
+  <p style="margin-top:.5rem;font-size:.75rem;">As an Amazon Associate we earn from qualifying purchases. Prices and availability are subject to change.</p>
+</footer>
+</body>
+</html>"""
+
+output_path = r"O:\\MyFiles\\Projects\\SleepReviewes\\posts\\best-mattress-guillain-barre.html"
+with open(output_path, "w", encoding="utf-8") as f:
+    f.write(html)
+
+size = os.path.getsize(output_path)
+print(f"Written: {output_path}")
+print(f"File size: {size:,} bytes ({size / 1024:.1f} KB)")

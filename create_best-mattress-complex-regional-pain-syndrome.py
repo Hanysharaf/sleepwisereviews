@@ -1,0 +1,248 @@
+import os
+
+html = """<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Best Mattress for Complex Regional Pain Syndrome (CRPS) 2026: 7 Picks | SleepWise Reviews</title>
+<meta name="description" content="7 mattress picks for CRPS/RSD -- ultra-soft allodynia-safe surfaces, limb elevation support, vasomotor cooling, and pressure redistribution for hypersensitive skin.">
+<link rel="canonical" href="https://sleepwisereviews.com/posts/best-mattress-complex-regional-pain-syndrome.html">
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@graph":[
+    {"@type":"Article","headline":"Best Mattress for Complex Regional Pain Syndrome (CRPS)","datePublished":"2026-05-26","dateModified":"2026-05-26","author":{"@type":"Organization","name":"SleepWise Reviews"},"publisher":{"@type":"Organization","name":"SleepWise Reviews","logo":{"@type":"ImageObject","url":"https://sleepwisereviews.com/logo.png"}}},
+    {"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://sleepwisereviews.com/"},{"@type":"ListItem","position":2,"name":"Posts","item":"https://sleepwisereviews.com/posts/"},{"@type":"ListItem","position":3,"name":"Best Mattress for CRPS","item":"https://sleepwisereviews.com/posts/best-mattress-complex-regional-pain-syndrome.html"}]},
+    {"@type":"ItemList","name":"Best Mattress for Complex Regional Pain Syndrome","itemListElement":[
+      {"@type":"ListItem","position":1,"name":"Saatva Zenhaven Latex"},
+      {"@type":"ListItem","position":2,"name":"Casper Wave Hybrid"},
+      {"@type":"ListItem","position":3,"name":"Sleep Number i8 360"},
+      {"@type":"ListItem","position":4,"name":"Avocado Green Mattress"},
+      {"@type":"ListItem","position":5,"name":"Purple Restore Plus"},
+      {"@type":"ListItem","position":6,"name":"Helix Midnight Luxe"},
+      {"@type":"ListItem","position":7,"name":"DreamCloud Premier Rest"}
+    ]},
+    {"@type":"FAQPage","mainEntity":[
+      {"@type":"Question","name":"Why does my mattress cause pain with CRPS?","acceptedAnswer":{"@type":"Answer","text":"CRPS causes allodynia -- pain triggered by stimuli that are not normally painful, including light touch from a mattress surface. The central sensitization that underlies CRPS lowers the pain threshold of mechanoreceptors in the affected limb, so even the gentle pressure of lying on a standard mattress can generate severe pain signals. A mattress with an ultra-soft, low-compression comfort layer minimizes the mechanical force applied to hypersensitive skin."}},
+      {"@type":"Question","name":"What mattress firmness is best for CRPS?","acceptedAnswer":{"@type":"Answer","text":"Soft to medium-soft (2--5 out of 10) is generally best for CRPS. The goal is to minimize surface pressure on the allodynic limb while maintaining enough support to prevent poor spinal alignment. Adjustable firmness options (like Sleep Number) allow patients to find the precise threshold where support is adequate but surface contact pressure is below the allodynia trigger."}},
+      {"@type":"Question","name":"Can a mattress help with limb edema from CRPS?","acceptedAnswer":{"@type":"Answer","text":"A mattress cannot elevate a limb on its own, but its surface properties affect how well positioning pillows work. A soft, conforming surface allows wedge pillows and limb-elevation bolsters to sit stably without the limb rolling back down. An adjustable bed base (compatible with most modern mattresses) provides the most effective and stable limb elevation for edema management overnight."}},
+      {"@type":"Question","name":"Is latex or memory foam better for CRPS allodynia?","acceptedAnswer":{"@type":"Answer","text":"Natural latex is often preferred for CRPS because it is responsive -- it bounces back immediately when the affected limb shifts position, reducing the sustained pressure that triggers allodynia. Memory foam conforms deeply but can feel like it is gripping the limb during position changes. Talalay latex, which is softer and more open-celled than Dunlop, is the preferred latex type for allodynic patients."}},
+      {"@type":"Question","name":"How does temperature regulation in a mattress affect CRPS?","acceptedAnswer":{"@type":"Answer","text":"CRPS disrupts autonomic thermoregulation, causing the affected limb to cycle between abnormally warm (vasodilated, hot to the touch) and abnormally cold (vasoconstrictive, mottled) phases. A heat-trapping mattress worsens the warm phase by adding external thermal load when the limb is already struggling to dissipate heat. Cooling materials -- gel foam, open-cell latex, or grid-structure hybrid surfaces -- reduce this external thermal burden and help prevent the overnight temperature dysregulation that worsens CRPS pain cycles."}}
+    ]}
+  ]
+}
+</script>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',sans-serif;background:#0a1628;color:#e2e8f0;line-height:1.7}
+header{background:#111e33;padding:1rem 2rem;display:flex;align-items:center;justify-content:space-between;border-bottom:2px solid #c9a84c}
+.logo{font-size:1.4rem;font-weight:700;color:#c9a84c;text-decoration:none}
+nav a{color:#94a3b8;text-decoration:none;margin-left:1.5rem;font-size:.9rem}
+nav a:hover{color:#c9a84c}
+.hero{background:linear-gradient(135deg,#111e33,#1a2f4e);padding:3rem 2rem;text-align:center;border-bottom:1px solid #1e3a5f}
+.hero h1{font-size:2rem;color:#c9a84c;margin-bottom:1rem;max-width:800px;margin-inline:auto}
+.hero p{color:#94a3b8;max-width:700px;margin-inline:auto;font-size:1.05rem}
+.container{max-width:900px;margin:0 auto;padding:2rem}
+.cat-badge{display:inline-block;padding:.25rem .75rem;border-radius:4px;font-size:.8rem;font-weight:700;color:#fff;margin-bottom:1rem}
+.toc{background:#111e33;border:1px solid #1e3a5f;border-radius:8px;padding:1.5rem;margin-bottom:2rem}
+.toc h2{color:#c9a84c;font-size:1rem;margin-bottom:1rem;text-transform:uppercase;letter-spacing:.05em}
+.toc ol{padding-left:1.5rem}
+.toc li{margin:.4rem 0}
+.toc a{color:#94a3b8;text-decoration:none;font-size:.95rem}
+.toc a:hover{color:#c9a84c}
+.science-box{background:#0d1f3c;border-left:4px solid #c9a84c;border-radius:0 8px 8px 0;padding:1.5rem;margin:2rem 0}
+.science-box h2{color:#c9a84c;margin-bottom:.75rem;font-size:1.1rem}
+.science-box p{color:#94a3b8;font-size:.95rem}
+.science-box p+p{margin-top:.75rem}
+.pick-card{background:#111e33;border:1px solid #1e3a5f;border-radius:12px;padding:1.5rem;margin-bottom:1.5rem}
+.pick-header{display:flex;align-items:center;gap:1rem;margin-bottom:1rem}
+.pick-num{background:#c9a84c;color:#0a1628;font-weight:700;width:36px;height:36px;border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0;font-size:1rem}
+.pick-card h3{color:#c9a84c;font-size:1.15rem}
+.pick-card p{color:#94a3b8;margin-bottom:1rem;font-size:.95rem}
+.buy-btn{display:inline-block;background:#c9a84c;color:#0a1628;padding:.6rem 1.4rem;border-radius:6px;text-decoration:none;font-weight:700;font-size:.9rem}
+.buy-btn:hover{background:#b8973b}
+table{width:100%;border-collapse:collapse;margin:2rem 0;font-size:.9rem}
+th{background:#1e3a5f;color:#c9a84c;padding:.75rem;text-align:left}
+td{padding:.75rem;border-bottom:1px solid #1e3a5f;color:#94a3b8}
+tr:hover td{background:#0d1f3c}
+.faq{margin:2rem 0}
+.faq h2{color:#c9a84c;margin-bottom:1.5rem;font-size:1.3rem}
+.faq-item{background:#111e33;border:1px solid #1e3a5f;border-radius:8px;padding:1.25rem;margin-bottom:1rem}
+.faq-item h3{color:#e2e8f0;margin-bottom:.5rem;font-size:1rem}
+.faq-item p{color:#94a3b8;font-size:.9rem}
+.related{background:#111e33;border:1px solid #1e3a5f;border-radius:12px;padding:1.5rem;margin:2rem 0}
+.related h2{color:#c9a84c;margin-bottom:1rem}
+.related ul{list-style:none}
+.related li{margin:.5rem 0}
+.related a{color:#94a3b8;text-decoration:none}
+.related a:hover{color:#c9a84c}
+footer{background:#111e33;border-top:1px solid #1e3a5f;padding:2rem;text-align:center;color:#475569;font-size:.85rem;margin-top:3rem}
+footer a{color:#94a3b8;text-decoration:none}
+footer .disclaimer{font-size:.8rem;color:#475569;margin-top:.5rem}
+@media(max-width:600px){.hero h1{font-size:1.4rem}.pick-header{flex-direction:column;align-items:flex-start}}
+</style>
+</head>
+<body>
+<header>
+<a class="logo" href="/">SleepWise Reviews</a>
+<nav><a href="/">Home</a><a href="/posts/">All Posts</a></nav>
+</header>
+<div class="hero">
+<h1>Best Mattress for Complex Regional Pain Syndrome (CRPS) 2026: 7 Picks for Allodynic Sleep</h1>
+<p>Clinical selection guide for CRPS/RSD patients &mdash; ultra-soft allodynia-safe surfaces, vasomotor cooling, limb positioning support, and pressure redistribution for hypersensitive skin.</p>
+</div>
+<div class="container">
+<span class="cat-badge" style="background:#dc2626">Health</span>
+<nav class="toc" aria-label="Table of contents">
+<h2>Contents</h2>
+<ol>
+<li><a href="#science">The Clinical Science</a></li>
+<li><a href="#picks">Our 7 Picks</a></li>
+<li><a href="#comparison">Comparison Table</a></li>
+<li><a href="#buying-guide">Buying Guide</a></li>
+<li><a href="#positioning">Limb Positioning Guide</a></li>
+<li><a href="#faq">FAQ</a></li>
+<li><a href="#related">Related Guides</a></li>
+</ol>
+</nav>
+
+<section id="science" class="science-box">
+<h2>The Clinical Science: Why CRPS Makes Every Mattress Feel Wrong</h2>
+<p>Complex Regional Pain Syndrome is a chronic pain disorder involving a disproportionate inflammatory and neurological response to tissue injury or nerve damage. CRPS Type I (formerly Reflex Sympathetic Dystrophy or RSD) occurs without confirmed nerve injury; CRPS Type II occurs with confirmed peripheral nerve damage. Both share the same defining features: central sensitization, peripheral sensitization, and autonomic dysregulation &mdash; and both make the standard act of lying on a mattress extraordinarily painful.</p>
+<p><strong style="color:#c9a84c;">Allodynia and hyperalgesia</strong> are the two primary sensory abnormalities that dictate mattress choice. Allodynia is pain evoked by stimuli that are not normally painful &mdash; the light touch of a sheet, a slight pressure from foam, even a gentle breeze. Hyperalgesia is an amplified pain response to stimuli that are mildly painful in healthy individuals. Both arise from central sensitization: the spinal dorsal horn neurons become wind-up sensitized, lowering the pain threshold so that C-fiber and A-delta input generates magnified central pain signals. For mattress selection, allodynia is the dominant problem: every point of mattress contact with the affected limb is a potential pain trigger.</p>
+<p><strong style="color:#c9a84c;">Sympathetically maintained pain (SMP)</strong> describes the subset of CRPS cases where sympathetic nervous system activity directly drives pain. Norepinephrine release at peripheral nociceptors sensitizes them further, creating a positive feedback loop between autonomic activation and pain amplification. Sympathetically independent pain (SIP) is the complementary category. Both subtypes benefit from minimizing the mechanical and thermal stimuli that trigger sympathetic responses during sleep.</p>
+<p><strong style="color:#c9a84c;">Vasomotor and sudomotor dysfunction</strong> are the autonomic features with the most direct mattress implications. CRPS disrupts sympathetic vascular control, causing the affected limb to cycle between a warm, red, sweating phase (vasodilation, beta-2 adrenergic dominance) and a cold, mottled, clammy phase (vasoconstriction, alpha-1 adrenergic dominance). A heat-retaining mattress adds external thermal load during the warm phase, worsening the autonomic imbalance that prolongs pain cycles. Cooling mattress materials &mdash; open-cell latex, gel foam, grid-structure polymer, coil-ventilated hybrids &mdash; reduce this external thermal burden. Sudomotor dysfunction (abnormal sweating) also means the affected limb may dampen bedding, creating evaporative cooling that worsens the cold phase; moisture-wicking covers help manage this.</p>
+<p><strong style="color:#c9a84c;">Limb edema and positioning</strong> are additional structural problems. CRPS causes trophic changes including edema (especially in the early stages), altered skin texture, and altered bone density. Dependent positioning of the affected limb overnight worsens edema and increases pain on rising. An adjustable bed base combined with a compatible mattress allows the affected limb to be elevated throughout the night. Wedge pillows work on any mattress but require a conforming soft surface to remain stable.</p>
+<p><strong style="color:#c9a84c;">Sleep architecture disruption</strong> is universal in CRPS. Spontaneous pain bursts and allodynic responses to position changes fragment sleep continuity, reducing slow-wave and REM sleep. This is clinically significant: sleep deprivation increases central sensitization, creating a bidirectional worsening loop where poor sleep amplifies CRPS pain, which in turn worsens sleep. A mattress that minimizes allodynic triggers during position changes &mdash; with a responsive, low-friction surface that does not grip or resist movement &mdash; reduces nocturnal pain events and improves sleep continuity.</p>
+</section>
+
+<section id="picks">
+<h2 style="color:#c9a84c;margin-bottom:1.5rem;font-size:1.4rem">Our 7 Best Mattress Picks for CRPS</h2>
+
+<div class="pick-card" id="pick-1">
+<div class="pick-header"><div class="pick-num">1</div><h3>Saatva Zenhaven Latex &mdash; Best Overall for Allodynia</h3></div>
+<p>Talalay latex is the material most consistently reported as tolerable by CRPS patients because it combines three properties that matter most for allodynic skin: an ultra-soft surface compression, high responsiveness (the latex bounces back immediately during position changes rather than gripping the limb), and genuine cooling from open-cell structure and pin-core ventilation channels. The Zenhaven is a flippable all-latex mattress &mdash; the Luxury Plush side (19 ILD) delivers the softest initial surface feel available in a quality latex mattress, spreading weight across the broadest possible area to keep surface contact pressure below allodynia threshold. Unlike memory foam, the latex does not create a body-shaped depression that the affected limb must resist when changing position. The organic cotton cover is smooth and low-friction. GOLS-certified organic latex eliminates the off-gassing VOCs that can trigger autonomic responses in chemically sensitive CRPS patients. At full size, the Zenhaven is also compatible with adjustable bases for limb elevation.</p>
+<a class="buy-btn" href="https://www.amazon.com/s?k=Saatva+Zenhaven+latex+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</div>
+
+<div class="pick-card" id="pick-2">
+<div class="pick-header"><div class="pick-num">2</div><h3>Casper Wave Hybrid &mdash; Best for Limb Elevation and Positioning</h3></div>
+<p>The Casper Wave Hybrid is specifically engineered with ergonomic zoning &mdash; softer zones at the shoulder and hip, firmer at the lumbar &mdash; which serves CRPS patients particularly well when the affected limb needs to be positioned away from the body's center of mass. The zoned foam system allows wedge pillows and limb bolsters to sit stably against a conforming but not excessively soft surface. The hybrid coil base is adjustable-base compatible, making it the strongest pairing for patients who use an articulating base for limb elevation. The gel foam comfort layers provide meaningful surface cooling to manage the vasomotor warm phase without sacrificing the soft feel needed for allodynic contact. Motion isolation from the individually pocketed coils prevents partner movement from transmitting vibration to the affected limb overnight &mdash; a critical feature, since mechanical vibration is a documented allodynia and hyperalgesia trigger in CRPS.</p>
+<a class="buy-btn" href="https://www.amazon.com/s?k=Casper+Wave+Hybrid+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</div>
+
+<div class="pick-card" id="pick-3">
+<div class="pick-header"><div class="pick-num">3</div><h3>Sleep Number i8 360 &mdash; Best Adjustable/Split Option for Asymmetric CRPS</h3></div>
+<p>CRPS is asymmetric by definition &mdash; one limb is affected, the rest of the body is not. The Sleep Number i8 360 with split-king configuration allows the affected-limb side to be set to the softest firmness level (as low as 5 on the Sleep Number scale) while maintaining a separate firmness for the partner or for the unaffected side of the body. This asymmetric customization is unique to air-chamber mattresses and is clinically relevant: CRPS patients often find that their affected limb requires dramatically softer surface support than the rest of their body, and no single fixed-firmness mattress can optimally address both requirements simultaneously. The i8 also integrates with FlexFit adjustable bases for limb elevation. The responsive air surface does not grip during position changes. The cooling fiber comfort layers address the vasomotor dysregulation problem. The ability to re-adjust firmness as CRPS symptoms change (which they do, cyclically) is an additional long-term advantage.</p>
+<a class="buy-btn" href="https://www.amazon.com/s?k=Sleep+Number+i8+360+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</div>
+
+<div class="pick-card" id="pick-4">
+<div class="pick-header"><div class="pick-num">4</div><h3>Avocado Green Mattress &mdash; Best Latex for Hypoallergenic CRPS Care</h3></div>
+<p>CRPS patients frequently develop heightened sensitivity to chemical exposures &mdash; a feature linked to the broader autonomic and immune dysregulation of the syndrome. Avocado Green uses GOLS-certified organic Dunlop latex, GOTS-certified organic cotton, and organic wool with no synthetic petrochemical foams or adhesives. For patients whose allodynia or sympathetic flares are aggravated by VOC off-gassing from conventional mattress foams, eliminating the chemical exposure variable entirely is clinically meaningful. The natural Dunlop latex provides firmer support than Talalay but is available in a softer pillow-top version. The organic cotton cover is smooth and breathable. The wool layers provide passive thermal regulation &mdash; absorbing moisture during the vasodilatory sweating phase and releasing it during the vasoconstrictive cold phase. For CRPS patients who also react to synthetic materials on skin contact, the all-natural surface eliminates one more potential allodynic trigger.</p>
+<a class="buy-btn" href="https://www.amazon.com/s?k=Avocado+Green+organic+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</div>
+
+<div class="pick-card" id="pick-5">
+<div class="pick-header"><div class="pick-num">5</div><h3>Purple Restore Plus &mdash; Best Cooling for Vasomotor Instability</h3></div>
+<p>Purple's GelFlex Grid is the most effective passive cooling structure available in any consumer mattress. The open grid allows continuous airflow across the entire sleep surface, preventing thermal accumulation at the affected limb during the vasodilatory warm phase of CRPS autonomic cycling. Unlike gel-infused foam (which absorbs heat passively until saturated) or copper-threaded covers (which conduct heat only where contact is made), the GelFlex Grid maintains a continuous convective airflow path that actively dissipates heat throughout the night. For CRPS patients in the warm phase &mdash; limb hot, red, and hypersensitive &mdash; this is the single most effective mattress-level intervention for temperature management. The grid's buckling columns provide a uniquely low surface pressure response: the grid collapses locally under the body weight but remains open elsewhere, distributing contact force across a much larger surface area than foam. This is directly beneficial for allodynic skin.</p>
+<a class="buy-btn" href="https://www.amazon.com/s?k=Purple+Restore+Plus+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</div>
+
+<div class="pick-card" id="pick-6">
+<div class="pick-header"><div class="pick-num">6</div><h3>Helix Midnight Luxe &mdash; Best Medium-Soft Hybrid for CRPS</h3></div>
+<p>The Helix Midnight Luxe occupies the medium-soft range (around 4&ndash;5 out of 10) with a zoned support system that provides additional give at the shoulder and hip without collapsing the lumbar zone. For CRPS patients who find ultra-soft mattresses produce too much sinkage for spinal alignment &mdash; a common complaint when the unaffected side of the body needs firmer support than the allodynic limb requires &mdash; the Midnight Luxe provides a balanced compromise. The TENCEL cover is moisture-wicking (relevant for sudomotor dysfunction), hypoallergenic, and smooth enough to minimize surface friction. The pocketed coil base provides excellent airflow and is adjustable-base compatible. The pillow top adds a cushioned surface layer that distributes the first 1&ndash;2 inches of contact pressure before the zoned coil system takes over. This staged pressure distribution &mdash; soft at surface, structured at depth &mdash; is well-suited to allodynic patients who cannot tolerate immediate firm contact but still need positional support.</p>
+<a class="buy-btn" href="https://www.amazon.com/s?k=Helix+Midnight+Luxe+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</div>
+
+<div class="pick-card" id="pick-7">
+<div class="pick-header"><div class="pick-num">7</div><h3>DreamCloud Premier Rest &mdash; Best Budget Option for CRPS</h3></div>
+<p>DreamCloud Premier Rest delivers hybrid construction &mdash; pocketed coil base with gel memory foam comfort layers &mdash; at a price point well below the luxury tier. For CRPS patients on a limited budget (a common constraint given the disability burden of the syndrome), DreamCloud offers the core functional requirements: a cashmere-blend cover that is smooth and low-friction against allodynic skin, gel memory foam layers that address the heat-retention problem of standard memory foam, and individually pocketed coils that provide motion isolation to prevent partner movement from vibrating the affected limb. The medium-soft feel (around 5 out of 10) provides meaningful surface cushioning for most body weights. The 365-night trial is especially important for CRPS patients because symptom variability means that initial comfort assessments during high-pain periods may not reflect long-term suitability. The lifetime warranty provides confidence for a condition with an indefinite treatment timeline.</p>
+<a class="buy-btn" href="https://www.amazon.com/s?k=DreamCloud+Premier+Rest+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</div>
+</section>
+
+<section id="comparison">
+<h2 style="color:#c9a84c;margin-bottom:1rem;font-size:1.3rem">Quick-Comparison Table</h2>
+<table>
+<thead><tr><th>Mattress</th><th>Type</th><th>Surface Feel</th><th>Cooling</th><th>Allodynia Safety</th><th>Best For</th></tr></thead>
+<tbody>
+<tr><td>Saatva Zenhaven</td><td>All-Latex</td><td>Ultra-Soft (Plush side)</td><td>Excellent</td><td>Excellent</td><td>Overall allodynia / responsive surface</td></tr>
+<tr><td>Casper Wave Hybrid</td><td>Hybrid</td><td>Medium-Soft</td><td>Very Good</td><td>Very Good</td><td>Limb elevation / positioning</td></tr>
+<tr><td>Sleep Number i8 360</td><td>Air Chamber</td><td>Adjustable (5&ndash;100)</td><td>Good</td><td>Excellent</td><td>Asymmetric CRPS / split firmness</td></tr>
+<tr><td>Avocado Green</td><td>Organic Latex Hybrid</td><td>Medium (pillow-top soft)</td><td>Excellent</td><td>Very Good</td><td>Chemical sensitivity / VOC-free</td></tr>
+<tr><td>Purple Restore Plus</td><td>Grid Hybrid</td><td>Medium-Soft</td><td>Excellent</td><td>Very Good</td><td>Vasomotor warm phase / cooling</td></tr>
+<tr><td>Helix Midnight Luxe</td><td>Hybrid</td><td>Medium-Soft</td><td>Very Good</td><td>Good</td><td>Balanced hybrid / adjustable base</td></tr>
+<tr><td>DreamCloud Premier Rest</td><td>Hybrid</td><td>Medium-Soft</td><td>Good</td><td>Good</td><td>Budget hybrid / long trial period</td></tr>
+</tbody>
+</table>
+
+<h2 style="color:#c9a84c;margin-bottom:1rem;margin-top:2rem;font-size:1.3rem">Key Feature Comparison for CRPS</h2>
+<table>
+<thead><tr><th>Mattress</th><th>Motion Isolation</th><th>Adjustable Base Compatible</th><th>Off-Gassing Risk</th><th>Limb Edema Support</th></tr></thead>
+<tbody>
+<tr><td>Saatva Zenhaven</td><td>Good</td><td>Yes</td><td>Very Low (organic)</td><td>Good (with base)</td></tr>
+<tr><td>Casper Wave Hybrid</td><td>Excellent</td><td>Yes</td><td>Low</td><td>Excellent (with base)</td></tr>
+<tr><td>Sleep Number i8 360</td><td>Excellent</td><td>Yes (FlexFit)</td><td>Low</td><td>Excellent (FlexFit base)</td></tr>
+<tr><td>Avocado Green</td><td>Good</td><td>Yes</td><td>None (all-natural)</td><td>Good (with base)</td></tr>
+<tr><td>Purple Restore Plus</td><td>Good</td><td>Yes</td><td>Low</td><td>Good (with base)</td></tr>
+<tr><td>Helix Midnight Luxe</td><td>Very Good</td><td>Yes</td><td>Low</td><td>Good (with base)</td></tr>
+<tr><td>DreamCloud Premier Rest</td><td>Good</td><td>Yes</td><td>Low</td><td>Moderate (with base)</td></tr>
+</tbody>
+</table>
+</section>
+
+<section id="buying-guide">
+<h2 style="color:#c9a84c;margin-bottom:1rem;font-size:1.3rem">What to Look for in a Mattress for CRPS</h2>
+<p><strong style="color:#c9a84c;">Allodynia-Safe Surface Layer:</strong> The comfort layer that contacts the affected limb must deliver the lowest possible surface pressure. For allodynic skin, even modest compression is sufficient to trigger severe pain. Prioritize mattresses with ultra-soft Talalay latex comfort layers (ILD 14&ndash;22), plush gel memory foam (3&ndash;4 lb density), or grid-polymer structures that distribute contact force across many small columns. Avoid firm polyfoam comfort layers, innerspring pillow tops with exposed coil pressure points, or stiff quilting patterns that create uneven surface contact.</p>
+<p style="margin-top:.75rem"><strong style="color:#c9a84c;">Surface Responsiveness for Position Changes:</strong> CRPS patients change positions frequently overnight to manage allodynic pressure. A mattress surface that responds immediately &mdash; latex and grid hybrids &mdash; allows limb repositioning without resistance. Memory foam, which slowly returns to shape, can feel like it grips or retains the limb during movement, generating the kind of slow mechanical stimulus that triggers sustained allodynic pain episodes. Responsiveness is as important as softness for CRPS.</p>
+<p style="margin-top:.75rem"><strong style="color:#c9a84c;">Thermal Management for Vasomotor Cycling:</strong> CRPS autonomic dysfunction cycles the affected limb between warm and cold phases without external cause. A mattress that adds thermal load during the warm phase worsens the temperature deviation and the associated pain amplification. Prioritize open-cell latex, gel-infused foam, or grid-structure hybrid surfaces with coil airflow paths. Phase-change material (PCM) covers and copper-infused fabrics provide active thermal conductivity. Avoid traditional high-density memory foam, which traps body heat and slows heat dissipation even with gel additives.</p>
+<p style="margin-top:.75rem"><strong style="color:#c9a84c;">Motion Isolation:</strong> Vibration and mechanical transmission of a partner's movement are documented allodynia and hyperalgesia triggers in CRPS. Individually pocketed coil systems significantly outperform interconnected innerspring and most all-foam mattresses for motion isolation. Gel foam over pocketed coils provides near-complete isolation of low-amplitude vibration. If sleeping alone, this criterion is secondary; if sharing a bed, it is a clinical priority.</p>
+<p style="margin-top:.75rem"><strong style="color:#c9a84c;">Adjustable Base Compatibility:</strong> Limb elevation for edema management and comfortable positioning of the CRPS-affected limb requires an adjustable base. Virtually all hybrid and foam mattresses are adjustable-base compatible, but coil systems with stiff edges or very thick comfort layers may not flex adequately on adjustable bases. Verify the manufacturer's specifications before purchasing the base-mattress combination.</p>
+<p style="margin-top:.75rem"><strong style="color:#c9a84c;">Low VOC and Hypoallergenic Materials:</strong> CRPS is associated with broader immune sensitization. Mattresses with OEKO-TEX Standard 100 certification, CertiPUR-US certified foams, GOLS-certified organic latex, or GOTS-certified organic textiles minimize chemical exposure that can trigger autonomic responses. New mattress off-gassing peaks in the first 72 hours; unboxing and airing out the mattress in a ventilated room before use is recommended for all CRPS patients.</p>
+</section>
+
+<div class="science-box" id="positioning">
+<h2>Limb Positioning Guide for CRPS Sleep</h2>
+<p><strong style="color:#c9a84c;">Affected upper limb:</strong> Position at heart level or slightly above using a contoured wedge pillow or adjustable base. Avoid dependent positioning (arm hanging off the bed or below chest level) which worsens venous edema and increases morning pain on arising. A conforming surface allows positioning pillows to remain stable overnight without the affected arm rolling into contact with the mattress surface at allodynic sites.</p>
+<p><strong style="color:#c9a84c;">Affected lower limb:</strong> Elevation is the primary goal for edema management. An adjustable base with foot elevation is the most effective solution. On a flat mattress, place a wedge or stacked pillows beneath the knee and ankle to achieve 15&ndash;20 degrees of elevation. A soft mattress surface allows the wedge to sit stably. Avoid pillow placement that creates a point of pressure directly on the affected foot, ankle, or knee.</p>
+<p><strong style="color:#c9a84c;">Sleep position selection:</strong> Back sleeping distributes weight most evenly and allows the affected limb to rest on a separate pillow support system without loading the mattress directly. Side sleeping on the unaffected side keeps the CRPS limb positioned away from the mattress surface, reducing allodynic contact. Side sleeping on the affected side directly loads allodynic skin and is generally not tolerated. Stomach sleeping is not recommended for CRPS patients due to the difficulty of limb positioning and the cervical rotation it requires.</p>
+<p><strong style="color:#c9a84c;">Cover material at the contact surface:</strong> The mattress cover is the actual skin-contact surface for an allodynic limb. Smooth, tightly woven covers &mdash; TENCEL, organic cotton, cashmere-blend &mdash; minimize the mechanical input that triggers allodynia. A fitted sheet of silk or bamboo fabric over the mattress cover adds another low-friction layer. Avoid flannel, terry cloth, or textured quilted covers that can directly trigger allodynic pain through surface texture contact.</p>
+</div>
+
+<section class="faq" id="faq">
+<h2>Frequently Asked Questions</h2>
+<div class="faq-item"><h3>Why does my mattress cause pain with CRPS?</h3><p>CRPS causes allodynia &mdash; pain triggered by stimuli that are not normally painful, including light touch from a mattress surface. The central sensitization that underlies CRPS lowers the pain threshold of mechanoreceptors in the affected limb, so even the gentle pressure of lying on a standard mattress can generate severe pain signals. A mattress with an ultra-soft, low-compression comfort layer minimizes the mechanical force applied to hypersensitive skin.</p></div>
+<div class="faq-item"><h3>What mattress firmness is best for CRPS?</h3><p>Soft to medium-soft (2&ndash;5 out of 10) is generally best for CRPS. The goal is to minimize surface pressure on the allodynic limb while maintaining enough support to prevent poor spinal alignment. Adjustable firmness options (like Sleep Number) allow patients to find the precise threshold where support is adequate but surface contact pressure is below the allodynia trigger. What works will also change as CRPS symptoms fluctuate &mdash; adjustable options are more durable investments.</p></div>
+<div class="faq-item"><h3>Can a mattress help with limb edema from CRPS?</h3><p>A mattress cannot elevate a limb on its own, but its surface properties affect how well positioning pillows work. A soft, conforming surface allows wedge pillows and limb-elevation bolsters to sit stably without the limb rolling back down. An adjustable bed base (compatible with most modern mattresses) provides the most effective and stable limb elevation for edema management overnight.</p></div>
+<div class="faq-item"><h3>Is latex or memory foam better for CRPS allodynia?</h3><p>Natural latex is often preferred for CRPS because it is responsive &mdash; it bounces back immediately when the affected limb shifts position, reducing the sustained pressure that triggers allodynia. Memory foam conforms deeply but can feel like it is gripping the limb during position changes. Talalay latex, which is softer and more open-celled than Dunlop, is the preferred latex type for allodynic patients. If latex sensitivity is a concern, certified low-VOC gel memory foam is the next best option.</p></div>
+<div class="faq-item"><h3>How does temperature regulation in a mattress affect CRPS?</h3><p>CRPS disrupts autonomic thermoregulation, causing the affected limb to cycle between abnormally warm (vasodilated, hot to the touch) and abnormally cold (vasoconstrictive, mottled) phases. A heat-trapping mattress worsens the warm phase by adding external thermal load when the limb is already struggling to dissipate heat. Cooling materials &mdash; gel foam, open-cell latex, or grid-structure hybrid surfaces &mdash; reduce this external thermal burden and help prevent the overnight temperature dysregulation that worsens CRPS pain cycles.</p></div>
+</section>
+
+<section class="related" id="related">
+<h2>Related Guides</h2>
+<ul>
+<li><a href="best-mattress-fibromyalgia.html">Best Mattress for Fibromyalgia</a></li>
+<li><a href="best-mattress-nerve-impingement.html">Best Mattress for Nerve Impingement</a></li>
+<li><a href="best-mattress-neuropathy.html">Best Mattress for Neuropathy</a></li>
+<li><a href="best-mattress-chronic-pain.html">Best Mattress for Chronic Pain</a></li>
+<li><a href="best-mattress-spasticity.html">Best Mattress for Spasticity</a></li>
+</ul>
+</section>
+</div>
+<footer>
+<p><a href="/">SleepWise Reviews</a> | Evidence-based sleep product guidance</p>
+<p class="disclaimer">As an Amazon Associate we earn from qualifying purchases. All affiliate links use tag sleepwiserevi-20. This content is for informational purposes only and does not constitute medical advice.</p>
+</footer>
+</body>
+</html>"""
+
+out_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), "posts", "best-mattress-complex-regional-pain-syndrome.html")
+os.makedirs(os.path.dirname(out_path), exist_ok=True)
+with open(out_path, "w", encoding="utf-8") as f:
+    f.write(html)
+
+size = os.path.getsize(out_path)
+print(f"Written: {out_path}")
+print(f"Size: {size} bytes")

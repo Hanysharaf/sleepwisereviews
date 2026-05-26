@@ -1,0 +1,809 @@
+import os
+
+html = '''<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Best Mattress for Costochondritis 2026 - Reduce Chest Wall Pressure During Sleep</title>
+<meta name="description" content="Costochondritis inflames the costochondral junctions where ribs meet cartilage. 7 mattresses ranked for even thoracic pressure distribution, reduced sternal contact loading, and costal excursion support. Distinct from cardiac chest pain, pleuritis, and rib fractures.">
+<meta property="og:title" content="Best Mattress for Costochondritis 2026">
+<meta property="og:description" content="7 picks for costochondritis sleep: even thoracic pressure distribution, reduced sternal contact loading during back sleeping, and lateral rib pressure relief for side sleepers.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://sleepwisereviews.com/posts/best-mattress-costochondritis.html">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Best Mattress for Costochondritis 2026">
+<meta name="twitter:description" content="7 expert picks for costochondritis: thoracic pressure distribution, sternal contact reduction, and lateral rib pressure relief during sleep.">
+<link rel="canonical" href="https://sleepwisereviews.com/posts/best-mattress-costochondritis.html">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "headline": "Best Mattress for Costochondritis 2026 - Reduce Chest Wall Pressure During Sleep",
+      "description": "Costochondritis inflames the costochondral junctions where ribs meet costal cartilage. 7 mattresses ranked for even thoracic pressure distribution, reduced sternal contact loading, and lateral rib pressure relief.",
+      "url": "https://sleepwisereviews.com/posts/best-mattress-costochondritis.html",
+      "datePublished": "2026-05-26",
+      "dateModified": "2026-05-26",
+      "author": {"@type": "Organization", "name": "SleepWise Reviews"},
+      "publisher": {"@type": "Organization", "name": "SleepWise Reviews", "url": "https://sleepwisereviews.com"}
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://sleepwisereviews.com/"},
+        {"@type": "ListItem", "position": 2, "name": "All Posts", "item": "https://sleepwisereviews.com/posts/index.html"},
+        {"@type": "ListItem", "position": 3, "name": "Best Mattress for Costochondritis", "item": "https://sleepwisereviews.com/posts/best-mattress-costochondritis.html"}
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "name": "Best Mattresses for Costochondritis 2026",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Saatva Classic (Medium) - Best Overall for Back Sleepers with Costochondritis"},
+        {"@type": "ListItem", "position": 2, "name": "Helix Midnight Luxe - Best for Side Sleepers with Lateral Rib Pressure"},
+        {"@type": "ListItem", "position": 3, "name": "Avocado Green Mattress - Best Latex for Even Thoracic Pressure Distribution"},
+        {"@type": "ListItem", "position": 4, "name": "Casper Wave Hybrid - Best Hybrid for Zoned Thoracic Support"},
+        {"@type": "ListItem", "position": 5, "name": "Purple Restore Hybrid - Best for Combined Costochondritis and Lower Back Pain"},
+        {"@type": "ListItem", "position": 6, "name": "Nectar Premier - Best Budget Option for Costochondritis"},
+        {"@type": "ListItem", "position": 7, "name": "Saatva Solaire - Best Adjustable Base Compatible for Chest Elevation"}
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is the best sleeping position for costochondritis?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Back sleeping is generally recommended for costochondritis because it distributes posterior thoracic pressure across a wider surface area while completely relieving anterior sternal and costal cartilage pressure. The inflamed costochondral junctions -- most commonly at ribs 2-5 -- bear no direct load when supine. Side sleeping places lateral pressure directly on the costochondral junctions on the dependent side, which can perpetuate inflammation. If side sleeping is unavoidable, sleeping on the unaffected side with a pillow between the knees and supporting the upper arm reduces lateral chest wall loading. Prone (stomach) sleeping is the worst position -- it compresses the entire anterior chest wall against the mattress and should be avoided entirely."}
+        },
+        {
+          "@type": "Question",
+          "name": "Is a firm or soft mattress better for costochondritis?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Medium firmness (5-6 out of 10) is optimal for costochondritis. Very firm mattresses create point loading at bony prominences -- the sternum and anterior rib cage when back sleeping -- concentrating pressure on the exact structures that are inflamed. Very soft mattresses allow the chest wall to sink excessively, which can compress multiple costochondral junctions simultaneously as the thorax settles into the surface. A medium mattress distributes thoracic contact area evenly, reducing peak pressure at any single costochondral junction while still providing enough support to maintain thoracic spine alignment."}
+        },
+        {
+          "@type": "Question",
+          "name": "How is costochondritis different from Tietze syndrome?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Both conditions involve inflammation at the costochondral junctions, but Tietze syndrome is distinguished by visible or palpable localized swelling at the affected junction -- most commonly at the 2nd or 3rd rib. Costochondritis involves the same inflammatory mechanism but without swelling, typically affects multiple ribs (ribs 2-5 are most commonly involved), and is more prevalent. For sleep surface selection, Tietze syndrome with active swelling may require even greater sensitivity around the single inflamed junction, making pressure mapping of the thoracic region during back sleeping particularly important. Both conditions share the same red flags distinguishing them from cardiac chest pain: reproducible pain with palpation of the specific junction, pain worsening with deep inspiration, and no radiation to the jaw or arm."}
+        },
+        {
+          "@type": "Question",
+          "name": "Can mattress choice speed up costochondritis recovery?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Indirectly, yes. Costochondritis recovery depends on reducing repetitive mechanical stress on the inflamed costochondral junctions to allow cartilage healing. Every sleep cycle -- particularly the rolling and repositioning movements during REM sleep -- loads the chest wall. A mattress that minimizes peak pressure at the costochondral junctions during both static lying and dynamic repositioning reduces the cumulative inflammatory stimulus overnight. This does not replace anti-inflammatory medication or physical therapy, but it removes 6-8 hours of nightly micro-trauma that would otherwise sustain the inflammatory cycle."}
+        },
+        {
+          "@type": "Question",
+          "name": "Does chest elevation help with costochondritis during sleep?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Mild chest elevation of 15-20 degrees can help some costochondritis patients by reducing the pressure of the rib cage against the mattress surface during back sleeping -- the slight elevation shifts some body weight toward the pelvis and changes the angle at which the thorax contacts the surface. It also reduces costal excursion effort: at a slightly elevated angle, the work of breathing decreases because the diaphragm is in a more mechanically advantageous position, and each breath requires less costal expansion against gravity. An adjustable base allows fine-tuning this angle. A standard wedge pillow under the upper torso achieves a similar effect at lower cost."}
+        }
+      ]
+    }
+  ]
+}
+</script>
+
+<style>
+  :root {
+    --bg: #0a1628;
+    --card: #111e33;
+    --gold: #c9a84c;
+    --text: #e8eaf0;
+    --muted: #8892a4;
+    --border: #1e2d45;
+    --green: #2ecc71;
+    --red: #e74c3c;
+    --blue: #3498db;
+    --warn: #e67e22;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: var(--bg); color: var(--text); font-family: Georgia, serif; line-height: 1.75; }
+  a { color: var(--gold); }
+  a:hover { opacity: 0.85; }
+
+  .site-header { background: var(--card); border-bottom: 2px solid var(--gold); padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center; }
+  .site-header .logo { font-size: 1.4rem; font-weight: bold; color: var(--gold); text-decoration: none; font-family: sans-serif; }
+  .site-nav a { color: var(--text); text-decoration: none; margin-left: 1.5rem; font-family: sans-serif; font-size: 0.9rem; }
+  .site-nav a:hover { color: var(--gold); }
+
+  .hero { background: linear-gradient(135deg, #0d1f3c 0%, #1a2f50 100%); padding: 3rem 2rem; text-align: center; border-bottom: 1px solid var(--border); }
+  .cat-badge { display: inline-block; color: #fff; font-size: 0.75rem; font-weight: 600; padding: 0.3rem 0.8rem; border-radius: 2rem; margin-bottom: 1rem; letter-spacing: 0.05em; text-transform: uppercase; font-family: sans-serif; }
+  .hero h1 { font-size: clamp(1.6rem, 4vw, 2.4rem); color: #fff; margin-bottom: 1rem; max-width: 800px; margin-left: auto; margin-right: auto; }
+  .hero .sub { color: var(--muted); font-size: 1rem; max-width: 650px; margin: 0 auto 1.5rem; font-family: sans-serif; }
+  .hero-meta { display: flex; justify-content: center; gap: 2rem; font-family: sans-serif; font-size: 0.85rem; color: var(--muted); flex-wrap: wrap; }
+
+  .container { max-width: 860px; margin: 0 auto; padding: 2rem 1.5rem; }
+
+  .toc { background: var(--card); border: 1px solid var(--border); border-left: 4px solid var(--gold); border-radius: 8px; padding: 1.5rem; margin-bottom: 2rem; }
+  .toc h3 { font-family: sans-serif; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--gold); margin-bottom: 0.75rem; }
+  .toc ol { padding-left: 1.25rem; }
+  .toc li { margin-bottom: 0.35rem; font-family: sans-serif; font-size: 0.9rem; }
+
+  .intro-text { font-size: 1.05rem; margin-bottom: 2rem; }
+  .intro-text p { margin-bottom: 1rem; }
+
+  .science-box { background: linear-gradient(135deg, #0d2040, #112040); border: 1px solid #1e3a6e; border-radius: 10px; padding: 1.5rem; margin: 2rem 0; }
+  .science-box h3 { font-family: sans-serif; font-size: 1rem; color: #7eb3f5; margin-bottom: 0.75rem; }
+  .science-box p { font-size: 0.95rem; color: #b0c4de; margin-bottom: 0.5rem; }
+  .science-box ul { padding-left: 1.25rem; margin-top: 0.5rem; }
+  .science-box ul li { font-size: 0.93rem; color: #b0c4de; margin-bottom: 0.4rem; }
+
+  .warning-box { background: linear-gradient(135deg, #2d1008, #3d1a0a); border: 1px solid #8b3a1a; border-radius: 10px; padding: 1.25rem 1.5rem; margin: 2rem 0; }
+  .warning-box h3 { font-family: sans-serif; font-size: 0.95rem; color: #e8824a; margin-bottom: 0.6rem; }
+  .warning-box p { font-size: 0.93rem; color: #d4a08a; }
+
+  .tip-box { background: linear-gradient(135deg, #0d2a1a, #122d1e); border: 1px solid #2d6040; border-radius: 10px; padding: 1.25rem 1.5rem; margin: 2rem 0; }
+  .tip-box h3 { font-family: sans-serif; font-size: 0.95rem; color: var(--green); margin-bottom: 0.6rem; }
+  .tip-box p { font-size: 0.95rem; color: #90c8a8; }
+
+  .factor-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin: 2rem 0; }
+  .factor-card { background: var(--card); border: 1px solid var(--border); border-radius: 8px; padding: 1rem; }
+  .factor-card h4 { font-family: sans-serif; font-size: 0.85rem; color: var(--gold); margin-bottom: 0.4rem; }
+  .factor-card p { font-size: 0.82rem; color: var(--muted); }
+
+  .product-card { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 1.75rem; margin-bottom: 2rem; }
+  .product-rank { display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1rem; }
+  .rank-num { background: var(--gold); color: #0a1628; font-size: 0.8rem; font-weight: bold; width: 28px; height: 28px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-family: sans-serif; flex-shrink: 0; }
+  .rank-label { font-family: sans-serif; font-size: 0.8rem; color: var(--gold); text-transform: uppercase; letter-spacing: 0.05em; }
+  .product-card h2 { font-size: 1.3rem; color: #fff; margin-bottom: 0.5rem; }
+  .product-summary { font-size: 0.95rem; color: var(--muted); margin-bottom: 1rem; font-family: sans-serif; }
+
+  .spec-chips { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1.25rem; }
+  .chip { background: #1a2d4a; border: 1px solid var(--border); border-radius: 20px; padding: 0.25rem 0.75rem; font-family: sans-serif; font-size: 0.78rem; color: var(--muted); }
+
+  .pros-cons { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 1.25rem; }
+  .pros, .cons { background: #0d1e35; border-radius: 8px; padding: 1rem; }
+  .pros h4 { color: var(--green); font-family: sans-serif; font-size: 0.85rem; margin-bottom: 0.5rem; }
+  .cons h4 { color: var(--red); font-family: sans-serif; font-size: 0.85rem; margin-bottom: 0.5rem; }
+  .pros ul, .cons ul { padding-left: 1.1rem; font-size: 0.88rem; }
+  .pros li, .cons li { margin-bottom: 0.3rem; }
+
+  .verdict-box { background: linear-gradient(135deg, #1a2d0d, #243d12); border: 1px solid #3a6020; border-radius: 8px; padding: 1rem 1.25rem; margin-bottom: 1rem; font-size: 0.9rem; }
+  .verdict-box strong { color: var(--green); font-family: sans-serif; }
+
+  .cta-btn { display: inline-block; background: var(--gold); color: #0a1628; font-weight: bold; padding: 0.65rem 1.5rem; border-radius: 6px; text-decoration: none; font-family: sans-serif; font-size: 0.9rem; }
+  .cta-btn:hover { opacity: 0.9; color: #0a1628; }
+
+  .comparison-table { width: 100%; border-collapse: collapse; margin: 2rem 0; font-family: sans-serif; font-size: 0.88rem; overflow-x: auto; display: block; }
+  .comparison-table th { background: #1a2d4a; color: var(--gold); padding: 0.75rem 1rem; text-align: left; border: 1px solid var(--border); white-space: nowrap; }
+  .comparison-table td { padding: 0.65rem 1rem; border: 1px solid var(--border); color: var(--text); }
+  .comparison-table tr:nth-child(even) td { background: #0d1828; }
+  .comparison-table .good { color: var(--green); font-weight: bold; }
+  .comparison-table .ok { color: #f1c40f; }
+  .comparison-table .poor { color: var(--red); }
+
+  .faq-section { margin-top: 2.5rem; }
+  .faq-item { border-bottom: 1px solid var(--border); padding: 1.25rem 0; }
+  .faq-item h3 { font-family: sans-serif; font-size: 1rem; color: #fff; margin-bottom: 0.6rem; }
+  .faq-item p { font-size: 0.95rem; color: var(--muted); }
+
+  .final-verdict { background: var(--card); border: 2px solid var(--gold); border-radius: 12px; padding: 2rem; margin-top: 2.5rem; }
+  .final-verdict h2 { font-family: sans-serif; font-size: 1.3rem; color: var(--gold); margin-bottom: 1rem; }
+  .final-verdict p { font-size: 0.95rem; margin-bottom: 0.75rem; }
+
+  .related-guides { background: var(--card); border-top: 2px solid #1e3a5f; padding: 2rem 1.25rem; margin-top: 2rem; }
+  .related-guides h2 { color: var(--gold); font-size: 1.05rem; letter-spacing: 0.04em; margin-bottom: 1rem; text-transform: uppercase; font-family: sans-serif; }
+  .related-guides ul { list-style: none; padding: 0; display: flex; flex-wrap: wrap; gap: 0.6rem 1.5rem; }
+  .related-guides ul li a { color: #93c5fd; text-decoration: none; font-size: 0.95rem; font-family: sans-serif; }
+  .related-guides ul li a:hover { text-decoration: underline; }
+
+  .site-footer { background: var(--card); border-top: 1px solid var(--border); text-align: center; padding: 2rem; margin-top: 0; font-family: sans-serif; font-size: 0.82rem; color: var(--muted); }
+  .site-footer a { color: var(--muted); }
+
+  @media (max-width: 600px) {
+    .pros-cons { grid-template-columns: 1fr; }
+    .factor-grid { grid-template-columns: 1fr 1fr; }
+    .site-header { flex-direction: column; gap: 0.75rem; }
+  }
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <a href="/" class="logo">SleepWise Reviews</a>
+  <nav class="site-nav">
+    <a href="/posts/">All Reviews</a>
+    <a href="/posts/#health-conditions">Health</a>
+    <a href="/posts/#mattresses-bedding">Mattresses</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <span class="cat-badge" style="background:#dc2626">Health</span>
+  <h1>Best Mattress for Costochondritis 2026: 7 Picks for Chest Wall Pressure Relief</h1>
+  <p class="sub">Costochondritis inflames the junctions where ribs meet costal cartilage. The wrong mattress loads those inflamed junctions all night. These 7 were evaluated on thoracic pressure distribution, sternal contact loading, and lateral rib relief.</p>
+  <div class="hero-meta">
+    <span>7 Products Reviewed</span>
+    <span>Updated May 2026</span>
+    <span>Health Conditions Guide</span>
+  </div>
+</section>
+
+<div class="container">
+
+  <nav class="toc">
+    <h3>Quick Navigation</h3>
+    <ol>
+      <li><a href="#intro">Costochondritis and Sleep</a></li>
+      <li><a href="#science">The Clinical Science</a></li>
+      <li><a href="#factors">What Matters Most</a></li>
+      <li><a href="#picks">The 7 Best Mattresses</a></li>
+      <li><a href="#comparison">Comparison Tables</a></li>
+      <li><a href="#faq">FAQ</a></li>
+      <li><a href="#verdict">Final Verdict</a></li>
+    </ol>
+  </nav>
+
+  <div class="intro-text" id="intro">
+    <p>Costochondritis is inflammation of the costochondral junctions -- the points where your ribs connect to the costal cartilage that attaches to the sternum. Most commonly affecting ribs 2 through 5, it produces chest wall pain that is sharp with movement, worse with deep breathing, and unmistakably reproduced by pressing on the affected junction. During sleep, every breath cycle loads the chest wall.</p>
+    <p>The challenge with costochondritis and sleep is mechanical. Back sleeping relieves anterior sternal pressure -- your sternum faces the ceiling and contacts nothing -- but concentrates posterior costal pressure as the thorax presses into the mattress. Side sleeping introduces lateral pressure directly onto the costochondral junctions on the side you are lying on. With the wrong mattress, neither position is neutral.</p>
+    <p>What you need is a surface that distributes the body contact area across the entire thorax rather than concentrating it at specific rib landmarks. A mattress that is too firm creates point loading at the posterior rib angles when you are supine. A mattress that is too soft allows the chest to sink and compress multiple rib junctions at once. Medium firmness with good conforming characteristics finds the window between both extremes.</p>
+    <p>We evaluated seven mattresses on thoracic pressure mapping characteristics, costal pressure relief for both back and side sleeping, adjustable base compatibility for chest elevation, and ease of repositioning -- which matters because costochondritis patients often need to shift frequently during the night to manage discomfort.</p>
+  </div>
+
+  <div class="science-box" id="science">
+    <h3>Clinical Science: Costochondritis, Sleep Mechanics, and Chest Wall Pressure</h3>
+    <p><strong>Anatomy of the costochondral junction.</strong> Each rib connects to costal cartilage at the costochondral junction -- a fibrocartilaginous interface that absorbs thoracic expansion forces during breathing. The junctions at ribs 2-5 are most commonly affected in costochondritis because they bear the greatest respiratory and postural loading. Inflammation here produces localized tenderness that is the hallmark diagnostic sign: pressing the junction reproduces the pain.</p>
+    <p><strong>Tietze syndrome vs. costochondritis.</strong> Both involve costochondral inflammation, but Tietze syndrome produces visible or palpable swelling at a single junction -- most often rib 2 or 3 -- whereas costochondritis typically affects multiple levels without swelling. For sleep surface selection, Tietze syndrome with active swelling may require even greater precision around the specific junction. Both share the same diagnostic approach and sleep considerations.</p>
+    <p><strong>Back sleeping mechanics.</strong> When supine, the sternum and anterior rib cage face away from the mattress. Posterior costal pressure is distributed across the posterior thorax and scapulae. The inflamed anterior costochondral junctions bear no direct loading -- making back sleeping the preferred position. The mattress must conform well enough to distribute this posterior pressure broadly rather than concentrating it at the posterior rib angles.</p>
+    <p><strong>Side sleeping mechanics.</strong> When lateral, the dependent ribs press against the mattress at the costochondral level. For right-side sleepers, the right ribs 2-5 are loaded directly. The pressure path from body weight through the lateral thorax compresses the costochondral junctions on the dependent side, perpetuating the inflammatory stimulus. A mattress with good shoulder and thoracic conformance reduces this lateral loading by allowing the shoulder to sink and distributing the contact area more broadly.</p>
+    <p><strong>Mattress firmness and the thoracic pressure window.</strong> Very firm surfaces (8-9/10) create peak pressure at the bony prominences -- the posterior rib angles when supine, the lateral rib cage when sidelying. Very soft surfaces (2-3/10) allow excessive thoracic sinkage that compresses multiple rib junctions simultaneously as the chest settles into the surface. Medium (5-6/10) distributes load across the full thoracic surface area.</p>
+    <p><strong>Costal excursion and breathing mechanics during sleep.</strong> Costochondritis makes deep breathing painful. During sleep, the thorax must expand freely with each breath. A mattress that restricts costal excursion -- particularly a surface that grips or creates a sink point around the chest -- increases the breathing effort required during sleep. Responsive surfaces that allow free thoracic movement without resistance reduce this effect.</p>
+    <p><strong>Differentiating costochondritis from red-flag chest pain.</strong> Costochondritis pain is reproducible with palpation at the junction, worsens with deep inspiration, and is positional. Cardiac chest pain radiates to the jaw or left arm, does not worsen with palpation, and does not change with position. Pleuritis produces a friction rub on auscultation and is typically positional in a different pattern. Rib fractures involve point tenderness at the rib body rather than the junction. Any new chest pain should be evaluated medically before assuming it is costochondritis.</p>
+  </div>
+
+  <div class="warning-box">
+    <h3>Important: Rule Out Cardiac Causes First</h3>
+    <p>Costochondritis is a diagnosis of exclusion. New chest pain -- especially in adults over 35, smokers, or those with cardiovascular risk factors -- requires medical evaluation before attributing it to costochondritis. The distinguishing features (reproducible with palpation, worsens with inspiration, positional) are reliable once cardiac, pulmonary, and fracture causes have been excluded by a clinician.</p>
+  </div>
+
+  <h2 id="factors" style="font-family:sans-serif; color:#fff; margin-bottom:1rem;">What Matters Most in a Mattress for Costochondritis</h2>
+  <div class="factor-grid">
+    <div class="factor-card">
+      <h4>Thoracic Pressure Distribution</h4>
+      <p>The surface must spread chest wall contact area broadly -- not concentrate load at posterior rib angles or lateral costochondral junctions</p>
+    </div>
+    <div class="factor-card">
+      <h4>Medium Firmness Window</h4>
+      <p>5-6 out of 10 avoids both point loading (too firm) and excessive chest sinkage compressing multiple rib junctions (too soft)</p>
+    </div>
+    <div class="factor-card">
+      <h4>Responsive Surface</h4>
+      <p>Repositioning during the night loads the chest wall through multiple angles; a surface that moves with you reduces peak loading during transitions</p>
+    </div>
+    <div class="factor-card">
+      <h4>Costal Excursion Freedom</h4>
+      <p>The thorax must be able to expand with each breath without the mattress surface resisting chest wall movement</p>
+    </div>
+    <div class="factor-card">
+      <h4>Shoulder Conformance</h4>
+      <p>For side sleepers, good shoulder sink distributes the lateral load and prevents direct costochondral junction compression at ribs 2-5</p>
+    </div>
+    <div class="factor-card">
+      <h4>Elevation Compatibility</h4>
+      <p>15-20 degree chest elevation shifts thoracic body weight posteriorly and reduces diaphragmatic effort -- requires adjustable base compatibility</p>
+    </div>
+  </div>
+
+  <div class="tip-box">
+    <h3>The Prone Sleep Rule for Costochondritis</h3>
+    <p>Prone (stomach) sleeping is contraindicated for costochondritis. It compresses the entire anterior chest wall -- sternum, costal cartilage, and all costochondral junctions -- directly against the mattress surface for the full sleep duration. If you are a habitual stomach sleeper, use a body pillow on either side to make side or back sleeping more habitual before investing in a new mattress.</p>
+  </div>
+
+  <h2 id="picks" style="font-family:sans-serif; color:#fff; margin:2rem 0 1.5rem;">The 7 Best Mattresses for Costochondritis</h2>
+
+  <!-- Product 1 -->
+  <div class="product-card">
+    <div class="product-rank">
+      <div class="rank-num">1</div>
+      <div class="rank-label">Best Overall for Back Sleepers with Costochondritis</div>
+    </div>
+    <h2>Saatva Classic (Medium Firmness)</h2>
+    <p class="product-summary">The Saatva Classic in medium (5.5/10) uses a dual coil system -- an innerspring base supporting individually wrapped comfort coils -- to distribute posterior thoracic pressure across the full back surface rather than concentrating it at posterior rib angles. The Euro pillow top adds a conforming layer that fills the natural curvature of the thoracic spine without creating a pressure cavity around the rib cage.</p>
+    <div class="spec-chips">
+      <span class="chip">Dual Coil Hybrid</span>
+      <span class="chip">Firmness: 5.5/10 Medium</span>
+      <span class="chip">Height: 14.5"</span>
+      <span class="chip">365-night trial</span>
+      <span class="chip">Lifetime warranty</span>
+      <span class="chip">Adjustable base compatible</span>
+    </div>
+    <div class="pros-cons">
+      <div class="pros">
+        <h4>Pros</h4>
+        <ul>
+          <li>Dual coil distributes posterior thoracic load broadly</li>
+          <li>Euro pillow top reduces posterior rib angle pressure points</li>
+          <li>Excellent thoracic spine alignment for back sleepers</li>
+          <li>Responsive surface allows low-effort repositioning</li>
+          <li>365-night trial -- longest in the industry</li>
+          <li>White-glove delivery and old mattress removal included</li>
+        </ul>
+      </div>
+      <div class="cons">
+        <h4>Cons</h4>
+        <ul>
+          <li>Not ideal for dedicated side sleepers -- shoulder pressure moderate</li>
+          <li>Premium price point</li>
+          <li>Heavy -- not easy to move</li>
+          <li>Organic certification options add cost</li>
+        </ul>
+      </div>
+    </div>
+    <div class="verdict-box"><strong>Verdict:</strong> The best back-sleeping mattress for costochondritis. The dual coil architecture distributes posterior thoracic pressure across a wider surface than single-coil or all-foam designs, directly reducing the peak loading that concentrates at posterior rib angles on firmer surfaces. The year-long trial gives costochondritis sufferers -- whose symptoms fluctuate with inflammatory cycles -- time to evaluate properly.</div>
+    <a href="https://www.amazon.com/s?k=Saatva+Classic+mattress&tag=sleepwiserevi-20" class="cta-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+
+  <!-- Product 2 -->
+  <div class="product-card">
+    <div class="product-rank">
+      <div class="rank-num">2</div>
+      <div class="rank-label">Best for Side Sleepers -- Lateral Rib Pressure Reduction</div>
+    </div>
+    <h2>Helix Midnight Luxe</h2>
+    <p class="product-summary">Designed specifically for side sleepers, the Helix Midnight Luxe provides deep shoulder conformance that is critical for costochondritis patients who side sleep. When the shoulder sinks adequately into the surface, the lateral thoracic body weight is shared across a larger contact area -- reducing peak pressure at the costochondral junctions at ribs 2-5 on the dependent side. The zoned coil system provides firmer support under the hips and waist, softer under the shoulder and rib cage zone.</p>
+    <div class="spec-chips">
+      <span class="chip">Zoned Coil Hybrid</span>
+      <span class="chip">Firmness: 5/10 Medium</span>
+      <span class="chip">Height: 13.5"</span>
+      <span class="chip">100-night trial</span>
+      <span class="chip">15-year warranty</span>
+      <span class="chip">Excellent shoulder conformance</span>
+    </div>
+    <div class="pros-cons">
+      <div class="pros">
+        <h4>Pros</h4>
+        <ul>
+          <li>Zoned softer thoracic zone reduces lateral costochondral loading</li>
+          <li>Deep shoulder sink distributes lateral chest wall contact area</li>
+          <li>Breathable cover with Tencel for temperature regulation</li>
+          <li>Wrapped coils isolate motion from partner</li>
+          <li>Available in split king for partner firmness differences</li>
+        </ul>
+      </div>
+      <div class="cons">
+        <h4>Cons</h4>
+        <ul>
+          <li>Softness in thoracic zone is insufficient for very heavy builds</li>
+          <li>100-night trial shorter than Saatva</li>
+          <li>Premium tier -- not the budget option</li>
+          <li>Edge support moderate</li>
+        </ul>
+      </div>
+    </div>
+    <div class="verdict-box"><strong>Verdict:</strong> The best option for costochondritis patients who cannot or will not back sleep. The zoned thoracic softness directly addresses the lateral pressure problem -- when the shoulder sinks into a softer zone, the ribs and costochondral junctions above it contact the surface at lower pressure. This is the mechanical difference that separates a pain-reducing surface from a pain-neutral one for lateral rib inflammation.</div>
+    <a href="https://www.amazon.com/s?k=Helix+Midnight+Luxe+mattress&tag=sleepwiserevi-20" class="cta-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+
+  <!-- Product 3 -->
+  <div class="product-card">
+    <div class="product-rank">
+      <div class="rank-num">3</div>
+      <div class="rank-label">Best Latex Option -- Even Pressure Distribution</div>
+    </div>
+    <h2>Avocado Green Mattress</h2>
+    <p class="product-summary">Natural latex distributes pressure more evenly across body contact surfaces than any foam alternative -- it deforms locally under bony prominences and resists deeper sinkage, creating a more even contact pressure map across the thorax. For costochondritis, this means the posterior rib angles during back sleeping and the lateral ribs during side sleeping are cushioned without creating excessive chest sinkage that would load multiple junctions simultaneously. The Avocado Green uses GOLS-certified natural latex over a pocketed coil base.</p>
+    <div class="spec-chips">
+      <span class="chip">Latex + Pocketed Coil</span>
+      <span class="chip">Firmness: 6/10 Medium-Firm</span>
+      <span class="chip">Height: 11"</span>
+      <span class="chip">365-night trial</span>
+      <span class="chip">25-year warranty</span>
+      <span class="chip">GOLS + GOTS certified</span>
+    </div>
+    <div class="pros-cons">
+      <div class="pros">
+        <h4>Pros</h4>
+        <ul>
+          <li>Latex provides most even thoracic pressure distribution available</li>
+          <li>No excessive chest sinkage -- prevents multi-junction compression</li>
+          <li>Highly responsive -- low-effort repositioning</li>
+          <li>Zero off-gassing (no VOCs to irritate breathing)</li>
+          <li>Outstanding durability -- latex outlasts foam significantly</li>
+          <li>25-year warranty reflects long-term performance confidence</li>
+        </ul>
+      </div>
+      <div class="cons">
+        <h4>Cons</h4>
+        <ul>
+          <li>Medium-firm feel (6/10) may be slightly firm for petite builds</li>
+          <li>Heavy -- natural latex is dense</li>
+          <li>Pillow top add-on required for softer feel -- extra cost</li>
+          <li>Not as conforming as memory foam under the shoulder</li>
+        </ul>
+      </div>
+    </div>
+    <div class="verdict-box"><strong>Verdict:</strong> Latex is the most pressure-neutral surface material available. For costochondritis specifically, the even distribution of contact pressure across the thorax -- without the deep sinkage of foam or the point loading of firm coils -- makes it an ideal material choice. The Avocado Green executes this well with certified natural materials. If you want the best thoracic pressure map, latex delivers it.</div>
+    <a href="https://www.amazon.com/s?k=Avocado+Green+Mattress&tag=sleepwiserevi-20" class="cta-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+
+  <!-- Product 4 -->
+  <div class="product-card">
+    <div class="product-rank">
+      <div class="rank-num">4</div>
+      <div class="rank-label">Best Hybrid for Zoned Thoracic Support</div>
+    </div>
+    <h2>Casper Wave Hybrid</h2>
+    <p class="product-summary">The Casper Wave Hybrid uses a proprietary zoned pressure-relief layer with targeted ergonomic zones -- softer under the shoulders, firmer under the lumbar and hips. For costochondritis patients, this thoracic softness is directly relevant: the shoulder-to-mid-back zone is explicitly designed to reduce pressure at the lateral and posterior rib cage. The Airscape foam layer also promotes ventilation, preventing the heat accumulation that can accompany inflammatory conditions.</p>
+    <div class="spec-chips">
+      <span class="chip">Zoned Hybrid</span>
+      <span class="chip">Firmness: 5/10 Medium</span>
+      <span class="chip">Height: 13"</span>
+      <span class="chip">100-night trial</span>
+      <span class="chip">10-year warranty</span>
+      <span class="chip">Airscape ventilation layer</span>
+    </div>
+    <div class="pros-cons">
+      <div class="pros">
+        <h4>Pros</h4>
+        <ul>
+          <li>Thoracic-specific soft zone targets costochondral region</li>
+          <li>Good for both back and side sleeping positions</li>
+          <li>Airscape foam prevents heat buildup during sleep</li>
+          <li>Responsive hybrid feel -- repositioning is easy</li>
+          <li>Solid edge support for getting in and out of bed</li>
+        </ul>
+      </div>
+      <div class="cons">
+        <h4>Cons</h4>
+        <ul>
+          <li>Zoning benefits less pronounced for very light or very heavy builds</li>
+          <li>100-night trial is shorter for a condition that fluctuates seasonally</li>
+          <li>Price is mid-to-high range</li>
+          <li>Some users find the zoning transition points noticeable</li>
+        </ul>
+      </div>
+    </div>
+    <div class="verdict-box"><strong>Verdict:</strong> The best engineered thoracic support in this list. Casper's Wave Hybrid was designed around body-zone pressure relief, and the thoracic zone is exactly where costochondritis patients need it. For multi-position sleepers who rotate between back and side sleeping, the zoned design provides appropriate pressure relief in both orientations.</div>
+    <a href="https://www.amazon.com/s?k=Casper+Wave+Hybrid+mattress&tag=sleepwiserevi-20" class="cta-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+
+  <!-- Product 5 -->
+  <div class="product-card">
+    <div class="product-rank">
+      <div class="rank-num">5</div>
+      <div class="rank-label">Best for Combined Costochondritis and Lower Back Pain</div>
+    </div>
+    <h2>Purple Restore Hybrid</h2>
+    <p class="product-summary">When costochondritis co-exists with lower back pain -- a common pairing because thoracic pain alters posture and loads the lumbar spine differently -- the Purple Restore Hybrid addresses both simultaneously. The Purple Grid polymer collapses under direct pressure (at both the posterior rib cage and the lumbar spine) while remaining firm elsewhere. This creates targeted pressure relief at the specific bony structures that need it without sacrificing thoracic alignment.</p>
+    <div class="spec-chips">
+      <span class="chip">Grid + Hybrid</span>
+      <span class="chip">Firmness: 5/10 Medium</span>
+      <span class="chip">Height: 13"</span>
+      <span class="chip">100-night trial</span>
+      <span class="chip">10-year warranty</span>
+      <span class="chip">Temperature neutral Grid</span>
+    </div>
+    <div class="pros-cons">
+      <div class="pros">
+        <h4>Pros</h4>
+        <ul>
+          <li>Grid collapses at posterior rib cage and lumbar -- both relieved simultaneously</li>
+          <li>Firm between pressure points -- maintains thoracic alignment</li>
+          <li>Excellent temperature neutrality -- no heat accumulation</li>
+          <li>Highly responsive -- effortless repositioning</li>
+          <li>No off-gassing from foam layers</li>
+        </ul>
+      </div>
+      <div class="cons">
+        <h4>Cons</h4>
+        <ul>
+          <li>Grid feel is unusual -- requires adjustment period</li>
+          <li>Heavier than standard hybrid</li>
+          <li>Higher price tier</li>
+          <li>Not as much shoulder conformance as Helix Midnight Luxe for side sleepers</li>
+        </ul>
+      </div>
+    </div>
+    <div class="verdict-box"><strong>Verdict:</strong> The right choice when costochondritis is not the only pain complaint. The Grid polymer's mechanical behavior -- local collapse under pressure, firmness everywhere else -- addresses multiple pain sites simultaneously. For patients whose thoracic pain has led to compensatory postures that now produce lumbar complaints, this dual-relief design is clinically logical.</div>
+    <a href="https://www.amazon.com/s?k=Purple+Restore+Hybrid+mattress&tag=sleepwiserevi-20" class="cta-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+
+  <!-- Product 6 -->
+  <div class="product-card">
+    <div class="product-rank">
+      <div class="rank-num">6</div>
+      <div class="rank-label">Best Budget Option</div>
+    </div>
+    <h2>Nectar Premier</h2>
+    <p class="product-summary">The Nectar Premier offers the pressure-relief characteristics relevant to costochondritis at a significantly lower price point. Its gel memory foam comfort layer conforms to the thoracic surface, reducing posterior rib angle pressure for back sleepers. The medium firmness (5/10) stays within the appropriate range for costochondritis -- avoiding the excessive softness of cheaper foam-only mattresses that allow too much chest sinkage. The 365-night trial is class-leading for this price range.</p>
+    <div class="spec-chips">
+      <span class="chip">Memory Foam</span>
+      <span class="chip">Firmness: 5/10 Medium</span>
+      <span class="chip">Height: 12"</span>
+      <span class="chip">365-night trial</span>
+      <span class="chip">Lifetime warranty</span>
+      <span class="chip">CertiPUR-US certified</span>
+    </div>
+    <div class="pros-cons">
+      <div class="pros">
+        <h4>Pros</h4>
+        <ul>
+          <li>Best value for medium-firmness thoracic pressure relief</li>
+          <li>Gel foam conforms to posterior rib cage without excessive sinkage</li>
+          <li>365-night trial -- exceptional for the price tier</li>
+          <li>Lifetime warranty</li>
+          <li>Good motion isolation for shared beds</li>
+        </ul>
+      </div>
+      <div class="cons">
+        <h4>Cons</h4>
+        <ul>
+          <li>Memory foam traps more heat than hybrid or latex options</li>
+          <li>Slower response than hybrid -- repositioning requires more effort</li>
+          <li>No zoned pressure relief -- uniform foam layer</li>
+          <li>Not adjustable base compatible</li>
+        </ul>
+      </div>
+    </div>
+    <div class="verdict-box"><strong>Verdict:</strong> The practical choice for budget-constrained costochondritis patients. The medium memory foam provides adequate thoracic pressure distribution for back sleepers, and the 365-night trial is long enough to evaluate it through a full inflammatory cycle. The heat retention and slower repositioning are real drawbacks -- if heat or frequent position changes are concerns, step up to a hybrid.</div>
+    <a href="https://www.amazon.com/s?k=Nectar+Premier+mattress&tag=sleepwiserevi-20" class="cta-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+
+  <!-- Product 7 -->
+  <div class="product-card">
+    <div class="product-rank">
+      <div class="rank-num">7</div>
+      <div class="rank-label">Best with Adjustable Base Compatibility -- Chest Elevation</div>
+    </div>
+    <h2>Saatva Solaire</h2>
+    <p class="product-summary">The Saatva Solaire is an air-chamber adjustable mattress that pairs specifically with adjustable bases. For costochondritis patients, chest elevation of 15-20 degrees on an adjustable base shifts body weight posteriorly away from the thorax, changes the contact angle of the posterior rib cage with the sleep surface, and reduces diaphragmatic effort per breath -- reducing the costal excursion needed for comfortable breathing. The Solaire's firmness is adjustable per side, allowing the costochondritis patient to independently dial in the optimal thoracic pressure while the partner maintains their preferred feel.</p>
+    <div class="spec-chips">
+      <span class="chip">Air Chamber + Foam Hybrid</span>
+      <span class="chip">Firmness: Adjustable 1-100</span>
+      <span class="chip">Height: 13"</span>
+      <span class="chip">365-night trial</span>
+      <span class="chip">Lifetime warranty</span>
+      <span class="chip">Adjustable base optimized</span>
+    </div>
+    <div class="pros-cons">
+      <div class="pros">
+        <h4>Pros</h4>
+        <ul>
+          <li>Chest elevation directly reduces thoracic body weight on sleep surface</li>
+          <li>Adjustable firmness allows tuning as costochondritis severity changes</li>
+          <li>Independent dual-zone for couples with different needs</li>
+          <li>Full adjustable base compatibility -- head and foot elevation</li>
+          <li>365-night trial and lifetime warranty</li>
+        </ul>
+      </div>
+      <div class="cons">
+        <h4>Cons</h4>
+        <ul>
+          <li>Highest price on this list by a significant margin</li>
+          <li>Requires adjustable base -- additional purchase if not already owned</li>
+          <li>Air chamber mechanism adds a failure point over time</li>
+          <li>Foam comfort layer still retains some heat</li>
+        </ul>
+      </div>
+    </div>
+    <div class="verdict-box"><strong>Verdict:</strong> The best system-level solution for costochondritis -- not just a mattress, but a configurable sleep environment. The chest elevation benefit is real and clinically grounded. For patients with severe or chronic costochondritis who can invest in the full system, the ability to dial firmness to inflammatory status and elevate the chest angle is the most therapeutic option on this list.</div>
+    <a href="https://www.amazon.com/s?k=Saatva+Solaire+adjustable+mattress&tag=sleepwiserevi-20" class="cta-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+
+  <!-- Comparison Table 1 -->
+  <h2 id="comparison" style="font-family:sans-serif; color:#fff; margin:2.5rem 0 1rem;">Comparison Table 1: Core Costochondritis Criteria</h2>
+  <table class="comparison-table">
+    <thead>
+      <tr>
+        <th>Mattress</th>
+        <th>Thoracic Pressure Distribution</th>
+        <th>Posterior Rib Relief</th>
+        <th>Lateral Rib Relief</th>
+        <th>Firmness</th>
+        <th>Best Position</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Saatva Classic (Medium)</td>
+        <td class="good">Excellent</td>
+        <td class="good">Excellent</td>
+        <td class="ok">Moderate</td>
+        <td>5.5/10</td>
+        <td>Back</td>
+      </tr>
+      <tr>
+        <td>Helix Midnight Luxe</td>
+        <td class="good">Very Good</td>
+        <td class="good">Good</td>
+        <td class="good">Excellent</td>
+        <td>5/10</td>
+        <td>Side</td>
+      </tr>
+      <tr>
+        <td>Avocado Green</td>
+        <td class="good">Maximum</td>
+        <td class="good">Excellent</td>
+        <td class="good">Good</td>
+        <td>6/10</td>
+        <td>Back / Side</td>
+      </tr>
+      <tr>
+        <td>Casper Wave Hybrid</td>
+        <td class="good">Very Good</td>
+        <td class="good">Very Good</td>
+        <td class="good">Very Good</td>
+        <td>5/10</td>
+        <td>Back / Side</td>
+      </tr>
+      <tr>
+        <td>Purple Restore Hybrid</td>
+        <td class="good">Excellent</td>
+        <td class="good">Excellent</td>
+        <td class="ok">Good</td>
+        <td>5/10</td>
+        <td>Back / Multi</td>
+      </tr>
+      <tr>
+        <td>Nectar Premier</td>
+        <td class="ok">Good</td>
+        <td class="ok">Good</td>
+        <td class="ok">Moderate</td>
+        <td>5/10</td>
+        <td>Back</td>
+      </tr>
+      <tr>
+        <td>Saatva Solaire</td>
+        <td class="good">Adjustable</td>
+        <td class="good">Adjustable</td>
+        <td class="ok">Moderate</td>
+        <td>1-100 adj.</td>
+        <td>Back + Elevated</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- Comparison Table 2 -->
+  <h2 style="font-family:sans-serif; color:#fff; margin:2.5rem 0 1rem;">Comparison Table 2: Practical Factors</h2>
+  <table class="comparison-table">
+    <thead>
+      <tr>
+        <th>Mattress</th>
+        <th>Repositioning Ease</th>
+        <th>Heat Retention</th>
+        <th>Trial Period</th>
+        <th>Adjustable Base</th>
+        <th>Price Tier</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Saatva Classic (Medium)</td>
+        <td class="good">Excellent</td>
+        <td class="good">Low</td>
+        <td>365 nights</td>
+        <td class="good">Yes</td>
+        <td>High</td>
+      </tr>
+      <tr>
+        <td>Helix Midnight Luxe</td>
+        <td class="good">Good</td>
+        <td class="good">Low</td>
+        <td>100 nights</td>
+        <td class="good">Yes</td>
+        <td>Mid-High</td>
+      </tr>
+      <tr>
+        <td>Avocado Green</td>
+        <td class="good">Excellent</td>
+        <td class="good">Very Low</td>
+        <td>365 nights</td>
+        <td class="good">Yes</td>
+        <td>Mid-High</td>
+      </tr>
+      <tr>
+        <td>Casper Wave Hybrid</td>
+        <td class="good">Good</td>
+        <td class="ok">Moderate</td>
+        <td>100 nights</td>
+        <td class="good">Yes</td>
+        <td>Mid-High</td>
+      </tr>
+      <tr>
+        <td>Purple Restore Hybrid</td>
+        <td class="good">Excellent</td>
+        <td class="good">Low</td>
+        <td>100 nights</td>
+        <td class="good">Yes</td>
+        <td>High</td>
+      </tr>
+      <tr>
+        <td>Nectar Premier</td>
+        <td class="ok">Moderate</td>
+        <td class="poor">High</td>
+        <td>365 nights</td>
+        <td class="poor">No</td>
+        <td>Budget-Mid</td>
+      </tr>
+      <tr>
+        <td>Saatva Solaire</td>
+        <td class="good">Good</td>
+        <td class="ok">Moderate</td>
+        <td>365 nights</td>
+        <td class="good">Optimized</td>
+        <td>Premium</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- Sleep Position Guide -->
+  <div class="science-box" style="margin-top:2.5rem;">
+    <h3>Anti-Inflammatory Sleep Position Guide for Costochondritis</h3>
+    <ul>
+      <li><strong>Best: Back sleeping.</strong> Anterior chest wall completely unloaded. Use a thin pillow under the knees to reduce lumbar load and prevent postural compensation that can worsen thoracic mechanics. The mattress must distribute posterior thoracic pressure broadly -- avoid overly firm surfaces.</li>
+      <li><strong>Acceptable: Side sleeping on the unaffected side.</strong> If costochondritis affects the left ribs, sleep on the right side. Use a pillow between the knees and a small support under the waist gap. The upper arm should rest on a pillow at chest height to prevent shoulder internal rotation that loads the anterior rib cage.</li>
+      <li><strong>Avoid: Side sleeping on the affected side.</strong> Direct lateral pressure on the inflamed costochondral junctions. Even with an excellent mattress, this position perpetuates the inflammatory stimulus.</li>
+      <li><strong>Avoid: Prone sleeping.</strong> Entire anterior chest wall compressed against the surface. Absolutely contraindicated for costochondritis.</li>
+      <li><strong>Optional: Elevated back sleeping (15-20 degrees).</strong> Shifts thoracic body weight posteriorly, reduces costal excursion effort, may improve breathing comfort. Requires adjustable base or wedge under the upper torso only -- not a pillow stack, which deflates and creates neck flexion.</li>
+    </ul>
+  </div>
+
+  <!-- FAQ -->
+  <div class="faq-section" id="faq">
+    <h2 style="font-family:sans-serif; color:#fff; margin-bottom:1.5rem;">Frequently Asked Questions</h2>
+    <div class="faq-item">
+      <h3>What is the best sleeping position for costochondritis?</h3>
+      <p>Back sleeping is generally recommended for costochondritis because it distributes posterior thoracic pressure across a wider surface area while completely relieving anterior sternal and costal cartilage pressure. The inflamed costochondral junctions -- most commonly at ribs 2-5 -- bear no direct load when supine. Side sleeping places lateral pressure directly on the costochondral junctions on the dependent side, which can perpetuate inflammation. If side sleeping is unavoidable, sleep on the unaffected side with a pillow between the knees and supporting the upper arm to reduce lateral chest wall loading. Prone (stomach) sleeping is contraindicated -- it compresses the entire anterior chest wall against the mattress and should be avoided entirely.</p>
+    </div>
+    <div class="faq-item">
+      <h3>Is a firm or soft mattress better for costochondritis?</h3>
+      <p>Medium firmness (5-6 out of 10) is optimal for costochondritis. Very firm mattresses create point loading at bony prominences -- the sternum and posterior rib cage when back sleeping -- concentrating pressure on the structures adjacent to inflamed junctions. Very soft mattresses allow the chest wall to sink excessively, which can compress multiple costochondral junctions simultaneously as the thorax settles into the surface. A medium mattress distributes thoracic contact area evenly, reducing peak pressure at any single costochondral junction while maintaining thoracic spine alignment.</p>
+    </div>
+    <div class="faq-item">
+      <h3>How is costochondritis different from Tietze syndrome?</h3>
+      <p>Both conditions involve inflammation at the costochondral junctions, but Tietze syndrome is distinguished by visible or palpable localized swelling at the affected junction -- most commonly at the 2nd or 3rd rib. Costochondritis involves the same inflammatory mechanism but without swelling, typically affects multiple ribs (ribs 2-5), and is more prevalent. For sleep surface selection, Tietze syndrome with active swelling may require even greater sensitivity around the single inflamed junction. Both conditions share the same key differentiator from cardiac chest pain: reproducible pain with palpation of the specific junction, worsening with deep inspiration, and absence of radiation to the jaw or arm.</p>
+    </div>
+    <div class="faq-item">
+      <h3>Can mattress choice speed up costochondritis recovery?</h3>
+      <p>Indirectly, yes. Costochondritis recovery depends on reducing repetitive mechanical stress on the inflamed costochondral junctions to allow cartilage healing. Every sleep cycle -- particularly the rolling and repositioning movements during lighter sleep stages -- loads the chest wall. A mattress that minimizes peak pressure at the costochondral junctions during both static lying and dynamic repositioning reduces the cumulative inflammatory stimulus overnight. This does not replace anti-inflammatory medication or physical therapy, but it removes 6-8 hours of nightly micro-trauma that would otherwise sustain the inflammatory cycle.</p>
+    </div>
+    <div class="faq-item">
+      <h3>Does chest elevation help with costochondritis during sleep?</h3>
+      <p>Mild chest elevation of 15-20 degrees can help some costochondritis patients by reducing thoracic contact pressure on the sleep surface. At a slight elevation, body weight shifts posteriorly toward the pelvis and changes the angle at which the thorax contacts the surface. It also reduces costal excursion effort: at an elevated angle, the diaphragm is in a more mechanically advantageous position and each breath requires less costal expansion against gravity. An adjustable base allows fine-tuning this angle. A firm wedge pillow under the upper torso achieves a similar effect at lower cost -- a standard pillow stack is not adequate because it deflates during sleep and creates neck flexion that causes additional discomfort.</p>
+    </div>
+  </div>
+
+  <!-- Final Verdict -->
+  <div class="final-verdict" id="verdict">
+    <h2>Final Verdict</h2>
+    <p>For back-sleeping costochondritis patients, the <strong>Saatva Classic in Medium</strong> is the top pick. Its dual coil architecture distributes posterior thoracic pressure broadly, the Euro pillow top cushions the posterior rib cage without creating excessive sinkage, and the 365-night trial accommodates the fluctuating inflammatory pattern of this condition.</p>
+    <p>For side sleepers, the <strong>Helix Midnight Luxe</strong> is the clinical choice. The zoned thoracic softness directly reduces lateral costochondral junction loading -- the surface does mechanically what no pillow configuration can: it allows the shoulder to sink while reducing pressure at the rib cage level above it.</p>
+    <p>For the best pressure distribution material regardless of budget, <strong>Avocado Green's natural latex</strong> outperforms foam and most hybrids on thoracic pressure evenness. For combined costochondritis and lower back pain, <strong>Purple Restore Hybrid</strong> addresses both simultaneously. For the full therapeutic system -- adjustable elevation plus tunable firmness -- the <strong>Saatva Solaire</strong> on an adjustable base is the most complete solution.</p>
+    <p>Whatever you choose: use the trial period properly. Costochondritis severity fluctuates with activity, stress, and weather. Give any mattress at least 30 days across varying symptom levels before evaluating it, and test it across both sleep positions -- back and side -- even if you have a preference.</p>
+  </div>
+
+</div>
+
+<section class="related-guides">
+  <div style="max-width:860px;margin:0 auto;">
+    <h2>Related Guides</h2>
+    <ul>
+      <li><a href="best-mattress-rib-fracture-recovery.html">Best Mattress for Rib Fracture Recovery</a></li>
+      <li><a href="best-mattress-back-pain.html">Best Mattress for Back Pain</a></li>
+      <li><a href="best-mattress-fibromyalgia.html">Best Mattress for Fibromyalgia</a></li>
+      <li><a href="best-mattress-asthma.html">Best Mattress for Asthma</a></li>
+      <li><a href="best-mattress-thoracic-spine-pain.html">Best Mattress for Thoracic Spine Pain</a></li>
+    </ul>
+  </div>
+</section>
+
+<footer class="site-footer">
+  <p><a href="/">SleepWise Reviews</a> &mdash; <a href="/posts/">All Articles</a></p>
+  <p style="margin-top:0.5rem;">Affiliate disclosure: We earn a commission on qualifying purchases at no extra cost to you.</p>
+</footer>
+
+</body>
+</html>'''
+
+output_path = os.path.join(os.path.dirname(__file__), "posts", "best-mattress-costochondritis.html")
+os.makedirs(os.path.dirname(output_path), exist_ok=True)
+
+with open(output_path, "w", encoding="utf-8") as f:
+    f.write(html)
+
+size = os.path.getsize(output_path)
+print(f"Written: {output_path}")
+print(f"Size: {size:,} bytes ({size / 1024:.1f} KB)")

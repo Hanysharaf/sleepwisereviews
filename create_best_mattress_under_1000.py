@@ -1,54 +1,59 @@
-"""Generate posts/best-mattress-under-1000.html"""
-
 html = '''<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>7 Best Mattresses Under $1000 (2026) — Ranked by Value and Performance | SleepWise Reviews</title>
-<meta name="description" content="You don't need to spend $2000 for great sleep. We rank the 7 best mattresses under $1000 in 2026 — hybrids, foam, and budget picks tested against premium alternatives.">
+<title>Best Mattress Under $1000 in 2025: 7 Mid-Range Picks Worth Every Dollar</title>
+<meta name="description" content="The $500-$1000 range is the sweet spot for mattress quality. You get hybrid construction, quality foam, and long warranties without premium markup. 7 tested picks ranked.">
+<meta name="robots" content="index, follow">
 <link rel="canonical" href="https://sleepwisereviews.com/posts/best-mattress-under-1000.html">
-<meta property="og:title" content="7 Best Mattresses Under $1000 (2026)">
-<meta property="og:description" content="You don't need to spend $2000 for great sleep. We rank the 7 best mattresses under $1000 in 2026 — hybrids, foam, and budget picks.">
+
+<!-- Open Graph -->
+<meta property="og:title" content="Best Mattress Under $1000 in 2025: 7 Mid-Range Picks Worth Every Dollar">
+<meta property="og:description" content="7 mattresses under $1000 ranked by construction quality, support, durability, and value. The sweet spot of the mattress market.">
 <meta property="og:url" content="https://sleepwisereviews.com/posts/best-mattress-under-1000.html">
 <meta property="og:type" content="article">
-<meta property="og:image" content="https://sleepwisereviews.com/images/og-default.jpg">
+<meta property="og:site_name" content="SleepWise Reviews">
+
+<!-- Twitter Card -->
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="7 Best Mattresses Under $1000 (2026)">
-<meta name="twitter:description" content="You don't need to spend $2000 for great sleep. The 7 best mattresses under $1000 in 2026.">
+<meta name="twitter:title" content="Best Mattress Under $1000 in 2025: 7 Mid-Range Picks">
+<meta name="twitter:description" content="The $500-$1000 range is the mattress sweet spot. 7 picks ranked by construction, support, and value. Hybrid options included.">
+
+<!-- JSON-LD Structured Data -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@graph": [
     {
       "@type": "Article",
-      "headline": "7 Best Mattresses Under $1000 (2026) — Ranked by Value and Performance",
-      "description": "You don't need to spend $2000 for great sleep. We rank the 7 best mattresses under $1000 in 2026 — hybrids, foam, and budget picks.",
+      "headline": "Best Mattress Under $1000 in 2025: 7 Mid-Range Picks Worth Every Dollar",
+      "description": "The $500-$1000 range is where mattress quality jumps significantly. 7 tested picks ranked by construction, support, and value.",
       "url": "https://sleepwisereviews.com/posts/best-mattress-under-1000.html",
-      "datePublished": "2026-05-25",
-      "dateModified": "2026-05-25",
+      "datePublished": "2025-05-01",
+      "dateModified": "2025-05-25",
       "author": {"@type": "Organization", "name": "SleepWise Reviews"},
       "publisher": {"@type": "Organization", "name": "SleepWise Reviews", "url": "https://sleepwisereviews.com"}
     },
     {
       "@type": "BreadcrumbList",
       "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://sleepwisereviews.com"},
-        {"@type": "ListItem", "position": 2, "name": "All Posts", "item": "https://sleepwisereviews.com/posts/index.html"},
-        {"@type": "ListItem", "position": 3, "name": "Best Mattresses Under $1000", "item": "https://sleepwisereviews.com/posts/best-mattress-under-1000.html"}
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://sleepwisereviews.com/"},
+        {"@type": "ListItem", "position": 2, "name": "All Articles", "item": "https://sleepwisereviews.com/posts/"},
+        {"@type": "ListItem", "position": 3, "name": "Best Mattress Under $1000", "item": "https://sleepwisereviews.com/posts/best-mattress-under-1000.html"}
       ]
     },
     {
       "@type": "ItemList",
-      "name": "Best Mattresses Under $1000 2026",
+      "name": "Best Mattresses Under $1000 in 2025",
       "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "DreamCloud Premier Hybrid"},
-        {"@type": "ListItem", "position": 2, "name": "Nectar Premier Memory Foam"},
-        {"@type": "ListItem", "position": 3, "name": "Helix Midnight"},
-        {"@type": "ListItem", "position": 4, "name": "Tuft & Needle Original"},
-        {"@type": "ListItem", "position": 5, "name": "Brooklyn Bedding Signature Hybrid"},
-        {"@type": "ListItem", "position": 6, "name": "Casper Original Foam"},
-        {"@type": "ListItem", "position": 7, "name": "Zinus Green Tea Memory Foam 12-Inch"}
+        {"@type": "ListItem", "position": 1, "name": "Nectar Premier", "url": "https://www.amazon.com/s?k=Nectar+Premier+mattress&tag=sleepwiserevi-20"},
+        {"@type": "ListItem", "position": 2, "name": "Helix Midnight", "url": "https://www.amazon.com/s?k=Helix+Midnight+mattress&tag=sleepwiserevi-20"},
+        {"@type": "ListItem", "position": 3, "name": "DreamCloud Original", "url": "https://www.amazon.com/s?k=DreamCloud+Original+mattress&tag=sleepwiserevi-20"},
+        {"@type": "ListItem", "position": 4, "name": "Casper Original Hybrid", "url": "https://www.amazon.com/s?k=Casper+Original+Hybrid+mattress&tag=sleepwiserevi-20"},
+        {"@type": "ListItem", "position": 5, "name": "Bear Original Hybrid", "url": "https://www.amazon.com/s?k=Bear+Original+Hybrid+mattress&tag=sleepwiserevi-20"},
+        {"@type": "ListItem", "position": 6, "name": "Leesa Original Hybrid", "url": "https://www.amazon.com/s?k=Leesa+Original+Hybrid+mattress&tag=sleepwiserevi-20"},
+        {"@type": "ListItem", "position": 7, "name": "Amerisleep AS3 Hybrid", "url": "https://www.amazon.com/s?k=Amerisleep+AS3+Hybrid+mattress&tag=sleepwiserevi-20"}
       ]
     },
     {
@@ -56,562 +61,585 @@ html = '''<!DOCTYPE html>
       "mainEntity": [
         {
           "@type": "Question",
-          "name": "Is it worth spending $1000 on a mattress?",
-          "acceptedAnswer": {"@type": "Answer", "text": "A $700-1000 budget gets you into genuine hybrid or quality foam construction with multi-year warranties and 100-365 night sleep trials. Below $400, you are typically buying all-foam with compressed coil springs or low-density foam that degrades in 3-5 years. At $1000, brands compete aggressively on value, so this price range has the best quality-to-dollar ratio in the mattress market."}
+          "name": "Is $1000 a good budget for a mattress?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Yes -- $1000 is an excellent mattress budget. At this price point you gain access to hybrid construction (pocketed coils plus quality foam), better foam density, improved temperature regulation, and longer warranties. The jump in quality from $500 to $1000 is significant; the jump from $1000 to $2000 is much smaller in real-world sleep improvement."}
         },
         {
           "@type": "Question",
           "name": "What is the difference between a $500 and $1000 mattress?",
-          "acceptedAnswer": {"@type": "Answer", "text": "At $500, you typically get all-foam construction with 3-5 lb density foam that compresses over 5-7 years. At $1000, you access true pocketed coil hybrids (better airflow, edge support, durability) or high-density foam with 100+ night trials. The $1000 tier also tends to include lifetime or 10+ year warranties and legitimate return policies."}
+          "acceptedAnswer": {"@type": "Answer", "text": "At $1000, you typically get: pocketed coil hybrid construction (vs. foam-only), higher foam density in comfort layers (3.5+ vs. 2.5-3 lb/ft3), better edge support from coil perimeters, improved temperature regulation through coil airflow, and longer warranties (10-15 years vs. lifetime marketing claims from budget brands). The support system is the biggest upgrade -- coils outlast foam bases significantly."}
         },
         {
           "@type": "Question",
-          "name": "Are foam or hybrid mattresses better under $1000?",
-          "acceptedAnswer": {"@type": "Answer", "text": "For side sleepers who run hot: hybrid wins (coils improve airflow by 30-40%). For budget-primary buyers who sleep cool: quality foam (Nectar, Tuft & Needle) delivers excellent pressure relief at lower cost. For couples with different preferences: hybrid's better motion isolation and edge support make it the safer choice under $1000."}
+          "name": "Should I get a hybrid or memory foam under $1000?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Hybrid is the better choice under $1000. Unlike the budget tier where foam wins on value, the $600-$1000 range is where hybrids genuinely outperform foam. The coil support systems at this price are properly engineered -- not the cut-rate coils used in cheap hybrids. You get better cooling, more responsive feel, and superior edge support that foam-only mattresses cannot match."}
         },
         {
           "@type": "Question",
-          "name": "How do I know if a cheap mattress will last?",
-          "acceptedAnswer": {"@type": "Answer", "text": "Key durability indicators: (1) foam density above 3 lb per cubic foot for all-foam, (2) coil gauge 14-17 for hybrids (lower number = thicker coil = more durable), (3) warranty length above 10 years signals manufacturer confidence, (4) sleep trial above 90 nights shows the brand expects the mattress to perform long enough for you to test it properly."}
+          "name": "What brands make the best mattresses under $1000?",
+          "acceptedAnswer": {"@type": "Answer", "text": "The most reliable mid-range mattress brands are: Nectar (best overall value, longest trial), Helix (best for specific sleep profiles), DreamCloud (hybrid at a reasonable price), Bear (best for athletes and active sleepers), Leesa (best for combination sleepers), and Casper (best brand support network). All offer at least 100-night trials and 10-year warranties at this price point."}
         },
         {
           "@type": "Question",
-          "name": "Can I get a good mattress for under $500?",
-          "acceptedAnswer": {"@type": "Answer", "text": "Yes, but with tradeoffs. Tuft & Needle Original and Zinus Green Tea are legitimate options under $600 that outperform their price. Expect all-foam construction, shorter warranties (10 years vs. lifetime), and less edge support than hybrids. For primary sleep surface use, we recommend stretching to $700+ if possible for the DreamCloud or Nectar tier."}
+          "name": "How long should a mattress under $1000 last?",
+          "acceptedAnswer": {"@type": "Answer", "text": "A quality mattress in the $600-$1000 range should last 8-10 years with proper care. Using a mattress protector is the single best way to extend lifespan -- moisture and oils from skin accelerate foam degradation significantly. Rotating the mattress 180 degrees every 6 months (no flipping needed for one-sided mattresses) also distributes wear evenly."}
         }
       ]
     }
   ]
 }
 </script>
+
 <style>
-  :root{--bg:#0a1628;--card:#111e33;--gold:#c9a84c;--text:#e8eaf0;--muted:#8892a4;--radius:12px}
-  *{margin:0;padding:0;box-sizing:border-box}
-  body{background:var(--bg);color:var(--text);font-family:'Segoe UI',sans-serif;line-height:1.7}
-  a{color:var(--gold);text-decoration:none}
-  a:hover{text-decoration:underline}
-  header{background:var(--card);padding:16px 24px;display:flex;justify-content:space-between;align-items:center;border-bottom:1px solid #1e2f4a}
-  header .logo{font-size:1.3rem;font-weight:700;color:var(--gold)}
-  nav a{color:var(--muted);margin-left:20px;font-size:.9rem}
-  .hero{max-width:860px;margin:48px auto 0;padding:0 20px}
-  .hero .badge{display:inline-block;background:#1a2f52;color:var(--gold);font-size:.75rem;font-weight:600;padding:4px 12px;border-radius:20px;letter-spacing:.5px;margin-bottom:14px}
-  h1{font-size:clamp(1.6rem,4vw,2.4rem);font-weight:800;line-height:1.25;margin-bottom:16px}
-  .meta{color:var(--muted);font-size:.875rem;margin-bottom:28px}
-  .intro{font-size:1.05rem;color:#c5cad6;margin-bottom:36px;max-width:720px}
-  .toc{background:var(--card);border:1px solid #1e2f4a;border-radius:var(--radius);padding:22px 28px;margin-bottom:42px;max-width:860px;margin-left:auto;margin-right:auto}
-  .toc h2{font-size:1rem;font-weight:700;color:var(--gold);margin-bottom:12px}
-  .toc ol{padding-left:20px}
-  .toc li{margin-bottom:6px;font-size:.93rem}
-  .section-wrap{max-width:860px;margin:0 auto;padding:0 20px 60px}
-  .product-card{background:var(--card);border:1px solid #1e2f4a;border-radius:var(--radius);padding:30px;margin-bottom:30px;position:relative}
-  .rank-badge{position:absolute;top:20px;right:20px;background:#1a2f52;color:var(--gold);font-size:.8rem;font-weight:700;padding:5px 12px;border-radius:20px}
-  .product-header{display:flex;align-items:flex-start;gap:16px;margin-bottom:18px}
-  .rank-num{font-size:2rem;font-weight:900;color:var(--gold);min-width:44px;line-height:1}
-  .product-info h2{font-size:1.25rem;font-weight:700;margin-bottom:4px}
-  .product-info .tagline{color:var(--gold);font-size:.875rem;font-weight:600}
-  .score-row{display:flex;align-items:center;gap:12px;margin-bottom:18px}
-  .score-num{font-size:1.8rem;font-weight:900;color:var(--gold)}
-  .score-bar{flex:1;height:8px;background:#1a2f52;border-radius:4px;overflow:hidden}
-  .score-fill{height:100%;background:linear-gradient(90deg,#c9a84c,#e8c97a);border-radius:4px}
-  .spec-chips{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:18px}
-  .chip{background:#0f1f38;border:1px solid #2a3f5a;color:#a8b4c8;font-size:.78rem;padding:4px 10px;border-radius:20px}
-  .chip.highlight{background:#1a3055;border-color:var(--gold);color:var(--gold)}
-  .pos-tags{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:16px}
-  .pos-tag{font-size:.75rem;padding:3px 10px;border-radius:12px;font-weight:600}
-  .pos-best{background:#1a3f1a;color:#4caf50;border:1px solid #2a5f2a}
-  .pos-good{background:#1a2f4a;color:#64b5f6;border:1px solid #2a3f6a}
-  .pros-cons{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:18px}
-  .pros,.cons{background:#0d1a2e;border-radius:8px;padding:14px 16px}
-  .pros h4{color:#4caf50;font-size:.85rem;font-weight:700;margin-bottom:8px}
-  .cons h4{color:#ef5350;font-size:.85rem;font-weight:700;margin-bottom:8px}
-  .pros li,.cons li{font-size:.875rem;color:#c5cad6;margin-bottom:5px;padding-left:16px;position:relative;list-style:none}
-  .pros li::before{content:"\\2713";color:#4caf50;position:absolute;left:0}
-  .cons li::before{content:"\\2717";color:#ef5350;position:absolute;left:0}
-  .cta-btn{display:inline-block;background:var(--gold);color:#0a1628;font-weight:700;font-size:.9rem;padding:11px 24px;border-radius:8px;margin-top:6px;transition:opacity .2s}
-  .cta-btn:hover{opacity:.88;text-decoration:none}
-  .science-box{background:#0d1a2e;border-left:3px solid var(--gold);border-radius:0 var(--radius) var(--radius) 0;padding:24px 28px;margin:40px 0}
-  .science-box h3{color:var(--gold);font-size:1rem;font-weight:700;margin-bottom:14px}
-  .science-box p{font-size:.9rem;color:#a8b4c8;margin-bottom:10px}
-  .buying-guide{margin:40px 0}
-  .buying-guide h2{font-size:1.35rem;font-weight:700;color:var(--gold);margin-bottom:18px}
-  .guide-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:16px}
-  .guide-card{background:var(--card);border:1px solid #1e2f4a;border-radius:var(--radius);padding:18px 20px}
-  .guide-card h4{color:var(--gold);font-size:.9rem;font-weight:700;margin-bottom:8px}
-  .guide-card p{font-size:.85rem;color:#a8b4c8}
-  .faq-section{margin:40px 0}
-  .faq-section h2{font-size:1.35rem;font-weight:700;color:var(--gold);margin-bottom:20px}
-  details{background:var(--card);border:1px solid #1e2f4a;border-radius:var(--radius);padding:16px 20px;margin-bottom:12px}
-  summary{font-weight:600;cursor:pointer;font-size:.95rem;list-style:none}
-  summary::marker{display:none}
-  summary::before{content:"+";color:var(--gold);margin-right:10px;font-weight:700}
-  details[open] summary::before{content:"-"}
-  details p{margin-top:12px;font-size:.9rem;color:#a8b4c8}
-  footer{background:var(--card);border-top:1px solid #1e2f4a;text-align:center;padding:28px 20px;color:var(--muted);font-size:.85rem}
-  footer a{color:var(--muted)}
-  .disclaimer{background:#0d1a2e;border:1px solid #1e2f4a;border-radius:8px;padding:14px 18px;font-size:.8rem;color:var(--muted);margin-bottom:32px}
-  .price-tag{display:inline-block;background:#0f2a0f;border:1px solid #2a5a2a;color:#4caf50;font-size:.8rem;font-weight:700;padding:3px 10px;border-radius:12px;margin-bottom:12px}
-  @media(max-width:580px){.pros-cons{grid-template-columns:1fr}.hero{margin-top:28px}}
+  :root {
+    --bg: #0a1628;
+    --card: #111e33;
+    --gold: #c9a84c;
+    --text: #e8eaf0;
+    --muted: #8892a4;
+    --border: #1e2d45;
+    --green: #2ecc71;
+    --red: #e74c3c;
+    --blue: #3498db;
+    --warn: #e67e22;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: var(--bg); color: var(--text); font-family: Georgia, serif; line-height: 1.75; }
+  a { color: var(--gold); }
+  a:hover { opacity: 0.85; }
+
+  .site-header { background: var(--card); border-bottom: 2px solid var(--gold); padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center; }
+  .site-header .logo { font-size: 1.4rem; font-weight: bold; color: var(--gold); text-decoration: none; font-family: sans-serif; }
+  .site-nav a { color: var(--text); text-decoration: none; margin-left: 1.5rem; font-family: sans-serif; font-size: 0.9rem; }
+  .site-nav a:hover { color: var(--gold); }
+
+  .hero { background: linear-gradient(135deg, #0d1f3c 0%, #1a2f50 100%); padding: 3rem 2rem; text-align: center; border-bottom: 1px solid var(--border); }
+  .hero-badge { display: inline-block; background: var(--gold); color: #0a1628; font-size: 0.75rem; font-weight: bold; padding: 0.25rem 0.75rem; border-radius: 20px; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 1rem; font-family: sans-serif; }
+  .hero h1 { font-size: clamp(1.6rem, 4vw, 2.4rem); color: #fff; margin-bottom: 1rem; max-width: 800px; margin-left: auto; margin-right: auto; }
+  .hero .sub { color: var(--muted); font-size: 1rem; max-width: 650px; margin: 0 auto 1.5rem; font-family: sans-serif; }
+  .hero-meta { display: flex; justify-content: center; gap: 2rem; font-family: sans-serif; font-size: 0.85rem; color: var(--muted); flex-wrap: wrap; }
+
+  .container { max-width: 860px; margin: 0 auto; padding: 2rem 1.5rem; }
+
+  .toc { background: var(--card); border: 1px solid var(--border); border-left: 4px solid var(--gold); border-radius: 8px; padding: 1.5rem; margin-bottom: 2rem; }
+  .toc h3 { font-family: sans-serif; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--gold); margin-bottom: 0.75rem; }
+  .toc ol { padding-left: 1.25rem; }
+  .toc li { margin-bottom: 0.35rem; font-family: sans-serif; font-size: 0.9rem; }
+
+  .intro-text { font-size: 1.05rem; margin-bottom: 2rem; }
+  .intro-text p { margin-bottom: 1rem; }
+
+  .upgrade-table { width: 100%; border-collapse: collapse; margin: 2rem 0; font-family: sans-serif; font-size: 0.88rem; }
+  .upgrade-table th { background: #1a2d4a; color: var(--gold); padding: 0.75rem 1rem; text-align: left; border: 1px solid var(--border); }
+  .upgrade-table td { padding: 0.65rem 1rem; border: 1px solid var(--border); color: var(--text); }
+  .upgrade-table tr:nth-child(even) td { background: #0d1828; }
+  .upgrade-table .good { color: var(--green); font-weight: bold; }
+  .upgrade-table .ok { color: #f1c40f; }
+
+  .product-card { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 1.75rem; margin-bottom: 2rem; }
+  .product-rank { display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1rem; }
+  .rank-num { background: var(--gold); color: #0a1628; font-size: 0.8rem; font-weight: bold; width: 28px; height: 28px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-family: sans-serif; flex-shrink: 0; }
+  .rank-label { font-family: sans-serif; font-size: 0.8rem; color: var(--gold); text-transform: uppercase; letter-spacing: 0.05em; }
+  .product-card h2 { font-size: 1.3rem; color: #fff; margin-bottom: 0.5rem; }
+  .product-summary { font-size: 0.95rem; color: var(--muted); margin-bottom: 1rem; font-family: sans-serif; }
+  .price-tag { display: inline-block; background: #1a3a1a; border: 1px solid #2d6040; border-radius: 6px; padding: 0.2rem 0.6rem; font-family: sans-serif; font-size: 0.82rem; color: var(--green); font-weight: bold; margin-bottom: 1rem; }
+
+  .spec-chips { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1.25rem; }
+  .chip { background: #1a2d4a; border: 1px solid var(--border); border-radius: 20px; padding: 0.25rem 0.75rem; font-family: sans-serif; font-size: 0.78rem; color: var(--muted); }
+
+  .pros-cons { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 1.25rem; }
+  .pros, .cons { background: #0d1e35; border-radius: 8px; padding: 1rem; }
+  .pros h4 { color: var(--green); font-family: sans-serif; font-size: 0.85rem; margin-bottom: 0.5rem; }
+  .cons h4 { color: var(--red); font-family: sans-serif; font-size: 0.85rem; margin-bottom: 0.5rem; }
+  .pros ul, .cons ul { padding-left: 1.1rem; font-size: 0.88rem; }
+  .pros li, .cons li { margin-bottom: 0.3rem; }
+
+  .verdict-box { background: linear-gradient(135deg, #1a2d0d, #243d12); border: 1px solid #3a6020; border-radius: 8px; padding: 1rem 1.25rem; margin-bottom: 1rem; font-size: 0.9rem; }
+  .verdict-box strong { color: var(--green); font-family: sans-serif; }
+
+  .cta-btn { display: inline-block; background: var(--gold); color: #0a1628; font-weight: bold; padding: 0.65rem 1.5rem; border-radius: 6px; text-decoration: none; font-family: sans-serif; font-size: 0.9rem; }
+  .cta-btn:hover { opacity: 0.9; color: #0a1628; }
+
+  .comparison-table { width: 100%; border-collapse: collapse; margin: 2rem 0; font-family: sans-serif; font-size: 0.88rem; }
+  .comparison-table th { background: #1a2d4a; color: var(--gold); padding: 0.75rem 1rem; text-align: left; border: 1px solid var(--border); }
+  .comparison-table td { padding: 0.65rem 1rem; border: 1px solid var(--border); color: var(--text); }
+  .comparison-table tr:nth-child(even) td { background: #0d1828; }
+  .comparison-table .good { color: var(--green); font-weight: bold; }
+  .comparison-table .ok { color: #f1c40f; }
+  .comparison-table .poor { color: var(--red); }
+
+  .faq-section { margin-top: 2.5rem; }
+  .faq-item { border-bottom: 1px solid var(--border); padding: 1.25rem 0; }
+  .faq-item h3 { font-family: sans-serif; font-size: 1rem; color: #fff; margin-bottom: 0.6rem; }
+  .faq-item p { font-size: 0.95rem; color: var(--muted); }
+
+  .final-verdict { background: var(--card); border: 2px solid var(--gold); border-radius: 12px; padding: 2rem; margin-top: 2.5rem; }
+  .final-verdict h2 { font-family: sans-serif; font-size: 1.3rem; color: var(--gold); margin-bottom: 1rem; }
+  .final-verdict p { font-size: 0.95rem; margin-bottom: 0.75rem; }
+
+  .site-footer { background: var(--card); border-top: 1px solid var(--border); text-align: center; padding: 2rem; margin-top: 3rem; font-family: sans-serif; font-size: 0.82rem; color: var(--muted); }
+  .site-footer a { color: var(--muted); }
+
+  @media (max-width: 600px) {
+    .pros-cons { grid-template-columns: 1fr; }
+  }
 </style>
 </head>
 <body>
 
-<header>
-  <a class="logo" href="/">SleepWise Reviews</a>
-  <nav>
-    <a href="/">Home</a>
-    <a href="/posts/index.html">All Posts</a>
+<header class="site-header">
+  <a href="/" class="logo">SleepWise Reviews</a>
+  <nav class="site-nav">
+    <a href="/posts/">All Reviews</a>
+    <a href="/posts/#mattresses-bedding">Mattresses</a>
+    <a href="/posts/#budget-guides">Budget</a>
   </nav>
 </header>
 
-<div class="hero">
-  <span class="badge">MATTRESSES &amp; BEDDING</span>
-  <h1>7 Best Mattresses Under $1,000 (2026) &mdash; Ranked by Value and Performance</h1>
-  <p class="meta">May 25, 2026 &bull; 14 min read &bull; By SleepWise Reviews</p>
-  <p class="intro">The $700-1000 price range is where the mattress market gets serious. You cross the threshold from compressed-foam compromise into genuine hybrids with pocketed coils, meaningful warranties, and trials long enough to actually evaluate sleep quality. We rank the 7 best at this tier by how much sleep performance you get per dollar.</p>
-</div>
+<section class="hero">
+  <div class="hero-badge">Budget Guide</div>
+  <h1>Best Mattress Under $1000 in 2025: 7 Mid-Range Picks Worth Every Dollar</h1>
+  <p class="sub">The $500-$1000 range is the mattress sweet spot. You gain hybrid construction, quality foam density, and proper warranties without the premium markup of luxury brands. 7 picks ranked.</p>
+  <div class="hero-meta">
+    <span>7 Products Reviewed</span>
+    <span>Updated May 2025</span>
+    <span>Budget Guide</span>
+  </div>
+</section>
 
-<div class="toc">
-  <h2>Quick Navigation</h2>
-  <ol>
-    <li><a href="#dreamcloud">DreamCloud Premier &mdash; Best Overall</a></li>
-    <li><a href="#nectar">Nectar Premier Memory Foam &mdash; Best Foam</a></li>
-    <li><a href="#helix">Helix Midnight &mdash; Best Hybrid for Side Sleepers</a></li>
-    <li><a href="#tn">Tuft &amp; Needle Original &mdash; Best Budget Pick</a></li>
-    <li><a href="#brooklyn">Brooklyn Bedding Signature Hybrid &mdash; Best Value Hybrid</a></li>
-    <li><a href="#casper">Casper Original &mdash; Best Brand-Name Value</a></li>
-    <li><a href="#zinus">Zinus Green Tea 12-Inch &mdash; Best Ultra-Budget</a></li>
-    <li><a href="#science">What Features Actually Matter at This Price</a></li>
-    <li><a href="#guide">Buying Guide</a></li>
-    <li><a href="#faq">FAQ</a></li>
-  </ol>
-</div>
+<div class="container">
 
-<div class="section-wrap">
+  <nav class="toc">
+    <h3>Quick Navigation</h3>
+    <ol>
+      <li><a href="#intro">Why $500-$1000 Is the Sweet Spot</a></li>
+      <li><a href="#what-changes">What Upgrades at This Price</a></li>
+      <li><a href="#picks">The 7 Best Mattresses Under $1000</a></li>
+      <li><a href="#comparison">Quick Comparison</a></li>
+      <li><a href="#faq">FAQ</a></li>
+      <li><a href="#verdict">Final Verdict</a></li>
+    </ol>
+  </nav>
 
-  <div class="disclaimer">
-    <strong>Affiliate disclosure:</strong> SleepWise Reviews earns from qualifying Amazon purchases. All rankings are based on independent analysis. Prices fluctuate with sales &mdash; check Amazon for current pricing.
+  <div class="intro-text" id="intro">
+    <p>The $500-$1000 mattress range is where quality takes a meaningful leap. Below $500, you are buying foam-only construction with modest foam density. At $1000, you access real hybrid systems -- pocketed coils with quality foam comfort layers -- that deliver noticeably better support, cooling, and durability.</p>
+    <p>The jump from $1000 to $2000 is much smaller in real-world sleep improvement. Most of the quality benefit curve flattens out below $1000. This is the range where the price-to-performance ratio peaks for most sleepers.</p>
+    <p>We evaluated seven mattresses priced under $1000 (queen, regular pricing) for support quality, foam construction, temperature regulation, edge support, motion isolation, and warranty terms. All prices reflect standard pricing -- sales and coupons can reduce these by 15-30%.</p>
   </div>
 
-  <!-- PRODUCT 1 -->
-  <div class="product-card" id="dreamcloud">
-    <span class="rank-badge">Best Overall</span>
-    <div class="product-header">
+  <h2 id="what-changes" style="font-family:sans-serif; color:#fff; margin-bottom:1rem;">What Upgrades in the $500-$1000 Range</h2>
+  <table class="upgrade-table">
+    <thead>
+      <tr><th>Feature</th><th>Under $500</th><th>$500-$1000</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Construction</td><td>Foam only</td><td class="good">Hybrid (coils + foam)</td></tr>
+      <tr><td>Foam density</td><td>2.5-3 lb/ft3</td><td class="good">3.5-4.5 lb/ft3</td></tr>
+      <tr><td>Temperature</td><td>Warm (foam traps heat)</td><td class="good">Cool (coil airflow)</td></tr>
+      <tr><td>Edge support</td><td>Weak (no coil perimeter)</td><td class="good">Strong (encased coils)</td></tr>
+      <tr><td>Motion isolation</td><td>Good (foam)</td><td class="good">Very good (pocketed coils)</td></tr>
+      <tr><td>Expected lifespan</td><td>5-7 years</td><td class="good">8-10 years</td></tr>
+    </tbody>
+  </table>
+
+  <h2 id="picks" style="font-family:sans-serif; color:#fff; margin:2rem 0 1.5rem;">The 7 Best Mattresses Under $1000</h2>
+
+  <!-- Product 1 -->
+  <div class="product-card">
+    <div class="product-rank">
       <div class="rank-num">1</div>
-      <div class="product-info">
-        <h2>DreamCloud Premier Hybrid</h2>
-        <span class="tagline">Luxury hybrid quality at budget-tier price</span>
-      </div>
+      <div class="rank-label">Best Overall Under $1000</div>
     </div>
-    <div class="score-row">
-      <span class="score-num">9.4</span>
-      <div class="score-bar"><div class="score-fill" style="width:94%"></div></div>
-      <span style="color:var(--muted);font-size:.85rem">/ 10</span>
-    </div>
-    <span class="price-tag">Typically $700-900 Queen (with sales)</span>
+    <h2>Nectar Premier</h2>
+    <div class="price-tag">Queen approx. $699-$849</div>
+    <p class="product-summary">The Premier version of Nectar adds a thicker gel foam comfort layer and a quilted cover upgrade over the original. Same 365-night trial and lifetime warranty, with meaningfully better pressure relief and cooling.</p>
     <div class="spec-chips">
-      <span class="chip highlight">Pocketed Coils</span>
-      <span class="chip">15-Inch Profile</span>
-      <span class="chip">Medium-Firm (6.5/10)</span>
-      <span class="chip">365-Night Trial</span>
-      <span class="chip">Lifetime Warranty</span>
+      <span class="chip">Foam</span>
+      <span class="chip">Firmness: 6/10</span>
+      <span class="chip">Height: 12"</span>
+      <span class="chip">365-night trial</span>
+      <span class="chip">Lifetime warranty</span>
+      <span class="chip">Gel foam cooling</span>
     </div>
-    <div class="pos-tags">
-      <span class="pos-tag pos-best">Best: Back Sleepers</span>
-      <span class="pos-tag pos-best">Best: Combo Sleepers</span>
-      <span class="pos-tag pos-good">Good: Side Sleepers</span>
-    </div>
-    <p style="font-size:.9rem;color:#a8b4c8;margin-bottom:16px">DreamCloud Premier punches far above its price point with a genuine pocketed coil hybrid, cashmere blend cover, and gel memory foam comfort layer stacked to 15 inches. At medium-firm (6.5/10), it suits the widest range of sleeper types. The 365-night trial is generous enough to evaluate across seasons, and the lifetime warranty signals long-term durability confidence. Regularly discounted to $700-900 for a queen &mdash; at that price, no competitor matches its construction quality.</p>
     <div class="pros-cons">
       <div class="pros">
-        <h4>PROS</h4>
+        <h4>Pros</h4>
         <ul>
-          <li>Lifetime warranty at this price point is extraordinary</li>
-          <li>365-night trial &mdash; longest in this tier</li>
-          <li>15-inch profile with genuine pocketed coils</li>
-          <li>Cashmere blend cover adds real luxury feel</li>
+          <li>365-night trial -- longest in this price range</li>
+          <li>Lifetime warranty -- exceptional value</li>
+          <li>Thick gel foam manages temperature well</li>
+          <li>Better pressure relief than Nectar Original</li>
+          <li>Quilted cover adds surface softness</li>
         </ul>
       </div>
       <div class="cons">
-        <h4>CONS</h4>
+        <h4>Cons</h4>
         <ul>
-          <li>Edge support less firm than premium brands</li>
-          <li>Full price can exceed $1000 without a sale</li>
-          <li>Motion isolation not as refined as all-foam</li>
+          <li>Foam only -- less cooling than a hybrid</li>
+          <li>Medium-firm may be too firm for strict side sleepers</li>
+          <li>Heavy -- difficult to move</li>
         </ul>
       </div>
     </div>
-    <a href="https://www.amazon.com/s?k=DreamCloud+Premier+Hybrid+Mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank" class="cta-btn">Check Price on Amazon</a>
+    <div class="verdict-box"><strong>Verdict:</strong> Best value under $1000. The 365-night trial and lifetime warranty are unmatched at this price. If you are willing to forgo hybrid construction for the most generous buying terms in the market, Nectar Premier delivers exceptional long-term value.</div>
+    <a href="https://www.amazon.com/s?k=Nectar+Premier+mattress&tag=sleepwiserevi-20" class="cta-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
   </div>
 
-  <!-- PRODUCT 2 -->
-  <div class="product-card" id="nectar">
-    <span class="rank-badge">Best Foam</span>
-    <div class="product-header">
+  <!-- Product 2 -->
+  <div class="product-card">
+    <div class="product-rank">
       <div class="rank-num">2</div>
-      <div class="product-info">
-        <h2>Nectar Premier Memory Foam</h2>
-        <span class="tagline">Maximum pressure relief with 365-night assurance</span>
-      </div>
+      <div class="rank-label">Best Hybrid Under $1000</div>
     </div>
-    <div class="score-row">
-      <span class="score-num">9.1</span>
-      <div class="score-bar"><div class="score-fill" style="width:91%"></div></div>
-      <span style="color:var(--muted);font-size:.85rem">/ 10</span>
-    </div>
-    <span class="price-tag">Typically $750-950 Queen</span>
+    <h2>Helix Midnight</h2>
+    <div class="price-tag">Queen approx. $749-$899</div>
+    <p class="product-summary">A purpose-built hybrid for side sleepers. Pocketed coils with a memory foam comfort layer, zoned support that is softer under shoulders and firmer under hips. One of the most consistently recommended mattresses in this price range.</p>
     <div class="spec-chips">
-      <span class="chip highlight">Gel Memory Foam</span>
-      <span class="chip">12-Inch Profile</span>
-      <span class="chip">Medium-Firm (5.5/10)</span>
-      <span class="chip">365-Night Trial</span>
-      <span class="chip">Forever Warranty</span>
+      <span class="chip">Hybrid</span>
+      <span class="chip">Firmness: 5.5/10</span>
+      <span class="chip">Height: 12"</span>
+      <span class="chip">100-night trial</span>
+      <span class="chip">10-year warranty</span>
+      <span class="chip">Zoned support</span>
     </div>
-    <div class="pos-tags">
-      <span class="pos-tag pos-best">Best: Side Sleepers</span>
-      <span class="pos-tag pos-best">Best: Pressure Relief</span>
-      <span class="pos-tag pos-good">Good: Back Sleepers</span>
-    </div>
-    <p style="font-size:.9rem;color:#a8b4c8;margin-bottom:16px">Nectar Premier delivers the most pressure-relieving experience in the under-$1000 all-foam category. Multiple gel foam layers prevent the heat retention typical of memory foam while maintaining the deep contouring that side sleepers need for shoulder and hip pressure. The "forever warranty" &mdash; genuinely prorated correctly &mdash; is among the most consumer-favorable policies in the mattress industry. At medium-firm (5.5/10), it accommodates most body types up to 230 lbs.</p>
     <div class="pros-cons">
       <div class="pros">
-        <h4>PROS</h4>
+        <h4>Pros</h4>
         <ul>
-          <li>Forever warranty &mdash; best warranty in the category</li>
-          <li>365-night trial matches DreamCloud's generosity</li>
-          <li>Excellent pressure relief for side and back sleepers</li>
-          <li>Gel foam keeps surface cooler than standard memory foam</li>
+          <li>Pocketed coils -- better cooling than foam-only</li>
+          <li>Zoned coils differentiate shoulder and hip support</li>
+          <li>Strong edge support from coil perimeter</li>
+          <li>Good motion isolation for couples</li>
+          <li>Well-reviewed across all body types</li>
         </ul>
       </div>
       <div class="cons">
-        <h4>CONS</h4>
+        <h4>Cons</h4>
         <ul>
-          <li>All-foam lacks coil airflow &mdash; warm climates may prefer hybrid</li>
-          <li>Less edge support than pocketed-coil options</li>
-          <li>Heavy sleepers (230+ lbs) may prefer firmer hybrid</li>
+          <li>100-night trial shorter than Nectar</li>
+          <li>10-year warranty (no lifetime option)</li>
+          <li>Less pressure relief than thicker foam options for heavy side sleepers</li>
         </ul>
       </div>
     </div>
-    <a href="https://www.amazon.com/s?k=Nectar+Premier+Memory+Foam+Mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank" class="cta-btn">Check Price on Amazon</a>
+    <div class="verdict-box"><strong>Verdict:</strong> Best hybrid construction under $1000. The pocketed coil system delivers cooling and support that foam cannot match at this price. Zoned support makes this the best under-$1000 pick for side sleepers specifically. If hybrid construction is your priority, this is your mattress.</div>
+    <a href="https://www.amazon.com/s?k=Helix+Midnight+mattress&tag=sleepwiserevi-20" class="cta-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
   </div>
 
-  <!-- PRODUCT 3 -->
-  <div class="product-card" id="helix">
-    <span class="rank-badge">Best Hybrid / Side Sleepers</span>
-    <div class="product-header">
+  <!-- Product 3 -->
+  <div class="product-card">
+    <div class="product-rank">
       <div class="rank-num">3</div>
-      <div class="product-info">
-        <h2>Helix Midnight Hybrid</h2>
-        <span class="tagline">6-zone zoned coils engineered for side sleepers</span>
-      </div>
+      <div class="rank-label">Best Luxury Feel Under $1000</div>
     </div>
-    <div class="score-row">
-      <span class="score-num">8.8</span>
-      <div class="score-bar"><div class="score-fill" style="width:88%"></div></div>
-      <span style="color:var(--muted);font-size:.85rem">/ 10</span>
-    </div>
-    <span class="price-tag">Typically $800-1000 Queen</span>
+    <h2>DreamCloud Original</h2>
+    <div class="price-tag">Queen approx. $799-$999</div>
+    <p class="product-summary">DreamCloud packs a cashmere blend cover, gel-infused foam, and a pocketed coil system into a 14-inch profile at sub-$1000 pricing. It hits a luxury feel without the luxury price tag.</p>
     <div class="spec-chips">
-      <span class="chip highlight">6-Zone Pocketed Coils</span>
-      <span class="chip">Medium (5-6/10)</span>
-      <span class="chip">100-Night Trial</span>
-      <span class="chip">10-Year Warranty</span>
-      <span class="chip">Micro Coils Comfort Layer</span>
+      <span class="chip">Hybrid</span>
+      <span class="chip">Firmness: 6.5/10 (Med-Firm)</span>
+      <span class="chip">Height: 14"</span>
+      <span class="chip">365-night trial</span>
+      <span class="chip">Lifetime warranty</span>
+      <span class="chip">Cashmere cover</span>
     </div>
-    <div class="pos-tags">
-      <span class="pos-tag pos-best">Best: Side Sleepers</span>
-      <span class="pos-tag pos-best">Best: Couples</span>
-      <span class="pos-tag pos-good">Good: Combo Sleepers</span>
-    </div>
-    <p style="font-size:.9rem;color:#a8b4c8;margin-bottom:16px">Helix Midnight is the most targeted hybrid in the under-$1000 category &mdash; its 6-zone coil configuration is specifically calibrated for side sleepers with softer shoulders, firmer hips, and medium-feel throughout. A micro coil transitional layer above the pocketed base adds contouring without foam heat. Excellent motion isolation and responsive edge support make it the top pick for couples sharing a queen. Helix offers a free 100-night trial with pickup if you're not satisfied.</p>
     <div class="pros-cons">
       <div class="pros">
-        <h4>PROS</h4>
+        <h4>Pros</h4>
         <ul>
-          <li>6-zone zoning is the best side-sleeper engineering at this price</li>
-          <li>Micro coil comfort layer runs cooler than foam alternatives</li>
-          <li>Superior motion isolation for couples</li>
-          <li>Good edge support for mattress-edge sitting</li>
+          <li>365-night trial matches Nectar</li>
+          <li>Cashmere blend cover -- premium feel</li>
+          <li>Hybrid construction with good cooling</li>
+          <li>14" profile -- substantial build quality</li>
+          <li>Lifetime warranty</li>
         </ul>
       </div>
       <div class="cons">
-        <h4>CONS</h4>
+        <h4>Cons</h4>
         <ul>
-          <li>100-night trial shorter than DreamCloud or Nectar</li>
-          <li>Occasional price spikes above $1000 without discount</li>
-          <li>Firm variant (Helix Dawn) better for stomach sleepers</li>
+          <li>Medium-firm (6.5) -- may be too firm for side sleepers</li>
+          <li>Heavier than average at 14"</li>
+          <li>Price can push toward $1000 ceiling</li>
         </ul>
       </div>
     </div>
-    <a href="https://www.amazon.com/s?k=Helix+Midnight+Hybrid+Mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank" class="cta-btn">Check Price on Amazon</a>
+    <div class="verdict-box"><strong>Verdict:</strong> Best luxury feel under $1000. The cashmere cover and 14-inch profile give this mattress a presence that justifies the higher end of its price range. Best for back sleepers and couples who want a premium feel without the $1500+ price of true luxury brands.</div>
+    <a href="https://www.amazon.com/s?k=DreamCloud+Original+mattress&tag=sleepwiserevi-20" class="cta-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
   </div>
 
-  <!-- PRODUCT 4 -->
-  <div class="product-card" id="tn">
-    <span class="rank-badge">Best Budget Pick</span>
-    <div class="product-header">
+  <!-- Product 4 -->
+  <div class="product-card">
+    <div class="product-rank">
       <div class="rank-num">4</div>
-      <div class="product-info">
-        <h2>Tuft &amp; Needle Original</h2>
-        <span class="tagline">Adaptive foam engineering at an honest price</span>
-      </div>
+      <div class="rank-label">Best All-Rounder Under $1000</div>
     </div>
-    <div class="score-row">
-      <span class="score-num">8.5</span>
-      <div class="score-bar"><div class="score-fill" style="width:85%"></div></div>
-      <span style="color:var(--muted);font-size:.85rem">/ 10</span>
-    </div>
-    <span class="price-tag">Typically $450-700 Queen</span>
+    <h2>Casper Original Hybrid</h2>
+    <div class="price-tag">Queen approx. $795-$995</div>
+    <p class="product-summary">The hybrid upgrade to the Casper Original adds pocketed coils below the foam comfort layers. The zoned support now includes both ergonomic foam zones AND zoned coils -- double the position-specific support engineering.</p>
     <div class="spec-chips">
-      <span class="chip highlight">Adaptive Foam</span>
-      <span class="chip">10-Inch Profile</span>
-      <span class="chip">Medium (5/10)</span>
-      <span class="chip">100-Night Trial</span>
-      <span class="chip">10-Year Warranty</span>
+      <span class="chip">Hybrid</span>
+      <span class="chip">Firmness: 5/10</span>
+      <span class="chip">Height: 12"</span>
+      <span class="chip">100-night trial</span>
+      <span class="chip">10-year warranty</span>
+      <span class="chip">Dual-zone engineering</span>
     </div>
-    <div class="pos-tags">
-      <span class="pos-tag pos-best">Best: Back Sleepers</span>
-      <span class="pos-tag pos-good">Good: Combo Sleepers</span>
-      <span class="pos-tag pos-good">Good: Side Sleepers</span>
-    </div>
-    <p style="font-size:.9rem;color:#a8b4c8;margin-bottom:16px">Tuft &amp; Needle invented the "direct-to-consumer mattress" category in 2012 and their Original remains the best value all-foam mattress you can buy. The proprietary adaptive foam is graphite- and ceramic-infused to dissipate heat, and the no-pressure-point design prevents the "stuck in quicksand" feel of traditional memory foam. At $450-700 for a queen, it leaves significant budget for quality bedding. The right choice for guest rooms, student housing, or first apartments where budget is the primary constraint.</p>
     <div class="pros-cons">
       <div class="pros">
-        <h4>PROS</h4>
+        <h4>Pros</h4>
         <ul>
-          <li>Best sleep-per-dollar ratio in the category</li>
-          <li>Responsive adaptive foam avoids memory foam heat trap</li>
-          <li>Backed by Serta Simmons &mdash; company stability assured</li>
-          <li>Simple 100-night trial with no-hassle returns</li>
+          <li>Zoned foam AND zoned coils -- comprehensive position support</li>
+          <li>True medium feel works for all sleep positions</li>
+          <li>Good cooling from coil airflow</li>
+          <li>Casper's customer support is exceptional</li>
         </ul>
       </div>
       <div class="cons">
-        <h4>CONS</h4>
+        <h4>Cons</h4>
         <ul>
-          <li>10-inch profile feels thin compared to hybrid competitors</li>
-          <li>Edge support weaker than pocketed-coil options</li>
-          <li>Not ideal for heavy sleepers (250+ lbs) long-term</li>
+          <li>100-night trial -- shortest among top picks</li>
+          <li>Premium-priced for 10-year warranty only</li>
+          <li>Medium feel -- not best for strict side sleepers needing softer</li>
         </ul>
       </div>
     </div>
-    <a href="https://www.amazon.com/s?k=Tuft+%26+Needle+Original+Mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank" class="cta-btn">Check Price on Amazon</a>
+    <div class="verdict-box"><strong>Verdict:</strong> Best for combination sleepers who change positions throughout the night. The dual-zone engineering (foam zones + coil zones) provides the broadest position support in this price range. Casper's customer support and established return process reduce buying risk.</div>
+    <a href="https://www.amazon.com/s?k=Casper+Original+Hybrid+mattress&tag=sleepwiserevi-20" class="cta-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
   </div>
 
-  <!-- PRODUCT 5 -->
-  <div class="product-card" id="brooklyn">
-    <span class="rank-badge">Best Value Hybrid</span>
-    <div class="product-header">
+  <!-- Product 5 -->
+  <div class="product-card">
+    <div class="product-rank">
       <div class="rank-num">5</div>
-      <div class="product-info">
-        <h2>Brooklyn Bedding Signature Hybrid</h2>
-        <span class="tagline">USA-made, three firmness options, quilted top</span>
-      </div>
+      <div class="rank-label">Best for Athletes Under $1000</div>
     </div>
-    <div class="score-row">
-      <span class="score-num">8.3</span>
-      <div class="score-bar"><div class="score-fill" style="width:83%"></div></div>
-      <span style="color:var(--muted);font-size:.85rem">/ 10</span>
-    </div>
-    <span class="price-tag">Typically $750-900 Queen</span>
+    <h2>Bear Original Hybrid</h2>
+    <div class="price-tag">Queen approx. $699-$849</div>
+    <p class="product-summary">Bear uses Celliant-infused fabric that converts body heat to infrared energy, claimed to improve circulation and recovery. Backed by clinical research. The hybrid construction adds responsive coil support for active sleepers who move frequently.</p>
     <div class="spec-chips">
-      <span class="chip highlight">Pocketed Coils</span>
-      <span class="chip">3 Firmness Options</span>
-      <span class="chip">Quilted Cover</span>
-      <span class="chip">120-Night Trial</span>
-      <span class="chip">10-Year Warranty</span>
-      <span class="chip">Made in USA</span>
+      <span class="chip">Hybrid + Celliant</span>
+      <span class="chip">Firmness: 6/10</span>
+      <span class="chip">Height: 14"</span>
+      <span class="chip">120-night trial</span>
+      <span class="chip">Lifetime warranty</span>
+      <span class="chip">Recovery-focused</span>
     </div>
-    <div class="pos-tags">
-      <span class="pos-tag pos-best">Best: Customizable Firmness</span>
-      <span class="pos-tag pos-good">Good: All Positions</span>
-    </div>
-    <p style="font-size:.9rem;color:#a8b4c8;margin-bottom:16px">Brooklyn Bedding manufactures its own mattresses in Arizona, eliminating the middleman and passing cost savings to buyers. The Signature Hybrid comes in soft, medium, and firm &mdash; a three-way option at the under-$1000 price point that most competitors don't offer. The quilted foam pillow top adds surface softness without sacrificing the coil support underneath. At 120 nights, the trial is longer than Helix and gives you meaningful seasonal evaluation time.</p>
     <div class="pros-cons">
       <div class="pros">
-        <h4>PROS</h4>
+        <h4>Pros</h4>
         <ul>
-          <li>Three firmness options &mdash; most flexible at this price</li>
-          <li>Made in USA &mdash; domestic manufacturing quality control</li>
-          <li>120-night trial is above average for hybrids</li>
-          <li>Quilted cover adds surface comfort without heat</li>
+          <li>Celliant cover -- clinically studied recovery benefits</li>
+          <li>Lifetime warranty at competitive price</li>
+          <li>Hybrid cooling for hot-sleeping athletes</li>
+          <li>14" profile with substantial support</li>
+          <li>120-night trial -- reasonable assessment period</li>
         </ul>
       </div>
       <div class="cons">
-        <h4>CONS</h4>
+        <h4>Cons</h4>
         <ul>
-          <li>Less brand recognition makes resale harder</li>
-          <li>Motion isolation adequate but not best in class</li>
-          <li>Online-only &mdash; no showroom testing option</li>
+          <li>Medium-firm may not suit strict side sleepers</li>
+          <li>Celliant benefits require consistent nightly use</li>
+          <li>Less known than Helix or Casper</li>
         </ul>
       </div>
     </div>
-    <a href="https://www.amazon.com/s?k=Brooklyn+Bedding+Signature+Hybrid+Mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank" class="cta-btn">Check Price on Amazon</a>
+    <div class="verdict-box"><strong>Verdict:</strong> Best for athletes and active sleepers. The Celliant technology is backed by peer-reviewed research -- not marketing fluff. If recovery is a priority (gym, running, physical work), Bear is the only mattress in this range that directly addresses overnight muscle recovery.</div>
+    <a href="https://www.amazon.com/s?k=Bear+Original+Hybrid+mattress&tag=sleepwiserevi-20" class="cta-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
   </div>
 
-  <!-- PRODUCT 6 -->
-  <div class="product-card" id="casper">
-    <span class="rank-badge">Best Brand-Name Value</span>
-    <div class="product-header">
+  <!-- Product 6 -->
+  <div class="product-card">
+    <div class="product-rank">
       <div class="rank-num">6</div>
-      <div class="product-info">
-        <h2>Casper Original Foam Mattress</h2>
-        <span class="tagline">Zoned support, trusted name, 100-night trial</span>
-      </div>
+      <div class="rank-label">Best for Couples Under $1000</div>
     </div>
-    <div class="score-row">
-      <span class="score-num">7.6</span>
-      <div class="score-bar"><div class="score-fill" style="width:76%"></div></div>
-      <span style="color:var(--muted);font-size:.85rem">/ 10</span>
-    </div>
-    <span class="price-tag">Typically $700-900 Queen</span>
+    <h2>Leesa Original Hybrid</h2>
+    <div class="price-tag">Queen approx. $799-$949</div>
+    <p class="product-summary">Six foam and coil layers with emphasis on motion isolation. Pocket springs minimize partner disturbance more effectively than many competitors in this price range, making this the standout pick for couples with different sleep schedules.</p>
     <div class="spec-chips">
-      <span class="chip highlight">Zoned Foam Support</span>
-      <span class="chip">4 Foam Layers</span>
-      <span class="chip">Medium (5/10)</span>
-      <span class="chip">100-Night Trial</span>
-      <span class="chip">10-Year Warranty</span>
+      <span class="chip">Hybrid</span>
+      <span class="chip">Firmness: 5.5/10</span>
+      <span class="chip">Height: 12"</span>
+      <span class="chip">100-night trial</span>
+      <span class="chip">10-year warranty</span>
+      <span class="chip">Motion isolation focus</span>
     </div>
-    <div class="pos-tags">
-      <span class="pos-tag pos-best">Best: Light-Medium Sleepers</span>
-      <span class="pos-tag pos-good">Good: Side Sleepers</span>
-      <span class="pos-tag pos-good">Good: Back Sleepers</span>
-    </div>
-    <p style="font-size:.9rem;color:#a8b4c8;margin-bottom:16px">Casper is the mattress brand most people know, which has real practical value: strong customer service reputation, established return process, and widespread retail presence for in-store testing. The Original's 4-foam-layer construction includes a zoned base that differentiates lumbar support from shoulder softness. It sits ranked lower than competitors not because of poor quality but because DreamCloud, Nectar, and Helix deliver more construction at similar prices. Best for buyers who value brand trust and in-store availability.</p>
     <div class="pros-cons">
       <div class="pros">
-        <h4>PROS</h4>
+        <h4>Pros</h4>
         <ul>
-          <li>Most recognized brand &mdash; strong customer service infrastructure</li>
-          <li>Available in retail stores for pre-purchase testing</li>
-          <li>Zoned base improves spinal alignment vs. uniform foam</li>
-          <li>Consistent quality control across production runs</li>
+          <li>Excellent motion isolation from individually wrapped coils</li>
+          <li>Good pressure relief for both side and back sleeping</li>
+          <li>Donates 1 mattress for every 10 sold (social mission)</li>
+          <li>Responsive -- good repositioning ease</li>
         </ul>
       </div>
       <div class="cons">
-        <h4>CONS</h4>
+        <h4>Cons</h4>
         <ul>
-          <li>Competitors offer more construction at same price</li>
-          <li>No coil layer &mdash; warmer and less bouncy than hybrids</li>
-          <li>100-night trial shorter than DreamCloud/Nectar's 365 nights</li>
+          <li>100-night trial only</li>
+          <li>10-year warranty (no lifetime option)</li>
+          <li>Slightly less cooling than Bear or DreamCloud</li>
         </ul>
       </div>
     </div>
-    <a href="https://www.amazon.com/s?k=Casper+Original+Foam+Mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank" class="cta-btn">Check Price on Amazon</a>
+    <div class="verdict-box"><strong>Verdict:</strong> Best for couples under $1000. The motion isolation from individually wrapped coils is among the best in this price range -- one partner can get up at 3am without waking the other. Strong choice when sleep schedule differences are a concern.</div>
+    <a href="https://www.amazon.com/s?k=Leesa+Original+Hybrid+mattress&tag=sleepwiserevi-20" class="cta-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
   </div>
 
-  <!-- PRODUCT 7 -->
-  <div class="product-card" id="zinus">
-    <span class="rank-badge">Best Ultra-Budget</span>
-    <div class="product-header">
+  <!-- Product 7 -->
+  <div class="product-card">
+    <div class="product-rank">
       <div class="rank-num">7</div>
-      <div class="product-info">
-        <h2>Zinus Green Tea Memory Foam 12-Inch</h2>
-        <span class="tagline">Remarkable sleep at a remarkable price</span>
-      </div>
+      <div class="rank-label">Best Warranty Under $1000</div>
     </div>
-    <div class="score-row">
-      <span class="score-num">7.2</span>
-      <div class="score-bar"><div class="score-fill" style="width:72%"></div></div>
-      <span style="color:var(--muted);font-size:.85rem">/ 10</span>
-    </div>
-    <span class="price-tag">Typically $250-400 Queen</span>
+    <h2>Amerisleep AS3 Hybrid</h2>
+    <div class="price-tag">Queen approx. $849-$999</div>
+    <p class="product-summary">The hybrid version of Amerisleep's best-selling AS3 adds pocketed coils to the Bio-Pur foam comfort layer. The 20-year warranty on a hybrid mattress is exceptionally rare and reflects genuine confidence in construction quality.</p>
     <div class="spec-chips">
-      <span class="chip highlight">Green Tea Memory Foam</span>
-      <span class="chip">12-Inch Profile</span>
-      <span class="chip">Medium (5/10)</span>
-      <span class="chip">100-Night Trial</span>
-      <span class="chip">10-Year Warranty</span>
-      <span class="chip">CertiPUR-US Foam</span>
+      <span class="chip">Hybrid</span>
+      <span class="chip">Firmness: 5/10</span>
+      <span class="chip">Height: 12"</span>
+      <span class="chip">100-night trial</span>
+      <span class="chip">20-year warranty</span>
+      <span class="chip">Bio-Pur foam</span>
     </div>
-    <div class="pos-tags">
-      <span class="pos-tag pos-best">Best: Guest Rooms</span>
-      <span class="pos-tag pos-best">Best: Student/Apartment</span>
-      <span class="pos-tag pos-good">Good: Lighter Sleepers</span>
-    </div>
-    <p style="font-size:.9rem;color:#a8b4c8;margin-bottom:16px">Zinus Green Tea is the most-reviewed mattress on Amazon for a reason: it delivers genuine memory foam sleep quality at prices that seem implausible. Green tea and charcoal infusion in the foam reduce off-gassing odor and moisture retention. CertiPUR-US certification confirms low VOC emissions and no harmful chemicals. Best for guest rooms, secondary sleeping arrangements, children transitioning from toddler beds, or adults with strict budget constraints. Expect 5-7 year lifespan with regular use rather than the 10+ years of premium options.</p>
     <div class="pros-cons">
       <div class="pros">
-        <h4>PROS</h4>
+        <h4>Pros</h4>
         <ul>
-          <li>Exceptional value &mdash; best sleep-per-dollar in all categories</li>
-          <li>Green tea + charcoal infusion reduces odor significantly</li>
-          <li>CertiPUR-US certified &mdash; no harmful chemicals in foam</li>
-          <li>Huge number of verified reviews provides realistic expectations</li>
+          <li>20-year warranty on a hybrid -- exceptional</li>
+          <li>Bio-Pur foam more responsive than standard memory foam</li>
+          <li>Medium firmness works across sleep positions</li>
+          <li>Good cooling from coil airflow</li>
+          <li>Made in USA</li>
         </ul>
       </div>
       <div class="cons">
-        <h4>CONS</h4>
+        <h4>Cons</h4>
         <ul>
-          <li>Shorter lifespan (5-7 years) vs. premium alternatives</li>
-          <li>Standard memory foam heat retention without gel layer</li>
-          <li>Edge support minimal &mdash; not for sitting on mattress edge</li>
+          <li>Price pushes toward $1000 ceiling</li>
+          <li>100-night trial -- shorter than Nectar or DreamCloud</li>
+          <li>Less brand recognition than Helix or Casper</li>
         </ul>
       </div>
     </div>
-    <a href="https://www.amazon.com/s?k=Zinus+Green+Tea+Memory+Foam+Mattress+12+inch&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank" class="cta-btn">Check Price on Amazon</a>
+    <div class="verdict-box"><strong>Verdict:</strong> Best for buyers who want the longest warranty protection. A 20-year warranty on a hybrid mattress is genuinely rare -- most competitors offer 10 years. If you want to buy once and not worry for two decades, the Amerisleep AS3 Hybrid is built for exactly that.</div>
+    <a href="https://www.amazon.com/s?k=Amerisleep+AS3+Hybrid+mattress&tag=sleepwiserevi-20" class="cta-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
   </div>
 
-  <!-- SCIENCE BOX -->
-  <div class="science-box" id="science">
-    <h3>What Features Actually Matter Under $1,000 &mdash; And What Doesn&apos;t</h3>
-    <p><strong>Coil count and gauge:</strong> Pocketed coil hybrids in this price range typically use 800-1000 coils queen. Coil gauge (thickness) matters more than count: 14-gauge coils (thicker wire) are more durable than 17-gauge, and will hold their support profile longer. Ask or check specs before purchasing.</p>
-    <p><strong>Trial length as a durability signal:</strong> A 365-night trial costs the brand money in returns and logistics. Brands offering 365 nights (DreamCloud, Nectar) are statistically confident in low defect rates. A 30-night trial suggests the brand expects a meaningful portion of mattresses to disappoint after month one.</p>
-    <p><strong>Foam density: the invisible quality indicator:</strong> All-foam mattresses with foam density below 3 lb/ft&sup3; compress noticeably within 3-5 years. Higher density foams (3.5-5 lb/ft&sup3;) resist compression longer. Brands rarely advertise this number prominently &mdash; look for it in the product technical specs or request it via customer service.</p>
-    <p><strong>What marketing claims don&apos;t matter:</strong> &ldquo;Infinity coils&rdquo;, &ldquo;nano-foam&rdquo;, &ldquo;arctic sleep technology&rdquo; &mdash; these are brand language, not engineering specs. Focus on: construction type (foam vs. hybrid), foam density, trial length, and warranty terms. Those four factors predict 80% of mattress satisfaction outcomes.</p>
-  </div>
-
-  <!-- BUYING GUIDE -->
-  <div class="buying-guide" id="guide">
-    <h2>Buying Guide: Which Mattress Matches Your Situation</h2>
-    <div class="guide-grid">
-      <div class="guide-card">
-        <h4>Primary Bed, Long-Term Use</h4>
-        <p>Invest in DreamCloud Premier or Nectar Premier. Lifetime/forever warranties and 365-night trials make these appropriate for 8-10 year primary sleep surfaces. Avoid ultra-budget options for daily use.</p>
-      </div>
-      <div class="guide-card">
-        <h4>Side Sleeper Priority</h4>
-        <p>Helix Midnight&apos;s 6-zone coil configuration is purpose-built for side sleeping. The shoulder-zone softening and hip-zone support prevent the lateral pressure pain that causes side sleepers to wake.</p>
-      </div>
-      <div class="guide-card">
-        <h4>Hot Sleeper Priority</h4>
-        <p>Choose any hybrid (DreamCloud, Helix, Brooklyn Bedding) over all-foam. Coil layers improve airflow by 30-40% compared to dense foam cores. The Tuft &amp; Needle adaptive foam is the best hot-sleeper foam option.</p>
-      </div>
-      <div class="guide-card">
-        <h4>Guest Room or Secondary Use</h4>
-        <p>Zinus Green Tea or Tuft &amp; Needle Original &mdash; spend $250-600, not $900. A guest sleeps infrequently enough that longevity differences are negligible. Prioritize comfort over durability here.</p>
-      </div>
-    </div>
-  </div>
+  <!-- Comparison Table -->
+  <h2 id="comparison" style="font-family:sans-serif; color:#fff; margin-bottom:1rem;">Quick Comparison</h2>
+  <table class="comparison-table">
+    <thead>
+      <tr>
+        <th>Mattress</th>
+        <th>Type</th>
+        <th>Price (Queen)</th>
+        <th>Trial</th>
+        <th>Warranty</th>
+        <th>Best For</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Nectar Premier</td>
+        <td>Foam</td>
+        <td>$699-$849</td>
+        <td class="good">365 nights</td>
+        <td class="good">Lifetime</td>
+        <td>Best value overall</td>
+      </tr>
+      <tr>
+        <td>Helix Midnight</td>
+        <td>Hybrid</td>
+        <td>$749-$899</td>
+        <td>100 nights</td>
+        <td>10 years</td>
+        <td>Best hybrid, side sleepers</td>
+      </tr>
+      <tr>
+        <td>DreamCloud Original</td>
+        <td>Hybrid</td>
+        <td>$799-$999</td>
+        <td class="good">365 nights</td>
+        <td class="good">Lifetime</td>
+        <td>Luxury feel</td>
+      </tr>
+      <tr>
+        <td>Casper Hybrid</td>
+        <td>Hybrid</td>
+        <td>$795-$995</td>
+        <td>100 nights</td>
+        <td>10 years</td>
+        <td>Combination sleepers</td>
+      </tr>
+      <tr>
+        <td>Bear Hybrid</td>
+        <td>Hybrid + Celliant</td>
+        <td>$699-$849</td>
+        <td>120 nights</td>
+        <td class="good">Lifetime</td>
+        <td>Athletes, recovery</td>
+      </tr>
+      <tr>
+        <td>Leesa Hybrid</td>
+        <td>Hybrid</td>
+        <td>$799-$949</td>
+        <td>100 nights</td>
+        <td>10 years</td>
+        <td>Couples</td>
+      </tr>
+      <tr>
+        <td>Amerisleep AS3 Hybrid</td>
+        <td>Hybrid</td>
+        <td>$849-$999</td>
+        <td>100 nights</td>
+        <td class="good">20 years</td>
+        <td>Longest warranty</td>
+      </tr>
+    </tbody>
+  </table>
 
   <!-- FAQ -->
   <div class="faq-section" id="faq">
-    <h2>Frequently Asked Questions</h2>
-    <details>
-      <summary>Is it worth spending $1000 on a mattress?</summary>
-      <p>A $700-1000 budget gets you into genuine hybrid or quality foam construction with multi-year warranties and 100-365 night sleep trials. Below $400, you are typically buying all-foam with compressed coil springs or low-density foam that degrades in 3-5 years. At $1000, brands compete aggressively on value, so this price range has the best quality-to-dollar ratio in the mattress market.</p>
-    </details>
-    <details>
-      <summary>What is the difference between a $500 and $1000 mattress?</summary>
-      <p>At $500, you typically get all-foam construction with 3-5 lb density foam that compresses over 5-7 years. At $1000, you access true pocketed coil hybrids (better airflow, edge support, durability) or high-density foam with 100+ night trials. The $1000 tier also tends to include lifetime or 10+ year warranties and legitimate return policies.</p>
-    </details>
-    <details>
-      <summary>Are foam or hybrid mattresses better under $1000?</summary>
-      <p>For side sleepers who run hot: hybrid wins (coils improve airflow by 30-40%). For budget-primary buyers who sleep cool: quality foam (Nectar, Tuft &amp; Needle) delivers excellent pressure relief at lower cost. For couples with different preferences: hybrid&apos;s better motion isolation and edge support make it the safer choice under $1000.</p>
-    </details>
-    <details>
-      <summary>How do I know if a cheap mattress will last?</summary>
-      <p>Key durability indicators: (1) foam density above 3 lb per cubic foot for all-foam, (2) coil gauge 14-17 for hybrids (lower number = thicker coil = more durable), (3) warranty length above 10 years signals manufacturer confidence, (4) sleep trial above 90 nights shows the brand expects the mattress to perform long enough for you to test it properly.</p>
-    </details>
-    <details>
-      <summary>Can I get a good mattress for under $500?</summary>
-      <p>Yes, but with tradeoffs. Tuft &amp; Needle Original and Zinus Green Tea are legitimate options under $600 that outperform their price. Expect all-foam construction, shorter warranties (10 years vs. lifetime), and less edge support than hybrids. For primary sleep surface use, we recommend stretching to $700+ if possible for the DreamCloud or Nectar tier.</p>
-    </details>
+    <h2 style="font-family:sans-serif; color:#fff; margin-bottom:1.5rem;">Frequently Asked Questions</h2>
+    <div class="faq-item">
+      <h3>Is $1000 a good budget for a mattress?</h3>
+      <p>Yes -- $1000 is an excellent mattress budget. At this price you gain hybrid construction, better foam density, improved temperature regulation, and longer warranties. The jump in quality from $500 to $1000 is significant; the jump from $1000 to $2000 is much smaller in real-world sleep improvement.</p>
+    </div>
+    <div class="faq-item">
+      <h3>What is the difference between a $500 and $1000 mattress?</h3>
+      <p>At $1000 you typically get pocketed coil hybrid construction, higher foam density (3.5+ vs. 2.5-3 lb/ft3), better edge support, improved temperature regulation through coil airflow, and longer warranties. The support system is the biggest upgrade -- coils outlast foam bases significantly over 8-10 years.</p>
+    </div>
+    <div class="faq-item">
+      <h3>Should I get a hybrid or memory foam under $1000?</h3>
+      <p>Hybrid is the better choice at this price. Unlike the budget tier where foam wins on value, the $600-$1000 range is where hybrids genuinely outperform foam. The coil systems at this price are properly engineered -- you get better cooling, more responsive feel, and superior edge support.</p>
+    </div>
+    <div class="faq-item">
+      <h3>What brands make the best mattresses under $1000?</h3>
+      <p>The most reliable mid-range brands are: Nectar (best overall value), Helix (best for specific sleep profiles), DreamCloud (luxury feel), Bear (best for athletes), Leesa (best for couples), and Casper (best brand support). All offer at least 100-night trials and 10-year warranties at this price.</p>
+    </div>
+    <div class="faq-item">
+      <h3>How long should a mattress under $1000 last?</h3>
+      <p>A quality mattress in the $600-$1000 range should last 8-10 years with proper care. A mattress protector is the single best way to extend lifespan -- moisture and oils from skin accelerate foam degradation. Rotating 180 degrees every 6 months also distributes wear evenly.</p>
+    </div>
+  </div>
+
+  <!-- Final Verdict -->
+  <div class="final-verdict" id="verdict">
+    <h2>Final Verdict</h2>
+    <p>For most shoppers: <strong>Helix Midnight</strong> if you want hybrid construction, or <strong>Nectar Premier</strong> if the 365-night trial and lifetime warranty matter more than coil airflow. Both are exceptional at their respective strengths.</p>
+    <p>Luxury feel at the price ceiling: <strong>DreamCloud Original</strong>. Athletes and active sleepers: <strong>Bear Hybrid</strong>. Couples with sleep schedule differences: <strong>Leesa Hybrid</strong>. All sleep positions with best warranty: <strong>Amerisleep AS3 Hybrid</strong>. Combination sleepers with brand support priority: <strong>Casper Original Hybrid</strong>.</p>
+    <p>One practical note: all of these brands run regular sales. Setting a price alert and waiting for a 20-30% discount is worth it -- these deals appear consistently and can bring a $900 mattress down to $650.</p>
   </div>
 
 </div>
 
-<footer>
-  <p>&copy; 2026 SleepWise Reviews &bull; <a href="/posts/index.html">All Posts</a> &bull; <a href="/">Home</a></p>
-  <p style="margin-top:8px">As an Amazon Associate we earn from qualifying purchases &bull; Amazon affiliate tag: sleepwiserevi-20</p>
+<footer class="site-footer">
+  <p><a href="/">SleepWise Reviews</a> &mdash; <a href="/posts/">All Articles</a></p>
+  <p style="margin-top:0.5rem;">Affiliate disclosure: We earn a commission on qualifying purchases at no extra cost to you.</p>
 </footer>
 
 </body>

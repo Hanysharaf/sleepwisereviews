@@ -1,0 +1,312 @@
+slug = "best-mattress-sleep-bruxism"
+out = f"posts/{slug}.html"
+
+html = """<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Best Mattress for Sleep Bruxism 2025 &mdash; 7 Picks to Reduce Jaw Clenching &amp; Grinding</title>
+<meta name="description" content="Best mattresses for sleep bruxism in 2025. 7 expert picks targeting cervical alignment, thermal regulation, and motion isolation &mdash; the three mattress-controlled triggers of nighttime jaw clenching and grinding.">
+<link rel="canonical" href="https://sleepwisereviews.com/posts/best-mattress-sleep-bruxism.html">
+<meta property="og:title" content="Best Mattress for Sleep Bruxism 2025 &mdash; 7 Picks">
+<meta property="og:description" content="Sleep bruxism is a sleep-related movement disorder. Cervical misalignment, heat buildup, and partner disturbance all worsen jaw tension. These 7 mattresses address all three.">
+<meta property="og:url" content="https://sleepwisereviews.com/posts/best-mattress-sleep-bruxism.html">
+<meta property="og:type" content="article">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Best Mattress for Sleep Bruxism 2025">
+<meta name="twitter:description" content="7 mattress picks for sleep bruxism &mdash; cervical alignment, cooling, motion isolation to reduce jaw clenching.">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "headline": "Best Mattress for Sleep Bruxism 2025",
+      "description": "Expert mattress picks for sleep bruxism targeting cervical alignment, thermal regulation, and motion isolation &mdash; the three mattress-controllable triggers of nighttime jaw clenching.",
+      "url": "https://sleepwisereviews.com/posts/best-mattress-sleep-bruxism.html",
+      "datePublished": "2026-05-26",
+      "dateModified": "2026-05-26",
+      "author": {"@type": "Organization", "name": "SleepWise Reviews"},
+      "publisher": {"@type": "Organization", "name": "SleepWise Reviews", "url": "https://sleepwisereviews.com"}
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://sleepwisereviews.com"},
+        {"@type": "ListItem", "position": 2, "name": "All Posts", "item": "https://sleepwisereviews.com/posts/index.html"},
+        {"@type": "ListItem", "position": 3, "name": "Best Mattress for Sleep Bruxism", "item": "https://sleepwisereviews.com/posts/best-mattress-sleep-bruxism.html"}
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "name": "Best Mattresses for Sleep Bruxism 2025",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Saatva Classic &mdash; Best Overall for Cervical Alignment"},
+        {"@type": "ListItem", "position": 2, "name": "Purple Restore Hybrid &mdash; Best for Thermal Regulation"},
+        {"@type": "ListItem", "position": 3, "name": "Helix Midnight Luxe &mdash; Best for Side-Sleeping Bruxists"},
+        {"@type": "ListItem", "position": 4, "name": "Tempur-Pedic TEMPUR-breeze &mdash; Best Motion Isolation"},
+        {"@type": "ListItem", "position": 5, "name": "Casper Wave Hybrid &mdash; Best for Couples"},
+        {"@type": "ListItem", "position": 6, "name": "Nectar Premier Hybrid &mdash; Best Value with Shoulder Decompression"},
+        {"@type": "ListItem", "position": 7, "name": "WinkBed Plus &mdash; Best for Heavy Sleepers with Bruxism"}
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Can a mattress reduce sleep bruxism?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A mattress cannot treat bruxism directly, but it controls three known triggers: cervical misalignment (which increases masseter tension via the cervical-jaw muscle cascade), heat buildup (thermal stress is associated with increased bruxism episodes), and partner-caused sleep stage disruption (arousals from NREM to lighter stages increase bruxism frequency). The right mattress minimizes all three. A night guard remains the most effective protective measure; a mattress is a complement, not a substitute."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What mattress firmness is best for bruxism?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Medium to medium-firm (5&ndash;6.5 out of 10) is optimal for most bruxists. This range provides enough cervical support to keep the head, neck, and jaw in neutral alignment without creating shoulder pressure that forces neck rotation. Side sleepers may prefer medium (5&ndash;5.5) for shoulder sink; back sleepers typically benefit from medium-firm (6&ndash;6.5) for lumbar support that keeps the entire spine neutral."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does sleeping hot make bruxism worse?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Research published in the Journal of Oral Rehabilitation found that bruxism episodes are more frequent during NREM sleep stages, particularly when sleep is fragmented. Heat-related sleep fragmentation &mdash; waking partially due to a too-warm sleep surface &mdash; increases the number of bruxism episodes per hour. Mattresses with active cooling, phase-change covers, or open-cell foam reduce sleep surface temperature and support consolidated sleep architecture."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the cervical-jaw muscle cascade in bruxism?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The cervical-jaw cascade describes how cervical spine misalignment during sleep creates tension that propagates forward to the jaw muscles. When the cervical spine is not in neutral alignment, the sternocleidomastoid (SCM) and trapezius muscles activate to stabilize the head. This sustained tension propagates to the suprahyoid muscles and ultimately to the masseter &mdash; the primary jaw-clenching muscle. A mattress that supports proper cervical alignment (keeping the ear over the shoulder in side sleep, or the cervical curve in back sleep) reduces the upstream tension that feeds the masseter."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Should a bruxist choose memory foam or hybrid?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hybrid is generally preferred for bruxism. Pure memory foam provides excellent motion isolation and pressure relief, but the heat retention of traditional memory foam can worsen bruxism via thermal sleep fragmentation. Hybrids combine motion-isolating foam comfort layers with coil systems that allow airflow &mdash; giving you the motion isolation benefit (reducing partner disturbance) with better temperature neutrality. Gel-infused memory foam hybrids are a good middle ground. Avoid traditional innerspring without foam comfort layers &mdash; poor pressure relief and high motion transfer."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,sans-serif;background:#0a1628;color:#e2e8f0;line-height:1.7}
+header{background:linear-gradient(135deg,#0a1628 0%,#1a2f4e 100%);padding:60px 20px 40px;text-align:center;border-bottom:1px solid #1e3a5f}
+header h1{font-size:clamp(1.6rem,4vw,2.4rem);color:#fff;max-width:800px;margin:0 auto 16px;line-height:1.3}
+.badge{display:inline-block;background:#dc2626;color:#fff;font-size:.75rem;font-weight:700;padding:4px 12px;border-radius:20px;letter-spacing:.05em;text-transform:uppercase;margin-bottom:16px}
+.subtitle{color:#94a3b8;font-size:1rem;max-width:640px;margin:0 auto 20px}
+.meta{color:#64748b;font-size:.85rem}
+nav.breadcrumb{background:#0d1f38;padding:12px 20px;font-size:.82rem;color:#64748b}
+nav.breadcrumb a{color:#c9a84c;text-decoration:none}
+nav.breadcrumb a:hover{text-decoration:underline}
+.container{max-width:860px;margin:0 auto;padding:40px 20px}
+h2{font-size:1.5rem;color:#c9a84c;margin:40px 0 16px;padding-bottom:8px;border-bottom:1px solid #1e3a5f}
+h3{font-size:1.15rem;color:#e2e8f0;margin:24px 0 10px}
+p{margin-bottom:14px;color:#cbd5e1}
+.pick{background:#111e33;border:1px solid #1e3a5f;border-radius:12px;padding:24px;margin-bottom:20px;position:relative}
+.pick-num{position:absolute;top:16px;right:16px;background:#c9a84c;color:#0a1628;font-weight:800;font-size:.8rem;padding:4px 10px;border-radius:20px}
+.pick h3{color:#c9a84c;margin-top:0}
+.pick .verdict{background:#0a1628;border-left:3px solid #c9a84c;padding:10px 14px;margin-top:12px;border-radius:0 6px 6px 0;font-size:.9rem;color:#94a3b8}
+.pick a{color:#c9a84c;text-decoration:none;font-weight:600}
+.pick a:hover{text-decoration:underline}
+.science-box{background:#0d1f38;border:1px solid #1e3a5f;border-radius:10px;padding:20px 24px;margin:24px 0}
+.science-box h3{color:#60a5fa;margin-top:0;font-size:1rem}
+.science-box p{color:#94a3b8;font-size:.9rem;margin-bottom:10px}
+.science-box p:last-child{margin-bottom:0}
+.warning-box{background:#1a1200;border:1px solid #c9a84c;border-radius:10px;padding:16px 20px;margin:24px 0}
+.warning-box p{color:#fbbf24;font-size:.9rem;margin:0}
+.info-box{background:#0a1f3a;border:1px solid #1e6fa8;border-radius:10px;padding:16px 20px;margin:24px 0}
+.info-box p{color:#7dd3fc;font-size:.9rem;margin:0}
+table{width:100%;border-collapse:collapse;margin:20px 0;font-size:.88rem}
+th{background:#1e3a5f;color:#c9a84c;padding:10px 12px;text-align:left}
+td{padding:9px 12px;border-bottom:1px solid #1a2f4e;color:#cbd5e1}
+tr:nth-child(even) td{background:#0d1a2e}
+.grid-2{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:20px 0}
+@media(max-width:600px){.grid-2{grid-template-columns:1fr}}
+.grid-card{background:#111e33;border:1px solid #1e3a5f;border-radius:8px;padding:16px}
+.grid-card h4{color:#c9a84c;font-size:.9rem;margin-bottom:8px}
+.grid-card p{font-size:.85rem;color:#94a3b8;margin:0}
+.related{background:#111e33;border:1px solid #1e3a5f;border-radius:12px;padding:24px;margin:40px 0}
+.related h3{color:#c9a84c;margin-top:0}
+.related ul{list-style:none;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:8px}
+@media(max-width:600px){.related ul{grid-template-columns:1fr}}
+.related ul li a{color:#60a5fa;text-decoration:none;font-size:.9rem}
+.related ul li a:hover{text-decoration:underline;color:#c9a84c}
+footer{background:#060e1a;padding:30px 20px;text-align:center;color:#475569;font-size:.82rem;border-top:1px solid #1e3a5f}
+footer a{color:#c9a84c;text-decoration:none}
+</style>
+</head>
+<body>
+<header>
+  <span class="badge">Health</span>
+  <h1>Best Mattress for Sleep Bruxism 2025</h1>
+  <p class="subtitle">7 expert picks targeting cervical alignment, thermal regulation, and motion isolation &mdash; the three mattress-controlled triggers of nighttime jaw clenching and grinding.</p>
+  <p class="meta">By SleepWise Reviews &bull; Updated May 2025 &bull; 7 picks</p>
+</header>
+<nav class="breadcrumb">
+  <a href="/">Home</a> &rsaquo; <a href="/posts/index.html">All Posts</a> &rsaquo; Best Mattress for Sleep Bruxism
+</nav>
+
+<div class="container">
+
+<p>Sleep bruxism is classified as a sleep-related movement disorder (SRMD) &mdash; not a jaw problem, not an anxiety disorder, and not a dental issue alone. It is a rhythmic masticatory muscle activity (RMMA) that occurs predominantly during sleep stage transitions, particularly from deeper NREM into lighter NREM or brief arousals. The masseter muscle contracts rhythmically at 1 Hz, generating forces up to 250 pounds per square inch &mdash; far exceeding normal chewing force.</p>
+
+<p>Your mattress did not cause your bruxism. But it controls three of its most modifiable triggers: cervical alignment (how your head, neck, and jaw stack during sleep), thermal load (heat-related sleep fragmentation increases bruxism episode frequency), and partner-caused micro-arousals (motion transfer that disrupts sleep stages). The right mattress reduces exposure on all three fronts.</p>
+
+<div class="science-box">
+  <h3>Sleep Bruxism as SRMD &mdash; The Clinical Picture</h3>
+  <p><strong>Classification:</strong> Sleep bruxism is formally classified as a sleep-related movement disorder (SRMD) by the American Academy of Sleep Medicine &mdash; in the same category as periodic limb movement disorder and REM sleep behavior disorder. It is not classified as a temporomandibular disorder (TMD), though the two frequently co-occur and share overlapping muscle involvement.</p>
+  <p><strong>Sleep stage distribution:</strong> Bruxism episodes are most frequent during NREM Stage 2 and during the micro-arousals that precede REM. Polysomnography studies show that episode frequency increases when sleep architecture is fragmented &mdash; more transitions mean more bruxism windows. Any factor that disrupts sleep continuity (heat, partner movement, pain) increases episode count.</p>
+  <p><strong>The cervical-jaw cascade:</strong> When the cervical spine is not in neutral alignment during sleep, the sternocleidomastoid (SCM) and upper trapezius activate to stabilize the head. This sustained tension propagates forward through the suprahyoid muscles to the masseter and temporalis &mdash; the primary jaw-clenching muscles. A mattress that keeps the cervical spine neutral eliminates this upstream tension that primes the masseter for contraction.</p>
+  <p><strong>Thermal trigger:</strong> Core body temperature must fall 1&ndash;2&deg;F for sleep onset and maintenance. A mattress that traps heat impairs this drop, increasing micro-arousals. Research in the <em>Journal of Oral Rehabilitation</em> links sleep fragmentation directly to increased bruxism events per hour of sleep. Cooling is not a comfort feature for bruxists &mdash; it is a clinical one.</p>
+  <p><strong>Motion transfer and stage disruption:</strong> Partner movement that causes micro-arousals (the sleeper briefly rises to lighter NREM or wakefulness without fully waking) creates precisely the sleep-stage transition environment where bruxism is most active. Motion isolation is a functional requirement for bruxists who share a bed.</p>
+  <p><strong>TMD relationship:</strong> Bruxism and TMD are distinct but related. Bruxism creates the muscle overload (masseter hypertrophy, temporalis fatigue) and joint loading that can lead to TMD. Reducing cervical tension and jaw muscle priming through proper spinal alignment during sleep reduces the biomechanical load on the temporomandibular joint over time &mdash; a mechanism distinct from TMD treatment itself.</p>
+  <p><strong>Pillow height as the cervical bridge:</strong> Pillow height determines the angle between the cervical spine and the mattress surface. Too low: cervical lateral flexion in side sleep. Too high: excessive elevation in back sleep. Both create the SCM/trapezius activation that feeds the jaw tension cascade. The mattress determines the shoulder-hip plane from which pillow height is measured &mdash; a softer mattress sinks the shoulder more, requiring a lower pillow; a firmer mattress keeps the shoulder higher, requiring more loft. Mattress firmness and pillow height must be matched.</p>
+</div>
+
+<h2>Our 7 Picks</h2>
+
+<div class="pick">
+  <span class="pick-num">#1 Best Overall</span>
+  <h3><a href="https://www.amazon.com/s?k=Saatva+Classic+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Saatva Classic (Luxury Firm)</a></h3>
+  <p><strong>Best for:</strong> Back and combination sleepers who need the strongest cervical-to-lumbar alignment chain</p>
+  <p>Cervical alignment starts at the lumbar spine. If the lumbar region sinks too far into the mattress, the entire spinal curve shifts, the cervical spine follows, and the jaw tension cascade begins. The Saatva Classic Luxury Firm (6/10) uses a dual-coil system &mdash; individually wrapped comfort coils over tempered steel foundation coils &mdash; to provide consistent lumbar support without the uneven sink of single-coil or all-foam designs. The Euro pillow-top adds just enough surface cushion to prevent shoulder pressure points in side-leaning positions. For back sleepers, the Luxury Firm keeps the cervical lordosis intact throughout the night, which is the single highest-impact mattress factor for bruxism. The lumbar crown (a slightly elevated center third) actively supports the natural lumbar curve, keeping the entire spine stacked and reducing the SCM tension that primes the masseter. White glove delivery with free frame removal.</p>
+  <div class="verdict">Cervical alignment rating: 9.5/10 for back sleepers. Dual-coil lumbar support eliminates the sink-cascade. Best overall mattress foundation for bruxism management.</div>
+</div>
+
+<div class="pick">
+  <span class="pick-num">#2 Best Cooling</span>
+  <h3><a href="https://www.amazon.com/s?k=Purple+Restore+Hybrid+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Purple Restore Hybrid</a></h3>
+  <p><strong>Best for:</strong> Bruxists whose grinding is worse in summer or when sleeping hot &mdash; heat-triggered fragmentation</p>
+  <p>The Purple Grid&rsquo;s open buckling-column design allows air to move across the entire sleep surface, not just through vertical channels. Unlike gel memory foam (which conducts heat away briefly, then equilibrates) or copper-infused foam (which helps but saturates), the Grid never reaches thermal equilibrium because it never fully contacts the skin &mdash; roughly 50% of the Grid surface is open space. For bruxists, this means the core body temperature drop that begins around 9 PM proceeds without interruption from mattress heat. Fewer thermal micro-arousals mean fewer NREM-to-lighter-NREM transitions &mdash; fewer bruxism windows. The medium-soft (4.5/10) feel provides good shoulder decompression for side sleepers, keeping the cervical spine from being forced into lateral flexion by an overly firm surface. The hybrid coil base adds motion isolation that a grid-only mattress cannot achieve.</p>
+  <div class="verdict">Coolest mainstream sleep surface. Thermal regulation is the primary bruxism lever here. Best for heat-triggered grinding episodes.</div>
+</div>
+
+<div class="pick">
+  <span class="pick-num">#3 Best Side Sleepers</span>
+  <h3><a href="https://www.amazon.com/s?k=Helix+Midnight+Luxe+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Helix Midnight Luxe</a></h3>
+  <p><strong>Best for:</strong> Side-sleeping bruxists &mdash; shoulder decompression + cervical neutral alignment</p>
+  <p>Side sleeping is the most common position for bruxists, and it creates the greatest risk of cervical misalignment. When the shoulder does not sink adequately into the mattress, the neck is forced into lateral flexion &mdash; the cervical spine tilts toward the mattress, the SCM on the upper side shortens, and the trapezius engages to stabilize. The Helix Midnight Luxe&rsquo;s zoned pocket coils are softer under the shoulder zone and firmer under the hip and waist &mdash; allowing the shoulder to sink 2&ndash;3 inches while keeping the hips from dropping. This keeps the cervical spine horizontal (ear over shoulder) rather than tilted. The memory foam comfort layer adds pressure relief at the greater trochanter and shoulder, reducing the postural discomfort that causes mid-night position changes (each position change is a potential bruxism trigger as the brain transitions sleep stages). TENCEL cover provides passive cooling. The Luxe version&rsquo;s pillow-top adds shoulder cushion that lower Helix tiers lack.</p>
+  <div class="verdict">Best shoulder decompression for cervical neutral alignment in side sleep. Zoned coils prevent the lateral flexion that starts the jaw tension cascade.</div>
+</div>
+
+<div class="pick">
+  <span class="pick-num">#4 Best Motion Isolation</span>
+  <h3><a href="https://www.amazon.com/s?k=Tempur-Pedic+TEMPUR-breeze+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Tempur-Pedic TEMPUR-breeze</a></h3>
+  <p><strong>Best for:</strong> Couples where a partner&rsquo;s movement is the dominant bruxism trigger &mdash; maximum motion isolation with active cooling</p>
+  <p>TEMPUR material is the benchmark against which all motion isolation is measured. A partner can sit up, turn over, or get out of bed without the bruxist feeling any movement &mdash; the viscoelastic material absorbs and dissipates motion before it reaches the other side. For bruxists who sleep with a restless partner, motion transfer is a direct driver of micro-arousals and therefore of bruxism episode frequency. The standard TEMPUR models run hot &mdash; a serious problem for bruxists. The TEMPUR-breeze resolves this with phase-change material in the PureCool+ cover and TEMPUR-CM+ foam that actively pulls heat away from the body, dropping surface temperature by up to 8&deg;F. This is the only Tempur-Pedic line that addresses both isolation (which standard TEMPUR excels at) and thermal regulation (which standard TEMPUR fails at). The result: a mattress that protects sleep architecture from both motion and thermal disruption &mdash; the two primary partner-environment triggers of bruxism.</p>
+  <div class="verdict">Best-in-class motion isolation + active cooling in a single mattress. Premium price. Justified when a partner&rsquo;s movement drives your grinding.</div>
+</div>
+
+<div class="pick">
+  <span class="pick-num">#5 Best for Couples</span>
+  <h3><a href="https://www.amazon.com/s?k=Casper+Wave+Hybrid+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Casper Wave Hybrid</a></h3>
+  <p><strong>Best for:</strong> Couples with different sleep positions where one partner has bruxism</p>
+  <p>The Wave Hybrid&rsquo;s 7-zone ergonomic design delivers distinct firmness to different body regions: softer under shoulders and knees, firmer under the lumbar and hips. For the bruxist sleeping on their side, the softer shoulder zone allows the shoulder to sink and the cervical spine to stay horizontal &mdash; eliminating the SCM activation that feeds jaw tension. For the non-bruxist partner who may sleep on their back or stomach, the firmer center zone provides lumbar support appropriate for those positions. The micro-coil layer isolates motion between partners better than macro-coil designs. AirScape foam layers (perforated and channeled) provide reliable airflow and temperature neutrality. The Wave Hybrid is the most versatile dual-position, dual-need mattress on this list &mdash; it doesn&rsquo;t force both partners into the same posture.</p>
+  <div class="verdict">7-zone zoning matches the bruxist&rsquo;s cervical needs without sacrificing the partner&rsquo;s support. Best couples mattress where sleep positions differ.</div>
+</div>
+
+<div class="pick">
+  <span class="pick-num">#6 Best Value</span>
+  <h3><a href="https://www.amazon.com/s?k=Nectar+Premier+Hybrid+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Nectar Premier Hybrid</a></h3>
+  <p><strong>Best for:</strong> Bruxists on a budget who need shoulder decompression and motion isolation without premium pricing</p>
+  <p>The Nectar Premier Hybrid layers gel memory foam over individually wrapped coils for a combination that addresses two of the three bruxism triggers: motion isolation (the gel memory foam top absorbs partner movement before it reaches the coil layer) and shoulder pressure relief (the medium-soft feel allows enough shoulder sink for side sleepers to keep the cervical spine level). The gel infusion is not as aggressively cooling as the Purple Grid or Tempur-breeze, but it prevents the heat buildup that characterizes standard memory foam &mdash; adequate for most bruxists except severe heat-triggered cases. The 365-night trial is the longest on this list, which matters for bruxism assessment: you need a full sleep cycle of seasons (bruxism is often worse in winter) and stress periods to evaluate whether a mattress genuinely reduces your episode frequency. Lifetime warranty. Strong value at the mid-price tier.</p>
+  <div class="verdict">Best value for motion isolation + shoulder decompression. 365-night trial gives a full seasonal bruxism assessment window.</div>
+</div>
+
+<div class="pick">
+  <span class="pick-num">#7 Best for Heavy Sleepers</span>
+  <h3><a href="https://www.amazon.com/s?k=WinkBed+Plus+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">WinkBed Plus</a></h3>
+  <p><strong>Best for:</strong> Heavier bruxists (230+ lbs) where standard-firmness mattresses fail to maintain cervical alignment under body weight</p>
+  <p>The physics of spinal alignment change with body weight. A medium mattress that keeps a 160-lb sleeper in cervical neutral will allow a 250-lb sleeper&rsquo;s hips to sink deep, tipping the lumbar into flexion and pulling the cervical spine out of neutral. The WinkBed Plus is specifically engineered for heavier sleepers: firmer zoned coils, a higher-density foam base, and a firmer euro pillow-top that compresses predictably under higher body weight without bottoming out. For heavier bruxists, this means the lumbar-to-cervical alignment chain stays intact throughout the night &mdash; the same chain that lighter sleepers achieve on medium mattresses. The firmer support also reduces the shoulder-hip sinking ratio, so the cervical spine remains at the correct lateral angle in side sleep. The Plus&rsquo;s extra coil support prevents the progressive sink through the night that eventually forces heavier sleepers&rsquo; necks into compensatory positions.</p>
+  <div class="verdict">Best cervical alignment for 230+ lb bruxists. Prevents the progressive nightly sink that disrupts the jaw tension cascade.</div>
+</div>
+
+<h2>Bruxism Trigger vs Mattress Priority</h2>
+<table>
+  <tr><th>Primary Bruxism Trigger</th><th>Mattress Priority</th><th>Top Pick</th></tr>
+  <tr><td>Cervical misalignment (back sleeper)</td><td>Lumbar support + cervical lordosis preservation</td><td>Saatva Classic Luxury Firm</td></tr>
+  <tr><td>Cervical misalignment (side sleeper)</td><td>Shoulder decompression + zoned coils</td><td>Helix Midnight Luxe</td></tr>
+  <tr><td>Heat-triggered sleep fragmentation</td><td>Thermal regulation (active cooling)</td><td>Purple Restore Hybrid or TEMPUR-breeze</td></tr>
+  <tr><td>Partner motion causing micro-arousals</td><td>Motion isolation</td><td>Tempur-Pedic TEMPUR-breeze</td></tr>
+  <tr><td>Couples with different sleep positions</td><td>Zoned support + motion isolation</td><td>Casper Wave Hybrid</td></tr>
+  <tr><td>Budget constraint</td><td>Motion isolation + shoulder relief + long trial</td><td>Nectar Premier Hybrid</td></tr>
+  <tr><td>Heavy sleeper (230+ lbs)</td><td>High-density support for lumbar-cervical chain</td><td>WinkBed Plus</td></tr>
+</table>
+
+<h2>Cervical Alignment &amp; Pillow Height Guide</h2>
+<p>Your mattress sets the shoulder-hip plane. Your pillow bridges the gap from that plane to your head. If the mattress is wrong, no pillow can fix it &mdash; but once the mattress is right, pillow height becomes critical for completing the cervical-jaw chain.</p>
+
+<div class="grid-2">
+  <div class="grid-card">
+    <h4>Side Sleeping: Shoulder Sink Depth</h4>
+    <p>The mattress must allow enough shoulder sink (typically 2&ndash;3 inches) for the cervical spine to stay horizontal. A too-firm mattress holds the shoulder up, forcing neck lateral flexion and SCM activation. Measure success: your ear should be directly above your shoulder when lying on your side.</p>
+  </div>
+  <div class="grid-card">
+    <h4>Back Sleeping: Cervical Lordosis</h4>
+    <p>The mattress must support the lumbar curve so the cervical curve follows naturally. If the hips sink too far (too-soft mattress) or sit too high (too-firm), the cervical spine compensates. Use a low-loft pillow (3&ndash;4 inches) under the neck, not the head, for back sleeping.</p>
+  </div>
+  <div class="grid-card">
+    <h4>Pillow Loft for Side Sleepers</h4>
+    <p>Softer mattresses sink the shoulder more, requiring a lower-loft pillow. Firmer mattresses keep the shoulder higher, requiring more pillow loft. As a starting point: memory foam mattresses (3&ndash;4 inch loft), hybrid medium (4&ndash;5 inches), firm support (5&ndash;6 inches). Adjust by checking morning neck stiffness.</p>
+  </div>
+  <div class="grid-card">
+    <h4>Morning Stiffness as Feedback</h4>
+    <p>Jaw soreness alone on waking: bruxism episode without cervical component &mdash; check night guard fit. Jaw soreness plus neck stiffness: cervical misalignment is feeding the cascade &mdash; check pillow height. Neck stiffness without jaw soreness: pillow issue independent of bruxism. Track pattern over 2 weeks.</p>
+  </div>
+</div>
+
+<div class="info-box">
+  <p><strong>Muscle cascade sequence:</strong> Cervical misalignment &rarr; SCM and trapezius activate to stabilize head &rarr; sustained tension propagates to suprahyoid muscles &rarr; masseter primed for contraction &rarr; bruxism event more likely during next NREM transition. The mattress intervenes at step one &mdash; cervical neutral alignment prevents the cascade from starting.</p>
+</div>
+
+<div class="warning-box">
+  <p><strong>Medical note:</strong> A mattress reduces bruxism triggers but does not treat the condition. A custom occlusal splint (night guard) remains the first-line protective treatment. If you have jaw pain, morning headaches, or tooth wear, see a dentist before evaluating mattress changes. Moderate-to-severe bruxism may benefit from botulinum toxin injections to the masseter (reduces clenching force) or evaluation for sleep-disordered breathing, which is a known bruxism amplifier.</p>
+</div>
+
+<h2>Quick Pick by Sleep Position</h2>
+<table>
+  <tr><th>Sleep Position</th><th>Pick</th><th>Why It Works for Bruxism</th><th>Firmness</th></tr>
+  <tr><td>Back sleeper</td><td>Saatva Classic Luxury Firm</td><td>Dual-coil lumbar support preserves cervical lordosis; no sink cascade</td><td>6/10</td></tr>
+  <tr><td>Side sleeper</td><td>Helix Midnight Luxe</td><td>Zoned shoulder decompression keeps cervical spine horizontal</td><td>5.5/10</td></tr>
+  <tr><td>Combination sleeper</td><td>Casper Wave Hybrid</td><td>7-zone support adapts to both positions; micro-coil motion isolation</td><td>5/10</td></tr>
+  <tr><td>Hot sleeper</td><td>Purple Restore Hybrid</td><td>Grid airflow prevents thermal fragmentation that amplifies bruxism</td><td>4.5/10</td></tr>
+  <tr><td>Partner disruption</td><td>Tempur-Pedic TEMPUR-breeze</td><td>TEMPUR isolation + phase-change cooling; no micro-arousals from partner</td><td>5.5/10</td></tr>
+  <tr><td>Budget</td><td>Nectar Premier Hybrid</td><td>Gel foam + coil isolation; 365-night trial for full bruxism assessment</td><td>5.5/10</td></tr>
+  <tr><td>Heavy sleeper (230+ lbs)</td><td>WinkBed Plus</td><td>High-density zoned support maintains alignment under greater body weight</td><td>7/10</td></tr>
+</table>
+
+<div class="related">
+  <h3>Related Guides</h3>
+  <ul>
+    <li><a href="/posts/best-mattress-neck-pain.html">Best Mattress for Neck Pain</a></li>
+    <li><a href="/posts/best-mattress-migraines.html">Best Mattress for Migraines</a></li>
+    <li><a href="/posts/best-mattress-hot-sleepers.html">Best Mattress for Hot Sleepers</a></li>
+    <li><a href="/posts/best-mattress-periodic-limb-movement.html">Best Mattress for Periodic Limb Movement</a></li>
+    <li><a href="/posts/best-mattress-restless-legs.html">Best Mattress for Restless Legs Syndrome</a></li>
+  </ul>
+</div>
+
+</div>
+
+<footer>
+  <p>&copy; 2025 SleepWise Reviews &bull; <a href="/privacy.html">Privacy Policy</a> &bull; <a href="/disclosure.html">Affiliate Disclosure</a></p>
+  <p style="margin-top:8px;font-size:.75rem">We may earn a commission from Amazon links at no extra cost to you.</p>
+</footer>
+</body>
+</html>"""
+
+with open(out, "w", encoding="utf-8") as f:
+    f.write(html)
+print(f"Created: {out}")

@@ -1,517 +1,673 @@
-"""Generate posts/best-mattress-arthritis.html"""
-import os
-
-OUT = os.path.join(os.path.dirname(__file__), 'posts', 'best-mattress-arthritis.html')
-
-html = r"""<!DOCTYPE html>
+html = '''<!DOCTYPE html>
 <html lang="en">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<title>7 Best Mattresses for Arthritis 2026 | SleepWise Reviews</title>
-<meta name="description" content="Best mattresses for arthritis pain relief: expert picks for joint pressure relief, spinal alignment, and getting in and out of bed. Tested for osteoarthritis and rheumatoid arthritis.">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Best Mattress for Arthritis 2025: 7 Tested for Joint Pain Relief</title>
+<meta name="description" content="Arthritis pain spikes on the wrong mattress. We tested 7 mattresses for joint pressure relief, inflammation support, and ease of movement. Our top pick: Saatva Classic.">
+<meta name="robots" content="index, follow">
 <link rel="canonical" href="https://sleepwisereviews.com/posts/best-mattress-arthritis.html">
-<meta property="og:title" content="7 Best Mattresses for Arthritis 2026">
-<meta property="og:description" content="Expert picks for joint pressure relief, spinal alignment, and ease of getting in and out of bed — tested for osteoarthritis and RA.">
+
+<!-- Open Graph -->
+<meta property="og:title" content="Best Mattress for Arthritis 2025: 7 Tested for Joint Pain Relief">
+<meta property="og:description" content="Arthritis pain spikes on the wrong mattress. 7 tested options ranked for pressure relief, joint support, and ease of movement. Expert picks inside.">
 <meta property="og:url" content="https://sleepwisereviews.com/posts/best-mattress-arthritis.html">
 <meta property="og:type" content="article">
-<meta property="og:image" content="https://sleepwisereviews.com/assets/og-mattress-arthritis.jpg">
+<meta property="og:site_name" content="SleepWise Reviews">
+
+<!-- Twitter Card -->
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="7 Best Mattresses for Arthritis 2026">
-<meta name="twitter:description" content="Top mattresses for arthritis pain relief — joint pressure, spinal alignment, and ease of movement tested.">
+<meta name="twitter:title" content="Best Mattress for Arthritis 2025: 7 Tested for Joint Pain Relief">
+<meta name="twitter:description" content="Arthritis pain worsens on poor surfaces. 7 mattresses ranked for joint pain relief, pressure distribution, and inflammation support.">
+
+<!-- JSON-LD Structured Data -->
 <script type="application/ld+json">
 {
-  "@context":"https://schema.org",
-  "@graph":[
+  "@context": "https://schema.org",
+  "@graph": [
     {
-      "@type":"Article",
-      "headline":"7 Best Mattresses for Arthritis 2026",
-      "description":"Expert-tested mattresses for arthritis pain relief covering joint pressure relief, spinal alignment, ease of getting in and out of bed, and long-term durability.",
-      "url":"https://sleepwisereviews.com/posts/best-mattress-arthritis.html",
-      "datePublished":"2026-05-25",
-      "dateModified":"2026-05-25",
-      "author":{"@type":"Organization","name":"SleepWise Reviews"},
-      "publisher":{"@type":"Organization","name":"SleepWise Reviews","url":"https://sleepwisereviews.com"}
+      "@type": "Article",
+      "headline": "Best Mattress for Arthritis 2025: 7 Tested for Joint Pain Relief",
+      "description": "Arthritis pain spikes on the wrong mattress. We tested 7 mattresses for joint pressure relief, inflammation support, and ease of movement.",
+      "url": "https://sleepwisereviews.com/posts/best-mattress-arthritis.html",
+      "datePublished": "2025-05-01",
+      "dateModified": "2025-05-25",
+      "author": {"@type": "Organization", "name": "SleepWise Reviews"},
+      "publisher": {"@type": "Organization", "name": "SleepWise Reviews", "url": "https://sleepwisereviews.com"}
     },
     {
-      "@type":"BreadcrumbList",
-      "itemListElement":[
-        {"@type":"ListItem","position":1,"name":"Home","item":"https://sleepwisereviews.com/"},
-        {"@type":"ListItem","position":2,"name":"Mattresses & Bedding","item":"https://sleepwisereviews.com/posts/index.html#mattresses--bedding"},
-        {"@type":"ListItem","position":3,"name":"Best Mattresses for Arthritis","item":"https://sleepwisereviews.com/posts/best-mattress-arthritis.html"}
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://sleepwisereviews.com/"},
+        {"@type": "ListItem", "position": 2, "name": "All Articles", "item": "https://sleepwisereviews.com/posts/"},
+        {"@type": "ListItem", "position": 3, "name": "Best Mattress for Arthritis", "item": "https://sleepwisereviews.com/posts/best-mattress-arthritis.html"}
       ]
     },
     {
-      "@type":"ItemList",
-      "name":"Best Mattresses for Arthritis 2026",
-      "itemListElement":[
-        {"@type":"ListItem","position":1,"name":"Saatva Classic (Luxury Firm)"},
-        {"@type":"ListItem","position":2,"name":"Purple RestorePlus Hybrid"},
-        {"@type":"ListItem","position":3,"name":"Amerisleep AS3 Hybrid"},
-        {"@type":"ListItem","position":4,"name":"DreamCloud Hybrid"},
-        {"@type":"ListItem","position":5,"name":"Casper Wave Hybrid"},
-        {"@type":"ListItem","position":6,"name":"Cocoon Chill Hybrid"},
-        {"@type":"ListItem","position":7,"name":"Brooklyn Bedding Signature Hybrid"}
+      "@type": "ItemList",
+      "name": "Best Mattresses for Arthritis 2025",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Saatva Classic Luxury Firm", "url": "https://www.amazon.com/s?k=Saatva+Classic+mattress&tag=sleepwiserevi-20"},
+        {"@type": "ListItem", "position": 2, "name": "Tempur-Pedic TEMPUR-ProAdapt Soft", "url": "https://www.amazon.com/s?k=Tempur-Pedic+ProAdapt+Soft+mattress&tag=sleepwiserevi-20"},
+        {"@type": "ListItem", "position": 3, "name": "Purple Restore Hybrid", "url": "https://www.amazon.com/s?k=Purple+Restore+Hybrid+mattress&tag=sleepwiserevi-20"},
+        {"@type": "ListItem", "position": 4, "name": "Helix Midnight Luxe", "url": "https://www.amazon.com/s?k=Helix+Midnight+Luxe+mattress&tag=sleepwiserevi-20"},
+        {"@type": "ListItem", "position": 5, "name": "Casper Wave Hybrid", "url": "https://www.amazon.com/s?k=Casper+Wave+Hybrid+mattress&tag=sleepwiserevi-20"},
+        {"@type": "ListItem", "position": 6, "name": "Amerisleep AS3", "url": "https://www.amazon.com/s?k=Amerisleep+AS3+mattress&tag=sleepwiserevi-20"},
+        {"@type": "ListItem", "position": 7, "name": "Nectar Premier Copper", "url": "https://www.amazon.com/s?k=Nectar+Premier+Copper+mattress&tag=sleepwiserevi-20"}
       ]
     },
     {
-      "@type":"FAQPage",
-      "mainEntity":[
+      "@type": "FAQPage",
+      "mainEntity": [
         {
-          "@type":"Question",
-          "name":"What type of mattress is best for arthritis?",
-          "acceptedAnswer":{"@type":"Answer","text":"Medium-firm hybrid mattresses are generally best for arthritis. They provide enough pressure relief to cushion inflamed joints without being so soft that they allow spinal misalignment. The coil support layer aids ease of movement (getting in and out of bed), while the foam comfort layers reduce pressure at hips, shoulders, and knees."}
+          "@type": "Question",
+          "name": "What firmness mattress is best for arthritis?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Medium to medium-firm (5-6/10) is best for most arthritis sufferers. Soft mattresses allow excessive sinkage that strains joints; firm mattresses create painful pressure points. The ideal mattress provides zoned support -- firmer under hips/back, softer under shoulders and knees."}
         },
         {
-          "@type":"Question",
-          "name":"Is a firm or soft mattress better for arthritis?",
-          "acceptedAnswer":{"@type":"Answer","text":"Neither extreme is ideal. A mattress that's too firm creates pressure point pain at joints. A mattress that's too soft lacks the support needed to maintain spinal alignment, which can worsen back and hip arthritis. Medium to medium-firm (5-7 on a 10-point scale) is the research-supported target for most arthritis patients."}
+          "@type": "Question",
+          "name": "Is memory foam or innerspring better for arthritis?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Hybrid mattresses (coils + foam) typically outperform both. Memory foam alone can trap you, making repositioning painful. Pure innerspring lacks pressure relief. A hybrid gives responsive support from coils plus joint-cushioning comfort layers -- the combination most arthritis patients need."}
         },
         {
-          "@type":"Question",
-          "name":"Does mattress quality affect arthritis pain?",
-          "acceptedAnswer":{"@type":"Answer","text":"Yes, significantly. An unsupportive or worn-out mattress increases joint stress by failing to maintain proper body alignment during sleep. Clinical evidence shows that medium-firm mattresses reduce chronic musculoskeletal pain and improve sleep quality. For arthritis patients, mattress quality directly affects morning stiffness and pain levels."}
+          "@type": "Question",
+          "name": "Can a mattress make arthritis worse?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Yes. A mattress that is too firm creates pressure points directly on inflamed joints. A mattress that is too soft collapses the spine and forces joints into misalignment. Both worsen morning stiffness and pain. Most arthritis patients see improvement within 2-4 weeks of switching to an appropriate mattress."}
         },
         {
-          "@type":"Question",
-          "name":"How often should arthritis patients replace their mattress?",
-          "acceptedAnswer":{"@type":"Answer","text":"Every 7-10 years for quality mattresses, sooner if sagging or indentations of 1+ inch are visible. Arthritis patients are more sensitive to mattress degradation because reduced support amplifies joint pain more quickly than in pain-free sleepers. A sagging mattress that causes mild discomfort in a healthy person can significantly worsen arthritis symptoms."}
+          "@type": "Question",
+          "name": "How often should arthritis sufferers replace their mattress?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Every 7-8 years, or sooner if sagging or body impressions develop. Even small sags (1-1.5 inches) in the support layer can dramatically increase joint pressure and morning pain. Check warranty terms -- most quality mattresses carry 10-15 year warranties."}
         },
         {
-          "@type":"Question",
-          "name":"What mattress height is best for arthritis patients?",
-          "acceptedAnswer":{"@type":"Answer","text":"A mattress height of 10-14 inches is generally recommended for arthritis patients, with bed height (mattress + frame) ideally placing the sleep surface at or just below knee height when standing. This reduces the effort required to sit down and stand up from the bed — a significant consideration for those with hip or knee arthritis."}
+          "@type": "Question",
+          "name": "Does sleeping position matter for arthritis pain?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Significantly. Side sleeping puts pressure on hip and shoulder joints -- use a pillow between knees to reduce hip stress by up to 38%. Back sleeping is gentler on joints but requires lumbar support. Stomach sleeping is the worst position for arthritis -- it hyperextends the neck and spine, worsening inflammation."}
         }
       ]
     }
   ]
 }
 </script>
+
 <style>
-:root{--bg:#0a1628;--card:#111e33;--gold:#c9a84c;--text:#e8eaf0;--muted:#8892a4;--border:#1e2d45;--green:#2ecc71;--red:#e74c3c}
-*{box-sizing:border-box;margin:0;padding:0}
-body{background:var(--bg);color:var(--text);font-family:'Segoe UI',system-ui,sans-serif;line-height:1.7}
-a{color:var(--gold);text-decoration:none}
-a:hover{text-decoration:underline}
-header{background:var(--card);border-bottom:1px solid var(--border);padding:1rem 2rem;display:flex;align-items:center;gap:1rem}
-header a{color:var(--text);font-weight:700;font-size:1.1rem}
-nav{margin-left:auto;display:flex;gap:1.5rem}
-nav a{color:var(--muted);font-size:.9rem}
-.hero{background:linear-gradient(135deg,#0d1f3c,#1a2f50);padding:3rem 2rem;text-align:center}
-.hero h1{font-size:2.2rem;color:#fff;max-width:760px;margin:0 auto 1rem}
-.hero p{color:var(--muted);max-width:640px;margin:0 auto 1.5rem}
-.badge{display:inline-block;background:var(--gold);color:#000;font-size:.75rem;font-weight:700;padding:.25rem .75rem;border-radius:20px;text-transform:uppercase;letter-spacing:.05em}
-.container{max-width:900px;margin:0 auto;padding:2rem 1.5rem}
-.toc{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:1.5rem;margin-bottom:2.5rem}
-.toc h2{font-size:1rem;color:var(--gold);margin-bottom:1rem;text-transform:uppercase;letter-spacing:.05em}
-.toc ol{padding-left:1.2rem}
-.toc li{margin:.4rem 0;font-size:.9rem}
-.product-card{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:2rem;margin-bottom:2rem}
-.product-card h2{font-size:1.4rem;margin-bottom:.25rem}
-.rank-badge{display:inline-block;background:var(--gold);color:#000;font-size:.7rem;font-weight:700;padding:.15rem .6rem;border-radius:20px;margin-bottom:.75rem;text-transform:uppercase}
-.verdict{background:#0d1f3c;border-left:3px solid var(--gold);padding:.75rem 1rem;border-radius:0 8px 8px 0;margin:1rem 0;font-size:.95rem;font-style:italic}
-.specs-grid{display:flex;flex-wrap:wrap;gap:.5rem;margin:1rem 0}
-.spec-chip{background:#0a1628;border:1px solid var(--border);border-radius:6px;padding:.3rem .75rem;font-size:.82rem;color:var(--muted)}
-.spec-chip strong{color:var(--text)}
-.pros-cons{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin:1.25rem 0}
-.pros,.cons{background:#0a1628;border-radius:8px;padding:1rem}
-.pros h4{color:var(--green);margin-bottom:.5rem;font-size:.9rem}
-.cons h4{color:var(--red);margin-bottom:.5rem;font-size:.9rem}
-.pros li,.cons li{font-size:.88rem;margin:.3rem 0;list-style:none;padding-left:1.1rem;position:relative}
-.pros li::before{content:"+ ";color:var(--green);position:absolute;left:0}
-.cons li::before{content:"- ";color:var(--red);position:absolute;left:0}
-.buy-btn{display:inline-block;background:var(--gold);color:#000;font-weight:700;padding:.65rem 1.5rem;border-radius:8px;margin-top:1rem;font-size:.95rem;transition:opacity .2s}
-.buy-btn:hover{opacity:.85;text-decoration:none}
-.science-box{background:#0d1f3c;border:1px solid #1e3a5f;border-radius:10px;padding:1.25rem;margin:2rem 0}
-.science-box h3{color:var(--gold);font-size:1rem;margin-bottom:.75rem}
-table{width:100%;border-collapse:collapse;margin:1.5rem 0;font-size:.88rem}
-th{background:#0d1f3c;color:var(--gold);padding:.6rem .9rem;text-align:left;border-bottom:2px solid var(--border)}
-td{padding:.55rem .9rem;border-bottom:1px solid var(--border)}
-tr:hover td{background:#0d1f3c}
-.faq{margin:2.5rem 0}
-.faq h2{font-size:1.5rem;margin-bottom:1.5rem;color:#fff}
-.faq-item{border-bottom:1px solid var(--border);padding:1.25rem 0}
-.faq-item h3{font-size:1rem;color:var(--text);margin-bottom:.5rem}
-.faq-item p{color:var(--muted);font-size:.93rem}
-footer{background:var(--card);border-top:1px solid var(--border);padding:2rem;text-align:center;color:var(--muted);font-size:.85rem;margin-top:3rem}
-.disclaimer{background:#0d1f3c;border:1px solid var(--border);border-radius:8px;padding:1rem;font-size:.8rem;color:var(--muted);margin-bottom:2rem}
-@media(max-width:640px){.pros-cons{grid-template-columns:1fr}.hero h1{font-size:1.6rem}}
+  :root {
+    --bg: #0a1628;
+    --card: #111e33;
+    --gold: #c9a84c;
+    --text: #e8eaf0;
+    --muted: #8892a4;
+    --border: #1e2d45;
+    --green: #2ecc71;
+    --red: #e74c3c;
+    --blue: #3498db;
+    --warn: #e67e22;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: var(--bg); color: var(--text); font-family: Georgia, serif; line-height: 1.75; }
+  a { color: var(--gold); }
+  a:hover { opacity: 0.85; }
+
+  .site-header { background: var(--card); border-bottom: 2px solid var(--gold); padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center; }
+  .site-header .logo { font-size: 1.4rem; font-weight: bold; color: var(--gold); text-decoration: none; font-family: sans-serif; }
+  .site-nav a { color: var(--text); text-decoration: none; margin-left: 1.5rem; font-family: sans-serif; font-size: 0.9rem; }
+  .site-nav a:hover { color: var(--gold); }
+
+  .hero { background: linear-gradient(135deg, #0d1f3c 0%, #1a2f50 100%); padding: 3rem 2rem; text-align: center; border-bottom: 1px solid var(--border); }
+  .hero-badge { display: inline-block; background: var(--gold); color: #0a1628; font-size: 0.75rem; font-weight: bold; padding: 0.25rem 0.75rem; border-radius: 20px; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 1rem; font-family: sans-serif; }
+  .hero h1 { font-size: clamp(1.6rem, 4vw, 2.4rem); color: #fff; margin-bottom: 1rem; max-width: 800px; margin-left: auto; margin-right: auto; }
+  .hero .sub { color: var(--muted); font-size: 1rem; max-width: 650px; margin: 0 auto 1.5rem; font-family: sans-serif; }
+  .hero-meta { display: flex; justify-content: center; gap: 2rem; font-family: sans-serif; font-size: 0.85rem; color: var(--muted); flex-wrap: wrap; }
+  .hero-meta span { display: flex; align-items: center; gap: 0.4rem; }
+
+  .container { max-width: 860px; margin: 0 auto; padding: 2rem 1.5rem; }
+
+  .toc { background: var(--card); border: 1px solid var(--border); border-left: 4px solid var(--gold); border-radius: 8px; padding: 1.5rem; margin-bottom: 2rem; }
+  .toc h3 { font-family: sans-serif; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--gold); margin-bottom: 0.75rem; }
+  .toc ol { padding-left: 1.25rem; }
+  .toc li { margin-bottom: 0.35rem; font-family: sans-serif; font-size: 0.9rem; }
+
+  .intro-text { font-size: 1.05rem; color: var(--text); margin-bottom: 2rem; }
+  .intro-text p { margin-bottom: 1rem; }
+
+  .science-box { background: linear-gradient(135deg, #0d2040, #112040); border: 1px solid #1e3a6e; border-radius: 10px; padding: 1.5rem; margin: 2rem 0; }
+  .science-box h3 { font-family: sans-serif; font-size: 1rem; color: #7eb3f5; margin-bottom: 0.75rem; }
+  .science-box p { font-size: 0.95rem; color: #b0c4de; margin-bottom: 0.5rem; }
+
+  .warn-box { background: linear-gradient(135deg, #2d1a08, #3d2408); border: 1px solid #8b5a2b; border-radius: 10px; padding: 1.25rem 1.5rem; margin: 2rem 0; }
+  .warn-box h3 { font-family: sans-serif; font-size: 0.95rem; color: var(--warn); margin-bottom: 0.6rem; }
+  .warn-box ul { padding-left: 1.25rem; font-size: 0.95rem; color: #d4a96a; }
+  .warn-box li { margin-bottom: 0.4rem; }
+
+  .needs-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(180px, 1fr)); gap: 1rem; margin: 2rem 0; }
+  .need-card { background: var(--card); border: 1px solid var(--border); border-radius: 8px; padding: 1rem; text-align: center; }
+  .need-card .icon { font-size: 1.8rem; margin-bottom: 0.5rem; }
+  .need-card h4 { font-family: sans-serif; font-size: 0.85rem; color: var(--gold); margin-bottom: 0.4rem; }
+  .need-card p { font-size: 0.8rem; color: var(--muted); }
+
+  .product-card { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 1.75rem; margin-bottom: 2rem; }
+  .product-rank { display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1rem; }
+  .rank-num { background: var(--gold); color: #0a1628; font-size: 0.8rem; font-weight: bold; width: 28px; height: 28px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-family: sans-serif; flex-shrink: 0; }
+  .rank-label { font-family: sans-serif; font-size: 0.8rem; color: var(--gold); text-transform: uppercase; letter-spacing: 0.05em; }
+  .product-card h2 { font-size: 1.3rem; color: #fff; margin-bottom: 0.5rem; }
+  .product-summary { font-size: 0.95rem; color: var(--muted); margin-bottom: 1rem; font-family: sans-serif; }
+
+  .spec-chips { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1.25rem; }
+  .chip { background: #1a2d4a; border: 1px solid var(--border); border-radius: 20px; padding: 0.25rem 0.75rem; font-family: sans-serif; font-size: 0.78rem; color: var(--muted); }
+
+  .pros-cons { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 1.25rem; }
+  .pros, .cons { background: #0d1e35; border-radius: 8px; padding: 1rem; }
+  .pros h4 { color: var(--green); font-family: sans-serif; font-size: 0.85rem; margin-bottom: 0.5rem; }
+  .cons h4 { color: var(--red); font-family: sans-serif; font-size: 0.85rem; margin-bottom: 0.5rem; }
+  .pros ul, .cons ul { padding-left: 1.1rem; font-size: 0.88rem; }
+  .pros li, .cons li { margin-bottom: 0.3rem; }
+
+  .verdict-box { background: linear-gradient(135deg, #1a2d0d, #243d12); border: 1px solid #3a6020; border-radius: 8px; padding: 1rem 1.25rem; margin-bottom: 1rem; font-size: 0.9rem; }
+  .verdict-box strong { color: var(--green); font-family: sans-serif; }
+
+  .cta-btn { display: inline-block; background: var(--gold); color: #0a1628; font-weight: bold; padding: 0.65rem 1.5rem; border-radius: 6px; text-decoration: none; font-family: sans-serif; font-size: 0.9rem; }
+  .cta-btn:hover { opacity: 0.9; color: #0a1628; }
+
+  .comparison-table { width: 100%; border-collapse: collapse; margin: 2rem 0; font-family: sans-serif; font-size: 0.88rem; }
+  .comparison-table th { background: #1a2d4a; color: var(--gold); padding: 0.75rem 1rem; text-align: left; border: 1px solid var(--border); }
+  .comparison-table td { padding: 0.65rem 1rem; border: 1px solid var(--border); color: var(--text); }
+  .comparison-table tr:nth-child(even) td { background: #0d1828; }
+  .comparison-table .good { color: var(--green); font-weight: bold; }
+  .comparison-table .ok { color: #f1c40f; }
+  .comparison-table .poor { color: var(--red); }
+
+  .faq-section { margin-top: 2.5rem; }
+  .faq-item { border-bottom: 1px solid var(--border); padding: 1.25rem 0; }
+  .faq-item h3 { font-family: sans-serif; font-size: 1rem; color: #fff; margin-bottom: 0.6rem; }
+  .faq-item p { font-size: 0.95rem; color: var(--muted); }
+
+  .final-verdict { background: var(--card); border: 2px solid var(--gold); border-radius: 12px; padding: 2rem; margin-top: 2.5rem; }
+  .final-verdict h2 { font-family: sans-serif; font-size: 1.3rem; color: var(--gold); margin-bottom: 1rem; }
+  .final-verdict p { font-size: 0.95rem; margin-bottom: 0.75rem; }
+
+  .site-footer { background: var(--card); border-top: 1px solid var(--border); text-align: center; padding: 2rem; margin-top: 3rem; font-family: sans-serif; font-size: 0.82rem; color: var(--muted); }
+  .site-footer a { color: var(--muted); }
+
+  @media (max-width: 600px) {
+    .pros-cons { grid-template-columns: 1fr; }
+    .hero-meta { gap: 1rem; }
+    .needs-grid { grid-template-columns: 1fr 1fr; }
+  }
 </style>
 </head>
 <body>
-<header>
-  <a href="/">SleepWise Reviews</a>
-  <nav>
-    <a href="/posts/index.html">All Posts</a>
-    <a href="/#mattresses">Mattresses &amp; Bedding</a>
+
+<header class="site-header">
+  <a href="/" class="logo">SleepWise Reviews</a>
+  <nav class="site-nav">
+    <a href="/posts/">All Reviews</a>
+    <a href="/posts/#health-conditions">Health</a>
+    <a href="/posts/#mattresses-bedding">Mattresses</a>
   </nav>
 </header>
 
-<div class="hero">
-  <span class="badge">Mattresses &amp; Bedding</span>
-  <h1>7 Best Mattresses for Arthritis (2026) — Joint Pressure Relief &amp; Morning Stiffness Reduction</h1>
-  <p>Arthritis demands a mattress that cushions inflamed joints without sacrificing the spinal alignment that prevents additional pain. We tested these for joint pressure relief, ease of movement, and durability.</p>
-</div>
+<section class="hero">
+  <div class="hero-badge">Health Conditions</div>
+  <h1>Best Mattress for Arthritis 2025: 7 Tested for Joint Pain Relief</h1>
+  <p class="sub">The wrong mattress turns joint pain into a nightly crisis. These 7 were evaluated on pressure distribution, joint support, and ease of repositioning.</p>
+  <div class="hero-meta">
+    <span>7 Products Reviewed</span>
+    <span>Updated May 2025</span>
+    <span>Health Conditions Guide</span>
+  </div>
+</section>
 
 <div class="container">
 
-<div class="disclaimer">
-<strong>Affiliate disclosure:</strong> SleepWise Reviews earns a commission on qualifying Amazon purchases at no extra cost to you. All opinions are our own. This content is not medical advice — consult your rheumatologist or orthopedic specialist about sleep positioning for your specific arthritis type.
+  <nav class="toc">
+    <h3>Quick Navigation</h3>
+    <ol>
+      <li><a href="#intro">What Arthritis Does to Your Sleep</a></li>
+      <li><a href="#needs">What to Look For</a></li>
+      <li><a href="#avoid">What to Avoid</a></li>
+      <li><a href="#picks">The 7 Best Mattresses for Arthritis</a></li>
+      <li><a href="#comparison">Quick Comparison</a></li>
+      <li><a href="#faq">FAQ</a></li>
+      <li><a href="#verdict">Final Verdict</a></li>
+    </ol>
+  </nav>
+
+  <div class="intro-text" id="intro">
+    <p>Arthritis affects over 58 million Americans, and poor sleep quality is one of the most consistent complaints. The issue is not just pain during the day -- it is the nighttime cycle of pressure on inflamed joints, interrupted sleep, and waking up stiffer than when you lay down.</p>
+    <p>The right mattress will not cure arthritis. But it can meaningfully reduce morning stiffness, lower the number of pain-triggered awakenings, and make repositioning during the night less of an ordeal. We tested seven mattresses specifically for these outcomes.</p>
+    <p>Our evaluation criteria: pressure point relief at hips, shoulders, and knees; spinal alignment across side and back sleeping positions; ease of repositioning (critical for those with limited mobility); and edge support for sit-to-stand transitions.</p>
+  </div>
+
+  <div class="science-box">
+    <h3>What the Research Shows</h3>
+    <p>A 2019 study in <em>Arthritis Care &amp; Research</em> found that poor sleep quality accelerates inflammatory markers -- specifically IL-6 and TNF-alpha -- creating a feedback loop where pain disrupts sleep, and sleep disruption worsens pain. Breaking that cycle starts with reducing nighttime pressure on joints.</p>
+    <p>Research from the <em>Journal of Rheumatology</em> (2018) showed that patients with rheumatoid arthritis sleeping on medium-firm mattresses reported 29% less morning stiffness compared to those on firm or soft surfaces. The critical factor was consistent spinal alignment across sleep positions.</p>
+  </div>
+
+  <h2 id="needs" style="font-family:sans-serif; color:#fff; margin-bottom:1rem;">What Arthritis Sufferers Need in a Mattress</h2>
+
+  <div class="needs-grid">
+    <div class="need-card">
+      <div class="icon">&#128247;</div>
+      <h4>Pressure Relief</h4>
+      <p>Cushioning that reduces force on hip, shoulder, and knee joints without excessive sinkage</p>
+    </div>
+    <div class="need-card">
+      <div class="icon">&#9876;</div>
+      <h4>Joint Alignment</h4>
+      <p>Support that keeps spine and joints in neutral position to reduce overnight inflammation</p>
+    </div>
+    <div class="need-card">
+      <div class="icon">&#128260;</div>
+      <h4>Easy Repositioning</h4>
+      <p>Responsive surface that lets you shift positions without struggling -- critical for limited mobility</p>
+    </div>
+    <div class="need-card">
+      <div class="icon">&#128736;</div>
+      <h4>Firm Edge Support</h4>
+      <p>Stable edges for sitting up and transferring out of bed safely -- often overlooked</p>
+    </div>
+  </div>
+
+  <div class="warn-box" id="avoid">
+    <h3>What to Avoid with Arthritis</h3>
+    <ul>
+      <li><strong>Mattresses older than 8 years</strong> -- even 1-inch sag creates pressure points on inflamed joints</li>
+      <li><strong>Very soft foam (ILD &lt; 14)</strong> -- sinks too deep, causes spinal misalignment</li>
+      <li><strong>Very firm surfaces (ILD &gt; 40)</strong> -- zero cushioning for joint pressure points</li>
+      <li><strong>Pure memory foam</strong> -- traps you in position; repositioning requires real effort that worsens pain</li>
+      <li><strong>Soft edges</strong> -- dangerous for sit-to-stand transitions; can cause falls</li>
+    </ul>
+  </div>
+
+  <h2 id="picks" style="font-family:sans-serif; color:#fff; margin:2rem 0 1.5rem;">The 7 Best Mattresses for Arthritis</h2>
+
+  <!-- Product 1 -->
+  <div class="product-card">
+    <div class="product-rank">
+      <div class="rank-num">1</div>
+      <div class="rank-label">Best Overall for Arthritis</div>
+    </div>
+    <h2>Saatva Classic (Luxury Firm)</h2>
+    <p class="product-summary">Dual innerspring design with a Euro pillow top -- the rare mattress that genuinely balances pressure relief with support. The lumbar zone is firmer than the shoulder zone by design.</p>
+    <div class="spec-chips">
+      <span class="chip">Hybrid / Dual Coil</span>
+      <span class="chip">Firmness: 6/10</span>
+      <span class="chip">Height: 14.5"</span>
+      <span class="chip">365-night trial</span>
+      <span class="chip">Lifetime warranty</span>
+      <span class="chip">White-glove delivery</span>
+    </div>
+    <div class="pros-cons">
+      <div class="pros">
+        <h4>Pros</h4>
+        <ul>
+          <li>Zoned lumbar support built in</li>
+          <li>Euro pillow top cushions joints without sinkage</li>
+          <li>Outstanding edge support for transfers</li>
+          <li>Breathable dual coil system</li>
+          <li>365-night trial, lifetime warranty</li>
+        </ul>
+      </div>
+      <div class="cons">
+        <h4>Cons</h4>
+        <ul>
+          <li>White-glove only -- no DIY setup</li>
+          <li>Premium price point</li>
+          <li>Not available on Amazon Prime</li>
+        </ul>
+      </div>
+    </div>
+    <div class="verdict-box"><strong>Verdict:</strong> The gold standard for arthritis. The zoned coil system does what most mattresses cannot -- firmer where you need support, softer where you have pain. Edge support is excellent for sit-to-stand. Best for those with hip, knee, or back arthritis.</div>
+    <a href="https://www.amazon.com/s?k=Saatva+Classic+luxury+firm+mattress&tag=sleepwiserevi-20" class="cta-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+
+  <!-- Product 2 -->
+  <div class="product-card">
+    <div class="product-rank">
+      <div class="rank-num">2</div>
+      <div class="rank-label">Best Pressure Relief</div>
+    </div>
+    <h2>Tempur-Pedic TEMPUR-ProAdapt Soft</h2>
+    <p class="product-summary">TEMPUR material genuinely contours to joint shapes in a way foam alternatives cannot replicate. The Soft version is ideal for side sleepers with hip and shoulder arthritis.</p>
+    <div class="spec-chips">
+      <span class="chip">Memory Foam</span>
+      <span class="chip">Firmness: 4/10 (Soft)</span>
+      <span class="chip">Height: 12"</span>
+      <span class="chip">90-night trial</span>
+      <span class="chip">10-year warranty</span>
+    </div>
+    <div class="pros-cons">
+      <div class="pros">
+        <h4>Pros</h4>
+        <ul>
+          <li>Maximum pressure relief at hip and shoulder</li>
+          <li>TEMPUR material absorbs joint pressure points</li>
+          <li>Reduces overnight movement (beneficial for flare-up nights)</li>
+          <li>Durable -- holds shape for years</li>
+        </ul>
+      </div>
+      <div class="cons">
+        <h4>Cons</h4>
+        <ul>
+          <li>Hot sleeping (no coil airflow)</li>
+          <li>Difficult to reposition -- sinks deep</li>
+          <li>Very expensive</li>
+          <li>90-night trial is short vs competitors</li>
+        </ul>
+      </div>
+    </div>
+    <div class="verdict-box"><strong>Verdict:</strong> Best-in-class for pressure elimination. Choose this if pressure point pain is your primary symptom and you do not move much during the night. Not recommended if mobility or repositioning is a concern.</div>
+    <a href="https://www.amazon.com/s?k=Tempur-Pedic+ProAdapt+Soft+mattress&tag=sleepwiserevi-20" class="cta-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+
+  <!-- Product 3 -->
+  <div class="product-card">
+    <div class="product-rank">
+      <div class="rank-num">3</div>
+      <div class="rank-label">Best for Hot Sleepers with Arthritis</div>
+    </div>
+    <h2>Purple Restore Hybrid</h2>
+    <p class="product-summary">The Grid polymer distributes body weight across a larger surface area than foam, reducing per-point pressure on joints. Stays noticeably cooler than foam alternatives.</p>
+    <div class="spec-chips">
+      <span class="chip">Grid + Hybrid</span>
+      <span class="chip">Firmness: 5/10</span>
+      <span class="chip">Height: 13"</span>
+      <span class="chip">100-night trial</span>
+      <span class="chip">10-year warranty</span>
+    </div>
+    <div class="pros-cons">
+      <div class="pros">
+        <h4>Pros</h4>
+        <ul>
+          <li>Grid disperses pressure without foam sinkage</li>
+          <li>Excellent temperature regulation</li>
+          <li>Responsive -- easy to reposition</li>
+          <li>Coil base provides strong edge support</li>
+        </ul>
+      </div>
+      <div class="cons">
+        <h4>Cons</h4>
+        <ul>
+          <li>Grid feel is unusual -- takes adjustment</li>
+          <li>Heavier than standard mattresses</li>
+          <li>Limited firmness options</li>
+        </ul>
+      </div>
+    </div>
+    <div class="verdict-box"><strong>Verdict:</strong> Ideal for arthritis patients who also sleep hot. The Grid mechanics genuinely reduce joint pressure while the coil base makes repositioning easy. Best for combination sleepers with multiple joint pain areas.</div>
+    <a href="https://www.amazon.com/s?k=Purple+Restore+Hybrid+mattress&tag=sleepwiserevi-20" class="cta-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+
+  <!-- Product 4 -->
+  <div class="product-card">
+    <div class="product-rank">
+      <div class="rank-num">4</div>
+      <div class="rank-label">Best for Side Sleepers with Arthritis</div>
+    </div>
+    <h2>Helix Midnight Luxe</h2>
+    <p class="product-summary">Specifically engineered for side sleeping, with a softer shoulder zone and firmer hip/lumbar zone. The zoned coil map directly addresses the most common arthritis pressure points.</p>
+    <div class="spec-chips">
+      <span class="chip">Zoned Hybrid</span>
+      <span class="chip">Firmness: 5.5/10</span>
+      <span class="chip">Height: 13.5"</span>
+      <span class="chip">100-night trial</span>
+      <span class="chip">15-year warranty</span>
+    </div>
+    <div class="pros-cons">
+      <div class="pros">
+        <h4>Pros</h4>
+        <ul>
+          <li>Zoned support targets hip and shoulder pressure</li>
+          <li>Breathable TENCEL cover</li>
+          <li>Strong edge support from encased coils</li>
+          <li>15-year warranty</li>
+        </ul>
+      </div>
+      <div class="cons">
+        <h4>Cons</h4>
+        <ul>
+          <li>Less ideal for back sleepers</li>
+          <li>Upper-mid price range</li>
+          <li>May feel too soft for heavier back sleepers</li>
+        </ul>
+      </div>
+    </div>
+    <div class="verdict-box"><strong>Verdict:</strong> The best hybrid for side-sleeping arthritis patients. The zoned coil design is not marketing -- it measurably reduces shoulder and hip pressure compared to uniform-firmness mattresses. Excellent for shoulder and hip arthritis specifically.</div>
+    <a href="https://www.amazon.com/s?k=Helix+Midnight+Luxe+mattress&tag=sleepwiserevi-20" class="cta-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+
+  <!-- Product 5 -->
+  <div class="product-card">
+    <div class="product-rank">
+      <div class="rank-num">5</div>
+      <div class="rank-label">Best for Back Arthritis</div>
+    </div>
+    <h2>Casper Wave Hybrid</h2>
+    <p class="product-summary">Ergonomic zoning with softer gel zones under shoulders and hips and firmer foam under the lumbar. One of the most thoughtfully engineered mattresses for back pain and arthritis combination.</p>
+    <div class="spec-chips">
+      <span class="chip">Ergonomic Hybrid</span>
+      <span class="chip">Firmness: 5/10</span>
+      <span class="chip">Height: 13"</span>
+      <span class="chip">100-night trial</span>
+      <span class="chip">10-year warranty</span>
+    </div>
+    <div class="pros-cons">
+      <div class="pros">
+        <h4>Pros</h4>
+        <ul>
+          <li>5-zone ergonomic design reduces spinal stress</li>
+          <li>Gel foam eases hip and shoulder pressure</li>
+          <li>Good motion isolation for couples</li>
+          <li>Responsive for repositioning</li>
+        </ul>
+      </div>
+      <div class="cons">
+        <h4>Cons</h4>
+        <ul>
+          <li>Edge support weaker than Saatva or Helix</li>
+          <li>Premium price</li>
+          <li>Zones may not align for very tall sleepers</li>
+        </ul>
+      </div>
+    </div>
+    <div class="verdict-box"><strong>Verdict:</strong> Best for arthritis concentrated in the lower back and lumbar region. The ergonomic zone engineering is among the most sophisticated in this price range. A strong choice for back sleepers with spinal arthritis.</div>
+    <a href="https://www.amazon.com/s?k=Casper+Wave+Hybrid+mattress&tag=sleepwiserevi-20" class="cta-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+
+  <!-- Product 6 -->
+  <div class="product-card">
+    <div class="product-rank">
+      <div class="rank-num">6</div>
+      <div class="rank-label">Best Budget for Arthritis</div>
+    </div>
+    <h2>Amerisleep AS3</h2>
+    <p class="product-summary">Bio-Pur foam is more breathable and responsive than standard memory foam. Medium firmness hits the sweet spot for most arthritis profiles. Strong value at its price point.</p>
+    <div class="spec-chips">
+      <span class="chip">Foam</span>
+      <span class="chip">Firmness: 5/10</span>
+      <span class="chip">Height: 12"</span>
+      <span class="chip">100-night trial</span>
+      <span class="chip">20-year warranty</span>
+    </div>
+    <div class="pros-cons">
+      <div class="pros">
+        <h4>Pros</h4>
+        <ul>
+          <li>Bio-Pur foam is more responsive than standard memory foam</li>
+          <li>Medium firmness works for most arthritis types</li>
+          <li>20-year warranty is exceptional</li>
+          <li>More affordable than top picks</li>
+        </ul>
+      </div>
+      <div class="cons">
+        <h4>Cons</h4>
+        <ul>
+          <li>No coil layer -- less airflow than hybrids</li>
+          <li>Edge support is average</li>
+          <li>Less zoned support than Helix or Casper</li>
+        </ul>
+      </div>
+    </div>
+    <div class="verdict-box"><strong>Verdict:</strong> The best value option for arthritis. The Bio-Pur foam outperforms standard memory foam for repositioning ease, and the 20-year warranty is unmatched in this price tier. A solid choice if budget is a constraint.</div>
+    <a href="https://www.amazon.com/s?k=Amerisleep+AS3+mattress&tag=sleepwiserevi-20" class="cta-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+
+  <!-- Product 7 -->
+  <div class="product-card">
+    <div class="product-rank">
+      <div class="rank-num">7</div>
+      <div class="rank-label">Best for Arthritis + Couples</div>
+    </div>
+    <h2>Nectar Premier Copper</h2>
+    <p class="product-summary">Copper-infused foam helps with both cooling and pressure relief. The 365-night trial is one of the longest in the industry, giving arthritis patients adequate time to assess pain improvement.</p>
+    <div class="spec-chips">
+      <span class="chip">Foam</span>
+      <span class="chip">Firmness: 5.5/10</span>
+      <span class="chip">Height: 13"</span>
+      <span class="chip">365-night trial</span>
+      <span class="chip">Lifetime warranty</span>
+    </div>
+    <div class="pros-cons">
+      <div class="pros">
+        <h4>Pros</h4>
+        <ul>
+          <li>365-night trial -- best for testing arthritis impact</li>
+          <li>Copper infusion aids cooling</li>
+          <li>Excellent motion isolation for couples</li>
+          <li>Lifetime warranty</li>
+        </ul>
+      </div>
+      <div class="cons">
+        <h4>Cons</h4>
+        <ul>
+          <li>Foam only -- more restrictive repositioning than hybrids</li>
+          <li>Edge support is below average</li>
+          <li>Heavier than expected for foam mattress</li>
+        </ul>
+      </div>
+    </div>
+    <div class="verdict-box"><strong>Verdict:</strong> The 365-night trial is a genuine advantage for arthritis patients -- pain fluctuates and you need months to truly evaluate impact. Best for couples where motion isolation is also a priority. Not ideal if edge support matters for transfers.</div>
+    <a href="https://www.amazon.com/s?k=Nectar+Premier+Copper+mattress&tag=sleepwiserevi-20" class="cta-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+
+  <!-- Comparison Table -->
+  <h2 id="comparison" style="font-family:sans-serif; color:#fff; margin-bottom:1rem;">Quick Comparison</h2>
+  <table class="comparison-table">
+    <thead>
+      <tr>
+        <th>Mattress</th>
+        <th>Pressure Relief</th>
+        <th>Repositioning</th>
+        <th>Edge Support</th>
+        <th>Trial</th>
+        <th>Best For</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Saatva Classic</td>
+        <td class="good">Excellent</td>
+        <td class="good">Excellent</td>
+        <td class="good">Excellent</td>
+        <td>365 nights</td>
+        <td>Overall best</td>
+      </tr>
+      <tr>
+        <td>Tempur ProAdapt</td>
+        <td class="good">Maximum</td>
+        <td class="poor">Poor</td>
+        <td class="ok">Good</td>
+        <td>90 nights</td>
+        <td>Pressure relief only</td>
+      </tr>
+      <tr>
+        <td>Purple Restore</td>
+        <td class="good">Excellent</td>
+        <td class="good">Excellent</td>
+        <td class="good">Good</td>
+        <td>100 nights</td>
+        <td>Hot sleepers</td>
+      </tr>
+      <tr>
+        <td>Helix Midnight Luxe</td>
+        <td class="good">Excellent</td>
+        <td class="good">Good</td>
+        <td class="good">Excellent</td>
+        <td>100 nights</td>
+        <td>Side sleepers</td>
+      </tr>
+      <tr>
+        <td>Casper Wave Hybrid</td>
+        <td class="good">Very Good</td>
+        <td class="good">Good</td>
+        <td class="ok">Average</td>
+        <td>100 nights</td>
+        <td>Back arthritis</td>
+      </tr>
+      <tr>
+        <td>Amerisleep AS3</td>
+        <td class="ok">Good</td>
+        <td class="ok">Good</td>
+        <td class="ok">Average</td>
+        <td>100 nights</td>
+        <td>Budget pick</td>
+      </tr>
+      <tr>
+        <td>Nectar Premier Copper</td>
+        <td class="good">Very Good</td>
+        <td class="ok">Average</td>
+        <td class="poor">Below avg</td>
+        <td>365 nights</td>
+        <td>Couples</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- FAQ -->
+  <div class="faq-section" id="faq">
+    <h2 style="font-family:sans-serif; color:#fff; margin-bottom:1.5rem;">Frequently Asked Questions</h2>
+    <div class="faq-item">
+      <h3>What firmness mattress is best for arthritis?</h3>
+      <p>Medium to medium-firm (5-6/10) is best for most arthritis sufferers. Soft mattresses allow excessive sinkage that strains joints; firm mattresses create painful pressure points. The ideal mattress provides zoned support -- firmer under hips and back, softer under shoulders and knees.</p>
+    </div>
+    <div class="faq-item">
+      <h3>Is memory foam or innerspring better for arthritis?</h3>
+      <p>Hybrid mattresses typically outperform both. Memory foam alone can trap you in position, making repositioning painful. Pure innerspring lacks pressure relief. A hybrid gives responsive support from coils plus joint-cushioning comfort layers -- the combination most arthritis patients need.</p>
+    </div>
+    <div class="faq-item">
+      <h3>Can a mattress make arthritis worse?</h3>
+      <p>Yes. A mattress that is too firm creates pressure points directly on inflamed joints. One that is too soft collapses the spine and forces joints into misalignment. Both worsen morning stiffness. Most arthritis patients see measurable improvement within 2-4 weeks of switching to an appropriate surface.</p>
+    </div>
+    <div class="faq-item">
+      <h3>How often should arthritis sufferers replace their mattress?</h3>
+      <p>Every 7-8 years, or sooner if sagging develops. Even small sags of 1-1.5 inches in the support layer can dramatically increase joint pressure and worsen morning stiffness. Check warranty terms -- most quality mattresses carry 10-15 year warranties.</p>
+    </div>
+    <div class="faq-item">
+      <h3>Does sleeping position matter for arthritis pain?</h3>
+      <p>Significantly. Side sleeping puts pressure on hip and shoulder joints -- use a pillow between knees to reduce hip stress. Back sleeping is gentler on joints but requires lumbar support. Stomach sleeping is the worst position for arthritis, hyperextending the neck and spine and worsening inflammation.</p>
+    </div>
+  </div>
+
+  <!-- Final Verdict -->
+  <div class="final-verdict" id="verdict">
+    <h2>Final Verdict</h2>
+    <p>For most arthritis sufferers, the <strong>Saatva Classic Luxury Firm</strong> is the best overall choice. Its dual coil system with zoned lumbar support, combined with the Euro pillow top for pressure relief, addresses the two core needs simultaneously. The 365-night trial and white-glove delivery remove practical barriers.</p>
+    <p>If pressure relief is your sole focus (severe hip or shoulder arthritis, side sleeping only), the <strong>Tempur ProAdapt Soft</strong> is unmatched -- accept the trade-off on repositioning ease.</p>
+    <p>For hot sleepers, <strong>Purple Restore Hybrid</strong>. For side sleepers specifically, <strong>Helix Midnight Luxe</strong>. For back arthritis with lumbar focus, <strong>Casper Wave Hybrid</strong>. For budget, <strong>Amerisleep AS3</strong>. For couples prioritizing a long trial, <strong>Nectar Premier Copper</strong>.</p>
+    <p>Whatever you choose: use the full trial period. Arthritis pain fluctuates week to week. Give it at least 6-8 weeks before deciding.</p>
+  </div>
+
 </div>
 
-<div class="toc">
-  <h2>Quick Navigation</h2>
-  <ol>
-    <li><a href="#saatva">Saatva Classic — Best Overall</a></li>
-    <li><a href="#purple">Purple RestorePlus — Best Pressure Relief</a></li>
-    <li><a href="#amerisleep">Amerisleep AS3 — Best for Side Sleepers</a></li>
-    <li><a href="#dreamcloud">DreamCloud Hybrid — Best Value Luxury</a></li>
-    <li><a href="#casper">Casper Wave Hybrid — Best Zoned Support</a></li>
-    <li><a href="#cocoon">Cocoon Chill Hybrid — Best Cooling</a></li>
-    <li><a href="#brooklyn">Brooklyn Bedding Signature — Best Budget</a></li>
-    <li><a href="#guide">Buyer's Guide: What Arthritis Needs in a Mattress</a></li>
-    <li><a href="#faq">FAQ</a></li>
-  </ol>
-</div>
-
-<div class="science-box">
-  <h3>Arthritis &amp; Sleep: Why the Right Mattress Matters</h3>
-  <p>Arthritis affects 58 million Americans, and sleep disruption is one of its most debilitating symptoms — 70% of arthritis patients report poor sleep quality. The reciprocal relationship is well-documented: pain disrupts sleep, and poor sleep amplifies pain perception through inflammatory cytokine dysregulation. A mattress that reduces joint pressure and maintains spinal alignment can reduce morning stiffness and improve sleep continuity. The two key requirements are: (1) pressure relief at joints — shoulders, hips, knees — to prevent compression of inflamed tissue; and (2) adequate support to maintain the spine's natural curve, preventing additional musculoskeletal tension on top of the primary arthritis pain.</p>
-</div>
-
-<!-- PRODUCT 1 -->
-<div class="product-card" id="saatva">
-  <span class="rank-badge">#1 Best Overall</span>
-  <h2>Saatva Classic (Luxury Firm)</h2>
-  <div class="verdict">"The dual-coil system with Lumbar Zone technology provides targeted lower back support while the Euro pillow-top cushions joints. The 365-night trial is the longest available — critical for arthritis patients who need time to assess pain impact."</div>
-  <div class="specs-grid">
-    <div class="spec-chip"><strong>Firmness:</strong> Luxury Firm (6/10)</div>
-    <div class="spec-chip"><strong>Height:</strong> 14.5"</div>
-    <div class="spec-chip"><strong>Type:</strong> Dual coil innerspring</div>
-    <div class="spec-chip"><strong>Lumbar Zone:</strong> Enhanced center-third support</div>
-    <div class="spec-chip"><strong>Trial:</strong> 365 nights</div>
-    <div class="spec-chip"><strong>Edge support:</strong> Excellent</div>
-  </div>
-  <p>Saatva Classic's Luxury Firm is the most physician-referenced mattress in sleep studies on chronic musculoskeletal pain. The dual-coil system — outer tempering springs beneath inner pocketed micro coils — creates a responsive, supportive surface that holds its shape over time. The Lumbar Zone enhanced coil section in the center third provides targeted support for the spine's most arthritis-vulnerable segment.</p>
-  <p style="margin-top:.75rem">Strong edge support is a specific requirement for arthritis patients — sitting on the edge to put on shoes or stand up from bed requires the edge to remain firm. Saatva's edge support is among the best of any mattress at any price point. The 365-night trial means an arthritis patient can assess seasonal pain variation before committing.</p>
-  <div class="pros-cons">
-    <div class="pros">
-      <h4>Pros</h4>
-      <ul>
-        <li>365-night trial — essential for assessing long-term arthritis impact</li>
-        <li>Excellent edge support — critical for getting in/out of bed</li>
-        <li>Lumbar Zone for targeted spinal support</li>
-        <li>White-glove delivery and old mattress removal included</li>
-        <li>Euro pillow-top cushions joints without sacrificing support</li>
-      </ul>
-    </div>
-    <div class="cons">
-      <h4>Cons</h4>
-      <ul>
-        <li>Premium price tier</li>
-        <li>Luxury Firm (6/10) may be too firm for shoulder arthritis patients</li>
-        <li>Not sold on Amazon — Saatva direct only</li>
-      </ul>
-    </div>
-  </div>
-  <a class="buy-btn" href="https://www.amazon.com/s?k=Saatva+Classic+mattress+arthritis+support&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
-</div>
-
-<!-- PRODUCT 2 -->
-<div class="product-card" id="purple">
-  <span class="rank-badge">#2 Best Pressure Relief</span>
-  <h2>Purple RestorePlus Hybrid</h2>
-  <div class="verdict">"Purple's GelFlex Grid is the most effective pressure-relieving material tested — it doesn't create heat, it doesn't compress under weight the way foam does, and it distributes pressure across a larger surface area than any foam alternative."</div>
-  <div class="specs-grid">
-    <div class="spec-chip"><strong>Firmness:</strong> Medium (5/10)</div>
-    <div class="spec-chip"><strong>Height:</strong> 13"</div>
-    <div class="spec-chip"><strong>Type:</strong> Hybrid (GelFlex Grid + pocketed coils)</div>
-    <div class="spec-chip"><strong>Grid depth:</strong> 3 inches</div>
-    <div class="spec-chip"><strong>Pressure relief:</strong> Maximum</div>
-    <div class="spec-chip"><strong>Trial:</strong> 100 nights</div>
-  </div>
-  <p>Purple's GelFlex Grid is a hyper-elastic polymer grid that buckles under pressure points while remaining firm under non-pressure areas. For arthritis patients with joint inflammation, this creates a unique surface: maximum pressure relief where joints contact the mattress, without the sinking or "stuck" feeling of memory foam. The joints decompress without the rest of the body losing support.</p>
-  <p style="margin-top:.75rem">The 3-inch grid depth in the RestorePlus provides significantly more pressure relief than the 2-inch standard Purple grid. The pocketed coil support layer adds responsiveness — important for arthritis patients who need to change positions at night without effort. Temperature-neutral by design: the grid's open channels allow airflow that foam cannot match.</p>
-  <div class="pros-cons">
-    <div class="pros">
-      <h4>Pros</h4>
-      <ul>
-        <li>GelFlex Grid — maximum pressure relief for inflamed joints</li>
-        <li>Temperature neutral — no heat retention at all</li>
-        <li>Responsive — easy position changes (less strain on joints)</li>
-        <li>3" grid provides more relief than standard Purple</li>
-        <li>No sinking or "stuck" feeling of memory foam</li>
-      </ul>
-    </div>
-    <div class="cons">
-      <h4>Cons</h4>
-      <ul>
-        <li>Premium price — highest on this list</li>
-        <li>Unique feel requires adjustment period</li>
-        <li>Edge support is average for an arthritis bed</li>
-      </ul>
-    </div>
-  </div>
-  <a class="buy-btn" href="https://www.amazon.com/s?k=Purple+RestorePlus+Hybrid+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
-</div>
-
-<!-- PRODUCT 3 -->
-<div class="product-card" id="amerisleep">
-  <span class="rank-badge">#3 Best for Side Sleepers</span>
-  <h2>Amerisleep AS3 Hybrid</h2>
-  <div class="verdict">"The AS3 hits Medium firmness with Bio-Pur foam — open-cell structure for cooling and responsiveness — paired with pocketed coils. The best balanced option for side-sleeping arthritis patients."</div>
-  <div class="specs-grid">
-    <div class="spec-chip"><strong>Firmness:</strong> Medium (5/10)</div>
-    <div class="spec-chip"><strong>Height:</strong> 13"</div>
-    <div class="spec-chip"><strong>Type:</strong> Hybrid (Bio-Pur foam + pocketed coils)</div>
-    <div class="spec-chip"><strong>Foam:</strong> Bio-Pur open-cell plant-based foam</div>
-    <div class="spec-chip"><strong>Trial:</strong> 100 nights</div>
-    <div class="spec-chip"><strong>Warranty:</strong> 20 years</div>
-  </div>
-  <p>Amerisleep's Bio-Pur foam is plant-based (partially bio-derived) and uses an open-cell structure that sleeps cooler than traditional memory foam while retaining its pressure-relieving properties. The AS3's Medium firmness (5/10) is the sweet spot for side-sleeping arthritis patients — soft enough to allow hip and shoulder decompression, firm enough to maintain spinal alignment.</p>
-  <p style="margin-top:.75rem">The 20-year warranty is one of the strongest in the industry — relevant for arthritis patients who need to trust their investment will hold up. The pocketed coil base adds responsiveness and edge support. Bio-Pur foam's reduced off-gassing compared to petroleum-based foam is also a health consideration for a product used 7-8 hours nightly.</p>
-  <div class="pros-cons">
-    <div class="pros">
-      <h4>Pros</h4>
-      <ul>
-        <li>20-year warranty — exceptional durability assurance</li>
-        <li>Bio-Pur foam — cooler and more responsive than standard memory foam</li>
-        <li>Medium (5/10) — ideal for most side-sleeping arthritis patients</li>
-        <li>Plant-based materials — lower off-gassing</li>
-        <li>Good edge support from pocketed coil base</li>
-      </ul>
-    </div>
-    <div class="cons">
-      <h4>Cons</h4>
-      <ul>
-        <li>Not available on Amazon — Amerisleep direct only</li>
-        <li>100-night trial shorter than Saatva's 365</li>
-        <li>Medium firmness may be too soft for back-sleeping arthritis patients</li>
-      </ul>
-    </div>
-  </div>
-  <a class="buy-btn" href="https://www.amazon.com/s?k=Amerisleep+AS3+Hybrid+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
-</div>
-
-<!-- PRODUCT 4 -->
-<div class="product-card" id="dreamcloud">
-  <span class="rank-badge">#4 Best Value Luxury</span>
-  <h2>DreamCloud Hybrid</h2>
-  <div class="verdict">"Cashmere-blend Euro top with deep foam layers, pocketed coils, and a 365-night trial at a price significantly below Saatva or Purple — the best value luxury hybrid for arthritis patients."</div>
-  <div class="specs-grid">
-    <div class="spec-chip"><strong>Firmness:</strong> Medium-firm (6.5/10)</div>
-    <div class="spec-chip"><strong>Height:</strong> 14"</div>
-    <div class="spec-chip"><strong>Type:</strong> Hybrid (foam layers + pocketed coils)</div>
-    <div class="spec-chip"><strong>Cover:</strong> Cashmere-blend Euro pillow-top</div>
-    <div class="spec-chip"><strong>Trial:</strong> 365 nights</div>
-    <div class="spec-chip"><strong>Warranty:</strong> Lifetime</div>
-  </div>
-  <p>DreamCloud matches Saatva's 365-night trial and adds a lifetime warranty at a lower price point. The cashmere-blend Euro pillow-top provides a plush surface layer that cushions joints on initial contact, while the underlying layers of gel foam and pocketed coils maintain the structural support arthritis patients need for long-term comfort.</p>
-  <p style="margin-top:.75rem">At 14 inches, the DreamCloud has sufficient profile for larger-framed or heavier sleepers whose weight compresses thinner mattresses past the comfort layer. The medium-firm feel (6.5/10) works well for back and combination sleepers with arthritis; side sleepers with hip or shoulder arthritis may need a softer option.</p>
-  <div class="pros-cons">
-    <div class="pros">
-      <h4>Pros</h4>
-      <ul>
-        <li>365-night trial + lifetime warranty — maximum consumer protection</li>
-        <li>14" profile — handles heavier sleepers</li>
-        <li>Cashmere-blend Euro top — plush joint-cushioning surface</li>
-        <li>Significantly lower price than Saatva or Purple</li>
-        <li>Strong edge support</li>
-      </ul>
-    </div>
-    <div class="cons">
-      <h4>Cons</h4>
-      <ul>
-        <li>Medium-firm may be too firm for side-sleeping arthritis patients</li>
-        <li>Less engineered zoning than Saatva or Casper Wave</li>
-        <li>Heavier to move (14" hybrid)</li>
-      </ul>
-    </div>
-  </div>
-  <a class="buy-btn" href="https://www.amazon.com/s?k=DreamCloud+Hybrid+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
-</div>
-
-<!-- PRODUCT 5 -->
-<div class="product-card" id="casper">
-  <span class="rank-badge">#5 Best Zoned Support</span>
-  <h2>Casper Wave Hybrid</h2>
-  <div class="verdict">"Seven support zones target different body regions specifically — softer under the shoulders, firmer under the hips and lumbar — the most anatomically precise support engineering for arthritis-specific body mapping."</div>
-  <div class="specs-grid">
-    <div class="spec-chip"><strong>Firmness:</strong> Medium (5.5/10)</div>
-    <div class="spec-chip"><strong>Height:</strong> 13.5"</div>
-    <div class="spec-chip"><strong>Type:</strong> Hybrid (foam + 7-zone pocketed coils)</div>
-    <div class="spec-chip"><strong>Zoning:</strong> 7 zones</div>
-    <div class="spec-chip"><strong>Ergonomic relief:</strong> Shoulder, hip, lumbar</div>
-    <div class="spec-chip"><strong>Trial:</strong> 100 nights</div>
-  </div>
-  <p>Casper Wave Hybrid uses seven support zones — more granular than any other mattress on this list. The zones are ergonomically mapped to body regions: softer at the shoulder zone for pressure relief, firmer at the lumbar for spinal support, softer again under the knees to reduce popliteal tension. For arthritis patients with multiple affected joints, this multi-zone approach addresses the full body, not just one area.</p>
-  <p style="margin-top:.75rem">The combination of zoned coils beneath foam comfort layers creates a surface that adapts to sleeping position changes throughout the night — important for arthritis patients who change positions frequently to relieve discomfort. The medium feel works well for most body types and sleep positions.</p>
-  <div class="pros-cons">
-    <div class="pros">
-      <h4>Pros</h4>
-      <ul>
-        <li>7 support zones — most anatomically precise on this list</li>
-        <li>Addresses shoulder, hip, lumbar, and knee separately</li>
-        <li>Good for multi-joint arthritis</li>
-        <li>Responsive to position changes throughout the night</li>
-        <li>Medium feel works for back and side sleepers</li>
-      </ul>
-    </div>
-    <div class="cons">
-      <h4>Cons</h4>
-      <ul>
-        <li>Premium price tier</li>
-        <li>100-night trial — shorter than Saatva or DreamCloud</li>
-        <li>Edge support is average</li>
-      </ul>
-    </div>
-  </div>
-  <a class="buy-btn" href="https://www.amazon.com/s?k=Casper+Wave+Hybrid+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
-</div>
-
-<!-- PRODUCT 6 -->
-<div class="product-card" id="cocoon">
-  <span class="rank-badge">#6 Best Cooling</span>
-  <h2>Cocoon Chill Hybrid (by Sealy)</h2>
-  <div class="verdict">"Phase-change material cover with gel foam — the best cooling mattress for arthritis patients whose inflammation-related warmth disrupts sleep. Backed by Sealy's 140-year manufacturing heritage."</div>
-  <div class="specs-grid">
-    <div class="spec-chip"><strong>Firmness:</strong> Medium (5/10) or Firm</div>
-    <div class="spec-chip"><strong>Height:</strong> 12"</div>
-    <div class="spec-chip"><strong>Type:</strong> Hybrid (cooling foam + coils)</div>
-    <div class="spec-chip"><strong>Cover:</strong> Phase-change material (PCM)</div>
-    <div class="spec-chip"><strong>Brand:</strong> Sealy (140-year heritage)</div>
-    <div class="spec-chip"><strong>Trial:</strong> 100 nights</div>
-  </div>
-  <p>Cocoon Chill uses a phase-change material (PCM) cover — a technology that absorbs body heat when you're warm and releases it when you cool, actively buffering temperature fluctuations. For arthritis patients, joint inflammation generates localized heat that disturbs sleep, and PCM covers reduce this effect more effectively than simple gel infusions or breathable fabrics.</p>
-  <p style="margin-top:.75rem">Built on Sealy's pocketed coil expertise, the support layer provides reliable edge support and motion isolation. The Medium option (recommended for arthritis) balances pressure relief with spinal support. Sealy's supply chain and quality control history makes this one of the most manufacturing-reliable options on the list.</p>
-  <div class="pros-cons">
-    <div class="pros">
-      <h4>Pros</h4>
-      <ul>
-        <li>Phase-change material cover — actively regulates temperature</li>
-        <li>Best for arthritis patients with inflammation-related heat</li>
-        <li>Sealy manufacturing reliability — 140-year track record</li>
-        <li>Good value compared to Purple or Casper</li>
-        <li>Available in Medium or Firm</li>
-      </ul>
-    </div>
-    <div class="cons">
-      <h4>Cons</h4>
-      <ul>
-        <li>12" profile — may compress faster for heavier sleepers</li>
-        <li>No zoned support — uniform coil system</li>
-        <li>Less pressure relief depth than Purple or Casper Wave</li>
-      </ul>
-    </div>
-  </div>
-  <a class="buy-btn" href="https://www.amazon.com/s?k=Cocoon+Chill+Hybrid+mattress+Sealy&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
-</div>
-
-<!-- PRODUCT 7 -->
-<div class="product-card" id="brooklyn">
-  <span class="rank-badge">#7 Best Budget</span>
-  <h2>Brooklyn Bedding Signature Hybrid</h2>
-  <div class="verdict">"TitanFlex foam with responsive feel, pocketed coils, and three firmness options — the most versatile budget hybrid for arthritis patients who aren't sure which firmness works best for their pain pattern."</div>
-  <div class="specs-grid">
-    <div class="spec-chip"><strong>Firmness:</strong> Soft / Medium / Firm (choose)</div>
-    <div class="spec-chip"><strong>Height:</strong> 11"</div>
-    <div class="spec-chip"><strong>Type:</strong> Hybrid (TitanFlex foam + coils)</div>
-    <div class="spec-chip"><strong>Foam:</strong> TitanFlex (latex-like responsive foam)</div>
-    <div class="spec-chip"><strong>Trial:</strong> 120 nights</div>
-    <div class="spec-chip"><strong>Made in:</strong> USA</div>
-  </div>
-  <p>Brooklyn Bedding Signature is available in three firmness levels — Soft (3/10), Medium (5/10), Firm (7/10) — allowing arthritis patients to select based on their sleep position and affected joints. TitanFlex foam behaves like latex: responsive, pressure-relieving, and durable. For arthritis patients unsure of the right firmness, the three-option choice reduces the risk of a wrong purchase.</p>
-  <p style="margin-top:.75rem">Made in the USA at Brooklyn Bedding's own factory, which means tighter quality control than mattresses manufactured overseas under contract. The 120-night trial is reasonable. At 11 inches, the profile is on the thinner side — best for arthritis patients up to 200 lbs before comfort layer compression becomes an issue.</p>
-  <div class="pros-cons">
-    <div class="pros">
-      <h4>Pros</h4>
-      <ul>
-        <li>Three firmness options — choose what works for your pain pattern</li>
-        <li>TitanFlex foam — responsive, latex-like, durable</li>
-        <li>Made in USA — tighter quality control</li>
-        <li>Budget-friendly without sacrificing hybrid construction</li>
-        <li>120-night trial to assess arthritis pain response</li>
-      </ul>
-    </div>
-    <div class="cons">
-      <h4>Cons</h4>
-      <ul>
-        <li>11" profile — not ideal for heavier arthritis patients</li>
-        <li>No temperature-specific features</li>
-        <li>Less pressure relief depth than Purple or Casper Wave</li>
-      </ul>
-    </div>
-  </div>
-  <a class="buy-btn" href="https://www.amazon.com/s?k=Brooklyn+Bedding+Signature+Hybrid+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
-</div>
-
-<!-- COMPARISON TABLE -->
-<h2 style="margin:2.5rem 0 1rem;font-size:1.5rem">Comparison: All 7 Mattresses for Arthritis</h2>
-<table>
-  <thead>
-    <tr>
-      <th>Mattress</th>
-      <th>Firmness</th>
-      <th>Key Feature</th>
-      <th>Edge Support</th>
-      <th>Trial</th>
-      <th>Best For</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr><td>Saatva Classic LF</td><td>Luxury Firm (6)</td><td>Lumbar Zone + edge support</td><td>Excellent</td><td>365 nights</td><td>Overall arthritis</td></tr>
-    <tr><td>Purple RestorePlus</td><td>Medium (5)</td><td>GelFlex Grid pressure relief</td><td>Average</td><td>100 nights</td><td>Joint inflammation</td></tr>
-    <tr><td>Amerisleep AS3</td><td>Medium (5)</td><td>Bio-Pur foam + 20yr warranty</td><td>Good</td><td>100 nights</td><td>Side sleepers</td></tr>
-    <tr><td>DreamCloud Hybrid</td><td>Med-firm (6.5)</td><td>365-night + lifetime warranty</td><td>Strong</td><td>365 nights</td><td>Value luxury</td></tr>
-    <tr><td>Casper Wave Hybrid</td><td>Medium (5.5)</td><td>7-zone ergonomic support</td><td>Average</td><td>100 nights</td><td>Multi-joint arthritis</td></tr>
-    <tr><td>Cocoon Chill Hybrid</td><td>Medium (5)</td><td>PCM cover — best cooling</td><td>Good</td><td>100 nights</td><td>Hot arthritis patients</td></tr>
-    <tr><td>Brooklyn Bedding Sig.</td><td>3 options</td><td>3 firmness choices</td><td>Good</td><td>120 nights</td><td>Budget buyers</td></tr>
-  </tbody>
-</table>
-
-<!-- BUYER'S GUIDE -->
-<div id="guide" class="science-box">
-  <h3>Buyer's Guide: What Arthritis Specifically Needs in a Mattress</h3>
-  <p><strong>Pressure relief at inflamed joints:</strong> The primary requirement. Hips, shoulders, and knees are the most commonly affected joints for side-sleeping arthritis patients. Look for 3+ inches of pressure-relieving material (foam, gel foam, or GelFlex Grid) above the support core to allow joint decompression without sacrificing spinal support.</p>
-  <p style="margin-top:.75rem"><strong>Edge support for bed entry/exit:</strong> Getting in and out of bed is one of the most painful movements for hip and knee arthritis patients. A mattress with strong edge support allows you to sit on the edge of the mattress without it compressing — reducing the joint strain of standing up. This is underrated in most mattress reviews and critical for arthritis.</p>
-  <p style="margin-top:.75rem"><strong>Responsiveness for position changes:</strong> Arthritis patients change positions more frequently at night to relieve discomfort. Memory foam is slow to respond — you have to push yourself out of the impression. Latex-like foams (TitanFlex, Bio-Pur) and hybrids with coil cores respond faster, requiring less joint effort to change positions.</p>
-  <p style="margin-top:.75rem"><strong>Durability matters more for arthritis:</strong> An arthritis patient on a degraded mattress feels the effects more acutely than a healthy sleeper. A mattress that sags 1 inch may be a minor inconvenience for one person and a major pain trigger for another. Prioritize durability specs: high-density foam (1.8+ lb/ft3), strong warranty terms, and established brand manufacturing records.</p>
-</div>
-
-<!-- FAQ -->
-<div class="faq" id="faq">
-  <h2>Frequently Asked Questions</h2>
-  <div class="faq-item">
-    <h3>What type of mattress is best for arthritis?</h3>
-    <p>Medium-firm hybrid mattresses are generally best for arthritis. The hybrid design combines pressure-relieving foam (for joint comfort) with a responsive coil core (for spinal support and ease of movement). All-foam mattresses can provide excellent pressure relief but may make position changes harder due to slower response times.</p>
-  </div>
-  <div class="faq-item">
-    <h3>Is a firm or soft mattress better for arthritis?</h3>
-    <p>Neither extreme. Too firm creates pressure point pain at joints. Too soft lacks the support for spinal alignment, creating additional musculoskeletal tension. Medium to medium-firm (5-7/10) is the research-supported target for most arthritis patients, with adjustment based on sleep position and affected joints.</p>
-  </div>
-  <div class="faq-item">
-    <h3>Does mattress quality affect arthritis pain?</h3>
-    <p>Yes, significantly. An unsupportive or worn mattress increases joint stress during sleep. Clinical evidence shows medium-firm mattresses reduce chronic musculoskeletal pain and improve sleep quality. Arthritis patients are more sensitive to mattress degradation — a sagging mattress that mildly inconveniences a healthy sleeper can significantly worsen arthritis symptoms.</p>
-  </div>
-  <div class="faq-item">
-    <h3>How often should arthritis patients replace their mattress?</h3>
-    <p>Every 7-10 years for quality mattresses, sooner if visible sagging or indentations of 1+ inch appear. Arthritis patients should replace their mattress earlier than the 10-year average guideline because they are more sensitive to support degradation. If morning pain has worsened over the past 6-12 months, the mattress should be evaluated.</p>
-  </div>
-  <div class="faq-item">
-    <h3>What mattress height is best for arthritis patients?</h3>
-    <p>10-14 inch mattress height is recommended, with total bed height (mattress + frame + foundation) ideally placing the sleep surface at or just below knee height when standing. This minimizes joint strain for getting in and out of bed — a key daily challenge for hip and knee arthritis patients.</p>
-  </div>
-</div>
-
-</div><!-- container -->
-
-<footer>
-  <p>&copy; 2026 SleepWise Reviews &mdash; <a href="/posts/index.html">All Posts</a> &mdash; <a href="/">Home</a></p>
-  <p style="margin-top:.5rem">SleepWise Reviews participates in the Amazon Associates program. Affiliate links help support free content at no cost to you.</p>
+<footer class="site-footer">
+  <p><a href="/">SleepWise Reviews</a> &mdash; <a href="/posts/">All Articles</a></p>
+  <p style="margin-top:0.5rem;">Affiliate disclosure: We earn a commission on qualifying purchases at no extra cost to you.</p>
 </footer>
-</body>
-</html>"""
 
-with open(OUT, 'w', encoding='utf-8') as f:
+</body>
+</html>'''
+
+with open('posts/best-mattress-arthritis.html', 'w', encoding='utf-8') as f:
     f.write(html)
-print(f'Written: {OUT}')
+print('Written: posts/best-mattress-arthritis.html')

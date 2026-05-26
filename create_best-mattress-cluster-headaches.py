@@ -1,0 +1,554 @@
+"""Generate posts/best-mattress-cluster-headaches.html"""
+import os
+
+OUT = os.path.join(os.path.dirname(__file__), 'posts', 'best-mattress-cluster-headaches.html')
+
+html = r"""<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>7 Best Mattresses for Cluster Headaches 2026 | SleepWise Reviews</title>
+<meta name="description" content="Best mattresses for cluster headaches: expert picks for REM architecture preservation, motion isolation, and cervical alignment. Clinically informed — 70% of cluster attacks occur during sleep.">
+<link rel="canonical" href="https://sleepwisereviews.com/posts/best-mattress-cluster-headaches.html">
+<meta property="og:title" content="7 Best Mattresses for Cluster Headaches 2026">
+<meta property="og:description" content="Cluster headaches strike during REM sleep. These mattresses reduce triggers: heat disruption, motion transfer, and poor cervical alignment that affects intracranial pressure.">
+<meta property="og:url" content="https://sleepwisereviews.com/posts/best-mattress-cluster-headaches.html">
+<meta property="og:type" content="article">
+<meta property="og:image" content="https://sleepwisereviews.com/assets/og-mattress-cluster-headaches.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="7 Best Mattresses for Cluster Headaches 2026">
+<meta name="twitter:description" content="REM fragmentation, head positioning, and sleep deprivation all extend cluster periods. These mattresses address each mechanism.">
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@graph":[
+    {
+      "@type":"Article",
+      "headline":"7 Best Mattresses for Cluster Headaches 2026",
+      "description":"Clinically informed mattress recommendations for cluster headache sufferers, addressing REM fragmentation, cervical alignment, and motion isolation during cluster periods.",
+      "url":"https://sleepwisereviews.com/posts/best-mattress-cluster-headaches.html",
+      "datePublished":"2026-05-26",
+      "dateModified":"2026-05-26",
+      "author":{"@type":"Organization","name":"SleepWise Reviews"},
+      "publisher":{"@type":"Organization","name":"SleepWise Reviews","url":"https://sleepwisereviews.com"}
+    },
+    {
+      "@type":"BreadcrumbList",
+      "itemListElement":[
+        {"@type":"ListItem","position":1,"name":"Home","item":"https://sleepwisereviews.com/"},
+        {"@type":"ListItem","position":2,"name":"Health & Sleep Conditions","item":"https://sleepwisereviews.com/posts/index.html#health--sleep-conditions"},
+        {"@type":"ListItem","position":3,"name":"Best Mattresses for Cluster Headaches","item":"https://sleepwisereviews.com/posts/best-mattress-cluster-headaches.html"}
+      ]
+    },
+    {
+      "@type":"ItemList",
+      "name":"Best Mattresses for Cluster Headaches 2026",
+      "itemListElement":[
+        {"@type":"ListItem","position":1,"name":"Purple RestorePlus Hybrid"},
+        {"@type":"ListItem","position":2,"name":"Tempur-Pedic TEMPUR-Breeze"},
+        {"@type":"ListItem","position":3,"name":"Helix Midnight Luxe"},
+        {"@type":"ListItem","position":4,"name":"Avocado Green Mattress (Natural Latex)"},
+        {"@type":"ListItem","position":5,"name":"Saatva Classic (Luxury Firm)"},
+        {"@type":"ListItem","position":6,"name":"Allswell Supreme Hybrid"},
+        {"@type":"ListItem","position":7,"name":"Stearns & Foster Estate Hybrid"}
+      ]
+    },
+    {
+      "@type":"FAQPage",
+      "mainEntity":[
+        {
+          "@type":"Question",
+          "name":"Why do cluster headaches strike during sleep?",
+          "acceptedAnswer":{"@type":"Answer","text":"Cluster headaches are trigeminal autonomic cephalalgias (TACs) with a strong circadian rhythm tied to the hypothalamus. Approximately 70% of attacks occur during sleep, most frequently during REM phases between 1 and 3 AM. The hypothalamus — which governs both the circadian clock and trigeminal pain pathways — becomes dysregulated during REM, triggering the characteristic unilateral orbital pain, lacrimation, and rhinorrhea that define cluster attacks."}
+        },
+        {
+          "@type":"Question",
+          "name":"Can a mattress trigger or worsen cluster headaches?",
+          "acceptedAnswer":{"@type":"Answer","text":"Yes, indirectly. A mattress that retains heat disrupts REM architecture, which can either trigger attacks or extend the cluster period. Motion transfer from a partner waking during the night causes micro-arousals from REM, shortening restorative sleep stages. Poor head and neck positioning on a mattress surface that is too soft or too firm affects internal jugular vein drainage and contributes to intracranial pressure fluctuations that may lower the attack threshold."}
+        },
+        {
+          "@type":"Question",
+          "name":"What sleep position is safest during a cluster headache period?",
+          "acceptedAnswer":{"@type":"Answer","text":"Back sleeping with a medium-firm mattress and a relatively low, supportive pillow is generally the safest position during cluster periods. Side sleeping on the affected side is contraindicated — the unilateral orbital pain and autonomic hypersensitivity (lacrimation, rhinorrhea, nasal congestion) make pressure on the affected side extremely uncomfortable. If side sleeping is preferred, sleep on the non-affected side with a mattress that provides adequate shoulder pressure relief without compressing the cervical structures."}
+        },
+        {
+          "@type":"Question",
+          "name":"Is memory foam or latex better for cluster headache sufferers?",
+          "acceptedAnswer":{"@type":"Answer","text":"Latex has advantages for cluster headache sufferers: it sleeps cooler than memory foam (which retains heat and can fragment REM), responds faster to position changes (important during an attack when repositioning is instinctive), and provides consistent support without the chemical off-gassing that can be a trigger for some TAC patients. However, the highest-priority factor is cooling and motion isolation — a well-engineered hybrid with gel or copper foam can match latex performance if it addresses heat retention."}
+        },
+        {
+          "@type":"Question",
+          "name":"How is a cluster headache mattress need different from a migraine mattress need?",
+          "acceptedAnswer":{"@type":"Answer","text":"Cluster headaches are unilateral, strictly nocturnal (70% during REM), and autonomic — meaning the affected side becomes hypersensitive to pressure. Mattress priorities are: REM preservation (cooling, motion isolation), non-affected-side pressure relief for side sleepers, and cervical neutral alignment. Migraines are typically bilateral, can occur at any time, and are primarily photophobia- and phonophobia-driven. Migraine mattress priorities lean more toward motion isolation and darkness support. The REM-specific mechanism and position restriction from the autonomic hypersensitivity make cluster headache mattress selection more specific."}
+        }
+      ]
+    }
+  ]
+}
+</script>
+<style>
+:root{--bg:#0a1628;--card:#111e33;--gold:#c9a84c;--text:#e8eaf0;--muted:#8892a4;--border:#1e2d45;--green:#2ecc71;--red:#e74c3c;--health:#dc2626}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:'Segoe UI',system-ui,sans-serif;line-height:1.7}
+a{color:var(--gold);text-decoration:none}
+a:hover{text-decoration:underline}
+header{background:var(--card);border-bottom:1px solid var(--border);padding:1rem 2rem;display:flex;align-items:center;gap:1rem}
+header a{color:var(--text);font-weight:700;font-size:1.1rem}
+nav{margin-left:auto;display:flex;gap:1.5rem}
+nav a{color:var(--muted);font-size:.9rem}
+.hero{background:linear-gradient(135deg,#0d1f3c,#1a2f50);padding:3rem 2rem;text-align:center}
+.hero h1{font-size:2.2rem;color:#fff;max-width:820px;margin:0 auto 1rem}
+.hero p{color:var(--muted);max-width:660px;margin:0 auto 1.5rem}
+.badge{display:inline-block;background:var(--health);color:#fff;font-size:.75rem;font-weight:700;padding:.25rem .75rem;border-radius:20px;text-transform:uppercase;letter-spacing:.05em;margin-bottom:.75rem}
+.container{max-width:900px;margin:0 auto;padding:2rem 1.5rem}
+.toc{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:1.5rem;margin-bottom:2.5rem}
+.toc h2{font-size:1rem;color:var(--gold);margin-bottom:1rem;text-transform:uppercase;letter-spacing:.05em}
+.toc ol{padding-left:1.2rem}
+.toc li{margin:.4rem 0;font-size:.9rem}
+.product-card{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:2rem;margin-bottom:2rem}
+.product-card h2{font-size:1.4rem;margin-bottom:.25rem}
+.rank-badge{display:inline-block;background:var(--gold);color:#000;font-size:.7rem;font-weight:700;padding:.15rem .6rem;border-radius:20px;margin-bottom:.75rem;text-transform:uppercase}
+.verdict{background:#0d1f3c;border-left:3px solid var(--gold);padding:.75rem 1rem;border-radius:0 8px 8px 0;margin:1rem 0;font-size:.95rem;font-style:italic}
+.specs-grid{display:flex;flex-wrap:wrap;gap:.5rem;margin:1rem 0}
+.spec-chip{background:#0a1628;border:1px solid var(--border);border-radius:6px;padding:.3rem .75rem;font-size:.82rem;color:var(--muted)}
+.spec-chip strong{color:var(--text)}
+.pros-cons{display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin:1.25rem 0}
+.pros,.cons{background:#0a1628;border-radius:8px;padding:1rem}
+.pros h4{color:var(--green);margin-bottom:.5rem;font-size:.9rem}
+.cons h4{color:var(--red);margin-bottom:.5rem;font-size:.9rem}
+.pros li,.cons li{font-size:.88rem;margin:.3rem 0;list-style:none;padding-left:1.1rem;position:relative}
+.pros li::before{content:"+ ";color:var(--green);position:absolute;left:0}
+.cons li::before{content:"- ";color:var(--red);position:absolute;left:0}
+.buy-btn{display:inline-block;background:var(--gold);color:#000;font-weight:700;padding:.65rem 1.5rem;border-radius:8px;margin-top:1rem;font-size:.95rem;transition:opacity .2s}
+.buy-btn:hover{opacity:.85;text-decoration:none}
+.science-box{background:#0d1f3c;border:1px solid #1e3a5f;border-radius:10px;padding:1.25rem;margin:2rem 0}
+.science-box h3{color:var(--gold);font-size:1rem;margin-bottom:.75rem}
+.clinical-note{background:#12213a;border:1px solid var(--health);border-radius:10px;padding:1.25rem;margin:2rem 0}
+.clinical-note h3{color:var(--health);font-size:1rem;margin-bottom:.75rem}
+table{width:100%;border-collapse:collapse;margin:1.5rem 0;font-size:.88rem}
+th{background:#0d1f3c;color:var(--gold);padding:.6rem .9rem;text-align:left;border-bottom:2px solid var(--border)}
+td{padding:.55rem .9rem;border-bottom:1px solid var(--border)}
+tr:hover td{background:#0d1f3c}
+.faq{margin:2.5rem 0}
+.faq h2{font-size:1.5rem;margin-bottom:1.5rem;color:#fff}
+.faq-item{border-bottom:1px solid var(--border);padding:1.25rem 0}
+.faq-item h3{font-size:1rem;color:var(--text);margin-bottom:.5rem}
+.faq-item p{color:var(--muted);font-size:.93rem}
+.related-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1rem;margin:1.5rem 0}
+.related-card{background:var(--card);border:1px solid var(--border);border-radius:8px;padding:1rem;font-size:.88rem}
+.related-card a{color:var(--gold);font-weight:600}
+footer{background:var(--card);border-top:1px solid var(--border);padding:2rem;text-align:center;color:var(--muted);font-size:.85rem;margin-top:3rem}
+.disclaimer{background:#0d1f3c;border:1px solid var(--border);border-radius:8px;padding:1rem;font-size:.8rem;color:var(--muted);margin-bottom:2rem}
+@media(max-width:640px){.pros-cons{grid-template-columns:1fr}.hero h1{font-size:1.6rem}}
+</style>
+</head>
+<body>
+<header>
+  <a href="/">SleepWise Reviews</a>
+  <nav>
+    <a href="/posts/index.html">All Posts</a>
+    <a href="/#health">Health &amp; Sleep</a>
+  </nav>
+</header>
+
+<div class="hero">
+  <span class="badge">Health</span>
+  <h1>7 Best Mattresses for Cluster Headaches (2026) &mdash; REM Preservation &amp; Position Control</h1>
+  <p>Cluster headaches are the most painful primary headache disorder, and 70% of attacks occur during sleep. The right mattress reduces three key triggers: REM fragmentation, poor cervical drainage, and sleep deprivation from partner motion. Here is what the evidence points toward.</p>
+</div>
+
+<div class="container">
+
+<div class="disclaimer">
+<strong>Affiliate disclosure:</strong> SleepWise Reviews earns a commission on qualifying Amazon purchases at no extra cost to you. All opinions are our own. <strong>This content is not medical advice.</strong> Cluster headaches are a serious neurological condition. Consult a neurologist for diagnosis and treatment.
+</div>
+
+<div class="clinical-note">
+  <h3>Clinical Context: Why Mattress Selection Matters for Cluster Headaches</h3>
+  <p>Cluster headaches are <strong>trigeminal autonomic cephalalgias (TACs)</strong> &mdash; they originate in the trigeminal nerve pathway with a strong hypothalamic circadian driver. Approximately <strong>70% of attacks occur during sleep</strong>, concentrated in REM phases between 1 and 3 AM, when hypothalamic activity peaks. They are distinct from migraines (bilateral, longer duration, no autonomic features), trigeminal neuralgia (electric shock pain, no autonomic component), and hypnic headache (older patients, less severe, no lacrimation or rhinorrhea).</p>
+  <p style="margin-top:.75rem">Three mattress-related mechanisms influence cluster periods: <strong>(1) REM fragmentation</strong> &mdash; heat retention and motion transfer disrupt REM architecture, potentially triggering attacks or extending the cluster period; <strong>(2) head and neck positioning</strong> &mdash; mattress surface firmness affects pillow height, which affects internal jugular vein drainage and intracranial pressure fluctuations that may lower the attack threshold; <strong>(3) sleep deprivation sensitivity</strong> &mdash; during active cluster periods, any sleep fragmentation compounds the cycle. The unilateral orbital pain and autonomic hypersensitivity (lacrimation, rhinorrhea, ptosis) make the affected side pressure-intolerant &mdash; side sleeping on the affected side is contraindicated.</p>
+</div>
+
+<div class="toc">
+  <h2>Quick Navigation</h2>
+  <ol>
+    <li><a href="#purple">Purple RestorePlus Hybrid &mdash; Best Cooling / REM Architecture</a></li>
+    <li><a href="#tempur">Tempur-Pedic TEMPUR-Breeze &mdash; Best Motion Isolation</a></li>
+    <li><a href="#helix">Helix Midnight Luxe &mdash; Best for Side Sleeping (Non-Affected Side)</a></li>
+    <li><a href="#avocado">Avocado Green Mattress &mdash; Best Latex</a></li>
+    <li><a href="#saatva">Saatva Classic (Luxury Firm) &mdash; Best for Back Sleeping</a></li>
+    <li><a href="#allswell">Allswell Supreme Hybrid &mdash; Best Budget</a></li>
+    <li><a href="#stearns">Stearns &amp; Foster Estate Hybrid &mdash; Best Luxury</a></li>
+    <li><a href="#guide">Buyer's Guide</a></li>
+    <li><a href="#compare">Comparison Table</a></li>
+    <li><a href="#faq">FAQ</a></li>
+  </ol>
+</div>
+
+<!-- PRODUCT 1 -->
+<div class="product-card" id="purple">
+  <span class="rank-badge">#1 Best Cooling / REM Architecture Preservation</span>
+  <h2>Purple RestorePlus Hybrid</h2>
+  <div class="verdict">"Purple's GelFlex Grid is the most effective passive cooling system in consumer mattresses. It eliminates the heat-retention problem that fragments REM &mdash; the single most important factor for cluster headache sufferers who need to protect sleep architecture during a cluster period."</div>
+  <div class="specs-grid">
+    <div class="spec-chip"><strong>Type:</strong> Hybrid (GelFlex Grid + pocketed coils)</div>
+    <div class="spec-chip"><strong>Firmness:</strong> Soft to Medium (4-5/10)</div>
+    <div class="spec-chip"><strong>Height:</strong> 13"</div>
+    <div class="spec-chip"><strong>Grid layer:</strong> 2" GelFlex Grid</div>
+    <div class="spec-chip"><strong>Cooling:</strong> Open-cell grid, no foam heat trap</div>
+    <div class="spec-chip"><strong>Trial:</strong> 100 nights</div>
+  </div>
+  <p>Purple's GelFlex Grid is a hyperelastic polymer grid that is structurally open &mdash; air moves through it freely, eliminating the heat-trapping behavior of closed-cell foams. Traditional memory foam retains body heat because it is a closed-cell structure; temperatures rise through the night, disrupting the cooler core body temperature required for sustained REM. The RestorePlus Grid layer is 2 inches thick, providing both the pressure relief needed for side sleepers and the thermal neutrality that protects REM architecture.</p>
+  <p style="margin-top:.75rem">For cluster headache sufferers, this matters directly: REM disruption &mdash; whether from heat, sound, light, or motion &mdash; can trigger attacks or fragment the sleep architecture that keeps the hypothalamic circadian regulator stable. The pocketed coil base provides the structural support needed for neutral cervical alignment regardless of sleep position. The GelFlex Grid also provides some motion isolation as adjacent grid cells flex independently, though dedicated motion isolation is better addressed by Pick #2.</p>
+  <div class="pros-cons">
+    <div class="pros">
+      <h4>Pros</h4>
+      <ul>
+        <li>GelFlex Grid: best passive cooling in consumer mattresses</li>
+        <li>No heat retention &mdash; protects REM architecture</li>
+        <li>Pressure relief without foam contouring feel</li>
+        <li>Responsive &mdash; repositioning does not require effort</li>
+        <li>Pocketed coil base provides cervical-neutral support</li>
+      </ul>
+    </div>
+    <div class="cons">
+      <h4>Cons</h4>
+      <ul>
+        <li>Motion isolation is moderate, not class-leading</li>
+        <li>Grid feel is unusual &mdash; not for everyone</li>
+        <li>Premium price</li>
+      </ul>
+    </div>
+  </div>
+  <a class="buy-btn" href="https://www.amazon.com/s?k=Purple+RestorePlus+Hybrid+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+</div>
+
+<!-- PRODUCT 2 -->
+<div class="product-card" id="tempur">
+  <span class="rank-badge">#2 Best Motion Isolation</span>
+  <h2>Tempur-Pedic TEMPUR-Breeze</h2>
+  <div class="verdict">"Partner movement during the night causes REM micro-arousals that shorten restorative sleep and extend cluster periods. Tempur-Pedic's proprietary TEMPUR material eliminates motion transfer more completely than any other mattress material tested &mdash; the breeze engineering adds the cooling offset that standard TEMPUR foam requires."</div>
+  <div class="specs-grid">
+    <div class="spec-chip"><strong>Type:</strong> All-foam (TEMPUR material)</div>
+    <div class="spec-chip"><strong>Firmness:</strong> Soft to Medium (varies by model)</div>
+    <div class="spec-chip"><strong>Height:</strong> 12"</div>
+    <div class="spec-chip"><strong>Cooling:</strong> SmartClimate Dual Cover + Cool-to-Touch top</div>
+    <div class="spec-chip"><strong>Motion isolation:</strong> Class-leading</div>
+    <div class="spec-chip"><strong>Trial:</strong> 90 nights</div>
+  </div>
+  <p>TEMPUR material (the proprietary Tempur-Pedic formulation, distinct from standard memory foam) absorbs and distributes motion energy rather than transferring it through the mattress surface. When a partner shifts position, turns over, or gets up, the motion dies within the TEMPUR layer without traveling to the other side. This is the highest priority feature for cluster headache patients sharing a bed: partner micro-arousals from motion are a significant source of REM fragmentation.</p>
+  <p style="margin-top:.75rem">Standard TEMPUR mattresses retain heat due to their dense foam construction. The Breeze line addresses this with a SmartClimate Dual Cover system &mdash; a cool-to-touch top layer with a moisture-wicking inner layer &mdash; and phase-change material (PCM) that absorbs heat during the warmest part of the sleep cycle. This makes the Breeze the only Tempur-Pedic product that addresses both the motion isolation priority and the heat retention problem simultaneously. The cervical alignment is excellent due to the consistent, even support TEMPUR provides at any body position.</p>
+  <div class="pros-cons">
+    <div class="pros">
+      <h4>Pros</h4>
+      <ul>
+        <li>Class-leading motion isolation &mdash; eliminates partner transfer</li>
+        <li>SmartClimate cover + PCM addresses heat retention</li>
+        <li>Consistent cervical support regardless of sleep position</li>
+        <li>TEMPUR material outlasts standard memory foam</li>
+        <li>10-year warranty</li>
+      </ul>
+    </div>
+    <div class="cons">
+      <h4>Cons</h4>
+      <ul>
+        <li>High price tier &mdash; most expensive category</li>
+        <li>Dense foam makes repositioning slower</li>
+        <li>Breeze cooling is better than standard TEMPUR but below latex/grid</li>
+        <li>90-night trial is shorter than competitors</li>
+      </ul>
+    </div>
+  </div>
+  <a class="buy-btn" href="https://www.amazon.com/s?k=Tempur-Pedic+TEMPUR-Breeze+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+</div>
+
+<!-- PRODUCT 3 -->
+<div class="product-card" id="helix">
+  <span class="rank-badge">#3 Best for Side Sleeping on the Non-Affected Side</span>
+  <h2>Helix Midnight Luxe</h2>
+  <div class="verdict">"The affected side is pressure-intolerant during a cluster period. Side sleepers must sleep on the non-affected side &mdash; which demands adequate shoulder and hip pressure relief to prevent the position from becoming its own pain source. Helix Midnight Luxe's five-zone support system is purpose-built for this."</div>
+  <div class="specs-grid">
+    <div class="spec-chip"><strong>Type:</strong> Hybrid (memory foam + pocketed coils)</div>
+    <div class="spec-chip"><strong>Firmness:</strong> Medium (5/10)</div>
+    <div class="spec-chip"><strong>Height:</strong> 13.5"</div>
+    <div class="spec-chip"><strong>Zoned support:</strong> 5 zones</div>
+    <div class="spec-chip"><strong>Cover:</strong> Tencel pillow-top</div>
+    <div class="spec-chip"><strong>Trial:</strong> 100 nights</div>
+  </div>
+  <p>During an active cluster period, the unilateral orbital pain, rhinorrhea, and ptosis make sleeping on the affected side essentially impossible. Side sleepers must shift exclusively to the non-affected side for the duration of the cluster period, which can last weeks to months. This creates a concentrated pressure burden on one shoulder and hip across every sleep session. A mattress that provides inadequate pressure relief at these points will add musculoskeletal pain to the cluster headache burden.</p>
+  <p style="margin-top:.75rem">Helix Midnight Luxe addresses this with five coil zones: softer under the shoulder and hip, firmer under the lumbar, softer under the lower legs. The memory foam comfort layers provide contouring that distributes weight across a wider surface area at the shoulder and hip, reducing peak pressure. The Tencel pillow-top cover adds surface cushioning that further reduces the pressure point concentration at a single contact zone. The 13.5-inch profile ensures the comfort layers do not compress fully under standard adult weight, which would eliminate their pressure-relief function.</p>
+  <div class="pros-cons">
+    <div class="pros">
+      <h4>Pros</h4>
+      <ul>
+        <li>5-zone support &mdash; softer shoulder/hip, firmer lumbar</li>
+        <li>Memory foam contouring reduces peak pressure concentration</li>
+        <li>13.5" profile maintains comfort layer function</li>
+        <li>Tencel cover &mdash; temperature neutral</li>
+        <li>100-night trial + lifetime warranty</li>
+      </ul>
+    </div>
+    <div class="cons">
+      <h4>Cons</h4>
+      <ul>
+        <li>Memory foam retains more heat than latex or grid alternatives</li>
+        <li>Motion isolation good but not class-leading (vs. Tempur-Pedic)</li>
+        <li>Mid-high price range</li>
+      </ul>
+    </div>
+  </div>
+  <a class="buy-btn" href="https://www.amazon.com/s?k=Helix+Midnight+Luxe+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+</div>
+
+<!-- PRODUCT 4 -->
+<div class="product-card" id="avocado">
+  <span class="rank-badge">#4 Best Latex</span>
+  <h2>Avocado Green Mattress (Natural Latex)</h2>
+  <div class="verdict">"Natural latex sleeps cooler than any foam, responds instantly to position changes during an attack when repositioning is instinctive, and off-gasses nothing &mdash; relevant because chemical triggers can worsen headache sensitivity during cluster periods."</div>
+  <div class="specs-grid">
+    <div class="spec-chip"><strong>Type:</strong> Latex hybrid (natural Dunlop latex + pocketed coils)</div>
+    <div class="spec-chip"><strong>Firmness:</strong> Medium-firm (6/10), Pillow-top available (5/10)</div>
+    <div class="spec-chip"><strong>Height:</strong> 11" (standard), 13" (pillow-top)</div>
+    <div class="spec-chip"><strong>Cooling:</strong> Open-cell latex, no off-gassing</div>
+    <div class="spec-chip"><strong>Certifications:</strong> GOLS, GOTS, GREENGUARD Gold</div>
+    <div class="spec-chip"><strong>Trial:</strong> 365 nights</div>
+  </div>
+  <p>Natural latex (Dunlop or Talalay) has an open-cell structure that allows air to circulate throughout the material. Unlike closed-cell memory foam, latex does not trap heat against the body &mdash; it remains thermally neutral through the sleep cycle, which is essential for protecting REM architecture. This is a passive cooling mechanism that requires no active technology and does not degrade over time.</p>
+  <p style="margin-top:.75rem">Latex is also highly responsive &mdash; it returns to its original shape within milliseconds of weight redistribution, compared to the slow recovery of memory foam. During an attack, when the instinct to sit up or reposition is immediate, a responsive mattress does not resist the movement. The Avocado Green uses GOLS-certified natural Dunlop latex over GOTS-certified pocketed coils. GREENGUARD Gold certification confirms that the materials meet strict chemical emission standards &mdash; important for headache-sensitive patients who may react to off-gassing from synthetic foams. The 365-night trial is among the longest in the industry.</p>
+  <div class="pros-cons">
+    <div class="pros">
+      <h4>Pros</h4>
+      <ul>
+        <li>Natural latex &mdash; no off-gassing or chemical triggers</li>
+        <li>Open-cell structure: cooler than any foam</li>
+        <li>Highly responsive &mdash; instant repositioning during attacks</li>
+        <li>GOLS, GOTS, GREENGUARD Gold certified</li>
+        <li>365-night trial &mdash; industry-leading</li>
+      </ul>
+    </div>
+    <div class="cons">
+      <h4>Cons</h4>
+      <ul>
+        <li>Heavier than foam mattresses &mdash; difficult to reposition alone</li>
+        <li>Latex allergy contraindication &mdash; confirm before purchase</li>
+        <li>Standard firmness (6/10) may be too firm for lightweight side sleepers</li>
+      </ul>
+    </div>
+  </div>
+  <a class="buy-btn" href="https://www.amazon.com/s?k=Avocado+Green+Mattress+latex&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+</div>
+
+<!-- PRODUCT 5 -->
+<div class="product-card" id="saatva">
+  <span class="rank-badge">#5 Best for Back Sleeping (Neutral Cervical Alignment)</span>
+  <h2>Saatva Classic (Luxury Firm)</h2>
+  <div class="verdict">"Back sleeping is the safest position during cluster periods because it eliminates pressure on either orbital region. Saatva Classic Luxury Firm delivers the cervical-neutral support that back sleeping demands while the Euro pillow-top provides enough cushioning to prevent pressure concentration at the occiput."</div>
+  <div class="specs-grid">
+    <div class="spec-chip"><strong>Type:</strong> Dual coil innerspring</div>
+    <div class="spec-chip"><strong>Firmness:</strong> Luxury Firm (6/10)</div>
+    <div class="spec-chip"><strong>Height:</strong> 14.5"</div>
+    <div class="spec-chip"><strong>Lumbar zone:</strong> Lumbar Zone technology</div>
+    <div class="spec-chip"><strong>Cover:</strong> Organic cotton Euro pillow-top</div>
+    <div class="spec-chip"><strong>Trial:</strong> 365 nights</div>
+  </div>
+  <p>For back sleepers, cervical alignment depends on the mattress surface maintaining a level plane at the shoulder and head &mdash; not too firm (which pushes the head upward on an undersupported surface) and not too soft (which lets the head sink and flexes the cervical spine forward). Saatva Classic Luxury Firm achieves this through its dual coil construction: an outer bonnell coil provides firm, even perimeter support, while the inner pocketed micro coil layer offers point-specific response at the upper back and neck zone.</p>
+  <p style="margin-top:.75rem">The Lumbar Zone enhanced coil layer in the center third provides targeted lumbar support for back sleepers, which keeps the natural lordotic curve of the lumbar spine maintained through the night &mdash; reducing the tendency to shift to a lateral position that would create orbital pressure. The 3-inch organic cotton Euro pillow-top provides enough cushioning at the occiput and scapula to prevent pressure concentration at bony contact points without introducing the cervical flexion risk of excessive softness. The 365-night trial provides ample time to assess whether this mattress supports the back-sleeping adaptation that many cluster patients make during active periods.</p>
+  <div class="pros-cons">
+    <div class="pros">
+      <h4>Pros</h4>
+      <ul>
+        <li>Dual coil system maintains cervical-neutral plane for back sleepers</li>
+        <li>Lumbar Zone support sustains back-sleeping position through the night</li>
+        <li>365-night trial &mdash; long enough to assess impact across cluster cycles</li>
+        <li>Organic cotton cover &mdash; breathable, no synthetic off-gassing</li>
+        <li>White-glove delivery included</li>
+      </ul>
+    </div>
+    <div class="cons">
+      <h4>Cons</h4>
+      <ul>
+        <li>Luxury Firm (6/10) too firm for lightweight sleepers under 130 lbs</li>
+        <li>Not available on Amazon &mdash; Saatva direct only</li>
+        <li>Innerspring motion isolation is average &mdash; not ideal if partner movement is a problem</li>
+      </ul>
+    </div>
+  </div>
+  <a class="buy-btn" href="https://www.amazon.com/s?k=Saatva+Classic+Luxury+Firm+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+</div>
+
+<!-- PRODUCT 6 -->
+<div class="product-card" id="allswell">
+  <span class="rank-badge">#6 Best Budget</span>
+  <h2>Allswell Supreme Hybrid</h2>
+  <div class="verdict">"Copper-infused memory foam and pocketed coils at a fraction of the price of the premium picks. Not the best in any single category, but it addresses cooling and motion isolation adequately for budget-constrained cluster headache patients."</div>
+  <div class="specs-grid">
+    <div class="spec-chip"><strong>Type:</strong> Hybrid (copper foam + pocketed coils)</div>
+    <div class="spec-chip"><strong>Firmness:</strong> Medium (5/10)</div>
+    <div class="spec-chip"><strong>Height:</strong> 12"</div>
+    <div class="spec-chip"><strong>Cover:</strong> Quilted Euro pillow-top</div>
+    <div class="spec-chip"><strong>Cooling:</strong> Copper-infused memory foam</div>
+    <div class="spec-chip"><strong>Trial:</strong> 100 nights</div>
+  </div>
+  <p>Allswell Supreme Hybrid combines copper-infused memory foam comfort layers with a pocketed coil support system. Copper foam draws heat away from the body faster than standard memory foam &mdash; it conducts thermal energy rather than trapping it. This is not as effective as the GelFlex Grid or natural latex for REM-preserving cooling, but it represents a meaningful improvement over non-infused memory foam at a substantially lower price point.</p>
+  <p style="margin-top:.75rem">The pocketed coil system provides individually wrapped coil response that isolates motion better than traditional bonnell or continuous coil designs. For cluster patients on a budget, the Supreme Hybrid delivers the two most important features &mdash; reduced heat retention and reduced motion transfer &mdash; without requiring the premium investment of Picks 1 and 2. The medium firmness is appropriate for back and side sleepers. The 12-inch profile is adequate for sleepers under 200 lbs; heavier individuals should consider stepping up to a thicker option.</p>
+  <div class="pros-cons">
+    <div class="pros">
+      <h4>Pros</h4>
+      <ul>
+        <li>Best price-to-performance ratio on this list</li>
+        <li>Copper foam: meaningful cooling improvement over standard memory foam</li>
+        <li>Pocketed coils: better motion isolation than bonnell/continuous coil</li>
+        <li>Medium firmness works for both back and side sleeping</li>
+        <li>Made in the USA</li>
+      </ul>
+    </div>
+    <div class="cons">
+      <h4>Cons</h4>
+      <ul>
+        <li>12" profile may bottom out for sleepers over 200 lbs</li>
+        <li>Cooling and motion isolation are adequate, not class-leading</li>
+        <li>No zoned support &mdash; uniform coil tension throughout</li>
+      </ul>
+    </div>
+  </div>
+  <a class="buy-btn" href="https://www.amazon.com/s?k=Allswell+Supreme+Hybrid+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+</div>
+
+<!-- PRODUCT 7 -->
+<div class="product-card" id="stearns">
+  <span class="rank-badge">#7 Best Luxury</span>
+  <h2>Stearns &amp; Foster Estate Hybrid</h2>
+  <div class="verdict">"Precision-coil micro-support, multiple foam comfort layers, and the refinement of a premium luxury brand &mdash; the Estate Hybrid addresses every cluster headache sleep concern simultaneously at the highest construction quality available."</div>
+  <div class="specs-grid">
+    <div class="spec-chip"><strong>Type:</strong> Luxury hybrid (IntelliCoil + foam layers)</div>
+    <div class="spec-chip"><strong>Firmness:</strong> Plush to Firm (3 options)</div>
+    <div class="spec-chip"><strong>Height:</strong> 14.5"</div>
+    <div class="spec-chip"><strong>Coil system:</strong> IntelliCoil HD</div>
+    <div class="spec-chip"><strong>Cover:</strong> Cashmere blend Euro pillow-top</div>
+    <div class="spec-chip"><strong>Trial:</strong> 120 nights</div>
+  </div>
+  <p>Stearns &amp; Foster Estate Hybrid uses IntelliCoil HD &mdash; a dual-tempered pocketed coil system with individually wrapped inner coils and an outer coil border. This construction provides both excellent motion isolation (the inner pocketed coils absorb partner movement) and strong perimeter support (the outer coil border prevents edge roll, which is relevant when repositioning during or after an attack). The foam comfort system above the coils includes multiple layers of varying density: a cooling gel foam layer immediately above the coils, a transitional foam layer, and the cashmere-blend Euro pillow-top at the surface.</p>
+  <p style="margin-top:.75rem">The multi-layer foam construction distributes pressure across the widest possible surface area for any sleep position, which is particularly valuable for cluster patients who are position-constrained during active periods. The cashmere blend cover adds thermal regulation (cashmere is a natural temperature modulator) on top of the gel foam layer. Available in Plush (3/10), Medium (5/10), and Firm (7/10) &mdash; cluster patients sleeping on their side should select the Plush or Medium; back sleepers should select Medium or Firm. The 14.5-inch profile ensures comfort layers retain function for heavier sleepers.</p>
+  <div class="pros-cons">
+    <div class="pros">
+      <h4>Pros</h4>
+      <ul>
+        <li>IntelliCoil HD: dual-tempered coils for motion isolation + edge support</li>
+        <li>Multi-layer foam: widest pressure distribution on this list</li>
+        <li>Cashmere blend cover: natural thermal regulation</li>
+        <li>14.5" profile maintains function for heavier sleepers</li>
+        <li>3 firmness options &mdash; selectable by position and weight</li>
+      </ul>
+    </div>
+    <div class="cons">
+      <h4>Cons</h4>
+      <ul>
+        <li>Highest price on this list</li>
+        <li>120-night trial shorter than some competitors at this price</li>
+        <li>Heavy &mdash; requires two people to move and rotate</li>
+      </ul>
+    </div>
+  </div>
+  <a class="buy-btn" href="https://www.amazon.com/s?k=Stearns+Foster+Estate+Hybrid+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+</div>
+
+<!-- COMPARISON TABLE -->
+<h2 id="compare" style="margin:2.5rem 0 1rem;font-size:1.5rem">Comparison: All 7 Mattresses for Cluster Headaches</h2>
+<table>
+  <thead>
+    <tr>
+      <th>Mattress</th>
+      <th>Best For</th>
+      <th>Cooling</th>
+      <th>Motion Isolation</th>
+      <th>Firmness</th>
+      <th>Trial</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Purple RestorePlus Hybrid</td><td>REM architecture / cooling</td><td>Excellent (GelFlex Grid)</td><td>Good</td><td>Soft-Medium (4-5)</td><td>100 nights</td></tr>
+    <tr><td>Tempur-Pedic TEMPUR-Breeze</td><td>Motion isolation</td><td>Very Good (PCM cover)</td><td>Class-leading</td><td>Soft-Medium</td><td>90 nights</td></tr>
+    <tr><td>Helix Midnight Luxe</td><td>Side sleeping (non-affected)</td><td>Good (Tencel)</td><td>Good</td><td>Medium (5)</td><td>100 nights</td></tr>
+    <tr><td>Avocado Green (Latex)</td><td>Natural / no off-gassing</td><td>Excellent (open-cell latex)</td><td>Moderate</td><td>Med-firm (6)</td><td>365 nights</td></tr>
+    <tr><td>Saatva Classic LF</td><td>Back sleeping / cervical alignment</td><td>Good (organic cotton)</td><td>Moderate</td><td>Luxury Firm (6)</td><td>365 nights</td></tr>
+    <tr><td>Allswell Supreme Hybrid</td><td>Budget</td><td>Good (copper foam)</td><td>Good</td><td>Medium (5)</td><td>100 nights</td></tr>
+    <tr><td>Stearns &amp; Foster Estate</td><td>Luxury / all-around</td><td>Good (gel foam + cashmere)</td><td>Very Good</td><td>Plush/Med/Firm</td><td>120 nights</td></tr>
+  </tbody>
+</table>
+
+<!-- BUYER'S GUIDE -->
+<div id="guide" class="science-box">
+  <h3>Buyer's Guide: What Cluster Headache Patients Need from a Mattress</h3>
+  <p><strong>Priority 1 &mdash; Cooling (REM preservation):</strong> The hypothalamic circadian driver behind cluster headaches is most active during REM. A mattress that retains body heat disrupts REM architecture &mdash; either by triggering the lighter sleep stages or by causing full waking events. Core body temperature must drop for sustained REM. Choose: GelFlex Grid (Purple), latex (Avocado), or copper/gel foam (Tempur-Breeze, Allswell). Avoid standard closed-cell memory foam without cooling technology.</p>
+  <p style="margin-top:.75rem"><strong>Priority 2 &mdash; Motion isolation (partner REM protection):</strong> A partner shifting position creates vibrations that travel through the mattress surface as micro-arousals. Even without full waking, these arousals fragment REM. TEMPUR material (Tempur-Pedic) is the most effective. Pocketed coil hybrids (Helix, Stearns &amp; Foster, Allswell) are meaningfully better than non-zoned innersprings.</p>
+  <p style="margin-top:.75rem"><strong>Priority 3 &mdash; Position support:</strong> During an active cluster period, side sleeping on the affected side is contraindicated. Back sleeping is preferred for bilateral pressure neutrality. If side sleeping is the only viable position, the mattress must provide enough shoulder and hip pressure relief on the non-affected side to prevent adding musculoskeletal pain to the cluster burden. For back sleeping: medium-firm (5-7/10). For side sleeping on non-affected side: medium (4-6/10) with zoned support.</p>
+  <p style="margin-top:.75rem"><strong>Cervical alignment and pillow pairing:</strong> The mattress surface firmness determines the effective pillow height needed. A softer mattress surface (shoulder sinking 2-3 inches) requires a lower pillow to maintain cervical neutral alignment. A firmer surface requires a higher pillow. Mismatched pillow height on any mattress firmness flexes the cervical spine, increases internal jugular tension, and may contribute to the intracranial pressure fluctuations that lower attack threshold.</p>
+  <p style="margin-top:.75rem"><strong>What a mattress cannot do:</strong> A mattress cannot treat cluster headaches, abort attacks, or replace neurological management (verapamil prophylaxis, oxygen therapy, triptans). It can reduce the sleep-related triggers that worsen cluster periods. This is a meaningful but limited intervention &mdash; best combined with appropriate medical treatment.</p>
+</div>
+
+<!-- RELATED GUIDES -->
+<h2 style="margin:2.5rem 0 1rem;font-size:1.4rem">Related Sleep Condition Guides</h2>
+<div class="related-grid">
+  <div class="related-card">
+    <a href="best-mattress-migraines.html">Best Mattress for Migraines</a>
+    <p style="color:var(--muted);margin-top:.4rem;font-size:.82rem">Bilateral, photophobia-driven &mdash; different mechanisms, different priorities</p>
+  </div>
+  <div class="related-card">
+    <a href="best-mattress-trigeminal-neuralgia.html">Best Mattress for Trigeminal Neuralgia</a>
+    <p style="color:var(--muted);margin-top:.4rem;font-size:.82rem">Electric shock pain without autonomic features &mdash; position sensitivity focus</p>
+  </div>
+  <div class="related-card">
+    <a href="best-mattress-insomnia.html">Best Mattress for Insomnia</a>
+    <p style="color:var(--muted);margin-top:.4rem;font-size:.82rem">Sleep architecture preservation for sleep-onset and maintenance insomnia</p>
+  </div>
+  <div class="related-card">
+    <a href="best-mattress-night-terrors.html">Best Mattress for Night Terrors</a>
+    <p style="color:var(--muted);margin-top:.4rem;font-size:.82rem">REM and NREM disruption &mdash; overlapping mechanisms with cluster headaches</p>
+  </div>
+  <div class="related-card">
+    <a href="best-mattress-neck-pain.html">Best Mattress for Neck Pain</a>
+    <p style="color:var(--muted);margin-top:.4rem;font-size:.82rem">Cervical alignment principles applicable to cluster headache positioning</p>
+  </div>
+</div>
+
+<!-- FAQ -->
+<div class="faq" id="faq">
+  <h2>Frequently Asked Questions</h2>
+  <div class="faq-item">
+    <h3>Why do cluster headaches strike during sleep?</h3>
+    <p>Cluster headaches are trigeminal autonomic cephalalgias with a strong hypothalamic circadian driver. Approximately 70% of attacks occur during REM sleep, concentrated between 1 and 3 AM, when the hypothalamus &mdash; which governs both the circadian clock and the trigeminal pain pathway &mdash; is most active. The REM-cluster association is why sleep quality directly influences cluster period severity and duration.</p>
+  </div>
+  <div class="faq-item">
+    <h3>Can a mattress trigger or worsen cluster headaches?</h3>
+    <p>Indirectly, yes. A mattress that retains heat fragments REM architecture, which can trigger attacks or extend the cluster period. Motion transfer from a partner causes REM micro-arousals. Poor head positioning may affect internal jugular drainage and intracranial pressure. None of these is a direct cause &mdash; but they are modifiable risk factors that a better mattress can reduce.</p>
+  </div>
+  <div class="faq-item">
+    <h3>What sleep position is safest during a cluster headache period?</h3>
+    <p>Back sleeping with a medium-firm mattress and a low-to-medium supportive pillow is generally safest. It eliminates pressure on both orbital regions. Side sleeping on the affected side is contraindicated during a cluster period &mdash; the orbital pain and autonomic hypersensitivity make that side pressure-intolerant. Side sleeping on the non-affected side is acceptable with a well-zoned mattress that provides adequate shoulder pressure relief.</p>
+  </div>
+  <div class="faq-item">
+    <h3>Is memory foam or latex better for cluster headache sufferers?</h3>
+    <p>Latex has three advantages: it sleeps cooler (open-cell structure), responds instantly to position changes, and off-gasses nothing. Memory foam's advantage is contouring pressure relief, but standard memory foam traps heat. If choosing memory foam, select a version with active cooling technology (gel, copper, PCM cover). Natural latex is the best single-material choice when cooling and chemical sensitivity are both priorities.</p>
+  </div>
+  <div class="faq-item">
+    <h3>How is a cluster headache mattress need different from a migraine mattress need?</h3>
+    <p>Cluster headaches are unilateral, strictly REM-associated (70% during sleep), and autonomic &mdash; the affected side becomes pressure-intolerant. Mattress priorities: REM-protective cooling, motion isolation, non-affected-side pressure relief. Migraines are bilateral, can occur anytime, and are primarily photophobia/phonophobia-driven. Migraine mattress priorities lean more toward motion isolation and sensory minimization. The REM-specific mechanism and position restriction are what make cluster headache mattress selection more specific.</p>
+  </div>
+</div>
+
+</div><!-- container -->
+
+<footer>
+  <p>&copy; 2026 SleepWise Reviews &mdash; <a href="/posts/index.html">All Posts</a> &mdash; <a href="/">Home</a></p>
+  <p style="margin-top:.5rem">SleepWise Reviews participates in the Amazon Associates program. Affiliate links help support free content at no cost to you.</p>
+</footer>
+</body>
+</html>"""
+
+with open(OUT, 'w', encoding='utf-8') as f:
+    f.write(html)
+
+size = os.path.getsize(OUT)
+print(f'Written: {OUT}')
+print(f'Size: {size:,} bytes ({size/1024:.1f} KB)')

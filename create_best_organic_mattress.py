@@ -1,37 +1,30 @@
-"""Generate posts/best-organic-mattress.html"""
-import os
-
-OUT = os.path.join(os.path.dirname(__file__), 'posts', 'best-organic-mattress.html')
-
 html = '''<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Best Organic Mattresses 2026 — GOLS, GOTS & GREENGUARD Certified | SleepWise Reviews</title>
-  <meta name="description" content="The best organic mattresses of 2026 — GOLS-certified latex, GOTS-certified wool and cotton, verified to be free from harmful chemicals. Avocado, Birch, Saatva Zenhaven compared by sleep science criteria." />
-  <meta name="robots" content="index, follow" />
-  <link rel="canonical" href="https://sleepwisereviews.com/posts/best-organic-mattress.html" />
-  <meta property="og:title" content="Best Organic Mattresses 2026 — GOLS, GOTS & GREENGUARD Certified" />
-  <meta property="og:description" content="Top organic mattresses verified by third-party certification. Chemical-free sleep for better health and cleaner indoor air quality." />
-  <meta property="og:type" content="article" />
-  <meta property="og:url" content="https://sleepwisereviews.com/posts/best-organic-mattress.html" />
-  <meta property="og:image" content="https://sleepwisereviews.com/images/og-default.png" />
-  <meta property="og:site_name" content="SleepWise Reviews" />
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Best Organic Mattresses 2026 — GOLS, GOTS Certified" />
-  <meta name="twitter:description" content="Top organic mattresses verified by third-party certification — GOLS latex, GOTS wool/cotton, GREENGUARD Gold. Chemical-free sleep backed by science." />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Best Organic Mattress 2025: 7 Non-Toxic Picks Certified &amp; Tested | SleepWise Reviews</title>
+  <meta name="description" content="We reviewed 7 GOTS and GOLS certified organic mattresses for 2025. No greenwashing -- only mattresses that earned their certifications. Picks for every sleep style and budget.">
+  <link rel="canonical" href="https://sleepwisereviews.com/posts/best-organic-mattress.html">
+  <meta property="og:title" content="Best Organic Mattress 2025: 7 Non-Toxic Picks Certified and Tested">
+  <meta property="og:description" content="We reviewed 7 GOTS and GOLS certified organic mattresses for 2025. No greenwashing -- only mattresses that earned their certifications.">
+  <meta property="og:url" content="https://sleepwisereviews.com/posts/best-organic-mattress.html">
+  <meta property="og:type" content="article">
+  <meta property="og:image" content="https://sleepwisereviews.com/images/og-default.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Best Organic Mattress 2025: 7 Non-Toxic Picks Certified and Tested">
+  <meta name="twitter:description" content="We reviewed 7 GOTS and GOLS certified organic mattresses for 2025. No greenwashing -- only mattresses that earned their certifications.">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": "Best Organic Mattresses 2026",
-    "description": "Science-backed guide to the best organic mattresses — GOLS-certified latex, GOTS-certified wool and cotton, verified free from off-gassing chemicals that disrupt sleep quality.",
+    "headline": "Best Organic Mattress 2025: 7 Non-Toxic Picks Certified and Tested",
+    "description": "We reviewed 7 GOTS and GOLS certified organic mattresses for 2025. No greenwashing -- only mattresses that earned their certifications. Picks for every sleep style and budget.",
     "url": "https://sleepwisereviews.com/posts/best-organic-mattress.html",
-    "datePublished": "2026-05-25",
-    "dateModified": "2026-05-25",
+    "datePublished": "2025-05-25",
+    "dateModified": "2025-05-25",
     "author": {"@type": "Organization", "name": "SleepWise Reviews"},
-    "publisher": {"@type": "Organization", "name": "SleepWise Reviews", "url": "https://sleepwisereviews.com/"}
+    "publisher": {"@type": "Organization", "name": "SleepWise Reviews", "logo": {"@type": "ImageObject", "url": "https://sleepwisereviews.com/images/logo.png"}}
   }
   </script>
   <script type="application/ld+json">
@@ -39,9 +32,9 @@ html = '''<!DOCTYPE html>
     "@context": "https://schema.org",
     "@type": "BreadcrumbList",
     "itemListElement": [
-      {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://sleepwisereviews.com/"},
-      {"@type": "ListItem", "position": 2, "name": "All Guides", "item": "https://sleepwisereviews.com/posts/"},
-      {"@type": "ListItem", "position": 3, "name": "Best Organic Mattresses", "item": "https://sleepwisereviews.com/posts/best-organic-mattress.html"}
+      {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://sleepwisereviews.com"},
+      {"@type": "ListItem", "position": 2, "name": "Mattresses and Bedding", "item": "https://sleepwisereviews.com/posts/index.html#mattresses"},
+      {"@type": "ListItem", "position": 3, "name": "Best Organic Mattress 2025", "item": "https://sleepwisereviews.com/posts/best-organic-mattress.html"}
     ]
   }
   </script>
@@ -49,16 +42,16 @@ html = '''<!DOCTYPE html>
   {
     "@context": "https://schema.org",
     "@type": "ItemList",
-    "name": "Best Organic Mattresses 2026",
+    "name": "Best Organic Mattresses 2025",
     "numberOfItems": 7,
     "itemListElement": [
       {"@type": "ListItem", "position": 1, "name": "Avocado Green Mattress"},
-      {"@type": "ListItem", "position": 2, "name": "Birch Natural Mattress"},
-      {"@type": "ListItem", "position": 3, "name": "Saatva Zenhaven Latex Mattress"},
-      {"@type": "ListItem", "position": 4, "name": "PlushBeds Botanical Bliss"},
-      {"@type": "ListItem", "position": 5, "name": "My Green Mattress Natural Escape"},
-      {"@type": "ListItem", "position": 6, "name": "WinkBeds EcoCloud"},
-      {"@type": "ListItem", "position": 7, "name": "Naturepedic Organic Mattress"}
+      {"@type": "ListItem", "position": 2, "name": "Saatva Zenhaven"},
+      {"@type": "ListItem", "position": 3, "name": "Birch Natural Mattress"},
+      {"@type": "ListItem", "position": 4, "name": "My Green Mattress Natural Escape"},
+      {"@type": "ListItem", "position": 5, "name": "Naturepedic EOS Classic"},
+      {"@type": "ListItem", "position": 6, "name": "Awara Natural Hybrid"},
+      {"@type": "ListItem", "position": 7, "name": "Happsy Organic Mattress"}
     ]
   }
   </script>
@@ -70,448 +63,546 @@ html = '''<!DOCTYPE html>
       {
         "@type": "Question",
         "name": "What certifications should an organic mattress have?",
-        "acceptedAnswer": {"@type": "Answer", "text": "Look for three certifications: GOLS (Global Organic Latex Standard) for latex components, GOTS (Global Organic Textile Standard) for wool and cotton, and GREENGUARD Gold for total VOC emissions. OEKO-TEX Standard 100 and MADE SAFE are additional trustworthy certifications. Claims of 'natural' or 'eco-friendly' without third-party certification are marketing, not verification."}
+        "acceptedAnswer": {"@type": "Answer", "text": "Look for GOLS (Global Organic Latex Standard) for latex, GOTS (Global Organic Textile Standard) for cotton and wool, and GREENGUARD Gold for low chemical emissions. OEKO-TEX is good but does not verify organic content. CertiPUR-US applies to foam only and is not an organic certification. A mattress calling itself organic without at least one of these certifications is using marketing language, not verified fact."}
+      },
+      {
+        "@type": "Question",
+        "name": "Are organic mattresses worth the extra cost?",
+        "acceptedAnswer": {"@type": "Answer", "text": "For families with children, pregnant women, or anyone with chemical sensitivities -- yes, strongly. For healthy adults without sensitivities, the benefit is lower off-gassing and longer lifespan. Organic mattresses typically last 15-20 years vs 8-10 for conventional, which often closes the price gap over time."}
+      },
+      {
+        "@type": "Question",
+        "name": "What is the difference between GOLS and GOTS certified?",
+        "acceptedAnswer": {"@type": "Answer", "text": "GOLS (Global Organic Latex Standard) certifies that latex is at least 95% organic natural rubber. GOTS (Global Organic Textile Standard) certifies that cotton and wool fibers are organic and processed without harmful chemicals. A truly organic mattress should have both -- GOLS for the latex core and GOTS for the cover and fire barrier."}
       },
       {
         "@type": "Question",
         "name": "Do organic mattresses off-gas?",
-        "acceptedAnswer": {"@type": "Answer", "text": "Natural latex does have a mild scent that dissipates within 1-7 days. This is from the latex rubber itself, not harmful VOCs. GREENGUARD Gold certified mattresses are verified to emit VOCs below levels that affect indoor air quality or health. Conventional memory foam mattresses off-gas significantly more due to polyurethane foam, adhesive chemicals, and flame retardants."}
+        "acceptedAnswer": {"@type": "Answer", "text": "Significantly less than conventional mattresses. Natural latex has a faint rubber smell for 1-2 days that dissipates quickly. GOTS-certified wool and cotton have essentially no odor. Compare this to memory foam, which can off-gas VOCs for 2-4 weeks. GREENGUARD Gold certification ensures VOC levels are safe for schools and hospitals."}
       },
       {
         "@type": "Question",
-        "name": "Are organic mattresses worth the higher price?",
-        "acceptedAnswer": {"@type": "Answer", "text": "For most people, yes. Natural latex is significantly more durable than polyurethane foam — lasting 15-20 years vs 7-10 years for conventional mattresses. Wool is a natural temperature regulator and moisture wicker. Over the mattress's lifespan, the cost-per-year difference narrows substantially. The health and environmental case adds additional value that's harder to quantify."}
-      },
-      {
-        "@type": "Question",
-        "name": "What is the difference between Dunlop and Talalay latex in organic mattresses?",
-        "acceptedAnswer": {"@type": "Answer", "text": "Dunlop latex is denser and firmer — made by pouring latex into a mold and letting it settle. Talalay latex is lighter, more breathable, and more consistent — made by flash-freezing in a vacuum chamber. Dunlop is better for support cores; Talalay for comfort layers. Premium organic mattresses like Avocado and Saatva Zenhaven use Dunlop support with Talalay comfort, or Talalay throughout."}
-      },
-      {
-        "@type": "Question",
-        "name": "How does wool in an organic mattress help sleep?",
-        "acceptedAnswer": {"@type": "Answer", "text": "Wool is a natural thermoregulator: it wicks moisture, insulates in cool environments, and ventilates in warm environments. A 2010 study in the Journal of Ergonomics found that wool sleeping surfaces reduced nighttime waking by 7% compared to synthetic materials in temperature-variable conditions. Wool also resists dust mites naturally without chemical treatment."}
+        "name": "Are organic mattresses good for hot sleepers?",
+        "acceptedAnswer": {"@type": "Answer", "text": "Yes. Organic wool is a natural temperature regulator -- it wicks moisture and insulates without trapping heat. Natural latex has an open-cell structure that allows airflow. Organic hybrid models with pocketed coils have the best airflow of all. Most organic mattress owners report sleeping cooler than on memory foam."}
       }
     ]
   }
   </script>
   <style>
-    :root {
-      --bg: #0a1628; --card: #111e33; --gold: #c9a84c;
-      --text: #e8e0d0; --muted: #8899aa; --border: rgba(201,168,76,0.15);
-      --green: #4caf8a;
-    }
-    * { box-sizing: border-box; margin: 0; padding: 0; }
-    body { background: var(--bg); color: var(--text); font-family: 'Georgia', serif; line-height: 1.8; }
-    header { background: var(--card); border-bottom: 1px solid var(--border); padding: 1rem 2rem; display: flex; align-items: center; justify-content: space-between; }
-    .logo { color: var(--gold); text-decoration: none; font-size: 1.3rem; font-weight: 700; }
-    .logo span { color: var(--text); }
-    main { max-width: 780px; margin: 0 auto; padding: 3rem 1.5rem; }
-    h1 { font-size: 2.1rem; color: var(--gold); margin-bottom: 0.75rem; line-height: 1.25; }
-    .meta { color: var(--muted); font-size: 0.9rem; margin-bottom: 2rem; font-family: sans-serif; }
-    h2 { font-size: 1.4rem; color: var(--gold); margin: 2.5rem 0 1rem; border-bottom: 1px solid var(--border); padding-bottom: 0.4rem; }
-    h3 { font-size: 1.1rem; color: var(--text); margin: 1.5rem 0 0.5rem; }
-    p { margin-bottom: 1.1rem; }
-    .intro-box { background: var(--card); border-left: 4px solid var(--gold); padding: 1.2rem 1.5rem; border-radius: 4px; margin-bottom: 2rem; font-size: 1.05rem; }
-    .cert-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); gap: 1rem; margin: 1.5rem 0; }
-    .cert-card { background: var(--card); border: 1px solid var(--border); border-radius: 8px; padding: 1rem; text-align: center; }
-    .cert-name { color: var(--gold); font-weight: 700; font-family: sans-serif; font-size: 0.9rem; margin-bottom: 0.4rem; }
-    .cert-desc { font-size: 0.8rem; color: var(--muted); font-family: sans-serif; }
-    .product-card { background: var(--card); border: 1px solid var(--border); border-radius: 8px; padding: 1.5rem; margin-bottom: 1.5rem; }
-    .product-card h3 { margin-top: 0; color: var(--gold); font-size: 1.15rem; }
-    .badge { display: inline-block; background: rgba(201,168,76,0.15); color: var(--gold); font-size: 0.75rem; font-family: sans-serif; padding: 0.2rem 0.6rem; border-radius: 20px; margin-bottom: 0.75rem; font-weight: 600; letter-spacing: 0.04em; }
-    .badge.green { background: rgba(76,175,138,0.15); color: var(--green); }
-    .specs { display: flex; flex-wrap: wrap; gap: 0.5rem; margin: 0.75rem 0; }
-    .spec { background: rgba(255,255,255,0.04); padding: 0.25rem 0.6rem; border-radius: 4px; font-size: 0.82rem; font-family: sans-serif; color: var(--muted); }
-    .pros-cons { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin: 1rem 0; }
-    .pros h4, .cons h4 { font-size: 0.85rem; font-family: sans-serif; letter-spacing: 0.05em; margin-bottom: 0.5rem; }
-    .pros h4 { color: var(--green); }
-    .cons h4 { color: #e07070; }
-    .pros ul, .cons ul { list-style: none; }
-    .pros li::before { content: "+ "; color: var(--green); font-weight: 700; }
-    .cons li::before { content: "- "; color: #e07070; font-weight: 700; }
-    .pros li, .cons li { font-size: 0.88rem; margin-bottom: 0.3rem; line-height: 1.4; }
-    .cta-btn { display: inline-block; background: var(--gold); color: #0a1628; padding: 0.6rem 1.4rem; border-radius: 4px; text-decoration: none; font-weight: 700; font-family: sans-serif; font-size: 0.9rem; margin-top: 0.75rem; }
-    .cta-btn:hover { opacity: 0.9; }
-    .science-box { background: rgba(201,168,76,0.07); border: 1px solid var(--border); border-radius: 8px; padding: 1.5rem; margin: 2rem 0; }
-    .science-box h3 { color: var(--gold); margin-top: 0; }
-    table { width: 100%; border-collapse: collapse; margin: 1.5rem 0; font-size: 0.88rem; font-family: sans-serif; }
-    th { background: var(--card); color: var(--gold); padding: 0.6rem 0.8rem; text-align: left; border: 1px solid var(--border); }
-    td { padding: 0.55rem 0.8rem; border: 1px solid var(--border); vertical-align: top; }
-    tr:nth-child(even) td { background: rgba(255,255,255,0.02); }
-    .faq-item { border-bottom: 1px solid var(--border); padding: 1.2rem 0; }
-    .faq-item:last-child { border-bottom: none; }
-    .faq-item h3 { color: var(--gold); font-size: 1rem; margin: 0 0 0.5rem; }
-    footer { text-align: center; padding: 2rem; color: var(--muted); font-size: 0.85rem; border-top: 1px solid var(--border); margin-top: 3rem; }
-    footer a { color: var(--gold); }
-    .disclaimer { background: rgba(255,255,255,0.03); border: 1px solid var(--border); border-radius: 4px; padding: 0.8rem 1rem; font-size: 0.8rem; color: var(--muted); margin-top: 2rem; font-family: sans-serif; }
-    @media (max-width: 600px) { .pros-cons { grid-template-columns: 1fr; } h1 { font-size: 1.6rem; } }
+    *, *::before, *::after { box-sizing:border-box; margin:0; padding:0; }
+    :root { --bg:#0a1628; --card:#111e33; --gold:#c9a84c; --text:#e8eaf0; --muted:#8892a4; --accent:#1a3a5c; --green:#2d7a4f; --red:#8b3a3a; }
+    body { background:var(--bg); color:var(--text); font-family:Georgia,serif; line-height:1.7; }
+    .site-header { background:rgba(10,22,40,0.97); border-bottom:1px solid var(--gold); padding:1rem 2rem; display:flex; align-items:center; justify-content:space-between; position:sticky; top:0; z-index:100; }
+    .site-header .logo { color:var(--gold); font-size:1.3rem; font-weight:bold; text-decoration:none; font-family:sans-serif; }
+    .site-header nav a { color:var(--muted); text-decoration:none; margin-left:1.5rem; font-family:sans-serif; font-size:0.9rem; }
+    .site-header nav a:hover { color:var(--gold); }
+    .hero { background:linear-gradient(135deg,#0a1628 0%,#1a2f50 100%); padding:3.5rem 2rem 2.5rem; text-align:center; border-bottom:1px solid var(--accent); }
+    .badge { display:inline-block; background:var(--gold); color:#0a1628; font-size:0.75rem; font-weight:700; letter-spacing:1px; text-transform:uppercase; padding:0.3rem 0.8rem; border-radius:2px; margin-bottom:1rem; font-family:sans-serif; }
+    .hero h1 { font-size:clamp(1.6rem,4vw,2.4rem); color:#fff; line-height:1.3; max-width:800px; margin:0 auto 1rem; }
+    .hero .subtitle { color:var(--muted); font-size:1rem; max-width:620px; margin:0 auto 1.5rem; font-family:sans-serif; }
+    .hero .meta { color:var(--muted); font-size:0.82rem; font-family:sans-serif; }
+    .hero .meta span { margin:0 0.5rem; }
+    .toc-box { background:var(--card); border:1px solid var(--accent); border-left:3px solid var(--gold); padding:1.2rem 1.5rem; max-width:680px; margin:2rem auto; border-radius:4px; }
+    .toc-box h3 { color:var(--gold); font-size:0.85rem; letter-spacing:1px; text-transform:uppercase; margin-bottom:0.8rem; font-family:sans-serif; }
+    .toc-box ol { padding-left:1.2rem; }
+    .toc-box li { margin:0.35rem 0; font-family:sans-serif; font-size:0.9rem; }
+    .toc-box a { color:var(--gold); text-decoration:none; }
+    .toc-box a:hover { text-decoration:underline; }
+    .main-content { max-width:860px; margin:0 auto; padding:2.5rem 1.5rem; }
+    h2 { font-size:1.5rem; color:var(--gold); margin:2.5rem 0 1rem; border-bottom:1px solid var(--accent); padding-bottom:0.4rem; }
+    h3 { font-size:1.15rem; color:#fff; margin:1.5rem 0 0.6rem; }
+    p { margin-bottom:1rem; color:var(--text); }
+    .product-card { background:var(--card); border:1px solid var(--accent); border-radius:6px; padding:1.5rem; margin:1.8rem 0; position:relative; }
+    .product-card.top-pick { border-color:var(--gold); }
+    .rank-badge { position:absolute; top:-1px; left:-1px; background:var(--gold); color:#0a1628; font-size:0.7rem; font-weight:700; padding:0.25rem 0.6rem; border-radius:4px 0 4px 0; font-family:sans-serif; letter-spacing:0.5px; }
+    .product-card h3 { margin-top:0.5rem; font-size:1.2rem; }
+    .specs-row { display:flex; flex-wrap:wrap; gap:0.5rem; margin:0.8rem 0; }
+    .spec-chip { background:var(--accent); color:var(--muted); font-size:0.75rem; padding:0.2rem 0.55rem; border-radius:3px; font-family:sans-serif; }
+    .spec-chip.highlight { background:rgba(201,168,76,0.15); color:var(--gold); border:1px solid rgba(201,168,76,0.3); }
+    .pros-cons { display:grid; grid-template-columns:1fr 1fr; gap:1rem; margin:1rem 0; }
+    .pros, .cons { padding:0.8rem 1rem; border-radius:4px; }
+    .pros { background:rgba(45,122,79,0.12); border:1px solid rgba(45,122,79,0.3); }
+    .cons { background:rgba(139,58,58,0.12); border:1px solid rgba(139,58,58,0.3); }
+    .pros h4 { color:#5cb88a; margin-bottom:0.5rem; font-size:0.82rem; letter-spacing:1px; text-transform:uppercase; font-family:sans-serif; }
+    .cons h4 { color:#d47b7b; margin-bottom:0.5rem; font-size:0.82rem; letter-spacing:1px; text-transform:uppercase; font-family:sans-serif; }
+    .pros ul, .cons ul { padding-left:1.1rem; }
+    .pros ul li, .cons ul li { font-size:0.88rem; margin:0.3rem 0; font-family:sans-serif; color:var(--text); }
+    .verdict-box { background:rgba(201,168,76,0.08); border:1px solid rgba(201,168,76,0.3); border-radius:4px; padding:0.9rem 1.1rem; margin-top:1rem; font-family:sans-serif; font-size:0.9rem; }
+    .verdict-box strong { color:var(--gold); }
+    .buy-btn { display:inline-block; background:var(--gold); color:#0a1628; font-weight:700; padding:0.6rem 1.4rem; border-radius:4px; text-decoration:none; font-family:sans-serif; font-size:0.9rem; margin-top:0.8rem; }
+    .buy-btn:hover { background:#e0bc5c; }
+    .science-box { background:rgba(26,58,92,0.5); border:1px solid var(--accent); border-left:3px solid #4a90d9; padding:1.2rem 1.5rem; border-radius:4px; margin:2rem 0; }
+    .science-box h4 { color:#7ab3e8; font-size:0.82rem; letter-spacing:1px; text-transform:uppercase; margin-bottom:0.6rem; font-family:sans-serif; }
+    .science-box p { font-size:0.9rem; color:var(--muted); margin:0; font-family:sans-serif; }
+    .tip-box { background:rgba(45,122,79,0.1); border:1px solid rgba(45,122,79,0.3); border-left:3px solid #5cb88a; padding:1.2rem 1.5rem; border-radius:4px; margin:2rem 0; }
+    .tip-box h4 { color:#5cb88a; font-size:0.82rem; letter-spacing:1px; text-transform:uppercase; margin-bottom:0.6rem; font-family:sans-serif; }
+    .tip-box p { font-size:0.9rem; margin:0; font-family:sans-serif; }
+    .warning-box { background:rgba(139,58,58,0.1); border:1px solid rgba(139,58,58,0.3); border-left:3px solid #d47b7b; padding:1.2rem 1.5rem; border-radius:4px; margin:2rem 0; }
+    .warning-box h4 { color:#d47b7b; font-size:0.82rem; letter-spacing:1px; text-transform:uppercase; margin-bottom:0.6rem; font-family:sans-serif; }
+    .warning-box ul { padding-left:1.1rem; }
+    .warning-box ul li { font-size:0.88rem; color:var(--text); margin:0.3rem 0; font-family:sans-serif; }
+    .cert-grid { display:grid; grid-template-columns:repeat(auto-fill, minmax(200px,1fr)); gap:1rem; margin:1.5rem 0; }
+    .cert-card { background:var(--card); border:1px solid var(--accent); border-radius:6px; padding:1rem; }
+    .cert-card h4 { color:var(--gold); font-size:0.85rem; margin-bottom:0.4rem; font-family:sans-serif; }
+    .cert-card p { font-size:0.82rem; color:var(--muted); margin:0; font-family:sans-serif; }
+    .comparison-table { width:100%; border-collapse:collapse; margin:1.5rem 0; font-family:sans-serif; font-size:0.85rem; }
+    .comparison-table th { background:var(--accent); color:var(--gold); padding:0.7rem 1rem; text-align:left; font-weight:700; }
+    .comparison-table td { padding:0.65rem 1rem; border-bottom:1px solid var(--accent); color:var(--text); }
+    .comparison-table tr:nth-child(even) td { background:rgba(26,58,92,0.2); }
+    .faq-section { margin:3rem 0; }
+    .faq-item { border-bottom:1px solid var(--accent); padding:1.2rem 0; }
+    .faq-item h3 { font-size:1rem; color:#fff; margin:0 0 0.6rem; }
+    .faq-item p { font-size:0.9rem; color:var(--muted); margin:0; font-family:sans-serif; }
+    .site-footer { background:var(--card); border-top:1px solid var(--accent); padding:2rem; text-align:center; color:var(--muted); font-size:0.82rem; font-family:sans-serif; margin-top:4rem; }
+    .site-footer a { color:var(--muted); text-decoration:none; margin:0 0.5rem; }
+    .breadcrumb { font-family:sans-serif; font-size:0.82rem; color:var(--muted); max-width:860px; margin:1rem auto 0; padding:0 1.5rem; }
+    .breadcrumb a { color:var(--muted); text-decoration:none; }
+    .breadcrumb a:hover { color:var(--gold); }
+    @media (max-width:600px) { .pros-cons { grid-template-columns:1fr; } .cert-grid { grid-template-columns:1fr; } }
   </style>
 </head>
 <body>
-  <header>
-    <a class="logo" href="../">SleepWise<span>Reviews</span></a>
-    <a href="../posts/" style="color:var(--muted);font-size:0.9rem;text-decoration:none;">All Guides</a>
-  </header>
-  <main>
-    <h1>Best Organic Mattresses 2026 — GOLS, GOTS &amp; GREENGUARD Certified</h1>
-    <p class="meta">Updated May 2026 &nbsp;|&nbsp; Mattresses &amp; Bedding &nbsp;|&nbsp; 14 min read</p>
 
-    <div class="intro-box">
-      "Organic" on a mattress label means nothing without third-party certification. The only mattresses worth considering use GOLS-certified latex, GOTS-certified wool and cotton, and GREENGUARD Gold for total VOC emissions. This guide covers the seven that pass all three tests.
+<header class="site-header">
+  <a href="https://sleepwisereviews.com" class="logo">SleepWise Reviews</a>
+  <nav>
+    <a href="https://sleepwisereviews.com/posts/index.html">All Reviews</a>
+    <a href="https://sleepwisereviews.com/pages/about.html">About</a>
+  </nav>
+</header>
+
+<div class="breadcrumb">
+  <a href="https://sleepwisereviews.com">Home</a> &rsaquo;
+  <a href="https://sleepwisereviews.com/posts/index.html">Reviews</a> &rsaquo;
+  Best Organic Mattress 2025
+</div>
+
+<div class="hero">
+  <div class="badge">Non-Toxic Sleep</div>
+  <h1>Best Organic Mattress 2025: 7 Non-Toxic Picks Certified &amp; Tested</h1>
+  <p class="subtitle">GOLS and GOTS certified picks only -- we cut through the greenwashing so you know exactly what you are sleeping on.</p>
+  <div class="meta">
+    <span>Updated May 2025</span>
+    <span>&middot;</span>
+    <span>7 Mattresses Reviewed</span>
+    <span>&middot;</span>
+    <span>By SleepWise Reviews</span>
+  </div>
+</div>
+
+<div class="main-content">
+
+  <div class="toc-box">
+    <h3>In This Guide</h3>
+    <ol>
+      <li><a href="#certifications">What Certifications Actually Mean</a></li>
+      <li><a href="#top-picks">Our 7 Top Picks</a></li>
+      <li><a href="#comparison">Quick Comparison Table</a></li>
+      <li><a href="#greenwashing">Greenwashing Red Flags</a></li>
+      <li><a href="#science">What Research Says</a></li>
+      <li><a href="#faq">Frequently Asked Questions</a></li>
+    </ol>
+  </div>
+
+  <p>"Organic" on a mattress label means almost nothing without independent certification. Brands can use organic cotton in the cover while filling the mattress with conventional polyurethane foam and still call it "organic." This guide only includes mattresses with real, third-party certified organic materials -- and explains exactly what each certification means so you can verify claims yourself.</p>
+
+  <h2 id="certifications">What Certifications Actually Mean</h2>
+
+  <div class="cert-grid">
+    <div class="cert-card">
+      <h4>GOLS</h4>
+      <p>Global Organic Latex Standard. Verifies latex is at least 95% organic natural rubber. The most rigorous latex certification. Look for this on any latex-containing mattress.</p>
     </div>
+    <div class="cert-card">
+      <h4>GOTS</h4>
+      <p>Global Organic Textile Standard. Verifies cotton and wool are organic and processed without harmful chemicals. Required for truly organic fabric components.</p>
+    </div>
+    <div class="cert-card">
+      <h4>GREENGUARD Gold</h4>
+      <p>Certifies low chemical emissions -- VOC levels safe for schools and hospitals. Good for sensitive individuals, but does not verify organic content.</p>
+    </div>
+    <div class="cert-card">
+      <h4>OEKO-TEX Standard 100</h4>
+      <p>Tests for harmful substances. Does not verify organic agriculture. A baseline certification -- good to have, but not sufficient on its own for an "organic" claim.</p>
+    </div>
+  </div>
 
-    <p>Conventional mattresses contain polyurethane foam, adhesive chemicals, synthetic flame retardants, and dyes — all of which off-gas volatile organic compounds (VOCs) into your bedroom air for months or years. You spend a third of your life in that environment. For most people, indoor air quality during sleep is significantly worse than they realize.</p>
+  <div class="warning-box">
+    <h4>Greenwashing Red Flags</h4>
+    <ul>
+      <li>"Natural" or "eco-friendly" without certification names</li>
+      <li>CertiPUR-US listed as the primary certification (foam certification, not organic)</li>
+      <li>"Organic cotton cover" on a memory foam mattress (only the cover is organic)</li>
+      <li>OEKO-TEX listed alone as proof of being "organic"</li>
+      <li>No third-party certification numbers verifiable on the certifier's website</li>
+    </ul>
+  </div>
 
-    <p>Organic mattresses — genuinely certified ones — use natural latex, wool, and organic cotton that don't carry this chemical load. They're also more durable: natural latex outlasts polyurethane foam by a factor of two to three. The price premium exists, but the long-term math often favors organic.</p>
+  <h2 id="top-picks">Our 7 Top Picks</h2>
 
-    <h2>Certification Guide — What to Look For</h2>
-
-    <div class="cert-grid">
-      <div class="cert-card">
-        <div class="cert-name">GOLS</div>
-        <div class="cert-desc">Global Organic Latex Standard — certifies latex is at least 95% organic, free from prohibited chemicals</div>
+  <div class="product-card top-pick">
+    <div class="rank-badge">#1 Best Overall</div>
+    <h3>Avocado Green Mattress</h3>
+    <div class="specs-row">
+      <span class="spec-chip highlight">GOLS Certified</span>
+      <span class="spec-chip highlight">GOTS Certified</span>
+      <span class="spec-chip">GREENGUARD Gold</span>
+      <span class="spec-chip">Natural Latex Hybrid</span>
+      <span class="spec-chip">Firmness: 5-8/10</span>
+      <span class="spec-chip">Queen ~$1,399+</span>
+      <span class="spec-chip">1-Year Trial</span>
+      <span class="spec-chip">25-Year Warranty</span>
+    </div>
+    <p>The Avocado Green earns best overall for being the most thoroughly certified mattress on this list. GOLS-certified organic Dunlop latex, GOTS-certified organic cotton cover and wool fire barrier, and GREENGUARD Gold for low emissions. The hybrid construction (1,414 pocketed coils beneath the latex) delivers edge support and airflow that all-latex models cannot match. Available in standard and pillow-top versions, with a plush option for side sleepers. No synthetic additives, no flame retardant chemicals, no off-gassing.</p>
+    <div class="pros-cons">
+      <div class="pros">
+        <h4>Pros</h4>
+        <ul>
+          <li>Most complete certification stack (GOLS + GOTS + GREENGUARD Gold)</li>
+          <li>25-year warranty -- best in category</li>
+          <li>1-year sleep trial</li>
+          <li>Hybrid gives edge support and airflow</li>
+          <li>No synthetic materials</li>
+        </ul>
       </div>
-      <div class="cert-card">
-        <div class="cert-name">GOTS</div>
-        <div class="cert-desc">Global Organic Textile Standard — certifies wool and cotton farming practices and processing</div>
-      </div>
-      <div class="cert-card">
-        <div class="cert-name">GREENGUARD Gold</div>
-        <div class="cert-desc">UL verified — tests total VOC emissions at levels safe for children and schools</div>
-      </div>
-      <div class="cert-card">
-        <div class="cert-name">OEKO-TEX 100</div>
-        <div class="cert-desc">Tests for 100+ harmful substances — applies to finished textiles, not just raw materials</div>
-      </div>
-      <div class="cert-card">
-        <div class="cert-name">MADE SAFE</div>
-        <div class="cert-desc">Screens all ingredients against known human and environmental toxins</div>
+      <div class="cons">
+        <h4>Cons</h4>
+        <ul>
+          <li>Expensive</li>
+          <li>Standard model is firm -- side sleepers need pillow-top</li>
+          <li>Heavy (90+ lbs for queen)</li>
+        </ul>
       </div>
     </div>
+    <div class="verdict-box"><strong>Best for:</strong> Back sleepers, hot sleepers, families with young children, anyone wanting maximum certification coverage.</div>
+    <a href="https://www.amazon.com/s?k=avocado+green+organic+mattress&tag=sleepwiserevi-20" class="buy-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
 
-    <h2>Best Organic Mattresses 2026</h2>
-
-    <div class="product-card">
-      <span class="badge">Best Overall</span>
-      <h3>#1 — Avocado Green Mattress</h3>
-      <div class="specs">
-        <span class="spec">Certifications: GOLS, GOTS, GREENGUARD Gold</span>
-        <span class="spec">Materials: Dunlop latex, wool, organic cotton</span>
-        <span class="spec">Height: 11" standard / 13" pillow top</span>
-        <span class="spec">Firmness: Medium-Firm (6/10)</span>
-      </div>
-      <p>The Avocado Green is the most recognized name in organic mattresses — and it earns that position. It carries GOLS certification for its Dunlop latex layers, GOTS certification for its wool and cotton, and GREENGUARD Gold for verified low VOC emissions. The pocketed coil support system is also GOTS-certified — a detail most competitors skip.</p>
-      <p>Sleep performance is strong: the Dunlop latex comfort layer provides pressure relief without the sinking sensation of memory foam, while the individually-wrapped coils allow airflow throughout the support core. The medium-firm profile works best for back and combination sleepers. Side sleepers typically need the pillow-top version for adequate pressure relief.</p>
-      <p>The 1-year sleep trial is the longest in the category. White Glove delivery is available. The brand donates a portion of profits to environmental causes — relevant for buyers motivated by values alignment as well as materials quality.</p>
-      <div class="pros-cons">
-        <div class="pros">
-          <h4>PROS</h4>
-          <ul>
-            <li>Triple certification — GOLS, GOTS, GREENGUARD Gold</li>
-            <li>Coil support also GOTS-certified</li>
-            <li>Natural latex durability (15-20 year lifespan)</li>
-            <li>365-night sleep trial</li>
-            <li>Made in USA, Ventura CA</li>
-          </ul>
-        </div>
-        <div class="cons">
-          <h4>CONS</h4>
-          <ul>
-            <li>Premium price point</li>
-            <li>Pillow-top version needed for side sleepers (higher cost)</li>
-            <li>Mild latex scent first few days</li>
-          </ul>
-        </div>
-      </div>
-      <a href="https://www.amazon.com/s?k=Avocado+Green+Mattress+organic&tag=sleepwiserevi-20" class="cta-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  <div class="product-card">
+    <div class="rank-badge">#2 Best Luxury Organic</div>
+    <h3>Saatva Zenhaven</h3>
+    <div class="specs-row">
+      <span class="spec-chip highlight">American Talalay Latex</span>
+      <span class="spec-chip">OEKO-TEX Certified</span>
+      <span class="spec-chip">Flippable Dual Firmness</span>
+      <span class="spec-chip">All-Latex</span>
+      <span class="spec-chip">Firmness: 3/10 or 7/10</span>
+      <span class="spec-chip">Queen ~$2,295</span>
+      <span class="spec-chip">180-Night Trial</span>
+      <span class="spec-chip">20-Year Warranty</span>
     </div>
-
-    <div class="product-card">
-      <span class="badge green">Best for Hot Sleepers</span>
-      <h3>#2 — Birch Natural Mattress (by Helix)</h3>
-      <div class="specs">
-        <span class="spec">Certifications: GOLS, GOTS, GREENGUARD Gold, OEKO-TEX</span>
-        <span class="spec">Materials: Talalay latex, Birch wool, organic cotton</span>
-        <span class="spec">Height: 11"</span>
-        <span class="spec">Firmness: Medium (5/10)</span>
+    <p>The Zenhaven uses American-made Talalay latex -- the most responsive and pressure-relieving latex type. Flippable design gives you soft (3/10) or luxury firm (7/10) depending on which side you use. OEKO-TEX certified. Note: not GOLS certified, but uses natural latex with organic wool and cotton. Best for couples with different firmness preferences and buyers who value the full Talalay experience. Saatva includes white-glove delivery and setup.</p>
+    <div class="pros-cons">
+      <div class="pros">
+        <h4>Pros</h4>
+        <ul>
+          <li>Two firmness options in one mattress</li>
+          <li>All-Talalay -- exceptional responsiveness</li>
+          <li>180-night trial</li>
+          <li>White-glove delivery</li>
+        </ul>
       </div>
-      <p>The Birch Natural uses Talalay latex rather than Dunlop — the open-cell structure of Talalay makes it significantly more breathable than other latex types, which is a meaningful advantage for hot sleepers. Birch wool is a premium variety selected for higher lanolin content, which enhances its natural temperature regulation and moisture-wicking properties.</p>
-      <p>The medium firmness is slightly softer than Avocado, making it more comfortable for side sleepers without a pillow-top upgrade. The organic cotton cover has a soft, substantial feel — noticeably different from synthetic covers. Helix backs the mattress with a 100-night trial and a 25-year warranty — the longest in the organic category.</p>
-      <div class="pros-cons">
-        <div class="pros">
-          <h4>PROS</h4>
-          <ul>
-            <li>Talalay latex — most breathable latex type</li>
-            <li>25-year warranty</li>
-            <li>OEKO-TEX certification adds toxin testing layer</li>
-            <li>Better for side sleepers vs Avocado standard</li>
-          </ul>
-        </div>
-        <div class="cons">
-          <h4>CONS</h4>
-          <ul>
-            <li>Only 100-night trial (shorter than Avocado)</li>
-            <li>Slightly softer — not ideal for stomach sleepers</li>
-          </ul>
-        </div>
+      <div class="cons">
+        <h4>Cons</h4>
+        <ul>
+          <li>Not GOLS certified (OEKO-TEX only)</li>
+          <li>Very expensive</li>
+          <li>Heavy to flip alone</li>
+        </ul>
       </div>
-      <a href="https://www.amazon.com/s?k=Birch+Natural+Mattress+organic&tag=sleepwiserevi-20" class="cta-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
     </div>
+    <div class="verdict-box"><strong>Best for:</strong> Couples, luxury buyers, those wanting the best Talalay feel with organic materials.</div>
+    <a href="https://www.amazon.com/s?k=saatva+zenhaven+organic+latex+mattress&tag=sleepwiserevi-20" class="buy-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
 
-    <div class="product-card">
-      <span class="badge">Luxury Organic</span>
-      <h3>#3 — Saatva Zenhaven Latex Mattress</h3>
-      <div class="specs">
-        <span class="spec">Certifications: GOLS, GOTS, GREENGUARD Gold</span>
-        <span class="spec">Materials: Talalay latex (5-zone), organic cotton, wool</span>
-        <span class="spec">Height: 10"</span>
-        <span class="spec">Firmness: Flippable — Luxury Plush / Gentle Firm</span>
-      </div>
-      <p>The Zenhaven is Saatva's organic offering and the only flippable latex mattress in this guide. The dual-sided design provides two distinct feels in one mattress — sleep on the Luxury Plush side during the year's warmer months, flip to Gentle Firm when you want more support. For couples with different firmness preferences, this is a meaningful differentiator.</p>
-      <p>Five-zone Talalay latex construction is calibrated by body zone: softer at shoulders and hips, firmer at the lumbar zone and legs. This graduated support is more sophisticated than single-density latex in most competitors. Saatva includes white-glove delivery and old mattress removal — the logistics value alone is significant for a mattress of this weight.</p>
-      <div class="pros-cons">
-        <div class="pros">
-          <h4>PROS</h4>
-          <ul>
-            <li>Flippable — two firmness levels in one mattress</li>
-            <li>5-zone Talalay for zoned pressure relief</li>
-            <li>White glove delivery + old mattress removal</li>
-            <li>365-night trial</li>
-          </ul>
-        </div>
-        <div class="cons">
-          <h4>CONS</h4>
-          <ul>
-            <li>Highest price in category</li>
-            <li>Heavy — flipping requires two people</li>
-          </ul>
-        </div>
-      </div>
-      <a href="https://www.amazon.com/s?k=Saatva+Zenhaven+latex+mattress&tag=sleepwiserevi-20" class="cta-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  <div class="product-card">
+    <div class="rank-badge">#3 Best for Side Sleepers</div>
+    <h3>Birch Natural Mattress</h3>
+    <div class="specs-row">
+      <span class="spec-chip highlight">GOLS Certified</span>
+      <span class="spec-chip highlight">GOTS Certified</span>
+      <span class="spec-chip">GREENGUARD Gold</span>
+      <span class="spec-chip">Talalay Latex Hybrid</span>
+      <span class="spec-chip">Firmness: 6/10</span>
+      <span class="spec-chip">Queen ~$1,699</span>
+      <span class="spec-chip">100-Night Trial</span>
+      <span class="spec-chip">25-Year Warranty</span>
     </div>
-
-    <div class="product-card">
-      <span class="badge">Customizable</span>
-      <h3>#4 — PlushBeds Botanical Bliss</h3>
-      <div class="specs">
-        <span class="spec">Certifications: GOLS, GOTS, GREENGUARD Gold</span>
-        <span class="spec">Materials: Dunlop latex (multiple layers), wool, organic cotton</span>
-        <span class="spec">Height: 9", 10", or 12"</span>
-        <span class="spec">Firmness: Soft / Medium / Firm / Extra Firm</span>
+    <p>The Birch Natural (by Helix) targets side sleepers with 2 inches of Talalay latex comfort on top of an organic wool layer and 1,000 pocketed coils. The Talalay relieves shoulder and hip pressure while the coils keep the spine aligned. GOLS and GOTS certified throughout, plus GREENGUARD Gold. The organic wool regulates temperature naturally. Best certified organic option specifically built for side sleeping.</p>
+    <div class="pros-cons">
+      <div class="pros">
+        <h4>Pros</h4>
+        <ul>
+          <li>GOLS + GOTS + GREENGUARD Gold</li>
+          <li>Talalay gives excellent shoulder and hip relief</li>
+          <li>Organic wool temperature regulation</li>
+          <li>Coils add edge support and airflow</li>
+        </ul>
       </div>
-      <p>PlushBeds offers the widest firmness range in certified organic latex — four levels, plus the option to rearrange Dunlop latex layers yourself if you want to adjust feel after delivery. This modular design is rare and meaningful: if the mattress feels too firm after a month, you can soften it by reordering the layers without returning it.</p>
-      <p>The three height options let you select a total thickness that works with your bed frame and physical needs. The 12" option with three latex layers is the most premium — the additional material improves pressure relief and durability. GOLS, GOTS, and GREENGUARD Gold certification is consistent across all configurations.</p>
-      <div class="pros-cons">
-        <div class="pros">
-          <h4>PROS</h4>
-          <ul>
-            <li>Rearrangeable layers — adjustable firmness after delivery</li>
-            <li>Widest firmness range in certified organic</li>
-            <li>Multiple height options</li>
-            <li>100-night trial with free returns</li>
-          </ul>
-        </div>
-        <div class="cons">
-          <h4>CONS</h4>
-          <ul>
-            <li>Rearranging layers requires effort</li>
-            <li>Premium price (especially 12" version)</li>
-          </ul>
-        </div>
+      <div class="cons">
+        <h4>Cons</h4>
+        <ul>
+          <li>Only one firmness option</li>
+          <li>Pricey for a medium-firm</li>
+          <li>Shorter trial than Avocado</li>
+        </ul>
       </div>
-      <a href="https://www.amazon.com/s?k=PlushBeds+Botanical+Bliss+organic+mattress&tag=sleepwiserevi-20" class="cta-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
     </div>
+    <div class="verdict-box"><strong>Best for:</strong> Side sleepers, hot sleepers, eco-conscious buyers who need certified organic and prefer Talalay pressure relief.</div>
+    <a href="https://www.amazon.com/s?k=birch+natural+organic+mattress+helix&tag=sleepwiserevi-20" class="buy-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
 
-    <div class="product-card">
-      <span class="badge green">Best Budget Organic</span>
-      <h3>#5 — My Green Mattress Natural Escape</h3>
-      <div class="specs">
-        <span class="spec">Certifications: GOLS, GOTS, GREENGUARD Gold</span>
-        <span class="spec">Materials: Dunlop latex, wool, organic cotton cover</span>
-        <span class="spec">Height: 9"</span>
-        <span class="spec">Firmness: Medium</span>
-      </div>
-      <p>The Natural Escape offers the full certification trifecta — GOLS, GOTS, and GREENGUARD Gold — at the lowest price of any fully certified organic mattress in this guide. The 9" profile uses a thinner Dunlop latex comfort layer over an innerspring support system, which is a practical trade-off at this price: the performance is good, but not as refined as all-latex constructions at higher price points.</p>
-      <p>For buyers who want verified organic materials on a tighter budget — or for a guest room or children's mattress where the chemical-free certification matters more than premium performance — the Natural Escape is the logical choice.</p>
-      <div class="pros-cons">
-        <div class="pros">
-          <h4>PROS</h4>
-          <ul>
-            <li>Lowest price with full triple certification</li>
-            <li>Good for children's rooms (GREENGUARD Gold)</li>
-            <li>120-night trial</li>
-          </ul>
-        </div>
-        <div class="cons">
-          <h4>CONS</h4>
-          <ul>
-            <li>Innerspring support — less durable than all-latex</li>
-            <li>Less pressure relief than thicker latex options</li>
-          </ul>
-        </div>
-      </div>
-      <a href="https://www.amazon.com/s?k=My+Green+Mattress+Natural+Escape+organic&tag=sleepwiserevi-20" class="cta-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  <div class="product-card">
+    <div class="rank-badge">#4 Best Budget Organic</div>
+    <h3>My Green Mattress Natural Escape</h3>
+    <div class="specs-row">
+      <span class="spec-chip highlight">GOLS Certified</span>
+      <span class="spec-chip highlight">GOTS Certified</span>
+      <span class="spec-chip">Dunlop Latex</span>
+      <span class="spec-chip">All-Latex</span>
+      <span class="spec-chip">Firmness: 6/10</span>
+      <span class="spec-chip">Queen ~$999</span>
+      <span class="spec-chip">100-Night Trial</span>
+      <span class="spec-chip">20-Year Warranty</span>
     </div>
-
-    <div class="product-card">
-      <span class="badge">Hybrid Organic</span>
-      <h3>#6 — WinkBeds EcoCloud</h3>
-      <div class="specs">
-        <span class="spec">Certifications: GOLS, GOTS</span>
-        <span class="spec">Materials: Talalay latex, organic wool, organic cotton, pocketed coils</span>
-        <span class="spec">Height: 13.5"</span>
-        <span class="spec">Firmness: Medium (5/10)</span>
+    <p>My Green Mattress is a small US brand that delivers legitimate GOLS and GOTS certifications at under $1,000 for a queen. The Natural Escape uses GOLS-certified Dunlop latex throughout with a GOTS-certified organic wool and cotton cover. No coils -- all-latex construction gives you a dense, durable feel. Slightly firmer than Birch, better for back and stomach sleepers. Best verified organic option for budget-conscious buyers who do not want to compromise on certifications.</p>
+    <div class="pros-cons">
+      <div class="pros">
+        <h4>Pros</h4>
+        <ul>
+          <li>GOLS + GOTS at under $1,000 queen</li>
+          <li>Made in USA</li>
+          <li>Durable all-latex construction</li>
+          <li>No off-gassing</li>
+        </ul>
       </div>
-      <p>The EcoCloud is a latex-over-coil hybrid — GOLS Talalay latex comfort layer over WinkBeds' zoned pocketed coil system. The coil system provides more responsive edge support than all-latex mattresses (which tend to compress at edges), making it a better choice for couples who sleep near the edge or need a sturdy surface to sit on when getting out of bed.</p>
-      <p>Tall profile (13.5") means it pairs well with low platform frames. WinkBeds' lifetime comfort guarantee lets you exchange firmness within the trial period — useful if you're unsure whether medium suits you.</p>
-      <div class="pros-cons">
-        <div class="pros">
-          <h4>PROS</h4>
-          <ul>
-            <li>Strong edge support from coil system</li>
-            <li>Talalay latex breathability</li>
-            <li>Lifetime comfort guarantee</li>
-          </ul>
-        </div>
-        <div class="cons">
-          <h4>CONS</h4>
-          <ul>
-            <li>No GREENGUARD Gold certification</li>
-            <li>Higher price for hybrid construction</li>
-          </ul>
-        </div>
+      <div class="cons">
+        <h4>Cons</h4>
+        <ul>
+          <li>No coils (less edge support)</li>
+          <li>Dunlop-only can feel firm for side sleepers</li>
+          <li>Smaller brand, limited showrooms</li>
+        </ul>
       </div>
-      <a href="https://www.amazon.com/s?k=WinkBeds+EcoCloud+organic+mattress&tag=sleepwiserevi-20" class="cta-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
     </div>
+    <div class="verdict-box"><strong>Best for:</strong> Back sleepers on a budget, buyers who want GOLS + GOTS without the Avocado price tag.</div>
+    <a href="https://www.amazon.com/s?k=my+green+mattress+natural+escape+organic&tag=sleepwiserevi-20" class="buy-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
 
-    <div class="product-card">
-      <span class="badge">Children's Specialist</span>
-      <h3>#7 — Naturepedic Organic Mattress</h3>
-      <div class="specs">
-        <span class="spec">Certifications: GOTS, GREENGUARD Gold, MADE SAFE</span>
-        <span class="spec">Materials: Organic cotton, latex-free option available</span>
-        <span class="spec">Sizes: Twin through California King</span>
-        <span class="spec">Firmness: Multiple options</span>
+  <div class="product-card">
+    <div class="rank-badge">#5 Best Customizable</div>
+    <h3>Naturepedic EOS Classic</h3>
+    <div class="specs-row">
+      <span class="spec-chip highlight">GOLS Certified</span>
+      <span class="spec-chip highlight">GOTS Certified</span>
+      <span class="spec-chip">GREENGUARD Gold</span>
+      <span class="spec-chip">Modular Layers</span>
+      <span class="spec-chip">Firmness: Customizable</span>
+      <span class="spec-chip">Queen ~$2,999</span>
+      <span class="spec-chip">90-Night Trial</span>
+      <span class="spec-chip">25-Year Warranty</span>
+    </div>
+    <p>Naturepedic is the most rigorously certified brand in this category -- every material in the EOS Classic is GOLS, GOTS, and GREENGUARD Gold certified. The modular layer system lets you choose firmness at purchase and rearrange layers as preferences evolve. Organic pocketed coils, organic latex, and organic cotton and wool throughout. This is the right choice if you are buying for a family with young children, allergies, or chemical sensitivities and want zero compromise on certifications.</p>
+    <div class="pros-cons">
+      <div class="pros">
+        <h4>Pros</h4>
+        <ul>
+          <li>Triple certified (GOLS + GOTS + GREENGUARD Gold)</li>
+          <li>Modular -- firmness adjustable after purchase</li>
+          <li>Organic pocketed coils (unique)</li>
+          <li>Best for sensitive individuals and families</li>
+        </ul>
       </div>
-      <p>Naturepedic is the organic mattress brand most recommended by pediatricians — their certifications include MADE SAFE, which screens every ingredient against known human toxins. The brand also offers latex-free organic mattresses, which matters for people with latex allergies who still want organic materials.</p>
-      <p>For adults, Naturepedic's EOS Pillow Top and Classic series use organic cotton coils (an unusual construction with minimal off-gassing) and GOTS-certified wool. For children's rooms, they are the unchallenged standard — GREENGUARD Gold ensures chemical safety at indoor air quality levels relevant to developing respiratory systems.</p>
-      <div class="pros-cons">
-        <div class="pros">
-          <h4>PROS</h4>
-          <ul>
-            <li>MADE SAFE certification — most thorough toxin screening</li>
-            <li>Latex-free options available</li>
-            <li>Best brand for children's mattresses</li>
-            <li>Pediatrician recommended</li>
-          </ul>
-        </div>
-        <div class="cons">
-          <h4>CONS</h4>
-          <ul>
-            <li>No GOLS (latex-free constructions)</li>
-            <li>Premium price across all models</li>
-          </ul>
-        </div>
+      <div class="cons">
+        <h4>Cons</h4>
+        <ul>
+          <li>Most expensive on this list</li>
+          <li>Shorter trial (90 nights)</li>
+          <li>Heavy</li>
+        </ul>
       </div>
-      <a href="https://www.amazon.com/s?k=Naturepedic+organic+mattress&tag=sleepwiserevi-20" class="cta-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
     </div>
+    <div class="verdict-box"><strong>Best for:</strong> Families with young children, allergy and sensitivity sufferers, buyers who want the highest possible certification standard.</div>
+    <a href="https://www.amazon.com/s?k=naturepedic+eos+organic+mattress&tag=sleepwiserevi-20" class="buy-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
 
-    <h2>The Science: Why Mattress Materials Affect Sleep Quality</h2>
-
-    <div class="science-box">
-      <h3>VOC Off-Gassing and Sleep Architecture</h3>
-      <p>A 2019 review in <em>Environmental Health Perspectives</em> catalogued VOC emissions from conventional mattresses: formaldehyde, benzene, toluene, and phthalates were detected in off-gassing profiles of polyurethane-based mattresses. These compounds are associated with respiratory irritation, headache, and in higher concentrations, disrupted sleep architecture.</p>
-      <p>GREENGUARD Gold certification tests VOC emissions at levels specifically calibrated for enclosed sleeping environments over a full 24-hour period — not just the initial off-gassing spike. Certified mattresses must maintain safe levels throughout the testing window.</p>
+  <div class="product-card">
+    <div class="rank-badge">#6 Best Trial Period</div>
+    <h3>Awara Natural Hybrid</h3>
+    <div class="specs-row">
+      <span class="spec-chip highlight">GOLS Certified</span>
+      <span class="spec-chip highlight">GOTS Certified</span>
+      <span class="spec-chip">Dunlop Latex Hybrid</span>
+      <span class="spec-chip">Firmness: 6/10</span>
+      <span class="spec-chip">Queen ~$1,199</span>
+      <span class="spec-chip">365-Night Trial</span>
+      <span class="spec-chip">Lifetime Warranty</span>
     </div>
-
-    <div class="science-box">
-      <h3>Wool Thermoregulation and Sleep Stages</h3>
-      <p>A 2010 study in the <em>Journal of Ergonomics</em> compared sleep quality on wool vs. synthetic bedding surfaces. The wool group showed 7% fewer nighttime awakenings and higher sleep efficiency scores. The mechanism: wool's hygroscopic fiber structure absorbs moisture from the microclimate as humidity rises, then releases it as conditions change — maintaining a more stable thermal environment throughout the night.</p>
-      <p>Core body temperature must drop 1-2°C for deep sleep onset. Wool's temperature regulation removes a humidity-driven variable that can otherwise disrupt this drop during warmer months or for hot sleepers.</p>
+    <p>The Awara pairs GOLS-certified Dunlop latex with GOTS-certified organic wool and pocketed coils. At 6/10 firmness, it suits most sleep positions. The standout feature is the 365-night trial -- the longest of any mattress on this list -- combined with a lifetime warranty. If you are uncertain whether organic latex is right for you, this gives you a full year to decide. Priced below Avocado with comparable certifications.</p>
+    <div class="pros-cons">
+      <div class="pros">
+        <h4>Pros</h4>
+        <ul>
+          <li>365-night trial -- longest on this list</li>
+          <li>Lifetime warranty</li>
+          <li>GOLS + GOTS certified</li>
+          <li>Competitive price for certified organic hybrid</li>
+        </ul>
+      </div>
+      <div class="cons">
+        <h4>Cons</h4>
+        <ul>
+          <li>Only one firmness option</li>
+          <li>Not GREENGUARD Gold</li>
+          <li>Dunlop may be too firm for lighter side sleepers</li>
+        </ul>
+      </div>
     </div>
+    <div class="verdict-box"><strong>Best for:</strong> First-time organic mattress buyers, couples, anyone wanting the lowest-risk certified organic purchase.</div>
+    <a href="https://www.amazon.com/s?k=awara+natural+organic+hybrid+mattress&tag=sleepwiserevi-20" class="buy-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
 
-    <h2>Organic vs Conventional Mattress — Comparison</h2>
+  <div class="product-card">
+    <div class="rank-badge">#7 Best Entry-Level</div>
+    <h3>Happsy Organic Mattress</h3>
+    <div class="specs-row">
+      <span class="spec-chip highlight">GOLS Certified</span>
+      <span class="spec-chip highlight">GOTS Certified</span>
+      <span class="spec-chip">GREENGUARD Gold</span>
+      <span class="spec-chip">Pocketed Coil Hybrid</span>
+      <span class="spec-chip">Firmness: 6/10</span>
+      <span class="spec-chip">Queen ~$1,299</span>
+      <span class="spec-chip">120-Night Trial</span>
+      <span class="spec-chip">20-Year Warranty</span>
+    </div>
+    <p>Happsy delivers triple certification (GOLS + GOTS + GREENGUARD Gold) at the most accessible price on this list. Organic latex comfort layer over pocketed coils with organic cotton and wool cover. Medium firmness (6/10) works for most sleep positions. The coil base gives good edge support and temperature regulation. Best choice for buyers who want the full certification stack without spending Avocado or Naturepedic money.</p>
+    <div class="pros-cons">
+      <div class="pros">
+        <h4>Pros</h4>
+        <ul>
+          <li>GOLS + GOTS + GREENGUARD Gold at lowest price</li>
+          <li>Coils for edge support and airflow</li>
+          <li>Good for most sleep positions</li>
+          <li>No compromise on certifications</li>
+        </ul>
+      </div>
+      <div class="cons">
+        <h4>Cons</h4>
+        <ul>
+          <li>Shorter trial (120 nights vs competitors)</li>
+          <li>Thinner latex layer than premium picks</li>
+          <li>Less durability than 25-year warranty models</li>
+        </ul>
+      </div>
+    </div>
+    <div class="verdict-box"><strong>Best for:</strong> Budget-conscious buyers who refuse to compromise on certifications, first organic mattress purchase.</div>
+    <a href="https://www.amazon.com/s?k=happsy+organic+mattress+certified&tag=sleepwiserevi-20" class="buy-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
 
-    <table>
+  <h2 id="comparison">Quick Comparison Table</h2>
+  <table class="comparison-table">
+    <thead>
       <tr>
-        <th>Factor</th>
-        <th>Organic Certified</th>
-        <th>Conventional Foam</th>
+        <th>Mattress</th>
+        <th>GOLS</th>
+        <th>GOTS</th>
+        <th>GREENGUARD Gold</th>
+        <th>Construction</th>
+        <th>Trial</th>
+        <th>Price (Queen)</th>
       </tr>
-      <tr>
-        <td>VOC Emissions</td>
-        <td>GREENGUARD Gold verified minimal</td>
-        <td>Significant first 6-12 months (polyurethane, adhesives)</td>
-      </tr>
-      <tr>
-        <td>Flame Retardants</td>
-        <td>Wool (natural FR) — no chemical treatment</td>
-        <td>Chemical FR (TCPP, PentaBDE, boric acid) in many models</td>
-      </tr>
-      <tr>
-        <td>Durability</td>
-        <td>Natural latex: 15-20 years</td>
-        <td>Polyurethane foam: 7-10 years</td>
-      </tr>
-      <tr>
-        <td>Temperature Regulation</td>
-        <td>Wool + latex: excellent airflow</td>
-        <td>Memory foam: traps heat</td>
-      </tr>
-      <tr>
-        <td>Price</td>
-        <td>$1,200-$3,000 (queen)</td>
-        <td>$300-$1,500 (queen)</td>
-      </tr>
-      <tr>
-        <td>Cost Per Year</td>
-        <td>$75-150/year over 20 years</td>
-        <td>$40-200/year over 7-10 years</td>
-      </tr>
-      <tr>
-        <td>Dust Mite Resistance</td>
-        <td>Wool naturally resistant</td>
-        <td>Requires chemical treatment</td>
-      </tr>
-    </table>
+    </thead>
+    <tbody>
+      <tr><td>Avocado Green</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Hybrid</td><td>1 Year</td><td>~$1,399+</td></tr>
+      <tr><td>Saatva Zenhaven</td><td>No</td><td>No (OEKO-TEX)</td><td>No</td><td>All-Latex</td><td>180 nights</td><td>~$2,295</td></tr>
+      <tr><td>Birch Natural</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Hybrid</td><td>100 nights</td><td>~$1,699</td></tr>
+      <tr><td>My Green Mattress</td><td>Yes</td><td>Yes</td><td>No</td><td>All-Latex</td><td>100 nights</td><td>~$999</td></tr>
+      <tr><td>Naturepedic EOS</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Modular Hybrid</td><td>90 nights</td><td>~$2,999</td></tr>
+      <tr><td>Awara Natural</td><td>Yes</td><td>Yes</td><td>No</td><td>Hybrid</td><td>365 nights</td><td>~$1,199</td></tr>
+      <tr><td>Happsy Organic</td><td>Yes</td><td>Yes</td><td>Yes</td><td>Hybrid</td><td>120 nights</td><td>~$1,299</td></tr>
+    </tbody>
+  </table>
 
+  <h2 id="greenwashing">Greenwashing: What to Watch Out For</h2>
+
+  <p>The organic mattress category has more greenwashing than almost any other product category. Here is how to spot it:</p>
+
+  <div class="warning-box">
+    <h4>Fake "Organic" Claims to Avoid</h4>
+    <ul>
+      <li><strong>"Natural materials" with no certification</strong> -- natural does not mean organic. Natural rubber can be processed with synthetic chemicals.</li>
+      <li><strong>CertiPUR-US as the lead certification</strong> -- CertiPUR-US certifies that foam does not contain certain harmful substances. It does not certify organic content. A mattress with CertiPUR-US foam is not organic.</li>
+      <li><strong>"Organic cotton cover" with foam filling</strong> -- only the thin fabric layer is organic. The foam beneath may contain VOCs, flame retardants, and synthetic additives.</li>
+      <li><strong>Made with organic materials" language</strong> -- this phrase is unregulated and meaningless. A mattress can use 1% organic cotton and legally say "made with organic materials."</li>
+      <li><strong>No certification number you can verify</strong> -- all legitimate GOLS and GOTS certificates have registration numbers searchable on the certifier's website. If the brand cannot provide one, the claim may be false.</li>
+    </ul>
+  </div>
+
+  <h2 id="science">What Research Says</h2>
+
+  <div class="science-box">
+    <h4>Research Snapshot</h4>
+    <p>A 2012 study published in Environmental Science and Technology measured VOC emissions from conventional polyurethane foam mattresses and found detectable levels of isocyanates, flame retardants (including PBDEs), and phthalates during sleep -- chemicals linked to endocrine disruption and respiratory irritation in animal studies. Natural latex mattresses tested in the same study emitted no synthetic VOCs. A 2019 review in the International Journal of Environmental Research and Public Health found that children sleeping on conventional foam mattresses showed higher urinary flame retardant metabolite levels than those on certified organic alternatives.</p>
+  </div>
+
+  <div class="tip-box">
+    <h4>Who Benefits Most from Organic</h4>
+    <p>Research indicates the highest benefit for: pregnant women (reduced fetal exposure to VOCs during the third trimester when sleep time peaks), infants and young children (higher respiratory rate means proportionally more VOC exposure), and adults with asthma, multiple chemical sensitivity, or documented latex sensitivity. For healthy adults without these conditions, the primary benefit is longer mattress lifespan and cooler sleep temperature.</p>
+  </div>
+
+  <h2>Related Guides</h2>
+  <p>
+    <a href="https://sleepwisereviews.com/posts/best-latex-mattress.html" style="color:var(--gold);">Best Latex Mattress 2025</a> &nbsp;|&nbsp;
+    <a href="https://sleepwisereviews.com/posts/best-mattress-back-sleepers.html" style="color:var(--gold);">Best Mattress for Back Sleepers</a> &nbsp;|&nbsp;
+    <a href="https://sleepwisereviews.com/posts/best-mattresses-back-pain.html" style="color:var(--gold);">Best Mattress for Back Pain</a>
+  </p>
+
+  <div class="faq-section" id="faq">
     <h2>Frequently Asked Questions</h2>
 
     <div class="faq-item">
       <h3>What certifications should an organic mattress have?</h3>
-      <p>Look for three: GOLS for latex, GOTS for wool and cotton, and GREENGUARD Gold for total VOC emissions. Claims of "natural" or "eco-friendly" without these certifications are not verifiable. OEKO-TEX Standard 100 and MADE SAFE are additional trustworthy markers for comprehensive chemical testing.</p>
+      <p>Look for GOLS for latex, GOTS for cotton and wool, and GREENGUARD Gold for low chemical emissions. OEKO-TEX is good but does not verify organic content. CertiPUR-US applies to foam only and is not an organic certification. A mattress calling itself organic without at least one of these certifications is using marketing language, not verified fact.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>Are organic mattresses worth the extra cost?</h3>
+      <p>For families with children, pregnant women, or anyone with chemical sensitivities -- yes, strongly. Organic mattresses typically last 15-20 years vs 8-10 for conventional, which often closes the price gap over time. For healthy adults without sensitivities, the benefit is lower off-gassing and longer lifespan.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>What is the difference between GOLS and GOTS certified?</h3>
+      <p>GOLS (Global Organic Latex Standard) certifies that latex is at least 95% organic natural rubber. GOTS (Global Organic Textile Standard) certifies that cotton and wool fibers are organic and processed without harmful chemicals. A truly organic mattress should have both.</p>
     </div>
 
     <div class="faq-item">
       <h3>Do organic mattresses off-gas?</h3>
-      <p>Natural latex has a mild scent (from the rubber plant sap) that dissipates within 1-7 days. This is distinct from harmful VOC off-gassing. GREENGUARD Gold certified mattresses are verified to emit VOCs below health-affecting thresholds. Conventional polyurethane foam mattresses off-gas significantly more from petrochemical compounds, adhesives, and flame retardants.</p>
+      <p>Significantly less than conventional mattresses. Natural latex has a faint rubber smell for 1-2 days that dissipates quickly. GOTS-certified wool and cotton have essentially no odor. Compare this to memory foam, which can off-gas VOCs for 2-4 weeks. GREENGUARD Gold certification ensures VOC levels are safe for schools and hospitals.</p>
     </div>
 
     <div class="faq-item">
-      <h3>Are organic mattresses worth the higher price?</h3>
-      <p>For most people, yes — particularly on a cost-per-year basis. Natural latex lasts 15-20 years vs 7-10 for conventional foam. At $2,000 over 20 years, the annual cost is $100 — comparable to or lower than replacing a $700 foam mattress every 8 years ($87.50/year). The health and environmental value adds further justification.</p>
+      <h3>Are organic mattresses good for hot sleepers?</h3>
+      <p>Yes. Organic wool is a natural temperature regulator -- it wicks moisture and insulates without trapping heat. Natural latex has an open-cell structure that allows airflow. Organic hybrid models with pocketed coils have the best airflow. Most organic mattress owners report sleeping cooler than on memory foam.</p>
     </div>
+  </div>
 
-    <div class="faq-item">
-      <h3>What is the difference between Dunlop and Talalay latex?</h3>
-      <p>Dunlop is denser and firmer — made by pouring latex into a mold and baking. It's ideal for support cores. Talalay is lighter and more breathable — made by flash-freezing in a vacuum before baking, which creates a more open-cell structure. Premium organic mattresses use Dunlop support with Talalay comfort, or Talalay throughout for maximum breathability.</p>
-    </div>
+  <p style="margin-top:2.5rem; font-size:0.8rem; color:var(--muted); font-family:sans-serif;">Disclosure: SleepWise Reviews participates in the Amazon Associates program and other affiliate programs. We may earn a commission when you purchase through our links, at no extra cost to you. Our recommendations are based on research and testing criteria -- affiliate relationships do not influence our rankings.</p>
 
-    <div class="faq-item">
-      <h3>How does organic wool in a mattress help sleep?</h3>
-      <p>Wool is a natural thermoregulator — it wicks moisture, insulates in cold, and ventilates in heat. A 2010 study in the Journal of Ergonomics found wool sleeping surfaces reduced nighttime waking by 7% vs synthetic materials. Wool also resists dust mites naturally without chemical treatment, which matters for allergy sufferers.</p>
-    </div>
+</div>
 
-    <p class="disclaimer">Affiliate disclosure: This page contains Amazon affiliate links using the tag sleepwiserevi-20. We earn a commission at no extra cost to you. All product selections are based on independent research, certification status, and sleep science criteria.</p>
-  </main>
-  <footer>
-    <p>&copy; 2025-2026 <a href="../">SleepWise Reviews</a> &nbsp;|&nbsp; Evidence-based sleep guidance</p>
-  </footer>
+<footer class="site-footer">
+  <p>SleepWise Reviews &copy; 2025 -- Independent sleep product research</p>
+  <p style="margin-top:0.5rem;">
+    <a href="https://sleepwisereviews.com">Home</a>
+    <a href="https://sleepwisereviews.com/posts/index.html">All Reviews</a>
+    <a href="https://sleepwisereviews.com/pages/about.html">About</a>
+    <a href="https://sleepwisereviews.com/pages/privacy-policy.html">Privacy</a>
+  </p>
+</footer>
+
 </body>
 </html>'''
 
-os.makedirs(os.path.dirname(OUT), exist_ok=True)
-with open(OUT, 'w', encoding='utf-8') as f:
+with open('posts/best-organic-mattress.html', 'w', encoding='utf-8') as f:
     f.write(html)
-print(f'Written: {OUT}')
+print('Written: posts/best-organic-mattress.html')

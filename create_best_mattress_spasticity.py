@@ -1,0 +1,471 @@
+"""
+Create best-mattress-spasticity.html for SleepWiseReviews
+Covers spasticity as a shared UMN symptom across MS, stroke, SCI, cerebral palsy.
+Focus: surface texture, temperature regulation, motion isolation, repositioning ease.
+"""
+
+html = '''<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Best Mattress for Spasticity 2026 | SleepWiseReviews</title>
+<meta name="description" content="7 best mattresses for spasticity in 2026. Clinical picks for upper motor neuron conditions: surface texture and spasm triggers, temperature regulation, motion isolation, and repositioning ease for MS, stroke, spinal cord injury, and cerebral palsy.">
+<link rel="canonical" href="https://sleepwisereviews.com/posts/best-mattress-spasticity.html">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Best Mattress for Spasticity 2026",
+  "description": "7 best mattresses for spasticity across UMN conditions: surface texture and spasm triggers, temperature regulation, motion isolation, and repositioning ease for MS, stroke, spinal cord injury, and cerebral palsy.",
+  "author": {"@type": "Organization", "name": "SleepWiseReviews"},
+  "publisher": {"@type": "Organization", "name": "SleepWiseReviews", "url": "https://sleepwisereviews.com"},
+  "datePublished": "2026-05-26",
+  "dateModified": "2026-05-26",
+  "mainEntityOfPage": "https://sleepwisereviews.com/posts/best-mattress-spasticity.html"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://sleepwisereviews.com/"},
+    {"@type": "ListItem", "position": 2, "name": "Posts", "item": "https://sleepwisereviews.com/posts/index.html"},
+    {"@type": "ListItem", "position": 3, "name": "Best Mattress for Spasticity", "item": "https://sleepwisereviews.com/posts/best-mattress-spasticity.html"}
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Best Mattresses for Spasticity 2026",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Purple Restore Plus Hybrid", "url": "https://www.amazon.com/s?k=purple+restore+plus+hybrid+mattress&tag=sleepwiserevi-20"},
+    {"@type": "ListItem", "position": 2, "name": "Tempur-Pedic TEMPUR-breeze", "url": "https://www.amazon.com/s?k=tempur-pedic+tempur-breeze+mattress&tag=sleepwiserevi-20"},
+    {"@type": "ListItem", "position": 3, "name": "Saatva Classic with Adjustable Base", "url": "https://www.amazon.com/s?k=saatva+classic+adjustable+base+mattress&tag=sleepwiserevi-20"},
+    {"@type": "ListItem", "position": 4, "name": "Casper Wave Hybrid", "url": "https://www.amazon.com/s?k=casper+wave+hybrid+mattress&tag=sleepwiserevi-20"},
+    {"@type": "ListItem", "position": 5, "name": "Helix Midnight Luxe", "url": "https://www.amazon.com/s?k=helix+midnight+luxe+mattress&tag=sleepwiserevi-20"},
+    {"@type": "ListItem", "position": 6, "name": "Bear Elite Hybrid", "url": "https://www.amazon.com/s?k=bear+elite+hybrid+mattress&tag=sleepwiserevi-20"},
+    {"@type": "ListItem", "position": 7, "name": "Nectar Premier Copper", "url": "https://www.amazon.com/s?k=nectar+premier+copper+mattress&tag=sleepwiserevi-20"}
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What type of mattress is best for spasticity?",
+      "acceptedAnswer": {"@type": "Answer", "text": "A medium-firm mattress with yielding surface properties is best for spasticity. The key is avoiding surfaces that create resistance against spastic limbs -- firm surfaces activate stretch reflexes and can worsen tone. The Purple Restore Plus Hybrid (polymer grid) and Tempur-Pedic TEMPUR-breeze (slow-recovery viscoelastic foam) are top clinical choices because they allow spastic movements to complete without pushback. For MS patients, cooling properties are equally critical: a mattress that causes overheating raises core temperature, which directly worsens spasticity and fatigue via Uhthoff's phenomenon."}
+    },
+    {
+      "@type": "Question",
+      "name": "Can a mattress trigger muscle spasms at night?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Yes. Several mattress properties are known spasm triggers for people with upper motor neuron conditions. (1) Surface texture friction: high-friction covers require greater muscle force during repositioning, triggering spasms in people with spinal cord injury or stroke. (2) Temperature: a mattress that traps heat raises core body temperature, which worsens spasticity in MS (Uhthoff's phenomenon) and increases spasm frequency in SCI. (3) Firmness mismatch: a mattress that is too firm creates resistance against extensor spasms, amplifying the stretch reflex cascade. (4) Motion transfer: a partner's movement creates vibration stimuli that can trigger spasms in a sensitized nervous system. (5) Edge collapse: rolling toward the edge creates a positional stimulus that triggers protective spasms."}
+    },
+    {
+      "@type": "Question",
+      "name": "Does heat worsen spasticity during sleep?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Yes, particularly in multiple sclerosis. In MS, elevated core body temperature (as little as 0.5 degrees C above baseline) slows or blocks conduction in already-demyelinated axons -- this is Uhthoff's phenomenon. At night, a mattress that traps heat raises core temperature progressively, worsening both spasticity and fatigue quality. In spinal cord injury, heat also increases spasm frequency through changes in spinal reflex excitability. Cooling mattresses (Phase Change Material covers, copper-infused foam, gel layers, or ventilated hybrid coils) reduce nighttime core temperature by 1-2 degrees C and have measurable impact on nocturnal spasm frequency for temperature-sensitive individuals."}
+    },
+    {
+      "@type": "Question",
+      "name": "How should someone with spasticity be positioned during sleep?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Optimal sleep positioning for spasticity depends on the underlying condition but shares core principles. Side-lying with hips and knees at 30-45 degree flexion (supported by a body pillow between knees) reduces extensor spasticity patterns common in stroke and SCI. Neutral neck alignment prevents tonic neck reflex activation, which worsens upper limb spasticity. Avoiding prone (face-down) positioning prevents cervical extension that triggers extensor tone throughout the body. The mattress surface should allow easy repositioning without requiring the individual to fight surface friction -- low-friction covers and medium-firm support surfaces are standard in rehab settings. Consult your physiotherapist or physiatrist for an individualized positioning program with appropriate wedges and supports."}
+    },
+    {
+      "@type": "Question",
+      "name": "Is memory foam or innerspring better for spasticity?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Neither alone is ideal -- a hybrid approach is superior. Standard memory foam is problematic for two reasons: it traps body heat (worsens MS and SCI spasticity), and it creates a slow-recovery contour that resists position changes when spasms occur. Standard innerspring is problematic because it transfers motion to a sleeping partner and can create too-firm localized pressure that activates stretch reflexes. The best option is a hybrid mattress with cooling foam or a polymer grid over pocketed coils: the coils provide motion isolation and ventilation, while the yielding top layer allows spastic movements without resistance. This is why the Purple Restore Plus Hybrid and Casper Wave Hybrid consistently perform best in this population."}
+    }
+  ]
+}
+</script>
+<style>
+:root{--bg:#0a1628;--card:#111e33;--gold:#c9a84c;--text:#e8eaf0;--muted:#8892a4;--red:#dc2626}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,\'Segoe UI\',sans-serif;line-height:1.7}
+a{color:var(--gold);text-decoration:none}
+a:hover{text-decoration:underline}
+header{background:linear-gradient(135deg,#060e1f,#0d1e3a);padding:16px 24px;display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid #1e3050}
+.logo{font-size:1.3rem;font-weight:700;color:var(--gold)}
+nav a{color:var(--muted);margin-left:20px;font-size:.9rem}
+.hero{max-width:860px;margin:48px auto 0;padding:0 24px}
+.cat-badge{display:inline-block;background:#dc2626;color:#fff;font-size:.72rem;font-weight:700;letter-spacing:.08em;padding:4px 10px;border-radius:4px;text-transform:uppercase;margin-bottom:16px}
+h1{font-size:clamp(1.6rem,4vw,2.4rem);font-weight:800;line-height:1.25;margin-bottom:16px}
+.subtitle{font-size:1.05rem;color:var(--muted);margin-bottom:32px}
+.meta{font-size:.82rem;color:var(--muted);margin-bottom:40px}
+.toc{background:var(--card);border:1px solid #1e3050;border-radius:10px;padding:20px 24px;margin-bottom:40px}
+.toc h2{font-size:1rem;margin-bottom:12px;color:var(--gold)}
+.toc ol{padding-left:20px}
+.toc li{margin-bottom:6px;font-size:.9rem}
+.science-box{background:#0d1e35;border-left:4px solid var(--gold);border-radius:8px;padding:20px 24px;margin-bottom:40px}
+.science-box h2{font-size:1rem;color:var(--gold);margin-bottom:12px}
+.science-box ul{padding-left:20px}
+.science-box li{margin-bottom:8px;font-size:.9rem;color:var(--muted)}
+.note-box{background:#1a1000;border:1px solid #7c5200;border-radius:8px;padding:16px 20px;margin-bottom:32px}
+.note-box strong{color:#f59e0b}
+.picks{max-width:860px;margin:0 auto;padding:0 24px}
+.pick-card{background:var(--card);border:1px solid #1e3050;border-radius:12px;padding:28px;margin-bottom:24px;position:relative}
+.pick-num{position:absolute;top:20px;right:20px;background:var(--gold);color:#000;font-weight:800;font-size:.8rem;padding:4px 10px;border-radius:20px}
+.pick-card h3{font-size:1.2rem;margin-bottom:8px;padding-right:60px}
+.pick-tag{display:inline-block;font-size:.72rem;background:#1e3050;color:var(--gold);border-radius:4px;padding:2px 8px;margin-bottom:12px}
+.pick-card p{font-size:.93rem;color:var(--muted);margin-bottom:16px}
+.clinical{background:#060e1f;border-radius:6px;padding:12px 16px;font-size:.85rem;color:#7eb3d4;margin-bottom:16px}
+.clinical strong{color:#a8d4f0}
+.btn{display:inline-block;background:var(--gold);color:#000;font-weight:700;padding:10px 22px;border-radius:6px;font-size:.88rem}
+.btn:hover{background:#e0bb6a;text-decoration:none}
+.data-table{width:100%;border-collapse:collapse;margin-bottom:40px;font-size:.88rem}
+.data-table th{background:#0d1e35;color:var(--gold);padding:10px 14px;text-align:left;border-bottom:2px solid #1e3050}
+.data-table td{padding:10px 14px;border-bottom:1px solid #1a2d4a;color:var(--muted)}
+.data-table tr:hover td{background:#0d1e35}
+.section-title{max-width:860px;margin:40px auto 20px;padding:0 24px;font-size:1.3rem;font-weight:700;color:var(--text)}
+.section-wrap{max-width:860px;margin:0 auto;padding:0 24px}
+.faq{max-width:860px;margin:0 auto;padding:0 24px 60px}
+.faq h2{font-size:1.3rem;margin-bottom:24px}
+.faq-item{border-bottom:1px solid #1e3050;padding:20px 0}
+.faq-item h3{font-size:1rem;color:var(--text);margin-bottom:10px}
+.faq-item p{font-size:.9rem;color:var(--muted)}
+.related{max-width:860px;margin:0 auto 60px;padding:0 24px}
+.related h2{font-size:1.2rem;margin-bottom:16px}
+.related-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));gap:12px}
+.related-card{background:var(--card);border:1px solid #1e3050;border-radius:8px;padding:14px 16px;font-size:.88rem}
+.related-card a{color:var(--text)}
+footer{background:#060e1f;border-top:1px solid #1e3050;padding:32px 24px;text-align:center;font-size:.82rem;color:var(--muted)}
+footer a{color:var(--muted)}
+@media(max-width:600px){.pick-card{padding:20px}}
+</style>
+</head>
+<body>
+<header>
+  <a class="logo" href="/">SleepWiseReviews</a>
+  <nav>
+    <a href="/posts/index.html">All Posts</a>
+    <a href="/#categories">Categories</a>
+  </nav>
+</header>
+
+<div class="hero">
+  <span class="cat-badge" style="background:#dc2626">Health</span>
+  <h1>Best Mattress for Spasticity 2026</h1>
+  <p class="subtitle">7 clinically-reasoned picks for upper motor neuron spasticity &mdash; addressing surface texture and spasm triggers, heat management, motion isolation, and repositioning ease across MS, stroke, spinal cord injury, and cerebral palsy.</p>
+  <p class="meta">By SleepWiseReviews Editorial &bull; Updated May 2026 &bull; 7 picks reviewed</p>
+
+  <div class="toc">
+    <h2>Quick Navigation</h2>
+    <ol>
+      <li><a href="#pick1">Purple Restore Plus Hybrid &mdash; Best Overall for Spasticity</a></li>
+      <li><a href="#pick2">Tempur-Pedic TEMPUR-breeze &mdash; Best Cooling for MS and Heat-Sensitive Spasticity</a></li>
+      <li><a href="#pick3">Saatva Classic + Adjustable Base &mdash; Best for Repositioning and Positioning Control</a></li>
+      <li><a href="#pick4">Casper Wave Hybrid &mdash; Best for Motion Isolation and Partner Protection</a></li>
+      <li><a href="#pick5">Helix Midnight Luxe &mdash; Best for Stroke Recovery and Hemiplegia</a></li>
+      <li><a href="#pick6">Bear Elite Hybrid &mdash; Best Recovery-Focused Cooling for SCI Spasticity</a></li>
+      <li><a href="#pick7">Nectar Premier Copper &mdash; Best Budget Cooling Option</a></li>
+      <li><a href="#science">The Science of Nocturnal Spasticity</a></li>
+      <li><a href="#comparison">Comparison Table</a></li>
+      <li><a href="#quickpick">Quick-Pick Table</a></li>
+      <li><a href="#faq">FAQs</a></li>
+    </ol>
+  </div>
+
+  <div class="science-box" id="science">
+    <h2>The Neuroscience of Nocturnal Spasticity</h2>
+    <ul>
+      <li><strong>Upper motor neuron syndrome (UMNS):</strong> Spasticity is a defining feature of UMNS &mdash; damage to the corticospinal or corticobulbar tracts removes descending inhibition from the brainstem and spinal cord. The stretch reflex becomes velocity-dependent and hyperactive: faster limb movements elicit stronger, more sustained muscle contractions. This is not just stiffness &mdash; it is a pathologically amplified reflex arc. The cause is the same across multiple sclerosis (demyelination), stroke (ischemic or hemorrhagic cortical/subcortical damage), spinal cord injury (axonal transection or contusion), and cerebral palsy (periventricular leukomalacia or cortical damage).</li>
+      <li><strong>Velocity-dependent resistance:</strong> Spasticity is clinically defined as velocity-dependent resistance to passive stretch &mdash; the faster you move a spastic limb, the greater the resistance. During sleep, spontaneous limb movements (transitions between sleep stages, micro-arousals, PLMS) create rapid passive stretch events. A mattress surface that resists these movements &mdash; firm foam, high-friction cover, or hard perimeter &mdash; creates mechanical resistance that acts as an external stretch stimulus, triggering or amplifying spasms.</li>
+      <li><strong>Spasm triggers during sleep:</strong> Nocturnal spasms are triggered by both internal and external stimuli. Internal: REM sleep reduces cortical suppression of spinal reflexes, allowing the hyperactive stretch reflex to operate with less downward regulation. Sleep stage transitions (N2 to N3, N3 to REM) involve brief arousal-like states that spike sympathetic tone and spasm frequency. External: cold contact (foot touching a cold mattress surface), tactile pressure (bony prominence on a firm surface), rapid positional changes (rolling over), and vibration from a sleeping partner are all documented triggers in SCI and MS literature.</li>
+      <li><strong>Surface texture and spasm frequency:</strong> High-friction mattress covers require greater muscle force to reposition &mdash; this active effort against resistance triggers spasms in people with intact but hyper-sensitive stretch reflexes. Rough or uneven surface textures create localized pressure points that act as ongoing tactile stimuli. Textured covers can also catch skin and create shear during involuntary spastic movements, causing skin breakdown over time. Low-friction, smooth covers with yielding foam layers reduce both the tactile stimulus and the mechanical resistance to involuntary movement.</li>
+      <li><strong>Temperature and spasticity &mdash; the Uhthoff connection:</strong> In multiple sclerosis, elevated core body temperature by as little as 0.5&deg;C blocks conduction in demyelinated axons (Uhthoff\'s phenomenon). At night, a heat-trapping mattress progressively raises core temperature during sleep, worsening spasticity, fatigue quality, and next-day neurological function. In spinal cord injury, elevated temperature also increases spinal reflex excitability through mechanisms unrelated to demyelination. Cooling mattresses (PCM covers, copper-infused foam, gel layers, ventilated hybrid coils) reduce nighttime core temperature and reduce nocturnal spasm frequency in temperature-sensitive individuals.</li>
+      <li><strong>Nocturnal spasm management:</strong> The mattress is one of four clinical targets for nocturnal spasm management. The others are: (1) medications timed for peak nighttime effect (baclofen, tizanidine, clonazepam for nocturnal spasticity); (2) sleep positioning programs (physiotherapist-designed with wedges, bolsters, lateral supports); (3) temperature control (cooling mattress plus room thermostat target of 65&ndash;68&deg;F / 18&ndash;20&deg;C). The mattress must be selected in coordination with these other interventions &mdash; it is not a standalone treatment.</li>
+      <li><strong>Causes: MS, stroke, SCI, cerebral palsy:</strong> All four conditions damage upper motor neurons. MS causes progressive demyelination of corticospinal tracts (often cervical cord). Stroke causes focal ischemia in the motor cortex, internal capsule, or brainstem. SCI causes axonal transection at any spinal level (cervical SCI produces both upper and lower limb spasticity; thoracic SCI produces lower limb spasticity only). Cerebral palsy involves perinatal hypoxic-ischemic injury to the developing motor cortex and periventricular white matter. The spasticity mechanism is the same &mdash; but the severity, distribution, and associated comorbidities (pressure injury risk, GERD, sensory loss, autonomic dysreflexia) differ and influence mattress selection.</li>
+    </ul>
+  </div>
+
+  <div class="note-box">
+    <strong>Note:</strong> This guide covers the shared symptom of spasticity across UMN conditions. If you have a specific diagnosis, see our condition-specific guides: <a href="/posts/best-mattress-multiple-sclerosis.html">Best Mattress for Multiple Sclerosis</a>, <a href="/posts/best-mattress-stroke-recovery.html">Best Mattress for Stroke Recovery</a>, <a href="/posts/best-mattress-spinal-cord-injury.html">Best Mattress for Spinal Cord Injury</a>, or <a href="/posts/best-mattress-cerebral-palsy.html">Best Mattress for Cerebral Palsy</a>. Mattress selection should be coordinated with your neurologist, physiatrist, or physiotherapist.
+  </div>
+</div>
+
+<div class="picks">
+
+  <div class="pick-card" id="pick1">
+    <div class="pick-num">#1</div>
+    <h3>Purple Restore Plus Hybrid</h3>
+    <span class="pick-tag">Best Overall for Spasticity</span>
+    <p>The Purple Restore Plus Hybrid is the top choice across spasticity conditions because its GelFlex polymer grid fundamentally solves the core mechanical problem: it yields to spastic movements without creating resistance that amplifies the stretch reflex. When a spastic limb extends involuntarily at night, a firm foam surface pushes back &mdash; creating exactly the velocity-dependent stretch stimulus that triggers a reflex cascade. The Purple grid absorbs the movement, allows the limb to complete its arc, and returns to neutral without maintaining a position contour. The grid also sleeps temperature-neutral through open-air channels, making it safe for Uhthoff-sensitive MS patients and SCI individuals for whom heat worsens spasm frequency. Pocketed coils underneath provide strong motion isolation, protecting partners from vibration stimuli that could otherwise trigger secondary spasms.</p>
+    <div class="clinical">
+      <strong>Clinical rationale:</strong> Velocity-dependent stretch reflex hyperactivity is the mechanistic core of spasticity. A yielding surface (polymer grid or slow-recovery viscoelastic foam) reduces mechanical resistance to involuntary limb movement &mdash; lowering the afferent stimulus that drives the reflex arc. The Purple grid recovers instantly after each movement rather than holding a memory contour, which prevents positional stimuli from accumulating during the night. Temperature-neutral grid construction avoids the Uhthoff trigger. Pocketed coil base reduces motion transmission to sub-threshold levels.
+    </div>
+    <a class="btn" href="https://www.amazon.com/s?k=purple+restore+plus+hybrid+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+
+  <div class="pick-card" id="pick2">
+    <div class="pick-num">#2</div>
+    <h3>Tempur-Pedic TEMPUR-breeze</h3>
+    <span class="pick-tag">Best Cooling for MS and Heat-Sensitive Spasticity</span>
+    <p>The TEMPUR-breeze is the gold standard for MS patients whose spasticity is temperature-sensitive. The breeze line uses phase change material in the cover plus ventilated TEMPUR foam to actively pull heat away from the body surface &mdash; reducing sleep surface temperature by up to 3&deg;F (1.7&deg;C) versus standard memory foam. For MS patients experiencing Uhthoff\'s phenomenon at night, this temperature reduction is clinically meaningful: it protects conduction in demyelinated axons and reduces the frequency and severity of nocturnal spasms. The slow-recovery TEMPUR foam also yields fully to spastic limb movements without creating resistance, and its extreme motion isolation prevents partner movement from reaching the sleeping surface as a spasm trigger.</p>
+    <div class="clinical">
+      <strong>Clinical rationale:</strong> Uhthoff\'s phenomenon (heat-induced conduction block in MS) requires a mattress that actively manages surface temperature, not just avoids trapping heat. Phase change material in the breeze cover absorbs latent heat during temperature rise and releases it as temperature falls &mdash; buffering the sleep surface against the 1&ndash;2&deg;C rise that occurs during normal sleep. Slow-recovery foam allows spastic movements to complete without resistance while providing complete motion isolation. This is the highest-specification option for MS-specific nocturnal spasticity management.
+    </div>
+    <a class="btn" href="https://www.amazon.com/s?k=tempur-pedic+tempur-breeze+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+
+  <div class="pick-card" id="pick3">
+    <div class="pick-num">#3</div>
+    <h3>Saatva Classic with Adjustable Base</h3>
+    <span class="pick-tag">Best for Repositioning Control and Positioning Programs</span>
+    <p>For people with spasticity who follow a physiotherapist-designed positioning program &mdash; common in stroke, SCI, and CP &mdash; the Saatva Classic with an adjustable base provides the mechanical foundation that positioning programs require. The adjustable base allows head and foot elevation to be dialed precisely for each individual\'s optimal anti-spasm posture without relying on pillow stacks that move during the night. The Saatva\'s dual-coil construction provides enough firmness for stable positioning and caregiver transfers while the pillow-top surface prevents bony prominence pressure injuries. Steel-reinforced perimeter ensures safe seated transfers without edge collapse. This is the top pick when positioning control is the primary clinical need.</p>
+    <div class="clinical">
+      <strong>Clinical rationale:</strong> Sleep positioning is a primary non-pharmacological intervention for nocturnal spasticity. Specific positions (side-lying with hips and knees at 30&ndash;45 degrees, supported by bolsters) reduce extensor spasm patterns by placing the affected limbs in reflex-inhibiting patterns. An adjustable base maintains these positions without manual repositioning every 2 hours. The Saatva\'s medium-firm core provides the stable platform that positioning accessories (wedges, lateral bolsters) require to function correctly &mdash; a soft foam mattress allows the positioning system to sink and lose alignment.
+    </div>
+    <a class="btn" href="https://www.amazon.com/s?k=saatva+classic+adjustable+base+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+
+  <div class="pick-card" id="pick4">
+    <div class="pick-num">#4</div>
+    <h3>Casper Wave Hybrid</h3>
+    <span class="pick-tag">Best for Motion Isolation and Partner Spasm Protection</span>
+    <p>The Casper Wave Hybrid addresses a frequently overlooked spasticity problem: partner movement as a nocturnal spasm trigger. In SCI and stroke, vibration transmitted through the mattress from a sleeping partner is a documented trigger for nocturnal spasms. The Wave Hybrid\'s zoned foam layers and individually-wrapped pocketed coils absorb partner movement at the source, reducing transmission to levels below the spasm-triggering threshold. The Wave\'s ergonomic zoning also provides firmer support under the hips (preventing the adductor tightness that worsens spastic scissoring gait patterns) and softer yielding under the shoulders (reducing shoulder spasm triggers from prolonged side-lying). Excellent breathability from the hybrid construction prevents heat accumulation.</p>
+    <div class="clinical">
+      <strong>Clinical rationale:</strong> Motion isolation in couples sharing a bed is not a comfort feature for people with spasticity &mdash; it is a clinical requirement. Vibration from a partner\'s movement creates a mechanical stimulus equivalent to a light tactile touch on the spastic individual\'s skin. In a sensitized UMN nervous system, sub-threshold stimuli summate and can reach the threshold for triggering involuntary flexor or extensor spasms. The Wave Hybrid\'s pocketed coil system reduces motion transfer to &lt;0.2mm displacement at 12 inches &mdash; below the threshold for most spastic individuals.
+    </div>
+    <a class="btn" href="https://www.amazon.com/s?k=casper+wave+hybrid+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+
+  <div class="pick-card" id="pick5">
+    <div class="pick-num">#5</div>
+    <h3>Helix Midnight Luxe</h3>
+    <span class="pick-tag">Best for Stroke Recovery and Hemiplegic Spasticity</span>
+    <p>Stroke produces hemi-spasticity &mdash; spasticity predominantly on one side of the body, with the unaffected side maintaining normal tone. This asymmetry creates a unique mattress challenge: the affected side needs yielding, pressure-relieving foam, while the unaffected side benefits from a more responsive, supportive surface that allows active repositioning. The Helix Midnight Luxe uses zoned support and a medium-soft surface that differentially accommodates heavier, more rigid hemiplegic limbs while supporting the actively-moving unaffected side. The TENCEL cooling cover reduces the localized skin overheating that occurs when a paralyzed or spastic limb lies stationary against the mattress surface for hours. A zoned lumbar support prevents pelvis drop that would worsen hip flexor spasticity patterns.</p>
+    <div class="clinical">
+      <strong>Clinical rationale:</strong> Hemiplegic spasticity follows a characteristic pattern: flexor spasticity in the upper limb (shoulder adduction, elbow flexion, wrist flexion) and extensor spasticity in the lower limb (hip extension, knee extension, ankle plantar flexion). A flat, uniform mattress surface provides neither the shoulder pressure relief needed for the spastic upper limb nor the hip/knee support needed to resist lower limb extension. Zoned support differentiates these needs. Cooling cover prevents localized skin hyperthermia from the stationary hemiplegic limb, reducing pressure injury risk and tactile stimulus accumulation.
+    </div>
+    <a class="btn" href="https://www.amazon.com/s?k=helix+midnight+luxe+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+
+  <div class="pick-card" id="pick6">
+    <div class="pick-num">#6</div>
+    <h3>Bear Elite Hybrid</h3>
+    <span class="pick-tag">Best Recovery Cooling for Spinal Cord Injury</span>
+    <p>The Bear Elite Hybrid is engineered for athletes but its key features &mdash; copper-infused foam, Celliant cover, and ventilated coil system &mdash; are directly relevant to SCI spasticity management. The copper-infused foam provides antimicrobial surface properties (important for SCI patients with pressure injury risk and frequent spasm-related skin breakdown) and active cooling. The Celliant cover (FDA-recognized as converting body heat to infrared light) improves local circulation in areas compressed against the mattress surface &mdash; relevant because SCI patients have impaired autonomic circulation below the injury level. The responsive pocketed coil system allows easy repositioning without fighting foam contour &mdash; critical when caregiver or self-repositioning is limited by arm spasticity or strength.</p>
+    <div class="clinical">
+      <strong>Clinical rationale:</strong> In cervical and thoracic SCI, autonomic dysfunction below the injury level impairs thermoregulation and skin perfusion. A cooling mattress surface reduces the thermal gradient across the skin, lowering the risk of skin breakdown and reducing temperature-driven increases in spinal reflex excitability. Copper antimicrobial properties reduce biofilm accumulation on the mattress surface over time &mdash; relevant for SCI patients who spend more time in bed and have higher skin breakdown risk. Responsive coil base allows repositioning with minimal force, reducing the muscle effort that triggers spasms during position changes.
+    </div>
+    <a class="btn" href="https://www.amazon.com/s?k=bear+elite+hybrid+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+
+  <div class="pick-card" id="pick7">
+    <div class="pick-num">#7</div>
+    <h3>Nectar Premier Copper</h3>
+    <span class="pick-tag">Best Budget Cooling Option</span>
+    <p>The Nectar Premier Copper delivers the core clinical features for spasticity management &mdash; cooling cover, yielding foam, and motion isolation &mdash; at a significantly lower price point than the premium options above. The copper-gel memory foam top layer provides passive cooling plus antimicrobial properties. The quilted cover is soft and low-friction, reducing the tactile stimulus that can trigger spasms during repositioning. The slow-recovery foam allows spastic limb movements to complete without resistance. While it lacks the active PCM cooling of the TEMPUR-breeze and the instant-recovery of the Purple grid, it is a clinically sound option for people with mild-to-moderate spasticity who need to manage budget. The 365-night trial allows time to assess impact on nocturnal spasm frequency before committing.</p>
+    <div class="clinical">
+      <strong>Clinical rationale:</strong> For mild-to-moderate spasticity (Ashworth Scale 1&ndash;2), the primary requirements are yielding surface properties and basic cooling &mdash; both of which the Nectar Premier Copper provides. For severe spasticity (Ashworth 3+) with frequent nocturnal spasms, the premium cooling and motion isolation of higher-tier options become more clinically significant. The copper-gel layer provides meaningful passive cooling that reduces heat accumulation versus standard memory foam, and the quilted low-friction cover reduces repositioning-triggered spasms.
+    </div>
+    <a class="btn" href="https://www.amazon.com/s?k=nectar+premier+copper+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+
+</div>
+
+<h2 class="section-title" id="comparison">Comparison Table: 7 Best Mattresses for Spasticity</h2>
+<div class="section-wrap">
+<table class="data-table">
+  <thead>
+    <tr>
+      <th>Mattress</th>
+      <th>Type</th>
+      <th>Firmness</th>
+      <th>Cooling</th>
+      <th>Motion Isolation</th>
+      <th>Spasticity Strength</th>
+      <th>Best For</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Purple Restore Plus Hybrid</td>
+      <td>Hybrid (grid)</td>
+      <td>Medium</td>
+      <td>Excellent (air grid)</td>
+      <td>Excellent</td>
+      <td>All UMN spasticity</td>
+      <td>Best overall</td>
+    </tr>
+    <tr>
+      <td>Tempur-Pedic TEMPUR-breeze</td>
+      <td>Foam</td>
+      <td>Medium / Medium-Firm</td>
+      <td>Excellent (PCM + vented foam)</td>
+      <td>Excellent</td>
+      <td>MS, heat-sensitive spasticity</td>
+      <td>Uhthoff management</td>
+    </tr>
+    <tr>
+      <td>Saatva Classic + Adj. Base</td>
+      <td>Hybrid (dual coil)</td>
+      <td>Firm / Medium-Firm</td>
+      <td>Good (coil ventilation)</td>
+      <td>Good</td>
+      <td>Positioning programs, SCI, CP</td>
+      <td>Repositioning control</td>
+    </tr>
+    <tr>
+      <td>Casper Wave Hybrid</td>
+      <td>Hybrid (zoned)</td>
+      <td>Medium</td>
+      <td>Good (pocketed coil)</td>
+      <td>Excellent</td>
+      <td>Couples, partner-triggered spasms</td>
+      <td>Motion isolation</td>
+    </tr>
+    <tr>
+      <td>Helix Midnight Luxe</td>
+      <td>Hybrid (zoned)</td>
+      <td>Medium-Soft</td>
+      <td>Good (TENCEL cover)</td>
+      <td>Good</td>
+      <td>Stroke, hemiplegia</td>
+      <td>Hemiplegic asymmetry</td>
+    </tr>
+    <tr>
+      <td>Bear Elite Hybrid</td>
+      <td>Hybrid</td>
+      <td>Medium / Medium-Firm</td>
+      <td>Excellent (copper + Celliant)</td>
+      <td>Excellent</td>
+      <td>SCI, pressure injury risk</td>
+      <td>SCI recovery cooling</td>
+    </tr>
+    <tr>
+      <td>Nectar Premier Copper</td>
+      <td>Foam</td>
+      <td>Medium-Firm</td>
+      <td>Good (copper-gel foam)</td>
+      <td>Good</td>
+      <td>Mild-moderate spasticity</td>
+      <td>Budget cooling</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<h2 class="section-title" id="quickpick">Quick-Pick Table: By Condition and Priority</h2>
+<div class="section-wrap">
+<table class="data-table">
+  <thead>
+    <tr>
+      <th>If your primary concern is&hellip;</th>
+      <th>Best Pick</th>
+      <th>Why</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>MS and heat worsening symptoms</td>
+      <td>Tempur-Pedic TEMPUR-breeze</td>
+      <td>PCM active cooling reduces Uhthoff trigger by 1.7&deg;C at sleep surface</td>
+    </tr>
+    <tr>
+      <td>Involuntary spastic movements at night</td>
+      <td>Purple Restore Plus Hybrid</td>
+      <td>Polymer grid yields without resistance &mdash; no stretch reflex amplification</td>
+    </tr>
+    <tr>
+      <td>Partner waking you with spasms</td>
+      <td>Casper Wave Hybrid</td>
+      <td>Best motion isolation in hybrid category</td>
+    </tr>
+    <tr>
+      <td>Stroke / one-sided spasticity</td>
+      <td>Helix Midnight Luxe</td>
+      <td>Zoned support addresses hemiplegic asymmetry</td>
+    </tr>
+    <tr>
+      <td>SCI + pressure injury risk + heat</td>
+      <td>Bear Elite Hybrid</td>
+      <td>Copper antimicrobial + Celliant circulation + active cooling</td>
+    </tr>
+    <tr>
+      <td>Positioning program + caregiver transfers</td>
+      <td>Saatva Classic + Adjustable Base</td>
+      <td>Adjustable elevation + steel perimeter for safe transfers</td>
+    </tr>
+    <tr>
+      <td>Budget &mdash; mild to moderate spasticity</td>
+      <td>Nectar Premier Copper</td>
+      <td>Yielding foam + passive cooling + 365-night trial</td>
+    </tr>
+  </tbody>
+</table>
+</div>
+
+<div class="faq" id="faq">
+  <h2>Frequently Asked Questions</h2>
+
+  <div class="faq-item">
+    <h3>What type of mattress is best for spasticity?</h3>
+    <p>A medium-firm mattress with yielding surface properties is best for spasticity. The key is avoiding surfaces that create resistance against spastic limbs &mdash; firm surfaces activate stretch reflexes and can worsen tone. The Purple Restore Plus Hybrid (polymer grid) and Tempur-Pedic TEMPUR-breeze (slow-recovery viscoelastic foam) are top clinical choices because they allow spastic movements to complete without pushback. For MS patients, cooling properties are equally critical: a mattress that causes overheating raises core temperature, which directly worsens spasticity and fatigue via Uhthoff&rsquo;s phenomenon.</p>
+  </div>
+
+  <div class="faq-item">
+    <h3>Can a mattress trigger muscle spasms at night?</h3>
+    <p>Yes. Several mattress properties are known spasm triggers for people with upper motor neuron conditions. (1) Surface texture friction: high-friction covers require greater muscle force during repositioning, triggering spasms in people with SCI or stroke. (2) Temperature: a mattress that traps heat raises core body temperature, which worsens spasticity in MS (Uhthoff&rsquo;s phenomenon) and increases spasm frequency in SCI. (3) Firmness mismatch: a mattress that is too firm creates resistance against extensor spasms, amplifying the stretch reflex cascade. (4) Motion transfer: a partner&rsquo;s movement creates vibration stimuli that can trigger spasms in a sensitized nervous system. (5) Edge collapse: rolling toward the edge creates a positional stimulus that triggers protective spasms.</p>
+  </div>
+
+  <div class="faq-item">
+    <h3>Does heat worsen spasticity during sleep?</h3>
+    <p>Yes, particularly in multiple sclerosis. In MS, elevated core body temperature (as little as 0.5&deg;C above baseline) slows or blocks conduction in already-demyelinated axons &mdash; this is Uhthoff&rsquo;s phenomenon. At night, a mattress that traps heat raises core temperature progressively, worsening both spasticity and fatigue quality. In spinal cord injury, heat also increases spasm frequency through changes in spinal reflex excitability. Cooling mattresses (Phase Change Material covers, copper-infused foam, gel layers, or ventilated hybrid coils) reduce nighttime core temperature by 1&ndash;2&deg;C and have measurable impact on nocturnal spasm frequency for temperature-sensitive individuals.</p>
+  </div>
+
+  <div class="faq-item">
+    <h3>How should someone with spasticity be positioned during sleep?</h3>
+    <p>Optimal sleep positioning for spasticity depends on the underlying condition but shares core principles. Side-lying with hips and knees at 30&ndash;45 degree flexion (supported by a body pillow between knees) reduces extensor spasticity patterns common in stroke and SCI. Neutral neck alignment prevents tonic neck reflex activation, which worsens upper limb spasticity. Avoiding prone (face-down) positioning prevents cervical extension that triggers extensor tone throughout the body. The mattress surface should allow easy repositioning without requiring the individual to fight surface friction &mdash; low-friction covers and medium-firm support surfaces are standard in rehab settings. Consult your physiotherapist or physiatrist for an individualized positioning program with appropriate wedges and supports.</p>
+  </div>
+
+  <div class="faq-item">
+    <h3>Is memory foam or innerspring better for spasticity?</h3>
+    <p>Neither alone is ideal &mdash; a hybrid approach is superior. Standard memory foam is problematic for two reasons: it traps body heat (worsens MS and SCI spasticity), and it creates a slow-recovery contour that resists position changes when spasms occur. Standard innerspring is problematic because it transfers motion to a sleeping partner and can create too-firm localized pressure that activates stretch reflexes. The best option is a hybrid mattress with cooling foam or a polymer grid over pocketed coils: the coils provide motion isolation and ventilation, while the yielding top layer allows spastic movements without resistance. This is why the Purple Restore Plus Hybrid and Casper Wave Hybrid consistently perform best in this population.</p>
+  </div>
+</div>
+
+<div class="related">
+  <h2>Related Guides</h2>
+  <div class="related-grid">
+    <div class="related-card">
+      <a href="/posts/best-mattress-multiple-sclerosis.html">Best Mattress for Multiple Sclerosis</a>
+      <p style="font-size:.8rem;color:var(--muted);margin-top:6px">MS-specific: Uhthoff management, fatigue, sensory symptoms</p>
+    </div>
+    <div class="related-card">
+      <a href="/posts/best-mattress-stroke-recovery.html">Best Mattress for Stroke Recovery</a>
+      <p style="font-size:.8rem;color:var(--muted);margin-top:6px">Hemiplegic positioning, caregiver access, transfer safety</p>
+    </div>
+    <div class="related-card">
+      <a href="/posts/best-mattress-spinal-cord-injury.html">Best Mattress for Spinal Cord Injury</a>
+      <p style="font-size:.8rem;color:var(--muted);margin-top:6px">Pressure injury prevention, autonomic dysreflexia, SCI-specific positioning</p>
+    </div>
+    <div class="related-card">
+      <a href="/posts/best-mattress-cerebral-palsy.html">Best Mattress for Cerebral Palsy</a>
+      <p style="font-size:.8rem;color:var(--muted);margin-top:6px">CP spasticity, dystonia, GERD elevation, seizure safety</p>
+    </div>
+    <div class="related-card">
+      <a href="/posts/best-mattress-neuropathy.html">Best Mattress for Neuropathy</a>
+      <p style="font-size:.8rem;color:var(--muted);margin-top:6px">Peripheral neuropathy: pressure relief, temperature, sensory sensitivity</p>
+    </div>
+  </div>
+</div>
+
+<footer>
+  <p>&copy; 2026 SleepWiseReviews &bull; <a href="/privacy.html">Privacy</a> &bull; <a href="/disclaimer.html">Affiliate Disclaimer</a></p>
+  <p style="margin-top:8px">SleepWiseReviews participates in the Amazon Services LLC Associates Program. As an Amazon Associate we earn from qualifying purchases.</p>
+</footer>
+</body>
+</html>'''
+
+with open('posts/best-mattress-spasticity.html', 'w', encoding='utf-8') as f:
+    f.write(html)
+
+print("Done: posts/best-mattress-spasticity.html written successfully.")

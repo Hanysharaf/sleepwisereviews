@@ -1,0 +1,237 @@
+import os
+
+HTML_PARTS = []
+HTML_PARTS.append("""<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Best Mattress for Post-Mastectomy Recovery (2026): 7 Picks for Chest Wall &amp; Reconstruction Sleep | SleepWise Reviews</title>
+<meta name="description" content="7 mattress picks for post-mastectomy recovery -- adjustable base compatibility for TRAM/DIEP flap trunk flexion, pressure relief for chest wall reconstruction, arm elevation for lymphedema prevention, and edge support with limited arm mobility.">
+<link rel="canonical" href="https://sleepwisereviews.com/posts/best-mattress-post-mastectomy.html">
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@graph":[
+    {"@type":"Article","headline":"Best Mattress for Post-Mastectomy Recovery","datePublished":"2026-05-26","dateModified":"2026-05-26","author":{"@type":"Organization","name":"SleepWise Reviews"},"publisher":{"@type":"Organization","name":"SleepWise Reviews","logo":{"@type":"ImageObject","url":"https://sleepwisereviews.com/logo.png"}}},
+    {"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://sleepwisereviews.com/"},{"@type":"ListItem","position":2,"name":"Posts","item":"https://sleepwisereviews.com/posts/"},{"@type":"ListItem","position":3,"name":"Best Mattress for Post-Mastectomy Recovery","item":"https://sleepwisereviews.com/posts/best-mattress-post-mastectomy.html"}]},
+    {"@type":"ItemList","name":"Best Mattress for Post-Mastectomy Recovery","itemListElement":[
+      {"@type":"ListItem","position":1,"name":"Saatva Adjustable Base Plus + Saatva Classic"},
+      {"@type":"ListItem","position":2,"name":"Helix Midnight Luxe"},
+      {"@type":"ListItem","position":3,"name":"Tempur-Pedic TEMPUR-breeze"},
+      {"@type":"ListItem","position":4,"name":"Purple Restore Premier"},
+      {"@type":"ListItem","position":5,"name":"Saatva Classic Luxury Firm"},
+      {"@type":"ListItem","position":6,"name":"Saatva Zenhaven Latex"},
+      {"@type":"ListItem","position":7,"name":"DreamCloud Premier Rest"}
+    ]},
+    {"@type":"FAQPage","mainEntity":[
+      {"@type":"Question","name":"What is the best sleeping position after mastectomy?","acceptedAnswer":{"@type":"Answer","text":"Back sleeping (supine) is the clinical standard for the first 4 to 8 weeks post-mastectomy. It avoids direct pressure on the anterior chest wall surgical site, keeps the arm elevated to prevent lymphedema after axillary lymph node dissection, and allows surgical drains to remain uncompressed. Patients who have had TRAM or DIEP flap reconstruction need additional trunk flexion -- head-of-bed elevation combined with knee elevation -- to protect the abdominal donor site flap. Side sleeping is typically permitted after healing is confirmed and drains are removed, usually 4 to 6 weeks post-op, with physician clearance."}},
+      {"@type":"Question","name":"How do I keep my arm elevated for lymphedema prevention after mastectomy?","acceptedAnswer":{"@type":"Answer","text":"Arm elevation after axillary lymph node dissection is achieved by sleeping on an adjustable base with the head elevated and using a wedge pillow or positioning pillow under the affected arm. The arm should be elevated at or slightly above heart level to promote lymphatic drainage. Avoid tight compression at the elbow or wrist from bedding. A mattress on an adjustable base allows the whole upper body to be elevated without a stack of pillows that shift during sleep."}},
+      {"@type":"Question","name":"Can I sleep on my side after mastectomy?","acceptedAnswer":{"@type":"Answer","text":"Side sleeping is generally not recommended for 4 to 8 weeks after mastectomy. Direct lateral pressure on the chest wall surgical site, whether flat closure, tissue expander, or implant reconstruction, is contraindicated during the healing phase. After clearance from your surgical team, side sleeping on the non-operated side may be permitted. Patients who had bilateral mastectomy must remain on their backs longer. TRAM or DIEP flap patients have additional restrictions related to the abdominal donor site."}},
+      {"@type":"Question","name":"What mattress firmness is best for post-mastectomy back sleeping?","acceptedAnswer":{"@type":"Answer","text":"Medium to medium-firm (5 to 7 out of 10) is the standard range for post-mastectomy back sleeping. The mattress must support spinal alignment without excessive sinkage that makes it difficult to get out of bed with limited arm mobility. A surface that is too soft allows the pelvis to sink, creating lumbar strain during prolonged supine positioning. A surface that is too firm creates pressure at the sacrum and heels during the extended back-sleeping period. Zoned support with a slightly softer surface over a firm base is the ideal configuration."}},
+      {"@type":"Question","name":"Do I need an adjustable base after mastectomy?","acceptedAnswer":{"@type":"Answer","text":"An adjustable base is strongly recommended for TRAM and DIEP flap reconstruction patients, who require simultaneous head-of-bed elevation and knee elevation (the trunk flexion position) to protect the abdominal donor site flap during the first weeks of recovery. For patients with tissue expanders, implants, or flat closure, an adjustable base is beneficial for getting in and out of bed with limited arm mobility and for finding a comfortable inclined position that relieves chest pressure. It is not strictly required for all post-mastectomy patients, but it significantly improves comfort during the mandatory back-sleeping recovery period."}}
+    ]}
+  ]
+}
+</script>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',sans-serif;background:#0a1628;color:#e2e8f0;line-height:1.7}
+header{background:#111e33;padding:1rem 2rem;display:flex;align-items:center;justify-content:space-between;border-bottom:2px solid #c9a84c}
+.logo{font-size:1.4rem;font-weight:700;color:#c9a84c;text-decoration:none}
+nav a{color:#94a3b8;text-decoration:none;margin-left:1.5rem;font-size:.9rem}
+nav a:hover{color:#c9a84c}
+.hero{background:linear-gradient(135deg,#111e33,#1a2f4e);padding:3rem 2rem;text-align:center;border-bottom:1px solid #1e3a5f}
+.hero h1{font-size:2rem;color:#c9a84c;margin-bottom:1rem;max-width:800px;margin-inline:auto}
+.hero p{color:#94a3b8;max-width:700px;margin-inline:auto;font-size:1.05rem}
+.cat-badge{display:inline-block;padding:.25rem .75rem;border-radius:4px;font-size:.8rem;font-weight:700;color:#fff;margin-bottom:1rem}
+.container{max-width:900px;margin:0 auto;padding:2rem}
+.toc{background:#111e33;border:1px solid #1e3a5f;border-radius:8px;padding:1.5rem;margin-bottom:2rem}
+.toc h2{color:#c9a84c;font-size:1rem;margin-bottom:1rem;text-transform:uppercase;letter-spacing:.05em}
+.toc ol{padding-left:1.5rem}
+.toc li{margin:.4rem 0}
+.toc a{color:#94a3b8;text-decoration:none;font-size:.95rem}
+.toc a:hover{color:#c9a84c}
+.science-box{background:#0d1f3c;border-left:4px solid #c9a84c;border-radius:0 8px 8px 0;padding:1.5rem;margin:2rem 0}
+.science-box h2{color:#c9a84c;margin-bottom:.75rem;font-size:1.1rem}
+.science-box p{color:#94a3b8;font-size:.95rem}
+.pick-card{background:#111e33;border:1px solid #1e3a5f;border-radius:12px;padding:1.5rem;margin-bottom:1.5rem}
+.pick-header{display:flex;align-items:center;gap:1rem;margin-bottom:1rem}
+.pick-num{background:#c9a84c;color:#0a1628;font-weight:700;width:36px;height:36px;border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0;font-size:1rem}
+.pick-card h3{color:#c9a84c;font-size:1.15rem}
+.pick-card p{color:#94a3b8;margin-bottom:1rem;font-size:.95rem}
+.buy-btn{display:inline-block;background:#c9a84c;color:#0a1628;padding:.6rem 1.4rem;border-radius:6px;text-decoration:none;font-weight:700;font-size:.9rem}
+.buy-btn:hover{background:#b8973b}
+table{width:100%;border-collapse:collapse;margin:2rem 0;font-size:.9rem}
+th{background:#1e3a5f;color:#c9a84c;padding:.75rem;text-align:left}
+td{padding:.75rem;border-bottom:1px solid #1e3a5f;color:#94a3b8}
+tr:hover td{background:#0d1f3c}
+.faq{margin:2rem 0}
+.faq h2{color:#c9a84c;margin-bottom:1.5rem;font-size:1.3rem}
+.faq-item{background:#111e33;border:1px solid #1e3a5f;border-radius:8px;padding:1.25rem;margin-bottom:1rem}
+.faq-item h3{color:#e2e8f0;margin-bottom:.5rem;font-size:1rem}
+.faq-item p{color:#94a3b8;font-size:.9rem}
+.related{background:#111e33;border:1px solid #1e3a5f;border-radius:12px;padding:1.5rem;margin:2rem 0}
+.related h2{color:#c9a84c;margin-bottom:1rem}
+.related ul{list-style:none}
+.related li{margin:.5rem 0}
+.related a{color:#94a3b8;text-decoration:none}
+.related a:hover{color:#c9a84c}
+footer{background:#111e33;border-top:1px solid #1e3a5f;padding:2rem;text-align:center;color:#475569;font-size:.85rem;margin-top:3rem}
+footer a{color:#94a3b8;text-decoration:none}
+footer .disclaimer{font-size:.8rem;color:#475569;margin-top:.5rem}
+@media(max-width:600px){.hero h1{font-size:1.4rem}.pick-header{flex-direction:column;align-items:flex-start}}
+</style>
+</head>
+<body>
+<header>
+<a class="logo" href="/">SleepWise Reviews</a>
+<nav><a href="/">Home</a><a href="/posts/">All Posts</a></nav>
+</header>
+<div class="hero">
+<span class="cat-badge" style="background:#dc2626">Health</span>
+<h1>Best Mattress for Post-Mastectomy Recovery (2026): 7 Picks for Chest Wall &amp; Reconstruction Sleep</h1>
+<p>Clinical selection guide for mastectomy patients &mdash; adjustable base compatibility for TRAM/DIEP flap trunk flexion positioning, pressure relief for chest wall reconstruction, drain-safe back sleeping, arm elevation for lymphedema prevention, and edge support for getting in and out of bed with limited shoulder mobility.</p>
+</div>
+<div class="container">
+<nav class="toc" aria-label="Table of contents">
+<h2>Contents</h2>
+<ol>
+<li><a href="#science">The Clinical Science</a></li>
+<li><a href="#picks">Our 7 Picks</a></li>
+<li><a href="#comparison">Comparison Table</a></li>
+<li><a href="#buying-guide">Buying Guide</a></li>
+<li><a href="#faq">FAQ</a></li>
+<li><a href="#related">Related Guides</a></li>
+</ol>
+</nav>
+<section id="science" class="science-box">
+<h2>The Clinical Science: Why Your Mattress Matters After Mastectomy</h2>
+<p>Mastectomy removes one or both breasts and, depending on cancer stage, surrounding lymph nodes in the axilla. The surgical site &mdash; whether a flat chest wall closure, an incision with tissue expanders, a silicone implant, or an autologous flap reconstruction using the patient&rsquo;s own tissue &mdash; creates a set of sleep positioning requirements that are medically distinct from elective breast surgery, lumpectomy, or radiation therapy alone. The mattress is not a peripheral concern: poor sleep surface selection is a documented contributor to post-surgical pain, position intolerance, lymphedema development, and flap compromise in the critical healing window.</p>
+<p style="margin-top:.75rem">There are five primary clinical challenges that a mattress must address for post-mastectomy patients. First, <strong>chest wall reconstruction sensitivity</strong>: the anterior chest wall is the direct surgical site. Whether the patient has had a flat closure (no reconstruction), tissue expanders placed under the pectoralis muscle, silicone implants, or autologous flap reconstruction, direct pressure on the chest is contraindicated during the early healing phase. Any mattress that allows the chest to sink into a soft surface in a prone or side-lying position risks wound dehiscence, expander displacement, or implant malposition. Back sleeping on a supportive surface that distributes weight across the posterior torso &mdash; not concentrating it at any single point &mdash; is the required configuration.</p>
+<p style="margin-top:.75rem">Second, <strong>arm positioning for lymphedema prevention</strong>: axillary lymph node dissection (ALND) removes the lymph nodes in the armpit to assess cancer spread. Removing these nodes disrupts lymphatic drainage in the ipsilateral arm, creating a lifelong risk of lymphedema &mdash; chronic arm swelling from lymph fluid accumulation. During sleep, the affected arm must be elevated at or slightly above heart level. Depression of the arm below heart level allows lymph fluid to pool. A mattress on an adjustable base, with the head section elevated, naturally raises the upper body and makes it easier to position the arm on a wedge or body pillow at the correct height. A flat mattress requires pillow stacking that shifts during the night.</p>
+<p style="margin-top:.75rem">Third, <strong>sleeping position transition</strong>: most patients are not habitual back sleepers. The surgical protocol mandates back sleeping for 4&ndash;8 weeks post-operatively, creating a forced positional change that is uncomfortable on the wrong mattress surface. A mattress that is too soft allows pelvic sinkage that creates lumbar strain during prolonged supine positioning. A mattress that is too firm creates pressure at the sacrum, heels, and posterior shoulder blades that makes it impossible to stay on the back comfortably. The ideal surface supports spinal alignment in the supine position while providing enough cushioning at bony prominences for 6&ndash;8 hours of back sleeping.</p>
+<p style="margin-top:.75rem">Fourth, <strong>surgical drain management</strong>: Jackson-Pratt drains are typically placed at the surgical site and remain in place for 1&ndash;3 weeks post-operatively. These are soft, bulb-tipped tubes that exit the body through small skin incisions. Compression of the drain &mdash; by rolling onto it or by a mattress surface that creates enough localized pressure to kink the tubing &mdash; can obstruct drainage and cause seroma, hematoma, or infection. Back sleeping on a mattress with gentle, even posterior weight distribution is the only sleeping position that reliably avoids drain compression. The mattress must not have pressure ridges, coil protrusions, or localized firm spots that could kink a drain tube running along the lateral chest.</p>
+<p style="margin-top:.75rem">Fifth, <strong>TRAM and DIEP flap reconstruction</strong>: these autologous reconstruction techniques use abdominal tissue (transverse rectus abdominis muscle for TRAM, deep inferior epigastric perforator vessels for DIEP) to reconstruct the breast mound. The abdominal donor site adds a second surgical wound with its own positioning requirements. Patients with TRAM or DIEP reconstruction cannot fully extend the trunk &mdash; doing so stretches the abdominal incision and risks wound dehiscence. The clinical positioning protocol is <em>trunk flexion</em>: the head of bed elevated 30&ndash;45 degrees AND the knees elevated simultaneously, creating a position that reduces tension across the abdominal incision. This requires an adjustable base with independent head and foot articulation. A flat mattress cannot accommodate this requirement without a complex arrangement of pillows that will not hold position through the night.</p>
+<p style="margin-top:.75rem">Reconstruction timeline also matters. Immediate reconstruction (performed during the mastectomy operation) typically involves tissue expanders, which are progressively filled with saline over weeks to stretch the skin envelope before the final implant exchange. Delayed reconstruction occurs months or years later. Implant-based reconstruction and autologous flap reconstruction have different weight distributions and sensitivity patterns. This guide&rsquo;s picks address the broadest range of reconstruction types, with specific notes where a mattress is particularly suited to one reconstruction approach over another.</p>
+</section>""")
+
+HTML_PARTS.append("""
+<section id="picks">
+<h2 style="color:#c9a84c;margin-bottom:1.5rem;font-size:1.4rem">Our 7 Best Mattress Picks for Post-Mastectomy Recovery</h2>
+
+<div class="pick-card" id="pick-1">
+<div class="pick-header"><div class="pick-num">1</div><h3>Saatva Adjustable Base Plus + Saatva Classic &mdash; Best Adjustable Base Compatible for TRAM/DIEP Flap</h3></div>
+<p>TRAM and DIEP flap reconstruction patients have a non-negotiable positioning requirement: simultaneous head-of-bed elevation and knee elevation to protect the abdominal donor site. This is the trunk flexion position, and it cannot be achieved on a flat mattress without a precarious stack of pillows that will not survive a night of even minor movement. The Saatva Classic paired with Saatva&rsquo;s Adjustable Base Plus is the most complete solution for this requirement. The Classic&rsquo;s dual-coil construction &mdash; individually wrapped comfort coils over a tempered steel base &mdash; allows the mattress to flex cleanly at both the head and foot articulation points without creating pressure ridges or compromising the foam comfort layers. Saatva certifies the Classic for adjustable base use, which is not a given for all hybrid mattresses. The Adjustable Base Plus includes independent head and foot articulation, a lumbar support zone, and a zero-gravity preset that puts the patient in the clinically recommended trunk flexion position at the touch of a button. The Luxury Firm configuration is recommended for post-mastectomy patients who need back-sleeping support; the Euro pillow top provides enough surface cushioning to relieve posterior bony prominences during the mandatory supine recovery period. Edge support is reinforced with a foam perimeter &mdash; critical for getting in and out of bed with limited arm mobility. Saatva&rsquo;s in-home white-glove delivery removes packaging and setup burden, which matters when lifting restrictions are in place post-operatively.</p>
+<a class="buy-btn" href="https://www.amazon.com/s?k=Saatva+Classic+adjustable+base+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</div>
+
+<div class="pick-card" id="pick-2">
+<div class="pick-header"><div class="pick-num">2</div><h3>Helix Midnight Luxe &mdash; Best for Transitioning from Back to Side Sleep After Healing</h3></div>
+<p>Post-mastectomy back sleeping is mandatory during the acute healing phase, but most patients are habitual side sleepers who will return to lateral positioning once their surgical team grants clearance, typically 4&ndash;6 weeks post-operatively for non-flap reconstruction. The transition back to side sleeping after weeks on the back requires a mattress that supports both positions equally well &mdash; not one optimized purely for back sleeping that becomes uncomfortable the moment side sleep is permitted. The Helix Midnight Luxe is the strongest dual-position performer on this list. Its zoned pocketed coil system provides firmer lumbar support for back sleeping alignment while delivering extra give at the shoulder and hip zones for side sleeping comfort. The pillow top adds surface cushioning that allows the operated shoulder (on the non-operated side in post-mastectomy side sleeping) to sink appropriately without creating pressure on the chest. For patients with unilateral mastectomy who will sleep on the contralateral side after healing, the Midnight Luxe&rsquo;s shoulder zone is specifically engineered to accommodate that position without lateral chest compression. Adjustable base compatibility allows arm elevation during the back-sleeping phase. The TENCEL cover is smooth and moisture-wicking, which is relevant during the hormonal fluctuations that accompany cancer treatment. Motion isolation from the pocketed coil system reduces partner disturbance during the frequent nighttime repositioning that occurs in early recovery.</p>
+<a class="buy-btn" href="https://www.amazon.com/s?k=Helix+Midnight+Luxe+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</div>
+
+<div class="pick-card" id="pick-3">
+<div class="pick-header"><div class="pick-num">3</div><h3>Tempur-Pedic TEMPUR-breeze &mdash; Best Pressure Relief for Chest Wall Reconstruction</h3></div>
+<p>The TEMPUR-breeze addresses the specific challenge of chest wall reconstruction sensitivity: the surgical site &mdash; whether flat closure, tissue expander, or implant &mdash; must not experience concentrated pressure during sleep. Standard mattresses, even supportive ones, can create localized pressure at bony prominences along the posterior torso when the patient is in the forced supine position for weeks at a time. TEMPUR material responds to the exact contour of the individual patient&rsquo;s body, distributing weight across the largest possible surface area and eliminating the pressure peaks that create discomfort at the sacrum, posterior shoulder blades, and heels during prolonged back sleeping. This even load distribution also means that any drain tubes resting against the posterior chest wall are unlikely to be kinked by a localized firm spot in the mattress surface. The TEMPUR-breeze adds a cooling mechanism to the standard TEMPUR dense foam construction &mdash; relevant for patients undergoing chemotherapy or hormone therapy alongside surgical recovery, as these treatments frequently cause night sweats and thermoregulation disruption. The TEMPUR material provides the strongest motion isolation available in a mattress, isolating partner movement completely &mdash; important when any chest disturbance can cause pain in the early healing phase. Tempur-Pedic designs the TEMPUR-breeze for use with its Power Base adjustable frame, providing full adjustable base compatibility for arm elevation and HOB positioning.</p>
+<a class="buy-btn" href="https://www.amazon.com/s?k=Tempur-Pedic+TEMPUR-breeze+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</div>
+
+<div class="pick-card" id="pick-4">
+<div class="pick-header"><div class="pick-num">4</div><h3>Purple Restore Premier &mdash; Best Motion Isolation for Drain &amp; Tissue Disturbance Prevention</h3></div>
+<p>Surgical drains (Jackson-Pratt drains) exit the body at the lateral chest wall and must remain uncompressed and undisturbed during sleep. Partner movement that transmits across a mattress surface creates exactly the kind of jostling that can shift drain tubing, cause discomfort at the insertion site, or wake a patient from the light, pain-interrupted sleep that characterizes early surgical recovery. The Purple Restore Premier&rsquo;s GelFlex Grid provides a unique combination of motion isolation and pressure neutrality that no other material on this list replicates. The open grid structure absorbs energy from movement without transmitting it across the sleep surface &mdash; the Purple bucket test (a glass of wine remains still as weight drops next to it) demonstrates this property visually, but for post-mastectomy patients it translates to a partner turning over at 3am without the patient feeling any ripple or vibration near the drain site. The GelFlex Grid also provides instant pressure response without memory foam&rsquo;s slow conforming behavior &mdash; when the patient needs to reposition, the grid responds immediately rather than holding the previous position. The continuous airflow through the open grid keeps the sleep surface cool without gel infusion that can degrade over time. The reinforced edge system provides a solid sitting platform for getting out of bed. The Restore Premier is adjustable base compatible for arm elevation and HOB positioning during the recovery period.</p>
+<a class="buy-btn" href="https://www.amazon.com/s?k=Purple+Restore+Premier+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</div>
+
+<div class="pick-card" id="pick-5">
+<div class="pick-header"><div class="pick-num">5</div><h3>Saatva Classic Luxury Firm &mdash; Best Edge Support for Getting Out of Bed with Limited Arm Mobility</h3></div>
+<p>Getting in and out of bed after mastectomy is a physically demanding task when arm mobility is restricted. Axillary lymph node dissection limits shoulder range of motion on the operated side; lifting restrictions (typically nothing over 5&ndash;10 lbs for 4&ndash;6 weeks) prevent the use of the arms to push off from the mattress surface. Patients rely almost entirely on the edge of the mattress as a pivot point &mdash; sitting on the edge, using leg momentum and core engagement to rise, and in reverse when lying down. A mattress with poor edge support compresses and slopes inward under this load, creating an unstable platform that puts patients at fall risk and forces compensatory movements that strain the chest wall. The Saatva Classic Luxury Firm has the most robust edge support on this list. Its reinforced foam perimeter creates a firm, stable platform that holds under sitting load without significant compression or lateral movement. The innerspring base provides deep structural support that prevents the mattress from bowing toward the center when weight is applied at the perimeter. The Luxury Firm firmness level (7 out of 10) provides the supportive back-sleeping surface needed during the supine recovery period without sacrificing the surface cushioning necessary for bony pressure relief. Saatva&rsquo;s white-glove delivery includes mattress setup without patient involvement &mdash; relevant when post-operative lifting restrictions prevent mattress handling. Adjustable base compatible for TRAM/DIEP flap positioning requirements.</p>
+<a class="buy-btn" href="https://www.amazon.com/s?k=Saatva+Classic+Luxury+Firm+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</div>
+
+<div class="pick-card" id="pick-6">
+<div class="pick-header"><div class="pick-num">6</div><h3>Saatva Zenhaven Latex &mdash; Best Latex Option for Post-Mastectomy Recovery</h3></div>
+<p>Natural Talalay latex is the material of choice for post-mastectomy patients who want durable support, responsive pressure relief, and adjustable base compatibility without memory foam&rsquo;s heat retention or off-gassing concerns. Latex does not develop permanent body impressions at the sacrum or posterior shoulder blades during the weeks of enforced supine positioning &mdash; a real risk with low-density memory foam that can degrade under the consistent pressure pattern of a patient who cannot change positions for weeks. The Zenhaven&rsquo;s GOLS-certified organic Talalay latex, organic cotton, and organic wool construction eliminates synthetic chemical exposure, which matters for cancer patients whose immune and respiratory systems may be under stress from treatment. The pin-core ventilation channels throughout the latex layer provide continuous airflow that prevents heat buildup &mdash; relevant for patients experiencing chemotherapy-related thermoregulation disruption. The flippable design (Luxury Plush on one side, Gentle Firm on the other) gives post-mastectomy patients flexibility: the Gentle Firm side during the acute back-sleeping recovery phase, and the Luxury Plush side when side sleeping is permitted and left-side or right-side (contralateral) pressure relief becomes the priority. Natural latex flexes without cracking at adjustable base articulation points, making the Zenhaven fully compatible with the trunk flexion positioning required for TRAM/DIEP flap reconstruction patients. Edge support is solid and durable over the product lifespan.</p>
+<a class="buy-btn" href="https://www.amazon.com/s?k=Saatva+Zenhaven+latex+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</div>
+
+<div class="pick-card" id="pick-7">
+<div class="pick-header"><div class="pick-num">7</div><h3>DreamCloud Premier Rest &mdash; Best Budget Pick for Post-Mastectomy Recovery</h3></div>
+<p>The DreamCloud Premier Rest delivers the essential post-mastectomy mattress requirements &mdash; adjustable base compatibility, supportive back-sleeping surface, decent edge support, and motion isolation &mdash; at a significantly lower price point than the premium picks on this list. Medical expenses around mastectomy and reconstruction are substantial, and not every patient can allocate several thousand dollars to a mattress during or after cancer treatment. The Premier Rest&rsquo;s pocketed coil system flexes on an adjustable base for HOB elevation and arm positioning. The gel memory foam comfort layers provide even posterior weight distribution for extended back sleeping without the heat retention of lower-tier memory foam, aided by the cashmere-blend quilted cover that adds breathability at the sleep surface. Edge support is reinforced with a foam perimeter that holds adequately under sitting load for the in-bed and out-of-bed movements that a patient with limited arm mobility performs multiple times daily. Motion isolation from the pocketed coil system is adequate for most couples &mdash; not at the level of the Tempur-Pedic, but substantially better than an open-coil innerspring. The 365-night trial is one of the longest in the industry, giving post-mastectomy patients time to evaluate comfort across the full recovery arc, including the transition from back sleeping to side sleeping, before committing. For patients managing cost alongside medical recovery, the DreamCloud Premier Rest is the practical, clinically adequate choice.</p>
+<a class="buy-btn" href="https://www.amazon.com/s?k=DreamCloud+Premier+Rest+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</div>
+
+</section>""")
+
+HTML_PARTS.append("""
+<section id="comparison">
+<h2 style="color:#c9a84c;margin-bottom:1rem;font-size:1.3rem">Quick-Comparison Table</h2>
+<table>
+<thead><tr><th>Mattress</th><th>Type</th><th>Adj. Base</th><th>Back Sleep Support</th><th>Motion Isolation</th><th>Edge Support</th><th>Best For</th></tr></thead>
+<tbody>
+<tr><td>Saatva Classic + Adj. Base Plus</td><td>Innerspring Hybrid</td><td>Excellent</td><td>Excellent</td><td>Good</td><td>Excellent</td><td>TRAM/DIEP flap trunk flexion</td></tr>
+<tr><td>Helix Midnight Luxe</td><td>Hybrid</td><td>Very Good</td><td>Very Good</td><td>Very Good</td><td>Very Good</td><td>Back-to-side sleep transition</td></tr>
+<tr><td>Tempur-Pedic TEMPUR-breeze</td><td>Memory Foam</td><td>Excellent</td><td>Excellent</td><td>Excellent</td><td>Good</td><td>Chest wall pressure relief</td></tr>
+<tr><td>Purple Restore Premier</td><td>Grid Hybrid</td><td>Very Good</td><td>Very Good</td><td>Very Good</td><td>Very Good</td><td>Drain disturbance prevention</td></tr>
+<tr><td>Saatva Classic Luxury Firm</td><td>Innerspring Hybrid</td><td>Excellent</td><td>Excellent</td><td>Good</td><td>Excellent</td><td>Edge support / limited arm mobility</td></tr>
+<tr><td>Saatva Zenhaven Latex</td><td>Natural Latex</td><td>Very Good</td><td>Very Good</td><td>Good</td><td>Very Good</td><td>Durable, chemical-free recovery</td></tr>
+<tr><td>DreamCloud Premier Rest</td><td>Hybrid</td><td>Good</td><td>Good</td><td>Good</td><td>Good</td><td>Budget recovery option</td></tr>
+</tbody>
+</table>
+</section>
+
+<section id="buying-guide">
+<h2 style="color:#c9a84c;margin-bottom:1rem;font-size:1.3rem">What to Look for in a Mattress After Mastectomy</h2>
+<p><strong style="color:#c9a84c;">Adjustable Base Compatibility (Essential for TRAM/DIEP):</strong> TRAM and DIEP flap reconstruction patients require the trunk flexion position &mdash; simultaneous head-of-bed elevation and knee elevation &mdash; to protect the abdominal donor site during healing. This requires a mattress that can flex at both the head and foot articulation points of an adjustable base without creating pressure ridges, coil protrusions, or structural damage. Pocketed coil hybrids and latex mattresses flex best. All-foam mattresses can work if the foam density allows articulation. Look for explicit adjustable base certification from the manufacturer, not just general compatibility claims. For implant and flat-closure patients, adjustable base use is beneficial but not the same clinical imperative &mdash; arm elevation for lymphedema prevention is achievable with head-section elevation alone.</p>
+<p style="margin-top:.75rem"><strong style="color:#c9a84c;">Back-Sleeping Support and Pressure Distribution:</strong> Post-mastectomy back sleeping is mandatory for 4&ndash;8 weeks. A mattress that is too soft allows pelvic sinkage that creates lumbar strain and makes it difficult to get out of bed without arm assistance. A mattress that is too firm creates pressure peaks at the sacrum, posterior iliac crests, heels, and posterior shoulder blades that become acutely painful over hours. Medium-firm (5&ndash;7 out of 10) with even posterior weight distribution is the target specification. Memory foam and latex distribute weight across the largest possible surface area by conforming to body contours &mdash; this reduces the localized pressure that makes prolonged supine positioning intolerable and eliminates the localized firm spots that could kink a surgical drain tube.</p>
+<p style="margin-top:.75rem"><strong style="color:#c9a84c;">Edge Support for Mobility with Limited Arm Use:</strong> Mastectomy patients with lifting restrictions and reduced shoulder range of motion must use leg momentum and body weight shifting to get in and out of bed. The mattress edge must function as a stable pivot platform without compressing inward or creating a rolling-off sensation. Reinforced foam perimeters and edge-zone coil support are the design features to look for. Test the edge by sitting at the mattress perimeter during the trial period and evaluating whether it holds without significant compression or lateral tilt. A poor-edge mattress creates real fall risk for patients recovering from major surgery.</p>
+<p style="margin-top:.75rem"><strong style="color:#c9a84c;">Motion Isolation for Drain and Tissue Protection:</strong> Surgical drains at the chest wall and partner movement at night are an adverse combination. Any motion transmitted across the mattress surface can shift drain tubing, disturb tissue expanders or newly placed implants, and wake a patient from the fragile, pain-interrupted sleep that characterizes early recovery. Memory foam provides the strongest motion isolation; pocketed coil hybrids provide moderate isolation. If the patient sleeps with a partner, prioritize motion isolation in the selection decision. Partners should also be counseled about minimizing bed movement during the drain and acute healing phase.</p>
+<p style="margin-top:.75rem"><strong style="color:#c9a84c;">Not Breast Augmentation, Not Lumpectomy:</strong> Post-mastectomy recovery has different and more stringent positioning requirements than elective breast augmentation (which primarily requires avoiding prone sleeping for 4&ndash;6 weeks) or lumpectomy recovery (which is less extensive and typically has no back-sleeping mandate). The TRAM/DIEP flap trunk flexion requirement is unique to autologous reconstruction patients and does not apply to implant-based reconstruction. The drain management requirement applies to mastectomy and not to lumpectomy, which typically does not require drains. If you are selecting a mattress for a specific reconstruction type, prioritize the features relevant to your clinical situation rather than a general post-mastectomy list.</p>
+</section>
+
+<div class="science-box">
+<h2>Reconstruction-Specific Positioning Guide</h2>
+<p><strong>Flat closure (no reconstruction):</strong> Back sleeping mandatory for 4&ndash;8 weeks post-op. Avoid direct pressure on the anterior chest wall. Medium-firm support with even posterior weight distribution. Side sleeping on contralateral side typically cleared at 4&ndash;6 weeks. Adjustable base beneficial for getting in and out of bed; not a clinical requirement for positioning.</p>
+<p style="margin-top:.75rem"><strong>Tissue expanders:</strong> Back sleeping mandatory. Expanders are placed under the pectoralis muscle and progressively filled with saline at clinic visits over 3&ndash;6 months. During the expansion phase, the anterior chest may feel tight; a surface that allows full supine positioning without chest compression is the priority. Side sleeping restrictions vary by surgeon; follow specific guidance for your expansion protocol.</p>
+<p style="margin-top:.75rem"><strong>Implant-based reconstruction (immediate or delayed exchange):</strong> Back sleeping for 4&ndash;6 weeks post-op. After implant exchange from expander, the recovery is typically faster than the initial mastectomy. Medium-firm adjustable-base-compatible mattress with arm elevation capability for lymphedema prevention is the core requirement.</p>
+<p style="margin-top:.75rem"><strong>TRAM flap reconstruction:</strong> Trunk flexion position required: head elevated 30&ndash;45 degrees AND knees elevated simultaneously. This reduces tension at the abdominal donor site incision. Requires an adjustable base with independent head and foot articulation. No full trunk extension for 4&ndash;6 weeks. A mattress on an adjustable base is the only practical way to maintain this position through the night.</p>
+<p style="margin-top:.75rem"><strong>DIEP flap reconstruction:</strong> Same trunk flexion requirement as TRAM, with the additional concern that the perforator vessels supplying the flap must not be compressed or kinked. The positioning is the same, but the flap monitoring period is critical &mdash; any positioning that causes vascular compromise requires immediate surgical attention. An adjustable base with programmable position presets reduces the risk of accidental full extension during the night.</p>
+<p style="margin-top:.75rem"><strong>Bilateral mastectomy:</strong> No side-sleeping option during the healing phase, making the back-sleeping surface selection doubly important. Both sides of the chest must avoid pressure. Motion isolation from partner movement is particularly important as any jostling affects both sides simultaneously.</p>
+</div>""")
+
+HTML_PARTS.append("""
+<section class="faq" id="faq">
+<h2>Frequently Asked Questions</h2>
+<div class="faq-item"><h3>What is the best sleeping position after mastectomy?</h3><p>Back sleeping (supine) is the clinical standard for the first 4 to 8 weeks post-mastectomy. It avoids direct pressure on the anterior chest wall surgical site, keeps the arm elevated to prevent lymphedema after axillary lymph node dissection, and allows surgical drains to remain uncompressed. TRAM and DIEP flap reconstruction patients need additional trunk flexion &mdash; head-of-bed elevation combined with knee elevation &mdash; to protect the abdominal donor site. Side sleeping is typically permitted after healing is confirmed and drains are removed, usually 4 to 6 weeks post-op, with physician clearance and on the non-operated side for unilateral mastectomy.</p></div>
+<div class="faq-item"><h3>How do I keep my arm elevated for lymphedema prevention after mastectomy?</h3><p>Arm elevation after axillary lymph node dissection requires the affected arm to be at or slightly above heart level during sleep. An adjustable base with head-of-bed elevation raises the entire upper body, making it easier to position the arm on a wedge pillow or body pillow at the correct height without a precarious stack of regular pillows. The arm should rest extended, not bent at the elbow with pressure at the joint. Avoid tight compression from bedding bunching at the wrist or forearm. Your lymphedema therapist can provide specific positioning guidance for your anatomy and dissection extent.</p></div>
+<div class="faq-item"><h3>Can I sleep on my side after mastectomy?</h3><p>Side sleeping is generally not recommended for 4 to 8 weeks after mastectomy. Direct lateral pressure on the chest wall surgical site &mdash; whether flat closure, tissue expander, or implant reconstruction &mdash; is contraindicated during healing. After surgical clearance, side sleeping on the non-operated side may be permitted for unilateral mastectomy. Patients who had bilateral mastectomy must remain on their backs until both sides are cleared. TRAM and DIEP flap patients have additional restrictions from the abdominal donor site; trunk flexion positioning must continue until the donor site is fully healed.</p></div>
+<div class="faq-item"><h3>What mattress firmness is best for post-mastectomy back sleeping?</h3><p>Medium to medium-firm (5 to 7 out of 10) is the target range for post-mastectomy back sleeping. The mattress must support spinal alignment without excessive sinkage that makes it difficult to get out of bed with limited arm mobility. A surface that is too soft allows pelvic sinkage that creates lumbar strain during prolonged supine positioning. A surface that is too firm creates pressure at the sacrum and posterior shoulder blades that makes staying on the back uncomfortable for the required 6 to 8 hours. Even posterior weight distribution matters as much as overall firmness number.</p></div>
+<div class="faq-item"><h3>Do I need an adjustable base after mastectomy?</h3><p>An adjustable base is strongly recommended for TRAM and DIEP flap reconstruction patients, who require simultaneous head-of-bed and knee elevation (trunk flexion position) to protect the abdominal donor site. For implant-based reconstruction and flat closure patients, an adjustable base is clinically beneficial for arm elevation and for getting in and out of bed, but not the same imperative as it is for flap patients. If budget requires a choice between a better mattress and an adjustable base, flap reconstruction patients should prioritize the adjustable base; implant and flat-closure patients should prioritize the mattress quality first.</p></div>
+</section>
+
+<section class="related" id="related">
+<h2>Related Guides</h2>
+<ul>
+<li><a href="best-mattress-lymphedema.html">Best Mattress for Lymphedema</a></li>
+<li><a href="best-mattress-cancer-treatment.html">Best Mattress During Cancer Treatment</a></li>
+<li><a href="best-mattress-shoulder-pain.html">Best Mattress for Shoulder Pain</a></li>
+<li><a href="best-mattress-back-sleepers.html">Best Mattress for Back Sleepers</a></li>
+<li><a href="best-mattress-adjustable-base.html">Best Mattress for Adjustable Bases</a></li>
+</ul>
+</section>
+</div>
+<footer>
+<p><a href="/">SleepWise Reviews</a> | Evidence-based sleep product guidance</p>
+<p class="disclaimer">As an Amazon Associate we earn from qualifying purchases. All affiliate links use tag sleepwiserevi-20. This content is for informational purposes only and does not constitute medical advice.</p>
+</footer>
+</body>
+</html>""")
+
+html = "".join(HTML_PARTS)
+os.makedirs("posts", exist_ok=True)
+out = os.path.join("posts", "best-mattress-post-mastectomy.html")
+with open(out, "w", encoding="utf-8") as f:
+    f.write(html)
+print("Written:", out)
+print("Size:", os.path.getsize(out), "bytes")

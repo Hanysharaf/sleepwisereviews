@@ -1,0 +1,357 @@
+import os
+
+OUTPUT_PATH = os.path.join(
+    os.path.dirname(os.path.abspath(__file__)),
+    "posts",
+    "best-mattress-polymyalgia-rheumatica.html",
+)
+
+HTML = """<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Best Mattress for Polymyalgia Rheumatica (2026): 7 Picks for Shoulder/Hip Girdle Pain &amp; Morning Stiffness</title>
+<meta name="description" content="Best mattresses for polymyalgia rheumatica: bilateral shoulder and hip girdle pain, severe morning stiffness, steroid-induced insomnia, and corticosteroid osteoporosis risk. 7 expert picks with clinical guidance.">
+<link rel="canonical" href="https://sleepwisereviews.com/posts/best-mattress-polymyalgia-rheumatica.html">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Best Mattress for Polymyalgia Rheumatica (2026): 7 Picks for Shoulder/Hip Girdle Pain and Morning Stiffness",
+  "description": "7 mattress picks for polymyalgia rheumatica addressing bilateral shoulder and hip girdle pain, severe morning stiffness, steroid-induced insomnia, and corticosteroid-related osteoporosis risk.",
+  "author": {"@type": "Organization", "name": "SleepWise Reviews"},
+  "publisher": {"@type": "Organization", "name": "SleepWise Reviews", "url": "https://sleepwisereviews.com"},
+  "datePublished": "2026-05-26",
+  "dateModified": "2026-05-26",
+  "mainEntityOfPage": "https://sleepwisereviews.com/posts/best-mattress-polymyalgia-rheumatica.html"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://sleepwisereviews.com/"},
+    {"@type": "ListItem", "position": 2, "name": "All Posts", "item": "https://sleepwisereviews.com/posts/index.html"},
+    {"@type": "ListItem", "position": 3, "name": "Best Mattress for Polymyalgia Rheumatica", "item": "https://sleepwisereviews.com/posts/best-mattress-polymyalgia-rheumatica.html"}
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Best Mattresses for Polymyalgia Rheumatica",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Saatva Classic with Adjustable Base", "url": "https://www.amazon.com/s?k=Saatva+Classic+mattress+adjustable+base&tag=sleepwiserevi-20"},
+    {"@type": "ListItem", "position": 2, "name": "Helix Midnight Luxe", "url": "https://www.amazon.com/s?k=Helix+Midnight+Luxe+mattress&tag=sleepwiserevi-20"},
+    {"@type": "ListItem", "position": 3, "name": "Saatva Zenhaven Latex", "url": "https://www.amazon.com/s?k=Saatva+Zenhaven+latex+mattress&tag=sleepwiserevi-20"},
+    {"@type": "ListItem", "position": 4, "name": "Casper Wave Hybrid", "url": "https://www.amazon.com/s?k=Casper+Wave+Hybrid+mattress&tag=sleepwiserevi-20"},
+    {"@type": "ListItem", "position": 5, "name": "Purple Restore Plus", "url": "https://www.amazon.com/s?k=Purple+Restore+Plus+mattress&tag=sleepwiserevi-20"},
+    {"@type": "ListItem", "position": 6, "name": "Avocado Green Mattress", "url": "https://www.amazon.com/s?k=Avocado+Green+mattress&tag=sleepwiserevi-20"},
+    {"@type": "ListItem", "position": 7, "name": "DreamCloud Premier", "url": "https://www.amazon.com/s?k=DreamCloud+Premier+mattress&tag=sleepwiserevi-20"}
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Why does polymyalgia rheumatica cause severe morning stiffness?",
+      "acceptedAnswer": {"@type": "Answer", "text": "PMR morning stiffness results from nocturnal inflammatory cytokine accumulation in the shoulder and hip girdle synovium and bursae during static sleep. IL-6 and IL-1beta peak in the early morning hours (4-6 AM), driving characteristic stiffness lasting 45 minutes to 2 hours. A mattress that minimizes static pressure on shoulder and hip bursae limits overnight inflammatory cytokine concentration at those sites, making the waking transition significantly less painful."}
+    },
+    {
+      "@type": "Question",
+      "name": "Does prednisone for PMR affect sleep?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Yes. Prednisone is the standard PMR treatment, but corticosteroids have well-documented sleep effects: difficulty falling asleep, early awakening, vivid dreams, and in higher doses, steroid-induced insomnia affecting up to 40-50% of users. Morning dosing is preferred over evening dosing to minimize sleep disruption. A mattress that supports deep pressure pathways helps manage the hyperarousal component of steroid-induced insomnia."}
+    },
+    {
+      "@type": "Question",
+      "name": "What is the best sleep position for PMR shoulder pain?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Back sleeping is generally preferred for PMR because it distributes shoulder girdle weight across the full mattress surface rather than concentrating pressure on one shoulder during side sleeping. If side sleeping is necessary, the less-painful shoulder should be down, with a pillow between the knees to maintain pelvic neutrality. A zoned mattress with dedicated shoulder cushioning reduces the bursae impingement risk during side sleeping."}
+    },
+    {
+      "@type": "Question",
+      "name": "How does corticosteroid-induced osteoporosis affect mattress choice for PMR patients?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Long-term prednisone therapy (PMR treatment typically spans 1-3 years) causes corticosteroid-induced osteoporosis (CIOP) in 30-50% of patients. Vertebral compression fractures from CIOP alter spinal anatomy and change postural support requirements. A mattress with adaptive support -- natural latex or responsive hybrid -- accommodates these postural changes. Edge support is also critical: a firm mattress perimeter allows safe sit-to-stand transfers, reducing fall risk for patients with CIOP-related vertebral fragility."}
+    },
+    {
+      "@type": "Question",
+      "name": "How does PMR differ from fibromyalgia and rheumatoid arthritis in terms of sleep needs?",
+      "acceptedAnswer": {"@type": "Answer", "text": "PMR produces bilateral proximal girdle stiffness (shoulders, hips, neck) with elevated ESR/CRP and almost exclusively affects adults over 50. It does not damage joints but causes profound morning stiffness after rest. Fibromyalgia causes widespread pain with tender points but no elevated inflammatory markers. Rheumatoid arthritis causes joint erosion at different joints (hands, wrists) with autoimmune features. PMR sleep needs are dominated by: bilateral bursa pressure relief, easy repositioning, edge support for elderly transfers, and steroid-insomnia management -- a distinct profile from both fibromyalgia (central sensitization focus) and RA (joint-specific needs)."}
+    }
+  ]
+}
+</script>
+<style>
+:root{--bg:#0a1628;--card:#111e33;--gold:#c9a84c;--text:#e8eaf0;--muted:#8892a4;--border:#1e2d45}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:'Segoe UI',system-ui,sans-serif;line-height:1.7;font-size:16px}
+a{color:var(--gold);text-decoration:none}
+a:hover{text-decoration:underline}
+header{background:linear-gradient(135deg,#0d1f3c,#1a3a5c);padding:16px 24px;border-bottom:1px solid var(--border)}
+.site-name{font-size:1.4rem;font-weight:700;color:var(--gold);letter-spacing:1px}
+.container{max-width:860px;margin:0 auto;padding:32px 20px}
+h1{font-size:2rem;font-weight:800;line-height:1.25;color:#fff;margin-bottom:12px}
+.meta{color:var(--muted);font-size:.9rem;margin-bottom:8px}
+.cat-badge{display:inline-block;font-size:.78rem;font-weight:700;padding:2px 10px;border-radius:12px;color:#fff;letter-spacing:.5px;margin-bottom:16px}
+.intro{font-size:1.05rem;margin-bottom:32px;color:#ccd3df}
+.science-box{background:var(--card);border:1px solid var(--border);border-left:4px solid var(--gold);border-radius:8px;padding:20px 24px;margin:28px 0}
+.science-box h3{color:var(--gold);font-size:1rem;margin-bottom:10px;text-transform:uppercase;letter-spacing:.5px}
+.science-box p{color:#b0bac8;font-size:.95rem;margin-bottom:10px}
+.science-box p:last-child{margin-bottom:0}
+.picks-list{list-style:none;display:flex;flex-direction:column;gap:28px;margin:32px 0}
+.pick-card{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:24px;position:relative}
+.pick-number{display:inline-block;background:var(--gold);color:#0a1628;font-weight:800;font-size:.85rem;padding:2px 10px;border-radius:20px;margin-bottom:10px}
+.pick-card h2{font-size:1.25rem;color:#fff;margin-bottom:8px}
+.pick-card .why{color:#b0bac8;font-size:.95rem;margin-bottom:14px}
+.pick-card .specs{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:14px}
+.spec-tag{background:#1a2d47;color:#8faacc;font-size:.8rem;padding:3px 10px;border-radius:12px}
+.cta-btn{display:inline-block;background:var(--gold);color:#0a1628;font-weight:700;padding:10px 22px;border-radius:8px;font-size:.95rem;margin-top:4px}
+.cta-btn:hover{background:#e0b85a;text-decoration:none}
+table{width:100%;border-collapse:collapse;margin:28px 0;font-size:.9rem}
+th{background:#1a2d47;color:var(--gold);padding:10px 14px;text-align:left;font-weight:600}
+td{padding:10px 14px;border-bottom:1px solid var(--border);color:#b0bac8}
+tr:last-child td{border-bottom:none}
+tr:nth-child(even) td{background:#0e1a2e}
+.note-box{background:#0e1f0e;border:1px solid #1e4d1e;border-radius:8px;padding:16px 20px;margin:24px 0}
+.note-box p{color:#90c690;font-size:.9rem}
+h2.section-title{font-size:1.4rem;color:#fff;margin:36px 0 16px;border-bottom:1px solid var(--border);padding-bottom:8px}
+.faq-item{margin:20px 0}
+.faq-item h3{color:var(--gold);font-size:1rem;margin-bottom:6px}
+.faq-item p{color:#b0bac8;font-size:.9rem}
+.related-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:12px;margin:20px 0}
+.related-card{background:var(--card);border:1px solid var(--border);border-radius:8px;padding:14px;font-size:.9rem}
+.related-card a{color:var(--gold)}
+footer{background:#060f1e;border-top:1px solid var(--border);text-align:center;padding:24px;color:var(--muted);font-size:.85rem;margin-top:48px}
+nav.breadcrumb{font-size:.85rem;color:var(--muted);margin-bottom:20px}
+nav.breadcrumb a{color:var(--muted)}
+nav.breadcrumb span{color:var(--gold)}
+@media(max-width:600px){h1{font-size:1.5rem}.pick-card h2{font-size:1.1rem}}
+</style>
+</head>
+<body>
+<header>
+<div class="site-name"><a href="../index.html" style="color:var(--gold);text-decoration:none">SleepWise Reviews</a></div>
+</header>
+<div class="container">
+<nav class="breadcrumb"><a href="../index.html">Home</a> &rsaquo; <a href="index.html">All Posts</a> &rsaquo; <span>Best Mattress for Polymyalgia Rheumatica</span></nav>
+
+<span class="cat-badge" style="background:#dc2626">Health</span>
+<h1>Best Mattress for Polymyalgia Rheumatica (2026): 7 Picks for Shoulder/Hip Girdle Pain &amp; Morning Stiffness</h1>
+<p class="meta">By SleepWise Reviews &bull; Updated May 26, 2026 &bull; 7 picks &bull; 10 min read</p>
+
+<p class="intro">Polymyalgia rheumatica produces the most severe morning stiffness of any inflammatory rheumatic disease &mdash; often lasting 45 minutes to 2 hours after waking. The shoulder and hip girdle bursae accumulate inflammatory cytokines during the overnight static sleep window, and interface pressure from the mattress directly concentrates those cytokines at the bursae surfaces. PMR is almost exclusively a disease of adults over 50 (peak onset at 70&ndash;80), which means mattress selection must also account for age-related sleep architecture changes, corticosteroid-induced osteoporosis risk, and the safe sit-to-stand transfers that older adults require. These 7 picks are selected for the specific sleep physiology of PMR: bilateral shoulder girdle relief, hip trochanteric bursa pressure management, steroid-insomnia support, and the functional demands of daily life with this condition.</p>
+
+<div class="science-box">
+<h3>The Polymyalgia Rheumatica Sleep Science</h3>
+<p><strong>IL-6-mediated synovitis and periarticular inflammation:</strong> PMR is driven primarily by interleukin-6 (IL-6), which orchestrates synovial inflammation and periarticular bursitis at the shoulder girdle (subacromial, subdeltoid bursae), hip girdle (trochanteric, iliopsoas bursae), and neck structures. Unlike rheumatoid arthritis, which causes joint erosion and synovial pannus formation, PMR does not damage cartilage or bone directly &mdash; but it produces profound inflammation of the tissue surrounding these joints. ESR typically exceeds 40 mm/hr (often 80&ndash;100+) and CRP is markedly elevated. These inflammatory markers reflect the degree of periarticular tissue involvement that directly determines morning stiffness severity.</p>
+<p><strong>Morning stiffness mechanism (post-rest inflammatory pooling):</strong> During 6&ndash;8 hours of static sleep, PMR-specific inflammatory cytokines &mdash; particularly IL-6, IL-1beta, and TNF-alpha &mdash; concentrate at bursae that are compressed against the mattress surface. The concentration effect is maximal in the early morning hours (4&ndash;6 AM), when IL-6 follows its circadian peak. The result is the characteristic feature of PMR: stiffness that is worst immediately upon waking and improves over 45 minutes to 2 hours with movement. A mattress that reduces interface pressure on shoulder and hip bursae during sleep directly limits overnight cytokine concentration, making the waking transition less severe.</p>
+<p><strong>Corticosteroid treatment and osteoporosis risk:</strong> Prednisone (15&ndash;25 mg/day initially, then tapering over 1&ndash;3 years) is the standard of care for PMR and produces rapid, dramatic symptom relief within 24&ndash;72 hours. However, long-term corticosteroid use causes corticosteroid-induced osteoporosis (CIOP) in 30&ndash;50% of patients, increasing vertebral compression fracture risk significantly. This changes mattress requirements: surfaces must be supportive enough to maintain spinal alignment, and edge support must be strong enough to facilitate safe sit-to-stand transfers from bed. A fall from a sagging mattress edge is a meaningful injury risk for a patient with CIOP.</p>
+<p><strong>Giant cell arteritis (GCA) association:</strong> 15&ndash;20% of PMR patients develop giant cell arteritis, a systemic vasculitis affecting the aorta and its branches. GCA is associated with headache, jaw claudication, and visual disturbances, all of which compound the already-disrupted sleep architecture of PMR. Pillow height and head positioning matter here: cervical alignment reduces GCA-related temporal headache pressure during sleep.</p>
+<p><strong>Steroid-induced insomnia:</strong> Prednisone causes insomnia in 40&ndash;50% of users through cortisol-mediated sympathetic activation, HPA axis dysregulation, and direct arousal effects. Sleep-onset difficulty, early morning awakening at 3&ndash;5 AM, and vivid/disturbing dreams are characteristic. Morning dosing (rather than evening) reduces this effect but does not eliminate it. A mattress that activates deep pressure pathways &mdash; reducing cortisol-mediated sympathetic tone &mdash; offers meaningful adjunctive support for steroid-insomnia patients.</p>
+<p><strong>Distinguished from fibromyalgia, RA, and myositis:</strong> PMR differs from fibromyalgia (widespread pain, tender points, normal ESR/CRP, no structural inflammation), rheumatoid arthritis (small joint erosion, different inflammatory profile, RF/anti-CCP positivity), and inflammatory myositis (true muscle fiber inflammation, elevated creatine kinase, proximal muscle weakness). These distinctions matter clinically: fibromyalgia management prioritizes central sensitization; RA prioritizes small joint support; PMR uniquely prioritizes bilateral proximal girdle bursa pressure relief and the elderly-profile physiological considerations that these other conditions do not share.</p>
+</div>
+
+<ul class="picks-list">
+
+<li class="pick-card">
+<span class="pick-number">#1 PICK &mdash; Best Overall for PMR Morning Stiffness</span>
+<h2>Saatva Classic + Adjustable Base &mdash; Elevation Control for PMR Shoulder Girdle &amp; Steroid Insomnia</h2>
+<p class="why">For PMR patients on prednisone, an adjustable base transforms the sleep experience in ways a flat mattress cannot match. Elevating the upper body 10&ndash;15 degrees reduces direct shoulder girdle contact pressure with the mattress surface &mdash; critical for the bilateral shoulder stiffness that defines PMR &mdash; and distributes upper body weight across the upper back rather than concentrating load on already-inflamed subacromial and subdeltoid bursae. The elevation also activates the diaphragmatic breathing reflex, which counteracts the cortisol-driven sympathetic activation from prednisone, supporting sleep onset in steroid-hyperaroused patients. The Saatva Classic's lumbar zone enhancement maintains spinal neutrality at elevation angles that would otherwise create lumbar sag in a standard mattress. The Euro pillow-top provides surface cushioning without the heat-trapping that worsens steroid-induced night sweats. At 14.5 inches, the total height paired with an adjustable base lands most patients near the 22&ndash;24 inch transfer height that biomechanists recommend for safe elderly sit-to-stand transitions.</p>
+<div class="specs">
+<span class="spec-tag">Adjustable base compatible</span>
+<span class="spec-tag">Lumbar zone support</span>
+<span class="spec-tag">Shoulder pressure reduction</span>
+<span class="spec-tag">Steroid insomnia</span>
+<span class="spec-tag">Euro pillow-top</span>
+</div>
+<a class="cta-btn" href="https://www.amazon.com/s?k=Saatva+Classic+mattress+adjustable+base&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</li>
+
+<li class="pick-card">
+<span class="pick-number">#2 PICK &mdash; Best for Easy In/Out-of-Bed Transfer</span>
+<h2>Helix Midnight Luxe &mdash; Edge Support &amp; Motion Isolation for PMR Nocturia &amp; Transfers</h2>
+<p class="why">PMR frequently causes 2&ndash;3 nocturnal position changes as patients shift from side to back sleeping to relieve alternating shoulder and hip pressure &mdash; and prednisone-related fluid retention increases nocturia frequency significantly, compounding the age-related nocturia affecting 65% of people over 70. The Helix Midnight Luxe addresses both challenges with its reinforced perimeter edge support system. The solid foam rail around the perimeter creates a stable, non-compressing surface at the mattress edge that allows safe, controlled sit-to-stand transfers &mdash; essential for patients with CIOP-related vertebral fragility where a stumble during a nighttime bathroom trip is a fracture event. Individually wrapped coil pockets provide excellent motion isolation, so the 2&ndash;3 position changes per night do not disturb a partner. The TENCEL cover is moisture-wicking, managing the night sweats that prednisone commonly causes. At medium-firm, the Midnight Luxe provides the responsive support that facilitates position changes without the sinkage that traps older adults mid-roll.</p>
+<div class="specs">
+<span class="spec-tag">Reinforced perimeter edge</span>
+<span class="spec-tag">Motion isolation</span>
+<span class="spec-tag">TENCEL moisture-wicking</span>
+<span class="spec-tag">Nocturia exits</span>
+<span class="spec-tag">CIOP-safe transfers</span>
+</div>
+<a class="cta-btn" href="https://www.amazon.com/s?k=Helix+Midnight+Luxe+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</li>
+
+<li class="pick-card">
+<span class="pick-number">#3 PICK &mdash; Best Latex for Responsive Repositioning</span>
+<h2>Saatva Zenhaven Latex &mdash; Natural Buoyancy for Low-Effort PMR Position Changes</h2>
+<p class="why">Repositioning during sleep is a major challenge for PMR patients: the bilateral shoulder and hip stiffness that accumulates overnight makes rolling over slow, effortful, and painful. Memory foam mattresses compound this by creating deep body impressions that resist movement &mdash; the "stuck in the mattress" phenomenon. Natural Talalay latex is the antidote: its open-cell structure provides responsive buoyancy that returns energy to the sleeper, facilitating position changes with minimal muscular effort. This is clinically significant for PMR because each position change clears some of the accumulated inflammatory cytokines at the bursae by temporarily changing the pressure distribution. Zenhaven is flippable &mdash; Luxury Plush on one side, Gentle Firm on the other &mdash; allowing adjustment across the PMR treatment cycle as stiffness levels change with prednisone dosing. The organic latex is GOLS-certified and off-gas-free, important for immunologically active patients on long-term steroid therapy. Natural wool provides temperature buffering for steroid-induced night sweats.</p>
+<div class="specs">
+<span class="spec-tag">Natural Talalay latex</span>
+<span class="spec-tag">Responsive repositioning</span>
+<span class="spec-tag">Flippable (2 firmness)</span>
+<span class="spec-tag">GOLS certified</span>
+<span class="spec-tag">Temperature buffering</span>
+</div>
+<a class="cta-btn" href="https://www.amazon.com/s?k=Saatva+Zenhaven+latex+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</li>
+
+<li class="pick-card">
+<span class="pick-number">#4 PICK &mdash; Best Hybrid for Pressure Relief + Responsiveness</span>
+<h2>Casper Wave Hybrid &mdash; Bilateral Shoulder &amp; Hip Girdle Zoned Relief for PMR</h2>
+<p class="why">PMR uniquely affects bilateral structures &mdash; both shoulders and both hips simultaneously &mdash; making zoned support critically important. A mattress that only cushions the right shoulder provides incomplete relief for a condition where both subacromial bursae are inflamed. The Casper Wave's ergonomic zoning provides softer cushioning at both shoulder points and the bilateral hip girdle region, reducing interface pressure on all four PMR-affected bursae simultaneously. The zoning is built into the foam layers, not just the cover, so the pressure differentiation is consistent across body weight ranges common in the 70&ndash;80-year-old peak PMR demographic. The responsive hybrid pocketed coil base enables low-effort position changes, while foam comfort layers dampen motion transfer. The Wave's medium comfort level accommodates the full range of PMR body types and suits both back and side sleeping positions. The breathable knit cover prevents the heat accumulation that worsens overnight cytokine concentration.</p>
+<div class="specs">
+<span class="spec-tag">Ergonomic zoning</span>
+<span class="spec-tag">Bilateral shoulder relief</span>
+<span class="spec-tag">Hip girdle cushioning</span>
+<span class="spec-tag">Responsive repositioning</span>
+<span class="spec-tag">Hybrid construction</span>
+</div>
+<a class="cta-btn" href="https://www.amazon.com/s?k=Casper+Wave+Hybrid+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</li>
+
+<li class="pick-card">
+<span class="pick-number">#5 PICK &mdash; Best for Bilateral Shoulder Pain (Side Sleepers)</span>
+<h2>Purple Restore Plus &mdash; Sub-Capillary Pressure Relief for PMR Trochanteric &amp; Shoulder Bursitis</h2>
+<p class="why">For PMR patients who cannot avoid side sleeping, bursae pressure management becomes the primary overnight challenge. The greater trochanter bursa is frequently inflamed in PMR from both direct inflammatory mechanisms and the side-sleeping compression that patients adopt to relieve shoulder discomfort. The Purple GelFlex Grid achieves sub-32 mmHg interface pressure at bony prominences &mdash; below capillary closing pressure &mdash; which limits ischemic compression of the trochanteric bursa during side sleeping. The grid's vertical buckling columns provide shoulder give without the lateral collapse that causes spinal misalignment, so side-sleeping PMR patients maintain cervical and lumbar neutrality while their bursae are offloaded. The grid's open structure allows air circulation at the sleep surface, preventing the heat-trap that worsens steroid-induced night sweats. Temperature neutrality across the night is a significant PMR benefit: both the inflammatory flares and the prednisone side effects respond to cool, stable surface temperatures.</p>
+<div class="specs">
+<span class="spec-tag">GelFlex Grid</span>
+<span class="spec-tag">Sub-32 mmHg pressure</span>
+<span class="spec-tag">Trochanteric bursitis</span>
+<span class="spec-tag">Temperature-neutral</span>
+<span class="spec-tag">Shoulder bursitis</span>
+</div>
+<a class="cta-btn" href="https://www.amazon.com/s?k=Purple+Restore+Plus+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</li>
+
+<li class="pick-card">
+<span class="pick-number">#6 PICK &mdash; Best for Hip Girdle Pain (Back Sleeping Older Adults)</span>
+<h2>Avocado Green Mattress &mdash; Organic Latex for PMR Patients with Steroid Osteoporosis Risk</h2>
+<p class="why">Long-term prednisone therapy causes corticosteroid-induced osteoporosis (CIOP) in 30&ndash;50% of PMR patients, changing spinal anatomy through vertebral compression fractures and requiring postural support adjustments. Avocado's natural latex comfort layer provides adaptive buoyancy that conforms to postural changes from vertebral fractures without the pressure-point concentration that can exacerbate newly fractured vertebrae. The lumbar support zone maintains spinal extension for back sleepers, the optimal PMR sleeping position, redistributing hip girdle weight symmetrically across the sacroiliac and posterior iliac regions rather than concentrating it at the trochanteric bursae as side sleeping does. The organic GOLS-certified latex and GOTS-certified wool are free from the synthetic chemicals and off-gassing VOCs that can interact with the compromised immune function of long-term steroid therapy. The natural wool regulates temperature across the night sweats that prednisone causes, without synthetic treatments that sensitive PMR patients may react to.</p>
+<div class="specs">
+<span class="spec-tag">Organic latex</span>
+<span class="spec-tag">CIOP adaptation</span>
+<span class="spec-tag">Chemical-free</span>
+<span class="spec-tag">Natural temperature buffering</span>
+<span class="spec-tag">Back-sleeper lumbar zone</span>
+</div>
+<a class="cta-btn" href="https://www.amazon.com/s?k=Avocado+Green+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</li>
+
+<li class="pick-card">
+<span class="pick-number">#7 PICK &mdash; Best Budget Option</span>
+<h2>DreamCloud Premier &mdash; Extended Trial for PMR Treatment Cycle Sleep Changes</h2>
+<p class="why">PMR treatment spans 1&ndash;3 years of prednisone tapering, during which sleep symptoms evolve significantly: steroid insomnia is worst at high doses, bursal pain returns during flares, and CIOP changes postural support needs over time. DreamCloud Premier's 365-night trial allows PMR patients to evaluate the mattress across the full initial treatment phase, returning it if the tapering cycle changes sleep requirements in ways the mattress cannot accommodate. At a price point well below the luxury tier, DreamCloud Premier delivers hybrid construction &mdash; pocketed coil airflow for temperature management plus gel-infused foam for pressure relief &mdash; that addresses the core PMR functional requirements without the premium cost. The reinforced perimeter edge supports safe transfers. The cashmere-blend quilted cover provides a smooth, low-friction surface that minimizes mechanical pressure at shoulder and hip bursae. The gel foam limits heat trap while providing the controlled warmth that cold sensitivity during inflammatory flares requires.</p>
+<div class="specs">
+<span class="spec-tag">365-night trial</span>
+<span class="spec-tag">Gel-infused foam</span>
+<span class="spec-tag">Hybrid construction</span>
+<span class="spec-tag">Edge support</span>
+<span class="spec-tag">Budget-friendly</span>
+</div>
+<a class="cta-btn" href="https://www.amazon.com/s?k=DreamCloud+Premier+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</li>
+
+</ul>
+
+<h2 class="section-title">PMR Mattress Quick-Comparison</h2>
+<table>
+<thead>
+<tr><th>Mattress</th><th>Type</th><th>Firmness</th><th>Bursae Pressure Relief</th><th>Repositioning</th><th>Edge Support</th><th>Best For</th></tr>
+</thead>
+<tbody>
+<tr><td>Saatva Classic + Adjustable Base</td><td>Hybrid innerspring</td><td>Medium / Medium-Firm / Firm</td><td>Excellent (elevated)</td><td>Good</td><td>Excellent</td><td>Overall PMR morning stiffness</td></tr>
+<tr><td>Helix Midnight Luxe</td><td>Hybrid</td><td>Medium-Firm</td><td>Very Good</td><td>Very Good</td><td>Excellent</td><td>In/out transfers, couples</td></tr>
+<tr><td>Saatva Zenhaven Latex</td><td>Natural Latex</td><td>Plush / Firm (flippable)</td><td>Very Good</td><td>Excellent</td><td>Very Good</td><td>Easy repositioning, latex preference</td></tr>
+<tr><td>Casper Wave Hybrid</td><td>Hybrid</td><td>Medium</td><td>Excellent (zoned)</td><td>Very Good</td><td>Good</td><td>Bilateral girdle relief</td></tr>
+<tr><td>Purple Restore Plus</td><td>Grid Hybrid</td><td>Medium</td><td>Excellent (sub-32 mmHg)</td><td>Very Good</td><td>Good</td><td>Side sleepers, shoulder bursitis</td></tr>
+<tr><td>Avocado Green</td><td>Natural Latex + Coils</td><td>Medium / Medium-Firm</td><td>Very Good</td><td>Very Good</td><td>Good</td><td>Hip girdle, CIOP, organic</td></tr>
+<tr><td>DreamCloud Premier</td><td>Hybrid</td><td>Medium-Firm</td><td>Good</td><td>Good</td><td>Very Good</td><td>Budget, long trial</td></tr>
+</tbody>
+</table>
+
+<h2 class="section-title">PMR Sleep Impact by Treatment Phase</h2>
+<table>
+<thead>
+<tr><th>Treatment Phase</th><th>Prednisone Dose</th><th>Primary Sleep Issue</th><th>Mattress Priority</th></tr>
+</thead>
+<tbody>
+<tr><td>Active PMR (pre-treatment)</td><td>None</td><td>Severe bilateral girdle pain, 45&ndash;120 min morning stiffness</td><td>Bilateral bursa pressure relief, zoned support</td></tr>
+<tr><td>High-dose induction</td><td>15&ndash;25 mg/day</td><td>Steroid insomnia, night sweats, early waking (3&ndash;5 AM)</td><td>Deep pressure calming, temperature-neutral surface</td></tr>
+<tr><td>Tapering phase</td><td>5&ndash;10 mg/day</td><td>Flare rebound pain, insomnia fluctuation</td><td>Long trial period, pressure relief maintained</td></tr>
+<tr><td>CIOP development</td><td>Long-term any dose</td><td>Vertebral compression fracture posture changes, back pain</td><td>Adaptive support, strong edge, fall-risk reduction</td></tr>
+<tr><td>Remission</td><td>Off prednisone</td><td>Residual stiffness, normal aging sleep changes</td><td>Medium-firm, motion isolation, edge support</td></tr>
+</tbody>
+</table>
+
+<div class="note-box">
+<p><strong>Morning stiffness strategy:</strong> If PMR morning stiffness is severe, place a heating pad on the bedside table set to activate at 5:30 AM. Applying heat to shoulders and hips for 15 minutes before rising accelerates the inflammatory cytokine clearance cycle and reduces stiffness duration considerably. A mattress with a firm, supportive perimeter edge and a bed height of 22&ndash;24 inches (measured from floor to sleeping surface) significantly reduces the rising effort during the stiffest period of the morning. If using an adjustable base, program a gentle 10-degree head elevation to begin 30 minutes before the alarm &mdash; the position change itself promotes early cytokine redistribution.</p>
+</div>
+
+<h2 class="section-title">PMR Sleep: What to Look for in a Mattress</h2>
+<p style="color:#b0bac8;margin-bottom:16px;">Buying a mattress for polymyalgia rheumatica involves tradeoffs that are unique to this condition. Here is the clinical reasoning behind each selection criterion:</p>
+<p style="color:#b0bac8;margin-bottom:12px;"><strong style="color:#e8eaf0;">Responsive surface over slow-sinking foam:</strong> Standard memory foam creates deep body impressions that require significant muscular effort to exit &mdash; directly problematic for PMR patients whose shoulder and hip girdle muscles are already stiff and painful. Latex, hybrid coils, and grid materials return energy to the sleeper, facilitating the 2&ndash;4 nightly position changes that PMR patients require to prevent cytokine concentration at a single bursae site.</p>
+<p style="color:#b0bac8;margin-bottom:12px;"><strong style="color:#e8eaf0;">Bilateral zoning over single-point cushioning:</strong> PMR affects both sides simultaneously. A mattress zoned only for right-side shoulder pressure relief provides incomplete coverage for a bilateral disease. Look for mattresses with documented bilateral shoulder and hip zones, or use a full-body latex that provides even compliance across the entire surface.</p>
+<p style="color:#b0bac8;margin-bottom:12px;"><strong style="color:#e8eaf0;">Edge support for transfer safety:</strong> The combination of PMR morning stiffness, CIOP, age-related balance changes, and prednisone-related muscle wasting creates a meaningful fall risk during bed transfers. A reinforced mattress perimeter that does not compress under body weight at the edge is not a luxury feature for PMR patients &mdash; it is a safety requirement.</p>
+<p style="color:#b0bac8;margin-bottom:12px;"><strong style="color:#e8eaf0;">Medium firmness for the 70&ndash;80 peak demographic:</strong> Older adults typically have reduced subcutaneous fat padding over bony prominences, increased skin fragility from steroid use, and lower body weight than younger adults. A medium (5&ndash;6 out of 10) firmness generally provides the optimal balance of bursae pressure relief and spinal support for this demographic. Very soft mattresses create excessive sinkage that makes position changes difficult; very firm mattresses create concentrated bursal pressure points.</p>
+<p style="color:#b0bac8;margin-bottom:20px;"><strong style="color:#e8eaf0;">Temperature management for steroid-induced night sweats:</strong> Prednisone disrupts thermoregulation. Night sweats are a common complaint that fragments sleep in an already-vulnerable population. Mattresses with open-cell latex, grid designs, or hybrid coil bases maintain more consistent surface temperatures than dense traditional memory foam. Avoid mattresses with thick, non-breathable covers or high-density foam layers against the sleeping surface.</p>
+
+<h2 class="section-title">Frequently Asked Questions</h2>
+
+<div class="faq-item">
+<h3>Why does polymyalgia rheumatica cause severe morning stiffness?</h3>
+<p>PMR morning stiffness results from nocturnal inflammatory cytokine accumulation in the shoulder and hip girdle synovium and bursae during static sleep. IL-6 and IL-1beta peak in the early morning hours (4&ndash;6 AM), driving characteristic stiffness lasting 45 minutes to 2 hours. A mattress that minimizes static pressure on shoulder and hip bursae limits overnight inflammatory cytokine concentration at those sites, making the waking transition significantly less painful.</p>
+</div>
+
+<div class="faq-item">
+<h3>Does prednisone for PMR affect sleep quality?</h3>
+<p>Yes. Prednisone is the standard PMR treatment, but corticosteroids have well-documented sleep effects: difficulty falling asleep, early awakening (often at 3&ndash;5 AM), vivid dreams, and steroid-induced insomnia affecting up to 40&ndash;50% of users. Evening prednisone doses are significantly worse for sleep than morning doses. A mattress that supports deep pressure pathways helps manage the hyperarousal component of steroid-induced insomnia by activating parasympathetic nervous system calming.</p>
+</div>
+
+<div class="faq-item">
+<h3>What is the best sleep position for PMR shoulder pain?</h3>
+<p>Back sleeping is generally preferred for PMR because it distributes shoulder girdle weight across the full mattress surface rather than concentrating pressure on one shoulder bursa during side sleeping. If side sleeping is necessary, the less-painful shoulder should face down, with a pillow between the knees to maintain pelvic neutrality and reduce iliopsoas bursa compression. A zoned mattress with dedicated shoulder cushioning reduces the bursae impingement risk for side sleepers.</p>
+</div>
+
+<div class="faq-item">
+<h3>How does corticosteroid-induced osteoporosis affect mattress choice for PMR?</h3>
+<p>Long-term prednisone therapy causes CIOP in 30&ndash;50% of PMR patients over the 1&ndash;3 year treatment course. Vertebral compression fractures from CIOP alter spinal anatomy and change postural support requirements during sleep. A mattress with adaptive support &mdash; natural latex or a responsive hybrid &mdash; accommodates these postural changes. Strong edge support is critical: a firm mattress perimeter allows safe sit-to-stand transfers, reducing fall risk for patients with CIOP-related vertebral fragility where a stumble is a fracture event.</p>
+</div>
+
+<div class="faq-item">
+<h3>How does PMR differ from fibromyalgia and rheumatoid arthritis in mattress needs?</h3>
+<p>PMR produces bilateral proximal girdle stiffness (shoulders, hips, neck) with elevated ESR/CRP and onset almost exclusively over 50. Fibromyalgia causes widespread pain with tender points but no elevated inflammatory markers &mdash; central sensitization is the target, not bursal pressure relief. Rheumatoid arthritis causes joint erosion at small joints (hands, wrists) with autoimmune features &mdash; different joint areas, different inflammatory mechanism. PMR's unique mattress needs are: bilateral girdle bursa pressure relief, easy repositioning for elderly patients, strong edge support for CIOP transfer safety, and steroid-insomnia management. None of those other conditions shares the full profile.</p>
+</div>
+
+<h2 class="section-title">Related Guides</h2>
+<div class="related-grid">
+<div class="related-card"><a href="best-mattress-rheumatoid-arthritis.html">Rheumatoid Arthritis</a> &mdash; autoimmune joint erosion, small joint focus</div>
+<div class="related-card"><a href="best-mattress-fibromyalgia.html">Fibromyalgia</a> &mdash; widespread pain, central sensitization, tender points</div>
+<div class="related-card"><a href="best-mattress-osteoporosis.html">Osteoporosis</a> &mdash; vertebral fracture risk, fall prevention, spinal alignment</div>
+<div class="related-card"><a href="best-mattress-arthritis.html">Arthritis</a> &mdash; general arthritis guide, joint pain, morning stiffness</div>
+<div class="related-card"><a href="best-mattress-elderly.html">Elderly</a> &mdash; age-related sleep changes, transfer safety, pressure relief</div>
+</div>
+
+</div>
+<footer>
+<p>&copy; 2026 SleepWise Reviews &bull; <a href="../index.html">Home</a> &bull; <a href="index.html">All Reviews</a></p>
+<p style="margin-top:8px;font-size:.8rem">Amazon affiliate links &mdash; we may earn a commission at no extra cost to you.</p>
+</footer>
+</body>
+</html>"""
+
+os.makedirs(os.path.dirname(OUTPUT_PATH), exist_ok=True)
+
+with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
+    f.write(HTML)
+
+size = os.path.getsize(OUTPUT_PATH)
+word_count = len(HTML.split())
+print(f"Written: {OUTPUT_PATH}")
+print(f"File size: {size:,} bytes")
+print(f"Approx word count: {word_count:,} words")

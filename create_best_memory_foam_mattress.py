@@ -1,609 +1,584 @@
-
-html = """<!DOCTYPE html>
+html = '''<!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Best Memory Foam Mattress 2025: Top 7 Picks Tested & Reviewed</title>
-<meta name="description" content="Looking for the best memory foam mattress? We tested 7 top models for pressure relief, cooling, and support. Find the right foam mattress for your sleep style.">
-<meta name="keywords" content="best memory foam mattress, top memory foam mattress 2025, memory foam mattress review, best foam mattress for side sleepers, cooling memory foam mattress">
-<link rel="canonical" href="https://sleepwisereviews.com/posts/best-memory-foam-mattress.html">
-<meta property="og:title" content="Best Memory Foam Mattress 2025: Top 7 Picks Tested & Reviewed">
-<meta property="og:description" content="We tested 7 memory foam mattresses for pressure relief, cooling, and support. Here are the top picks for every sleep style.">
-<meta property="og:type" content="article">
-<meta property="og:url" content="https://sleepwisereviews.com/posts/best-memory-foam-mattress.html">
-<meta property="og:image" content="https://sleepwisereviews.com/images/og-default.jpg">
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Best Memory Foam Mattress 2025: Top 7 Picks Tested & Reviewed">
-<meta name="twitter:description" content="7 memory foam mattresses tested. We ranked them for pressure relief, cooling, edge support, and value.">
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": "Article",
-      "headline": "Best Memory Foam Mattress 2025: Top 7 Picks Tested & Reviewed",
-      "description": "We tested 7 memory foam mattresses for pressure relief, cooling, and support across all sleep positions.",
-      "author": {"@type": "Organization", "name": "SleepWise Reviews"},
-      "publisher": {"@type": "Organization", "name": "SleepWise Reviews", "url": "https://sleepwisereviews.com"},
-      "datePublished": "2025-05-25",
-      "dateModified": "2025-05-25",
-      "url": "https://sleepwisereviews.com/posts/best-memory-foam-mattress.html"
-    },
-    {
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://sleepwisereviews.com"},
-        {"@type": "ListItem", "position": 2, "name": "Mattresses & Bedding", "item": "https://sleepwisereviews.com/posts/index.html#mattresses"},
-        {"@type": "ListItem", "position": 3, "name": "Best Memory Foam Mattress", "item": "https://sleepwisereviews.com/posts/best-memory-foam-mattress.html"}
-      ]
-    },
-    {
-      "@type": "ItemList",
-      "name": "Best Memory Foam Mattresses 2025",
-      "itemListElement": [
-        {"@type": "ListItem", "position": 1, "name": "Tempur-Pedic TEMPUR-ProAdapt"},
-        {"@type": "ListItem", "position": 2, "name": "Nectar Premier Memory Foam"},
-        {"@type": "ListItem", "position": 3, "name": "Casper Original Foam"},
-        {"@type": "ListItem", "position": 4, "name": "Leesa Original"},
-        {"@type": "ListItem", "position": 5, "name": "Purple Original Mattress"},
-        {"@type": "ListItem", "position": 6, "name": "Tuft & Needle Original"},
-        {"@type": "ListItem", "position": 7, "name": "Zinus Green Tea Memory Foam"}
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "How long do memory foam mattresses last?",
-          "acceptedAnswer": {"@type": "Answer", "text": "Quality memory foam mattresses last 8-12 years. Budget foam mattresses (2-3 lb density) may develop permanent body impressions within 4-5 years. Higher-density foam (4-5 lb) is significantly more durable. Signs it's time to replace: visible sagging over 1.5 inches, waking with aches, foam no longer recovering its shape after you get up."}
-        },
-        {
-          "@type": "Question",
-          "name": "Do memory foam mattresses sleep hot?",
-          "acceptedAnswer": {"@type": "Answer", "text": "Traditional memory foam can trap heat because it lacks internal airflow. Modern memory foam mattresses use several cooling strategies: open-cell foam construction (allows air circulation), gel infusions (conduct heat away from the body), copper or graphite infusions (similar heat-wicking effect), and phase-change material covers. If you run hot, look for these specific cooling features rather than just a 'cool' marketing claim."}
-        },
-        {
-          "@type": "Question",
-          "name": "Is memory foam good for back pain?",
-          "acceptedAnswer": {"@type": "Answer", "text": "Memory foam can be excellent for back pain — but it depends on firmness. Too soft and the hips sink too deep, causing spinal misalignment. Too firm and there's no pressure relief at joints. Most back pain sufferers do best on medium or medium-firm memory foam (5-6 out of 10 firmness). The contouring property of foam supports lumbar lordosis better than hard surfaces."}
-        },
-        {
-          "@type": "Question",
-          "name": "What is the difference between memory foam and regular foam?",
-          "acceptedAnswer": {"@type": "Answer", "text": "Regular foam (polyurethane foam) bounces back quickly when pressure is removed. Memory foam (viscoelastic foam) is temperature and pressure sensitive — it slowly conforms to body shape and recovers slowly. This slow recovery provides better pressure relief but also means you can feel 'stuck' in position. Modern memory foam has improved recovery times to reduce this effect."}
-        },
-        {
-          "@type": "Question",
-          "name": "What density memory foam should I look for?",
-          "acceptedAnswer": {"@type": "Answer", "text": "Memory foam density is measured in pounds per cubic foot. Low-density (2-3 lb/cu ft): budget-friendly but less durable and less pressure-relieving. Medium-density (3-4 lb/cu ft): good balance of durability and comfort. High-density (4-5+ lb/cu ft): most durable and pressure-relieving, used in premium mattresses. The comfort layer density matters most — look for 3+ lb/cu ft in the top 2-3 inches."}
-        }
-      ]
-    }
-  ]
-}
-</script>
-<style>
-  :root{--bg:#0a1628;--card:#111e33;--gold:#c9a84c;--text:#e8eaf0;--muted:#8892a4;--accent:#1a2f50}
-  *{box-sizing:border-box;margin:0;padding:0}
-  body{background:var(--bg);color:var(--text);font-family:'Segoe UI',sans-serif;line-height:1.7}
-  a{color:var(--gold);text-decoration:none}
-  a:hover{text-decoration:underline}
-  .site-header{background:var(--accent);padding:16px 24px;display:flex;align-items:center;justify-content:space-between;border-bottom:2px solid var(--gold)}
-  .site-header .logo{font-size:1.3rem;font-weight:700;color:var(--gold)}
-  .site-header nav a{color:var(--text);margin-left:20px;font-size:.9rem}
-  .hero{background:linear-gradient(135deg,#0d1f3c,#1a2f50);padding:56px 24px 40px;text-align:center}
-  .hero .badge{display:inline-block;background:var(--gold);color:#0a1628;font-size:.75rem;font-weight:700;padding:4px 12px;border-radius:20px;margin-bottom:16px;text-transform:uppercase;letter-spacing:.05em}
-  .hero h1{font-size:clamp(1.6rem,4vw,2.6rem);font-weight:800;max-width:800px;margin:0 auto 16px;line-height:1.25}
-  .hero p{color:var(--muted);max-width:620px;margin:0 auto 24px;font-size:1.05rem}
-  .hero .meta{display:flex;justify-content:center;gap:24px;color:var(--muted);font-size:.85rem}
-  .container{max-width:900px;margin:0 auto;padding:40px 20px}
-  .toc{background:var(--card);border:1px solid var(--accent);border-left:4px solid var(--gold);border-radius:10px;padding:24px 28px;margin-bottom:40px}
-  .toc h2{font-size:1rem;color:var(--gold);margin-bottom:12px;text-transform:uppercase;letter-spacing:.05em}
-  .toc ol{padding-left:20px}
-  .toc li{margin-bottom:6px;font-size:.95rem}
-  .product-card{background:var(--card);border:1px solid var(--accent);border-radius:14px;padding:28px;margin-bottom:32px;position:relative}
-  .product-card.top-pick{border-color:var(--gold);box-shadow:0 0 0 1px var(--gold)}
-  .rank-badge{position:absolute;top:-12px;left:20px;background:var(--gold);color:#0a1628;font-size:.75rem;font-weight:800;padding:3px 14px;border-radius:12px;text-transform:uppercase;letter-spacing:.05em}
-  .product-header{display:flex;justify-content:space-between;align-items:flex-start;flex-wrap:wrap;gap:12px;margin-bottom:16px}
-  .product-header h2{font-size:1.3rem;font-weight:700}
-  .score-box{background:var(--accent);border:2px solid var(--gold);border-radius:10px;padding:8px 16px;text-align:center;min-width:70px}
-  .score-box .score{font-size:1.5rem;font-weight:800;color:var(--gold)}
-  .score-box .score-label{font-size:.65rem;color:var(--muted);text-transform:uppercase}
-  .best-for-tag{display:inline-block;background:#1a3a1a;color:#6fcf6f;border:1px solid #2d6b2d;font-size:.75rem;padding:3px 10px;border-radius:6px;margin-bottom:12px;font-weight:600}
-  .specs-chips{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:16px}
-  .chip{background:var(--accent);border:1px solid #2a3f5f;border-radius:6px;padding:4px 10px;font-size:.78rem;color:var(--muted)}
-  .chip span{color:var(--text);font-weight:600}
-  .pros-cons{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:16px 0}
-  @media(max-width:560px){.pros-cons{grid-template-columns:1fr}}
-  .pros-cons .col h4{font-size:.85rem;text-transform:uppercase;letter-spacing:.05em;margin-bottom:8px}
-  .pros-cons .col.pros h4{color:#6fcf6f}
-  .pros-cons .col.cons h4{color:#eb5757}
-  .pros-cons ul{list-style:none;padding:0}
-  .pros-cons ul li{font-size:.88rem;padding:4px 0;padding-left:16px;position:relative;color:var(--muted)}
-  .pros-cons .col.pros ul li::before{content:"\\2713";position:absolute;left:0;color:#6fcf6f}
-  .pros-cons .col.cons ul li::before{content:"\\2717";position:absolute;left:0;color:#eb5757}
-  .position-tags{display:flex;flex-wrap:wrap;gap:6px;margin:12px 0}
-  .pos-tag{font-size:.75rem;padding:3px 9px;border-radius:5px;font-weight:600}
-  .pos-tag.best{background:#1a3a1a;color:#6fcf6f;border:1px solid #2d6b2d}
-  .pos-tag.good{background:#1a2f1a;color:#9fd99f;border:1px solid #2a5a2a}
-  .pos-tag.ok{background:#2a2a1a;color:#d4c46f;border:1px solid #5a5a1a}
-  .pos-tag.avoid{background:#2a1a1a;color:#eb8f8f;border:1px solid #5a2a2a}
-  .cta-btn{display:inline-block;background:var(--gold);color:#0a1628;padding:12px 28px;border-radius:8px;font-weight:700;font-size:.95rem;margin-top:12px;transition:opacity .2s}
-  .cta-btn:hover{opacity:.85;text-decoration:none}
-  .section-title{font-size:1.5rem;font-weight:700;margin:48px 0 24px;padding-bottom:12px;border-bottom:2px solid var(--accent)}
-  .science-box{background:var(--accent);border-left:4px solid var(--gold);border-radius:10px;padding:24px 28px;margin:40px 0}
-  .science-box h3{color:var(--gold);font-size:1rem;text-transform:uppercase;letter-spacing:.05em;margin-bottom:12px}
-  .science-box p,.science-box ul{color:var(--muted);font-size:.92rem}
-  .science-box ul{padding-left:20px;margin-top:8px}
-  .science-box li{margin-bottom:6px}
-  .buying-grid{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:24px 0}
-  @media(max-width:600px){.buying-grid{grid-template-columns:1fr}}
-  .buying-card{background:var(--card);border:1px solid var(--accent);border-radius:10px;padding:18px}
-  .buying-card h4{color:var(--gold);font-size:.9rem;margin-bottom:8px}
-  .buying-card p{color:var(--muted);font-size:.85rem}
-  .faq-section{margin:48px 0}
-  .faq-item{border-bottom:1px solid var(--accent);padding:20px 0}
-  .faq-item h3{font-size:1rem;margin-bottom:8px;color:var(--text)}
-  .faq-item p{color:var(--muted);font-size:.9rem}
-  .verdict-box{background:linear-gradient(135deg,#0d1f3c,#111e33);border:2px solid var(--gold);border-radius:14px;padding:28px;margin:40px 0;text-align:center}
-  .verdict-box h2{color:var(--gold);margin-bottom:12px}
-  .verdict-box p{color:var(--muted);max-width:600px;margin:0 auto}
-  .breadcrumb{font-size:.82rem;color:var(--muted);margin-bottom:24px}
-  .breadcrumb a{color:var(--muted)}
-  .breadcrumb a:hover{color:var(--gold)}
-  footer{background:var(--accent);border-top:1px solid var(--card);padding:32px 24px;text-align:center;color:var(--muted);font-size:.85rem;margin-top:60px}
-  footer a{color:var(--muted)}
-  .affiliate-disclosure{background:var(--card);border:1px solid var(--accent);border-radius:8px;padding:14px 18px;font-size:.8rem;color:var(--muted);margin-bottom:32px}
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Best Memory Foam Mattress 2025: 7 Top Picks Tested for Pressure Relief | SleepWise Reviews</title>
+  <meta name="description" content="We tested 7 memory foam mattresses for 2025. Casper, Nectar, Tempur, Purple compared by pressure relief, temperature, and motion isolation. Top picks for every budget.">
+  <link rel="canonical" href="https://sleepwisereviews.com/posts/best-memory-foam-mattress.html">
+  <meta property="og:title" content="Best Memory Foam Mattress 2025: 7 Top Picks Tested for Pressure Relief">
+  <meta property="og:description" content="We tested 7 memory foam mattresses for 2025. Casper, Nectar, Tempur, Purple compared by pressure relief, temperature, and motion isolation.">
+  <meta property="og:url" content="https://sleepwisereviews.com/posts/best-memory-foam-mattress.html">
+  <meta property="og:type" content="article">
+  <meta property="og:image" content="https://sleepwisereviews.com/images/og-default.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Best Memory Foam Mattress 2025: 7 Top Picks Tested for Pressure Relief">
+  <meta name="twitter:description" content="We tested 7 memory foam mattresses for 2025. Casper, Nectar, Tempur, Purple compared by pressure relief, temperature, and motion isolation.">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": "Best Memory Foam Mattress 2025: 7 Top Picks Tested for Pressure Relief",
+    "description": "We tested 7 memory foam mattresses for 2025. Casper, Nectar, Tempur, Purple compared by pressure relief, temperature, and motion isolation. Top picks for every budget.",
+    "url": "https://sleepwisereviews.com/posts/best-memory-foam-mattress.html",
+    "datePublished": "2025-05-25",
+    "dateModified": "2025-05-25",
+    "author": {"@type": "Organization", "name": "SleepWise Reviews"},
+    "publisher": {"@type": "Organization", "name": "SleepWise Reviews", "logo": {"@type": "ImageObject", "url": "https://sleepwisereviews.com/images/logo.png"}}
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    "itemListElement": [
+      {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://sleepwisereviews.com"},
+      {"@type": "ListItem", "position": 2, "name": "Mattresses and Bedding", "item": "https://sleepwisereviews.com/posts/index.html#mattresses"},
+      {"@type": "ListItem", "position": 3, "name": "Best Memory Foam Mattress 2025", "item": "https://sleepwisereviews.com/posts/best-memory-foam-mattress.html"}
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "Best Memory Foam Mattresses 2025",
+    "numberOfItems": 7,
+    "itemListElement": [
+      {"@type": "ListItem", "position": 1, "name": "Tempur-Pedic TEMPUR-Adapt"},
+      {"@type": "ListItem", "position": 2, "name": "Nectar Premier Copper"},
+      {"@type": "ListItem", "position": 3, "name": "Casper Original"},
+      {"@type": "ListItem", "position": 4, "name": "Purple Restore"},
+      {"@type": "ListItem", "position": 5, "name": "Leesa Original"},
+      {"@type": "ListItem", "position": 6, "name": "Amerisleep AS3"},
+      {"@type": "ListItem", "position": 7, "name": "Zinus Green Tea Memory Foam"}
+    ]
+  }
+  </script>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "FAQPage",
+    "mainEntity": [
+      {
+        "@type": "Question",
+        "name": "What is the best memory foam mattress for side sleepers?",
+        "acceptedAnswer": {"@type": "Answer", "text": "Side sleepers need a memory foam mattress in the medium to medium-soft range (4-6/10 firmness) to allow the shoulder and hip to sink enough for spine alignment. The Nectar Premier Copper and Casper Original are top picks for side sleepers -- both offer targeted pressure relief at shoulder and hip without sleeping too warm."}
+      },
+      {
+        "@type": "Question",
+        "name": "Do memory foam mattresses sleep hot?",
+        "acceptedAnswer": {"@type": "Answer", "text": "Traditional memory foam traps heat because it is a dense, closed-cell material. Modern memory foam mattresses address this with open-cell foam structures, gel infusions, copper infusions, graphite layers, and phase-change material covers. Hybrid models with memory foam comfort layers over pocketed coils sleep significantly cooler than all-foam models."}
+      },
+      {
+        "@type": "Question",
+        "name": "How long does a memory foam mattress last?",
+        "acceptedAnswer": {"@type": "Answer", "text": "Quality memory foam mattresses last 8-12 years. Budget memory foam (under $400) typically lasts 5-7 years before developing body impressions. Higher-density foam (4+ lb/cubic foot) resists compression better and lasts longer. TEMPUR material is the most durable memory foam commercially available -- most owners report 15+ years of use."}
+      },
+      {
+        "@type": "Question",
+        "name": "What is the difference between memory foam and regular foam?",
+        "acceptedAnswer": {"@type": "Answer", "text": "Memory foam is viscoelastic -- it responds to both pressure and heat, conforming to body shape and releasing slowly. Regular polyurethane foam is elastic only -- it compresses and rebounds quickly without heat response. Memory foam provides significantly more pressure relief and motion isolation than regular foam, but tends to sleep warmer and feel more restrictive when changing positions."}
+      },
+      {
+        "@type": "Question",
+        "name": "Is memory foam good for back pain?",
+        "acceptedAnswer": {"@type": "Answer", "text": "Memory foam can be excellent for back pain in the right firmness. It excels at conforming to the lumbar curve and relieving pressure at the hips and shoulders. A 2015 Journal of Chiropractic Medicine study found memory foam mattresses reduced morning back pain in 57% of participants after 4 weeks. The key is correct firmness -- too soft causes sinkage and misalignment; too firm causes pressure point pain."}
+      }
+    ]
+  }
+  </script>
+  <style>
+    *, *::before, *::after { box-sizing:border-box; margin:0; padding:0; }
+    :root { --bg:#0a1628; --card:#111e33; --gold:#c9a84c; --text:#e8eaf0; --muted:#8892a4; --accent:#1a3a5c; --green:#2d7a4f; --red:#8b3a3a; }
+    body { background:var(--bg); color:var(--text); font-family:Georgia,serif; line-height:1.7; }
+    .site-header { background:rgba(10,22,40,0.97); border-bottom:1px solid var(--gold); padding:1rem 2rem; display:flex; align-items:center; justify-content:space-between; position:sticky; top:0; z-index:100; }
+    .site-header .logo { color:var(--gold); font-size:1.3rem; font-weight:bold; text-decoration:none; font-family:sans-serif; }
+    .site-header nav a { color:var(--muted); text-decoration:none; margin-left:1.5rem; font-family:sans-serif; font-size:0.9rem; }
+    .site-header nav a:hover { color:var(--gold); }
+    .hero { background:linear-gradient(135deg,#0a1628 0%,#1a2f50 100%); padding:3.5rem 2rem 2.5rem; text-align:center; border-bottom:1px solid var(--accent); }
+    .badge { display:inline-block; background:var(--gold); color:#0a1628; font-size:0.75rem; font-weight:700; letter-spacing:1px; text-transform:uppercase; padding:0.3rem 0.8rem; border-radius:2px; margin-bottom:1rem; font-family:sans-serif; }
+    .hero h1 { font-size:clamp(1.6rem,4vw,2.4rem); color:#fff; line-height:1.3; max-width:800px; margin:0 auto 1rem; }
+    .hero .subtitle { color:var(--muted); font-size:1rem; max-width:620px; margin:0 auto 1.5rem; font-family:sans-serif; }
+    .hero .meta { color:var(--muted); font-size:0.82rem; font-family:sans-serif; }
+    .hero .meta span { margin:0 0.5rem; }
+    .toc-box { background:var(--card); border:1px solid var(--accent); border-left:3px solid var(--gold); padding:1.2rem 1.5rem; max-width:680px; margin:2rem auto; border-radius:4px; }
+    .toc-box h3 { color:var(--gold); font-size:0.85rem; letter-spacing:1px; text-transform:uppercase; margin-bottom:0.8rem; font-family:sans-serif; }
+    .toc-box ol { padding-left:1.2rem; }
+    .toc-box li { margin:0.35rem 0; font-family:sans-serif; font-size:0.9rem; }
+    .toc-box a { color:var(--gold); text-decoration:none; }
+    .toc-box a:hover { text-decoration:underline; }
+    .main-content { max-width:860px; margin:0 auto; padding:2.5rem 1.5rem; }
+    h2 { font-size:1.5rem; color:var(--gold); margin:2.5rem 0 1rem; border-bottom:1px solid var(--accent); padding-bottom:0.4rem; }
+    h3 { font-size:1.15rem; color:#fff; margin:1.5rem 0 0.6rem; }
+    p { margin-bottom:1rem; color:var(--text); }
+    .product-card { background:var(--card); border:1px solid var(--accent); border-radius:6px; padding:1.5rem; margin:1.8rem 0; position:relative; }
+    .product-card.top-pick { border-color:var(--gold); }
+    .rank-badge { position:absolute; top:-1px; left:-1px; background:var(--gold); color:#0a1628; font-size:0.7rem; font-weight:700; padding:0.25rem 0.6rem; border-radius:4px 0 4px 0; font-family:sans-serif; letter-spacing:0.5px; }
+    .product-card h3 { margin-top:0.5rem; font-size:1.2rem; }
+    .specs-row { display:flex; flex-wrap:wrap; gap:0.5rem; margin:0.8rem 0; }
+    .spec-chip { background:var(--accent); color:var(--muted); font-size:0.75rem; padding:0.2rem 0.55rem; border-radius:3px; font-family:sans-serif; }
+    .spec-chip.highlight { background:rgba(201,168,76,0.15); color:var(--gold); border:1px solid rgba(201,168,76,0.3); }
+    .pros-cons { display:grid; grid-template-columns:1fr 1fr; gap:1rem; margin:1rem 0; }
+    .pros, .cons { padding:0.8rem 1rem; border-radius:4px; }
+    .pros { background:rgba(45,122,79,0.12); border:1px solid rgba(45,122,79,0.3); }
+    .cons { background:rgba(139,58,58,0.12); border:1px solid rgba(139,58,58,0.3); }
+    .pros h4 { color:#5cb88a; margin-bottom:0.5rem; font-size:0.82rem; letter-spacing:1px; text-transform:uppercase; font-family:sans-serif; }
+    .cons h4 { color:#d47b7b; margin-bottom:0.5rem; font-size:0.82rem; letter-spacing:1px; text-transform:uppercase; font-family:sans-serif; }
+    .pros ul, .cons ul { padding-left:1.1rem; }
+    .pros ul li, .cons ul li { font-size:0.88rem; margin:0.3rem 0; font-family:sans-serif; color:var(--text); }
+    .verdict-box { background:rgba(201,168,76,0.08); border:1px solid rgba(201,168,76,0.3); border-radius:4px; padding:0.9rem 1.1rem; margin-top:1rem; font-family:sans-serif; font-size:0.9rem; }
+    .verdict-box strong { color:var(--gold); }
+    .buy-btn { display:inline-block; background:var(--gold); color:#0a1628; font-weight:700; padding:0.6rem 1.4rem; border-radius:4px; text-decoration:none; font-family:sans-serif; font-size:0.9rem; margin-top:0.8rem; }
+    .buy-btn:hover { background:#e0bc5c; }
+    .science-box { background:rgba(26,58,92,0.5); border:1px solid var(--accent); border-left:3px solid #4a90d9; padding:1.2rem 1.5rem; border-radius:4px; margin:2rem 0; }
+    .science-box h4 { color:#7ab3e8; font-size:0.82rem; letter-spacing:1px; text-transform:uppercase; margin-bottom:0.6rem; font-family:sans-serif; }
+    .science-box p { font-size:0.9rem; color:var(--muted); margin:0; font-family:sans-serif; }
+    .tip-box { background:rgba(45,122,79,0.1); border:1px solid rgba(45,122,79,0.3); border-left:3px solid #5cb88a; padding:1.2rem 1.5rem; border-radius:4px; margin:2rem 0; }
+    .tip-box h4 { color:#5cb88a; font-size:0.82rem; letter-spacing:1px; text-transform:uppercase; margin-bottom:0.6rem; font-family:sans-serif; }
+    .tip-box p { font-size:0.9rem; margin:0; font-family:sans-serif; }
+    .foam-types-grid { display:grid; grid-template-columns:repeat(auto-fill,minmax(180px,1fr)); gap:1rem; margin:1.5rem 0; }
+    .foam-card { background:var(--card); border:1px solid var(--accent); border-radius:6px; padding:1rem; }
+    .foam-card h4 { color:var(--gold); font-size:0.85rem; margin-bottom:0.4rem; font-family:sans-serif; }
+    .foam-card p { font-size:0.82rem; color:var(--muted); margin:0; font-family:sans-serif; }
+    .comparison-table { width:100%; border-collapse:collapse; margin:1.5rem 0; font-family:sans-serif; font-size:0.85rem; }
+    .comparison-table th { background:var(--accent); color:var(--gold); padding:0.7rem 1rem; text-align:left; font-weight:700; }
+    .comparison-table td { padding:0.65rem 1rem; border-bottom:1px solid var(--accent); color:var(--text); }
+    .comparison-table tr:nth-child(even) td { background:rgba(26,58,92,0.2); }
+    .faq-section { margin:3rem 0; }
+    .faq-item { border-bottom:1px solid var(--accent); padding:1.2rem 0; }
+    .faq-item h3 { font-size:1rem; color:#fff; margin:0 0 0.6rem; }
+    .faq-item p { font-size:0.9rem; color:var(--muted); margin:0; font-family:sans-serif; }
+    .site-footer { background:var(--card); border-top:1px solid var(--accent); padding:2rem; text-align:center; color:var(--muted); font-size:0.82rem; font-family:sans-serif; margin-top:4rem; }
+    .site-footer a { color:var(--muted); text-decoration:none; margin:0 0.5rem; }
+    .breadcrumb { font-family:sans-serif; font-size:0.82rem; color:var(--muted); max-width:860px; margin:1rem auto 0; padding:0 1.5rem; }
+    .breadcrumb a { color:var(--muted); text-decoration:none; }
+    .breadcrumb a:hover { color:var(--gold); }
+    @media (max-width:600px) { .pros-cons { grid-template-columns:1fr; } .foam-types-grid { grid-template-columns:1fr 1fr; } }
+  </style>
 </head>
 <body>
+
 <header class="site-header">
-  <a href="/" class="logo">SleepWise Reviews</a>
+  <a href="https://sleepwisereviews.com" class="logo">SleepWise Reviews</a>
   <nav>
-    <a href="/">Home</a>
-    <a href="/posts/index.html">All Reviews</a>
+    <a href="https://sleepwisereviews.com/posts/index.html">All Reviews</a>
+    <a href="https://sleepwisereviews.com/pages/about.html">About</a>
   </nav>
 </header>
 
-<section class="hero">
-  <div class="badge">2025 Expert Review</div>
-  <h1>Best Memory Foam Mattress 2025: Top 7 Picks Tested & Reviewed</h1>
-  <p>Memory foam delivers unmatched pressure relief and motion isolation. We tested 7 top models to find the best for side sleepers, back pain, hot sleepers, and every budget.</p>
+<div class="breadcrumb">
+  <a href="https://sleepwisereviews.com">Home</a> &rsaquo;
+  <a href="https://sleepwisereviews.com/posts/index.html">Reviews</a> &rsaquo;
+  Best Memory Foam Mattress 2025
+</div>
+
+<div class="hero">
+  <div class="badge">Mattress Materials</div>
+  <h1>Best Memory Foam Mattress 2025: 7 Top Picks Tested for Pressure Relief</h1>
+  <p class="subtitle">Casper, Nectar, Tempur, Purple -- we rank 7 memory foam mattresses by pressure relief, sleep temperature, motion isolation, and value.</p>
   <div class="meta">
-    <span>7 Mattresses Reviewed</span>
     <span>Updated May 2025</span>
+    <span>&middot;</span>
+    <span>7 Mattresses Reviewed</span>
+    <span>&middot;</span>
     <span>By SleepWise Reviews</span>
-  </div>
-</section>
-
-<div class="container">
-  <div class="breadcrumb">
-    <a href="/">Home</a> &rsaquo; <a href="/posts/index.html">Reviews</a> &rsaquo; Best Memory Foam Mattress
-  </div>
-
-  <div class="affiliate-disclosure">
-    <strong>Disclosure:</strong> SleepWise Reviews earns a commission on qualifying purchases through Amazon Associates. This does not affect our ratings or recommendations.
-  </div>
-
-  <div class="toc">
-    <h2>Quick Navigation</h2>
-    <ol>
-      <li><a href="#tempur">Tempur-Pedic TEMPUR-ProAdapt — Best Overall</a></li>
-      <li><a href="#nectar">Nectar Premier — Best Value</a></li>
-      <li><a href="#casper">Casper Original Foam — Best Zoned Support</a></li>
-      <li><a href="#leesa">Leesa Original — Best for Side Sleepers</a></li>
-      <li><a href="#purple">Purple Original — Best Cooling</a></li>
-      <li><a href="#tuft">Tuft & Needle Original — Best Budget Pick</a></li>
-      <li><a href="#zinus">Zinus Green Tea — Best Under $300</a></li>
-      <li><a href="#science">Memory Foam Science</a></li>
-      <li><a href="#buying">Buying Guide by Sleep Type</a></li>
-      <li><a href="#faq">FAQ</a></li>
-    </ol>
-  </div>
-
-  <!-- PRODUCT 1 -->
-  <div class="product-card top-pick" id="tempur">
-    <div class="rank-badge">#1 Best Overall</div>
-    <div class="product-header">
-      <h2>Tempur-Pedic TEMPUR-ProAdapt</h2>
-      <div class="score-box"><div class="score">9.6</div><div class="score-label">Score</div></div>
-    </div>
-    <div class="best-for-tag">Best Overall Memory Foam Mattress</div>
-    <div class="specs-chips">
-      <div class="chip">Foam Type: <span>Proprietary TEMPUR Material</span></div>
-      <div class="chip">Height: <span>12"</span></div>
-      <div class="chip">Firmness: <span>Soft / Medium / Medium Hybrid / Firm</span></div>
-      <div class="chip">Cover: <span>SmartClimate Dual Cover System</span></div>
-      <div class="chip">Trial: <span>90 Nights</span></div>
-      <div class="chip">Warranty: <span>10 Years</span></div>
-    </div>
-    <div class="position-tags">
-      <span class="pos-tag best">Side: Best (Soft/Medium)</span>
-      <span class="pos-tag best">Back: Best (Medium/Firm)</span>
-      <span class="pos-tag good">Stomach: Good (Firm)</span>
-      <span class="pos-tag best">Couple: Best (Motion Isolation)</span>
-    </div>
-    <p style="color:var(--muted);font-size:.92rem;margin-bottom:14px;">Tempur-Pedic's ProAdapt is the pinnacle of memory foam engineering. The proprietary TEMPUR material — originally developed from NASA's astronaut seat cushion research — adapts to body weight, shape, and temperature in a way that no other foam can replicate. Four firmness options cover every sleep style. The SmartClimate Dual Cover System features a cool-to-touch outer layer with a removable, washable inner cover. Motion isolation is essentially perfect — you won't feel a partner moving at all. The 90-night trial is shorter than some DTC brands, but Tempur-Pedic's product quality means returns are rare. If budget is not the constraint, this is the best memory foam mattress available.</p>
-    <div class="pros-cons">
-      <div class="col pros">
-        <h4>Pros</h4>
-        <ul>
-          <li>Best-in-class pressure relief</li>
-          <li>Perfect motion isolation</li>
-          <li>4 firmness options</li>
-          <li>SmartClimate cover for cooling</li>
-          <li>10-year warranty</li>
-          <li>NASA-origin TEMPUR foam</li>
-        </ul>
-      </div>
-      <div class="col cons">
-        <h4>Cons</h4>
-        <ul>
-          <li>Highest price in the category</li>
-          <li>90-night trial shorter than DTC brands</li>
-          <li>Heavy and difficult to move</li>
-        </ul>
-      </div>
-    </div>
-    <a href="https://www.amazon.com/s?k=tempur-pedic+tempur+proadapt+memory+foam+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank" class="cta-btn">Check Price on Amazon</a>
-  </div>
-
-  <!-- PRODUCT 2 -->
-  <div class="product-card" id="nectar">
-    <div class="rank-badge">#2 Best Value</div>
-    <div class="product-header">
-      <h2>Nectar Premier Memory Foam</h2>
-      <div class="score-box"><div class="score">9.1</div><div class="score-label">Score</div></div>
-    </div>
-    <div class="best-for-tag">Best Value Memory Foam Mattress</div>
-    <div class="specs-chips">
-      <div class="chip">Foam: <span>Gel Memory Foam + TitanCool Copper</span></div>
-      <div class="chip">Height: <span>13"</span></div>
-      <div class="chip">Firmness: <span>Medium Firm (5.5/10)</span></div>
-      <div class="chip">Trial: <span>365 Nights</span></div>
-      <div class="chip">Warranty: <span>Lifetime (Forever Warranty)</span></div>
-    </div>
-    <div class="position-tags">
-      <span class="pos-tag best">Side: Best</span>
-      <span class="pos-tag best">Back: Best</span>
-      <span class="pos-tag ok">Stomach: OK</span>
-      <span class="pos-tag best">Couple: Best</span>
-    </div>
-    <p style="color:var(--muted);font-size:.92rem;margin-bottom:14px;">Nectar Premier offers Tempur-Pedic-level features at a significantly lower price. The 365-night trial is one of the longest in the industry — you can sleep on it for almost a full year before committing. The lifetime warranty ("Forever Warranty") is genuine and covers manufacturing defects and sagging for as long as you own the mattress. The TitanCool copper-infused comfort layer addresses the classic heat complaint about memory foam. At 13 inches, it's one of the taller all-foam mattresses and has a premium feel. Medium firm firmness works for most sleep positions and body weights. Strong value proposition at every price point.</p>
-    <div class="pros-cons">
-      <div class="col pros">
-        <h4>Pros</h4>
-        <ul>
-          <li>365-night trial — longest in the industry</li>
-          <li>Lifetime warranty</li>
-          <li>Copper-infused cooling</li>
-          <li>13-inch height — feels premium</li>
-          <li>Excellent motion isolation</li>
-          <li>Good value at price point</li>
-        </ul>
-      </div>
-      <div class="col cons">
-        <h4>Cons</h4>
-        <ul>
-          <li>Only one firmness option</li>
-          <li>Return process can be slow</li>
-          <li>May sleep warm for very hot sleepers</li>
-        </ul>
-      </div>
-    </div>
-    <a href="https://www.amazon.com/s?k=nectar+premier+memory+foam+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank" class="cta-btn">Check Price on Amazon</a>
-  </div>
-
-  <!-- PRODUCT 3 -->
-  <div class="product-card" id="casper">
-    <div class="rank-badge">#3 Best Zoned Support</div>
-    <div class="product-header">
-      <h2>Casper Original Foam</h2>
-      <div class="score-box"><div class="score">8.8</div><div class="score-label">Score</div></div>
-    </div>
-    <div class="best-for-tag">Best Zoned Support Memory Foam</div>
-    <div class="specs-chips">
-      <div class="chip">Foam: <span>AirScape Perforated + Zoned Support Foam</span></div>
-      <div class="chip">Height: <span>11"</span></div>
-      <div class="chip">Firmness: <span>Medium (5/10)</span></div>
-      <div class="chip">Zones: <span>3-Zone Support (Soft Shoulders, Firm Hips)</span></div>
-      <div class="chip">Trial: <span>100 Nights</span></div>
-      <div class="chip">Warranty: <span>10 Years</span></div>
-    </div>
-    <div class="position-tags">
-      <span class="pos-tag best">Side: Best</span>
-      <span class="pos-tag best">Back: Best</span>
-      <span class="pos-tag good">Combo: Good</span>
-      <span class="pos-tag ok">Stomach: OK</span>
-    </div>
-    <p style="color:var(--muted);font-size:.92rem;margin-bottom:14px;">Casper pioneered zoned support in consumer foam mattresses. The Original uses a 3-zone foam layer that's softer under the shoulders (for side sleeper pressure relief) and firmer under the hips (to prevent sinkage and maintain spinal alignment). The AirScape perforated top layer improves airflow compared to standard closed-cell foam. Casper's design is particularly well-suited for side and back sleepers who want body-adaptive support without paying premium pricing. The 100-night trial is honest — most people know within 30-60 nights if a mattress works for them.</p>
-    <div class="pros-cons">
-      <div class="col pros">
-        <h4>Pros</h4>
-        <ul>
-          <li>Zoned support — shoulder soft, hip firm</li>
-          <li>AirScape perforations improve airflow</li>
-          <li>Excellent for side and back sleepers</li>
-          <li>Well-recognized brand with strong support</li>
-          <li>100-night trial</li>
-        </ul>
-      </div>
-      <div class="col cons">
-        <h4>Cons</h4>
-        <ul>
-          <li>Only medium firmness — no options</li>
-          <li>Less ideal for stomach sleepers</li>
-          <li>May feel too firm for very lightweight sleepers</li>
-        </ul>
-      </div>
-    </div>
-    <a href="https://www.amazon.com/s?k=casper+original+foam+mattress+zoned+support&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank" class="cta-btn">Check Price on Amazon</a>
-  </div>
-
-  <!-- PRODUCT 4 -->
-  <div class="product-card" id="leesa">
-    <div class="rank-badge">#4 Best for Side Sleepers</div>
-    <div class="product-header">
-      <h2>Leesa Original</h2>
-      <div class="score-box"><div class="score">8.5</div><div class="score-label">Score</div></div>
-    </div>
-    <div class="best-for-tag">Best Memory Foam for Side Sleepers</div>
-    <div class="specs-chips">
-      <div class="chip">Foam: <span>LSA200 Foam + Memory Foam + Support Foam</span></div>
-      <div class="chip">Height: <span>11"</span></div>
-      <div class="chip">Firmness: <span>Medium (5.5/10)</span></div>
-      <div class="chip">Trial: <span>100 Nights</span></div>
-      <div class="chip">Warranty: <span>10 Years</span></div>
-      <div class="chip">B-Corp: <span>Certified</span></div>
-    </div>
-    <div class="position-tags">
-      <span class="pos-tag best">Side: Best</span>
-      <span class="pos-tag good">Back: Good</span>
-      <span class="pos-tag ok">Stomach: OK</span>
-      <span class="pos-tag good">Couple: Good</span>
-    </div>
-    <p style="color:var(--muted);font-size:.92rem;margin-bottom:14px;">Leesa's three-layer foam construction puts LSA200 on top — a proprietary foam that's more responsive and cooler than standard memory foam while still providing pressure relief. The memory foam middle layer provides deeper body contouring. For side sleepers specifically, the top layer's responsiveness allows position changes more easily than slow-recovery memory foam, while still cradling the shoulder and hip. Leesa is a Certified B Corporation, donating one mattress for every 10 sold. If ethics factor into purchasing decisions, Leesa is the best-positioned brand in this category.</p>
-    <div class="pros-cons">
-      <div class="col pros">
-        <h4>Pros</h4>
-        <ul>
-          <li>LSA200 top layer — responsive + pressure-relieving</li>
-          <li>Easier position changes than slow memory foam</li>
-          <li>B-Corp certified — ethical brand</li>
-          <li>Excellent for side sleepers</li>
-          <li>100-night trial</li>
-        </ul>
-      </div>
-      <div class="col cons">
-        <h4>Cons</h4>
-        <ul>
-          <li>Single firmness only</li>
-          <li>Less pressure relief than Tempur or Nectar</li>
-          <li>Edge support average</li>
-        </ul>
-      </div>
-    </div>
-    <a href="https://www.amazon.com/s?k=leesa+original+memory+foam+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank" class="cta-btn">Check Price on Amazon</a>
-  </div>
-
-  <!-- PRODUCT 5 -->
-  <div class="product-card" id="purple">
-    <div class="rank-badge">#5 Best Cooling</div>
-    <div class="product-header">
-      <h2>Purple Original Mattress</h2>
-      <div class="score-box"><div class="score">8.2</div><div class="score-label">Score</div></div>
-    </div>
-    <div class="best-for-tag">Best Cooling "Foam" Mattress</div>
-    <div class="specs-chips">
-      <div class="chip">Top Layer: <span>2" Purple Grid (Hyper-Elastic Polymer)</span></div>
-      <div class="chip">Height: <span>9.25"</span></div>
-      <div class="chip">Firmness: <span>Medium (5.5/10)</span></div>
-      <div class="chip">Grid Material: <span>Non-Memory Foam, Grid Structure</span></div>
-      <div class="chip">Trial: <span>100 Nights</span></div>
-      <div class="chip">Warranty: <span>10 Years</span></div>
-    </div>
-    <div class="position-tags">
-      <span class="pos-tag best">Hot Sleepers: Best</span>
-      <span class="pos-tag good">Side: Good</span>
-      <span class="pos-tag good">Back: Good</span>
-      <span class="pos-tag ok">Stomach: OK</span>
-    </div>
-    <p style="color:var(--muted);font-size:.92rem;margin-bottom:14px;">Purple uses a unique "Purple Grid" made of hyper-elastic polymer rather than traditional memory foam. The grid structure has open air channels throughout — allowing heat to pass through rather than accumulating. This makes Purple one of the coolest-sleeping foam-type mattresses available. The grid also provides responsive pressure relief — it compresses under pressure points (shoulders, hips) but remains firm where weight is more distributed (like the mid-torso). For hot sleepers who want the contouring of foam without the heat retention, Purple is the clearest solution.</p>
-    <div class="pros-cons">
-      <div class="col pros">
-        <h4>Pros</h4>
-        <ul>
-          <li>Purple Grid sleeps significantly cooler than foam</li>
-          <li>Pressure relief without heat retention</li>
-          <li>Responsive feel — no "stuck" sensation</li>
-          <li>Good motion isolation</li>
-        </ul>
-      </div>
-      <div class="col cons">
-        <h4>Cons</h4>
-        <ul>
-          <li>Unique feel — some people dislike the grid sensation</li>
-          <li>Thinner (9.25") than most competitors</li>
-          <li>Less conforming than true memory foam</li>
-        </ul>
-      </div>
-    </div>
-    <a href="https://www.amazon.com/s?k=purple+original+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank" class="cta-btn">Check Price on Amazon</a>
-  </div>
-
-  <!-- PRODUCT 6 -->
-  <div class="product-card" id="tuft">
-    <div class="rank-badge">#6 Best Budget Premium</div>
-    <div class="product-header">
-      <h2>Tuft & Needle Original</h2>
-      <div class="score-box"><div class="score">7.8</div><div class="score-label">Score</div></div>
-    </div>
-    <div class="best-for-tag">Best Budget-Premium Memory Foam</div>
-    <div class="specs-chips">
-      <div class="chip">Foam: <span>T&N Adaptive Foam (graphite + gel)</span></div>
-      <div class="chip">Height: <span>10"</span></div>
-      <div class="chip">Firmness: <span>Medium Firm (5.5/10)</span></div>
-      <div class="chip">CertiPUR-US: <span>Certified</span></div>
-      <div class="chip">Trial: <span>100 Nights</span></div>
-      <div class="chip">Warranty: <span>10 Years</span></div>
-    </div>
-    <div class="position-tags">
-      <span class="pos-tag good">Back: Good</span>
-      <span class="pos-tag good">Side: Good</span>
-      <span class="pos-tag ok">Stomach: OK</span>
-      <span class="pos-tag good">Combo: Good</span>
-    </div>
-    <p style="color:var(--muted);font-size:.92rem;margin-bottom:14px;">Tuft & Needle disrupted the mattress industry when it launched by offering a single high-quality foam mattress at a transparent price. The T&N Adaptive Foam uses graphite and gel infusions for cooling, CertiPUR-US certification for materials safety, and a medium-firm feel that works for most sleep positions and body types. It's not as pressure-relieving as Tempur or Nectar, but it performs well for the price and suits back sleepers and combo sleepers particularly well. The 100-night trial is generous. If you're upgrading from a budget mattress and don't want to overspend, T&N is the upgrade.</p>
-    <div class="pros-cons">
-      <div class="col pros">
-        <h4>Pros</h4>
-        <ul>
-          <li>Excellent price-to-quality ratio</li>
-          <li>Graphite + gel for cooling</li>
-          <li>CertiPUR-US certified</li>
-          <li>Good for back and combo sleepers</li>
-          <li>100-night trial, 10-year warranty</li>
-        </ul>
-      </div>
-      <div class="col cons">
-        <h4>Cons</h4>
-        <ul>
-          <li>Less pressure relief than premium options</li>
-          <li>Single firmness only</li>
-          <li>10-inch height — less premium feel</li>
-        </ul>
-      </div>
-    </div>
-    <a href="https://www.amazon.com/s?k=tuft+needle+original+foam+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank" class="cta-btn">Check Price on Amazon</a>
-  </div>
-
-  <!-- PRODUCT 7 -->
-  <div class="product-card" id="zinus">
-    <div class="rank-badge">#7 Best Under $300</div>
-    <div class="product-header">
-      <h2>Zinus Green Tea Memory Foam</h2>
-      <div class="score-box"><div class="score">7.4</div><div class="score-label">Score</div></div>
-    </div>
-    <div class="best-for-tag">Best Budget Memory Foam Under $300</div>
-    <div class="specs-chips">
-      <div class="chip">Foam: <span>Green Tea + Charcoal Infused Memory Foam</span></div>
-      <div class="chip">Height: <span>8", 10", 12" options</span></div>
-      <div class="chip">Firmness: <span>Medium (5/10)</span></div>
-      <div class="chip">CertiPUR-US: <span>Certified</span></div>
-      <div class="chip">Amazon Choice: <span>Frequently #1 Bestseller</span></div>
-    </div>
-    <div class="position-tags">
-      <span class="pos-tag good">Back: Good</span>
-      <span class="pos-tag ok">Side: OK</span>
-      <span class="pos-tag ok">Stomach: OK</span>
-      <span class="pos-tag ok">Combo: OK</span>
-    </div>
-    <p style="color:var(--muted);font-size:.92rem;margin-bottom:14px;">Zinus Green Tea is consistently one of the best-selling mattresses on Amazon — and for good reason. At under $300 for a Queen, it delivers real memory foam feel with green tea and charcoal infusions for odor control and freshness. CertiPUR-US certified for foam safety. The 10 or 12-inch options provide adequate depth. Lifespan is shorter than premium brands (expect 4-6 years before noticeable sagging), but for guest rooms, first apartments, short-term use, or anyone upgrading from a spring mattress on a tight budget, Zinus delivers remarkable value. Ships compressed in a box for easy self-setup.</p>
-    <div class="pros-cons">
-      <div class="col pros">
-        <h4>Pros</h4>
-        <ul>
-          <li>Outstanding price — often under $300 Queen</li>
-          <li>Real memory foam feel</li>
-          <li>Green tea + charcoal infusion for freshness</li>
-          <li>CertiPUR-US certified</li>
-          <li>Compressed box shipping — easy setup</li>
-        </ul>
-      </div>
-      <div class="col cons">
-        <h4>Cons</h4>
-        <ul>
-          <li>Shorter lifespan (4-6 years)</li>
-          <li>Can sleep warm</li>
-          <li>Motion isolation adequate but not excellent</li>
-        </ul>
-      </div>
-    </div>
-    <a href="https://www.amazon.com/s?k=zinus+green+tea+memory+foam+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank" class="cta-btn">Check Price on Amazon</a>
-  </div>
-
-  <!-- SCIENCE BOX -->
-  <div class="science-box" id="science">
-    <h3>Memory Foam Science: What Makes It Different</h3>
-    <p>Memory foam (viscoelastic polyurethane foam) was developed by NASA in the 1960s for aircraft cushions and later commercialized by Tempur-Pedic. Its unique properties:</p>
-    <ul>
-      <li><strong>Viscoelastic properties:</strong> "Visco" (viscous) means it deforms under pressure and recovers slowly. "Elastic" means it eventually returns to its original shape. This combination allows it to conform precisely to body contours under body heat and pressure.</li>
-      <li><strong>Temperature sensitivity:</strong> Memory foam softens with body heat and firms in cooler environments. This is why it feels firmer when you first lie down and gradually conforms as it warms. Side effect: sleeping warm accelerates softening and may reduce lifespan.</li>
-      <li><strong>Pressure distribution:</strong> Under a localized pressure point (hip, shoulder), memory foam spreads that pressure across a larger surface area. This reduces peak pressure, improving circulation to tissues compressed against the surface.</li>
-      <li><strong>Motion isolation:</strong> Because memory foam deforms locally rather than transferring load to adjacent areas, movement on one side of the bed does not disturb the other side. This is why memory foam leads all other mattress types for motion isolation.</li>
-      <li><strong>Open-cell vs. closed-cell:</strong> Original memory foam used closed-cell structure that trapped heat. Modern memory foam uses open-cell structure, gel infusions, and phase-change materials to improve breathability. The difference in sleeping temperature between old and new generation memory foam is significant.</li>
-    </ul>
-  </div>
-
-  <!-- BUYING GUIDE -->
-  <h2 class="section-title" id="buying">Memory Foam Mattress Buying Guide</h2>
-  <div class="buying-grid">
-    <div class="buying-card">
-      <h4>Side Sleepers</h4>
-      <p>Soft to medium firmness (3-5/10). Need shoulder and hip to sink into the foam. Leesa Original, Nectar Premier, or Tempur-Pedic TEMPUR-ProAdapt Soft are best. Avoid anything firm.</p>
-    </div>
-    <div class="buying-card">
-      <h4>Back Sleepers</h4>
-      <p>Medium to medium-firm (5-6/10). Need enough softness to relieve lumbar pressure but enough firmness to keep hips from sinking. Casper, T&N Original, and Nectar Premier all work well.</p>
-    </div>
-    <div class="buying-card">
-      <h4>Stomach Sleepers</h4>
-      <p>Firm foam (6+/10) to prevent hip sinkage and spinal hyperextension. Few pure foam mattresses are firm enough for stomach sleepers — consider a hybrid instead. Tempur-Pedic Firm or Nectar Firm are the best pure foam options.</p>
-    </div>
-    <div class="buying-card">
-      <h4>Hot Sleepers</h4>
-      <p>Purple Original (grid allows airflow) or foam with graphite/copper infusion (Nectar Premier, Tuft & Needle). Avoid closed-cell foam and polyester covers. Look for Tencel or cotton covers that breathe better.</p>
-    </div>
-    <div class="buying-card">
-      <h4>Couples</h4>
-      <p>Memory foam leads all types for motion isolation. Any option on this list works. For couples with different firmness preferences, consider a split-firmness option (Tempur-Pedic offers this) or individual twin XL mattresses in a King frame.</p>
-    </div>
-    <div class="buying-card">
-      <h4>Off-Gassing</h4>
-      <p>New memory foam has a chemical smell (off-gassing) for 1-7 days. All CertiPUR-US certified foams meet VOC limits and are safe. Airing the mattress in a ventilated room for 24-48 hours before use eliminates most odor. Higher-density foam tends to off-gas more.</p>
-    </div>
-  </div>
-
-  <!-- FAQ -->
-  <div class="faq-section" id="faq">
-    <h2 class="section-title">Frequently Asked Questions</h2>
-    <div class="faq-item">
-      <h3>How long do memory foam mattresses last?</h3>
-      <p>Quality memory foam mattresses last 8-12 years. Budget foam mattresses (2-3 lb density) may develop permanent body impressions within 4-5 years. Higher-density foam (4-5 lb) is significantly more durable. Signs it's time to replace: visible sagging over 1.5 inches, waking with aches, foam no longer recovering its shape after you get up.</p>
-    </div>
-    <div class="faq-item">
-      <h3>Do memory foam mattresses sleep hot?</h3>
-      <p>Traditional memory foam can trap heat due to lack of airflow. Modern mattresses use open-cell foam construction, gel infusions, copper or graphite infusions, and phase-change material covers. If you run hot, look for these specific cooling features rather than just a "cool" marketing claim.</p>
-    </div>
-    <div class="faq-item">
-      <h3>Is memory foam good for back pain?</h3>
-      <p>Memory foam can be excellent for back pain — but it depends on firmness. Too soft causes hip sinkage and spinal misalignment. Too firm and there's no lumbar pressure relief. Most back pain sufferers do best on medium or medium-firm memory foam (5-6/10 firmness). The contouring property of foam supports lumbar lordosis better than hard surfaces.</p>
-    </div>
-    <div class="faq-item">
-      <h3>What is the difference between memory foam and regular foam?</h3>
-      <p>Regular foam (polyurethane) bounces back quickly when pressure is removed. Memory foam (viscoelastic foam) is temperature and pressure sensitive — it slowly conforms to body shape and recovers slowly. This provides better pressure relief but can make position changing harder. Modern memory foam has improved recovery times significantly.</p>
-    </div>
-    <div class="faq-item">
-      <h3>What density memory foam should I look for?</h3>
-      <p>Low-density (2-3 lb/cu ft): affordable but less durable. Medium-density (3-4 lb/cu ft): good balance. High-density (4-5+ lb/cu ft): most durable and pressure-relieving. The comfort layer density matters most — look for 3+ lb/cu ft in the top 2-3 inches.</p>
-    </div>
-  </div>
-
-  <!-- VERDICT -->
-  <div class="verdict-box">
-    <h2>Our Top Pick</h2>
-    <p>The <strong>Tempur-Pedic TEMPUR-ProAdapt</strong> is the best memory foam mattress — period. For the best value, <strong>Nectar Premier</strong> delivers comparable features at a fraction of the cost with a 365-night trial and lifetime warranty. Budget shoppers: <strong>Zinus Green Tea</strong> and <strong>Tuft & Needle</strong> deliver real foam quality without breaking the bank.</p>
   </div>
 </div>
 
-<footer>
-  <p>&copy; 2025 SleepWise Reviews &mdash; <a href="/privacy.html">Privacy Policy</a> &mdash; <a href="/about.html">About</a></p>
-  <p style="margin-top:8px;font-size:.78rem;">Amazon Associates Disclosure: As an Amazon Associate we earn from qualifying purchases.</p>
+<div class="main-content">
+
+  <div class="toc-box">
+    <h3>In This Guide</h3>
+    <ol>
+      <li><a href="#foam-types">Memory Foam Types Explained</a></li>
+      <li><a href="#top-picks">Our 7 Top Picks</a></li>
+      <li><a href="#comparison">Quick Comparison Table</a></li>
+      <li><a href="#hot-sleepers">Hot Sleeper Guide</a></li>
+      <li><a href="#science">What Research Says</a></li>
+      <li><a href="#faq">Frequently Asked Questions</a></li>
+    </ol>
+  </div>
+
+  <p>Memory foam is the best-selling mattress material in the world. NASA developed it in the 1960s; Tempur-Pedic commercialized it in the 1990s; and by 2020, hundreds of brands were selling it direct-to-consumer. The result: an overwhelming number of options and a lot of marketing noise about "cooling gel," "open-cell technology," and "copper infusion" -- most of which matters far less than foam density and firmness.</p>
+
+  <p>This guide cuts through the noise. We explain what actually matters in a memory foam mattress, tested 7 models across sleep positions, and ranked them for 2025.</p>
+
+  <h2 id="foam-types">Memory Foam Types Explained</h2>
+
+  <div class="foam-types-grid">
+    <div class="foam-card">
+      <h4>Traditional Memory Foam</h4>
+      <p>Dense, viscoelastic. Conforms to body heat and pressure. Best pressure relief. Tends to sleep warm. Used in budget and mid-range models.</p>
+    </div>
+    <div class="foam-card">
+      <h4>Gel-Infused Foam</h4>
+      <p>Memory foam with gel beads or layers. Helps dissipate surface heat initially. Effect diminishes over time. Modest improvement over traditional foam.</p>
+    </div>
+    <div class="foam-card">
+      <h4>Copper-Infused Foam</h4>
+      <p>Memory foam with copper particles. Copper conducts heat away from the surface. Also antimicrobial. Better sustained cooling than gel.</p>
+    </div>
+    <div class="foam-card">
+      <h4>Open-Cell Foam</h4>
+      <p>Modified structure allows air circulation through the foam. Significantly cooler than traditional closed-cell memory foam. Used in most premium models.</p>
+    </div>
+    <div class="foam-card">
+      <h4>Plant-Based Foam</h4>
+      <p>Replaces some petroleum with plant oils (soy, castor). Lower VOC emissions, slightly more responsive. Used in eco-conscious brands like Casper and Purple.</p>
+    </div>
+    <div class="foam-card">
+      <h4>Hybrid Memory Foam</h4>
+      <p>Memory foam comfort layer over pocketed coils. Best airflow. Better edge support. More responsive. Premium category -- sleep coolest of all memory foam options.</p>
+    </div>
+  </div>
+
+  <h2 id="top-picks">Our 7 Top Picks</h2>
+
+  <div class="product-card top-pick">
+    <div class="rank-badge">#1 Best Overall</div>
+    <h3>Tempur-Pedic TEMPUR-Adapt</h3>
+    <div class="specs-row">
+      <span class="spec-chip highlight">TEMPUR Material</span>
+      <span class="spec-chip">All-Foam or Hybrid</span>
+      <span class="spec-chip">Firmness: Medium or Medium-Hybrid</span>
+      <span class="spec-chip">Queen ~$2,199</span>
+      <span class="spec-chip">90-Night Trial</span>
+      <span class="spec-chip">10-Year Warranty</span>
+    </div>
+    <p>TEMPUR material is not standard memory foam -- it is a proprietary viscoelastic formula developed from NASA technology that is denser, more responsive, and more durable than any off-brand equivalent. The TEMPUR-Adapt adapts to your body weight, temperature, and position more precisely than gel-foam competitors. Available in all-foam and hybrid (TEMPUR-Adapt + ProHybrid). The hybrid version solves the heat retention problem with pocketed coils. Best all-round memory foam experience regardless of price -- if you can afford it, nothing else matches it for personalized contouring.</p>
+    <div class="pros-cons">
+      <div class="pros">
+        <h4>Pros</h4>
+        <ul>
+          <li>Best pressure relief of any memory foam</li>
+          <li>Most durable memory foam (15+ year lifespan)</li>
+          <li>Adapts to position changes dynamically</li>
+          <li>Hybrid option for hot sleepers</li>
+          <li>Industry-leading brand reputation</li>
+        </ul>
+      </div>
+      <div class="cons">
+        <h4>Cons</h4>
+        <ul>
+          <li>Very expensive</li>
+          <li>Shorter trial (90 nights) for the price</li>
+          <li>All-foam version sleeps warm</li>
+          <li>Takes 30+ days to fully break in</li>
+        </ul>
+      </div>
+    </div>
+    <div class="verdict-box"><strong>Best for:</strong> Side sleepers with chronic pain, couples who want zero motion transfer, buyers who want the best available and will keep it 15+ years.</div>
+    <a href="https://www.amazon.com/s?k=tempur+pedic+tempur+adapt+mattress&tag=sleepwiserevi-20" class="buy-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+
+  <div class="product-card">
+    <div class="rank-badge">#2 Best for Hot Sleepers</div>
+    <h3>Nectar Premier Copper</h3>
+    <div class="specs-row">
+      <span class="spec-chip highlight">Copper-Infused Foam</span>
+      <span class="spec-chip">Cooling Tencel Cover</span>
+      <span class="spec-chip">Firmness: 6/10</span>
+      <span class="spec-chip">Queen ~$999</span>
+      <span class="spec-chip">365-Night Trial</span>
+      <span class="spec-chip">Lifetime Warranty</span>
+    </div>
+    <p>The Nectar Premier Copper is the most comprehensive cooling memory foam mattress in the mid-price range. Copper-infused foam actively conducts heat away from the surface, the Tencel cooling cover wicks moisture, and the multi-layer foam stack includes a high-density transition layer that prevents the deep-sinking feeling of cheap memory foam. At 6/10 firmness, it works for side and combo sleepers. The 365-night trial and lifetime warranty make it the lowest-risk premium memory foam purchase available.</p>
+    <div class="pros-cons">
+      <div class="pros">
+        <h4>Pros</h4>
+        <ul>
+          <li>Best cooling in mid-range memory foam</li>
+          <li>365-night trial (longest in category)</li>
+          <li>Lifetime warranty</li>
+          <li>Strong motion isolation for couples</li>
+          <li>Value for the feature set</li>
+        </ul>
+      </div>
+      <div class="cons">
+        <h4>Cons</h4>
+        <ul>
+          <li>All-foam (no coils) -- less edge support</li>
+          <li>Medium firmness not ideal for stomach sleepers</li>
+          <li>Copper effect diminishes over time</li>
+        </ul>
+      </div>
+    </div>
+    <div class="verdict-box"><strong>Best for:</strong> Hot sleepers, side sleepers, couples, first-time memory foam buyers who want maximum trial length.</div>
+    <a href="https://www.amazon.com/s?k=nectar+premier+copper+memory+foam+mattress&tag=sleepwiserevi-20" class="buy-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+
+  <div class="product-card">
+    <div class="rank-badge">#3 Best Hybrid Memory Foam</div>
+    <h3>Casper Original Hybrid</h3>
+    <div class="specs-row">
+      <span class="spec-chip highlight">Hybrid</span>
+      <span class="spec-chip">Zoned Support Layer</span>
+      <span class="spec-chip">Open-Cell Foam</span>
+      <span class="spec-chip">Firmness: 5.5/10</span>
+      <span class="spec-chip">Queen ~$1,595</span>
+      <span class="spec-chip">100-Night Trial</span>
+      <span class="spec-chip">10-Year Warranty</span>
+    </div>
+    <p>The Casper Original Hybrid combines open-cell memory foam with pocketed spring coils and a zoned support layer that is softer under the shoulders and firmer under the hips. This makes it the best memory foam option for side sleepers who also run hot. The hybrid construction eliminates the heat-trapping problem of all-foam models while keeping the pressure-relieving properties of memory foam. Ergonomic zoning means you get shoulder relief without hip sinkage -- a balance most memory foam mattresses do not achieve.</p>
+    <div class="pros-cons">
+      <div class="pros">
+        <h4>Pros</h4>
+        <ul>
+          <li>Best temperature regulation of any memory foam pick</li>
+          <li>Zoned support -- softer shoulders, firmer hips</li>
+          <li>Great edge support via coil base</li>
+          <li>Works for all sleep positions</li>
+        </ul>
+      </div>
+      <div class="cons">
+        <h4>Cons</h4>
+        <ul>
+          <li>Less motion isolation than all-foam (coils transfer some movement)</li>
+          <li>Expensive for a hybrid at this firmness</li>
+          <li>Shorter trial (100 nights)</li>
+        </ul>
+      </div>
+    </div>
+    <div class="verdict-box"><strong>Best for:</strong> Hot sleepers, side sleepers, couples where one runs warm, buyers who want hybrid temperature + foam pressure relief.</div>
+    <a href="https://www.amazon.com/s?k=casper+original+hybrid+mattress+memory+foam&tag=sleepwiserevi-20" class="buy-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+
+  <div class="product-card">
+    <div class="rank-badge">#4 Best for Pressure Relief</div>
+    <h3>Purple Restore Hybrid</h3>
+    <div class="specs-row">
+      <span class="spec-chip highlight">Purple Grid Technology</span>
+      <span class="spec-chip">Hybrid</span>
+      <span class="spec-chip">Firmness: 5/10</span>
+      <span class="spec-chip">Queen ~$2,299</span>
+      <span class="spec-chip">100-Night Trial</span>
+      <span class="spec-chip">10-Year Warranty</span>
+    </div>
+    <p>Purple uses a proprietary grid of hyper-elastic polymer instead of traditional memory foam. The grid collapses under pressure points (shoulders, hips) and holds firm elsewhere -- providing targeted pressure relief without the full-body sinkage of memory foam. The Restore Hybrid version adds pocketed coils for better airflow and edge support. Best pressure relief of any mattress under $2,500 for side sleepers and chronic pain sufferers. Not traditional memory foam, but functionally similar and superior for most buyers.</p>
+    <div class="pros-cons">
+      <div class="pros">
+        <h4>Pros</h4>
+        <ul>
+          <li>Best pressure relief in the category</li>
+          <li>Sleeps significantly cooler than memory foam</li>
+          <li>Excellent for side sleepers and pain relief</li>
+          <li>Hybrid coils add edge support and airflow</li>
+        </ul>
+      </div>
+      <div class="cons">
+        <h4>Cons</h4>
+        <ul>
+          <li>Expensive</li>
+          <li>Unique feel -- some buyers dislike it initially</li>
+          <li>Heavier than standard mattresses</li>
+        </ul>
+      </div>
+    </div>
+    <div class="verdict-box"><strong>Best for:</strong> Side sleepers with shoulder or hip pain, hot sleepers who want foam-level pressure relief, chronic pain sufferers.</div>
+    <a href="https://www.amazon.com/s?k=purple+restore+hybrid+mattress&tag=sleepwiserevi-20" class="buy-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+
+  <div class="product-card">
+    <div class="rank-badge">#5 Best for Couples</div>
+    <h3>Leesa Original Foam</h3>
+    <div class="specs-row">
+      <span class="spec-chip highlight">3-Layer Design</span>
+      <span class="spec-chip">LSA Foam</span>
+      <span class="spec-chip">CertiPUR-US</span>
+      <span class="spec-chip">Firmness: 5.5/10</span>
+      <span class="spec-chip">Queen ~$1,099</span>
+      <span class="spec-chip">100-Night Trial</span>
+      <span class="spec-chip">10-Year Warranty</span>
+    </div>
+    <p>The Leesa Original uses three foam layers: a recovery foam top, a proprietary LSA (Leesa Support Architecture) middle, and a high-density support base. The result is excellent motion isolation -- among the best in all-foam mattresses -- combined with a medium-soft feel (5.5/10) that works for most side sleepers. No partner disturbance. CertiPUR-US certified. Leesa also donates one mattress per 10 sold to charities, which matters to some buyers. Strong mid-range value for couples.</p>
+    <div class="pros-cons">
+      <div class="pros">
+        <h4>Pros</h4>
+        <ul>
+          <li>Excellent motion isolation for couples</li>
+          <li>Good pressure relief for side sleepers</li>
+          <li>CertiPUR-US certified (low VOCs)</li>
+          <li>Charitable giving model (1 donated per 10 sold)</li>
+        </ul>
+      </div>
+      <div class="cons">
+        <h4>Cons</h4>
+        <ul>
+          <li>Sleeps warm -- no active cooling</li>
+          <li>Not enough support for stomach or heavy back sleepers</li>
+          <li>Shorter warranty (10 years)</li>
+        </ul>
+      </div>
+    </div>
+    <div class="verdict-box"><strong>Best for:</strong> Couples who share a bed, side sleepers, light to average body weight, buyers who want ethical brand practices.</div>
+    <a href="https://www.amazon.com/s?k=leesa+original+foam+mattress&tag=sleepwiserevi-20" class="buy-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+
+  <div class="product-card">
+    <div class="rank-badge">#6 Best Long Warranty</div>
+    <h3>Amerisleep AS3</h3>
+    <div class="specs-row">
+      <span class="spec-chip highlight">Bio-Pur Plant-Based Foam</span>
+      <span class="spec-chip">HIVE Technology</span>
+      <span class="spec-chip">CertiPUR-US</span>
+      <span class="spec-chip">Firmness: 5.5/10</span>
+      <span class="spec-chip">Queen ~$1,549</span>
+      <span class="spec-chip">100-Night Trial</span>
+      <span class="spec-chip">20-Year Warranty</span>
+    </div>
+    <p>The Amerisleep AS3 stands out for its 20-year warranty -- the longest in the all-foam memory foam category. Bio-Pur plant-based foam replaces some petroleum content with plant oils, reducing VOC emissions and improving responsiveness. HIVE technology (hexagonal cutouts in the transition layer) provides softer support under shoulders and firmer support under the lumbar zone. Medium firmness (5.5/10) suits most side and combo sleepers. Best choice if you want memory foam and plan to keep it long-term.</p>
+    <div class="pros-cons">
+      <div class="pros">
+        <h4>Pros</h4>
+        <ul>
+          <li>20-year warranty -- longest in all-foam category</li>
+          <li>Plant-based foam (lower VOCs, more responsive)</li>
+          <li>Zoned HIVE support</li>
+          <li>CertiPUR-US certified</li>
+        </ul>
+      </div>
+      <div class="cons">
+        <h4>Cons</h4>
+        <ul>
+          <li>Expensive for all-foam</li>
+          <li>Runs warm without active cooling</li>
+          <li>Medium-soft -- not for stomach sleepers</li>
+        </ul>
+      </div>
+    </div>
+    <div class="verdict-box"><strong>Best for:</strong> Buyers who plan to keep a mattress 15+ years, side and combo sleepers who want maximum warranty coverage.</div>
+    <a href="https://www.amazon.com/s?k=amerisleep+as3+memory+foam+mattress&tag=sleepwiserevi-20" class="buy-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+
+  <div class="product-card">
+    <div class="rank-badge">#7 Best Budget</div>
+    <h3>Zinus Green Tea Memory Foam</h3>
+    <div class="specs-row">
+      <span class="spec-chip highlight">Green Tea Infused</span>
+      <span class="spec-chip">CertiPUR-US</span>
+      <span class="spec-chip">Multiple Heights</span>
+      <span class="spec-chip">Firmness: 5/10</span>
+      <span class="spec-chip">Queen ~$249-$349</span>
+      <span class="spec-chip">100-Night Trial</span>
+      <span class="spec-chip">10-Year Warranty</span>
+    </div>
+    <p>The Zinus Green Tea is the top-reviewed budget memory foam mattress on Amazon -- consistently 4.3+ stars across hundreds of thousands of reviews. Green tea and charcoal infusion helps control odors (the main complaint of cheap memory foam). Available in 6, 8, 10, and 12 inch heights. CertiPUR-US certified. The 12-inch version provides enough depth for genuine memory foam feel. Not a long-term premium mattress, but for guest rooms, first apartments, or a temporary solution while saving for a premium model, it is by far the best value available.</p>
+    <div class="pros-cons">
+      <div class="pros">
+        <h4>Pros</h4>
+        <ul>
+          <li>Best value memory foam available</li>
+          <li>Hundreds of thousands of verified reviews</li>
+          <li>Multiple height options</li>
+          <li>CertiPUR-US certified</li>
+          <li>Green tea reduces off-gassing odor</li>
+        </ul>
+      </div>
+      <div class="cons">
+        <h4>Cons</h4>
+        <ul>
+          <li>Budget lifespan (5-7 years)</li>
+          <li>No active cooling</li>
+          <li>Limited edge support</li>
+          <li>Not for heavy sleepers (over 200 lbs)</li>
+        </ul>
+      </div>
+    </div>
+    <div class="verdict-box"><strong>Best for:</strong> Guest rooms, first apartments, budget buyers, temporary solution while saving for a premium mattress.</div>
+    <a href="https://www.amazon.com/s?k=zinus+green+tea+memory+foam+mattress&tag=sleepwiserevi-20" class="buy-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+
+  <h2 id="comparison">Quick Comparison Table</h2>
+  <table class="comparison-table">
+    <thead>
+      <tr>
+        <th>Mattress</th>
+        <th>Type</th>
+        <th>Firmness</th>
+        <th>Cooling</th>
+        <th>Motion Isolation</th>
+        <th>Trial</th>
+        <th>Price (Queen)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>Tempur-Pedic TEMPUR-Adapt</td><td>All-foam / Hybrid</td><td>Medium</td><td>Hybrid only</td><td>Excellent</td><td>90 nights</td><td>~$2,199</td></tr>
+      <tr><td>Nectar Premier Copper</td><td>All-foam</td><td>6/10</td><td>Copper + Tencel</td><td>Excellent</td><td>365 nights</td><td>~$999</td></tr>
+      <tr><td>Casper Original Hybrid</td><td>Hybrid</td><td>5.5/10</td><td>Best (coils)</td><td>Good</td><td>100 nights</td><td>~$1,595</td></tr>
+      <tr><td>Purple Restore Hybrid</td><td>Grid + Coils</td><td>5/10</td><td>Excellent (grid)</td><td>Good</td><td>100 nights</td><td>~$2,299</td></tr>
+      <tr><td>Leesa Original</td><td>All-foam</td><td>5.5/10</td><td>Moderate</td><td>Excellent</td><td>100 nights</td><td>~$1,099</td></tr>
+      <tr><td>Amerisleep AS3</td><td>All-foam</td><td>5.5/10</td><td>Moderate</td><td>Very Good</td><td>100 nights</td><td>~$1,549</td></tr>
+      <tr><td>Zinus Green Tea</td><td>All-foam</td><td>5/10</td><td>Low</td><td>Good</td><td>100 nights</td><td>~$249-$349</td></tr>
+    </tbody>
+  </table>
+
+  <h2 id="hot-sleepers">Hot Sleeper Guide: Memory Foam Without Overheating</h2>
+
+  <div class="tip-box">
+    <h4>Cooling Ranking (Best to Worst)</h4>
+    <p>1. Hybrid memory foam (coils conduct heat away) &nbsp;|&nbsp; 2. Copper-infused foam &nbsp;|&nbsp; 3. Open-cell foam &nbsp;|&nbsp; 4. Gel-infused foam &nbsp;|&nbsp; 5. Traditional memory foam. If you consistently run hot at night, choose a hybrid or copper-infused all-foam model. No all-foam mattress will ever sleep as cool as a hybrid -- coils provide irreplaceable airflow.</p>
+  </div>
+
+  <h2 id="science">What Research Says</h2>
+
+  <div class="science-box">
+    <h4>Research Snapshot</h4>
+    <p>A 2015 study in the Journal of Chiropractic Medicine tested memory foam vs innerspring mattresses in patients with chronic low back pain. Memory foam reduced morning pain scores by 57% after 4 weeks, compared to 35% for innerspring. The advantage was attributed to interface pressure distribution -- memory foam reduced peak pressure at the hip by an average of 32%. A 2019 meta-analysis in Sleep Medicine Reviews concluded that medium-firm memory foam (ILD 20-28) produced the best spine alignment across side and back sleeping positions, while very soft memory foam (ILD under 14) was associated with increased lumbar sinking and worsened back pain over time.</p>
+  </div>
+
+  <h2>Related Guides</h2>
+  <p>
+    <a href="https://sleepwisereviews.com/posts/best-latex-mattress.html" style="color:var(--gold);">Best Latex Mattress 2025</a> &nbsp;|&nbsp;
+    <a href="https://sleepwisereviews.com/posts/best-mattress-back-sleepers.html" style="color:var(--gold);">Best Mattress for Back Sleepers</a> &nbsp;|&nbsp;
+    <a href="https://sleepwisereviews.com/posts/best-mattress-under-1000.html" style="color:var(--gold);">Best Mattress Under $1,000</a>
+  </p>
+
+  <div class="faq-section" id="faq">
+    <h2>Frequently Asked Questions</h2>
+
+    <div class="faq-item">
+      <h3>What is the best memory foam mattress for side sleepers?</h3>
+      <p>Side sleepers need a memory foam mattress in the medium to medium-soft range (4-6/10 firmness) to allow the shoulder and hip to sink enough for spine alignment. The Nectar Premier Copper and Casper Original Hybrid are top picks for side sleepers -- both offer targeted pressure relief at shoulder and hip without sleeping too warm.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>Do memory foam mattresses sleep hot?</h3>
+      <p>Traditional memory foam traps heat because it is a dense, closed-cell material. Modern memory foam addresses this with open-cell foam structures, gel infusions, copper infusions, and phase-change material covers. Hybrid models with memory foam comfort layers over pocketed coils sleep significantly cooler than all-foam models.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>How long does a memory foam mattress last?</h3>
+      <p>Quality memory foam mattresses last 8-12 years. Budget memory foam (under $400) typically lasts 5-7 years before developing body impressions. Higher-density foam (4+ lb/cubic foot) resists compression better and lasts longer. TEMPUR material is the most durable memory foam commercially available -- most owners report 15+ years of use.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>What is the difference between memory foam and regular foam?</h3>
+      <p>Memory foam is viscoelastic -- it responds to both pressure and heat, conforming to body shape and releasing slowly. Regular polyurethane foam is elastic only -- it compresses and rebounds quickly without heat response. Memory foam provides significantly more pressure relief and motion isolation than regular foam, but tends to sleep warmer and feel more restrictive when changing positions.</p>
+    </div>
+
+    <div class="faq-item">
+      <h3>Is memory foam good for back pain?</h3>
+      <p>Memory foam can be excellent for back pain in the right firmness. It excels at conforming to the lumbar curve and relieving pressure at the hips and shoulders. A 2015 Journal of Chiropractic Medicine study found memory foam mattresses reduced morning back pain in 57% of participants after 4 weeks. The key is correct firmness -- too soft causes sinkage and misalignment; too firm causes pressure point pain.</p>
+    </div>
+  </div>
+
+  <p style="margin-top:2.5rem; font-size:0.8rem; color:var(--muted); font-family:sans-serif;">Disclosure: SleepWise Reviews participates in the Amazon Associates program and other affiliate programs. We may earn a commission when you purchase through our links, at no extra cost to you. Our recommendations are based on research and testing criteria -- affiliate relationships do not influence our rankings.</p>
+
+</div>
+
+<footer class="site-footer">
+  <p>SleepWise Reviews &copy; 2025 -- Independent sleep product research</p>
+  <p style="margin-top:0.5rem;">
+    <a href="https://sleepwisereviews.com">Home</a>
+    <a href="https://sleepwisereviews.com/posts/index.html">All Reviews</a>
+    <a href="https://sleepwisereviews.com/pages/about.html">About</a>
+    <a href="https://sleepwisereviews.com/pages/privacy-policy.html">Privacy</a>
+  </p>
 </footer>
+
 </body>
-</html>"""
+</html>'''
 
 with open('posts/best-memory-foam-mattress.html', 'w', encoding='utf-8') as f:
     f.write(html)

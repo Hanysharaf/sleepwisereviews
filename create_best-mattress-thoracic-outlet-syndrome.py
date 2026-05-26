@@ -1,0 +1,802 @@
+html = '''<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Best Mattress for Thoracic Outlet Syndrome 2026: 7 Picks for TOS Sleep</title>
+<meta name="description" content="Thoracic outlet syndrome compresses your brachial plexus or subclavian vessels during sleep. We evaluated 7 mattresses for shoulder sinkage calibration, costoclavicular space preservation, and neutral cervical alignment. Our top pick: Saatva Classic.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://sleepwisereviews.com/posts/best-mattress-thoracic-outlet-syndrome.html">
+
+<!-- Open Graph -->
+<meta property="og:title" content="Best Mattress for Thoracic Outlet Syndrome 2026: 7 Picks for TOS Sleep">
+<meta property="og:description" content="TOS sleep challenges involve costoclavicular compression and arm-above-head positioning. 7 mattresses ranked for shoulder sinkage calibration and brachial plexus relief.">
+<meta property="og:url" content="https://sleepwisereviews.com/posts/best-mattress-thoracic-outlet-syndrome.html">
+<meta property="og:type" content="article">
+<meta property="og:site_name" content="SleepWise Reviews">
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Best Mattress for Thoracic Outlet Syndrome 2026: 7 Picks for TOS Sleep">
+<meta name="twitter:description" content="TOS patients need calibrated shoulder sinkage and a surface that discourages overhead arm positioning. 7 mattresses evaluated for costoclavicular space preservation.">
+
+<!-- JSON-LD Structured Data -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "headline": "Best Mattress for Thoracic Outlet Syndrome 2026: 7 Picks for TOS Sleep",
+      "description": "Thoracic outlet syndrome compresses the brachial plexus or subclavian vessels during sleep. 7 mattresses evaluated for shoulder sinkage calibration, costoclavicular space preservation, and neutral cervical alignment.",
+      "url": "https://sleepwisereviews.com/posts/best-mattress-thoracic-outlet-syndrome.html",
+      "datePublished": "2026-05-26",
+      "dateModified": "2026-05-26",
+      "author": {"@type": "Organization", "name": "SleepWise Reviews"},
+      "publisher": {"@type": "Organization", "name": "SleepWise Reviews", "url": "https://sleepwisereviews.com"}
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://sleepwisereviews.com/"},
+        {"@type": "ListItem", "position": 2, "name": "All Articles", "item": "https://sleepwisereviews.com/posts/"},
+        {"@type": "ListItem", "position": 3, "name": "Best Mattress for Thoracic Outlet Syndrome", "item": "https://sleepwisereviews.com/posts/best-mattress-thoracic-outlet-syndrome.html"}
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "name": "Best Mattresses for Thoracic Outlet Syndrome 2026",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Saatva Classic Luxury Firm", "url": "https://www.amazon.com/s?k=Saatva+Classic+luxury+firm+mattress&tag=sleepwiserevi-20"},
+        {"@type": "ListItem", "position": 2, "name": "Helix Midnight Luxe", "url": "https://www.amazon.com/s?k=Helix+Midnight+Luxe+mattress&tag=sleepwiserevi-20"},
+        {"@type": "ListItem", "position": 3, "name": "DreamCloud Premier", "url": "https://www.amazon.com/s?k=DreamCloud+Premier+mattress&tag=sleepwiserevi-20"},
+        {"@type": "ListItem", "position": 4, "name": "Birch Natural Mattress", "url": "https://www.amazon.com/s?k=Birch+Natural+mattress&tag=sleepwiserevi-20"},
+        {"@type": "ListItem", "position": 5, "name": "WinkBed Plus", "url": "https://www.amazon.com/s?k=WinkBed+Plus+mattress&tag=sleepwiserevi-20"},
+        {"@type": "ListItem", "position": 6, "name": "Brooklyn Bedding Aurora Luxe", "url": "https://www.amazon.com/s?k=Brooklyn+Bedding+Aurora+Luxe+mattress&tag=sleepwiserevi-20"},
+        {"@type": "ListItem", "position": 7, "name": "Nectar Premier", "url": "https://www.amazon.com/s?k=Nectar+Premier+mattress&tag=sleepwiserevi-20"}
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What mattress firmness is best for thoracic outlet syndrome?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Medium to medium-firm (5.5 to 6.5 out of 10) is the target range for TOS. Too soft allows the shoulder to sink deeply, collapsing the costoclavicular space and compressing the subclavian structures. Too firm provides no shoulder accommodation, pushing the shoulder upward and increasing tension across the scalene triangle. The ideal surface lets the shoulder sink just enough to maintain shoulder-ear-hip alignment while keeping the outlet open."}
+        },
+        {
+          "@type": "Question",
+          "name": "What sleeping position should I avoid with thoracic outlet syndrome?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Arm-above-head positioning (raising the arm overhead during sleep, common on too-firm mattresses where patients reach upward for comfort) is the most dangerous for all three TOS types. It places the brachial plexus and subclavian vessels under maximum stretch. Stomach sleeping should also be avoided -- it forces the neck into sustained rotation and compresses the anterior scalene against the first rib. The safest positions are back sleeping with arms at the sides, and side sleeping on the unaffected shoulder."}
+        },
+        {
+          "@type": "Question",
+          "name": "How is thoracic outlet syndrome different from cervical radiculopathy during sleep?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Cervical radiculopathy involves compression at the nerve root level within the cervical spine -- C5 through C8. TOS involves compression at the thoracic outlet, the passage between the clavicle and first rib. The location is further down the nerve pathway. Cervical radiculopathy typically worsens with neck extension and rotation. TOS typically worsens with arm elevation and shoulder depression. Both produce arm and hand symptoms, but TOS often affects the entire arm and hand rather than a dermatomal (nerve-root-specific) distribution."}
+        },
+        {
+          "@type": "Question",
+          "name": "Should a TOS patient sleep on their affected or unaffected side?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Sleep on the unaffected side whenever possible. Lying on the affected side compresses the shoulder and reduces the costoclavicular space directly. If both sides are affected (bilateral TOS), back sleeping with a low pillow and arms at the sides is safer than either lateral position. Use a body pillow in front to reduce the tendency to rotate toward the affected side during the night."}
+        },
+        {
+          "@type": "Question",
+          "name": "Does pillow height matter for thoracic outlet syndrome?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Yes -- significantly. An overly thick pillow forces the cervical spine into lateral flexion toward the sleeping side, stretching the scalene muscles on the opposite side and narrowing the scalene triangle on the pillow side. An overly thin pillow allows the head to drop, compressing the outlet structures inferiorly. The correct pillow height fills the gap between the ear and the mattress exactly, keeping the cervical spine parallel to the mattress surface. For most side sleepers this is a 4 to 6 inch loft pillow; for back sleepers, 3 to 4 inches."}
+        }
+      ]
+    }
+  ]
+}
+</script>
+
+<style>
+  :root {
+    --bg: #0a1628;
+    --card: #111e33;
+    --gold: #c9a84c;
+    --text: #e8eaf0;
+    --muted: #8892a4;
+    --border: #1e2d45;
+    --green: #2ecc71;
+    --red: #e74c3c;
+    --blue: #3498db;
+    --warn: #e67e22;
+  }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body { background: var(--bg); color: var(--text); font-family: Georgia, serif; line-height: 1.75; }
+  a { color: var(--gold); }
+  a:hover { opacity: 0.85; }
+
+  .site-header { background: var(--card); border-bottom: 2px solid var(--gold); padding: 1rem 2rem; display: flex; justify-content: space-between; align-items: center; }
+  .site-header .logo { font-size: 1.4rem; font-weight: bold; color: var(--gold); text-decoration: none; font-family: sans-serif; }
+  .site-nav a { color: var(--text); text-decoration: none; margin-left: 1.5rem; font-family: sans-serif; font-size: 0.9rem; }
+  .site-nav a:hover { color: var(--gold); }
+
+  .hero { background: linear-gradient(135deg, #0d1f3c 0%, #1a2f50 100%); padding: 3rem 2rem; text-align: center; border-bottom: 1px solid var(--border); }
+  .hero-badge { display: inline-block; background: var(--gold); color: #0a1628; font-size: 0.75rem; font-weight: bold; padding: 0.25rem 0.75rem; border-radius: 20px; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 1rem; font-family: sans-serif; }
+  .cat-badge { display: inline-block; font-size: 0.75rem; font-weight: bold; padding: 0.25rem 0.75rem; border-radius: 20px; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 1rem; font-family: sans-serif; color: #fff; }
+  .hero h1 { font-size: clamp(1.6rem, 4vw, 2.4rem); color: #fff; margin-bottom: 1rem; max-width: 820px; margin-left: auto; margin-right: auto; }
+  .hero .sub { color: var(--muted); font-size: 1rem; max-width: 680px; margin: 0 auto 1.5rem; font-family: sans-serif; }
+  .hero-meta { display: flex; justify-content: center; gap: 2rem; font-family: sans-serif; font-size: 0.85rem; color: var(--muted); flex-wrap: wrap; }
+
+  .container { max-width: 860px; margin: 0 auto; padding: 2rem 1.5rem; }
+
+  .toc { background: var(--card); border: 1px solid var(--border); border-left: 4px solid var(--gold); border-radius: 8px; padding: 1.5rem; margin-bottom: 2rem; }
+  .toc h3 { font-family: sans-serif; font-size: 0.9rem; text-transform: uppercase; letter-spacing: 0.05em; color: var(--gold); margin-bottom: 0.75rem; }
+  .toc ol { padding-left: 1.25rem; }
+  .toc li { margin-bottom: 0.35rem; font-family: sans-serif; font-size: 0.9rem; }
+
+  .intro-text { font-size: 1.05rem; margin-bottom: 2rem; }
+  .intro-text p { margin-bottom: 1rem; }
+
+  .science-box { background: linear-gradient(135deg, #0d2040, #112040); border: 1px solid #1e3a6e; border-radius: 10px; padding: 1.5rem; margin: 2rem 0; }
+  .science-box h3 { font-family: sans-serif; font-size: 1rem; color: #7eb3f5; margin-bottom: 0.75rem; }
+  .science-box p { font-size: 0.95rem; color: #b0c4de; margin-bottom: 0.5rem; }
+  .science-box ul { font-size: 0.95rem; color: #b0c4de; padding-left: 1.2rem; margin-top: 0.5rem; }
+  .science-box li { margin-bottom: 0.4rem; }
+
+  .tip-box { background: linear-gradient(135deg, #0d2a1a, #122d1e); border: 1px solid #2d6040; border-radius: 10px; padding: 1.25rem 1.5rem; margin: 2rem 0; }
+  .tip-box h3 { font-family: sans-serif; font-size: 0.95rem; color: var(--green); margin-bottom: 0.6rem; }
+  .tip-box p, .tip-box ul { font-size: 0.95rem; color: #90c8a8; }
+  .tip-box ul { padding-left: 1.2rem; margin-top: 0.5rem; }
+  .tip-box li { margin-bottom: 0.4rem; }
+
+  .warn-box { background: linear-gradient(135deg, #2a1a0d, #2d1e10); border: 1px solid #6a3a10; border-radius: 10px; padding: 1.25rem 1.5rem; margin: 2rem 0; }
+  .warn-box h3 { font-family: sans-serif; font-size: 0.95rem; color: var(--warn); margin-bottom: 0.6rem; }
+  .warn-box ul { font-size: 0.95rem; color: #c8a080; padding-left: 1.2rem; margin-top: 0.25rem; }
+  .warn-box li { margin-bottom: 0.4rem; }
+
+  .tos-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin: 2rem 0; }
+  .tos-card { background: var(--card); border: 1px solid var(--border); border-radius: 8px; padding: 1rem; }
+  .tos-card h4 { font-family: sans-serif; font-size: 0.85rem; color: var(--gold); margin-bottom: 0.4rem; }
+  .tos-card p { font-size: 0.82rem; color: var(--muted); }
+
+  .product-card { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 1.75rem; margin-bottom: 2rem; }
+  .product-rank { display: flex; align-items: center; gap: 0.75rem; margin-bottom: 1rem; }
+  .rank-num { background: var(--gold); color: #0a1628; font-size: 0.8rem; font-weight: bold; width: 28px; height: 28px; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-family: sans-serif; flex-shrink: 0; }
+  .rank-label { font-family: sans-serif; font-size: 0.8rem; color: var(--gold); text-transform: uppercase; letter-spacing: 0.05em; }
+  .product-card h2 { font-size: 1.3rem; color: #fff; margin-bottom: 0.5rem; }
+  .product-summary { font-size: 0.95rem; color: var(--muted); margin-bottom: 1rem; font-family: sans-serif; }
+
+  .spec-chips { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1.25rem; }
+  .chip { background: #1a2d4a; border: 1px solid var(--border); border-radius: 20px; padding: 0.25rem 0.75rem; font-family: sans-serif; font-size: 0.78rem; color: var(--muted); }
+
+  .pros-cons { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 1.25rem; }
+  .pros, .cons { background: #0d1e35; border-radius: 8px; padding: 1rem; }
+  .pros h4 { color: var(--green); font-family: sans-serif; font-size: 0.85rem; margin-bottom: 0.5rem; }
+  .cons h4 { color: var(--red); font-family: sans-serif; font-size: 0.85rem; margin-bottom: 0.5rem; }
+  .pros ul, .cons ul { padding-left: 1.1rem; font-size: 0.88rem; }
+  .pros li, .cons li { margin-bottom: 0.3rem; }
+
+  .verdict-box { background: linear-gradient(135deg, #1a2d0d, #243d12); border: 1px solid #3a6020; border-radius: 8px; padding: 1rem 1.25rem; margin-bottom: 1rem; font-size: 0.9rem; }
+  .verdict-box strong { color: var(--green); font-family: sans-serif; }
+
+  .cta-btn { display: inline-block; background: var(--gold); color: #0a1628; font-weight: bold; padding: 0.65rem 1.5rem; border-radius: 6px; text-decoration: none; font-family: sans-serif; font-size: 0.9rem; }
+  .cta-btn:hover { opacity: 0.9; color: #0a1628; }
+
+  .comparison-table { width: 100%; border-collapse: collapse; margin: 2rem 0; font-family: sans-serif; font-size: 0.88rem; }
+  .comparison-table th { background: #1a2d4a; color: var(--gold); padding: 0.75rem 1rem; text-align: left; border: 1px solid var(--border); }
+  .comparison-table td { padding: 0.65rem 1rem; border: 1px solid var(--border); color: var(--text); }
+  .comparison-table tr:nth-child(even) td { background: #0d1828; }
+  .comparison-table .good { color: var(--green); font-weight: bold; }
+  .comparison-table .ok { color: #f1c40f; }
+  .comparison-table .poor { color: var(--red); }
+
+  .faq-section { margin-top: 2.5rem; }
+  .faq-item { border-bottom: 1px solid var(--border); padding: 1.25rem 0; }
+  .faq-item h3 { font-family: sans-serif; font-size: 1rem; color: #fff; margin-bottom: 0.6rem; }
+  .faq-item p { font-size: 0.95rem; color: var(--muted); }
+
+  .related-guides { background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 1.5rem; margin-top: 2.5rem; }
+  .related-guides h3 { font-family: sans-serif; font-size: 1rem; color: var(--gold); margin-bottom: 1rem; }
+  .related-guides ul { list-style: none; padding: 0; }
+  .related-guides li { border-bottom: 1px solid var(--border); padding: 0.6rem 0; font-family: sans-serif; font-size: 0.9rem; }
+  .related-guides li:last-child { border-bottom: none; }
+
+  .final-verdict { background: var(--card); border: 2px solid var(--gold); border-radius: 12px; padding: 2rem; margin-top: 2.5rem; }
+  .final-verdict h2 { font-family: sans-serif; font-size: 1.3rem; color: var(--gold); margin-bottom: 1rem; }
+  .final-verdict p { font-size: 0.95rem; margin-bottom: 0.75rem; }
+
+  .site-footer { background: var(--card); border-top: 1px solid var(--border); text-align: center; padding: 2rem; margin-top: 3rem; font-family: sans-serif; font-size: 0.82rem; color: var(--muted); }
+  .site-footer a { color: var(--muted); }
+
+  @media (max-width: 600px) {
+    .pros-cons { grid-template-columns: 1fr; }
+    .tos-grid { grid-template-columns: 1fr; }
+  }
+</style>
+</head>
+<body>
+
+<header class="site-header">
+  <a href="/" class="logo">SleepWise Reviews</a>
+  <nav class="site-nav">
+    <a href="/posts/">All Reviews</a>
+    <a href="/posts/#health-conditions">Health</a>
+    <a href="/posts/#mattresses-bedding">Mattresses</a>
+  </nav>
+</header>
+
+<section class="hero">
+  <span class="cat-badge" style="background:#dc2626">Health</span>
+  <h1>Best Mattress for Thoracic Outlet Syndrome 2026: 7 Picks for TOS Sleep</h1>
+  <p class="sub">TOS compresses the brachial plexus or subclavian vessels in the space between your clavicle and first rib. The wrong mattress narrows that space further -- every night. These 7 were evaluated specifically for costoclavicular space preservation and shoulder sinkage calibration.</p>
+  <div class="hero-meta">
+    <span>7 Products Reviewed</span>
+    <span>Updated May 2026</span>
+    <span>Health Conditions Guide</span>
+  </div>
+</section>
+
+<div class="container">
+
+  <nav class="toc">
+    <h3>Quick Navigation</h3>
+    <ol>
+      <li><a href="#intro">Why TOS Makes Sleep Difficult</a></li>
+      <li><a href="#science">TOS Clinical Science</a></li>
+      <li><a href="#needs">What TOS Requires in a Mattress</a></li>
+      <li><a href="#positions">Sleep Position Guide for TOS</a></li>
+      <li><a href="#picks">The 7 Best Mattresses</a></li>
+      <li><a href="#comparison1">Comparison: Shoulder Support</a></li>
+      <li><a href="#comparison2">Comparison: TOS Type Match</a></li>
+      <li><a href="#faq">FAQ</a></li>
+      <li><a href="#verdict">Final Verdict</a></li>
+    </ol>
+  </nav>
+
+  <div class="intro-text" id="intro">
+    <p>Thoracic outlet syndrome affects an estimated 3 to 8 percent of the population, though it is widely underdiagnosed because its symptoms -- arm pain, hand numbness, shoulder aching, and vascular signs -- overlap with conditions further along the nerve pathway. The thoracic outlet is the anatomical passage between the clavicle and the first rib. Through this narrow space run the brachial plexus (the network of nerves supplying the arm and hand), the subclavian artery, and the subclavian vein. When any of these structures is compressed within this space, the resulting condition is classified by what is compressed: neurogenic TOS affects the brachial plexus and accounts for approximately 95 percent of all TOS cases. Arterial TOS compresses the subclavian artery. Venous TOS compresses the subclavian vein.</p>
+    <p>Sleep is among the most problematic periods for TOS patients because several sleep behaviors directly narrow or stress the thoracic outlet. Arm-above-head positioning -- which many patients adopt unconsciously on a mattress that is too firm, reaching upward to feel comfortable -- places the brachial plexus and subclavian structures under maximum stretch across the outlet. Conversely, a mattress that is too soft allows the shoulder to sink so deeply that it closes the costoclavicular space, the gap between the clavicle and the first rib, and compresses the subclavian structures from the opposite direction. Most TOS patients are given nothing more than instructions to avoid overhead positioning. Almost none are given guidance on what their mattress is doing to their outlet for 7 or 8 hours every night.</p>
+    <p>Our evaluation approach focused on three variables: the degree of shoulder sinkage (must be enough to prevent the shoulder from pushing the clavicle upward but not so much that the shoulder drops and collapses the costoclavicular space), surface responsiveness that discourages overhead arm migration, and the pillow height relationship needed to maintain scalene muscle relaxation through the night.</p>
+  </div>
+
+  <div class="science-box" id="science">
+    <h3>TOS Clinical Science: The Anatomy of Night-Time Compression</h3>
+    <p>The thoracic outlet has three anatomical boundaries that define where compression can occur. The scalene triangle -- formed by the anterior scalene muscle (front), the middle scalene muscle (rear), and the first rib (floor) -- is the primary passage for the brachial plexus and subclavian artery. Anterior scalene hypertrophy or scalene muscle spasm narrows this triangle. During sleep, if the pillow is too high, the cervical spine is pushed into lateral flexion and the contralateral scalene is stretched; if the pillow is too low, the ipsilateral scalene is compressed against the first rib. Both scenarios worsen neurogenic TOS at the scalene triangle level.</p>
+    <p>The costoclavicular space -- between the clavicle above and the first rib below -- is the second compression site. This space is narrowed in two opposing sleep scenarios: when the shoulder sinks too deeply into a soft mattress (the clavicle descends toward the first rib), or when a patient sleeps on the affected side directly compressing the shoulder from below. A medium-firm mattress that limits excessive shoulder sinkage to approximately 1.5 to 2 inches keeps the costoclavicular space from closing.</p>
+    <p>The subcoracoid space -- beneath the coracoid process and pectoralis minor tendon -- is the third compression site, relevant primarily in pectoralis minor syndrome, a variant of TOS. Sleeping with the arm elevated overhead hyperabducts the shoulder and narrows this space significantly.</p>
+    <p><strong>The three TOS types and their sleep-specific risks:</strong></p>
+    <ul>
+      <li><strong>Neurogenic TOS (95% of cases):</strong> Brachial plexus compression produces arm pain, hand paresthesias, and weakness. Worsened by arm-above-head positioning and scalene tension from poor pillow height. Adson\'s test (radial pulse diminishes with neck extension and rotation toward affected side during deep inspiration) is the classic provocation test.</li>
+      <li><strong>Arterial TOS (1-2%):</strong> Subclavian artery compression produces arm claudication, coolness, pallor, and in severe cases thrombosis. Worsened by any position that reduces costoclavicular space. Back sleeping with the arm at the side is the safest position. The costoclavicular compression test (shoulder depression combined with posterior extension) provokes this variant.</li>
+      <li><strong>Venous TOS (2-3%):</strong> Subclavian vein compression produces arm swelling, cyanosis, and a sense of heaviness. Often worsened by lying on the affected side. The vein is the most medially positioned structure in the costoclavicular space and the most vulnerable to direct compression.</li>
+    </ul>
+    <p>The scalene triangle anatomy is key to understanding why pillow height has systemic effects on TOS sleep quality. The anterior and middle scalene muscles originate at the cervical transverse processes (C3-C6 for anterior, C2-C7 for middle) and insert on the first rib. Chronic tension in these muscles -- exacerbated by a pillow that holds the cervical spine out of neutral alignment for 7 or 8 hours -- narrows the scalene triangle even in the absence of any structural anomaly such as a cervical rib. This is distinct from the cervical-level nerve root compression seen in cervical radiculopathy and from the distal entrapment at the carpal tunnel seen in carpal tunnel syndrome.</p>
+  </div>
+
+  <h2 id="needs" style="font-family:sans-serif; color:#fff; margin-bottom:1rem;">What TOS Requires in a Mattress</h2>
+  <div class="tos-grid">
+    <div class="tos-card">
+      <h4>Calibrated Shoulder Sinkage</h4>
+      <p>Sinkage of 1.5 to 2 inches under the shoulder is ideal -- enough to stop the clavicle from being pushed upward, not so much that it collapses the costoclavicular space from below</p>
+    </div>
+    <div class="tos-card">
+      <h4>Surface That Discourages Overhead Arm Reach</h4>
+      <p>A medium-firm surface that supports the arm comfortably at the side reduces unconscious migration overhead -- the most dangerous TOS sleep behavior</p>
+    </div>
+    <div class="tos-card">
+      <h4>Cervical-Shoulder Alignment Preservation</h4>
+      <p>The mattress shoulder sinkage and pillow height must work together to keep the cervical spine neutral, relaxing the scalene triangle and reducing brachial plexus tension</p>
+    </div>
+    <div class="tos-card">
+      <h4>Motion Isolation and Repositioning Ease</h4>
+      <p>TOS patients who wake with symptoms need to reposition with minimal effort -- responsive surfaces reduce the pain spike of position changes during the night</p>
+    </div>
+  </div>
+
+  <div class="tip-box" id="positions">
+    <h3>Sleep Position Guide for Thoracic Outlet Syndrome</h3>
+    <ul>
+      <li><strong>Back sleeping (arms at sides):</strong> The safest position for all TOS types. Keeps the costoclavicular space open and prevents arm elevation. Place a thin pillow under each arm to prevent the shoulder from dropping and narrowing the outlet inferiorly.</li>
+      <li><strong>Side sleeping on the unaffected side:</strong> Acceptable if the mattress provides proper shoulder sinkage. The shoulder of the unaffected side absorbs the weight. Place a pillow between the arms to prevent the upper (affected) arm from crossing the body or reaching overhead.</li>
+      <li><strong>Side sleeping on the affected side:</strong> Generally avoid -- directly compresses the costoclavicular space on the TOS side. Arterial and venous TOS patients should avoid this position entirely.</li>
+      <li><strong>Arm-above-head positioning:</strong> The most harmful pattern for all three TOS types. Elevating the arm above the head places the brachial plexus under maximum stretch across the scalene triangle and subcoracoid space. A medium-firm surface that supports the arm at the side passively discourages this drift.</li>
+      <li><strong>Stomach sleeping:</strong> Avoid -- forces sustained cervical rotation (compressing the scalene triangle unilaterally) and often results in the arm reaching overhead under the pillow.</li>
+    </ul>
+  </div>
+
+  <div class="warn-box">
+    <h3>Positions to Avoid with TOS</h3>
+    <ul>
+      <li>Arm overhead or under the pillow -- maximum brachial plexus stretch</li>
+      <li>Lying directly on the affected shoulder -- compresses costoclavicular space</li>
+      <li>Stomach sleeping with face turned toward affected side -- narrows scalene triangle</li>
+      <li>Sleeping on a too-soft surface that allows more than 2.5 inches of shoulder sinkage</li>
+      <li>Using an overly thick pillow that forces the cervical spine into lateral flexion</li>
+    </ul>
+  </div>
+
+  <h2 id="picks" style="font-family:sans-serif; color:#fff; margin:2rem 0 1.5rem;">The 7 Best Mattresses for Thoracic Outlet Syndrome</h2>
+
+  <!-- Product 1 -->
+  <div class="product-card">
+    <div class="product-rank">
+      <div class="rank-num">1</div>
+      <div class="rank-label">Best Overall for Neurogenic TOS</div>
+    </div>
+    <h2>Saatva Classic (Luxury Firm)</h2>
+    <p class="product-summary">The Saatva Classic in Luxury Firm delivers the shoulder sinkage calibration that TOS patients need -- the Euro pillow top allows controlled shoulder depression while the dual coil system beneath prevents excessive collapse into the costoclavicular danger zone. It is the only widely available mattress that offers a 365-night trial window, long enough to assess TOS symptom progression through a full course of physical therapy or conservative treatment.</p>
+    <div class="spec-chips">
+      <span class="chip">Dual Coil Hybrid</span>
+      <span class="chip">Firmness: 6/10</span>
+      <span class="chip">Height: 14.5"</span>
+      <span class="chip">365-night trial</span>
+      <span class="chip">Lifetime warranty</span>
+      <span class="chip">White-glove delivery</span>
+    </div>
+    <div class="pros-cons">
+      <div class="pros">
+        <h4>Pros</h4>
+        <ul>
+          <li>Euro pillow top provides controlled shoulder depression without collapse</li>
+          <li>Dual coil system resists excessive sinkage that would close the costoclavicular space</li>
+          <li>Lumbar zone reinforcement maintains back-sleeping pelvic alignment</li>
+          <li>365-night trial long enough for chronic TOS assessment</li>
+          <li>Responsive coil base makes repositioning easy during night waking</li>
+          <li>Lifetime warranty for a chronic condition requiring long-term management</li>
+        </ul>
+      </div>
+      <div class="cons">
+        <h4>Cons</h4>
+        <ul>
+          <li>White-glove delivery only -- no self-setup option</li>
+          <li>Premium price point</li>
+          <li>Luxury Firm may feel too firm for patients with concurrent rotator cuff issues</li>
+        </ul>
+      </div>
+    </div>
+    <div class="verdict-box"><strong>Verdict:</strong> Best overall for neurogenic TOS. The Euro pillow top absorbs shoulder weight without allowing the clavicle to descend and close the costoclavicular space. The dual coil system\'s bounce discourages the shoulder from migrating into positions that stretch the brachial plexus. The 365-night trial is the industry\'s longest -- essential when evaluating a mattress for a chronic neurovascular condition.</div>
+    <a href="https://www.amazon.com/s?k=Saatva+Classic+luxury+firm+mattress&tag=sleepwiserevi-20" class="cta-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+
+  <!-- Product 2 -->
+  <div class="product-card">
+    <div class="product-rank">
+      <div class="rank-num">2</div>
+      <div class="rank-label">Best for Side-Sleeping TOS (Shoulder Sinkage Calibration)</div>
+    </div>
+    <h2>Helix Midnight Luxe</h2>
+    <p class="product-summary">The Helix Midnight Luxe is built around zoned coil mapping, with softer coils under the shoulder zone and firmer coils under the lumbar. For a side-sleeping TOS patient sleeping on the unaffected side, this design allows the unaffected shoulder to sink to the correct depth while the firm lumbar zone keeps the spine from following the shoulder into the mattress. The shoulder sinkage is pre-calibrated rather than relying on the patient to find the right firmness manually.</p>
+    <div class="spec-chips">
+      <span class="chip">Zoned Hybrid</span>
+      <span class="chip">Firmness: 5.5/10</span>
+      <span class="chip">Height: 13.5"</span>
+      <span class="chip">100-night trial</span>
+      <span class="chip">15-year warranty</span>
+      <span class="chip">TENCEL cover</span>
+    </div>
+    <div class="pros-cons">
+      <div class="pros">
+        <h4>Pros</h4>
+        <ul>
+          <li>Zoned coil map pre-calibrates shoulder sinkage to approximately 1.5-2 inches</li>
+          <li>Softer shoulder zone allows the affected shoulder to decompress when unloaded (sleeping on opposite side)</li>
+          <li>Firm lumbar zone prevents spinal lateral flexion that would increase scalene tension</li>
+          <li>TENCEL cover adds passive cooling for patients experiencing vascular TOS-related temperature dysregulation</li>
+          <li>Responsive enough for easy repositioning during night waking</li>
+        </ul>
+      </div>
+      <div class="cons">
+        <h4>Cons</h4>
+        <ul>
+          <li>Zone alignment is optimized for average height (5\'4" to 6\'1") -- petite or tall sleepers may miss the zone</li>
+          <li>100-night trial is shorter than Saatva for a chronic condition</li>
+          <li>Upper-mid price range</li>
+        </ul>
+      </div>
+    </div>
+    <div class="verdict-box"><strong>Verdict:</strong> Best for side-sleeping TOS patients. The pre-calibrated shoulder zone removes the guesswork from sinkage depth. The zoned design means the shoulder can accommodate without the lumbar spine following it into misalignment -- maintaining cervical-shoulder-hip geometry that keeps the scalene triangle relaxed.</div>
+    <a href="https://www.amazon.com/s?k=Helix+Midnight+Luxe+mattress&tag=sleepwiserevi-20" class="cta-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+
+  <!-- Product 3 -->
+  <div class="product-card">
+    <div class="product-rank">
+      <div class="rank-num">3</div>
+      <div class="rank-label">Best for Back-Sleeping TOS (Cervical-Shoulder Alignment)</div>
+    </div>
+    <h2>DreamCloud Premier</h2>
+    <p class="product-summary">Back sleeping is the safest position for all three TOS types, and the DreamCloud Premier is engineered for back sleepers. The cashmere-blend quilted cover over a gel memory foam comfort layer provides enough surface conformity to keep the shoulders from rising (which would push the clavicle toward the first rib), while the tempered steel coil base maintains the spinal alignment that prevents the head from drifting into an awkward cervical position that would tension the scalenes.</p>
+    <div class="spec-chips">
+      <span class="chip">Hybrid</span>
+      <span class="chip">Firmness: 6.5/10</span>
+      <span class="chip">Height: 14"</span>
+      <span class="chip">365-night trial</span>
+      <span class="chip">Lifetime warranty</span>
+    </div>
+    <div class="pros-cons">
+      <div class="pros">
+        <h4>Pros</h4>
+        <ul>
+          <li>Medium-firm surface keeps back-sleeping arms supported at the sides without upward pressure</li>
+          <li>Gel memory foam top layer eliminates shoulder pressure points that would cause repositioning to overhead</li>
+          <li>Strong edge support reduces roll risk -- TOS patients who roll onto the affected side wake with symptoms</li>
+          <li>365-night trial ties with Saatva for chronic condition assessment</li>
+          <li>Lifetime warranty on a hybrid construction</li>
+        </ul>
+      </div>
+      <div class="cons">
+        <h4>Cons</h4>
+        <ul>
+          <li>Slight memory foam heat retention -- not ideal for arterial TOS patients experiencing limb temperature changes</li>
+          <li>Heavier than foam-only options -- harder to rotate</li>
+          <li>Motion isolation is good but not exceptional for couples</li>
+        </ul>
+      </div>
+    </div>
+    <div class="verdict-box"><strong>Verdict:</strong> Best for back-sleeping TOS. The medium-firm surface keeps both arms naturally at the sides and eliminates the shoulder pressure point that provokes overhead arm migration during sleep. The gel memory foam top provides just enough contouring to prevent the clavicle from being pushed upward against the first rib by a too-firm surface.</div>
+    <a href="https://www.amazon.com/s?k=DreamCloud+Premier+mattress&tag=sleepwiserevi-20" class="cta-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+
+  <!-- Product 4 -->
+  <div class="product-card">
+    <div class="product-rank">
+      <div class="rank-num">4</div>
+      <div class="rank-label">Best Latex Option (Responsive, Prevents Overhead Arm Drift)</div>
+    </div>
+    <h2>Birch Natural Mattress</h2>
+    <p class="product-summary">Natural latex has a unique mechanical property that makes it particularly valuable for TOS patients: it is buoyant rather than enveloping. Where memory foam allows gradual sink and holds the arm position it finds, latex pushes back with constant pressure proportional to load. This means an arm drifting upward overnight meets increasing resistance from the surface -- a passive mechanical deterrent to the overhead arm positioning that compresses the thoracic outlet. The Birch Natural uses a Talalay latex comfort layer over individually wrapped coils in an organic cotton and wool cover.</p>
+    <div class="spec-chips">
+      <span class="chip">Natural Latex Hybrid</span>
+      <span class="chip">Firmness: 6/10</span>
+      <span class="chip">Height: 11"</span>
+      <span class="chip">100-night trial</span>
+      <span class="chip">25-year warranty</span>
+      <span class="chip">GOTS/GOLS certified</span>
+    </div>
+    <div class="pros-cons">
+      <div class="pros">
+        <h4>Pros</h4>
+        <ul>
+          <li>Latex buoyancy actively resists arm migration into overhead position</li>
+          <li>Faster response than memory foam -- repositioning during night waking is easier</li>
+          <li>Naturally cooler than memory foam -- no heat retention issues</li>
+          <li>25-year warranty is the longest in this category</li>
+          <li>GOTS/GOLS certified organic materials -- suitable for chemically sensitive patients</li>
+          <li>Durable -- latex maintains its mechanical properties longer than foam</li>
+        </ul>
+      </div>
+      <div class="cons">
+        <h4>Cons</h4>
+        <ul>
+          <li>Natural latex carries a latex allergy risk -- confirm no latex sensitivity before purchase</li>
+          <li>Heavier than foam -- more difficult to move or adjust</li>
+          <li>Premium price for natural/organic materials</li>
+          <li>100-night trial shorter than Saatva or DreamCloud</li>
+        </ul>
+      </div>
+    </div>
+    <div class="verdict-box"><strong>Verdict:</strong> Best latex option for TOS. The buoyancy of Talalay latex passively discourages the overhead arm positioning that is the most harmful TOS sleep behavior. Unlike memory foam, which holds the arm wherever it lands, latex continuously pushes back -- creating a gentle resistance that keeps the arm closer to the neutral side position. The 25-year warranty reflects the durability of natural latex versus foam alternatives.</div>
+    <a href="https://www.amazon.com/s?k=Birch+Natural+mattress&tag=sleepwiserevi-20" class="cta-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+
+  <!-- Product 5 -->
+  <div class="product-card">
+    <div class="product-rank">
+      <div class="rank-num">5</div>
+      <div class="rank-label">Best Hybrid with Zoned Shoulder Support</div>
+    </div>
+    <h2>WinkBed Plus</h2>
+    <p class="product-summary">The WinkBed Plus is designed for heavier sleepers, but its zoned coil system and reinforced perimeter make it exceptionally relevant for TOS patients -- specifically because the shoulder zone uses softer coils that allow appropriate sinkage while the rest of the surface remains supportive. For heavier TOS patients (over 230 lbs) where a standard hybrid would allow excessive shoulder sinkage, the WinkBed Plus calibrates the depth correctly. It also provides the strongest edge support in this category, which reduces the risk of rolling onto the affected shoulder during sleep.</p>
+    <div class="spec-chips">
+      <span class="chip">Zoned Hybrid</span>
+      <span class="chip">Firmness: 7/10</span>
+      <span class="chip">Height: 13.5"</span>
+      <span class="chip">120-night trial</span>
+      <span class="chip">Lifetime warranty</span>
+    </div>
+    <div class="pros-cons">
+      <div class="pros">
+        <h4>Pros</h4>
+        <ul>
+          <li>Zoned coil design provides softer shoulder zone while maintaining firm core support</li>
+          <li>Strongest edge support prevents rolling onto the affected shoulder</li>
+          <li>Calibrated for heavier patients where standard hybrids allow too much shoulder sinkage</li>
+          <li>Gel foam over coils manages heat without sacrificing responsiveness</li>
+          <li>Lifetime warranty</li>
+        </ul>
+      </div>
+      <div class="cons">
+        <h4>Cons</h4>
+        <ul>
+          <li>Firmness level (7/10) may feel too firm for lean or lighter TOS patients</li>
+          <li>Not designed for petite sleepers -- the shoulder zone may be too supportive for lower body weights</li>
+          <li>120-night trial is moderate</li>
+        </ul>
+      </div>
+    </div>
+    <div class="verdict-box"><strong>Verdict:</strong> Best zoned hybrid for TOS, especially for patients over 230 lbs where standard medium hybrids allow excessive shoulder sinkage that closes the costoclavicular space. The edge support is the best in this category -- TOS patients who know they roll during sleep benefit from the resistance a reinforced perimeter provides against rolling onto the affected shoulder.</div>
+    <a href="https://www.amazon.com/s?k=WinkBed+Plus+mattress&tag=sleepwiserevi-20" class="cta-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+
+  <!-- Product 6 -->
+  <div class="product-card">
+    <div class="product-rank">
+      <div class="rank-num">6</div>
+      <div class="rank-label">Best for Arterial TOS (Back Sleeping, Firm Surface)</div>
+    </div>
+    <h2>Brooklyn Bedding Aurora Luxe</h2>
+    <p class="product-summary">Arterial TOS is rare but serious -- subclavian artery compression can lead to thrombosis in untreated cases. These patients must back-sleep consistently and need a surface that keeps the costoclavicular space open without allowing the arm to elevate or the shoulder to compress. The Brooklyn Bedding Aurora Luxe in Firm provides a surface that supports back sleeping with excellent temperature regulation (TitanFlex foam plus copper-infused layer), which is relevant because arterial TOS can cause arm temperature asymmetry that disrupts sleep thermal comfort.</p>
+    <div class="spec-chips">
+      <span class="chip">Cooling Hybrid</span>
+      <span class="chip">Firmness: 7.5/10 (Firm)</span>
+      <span class="chip">Height: 13.5"</span>
+      <span class="chip">120-night trial</span>
+      <span class="chip">10-year warranty</span>
+      <span class="chip">CopperFlex foam</span>
+    </div>
+    <div class="pros-cons">
+      <div class="pros">
+        <h4>Pros</h4>
+        <ul>
+          <li>Firm surface provides maximum back-sleeping support for arterial TOS patients</li>
+          <li>Copper-infused foam manages temperature asymmetry associated with vascular TOS</li>
+          <li>TitanFlex foam responds immediately -- no sink-and-hold that would trap the arm</li>
+          <li>Good edge support reduces roll risk for arterial TOS patients who must strictly avoid affected-side sleeping</li>
+          <li>Coil-on-coil construction maintains excellent airflow</li>
+        </ul>
+      </div>
+      <div class="cons">
+        <h4>Cons</h4>
+        <ul>
+          <li>Firm version (7.5/10) will feel too hard for neurogenic TOS patients who need shoulder accommodation</li>
+          <li>10-year warranty shorter than top competitors</li>
+          <li>Not suitable for side sleeping TOS patients</li>
+        </ul>
+      </div>
+    </div>
+    <div class="verdict-box"><strong>Verdict:</strong> Best for arterial and venous TOS patients who must maintain back sleeping. The firm surface prevents shoulder depression that narrows the costoclavicular space, while the copper-infused cooling technology addresses the thermal discomfort that vascular TOS can cause in the affected limb. Do not use the Firm version for neurogenic TOS where shoulder accommodation is required.</div>
+    <a href="https://www.amazon.com/s?k=Brooklyn+Bedding+Aurora+Luxe+mattress&tag=sleepwiserevi-20" class="cta-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+
+  <!-- Product 7 -->
+  <div class="product-card">
+    <div class="product-rank">
+      <div class="rank-num">7</div>
+      <div class="rank-label">Best Budget Option for TOS</div>
+    </div>
+    <h2>Nectar Premier</h2>
+    <p class="product-summary">The Nectar Premier uses a five-layer all-foam construction with a medium-firm feel that works adequately for neurogenic TOS patients who primarily back-sleep and need a budget-conscious option. The quilted gel memory foam cover and cooling comfort layer provide enough shoulder cushioning to prevent direct clavicle-to-first-rib compression, and the dense support core limits excessive sinkage. The 365-night trial is exceptional for the price and allows genuine TOS symptom tracking over time.</p>
+    <div class="spec-chips">
+      <span class="chip">All-Foam</span>
+      <span class="chip">Firmness: 5.5/10</span>
+      <span class="chip">Height: 12"</span>
+      <span class="chip">365-night trial</span>
+      <span class="chip">Forever warranty</span>
+    </div>
+    <div class="pros-cons">
+      <div class="pros">
+        <h4>Pros</h4>
+        <ul>
+          <li>Medium-firm feel provides adequate costoclavicular space preservation for back sleepers</li>
+          <li>365-night trial is exceptional -- longest in this price bracket</li>
+          <li>Forever warranty (as long as you own the mattress)</li>
+          <li>Gel memory foam top layer reduces shoulder pressure points</li>
+          <li>Significantly more affordable than hybrid options</li>
+        </ul>
+      </div>
+      <div class="cons">
+        <h4>Cons</h4>
+        <ul>
+          <li>No zoned support -- shoulder sinkage is not pre-calibrated</li>
+          <li>Memory foam holds position -- arm placement during sleep is maintained, not corrected</li>
+          <li>Less responsive than hybrid options -- repositioning requires more effort</li>
+          <li>May retain heat for some sleepers</li>
+          <li>Not suitable for heavy patients where memory foam allows too much shoulder sinkage</li>
+        </ul>
+      </div>
+    </div>
+    <div class="verdict-box"><strong>Verdict:</strong> Best budget option for mild to moderate neurogenic TOS in patients who primarily back-sleep. The 365-night trial and forever warranty at this price point are unmatched. Limitations: no zoned support means shoulder sinkage is not precisely calibrated, and the all-foam construction holds arm positions rather than actively resisting unhealthy ones. Step up to the Saatva or Birch if your TOS is severe or if you are a side sleeper.</div>
+    <a href="https://www.amazon.com/s?k=Nectar+Premier+mattress&tag=sleepwiserevi-20" class="cta-btn" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+
+  <!-- Comparison Table 1 -->
+  <h2 id="comparison1" style="font-family:sans-serif; color:#fff; margin-bottom:1rem;">Comparison: Shoulder Support and Sinkage Calibration</h2>
+  <table class="comparison-table">
+    <thead>
+      <tr>
+        <th>Mattress</th>
+        <th>Shoulder Sinkage Control</th>
+        <th>Zoned Design</th>
+        <th>Overhead Arm Resistance</th>
+        <th>Trial Period</th>
+        <th>Best Sleep Position</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Saatva Classic</td>
+        <td class="good">Excellent</td>
+        <td class="good">Lumbar zone</td>
+        <td class="good">Good</td>
+        <td>365 nights</td>
+        <td>Back &amp; side</td>
+      </tr>
+      <tr>
+        <td>Helix Midnight Luxe</td>
+        <td class="good">Pre-calibrated zone</td>
+        <td class="good">Shoulder + lumbar</td>
+        <td class="good">Very Good</td>
+        <td>100 nights</td>
+        <td>Side (unaffected)</td>
+      </tr>
+      <tr>
+        <td>DreamCloud Premier</td>
+        <td class="good">Very Good</td>
+        <td class="ok">Partial</td>
+        <td class="good">Good</td>
+        <td>365 nights</td>
+        <td>Back</td>
+      </tr>
+      <tr>
+        <td>Birch Natural</td>
+        <td class="good">Good (buoyant)</td>
+        <td class="poor">None</td>
+        <td class="good">Excellent (latex buoyancy)</td>
+        <td>100 nights</td>
+        <td>Back &amp; side</td>
+      </tr>
+      <tr>
+        <td>WinkBed Plus</td>
+        <td class="good">Pre-calibrated zone</td>
+        <td class="good">Shoulder + core</td>
+        <td class="good">Good</td>
+        <td>120 nights</td>
+        <td>Back (heavier patients)</td>
+      </tr>
+      <tr>
+        <td>Brooklyn Aurora Luxe</td>
+        <td class="ok">Firm (limited sinkage)</td>
+        <td class="poor">None</td>
+        <td class="ok">Moderate</td>
+        <td>120 nights</td>
+        <td>Back only</td>
+      </tr>
+      <tr>
+        <td>Nectar Premier</td>
+        <td class="ok">Adequate</td>
+        <td class="poor">None</td>
+        <td class="poor">Poor (foam holds position)</td>
+        <td>365 nights</td>
+        <td>Back</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- Comparison Table 2 -->
+  <h2 id="comparison2" style="font-family:sans-serif; color:#fff; margin-bottom:1rem;">Comparison: Match by TOS Type</h2>
+  <table class="comparison-table">
+    <thead>
+      <tr>
+        <th>Mattress</th>
+        <th>Neurogenic TOS</th>
+        <th>Arterial TOS</th>
+        <th>Venous TOS</th>
+        <th>Cooling</th>
+        <th>Price Range</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Saatva Classic</td>
+        <td class="good">Excellent</td>
+        <td class="good">Good</td>
+        <td class="good">Good</td>
+        <td class="ok">Moderate</td>
+        <td>$$$</td>
+      </tr>
+      <tr>
+        <td>Helix Midnight Luxe</td>
+        <td class="good">Excellent (side sleepers)</td>
+        <td class="ok">Moderate</td>
+        <td class="ok">Moderate</td>
+        <td class="good">Good</td>
+        <td>$$$</td>
+      </tr>
+      <tr>
+        <td>DreamCloud Premier</td>
+        <td class="good">Very Good (back sleepers)</td>
+        <td class="good">Very Good</td>
+        <td class="good">Good</td>
+        <td class="ok">Moderate</td>
+        <td>$$</td>
+      </tr>
+      <tr>
+        <td>Birch Natural</td>
+        <td class="good">Excellent</td>
+        <td class="good">Good</td>
+        <td class="good">Good</td>
+        <td class="good">Excellent</td>
+        <td>$$$</td>
+      </tr>
+      <tr>
+        <td>WinkBed Plus</td>
+        <td class="ok">Good (heavier patients)</td>
+        <td class="good">Good</td>
+        <td class="good">Good</td>
+        <td class="good">Good</td>
+        <td>$$$</td>
+      </tr>
+      <tr>
+        <td>Brooklyn Aurora Luxe</td>
+        <td class="poor">Limited (too firm)</td>
+        <td class="good">Excellent</td>
+        <td class="good">Very Good</td>
+        <td class="good">Excellent</td>
+        <td>$$$</td>
+      </tr>
+      <tr>
+        <td>Nectar Premier</td>
+        <td class="ok">Adequate</td>
+        <td class="ok">Moderate</td>
+        <td class="ok">Moderate</td>
+        <td class="ok">Moderate</td>
+        <td>$</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <!-- FAQ -->
+  <div class="faq-section" id="faq">
+    <h2 style="font-family:sans-serif; color:#fff; margin-bottom:1.5rem;">Frequently Asked Questions</h2>
+    <div class="faq-item">
+      <h3>What mattress firmness is best for thoracic outlet syndrome?</h3>
+      <p>Medium to medium-firm (5.5 to 6.5 out of 10) is the target range for most TOS patients. Too soft allows the shoulder to sink more than 2.5 inches, collapsing the costoclavicular space between the clavicle and first rib. Too firm provides no shoulder accommodation, pushing the clavicle upward against the first rib or creating shoulder pressure points that trigger unconscious overhead arm reaching. The ideal surface limits shoulder sinkage to approximately 1.5 to 2 inches, keeping the thoracic outlet geometry open through the night.</p>
+    </div>
+    <div class="faq-item">
+      <h3>What sleeping position should I avoid with thoracic outlet syndrome?</h3>
+      <p>Arm-above-head positioning is the most harmful for all three TOS types -- it places the brachial plexus and subclavian vessels under maximum stretch across the scalene triangle and subcoracoid space. Stomach sleeping should also be avoided because it forces sustained cervical rotation and often results in the arm reaching overhead under the pillow. Sleeping directly on the affected shoulder is harmful for arterial and venous TOS, as it directly compresses the costoclavicular space. The safest positions are back sleeping with arms at the sides, and side sleeping on the unaffected shoulder.</p>
+    </div>
+    <div class="faq-item">
+      <h3>How is thoracic outlet syndrome different from cervical radiculopathy during sleep?</h3>
+      <p>Cervical radiculopathy involves compression at the nerve root level within the cervical spine, at the C5-C8 foramina. TOS involves compression of the brachial plexus further along its path, at the thoracic outlet between the clavicle and first rib. Cervical radiculopathy typically worsens with neck extension and rotation. TOS typically worsens with arm elevation and shoulder depression. Both produce arm and hand symptoms, but TOS often affects the entire hand (all five fingers) rather than the dermatomal distribution specific to a single nerve root. Mattress requirements differ: radiculopathy prioritizes cervical alignment through pillow height; TOS prioritizes costoclavicular space preservation through shoulder sinkage calibration.</p>
+    </div>
+    <div class="faq-item">
+      <h3>Should a TOS patient sleep on their affected or unaffected side?</h3>
+      <p>Sleep on the unaffected side whenever possible. Lying on the affected side compresses the shoulder directly, reducing the costoclavicular space from below and worsening all three TOS types. If bilateral TOS is present or side sleeping on either side causes symptoms, back sleeping with a low pillow and arms at the sides is safer. Place a body pillow in front of you when side sleeping to reduce the tendency to rotate toward the affected side during the night and to support the upper (affected) arm in a neutral position.</p>
+    </div>
+    <div class="faq-item">
+      <h3>Does pillow height matter for thoracic outlet syndrome?</h3>
+      <p>Yes -- significantly. An overly thick pillow forces the cervical spine into lateral flexion, stretching the scalene muscles on the opposite side and narrowing the scalene triangle on the pillow side. An overly thin pillow allows the head to drop, compressing the anterior scalene against the first rib inferiorly. The correct pillow height fills the gap between the ear and the mattress exactly, keeping the cervical spine parallel to the mattress surface. For most side sleepers this is a 4 to 6 inch loft pillow depending on shoulder width; for back sleepers, 3 to 4 inches. The mattress shoulder sinkage and pillow height must be evaluated together -- a mattress that sinks 2 inches under the shoulder requires a pillow 2 inches thicker than the same pillow on a firm surface.</p>
+    </div>
+  </div>
+
+  <!-- Related Guides -->
+  <div class="related-guides">
+    <h3>Related Health Condition Guides</h3>
+    <ul>
+      <li><a href="best-mattress-cervical-radiculopathy.html">Best Mattress for Cervical Radiculopathy</a> -- nerve root compression at C5-C8 and its distinct cervical alignment requirements</li>
+      <li><a href="best-mattress-shoulder-labral-tear.html">Best Mattress for Shoulder Labral Tear</a> -- glenohumeral instability and the positions that stress a torn labrum during sleep</li>
+      <li><a href="best-mattress-nerve-impingement.html">Best Mattress for Nerve Impingement</a> -- broad guide covering peripheral nerve compression from cervical to lumbar</li>
+      <li><a href="best-mattress-shoulder-pain.html">Best Mattress for Shoulder Pain</a> -- general shoulder pain guide covering rotator cuff, bursitis, and impingement</li>
+      <li><a href="best-mattress-carpal-tunnel-syndrome.html">Best Mattress for Carpal Tunnel Syndrome</a> -- distal median nerve entrapment and how wrist positioning during sleep affects symptoms</li>
+    </ul>
+  </div>
+
+  <!-- Final Verdict -->
+  <div class="final-verdict" id="verdict">
+    <h2>Final Verdict</h2>
+    <p>The <strong>Saatva Classic Luxury Firm</strong> leads for thoracic outlet syndrome because its construction addresses the core sleep challenge from both directions. The Euro pillow top allows enough shoulder sinkage to prevent upward clavicle displacement while the dual coil base prevents excessive sinkage that collapses the costoclavicular space. The 365-night trial and lifetime warranty are matched in value by no other hybrid at this price point -- and a chronic neurovascular condition like TOS requires long evaluation windows, not 90-day trials.</p>
+    <p>For side sleepers specifically, the <strong>Helix Midnight Luxe</strong> is the stronger choice -- its pre-calibrated shoulder zone removes the guesswork. For back sleepers prioritizing budget, the <strong>Nectar Premier</strong> delivers adequate costoclavicular space management at a significantly lower price, with an equally long 365-night trial. For arterial or venous TOS patients who must maintain strict back sleeping and avoid any shoulder compression, the <strong>Brooklyn Bedding Aurora Luxe Firm</strong> is the correct choice. And for patients who want a natural material that passively resists overhead arm drift through latex buoyancy, the <strong>Birch Natural</strong> is the standout option.</p>
+    <p>Whichever mattress you choose: pair it with a pillow matched to your shoulder width, sleep on the unaffected side or on your back, and use a body pillow in front to prevent rolling onto the affected shoulder. These positional interventions compound the mattress improvement. The mattress sets the foundation; the pillow and position management complete it.</p>
+  </div>
+
+</div>
+
+<footer class="site-footer">
+  <p><a href="/">SleepWise Reviews</a> &mdash; <a href="/posts/">All Articles</a></p>
+  <p style="margin-top:0.5rem;">Affiliate disclosure: We earn a commission on qualifying purchases at no extra cost to you.</p>
+</footer>
+
+</body>
+</html>'''
+
+output_path = 'O:/MyFiles/Projects/SleepReviewes/posts/best-mattress-thoracic-outlet-syndrome.html'
+with open(output_path, 'w', encoding='utf-8') as f:
+    f.write(html)
+
+size = __import__('os').path.getsize(output_path)
+print(f'Written: {output_path}')
+print(f'Size: {size:,} bytes')

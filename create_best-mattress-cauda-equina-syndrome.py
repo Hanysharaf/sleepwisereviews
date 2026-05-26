@@ -1,0 +1,468 @@
+import os
+
+html = """<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Best Mattress for Cauda Equina Syndrome 2026 &mdash; 7 Picks for CES Recovery, Pressure Injury Prevention &amp; Post-Decompression Sleep | SleepWise Reviews</title>
+<meta name="description" content="7 mattresses for Cauda Equina Syndrome (CES) -- sacral/perineal pressure relief for saddle anesthesia, easy egress for bowel/bladder dysfunction, log-roll support for post-decompression recovery. Clinical CES guide included.">
+<link rel="canonical" href="https://sleepwisereviews.com/posts/best-mattress-cauda-equina-syndrome.html">
+<meta property="og:title" content="Best Mattress for Cauda Equina Syndrome 2026 &mdash; 7 Picks for CES Recovery, Pressure Relief &amp; Post-Decompression Sleep">
+<meta property="og:description" content="7 mattresses for CES -- sacral/perineal pressure injury prevention for saddle anesthesia, easy egress for bowel/bladder dysfunction, log-roll support for post-surgical recovery.">
+<meta property="og:url" content="https://sleepwisereviews.com/posts/best-mattress-cauda-equina-syndrome.html">
+<meta property="og:type" content="article">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Best Mattress for Cauda Equina Syndrome 2026 -- 7 CES Picks">
+<meta name="twitter:description" content="7 mattresses for CES -- sacral pressure injury prevention, easy egress for bowel/bladder dysfunction, post-decompression log-roll support. Full clinical guide inside.">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "headline": "Best Mattress for Cauda Equina Syndrome 2026 -- 7 Picks for CES Recovery, Pressure Injury Prevention and Post-Decompression Sleep",
+      "description": "7 mattresses for Cauda Equina Syndrome covering sacral/perineal pressure injury prevention for saddle anesthesia, easy egress for bowel and bladder dysfunction, log-roll support for post-decompression recovery, and long-term care for incomplete CES with persistent neurological deficits.",
+      "url": "https://sleepwisereviews.com/posts/best-mattress-cauda-equina-syndrome.html",
+      "datePublished": "2026-05-26",
+      "dateModified": "2026-05-26",
+      "author": {"@type": "Organization", "name": "SleepWise Reviews"},
+      "publisher": {"@type": "Organization", "name": "SleepWise Reviews", "url": "https://sleepwisereviews.com"}
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://sleepwisereviews.com"},
+        {"@type": "ListItem", "position": 2, "name": "Health Conditions", "item": "https://sleepwisereviews.com/posts/index.html"},
+        {"@type": "ListItem", "position": 3, "name": "Best Mattress for Cauda Equina Syndrome", "item": "https://sleepwisereviews.com/posts/best-mattress-cauda-equina-syndrome.html"}
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "name": "Best Mattresses for Cauda Equina Syndrome 2026",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Alternating Pressure Mattress (Drive Medical) -- Best Pressure Injury Prevention", "url": "https://www.amazon.com/s?k=Drive+Medical+alternating+pressure+mattress&tag=sleepwiserevi-20"},
+        {"@type": "ListItem", "position": 2, "name": "Saatva Classic Plush Soft -- Best Easy Egress", "url": "https://www.amazon.com/s?k=Saatva+Classic+Plush+mattress&tag=sleepwiserevi-20"},
+        {"@type": "ListItem", "position": 3, "name": "Tempur-Pedic TEMPUR-ProAdapt Medium -- Best Log-Roll Support", "url": "https://www.amazon.com/s?k=Tempur-Pedic+TEMPUR-ProAdapt+Medium+mattress&tag=sleepwiserevi-20"},
+        {"@type": "ListItem", "position": 4, "name": "Purple Restore Hybrid Soft -- Best for Incomplete CES with Leg Weakness", "url": "https://www.amazon.com/s?k=Purple+Restore+Hybrid+Soft+mattress&tag=sleepwiserevi-20"},
+        {"@type": "ListItem", "position": 5, "name": "Avocado Green Mattress -- Best Latex", "url": "https://www.amazon.com/s?k=Avocado+Green+Mattress&tag=sleepwiserevi-20"},
+        {"@type": "ListItem", "position": 6, "name": "Saatva Adjustable Base + Classic -- Best Adjustable Base Compatible", "url": "https://www.amazon.com/s?k=Saatva+adjustable+base+mattress&tag=sleepwiserevi-20"},
+        {"@type": "ListItem", "position": 7, "name": "Nectar Premier Mattress -- Best Budget", "url": "https://www.amazon.com/s?k=Nectar+Premier+mattress&tag=sleepwiserevi-20"}
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Why is saddle anesthesia from CES a mattress safety issue, not just a comfort issue?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Saddle anesthesia is the loss of sensation in the perineum, inner thighs, and buttocks -- the anatomical region that contacts a saddle. In Cauda Equina Syndrome, compression of S2-S4 nerve roots eliminates sensation to these areas. Sensation is the body's alarm system for pressure injury: healthy individuals feel discomfort and reposition before tissue ischemia develops. With saddle anesthesia, no warning signal reaches the brain. Sustained pressure above 32 mmHg -- the capillary closing threshold -- can cause Stage II to Stage IV pressure injuries at the sacrum, coccyx, and perineum before the patient has any awareness. For CES patients with saddle anesthesia, pressure injury prevention at these anatomical zones is not a comfort preference -- it is a mandatory medical requirement. A mattress that does not redistribute pressure below the capillary closing threshold at these sites creates objective injury risk during every sleep period."}
+        },
+        {
+          "@type": "Question",
+          "name": "What is the log-roll technique and why does it require a specific mattress surface?",
+          "acceptedAnswer": {"@type": "Answer", "text": "The log-roll technique is the post-spinal-surgery repositioning method that maintains spinal alignment by turning the entire body as a unit -- no twisting, no forward flexion, no rotation at the surgical segment. It is standard protocol after lumbar decompression (the surgery for Cauda Equina Syndrome) during the early recovery period. For a patient executing a log-roll, the mattress must not create a gravitational sink that resists the rolling motion. Deep sinking memory foam or soft foam surfaces create a body-shaped depression that opposes rolling -- the patient must generate more force to roll out of the indentation, which risks torque at the surgical level. A medium-firm responsive surface -- latex or a zoned hybrid -- allows the body to roll freely across the surface without the mattress impeding the movement. The mattress also should not be so high that the log-roll exit requires a difficult lowering maneuver."}
+        },
+        {
+          "@type": "Question",
+          "name": "How does bowel and bladder dysfunction from CES affect mattress and bedroom setup?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Cauda Equina Syndrome damages the S2-S4 nerve roots that control the bladder detrusor muscle and the external urethral and anal sphincters. The result is a variable combination of urinary retention, overflow incontinence, reduced or absent bladder sensation, and bowel dysfunction ranging from constipation to incontinence. Many CES patients use intermittent catheterization or have an indwelling catheter during the recovery period. For sleep, this translates to several practical requirements: nocturia (multiple nighttime urinations) makes quick, safe bed exit essential -- a firm edge and ideal bed height (approximately knee height) reduce the work of standing; incontinence protection under the mattress surface (waterproof mattress protector, medical-grade cover) is necessary; catheter tubing management requires freedom of movement during repositioning. A mattress with excellent edge support, appropriate height, and an easily removable waterproof cover addresses all three clinically."}
+        },
+        {
+          "@type": "Question",
+          "name": "Is Cauda Equina Syndrome the same as spinal cord injury or lumbar radiculopathy for mattress purposes?",
+          "acceptedAnswer": {"@type": "Answer", "text": "No -- these are distinct conditions with different neurological mechanisms and different mattress requirements. Spinal cord injury above L1 produces an Upper Motor Neuron syndrome: spasticity, hyperreflexia, and preserved reflex arcs below the injury. CES is a Lower Motor Neuron syndrome (injury at or below L1-L2 conus): flaccid paralysis, areflexia, and autonomic dysfunction affecting bladder/bowel. The mattress implications differ: SCI patients often have spasticity requiring a firmer surface to prevent uncontrolled movement; CES patients have flaccidity and weakness requiring a responsive surface for repositioning. Lumbar radiculopathy involves a single nerve root (L4, L5, or S1 typically) with unilateral leg pain but intact bowel/bladder -- the mattress priority is lumbar support and pressure relief at the hip, not perineal pressure injury prevention. CES is distinguished by its bilateral presentation, saddle anesthesia, and bowel/bladder involvement."}
+        },
+        {
+          "@type": "Question",
+          "name": "What makes a mattress suitable for long-term incomplete CES with permanent neurological deficits?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Incomplete CES means surgical decompression occurred but neurological recovery was partial -- some degree of saddle anesthesia, bowel/bladder dysfunction, and leg weakness persists permanently. For long-term use, the mattress must address three permanent requirements simultaneously: (1) pressure injury prevention at the sacrum, coccyx, and perineum for the duration of the patient's life -- a medium-soft surface with documented low interface pressure at bony prominences, ideally verified by pressure mapping; (2) repositioning support for legs with persistent weakness -- a responsive surface (latex or open-cell hybrid foam) that does not create a trapped sinking sensation; (3) durability under prolonged daily use without loss of pressure-redistribution properties -- memory foam loses 10-15% of its ILD (indentation load deflection) within 5 years; natural latex and quality hybrids maintain their properties significantly longer. Pressure mapping by a certified wound care nurse or physical therapist is the gold standard for selecting the correct mattress for a specific patient's pressure profile."}
+        }
+      ]
+    }
+  ]
+}
+</script>
+<style>
+:root{--bg:#0a1628;--card:#111e33;--gold:#c9a84c;--text:#e2e8f0;--muted:#94a3b8;--border:#1e3a5f}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:'Segoe UI',sans-serif;line-height:1.7}
+header{background:linear-gradient(135deg,#0a1628 0%,#111e33 100%);border-bottom:2px solid var(--gold);padding:1rem 1.25rem;display:flex;align-items:center;justify-content:space-between}
+header a{color:var(--gold);text-decoration:none;font-weight:700;font-size:1.2rem}
+nav a{color:var(--muted);text-decoration:none;margin-left:1.5rem;font-size:.9rem}
+nav a:hover{color:var(--gold)}
+.hero{max-width:860px;margin:2.5rem auto;padding:0 1.25rem}
+.cat-badge{background:#dc2626;color:#fff;font-size:.72rem;font-weight:700;padding:.25rem .65rem;border-radius:4px;text-transform:uppercase;letter-spacing:.05em}
+h1{font-size:2rem;font-weight:800;margin:.75rem 0 .5rem;color:#fff;line-height:1.25}
+.subtitle{color:var(--muted);font-size:1rem;margin-bottom:1.5rem}
+.toc{background:var(--card);border:1px solid var(--border);border-radius:8px;padding:1.25rem 1.5rem;margin-bottom:2rem}
+.toc h2{font-size:.85rem;text-transform:uppercase;letter-spacing:.08em;color:var(--gold);margin-bottom:.75rem}
+.toc ol{padding-left:1.25rem}
+.toc li{margin:.3rem 0;font-size:.9rem}
+.toc a{color:var(--muted);text-decoration:none}
+.toc a:hover{color:var(--gold)}
+.picks{max-width:860px;margin:0 auto;padding:0 1.25rem}
+.pick-card{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:1.75rem;margin-bottom:1.5rem;position:relative}
+.pick-num{position:absolute;top:1.25rem;right:1.25rem;background:var(--gold);color:#0a1628;font-weight:800;font-size:.8rem;padding:.2rem .55rem;border-radius:20px}
+.pick-badge{font-size:.7rem;font-weight:700;padding:.2rem .5rem;border-radius:4px;text-transform:uppercase;letter-spacing:.05em;margin-bottom:.5rem;display:inline-block}
+.badge-pressure{background:#dc262622;color:#f87171;border:1px solid #dc2626}
+.badge-egress{background:#0e4f8a22;color:#60a5fa;border:1px solid #0e4f8a}
+.badge-logroll{background:#7c3aed22;color:#a78bfa;border:1px solid #7c3aed}
+.badge-incomplete{background:#0891b222;color:#22d3ee;border:1px solid #0891b2}
+.badge-latex{background:#65a30d22;color:#a3e635;border:1px solid #65a30d}
+.badge-adjust{background:#c9a84c22;color:var(--gold);border:1px solid var(--gold)}
+.badge-value{background:#92400e22;color:#fbbf24;border:1px solid #92400e}
+.pick-name{font-size:1.2rem;font-weight:700;color:#fff;margin:.25rem 0 .6rem}
+.pick-why{font-size:.95rem;color:var(--text);margin-bottom:1rem}
+.specs{display:flex;gap:.75rem;flex-wrap:wrap;margin-bottom:1rem}
+.spec{background:#0a1628;border:1px solid var(--border);border-radius:6px;padding:.3rem .75rem;font-size:.8rem;color:var(--muted)}
+.spec strong{color:var(--text)}
+.pick-link{display:inline-block;background:var(--gold);color:#0a1628;font-weight:700;font-size:.85rem;padding:.55rem 1.25rem;border-radius:6px;text-decoration:none}
+.pick-link:hover{opacity:.9}
+.science-box{background:linear-gradient(135deg,#0e1f3a,#111e33);border-left:4px solid var(--gold);border-radius:0 8px 8px 0;padding:1.25rem 1.5rem;margin:2rem 0}
+.science-box h3{color:var(--gold);font-size:.85rem;text-transform:uppercase;letter-spacing:.08em;margin-bottom:.5rem}
+.section-block{max-width:860px;margin:2.5rem auto;padding:0 1.25rem}
+.section-block h2{font-size:1.3rem;font-weight:700;color:#fff;margin-bottom:1.25rem;padding-bottom:.5rem;border-bottom:1px solid var(--border)}
+.grid-4{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:1rem;margin-bottom:1.5rem}
+.grid-card{background:var(--card);border:1px solid var(--border);border-radius:8px;padding:1.1rem}
+.grid-card h4{font-size:.9rem;font-weight:700;color:var(--gold);margin-bottom:.4rem}
+.grid-card p{font-size:.82rem;color:var(--muted);line-height:1.5}
+table{width:100%;border-collapse:collapse;font-size:.88rem;margin-bottom:1.5rem}
+th{background:#0e2040;color:var(--gold);padding:.65rem .85rem;text-align:left;font-weight:600;border-bottom:2px solid var(--border)}
+td{padding:.6rem .85rem;border-bottom:1px solid var(--border);color:var(--text)}
+tr:hover td{background:#111e33}
+.warning-box{background:#0a1628;border:1px solid #0891b2;border-radius:8px;padding:1.1rem 1.25rem;margin:1.5rem 0}
+.warning-box h4{color:#22d3ee;font-size:.85rem;text-transform:uppercase;letter-spacing:.06em;margin-bottom:.4rem}
+.warning-box p{font-size:.88rem;color:var(--text)}
+footer{background:#060e1a;border-top:1px solid var(--border);padding:2rem 1.25rem;text-align:center;color:var(--muted);font-size:.82rem;margin-top:3rem}
+footer a{color:var(--gold);text-decoration:none}
+@media(max-width:600px){h1{font-size:1.5rem}.grid-4{grid-template-columns:1fr 1fr}}
+</style>
+</head>
+<body>
+<header>
+  <a href="/">SleepWise Reviews</a>
+  <nav>
+    <a href="/posts/index.html">All Reviews</a>
+    <a href="/pages/about.html">About</a>
+  </nav>
+</header>
+
+<div class="hero">
+  <span class="cat-badge">Health</span>
+  <h1>Best Mattress for Cauda Equina Syndrome 2026 &mdash; 7 Picks for CES Recovery, Pressure Injury Prevention &amp; Post-Decompression Sleep</h1>
+  <p class="subtitle">Cauda Equina Syndrome creates specific sleep hazards that standard mattress guides miss entirely: saddle anesthesia eliminates the body&rsquo;s pressure alarm at the sacrum and perineum; bowel and bladder dysfunction demands fast, safe bed exit; post-decompression log-roll precautions restrict how you can reposition. This guide addresses each one with clinical detail and specific product recommendations.</p>
+
+  <div class="toc">
+    <h2>Quick Navigation</h2>
+    <ol>
+      <li><a href="#picks">Top 7 Mattress Picks for CES</a></li>
+      <li><a href="#science">CES Pathophysiology &mdash; Why It&rsquo;s Different from Spinal Cord Injury</a></li>
+      <li><a href="#saddle">Saddle Anesthesia &amp; Pressure Injury Risk</a></li>
+      <li><a href="#egress">Easy Egress Guide &mdash; Bowel &amp; Bladder Dysfunction</a></li>
+      <li><a href="#logroll">Log-Roll Technique &amp; Mattress Requirements</a></li>
+      <li><a href="#longterm">Long-Term CES &mdash; Permanent Deficit Management</a></li>
+      <li><a href="#faq">FAQ</a></li>
+    </ol>
+  </div>
+</div>
+
+<div class="picks" id="picks">
+
+  <div class="pick-card">
+    <span class="pick-num">#1</span>
+    <span class="pick-badge badge-pressure">Best Pressure Injury Prevention</span>
+    <div class="pick-name">Drive Medical Alternating Pressure Mattress Pad</div>
+    <p class="pick-why">Cauda Equina Syndrome damages the S2&ndash;S4 nerve roots that carry sensation from the saddle area &mdash; the perineum, inner thighs, buttocks, and sacral skin. This produces saddle anesthesia: the patient cannot feel pressure, contact, or the discomfort that would normally trigger repositioning during sleep. Healthy individuals unconsciously shift position dozens of times per night in response to pressure signals. A CES patient with complete saddle anesthesia receives none of these signals. Sustained pressure above 32 mmHg &mdash; the capillary closing threshold &mdash; at the sacrum, coccyx, or perineum can cause Stage II to Stage IV pressure injuries before the patient has any awareness of a problem. The Drive Medical alternating pressure overlay cycles air cells every 5&ndash;10 minutes, ensuring no skin zone sustains pressure above the capillary closing threshold long enough to initiate tissue ischemia. For acute post-surgical CES patients with saddle anesthesia and limited mobility, this is the medically indicated home sleep surface &mdash; not a comfort upgrade.</p>
+    <div class="specs">
+      <div class="spec"><strong>Type:</strong> Alternating Pressure Overlay</div>
+      <div class="spec"><strong>Cycle Time:</strong> 5&ndash;10 minutes</div>
+      <div class="spec"><strong>Interface Pressure:</strong> &lt;32 mmHg</div>
+      <div class="spec"><strong>Weight Limit:</strong> 250 lb (standard)</div>
+      <div class="spec"><strong>Best for:</strong> Saddle anesthesia / sacral pressure injury prevention</div>
+    </div>
+    <a class="pick-link" href="https://www.amazon.com/s?k=Drive+Medical+alternating+pressure+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+  </div>
+
+  <div class="pick-card">
+    <span class="pick-num">#2</span>
+    <span class="pick-badge badge-egress">Best Easy Egress</span>
+    <div class="pick-name">Saatva Classic Plush Soft</div>
+    <p class="pick-why">Cauda Equina Syndrome disrupts S2&ndash;S4 control of the bladder detrusor and external sphincters, producing a combination of urinary retention, overflow incontinence, impaired bladder sensation, and bowel dysfunction. The practical consequence for sleep is nocturia &mdash; multiple nighttime awakenings requiring urgent or scheduled catheterization, bathroom trips, or bowel management. Each trip requires a safe, fast transfer from the mattress to standing. The Saatva Classic in Plush Soft configuration combines two features that matter clinically: edge support and height. The foam-encased perimeter maintains a firm, stable edge that does not collapse under body weight during a seated pivot &mdash; the position most at risk for falls during post-surgical nocturnal transfers. The 14.5&Prime; height brings the sleeping surface to approximately knee height for most adults, reducing the hip and knee flexion force required to stand from the edge. The Euro pillow top provides pressure distribution at the sacrum during the sleep period while the firm perimeter ensures the egress edge does not compromise that distribution. Patients using indwelling catheters also benefit from the stable edge for tube management during repositioning.</p>
+    <div class="specs">
+      <div class="spec"><strong>Firmness:</strong> Plush Soft (3/10)</div>
+      <div class="spec"><strong>Type:</strong> Innerspring Hybrid</div>
+      <div class="spec"><strong>Height:</strong> 14.5&Prime; or 11.5&Prime;</div>
+      <div class="spec"><strong>Edge Support:</strong> Foam-encased perimeter</div>
+      <div class="spec"><strong>Best for:</strong> Nocturia, catheter users, bowel/bladder dysfunction</div>
+    </div>
+    <a class="pick-link" href="https://www.amazon.com/s?k=Saatva+Classic+Plush+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+  </div>
+
+  <div class="pick-card">
+    <span class="pick-num">#3</span>
+    <span class="pick-badge badge-logroll">Best Log-Roll Support</span>
+    <div class="pick-name">Tempur-Pedic TEMPUR-ProAdapt Medium</div>
+    <p class="pick-why">Post-decompression surgery for Cauda Equina Syndrome requires log-roll repositioning during the early recovery period: no spinal flexion, no rotation at the surgical segment, the entire body turns as a single unit. The log-roll is not a difficult maneuver &mdash; but it requires a mattress surface that does not actively resist it. Deep-sinking memory foam creates a body-shaped depression during supine sleep; to initiate a log-roll from inside that depression, the patient must generate upward force to escape the sinking before lateral rotation is possible. This is exactly the type of effort that risks torque at a freshly decompressed surgical segment. The TEMPUR-ProAdapt Medium uses TEMPUR-APR+ material calibrated to distribute pressure broadly without creating the deep sinking characteristic of lower-density foam. The medium firmness provides enough surface resistance to support the rolling motion while the TEMPUR material absorbs the movement without transmitting it to the spine. The result is a surface you roll across, not out of. The consistent response across the mattress surface also eliminates the variable resistance that can cause mid-roll positional corrections.</p>
+    <div class="specs">
+      <div class="spec"><strong>Firmness:</strong> Medium (5/10)</div>
+      <div class="spec"><strong>Type:</strong> All-foam (TEMPUR-APR+)</div>
+      <div class="spec"><strong>Height:</strong> 12&Prime;</div>
+      <div class="spec"><strong>Log-Roll:</strong> No deep sink / responsive surface</div>
+      <div class="spec"><strong>Best for:</strong> Early post-decompression, log-roll precautions</div>
+    </div>
+    <a class="pick-link" href="https://www.amazon.com/s?k=Tempur-Pedic+TEMPUR-ProAdapt+Medium+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+  </div>
+
+  <div class="pick-card">
+    <span class="pick-num">#4</span>
+    <span class="pick-badge badge-incomplete">Best for Incomplete CES with Leg Weakness</span>
+    <div class="pick-name">Purple Restore Hybrid Soft</div>
+    <p class="pick-why">Incomplete Cauda Equina Syndrome means decompression surgery occurred but neurological recovery was partial: some degree of motor deficit persists in the lower extremities. The lumbosacral nerve roots supplying the hip flexors, knee extensors, ankle dorsiflexors, and intrinsic foot muscles may recover unevenly or incompletely. The practical sleep consequence is impaired ability to self-reposition: a patient who cannot fully dorsiflex the foot cannot push off the mattress surface reliably; hip flexor weakness affects the ability to draw the knee up for a side-lying transition. A mattress that actively resists repositioning effort exacerbates this limitation. The Purple GelFlex Grid is a polymer column matrix that collapses instantly under vertical load (pressure relief) but provides lateral support as the body moves across the surface (repositioning assist). This dual behaviour &mdash; soft on compression, responsive on lateral movement &mdash; is clinically distinct from memory foam (soft on compression, resistant on lateral movement) and from firm foam (resistant on both). For a patient with partial lower extremity weakness, a surface that responds to repositioning effort rather than resisting it reduces the muscular demand required to turn during sleep.</p>
+    <div class="specs">
+      <div class="spec"><strong>Firmness:</strong> Soft (3/10)</div>
+      <div class="spec"><strong>Type:</strong> Hybrid (Grid + Pocketed Coils)</div>
+      <div class="spec"><strong>Height:</strong> 13&Prime;</div>
+      <div class="spec"><strong>Grid:</strong> Responsive under lateral movement</div>
+      <div class="spec"><strong>Best for:</strong> Incomplete CES, lower extremity weakness, repositioning</div>
+    </div>
+    <a class="pick-link" href="https://www.amazon.com/s?k=Purple+Restore+Hybrid+Soft+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+  </div>
+
+  <div class="pick-card">
+    <span class="pick-num">#5</span>
+    <span class="pick-badge badge-latex">Best Latex</span>
+    <div class="pick-name">Avocado Green Mattress</div>
+    <p class="pick-why">Natural latex is the preferred long-term surface material for CES patients with persistent neurological deficits because it combines three clinically relevant properties at once: pressure redistribution, repositioning responsiveness, and longevity. On pressure redistribution: Dunlop latex at medium-soft firmness produces interface pressures at the sacrum and ischial tuberosities comparable to foam mattresses rated for pressure management, without the off-gassing that synthetic foam products generate during their first weeks. On repositioning: latex is inherently buoyant &mdash; it compresses under load but rebounds immediately, unlike viscoelastic memory foam that retains its shape for several seconds. This immediate rebound assists the repositioning motion rather than trapping the body in the previous position. On longevity: memory foam loses 10&ndash;15% of its load-deflection value within 5 years of regular use; natural latex maintains its mechanical properties significantly longer, making it more cost-effective for patients who need consistent pressure management over years or decades. The GOTS-certified cotton cover is smooth, flat-woven, and breathable &mdash; avoiding the textured covers that can irritate areas with recovering or residual sensory changes from incomplete nerve root recovery.</p>
+    <div class="specs">
+      <div class="spec"><strong>Firmness:</strong> Medium (5.5/10)</div>
+      <div class="spec"><strong>Type:</strong> Natural Latex Hybrid</div>
+      <div class="spec"><strong>Height:</strong> 11&Prime;</div>
+      <div class="spec"><strong>Cover:</strong> GOTS organic cotton (smooth)</div>
+      <div class="spec"><strong>Best for:</strong> Long-term CES, durable pressure management</div>
+    </div>
+    <a class="pick-link" href="https://www.amazon.com/s?k=Avocado+Green+Mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+  </div>
+
+  <div class="pick-card">
+    <span class="pick-num">#6</span>
+    <span class="pick-badge badge-adjust">Best Adjustable Base Compatible</span>
+    <div class="pick-name">Saatva Adjustable Base Plus + Classic Hybrid</div>
+    <p class="pick-why">CES patients recovering from decompression surgery benefit from an adjustable base for two independent reasons. First, position management: mild head elevation (15&ndash;30 degrees) reduces lumbar nerve root tension in the early post-operative period compared to fully flat positioning; foot elevation reduces lower extremity oedema that can develop from the impaired venous return associated with neurogenic leg weakness. Second, transfer assistance: zero-gravity and anti-snore preset positions change the angle of the sleeping surface to reduce the effort required for bed exit. The Saatva Adjustable Base Plus adds a full-body massage function that can address the muscle spasm and cramping common in the early CES recovery period. The companion Saatva Classic Hybrid uses individually pocketed coils that articulate at the base fold points without structural deformation &mdash; the mattress compatibility requirement for adjustable base use. The foam-encased perimeter maintains a firm exit edge at all base angles, which is essential when nocturia requires multiple nighttime transfers at unusual bed angles. Wireless remote and under-bed lighting are practical additions for patients navigating a darkened room with leg weakness.</p>
+    <div class="specs">
+      <div class="spec"><strong>Base:</strong> Saatva Adjustable Base Plus</div>
+      <div class="spec"><strong>Mattress:</strong> Saatva Classic Hybrid</div>
+      <div class="spec"><strong>Adjustable Base:</strong> Zero-gravity, anti-snore presets</div>
+      <div class="spec"><strong>Massage:</strong> Full-body wave and zone</div>
+      <div class="spec"><strong>Best for:</strong> Position management + transfer assistance</div>
+    </div>
+    <a class="pick-link" href="https://www.amazon.com/s?k=Saatva+adjustable+base+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+  </div>
+
+  <div class="pick-card">
+    <span class="pick-num">#7</span>
+    <span class="pick-badge badge-value">Best Budget</span>
+    <div class="pick-name">Nectar Premier</div>
+    <p class="pick-why">Cauda Equina Syndrome treatment &mdash; emergency decompression surgery, inpatient rehabilitation, physical therapy, and ongoing bladder/bowel management &mdash; accumulates substantial out-of-pocket costs. The Nectar Premier delivers gel-infused memory foam, a quilted cooling cover, and a pocketed coil base at a price point accessible to patients already managing significant medical costs. The gel memory foam provides adequate pressure redistribution at the sacrum and ischial tuberosities for CES patients who have partial sensation recovery and can reposition independently (the population for whom an alternating pressure overlay is no longer required). The pocketed coil base delivers motion isolation appropriate for patients sharing a bed with a partner, and the firm coil support prevents the excessive sinking that would impede log-roll technique in early recovery patients who do not require a premium surface. The 365-night trial is the industry&rsquo;s longest &mdash; particularly valuable for CES patients whose recovery trajectory is uncertain. Edge support is adequate for safe nocturnal transfers. A waterproof mattress protector (essential for any CES patient with bowel or bladder dysfunction) pairs without difficulty.</p>
+    <div class="specs">
+      <div class="spec"><strong>Firmness:</strong> Medium-Soft (4.5/10)</div>
+      <div class="spec"><strong>Type:</strong> Hybrid (gel foam + pocketed coils)</div>
+      <div class="spec"><strong>Height:</strong> 13&Prime;</div>
+      <div class="spec"><strong>Trial:</strong> 365 nights</div>
+      <div class="spec"><strong>Best for:</strong> Budget-conscious CES recovery, partial sensation</div>
+    </div>
+    <a class="pick-link" href="https://www.amazon.com/s?k=Nectar+Premier+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+  </div>
+
+</div>
+
+<div class="section-block" id="science">
+  <div class="science-box">
+    <h3>CES Pathophysiology &mdash; Why It Is Clinically Distinct from Spinal Cord Injury</h3>
+    <p>The spinal cord ends at the L1&ndash;L2 vertebral level in adults, where it tapers into the conus medullaris. Below this point, the spinal canal contains only the nerve roots of the cauda equina &mdash; the Latin term for &ldquo;horse&rsquo;s tail&rdquo; &mdash; a bundle of lumbosacral roots (L2 through S5) descending to their respective exit foramina. Cauda Equina Syndrome occurs when these nerve roots are compressed simultaneously, typically by a large central disc herniation, spinal stenosis, tumour, haematoma, or fracture at the lumbar level.</p>
+    <p style="margin-top:.75rem">Because the cauda equina consists of peripheral nerve roots (not spinal cord tissue), CES produces a Lower Motor Neuron syndrome: flaccid paralysis, absent or reduced reflexes, and autonomic dysfunction affecting bladder, bowel, and sexual function. This is neurologically opposite to cervical or thoracic spinal cord injury, which produces an Upper Motor Neuron syndrome with spasticity and hyperreflexia. The distinction is clinically important for mattress selection: SCI patients may need firmer surfaces to manage spasticity; CES patients need responsive surfaces that accommodate flaccid weakness and impaired proprioception.</p>
+    <p style="margin-top:.75rem">The hallmark of CES is <strong>saddle anesthesia</strong>: loss of sensation in the perineum, inner thighs, buttocks, and perianal region corresponding to the S2&ndash;S4 dermatomes. Combined with bilateral leg weakness (from L2&ndash;S1 root compression) and sphincter dysfunction (S2&ndash;S4), this produces the three clinical features that define mattress requirements: inability to feel pressure injury developing at the sacrum and perineum; difficulty repositioning due to leg weakness; and urgent nighttime transfers due to bowel and bladder dysfunction.</p>
+    <p style="margin-top:.75rem">CES is a surgical emergency: outcomes are significantly better when decompression occurs within 24&ndash;48 hours of symptom onset. Even after successful decompression, recovery of saddle sensation and sphincter function is incomplete in approximately 30&ndash;50% of patients, making long-term pressure management and bowel/bladder support permanent requirements rather than temporary accommodations.</p>
+  </div>
+</div>
+
+<div class="section-block" id="saddle">
+  <h2>Saddle Anesthesia &amp; Pressure Injury Risk</h2>
+  <div class="warning-box">
+    <h4>Critical Safety Note</h4>
+    <p>Saddle anesthesia eliminates the body&rsquo;s primary pressure alarm at the sacrum, coccyx, and perineum. Pressure injuries in these areas develop silently. For CES patients with incomplete sensation, every sleep period without pressure management is an injury risk period.</p>
+  </div>
+  <div class="grid-4">
+    <div class="grid-card">
+      <h4>Why 32 mmHg is the Threshold</h4>
+      <p>32 mmHg is the mean capillary closing pressure &mdash; the point at which external surface pressure occludes cutaneous blood flow. Sustained occlusion for 2 or more hours initiates tissue ischemia, leading to irreversible cell death. In the sacral and perineal area of a CES patient with saddle anesthesia, this process occurs without any pain, discomfort, or awareness. Standard mattresses apply 40&ndash;70 mmHg at the sacral bony prominence in a supine patient who is not repositioning.</p>
+    </div>
+    <div class="grid-card">
+      <h4>Sacrum, Coccyx, and Heels</h4>
+      <p>In a supine CES patient, the three highest-risk pressure points are: (1) the sacrum &mdash; directly bearing body weight at the pelvic posterior; (2) the coccyx &mdash; particularly at risk in patients who sit in bed for bowel management; (3) the heels &mdash; the highest-risk site in any supine immobile patient. Heel protectors or positioning wedges to float the heels off the mattress surface are required alongside any mattress choice for patients with saddle/leg anesthesia.</p>
+    </div>
+    <div class="grid-card">
+      <h4>When Alternating Pressure is Required</h4>
+      <p>Alternating pressure is clinically indicated when: saddle anesthesia is present AND the patient cannot independently reposition every 2 hours during sleep. Most post-surgical CES patients in the acute phase meet both criteria. As sensation returns (partial or complete recovery) and independent repositioning is established, transition to a standard pressure-redistributing consumer mattress is appropriate. Timing is individual &mdash; confirm with the treating team.</p>
+    </div>
+    <div class="grid-card">
+      <h4>Pressure Mapping</h4>
+      <p>Pressure mapping uses a sensor mat placed between the patient and the mattress to display interface pressure as a colour-coded map. It is the gold standard for confirming that a specific mattress produces safe interface pressures for a specific patient&rsquo;s body weight and anatomy. Certified wound care nurses and seating specialists can perform pressure mapping. For CES patients with permanent saddle anesthesia selecting a long-term mattress, a pressure mapping session provides objective confirmation rather than relying on manufacturer claims.</p>
+    </div>
+  </div>
+  <table>
+    <thead>
+      <tr><th>Anatomical Zone</th><th>CES Risk Level</th><th>Mechanism</th><th>Mitigation</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Sacrum</td><td>Highest</td><td>Saddle anesthesia + supine weight-bearing</td><td>Alternating pressure or low-interface-pressure mattress</td></tr>
+      <tr><td>Coccyx</td><td>High</td><td>Saddle anesthesia + seated bowel management</td><td>Pressure redistribution + coccyx cushion when sitting up</td></tr>
+      <tr><td>Perineum</td><td>High</td><td>Saddle anesthesia (S2&ndash;S4)</td><td>Alternating pressure; waterproof barrier for incontinence</td></tr>
+      <tr><td>Heels</td><td>High</td><td>Supine positioning + leg weakness</td><td>Heel protectors or positioning wedges; float heels off surface</td></tr>
+      <tr><td>Lateral malleoli</td><td>Moderate</td><td>Side-lying positioning + leg anesthesia</td><td>Foam positioning wedge between ankles; ankle protectors</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="section-block" id="egress">
+  <h2>Easy Egress Guide &mdash; Bowel &amp; Bladder Dysfunction</h2>
+  <p style="color:var(--muted);font-size:.9rem;margin-bottom:1rem;">CES bowel and bladder dysfunction is a direct consequence of S2&ndash;S4 nerve root damage. The sleeping environment must accommodate both the frequency of nighttime transfers and the physical challenge of executing them safely with lower extremity weakness.</p>
+  <div class="grid-4">
+    <div class="grid-card">
+      <h4>Nocturia and Transfer Safety</h4>
+      <p>Bladder dysfunction in CES often produces a combination of urge and overflow incontinence, reduced bladder sensation, and incomplete emptying. The result is frequent nighttime catheterization or bathroom trips. Each transfer requires: a firm edge to sit on and push from; a bed height that minimises hip and knee flexion force (approximately knee height = 18&ndash;21&Prime; from floor); and a non-slip floor surface. Falls during nighttime transfers are a leading post-surgical injury mechanism.</p>
+    </div>
+    <div class="grid-card">
+      <h4>Catheter Management</h4>
+      <p>Patients using intermittent catheterization need to sit at the bed edge with adequate leg positioning access. Patients with indwelling catheters need drainage bag management during repositioning &mdash; a process that is easier on a mattress with firm edge support that does not collapse under seated body weight. Catheter tubing can be trapped under body weight on a deeply conforming mattress; a responsive surface that does not sink excessively reduces this risk during sleep.</p>
+    </div>
+    <div class="grid-card">
+      <h4>Bowel Accident Protection</h4>
+      <p>Bowel dysfunction in CES ranges from constipation (from reduced bowel peristalsis with S2&ndash;S4 damage) to incontinence. A waterproof, breathable mattress protector is not optional for CES patients &mdash; it is a baseline requirement. Choose a protector with a fitted sheet design that does not add surface thickness or alter the pressure characteristics of the mattress. Vinyl protectors add a non-breathable heat-trapping layer; polyurethane laminate protectors (e.g., SafeRest) are waterproof without adding significant insulation.</p>
+    </div>
+    <div class="grid-card">
+      <h4>Bed Rails and Grab Points</h4>
+      <p>Half-length bed rails (positioned for the upper half of the mattress) provide a grab point for the log-roll manoeuvre and the sit-to-stand transfer without restricting full-length rolling. Free-standing bed handles that slide between the mattress and box spring provide a grab point on mattresses where rails are not compatible. For CES patients with significant leg weakness, a grab rail on the dominant hand side of the bed is a low-cost safety addition that reduces nocturnal fall risk during urgent transfers.</p>
+    </div>
+  </div>
+</div>
+
+<div class="section-block" id="logroll">
+  <h2>Log-Roll Technique &amp; Mattress Requirements</h2>
+  <div class="warning-box">
+    <h4>Post-Decompression Positioning Protocol</h4>
+    <p>After lumbar decompression surgery for CES, spinal flexion and rotation at the surgical segment are restricted during early recovery. Log-roll repositioning &mdash; the whole body turning as a single unit &mdash; maintains alignment and protects the surgical site. Mattress surface compliance directly affects whether the log-roll can be executed safely and with minimal effort.</p>
+  </div>
+  <div class="grid-4">
+    <div class="grid-card">
+      <h4>What the Log-Roll Requires</h4>
+      <p>The log-roll starts supine. The knees are drawn up (with leg weakness, this may require assisting one knee with both hands). The arms cross over the chest. The body turns as a single unit &mdash; hips, torso, and shoulders rotating simultaneously without spinal twist. The mattress must permit this motion: it cannot create a body-shaped hollow that must be escaped before lateral movement is possible.</p>
+    </div>
+    <div class="grid-card">
+      <h4>Why Deep-Sink Foam is Problematic</h4>
+      <p>Low-density memory foam and soft all-foam mattresses create a conforming depression during supine sleep. To initiate a log-roll from inside this depression, the patient must first push upward out of the hollow before rotating laterally. For a patient with leg weakness and a freshly decompressed spine, this upward push requires trunk muscle effort that risks vertebral segment load. A medium-firm responsive surface eliminates this pre-rotation obstacle.</p>
+    </div>
+    <div class="grid-card">
+      <h4>Optimal Surface Properties</h4>
+      <p>The ideal log-roll mattress is medium-firm (5&ndash;6 ILD range), immediately responsive (not slow-recovery foam), consistent across the surface (no zoning that creates different resistance at hips versus shoulders), and stable at the edge (firm perimeter so the roll can complete to side-lying without dropping off the edge). Natural latex and medium TEMPUR foam both meet these criteria; hybrid pocketed-coil mattresses with medium foam comfort layers are also appropriate.</p>
+    </div>
+    <div class="grid-card">
+      <h4>Caregiver-Assisted Log-Roll</h4>
+      <p>Early post-surgical CES patients typically require caregiver assistance for the log-roll until independent strength returns. The caregiver positions at the bed side and provides controlled rotation support at the shoulder and hip. A mattress with low motion transfer limits the caregiver&rsquo;s movements from creating additional surface oscillation that disturbs the patient&rsquo;s controlled rotation. Pocketed coil systems outperform open innerspring for motion isolation during assisted manoeuvres.</p>
+    </div>
+  </div>
+  <table>
+    <thead>
+      <tr><th>Mattress Type</th><th>Log-Roll Suitability</th><th>Reason</th><th>Recommendation</th></tr>
+    </thead>
+    <tbody>
+      <tr><td>Deep memory foam (soft)</td><td>Poor</td><td>Creates body hollow; resist lateral movement</td><td>Avoid in early post-surgical phase</td></tr>
+      <tr><td>Medium TEMPUR foam</td><td>Good</td><td>Distributes without deep sinking; responsive under roll</td><td>Recommended (#3 pick)</td></tr>
+      <tr><td>Natural latex (medium)</td><td>Excellent</td><td>Buoyant, immediately responsive, no sinking hollow</td><td>Best long-term choice</td></tr>
+      <tr><td>Hybrid pocketed coil (medium-firm)</td><td>Good</td><td>Stable, responsive surface; adequate pressure relief</td><td>Appropriate for most patients</td></tr>
+      <tr><td>Firm innerspring</td><td>Moderate</td><td>No sinking, but poor pressure relief at sacrum</td><td>Only with pressure overlay for saddle anesthesia</td></tr>
+    </tbody>
+  </table>
+</div>
+
+<div class="section-block" id="longterm">
+  <h2>Long-Term CES &mdash; Permanent Deficit Management</h2>
+  <p style="color:var(--muted);font-size:.9rem;margin-bottom:1rem;">Approximately 30&ndash;50% of CES patients have incomplete neurological recovery. Persistent saddle anesthesia, sphincter dysfunction, and leg weakness become permanent features of daily life. The mattress must meet three permanent requirements simultaneously.</p>
+  <div class="grid-4">
+    <div class="grid-card">
+      <h4>Permanent Pressure Management</h4>
+      <p>Unlike GBS where pressure management needs are phase-dependent, CES patients with permanent saddle anesthesia require consistent pressure management at the sacrum and perineum indefinitely. The mattress must maintain its pressure-redistribution properties over years. Memory foam degrades fastest; natural latex maintains ILD properties longest. For permanent deficit patients, durability and warranty length are clinical selection criteria, not just purchase considerations.</p>
+    </div>
+    <div class="grid-card">
+      <h4>Bowel Program and Sleep</h4>
+      <p>Neurogenic bowel in chronic CES typically requires a structured bowel management program: scheduled stimulation, digital evacuation, or suppositories at a fixed time. Many patients time this before sleep to minimize overnight events. The mattress setup should include: a firm edge for the transfer into and out of a commode or bathroom; waterproof protection permanently installed; and a washable mattress cover for maintenance. A consistent bowel program eliminates most overnight events when properly managed.</p>
+    </div>
+    <div class="grid-card">
+      <h4>Pain and Neurological Deficit</h4>
+      <p>Chronic incomplete CES often produces neuropathic pain from partially recovered nerve roots: burning, tingling, and hypersensitivity in the saddle distribution. Unlike the acute post-surgical phase, this is often localized rather than generalized. For sleep, the priority is minimizing direct pressure on the saddle area (sacrum, coccyx) during the hours most likely to exacerbate neuropathic sensitization. A medium-soft mattress with documented low sacral interface pressure addresses this directly.</p>
+    </div>
+    <div class="grid-card">
+      <h4>Positioning for Bladder Management</h4>
+      <p>Chronic CES bladder management often requires a fixed-time intermittent catheterization schedule, including at night. The mattress setup should include: bedside lighting that activates without full room light (to maintain sleep pressure); a stable bedside surface for catheter kit; and a non-slip floor mat from the bed to the bathroom. Adjustable base elevation can position the patient at a better angle for self-catheterization without requiring full transfers when catheterization is the only task.</p>
+    </div>
+  </div>
+</div>
+
+<section class="related-guides" style="background:#111e33;border-top:2px solid #1e3a5f;padding:2rem 1.25rem;margin-top:2rem;">
+  <div style="max-width:860px;margin:0 auto;">
+    <h2 style="color:#fff;font-size:1.1rem;font-weight:700;margin-bottom:1rem;">Related Guides</h2>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:.75rem;">
+      <a href="/posts/best-mattress-spinal-cord-injury.html" style="background:#0a1628;border:1px solid #1e3a5f;border-radius:8px;padding:.85rem 1rem;text-decoration:none;color:#e2e8f0;font-size:.88rem;">Best Mattress for Spinal Cord Injury &rarr;</a>
+      <a href="/posts/best-mattress-lumbar-radiculopathy.html" style="background:#0a1628;border:1px solid #1e3a5f;border-radius:8px;padding:.85rem 1rem;text-decoration:none;color:#e2e8f0;font-size:.88rem;">Best Mattress for Lumbar Radiculopathy &rarr;</a>
+      <a href="/posts/best-mattress-post-spinal-fusion.html" style="background:#0a1628;border:1px solid #1e3a5f;border-radius:8px;padding:.85rem 1rem;text-decoration:none;color:#e2e8f0;font-size:.88rem;">Best Mattress After Spinal Fusion &rarr;</a>
+      <a href="/posts/best-mattress-lower-back-pain.html" style="background:#0a1628;border:1px solid #1e3a5f;border-radius:8px;padding:.85rem 1rem;text-decoration:none;color:#e2e8f0;font-size:.88rem;">Best Mattress for Lower Back Pain &rarr;</a>
+      <a href="/posts/best-mattress-neuropathy.html" style="background:#0a1628;border:1px solid #1e3a5f;border-radius:8px;padding:.85rem 1rem;text-decoration:none;color:#e2e8f0;font-size:.88rem;">Best Mattress for Neuropathy &rarr;</a>
+    </div>
+  </div>
+</section>
+
+<div class="section-block" id="faq">
+  <h2>Frequently Asked Questions</h2>
+
+  <div style="margin-bottom:1.25rem">
+    <h3 style="font-size:1rem;color:#fff;margin-bottom:.4rem;">Why is saddle anesthesia from CES a mattress safety issue, not just a comfort issue?</h3>
+    <p style="color:var(--muted);font-size:.9rem;">Saddle anesthesia eliminates sensation in the perineum, inner thighs, buttocks, and sacral skin &mdash; the areas that bear the highest surface pressure during supine sleep. Healthy individuals feel discomfort and reposition before tissue ischemia develops; CES patients with saddle anesthesia receive no warning signal. Sustained pressure above 32 mmHg at the sacrum or coccyx can cause Stage II to Stage IV pressure injuries before any awareness. A mattress that does not redistribute pressure below the capillary closing threshold at these sites creates objective injury risk during every sleep period &mdash; not a comfort inconvenience.</p>
+  </div>
+
+  <div style="margin-bottom:1.25rem">
+    <h3 style="font-size:1rem;color:#fff;margin-bottom:.4rem;">What is the log-roll technique and why does it require a specific mattress surface?</h3>
+    <p style="color:var(--muted);font-size:.9rem;">The log-roll is the post-spinal-surgery repositioning method that turns the entire body as a single unit &mdash; no spinal flexion or rotation at the surgical segment. A deep-sinking mattress creates a body-shaped hollow that must be escaped before lateral movement is possible, requiring the upward trunk effort that risks torque at a freshly decompressed segment. A medium-firm responsive surface &mdash; latex or medium TEMPUR foam &mdash; allows the body to roll across the surface without trapping it. Deep memory foam, particularly in soft configurations, is specifically contraindicated in the early post-decompression phase.</p>
+  </div>
+
+  <div style="margin-bottom:1.25rem">
+    <h3 style="font-size:1rem;color:#fff;margin-bottom:.4rem;">How does bowel and bladder dysfunction from CES affect mattress and bedroom setup?</h3>
+    <p style="color:var(--muted);font-size:.9rem;">CES S2&ndash;S4 damage produces nocturia, overflow incontinence, reduced bladder sensation, and bowel dysfunction. The mattress implications are practical: firm edge support and appropriate bed height (approximately knee height) reduce nocturnal fall risk during urgent catheterization transfers; a waterproof breathable mattress protector is a baseline requirement; stable edge support allows catheter tube management during repositioning. An adjustable base that elevates the head and foot provides positioning options for self-catheterization without requiring a full transfer.</p>
+  </div>
+
+  <div style="margin-bottom:1.25rem">
+    <h3 style="font-size:1rem;color:#fff;margin-bottom:.4rem;">Is Cauda Equina Syndrome the same as spinal cord injury or lumbar radiculopathy for mattress purposes?</h3>
+    <p style="color:var(--muted);font-size:.9rem;">No. SCI above L1 produces Upper Motor Neuron syndrome: spasticity, hyperreflexia, and a firmer-surface preference to manage spastic movement. CES is Lower Motor Neuron syndrome: flaccid weakness, areflexia, and a preference for a responsive surface that accommodates impaired repositioning. Lumbar radiculopathy is a single nerve root with unilateral leg pain and intact sphincters &mdash; the mattress priority is lumbar support, not perineal pressure management. CES is distinguished by its bilateral presentation, saddle anesthesia, and sphincter dysfunction: three features that do not appear in single-root radiculopathy and that require distinct mattress features.</p>
+  </div>
+
+  <div style="margin-bottom:1.25rem">
+    <h3 style="font-size:1rem;color:#fff;margin-bottom:.4rem;">What makes a mattress suitable for long-term incomplete CES with permanent neurological deficits?</h3>
+    <p style="color:var(--muted);font-size:.9rem;">Permanent incomplete CES requires three features simultaneously and indefinitely: documented low interface pressure at the sacrum and perineum (verified by pressure mapping for the specific patient, not manufacturer claims); a responsive surface that assists repositioning for legs with persistent weakness; and long-term mechanical stability (natural latex outlasts memory foam significantly in maintaining its load-deflection properties). For permanent deficit patients, mattress durability and warranty length are clinical selection criteria. Pressure mapping by a wound care nurse or physical therapist is the gold standard confirmation before committing to a long-term surface.</p>
+  </div>
+</div>
+
+<footer>
+  <p>&copy; 2026 SleepWise Reviews &mdash; <a href="/pages/privacy.html">Privacy Policy</a> &mdash; <a href="/pages/about.html">About</a></p>
+  <p style="margin-top:.5rem;font-size:.75rem;">As an Amazon Associate we earn from qualifying purchases. Prices and availability are subject to change.</p>
+</footer>
+</body>
+</html>"""
+
+output_path = os.path.join(os.path.dirname(__file__), "posts", "best-mattress-cauda-equina-syndrome.html")
+os.makedirs(os.path.dirname(output_path), exist_ok=True)
+
+with open(output_path, "w", encoding="utf-8") as f:
+    f.write(html)
+
+size = os.path.getsize(output_path)
+print(f"Written: {output_path}")
+print(f"Size: {size:,} bytes ({size / 1024:.1f} KB)")

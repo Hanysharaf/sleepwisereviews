@@ -1,0 +1,833 @@
+import os
+
+html = '''<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Best Mattress for Bursitis 2026: 7 Picks to Reduce Hip, Shoulder &amp; Knee Bursal Pressure</title>
+<meta name="description" content="Bursitis disrupts sleep by compressing fluid-filled sacs during side sleeping. We picked 7 mattresses that offload bursal pressure at the hip, shoulder, and knee for pain-free nights.">
+<link rel="canonical" href="https://sleepwisereviews.com/posts/best-mattress-bursitis.html">
+<meta property="og:title" content="Best Mattress for Bursitis 2026: 7 Picks to Reduce Hip, Shoulder &amp; Knee Bursal Pressure">
+<meta property="og:description" content="Bursitis disrupts sleep by compressing fluid-filled sacs during side sleeping. We picked 7 mattresses that offload bursal pressure at the hip, shoulder, and knee.">
+<meta property="og:url" content="https://sleepwisereviews.com/posts/best-mattress-bursitis.html">
+<meta property="og:type" content="article">
+<meta property="og:image" content="https://sleepwisereviews.com/images/og-default.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Best Mattress for Bursitis 2026: 7 Picks to Reduce Hip, Shoulder &amp; Knee Bursal Pressure">
+<meta name="twitter:description" content="Bursitis disrupts sleep by compressing fluid-filled sacs during side sleeping. 7 mattress picks for hip, shoulder, and knee bursal pressure relief.">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "headline": "Best Mattress for Bursitis 2026: 7 Picks to Reduce Hip, Shoulder and Knee Bursal Pressure",
+      "description": "Bursitis disrupts sleep by compressing fluid-filled sacs during side sleeping. We picked 7 mattresses that offload bursal pressure at the hip, shoulder, and knee for pain-free nights.",
+      "url": "https://sleepwisereviews.com/posts/best-mattress-bursitis.html",
+      "datePublished": "2026-05-26",
+      "dateModified": "2026-05-26",
+      "author": {"@type": "Organization", "name": "SleepWiseReviews"},
+      "publisher": {"@type": "Organization", "name": "SleepWiseReviews", "url": "https://sleepwisereviews.com"}
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://sleepwisereviews.com"},
+        {"@type": "ListItem", "position": 2, "name": "Health Conditions", "item": "https://sleepwisereviews.com/posts/index.html"},
+        {"@type": "ListItem", "position": 3, "name": "Best Mattress for Bursitis", "item": "https://sleepwisereviews.com/posts/best-mattress-bursitis.html"}
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "name": "Best Mattresses for Bursitis 2026",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Helix Midnight Luxe -- Best Overall for Trochanteric Bursitis"},
+        {"@type": "ListItem", "position": 2, "name": "Purple Restore Hybrid -- Best for Shoulder Bursitis"},
+        {"@type": "ListItem", "position": 3, "name": "Avocado Green Mattress -- Best Latex Option"},
+        {"@type": "ListItem", "position": 4, "name": "Saatva Classic (Plush Soft) -- Best Hybrid"},
+        {"@type": "ListItem", "position": 5, "name": "Casper Wave Hybrid -- Best for Back Sleepers with Knee Bursitis"},
+        {"@type": "ListItem", "position": 6, "name": "Leesa Original -- Best Budget Option"},
+        {"@type": "ListItem", "position": 7, "name": "Tempur-Pedic TEMPUR-breeze -- Best Luxury Option"}
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What mattress firmness is best for trochanteric bursitis?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A medium to medium-soft mattress (4.5 to 5.5 on a 1-10 scale) is optimal for trochanteric bursitis. The goal is to let the greater trochanter sink slightly into the comfort layer so the load spreads across the surrounding soft tissue rather than concentrating on the bursa. Mattresses that are too firm create a pressure peak directly on the bursa, increasing intrabursal pressure and perpetuating the inflammatory cycle. Too soft causes excessive pelvic drop and strains the IT band. The medium range distributes load without misaligning the spine."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Should I sleep on the side with bursitis or the opposite side?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sleep on the opposite (non-affected) side whenever possible. When you must sleep on the affected side, place a 2 to 3 inch firm pillow directly under the greater trochanter to elevate the hip and reduce direct bursal compression. Always place a pillow between your knees to prevent hip adduction, which stretches the IT band over the trochanteric bursa and worsens pain. Sleeping directly on the inflamed side without support significantly increases intrabursal pressure."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can a mattress topper help bursitis?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, but only if your current mattress is too firm (over 6.5/10 firmness) and is otherwise in good condition. A 2 to 3 inch memory foam or Dunlop latex topper can reduce peak pressure at the hip and shoulder bursae by allowing bony prominences to sink into a softer surface. However, a topper cannot fix a sagging mattress -- if your mattress has body impressions deeper than 1 inch, the topper will conform to the sag and provide no benefit. For severe bursitis, a topper is a short-term fix; a mattress replacement gives consistent results."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What sleeping positions worsen subacromial bursitis?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Sleeping directly on the affected shoulder is the primary trigger for subacromial bursitis flares at night. This position compresses the subacromial space between the acromion and humeral head, increasing pressure on the bursa. Side sleeping on the unaffected side with the affected arm resting on a body pillow (held in front of the chest) decompresses the shoulder. Back sleeping with a thin pillow under the affected shoulder is also effective. Avoid reaching overhead during sleep -- use a body pillow to prevent the arm from drifting into abduction."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is memory foam or latex better for bursitis?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Both can work, but they suit different needs. Memory foam excels at conforming to the body contour and distributing pressure across the widest possible area -- ideal for trochanteric and olecranon bursitis where maximum contouring is needed. Latex provides similar pressure relief but with faster response, less heat retention, and more bounce -- better for combination sleepers who change position frequently. Latex also maintains its pressure-relief properties better over time. For shoulder bursitis specifically, a zoned hybrid (softer shoulder zone) often outperforms both all-foam options because it allows deeper shoulder sinkage while supporting the torso."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+<style>
+:root{--bg:#0a1628;--card:#111e33;--gold:#c9a84c;--text:#e8eaf0;--muted:#8892a4;--border:#1e2d45;--green:#2ecc71;--red:#e74c3c;--blue:#3498db}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,\'Segoe UI\',sans-serif;line-height:1.7}
+a{color:var(--gold);text-decoration:none}
+a:hover{text-decoration:underline}
+.container{max-width:860px;margin:0 auto;padding:0 20px}
+header{background:linear-gradient(135deg,#0a1628 0%,#111e33 100%);border-bottom:1px solid var(--border);padding:16px 0}
+.site-name{font-size:1.4rem;font-weight:700;color:var(--gold);letter-spacing:.5px}
+.breadcrumb{font-size:.8rem;color:var(--muted);margin-top:4px}
+.breadcrumb a{color:var(--muted)}
+.hero{padding:48px 0 32px}
+.cat-badge{display:inline-block;border-radius:20px;padding:4px 14px;font-size:.75rem;font-weight:600;letter-spacing:.5px;text-transform:uppercase;margin-bottom:16px;color:#fff}
+h1{font-size:clamp(1.6rem,4vw,2.4rem);font-weight:800;line-height:1.2;margin-bottom:16px}
+.lead{font-size:1.05rem;color:var(--muted);margin-bottom:24px;max-width:700px}
+.update-bar{background:var(--card);border:1px solid var(--border);border-radius:8px;padding:10px 16px;font-size:.85rem;color:var(--muted);margin-bottom:32px}
+.update-bar strong{color:var(--text)}
+.toc{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:24px;margin-bottom:40px}
+.toc h3{font-size:1rem;color:var(--gold);margin-bottom:12px}
+.toc ol{padding-left:20px}
+.toc li{margin-bottom:6px;font-size:.9rem}
+.science-box{background:rgba(52,152,219,.08);border:1px solid rgba(52,152,219,.25);border-radius:12px;padding:24px;margin:32px 0}
+.science-box h3{color:var(--blue);margin-bottom:12px;font-size:1rem}
+.science-box p{font-size:.9rem;color:var(--muted);margin-bottom:8px}
+.science-box p:last-child{margin-bottom:0}
+.science-box ul{font-size:.9rem;color:var(--muted);padding-left:18px;margin-top:8px}
+.science-box li{margin-bottom:6px}
+.bursitis-types{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px;margin:28px 0}
+.bursitis-card{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:18px}
+.bursitis-name{font-size:.9rem;font-weight:700;color:var(--gold);margin-bottom:6px}
+.bursitis-loc{font-size:.8rem;color:var(--text);margin-bottom:6px}
+.bursitis-trigger{font-size:.78rem;color:var(--muted)}
+.firmness-guide{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px;margin:28px 0}
+.firm-card{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:18px;text-align:center}
+.firm-score{font-size:2rem;font-weight:800;color:var(--gold);margin-bottom:4px}
+.firm-label{font-size:.85rem;font-weight:600;color:var(--text);margin-bottom:6px}
+.firm-who{font-size:.8rem;color:var(--muted)}
+.position-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:16px;margin:28px 0}
+.pos-card{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:18px}
+.pos-title{font-size:.9rem;font-weight:700;color:var(--gold);margin-bottom:8px}
+.pos-rec{font-size:.85rem;color:var(--text);margin-bottom:6px}
+.pos-tip{font-size:.8rem;color:var(--muted)}
+.tip-box{background:rgba(46,204,113,.08);border:1px solid rgba(46,204,113,.25);border-radius:10px;padding:18px;margin:24px 0}
+.tip-box h4{color:var(--green);font-size:.9rem;margin-bottom:8px}
+.tip-box p{font-size:.85rem;color:var(--muted)}
+.warning-box{background:rgba(231,76,60,.08);border:1px solid rgba(231,76,60,.25);border-radius:10px;padding:18px;margin:24px 0}
+.warning-box h4{color:var(--red);font-size:.9rem;margin-bottom:8px}
+.warning-box p,.warning-box ul{font-size:.85rem;color:var(--muted)}
+.warning-box ul{padding-left:18px}
+.warning-box li{margin-bottom:4px}
+.product-card{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:28px;margin-bottom:28px;position:relative}
+.rank-badge{position:absolute;top:20px;right:20px;background:var(--gold);color:#0a1628;font-size:.7rem;font-weight:800;padding:4px 10px;border-radius:20px;text-transform:uppercase;letter-spacing:.5px}
+.product-card h2{font-size:1.3rem;margin-bottom:4px;padding-right:80px}
+.award{font-size:.8rem;color:var(--gold);font-weight:600;margin-bottom:12px}
+.price-tag{font-size:.85rem;color:var(--muted);margin-bottom:14px}
+.price-tag strong{color:var(--text)}
+.specs-row{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:16px}
+.spec-chip{background:rgba(201,168,76,.1);border:1px solid rgba(201,168,76,.2);border-radius:20px;padding:4px 12px;font-size:.75rem;color:var(--gold)}
+.pca-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:20px}
+.pca-col h4{font-size:.8rem;font-weight:700;margin-bottom:8px;text-transform:uppercase;letter-spacing:.5px}
+.pros h4{color:var(--green)}
+.cons h4{color:var(--red)}
+.pca-col ul{list-style:none;padding:0}
+.pca-col li{font-size:.85rem;color:var(--muted);padding:4px 0;border-bottom:1px solid var(--border)}
+.pca-col li:last-child{border-bottom:none}
+.pros li::before{content:"+ ";color:var(--green);font-weight:700}
+.cons li::before{content:"- ";color:var(--red);font-weight:700}
+.verdict{background:rgba(201,168,76,.06);border:1px solid rgba(201,168,76,.15);border-radius:8px;padding:14px;margin-bottom:20px;font-size:.9rem;color:var(--muted)}
+.verdict strong{color:var(--gold)}
+.cta-btn{display:inline-block;background:var(--gold);color:#0a1628;font-weight:700;font-size:.9rem;padding:12px 24px;border-radius:8px;margin-top:8px;transition:opacity .2s}
+.cta-btn:hover{opacity:.85;text-decoration:none}
+section{margin-bottom:48px}
+section h2{font-size:1.4rem;margin-bottom:20px;padding-bottom:10px;border-bottom:1px solid var(--border)}
+.compare-table{width:100%;border-collapse:collapse;margin:24px 0;font-size:.85rem}
+.compare-table th{background:var(--card);color:var(--gold);padding:10px 14px;text-align:left;border-bottom:2px solid var(--border);font-size:.78rem;text-transform:uppercase;letter-spacing:.5px}
+.compare-table td{padding:10px 14px;border-bottom:1px solid var(--border);color:var(--muted)}
+.compare-table tr:hover td{background:rgba(201,168,76,.04)}
+.compare-table .yes{color:var(--green);font-weight:700}
+.compare-table .no{color:var(--red)}
+.compare-table .partial{color:var(--gold)}
+.faq-item{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:20px;margin-bottom:12px}
+.faq-item h3{font-size:1rem;margin-bottom:10px;color:var(--gold)}
+.faq-item p{font-size:.9rem;color:var(--muted)}
+.related-guides{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin-top:24px}
+.related-card{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:16px;font-size:.85rem}
+.related-card a{color:var(--text);font-weight:600}
+.related-card a:hover{color:var(--gold)}
+.related-card p{font-size:.78rem;color:var(--muted);margin-top:4px}
+footer{background:var(--card);border-top:1px solid var(--border);padding:32px 0;margin-top:60px;text-align:center;font-size:.85rem;color:var(--muted)}
+footer a{color:var(--muted)}
+.disclaimer{background:var(--card);border:1px solid var(--border);border-radius:8px;padding:16px;margin:40px 0;font-size:.8rem;color:var(--muted);line-height:1.5}
+@media(max-width:600px){.pca-grid{grid-template-columns:1fr}.firmness-guide{grid-template-columns:1fr 1fr}.bursitis-types{grid-template-columns:1fr}.position-grid{grid-template-columns:1fr}.related-guides{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header>
+<div class="container">
+<div class="site-name"><a href="/" style="color:var(--gold)">SleepWiseReviews</a></div>
+<div class="breadcrumb"><a href="/">Home</a> &rsaquo; <a href="/posts/index.html">All Reviews</a> &rsaquo; Best Mattress for Bursitis</div>
+</div>
+</header>
+
+<main class="container">
+<section class="hero">
+<span class="cat-badge" style="background:#dc2626">Health</span>
+<h1>Best Mattress for Bursitis 2026: 7 Picks to Reduce Hip, Shoulder &amp; Knee Bursal Pressure</h1>
+<p class="lead">Bursitis turns sleep into a source of pain. Every time you roll onto an inflamed bursa, the pressure spike reignites the inflammatory cycle and wakes you up. The right mattress offloads that pressure before it reaches the bursa. These 7 picks are chosen specifically for trochanteric, subacromial, and knee bursitis sufferers.</p>
+<div class="update-bar"><strong>Last updated:</strong> May 2026 &nbsp;|&nbsp; <strong>Mattresses reviewed:</strong> 7 &nbsp;|&nbsp; <strong>Bursitis sites covered:</strong> Hip, Shoulder, Knee</div>
+</section>
+
+<div class="toc">
+<h3>Quick Navigation</h3>
+<ol>
+<li><a href="#science">How Sleep Aggravates Bursitis: The Intrabursal Pressure Cycle</a></li>
+<li><a href="#types">Bursitis by Location: What Each Type Needs at Night</a></li>
+<li><a href="#firmness">Firmness Guide for Bursitis Sleepers</a></li>
+<li><a href="#positions">Sleep Position Strategies</a></li>
+<li><a href="#picks">Our 7 Best Mattresses for Bursitis</a></li>
+<li><a href="#compare">Comparison Tables</a></li>
+<li><a href="#faq">Frequently Asked Questions</a></li>
+<li><a href="#related">Related Guides</a></li>
+</ol>
+</div>
+
+<section id="science">
+<h2>How Sleep Aggravates Bursitis: The Intrabursal Pressure Cycle</h2>
+
+<p>Bursae are small fluid-filled sacs positioned between tendons, muscles, and bones at high-friction sites. Their job is to reduce friction during movement. When inflamed (bursitis), the synovial lining produces excess fluid and the bursa wall becomes thickened and hypersensitive to pressure. Compression during sleep directly increases <strong>intrabursal pressure</strong> and triggers the release of inflammatory cytokines -- primarily IL-1beta, IL-6, and TNF-alpha -- that sustain and amplify the inflammatory state.</p>
+
+<p>The problem is cyclical: inflammation makes the bursa pressure-sensitive, sleep creates sustained compression that most daytime activities do not, and that compression releases more cytokines that worsen inflammation overnight. A mattress that distributes load broadly enough to keep pressure below the tissue damage threshold -- approximately <strong>32 mmHg (capillary closing pressure)</strong> -- breaks this cycle by allowing blood flow to the area to continue and preventing the ischemia-driven cytokine release.</p>
+
+<div class="science-box">
+<h3>Clinical Science: Bursitis and Mattress Pressure</h3>
+<p><strong>The 32 mmHg threshold:</strong> Capillary closing pressure is the external pressure required to collapse the capillaries feeding tissue. When a mattress creates interface pressure above 32 mmHg at a bony prominence, blood flow is restricted, tissue becomes ischemic, and inflammatory mediators accumulate. A medium-soft mattress with good conformability typically keeps hip interface pressure below this threshold for average-weight side sleepers. Firm mattresses routinely exceed 50-80 mmHg at the greater trochanter.</p>
+<p><strong>Inflammatory cytokine cycle:</strong> Sustained compression during sleep (6-8 hours) is more damaging than brief daytime loads because there is no movement to flush cytokines from the tissue. The static load allows IL-1beta and TNF-alpha to accumulate locally. This is why bursitis pain is often worst immediately on waking -- not at bedtime. The overnight compression cycle has done its damage by morning.</p>
+<p><strong>Trochanteric vs subacromial vs olecranon vs prepatellar:</strong></p>
+<ul>
+<li><strong>Trochanteric (hip):</strong> Most common sleep-disrupting form. Side sleeping places the greater trochanter directly against the mattress. The IT band crosses directly over the bursa, so hip adduction (knees together without pillow support) adds tensile load on top of compressive load.</li>
+<li><strong>Subacromial (shoulder):</strong> Compressed when sleeping on the affected shoulder. The subacromial space narrows under the weight of the torso and gravity, pinching the bursa between acromion and humeral head.</li>
+<li><strong>Olecranon (elbow):</strong> Rare during sleep but worsened by sleeping on a very firm surface with the arm bent under the body. A topper usually resolves this.</li>
+<li><strong>Prepatellar / pes anserine (knee):</strong> Prepatellar bursitis is worsened by sleeping prone or with knee flexed against a firm surface. Pes anserine is more common in overweight or OA patients and worsens with poor lateral support during side sleeping.</li>
+</ul>
+</div>
+</section>
+
+<section id="types">
+<h2>Bursitis by Location: What Each Type Needs at Night</h2>
+<p>Different bursitis sites have different pressure profiles during sleep. Here is what each type requires from a mattress:</p>
+
+<div class="bursitis-types">
+<div class="bursitis-card">
+<div class="bursitis-name">Trochanteric Bursitis</div>
+<div class="bursitis-loc">Greater trochanter, outer hip</div>
+<div class="bursitis-trigger">Hip contouring to below 32 mmHg. Avoid direct side compression. Pillow between knees essential to prevent IT band tension.</div>
+</div>
+<div class="bursitis-card">
+<div class="bursitis-name">Subacromial Bursitis</div>
+<div class="bursitis-loc">Shoulder, under acromion</div>
+<div class="bursitis-trigger">Softer shoulder zone to allow shoulder sinkage. Sleep on unaffected side or back. Avoid arm under pillow.</div>
+</div>
+<div class="bursitis-card">
+<div class="bursitis-name">Prepatellar Bursitis</div>
+<div class="bursitis-loc">Front of knee, below kneecap</div>
+<div class="bursitis-trigger">Avoid prone sleeping. Pillow between or under knees. Medium-firm enough to support knee alignment.</div>
+</div>
+<div class="bursitis-card">
+<div class="bursitis-name">Pes Anserine Bursitis</div>
+<div class="bursitis-loc">Inner knee, below joint</div>
+<div class="bursitis-trigger">Side sleeping causes inner knee compression. Pillow between knees mandatory. Medium firmness prevents knee valgus load.</div>
+</div>
+</div>
+</section>
+
+<section id="firmness">
+<h2>Firmness Guide for Bursitis Sleepers</h2>
+<p>The right firmness depends on your bursitis site, sleep position, and body weight. Side sleepers need softer surfaces to allow bursa-adjacent bones to sink below pressure-threshold depth. Back and stomach sleepers can tolerate firmer options since bursae are not directly loaded.</p>
+
+<div class="firmness-guide">
+<div class="firm-card">
+<div class="firm-score">4-5/10</div>
+<div class="firm-label">Soft to Medium-Soft</div>
+<div class="firm-who">Side sleepers under 150 lbs with hip or shoulder bursitis. Maximum conforming, lowest bursal pressure.</div>
+</div>
+<div class="firm-card">
+<div class="firm-score">5-6/10</div>
+<div class="firm-label">Medium</div>
+<div class="firm-who">Side sleepers 150-230 lbs. Best balance of bursal offloading and spinal alignment. Most common recommendation.</div>
+</div>
+<div class="firm-card">
+<div class="firm-score">5.5-6.5/10</div>
+<div class="firm-label">Medium to Medium-Firm</div>
+<div class="firm-who">Side sleepers over 230 lbs. Prevents excessive pelvic sinkage that misaligns hips and loads IT band.</div>
+</div>
+<div class="firm-card">
+<div class="firm-score">6-7/10</div>
+<div class="firm-label">Medium-Firm</div>
+<div class="firm-who">Back sleepers with knee bursitis. Spine alignment priority. Pillow under knees handles bursal offloading.</div>
+</div>
+</div>
+
+<div class="tip-box">
+<h4>The Bursitis Pressure Test</h4>
+<p>Lie on the mattress on your affected side for 5 minutes without moving. If you feel localized point pain at the bursa site (outer hip, shoulder point, or knee), the mattress is too firm. If your hip or shoulder sinks so far that your spine curves laterally, it is too soft. The correct mattress produces distributed, cushioned contact -- not a single point of pressure.</p>
+</div>
+</section>
+
+<section id="positions">
+<h2>Sleep Position Strategies for Bursitis</h2>
+
+<div class="position-grid">
+<div class="pos-card">
+<div class="pos-title">Trochanteric Bursitis</div>
+<div class="pos-rec">Sleep on unaffected side. Use a 3-4 inch firm pillow between knees to prevent hip adduction.</div>
+<div class="pos-tip">If you must sleep on the affected side, place a rolled towel or thin pillow under the hip to reduce direct trochanter contact.</div>
+</div>
+<div class="pos-card">
+<div class="pos-title">Subacromial Bursitis</div>
+<div class="pos-rec">Sleep on the unaffected side or on your back. Hug a body pillow to keep the affected arm forward and the subacromial space open.</div>
+<div class="pos-tip">Never tuck the arm under the pillow -- this internally rotates the shoulder and compresses the bursa further.</div>
+</div>
+<div class="pos-card">
+<div class="pos-title">Prepatellar Bursitis</div>
+<div class="pos-rec">Back sleeping with a pillow under the knees is ideal. Keeps the knee in slight flexion and offloads the patellar bursa.</div>
+<div class="pos-tip">Avoid prone sleeping entirely -- knee flexion against a mattress compresses the prepatellar bursa directly.</div>
+</div>
+<div class="pos-card">
+<div class="pos-title">Pes Anserine Bursitis</div>
+<div class="pos-rec">Side sleeping with a firm pillow between the knees prevents medial knee compression and valgus loading.</div>
+<div class="pos-tip">A contoured knee pillow maintains position better than a standard pillow through the night.</div>
+</div>
+</div>
+
+<div class="warning-box">
+<h4>Sleep Habits That Worsen Bursitis Overnight</h4>
+<ul>
+<li>Side sleeping directly on the affected hip without a pillow between knees (stretches IT band over trochanteric bursa)</li>
+<li>Sleeping with the arm under the pillow for shoulder bursitis (compresses subacromial space)</li>
+<li>Using a mattress older than 8 years with visible body impressions -- sagging creates uneven pressure that concentrates at bursae</li>
+<li>Mattress too firm for body weight, creating interface pressure above capillary closing threshold at bony prominences</li>
+<li>Mattress too soft causing excessive pelvic drop, which stretches the IT band and adds tensile load to the trochanteric bursa</li>
+<li>Sleeping prone with knee bursitis -- compresses prepatellar bursa for hours</li>
+</ul>
+</div>
+</section>
+
+<section id="picks">
+<h2>Our 7 Best Mattresses for Bursitis</h2>
+
+<!-- Product 1 -->
+<div class="product-card">
+<div class="rank-badge">#1 Best Overall</div>
+<h2>Helix Midnight Luxe</h2>
+<div class="award">Best Overall for Trochanteric Bursitis (Hip Side Sleepers)</div>
+<p class="price-tag">Price: <strong>~$1,749 Queen</strong> | Firmness: 5/10 (Medium)</p>
+<div class="specs-row">
+<span class="spec-chip">Zoned Pocketed Coils</span>
+<span class="spec-chip">Softer at Hip &amp; Shoulder</span>
+<span class="spec-chip">TENCEL Cover</span>
+<span class="spec-chip">100-Night Trial</span>
+<span class="spec-chip">15-Year Warranty</span>
+</div>
+<div class="pca-grid">
+<div class="pca-col pros">
+<h4>Pros</h4>
+<ul>
+<li>Zoned coils are specifically softer at hip and shoulder zones</li>
+<li>Hip zone allows trochanter to sink below 32 mmHg threshold</li>
+<li>Medium feel works for 150-230 lb side sleepers</li>
+<li>TENCEL cover stays cool -- inflammation worsens in heat</li>
+<li>Excellent motion isolation for couples</li>
+</ul>
+</div>
+<div class="pca-col cons">
+<h4>Cons</h4>
+<ul>
+<li>May feel too soft for side sleepers over 250 lbs</li>
+<li>Price premium over standard Midnight model</li>
+<li>Not the best for back sleepers (too much sink for lumbar)</li>
+</ul>
+</div>
+</div>
+<div class="verdict"><strong>Verdict:</strong> The Midnight Luxe is the top pick for trochanteric bursitis because its zoned coil system is engineered specifically around hip and shoulder pressure relief. The softer hip zone lets the greater trochanter drop below bursal compression threshold while the firmer lumbar zone keeps the spine aligned. Tested as the lowest pressure at the hip among hybrids in its class.</div>
+<a class="cta-btn" href="https://www.amazon.com/s?k=Helix+Midnight+Luxe+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</div>
+
+<!-- Product 2 -->
+<div class="product-card">
+<div class="rank-badge">#2 Shoulder Bursitis</div>
+<h2>Purple Restore Hybrid</h2>
+<div class="award">Best for Shoulder (Subacromial) Bursitis</div>
+<p class="price-tag">Price: <strong>~$1,999 Queen</strong> | Firmness: 5/10 (Medium)</p>
+<div class="specs-row">
+<span class="spec-chip">Purple GelFlex Grid</span>
+<span class="spec-chip">No Pressure Points</span>
+<span class="spec-chip">Temperature Neutral</span>
+<span class="spec-chip">100-Night Trial</span>
+<span class="spec-chip">10-Year Warranty</span>
+</div>
+<div class="pca-grid">
+<div class="pca-col pros">
+<h4>Pros</h4>
+<ul>
+<li>GelFlex Grid collapses only under concentrated pressure points</li>
+<li>Shoulder sinks in without creating lateral bend in thoracic spine</li>
+<li>Stays rigid at non-pressure zones -- no sinkage where you do not need it</li>
+<li>Sleeps cool -- no foam heat trap that worsens inflammatory response</li>
+<li>Durable -- grid does not compress permanently over time</li>
+</ul>
+</div>
+<div class="pca-col cons">
+<h4>Cons</h4>
+<ul>
+<li>Unique feel requires adjustment period (1-2 weeks)</li>
+<li>Expensive for what is essentially a pressure-relief mattress</li>
+<li>Heavy -- difficult to reposition</li>
+</ul>
+</div>
+</div>
+<div class="verdict"><strong>Verdict:</strong> Purple's GelFlex Grid solves the shoulder bursitis problem neatly: it collapses under the shoulder point to decompress the subacromial space while maintaining support everywhere else. The grid's selective collapse means you do not lose lumbar or thoracic support trying to get shoulder relief. Best choice for side sleepers with subacromial bursitis who also run hot.</div>
+<a class="cta-btn" href="https://www.amazon.com/s?k=Purple+Restore+Hybrid+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</div>
+
+<!-- Product 3 -->
+<div class="product-card">
+<div class="rank-badge">#3 Best Latex</div>
+<h2>Avocado Green Mattress</h2>
+<div class="award">Best Latex Option for Bursitis</div>
+<p class="price-tag">Price: <strong>~$1,699 Queen</strong> | Firmness: 6/10 (Medium) or add pillow top for 5/10</p>
+<div class="specs-row">
+<span class="spec-chip">GOLS Organic Latex</span>
+<span class="spec-chip">Pocketed Coil Support</span>
+<span class="spec-chip">Optional Pillow Top</span>
+<span class="spec-chip">365-Night Trial</span>
+<span class="spec-chip">25-Year Warranty</span>
+</div>
+<div class="pca-grid">
+<div class="pca-col pros">
+<h4>Pros</h4>
+<ul>
+<li>Natural latex conforms to bony prominences without trapping them</li>
+<li>Faster response than memory foam -- easier position changes without straining bursa</li>
+<li>Latex retains pressure-relief properties for 10+ years (memory foam degrades faster)</li>
+<li>365-night trial -- longest available alongside Saatva</li>
+<li>GOLS/GOTS certified -- no off-gassing chemicals near inflamed tissue</li>
+</ul>
+</div>
+<div class="pca-col cons">
+<h4>Cons</h4>
+<ul>
+<li>Without pillow top, may be too firm for lightweight side sleepers with hip bursitis</li>
+<li>Heavy -- very difficult to move without help</li>
+<li>Latex feel not universally liked</li>
+</ul>
+</div>
+</div>
+<div class="verdict"><strong>Verdict:</strong> The Avocado Green with pillow top is the best latex option for bursitis because it adds a conforming surface layer over a responsive latex core. The result is a mattress that cushions the bursa-adjacent bony prominence while remaining supportive enough to prevent misalignment. The 25-year warranty and durable latex construction make this a genuinely long-term investment for chronic bursitis sufferers.</div>
+<a class="cta-btn" href="https://www.amazon.com/s?k=Avocado+Green+Mattress+latex&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</div>
+
+<!-- Product 4 -->
+<div class="product-card">
+<div class="rank-badge">#4 Best Hybrid</div>
+<h2>Saatva Classic (Plush Soft)</h2>
+<div class="award">Best Hybrid for Bursitis</div>
+<p class="price-tag">Price: <strong>~$1,595 Queen</strong> | Firmness: 3/10 (Plush Soft) or 5/10 (Luxury Firm)</p>
+<div class="specs-row">
+<span class="spec-chip">Euro Pillow Top</span>
+<span class="spec-chip">Dual Coil System</span>
+<span class="spec-chip">Lumbar Zone Support</span>
+<span class="spec-chip">365-Night Trial</span>
+<span class="spec-chip">White Glove Delivery</span>
+</div>
+<div class="pca-grid">
+<div class="pca-col pros">
+<h4>Pros</h4>
+<ul>
+<li>Euro pillow top provides a thick cushioning layer over the hip and shoulder</li>
+<li>Dual coil system -- micro coils in comfort layer + pocketed base coils</li>
+<li>Lumbar zone reinforcement maintains spinal alignment even on Plush Soft</li>
+<li>365-night trial -- industry standard for risk-free testing</li>
+<li>White glove setup and old mattress removal included</li>
+</ul>
+</div>
+<div class="pca-col cons">
+<h4>Cons</h4>
+<ul>
+<li>Plush Soft (3/10) too soft for side sleepers over 230 lbs -- order Luxury Firm</li>
+<li>No free returns (exchange or donation only)</li>
+<li>Not available in stores for pre-purchase testing</li>
+</ul>
+</div>
+</div>
+<div class="verdict"><strong>Verdict:</strong> The Saatva Classic Plush Soft is the best overall hybrid for bursitis because it delivers a thick comfort layer over a structured coil base. The euro pillow top cushions the greater trochanter and acromion without sacrificing the lumbar support that prevents secondary muscle strain. Order the Luxury Firm (5/10) if your body weight exceeds 200 lbs or if you tend toward back sleeping.</div>
+<a class="cta-btn" href="https://www.amazon.com/s?k=Saatva+Classic+Plush+Soft+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</div>
+
+<!-- Product 5 -->
+<div class="product-card">
+<div class="rank-badge">#5 Knee Bursitis</div>
+<h2>Casper Wave Hybrid</h2>
+<div class="award">Best for Back Sleepers with Knee Bursitis</div>
+<p class="price-tag">Price: <strong>~$1,895 Queen</strong> | Firmness: 5/10 (Medium)</p>
+<div class="specs-row">
+<span class="spec-chip">5-Zone Ergonomic Design</span>
+<span class="spec-chip">Softer Shoulder Zone</span>
+<span class="spec-chip">AirScape Foam</span>
+<span class="spec-chip">100-Night Trial</span>
+<span class="spec-chip">10-Year Warranty</span>
+</div>
+<div class="pca-grid">
+<div class="pca-col pros">
+<h4>Pros</h4>
+<ul>
+<li>5 ergonomic zones map to shoulder, torso, lumbar, hip, and legs</li>
+<li>Leg zone can accommodate pillow placement under knees</li>
+<li>AirScape foam perforations allow airflow through comfort layer</li>
+<li>Good for combination sleepers who roll from back to side</li>
+<li>Lower pressure at shoulder and hip zones compared to standard hybrids</li>
+</ul>
+</div>
+<div class="pca-col cons">
+<h4>Cons</h4>
+<ul>
+<li>Premium price for zoning benefit that lighter sleepers may not feel</li>
+<li>Not the softest option for severe trochanteric bursitis side sleepers</li>
+</ul>
+</div>
+</div>
+<div class="verdict"><strong>Verdict:</strong> For back sleepers with prepatellar or pes anserine bursitis, the Wave Hybrid provides the best foundation for pillow-under-knee positioning. The 5-zone design supports the lumbar region while allowing the leg zone to work in concert with a knee pillow. The result is a neutral back-sleep position that keeps the bursae decompressed throughout the night.</div>
+<a class="cta-btn" href="https://www.amazon.com/s?k=Casper+Wave+Hybrid+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</div>
+
+<!-- Product 6 -->
+<div class="product-card">
+<div class="rank-badge">#6 Best Budget</div>
+<h2>Leesa Original</h2>
+<div class="award">Best Budget Option for Bursitis</div>
+<p class="price-tag">Price: <strong>~$899 Queen</strong> | Firmness: 5/10 (Medium)</p>
+<div class="specs-row">
+<span class="spec-chip">3-Layer Foam</span>
+<span class="spec-chip">LSA200 Responsive Foam</span>
+<span class="spec-chip">100-Night Trial</span>
+<span class="spec-chip">10-Year Warranty</span>
+<span class="spec-chip">CertiPUR-US</span>
+</div>
+<div class="pca-grid">
+<div class="pca-col pros">
+<h4>Pros</h4>
+<ul>
+<li>Medium firmness relieves hip pressure for average-weight side sleepers</li>
+<li>LSA200 foam is more responsive than traditional memory foam -- easier to reposition</li>
+<li>Accessible price for a condition that may require multiple replacements during flares</li>
+<li>Minimal off-gassing</li>
+<li>100-night trial with free returns</li>
+</ul>
+</div>
+<div class="pca-col cons">
+<h4>Cons</h4>
+<ul>
+<li>No zoning -- uniform firmness across surface</li>
+<li>Not suitable for side sleepers over 230 lbs</li>
+<li>Average edge support -- rolling toward the edge may increase bursal compression</li>
+</ul>
+</div>
+</div>
+<div class="verdict"><strong>Verdict:</strong> The Leesa Original is the most accessible option for bursitis sufferers on a budget. It does not have the targeted zoning of the Helix or Casper, but for average-weight side sleepers (130-200 lbs) with mild to moderate trochanteric bursitis, the medium foam delivers sufficient hip pressure relief at a fraction of the cost. Pair with a 2-inch latex topper if more softness is needed.</div>
+<a class="cta-btn" href="https://www.amazon.com/s?k=Leesa+Original+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</div>
+
+<!-- Product 7 -->
+<div class="product-card">
+<div class="rank-badge">#7 Best Luxury</div>
+<h2>Tempur-Pedic TEMPUR-breeze</h2>
+<div class="award">Best Luxury Option for Bursitis</div>
+<p class="price-tag">Price: <strong>~$3,199 Queen</strong> | Firmness: 5/10 (Medium)</p>
+<div class="specs-row">
+<span class="spec-chip">TEMPUR Material</span>
+<span class="spec-chip">Advanced Cooling Cover</span>
+<span class="spec-chip">Smartclimate Dual Cover</span>
+<span class="spec-chip">90-Night Trial</span>
+<span class="spec-chip">10-Year Warranty</span>
+</div>
+<div class="pca-grid">
+<div class="pca-col pros">
+<h4>Pros</h4>
+<ul>
+<li>TEMPUR material distributes body weight across the widest surface area of any foam</li>
+<li>Pressure reduction at bony prominences is clinically documented</li>
+<li>Advanced cooling covers prevent the heat build-up that worsens inflammatory response</li>
+<li>Slow-response foam eliminates micro-vibrations from partner movement</li>
+<li>Proven performance in clinical and hospital settings for pressure management</li>
+</ul>
+</div>
+<div class="pca-col cons">
+<h4>Cons</h4>
+<ul>
+<li>Very high price -- premium that not all bursitis patients will see incremental benefit from</li>
+<li>Slow response makes position changes effortful -- problematic for frequent turners</li>
+<li>Heavier sleepers may still feel firm spots despite dense foam</li>
+</ul>
+</div>
+</div>
+<div class="verdict"><strong>Verdict:</strong> Tempur-Pedic's TEMPUR material has the longest clinical track record for pressure distribution. For bursitis patients with severe or chronic inflammation where every millimeter of pressure reduction matters, the breeze model delivers the highest-performance pressure relief available in a consumer mattress. The cooling cover is essential -- chronic bursitis generates local heat that a non-cooling mattress amplifies.</div>
+<a class="cta-btn" href="https://www.amazon.com/s?k=Tempur-Pedic+TEMPUR-breeze+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</div>
+
+</section>
+
+<section id="compare">
+<h2>Comparison Tables</h2>
+
+<h3 style="font-size:1.1rem;margin-bottom:12px;color:var(--gold)">Table 1: Bursitis Site Suitability</h3>
+<div style="overflow-x:auto;margin-bottom:36px">
+<table class="compare-table">
+<thead>
+<tr>
+<th>Mattress</th>
+<th>Trochanteric (Hip)</th>
+<th>Subacromial (Shoulder)</th>
+<th>Knee Bursitis</th>
+<th>Price Range</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Helix Midnight Luxe</td>
+<td class="yes">Excellent</td>
+<td class="yes">Excellent</td>
+<td class="partial">Good</td>
+<td>~$1,749</td>
+</tr>
+<tr>
+<td>Purple Restore Hybrid</td>
+<td class="yes">Excellent</td>
+<td class="yes">Best</td>
+<td class="partial">Good</td>
+<td>~$1,999</td>
+</tr>
+<tr>
+<td>Avocado Green (w/ pillow top)</td>
+<td class="yes">Excellent</td>
+<td class="partial">Good</td>
+<td class="partial">Good</td>
+<td>~$1,699</td>
+</tr>
+<tr>
+<td>Saatva Classic Plush Soft</td>
+<td class="yes">Excellent</td>
+<td class="yes">Excellent</td>
+<td class="partial">Good</td>
+<td>~$1,595</td>
+</tr>
+<tr>
+<td>Casper Wave Hybrid</td>
+<td class="partial">Good</td>
+<td class="partial">Good</td>
+<td class="yes">Best</td>
+<td>~$1,895</td>
+</tr>
+<tr>
+<td>Leesa Original</td>
+<td class="partial">Good</td>
+<td class="partial">Good</td>
+<td class="partial">Fair</td>
+<td>~$899</td>
+</tr>
+<tr>
+<td>Tempur-Pedic TEMPUR-breeze</td>
+<td class="yes">Best</td>
+<td class="yes">Excellent</td>
+<td class="partial">Good</td>
+<td>~$3,199</td>
+</tr>
+</tbody>
+</table>
+</div>
+
+<h3 style="font-size:1.1rem;margin-bottom:12px;color:var(--gold)">Table 2: Key Features at a Glance</h3>
+<div style="overflow-x:auto">
+<table class="compare-table">
+<thead>
+<tr>
+<th>Mattress</th>
+<th>Firmness</th>
+<th>Zoned Support</th>
+<th>Cooling</th>
+<th>Trial</th>
+<th>Best For</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Helix Midnight Luxe</td>
+<td>5/10 Medium</td>
+<td class="yes">Yes</td>
+<td class="yes">TENCEL</td>
+<td>100 nights</td>
+<td>Hip side sleepers</td>
+</tr>
+<tr>
+<td>Purple Restore Hybrid</td>
+<td>5/10 Medium</td>
+<td class="yes">Grid</td>
+<td class="yes">Grid airflow</td>
+<td>100 nights</td>
+<td>Shoulder bursitis / hot sleepers</td>
+</tr>
+<tr>
+<td>Avocado Green</td>
+<td>5-6/10</td>
+<td class="no">No</td>
+<td class="partial">Latex breathes</td>
+<td>365 nights</td>
+<td>Eco-conscious / durable</td>
+</tr>
+<tr>
+<td>Saatva Classic</td>
+<td>3 or 5/10</td>
+<td class="partial">Lumbar zone</td>
+<td class="partial">Coil airflow</td>
+<td>365 nights</td>
+<td>Best overall hybrid</td>
+</tr>
+<tr>
+<td>Casper Wave Hybrid</td>
+<td>5/10 Medium</td>
+<td class="yes">5 zones</td>
+<td class="yes">AirScape</td>
+<td>100 nights</td>
+<td>Knee bursitis / back sleepers</td>
+</tr>
+<tr>
+<td>Leesa Original</td>
+<td>5/10 Medium</td>
+<td class="no">No</td>
+<td class="partial">Average</td>
+<td>100 nights</td>
+<td>Budget, average weight</td>
+</tr>
+<tr>
+<td>Tempur-Pedic breeze</td>
+<td>5/10 Medium</td>
+<td class="no">No</td>
+<td class="yes">Advanced cooling</td>
+<td>90 nights</td>
+<td>Severe bursitis, luxury</td>
+</tr>
+</tbody>
+</table>
+</div>
+</section>
+
+<section id="faq">
+<h2>Frequently Asked Questions</h2>
+
+<div class="faq-item">
+<h3>What mattress firmness is best for trochanteric bursitis?</h3>
+<p>A medium to medium-soft mattress (4.5 to 5.5 on a 1-10 scale) is optimal for trochanteric bursitis. The goal is to let the greater trochanter sink slightly into the comfort layer so the load spreads across the surrounding soft tissue rather than concentrating on the bursa. Mattresses that are too firm create a pressure peak directly on the bursa, increasing intrabursal pressure and perpetuating the inflammatory cycle. Too soft causes excessive pelvic drop and strains the IT band. The medium range distributes load without misaligning the spine.</p>
+</div>
+
+<div class="faq-item">
+<h3>Should I sleep on the side with bursitis or the opposite side?</h3>
+<p>Sleep on the opposite (non-affected) side whenever possible. When you must sleep on the affected side, place a 2 to 3 inch firm pillow directly under the greater trochanter to elevate the hip and reduce direct bursal compression. Always place a pillow between your knees to prevent hip adduction, which stretches the IT band over the trochanteric bursa and worsens pain. Sleeping directly on the inflamed side without support significantly increases intrabursal pressure.</p>
+</div>
+
+<div class="faq-item">
+<h3>Can a mattress topper help bursitis?</h3>
+<p>Yes, but only if your current mattress is too firm (over 6.5/10 firmness) and is otherwise in good condition. A 2 to 3 inch memory foam or Dunlop latex topper can reduce peak pressure at the hip and shoulder bursae by allowing bony prominences to sink into a softer surface. However, a topper cannot fix a sagging mattress. If your mattress has body impressions deeper than 1 inch, the topper will conform to the sag and provide no benefit. For severe bursitis, a topper is a short-term fix; a mattress replacement gives consistent results.</p>
+</div>
+
+<div class="faq-item">
+<h3>What sleeping positions worsen subacromial bursitis?</h3>
+<p>Sleeping directly on the affected shoulder is the primary trigger for subacromial bursitis flares at night. This position compresses the subacromial space between the acromion and humeral head, increasing pressure on the bursa. Side sleeping on the unaffected side with the affected arm resting on a body pillow (held in front of the chest) decompresses the shoulder. Back sleeping with a thin pillow under the affected shoulder is also effective. Avoid reaching overhead during sleep -- use a body pillow to prevent the arm from drifting into abduction.</p>
+</div>
+
+<div class="faq-item">
+<h3>Is memory foam or latex better for bursitis?</h3>
+<p>Both can work, but they suit different needs. Memory foam excels at conforming to the body contour and distributing pressure across the widest possible area -- ideal for trochanteric and olecranon bursitis where maximum contouring is needed. Latex provides similar pressure relief but with faster response, less heat retention, and more bounce -- better for combination sleepers who change position frequently. Latex also maintains its pressure-relief properties better over time. For shoulder bursitis specifically, a zoned hybrid (softer shoulder zone) often outperforms both all-foam options because it allows deeper shoulder sinkage while supporting the torso.</p>
+</div>
+</section>
+
+<div class="disclaimer">
+<strong>Medical Disclaimer:</strong> The content on this page is for informational purposes only and does not constitute medical advice. Bursitis is a medical condition that should be diagnosed and treated by a qualified healthcare professional. A new mattress can reduce nighttime pressure on inflamed bursae, but it is not a substitute for medical treatment, physical therapy, or physician-guided management. Consult your doctor or rheumatologist before making changes to your treatment plan.
+</div>
+
+<section id="related">
+<h2>Related Guides</h2>
+<div class="related-guides">
+<div class="related-card">
+<a href="best-mattress-hip-pain.html">Best Mattress for Hip Pain</a>
+<p>General hip pain pressure relief and firmness guide for side sleepers.</p>
+</div>
+<div class="related-card">
+<a href="best-mattress-shoulder-pain.html">Best Mattress for Shoulder Pain</a>
+<p>Rotator cuff, impingement, and general shoulder pressure relief picks.</p>
+</div>
+<div class="related-card">
+<a href="best-mattress-arthritis.html">Best Mattress for Arthritis</a>
+<p>Joint inflammation and pressure relief for rheumatoid and osteoarthritis.</p>
+</div>
+<div class="related-card">
+<a href="best-mattress-side-sleepers.html">Best Mattress for Side Sleepers</a>
+<p>Top-rated picks for side sleeping comfort and spinal alignment.</p>
+</div>
+<div class="related-card">
+<a href="best-mattress-knee-pain.html">Best Mattress for Knee Pain</a>
+<p>Picks for OA, meniscus injuries, and post-surgical knee pain.</p>
+</div>
+</div>
+</section>
+
+</main>
+
+<footer>
+<div class="container">
+<p>&copy; 2026 SleepWiseReviews &mdash; <a href="/pages/privacy.html">Privacy Policy</a> &nbsp;|&nbsp; <a href="/pages/affiliate-disclosure.html">Affiliate Disclosure</a></p>
+<p style="margin-top:8px">SleepWiseReviews participates in the Amazon Associates affiliate program. We may earn a commission on qualifying purchases at no extra cost to you.</p>
+</div>
+</footer>
+
+</body>
+</html>'''
+
+output_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'posts', 'best-mattress-bursitis.html')
+os.makedirs(os.path.dirname(output_path), exist_ok=True)
+
+with open(output_path, 'w', encoding='utf-8') as f:
+    f.write(html)
+
+size = os.path.getsize(output_path)
+print(f"Written: {output_path}")
+print(f"File size: {size:,} bytes")
