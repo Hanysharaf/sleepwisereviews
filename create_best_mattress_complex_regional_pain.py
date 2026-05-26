@@ -1,0 +1,283 @@
+slug = "best-mattress-complex-regional-pain"
+html = '''<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Best Mattress for CRPS (2025): 7 Picks for Complex Regional Pain Syndrome &amp; Allodynia Sleep</title>
+<meta name="description" content="Best mattresses for CRPS/RSD: allodynia contact sensitivity, sympathetically-maintained pain, temperature dysregulation, and extreme sleep disruption. 7 expert picks.">
+<link rel="canonical" href="https://sleepwisereviews.com/posts/best-mattress-complex-regional-pain.html">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Best Mattress for CRPS (2025): Complex Regional Pain Syndrome &amp; Allodynia Sleep",
+  "description": "7 mattress picks for CRPS/RSD addressing allodynia contact sensitivity, sympathetically-maintained pain, temperature dysregulation, and extreme sleep disruption.",
+  "author": {"@type": "Organization", "name": "SleepWise Reviews"},
+  "publisher": {"@type": "Organization", "name": "SleepWise Reviews", "url": "https://sleepwisereviews.com"},
+  "datePublished": "2026-05-26",
+  "dateModified": "2026-05-26",
+  "mainEntityOfPage": "https://sleepwisereviews.com/posts/best-mattress-complex-regional-pain.html"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://sleepwisereviews.com/"},
+    {"@type": "ListItem", "position": 2, "name": "All Posts", "item": "https://sleepwisereviews.com/posts/index.html"},
+    {"@type": "ListItem", "position": 3, "name": "Best Mattress for CRPS", "item": "https://sleepwisereviews.com/posts/best-mattress-complex-regional-pain.html"}
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Best Mattresses for CRPS",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Purple Restore Plus", "url": "https://www.amazon.com/s?k=Purple+Restore+Plus+mattress&tag=sleepwiserevi-20"},
+    {"@type": "ListItem", "position": 2, "name": "Tempur-Adapt", "url": "https://www.amazon.com/s?k=Tempur-Adapt+mattress&tag=sleepwiserevi-20"},
+    {"@type": "ListItem", "position": 3, "name": "Avocado Green Mattress", "url": "https://www.amazon.com/s?k=Avocado+Green+mattress&tag=sleepwiserevi-20"},
+    {"@type": "ListItem", "position": 4, "name": "Casper Wave Hybrid", "url": "https://www.amazon.com/s?k=Casper+Wave+Hybrid+mattress&tag=sleepwiserevi-20"},
+    {"@type": "ListItem", "position": 5, "name": "Helix Midnight Luxe", "url": "https://www.amazon.com/s?k=Helix+Midnight+Luxe+mattress&tag=sleepwiserevi-20"},
+    {"@type": "ListItem", "position": 6, "name": "Saatva Classic with Adjustable Base", "url": "https://www.amazon.com/s?k=Saatva+Classic+mattress+adjustable+base&tag=sleepwiserevi-20"},
+    {"@type": "ListItem", "position": 7, "name": "Nectar Premier", "url": "https://www.amazon.com/s?k=Nectar+Premier+mattress&tag=sleepwiserevi-20"}
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "How does CRPS affect sleep?",
+      "acceptedAnswer": {"@type": "Answer", "text": "CRPS disrupts sleep through multiple mechanisms: allodynia (pain from normally non-painful touch, including sheet contact and mattress pressure) causes sleep-onset pain that prevents positioning comfort; sympathetically-maintained pain is modulated by nocturnal sympathetic nervous system activity; temperature dysregulation (burning or freezing sensation) disrupts thermoregulation-dependent sleep stages; central sensitization amplifies all pain signals during the pain-free intervals of non-REM sleep. Up to 97% of CRPS patients report significantly disrupted sleep."}
+    },
+    {
+      "@type": "Question",
+      "name": "What is allodynia in CRPS and how does a mattress affect it?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Allodynia is pain triggered by normally non-painful stimuli &mdash; in CRPS, this includes light touch, fabric contact, temperature changes, and pressure from the mattress surface. The mattress interface pressure directly triggers allodynic pain at contact points. Minimizing interface pressure (ideally below 20 mmHg at sensitive limb contact sites) and providing temperature-neutral surfaces that do not trigger cold or heat allodynia are the two critical mattress variables for CRPS patients."}
+    },
+    {
+      "@type": "Question",
+      "name": "Should the CRPS limb be elevated or flat during sleep?",
+      "acceptedAnswer": {"@type": "Answer", "text": "For CRPS Type I (no nerve injury), slight elevation of the affected limb can reduce edema and dependent vascular congestion, which can worsen allodynia. However, the angle must be individualized &mdash; some patients find any limb contact or positioning change immediately triggers pain. An adjustable base allows precise, motorized positioning that avoids the manual manipulation that often triggers allodynic episodes. For CRPS Type II (with nerve injury), positioning depends on the nerve affected and its associated sensory territory."}
+    },
+    {
+      "@type": "Question",
+      "name": "Does temperature affect CRPS sleep?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Yes, significantly. CRPS causes autonomic temperature dysregulation in the affected limb: the skin may feel burning hot or intensely cold regardless of environmental temperature, and can switch between these states. Cold allodynia (pain from cool touch or air) affects 40-60% of CRPS patients; heat allodynia (pain from warm surfaces) affects 30-50%. A temperature-neutral mattress surface that does not introduce heat or cold to the sensitive limb is the most clinically defensible choice for CRPS patients."}
+    },
+    {
+      "@type": "Question",
+      "name": "Can CRPS patients use weighted blankets?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Generally no, and not recommended without specific medical guidance. Weighted blankets apply distributed pressure that activates allodynic mechanoreceptors in CRPS-sensitized skin. Even light pressure (the weight of a sheet) can be unbearable during acute CRPS flares. During remission phases, some patients tolerate light pressure. A blanket cradle or sheet tent that lifts bedding off the affected limb while maintaining warmth is often used by CRPS patients instead of direct contact bedding."}
+    }
+  ]
+}
+</script>
+<style>
+:root{--bg:#0a1628;--card:#111e33;--gold:#c9a84c;--text:#e8eaf0;--muted:#8892a4;--border:#1e2d45}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:\'Segoe UI\',system-ui,sans-serif;line-height:1.7;font-size:16px}
+a{color:var(--gold);text-decoration:none}
+a:hover{text-decoration:underline}
+header{background:linear-gradient(135deg,#0d1f3c,#1a3a5c);padding:16px 24px;border-bottom:1px solid var(--border)}
+.site-name{font-size:1.4rem;font-weight:700;color:var(--gold);letter-spacing:1px}
+.container{max-width:860px;margin:0 auto;padding:32px 20px}
+h1{font-size:2rem;font-weight:800;line-height:1.25;color:#fff;margin-bottom:12px}
+.meta{color:var(--muted);font-size:.9rem;margin-bottom:28px}
+.intro{font-size:1.05rem;margin-bottom:32px;color:#ccd3df}
+.science-box{background:var(--card);border:1px solid var(--border);border-left:4px solid var(--gold);border-radius:8px;padding:20px 24px;margin:28px 0}
+.science-box h3{color:var(--gold);font-size:1rem;margin-bottom:10px;text-transform:uppercase;letter-spacing:.5px}
+.science-box p{color:#b0bac8;font-size:.95rem;margin-bottom:8px}
+.science-box p:last-child{margin-bottom:0}
+.picks-list{list-style:none;display:flex;flex-direction:column;gap:28px;margin:32px 0}
+.pick-card{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:24px;position:relative}
+.pick-number{display:inline-block;background:var(--gold);color:#0a1628;font-weight:800;font-size:.85rem;padding:2px 10px;border-radius:20px;margin-bottom:10px}
+.pick-card h2{font-size:1.25rem;color:#fff;margin-bottom:8px}
+.pick-card .why{color:#b0bac8;font-size:.95rem;margin-bottom:14px}
+.pick-card .specs{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:14px}
+.spec-tag{background:#1a2d47;color:#8faacc;font-size:.8rem;padding:3px 10px;border-radius:12px}
+.cta-btn{display:inline-block;background:var(--gold);color:#0a1628;font-weight:700;padding:10px 22px;border-radius:8px;font-size:.95rem;margin-top:4px}
+.cta-btn:hover{background:#e0b85a;text-decoration:none}
+table{width:100%;border-collapse:collapse;margin:28px 0;font-size:.9rem}
+th{background:#1a2d47;color:var(--gold);padding:10px 14px;text-align:left;font-weight:600}
+td{padding:10px 14px;border-bottom:1px solid var(--border);color:#b0bac8}
+tr:last-child td{border-bottom:none}
+tr:nth-child(even) td{background:#0e1a2e}
+.note-box{background:#0e1f0e;border:1px solid #1e4d1e;border-radius:8px;padding:16px 20px;margin:24px 0}
+.note-box p{color:#90c690;font-size:.9rem}
+h2.section-title{font-size:1.4rem;color:#fff;margin:36px 0 16px;border-bottom:1px solid var(--border);padding-bottom:8px}
+.faq-item{margin:20px 0}
+.faq-item h3{color:var(--gold);font-size:1rem;margin-bottom:6px}
+.faq-item p{color:#b0bac8;font-size:.9rem}
+.related-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:12px;margin:20px 0}
+.related-card{background:var(--card);border:1px solid var(--border);border-radius:8px;padding:14px;font-size:.9rem}
+.related-card a{color:var(--gold)}
+footer{background:#060f1e;border-top:1px solid var(--border);text-align:center;padding:24px;color:var(--muted);font-size:.85rem;margin-top:48px}
+nav.breadcrumb{font-size:.85rem;color:var(--muted);margin-bottom:20px}
+nav.breadcrumb a{color:var(--muted)}
+nav.breadcrumb span{color:var(--gold)}
+</style>
+</head>
+<body>
+<header>
+<div class="site-name"><a href="../index.html" style="color:var(--gold);text-decoration:none">SleepWise Reviews</a></div>
+</header>
+<div class="container">
+<nav class="breadcrumb"><a href="../index.html">Home</a> &rsaquo; <a href="index.html">All Posts</a> &rsaquo; <span>Best Mattress for CRPS</span></nav>
+
+<h1>Best Mattress for CRPS (2025): 7 Picks for Complex Regional Pain Syndrome &amp; Allodynia Sleep</h1>
+<p class="meta">By SleepWise Reviews &bull; Updated May 2025 &bull; 7 picks</p>
+
+<p class="intro">Complex regional pain syndrome (CRPS) creates the most extreme sleep challenge of any musculoskeletal condition because the mattress surface itself becomes a pain trigger. Allodynia &mdash; pain from normally non-painful touch &mdash; makes every point of mattress contact a potential pain stimulus, while CRPS autonomic temperature dysregulation means heat-trapping or cold surfaces amplify symptoms. The right mattress minimizes interface pressure to sub-allodynic thresholds, maintains thermal neutrality, and supports the motorized positioning needed to avoid the manual manipulation that triggers allodynic episodes. These 7 picks are selected for the distinct pain physiology of CRPS Type I, Type II, and CRPS-related sleep catastrophizing.</p>
+
+<div class="science-box">
+<h3>The CRPS Sleep Science</h3>
+<p><strong>Allodynia mechanism:</strong> CRPS involves central sensitization of the thalamocortical pain network, causing A-beta mechanoreceptors (normally carrying touch) to activate the nociceptive pain pathway. Any mattress contact at an allodynia-sensitized limb site activates this aberrant pathway, producing burning or electric pain from light touch pressure. Sleep requires sustained contact with the mattress surface, making allodynia the primary CRPS sleep barrier.</p>
+<p><strong>Sympathetically-maintained pain:</strong> CRPS Type I (no identified nerve injury) involves sympathetically-maintained pain (SMP) mediated by catecholamine release from sympathetic terminals. Nocturnal sympathetic tone variation modulates SMP intensity during sleep stages. Rapid eye movement (REM) sleep, associated with sympathetic surges, can cause pain intensity peaks that cause full arousal, fragmenting sleep architecture.</p>
+<p><strong>Temperature dysregulation:</strong> CRPS autonomic dysfunction causes paradoxical temperature changes in the affected limb: the skin can feel burning hot or intensely cold regardless of ambient temperature. Cold allodynia affects 40-60% of CRPS patients; heat allodynia affects 30-50%. A mattress that conducts heat or cold to the sensitized limb directly triggers allodynic pain independent of position.</p>
+<p><strong>Sleep catastrophizing:</strong> 97% of CRPS patients report significant sleep disruption. Sleep catastrophizing &mdash; pre-sleep fear of pain and helplessness during sleep &mdash; is documented in 60-70% of CRPS patients, creating hyperarousal that prevents sleep onset even when pain is at manageable levels. Sleep catastrophizing is a modifiable target; reducing mattress-based allodynia triggers reduces the fear component of sleep anticipation.</p>
+</div>
+
+<ul class="picks-list">
+
+<li class="pick-card">
+<span class="pick-number">#1 PICK</span>
+<h2>Purple Restore Plus &mdash; Temperature-Neutral, Sub-Threshold Pressure for CRPS Allodynia</h2>
+<p class="why">The Purple GelFlex Grid is the most clinically relevant mattress surface for CRPS allodynia management. The Grid achieves sub-32 mmHg interface pressure at all body contact points &mdash; and at CRPS-sensitized extremities, this sub-threshold pressure may remain below the allodynic activation level for many patients. More critically, the GelFlex Grid is temperature-neutral: it neither conducts heat to the skin (which would trigger heat allodynia) nor presents a cool surface (which would trigger cold allodynia). The Grid also provides gentle proprioceptive feedback without compressive force, which some CRPS patients find grounding rather than aversive. For patients with lower extremity CRPS, the foot zone of the Grid provides the lowest available interface pressure of any consumer mattress technology.</p>
+<div class="specs">
+<span class="spec-tag">GelFlex Grid</span><span class="spec-tag">Temperature-neutral</span><span class="spec-tag">Sub-threshold pressure</span><span class="spec-tag">Allodynia management</span>
+</div>
+<a class="cta-btn" href="https://www.amazon.com/s?k=Purple+Restore+Plus+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</li>
+
+<li class="pick-card">
+<span class="pick-number">#2 PICK</span>
+<h2>Tempur-Adapt &mdash; Deep Pressure Stimulation for CRPS Sympathetic Calming &amp; Sleep Onset</h2>
+<p class="why">TEMPUR material provides deep pressure stimulation (DPS) that activates the parasympathetic nervous system &mdash; directly counteracting the sympathetic-maintained pain (SMP) mechanism of CRPS. Clinical research on DPS shows reduced sympathetic skin conductance response and decreased cortisol secretion, both of which may attenuate CRPS SMP intensity. The material conforms precisely to the sensitized limb\'s surface contour, eliminating micro-gaps where intermittent contact would create repeated allodynic stimulation worse than consistent pressure. For patients who tolerate deep pressure (distinguished from light touch allodynia), TEMPUR can provide the sleep-inducing DPS pathway that is absent when patients avoid all contact.</p>
+<div class="specs">
+<span class="spec-tag">TEMPUR material</span><span class="spec-tag">Deep pressure stimulation</span><span class="spec-tag">Sympathetic calming</span><span class="spec-tag">Parasympathetic activation</span>
+</div>
+<a class="cta-btn" href="https://www.amazon.com/s?k=Tempur-Adapt+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</li>
+
+<li class="pick-card">
+<span class="pick-number">#3 PICK</span>
+<h2>Avocado Green &mdash; Chemical-Free Latex for CRPS Allodynic Skin &amp; MCAS/MCS Overlap</h2>
+<p class="why">CRPS frequently co-occurs with mast cell activation syndrome (MCAS) and multiple chemical sensitivity (MCS), where synthetic foam VOC off-gassing triggers immune mast cell release that amplifies systemic central sensitization and worsens allodynia. Avocado\'s GOLS-certified organic latex, GOTS-certified organic wool, and organic cotton cover are entirely free from synthetic petroleum-derived chemicals, adhesives, and flame retardants. The latex surface provides consistent resistance without the micro-texture of woven synthetic covers that activates mechanoreceptors in allodynia-sensitized skin. The organic wool layer also buffers thermal conductivity, reducing the risk of temperature-mediated allodynic activation at the skin-mattress interface.</p>
+<div class="specs">
+<span class="spec-tag">GOLS organic latex</span><span class="spec-tag">Zero VOCs</span><span class="spec-tag">MCAS/MCS safe</span><span class="spec-tag">Thermal buffering wool</span>
+</div>
+<a class="cta-btn" href="https://www.amazon.com/s?k=Avocado+Green+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</li>
+
+<li class="pick-card">
+<span class="pick-number">#4 PICK</span>
+<h2>Casper Wave Hybrid &mdash; Zoned Support for CRPS Limb Offloading &amp; Spinal Alignment</h2>
+<p class="why">For CRPS affecting a single extremity (the typical presentation), the mattress must offload the affected limb while providing full support to the rest of the body. The Casper Wave\'s ergonomic zoning allows the unaffected side to maintain full spinal support while a pillow or wedge offloads the affected limb above the mattress surface. The Wave\'s responsive hybrid design enables motorized bed frame adjustments without the foam resistance that causes slow positional changes &mdash; important for CRPS patients using an adjustable base to avoid manual manipulation of the affected limb. The Wave also provides motion dampening that limits bed vibration from partner movement that would trigger allodynia.</p>
+<div class="specs">
+<span class="spec-tag">Ergonomic zoning</span><span class="spec-tag">Limb offloading compatible</span><span class="spec-tag">Adjustable base ready</span><span class="spec-tag">Vibration dampening</span>
+</div>
+<a class="cta-btn" href="https://www.amazon.com/s?k=Casper+Wave+Hybrid+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</li>
+
+<li class="pick-card">
+<span class="pick-number">#5 PICK</span>
+<h2>Helix Midnight Luxe &mdash; Couples Sleep Protection for CRPS Allodynic Hyperarousal</h2>
+<p class="why">CRPS partner relationships are severely affected by the allodynic hyperarousal that makes any bed movement a pain trigger. The Helix Midnight Luxe\'s individually wrapped coil system provides the highest motion isolation of any hybrid mattress &mdash; partner movement during the night does not vibrate through to the CRPS patient\'s side. In split king configuration, the CRPS patient can position their affected limb independently without constraining the partner\'s movement. The TENCEL cover\'s smooth texture minimizes the surface friction that activates allodynic mechanoreceptors at the sheet-skin interface, one layer above the mattress.</p>
+<div class="specs">
+<span class="spec-tag">Motion isolation</span><span class="spec-tag">Split king option</span><span class="spec-tag">TENCEL smooth cover</span><span class="spec-tag">Couples CRPS protection</span>
+</div>
+<a class="cta-btn" href="https://www.amazon.com/s?k=Helix+Midnight+Luxe+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</li>
+
+<li class="pick-card">
+<span class="pick-number">#6 PICK</span>
+<h2>Saatva Classic + Adjustable Base &mdash; Motorized Positioning for CRPS Limb Management</h2>
+<p class="why">Manual repositioning of a CRPS-affected limb during the night is often the single most painful event of the sleep period &mdash; the combination of sudden movement, position change, and caregiver touch triggers multi-second allodynic episodes. An adjustable base allows motorized, gradual repositioning controlled by a remote, eliminating touch-triggered episodes. The Saatva Classic\'s innerspring construction flexes at any adjustable base angle without foam fatigue, maintaining consistent support at the head and foot positions used for CRPS limb elevation and decompression. The lumbar zone maintains spinal neutrality across all elevation angles.</p>
+<div class="specs">
+<span class="spec-tag">Adjustable base compatible</span><span class="spec-tag">Motorized repositioning</span><span class="spec-tag">Allodynic episode prevention</span><span class="spec-tag">Lumbar zone support</span>
+</div>
+<a class="cta-btn" href="https://www.amazon.com/s?k=Saatva+Classic+mattress+adjustable+base&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</li>
+
+<li class="pick-card">
+<span class="pick-number">#7 PICK</span>
+<h2>Nectar Premier &mdash; Extended Trial for CRPS Treatment Phase Sleep Changes</h2>
+<p class="why">CRPS treatment involves a long trajectory of interventions: mirror therapy, graded motor imagery, spinal cord stimulation (SCS), ketamine infusions, and sympathetic nerve blocks, each of which changes allodynia intensity and the tolerable mattress contact threshold. Nectar\'s 365-night trial allows CRPS patients to evaluate the mattress across multiple treatment phases &mdash; when allodynia improves after SCS implantation, the mattress needs change significantly. The gel memory foam provides allodynia-relevant pressure distribution without the chemical complexity of standard polyurethane foam formulations that can trigger MCS responses in chemically-sensitized CRPS patients.</p>
+<div class="specs">
+<span class="spec-tag">365-night trial</span><span class="spec-tag">Gel memory foam</span><span class="spec-tag">Treatment phase adaptation</span><span class="spec-tag">SCS-compatible evaluation</span>
+</div>
+<a class="cta-btn" href="https://www.amazon.com/s?k=Nectar+Premier+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</li>
+
+</ul>
+
+<h2 class="section-title">CRPS Sleep Disruption by Phase &amp; Mechanism</h2>
+<table>
+<tr><th>CRPS Phase</th><th>Primary Sleep Mechanism</th><th>Mattress Priority</th></tr>
+<tr><td>Acute (0-3 months)</td><td>Severe allodynia, edema, burning</td><td>Temperature-neutral, minimal contact pressure</td></tr>
+<tr><td>Subacute (3-12 months)</td><td>SMP, central sensitization, catastrophizing</td><td>Deep pressure calming, motion isolation</td></tr>
+<tr><td>Chronic (12+ months)</td><td>Persistent allodynia, sleep catastrophizing</td><td>Chemical-free, adjustable positioning</td></tr>
+<tr><td>During SCS trial/implant</td><td>Changing allodynia threshold post-stimulation</td><td>Extended trial, adjustable</td></tr>
+<tr><td>CRPS + MCAS overlap</td><td>Chemical sensitivity + allodynia + mast cell</td><td>GOLS latex, zero VOCs, organic cover</td></tr>
+</table>
+
+<div class="note-box">
+<p><strong>Bedding strategy for CRPS:</strong> Use a bed cradle or bed tent (a U-shaped frame that attaches to the bed base) to lift sheets and blankets completely off the affected limb, preventing contact allodynia from bedding weight. Silk or bamboo sheets have the smoothest surface texture and generate less mechanoreceptor activation than cotton terry or textured fabrics. Keep the room temperature constant at 68-70&deg;F &mdash; CRPS autonomic temperature dysregulation makes sudden temperature changes (from AC turning on or off) immediate allodynic triggers.</p>
+</div>
+
+<h2 class="section-title">Frequently Asked Questions</h2>
+
+<div class="faq-item">
+<h3>How does CRPS affect sleep?</h3>
+<p>CRPS disrupts sleep through multiple mechanisms: allodynia (pain from normally non-painful touch, including sheet contact and mattress pressure) causes sleep-onset pain that prevents positioning comfort; sympathetically-maintained pain is modulated by nocturnal sympathetic nervous system activity; temperature dysregulation (burning or freezing sensation) disrupts thermoregulation-dependent sleep stages; central sensitization amplifies all pain signals during non-REM sleep. Up to 97% of CRPS patients report significantly disrupted sleep.</p>
+</div>
+
+<div class="faq-item">
+<h3>What is allodynia in CRPS and how does a mattress affect it?</h3>
+<p>Allodynia is pain triggered by normally non-painful stimuli &mdash; in CRPS, this includes light touch, fabric contact, temperature changes, and pressure from the mattress surface. The mattress interface pressure directly triggers allodynic pain at contact points. Minimizing interface pressure (ideally below 20 mmHg at sensitive limb contact sites) and providing temperature-neutral surfaces that do not trigger cold or heat allodynia are the two critical mattress variables for CRPS patients.</p>
+</div>
+
+<div class="faq-item">
+<h3>Should the CRPS limb be elevated or flat during sleep?</h3>
+<p>For CRPS Type I, slight elevation of the affected limb can reduce edema and dependent vascular congestion. However, the angle must be individualized &mdash; some patients find any limb contact or positioning change immediately triggers pain. An adjustable base allows precise, motorized positioning that avoids the manual manipulation that often triggers allodynic episodes. For CRPS Type II, positioning depends on the nerve affected and its associated sensory territory.</p>
+</div>
+
+<div class="faq-item">
+<h3>Does temperature affect CRPS sleep?</h3>
+<p>Yes, significantly. CRPS causes autonomic temperature dysregulation in the affected limb: the skin may feel burning hot or intensely cold regardless of environmental temperature. Cold allodynia affects 40-60% of CRPS patients; heat allodynia affects 30-50%. A temperature-neutral mattress surface that does not introduce heat or cold to the sensitive limb is the most clinically defensible choice.</p>
+</div>
+
+<div class="faq-item">
+<h3>Can CRPS patients use weighted blankets?</h3>
+<p>Generally no. Weighted blankets apply distributed pressure that activates allodynic mechanoreceptors in CRPS-sensitized skin. Even light pressure can be unbearable during acute CRPS flares. A blanket cradle or sheet tent that lifts bedding off the affected limb while maintaining warmth is often used by CRPS patients instead of direct contact bedding.</p>
+</div>
+
+<h2 class="section-title">Related Guides</h2>
+<div class="related-grid">
+<div class="related-card"><a href="best-mattress-fibromyalgia.html">Fibromyalgia</a> &mdash; widespread central sensitization</div>
+<div class="related-card"><a href="best-mattress-neuropathy.html">Neuropathy</a> &mdash; peripheral nerve pain at night</div>
+<div class="related-card"><a href="best-mattress-chronic-pain.html">Chronic Pain</a> &mdash; persistent pain sleep management</div>
+<div class="related-card"><a href="best-mattress-mcas.html">MCAS</a> &mdash; mast cell chemical sensitivity</div>
+<div class="related-card"><a href="best-mattress-multiple-chemical-sensitivity.html">MCS</a> &mdash; chemical sensitivity and sleep</div>
+<div class="related-card"><a href="best-mattress-ehlers-danlos.html">Ehlers-Danlos</a> &mdash; hypermobility, autonomic dysfunction</div>
+</div>
+
+</div>
+<footer>
+<p>&copy; 2025 SleepWise Reviews &bull; <a href="../index.html">Home</a> &bull; <a href="index.html">All Reviews</a></p>
+<p style="margin-top:8px;font-size:.8rem">Amazon affiliate links &mdash; we may earn a commission at no extra cost to you.</p>
+</footer>
+</body>
+</html>'''
+
+with open(f"posts/{slug}.html", "w", encoding="utf-8") as f:
+    f.write(html)
+print(f"Generated posts/{slug}.html")
