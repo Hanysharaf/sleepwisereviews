@@ -1,0 +1,380 @@
+slug = "best-mattress-charcot-marie-tooth"
+title = "Best Mattress for Charcot-Marie-Tooth Disease"
+
+html = f"""<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Best Mattress for Charcot-Marie-Tooth Disease (2026) &mdash; 7 Picks | SleepWiseReviews</title>
+<meta name="description" content="7 expert mattress picks for Charcot-Marie-Tooth disease. AFO brace accommodation, foot drop positioning, hand-wrist neutral alignment, bony prominence pressure relief for high arches and hammertoes, and reduced-repositioning support for CMT sleep management.">
+<link rel="canonical" href="https://sleepwisereviews.com/posts/best-mattress-charcot-marie-tooth.html">
+<meta property="og:title" content="Best Mattress for Charcot-Marie-Tooth Disease (2026) &mdash; 7 Picks | SleepWiseReviews">
+<meta property="og:description" content="7 mattresses for Charcot-Marie-Tooth. AFO brace sleep accommodation, foot drop positioning, hammertoe pressure relief, hand weakness and wrist neutral alignment guide.">
+<meta property="og:url" content="https://sleepwisereviews.com/posts/best-mattress-charcot-marie-tooth.html">
+<meta property="og:type" content="article">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Best Mattress for Charcot-Marie-Tooth Disease (2026) &mdash; 7 Picks">
+<meta name="twitter:description" content="7 mattresses for CMT &mdash; AFO brace accommodation, foot drop, hammertoe pressure relief, hand weakness, and reduced repositioning support for hereditary motor-sensory neuropathy.">
+<script type="application/ld+json">
+{{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Best Mattress for Charcot-Marie-Tooth Disease (2026) &mdash; 7 Picks | SleepWiseReviews",
+  "description": "Expert-reviewed mattress picks for Charcot-Marie-Tooth disease focusing on AFO brace accommodation, foot drop positioning, bony prominence pressure relief for high arches and hammertoes, hand weakness wrist alignment, and reduced ability to reposition during sleep.",
+  "author": {{"@type": "Organization", "name": "SleepWiseReviews"}},
+  "publisher": {{"@type": "Organization", "name": "SleepWiseReviews", "logo": {{"@type": "ImageObject", "url": "https://sleepwisereviews.com/assets/logo.png"}}}},
+  "datePublished": "2026-05-26",
+  "dateModified": "2026-05-26",
+  "mainEntityOfPage": {{"@type": "WebPage", "@id": "https://sleepwisereviews.com/posts/best-mattress-charcot-marie-tooth.html"}}
+}}
+</script>
+<script type="application/ld+json">
+{{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {{"@type": "ListItem", "position": 1, "name": "Home", "item": "https://sleepwisereviews.com/"}},
+    {{"@type": "ListItem", "position": 2, "name": "Posts", "item": "https://sleepwisereviews.com/posts/index.html"}},
+    {{"@type": "ListItem", "position": 3, "name": "{title}", "item": "https://sleepwisereviews.com/posts/best-mattress-charcot-marie-tooth.html"}}
+  ]
+}}
+</script>
+<script type="application/ld+json">
+{{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "{title}",
+  "itemListElement": [
+    {{"@type": "ListItem", "position": 1, "name": "Purple RestorePlus Hybrid", "url": "https://www.amazon.com/s?k=Purple+RestorePlus+Hybrid+mattress&tag=sleepwiserevi-20"}},
+    {{"@type": "ListItem", "position": 2, "name": "Tempur-Pedic TEMPUR-Adapt", "url": "https://www.amazon.com/s?k=Tempur-Pedic+TEMPUR-Adapt+mattress&tag=sleepwiserevi-20"}},
+    {{"@type": "ListItem", "position": 3, "name": "Saatva Classic (Plush Soft) + Saatva Adjustable Base", "url": "https://www.amazon.com/s?k=Saatva+Classic+mattress&tag=sleepwiserevi-20"}},
+    {{"@type": "ListItem", "position": 4, "name": "Casper Wave Hybrid", "url": "https://www.amazon.com/s?k=Casper+Wave+Hybrid+mattress&tag=sleepwiserevi-20"}},
+    {{"@type": "ListItem", "position": 5, "name": "Avocado Green Mattress", "url": "https://www.amazon.com/s?k=Avocado+Green+mattress&tag=sleepwiserevi-20"}},
+    {{"@type": "ListItem", "position": 6, "name": "Helix Midnight Luxe", "url": "https://www.amazon.com/s?k=Helix+Midnight+Luxe+mattress&tag=sleepwiserevi-20"}},
+    {{"@type": "ListItem", "position": 7, "name": "Nectar Premier", "url": "https://www.amazon.com/s?k=Nectar+Premier+mattress&tag=sleepwiserevi-20"}}
+  ]
+}}
+</script>
+<script type="application/ld+json">
+{{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {{
+      "@type": "Question",
+      "name": "Can I sleep with my AFO braces on and what mattress surface works best?",
+      "acceptedAnswer": {{"@type": "Answer", "text": "Yes, many CMT patients sleep with ankle-foot orthoses (AFOs) on, particularly when foot drop is severe enough that the ankle collapses into plantarflexion during sleep, causing tendon contracture overnight. The mattress surface must accommodate the rigid plastic shell of the AFO without creating a pressure fulcrum at the brace edge. Memory foam and latex are the best AFO-compatible surfaces: they deform around the brace edge, preventing the concentrated pressure point that a firm surface creates where the rigid brace meets the mattress. The Purple Hyper-Elastic Polymer grid also accommodates AFO geometry effectively because the grid columns buckle selectively under high-pressure contact points. Avoid firm surfaces (firmness above 6/10) for AFO sleeping &mdash; the brace edge becomes a lever arm that concentrates body weight at a single point, creating soft tissue pressure injuries over the medial and lateral malleoli. Position a pillow or foam wedge under the calf rather than the heel to transfer load away from the AFO's ground contact point."}}
+    }},
+    {{
+      "@type": "Question",
+      "name": "What mattress firmness is best for CMT foot deformities including high arches and hammertoes?",
+      "acceptedAnswer": {{"@type": "Answer", "text": "CMT-related foot deformities &mdash; pes cavus (high arch), hammertoes, and clawed toes &mdash; create bony prominences that concentrate mattress contact pressure at points where skin is thin and underlying bony tissue is close to the surface. The metatarsal heads, hammertoe tips, and lateral foot border are the highest-risk zones for pressure injuries in CMT. Medium-soft to soft firmness (4&ndash;5.5 out of 10) is the target range: soft enough to allow the mattress surface to conform around the deformed foot architecture, distributing load across a larger contact area rather than concentrating it at bony prominences. Mattresses firmer than 6/10 create point loading at the metatarsal heads and hammertoe tips that can produce skin breakdown in CMT patients with concurrent sensory loss, who may not feel the pain warning signal before a pressure injury develops. Memory foam (TEMPUR-Adapt, Nectar Premier) provides the best pes cavus accommodation because slow-recovery foam fills the arch void, supporting the mid-foot and distributing load away from the heel and metatarsal heads."}}
+    }},
+    {{
+      "@type": "Question",
+      "name": "How does hand weakness from CMT affect sleep positioning and mattress choice?",
+      "acceptedAnswer": {{"@type": "Answer", "text": "CMT affects intrinsic hand muscles (the interossei and thenar/hypothenar muscles innervated by the ulnar and median nerves) early in the disease course, producing the characteristic 'ape hand' deformity with loss of the intrinsic muscle bulk between the metacarpals. During sleep, this creates two distinct problems. First, the hand cannot reposition itself if it falls into a mechanically unfavorable position &mdash; a wrist in flexion or ulnar deviation that would cause a neurologically healthy person to wake and self-correct goes undetected and uncorrected in CMT due to both reduced intrinsic strength and sensory loss, leading to ulnar nerve compression at the wrist (carpal tunnel equivalent) during sleep. Second, the bony prominence of the intrinsic-wasted hand &mdash; the metacarpal heads visible through thin intrinsic-atrophied skin &mdash; creates point loading on the mattress surface. A soft memory foam surface that accommodates the hand contour, combined with a separate wrist-neutral positioning pillow, addresses both problems. Adjustable-base mattress systems that allow wrist elevation reduce overnight edema in CMT hands."}}
+    }},
+    {{
+      "@type": "Question",
+      "name": "Are CMT patients at higher risk for pressure sores from reduced mobility during sleep?",
+      "acceptedAnswer": {{"@type": "Answer", "text": "Yes. CMT reduces the ability to reposition during sleep through two mechanisms: first, progressive leg weakness (particularly in the peroneal and tibial nerve distributions) makes large positional shifts during sleep effortful or impossible without waking; second, sensory loss in the feet and lower legs removes the normal pain-mediated repositioning signal that causes neurologically healthy sleepers to shift position every 20&ndash;40 minutes. The combination of reduced repositioning frequency and focal bony prominence loading from CMT foot deformities (pes cavus, hammertoes) creates sustained unrelieved pressure at the heel, lateral foot, and metatarsal heads &mdash; the classic pattern for Stage I and II pressure injuries in mobile community-dwelling CMT patients. Pressure-redistributing surfaces (sub-4.5/10 firmness with full-body contouring) and leg elevation via adjustable base are the primary preventive interventions. Any CMT patient who wakes with persistent erythema (redness that does not blanch) at a foot bony prominence should treat this as a Stage I pressure injury and immediately address the mattress contact surface at that zone."}}
+    }},
+    {{
+      "@type": "Question",
+      "name": "How are CMT sleep needs different from general peripheral neuropathy or small fiber neuropathy?",
+      "acceptedAnswer": {{"@type": "Answer", "text": "CMT, general peripheral neuropathy, and small fiber neuropathy are three distinct conditions with different dominant sleep problems. Small fiber neuropathy (SFN) is purely sensory &mdash; it damages only C and A-delta fibers, produces severe allodynia (burning from light touch), and leaves motor function completely intact; the dominant mattress need is sub-32 mmHg contact pressure elimination across all sensitized skin. General acquired peripheral neuropathy (diabetic, toxic, metabolic) affects both large and small fibers in a dying-back pattern; the dominant sleep needs are pressure relief at the feet and temperature management. CMT is fundamentally different: it is a hereditary motor-sensory neuropathy caused by mutations in genes encoding myelin proteins (PMP22, MPZ, Cx32) or axonal components, producing progressive distal motor weakness and wasting as the primary disability. The foot deformities (pes cavus, hammertoe, foot drop), hand intrinsic wasting, and reduced repositioning ability are motor consequences. Sensory loss in CMT is real but typically milder than in SFN &mdash; CMT patients rarely have the burning allodynia that defines SFN. CMT sleep needs center on bony prominence accommodation for deformed feet and hands, AFO brace compatibility, foot drop positioning, and reduced-repositioning support &mdash; a mechanically different set of requirements from allodynia-focused SFN mattress selection."}}
+    }}
+  ]
+}}
+</script>
+<style>
+  :root{{--bg:#0a1628;--card:#111e33;--gold:#c9a84c;--text:#e8eaf0;--muted:#8892a4;--red:#dc2626}}
+  *{{box-sizing:border-box;margin:0;padding:0}}
+  body{{background:var(--bg);color:var(--text);font-family:'Segoe UI',sans-serif;line-height:1.7}}
+  header{{background:var(--card);padding:1rem 2rem;border-bottom:2px solid var(--gold)}}
+  header a{{color:var(--gold);text-decoration:none;font-weight:700;font-size:1.2rem}}
+  nav{{font-size:.85rem;margin-top:.3rem}}
+  nav a{{color:var(--muted);text-decoration:none}}
+  nav a:hover{{color:var(--gold)}}
+  .container{{max-width:860px;margin:0 auto;padding:2rem 1.5rem}}
+  h1{{font-size:2rem;color:var(--gold);margin-bottom:.5rem;line-height:1.3}}
+  .subtitle{{color:var(--muted);margin-bottom:2rem;font-size:1rem}}
+  .badge{{display:inline-block;background:var(--red);color:#fff;font-size:.75rem;padding:.2rem .6rem;border-radius:4px;margin-bottom:.8rem;font-weight:600;text-transform:uppercase;letter-spacing:.05em}}
+  .toc{{background:var(--card);border:1px solid #1e2d47;border-radius:8px;padding:1.2rem 1.5rem;margin-bottom:2rem}}
+  .toc h3{{color:var(--gold);font-size:.95rem;margin-bottom:.6rem}}
+  .toc ol{{padding-left:1.2rem}}
+  .toc li{{margin:.25rem 0}}
+  .toc a{{color:var(--muted);text-decoration:none;font-size:.9rem}}
+  .toc a:hover{{color:var(--gold)}}
+  .science-box{{background:#0d1f3a;border-left:4px solid var(--gold);border-radius:6px;padding:1.2rem 1.5rem;margin:2rem 0}}
+  .science-box h3{{color:var(--gold);margin-bottom:.8rem;font-size:1rem}}
+  .science-box ul{{padding-left:1.2rem}}
+  .science-box li{{margin:.35rem 0;font-size:.92rem;color:var(--text)}}
+  .warning-box{{background:#2d1515;border-left:4px solid #ef4444;border-radius:6px;padding:1rem 1.5rem;margin:1.5rem 0}}
+  .warning-box p{{font-size:.92rem;color:#fca5a5}}
+  .pick{{background:var(--card);border:1px solid #1e2d47;border-radius:10px;padding:1.5rem;margin:1.5rem 0}}
+  .pick-header{{display:flex;align-items:center;gap:.8rem;margin-bottom:1rem}}
+  .pick-num{{background:var(--gold);color:#0a1628;font-weight:700;border-radius:50%;width:32px;height:32px;display:flex;align-items:center;justify-content:center;flex-shrink:0;font-size:.95rem}}
+  .pick-name{{font-size:1.15rem;font-weight:700;color:var(--text)}}
+  .pick-tag{{font-size:.78rem;background:#1e2d47;color:var(--gold);padding:.15rem .5rem;border-radius:4px;margin-left:.4rem}}
+  .pick-why{{font-size:.92rem;color:var(--muted);margin-bottom:.8rem;line-height:1.6}}
+  .pick-specs{{display:flex;flex-wrap:wrap;gap:.5rem;margin-bottom:1rem}}
+  .spec{{background:#0d1f3a;border:1px solid #1e2d47;border-radius:4px;padding:.25rem .6rem;font-size:.8rem;color:var(--muted)}}
+  .cmt-key{{background:#0d2a1a;border:1px solid #166534;border-radius:4px;padding:.5rem .8rem;font-size:.85rem;color:#86efac;margin-bottom:.8rem}}
+  .cta-btn{{display:inline-block;background:var(--gold);color:#0a1628;font-weight:700;padding:.6rem 1.4rem;border-radius:6px;text-decoration:none;font-size:.9rem;transition:opacity .2s}}
+  .cta-btn:hover{{opacity:.85}}
+  .table-wrap{{overflow-x:auto;margin:1.5rem 0}}
+  table{{width:100%;border-collapse:collapse;font-size:.88rem}}
+  th{{background:#1e2d47;color:var(--gold);padding:.6rem .8rem;text-align:left}}
+  td{{padding:.55rem .8rem;border-bottom:1px solid #1e2d47;color:var(--text)}}
+  tr:nth-child(even) td{{background:#0d1a2e}}
+  h2{{font-size:1.35rem;color:var(--gold);margin:2rem 0 1rem}}
+  p{{margin:.6rem 0;font-size:.95rem}}
+  .faq-item{{margin:1.2rem 0}}
+  .faq-q{{font-weight:700;color:var(--gold);margin-bottom:.4rem}}
+  .faq-a{{font-size:.92rem;color:var(--text)}}
+  .related-guides{{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:1rem;margin-top:1rem}}
+  .related-guides a{{background:var(--card);border:1px solid #1e2d47;border-radius:8px;padding:.8rem 1rem;color:var(--muted);text-decoration:none;font-size:.88rem;transition:border-color .2s}}
+  .related-guides a:hover{{border-color:var(--gold);color:var(--gold)}}
+  footer{{background:var(--card);border-top:1px solid #1e2d47;padding:1.5rem 2rem;text-align:center;color:var(--muted);font-size:.85rem;margin-top:3rem}}
+  footer a{{color:var(--gold);text-decoration:none}}
+  @media(max-width:600px){{h1{{font-size:1.5rem}}.pick-header{{flex-wrap:wrap}}}}
+</style>
+</head>
+<body>
+<header>
+  <a href="/">SleepWiseReviews</a>
+  <nav><a href="/">Home</a> &rsaquo; <a href="/posts/index.html">All Posts</a> &rsaquo; Best Mattress for Charcot-Marie-Tooth Disease</nav>
+</header>
+<div class="container">
+  <div class="badge">Health Conditions</div>
+  <h1>{title}</h1>
+  <p class="subtitle">AFO brace accommodation, foot drop and pes cavus positioning, hand-wrist neutral alignment for intrinsic weakness, bony prominence pressure relief for hammertoes and high arches, and reduced repositioning support &mdash; 7 expert picks reviewed for hereditary motor-sensory neuropathy sleep management.</p>
+
+  <div class="toc">
+    <h3>Contents</h3>
+    <ol>
+      <li><a href="#science">CMT: Pathophysiology and Sleep Challenges</a></li>
+      <li><a href="#picks">7 Mattress Picks</a></li>
+      <li><a href="#comparison">Comparison Table</a></li>
+      <li><a href="#guide">CMT Severity and Mattress Surface Guide</a></li>
+      <li><a href="#faq">Frequently Asked Questions</a></li>
+      <li><a href="#related">Related Guides</a></li>
+    </ol>
+  </div>
+
+  <div class="warning-box">
+    <p><strong>Clinical note:</strong> Charcot-Marie-Tooth disease is diagnosed by genetic testing (CMT gene panel: PMP22 duplication/deletion, MPZ, GJB1/Cx32, MFN2, and others), nerve conduction studies (slow conduction velocity in CMT1; normal or near-normal velocity with reduced amplitude in CMT2), and neurological examination. CMT is distinct from acquired peripheral neuropathy, small fiber neuropathy, and ALS. Mattress optimization supports comfort and pressure injury prevention &mdash; it does not replace neurological management, AFO fitting by a certified orthotist, physical and occupational therapy, or genetic counseling for family members.</p>
+  </div>
+
+  <div class="science-box" id="science">
+    <h3>CMT: Pathophysiology and Sleep-Specific Challenges</h3>
+    <ul>
+      <li><strong>What CMT is:</strong> Charcot-Marie-Tooth disease is the most common hereditary motor-sensory neuropathy, affecting approximately 1 in 2,500 people; it is caused by mutations in genes encoding myelin proteins (PMP22 duplication in CMT1A, most common; MPZ in CMT1B; GJB1/Connexin-32 in CMTX) or axonal components (MFN2 in CMT2A, the most common axonal form); the result is progressive distal muscle weakness and wasting, foot deformities, and variable sensory loss that is typically milder than in acquired neuropathies</li>
+      <li><strong>Distinction from small fiber neuropathy:</strong> SFN is a purely sensory condition causing severe allodynia (burning from light touch) with intact motor function; CMT is primarily a motor-sensory neuropathy with progressive distal muscle weakness as the dominant disability; CMT patients may have sensory loss but rarely develop the burning allodynia that defines SFN; the mattress needs are mechanically different &mdash; CMT requires bony prominence accommodation and AFO compatibility, not sub-32&nbsp;mmHg allodynia pressure elimination</li>
+      <li><strong>Foot drop and sleep positioning:</strong> CMT preferentially affects the peroneal nerve distribution, producing foot drop (inability to dorsiflex the ankle) from weakness of the tibialis anterior, extensor digitorum, and extensor hallucis longus muscles; during sleep without an AFO, the ankle falls into plantarflexion under the weight of the foot, stretching the Achilles tendon and posterior capsule overnight; sustained plantarflexion promotes equinus contracture that worsens functional foot drop over time &mdash; AFO accommodation during sleep is therefore a clinical priority, not simply a comfort issue</li>
+      <li><strong>Pes cavus and hammertoe pressure points:</strong> The characteristic high-arched foot (pes cavus) of CMT is caused by weakness of the intrinsic foot muscles (interossei, lumbricals) relative to the long extrinsic flexors; this imbalance plantarflexes the metatarsal heads and produces clawed toes and hammertoes; the resulting bony prominences &mdash; metatarsal heads, hammertoe tips, and the prominent lateral foot border &mdash; create focal high-pressure contact points on the mattress surface; with concurrent sensory loss, CMT patients may not feel the pain warning before pressure injury develops at these sites</li>
+      <li><strong>Intrinsic hand muscle weakness:</strong> CMT affects intrinsic hand muscles (interossei, thenar, and hypothenar muscles) producing the characteristic hand appearance with visible metacarpal head exposure and reduced grip strength; during sleep, the weakened hand cannot self-reposition from mechanically unfavorable postures; sustained wrist flexion or ulnar deviation during sleep produces median or ulnar nerve compression that compounds CMT hand symptoms; wrist-neutral sleep positioning and a conforming mattress surface for the hand are required</li>
+      <li><strong>Reduced repositioning ability:</strong> CMT progressively weakens the distal lower extremity musculature, making large positional shifts during sleep effortful or impossible without fully waking; simultaneously, sensory loss removes the pain-mediated repositioning signal that prompts healthy sleepers to shift position every 20&ndash;40 minutes; the combination of reduced shift frequency and focal bony prominence loading from CMT foot deformities creates sustained unrelieved pressure at the heel, lateral foot, and metatarsal heads, the classic pattern for pressure injury development in mobile CMT patients</li>
+      <li><strong>Sensory loss pattern:</strong> CMT sensory loss follows a length-dependent (dying-back) pattern, affecting the longest nerve fibers first &mdash; feet and ankles lose light touch, vibration, and proprioception; this sensory deficit is typically less severe than in diabetic neuropathy or SFN but is clinically significant for pressure injury risk because patients cannot feel the early warning signals (pressure discomfort, tingling) that prompt normal position changes during sleep</li>
+      <li><strong>CMT versus ALS distinction:</strong> ALS (amyotrophic lateral sclerosis) produces both upper and lower motor neuron signs (spasticity, brisk reflexes alongside weakness and wasting) and progresses rapidly to respiratory involvement; CMT produces only lower motor neuron signs (absent reflexes, wasting, no spasticity) and progresses very slowly over decades with preserved life expectancy; CMT patients are long-term mattress users with slowly evolving needs, making long trial periods and durable mattress construction especially valuable</li>
+    </ul>
+  </div>
+
+  <h2 id="picks">7 Best Mattresses for Charcot-Marie-Tooth Disease</h2>
+
+  <div class="pick">
+    <div class="pick-header">
+      <div class="pick-num">1</div>
+      <div class="pick-name">Purple RestorePlus Hybrid <span class="pick-tag">Best Overall for CMT Bony Prominence Relief</span></div>
+    </div>
+    <div class="cmt-key">CMT key: The Hyper-Elastic Polymer grid buckles completely under the high-pressure bony prominences of pes cavus and hammertoe feet, creating a near-zero pressure void beneath the metatarsal heads and hammertoe tips; the grid simultaneously supports the surrounding arch and midfoot, accommodating the deformed CMT foot architecture without generating the reactive pressure that risks skin breakdown at sensory-impaired bony prominences.</div>
+    <p class="pick-why">The Purple Hyper-Elastic Polymer grid addresses the specific mechanical challenge of CMT foot deformities through structural geometry rather than foam compression. A pes cavus foot has a dramatically reduced ground contact area: instead of a normal foot's full plantar surface distributing weight across the heel, midfoot, and metatarsal heads, the high-arched CMT foot loads almost entirely through the heel and metatarsal heads, concentrating the same body weight into perhaps one quarter the normal contact area. On a conventional mattress, this means the metatarsal heads and heel generate four times the contact pressure of a normal foot &mdash; well into the pressure injury risk range for skin that lacks sensory warning signals. The grid's column buckling selectively eliminates pressure at exactly these high-load points: when a metatarsal head presses into the grid, the columns beneath it buckle and form a void, dropping contact pressure at the bony prominence to near zero. The surrounding columns under the arch remain upright and supportive, creating a functional custom contour around the deformed foot without requiring custom fabrication. The RestorePlus's deeper grid layer provides a larger void capacity than the base Restore model, accommodating more severe pes cavus deformity. For AFO sleeping, the grid's open architecture allows the brace edge to sink in without creating a rigid fulcrum, preventing the edge-pressure injury that a firm foam surface would generate at the brace rim.</p>
+    <div class="pick-specs">
+      <span class="spec">Grid: Hyper-Elastic Polymer column buckling</span>
+      <span class="spec">Bony prominence: near-zero pressure via void formation</span>
+      <span class="spec">AFO compatible: grid accommodates brace edge</span>
+      <span class="spec">Hybrid: grid + pocketed coils</span>
+    </div>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=Purple+RestorePlus+Hybrid+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+
+  <div class="pick">
+    <div class="pick-header">
+      <div class="pick-num">2</div>
+      <div class="pick-name">Tempur-Pedic TEMPUR-Adapt <span class="pick-tag">Best for Pes Cavus Arch Filling and Hand Wrist Neutral</span></div>
+    </div>
+    <div class="cmt-key">CMT key: Slow-recovery TEMPUR material flows into the void beneath the high arch of pes cavus, supporting the mid-foot and distributing weight away from the metatarsal heads and heel; the same slow-recovery property molds around the CMT hand contour, maintaining wrist-neutral position without requiring active intrinsic muscle tension; viscous foam eliminates micro-vibration that would otherwise be amplified by the reduced proprioceptive buffering of CMT sensory loss.</div>
+    <p class="pick-why">TEMPUR material's defining property is viscous flow &mdash; under body weight, it moves slowly and continuously to fill every contour of the body surface it contacts. For a CMT pes cavus foot, this matters in a specific way: the arch of a high-arched foot creates an unsupported void between the heel and metatarsal heads. On a conventional mattress, this void means the entire body weight of the lower extremity is loaded entirely through two contact zones rather than distributed across the full plantar surface. TEMPUR material fills this arch void within 60&ndash;90 seconds, creating a surface that effectively distributes load across the entire plantar surface including the arch, reducing metatarsal head and heel contact pressure by the ratio of arch-inclusive contact area to heel-and-metatarsal-only contact area. For the typical pes cavus foot, this contact area increase is substantial &mdash; often doubling the effective load-bearing surface. The hand wrist alignment benefit derives from the same property: a CMT patient's weakened hand resting on a TEMPUR surface is molded into the position it lands in, without the reactive spring of conventional foam that would push a plantarflexed or ulnar-deviated wrist further into mechanical disadvantage. The hand remains in whatever position it contacts the surface, and TEMPUR's slow recovery means it does not spring back when the hand shifts position during deep sleep, preventing the abrupt wrist movement events that activate median and ulnar nerve compression symptoms.</p>
+    <div class="pick-specs">
+      <span class="spec">Material: TEMPUR viscous flow</span>
+      <span class="spec">Arch filling: 60&ndash;90&nbsp;second contouring</span>
+      <span class="spec">Wrist neutral: passive hand position maintenance</span>
+      <span class="spec">Recovery: 60&ndash;90&nbsp;seconds</span>
+    </div>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=Tempur-Pedic+TEMPUR-Adapt+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+
+  <div class="pick">
+    <div class="pick-header">
+      <div class="pick-num">3</div>
+      <div class="pick-name">Saatva Classic (Plush Soft) + Saatva Adjustable Base <span class="pick-tag">Best Elevation System for Foot Drop and Reduced Repositioning</span></div>
+    </div>
+    <div class="cmt-key">CMT key: Motorized leg elevation at 15&ndash;30&deg; reduces gravitational load on the plantarflexed CMT foot, prevents sustained Achilles tendon stretch from foot drop during sleep, and reduces distal edema common in CMT from venous stasis caused by reduced calf pump function; zero-effort motorized repositioning compensates for the reduced ability to shift position independently, substituting mechanical adjustment for the active repositioning that weakened CMT leg muscles cannot perform.</div>
+    <p class="pick-why">CMT patients who sleep without AFO braces face a specific overnight biomechanical problem: foot drop. The tibialis anterior and extensor muscles that normally hold the ankle in neutral dorsiflexion are weakened by peroneal nerve involvement, and during sleep, the weight of the foot causes the ankle to plantarflex passively. Over a full night's sleep, the posterior ankle capsule, Achilles tendon, and plantar fascia are loaded in a shortened position for 7&ndash;9 hours. Over weeks and months, this sustained positional stretch in the wrong direction promotes equinus contracture &mdash; a fixed shortening of the posterior ankle structures that makes foot drop functionally worse even when the patient is upright. The Saatva Adjustable Base's leg elevation at 15&ndash;30 degrees partially unloads the gravitational plantarflexion force on the foot, reducing the magnitude of posterior ankle loading during sleep. It does not replace AFO bracing for severe foot drop, but for mild-to-moderate CMT foot drop, positional elevation significantly reduces the overnight contracture risk. The second benefit addresses reduced repositioning: CMT patients often wake with hip or sacral pain from sustained pressure on one side because they cannot independently reposition during sleep. The adjustable base allows zero-effort repositioning by changing the body geometry with a remote button &mdash; substituting mechanical redistribution for the active muscular effort that CMT weakness prevents. Reduced calf muscle function in CMT also impairs venous return, producing distal leg edema; leg elevation provides direct gravitational assistance to venous drainage that the weakened calf pump cannot provide.</p>
+    <div class="pick-specs">
+      <span class="spec">Elevation: motorized 0&ndash;60&deg; head and foot</span>
+      <span class="spec">Foot drop: 15&ndash;30&deg; reduces plantarflexion load</span>
+      <span class="spec">Repositioning: zero-effort remote control</span>
+      <span class="spec">Pillow top: 3&Prime; Euro cushion</span>
+    </div>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=Saatva+Classic+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+
+  <div class="pick">
+    <div class="pick-header">
+      <div class="pick-num">4</div>
+      <div class="pick-name">Casper Wave Hybrid <span class="pick-tag">Best Zoned Design for Full-Body CMT Pressure Distribution</span></div>
+    </div>
+    <div class="cmt-key">CMT key: Seven ergonomic zones selectively soften under the shoulder and hip contact areas for CMT patients who are predominantly side sleepers due to leg weakness making back-to-side position changes effortful; softer shoulder zones reduce pressure over the greater trochanter and lateral shoulder in patients who remain in a single side position for prolonged periods due to reduced repositioning ability; zoned firmer lumbar support prevents spinal misalignment secondary to core weakness that can accompany advanced CMT.</div>
+    <p class="pick-why">CMT patients who sleep predominantly on their side &mdash; often because leg weakness makes large positional transitions effortful during the night &mdash; accumulate sustained pressure at the hip and shoulder. For a neurologically healthy person, this pressure accumulates and triggers an arousal response that prompts repositioning every 20&ndash;40 minutes. For a CMT patient with reduced leg strength and sensory loss, this repositioning signal is both weaker (reduced sensory detection of pressure discomfort) and harder to act on (reduced motor capacity to complete a positional shift). The Casper Wave Hybrid's seven ergonomic zones place the softest foam directly under the shoulder and hip regions where sustained side-sleeping pressure concentrates, distributing this load across a larger contact area and reducing peak pressure at the greater trochanter and lateral shoulder to levels that reduce pressure injury risk even with extended uninterrupted positioning periods. The firmer lumbar and waist zones maintain spinal alignment without creating mid-back pressure points &mdash; important for CMT patients who may have mild paraspinal weakness from axonal forms of the disease (CMT2) that can involve proximal musculature. The hybrid coil system below the zoned foam provides responsive edge support, which is clinically significant for CMT patients who use the mattress edge for assistance when getting in and out of bed &mdash; a mattress that collapses at the edge becomes a transfer safety hazard for patients with lower extremity weakness.</p>
+    <div class="pick-specs">
+      <span class="spec">Ergonomic zones: 7 differentiated</span>
+      <span class="spec">Shoulder and hip: selectively softer zones</span>
+      <span class="spec">Edge support: responsive hybrid coils</span>
+      <span class="spec">Lumbar: reinforced firmer zone</span>
+    </div>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=Casper+Wave+Hybrid+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+
+  <div class="pick">
+    <div class="pick-header">
+      <div class="pick-num">5</div>
+      <div class="pick-name">Avocado Green Mattress <span class="pick-tag">Best Natural Surface for CMT Skin Sensitivity</span></div>
+    </div>
+    <div class="cmt-key">CMT key: Organic Dunlop latex provides buoyant, responsive pressure relief that accommodates pes cavus foot architecture without the progressive creep of polyurethane foam that increases bony prominence pressure through the night; GREENGUARD Gold zero-VOC certification is important for CMT patients with comorbid chemical sensitivities; natural wool cover wicks moisture from skin that cannot regulate sweating effectively due to autonomic fiber involvement in some CMT variants.</div>
+    <p class="pick-why">Organic Dunlop latex offers a mechanically distinct approach to CMT foot accommodation compared to memory foam or grid systems. Latex is simultaneously buoyant and conforming: it responds instantly to positional changes (unlike memory foam's 60&ndash;90 second recovery) while providing full-contour contact around the deformed foot. For CMT patients who do change position multiple times during the night &mdash; whether through their own effort or via adjustable base repositioning &mdash; this immediate response means the mattress surface adapts to each new foot position without requiring a recovery period, preventing the brief high-pressure spike that occurs when a slow-recovery foam surface has not yet conformed to a new bony prominence location. The critical distinction from polyurethane foam is the absence of progressive creep: polyurethane foam under sustained load continues to compress slowly throughout the night, meaning the contact pressure at a bony prominence that starts at a tolerable level at 10:00&nbsp;PM may have increased 40&ndash;60% by 4:00&nbsp;AM as the foam continues to deform under sustained weight. Organic latex maintains consistent pressure characteristics throughout the night because latex's elasticity is not time-dependent. For CMT patients with prolonged uninterrupted positioning at bony prominences due to reduced repositioning ability, this time-stability of pressure is clinically significant. The organic wool cover provides passive moisture management for CMT patients whose autonomic fiber involvement produces abnormal sweating patterns &mdash; some CMT variants affect autonomic fibers that regulate sweating, producing anhidrosis or hyperhidrosis in the distal extremities.</p>
+    <div class="pick-specs">
+      <span class="spec">GREENGUARD Gold: zero VOC</span>
+      <span class="spec">GOLS organic: certified Dunlop latex</span>
+      <span class="spec">Pressure consistency: no creep throughout night</span>
+      <span class="spec">GOTS certified: organic wool moisture wicking</span>
+    </div>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=Avocado+Green+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+
+  <div class="pick">
+    <div class="pick-header">
+      <div class="pick-num">6</div>
+      <div class="pick-name">Helix Midnight Luxe <span class="pick-tag">Best for Partner Sharing and CMT Transfer Safety</span></div>
+    </div>
+    <div class="cmt-key">CMT key: Individually pocketed coil motion isolation prevents partner movement from disturbing the sustained sleep positions that CMT patients depend on &mdash; a position shift triggered by transmitted partner movement requires the CMT patient to expend significant effort to re-establish a comfortable supported position; reinforced perimeter edge coils provide a stable firm edge for CMT patients who use the mattress edge as a pivot point during transfers, reducing fall risk from mattress edge collapse during sit-to-stand.</div>
+    <p class="pick-why">CMT patients often develop specific transfer strategies for getting in and out of bed &mdash; strategies that depend on the mattress edge maintaining predictable firmness as a pivot and push-off surface. A standard mattress with soft or unsupported edges can collapse under transfer loading, creating a sudden change in the support geometry that &mdash; with weakened CMT lower extremity and hand strength &mdash; can result in a fall. The Helix Midnight Luxe's reinforced perimeter edge coil system maintains firmness at the mattress edge under full sitting body weight, providing a stable platform for the sit-to-stand transfer. This is a functional safety feature for CMT patients, not a luxury specification. The motion isolation benefit addresses a different CMT sleep management problem: CMT patients with reduced repositioning ability establish specific supported sleep positions &mdash; a particular combination of pillow positioning, leg placement, and body angle &mdash; that distributes weight optimally given their deformity pattern. Reaching this position may require significant effort and time, particularly late in disease progression. If a sleeping partner's movement transmits through the mattress and disrupts this established position, the CMT patient must expend the same effort to re-establish it &mdash; potentially requiring a full waking episode. The Helix Midnight Luxe's pocketed coil system limits motion transmission to a 2&ndash;4 coil radius, preventing cross-mattress partner movement from displacing the carefully established CMT sleep position. The zoned lumbar support maintains spinal alignment in the supported positions CMT patients depend on throughout the night.</p>
+    <div class="pick-specs">
+      <span class="spec">Edge support: reinforced perimeter coils</span>
+      <span class="spec">Transfer safety: stable edge under full body weight</span>
+      <span class="spec">Motion isolation: individually pocketed coils</span>
+      <span class="spec">Split king: available for independent positioning</span>
+    </div>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=Helix+Midnight+Luxe+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+
+  <div class="pick">
+    <div class="pick-header">
+      <div class="pick-num">7</div>
+      <div class="pick-name">Nectar Premier <span class="pick-tag">Best Long Trial for Slowly Progressive CMT</span></div>
+    </div>
+    <div class="cmt-key">CMT key: 365-night trial covers the slow CMT progression arc &mdash; foot deformity and hand weakness that are mild at mattress purchase may advance meaningfully within 12 months, and a mattress optimized for early CMT may not address the bony prominence and repositioning needs of moderate CMT a year later; gel-infused memory foam provides temperature management for CMT patients with autonomic involvement producing sweating dysregulation; lifetime warranty aligns with CMT's decades-long disease course.</div>
+    <p class="pick-why">CMT progresses slowly by hereditary neuropathy standards, but it does progress. The foot deformity present at mattress purchase may be mild pes cavus with modest hammertoe formation &mdash; manageable with a medium-soft surface. Over the following 12&ndash;24 months, the same patient may develop more pronounced metatarsal head prominence, deeper hammertoe contracture, and greater loss of intrinsic hand muscle bulk that changes the mattress requirements meaningfully. Standard 30&ndash;100 night mattress trials evaluate a mattress against a single snapshot of CMT severity at the time of purchase. Nectar's 365-night trial provides evaluation across a full year of disease progression, allowing the patient to assess whether the mattress continues to meet their needs as CMT advances or whether a different firmness or surface architecture would better accommodate their evolved deformity pattern. This extended trial is uniquely valuable for hereditary neuropathies with predictable but slow progression because it aligns the evaluation window with the relevant clinical timeline. The Nectar Premier's gel-infused memory foam addresses autonomic involvement in some CMT variants: axonal CMT2 forms in particular can involve autonomic fibers, producing sweating dysregulation (hyperhidrosis or anhidrosis) in the distal extremities that standard memory foam worsens by trapping body heat. Gel infusion provides modest temperature attenuation without sacrificing the arch-filling slow-recovery properties that CMT foot deformities require. The lifetime warranty provides confidence that the mattress remains warranted through the decades-long CMT management journey.</p>
+    <div class="pick-specs">
+      <span class="spec">Trial: 365 nights</span>
+      <span class="spec">Warranty: lifetime</span>
+      <span class="spec">Gel foam: temperature attenuated</span>
+      <span class="spec">Firmness: Medium (5.5/10)</span>
+    </div>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=Nectar+Premier+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+
+  <h2 id="comparison">Comparison Table</h2>
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr><th>Mattress</th><th>Best For</th><th>Firmness</th><th>Trial</th><th>Price Range</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Purple RestorePlus Hybrid</td><td>Bony prominence relief, AFO accommodation, pes cavus</td><td>Medium (5.5/10)</td><td>100 nights</td><td>$$$</td></tr>
+        <tr><td>Tempur-Pedic TEMPUR-Adapt</td><td>Arch filling, wrist-neutral hand positioning</td><td>Medium (5.5/10)</td><td>90 nights</td><td>$$$$</td></tr>
+        <tr><td>Saatva Classic + Adjustable Base</td><td>Foot drop elevation, reduced repositioning</td><td>Plush Soft (4.5/10)</td><td>365 nights</td><td>$$$$</td></tr>
+        <tr><td>Casper Wave Hybrid</td><td>Side-sleeper pressure zones, edge transfer support</td><td>Medium (5.5/10)</td><td>100 nights</td><td>$$$</td></tr>
+        <tr><td>Avocado Green Mattress</td><td>No-creep latex, autonomic sweating, zero VOC</td><td>Medium-Firm (6.5/10)</td><td>365 nights</td><td>$$$</td></tr>
+        <tr><td>Helix Midnight Luxe</td><td>Transfer safety edge, partner motion isolation</td><td>Medium (5.5/10)</td><td>100 nights</td><td>$$$</td></tr>
+        <tr><td>Nectar Premier</td><td>Long progressive trial, slow CMT disease arc</td><td>Medium (5.5/10)</td><td>365 nights</td><td>$$</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2 id="guide">CMT Symptom Severity and Mattress Surface Guide</h2>
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr><th>CMT Severity Stage</th><th>Dominant Sleep Problems</th><th>Recommended Surface</th><th>Key Feature</th><th>Watch For</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Mild (early CMT): minimal foot deformity, mild toe weakness, preserved hand strength</td><td>Early hammertoe tips beginning to create focal pressure; mild sensory loss in feet without reliable pain warning; foot may roll into mild plantarflexion during sleep</td><td>Medium-soft (4.5&ndash;5.5/10); memory foam or grid surface adequate; no AFO required yet</td><td>Begin pressure-redistributing surface early &mdash; CMT foot deformity progresses and early mattress adaptation prevents future skin breakdown at metatarsal heads</td><td>Watch for morning foot redness at metatarsal heads or toes &mdash; early pressure indicator before sensory loss becomes severe</td></tr>
+        <tr><td>Moderate (established CMT): pes cavus present, hammertoes fixed or semi-fixed, hand intrinsic wasting visible, some foot drop</td><td>Metatarsal head and hammertoe tip focal pressure; arch void creates concentrated heel and forefoot loading; hand cannot self-reposition; AFO required during sleep for foot drop</td><td>Soft to medium-soft (4&ndash;5/10); Purple grid or TEMPUR-Adapt for bony prominence void formation and arch filling; AFO-compatible surface required</td><td>Grid or slow-recovery foam to accommodate AFO edge without creating brace-rim pressure point; separate wrist-neutral hand pillow for intrinsic-wasted hand</td><td>Any skin discoloration or blanching at hammertoe tips, metatarsal heads, or lateral foot border requires immediate surface pressure assessment &mdash; sensory loss means wound may be advanced before pain is felt</td></tr>
+        <tr><td>Moderately advanced: significant foot drop, rigid pes cavus, clawed toes, marked hand weakness, reduced repositioning ability</td><td>Sustained single-position sleeping from inability to shift; accumulated pressure at hip and shoulder for side sleepers; foot drop requires AFO all night; heel and lateral foot border at high pressure injury risk</td><td>Soft (4/10); adjustable base for zero-effort repositioning substitution; pressure-eliminating grid surface; reinforced edge for transfers</td><td>Adjustable base as repositioning substitute; reinforced perimeter edge for transfer safety; pressure relief surface capable of accommodating prolonged uninterrupted positioning</td><td>Hip and shoulder skin integrity in sustained side sleepers; heel skin in patients who cannot reposition; any Stage I pressure injury (non-blanching erythema) requires immediate mattress surface change</td></tr>
+        <tr><td>Advanced (severe CMT): bilateral foot drop, severe hand weakness, power wheelchair or heavy walking aid use, marked proximal weakness in CMT2</td><td>Near-zero ability to independently reposition during sleep; multiple bony prominences at simultaneous risk; transfers require significant assistance; adjustable base repositioning is primary position-change mechanism</td><td>Soft pressure-redistributing surface (3.5&ndash;4/10); adjustable base essential; alternating pressure overlay may be needed if conventional mattress cannot prevent Stage I injury development at any position</td><td>Full pressure redistribution system rather than single surface feature; consider alternating pressure overlay if static surface insufficient; occupational therapy input on positioning system including wedges and body pillows</td><td>Any new skin breakdown requires immediate pressure offloading and medical assessment; advanced CMT patients should have skin checks at all bony prominences (heels, trochanters, lateral ankles, sacrum) as part of routine care</td></tr>
+        <tr><td>CMT with prominent autonomic features (especially CMT2 axonal forms): sweating dysregulation, distal edema, possible orthostatic changes</td><td>Anhidrosis (inability to sweat) produces overheating on standard foam; hyperhidrosis produces night sweats and moisture accumulation; distal edema from impaired calf pump increases skin fragility at ankles and feet</td><td>Temperature-neutral surface: grid architecture (Purple) for passive cooling; gel foam (Nectar Premier) for modest thermal attenuation; moisture-wicking organic wool cover (Avocado) for hyperhidrotic CMT</td><td>Avoid standard memory foam for anhidrotic CMT &mdash; heat trapping worsens discomfort; leg elevation (Saatva adjustable base) for edema management through gravitational venous drainage assistance</td><td>Edematous ankle and foot skin is more fragile and higher risk for pressure injury; elevated leg position is both pressure-redistributing and edema-reducing</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2 id="faq">Frequently Asked Questions</h2>
+
+  <div class="faq-item">
+    <div class="faq-q">Can I sleep with my AFO braces on and what mattress surface works best?</div>
+    <div class="faq-a">Yes, many CMT patients sleep with ankle-foot orthoses on when foot drop is severe enough to cause equinus contracture overnight. The mattress surface must accommodate the rigid AFO plastic shell without creating a pressure fulcrum at the brace edge. Memory foam and organic latex are the best AFO-compatible surfaces &mdash; they deform around the brace edge rather than generating a hard fulcrum at the brace rim. The Purple grid also accommodates AFO geometry through column buckling at the brace edge. Avoid firm surfaces (above 6/10 firmness) for AFO sleeping &mdash; the brace edge concentrates body weight at a single pressure point, risking soft tissue injury over the malleoli. Positioning a pillow under the calf rather than the heel transfers load away from the AFO's ground contact point.</div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-q">What mattress firmness is best for CMT foot deformities including high arches and hammertoes?</div>
+    <div class="faq-a">Medium-soft to soft firmness (4&ndash;5.5 out of 10) is the target range for CMT foot deformities. Pes cavus and hammertoes create bony prominences where skin is thin over exposed metatarsal heads and toe joints. Mattresses firmer than 6/10 create point loading at these prominences that can cause skin breakdown in CMT patients with sensory loss who may not feel the pressure warning before injury develops. Memory foam (TEMPUR-Adapt, Nectar Premier) provides the best pes cavus arch accommodation because slow-recovery foam fills the arch void, supporting the mid-foot and distributing load away from the heel and metatarsal heads. The Purple grid achieves a similar result through structural void formation at high-pressure bony points.</div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-q">How does hand weakness from CMT affect sleep positioning and mattress choice?</div>
+    <div class="faq-a">CMT affects intrinsic hand muscles early in the disease, producing visible wasting between the metacarpals and reduced grip strength. During sleep, the weakened hand cannot self-reposition from mechanically unfavorable postures. Sustained wrist flexion or ulnar deviation that a healthy person would self-correct goes undetected and uncorrected in CMT, producing median or ulnar nerve compression at the wrist overnight that compounds CMT hand symptoms. A soft conforming surface (memory foam or latex) that molds passively around the hand contour, combined with a wrist-neutral positioning pillow, addresses both problems. Adjustable-base leg elevation also reduces distal edema in CMT hands when the upper extremity is slightly elevated.</div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-q">Are CMT patients at higher risk for pressure sores from reduced mobility during sleep?</div>
+    <div class="faq-a">Yes. CMT reduces repositioning during sleep through two mechanisms: progressive leg weakness makes large positional shifts effortful or impossible without fully waking, and sensory loss removes the pain-mediated repositioning signal that prompts healthy sleepers to shift every 20&ndash;40 minutes. Combined with focal bony prominence loading from pes cavus and hammertoes, this creates sustained unrelieved pressure at the heel, lateral foot, and metatarsal heads &mdash; the classic pressure injury pattern for mobile CMT patients. Pressure-redistributing surfaces and leg elevation via adjustable base are the primary preventive interventions. Any CMT patient waking with non-blanching erythema at a foot bony prominence should treat this as a Stage I pressure injury and address the mattress surface immediately.</div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-q">How are CMT sleep needs different from general peripheral neuropathy or small fiber neuropathy?</div>
+    <div class="faq-a">CMT, general peripheral neuropathy, and small fiber neuropathy are three distinct conditions with different dominant sleep problems. Small fiber neuropathy (SFN) is purely sensory &mdash; it damages only C and A&delta; fibers, produces severe allodynia (burning from light touch), and leaves motor function completely intact; the dominant mattress need is sub-32&nbsp;mmHg contact pressure elimination across all sensitized skin. General acquired peripheral neuropathy (diabetic, toxic) affects both large and small fibers in a dying-back pattern; the dominant needs are foot pressure relief and temperature management. CMT is fundamentally different: it is a hereditary motor-sensory neuropathy causing progressive distal muscle weakness as the primary disability. Foot deformities (pes cavus, hammertoe, foot drop), hand intrinsic wasting, and reduced repositioning ability are motor consequences. CMT sensory loss is real but typically less severe than SFN &mdash; CMT patients rarely have the burning allodynia that defines SFN. CMT sleep needs center on bony prominence accommodation for deformed feet, AFO brace compatibility, foot drop positioning, and reduced-repositioning support &mdash; a mechanically different set of requirements.</div>
+  </div>
+
+  <h2 id="related">Related Guides</h2>
+  <div class="related-guides">
+    <a href="posts/best-mattress-neuropathy.html">Best Mattress for Neuropathy</a>
+    <a href="posts/best-mattress-small-fiber-neuropathy.html">Best Mattress for Small Fiber Neuropathy</a>
+    <a href="posts/best-mattress-multiple-sclerosis.html">Best Mattress for Multiple Sclerosis</a>
+    <a href="posts/best-mattress-restless-legs.html">Best Mattress for Restless Legs Syndrome</a>
+    <a href="posts/best-mattress-plantar-fasciitis.html">Best Mattress for Plantar Fasciitis</a>
+    <a href="posts/best-mattress-adjustable-base.html">Best Mattress for Adjustable Base</a>
+  </div>
+</div>
+<footer>
+  <p>&copy; 2026 SleepWiseReviews. All rights reserved.</p>
+  <p style="margin-top:.5rem;font-size:.8rem">As an Amazon Associate we earn from qualifying purchases. All recommendations are independent &mdash; affiliate links never influence our picks.</p>
+</footer>
+</body>
+</html>"""
+
+with open(f"posts/{slug}.html", "w", encoding="utf-8") as f:
+    f.write(html)
+print(f"Generated posts/{slug}.html")
