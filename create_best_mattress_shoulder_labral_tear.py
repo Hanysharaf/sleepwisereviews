@@ -1,0 +1,408 @@
+"""
+Generate posts/best-mattress-shoulder-labral-tear.html
+SleepWiseReviews affiliate post — shoulder labral tear / SLAP tear
+"""
+
+html = '''<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Best Mattress for Shoulder Labral Tear / SLAP Tear (2026) &mdash; 7 Picks | SleepWiseReviews</title>
+<meta name="description" content="Expert mattress picks for shoulder labral tear and SLAP tear (Types I&ndash;IV). Avoid sleeping on the affected shoulder to prevent glenohumeral compression on the torn labrum, control arm positioning to unload the biceps long head anchor, prevent overhead arm tension during sleep, and manage post-surgical sling positioning &mdash; distinct from rotator cuff tear, shoulder impingement, and frozen shoulder.">
+<link rel="canonical" href="https://sleepwisereviews.com/posts/best-mattress-shoulder-labral-tear.html">
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"Article",
+  "headline":"Best Mattress for Shoulder Labral Tear / SLAP Tear",
+  "description":"Expert-reviewed mattress picks for glenoid labral tear and SLAP tear (Types I&ndash;IV) &mdash; fibrocartilaginous ring damage at the glenoid rim with biceps long head anchor involvement &mdash; with guidance on avoiding affected-shoulder compression that directly loads the torn labrum against the humeral head, controlling arm positioning to unload the biceps long head anchor during sleep, preventing passive overhead arm tension that stretches the anterosuperior labrum across the SLAP tear site, and managing post-surgical sling positioning on the mattress surface &mdash; distinct from rotator cuff tear (supraspinatus, infraspinatus tendon damage), shoulder impingement (subacromial mechanical narrowing), and frozen shoulder (adhesive capsulitis).",
+  "author":{"@type":"Organization","name":"SleepWiseReviews"},
+  "publisher":{"@type":"Organization","name":"SleepWiseReviews","logo":{"@type":"ImageObject","url":"https://sleepwisereviews.com/assets/logo.png"}},
+  "datePublished":"2026-05-26",
+  "dateModified":"2026-05-26",
+  "mainEntityOfPage":{"@type":"WebPage","@id":"https://sleepwisereviews.com/posts/best-mattress-shoulder-labral-tear.html"}
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"BreadcrumbList",
+  "itemListElement":[
+    {"@type":"ListItem","position":1,"name":"Home","item":"https://sleepwisereviews.com/"},
+    {"@type":"ListItem","position":2,"name":"Posts","item":"https://sleepwisereviews.com/posts/index.html"},
+    {"@type":"ListItem","position":3,"name":"Best Mattress for Shoulder Labral Tear / SLAP Tear","item":"https://sleepwisereviews.com/posts/best-mattress-shoulder-labral-tear.html"}
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"ItemList",
+  "name":"Best Mattress for Shoulder Labral Tear / SLAP Tear",
+  "itemListElement":[
+    {"@type":"ListItem","position":1,"name":"Helix Midnight Luxe","url":"https://www.amazon.com/s?k=Helix+Midnight+Luxe+mattress&tag=sleepwiserevi-20"},
+    {"@type":"ListItem","position":2,"name":"Saatva Classic","url":"https://www.amazon.com/s?k=Saatva+Classic+mattress&tag=sleepwiserevi-20"},
+    {"@type":"ListItem","position":3,"name":"Purple RestorePlus Hybrid","url":"https://www.amazon.com/s?k=Purple+RestorePlus+Hybrid+mattress&tag=sleepwiserevi-20"},
+    {"@type":"ListItem","position":4,"name":"Avocado Green Mattress","url":"https://www.amazon.com/s?k=Avocado+Green+mattress&tag=sleepwiserevi-20"},
+    {"@type":"ListItem","position":5,"name":"Bear Elite Hybrid","url":"https://www.amazon.com/s?k=Bear+Elite+Hybrid+mattress&tag=sleepwiserevi-20"},
+    {"@type":"ListItem","position":6,"name":"WinkBed","url":"https://www.amazon.com/s?k=WinkBed+mattress&tag=sleepwiserevi-20"},
+    {"@type":"ListItem","position":7,"name":"Nest Bedding Sparrow Hybrid","url":"https://www.amazon.com/s?k=Nest+Bedding+Sparrow+Hybrid+mattress&tag=sleepwiserevi-20"}
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"FAQPage",
+  "mainEntity":[
+    {
+      "@type":"Question",
+      "name":"Why is sleeping on the affected shoulder so harmful with a SLAP tear or shoulder labral tear?",
+      "acceptedAnswer":{"@type":"Answer","text":"In a SLAP tear or glenoid labral tear, the fibrocartilaginous ring lining the glenoid rim is torn at one or more points, most commonly at the superior pole where the biceps long head tendon anchors onto the superior labrum (the biceps anchor). When a person sleeps on the affected shoulder, the body weight &mdash; typically 30&ndash;60% of total body weight &mdash; compresses the glenohumeral joint vertically, driving the humeral head against the glenoid surface and loading the labral tear site from multiple directions simultaneously. First, the direct compressive load drives the humeral head into the glenoid, increasing contact pressure at the torn labral segment. Second, the lateral position causes the shoulder to drop forward under gravity (glenohumeral anterior translation), which specifically stretches and shears the anterior and anterosuperior labrum &mdash; the SLAP tear zone. Third, sustained overnight compression on a damaged labrum with no muscular protection (rotator cuff muscles are relaxed during sleep) means 6&ndash;8 hours of unprotected mechanical loading at the tear site. For Type II SLAP tears (the most common, involving the biceps anchor), the combined compressive and shear forces during affected-shoulder sleeping can stress the torn biceps anchor attachment, causing pain that is distinct from the impingement-type pain of rotator cuff pathology. The solution is not mattress softness at the affected shoulder but complete offloading: contralateral side sleeping or supine sleeping, supported by a mattress that makes these alternative positions comfortable enough to maintain through a full night without involuntary rollover."}
+    },
+    {
+      "@type":"Question",
+      "name":"What is the correct arm and shoulder position during sleep for a SLAP tear?",
+      "acceptedAnswer":{"@type":"Answer","text":"Arm positioning for SLAP tear sleep management targets two simultaneous goals: unloading the biceps long head anchor (the primary injury site in Type I&ndash;II SLAP tears) and preventing anterior glenohumeral translation that stretches the anterosuperior labrum across the tear. The biceps long head originates at the supraglenoid tubercle and the superior labrum. Any position that places the biceps under passive tensile load during sleep &mdash; elbow extension with forearm supination, or overhead arm positioning &mdash; pulls the biceps tendon against its torn anchor point and stresses the SLAP repair or tear site. The correct arm position for sleep is elbow flexed to 90 degrees, forearm resting across the lower abdomen or on a firm pillow at the torso, shoulder at 0&ndash;20 degrees of forward flexion (slight forward reach position, not overhead or behind the body), and the arm internally rotated to neutral to avoid the biceps-loading supination position. In contralateral side sleeping (sleeping on the non-affected side &mdash; the recommended primary position), the affected arm must be supported on a firm body pillow placed between the arm and the mattress. The failure modes to prevent are: (1) arm drop forward off the pillow, placing the shoulder in passive abduction and the elbow in extension, elongating the biceps under gravity; (2) arm slide backward into shoulder extension and external rotation, which for Type III and IV SLAP tears with associated Bankart component can stress the anterior labrum at the 3&ndash;6 o'clock position; (3) overhead arm positioning, which maximally loads the superior labrum and the biceps anchor, is the single worst sleeping position for SLAP tears and must be actively prevented by pillow placement and sleep surface geometry. The mattress must provide a surface stable enough that the supporting arm pillow maintains its height and position relative to the shoulder through the full sleep duration."}
+    },
+    {
+      "@type":"Question",
+      "name":"How is a shoulder labral tear (SLAP tear) different from a rotator cuff tear for sleep management?",
+      "acceptedAnswer":{"@type":"Answer","text":"Shoulder labral tear (SLAP tear) and rotator cuff tear are distinct structural injuries with overlapping symptoms but different sleep management priorities: (1) Glenoid labral tear / SLAP tear &mdash; the injury is to the fibrocartilaginous ring (glenoid labrum) and specifically, in SLAP tears, to the biceps long head anchor at the superior glenoid. The primary sleep concern is glenohumeral compression on the torn labral segment, biceps anchor tension from arm positioning, and anterior glenohumeral translation during sleep on the affected side. The Bankart lesion variant (anterior-inferior labrum, 3&ndash;6 o&apos;clock position) is associated with anterior shoulder instability &mdash; positions that load the anterior capsule-labrum complex (external rotation, abduction, extension) must be avoided. (2) Rotator cuff tear &mdash; the injury is to the rotator cuff tendons (supraspinatus most commonly, infraspinatus in posterior tears). The primary sleep concern is direct tendon compression against the acromion from sleeping on the affected side, and passive tensile loading of the torn tendon under supraspinatus-loading arm positions. There is no biceps anchor involvement unless the tear is a SLAP-rotator cuff combination tear (which exists but is a separate entity). The key clinical distinction for mattress and position management: labral tear management requires controlling glenohumeral translation and biceps tension, while rotator cuff tear management prioritizes subacromial space decompression and tendon tension avoidance. A SLAP tear patient in external rotation-abduction may have their Bankart lesion loaded even while the rotator cuff tendons are in a low-tension position, and vice versa. If a clinician identifies a combined SLAP-rotator cuff tear (which is common in overhead athletes), the sleep positioning must address both injury patterns simultaneously, which typically results in a strict supine protocol with the arm in internal-rotation-neutral to split the difference between the two injury-specific position constraints."}
+    },
+    {
+      "@type":"Question",
+      "name":"What is the difference between a SLAP tear Type I, II, III, and IV for sleep management?",
+      "acceptedAnswer":{"@type":"Answer","text":"The Snyder SLAP classification (Types I&ndash;IV) describes progressively more severe glenoid labral damage, and each type has distinct sleep management implications: Type I SLAP &mdash; fraying and degeneration of the superior labrum without detachment from the glenoid rim. The biceps anchor is intact. Sleep management: primary concern is direct superior labral compression from affected-shoulder sleeping; overhead arm positioning that loads the frayed tissue through biceps traction. The biceps anchor tension risk is lower than Type II because the anchor is not detached. Type II SLAP (most common, accounting for 40&ndash;55% of all SLAP tears) &mdash; detachment of the superior labrum and biceps anchor from the supraglenoid tubercle. The biceps long head is no longer anchored in its normal position. Sleep management: highest-priority concern is biceps anchor tension &mdash; any position that elongates the biceps under passive load (elbow extension, forearm supination, overhead arm) stresses the detached anchor against the torn repair site. Arm positioning in sleep must specifically maintain elbow flexion and forearm in a supported neutral position. This is the key clinical distinction from rotator cuff tear. Type III SLAP &mdash; bucket-handle tear of the superior labrum with the biceps anchor remaining attached. The torn bucket-handle fragment can displace into the glenohumeral joint. Sleep management: affected-shoulder sleeping must be avoided because glenohumeral compression can trap or further displace the bucket-handle fragment. Post-surgical management after repair of the bucket handle follows a strict supine protocol. Type IV SLAP &mdash; bucket-handle tear extending into the biceps tendon itself. The biceps tendon is partially split. Sleep management: combines the bucket-handle fragment risk of Type III with the biceps tendon tension risk of Type II. The arm must be maintained in elbow flexion with zero elongating biceps force &mdash; the strictest arm position management of all SLAP types. Post-surgically, a Type IV repair may be combined with biceps tenodesis, after which biceps tension management during sleep is no longer required because the biceps has been reattached at a different anchor point."}
+    },
+    {
+      "@type":"Question",
+      "name":"Should I use a mattress wedge or adjustable base for a SLAP tear, and what position is best?",
+      "acceptedAnswer":{"@type":"Answer","text":"An adjustable base or wedge is one of the most effective sleep management tools for SLAP tear and shoulder labral tear, but the mechanism differs from hip conditions: the goal is not hip flexion angle management but torso elevation to reduce passive glenohumeral anterior translation during sleep. When sleeping flat in the supine position, gravity acts on the humeral head pulling it slightly anteriorly and inferiorly within the glenoid fossa &mdash; the direction of anterior-inferior labral stress. Elevating the torso to 30&ndash;45 degrees changes the gravitational vector relative to the glenohumeral joint, reducing the anterior translation tendency. For SLAP tear patients in the acute or post-operative phase who cannot tolerate flat supine sleeping due to pain, a 30&ndash;45 degree torso elevation via adjustable base or wedge maintains the humeral head more centrally in the glenoid fossa during sleep. This is the same principle behind the clinical recommendation to sleep in a recliner chair in the first 1&ndash;3 weeks post-operatively for labral repair patients. A wedge pillow under the torso achieves the same effect on a standard flat mattress at a fraction of the cost. For contralateral side sleeping &mdash; the most common long-term sleep position for labral tear management &mdash; the adjustable base is less directly relevant to the shoulder but may improve overall sleep comfort by relieving other pressure points that would otherwise cause position changes. The mattress paired with any elevation system must articulate cleanly at the head section flex hinge without creating a pressure ridge at the scapula or lateral thorax &mdash; a common failure mode when thick foam mattresses are used with adjustable bases. A mattress with a 12&ndash;14 inch profile and foam that responds elastically to flex-point bending (rather than slow-rebound memory foam that bunches) is the correct pairing for adjustable base SLAP tear management."}
+    }
+  ]
+}
+</script>
+<style>
+  :root{--bg:#0a1628;--card:#111e33;--gold:#c9a84c;--text:#e8eaf0;--muted:#8892a4;--red:#dc2626}
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{background:var(--bg);color:var(--text);font-family:\'Segoe UI\',sans-serif;line-height:1.7}
+  header{background:var(--card);padding:1rem 2rem;border-bottom:2px solid var(--gold)}
+  header a{color:var(--gold);text-decoration:none;font-weight:700;font-size:1.2rem}
+  nav{font-size:.85rem;margin-top:.3rem}
+  nav a{color:var(--muted);text-decoration:none}
+  nav a:hover{color:var(--gold)}
+  .container{max-width:860px;margin:0 auto;padding:2rem 1.5rem}
+  h1{font-size:2rem;color:var(--gold);margin-bottom:.5rem;line-height:1.3}
+  .subtitle{color:var(--muted);margin-bottom:2rem;font-size:1rem}
+  .badge{display:inline-block;background:var(--red);color:#fff;font-size:.75rem;padding:.2rem .6rem;border-radius:4px;margin-bottom:.8rem;font-weight:600;text-transform:uppercase;letter-spacing:.05em}
+  .toc{background:var(--card);border:1px solid #1e2d47;border-radius:8px;padding:1.2rem 1.5rem;margin-bottom:2rem}
+  .toc h3{color:var(--gold);font-size:.95rem;margin-bottom:.6rem}
+  .toc ol{padding-left:1.2rem}
+  .toc li{margin:.25rem 0}
+  .toc a{color:var(--muted);text-decoration:none;font-size:.9rem}
+  .toc a:hover{color:var(--gold)}
+  .science-box{background:#0d1f3a;border-left:4px solid var(--gold);border-radius:6px;padding:1.2rem 1.5rem;margin:2rem 0}
+  .science-box h3{color:var(--gold);margin-bottom:.8rem;font-size:1rem}
+  .science-box ul{padding-left:1.2rem}
+  .science-box li{margin:.35rem 0;font-size:.92rem;color:var(--text)}
+  .warning-box{background:#2d1515;border-left:4px solid #ef4444;border-radius:6px;padding:1rem 1.5rem;margin:1.5rem 0}
+  .warning-box p{font-size:.92rem;color:#fca5a5}
+  .pick{background:var(--card);border:1px solid #1e2d47;border-radius:10px;padding:1.5rem;margin:1.5rem 0}
+  .pick-header{display:flex;align-items:center;gap:.8rem;margin-bottom:1rem}
+  .pick-num{background:var(--gold);color:#0a1628;font-weight:700;border-radius:50%;width:32px;height:32px;display:flex;align-items:center;justify-content:center;flex-shrink:0;font-size:.95rem}
+  .pick-name{font-size:1.15rem;font-weight:700;color:var(--text)}
+  .pick-tag{font-size:.78rem;background:#1e2d47;color:var(--gold);padding:.15rem .5rem;border-radius:4px;margin-left:.4rem}
+  .pick-specs{display:flex;flex-wrap:wrap;gap:.5rem;margin-bottom:1rem}
+  .spec{background:#0d1f3a;border:1px solid #1e2d47;border-radius:4px;padding:.25rem .6rem;font-size:.8rem;color:var(--muted)}
+  .hyper-key{background:#0d2a1a;border:1px solid #166534;border-radius:4px;padding:.5rem .8rem;font-size:.85rem;color:#86efac;margin-bottom:.8rem}
+  .cta-btn{display:inline-block;background:var(--gold);color:#0a1628;font-weight:700;padding:.6rem 1.4rem;border-radius:6px;text-decoration:none;font-size:.9rem;transition:opacity .2s}
+  .cta-btn:hover{opacity:.85}
+  .table-wrap{overflow-x:auto;margin:1.5rem 0}
+  table{width:100%;border-collapse:collapse;font-size:.88rem}
+  th{background:#1e2d47;color:var(--gold);padding:.6rem .8rem;text-align:left}
+  td{padding:.55rem .8rem;border-bottom:1px solid #1e2d47;color:var(--text)}
+  tr:nth-child(even) td{background:#0d1a2e}
+  h2{font-size:1.35rem;color:var(--gold);margin:2rem 0 1rem}
+  p{margin:.6rem 0;font-size:.95rem}
+  .faq-item{margin:1.2rem 0}
+  .faq-q{font-weight:700;color:var(--gold);margin-bottom:.4rem}
+  .faq-a{font-size:.92rem;color:var(--text)}
+  .related-guides{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:1rem;margin-top:1rem}
+  .related-guides a{background:var(--card);border:1px solid #1e2d47;border-radius:8px;padding:.8rem 1rem;color:var(--muted);text-decoration:none;font-size:.88rem;transition:border-color .2s}
+  .related-guides a:hover{border-color:var(--gold);color:var(--gold)}
+  footer{background:var(--card);border-top:1px solid #1e2d47;padding:1.5rem 2rem;text-align:center;color:var(--muted);font-size:.85rem;margin-top:3rem}
+  footer a{color:var(--gold);text-decoration:none}
+  @media(max-width:600px){h1{font-size:1.5rem}.pick-header{flex-wrap:wrap}}
+</style>
+</head>
+<body>
+<header>
+  <a href="/">SleepWiseReviews</a>
+  <nav><a href="/">Home</a> &rsaquo; <a href="/posts/index.html">All Posts</a> &rsaquo; Best Mattress for Shoulder Labral Tear / SLAP Tear</nav>
+</header>
+<div class="container">
+  <span class="badge" style="background:#dc2626">Health</span>
+  <h1>Best Mattress for Shoulder Labral Tear / SLAP Tear (Glenoid Labrum)</h1>
+  <p class="subtitle">Glenoid labral damage &mdash; the fibrocartilaginous ring lining the shoulder socket &mdash; with biceps long head anchor involvement in SLAP tears (Types I&ndash;IV). Affected-shoulder compression avoidance, arm positioning to unload the biceps anchor, overhead arm tension prevention during sleep, SLAP vs. Bankart distinction. Distinct from rotator cuff tear (tendon damage), shoulder impingement (subacromial mechanical), and frozen shoulder (adhesive capsulitis).</p>
+
+  <div class="toc">
+    <h3>Contents</h3>
+    <ol>
+      <li><a href="#science">Glenoid Labrum Anatomy and SLAP Tear Sleep Loading</a></li>
+      <li><a href="#picks">7 Mattress Picks</a></li>
+      <li><a href="#comparison">Comparison Table</a></li>
+      <li><a href="#sleep-guide">Shoulder Labral Tear Sleep Guide</a></li>
+      <li><a href="#faq">FAQ</a></li>
+      <li><a href="#related">Related Guides</a></li>
+    </ol>
+  </div>
+
+  <div class="warning-box">
+    <p><strong>Clinical note:</strong> Shoulder labral tear and SLAP tear require diagnosis by an orthopaedic surgeon or sports medicine physician, confirmed by MRI arthrogram (plain MRI alone may miss partial tears). Management ranges from physiotherapy and activity modification to arthroscopic labral repair, biceps tenodesis, or Bankart repair depending on tear type and severity. Mattress selection is one component of a 24-hour load management strategy &mdash; it does not replace clinical management. Do not modify positioning protocols or surgical precautions based on mattress changes alone without clinician guidance.</p>
+  </div>
+
+  <div class="science-box" id="science">
+    <h3>Glenoid Labrum Anatomy: SLAP Tears, the Biceps Long Head Anchor, and How Sleep Loads the Labrum Overnight</h3>
+    <ul>
+      <li><strong>What the glenoid labrum is &mdash; and what it is not:</strong> The glenoid labrum is a fibrocartilaginous ring that lines the rim of the glenoid fossa (the shallow shoulder socket), deepening the socket by approximately 50% and acting as a seal that maintains intra-articular pressure to resist glenohumeral translation. Unlike the hip socket (a deep ball-and-socket joint with osseous stability), the glenohumeral joint relies heavily on the labrum, rotator cuff muscles, and capsular ligaments for stability. A labral tear reduces this static stability, allowing abnormal humeral head translation on the glenoid surface. This is not a rotator cuff tear (tendon damage to the supraspinatus, infraspinatus, subscapularis, or teres minor &mdash; a separate post), not shoulder impingement (subacromial mechanical narrowing from the acromion &mdash; a separate post), and not frozen shoulder (adhesive capsulitis, the inflammatory fibrosis of the joint capsule causing global range-of-motion loss &mdash; a separate post). The distinction matters for sleep management: labral tear requires translation control and biceps anchor tension management, not subacromial decompression or capsular mobilization.</li>
+      <li><strong>SLAP tear classification: Types I through IV and sleep relevance:</strong> The Snyder SLAP (Superior Labrum Anterior to Posterior) classification describes progressive levels of superior labral damage. Type I: fraying and degeneration of the superior labrum without anchor detachment &mdash; sleep concern is direct superior labral compression from affected-shoulder sleeping. Type II (most common, 40&ndash;55% of SLAP tears): detachment of the superior labrum and the biceps long head anchor from the supraglenoid tubercle &mdash; sleep concern is both superior labral compression and biceps anchor tension from arm-elongating sleep positions. Type III: bucket-handle superior labral tear with intact biceps anchor &mdash; sleep concern is glenohumeral compression displacing the bucket-handle fragment, requiring strict avoidance of affected-shoulder sleeping. Type IV: bucket-handle tear extending into the biceps tendon itself &mdash; the highest-complexity sleep management, combining bucket-handle displacement risk with biceps tendon tension, requiring strict elbow-flexed arm support during sleep. The Bankart lesion (anterior-inferior labrum, 3&ndash;6 o&rsquo;clock position) is anatomically distinct from SLAP tears &mdash; it involves the anterior labrum and inferior glenohumeral ligament complex and produces anterior shoulder instability with arm abduction-external rotation, requiring different position management (no external rotation in sleep) rather than biceps anchor management.</li>
+      <li><strong>The biceps long head anchor and its vulnerability during sleep:</strong> The biceps long head tendon originates from the supraglenoid tubercle and the superior labrum at the 12 o&rsquo;clock position of the glenoid. In Type II SLAP tears, this anchor is detached &mdash; the biceps long head is partially or fully peeled off its superior labral origin. During waking, the rotator cuff muscles maintain humeral head centralization and protect the torn anchor from stress. During sleep, muscular protection is absent. Any position that places the biceps long head under passive tensile load stretches the torn anchor against the glenoid rim: elbow extension with the arm at the side (elongates the biceps), forearm in supination (increases biceps tension by rotating the radial tuberosity into the optimal mechanical advantage position), and particularly overhead arm positioning (which both elongates and angulates the biceps tendon over the intertubercular groove). Overnight overhead arm drifting &mdash; the common sleep habit where the arm is raised above the head &mdash; is the most harmful positional failure for SLAP tear patients because it simultaneously loads the biceps anchor, stresses the anterosuperior labrum through passive stretch, and removes the protective inferior humeral head depression that the dependent arm position provides.</li>
+      <li><strong>How affected-shoulder sleeping directly loads the labral tear site:</strong> In the lateral decubitus position on the affected side, the combined weight of the torso above the shoulder compresses the glenohumeral joint along the coronal axis. This compression drives the humeral head into the glenoid fossa, generating contact pressure at the labral rim that is proportional to body weight. The labral tear site is the weakest point in this rim &mdash; the region where the cartilaginous ring is detached, frayed, or buckled. Additional glenohumeral anterior translation occurs as the shoulder drops forward under gravity in the lateral position, specifically loading the anterior and anterosuperior labrum (the SLAP zone) with shear forces superimposed on the compressive load. For Bankart tear patients (anterior labrum), this anterior translation is the primary injury mechanism: the humeral head translates anteriorly in the glenoid and compresses the anterior capsule-labrum complex, potentially completing a partial tear or displacing a repaired construct. The sustained 6&ndash;8 hour duration of this loading pattern, without active muscular protection, makes affected-shoulder sleeping the dominant nocturnal risk for labral tear progression and post-operative repair failure.</li>
+      <li><strong>Bankart lesion vs. SLAP tear: distinct positions to avoid during sleep:</strong> Although both are glenoid labral injuries, Bankart lesions (anterior-inferior labrum) and SLAP tears (superior labrum with biceps anchor) require different position avoidance during sleep. SLAP tear: avoid overhead arm positioning (biceps anchor tension), avoid elbow extension with forearm supination (biceps elongation), avoid affected-shoulder direct sleeping (superior labral compression). Bankart lesion: avoid combined shoulder abduction-external rotation (the &lsquo;throwing position&rsquo;) which loads the anteroinferior capsule-labrum complex and creates anterior subluxation risk. In practical sleep terms, a SLAP tear patient should avoid the arm-overhead sleeping position but may tolerate a neutral arm-at-side position, while a Bankart tear patient should avoid external rotation even in arm-at-side positions (the arm should be internally rotated or neutral across the body to prevent anterior capsule stress). Combined SLAP-Bankart injuries require the strictest protocol: elbow flexed, forearm across the torso in neutral to mild internal rotation, arm supported on a body pillow, no overhead arm.</li>
+      <li><strong>Rotator cuff and labral tear distinction for sleep &mdash; the subacromial space is not the issue here:</strong> In shoulder impingement and supraspinatus rotator cuff tear, the primary sleep concern is subacromial space narrowing when the humeral head rises toward the acromion under direct compression. The mattress goal is often shoulder pressure relief to prevent humeral head elevation against the acromion. For labral tear, the subacromial space is not the target structure. The concern is glenohumeral joint compression loading the glenoid rim, anterior translation loading the anterior labrum, and biceps anchor tensile loading in Type II&ndash;IV SLAP tears. A mattress that is excellent for rotator cuff tear (pressure relief at the shoulder, medium-soft) may still allow the glenohumeral anterior translation and the arm drift into overhead position that is specifically harmful for labral tear. The clinical difference: rotator cuff tear requires subacromial decompression via avoiding affected-shoulder sleeping; labral tear requires glenohumeral translation control and arm position management regardless of whether the affected shoulder is loaded or not.</li>
+      <li><strong>Post-surgical labral repair and Bankart repair: sleep surface requirements during protected healing:</strong> Arthroscopic labral repair and Bankart repair place the patient in an immobilizing sling (arm in internal rotation across the body) for 4&ndash;6 weeks post-operatively. The sling position is specifically designed to reduce tension on the repaired labrum: internal rotation closes the anterosuperior joint and reduces tension at the biceps anchor and anterior capsule repair sites. During this protected phase, the mattress must: (1) support the sling bulk on the surface without creating sling-side torso tilt that compresses the surgical shoulder; (2) be firm enough to prevent sling-side sinkage that rotates the operated shoulder downward and stresses the repair; (3) be compatible with torso elevation via adjustable base or wedge to the 30&ndash;45 degrees recommended for the acute post-operative phase; (4) articulate cleanly at the head section if an adjustable base is used, without creating a foam ridge at the scapular level that compresses the operated shoulder from below during torso elevation.</li>
+      <li><strong>Why this is distinct from frozen shoulder (adhesive capsulitis) for sleep management:</strong> Frozen shoulder involves progressive inflammatory fibrosis of the glenohumeral joint capsule, causing global range-of-motion loss in all planes (external rotation loss first, then abduction, then internal rotation). The sleep concern in frozen shoulder is finding a pain-free position within the reduced range of motion and managing the stiffness-related nocturnal pain that wakes patients at 2&ndash;4 AM from sustained position loading. Labral tear does not produce global capsular fibrosis: range-of-motion loss is not a defining feature, and the pain is specifically provoked by the positions that load the torn labral segment (compression on affected side, arm overhead for SLAP, external rotation for Bankart). The mattress approach is correspondingly different: frozen shoulder requires a softly conforming surface that accommodates the restricted shoulder in whatever reduced-range position is tolerable; labral tear requires a stable surface that prevents specific harmful arm positions and glenohumeral translation, regardless of overall range-of-motion status.</li>
+    </ul>
+  </div>
+
+  <h2 id="picks">7 Best Mattresses for Shoulder Labral Tear / SLAP Tear</h2>
+
+  <div class="pick">
+    <div class="pick-header">
+      <div class="pick-num">1</div>
+      <div class="pick-name">Helix Midnight Luxe <span class="pick-tag">Best Overall for Shoulder Labral Tear</span></div>
+    </div>
+    <div class="hyper-key">Labral tear key: Zoned pocketed coil system places softer-gauge coils at the shoulder zone, allowing the affected shoulder to avoid concentrated point pressure when sleeping on the non-affected (contralateral) side &mdash; the shoulder zone conformity reduces the discomfort that drives involuntary rollover onto the affected side. The firmer waist and lumbar zones maintain thoracic alignment, preventing the torso rotation that carries the arm into an overhead position during sleep. Motion isolation in the pocketed coil base prevents partner movement from disturbing the arm-support pillow geometry. TENCEL Lyocell cover manages moisture during post-surgical recovery periods.</div>
+    <p>The central challenge of mattress selection for shoulder labral tear is making the safe sleep positions &mdash; contralateral side sleeping and supine sleeping &mdash; comfortable enough that the sleeper does not involuntarily roll onto the affected shoulder during the night. The affected shoulder cannot simply be protected by padding or pressure relief at the shoulder itself; the sleep surface must be comfortable enough on the non-affected side that there is no biomechanical incentive to rotate toward the injured side. The Helix Midnight Luxe addresses this through its zoned coil architecture: the shoulder zone uses softer-gauge pocketed coils that conform to the shoulder width and allow the non-affected shoulder to settle into the surface without the point pressure at the lateral deltoid and acromion that makes side sleeping uncomfortable on firmer surfaces. When the non-affected shoulder is comfortable, the sleeper maintains the lateral-non-affected position through the full night without the position changes that risk shoulder rollover. The firmer coils in the waist and lumbar zones maintain thoracic spinal alignment, which is the second mechanism by which the mattress protects the labrum: good thoracic alignment in side sleeping prevents the thoracic rotation that carries the overhead arm into a SLAP-loading position during sleep. The zoned differential &mdash; softer at the shoulder zone for non-affected-side comfort, firmer at the torso for alignment &mdash; works as a passive arm position management system. The body pillow placed between the affected arm and the mattress in contralateral side sleeping maintains its height on the firmer torso zone, supporting the arm in the elbow-flexed, forearm-neutral position without the pillow sinking into the surface. Motion isolation in the pocketed coil design prevents partner movement from dislodging the arm support pillow or disrupting the maintained position, which is the most common cause of mid-night position change to the affected shoulder.</p>
+    <div class="pick-specs">
+      <span class="spec">Zoned coils: softer shoulder zone for contralateral comfort</span>
+      <span class="spec">Firmer waist zone: prevents thoracic rotation and overhead arm drift</span>
+      <span class="spec">Motion isolation: arm pillow geometry maintained through the night</span>
+      <span class="spec">TENCEL cover: moisture management for post-surgical recovery</span>
+    </div>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=Helix+Midnight+Luxe+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+
+  <div class="pick">
+    <div class="pick-header">
+      <div class="pick-num">2</div>
+      <div class="pick-name">Saatva Classic <span class="pick-tag">Best for Supine Sleeping with SLAP Tear</span></div>
+    </div>
+    <div class="hyper-key">Labral tear key: Dual coil system provides a stable, vibration-resistant surface that allows the affected arm to be placed in the supported elbow-flexed position on the mattress without the arm slowly sliding into an elongating elbow-extension position as the night progresses. The lumbar zone enhancement maintains thoracic and lumbar alignment in supine, reducing the compensatory shoulder muscle activity that occurs with a sagging midline. Genuine adjustable base compatibility allows 30&ndash;45 degree torso elevation for the acute post-operative or high-pain phase &mdash; the position that reduces passive glenohumeral anterior translation. Available in luxury-firm and firm for different post-operative phases.</div>
+    <p>Supine sleeping is the position that most consistently offloads the glenoid labrum in shoulder labral tear patients: both shoulders bear weight symmetrically (neither is compressed), the humeral head rests in the glenoid fossa under symmetrical gravitational force rather than the asymmetric lateral compression of side sleeping, and the arm can be placed in the clinically correct position &mdash; elbow flexed to 90 degrees, forearm resting on the abdomen or on a small pillow &mdash; with gravity assisting rather than working against the position. The failure modes in supine sleeping for labral tear are: the arm sliding into elbow extension on the mattress surface (elongating the biceps and stressing the Type II SLAP anchor) and the arm drifting overhead into abduction-external rotation (loading both the biceps anchor and, for Bankart tears, the anterior capsule). The Saatva Classic&rsquo;s dual coil architecture &mdash; individually wrapped comfort coils over a tempered steel base coil layer &mdash; provides a stable, low-drift surface where the arm position pillow maintains its height and position relative to the shoulder through the full night. The individually wrapped comfort coils respond independently to the shoulder-to-mattress contact, providing a conforming surface without the mattress-wide compression that would allow the arm to slide. The lumbar zone enhancement directly counters the lumbar sag that is the most common source of supine sleep discomfort, reducing the compensatory lumbar muscle activity and nocturnal position shifting that would otherwise disturb the maintained arm position. Adjustable base compatibility allows the head section to be elevated 30&ndash;45 degrees, achieving the recliner-angle supine position that reduces passive glenohumeral anterior translation &mdash; the post-operative recommendation for the acute phase. The firm option (7/10) is appropriate for post-operative patients in the protected healing phase who need maximum surface stability for arm position maintenance.</p>
+    <div class="pick-specs">
+      <span class="spec">Dual coil: stable surface prevents arm slide into elbow extension</span>
+      <span class="spec">Lumbar zone: supine alignment without compensatory muscle activity</span>
+      <span class="spec">Adjustable base: 30-45 degree torso elevation for glenohumeral centering</span>
+      <span class="spec">Firm 7/10 option: post-op arm position maintenance</span>
+    </div>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=Saatva+Classic+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+
+  <div class="pick">
+    <div class="pick-header">
+      <div class="pick-num">3</div>
+      <div class="pick-name">Purple RestorePlus Hybrid <span class="pick-tag">Best for Shoulder Pressure Relief Without Glenohumeral Compression</span></div>
+    </div>
+    <div class="hyper-key">Labral tear key: GelFlex polymer grid distributes shoulder contact pressure across the open grid geometry without requiring the foam compression that would drive the glenohumeral joint deeper into the sleep surface. For contralateral side sleeping, the grid relieves the lateral deltoid and acromion pressure on the non-affected shoulder without the deep sinkage that would rotate the thorax and carry the affected arm into an overhead drift position. The grid&apos;s pressure redistribution is independent of foam compression &mdash; clinically significant because soft foam relieves shoulder pressure by sinking the shoulder deeper (increasing glenohumeral translation), while the grid relieves pressure without changing shoulder geometry.</div>
+    <p>In shoulder labral tear management, non-affected shoulder pressure relief and glenohumeral joint geometry management are two different problems that standard foam layers solve with the same mechanism: compression. When a soft foam layer compresses under the shoulder, it both relieves the lateral deltoid pressure (solving problem 1) and sinks the shoulder deeper into the surface, increasing thoracic lateral flexion and sometimes carrying the thorax into a rotation that shifts the affected arm&rsquo;s position (complicating problem 2). For labral tear patients whose contralateral shoulder is also tender or has its own pathology (not uncommon in overhead athletes who present with bilateral shoulder problems), the non-affected shoulder&rsquo;s need for pressure relief can conflict with the affected shoulder&rsquo;s need for precise arm position management. The Purple RestorePlus GelFlex grid breaks this conflict by providing pressure redistribution through load spreading across the open grid cells rather than through surface compression. The grid walls buckle elastically under the concentrated point pressure of the lateral acromion and deltoid, distributing the contact load over a larger area without the grid as a whole descending relative to the mattress. The result is measurable lateral shoulder pressure relief at the non-affected side without the thoracic rotation from deep foam compression that would drift the affected arm into an SLAP-loading position. For patients with sensitivity at both shoulders &mdash; or for patients where the non-affected shoulder has had previous surgery or tendinopathy &mdash; the Purple&rsquo;s pressure management approach is the most shoulder-specific solution in this guide. The pocketed coil base provides the structural stability needed for the body pillow supporting the affected arm, and the grid&rsquo;s temperature neutrality prevents the heat accumulation at the shoulder that occurs with slow-rebound memory foam.</p>
+    <div class="pick-specs">
+      <span class="spec">GelFlex grid: shoulder pressure relief without deep glenohumeral sinkage</span>
+      <span class="spec">Pressure redistribution independent of foam compression</span>
+      <span class="spec">Bilateral shoulder sensitivity: grid relieves both sides without rotating thorax</span>
+      <span class="spec">Temperature neutral: no heat accumulation at shoulder contact zone</span>
+    </div>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=Purple+RestorePlus+Hybrid+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+
+  <div class="pick">
+    <div class="pick-header">
+      <div class="pick-num">4</div>
+      <div class="pick-name">Bear Elite Hybrid <span class="pick-tag">Best for Post-Surgical Labral Repair with Adjustable Base</span></div>
+    </div>
+    <div class="hyper-key">Labral tear key: The 12-inch profile and Energex foam flex cleanly at the adjustable base head-section hinge without creating a foam pressure ridge at the scapular level &mdash; a critical failure mode for post-surgical labral repair patients who use torso elevation to reduce glenohumeral anterior translation. For the first 4&ndash;6 weeks post-operatively, the sling must be worn during sleep; the Bear Elite&apos;s head section elevation places the shoulder at 30&ndash;45 degrees, maintaining the humeral head centrally in the glenoid fossa and reducing passive anterior translation at the Bankart or SLAP repair site. Celliant cover far-infrared technology supports local tissue circulation during the vascular-demanding labral healing phase.</div>
+    <p>Post-surgical arthroscopic labral repair and Bankart repair require the patient to wear an immobilizing sling during sleep for 4&ndash;6 weeks, during which the operative shoulder must be maintained in the surgeon-prescribed position: typically internal rotation across the body at 20&ndash;30 degrees of forward flexion, elbow at 90 degrees. The most common clinical recommendation for the immediate post-operative phase is 30&ndash;45 degree torso elevation (the recliner-angle position) rather than flat supine, because this elevation reduces passive glenohumeral anterior translation and takes the biceps long head tendon out of the elongated position that would stress a Type II SLAP repair or biceps tenodesis suture. An adjustable base that elevates the head section to 30&ndash;45 degrees achieves this consistently through the night, without the patient needing to sleep in a recliner chair. The mattress paired with this base must articulate cleanly at the head section flex hinge, which typically occurs at the mid-thoracic level. If the mattress comfort layer bunches or creates a ridge at this hinge point, the patient experiences pressure at the scapular level or mid-thoracic spine that is both uncomfortable and potentially compresses the surgical shoulder against the ridge during the elevated position. The Bear Elite Hybrid&rsquo;s 12-inch profile is substantially thinner than foam-dominant competitors, reducing the mechanical resistance and fold depth at the hinge point and allowing clean head-section elevation without ridging. Energex foam has a latex-like elastic response, flexing with the hinge articulation and returning to flat without developing a permanent compression set at the fold crease &mdash; relevant for patients who use the elevated position nightly for weeks to months. The Celliant far-infrared cover is particularly relevant for labral tissue: the glenoid labrum has a relatively avascular structure in its inner zone, and enhanced peripheral circulation during sleep supports the healing demands of the post-surgical period.</p>
+    <div class="pick-specs">
+      <span class="spec">12-inch profile: clean head-section flex without scapular ridge</span>
+      <span class="spec">Adjustable base: 30-45 degree torso elevation reduces glenohumeral anterior translation</span>
+      <span class="spec">Energex foam: no permanent compression set at daily flex hinge</span>
+      <span class="spec">Celliant cover: far-infrared for labral tissue circulation during healing</span>
+    </div>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=Bear+Elite+Hybrid+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+
+  <div class="pick">
+    <div class="pick-header">
+      <div class="pick-num">5</div>
+      <div class="pick-name">Avocado Green Mattress <span class="pick-tag">Best Firm Stable Surface for SLAP Tear Arm Position Management</span></div>
+    </div>
+    <div class="hyper-key">Labral tear key: Available in firm (7.5/10) &mdash; the highest-firmness latex hybrid in this guide &mdash; providing a stable, non-compliant surface that resists arm and body pillow drift during sleep. The Type II SLAP tear patient&apos;s primary sleep risk is the arm sliding from the supported elbow-flexed position into elbow extension across a soft sleep surface as overnight muscle tone decreases. A firm, drift-resistant surface with GOLS Dunlop latex base prevents both arm pillow sinkage and surface compliance that allows position drift. The Talalay comfort layer provides enough surface give at the shoulder for non-affected-side pressure relief without compromising the firm base that anchors the arm pillow.</div>
+    <p>For Type II SLAP tear patients during the conservative management or early post-operative period, the primary sleep risk is not only the initial arm position at sleep onset but position drift through the night as muscle tone progressively decreases during deep sleep stages. A body pillow supporting the affected arm in the elbow-flexed, forearm-neutral position must remain at a consistent height and position relative to the shoulder for the full sleep duration. On a compliant foam surface, the pillow gradually sinks into the material, reducing pillow height and allowing the supported arm to progressively lower toward the mattress &mdash; eventually reaching a position where the elbow is at 120&ndash;150 degrees of flexion (approaching extension) and the biceps is increasingly elongated. On a firm surface, the pillow maintains its height relative to the mattress because the surface does not yield progressively under the pillow and arm weight. The Avocado Green Mattress in firm configuration (7.5/10) provides the highest surface stability of any latex hybrid in this guide. The GOLS-certified Dunlop latex base has a higher density and lower progressive compression creep than Talalay or foam alternatives: the resistance at hour 1 and hour 8 of sleep is functionally the same, preventing the overnight drift that occurs with foam surfaces that soften progressively under sustained body heat and weight. The Talalay comfort layer above provides the shoulder zone give needed for non-affected-side pressure relief without contributing to drift at the pillow support zone. GREENGUARD Gold certification is relevant for post-surgical patients with elevated environmental sensitivity during active healing, and the organic materials stack (latex, wool, cotton) provides a low-chemical-load sleep environment appropriate for the recovery period.</p>
+    <div class="pick-specs">
+      <span class="spec">Firm 7.5/10: highest surface stability, no arm pillow drift</span>
+      <span class="spec">GOLS Dunlop base: no progressive compression creep overnight</span>
+      <span class="spec">Talalay comfort layer: shoulder pressure relief without compromising base stability</span>
+      <span class="spec">GREENGUARD Gold: low-VOC for post-surgical healing environment</span>
+    </div>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=Avocado+Green+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+
+  <div class="pick">
+    <div class="pick-header">
+      <div class="pick-num">6</div>
+      <div class="pick-name">WinkBed <span class="pick-tag">Best for Overhead Athletes and Larger Body Frames with SLAP Tear</span></div>
+    </div>
+    <div class="hyper-key">Labral tear key: Multiple firmness options (softer 4.5/10, luxury firm 6.5/10, firmer 7.5/10) accommodate the wide range of overhead athlete body types who present with SLAP tears. High-density SupportFlex foam layer prevents the progressive body-weight-driven surface compliance that, over 4&ndash;6 hours, can turn a medium mattress into a position-drift risk. For athletes with broader shoulders (common in throwing athletes, swimmers, and CrossFit athletes &mdash; the primary SLAP tear demographic), the WinkBed&apos;s shoulder width accommodation in the luxury-firm configuration provides adequate shoulder pressure relief on the non-affected side without requiring a downgrade to a surface that would compromise arm position stability.</div>
+    <p>SLAP tears are disproportionately a condition of overhead athletes: baseball pitchers, swimmers, volleyball players, tennis players, and weightlifters present with SLAP tears from the repetitive overhead mechanical demands that stress the biceps anchor and the anterosuperior labrum. These athletes typically present with larger shoulder widths and denser musculature than the general population, which creates a specific mattress challenge: a mattress firmness that provides adequate pelvic and lumbar support for a standard frame may be unacceptably pressure-concentrating at the broader shoulder of an athlete weighing 90&ndash;110 kg with a shoulder width of 55&ndash;65 cm. Standard mattress firmness testing occurs at body weight benchmarks that underrepresent the athlete population. A luxury-firm mattress rated for a 70 kg frame may function as medium-firm under a 100 kg athlete, reducing surface stability and increasing arm drift risk. The WinkBed&rsquo;s high-density SupportFlex foam maintains its firmness rating across a broader body weight range than standard foam layers, ensuring that the surface provides consistent pillow-support stability at hour 1 and hour 7 for heavier athletes. The multiple firmness options &mdash; softer (4.5/10), luxury firm (6.5/10), firmer (7.5/10) &mdash; allow the overhead athlete to select based on their body weight and the specific balance between non-affected shoulder pressure relief and arm position stability required by their SLAP tear type and clinical phase. Athletes in the conservative management phase may prioritize the softer option for non-affected shoulder comfort; athletes in the post-operative restriction phase with Type II SLAP repair may prioritize the firmer option for arm position maintenance and pillow stability.</p>
+    <div class="pick-specs">
+      <span class="spec">SupportFlex foam: sustained firmness at overhead athlete body weights</span>
+      <span class="spec">Three firmness options: 4.5 / 6.5 / 7.5/10 for different clinical phases</span>
+      <span class="spec">Shoulder width accommodation: broad frame non-affected-side comfort</span>
+      <span class="spec">No progressive sinkage creep: arm pillow geometry stable through full night</span>
+    </div>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=WinkBed+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+
+  <div class="pick">
+    <div class="pick-header">
+      <div class="pick-num">7</div>
+      <div class="pick-name">Nest Bedding Sparrow Hybrid <span class="pick-tag">Best Long Trial for Full SLAP Tear Rehabilitation Arc</span></div>
+    </div>
+    <div class="hyper-key">Labral tear key: 365-night trial covers the full SLAP tear management timeline &mdash; conservative physiotherapy alone runs 3&ndash;6 months, and arthroscopic labral repair adds another 4&ndash;6 months of post-operative rehabilitation. The Comfort+ flippable layer (soft 4.5/10 or medium-firm 6.5/10) allows firmness adjustment as the clinical phase shifts from acute symptomatic (needs maximum non-affected-shoulder pressure relief) to post-operative (needs maximum arm position stability). The 365-night window also accommodates the 6&ndash;month decision point at which conservative management patients who are not improving proceed to surgical intervention, changing their sleep requirements.</div>
+    <p>SLAP tear management is a multi-phase process that spans months to over a year, with distinct sleep requirements at each phase. During the acute conservative management phase (weeks 1&ndash;6): primary concern is non-affected shoulder comfort in side sleeping and preventing overnight arm drift into SLAP-loading positions; a medium-soft surface (4.5&ndash;5/10) may be appropriate to maximize non-affected shoulder pressure relief and incentivize consistent contralateral sleeping. During the physiotherapy-driven progressive loading phase (months 2&ndash;5): increasing activity tolerance and shoulder strength means that the arm pillow support system can be gradually reduced as active muscular control of the arm position during sleep is re-established; firmness requirements shift less dramatically as the patient&rsquo;s own stabilization improves. During the post-operative phase (weeks 1&ndash;12 post-labral repair): maximum surface stability is needed for arm position maintenance, sling accommodation, and adjustable base compatibility; a medium-firm surface (6.5/10) is the clinical standard. Standard 90&ndash;100 night mattress trials capture only the first phase of this arc. The Nest Bedding Sparrow Hybrid&rsquo;s 365-night trial eliminates the mismatch between the evaluation window and the condition timeline. The Comfort+ flippable layer allows adjustment between the soft (4.5/10) configuration for the acute phase and the medium-firm (6.5/10) configuration for the post-operative phase without a return or an additional purchase. The pocketed coil base provides good edge support for patients who use the mattress edge as a positioning aid when transitioning from lying to sitting &mdash; relevant for patients in the immediate post-operative sling phase when shoulder elevation from lying is restricted and requires edge-push leverage from the non-affected arm.</p>
+    <div class="pick-specs">
+      <span class="spec">365-night trial: covers conservative management + full post-op arc</span>
+      <span class="spec">Comfort+ flip: 4.5/10 (acute phase) or 6.5/10 (post-op phase)</span>
+      <span class="spec">Edge support: positioning aid for sling-phase lying-to-sitting transfers</span>
+      <span class="spec">CertiPUR-US: certified foam for year-long rehabilitation use</span>
+    </div>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=Nest+Bedding+Sparrow+Hybrid+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+
+  <h2 id="comparison">Comparison Table</h2>
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr><th>Mattress</th><th>Best For</th><th>Firmness</th><th>Trial</th><th>Price Range</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Helix Midnight Luxe</td><td>Overall &mdash; contralateral shoulder comfort, arm pillow stability, motion isolation</td><td>Medium (5.5/10)</td><td>100 nights</td><td>$$$</td></tr>
+        <tr><td>Saatva Classic</td><td>Supine sleeping &mdash; arm slide prevention, adjustable base torso elevation</td><td>Luxury-firm 5.5 or Firm 7/10</td><td>365 nights</td><td>$$$</td></tr>
+        <tr><td>Purple RestorePlus Hybrid</td><td>Shoulder pressure relief without glenohumeral translation or thoracic rotation</td><td>Medium (5.5/10)</td><td>100 nights</td><td>$$$</td></tr>
+        <tr><td>Bear Elite Hybrid</td><td>Post-surgical adjustable base &mdash; torso elevation, scapular-level flex clearance</td><td>Medium-Firm (6/10)</td><td>120 nights</td><td>$$$</td></tr>
+        <tr><td>Avocado Green Mattress</td><td>Firm stable surface &mdash; no arm pillow drift, SLAP anchor tension prevention</td><td>Firm (7.5/10)</td><td>365 nights</td><td>$$$</td></tr>
+        <tr><td>WinkBed</td><td>Overhead athletes &mdash; sustained firmness at higher body weights, broad shoulder frames</td><td>4.5 / 6.5 / 7.5/10</td><td>120 nights</td><td>$$$</td></tr>
+        <tr><td>Nest Bedding Sparrow Hybrid</td><td>Long trial &mdash; full conservative + post-op SLAP rehabilitation timeline</td><td>Flip: 4.5 or 6.5/10</td><td>365 nights</td><td>$$</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2 id="sleep-guide">Shoulder Labral Tear Sleep Guide</h2>
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr><th>Sleep Factor</th><th>Mechanism</th><th>Mattress Requirement</th><th>Best Option</th><th>Avoid</th></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Sleeping on Affected Shoulder</td>
+          <td>Direct glenohumeral compression drives humeral head into glenoid rim, loading the torn labral segment. Anterior shoulder drop in lateral position shears the anterosuperior labrum across the SLAP tear site. 6&ndash;8 hours of sustained mechanical loading at the tear without active muscular protection. For Bankart tears, anterior translation in lateral position stresses the anterior capsule-labrum complex.</td>
+          <td>Affected-shoulder sleeping should be completely avoided in both conservative management and post-operative phases. The mattress must make contralateral side sleeping or supine sleeping comfortable enough to maintain through the full night without rollover. Adequate non-affected shoulder pressure relief is the primary mattress criterion &mdash; it removes the positional incentive that drives rollover to the affected side.</td>
+          <td>Helix Midnight Luxe (softer shoulder zone on non-affected side makes contralateral sleeping sustainable); Purple RestorePlus (GelFlex grid maximizes non-affected shoulder pressure relief without thoracic rotation)</td>
+          <td>Uniformly firm mattresses that concentrate non-affected shoulder pressure, making contralateral side sleeping painful enough to cause involuntary rollover; any surface where the non-affected shoulder cannot be maintained comfortably for a full night</td>
+        </tr>
+        <tr>
+          <td>Overhead Arm Drift During Sleep</td>
+          <td>The most damaging nocturnal position for SLAP tears: arm raised above the head elongates the biceps long head tendon against the torn anchor, stretches the anterosuperior labrum under passive tension, and for Bankart tears, places the shoulder in the abduction-external rotation position that stresses the anterior capsule-labrum complex. Occurs passively as muscle tone decreases in deep sleep. The mattress surface compliance influences whether the arm pillow maintains position or drifts downward through the night.</td>
+          <td>Body pillow placed between the affected arm and the mattress surface in contralateral side sleeping; pillow must maintain 90-degree elbow flexion and forearm-neutral position through the full night. Mattress must provide a firm enough surface that the body pillow does not sink, reducing pillow height and allowing arm drift into elbow extension. Motion isolation prevents partner movement from dislodging the pillow setup.</td>
+          <td>Avocado Green Firm (highest surface stability for pillow geometry maintenance); Helix Midnight Luxe (motion isolation prevents pillow dislodgement); Saatva Classic (stable dual coil base for supine arm position maintenance)</td>
+          <td>Soft or slow-rebound memory foam mattresses where the body pillow sinks into the surface overnight, reducing elbow flexion support and allowing arm drift; any surface where the patient cannot physically prevent the arm from reaching overhead during sleep</td>
+        </tr>
+        <tr>
+          <td>Bankart vs. SLAP Position Distinction</td>
+          <td>SLAP tears (superior labrum, biceps anchor): primary avoidance is overhead arm and elbow extension positions that load the biceps anchor. Bankart tears (anterior-inferior labrum, 3&ndash;6 o&apos;clock): primary avoidance is shoulder external rotation and abduction in sleep, which loads the anterior capsule-labrum complex and risks anterior subluxation. Combined SLAP-Bankart: strictest protocol &mdash; elbow flexed, arm in mild internal rotation across the body, no overhead or external rotation positions.</td>
+          <td>For SLAP: firm body pillow support at the elbow prevents overhead drift. For Bankart: arm maintained in internal rotation (across the body, not externally rotated at the side), which requires a body pillow that prevents the arm from rotating externally during sleep. For combined: body pillow across the full forearm from elbow to wrist, arm in the sling position (internal rotation, elbow 90 degrees), supported on a stable mattress surface that prevents pillow migration.</td>
+          <td>Helix Midnight Luxe (shoulder zone conformity + body pillow stability for both Bankart and SLAP arm positions); WinkBed Luxury Firm (broad athlete frames with combined SLAP-Bankart from overhead sports)</td>
+          <td>Any position that allows external rotation or arm elevation during sleep; mattresses without adequate motion isolation that allow sleep partner movement to dislodge the arm position pillow setup</td>
+        </tr>
+        <tr>
+          <td>Post-Surgical Sling Accommodation</td>
+          <td>After arthroscopic Bankart or SLAP repair, the arm is immobilized in an internal rotation sling for 4&ndash;6 weeks post-operatively. Sleeping with the sling creates a torso-width profile wider than the patient alone. Sling-side body weight can tilt the thorax, compressing the operated shoulder downward toward the mattress surface. Recommended position: 30&ndash;45 degree torso elevation via adjustable base or wedge to reduce glenohumeral anterior translation and maintain the prescribed arm position.</td>
+          <td>Mattress must be firm enough on the sling side to prevent thoracic tilt that would compress the operated shoulder. Adjustable base or wedge to achieve 30&ndash;45 degree torso elevation. Head section flex must not create a pressure ridge at the scapular level. Edge support adequate for the wider body-plus-sling profile. Compatible with weeks of daily articulated use post-surgically.</td>
+          <td>Bear Elite Hybrid + adjustable base (12-inch profile, scapular-level clearance, Energex flex durability); Saatva Classic + adjustable base (firm lumbar support, adjustable base compatibility, 365-night trial)</td>
+          <td>Thick foam mattresses (14+ inches) paired with adjustable bases that create a foam fold ridge at the mid-thoracic level; soft mattresses that allow sling-side thoracic tilt and compress the operated shoulder downward</td>
+        </tr>
+        <tr>
+          <td>Biceps Anchor Tension from Elbow Extension During Supine Sleep</td>
+          <td>In Type II SLAP tear, the biceps long head anchor is detached from the supraglenoid tubercle. Any position that elongates the biceps &mdash; particularly elbow extension with forearm supination &mdash; pulls the detached anchor away from the glenoid rim, stressing the torn tissue at the repair site. In supine sleep, the arm tends to slide from an elbow-flexed position into progressive elbow extension as the forearm slides along the mattress surface under the force of the relaxed biceps muscle over the sleep duration.</td>
+          <td>Small pillow or folded towel placed under the affected forearm in supine sleeping to maintain elbow at 90 degrees of flexion; mattress surface firm enough that this support pillow does not progressively sink and reduce elbow flexion angle through the night. The forearm should rest on the pillow in neutral forearm rotation (not supinated) to reduce biceps mechanical advantage. Adjustable base head elevation additionally reduces biceps elongation by angling the glenohumeral joint into a position that reduces biceps tendon excursion.</td>
+          <td>Avocado Green Firm (non-compressible surface maintains forearm support pillow geometry); Saatva Classic Firm (stable dual coil base prevents forearm support pillow sinkage in supine); Bear Elite Hybrid + adjustable base (head elevation reduces biceps tendon excursion at the glenoid anchor)</td>
+          <td>Slow-rebound memory foam mattresses where the forearm support pillow gradually sinks into the surface, progressively increasing elbow extension and biceps elongation; surfaces that provide no resistance to the arm sliding along the mattress face during sleep</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2 id="faq">Frequently Asked Questions</h2>
+
+  <div class="faq-item">
+    <div class="faq-q">Why is sleeping on the affected shoulder so harmful with a SLAP tear or shoulder labral tear?</div>
+    <div class="faq-a">In a SLAP tear or glenoid labral tear, the fibrocartilaginous ring lining the glenoid rim is torn at one or more points, most commonly at the superior pole where the biceps long head tendon anchors onto the superior labrum. When a person sleeps on the affected shoulder, the body weight compresses the glenohumeral joint vertically, driving the humeral head against the glenoid surface and loading the labral tear site from multiple directions simultaneously. For Type II SLAP tears, the combined compressive and shear forces during affected-shoulder sleeping stress the torn biceps anchor attachment, causing pain that is distinct from the impingement-type pain of rotator cuff pathology. The solution is not mattress softness at the affected shoulder but complete offloading: contralateral side sleeping or supine sleeping, supported by a mattress that makes these alternative positions comfortable enough to maintain through a full night without involuntary rollover.</div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-q">What is the correct arm and shoulder position during sleep for a SLAP tear?</div>
+    <div class="faq-a">Arm positioning for SLAP tear sleep management targets two simultaneous goals: unloading the biceps long head anchor (the primary injury site in Type I&ndash;II SLAP tears) and preventing anterior glenohumeral translation that stretches the anterosuperior labrum across the tear. The correct arm position for sleep is elbow flexed to 90 degrees, forearm resting across the lower abdomen or on a firm pillow at the torso, shoulder at 0&ndash;20 degrees of forward flexion, and arm in neutral to mild internal rotation. The failure modes to prevent: arm drop forward placing the shoulder in passive abduction with the elbow in extension; arm slide backward into extension-external rotation; and overhead arm positioning, which is the single worst sleeping position for SLAP tears and must be actively prevented by pillow placement and sleep surface geometry.</div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-q">How is a shoulder labral tear (SLAP tear) different from a rotator cuff tear for sleep management?</div>
+    <div class="faq-a">Glenoid labral tear and SLAP tear target the fibrocartilaginous ring and specifically the biceps long head anchor &mdash; the primary sleep concerns are glenohumeral compression on the torn labral segment, biceps anchor tension from arm positioning, and anterior glenohumeral translation during affected-shoulder sleeping. Rotator cuff tear targets the rotator cuff tendons (supraspinatus most commonly) &mdash; the primary sleep concern is direct tendon compression against the acromion and passive tensile loading of the torn tendon. There is no biceps anchor involvement in a pure rotator cuff tear. In practical terms, labral tear management requires controlling glenohumeral translation and biceps tension, while rotator cuff tear management prioritizes subacromial space decompression and tendon tension avoidance. These are different sleep management programs for different structural injuries.</div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-q">What is the difference between a SLAP tear Type I, II, III, and IV for sleep management?</div>
+    <div class="faq-a">Type I: fraying without anchor detachment &mdash; primary concern is superior labral compression from affected-shoulder sleeping. Type II (most common): detachment of the superior labrum and biceps anchor &mdash; highest priority concern is biceps anchor tension from elbow extension, forearm supination, and overhead arm positions. Type III: bucket-handle tear with intact biceps anchor &mdash; glenohumeral compression can displace the bucket-handle fragment; strict avoidance of affected-shoulder sleeping required. Type IV: bucket-handle extending into the biceps tendon itself &mdash; combines bucket-handle displacement risk with biceps tendon tension; strictest arm position management of all types, requiring maintained elbow flexion and zero elongating biceps force through the night. Post-Type IV biceps tenodesis removes the biceps anchor tension requirement because the biceps is reattached at a new anchor point.</div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-q">Should I use a mattress wedge or adjustable base for a SLAP tear, and what position is best?</div>
+    <div class="faq-a">A 30&ndash;45 degree torso elevation via adjustable base or wedge reduces passive glenohumeral anterior translation by changing the gravitational vector relative to the glenohumeral joint, maintaining the humeral head more centrally in the glenoid fossa during sleep. This is the clinical rationale behind the recommendation to sleep in a recliner chair in the first 1&ndash;3 post-operative weeks. An adjustable base achieves the same effect consistently. The mattress paired with the base must flex cleanly at the head section hinge without creating a pressure ridge at the scapular level &mdash; a critical failure mode with thick foam mattresses. A 12&ndash;14 inch profile mattress with elastically responsive foam (not slow-rebound memory foam) is the correct pairing for adjustable base SLAP tear management.</div>
+  </div>
+
+  <h2 id="related">Related Guides</h2>
+  <div class="related-guides">
+    <a href="/posts/best-mattress-rotator-cuff-tear.html">Best Mattress for Rotator Cuff Tear</a>
+    <a href="/posts/best-mattress-shoulder-impingement.html">Best Mattress for Shoulder Impingement</a>
+    <a href="/posts/best-mattress-frozen-shoulder.html">Best Mattress for Frozen Shoulder</a>
+    <a href="/posts/best-mattress-shoulder-pain.html">Best Mattress for Shoulder Pain</a>
+    <a href="/posts/best-pillow-shoulder-pain.html">Best Pillow for Shoulder Pain</a>
+  </div>
+
+</div>
+<footer>
+  <p>&copy; 2026 <a href="/">SleepWiseReviews</a> &mdash; Evidence-informed sleep product reviews. Not medical advice. Consult a qualified clinician for diagnosis and treatment of shoulder labral tears.</p>
+</footer>
+</body>
+</html>'''
+
+output_path = r'O:\MyFiles\Projects\SleepReviewes\posts\best-mattress-shoulder-labral-tear.html'
+with open(output_path, 'w', encoding='utf-8') as f:
+    f.write(html)
+
+import os
+size = os.path.getsize(output_path)
+print(f"Written: {output_path}")
+print(f"Size: {size:,} bytes")

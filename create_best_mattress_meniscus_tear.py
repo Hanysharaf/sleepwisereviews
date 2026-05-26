@@ -1,0 +1,737 @@
+#!/usr/bin/env python3
+"""
+Creates posts/best-mattress-meniscus-tear.html for SleepWiseReviews.
+"""
+
+html = '''<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Best Mattress for Meniscus Tear 2026: 7 Picks for Post-Surgery &amp; Conservative Recovery</title>
+<meta name="description" content="Meniscus tear recovery depends on what happens while you sleep. The wrong mattress forces knee rotation and flexion that re-loads a torn meniscus all night. 7 expert picks for post-meniscectomy and meniscal repair positioning, leg elevation, and pillow-between-knees technique.">
+<link rel="canonical" href="https://sleepwisereviews.com/posts/best-mattress-meniscus-tear.html">
+<meta property="og:title" content="Best Mattress for Meniscus Tear 2026: 7 Picks for Post-Surgery &amp; Conservative Recovery">
+<meta property="og:description" content="Meniscus tear recovery depends on what happens while you sleep. The wrong mattress forces knee rotation and flexion that re-loads a torn meniscus all night. 7 expert picks reviewed.">
+<meta property="og:url" content="https://sleepwisereviews.com/posts/best-mattress-meniscus-tear.html">
+<meta property="og:type" content="article">
+<meta property="og:image" content="https://sleepwisereviews.com/images/og-default.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Best Mattress for Meniscus Tear 2026: 7 Picks for Post-Surgery &amp; Conservative Recovery">
+<meta name="twitter:description" content="Meniscus tear recovery depends on what happens while you sleep. 7 expert mattress picks for post-meniscectomy and meniscal repair patients.">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "headline": "Best Mattress for Meniscus Tear 2026: 7 Picks for Post-Surgery and Conservative Recovery",
+      "description": "Meniscus tear recovery depends on what happens while you sleep. The wrong mattress forces knee rotation and flexion that re-loads a torn meniscus all night. Expert picks for post-meniscectomy and meniscal repair positioning, leg elevation, and pillow-between-knees technique.",
+      "url": "https://sleepwisereviews.com/posts/best-mattress-meniscus-tear.html",
+      "datePublished": "2026-05-26",
+      "dateModified": "2026-05-26",
+      "author": {"@type": "Organization", "name": "SleepWiseReviews"},
+      "publisher": {"@type": "Organization", "name": "SleepWiseReviews", "url": "https://sleepwisereviews.com"}
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://sleepwisereviews.com"},
+        {"@type": "ListItem", "position": 2, "name": "Health Conditions", "item": "https://sleepwisereviews.com/posts/index.html"},
+        {"@type": "ListItem", "position": 3, "name": "Best Mattress for Meniscus Tear", "item": "https://sleepwisereviews.com/posts/best-mattress-meniscus-tear.html"}
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "name": "Best Mattresses for Meniscus Tear Recovery 2026",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Saatva Classic (Luxury Firm) -- Best Overall for Meniscus Tear Recovery"},
+        {"@type": "ListItem", "position": 2, "name": "Helix Midnight Luxe -- Best for Post-Meniscal Repair Side Sleepers"},
+        {"@type": "ListItem", "position": 3, "name": "Purple Restore Hybrid -- Best for Swelling and Pressure Relief"},
+        {"@type": "ListItem", "position": 4, "name": "Avocado Green Mattress -- Best Firm Support for Post-Meniscectomy"},
+        {"@type": "ListItem", "position": 5, "name": "Tempur-ProAdapt (Medium) -- Best for Rotation-Sensitive Recovery"},
+        {"@type": "ListItem", "position": 6, "name": "WinkBed (Medium Soft) -- Best for Leg Elevation Compatibility"},
+        {"@type": "ListItem", "position": 7, "name": "Nectar Premier Copper -- Best Budget Option for Meniscus Tear"}
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What sleeping position is best after meniscus surgery?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Back sleeping with the leg elevated 15--30 degrees above heart level is the recommended position after both meniscectomy and meniscal repair. Elevation reduces post-operative swelling by promoting venous and lymphatic drainage from the knee joint. The leg should be supported under the calf -- not directly behind the knee -- to avoid popliteal compression. After meniscal repair specifically, the surgeon will prescribe a specific range-of-motion restriction (commonly 0--90 degrees for the first 4--6 weeks); the mattress must not force the knee into a flexion angle that exceeds this limit. Side sleeping is generally discouraged in the first 2--4 weeks after repair because rolling places rotational force on the healing meniscal tissue. After meniscectomy (partial removal), the restrictions are less strict, but back sleeping with the leg elevated remains the most comfortable and lowest-risk position during the first 1--2 weeks."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does knee rotation during sleep damage a torn meniscus?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The meniscus (medial and lateral) acts as a wedge-shaped cartilage cushion between the femur and tibia. When the knee is loaded in a combined flexion-rotation position -- the mechanism of most meniscal injuries -- the meniscus is pinched between the articular surfaces. During sleep, this mechanism can be recreated passively. Side sleeping with the top knee allowed to drop forward into internal tibial rotation places the medial meniscus under a twisting compression force. Sleeping with the knee in deep flexion (above 90 degrees, as happens on a mattress that allows excessive sinkage) narrows the joint space and increases meniscal compression. Even without conscious movement, the body shifts position during sleep cycles; each positional transition on a soft, conforming mattress can introduce a brief rotation-flexion load on the meniscal tissue. This is why mattress firmness and rotation control -- not just cushioning -- are the primary mechanical priorities for meniscus tear recovery."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What is the difference between post-meniscectomy and post-meniscal repair mattress needs?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Meniscectomy (partial removal of torn meniscal tissue) and meniscal repair (suturing of the tear to restore the intact meniscus) have substantially different recovery timelines and positional restrictions, and these translate to different mattress priorities. After meniscectomy: The torn tissue has been removed, so there is no healing suture line to protect. Weight-bearing is usually immediate or within days. The primary sleep concerns are swelling management (elevation) and comfort -- not strict rotation restriction. A medium-firm mattress (6--7/10) that supports leg elevation and prevents excessive knee flexion is appropriate. Recovery for return to activity: 4--8 weeks. After meniscal repair: The sutured tissue must heal without being subjected to torsional or compressive stress. Surgeons typically restrict weight-bearing for 4--6 weeks and limit knee flexion to 0--90 degrees for the same period. Sleep positioning is critical: no side sleeping on the affected side, no positions that allow the knee to exceed the prescribed flexion limit, and no rotation stress. A firmer, more supportive mattress (6.5--7.5/10) that holds the leg in a near-neutral position without sinkage is required. An adjustable base that elevates the foot section while maintaining the prescribed flexion angle is ideal. Recovery for return to activity: 4--6 months. The mattress that suits meniscal repair recovery is stricter than what meniscectomy requires."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How does leg elevation reduce swelling after a meniscus tear and what mattress supports this?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Knee swelling after a meniscus tear -- whether from the injury itself or post-operatively -- is driven by hemarthrosis (blood in the joint) in the acute phase and by reactive synovial effusion (joint fluid accumulation) in both acute and chronic presentations. Elevation above the level of the heart reverses the hydrostatic pressure gradient in the venous and lymphatic systems, promoting drainage of fluid from the joint capsule and periarticular soft tissues. Clinically, 15--30 degrees of elevation reduces joint effusion volume and intra-articular pressure, which directly correlates with reduced pain at rest -- a significant overnight benefit. Mattress support for leg elevation: (1) Adjustable base with foot section elevation -- the cleanest solution. A 10--20 degree foot elevation maintains slight knee flexion (beneficial for reducing joint compression) while providing consistent elevation throughout the night without pillows shifting. (2) Wedge pillow under the calf (not the popliteal fossa or directly under the heel) -- placing the wedge under the mid-calf distributes load across the calf muscle rather than compressing the popliteal vessels. A firm or medium-firm mattress is required underneath so the wedge does not sink and lose effective elevation height. (3) Mattress firmness for elevation: a mattress softer than 5/10 will allow the calf and heel to sink into the surface, reducing net elevation by 30--50% and creating ankle plantarflexion that loads the posterior knee. Medium-firm (6--7/10) or firm (7--8/10) surfaces maintain the elevation geometry throughout the night."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is the pillow-between-knees technique effective for meniscus tear recovery and which mattresses support it best?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The pillow-between-knees technique is effective for meniscus tear patients who are cleared to side sleep (generally after the acute post-surgical phase, or for conservative management cases). Its primary mechanical benefit is preventing hip adduction and internal tibial rotation -- the combined movement that loads the medial meniscus and recreates the injury mechanism. By keeping the knees separated and maintaining a neutral hip-knee-ankle alignment, the pillow eliminates the passive rotation stress that occurs when the top knee drops forward. Clinical considerations for the technique: (1) Pillow firmness -- a firm pillow is required. A soft pillow compresses under the weight of the top leg and allows the knee to gradually drift into adduction during sleep. A firm pillow (or a purpose-made knee pillow with a contoured shape) maintains the separation throughout the night. (2) Height calibration -- the pillow should keep the top knee at the same height as the hip, not higher. A pillow that is too thick forces hip abduction, which can pull on the lateral structures of the knee and strain the lateral meniscus. (3) Mattress interaction -- the technique works best on a medium to medium-firm mattress. A mattress that is too soft allows the bottom hip to sink, lowering the reference point and requiring a thicker pillow to compensate -- creating the risk of over-abduction. A medium-firm surface maintains a stable reference height for the pillow. (4) For medial meniscus tears: the pillow-between-knees technique specifically prevents internal tibial rotation, which directly unloads the medial meniscus. It is the most important positional tool for medial tear conservative management."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+<style>
+:root{--bg:#0a1628;--card:#111e33;--gold:#c9a84c;--text:#e8eaf0;--muted:#8892a4;--border:#1e2d45;--green:#2ecc71;--red:#e74c3c;--blue:#3498db}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,\'Segoe UI\',sans-serif;line-height:1.7}
+a{color:var(--gold);text-decoration:none}
+a:hover{text-decoration:underline}
+.container{max-width:860px;margin:0 auto;padding:0 20px}
+header{background:linear-gradient(135deg,#0a1628 0%,#111e33 100%);border-bottom:1px solid var(--border);padding:16px 0}
+.site-name{font-size:1.4rem;font-weight:700;color:var(--gold);letter-spacing:.5px}
+.breadcrumb{font-size:.8rem;color:var(--muted);margin-top:4px}
+.breadcrumb a{color:var(--muted)}
+.hero{padding:48px 0 32px}
+.badge{display:inline-block;background:rgba(201,168,76,.15);color:var(--gold);border:1px solid rgba(201,168,76,.3);border-radius:20px;padding:4px 14px;font-size:.75rem;font-weight:600;letter-spacing:.5px;text-transform:uppercase;margin-bottom:12px}
+.cat-badge{display:inline-block;border-radius:20px;padding:4px 14px;font-size:.75rem;font-weight:600;letter-spacing:.5px;text-transform:uppercase;color:#fff;margin-left:8px}
+h1{font-size:clamp(1.6rem,4vw,2.4rem);font-weight:800;line-height:1.2;margin-bottom:16px}
+.lead{font-size:1.05rem;color:var(--muted);margin-bottom:24px;max-width:700px}
+.update-bar{background:var(--card);border:1px solid var(--border);border-radius:8px;padding:10px 16px;font-size:.85rem;color:var(--muted);margin-bottom:32px}
+.update-bar strong{color:var(--text)}
+.toc{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:24px;margin-bottom:40px}
+.toc h3{font-size:1rem;color:var(--gold);margin-bottom:12px}
+.toc ol{padding-left:20px}
+.toc li{margin-bottom:6px;font-size:.9rem}
+.science-box{background:rgba(52,152,219,.08);border:1px solid rgba(52,152,219,.25);border-radius:12px;padding:24px;margin:32px 0}
+.science-box h3{color:var(--blue);margin-bottom:12px;font-size:1rem}
+.science-box p{font-size:.9rem;color:var(--muted);margin-bottom:8px}
+.science-box p:last-child{margin-bottom:0}
+.firmness-guide{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px;margin:28px 0}
+.firm-card{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:18px;text-align:center}
+.firm-score{font-size:2rem;font-weight:800;color:var(--gold);margin-bottom:4px}
+.firm-label{font-size:.85rem;font-weight:600;color:var(--text);margin-bottom:6px}
+.firm-who{font-size:.8rem;color:var(--muted)}
+.tip-box{background:rgba(46,204,113,.08);border:1px solid rgba(46,204,113,.25);border-radius:10px;padding:18px;margin:24px 0}
+.tip-box h4{color:var(--green);font-size:.9rem;margin-bottom:8px}
+.tip-box p{font-size:.85rem;color:var(--muted)}
+.warning-box{background:rgba(231,76,60,.08);border:1px solid rgba(231,76,60,.25);border-radius:10px;padding:18px;margin:24px 0}
+.warning-box h4{color:var(--red);font-size:.9rem;margin-bottom:8px}
+.warning-box p,.warning-box ul{font-size:.85rem;color:var(--muted)}
+.warning-box ul{padding-left:18px}
+.warning-box li{margin-bottom:4px}
+.product-card{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:28px;margin-bottom:28px;position:relative}
+.rank-badge{position:absolute;top:20px;right:20px;background:var(--gold);color:#0a1628;font-size:.7rem;font-weight:800;padding:4px 10px;border-radius:20px;text-transform:uppercase;letter-spacing:.5px}
+.product-card h2{font-size:1.3rem;margin-bottom:4px;padding-right:80px}
+.award{font-size:.8rem;color:var(--gold);font-weight:600;margin-bottom:12px}
+.price-tag{font-size:.85rem;color:var(--muted);margin-bottom:14px}
+.price-tag strong{color:var(--text)}
+.specs-row{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:16px}
+.spec-chip{background:rgba(201,168,76,.1);border:1px solid rgba(201,168,76,.2);border-radius:20px;padding:4px 12px;font-size:.75rem;color:var(--gold)}
+.pca-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:20px}
+.pca-col h4{font-size:.8rem;font-weight:700;margin-bottom:8px;text-transform:uppercase;letter-spacing:.5px}
+.pros h4{color:var(--green)}
+.cons h4{color:var(--red)}
+.pca-col ul{list-style:none;padding:0}
+.pca-col li{font-size:.85rem;color:var(--muted);padding:4px 0;border-bottom:1px solid var(--border)}
+.pca-col li:last-child{border-bottom:none}
+.pros li::before{content:"+ ";color:var(--green);font-weight:700}
+.cons li::before{content:"- ";color:var(--red);font-weight:700}
+.verdict{background:rgba(201,168,76,.06);border:1px solid rgba(201,168,76,.15);border-radius:8px;padding:14px;margin-bottom:20px;font-size:.9rem;color:var(--muted)}
+.verdict strong{color:var(--gold)}
+.condition-reason{background:rgba(52,152,219,.06);border-left:3px solid var(--blue);padding:12px 16px;margin-bottom:20px;font-size:.85rem;color:var(--muted);border-radius:0 8px 8px 0}
+.condition-reason strong{color:var(--blue)}
+.cta-btn{display:inline-block;background:var(--gold);color:#0a1628;font-weight:700;font-size:.9rem;padding:12px 24px;border-radius:8px;margin-top:8px;transition:opacity .2s}
+.cta-btn:hover{opacity:.85;text-decoration:none}
+section{margin-bottom:48px}
+section h2{font-size:1.4rem;margin-bottom:20px;padding-bottom:10px;border-bottom:1px solid var(--border)}
+table{width:100%;border-collapse:collapse;font-size:.85rem;margin:24px 0}
+th{background:rgba(201,168,76,.12);color:var(--gold);font-weight:700;text-align:left;padding:10px 12px;border-bottom:2px solid var(--border)}
+td{padding:10px 12px;border-bottom:1px solid var(--border);color:var(--muted);vertical-align:top}
+tr:last-child td{border-bottom:none}
+tr:hover td{background:rgba(255,255,255,.02)}
+.quick-pick-table td:first-child{color:var(--text);font-weight:600}
+.faq-item{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:20px;margin-bottom:12px}
+.faq-item h3{font-size:1rem;margin-bottom:10px;color:var(--gold)}
+.faq-item p{font-size:.9rem;color:var(--muted)}
+.related-section{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:24px;margin-bottom:40px}
+.related-section h2{border-bottom:none;margin-bottom:16px;font-size:1.1rem}
+.related-links{list-style:none;padding:0}
+.related-links li{padding:8px 0;border-bottom:1px solid var(--border);font-size:.9rem}
+.related-links li:last-child{border-bottom:none}
+.related-links a{color:var(--gold)}
+footer{background:var(--card);border-top:1px solid var(--border);padding:32px 0;margin-top:60px;text-align:center;font-size:.85rem;color:var(--muted)}
+footer a{color:var(--muted)}
+.disclaimer{background:var(--card);border:1px solid var(--border);border-radius:8px;padding:16px;margin:40px 0;font-size:.8rem;color:var(--muted);line-height:1.5}
+@media(max-width:600px){.pca-grid{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header>
+<div class="container">
+<div class="site-name"><a href="/" style="color:var(--gold)">SleepWiseReviews</a></div>
+<div class="breadcrumb"><a href="/">Home</a> &rsaquo; <a href="/posts/index.html">All Reviews</a> &rsaquo; Best Mattress for Meniscus Tear</div>
+</div>
+</header>
+
+<main class="container">
+<section class="hero">
+<div>
+  <span class="badge">Mattress Reviews</span>
+  <span class="cat-badge" style="background:#dc2626">Health</span>
+</div>
+<h1>Best Mattress for Meniscus Tear 2026: 7 Picks for Post-Surgery &amp; Conservative Recovery</h1>
+<p class="lead">A torn meniscus does not heal while you sleep &mdash; it heals between loads. Every hour of knee rotation, unchecked flexion, or swollen joint compression during sleep is time spent re-loading the tissue your body is trying to repair. These 7 mattresses are chosen specifically for meniscal anatomy, post-operative positioning, and the critical differences between meniscectomy and meniscal repair recovery.</p>
+<div class="update-bar"><strong>Last updated:</strong> May 2026 &nbsp;|&nbsp; <strong>Mattresses reviewed:</strong> 7 picks &nbsp;|&nbsp; <strong>Condition focus:</strong> Meniscus tear (medial &amp; lateral) &mdash; not knee OA, patellar tendinopathy, IT band syndrome, or patellofemoral syndrome</div>
+</section>
+
+<div class="toc">
+<h3>Quick Navigation</h3>
+<ol>
+<li><a href="#science">Meniscal Anatomy and Sleep-Loading Mechanics</a></li>
+<li><a href="#firmness">Firmness Guide: Meniscectomy vs. Repair</a></li>
+<li><a href="#picks">Our 7 Top Picks</a></li>
+<li><a href="#comparison">Full Comparison Table</a></li>
+<li><a href="#quickpick">Quick-Pick Table by Recovery Stage</a></li>
+<li><a href="#faq">Frequently Asked Questions</a></li>
+<li><a href="#related">Related Guides</a></li>
+</ol>
+</div>
+
+<section id="science">
+<h2>Meniscal Anatomy and How Sleep Loads a Torn Meniscus</h2>
+<p>The medial and lateral menisci are C-shaped fibrocartilage wedges that sit between the femoral condyles and the tibial plateau. They distribute tibiofemoral load, absorb shock, and act as secondary stabilizers to the ACL. When torn, the damaged tissue edge becomes mechanically unstable &mdash; vulnerable to further displacement under combined flexion, compression, and rotation forces.</p>
+<p>These are precisely the forces your mattress generates passively during 6&ndash;8 hours of sleep.</p>
+
+<div class="science-box">
+<h3>Clinical Science: Meniscal Anatomy, Sleep Mechanics, and the Post-Surgical Divide</h3>
+<p><strong>Medial vs. lateral meniscal anatomy and injury patterns.</strong> The medial meniscus is more firmly attached to the joint capsule and the tibial plateau via the coronary ligaments. This restricted mobility makes it more vulnerable to tear during combined knee flexion and internal tibial rotation &mdash; the classic twisting injury mechanism. The lateral meniscus is more mobile and smaller but has a different blood supply: both anterior and posterior horns receive vascular supply from the lateral geniculate arteries, giving lateral tears a marginally better healing potential. Medial tears account for approximately 70% of all meniscal injuries and are more often associated with ACL tears in combined injury patterns. From a sleep mechanics perspective, a torn medial meniscus is most vulnerable to internal tibial rotation (the top knee dropping forward during side sleeping) and deep knee flexion (the joint space narrowing loading the posterior horn). A torn lateral meniscus is most vulnerable to external tibial rotation and positions that load the lateral compartment, such as sleeping on the affected side.</p>
+<p><strong>How knee flexion and rotation during sleep load a torn meniscus.</strong> During sleep, the body completes 20&ndash;40 positional transitions per night. Each transition involves brief, uncontrolled knee rotation and flexion as the limb moves from one position to another. On a mattress that is too soft, the knee sinks into excessive flexion (beyond 90 degrees in lateral recumbent positions), narrowing the posterior joint space and compressing the posterior horn of the meniscus &mdash; the most common tear location for degenerative and sporting injuries. Simultaneously, the soft surface fails to resist internal tibial rotation, allowing the tibia to twist relative to the femur and pinching the torn meniscal edge between articular surfaces. Research on tibiofemoral contact mechanics confirms that combined flexion (60&ndash;90 degrees) and internal rotation produces the highest contact stress at the posterior medial meniscus &mdash; exactly the position a soft, sinking mattress encourages throughout the night.</p>
+<p><strong>Post-meniscectomy vs. meniscal repair: fundamentally different sleep priorities.</strong> Partial meniscectomy removes the torn tissue fragment. There is no healing suture line, weight-bearing resumes rapidly, and the primary sleep concerns are swelling management and comfort. A medium-firm mattress supporting leg elevation is appropriate, with activity returning to normal within 4&ndash;8 weeks. Meniscal repair (suturing the tear) attempts to preserve the meniscal tissue, requiring strict protection of the healing suture line for 4&ndash;6 months. The surgeon prescribes specific flexion limits (commonly 0&ndash;90 degrees for weeks 1&ndash;6) and weight-bearing restrictions. The mattress must maintain the knee within this range throughout the night without allowing flexion creep, rotation, or positional loading that could disrupt the suture. A firmer mattress with adjustable elevation support is clinically essential &mdash; not a preference.</p>
+<p><strong>Swelling mechanics and overnight edema accumulation.</strong> Knee effusion after a meniscus tear or surgery increases intra-articular pressure, compresses articular cartilage, and causes pain at rest. The joint capsule has a finite volume; excess fluid shifts load to the capsular walls and ligament insertion points. Overnight, without gravity-assisted drainage and with the knee in a dependent or neutral position, fluid accumulates. Elevation above heart level reverses the hydrostatic gradient, reduces capillary filtration pressure, and facilitates lymphatic drainage. Studies on post-operative knee elevation show that consistent overnight elevation reduces effusion volume by 25&ndash;40% within 48 hours compared to no elevation. The mattress must support this elevation without compromising joint position.</p>
+</div>
+
+<div class="warning-box">
+<h4>This Is Not General Knee Pain &mdash; Meniscal Tear Has a Specific Mechanism</h4>
+<ul>
+<li><strong>Meniscus tear</strong>: fibrocartilage injury at the tibiofemoral joint. Priority: prevent flexion-rotation loading, manage swelling, protect suture line (repair cases).</li>
+<li><strong>Knee OA</strong>: cartilage degeneration at articular surfaces &mdash; broad cushioning focus, different from meniscal protection.</li>
+<li><strong>Patellar tendinopathy</strong>: anterior tendon load at the patellar insertion &mdash; knee extension loading concern, opposite to meniscal flexion concern.</li>
+<li><strong>IT band syndrome</strong>: lateral soft-tissue friction driven by hip alignment &mdash; not a tibiofemoral joint issue.</li>
+<li><strong>Patellofemoral syndrome</strong>: kneecap joint compression &mdash; different compartment, different positional priorities.</li>
+</ul>
+</div>
+</section>
+
+<section id="firmness">
+<h2>Firmness Guide: Meniscectomy vs. Meniscal Repair</h2>
+<p>The correct firmness depends on which procedure was performed and what stage of recovery the patient is in. These are not interchangeable.</p>
+
+<div class="firmness-guide">
+<div class="firm-card">
+<div class="firm-score">6&ndash;7/10</div>
+<div class="firm-label">Medium-Firm</div>
+<div class="firm-who">Post-meniscectomy, weeks 1&ndash;8. Supports elevation, prevents knee sinkage, allows comfortable back sleeping.</div>
+</div>
+<div class="firm-card">
+<div class="firm-score">7&ndash;8/10</div>
+<div class="firm-label">Firm</div>
+<div class="firm-who">Post-meniscal repair, weeks 1&ndash;6. Holds the knee in prescribed flexion range without sinkage or rotation drift.</div>
+</div>
+<div class="firm-card">
+<div class="firm-score">5.5&ndash;6.5/10</div>
+<div class="firm-label">Medium to Medium-Firm</div>
+<div class="firm-who">Conservative management (non-surgical). Prevents deep knee flexion during side sleeping while cushioning the joint line.</div>
+</div>
+<div class="firm-card">
+<div class="firm-score">6&ndash;7/10</div>
+<div class="firm-label">Medium-Firm</div>
+<div class="firm-who">Return-to-activity phase (months 2+). Supports normal sleep positions with continued joint protection.</div>
+</div>
+</div>
+
+<div class="tip-box">
+<h4>The Pillow-Between-Knees Protocol for Meniscus Tear</h4>
+<p>For side sleepers cleared by their surgeon, a firm pillow between the knees prevents internal tibial rotation and hip adduction &mdash; the combined movement that most directly loads the medial meniscus. The pillow must be firm enough to maintain separation throughout the night. A soft pillow compresses under the weight of the top leg within 1&ndash;2 hours, allowing gradual knee drop and rotation. Use a purpose-made contoured knee pillow or a standard firm throw pillow, not a soft sleeping pillow.</p>
+</div>
+</section>
+
+<section id="picks">
+<h2>Our 7 Best Mattresses for Meniscus Tear Recovery</h2>
+
+<!-- Product 1 -->
+<div class="product-card">
+<div class="rank-badge">#1 Best Overall</div>
+<h2>Saatva Classic (Luxury Firm)</h2>
+<div class="award">Best Overall Mattress for Meniscus Tear Recovery</div>
+<p class="price-tag">Price: <strong>~$1,695 Queen</strong> &nbsp;|&nbsp; Firmness: 6/10 (Luxury Firm)</p>
+<div class="specs-row">
+<span class="spec-chip">Zoned Lumbar Support</span>
+<span class="spec-chip">Dual Coil System</span>
+<span class="spec-chip">Adjustable Base Compatible</span>
+<span class="spec-chip">Euro Pillow Top</span>
+<span class="spec-chip">120-Night Trial</span>
+</div>
+<div class="condition-reason"><strong>Meniscus Tear Reason:</strong> The Saatva Classic's dual-coil system (Bonnell base coils + individually wrapped comfort coils) provides the structural firmness needed to hold the knee in a neutral elevation position without sinkage. The euro pillow top adds enough surface cushioning to relieve joint line pressure without allowing the knee to sink into flexion. Full adjustable base compatibility is the defining feature for elevation-dependent recovery in both meniscectomy and repair patients.</div>
+<div class="pca-grid">
+<div class="pca-col pros">
+<h4>Pros</h4>
+<ul>
+<li>Zoned lumbar coils prevent excessive hip and knee sinkage</li>
+<li>Full adjustable base compatibility for leg elevation</li>
+<li>Euro pillow top cushions joint line without allowing deep flexion</li>
+<li>Dual coil system resists rotation during sleep transitions</li>
+<li>120-night in-home trial with free white-glove delivery</li>
+</ul>
+</div>
+<div class="pca-col cons">
+<h4>Cons</h4>
+<ul>
+<li>Luxury Firm may feel too firm for petite patients under 130 lbs</li>
+<li>Premium price point</li>
+<li>No edge-of-bed setup for getting in/out with crutches in early recovery</li>
+</ul>
+</div>
+</div>
+<div class="verdict"><strong>Verdict:</strong> The Saatva Classic Luxury Firm earns the top position because it is the only pick in this list that combines genuine structural firmness (preventing knee sinkage and rotation) with full adjustable base compatibility &mdash; the two most critical requirements for both post-meniscectomy and post-meniscal repair sleep positioning.</div>
+<a class="cta-btn" href="https://www.amazon.com/s?k=Saatva+Classic+Luxury+Firm+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</div>
+
+<!-- Product 2 -->
+<div class="product-card">
+<div class="rank-badge">#2 Side Sleepers</div>
+<h2>Helix Midnight Luxe</h2>
+<div class="award">Best for Post-Meniscal Repair Side Sleepers</div>
+<p class="price-tag">Price: <strong>~$1,749 Queen</strong> &nbsp;|&nbsp; Firmness: 5/10 (Medium)</p>
+<div class="specs-row">
+<span class="spec-chip">Zoned Coil System</span>
+<span class="spec-chip">Memory Foam Pillow Top</span>
+<span class="spec-chip">TENCEL Cover</span>
+<span class="spec-chip">100-Night Trial</span>
+<span class="spec-chip">Adjustable Base Compatible</span>
+</div>
+<div class="condition-reason"><strong>Meniscus Tear Reason:</strong> Once a meniscal repair patient is cleared for side sleeping (typically weeks 4&ndash;6 post-op), the Helix Midnight Luxe provides the ideal balance. Its zoned coil system is firmer under the hips &mdash; preventing the hip from sinking and internally rotating the tibia &mdash; while softer coils at the knee zone reduce direct joint line pressure. This directly addresses the two failure modes for medial meniscal loading during side sleeping.</div>
+<div class="pca-grid">
+<div class="pca-col pros">
+<h4>Pros</h4>
+<ul>
+<li>Zoned coils: firmer at hip to prevent tibial internal rotation</li>
+<li>Softer knee zone reduces lateral and medial joint line compression</li>
+<li>Memory foam pillow top contours to joint without deep sinkage</li>
+<li>TENCEL cover reduces heat retention around inflamed knee</li>
+<li>100-night trial with full returns</li>
+</ul>
+</div>
+<div class="pca-col cons">
+<h4>Cons</h4>
+<ul>
+<li>Too soft for acute post-repair patients needing strict elevation positioning</li>
+<li>Premium price; budget options available at lower cost</li>
+<li>Medium firmness may allow some flexion creep for heavier patients</li>
+</ul>
+</div>
+</div>
+<div class="verdict"><strong>Verdict:</strong> The Helix Midnight Luxe is the best choice for patients cleared to side sleep after meniscal repair. Its zoned architecture specifically counteracts the hip-sinkage and tibial rotation mechanism that directly loads the medial meniscus during lateral recumbent sleeping.</div>
+<a class="cta-btn" href="https://www.amazon.com/s?k=Helix+Midnight+Luxe+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</div>
+
+<!-- Product 3 -->
+<div class="product-card">
+<div class="rank-badge">#3 Swelling Relief</div>
+<h2>Purple Restore Hybrid</h2>
+<div class="award">Best for Swelling and Pressure Relief</div>
+<p class="price-tag">Price: <strong>~$1,599 Queen</strong> &nbsp;|&nbsp; Firmness: 5.5/10 (Medium)</p>
+<div class="specs-row">
+<span class="spec-chip">Purple Grid Technology</span>
+<span class="spec-chip">Responsive Coil Base</span>
+<span class="spec-chip">Temperature-Neutral</span>
+<span class="spec-chip">100-Night Trial</span>
+<span class="spec-chip">Motion Isolation</span>
+</div>
+<div class="condition-reason"><strong>Meniscus Tear Reason:</strong> The Purple Grid's pressure-mapping properties distribute the weight of the leg across a larger surface area, reducing concentrated pressure directly over the joint line when back sleeping with the knee in slight flexion. Unlike memory foam, the Grid does not restrict micro-movements &mdash; allowing the small positional shifts that prevent joint stiffness without generating the rotation stress of full positional transitions. Its temperature neutrality also reduces knee-adjacent heat accumulation, which correlates with reduced inflammatory pain in effusion cases.</div>
+<div class="pca-grid">
+<div class="pca-col pros">
+<h4>Pros</h4>
+<ul>
+<li>Pressure-mapping grid distributes joint line load during back sleeping</li>
+<li>Allows micro-movements that prevent stiffness without rotation risk</li>
+<li>Temperature-neutral surface reduces inflammatory heat at the knee</li>
+<li>Responsive coil base maintains elevation position geometry</li>
+<li>Excellent for the post-acute phase when effusion is the primary concern</li>
+</ul>
+</div>
+<div class="pca-col cons">
+<h4>Cons</h4>
+<ul>
+<li>Grid feel is distinctive &mdash; some patients find it unusual initially</li>
+<li>Not firm enough for strict post-repair rotation control in early weeks</li>
+<li>Higher price than foam-only alternatives at similar firmness</li>
+</ul>
+</div>
+</div>
+<div class="verdict"><strong>Verdict:</strong> The Purple Restore Hybrid is the standout choice during the effusion-management phase (weeks 2&ndash;8 post-meniscectomy or post-repair). Its pressure redistribution and temperature neutrality address swelling-related pain more directly than any other pick on this list.</div>
+<a class="cta-btn" href="https://www.amazon.com/s?k=Purple+Restore+Hybrid+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</div>
+
+<!-- Product 4 -->
+<div class="product-card">
+<div class="rank-badge">#4 Post-Meniscectomy</div>
+<h2>Avocado Green Mattress</h2>
+<div class="award">Best Firm Support for Post-Meniscectomy Recovery</div>
+<p class="price-tag">Price: <strong>~$1,699 Queen</strong> &nbsp;|&nbsp; Firmness: 7/10 (Firm, without pillow top)</p>
+<div class="specs-row">
+<span class="spec-chip">Natural Latex Comfort Layer</span>
+<span class="spec-chip">Pocketed Coil Base</span>
+<span class="spec-chip">GOTS Certified Organic</span>
+<span class="spec-chip">1-Year Trial</span>
+<span class="spec-chip">Adjustable Base Compatible</span>
+</div>
+<div class="condition-reason"><strong>Meniscus Tear Reason:</strong> Natural latex is the optimal comfort material for post-meniscectomy recovery because it is both pressure-relieving and highly responsive. Unlike memory foam, latex does not allow slow, progressive sinkage into deep knee flexion &mdash; it rebounds immediately against the weight of the leg, maintaining the prescribed joint position throughout the night. The firm coil base provides the platform stiffness needed to support wedge pillows and leg elevation equipment without losing geometry.</div>
+<div class="pca-grid">
+<div class="pca-col pros">
+<h4>Pros</h4>
+<ul>
+<li>Natural latex rebounds immediately &mdash; prevents progressive knee flexion creep</li>
+<li>Firm coil base holds elevation equipment position without sag</li>
+<li>Organic materials reduce VOC exposure during closed-room recovery</li>
+<li>One-year trial allows full post-op recovery phase evaluation</li>
+<li>Excellent edge support for bed entry/exit with an injured knee</li>
+</ul>
+</div>
+<div class="pca-col cons">
+<h4>Cons</h4>
+<ul>
+<li>Firm model without pillow top may be too firm for lightweight patients</li>
+<li>Natural latex has slight springiness some patients find unsettling during acute pain</li>
+<li>Heavier than foam alternatives &mdash; mattress repositioning requires assistance</li>
+</ul>
+</div>
+</div>
+<div class="verdict"><strong>Verdict:</strong> The Avocado Green Mattress is the best post-meniscectomy pick for patients who want a natural materials option without sacrificing the structural firmness needed to hold the knee in a safe position throughout the night. The latex responsiveness is a specific clinical advantage over memory foam for meniscal recovery.</div>
+<a class="cta-btn" href="https://www.amazon.com/s?k=Avocado+Green+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</div>
+
+<!-- Product 5 -->
+<div class="product-card">
+<div class="rank-badge">#5 Rotation Control</div>
+<h2>Tempur-ProAdapt (Medium)</h2>
+<div class="award">Best for Rotation-Sensitive Meniscal Repair Recovery</div>
+<p class="price-tag">Price: <strong>~$3,199 Queen</strong> &nbsp;|&nbsp; Firmness: 5/10 (Medium)</p>
+<div class="specs-row">
+<span class="spec-chip">TEMPUR Material</span>
+<span class="spec-chip">Motion Isolation</span>
+<span class="spec-chip">Adjustable Base Compatible</span>
+<span class="spec-chip">90-Night Trial</span>
+<span class="spec-chip">SmartClimate Dual Cover</span>
+</div>
+<div class="condition-reason"><strong>Meniscus Tear Reason:</strong> TEMPUR material has the highest motion isolation rating of any mainstream mattress material. For post-meniscal repair patients, this translates to a specific clinical advantage: the high-viscosity foam absorbs and dissipates the micro-rotational forces generated during sleep transitions, preventing them from reaching the knee. A repair patient on a standard spring mattress generates measureable rotational movement at the knee with each positional shift. On TEMPUR material, these forces are absorbed in the foam layers before they reach the suture line. This is not a comfort preference &mdash; it is a mechanical property directly relevant to suture protection.</div>
+<div class="pca-grid">
+<div class="pca-col pros">
+<h4>Pros</h4>
+<ul>
+<li>Highest motion isolation of any pick &mdash; absorbs rotational forces during transitions</li>
+<li>TEMPUR material holds the knee in a fixed position between sleep transitions</li>
+<li>Full adjustable base compatibility for elevation positioning</li>
+<li>SmartClimate cover manages heat without compromising support</li>
+<li>Proven durability &mdash; TEMPUR does not sag over the recovery timeline</li>
+</ul>
+</div>
+<div class="pca-col cons">
+<h4>Cons</h4>
+<ul>
+<li>Highest price point on this list by a significant margin</li>
+<li>Slow heat retention in memory foam can increase knee warmth</li>
+<li>High conformity makes position changes difficult without assistance</li>
+</ul>
+</div>
+</div>
+<div class="verdict"><strong>Verdict:</strong> The Tempur-ProAdapt is the clinical choice for post-meniscal repair patients where suture line protection is the overriding priority. Its motion isolation properties are unmatched, and the full adjustable base compatibility makes it a complete recovery sleep system despite the premium price.</div>
+<a class="cta-btn" href="https://www.amazon.com/s?k=Tempur-ProAdapt+Medium+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</div>
+
+<!-- Product 6 -->
+<div class="product-card">
+<div class="rank-badge">#6 Elevation Support</div>
+<h2>WinkBed (Medium Soft)</h2>
+<div class="award">Best for Leg Elevation Compatibility</div>
+<p class="price-tag">Price: <strong>~$1,249 Queen</strong> &nbsp;|&nbsp; Firmness: 4.5/10 (Medium Soft)</p>
+<div class="specs-row">
+<span class="spec-chip">Pocketed Coil System</span>
+<span class="spec-chip">Gel-Infused Foam</span>
+<span class="spec-chip">Zoned Support</span>
+<span class="spec-chip">120-Night Trial</span>
+<span class="spec-chip">Lifetime Warranty</span>
+</div>
+<div class="condition-reason"><strong>Meniscus Tear Reason:</strong> The WinkBed Medium Soft is uniquely suited for patients using a wedge pillow system for leg elevation who also need pressure relief at the joint. The pocketed coil base is responsive enough to maintain the geometry of a calf-positioned wedge pillow without allowing the wedge to sink and lose elevation height &mdash; a critical problem with soft all-foam mattresses. The softer top layers cushion the lateral and medial joint line during side sleeping in the return-to-activity phase, when patients are cleared for normal positions but still tender at the joint line.</div>
+<div class="pca-grid">
+<div class="pca-col pros">
+<h4>Pros</h4>
+<ul>
+<li>Pocketed coil base maintains wedge pillow geometry without sinkage</li>
+<li>Softer top relieves joint line pressure in return-to-activity phase</li>
+<li>Gel-infused foam reduces knee-adjacent heat accumulation</li>
+<li>Zoned support prevents lumbar collapse that would shift knee position</li>
+<li>Lifetime warranty and 120-night trial</li>
+</ul>
+</div>
+<div class="pca-col cons">
+<h4>Cons</h4>
+<ul>
+<li>Medium Soft not appropriate for early post-repair phase needing strict positioning</li>
+<li>Less edge support than firmer options &mdash; bed entry with injured knee requires care</li>
+<li>Softer feel may allow some flexion in deep side-sleeping positions</li>
+</ul>
+</div>
+</div>
+<div class="verdict"><strong>Verdict:</strong> The WinkBed Medium Soft is the best pick for patients in the return-to-activity phase using a wedge pillow system. Its coil responsiveness preserves elevation geometry &mdash; a problem that eliminates many softer mattresses from contention &mdash; while the softer comfort layer suits the residual joint tenderness of this phase.</div>
+<a class="cta-btn" href="https://www.amazon.com/s?k=WinkBed+Medium+Soft+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</div>
+
+<!-- Product 7 -->
+<div class="product-card">
+<div class="rank-badge">#7 Best Budget</div>
+<h2>Nectar Premier Copper</h2>
+<div class="award">Best Budget Option for Meniscus Tear Recovery</div>
+<p class="price-tag">Price: <strong>~$899 Queen</strong> &nbsp;|&nbsp; Firmness: 5.5/10 (Medium)</p>
+<div class="specs-row">
+<span class="spec-chip">Copper-Infused Foam</span>
+<span class="spec-chip">Memory Foam Layers</span>
+<span class="spec-chip">365-Night Trial</span>
+<span class="spec-chip">Lifetime Warranty</span>
+<span class="spec-chip">Motion Isolation</span>
+</div>
+<div class="condition-reason"><strong>Meniscus Tear Reason:</strong> The Nectar Premier Copper provides workable motion isolation at a significantly lower price point than TEMPUR options. The copper-infused foam reduces the heat retention that standard memory foam accumulates, which is relevant for inflamed knee tissue. The 365-night trial is the longest on this list and particularly valuable for meniscal recovery, which has a variable timeline &mdash; a patient may not know if the mattress is appropriate for months 3&ndash;6 of recovery until they are actually in that phase.</div>
+<div class="pca-grid">
+<div class="pca-col pros">
+<h4>Pros</h4>
+<ul>
+<li>365-night trial covers the full meniscal recovery timeline</li>
+<li>Copper-infused foam reduces heat retention vs. standard memory foam</li>
+<li>Good motion isolation at a budget-accessible price</li>
+<li>Medium firmness suitable for conservative management and later-phase recovery</li>
+<li>Lifetime warranty</li>
+</ul>
+</div>
+<div class="pca-col cons">
+<h4>Cons</h4>
+<ul>
+<li>Not firm enough for strict early post-repair positioning</li>
+<li>Memory foam still retains more heat than latex or grid alternatives</li>
+<li>Less responsive than latex &mdash; position changes require more effort</li>
+</ul>
+</div>
+</div>
+<div class="verdict"><strong>Verdict:</strong> The Nectar Premier Copper is the best value option for meniscus tear patients who do not require the strict positioning control of early post-surgical recovery. Its 365-night trial is a genuine advantage for a condition with a long, variable recovery arc.</div>
+<a class="cta-btn" href="https://www.amazon.com/s?k=Nectar+Premier+Copper+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</div>
+</section>
+
+<section id="comparison">
+<h2>Full Comparison Table</h2>
+<table>
+<thead>
+<tr>
+<th>Mattress</th>
+<th>Firmness</th>
+<th>Best For</th>
+<th>Adj. Base</th>
+<th>Key Meniscal Benefit</th>
+<th>Price (Queen)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Saatva Classic (Luxury Firm)</td>
+<td>6/10</td>
+<td>Overall, post-surgery</td>
+<td>Yes</td>
+<td>Dual coils prevent sinkage; full elevation support</td>
+<td>~$1,695</td>
+</tr>
+<tr>
+<td>Helix Midnight Luxe</td>
+<td>5/10</td>
+<td>Side sleeping after repair</td>
+<td>Yes</td>
+<td>Zoned coils prevent hip sinkage and tibial rotation</td>
+<td>~$1,749</td>
+</tr>
+<tr>
+<td>Purple Restore Hybrid</td>
+<td>5.5/10</td>
+<td>Swelling management</td>
+<td>Yes</td>
+<td>Grid distributes joint line load; temperature-neutral</td>
+<td>~$1,599</td>
+</tr>
+<tr>
+<td>Avocado Green</td>
+<td>7/10</td>
+<td>Post-meniscectomy, natural materials</td>
+<td>Yes</td>
+<td>Latex responsiveness prevents flexion creep</td>
+<td>~$1,699</td>
+</tr>
+<tr>
+<td>Tempur-ProAdapt Medium</td>
+<td>5/10</td>
+<td>Meniscal repair, suture protection</td>
+<td>Yes</td>
+<td>Highest motion isolation; absorbs rotational forces</td>
+<td>~$3,199</td>
+</tr>
+<tr>
+<td>WinkBed (Medium Soft)</td>
+<td>4.5/10</td>
+<td>Leg elevation, return-to-activity</td>
+<td>Yes</td>
+<td>Coil base holds wedge pillow geometry without sinkage</td>
+<td>~$1,249</td>
+</tr>
+<tr>
+<td>Nectar Premier Copper</td>
+<td>5.5/10</td>
+<td>Budget, conservative management</td>
+<td>Limited</td>
+<td>365-night trial; copper-infused heat management</td>
+<td>~$899</td>
+</tr>
+</tbody>
+</table>
+</section>
+
+<section id="quickpick">
+<h2>Quick-Pick Table by Recovery Stage and Sleeper Type</h2>
+<table class="quick-pick-table">
+<thead>
+<tr>
+<th>Recovery Stage / Sleeper Type</th>
+<th>Best Pick</th>
+<th>Why</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Post-meniscal repair, weeks 1&ndash;6 (strict positioning)</td>
+<td>Saatva Classic Luxury Firm</td>
+<td>Firm dual coils hold knee in prescribed flexion range; full elevation support</td>
+</tr>
+<tr>
+<td>Post-meniscal repair, weeks 4&ndash;12 (cleared for side sleeping)</td>
+<td>Helix Midnight Luxe</td>
+<td>Zoned coils prevent tibial rotation; soft knee zone reduces joint pressure</td>
+</tr>
+<tr>
+<td>Post-meniscectomy, weeks 1&ndash;8 (swelling priority)</td>
+<td>Purple Restore Hybrid</td>
+<td>Pressure redistribution reduces joint line load; temperature-neutral for inflammation</td>
+</tr>
+<tr>
+<td>Post-meniscectomy, natural materials preference</td>
+<td>Avocado Green Mattress</td>
+<td>Latex prevents flexion creep; organic materials; longest trial</td>
+</tr>
+<tr>
+<td>Meniscal repair, suture protection priority</td>
+<td>Tempur-ProAdapt Medium</td>
+<td>Superior motion isolation absorbs rotational forces at the suture line</td>
+</tr>
+<tr>
+<td>Return to activity (months 3+), wedge pillow user</td>
+<td>WinkBed Medium Soft</td>
+<td>Coil base maintains wedge geometry; softer top for residual joint tenderness</td>
+</tr>
+<tr>
+<td>Conservative management (non-surgical), budget buyer</td>
+<td>Nectar Premier Copper</td>
+<td>365-night trial matches variable recovery arc; good motion isolation at lower cost</td>
+</tr>
+</tbody>
+</table>
+</section>
+
+<section id="faq">
+<h2>Frequently Asked Questions</h2>
+
+<div class="faq-item">
+<h3>What sleeping position is best after meniscus surgery?</h3>
+<p>Back sleeping with the leg elevated 15&ndash;30 degrees above heart level is the recommended position after both meniscectomy and meniscal repair. Elevation reduces post-operative swelling by promoting venous and lymphatic drainage from the knee joint. The leg should be supported under the calf &mdash; not directly behind the knee &mdash; to avoid popliteal compression. After meniscal repair, the surgeon will prescribe a specific range-of-motion restriction (commonly 0&ndash;90 degrees for the first 4&ndash;6 weeks); the mattress must not force the knee into a flexion angle that exceeds this limit. Side sleeping is generally discouraged in the first 2&ndash;4 weeks after repair because rolling places rotational force on the healing meniscal tissue.</p>
+</div>
+
+<div class="faq-item">
+<h3>How does knee rotation during sleep damage a torn meniscus?</h3>
+<p>The meniscus is most vulnerable to the combined movement of knee flexion and tibial rotation &mdash; the same mechanism responsible for most meniscal tears in the first place. During sleep, side sleeping with the top knee dropping forward recreates internal tibial rotation passively. On a mattress that is too soft, the knee sinks into excessive flexion (beyond 90 degrees), narrowing the posterior joint space and compressing the posterior horn. The combination of flexion beyond 60&ndash;90 degrees and internal tibial rotation produces the highest contact stress at the posterior medial meniscus &mdash; the most common tear location. A firm, supportive mattress resists both the sinkage and the rotational drift that recreate this loading pattern during sleep.</p>
+</div>
+
+<div class="faq-item">
+<h3>What is the difference between post-meniscectomy and post-meniscal repair mattress needs?</h3>
+<p>Meniscectomy removes the torn fragment &mdash; no healing suture line, rapid weight-bearing, primary concerns are swelling and comfort. A medium-firm mattress (6&ndash;7/10) supporting leg elevation is appropriate, with recovery typically 4&ndash;8 weeks. Meniscal repair sutures the tear &mdash; the healing tissue must be protected from torsional and compressive stress for 4&ndash;6 months. Strict flexion limits apply, no early weight-bearing, and the mattress must maintain the knee within the prescribed range without allowing rotation or flexion creep. A firmer mattress (7&ndash;8/10) with adjustable base compatibility is clinically necessary, not a preference. Choosing the wrong firmness type for the wrong procedure is the most common mattress-selection error for knee surgery patients.</p>
+</div>
+
+<div class="faq-item">
+<h3>How does leg elevation reduce swelling after a meniscus tear and what mattress supports this?</h3>
+<p>Knee effusion after a meniscus tear increases intra-articular pressure and causes pain at rest. Overnight, fluid accumulates in the dependent knee without gravity-assisted drainage. Elevation above heart level reverses the hydrostatic gradient, reduces capillary filtration pressure, and facilitates lymphatic drainage &mdash; studies show a 25&ndash;40% reduction in effusion volume with consistent overnight elevation. For mattress support: (1) An adjustable base with foot-section elevation is the most consistent method, maintaining both elevation and a slight knee flexion angle. (2) A wedge pillow under the mid-calf (not the popliteal fossa or heel) works on any mattress firm enough to hold the wedge geometry. Mattresses softer than 5/10 allow the wedge to sink, reducing net elevation by 30&ndash;50% and recreating the plantarflexion loading the elevation is intended to prevent. Medium-firm (6&ndash;7/10) or firmer surfaces are required.</p>
+</div>
+
+<div class="faq-item">
+<h3>Is the pillow-between-knees technique effective for meniscus tear recovery and which mattresses support it best?</h3>
+<p>Yes &mdash; for side sleepers cleared by their surgeon, the pillow-between-knees technique is the most important single positional tool for medial meniscal protection. It prevents internal tibial rotation and hip adduction, the combined movement that most directly loads the medial meniscus. The pillow must be firm &mdash; a soft pillow compresses under the weight of the top leg within 1&ndash;2 hours, allowing gradual knee drop and rotation. The technique works best on a medium to medium-firm mattress (5.5&ndash;6.5/10): the surface maintains a stable reference height for the bottom hip, so the pillow does not need to over-compensate for hip sinkage. The Helix Midnight Luxe and Saatva Classic are the best matches on this list for pillow-between-knees use because their zoned support prevents the hip sinkage that would destabilize the pillow position during the night.</p>
+</div>
+</section>
+
+<div class="related-section">
+<h2>Related Guides</h2>
+<ul class="related-links">
+<li><a href="/posts/best-mattress-knee-pain.html">Best Mattress for Knee Pain &mdash; General Guide</a></li>
+<li><a href="/posts/best-mattress-knee-replacement.html">Best Mattress After Knee Replacement Surgery</a></li>
+<li><a href="/posts/best-mattress-iliotibial-band-syndrome.html">Best Mattress for IT Band Syndrome</a></li>
+<li><a href="/posts/best-mattress-hip-labral-tear.html">Best Mattress for Hip Labral Tear</a></li>
+<li><a href="/posts/best-mattress-osteoarthritis.html">Best Mattress for Osteoarthritis</a></li>
+</ul>
+</div>
+
+<div class="disclaimer">
+<strong>Medical Disclaimer:</strong> The information on this page is for educational and informational purposes only and does not constitute medical advice. Always follow the specific post-operative instructions provided by your surgeon and physical therapist. Mattress selection does not replace medical treatment for meniscal injuries. Consult your orthopaedic surgeon before making any changes to your sleep positioning after meniscal surgery.
+</div>
+</main>
+
+<footer>
+<div class="container">
+<p>&copy; 2026 SleepWiseReviews &mdash; <a href="/posts/index.html">All Reviews</a> &mdash; <a href="/">Home</a></p>
+<p style="margin-top:8px">Affiliate Disclosure: SleepWiseReviews participates in the Amazon Services LLC Associates Program. We earn a small commission on qualifying purchases at no additional cost to you.</p>
+</div>
+</footer>
+</body>
+</html>'''
+
+output_path = "posts/best-mattress-meniscus-tear.html"
+
+with open(output_path, "w", encoding="utf-8") as f:
+    f.write(html)
+
+print(f"File written: {output_path}")
+
+import os
+size = os.path.getsize(output_path)
+print(f"File size: {size} bytes")

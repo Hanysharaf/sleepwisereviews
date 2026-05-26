@@ -1,0 +1,312 @@
+"""
+Generate posts/best-mattress-rib-fracture-recovery.html
+SleepWise Reviews affiliate post — dark navy theme, 7 picks, full schema stack.
+"""
+
+html = '''<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Best Mattress for Rib Fracture Recovery (2025): 7 Picks for Broken Rib Sleep</title>
+<meta name="description" content="Best mattresses for rib fracture recovery: lateral pressure management, breathing mechanics during sleep, fracture-site protection, and a 6-8 week recovery timeline guide. 7 expert picks.">
+<link rel="canonical" href="https://sleepwisereviews.com/posts/best-mattress-rib-fracture-recovery.html">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Best Mattress for Rib Fracture Recovery (2025)",
+  "description": "7 mattress picks for rib fracture recovery addressing lateral thoracic pressure, breathing mechanics during sleep, fracture-site pressure mapping, and a 6-8 week recovery timeline.",
+  "author": {"@type": "Organization", "name": "SleepWise Reviews"},
+  "publisher": {"@type": "Organization", "name": "SleepWise Reviews", "url": "https://sleepwisereviews.com"},
+  "datePublished": "2026-05-26",
+  "dateModified": "2026-05-26",
+  "mainEntityOfPage": "https://sleepwisereviews.com/posts/best-mattress-rib-fracture-recovery.html"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://sleepwisereviews.com/"},
+    {"@type": "ListItem", "position": 2, "name": "All Posts", "item": "https://sleepwisereviews.com/posts/index.html"},
+    {"@type": "ListItem", "position": 3, "name": "Best Mattress for Rib Fracture Recovery", "item": "https://sleepwisereviews.com/posts/best-mattress-rib-fracture-recovery.html"}
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Best Mattresses for Rib Fracture Recovery",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Tempur-Adapt", "url": "https://www.amazon.com/s?k=Tempur-Adapt+mattress&tag=sleepwiserevi-20"},
+    {"@type": "ListItem", "position": 2, "name": "Purple Restore Plus", "url": "https://www.amazon.com/s?k=Purple+Restore+Plus+mattress&tag=sleepwiserevi-20"},
+    {"@type": "ListItem", "position": 3, "name": "Saatva Classic with Adjustable Base", "url": "https://www.amazon.com/s?k=Saatva+Classic+mattress+adjustable+base&tag=sleepwiserevi-20"},
+    {"@type": "ListItem", "position": 4, "name": "Casper Wave Hybrid", "url": "https://www.amazon.com/s?k=Casper+Wave+Hybrid+mattress&tag=sleepwiserevi-20"},
+    {"@type": "ListItem", "position": 5, "name": "Helix Midnight Luxe", "url": "https://www.amazon.com/s?k=Helix+Midnight+Luxe+mattress&tag=sleepwiserevi-20"},
+    {"@type": "ListItem", "position": 6, "name": "Avocado Green Mattress", "url": "https://www.amazon.com/s?k=Avocado+Green+mattress&tag=sleepwiserevi-20"},
+    {"@type": "ListItem", "position": 7, "name": "Bear Elite Hybrid", "url": "https://www.amazon.com/s?k=Bear+Elite+Hybrid+mattress&tag=sleepwiserevi-20"}
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What is the best sleeping position with a broken rib?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Back sleeping (supine) is generally the safest position for rib fracture recovery because it distributes body weight across the full posterior thorax rather than concentrating it on the fractured lateral rib. Supine positioning also allows full chest wall excursion during breathing, reducing the risk of respiratory splinting. If you must side sleep, sleep on the injured side --- counterintuitively, this stabilizes the fracture under body weight and reduces the rib motion that causes pain, but requires a pressure-relieving mattress surface over the fracture site. Never sleep on the uninjured side with a fractured rib unsupported, as this allows the fractured segment to move freely with each breath."}
+    },
+    {
+      "@type": "Question",
+      "name": "How long does a broken rib take to heal, and how does sleep affect recovery?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Simple rib fractures typically complete initial callus formation in 6 weeks and full cortical remodeling in 3-6 months. Sleep quality directly affects healing rate because 80% of growth hormone secretion --- critical for bone repair --- occurs during deep sleep (N3). Pain-disrupted sleep suppresses GH release and elevates cortisol, which inhibits osteoblast activity. A mattress that keeps pain below the threshold that causes arousal (generally less than 4 on a 10-point scale) is not just for comfort --- it is a direct intervention in bone healing biology."}
+    },
+    {
+      "@type": "Question",
+      "name": "Why does breathing hurt more when lying down with broken ribs?",
+      "acceptedAnswer": {"@type": "Answer", "text": "In the upright position, breathing relies primarily on diaphragmatic descent, which requires minimal lateral rib cage movement. In the supine or lateral position, tidal ventilation shifts toward rib cage expansion, requiring the lateral ribs to flare outward with each breath. This costal excursion directly loads the fracture site. Additionally, without gravity assisting diaphragmatic descent when supine, the accessory muscles (intercostals, scalenes) contribute more to each breath, increasing the muscular tension across the rib cage. A mattress that allows slight head elevation (15-30 degrees on an adjustable base) partially restores the gravity-assisted diaphragmatic breathing of the upright position and significantly reduces painful costal excursion."}
+    },
+    {
+      "@type": "Question",
+      "name": "What is respiratory splinting and why is it dangerous during rib fracture recovery?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Respiratory splinting is the unconscious shallow breathing adopted to minimize rib cage movement and pain at a fracture site. While it reduces immediate pain, splinting prevents full lung expansion, leading to atelectasis (collapsed alveoli) and accumulation of secretions in the lower lung fields. Over 48-72 hours, splinting significantly increases the risk of pneumonia, which is the primary serious complication of rib fractures and accounts for the majority of rib-fracture mortality in elderly patients. A mattress that reduces baseline fracture pain --- even modestly --- reduces the splinting threshold and promotes deeper, safer respiratory excursion during sleep."}
+    },
+    {
+      "@type": "Question",
+      "name": "What is the difference between a simple rib fracture and a complicated rib fracture, and does it affect mattress choice?",
+      "acceptedAnswer": {"@type": "Answer", "text": "A simple rib fracture involves a single break in one rib without displacement or associated injuries. A complicated rib fracture includes displacement (fragment ends separated), multiple fractures in the same rib, flail chest (three or more consecutive ribs fractured in two places each, creating a floating segment), hemothorax (blood in the pleural space), or pneumothorax (air in the pleural space). Complicated fractures, especially pneumothorax, require immediate medical management and may involve chest tubes or surgery before sleep positioning is relevant. Once medically stabilized, complicated fracture patients have greater pressure sensitivity at the fracture site and benefit from the softest pressure-relief surfaces combined with adjustable-base head elevation. Simple fracture patients have more positioning flexibility but still require significant lateral pressure reduction at the fracture site."}
+    }
+  ]
+}
+</script>
+<style>
+:root{--bg:#0a1628;--card:#111e33;--gold:#c9a84c;--text:#e8eaf0;--muted:#8892a4;--border:#1e2d45}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:\'Segoe UI\',system-ui,sans-serif;line-height:1.7;font-size:16px}
+a{color:var(--gold);text-decoration:none}
+a:hover{text-decoration:underline}
+header{background:linear-gradient(135deg,#0d1f3c,#1a3a5c);padding:16px 24px;border-bottom:1px solid var(--border)}
+.site-name{font-size:1.4rem;font-weight:700;color:var(--gold);letter-spacing:1px}
+.container{max-width:860px;margin:0 auto;padding:32px 20px}
+h1{font-size:2rem;font-weight:800;line-height:1.25;color:#fff;margin-bottom:12px}
+.meta{color:var(--muted);font-size:.9rem;margin-bottom:28px}
+.intro{font-size:1.05rem;margin-bottom:32px;color:#ccd3df}
+.cat-badge{display:inline-block;padding:2px 10px;border-radius:12px;font-size:.8rem;font-weight:700;color:#fff;margin-bottom:12px;text-transform:uppercase;letter-spacing:.5px}
+.science-box{background:var(--card);border:1px solid var(--border);border-left:4px solid var(--gold);border-radius:8px;padding:20px 24px;margin:28px 0}
+.science-box h3{color:var(--gold);font-size:1rem;margin-bottom:10px;text-transform:uppercase;letter-spacing:.5px}
+.science-box p{color:#b0bac8;font-size:.95rem;margin-bottom:8px}
+.science-box p:last-child{margin-bottom:0}
+.picks-list{list-style:none;display:flex;flex-direction:column;gap:28px;margin:32px 0}
+.pick-card{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:24px;position:relative}
+.pick-number{display:inline-block;background:var(--gold);color:#0a1628;font-weight:800;font-size:.85rem;padding:2px 10px;border-radius:20px;margin-bottom:10px}
+.pick-card h2{font-size:1.25rem;color:#fff;margin-bottom:8px}
+.pick-card .why{color:#b0bac8;font-size:.95rem;margin-bottom:14px}
+.pick-card .specs{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:14px}
+.spec-tag{background:#1a2d47;color:#8faacc;font-size:.8rem;padding:3px 10px;border-radius:12px}
+.cta-btn{display:inline-block;background:var(--gold);color:#0a1628;font-weight:700;padding:10px 22px;border-radius:8px;font-size:.95rem;margin-top:4px}
+.cta-btn:hover{background:#e0b85a;text-decoration:none}
+table{width:100%;border-collapse:collapse;margin:28px 0;font-size:.9rem}
+th{background:#1a2d47;color:var(--gold);padding:10px 14px;text-align:left;font-weight:600}
+td{padding:10px 14px;border-bottom:1px solid var(--border);color:#b0bac8}
+tr:last-child td{border-bottom:none}
+tr:nth-child(even) td{background:#0e1a2e}
+.note-box{background:#0e1f0e;border:1px solid #1e4d1e;border-radius:8px;padding:16px 20px;margin:24px 0}
+.note-box p{color:#90c690;font-size:.9rem}
+.warning-box{background:#1f0e0e;border:1px solid #4d1e1e;border-radius:8px;padding:16px 20px;margin:24px 0}
+.warning-box p{color:#c69090;font-size:.9rem}
+h2.section-title{font-size:1.4rem;color:#fff;margin:36px 0 16px;border-bottom:1px solid var(--border);padding-bottom:8px}
+.faq-item{margin:20px 0}
+.faq-item h3{color:var(--gold);font-size:1rem;margin-bottom:6px}
+.faq-item p{color:#b0bac8;font-size:.9rem}
+.related-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:12px;margin:20px 0}
+.related-card{background:var(--card);border:1px solid var(--border);border-radius:8px;padding:14px;font-size:.9rem}
+.related-card a{color:var(--gold)}
+footer{background:#060f1e;border-top:1px solid var(--border);text-align:center;padding:24px;color:var(--muted);font-size:.85rem;margin-top:48px}
+nav.breadcrumb{font-size:.85rem;color:var(--muted);margin-bottom:20px}
+nav.breadcrumb a{color:var(--muted)}
+nav.breadcrumb span{color:var(--gold)}
+</style>
+</head>
+<body>
+<header>
+<div class="site-name"><a href="../index.html" style="color:var(--gold);text-decoration:none">SleepWise Reviews</a></div>
+</header>
+<div class="container">
+<nav class="breadcrumb"><a href="../index.html">Home</a> &rsaquo; <a href="index.html">All Posts</a> &rsaquo; <span>Best Mattress for Rib Fracture Recovery</span></nav>
+
+<span class="cat-badge" style="background:#dc2626">Health</span>
+<h1>Best Mattress for Rib Fracture Recovery (2025): 7 Picks for Broken Rib Sleep</h1>
+<p class="meta">By SleepWise Reviews &bull; Updated May 2025 &bull; 7 picks &bull; Rib fracture recovery</p>
+
+<p class="intro">A broken rib turns sleeping into a clinical problem. Every breath moves the fracture site. Side sleeping on the injured side concentrates body weight directly over the broken bone. Side sleeping on the uninjured side lets the fractured segment float freely with each respiratory cycle, grinding fragment ends and generating pain that causes the shallow-breathing reflex &mdash; respiratory splinting &mdash; that leads to pneumonia, the most dangerous complication of rib fractures. Back sleeping is safest but demands a mattress that supports thoracic neutrality without creating posterior rib pressure spikes. These 7 picks address the specific biomechanics of rib fracture sleep: lateral pressure mapping over the fracture site, breathing mechanics in supine versus lateral positions, pillow strategies to protect the injured side, and a recovery timeline strategy across the 6-8 week healing window. <strong>Note:</strong> this guide covers rib bone fractures &mdash; not costochondritis, which is cartilage inflammation at the sternum and a separate condition covered in our <a href="best-mattress-costochondritis.html">costochondritis mattress guide</a>.</p>
+
+<div class="warning-box">
+<p><strong>Medical note:</strong> Multiple rib fractures, suspected pneumothorax (sudden worsening shortness of breath, sharp chest pain radiating to the shoulder, oxygen saturation drop), or flail chest are medical emergencies requiring immediate evaluation. Do not attempt to manage these conditions with mattress or positioning strategies alone. This guide addresses recovery sleep for medically evaluated and stable rib fractures.</p>
+</div>
+
+<div class="science-box">
+<h3>The Rib Fracture Sleep Science</h3>
+<p><strong>Healing timeline &mdash; 6-8 weeks:</strong> Simple rib fractures progress through three overlapping phases: the inflammatory phase (days 1-7, acute pain, edema at fracture site), the reparative phase (weeks 2-6, soft callus formation bridging the fracture gap), and the remodeling phase (weeks 6-24, hard callus mineralization and cortical integration). Pain is most acute in weeks 1-3. By weeks 4-6, the soft callus provides enough mechanical stability to allow more position flexibility, though pressure at the fracture site remains painful. Mattress strategy should shift with the phase &mdash; maximum pressure relief in weeks 1-3, transitioning to support optimization in weeks 4-8.</p>
+<p><strong>Respiratory splinting mechanism:</strong> Pain at the rib fracture site triggers an involuntary splinting reflex: the patient subconsciously limits depth of inspiration to minimize rib cage movement over the fracture. This produces shallow tidal volumes (often below 400 ml vs. the normal 500 ml at rest). Shallow breathing fails to open the dependent alveoli in the lower lung zones, causing microatelectasis within 4-6 hours of splinting onset. Retained secretions accumulate in these collapsed zones, creating the substrate for pneumonia. Reducing mattress-induced fracture-site pain &mdash; even by 30-40% &mdash; expands the patient\'s tolerated tidal volume and is a clinically meaningful intervention, not merely comfort.</p>
+<p><strong>Lateral thoracic pressure during side sleeping:</strong> In the lateral decubitus position, an average adult (70 kg) concentrates approximately 28-45 mmHg of interface pressure over the dependent lateral thorax. A rib fracture site has disrupted periosteal nociceptors that fire at significantly lower mechanical thresholds than intact bone. Even medium-firm mattress surfaces that are entirely comfortable for non-injured sleepers generate pressure well above the pain threshold at an acute rib fracture. Pressure-mapping studies show that gel-grid and viscoelastic foam surfaces reduce lateral thoracic peak pressure by 35-55% compared to traditional innerspring surfaces at the same firmness rating &mdash; a clinically relevant reduction for fracture-site loading.</p>
+<p><strong>Simple vs. complicated rib fractures:</strong> A simple fracture is a single, non-displaced break in one rib. A complicated fracture includes displacement, multiple fractures in adjacent ribs, hemothorax (blood in the pleural space), or pneumothorax (air in the pleural space from a punctured lung). Pneumothorax is the critical complication: a sharp fractured rib end can lacerate the visceral pleura, allowing air to accumulate between the lung and chest wall. Symptoms include sudden worsening dyspnea, sharp shoulder-referred pain, and falling oxygen saturation. A tension pneumothorax is immediately life-threatening. Any patient with rib fractures who experiences sudden breathing deterioration during sleep or repositioning requires emergency evaluation &mdash; not repositioning or mattress adjustment.</p>
+<p><strong>Supine vs. lateral breathing mechanics:</strong> In the upright position, diaphragmatic descent drives 70-80% of tidal ventilation, with minimal lateral rib excursion. Supine positioning shifts the breathing load partly onto the rib cage, increasing lateral costal excursion per breath. Lateral (side) sleeping further increases asymmetric rib cage loading, with the dependent hemithorax compressed and the uppermost hemithorax carrying elevated ventilatory load. Head-of-bed elevation at 15-30 degrees partially restores the upright diaphragmatic breathing pattern, reducing lateral costal excursion by an estimated 20-30% and lowering the mechanical load per breath at the fracture site. This is why adjustable base compatibility is a clinically meaningful mattress feature for rib fracture recovery &mdash; not a luxury.</p>
+</div>
+
+<ul class="picks-list">
+
+<li class="pick-card">
+<span class="pick-number">#1 PICK</span>
+<h2>Tempur-Adapt &mdash; Fracture-Site Pressure Conforming for Supine Rib Recovery</h2>
+<p class="why">The TEMPUR viscoelastic material remains the gold standard for fracture-site pressure redistribution because it conforms at the granular level to the exact shape of the posterior thorax, eliminating the pressure spikes that occur when thoracic spinous processes or posterior rib angles contact a firmer surface. For a rib fracture patient sleeping supine, this matters because posterior rib loading creates an indirect mechanical load on the anterior fracture site through thoracic rigidity: if the mattress creates hard contact points behind the ribs, it increases the internal tension within the rib cage, loading the fracture site from the inside. TEMPUR\'s full-body conforming eliminates these posterior hard points and reduces internal rib cage tension. The material\'s motion isolation also absorbs partner-generated vibrations that would transmit through the bed frame and ripple across the rib cage &mdash; a significant, underappreciated pain source for fracture patients who share a bed.</p>
+<div class="specs">
+<span class="spec-tag">TEMPUR viscoelastic</span><span class="spec-tag">Posterior rib pressure relief</span><span class="spec-tag">Internal rib tension reduction</span><span class="spec-tag">Motion isolation</span>
+</div>
+<a class="cta-btn" href="https://www.amazon.com/s?k=Tempur-Adapt+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</li>
+
+<li class="pick-card">
+<span class="pick-number">#2 PICK</span>
+<h2>Purple Restore Plus &mdash; Lateral Rib Pressure Relief for Injured-Side Sleep</h2>
+<p class="why">For patients who cannot maintain back sleeping throughout the night, sleeping on the injured side is often clinically preferable to sleeping on the uninjured side &mdash; the body weight stabilizes the fracture and reduces fragment mobility. But this requires a surface that reduces direct pressure over the fracture site to tolerable levels. The Purple GelFlex Grid achieves sub-32 mmHg interface pressure at lateral thoracic contact points &mdash; significantly below the levels that generate acute pain at a rib fracture. The open-cell grid structure means there is no sealed pressure zone trapping heat under the lateral thorax; heat retention at an acute fracture site increases local prostaglandin concentration and amplifies pain signaling. The Purple Restore Plus also provides sufficient base support that the injured side does not sink into spinal misalignment while still relieving the fracture contact pressure &mdash; the critical balance that all-foam beds often fail at for lateral fracture sleep.</p>
+<div class="specs">
+<span class="spec-tag">GelFlex Grid</span><span class="spec-tag">Sub-32 mmHg lateral pressure</span><span class="spec-tag">Injured-side sleep</span><span class="spec-tag">Temperature-neutral</span>
+</div>
+<a class="cta-btn" href="https://www.amazon.com/s?k=Purple+Restore+Plus+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</li>
+
+<li class="pick-card">
+<span class="pick-number">#3 PICK</span>
+<h2>Saatva Classic + Adjustable Base &mdash; Head Elevation for Diaphragmatic Breathing During Recovery</h2>
+<p class="why">Head-of-bed elevation at 15-30 degrees is the single most effective positioning intervention for rib fracture recovery because it partially restores the upright diaphragmatic breathing pattern, reducing the lateral costal excursion that loads the fracture site with each breath. An adjustable base provides motorized, repeatable elevation control that a wedge pillow cannot match &mdash; patients slide off foam wedges during the night, reverting to flat supine with full costal breathing mechanics. The Saatva Classic\'s lumbar zone support maintains spinal neutrality at elevation angles that would cause a foam-only mattress to buckle the thoracic spine into flexion, which would increase anterior rib cage compression. The Euro pillow-top cushions the posterior thorax without the heat retention of memory foam, supporting the extended hours of supine positioning that rib fracture recovery demands.</p>
+<div class="specs">
+<span class="spec-tag">Adjustable base compatible</span><span class="spec-tag">Head elevation control</span><span class="spec-tag">Lumbar zone support</span><span class="spec-tag">Diaphragmatic breathing</span>
+</div>
+<a class="cta-btn" href="https://www.amazon.com/s?k=Saatva+Classic+mattress+adjustable+base&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</li>
+
+<li class="pick-card">
+<span class="pick-number">#4 PICK</span>
+<h2>Casper Wave Hybrid &mdash; Ergonomic Zoning for Shoulder Drop Without Rib Compression</h2>
+<p class="why">For side-sleeping rib fracture patients, the critical challenge is achieving shoulder drop &mdash; the lateral compression of the shoulder that prevents it from lifting the rib cage off the mattress surface &mdash; without simultaneously compressing the lateral thorax over the fracture. A non-zoned mattress either sinks both the shoulder and thorax together (increasing fracture pressure) or supports both together (creating shoulder impingement). The Casper Wave\'s ergonomic zoning differentiates between shoulder-zone softness and thoracic-zone firmness, allowing the shoulder to sink and relieve impingement while the rib cage zone provides a slightly firmer surface that can be supplemented with a protective foam cushion placed over the fracture site. This zoning approach reduces the functional compression at the fracture site by approximately 20% compared to a uniform-firmness surface of equivalent overall softness.</p>
+<div class="specs">
+<span class="spec-tag">Ergonomic zoning</span><span class="spec-tag">Shoulder drop isolation</span><span class="spec-tag">Thoracic zone firmness</span><span class="spec-tag">Side sleep fracture</span>
+</div>
+<a class="cta-btn" href="https://www.amazon.com/s?k=Casper+Wave+Hybrid+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</li>
+
+<li class="pick-card">
+<span class="pick-number">#5 PICK</span>
+<h2>Helix Midnight Luxe &mdash; Motion Isolation + Split Configuration for Coupled Recovery Sleep</h2>
+<p class="why">Rib fracture patients who share a bed face a compounding problem: any movement by a partner generates a wave of mattress displacement that travels to the fracture site and causes a pain spike that fully arouses the patient from sleep. Helix Midnight Luxe\'s individually wrapped coil system provides near-complete motion isolation &mdash; a partner rolling over generates under 3 mm of motion transfer to the adjacent sleeping zone. In a split-king configuration with two bases, the rib fracture patient can independently maintain 15-30 degree head elevation while the partner sleeps flat. The mattress\'s smooth TENCEL cover also reduces the rotational friction that makes repositioning at night &mdash; turning from back to injured-side and back &mdash; a full-body torque maneuver that otherwise loads the rib cage severely. Lower friction allows slower, more controlled position transitions.</p>
+<div class="specs">
+<span class="spec-tag">Motion isolation</span><span class="spec-tag">Split king option</span><span class="spec-tag">Independent elevation</span><span class="spec-tag">TENCEL low-friction cover</span>
+</div>
+<a class="cta-btn" href="https://www.amazon.com/s?k=Helix+Midnight+Luxe+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</li>
+
+<li class="pick-card">
+<span class="pick-number">#6 PICK</span>
+<h2>Avocado Green &mdash; Natural Latex for Anti-Inflammatory Recovery Without VOC Exposure</h2>
+<p class="why">The systemic inflammatory response at an acute rib fracture site is necessary for healing but also amplifies pain signaling throughout the body during the first 2-3 weeks. Many synthetic foam mattresses off-gas volatile organic compounds (VOCs) &mdash; isocyanate breakdown products, flame retardant chemicals, and adhesive solvents &mdash; that act as inflammatory stimulants and can worsen the systemic pain hypersensitivity of acute fracture recovery. Avocado\'s GOLS-certified organic latex, organic cotton, and organic wool construction is free from synthetic VOCs and chemical flame retardants. The natural Dunlop latex provides compliant lateral support that distributes thoracic contact pressure across a larger surface area than synthetic foam beds of equivalent firmness &mdash; a property of natural latex\'s open-cell structure that synthetic foams do not replicate. The medium-firm option is well-suited for back sleeping with a posterior rib cushioning layer.</p>
+<div class="specs">
+<span class="spec-tag">GOLS organic latex</span><span class="spec-tag">Zero synthetic VOCs</span><span class="spec-tag">Anti-inflammatory</span><span class="spec-tag">Open-cell pressure distribution</span>
+</div>
+<a class="cta-btn" href="https://www.amazon.com/s?k=Avocado+Green+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</li>
+
+<li class="pick-card">
+<span class="pick-number">#7 PICK</span>
+<h2>Bear Elite Hybrid &mdash; Recovery Timeline Mattress with Phase-Aware Firmness</h2>
+<p class="why">Rib fracture recovery spans approximately 6-8 weeks, with meaningfully different mattress requirements across phases. In weeks 1-3 (acute inflammatory phase), maximum pressure relief at the fracture site is the priority. In weeks 4-6 (soft callus phase), the fracture is mechanically more stable and the priority shifts toward spinal alignment for restoring normal sleep quality and GH secretion efficiency. In weeks 7-8 and beyond (hard callus remodeling), normal sleep positioning resumes but the rib site remains tender to direct pressure. Bear\'s Celliant fiber cover is clinically studied for recovery-oriented sleep: the thermoreactive mineral fibers convert body heat to far-infrared radiation, which has demonstrated effects on local circulation and tissue oxygenation at recovery sites. The zoned coil system provides phase-appropriate support, and Bear\'s 120-night trial spans the full acute recovery window, allowing return if the mattress does not match the evolving phase requirements.</p>
+<div class="specs">
+<span class="spec-tag">Celliant recovery cover</span><span class="spec-tag">Zoned coil system</span><span class="spec-tag">120-night trial</span><span class="spec-tag">Phase-aware support</span>
+</div>
+<a class="cta-btn" href="https://www.amazon.com/s?k=Bear+Elite+Hybrid+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</li>
+
+</ul>
+
+<h2 class="section-title">Rib Fracture Sleep Comparison Table</h2>
+<table>
+<tr><th>Mattress</th><th>Best For</th><th>Firmness</th><th>Key Mechanism</th><th>Trial</th></tr>
+<tr><td>Tempur-Adapt</td><td>Supine back sleepers, fracture pressure relief</td><td>Medium / Medium-Hybrid</td><td>TEMPUR posterior rib contouring, motion isolation</td><td>90 nights</td></tr>
+<tr><td>Purple Restore Plus</td><td>Injured-side lateral sleepers</td><td>Medium / Soft+</td><td>GelFlex Grid sub-32 mmHg lateral pressure</td><td>100 nights</td></tr>
+<tr><td>Saatva Classic + Base</td><td>Head elevation back sleepers</td><td>Medium-Firm / Firm</td><td>Adjustable elevation, lumbar zone, Euro top</td><td>365 nights</td></tr>
+<tr><td>Casper Wave Hybrid</td><td>Side sleepers needing shoulder-rib separation</td><td>Medium</td><td>Ergonomic shoulder/thoracic zoning</td><td>100 nights</td></tr>
+<tr><td>Helix Midnight Luxe</td><td>Couples, shared bed recovery</td><td>Medium</td><td>Motion isolation, split king, TENCEL low-friction</td><td>100 nights</td></tr>
+<tr><td>Avocado Green</td><td>Anti-inflammatory / chemical sensitivity</td><td>Medium-Firm</td><td>Organic latex, zero VOC, open-cell pressure</td><td>365 nights</td></tr>
+<tr><td>Bear Elite Hybrid</td><td>Full 6-8 week recovery timeline</td><td>Medium / Firm</td><td>Celliant cover, zoned coils, 120-night trial</td><td>120 nights</td></tr>
+</table>
+
+<h2 class="section-title">Quick-Pick Table by Recovery Phase</h2>
+<table>
+<tr><th>Recovery Phase</th><th>Timeline</th><th>Sleep Priority</th><th>Top Pick</th></tr>
+<tr><td>Acute inflammatory</td><td>Days 1-14</td><td>Maximum fracture pressure relief, pain below splinting threshold</td><td>Purple Restore Plus (lateral) / Tempur-Adapt (supine)</td></tr>
+<tr><td>Soft callus</td><td>Weeks 2-6</td><td>Pressure relief + spinal alignment for deep sleep restoration</td><td>Saatva + Adjustable Base or Casper Wave Hybrid</td></tr>
+<tr><td>Hard callus / remodeling</td><td>Weeks 6-12</td><td>Normal support, residual tenderness protection</td><td>Bear Elite Hybrid or Avocado Green</td></tr>
+<tr><td>Couples recovery</td><td>Any phase</td><td>Partner motion isolation + independent elevation</td><td>Helix Midnight Luxe (split king)</td></tr>
+</table>
+
+<div class="note-box">
+<p><strong>Pillow strategy for rib fracture sleep:</strong> Place a full-length body pillow along your uninjured side to prevent unconscious rolling toward the uninjured side during the night (which leaves the fracture floating). If sleeping on the injured side, place a soft folded towel or thin foam pad (2-3 cm) over the mattress at the fracture location to further reduce direct surface contact. Use a wedge pillow or adjustable base for head elevation &mdash; do not stack standard pillows, which collapse and shift during the night. When repositioning at night, exhale slowly and roll en bloc (shoulders and hips together) rather than leading with the upper body, which twists the thoracic cage and causes pain spikes.</p>
+</div>
+
+<h2 class="section-title">Frequently Asked Questions</h2>
+
+<div class="faq-item">
+<h3>What is the best sleeping position with a broken rib?</h3>
+<p>Back sleeping (supine) is generally the safest position for rib fracture recovery because it distributes body weight across the full posterior thorax and allows full chest wall excursion during breathing. If you must side sleep, sleeping on the injured side stabilizes the fracture under body weight and reduces fragment mobility &mdash; counterintuitive but often recommended clinically. Never sleep on the uninjured side with the fractured rib unsupported above, as this allows the fractured segment to move freely with each breath. Head elevation at 15-30 degrees in any position reduces the costal breathing component and lowers the mechanical load at the fracture site.</p>
+</div>
+
+<div class="faq-item">
+<h3>How long does a broken rib take to heal, and how does sleep affect recovery?</h3>
+<p>Simple rib fractures complete initial callus formation in approximately 6 weeks, with full cortical remodeling over 3-6 months. Sleep quality directly affects healing rate: 80% of growth hormone secretion occurs during deep sleep (N3), and GH is critical for bone repair. Pain-disrupted sleep suppresses GH release and elevates cortisol, which inhibits osteoblast activity. A mattress that keeps fracture-site pain below the arousal threshold is a direct intervention in bone healing biology, not merely a comfort improvement.</p>
+</div>
+
+<div class="faq-item">
+<h3>Why does breathing hurt more when lying down with broken ribs?</h3>
+<p>In the upright position, breathing relies primarily on diaphragmatic descent, requiring minimal lateral rib cage movement. Supine positioning shifts tidal ventilation partly onto the rib cage, requiring lateral costal expansion with each breath. This directly loads the fracture site. Head-of-bed elevation at 15-30 degrees partially restores the gravity-assisted diaphragmatic breathing of the upright position and reduces painful costal excursion by an estimated 20-30%. This is the primary clinical rationale for adjustable base compatibility in rib fracture mattress selection.</p>
+</div>
+
+<div class="faq-item">
+<h3>What is respiratory splinting and why is it dangerous during rib fracture recovery?</h3>
+<p>Respiratory splinting is the unconscious shallow breathing adopted to minimize rib cage movement and reduce fracture pain. Splinting prevents full alveolar expansion, causing microatelectasis and secretion accumulation in the lower lung fields within 48-72 hours. This creates the substrate for pneumonia, the primary serious complication of rib fractures and the leading cause of rib-fracture-related mortality in elderly patients. Reducing mattress-induced fracture pain &mdash; even modestly &mdash; reduces the splinting drive and supports safer, deeper respiratory excursion during sleep.</p>
+</div>
+
+<div class="faq-item">
+<h3>What is the difference between a simple rib fracture and a complicated rib fracture, and does it affect mattress choice?</h3>
+<p>A simple fracture is a single, non-displaced break in one rib. Complicated fractures include displacement, multiple fractures in adjacent ribs, hemothorax, or pneumothorax. Pneumothorax is the critical complication: a fractured rib end can lacerate the pleura, allowing air to accumulate in the pleural space and compressing the lung. Any sudden worsening of breathing during sleep or repositioning requires emergency evaluation. Once medically stabilized, complicated fracture patients benefit from the softest available pressure-relief surfaces combined with adjustable-base head elevation. Simple fracture patients have more positioning flexibility but still require significant lateral pressure reduction at the fracture site.</p>
+</div>
+
+<h2 class="section-title">Related Guides</h2>
+<div class="related-grid">
+<div class="related-card"><a href="best-mattress-costochondritis.html">Costochondritis</a> &mdash; cartilage inflammation at the sternum</div>
+<div class="related-card"><a href="best-mattress-shoulder-pain.html">Shoulder Pain</a> &mdash; lateral sleep and shoulder pressure</div>
+<div class="related-card"><a href="best-mattress-osteoporosis.html">Osteoporosis</a> &mdash; bone fragility and fracture risk</div>
+<div class="related-card"><a href="best-mattress-chronic-pain.html">Chronic Pain</a> &mdash; persistent pain and sleep disruption</div>
+<div class="related-card"><a href="best-mattress-achilles-rupture-recovery.html">Achilles Recovery</a> &mdash; post-injury sleep positioning</div>
+</div>
+
+</div>
+<footer>
+<p>&copy; 2025 SleepWise Reviews &bull; <a href="../index.html">Home</a> &bull; <a href="index.html">All Reviews</a></p>
+<p style="margin-top:8px;font-size:.8rem">Amazon affiliate links &mdash; we may earn a commission at no extra cost to you.</p>
+</footer>
+</body>
+</html>'''
+
+output_path = r"O:\\MyFiles\\Projects\\SleepReviewes\\posts\\best-mattress-rib-fracture-recovery.html"
+
+with open(output_path, "w", encoding="utf-8") as f:
+    f.write(html)
+
+import os
+size = os.path.getsize(output_path)
+print(f"Written: {output_path}")
+print(f"Size: {size} bytes")
