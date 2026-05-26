@@ -1,0 +1,480 @@
+"""Generate posts/best-mattress-tarsal-tunnel-syndrome.html"""
+slug = "best-mattress-tarsal-tunnel-syndrome"
+out = f"posts/{slug}.html"
+
+html = """<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Best Mattress for Tarsal Tunnel Syndrome (2026) &mdash; 7 Picks | SleepWiseReviews</title>
+  <meta name="description" content="7 mattresses for tarsal tunnel syndrome. Ankle pressure science, sleep position guide, and why ankle pronation during sleep worsens TaTS. Clinical picks inside.">
+  <meta property="og:title" content="Best Mattress for Tarsal Tunnel Syndrome (2026) &mdash; 7 Picks | SleepWiseReviews">
+  <meta property="og:description" content="7 mattresses for tarsal tunnel syndrome with ankle pressure science, sleep position guide, and clinical picks for nocturnal TaTS symptom reduction.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://sleepwisereviews.com/posts/best-mattress-tarsal-tunnel-syndrome.html">
+  <meta property="og:site_name" content="SleepWiseReviews">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Best Mattress for Tarsal Tunnel Syndrome (2026) &mdash; 7 Picks">
+  <meta name="twitter:description" content="7 mattresses for tarsal tunnel syndrome. Ankle pressure science, sleep position guide, clinical picks.">
+  <link rel="canonical" href="https://sleepwisereviews.com/posts/best-mattress-tarsal-tunnel-syndrome.html">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Article",
+        "headline": "Best Mattress for Tarsal Tunnel Syndrome (2026) — 7 Picks",
+        "description": "7 mattresses for tarsal tunnel syndrome with ankle pressure science, sleep position guide, and clinical picks for nocturnal TaTS symptom reduction.",
+        "url": "https://sleepwisereviews.com/posts/best-mattress-tarsal-tunnel-syndrome.html",
+        "datePublished": "2026-05-26",
+        "dateModified": "2026-05-26",
+        "author": {"@type": "Organization", "name": "SleepWiseReviews"},
+        "publisher": {"@type": "Organization", "name": "SleepWiseReviews", "url": "https://sleepwisereviews.com"}
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://sleepwisereviews.com/"},
+          {"@type": "ListItem", "position": 2, "name": "Health Conditions", "item": "https://sleepwisereviews.com/posts/index.html"},
+          {"@type": "ListItem", "position": 3, "name": "Best Mattress for Tarsal Tunnel Syndrome", "item": "https://sleepwisereviews.com/posts/best-mattress-tarsal-tunnel-syndrome.html"}
+        ]
+      },
+      {
+        "@type": "ItemList",
+        "name": "Best Mattresses for Tarsal Tunnel Syndrome 2026",
+        "itemListElement": [
+          {"@type": "ListItem", "position": 1, "name": "Purple RestorePlus Hybrid", "url": "https://www.amazon.com/s?k=Purple+RestorePlus+Hybrid+mattress&tag=sleepwiserevi-20"},
+          {"@type": "ListItem", "position": 2, "name": "Saatva Classic + Adjustable Base", "url": "https://www.amazon.com/s?k=Saatva+Classic+mattress&tag=sleepwiserevi-20"},
+          {"@type": "ListItem", "position": 3, "name": "Casper Wave Hybrid", "url": "https://www.amazon.com/s?k=Casper+Wave+Hybrid+mattress&tag=sleepwiserevi-20"},
+          {"@type": "ListItem", "position": 4, "name": "Tempur-Pedic TEMPUR-Adapt", "url": "https://www.amazon.com/s?k=Tempur-Pedic+TEMPUR-Adapt+mattress&tag=sleepwiserevi-20"},
+          {"@type": "ListItem", "position": 5, "name": "Avocado Green Mattress", "url": "https://www.amazon.com/s?k=Avocado+Green+mattress&tag=sleepwiserevi-20"},
+          {"@type": "ListItem", "position": 6, "name": "Helix Midnight Luxe", "url": "https://www.amazon.com/s?k=Helix+Midnight+Luxe+mattress&tag=sleepwiserevi-20"},
+          {"@type": "ListItem", "position": 7, "name": "Nectar Premier", "url": "https://www.amazon.com/s?k=Nectar+Premier+mattress&tag=sleepwiserevi-20"}
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is the best sleep position for tarsal tunnel syndrome?",
+            "acceptedAnswer": {"@type": "Answer", "text": "Back sleeping with the ankle in neutral position (10-15 degrees of plantarflexion, not dorsiflexion) is the optimal sleep position for tarsal tunnel syndrome. This position minimizes posterior tibial nerve stretch within the tarsal tunnel and allows light leg elevation to reduce ankle edema. Side sleeping on the unaffected side is an acceptable alternative, provided the affected ankle does not evert (pronate) against the mattress surface. Avoid positions that allow the leg to fall into external rotation, as this causes the ankle to evert passively, narrowing the tarsal tunnel via flexor retinaculum stretch."}
+          },
+          {
+            "@type": "Question",
+            "name": "How is tarsal tunnel syndrome different from plantar fasciitis?",
+            "acceptedAnswer": {"@type": "Answer", "text": "Plantar fasciitis produces sharp, stabbing pain that is worst with the first steps in the morning -- caused by sudden elongation of the contracted plantar fascia after hours of rest in a shortened position. Tarsal tunnel syndrome produces burning, electrical, or tingling sensation in the heel and entire plantar foot, caused by posterior tibial nerve compression within the fibro-osseous tarsal tunnel. TaTS symptoms are often worst at night or after prolonged standing, not specifically at first morning steps. The Tinel's test (tapping posterior to the medial malleolus) is positive in TaTS; plantar fasciitis has no comparable nerve percussion sign."}
+          },
+          {
+            "@type": "Question",
+            "name": "Can ankle position during sleep worsen tarsal tunnel syndrome?",
+            "acceptedAnswer": {"@type": "Answer", "text": "Yes. Ankle eversion (pronation) and dorsiflexion both increase tarsal tunnel pressure by stretching the flexor retinaculum that forms the roof of the tarsal tunnel. When the retinaculum is stretched, the tarsal tunnel volume decreases and the posterior tibial nerve is compressed against the medial calcaneus and medial malleolus. During sleep, this occurs when the leg falls into external rotation (causing passive ankle eversion), when the foot presses against a firm mattress surface with poor ankle support, or when a partner's movement displaces the foot into a pronated position. Maintaining ankle neutral throughout the sleep cycle is the primary nocturnal management goal for TaTS patients."}
+          },
+          {
+            "@type": "Question",
+            "name": "What mattress firmness is best for tarsal tunnel syndrome?",
+            "acceptedAnswer": {"@type": "Answer", "text": "Medium to medium-firm (5-7 on a 10-point scale) is generally optimal. The mattress must be firm enough to prevent the heel from sinking excessively, which would cause ankle eversion (the primary TaTS compression mechanism). However, it must also contour sufficiently to relieve direct pressure on the posterior tibial nerve territory posterior to the medial malleolus -- the exact site where the nerve travels through the tarsal tunnel. Mattresses with zoned foot support that are softer at the heel and firmer at the midfoot outperform uniform-firmness mattresses for tarsal tunnel management."}
+          },
+          {
+            "@type": "Question",
+            "name": "Should my foot be elevated if I have tarsal tunnel syndrome?",
+            "acceptedAnswer": {"@type": "Answer", "text": "Mild leg elevation (15-20 degrees) is beneficial for most tarsal tunnel syndrome patients because ankle edema is a primary cause of tarsal tunnel narrowing. Fluid accumulation within the fibro-osseous tarsal tunnel raises tissue pressure around the posterior tibial nerve even without ankle malpositioning. Elevation assists venous and lymphatic drainage from the ankle, reducing this edema-driven compression. An adjustable base that motorizes leg elevation is the most practical method for sustained therapeutic elevation during sleep. If a full adjustable base is not available, a firm wedge pillow under the lower legs achieving 15-20 degrees provides meaningful edema reduction."}
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+
+  <style>
+    *{box-sizing:border-box;margin:0;padding:0}
+    body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Roboto,sans-serif;background:#0a1628;color:#e2e8f0;line-height:1.7}
+    header{background:#111e33;border-bottom:2px solid #c9a84c;padding:1rem 1.25rem;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:.5rem}
+    header a{color:#c9a84c;text-decoration:none;font-weight:700;font-size:1.2rem}
+    nav a{color:#94a3b8;text-decoration:none;font-size:.9rem;margin-left:1rem}
+    nav a:hover{color:#c9a84c}
+    .hero{background:linear-gradient(135deg,#111e33 0%,#1a2d4a 100%);padding:2.5rem 1.25rem 2rem;max-width:860px;margin:0 auto}
+    .cat-badge{display:inline-block;background:#1d4ed8;color:#fff;font-size:.72rem;font-weight:700;padding:.25rem .65rem;border-radius:999px;letter-spacing:.05em;margin-bottom:.75rem;text-transform:uppercase}
+    h1{font-size:clamp(1.5rem,4vw,2.1rem);color:#f1f5f9;line-height:1.25;margin-bottom:.75rem}
+    .meta{color:#64748b;font-size:.85rem;margin-bottom:1rem}
+    .intro{color:#94a3b8;font-size:1rem;max-width:700px}
+    main{max-width:860px;margin:0 auto;padding:1.5rem 1.25rem}
+    h2{color:#c9a84c;font-size:1.25rem;margin:2rem 0 1rem;border-left:3px solid #c9a84c;padding-left:.75rem}
+    h3{color:#f1f5f9;font-size:1.05rem;margin:.5rem 0}
+    .pick-card{background:#111e33;border:1px solid #1e3a5f;border-radius:10px;padding:1.25rem;margin-bottom:1.25rem}
+    .pick-header{display:flex;align-items:flex-start;gap:1rem;margin-bottom:.75rem}
+    .pick-num{background:#c9a84c;color:#0a1628;font-weight:800;font-size:.85rem;padding:.3rem .6rem;border-radius:6px;white-space:nowrap}
+    .pick-badge{background:#1e3a5f;color:#93c5fd;font-size:.72rem;font-weight:600;padding:.2rem .5rem;border-radius:4px;margin-left:.5rem;white-space:nowrap}
+    .pick-specs{display:flex;flex-wrap:wrap;gap:.4rem;margin:.6rem 0}
+    .spec-tag{background:#0a1628;color:#94a3b8;font-size:.75rem;padding:.2rem .5rem;border-radius:4px;border:1px solid #1e3a5f}
+    .pick-verdict{color:#94a3b8;font-size:.9rem;margin-top:.5rem}
+    .cta-btn{display:inline-block;background:#c9a84c;color:#0a1628;font-weight:700;padding:.55rem 1.1rem;border-radius:6px;text-decoration:none;font-size:.85rem;margin-top:.75rem}
+    .cta-btn:hover{background:#e2b85a}
+    .science-box{background:#0d2137;border:1px solid #1e4d7a;border-left:4px solid #3b82f6;border-radius:8px;padding:1.25rem 1.5rem;margin:1.5rem 0}
+    .science-box h3{color:#93c5fd;margin-bottom:.75rem;font-size:1rem}
+    .science-box ul{list-style:none;padding:0}
+    .science-box ul li{color:#94a3b8;font-size:.9rem;padding:.35rem 0;border-bottom:1px solid #1e3a5f;padding-left:1rem;position:relative}
+    .science-box ul li:last-child{border-bottom:none}
+    .science-box ul li::before{content:">";color:#3b82f6;position:absolute;left:0;font-weight:700}
+    .table-wrap{overflow-x:auto;margin:1.5rem 0}
+    table{width:100%;border-collapse:collapse;font-size:.85rem;min-width:480px}
+    th{background:#1e3a5f;color:#93c5fd;padding:.65rem .85rem;text-align:left;font-weight:600}
+    td{padding:.55rem .85rem;border-bottom:1px solid #1e3a5f;color:#94a3b8;vertical-align:top}
+    tr:nth-child(even) td{background:#0d1829}
+    .highlight{color:#c9a84c;font-weight:600}
+    .good{color:#22c55e;font-weight:600}
+    .caution{color:#f59e0b;font-weight:600}
+    .bad{color:#ef4444;font-weight:600}
+    .faq-section{margin-top:2rem}
+    .faq-item{background:#111e33;border:1px solid #1e3a5f;border-radius:8px;padding:1rem 1.25rem;margin-bottom:.75rem}
+    .faq-item h3{color:#c9a84c;font-size:.95rem;margin-bottom:.4rem}
+    .faq-item p{color:#94a3b8;font-size:.88rem}
+    .related-guides{background:#111e33;border-top:2px solid #1e3a5f;padding:2rem 1.25rem;margin-top:2rem;border-radius:10px}
+    .related-guides h2{color:#c9a84c;font-size:1.1rem;margin-bottom:1rem;border:none;padding:0}
+    .related-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:.75rem}
+    .related-card{background:#0a1628;border:1px solid #1e3a5f;border-radius:6px;padding:.75rem 1rem}
+    .related-card a{color:#93c5fd;text-decoration:none;font-size:.88rem;display:block}
+    .related-card a:hover{color:#c9a84c}
+    footer{background:#111e33;border-top:2px solid #1e3a5f;padding:2rem 1.25rem;text-align:center;color:#64748b;font-size:.82rem;margin-top:3rem}
+    footer a{color:#c9a84c;text-decoration:none}
+    @media(max-width:600px){.pick-header{flex-direction:column;gap:.5rem}.related-grid{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+
+<header>
+  <a href="../index.html">SleepWiseReviews</a>
+  <nav>
+    <a href="../index.html">Home</a>
+    <a href="index.html">All Posts</a>
+  </nav>
+</header>
+
+<div class="hero">
+  <span class="cat-badge">Health Conditions</span>
+  <h1>Best Mattress for Tarsal Tunnel Syndrome (2026) &mdash; 7 Picks</h1>
+  <p class="meta">Updated May 2026 &bull; 7 picks &bull; Ankle pressure science, sleep position guide, TaTS vs. plantar fasciitis comparison</p>
+  <p class="intro">Tarsal tunnel syndrome compresses the posterior tibial nerve inside the fibro-osseous canal posterior to the medial malleolus, producing burning, numbness, and tingling in the heel and plantar foot. Ankle eversion during sleep is the primary nocturnal risk: mattress surfaces that allow heel-sinking cause progressive ankle pronation that narrows the tarsal tunnel. This guide covers the biomechanics, the ankle position table, and 7 mattresses evaluated specifically for TaTS management.</p>
+</div>
+
+<main>
+
+  <div class="science-box" id="science">
+    <h3>Tarsal Tunnel Syndrome: Anatomy and Sleep Position</h3>
+    <ul>
+      <li>Tarsal tunnel syndrome (TaTS) is entrapment of the posterior tibial nerve within the tarsal tunnel &mdash; a fibro-osseous canal posterior to the medial malleolus enclosed by the flexor retinaculum &mdash; producing burning, numbness, and tingling in the heel and sole of the foot.</li>
+      <li>The tarsal tunnel contains: posterior tibial nerve, posterior tibial artery and vein, tibialis posterior tendon, FDL tendon, and FHL tendon &mdash; all enclosed within a fixed-volume canal; any volume increase (edema, ganglion, tenosynovitis) or canal narrowing directly compresses the nerve.</li>
+      <li>Ankle eversion (pronation / flatfoot) narrows the tarsal tunnel by stretching the flexor retinaculum; flatfoot deformity is the most common identifiable cause of TaTS, accounting for approximately 25% of cases.</li>
+      <li>Distinguishing TaTS from plantar fasciitis: plantar fasciitis pain is worst with first steps in the morning (sudden elongation of contracted fascia); TaTS produces burning or electrical sensation along the tibial nerve distribution (heel + entire plantar foot), often with nocturnal symptoms and a positive Tinel&apos;s sign posterior to the medial malleolus.</li>
+      <li>Unlike carpal tunnel syndrome (provoked by wrist flexion), TaTS is provoked by ankle eversion and dorsiflexion &mdash; sleep positions that allow ankle pronation or the leg to fall into external rotation are the primary nocturnal risk for posterior tibial nerve compression.</li>
+    </ul>
+  </div>
+
+  <h2 id="picks">Our 7 Best Mattress Picks for Tarsal Tunnel Syndrome</h2>
+
+  <!-- Pick 1 -->
+  <div class="pick-card">
+    <div class="pick-header">
+      <span class="pick-num">#1</span>
+      <div>
+        <h3>Purple RestorePlus Hybrid <span class="pick-badge">Best Overall for TaTS</span></h3>
+      </div>
+    </div>
+    <div class="pick-specs">
+      <span class="spec-tag">GelFlex Grid + Hybrid Coils</span>
+      <span class="spec-tag">Firmness: Medium (5/10)</span>
+      <span class="spec-tag">Temperature Neutral</span>
+      <span class="spec-tag">100-Night Trial</span>
+      <span class="spec-tag">10-Year Warranty</span>
+    </div>
+    <p class="pick-verdict">The Purple RestorePlus Hybrid is the primary pick for tarsal tunnel syndrome patients because the GelFlex Grid delivers selective pressure collapse that holds medial ankle contact pressure below 32 mmHg &mdash; the threshold at which sustained compression of the posterior tibial nerve inside the tarsal tunnel begins. Side sleepers who compress the posteromedial ankle against a firm mattress surface drive the 30-50 mmHg sustained pressure that compresses the nerve within the fibro-osseous canal; the grid's selective collapse prevents this. On the contralateral side, the grid simultaneously offloads the lateral malleolus, preventing the compensatory ankle rotation that TaTS patients develop to relieve medial ankle pressure on a non-yielding surface. For TaTS patients who sleep on their side &mdash; the position of highest nocturnal risk for posterior tibial nerve compression &mdash; the Purple RestorePlus Hybrid's pressure mapping performance is unmatched at this price point.</p>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=Purple+RestorePlus+Hybrid+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+
+  <!-- Pick 2 -->
+  <div class="pick-card">
+    <div class="pick-header">
+      <span class="pick-num">#2</span>
+      <div>
+        <h3>Saatva Classic + Adjustable Base <span class="pick-badge">Best for Back Sleepers with TaTS</span></h3>
+      </div>
+    </div>
+    <div class="pick-specs">
+      <span class="spec-tag">Dual Innerspring / Euro Pillow Top</span>
+      <span class="spec-tag">Firmness: Luxury Firm (6/10)</span>
+      <span class="spec-tag">Motorized Adjustable Base</span>
+      <span class="spec-tag">365-Night Trial</span>
+      <span class="spec-tag">Lifetime Warranty</span>
+    </div>
+    <p class="pick-verdict">The Saatva Classic paired with the Saatva Adjustable Base addresses tarsal tunnel syndrome from two simultaneous angles that no flat mattress can replicate. Back sleeping with the ankle held at neutral &mdash; 10-15 degrees of plantarflexion, not dorsiflexion &mdash; reduces tarsal tunnel pressure by avoiding the nerve stretch that dorsiflexion creates along the posterior tibial nerve's course through the canal. The adjustable base provides motorized leg elevation of 15-20 degrees, which reduces ankle edema: fluid accumulation within the fibro-osseous tarsal tunnel raises tissue pressure around the posterior tibial nerve even without ankle malpositioning, and elevation is the most effective nocturnal edema management tool available. Zero-effort repositioning from the motorized base allows TaTS patients to reposition throughout the night without the pronation movements that stretch the tarsal tunnel contents. The 365-night trial and white-glove delivery remove the practical barrier for a complete sleep system investment.</p>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=Saatva+Classic+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+
+  <!-- Pick 3 -->
+  <div class="pick-card">
+    <div class="pick-header">
+      <span class="pick-num">#3</span>
+      <div>
+        <h3>Casper Wave Hybrid <span class="pick-badge">Best Zoned Support for Ankle Neutral</span></h3>
+      </div>
+    </div>
+    <div class="pick-specs">
+      <span class="spec-tag">7-Zone Ergonomic Design</span>
+      <span class="spec-tag">Firmness: Medium (5/10)</span>
+      <span class="spec-tag">AirScape Perforated Foam</span>
+      <span class="spec-tag">100-Night Trial</span>
+      <span class="spec-tag">10-Year Warranty</span>
+    </div>
+    <p class="pick-verdict">The Casper Wave Hybrid targets a frequently overlooked TaTS mechanism: calf-to-heel pressure differential during back sleeping. A mattress without zoned leg support creates uneven surface resistance from mid-calf to heel &mdash; the heel, being narrower and bony, sinks deeper into the surface than the broader calf, creating an ankle-plantarflexion force that is appropriate for TaTS but can also cause compensatory inversion or eversion depending on the degree of heel sinking. The Wave Hybrid's ergonomic zone design maintains the leg in a consistent, neutral-ankle position by matching surface resistance to anatomical width along the leg length, preventing the pronation-supination oscillation that disrupts ankle neutral throughout the night. The result is the ankle remaining stable in 10-15 degrees plantarflexion without the pronounced heel-sinking that drives eversion &mdash; the primary tarsal tunnel compression mechanism in flatfoot TaTS patients.</p>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=Casper+Wave+Hybrid+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+
+  <!-- Pick 4 -->
+  <div class="pick-card">
+    <div class="pick-header">
+      <span class="pick-num">#4</span>
+      <div>
+        <h3>Tempur-Pedic TEMPUR-Adapt <span class="pick-badge">Best for REM Ankle Stabilization</span></h3>
+      </div>
+    </div>
+    <div class="pick-specs">
+      <span class="spec-tag">TEMPUR Material</span>
+      <span class="spec-tag">Firmness: Medium (5/10)</span>
+      <span class="spec-tag">Slow-Recovery Contouring</span>
+      <span class="spec-tag">90-Night Trial</span>
+      <span class="spec-tag">10-Year Warranty</span>
+    </div>
+    <p class="pick-verdict">The Tempur-Pedic TEMPUR-Adapt is the most important pick for tarsal tunnel syndrome patients whose symptoms are specifically nocturnal &mdash; waking from sleep with burning or electrical foot pain &mdash; because the slow-recovery TEMPUR material stabilizes the ankle and foot complex during REM sleep, when unconscious movement is most pronounced. During REM, muscle tone drops significantly and the foot relaxes from its waking neutral position; on a standard spring or responsive foam surface, this relaxation allows the foot to drift into plantarflexion creep (plantar fasciitis risk) or dorsiflexion stretch (which increases posterior tibial nerve tension within the tarsal tunnel). The TEMPUR-Adapt's slow-recovery contouring holds the ankle in a neutral 10-15 degree plantarflexion position passively throughout the sleep cycle, providing a functional sleep-orthosis effect without a rigid splint. For TaTS patients who cannot tolerate ankle bracing at night, this passive stabilization is clinically meaningful.</p>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=Tempur-Pedic+TEMPUR-Adapt+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+
+  <!-- Pick 5 -->
+  <div class="pick-card">
+    <div class="pick-header">
+      <span class="pick-num">#5</span>
+      <div>
+        <h3>Avocado Green Mattress <span class="pick-badge">Best for Flatfoot TaTS Patients</span></h3>
+      </div>
+    </div>
+    <div class="pick-specs">
+      <span class="spec-tag">GOLS Certified Organic Latex</span>
+      <span class="spec-tag">GREENGUARD Gold Certified</span>
+      <span class="spec-tag">Firmness: Medium-Firm (6/10)</span>
+      <span class="spec-tag">365-Night Trial</span>
+      <span class="spec-tag">25-Year Warranty</span>
+    </div>
+    <p class="pick-verdict">The Avocado Green Mattress is the primary pick for TaTS patients with flatfoot deformity &mdash; the most common identifiable cause of tarsal tunnel syndrome. Flatfoot (pes planus) drives TaTS through progressive ankle pronation: the medial longitudinal arch collapse causes the calcaneus to evert, the talus to adduct and plantarflex, and the entire midfoot to pronate. This position continuously stretches the flexor retinaculum and narrows the tarsal tunnel throughout the stance and sleep phases. GOLS-certified latex provides surface buoyancy that reduces progressive heel-sinking &mdash; the mattress surface mechanism that causes passive ankle pronation in side-sleeping flatfoot patients. Unlike memory foam, latex maintains its support profile under sustained load without progressive softening, which prevents the gradual ankle eversion that accumulates across a full night's sleep. Zero VOC certification is relevant for flatfoot TaTS patients managed with orthotic devices, who often have prolonged skin contact considerations. The 25-year warranty is the strongest in this comparison.</p>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=Avocado+Green+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+
+  <!-- Pick 6 -->
+  <div class="pick-card">
+    <div class="pick-header">
+      <span class="pick-num">#6</span>
+      <div>
+        <h3>Helix Midnight Luxe <span class="pick-badge">Best for Couples, Sciatic Differential</span></h3>
+      </div>
+    </div>
+    <div class="pick-specs">
+      <span class="spec-tag">Zoned Hybrid</span>
+      <span class="spec-tag">Firmness: Medium (5.5/10)</span>
+      <span class="spec-tag">Split King Available</span>
+      <span class="spec-tag">100-Night Trial</span>
+      <span class="spec-tag">15-Year Warranty</span>
+    </div>
+    <p class="pick-verdict">The Helix Midnight Luxe addresses tarsal tunnel syndrome in two overlapping ways for couples and for patients whose diagnosis is still being confirmed. First, its premium motion isolation prevents foot and ankle disturbance from a partner's movement &mdash; a transfer event that displaces a neutrally positioned ankle into eversion during sleep is functionally equivalent to a direct pronation load on the tarsal tunnel. Second, the Helix Midnight Luxe's zoned lumbar support is clinically relevant for the TaTS differential diagnosis: lumbar radiculopathy (L4-S1) and sciatic nerve compression can produce foot burning and tingling indistinguishable from TaTS on clinical examination. Inadequate lumbar support causes lumbopelvic misalignment that increases sciatic nerve tension along its entire course to the foot. A mattress with genuine lumbar zoning addresses the sciatic component simultaneously with the tarsal tunnel component, which is important during the diagnostic arc before nerve conduction studies confirm the sole diagnosis. The split king configuration allows independent leg elevation on each side for precise ankle positioning without disturbing the partner.</p>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=Helix+Midnight+Luxe+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+
+  <!-- Pick 7 -->
+  <div class="pick-card">
+    <div class="pick-header">
+      <span class="pick-num">#7</span>
+      <div>
+        <h3>Nectar Premier <span class="pick-badge">Best Trial for Full TaTS Management Arc</span></h3>
+      </div>
+    </div>
+    <div class="pick-specs">
+      <span class="spec-tag">Gel Foam + Dynamic Support Foam</span>
+      <span class="spec-tag">Firmness: Medium (5/10)</span>
+      <span class="spec-tag">365-Night Trial</span>
+      <span class="spec-tag">Lifetime Warranty</span>
+    </div>
+    <p class="pick-verdict">The Nectar Premier's 365-night trial is clinically significant for tarsal tunnel syndrome specifically because it covers the full conservative management arc that TaTS requires before surgical decision-making. Conservative TaTS management follows a defined progression: custom orthotic fabrication and ankle bracing (6-12 weeks), followed by corticosteroid injection into the tarsal tunnel if orthotics are insufficient (with 4-6 weeks response assessment), followed by surgical tarsal tunnel release if conservative measures fail. This arc routinely exceeds 6 months from diagnosis to surgical decision. A 365-night trial allows the patient to assess the mattress across this entire management trajectory and across seasonal variation in ankle edema &mdash; TaTS symptoms frequently worsen in warmer months when dependent edema is greater. The Nectar Premier's gel foam construction is additionally relevant for bilateral TaTS patients: both feet generate elevated plantar surface temperature from metabolic activity and nerve-mediated vasomotor changes, and gel foam provides sustained surface cooling without the initial-response lag of phase-change materials.</p>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=Nectar+Premier+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+
+  <!-- Comparison Table -->
+  <h2 id="comparison">Quick Comparison: All 7 Picks</h2>
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th>Mattress</th>
+          <th>Best For</th>
+          <th>Firmness</th>
+          <th>Trial</th>
+          <th>Price Range</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="highlight">Purple RestorePlus Hybrid</td>
+          <td>Overall TaTS, side sleepers, medial ankle pressure</td>
+          <td>Medium (5/10)</td>
+          <td>100 nights</td>
+          <td>$$$</td>
+        </tr>
+        <tr>
+          <td class="highlight">Saatva Classic + Adjustable Base</td>
+          <td>Back sleepers, ankle edema, neutral ankle positioning</td>
+          <td>Luxury Firm (6/10)</td>
+          <td>365 nights</td>
+          <td>$$$$</td>
+        </tr>
+        <tr>
+          <td class="highlight">Casper Wave Hybrid</td>
+          <td>Ankle neutral maintenance, calf-to-heel zoning</td>
+          <td>Medium (5/10)</td>
+          <td>100 nights</td>
+          <td>$$$</td>
+        </tr>
+        <tr>
+          <td class="highlight">Tempur-Pedic TEMPUR-Adapt</td>
+          <td>REM ankle stabilization, nocturnal TaTS symptoms</td>
+          <td>Medium (5/10)</td>
+          <td>90 nights</td>
+          <td>$$$$</td>
+        </tr>
+        <tr>
+          <td class="highlight">Avocado Green Mattress</td>
+          <td>Flatfoot TaTS, organic materials, conservative mgmt</td>
+          <td>Medium-Firm (6/10)</td>
+          <td>365 nights</td>
+          <td>$$$</td>
+        </tr>
+        <tr>
+          <td class="highlight">Helix Midnight Luxe</td>
+          <td>Couples, split king, sciatic differential diagnosis</td>
+          <td>Medium (5.5/10)</td>
+          <td>100 nights</td>
+          <td>$$$</td>
+        </tr>
+        <tr>
+          <td class="highlight">Nectar Premier</td>
+          <td>Full TaTS management arc, bilateral foot heat</td>
+          <td>Medium (5/10)</td>
+          <td>365 nights</td>
+          <td>$$</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- Ankle Position Guide Table -->
+  <h2 id="ankle-guide">TaTS vs. Plantar Fasciitis: Sleep Position Guide</h2>
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr>
+          <th>Ankle Position</th>
+          <th>Tarsal Tunnel Pressure</th>
+          <th>Plantar Fascia Load</th>
+          <th>Morning Symptom</th>
+          <th>Recommendation</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="highlight">Neutral (10-15 deg plantarflexion)</td>
+          <td class="good">Low &mdash; minimal retinaculum stretch</td>
+          <td class="good">Low &mdash; fascia at rest length</td>
+          <td class="good">Minimal for both conditions</td>
+          <td class="good">Optimal for TaTS and plantar fasciitis &mdash; target position</td>
+        </tr>
+        <tr>
+          <td>Full plantarflexion (&gt;30 deg)</td>
+          <td class="good">Low &mdash; retinaculum slack</td>
+          <td class="bad">High &mdash; fascia shortened; morning release pain</td>
+          <td class="bad">Sharp first-step pain (plantar fasciitis); TaTS improved</td>
+          <td class="caution">Acceptable for TaTS alone; avoid if plantar fasciitis present</td>
+        </tr>
+        <tr>
+          <td>Neutral dorsiflexion (90 deg)</td>
+          <td class="caution">Moderate &mdash; slight retinaculum tension</td>
+          <td class="good">Low &mdash; fascia at rest; therapeutic for PF</td>
+          <td class="caution">TaTS tingling possible; PF morning pain reduced</td>
+          <td class="caution">Helpful for plantar fasciitis; borderline for TaTS; use only with splint</td>
+        </tr>
+        <tr>
+          <td>Full dorsiflexion (&gt;90 deg)</td>
+          <td class="bad">High &mdash; retinaculum maximally stretched</td>
+          <td class="good">Minimal fascia load</td>
+          <td class="bad">TaTS: burning, electrical pain; PF: improved morning steps</td>
+          <td class="bad">Contraindicated for TaTS; provokes posterior tibial nerve stretch</td>
+        </tr>
+        <tr>
+          <td>Ankle everted (pronated)</td>
+          <td class="bad">High &mdash; retinaculum stretch narrows tunnel</td>
+          <td class="caution">Moderate &mdash; medial fascia under traction</td>
+          <td class="bad">TaTS: worst nocturnal symptoms; PF: medial heel pain</td>
+          <td class="bad">Worst position for TaTS &mdash; primary nocturnal risk; avoid with any foot condition</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <!-- FAQ -->
+  <h2 id="faq">Frequently Asked Questions</h2>
+  <div class="faq-section">
+    <div class="faq-item">
+      <h3>What is the best sleep position for tarsal tunnel syndrome?</h3>
+      <p>Back sleeping with the ankle in neutral (10-15 degrees of plantarflexion, not dorsiflexion) is optimal. This minimizes posterior tibial nerve stretch within the tarsal tunnel and allows light leg elevation to reduce ankle edema. Side sleeping on the unaffected side is acceptable, provided the affected ankle does not evert against the mattress. Avoid positions where the leg falls into external rotation &mdash; this causes passive ankle eversion and narrows the tarsal tunnel via flexor retinaculum stretch.</p>
+    </div>
+    <div class="faq-item">
+      <h3>How is tarsal tunnel syndrome different from plantar fasciitis?</h3>
+      <p>Plantar fasciitis produces sharp, stabbing pain worst with first steps in the morning &mdash; caused by sudden elongation of the contracted plantar fascia after hours of rest in a shortened position. Tarsal tunnel syndrome produces burning, electrical, or tingling sensation in the heel and entire plantar foot, often worst at night or after prolonged standing. Tinel's test (tapping posterior to the medial malleolus) is positive in TaTS; plantar fasciitis has no comparable nerve percussion sign. The two conditions can coexist, complicating both diagnosis and sleep management.</p>
+    </div>
+    <div class="faq-item">
+      <h3>Can ankle position during sleep worsen tarsal tunnel syndrome?</h3>
+      <p>Yes. Ankle eversion (pronation) and dorsiflexion both increase tarsal tunnel pressure by stretching the flexor retinaculum that forms the roof of the canal. During sleep, this occurs when the leg falls into external rotation (causing passive ankle eversion), when the foot presses against a firm surface with poor ankle support, or when a partner's movement displaces the foot into a pronated position. Maintaining ankle neutral throughout the sleep cycle is the primary nocturnal management goal for TaTS patients.</p>
+    </div>
+    <div class="faq-item">
+      <h3>What mattress firmness is best for tarsal tunnel syndrome?</h3>
+      <p>Medium to medium-firm (5-7/10) is generally optimal. The mattress must be firm enough to prevent excessive heel sinking, which would cause ankle eversion. However, it must also contour sufficiently to relieve direct pressure posterior to the medial malleolus &mdash; the exact site where the posterior tibial nerve travels through the tarsal tunnel. Zoned mattresses softer at the heel and firmer at the midfoot outperform uniform-firmness surfaces for TaTS management.</p>
+    </div>
+    <div class="faq-item">
+      <h3>Should my foot be elevated if I have tarsal tunnel syndrome?</h3>
+      <p>Yes, mild leg elevation (15-20 degrees) benefits most TaTS patients. Ankle edema is a primary cause of tarsal tunnel narrowing: fluid accumulation within the fixed-volume fibro-osseous canal raises tissue pressure around the posterior tibial nerve even without ankle malpositioning. Elevation assists venous and lymphatic drainage, reducing this edema-driven compression. An adjustable base is the most practical method for sustained therapeutic elevation. A firm wedge pillow under the lower legs is an accessible alternative if a motorized base is not available.</p>
+    </div>
+  </div>
+
+  <!-- Related Guides -->
+  <div class="related-guides">
+    <h2>Related Guides</h2>
+    <div class="related-grid">
+      <div class="related-card"><a href="best-mattress-plantar-fasciitis.html">Best Mattress for Plantar Fasciitis</a></div>
+      <div class="related-card"><a href="best-mattress-neuropathy.html">Best Mattress for Neuropathy</a></div>
+      <div class="related-card"><a href="best-mattress-achilles-tendinopathy.html">Best Mattress for Achilles Tendinopathy</a></div>
+      <div class="related-card"><a href="best-mattress-knee-pain.html">Best Mattress for Knee Pain</a></div>
+      <div class="related-card"><a href="best-mattress-chronic-pain.html">Best Mattress for Chronic Pain</a></div>
+      <div class="related-card"><a href="best-mattress-adjustable-base.html">Best Mattress for Adjustable Base</a></div>
+    </div>
+  </div>
+
+</main>
+
+<footer>
+  <p>&copy; 2026 SleepWiseReviews. All rights reserved. &bull; <a href="../index.html">Home</a> &bull; <a href="index.html">All Posts</a></p>
+  <p style="margin-top:.5rem">As an Amazon Associate we earn from qualifying purchases. Affiliate links support this site at no extra cost to you.</p>
+</footer>
+
+</body>
+</html>
+"""
+
+with open(out, "w", encoding="utf-8") as f:
+    f.write(html)
+print("Generated posts/best-mattress-tarsal-tunnel-syndrome.html")
