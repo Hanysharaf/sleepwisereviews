@@ -1,0 +1,383 @@
+# -*- coding: utf-8 -*-
+"""Generate posts/best-mattress-knee-cartilage-repair.html for SleepWiseReviews."""
+
+import os
+
+html = """<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Best Mattress for Knee Cartilage Repair Recovery 2026 &mdash; 7 Picks for Graft Protection &amp; NWB Protocol Sleep</title>
+<meta name="description" content="Best mattresses for knee cartilage repair recovery 2026. 7 expert picks for microfracture, MACI, and OAT/OATS procedures: CPM machine accommodation, 6-8 week NWB protocol sleep, cartilage graft protection, and the 9-18 month return-to-sport arc.">
+<link rel="canonical" href="https://sleepwisereviews.com/posts/best-mattress-knee-cartilage-repair.html">
+<meta property="og:title" content="Best Mattress for Knee Cartilage Repair Recovery 2026 &mdash; 7 Picks">
+<meta property="og:description" content="Cartilage repair recovery demands the most careful sleep of any knee surgery: strict NWB, CPM machine use at night, and a graft more fragile than bone or ligament. These 7 picks address the full 9-18 month arc.">
+<meta property="og:url" content="https://sleepwisereviews.com/posts/best-mattress-knee-cartilage-repair.html">
+<meta property="og:type" content="article">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Best Mattress for Knee Cartilage Repair Recovery 2026">
+<meta name="twitter:description" content="7 mattress picks for cartilage repair: CPM accommodation, NWB sleep, graft protection, 9-18 month arc.">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "headline": "Best Mattress for Knee Cartilage Repair Recovery 2026",
+      "description": "Expert mattress picks for knee cartilage repair recovery: microfracture, MACI, and OAT/OATS procedures. CPM machine accommodation, NWB protocol sleep, cartilage graft protection, and the 9-18 month recovery arc.",
+      "url": "https://sleepwisereviews.com/posts/best-mattress-knee-cartilage-repair.html",
+      "datePublished": "2026-05-26",
+      "dateModified": "2026-05-26",
+      "author": {"@type": "Organization", "name": "SleepWise Reviews"},
+      "publisher": {"@type": "Organization", "name": "SleepWise Reviews", "url": "https://sleepwisereviews.com"}
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://sleepwisereviews.com"},
+        {"@type": "ListItem", "position": 2, "name": "All Posts", "item": "https://sleepwisereviews.com/posts/index.html"},
+        {"@type": "ListItem", "position": 3, "name": "Best Mattress for Knee Cartilage Repair Recovery", "item": "https://sleepwisereviews.com/posts/best-mattress-knee-cartilage-repair.html"}
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "name": "Best Mattresses for Knee Cartilage Repair Recovery 2026",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Saatva Classic Medium-Soft -- Best Overall for Cartilage Repair NWB Phase"},
+        {"@type": "ListItem", "position": 2, "name": "Purple Restore Hybrid Medium -- Best CPM Machine Accommodation"},
+        {"@type": "ListItem", "position": 3, "name": "Tempur-Pedic TEMPUR-LuxeAdapt Soft -- Best Graft Protection in Weeks 1-8"},
+        {"@type": "ListItem", "position": 4, "name": "Helix Midnight Luxe -- Best for Transition to PWB Side Sleeping"},
+        {"@type": "ListItem", "position": 5, "name": "WinkBed Plus -- Best NWB Supine Positioning and Crutch Transfer Support"},
+        {"@type": "ListItem", "position": 6, "name": "Casper Wave Hybrid -- Best for Long NWB Arc Pressure Relief"},
+        {"@type": "ListItem", "position": 7, "name": "DreamCloud Premier Rest -- Best for the Full 9-18 Month Recovery Arc"}
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is the best mattress for knee cartilage repair recovery?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A medium-soft hybrid mattress with adjustable base compatibility is best for knee cartilage repair recovery. The mattress must provide enough pressure relief for extended non-weight-bearing (NWB) supine positioning, accommodate a CPM machine or leg support frame at the foot end, and limit overnight joint compression that could damage the immature cartilage graft. The Saatva Classic Medium-Soft combines adjustable base support, white glove delivery (critical when crutch-bound), and the pressure relief needed for 6-8 weeks of NWB sleep."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Can I use a CPM machine in bed after cartilage repair surgery?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes -- many cartilage repair protocols, especially after microfracture and MACI, prescribe continuous passive motion (CPM) use for 6-8 hours per day, often including nighttime hours. The CPM machine requires a firm, flat support surface at the foot end of the mattress. A mattress that is too soft will allow the CPM frame to sink unevenly, misaligning the motion axis with the knee joint and creating lateral force on the repair site. Medium-firm or firm mattresses are better for CPM use than soft mattresses. Adjustable bases can conflict with CPM frame geometry -- check the CPM machine's foot board clearance before combining."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How is cartilage repair recovery different from ACL or meniscus surgery sleep?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Cartilage repair recovery is more demanding than ACL or meniscus repair in several key ways. First, the NWB (non-weight-bearing) period is longer: 6-8 weeks for microfracture and MACI vs. 2-4 weeks for many meniscus repairs, and cartilage repair patients are often NWB longer than ACL patients. Second, articular cartilage has no blood supply and cannot self-repair -- any compression or shear force on the immature graft during the consolidation phase risks permanent failure. Third, the recovery arc is longer: 9-18 months to return to high-impact activity vs. 6-12 months for ACL. Fourth, CPM machine use is unique to cartilage repair protocols and creates a distinct mattress challenge not present in other knee surgeries."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What sleeping position is safest after microfracture or MACI surgery?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Back sleeping (supine) with the operated leg in gentle extension is the safest position for the first 6-8 weeks after microfracture or MACI. The leg should be elevated 15-20 degrees (ankle and calf above heart level) for the first 2 weeks to manage swelling, using a wedge pillow or adjustable base -- place elevation contact under the calf, not directly under the knee. Avoid placing any direct pressure on the knee joint itself. Side sleeping is generally not permitted until partial weight bearing (PWB) is established, typically at weeks 6-8, and only with the operated knee on top and a pillow between the knees. Stomach sleeping is contraindicated throughout the NWB and PWB phases."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "How long is the non-weight-bearing period after cartilage repair, and what does it mean for sleep?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "The NWB period after cartilage repair is typically 6-8 weeks for microfracture and MACI, and 4-6 weeks for OAT/OATS (osteochondral autograft transfer). During this period, the patient must not put any weight through the operated leg -- crutches are mandatory. For sleep, this means: getting in and out of bed on crutches (requiring a stable, medium-firm surface that does not create a 'hammock' effect that traps you), maintaining strict supine positioning throughout the night, and ensuring the mattress surface does not cause the leg to roll into a position that loads the repair site. The NWB phase is also the highest-risk period for mattress-related complications -- a mattress that causes the leg to drift into loaded positions repeatedly across 6-8 weeks represents significant cumulative risk to the cartilage graft."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,sans-serif;background:#0a1628;color:#e2e8f0;line-height:1.7}
+header{background:linear-gradient(135deg,#0a1628 0%,#1a2f4e 100%);padding:60px 20px 40px;text-align:center;border-bottom:1px solid #1e3a5f}
+header h1{font-size:clamp(1.6rem,4vw,2.4rem);color:#fff;max-width:820px;margin:0 auto 16px;line-height:1.3}
+.badge-wrap{display:flex;gap:8px;justify-content:center;margin-bottom:16px;flex-wrap:wrap}
+.badge{display:inline-block;background:#7c3aed;color:#fff;font-size:.75rem;font-weight:700;padding:4px 12px;border-radius:20px;letter-spacing:.05em;text-transform:uppercase}
+.cat-badge{display:inline-block;color:#fff;font-size:.75rem;font-weight:700;padding:4px 12px;border-radius:20px;letter-spacing:.05em;text-transform:uppercase}
+.subtitle{color:#94a3b8;font-size:1rem;max-width:660px;margin:0 auto 20px}
+.meta{color:#64748b;font-size:.85rem}
+nav.breadcrumb{background:#0d1f38;padding:12px 20px;font-size:.82rem;color:#64748b}
+nav.breadcrumb a{color:#c9a84c;text-decoration:none}
+nav.breadcrumb a:hover{text-decoration:underline}
+.container{max-width:860px;margin:0 auto;padding:40px 20px}
+h2{font-size:1.5rem;color:#c9a84c;margin:40px 0 16px;padding-bottom:8px;border-bottom:1px solid #1e3a5f}
+h3{font-size:1.15rem;color:#e2e8f0;margin:24px 0 10px}
+p{margin-bottom:14px;color:#cbd5e1}
+.pick{background:#111e33;border:1px solid #1e3a5f;border-radius:12px;padding:24px;margin-bottom:20px;position:relative}
+.pick-num{position:absolute;top:16px;right:16px;background:#c9a84c;color:#0a1628;font-weight:800;font-size:.8rem;padding:4px 10px;border-radius:20px}
+.pick h3{color:#c9a84c;margin-top:0}
+.pick .verdict{background:#0a1628;border-left:3px solid #c9a84c;padding:10px 14px;margin-top:12px;border-radius:0 6px 6px 0;font-size:.9rem;color:#94a3b8}
+.pick a{color:#c9a84c;text-decoration:none;font-weight:600}
+.pick a:hover{text-decoration:underline;color:#e2b96b}
+.science-box{background:#0d1f38;border:1px solid #1e3a5f;border-radius:10px;padding:20px 24px;margin:24px 0}
+.science-box h3{color:#60a5fa;margin-top:0;font-size:1rem}
+.science-box p{color:#94a3b8;font-size:.9rem;margin-bottom:8px}
+.science-box p:last-child{margin-bottom:0}
+.warning-box{background:#1a1200;border:1px solid #c9a84c;border-radius:10px;padding:16px 20px;margin:24px 0}
+.warning-box p{color:#fbbf24;font-size:.9rem;margin:0}
+.info-box{background:#0a1f3a;border:1px solid #1e6fa8;border-radius:10px;padding:16px 20px;margin:24px 0}
+.info-box p{color:#7dd3fc;font-size:.9rem;margin:0}
+table{width:100%;border-collapse:collapse;margin:20px 0;font-size:.88rem}
+th{background:#1e3a5f;color:#c9a84c;padding:10px 12px;text-align:left}
+td{padding:9px 12px;border-bottom:1px solid #1a2f4e;color:#cbd5e1}
+tr:nth-child(even) td{background:#0d1a2e}
+.grid-2{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin:20px 0}
+@media(max-width:600px){.grid-2{grid-template-columns:1fr}}
+.grid-card{background:#111e33;border:1px solid #1e3a5f;border-radius:8px;padding:16px}
+.grid-card h4{color:#c9a84c;font-size:.9rem;margin-bottom:8px}
+.grid-card p{font-size:.85rem;color:#94a3b8;margin:0}
+.faq-item{margin-bottom:20px;border:1px solid #1e3a5f;border-radius:10px;overflow:hidden}
+.faq-q{background:#111e33;padding:14px 18px;font-weight:600;color:#e2e8f0;font-size:.95rem}
+.faq-a{background:#0d1a2e;padding:14px 18px;color:#94a3b8;font-size:.9rem}
+.related{background:#111e33;border:1px solid #1e3a5f;border-radius:12px;padding:24px;margin:40px 0}
+.related h3{color:#c9a84c;margin-top:0}
+.related ul{list-style:none;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:8px}
+@media(max-width:600px){.related ul{grid-template-columns:1fr}}
+.related ul li a{color:#60a5fa;text-decoration:none;font-size:.9rem}
+.related ul li a:hover{text-decoration:underline;color:#c9a84c}
+footer{background:#060e1a;padding:30px 20px;text-align:center;color:#475569;font-size:.82rem;border-top:1px solid #1e3a5f}
+footer a{color:#c9a84c;text-decoration:none}
+</style>
+</head>
+<body>
+
+<header>
+  <div class="badge-wrap">
+    <span class="badge">Recovery</span>
+    <span class="cat-badge" style="background:#dc2626">Health</span>
+  </div>
+  <h1>Best Mattress for Knee Cartilage Repair Recovery 2026</h1>
+  <p class="subtitle">7 expert picks for microfracture, MACI, and OAT/OATS recovery &mdash; CPM machine accommodation, 6&ndash;8 week NWB protocol sleep, cartilage graft protection, and the 9&ndash;18 month return-to-sport arc.</p>
+  <p class="meta">By SleepWise Reviews &bull; Updated May 2026 &bull; 7 picks</p>
+</header>
+
+<nav class="breadcrumb">
+  <a href="/">Home</a> &rsaquo; <a href="/posts/index.html">All Posts</a> &rsaquo; Best Mattress for Knee Cartilage Repair Recovery
+</nav>
+
+<div class="container">
+
+<p>Knee cartilage repair &mdash; whether microfracture, matrix-induced autologous chondrocyte implantation (MACI), or osteochondral autograft transfer (OAT/OATS) &mdash; is among the most sleep-sensitive orthopedic recoveries. Unlike bone fractures that consolidate in 6&ndash;8 weeks, or ligament grafts that ligamentize in 9&ndash;12 months, articular cartilage has no intrinsic blood supply. The repair tissue that forms &mdash; fibrocartilage after microfracture, or transplanted hyaline-like cartilage after MACI or OAT &mdash; is mechanically immature and permanently vulnerable to shear and compressive loading during the early consolidation period. Eight hours of sleep, repeated over 6&ndash;8 weeks of mandatory non-weight-bearing, represents the longest daily contact window your joint has with any surface.</p>
+
+<p>This guide focuses exclusively on cartilage repair. The sleep requirements are distinct from knee osteoarthritis (managed rather than surgically repaired), meniscal tears (different NWB protocol and anatomy), ACL reconstruction (ligamentization vs. chondrogenesis), and patellofemoral syndrome (a tracking disorder, not a structural repair). Cartilage repair patients face challenges unique to this surgery: a strict non-weight-bearing period of 6&ndash;8 weeks, nighttime CPM machine use prescribed to maintain joint nutrition and prevent adhesions, and a recovery arc that extends 9&ndash;18 months before return to high-impact sport.</p>
+
+<div class="science-box">
+  <h3>The Clinical Science: Articular Cartilage, Cartilage Repair Procedures, and Why Sleep Matters More Than Any Other Knee Surgery</h3>
+  <p><strong>Articular cartilage structure:</strong> Articular (hyaline) cartilage is the white, glassy tissue covering the bone ends inside the knee joint. It has four zones: the superficial zone (collagen fibers parallel to surface, resists shear), the middle zone (collagen fibers oblique, resists compression), the deep zone (collagen fibers perpendicular, anchors to bone), and the calcified zone (transition to subchondral bone). Critically, articular cartilage is avascular &mdash; it receives nutrition by diffusion from synovial fluid during joint motion. It has no nerve supply either, which is why cartilage damage often goes unfelt until the lesion is large. Once damaged, articular cartilage cannot self-repair, because there are no blood vessels to deliver the repair cells (fibroblasts, osteoblasts) that heal other tissues.</p>
+  <p><strong>Why cartilage repair is more fragile than bone or ligament repair during sleep:</strong> Bone fractures heal via callus formation driven by the periosteal blood supply &mdash; once callus is present (4&ndash;6 weeks), the fracture site has meaningful mechanical strength. ACL grafts have a blood supply from the synovial lining and undergo ligamentization through vascular invasion. Cartilage grafts have neither. The immature repair tissue &mdash; fibrocartilage plug after microfracture, or chondrocyte-seeded scaffold after MACI &mdash; integrates with surrounding cartilage and subchondral bone purely through compression-free, shear-free chondrogenesis. Any repetitive overnight shear (from the leg rolling on the mattress surface) or compression (from the knee being loaded by body weight in a rolled position) during the consolidation window can disrupt the cellular architecture of the graft before it has matured. This is why cartilage repair protocols enforce the longest and strictest NWB periods of any knee surgery.</p>
+  <p><strong>Microfracture:</strong> The surgeon creates multiple small holes (microfractures) in the subchondral bone beneath the cartilage lesion using an awl or pick. This releases bone marrow mesenchymal stem cells, which migrate into the defect and form a fibrocartilage clot. Fibrocartilage is biomechanically inferior to native hyaline cartilage (less stiff, lower collagen II content, shorter durability), but it fills the defect and provides pain relief. NWB: 6&ndash;8 weeks. CPM: 6&ndash;8 hours/day for the first 6&ndash;8 weeks, including nighttime use, to promote chondrogenesis without compression. Return to impact sport: 4&ndash;6 months. Long-term durability: variable, with re-operation rates of 20&ndash;30% at 5 years for large lesions.</p>
+  <p><strong>MACI (Matrix-Induced Autologous Chondrocyte Implantation):</strong> A two-stage procedure. In stage 1, a small cartilage biopsy is taken arthroscopically. Chondrocytes are harvested, cultured in a laboratory for 3&ndash;5 weeks, and seeded onto a collagen scaffold. In stage 2, the scaffold is implanted into the lesion and secured with fibrin glue. Because the scaffold contains the patient's own chondrocytes (which can produce hyaline-like cartilage), MACI produces repair tissue closer to native cartilage in composition and durability than microfracture. NWB: 6&ndash;8 weeks. CPM: prescribed similarly to microfracture. Return to impact sport: 12&ndash;18 months (longer than microfracture because MACI tissue maturation is slower). Sleep implication: MACI grafts are secured by fibrin glue adhesion in the early weeks &mdash; the graft is literally glued in place. Any overnight shear loading during the first 6 weeks risks mechanical delamination of the scaffold from the lesion bed.</p>
+  <p><strong>OAT/OATS (Osteochondral Autograft Transfer):</strong> Cylindrical plugs of intact cartilage and underlying bone are harvested from a low-load area of the knee (typically the periphery of the medial or lateral femoral condyle) and press-fit into the cartilage defect. Because the plugs include the subchondral bone, they achieve bony fixation &mdash; similar to a bone graft &mdash; in 6&ndash;8 weeks. The cartilage component is native hyaline cartilage, not a repair tissue, so durability is superior to microfracture or MACI for smaller lesions. NWB: 4&ndash;6 weeks (shorter than microfracture/MACI because bony fixation is faster). Return to sport: 6&ndash;9 months. Sleep implication: press-fit stability means OAT plugs are less vulnerable to shear than MACI, but donor site morbidity (harvest site pain) creates a second pressure point to protect during sleep.</p>
+  <p><strong>6&ndash;9 month NWB and PWB protocol arc:</strong> The NWB phase (weeks 1&ndash;8) transitions to partial weight bearing (PWB, touch-down or toe-touch) at weeks 6&ndash;8, then full weight bearing (FWB) at weeks 8&ndash;12. For sleep, the critical NWB phase means: strict supine positioning, no side sleeping, and nightly CPM use. The PWB phase (weeks 6&ndash;12) allows cautious repositioning but prohibits any position that loads the joint directly. The FWB phase (months 3&ndash;6) permits normal sleep positioning but continued avoidance of joint impact. High-impact sport is not cleared until 9&ndash;18 months based on imaging and functional testing.</p>
+</div>
+
+<h2>Our 7 Picks</h2>
+
+<div class="pick">
+  <span class="pick-num">#1 Best Overall</span>
+  <h3><a href="https://www.amazon.com/s?k=Saatva+Classic+medium+soft+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Saatva Classic Medium-Soft</a></h3>
+  <p><strong>Best for:</strong> Most cartilage repair patients across the NWB phase &mdash; stable CPM surface, adjustable base compatibility, and white glove delivery for the crutch-bound patient</p>
+  <p>The Saatva Classic Medium-Soft earns the top position for cartilage repair recovery because it solves the two most practical problems simultaneously. First, the dual-tempered coil system provides enough surface firmness at the foot end to support a CPM machine frame without the foot plate sinking into a soft foam layer and misaligning the machine's motion axis &mdash; misalignment transfers lateral force to the repair site with every CPM cycle. Second, white glove in-home delivery and setup is genuinely critical for a patient on crutches who cannot carry or maneuver a mattress during the NWB phase. The medium-soft (4.5/10) comfort feel provides enough pressure relief at the calf, heel, and sacrum for patients spending 8&ndash;10 hours supine while maintaining the surface stability to get in and out of bed on crutches without sinking into a pocket that traps the leg. The Euro pillow-top cushions the sacrum and uninvolved calf during extended NWB positioning. Adjustable base compatibility allows the foot end to be raised 15&ndash;20 degrees for swelling management in the first 2 weeks.</p>
+  <div class="verdict">Best overall for the NWB phase. CPM-stable coil surface prevents frame misalignment. White glove delivery for crutch-bound patients. Adjustable base elevation for swelling management weeks 1&ndash;2.</div>
+</div>
+
+<div class="pick">
+  <span class="pick-num">#2 Best CPM Machine Accommodation</span>
+  <h3><a href="https://www.amazon.com/s?k=Purple+Restore+Hybrid+Medium+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Purple Restore Hybrid Medium</a></h3>
+  <p><strong>Best for:</strong> Patients using a CPM machine at night who experience lateral pressure at the frame contact points and need local pressure relief without compromising frame stability</p>
+  <p>The CPM machine cradle contacts the mattress at two points: the foot plate (under the foot/heel) and the thigh support (under the distal thigh). On a conventional foam mattress, these contact points create pressure concentrations that cause heel and calf discomfort over 6&ndash;8 hours of nightly CPM use. The Purple Grid&rsquo;s column-buckle geometry provides a unique solution: each column independently buckles under the CPM cradle contact points, creating local pressure wells that relieve heel and calf pressure while the surrounding unloaded columns remain upright and support the frame&rsquo;s structural stability. The result is that the CPM machine is supported on a stable platform while the areas underneath the contact points are relieved of concentrated pressure. This reduces the risk of heel pressure injury &mdash; a real concern during 6&ndash;8 weeks of nightly CPM use in a fixed supine position. The Grid&rsquo;s temperature-neutral polymer also prevents the heat buildup that closed-cell foam creates under a CPM machine frame covering the leg during sleep. Adjustable base compatible.</p>
+  <div class="verdict">Best CPM accommodation via Grid column-buckle geometry. Local pressure wells at heel and thigh contact points. Temperature-neutral polymer prevents heat buildup under CPM frame during 6-8 weeks of nightly use.</div>
+</div>
+
+<div class="pick">
+  <span class="pick-num">#3 Best Graft Protection Weeks 1-8</span>
+  <h3><a href="https://www.amazon.com/s?k=Tempur-Pedic+TEMPUR-LuxeAdapt+Soft+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Tempur-Pedic TEMPUR-LuxeAdapt Soft</a></h3>
+  <p><strong>Best for:</strong> The critical NWB consolidation window (weeks 1&ndash;8) when the cartilage graft is at its most mechanically vulnerable and any overnight positional drift represents a genuine risk to graft integrity</p>
+  <p>During the first 8 weeks after microfracture or MACI, the repair tissue has not yet achieved structural integration with the surrounding cartilage matrix. For MACI patients specifically, the collagen scaffold is secured only by fibrin glue adhesion during this window &mdash; any shear force applied to the repair site can mechanically delaminate the scaffold from the lesion bed. TEMPUR material&rsquo;s slow-response viscoelastic foam creates a body-conforming cradle that limits positional drift during sleep cycles with a mechanism unique among mattress materials: it responds to body heat and weight progressively, creating a conforming pocket around the leg that resists positional shift. A leg that is cradled in TEMPUR does not roll during sleep; the material returns slowly to shape, acting as a passive positional stabilizer. Best-in-class motion isolation means a partner&rsquo;s repositioning will not jostle the operated knee. The LuxeAdapt Soft (3/10) is softer than the standard ProAdapt &mdash; appropriate for cartilage repair patients who spend the entire night supine and need maximum pressure relief at the calf, heel, and sacrum. Trade-off: the characteristic slow response makes getting out of bed more difficult on crutches &mdash; use a mattress assist rail if available.</p>
+  <div class="verdict">Best graft protection in weeks 1-8. TEMPUR cradle limits positional drift overnight. Best-in-class motion isolation for the NWB consolidation window. Critical for MACI patients where fibrin glue adhesion is the only graft anchor.</div>
+</div>
+
+<div class="pick">
+  <span class="pick-num">#4 Best for PWB Side Sleeping Transition</span>
+  <h3><a href="https://www.amazon.com/s?k=Helix+Midnight+Luxe+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Helix Midnight Luxe</a></h3>
+  <p><strong>Best for:</strong> Patients transitioning from NWB to PWB (weeks 6&ndash;12) and beginning cautious side sleeping with the operated knee uppermost and pillow support</p>
+  <p>At weeks 6&ndash;8, cartilage repair protocols typically permit partial weight bearing and, with physician clearance, cautious side sleeping with the operated knee on top. This transition presents the same hip rotation risk seen in ACL recovery: when side sleeping with the non-operated side down, the hip of the operated side can internally rotate, causing the operated knee to drop forward and downward into a loaded valgus position. For cartilage repair patients, this is more consequential than for ACL patients &mdash; the repair tissue is still consolidating at week 6&ndash;8, and any compressive or shear loading of the lesion site can disrupt the immature graft. The Helix Midnight Luxe&rsquo;s zoned pocket coil system provides a softer zone under the hip that reduces the pressure gradient that drives hip rotation during side sleeping. The pillow-top cushions the lateral knee of the lower non-operated leg. The TENCEL cover provides cooling for patients who have been sweating through the NWB phase under compression stockings. Side sleeping should always be with an inter-knee pillow during the PWB phase &mdash; the Luxe&rsquo;s soft hip zone makes this position more comfortable and sustainable for a full sleep cycle.</p>
+  <div class="verdict">Best for the PWB side-sleeping transition at weeks 6-8. Hip zone prevents rotation that loads the repair site. TENCEL cover for compression-stocking heat. Zoned support for operated-knee-on-top positioning.</div>
+</div>
+
+<div class="pick">
+  <span class="pick-num">#5 Best NWB Supine Support and Crutch Transfer</span>
+  <h3><a href="https://www.amazon.com/s?k=WinkBed+Plus+firm+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">WinkBed Plus</a></h3>
+  <p><strong>Best for:</strong> Heavier patients (over 230 lbs) in the NWB phase who need a firm, non-sinking surface for safe crutch-assisted bed transfers and stable supine positioning</p>
+  <p>Getting in and out of bed on crutches requires pushing off the mattress surface with the hands and non-operated leg to clear the operated leg safely. On a soft mattress, the hand and knee of the non-operated leg sink into the surface during this transfer, creating an unstable base that increases fall risk and requires the operated leg to compensate &mdash; a serious problem when any weight bearing is prohibited. The WinkBed Plus is specifically engineered for heavier body weights: its high-density foam core with reinforced zoned coil system provides a firm, consistent surface that does not sink under the concentrated loads of a crutch transfer. For heavier patients, this means a safer, more controlled transfer in and out of bed during the full 6&ndash;8 week NWB phase. The Tencel cover provides pressure relief at heel and sacrum contact points. The firmness (7&ndash;7.5/10 for heavier patients) prevents the &ldquo;hammock effect&rdquo; that softer mattresses create for larger body frames &mdash; the hammock effect traps the patient&rsquo;s pelvis in a flexed position that creates hip flexor tightness, complicating early mobilization work in physical therapy.</p>
+  <div class="verdict">Best for heavier patients in NWB phase. Firm non-sinking surface for safe crutch transfers. Prevents hammock effect that compromises crutch-assisted bed exit. Zoned coil stability for 6-8 weeks of supine NWB sleep.</div>
+</div>
+
+<div class="pick">
+  <span class="pick-num">#6 Best Long NWB Arc Pressure Relief</span>
+  <h3><a href="https://www.amazon.com/s?k=Casper+Wave+Hybrid+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Casper Wave Hybrid</a></h3>
+  <p><strong>Best for:</strong> Patients prioritizing pressure injury prevention at the heel, calf, and sacrum across the full 6&ndash;8 week NWB period &mdash; particularly those with naturally bony prominences or limited ability to reposition</p>
+  <p>Six to eight weeks of mandatory supine positioning means the same bony prominences &mdash; the sacrum, the calf, and the heel of the operated leg &mdash; contact the mattress surface for approximately 400&ndash;500 cumulative hours during the NWB phase. This is the pressure exposure window that creates pressure injury risk in immobile hospital patients, applied to an otherwise mobile person who is restricted to supine by their recovery protocol. The Casper Wave Hybrid&rsquo;s zoned foam construction provides systematically softer material under the hip and leg zones, reducing interface pressure at the sacrum and heel specifically. The softer hip zone allows the pelvis to settle without the sacral crest creating a pressure concentration, while the leg zone accommodates the calf and heel without the &ldquo;hard floor&rdquo; feeling of a uniformly firm mattress under a stationary leg. The Wave&rsquo;s coil layer provides enough responsiveness for the infrequent repositioning that is permitted during the NWB phase (minor weight shifts to relieve sacral pressure are encouraged even during strict NWB). The medium feel (5/10) balances pressure relief with the surface stability needed for safe bed transfers on crutches.</p>
+  <div class="verdict">Best for preventing cumulative pressure injury across 400+ hours of NWB supine sleep. Zoned softer hip and leg zones relieve sacral and heel pressure. Coil responsiveness permits minor weight shifts during NWB phase.</div>
+</div>
+
+<div class="pick">
+  <span class="pick-num">#7 Best for Full 9-18 Month Recovery Arc</span>
+  <h3><a href="https://www.amazon.com/s?k=DreamCloud+Premier+Rest+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">DreamCloud Premier Rest</a></h3>
+  <p><strong>Best for:</strong> Cartilage repair patients who want a single mattress to serve the full 9&ndash;18 month recovery arc with the longest available trial period to evaluate across all phases</p>
+  <p>Cartilage repair recovery is unusually long among orthopedic surgeries. From NWB to return-to-sport, the mattress requirements change four times: (1) firm NWB surface for crutch transfers weeks 1&ndash;8, (2) pressure-relief surface for extended supine positioning weeks 1&ndash;8, (3) PWB-compatible side-sleeping surface weeks 8&ndash;12, and (4) normal sleep surface with residual knee sensitivity months 3&ndash;18. No single mattress is optimal for all four phases, but the DreamCloud Premier Rest&rsquo;s 365-night trial is the most practical feature for this recovery: it covers the entire cartilage consolidation timeline, including the MACI maturation arc that extends to 18 months. The medium-firm (5.5/10) feel is a reasonable compromise across all phases. The cashmere-blend pillow-top provides enough pressure relief for the supine NWB phase without the instability that undermines crutch transfers on a soft mattress. Free shipping reduces the logistical burden during a period when the patient is already managing crutches, physical therapy appointments, and CPM machine scheduling. The 365-night trial means you can assess the mattress at months 3, 6, and 9 &mdash; at each phase &mdash; and return it if the fit changes.</p>
+  <div class="verdict">Best for the full 9-18 month arc. 365-night trial covers cartilage consolidation through MACI maturation. Medium-firm hybrid balances NWB phase needs with later recovery phases. Free shipping for crutch-bound patients.</div>
+</div>
+
+<h2>Comparison Table</h2>
+<table>
+  <tr>
+    <th>Mattress</th>
+    <th>Firmness</th>
+    <th>Best Recovery Phase</th>
+    <th>Key Cartilage Repair Feature</th>
+    <th>Adjustable Base</th>
+  </tr>
+  <tr><td>Saatva Classic Medium-Soft</td><td>Medium-Soft (4.5)</td><td>Full NWB phase (weeks 1&ndash;8)</td><td>CPM-stable coil surface; white glove delivery</td><td>Yes</td></tr>
+  <tr><td>Purple Restore Hybrid Medium</td><td>Medium (5)</td><td>NWB CPM phase (weeks 1&ndash;8)</td><td>Grid relieves heel/calf at CPM contact points</td><td>Yes</td></tr>
+  <tr><td>Tempur-Pedic LuxeAdapt Soft</td><td>Soft (3)</td><td>Weeks 1&ndash;8 (graft consolidation)</td><td>TEMPUR cradle limits overnight positional drift</td><td>Yes</td></tr>
+  <tr><td>Helix Midnight Luxe</td><td>Medium-Soft (4.5)</td><td>Weeks 6&ndash;12 (PWB side sleeping)</td><td>Hip zone prevents rotation loading repair site</td><td>Yes</td></tr>
+  <tr><td>WinkBed Plus</td><td>Firm (7&ndash;7.5)</td><td>NWB crutch transfer (weeks 1&ndash;8)</td><td>Non-sinking surface for safe crutch bed exit</td><td>Yes</td></tr>
+  <tr><td>Casper Wave Hybrid</td><td>Medium (5)</td><td>Weeks 1&ndash;8 (pressure relief)</td><td>Zoned zones relieve sacrum and heel 400+ hrs</td><td>Yes</td></tr>
+  <tr><td>DreamCloud Premier Rest</td><td>Medium-Firm (5.5)</td><td>Full 9&ndash;18 months</td><td>365-night trial; covers full cartilage arc</td><td>Yes</td></tr>
+</table>
+
+<h2>Quick-Pick Table by Scenario</h2>
+<table>
+  <tr><th>Your Situation</th><th>Best Pick</th></tr>
+  <tr><td>Using CPM machine at night, need heel/calf pressure relief at frame contact points</td><td>Purple Restore Hybrid</td></tr>
+  <tr><td>MACI procedure, graft secured by fibrin glue, need to minimize overnight shear</td><td>Tempur-Pedic LuxeAdapt Soft</td></tr>
+  <tr><td>Heavier patient (230 lbs+), need firm surface for safe crutch-assisted bed transfers</td><td>WinkBed Plus</td></tr>
+  <tr><td>Concerned about heel and sacral pressure over 6-8 weeks of continuous NWB supine sleep</td><td>Casper Wave Hybrid</td></tr>
+  <tr><td>Cleared for PWB side sleeping (weeks 6-8), operated knee on top with pillow between knees</td><td>Helix Midnight Luxe</td></tr>
+  <tr><td>Want longest trial to evaluate across NWB, PWB, FWB, and sport return phases</td><td>DreamCloud Premier Rest</td></tr>
+  <tr><td>Best overall for the NWB phase, CPM stability, and adjustable base elevation</td><td>Saatva Classic Medium-Soft</td></tr>
+</table>
+
+<h2>Cartilage Repair Sleep Protocol by Phase</h2>
+
+<div class="warning-box">
+  <p><strong>Do NOT allow the knee to rotate or compress during the NWB phase:</strong> Cartilage repair tissue &mdash; particularly MACI scaffolds in weeks 1&ndash;6 &mdash; is secured at the lesion site by fibrin glue and early cellular integration. Any overnight rolling of the knee joint, or any compression of the repair area by direct contact with the mattress or CPM cradle, risks graft delamination. This is not a comfort issue &mdash; it is a structural integrity issue. If you wake up having rolled onto the operated side, report this to your surgeon. A positional restraint pillow on both sides of the operated leg (bolster pillow technique) is a practical tool for the NWB phase.</p>
+</div>
+
+<div class="grid-2">
+  <div class="grid-card">
+    <h4>Phase 1: Weeks 1&ndash;2 (Acute NWB)</h4>
+    <p>Back sleeping only. Ankle and calf elevated above heart level (15&ndash;20 degrees) for swelling management &mdash; wedge pillow or adjustable base. CPM machine as prescribed (6&ndash;8 hours/day). Do not place any contact directly under the knee joint. Bolster pillows on both sides of the leg to prevent rolling.</p>
+  </div>
+  <div class="grid-card">
+    <h4>Phase 2: Weeks 2&ndash;8 (NWB with CPM)</h4>
+    <p>Strict supine positioning maintained. Elevation reduced as swelling subsides (week 2+). CPM use continues. Minor weight shifts to relieve sacral pressure are permitted but no rotational movement of the knee. Assess heel skin integrity every morning &mdash; prolonged NWB supine sleep creates heel pressure risk even in the absence of peripheral vascular disease.</p>
+  </div>
+  <div class="grid-card">
+    <h4>Phase 3: Weeks 6&ndash;12 (PWB Transition)</h4>
+    <p>Partial weight bearing begins. Side sleeping permitted with physician clearance &mdash; operated knee on top, firm pillow between knees. CPM use reduced per protocol. Avoid stomach sleeping. Crutch-assisted bed transfers remain the standard exit technique until FWB is established. Monitor for OAT donor site pain during new sleep positions.</p>
+  </div>
+  <div class="grid-card">
+    <h4>Phase 4: Months 3&ndash;18 (FWB and Sport Return)</h4>
+    <p>Full weight bearing established. Most sleep positions permitted. Residual joint sensitivity may persist &mdash; avoid direct knee contact with a firm surface (use a pillow between knees when side sleeping). High-impact activity cleared at 9&ndash;18 months based on MRI appearance and functional testing. Continue using a mattress with motion isolation if sharing a bed.</p>
+  </div>
+</div>
+
+<div class="info-box">
+  <p><strong>OAT/OATS donor site awareness:</strong> OAT procedures harvest cartilage plugs from a low-load donor site (typically the peripheral femoral condyle). The donor site heals well but creates a secondary pressure sensitivity area on the lateral knee during the first 6&ndash;8 weeks. When positioning for sleep, pad the lateral knee regardless of position &mdash; even supine, a thin pillow alongside the outer knee reduces incidental contact. When side sleeping is cleared, ensure the donor site is the upward side, not the contact side.</p>
+</div>
+
+<h2>CPM Machine and Mattress Compatibility Guide</h2>
+
+<p>Continuous passive motion (CPM) machines are commonly prescribed after cartilage repair to maintain joint nutrition through movement without compressive loading. Using a CPM machine in bed creates specific mattress requirements that do not apply to any other knee surgery.</p>
+
+<div class="grid-2">
+  <div class="grid-card">
+    <h4>Frame Alignment Problem</h4>
+    <p>The CPM cradle must align its pivot axis precisely with the knee joint center. On a soft mattress, the cradle sinks unevenly, shifting the pivot axis 1&ndash;3 cm from the joint center and applying lateral and rotational force to the repair site with every CPM cycle. Use a medium-firm or firm mattress surface, or place a CPM base board under the machine.</p>
+  </div>
+  <div class="grid-card">
+    <h4>Contact Point Pressure</h4>
+    <p>The CPM cradle contacts the heel and posterior thigh. Over 6&ndash;8 hours of nightly use, these contact points accumulate significant pressure. Look for mattresses with local pressure relief (Purple Grid) or soft comfort layers (pillow-top). Pad the heel contact point with a sheepskin or gel pad inside the CPM cradle.</p>
+  </div>
+  <div class="grid-card">
+    <h4>Heat and Moisture</h4>
+    <p>The CPM machine frame covers a significant portion of the leg, reducing air circulation and trapping moisture. Choose a mattress with a cooling, moisture-wicking cover (TENCEL, Celliant, open-weave knit). Avoid dense closed-cell foam directly under the CPM-covered leg area &mdash; hybrid mattresses with coil airflow are preferable.</p>
+  </div>
+  <div class="grid-card">
+    <h4>Adjustable Base Conflict</h4>
+    <p>Some CPM machines have a fixed-height foot board that conflicts with adjustable base articulation at the foot end. Before purchasing an adjustable base for your recovery, measure the CPM machine&rsquo;s foot board clearance and confirm it does not contact the mattress when the foot end is elevated. Most CPM manufacturers publish compatible bed configurations.</p>
+  </div>
+</div>
+
+<h2>Frequently Asked Questions</h2>
+
+<div class="faq-item">
+  <div class="faq-q">What is the best mattress for knee cartilage repair recovery?</div>
+  <div class="faq-a">A medium-soft hybrid mattress with adjustable base compatibility is best for knee cartilage repair recovery. The mattress must provide enough pressure relief for extended non-weight-bearing (NWB) supine positioning, accommodate a CPM machine or leg support frame at the foot end, and limit overnight joint compression that could damage the immature cartilage graft. The Saatva Classic Medium-Soft combines adjustable base support, white glove delivery (critical when crutch-bound), and the pressure relief needed for 6-8 weeks of NWB sleep.</div>
+</div>
+
+<div class="faq-item">
+  <div class="faq-q">Can I use a CPM machine in bed after cartilage repair surgery?</div>
+  <div class="faq-a">Yes -- many cartilage repair protocols, especially after microfracture and MACI, prescribe continuous passive motion (CPM) use for 6-8 hours per day, often including nighttime hours. The CPM machine requires a firm, flat support surface at the foot end of the mattress. A mattress that is too soft will allow the CPM frame to sink unevenly, misaligning the motion axis with the knee joint and creating lateral force on the repair site. Medium-firm or firm mattresses are better for CPM use than soft mattresses. Adjustable bases can conflict with CPM frame geometry -- check the CPM machine's foot board clearance before combining.</div>
+</div>
+
+<div class="faq-item">
+  <div class="faq-q">How is cartilage repair recovery different from ACL or meniscus surgery sleep?</div>
+  <div class="faq-a">Cartilage repair recovery is more demanding than ACL or meniscus repair in several key ways. First, the NWB period is longer: 6-8 weeks for microfracture and MACI vs. 2-4 weeks for many meniscus repairs, and cartilage repair patients are often NWB longer than ACL patients. Second, articular cartilage has no blood supply and cannot self-repair -- any compression or shear force on the immature graft during the consolidation phase risks permanent failure. Third, the recovery arc is longer: 9-18 months to return to high-impact activity vs. 6-12 months for ACL. Fourth, CPM machine use is unique to cartilage repair protocols and creates a distinct mattress challenge not present in other knee surgeries.</div>
+</div>
+
+<div class="faq-item">
+  <div class="faq-q">What sleeping position is safest after microfracture or MACI surgery?</div>
+  <div class="faq-a">Back sleeping (supine) with the operated leg in gentle extension is the safest position for the first 6-8 weeks after microfracture or MACI. The leg should be elevated 15-20 degrees (ankle and calf above heart level) for the first 2 weeks to manage swelling, using a wedge pillow or adjustable base -- place elevation contact under the calf, not directly under the knee. Avoid placing any direct pressure on the knee joint itself. Side sleeping is generally not permitted until partial weight bearing (PWB) is established, typically at weeks 6-8, and only with the operated knee on top and a pillow between the knees. Stomach sleeping is contraindicated throughout the NWB and PWB phases.</div>
+</div>
+
+<div class="faq-item">
+  <div class="faq-q">How long is the non-weight-bearing period after cartilage repair, and what does it mean for sleep?</div>
+  <div class="faq-a">The NWB period after cartilage repair is typically 6-8 weeks for microfracture and MACI, and 4-6 weeks for OAT/OATS (osteochondral autograft transfer). During this period, the patient must not put any weight through the operated leg -- crutches are mandatory. For sleep, this means: getting in and out of bed on crutches (requiring a stable, medium-firm surface that does not create a hammock effect that traps you), maintaining strict supine positioning throughout the night, and ensuring the mattress surface does not cause the leg to roll into a position that loads the repair site. The NWB phase is also the highest-risk period for mattress-related complications -- a mattress that causes the leg to drift into loaded positions repeatedly across 6-8 weeks represents significant cumulative risk to the cartilage graft.</div>
+</div>
+
+<div class="related">
+  <h3>Related Guides</h3>
+  <ul>
+    <li><a href="/posts/best-mattress-acl-reconstruction-recovery.html">Best Mattress for ACL Reconstruction Recovery</a></li>
+    <li><a href="/posts/best-mattress-meniscus-tear.html">Best Mattress for Meniscus Tear Recovery</a></li>
+    <li><a href="/posts/best-mattress-knee-replacement.html">Best Mattress for Knee Replacement Recovery</a></li>
+    <li><a href="/posts/sleep-after-surgery.html">How to Sleep After Surgery: A Complete Guide</a></li>
+    <li><a href="/posts/best-knee-pillow.html">Best Knee Pillow for Side Sleeping</a></li>
+  </ul>
+</div>
+
+</div>
+
+<footer>
+  <p>&copy; 2026 SleepWise Reviews &bull; <a href="/privacy.html">Privacy Policy</a> &bull; <a href="/disclosure.html">Affiliate Disclosure</a></p>
+  <p style="margin-top:8px;font-size:.75rem">We may earn a commission from Amazon links at no extra cost to you.</p>
+</footer>
+</body>
+</html>"""
+
+out_path = os.path.join(os.path.dirname(__file__), "posts", "best-mattress-knee-cartilage-repair.html")
+os.makedirs(os.path.dirname(out_path), exist_ok=True)
+
+with open(out_path, "w", encoding="utf-8") as f:
+    f.write(html)
+
+print("Written:", out_path)
+print("Size:", os.path.getsize(out_path), "bytes")
