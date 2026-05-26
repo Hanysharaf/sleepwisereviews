@@ -1,0 +1,373 @@
+slug = "best-mattress-idiopathic-hypersomnia"
+title = "Best Mattress for Idiopathic Hypersomnia"
+desc  = "7 picks for idiopathic hypersomnia &mdash; excessive daytime sleepiness with prolonged sleep (10&ndash;12+ hours), severe sleep inertia and confusional arousal on waking, and deep sinkage surfaces that make rising harder &mdash; distinct from narcolepsy type 1 (cataplexy), narcolepsy type 2 (low CSF orexin), and sleep apnea (respiratory cause)."
+
+html = f"""<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Best Mattress for Idiopathic Hypersomnia (2026) &mdash; 7 Picks | SleepWiseReviews</title>
+<meta name="description" content="Expert mattress picks for idiopathic hypersomnia. Find the best mattress for prolonged sleep (10&ndash;12+ hours), severe sleep inertia, confusional arousal on waking, and avoiding deep sinkage surfaces that make standing harder &mdash; distinct from narcolepsy type 1 (cataplexy), narcolepsy type 2 (low CSF orexin, no cataplexy), and obstructive sleep apnea (respiratory cause of EDS).">
+<link rel="canonical" href="https://sleepwisereviews.com/posts/{slug}.html">
+<script type="application/ld+json">
+{{
+  "@context":"https://schema.org",
+  "@type":"Article",
+  "headline":"{title}",
+  "description":"Expert-reviewed mattress picks for idiopathic hypersomnia &mdash; excessive daytime sleepiness with prolonged nocturnal and daytime sleep (10&ndash;12+ hours), severe sleep inertia and confusional arousal on waking, durable support for extended sleep duration, and avoiding deep-sinkage surfaces that trap the body and make safe standing on waking harder &mdash; distinct from narcolepsy type 1 (cataplexy, low CSF orexin), narcolepsy type 2 (no cataplexy but confirmed low orexin), and obstructive sleep apnea (EDS driven by respiratory arousal fragmentation).",
+  "author":{{"@type":"Organization","name":"SleepWiseReviews"}},
+  "publisher":{{"@type":"Organization","name":"SleepWiseReviews","logo":{{"@type":"ImageObject","url":"https://sleepwisereviews.com/assets/logo.png"}}}},
+  "datePublished":"2026-05-26",
+  "dateModified":"2026-05-26",
+  "mainEntityOfPage":{{"@type":"WebPage","@id":"https://sleepwisereviews.com/posts/{slug}.html"}}
+}}
+</script>
+<script type="application/ld+json">
+{{
+  "@context":"https://schema.org",
+  "@type":"BreadcrumbList",
+  "itemListElement":[
+    {{"@type":"ListItem","position":1,"name":"Home","item":"https://sleepwisereviews.com/"}},
+    {{"@type":"ListItem","position":2,"name":"Posts","item":"https://sleepwisereviews.com/posts/index.html"}},
+    {{"@type":"ListItem","position":3,"name":"{title}","item":"https://sleepwisereviews.com/posts/{slug}.html"}}
+  ]
+}}
+</script>
+<script type="application/ld+json">
+{{
+  "@context":"https://schema.org",
+  "@type":"ItemList",
+  "name":"{title}",
+  "itemListElement":[
+    {{"@type":"ListItem","position":1,"name":"Saatva Classic Hybrid","url":"https://www.amazon.com/s?k=Saatva+Classic+Hybrid+mattress&tag=sleepwiserevi-20"}},
+    {{"@type":"ListItem","position":2,"name":"Helix Midnight Luxe","url":"https://www.amazon.com/s?k=Helix+Midnight+Luxe+mattress&tag=sleepwiserevi-20"}},
+    {{"@type":"ListItem","position":3,"name":"WinkBed Plus","url":"https://www.amazon.com/s?k=WinkBed+Plus+mattress&tag=sleepwiserevi-20"}},
+    {{"@type":"ListItem","position":4,"name":"Avocado Green Mattress","url":"https://www.amazon.com/s?k=Avocado+Green+mattress&tag=sleepwiserevi-20"}},
+    {{"@type":"ListItem","position":5,"name":"Purple RestorePlus Hybrid","url":"https://www.amazon.com/s?k=Purple+RestorePlus+Hybrid+mattress&tag=sleepwiserevi-20"}},
+    {{"@type":"ListItem","position":6,"name":"Birch Natural Mattress","url":"https://www.amazon.com/s?k=Birch+Natural+mattress&tag=sleepwiserevi-20"}},
+    {{"@type":"ListItem","position":7,"name":"Nest Bedding Sparrow Hybrid","url":"https://www.amazon.com/s?k=Nest+Bedding+Sparrow+Hybrid+mattress&tag=sleepwiserevi-20"}}
+  ]
+}}
+</script>
+<script type="application/ld+json">
+{{
+  "@context":"https://schema.org",
+  "@type":"FAQPage",
+  "mainEntity":[
+    {{
+      "@type":"Question",
+      "name":"What is idiopathic hypersomnia and how is it different from narcolepsy and sleep apnea?",
+      "acceptedAnswer":{{"@type":"Answer","text":"Idiopathic hypersomnia (IH) is a central nervous system disorder of hypersomnolence characterized by excessive daytime sleepiness (EDS), prolonged nocturnal sleep (10&ndash;12+ hours that is non-restorative), and the hallmark feature that distinguishes it clinically from narcolepsy: severe, prolonged sleep inertia and confusional arousal on waking. IH patients often describe waking as emerging through &ldquo;sleep drunkenness&rdquo; &mdash; cognitive and motor impairment lasting 30 minutes to 2 hours after any awakening, with profound disorientation, inability to make decisions, and fall risk during ambulation. Distinguishing from narcolepsy type 1: narcolepsy type 1 requires cataplexy (sudden bilateral muscle weakness triggered by strong emotion) and low CSF orexin-A levels (&le;110 pg/mL); IH does not involve cataplexy and CSF orexin is normal. Distinguishing from narcolepsy type 2: narcolepsy type 2 has no cataplexy but confirmed low CSF orexin by lumbar puncture; IH has normal orexin. Distinguishing from obstructive sleep apnea: OSA-driven EDS results from respiratory arousal fragmentation &mdash; polysomnography shows apnea-hypopnea events and oxygen desaturation; IH polysomnography shows uninterrupted prolonged sleep with no respiratory pathology. The mattress implications of each differ substantially: IH requires safe, responsive surfaces for confusional arousal waking (mattress firmness for fall prevention) and durable support for 10&ndash;12+ hour sleep; narcolepsy requires surfaces that support frequent, unpredictable positional changes and cataplexy-fall safety; OSA requires elevation capability and positional support for CPAP therapy."}}
+    }},
+    {{
+      "@type":"Question",
+      "name":"Why does mattress firmness matter for sleep inertia and confusional arousal in idiopathic hypersomnia?",
+      "acceptedAnswer":{{"@type":"Answer","text":"Sleep inertia in idiopathic hypersomnia is not the brief grogginess that most people experience on waking &mdash; it is a clinical state of severe cognitive and motor impairment that can persist for 30 minutes to 2 hours. During this period, IH patients have impaired balance, slowed reaction times, confusion about time and place, and reduced ability to make safe motor decisions. The act of standing up from the mattress during this confusional state carries a genuine fall risk. Mattress firmness directly affects the mechanical difficulty of rising from a lying to standing position under impaired motor conditions: (1) Deep-sinkage surfaces (plush memory foam 3&ndash;4/10 firmness) create a body cradle that requires active muscular engagement to escape &mdash; the body must push up and out against enveloping foam. Under normal motor function this is trivial; under confusional arousal impairment it becomes a balance and coordination challenge that increases fall risk; (2) Responsive, medium-firm surfaces (5.5&ndash;7/10) allow the body to initiate rising with less resistance &mdash; the mattress pushes back rather than enveloping, so the sitting-up motion uses the surface as a platform rather than fighting against deep foam conformance; (3) Edge support is critical for safe pivoting to a seated position at the mattress edge, which is the first step in safe waking for IH patients. A mattress with reinforced edge support (pocketed coil perimeter, latex edge zone) provides a stable sitting platform at the edge rather than a collapsing soft zone that adds lateral instability during the confusional period."}}
+    }},
+    {{
+      "@type":"Question",
+      "name":"How long does an idiopathic hypersomnia patient sleep and what does that mean for mattress durability?",
+      "acceptedAnswer":{{"@type":"Answer","text":"Idiopathic hypersomnia patients typically sleep 10&ndash;12 hours nocturnally, and many also take prolonged (1&ndash;4 hour) non-restorative naps during the day despite the extended nocturnal sleep. Total sleep time can reach 14&ndash;18 hours per day during symptomatic periods. This has direct mattress durability implications. Standard mattress durability ratings are based on approximately 7&ndash;8 hours of nightly use per 24-hour cycle. An IH patient sleeping 14+ hours per day accelerates comfort layer compression at the primary body contact zones (lumbar, hip) by 75&ndash;100% compared to the standard use assumption. Memory foam comfort layers, which are the most susceptible to permanent compression set, will lose their support profile significantly faster than their rated lifespan in IH use. The practical consequences: (1) Foam mattresses rated for 8&ndash;10 years of typical use may require replacement in 5&ndash;7 years under IH sleep patterns; (2) Latex comfort layers are significantly more compression-resistant than polyurethane foam &mdash; latex has elastic polymer cross-links that recover fully from compression even after extended body contact time; (3) Innerspring and pocketed coil bases provide structural support independent of comfort layer condition &mdash; even if the comfort layer compresses over time, the coil system maintains foundational height and support; (4) Higher-density foam (5+ lb/cubic foot) resists compression set substantially better than standard 3&ndash;4 lb/cubic foot foam under extended daily loading. For IH patients, durability is not a general concern &mdash; it is a primary selection criterion."}}
+    }},
+    {{
+      "@type":"Question",
+      "name":"Should an idiopathic hypersomnia patient avoid memory foam mattresses?",
+      "acceptedAnswer":{{"@type":"Answer","text":"Not necessarily avoid entirely, but with specific cautions. The concerns with memory foam for IH are distinct from general sleep health concerns: (1) Waking safety &mdash; deep-conforming memory foam (plush, 8+ cm comfort layer) creates the body-cradle problem during confusional arousal waking. The body sinks into a depression that requires significant motor coordination to exit. For IH patients with 30-minute to 2-hour sleep inertia periods, this is a practical safety concern, not a theoretical preference; (2) Durability under extended use &mdash; memory foam compressed for 14+ hours daily loses its pressure relief profile significantly faster than standard 8-hour use; comfort layer body impressions develop earlier; (3) Progressive softening &mdash; memory foam softens with body heat during the first hours of sleep. An IH patient sleeping 12 hours experiences 50% more softening cycle progression per night than a typical 8-hour sleeper, meaning the support geometry changes more dramatically from sleep onset to waking. Memory foam used safely in IH context: medium-firm (6&ndash;7/10 firmness rating), thinner comfort layer (5&ndash;7 cm vs. 10+ cm plush layers), high density (5+ lb/ft&sup3;), paired with a strong pocketed coil base for structural support, and with full edge reinforcement. The best IH mattresses in this guide use either latex comfort layers (elastic recovery, durability) or hybrid designs with modest foam thickness over robust coil systems."}}
+    }},
+    {{
+      "@type":"Question",
+      "name":"What mattress features help idiopathic hypersomnia patients wake up more safely?",
+      "acceptedAnswer":{{"@type":"Answer","text":"Safe waking for IH patients requires mattress properties that reduce mechanical difficulty and instability during the confusional arousal period. The key features in priority order: (1) Medium-firm to firm surface (5.5&ndash;7.5/10) &mdash; responsive surfaces that push back rather than envelop allow the body to initiate rising motions with the mattress as a stable platform. The sitting-up motion uses the surface resistance rather than fighting enveloping foam. Avoid plush (3&ndash;4/10) and ultra-plush surfaces; (2) Reinforced edge support &mdash; the transition from lying to seated at the mattress edge is the highest-fall-risk moment during confusional arousal. A mattress with a collapsing soft perimeter edge adds lateral instability at the exact moment the IH patient most needs a stable pivot point. Pocketed coil perimeter reinforcement and latex edge zones maintain a firm, stable edge that supports seated weight without collapse; (3) Responsive comfort layer &mdash; latex and fast-response foam return to their resting position as the body lifts, assisting the rising motion. Deep memory foam creates suction-like resistance that opposes the rising motion under reduced motor strength; (4) Height consideration &mdash; mattress height of 10&ndash;14 inches places the seated-at-edge position at a knee angle of 90&ndash;100 degrees for most adult heights, which is the mechanically optimal angle for standing from seated without excessive hip flexor or quadriceps demand; (5) Base stability &mdash; a slatted or solid platform base rather than a plush box spring keeps the overall sleep system height controlled and prevents mattress-top swaying that adds instability during the seated pivot phase of standing."}}
+    }}
+  ]
+}}
+</script>
+<style>
+  :root{{--bg:#0a1628;--card:#111e33;--gold:#c9a84c;--text:#e8eaf0;--muted:#8892a4;--red:#dc2626}}
+  *{{box-sizing:border-box;margin:0;padding:0}}
+  body{{background:var(--bg);color:var(--text);font-family:'Segoe UI',sans-serif;line-height:1.7}}
+  header{{background:var(--card);padding:1rem 2rem;border-bottom:2px solid var(--gold)}}
+  header a{{color:var(--gold);text-decoration:none;font-weight:700;font-size:1.2rem}}
+  nav{{font-size:.85rem;margin-top:.3rem}}
+  nav a{{color:var(--muted);text-decoration:none}}
+  nav a:hover{{color:var(--gold)}}
+  .container{{max-width:860px;margin:0 auto;padding:2rem 1.5rem}}
+  h1{{font-size:2rem;color:var(--gold);margin-bottom:.5rem;line-height:1.3}}
+  .subtitle{{color:var(--muted);margin-bottom:2rem;font-size:1rem}}
+  .badge{{display:inline-block;background:var(--red);color:#fff;font-size:.75rem;padding:.2rem .6rem;border-radius:4px;margin-bottom:.8rem;font-weight:600;text-transform:uppercase;letter-spacing:.05em}}
+  .toc{{background:var(--card);border:1px solid #1e2d47;border-radius:8px;padding:1.2rem 1.5rem;margin-bottom:2rem}}
+  .toc h3{{color:var(--gold);font-size:.95rem;margin-bottom:.6rem}}
+  .toc ol{{padding-left:1.2rem}}
+  .toc li{{margin:.25rem 0}}
+  .toc a{{color:var(--muted);text-decoration:none;font-size:.9rem}}
+  .toc a:hover{{color:var(--gold)}}
+  .science-box{{background:#0d1f3a;border-left:4px solid var(--gold);border-radius:6px;padding:1.2rem 1.5rem;margin:2rem 0}}
+  .science-box h3{{color:var(--gold);margin-bottom:.8rem;font-size:1rem}}
+  .science-box ul{{padding-left:1.2rem}}
+  .science-box li{{margin:.35rem 0;font-size:.92rem;color:var(--text)}}
+  .warning-box{{background:#2d1515;border-left:4px solid #ef4444;border-radius:6px;padding:1rem 1.5rem;margin:1.5rem 0}}
+  .warning-box p{{font-size:.92rem;color:#fca5a5}}
+  .pick{{background:var(--card);border:1px solid #1e2d47;border-radius:10px;padding:1.5rem;margin:1.5rem 0}}
+  .pick-header{{display:flex;align-items:center;gap:.8rem;margin-bottom:1rem}}
+  .pick-num{{background:var(--gold);color:#0a1628;font-weight:700;border-radius:50%;width:32px;height:32px;display:flex;align-items:center;justify-content:center;flex-shrink:0;font-size:.95rem}}
+  .pick-name{{font-size:1.15rem;font-weight:700;color:var(--text)}}
+  .pick-tag{{font-size:.78rem;background:#1e2d47;color:var(--gold);padding:.15rem .5rem;border-radius:4px;margin-left:.4rem}}
+  .pick-specs{{display:flex;flex-wrap:wrap;gap:.5rem;margin-bottom:1rem}}
+  .spec{{background:#0d1f3a;border:1px solid #1e2d47;border-radius:4px;padding:.25rem .6rem;font-size:.8rem;color:var(--muted)}}
+  .hyper-key{{background:#0d2a1a;border:1px solid #166534;border-radius:4px;padding:.5rem .8rem;font-size:.85rem;color:#86efac;margin-bottom:.8rem}}
+  .cta-btn{{display:inline-block;background:var(--gold);color:#0a1628;font-weight:700;padding:.6rem 1.4rem;border-radius:6px;text-decoration:none;font-size:.9rem;transition:opacity .2s}}
+  .cta-btn:hover{{opacity:.85}}
+  .table-wrap{{overflow-x:auto;margin:1.5rem 0}}
+  table{{width:100%;border-collapse:collapse;font-size:.88rem}}
+  th{{background:#1e2d47;color:var(--gold);padding:.6rem .8rem;text-align:left}}
+  td{{padding:.55rem .8rem;border-bottom:1px solid #1e2d47;color:var(--text)}}
+  tr:nth-child(even) td{{background:#0d1a2e}}
+  h2{{font-size:1.35rem;color:var(--gold);margin:2rem 0 1rem}}
+  p{{margin:.6rem 0;font-size:.95rem}}
+  .faq-item{{margin:1.2rem 0}}
+  .faq-q{{font-weight:700;color:var(--gold);margin-bottom:.4rem}}
+  .faq-a{{font-size:.92rem;color:var(--text)}}
+  .related-guides{{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:1rem;margin-top:1rem}}
+  .related-guides a{{background:var(--card);border:1px solid #1e2d47;border-radius:8px;padding:.8rem 1rem;color:var(--muted);text-decoration:none;font-size:.88rem;transition:border-color .2s}}
+  .related-guides a:hover{{border-color:var(--gold);color:var(--gold)}}
+  footer{{background:var(--card);border-top:1px solid #1e2d47;padding:1.5rem 2rem;text-align:center;color:var(--muted);font-size:.85rem;margin-top:3rem}}
+  footer a{{color:var(--gold);text-decoration:none}}
+  @media(max-width:600px){{h1{{font-size:1.5rem}}.pick-header{{flex-wrap:wrap}}}}
+</style>
+</head>
+<body>
+<header>
+  <a href="/">SleepWiseReviews</a>
+  <nav><a href="/">Home</a> &rsaquo; <a href="/posts/index.html">All Posts</a> &rsaquo; Best Mattress for Idiopathic Hypersomnia</nav>
+</header>
+<div class="container">
+  <div class="badge">Health Conditions</div>
+  <h1>{title}</h1>
+  <p class="subtitle">Excessive daytime sleepiness with prolonged nocturnal sleep (10&ndash;12+ hours), severe sleep inertia and confusional arousal on waking &mdash; avoiding deep-sinkage surfaces that make safe standing harder, durable support for extended sleep duration, and responsive surfaces that assist safe rising during the impaired waking state. Distinct from narcolepsy type 1 (cataplexy + low CSF orexin), narcolepsy type 2 (low CSF orexin, no cataplexy), and obstructive sleep apnea (EDS from respiratory arousal fragmentation).</p>
+
+  <div class="toc">
+    <h3>Contents</h3>
+    <ol>
+      <li><a href="#science">Idiopathic Hypersomnia and Sleep: The Clinical Picture</a></li>
+      <li><a href="#picks">7 Mattress Picks</a></li>
+      <li><a href="#comparison">Comparison Table</a></li>
+      <li><a href="#ih-guide">IH Sleep Management Guide</a></li>
+      <li><a href="#faq">FAQ</a></li>
+      <li><a href="#related">Related Guides</a></li>
+    </ol>
+  </div>
+
+  <div class="warning-box">
+    <p><strong>Clinical note:</strong> Idiopathic hypersomnia requires diagnosis by a sleep medicine physician using polysomnography (PSG) and multiple sleep latency testing (MSLT) after excluding secondary causes including obstructive sleep apnea, insufficient sleep syndrome, circadian rhythm disorders, and medication-induced hypersomnolence. This guide addresses mattress selection to support safe sleep and waking for IH patients &mdash; it does not treat the underlying condition. Do not self-diagnose IH or adjust any prescribed medication or treatment based on mattress changes without physician guidance.</p>
+  </div>
+
+  <div class="science-box" id="science">
+    <h3>Idiopathic Hypersomnia and Sleep: The Clinical Picture</h3>
+    <ul>
+      <li><strong>What it is &mdash; and what it is not:</strong> Idiopathic hypersomnia (IH) is a central nervous system disorder of hypersomnolence characterized by excessive daytime sleepiness (EDS) despite adequate or prolonged nocturnal sleep, with the hallmark feature of severe, prolonged sleep inertia (confusional arousal) on waking from any sleep episode. It is not narcolepsy type 1 (which requires cataplexy and CSF orexin-A &le;110 pg/mL), not narcolepsy type 2 (confirmed low CSF orexin without cataplexy), and not obstructive sleep apnea (where EDS is driven by respiratory arousal fragmentation on polysomnography). IH polysomnography shows uninterrupted, prolonged sleep with no respiratory pathology and normal CSF orexin levels</li>
+      <li><strong>Prolonged sleep duration and mattress durability:</strong> IH patients typically sleep 10&ndash;12 hours nocturnally and may take 1&ndash;4 hour non-restorative naps, with total sleep time reaching 14&ndash;18 hours per day during symptomatic periods. Standard mattress durability is rated for approximately 7&ndash;8 hours of nightly use. IH patients load their mattress 75&ndash;100% more hours per day than the standard assumption, accelerating comfort layer compression set &mdash; particularly in polyurethane memory foam. Latex comfort layers with elastic polymer cross-links and high-density pocketed coil bases resist this accelerated compression significantly better</li>
+      <li><strong>Sleep inertia and confusional arousal on waking:</strong> Sleep inertia in IH is clinically severe and prolonged &mdash; not the brief grogginess of a typical waking. The confusional state involves cognitive impairment (disorientation, slowed decision-making), motor impairment (reduced balance, coordination deficits), and impaired awareness of time and location. This state can last 30 minutes to 2 hours after any awakening, including from alarms. During this period the IH patient must physically rise from the mattress while motorically impaired, creating a genuine fall risk that is directly affected by mattress surface properties</li>
+      <li><strong>Deep-sinkage surfaces and safe waking:</strong> Deep-conforming memory foam mattresses (plush, 3&ndash;4/10 firmness, 10+ cm comfort layers) create a body cradle that mechanically resists the lying-to-sitting transition. The body must push up against enveloping foam, requiring active motor coordination that is compromised during confusional arousal. Medium-firm to firm responsive surfaces (5.5&ndash;7.5/10) act as a platform that the body rises from rather than sinks into, reducing the motor demand of the waking transition and lowering fall risk during the impaired state</li>
+      <li><strong>Edge support and the sitting pivot:</strong> The most dangerous moment in IH waking is the transition from lying to seated at the mattress edge, followed by the pivot to standing. A mattress with a collapsing soft perimeter creates lateral instability at exactly this moment &mdash; the seated IH patient, already motorically impaired, is simultaneously dealing with edge subsidence. Reinforced edge support (pocketed coil perimeter, high-density foam edge walls, or latex edge zones) maintains a firm, stable seated platform that supports full body weight without collapse during the confusional arousal period</li>
+      <li><strong>Pressure relief for 10&ndash;12+ hour sleep duration:</strong> While firmness and edge support address waking safety, IH patients also require adequate pressure relief for the extended sleep duration. A mattress that is excessively firm (8&ndash;9/10) creates pressure accumulation at the hip and shoulder contact zones that is tolerable for 7&ndash;8 hours but produces pain and positional restlessness over 12+ hour sleep periods. The optimal IH mattress balances responsive medium-firm support (waking safety) with sufficient pressure relief to sustain extended sleep without pain-driven position changes that fragment the already non-restorative sleep</li>
+      <li><strong>Avoiding surfaces that make waking &ldquo;harder&rdquo; cognitively:</strong> IH patients frequently describe their waking experience as &ldquo;being pulled back to sleep&rdquo; by the comfort of the sleep surface. While this is primarily a CNS phenomenon (the biological drive to return to sleep is pathologically strong in IH), mattress design can either assist or resist the waking effort. Deep-sinkage, ultra-plush surfaces create a physical comfort environment that is maximally conducive to returning to sleep &mdash; removing a mild environmental signal that assists the waking transition. Slightly more responsive, supportive surfaces provide a subtle environmental cue that the sleep surface is a work surface rather than a continuation of sleep, supporting the IH patient&rsquo;s effort to resist the return-to-sleep pull</li>
+      <li><strong>IH vs. narcolepsy and sleep apnea &mdash; sleep management differences:</strong> Narcolepsy type 1 (cataplexy) requires surfaces that support sudden positional collapse and frequent unpredictable position changes &mdash; firmness for safe lateral falls, not for waking inertia. Narcolepsy type 2 has shorter sleep inertia and faster waking recovery than IH. OSA-driven EDS requires head elevation capability and CPAP positional support &mdash; not extended-duration durability or waking-safety firmness. IH mattress selection is uniquely focused on: (1) safe rising under motor impairment, (2) durable support for 14+ hour daily loading, and (3) balanced pressure relief for 10&ndash;12+ hour nocturnal sleep duration</li>
+    </ul>
+  </div>
+
+  <h2 id="picks">7 Best Mattresses for Idiopathic Hypersomnia</h2>
+
+  <div class="pick">
+    <div class="pick-header">
+      <div class="pick-num">1</div>
+      <div class="pick-name">Saatva Classic Hybrid <span class="pick-tag">Best Overall for IH Sleep Safety</span></div>
+    </div>
+    <div class="hyper-key">IH key: Lumbar Zone Active Support system and dual-coil base (tempered steel micro-coils over pocketed coils) provide the most structural support in this guide &mdash; the mattress pushes back clearly under the seated body during waking, assisting the lying-to-standing transition under confusional arousal impairment. Reinforced perimeter edge coils maintain a stable seated platform at the mattress edge during the highest-fall-risk moment in IH waking. Durable coil-on-coil construction resists the accelerated compression of 14+ hour daily IH loading.</div>
+    <p>Idiopathic hypersomnia waking is mechanically different from normal waking. The IH patient must move from lying to seated to standing while cognitively and motorically impaired &mdash; disoriented, with slowed coordination and reduced balance awareness. Every step of this process is affected by mattress design. The Saatva Classic Hybrid is the only mattress in this guide with a true dual-layer coil system: tempered steel micro-coils in the comfort zone sit over a foundational pocketed coil base, creating a sleep surface that has structural clarity at every depth of compression. When an IH patient pushes up to a seated position, the coil system immediately responds with push-back support &mdash; the surface does not continue to conform around the body as memory foam does, but instead transitions to a firm seating platform that uses the elastic energy of compressed coils to assist the rising motion. This is a meaningful physical difference in the context of impaired motor function. The perimeter edge coil reinforcement is the second critical feature for IH: the seated-at-edge position that precedes standing is supported by the same coil density as the rest of the sleep surface, so there is no lateral collapse risk when the IH patient pivots their legs over the edge during the confusional arousal period. The Lumbar Zone Active Support system adds extra coil tension in the lumbar region, ensuring that extended 10&ndash;12 hour sleep does not produce the lumbar sag that creates morning back stiffness &mdash; a secondary impediment to smooth waking. The dual-coil construction also excels in durability under IH daily loading: two coil layers distribute the compressive force of body weight across a much larger number of compression cycles than single-coil systems, extending structural lifespan significantly beyond the 8&ndash;10 year typical mattress lifetime under IH use patterns.</p>
+    <div class="pick-specs">
+      <span class="spec">Dual-coil: micro-coil comfort + pocketed coil base</span>
+      <span class="spec">Lumbar Zone Active Support: extended sleep alignment</span>
+      <span class="spec">Perimeter edge coils: stable seated pivot platform</span>
+      <span class="spec">Durable coil-on-coil: 14+ hour daily load resistance</span>
+    </div>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=Saatva+Classic+Hybrid+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+
+  <div class="pick">
+    <div class="pick-header">
+      <div class="pick-num">2</div>
+      <div class="pick-name">Helix Midnight Luxe <span class="pick-tag">Best for IH with Side Sleeping and Shoulder Pressure Over 10+ Hours</span></div>
+    </div>
+    <div class="hyper-key">IH key: Zoned pocketed coil system with softer shoulder zone and firmer lumbar/hip zone provides the pressure relief necessary for 10&ndash;12 hour side sleep without pain-driven position changes, while maintaining enough surface firmness at the hip and lumbar zone for a stable waking transition. The high-density foam perimeter edge reinforcement supports full seated body weight at the mattress edge without collapse. TENCEL Lyocell cover wicks moisture during extended sleep duration without synthetic chemical residues.</div>
+    <p>IH patients who are side sleepers face a compound mattress problem: they need enough pressure relief at the shoulder and hip to sustain 10&ndash;12 hours of lateral sleep without pain accumulation, but they also need enough surface responsiveness and edge stability to rise safely during confusional arousal. These two requirements appear to conflict &mdash; pressure relief implies softer materials, while waking safety implies firmer surfaces. The Helix Midnight Luxe resolves this with its zoned pocketed coil system: softer-gauge coils in the shoulder zone allow the shoulder to find its natural relief position without bottoming out, while firmer-gauge coils in the lumbar, hip, and lower body zone maintain the postural alignment and surface firmness that the rising transition requires. For IH patients sleeping 10&ndash;12 hours in a lateral position, the shoulder accommodation prevents the progressive pressure pain that forces position changes &mdash; position changes that in IH often trigger partial wakings with sleep inertia that further fragment an already non-restorative sleep architecture. The high-density foam perimeter edge reinforcement around the Helix Midnight Luxe coil base maintains a firm, stable seating platform at the mattress edge that does not collapse under body weight during the lateral-to-seated pivot. The TENCEL Lyocell cover is derived from eucalyptus wood pulp &mdash; a natural cellulosic fiber with excellent moisture vapor transport that wicks sweat from the skin surface during the extended sleep period. This matters for IH: 12 hours of sustained skin-to-mattress contact produces more cumulative moisture than a typical 7&ndash;8 hour sleep, and moisture accumulation increases skin temperature instability that can produce partial arousals.</p>
+    <div class="pick-specs">
+      <span class="spec">Zoned coils: softer shoulder, firmer lumbar/hip for IH balance</span>
+      <span class="spec">10&ndash;12 hour side sleep: no pain-driven position changes</span>
+      <span class="spec">High-density foam edge: stable seated pivot platform</span>
+      <span class="spec">TENCEL cover: moisture wick over extended sleep duration</span>
+    </div>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=Helix+Midnight+Luxe+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+
+  <div class="pick">
+    <div class="pick-header">
+      <div class="pick-num">3</div>
+      <div class="pick-name">WinkBed Plus <span class="pick-tag">Best for IH in Higher Body Weight Sleepers</span></div>
+    </div>
+    <div class="hyper-key">IH key: Engineered specifically for 250+ lb sleepers &mdash; firmer-gauge pocketed coils with a higher coil count prevent the progressive sag under heavier body weight that accelerates under 12&ndash;14 hour IH daily loading. High-density latex-like foam comfort layer maintains consistent surface responsiveness across extended sleep duration without the progressive softening of lower-density foam. Reinforced perimeter edge designed to support heavier body weight at the seated-edge pivot point without lateral collapse.</div>
+    <p>Idiopathic hypersomnia does not discriminate by body weight, and the mattress durability problem under IH daily loading is substantially amplified for higher body weight sleepers. A 280 lb IH patient sleeping 14 hours per day applies approximately 2.5&times; the compression force of a 160 lb typical sleeper &mdash; multiplied by the extended daily loading hours, this creates mattress compression stress that standard mattresses are not designed to withstand. The WinkBed Plus is engineered specifically for this load profile: its pocketed coil system uses firmer-gauge steel coils with a higher coil count than the standard WinkBed, providing a coil-force response that remains in the linear elastic range (proper support) rather than the plastic deformation range (permanent set) even under sustained heavier body weight loading. The comfort layer uses a responsive foam that maintains its mechanical properties across the extended temperature cycle of 12+ hours of body heat exposure &mdash; standard memory foam progressively softens under sustained body heat; the WinkBed Plus foam layer is formulated to resist this progressive softening and maintain consistent surface firmness from hour 1 to hour 12 of sleep. The reinforced perimeter edge is explicitly designed to support seated body weight of 250+ lbs without lateral collapse &mdash; directly addressing the confusional arousal waking pivot safety concern for heavier IH patients. The Tencel cover provides moisture management for the extended sleep duration. For IH patients in the higher body weight range, the WinkBed Plus is the only mattress in this guide that comprehensively addresses both the durability and waking safety requirements simultaneously.</p>
+    <div class="pick-specs">
+      <span class="spec">Firmer-gauge high-count coils: 250+ lb IH durability</span>
+      <span class="spec">Foam comfort: resists 12-hour heat-progressive softening</span>
+      <span class="spec">Reinforced edge: 250+ lb seated pivot stability</span>
+      <span class="spec">TENCEL cover: moisture management for extended sleep</span>
+    </div>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=WinkBed+Plus+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+
+  <div class="pick">
+    <div class="pick-header">
+      <div class="pick-num">4</div>
+      <div class="pick-name">Avocado Green Mattress <span class="pick-tag">Best Natural Materials for Extended IH Sleep Duration</span></div>
+    </div>
+    <div class="hyper-key">IH key: GOLS-certified organic latex comfort layer is the most durable comfort material in this guide &mdash; latex elastic polymer cross-links recover fully from compression even after 12&ndash;14 hours of daily body contact loading, with no permanent compression set under IH use patterns. Organic latex is also temperature-stable: it does not soften progressively with body heat across extended sleep, maintaining consistent surface firmness and waking-assist responsiveness from sleep onset to the confusional arousal waking period.</div>
+    <p>For IH patients who prioritize durability and consistent surface firmness across the entire extended sleep duration, organic latex is the optimal comfort layer material &mdash; and the Avocado Green Mattress uses GOLS-certified organic latex throughout its comfort zone. The durability advantage of latex over polyurethane foam is fundamental and material-scientific: polyurethane foam achieves its compression properties from a cellular structure of open and closed foam cells, which can permanently deform under repeated and extended loading (compression set); latex achieves its compression properties from elastic polymer cross-links that stretch under load and fully recover when load is removed, regardless of loading duration. This elastic recovery property is specifically well-suited to IH use: a latex comfort layer that has been loaded for 14 hours returns to its full original thickness and firmness profile when the IH patient rises, ready to provide the same responsive push-back surface for the next sleep episode and for the next decade of IH sleep. The temperature stability of latex is equally important for IH: unlike memory foam, which softens with body heat (creating progressive sinkage over the course of a long sleep), latex is a thermoset polymer whose mechanical properties are essentially temperature-independent in the sleep temperature range (30&ndash;38&deg;C). This means the IH patient waking from a 12-hour sleep encounters the same surface firmness that was present at sleep onset &mdash; the waking-assist responsiveness has not been degraded by 12 hours of body heat exposure. The pocketed coil base reinforces edge support and adds structural longevity under IH daily loading.</p>
+    <div class="pick-specs">
+      <span class="spec">GOLS organic latex: full elastic recovery after 14-hour loading</span>
+      <span class="spec">Temperature-stable: no progressive softening over 12-hour sleep</span>
+      <span class="spec">Pocketed coil base: durable structural support</span>
+      <span class="spec">GREENGUARD Gold: third-party VOC certified</span>
+    </div>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=Avocado+Green+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+
+  <div class="pick">
+    <div class="pick-header">
+      <div class="pick-num">5</div>
+      <div class="pick-name">Purple RestorePlus Hybrid <span class="pick-tag">Best for IH with Night Sweating During Extended Sleep</span></div>
+    </div>
+    <div class="hyper-key">IH key: The GelFlex polymer grid maintains temperature neutrality across 10&ndash;12 hour sleep duration &mdash; the open-channel grid structure prevents heat dome formation regardless of how long the body is in contact with the surface. This is particularly important for IH patients who cannot wake and reposition as a thermoregulatory response: the mattress must self-ventilate without behavioral intervention. The grid&rsquo;s mechanical properties do not change with body heat, so waking-assist surface firmness is the same at hour 12 as at hour 1.</div>
+    <p>Temperature management during an IH sleep episode presents a unique challenge: most sleepers naturally adjust their position or throw off covers when they become too warm, providing active thermoregulation even during sleep. IH patients are motorically and cognitively suppressed throughout their extended sleep episode &mdash; partial arousal from heat does not reliably produce the positional adjustment that restores thermal comfort, and instead may produce the confusional arousal waking state without the cognitive clarity to respond to it appropriately. The mattress must therefore self-ventilate passively throughout the 10&ndash;12 hour sleep duration without any behavioral input from the sleeper. The Purple GelFlex polymer grid is structurally open: its geometric wall-and-channel structure allows air to move freely through the comfort zone by convection as the body heats the surface air, continuously replacing warm air with cooler ambient air. This passive convective ventilation does not require the sleeper to move, shift position, or adjust covers &mdash; it operates continuously regardless of whether the IH patient moves or remains in the same position for 12 unbroken hours. The grid also has a secondary property critical for IH waking safety: because its mechanical properties are not temperature-dependent, the surface firmness and push-back response at hour 12 of sleep are identical to hour 1. The IH patient waking from a 12-hour sleep encounters a surface that has not progressively softened &mdash; the waking-assist firmness and edge responsiveness are preserved across the full IH sleep duration.</p>
+    <div class="pick-specs">
+      <span class="spec">GelFlex grid: passive convective ventilation, no behavioral input needed</span>
+      <span class="spec">Temperature-neutral: identical firmness at hour 1 and hour 12</span>
+      <span class="spec">Pocketed coil base: edge support + structural durability</span>
+      <span class="spec">IH night sweat management without position change</span>
+    </div>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=Purple+RestorePlus+Hybrid+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+
+  <div class="pick">
+    <div class="pick-header">
+      <div class="pick-num">6</div>
+      <div class="pick-name">Birch Natural Mattress <span class="pick-tag">Best Budget-Range Natural Material IH Option</span></div>
+    </div>
+    <div class="hyper-key">IH key: Talalay latex comfort layer provides elastic recovery durability for 14+ hour daily IH loading at a lower price point than the Avocado. Organic New Zealand wool quilting passively manages temperature across extended sleep duration without synthetic gel infusions or chemical cooling agents. The pocketed coil base maintains structural support and edge integrity across the accelerated compression cycle of IH daily use. GREENGUARD Gold certification confirms VOC limits for extended daily inhalation contact.</div>
+    <p>Idiopathic hypersomnia is a chronic condition managed over years or decades, and the mattress durability requirements under IH loading patterns mean that mattress replacement costs are a real consideration. The Birch Natural Mattress provides the durable latex comfort layer and pocketed coil construction that IH patients require at a price point below the Avocado and Saatva Classic options. The Talalay latex comfort layer in the Birch is produced via the Talalay vulcanization process, which creates a more open-cell latex structure with better airflow than Dunlop latex &mdash; important for the 10&ndash;12 hour extended sleep duration where passive ventilation must operate without behavioral assistance. Like all latex, it has the elastic polymer recovery property that resists the compression set that memory foam develops under IH extended daily loading: after 14 hours of body contact, the Birch Talalay latex returns to full thickness and firmness on rising, maintaining the consistent surface response that assists safe waking. The organic New Zealand wool quilting layer provides passive thermal buffering across the extended sleep duration: wool fiber absorbs and releases moisture vapor without the surface wetness feeling of synthetic fibers, maintaining a more stable temperature microclimate at the skin contact zone across 10&ndash;12 hours of sleep. The pocketed coil base adds structural integrity and perimeter edge support for the waking pivot. At its price point, the Birch provides 80% of the IH-specific benefit of the top-tier options in this guide with a lower replacement cycle cost &mdash; meaningful for IH patients planning for a mattress investment that accounts for accelerated wear.</p>
+    <div class="pick-specs">
+      <span class="spec">Talalay latex: open-cell airflow + elastic recovery durability</span>
+      <span class="spec">Organic wool: passive thermal buffering over 10&ndash;12 hours</span>
+      <span class="spec">Pocketed coil: structural edge support for waking pivot</span>
+      <span class="spec">GREENGUARD Gold: VOC limits for extended daily exposure</span>
+    </div>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=Birch+Natural+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+
+  <div class="pick">
+    <div class="pick-header">
+      <div class="pick-num">7</div>
+      <div class="pick-name">Nest Bedding Sparrow Hybrid <span class="pick-tag">Best Trial Period for IH Symptom Variability</span></div>
+    </div>
+    <div class="hyper-key">IH key: 365-night trial is clinically meaningful for IH &mdash; IH symptoms fluctuate with medication adjustments (modafinil, clarithromycin, flumazenil), seasonal variation, and treatment response cycles that may not be fully apparent within the standard 90&ndash;100 night trial. The Comfort+ flip layer allows post-delivery firmness change (soft 4.5/10 to medium-firm 6.5/10) if IH management evolves and waking-safety firmness requirements change without full mattress return. Pocketed coil base maintains structural edge support across extended IH loading.</div>
+    <p>Idiopathic hypersomnia management is dynamic: FDA-approved treatments (clarithromycin, lower-sodium oxybate) and off-label approaches (flumazenil, modafinil) require titration periods of weeks to months, during which symptom severity and sleep duration can change substantially. An IH patient beginning treatment may sleep 14 hours per day and require maximum waking-safety firmness at baseline, then reduce to 10&ndash;11 hours on an effective regimen, and experience different pressure relief requirements at a reduced sleep duration. The standard 90&ndash;100 night trial window typically falls within the early treatment phase &mdash; the patient evaluates the mattress under their baseline symptom load and discovers its inadequacy after treatment changes several months later. The Nest Bedding Sparrow Hybrid&rsquo;s 365-night trial provides enough time to evaluate the mattress across multiple treatment phases and seasonal variation. The Comfort+ flippable top layer is uniquely practical for IH patients in active treatment: if IH management improvement reduces sleep duration and the waking-safety firmness that was essential at baseline becomes less necessary (or the shorter sleep duration allows a plush position for improved pressure relief), the firmness can be changed post-delivery from soft (4.5/10) to medium-firm (6.5/10) by unzipping the cover and flipping the comfort layer &mdash; without mattress return. The pocketed coil base maintains structural edge support across the extended IH loading cycle, and the CertiPUR-US certified foam layers meet VOC limits for the extended daily inhalation contact of IH sleep duration.</p>
+    <div class="pick-specs">
+      <span class="spec">365-night trial: spans IH treatment titration cycles</span>
+      <span class="spec">Comfort+ flip: 4.5/10 or 6.5/10 post-delivery firmness</span>
+      <span class="spec">Pocketed coil: structural edge support for waking pivot</span>
+      <span class="spec">CertiPUR-US: VOC limits for 14+ hour daily exposure</span>
+    </div>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=Nest+Bedding+Sparrow+Hybrid+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+
+  <h2 id="comparison">Comparison Table</h2>
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr><th>Mattress</th><th>Best For</th><th>Firmness</th><th>Trial</th><th>Price Range</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Saatva Classic Hybrid</td><td>Overall IH &mdash; dual-coil waking safety + durability</td><td>Plush Soft, Luxury Firm, or Firm (3&ndash;8/10)</td><td>365 nights</td><td>$$$</td></tr>
+        <tr><td>Helix Midnight Luxe</td><td>Side sleeping 10&ndash;12 hours &mdash; zoned pressure relief</td><td>Medium (5.5/10)</td><td>100 nights</td><td>$$$</td></tr>
+        <tr><td>WinkBed Plus</td><td>Higher body weight IH sleepers (250+ lbs)</td><td>Firm (7&ndash;7.5/10)</td><td>120 nights</td><td>$$$</td></tr>
+        <tr><td>Avocado Green Mattress</td><td>Durability &mdash; GOLS latex elastic recovery</td><td>Med or Med-Firm (5.5 or 7/10)</td><td>365 nights</td><td>$$$</td></tr>
+        <tr><td>Purple RestorePlus Hybrid</td><td>Night sweating during extended sleep</td><td>Medium (5.5/10)</td><td>100 nights</td><td>$$$</td></tr>
+        <tr><td>Birch Natural Mattress</td><td>Budget natural material &mdash; Talalay latex durability</td><td>Medium (5.5/10)</td><td>100 nights</td><td>$$</td></tr>
+        <tr><td>Nest Bedding Sparrow Hybrid</td><td>Long trial &mdash; IH treatment variability</td><td>Flip: 4.5 or 6.5/10</td><td>365 nights</td><td>$$</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2 id="ih-guide">Idiopathic Hypersomnia Sleep Management Guide</h2>
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr><th>IH Sleep Factor</th><th>Mechanism</th><th>Mattress Requirement</th><th>Best Option</th><th>Avoid</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Confusional Arousal Waking Safety</td><td>30-minute to 2-hour cognitive and motor impairment state on waking; increased fall risk during lying-to-seated-to-standing transition; balance and coordination deficits during the pivot from mattress edge to standing</td><td>Medium-firm to firm responsive surface (5.5&ndash;7.5/10) that pushes back rather than envelops; reinforced perimeter edge support that holds seated body weight without lateral collapse during the edge pivot</td><td>Saatva Classic Hybrid (dual-coil push-back + perimeter edge coils); WinkBed Plus (reinforced 250+ lb edge support); Helix Midnight Luxe (high-density foam edge)</td><td>Plush ultra-conforming memory foam (3&ndash;4/10); mattresses with soft perimeter edge collapse zones; deep-sinkage pillow-top designs that body cradle and oppose the rising motion</td></tr>
+        <tr><td>Extended Sleep Duration Durability (10&ndash;14+ hrs/day)</td><td>IH daily loading of 10&ndash;14+ hours accelerates comfort layer compression set by 75&ndash;100% vs. standard 7&ndash;8 hour use; polyurethane foam develops permanent body impressions significantly earlier under IH loading; coil fatigue is also accelerated</td><td>Durable comfort materials: GOLS organic latex (elastic polymer recovery), high-density foam (5+ lb/ft&sup3;), or responsive foam over pocketed coil base; avoid standard-density (3&ndash;4 lb/ft&sup3;) memory foam as primary comfort layer</td><td>Avocado Green (GOLS latex elastic recovery); Birch (Talalay latex); Saatva Classic (dual-coil structural longevity); WinkBed Plus (high-density foam + firmer-gauge coils)</td><td>Standard-density memory foam comfort layers; budget-tier foam mattresses without coil base structural support; single-coil systems under heavy IH loading</td></tr>
+        <tr><td>Pressure Relief for 10&ndash;12 Hour Sleep</td><td>Sustained hip and shoulder loading over 10&ndash;12 hours accumulates pressure that produces pain and position-change arousals even in patients without EDS; IH patients cannot interrupt sleep voluntarily but experience fragmentation from pain-driven position changes that worsen sleep quality</td><td>Balanced medium-firm support (5.5&ndash;6.5/10) with zoned pressure relief at shoulder and hip; enough conformance for extended-duration pain prevention without deep sinkage that impairs waking safety</td><td>Helix Midnight Luxe (zoned coils for side sleepers); Avocado Green (latex conformance without sinkage); Purple RestorePlus (grid pressure distribution)</td><td>Excessively firm mattresses (8&ndash;9/10) that cause pain accumulation over 10+ hour sleep; ultra-plush mattresses that sacrifice waking safety for pressure relief</td></tr>
+        <tr><td>Night Sweating Over Extended Sleep</td><td>10&ndash;12 hour sustained skin-to-mattress contact generates more cumulative heat and moisture than 7&ndash;8 hour sleep; IH patients cannot self-thermoregulate through positional adjustment; heat-trapping mattresses produce sweat that wets the sleep surface and produces partial arousals without full waking clarity</td><td>Breathable self-ventilating comfort materials: open-cell Talalay latex, GelFlex polymer grid, organic wool quilting; pocketed coil base for airflow through the mattress body; no dense closed-cell foam blocking moisture vapor transport</td><td>Purple RestorePlus (open-grid passive convection); Birch (organic wool thermal buffering + Talalay airflow); Avocado (GOLS latex open-cell + organic wool)</td><td>Dense all-memory-foam mattresses; thick synthetic pillow-top layers that trap body heat; mattresses with closed-cell foam blocking moisture vapor transport across 12-hour sleep</td></tr>
+        <tr><td>Surface Waking Cue &mdash; Avoiding &ldquo;Pull-Back-to-Sleep&rdquo; Environment</td><td>IH patients experience a pathologically strong biological drive to return to sleep on any awakening; while this is primarily CNS-driven, ultra-plush deeply conforming sleep surfaces maximize physical comfort that supports the return-to-sleep pull; more responsive supportive surfaces provide a mild environmental signal that the body is lying on a work surface rather than a continuation of sleep</td><td>Medium-firm to firm surface (5.5&ndash;7/10) that does not provide maximum enveloping comfort; responsive push-back character that subtly signals a supportive rather than enveloping surface environment</td><td>Saatva Classic Luxury Firm (6.5/10); WinkBed Plus (7&ndash;7.5/10); Avocado Green Medium-Firm (7/10)</td><td>Ultra-plush (3&ndash;4/10) deeply conforming surfaces that maximize the comfort environment conducive to extended sleep; down-top pillow-top designs with maximum enveloping character</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2 id="faq">Frequently Asked Questions</h2>
+
+  <div class="faq-item">
+    <div class="faq-q">What is idiopathic hypersomnia and how is it different from narcolepsy and sleep apnea?</div>
+    <div class="faq-a">Idiopathic hypersomnia (IH) is a central nervous system disorder characterized by excessive daytime sleepiness, prolonged non-restorative nocturnal sleep (10&ndash;12+ hours), and severe sleep inertia and confusional arousal on waking. It is not narcolepsy type 1, which requires cataplexy (sudden muscle weakness from emotion) and low CSF orexin-A (&le;110 pg/mL) &mdash; IH patients have cataplexy and normal CSF orexin. It is not narcolepsy type 2, which has confirmed low CSF orexin without cataplexy. It is not sleep apnea, where EDS is driven by respiratory arousal fragmentation visible on polysomnography. The mattress implications differ: IH requires safe waking surfaces for confusional arousal and durability for 14+ hour daily loading. Narcolepsy requires surfaces safe for unpredictable positional collapse. Sleep apnea requires elevation for CPAP and positional support.</div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-q">Why does mattress firmness matter for sleep inertia and confusional arousal in idiopathic hypersomnia?</div>
+    <div class="faq-a">IH sleep inertia is a clinical state of motor and cognitive impairment lasting 30 minutes to 2 hours &mdash; not normal grogginess. During this period, balance, coordination, and decision-making are impaired, creating a fall risk during the lying-to-standing transition. Deep-sinkage plush mattresses (3&ndash;4/10) create a body cradle that requires active motor coordination to escape &mdash; the body must push up against enveloping foam under reduced motor capacity. Medium-firm to firm responsive surfaces (5.5&ndash;7.5/10) act as a stable platform that pushes back, using the mattress as a waking assist rather than an obstacle. Reinforced edge support is equally critical: the seated-at-edge pivot to standing is the highest fall-risk moment, and a collapsing perimeter edge adds lateral instability precisely when the IH patient most needs a stable base.</div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-q">How long does an idiopathic hypersomnia patient sleep and what does that mean for mattress durability?</div>
+    <div class="faq-a">IH patients typically sleep 10&ndash;12 hours nocturnally and often take 1&ndash;4 hour non-restorative naps, with total daily sleep reaching 14&ndash;18 hours in symptomatic periods. Standard mattresses are rated for approximately 7&ndash;8 hours of nightly use. IH patients load their mattress 75&ndash;100% more hours per day than assumed, accelerating comfort layer compression set significantly faster than rated lifespan. Memory foam is the most susceptible: body impressions and permanent set develop years ahead of schedule under IH loading. Latex comfort layers with elastic polymer cross-links recover fully from compression regardless of loading duration, making them the optimal IH comfort material. High-density foam (5+ lb/ft&sup3;) and pocketed coil bases also provide substantially better durability than standard-density foam under IH daily loading patterns.</div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-q">Should an idiopathic hypersomnia patient avoid memory foam mattresses?</div>
+    <div class="faq-a">Not entirely, but with specific cautions. Deep-conforming plush memory foam (10+ cm comfort layer, 3&ndash;4/10 firmness) is the most problematic for IH: it creates waking-safety issues during confusional arousal and accelerates compression set under extended daily loading. Medium-firm memory foam (6&ndash;7/10, 5&ndash;7 cm comfort layer, high-density 5+ lb/ft&sup3;) over a pocketed coil base with reinforced edge support is a workable configuration. The key problems to avoid are: deep sinkage that opposes the rising motion under motor impairment, soft perimeter edge collapse at the waking pivot point, and standard-density foam that develops permanent body impressions quickly under 14-hour daily loading. Latex comfort layers are preferred over memory foam for all three IH-specific durability and waking safety criteria simultaneously.</div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-q">What mattress features help idiopathic hypersomnia patients wake up more safely?</div>
+    <div class="faq-a">In priority order: (1) Medium-firm to firm surface (5.5&ndash;7.5/10) &mdash; responsive push-back surface that assists rather than resists the lying-to-sitting transition under impaired motor function; (2) Reinforced edge support &mdash; stable seated platform at the mattress perimeter that does not collapse under body weight during the confusional arousal pivot; pocketed coil perimeter, latex edge zones, or high-density foam walls; (3) Responsive comfort layer &mdash; latex and fast-response foam return to resting position as the body lifts, actively assisting the rising motion; deep memory foam creates enveloping resistance; (4) Appropriate height (10&ndash;14 inches total) &mdash; places the seated-at-edge knee angle at 90&ndash;100 degrees for most adult heights, the mechanically optimal angle for standing from seated without excessive hip flexor demand; (5) Stable base &mdash; platform or slatted base rather than soft box spring prevents mattress-top swaying during the seated pivot phase.</div>
+  </div>
+
+  <h2 id="related">Related Guides</h2>
+  <div class="related-guides">
+    <a href="best-mattress-narcolepsy.html">Best Mattress for Narcolepsy</a>
+    <a href="best-mattress-sleep-apnea.html">Best Mattress for Sleep Apnea</a>
+    <a href="best-mattress-fibromyalgia.html">Best Mattress for Fibromyalgia</a>
+    <a href="best-mattress-chronic-fatigue-syndrome.html">Best Mattress for Chronic Fatigue Syndrome</a>
+    <a href="best-mattress-back-pain.html">Best Mattress for Back Pain</a>
+    <a href="best-adjustable-base-mattress.html">Best Mattress for Adjustable Bases</a>
+  </div>
+</div>
+<footer>
+  <p>&copy; 2026 SleepWiseReviews. All rights reserved.</p>
+  <p style="margin-top:.5rem;font-size:.8rem">As an Amazon Associate we earn from qualifying purchases. All recommendations are independent &mdash; affiliate links never influence our picks.</p>
+</footer>
+</body>
+</html>"""
+
+with open(f"posts/{slug}.html", "w", encoding="utf-8") as f:
+    f.write(html)
+print(f"Generated posts/{slug}.html")

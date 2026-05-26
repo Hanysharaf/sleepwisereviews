@@ -1,0 +1,373 @@
+slug = "best-mattress-non24-sleep-disorder"
+title = "Best Mattress for Non-24-Hour Sleep-Wake Disorder"
+desc  = "7 picks for Non-24 &mdash; free-running circadian period longer than 24 hours, sleep phase drifts progressively later each day &mdash; common in totally blind individuals without light entrainment and rare in sighted people. Distinct from delayed sleep phase (stable but late), irregular sleep-wake, and shift work disorder."
+
+html = f"""<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Best Mattress for Non-24-Hour Sleep-Wake Disorder (2026) &mdash; 7 Picks | SleepWiseReviews</title>
+<meta name="description" content="Expert mattress picks for Non-24-Hour Sleep-Wake Disorder. Sleep occurs at variable and progressively shifting times including full daytime hours &mdash; mattress must support quality sleep regardless of ambient light level, minimize sensory disturbance during daytime sleep, and manage temperature across sleep occurring at all circadian phases. Distinct from delayed sleep phase, irregular sleep-wake, and shift work disorder.">
+<link rel="canonical" href="https://sleepwisereviews.com/posts/{slug}.html">
+<script type="application/ld+json">
+{{
+  "@context":"https://schema.org",
+  "@type":"Article",
+  "headline":"{title}",
+  "description":"Expert-reviewed mattress picks for Non-24-Hour Sleep-Wake Disorder (Non-24) &mdash; a circadian rhythm disorder in which the endogenous sleep-wake cycle runs longer than 24 hours, causing sleep timing to drift progressively later each day without anchoring to the light-dark cycle. Common in totally blind individuals with no light entrainment capacity and rare in sighted individuals. Sleep occurs at all hours including full daytime, requiring a mattress that supports quality sleep across ambient light, temperature, and noise conditions that vary with the time of day at sleep onset. Distinct from delayed sleep phase syndrome (stable but late), irregular sleep-wake rhythm disorder, and shift work sleep disorder.",
+  "author":{{"@type":"Organization","name":"SleepWiseReviews"}},
+  "publisher":{{"@type":"Organization","name":"SleepWiseReviews","logo":{{"@type":"ImageObject","url":"https://sleepwisereviews.com/assets/logo.png"}}}},
+  "datePublished":"2026-05-26",
+  "dateModified":"2026-05-26",
+  "mainEntityOfPage":{{"@type":"WebPage","@id":"https://sleepwisereviews.com/posts/{slug}.html"}}
+}}
+</script>
+<script type="application/ld+json">
+{{
+  "@context":"https://schema.org",
+  "@type":"BreadcrumbList",
+  "itemListElement":[
+    {{"@type":"ListItem","position":1,"name":"Home","item":"https://sleepwisereviews.com/"}},
+    {{"@type":"ListItem","position":2,"name":"Posts","item":"https://sleepwisereviews.com/posts/index.html"}},
+    {{"@type":"ListItem","position":3,"name":"{title}","item":"https://sleepwisereviews.com/posts/{slug}.html"}}
+  ]
+}}
+</script>
+<script type="application/ld+json">
+{{
+  "@context":"https://schema.org",
+  "@type":"ItemList",
+  "name":"{title}",
+  "itemListElement":[
+    {{"@type":"ListItem","position":1,"name":"Saatva Classic Hybrid","url":"https://www.amazon.com/s?k=Saatva+Classic+Hybrid+mattress&tag=sleepwiserevi-20"}},
+    {{"@type":"ListItem","position":2,"name":"Purple RestorePlus Hybrid","url":"https://www.amazon.com/s?k=Purple+RestorePlus+Hybrid+mattress&tag=sleepwiserevi-20"}},
+    {{"@type":"ListItem","position":3,"name":"Helix Midnight Luxe","url":"https://www.amazon.com/s?k=Helix+Midnight+Luxe+mattress&tag=sleepwiserevi-20"}},
+    {{"@type":"ListItem","position":4,"name":"Avocado Green Mattress","url":"https://www.amazon.com/s?k=Avocado+Green+mattress&tag=sleepwiserevi-20"}},
+    {{"@type":"ListItem","position":5,"name":"Bear Elite Hybrid","url":"https://www.amazon.com/s?k=Bear+Elite+Hybrid+mattress&tag=sleepwiserevi-20"}},
+    {{"@type":"ListItem","position":6,"name":"Birch Natural Mattress","url":"https://www.amazon.com/s?k=Birch+Natural+mattress&tag=sleepwiserevi-20"}},
+    {{"@type":"ListItem","position":7,"name":"Nest Bedding Sparrow Hybrid","url":"https://www.amazon.com/s?k=Nest+Bedding+Sparrow+Hybrid+mattress&tag=sleepwiserevi-20"}}
+  ]
+}}
+</script>
+<script type="application/ld+json">
+{{
+  "@context":"https://schema.org",
+  "@type":"FAQPage",
+  "mainEntity":[
+    {{
+      "@type":"Question",
+      "name":"What is Non-24-Hour Sleep-Wake Disorder and how is it different from delayed sleep phase syndrome?",
+      "acceptedAnswer":{{"@type":"Answer","text":"Non-24-Hour Sleep-Wake Disorder (Non-24) is a circadian rhythm disorder in which the internal biological clock runs on a cycle longer than 24 hours &mdash; typically 24.2 to 25 hours &mdash; and fails to synchronize (entrain) to the 24-hour environmental day. Because the internal clock is slightly longer than the day, sleep timing drifts progressively later each day. A person whose internal period is 24.5 hours will fall asleep 30 minutes later each day on average, cycling through all times of the day and night over the course of weeks. This is fundamentally different from delayed sleep phase syndrome (DSPS): DSPS is a stable misalignment &mdash; the person consistently sleeps late (e.g., 3 AM&ndash;11 AM) but their sleep timing does not continue drifting. In Non-24, sleep timing is never stable &mdash; it cycles continuously. Non-24 is most common in totally blind individuals who have no functioning retinohypothalamic tract (the pathway from retinal cells to the suprachiasmatic nucleus in the hypothalamus that uses light to reset the clock daily). Without this light signal, the internal clock free-runs at its natural period. Sighted Non-24 exists but is rare and less well understood. Non-24 is also distinct from irregular sleep-wake rhythm disorder (fragmented sleep with no discernible circadian structure) and shift work sleep disorder (externally imposed schedule misalignment with an intact circadian system). For mattress purposes, the critical distinction is that Non-24 sleep occurs at all hours including the middle of the day, meaning the mattress environment must support quality sleep across conditions of full daylight, afternoon heat, and morning noise &mdash; conditions that do not apply to stable delayed sleepers or shift workers with fixed schedules."}}
+    }},
+    {{
+      "@type":"Question",
+      "name":"Why does temperature management matter for Non-24 when sleep can occur at any time of day?",
+      "acceptedAnswer":{{"@type":"Answer","text":"Temperature is one of the primary signals the circadian system uses to regulate sleep. Core body temperature follows a circadian rhythm: it begins falling approximately 2 hours before habitual sleep onset, reaches its nadir around 4&ndash;5 AM in a conventional sleeper, and rises to drive morning waking. This thermoregulatory process &mdash; heat dissipation from the extremities and core cooling &mdash; is driven partly by the circadian system and partly by sleep pressure (adenosine accumulation). In Non-24, the circadian driver of thermoregulation is misaligned with clock time. When a Non-24 patient&rsquo;s sleep phase has drifted to a daytime window, they are attempting to sleep during the part of the day when ambient temperature is highest (typically 2&ndash;5 PM), their circadian thermoregulatory drive may be oriented toward waking rather than sleeping, and the bedroom is receiving solar heat gain through windows and walls. This creates a thermal conflict: the person needs core temperature to fall for sleep onset, but the environment is pushing temperature upward. A mattress that traps body heat &mdash; dense closed-cell memory foam &mdash; makes this conflict worse by adding a third heat source (accumulated body heat from the sleep surface) to the ambient and circadian thermal challenge. Mattresses with active heat dissipation (open-cell latex, pocketed coil airflow base, GelFlex polymer grid, organic wool quilting) reduce the surface thermal contribution and allow the body&rsquo;s thermoregulatory system to drive core temperature down regardless of what clock time and ambient temperature are doing. This is why thermal neutrality at the sleep surface is specifically important for Non-24 &mdash; more so than for conventional sleepers whose sleep coincides with the overnight temperature minimum."}}
+    }},
+    {{
+      "@type":"Question",
+      "name":"Does blackout capability depend on the mattress or is it separate from mattress choice for Non-24?",
+      "acceptedAnswer":{{"@type":"Answer","text":"Blackout (blocking ambient light from the sleep environment) is independent of mattress choice &mdash; it is achieved through blackout curtains, window film, door seals, and sleep mask use. The mattress cannot block light. However, mattress choice interacts with the daytime sleep environment in indirect ways that matter for Non-24 patients: (1) A mattress that allows heat accumulation during afternoon sleep creates a thermal wake signal that compounds with the light-driven wake signal &mdash; two simultaneous wake promoters that neither blackout curtains nor a sleep mask address. A thermally neutral mattress removes one of these two environmental wake drivers. (2) Motion isolation in the mattress reduces transmission of household vibrations and footstep impacts during daytime sleep, when household activity continues at normal levels. Partner movement is also more likely during daytime sleep periods (partners moving to and from work, children, other household members active). Pocketed coil hybrids with foam comfort layers provide substantially better motion isolation than interconnected innerspring systems. (3) For totally blind Non-24 patients, who rely entirely on non-photic entrainment cues (temperature, meal timing, social contact, melatonin therapy), the thermal state of the sleep environment has outsized importance as one of the few remaining circadian time cues available. A thermally chaotic sleep surface disrupts rather than supports the weak non-photic signal that totally blind individuals depend on. So while the mattress does not provide blackout function, it meaningfully supports or undermines the broader daytime sleep environment management strategy."}}
+    }},
+    {{
+      "@type":"Question",
+      "name":"What is the best mattress firmness for Non-24-Hour Sleep-Wake Disorder?",
+      "acceptedAnswer":{{"@type":"Answer","text":"Non-24 does not impose a specific firmness requirement in the way that spinal stenosis or hip bursitis does. The firmness recommendation follows from the secondary sleep quality needs that accompany free-running sleep timing: (1) For daytime sleep, medium to medium-firm (5&ndash;7/10) provides the best balance of pressure relief for sustained sleep and positional stability that supports staying asleep across the full required sleep period without position-change arousals. Very soft mattresses (3&ndash;4/10) create progressive discomfort during long sleep periods (8+ hours common in catch-up phases of the Non-24 cycle) as the body sinks deeper over time. (2) For side sleepers (the most common sleep position), medium (5&ndash;6/10) allows enough shoulder and hip sinkage to relieve pressure without bottoming out. For back sleepers, medium-firm (6&ndash;7/10) maintains lumbar support that prevents the low-back fatigue that can produce early waking. (3) The firmness-temperature interaction: firmer mattresses with pocketed coil bases allow more airflow under the body, helping maintain thermal neutrality during daytime sleep when ambient heat is highest. This makes a medium-firm hybrid a better choice for thermal management than a soft all-foam mattress that cups the body and traps heat. The overall recommendation is medium or medium-firm (5.5&ndash;7/10) for most Non-24 patients, with the specific value depending on body weight and preferred sleep position."}}
+    }},
+    {{
+      "@type":"Question",
+      "name":"How does Non-24 affect sleep quality beyond timing, and what mattress features address those effects?",
+      "acceptedAnswer":{{"@type":"Answer","text":"Non-24 affects sleep quality through several mechanisms beyond timing misalignment that have direct mattress implications: (1) Sleep fragmentation in the misaligned phase &mdash; when the internal clock is furthest from alignment with the desired sleep window, sleep is lighter, more fragmented, and easier to disrupt. Motion isolation in the mattress becomes important: household activity during daytime sleep (footsteps, doors, appliances) transmits through the floor and into the mattress; pocketed coil hybrids dampen this transmission better than interconnected innerspring systems. (2) Thermal dysregulation across the cycle &mdash; as sleep timing drifts across all 24 hours, the ambient and circadian thermal conditions at sleep onset vary continuously. A mattress with passive thermal buffering (organic wool quilting, open-cell latex, polymer grid) handles this variation better than a mattress that is calibrated to one thermal condition (e.g., optimal for overnight sleep but heat-trapping during afternoon sleep). (3) Extended sleep durations during recovery phases &mdash; Non-24 patients often experience extended recovery sleep (9&ndash;12+ hours) after periods of sleep deprivation from schedule conflict. A mattress that creates progressive pressure points during long sleep periods (dense memory foam softening asymmetrically under prolonged body contact) will drive position-change arousals that shorten and fragment the recovery sleep. Responsive support materials (latex, pocketed coils, Energex foam) maintain consistent pressure relief geometry through long sleep periods without progressive softening at the body contact zone."}}
+    }}
+  ]
+}}
+</script>
+<style>
+  :root{{--bg:#0a1628;--card:#111e33;--gold:#c9a84c;--text:#e8eaf0;--muted:#8892a4;--red:#dc2626}}
+  *{{box-sizing:border-box;margin:0;padding:0}}
+  body{{background:var(--bg);color:var(--text);font-family:'Segoe UI',sans-serif;line-height:1.7}}
+  header{{background:var(--card);padding:1rem 2rem;border-bottom:2px solid var(--gold)}}
+  header a{{color:var(--gold);text-decoration:none;font-weight:700;font-size:1.2rem}}
+  nav{{font-size:.85rem;margin-top:.3rem}}
+  nav a{{color:var(--muted);text-decoration:none}}
+  nav a:hover{{color:var(--gold)}}
+  .container{{max-width:860px;margin:0 auto;padding:2rem 1.5rem}}
+  h1{{font-size:2rem;color:var(--gold);margin-bottom:.5rem;line-height:1.3}}
+  .subtitle{{color:var(--muted);margin-bottom:2rem;font-size:1rem}}
+  .badge{{display:inline-block;background:var(--red);color:#fff;font-size:.75rem;padding:.2rem .6rem;border-radius:4px;margin-bottom:.8rem;font-weight:600;text-transform:uppercase;letter-spacing:.05em}}
+  .toc{{background:var(--card);border:1px solid #1e2d47;border-radius:8px;padding:1.2rem 1.5rem;margin-bottom:2rem}}
+  .toc h3{{color:var(--gold);font-size:.95rem;margin-bottom:.6rem}}
+  .toc ol{{padding-left:1.2rem}}
+  .toc li{{margin:.25rem 0}}
+  .toc a{{color:var(--muted);text-decoration:none;font-size:.9rem}}
+  .toc a:hover{{color:var(--gold)}}
+  .science-box{{background:#0d1f3a;border-left:4px solid var(--gold);border-radius:6px;padding:1.2rem 1.5rem;margin:2rem 0}}
+  .science-box h3{{color:var(--gold);margin-bottom:.8rem;font-size:1rem}}
+  .science-box ul{{padding-left:1.2rem}}
+  .science-box li{{margin:.35rem 0;font-size:.92rem;color:var(--text)}}
+  .warning-box{{background:#2d1515;border-left:4px solid #ef4444;border-radius:6px;padding:1rem 1.5rem;margin:1.5rem 0}}
+  .warning-box p{{font-size:.92rem;color:#fca5a5}}
+  .pick{{background:var(--card);border:1px solid #1e2d47;border-radius:10px;padding:1.5rem;margin:1.5rem 0}}
+  .pick-header{{display:flex;align-items:center;gap:.8rem;margin-bottom:1rem}}
+  .pick-num{{background:var(--gold);color:#0a1628;font-weight:700;border-radius:50%;width:32px;height:32px;display:flex;align-items:center;justify-content:center;flex-shrink:0;font-size:.95rem}}
+  .pick-name{{font-size:1.15rem;font-weight:700;color:var(--text)}}
+  .pick-tag{{font-size:.78rem;background:#1e2d47;color:var(--gold);padding:.15rem .5rem;border-radius:4px;margin-left:.4rem}}
+  .pick-specs{{display:flex;flex-wrap:wrap;gap:.5rem;margin-bottom:1rem}}
+  .spec{{background:#0d1f3a;border:1px solid #1e2d47;border-radius:4px;padding:.25rem .6rem;font-size:.8rem;color:var(--muted)}}
+  .hyper-key{{background:#0d2a1a;border:1px solid #166534;border-radius:4px;padding:.5rem .8rem;font-size:.85rem;color:#86efac;margin-bottom:.8rem}}
+  .cta-btn{{display:inline-block;background:var(--gold);color:#0a1628;font-weight:700;padding:.6rem 1.4rem;border-radius:6px;text-decoration:none;font-size:.9rem;transition:opacity .2s}}
+  .cta-btn:hover{{opacity:.85}}
+  .table-wrap{{overflow-x:auto;margin:1.5rem 0}}
+  table{{width:100%;border-collapse:collapse;font-size:.88rem}}
+  th{{background:#1e2d47;color:var(--gold);padding:.6rem .8rem;text-align:left}}
+  td{{padding:.55rem .8rem;border-bottom:1px solid #1e2d47;color:var(--text)}}
+  tr:nth-child(even) td{{background:#0d1a2e}}
+  h2{{font-size:1.35rem;color:var(--gold);margin:2rem 0 1rem}}
+  p{{margin:.6rem 0;font-size:.95rem}}
+  .faq-item{{margin:1.2rem 0}}
+  .faq-q{{font-weight:700;color:var(--gold);margin-bottom:.4rem}}
+  .faq-a{{font-size:.92rem;color:var(--text)}}
+  .related-guides{{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:1rem;margin-top:1rem}}
+  .related-guides a{{background:var(--card);border:1px solid #1e2d47;border-radius:8px;padding:.8rem 1rem;color:var(--muted);text-decoration:none;font-size:.88rem;transition:border-color .2s}}
+  .related-guides a:hover{{border-color:var(--gold);color:var(--gold)}}
+  footer{{background:var(--card);border-top:1px solid #1e2d47;padding:1.5rem 2rem;text-align:center;color:var(--muted);font-size:.85rem;margin-top:3rem}}
+  footer a{{color:var(--gold);text-decoration:none}}
+  @media(max-width:600px){{h1{{font-size:1.5rem}}.pick-header{{flex-wrap:wrap}}}}
+</style>
+</head>
+<body>
+<header>
+  <a href="/">SleepWiseReviews</a>
+  <nav><a href="/">Home</a> &rsaquo; <a href="/posts/index.html">All Posts</a> &rsaquo; Best Mattress for Non-24-Hour Sleep-Wake Disorder</nav>
+</header>
+<div class="container">
+  <div class="badge">Health Conditions</div>
+  <h1>{title}</h1>
+  <p class="subtitle">Free-running circadian period longer than 24 hours &mdash; sleep phase drifts progressively later each day, cycling through all hours of the day and night. Most common in totally blind individuals without light entrainment capacity. Sleep occurs at all clock times including full daytime, requiring a mattress that supports quality sleep regardless of ambient light, manages temperature across shifting sleep windows, and minimizes sensory disturbance during daytime sleep. Distinct from delayed sleep phase (stable but late), irregular sleep-wake rhythm disorder, and shift work sleep disorder.</p>
+
+  <div class="toc">
+    <h3>Contents</h3>
+    <ol>
+      <li><a href="#science">Non-24 and Sleep: The Clinical Picture</a></li>
+      <li><a href="#picks">7 Mattress Picks</a></li>
+      <li><a href="#comparison">Comparison Table</a></li>
+      <li><a href="#non24-guide">Non-24 Sleep Environment Guide</a></li>
+      <li><a href="#faq">FAQ</a></li>
+      <li><a href="#related">Related Guides</a></li>
+    </ol>
+  </div>
+
+  <div class="warning-box">
+    <p><strong>Clinical note:</strong> Non-24-Hour Sleep-Wake Disorder requires diagnosis by a sleep medicine physician or neurologist, typically using actigraphy over several weeks to document the free-running circadian period. FDA-approved treatment (tasimelteon / Hetlioz) is available for totally blind patients. This guide addresses mattress selection to support sleep quality across variable sleep timing &mdash; it does not treat the underlying circadian disorder. Do not modify any prescribed medication, melatonin regimen, or phototherapy protocol based on mattress changes without physician guidance.</p>
+  </div>
+
+  <div class="science-box" id="science">
+    <h3>Non-24-Hour Sleep-Wake Disorder and Sleep: The Clinical Picture</h3>
+    <ul>
+      <li><strong>What it is &mdash; and what it is not:</strong> Non-24-Hour Sleep-Wake Disorder (Non-24) is a circadian rhythm disorder in which the endogenous biological clock free-runs at a period longer than 24 hours &mdash; typically 24.2 to 25 hours &mdash; without synchronizing to the environmental day. Sleep timing drifts progressively later each day. Over weeks, a patient cycles through all hours, sleeping at midnight, then 2 AM, then 4 AM, then 6 AM, 8 AM, noon, and eventually returning through the overnight window. This cycling never stabilizes. Non-24 is not delayed sleep phase syndrome (DSPS, which is stable misalignment), not irregular sleep-wake rhythm disorder (which has no circadian structure at all), and not shift work sleep disorder (which involves an intact clock being forced to an external schedule). The disorder is most common in totally blind individuals because the retinohypothalamic tract &mdash; the pathway carrying light signals from specialized retinal ganglion cells to the suprachiasmatic nucleus of the hypothalamus &mdash; is non-functional or absent, removing the primary daily clock-resetting mechanism</li>
+      <li><strong>Free-running period and progressive drift mechanism:</strong> The suprachiasmatic nucleus (SCN) in the anterior hypothalamus is the primary mammalian circadian pacemaker. Its intrinsic period is approximately 24.2 hours in humans. In people with intact vision, daily light exposure through ipRGC melanopsin-containing retinal cells resets the SCN each morning, compressing the period to exactly 24 hours. In totally blind individuals and rare sighted Non-24 patients, this light-driven resetting is absent or insufficient, and the clock runs free at its natural ~24.2-hour period, causing the 10&ndash;15 minute daily sleep timing drift that accumulates into the characteristic cycling pattern observed on actigraphy</li>
+      <li><strong>Sleep quality across the circadian cycle:</strong> Sleep quality in Non-24 is not constant &mdash; it varies with the patient&rsquo;s current circadian phase alignment. When internal clock timing happens to align with a nighttime sleep window, sleep quality and duration are near-normal. When the internal clock has drifted to a daytime window, sleep is lighter, more fragmented, and shorter due to the competing circadian wake signal from the misaligned clock phase. During these daytime windows, the external environment adds further disruption: ambient light, household noise, and daytime heat all promote wakefulness and reduce the restorative depth of sleep</li>
+      <li><strong>Temperature management across variable sleep timing:</strong> Core body temperature follows a circadian rhythm that normally drives sleep onset through peripheral vasodilation and core cooling in the evening. In Non-24, this thermoregulatory drive is misaligned with clock time. When sleep occurs in the afternoon, the circadian system may be generating a wake-promoting thermal signal while ambient room temperature is at its daily peak (2&ndash;5 PM). A mattress that traps body heat compounds this thermal conflict with a third heat source. Thermally neutral or actively heat-dissipating mattresses (latex, pocketed coil, polymer grid) reduce the sleep-surface thermal contribution, making it easier for the body&rsquo;s thermoregulatory system to drive core cooling regardless of ambient and circadian thermal conditions</li>
+      <li><strong>Sensory disturbance during daytime sleep:</strong> When Non-24 sleep windows fall during daytime hours, the mattress motion isolation properties become more clinically relevant. Household activity continues at normal daytime levels &mdash; footsteps, appliances, traffic noise, and partner or family member movement all occur at frequency and intensity levels uncommon during conventional nighttime sleep. Motion transmitted through the floor and bed frame into the mattress disrupts lighter non-REM sleep stages. Pocketed coil hybrid mattresses with foam comfort layers dampen this structural-vibration transmission significantly more than interconnected innerspring systems</li>
+      <li><strong>Extended recovery sleep and progressive pressure points:</strong> Non-24 patients commonly experience periods of accumulated sleep debt when their internal clock phase makes nighttime sleep impossible or severely shortened for days at a time. Recovery sleep periods can extend to 10&ndash;14 hours. Dense memory foam mattresses develop progressive asymmetric softening under prolonged body contact &mdash; the impression deepens over hours, changing the pressure distribution at the shoulder, hip, and sacral zones and eventually generating discomfort that causes position-change arousals. Resilient materials (latex, pocketed coils, Energex foam) maintain consistent pressure-relief geometry through 12-hour sleep periods without developing cumulative impression depth</li>
+      <li><strong>Light environment and blackout &mdash; what the mattress does and does not address:</strong> Blackout curtains, window film, and sleep masks are the primary tools for managing ambient light during daytime sleep in Non-24. The mattress cannot block light and should not be selected on this criterion. However, the mattress contributes indirectly: a thermally neutral mattress removes one of the two main daytime wake-promoting environmental signals (heat), leaving only the light signal to be managed by blackout measures. A heat-trapping mattress adds a thermal wake driver on top of the ambient light signal, making daytime sleep harder to initiate and sustain even with full blackout</li>
+      <li><strong>Non-24 vs. delayed sleep phase, irregular sleep-wake, and shift work &mdash; mattress implications:</strong> Delayed sleep phase syndrome requires stable late-timing support but not variable timing management &mdash; mattress temperature at 3&ndash;5 AM is the relevant window, not the full 24-hour cycle. Irregular sleep-wake rhythm disorder has no predictable sleep window; the mattress must support brief, fragmented sleep episodes at any time. Shift work sleep disorder involves a normal circadian clock forced to an externally imposed schedule, typically with a known recurring sleep window (daytime after night shift); thermal management during that specific window is primary. Non-24 uniquely requires a mattress that performs well across all possible sleep timing windows because the sleep window cycles through all 24 hours, including mid-afternoon when thermal, light, and noise conditions are most challenging for sleep</li>
+    </ul>
+  </div>
+
+  <h2 id="picks">7 Best Mattresses for Non-24-Hour Sleep-Wake Disorder</h2>
+
+  <div class="pick">
+    <div class="pick-header">
+      <div class="pick-num">1</div>
+      <div class="pick-name">Saatva Classic Hybrid <span class="pick-tag">Best Overall for Variable-Timing Sleep</span></div>
+    </div>
+    <div class="hyper-key">Non-24 key: Dual-coil support system &mdash; pocketed comfort coils over tempered steel base coils &mdash; drives active airflow through the mattress at all sleep-onset times, preventing the heat accumulation that compounds daytime sleep difficulty when ambient temperature is highest. Euro pillow-top with organic cotton provides immediate surface comfort regardless of the time of day at sleep initiation. Motion isolation reduces transmission of household vibrations during daytime sleep. Three firmness options span the full range of body-weight and position needs for a population that includes varying demographics.</div>
+    <p>Non-24-Hour Sleep-Wake Disorder imposes a demand that no other circadian disorder requires: the mattress must support quality sleep when the sleep window falls at 2 AM and when it falls at 2 PM, and every hour in between. Most mattresses are implicitly calibrated to overnight sleep conditions &mdash; ambient temperatures of 65&ndash;72&deg;F, a dark and quiet environment, and a circadian system aligned toward sleep onset. For Non-24 patients, daytime sleep windows arrive with ambient temperatures of 75&ndash;85&deg;F in summer months, a fully active household, and a circadian system that may be generating a wake-promoting signal from its misaligned phase. The Saatva Classic Hybrid addresses the thermal dimension of this challenge through its dual-coil architecture: a layer of individually wrapped pocketed coils sits above a tempered steel Bonnell base, and the space between these two coil systems creates a continuous airflow channel that actively ventilates the sleep surface throughout the night or day. This convective airflow prevents the progressive heat dome that forms under dense foam mattresses when ambient temperature is high, making the Saatva Classic one of the few mattresses that maintains comfortable sleep-surface temperature during a 2 PM sleep window in an unconditioned bedroom. The Euro pillow-top is filled with organic cotton and CertiPUR-US certified foam that has completed its off-gassing period at the factory &mdash; no chemical residue buildup at the surface contact zone. The pocketed comfort coil layer also provides excellent motion isolation for its spring-based design: each coil responds to the weight directly above it without transferring lateral force to adjacent coils, dampening household vibration transmission that would otherwise disrupt light non-REM sleep during daytime windows. Available in Plush Soft (3/10), Luxury Firm (5.5/10), and Firm (8/10) to match the full range of Non-24 patient body weights and sleep positions.</p>
+    <div class="pick-specs">
+      <span class="spec">Dual coil: pocketed + tempered base &mdash; active airflow</span>
+      <span class="spec">Euro pillow-top: organic cotton surface</span>
+      <span class="spec">3 firmness options: 3/10, 5.5/10, 8/10</span>
+      <span class="spec">Motion isolation: household vibration dampening</span>
+    </div>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=Saatva+Classic+Hybrid+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+
+  <div class="pick">
+    <div class="pick-header">
+      <div class="pick-num">2</div>
+      <div class="pick-name">Purple RestorePlus Hybrid <span class="pick-tag">Best for Daytime Heat Management</span></div>
+    </div>
+    <div class="hyper-key">Non-24 key: GelFlex polymer grid is structurally open &mdash; air moves freely through the grid channels via convection during sleep at any ambient temperature. Grid mechanical properties are temperature-neutral: support geometry does not change whether the sleep window is 3 AM (65&deg;F ambient) or 3 PM (82&deg;F ambient). For Non-24 patients whose sleep occurs during the hottest part of the afternoon, the grid&rsquo;s passive thermal indifference is the single most important feature preventing a heat-driven wake signal from compounding the already-challenging daytime sleep environment.</div>
+    <p>The thermal problem of Non-24 daytime sleep has two components: ambient heat entering from outside and body heat accumulation at the mattress surface. Blackout curtains reduce solar gain but cannot fully eliminate the afternoon ambient heat that has entered the building through the day. A mattress that traps body heat at the surface adds to an already-elevated ambient temperature baseline, creating a compounded thermal environment that prevents the core body temperature drop required for sleep onset and maintenance. The Purple GelFlex polymer grid eliminates the mattress&rsquo;s contribution to this compounded thermal problem. The grid is a hyper-elastic polymer formed into a geometric lattice with large open channels between the grid walls. Air moves freely through these channels by convection &mdash; there is no closed cell structure trapping air and heat. This means the grid is passively temperature-neutral: it does not generate heat, does not trap heat, and does not change its support characteristics in response to body or ambient heat. For a Non-24 patient attempting to sleep at 2 PM in July, the Purple grid surface behaves thermally the same way it behaves at 2 AM in January. The pocketed coil base adds structural airflow beneath the grid and motion isolation from household activity. The GelFlex grid also provides a unique pressure-relief mechanism for long recovery sleep periods: its buckling columns collapse under high-pressure zones (shoulders, hips) and remain extended under low-pressure zones (lumbar, calves), distributing weight more evenly than foam that conforms progressively and asymmetrically over long sleep durations. This consistent pressure distribution reduces position-change arousals during the extended recovery sleep episodes that are common in Non-24 cycle phases where accumulated debt is being repaid.</p>
+    <div class="pick-specs">
+      <span class="spec">GelFlex grid: open-channel convective airflow</span>
+      <span class="spec">Temperature-neutral: no heat accumulation at any ambient temp</span>
+      <span class="spec">Pocketed coil: structural airflow + motion isolation</span>
+      <span class="spec">Consistent pressure relief during extended recovery sleep</span>
+    </div>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=Purple+RestorePlus+Hybrid+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+
+  <div class="pick">
+    <div class="pick-header">
+      <div class="pick-num">3</div>
+      <div class="pick-name">Helix Midnight Luxe <span class="pick-tag">Best for Motion Isolation During Daytime Sleep</span></div>
+    </div>
+    <div class="hyper-key">Non-24 key: Zoned pocketed coil system with individually wrapped coils provides industry-leading motion isolation for a hybrid mattress &mdash; critical for Non-24 daytime sleep when partners, children, and household members are active and moving. TENCEL Lyocell cover has excellent moisture-vapor transport for thermal management during afternoon sleep when ambient humidity is higher and sweat onset is faster. Softer shoulder zone allows sustained lateral sleeping without pressure-change arousals.</div>
+    <p>During nighttime sleep, household motion is minimal. During daytime Non-24 sleep, the household is fully active: partners leaving for work, children returning from school, appliances running, and delivery notifications. Each of these generates structural vibration that travels through the floor, the bed frame, and into the mattress, reaching the sleeper as micro-arousals that fragment light non-REM sleep and prevent the consolidated deep sleep and REM stages that are already compromised in the misaligned circadian phase. The Helix Midnight Luxe is built around motion isolation as a primary design criterion. Its zoned pocketed coil system uses individually wrapped coils in five distinct firmness zones &mdash; softer at the shoulder (where lateral-sleeping body weight is concentrated), medium at the torso, and firmer at the hip and lumbar. Each coil operates independently, meaning motion in one area of the mattress does not transfer laterally to adjacent zones. This independent response prevents the wave-transfer of household vibrations from the bed frame through the coil layer to the sleeper. The foam comfort layers above the coils provide an additional vibration-dampening buffer &mdash; two-stage isolation that performs substantially better than a conventional innerspring where all coils are connected by the helix wire and motion transfers across the entire surface. The TENCEL Lyocell cover is derived from eucalyptus cellulose and has a high moisture-vapor transmission rate: sweat produced during afternoon sleep (when both ambient temperature and the circadian thermoregulatory drive may be promoting wakefulness) is wicked away from the skin surface rapidly, preventing the evaporative cooling disruption that causes micro-arousals. The zoned coil also allows Non-24 patients who prefer side sleeping &mdash; the most common sleep position &mdash; to maintain the lateral position through long recovery sleep periods without shoulder pressure accumulation driving position changes.</p>
+    <div class="pick-specs">
+      <span class="spec">Zoned pocketed coils: independent response, motion isolation</span>
+      <span class="spec">TENCEL cover: moisture-wicking for afternoon sleep</span>
+      <span class="spec">5-zone support: softer shoulder, firmer lumbar/hip</span>
+      <span class="spec">Foam + coil: two-stage vibration dampening</span>
+    </div>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=Helix+Midnight+Luxe+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+
+  <div class="pick">
+    <div class="pick-header">
+      <div class="pick-num">4</div>
+      <div class="pick-name">Avocado Green Mattress <span class="pick-tag">Best Natural Materials for Full-Spectrum Sleep Support</span></div>
+    </div>
+    <div class="hyper-key">Non-24 key: GOLS organic latex + GOTS organic wool construction achieves passive thermal buffering through natural fiber physics &mdash; wool wicks moisture and moderates temperature swings without synthetic cooling agents that stop working once saturated. Latex open-cell structure allows continuous airflow. For totally blind Non-24 patients who rely on non-photic cues (temperature, melatonin, meals) for circadian regulation, a thermally stable sleep environment is a genuine circadian cue &mdash; not just a comfort factor. Zero synthetic polymer off-gassing avoids chemical wake signals at the sleep surface.</div>
+    <p>For totally blind Non-24 patients, temperature is one of the most important remaining non-photic circadian entrainment cues. Without light input to the suprachiasmatic nucleus, the circadian system must rely on temperature rhythms, meal timing, social contact, and exogenous melatonin as its primary time cues. A mattress that creates thermal chaos at the sleep surface &mdash; heat accumulation followed by sweating followed by evaporative cooling &mdash; introduces a noisy, inconsistent temperature signal at the one body-contact zone where temperature input is most concentrated. The Avocado Green Mattress&rsquo;s GOLS-certified organic latex core provides a passively stable thermal environment through the physics of open-cell latex foam: the cell walls are permeable to air, allowing continuous convective exchange of warm air from the body surface with cooler ambient air through the mattress core. The GOTS-certified organic New Zealand wool quilting layer adds a second thermal stabilization mechanism: wool fiber is hygroscopic, absorbing moisture into its fiber structure rather than allowing it to pool on the surface. This absorption prevents the sharp microclimate temperature drop from surface evaporation that triggers sweating-cooling oscillation cycles. The wool fiber also has a natural crimp structure that traps air pockets providing insulation against both heat gain (afternoon sleep) and heat loss (early morning winter sleep) &mdash; a bidirectional thermal buffer that performs correctly across the full 24-hour cycle of potential Non-24 sleep windows. GOLS certification requires testing for chemical residues, heavy metals, and synthetic polymer impurities in the latex &mdash; zero synthetic polymer content at any layer means no chemical wake signals at the sleep surface breathing zone. For totally blind patients managing Non-24 with melatonin or tasimelteon protocols, a stable, non-chemically-stimulating sleep environment supports rather than interferes with the pharmacological entrainment attempt.</p>
+    <div class="pick-specs">
+      <span class="spec">GOLS organic latex: open-cell airflow, passive thermal stability</span>
+      <span class="spec">GOTS organic wool: moisture absorption, bidirectional temp buffer</span>
+      <span class="spec">Zero synthetic polymer: no chemical wake signals</span>
+      <span class="spec">Adjustable base compatible: GOLS latex elasticity</span>
+    </div>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=Avocado+Green+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+
+  <div class="pick">
+    <div class="pick-header">
+      <div class="pick-num">5</div>
+      <div class="pick-name">Bear Elite Hybrid <span class="pick-tag">Best for Extended Recovery Sleep Periods</span></div>
+    </div>
+    <div class="hyper-key">Non-24 key: Energex foam comfort layer has latex-like resilience &mdash; it springs back to its original form after body-weight compression rather than developing progressive impression depth over time. During the 10&ndash;14 hour recovery sleep periods common in Non-24 debt-repayment phases, this resilience prevents the cumulative impression that builds under dense memory foam and drives position-change arousals after hours of sustained body contact. Copper-infused CertiPUR-US certified foam layers maintain lower surface temperature through copper&rsquo;s thermal conductivity.</div>
+    <p>Non-24 patients experience a characteristic cycle that includes phases of severe sleep deprivation: when the internal clock phase makes nighttime sleep impossible for several consecutive days, accumulated sleep debt reaches levels that require extended recovery sleep &mdash; often 10, 12, or even 14 hours &mdash; when the circadian phase finally realigns with a viable sleep window. Standard mattresses optimized for 7&ndash;8 hour sleep periods may create progressive discomfort during these extended recovery sessions that shortens and fragments the very recovery sleep the patient needs most. The specific mechanism is impression development in viscoelastic (memory) foam: dense memory foam cells deform under body weight and heat, softening and deepening the impression at the contact zone. Over the first 8 hours this may be imperceptible. Over hours 9&ndash;14, the impression has deepened asymmetrically under the heaviest contact zones &mdash; the shoulder and hip in lateral sleeping, the sacrum in supine &mdash; creating pressure concentration that generates pain and forces position changes, fragmenting sleep continuity at exactly the depth of recovery that Non-24 patients most need. The Bear Elite Hybrid&rsquo;s Energex foam comfort layer is a high-resilience open-cell foam with a rebound time closer to natural latex (under 1 second) than to memory foam (5&ndash;10 seconds). This rapid rebound means the foam returns to its original support geometry after body-weight compression rather than maintaining the deformed shape under sustained load. Over a 12-hour recovery sleep period, the support geometry under the shoulder and hip remains effectively constant &mdash; no cumulative impression, no progressive pressure concentration, no pain-driven position-change arousals. The copper infusion in the foam layers provides moderate thermal conductivity that draws accumulated surface heat away from the body contact zone, supporting sleep-surface temperature management during both daytime and overnight Non-24 sleep windows.</p>
+    <div class="pick-specs">
+      <span class="spec">Energex foam: latex-like resilience, no impression depth</span>
+      <span class="spec">Copper infusion: thermal conductivity, surface cooling</span>
+      <span class="spec">CertiPUR-US: VOC limits certified</span>
+      <span class="spec">Extended recovery sleep: consistent 12+ hour support</span>
+    </div>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=Bear+Elite+Hybrid+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+
+  <div class="pick">
+    <div class="pick-header">
+      <div class="pick-num">6</div>
+      <div class="pick-name">Birch Natural Mattress <span class="pick-tag">Best for Night-Sweating and Humidity Across All Sleep Windows</span></div>
+    </div>
+    <div class="hyper-key">Non-24 key: Organic New Zealand wool quilting provides passive thermal buffering across the full 24-hour temperature cycle &mdash; wool moderates both daytime heat accumulation (afternoon sleep) and nighttime heat loss (early morning winter sleep). Talalay latex open-cell structure allows continuous airflow. For Non-24 patients whose sleep windows cycle through all seasons at all times of day, a material that buffers thermal variation rather than amplifying it is more useful than phase-change cooling agents that perform only within a narrow temperature range.</div>
+    <p>Non-24 imposes a uniquely demanding thermal requirement: the mattress must manage body heat appropriately when sleep falls at 6 AM in December (cold, low ambient heat) and at 3 PM in August (hot, high ambient heat), and at every combination in between across the cycling sleep schedule. Materials with phase-change or gel cooling agents are engineered to work optimally within a specific temperature range &mdash; they absorb heat effectively when the material temperature reaches their phase-change threshold (typically 74&ndash;78&deg;F) and stop being effective when either too hot or too cold relative to that threshold. For Non-24 patients, the sleep surface temperature varies widely across different sleep-window positions in the cycle, making threshold-specific materials unreliable. Organic wool fiber operates through a different physical mechanism &mdash; hygroscopic moisture absorption rather than phase-change &mdash; and this mechanism functions across the full temperature range relevant to human sleep. In warm conditions, wool absorbs sweat vapor before it reaches the surface, preventing the evaporative cooling oscillation that drives thermal disruption. In cool conditions, wool&rsquo;s crimp-trapped air pockets provide insulation that moderates heat loss from the body surface. The Birch Natural Mattress pairs this wool quilting with Talalay latex, which is an open-cell foam structure that remains breathable regardless of ambient temperature &mdash; unlike memory foam that becomes denser and less breathable as it warms. The pocketed steel coil support base adds structural airflow that continues operating regardless of whether the ambient temperature is above or below the mattress surface temperature. GREENGUARD Gold certification provides third-party VOC testing, confirming low chemical emission levels at the sleep surface contact zone for totally blind Non-24 patients who may be particularly reliant on olfactory and chemical-sensitivity information given the absence of visual input.</p>
+    <div class="pick-specs">
+      <span class="spec">Organic NZ wool: hygroscopic buffering across full temp range</span>
+      <span class="spec">Talalay latex: open-cell airflow, temperature-independent</span>
+      <span class="spec">GREENGUARD Gold: third-party VOC testing</span>
+      <span class="spec">Pocketed coil: structural airflow in all ambient conditions</span>
+    </div>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=Birch+Natural+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+
+  <div class="pick">
+    <div class="pick-header">
+      <div class="pick-num">7</div>
+      <div class="pick-name">Nest Bedding Sparrow Hybrid <span class="pick-tag">Best Trial Period for Cycle-Based Evaluation</span></div>
+    </div>
+    <div class="hyper-key">Non-24 key: 365-night trial spans multiple complete Non-24 circadian cycles &mdash; a typical Non-24 patient cycles through all 24 hours of sleep-window positions over approximately 2&ndash;3 months. A 365-night window covers 4&ndash;6 complete cycles, allowing genuine evaluation of whether the mattress performs consistently across all cycle phases including the most difficult daytime windows. The Comfort+ flip layer allows post-delivery firmness adjustment if recovery sleep patterns or positional preferences change as circadian management evolves. CertiPUR-US certified foam for VOC safety.</div>
+    <p>Evaluating a mattress for Non-24 within a standard 90&ndash;100 night trial window is inherently limited: if the free-running period is approximately 24.5 hours, a 90-night trial covers roughly 45 complete days of drift &mdash; approximately 1.5 full cycles through all 24 hours of sleep-window positions. The patient&rsquo;s experience during the 90-night window depends heavily on which phase of the cycle they are in when they purchase the mattress. If they start during a nighttime-aligned phase and their cycle has them back in nighttime alignment 90 days later, they may rate the mattress well during the trial while having experienced only limited daytime window testing. The Nest Bedding Sparrow Hybrid&rsquo;s 365-night trial covers 4&ndash;6 complete Non-24 cycles for most patients, providing a genuinely representative evaluation window across the full range of sleep-window positions including the most challenging afternoon and late-morning phases. This is not a trivial distinction &mdash; for Non-24 patients, the 365-night window is the only trial period in the industry that is long enough to be clinically meaningful. The Comfort+ flippable top layer adds post-delivery flexibility: if the patient&rsquo;s Non-24 management evolves over the year (adding melatonin or tasimelteon therapy, changing sleep position preferences due to positional management strategies, or body weight changes from the sleep-schedule disruption common in Non-24), the mattress firmness can be changed from soft (4.5/10) to medium-firm (6.5/10) by unzipping the cover and flipping the comfort layer without return logistics. CertiPUR-US certified foam layers meet VOC limits testing at the sleep-surface contact zone. The pocketed coil base provides good edge support and motion isolation for daytime household-activity management.</p>
+    <div class="pick-specs">
+      <span class="spec">365-night trial: covers 4&ndash;6 complete Non-24 cycles</span>
+      <span class="spec">Comfort+ flip: 4.5/10 or 6.5/10 post-delivery</span>
+      <span class="spec">CertiPUR-US: VOC limits certified</span>
+      <span class="spec">Pocketed coil: motion isolation for daytime sleep</span>
+    </div>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=Nest+Bedding+Sparrow+Hybrid+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+
+  <h2 id="comparison">Comparison Table</h2>
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr><th>Mattress</th><th>Best For</th><th>Firmness</th><th>Trial</th><th>Price Range</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Saatva Classic Hybrid</td><td>Overall variable-timing sleep &mdash; dual coil airflow</td><td>Plush, Luxury Firm, or Firm (3&ndash;8/10)</td><td>365 nights</td><td>$$$</td></tr>
+        <tr><td>Purple RestorePlus Hybrid</td><td>Daytime heat management &mdash; open-grid thermal neutrality</td><td>Medium (5.5/10)</td><td>100 nights</td><td>$$$</td></tr>
+        <tr><td>Helix Midnight Luxe</td><td>Motion isolation during daytime household activity</td><td>Medium (5.5/10)</td><td>100 nights</td><td>$$$</td></tr>
+        <tr><td>Avocado Green Mattress</td><td>Natural thermal stability &mdash; totally blind Non-24 patients</td><td>Med or Med-Firm (5.5 or 7/10)</td><td>365 nights</td><td>$$$</td></tr>
+        <tr><td>Bear Elite Hybrid</td><td>Extended recovery sleep &mdash; resilient, no impression</td><td>Medium-Firm (6/10)</td><td>120 nights</td><td>$$$</td></tr>
+        <tr><td>Birch Natural Mattress</td><td>Night sweating + full-cycle temperature management</td><td>Medium (5.5/10)</td><td>100 nights</td><td>$$</td></tr>
+        <tr><td>Nest Bedding Sparrow Hybrid</td><td>365-night trial &mdash; full cycle evaluation window</td><td>Flip: 4.5 or 6.5/10</td><td>365 nights</td><td>$$</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2 id="non24-guide">Non-24 Sleep Environment Guide</h2>
+  <div class="table-wrap">
+    <table>
+      <thead>
+        <tr><th>Non-24 Sleep Factor</th><th>Mechanism</th><th>Mattress Requirement</th><th>Best Option</th><th>Avoid</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>Daytime Heat Management (afternoon sleep windows)</td><td>Ambient temperature peaks 2&ndash;5 PM; mattress heat accumulation adds to ambient heat, preventing the core body temperature drop required for sleep onset; circadian thermoregulatory drive may also be misaligned toward waking in the afternoon phase</td><td>Temperature-neutral or actively heat-dissipating mattress: open-cell latex, polymer grid, pocketed coil base with structural airflow &mdash; must perform across all ambient temperatures from 65&deg;F (overnight) to 85&deg;F (afternoon)</td><td>Purple RestorePlus (GelFlex grid, convective airflow); Birch Natural (organic wool + Talalay latex); Avocado Green (GOLS latex + GOTS wool)</td><td>Dense closed-cell memory foam that traps body heat; thick synthetic polyester pillow-tops with no airflow; all-foam mattresses without coil ventilation base</td></tr>
+        <tr><td>Motion Isolation for Daytime Household Activity</td><td>During daytime Non-24 sleep, household members are active (footsteps, appliances, children, partners); structural vibration transmits through floor and bed frame into mattress; Non-24 sleep in misaligned phase is already lighter and more fragmented, making it more susceptible to vibration-driven micro-arousals</td><td>Individually wrapped pocketed coil system with foam comfort layer above for two-stage vibration isolation; coils must operate independently without lateral force transfer; foam layer provides secondary damping buffer</td><td>Helix Midnight Luxe (zoned pocketed coils + foam buffer); Saatva Classic Hybrid (pocketed comfort coils); Bear Elite Hybrid (Energex foam + pocketed coil)</td><td>Interconnected Bonnell or offset innerspring systems with helix-wire connections transferring motion laterally; platform bed frames without slatted or box spring isolation layer</td></tr>
+        <tr><td>Extended Recovery Sleep (10&ndash;14 hours)</td><td>Non-24 patients accumulate sleep debt during misaligned phases when nighttime sleep is impossible or severely shortened; recovery sleep can extend 10&ndash;14 hours; dense memory foam develops progressive asymmetric impression under prolonged body contact, concentrating pressure at shoulder and hip contact zones and driving position-change arousals</td><td>Resilient, impression-resistant comfort layer: open-cell latex (GOLS organic or Talalay), high-resilience Energex foam, or polymer grid &mdash; must maintain consistent pressure relief geometry over 12+ hour sleep periods without progressive softening at body contact zones</td><td>Bear Elite Hybrid (Energex resilience); Purple RestorePlus (GelFlex consistent pressure distribution); Avocado Green (GOLS latex resilience)</td><td>Dense 4+ inch memory foam comfort layers that develop cumulative impression under prolonged body contact; ultra-soft (2&ndash;3/10) mattresses that allow body to sink progressively through a long sleep period</td></tr>
+        <tr><td>Non-Photic Circadian Cues (totally blind Non-24)</td><td>Totally blind Non-24 patients have no light entrainment; the circadian system relies on temperature, meal timing, and social contact as primary time cues; a thermally chaotic sleep surface (heat accumulation, sweating, evaporative cooling oscillation) introduces a noisy, inconsistent temperature signal at the body-contact zone where thermal cue reception is concentrated</td><td>Passively stable thermal environment: natural wool quilting for hygroscopic moisture buffering, open-cell latex for continuous airflow, zero synthetic polymer VOC emission &mdash; a stable thermal microclimate at the sleep surface supports rather than disrupts non-photic circadian cue consistency</td><td>Avocado Green (GOLS latex + GOTS wool &mdash; zero synthetic, stable thermal); Birch Natural (organic NZ wool + Talalay latex); Saatva Classic (organic cotton cover + coil airflow)</td><td>Synthetic gel cooling agents that are temperature-threshold-dependent and stop functioning outside their optimal range; dense foam mattresses that drive sweating-cooling oscillations; strong VOC emitters near the breathing zone</td></tr>
+        <tr><td>Full-Cycle Trial Window</td><td>Non-24 circadian cycles through all 24 hours over 2&ndash;3 months; a 90-100 night trial may cover only 1&ndash;1.5 full cycles; evaluation during a nighttime-aligned phase may miss the mattress&rsquo;s performance during the most challenging daytime windows; a genuine evaluation requires observation across 4&ndash;6 full cycles including multiple afternoon and late-morning sleep windows</td><td>365-night trial minimum for meaningful Non-24 evaluation; post-delivery firmness adjustment capability if management strategy changes over the evaluation year (melatonin therapy response, positional preferences, body weight changes)</td><td>Nest Bedding Sparrow (365 nights + Comfort+ flip layer); Saatva Classic (365 nights); Avocado Green (365 nights)</td><td>90&ndash;100 night trials that capture only 1&ndash;1.5 Non-24 cycles; non-returnable or non-exchangeable mattresses that cannot be adjusted as Non-24 management evolves</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <h2 id="faq">Frequently Asked Questions</h2>
+
+  <div class="faq-item">
+    <div class="faq-q">What is Non-24-Hour Sleep-Wake Disorder and how is it different from delayed sleep phase syndrome?</div>
+    <div class="faq-a">Non-24 is a circadian disorder in which the internal biological clock runs at a period longer than 24 hours (typically 24.2&ndash;25 hours) and fails to synchronize to the environmental day. Sleep timing drifts progressively later each day, cycling through all clock hours over weeks. This is distinct from delayed sleep phase syndrome (DSPS), which is a stable misalignment &mdash; the person consistently sleeps late but their timing does not continue drifting. In Non-24, sleep timing is never stable. Non-24 is most common in totally blind individuals whose retinohypothalamic light-signaling pathway to the suprachiasmatic nucleus is absent or non-functional. For mattress purposes, the critical distinction is that Non-24 sleep occurs at all hours including peak afternoon heat and full household-activity periods &mdash; conditions that do not apply to stable delayed sleepers or shift workers with fixed schedules.</div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-q">Why does temperature management matter more for Non-24 than for conventional sleep disorders?</div>
+    <div class="faq-a">Most sleep disorders occur at a stable (if misaligned) time, so a mattress optimized for one ambient temperature window performs adequately. Non-24 sleep cycles through all 24 hours, including the hottest afternoon hours when ambient temperature may exceed 80&deg;F and when the circadian thermoregulatory drive may be generating a wake-promoting signal rather than a sleep-promoting core cooling drive. A mattress that traps body heat adds to both of these thermal wake signals simultaneously. Temperature-neutral materials &mdash; open-cell latex, polymer grid, organic wool quilting, pocketed coil airflow base &mdash; reduce the mattress&rsquo;s thermal contribution across all possible sleep-onset times and ambient temperatures, which is the only approach that works reliably across the full Non-24 cycle.</div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-q">Does blackout capability depend on the mattress for Non-24 patients?</div>
+    <div class="faq-a">Blackout is achieved through curtains, window film, door seals, and sleep masks &mdash; not the mattress. However, the mattress interacts with the daytime sleep environment indirectly. A heat-trapping mattress adds a thermal wake signal on top of the ambient light wake signal, compounding the daytime sleep challenge. A thermally neutral mattress removes one of the two main daytime wake-promoting environmental stimuli, making the blackout measures more effective at their job. For totally blind Non-24 patients, who receive no light signal at all, thermal cues at the sleep surface take on greater relative importance as one of the few circadian input channels available &mdash; a stable thermal sleep environment supports rather than disrupts non-photic circadian management.</div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-q">What mattress firmness is best for Non-24-Hour Sleep-Wake Disorder?</div>
+    <div class="faq-a">Non-24 does not impose a condition-specific firmness requirement. The recommendation is medium to medium-firm (5.5&ndash;7/10) for most patients, based on secondary needs: sustained pressure relief for extended recovery sleep periods without progressive impression, thermal management through pocketed coil airflow (firmer coil systems ventilate better), and positional stability for side sleeping through long daytime sleep sessions. Very soft mattresses (3&ndash;4/10) allow progressive body sinkage over 10&ndash;14 hour recovery sessions, concentrating pressure at shoulder and hip zones and driving position-change arousals. Firmness within the recommended range should be selected by body weight and preferred sleep position using standard mattress guidance.</div>
+  </div>
+
+  <div class="faq-item">
+    <div class="faq-q">How does Non-24 affect sleep quality beyond timing, and what mattress features address those effects?</div>
+    <div class="faq-a">Beyond timing, Non-24 affects sleep quality through three mattress-relevant mechanisms: (1) Sleep fragmentation in the misaligned phase &mdash; sleep is lighter and more susceptible to vibration disruption during daytime windows; pocketed coil hybrids with foam comfort layers provide two-stage motion isolation from household activity. (2) Thermal dysregulation across the cycle &mdash; sleep onset temperature conditions vary from cold overnight to hot afternoon; passive thermal buffering materials (latex, wool, polymer grid) perform correctly across this full range, unlike threshold-specific cooling agents. (3) Extended recovery sleep &mdash; 10&ndash;14 hour recovery sessions create progressive pressure concentration in viscoelastic foam; resilient materials (Energex foam, GOLS latex, GelFlex grid) maintain consistent pressure relief geometry through long sleep periods without cumulative impression development.</div>
+  </div>
+
+  <h2 id="related">Related Guides</h2>
+  <div class="related-guides">
+    <a href="best-mattress-delayed-sleep-phase-syndrome.html">Best Mattress for Delayed Sleep Phase Syndrome</a>
+    <a href="best-mattress-shift-work-sleep-disorder.html">Best Mattress for Shift Work Sleep Disorder</a>
+    <a href="best-mattress-irregular-sleep-wake.html">Best Mattress for Irregular Sleep-Wake Rhythm</a>
+    <a href="best-mattress-sleep-apnea.html">Best Mattress for Sleep Apnea</a>
+    <a href="best-mattress-fibromyalgia.html">Best Mattress for Fibromyalgia</a>
+    <a href="best-mattress-menopause-night-sweats.html">Best Mattress for Menopause and Night Sweats</a>
+  </div>
+</div>
+<footer>
+  <p>&copy; 2026 SleepWiseReviews. All rights reserved.</p>
+  <p style="margin-top:.5rem;font-size:.8rem">As an Amazon Associate we earn from qualifying purchases. All recommendations are independent &mdash; affiliate links never influence our picks.</p>
+</footer>
+</body>
+</html>"""
+
+with open(f"posts/{slug}.html", "w", encoding="utf-8") as f:
+    f.write(html)
+print(f"Generated posts/{slug}.html")
