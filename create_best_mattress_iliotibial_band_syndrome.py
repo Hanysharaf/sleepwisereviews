@@ -1,0 +1,733 @@
+"""
+Creates posts/best-mattress-iliotibial-band-syndrome.html
+SleepWiseReviews affiliate post — IT band friction syndrome focus
+"""
+
+html = '''<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Best Mattress for IT Band Syndrome 2026: 7 Picks to Relieve Lateral Knee Pain</title>
+<meta name="description" content="IT band syndrome worsening overnight? The right mattress reduces lateral knee pressure and hip misalignment that keeps the iliotibial band under tension while you sleep. 7 expert picks reviewed.">
+<link rel="canonical" href="https://sleepwisereviews.com/posts/best-mattress-iliotibial-band-syndrome.html">
+<meta property="og:title" content="Best Mattress for IT Band Syndrome 2026: 7 Picks to Relieve Lateral Knee Pain">
+<meta property="og:description" content="IT band syndrome worsening overnight? The right mattress reduces lateral knee pressure and hip misalignment that keeps the iliotibial band under tension while you sleep. 7 expert picks reviewed.">
+<meta property="og:url" content="https://sleepwisereviews.com/posts/best-mattress-iliotibial-band-syndrome.html">
+<meta property="og:type" content="article">
+<meta property="og:image" content="https://sleepwisereviews.com/images/og-default.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Best Mattress for IT Band Syndrome 2026: 7 Picks to Relieve Lateral Knee Pain">
+<meta name="twitter:description" content="IT band syndrome worsening overnight? The right mattress reduces lateral knee pressure and hip misalignment that keeps the iliotibial band under tension.">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "headline": "Best Mattress for IT Band Syndrome 2026: 7 Picks to Relieve Lateral Knee Pain",
+      "description": "IT band syndrome worsening overnight? The right mattress reduces lateral knee pressure and hip misalignment that keeps the iliotibial band under tension while you sleep.",
+      "url": "https://sleepwisereviews.com/posts/best-mattress-iliotibial-band-syndrome.html",
+      "datePublished": "2026-05-26",
+      "dateModified": "2026-05-26",
+      "author": {"@type": "Organization", "name": "SleepWiseReviews"},
+      "publisher": {"@type": "Organization", "name": "SleepWiseReviews", "url": "https://sleepwisereviews.com"}
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://sleepwisereviews.com"},
+        {"@type": "ListItem", "position": 2, "name": "Health Conditions", "item": "https://sleepwisereviews.com/posts/index.html"},
+        {"@type": "ListItem", "position": 3, "name": "Best Mattress for IT Band Syndrome", "item": "https://sleepwisereviews.com/posts/best-mattress-iliotibial-band-syndrome.html"}
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "name": "Best Mattresses for IT Band Syndrome 2026",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Helix Midnight Luxe — Best Overall for IT Band Syndrome"},
+        {"@type": "ListItem", "position": 2, "name": "Saatva Classic (Luxury Firm) — Best for Hip Alignment"},
+        {"@type": "ListItem", "position": 3, "name": "Purple Restore Hybrid — Best Lateral Pressure Relief"},
+        {"@type": "ListItem", "position": 4, "name": "Casper Wave Hybrid — Best Zoned TFL Offloading"},
+        {"@type": "ListItem", "position": 5, "name": "WinkBed (Medium) — Best for Runners Over 180 lbs"},
+        {"@type": "ListItem", "position": 6, "name": "Amerisleep AS3 — Best Medium Foam for IT Band Recovery"},
+        {"@type": "ListItem", "position": 7, "name": "Nectar Premier Copper — Best Budget Hybrid for ITBS"}
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Can a mattress make IT band syndrome worse?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. A mattress that is too firm creates a lateral pressure peak at the greater trochanter and lateral knee when you sleep on your side, compressing the distal IT band against the lateral femoral epicondyle — the same friction mechanism that causes ITBS during running. A mattress that is too soft lets the hip drop excessively, rotating the femur internally and pulling the IT band tighter. The right firmness keeps the hip and knee in neutral alignment to minimize overnight tension."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What firmness mattress is best for IT band syndrome?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For most side sleepers with ITBS, a medium to medium-firm mattress (5–6.5 out of 10 firmness) works best. This range provides enough hip contouring to prevent lateral pressure peaks without allowing the hip to over-sink and internally rotate the femur. Heavier athletes (over 200 lbs) typically need a firm or medium-firm (6–7/10) to get adequate support without excessive sinkage."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Should I sleep on my side or back if I have IT band syndrome?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Back sleeping is generally better during acute ITBS flares because it keeps the hip in neutral and eliminates lateral knee pressure entirely. If you are a side sleeper, sleep on the non-affected side and place a firm pillow between your knees. This pillow prevents the top hip from adducting and internally rotating — the movement that tensions the IT band. The mattress should be firm enough to support the hip without excessive sinkage."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does a mattress topper help IT band syndrome?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "A 2–3 inch medium-density latex or memory foam topper can add contouring to a mattress that is too firm, reducing the lateral pressure peak at the knee and hip. However, a topper cannot fix a sagging mattress — if your mattress has a body impression deeper than 1 inch, the uneven surface will disrupt hip alignment regardless of what you place on top. Replace the mattress first."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is IT band syndrome different from other knee pain conditions when it comes to mattress choice?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, significantly. IT band syndrome is a lateral soft-tissue friction problem driven by hip adduction and internal femoral rotation — not a patellar (kneecap), cartilage, or arthritic condition. The mattress priorities are therefore different: ITBS requires lateral hip support and femoral rotation control, whereas patellar tendinopathy needs anterior pressure relief, and knee OA needs broad cushioning. A mattress suited to one condition is not automatically suited to another."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+<style>
+:root{--bg:#0a1628;--card:#111e33;--gold:#c9a84c;--text:#e8eaf0;--muted:#8892a4;--border:#1e2d45;--green:#2ecc71;--red:#e74c3c;--blue:#3498db}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:-apple-system,BlinkMacSystemFont,\'Segoe UI\',sans-serif;line-height:1.7}
+a{color:var(--gold);text-decoration:none}
+a:hover{text-decoration:underline}
+.container{max-width:860px;margin:0 auto;padding:0 20px}
+header{background:linear-gradient(135deg,#0a1628 0%,#111e33 100%);border-bottom:1px solid var(--border);padding:16px 0}
+.site-name{font-size:1.4rem;font-weight:700;color:var(--gold);letter-spacing:.5px}
+.breadcrumb{font-size:.8rem;color:var(--muted);margin-top:4px}
+.breadcrumb a{color:var(--muted)}
+.hero{padding:48px 0 32px}
+.badge{display:inline-block;background:rgba(201,168,76,.15);color:var(--gold);border:1px solid rgba(201,168,76,.3);border-radius:20px;padding:4px 14px;font-size:.75rem;font-weight:600;letter-spacing:.5px;text-transform:uppercase;margin-bottom:12px}
+.cat-badge{display:inline-block;border-radius:20px;padding:4px 14px;font-size:.75rem;font-weight:600;letter-spacing:.5px;text-transform:uppercase;color:#fff;margin-left:8px}
+h1{font-size:clamp(1.6rem,4vw,2.4rem);font-weight:800;line-height:1.2;margin-bottom:16px}
+.lead{font-size:1.05rem;color:var(--muted);margin-bottom:24px;max-width:700px}
+.update-bar{background:var(--card);border:1px solid var(--border);border-radius:8px;padding:10px 16px;font-size:.85rem;color:var(--muted);margin-bottom:32px}
+.update-bar strong{color:var(--text)}
+.toc{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:24px;margin-bottom:40px}
+.toc h3{font-size:1rem;color:var(--gold);margin-bottom:12px}
+.toc ol{padding-left:20px}
+.toc li{margin-bottom:6px;font-size:.9rem}
+.science-box{background:rgba(52,152,219,.08);border:1px solid rgba(52,152,219,.25);border-radius:12px;padding:24px;margin:32px 0}
+.science-box h3{color:var(--blue);margin-bottom:12px;font-size:1rem}
+.science-box p{font-size:.9rem;color:var(--muted);margin-bottom:8px}
+.science-box p:last-child{margin-bottom:0}
+.firmness-guide{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px;margin:28px 0}
+.firm-card{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:18px;text-align:center}
+.firm-score{font-size:2rem;font-weight:800;color:var(--gold);margin-bottom:4px}
+.firm-label{font-size:.85rem;font-weight:600;color:var(--text);margin-bottom:6px}
+.firm-who{font-size:.8rem;color:var(--muted)}
+.tip-box{background:rgba(46,204,113,.08);border:1px solid rgba(46,204,113,.25);border-radius:10px;padding:18px;margin:24px 0}
+.tip-box h4{color:var(--green);font-size:.9rem;margin-bottom:8px}
+.tip-box p{font-size:.85rem;color:var(--muted)}
+.warning-box{background:rgba(231,76,60,.08);border:1px solid rgba(231,76,60,.25);border-radius:10px;padding:18px;margin:24px 0}
+.warning-box h4{color:var(--red);font-size:.9rem;margin-bottom:8px}
+.warning-box p,.warning-box ul{font-size:.85rem;color:var(--muted)}
+.warning-box ul{padding-left:18px}
+.warning-box li{margin-bottom:4px}
+.product-card{background:var(--card);border:1px solid var(--border);border-radius:14px;padding:28px;margin-bottom:28px;position:relative}
+.rank-badge{position:absolute;top:20px;right:20px;background:var(--gold);color:#0a1628;font-size:.7rem;font-weight:800;padding:4px 10px;border-radius:20px;text-transform:uppercase;letter-spacing:.5px}
+.product-card h2{font-size:1.3rem;margin-bottom:4px;padding-right:80px}
+.award{font-size:.8rem;color:var(--gold);font-weight:600;margin-bottom:12px}
+.price-tag{font-size:.85rem;color:var(--muted);margin-bottom:14px}
+.price-tag strong{color:var(--text)}
+.specs-row{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:16px}
+.spec-chip{background:rgba(201,168,76,.1);border:1px solid rgba(201,168,76,.2);border-radius:20px;padding:4px 12px;font-size:.75rem;color:var(--gold)}
+.pca-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-bottom:20px}
+.pca-col h4{font-size:.8rem;font-weight:700;margin-bottom:8px;text-transform:uppercase;letter-spacing:.5px}
+.pros h4{color:var(--green)}
+.cons h4{color:var(--red)}
+.pca-col ul{list-style:none;padding:0}
+.pca-col li{font-size:.85rem;color:var(--muted);padding:4px 0;border-bottom:1px solid var(--border)}
+.pca-col li:last-child{border-bottom:none}
+.pros li::before{content:"+ ";color:var(--green);font-weight:700}
+.cons li::before{content:"- ";color:var(--red);font-weight:700}
+.verdict{background:rgba(201,168,76,.06);border:1px solid rgba(201,168,76,.15);border-radius:8px;padding:14px;margin-bottom:20px;font-size:.9rem;color:var(--muted)}
+.verdict strong{color:var(--gold)}
+.itb-reason{background:rgba(52,152,219,.06);border-left:3px solid var(--blue);padding:12px 16px;margin-bottom:20px;font-size:.85rem;color:var(--muted);border-radius:0 8px 8px 0}
+.itb-reason strong{color:var(--blue)}
+.cta-btn{display:inline-block;background:var(--gold);color:#0a1628;font-weight:700;font-size:.9rem;padding:12px 24px;border-radius:8px;margin-top:8px;transition:opacity .2s}
+.cta-btn:hover{opacity:.85;text-decoration:none}
+section{margin-bottom:48px}
+section h2{font-size:1.4rem;margin-bottom:20px;padding-bottom:10px;border-bottom:1px solid var(--border)}
+table{width:100%;border-collapse:collapse;font-size:.85rem;margin:24px 0}
+th{background:rgba(201,168,76,.12);color:var(--gold);font-weight:700;text-align:left;padding:10px 12px;border-bottom:2px solid var(--border)}
+td{padding:10px 12px;border-bottom:1px solid var(--border);color:var(--muted);vertical-align:top}
+tr:last-child td{border-bottom:none}
+tr:hover td{background:rgba(255,255,255,.02)}
+.quick-pick-table td:first-child{color:var(--text);font-weight:600}
+.faq-item{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:20px;margin-bottom:12px}
+.faq-item h3{font-size:1rem;margin-bottom:10px;color:var(--gold)}
+.faq-item p{font-size:.9rem;color:var(--muted)}
+.related-section{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:24px;margin-bottom:40px}
+.related-section h2{border-bottom:none;margin-bottom:16px;font-size:1.1rem}
+.related-links{list-style:none;padding:0}
+.related-links li{padding:8px 0;border-bottom:1px solid var(--border);font-size:.9rem}
+.related-links li:last-child{border-bottom:none}
+.related-links a{color:var(--gold)}
+footer{background:var(--card);border-top:1px solid var(--border);padding:32px 0;margin-top:60px;text-align:center;font-size:.85rem;color:var(--muted)}
+footer a{color:var(--muted)}
+.disclaimer{background:var(--card);border:1px solid var(--border);border-radius:8px;padding:16px;margin:40px 0;font-size:.8rem;color:var(--muted);line-height:1.5}
+@media(max-width:600px){.pca-grid{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header>
+<div class="container">
+<div class="site-name"><a href="/" style="color:var(--gold)">SleepWiseReviews</a></div>
+<div class="breadcrumb"><a href="/">Home</a> &rsaquo; <a href="/posts/index.html">All Reviews</a> &rsaquo; Best Mattress for IT Band Syndrome</div>
+</div>
+</header>
+
+<main class="container">
+<section class="hero">
+<div>
+  <span class="badge">Mattress Reviews</span>
+  <span class="cat-badge" style="background:#dc2626">Health</span>
+</div>
+<h1>Best Mattress for IT Band Syndrome 2026: 7 Picks to Relieve Lateral Knee Pain</h1>
+<p class="lead">IT band syndrome (ITBS) does not stop at the track. The wrong mattress keeps the iliotibial band under passive tension all night, compressing the lateral knee against a firm surface and amplifying the friction that caused the injury in the first place. These 7 mattresses are chosen specifically for lateral pressure relief and hip alignment control.</p>
+<div class="update-bar"><strong>Last updated:</strong> May 2026 &nbsp;|&nbsp; <strong>Mattresses reviewed:</strong> 7 picks &nbsp;|&nbsp; <strong>Condition focus:</strong> IT band friction syndrome (ITBS) &mdash; not patellar tendinopathy, knee OA, or general knee pain</div>
+</section>
+
+<div class="toc">
+<h3>Quick Navigation</h3>
+<ol>
+<li><a href="#science">The IT Band Friction Mechanism During Sleep</a></li>
+<li><a href="#firmness">Firmness Guide for ITBS</a></li>
+<li><a href="#picks">Our 7 Top Picks</a></li>
+<li><a href="#comparison">Full Comparison Table</a></li>
+<li><a href="#quickpick">Quick-Pick Table by Sleeper Type</a></li>
+<li><a href="#faq">Frequently Asked Questions</a></li>
+<li><a href="#related">Related Guides</a></li>
+</ol>
+</div>
+
+<section id="science">
+<h2>The IT Band Friction Mechanism During Sleep</h2>
+<p>The iliotibial band is a thick fibrous tract running from the tensor fasciae latae (TFL) and gluteus maximus at the hip, down the lateral thigh, to Gerdy\'s tubercle on the tibia. During running, the band repeatedly slides over the lateral femoral epicondyle between approximately 20&ndash;30 degrees of knee flexion &mdash; the impingement zone. This repeated friction or compression of the underlying fat pad and bursa produces the characteristic burning lateral knee pain of ITBS.</p>
+<p>Sleep compounds the injury through three mechanisms that most guides overlook:</p>
+
+<div class="science-box">
+<h3>Clinical Science: How Your Mattress Affects IT Band Tension</h3>
+<p><strong>1. Lateral knee pressure in side sleeping.</strong> When a side sleeper lies on the affected leg, the lateral femoral epicondyle and surrounding soft tissue bear compressive load from the mattress surface. On a mattress that is too firm, this creates a concentrated pressure peak directly over the distal IT band insertion zone &mdash; mechanically similar to the impingement mechanism during running. Studies on lateral decubitus pressure mapping show peak pressures at the greater trochanter and knee can reach 60&ndash;80 mmHg on firm surfaces, well above the 32 mmHg capillary closing pressure threshold associated with tissue ischemia and pain.</p>
+<p><strong>2. Hip adduction and internal femoral rotation from mattress sag.</strong> The iliotibial band tightens when the hip adducts (drops toward the midline) and the femur internally rotates. These are the same biomechanical positions that load the IT band during running. On a mattress that is too soft, the greater trochanter sinks deeper than the waist, causing passive hip adduction throughout the night. This places the TFL and IT band in a stretched, tensioned state for hours &mdash; not enough to cause acute injury but enough to maintain the chronic inflammatory cycle and delay recovery.</p>
+<p><strong>3. TFL tension patterns from sustained hip flexion.</strong> Most side sleepers sleep with hips partially flexed (30&ndash;60 degrees). The TFL, which originates on the anterior superior iliac spine, is a hip flexor as well as an abductor. In prolonged hip flexion, the TFL remains under eccentric load, transmitting tension down through the IT band to the lateral knee. A mattress that does not support the lumbar and pelvic region adequately forces the TFL to work harder to stabilize the hip, sustaining tension throughout the sleep cycle.</p>
+</div>
+
+<div class="warning-box">
+<h4>This Is Not General Knee Pain &mdash; The Target Is Different</h4>
+<ul>
+<li><strong>ITBS</strong>: lateral soft-tissue friction at the distal IT band. Priority: reduce lateral knee pressure, control hip adduction/internal rotation.</li>
+<li><strong>Patellar tendinopathy</strong>: anterior tendon load. Different mechanism, different mattress priorities.</li>
+<li><strong>Knee osteoarthritis</strong>: cartilage and joint load. Broad cushioning, not lateral pressure control.</li>
+<li><strong>General knee pain</strong>: non-specific. ITBS requires targeted hip alignment &mdash; not just "soft mattress".</li>
+</ul>
+</div>
+</section>
+
+<section id="firmness">
+<h2>Firmness Guide for IT Band Syndrome</h2>
+<p>ITBS creates two competing firmness risks. Too firm produces lateral pressure peaks at the knee. Too soft causes hip adduction and IT band tension. The optimal range is narrower than for general knee pain:</p>
+
+<div class="firmness-guide">
+<div class="firm-card">
+<div class="firm-score">5&ndash;6/10</div>
+<div class="firm-label">Medium</div>
+<div class="firm-who">Side sleepers 130&ndash;200 lbs. Best balance of lateral pressure relief and hip-neutral support.</div>
+</div>
+<div class="firm-card">
+<div class="firm-score">6&ndash;7/10</div>
+<div class="firm-label">Medium-Firm</div>
+<div class="firm-who">Side sleepers &gt;200 lbs, runners with dense muscle mass. Prevents hip sinkage without lateral compression.</div>
+</div>
+<div class="firm-card">
+<div class="firm-score">5.5&ndash;6.5/10</div>
+<div class="firm-label">Medium to Medium-Firm</div>
+<div class="firm-who">Back sleepers with ITBS. Spine neutral, hip neutral &mdash; lowest overnight IT band tension of any position.</div>
+</div>
+<div class="firm-card">
+<div class="firm-score">6&ndash;7/10</div>
+<div class="firm-label">Medium-Firm</div>
+<div class="firm-who">Combination sleepers. Responsive coils or latex allow position changes without disturbing hip alignment on transition.</div>
+</div>
+</div>
+
+<div class="tip-box">
+<h4>The Pillow-Between-Knees Protocol</h4>
+<p>Regardless of mattress choice, side sleepers with ITBS should place a firm pillow between the knees. This prevents the top hip from adducting into internal rotation &mdash; the position that tensions the IT band. A stacked pillow that is too thick creates the opposite problem (excessive hip abduction pulling the TFL laterally). A single standard pillow at knee height is the clinical recommendation.</p>
+</div>
+</section>
+
+<section id="picks">
+<h2>Our 7 Best Mattresses for IT Band Syndrome</h2>
+
+<!-- Product 1 -->
+<div class="product-card">
+<div class="rank-badge">#1 Best Overall</div>
+<h2>Helix Midnight Luxe</h2>
+<div class="award">Best Overall Mattress for IT Band Syndrome</div>
+<p class="price-tag">Price: <strong>~$1,749 Queen</strong> &nbsp;|&nbsp; Firmness: 5/10 (Medium)</p>
+<div class="specs-row">
+<span class="spec-chip">Zoned Lumbar Support</span>
+<span class="spec-chip">Helix Dynamic Foam</span>
+<span class="spec-chip">Pillow Top Layer</span>
+<span class="spec-chip">100-Night Trial</span>
+<span class="spec-chip">TENCEL Cover</span>
+</div>
+<div class="itb-reason"><strong>IT Band Reason:</strong> The zoned coil system is firmer under the hips and softer under the shoulders and knees &mdash; exactly the profile ITBS requires. The hip zone prevents the greater trochanter from sinking into hip adduction, while the softer knee zone reduces lateral femoral epicondyle pressure from mattress contact. This is the only mattress in this price range with dedicated zoned support mapped to the lateral knee impingement zone.</div>
+<div class="pca-grid">
+<div class="pca-col pros">
+<h4>Pros</h4>
+<ul>
+<li>Zoned coils: firmer at hip, softer at shoulder and knee</li>
+<li>Memory foam pillow top contours lateral knee without firm pressure</li>
+<li>Prevents hip adduction sinkage that tensions IT band</li>
+<li>TENCEL cover stays cool &mdash; reduces inflammation-linked night sweats</li>
+<li>100-night trial with free returns</li>
+</ul>
+</div>
+<div class="pca-col cons">
+<h4>Cons</h4>
+<ul>
+<li>Premium price point</li>
+<li>Medium firmness may feel too soft for ITBS runners over 220 lbs</li>
+<li>Some off-gassing in first 48 hours</li>
+</ul>
+</div>
+</div>
+<div class="verdict"><strong>Verdict:</strong> The Helix Midnight Luxe earns the top spot because its zoned support architecture directly addresses both ITBS failure modes: it prevents the hip from sinking into adduction and softens the zone around the lateral knee. No other pick in this list does both in a single mattress at this price level.</div>
+<a class="cta-btn" href="https://www.amazon.com/s?k=Helix+Midnight+Luxe+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</div>
+
+<!-- Product 2 -->
+<div class="product-card">
+<div class="rank-badge">#2 Hip Alignment</div>
+<h2>Saatva Classic (Luxury Firm)</h2>
+<div class="award">Best for Hip Alignment and IT Band Tension Control</div>
+<p class="price-tag">Price: <strong>~$1,695 Queen</strong> &nbsp;|&nbsp; Firmness: 6/10 (Luxury Firm)</p>
+<div class="specs-row">
+<span class="spec-chip">Lumbar Zone Technology</span>
+<span class="spec-chip">Dual Coil System</span>
+<span class="spec-chip">Euro Pillow Top</span>
+<span class="spec-chip">365-Night Trial</span>
+<span class="spec-chip">White Glove Delivery</span>
+</div>
+<div class="itb-reason"><strong>IT Band Reason:</strong> The Saatva\'s lumbar zone technology uses firmer coils in the center third of the mattress, which directly supports the pelvis and prevents the hip drop that leads to passive IT band tension. The euro pillow top adds surface softness to relieve lateral knee contact pressure without compromising the pelvic support underneath. Best choice for runners who sleep on their backs or combination sleep.</div>
+<div class="pca-grid">
+<div class="pca-col pros">
+<h4>Pros</h4>
+<ul>
+<li>Reinforced lumbar zone keeps pelvis level, minimizing IT band tension</li>
+<li>Euro pillow top reduces lateral surface pressure at knee contact points</li>
+<li>Dual coil system: responsive and motion-isolating</li>
+<li>365-night trial &mdash; longest in industry</li>
+<li>White glove delivery and old mattress removal included</li>
+</ul>
+</div>
+<div class="pca-col cons">
+<h4>Cons</h4>
+<ul>
+<li>Not available on Amazon &mdash; direct order only</li>
+<li>Heavy and difficult to move without help</li>
+<li>Luxury Firm may be too firm for petite side sleepers under 130 lbs</li>
+</ul>
+</div>
+</div>
+<div class="verdict"><strong>Verdict:</strong> The Saatva Classic Luxury Firm is the best choice for ITBS runners who sleep on their back or who switch positions through the night. The lumbar zone keeps the pelvis in neutral through all positions, and the euro top handles the contact softness need without sacrificing support.</div>
+<a class="cta-btn" href="https://www.amazon.com/s?k=Saatva+Classic+Luxury+Firm+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</div>
+
+<!-- Product 3 -->
+<div class="product-card">
+<div class="rank-badge">#3 Lateral Pressure</div>
+<h2>Purple Restore Hybrid</h2>
+<div class="award">Best Lateral Pressure Relief for Lateral Knee Contact</div>
+<p class="price-tag">Price: <strong>~$1,999 Queen</strong> &nbsp;|&nbsp; Firmness: 5/10 (Medium)</p>
+<div class="specs-row">
+<span class="spec-chip">Purple Grid Technology</span>
+<span class="spec-chip">Responsive Coils</span>
+<span class="spec-chip">No Foam Comfort Layer</span>
+<span class="spec-chip">100-Night Trial</span>
+<span class="spec-chip">Temperature Neutral</span>
+</div>
+<div class="itb-reason"><strong>IT Band Reason:</strong> Purple\'s GelFlex Grid is the only comfort material that simultaneously reduces peak pressure and maintains a firm base under load. When the lateral knee makes contact with the surface, the grid columns in that region buckle locally, dramatically lowering pressure at the contact point, while adjacent grid columns remain firm and support the surrounding tissue. This is mechanically ideal for ITBS: local lateral knee decompression without triggering the hip adduction that an overall soft mattress would cause.</div>
+<div class="pca-grid">
+<div class="pca-col pros">
+<h4>Pros</h4>
+<ul>
+<li>GelFlex Grid produces the lowest lateral knee pressure of any pick here</li>
+<li>No foam &mdash; no heat retention or body impression over time</li>
+<li>Responsive coils maintain hip-neutral base support</li>
+<li>Excellent for hot sleepers and athletes</li>
+<li>Adapts dynamically to lateral contact without overall softening</li>
+</ul>
+</div>
+<div class="pca-col cons">
+<h4>Cons</h4>
+<ul>
+<li>Highest price in this list</li>
+<li>Grid feel is unusual &mdash; takes adjustment period</li>
+<li>Heavier than standard hybrid</li>
+</ul>
+</div>
+</div>
+<div class="verdict"><strong>Verdict:</strong> If lateral knee pressure is the primary ITBS complaint at night, the Purple Restore Hybrid is the most targeted solution available. The grid technology is clinically distinctive: it offloads the contact point without making the base surface compliant. High price is the only real barrier.</div>
+<a class="cta-btn" href="https://www.amazon.com/s?k=Purple+Restore+Hybrid+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</div>
+
+<!-- Product 4 -->
+<div class="product-card">
+<div class="rank-badge">#4 TFL Offloading</div>
+<h2>Casper Wave Hybrid</h2>
+<div class="award">Best Zoned TFL and Hip Offloading</div>
+<p class="price-tag">Price: <strong>~$2,295 Queen</strong> &nbsp;|&nbsp; Firmness: 5.5/10 (Medium)</p>
+<div class="specs-row">
+<span class="spec-chip">7-Zone Ergonomic Design</span>
+<span class="spec-chip">AirScape Foam</span>
+<span class="spec-chip">Zoned Coil Base</span>
+<span class="spec-chip">100-Night Trial</span>
+<span class="spec-chip">Snow Technology Option</span>
+</div>
+<div class="itb-reason"><strong>IT Band Reason:</strong> The Casper Wave uses a 7-zone ergonomic system with a specifically softer zone at the shoulder and a firmer zone under the hip and waist. This directly opposes the hip sinkage mechanism of ITBS: the firmer hip zone keeps the greater trochanter elevated relative to the waist, reducing femoral adduction and internal rotation. The waist zone&#39;s moderate firmness also reduces TFL eccentric load by supporting the lumbar-pelvic complex in a more neutral position during side sleep.</div>
+<div class="pca-grid">
+<div class="pca-col pros">
+<h4>Pros</h4>
+<ul>
+<li>7-zone system targets hip and lumbar support where ITBS needs it most</li>
+<li>Firmer hip zone directly resists hip adduction sinkage</li>
+<li>AirScape foam keeps the surface breathable for athlete body temperatures</li>
+<li>Strong motion isolation for partner sharing</li>
+<li>Snow Technology version available for hot sleepers</li>
+</ul>
+</div>
+<div class="pca-col cons">
+<h4>Cons</h4>
+<ul>
+<li>Most expensive mattress in this list</li>
+<li>Firmer hip zone may feel restrictive to some side sleepers initially</li>
+<li>Shorter trial than Saatva</li>
+</ul>
+</div>
+</div>
+<div class="verdict"><strong>Verdict:</strong> The Casper Wave Hybrid is the strongest choice for ITBS driven by TFL tension and hip flexor overload &mdash; common in runners who also sit long hours at a desk. The 7-zone system is the most anatomically targeted in this list. The price is steep but reflects genuine engineering for hip-neutral sleep.</div>
+<a class="cta-btn" href="https://www.amazon.com/s?k=Casper+Wave+Hybrid+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</div>
+
+<!-- Product 5 -->
+<div class="product-card">
+<div class="rank-badge">#5 Runners 180+ lbs</div>
+<h2>WinkBed (Medium)</h2>
+<div class="award">Best for Runners and Athletes Over 180 lbs</div>
+<p class="price-tag">Price: <strong>~$1,299 Queen</strong> &nbsp;|&nbsp; Firmness: 5.5/10 (Medium)</p>
+<div class="specs-row">
+<span class="spec-chip">Tencel Blend Cover</span>
+<span class="spec-chip">Lumbar Pad Layer</span>
+<span class="spec-chip">Responsive Coil Base</span>
+<span class="spec-chip">120-Night Trial</span>
+<span class="spec-chip">Lifetime Warranty</span>
+</div>
+<div class="itb-reason"><strong>IT Band Reason:</strong> Heavier runners generate more lateral force when side sleeping, increasing both the hip adduction risk and the lateral knee pressure peak. The WinkBed Medium uses a specifically reinforced lumbar pad layer that prevents pelvic drop for sleepers in the 180&ndash;250 lb range &mdash; a body weight where most medium mattresses begin to fail for ITBS control. The Euro-style pillow top then handles lateral contact softness without undermining the base support.</div>
+<div class="pca-grid">
+<div class="pca-col pros">
+<h4>Pros</h4>
+<ul>
+<li>Reinforced lumbar pad prevents pelvic drop in heavier runners</li>
+<li>Medium firmness balances hip support and lateral knee pressure relief</li>
+<li>120-night trial &mdash; longer than most in this price range</li>
+<li>Lifetime warranty</li>
+<li>Good edge support for getting in/out of bed post-run</li>
+</ul>
+</div>
+<div class="pca-col cons">
+<h4>Cons</h4>
+<ul>
+<li>Less zoning precision than Helix Midnight Luxe or Casper Wave</li>
+<li>Medium may be borderline for runners over 250 lbs (consider WinkBed Firmer)</li>
+<li>Not widely available in retail stores for in-person testing</li>
+</ul>
+</div>
+</div>
+<div class="verdict"><strong>Verdict:</strong> The WinkBed Medium fills a gap for athletic side sleepers in the 180&ndash;250 lb range who find standard medium mattresses too soft for ITBS hip alignment control. The lumbar pad is the key differentiator at this price point. Lifetime warranty adds long-term value for a mattress likely to see heavy use.</div>
+<a class="cta-btn" href="https://www.amazon.com/s?k=WinkBed+Medium+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</div>
+
+<!-- Product 6 -->
+<div class="product-card">
+<div class="rank-badge">#6 Recovery Foam</div>
+<h2>Amerisleep AS3</h2>
+<div class="award">Best Medium Foam Mattress for IT Band Recovery</div>
+<p class="price-tag">Price: <strong>~$1,049 Queen</strong> &nbsp;|&nbsp; Firmness: 5/10 (Medium)</p>
+<div class="specs-row">
+<span class="spec-chip">Bio-Pur Foam</span>
+<span class="spec-chip">HIVE Technology Zones</span>
+<span class="spec-chip">Affinity Layer</span>
+<span class="spec-chip">100-Night Trial</span>
+<span class="spec-chip">CertiPUR-US Certified</span>
+</div>
+<div class="itb-reason"><strong>IT Band Reason:</strong> The AS3&#39;s HIVE technology uses hexagonal cutouts that create softer zones under the shoulder and knee and firmer zones under the lumbar and hip. This is a foam-only implementation of the zoned support concept. For ITBS sufferers who prefer the deep contouring of foam over the springiness of hybrid coils, the AS3 provides meaningful hip-zone firmness differentiation without the motion-amplifying spring feel that can disturb inflamed lateral knee tissue on position changes.</div>
+<div class="pca-grid">
+<div class="pca-col pros">
+<h4>Pros</h4>
+<ul>
+<li>HIVE zones create differentiated firmness: firm at hip, soft at knee</li>
+<li>Foam deep-contours around lateral knee contact without pressure spikes</li>
+<li>Bio-Pur open-cell foam sleeps cooler than traditional memory foam</li>
+<li>Best price-to-zoning ratio in this list</li>
+<li>CertiPUR-US certified &mdash; no harmful chemicals</li>
+</ul>
+</div>
+<div class="pca-col cons">
+<h4>Cons</h4>
+<ul>
+<li>No coils &mdash; less responsive than hybrids for combination sleepers</li>
+<li>May sleep warm for very hot athletes despite open-cell foam</li>
+<li>Hip support less robust for sleepers over 220 lbs</li>
+</ul>
+</div>
+</div>
+<div class="verdict"><strong>Verdict:</strong> The Amerisleep AS3 is the best all-foam pick for ITBS and the only one with meaningful zoned support at under $1,100. HIVE technology makes it more than a standard foam mattress. Ideal for side sleepers under 200 lbs who want foam contouring over spring responsiveness during an active IT band recovery period.</div>
+<a class="cta-btn" href="https://www.amazon.com/s?k=Amerisleep+AS3+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</div>
+
+<!-- Product 7 -->
+<div class="product-card">
+<div class="rank-badge">#7 Best Budget</div>
+<h2>Nectar Premier Copper</h2>
+<div class="award">Best Budget Hybrid for IT Band Syndrome</div>
+<p class="price-tag">Price: <strong>~$899 Queen</strong> &nbsp;|&nbsp; Firmness: 5/10 (Medium)</p>
+<div class="specs-row">
+<span class="spec-chip">Copper-Infused Foam</span>
+<span class="spec-chip">Adaptive Hi Core Foam</span>
+<span class="spec-chip">Pocketed Coils</span>
+<span class="spec-chip">365-Night Trial</span>
+<span class="spec-chip">Forever Warranty</span>
+</div>
+<div class="itb-reason"><strong>IT Band Reason:</strong> The Nectar Premier Copper is the most affordable hybrid that reliably prevents the excessive hip sinkage that drives overnight IT band tension. The pocketed coil base provides firm pelvic support, while the copper-infused foam comfort layer reduces surface temperature at points of contact &mdash; relevant because localized heat at the lateral knee has been associated with sustained inflammatory signaling in chronic ITBS. The 365-night trial is exceptional for the price and allows a full IT band recovery cycle to evaluate fit.</div>
+<div class="pca-grid">
+<div class="pca-col pros">
+<h4>Pros</h4>
+<ul>
+<li>Pocketed coils prevent hip sinkage and IT band tension on a budget</li>
+<li>Copper-infused foam reduces localized heat at lateral knee contact</li>
+<li>365-night trial &mdash; matches Saatva at half the price</li>
+<li>Forever warranty</li>
+<li>Medium firmness works for most side sleepers under 200 lbs</li>
+</ul>
+</div>
+<div class="pca-col cons">
+<h4>Cons</h4>
+<ul>
+<li>No zoned support &mdash; uniform coil base only</li>
+<li>Less precise hip alignment control than top 3 picks</li>
+<li>May not be firm enough for runners over 200 lbs</li>
+</ul>
+</div>
+</div>
+<div class="verdict"><strong>Verdict:</strong> For ITBS sufferers who cannot justify a $1,500+ mattress, the Nectar Premier Copper is the best under-$1,000 hybrid that addresses the core problem: preventing hip sinkage. It does not have the zoned engineering of the top picks, but it outperforms any all-foam mattress at the same price for pelvic support during IT band recovery.</div>
+<a class="cta-btn" href="https://www.amazon.com/s?k=Nectar+Premier+Copper+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</div>
+</section>
+
+<section id="comparison">
+<h2>Full Comparison Table</h2>
+<table>
+<thead>
+<tr>
+<th>Mattress</th>
+<th>Firmness</th>
+<th>Type</th>
+<th>Key ITBS Feature</th>
+<th>Trial</th>
+<th>Approx. Price (Queen)</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Helix Midnight Luxe</td>
+<td>5/10 Medium</td>
+<td>Hybrid</td>
+<td>Zoned coils &mdash; firmer at hip, softer at knee</td>
+<td>100 nights</td>
+<td>~$1,749</td>
+</tr>
+<tr>
+<td>Saatva Classic (Luxury Firm)</td>
+<td>6/10 Lux. Firm</td>
+<td>Hybrid</td>
+<td>Lumbar zone prevents pelvic drop; euro top softens knee contact</td>
+<td>365 nights</td>
+<td>~$1,695</td>
+</tr>
+<tr>
+<td>Purple Restore Hybrid</td>
+<td>5/10 Medium</td>
+<td>Hybrid (Grid)</td>
+<td>GelFlex Grid locally decompresses lateral knee contact point</td>
+<td>100 nights</td>
+<td>~$1,999</td>
+</tr>
+<tr>
+<td>Casper Wave Hybrid</td>
+<td>5.5/10 Medium</td>
+<td>Hybrid</td>
+<td>7-zone system: firm hip zone offloads TFL tension</td>
+<td>100 nights</td>
+<td>~$2,295</td>
+</tr>
+<tr>
+<td>WinkBed (Medium)</td>
+<td>5.5/10 Medium</td>
+<td>Hybrid</td>
+<td>Reinforced lumbar pad for runners 180&ndash;250 lbs</td>
+<td>120 nights</td>
+<td>~$1,299</td>
+</tr>
+<tr>
+<td>Amerisleep AS3</td>
+<td>5/10 Medium</td>
+<td>All-Foam</td>
+<td>HIVE zones: foam-based hip/knee firmness differentiation</td>
+<td>100 nights</td>
+<td>~$1,049</td>
+</tr>
+<tr>
+<td>Nectar Premier Copper</td>
+<td>5/10 Medium</td>
+<td>Hybrid</td>
+<td>Pocketed coils prevent hip sinkage; copper reduces lateral heat</td>
+<td>365 nights</td>
+<td>~$899</td>
+</tr>
+</tbody>
+</table>
+</section>
+
+<section id="quickpick">
+<h2>Quick-Pick Table by Sleeper Type</h2>
+<table class="quick-pick-table">
+<thead>
+<tr>
+<th>Sleeper Profile</th>
+<th>Best Pick</th>
+<th>Why</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Side sleeper, 130&ndash;200 lbs, acute ITBS</td>
+<td>Helix Midnight Luxe</td>
+<td>Zoned support targets both hip alignment and lateral knee pressure</td>
+</tr>
+<tr>
+<td>Back sleeper or combination sleeper</td>
+<td>Saatva Classic (Luxury Firm)</td>
+<td>Lumbar zone maintains hip-neutral across all sleep positions</td>
+</tr>
+<tr>
+<td>Side sleeper, lateral knee contact is primary pain</td>
+<td>Purple Restore Hybrid</td>
+<td>Grid technology delivers highest lateral pressure reduction at knee</td>
+</tr>
+<tr>
+<td>Desk worker + runner, TFL chronically tight</td>
+<td>Casper Wave Hybrid</td>
+<td>7-zone hip support directly offloads TFL and reduces pelvic drop</td>
+</tr>
+<tr>
+<td>Runner 180&ndash;250 lbs, standard mediums too soft</td>
+<td>WinkBed (Medium)</td>
+<td>Reinforced lumbar pad prevents hip sinkage at higher body weight</td>
+</tr>
+<tr>
+<td>Foam preference, side sleeper under 200 lbs</td>
+<td>Amerisleep AS3</td>
+<td>Best zoned all-foam for ITBS hip and knee alignment</td>
+</tr>
+<tr>
+<td>Budget under $1,000, side sleeper under 200 lbs</td>
+<td>Nectar Premier Copper</td>
+<td>Best affordable hybrid for preventing hip sinkage</td>
+</tr>
+</tbody>
+</table>
+</section>
+
+<section id="faq">
+<h2>Frequently Asked Questions</h2>
+
+<div class="faq-item">
+<h3>Can a mattress make IT band syndrome worse?</h3>
+<p>Yes. A mattress that is too firm creates a lateral pressure peak at the greater trochanter and lateral knee when you sleep on your side, compressing the distal IT band against the lateral femoral epicondyle &mdash; the same friction mechanism that causes ITBS during running. A mattress that is too soft lets the hip drop excessively, rotating the femur internally and pulling the IT band tighter. The right firmness keeps the hip and knee in neutral alignment to minimize overnight tension.</p>
+</div>
+
+<div class="faq-item">
+<h3>What firmness mattress is best for IT band syndrome?</h3>
+<p>For most side sleepers with ITBS, a medium to medium-firm mattress (5&ndash;6.5 out of 10 firmness) works best. This range provides enough hip contouring to prevent lateral pressure peaks without allowing the hip to over-sink and internally rotate the femur. Heavier athletes (over 200 lbs) typically need a firm or medium-firm (6&ndash;7/10) to get adequate support without excessive sinkage.</p>
+</div>
+
+<div class="faq-item">
+<h3>Should I sleep on my side or back if I have IT band syndrome?</h3>
+<p>Back sleeping is generally better during acute ITBS flares because it keeps the hip in neutral and eliminates lateral knee pressure entirely. If you are a side sleeper, sleep on the non-affected side and place a firm pillow between your knees. This pillow prevents the top hip from adducting and internally rotating &mdash; the movement that tensions the IT band. The mattress should be firm enough to support the hip without excessive sinkage.</p>
+</div>
+
+<div class="faq-item">
+<h3>Does a mattress topper help IT band syndrome?</h3>
+<p>A 2&ndash;3 inch medium-density latex or memory foam topper can add contouring to a mattress that is too firm, reducing the lateral pressure peak at the knee and hip. However, a topper cannot fix a sagging mattress &mdash; if your mattress has a body impression deeper than 1 inch, the uneven surface will disrupt hip alignment regardless of what you place on top. Replace the mattress first.</p>
+</div>
+
+<div class="faq-item">
+<h3>Is IT band syndrome different from other knee pain conditions when it comes to mattress choice?</h3>
+<p>Yes, significantly. IT band syndrome is a lateral soft-tissue friction problem driven by hip adduction and internal femoral rotation &mdash; not a patellar (kneecap), cartilage, or arthritic condition. The mattress priorities are therefore different: ITBS requires lateral hip support and femoral rotation control, whereas patellar tendinopathy needs anterior pressure relief, and knee OA needs broad cushioning. A mattress suited to one condition is not automatically suited to another.</p>
+</div>
+</section>
+
+<div class="related-section" id="related">
+<h2>Related Guides</h2>
+<ul class="related-links">
+<li><a href="/posts/best-mattress-hip-pain.html">Best Mattress for Hip Pain: Reducing Greater Trochanter Pressure in Side Sleepers</a></li>
+<li><a href="/posts/best-mattress-back-pain-side-sleeper.html">Best Mattress for Side Sleepers with Back Pain</a></li>
+<li><a href="/posts/sleep-athletic-performance.html">Sleep and Athletic Performance: Why Recovery Sleep Makes or Breaks Training</a></li>
+<li><a href="/posts/best-mattress-chronic-pain.html">Best Mattress for Chronic Pain: Pressure Relief and Support Compared</a></li>
+<li><a href="/posts/best-mattress-topper-side-sleepers.html">Best Mattress Topper for Side Sleepers: Adding Pressure Relief Without Losing Support</a></li>
+</ul>
+</div>
+
+<div class="disclaimer">
+<strong>Disclaimer:</strong> SleepWiseReviews participates in the Amazon Associates program and other affiliate programs. Links on this page are affiliate links &mdash; we may earn a commission if you purchase through them, at no extra cost to you. All product recommendations are based on independent research. This content is for informational purposes only and does not constitute medical advice. Consult a qualified healthcare provider for diagnosis and treatment of IT band syndrome or any musculoskeletal condition.
+</div>
+</main>
+
+<footer>
+<div class="container">
+<p>&copy; 2026 SleepWiseReviews &mdash; <a href="/posts/index.html">All Reviews</a> &nbsp;|&nbsp; <a href="/">Home</a></p>
+</div>
+</footer>
+</body>
+</html>'''
+
+output_path = r"O:\\MyFiles\\Projects\\SleepReviewes\\posts\\best-mattress-iliotibial-band-syndrome.html"
+
+with open(output_path, "w", encoding="utf-8") as f:
+    f.write(html)
+
+import os
+size = os.path.getsize(output_path)
+print(f"File written: {output_path}")
+print(f"Size: {size:,} bytes")
