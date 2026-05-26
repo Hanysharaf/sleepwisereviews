@@ -542,9 +542,13 @@ def main():
             result = agent._task_engagement_tips()
             print(f"Engagement tips result: {result}")
 
+        elif command == "pinterest":
+            result = agent._task_post_pinterest()
+            print(f"Pinterest result: {result}")
+
         else:
             print(f"Unknown command: {command}")
-            print("Available commands: test, article, summary, content_prep, instagram_notify, engagement_tips")
+            print("Available commands: test, article, summary, content_prep, instagram_notify, engagement_tips, pinterest")
     else:
         # Normal scheduled run
         agent.run()

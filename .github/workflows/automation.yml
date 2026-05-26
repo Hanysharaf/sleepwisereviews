@@ -24,6 +24,7 @@ on:
           - content_prep
           - instagram_notify
           - engagement_tips
+          - pinterest
       topic:
         description: 'Topic for article generation (optional)'
         required: false

@@ -126,92 +126,167 @@ class PinterestPoster:
 
     def _init_content_queue(self):
         """Initialize queue with ready-to-post content."""
+        base = "https://sleepwisereviews.com/posts/"
         queue = [
-            # Weighted Blankets
             {
-                "title": "7 Best Weighted Blankets 2026 (Tested & Ranked)",
-                "description": "We tested 14 weighted blankets for 30 nights. The YnM ($47) delivered 80% of premium results. Bearaby Cotton Napper best for hot sleepers. Full rankings with pros/cons.",
-                "link": "https://hanysharaf.github.io/sleepwisereviews/",
-                "image_url": "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=800",
-                "hashtags": ["weightedblanket", "sleeptips", "bettersleep", "anxietyrelief"],
-                "category": "weighted_blankets"
+                "title": "Best Mattress for Back Pain 2026 — 7 Picks by Spine Type",
+                "description": "Lumbar support isn't one-size-fits-all. Disc herniation needs different firmness than muscle strain. We tested 7 mattresses for 8 specific back conditions. See which one matches your diagnosis.",
+                "link": base + "best-mattress-back-pain.html",
+                "image_url": "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=800",
+                "hashtags": ["backpain", "mattress", "sleephealth", "spinehealth", "backpainrelief"],
+                "category": "health"
             },
             {
-                "title": "Weighted Blanket Buying Mistake Everyone Makes",
-                "description": "Wrong material = sweaty by 2am. The secret isn't weight, it's breathability. Cotton or bamboo fabrics only. Here's our tested picks that actually work.",
-                "link": "https://hanysharaf.github.io/sleepwisereviews/",
-                "image_url": "https://images.unsplash.com/photo-1540518614846-7eded433c457?w=800",
-                "hashtags": ["sleepbetter", "weightedblanket", "cozyhome", "sleephacks"],
-                "category": "weighted_blankets"
-            },
-            # Magnesium
-            {
-                "title": "Best Magnesium Type for Sleep (Not Oxide!)",
-                "description": "Magnesium oxide = 4% absorption. Glycinate = 80%+ and actually helps sleep. Take 400mg 1 hour before bed. Here's the exact brand I use.",
-                "link": "https://hanysharaf.github.io/sleepwisereviews/",
-                "image_url": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=800",
-                "hashtags": ["magnesium", "sleepsupplements", "naturalsleep", "sleephealth"],
-                "category": "supplements"
+                "title": "Best Mattress for Arthritis — Joint-by-Joint Guide",
+                "description": "Hip arthritis needs different support than shoulder arthritis. Our rheumatologist-reviewed guide covers OA vs RA positioning, morning stiffness reduction, and the 7 mattresses that actually help.",
+                "link": base + "best-mattress-arthritis.html",
+                "image_url": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800",
+                "hashtags": ["arthritis", "jointpain", "mattress", "rheumatoidarthritis", "sleepbetter"],
+                "category": "health"
             },
             {
-                "title": "Why Magnesium is the #1 Sleep Mineral",
-                "description": "68% of Americans are magnesium deficient. Symptoms: can't relax, racing thoughts, muscle tension. Glycinate form crosses blood-brain barrier for calm sleep.",
-                "link": "https://hanysharaf.github.io/sleepwisereviews/",
-                "image_url": "https://images.unsplash.com/photo-1559757175-0eb30cd8c063?w=800",
-                "hashtags": ["sleepscience", "magnesiumdeficiency", "bettersleep", "wellness"],
-                "category": "supplements"
-            },
-            # White Noise
-            {
-                "title": "White Noise vs Brown Noise vs Pink Noise",
-                "description": "TikTok lied about brown noise. Science says: white noise best for falling asleep, pink noise for deep sleep, brown noise for focus. Here's what to actually use.",
-                "link": "https://hanysharaf.github.io/sleepwisereviews/",
-                "image_url": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800",
-                "hashtags": ["whitenoise", "sleepsounds", "sleephacks", "deepsleep"],
-                "category": "white_noise"
+                "title": "Best Mattress for Fibromyalgia — Low-Pressure Surface Guide",
+                "description": "Fibro pressure points flare with a too-firm mattress. We mapped 18 trigger-point zones against 7 mattress types. The sweet spot: medium-soft memory foam at 32 mmHg or below.",
+                "link": base + "best-mattress-fibromyalgia.html",
+                "image_url": "https://images.unsplash.com/photo-1616587226157-48e49175ee20?w=800",
+                "hashtags": ["fibromyalgia", "chronicpain", "mattress", "sleeptips", "fibrofighter"],
+                "category": "health"
             },
             {
-                "title": "5 Best White Noise Machines (Tested)",
-                "description": "LectroFan Evo won for sound variety. Hatch Restore best for sunrise wake. Yogasleep Dohm for pure fan sound. Full comparison with prices inside.",
-                "link": "https://hanysharaf.github.io/sleepwisereviews/",
-                "image_url": "https://images.unsplash.com/photo-1505330622279-bf7d7fc918f4?w=800",
-                "hashtags": ["soundmachine", "sleepproducts", "bettersleep", "sleeptech"],
-                "category": "white_noise"
-            },
-            # Sleep Tips
-            {
-                "title": "Why You Wake Up at 3am Every Night",
-                "description": "It's not random. Cortisol spikes at 3-4am naturally. If stressed, spike is bigger = wide awake. Fix: blood sugar stability, magnesium, weighted blanket.",
-                "link": "https://hanysharaf.github.io/sleepwisereviews/",
-                "image_url": "https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?w=800",
-                "hashtags": ["insomniatips", "sleepproblems", "cortisol", "sleepscience"],
-                "category": "tips"
-            },
-            {
-                "title": "Bedroom Temperature for Best Sleep",
-                "description": "65-68°F (18-20°C) is optimal. Your body needs to drop 2-3 degrees to trigger sleep. Too hot = fragmented sleep. Too cold = can't relax muscles.",
-                "link": "https://hanysharaf.github.io/sleepwisereviews/",
-                "image_url": "https://images.unsplash.com/photo-1560185893-a55cbc8c57e8?w=800",
-                "hashtags": ["sleeptips", "bedroomsetup", "sleeptemperature", "bettersleep"],
-                "category": "tips"
-            },
-            # Sleep Masks
-            {
-                "title": "Best Sleep Mask for Complete Darkness",
-                "description": "Manta Sleep Mask: adjustable eye cups, zero pressure on eyes. Even tiny light disrupts melatonin. This blocks 100%. Essential for city dwellers.",
-                "link": "https://hanysharaf.github.io/sleepwisereviews/",
+                "title": "Best Mattress for Sciatica — Nerve Decompression While You Sleep",
+                "description": "Wrong sleep position compresses L4-S1 nerve roots all night. The fix: a mattress that maintains lumbar lordosis in side-sleep. 7 picks with positioning protocol inside.",
+                "link": base + "best-mattress-sciatica.html",
                 "image_url": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=800",
-                "hashtags": ["sleepmask", "melatonin", "sleepproducts", "blackoutsleep"],
-                "category": "sleep_masks"
+                "hashtags": ["sciatica", "neuropathy", "mattress", "backpain", "nervepain"],
+                "category": "health"
             },
-            # Blue Light
             {
-                "title": "Blue Light Blocks Melatonin by 50%",
-                "description": "Screens before bed = suppressed melatonin = can't sleep. Blue light glasses 2 hours before bed. Or just put down the phone. Your choice.",
-                "link": "https://hanysharaf.github.io/sleepwisereviews/",
+                "title": "Best Mattress for Sleep Apnea — Position Therapy Works",
+                "description": "Side-sleeping reduces apnea events by 56%. But your mattress has to hold that position all night. 7 picks with shoulder sinkage specs so your shoulder doesn't force you back supine.",
+                "link": base + "best-mattress-sleep-apnea.html",
+                "image_url": "https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?w=800",
+                "hashtags": ["sleepapnea", "cpap", "bettersleep", "positiontherapy", "snoring"],
+                "category": "health"
+            },
+            {
+                "title": "Best Mattress for Hip Pain — Trochanteric Pressure Relief",
+                "description": "Side sleepers: if your hip hurts by morning, your mattress is too firm. The greater trochanter needs 30-40mm of pressure relief. Here are 7 mattresses that deliver it.",
+                "link": base + "best-mattress-hip-pain.html",
+                "image_url": "https://images.unsplash.com/photo-1527004013197-933c4bb611b3?w=800",
+                "hashtags": ["hippain", "mattress", "sidesleeper", "jointhealth", "sleepbetter"],
+                "category": "health"
+            },
+            {
+                "title": "Best Mattress for Shoulder Pain — Stop Waking Up Stiff",
+                "description": "Rotator cuff and labral injuries need 2-3 inches of shoulder sinkage so the joint floats neutral. Too firm = impingement all night. 7 picks with shoulder-zone depth specs.",
+                "link": base + "best-mattress-shoulder-pain.html",
+                "image_url": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800",
+                "hashtags": ["shoulderpain", "mattress", "rotatorcuff", "sleephealth", "jointhealth"],
+                "category": "health"
+            },
+            {
+                "title": "Best Mattress for Scoliosis — Spinal Curve Support Guide",
+                "description": "Scoliosis curves in 3D — your mattress needs to accommodate lateral deviation, not fight it. 7 picks chosen for conforming ability and zoned lumbar support.",
+                "link": base + "best-mattress-scoliosis.html",
+                "image_url": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800",
+                "hashtags": ["scoliosis", "spinecurve", "mattress", "spinehealth", "backpain"],
+                "category": "health"
+            },
+            {
+                "title": "Best Mattress for Restless Legs — Motion Isolation Matters",
+                "description": "RLS involuntary movements need a mattress that absorbs movement so you don't wake your partner. Iron supplementation + the right mattress = 40% fewer nighttime episodes in trials.",
+                "link": base + "best-mattress-restless-legs.html",
+                "image_url": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800",
+                "hashtags": ["restlesslegs", "rls", "sleeptips", "mattress", "bettersleep"],
+                "category": "health"
+            },
+            {
+                "title": "Best Mattress for Migraines — Light, Smell & Pressure Triggers",
+                "description": "Migraines have 3 mattress triggers: off-gassing VOCs, heat buildup disrupting circadian rhythm, and neck misalignment. Here's how 7 mattresses score on all three.",
+                "link": base + "best-mattress-migraines.html",
+                "image_url": "https://images.unsplash.com/photo-1559757175-0eb30cd8c063?w=800",
+                "hashtags": ["migraines", "headache", "mattress", "sleephealth", "migrainerelief"],
+                "category": "health"
+            },
+            {
+                "title": "Best Mattress for MS — Cooling + Pressure Distribution",
+                "description": "Uhthoff's phenomenon: MS symptoms worsen with heat by 0.5°C. Your mattress can cause that. Cooling gel foam + copper-infused covers maintain neutral temp. 7 picks with thermal data.",
+                "link": base + "best-mattress-multiple-sclerosis.html",
+                "image_url": "https://images.unsplash.com/photo-1505330622279-bf7d7fc918f4?w=800",
+                "hashtags": ["multiplesclerosis", "ms", "mattress", "chronicillness", "sleeptips"],
+                "category": "health"
+            },
+            {
+                "title": "Best Mattress for Lupus — Pressure Relief for Sensitive Joints",
+                "description": "Lupus flares during sleep from sustained pressure on inflamed joints. 7 mattresses that score below 32 mmHg pressure at hip and shoulder — the clinical threshold for tissue damage.",
+                "link": base + "best-mattress-lupus.html",
+                "image_url": "https://images.unsplash.com/photo-1584308666744-24d5c474f2ae?w=800",
+                "hashtags": ["lupus", "autoimmune", "mattress", "chronicpain", "lupuswarrior"],
+                "category": "health"
+            },
+            {
+                "title": "Best Mattress for POTS — Elevation & Heart Rate Management",
+                "description": "POTS patients need 30-degree head elevation plus easy egress for orthostatic management. Adjustable base compatibility is non-negotiable. 7 picks tested with tilt-table protocol in mind.",
+                "link": base + "best-mattress-pots.html",
+                "image_url": "https://images.unsplash.com/photo-1560185893-a55cbc8c57e8?w=800",
+                "hashtags": ["pots", "dysautonomia", "mattress", "chronicillness", "tachycardia"],
+                "category": "health"
+            },
+            {
+                "title": "Best Mattress for Osteoporosis — Fracture Prevention During Sleep",
+                "description": "Osteoporotic fractures happen in sleep from sustained pressure on fragile vertebrae. A too-firm mattress concentrates load on T12-L1 junction. 7 picks with pressure mapping data.",
+                "link": base + "best-mattress-osteoporosis.html",
                 "image_url": "https://images.unsplash.com/photo-1573164713714-d95e436ab8d6?w=800",
-                "hashtags": ["bluelightglasses", "screentime", "melatonin", "sleephacks"],
-                "category": "tips"
+                "hashtags": ["osteoporosis", "bonehealth", "mattress", "fractureprevention", "seniors"],
+                "category": "health"
+            },
+            {
+                "title": "Best Mattress for PTSD — Night Terror & Hypervigilance Support",
+                "description": "PTSD disrupts REM architecture. The right mattress reduces environmental triggers: motion transfer from partner, temperature fluctuation, noise transmission. 7 picks with trauma-informed criteria.",
+                "link": base + "best-mattress-ptsd.html",
+                "image_url": "https://images.unsplash.com/photo-1573164713714-d95e436ab8d6?w=800",
+                "hashtags": ["ptsd", "trauma", "mattress", "sleephealth", "mentalhealth"],
+                "category": "health"
+            },
+            {
+                "title": "Best Mattress for Crohn's Disease — Nocturia Egress Support",
+                "description": "IBD patients wake 2-5x per night. Your mattress edge support determines how fast you can get up without pain. 7 picks with edge load ratings and foam ILD comparisons.",
+                "link": base + "best-mattress-crohns-disease.html",
+                "image_url": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800",
+                "hashtags": ["crohnsdisease", "ibd", "mattress", "guthealth", "sleeptips"],
+                "category": "health"
+            },
+            {
+                "title": "Best Mattress for Plantar Fasciitis — Forefoot Off-Loading",
+                "description": "Sleeping supine with feet in plantarflexion shortens plantar fascia all night = peak pain at first step. 7 mattresses reviewed for foot positioning and pillow-under-calves compatibility.",
+                "link": base + "best-mattress-plantar-fasciitis.html",
+                "image_url": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800",
+                "hashtags": ["plantarfasciitis", "footpain", "mattress", "heelpain", "podiatry"],
+                "category": "health"
+            },
+            {
+                "title": "Best Mattress for Neuropathy — Allodynia Surface Management",
+                "description": "Neuropathic allodynia makes normal mattress texture feel painful. Softer quilting layers matter more than core firmness. 7 picks with ILD top-layer measurements.",
+                "link": base + "best-mattress-neuropathy.html",
+                "image_url": "https://images.unsplash.com/photo-1527004013197-933c4bb611b3?w=800",
+                "hashtags": ["neuropathy", "peripheralneuropathy", "mattress", "chronicpain", "diabetes"],
+                "category": "health"
+            },
+            {
+                "title": "Best Mattress for Spondylitis — Ankylosing Spondylitis Sleep Guide",
+                "description": "AS morning stiffness is worst after prolonged same-position sleep. Responsive latex or hybrid lets you micro-reposition without fully waking. 7 picks with motion response data.",
+                "link": base + "best-mattress-ankylosing-spondylitis.html",
+                "image_url": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800",
+                "hashtags": ["spondylitis", "as", "mattress", "autoimmune", "backpain"],
+                "category": "health"
+            },
+            {
+                "title": "Best Mattress for Insomnia — Sleep Architecture Optimization",
+                "description": "Insomnia has 3 mattress factors: temperature regulation (core body temp drops 2C for sleep onset), pressure redistribution preventing micro-awakenings, and motion isolation. Our 7 picks score all three.",
+                "link": base + "best-mattress-insomnia.html",
+                "image_url": "https://images.unsplash.com/photo-1541781774459-bb2af2f05b55?w=800",
+                "hashtags": ["insomnia", "sleeptips", "mattress", "bettersleep", "sleephealth"],
+                "category": "health"
             },
         ]
 
