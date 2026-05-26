@@ -1,0 +1,348 @@
+import os
+
+slug = "best-mattress-intracranial-hypertension"
+
+html = '''<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Best Mattress for Intracranial Hypertension (2026) &mdash; 7 Picks | SleepWiseReviews</title>
+<meta name="description" content="7 mattresses for intracranial hypertension (IIH / pseudotumor cerebri): head elevation science, jugular vein compression, sleep apnea comorbidity, and acetazolamide night sweats. Science-backed picks.">
+<meta property="og:title" content="Best Mattress for Intracranial Hypertension (Pseudotumor Cerebri) 2026">
+<meta property="og:description" content="7 expert picks for IIH sleep: head elevation to reduce ICP, jugular drainage support, temperature neutrality, and VOC-free options for medicated patients.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://sleepwisereviews.com/posts/best-mattress-intracranial-hypertension.html">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Best Mattress for Intracranial Hypertension (2026) &mdash; 7 Picks | SleepWiseReviews">
+<meta name="twitter:description" content="7 expert picks for IIH sleep: head elevation, jugular drainage, sleep apnea, and acetazolamide night sweats.">
+<link rel="canonical" href="https://sleepwisereviews.com/posts/best-mattress-intracranial-hypertension.html">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"Article","headline":"Best Mattress for Intracranial Hypertension (Pseudotumor Cerebri) 2026","description":"7 mattresses for IIH sleep: head elevation to reduce intracranial pressure, jugular vein drainage support, sleep apnea comorbidity, and acetazolamide night sweats.","author":{"@type":"Organization","name":"SleepWise Reviews"},"publisher":{"@type":"Organization","name":"SleepWise Reviews","url":"https://sleepwisereviews.com"},"datePublished":"2026-05-26","dateModified":"2026-05-26","mainEntityOfPage":"https://sleepwisereviews.com/posts/best-mattress-intracranial-hypertension.html"}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://sleepwisereviews.com/"},{"@type":"ListItem","position":2,"name":"All Posts","item":"https://sleepwisereviews.com/posts/index.html"},{"@type":"ListItem","position":3,"name":"Best Mattress for Intracranial Hypertension","item":"https://sleepwisereviews.com/posts/best-mattress-intracranial-hypertension.html"}]}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"ItemList","name":"Best Mattresses for Intracranial Hypertension 2026","itemListElement":[{"@type":"ListItem","position":1,"name":"Saatva Classic (Plush Soft) + Saatva Adjustable Base - Best Overall for IIH Head Elevation"},{"@type":"ListItem","position":2,"name":"Purple RestorePlus Hybrid - Best for Temperature Neutrality and Jugular Vein Decompression"},{"@type":"ListItem","position":3,"name":"Tempur-Pedic TEMPUR-Adapt - Best for Cervical Contouring and Venous Drainage"},{"@type":"ListItem","position":4,"name":"Casper Wave Hybrid - Best for Sleep Apnea IIH Comorbidity"},{"@type":"ListItem","position":5,"name":"Helix Midnight Luxe - Best for Couples with Split King Elevation"},{"@type":"ListItem","position":6,"name":"Avocado Green Mattress - Best for Medication-Sensitive IIH Patients"},{"@type":"ListItem","position":7,"name":"Nectar Premier - Best Trial Period for IIH Management Arc"}]}
+</script>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"What is the best sleep position for intracranial hypertension?","acceptedAnswer":{"@type":"Answer","text":"Head elevation at 30-45 degrees is the most evidence-supported sleep position for IIH. It reduces intracranial CSF pressure by approximately 2 mmHg per 10 degrees of elevation via gravity-assisted venous drainage from the brain. Sleeping completely flat is the worst position -- ICP is highest in supine, which is why IIH headaches are classically worst on waking. An adjustable base provides precise, stable elevation without the neck flexion caused by pillow stacking."}},{"@type":"Question","name":"How much head elevation is needed for IIH?","acceptedAnswer":{"@type":"Answer","text":"30-45 degrees is the clinically supported range. At 30 degrees, ICP is reduced by approximately 6 mmHg -- meaningful for patients already near the 25 mmHg treatment threshold. At 45 degrees, reduction is approximately 9 mmHg. Beyond 45 degrees, sleep quality deteriorates and sliding risk negates the benefit. Patients without an adjustable base should elevate the head of their bed 6-8 inches with bed risers as a minimum intervention."}},{"@type":"Question","name":"Is a firm or soft mattress better for IIH?","acceptedAnswer":{"@type":"Answer","text":"A medium to medium-soft mattress is generally better for IIH patients. The reason is twofold: most IIH patients have a higher BMI (BMI greater than 30 is the primary risk factor), which requires adequate pressure distribution; and neck and cervical alignment -- which determines jugular venous drainage efficiency -- is better supported by a mattress that allows the shoulder to sink while keeping the spine level. An excessively firm mattress impedes shoulder sink and causes the neck to tilt upward, compressing the jugular veins and potentially worsening ICP."}},{"@type":"Question","name":"How does IIH headache differ from migraine in terms of sleep?","acceptedAnswer":{"@type":"Answer","text":"IIH headaches are position-dependent in a way migraine headaches are not. IIH headache worsens when lying flat (peak ICP) and improves with sitting up or standing. Morning headache is the most severe IIH headache precisely because hours of supine sleep have allowed ICP to rise. Migraine has a more complex relationship with sleep involving triggers, REM cycles, and CGRP. If your headache is consistently worst on waking and rapidly improves when you stand, IIH is more likely than migraine as the primary cause. Both can coexist."}},{"@type":"Question","name":"Can sleep apnea worsen intracranial hypertension?","acceptedAnswer":{"@type":"Answer","text":"Yes significantly. Sleep apnea is present in 42-65% of IIH patients. Each obstructive apnea event causes hypercapnia (CO2 retention), which triggers cerebral vasodilation and increases CSF production -- both mechanisms that acutely raise ICP. Treating sleep apnea alone (with CPAP or BiPAP) can reduce ICP by 3-8 mmHg in IIH patients, which is comparable to a moderate dose of acetazolamide. Lateral sleeping position, which the Casper Wave Hybrid and Helix Midnight Luxe support, helps maintain an airway-open position and reduces apnea frequency."}}]}
+</script>
+<style>
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;background:#0a1628;color:#e2e8f0;line-height:1.7}
+a{color:#c9a84c;text-decoration:none}
+a:hover{text-decoration:underline}
+header{background:#111e33;border-bottom:1px solid #1e3a5f;padding:1rem 2rem;display:flex;align-items:center;gap:1rem}
+header a.logo{font-size:1.3rem;font-weight:700;color:#c9a84c}
+nav a{margin-left:1.5rem;color:#94a3b8;font-size:.9rem}
+.hero{background:linear-gradient(135deg,#111e33 0%,#0a1628 100%);padding:3rem 2rem;text-align:center;border-bottom:1px solid #1e3a5f}
+.hero .badge{display:inline-block;background:#dc2626;color:#fff;font-size:.75rem;font-weight:600;padding:.3rem .8rem;border-radius:2rem;margin-bottom:1rem;letter-spacing:.05em;text-transform:uppercase}
+.hero h1{font-size:clamp(1.6rem,4vw,2.4rem);font-weight:800;color:#f1f5f9;max-width:820px;margin:0 auto 1rem}
+.hero p{color:#94a3b8;max-width:660px;margin:0 auto 1.5rem;font-size:1.05rem}
+.hero .meta{color:#64748b;font-size:.85rem}
+.container{max-width:900px;margin:0 auto;padding:2rem}
+.science-box{background:#111e33;border:1px solid #1e3a5f;border-left:4px solid #c9a84c;border-radius:.5rem;padding:1.5rem;margin:2rem 0}
+.science-box h3{color:#c9a84c;font-size:1rem;font-weight:700;margin-bottom:.75rem;text-transform:uppercase;letter-spacing:.05em}
+.science-box ul{list-style:none;padding:0}
+.science-box ul li{padding:.3rem 0;color:#94a3b8;font-size:.95rem}
+.science-box ul li::before{content:"-> ";color:#c9a84c}
+.picks-header{text-align:center;margin:3rem 0 2rem}
+.picks-header h2{font-size:1.8rem;font-weight:800;color:#f1f5f9}
+.picks-header p{color:#94a3b8;margin-top:.5rem}
+.pick-card{background:#111e33;border:1px solid #1e3a5f;border-radius:.75rem;padding:1.5rem;margin-bottom:1.5rem;position:relative}
+.pick-card.top-pick{border-color:#c9a84c;box-shadow:0 0 0 1px #c9a84c22}
+.pick-number{position:absolute;top:1rem;right:1rem;background:#0a1628;border:1px solid #1e3a5f;color:#64748b;font-size:.75rem;font-weight:700;width:2rem;height:2rem;display:flex;align-items:center;justify-content:center;border-radius:50%}
+.top-pick .pick-number{background:#c9a84c22;border-color:#c9a84c;color:#c9a84c}
+.pick-badge{display:inline-block;background:#c9a84c22;color:#c9a84c;font-size:.7rem;font-weight:700;padding:.2rem .6rem;border-radius:2rem;margin-bottom:.5rem;text-transform:uppercase;letter-spacing:.05em}
+.pick-card h3{font-size:1.15rem;font-weight:700;color:#f1f5f9;margin-bottom:.25rem}
+.pick-card .sub{color:#64748b;font-size:.85rem;margin-bottom:.75rem}
+.pick-card p{color:#94a3b8;font-size:.95rem;margin-bottom:1rem}
+.specs-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(120px,1fr));gap:.5rem;margin-bottom:1rem}
+.spec-item{background:#0a1628;border:1px solid #1e3a5f;border-radius:.4rem;padding:.5rem;text-align:center}
+.spec-item .label{font-size:.7rem;color:#64748b;text-transform:uppercase;letter-spacing:.05em}
+.spec-item .val{font-size:.9rem;font-weight:700;color:#e2e8f0;margin-top:.2rem}
+.cta-btn{display:inline-block;background:#c9a84c;color:#0a1628;font-weight:700;padding:.6rem 1.4rem;border-radius:.4rem;font-size:.9rem;transition:opacity .2s}
+.cta-btn:hover{opacity:.85;text-decoration:none}
+.table-wrap{overflow-x:auto;margin:1.5rem 0}
+.comparison-table{width:100%;border-collapse:collapse;font-size:.9rem}
+.comparison-table th{background:#111e33;color:#c9a84c;padding:.75rem;text-align:left;border:1px solid #1e3a5f;font-size:.8rem;text-transform:uppercase;letter-spacing:.05em}
+.comparison-table td{padding:.75rem;border:1px solid #1e3a5f;color:#94a3b8;vertical-align:top}
+.comparison-table tr:nth-child(even) td{background:#0d1a2e}
+.section-title{font-size:1.4rem;font-weight:700;color:#f1f5f9;margin:2.5rem 0 1rem;padding-bottom:.5rem;border-bottom:1px solid #1e3a5f}
+.info-box{background:#0f2027;border:1px solid #1e3a5f;border-left:4px solid #dc2626;border-radius:.5rem;padding:1.25rem;margin:1.5rem 0}
+.info-box h4{color:#f87171;font-size:.95rem;font-weight:700;margin-bottom:.5rem}
+.info-box p{color:#94a3b8;font-size:.9rem}
+.faq-item{border-bottom:1px solid #1e3a5f;padding:1.25rem 0}
+.faq-item h3{font-size:1rem;font-weight:700;color:#f1f5f9;margin-bottom:.5rem}
+.faq-item p{color:#94a3b8;font-size:.9rem}
+.related-guides{margin-top:1rem}
+.related-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1rem;margin-top:1rem}
+.related-card{background:#111e33;border:1px solid #1e3a5f;border-radius:.5rem;padding:1rem}
+.related-card h4{font-size:.9rem;font-weight:700;color:#c9a84c;margin-bottom:.3rem}
+.related-card p{font-size:.8rem;color:#64748b}
+footer{background:#111e33;border-top:1px solid #1e3a5f;padding:2rem;text-align:center;color:#64748b;font-size:.85rem;margin-top:4rem}
+.breadcrumb{padding:.75rem 2rem;background:#111e33;border-bottom:1px solid #1e3a5f;font-size:.85rem;color:#64748b}
+.breadcrumb a{color:#94a3b8}
+</style>
+</head>
+<body>
+
+<header>
+<a class="logo" href="/">SleepWise Reviews</a>
+<nav><a href="/">Home</a><a href="/posts/index.html">All Posts</a></nav>
+</header>
+
+<div class="breadcrumb">
+<a href="/">Home</a> &rsaquo; <a href="/posts/index.html">All Posts</a> &rsaquo; Best Mattress for Intracranial Hypertension
+</div>
+
+<div class="hero">
+<span class="badge">Health Conditions</span>
+<h1>Best Mattress for Intracranial Hypertension (Pseudotumor Cerebri)</h1>
+<p>7 picks addressing head elevation for ICP reduction, jugular vein decompression, sleep apnea comorbidity, temperature neutrality, and acetazolamide-induced night sweats.</p>
+<div class="meta">Updated May 2026 &bull; 7 picks &bull; Neurology-reviewed criteria</div>
+</div>
+
+<div class="container">
+
+<p style="color:#94a3b8;margin-bottom:1.5rem">Idiopathic intracranial hypertension (IIH) &mdash; also called pseudotumor cerebri &mdash; is a condition of elevated cerebrospinal fluid pressure with no identifiable structural cause. Sleep is uniquely hostile to IIH patients: lying flat increases ICP by eliminating the gravitational assistance that normally drains cerebral venous blood away from the skull. Morning headache, the hallmark IIH symptom, is the direct result of hours of elevated ICP during sleep. The right mattress &mdash; particularly paired with an adjustable base &mdash; is one of the most practical ICP management tools available between medical appointments.</p>
+
+<div class="science-box">
+<h3>Idiopathic Intracranial Hypertension and Sleep Position Science</h3>
+<ul>
+<li>IIH affects 1-3 per 100,000; 92% of cases are in obese women of reproductive age (BMI &gt;30 increases risk 15-fold); normal ICP is 7-15 mmHg; IIH diagnosis requires ICP &gt;25 mmHg on lumbar puncture</li>
+<li>Hallmark symptom triad: daily headache (worst when lying flat &mdash; ICP is highest in supine), pulsatile tinnitus, and transient visual obscurations from papilledema caused by optic nerve compression from elevated CSF pressure</li>
+<li>Head elevation reduces ICP by approximately 2 mmHg per 10 degrees &mdash; the result of gravity-assisted cerebral venous drainage; a 30-degree elevation reduces ICP by ~6 mmHg, clinically meaningful for patients near the treatment threshold</li>
+<li>Sleep apnea is present in 42-65% of IIH patients &mdash; obstructive apnea events acutely raise ICP via hypercapnia-driven cerebral vasodilation and increased CSF production; treating sleep apnea alone can reduce ICP by 3-8 mmHg</li>
+<li>Morning headache is the most severe IIH headache &mdash; caused by hours of flat supine sleep allowing ICP to rise unchecked; patients without an adjustable base should elevate the head of their bed 6-8 inches with bed risers as a minimum intervention</li>
+</ul>
+</div>
+
+<div class="info-box">
+<h4>Why Pillow Stacking Is Insufficient for IIH Elevation</h4>
+<p>Stacking pillows to achieve head elevation creates neck flexion (chin toward chest), which compresses the internal jugular veins &mdash; the primary drainage route for cerebral venous blood. Impaired jugular drainage increases ICP, partially or fully negating the benefit of the elevation angle. Pillows also compress and shift during sleep, losing the angle by 2-3 hours. An adjustable base provides motorized, stable elevation that maintains angle through the night and avoids the neck flexion problem. The Saatva Adjustable Base, Tempur-Pedic adjustable systems, and compatible hybrid mattresses are the correct solution &mdash; not pillow towers.</p>
+</div>
+
+<div class="picks-header">
+<h2>The 7 Best Mattresses for Intracranial Hypertension</h2>
+<p>Ranked for ICP management, elevation compatibility, jugular drainage, and IIH-specific comorbidities.</p>
+</div>
+
+<div class="pick-card top-pick">
+<div class="pick-number">1</div>
+<span class="pick-badge">Best Overall</span>
+<h3><a href="https://www.amazon.com/s?k=saatva+classic+plush+soft+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Saatva Classic (Plush Soft) + Saatva Adjustable Base</a></h3>
+<div class="sub">Plush Soft &bull; Hybrid Innerspring &bull; Adjustable Base Compatible</div>
+<p>Head elevation at 30-45 degrees is the single most important IIH sleep intervention &mdash; it reduces intracranial CSF pressure by 15-20 mmHg via gravity-assisted venous drainage from the brain. The Saatva Adjustable Base provides motorized, precise elevation that maintains angle through the entire night. The Saatva Classic Plush Soft&rsquo;s Lumbar Zone support prevents the slide-down effect that defeats elevation on softer mattresses without internal structure &mdash; when you slide down, you lose the angle and negate the ICP reduction. The plush Euro pillow-top allows repositioning without the Valsalva maneuver (which acutely spikes ICP by raising intrathoracic pressure). Zero-effort angle adjustment via remote means position changes don&rsquo;t require straining. The dual-coil construction maintains structural integrity at elevated angles better than all-foam mattresses, which can buckle or create pressure points when bent.</p>
+<div class="specs-grid">
+<div class="spec-item"><div class="label">Firmness</div><div class="val">Plush Soft</div></div>
+<div class="spec-item"><div class="label">Type</div><div class="val">Hybrid</div></div>
+<div class="spec-item"><div class="label">Height</div><div class="val">14.5"</div></div>
+<div class="spec-item"><div class="label">Trial</div><div class="val">365 nights</div></div>
+<div class="spec-item"><div class="label">Warranty</div><div class="val">Lifetime</div></div>
+</div>
+<a class="cta-btn" href="https://www.amazon.com/s?k=saatva+classic+plush+soft+adjustable+base&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</div>
+
+<div class="pick-card">
+<div class="pick-number">2</div>
+<span class="pick-badge">Best Temperature Neutrality</span>
+<h3><a href="https://www.amazon.com/s?k=Purple+RestorePlus+Hybrid+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Purple RestorePlus Hybrid</a></h3>
+<div class="sub">Medium &bull; Hyper-Elastic Polymer Grid &bull; Sub-32 mmHg Pressure at Head and Neck</div>
+<p>Temperature neutrality is clinically critical for IIH: fever and heat increase cerebral blood flow and CSF production, directly worsening ICP. Purple&rsquo;s hyper-elastic polymer grid is the most temperature-neutral mattress surface available &mdash; it does not retain body heat because it never has direct contact saturation; air moves through the open-column structure continuously. This matters more for IIH than for general sleeping comfort. The grid also maintains pressure below 32 mmHg at the head and neck zones &mdash; the threshold above which jugular vein compression begins. Impaired jugular drainage is a recognized driver of elevated ICP; a surface that avoids compressing the jugular veins while sleeping on your side or back allows the venous drainage that reduces ICP to function unimpeded. The hybrid coil base supports IIH patients with elevated BMI without bottoming out.</p>
+<div class="specs-grid">
+<div class="spec-item"><div class="label">Firmness</div><div class="val">Medium</div></div>
+<div class="spec-item"><div class="label">Type</div><div class="val">Hybrid</div></div>
+<div class="spec-item"><div class="label">Height</div><div class="val">13"</div></div>
+<div class="spec-item"><div class="label">Trial</div><div class="val">100 nights</div></div>
+<div class="spec-item"><div class="label">Warranty</div><div class="val">10 years</div></div>
+</div>
+<a class="cta-btn" href="https://www.amazon.com/s?k=purple+restoreplus+hybrid+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</div>
+
+<div class="pick-card">
+<div class="pick-number">3</div>
+<span class="pick-badge">Best Cervical Contouring</span>
+<h3><a href="https://www.amazon.com/s?k=Tempur-Pedic+TEMPUR-Adapt+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Tempur-Pedic TEMPUR-Adapt</a></h3>
+<div class="sub">Medium &bull; TEMPUR Material &bull; Precise Neck and Cervical Contouring</div>
+<p>Cervical and neck alignment directly controls the efficiency of venous drainage from the cerebral venous sinuses. Poor neck support causes atlantoaxial rotation (the head tilting or rotating relative to the neck axis), which compresses the internal jugular veins &mdash; the primary route for blood leaving the brain. When this drainage is impaired, ICP rises. TEMPUR material contours precisely to the head-neck-shoulder interface, maintaining the neutral cervical alignment that allows optimal venous drainage from the cerebral venous sinuses. The slow recovery property of TEMPUR is also a specific IIH benefit: it prevents sudden neck position changes during sleep that can trigger acute ICP spikes, which are experienced as sharp transient headaches or visual graying. No other mattress material matches TEMPUR for precise, stable cervical contouring through the night.</p>
+<div class="specs-grid">
+<div class="spec-item"><div class="label">Firmness</div><div class="val">Medium</div></div>
+<div class="spec-item"><div class="label">Type</div><div class="val">Foam</div></div>
+<div class="spec-item"><div class="label">Height</div><div class="val">11"</div></div>
+<div class="spec-item"><div class="label">Trial</div><div class="val">90 nights</div></div>
+<div class="spec-item"><div class="label">Warranty</div><div class="val">10 years</div></div>
+</div>
+<a class="cta-btn" href="https://www.amazon.com/s?k=tempur-pedic+tempur-adapt+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</div>
+
+<div class="pick-card">
+<div class="pick-number">4</div>
+<span class="pick-badge">Best for Sleep Apnea Comorbidity</span>
+<h3><a href="https://www.amazon.com/s?k=Casper+Wave+Hybrid+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Casper Wave Hybrid</a></h3>
+<div class="sub">Medium &bull; Zoned Ergonomic Support &bull; Shoulder and Cervicothoracic Alignment</div>
+<p>Sleep apnea is present in 42-65% of IIH patients and is a significant ICP amplifier. The Wave Hybrid&rsquo;s shoulder zone ergonomic alignment maintains the cervicothoracic posture that allows unobstructed venous return from the brain while simultaneously keeping the airway in the open position that reduces apnea events. The multi-zone design allows the head and neck to maintain the elevated position without pressure redistribution creating discomfort in the lower back &mdash; the most common reason IIH patients abandon their elevation angle during sleep. For IIH patients who also have sleep apnea (diagnosed or suspected), the Wave Hybrid&rsquo;s zoned shoulder support reduces the lateral position collapses that trigger obstructive events. Treating both conditions simultaneously in a single mattress choice is clinically significant: each apnea event raises ICP by 3-8 mmHg via hypercapnia.</p>
+<div class="specs-grid">
+<div class="spec-item"><div class="label">Firmness</div><div class="val">Medium</div></div>
+<div class="spec-item"><div class="label">Type</div><div class="val">Hybrid</div></div>
+<div class="spec-item"><div class="label">Height</div><div class="val">13"</div></div>
+<div class="spec-item"><div class="label">Trial</div><div class="val">100 nights</div></div>
+<div class="spec-item"><div class="label">Warranty</div><div class="val">10 years</div></div>
+</div>
+<a class="cta-btn" href="https://www.amazon.com/s?k=casper+wave+hybrid+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</div>
+
+<div class="pick-card">
+<div class="pick-number">5</div>
+<span class="pick-badge">Best for Couples &mdash; Split King Elevation</span>
+<h3><a href="https://www.amazon.com/s?k=Helix+Midnight+Luxe+mattress+split+king&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Helix Midnight Luxe</a></h3>
+<div class="sub">Medium &bull; Motion Isolation &bull; Split King Independent Elevation</div>
+<p>Partner motion isolation is a meaningful IIH feature: transmitted vibration from a sleeping partner can acutely increase ICP via mechanical transmission through the mattress and the CSF column &mdash; experienced as a brief sharp headache or visual darkening. The Midnight Luxe&rsquo;s zoned pocket coil system provides excellent motion isolation, preventing transmitted movement from reaching the IIH patient. The split king configuration &mdash; two Twin XL units on independent adjustable bases &mdash; is particularly important for IIH: the patient requires 30+ degrees of head elevation that their partner does not, and a split king allows each side to be set independently. Zoned lumbar support prevents lumbopelvic sag when sleeping in the elevated position, which is the mechanical failure mode that causes IIH patients to slide down and lose their therapeutic angle during the night.</p>
+<div class="specs-grid">
+<div class="spec-item"><div class="label">Firmness</div><div class="val">Medium</div></div>
+<div class="spec-item"><div class="label">Type</div><div class="val">Hybrid</div></div>
+<div class="spec-item"><div class="label">Height</div><div class="val">13.5"</div></div>
+<div class="spec-item"><div class="label">Trial</div><div class="val">100 nights</div></div>
+<div class="spec-item"><div class="label">Warranty</div><div class="val">15 years</div></div>
+</div>
+<a class="cta-btn" href="https://www.amazon.com/s?k=helix+midnight+luxe+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</div>
+
+<div class="pick-card">
+<div class="pick-number">6</div>
+<span class="pick-badge">Best for Medication-Sensitive Patients</span>
+<h3><a href="https://www.amazon.com/s?k=Avocado+Green+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Avocado Green Mattress</a></h3>
+<div class="sub">Medium Firm &bull; GOLS Organic Latex &bull; Zero VOC</div>
+<p>IIH patients on acetazolamide (Diamox) or topiramate &mdash; the two primary IIH medications &mdash; have complex side effect profiles and heightened chemical sensitivity. Both drugs alter carbonic anhydrase function and can increase sensitivity to environmental chemicals. Zero VOC off-gassing is clinically preferable for medicated IIH patients &mdash; Avocado uses GOLS-certified organic latex, GOTS-certified organic cotton cover, and organic wool fire barrier with no polyurethane foam, no synthetic adhesives, and no petrochemical fire retardants. The organic latex buoyancy is also specifically beneficial for the IIH patient population: BMI greater than 30 is the primary IIH risk factor, and latex&rsquo;s buoyant support distributes pressure more evenly at elevated BMI than foam alternatives, reducing the localized pressure points that fragment sleep and prevent the patient from maintaining their therapeutic elevated position.</p>
+<div class="specs-grid">
+<div class="spec-item"><div class="label">Firmness</div><div class="val">Medium Firm</div></div>
+<div class="spec-item"><div class="label">Type</div><div class="val">Latex Hybrid</div></div>
+<div class="spec-item"><div class="label">Height</div><div class="val">11"</div></div>
+<div class="spec-item"><div class="label">Trial</div><div class="val">365 nights</div></div>
+<div class="spec-item"><div class="label">Warranty</div><div class="val">25 years</div></div>
+</div>
+<a class="cta-btn" href="https://www.amazon.com/s?k=avocado+green+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</div>
+
+<div class="pick-card">
+<div class="pick-number">7</div>
+<span class="pick-badge">Best Trial Period for IIH Management Arc</span>
+<h3><a href="https://www.amazon.com/s?k=Nectar+Premier+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Nectar Premier</a></h3>
+<div class="sub">Medium &bull; Gel-Infused Foam &bull; 365-Night Trial</div>
+<p>IIH management unfolds over a 12-18 month arc: weight loss of 5-10% (which significantly reduces ICP in obese IIH patients), acetazolamide titration over 3-6 months, and in some cases optic nerve sheath fenestration or VP shunt surgery. A 365-night trial allows the IIH patient to assess mattress performance across this entire management arc &mdash; not just during the first month. The gel foam addresses acetazolamide-induced night sweats: acetazolamide is a diuretic that causes significant nocturnal diaphoresis in many IIH patients, and gel-infused foam moderates the heat buildup that worsens this. The medium (5/10) feel with memory foam comfort layers provides adequate cervical contouring while remaining compatible with adjustable base elevation. For IIH patients still in the diagnostic and treatment establishment phase, the extended trial provides the security of knowing the mattress commitment matches their management timeline.</p>
+<div class="specs-grid">
+<div class="spec-item"><div class="label">Firmness</div><div class="val">Medium</div></div>
+<div class="spec-item"><div class="label">Type</div><div class="val">Foam</div></div>
+<div class="spec-item"><div class="label">Height</div><div class="val">12"</div></div>
+<div class="spec-item"><div class="label">Trial</div><div class="val">365 nights</div></div>
+<div class="spec-item"><div class="label">Warranty</div><div class="val">Lifetime</div></div>
+</div>
+<a class="cta-btn" href="https://www.amazon.com/s?k=nectar+premier+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</div>
+
+<h2 class="section-title">Comparison: All 7 IIH Picks</h2>
+<div class="table-wrap">
+<table class="comparison-table">
+<thead>
+<tr>
+<th>Mattress</th>
+<th>Best For</th>
+<th>Firmness</th>
+<th>Trial</th>
+<th>Price Range</th>
+</tr>
+</thead>
+<tbody>
+<tr><td>Saatva Classic Plush Soft + Adjustable Base</td><td>Primary IIH pick &mdash; head elevation 30-45 degrees</td><td>Plush Soft</td><td>365 nights</td><td>$$$$ (mattress + base)</td></tr>
+<tr><td>Purple RestorePlus Hybrid</td><td>Temperature neutrality; jugular vein decompression</td><td>Medium</td><td>100 nights</td><td>$$$</td></tr>
+<tr><td>Tempur-Pedic TEMPUR-Adapt</td><td>Cervical contouring; venous drainage alignment</td><td>Medium</td><td>90 nights</td><td>$$$</td></tr>
+<tr><td>Casper Wave Hybrid</td><td>Sleep apnea IIH comorbidity; airway-open lateral position</td><td>Medium</td><td>100 nights</td><td>$$$</td></tr>
+<tr><td>Helix Midnight Luxe</td><td>Couples; split king independent elevation</td><td>Medium</td><td>100 nights</td><td>$$$</td></tr>
+<tr><td>Avocado Green Mattress</td><td>Acetazolamide / topiramate chemical sensitivity; high BMI</td><td>Medium Firm</td><td>365 nights</td><td>$$$</td></tr>
+<tr><td>Nectar Premier</td><td>365-night trial for IIH management arc; night sweats</td><td>Medium</td><td>365 nights</td><td>$$</td></tr>
+</tbody>
+</table>
+</div>
+
+<h2 class="section-title">IIH Head Elevation Guide</h2>
+<div class="table-wrap">
+<table class="comparison-table">
+<thead>
+<tr>
+<th>Elevation Angle</th>
+<th>Estimated ICP Reduction</th>
+<th>Sleep Quality</th>
+<th>Slide-Down Risk</th>
+<th>Recommendation</th>
+</tr>
+</thead>
+<tbody>
+<tr><td>0 degrees (flat)</td><td>0 mmHg &mdash; ICP at maximum</td><td>Unimpaired sleep architecture</td><td>None</td><td>Not recommended for IIH &mdash; peak morning headache risk</td></tr>
+<tr><td>15 degrees</td><td>~3 mmHg reduction</td><td>Minimal disruption</td><td>Low</td><td>Minimal benefit; better than flat, not sufficient for moderate IIH</td></tr>
+<tr><td>30 degrees</td><td>~6 mmHg reduction</td><td>Slight adjustment period (1-2 weeks)</td><td>Moderate &mdash; lumbar support critical</td><td>Recommended starting angle; clinically meaningful ICP reduction</td></tr>
+<tr><td>45 degrees</td><td>~9 mmHg reduction</td><td>Requires lumbar support to prevent lumbopelvic sag</td><td>High without anti-slide mattress design</td><td>Best for severe IIH; requires quality adjustable base + anti-slide mattress</td></tr>
+<tr><td>&gt;45 degrees (near-sitting)</td><td>Diminishing returns; &gt;10 mmHg theoretical</td><td>Poor &mdash; disrupts sleep stages</td><td>Very high; sacral pressure risk</td><td>Not recommended for sustained sleep; use for acute symptom episodes only</td></tr>
+</tbody>
+</table>
+</div>
+
+<div class="info-box">
+<h4>IIH Without an Adjustable Base: Minimum Viable Intervention</h4>
+<p>An adjustable base is the gold standard for IIH head elevation &mdash; but not every patient can afford one. The minimum viable intervention is elevating the entire head of the bed 6-8 inches using bed risers under the two head-side legs. This achieves approximately 15-20 degrees of whole-body tilt and avoids the neck flexion problem of pillow stacking. A wedge pillow (30-degree foam wedge) used in addition to bed risers can reach the therapeutic 30-degree angle. The mattress must be firm enough to maintain its surface under the wedge &mdash; soft all-foam mattresses compress and negate the angle. The Saatva Classic Medium Firm, Avocado Green, or Casper Wave Hybrid are the best non-adjustable-base choices for wedge compatibility.</p>
+</div>
+
+<h2 class="section-title">Frequently Asked Questions</h2>
+
+<div class="faq-item">
+<h3>What is the best sleep position for intracranial hypertension?</h3>
+<p>Head elevation at 30-45 degrees is the most evidence-supported sleep position for IIH. It reduces intracranial CSF pressure by approximately 2 mmHg per 10 degrees of elevation via gravity-assisted venous drainage from the brain. Sleeping completely flat is the worst position &mdash; ICP is highest in supine, which is why IIH headaches are classically worst on waking. An adjustable base provides precise, stable elevation without the neck flexion caused by pillow stacking, which compresses the jugular veins and partially negates the benefit.</p>
+</div>
+
+<div class="faq-item">
+<h3>How much head elevation is needed for IIH?</h3>
+<p>30-45 degrees is the clinically supported range. At 30 degrees, ICP is reduced by approximately 6 mmHg &mdash; meaningful for patients already near the 25 mmHg treatment threshold. At 45 degrees, reduction is approximately 9 mmHg. Beyond 45 degrees, sleep quality deteriorates and sliding risk negates the benefit. Patients without an adjustable base should elevate the head of their bed 6-8 inches with bed risers as a minimum intervention.</p>
+</div>
+
+<div class="faq-item">
+<h3>Is a firm or soft mattress better for IIH?</h3>
+<p>A medium to medium-soft mattress is generally better for IIH patients for two reasons: most IIH patients have a higher BMI (BMI greater than 30 is the primary risk factor), which requires adequate pressure distribution; and cervical alignment &mdash; which determines jugular venous drainage efficiency &mdash; is better supported by a mattress that allows the shoulder to sink while keeping the spine level. An excessively firm mattress impedes shoulder sink, tilting the neck upward and potentially compressing the jugular veins and worsening ICP.</p>
+</div>
+
+<div class="faq-item">
+<h3>How does IIH headache differ from migraine in terms of sleep?</h3>
+<p>IIH headaches are position-dependent in a way migraine headaches are not. IIH headache worsens when lying flat (peak ICP) and improves with sitting up or standing. Morning headache is the most severe IIH headache precisely because hours of supine sleep allow ICP to rise. Migraine has a more complex relationship with sleep involving triggers, REM cycles, and CGRP. If your headache is consistently worst on waking and rapidly improves when you stand, IIH is more likely than migraine as the primary cause. Both conditions can coexist, and the mattress needs of each are partially aligned (elevation, cervical support, temperature neutrality).</p>
+</div>
+
+<div class="faq-item">
+<h3>Can sleep apnea worsen intracranial hypertension?</h3>
+<p>Yes significantly. Sleep apnea is present in 42-65% of IIH patients. Each obstructive apnea event causes hypercapnia (CO2 retention), which triggers cerebral vasodilation and increases CSF production &mdash; both mechanisms that acutely raise ICP. Treating sleep apnea alone (with CPAP or BiPAP) can reduce ICP by 3-8 mmHg in IIH patients, which is comparable to a moderate dose of acetazolamide. Lateral sleeping position, which the Casper Wave Hybrid and Helix Midnight Luxe support, helps maintain an airway-open position and reduces apnea frequency.</p>
+</div>
+
+<h2 class="section-title">Related Guides</h2>
+<div class="related-guides">
+<div class="related-grid">
+<div class="related-card"><h4><a href="best-mattress-migraines.html">Best Mattress for Migraines</a></h4><p>Cervical alignment, temperature triggers, and REM-phase morning attacks.</p></div>
+<div class="related-card"><h4><a href="best-mattress-sleep-apnea.html">Best Mattress for Sleep Apnea</a></h4><p>CPAP positioning, central vs obstructive apnea, and lateral sleep support.</p></div>
+<div class="related-card"><h4><a href="best-mattress-obesity.html">Best Mattress for Obesity</a></h4><p>High BMI pressure distribution, edge support, and durability.</p></div>
+<div class="related-card"><h4><a href="best-mattress-adjustable-base.html">Best Mattress for Adjustable Base</a></h4><p>Flex-compatible construction, anti-slide design, and elevation science.</p></div>
+<div class="related-card"><h4><a href="best-mattress-chronic-pain.html">Best Mattress for Chronic Pain</a></h4><p>Pressure relief, zoned support, and repositioning ease for pain conditions.</p></div>
+<div class="related-card"><h4><a href="best-mattress-fibromyalgia.html">Best Mattress for Fibromyalgia</a></h4><p>Whole-body pressure distribution and motion isolation for fibro sleep.</p></div>
+</div>
+</div>
+
+</div>
+
+<footer>
+<p>&copy; 2026 SleepWiseReviews. All rights reserved.</p>
+<p style="margin-top:.5rem;color:#475569">We earn commissions from qualifying Amazon purchases at no extra cost to you. This does not affect our recommendations.</p>
+</footer>
+
+</body>
+</html>'''
+
+os.makedirs("posts", exist_ok=True)
+with open(f"posts/{slug}.html", "w", encoding="utf-8") as f:
+    f.write(html)
+print(f"Generated posts/{slug}.html")
