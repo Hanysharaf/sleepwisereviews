@@ -1,0 +1,676 @@
+"""Generate posts/best-mattress-frozen-shoulder.html"""
+import os
+
+slug = 'best-mattress-frozen-shoulder'
+title = 'Best Mattress for Frozen Shoulder (2026) — 7 Picks | SleepWiseReviews'
+description = ('Best mattresses for frozen shoulder (adhesive capsulitis): 7 clinically informed picks '
+               'for GH joint offloading, nocturnal pain reduction, and sleep position support across '
+               'all three AC stages.')
+
+OUT = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'posts', 'best-mattress-frozen-shoulder.html')
+
+html = r"""<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Best Mattress for Frozen Shoulder (2026) &mdash; 7 Picks | SleepWiseReviews</title>
+<meta name="description" content="Best mattresses for frozen shoulder (adhesive capsulitis): 7 clinically informed picks for GH joint offloading, nocturnal pain reduction, and sleep position support across all three AC stages.">
+<meta name="robots" content="index, follow">
+<link rel="canonical" href="https://sleepwisereviews.com/posts/best-mattress-frozen-shoulder.html">
+<meta property="og:title" content="Best Mattress for Frozen Shoulder (2026) &mdash; 7 Picks | SleepWiseReviews">
+<meta property="og:description" content="Best mattresses for frozen shoulder (adhesive capsulitis): 7 clinically informed picks for GH joint offloading, nocturnal pain reduction, and sleep position support across all three AC stages.">
+<meta property="og:url" content="https://sleepwisereviews.com/posts/best-mattress-frozen-shoulder.html">
+<meta property="og:type" content="article">
+<meta property="og:image" content="https://sleepwisereviews.com/images/og-default.png">
+<meta property="og:site_name" content="SleepWise Reviews">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Best Mattress for Frozen Shoulder (2026) &mdash; 7 Picks | SleepWiseReviews">
+<meta name="twitter:description" content="7 mattress picks for adhesive capsulitis: GH joint pressure relief, nocturnal pain reduction, and stage-specific sleep support.">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "headline": "Best Mattress for Frozen Shoulder (2026) -- 7 Picks",
+      "description": "Best mattresses for frozen shoulder (adhesive capsulitis): 7 clinically informed picks for GH joint offloading, nocturnal pain reduction, and sleep position support across all three AC stages.",
+      "url": "https://sleepwisereviews.com/posts/best-mattress-frozen-shoulder.html",
+      "datePublished": "2026-05-26",
+      "dateModified": "2026-05-26",
+      "author": {"@type": "Organization", "name": "SleepWise Reviews"},
+      "publisher": {"@type": "Organization", "name": "SleepWise Reviews", "url": "https://sleepwisereviews.com/"}
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://sleepwisereviews.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Posts", "item": "https://sleepwisereviews.com/posts/"},
+        {"@type": "ListItem", "position": 3, "name": "Best Mattress for Frozen Shoulder", "item": "https://sleepwisereviews.com/posts/best-mattress-frozen-shoulder.html"}
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "name": "Best Mattresses for Frozen Shoulder 2026",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Purple RestorePlus Hybrid"},
+        {"@type": "ListItem", "position": 2, "name": "Saatva Classic (Plush Soft) + Saatva Adjustable Base"},
+        {"@type": "ListItem", "position": 3, "name": "Casper Wave Hybrid"},
+        {"@type": "ListItem", "position": 4, "name": "Tempur-Pedic TEMPUR-Adapt"},
+        {"@type": "ListItem", "position": 5, "name": "Avocado Green Mattress"},
+        {"@type": "ListItem", "position": 6, "name": "Helix Midnight Luxe"},
+        {"@type": "ListItem", "position": 7, "name": "Nectar Premier"}
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "What is the best sleep position for frozen shoulder?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Back sleeping is the optimal position for frozen shoulder. It places zero compression on the glenohumeral joint and causes no rotator cuff impingement. Side sleeping on the unaffected shoulder is the second-best option. Sleeping on the affected shoulder should be avoided at all stages -- even with pressure relief, direct GH compression during the frozen stage (capsule volume reduced to 5-6 mL) reliably causes pain spikes."}
+        },
+        {
+          "@type": "Question",
+          "name": "Should I sleep on the affected or unaffected shoulder?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Always sleep on the unaffected shoulder when side sleeping. Sleeping on the affected shoulder compresses the already inflamed and contracted GH capsule, causing both acute pain and prolonged morning stiffness. If you roll involuntarily onto the affected side, a body pillow behind your back or a rolled blanket can prevent this."}
+        },
+        {
+          "@type": "Question",
+          "name": "How long does frozen shoulder pain at night last?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Nocturnal pain is most severe during the Freezing stage (2-9 months) and continues through the Frozen stage (4-12 months). Total duration of significant nighttime pain ranges from 6 to 21 months for most patients. The Thawing stage (5-26 months) brings gradual improvement. Total AC disease duration averages 18-24 months but can exceed 3 years in diabetic patients."}
+        },
+        {
+          "@type": "Question",
+          "name": "Can sleeping wrong make frozen shoulder worse?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Yes. Sustained GH compression during sleep -- from direct shoulder lying or from mattress-induced roll-forward -- maintains capsule inflammation and delays recovery. Involuntary movements during REM sleep cause acute traction on the contracted capsule, waking patients 3-5 times per night at peak frozen stage. A mattress that stabilizes position and reduces GH contact pressure measurably reduces these events."}
+        },
+        {
+          "@type": "Question",
+          "name": "Does mattress firmness matter for frozen shoulder?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Yes -- significantly. Too firm a mattress creates excessive shoulder-to-mattress contact pressure in side lying (above 32 mmHg causes capillary occlusion and tissue hypoxia). Too soft causes lumbopelvic collapse that rolls the body forward onto the affected shoulder. Medium to medium-soft firmness with active shoulder zone relief -- targeting sub-32 mmHg peak pressure at the GH joint -- is the clinical target."}
+        }
+      ]
+    }
+  ]
+}
+</script>
+
+<style>
+:root {
+  --bg: #0a1628;
+  --card: #111e33;
+  --gold: #c9a84c;
+  --text: #e8e0d0;
+  --muted: #8899aa;
+  --border: rgba(201,168,76,0.15);
+  --border-solid: #1e2d45;
+  --green: #4caf7d;
+  --red: #e05c5c;
+}
+* { box-sizing: border-box; margin: 0; padding: 0; }
+body { background: var(--bg); color: var(--text); font-family: 'Segoe UI', system-ui, sans-serif; line-height: 1.7; }
+a { color: var(--gold); text-decoration: none; }
+a:hover { text-decoration: underline; }
+header { background: var(--card); border-bottom: 1px solid var(--border); padding: 1rem 2rem; display: flex; align-items: center; gap: 1rem; }
+header a.logo { color: var(--gold); font-weight: 700; font-size: 1.1rem; text-decoration: none; }
+header a.logo span { color: var(--text); }
+nav { margin-left: auto; display: flex; gap: 1.5rem; }
+nav a { color: var(--muted); font-size: .9rem; text-decoration: none; }
+nav a:hover { color: var(--gold); }
+.hero { background: linear-gradient(135deg, #0d1f3c, #1a2f50); padding: 3rem 2rem; text-align: center; border-bottom: 1px solid var(--border-solid); }
+.hero h1 { font-size: 2.1rem; color: #fff; max-width: 820px; margin: 0 auto 1rem; line-height: 1.3; }
+.hero p { color: var(--muted); max-width: 660px; margin: 0 auto 1.5rem; font-size: .97rem; }
+.badge { display: inline-block; background: var(--gold); color: #0a1628; font-size: .75rem; font-weight: 700; padding: .25rem .75rem; border-radius: 20px; text-transform: uppercase; letter-spacing: .05em; }
+.container { max-width: 900px; margin: 0 auto; padding: 2rem 1.5rem; }
+.disclaimer { background: rgba(201,168,76,0.05); border: 1px solid var(--border); border-radius: 8px; padding: 1rem; font-size: .8rem; color: var(--muted); margin-bottom: 2rem; }
+.toc { background: var(--card); border: 1px solid var(--border-solid); border-radius: 10px; padding: 1.5rem; margin-bottom: 2.5rem; }
+.toc h2 { font-size: 1rem; color: var(--gold); margin-bottom: 1rem; text-transform: uppercase; letter-spacing: .05em; }
+.toc ol { padding-left: 1.2rem; }
+.toc li { margin: .4rem 0; font-size: .9rem; }
+.product-card { background: var(--card); border: 1px solid var(--border-solid); border-radius: 12px; padding: 2rem; margin-bottom: 2rem; }
+.product-card .rank-badge { display: inline-block; background: var(--gold); color: #0a1628; font-size: .7rem; font-weight: 700; padding: .15rem .6rem; border-radius: 20px; margin-bottom: .75rem; text-transform: uppercase; }
+.product-card h2 { font-size: 1.4rem; color: var(--gold); margin-bottom: .25rem; }
+.verdict { background: #0d1f3c; border-left: 3px solid var(--gold); padding: .75rem 1rem; border-radius: 0 8px 8px 0; margin: 1rem 0; font-size: .95rem; font-style: italic; color: var(--muted); }
+.specs-grid { display: flex; flex-wrap: wrap; gap: .5rem; margin: 1rem 0; }
+.spec-chip { background: #0a1628; border: 1px solid var(--border-solid); border-radius: 6px; padding: .3rem .75rem; font-size: .82rem; color: var(--muted); }
+.spec-chip strong { color: var(--text); }
+.pros-cons { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin: 1.25rem 0; }
+.pros, .cons { background: #0a1628; border-radius: 8px; padding: 1rem; }
+.pros h4 { color: var(--green); margin-bottom: .5rem; font-size: .9rem; }
+.cons h4 { color: var(--red); margin-bottom: .5rem; font-size: .9rem; }
+.pros li, .cons li { font-size: .88rem; margin: .3rem 0; list-style: none; padding-left: 1.1rem; position: relative; }
+.pros li::before { content: "+ "; color: var(--green); position: absolute; left: 0; }
+.cons li::before { content: "- "; color: var(--red); position: absolute; left: 0; }
+.buy-btn { display: inline-block; background: var(--gold); color: #0a1628; font-weight: 700; padding: .65rem 1.5rem; border-radius: 8px; margin-top: 1rem; font-size: .95rem; text-decoration: none; transition: opacity .2s; }
+.buy-btn:hover { opacity: .85; text-decoration: none; }
+.science-box { background: #0d1f3c; border: 1px solid #1e3a5f; border-radius: 10px; padding: 1.5rem; margin: 2rem 0; }
+.science-box h3 { color: var(--gold); font-size: 1.05rem; margin-bottom: .75rem; }
+.science-box ul { padding-left: 1.2rem; }
+.science-box ul li { margin: .5rem 0; font-size: .93rem; color: var(--text); }
+h2.section-title { font-size: 1.5rem; margin: 2.5rem 0 1rem; color: #fff; }
+.table-wrap { overflow-x: auto; margin: 1.5rem 0; }
+table { width: 100%; border-collapse: collapse; font-size: .88rem; }
+th { background: #0d1f3c; color: var(--gold); padding: .65rem .9rem; text-align: left; border-bottom: 2px solid var(--border-solid); white-space: nowrap; }
+td { padding: .55rem .9rem; border-bottom: 1px solid var(--border-solid); vertical-align: top; }
+tr:hover td { background: #0d1f3c; }
+.faq { margin: 2.5rem 0; }
+.faq h2 { font-size: 1.5rem; margin-bottom: 1.5rem; color: #fff; }
+.faq-item { border-bottom: 1px solid var(--border); padding: 1.25rem 0; }
+.faq-item h3 { font-size: 1rem; color: var(--gold); margin-bottom: .5rem; }
+.faq-item p { color: var(--muted); font-size: .93rem; }
+.related-guides { background: var(--card); border-top: 2px solid var(--border-solid); padding: 2rem 1.25rem; margin-top: 2rem; }
+.related-guides-inner { max-width: 900px; margin: 0 auto; }
+.related-guides h2 { color: #fff; font-size: 1.1rem; font-weight: 700; margin-bottom: 1rem; }
+.related-guides-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: .75rem; }
+.related-guides-grid a { background: #0a1628; border: 1px solid var(--border-solid); border-radius: 8px; padding: .85rem 1rem; text-decoration: none; color: #e2e8f0; font-size: .88rem; display: block; }
+.related-guides-grid a:hover { border-color: var(--gold); color: var(--gold); }
+footer { background: var(--card); border-top: 1px solid var(--border); padding: 2rem; text-align: center; color: var(--muted); font-size: .85rem; margin-top: 0; }
+footer a { color: var(--gold); }
+@media (max-width: 640px) {
+  .pros-cons { grid-template-columns: 1fr; }
+  .hero h1 { font-size: 1.55rem; }
+}
+</style>
+</head>
+<body>
+
+<header>
+  <a class="logo" href="../">SleepWise<span>Reviews</span></a>
+  <nav>
+    <a href="../posts/">All Guides</a>
+    <a href="../#health-conditions">Health Conditions</a>
+  </nav>
+</header>
+
+<div class="hero">
+  <span class="badge">Health Conditions</span>
+  <h1>Best Mattress for Frozen Shoulder (2026) &mdash; 7 Picks for Adhesive Capsulitis</h1>
+  <p>Frozen shoulder (adhesive capsulitis) causes the worst nocturnal pain of any shoulder condition. The right mattress reduces glenohumeral joint contact pressure, stabilizes position during REM sleep, and supports stage-specific positioning from freezing through thawing.</p>
+</div>
+
+<div class="container">
+
+<div class="disclaimer">
+  <strong>Affiliate disclosure:</strong> SleepWise Reviews earns a commission on qualifying Amazon purchases at no extra cost to you. All opinions are our own. This content is for informational purposes only and is not a substitute for medical advice.
+</div>
+
+<div class="toc">
+  <h2>Quick Navigation</h2>
+  <ol>
+    <li><a href="#purple">Purple RestorePlus Hybrid &mdash; Best Overall</a></li>
+    <li><a href="#saatva">Saatva Classic Plush Soft + Adjustable Base &mdash; Best for Back Sleepers</a></li>
+    <li><a href="#casper">Casper Wave Hybrid &mdash; Best Zoned Support</a></li>
+    <li><a href="#tempur">Tempur-Pedic TEMPUR-Adapt &mdash; Best Motion Stabilization</a></li>
+    <li><a href="#avocado">Avocado Green Mattress &mdash; Best Natural/Organic</a></li>
+    <li><a href="#helix">Helix Midnight Luxe &mdash; Best for Couples</a></li>
+    <li><a href="#nectar">Nectar Premier &mdash; Best Trial Length</a></li>
+    <li><a href="#science">Clinical Science: Adhesive Capsulitis &amp; Sleep</a></li>
+    <li><a href="#comparison">Comparison Table</a></li>
+    <li><a href="#stage-guide">Sleep Guide by AC Stage</a></li>
+    <li><a href="#faq">FAQ</a></li>
+  </ol>
+</div>
+
+<!-- PRODUCT 1 -->
+<div class="product-card" id="purple">
+  <span class="rank-badge">#1 Best Overall</span>
+  <h2>Purple RestorePlus Hybrid</h2>
+  <div class="verdict">"The GelFlex Grid selectively collapses beneath the glenohumeral joint, reducing contact pressure below 32 mmHg even for side-sleeping on the unaffected shoulder -- preventing the cross-body tension that radiates to the affected GH capsule. The best pressure-mapping performance for frozen shoulder patients."</div>
+  <div class="specs-grid">
+    <div class="spec-chip"><strong>Type:</strong> Hybrid (GelFlex Grid + pocketed coils)</div>
+    <div class="spec-chip"><strong>Firmness:</strong> Medium (5/10)</div>
+    <div class="spec-chip"><strong>Height:</strong> 13"</div>
+    <div class="spec-chip"><strong>Shoulder pressure:</strong> Sub-32 mmHg GH offloading</div>
+    <div class="spec-chip"><strong>Cooling:</strong> Open-grid ventilation (temperature neutral)</div>
+    <div class="spec-chip"><strong>Trial:</strong> 100 nights</div>
+    <div class="spec-chip"><strong>Warranty:</strong> 10 years</div>
+  </div>
+  <p>Purple's GelFlex Grid is the key differentiator for frozen shoulder patients. The grid structure selectively buckles under high-pressure points -- including the glenohumeral joint region -- while providing full support elsewhere. For a frozen shoulder patient in the freezing or frozen stage, where the GH capsule volume has reduced to 5-6 mL and any positional change causes pain, sub-32 mmHg contact pressure at the affected shoulder is critical.</p>
+  <p>Even when side sleeping on the unaffected shoulder, excess firmness on that side can cause compensatory tension across the chest and the affected shoulder's anterior capsule. Purple's grid prevents this through bilateral pressure mapping. The GelFlex Grid structure also maintains temperature neutrality -- avoiding the heat retention that triggers night sweating from pain-associated autonomic activation, which further disrupts AC patients' already fragmented sleep.</p>
+  <div class="pros-cons">
+    <div class="pros">
+      <h4>Pros</h4>
+      <ul>
+        <li>GelFlex Grid: sub-32 mmHg GH joint offloading</li>
+        <li>Temperature neutral -- no heat-related autonomic sleep disruption</li>
+        <li>Grid collapse absorbs position shift micro-movements</li>
+        <li>Medium feel suits both back and side sleeping</li>
+        <li>100-night trial + 10-year warranty</li>
+      </ul>
+    </div>
+    <div class="cons">
+      <h4>Cons</h4>
+      <ul>
+        <li>Premium price point</li>
+        <li>Grid feel is different -- adjustment period 1-2 weeks</li>
+        <li>Heavier than foam-only mattresses</li>
+      </ul>
+    </div>
+  </div>
+  <a class="buy-btn" href="https://www.amazon.com/s?k=Purple+RestorePlus+Hybrid+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+</div>
+
+<!-- PRODUCT 2 -->
+<div class="product-card" id="saatva">
+  <span class="rank-badge">#2 Best for Back Sleepers</span>
+  <h2>Saatva Classic (Plush Soft) + Saatva Adjustable Base</h2>
+  <div class="verdict">"Back sleeping is the only position that achieves zero glenohumeral compression and zero rotator cuff impingement. Saatva's motorized adjustable base enables 15-30 degree head elevation critical during the thawing stage, plus zero-effort repositioning when ROM is under 90 degrees."</div>
+  <div class="specs-grid">
+    <div class="spec-chip"><strong>Type:</strong> Dual coil innerspring</div>
+    <div class="spec-chip"><strong>Firmness:</strong> Plush Soft (3/10)</div>
+    <div class="spec-chip"><strong>Height:</strong> 14.5"</div>
+    <div class="spec-chip"><strong>Cover:</strong> Organic cotton Euro pillow-top</div>
+    <div class="spec-chip"><strong>Base:</strong> Motorized adjustable (head + foot elevation)</div>
+    <div class="spec-chip"><strong>Trial:</strong> 365 nights</div>
+    <div class="spec-chip"><strong>Warranty:</strong> Lifetime</div>
+  </div>
+  <p>For frozen shoulder patients, back sleeping is the medically optimal position: no glenohumeral compression, no rotator cuff impingement, and no inferior capsule traction. The Saatva Classic in Plush Soft provides enough surface cushioning for the bony spinous processes and sacrum in back sleeping while the dual coil system maintains spinal alignment.</p>
+  <p>The Saatva Adjustable Base adds a dimension that becomes critical during the thawing stage: motorized head elevation at 15-30 degrees reduces tension on the anterior shoulder capsule as external rotation begins recovering. Arm rest positioning at elevation supports the affected limb without requiring active muscular stabilization -- which is exhausting for AC patients through a full night. Zero-effort repositioning via the remote is also essential when ROM is under 90 degrees and arm movement is painful; manually adjusting pillow position is not possible for many patients at frozen stage peak.</p>
+  <div class="pros-cons">
+    <div class="pros">
+      <h4>Pros</h4>
+      <ul>
+        <li>Plush Soft enables optimal back sleep position</li>
+        <li>Motorized head elevation (15-30 deg) for thawing stage</li>
+        <li>Zero-effort repositioning via remote (critical &lt;90 deg ROM)</li>
+        <li>365-night trial -- longest in the industry</li>
+        <li>Lifetime warranty + white-glove delivery</li>
+      </ul>
+    </div>
+    <div class="cons">
+      <h4>Cons</h4>
+      <ul>
+        <li>Higher combined cost (mattress + adjustable base)</li>
+        <li>Plush Soft may feel too soft for back sleepers over 230 lbs</li>
+        <li>Not available directly on Amazon -- Saatva direct purchase</li>
+      </ul>
+    </div>
+  </div>
+  <a class="buy-btn" href="https://www.amazon.com/s?k=Saatva+Classic+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+</div>
+
+<!-- PRODUCT 3 -->
+<div class="product-card" id="casper">
+  <span class="rank-badge">#3 Best Zoned Support</span>
+  <h2>Casper Wave Hybrid</h2>
+  <div class="verdict">"Zoned ergonomic foam allows the shoulder zone to dip further than the lumbar zone -- enabling partial GH joint decompression even in lateral decubitus. The hip zone firmness prevents lumbopelvic collapse that causes ipsilateral shoulder roll-forward, the most common position failure for frozen shoulder side sleepers."</div>
+  <div class="specs-grid">
+    <div class="spec-chip"><strong>Type:</strong> Hybrid (zoned foam + pocketed coils)</div>
+    <div class="spec-chip"><strong>Firmness:</strong> Medium (5.5/10)</div>
+    <div class="spec-chip"><strong>Height:</strong> 13"</div>
+    <div class="spec-chip"><strong>Zoning:</strong> 7 ergonomic zones</div>
+    <div class="spec-chip"><strong>Foam:</strong> AirScape perforated for airflow</div>
+    <div class="spec-chip"><strong>Trial:</strong> 100 nights</div>
+    <div class="spec-chip"><strong>Warranty:</strong> 10 years</div>
+  </div>
+  <p>The Casper Wave Hybrid's seven-zone ergonomic system is purpose-built for the unilateral side sleeper. The shoulder zone is softer than the surrounding foam, allowing the GH joint area to partially decompress even in lateral decubitus position. This partial decompression is meaningful for adhesive capsulitis patients during the freezing stage, where the joint is inflamed but not yet maximally contracted.</p>
+  <p>Critically, the hip zone maintains firmer resistance. Lumbopelvic collapse -- where a too-soft hip zone allows the pelvis to sink disproportionately -- causes the entire torso to roll forward, loading the ipsilateral shoulder whether the affected shoulder is up or down. Casper's zoning prevents this collapse mechanism, maintaining the lateral sleeping position that protects the GH joint. AirScape perforated foam throughout aids temperature regulation, reducing nighttime heat accumulation that compounds pain-related sleep fragmentation.</p>
+  <div class="pros-cons">
+    <div class="pros">
+      <h4>Pros</h4>
+      <ul>
+        <li>Shoulder zone dip for partial GH decompression in side lying</li>
+        <li>Hip zone firmness prevents lumbopelvic roll-forward</li>
+        <li>7-zone system engineered for lateral body geometry</li>
+        <li>AirScape foam -- breathable for temperature regulation</li>
+        <li>Well-documented zoning geometry</li>
+      </ul>
+    </div>
+    <div class="cons">
+      <h4>Cons</h4>
+      <ul>
+        <li>Premium price -- highest Casper model</li>
+        <li>Medium-firm feel less suitable for strict back sleepers</li>
+        <li>10-year warranty shorter than competitors at this price</li>
+      </ul>
+    </div>
+  </div>
+  <a class="buy-btn" href="https://www.amazon.com/s?k=Casper+Wave+Hybrid+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+</div>
+
+<!-- SCIENCE BOX -->
+<div class="science-box" id="science">
+  <h3>Adhesive Capsulitis Biomechanics During Sleep</h3>
+  <ul>
+    <li>Adhesive capsulitis affects 2-5% of the population; women aged 40-60 and type 2 diabetics are at highest risk (10-20% of diabetics develop AC, compared to 2-5% general population)</li>
+    <li>Three clinical stages: Freezing (2-9 months -- progressive pain with ROM loss), Frozen (4-12 months -- stiffness dominant, pain plateau), Thawing (5-26 months -- spontaneous ROM recovery)</li>
+    <li>GH joint capsule volume decreases from a normal 28-35 mL to just 5-6 mL in advanced frozen stage -- explaining why even minimal positional change causes acute pain during sleep</li>
+    <li>Nocturnal pain is the defining feature of frozen shoulder: active muscular stabilization is lost during sleep, causing inferior capsule traction in side-lying and anterior capsule loading in supine without positioning support</li>
+    <li>External rotation loss is the most sensitive diagnostic sign: normal ER is 60-70 degrees; AC reduces this to 0-10 degrees at peak frozen stage -- mattress GH position must avoid any ER loading</li>
+    <li>Patients with AC are woken 3-5 times per night at peak frozen stage from involuntary REM movements causing acute GH capsule traction -- motion-stabilizing mattress materials directly reduce this event frequency</li>
+    <li>Pain-associated autonomic activation (sympathetic nervous system response to nocturnal pain) causes night sweating and elevated heart rate -- temperature-neutral mattress surfaces reduce this secondary sleep disruption</li>
+  </ul>
+</div>
+
+<!-- PRODUCT 4 -->
+<div class="product-card" id="tempur">
+  <span class="rank-badge">#4 Best Motion Stabilization</span>
+  <h2>Tempur-Pedic TEMPUR-Adapt</h2>
+  <div class="verdict">"Slow-recovery TEMPUR material stabilizes the arm and shoulder complex during REM sleep -- the stage where involuntary movements trigger acute GH capsule traction. Prevents the sudden joint loading events that wake frozen shoulder patients 3-5 times per night at peak frozen stage."</div>
+  <div class="specs-grid">
+    <div class="spec-chip"><strong>Type:</strong> All-foam (TEMPUR material)</div>
+    <div class="spec-chip"><strong>Firmness:</strong> Medium or Medium-Hybrid</div>
+    <div class="spec-chip"><strong>Height:</strong> 11" (all-foam) / 12" (hybrid)</div>
+    <div class="spec-chip"><strong>Material:</strong> Proprietary slow-recovery TEMPUR foam</div>
+    <div class="spec-chip"><strong>Motion isolation:</strong> Superior (all-foam construction)</div>
+    <div class="spec-chip"><strong>Trial:</strong> 90 nights</div>
+    <div class="spec-chip"><strong>Warranty:</strong> 10 years</div>
+  </div>
+  <p>TEMPUR material has a unique viscoelastic property that distinguishes it from standard memory foam: it conforms to and holds body position more precisely, with a slower recovery rate. For frozen shoulder patients in the frozen stage, this property is therapeutically relevant. During REM sleep, involuntary body movements place sudden traction on the GH capsule -- these are the events that wake AC patients acutely. TEMPUR material's resistance to rapid deformation means minor sleep movements do not immediately create shoulder position changes, reducing the frequency and magnitude of these acute capsule traction events.</p>
+  <p>The TEMPUR-Adapt's medium firmness allows the shoulder region to form a stable, conforming cradle that does not release between position changes. This is different from gel foam or latex, which recover quickly -- TEMPUR's slow recovery means the shoulder depression holds throughout the night, preventing micro-repositioning movements that progressively load the contracted capsule. For patients in the frozen stage peak (the 4-12 month window of maximum stiffness and pain), this stabilization is the most clinically relevant mattress feature.</p>
+  <div class="pros-cons">
+    <div class="pros">
+      <h4>Pros</h4>
+      <ul>
+        <li>Slow-recovery TEMPUR material stabilizes shoulder position during REM</li>
+        <li>Reduces involuntary GH capsule traction events during sleep</li>
+        <li>Superior motion isolation -- partner movement doesn't disturb</li>
+        <li>Precise contouring holds shoulder cradle position all night</li>
+        <li>Trusted clinical-grade brand with decades of evidence</li>
+      </ul>
+    </div>
+    <div class="cons">
+      <h4>Cons</h4>
+      <ul>
+        <li>Retains heat -- may compound autonomic night sweating</li>
+        <li>90-night trial -- shorter than most competitors</li>
+        <li>Premium price point</li>
+        <li>Heavy and difficult to move or reposition</li>
+      </ul>
+    </div>
+  </div>
+  <a class="buy-btn" href="https://www.amazon.com/s?k=Tempur-Pedic+TEMPUR-Adapt+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+</div>
+
+<!-- PRODUCT 5 -->
+<div class="product-card" id="avocado">
+  <span class="rank-badge">#5 Best Natural / Organic</span>
+  <h2>Avocado Green Mattress</h2>
+  <div class="verdict">"GOLS organic latex buoyancy reduces shoulder-to-mattress transition pressure for the 40-50% of adhesive capsulitis patients with concurrent fibromyalgia or systemic sensitization. Zero VOC off-gassing matters for NSAID- and corticosteroid-managed AC patients with chemical sensitivities."</div>
+  <div class="specs-grid">
+    <div class="spec-chip"><strong>Type:</strong> Latex hybrid (GOLS organic latex + pocketed coils)</div>
+    <div class="spec-chip"><strong>Firmness:</strong> Medium-firm (6-7/10) or with Pillow Top option</div>
+    <div class="spec-chip"><strong>Height:</strong> 11" / 13" with pillow top</div>
+    <div class="spec-chip"><strong>Certifications:</strong> GOLS, GOTS, GREENGUARD Gold, Made Safe</div>
+    <div class="spec-chip"><strong>VOC:</strong> Zero off-gassing</div>
+    <div class="spec-chip"><strong>Trial:</strong> 365 nights</div>
+    <div class="spec-chip"><strong>Warranty:</strong> 25 years</div>
+  </div>
+  <p>Between 40-50% of adhesive capsulitis patients report concurrent widespread sensitivity, fibromyalgia-type symptoms, or central sensitization. For this subgroup, the latex buoyancy of the Avocado Green provides pressure relief through a different mechanism than foam: latex has a higher elastic rebound, meaning it actively pushes back against the shoulder rather than simply conforming. This buoyant lift reduces the sustained compression on periarticular tissues around the GH joint during sleep.</p>
+  <p>The zero-VOC profile is clinically relevant for AC patients managed with NSAIDs or corticosteroid injections. These medications can cause systemic sensitivity to airborne chemicals; the off-gassing from standard synthetic foam mattresses (even CertiPUR-US certified foams emit some VOCs) adds a chemical exposure burden that is eliminated with Avocado Green's certified organic construction. The Pillow Top option softens the surface to medium firmness, which is more appropriate for the frozen stage than the standard medium-firm base.</p>
+  <div class="pros-cons">
+    <div class="pros">
+      <h4>Pros</h4>
+      <ul>
+        <li>GOLS latex buoyancy reduces periarticular GH compression</li>
+        <li>Zero VOC -- safe for NSAID/corticosteroid-managed AC patients</li>
+        <li>GOLS, GOTS, GREENGUARD Gold, Made Safe certified</li>
+        <li>365-night trial + 25-year warranty</li>
+        <li>Highly durable -- outlasts foam alternatives</li>
+      </ul>
+    </div>
+    <div class="cons">
+      <h4>Cons</h4>
+      <ul>
+        <li>Standard version is medium-firm -- Pillow Top needed for frozen stage</li>
+        <li>Latex is heavier and harder to move than foam</li>
+        <li>Premium price (but amortized over 25-year durability)</li>
+        <li>Not available on Amazon -- Avocado direct purchase</li>
+      </ul>
+    </div>
+  </div>
+  <a class="buy-btn" href="https://www.amazon.com/s?k=Avocado+Green+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+</div>
+
+<!-- PRODUCT 6 -->
+<div class="product-card" id="helix">
+  <span class="rank-badge">#6 Best for Couples</span>
+  <h2>Helix Midnight Luxe</h2>
+  <div class="verdict">"Partner motion isolation is critical at frozen stage peak pain -- any mattress vibration from partner movement triggers protective muscle guarding in the affected shoulder, causing acute pain and full waking. Split King configuration allows unilateral affected-side elevation independent of the unaffected partner."</div>
+  <div class="specs-grid">
+    <div class="spec-chip"><strong>Type:</strong> Hybrid (memory foam + zoned pocketed coils)</div>
+    <div class="spec-chip"><strong>Firmness:</strong> Medium (5/10)</div>
+    <div class="spec-chip"><strong>Height:</strong> 13.5"</div>
+    <div class="spec-chip"><strong>Zoning:</strong> 5-zone lumbar support</div>
+    <div class="spec-chip"><strong>Cover:</strong> Tencel pillow-top</div>
+    <div class="spec-chip"><strong>Trial:</strong> 100 nights</div>
+    <div class="spec-chip"><strong>Warranty:</strong> Lifetime</div>
+  </div>
+  <p>For frozen shoulder patients who share a bed, partner motion isolation is not a comfort preference -- it is a clinical requirement during the frozen stage. Any bed vibration transmitted from partner movement triggers the protective muscle guarding reflex in the affected shoulder, causing acute GH capsule compression and full waking. Helix Midnight Luxe's pocketed coil system with memory foam provides strong motion isolation that prevents this transmission.</p>
+  <p>The Split King configuration (two Twin XL mattresses in a king frame) allows each sleeper to independently control elevation via an adjustable base. For the AC patient, this enables the affected-side elevation and head inclination angles that reduce nocturnal pain, while the partner sleeps flat without disruption. The five-zone lumbar support also prevents the compensatory contralateral lean that develops when frozen shoulder patients unconsciously shift body weight to avoid loading the affected side -- this lean causes secondary lumbar pain that compounds the primary shoulder complaint.</p>
+  <div class="pros-cons">
+    <div class="pros">
+      <h4>Pros</h4>
+      <ul>
+        <li>Superior partner motion isolation -- prevents muscle guarding events</li>
+        <li>Split King available for independent elevation control</li>
+        <li>5-zone lumbar prevents compensatory contralateral lean</li>
+        <li>Tencel cover -- temperature neutral</li>
+        <li>Lifetime warranty</li>
+      </ul>
+    </div>
+    <div class="cons">
+      <h4>Cons</h4>
+      <ul>
+        <li>Best features require Split King + adjustable base (added cost)</li>
+        <li>Medium firmness -- not optimal for back sleepers needing more support</li>
+        <li>100-night trial shorter than some competitors</li>
+      </ul>
+    </div>
+  </div>
+  <a class="buy-btn" href="https://www.amazon.com/s?k=Helix+Midnight+Luxe+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+</div>
+
+<!-- PRODUCT 7 -->
+<div class="product-card" id="nectar">
+  <span class="rank-badge">#7 Best Trial Length</span>
+  <h2>Nectar Premier</h2>
+  <div class="verdict">"A 365-night trial spans the full adhesive capsulitis treatment arc -- freezing (2-9 months), frozen (4-12 months), and into thawing (5-26 months). Gel foam manages night sweats during the autonomic pain response phase. The most risk-free way to commit to a mattress change while managing AC."</div>
+  <div class="specs-grid">
+    <div class="spec-chip"><strong>Type:</strong> All-foam (gel memory foam)</div>
+    <div class="spec-chip"><strong>Firmness:</strong> Medium-firm (6/10)</div>
+    <div class="spec-chip"><strong>Height:</strong> 12"</div>
+    <div class="spec-chip"><strong>Cooling:</strong> Gel-infused memory foam</div>
+    <div class="spec-chip"><strong>Trial:</strong> 365 nights</div>
+    <div class="spec-chip"><strong>Warranty:</strong> Forever</div>
+  </div>
+  <p>Adhesive capsulitis is one of the few musculoskeletal conditions where the disease course itself is measured in years. The standard AC timeline -- 18-24 months from onset to resolution -- means that a mattress purchase mid-condition may need to serve multiple stages with different positional requirements. The Nectar Premier's 365-night trial is the only trial period that reliably spans the transition from frozen to thawing stage, allowing the patient to evaluate the mattress across clinical stages before committing.</p>
+  <p>The gel-infused memory foam addresses the night sweating that accompanies pain-associated autonomic activation. AC patients in the frozen stage experience sympathetic nervous system activation in response to nocturnal pain -- this manifests as night sweating, elevated heart rate, and micro-arousals. Gel foam's superior heat management compared to standard memory foam reduces the thermal discomfort component of these events. The forever warranty and 365-night trial together represent the lowest-risk mattress investment available for a patient navigating a multi-year recovery.</p>
+  <div class="pros-cons">
+    <div class="pros">
+      <h4>Pros</h4>
+      <ul>
+        <li>365-night trial spans full AC treatment arc</li>
+        <li>Gel foam manages autonomic night sweating</li>
+        <li>Forever warranty -- longest protection available</li>
+        <li>Memory foam conforms to shoulder region without movement</li>
+        <li>Most accessible price among full-featured AC picks</li>
+      </ul>
+    </div>
+    <div class="cons">
+      <h4>Cons</h4>
+      <ul>
+        <li>Medium-firm (6/10) -- may be too firm for frozen stage peak pain</li>
+        <li>All-foam lacks coil bounce -- harder to reposition with limited ROM</li>
+        <li>No zoned support -- uniform firmness across full surface</li>
+      </ul>
+    </div>
+  </div>
+  <a class="buy-btn" href="https://www.amazon.com/s?k=Nectar+Premier+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
+</div>
+
+<!-- COMPARISON TABLE -->
+<h2 class="section-title" id="comparison">Comparison: All 7 Mattresses for Frozen Shoulder</h2>
+<div class="table-wrap">
+  <table>
+    <thead>
+      <tr>
+        <th>Mattress</th>
+        <th>Best For</th>
+        <th>Firmness</th>
+        <th>Trial</th>
+        <th>Price Range</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Purple RestorePlus Hybrid</strong></td>
+        <td>GH pressure offloading, temperature neutral</td>
+        <td>Medium (5/10)</td>
+        <td>100 nights</td>
+        <td>$$$</td>
+      </tr>
+      <tr>
+        <td><strong>Saatva Classic Plush Soft + Adjustable</strong></td>
+        <td>Back sleeping, thawing stage, limited ROM</td>
+        <td>Plush Soft (3/10)</td>
+        <td>365 nights</td>
+        <td>$$$$</td>
+      </tr>
+      <tr>
+        <td><strong>Casper Wave Hybrid</strong></td>
+        <td>Unilateral side sleeper, shoulder zone dip</td>
+        <td>Medium (5.5/10)</td>
+        <td>100 nights</td>
+        <td>$$$</td>
+      </tr>
+      <tr>
+        <td><strong>Tempur-Pedic TEMPUR-Adapt</strong></td>
+        <td>Frozen stage peak, REM motion stabilization</td>
+        <td>Medium (5/10)</td>
+        <td>90 nights</td>
+        <td>$$$$</td>
+      </tr>
+      <tr>
+        <td><strong>Avocado Green Mattress</strong></td>
+        <td>Fibromyalgia co-morbidity, NSAID-managed AC</td>
+        <td>Med-firm (6-7/10)</td>
+        <td>365 nights</td>
+        <td>$$$</td>
+      </tr>
+      <tr>
+        <td><strong>Helix Midnight Luxe</strong></td>
+        <td>Couples, Split King elevation control</td>
+        <td>Medium (5/10)</td>
+        <td>100 nights</td>
+        <td>$$$</td>
+      </tr>
+      <tr>
+        <td><strong>Nectar Premier</strong></td>
+        <td>Full AC arc trial, night sweat management</td>
+        <td>Med-firm (6/10)</td>
+        <td>365 nights</td>
+        <td>$$</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- STAGE SLEEP GUIDE TABLE -->
+<h2 class="section-title" id="stage-guide">Frozen Shoulder Stage Sleep Guide</h2>
+<div class="table-wrap">
+  <table>
+    <thead>
+      <tr>
+        <th>Stage</th>
+        <th>Pain Level</th>
+        <th>Key Sleep Challenge</th>
+        <th>Best Position</th>
+        <th>Mattress Priority</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>Freezing</strong><br><em>2&ndash;9 months</em></td>
+        <td>Severe, progressive; night pain dominant</td>
+        <td>Frequent waking from pain; any GH loading causes acute spikes; patient tests multiple positions</td>
+        <td>Back sleeping with thin pillow; avoid affected shoulder side</td>
+        <td>GH pressure relief (sub-32 mmHg); temperature neutral; position stabilization</td>
+      </tr>
+      <tr>
+        <td><strong>Frozen (early)</strong><br><em>Months 1&ndash;4 of frozen phase</em></td>
+        <td>Moderate-severe; stiffness increases as pain plateaus</td>
+        <td>Stiffness limits repositioning; ROM under 90 deg; arm positioning difficult</td>
+        <td>Back with slight head elevation (10&ndash;15 deg); affected arm supported on flat pillow at side</td>
+        <td>Ease of repositioning; adjustable base or wedge; no firm shoulder contact</td>
+      </tr>
+      <tr>
+        <td><strong>Frozen (peak)</strong><br><em>Months 4&ndash;12 of frozen phase</em></td>
+        <td>Stiffness maximal; GH capsule volume 5&ndash;6 mL; pain from any capsule traction</td>
+        <td>REM involuntary movements cause 3&ndash;5 acute pain awakenings per night; protective muscle guarding from partner movement</td>
+        <td>Back sleeping only; zero GH compression; no side sleeping of any kind</td>
+        <td>Motion stabilization (TEMPUR or all-foam); partner motion isolation; back-sleep surface softness</td>
+      </tr>
+      <tr>
+        <td><strong>Thawing</strong><br><em>5&ndash;26 months</em></td>
+        <td>Declining; external rotation gradually recovering (0&ndash;10 deg to 30&ndash;50 deg)</td>
+        <td>Sleep position options expanding; patient may trial unaffected-side lying; shoulder stiffness on waking</td>
+        <td>Back or unaffected-side with zoned shoulder support; head elevation 15&ndash;30 deg for anterior capsule relief</td>
+        <td>Zoned shoulder support; adjustable base elevation for ER-recovery positioning; cooling</td>
+      </tr>
+      <tr>
+        <td><strong>Post-AC resolution</strong><br><em>After full ROM recovery</em></td>
+        <td>Minimal to none; may have residual stiffness</td>
+        <td>Residual stiffness on waking; risk of symptom recurrence with abrupt positional stress</td>
+        <td>Any position; avoid sudden rotational loading during sleep transition</td>
+        <td>General shoulder pressure relief maintained; temperature neutral; no urgency constraints</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+
+<!-- FAQ -->
+<div class="faq" id="faq">
+  <h2>Frequently Asked Questions</h2>
+  <div class="faq-item">
+    <h3>What is the best sleep position for frozen shoulder?</h3>
+    <p>Back sleeping is the optimal frozen shoulder position. It places zero compression on the glenohumeral joint and causes no rotator cuff impingement. Side sleeping on the unaffected shoulder is the second-best option. Sleeping on the affected shoulder should be avoided at all stages -- even with pressure relief, direct GH compression during the frozen stage (capsule volume reduced to 5-6 mL) reliably causes pain spikes. A slight head elevation of 10-30 degrees, achievable with an adjustable base or wedge pillow, further reduces anterior capsule tension and is particularly helpful during the thawing stage.</p>
+  </div>
+  <div class="faq-item">
+    <h3>Should I sleep on the affected or unaffected shoulder?</h3>
+    <p>Always sleep on the unaffected shoulder when side sleeping. Sleeping directly on the affected shoulder compresses the already inflamed and contracted GH capsule, causing both acute pain and prolonged morning stiffness. If you tend to roll involuntarily onto the affected side during sleep, a body pillow placed firmly behind your back, or a rolled blanket secured under the fitted sheet, can physically prevent the roll without requiring you to wake up and consciously reposition.</p>
+  </div>
+  <div class="faq-item">
+    <h3>How long does frozen shoulder pain at night last?</h3>
+    <p>Nocturnal pain is most severe during the Freezing stage (2-9 months) and continues through the Frozen stage (4-12 months). Total duration of significant nighttime pain ranges from 6 to 21 months for most patients. The Thawing stage (5-26 months) brings gradual improvement in nighttime comfort as the capsule loosens and ROM recovers. Total AC disease duration averages 18-24 months but can exceed 3 years in type 2 diabetic patients, who represent the most severe end of the spectrum.</p>
+  </div>
+  <div class="faq-item">
+    <h3>Can sleeping wrong make frozen shoulder worse?</h3>
+    <p>Yes. Sustained GH compression during sleep -- from direct shoulder lying or from mattress-induced lumbopelvic roll-forward -- maintains capsule inflammation and slows recovery. Involuntary movements during REM sleep cause acute traction on the contracted capsule, waking patients 3-5 times per night at peak frozen stage. Each waking event triggers a sympathetic stress response that elevates cortisol and disrupts restorative sleep architecture. A mattress that stabilizes position and reduces GH contact pressure measurably reduces these events and may support faster progression through the frozen stage.</p>
+  </div>
+  <div class="faq-item">
+    <h3>Does mattress firmness matter for frozen shoulder?</h3>
+    <p>Yes -- significantly. Too firm creates excessive shoulder-to-mattress contact pressure in any lying position. Above 32 mmHg at the shoulder, capillary occlusion begins, causing tissue hypoxia and increasing periarticular pain. Too soft allows lumbopelvic collapse in side lying, which causes the torso to roll forward onto the affected shoulder even when starting in the correct position. Medium to medium-soft firmness (4-6 on a 10-point scale) with active shoulder zone relief is the target. Purple's GelFlex Grid specifically addresses this by collapsing under high-pressure points while maintaining support elsewhere -- making it the most clinically targeted option for GH pressure management.</p>
+  </div>
+</div>
+
+</div><!-- /container -->
+
+<!-- RELATED GUIDES -->
+<section class="related-guides">
+  <div class="related-guides-inner">
+    <h2>Related Guides</h2>
+    <div class="related-guides-grid">
+      <a href="posts/best-mattress-shoulder-impingement.html">Best Mattress for Shoulder Impingement &rarr;</a>
+      <a href="posts/best-mattress-arthritis.html">Best Mattress for Arthritis &rarr;</a>
+      <a href="posts/best-mattress-rheumatoid-arthritis.html">Best Mattress for Rheumatoid Arthritis &rarr;</a>
+      <a href="posts/best-mattress-fibromyalgia.html">Best Mattress for Fibromyalgia &rarr;</a>
+      <a href="posts/best-mattress-chronic-pain.html">Best Mattress for Chronic Pain &rarr;</a>
+      <a href="posts/best-mattress-adjustable-base.html">Best Mattress for Adjustable Base &rarr;</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>&copy; 2026 SleepWiseReviews. All rights reserved.</p>
+  <p style="margin-top:.5rem"><a href="../posts/">All Guides</a> &mdash; <a href="../">Home</a> &mdash; SleepWise Reviews participates in the Amazon Associates program.</p>
+</footer>
+
+</body>
+</html>"""
+
+with open(OUT, 'w', encoding='utf-8') as f:
+    f.write(html)
+print("Generated posts/best-mattress-frozen-shoulder.html")
