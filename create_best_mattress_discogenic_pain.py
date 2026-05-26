@@ -1,0 +1,511 @@
+import os
+
+html = '''<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Best Mattress for Discogenic Pain 2026 -- 7 Picks for Axial Back Pain Without Nerve Symptoms</title>
+  <meta name="description" content="7 mattresses chosen for internal disc disruption (discogenic pain) -- axial lower back pain without leg symptoms. Covers annular tear mechanics, intradiscal pressure by sleep position, morning disc imbibition, and lumbar lordosis maintenance.">
+  <link rel="canonical" href="https://sleepwisereviews.com/posts/best-mattress-discogenic-pain.html">
+  <meta property="og:title" content="Best Mattress for Discogenic Pain 2026 -- 7 Picks for Axial Back Pain">
+  <meta property="og:description" content="7 mattresses for discogenic pain -- internal disc disruption with axial back pain but no leg symptoms. Intradiscal pressure guide, sleep position protocol, morning stiffness explained.">
+  <meta property="og:type" content="article">
+  <meta property="og:url" content="https://sleepwisereviews.com/posts/best-mattress-discogenic-pain.html">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Best Mattress for Discogenic Pain 2026">
+  <meta name="twitter:description" content="7 mattresses for internal disc disruption -- axial lower back pain without nerve symptoms. Disc pressure by sleep position, morning imbibition stiffness, lordosis maintenance guide.">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Article",
+        "headline": "Best Mattress for Discogenic Pain 2026",
+        "description": "7 mattresses for internal disc disruption -- axial lower back pain without nerve root compression. Covers annular tear mechanics, intradiscal pressure by sleep position, and morning disc imbibition.",
+        "datePublished": "2026-05-26",
+        "dateModified": "2026-05-26",
+        "author": {"@type": "Organization", "name": "SleepWise Reviews"},
+        "publisher": {"@type": "Organization", "name": "SleepWise Reviews", "url": "https://sleepwisereviews.com"}
+      },
+      {
+        "@type": "BreadcrumbList",
+        "itemListElement": [
+          {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://sleepwisereviews.com"},
+          {"@type": "ListItem", "position": 2, "name": "Health Conditions", "item": "https://sleepwisereviews.com/#health-conditions"},
+          {"@type": "ListItem", "position": 3, "name": "Best Mattress for Discogenic Pain", "item": "https://sleepwisereviews.com/posts/best-mattress-discogenic-pain.html"}
+        ]
+      },
+      {
+        "@type": "ItemList",
+        "name": "Best Mattresses for Discogenic Pain 2026",
+        "itemListElement": [
+          {"@type": "ListItem", "position": 1, "name": "Saatva Classic Luxury Firm -- Best Overall for Lumbar Lordosis"},
+          {"@type": "ListItem", "position": 2, "name": "Helix Midnight Luxe -- Best for Side Sleepers with Discogenic Pain"},
+          {"@type": "ListItem", "position": 3, "name": "Tempur-Pedic TEMPUR-Adapt -- Best for Morning Stiffness Reduction"},
+          {"@type": "ListItem", "position": 4, "name": "WinkBed Luxury Firm -- Best Back Sleeper Support"},
+          {"@type": "ListItem", "position": 5, "name": "Avocado Green Mattress -- Best Rebound for Position Changes"},
+          {"@type": "ListItem", "position": 6, "name": "Nectar Premier Copper -- Best Pressure Diffusion on a Budget"},
+          {"@type": "ListItem", "position": 7, "name": "Leesa Legend Hybrid -- Best Zoned Disc-Load Reduction"}
+        ]
+      },
+      {
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is discogenic pain and how is it different from a herniated disc?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Discogenic pain arises from internal disc disruption -- typically an annular tear that sensitizes the inner disc without a fragment compressing a nerve root. The key distinction: discogenic pain is axial (confined to the lower back) with no radiation into the leg. A herniated disc, by contrast, involves nuclear material pushing against a nerve root, causing radiculopathy -- shooting pain, numbness, or weakness down the leg. This difference matters for mattress selection: herniated disc requires nerve decompression geometry; discogenic pain requires minimizing intradiscal pressure load through the night, which is achieved through different support priorities."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Why is morning pain worse with discogenic pain?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Morning stiffness in discogenic pain is largely explained by disc imbibition -- the process by which discs rehydrate overnight. Intervertebral discs have no direct blood supply; they absorb fluid (imbibition) when spinal load is removed during recumbent rest. After 7-8 hours of imbibition, the disc is slightly thicker and more pressurized than it was the previous evening. If the annular tear is sensitized, this increased internal pressure triggers pain before you even stand up. A mattress that allows the spine to drop into lumbar flexion overnight (a sagging mattress or one that is too soft) aggravates this by also increasing intradiscal pressure mechanically. The goal is a mattress that maintains lumbar lordosis through the night, minimizing the mechanical contribution to morning disc pressure."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What firmness is best for discogenic lower back pain?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Medium-firm (6-7 out of 10) is the clinical consensus starting point for most discogenic pain patients. The goal is maintaining lumbar lordosis -- the natural inward curve of the lower spine -- throughout the night. A mattress that is too soft allows the pelvis to sink and the lumbar spine to flex, increasing intradiscal pressure on the sensitized annular fibers. A mattress that is too firm prevents the hip from sinking appropriately in side sleeping, causing lateral pelvic tilt and oblique loading of the disc. Zoned support (firmer under the lumbar, softer under the shoulder and hip) is preferable to uniform firmness."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What sleep position is best for discogenic pain?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Back sleeping with a pillow under the knees is generally the lowest disc-pressure position for discogenic pain, consistent with Nachemson's intradiscal pressure measurements (supine produces approximately 25% of standing disc pressure). Side sleeping is acceptable with a pillow between the knees to keep the pelvis level and prevent lumbar flexion. Stomach sleeping is the worst position -- it places the lumbar spine into extension and rotation simultaneously, generating high disc pressure in a way that is particularly irritating to annular tears. Any position that causes the lower back to round (flex) should be avoided: this increases annular stress at the sensitized tear site."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "Does an adjustable base help discogenic pain?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Yes -- but differently than for herniated disc. For discogenic pain, the goal of an adjustable base is not nerve decompression (there is no nerve root involved) but intradiscal pressure reduction. Raising the legs to approximately 15-30 degrees (zero-gravity position) flexes the hips and reduces the compressive load on the lumbar discs by redistributing body weight. Nachemson's classic measurements show the supine position with hip and knee flexion produces lower intradiscal pressure than lying fully flat. An adjustable base achieves this mechanically and holds the position consistently through the night, unlike pillow stacking which shifts during sleep."
+            }
+          }
+        ]
+      }
+    ]
+  }
+  </script>
+  <style>
+    :root {
+      --bg: #0a1628;
+      --card: #111e33;
+      --gold: #c9a84c;
+      --text: #e2e8f0;
+      --muted: #94a3b8;
+      --border: #1e3a5f;
+    }
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body { background: var(--bg); color: var(--text); font-family: Georgia, serif; font-size: 1.05rem; line-height: 1.75; }
+    a { color: #93c5fd; }
+    .wrap { max-width: 820px; margin: 0 auto; padding: 2rem 1.25rem; }
+    h1 { font-size: 2rem; color: var(--gold); margin-bottom: .5rem; line-height: 1.25; }
+    h2 { font-size: 1.35rem; color: var(--gold); margin: 2rem 0 .75rem; }
+    h3 { font-size: 1.1rem; color: #93c5fd; margin: 1.5rem 0 .5rem; }
+    p { margin-bottom: 1rem; }
+    .meta { color: var(--muted); font-size: .88rem; margin-bottom: 1.5rem; }
+    .cat-badge { display: inline-block; background: #dc2626; color: #fff; font-size: .78rem; padding: .25rem .75rem; border-radius: 20px; margin-bottom: 1rem; text-transform: uppercase; letter-spacing: .06em; font-weight: 700; }
+    .intro { font-size: 1.1rem; margin-bottom: 2rem; }
+    .pick { background: var(--card); border: 1px solid var(--border); border-radius: 10px; padding: 1.5rem; margin-bottom: 1.5rem; }
+    .pick-rank { font-size: .8rem; color: var(--muted); text-transform: uppercase; letter-spacing: .08em; }
+    .pick h3 { margin-top: .25rem; font-size: 1.2rem; color: var(--gold); }
+    .pick-tag { display: inline-block; font-size: .78rem; background: #0f2d4a; color: #7dd3fc; border: 1px solid #1e4a6e; border-radius: 4px; padding: .15rem .6rem; margin: .4rem .3rem 0 0; }
+    .pick-specs { width: 100%; border-collapse: collapse; margin: 1rem 0; font-size: .88rem; }
+    .pick-specs th { background: #0f2d4a; color: #93c5fd; padding: .4rem .75rem; text-align: left; }
+    .pick-specs td { padding: .4rem .75rem; border-bottom: 1px solid var(--border); }
+    .pick-specs tr:last-child td { border-bottom: none; }
+    .cta-btn { display: inline-block; background: var(--gold); color: #0a1628; font-weight: bold; padding: .65rem 1.4rem; border-radius: 6px; text-decoration: none; margin-top: 1rem; font-size: .95rem; }
+    .science-box { background: #0d1f38; border-left: 3px solid var(--gold); padding: 1rem 1.25rem; margin: 2rem 0; border-radius: 0 8px 8px 0; }
+    .science-box p { font-size: .92rem; color: var(--muted); }
+    .warning-box { background: #1a0a0a; border-left: 3px solid #dc2626; padding: 1rem 1.25rem; margin: 2rem 0; border-radius: 0 8px 8px 0; }
+    .warning-box p { font-size: .92rem; }
+    table.guide { width: 100%; border-collapse: collapse; font-size: .88rem; margin: 1.5rem 0; }
+    table.guide th { background: #0f2d4a; color: #93c5fd; padding: .5rem .75rem; text-align: left; }
+    table.guide td { padding: .5rem .75rem; border-bottom: 1px solid var(--border); }
+    table.guide tr:nth-child(even) td { background: rgba(255,255,255,.02); }
+    table.guide tr:last-child td { border-bottom: none; }
+    .position-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin: 1.5rem 0; }
+    .position-card { background: var(--card); border: 1px solid var(--border); border-radius: 8px; padding: 1rem; }
+    .position-card strong { color: var(--gold); display: block; margin-bottom: .35rem; }
+    .verdict-box { background: #0d2235; border: 2px solid var(--gold); border-radius: 10px; padding: 1.5rem; margin: 2rem 0; }
+    .verdict-box h2 { margin-top: 0; }
+    .faq-item { border-bottom: 1px solid var(--border); padding: 1.25rem 0; }
+    .faq-item:last-child { border-bottom: none; }
+    .faq-q { font-size: 1rem; color: var(--gold); font-weight: bold; margin-bottom: .5rem; }
+    .faq-a { font-size: .92rem; color: var(--text); }
+    footer { text-align: center; padding: 2rem 1rem; color: var(--muted); font-size: .85rem; border-top: 1px solid var(--border); margin-top: 2rem; }
+    @media (max-width: 600px) { h1 { font-size: 1.5rem; } .position-grid { grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+<div class="wrap">
+
+  <span class="cat-badge">Health</span>
+  <h1>Best Mattress for Discogenic Pain 2026 &mdash; 7 Picks for Axial Back Pain Without Nerve Symptoms</h1>
+  <p class="meta">Reviewed by SleepWise Reviews &bull; Updated May 2026 &bull; 7 picks</p>
+
+  <p class="intro">Discogenic pain is one of the most misunderstood sources of lower back pain. Unlike a herniated disc (where nuclear material compresses a nerve root) or degenerative disc disease (where the disc loses height over decades), discogenic pain comes from an annular tear &mdash; a disruption of the disc wall that sensitizes internal pain receptors without any nerve root involvement. The result: severe axial back pain that stays in the lower back, with no radiation into the leg. Your sleep surface matters here in a specific way: it must minimize intradiscal pressure load through the night, maintain lumbar lordosis to prevent flexion-load on the sensitized annular fibers, and reduce the morning pressure spike from overnight disc imbibition. These 7 mattresses were chosen for exactly that purpose.</p>
+
+  <!-- CLINICAL SCIENCE BOX -->
+  <div class="science-box">
+    <h3 style="color:var(--gold);margin-top:0;">Clinical Science: Internal Disc Disruption and Sleep</h3>
+    <p><strong>What is an annular tear?</strong> The intervertebral disc has a tough outer wall (the annulus fibrosus) and a gel-like core (the nucleus pulposus). An annular tear is a radial crack through the annular wall. In discogenic pain, this tear sensitizes nociceptors (pain receptors) that grow into the damaged tissue. There is no nerve root compression &mdash; this is why there are no leg symptoms. The pain is generated from within the disc itself.</p>
+    <p><strong>Annular tear vs. herniation vs. DDD:</strong> These are distinct conditions. A herniated disc occurs when nuclear material pushes through an annular tear and compresses a nerve root (causing radiculopathy). DDD is the age-related loss of disc height and hydration. Discogenic pain (internal disc disruption) is the annular tear itself &mdash; which can exist without herniation and without significant disc height loss.</p>
+    <p><strong>Intradiscal pressure and sleep position:</strong> Alf Nachemson's classic intradiscal pressure measurements quantified how body position loads the lumbar disc. Supine (lying on the back) produces approximately 25% of the disc pressure of standing upright. Side lying produces roughly 75% of standing pressure. Sitting upright produces 140% of standing pressure. Sitting with forward flexion exceeds 185%. The clinical implication: back sleeping is the lowest disc-pressure position available &mdash; and a mattress that allows the spine to sag into flexion during back sleeping effectively converts your sleep into a sustained high-pressure posture.</p>
+    <p><strong>Lumbar lordosis and disc mechanics:</strong> The lumbar spine has a natural inward curve (lordosis). When this curve is lost &mdash; as happens when a soft mattress allows the pelvis to sink &mdash; the disc moves into flexion. Disc flexion compresses the anterior annulus and tensions the posterior annulus, which is precisely where most sensitized annular tears occur. Maintaining lordosis during sleep is the primary mechanical goal for discogenic pain. A mattress that is too soft, sagging, or without zoned lumbar reinforcement fails this goal across every sleeping hour.</p>
+    <p><strong>Morning stiffness from disc imbibition:</strong> Intervertebral discs have no direct blood supply. They receive nutrition and hydration through imbibition &mdash; fluid absorption when the disc is unloaded during rest. After 7-8 hours of recumbency, the disc is measurably thicker and more internally pressurized than at bedtime. When the annulus is torn and sensitized, this overnight pressure increase causes the pain that peaks on waking and improves after standing for 20-30 minutes (as axial loading gradually expels fluid and reduces internal pressure). A mattress that adds mechanical disc flexion load on top of imbibition pressure makes morning stiffness substantially worse.</p>
+  </div>
+
+  <div class="warning-box">
+    <p><strong>Seek medical evaluation if:</strong> your back pain radiates into the leg below the knee, you have numbness or tingling in the leg or foot, you experience sudden weakness in the leg, or you have any bladder or bowel changes. These symptoms suggest nerve root involvement &mdash; a different diagnosis requiring a different treatment pathway. Discogenic pain is defined by the absence of these symptoms.</p>
+  </div>
+
+  <!-- COMPARISON TABLE -->
+  <h2>Comparison Table: All 7 Picks</h2>
+  <div style="overflow-x:auto;">
+    <table class="guide">
+      <tr>
+        <th>Mattress</th>
+        <th>Firmness</th>
+        <th>Key Discogenic Feature</th>
+        <th>Best For</th>
+        <th>Trial</th>
+      </tr>
+      <tr>
+        <td><strong>Saatva Classic Luxury Firm</strong></td>
+        <td>6/10</td>
+        <td>Built-in lumbar enhancement pad</td>
+        <td>Back &amp; side sleepers, lordosis maintenance</td>
+        <td>365 nights</td>
+      </tr>
+      <tr>
+        <td><strong>Helix Midnight Luxe</strong></td>
+        <td>5.5/10</td>
+        <td>Zoned lumbar support, shoulder relief</td>
+        <td>Side sleepers, avoiding lateral pelvic tilt</td>
+        <td>100 nights</td>
+      </tr>
+      <tr>
+        <td><strong>Tempur-Pedic TEMPUR-Adapt</strong></td>
+        <td>5-6/10</td>
+        <td>Pressure-conforming foam, no rebound spike</td>
+        <td>Morning stiffness, pressure-sensitive annular pain</td>
+        <td>90 nights</td>
+      </tr>
+      <tr>
+        <td><strong>WinkBed Luxury Firm</strong></td>
+        <td>6/10</td>
+        <td>Lumbar bar reinforcement zone</td>
+        <td>Back sleepers, heavier body weights</td>
+        <td>120 nights</td>
+      </tr>
+      <tr>
+        <td><strong>Avocado Green Mattress</strong></td>
+        <td>6-7/10</td>
+        <td>Latex rebound, instant repositioning support</td>
+        <td>Position-changers, natural materials</td>
+        <td>365 nights</td>
+      </tr>
+      <tr>
+        <td><strong>Nectar Premier Copper</strong></td>
+        <td>6/10</td>
+        <td>Memory foam pressure diffusion, copper cooling</td>
+        <td>Budget-conscious, pressure point plus disc pain</td>
+        <td>365 nights</td>
+      </tr>
+      <tr>
+        <td><strong>Leesa Legend Hybrid</strong></td>
+        <td>5.5/10</td>
+        <td>8-zone LSA foam, targeted lumbar lift</td>
+        <td>Multi-zone disc load reduction</td>
+        <td>100 nights</td>
+      </tr>
+    </table>
+  </div>
+
+  <!-- QUICK-PICK TABLE -->
+  <h2>Quick-Pick by Situation</h2>
+  <div style="overflow-x:auto;">
+    <table class="guide">
+      <tr>
+        <th>Your Situation</th>
+        <th>Best Pick</th>
+        <th>Why</th>
+      </tr>
+      <tr>
+        <td>Worst pain on waking, improves after standing</td>
+        <td>Saatva Classic Luxury Firm</td>
+        <td>Lumbar pad prevents flexion-load during imbibition phase</td>
+      </tr>
+      <tr>
+        <td>Side sleeper, pain on one side of the lower back</td>
+        <td>Helix Midnight Luxe</td>
+        <td>Zoned foam keeps pelvis level, prevents lateral disc tilt</td>
+      </tr>
+      <tr>
+        <td>Pain spikes when changing position during the night</td>
+        <td>Avocado Green Mattress</td>
+        <td>Latex rebound supports disc instantly on position change</td>
+      </tr>
+      <tr>
+        <td>Pain every morning regardless of position</td>
+        <td>Tempur-Pedic TEMPUR-Adapt</td>
+        <td>Viscoelastic conforming reduces all mechanical pressure contribution</td>
+      </tr>
+      <tr>
+        <td>Heavier build (230+ lbs), back sleeper</td>
+        <td>WinkBed Luxury Firm</td>
+        <td>Lumbar bar holds up under higher body weight without sagging</td>
+      </tr>
+      <tr>
+        <td>Budget under $1,200, need long trial</td>
+        <td>Nectar Premier Copper</td>
+        <td>365-night trial, medium-firm, adequate disc-pressure support</td>
+      </tr>
+      <tr>
+        <td>Multi-position sleeper, need full-body disc-load management</td>
+        <td>Leesa Legend Hybrid</td>
+        <td>8-zone design adapts disc-load support to every sleeping position</td>
+      </tr>
+    </table>
+  </div>
+
+  <!-- PICKS -->
+  <h2>The 7 Picks: Full Reviews</h2>
+
+  <!-- PICK 1 -->
+  <div class="pick">
+    <p class="pick-rank">#1 Best Overall for Discogenic Pain</p>
+    <h3>Saatva Classic &mdash; Luxury Firm</h3>
+    <span class="pick-tag">Built-in lumbar pad</span>
+    <span class="pick-tag">Dual-coil system</span>
+    <span class="pick-tag">Lordosis maintenance</span>
+    <span class="pick-tag">Adjustable base compatible</span>
+    <p>The clinical priority for discogenic pain is lumbar lordosis maintenance throughout the night. The Saatva Classic Luxury Firm has a built-in lumbar enhancement pad &mdash; a targeted reinforcement zone positioned directly under the lower back &mdash; that pushes gently upward to preserve the lumbar curve even as the rest of the body relaxes. This directly counteracts the primary mechanism of nighttime disc-load increase: the flattening of the lumbar curve during recumbency. For annular tear patients whose pain is worst in the morning (driven by disc imbibition pressure plus overnight flexion load), this lumbar pad provides the mechanical support that prevents the flexion contribution. The dual-coil construction (micro coils over tempered base coils) provides zoned responsiveness across all positions. Pairs well with an adjustable base in zero-gravity configuration for further disc pressure reduction.</p>
+    <table class="pick-specs">
+      <tr><th>Spec</th><th>Detail</th></tr>
+      <tr><td>Construction</td><td>Euro pillow top + micro coils + tempered base coils + lumbar enhancement pad</td></tr>
+      <tr><td>Firmness options</td><td>Plush Soft (3/10) / Luxury Firm (6/10) / Firm (8/10)</td></tr>
+      <tr><td>Height</td><td>11.5&quot; or 14.5&quot;</td></tr>
+      <tr><td>Adjustable base</td><td>Yes</td></tr>
+      <tr><td>Trial</td><td>365 nights</td></tr>
+      <tr><td>Best for</td><td>Back and side sleepers, 150&ndash;230 lbs, morning stiffness pattern</td></tr>
+    </table>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=Saatva+Classic+Luxury+Firm+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+
+  <!-- PICK 2 -->
+  <div class="pick">
+    <p class="pick-rank">#2 Best for Side Sleepers</p>
+    <h3>Helix Midnight Luxe</h3>
+    <span class="pick-tag">Zoned lumbar support</span>
+    <span class="pick-tag">Shoulder decompression</span>
+    <span class="pick-tag">Prevents lateral pelvic tilt</span>
+    <p>Side sleeping presents a specific challenge for discogenic pain: when the pelvis drops toward the mattress (caused by a mattress that is too soft under the hip), the lumbar spine bends laterally. This lateral flexion loads the annular fibers obliquely &mdash; a particularly provocative load for sensitized annular tears. The Helix Midnight Luxe's zoned design places firmer support under the hip and lumbar region (preventing pelvic drop) while allowing the shoulder to sink into a softer zone. The result is a level pelvis and a lumbar spine that stays out of lateral flexion throughout the night. Add a pillow between the knees to complete the side-lying disc protocol. This is the most engineered solution for side sleepers with axial discogenic pain specifically.</p>
+    <table class="pick-specs">
+      <tr><th>Spec</th><th>Detail</th></tr>
+      <tr><td>Construction</td><td>Memory foam + zoned pocketed coils + TENCEL pillow top</td></tr>
+      <tr><td>Firmness</td><td>Medium (5.5/10)</td></tr>
+      <tr><td>Height</td><td>14&quot;</td></tr>
+      <tr><td>Adjustable base</td><td>Yes</td></tr>
+      <tr><td>Trial</td><td>100 nights</td></tr>
+      <tr><td>Best for</td><td>Side sleepers, lateral discogenic pain, 130&ndash;250 lbs</td></tr>
+    </table>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=Helix+Midnight+Luxe+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+
+  <!-- PICK 3 -->
+  <div class="pick">
+    <p class="pick-rank">#3 Best for Morning Stiffness Reduction</p>
+    <h3>Tempur-Pedic TEMPUR-Adapt</h3>
+    <span class="pick-tag">Viscoelastic pressure conforming</span>
+    <span class="pick-tag">No rebound spike on movement</span>
+    <span class="pick-tag">Even pressure distribution</span>
+    <p>The TEMPUR-Adapt addresses the pressure-sensitive nature of annular tear pain through viscoelastic foam that distributes body weight across the widest possible surface area. For discogenic pain specifically, this matters because the sensitized annular fibers respond to localized pressure changes &mdash; any point of concentrated mechanical stress (a too-firm pressure point, an unsupported gap) generates pain signals. TEMPUR material eliminates localized pressure peaks by conforming exactly to the body's contours. The clinical benefit: reduced mechanical contribution to the morning disc pressure spike. The foam also prevents the abrupt pressure changes that occur when transitioning positions on a responsive spring surface &mdash; relevant because movement-triggered pain is a hallmark of active discogenic pain episodes.</p>
+    <table class="pick-specs">
+      <tr><th>Spec</th><th>Detail</th></tr>
+      <tr><td>Construction</td><td>TEMPUR-ES comfort layer + TEMPUR material + high-density base</td></tr>
+      <tr><td>Firmness options</td><td>Medium (5/10) / Medium Hybrid / Firm (7/10)</td></tr>
+      <tr><td>Height</td><td>11&quot;</td></tr>
+      <tr><td>Adjustable base</td><td>Yes</td></tr>
+      <tr><td>Trial</td><td>90 nights</td></tr>
+      <tr><td>Best for</td><td>Pressure-sensitive annular pain, morning stiffness, all sleep positions</td></tr>
+    </table>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=Tempur-Pedic+TEMPUR-Adapt+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+
+  <!-- PICK 4 -->
+  <div class="pick">
+    <p class="pick-rank">#4 Best for Back Sleepers</p>
+    <h3>WinkBed &mdash; Luxury Firm</h3>
+    <span class="pick-tag">Lumbar bar reinforcement</span>
+    <span class="pick-tag">Innerspring responsiveness</span>
+    <span class="pick-tag">Holds firmness under heavier loads</span>
+    <p>Back sleeping is the recommended position for discogenic pain because it produces the lowest intradiscal pressure of any sleeping posture (roughly 25% of standing, per Nachemson's measurements). The WinkBed Luxury Firm's lumbar reinforcement zone directly supports the lower back in this position, preventing the lumbar spine from flattening against the mattress surface &mdash; which would otherwise convert the low-pressure supine position into a flexion-loaded one. For heavier sleepers (200+ lbs) whose body weight creates sag in less robust mattresses, the WinkBed's coil system maintains this lumbar support without compression over time. Pair with an adjustable base: raising the legs 15-20 degrees in zero-gravity configuration further reduces disc pressure by distributing load off the lumbar segment.</p>
+    <table class="pick-specs">
+      <tr><th>Spec</th><th>Detail</th></tr>
+      <tr><td>Construction</td><td>Euro pillow top + pocketed coils + lumbar reinforcement bar</td></tr>
+      <tr><td>Firmness options</td><td>Soft / Luxury Firm (6/10) / Firm / Firmer</td></tr>
+      <tr><td>Height</td><td>13.5&quot;</td></tr>
+      <tr><td>Adjustable base</td><td>Yes</td></tr>
+      <tr><td>Trial</td><td>120 nights</td></tr>
+      <tr><td>Best for</td><td>Back sleepers, 180&ndash;280 lbs, sustained lumbar support</td></tr>
+    </table>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=WinkBed+Luxury+Firm+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+
+  <!-- PICK 5 -->
+  <div class="pick">
+    <p class="pick-rank">#5 Best for Position Changes</p>
+    <h3>Avocado Green Mattress &mdash; Standard Firm</h3>
+    <span class="pick-tag">Natural Dunlop latex rebound</span>
+    <span class="pick-tag">Instant repositioning support</span>
+    <span class="pick-tag">25-year durability</span>
+    <p>Many discogenic pain patients change sleep positions frequently &mdash; driven by pain that shifts as pressure accumulates in one spot. Every position change on a slow-responding foam mattress creates a brief period of unsupported transition: the body is between positions while the foam slowly adjusts, leaving the lumbar spine momentarily unsupported and potentially flexed. Natural latex resolves this with elastic rebound &mdash; the mattress responds instantly to position changes, maintaining continuous lumbar support throughout the movement. The Avocado's organic Dunlop latex maintains this responsiveness for 15-25 years versus 7-10 for synthetic foam, making it the most durable choice for a chronic condition. Standard firmness (6/10) provides adequate lordosis support for most body types.</p>
+    <table class="pick-specs">
+      <tr><th>Spec</th><th>Detail</th></tr>
+      <tr><td>Construction</td><td>Organic Dunlop latex + pocketed coils + organic cotton cover</td></tr>
+      <tr><td>Firmness options</td><td>Standard (6/10) / Firm (7/10)</td></tr>
+      <tr><td>Certifications</td><td>GOLS, GOTS, Greenguard Gold</td></tr>
+      <tr><td>Adjustable base</td><td>Yes</td></tr>
+      <tr><td>Trial</td><td>365 nights</td></tr>
+      <tr><td>Best for</td><td>Frequent position-changers, natural materials preference, long-term durability</td></tr>
+    </table>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=Avocado+Green+Mattress+firm&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+
+  <!-- PICK 6 -->
+  <div class="pick">
+    <p class="pick-rank">#6 Best Budget Pick</p>
+    <h3>Nectar Premier Copper</h3>
+    <span class="pick-tag">Memory foam pressure diffusion</span>
+    <span class="pick-tag">Copper-infused cooling</span>
+    <span class="pick-tag">365-night trial</span>
+    <p>The Nectar Premier Copper delivers medium-firm memory foam support at a price point well below the premium picks &mdash; with the longest trial period in this category (365 nights). For discogenic pain, its copper-infused memory foam layer provides the pressure-diffusing surface contact needed to reduce localized disc-loading while the high-density base foam provides the foundational firmness that prevents lumbar sag. Copper infusion addresses heat buildup, which is relevant because sleep surface heat causes body-shifting behavior &mdash; frequent movement on a non-responsive foam surface disrupts the sustained disc-unloading that back sleeping provides. The 365-night trial is the most important feature for discogenic patients: annular tears heal slowly, and you need time to confirm whether a mattress is genuinely reducing your morning pain pattern.</p>
+    <table class="pick-specs">
+      <tr><th>Spec</th><th>Detail</th></tr>
+      <tr><td>Construction</td><td>Copper-infused memory foam + adaptive transition layer + high-density base</td></tr>
+      <tr><td>Firmness</td><td>Medium-Firm (6/10)</td></tr>
+      <tr><td>Height</td><td>14&quot;</td></tr>
+      <tr><td>Adjustable base</td><td>Yes</td></tr>
+      <tr><td>Trial</td><td>365 nights</td></tr>
+      <tr><td>Best for</td><td>Budget-conscious buyers, 130&ndash;230 lbs, long trial priority</td></tr>
+    </table>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=Nectar+Premier+Copper+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+
+  <!-- PICK 7 -->
+  <div class="pick">
+    <p class="pick-rank">#7 Best Multi-Zone Disc Load Reduction</p>
+    <h3>Leesa Legend Hybrid</h3>
+    <span class="pick-tag">8-zone LSA foam</span>
+    <span class="pick-tag">Targeted lumbar lift</span>
+    <span class="pick-tag">Works in all sleep positions</span>
+    <p>The Leesa Legend Hybrid uses an 8-zone foam layer with different firmness levels mapped to each anatomical region. The lumbar zone receives the firmest support &mdash; providing a gentle upward lift that maintains lordosis across back and side sleeping &mdash; while the shoulder and hip zones are softer, allowing appropriate sinkage without lateral disc tilt. For discogenic pain patients who cannot commit to a single sleep position, the Leesa Legend's 8-zone design applies the correct disc-load management logic regardless of how they land: the lumbar zone is always firmer, always pushing back against the weight that would otherwise flatten the lumbar curve. This is the most position-agnostic disc support design in this category.</p>
+    <table class="pick-specs">
+      <tr><th>Spec</th><th>Detail</th></tr>
+      <tr><td>Construction</td><td>8-zone LSA foam + pocketed coils + merino wool cover</td></tr>
+      <tr><td>Firmness</td><td>Medium (5.5/10)</td></tr>
+      <tr><td>Height</td><td>12&quot;</td></tr>
+      <tr><td>Adjustable base</td><td>Yes</td></tr>
+      <tr><td>Trial</td><td>100 nights</td></tr>
+      <tr><td>Best for</td><td>Multi-position sleepers, position-agnostic disc support, 120&ndash;220 lbs</td></tr>
+    </table>
+    <a class="cta-btn" href="https://www.amazon.com/s?k=Leesa+Legend+Hybrid+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+  </div>
+
+  <!-- SLEEP POSITION PROTOCOL -->
+  <h2>Sleep Position Protocol for Discogenic Pain</h2>
+  <p style="font-size:.92rem;color:var(--muted);margin-bottom:1rem;">Ranked by intradiscal pressure load (lowest first). All positions assume correct mattress support.</p>
+  <div class="position-grid">
+    <div class="position-card">
+      <strong>1. Back Sleeping (Lowest Pressure)</strong>
+      <p style="font-size:.9rem;color:var(--muted);">Knees slightly bent, small pillow under knees. Produces approximately 25% of standing disc pressure. The gold standard for discogenic pain &mdash; but only if the mattress maintains lumbar lordosis. A sagging mattress converts this to a high-pressure flexion posture.</p>
+    </div>
+    <div class="position-card">
+      <strong>2. Side Sleeping (Acceptable)</strong>
+      <p style="font-size:.9rem;color:var(--muted);">Pillow between knees to keep pelvis level. Prevents lateral spinal flexion that loads the annular tear obliquely. Requires a mattress with zoned support: firmer under the hip, softer under the shoulder. A neutral-firmness mattress causes pelvic drop and lateral disc loading.</p>
+    </div>
+    <div class="position-card">
+      <strong>3. Zero-Gravity (Best with Adjustable Base)</strong>
+      <p style="font-size:.9rem;color:var(--muted);">Head raised 15-20 degrees, legs raised 15-30 degrees. Flexes hips and knees mechanically, reducing lumbar disc pressure further than flat back sleeping. Consistent position held all night without pillow drift. Recommended for severe morning stiffness from disc imbibition.</p>
+    </div>
+    <div class="position-card">
+      <strong>4. Stomach Sleeping (Avoid)</strong>
+      <p style="font-size:.9rem;color:var(--muted);">Places lumbar spine into extension and rotation simultaneously. Extension compresses the posterior annulus &mdash; the most common location of sensitized annular tears. Generates the highest disc pressure of any lying position. Contraindicated for all discogenic pain patients.</p>
+    </div>
+  </div>
+
+  <!-- VERDICT -->
+  <div class="verdict-box">
+    <h2>Top Pick Summary</h2>
+    <p>For most discogenic pain patients, the <strong>Saatva Classic Luxury Firm</strong> is the best choice: the built-in lumbar enhancement pad directly addresses the primary need &mdash; maintaining lumbar lordosis through the night to minimize both mechanical and imbibition-driven morning disc pressure. Side sleepers who need lateral pelvic stability will find the <strong>Helix Midnight Luxe</strong> more precisely engineered for their specific disc-load pattern. On a budget with a chronic condition requiring a long trial window, the <strong>Nectar Premier Copper's</strong> 365 nights gives you the time to confirm genuine disc pain improvement &mdash; not just an accommodation period.</p>
+  </div>
+
+  <!-- FAQ -->
+  <h2>Frequently Asked Questions</h2>
+  <div class="faq-item">
+    <p class="faq-q">What is discogenic pain and how is it different from a herniated disc?</p>
+    <p class="faq-a">Discogenic pain arises from internal disc disruption &mdash; typically an annular tear that sensitizes internal pain receptors without a fragment compressing a nerve root. The key distinction: discogenic pain is axial (confined to the lower back) with no radiation into the leg. A herniated disc, by contrast, involves nuclear material pushing against a nerve root, causing radiculopathy &mdash; shooting pain, numbness, or weakness down the leg. This difference matters for mattress selection: herniated disc requires nerve decompression geometry; discogenic pain requires minimizing intradiscal pressure load through the night, achieved through different support priorities.</p>
+  </div>
+  <div class="faq-item">
+    <p class="faq-q">Why is morning pain worse with discogenic pain?</p>
+    <p class="faq-a">Morning stiffness in discogenic pain is largely explained by disc imbibition &mdash; the process by which discs rehydrate overnight. Intervertebral discs have no direct blood supply; they absorb fluid when spinal load is removed during rest. After 7-8 hours, the disc is slightly thicker and more internally pressurized than at bedtime. When the annulus is torn and sensitized, this increased internal pressure triggers pain before you even stand up. A mattress that allows the spine to drop into lumbar flexion overnight adds mechanical disc-load on top of imbibition pressure, making morning stiffness substantially worse. Maintaining lumbar lordosis during sleep minimizes the mechanical contribution.</p>
+  </div>
+  <div class="faq-item">
+    <p class="faq-q">What firmness is best for discogenic lower back pain?</p>
+    <p class="faq-a">Medium-firm (6-7 out of 10) is the clinical consensus starting point for most discogenic pain patients. The goal is maintaining lumbar lordosis throughout the night. A mattress that is too soft allows the pelvis to sink and the lumbar spine to flex, increasing intradiscal pressure on the sensitized annular fibers. A mattress that is too firm prevents appropriate hip sinkage in side sleeping, causing lateral pelvic tilt and oblique annular loading. Zoned support &mdash; firmer under the lumbar, softer under the shoulder and hip &mdash; is preferable to uniform firmness.</p>
+  </div>
+  <div class="faq-item">
+    <p class="faq-q">What sleep position is best for discogenic pain?</p>
+    <p class="faq-a">Back sleeping with a pillow under the knees is generally the lowest disc-pressure position, consistent with Nachemson's intradiscal pressure measurements (supine produces approximately 25% of standing disc pressure). Side sleeping is acceptable with a pillow between the knees to keep the pelvis level and prevent lumbar flexion. Stomach sleeping is the worst position &mdash; it places the lumbar spine into extension and rotation simultaneously, generating high disc pressure particularly provocative for posterior annular tears. Any position that causes the lower back to round should be avoided.</p>
+  </div>
+  <div class="faq-item">
+    <p class="faq-q">Does an adjustable base help discogenic pain?</p>
+    <p class="faq-a">Yes &mdash; but differently than for herniated disc. For discogenic pain, the goal is not nerve decompression (there is no nerve root involved) but intradiscal pressure reduction. Raising the legs to approximately 15-30 degrees (zero-gravity position) flexes the hips and reduces compressive load on the lumbar discs. Nachemson's measurements show that supine with hip and knee flexion produces lower intradiscal pressure than lying fully flat. An adjustable base achieves this mechanically and holds the position consistently through the night, unlike pillow stacking which shifts during sleep.</p>
+  </div>
+
+  <!-- RELATED GUIDES -->
+  <section class="related-guides" style="background:#111e33;border-top:2px solid #1e3a5f;padding:2rem 1.25rem;margin-top:2rem;">
+    <div style="max-width:820px;margin:0 auto;">
+      <h2 style="color:#c9a84c;font-size:1.05rem;letter-spacing:.04em;margin-bottom:1rem;text-transform:uppercase;">Related Guides</h2>
+      <ul style="list-style:none;padding:0;margin:0;display:flex;flex-wrap:wrap;gap:.6rem 1.5rem;">
+        <li><a href="best-mattress-herniated-disc.html" style="color:#93c5fd;text-decoration:none;font-size:.95rem;">Best Mattress for Herniated Disc</a></li>
+        <li><a href="best-mattress-degenerative-disc.html" style="color:#93c5fd;text-decoration:none;font-size:.95rem;">Best Mattress for Degenerative Disc Disease</a></li>
+        <li><a href="best-mattress-lumbar-radiculopathy.html" style="color:#93c5fd;text-decoration:none;font-size:.95rem;">Best Mattress for Lumbar Radiculopathy</a></li>
+        <li><a href="best-mattress-chronic-back-pain.html" style="color:#93c5fd;text-decoration:none;font-size:.95rem;">Best Mattress for Chronic Back Pain</a></li>
+        <li><a href="best-mattress-ankylosing-spondylitis.html" style="color:#93c5fd;text-decoration:none;font-size:.95rem;">Best Mattress for Ankylosing Spondylitis</a></li>
+      </ul>
+    </div>
+  </section>
+
+</div>
+
+<footer>
+  <p>&copy; 2026 SleepWise Reviews &mdash; <a href="/privacy.html">Privacy Policy</a> &mdash; <a href="/about.html">About</a></p>
+  <p style="margin-top:8px;font-size:.78rem;">Amazon Associates Disclosure: As an Amazon Associate we earn from qualifying purchases. Product prices and availability are accurate as of the date published and may change.</p>
+</footer>
+</body>
+</html>
+'''
+
+out_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'posts', 'best-mattress-discogenic-pain.html')
+os.makedirs(os.path.dirname(out_path), exist_ok=True)
+
+with open(out_path, 'w', encoding='utf-8') as f:
+    f.write(html)
+
+size = os.path.getsize(out_path)
+print('Written: ' + out_path)
+print('Size: ' + str(size) + ' bytes')

@@ -1,0 +1,309 @@
+"""
+Generate posts/best-mattress-coccydynia.html for SleepWiseReviews.
+Topic: Best Mattress for Coccydynia (Tailbone Pain)
+"""
+
+html = '''<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Best Mattress for Coccydynia (2025): 7 Picks for Tailbone &amp; Coccyx Pain Relief During Sleep</title>
+<meta name="description" content="Best mattresses for coccydynia: tailbone and coccyx pain relief during sleep. 7 expert picks addressing sacrococcygeal pressure, supine sleep modifications, memory foam cutout zones, and coccyx pressure relief.">
+<link rel="canonical" href="https://sleepwisereviews.com/posts/best-mattress-coccydynia.html">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Best Mattress for Coccydynia (2025): 7 Picks for Tailbone and Coccyx Pain Relief",
+  "description": "7 mattress picks for coccydynia addressing sacrococcygeal pressure in supine sleep, coccyx cutout strategies, memory foam pressure distribution, and sleeping position modifications for tailbone pain.",
+  "author": {"@type": "Organization", "name": "SleepWise Reviews"},
+  "publisher": {"@type": "Organization", "name": "SleepWise Reviews", "url": "https://sleepwisereviews.com"},
+  "datePublished": "2026-05-26",
+  "dateModified": "2026-05-26",
+  "mainEntityOfPage": "https://sleepwisereviews.com/posts/best-mattress-coccydynia.html"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://sleepwisereviews.com/"},
+    {"@type": "ListItem", "position": 2, "name": "All Posts", "item": "https://sleepwisereviews.com/posts/index.html"},
+    {"@type": "ListItem", "position": 3, "name": "Best Mattress for Coccydynia", "item": "https://sleepwisereviews.com/posts/best-mattress-coccydynia.html"}
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Best Mattresses for Coccydynia",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Tempur-Adapt", "url": "https://www.amazon.com/s?k=Tempur-Adapt+mattress&tag=sleepwiserevi-20"},
+    {"@type": "ListItem", "position": 2, "name": "Purple Restore Plus", "url": "https://www.amazon.com/s?k=Purple+Restore+Plus+mattress&tag=sleepwiserevi-20"},
+    {"@type": "ListItem", "position": 3, "name": "Casper Wave Hybrid", "url": "https://www.amazon.com/s?k=Casper+Wave+Hybrid+mattress&tag=sleepwiserevi-20"},
+    {"@type": "ListItem", "position": 4, "name": "Nectar Premier Copper", "url": "https://www.amazon.com/s?k=Nectar+Premier+Copper+mattress&tag=sleepwiserevi-20"},
+    {"@type": "ListItem", "position": 5, "name": "Helix Midnight Luxe", "url": "https://www.amazon.com/s?k=Helix+Midnight+Luxe+mattress&tag=sleepwiserevi-20"},
+    {"@type": "ListItem", "position": 6, "name": "Saatva Classic", "url": "https://www.amazon.com/s?k=Saatva+Classic+mattress&tag=sleepwiserevi-20"},
+    {"@type": "ListItem", "position": 7, "name": "Avocado Green Mattress", "url": "https://www.amazon.com/s?k=Avocado+Green+mattress&tag=sleepwiserevi-20"}
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "Why does coccydynia hurt more when lying on your back?",
+      "acceptedAnswer": {"@type": "Answer", "text": "In supine (back) sleeping, the coccyx contacts the mattress surface and bears concentrated compressive load from the sacrococcygeal region pressing downward under body weight. Unlike the sacrum and ischial tuberosities, which have broad contact surfaces, the coccyx is a small curved bony structure with minimal overlying soft tissue. This creates a high-pressure point load at the coccyx tip on any surface with insufficient deformation. Additionally, lying flat removes the slight forward tilt of the pelvis that occurs when standing, positioning the coccyx directly perpendicular to the surface pressure vector. Firm mattresses that cannot deform around the coccyx curve concentrate this pressure further. The solution is either a mattress soft enough to allow coccygeal suspension (the mattress curves around the coccyx without contact) or a coccyx cutout cushion layer."}
+    },
+    {
+      "@type": "Question",
+      "name": "What firmness mattress is best for tailbone pain?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Medium to medium-soft (4-6 on a 10-point scale) is the optimal range for most coccydynia patients. The mattress needs to be soft enough to allow the sacrococcygeal region to sink in and relieve coccygeal contact pressure, but firm enough to support the lumbar spine and pelvis in neutral alignment. A mattress that is too firm maintains a flat surface that the coccyx presses against; one that is too soft allows the entire pelvis to sink, creating lumbar flattening and posterior pelvic tilt that loads the sacrococcygeal junction from above. High-density memory foam or gel foam comfort layers in the 3-4 inch range over a firm support core is the most consistent configuration for coccydynia pressure relief."}
+    },
+    {
+      "@type": "Question",
+      "name": "Is side sleeping better than back sleeping for coccydynia?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Yes, for most coccydynia patients, side sleeping eliminates direct coccygeal pressure entirely because the coccyx does not contact the mattress in lateral decubitus position. The pressure shifts to the hip (greater trochanter) and shoulder, which have much greater overlying soft tissue and broader contact surfaces. However, some patients with concurrent sacroiliac joint pain or hip bursitis cannot tolerate side sleeping. For those who must back sleep, the priority is a mattress with sufficient coccygeal pressure relief at the sacrococcygeal zone, combined with a small pillow under the knees to flatten the lumbar curve slightly and shift weight posteriorly away from the coccyx."}
+    },
+    {
+      "@type": "Question",
+      "name": "Can a mattress topper help coccydynia?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Yes, a 2-3 inch memory foam or gel foam topper is one of the most cost-effective interventions for coccydynia when the underlying mattress is too firm. The topper adds the soft deformation layer needed to relieve coccygeal contact pressure without requiring a full mattress replacement. For coccydynia specifically, look for toppers with a density of 4+ lbs/cubic foot (higher density foams deform more precisely around the coccyx contour than lower density foams) and avoid toppers with embedded lumbar support ridges or zoning that stiffens the sacral area. A coccyx cutout seat cushion used as a sleep positioning aid alongside the topper provides maximum relief for severe coccydynia."}
+    },
+    {
+      "@type": "Question",
+      "name": "What sleeping position should I avoid with coccydynia?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Back sleeping on a firm or medium-firm mattress is the worst position for coccydynia because it maximizes direct coccygeal pressure. Stomach sleeping is the second worst: it forces lumbar hyperextension which increases the sacrococcygeal joint angle and can aggravate a fractured or dislocated coccyx. The preferred position is side sleeping, which removes all coccygeal pressure. If back sleeping is necessary (sleep apnea positioning, surgical recovery), a U-shaped pillow or coccyx cutout cushion placed under the sacral region to suspend the coccyx above the mattress surface significantly reduces tailbone contact pressure."}
+    }
+  ]
+}
+</script>
+<style>
+:root{--bg:#0a1628;--card:#111e33;--gold:#c9a84c;--text:#e8eaf0;--muted:#8892a4;--border:#1e2d45}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:\'Segoe UI\',system-ui,sans-serif;line-height:1.7;font-size:16px}
+a{color:var(--gold);text-decoration:none}
+a:hover{text-decoration:underline}
+header{background:linear-gradient(135deg,#0d1f3c,#1a3a5c);padding:16px 24px;border-bottom:1px solid var(--border)}
+.site-name{font-size:1.4rem;font-weight:700;color:var(--gold);letter-spacing:1px}
+.container{max-width:860px;margin:0 auto;padding:32px 20px}
+h1{font-size:2rem;font-weight:800;line-height:1.25;color:#fff;margin-bottom:12px}
+.meta{color:var(--muted);font-size:.9rem;margin-bottom:28px}
+.intro{font-size:1.05rem;margin-bottom:32px;color:#ccd3df}
+.science-box{background:var(--card);border:1px solid var(--border);border-left:4px solid var(--gold);border-radius:8px;padding:20px 24px;margin:28px 0}
+.science-box h3{color:var(--gold);font-size:1rem;margin-bottom:10px;text-transform:uppercase;letter-spacing:.5px}
+.science-box p{color:#b0bac8;font-size:.95rem;margin-bottom:8px}
+.science-box p:last-child{margin-bottom:0}
+.picks-list{list-style:none;display:flex;flex-direction:column;gap:28px;margin:32px 0}
+.pick-card{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:24px;position:relative}
+.pick-number{display:inline-block;background:var(--gold);color:#0a1628;font-weight:800;font-size:.85rem;padding:2px 10px;border-radius:20px;margin-bottom:10px}
+.pick-card h2{font-size:1.25rem;color:#fff;margin-bottom:8px}
+.pick-card .why{color:#b0bac8;font-size:.95rem;margin-bottom:14px}
+.pick-card .specs{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:14px}
+.spec-tag{background:#1a2d47;color:#8faacc;font-size:.8rem;padding:3px 10px;border-radius:12px}
+.cta-btn{display:inline-block;background:var(--gold);color:#0a1628;font-weight:700;padding:10px 22px;border-radius:8px;font-size:.95rem;margin-top:4px}
+.cta-btn:hover{background:#e0b85a;text-decoration:none}
+table{width:100%;border-collapse:collapse;margin:28px 0;font-size:.9rem}
+th{background:#1a2d47;color:var(--gold);padding:10px 14px;text-align:left;font-weight:600}
+td{padding:10px 14px;border-bottom:1px solid var(--border);color:#b0bac8}
+tr:last-child td{border-bottom:none}
+tr:nth-child(even) td{background:#0e1a2e}
+.note-box{background:#0e1f0e;border:1px solid #1e4d1e;border-radius:8px;padding:16px 20px;margin:24px 0}
+.note-box p{color:#90c690;font-size:.9rem}
+h2.section-title{font-size:1.4rem;color:#fff;margin:36px 0 16px;border-bottom:1px solid var(--border);padding-bottom:8px}
+.faq-item{margin:20px 0}
+.faq-item h3{color:var(--gold);font-size:1rem;margin-bottom:6px}
+.faq-item p{color:#b0bac8;font-size:.9rem}
+.related-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:12px;margin:20px 0}
+.related-card{background:var(--card);border:1px solid var(--border);border-radius:8px;padding:14px;font-size:.9rem}
+.related-card a{color:var(--gold)}
+footer{background:#060f1e;border-top:1px solid var(--border);text-align:center;padding:24px;color:var(--muted);font-size:.85rem;margin-top:48px}
+nav.breadcrumb{font-size:.85rem;color:var(--muted);margin-bottom:20px}
+nav.breadcrumb a{color:var(--muted)}
+nav.breadcrumb span{color:var(--gold)}
+.cat-badge{display:inline-block;color:#fff;font-size:.75rem;font-weight:700;padding:3px 10px;border-radius:12px;margin-bottom:14px;letter-spacing:.5px;text-transform:uppercase}
+</style>
+</head>
+<body>
+<header>
+<div class="site-name"><a href="../index.html" style="color:var(--gold);text-decoration:none">SleepWise Reviews</a></div>
+</header>
+<div class="container">
+<nav class="breadcrumb"><a href="../index.html">Home</a> &rsaquo; <a href="index.html">All Posts</a> &rsaquo; <span>Best Mattress for Coccydynia</span></nav>
+
+<span class="cat-badge" style="background:#dc2626">Health</span>
+<h1>Best Mattress for Coccydynia (2025): 7 Picks for Tailbone &amp; Coccyx Pain Relief During Sleep</h1>
+<p class="meta">By SleepWise Reviews &bull; Updated May 2025 &bull; 7 picks</p>
+
+<p class="intro">Coccydynia &mdash; pain at the coccyx (tailbone) &mdash; creates a specific sleep problem that differs fundamentally from general back pain or sacroiliac joint dysfunction: the coccyx is a small, curved, minimally padded bony structure that bears concentrated point load in supine (back) sleeping. Unlike the broad sacrum or padded ischial tuberosities, the coccyx tip has almost no overlying soft tissue buffer, meaning that any firm or non-conforming mattress surface creates direct compressive loading on an already-inflamed or fractured structure. These 7 mattress picks are selected for coccygeal pressure relief in back sleeping, sacrococcygeal zone deformation, and sleeping position strategies that reduce or eliminate tailbone contact pressure.</p>
+
+<div class="science-box">
+<h3>Coccyx Anatomy &amp; Sleep Science</h3>
+<p><strong>Coccyx anatomy:</strong> The coccyx consists of 3&ndash;5 fused vertebral segments (the number varies by individual) located below the sacrum at the very base of the spine. It is connected to the sacrum via the sacrococcygeal joint, which retains some mobility in most adults and is the primary site of pain in post-traumatic coccydynia. The coccyx serves as an attachment point for several ligaments and the coccygeus and gluteus maximus muscles, meaning coccygeal pain often radiates into the posterior perineal region and proximal posterior thigh.</p>
+<p><strong>Coccydynia causes:</strong> Traumatic coccydynia (accounting for roughly 70% of cases) results from a fall onto a hard surface, prolonged sitting on a narrow seat, vaginal childbirth (particularly with forceps or difficult deliveries), or direct coccygeal fracture/dislocation. Idiopathic coccydynia (approximately 30% of cases) has no identifiable cause but is associated with hypermobility of the sacrococcygeal joint, where the coccyx flexes excessively anteriorly during loading. Women are affected five times more frequently than men, attributed to the broader female pelvis that positions the coccyx in a more posteriorly exposed location during sitting and lying.</p>
+<p><strong>How mattress sacral pressure loads the coccyx in supine sleep:</strong> In the supine position, body weight is distributed across four bony landmarks: the heel (10%), calf (16%), sacrum (44%), and upper back/scapula region (30%). The coccyx, ideally, should float suspended just above the mattress surface in a compliant foam layer &mdash; but on any firm or non-conforming surface, the natural posterior curvature of the coccyx creates a focused contact point at its tip. Pressure mapping studies show that firm mattresses generate interface pressures above 60&ndash;80 mmHg at the sacrococcygeal region in supine sleepers, well above the 32 mmHg capillary closing pressure threshold at which tissue ischemia begins. Coccygeal tissue is particularly vulnerable because of its minimal overlying subcutaneous layer.</p>
+<p><strong>Why firm mattresses increase coccygeal pressure:</strong> A firm mattress cannot deform around the posterior coccygeal curvature and instead maintains a flat surface that the coccyx presses against as a point contact. A medium-soft or memory foam surface deforms to accommodate the sacrococcygeal curve, reducing contact pressure by distributing load across the broader sacral surface and allowing the coccyx to rest in a suspended &ldquo;well&rdquo; in the foam. The principle is identical to coccyx seat cushion design, which uses either foam cutouts or gel zones to unload the coccyx while supporting the ischial tuberosities on either side.</p>
+<p><strong>Sleeping position recommendations:</strong> Side sleeping is clinically preferred for coccydynia because the coccyx does not contact the mattress in lateral decubitus position. Back sleeping is the most problematic position for coccydynia patients and should be avoided on firm mattresses or modified with a coccyx-relief cushion. Stomach sleeping is contraindicated because it forces lumbar hyperextension that increases sacrococcygeal joint angulation and compresses an already-irritated joint. For patients who cannot avoid back sleeping, a U-shaped pillow or coccyx cutout wedge placed under the sacral region suspends the coccyx above the mattress surface.</p>
+<p><strong>Coccygeal cushion and mattress cutout strategies:</strong> Clinical coccyx cushions (also called donut or coccyx cutout cushions) work by removing the foam directly beneath the coccyx and supporting the ischial tuberosities and posterior thighs on either side. This concept translates to mattress selection: a mattress with a deep, soft, conforming comfort layer achieves the same effect by allowing the coccyx to sink into the foam while the ischial region is supported by the denser layers below. Memory foam at 4+ lb/cubic foot density provides the most precise coccygeal deformation, while standard polyfoam and firm innerspring constructions maintain the surface flatness that concentrates coccygeal loading.</p>
+</div>
+
+<ul class="picks-list">
+
+<li class="pick-card">
+<span class="pick-number">#1 PICK</span>
+<h2>Tempur-Adapt &mdash; Viscous TEMPUR Contouring for Coccygeal Suspension in Back Sleeping</h2>
+<p class="why">TEMPUR material is clinically the closest analog to a coccyx cutout cushion within a full mattress construction. Its viscous-elastic flow allows the foam to deform around the specific posterior curve of the coccyx and sacrococcygeal junction, creating a custom-contoured well that suspends the coccyx above the firm support base while the broader sacral plateau bears weight on either side. This is the exact pressure distribution strategy used in clinical coccyx cushions &mdash; unloading the apex while supporting the flanks &mdash; executed over a full sleeping surface. Pressure mapping studies on TEMPUR surfaces consistently show sub-32 mmHg readings at the sacrococcygeal region in supine sleepers. For coccydynia patients who must back sleep (sleep apnea users, post-surgical positions), the Tempur-Adapt is the highest-confidence coccygeal pressure relief choice in a mainstream mattress.</p>
+<div class="specs">
+<span class="spec-tag">Viscous TEMPUR contouring</span><span class="spec-tag">Coccygeal suspension</span><span class="spec-tag">Sub-32 mmHg sacral pressure</span><span class="spec-tag">Back-sleep optimized</span>
+</div>
+<a class="cta-btn" href="https://www.amazon.com/s?k=Tempur-Adapt+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</li>
+
+<li class="pick-card">
+<span class="pick-number">#2 PICK</span>
+<h2>Purple Restore Plus &mdash; GelFlex Grid Coccygeal Pressure Relief for Inflammatory Coccydynia</h2>
+<p class="why">Inflammatory coccydynia &mdash; where the sacrococcygeal joint is acutely inflamed rather than simply mechanically loaded &mdash; has an additional aggravating factor beyond direct pressure: heat accumulation at the inflamed joint concentrates inflammatory cytokines and amplifies the pain signal. The Purple GelFlex Grid achieves coccygeal pressure relief through a different mechanism than memory foam: instead of deforming around the coccyx, the Grid\'s columns buckle under point loads and cease to exert upward pressure against the coccyx tip, while the surrounding columns remain upright and support the adjacent sacral region. This selective load removal is temperature-neutral &mdash; the Grid does not retain heat &mdash; which prevents the heat-driven inflammatory amplification that worsens acute coccydynia. For patients with recent traumatic coccygeal fracture or post-injection inflammation, the Grid\'s combination of pressure elimination and thermal neutrality is clinically superior to heat-retaining memory foam.</p>
+<div class="specs">
+<span class="spec-tag">GelFlex Grid pressure elimination</span><span class="spec-tag">Temperature neutral</span><span class="spec-tag">Inflammatory coccydynia</span><span class="spec-tag">No heat accumulation</span>
+</div>
+<a class="cta-btn" href="https://www.amazon.com/s?k=Purple+Restore+Plus+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</li>
+
+<li class="pick-card">
+<span class="pick-number">#3 PICK</span>
+<h2>Casper Wave Hybrid &mdash; Ergonomic Sacral Zoning That Protects the Coccygeal Region</h2>
+<p class="why">The Casper Wave Hybrid uses ergonomic zoning to differentiate support across body regions, with softer zones at the hips and sacral area relative to the lumbar and thoracic zones. For coccydynia, this zoning matters because the sacral zone softness allows the coccygeal region to sink into the foam while the firmer lumbar zone maintains the lordotic curve and prevents the posterior pelvic tilt that would otherwise increase sacrococcygeal joint angle and worsen pain. The hybrid construction adds responsive coil support that keeps overall body weight well-supported, preventing the full pelvic sinking that causes lumbar flattening &mdash; a common failure mode of purely soft mattresses that relief coccygeal pressure at the cost of spinal alignment. The Wave is the best zoned option for coccydynia patients who also have concurrent lumbar pain, because it addresses both simultaneously rather than trading one for the other.</p>
+<div class="specs">
+<span class="spec-tag">Sacral zone softening</span><span class="spec-tag">Lumbar zone support</span><span class="spec-tag">Ergonomic zoning</span><span class="spec-tag">Concurrent lumbar pain</span>
+</div>
+<a class="cta-btn" href="https://www.amazon.com/s?k=Casper+Wave+Hybrid+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</li>
+
+<li class="pick-card">
+<span class="pick-number">#4 PICK</span>
+<h2>Nectar Premier Copper &mdash; High-Density Gel Memory Foam for Post-Traumatic Coccygeal Fracture Recovery</h2>
+<p class="why">Post-traumatic coccydynia from a coccygeal fracture or dislocation requires a mattress that provides precise coccygeal deformation without motion transfer that could physically move the coccyx during sleep &mdash; micro-motion at the fracture site during the night resets the inflammatory cascade and prolongs recovery. The Nectar Premier Copper uses a high-density gel memory foam comfort layer (5 lb/cubic foot) that deforms precisely around the coccygeal curve and provides exceptional motion isolation &mdash; partner movement produces no measurable motion at the coccygeal contact point. The copper infusion provides additional antimicrobial properties (relevant for bedridden post-fracture patients) and enhanced heat dissipation from the sacrococcygeal contact area. The 365-night trial allows fracture patients to evaluate the mattress through their full recovery arc, which typically spans 8&ndash;12 weeks for non-displaced fractures.</p>
+<div class="specs">
+<span class="spec-tag">High-density gel foam</span><span class="spec-tag">Motion isolation</span><span class="spec-tag">Post-traumatic fracture recovery</span><span class="spec-tag">365-night trial</span>
+</div>
+<a class="cta-btn" href="https://www.amazon.com/s?k=Nectar+Premier+Copper+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</li>
+
+<li class="pick-card">
+<span class="pick-number">#5 PICK</span>
+<h2>Helix Midnight Luxe &mdash; Side-Sleep Optimization for Coccydynia Position Transition</h2>
+<p class="why">For coccydynia patients transitioning away from back sleeping to the clinically preferred side-sleeping position, the primary challenge is not coccygeal pain (which resolves in side sleeping) but shoulder and hip pressure pain from the lateral decubitus position. The Helix Midnight Luxe is purpose-built for side sleeping with deep shoulder accommodation and a hip zone that prevents the hip drop that shifts weight onto the greater trochanter. By making side sleeping comfortable enough to sustain throughout the night, the Midnight Luxe indirectly provides the best coccydynia relief of any mattress on this list &mdash; by eliminating back sleeping entirely. The zoned support also means that when patients do roll onto their back momentarily during the night, the sacral zone provides reasonable coccygeal pressure relief as a secondary benefit.</p>
+<div class="specs">
+<span class="spec-tag">Side-sleep optimized</span><span class="spec-tag">Shoulder accommodation</span><span class="spec-tag">Position transition support</span><span class="spec-tag">Hip zone pressure relief</span>
+</div>
+<a class="cta-btn" href="https://www.amazon.com/s?k=Helix+Midnight+Luxe+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</li>
+
+<li class="pick-card">
+<span class="pick-number">#6 PICK</span>
+<h2>Saatva Classic (Plush Soft) &mdash; Euro Pillow-Top Coccygeal Cushioning for Chronic Idiopathic Coccydynia</h2>
+<p class="why">Idiopathic coccydynia &mdash; where no traumatic cause is identified and the sacrococcygeal joint is hypermobile &mdash; responds to sustained coccygeal offloading rather than immobilization, as the joint needs to move but not under compressive load. The Saatva Classic in Plush Soft configuration adds a Euro pillow-top layer that provides the initial conforming cushion needed to offload the coccyx in back sleeping, while the dual-coil innerspring system beneath maintains the firm support base that keeps the pelvis level and prevents posterior pelvic tilt. The Saatva also supports adjustable base use, which allows zero-gravity positioning (head and feet slightly elevated) that redistributes body weight away from the sacrococcygeal region and toward the posterior thighs &mdash; an underused coccydynia strategy that significantly reduces coccygeal interface pressure without requiring position change.</p>
+<div class="specs">
+<span class="spec-tag">Euro pillow-top cushioning</span><span class="spec-tag">Plush Soft firmness</span><span class="spec-tag">Adjustable base compatible</span><span class="spec-tag">Idiopathic coccydynia</span>
+</div>
+<a class="cta-btn" href="https://www.amazon.com/s?k=Saatva+Classic+mattress+plush+soft&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</li>
+
+<li class="pick-card">
+<span class="pick-number">#7 PICK</span>
+<h2>Avocado Green Mattress (Pillow-Top) &mdash; Natural Latex Coccygeal Relief for Chemical-Sensitive Coccydynia Patients</h2>
+<p class="why">Some coccydynia patients &mdash; particularly post-partum women with pregnancy-induced coccygeal fracture or dislocation &mdash; are sensitive to synthetic foam off-gassing during the recovery period and prefer natural material constructions. Avocado\'s natural Dunlop latex in the pillow-top configuration provides responsive coccygeal pressure relief through elastic deformation: the latex compresses under the coccyx and rebounds to maintain support, rather than slowly relaxing under heat like memory foam. This means there is no &ldquo;sleep in&rdquo; lag where the coccyx sinks progressively deeper through the night. The GOTS and GOLS certifications confirm freedom from synthetic foams and chemical flame retardants. The latex buoyancy also makes positional changes easier &mdash; rolling from back to side to relieve coccygeal pressure requires less effort than on dense memory foam, reducing the pain associated with overnight position transitions.</p>
+<div class="specs">
+<span class="spec-tag">Natural Dunlop latex</span><span class="spec-tag">GOTS/GOLS certified</span><span class="spec-tag">Post-partum coccydynia</span><span class="spec-tag">Easy position changes</span>
+</div>
+<a class="cta-btn" href="https://www.amazon.com/s?k=Avocado+Green+mattress+pillow+top&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</li>
+
+</ul>
+
+<h2 class="section-title">Coccydynia Type &amp; Mattress Priority</h2>
+<table>
+<tr><th>Coccydynia Type</th><th>Primary Sleep Problem</th><th>Mattress Priority</th><th>Best Pick</th></tr>
+<tr><td>Post-traumatic fracture/dislocation</td><td>Direct coccygeal contact pressure, motion aggravation</td><td>Maximum pressure relief, motion isolation</td><td>Nectar Premier Copper</td></tr>
+<tr><td>Idiopathic (hypermobile joint)</td><td>Sustained loading on unstable joint</td><td>Conforming cushion, firm underlying support</td><td>Saatva Classic Plush Soft</td></tr>
+<tr><td>Inflammatory (acute phase)</td><td>Heat accumulation, pressure at inflamed joint</td><td>Temperature-neutral pressure elimination</td><td>Purple Restore Plus</td></tr>
+<tr><td>Post-partum (childbirth injury)</td><td>Position changes painful, chemical sensitivity</td><td>Natural materials, responsive deformation</td><td>Avocado Green Pillow-Top</td></tr>
+<tr><td>Chronic (with concurrent lumbar pain)</td><td>Coccygeal and lumbar loading simultaneously</td><td>Zoned support &mdash; sacral soft, lumbar firm</td><td>Casper Wave Hybrid</td></tr>
+<tr><td>Transitioning to side sleeping</td><td>Shoulder and hip pain in lateral position</td><td>Deep shoulder/hip accommodation</td><td>Helix Midnight Luxe</td></tr>
+</table>
+
+<h2 class="section-title">Quick-Pick Guide by Sleeper Type</h2>
+<table>
+<tr><th>Sleeper Type</th><th>Recommended Pick</th><th>Key Reason</th></tr>
+<tr><td>Back sleeper, cannot change position</td><td>Tempur-Adapt</td><td>Best coccygeal suspension in back sleeping</td></tr>
+<tr><td>Back sleeper, runs hot</td><td>Purple Restore Plus</td><td>Pressure relief with no heat retention</td></tr>
+<tr><td>Side sleeper (transitioning)</td><td>Helix Midnight Luxe</td><td>Makes side sleeping sustainable all night</td></tr>
+<tr><td>Recent coccyx fracture, partner sharing bed</td><td>Nectar Premier Copper</td><td>Motion isolation prevents fracture micro-motion</td></tr>
+<tr><td>Lumbar pain + coccydynia combo</td><td>Casper Wave Hybrid</td><td>Zone addresses both regions simultaneously</td></tr>
+<tr><td>Post-partum, natural materials preferred</td><td>Avocado Green Pillow-Top</td><td>GOTS/GOLS, responsive latex, easy rolling</td></tr>
+<tr><td>Budget-conscious, adjustable base user</td><td>Saatva Classic Plush Soft</td><td>Zero-gravity option reduces coccygeal load</td></tr>
+</table>
+
+<div class="note-box">
+<p><strong>Coccyx sleep positioning tip:</strong> For back sleepers who cannot switch positions, place a U-shaped coccyx cutout cushion (not a regular pillow) under the sacral region &mdash; the cutout suspends the coccyx above the mattress surface. Elevate the knees 6&ndash;8 inches with a firm pillow or wedge to reduce posterior pelvic tilt that would otherwise increase sacrococcygeal joint angle. Combined with a conforming mattress comfort layer, this setup approximates the pressure relief of a medical-grade coccyx seating cushion across 7&ndash;8 hours of sleep.</p>
+</div>
+
+<h2 class="section-title">Frequently Asked Questions</h2>
+
+<div class="faq-item">
+<h3>Why does coccydynia hurt more when lying on your back?</h3>
+<p>In supine sleeping, the coccyx contacts the mattress surface and bears concentrated point load because it is a small curved structure with minimal overlying soft tissue. Unlike the broad sacrum or cushioned ischial tuberosities, the coccyx tip creates a high-pressure contact point on any firm or non-conforming surface. Lying flat also removes the slight pelvic tilt of standing, positioning the coccyx perpendicular to the surface pressure vector. Firm mattresses that cannot deform around the coccyx curve concentrate this further. The solution is a mattress soft enough to allow coccygeal suspension, or a cutout cushion that eliminates contact.</p>
+</div>
+
+<div class="faq-item">
+<h3>What firmness mattress is best for tailbone pain?</h3>
+<p>Medium to medium-soft (4&ndash;6 on a 10-point scale) is the optimal range for most coccydynia patients. The mattress needs to be soft enough to allow the sacrococcygeal region to sink in and relieve coccygeal contact pressure, but firm enough to support the lumbar spine and pelvis in neutral. Too firm maintains a flat surface the coccyx presses against; too soft allows the entire pelvis to sink, creating lumbar flattening and posterior pelvic tilt that loads the sacrococcygeal junction. High-density memory foam or gel foam comfort layers (3&ndash;4 inches) over a firm support core is the most consistent configuration.</p>
+</div>
+
+<div class="faq-item">
+<h3>Is side sleeping better than back sleeping for coccydynia?</h3>
+<p>Yes, for most coccydynia patients, side sleeping eliminates direct coccygeal pressure entirely because the coccyx does not contact the mattress in lateral decubitus position. Pressure shifts to the hip (greater trochanter) and shoulder, which have much greater overlying soft tissue and broader contact surfaces. For those who must back sleep, the priority is a mattress with sufficient coccygeal pressure relief at the sacrococcygeal zone, combined with a small pillow under the knees to flatten the lumbar curve and shift weight posteriorly away from the coccyx tip.</p>
+</div>
+
+<div class="faq-item">
+<h3>Can a mattress topper help coccydynia?</h3>
+<p>Yes, a 2&ndash;3 inch memory foam or gel foam topper is one of the most cost-effective interventions for coccydynia when the underlying mattress is too firm. The topper adds the soft deformation layer needed to relieve coccygeal contact pressure without requiring a full mattress replacement. For coccydynia specifically, look for toppers with a density of 4+ lbs/cubic foot (higher density foams deform more precisely around the coccyx contour) and avoid toppers with embedded lumbar support ridges that stiffen the sacral area. A coccyx cutout seat cushion used alongside the topper provides maximum relief for severe coccydynia.</p>
+</div>
+
+<div class="faq-item">
+<h3>What sleeping position should I avoid with coccydynia?</h3>
+<p>Back sleeping on a firm or medium-firm mattress is the worst position for coccydynia because it maximizes direct coccygeal pressure. Stomach sleeping is the second worst &mdash; it forces lumbar hyperextension which increases the sacrococcygeal joint angle and can aggravate a fractured or dislocated coccyx. The preferred position is side sleeping, which removes all coccygeal pressure. If back sleeping is necessary, a U-shaped pillow or coccyx cutout wedge placed under the sacral region to suspend the coccyx above the mattress surface significantly reduces tailbone contact pressure.</p>
+</div>
+
+<h2 class="section-title">Related Guides</h2>
+<div class="related-grid">
+<div class="related-card"><a href="best-mattress-sacroiliac-joint-pain.html">Sacroiliac Joint Pain</a> &mdash; SI joint dysfunction, pelvic stability</div>
+<div class="related-card"><a href="best-mattress-piriformis-syndrome.html">Piriformis Syndrome</a> &mdash; deep gluteal pain, sciatic nerve</div>
+<div class="related-card"><a href="best-mattress-pelvic-floor-dysfunction.html">Pelvic Floor Dysfunction</a> &mdash; pelvic floor muscle pain relief</div>
+<div class="related-card"><a href="best-mattress-pressure-relief.html">Pressure Relief</a> &mdash; general pressure point relief</div>
+<div class="related-card"><a href="best-mattress-back-sleepers.html">Back Sleepers</a> &mdash; supine position optimization</div>
+</div>
+
+</div>
+<footer>
+<p>&copy; 2025 SleepWise Reviews &bull; <a href="../index.html">Home</a> &bull; <a href="index.html">All Reviews</a></p>
+<p style="margin-top:8px;font-size:.8rem">Amazon affiliate links &mdash; we may earn a commission at no extra cost to you.</p>
+</footer>
+</body>
+</html>'''
+
+output_path = r'O:\\MyFiles\\Projects\\SleepReviewes\\posts\\best-mattress-coccydynia.html'
+
+with open(output_path, 'w', encoding='utf-8') as f:
+    f.write(html)
+
+import os
+size = os.path.getsize(output_path)
+print(f"Written: {output_path}")
+print(f"Size: {size:,} bytes")

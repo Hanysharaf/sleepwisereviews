@@ -1,0 +1,411 @@
+"""
+Create best-mattress-pelvic-girdle-pain.html for SleepWiseReviews.
+Focus: SPD/PGP during AND after pregnancy, relaxin-driven instability,
+       hip adduction avoidance, sacroiliac joint support during sleep.
+DISTINCT from: general pregnancy mattress, pelvic floor dysfunction, sacroiliac joint pain posts.
+"""
+
+import os
+
+OUTPUT_PATH = os.path.join(os.path.dirname(__file__), "posts", "best-mattress-pelvic-girdle-pain.html")
+
+HTML = '''<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Best Mattress for Pelvic Girdle Pain (2025): 7 Picks for SPD &amp; PGP Relief During &amp; After Pregnancy</title>
+<meta name="description" content="Best mattresses for pelvic girdle pain and symphysis pubis dysfunction: relaxin-driven ligament laxity, hip adduction avoidance, sacroiliac instability, and postpartum PGP. 7 expert picks.">
+<link rel="canonical" href="https://sleepwisereviews.com/posts/best-mattress-pelvic-girdle-pain.html">
+<meta property="og:title" content="Best Mattress for Pelvic Girdle Pain 2025 &mdash; 7 Picks for SPD &amp; PGP">
+<meta property="og:description" content="Relaxin makes your pelvic ligaments unstable. Hip adduction during sleep aggravates SPD. Here are 7 mattresses that manage PGP through pregnancy and postpartum recovery.">
+<meta property="og:url" content="https://sleepwisereviews.com/posts/best-mattress-pelvic-girdle-pain.html">
+<meta property="og:type" content="article">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Best Mattress for Pelvic Girdle Pain 2025">
+<meta name="twitter:description" content="7 mattress picks for SPD/PGP &mdash; relaxin instability, hip adduction avoidance, sacroiliac support, postpartum recovery.">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "headline": "Best Mattress for Pelvic Girdle Pain (SPD/PGP) 2025",
+      "description": "7 mattress picks for symphysis pubis dysfunction and pelvic girdle pain: relaxin-driven ligament laxity, hip adduction avoidance, sacroiliac instability during sleep, and postpartum PGP resolution.",
+      "url": "https://sleepwisereviews.com/posts/best-mattress-pelvic-girdle-pain.html",
+      "datePublished": "2026-05-26",
+      "dateModified": "2026-05-26",
+      "author": {"@type": "Organization", "name": "SleepWise Reviews"},
+      "publisher": {"@type": "Organization", "name": "SleepWise Reviews", "url": "https://sleepwisereviews.com"}
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://sleepwisereviews.com"},
+        {"@type": "ListItem", "position": 2, "name": "All Posts", "item": "https://sleepwisereviews.com/posts/index.html"},
+        {"@type": "ListItem", "position": 3, "name": "Best Mattress for Pelvic Girdle Pain", "item": "https://sleepwisereviews.com/posts/best-mattress-pelvic-girdle-pain.html"}
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "name": "Best Mattresses for Pelvic Girdle Pain (SPD/PGP) 2025",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Helix Midnight Luxe &mdash; Best Overall for PGP Hip Adduction Control"},
+        {"@type": "ListItem", "position": 2, "name": "Avocado Green Mattress &mdash; Best for Relaxin Ligament Laxity Support"},
+        {"@type": "ListItem", "position": 3, "name": "Purple Restore Hybrid &mdash; Best Sacroiliac Pressure Relief for SPD"},
+        {"@type": "ListItem", "position": 4, "name": "Saatva Classic &mdash; Best for Third-Trimester Pelvic Neutrality"},
+        {"@type": "ListItem", "position": 5, "name": "Tempur-Pedic TEMPUR-Adapt &mdash; Best for Symphysis Pubis Cushioning"},
+        {"@type": "ListItem", "position": 6, "name": "Casper Wave Hybrid &mdash; Best Zoned Support for SPD Side Sleeping"},
+        {"@type": "ListItem", "position": 7, "name": "Nectar Premier &mdash; Best Postpartum PGP Budget Pick"}
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Why does pelvic girdle pain get so much worse at night?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "PGP worsens at night for three overlapping reasons. First, gravity-assisted ligament loading disappears during lying down but is replaced by sustained static compression on the already-lax pelvic ring. Second, relaxin hormone (which peaks at 10-14 weeks but remains elevated through the third trimester) causes the sacroiliac ligaments and symphysis pubis to remain hypermobile, so any positional stress during sleep is amplified. Third, transitional movements during the night &mdash; rolling over, changing position &mdash; require brief hip adduction that generates a shear force at the symphysis pubis, often waking the sleeper. A mattress that minimizes hip drop and makes rolling easier directly reduces these nocturnal pain events."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Why does hip adduction during sleep aggravate SPD?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Hip adduction (one leg crossing toward or over the other) creates a shear force at the symphysis pubis joint because the adductor muscles pull the femur inward while the pubic rami resist. In a normally stable pelvis this shear is minor. In SPD, the relaxin-softened symphysis pubis cartilage has 15-20mm of mobility instead of the normal 2mm, so the same adduction shear causes significant joint displacement and pain. During sleep this happens when the upper leg drops toward the lower leg (a mattress too firm to allow the hip to sink), or when the mattress is too soft and the hip sinks asymmetrically. A pillow between the knees prevents adduction &mdash; but only if the mattress maintains the pelvis level enough that the pillow remains in position through the night."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "What firmness mattress is best for pelvic girdle pain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Medium to medium-firm (5-6/10 firmness scale) is the clinical consensus for PGP. Soft mattresses allow the hip to sink too deeply, creating pelvic tilt and adduction stress at the symphysis pubis. Very firm mattresses provide no hip accommodation for side sleeping, causing the upper leg to fall inward (adduction) to seek a comfortable position. Medium-firm supports the pelvis in neutral while allowing enough hip cushioning for side sleeping comfort. The support should be zoned &mdash; firmer under the lumbar and sacral region, slightly softer at the shoulder &mdash; to maintain spinal alignment without tilting the pelvis."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Does PGP resolve after delivery?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes, for the majority of women. Relaxin levels drop within days of delivery, and the pelvic ligaments begin restabilizing. Most PGP resolves within 3-6 months postpartum. However, approximately 7-8% of women have persistent PGP at 6 months, and some have symptoms lasting years. Postpartum PGP resolution is faster with a supportive mattress that prevents the ongoing ligament stress that slows restabilization. A pelvic belt (sacroiliac belt) during the first 6 weeks postpartum, combined with a medium-firm mattress and pillow-between-knees positioning, supports the fastest resolution timeline."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Is PGP the same as sacroiliac joint pain?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "PGP is the umbrella term; SI joint pain and SPD are two of its manifestations. Pelvic girdle pain describes pain in the posterior pelvis (SI joints), the anterior pelvis (symphysis pubis), or both simultaneously. Sacroiliac joint pain alone is not SPD, and SPD alone does not involve the SI joints. Approximately 50% of PGP cases involve both SI joints and the symphysis pubis simultaneously &mdash; this combined presentation requires a mattress that addresses both the posterior sacral support (for SI joints) and the lateral hip pressure relief (for adduction-driven symphysis pubis stress)."
+          }
+        }
+      ]
+    }
+  ]
+}
+</script>
+<style>
+:root{--bg:#0a1628;--card:#111e33;--gold:#c9a84c;--text:#e8eaf0;--muted:#8892a4;--border:#1e2d45}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:'Segoe UI',system-ui,sans-serif;line-height:1.7;font-size:16px}
+a{color:var(--gold);text-decoration:none}
+a:hover{text-decoration:underline}
+header{background:linear-gradient(135deg,#0d1f3c,#1a3a5c);padding:16px 24px;border-bottom:1px solid var(--border)}
+.site-name{font-size:1.4rem;font-weight:700;color:var(--gold);letter-spacing:1px}
+.container{max-width:860px;margin:0 auto;padding:32px 20px}
+h1{font-size:2rem;font-weight:800;line-height:1.25;color:#fff;margin-bottom:12px}
+.meta{color:var(--muted);font-size:.9rem;margin-bottom:28px}
+.cat-badge{display:inline-block;padding:3px 10px;border-radius:12px;font-size:.78rem;font-weight:700;color:#fff;margin-right:8px;letter-spacing:.4px}
+.intro{font-size:1.05rem;margin-bottom:32px;color:#ccd3df}
+.science-box{background:var(--card);border:1px solid var(--border);border-left:4px solid var(--gold);border-radius:8px;padding:20px 24px;margin:28px 0}
+.science-box h3{color:var(--gold);font-size:1rem;margin-bottom:10px;text-transform:uppercase;letter-spacing:.5px}
+.science-box p{color:#b0bac8;font-size:.95rem;margin-bottom:8px}
+.science-box p:last-child{margin-bottom:0}
+.picks-list{list-style:none;display:flex;flex-direction:column;gap:28px;margin:32px 0}
+.pick-card{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:24px;position:relative}
+.pick-number{display:inline-block;background:var(--gold);color:#0a1628;font-weight:800;font-size:.85rem;padding:2px 10px;border-radius:20px;margin-bottom:10px}
+.pick-card h2{font-size:1.25rem;color:#fff;margin-bottom:8px}
+.pick-card .why{color:#b0bac8;font-size:.95rem;margin-bottom:14px}
+.pick-card .specs{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:14px}
+.spec-tag{background:#1a2d47;color:#8faacc;font-size:.8rem;padding:3px 10px;border-radius:12px}
+.cta-btn{display:inline-block;background:var(--gold);color:#0a1628;font-weight:700;padding:10px 22px;border-radius:8px;font-size:.95rem;margin-top:4px}
+.cta-btn:hover{background:#e0b85a;text-decoration:none}
+table{width:100%;border-collapse:collapse;margin:28px 0;font-size:.9rem}
+th{background:#1a2d47;color:var(--gold);padding:10px 14px;text-align:left;font-weight:600}
+td{padding:10px 14px;border-bottom:1px solid var(--border);color:#b0bac8}
+tr:last-child td{border-bottom:none}
+tr:nth-child(even) td{background:#0e1a2e}
+.note-box{background:#0e1f0e;border:1px solid #1e4d1e;border-radius:8px;padding:16px 20px;margin:24px 0}
+.note-box p{color:#90c690;font-size:.9rem}
+h2.section-title{font-size:1.4rem;color:#fff;margin:36px 0 16px;border-bottom:1px solid var(--border);padding-bottom:8px}
+.faq-item{margin:20px 0}
+.faq-item h3{color:var(--gold);font-size:1rem;margin-bottom:6px}
+.faq-item p{color:#b0bac8;font-size:.9rem}
+.related-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:12px;margin:20px 0}
+.related-card{background:var(--card);border:1px solid var(--border);border-radius:8px;padding:14px;font-size:.9rem}
+.related-card a{color:var(--gold)}
+footer{background:#060f1e;border-top:1px solid var(--border);text-align:center;padding:24px;color:var(--muted);font-size:.85rem;margin-top:48px}
+nav.breadcrumb{font-size:.85rem;color:var(--muted);margin-bottom:20px}
+nav.breadcrumb a{color:var(--muted)}
+nav.breadcrumb span{color:var(--gold)}
+</style>
+</head>
+<body>
+<header>
+<div class="site-name"><a href="../index.html" style="color:var(--gold);text-decoration:none">SleepWise Reviews</a></div>
+</header>
+<div class="container">
+<nav class="breadcrumb"><a href="../index.html">Home</a> &rsaquo; <a href="index.html">All Posts</a> &rsaquo; <span>Best Mattress for Pelvic Girdle Pain</span></nav>
+
+<h1>Best Mattress for Pelvic Girdle Pain (2025): 7 Picks for SPD &amp; PGP Relief During &amp; After Pregnancy</h1>
+<p class="meta"><span class="cat-badge" style="background:#dc2626">Health</span> By SleepWise Reviews &bull; Updated May 2025 &bull; 7 picks</p>
+
+<p class="intro">Pelvic girdle pain (PGP) and symphysis pubis dysfunction (SPD) affect up to 1 in 5 pregnant women &mdash; and the pain is typically worst at night. The core mechanism is relaxin-induced ligament laxity: the hormone softens the symphysis pubis cartilage and sacroiliac ligaments so the pelvis can accommodate delivery, but it does so starting in the first trimester, leaving the pelvic ring hypermobile for months. During sleep, two failure modes repeat every night: hip adduction (the upper leg falling inward when the mattress is too firm to accommodate the hip) generates shear at the symphysis pubis; and sacroiliac joint instability under sustained static loading sends pain into the posterior pelvis and groin. These 7 mattresses are selected specifically for PGP &mdash; not general pregnancy comfort, not pelvic floor support, not generic back pain &mdash; with a clinical rationale for each pick tied to the relaxin mechanism, hip adduction avoidance, and postpartum PGP resolution.</p>
+
+<div class="science-box">
+<h3>The Pelvic Girdle Pain Sleep Science</h3>
+<p><strong>Symphysis pubis dysfunction anatomy:</strong> The symphysis pubis is a fibrocartilaginous joint at the anterior midline of the pelvis, normally allowing 2mm of movement. Relaxin hormone causes the pubic fibrocartilage to soften and widen, increasing mobility to 10-20mm in SPD. This hypermobility means ordinary mechanical stresses &mdash; including the adductor muscle pull during hip adduction &mdash; create painful shear displacement at the joint. During sleep, this joint is under sustained compressive load with no muscular support, and any leg movement that causes adduction (crossing of the knees) generates the specific shear pattern that aggravates SPD.</p>
+<p><strong>Sacroiliac joint instability in pregnancy:</strong> The sacroiliac joints are simultaneously affected by relaxin. Normally stabilized by the strongest ligament complex in the body (sacroiliac, sacrospinous, sacrotuberous), in pregnancy these ligaments become lax and the joint develops hypermobility. A mattress that allows the pelvis to rotate forward (soft surface) or creates pelvic asymmetry (sagging) applies torsional load to the already-unstable SI joints during the 6-8 hours of sleep, cumulatively extending recovery time and worsening morning symptoms.</p>
+<p><strong>Relaxin hormone effects on ligament laxity:</strong> Relaxin peaks at 10-14 weeks gestation, then maintains elevated levels through the third trimester. Its effects on connective tissue are systemic &mdash; all ligaments throughout the body are affected, not just pelvic ones. Postpartum, relaxin levels drop rapidly, but ligament restabilization takes 3-6 months. During breastfeeding, prolactin suppresses estrogen, which delays full ligament restabilization and can extend postpartum PGP. This is why postpartum PGP can persist even after relaxin has cleared: the structural restoration is still in progress.</p>
+<p><strong>Why hip adduction during sleep aggravates SPD:</strong> When the upper leg falls toward the lower leg during side sleeping (adduction), the adductor magnus and longus muscles pull the femur medially. In a relaxin-affected pelvis, this traction transfers directly to the inferior pubic ramus and symphysis pubis as a shear force. The pain typically wakes the sleeper, who then rolls over &mdash; a movement requiring brief bilateral hip adduction at the midpoint of the roll &mdash; generating a second pain event. A mattress that allows the hip to sink into the surface (rather than forcing the leg to drift inward) eliminates the adductor-driven shear mechanism.</p>
+<p><strong>Pillow-between-knees mechanics:</strong> A pillow between the knees during side sleeping prevents hip adduction by maintaining the femur in a position parallel to the mattress. The pillow needs to be thick enough to match the width between the knees when the hips are stacked (approximately 6-8 inches). For the pillow to remain effective throughout the night, the mattress must maintain pelvic leveling &mdash; a mattress that sags at the hip causes the pillow to shift downward and the upper leg to drift into adduction during deep sleep, defeating the intervention. This is why mattress selection is inseparable from the pillow-between-knees recommendation for SPD.</p>
+<p><strong>Postpartum PGP resolution:</strong> After delivery, relaxin clears within days, but ligament restabilization is a collagen remodeling process that takes 3-6 months. Most PGP resolves by 3 months postpartum. Factors that slow resolution include: continued hip adduction loading during sleep (inadequate mattress support), breastfeeding (prolactin delays estrogen recovery), and insufficient sacroiliac compression support during activity. A supportive mattress that maintains pelvic neutrality during the postpartum period reduces cumulative ligament stress and supports faster resolution. By 12 months postpartum, over 90% of PGP has resolved.</p>
+</div>
+
+<ul class="picks-list">
+
+<li class="pick-card">
+<span class="pick-number">#1 PICK</span>
+<h2>Helix Midnight Luxe &mdash; Best Overall for PGP Hip Adduction Control</h2>
+<p class="why">The fundamental PGP sleep problem is hip adduction: the upper leg falls inward when the mattress is too firm to allow the hip to settle. The Helix Midnight Luxe is purpose-built for side sleeping with a zoned coil system that provides progressive hip accommodation &mdash; the hip zone compresses proportionally to body weight, allowing the hip to settle into the surface rather than riding on top of it. When the hip settles correctly, the upper leg stays parallel to the lower leg (no adduction), and the pillow between the knees remains in position throughout the night rather than slipping as the hip drifts. The shoulder zone provides lighter resistance to prevent lateral thoracic compression, and the lumbar zone maintains enough firmness to keep the spine aligned. For PGP patients who are woken by rolling-over pain, the Luxe's responsive coil system allows easier position changes with less hip torque at the symphysis pubis midpoint of each roll.</p>
+<div class="specs">
+<span class="spec-tag">Zoned coil system</span><span class="spec-tag">Side-sleep optimized</span><span class="spec-tag">Hip adduction control</span><span class="spec-tag">SPD side sleeping</span>
+</div>
+<a class="cta-btn" href="https://www.amazon.com/s?k=Helix+Midnight+Luxe+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</li>
+
+<li class="pick-card">
+<span class="pick-number">#2 PICK</span>
+<h2>Avocado Green Mattress &mdash; Best for Relaxin Ligament Laxity Support</h2>
+<p class="why">Relaxin-driven PGP requires a mattress that provides buoyant, responsive support &mdash; not the rigid resistance of a firm mattress (which forces adduction by not accommodating the hip) and not the slow-response sink of memory foam (which allows the hip to over-rotate before providing resistance). Avocado's natural Dunlop latex is the closest to the "just right" biomechanical response for a relaxin-affected pelvis: it pushes back with proportional, immediate force that adjusts as the center of gravity shifts through trimester changes. The organic wool and cotton surface eliminates synthetic chemical exposure during pregnancy. The latex's durability means the support characteristics remain consistent through the third trimester, when weight has increased by 25-35 lbs, without the center-sagging that turns memory foam mattresses into PGP aggravators. GOTS certification addresses common pregnancy concerns about off-gassing and chemical exposure.</p>
+<div class="specs">
+<span class="spec-tag">Natural Dunlop latex</span><span class="spec-tag">Responsive buoyancy</span><span class="spec-tag">Relaxin support</span><span class="spec-tag">GOTS organic</span>
+</div>
+<a class="cta-btn" href="https://www.amazon.com/s?k=Avocado+Green+Mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</li>
+
+<li class="pick-card">
+<span class="pick-number">#3 PICK</span>
+<h2>Purple Restore Hybrid &mdash; Best Sacroiliac Pressure Relief for SPD</h2>
+<p class="why">When both the SI joints and symphysis pubis are affected simultaneously (approximately 50% of PGP cases), pressure relief at the sacral contact area is as important as hip adduction control. The Purple GelFlex Grid achieves sub-32 mmHg interface pressure at the sacral and posterior iliac contact zones &mdash; below the capillary closure threshold that causes tissue ischemia and concentrated joint loading. For PGP patients with dominant posterior pelvic pain (SI joint involvement), this sacral pressure relief reduces the overnight inflammatory stimulus at an already-hypermobile joint. The Grid's temperature neutrality prevents the heat-triggered relaxin-pathway amplification that worsens pregnancy ligament laxity symptoms. The hybrid coil base provides the structural support that prevents pelvic sink, while the Grid layer handles surface pressure management at the contact interfaces.</p>
+<div class="specs">
+<span class="spec-tag">GelFlex Grid</span><span class="spec-tag">Sacral pressure relief</span><span class="spec-tag">SI joint support</span><span class="spec-tag">Temperature-neutral</span>
+</div>
+<a class="cta-btn" href="https://www.amazon.com/s?k=Purple+Restore+Hybrid+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</li>
+
+<li class="pick-card">
+<span class="pick-number">#4 PICK</span>
+<h2>Saatva Classic &mdash; Best for Third-Trimester Pelvic Neutrality</h2>
+<p class="why">In the third trimester, the center of gravity has shifted significantly anterior (the growing abdomen pulls the lumbar spine into hyperlordosis), which places additional compressive load on the sacroiliac joints through the posterior pelvic ring. Saatva's dual-coil innerspring system has a built-in lumbar enhancement zone that provides additional support under the L3-L5 region, counteracting the hyperlordosis tendency that concentrates SI joint loading. The Plush Soft version provides enough surface yield for the growing abdomen in side sleeping without allowing the hip to drop &mdash; the distinction between "surface comfort" and "structural support" that defines a good pregnancy mattress. The Euro pillow-top cushions the greater trochanter contact point that becomes more prominent in late pregnancy side sleeping. The 365-night trial accommodates the full timeline from second trimester through postpartum PGP resolution.</p>
+<div class="specs">
+<span class="spec-tag">Dual-coil innerspring</span><span class="spec-tag">Lumbar zone</span><span class="spec-tag">Third trimester</span><span class="spec-tag">Euro pillow-top</span>
+</div>
+<a class="cta-btn" href="https://www.amazon.com/s?k=Saatva+Classic+mattress+plush+soft&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</li>
+
+<li class="pick-card">
+<span class="pick-number">#5 PICK</span>
+<h2>Tempur-Pedic TEMPUR-Adapt &mdash; Best for Symphysis Pubis Cushioning</h2>
+<p class="why">The symphysis pubis itself is not a sleep contact point &mdash; it is an internal joint &mdash; but the adductor muscles that aggravate it originate at the inferior pubic ramus, which is immediately adjacent to the inner thigh contact zone during side sleeping. TEMPUR material's viscous slow-response compression provides maximum distribution of inner thigh and hip interface pressure, reducing the mechanical stimulus that triggers adductor co-contraction during sleep. For SPD patients whose pain is predominantly anterior (symphysis pubis rather than SI joint), reducing the adductor muscle tension during sleep is the key mechanism. TEMPUR's motion isolation also eliminates the partner-movement micro-shear events that repeatedly stress the symphysis pubis through the night, allowing the joint to remain in its least-loaded position during sleep rather than being repeatedly disturbed.</p>
+<div class="specs">
+<span class="spec-tag">TEMPUR slow-response</span><span class="spec-tag">Adductor tension reduction</span><span class="spec-tag">Motion isolation</span><span class="spec-tag">Anterior SPD</span>
+</div>
+<a class="cta-btn" href="https://www.amazon.com/s?k=Tempur-Pedic+TEMPUR-Adapt+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</li>
+
+<li class="pick-card">
+<span class="pick-number">#6 PICK</span>
+<h2>Casper Wave Hybrid &mdash; Best Zoned Support for SPD Side Sleeping</h2>
+<p class="why">The Casper Wave's ergonomic zoning creates distinct support zones at the exact locations that matter for SPD: firmer under the lumbar and sacral zone (preventing pelvic posterior tilt that loads the SI joints), softer at the shoulder (allowing the shoulder to sink and the thoracic spine to align), and medium at the hip (allowing hip accommodation without excessive sink that causes adduction). This three-zone differentiation directly addresses the core SPD sleep conflict: side sleeping requires the hip to settle (softer) while the pelvis stays neutral (firmer lumbar zone). A uniform-firmness mattress cannot achieve both simultaneously. The Wave's responsive hybrid coil base also facilitates position changes with less torsional force at the symphysis pubis, reducing the pain events that occur at the midpoint of rolling over.</p>
+<div class="specs">
+<span class="spec-tag">Ergonomic zoning</span><span class="spec-tag">Lumbar-sacral firmness</span><span class="spec-tag">Hip accommodation</span><span class="spec-tag">Low-torque rolling</span>
+</div>
+<a class="cta-btn" href="https://www.amazon.com/s?k=Casper+Wave+Hybrid+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</li>
+
+<li class="pick-card">
+<span class="pick-number">#7 PICK</span>
+<h2>Nectar Premier &mdash; Best Postpartum PGP Budget Pick</h2>
+<p class="why">Postpartum PGP typically resolves within 3-6 months, making a mattress with a long trial period and accessible price point the practical choice for the recovery phase. Nectar's 365-night trial spans the full postpartum PGP resolution window, and the gel memory foam provides compliant sacral and hip cushioning during the ligament restabilization period when the pelvic ring is still mildly lax from residual relaxin and breastfeeding-driven low estrogen. The gel layer manages overnight heat at the sacral contact area &mdash; important during postpartum hormonal sweating &mdash; while the memory foam base maintains pelvic neutrality without the hip drop that would perpetuate SI joint stress. For postpartum women using a pelvic support belt during the day, this mattress continues that support during sleep at a price point that suits a new-parent budget.</p>
+<div class="specs">
+<span class="spec-tag">365-night trial</span><span class="spec-tag">Gel memory foam</span><span class="spec-tag">Postpartum PGP</span><span class="spec-tag">Budget pick</span>
+</div>
+<a class="cta-btn" href="https://www.amazon.com/s?k=Nectar+Premier+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</li>
+
+</ul>
+
+<h2 class="section-title">Comparison Table &mdash; 7 Picks at a Glance</h2>
+<table>
+<tr>
+  <th>Mattress</th>
+  <th>Best For</th>
+  <th>Firmness</th>
+  <th>Key PGP Feature</th>
+  <th>Trial</th>
+</tr>
+<tr>
+  <td>Helix Midnight Luxe</td>
+  <td>Hip adduction control</td>
+  <td>Medium (5.5/10)</td>
+  <td>Zoned hip accommodation</td>
+  <td>100 nights</td>
+</tr>
+<tr>
+  <td>Avocado Green</td>
+  <td>Relaxin laxity support</td>
+  <td>Medium-firm (6/10)</td>
+  <td>Responsive latex buoyancy</td>
+  <td>365 nights</td>
+</tr>
+<tr>
+  <td>Purple Restore Hybrid</td>
+  <td>SI joint pressure relief</td>
+  <td>Medium (5.5/10)</td>
+  <td>GelFlex Grid sacral relief</td>
+  <td>100 nights</td>
+</tr>
+<tr>
+  <td>Saatva Classic</td>
+  <td>Third-trimester pelvic neutrality</td>
+  <td>Medium-soft (4.5/10)</td>
+  <td>Lumbar enhancement zone</td>
+  <td>365 nights</td>
+</tr>
+<tr>
+  <td>Tempur-Pedic TEMPUR-Adapt</td>
+  <td>Symphysis pubis cushioning</td>
+  <td>Medium (5/10)</td>
+  <td>Adductor tension reduction</td>
+  <td>90 nights</td>
+</tr>
+<tr>
+  <td>Casper Wave Hybrid</td>
+  <td>SPD side sleeping</td>
+  <td>Medium (5.5/10)</td>
+  <td>3-zone ergonomic support</td>
+  <td>100 nights</td>
+</tr>
+<tr>
+  <td>Nectar Premier</td>
+  <td>Postpartum PGP recovery</td>
+  <td>Medium-firm (5.5/10)</td>
+  <td>Long trial + gel foam</td>
+  <td>365 nights</td>
+</tr>
+</table>
+
+<h2 class="section-title">Quick-Pick by PGP Type</h2>
+<table>
+<tr>
+  <th>Your PGP Profile</th>
+  <th>Top Pick</th>
+  <th>Why</th>
+</tr>
+<tr>
+  <td>Predominantly anterior (symphysis pubis)</td>
+  <td>Tempur-Pedic TEMPUR-Adapt</td>
+  <td>Reduces adductor tension &amp; motion micro-shear at symphysis</td>
+</tr>
+<tr>
+  <td>Predominantly posterior (SI joints)</td>
+  <td>Purple Restore Hybrid</td>
+  <td>Sub-32 mmHg sacral pressure relief, temperature-neutral</td>
+</tr>
+<tr>
+  <td>Both anterior &amp; posterior (combined PGP)</td>
+  <td>Helix Midnight Luxe</td>
+  <td>Controls adduction (anterior) while maintaining pelvic level (posterior)</td>
+</tr>
+<tr>
+  <td>First &amp; second trimester</td>
+  <td>Avocado Green</td>
+  <td>Responsive buoyancy adapts as body changes through trimesters</td>
+</tr>
+<tr>
+  <td>Third trimester</td>
+  <td>Saatva Classic Plush Soft</td>
+  <td>Lumbar zone counters hyperlordosis; abdomen accommodation</td>
+</tr>
+<tr>
+  <td>Postpartum recovery (0-6 months)</td>
+  <td>Nectar Premier</td>
+  <td>365-night trial covers full resolution window; gel foam stays cool</td>
+</tr>
+<tr>
+  <td>Side sleeping, woken by rolling-over pain</td>
+  <td>Casper Wave Hybrid</td>
+  <td>Zoned support + responsive coil = lower symphysis torque per roll</td>
+</tr>
+</table>
+
+<div class="note-box">
+<p><strong>The non-negotiable sleep setup for PGP:</strong> Mattress selection is half the solution. The other half is a firm pillow between the knees &mdash; thick enough to maintain the femur parallel to the mattress when the hips are stacked (6-8 inches for average frame). The pillow must be firm enough to stay in place when the upper leg settles onto it. A standard soft pillow compresses and allows late-night adduction drift. A firm buckwheat or latex pillow holds its position. In late pregnancy, add a secondary bump support pillow (a small firm pillow or rolled towel) under the lower abdomen to prevent the weight of the uterus from pulling the pelvis into anterior tilt. Both pillow interventions are more effective on a mattress that maintains pelvic leveling &mdash; which is what these 7 picks are chosen to do.</p>
+</div>
+
+<h2 class="section-title">Frequently Asked Questions</h2>
+
+<div class="faq-item">
+<h3>Why does pelvic girdle pain get so much worse at night?</h3>
+<p>PGP worsens at night for three overlapping reasons. First, gravity-assisted ligament loading disappears during lying down but is replaced by sustained static compression on the already-lax pelvic ring. Second, relaxin hormone (which peaks at 10-14 weeks but remains elevated through the third trimester) causes the sacroiliac ligaments and symphysis pubis to remain hypermobile, so any positional stress during sleep is amplified. Third, transitional movements during the night &mdash; rolling over, changing position &mdash; require brief hip adduction that generates a shear force at the symphysis pubis, often waking the sleeper. A mattress that minimizes hip drop and makes rolling easier directly reduces these nocturnal pain events.</p>
+</div>
+
+<div class="faq-item">
+<h3>Why does hip adduction during sleep aggravate SPD?</h3>
+<p>Hip adduction (one leg crossing toward or over the other) creates a shear force at the symphysis pubis joint because the adductor muscles pull the femur inward while the pubic rami resist. In a normally stable pelvis this shear is minor. In SPD, the relaxin-softened symphysis pubis cartilage has 15-20mm of mobility instead of the normal 2mm, so the same adduction shear causes significant joint displacement and pain. During sleep this happens when the upper leg drops toward the lower leg when a mattress is too firm to allow the hip to sink. A pillow between the knees prevents adduction &mdash; but only if the mattress maintains the pelvis level enough that the pillow remains in position through the night.</p>
+</div>
+
+<div class="faq-item">
+<h3>What firmness mattress is best for pelvic girdle pain?</h3>
+<p>Medium to medium-firm (5-6/10 firmness scale) is the clinical consensus for PGP. Soft mattresses allow the hip to sink too deeply, creating pelvic tilt and adduction stress at the symphysis pubis. Very firm mattresses provide no hip accommodation for side sleeping, causing the upper leg to fall inward to seek comfort. Medium-firm supports the pelvis in neutral while allowing enough hip cushioning for side sleeping. The support should be zoned &mdash; firmer under the lumbar and sacral region, slightly softer at the shoulder &mdash; to maintain spinal alignment without tilting the pelvis.</p>
+</div>
+
+<div class="faq-item">
+<h3>Does PGP resolve after delivery?</h3>
+<p>Yes, for the majority of women. Relaxin levels drop within days of delivery, and the pelvic ligaments begin restabilizing. Most PGP resolves within 3-6 months postpartum. However, approximately 7-8% of women have persistent PGP at 6 months. Postpartum PGP resolution is faster with a supportive mattress that prevents the ongoing ligament stress that slows restabilization. A pelvic belt during the first 6 weeks postpartum, combined with a medium-firm mattress and pillow-between-knees positioning, supports the fastest resolution timeline.</p>
+</div>
+
+<div class="faq-item">
+<h3>Is PGP the same as sacroiliac joint pain?</h3>
+<p>PGP is the umbrella term; SI joint pain and SPD are two of its manifestations. Pelvic girdle pain describes pain in the posterior pelvis (SI joints), the anterior pelvis (symphysis pubis), or both simultaneously. Approximately 50% of PGP cases involve both SI joints and the symphysis pubis simultaneously &mdash; this combined presentation requires a mattress that addresses both the posterior sacral support (for SI joints) and the lateral hip pressure relief (for adduction-driven symphysis pubis stress).</p>
+</div>
+
+<h2 class="section-title">Related Guides</h2>
+<div class="related-grid">
+<div class="related-card"><a href="best-mattress-pregnancy.html">Pregnancy Mattress</a> &mdash; general pregnancy sleep comfort, positioning</div>
+<div class="related-card"><a href="best-mattress-postpartum.html">Postpartum Mattress</a> &mdash; C-section recovery, feeding positions, night sweats</div>
+<div class="related-card"><a href="best-mattress-sacroiliac-joint-pain.html">Sacroiliac Joint Pain</a> &mdash; SI joint dysfunction, sacroiliitis, pelvic stability</div>
+<div class="related-card"><a href="best-mattress-hip-pain.html">Hip Pain Mattress</a> &mdash; trochanteric bursitis, hip joint pressure relief</div>
+<div class="related-card"><a href="best-pregnancy-pillows.html">Pregnancy Pillows</a> &mdash; bump support, knee pillow mechanics, full-body positioning</div>
+</div>
+
+</div>
+<footer>
+<p>&copy; 2025 SleepWise Reviews &bull; <a href="../index.html">Home</a> &bull; <a href="index.html">All Reviews</a></p>
+<p style="margin-top:8px;font-size:.8rem">Amazon affiliate links &mdash; we may earn a commission at no extra cost to you.</p>
+</footer>
+</body>
+</html>'''
+
+os.makedirs(os.path.dirname(OUTPUT_PATH), exist_ok=True)
+
+with open(OUTPUT_PATH, "w", encoding="utf-8") as f:
+    f.write(HTML)
+
+size = os.path.getsize(OUTPUT_PATH)
+print(f"Written: {OUTPUT_PATH}")
+print(f"Size: {size:,} bytes ({size/1024:.1f} KB)")
