@@ -1,0 +1,544 @@
+#!/usr/bin/env python3
+"""Generate best-mattress-bunion-surgery-recovery.html for SleepWiseReviews."""
+
+import os
+
+html = '''<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Best Mattress for Bunion Surgery Recovery (2026): 7 Picks for Post-Osteotomy Sleep</title>
+<meta name="description" content="Bunion surgery recovery demands zero forefoot pressure, surgical boot accommodation, and safe NWB transfer from bed. 7 expert mattress picks rated on edge stability, foot elevation, and hallux valgus osteotomy recovery needs.">
+<meta property="og:title" content="Best Mattress for Bunion Surgery Recovery (2026): 7 Picks for Post-Osteotomy Sleep">
+<meta property="og:description" content="Lapidus or Austin/Chevron osteotomy recovery: 7 mattress picks rated on surgical boot support, forefoot pressure avoidance, foot elevation, and NWB bed-exit safety.">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://sleepwisereviews.com/posts/best-mattress-bunion-surgery-recovery.html">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Best Mattress for Bunion Surgery Recovery (2026)">
+<meta name="twitter:description" content="7 picks for post-osteotomy sleep — boot accommodation, forefoot pressure relief, foot elevation, NWB transfer.">
+<link rel="canonical" href="https://sleepwisereviews.com/posts/best-mattress-bunion-surgery-recovery.html">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "headline": "Best Mattress for Bunion Surgery Recovery (2026): 7 Picks for Post-Osteotomy Sleep",
+      "description": "Expert-reviewed mattress picks for hallux valgus osteotomy recovery, rated on surgical boot accommodation, forefoot pressure avoidance, foot elevation support, and NWB bed-exit safety.",
+      "url": "https://sleepwisereviews.com/posts/best-mattress-bunion-surgery-recovery.html",
+      "datePublished": "2026-05-26",
+      "dateModified": "2026-05-26",
+      "author": {"@type": "Organization", "name": "SleepWise Reviews"},
+      "publisher": {"@type": "Organization", "name": "SleepWise Reviews", "url": "https://sleepwisereviews.com"}
+    },
+    {
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://sleepwisereviews.com/"},
+        {"@type": "ListItem", "position": 2, "name": "Posts", "item": "https://sleepwisereviews.com/posts/index.html"},
+        {"@type": "ListItem", "position": 3, "name": "Best Mattress for Bunion Surgery Recovery"}
+      ]
+    },
+    {
+      "@type": "ItemList",
+      "name": "Best Mattresses for Bunion Surgery Recovery",
+      "itemListElement": [
+        {"@type": "ListItem", "position": 1, "name": "Saatva Classic Plush Soft", "url": "https://www.amazon.com/s?k=Saatva+Classic+Plush+Soft+mattress&tag=sleepwiserevi-20"},
+        {"@type": "ListItem", "position": 2, "name": "Helix Midnight Luxe", "url": "https://www.amazon.com/s?k=Helix+Midnight+Luxe+mattress&tag=sleepwiserevi-20"},
+        {"@type": "ListItem", "position": 3, "name": "WinkBed Medium", "url": "https://www.amazon.com/s?k=WinkBed+Medium+mattress&tag=sleepwiserevi-20"},
+        {"@type": "ListItem", "position": 4, "name": "Tempur-Pedic TEMPUR-Adapt Medium Hybrid", "url": "https://www.amazon.com/s?k=Tempur-Pedic+TEMPUR-Adapt+Medium+Hybrid+mattress&tag=sleepwiserevi-20"},
+        {"@type": "ListItem", "position": 5, "name": "Purple Restore Hybrid", "url": "https://www.amazon.com/s?k=Purple+Restore+Hybrid+mattress&tag=sleepwiserevi-20"},
+        {"@type": "ListItem", "position": 6, "name": "DreamCloud Premier Rest", "url": "https://www.amazon.com/s?k=DreamCloud+Premier+Rest+mattress&tag=sleepwiserevi-20"},
+        {"@type": "ListItem", "position": 7, "name": "Layla Hybrid", "url": "https://www.amazon.com/s?k=Layla+Hybrid+mattress&tag=sleepwiserevi-20"}
+      ]
+    },
+    {
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Can I sleep on my back after bunion surgery?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Back sleeping is the recommended position for the first 6 weeks after hallux valgus osteotomy. It allows the surgical foot to be elevated above heart level using a wedge pillow under the calf, keeps the forefoot completely unloaded off the mattress surface, and eliminates the risk of rolling onto the operated toe. The surgical boot rests on the mattress without pressing the forefoot or incision site against any surface."}
+        },
+        {
+          "@type": "Question",
+          "name": "How do I get out of bed safely when I am non-weight-bearing after bunion surgery?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Safe NWB bed exit requires a firm mattress edge that does not collapse under your seated weight. Sit at the edge, swing both legs over, and press through your hands and heel of the unoperated foot to stand - keeping the surgical foot completely off the floor. A mattress with reinforced perimeter coils maintains the stable platform needed for this transfer. Soft foam-only edges that compress when you sit on them significantly increase fall risk during NWB exits."}
+        },
+        {
+          "@type": "Question",
+          "name": "How should the surgical boot be positioned on the mattress during sleep?",
+          "acceptedAnswer": {"@type": "Answer", "text": "The surgical boot should rest flat on the mattress surface with the heel making contact but the forefoot elevated slightly by the boot's rigid sole. Choose a mattress that is at least 10-12 inches tall so the boot does not cause the foot to hang at the mattress edge. Medium-firm mattresses prevent the boot from sinking deeply, which can tilt the ankle inward. Place a wedge pillow under the calf - not under the boot itself - to keep the forefoot above heart level without placing pressure on the incision."}
+        },
+        {
+          "@type": "Question",
+          "name": "How long do I need to avoid putting weight on my toe after bunion surgery?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Weight-bearing protocol depends on the osteotomy type. Lapidus fusion (first tarsometatarsal joint) typically requires 6-8 weeks of strict NWB followed by 2-4 weeks of heel-weight-bearing only. Austin/Chevron osteotomy (metatarsal head) may allow heel-weight-bearing in a surgical boot from day one, with full forefoot loading returning at 6-8 weeks. Your surgeon's specific protocol governs - these are general ranges, not medical advice. In both cases the mattress must facilitate safe NWB transfers for at least the first 6 weeks."}
+        },
+        {
+          "@type": "Question",
+          "name": "Does mattress firmness affect post-bunion surgery swelling?",
+          "acceptedAnswer": {"@type": "Answer", "text": "Indirectly, yes. A mattress that is too soft causes the elevated foot to sink below heart level when the wedge pillow shifts during sleep, reducing the gravity-assisted drainage that controls post-operative edema. A medium-firm or firm mattress maintains the elevation plane more consistently overnight. Additionally, mattresses with significant heat retention (all-foam constructions without cooling layers) can increase local tissue temperature at the surgical site, which correlates with increased inflammatory swelling."}
+        }
+      ]
+    }
+  ]
+}
+</script>
+<style>
+:root{--bg:#0a1628;--card:#111e33;--gold:#c9a84c;--text:#e2e8f0;--muted:#94a3b8;--border:#1e3a5f}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:\'Segoe UI\',sans-serif;line-height:1.7;font-size:16px}
+a{color:var(--gold);text-decoration:none}a:hover{text-decoration:underline}
+.wrap{max-width:860px;margin:0 auto;padding:24px 16px}
+header{background:linear-gradient(135deg,#0a1628,#1e3a5f);padding:16px 24px;display:flex;align-items:center;gap:16px;border-bottom:1px solid var(--border)}
+.logo{font-size:1.3rem;font-weight:700;color:var(--gold)}
+nav a{color:var(--text);margin-left:20px;font-size:.9rem}
+.hero{background:linear-gradient(135deg,#111e33,#1a2d4a);border-radius:12px;padding:40px 32px;margin:32px 0;border:1px solid var(--border)}
+.cat-badge{display:inline-block;background:#dc2626;color:#fff;font-size:.75rem;font-weight:600;padding:3px 10px;border-radius:4px;text-transform:uppercase;letter-spacing:.05em;margin-bottom:16px}
+h1{font-size:2rem;line-height:1.25;color:#fff;margin-bottom:12px}
+.subtitle{color:var(--muted);font-size:1rem;margin-bottom:20px}
+.quick-picks{display:flex;gap:8px;flex-wrap:wrap;margin-top:16px}
+.qp{background:var(--bg);border:1px solid var(--border);border-radius:6px;padding:6px 12px;font-size:.8rem;color:var(--gold)}
+.toc{background:var(--card);border:1px solid var(--border);border-radius:8px;padding:20px 24px;margin:24px 0}
+.toc h2{font-size:1rem;color:var(--gold);margin-bottom:12px}
+.toc ol{padding-left:20px}
+.toc li{margin-bottom:4px;font-size:.9rem}
+.science-box{background:linear-gradient(135deg,#0f2040,#1a3060);border:1px solid #2a4a7f;border-radius:10px;padding:24px;margin:32px 0}
+.science-box h2{color:var(--gold);font-size:1.1rem;margin-bottom:16px}
+.sci-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:16px;margin-top:16px}
+.sci-card{background:rgba(255,255,255,.04);border-radius:8px;padding:16px;border:1px solid rgba(255,255,255,.08)}
+.sci-card .label{font-size:.75rem;color:var(--muted);text-transform:uppercase;letter-spacing:.05em;margin-bottom:6px}
+.sci-card .value{font-size:1rem;font-weight:600;color:#fff}
+.sci-card .source{font-size:.7rem;color:var(--muted);margin-top:4px}
+.pick-card{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:24px;margin:24px 0;position:relative}
+.pick-card.top-pick{border-color:var(--gold)}
+.rank-badge{position:absolute;top:16px;right:16px;background:var(--gold);color:#0a1628;font-weight:700;font-size:.75rem;padding:4px 10px;border-radius:20px}
+.best-for{display:inline-block;background:rgba(201,168,76,.15);border:1px solid rgba(201,168,76,.3);color:var(--gold);font-size:.75rem;padding:3px 10px;border-radius:4px;margin-bottom:10px}
+.pick-card h3{font-size:1.2rem;color:#fff;margin-bottom:6px}
+.pick-card .meta{color:var(--muted);font-size:.85rem;margin-bottom:12px}
+.pick-card p{color:var(--text);margin-bottom:14px;line-height:1.6}
+.btn{display:inline-block;background:var(--gold);color:#0a1628;font-weight:700;padding:10px 20px;border-radius:6px;font-size:.9rem}
+.btn:hover{background:#e5c06a;text-decoration:none}
+.specs-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:10px;margin:14px 0}
+.spec-item{background:rgba(255,255,255,.04);border-radius:6px;padding:10px;text-align:center}
+.spec-item .spec-label{font-size:.7rem;color:var(--muted);text-transform:uppercase}
+.spec-item .spec-val{font-size:.85rem;color:#fff;font-weight:600;margin-top:2px}
+.comparison-table{width:100%;border-collapse:collapse;margin:24px 0;font-size:.9rem}
+.comparison-table th{background:#1e3a5f;color:var(--gold);padding:12px;text-align:left;border-bottom:1px solid var(--border)}
+.comparison-table td{padding:11px 12px;border-bottom:1px solid rgba(255,255,255,.06);color:var(--text)}
+.comparison-table tr:hover td{background:rgba(255,255,255,.03)}
+.faq-item{border:1px solid var(--border);border-radius:8px;margin:12px 0;overflow:hidden}
+.faq-q{background:var(--card);padding:16px 20px;font-weight:600;color:#fff;cursor:pointer}
+.faq-a{padding:16px 20px;color:var(--text);font-size:.95rem;border-top:1px solid var(--border)}
+.related-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:14px;margin:20px 0}
+.related-card{background:var(--card);border:1px solid var(--border);border-radius:8px;padding:16px}
+.related-card a{color:#fff;font-size:.9rem;font-weight:600}
+.related-card p{color:var(--muted);font-size:.8rem;margin-top:4px}
+.warning-box{background:linear-gradient(135deg,#1a1000,#2a1800);border:1px solid #c9a84c;border-radius:8px;padding:20px 24px;margin:24px 0}
+.warning-box h3{color:#c9a84c;font-size:1rem;margin-bottom:10px}
+.warning-box p{color:var(--text);font-size:.9rem}
+.phase-box{background:var(--card);border:1px solid var(--border);border-radius:10px;padding:20px 24px;margin:24px 0}
+.phase-box h3{color:var(--gold);font-size:1rem;margin-bottom:12px}
+.phase-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(180px,1fr));gap:12px}
+.phase-item{background:rgba(255,255,255,.04);border-radius:8px;padding:14px;border-left:3px solid var(--gold)}
+.phase-item .phase-label{font-size:.75rem;color:var(--muted);text-transform:uppercase;margin-bottom:4px}
+.phase-item .phase-val{font-size:.9rem;color:#fff;font-weight:600}
+.phase-item .phase-note{font-size:.8rem;color:var(--muted);margin-top:4px}
+footer{background:#060e1d;border-top:1px solid var(--border);padding:24px;text-align:center;color:var(--muted);font-size:.8rem;margin-top:60px}
+@media(max-width:600px){h1{font-size:1.4rem}.hero{padding:24px 16px}}
+</style>
+</head>
+<body>
+<header>
+  <div class="logo"><a href="../index.html" style="color:var(--gold)">SleepWise Reviews</a></div>
+  <nav>
+    <a href="../index.html">Home</a>
+    <a href="index.html">All Posts</a>
+  </nav>
+</header>
+
+<div class="wrap">
+
+<div class="hero">
+  <span class="cat-badge" style="background:#dc2626">Health</span>
+  <h1>Best Mattress for Bunion Surgery Recovery (2026): 7 Picks for Post-Osteotomy Sleep</h1>
+  <p class="subtitle">Hallux valgus surgery puts your foot in a surgical boot for 6&ndash;12 weeks. Your mattress must handle forefoot pressure avoidance, boot-on-surface stability, foot elevation, and safe NWB transfers. 7 expert picks rated for every phase of recovery.</p>
+  <div class="quick-picks">
+    <span class="qp">#1 Best Overall: Saatva Classic Plush Soft</span>
+    <span class="qp">#2 Best Side Sleeper: Helix Midnight Luxe</span>
+    <span class="qp">#3 Best Edge: WinkBed Medium</span>
+    <span class="qp">#4 Best Motion ISO: Tempur-Pedic Adapt Hybrid</span>
+  </div>
+</div>
+
+<div class="toc">
+  <h2>Contents</h2>
+  <ol>
+    <li><a href="#science">Clinical Science: Hallux Valgus Correction &amp; Sleep</a></li>
+    <li><a href="#picks">7 Best Mattresses for Bunion Surgery Recovery</a></li>
+    <li><a href="#recovery-phases">Recovery Phase Guide (Weeks 1&ndash;12)</a></li>
+    <li><a href="#comparison">Full Comparison Table</a></li>
+    <li><a href="#quick-pick">Quick-Pick Table by Priority</a></li>
+    <li><a href="#faq">FAQ</a></li>
+    <li><a href="#related">Related Guides</a></li>
+  </ol>
+</div>
+
+<section id="science">
+<div class="science-box">
+  <h2>Clinical Science: Hallux Valgus Anatomy, Osteotomy Types &amp; What Your Mattress Must Do</h2>
+  <p>Hallux valgus (bunion) is a progressive deformity of the first metatarsophalangeal (MTP) joint, in which the great toe deviates laterally while the first metatarsal drifts medially. Surgical correction &mdash; osteotomy &mdash; cuts and repositions the metatarsal bone to restore anatomical alignment.</p>
+
+  <p style="margin-top:14px"><strong>Osteotomy types and their mattress implications:</strong></p>
+  <ul style="margin:10px 0 0 20px;color:var(--text);font-size:.95rem;line-height:1.8">
+    <li><strong>Lapidus fusion (first TMT joint arthrodesis):</strong> Fuses the first tarsometatarsal joint. Most powerful correction for moderate-to-severe deformity. Requires 6&ndash;8 weeks strict non-weight-bearing (NWB) followed by 2&ndash;4 weeks heel-weight-bearing only. The mattress must support safe NWB transfers for nearly 2 months.</li>
+    <li style="margin-top:6px"><strong>Austin/Chevron osteotomy (distal metatarsal):</strong> V-shaped cut at the metatarsal head. Preferred for mild-to-moderate deformity. Typically allows immediate heel-weight-bearing in a surgical boot. Full forefoot loading returns at 6&ndash;8 weeks. Forefoot contact with bedding must be avoided throughout.</li>
+    <li style="margin-top:6px"><strong>Scarf osteotomy (diaphyseal):</strong> Z-shaped cut along the metatarsal shaft. Fixated with screws. Partial weight-bearing in surgical boot from 2&ndash;3 weeks. 10&ndash;12 week total recovery arc.</li>
+    <li style="margin-top:6px"><strong>Akin osteotomy (proximal phalanx):</strong> Often combined with other osteotomies. Corrects residual hallux valgus interphalangeus. Weight-bearing protocol follows the primary procedure.</li>
+  </ul>
+
+  <p style="margin-top:16px"><strong>Surgical boot on the mattress surface:</strong> The rigid surgical boot is typically 4&ndash;5 inches thick at the heel, elevating the foot off the mattress surface naturally. However, on a soft mattress, the boot sinks, tilting the ankle medially and placing lateral stress on the osteotomy fixation screws. A medium-firm surface maintains the boot flat, protecting screw alignment and the healing osteotomy site.</p>
+
+  <p style="margin-top:14px"><strong>Forefoot elevation for edema control:</strong> Post-operative edema in the forefoot is the primary source of pain and delayed wound healing in the first 4 weeks. Elevation above heart level (calf supported, not heel or forefoot) reduces hydrostatic pressure driving fluid into surgical tissues. The mattress must be firm enough to maintain a wedge pillow under the calf consistently through the night without allowing it to shift and lower the foot.</p>
+
+  <p style="margin-top:14px"><strong>NWB transfer mechanics:</strong> Getting in and out of bed is the highest-risk moment during NWB recovery. A collapsing mattress edge forces the operative foot to bear unexpected load during the pivot-to-stand motion. Reinforced perimeter coil edges that hold firm under seated body weight are not optional &mdash; they are a clinical safety requirement for the first 6&ndash;8 weeks.</p>
+
+  <p style="margin-top:14px"><strong>Forefoot pressure avoidance &mdash; toe contact with bedding:</strong> Rolling onto the operated foot during sleep is dangerous in the first 6 weeks. Memory foam surfaces that allow deep sinking can cause the forefoot to press against the mattress during side-sleeping position changes. A mattress with responsive pushback (hybrid or latex) is preferred over deep-conforming foam for post-operative mobility safety.</p>
+
+  <p style="margin-top:14px"><strong>Recurrence prevention:</strong> Hallux valgus recurrence is strongly associated with improper first MTP joint mechanics during the remodeling phase (weeks 6&ndash;12). Sleeping on a mattress that creates lateral forefoot pressure &mdash; either through poor positioning or surface contour &mdash; risks exerting deforming forces on healing bone during the osteotomy consolidation phase.</p>
+
+  <div class="sci-grid">
+    <div class="sci-card">
+      <div class="label">NWB Phase</div>
+      <div class="value">6&ndash;8 weeks</div>
+      <div class="source">Lapidus fusion protocol</div>
+    </div>
+    <div class="sci-card">
+      <div class="label">Edema Peak</div>
+      <div class="value">Days 3&ndash;7</div>
+      <div class="source">elevation above heart critical</div>
+    </div>
+    <div class="sci-card">
+      <div class="label">Osteotomy Healing</div>
+      <div class="value">6&ndash;12 weeks</div>
+      <div class="source">depending on procedure type</div>
+    </div>
+    <div class="sci-card">
+      <div class="label">Recurrence Rate</div>
+      <div class="value">7&ndash;16%</div>
+      <div class="source">higher with poor post-op positioning</div>
+    </div>
+    <div class="sci-card">
+      <div class="label">Boot Height</div>
+      <div class="value">4&ndash;5 in.</div>
+      <div class="source">requires flat mattress surface</div>
+    </div>
+    <div class="sci-card">
+      <div class="label">Edge Risk</div>
+      <div class="value">Critical</div>
+      <div class="source">NWB pivot-to-stand transfers</div>
+    </div>
+  </div>
+</div>
+</section>
+
+<section id="picks">
+<h2 style="font-size:1.5rem;color:#fff;margin-bottom:8px">7 Best Mattresses for Bunion Surgery Recovery</h2>
+<p style="color:var(--muted);margin-bottom:24px">Rated on: surgical boot surface stability, forefoot pressure avoidance, NWB edge transfer safety, foot elevation maintenance, and motion isolation for undisturbed post-operative sleep.</p>
+
+<!-- Pick 1 -->
+<div class="pick-card top-pick">
+  <span class="rank-badge">#1 Best Overall</span>
+  <span class="best-for">Best Overall</span>
+  <h3>Saatva Classic Plush Soft</h3>
+  <p class="meta">Euro pillow top hybrid &bull; Plush Soft (3&ndash;4/10) &bull; Dual-layer coil + memory foam comfort layer</p>
+  <p>The Saatva Classic earns the top spot for bunion surgery recovery because it solves the two hardest problems simultaneously. Its reinforced perimeter coil system maintains structural integrity under seated body weight at the mattress edge &mdash; essential for safe NWB pivot-to-stand transfers that occur dozens of times per week during the first two months. The coil-on-coil base (800 tempered steel base coils + 884 individually wrapped comfort coils) provides the rigid foundation that stops the surgical boot from sinking and tilting.</p>
+  <p>At the same time, the Euro pillow top distributes body weight broadly, keeping the heel and calf in optimal position for wedge-pillow-assisted forefoot elevation. The 14.5-inch height also ensures the foot never dangles unsupported at the mattress edge. For Lapidus fusion patients who face the longest NWB period, this is the clinical choice.</p>
+  <div class="specs-grid">
+    <div class="spec-item"><div class="spec-label">Firmness</div><div class="spec-val">Plush Soft</div></div>
+    <div class="spec-item"><div class="spec-label">Edge Support</div><div class="spec-val">Excellent</div></div>
+    <div class="spec-item"><div class="spec-label">Height</div><div class="spec-val">14.5 in.</div></div>
+    <div class="spec-item"><div class="spec-label">Trial</div><div class="spec-val">365 nights</div></div>
+    <div class="spec-item"><div class="spec-label">Boot Stability</div><div class="spec-val">Excellent</div></div>
+    <div class="spec-item"><div class="spec-label">NWB Transfer</div><div class="spec-val">Excellent</div></div>
+  </div>
+  <a class="btn" href="https://www.amazon.com/s?k=Saatva+Classic+Plush+Soft+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</div>
+
+<!-- Pick 2 -->
+<div class="pick-card">
+  <span class="rank-badge">#2 Side Sleepers</span>
+  <span class="best-for">Best for Side Sleepers in Recovery</span>
+  <h3>Helix Midnight Luxe</h3>
+  <p class="meta">Hybrid &bull; Medium (5/10) &bull; Zoned pocketed coils + memory foam + Tencel cover</p>
+  <p>Side sleeping after bunion surgery is clinically acceptable only on the non-operative side &mdash; but it introduces a specific risk: the surgical boot can press the lateral ankle into the mattress, and any deep-sinking surface allows the forefoot to make incidental contact with the bed. The Helix Midnight Luxe&rsquo;s zoned coil configuration addresses this directly. The lower extremity zone uses firmer coil gauges that resist compression, keeping the boot flat on the surface rather than tilting inward.</p>
+  <p>The Tencel cover provides active moisture management, critical for patients who experience increased diaphoresis from post-operative inflammation and analgesic medications. The zoned lumbar support also corrects the compensatory lateral tilt that many patients develop when favoring the non-operative side. LUMBAR+ zoning provides targeted pushback where the hip bears increased load during recovery-position sleeping.</p>
+  <div class="specs-grid">
+    <div class="spec-item"><div class="spec-label">Firmness</div><div class="spec-val">Medium</div></div>
+    <div class="spec-item"><div class="spec-label">Edge Support</div><div class="spec-val">Good</div></div>
+    <div class="spec-item"><div class="spec-label">Zoning</div><div class="spec-val">7-zone</div></div>
+    <div class="spec-item"><div class="spec-label">Trial</div><div class="spec-val">100 nights</div></div>
+    <div class="spec-item"><div class="spec-label">Boot Stability</div><div class="spec-val">Good</div></div>
+    <div class="spec-item"><div class="spec-label">Cooling</div><div class="spec-val">Good</div></div>
+  </div>
+  <a class="btn" href="https://www.amazon.com/s?k=Helix+Midnight+Luxe+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</div>
+
+<!-- Pick 3 -->
+<div class="pick-card">
+  <span class="rank-badge">#3 Best Edge</span>
+  <span class="best-for">Best Edge Support for NWB Transfers</span>
+  <h3>WinkBed Medium</h3>
+  <p class="meta">Hybrid &bull; Medium (5/10) &bull; Reinforced edge coils + gel foam + Tencel cover</p>
+  <p>WinkBed&rsquo;s WinkBed edge system &mdash; specifically the steel reinforcement ring around the perimeter coil zone &mdash; was designed to resist compression under seated weight without any perimeter foam decay over time. For bunion surgery patients who perform NWB bed exits 2&ndash;3 times per night for bathroom trips, this structural durability matters across 60+ nights of recovery, not just day one.</p>
+  <p>The medium firmness provides sufficient surface stability for the surgical boot without creating bony prominence discomfort on the heel or calf during extended back-sleeping periods. The zoned lumbar coils maintain spinal alignment through weeks of restricted position sleeping &mdash; a common secondary pain source in post-operative patients forced into back sleeping only.</p>
+  <div class="specs-grid">
+    <div class="spec-item"><div class="spec-label">Firmness</div><div class="spec-val">Medium</div></div>
+    <div class="spec-item"><div class="spec-label">Edge Support</div><div class="spec-val">Excellent</div></div>
+    <div class="spec-item"><div class="spec-label">Height</div><div class="spec-val">13.5 in.</div></div>
+    <div class="spec-item"><div class="spec-label">Trial</div><div class="spec-val">120 nights</div></div>
+    <div class="spec-item"><div class="spec-label">Boot Stability</div><div class="spec-val">Excellent</div></div>
+    <div class="spec-item"><div class="spec-label">Durability</div><div class="spec-val">Excellent</div></div>
+  </div>
+  <a class="btn" href="https://www.amazon.com/s?k=WinkBed+Medium+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</div>
+
+<!-- Pick 4 -->
+<div class="pick-card">
+  <span class="rank-badge">#4 Motion Isolation</span>
+  <span class="best-for">Best for Couples &amp; Motion Sensitivity</span>
+  <h3>Tempur-Pedic TEMPUR-Adapt Medium Hybrid</h3>
+  <p class="meta">Hybrid &bull; Medium (5/10) &bull; TEMPUR material + pocketed springs</p>
+  <p>Post-operative pain hypersensitivity (mediated by surgical inflammation and analgesic changes) makes bunion surgery patients acutely sensitive to partner movement during the night. The TEMPUR material&rsquo;s viscoelastic density absorbs and dissipates motion transfer with industry-leading effectiveness, protecting the healing foot from the startle-response muscle contractions that can jolt the osteotomy site during deep sleep.</p>
+  <p>The TEMPUR material also conforms slowly around the surgical boot&rsquo;s rigid edges, distributing the load of the boot across a wide contact area rather than concentrating it at the heel or boot sole rim. This reduces the pressure differential that causes calf and Achilles discomfort during the prolonged back-sleeping period. The hybrid base maintains enough bounce for safe NWB transfers despite the dense comfort layer.</p>
+  <div class="specs-grid">
+    <div class="spec-item"><div class="spec-label">Firmness</div><div class="spec-val">Medium</div></div>
+    <div class="spec-item"><div class="spec-label">Motion ISO</div><div class="spec-val">Excellent</div></div>
+    <div class="spec-item"><div class="spec-label">Edge Support</div><div class="spec-val">Good</div></div>
+    <div class="spec-item"><div class="spec-label">Trial</div><div class="spec-val">90 nights</div></div>
+    <div class="spec-item"><div class="spec-label">Boot Conform</div><div class="spec-val">Excellent</div></div>
+    <div class="spec-item"><div class="spec-label">Couples</div><div class="spec-val">Best</div></div>
+  </div>
+  <a class="btn" href="https://www.amazon.com/s?k=Tempur-Pedic+TEMPUR-Adapt+Medium+Hybrid+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</div>
+
+<!-- Pick 5 -->
+<div class="pick-card">
+  <span class="rank-badge">#5 Cooling</span>
+  <span class="best-for">Best Cooling for Inflammation Management</span>
+  <h3>Purple Restore Hybrid</h3>
+  <p class="meta">GelFlex Grid hybrid &bull; Medium (5/10) &bull; Hyper-elastic polymer grid + coils</p>
+  <p>Post-operative inflammation in the forefoot is temperature-sensitive: elevated local tissue temperature accelerates the inflammatory cascade and increases edema in the surgical site. The Purple GelFlex Grid is thermally neutral by design &mdash; the open grid structure allows continuous airflow around the foot, preventing the heat pooling that all-foam surfaces create under a surgical boot that has been in contact with the mattress for 6&ndash;8 hours.</p>
+  <p>The grid&rsquo;s column-buckling mechanics also provide a unique benefit: it deforms only under direct pressure, meaning the heel and calf sink slightly for comfort while areas of the grid not under load spring back. This eliminates the broad, sustained forefoot-level depression that soft foams create, reducing accidental forefoot surface contact during position changes.</p>
+  <div class="specs-grid">
+    <div class="spec-item"><div class="spec-label">Firmness</div><div class="spec-val">Medium</div></div>
+    <div class="spec-item"><div class="spec-label">Cooling</div><div class="spec-val">Excellent</div></div>
+    <div class="spec-item"><div class="spec-label">Edge Support</div><div class="spec-val">Good</div></div>
+    <div class="spec-item"><div class="spec-label">Trial</div><div class="spec-val">100 nights</div></div>
+    <div class="spec-item"><div class="spec-label">Responsive</div><div class="spec-val">Excellent</div></div>
+    <div class="spec-item"><div class="spec-label">Boot Stability</div><div class="spec-val">Good</div></div>
+  </div>
+  <a class="btn" href="https://www.amazon.com/s?k=Purple+Restore+Hybrid+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</div>
+
+<!-- Pick 6 -->
+<div class="pick-card">
+  <span class="rank-badge">#6 Budget Hybrid</span>
+  <span class="best-for">Best Budget Hybrid</span>
+  <h3>DreamCloud Premier Rest</h3>
+  <p class="meta">Hybrid &bull; Medium Firm (6/10) &bull; Cashmere euro top + coil + gel memory foam</p>
+  <p>Bunion surgery recovery is temporary &mdash; typically 6&ndash;12 weeks of intensive mattress demands followed by a return to normal sleep. The DreamCloud Premier Rest delivers the core post-operative requirements at a price point that makes it viable as a dedicated recovery mattress without a major long-term commitment. Its coil base maintains edge integrity for NWB transfers, and the medium-firm profile keeps the surgical boot from sinking into a forefoot-contact-risk position.</p>
+  <p>The cashmere-blend euro top provides the cushioning needed for extended back sleeping without the firmness discomfort that pure medium-firm surfaces cause on the sacrum and shoulders. At the medium-firm end, it also supports the Austin/Chevron osteotomy protocol of immediate heel-weight-bearing, providing a surface firm enough to take partial load on exit without lateral ankle roll.</p>
+  <div class="specs-grid">
+    <div class="spec-item"><div class="spec-label">Firmness</div><div class="spec-val">Medium Firm</div></div>
+    <div class="spec-item"><div class="spec-label">Edge Support</div><div class="spec-val">Good</div></div>
+    <div class="spec-item"><div class="spec-label">Height</div><div class="spec-val">14 in.</div></div>
+    <div class="spec-item"><div class="spec-label">Trial</div><div class="spec-val">365 nights</div></div>
+    <div class="spec-item"><div class="spec-label">Boot Stability</div><div class="spec-val">Good</div></div>
+    <div class="spec-item"><div class="spec-label">Value</div><div class="spec-val">Excellent</div></div>
+  </div>
+  <a class="btn" href="https://www.amazon.com/s?k=DreamCloud+Premier+Rest+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</div>
+
+<!-- Pick 7 -->
+<div class="pick-card">
+  <span class="rank-badge">#7 Phase 2+</span>
+  <span class="best-for">Best for Later Recovery (Weeks 6&ndash;12)</span>
+  <h3>Layla Hybrid</h3>
+  <p class="meta">Flippable hybrid &bull; Soft / Firm &bull; Copper-infused foam + pocketed coils</p>
+  <p>The Layla Hybrid&rsquo;s dual-firmness design makes it uniquely suited to the multi-phase arc of bunion surgery recovery. In the acute NWB phase (weeks 1&ndash;6), sleep on the firm side: it maintains boot surface stability, prevents forefoot sinking, and keeps the elevation wedge from shifting. At week 6&ndash;8, as the protocol transitions to heel-weight-bearing and then progressive forefoot loading, flip to the soft side for pressure relief on a foot that is now beginning to bear weight and may be sensitive.</p>
+  <p>The copper-infused memory foam provides antimicrobial properties &mdash; relevant for wound hygiene during the healing phase &mdash; and mild cooling. The coil base delivers responsive edge support on both sides. The single mattress serves the entire 12-week recovery arc without requiring any additional purchase or setup change.</p>
+  <div class="specs-grid">
+    <div class="spec-item"><div class="spec-label">Firmness</div><div class="spec-val">Soft / Firm</div></div>
+    <div class="spec-item"><div class="spec-label">Edge Support</div><div class="spec-val">Good</div></div>
+    <div class="spec-item"><div class="spec-label">Flippable</div><div class="spec-val">Yes</div></div>
+    <div class="spec-item"><div class="spec-label">Trial</div><div class="spec-val">120 nights</div></div>
+    <div class="spec-item"><div class="spec-label">Cooling</div><div class="spec-val">Good</div></div>
+    <div class="spec-item"><div class="spec-label">Value</div><div class="spec-val">Good</div></div>
+  </div>
+  <a class="btn" href="https://www.amazon.com/s?k=Layla+Hybrid+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</div>
+</section>
+
+<section id="recovery-phases">
+<div class="phase-box">
+  <h3>Recovery Phase Mattress Guide: Weeks 1&ndash;12</h3>
+  <p style="color:var(--muted);font-size:.9rem;margin-bottom:16px">Mattress requirements change as the osteotomy heals and weight-bearing protocol advances.</p>
+  <div class="phase-grid">
+    <div class="phase-item">
+      <div class="phase-label">Phase 1 &mdash; Weeks 1&ndash;2</div>
+      <div class="phase-val">Strict NWB. Edema peak.</div>
+      <div class="phase-note">Priority: edge firmness, foot elevation, minimal movement. Back sleeping only. Surgical boot flat on mattress.</div>
+    </div>
+    <div class="phase-item">
+      <div class="phase-label">Phase 2 &mdash; Weeks 3&ndash;6</div>
+      <div class="phase-val">NWB continues. Incision healing.</div>
+      <div class="phase-note">Priority: consistent elevation maintenance, boot surface stability. Begin cautious side-sleeping on non-operative side only.</div>
+    </div>
+    <div class="phase-item">
+      <div class="phase-label">Phase 3 &mdash; Weeks 6&ndash;8</div>
+      <div class="phase-val">Heel-WB in boot (Lapidus) or progressive load (Chevron).</div>
+      <div class="phase-note">Priority: edge support for assisted stand-ups with partial load. Pressure relief on heel increases in importance.</div>
+    </div>
+    <div class="phase-item">
+      <div class="phase-label">Phase 4 &mdash; Weeks 8&ndash;12</div>
+      <div class="phase-val">Transitional shoe. Forefoot load returns.</div>
+      <div class="phase-note">Priority: soft forefoot pressure relief. No more boot &mdash; bare foot on mattress. Avoid lateral MTP joint pressure during sleep.</div>
+    </div>
+  </div>
+</div>
+
+<div class="warning-box">
+  <h3>Important: Do Not Rely on Mattress Alone for Forefoot Elevation</h3>
+  <p>A wedge pillow placed under the calf (not under the boot heel or forefoot) is required in addition to your mattress for the first 4&ndash;6 weeks. The mattress provides the stable base; the wedge provides the elevation angle. A soft mattress cannot maintain a wedge pillow in position through the night &mdash; the wedge shifts, the foot drops below heart level, and edema increases. Pair any mattress recommendation here with a firm wedge pillow rated for post-surgical use.</p>
+</div>
+</section>
+
+<section id="comparison">
+<h2 style="font-size:1.4rem;color:#fff;margin:32px 0 12px">Full Comparison Table</h2>
+<div style="overflow-x:auto">
+<table class="comparison-table">
+  <thead>
+    <tr>
+      <th>Mattress</th>
+      <th>Firmness</th>
+      <th>Edge Support</th>
+      <th>Boot Stability</th>
+      <th>Motion ISO</th>
+      <th>Cooling</th>
+      <th>Best Phase</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td><strong>Saatva Classic Plush Soft</strong></td><td>Plush Soft</td><td>Excellent</td><td>Excellent</td><td>Good</td><td>Good</td><td>All phases</td></tr>
+    <tr><td><strong>Helix Midnight Luxe</strong></td><td>Medium</td><td>Good</td><td>Good</td><td>Good</td><td>Good</td><td>Phases 1&ndash;3</td></tr>
+    <tr><td><strong>WinkBed Medium</strong></td><td>Medium</td><td>Excellent</td><td>Excellent</td><td>Good</td><td>Good</td><td>Phases 1&ndash;3</td></tr>
+    <tr><td><strong>Tempur-Pedic Adapt Hybrid</strong></td><td>Medium</td><td>Good</td><td>Good</td><td>Excellent</td><td>Moderate</td><td>Phases 1&ndash;4</td></tr>
+    <tr><td><strong>Purple Restore Hybrid</strong></td><td>Medium</td><td>Good</td><td>Good</td><td>Good</td><td>Excellent</td><td>Phases 2&ndash;4</td></tr>
+    <tr><td><strong>DreamCloud Premier Rest</strong></td><td>Medium Firm</td><td>Good</td><td>Good</td><td>Good</td><td>Good</td><td>Phases 1&ndash;3</td></tr>
+    <tr><td><strong>Layla Hybrid</strong></td><td>Soft / Firm</td><td>Good</td><td>Good (firm)</td><td>Good</td><td>Good</td><td>All phases (flip)</td></tr>
+  </tbody>
+</table>
+</div>
+</section>
+
+<section id="quick-pick">
+<h2 style="font-size:1.4rem;color:#fff;margin:32px 0 12px">Quick-Pick Table: Match Your Priority</h2>
+<div style="overflow-x:auto">
+<table class="comparison-table">
+  <thead>
+    <tr>
+      <th>Your Priority</th>
+      <th>Top Pick</th>
+      <th>Runner-Up</th>
+      <th>Why</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr><td>Safest NWB bed exit</td><td>Saatva Classic Plush Soft</td><td>WinkBed Medium</td><td>Dual coil perimeter holds under full seated weight without compression</td></tr>
+    <tr><td>Surgical boot flat on surface</td><td>WinkBed Medium</td><td>Saatva Classic</td><td>Medium-firm hybrid prevents lateral boot tilt during sleep</td></tr>
+    <tr><td>Forefoot never touches mattress</td><td>Purple Restore Hybrid</td><td>WinkBed Medium</td><td>Grid responsiveness provides pushback; no deep sinking zone around forefoot</td></tr>
+    <tr><td>Partner sharing bed</td><td>Tempur-Pedic Adapt Hybrid</td><td>Helix Midnight Luxe</td><td>TEMPUR viscoelastic absorbs motion before it reaches the surgical foot</td></tr>
+    <tr><td>Inflammation &amp; heat management</td><td>Purple Restore Hybrid</td><td>Helix Midnight Luxe</td><td>Open grid keeps boot contact zone cool through the night</td></tr>
+    <tr><td>Full 12-week arc, one mattress</td><td>Layla Hybrid</td><td>Saatva Classic</td><td>Flip from firm (acute NWB) to soft (progressive loading) as protocol advances</td></tr>
+    <tr><td>Budget recovery mattress</td><td>DreamCloud Premier Rest</td><td>Layla Hybrid</td><td>365-night trial, NWB-safe edge, medium-firm boot stability at lower price</td></tr>
+  </tbody>
+</table>
+</div>
+</section>
+
+<section id="faq">
+<h2 style="font-size:1.4rem;color:#fff;margin:32px 0 16px">Frequently Asked Questions</h2>
+
+<div class="faq-item">
+  <div class="faq-q">Can I sleep on my back after bunion surgery?</div>
+  <div class="faq-a">Back sleeping is the recommended position for the first 6 weeks after hallux valgus osteotomy. It allows the surgical foot to be elevated above heart level using a wedge pillow under the calf, keeps the forefoot completely unloaded off the mattress surface, and eliminates the risk of rolling onto the operated toe. The surgical boot rests on the mattress without pressing the forefoot or incision site against any surface.</div>
+</div>
+
+<div class="faq-item">
+  <div class="faq-q">How do I get out of bed safely when I am non-weight-bearing after bunion surgery?</div>
+  <div class="faq-a">Safe NWB bed exit requires a firm mattress edge that does not collapse under your seated weight. Sit at the edge, swing both legs over, and press through your hands and heel of the unoperated foot to stand &mdash; keeping the surgical foot completely off the floor. A mattress with reinforced perimeter coils maintains the stable platform needed for this transfer. Soft foam-only edges that compress when you sit on them significantly increase fall risk during NWB exits.</div>
+</div>
+
+<div class="faq-item">
+  <div class="faq-q">How should the surgical boot be positioned on the mattress during sleep?</div>
+  <div class="faq-a">The surgical boot should rest flat on the mattress surface with the heel making contact but the forefoot elevated slightly by the boot&rsquo;s rigid sole. Choose a mattress that is at least 10&ndash;12 inches tall so the boot does not cause the foot to hang at the mattress edge. Medium-firm mattresses prevent the boot from sinking deeply, which can tilt the ankle inward. Place a wedge pillow under the calf &mdash; not under the boot itself &mdash; to keep the forefoot above heart level without placing pressure on the incision.</div>
+</div>
+
+<div class="faq-item">
+  <div class="faq-q">How long do I need to avoid putting weight on my toe after bunion surgery?</div>
+  <div class="faq-a">Weight-bearing protocol depends on the osteotomy type. Lapidus fusion typically requires 6&ndash;8 weeks of strict NWB followed by 2&ndash;4 weeks of heel-weight-bearing only. Austin/Chevron osteotomy may allow heel-weight-bearing in a surgical boot from day one, with full forefoot loading returning at 6&ndash;8 weeks. Your surgeon&rsquo;s specific protocol governs &mdash; these are general ranges, not medical advice. In both cases the mattress must facilitate safe NWB transfers for at least the first 6 weeks.</div>
+</div>
+
+<div class="faq-item">
+  <div class="faq-q">Does mattress firmness affect post-bunion surgery swelling?</div>
+  <div class="faq-a">Indirectly, yes. A mattress that is too soft causes the elevated foot to sink below heart level when the wedge pillow shifts during sleep, reducing the gravity-assisted drainage that controls post-operative edema. A medium-firm or firm mattress maintains the elevation plane more consistently overnight. Additionally, mattresses with significant heat retention (all-foam constructions without cooling layers) can increase local tissue temperature at the surgical site, which correlates with increased inflammatory swelling.</div>
+</div>
+</section>
+
+<section id="related">
+<h2 style="font-size:1.4rem;color:#fff;margin:32px 0 16px">Related Guides</h2>
+<div class="related-grid">
+  <div class="related-card">
+    <a href="best-mattress-achilles-rupture-recovery.html">Best Mattress for Achilles Rupture Recovery</a>
+    <p>NWB protocols, ankle elevation, and surgical boot accommodation for Achilles tendon repair patients.</p>
+  </div>
+  <div class="related-card">
+    <a href="best-mattress-plantar-fasciitis.html">Best Mattress for Plantar Fasciitis</a>
+    <p>Overnight heel pressure relief, barefoot exit edge support, and morning pain reduction for non-surgical foot conditions.</p>
+  </div>
+  <div class="related-card">
+    <a href="best-mattress-metatarsalgia.html">Best Mattress for Metatarsalgia</a>
+    <p>Forefoot pressure distribution and toe-box relief for ball-of-foot pain without surgical intervention.</p>
+  </div>
+  <div class="related-card">
+    <a href="best-mattress-tarsal-tunnel-syndrome.html">Best Mattress for Tarsal Tunnel Syndrome</a>
+    <p>Ankle positioning, nerve compression avoidance, and optimal sleep surface for tarsal tunnel patients.</p>
+  </div>
+  <div class="related-card">
+    <a href="best-bed-wedge-pillow.html">Best Bed Wedge Pillows</a>
+    <p>The essential companion to your recovery mattress &mdash; rated for post-surgical leg and foot elevation stability.</p>
+  </div>
+</div>
+</section>
+
+</div>
+
+<footer>
+  <p>&copy; 2026 SleepWise Reviews &mdash; <a href="../index.html">Home</a> &bull; <a href="index.html">All Posts</a></p>
+  <p style="margin-top:8px;font-size:.75rem">This site contains affiliate links. We may earn a commission at no extra cost to you. Content is for informational purposes only and does not constitute medical advice. Always consult your surgeon regarding post-operative care protocols.</p>
+</footer>
+</body>
+</html>'''
+
+output_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'posts', 'best-mattress-bunion-surgery-recovery.html')
+os.makedirs(os.path.dirname(output_path), exist_ok=True)
+
+with open(output_path, 'w', encoding='utf-8') as f:
+    f.write(html)
+
+size = os.path.getsize(output_path)
+print(f"Written: {output_path}")
+print(f"Size: {size:,} bytes")
