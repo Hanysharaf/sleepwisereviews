@@ -1,0 +1,417 @@
+slug = "best-mattress-marfan-syndrome"
+title = "Best Mattress for Marfan Syndrome: 7 Picks for Tall-Frame Support, Aortic Safety, Joint Hypermobility &amp; Dural Ectasia Sleep"
+desc = "Marfan syndrome mattress guide: extra-length support for 6ft+ frames, flat-back positioning for aortic root protection, thoracolumbar scoliosis accommodation, joint hypermobility stabilization, and dural ectasia sacral pressure relief."
+
+html = f"""<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{title}</title>
+<meta name="description" content="{desc}">
+<link rel="canonical" href="https://sleepwisereviews.com/posts/{slug}.html">
+<script type="application/ld+json">
+{{
+  "@context":"https://schema.org",
+  "@graph":[
+    {{
+      "@type":"Article",
+      "headline":"{title}",
+      "description":"{desc}",
+      "url":"https://sleepwisereviews.com/posts/{slug}.html",
+      "datePublished":"2026-05-26",
+      "dateModified":"2026-05-26",
+      "author":{{"@type":"Organization","name":"SleepWise Reviews"}},
+      "publisher":{{"@type":"Organization","name":"SleepWise Reviews","url":"https://sleepwisereviews.com"}}
+    }},
+    {{
+      "@type":"BreadcrumbList",
+      "itemListElement":[
+        {{"@type":"ListItem","position":1,"name":"Home","item":"https://sleepwisereviews.com"}},
+        {{"@type":"ListItem","position":2,"name":"Best Mattresses for Health Conditions","item":"https://sleepwisereviews.com/posts/index.html#health-conditions"}},
+        {{"@type":"ListItem","position":3,"name":"Best Mattress for Marfan Syndrome","item":"https://sleepwisereviews.com/posts/{slug}.html"}}
+      ]
+    }},
+    {{
+      "@type":"ItemList",
+      "name":"Best Mattresses for Marfan Syndrome",
+      "itemListElement":[
+        {{"@type":"ListItem","position":1,"name":"Saatva Classic (California King) — Best for Tall Frame & Aortic-Safe Flat-Back Position"}},
+        {{"@type":"ListItem","position":2,"name":"Purple RestorePlus — Best for Dural Ectasia Sacral Pressure Relief"}},
+        {{"@type":"ListItem","position":3,"name":"Casper Wave Hybrid — Best for Thoracolumbar Scoliosis Accommodation"}},
+        {{"@type":"ListItem","position":4,"name":"Tempur-Pedic TEMPUR-Adapt — Best for Joint Hypermobility Full-Length Stabilization"}},
+        {{"@type":"ListItem","position":5,"name":"Avocado Green — Best for Latex Buoyancy & Cardiovascular-Safe Natural Materials"}},
+        {{"@type":"ListItem","position":6,"name":"Helix Midnight Luxe — Best for Tall-Person Motion Isolation & Split King"}},
+        {{"@type":"ListItem","position":7,"name":"Nectar Premier (California King) — Best for Long-Term Marfan Management Trajectory"}}
+      ]
+    }},
+    {{
+      "@type":"FAQPage",
+      "mainEntity":[
+        {{
+          "@type":"Question",
+          "name":"What is Marfan syndrome and why does it create unique sleep challenges?",
+          "acceptedAnswer":{{"@type":"Answer","text":"Marfan syndrome is an autosomal dominant connective tissue disorder caused by mutations in the FBN1 gene encoding fibrillin-1. It affects the skeleton (tall stature, arm span exceeding height, arachnodactyly), cardiovascular system (aortic root dilation, mitral valve prolapse), eyes (ectopia lentis), and dura mater (dural ectasia). Sleep is complicated by several converging factors: (1) most standard mattresses end at 80 inches, leaving many Marfan patients without full spinal support in standard king; (2) thoracolumbar scoliosis in 60-70% of Marfan patients creates asymmetric pressure loads; (3) dural ectasia (sacral dural sac expansion in 63-92% of patients) creates sacral pressure pain; (4) joint hypermobility allows sleep subluxations; and (5) cardiovascular monitoring requirements influence safe sleep positions."}}
+        }},
+        {{
+          "@type":"Question",
+          "name":"Is there a safe sleep position for Marfan syndrome with aortic dilation?",
+          "acceptedAnswer":{{"@type":"Answer","text":"Back sleeping in a flat or near-flat position is generally safest for Marfan patients with aortic root involvement. Left-side sleeping, while beneficial for most people, may create positional cardiac compression in Marfan patients with significant mitral valve prolapse. Stomach sleeping is contraindicated due to thoracic hyperextension that may stress the aortic root. Most cardiologists managing Marfan patients recommend avoiding positions that increase intrathoracic pressure &mdash; this includes straining or positions that cause breath-holding patterns during sleep. Consult your cardiology team about specific positioning recommendations based on your aortic root diameter and any recent cardiac procedures."}}
+        }},
+        {{
+          "@type":"Question",
+          "name":"What is dural ectasia and how does it affect mattress choice?",
+          "acceptedAnswer":{{"@type":"Answer","text":"Dural ectasia is expansion of the dural sac (the membrane surrounding the spinal cord and nerve roots) in the sacral region, present in 63-92% of Marfan syndrome patients. It causes sacral and lower back pain that is characteristically worse when lying flat for extended periods and improves when sitting or standing. For mattress selection, this means that sub-32mmHg sacral pressure is critical &mdash; a mattress that concentrates pressure on the sacrum and tailbone exacerbates dural ectasia pain. The Purple GelFlex Grid is the most clinically relevant solution here, as it maintains pressure below capillary closure threshold across the sacral surface. Adjustable base slight elevation of the legs can also reduce sacral dural pressure during extended lying."}}
+        }},
+        {{
+          "@type":"Question",
+          "name":"Does Marfan syndrome affect what mattress length and size are needed?",
+          "acceptedAnswer":{{"@type":"Answer","text":"Yes. Marfan syndrome produces disproportionate limb length &mdash; arm span typically exceeds height, and many patients are taller than 6'2\". Standard king mattresses are 80 inches (6'8\") long, which accommodates most heights when accounting for sleep position. However, California king mattresses (84 inches / 7 feet) provide additional length that allows tall Marfan patients to sleep in a fully extended position without feet hanging off the end. Feet hanging off the edge creates ankle and knee hyperextension in hypermobile joints and disrupts full-body support. For Marfan patients taller than 6'3\", California king is the preferred format."}}
+        }},
+        {{
+          "@type":"Question",
+          "name":"Can Marfan syndrome cause sleep apnea, and does that affect mattress choice?",
+          "acceptedAnswer":{{"@type":"Answer","text":"Yes. Marfan syndrome is associated with a significantly elevated risk of obstructive sleep apnea due to craniofacial abnormalities including high-arched palate, retrognathia (recessed jaw), and dental crowding that reduce pharyngeal airway diameter. Studies suggest 40-70% of Marfan patients have sleep-disordered breathing. For those on CPAP therapy, mattress choice should account for hose management during position changes. For those with untreated OSA or PAP intolerance, lateral sleeping may reduce apnea severity, but must be balanced against cardiac positioning considerations. An adjustable base allowing 15-30 degree head elevation can reduce OSA severity while maintaining a more neutral body position than full side sleeping."}}
+        }}
+      ]
+    }}
+  ]
+}}
+</script>
+<style>
+:root{{--bg:#0a1628;--card:#111e33;--gold:#c9a84c;--text:#e8eaf0;--muted:#8892a4;--red:#dc2626}}
+*{{box-sizing:border-box;margin:0;padding:0}}
+body{{background:var(--bg);color:var(--text);font-family:'Segoe UI',sans-serif;line-height:1.7;padding:20px}}
+.wrap{{max-width:860px;margin:0 auto}}
+header{{text-align:center;padding:40px 0 30px}}
+.cat-badge{{background:var(--red);color:#fff;font-size:.75rem;font-weight:700;padding:4px 12px;border-radius:20px;text-transform:uppercase;letter-spacing:.05em}}
+h1{{font-size:clamp(1.6rem,4vw,2.3rem);color:#fff;margin:16px 0 12px;line-height:1.3}}
+.subtitle{{color:var(--muted);font-size:1rem;max-width:680px;margin:0 auto}}
+.toc{{background:var(--card);border:1px solid #1e3050;border-radius:12px;padding:24px;margin:30px 0}}
+.toc h2{{color:var(--gold);font-size:1rem;margin-bottom:12px}}
+.toc ol{{padding-left:20px}}
+.toc li{{margin:6px 0}}.toc a{{color:#7eb3ff;text-decoration:none}}
+.science-box{{background:#0d1f3a;border-left:4px solid var(--gold);border-radius:8px;padding:20px 24px;margin:30px 0}}
+.science-box h3{{color:var(--gold);margin-bottom:10px;font-size:1rem}}
+.science-box ul{{padding-left:18px}}.science-box li{{margin:5px 0;font-size:.93rem;color:var(--muted)}}
+.warning-box{{background:#1a0a0a;border:1px solid #dc2626;border-radius:8px;padding:16px 20px;margin:24px 0}}
+.warning-box strong{{color:#dc2626}}
+h2{{font-size:1.5rem;color:var(--gold);margin:40px 0 16px;padding-bottom:8px;border-bottom:1px solid #1e3050}}
+h3{{font-size:1.1rem;color:#fff;margin:20px 0 8px}}
+.pick-card{{background:var(--card);border:1px solid #1e3050;border-radius:12px;padding:24px;margin:20px 0}}
+.pick-header{{display:flex;align-items:flex-start;gap:16px;margin-bottom:14px}}
+.pick-num{{background:var(--gold);color:#0a1628;font-weight:800;font-size:1.1rem;width:36px;height:36px;border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0}}
+.pick-title h3{{margin:0 0 4px}}
+.pick-tag{{background:#1e3050;color:var(--gold);font-size:.75rem;padding:2px 10px;border-radius:12px;display:inline-block}}
+.specs-grid{{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:10px;margin:14px 0}}
+.spec-item{{background:#0d1f3a;border-radius:8px;padding:10px;text-align:center}}
+.spec-label{{font-size:.7rem;color:var(--muted);text-transform:uppercase;letter-spacing:.05em}}
+.spec-val{{font-size:.95rem;font-weight:700;color:#fff;margin-top:2px}}
+.why-box{{background:#0d1f3a;border-radius:8px;padding:14px;margin:12px 0;font-size:.93rem}}
+.why-box strong{{color:var(--gold)}}
+.btn{{display:inline-block;background:var(--gold);color:#0a1628;font-weight:700;padding:10px 22px;border-radius:8px;text-decoration:none;margin-top:12px;font-size:.95rem}}
+table{{width:100%;border-collapse:collapse;margin:20px 0;font-size:.9rem}}
+th{{background:#1e3050;color:var(--gold);padding:10px 12px;text-align:left}}
+td{{padding:9px 12px;border-bottom:1px solid #1e3050;color:var(--muted)}}
+tr:last-child td{{border-bottom:none}}
+tr:hover td{{background:#0d1f3a;color:var(--text)}}
+.faq-item{{background:var(--card);border:1px solid #1e3050;border-radius:10px;padding:20px;margin:14px 0}}
+.faq-item h3{{color:var(--gold);font-size:1rem;margin-bottom:8px}}
+.related-grid{{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin-top:16px}}
+.related-card{{background:var(--card);border:1px solid #1e3050;border-radius:10px;padding:16px}}
+.related-card a{{color:#7eb3ff;text-decoration:none;font-weight:600}}
+.related-card p{{font-size:.85rem;color:var(--muted);margin-top:4px}}
+footer{{text-align:center;color:var(--muted);font-size:.85rem;padding:40px 0 20px;border-top:1px solid #1e3050;margin-top:50px}}
+footer a{{color:var(--muted)}}
+.affiliate-disc{{background:#0d1f3a;border-radius:8px;padding:14px;margin:20px 0;font-size:.82rem;color:var(--muted)}}
+@media(max-width:600px){{.pick-header{{flex-direction:column}}.specs-grid{{grid-template-columns:repeat(2,1fr)}}}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <span class="cat-badge">Health Conditions</span>
+  <h1>Best Mattress for Marfan Syndrome</h1>
+  <p class="subtitle">7 picks for tall-frame support, dural ectasia sacral pressure relief, thoracolumbar scoliosis accommodation, aortic-safe positioning, and joint hypermobility stabilization in FBN1 connective tissue disorder</p>
+</header>
+
+<div class="affiliate-disc">
+  <strong>Disclosure:</strong> SleepWise Reviews earns a commission from qualifying Amazon purchases at no extra cost to you. All recommendations are editorially independent and based on clinical relevance to Marfan syndrome sleep mechanics.
+</div>
+
+<div class="warning-box">
+  <strong>Cardiovascular note:</strong> Marfan syndrome involves aortic root dilation that requires active cardiology monitoring. Sleep position changes should be discussed with your cardiologist or Marfan specialist. Sudden chest pain, shortness of breath, or new neurological symptoms require immediate emergency evaluation.
+</div>
+
+<div class="toc">
+  <h2>Quick Navigation</h2>
+  <ol>
+    <li><a href="#science">Why Marfan Syndrome Creates Unique Sleep Requirements</a></li>
+    <li><a href="#picks">7 Best Mattresses for Marfan Syndrome</a></li>
+    <li><a href="#comparison">Marfan Feature Profile &amp; Mattress Priority Table</a></li>
+    <li><a href="#faq">Frequently Asked Questions</a></li>
+    <li><a href="#related">Related Guides</a></li>
+  </ol>
+</div>
+
+<div class="science-box" id="science">
+  <h3>Marfan Syndrome Sleep Physiology: Five Converging Challenges</h3>
+  <ul>
+    <li><strong>FBN1 mutations</strong> impair fibrillin-1, the glycoprotein that provides scaffolding for elastic fiber assembly &mdash; affecting every organ system with connective tissue (skeleton, cardiovascular, dura, lens, lung)</li>
+    <li><strong>Dural ectasia in 63&ndash;92% of patients</strong> &mdash; sacral dural sac expansion creates pain that worsens with prolonged lying and improves with standing; sub-32mmHg sacral pressure is clinically relevant</li>
+    <li><strong>Thoracolumbar scoliosis in 60&ndash;70% of patients</strong> &mdash; creates asymmetric spinal loading during sleep; a uniform-feel mattress applies equal pressure to unequal anatomy</li>
+    <li><strong>Aortic root dilation</strong> (mean diameter 3.8cm at diagnosis in adults) &mdash; positions that increase intrathoracic pressure or strain the aortic wall are a long-term management consideration</li>
+    <li><strong>Tall stature</strong> (mean male height 191cm / 6'3") &mdash; California king format (84 inches) required for patients above 6'3" to avoid ankle/knee hyperextension from hanging feet</li>
+    <li><strong>OSA prevalence 40&ndash;70%</strong> due to high-arched palate, retrognathia, and pharyngeal crowding &mdash; airway positioning interacts with cardiovascular positioning requirements</li>
+    <li><strong>Joint hypermobility</strong> (wrist sign, thumb sign positive) &mdash; REM muscle atonia removes active joint stabilization, creating subluxation risk at shoulder, hip, and knee during sleep</li>
+  </ul>
+</div>
+
+<h2 id="picks">7 Best Mattresses for Marfan Syndrome</h2>
+
+<div class="pick-card">
+  <div class="pick-header">
+    <div class="pick-num">1</div>
+    <div class="pick-title">
+      <h3>Saatva Classic (California King) &mdash; Best for Tall Frame &amp; Aortic-Safe Flat-Back Position</h3>
+      <span class="pick-tag">Top Pick &mdash; Full-Length Spinal Support</span>
+    </div>
+  </div>
+  <div class="specs-grid">
+    <div class="spec-item"><div class="spec-label">Firmness</div><div class="spec-val">Luxury Firm</div></div>
+    <div class="spec-item"><div class="spec-label">Cal King</div><div class="spec-val">84 inches</div></div>
+    <div class="spec-item"><div class="spec-label">Lumbar Zone</div><div class="spec-val">Reinforced</div></div>
+    <div class="spec-item"><div class="spec-label">Trial</div><div class="spec-val">365 nights</div></div>
+  </div>
+  <div class="why-box">
+    <strong>Why it wins for tall-frame Marfan back sleepers:</strong> Saatva Classic in California king format (84 inches) provides the extra 4 inches that prevents ankle/knee hyperextension in patients 6'3" and taller. The dual coil construction &mdash; pocketed base coils with a Bonnell coil layer &mdash; provides firmness at the lumbar zone that supports the flat-back position without creating excessive thoracic kyphosis. For Marfan back sleepers with aortic involvement, the flat-back position maintains the most neutral intrathoracic pressure. The Lumbar Zone reinforcement supports the thoracolumbar junction where scoliosis curves and dural ectasia pain often concentrate simultaneously. Saatva's white-glove delivery includes old mattress removal, relevant for Marfan patients with mobility limitations from joint hypermobility.
+  </div>
+  <a class="btn" href="https://www.amazon.com/s?k=Saatva+Classic+California+King+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</div>
+
+<div class="pick-card">
+  <div class="pick-header">
+    <div class="pick-num">2</div>
+    <div class="pick-title">
+      <h3>Purple RestorePlus &mdash; Best for Dural Ectasia Sacral Pressure Relief</h3>
+      <span class="pick-tag">Sub-32mmHg Sacral Decompression</span>
+    </div>
+  </div>
+  <div class="specs-grid">
+    <div class="spec-item"><div class="spec-label">Firmness</div><div class="spec-val">Medium</div></div>
+    <div class="spec-item"><div class="spec-label">Grid Pressure</div><div class="spec-val">&lt;32 mmHg</div></div>
+    <div class="spec-item"><div class="spec-label">Temperature</div><div class="spec-val">Neutral</div></div>
+    <div class="spec-item"><div class="spec-label">Trial</div><div class="spec-val">100 nights</div></div>
+  </div>
+  <div class="why-box">
+    <strong>Why it wins for dural ectasia pain:</strong> Dural ectasia causes the sacral dural sac to expand outward, creating pressure-sensitive neural tissue in the sacral canal that is not present in typical back pain. When lying flat, the weight of the pelvis concentrates on the sacral surface, directly compressing this expanded dural tissue. Purple's GelFlex Grid is the only widely available sleep surface with published pressure data consistently below 32mmHg at sacral bony prominences. This threshold is relevant because dural ectasia pain is exquisitely sensitive to sustained pressure &mdash; even modest reductions in sacral contact pressure produce meaningful symptom reduction over a full night. The grid's temperature-neutral design avoids the heat retention that can independently exacerbate dural ectasia discomfort.
+  </div>
+  <a class="btn" href="https://www.amazon.com/s?k=Purple+RestorePlus+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</div>
+
+<div class="pick-card">
+  <div class="pick-header">
+    <div class="pick-num">3</div>
+    <div class="pick-title">
+      <h3>Casper Wave Hybrid &mdash; Best for Thoracolumbar Scoliosis Accommodation</h3>
+      <span class="pick-tag">Asymmetric Spine Zone Support</span>
+    </div>
+  </div>
+  <div class="specs-grid">
+    <div class="spec-item"><div class="spec-label">Firmness</div><div class="spec-val">Medium</div></div>
+    <div class="spec-item"><div class="spec-label">Zones</div><div class="spec-val">7-zone</div></div>
+    <div class="spec-item"><div class="spec-label">Construction</div><div class="spec-val">Foam + coils</div></div>
+    <div class="spec-item"><div class="spec-label">Trial</div><div class="spec-val">100 nights</div></div>
+  </div>
+  <div class="why-box">
+    <strong>Why it wins for Marfan scoliosis:</strong> Thoracolumbar scoliosis in Marfan syndrome creates a lateral spinal curve that means one side of the back contacts the mattress at a different angle and with different weight distribution than the other side. A uniform-feel mattress either over-supports the concave side or under-supports the convex side. Casper Wave's 7-zone channel system adapts within each zone to the actual contact pressure it receives &mdash; the zones do not have fixed firmness but respond to load. For Marfan scoliosis patients sleeping on their back, this means the convex side (which contacts with more surface area and pressure) receives appropriate support while the concave side is not over-compressed. Side sleeping with Marfan scoliosis benefits from the shoulder zone softness that accommodates the asymmetric shoulder height typical in thoracolumbar curves.
+  </div>
+  <a class="btn" href="https://www.amazon.com/s?k=Casper+Wave+Hybrid+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</div>
+
+<div class="pick-card">
+  <div class="pick-header">
+    <div class="pick-num">4</div>
+    <div class="pick-title">
+      <h3>Tempur-Pedic TEMPUR-Adapt &mdash; Best for Joint Hypermobility Full-Length Stabilization</h3>
+      <span class="pick-tag">Viscous Resistance for Arachnodactyly & Limb Hypermobility</span>
+    </div>
+  </div>
+  <div class="specs-grid">
+    <div class="spec-item"><div class="spec-label">Firmness</div><div class="spec-val">Medium</div></div>
+    <div class="spec-item"><div class="spec-label">Material</div><div class="spec-val">TEMPUR foam</div></div>
+    <div class="spec-item"><div class="spec-label">Length</div><div class="spec-val">To 80 inches</div></div>
+    <div class="spec-item"><div class="spec-label">Trial</div><div class="spec-val">90 nights</div></div>
+  </div>
+  <div class="why-box">
+    <strong>Why it wins for hypermobile joint stabilization:</strong> Marfan syndrome produces systemic joint hypermobility from fibrillin-1 deficiency, including in shoulders, hips, wrists, fingers, and knees. During REM sleep, muscular atonia removes active joint protection. TEMPUR material's slow recovery rate creates passive positional resistance &mdash; as hypermobile joints attempt to drift into subluxation range, the surrounding foam holds its contoured position rather than springing back and facilitating movement. Full-length body contouring ensures every limb &mdash; including the disproportionately long limbs of Marfan patients &mdash; is supported at a consistent surface rather than hanging in gaps between pressure zones. Note: TEMPUR-Adapt is available in up to 80-inch king; patients over 6'8" should consider a Cal king option.
+  </div>
+  <a class="btn" href="https://www.amazon.com/s?k=Tempur-Pedic+TEMPUR-Adapt+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</div>
+
+<div class="pick-card">
+  <div class="pick-header">
+    <div class="pick-num">5</div>
+    <div class="pick-title">
+      <h3>Avocado Green &mdash; Best for Latex Buoyancy &amp; Cardiovascular-Safe Natural Materials</h3>
+      <span class="pick-tag">GOLS Latex with Zero Cardiac-Stimulating VOCs</span>
+    </div>
+  </div>
+  <div class="specs-grid">
+    <div class="spec-item"><div class="spec-label">Firmness</div><div class="spec-val">Medium-Firm</div></div>
+    <div class="spec-item"><div class="spec-label">Material</div><div class="spec-val">GOLS latex</div></div>
+    <div class="spec-item"><div class="spec-label">Certifications</div><div class="spec-val">GOLS, GOTS, GREENGUARD Gold</div></div>
+    <div class="spec-item"><div class="spec-label">Trial</div><div class="spec-val">365 nights</div></div>
+  </div>
+  <div class="why-box">
+    <strong>Why it wins for cardiovascular-managed Marfan patients:</strong> Marfan patients with aortic involvement often receive beta-blockers or ARBs (losartan) to reduce aortic wall stress. Some synthetic foam VOCs have been associated with low-level autonomic stimulation that can affect heart rate variability in sensitive patients. GREENGUARD Gold certification confirms zero off-gassing of any compounds that could cause cardiorespiratory stimulation during sleep. Natural latex buoyancy keeps the long limbs of Marfan patients "floating" in natural position rather than sinking into foam that allows slow joint drift. The supportive latex construction maintains the thoracolumbar spine in a position that reduces rotational stress on the aortic root during position changes.
+  </div>
+  <a class="btn" href="https://www.amazon.com/s?k=Avocado+Green+mattress+latex&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</div>
+
+<div class="pick-card">
+  <div class="pick-header">
+    <div class="pick-num">6</div>
+    <div class="pick-title">
+      <h3>Helix Midnight Luxe &mdash; Best for Tall-Person Motion Isolation &amp; Split King</h3>
+      <span class="pick-tag">Partner Motion Protection for Cardiovascular Sensitivity</span>
+    </div>
+  </div>
+  <div class="specs-grid">
+    <div class="spec-item"><div class="spec-label">Firmness</div><div class="spec-val">Medium</div></div>
+    <div class="spec-item"><div class="spec-label">Cover</div><div class="spec-val">TENCEL lyocell</div></div>
+    <div class="spec-item"><div class="spec-label">Split King</div><div class="spec-val">Available</div></div>
+    <div class="spec-item"><div class="spec-label">Trial</div><div class="spec-val">100 nights</div></div>
+  </div>
+  <div class="why-box">
+    <strong>Why it wins for Marfan couples:</strong> Marfan patients with aortic involvement need sleep environments that minimize startling arousals &mdash; sudden waking activates the sympathetic nervous system with transient blood pressure spikes that are a consideration in aortic root dilation management. Partner movement transferred through a shared mattress is a common nocturnal arousal trigger. Pocketed coil systems absorb partner motion at the source before it crosses to the other sleeper. Split king configuration eliminates cross-partner force transfer entirely, allowing the Marfan patient to sleep on a surface calibrated for their specific needs (body weight, height, preferred position) while their partner has independent customization. Zoned lumbar support maintains spinal neutrality across the longer California king format.
+  </div>
+  <a class="btn" href="https://www.amazon.com/s?k=Helix+Midnight+Luxe+California+King+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</div>
+
+<div class="pick-card">
+  <div class="pick-header">
+    <div class="pick-num">7</div>
+    <div class="pick-title">
+      <h3>Nectar Premier (California King) &mdash; Best for Long-Term Marfan Management Trajectory</h3>
+      <span class="pick-tag">365-Night Trial for Evolving Cardiovascular & Skeletal Management</span>
+    </div>
+  </div>
+  <div class="specs-grid">
+    <div class="spec-item"><div class="spec-label">Firmness</div><div class="spec-val">Medium-Firm</div></div>
+    <div class="spec-item"><div class="spec-label">Trial</div><div class="spec-val">365 nights</div></div>
+    <div class="spec-item"><div class="spec-label">Warranty</div><div class="spec-val">Lifetime</div></div>
+    <div class="spec-item"><div class="spec-label">Cal King</div><div class="spec-val">Available</div></div>
+  </div>
+  <div class="why-box">
+    <strong>Why it wins for the long-term Marfan trajectory:</strong> Marfan syndrome management evolves substantially over time &mdash; aortic root diameter monitoring, potential surgical intervention (prophylactic aortic root repair at 4.5-5.0cm), scoliosis progression, and lens dislocation management all create changing positioning requirements. A 365-night trial allows a full year of any new management phase before mattress commitment. The lifetime warranty covers a condition that is lifelong and where sleep equipment must outlast medical phases. California king format available as standard configuration ensures tall Marfan patients do not need to special-order or pay premium upgrades for appropriate length.
+  </div>
+  <a class="btn" href="https://www.amazon.com/s?k=Nectar+Premier+California+King+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</div>
+
+<h2 id="comparison">Marfan Feature Profile &amp; Mattress Priority Table</h2>
+<table>
+  <tr>
+    <th>Marfan Feature</th>
+    <th>Primary Sleep Impact</th>
+    <th>Priority Feature</th>
+    <th>Best Match</th>
+  </tr>
+  <tr>
+    <td>Tall stature (&gt;6'3")</td>
+    <td>Feet overhang standard king; ankle/knee hyperextension</td>
+    <td>California king 84-inch format</td>
+    <td>Saatva Cal King / Nectar Cal King</td>
+  </tr>
+  <tr>
+    <td>Dural ectasia (sacral)</td>
+    <td>Sacral pain worsening with prolonged lying flat</td>
+    <td>Sub-32mmHg sacral pressure interface</td>
+    <td>Purple RestorePlus</td>
+  </tr>
+  <tr>
+    <td>Thoracolumbar scoliosis</td>
+    <td>Asymmetric spinal loading, one-sided pressure concentration</td>
+    <td>Responsive zone adaptation for unequal load</td>
+    <td>Casper Wave Hybrid</td>
+  </tr>
+  <tr>
+    <td>Aortic root dilation (cardiovascular)</td>
+    <td>Position considerations for aortic wall stress</td>
+    <td>Flat-back support, low-arousal sleep environment</td>
+    <td>Saatva + Adj / Helix Split King</td>
+  </tr>
+  <tr>
+    <td>Joint hypermobility + OSA</td>
+    <td>REM subluxations + airway compromise during sleep</td>
+    <td>Adjustable base elevation for OSA + joint stabilization</td>
+    <td>Saatva + Adjustable Base</td>
+  </tr>
+</table>
+
+<h2 id="faq">Frequently Asked Questions</h2>
+
+<div class="faq-item">
+  <h3>What is Marfan syndrome and why does it create unique sleep challenges?</h3>
+  <p>Marfan syndrome is an FBN1 gene mutation disorder affecting fibrillin-1 and all connective tissue. Sleep is complicated by tall stature (standard mattresses may be too short), dural ectasia causing sacral pressure pain in 63&ndash;92% of patients, thoracolumbar scoliosis in 60&ndash;70%, aortic positioning considerations, and joint hypermobility causing REM subluxations. OSA prevalence is 40&ndash;70% due to craniofacial anatomy.</p>
+</div>
+
+<div class="faq-item">
+  <h3>Is there a safe sleep position for Marfan syndrome with aortic dilation?</h3>
+  <p>Back sleeping in a flat or near-flat position is generally safest. Stomach sleeping is contraindicated due to thoracic hyperextension stress on the aortic root. Consult your cardiologist about specific positioning recommendations based on your aortic root diameter and any procedures. Never change positioning without discussing with your Marfan specialist team.</p>
+</div>
+
+<div class="faq-item">
+  <h3>What is dural ectasia and how does it affect mattress choice?</h3>
+  <p>Dural ectasia is sacral dural sac expansion in 63&ndash;92% of Marfan patients, creating sacral pain worse with lying flat and better with sitting or standing. Sub-32mmHg sacral pressure is critical &mdash; Purple's GelFlex Grid maintains pressure below capillary closure threshold at sacral prominences. Adjustable base slight leg elevation can also reduce sacral dural pressure during extended lying.</p>
+</div>
+
+<div class="faq-item">
+  <h3>Does Marfan syndrome affect what mattress length and size are needed?</h3>
+  <p>Yes. Most Marfan patients are taller than 6'3". California king mattresses (84 inches / 7 feet) provide 4 additional inches over standard king. Feet hanging off the edge creates ankle and knee hyperextension in hypermobile joints and disrupts full-body support. For Marfan patients above 6'3", California king is the preferred format.</p>
+</div>
+
+<div class="faq-item">
+  <h3>Can Marfan syndrome cause sleep apnea, and does that affect mattress choice?</h3>
+  <p>Yes &mdash; 40&ndash;70% of Marfan patients have OSA due to high-arched palate, retrognathia, and pharyngeal crowding. For CPAP users, position changes must manage hose routing. An adjustable base at 15&ndash;30 degrees head elevation can reduce OSA severity while maintaining a neutral body position, balancing airway and cardiovascular positioning requirements simultaneously.</p>
+</div>
+
+<h2 id="related">Related Guides</h2>
+<div class="related-grid">
+  <div class="related-card">
+    <a href="best-mattress-ehlers-danlos-classical.html">Best Mattress for Classical EDS</a>
+    <p>Connective tissue disorder, skin fragility, joint hypermobility</p>
+  </div>
+  <div class="related-card">
+    <a href="best-mattress-hypermobile-eds.html">Best Mattress for Hypermobile EDS</a>
+    <p>hEDS, POTS overlap, widespread joint instability</p>
+  </div>
+  <div class="related-card">
+    <a href="best-mattress-scoliosis.html">Best Mattress for Scoliosis</a>
+    <p>Spinal curve, asymmetric pressure, multi-zone support</p>
+  </div>
+  <div class="related-card">
+    <a href="best-mattress-spinal-stenosis-cervical.html">Best Mattress for Cervical Stenosis</a>
+    <p>Canal compression, arm symptoms, myelopathy positioning</p>
+  </div>
+  <div class="related-card">
+    <a href="best-mattress-tall-person.html">Best Mattress for Tall People</a>
+    <p>California king, extra-length options, full-body support</p>
+  </div>
+  <div class="related-card">
+    <a href="best-mattress-heart-failure.html">Best Mattress for Heart Failure</a>
+    <p>Cardiac positioning, orthopnea, nocturnal dyspnea</p>
+  </div>
+</div>
+
+<footer>
+  <p><a href="../index.html">SleepWise Reviews</a> &mdash; <a href="../posts/index.html">All Posts</a></p>
+  <p style="margin-top:8px">Medical disclaimer: This content is for informational purposes only and does not constitute medical advice. Consult your Marfan specialist, cardiologist, and care team for personalized sleep and positioning recommendations.</p>
+</footer>
+</div>
+</body>
+</html>"""
+
+with open(f"posts/{slug}.html", "w", encoding="utf-8") as f:
+    f.write(html)
+print(f"Generated posts/{slug}.html")
