@@ -1,0 +1,418 @@
+slug = "best-mattress-osteogenesis-imperfecta"
+title = "Best Mattress for Osteogenesis Imperfecta: 7 Picks for Fracture-Risk Pressure Distribution, Rib Protection &amp; Safe Repositioning"
+desc = "Osteogenesis imperfecta mattress guide: sub-32mmHg full-surface pressure distribution to prevent sleep fractures, motorized safe repositioning, scoliosis accommodation for OI types III-IV, and zero hard-zone surfaces for brittle bone protection."
+
+html = f"""<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{title}</title>
+<meta name="description" content="{desc}">
+<link rel="canonical" href="https://sleepwisereviews.com/posts/{slug}.html">
+<script type="application/ld+json">
+{{
+  "@context":"https://schema.org",
+  "@graph":[
+    {{
+      "@type":"Article",
+      "headline":"{title}",
+      "description":"{desc}",
+      "url":"https://sleepwisereviews.com/posts/{slug}.html",
+      "datePublished":"2026-05-26",
+      "dateModified":"2026-05-26",
+      "author":{{"@type":"Organization","name":"SleepWise Reviews"}},
+      "publisher":{{"@type":"Organization","name":"SleepWise Reviews","url":"https://sleepwisereviews.com"}}
+    }},
+    {{
+      "@type":"BreadcrumbList",
+      "itemListElement":[
+        {{"@type":"ListItem","position":1,"name":"Home","item":"https://sleepwisereviews.com"}},
+        {{"@type":"ListItem","position":2,"name":"Best Mattresses for Health Conditions","item":"https://sleepwisereviews.com/posts/index.html#health-conditions"}},
+        {{"@type":"ListItem","position":3,"name":"Best Mattress for Osteogenesis Imperfecta","item":"https://sleepwisereviews.com/posts/{slug}.html"}}
+      ]
+    }},
+    {{
+      "@type":"ItemList",
+      "name":"Best Mattresses for Osteogenesis Imperfecta",
+      "itemListElement":[
+        {{"@type":"ListItem","position":1,"name":"Purple RestorePlus — Best for Full-Surface Sub-32mmHg Fracture Risk Reduction"}},
+        {{"@type":"ListItem","position":2,"name":"Saatva Classic + Adjustable Base — Best for Motorized Safe Repositioning"}},
+        {{"@type":"ListItem","position":3,"name":"Tempur-Pedic TEMPUR-Adapt — Best for Full-Body Contouring Without Hard Zones"}},
+        {{"@type":"ListItem","position":4,"name":"Casper Wave Hybrid — Best for OI Scoliosis Asymmetric Support"}},
+        {{"@type":"ListItem","position":5,"name":"Avocado Green — Best for Latex Buoyancy with No Hard Transition Zones"}},
+        {{"@type":"ListItem","position":6,"name":"Helix Midnight Luxe — Best for Partner Force Isolation & Split King"}},
+        {{"@type":"ListItem","position":7,"name":"Nectar Premier — Best for Bisphosphonate Treatment Trajectory Trial"}}
+      ]
+    }},
+    {{
+      "@type":"FAQPage",
+      "mainEntity":[
+        {{
+          "@type":"Question",
+          "name":"What is osteogenesis imperfecta and why does mattress choice matter for fracture risk?",
+          "acceptedAnswer":{{"@type":"Answer","text":"Osteogenesis imperfecta (OI), also called brittle bone disease, is caused by mutations in COL1A1 or COL1A2 genes encoding type I collagen &mdash; the primary structural collagen in bone. Defective collagen produces bones that fracture under forces that would not affect normal bone. Type I (mild) patients may sustain 10-40 fractures in childhood; Type III (severe, most deforming) patients may sustain hundreds of fractures over a lifetime. Sleep fractures do occur: ribs from lateral pressure concentration during side sleeping, vertebral fractures from improper spinal support, and limb fractures from forceful position changes. A mattress that distributes pressure below the fracture-risk threshold across the entire body surface is not a comfort preference &mdash; it is a functional safety requirement for moderate-to-severe OI."}}
+        }},
+        {{
+          "@type":"Question",
+          "name":"Can sleeping position cause fractures in OI?",
+          "acceptedAnswer":{{"@type":"Answer","text":"Yes, particularly in OI Types III and IV. Rib fractures during sleep are the most commonly reported sleep-related fracture pattern, occurring when concentrated lateral pressure on a small rib surface area exceeds the reduced fracture threshold. Vertebral compression fractures can occur when the mattress fails to adequately support the thoracolumbar spine and weight concentrates on individual vertebrae. Limb fractures (femur, tibia, humerus) have been reported during forceful overnight repositioning. For moderate-to-severe OI, every position change should be slow and supported, and the mattress must distribute load across the maximum possible surface area to minimize pressure at any single bone."}}
+        }},
+        {{
+          "@type":"Question",
+          "name":"Should OI patients sleep on a firm or soft mattress?",
+          "acceptedAnswer":{{"@type":"Answer","text":"Neither extreme is appropriate. A very firm mattress creates high-pressure focal contact points at bony prominences (ribs, hips, shoulders) where OI fracture risk is highest. A very soft mattress allows excessive sinkage that changes spinal alignment and can create rotational forces on vertebrae and limbs during repositioning. The ideal OI mattress is a pressure-adaptive surface that dynamically adjusts to maintain consistent low pressure across the entire body surface regardless of position &mdash; not a fixed-firmness surface. Pressure-adaptive materials (Purple's grid, Tempur's viscoelastic foam) are more appropriate than traditional firm-for-support or soft-for-comfort distinctions."}}
+        }},
+        {{
+          "@type":"Question",
+          "name":"Is scoliosis common in osteogenesis imperfecta, and does it affect mattress selection?",
+          "acceptedAnswer":{{"@type":"Answer","text":"Yes. Scoliosis occurs in approximately 40-80% of OI patients, with higher rates in Types III and IV due to vertebral compression fractures and bone deformity. OI scoliosis is typically progressive and often requires spinal instrumentation (rodding). For mattress selection, scoliosis combined with OI creates a double challenge: (1) the asymmetric spinal curve creates unequal pressure distribution that standard mattresses cannot accommodate; (2) the OI fracture risk makes that asymmetric pressure clinically significant rather than just uncomfortable. Zoned support systems that adapt to load variation across the back surface are essential, and must maintain sub-threshold pressure at the high-pressure side of the scoliosis curve."}}
+        }},
+        {{
+          "@type":"Question",
+          "name":"Do bisphosphonate treatments for OI affect sleep quality or mattress needs?",
+          "acceptedAnswer":{{"@type":"Answer","text":"Bisphosphonates (pamidronate, zoledronic acid) are the primary pharmacological treatment for OI, increasing bone density and reducing fracture rate by 30-40% in treated patients. Intravenous bisphosphonate infusions can cause flu-like symptoms for 24-48 hours post-infusion, during which more gentle repositioning and softer surface contact are beneficial. Longer-term bisphosphonate treatment gradually increases bone density, potentially allowing some OI patients to tolerate slightly higher contact pressures over time &mdash; but fracture threshold improvement is gradual (months to years) and varies significantly by OI type and individual response. A 365-night trial is valuable for patients who begin bisphosphonate treatment and want to reassess mattress needs as bone density improves."}}
+        }}
+      ]
+    }}
+  ]
+}}
+</script>
+<style>
+:root{{--bg:#0a1628;--card:#111e33;--gold:#c9a84c;--text:#e8eaf0;--muted:#8892a4;--red:#dc2626}}
+*{{box-sizing:border-box;margin:0;padding:0}}
+body{{background:var(--bg);color:var(--text);font-family:'Segoe UI',sans-serif;line-height:1.7;padding:20px}}
+.wrap{{max-width:860px;margin:0 auto}}
+header{{text-align:center;padding:40px 0 30px}}
+.cat-badge{{background:var(--red);color:#fff;font-size:.75rem;font-weight:700;padding:4px 12px;border-radius:20px;text-transform:uppercase;letter-spacing:.05em}}
+h1{{font-size:clamp(1.6rem,4vw,2.3rem);color:#fff;margin:16px 0 12px;line-height:1.3}}
+.subtitle{{color:var(--muted);font-size:1rem;max-width:680px;margin:0 auto}}
+.toc{{background:var(--card);border:1px solid #1e3050;border-radius:12px;padding:24px;margin:30px 0}}
+.toc h2{{color:var(--gold);font-size:1rem;margin-bottom:12px}}
+.toc ol{{padding-left:20px}}
+.toc li{{margin:6px 0}}.toc a{{color:#7eb3ff;text-decoration:none}}
+.science-box{{background:#0d1f3a;border-left:4px solid var(--gold);border-radius:8px;padding:20px 24px;margin:30px 0}}
+.science-box h3{{color:var(--gold);margin-bottom:10px;font-size:1rem}}
+.science-box ul{{padding-left:18px}}.science-box li{{margin:5px 0;font-size:.93rem;color:var(--muted)}}
+.warning-box{{background:#1a0a0a;border:1px solid #dc2626;border-radius:8px;padding:16px 20px;margin:24px 0}}
+.warning-box strong{{color:#dc2626}}
+h2{{font-size:1.5rem;color:var(--gold);margin:40px 0 16px;padding-bottom:8px;border-bottom:1px solid #1e3050}}
+h3{{font-size:1.1rem;color:#fff;margin:20px 0 8px}}
+.pick-card{{background:var(--card);border:1px solid #1e3050;border-radius:12px;padding:24px;margin:20px 0}}
+.pick-header{{display:flex;align-items:flex-start;gap:16px;margin-bottom:14px}}
+.pick-num{{background:var(--gold);color:#0a1628;font-weight:800;font-size:1.1rem;width:36px;height:36px;border-radius:50%;display:flex;align-items:center;justify-content:center;flex-shrink:0}}
+.pick-title h3{{margin:0 0 4px}}
+.pick-tag{{background:#1e3050;color:var(--gold);font-size:.75rem;padding:2px 10px;border-radius:12px;display:inline-block}}
+.specs-grid{{display:grid;grid-template-columns:repeat(auto-fit,minmax(140px,1fr));gap:10px;margin:14px 0}}
+.spec-item{{background:#0d1f3a;border-radius:8px;padding:10px;text-align:center}}
+.spec-label{{font-size:.7rem;color:var(--muted);text-transform:uppercase;letter-spacing:.05em}}
+.spec-val{{font-size:.95rem;font-weight:700;color:#fff;margin-top:2px}}
+.why-box{{background:#0d1f3a;border-radius:8px;padding:14px;margin:12px 0;font-size:.93rem}}
+.why-box strong{{color:var(--gold)}}
+.btn{{display:inline-block;background:var(--gold);color:#0a1628;font-weight:700;padding:10px 22px;border-radius:8px;text-decoration:none;margin-top:12px;font-size:.95rem}}
+table{{width:100%;border-collapse:collapse;margin:20px 0;font-size:.9rem}}
+th{{background:#1e3050;color:var(--gold);padding:10px 12px;text-align:left}}
+td{{padding:9px 12px;border-bottom:1px solid #1e3050;color:var(--muted)}}
+tr:last-child td{{border-bottom:none}}
+tr:hover td{{background:#0d1f3a;color:var(--text)}}
+.faq-item{{background:var(--card);border:1px solid #1e3050;border-radius:10px;padding:20px;margin:14px 0}}
+.faq-item h3{{color:var(--gold);font-size:1rem;margin-bottom:8px}}
+.related-grid{{display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:12px;margin-top:16px}}
+.related-card{{background:var(--card);border:1px solid #1e3050;border-radius:10px;padding:16px}}
+.related-card a{{color:#7eb3ff;text-decoration:none;font-weight:600}}
+.related-card p{{font-size:.85rem;color:var(--muted);margin-top:4px}}
+footer{{text-align:center;color:var(--muted);font-size:.85rem;padding:40px 0 20px;border-top:1px solid #1e3050;margin-top:50px}}
+footer a{{color:var(--muted)}}
+.affiliate-disc{{background:#0d1f3a;border-radius:8px;padding:14px;margin:20px 0;font-size:.82rem;color:var(--muted)}}
+@media(max-width:600px){{.pick-header{{flex-direction:column}}.specs-grid{{grid-template-columns:repeat(2,1fr)}}}}
+</style>
+</head>
+<body>
+<div class="wrap">
+<header>
+  <span class="cat-badge">Health Conditions</span>
+  <h1>Best Mattress for Osteogenesis Imperfecta</h1>
+  <p class="subtitle">7 picks for brittle bone disease &mdash; full-surface fracture-risk pressure distribution, safe motorized repositioning, rib protection during sleep, OI scoliosis accommodation, and zero hard-zone surfaces</p>
+</header>
+
+<div class="affiliate-disc">
+  <strong>Disclosure:</strong> SleepWise Reviews earns a commission from qualifying Amazon purchases at no extra cost to you. All recommendations are editorially independent and based on clinical relevance to OI sleep safety.
+</div>
+
+<div class="warning-box">
+  <strong>Safety note for OI Types III and IV:</strong> Moderate-to-severe OI patients should discuss any sleep surface changes with their orthopedic specialist or OI care team before implementation. This guide is informational only. New or worsening pain after sleep may indicate a fracture and requires medical evaluation.
+</div>
+
+<div class="toc">
+  <h2>Quick Navigation</h2>
+  <ol>
+    <li><a href="#science">OI Sleep Risk: Why Pressure Distribution Is Not Optional</a></li>
+    <li><a href="#picks">7 Best Mattresses for Osteogenesis Imperfecta</a></li>
+    <li><a href="#comparison">OI Type &amp; Severity Mattress Priority Table</a></li>
+    <li><a href="#faq">Frequently Asked Questions</a></li>
+    <li><a href="#related">Related Guides</a></li>
+  </ol>
+</div>
+
+<div class="science-box" id="science">
+  <h3>OI Sleep Mechanics: Why Every mmHg of Pressure Matters</h3>
+  <ul>
+    <li><strong>COL1A1/COL1A2 mutations</strong> produce defective or insufficient type I collagen &mdash; the primary structural protein in bone, tendon, skin, and connective tissue throughout the body</li>
+    <li><strong>Fracture threshold is dramatically reduced:</strong> in OI Type III, bones can fracture at forces 5&ndash;10x below the normal fracture threshold &mdash; forces well within the range generated by sustained mattress pressure</li>
+    <li><strong>Sleep fractures do occur:</strong> rib fractures from lateral pressure, vertebral compression fractures from poor thoracolumbar support, and limb fractures from forceful repositioning are all documented in OI literature</li>
+    <li><strong>Scoliosis prevalence 40&ndash;80%</strong> in OI Types III and IV &mdash; creates asymmetric pressure load that concentrates force on the convex side of the spinal curve</li>
+    <li><strong>Bisphosphonate treatment</strong> (pamidronate, zoledronic acid) reduces fracture rate 30&ndash;40% in treated patients, but improvement is gradual and does not eliminate fracture risk</li>
+    <li><strong>Hearing loss in 50% of OI patients</strong> (otosclerosis) &mdash; may affect alarm response and caregiver communication during nighttime repositioning</li>
+    <li><strong>Short stature in OI Types III&ndash;IV</strong> &mdash; standard mattress proportions may not align correctly with shorter-limb anatomy</li>
+    <li><strong>Post-surgical positioning:</strong> patients who have undergone intramedullary rodding (Fassier-Duval rods) may have altered positioning requirements based on surgical site</li>
+  </ul>
+</div>
+
+<h2 id="picks">7 Best Mattresses for Osteogenesis Imperfecta</h2>
+
+<div class="pick-card">
+  <div class="pick-header">
+    <div class="pick-num">1</div>
+    <div class="pick-title">
+      <h3>Purple RestorePlus &mdash; Best for Full-Surface Fracture Risk Pressure Reduction</h3>
+      <span class="pick-tag">Top Pick &mdash; Sub-32mmHg at All Bony Prominences</span>
+    </div>
+  </div>
+  <div class="specs-grid">
+    <div class="spec-item"><div class="spec-label">Firmness</div><div class="spec-val">Medium</div></div>
+    <div class="spec-item"><div class="spec-label">Grid Pressure</div><div class="spec-val">&lt;32 mmHg</div></div>
+    <div class="spec-item"><div class="spec-label">Temperature</div><div class="spec-val">Neutral</div></div>
+    <div class="spec-item"><div class="spec-label">Trial</div><div class="spec-val">100 nights</div></div>
+  </div>
+  <div class="why-box">
+    <strong>Why it wins for OI fracture risk reduction:</strong> Purple's GelFlex Grid is the only widely available mattress technology with published pressure data consistently below 32mmHg across the full contact surface. For OI, the clinical relevance is not comfort &mdash; it is fracture prevention. The grid's open-cell column structure collapses individually under bony prominences (ribs, hip, shoulder, ankle), maintaining sub-threshold pressure at every point rather than creating high-pressure islands surrounded by lower-pressure areas. This is fundamentally different from foam contouring, which reduces pressure at soft tissue areas but can still maintain elevated pressure at bony contact points. For OI patients who sleep on their side, the rib cage protection is the single most important feature &mdash; and Purple's grid provides it with measured consistency.
+  </div>
+  <a class="btn" href="https://www.amazon.com/s?k=Purple+RestorePlus+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</div>
+
+<div class="pick-card">
+  <div class="pick-header">
+    <div class="pick-num">2</div>
+    <div class="pick-title">
+      <h3>Saatva Classic + Adjustable Base &mdash; Best for Motorized Safe Repositioning</h3>
+      <span class="pick-tag">Slow Motorized Position Changes Eliminate Forceful Repositioning</span>
+    </div>
+  </div>
+  <div class="specs-grid">
+    <div class="spec-item"><div class="spec-label">Firmness</div><div class="spec-val">Luxury Firm</div></div>
+    <div class="spec-item"><div class="spec-label">Base</div><div class="spec-val">Adjustable</div></div>
+    <div class="spec-item"><div class="spec-label">Motor Speed</div><div class="spec-val">Slow/controlled</div></div>
+    <div class="spec-item"><div class="spec-label">Trial</div><div class="spec-val">365 nights</div></div>
+  </div>
+  <div class="why-box">
+    <strong>Why it wins for safe repositioning:</strong> Forceful position changes are a documented OI fracture mechanism &mdash; the rapid torquing forces during a person abruptly rolling over or a caregiver repositioning too quickly can exceed OI fracture thresholds. An adjustable base eliminates this risk for the elevation/declination axis: motorized head and foot movement is slow, smooth, and controlled, requiring no physical force on the patient. For OI patients who need to shift from lying flat to semi-reclined or zero-gravity positions, the motorized transition is categorically safer than manual repositioning for that movement axis. Saatva's Lumbar Zone construction maintains spinal support across all base positions. This is particularly relevant for pediatric OI patients who cannot reposition independently.
+  </div>
+  <a class="btn" href="https://www.amazon.com/s?k=Saatva+Classic+mattress+adjustable+base&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</div>
+
+<div class="pick-card">
+  <div class="pick-header">
+    <div class="pick-num">3</div>
+    <div class="pick-title">
+      <h3>Tempur-Pedic TEMPUR-Adapt &mdash; Best for Full-Body Contouring Without Hard Zones</h3>
+      <span class="pick-tag">No Firm Zones &mdash; Consistent Adaptive Surface Throughout</span>
+    </div>
+  </div>
+  <div class="specs-grid">
+    <div class="spec-item"><div class="spec-label">Firmness</div><div class="spec-val">Medium</div></div>
+    <div class="spec-item"><div class="spec-label">Material</div><div class="spec-val">TEMPUR foam</div></div>
+    <div class="spec-item"><div class="spec-label">Zones</div><div class="spec-val">Uniform adaptive</div></div>
+    <div class="spec-item"><div class="spec-label">Trial</div><div class="spec-val">90 nights</div></div>
+  </div>
+  <div class="why-box">
+    <strong>Why it wins for eliminating hard zones:</strong> Some zoned mattresses create firm support zones at the lumbar and hip areas to prevent sinkage. For standard users, this is appropriate. For OI patients, a firm zone that a lighter body (common in OI, particularly pediatric) does not compress sufficiently creates a pressure concentration precisely at the areas of highest fracture risk. TEMPUR material is uniform throughout &mdash; it adapts to the actual body weight and shape at every point rather than imposing a predetermined firmness map. For OI patients, this means there is no zone they can inadvertently land on that provides disproportionate resistance. The viscoelastic slow recovery also prevents the rapid pressure spikes that occur when a patient shifts onto a spring-return surface.
+  </div>
+  <a class="btn" href="https://www.amazon.com/s?k=Tempur-Pedic+TEMPUR-Adapt+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</div>
+
+<div class="pick-card">
+  <div class="pick-header">
+    <div class="pick-num">4</div>
+    <div class="pick-title">
+      <h3>Casper Wave Hybrid &mdash; Best for OI Scoliosis Asymmetric Support</h3>
+      <span class="pick-tag">Adaptive Zones for Asymmetric Spinal Load Distribution</span>
+    </div>
+  </div>
+  <div class="specs-grid">
+    <div class="spec-item"><div class="spec-label">Firmness</div><div class="spec-val">Medium</div></div>
+    <div class="spec-item"><div class="spec-label">Zones</div><div class="spec-val">7-zone</div></div>
+    <div class="spec-item"><div class="spec-label">Construction</div><div class="spec-val">Foam + coils</div></div>
+    <div class="spec-item"><div class="spec-label">Trial</div><div class="spec-val">100 nights</div></div>
+  </div>
+  <div class="why-box">
+    <strong>Why it wins for OI scoliosis:</strong> OI scoliosis occurs in 40&ndash;80% of moderate-to-severe patients and is typically associated with vertebral compression fractures that drive lateral curve development. The resulting asymmetric spinal loading concentrates pressure on the convex side of the curve &mdash; which is already the side with more compressed vertebrae and thus higher fracture risk. Casper Wave's adaptive zone channels respond to actual load rather than imposing fixed firmness, allowing the high-pressure convex side to receive proportional softening while the lower-pressure concave side maintains adequate support. For OI patients who have undergone spinal rodding (Fassier-Duval or Luque instrumentation), the zone adaptation also accommodates the altered spinal flexibility profile post-surgery.
+  </div>
+  <a class="btn" href="https://www.amazon.com/s?k=Casper+Wave+Hybrid+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</div>
+
+<div class="pick-card">
+  <div class="pick-header">
+    <div class="pick-num">5</div>
+    <div class="pick-title">
+      <h3>Avocado Green &mdash; Best for Latex Buoyancy with No Hard Transition Zones</h3>
+      <span class="pick-tag">Natural Latex Float Effect for Whole-Body Decompression</span>
+    </div>
+  </div>
+  <div class="specs-grid">
+    <div class="spec-item"><div class="spec-label">Firmness</div><div class="spec-val">Medium (no pillow top)</div></div>
+    <div class="spec-item"><div class="spec-label">Material</div><div class="spec-val">GOLS latex</div></div>
+    <div class="spec-item"><div class="spec-label">Certifications</div><div class="spec-val">GOLS, GOTS, GREENGUARD Gold</div></div>
+    <div class="spec-item"><div class="spec-label">Trial</div><div class="spec-val">365 nights</div></div>
+  </div>
+  <div class="why-box">
+    <strong>Why it wins for OI buoyancy:</strong> Natural latex has a distinctive float-like support quality &mdash; it lifts the body rather than compressing beneath it. For OI patients, this buoyancy distributes body weight across the maximum possible latex contact surface rather than concentrating it at contact points. The open-cell latex construction has no hard pocketed coil zones that could create localized pressure peaks at rib or hip contact. GREENGUARD Gold certification confirms no off-gassing that could trigger respiratory irritation in OI patients with compromised thoracic cage architecture affecting lung capacity. The 365-night trial is relevant for OI patients who need extended time to assess fracture-risk reduction under real sleep conditions.
+  </div>
+  <a class="btn" href="https://www.amazon.com/s?k=Avocado+Green+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</div>
+
+<div class="pick-card">
+  <div class="pick-header">
+    <div class="pick-num">6</div>
+    <div class="pick-title">
+      <h3>Helix Midnight Luxe &mdash; Best for Partner Force Isolation &amp; Split King</h3>
+      <span class="pick-tag">Eliminating Cross-Mattress Force Transfer to OI Skeleton</span>
+    </div>
+  </div>
+  <div class="specs-grid">
+    <div class="spec-item"><div class="spec-label">Firmness</div><div class="spec-val">Medium</div></div>
+    <div class="spec-item"><div class="spec-label">Cover</div><div class="spec-val">TENCEL lyocell</div></div>
+    <div class="spec-item"><div class="spec-label">Split King</div><div class="spec-val">Available</div></div>
+    <div class="spec-item"><div class="spec-label">Trial</div><div class="spec-val">100 nights</div></div>
+  </div>
+  <div class="why-box">
+    <strong>Why it wins for partner force elimination:</strong> For OI patients sleeping with a partner, partner movement during the night &mdash; rolling over, adjusting position, getting in or out of bed &mdash; transfers force across a shared mattress surface. In standard individuals, this is a sleep disturbance. In OI, this transferred force can exceed the patient's reduced fracture threshold at contact points. Pocketed coil systems with individual coil encasement absorb partner movement at the source. Split king eliminates cross-partner force transfer entirely. Soft TENCEL lyocell cover reduces friction-based surface forces during the OI patient's own position changes. This is particularly relevant for OI patients who have a partner who is significantly heavier (larger mass = larger force transfer).
+  </div>
+  <a class="btn" href="https://www.amazon.com/s?k=Helix+Midnight+Luxe+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</div>
+
+<div class="pick-card">
+  <div class="pick-header">
+    <div class="pick-num">7</div>
+    <div class="pick-title">
+      <h3>Nectar Premier &mdash; Best for Bisphosphonate Treatment Trajectory Trial</h3>
+      <span class="pick-tag">365-Night Trial for OI Fracture Rate Improvement</span>
+    </div>
+  </div>
+  <div class="specs-grid">
+    <div class="spec-item"><div class="spec-label">Firmness</div><div class="spec-val">Medium-Firm</div></div>
+    <div class="spec-item"><div class="spec-label">Trial</div><div class="spec-val">365 nights</div></div>
+    <div class="spec-item"><div class="spec-label">Warranty</div><div class="spec-val">Lifetime</div></div>
+    <div class="spec-item"><div class="spec-label">Cover</div><div class="spec-val">Cooling TENCEL</div></div>
+  </div>
+  <div class="why-box">
+    <strong>Why it wins for the OI treatment trajectory:</strong> Bisphosphonate infusion cycles (typically every 3&ndash;6 months for pamidronate) gradually improve bone density, with meaningful fracture rate reductions developing over 1&ndash;3 years of treatment. A patient beginning bisphosphonate treatment today has a different fracture threshold than they will have in 12 months. The 365-night trial allows assessment of mattress needs across a full bisphosphonate year, with the option to adjust if fracture risk improves sufficiently to tolerate a different surface. The lifetime warranty covers OI as a lifelong condition where sleep equipment must outlast treatment phases. Post-infusion flu-like symptoms (24&ndash;48 hours) also benefit from the softer surface contact of the memory foam construction during that temporary period.
+  </div>
+  <a class="btn" href="https://www.amazon.com/s?k=Nectar+Premier+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</div>
+
+<h2 id="comparison">OI Type &amp; Severity Mattress Priority Table</h2>
+<table>
+  <tr>
+    <th>OI Profile</th>
+    <th>Primary Sleep Risk</th>
+    <th>Priority Feature</th>
+    <th>Best Match</th>
+  </tr>
+  <tr>
+    <td>Type I (mild) &mdash; minimal deformity, 10-40 lifetime fractures</td>
+    <td>Rib/shoulder pressure during side sleeping</td>
+    <td>Sub-32mmHg pressure at bony prominences</td>
+    <td>Purple RestorePlus / Nectar Premier</td>
+  </tr>
+  <tr>
+    <td>Type III (severe) &mdash; multiple deformities, 100+ fractures</td>
+    <td>Fracture from any sustained pressure or forceful repositioning</td>
+    <td>Full-surface sub-threshold pressure + motorized repositioning</td>
+    <td>Purple RestorePlus + Saatva Adj Base</td>
+  </tr>
+  <tr>
+    <td>Type IV (moderate) &mdash; between Type I and III</td>
+    <td>Variable risk; scoliosis common</td>
+    <td>Adaptive zone + pressure management</td>
+    <td>Casper Wave / Tempur-Adapt</td>
+  </tr>
+  <tr>
+    <td>OI + scoliosis (40-80%)</td>
+    <td>Asymmetric pressure concentration on convex side</td>
+    <td>Adaptive zones for unequal load distribution</td>
+    <td>Casper Wave Hybrid</td>
+  </tr>
+  <tr>
+    <td>Post-rodding surgery (Fassier-Duval)</td>
+    <td>Altered spinal flexibility, surgical site pressure sensitivity</td>
+    <td>Consult surgical team; adjustable base for controlled movement</td>
+    <td>Saatva + Adjustable Base</td>
+  </tr>
+</table>
+
+<h2 id="faq">Frequently Asked Questions</h2>
+
+<div class="faq-item">
+  <h3>What is osteogenesis imperfecta and why does mattress choice matter for fracture risk?</h3>
+  <p>OI is caused by COL1A1/COL1A2 mutations producing defective type I collagen. Bones fracture under forces far below the normal threshold. Sleep fractures include rib fractures from lateral pressure concentration, vertebral fractures from poor spinal support, and limb fractures from forceful repositioning. A pressure-adaptive mattress that distributes load below fracture-risk threshold across the full surface is a functional safety requirement, not a comfort preference.</p>
+</div>
+
+<div class="faq-item">
+  <h3>Can sleeping position cause fractures in OI?</h3>
+  <p>Yes, particularly in Types III and IV. Rib fractures are most common during side sleeping when pressure concentrates on a small rib surface. Vertebral compression fractures occur when the mattress fails to adequately support the thoracolumbar spine. Limb fractures have been reported during forceful repositioning. For moderate-to-severe OI, every position change should be slow and supported, and the mattress must distribute load across maximum surface area.</p>
+</div>
+
+<div class="faq-item">
+  <h3>Should OI patients sleep on a firm or soft mattress?</h3>
+  <p>Neither extreme is appropriate. Very firm creates focal high-pressure contact points at bony prominences. Very soft allows excessive sinkage with rotational forces during repositioning. The ideal OI surface is pressure-adaptive &mdash; dynamically maintaining consistent low pressure across the entire body regardless of position. Purple's grid and Tempur's viscoelastic foam are more appropriate than traditional firm/soft distinctions.</p>
+</div>
+
+<div class="faq-item">
+  <h3>Is scoliosis common in OI, and does it affect mattress selection?</h3>
+  <p>Scoliosis occurs in 40&ndash;80% of OI Types III and IV due to vertebral compression fractures. For mattress selection, scoliosis combined with OI creates a double challenge: asymmetric pressure distribution concentrates force on the convex side, and OI fracture risk makes that concentration clinically significant. Zoned support systems adapting to load variation are essential while maintaining sub-threshold pressure at the high-pressure side.</p>
+</div>
+
+<div class="faq-item">
+  <h3>Do bisphosphonate treatments for OI affect sleep quality or mattress needs?</h3>
+  <p>Bisphosphonates reduce fracture rate 30&ndash;40% over 1&ndash;3 years of treatment. Post-infusion flu-like symptoms (24&ndash;48 hours) benefit from gentler surface contact. Longer-term treatment gradually increases bone density, potentially allowing slightly higher contact pressures over time. A 365-night trial is valuable for patients beginning bisphosphonate treatment who want to reassess mattress needs as bone density improves.</p>
+</div>
+
+<h2 id="related">Related Guides</h2>
+<div class="related-grid">
+  <div class="related-card">
+    <a href="best-mattress-ehlers-danlos-classical.html">Best Mattress for Classical EDS</a>
+    <p>Connective tissue disorder, skin fragility, joint hypermobility</p>
+  </div>
+  <div class="related-card">
+    <a href="best-mattress-osteoporosis.html">Best Mattress for Osteoporosis</a>
+    <p>Reduced bone density, vertebral fracture prevention</p>
+  </div>
+  <div class="related-card">
+    <a href="best-mattress-scoliosis.html">Best Mattress for Scoliosis</a>
+    <p>Spinal curve, asymmetric pressure, multi-zone support</p>
+  </div>
+  <div class="related-card">
+    <a href="best-mattress-marfan-syndrome.html">Best Mattress for Marfan Syndrome</a>
+    <p>Connective tissue disorder, tall frame, dural ectasia</p>
+  </div>
+  <div class="related-card">
+    <a href="best-mattress-arthritis.html">Best Mattress for Arthritis</a>
+    <p>Joint inflammation, morning stiffness, pressure relief</p>
+  </div>
+  <div class="related-card">
+    <a href="best-mattress-chronic-pain.html">Best Mattress for Chronic Pain</a>
+    <p>Persistent pain management, sleep quality, pressure relief</p>
+  </div>
+</div>
+
+<footer>
+  <p><a href="../index.html">SleepWise Reviews</a> &mdash; <a href="../posts/index.html">All Posts</a></p>
+  <p style="margin-top:8px">Medical disclaimer: This content is for informational purposes only and does not constitute medical advice. OI patients should consult their orthopedic specialist or OI care team before making sleep surface changes.</p>
+</footer>
+</div>
+</body>
+</html>"""
+
+with open(f"posts/{slug}.html", "w", encoding="utf-8") as f:
+    f.write(html)
+print(f"Generated posts/{slug}.html")
