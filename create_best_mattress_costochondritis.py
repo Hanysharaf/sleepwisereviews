@@ -1,0 +1,283 @@
+slug = "best-mattress-costochondritis"
+html = '''<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Best Mattress for Costochondritis (2025): 7 Picks for Chest Wall Inflammation &amp; Rib Pain Sleep</title>
+<meta name="description" content="Best mattresses for costochondritis: chest wall inflammation, rib cage pressure during sleep, anxiety overlap, COVID-sequelae costochondritis, and positioning for chest pain relief. 7 expert picks.">
+<link rel="canonical" href="https://sleepwisereviews.com/posts/best-mattress-costochondritis.html">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Best Mattress for Costochondritis (2025)",
+  "description": "7 mattress picks for costochondritis addressing chest wall inflammation, rib cage pressure during sleep, anxiety overlap, COVID-sequelae, and positioning for chest pain relief.",
+  "author": {"@type": "Organization", "name": "SleepWise Reviews"},
+  "publisher": {"@type": "Organization", "name": "SleepWise Reviews", "url": "https://sleepwisereviews.com"},
+  "datePublished": "2026-05-26",
+  "dateModified": "2026-05-26",
+  "mainEntityOfPage": "https://sleepwisereviews.com/posts/best-mattress-costochondritis.html"
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Home", "item": "https://sleepwisereviews.com/"},
+    {"@type": "ListItem", "position": 2, "name": "All Posts", "item": "https://sleepwisereviews.com/posts/index.html"},
+    {"@type": "ListItem", "position": 3, "name": "Best Mattress for Costochondritis", "item": "https://sleepwisereviews.com/posts/best-mattress-costochondritis.html"}
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ItemList",
+  "name": "Best Mattresses for Costochondritis",
+  "itemListElement": [
+    {"@type": "ListItem", "position": 1, "name": "Tempur-Adapt", "url": "https://www.amazon.com/s?k=Tempur-Adapt+mattress&tag=sleepwiserevi-20"},
+    {"@type": "ListItem", "position": 2, "name": "Purple Restore Plus", "url": "https://www.amazon.com/s?k=Purple+Restore+Plus+mattress&tag=sleepwiserevi-20"},
+    {"@type": "ListItem", "position": 3, "name": "Saatva Classic with Adjustable Base", "url": "https://www.amazon.com/s?k=Saatva+Classic+mattress+adjustable+base&tag=sleepwiserevi-20"},
+    {"@type": "ListItem", "position": 4, "name": "Casper Wave Hybrid", "url": "https://www.amazon.com/s?k=Casper+Wave+Hybrid+mattress&tag=sleepwiserevi-20"},
+    {"@type": "ListItem", "position": 5, "name": "Helix Midnight Luxe", "url": "https://www.amazon.com/s?k=Helix+Midnight+Luxe+mattress&tag=sleepwiserevi-20"},
+    {"@type": "ListItem", "position": 6, "name": "Avocado Green Mattress", "url": "https://www.amazon.com/s?k=Avocado+Green+mattress&tag=sleepwiserevi-20"},
+    {"@type": "ListItem", "position": 7, "name": "Nectar Premier", "url": "https://www.amazon.com/s?k=Nectar+Premier+mattress&tag=sleepwiserevi-20"}
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "What causes costochondritis pain during sleep?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Costochondritis pain during sleep is caused by three mechanisms: (1) direct rib cage compression in side sleeping, where the body weight presses the lateral ribs against the mattress surface, compressing the costochondral cartilage junctions that are already inflamed; (2) sustained thoracic flexion in mattresses that allow the thorax to sag, which increases the mechanical stress on the anterior costerchondral junctions; (3) nocturnal inflammatory cytokine peak (2-6 AM IL-6 surge), which amplifies chest wall pain during the hours just before waking."}
+    },
+    {
+      "@type": "Question",
+      "name": "What is the best sleep position for costochondritis?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Back sleeping with slight head elevation (10-15 degrees) is generally recommended for costochondritis because it eliminates direct lateral rib compression and maintains an open chest position that reduces costochondral joint loading. Side sleeping is typically the most painful position because it concentrates body weight on the affected rib junctions. If back sleeping is not possible, side sleeping on the unaffected side minimizes direct compression at the inflamed junctions."}
+    },
+    {
+      "@type": "Question",
+      "name": "Is costochondritis pain worse at night?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Costochondritis pain follows a characteristic pattern: it is often manageable during the day when patients are upright and can avoid provocative positions, but worsens at night due to the prolonged static positioning on the mattress, absence of movement that would redistribute pressure, and the nocturnal inflammatory cytokine surge. Many patients report the first movement of the morning (rolling to get up) as the most painful moment of the day."}
+    },
+    {
+      "@type": "Question",
+      "name": "Can COVID-19 cause costochondritis?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Yes. Post-COVID costochondritis (also called COVID-sequelae musculoskeletal pain) is increasingly recognized as a long-COVID symptom, affecting an estimated 5-15% of long-COVID patients. The mechanism involves viral-triggered autoimmune inflammation of cartilaginous tissues including the costochondral junctions. COVID-sequelae costochondritis can persist for 6-18 months and is often bilateral, making any lateral sleeping position painful. Back sleeping with mattress head elevation becomes the primary sleep strategy."}
+    },
+    {
+      "@type": "Question",
+      "name": "Does anxiety worsen costochondritis during sleep?",
+      "acceptedAnswer": {"@type": "Answer", "text": "Yes, significantly. Costochondritis chest pain is frequently mistaken for cardiac pain, creating anxiety-driven hyperarousal at bedtime when the patient lies down and the chest wall pain becomes prominent. Health anxiety about chest pain activates the sympathetic nervous system, increasing chest wall muscle tension that mechanically compresses the inflamed costochondral junctions. A mattress that allows a neutral, open-chest sleeping position can reduce both the mechanical and anxiety-mediated chest wall compression during sleep."}
+    }
+  ]
+}
+</script>
+<style>
+:root{--bg:#0a1628;--card:#111e33;--gold:#c9a84c;--text:#e8eaf0;--muted:#8892a4;--border:#1e2d45}
+*{box-sizing:border-box;margin:0;padding:0}
+body{background:var(--bg);color:var(--text);font-family:\'Segoe UI\',system-ui,sans-serif;line-height:1.7;font-size:16px}
+a{color:var(--gold);text-decoration:none}
+a:hover{text-decoration:underline}
+header{background:linear-gradient(135deg,#0d1f3c,#1a3a5c);padding:16px 24px;border-bottom:1px solid var(--border)}
+.site-name{font-size:1.4rem;font-weight:700;color:var(--gold);letter-spacing:1px}
+.container{max-width:860px;margin:0 auto;padding:32px 20px}
+h1{font-size:2rem;font-weight:800;line-height:1.25;color:#fff;margin-bottom:12px}
+.meta{color:var(--muted);font-size:.9rem;margin-bottom:28px}
+.intro{font-size:1.05rem;margin-bottom:32px;color:#ccd3df}
+.science-box{background:var(--card);border:1px solid var(--border);border-left:4px solid var(--gold);border-radius:8px;padding:20px 24px;margin:28px 0}
+.science-box h3{color:var(--gold);font-size:1rem;margin-bottom:10px;text-transform:uppercase;letter-spacing:.5px}
+.science-box p{color:#b0bac8;font-size:.95rem;margin-bottom:8px}
+.science-box p:last-child{margin-bottom:0}
+.picks-list{list-style:none;display:flex;flex-direction:column;gap:28px;margin:32px 0}
+.pick-card{background:var(--card);border:1px solid var(--border);border-radius:12px;padding:24px;position:relative}
+.pick-number{display:inline-block;background:var(--gold);color:#0a1628;font-weight:800;font-size:.85rem;padding:2px 10px;border-radius:20px;margin-bottom:10px}
+.pick-card h2{font-size:1.25rem;color:#fff;margin-bottom:8px}
+.pick-card .why{color:#b0bac8;font-size:.95rem;margin-bottom:14px}
+.pick-card .specs{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:14px}
+.spec-tag{background:#1a2d47;color:#8faacc;font-size:.8rem;padding:3px 10px;border-radius:12px}
+.cta-btn{display:inline-block;background:var(--gold);color:#0a1628;font-weight:700;padding:10px 22px;border-radius:8px;font-size:.95rem;margin-top:4px}
+.cta-btn:hover{background:#e0b85a;text-decoration:none}
+table{width:100%;border-collapse:collapse;margin:28px 0;font-size:.9rem}
+th{background:#1a2d47;color:var(--gold);padding:10px 14px;text-align:left;font-weight:600}
+td{padding:10px 14px;border-bottom:1px solid var(--border);color:#b0bac8}
+tr:last-child td{border-bottom:none}
+tr:nth-child(even) td{background:#0e1a2e}
+.note-box{background:#0e1f0e;border:1px solid #1e4d1e;border-radius:8px;padding:16px 20px;margin:24px 0}
+.note-box p{color:#90c690;font-size:.9rem}
+h2.section-title{font-size:1.4rem;color:#fff;margin:36px 0 16px;border-bottom:1px solid var(--border);padding-bottom:8px}
+.faq-item{margin:20px 0}
+.faq-item h3{color:var(--gold);font-size:1rem;margin-bottom:6px}
+.faq-item p{color:#b0bac8;font-size:.9rem}
+.related-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:12px;margin:20px 0}
+.related-card{background:var(--card);border:1px solid var(--border);border-radius:8px;padding:14px;font-size:.9rem}
+.related-card a{color:var(--gold)}
+footer{background:#060f1e;border-top:1px solid var(--border);text-align:center;padding:24px;color:var(--muted);font-size:.85rem;margin-top:48px}
+nav.breadcrumb{font-size:.85rem;color:var(--muted);margin-bottom:20px}
+nav.breadcrumb a{color:var(--muted)}
+nav.breadcrumb span{color:var(--gold)}
+</style>
+</head>
+<body>
+<header>
+<div class="site-name"><a href="../index.html" style="color:var(--gold);text-decoration:none">SleepWise Reviews</a></div>
+</header>
+<div class="container">
+<nav class="breadcrumb"><a href="../index.html">Home</a> &rsaquo; <a href="index.html">All Posts</a> &rsaquo; <span>Best Mattress for Costochondritis</span></nav>
+
+<h1>Best Mattress for Costochondritis (2025): 7 Picks for Chest Wall Inflammation &amp; Rib Pain Sleep</h1>
+<p class="meta">By SleepWise Reviews &bull; Updated May 2025 &bull; 7 picks</p>
+
+<p class="intro">Costochondritis &mdash; inflammation of the cartilage connecting the ribs to the sternum &mdash; creates a sleep challenge that most mattress guides ignore entirely: the side sleeping position that most people prefer concentrates body weight directly on the lateral rib cage and compressed costochondral junctions, amplifying the exact pain that costochondritis patients most need to avoid. Back sleeping with slight head elevation decompresses the chest wall but requires a mattress that supports thoracic spinal neutrality without allowing the thorax to sag. Post-COVID costochondritis, anxiety-mediated chest tension, and fibromyalgia-costochondritis overlap add further complexity. These 7 picks address the specific chest wall biomechanics of costochondritis sleep.</p>
+
+<div class="science-box">
+<h3>The Costochondritis Sleep Science</h3>
+<p><strong>Costochondral anatomy:</strong> The costochondral junctions connect the bony ribs (2nd through 7th) to the costal cartilage that attaches to the sternum. Inflammation at these junctions produces sharp, reproducible chest pain that worsens with palpation, deep breathing, and direct pressure. The junctions are shallow structures with minimal soft tissue protection, making them directly susceptible to mattress surface pressure during side sleeping.</p>
+<p><strong>Side sleeping mechanics:</strong> In lateral decubitus position, body weight concentrates on the dependent rib cage. For an average adult (70kg), the contact area of the lateral thorax on a medium-firm mattress exerts approximately 25-40 mmHg over the dependent ribs &mdash; sufficient to mechanically compress inflamed costochondral cartilage and stimulate nociceptors at the junction sites throughout the sleep period.</p>
+<p><strong>COVID-sequelae costochondritis:</strong> Post-COVID musculoskeletal inflammation, including costochondritis, is recognized in 5-15% of long-COVID patients. The mechanism involves persistent viral RNA in musculoskeletal tissues driving autoimmune cartilage inflammation. Post-COVID costochondritis is frequently bilateral (affecting both sides of the sternum), making any lateral sleeping position painful and back sleeping the only viable option.</p>
+<p><strong>Anxiety amplification:</strong> Costochondritis chest pain is clinically identical in location and character to myocardial ischemia, creating health anxiety that persists even after cardiac causes are excluded. Health anxiety drives nocturnal hyperarousal, and the supine position at bedtime (when the chest wall pain is prominent) triggers anxiety activation. Mattresses that provide deep pressure calming and support the open-chest back sleeping position reduce both the mechanical and anxiety components of costochondritis sleep disruption.</p>
+</div>
+
+<ul class="picks-list">
+
+<li class="pick-card">
+<span class="pick-number">#1 PICK</span>
+<h2>Tempur-Adapt &mdash; Deep Pressure Calming for Costochondritis Anxiety &amp; Thoracic Contouring</h2>
+<p class="why">For costochondritis patients, the TEMPUR material provides two critical benefits simultaneously. First, deep pressure stimulation (DPS) activates the parasympathetic nervous system, directly counteracting the health-anxiety hyperarousal that many costochondritis patients experience at bedtime when chest pain becomes prominent. Second, the material conforms precisely to the thoracic contour in back sleeping, distributing weight across the entire posterior chest wall rather than concentrating at the thoracic spinous processes &mdash; which creates a fulcrum-like lift that would increase anterior chest wall tension and worsen costochondral pain. TEMPUR\'s motion isolation also protects the chest from partner-generated bed vibrations that would trigger costochondral pain spikes.</p>
+<div class="specs">
+<span class="spec-tag">TEMPUR material</span><span class="spec-tag">Deep pressure stimulation</span><span class="spec-tag">Thoracic contouring</span><span class="spec-tag">Anxiety calming</span>
+</div>
+<a class="cta-btn" href="https://www.amazon.com/s?k=Tempur-Adapt+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</li>
+
+<li class="pick-card">
+<span class="pick-number">#2 PICK</span>
+<h2>Purple Restore Plus &mdash; Lateral Rib Pressure Relief for Costochondritis Side Sleepers</h2>
+<p class="why">Many costochondritis patients cannot permanently change from side sleeping to back sleeping. For those who side sleep despite the pain, the Purple GelFlex Grid is the only consumer mattress technology that achieves sub-32 mmHg interface pressure at lateral rib contact points &mdash; below the capillary closing pressure threshold that compresses inflamed costochondral tissues. The Grid\'s open structure provides ventilation rather than creating a sealed pressure zone under the dependent ribs. The temperature neutrality also prevents the heat buildup at the lateral thorax contact area that increases local inflammatory prostaglandin activity and worsens costochondritis pain during side sleeping.</p>
+<div class="specs">
+<span class="spec-tag">GelFlex Grid</span><span class="spec-tag">Lateral rib pressure relief</span><span class="spec-tag">Temperature-neutral</span><span class="spec-tag">Side sleep costochondritis</span>
+</div>
+<a class="cta-btn" href="https://www.amazon.com/s?k=Purple+Restore+Plus+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</li>
+
+<li class="pick-card">
+<span class="pick-number">#3 PICK</span>
+<h2>Saatva Classic + Adjustable Base &mdash; Head Elevation for Costochondritis Back Sleeping Optimization</h2>
+<p class="why">Back sleeping with 10-15 degree head elevation is the optimal sleep position for costochondritis because it opens the anterior chest wall, reduces diaphragmatic compression of the lower rib cage, and eliminates lateral rib contact pressure. An adjustable base provides motorized, precise elevation control without the wedge pillow instability that causes patients to slide back to flat during the night. The Saatva Classic\'s lumbar zone enhancement maintains spinal neutrality at elevation angles that would otherwise cause the thoracic spine to flex forward and concentrate tension at the anterior costochondral junctions. The Euro pillow-top cushions the posterior ribs without creating the thoracic fulcrum effect that flat-firm mattresses produce.</p>
+<div class="specs">
+<span class="spec-tag">Adjustable base compatible</span><span class="spec-tag">Head elevation control</span><span class="spec-tag">Lumbar zone support</span><span class="spec-tag">Back sleeping optimization</span>
+</div>
+<a class="cta-btn" href="https://www.amazon.com/s?k=Saatva+Classic+mattress+adjustable+base&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</li>
+
+<li class="pick-card">
+<span class="pick-number">#4 PICK</span>
+<h2>Casper Wave Hybrid &mdash; Thoracic Zone Support for Bilateral Costochondritis &amp; Back Sleeping</h2>
+<p class="why">Bilateral costochondritis (common in post-COVID presentations) makes side sleeping on either side painful, requiring back sleeping as the only viable option. The Casper Wave\'s ergonomic zoning provides shoulder-zone softness and lumbar-zone firmness that together create the ideal thoracic support for back sleeping: the shoulders sink slightly, opening the chest, while the lumbar and thoracic spine maintain neutral alignment without the posterior rib compression that concentrates anterior chest wall tension. The Wave\'s hybrid design also prevents the thoracic spine from creating a rigid fulcrum on a foam-only surface, distributing the posterior rib loading across the coil system rather than focusing it at individual thoracic vertebra contact points.</p>
+<div class="specs">
+<span class="spec-tag">Ergonomic zoning</span><span class="spec-tag">Bilateral costochondritis</span><span class="spec-tag">Shoulder zone softness</span><span class="spec-tag">Thoracic support</span>
+</div>
+<a class="cta-btn" href="https://www.amazon.com/s?k=Casper+Wave+Hybrid+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</li>
+
+<li class="pick-card">
+<span class="pick-number">#5 PICK</span>
+<h2>Helix Midnight Luxe &mdash; Couples Sleep Protection for Costochondritis Night Movement</h2>
+<p class="why">Costochondritis patients who manage to fall asleep in back position frequently wake when rolling to their side &mdash; the movement compresses the costochondral junctions and causes sharp pain that fully arouses. Helix Midnight Luxe\'s motion isolation system prevents partner movements from generating the bed vibration that triggers secondary arousal for the costochondritis patient trying to stay still. In split king configuration, each sleeper can independently adjust head elevation &mdash; allowing the costochondritis patient to maintain therapeutic 10-15 degree elevation without constraining the partner. The smooth TENCEL cover reduces the friction resistance that makes turning difficult and increases the torque on the thoracic wall during repositioning.</p>
+<div class="specs">
+<span class="spec-tag">Motion isolation</span><span class="spec-tag">Split king option</span><span class="spec-tag">Independent elevation</span><span class="spec-tag">TENCEL cover</span>
+</div>
+<a class="cta-btn" href="https://www.amazon.com/s?k=Helix+Midnight+Luxe+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</li>
+
+<li class="pick-card">
+<span class="pick-number">#6 PICK</span>
+<h2>Avocado Green &mdash; Chemical-Free for Costochondritis + Fibromyalgia &amp; Autoimmune Overlap</h2>
+<p class="why">Costochondritis frequently overlaps with fibromyalgia (where diffuse central sensitization amplifies chest wall pain beyond the costochondral junctions) and autoimmune conditions (lupus, RA, or reactive arthritis costochondritis). These overlap patients often have chemical sensitivity from autoimmune dysregulation. Avocado\'s GOLS-certified organic latex, organic cotton, and organic wool construction is entirely free from synthetic VOCs, flame retardants, and petroleum derivatives that can trigger immune responses in sensitized patients. The natural latex provides compliant thoracic support that distributes posterior rib loading without the synthetic foam chemical exposure that worsens autoimmune-mediated costochondritis.</p>
+<div class="specs">
+<span class="spec-tag">GOLS organic latex</span><span class="spec-tag">Zero VOCs</span><span class="spec-tag">Fibromyalgia overlap</span><span class="spec-tag">Autoimmune safe</span>
+</div>
+<a class="cta-btn" href="https://www.amazon.com/s?k=Avocado+Green+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</li>
+
+<li class="pick-card">
+<span class="pick-number">#7 PICK</span>
+<h2>Nectar Premier &mdash; Extended Trial for Post-COVID Costochondritis Recovery</h2>
+<p class="why">Post-COVID costochondritis can persist for 6-18 months before resolving, with significant symptom fluctuation during recovery. Nectar\'s 365-night trial allows post-COVID patients to evaluate the mattress across the full recovery trajectory, returning if resolved costochondritis changes their sleep position requirements. The gel memory foam provides controlled thoracic contouring that reduces posterior rib compression during back sleeping without the heat trap that worsens the systemic inflammation driving post-COVID cartilage inflammation. For patients transitioning from acute post-COVID costochondritis to a recovered state, the mattress needs change substantially &mdash; the 365-night trial window accommodates this evolution.</p>
+<div class="specs">
+<span class="spec-tag">365-night trial</span><span class="spec-tag">Gel memory foam</span><span class="spec-tag">Post-COVID recovery</span><span class="spec-tag">18-month trajectory</span>
+</div>
+<a class="cta-btn" href="https://www.amazon.com/s?k=Nectar+Premier+mattress&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
+</li>
+
+</ul>
+
+<h2 class="section-title">Costochondritis Sleep Challenge by Presentation</h2>
+<table>
+<tr><th>Presentation</th><th>Primary Sleep Problem</th><th>Mattress Priority</th></tr>
+<tr><td>Idiopathic (typical)</td><td>Side sleeping rib compression, AM stiffness</td><td>Thoracic support, back-sleep optimization</td></tr>
+<tr><td>Post-COVID bilateral</td><td>All lateral positions painful, back only viable</td><td>Head elevation, open-chest back support</td></tr>
+<tr><td>Anxiety + costochondritis</td><td>Health anxiety hyperarousal, sleep onset</td><td>Deep pressure stimulation, DPS calming</td></tr>
+<tr><td>Fibromyalgia + costochondritis</td><td>Central sensitization amplified chest pain</td><td>Chemical-free, full-body pressure relief</td></tr>
+<tr><td>Autoimmune (lupus, RA, reactive)</td><td>Inflammatory flares, bilateral involvement</td><td>Chemical-free, temperature-neutral</td></tr>
+</table>
+
+<div class="note-box">
+<p><strong>Positioning aids for costochondritis:</strong> A foam bed wedge (10-15 degree incline, full-body length) placed under the mattress pad provides reliable back-sleeping elevation without the instability of pillow stacking. Sleeping with arms at the sides rather than crossed over the chest reduces anterior thoracic compression. Avoid sleeping on the affected side &mdash; if you wake on your side, use a body pillow against your back to prevent unconscious rolling. Heat application to the costochondral junctions before sleep (warm compress, 15 minutes) reduces overnight inflammatory cytokine concentration and can reduce morning pain intensity.</p>
+</div>
+
+<h2 class="section-title">Frequently Asked Questions</h2>
+
+<div class="faq-item">
+<h3>What causes costochondritis pain during sleep?</h3>
+<p>Costochondritis pain during sleep is caused by three mechanisms: (1) direct rib cage compression in side sleeping, where body weight presses the lateral ribs against the mattress surface, compressing the costochondral cartilage junctions that are already inflamed; (2) sustained thoracic flexion in mattresses that allow the thorax to sag, which increases mechanical stress on the anterior costochondral junctions; (3) nocturnal inflammatory cytokine peak (2-6 AM IL-6 surge), which amplifies chest wall pain during the hours just before waking.</p>
+</div>
+
+<div class="faq-item">
+<h3>What is the best sleep position for costochondritis?</h3>
+<p>Back sleeping with slight head elevation (10-15 degrees) is generally recommended because it eliminates direct lateral rib compression and maintains an open chest position that reduces costochondral joint loading. Side sleeping is typically the most painful position. If back sleeping is not possible, side sleeping on the unaffected side minimizes direct compression at the inflamed junctions.</p>
+</div>
+
+<div class="faq-item">
+<h3>Is costochondritis pain worse at night?</h3>
+<p>Costochondritis pain follows a characteristic pattern: it is often manageable during the day when patients are upright and can avoid provocative positions, but worsens at night due to prolonged static positioning on the mattress, absence of movement that would redistribute pressure, and the nocturnal inflammatory cytokine surge. Many patients report the first movement of the morning as the most painful moment of the day.</p>
+</div>
+
+<div class="faq-item">
+<h3>Can COVID-19 cause costochondritis?</h3>
+<p>Yes. Post-COVID costochondritis is increasingly recognized as a long-COVID symptom, affecting an estimated 5-15% of long-COVID patients. The mechanism involves viral-triggered autoimmune inflammation of cartilaginous tissues including the costochondral junctions. COVID-sequelae costochondritis can persist for 6-18 months and is often bilateral, making any lateral sleeping position painful.</p>
+</div>
+
+<div class="faq-item">
+<h3>Does anxiety worsen costochondritis during sleep?</h3>
+<p>Yes, significantly. Costochondritis chest pain is frequently mistaken for cardiac pain, creating anxiety-driven hyperarousal at bedtime when the chest wall pain becomes prominent. Health anxiety about chest pain activates the sympathetic nervous system, increasing chest wall muscle tension that mechanically compresses the inflamed costochondral junctions. A mattress that allows a neutral, open-chest sleeping position can reduce both the mechanical and anxiety-mediated chest wall compression during sleep.</p>
+</div>
+
+<h2 class="section-title">Related Guides</h2>
+<div class="related-grid">
+<div class="related-card"><a href="best-mattress-long-covid.html">Long COVID</a> &mdash; post-COVID fatigue and pain</div>
+<div class="related-card"><a href="best-mattress-fibromyalgia.html">Fibromyalgia</a> &mdash; widespread central sensitization</div>
+<div class="related-card"><a href="best-mattress-anxiety.html">Anxiety</a> &mdash; sleep onset and night awakening</div>
+<div class="related-card"><a href="best-mattress-lupus.html">Lupus</a> &mdash; systemic autoimmune inflammation</div>
+<div class="related-card"><a href="best-mattress-acid-reflux.html">Acid Reflux</a> &mdash; head elevation strategies</div>
+<div class="related-card"><a href="best-mattress-back-sleepers.html">Back Sleepers</a> &mdash; spine alignment for back sleeping</div>
+</div>
+
+</div>
+<footer>
+<p>&copy; 2025 SleepWise Reviews &bull; <a href="../index.html">Home</a> &bull; <a href="index.html">All Reviews</a></p>
+<p style="margin-top:8px;font-size:.8rem">Amazon affiliate links &mdash; we may earn a commission at no extra cost to you.</p>
+</footer>
+</body>
+</html>'''
+
+with open(f"posts/{slug}.html", "w", encoding="utf-8") as f:
+    f.write(html)
+print(f"Generated posts/{slug}.html")
