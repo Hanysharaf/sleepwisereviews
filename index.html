@@ -1801,6 +1801,253 @@
     .cat-card .cat-arrow { font-size: 0.8rem; color: var(--gold); font-weight: 600; margin-top: auto; }
     @media (max-width: 700px) { .cat-overview-grid { grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 0.75rem; } }
     @media (max-width: 420px) { .cat-overview-grid { grid-template-columns: 1fr 1fr; } }
+
+    /* ============================================================
+       UNIFIED CARD DESIGN — match /posts/ topic-card & article-card
+       Canonical tokens: bg #0a1628, card #111e33, gold #c9a84c,
+       text #e8e0d0, muted #8899aa, border rgba(201,168,76,0.15)
+       Typography: Outfit on all card titles (no Cormorant on cards)
+       Applies to: .cat-card (both grids), .article-card (carousel
+       + reviews archive), .pick-card (top picks).
+       ============================================================ */
+    :root {
+      --card-unified: #111e33;
+      --border-unified: rgba(201, 168, 76, 0.15);
+      --text-unified: #e8e0d0;
+      --muted-unified: #8899aa;
+      --title-unified: #f0e6c8;
+    }
+
+    /* --- Amazon affiliate tiles (.cat-grid .cat-card) --- */
+    .cat-grid .cat-card {
+      background: var(--card-unified);
+      border: 1px solid var(--border-unified);
+      border-radius: 12px;
+      padding: 1.5rem 1rem;
+      transition: border-color 0.2s, transform 0.2s, box-shadow 0.2s, background 0.2s;
+    }
+    .cat-grid .cat-card:hover {
+      border-color: var(--gold);
+      background: var(--card-unified);
+      transform: translateY(-3px);
+      box-shadow: 0 8px 24px rgba(201, 168, 76, 0.08);
+    }
+    .cat-grid .cat-card .cat-name {
+      font-family: 'Outfit', sans-serif;
+      color: var(--title-unified);
+      font-weight: 600;
+    }
+    .cat-grid .cat-card .cat-count {
+      color: var(--muted-unified);
+    }
+
+    /* --- Carousel featured articles (.articles-grid .article-card) --- */
+    .articles-grid .article-card,
+    .carousel-track > .article-card {
+      background: var(--card-unified);
+      border: 1px solid var(--border-unified);
+      border-radius: 12px;
+      transition: border-color 0.2s, transform 0.2s, box-shadow 0.2s;
+    }
+    .articles-grid .article-card:hover,
+    .carousel-track > .article-card:hover {
+      border-color: var(--gold);
+      transform: translateY(-3px);
+      box-shadow: 0 8px 24px rgba(201, 168, 76, 0.08);
+    }
+    .articles-grid .article-card .article-title,
+    .carousel-track > .article-card .article-title {
+      font-family: 'Outfit', sans-serif;
+      font-weight: 600;
+      color: var(--title-unified);
+      font-size: 1.05rem;
+      line-height: 1.35;
+    }
+    .articles-grid .article-card.featured .article-title,
+    .carousel-track > .article-card.featured .article-title {
+      font-size: 1.25rem;
+    }
+    .articles-grid .article-card .article-tag,
+    .carousel-track > .article-card .article-tag {
+      background: var(--gold-dim);
+      color: var(--gold);
+      border-radius: 20px;
+      padding: 0.2rem 0.7rem;
+      border: 1px solid rgba(201, 168, 76, 0.25);
+    }
+    .articles-grid .article-card .article-excerpt,
+    .carousel-track > .article-card .article-excerpt {
+      color: var(--muted-unified);
+    }
+    .articles-grid .article-card .article-meta,
+    .carousel-track > .article-card .article-meta {
+      color: var(--muted-unified);
+      border-top-color: var(--border-unified);
+    }
+
+    /* --- 12 topic cards (.cat-overview-grid .cat-card) --- */
+    .cat-overview-grid .cat-card {
+      background: var(--card-unified);
+      border: 1px solid var(--border-unified);
+      border-radius: 14px;
+      padding: 1.6rem 1.5rem 1.4rem;
+      transition: border-color 0.2s, transform 0.2s, box-shadow 0.2s;
+    }
+    .cat-overview-grid .cat-card:hover {
+      border-color: var(--gold);
+      transform: translateY(-3px);
+      box-shadow: 0 8px 24px rgba(201, 168, 76, 0.08);
+    }
+    .cat-overview-grid .cat-card .cat-icon {
+      width: 56px;
+      height: 56px;
+      border-radius: 12px;
+      background: var(--gold-dim);
+      color: var(--gold);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.6rem;
+      margin-bottom: 1rem;
+    }
+    .cat-overview-grid .cat-card .cat-name {
+      font-family: 'Outfit', sans-serif;
+      font-size: 1.1rem;
+      font-weight: 600;
+      color: var(--title-unified);
+      margin-bottom: 0.45rem;
+      line-height: 1.3;
+    }
+    .cat-overview-grid .cat-card .cat-count {
+      color: var(--muted-unified);
+      font-size: 0.85rem;
+      font-weight: 400;
+      text-transform: none;
+      letter-spacing: normal;
+    }
+    .cat-overview-grid .cat-card .cat-desc {
+      color: var(--muted-unified);
+      font-size: 0.9rem;
+      line-height: 1.55;
+    }
+    .cat-overview-grid .cat-card .cat-arrow {
+      color: var(--gold);
+      font-size: 0.88rem;
+      font-weight: 600;
+    }
+
+    /* --- Reviews archive article cards --- */
+    .reviews-archive-grid .article-card {
+      background: var(--card-unified);
+      border: 1px solid var(--border-unified);
+      border-radius: 12px;
+      transition: border-color 0.2s, transform 0.2s, box-shadow 0.2s;
+    }
+    .reviews-archive-grid .article-card:hover {
+      border-color: var(--gold);
+      transform: translateY(-3px);
+      box-shadow: 0 8px 24px rgba(201, 168, 76, 0.08);
+    }
+    .reviews-archive-grid .article-card .card-cat,
+    .reviews-archive-grid .article-card .card-badge,
+    .reviews-archive-grid .article-card .article-tag,
+    .reviews-archive-grid .article-card .category-tag,
+    .reviews-archive-grid .article-card .card-tag {
+      font-family: 'Outfit', sans-serif;
+      color: var(--gold);
+      background: var(--gold-dim);
+      border: 1px solid rgba(201, 168, 76, 0.25);
+    }
+    .reviews-archive-grid .article-card h2,
+    .reviews-archive-grid .article-card h3,
+    .reviews-archive-grid .article-card .article-title,
+    .reviews-archive-grid .article-card .card-title,
+    .reviews-archive-grid .article-card .article-card-title {
+      font-family: 'Outfit', sans-serif;
+      color: var(--title-unified);
+      font-weight: 600;
+      font-size: 1rem;
+      line-height: 1.35;
+    }
+    .reviews-archive-grid .article-card p,
+    .reviews-archive-grid .article-card .article-excerpt,
+    .reviews-archive-grid .article-card .card-desc {
+      color: var(--muted-unified);
+    }
+    .reviews-archive-grid .article-card .card-meta,
+    .reviews-archive-grid .article-card .article-card-meta {
+      color: var(--muted-unified);
+      font-family: 'Outfit', sans-serif;
+    }
+    .reviews-archive-grid .article-card .read-more,
+    .reviews-archive-grid .article-card .card-cta {
+      color: var(--gold);
+      font-family: 'Outfit', sans-serif;
+      font-weight: 600;
+    }
+
+    /* --- Top Picks (.picks-grid .pick-card) --- */
+    .pick-card {
+      background: var(--card-unified) !important;
+      border: 1px solid var(--border-unified) !important;
+      border-radius: 14px !important;
+      transition: border-color 0.2s, transform 0.2s, box-shadow 0.2s !important;
+    }
+    .picks-grid .pick-card:nth-child(1),
+    .picks-grid .pick-card:nth-child(2),
+    .picks-grid .pick-card:nth-child(3) {
+      border-top: 1px solid var(--border-unified) !important;
+    }
+    .picks-grid .pick-card:nth-child(1) { box-shadow: inset 0 3px 0 0 #c9a84c; }
+    .picks-grid .pick-card:nth-child(2) { box-shadow: inset 0 3px 0 0 #9da5b4; }
+    .picks-grid .pick-card:nth-child(3) { box-shadow: inset 0 3px 0 0 #c4874a; }
+    .pick-card:hover {
+      border-color: var(--gold) !important;
+      transform: translateY(-3px) !important;
+      box-shadow: 0 8px 24px rgba(201, 168, 76, 0.08) !important;
+    }
+    .picks-grid .pick-card:nth-child(1):hover { box-shadow: inset 0 3px 0 0 #c9a84c, 0 8px 24px rgba(201, 168, 76, 0.08) !important; }
+    .picks-grid .pick-card:nth-child(2):hover { box-shadow: inset 0 3px 0 0 #9da5b4, 0 8px 24px rgba(201, 168, 76, 0.08) !important; }
+    .picks-grid .pick-card:nth-child(3):hover { box-shadow: inset 0 3px 0 0 #c4874a, 0 8px 24px rgba(201, 168, 76, 0.08) !important; }
+    .pick-card .pick-name {
+      font-family: 'Outfit', sans-serif;
+      font-weight: 600;
+      color: var(--title-unified);
+    }
+    .pick-card .pick-desc {
+      color: var(--muted-unified);
+    }
+    .pick-card .pick-best-for {
+      color: var(--muted-unified);
+    }
+    .pick-card .pick-rank {
+      color: rgba(201, 168, 76, 0.25);
+    }
+    .pick-card .pick-price {
+      color: var(--gold);
+    }
+    .pick-card .badge {
+      background: var(--gold);
+      color: #07101f;
+    }
+    .pick-card .best-for-tag {
+      color: var(--gold);
+      background: var(--gold-dim);
+      border: 1px solid rgba(201, 168, 76, 0.25);
+      border-radius: 20px;
+      padding: 0.2rem 0.65rem;
+      font-size: 0.72rem;
+      font-weight: 600;
+      letter-spacing: 0.05em;
+      display: inline-block;
+      margin-bottom: 0.5rem;
+    }
+
+    /* --- Enhanced hover override (was scaling cat-cards) — keep consistent translateY only --- */
+    .cat-card:hover { transform: translateY(-3px); }
+    .pick-card:hover { transform: translateY(-3px) !important; }
+    .article-card:hover { transform: translateY(-3px); }
+    /* END UNIFIED CARD DESIGN */
   </style>
   <meta property="og:title" content="SleepWise Reviews — Science-Backed Sleep Guidance" />
   <meta property="og:description" content="Expert sleep guides, product reviews, and research-backed tips for better rest." />
