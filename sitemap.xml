@@ -284,10 +284,23 @@
   </url>
   <url>
     <loc>https://sleepwisereviews.com/posts/</loc>
-    <lastmod>2026-05-25</lastmod>
+    <lastmod>2026-05-27</lastmod>
     <changefreq>weekly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.9</priority>
   </url>
+  <!-- Category browse hubs (Spec 009) -->
+  <url><loc>https://sleepwisereviews.com/posts/category/insomnia-cbti.html</loc><lastmod>2026-05-27</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://sleepwisereviews.com/posts/category/sleep-science.html</loc><lastmod>2026-05-27</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://sleepwisereviews.com/posts/category/caffeine-nutrition.html</loc><lastmod>2026-05-27</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://sleepwisereviews.com/posts/category/sleep-environment.html</loc><lastmod>2026-05-27</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://sleepwisereviews.com/posts/category/health-conditions.html</loc><lastmod>2026-05-27</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://sleepwisereviews.com/posts/category/life-stages.html</loc><lastmod>2026-05-27</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://sleepwisereviews.com/posts/category/timing-jet-lag.html</loc><lastmod>2026-05-27</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://sleepwisereviews.com/posts/category/napping-performance.html</loc><lastmod>2026-05-27</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://sleepwisereviews.com/posts/category/guides-plans.html</loc><lastmod>2026-05-27</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://sleepwisereviews.com/posts/category/mattresses-bedding.html</loc><lastmod>2026-05-27</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://sleepwisereviews.com/posts/category/sleep-products.html</loc><lastmod>2026-05-27</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://sleepwisereviews.com/posts/category/supplements.html</loc><lastmod>2026-05-27</lastmod><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url>
     <loc>https://sleepwisereviews.com/posts/how-to-fall-asleep-fast.html</loc>
     <lastmod>2026-05-25</lastmod>
