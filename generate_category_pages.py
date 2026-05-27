@@ -20,6 +20,10 @@ POSTS_DIR = os.path.join(ROOT, 'posts')
 OUT_DIR = os.path.join(POSTS_DIR, 'category')
 BASE_URL = 'https://sleepwisereviews.com'
 
+# Show this many article cards initially; the rest are hidden behind a
+# "Show all X articles" button. Search bar still matches across the full set.
+INITIAL_VISIBLE = 50
+
 
 # ---------------------------------------------------------------------------
 # Load CATEGORIES + CAT_ANCHOR from sibling script without executing it.
@@ -178,6 +182,18 @@ PAGE_TEMPLATE = '''<!DOCTYPE html>
     .article-card h3 {{ font-size: 1.02rem; font-weight: 600; color: #f0e6c8; margin-bottom: 0.55rem; line-height: 1.35; }}
     .article-card .excerpt {{ font-size: 0.88rem; color: var(--muted); flex: 1; margin-bottom: 0.9rem; line-height: 1.55; }}
     .article-card .read-more {{ color: var(--gold); font-size: 0.85rem; font-weight: 600; }}
+    .article-card.batch-hidden {{ display: none; }}
+    .show-more-wrap {{ text-align: center; margin: 2.2rem 0 0.5rem; }}
+    .show-more-btn {{
+      display: inline-flex; align-items: center; gap: 0.5rem;
+      padding: 0.85rem 1.8rem; border-radius: 10px;
+      background: var(--gold-dim); color: var(--gold); border: 1px solid var(--gold);
+      font-family: inherit; font-size: 0.95rem; font-weight: 600;
+      cursor: pointer; text-decoration: none;
+      transition: background 0.2s, color 0.2s;
+    }}
+    .show-more-btn:hover {{ background: var(--gold); color: #07101f; }}
+    .show-more-count {{ color: var(--muted); font-size: 0.85rem; margin-top: 0.6rem; }}
     .no-results {{ display: none; background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 1.8rem 2rem; }}
     .no-results h3 {{ color: var(--gold); font-size: 1rem; margin-bottom: 0.5rem; }}
     .no-results p {{ color: var(--muted); font-size: 0.9rem; }}
@@ -216,7 +232,7 @@ PAGE_TEMPLATE = '''<!DOCTYPE html>
     </div>
     <div class="card-grid" id="card-grid">
 {cards_html}    </div>
-  </main>
+{show_more_block}  </main>
   <footer>
     <p><a href="../">← Back to All Sleep Guides &amp; Articles</a></p>
     <p style="margin-top:0.6rem;">&copy; 2025-2026 <a href="../../">SleepWise Reviews</a> · Evidence-based sleep guidance</p>
@@ -226,18 +242,41 @@ PAGE_TEMPLATE = '''<!DOCTYPE html>
       var input = document.getElementById('search');
       var noResults = document.getElementById('no-results');
       var grid = document.getElementById('card-grid');
+      var showMoreBtn = document.getElementById('show-more');
+      var cards = grid.querySelectorAll('.article-card');
+      var showMoreClicked = false;
+
+      function revealAll() {{
+        for (var i = 0; i < cards.length; i++) {{
+          cards[i].classList.remove('batch-hidden');
+        }}
+        if (showMoreBtn) showMoreBtn.parentNode.style.display = 'none';
+        showMoreClicked = true;
+      }}
+
+      if (showMoreBtn) {{
+        showMoreBtn.addEventListener('click', revealAll);
+      }}
+
       input.addEventListener('input', function() {{
         var q = this.value.toLowerCase().trim();
+        if (!q) {{
+          for (var i = 0; i < cards.length; i++) cards[i].style.display = '';
+          if (showMoreBtn && !showMoreClicked) showMoreBtn.parentNode.style.display = '';
+          grid.style.display = '';
+          noResults.style.display = 'none';
+          return;
+        }}
+        if (showMoreBtn) showMoreBtn.parentNode.style.display = 'none';
         var anyVisible = false;
-        var cards = grid.querySelectorAll('.article-card');
         for (var i = 0; i < cards.length; i++) {{
           var hay = cards[i].getAttribute('data-search') || '';
-          var match = !q || hay.indexOf(q) !== -1;
-          cards[i].style.display = match ? '' : 'none';
+          var match = hay.indexOf(q) !== -1;
+          cards[i].style.display = match ? 'flex' : 'none';
           if (match) anyVisible = true;
         }}
-        noResults.style.display = (!anyVisible && q) ? 'block' : 'none';
-        grid.style.display = (!anyVisible && q) ? 'none' : '';
+        noResults.style.display = anyVisible ? 'none' : 'block';
+        grid.style.display = anyVisible ? '' : 'none';
       }});
     }})();
   </script>
@@ -246,13 +285,14 @@ PAGE_TEMPLATE = '''<!DOCTYPE html>
 '''
 
 
-def build_card(slug, title, desc):
+def build_card(slug, title, desc, hidden=False):
     excerpt = trim_excerpt(desc, 160)
     search_blob = (title + ' ' + (desc or '')).lower()
     title_html = html_mod.escape(title)
     excerpt_html = html_mod.escape(excerpt)
+    cls = 'article-card batch-hidden' if hidden else 'article-card'
     return (
-        f'      <a class="article-card" href="../{slug}.html" '
+        f'      <a class="{cls}" href="../{slug}.html" '
         f'data-search="{html_mod.escape(search_blob, quote=True)}">\n'
         f'        <h3>{title_html}</h3>\n'
         f'        <p class="excerpt">{excerpt_html}</p>\n'
@@ -265,9 +305,22 @@ def build_category_page(cat_name, slug):
     article_slugs = CATEGORIES.get(cat_name, [])
     valid = [s for s in article_slugs if os.path.isfile(os.path.join(POSTS_DIR, s + '.html'))]
     cards = []
-    for s in valid:
+    for idx, s in enumerate(valid):
         title, desc = extract_meta(s)
-        cards.append(build_card(s, title, desc))
+        cards.append(build_card(s, title, desc, hidden=(idx >= INITIAL_VISIBLE)))
+
+    hidden_count = max(0, len(valid) - INITIAL_VISIBLE)
+    if hidden_count > 0:
+        show_more_block = (
+            '    <div class="show-more-wrap" id="show-more-wrap">\n'
+            f'      <button type="button" class="show-more-btn" id="show-more">'
+            f'Show all {len(valid)} articles</button>\n'
+            f'      <p class="show-more-count">Showing {INITIAL_VISIBLE} of {len(valid)} · '
+            f'or use the search above to find a specific topic</p>\n'
+            '    </div>\n'
+        )
+    else:
+        show_more_block = ''
 
     description = CAT_DESCRIPTIONS.get(slug, f'{cat_name} articles on SleepWise Reviews.')
     canonical = f'{BASE_URL}/posts/category/{slug}.html'
@@ -309,6 +362,7 @@ def build_category_page(cat_name, slug):
         canonical=canonical,
         schema_block=schema_block,
         cards_html=''.join(cards),
+        show_more_block=show_more_block,
     )
 
     os.makedirs(OUT_DIR, exist_ok=True)

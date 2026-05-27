@@ -130,6 +130,18 @@
     .article-card h3 { font-size: 1.02rem; font-weight: 600; color: #f0e6c8; margin-bottom: 0.55rem; line-height: 1.35; }
     .article-card .excerpt { font-size: 0.88rem; color: var(--muted); flex: 1; margin-bottom: 0.9rem; line-height: 1.55; }
     .article-card .read-more { color: var(--gold); font-size: 0.85rem; font-weight: 600; }
+    .article-card.batch-hidden { display: none; }
+    .show-more-wrap { text-align: center; margin: 2.2rem 0 0.5rem; }
+    .show-more-btn {
+      display: inline-flex; align-items: center; gap: 0.5rem;
+      padding: 0.85rem 1.8rem; border-radius: 10px;
+      background: var(--gold-dim); color: var(--gold); border: 1px solid var(--gold);
+      font-family: inherit; font-size: 0.95rem; font-weight: 600;
+      cursor: pointer; text-decoration: none;
+      transition: background 0.2s, color 0.2s;
+    }
+    .show-more-btn:hover { background: var(--gold); color: #07101f; }
+    .show-more-count { color: var(--muted); font-size: 0.85rem; margin-top: 0.6rem; }
     .no-results { display: none; background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 1.8rem 2rem; }
     .no-results h3 { color: var(--gold); font-size: 1rem; margin-bottom: 0.5rem; }
     .no-results p { color: var(--muted); font-size: 0.9rem; }
@@ -233,18 +245,41 @@
       var input = document.getElementById('search');
       var noResults = document.getElementById('no-results');
       var grid = document.getElementById('card-grid');
+      var showMoreBtn = document.getElementById('show-more');
+      var cards = grid.querySelectorAll('.article-card');
+      var showMoreClicked = false;
+
+      function revealAll() {
+        for (var i = 0; i < cards.length; i++) {
+          cards[i].classList.remove('batch-hidden');
+        }
+        if (showMoreBtn) showMoreBtn.parentNode.style.display = 'none';
+        showMoreClicked = true;
+      }
+
+      if (showMoreBtn) {
+        showMoreBtn.addEventListener('click', revealAll);
+      }
+
       input.addEventListener('input', function() {
         var q = this.value.toLowerCase().trim();
+        if (!q) {
+          for (var i = 0; i < cards.length; i++) cards[i].style.display = '';
+          if (showMoreBtn && !showMoreClicked) showMoreBtn.parentNode.style.display = '';
+          grid.style.display = '';
+          noResults.style.display = 'none';
+          return;
+        }
+        if (showMoreBtn) showMoreBtn.parentNode.style.display = 'none';
         var anyVisible = false;
-        var cards = grid.querySelectorAll('.article-card');
         for (var i = 0; i < cards.length; i++) {
           var hay = cards[i].getAttribute('data-search') || '';
-          var match = !q || hay.indexOf(q) !== -1;
-          cards[i].style.display = match ? '' : 'none';
+          var match = hay.indexOf(q) !== -1;
+          cards[i].style.display = match ? 'flex' : 'none';
           if (match) anyVisible = true;
         }
-        noResults.style.display = (!anyVisible && q) ? 'block' : 'none';
-        grid.style.display = (!anyVisible && q) ? 'none' : '';
+        noResults.style.display = anyVisible ? 'none' : 'block';
+        grid.style.display = anyVisible ? '' : 'none';
       });
     })();
   </script>
