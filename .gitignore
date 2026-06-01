@@ -64,3 +64,6 @@ scratch/
 automation/data/google_credentials.json
 automation/data/google_token.json
 automation/data/service_account.json
+
+# Graphify output (rebuilt by git hook)
+graphify-out/

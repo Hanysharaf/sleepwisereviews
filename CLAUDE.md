@@ -77,3 +77,32 @@ Choose one:
 - "Best X for Sleep" format performs well
 - Product-focused pins get more clicks
 - Amazon affiliate tag: sleepwiserevi-20
+
+## Knowledge Graph
+
+`graphify-out/` contains a built knowledge graph (145 infrastructure files: automation/, telegram_bot/, .specify/, docs/, scheduled/, .github/) — **366.7× token reduction per query**.
+
+```bash
+python -m graphify query "how does the Telegram bot trigger pin posts" --budget 2000
+python -m graphify explain "auto_scheduler"
+```
+
+Excluded from graph: `posts/` (blog content), `images/`, `pages/` — content, not infrastructure.
+
+## Batch Workflow
+
+When generating new blog posts (or any large content batch), use the standard 6-agent pattern:
+
+1. **Research** → 2. **Outline** → 3. **Draft** → 4. **SEO pass** → 5. **Internal linking** → 6. **Deploy**
+
+When Sonnet hits rate limits mid-batch, fall back to Haiku for steps 4–5 (SEO + linking are deterministic enough). See `sleepwisereviews_batch_workflow` memory for the deploy script template.
+
+## Project Documents
+
+- **Constitution / full project doc**: `..\..\Ravi\projects\sleepwisereviews.md` — stack, Make.com scenario, Telegram bot, GitHub Actions, affiliate programs, current status, routing table
+- **Spec inventory**: `.specify/specs/` — 8 specs (P0a/P0b/etc.) tracking SEO, redirects, homepage, topic browse, traffic baseline
+- **Speckit constitution**: `.specify/memory/constitution.md`
+
+## Robots.txt + .nojekyll
+
+If a deploy regresses indexing, check that `.nojekyll` exists at site root (GitHub Pages will otherwise apply Jekyll filtering and break paths starting with `_`). robots.txt must not block `/posts/` or `/`. See `sleepwisereviews_spec` memory for the fix history.
