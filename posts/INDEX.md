@@ -166,3 +166,4 @@ Template reference: `sleep-stages-explained.html` (has breadcrumb, likes, TOC, s
 | 159 | does-sex-before-bed-help-sleep.html | Does Sex Before Bed Actually Help You Sleep? The Science | Sex & Sleep | May 2026 |
 | 160 | sleep-myth-older-people-less-sleep.html | Sleep Myth: Older People Need Less Sleep | Sleep Myths | May 2026 |
 | 161 | wrong-using-melatonin-sleeping-pill.html | Wrong: Using Melatonin Like a Sleeping Pill. Right: How Melatonin Actually Works | Wrong vs Right | Jun 2026 |
+| 162 | poor-sleep-tanks-libido.html | How Poor Sleep Tanks Your Libido: The Hormone Explanation | Sex & Sleep | Jun 2026 |
