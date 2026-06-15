@@ -167,3 +167,4 @@ Template reference: `sleep-stages-explained.html` (has breadcrumb, likes, TOC, s
 | 160 | sleep-myth-older-people-less-sleep.html | Sleep Myth: Older People Need Less Sleep | Sleep Myths | May 2026 |
 | 161 | wrong-using-melatonin-sleeping-pill.html | Wrong: Using Melatonin Like a Sleeping Pill. Right: How Melatonin Actually Works | Wrong vs Right | Jun 2026 |
 | 162 | poor-sleep-tanks-libido.html | How Poor Sleep Tanks Your Libido: The Hormone Explanation | Sex & Sleep | Jun 2026 |
+| 163 | motion-isolation-mattress-couples.html | Motion Isolation in Mattresses: Why Couples Need It More Than Singles | Sex & Mattress | Jun 2026 |
