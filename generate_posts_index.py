@@ -14,7 +14,7 @@ BASE_URL = 'https://sleepwisereviews.com/posts/'
 EXCLUDED = {'index'}
 
 CATEGORIES = {
-    'Insomnia & CBT-I': ['insomnia-types', 'cbt-i-guide', 'sleep-anxiety-techniques', 'sleep-when-anxious', 'sleep-disorders-overview', 'sleep-paralysis-explained', 'sleep-ptsd', 'rem-behavior-disorder', 'rem-rebound-explained'],
+    'Insomnia & CBT-I': ['insomnia-types', 'cbt-i-guide', 'sleep-anxiety-techniques', 'sleep-when-anxious', 'sleep-disorders-overview', 'sleep-paralysis-explained', 'sleep-ptsd', 'rem-behavior-disorder', 'rem-rebound-explained', 'best-mattress-insomnia', 'best-sleep-supplement-anxiety', 'best-magnesium-for-sleep-anxiety'],
     'Sleep Science': ['sleep-stages-explained', 'circadian-rhythm-basics', 'chronobiology-basics', 'adenosine-sleep-drive', 'sleep-genetics', 'brain-during-sleep', 'dreams-science', 'deep-sleep-benefits', 'rem-sleep-benefits', 'light-sleep-importance', 'sleep-memory-learning', 'sleep-immune-system'],
     'Caffeine & Nutrition': ['caffeine-half-life-sleep', 'blue-light-melatonin', 'melatonin-guide', 'alcohol-sleep-quality', 'sleep-food-connection', 'magnesium-deficiency-sleep', 'magnesium-types-sleep', 'natural-sleep-aids', 'sleep-fasting', 'sleep-hydration', 'sleep-hydration-guide', 'sleep-and-alcohol-free', 'gut-microbiome-sleep', 'sleep-and-thyroid', 'sleep-and-gut-health'],
     'Sleep Environment': ['bedroom-temperature-sleep', 'sleep-environment-optimization', 'sleep-sanctuary-guide', 'bedroom-plants-sleep', 'bedroom-tech-sleep', 'sleep-screen-detox', 'sleep-temperature-regulation', 'sleep-light-therapy', 'altitude-sleep', 'sleep-camping', 'best-blackout-curtain-liner'],
@@ -95,7 +95,7 @@ for fn in os.listdir(POSTS_DIR):
 # ---------------------------------------------------------------------------
 cards_html = ''
 search_index = []
-total_count = 0
+distinct_slugs = set()  # multi-tag: a slug in N categories counts ONCE in the global total
 
 for cat_name, slugs in CATEGORIES.items():
     valid = [s for s in slugs if os.path.exists(os.path.join(POSTS_DIR, s + '.html'))]
@@ -103,7 +103,7 @@ for cat_name, slugs in CATEGORIES.items():
         continue
     slug = CAT_ANCHOR[cat_name]
     desc, icon_path = CAT_META[cat_name]
-    total_count += len(valid)
+    distinct_slugs.update(valid)
     cards_html += f'''      <a class="topic-card" href="category/{slug}.html">
         <div class="topic-icon"><svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round">{icon_path}</svg></div>
         <h2>{cat_name} <span class="count">({len(valid)})</span></h2>
@@ -118,6 +118,8 @@ for cat_name, slugs in CATEGORIES.items():
             'c': cat_name,
             'cs': slug,
         })
+
+total_count = len(distinct_slugs)  # global total = DISTINCT posts, not sum of category lengths
 
 search_index_json = json.dumps(search_index, ensure_ascii=False, separators=(',', ':'))
 
