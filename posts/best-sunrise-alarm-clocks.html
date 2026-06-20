@@ -304,6 +304,16 @@
     .faq-item[open] summary::after { transform: rotate(45deg); }
     .faq-item[open] summary { border-bottom: 1px solid var(--border); }
     .faq-answer { padding: 1rem 1.2rem; font-size: 0.92rem; color: var(--text); line-height: 1.7; background: var(--card); font-weight: 300; }
+
+    /* Quick Answer (answer-first summary for AI Overviews / featured snippets) */
+    .quick-answer { background: var(--card); border: 1px solid var(--border); border-left: 4px solid var(--green); border-radius: 0 10px 10px 0; padding: 1.4rem 1.6rem; margin: 0 0 2rem; }
+    .quick-answer h2 { font-family: 'Cormorant Garamond', serif; font-size: 1.35rem; color: var(--star); margin: 0 0 0.7rem; padding: 0; }
+    .quick-answer p { margin-bottom: 0.6rem; }
+    .quick-answer ul { margin: 0.5rem 0 0 1.2rem; }
+    .quick-answer li { margin-bottom: 0.45rem; }
+
+    /* Horizontal scroll wrapper for comparison tables on small screens */
+    .table-scroll { overflow-x: auto; margin: 1.5rem 0 2rem; }
   </style>
 <script type="application/ld+json">
 {
@@ -465,7 +475,7 @@
   "description": "Traditional alarms spike your cortisol. We tested 12 sunrise alarm clocks to find which ones gently anchor your circadian rhythm — and actually make mornings easier.",
   "url": "https://sleepwisereviews.com/posts/best-sunrise-alarm-clocks.html",
   "datePublished": "2025-01-01T00:00:00+00:00",
-  "dateModified": "2026-05-24T22:15:25.334940+00:00",
+  "dateModified": "2026-06-21T00:00:00+00:00",
   "author": {
     "@type": "Person",
     "name": "Harry Soul",
@@ -517,7 +527,7 @@
       <span class="meta-text">·</span>
       <span class="meta-text">⏱ 9 min read</span>
       <span class="meta-text">·</span>
-      <span class="meta-text">🔄 Updated Mar 2026</span>
+      <span class="meta-text">🔄 Updated Jun 2026</span>
     </div>
     <div class="hero-text">
       <h1>Best Sunrise Alarm Clocks in 2026: Wake Up Without the Shock</h1>
@@ -562,6 +572,62 @@
     <div class="article-toc" id="articleToc">
       <div class="toc-title">📋 In this article</div>
       <ul class="toc-list" id="tocList"></ul>
+    </div>
+
+    <div class="quick-answer">
+      <h2>Quick Answer: Which Sunrise Alarm Clock Is Best?</h2>
+      <p>A sunrise alarm clock wakes you with light that brightens gradually over 20–30 minutes before your alarm time, easing you out of sleep instead of jolting you awake with sound. The best one for you depends on how dark your room is, how deeply you sleep, and your budget.</p>
+      <ul>
+        <li><strong>Best overall:</strong> Philips SmartSleep HF3520 — the most natural red-to-white light progression at 300 lux.</li>
+        <li><strong>Best bright / high-lux:</strong> Philips SmartSleep Connected HF3670 — 10,000 lux, doubling as a SAD light-therapy lamp.</li>
+        <li><strong>Best budget:</strong> Lumie Bodyclock Spark 100 (under $60) or the Coulax (under $35) — effective 200-lux sunrise without the premium price.</li>
+        <li><strong>Best for heavy sleepers:</strong> any model with a loud-enough backup sound alarm — light alone rarely wakes deep sleepers, so pair the ramp with a gentle sound trigger at the end.</li>
+      </ul>
+    </div>
+
+    <div class="table-scroll">
+      <table class="comparison-table">
+        <caption style="text-align:left;color:var(--muted);font-size:0.8rem;margin-bottom:0.6rem;">Sunrise alarm clock types compared by feature</caption>
+        <thead>
+          <tr>
+            <th>Type / use-case</th>
+            <th>Max brightness (lux)</th>
+            <th>Sunrise ramp</th>
+            <th>Extra features</th>
+            <th>Typical price band</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><strong>Best overall</strong> (natural-light model)</td>
+            <td>~300 lux</td>
+            <td>20–30 min</td>
+            <td>Red-to-white colour progression, nature sounds, FM radio, sunset mode</td>
+            <td>$$ ($60–$120)</td>
+          </tr>
+          <tr>
+            <td><strong>Smart / app-controlled</strong></td>
+            <td>~200 lux</td>
+            <td>15–30 min</td>
+            <td>App routines, large sound library, sunset + sleep routines (may need subscription)</td>
+            <td>$$$ ($100–$170)</td>
+          </tr>
+          <tr>
+            <td><strong>Light-therapy combo</strong> (SAD)</td>
+            <td>up to 10,000 lux</td>
+            <td>20–30 min</td>
+            <td>Clinical-strength light for SAD, app control, sunset mode</td>
+            <td>$$$$ ($150–$220)</td>
+          </tr>
+          <tr>
+            <td><strong>Budget / first-timer</strong></td>
+            <td>~200 lux</td>
+            <td>20–30 min</td>
+            <td>Warm-white or partial colour ramp, FM radio, USB charging, multiple wake sounds</td>
+            <td>$ ($30–$60)</td>
+          </tr>
+        </tbody>
+      </table>
     </div>
 
     <h2>Why Your Alarm Clock Is Wrecking Your Mornings</h2>
@@ -899,6 +965,15 @@
         <div class="faq-answer"><p>For people who struggle with morning grogginess, winter mornings, or shift work sleep disruption, yes. The premium models ($100–$200) pay for themselves in improved morning mood and reduced sleep inertia. The budget models ($30–$60) deliver most of the core benefit. The main caveat: they require a dark bedroom to work well.</p></div>
       </details>
     </section>
+
+    <div class="related-articles">
+      <h3>Sources &amp; Further Reading</h3>
+      <ul>
+        <li><a href="https://www.nhlbi.nih.gov" target="_blank" rel="noopener nofollow">NIH / National Heart, Lung, and Blood Institute (NHLBI)</a> — circadian rhythm and the role of light in healthy sleep-wake timing.</li>
+        <li><a href="https://www.sleepfoundation.org" target="_blank" rel="noopener nofollow">Sleep Foundation</a> — guidance on light exposure, sleep inertia, and morning wake-up.</li>
+        <li><a href="https://pubmed.ncbi.nlm.nih.gov/?term=dawn+simulation+sleep" target="_blank" rel="noopener nofollow">Dawn simulation &amp; light therapy research (PubMed search)</a>.</li>
+      </ul>
+    </div>
 
     <div class="related-articles">
       <h3>Related Articles</h3>
