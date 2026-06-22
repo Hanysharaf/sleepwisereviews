@@ -168,3 +168,4 @@ Template reference: `sleep-stages-explained.html` (has breadcrumb, likes, TOC, s
 | 161 | wrong-using-melatonin-sleeping-pill.html | Wrong: Using Melatonin Like a Sleeping Pill. Right: How Melatonin Actually Works | Wrong vs Right | Jun 2026 |
 | 162 | poor-sleep-tanks-libido.html | How Poor Sleep Tanks Your Libido: The Hormone Explanation | Sex & Sleep | Jun 2026 |
 | 163 | motion-isolation-mattress-couples.html | Motion Isolation in Mattresses: Why Couples Need It More Than Singles | Sex & Mattress | Jun 2026 |
+| 164 | sleep-cool-together-summer-couples.html | How to Sleep Cool Together: The Couples Guide to Summer Heat and Your Mattress | Seasonal | Jun 2026 |
