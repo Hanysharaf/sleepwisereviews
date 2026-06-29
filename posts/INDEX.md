@@ -169,3 +169,4 @@ Template reference: `sleep-stages-explained.html` (has breadcrumb, likes, TOC, s
 | 162 | poor-sleep-tanks-libido.html | How Poor Sleep Tanks Your Libido: The Hormone Explanation | Sex & Sleep | Jun 2026 |
 | 163 | motion-isolation-mattress-couples.html | Motion Isolation in Mattresses: Why Couples Need It More Than Singles | Sex & Mattress | Jun 2026 |
 | 164 | sleep-cool-together-summer-couples.html | How to Sleep Cool Together: The Couples Guide to Summer Heat and Your Mattress | Seasonal | Jun 2026 |
+| 165 | wrong-counting-sheep.html | Wrong: Counting Sheep. Right: The Cognitive Shuffle and 4-7-8 Method | Wrong vs Right | Jun 2026 |
