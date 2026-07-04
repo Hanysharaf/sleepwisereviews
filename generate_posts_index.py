@@ -4,6 +4,7 @@
 Article browsing happens on /posts/category/<slug>.html (Spec 009 Level 2 —
 see generate_category_pages.py).
 """
+import datetime
 import json
 import os
 import re
@@ -141,6 +142,75 @@ schema = {
 schema_block = '<script type="application/ld+json">\n' + json.dumps(schema, indent=2) + '\n</script>'
 
 # ---------------------------------------------------------------------------
+# Article schema (E-E-A-T — Harry Soul author signal)
+# Preserve dateModified from existing file so regens are idempotent.
+# ---------------------------------------------------------------------------
+output_path = os.path.join(POSTS_DIR, 'index.html')
+_existing_date_modified = None
+if os.path.exists(output_path):
+    with open(output_path, encoding='utf-8') as _f:
+        _existing_content = _f.read()
+    _dm_match = re.search(r'"dateModified":\s*"([^"]+)"', _existing_content)
+    if _dm_match:
+        _existing_date_modified = _dm_match.group(1)
+
+date_modified = _existing_date_modified or (
+    datetime.datetime.now(datetime.timezone.utc).strftime('%Y-%m-%dT%H:%M:%S.%f') + '+00:00'
+)
+
+article_schema = {
+    "@context": "https://schema.org",
+    "@type": "Article",
+    "headline": f"All Sleep Guides & Articles — SleepWise Reviews ({total_count} Articles)",
+    "description": (
+        f"Browse {total_count} science-backed sleep guides across 12 topics — "
+        "insomnia, mattresses, sleep science, health conditions, and more."
+    ),
+    "url": "https://sleepwisereviews.com/posts/",
+    "datePublished": "2025-01-01T00:00:00+00:00",
+    "dateModified": date_modified,
+    "author": {
+        "@type": "Person",
+        "name": "Harry Soul",
+        "url": "https://sleepwisereviews.com/pages/about.html",
+        "jobTitle": "Independent Sleep Researcher",
+    },
+    "publisher": {
+        "@type": "Organization",
+        "name": "SleepWiseReviews",
+        "url": "https://sleepwisereviews.com",
+        "logo": {
+            "@type": "ImageObject",
+            "url": "https://sleepwisereviews.com/favicon.svg",
+        },
+    },
+    "mainEntityOfPage": {
+        "@type": "WebPage",
+        "@id": "https://sleepwisereviews.com/posts/",
+    },
+}
+article_schema_block = (
+    '<script type="application/ld+json">\n'
+    + json.dumps(article_schema, indent=2, ensure_ascii=False)
+    + '\n</script>'
+)
+
+AUTHOR_BOX = (
+    '      <div class="author-box" style="display:flex;align-items:center;gap:1rem;'
+    'margin:1rem 0 1.5rem;padding:1rem;background:rgba(26,34,56,0.5);'
+    'border:1px solid rgba(201,168,76,0.2);border-radius:8px;font-family:sans-serif;">\n'
+    '        <div class="author-avatar" style="font-size:2rem;">\U0001f634</div>\n'
+    '        <div class="author-info">\n'
+    '          <div class="author-name" style="color:#F0E6C8;font-weight:500;font-size:0.95rem;">'
+    'By <a href="../pages/about.html" style="color:#C9A84C;text-decoration:none;">Harry Soul</a>'
+    ' - SleepWiseReviews</div>\n'
+    '          <div class="author-role" style="color:#7A85A0;font-size:0.82rem;">'
+    'Independent Sleep Researcher</div>\n'
+    '        </div>\n'
+    '      </div>'
+)
+
+# ---------------------------------------------------------------------------
 # Page HTML
 # ---------------------------------------------------------------------------
 html_out = f'''<!DOCTYPE html>
@@ -159,6 +229,7 @@ html_out = f'''<!DOCTYPE html>
   <meta property="og:image" content="https://sleepwisereviews.com/images/og-default.png" />
   <meta property="og:site_name" content="SleepWise Reviews" />
   {schema_block}
+  {article_schema_block}
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
   <style>
     :root {{
@@ -256,6 +327,7 @@ html_out = f'''<!DOCTYPE html>
   <main>
     <div class="page-hero">
       <a class="h1-link" href="./" aria-label="All Sleep Guides and Articles — back to topics"><h1>All Sleep Guides &amp; Articles</h1></a>
+{AUTHOR_BOX}
       <p class="subtitle">{total_count} science-backed articles across 12 topics. Pick a topic below, or search across everything.</p>
     </div>
     <div class="search-wrap">
@@ -356,7 +428,7 @@ html_out = f'''<!DOCTYPE html>
 '''
 
 output_path = os.path.join(POSTS_DIR, 'index.html')
-with open(output_path, 'w', encoding='utf-8') as f:
+with open(output_path, 'w', encoding='utf-8', newline='\n') as f:
     f.write(html_out)
 
 print(f'Generated posts/index.html ({total_count} posts, {len(CATEGORIES)} categories)')

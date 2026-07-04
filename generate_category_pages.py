@@ -367,7 +367,7 @@ def build_category_page(cat_name, slug):
 
     os.makedirs(OUT_DIR, exist_ok=True)
     out_path = os.path.join(OUT_DIR, slug + '.html')
-    with open(out_path, 'w', encoding='utf-8') as f:
+    with open(out_path, 'w', encoding='utf-8', newline='\n') as f:
         f.write(page)
     return out_path, len(valid)
 
