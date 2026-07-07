@@ -96,7 +96,7 @@ if MISSING:
 # ── Image generation providers ─────────────────────────────────────────────────
 GEMINI_IMAGEN_URL = (
     "https://generativelanguage.googleapis.com/v1beta"
-    "/models/imagen-3.0-generate-002:predict"
+    "/models/imagen-4.0-fast-generate-001:predict"
 )
 
 # ── Config ─────────────────────────────────────────────────────────────────────
