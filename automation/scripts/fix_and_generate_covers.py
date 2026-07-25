@@ -163,7 +163,7 @@ def process_post(num: int, queue: dict, content: dict, ws, dry_run: bool, build_
         shutil.copy2(s1_path, s1_bg)
         print(f"  Saved s1_bg.png (clean copy)")
 
-    if pid_lower not in content:
+    if pid_lower.upper() not in content:
         print(f"  SKIP — no content in slide_content.json")
         return False
 
