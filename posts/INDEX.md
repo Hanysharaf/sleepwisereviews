@@ -172,3 +172,4 @@ Template reference: `sleep-stages-explained.html` (has breadcrumb, likes, TOC, s
 | 165 | wrong-counting-sheep.html | Wrong: Counting Sheep. Right: The Cognitive Shuffle and 4-7-8 Method | Wrong vs Right | Jun 2026 |
 | 166 | sleep-testosterone-men.html | Sleep Testosterone Connection: Why Sleep-Deprived Men Have Lower T | Sex & Sleep | Jul 2026 |
 | 167 | mattress-firmness-couples.html | Mattress Firmness for Couples: Sleep AND Intimacy Need Different Things | Sex & Mattress | Jul 2026 |
+| 168 | sleep-myth-train-body-less-sleep.html | Sleep Myth: You Can Train Your Body to Need Less Sleep | Sleep Myths | Jul 2026 |

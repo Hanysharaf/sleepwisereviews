@@ -1,11 +1,5 @@
 [
   {
-    "timestamp": "2026-03-19T12:38:45.336811+00:00",
-    "task": "instagram_notify",
-    "success": true,
-    "details": "Instagram content sent: ig_011"
-  },
-  {
     "timestamp": "2026-03-19T16:45:55.341601+00:00",
     "task": "engagement_tips",
     "success": true,
@@ -595,6 +589,12 @@
   },
   {
     "timestamp": "2026-07-12T12:54:35.010297+00:00",
+    "task": "generate_article",
+    "success": false,
+    "details": ""
+  },
+  {
+    "timestamp": "2026-07-19T12:52:40.797751+00:00",
     "task": "generate_article",
     "success": false,
     "details": ""
