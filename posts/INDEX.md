@@ -173,3 +173,4 @@ Template reference: `sleep-stages-explained.html` (has breadcrumb, likes, TOC, s
 | 166 | sleep-testosterone-men.html | Sleep Testosterone Connection: Why Sleep-Deprived Men Have Lower T | Sex & Sleep | Jul 2026 |
 | 167 | mattress-firmness-couples.html | Mattress Firmness for Couples: Sleep AND Intimacy Need Different Things | Sex & Mattress | Jul 2026 |
 | 168 | sleep-myth-train-body-less-sleep.html | Sleep Myth: You Can Train Your Body to Need Less Sleep | Sleep Myths | Jul 2026 |
+| 169 | wrong-tv-on-sleeping.html | Wrong: Sleeping with the TV On. Right: White Noise and Sleep Headphones | Wrong vs Right | Jul 2026 |
