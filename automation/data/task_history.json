@@ -1,11 +1,5 @@
 [
   {
-    "timestamp": "2026-03-19T20:27:08.206947+00:00",
-    "task": "daily_summary",
-    "success": true,
-    "details": "Daily summary sent"
-  },
-  {
     "timestamp": "2026-03-20T06:41:18.819450+00:00",
     "task": "daily_tip",
     "success": true,
@@ -595,6 +589,12 @@
   },
   {
     "timestamp": "2026-07-26T12:56:13.567263+00:00",
+    "task": "generate_article",
+    "success": false,
+    "details": ""
+  },
+  {
+    "timestamp": "2026-08-02T12:56:43.495814+00:00",
     "task": "generate_article",
     "success": false,
     "details": ""
