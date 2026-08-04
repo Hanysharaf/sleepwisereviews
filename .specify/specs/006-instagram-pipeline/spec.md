@@ -68,14 +68,14 @@ Pipeline for generating, queuing, and posting Instagram content for @sleepwise.r
 
 ---
 
-## Posting (Not Yet Live)
-
-Two options documented but neither activated:
+## Posting
 
 **Active: Make.com scenario 8993709**
 - Posts daily at 15:00 Cairo → Google Sheets content calendar → Instagram → Telegram confirmation
 - Facebook cross-posting via Instagram Accounts Centre (automatic, no extra module)
 - Status: LIVE as of 2026-04-12
+- Row selection: Google Sheets "Search Rows" module filters by Status=PENDING, sorted by Scheduled Date ascending, Limit=1 — it picks the single oldest pending row each run, not a strict "today's date" match. A row whose date has passed still gets attempted on the next run if it's still the oldest PENDING row.
+- Does NOT gate on the QA column — only Status=PENDING is checked. A row with QA=REVIEW (not yet approved by Hany) can still be attempted. Confirmed 2026-08-03: IG-061 attempted to post while QA=REVIEW and failed on an unrelated `image_url` API error.
 
 **Future option: ig-mcp** (`jlbadano/ig-mcp`)
 - Will enable direct posting from SEO pipeline (seo_pipeline.py)
@@ -100,3 +100,4 @@ Two options documented but neither activated:
 - [ ] ig-mcp not installed — needed for seo_pipeline.py direct posting. Blocked on Meta app submission.
 - [ ] Instagram follower count and engagement rate unknown — check manually in Instagram Insights
 - [ ] SEO pipeline (seo_pipeline.py) posting step not connected — until ig-mcp is set up, IG posts from pipeline go to Google Sheets only (not auto-posted)
+- [ ] QA gate not enforced by the posting scenario — Status=PENDING alone triggers an attempt regardless of QA column value. Either add a QA=PASS condition to the Make.com filter, or accept that un-reviewed rows can go live and remove PENDING rows from the queue until reviewed.

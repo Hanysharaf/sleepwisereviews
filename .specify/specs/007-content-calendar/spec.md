@@ -50,11 +50,19 @@ Google Sheets document serving as the central content calendar: tracks article s
 
 ---
 
+## Sheet Identity
+
+- Sheet name: "SleepWise Reviews - Content Calendar 2026"
+- Sheet ID: `1KeWK1xO5eiD2YbFe63Fx8sV9Vf6jUwi57h71fc8zb5o`
+- Tab: `IG QUEUE`
+- Columns (confirmed 2026-08-04, in order): ID, Scheduled Date, Content Type, Hook/Title, Caption, Hashtags, Visual Prompt, Image URL, Affiliate Link, Status, Posted At, Post URL, Notes, Platform, QA, Slide 2 URL, Slide 3 URL, Slide 4 URL, Slide 5 URL
+
 ## Gaps
 
-- [ ] Sheet ID and tab names not documented in any spec — if the sheet is renamed or recreated, all scripts break silently
+- [x] ~~Sheet ID and tab names not documented in any spec~~ — RESOLVED 2026-08-04, see Sheet Identity above.
 - [ ] `google_credentials.json` and `service_account.json` in `data/` directory — these are secrets; should be in GitHub Actions Secrets, not the filesystem
-- [ ] No column schema document — column positions are hardcoded in scripts; adding a column breaks everything
+- [x] ~~No column schema document~~ — RESOLVED 2026-08-04, see Sheet Identity above.
 - [ ] No status for Facebook posts column — Facebook pipeline not yet in the calendar
 - [ ] No Pinterest queue column in Google Sheets — Pinterest uses `pinterest_queue.json` separately (two separate systems for the same calendar concept)
 - [ ] Social post content for already-published articles not retroactively added to the sheet
+- [ ] QA status column is documented as "review flag before posting" but the Make.com posting scenario (spec 006) does not actually check it — only Status=PENDING gates posting. Documentation says one thing, the automation does another.
