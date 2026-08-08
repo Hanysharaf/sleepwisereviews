@@ -11,19 +11,19 @@
   gtag('config', 'G-ZKGY2B72WH');
 </script>
   <meta charset="UTF-8" />
-  <link rel="canonical" href="https://sleepwisereviews.com/pages/how-we-test.html" />
+  <link rel="canonical" href="https://sleepwisereviews.com/pages/warranty-reality-check.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="icon" type="image/svg+xml" href="../favicon.svg">
-  <title>How We Test Sleep Products – Review Methodology | SleepWiseReviews</title>
-  <meta name="description" content="Our 4-step process for evaluating sleep products: academic research, specification analysis, real-buyer feedback synthesis, and independent scoring. No paid placements. Ever." />
+  <title>The Mattress Warranty Reality Check: What "Sag Guarantee" Really Means | SleepWiseReviews</title>
+  <meta name="description" content="What real BBB complaint records show about how mattress warranty claims actually get denied — documented sag thresholds by brand, foundation requirements, and other technicalities buyers rarely see before they buy." />
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
     "@type": "Article",
-    "headline": "How We Test Sleep Products",
-    "description": "Our 4-step methodology for evaluating sleep products: research, specification analysis, user feedback synthesis, and independent scoring.",
-    "url": "https://sleepwisereviews.com/pages/how-we-test.html",
-    "dateModified": "2026-07-04",
+    "headline": "The Mattress Warranty Reality Check: What 'Sag Guarantee' Really Means",
+    "description": "What real BBB complaint records show about how mattress warranty claims actually get denied, organized by documented brand thresholds and denial reasons.",
+    "url": "https://sleepwisereviews.com/pages/warranty-reality-check.html",
+    "dateModified": "2026-08-09",
     "author": {
       "@type": "Person",
       "name": "Harry Soul",
@@ -38,7 +38,7 @@
         "url": "https://sleepwisereviews.com/favicon.svg"
       }
     },
-    "mainEntityOfPage": "https://sleepwisereviews.com/pages/how-we-test.html"
+    "mainEntityOfPage": "https://sleepwisereviews.com/pages/warranty-reality-check.html"
   }
   </script>
   <script type="application/ld+json">
@@ -55,8 +55,8 @@
       {
         "@type": "ListItem",
         "position": 2,
-        "name": "How We Test",
-        "item": "https://sleepwisereviews.com/pages/how-we-test.html"
+        "name": "Warranty Reality Check",
+        "item": "https://sleepwisereviews.com/pages/warranty-reality-check.html"
       }
     ]
   }
@@ -234,8 +234,9 @@
     }
 
     .page-wrapper strong { color: var(--star); font-weight: 600; }
+    .page-wrapper a { color: var(--gold); }
 
-    /* Process steps */
+    /* Case cards */
     .steps-list {
       display: flex;
       flex-direction: column;
@@ -250,17 +251,6 @@
       border: 1px solid var(--border);
       border-radius: 10px;
       padding: 1.5rem;
-    }
-
-    .step-number {
-      font-family: 'Cormorant Garamond', serif;
-      font-size: 2rem;
-      font-weight: 700;
-      color: var(--gold);
-      flex-shrink: 0;
-      min-width: 2rem;
-      line-height: 1;
-      padding-top: 0.2rem;
     }
 
     .step-content h3 {
@@ -278,10 +268,18 @@
       margin-bottom: 0;
     }
 
-    /* Scoring grid */
+    .step-content .source-line {
+      font-size: 0.78rem;
+      color: var(--muted);
+      margin-top: 0.6rem;
+    }
+    .step-content .source-line a { color: var(--gold); text-decoration: none; }
+    .step-content .source-line a:hover { text-decoration: underline; }
+
+    /* Threshold comparison grid — reused scoring-grid pattern, 2 columns */
     .scoring-grid {
       display: grid;
-      grid-template-columns: repeat(5, 1fr);
+      grid-template-columns: repeat(2, 1fr);
       gap: 1rem;
       margin: 1.5rem 0;
     }
@@ -290,15 +288,14 @@
       background: var(--card);
       border: 1px solid var(--border);
       border-radius: 8px;
-      padding: 1rem;
-      text-align: center;
+      padding: 1.2rem;
     }
 
-    .score-icon { font-size: 1.5rem; margin-bottom: 0.5rem; }
-    .score-label { font-size: 0.8rem; font-weight: 600; color: var(--star); margin-bottom: 0.3rem; }
-    .score-desc { font-size: 0.72rem; color: var(--muted); line-height: 1.4; }
+    .score-icon { font-size: 1.6rem; margin-bottom: 0.5rem; }
+    .score-label { font-size: 0.95rem; font-weight: 600; color: var(--star); margin-bottom: 0.4rem; font-family: 'Cormorant Garamond', serif; }
+    .score-desc { font-size: 0.82rem; color: var(--muted); line-height: 1.6; }
 
-    /* What we don't do */
+    /* Checklist */
     .dont-list {
       display: flex;
       flex-direction: column;
@@ -319,8 +316,8 @@
       line-height: 1.6;
     }
 
-    .dont-x {
-      color: #E57373;
+    .check-x {
+      color: var(--gold);
       font-weight: 600;
       flex-shrink: 0;
       font-size: 1rem;
@@ -375,7 +372,6 @@
     .nav-hamburger.active span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
 
     @media (max-width: 900px) {
-      .scoring-grid { grid-template-columns: repeat(3, 1fr); }
       .footer-top { grid-template-columns: 1fr 1fr; }
     }
     @media (max-width: 768px) {
@@ -385,12 +381,11 @@
       .footer-top { grid-template-columns: 1fr 1fr; gap: 1.5rem; }
       .page-wrapper h1 { font-size: 2rem; }
       .step-card { flex-direction: column; gap: 0.8rem; }
-      .scoring-grid { grid-template-columns: repeat(2, 1fr); }
+      .scoring-grid { grid-template-columns: 1fr; }
     }
     @media (max-width: 480px) {
       .footer-top { grid-template-columns: 1fr; gap: 1rem; }
       .page-wrapper h1 { font-size: 1.6rem; }
-      .scoring-grid { grid-template-columns: 1fr; }
     }
   </style>
 </head>
@@ -403,9 +398,9 @@
       <li><a href="../#picks">Top Picks</a></li>
       <li><a href="../#reviews">Reviews</a></li>
       <li><a href="about.html">About Harry</a></li>
-      <li><a href="how-we-test.html" class="active">How We Test</a></li>
+      <li><a href="how-we-test.html">How We Test</a></li>
       <li><a href="is-the-sale-real.html">Sale Check</a></li>
-      <li><a href="warranty-reality-check.html">Warranty Check</a></li>
+      <li><a href="warranty-reality-check.html" class="active">Warranty Check</a></li>
       <li><a href="../#newsletter" class="nav-cta">Free Sleep Guide</a></li>
     </ul>
     <button class="nav-hamburger" id="navToggle" onclick="this.classList.toggle('active');document.getElementById('navLinks').classList.toggle('open')" aria-label="Menu">
@@ -414,124 +409,98 @@
   </nav>
 
   <div class="page-wrapper">
-    <div class="page-label">Methodology</div>
-    <h1>How We Test Sleep Products</h1>
-    <div class="last-updated">Updated: July 2026</div>
+    <div class="page-label">Buyer Education</div>
+    <h1>The Mattress Warranty Reality Check</h1>
+    <div class="last-updated">Updated: August 2026</div>
 
     <div class="author-box">
       <div class="author-avatar"><img src="../images/authors/harry-soul.svg" alt="Harry Soul - SleepWiseReviews" style="width:46px;height:46px;border-radius:50%;display:block;" /></div>
       <div class="author-info">
         <div class="author-name">By <a href="about.html">Harry Soul</a> &mdash; SleepWiseReviews</div>
-        <div class="author-role">Independent Sleep Researcher &amp; Editor &middot; Updated July 2026</div>
+        <div class="author-role">Independent Sleep Researcher &amp; Editor &middot; Updated August 2026</div>
       </div>
     </div>
 
-    <p>When someone asks which mattress is best for side sleepers, or which noise machine actually blocks traffic, the answer is only as good as the process behind it. Anyone can pull a best-seller off Amazon and write a list. We built a process that goes further &mdash; and we want to show you exactly what that looks like.</p>
+    <p>"10-year warranty." "Sag guarantee." "Non-prorated replacement." These phrases sound like protection, and salespeople use them that way. What they don't tell you on the showroom floor is the specific measured threshold your mattress has to fail before any of that protection actually applies &mdash; and real complaint records show that threshold is exactly where most denied claims get stuck.</p>
 
     <div class="highlight-box">
-      <strong>Our commitment in one sentence:</strong> We evaluate sleep products against measurable, documented criteria &mdash; and no brand relationship influences a score.
+      <strong>The short version:</strong> A visible sag in your mattress does not automatically qualify for a warranty replacement. It has to clear a specific measured depth &mdash; and that depth is different, and mostly undisclosed at the point of sale, brand to brand.
     </div>
 
-    <h2>Why Methodology Matters</h2>
-    <p>Most sleep product "reviews" online are one of three things: affiliate-only summaries written from product pages, press releases dressed up as research, or sponsored placements disguised as editorial picks. None of these tell you how a product will actually perform for you.</p>
-    <p>We built SleepWiseReviews because we were frustrated by this. Every guide on this site is the result of a structured process &mdash; one that starts with published sleep science and ends with an honest ranking based on evidence, not commission rates.</p>
-
-    <h2>Our 4-Step Evaluation Process</h2>
-
-    <div class="steps-list">
-      <div class="step-card">
-        <div class="step-number">1</div>
-        <div class="step-content">
-          <h3>Research Phase</h3>
-          <p>Every review begins in the published literature. We read sleep science on the product category, examine what peer-reviewed research says about material properties and sleep outcomes, and map out how manufacturers' claims compare to independent data. Before we write a word about any product, we know what the credible claims actually are &mdash; so we can spot where marketing copy diverges from reality. For condition-specific guides, we cross-reference clinical sources including NIH, AASM, and CDC.</p>
-        </div>
-      </div>
-
-      <div class="step-card">
-        <div class="step-number">2</div>
-        <div class="step-content">
-          <h3>Specification Analysis</h3>
-          <p>Sleep products have measurable properties. Mattresses have ILD firmness ratings, material certifications (CertiPUR-US for foam, GOLS for latex, GOTS for organic textiles), coil counts, edge support ratings, and motion transfer data. Noise machines have decibel output, frequency range, and masking effectiveness curves. We compare products on the metrics that actually matter for sleep performance &mdash; not on vague marketing labels like "ultra-plush" or "advanced support" that mean different things at different brands.</p>
-        </div>
-      </div>
-
-      <div class="step-card">
-        <div class="step-number">3</div>
-        <div class="step-content">
-          <h3>User Feedback Synthesis</h3>
-          <p>We read buyer reviews &mdash; a lot of them. For any product we feature, we work through at least 500 verified reviews across Amazon, retailer sites, and independent forums. We are not looking for average star ratings. We are looking for patterns: what breaks, how the company responds when it does, how performance holds up at 6 months versus 2 weeks, and what consistently disappoints buyers who came in with the same expectations we would expect our readers to have.</p>
-        </div>
-      </div>
-
-      <div class="step-card">
-        <div class="step-number">4</div>
-        <div class="step-content">
-          <h3>Independent Scoring</h3>
-          <p>We score every product ourselves. No brand has seen our scoring criteria before publication. No partner relationship influences a score. Affiliate links appear in our articles, but they follow the ranking &mdash; the ranking does not follow them. A product we would not personally recommend does not receive a high score because it pays a better commission rate. If a higher-commission product genuinely outperforms a lower-commission alternative, it will rank higher &mdash; because that is what the evidence shows.</p>
-        </div>
-      </div>
-    </div>
-
-    <h2>How We Score Products</h2>
-    <p>Every product we review is scored across five dimensions. These scores are weighted based on the product category and the specific use case we are evaluating.</p>
+    <h2>The Sag Threshold Nobody Tells You Before You Buy</h2>
+    <p>Warranty claims for sagging are evaluated against a hard number, measured in inches, not against whether the mattress looks or feels sunken to you.</p>
 
     <div class="scoring-grid">
       <div class="score-item">
-        <div class="score-icon">&#x1F6CF;</div>
-        <div class="score-label">Comfort</div>
-        <div class="score-desc">Does it perform the way it claims for the target use case?</div>
+        <div class="score-icon">&#x1F4CF;</div>
+        <div class="score-label">1.5 inches</div>
+        <div class="score-desc">The sag threshold used by Sealy, Stearns &amp; Foster, Beautyrest, Serta, and Mattress Firm's house brands. A mattress has to sag this deep &mdash; not merely feel soft or dipped &mdash; before a claim is approved.</div>
       </div>
       <div class="score-item">
-        <div class="score-icon">&#x2699;</div>
-        <div class="score-label">Support</div>
-        <div class="score-desc">Does it maintain performance over time and under real use conditions?</div>
-      </div>
-      <div class="score-item">
-        <div class="score-icon">&#x1F4AA;</div>
-        <div class="score-label">Durability</div>
-        <div class="score-desc">What does long-term buyer evidence suggest about lifespan?</div>
-      </div>
-      <div class="score-item">
-        <div class="score-icon">&#x1F4B0;</div>
-        <div class="score-label">Value</div>
-        <div class="score-desc">Is the price reasonable for what you are actually getting?</div>
-      </div>
-      <div class="score-item">
-        <div class="score-icon">&#x1F321;</div>
-        <div class="score-label">Temperature</div>
-        <div class="score-desc">For mattresses and bedding &mdash; how does it manage heat during the night?</div>
+        <div class="score-icon">&#x1F4CF;</div>
+        <div class="score-label">0.75 inches &mdash; Tempur-Pedic</div>
+        <div class="score-desc">Tempur-Pedic's own published warranty covers "a visible indentation greater than three-fourths (0.75) of an inch" that isn't caused by an improper or unsupportive foundation &mdash; roughly half the depth required at the brands above.</div>
       </div>
     </div>
+    <p style="font-size:0.82rem;color:var(--muted);">Sources: <a href="https://www.mattressnut.com/mattress-firm-warranty/" target="_blank" rel="noopener">mattressnut.com</a> (Mattress Firm warranty breakdown by brand) and Tempur-Pedic's published Limited Warranty terms.</p>
 
-    <h2>What We Don't Do</h2>
-    <p>These are firm policies, not guidelines.</p>
+    <h2>How Real Claims Actually Get Denied</h2>
+    <p>The BBB complaint record for Kingsdown, Inc. shows what this looks like in practice &mdash; specific, documented denials, not hypothetical fine print.</p>
+
+    <div class="steps-list">
+      <div class="step-card">
+        <div class="step-content">
+          <h3>Measured just under the line</h3>
+          <p>Multiple complaints describe denials because the measured sag came in under Kingsdown's stated 1.5-inch threshold. In one case, a customer's mattress measured exactly 1 inch of sag, and the company's response was that the mattress was "recovering within the guidelines of the warranty" &mdash; not defective, by the terms of the warranty itself.</p>
+        </div>
+      </div>
+
+      <div class="step-card">
+        <div class="step-content">
+          <h3>Foundation and frame requirements</h3>
+          <p>Kingsdown told at least one complainant that its warranty requires "an appropriate frame consisting of a center support and a center leg resting firmly on the floor." A mattress on the wrong foundation type can be denied coverage regardless of how much it has actually sagged &mdash; a structural detail most buyers never check against their own bed frame before filing a claim.</p>
+        </div>
+      </div>
+
+      <div class="step-card">
+        <div class="step-content">
+          <h3>Staining as an automatic disqualifier</h3>
+          <p>Several Kingsdown complaints were denied over stains rather than sag. The company's stated reasoning: a stained mattress "will absorb the penetration and begin to compress" &mdash; treating any stain as grounds to void the sag warranty, regardless of whether the stain caused or relates to the sagging at all.</p>
+        </div>
+      </div>
+    </div>
+    <p style="font-size:0.82rem;color:var(--muted);">Source: <a href="https://www.bbb.org/us/nc/mebane/profile/mattress-supplies/kingsdown-inc-usa-0503-4004604/complaints" target="_blank" rel="noopener">BBB &mdash; Kingsdown, Inc. USA complaint profile</a></p>
+
+    <p>The practical impact of the brand-by-brand threshold split: a mattress from one of the five brands that require 1.5 inches of sag "has to fail twice as badly" as a Tempur-Pedic before a claim clears the bar for replacement.</p>
+
+    <h2>What This Means Before You Buy</h2>
 
     <div class="dont-list">
       <div class="dont-item">
-        <span class="dont-x">&#x2717;</span>
-        <span>We do not accept free products in exchange for coverage. If a brand sends something unsolicited, we disclose it and score it by the same criteria we would apply to a product we purchased ourselves.</span>
+        <span class="check-x">&#x2713;</span>
+        <span><strong>Ask what foundation or frame is required under warranty before you buy.</strong> An incompatible base can void sag coverage entirely, regardless of how much the mattress actually sags.</span>
       </div>
       <div class="dont-item">
-        <span class="dont-x">&#x2717;</span>
-        <span>We do not guarantee ranking positions for sponsors, advertisers, or affiliate partners. A higher commission rate does not buy a better score.</span>
+        <span class="check-x">&#x2713;</span>
+        <span><strong>Find the exact sag threshold, in inches, for your specific model before you sign anything.</strong> It's in the warranty document, not the sales pitch, and it can run anywhere from 0.75" to 1.5" or more depending on the brand.</span>
       </div>
       <div class="dont-item">
-        <span class="dont-x">&#x2717;</span>
-        <span>We do not publish affiliate-only "reviews" where we have not actually evaluated the product against documented criteria.</span>
+        <span class="check-x">&#x2713;</span>
+        <span><strong>Measure and photograph any sag with a straightedge and ruler as soon as you notice it,</strong> and keep dated photos. Several denied BBB complaints turned on measurements that landed just under the line.</span>
       </div>
       <div class="dont-item">
-        <span class="dont-x">&#x2717;</span>
-        <span>We do not keep stale recommendations live when better options exist or when a product is discontinued. We update guides regularly and note the review date on every page.</span>
+        <span class="check-x">&#x2713;</span>
+        <span><strong>Protect the mattress from stains from day one.</strong> A stain can void a structural sag warranty even when it has nothing to do with the sagging itself.</span>
       </div>
       <div class="dont-item">
-        <span class="dont-x">&#x2717;</span>
-        <span>We do not make medical claims beyond what published research supports. Every condition-specific guide includes a clear notice that the content is educational, not medical advice.</span>
+        <span class="check-x">&#x2713;</span>
+        <span><strong>Don't read "non-prorated" or "lifetime" as "easy to claim."</strong> That language describes what you get paid if a claim is approved &mdash; not how hard it is to get approved in the first place.</span>
       </div>
     </div>
 
     <div class="trust-box">
-      <p>"The only thing that keeps this publication worth reading is honest reviews. A site that ranks products based on commissions rather than quality stops being useful fast &mdash; readers figure it out. Our long-term interest is in recommendations you can actually rely on. That is the only kind worth building."</p>
-      <p style="margin-top:1rem;font-size:0.82rem;color:var(--muted);font-style:normal;">Questions about our methodology or a specific review? Email <a href="mailto:contact@sleepwisereviews.com" style="color:var(--gold)">contact@sleepwisereviews.com</a></p>
+      <p>"A warranty is only as good as the threshold behind it. If you don't know that number before you buy, you're not actually covered &mdash; you're hoping."</p>
+      <p style="margin-top:1rem;font-size:0.82rem;color:var(--muted);font-style:normal;">Questions about a specific brand's warranty terms? Email <a href="mailto:contact@sleepwisereviews.com" style="color:var(--gold)">contact@sleepwisereviews.com</a></p>
     </div>
   </div>
 
