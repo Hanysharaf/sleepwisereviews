@@ -1,11 +1,5 @@
 [
   {
-    "timestamp": "2026-03-20T08:29:54.125842+00:00",
-    "task": "weekly_task",
-    "success": true,
-    "details": "Weekly task sent"
-  },
-  {
     "timestamp": "2026-03-20T12:35:25.385985+00:00",
     "task": "instagram_notify",
     "success": true,
@@ -595,6 +589,12 @@
   },
   {
     "timestamp": "2026-08-09T12:27:29.789042+00:00",
+    "task": "generate_article",
+    "success": false,
+    "details": ""
+  },
+  {
+    "timestamp": "2026-08-16T12:17:15.800734+00:00",
     "task": "generate_article",
     "success": false,
     "details": ""
