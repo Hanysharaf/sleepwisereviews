@@ -1,7 +1,7 @@
 # Spec 009: Posts Browse Restructure — Two-Level Topic Browse
 
 **Principle refs:** I (Static-First), V (Template Consistency)
-**Status:** PLANNED
+**Status:** DONE — built and live, committed `b964765`. Verified 2026-08-21: `/posts/index.html` is cards-only (12 links to `category/<slug>.html`, no inline article lists); all 12 `posts/category/<slug>.html` files exist. Article-count figures elsewhere in this spec (621) are stale against the current real count (~633) but are behavior/acceptance text, not a status field — left for Hany, generator emits the live count regardless.
 **Created:** 2026-05-27
 **Trigger:** Hany flagged 2026-05-27 — current `/posts/index.html` "card view looks bad" (P0a). One flat page with 12 inline article lists does not scale to 621 articles.
 

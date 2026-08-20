@@ -1,7 +1,7 @@
 # Spec 005: Image Generation
 
 **Principle refs:** I (Static-First), IV (One Article → All Channels)
-**Status:** MULTI-ENGINE — Pillow (active), DALL-E 3 (active), Gemini Imagen 3 (active)
+**Status:** MULTI-ENGINE — Pillow (active), DALL-E 3 (active), Gemini Imagen (mixed: production photo/cover pipeline runs on Imagen 4 Fast; the Engine 3 script named below still calls a retired Imagen 3 model and 404s — see note)
 
 ---
 
@@ -31,10 +31,11 @@ Three-engine image generation pipeline for producing Pinterest pins, Instagram c
   5. Updates Google Sheets with image URLs + QA status via `update_sheet_urls.py`
 - **Cost:** OpenAI API (per image)
 
-### Engine 3: Gemini Imagen 3.0 (AI, Paid)
+### Engine 3: Gemini Imagen (AI, Paid)
 - **Script:** `execute_prompts.py` (repo root)
-- **What it does:** Reads prompts → calls Google Gemini Imagen 3.0 → saves images locally
+- **What it does:** Reads prompts → calls Google Gemini Imagen → saves images locally
 - **Cost:** Google AI API (per image)
+- **NOTE (verified 2026-08-21):** `execute_prompts.py` still calls the retired `imagen-3.0-generate-002` model, which 404s (Imagen 3 was retired 2026-07-07 — see automation memory). This script itself is stale/broken. The production Instagram photo/cover pipeline was upgraded to `imagen-4.0-fast-generate-001` in three other scripts not currently listed in this spec: `automation/scripts/generate_photos_batch.py`, `automation/scripts/fix_and_generate_covers.py`, and as a fallback path inside `automation/scripts/generators/generate_ig_images.py`. Documenting those three scripts here is a scope addition, not a stale-status fix — flagging for Hany rather than rewriting.
 
 ---
 

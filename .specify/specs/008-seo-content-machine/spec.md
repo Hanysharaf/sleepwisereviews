@@ -1,7 +1,7 @@
 # Spec 008: SEO Content Machine
 
 **Principle refs:** III (Search Intent Before Volume), II (Affiliate Compliance), IV (One Article → All Channels), I (Static-First), V (Template Consistency)
-**Status:** NOT BUILT — planned feature
+**Status:** BUILT — LIVE. `automation/seo_pipeline.py` (last code-touched commit `2d88e6c`, 2026-05-23) + `automation/scripts/keyword_research.py` implement the pipeline below (`research` / `generate` / `run` subcommands). Confirmed actively running via the Windows startup task ("SleepWise SEO Pipeline") — `automation/logs/` has a `seo_*.log` roughly every 1-3 days through 2026-08-20 (verified 2026-08-21). IG/FB posting steps remain NOT SET UP — see Dependencies table, unchanged.
 
 ---
 
@@ -125,14 +125,14 @@ Before social posts are stored in Google Sheets:
 | `website_manager.py` (sitemap update) | ACTIVE | None |
 | ig-mcp (Instagram posting) | NOT SET UP | Needs Meta Business account + ig-mcp install |
 | facebook-mcp-server (FB posting) | NOT SET UP | Needs Meta app submission |
-| Keyword research automation | NOT BUILT | Need to implement scraping or Ahrefs free API |
+| Keyword research automation | BUILT — ACTIVE | `automation/scripts/keyword_research.py` exists and is called by `seo_pipeline.py cmd_research` |
 
 ---
 
 ## Gaps vs Current State
 
-- [ ] No keyword research script exists — this is entirely new work
-- [ ] No single-command pipeline trigger — steps are currently separate scripts, not one flow
-- [ ] Facebook has no module or integration at all — `make_integration.py` and `buffer_integration.py` don't cover Facebook organic posts
-- [ ] Google Sheets schema needs Facebook post column added
-- [ ] Meta MCP (ig-mcp + facebook-mcp-server) must be set up before publish step is fully automated
+- [x] ~~No keyword research script exists~~ — RESOLVED. `automation/scripts/keyword_research.py` exists and is wired into `seo_pipeline.py`.
+- [x] ~~No single-command pipeline trigger~~ — RESOLVED. `python seo_pipeline.py run "<seed>"` (`cmd_run`) does research → auto-select top-intent keyword → generate → publish → sheet update in one call. Not the exact `/speckit-run` slash-command form described above — that's a design detail for Hany to decide whether to update, not touched here.
+- [ ] Facebook post *text generation* is built (`generate_fb_post()` in `seo_pipeline.py`, written to a `FB_POST` column) — narrowing from "no module at all": what's still missing is automated Facebook *posting*, same as the original gap for Instagram (`facebook-mcp-server` not set up).
+- [ ] Google Sheets schema needs Facebook post column added — NEEDS HANY'S INPUT: `seo_pipeline.py` writes to spreadsheet `1KeWK1xO5eiD2YbFe63Fx8sV9Vf6jUwi57h71fc8zb5o`, tab **"Content Calendar"** (not the "IG QUEUE" tab documented in spec 007's Sheet Identity section), with its own column layout (Publish Date/Filename/Title/Category/Status/Published At/IG Post/FB Post). Spec 007 doesn't document this second tab at all. Confirm whether that's worth adding to spec 007.
+- [ ] Meta MCP (ig-mcp + facebook-mcp-server) must be set up before publish step is fully automated — unchanged, still NOT SET UP per monitoring memory (Meta app submission still pending).

@@ -115,9 +115,9 @@ python auto_scheduler.py --daily-report   # send report
 
 ## Gaps
 
-- [ ] `auto_scheduler.py` is referenced in CLAUDE.md quick commands but not listed in the module/script inventory — needs verification it exists
+- [x] ~~`auto_scheduler.py` is referenced in CLAUDE.md quick commands but not listed in the module/script inventory — needs verification it exists~~ — RESOLVED. Verified 2026-08-21: `automation/auto_scheduler.py` exists.
 - [ ] `pinterest_poster.py` exists but Pinterest direct API is blocked (consumer type restriction) — module is dormant
 - [ ] `buffer_integration.py` exists but not activated — $6/month Buffer subscription needed
 - [ ] No retry logic on GitHub Actions failures — if the 2-hour run fails silently, no alert is sent
 - [ ] `sleepwise.db` schema unknown — no documentation on what's stored there
-- [ ] `google_credentials.json` and `service_account.json` in `data/` — these are secrets and should NOT be committed to the repo; stored in GitHub Actions Secrets instead
+- [x] ~~`google_credentials.json` and `service_account.json` in `data/` — these are secrets and should NOT be committed to the repo~~ — RESOLVED. Verified 2026-08-21: both paths are in `.gitignore` (lines 63-66) and confirmed absent from `git ls-files` — not committed.

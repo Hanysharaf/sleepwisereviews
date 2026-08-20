@@ -60,7 +60,7 @@ Google Sheets document serving as the central content calendar: tracks article s
 ## Gaps
 
 - [x] ~~Sheet ID and tab names not documented in any spec~~ — RESOLVED 2026-08-04, see Sheet Identity above.
-- [ ] `google_credentials.json` and `service_account.json` in `data/` directory — these are secrets; should be in GitHub Actions Secrets, not the filesystem
+- [x] ~~`google_credentials.json` and `service_account.json` in `data/` directory — these are secrets; should be in GitHub Actions Secrets, not the filesystem~~ — RESOLVED. Verified 2026-08-21: both are gitignored and not committed.
 - [x] ~~No column schema document~~ — RESOLVED 2026-08-04, see Sheet Identity above.
 - [ ] No status for Facebook posts column — Facebook pipeline not yet in the calendar
 - [ ] No Pinterest queue column in Google Sheets — Pinterest uses `pinterest_queue.json` separately (two separate systems for the same calendar concept)
