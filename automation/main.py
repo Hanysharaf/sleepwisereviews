@@ -110,7 +110,7 @@ class SleepWiseAgent:
             "timestamp": datetime.now(timezone.utc).isoformat(),
             "task": task,
             "success": result.get("ok", False),
-            "details": result.get("details", "")
+            "details": result.get("details") or result.get("error", "")
         })
 
         # Keep only last 100 entries
@@ -436,7 +436,7 @@ class SleepWiseAgent:
         result = self.content.generate_article(topic, content_type)
 
         if not result.get("ok"):
-            return {"ok": False, "error": "Failed to generate article content"}
+            return {"ok": False, "error": result.get("error", "Failed to generate article content")}
 
         article_data = result.get("article", {})
 
