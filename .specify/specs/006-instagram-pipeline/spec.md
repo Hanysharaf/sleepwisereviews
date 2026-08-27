@@ -1,7 +1,7 @@
 # Spec 006: Instagram Pipeline
 
 **Principle refs:** II (Affiliate Compliance), IV (One Article → All Channels)
-**Status:** LIVE — auto-posting via Make.com scenario 8993709 (updated 2026-05-23)
+**Status:** LIVE — auto-posting via Make.com scenario 8993709 (updated 2026-08-27 — stalled 26 days, manually resumed, QA-filter gap still open, see Current State/Gaps)
 
 ---
 
@@ -19,7 +19,7 @@ Pipeline for generating, queuing, and posting Instagram content for @sleepwise.r
 | Carousel image creation | ACTIVE | `build_carousels_batch.py` + `image_generator.py` |
 | DALL-E 3 single images | ACTIVE | `generate_ig_images.py` |
 | Queue management | ACTIVE | `instagram_queue.json` + Google Sheets |
-| Auto-posting | LIVE | Make.com scenario 8993709 — posts daily at 15:00 Cairo |
+| Auto-posting | LIVE (with a documented gap — see Gaps) | Make.com scenario 8993709 — posts daily at 15:00 Cairo. STALLED 2026-08-01 to 2026-08-27 (26 days, no posts) — 31 backlogged rows sat at Status=PENDING despite QA review passing them 2026-08-24. Manually resumed by Hany 2026-08-27 (scenario re-toggled on, sheet re-dated); IG-060 confirmed posted same day. Durable fix (QA=PASS filter condition) still not applied to the scenario. |
 | Instagram profile linking | CONFIRMED | `link-in-bio.html` at sleepwisereviews.com/link-in-bio.html — profile links there |
 
 ---
@@ -88,7 +88,7 @@ Pipeline for generating, queuing, and posting Instagram content for @sleepwise.r
 
 - Handle: @sleepwise.reviews
 - URL: https://www.instagram.com/sleepwise.reviews
-- Bio link: `link-in-bio.html` (https://sleepwisereviews.com/link-in-bio.html)
+- Bio link: `link-in-bio.html` (https://sleepwisereviews.com/link-in-bio.html) — as of 2026-08-27 also cross-links the Amazon Storefront (`amazon.com/shop/sleepwiserevi`) and the Facebook Page, both of which had zero inbound traffic before this
 
 ---
 
@@ -100,4 +100,4 @@ Pipeline for generating, queuing, and posting Instagram content for @sleepwise.r
 - [ ] ig-mcp not installed — needed for seo_pipeline.py direct posting. Blocked on Meta app submission.
 - [ ] Instagram follower count and engagement rate unknown — check manually in Instagram Insights
 - [ ] SEO pipeline (seo_pipeline.py) posting step not connected — until ig-mcp is set up, IG posts from pipeline go to Google Sheets only (not auto-posted)
-- [ ] QA gate not enforced by the posting scenario — Status=PENDING alone triggers an attempt regardless of QA column value. Either add a QA=PASS condition to the Make.com filter, or accept that un-reviewed rows can go live and remove PENDING rows from the queue until reviewed.
+- [ ] QA gate not enforced by the posting scenario — Status=PENDING alone triggers an attempt regardless of QA column value. Either add a QA=PASS condition to the Make.com filter, or accept that un-reviewed rows can go live and remove PENDING rows from the queue until reviewed. CONFIRMED COSTLY 2026-08-24: this exact gap let a 26-day stall (2026-08-01 to 2026-08-27) go unnoticed — 31 rows backlogged at Status=PENDING, all eventually QA=PASS, but nothing distinguished a stalled scenario from a QA-blocked one. Manual filter fix instructions given to Hany 2026-08-27; not yet applied.

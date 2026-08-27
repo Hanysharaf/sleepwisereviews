@@ -15,12 +15,12 @@ Python-based automation system in `automation/` that orchestrates content genera
 
 | Module | Purpose | Status |
 |--------|---------|--------|
-| `content_generator.py` | Generates articles and social content via Claude API (Anthropic) | ACTIVE |
+| `content_generator.py` | Generates articles and social content via Claude API (Anthropic) | BROKEN since 2026-05-10 — `ANTHROPIC_API_KEY` GitHub secret is invalid (401 authentication_error), confirmed 2026-08-27 via live GitHub Actions logs. Every weekly `generate_article` run has failed silently since. Key rotation pending (Hany's action — Ravi/Claude does not enter API keys). |
 | `website_manager.py` | Creates article HTML from template, updates `sitemap.xml`, commits to repo | ACTIVE |
 | `n8n_integration.py` | Reads/writes `pinterest_queue.json` — the handoff point for n8n Cloud | ACTIVE |
 | `telegram_reporter.py` | Sends daily reports and notifications via Telegram bot | ACTIVE |
 | `telegram_bot.py` | Telegram command handler (runs on Railway) | ACTIVE |
-| `affiliate_manager.py` | Manages affiliate product library, seasonal campaigns, commission rates | ACTIVE (no revenue yet) |
+| `affiliate_manager.py` | Manages affiliate product library, seasonal campaigns, commission rates | ACTIVE — the off-site blog tag (`sleepwiserevi-20`) earns real (small) revenue; the on-Amazon Storefront tag (`onamzsleepwis-20`) has earned $0.00 in its first 30 days (confirmed 2026-08-27) |
 | `image_generator.py` | Creates branded social media images via Pillow (local image gen) | ACTIVE |
 | `instagram_prep.py` | Prepares Instagram carousel posts and captions | PARTIAL — images generated, posting not automated |
 | `pinterest_poster.py` | Posts pins to Pinterest API, tracks posted URLs in `pinterest_posted.json` | BLOCKED — Pinterest API consumer type restriction |
@@ -118,6 +118,6 @@ python auto_scheduler.py --daily-report   # send report
 - [x] ~~`auto_scheduler.py` is referenced in CLAUDE.md quick commands but not listed in the module/script inventory — needs verification it exists~~ — RESOLVED. Verified 2026-08-21: `automation/auto_scheduler.py` exists.
 - [ ] `pinterest_poster.py` exists but Pinterest direct API is blocked (consumer type restriction) — module is dormant
 - [ ] `buffer_integration.py` exists but not activated — $6/month Buffer subscription needed
-- [ ] No retry logic on GitHub Actions failures — if the 2-hour run fails silently, no alert is sent
+- [ ] No retry logic on GitHub Actions failures — if the 2-hour run fails silently, no alert is sent. PARTIALLY ADDRESSED 2026-08-27: this exact scenario happened for real (`generate_article` failing weekly since 2026-05-10) and was invisible because `main.py`'s `_add_to_history` only read `result["details"]`, never `result["error"]` — every failure logged an empty string. Fixed (commit `f15346a`) so failures now show the real error in `task_history.json`. Still not fixed: nothing proactively pushes that error to Telegram/anywhere — the `notify-on-failure` job only fires if the GitHub Actions *job* itself fails, not when a task inside it returns `{"ok": false}` and the job still exits 0. A task-level failure can still go unnoticed unless someone reads `task_history.json`.
 - [ ] `sleepwise.db` schema unknown — no documentation on what's stored there
 - [x] ~~`google_credentials.json` and `service_account.json` in `data/` — these are secrets and should NOT be committed to the repo~~ — RESOLVED. Verified 2026-08-21: both paths are in `.gitignore` (lines 63-66) and confirmed absent from `git ls-files` — not committed.
