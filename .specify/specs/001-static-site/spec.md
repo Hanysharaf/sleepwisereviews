@@ -64,7 +64,7 @@ GitHub Pages static site hosting 633 published HTML articles and 15 static pages
 
 ## Analytics
 
-- **Google Analytics 4**: `G-ZKGY2B72WH` — installed and firing (confirmed live on the site, `sleepwise_analytics_stack` memory). Original "injected into all 160 HTML pages" claim is stale in both directions: total page count is now ~649 (posts+pages+index), and a direct grep for the tag across current files finds it in only 193 — NEEDS HANY'S INPUT on whether GA4 is meant to be on every page or only a subset (e.g. newer template only); not resolved here since it changes what "done" means, not just a count.
+- **Google Analytics 4**: `G-ZKGY2B72WH` — site-wide by decision (2026-08-31, Hany). Backfilled onto all 457 posts and 12 category hub pages that predated the tag, plus the post-generator template (`automation/scripts/patch_ga4_tag.py`, idempotent — re-run after any future gap). Confirmed coverage: 710 of 725 HTML files tagged; the 15 remaining are internal artifacts (`automation/data/review.html`, `docs/SleepWiseReviews-ActionPlan.html`) not part of the reader-facing site — see Hany's call on whether those should be excluded on purpose or also tagged.
 - **Google Search Console**: verified via GA tag; `sitemap.xml` submitted (30 pages discovered as of last audit)
 
 ---
