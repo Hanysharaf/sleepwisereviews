@@ -67,3 +67,14 @@ automation/data/service_account.json
 
 # Graphify output (rebuilt by git hook)
 graphify-out/
+
+# OneDrive sync conflict copies (this repo syncs across 2 PCs; OneDrive
+# creates "-HANY-PC" suffixed conflict copies of any file touched on both
+# machines near-simultaneously, including inside .git/ itself). Never
+# real content - ignoring so a directory-scoped `git add` can never
+# accidentally sweep them into a commit again.
+*-HANY-PC.*
+*-HANY-PC
+
+# Local archive of recovered/superseded files (never publish to GitHub)
+.archive/
