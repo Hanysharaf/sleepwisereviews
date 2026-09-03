@@ -1022,8 +1022,8 @@ def generate_article_html(article):
       <div class="footer-col">
         <h4>Guides</h4>
         <ul>
-          <li><a href="../#picks">Sleep Optimization</a></li>
-          <li><a href="../#reviews">Bedtime Routines</a></li>
+          <li><a href="../pages/category-guides.html">Sleep Optimization</a></li>
+          <li><a href="wind-down-routine.html">Bedtime Routines</a></li>
         </ul>
       </div>
       <div class="footer-col">
