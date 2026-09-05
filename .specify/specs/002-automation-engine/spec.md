@@ -20,7 +20,7 @@ Python-based automation system in `automation/` that orchestrates content genera
 | `n8n_integration.py` | Reads/writes `pinterest_queue.json` — the handoff point for n8n Cloud | ACTIVE |
 | `telegram_reporter.py` | Sends daily reports and notifications via Telegram bot | ACTIVE |
 | `telegram_bot.py` | Telegram command handler (runs on Railway) | ACTIVE |
-| `affiliate_manager.py` | Manages affiliate product library, seasonal campaigns, commission rates | ACTIVE — the off-site blog tag (`sleepwiserevi-20`) earns real (small) revenue; the on-Amazon Storefront tag (`onamzsleepwis-20`) has earned $0.00 in its first 30 days (confirmed 2026-08-27) |
+| `affiliate_manager.py` | Manages affiliate product library, seasonal campaigns, commission rates | ACTIVE — off-site blog tag (`sleepwiserevi-20`) is the main earner: ~$73.86 total earned as of 2026-09-05 ($26.21 paid, $31.29 upcoming, $16.36 accruing), 2026-only account history. On-Amazon Storefront tag (`onamzsleepwis-20`) posting is manual (this table's automation modules don't touch it) — 10 shoppable posts now live across 2 batches as of 2026-09-05 (up from $0.00/1 follower on 2026-08-27); too soon to say if it moved the on-Amazon tag's earnings, recheck in 1-2 weeks. |
 | `image_generator.py` | Creates branded social media images via Pillow (local image gen) | ACTIVE |
 | `instagram_prep.py` | Prepares Instagram carousel posts and captions | PARTIAL — images generated, posting not automated |
 | `pinterest_poster.py` | Posts pins to Pinterest API, tracks posted URLs in `pinterest_posted.json` | BLOCKED — Pinterest API consumer type restriction |
