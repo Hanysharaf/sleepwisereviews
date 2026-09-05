@@ -40,7 +40,7 @@ GEMINI_KEY    = os.getenv("GOOGLE_AI_API_KEY", "")
 GITHUB_REPO   = "Hanysharaf/sleepwisereviews"
 GITHUB_RAW    = "https://raw.githubusercontent.com/Hanysharaf/sleepwisereviews/main/images/instagram"
 GITHUB_API    = "https://api.github.com"
-GEMINI_URL    = "https://generativelanguage.googleapis.com/v1beta/models/imagen-4.0-fast-generate-001:predict"
+GEMINI_URL    = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.5-flash-image:generateContent"
 SHEET_ID      = "1KeWK1xO5eiD2YbFe63Fx8sV9Vf6jUwi57h71fc8zb5o"
 SHEET_NAME    = "IG QUEUE"
 
@@ -68,14 +68,18 @@ def generate_imagen(prompt: str) -> bytes:
     resp = requests.post(
         GEMINI_URL,
         params={"key": GEMINI_KEY},
-        json={"instances": [{"prompt": prompt}], "parameters": {"sampleCount": 1, "aspectRatio": "1:1"}},
+        json={"contents": [{"parts": [{"text": prompt}]}]},
         timeout=90,
     )
     resp.raise_for_status()
-    predictions = resp.json().get("predictions", [])
-    if not predictions:
-        raise ValueError("Imagen returned no predictions")
-    return base64.b64decode(predictions[0]["bytesBase64Encoded"])
+    candidates = resp.json().get("candidates", [])
+    if not candidates:
+        raise ValueError("Gemini returned no candidates")
+    for part in candidates[0].get("content", {}).get("parts", []):
+        inline = part.get("inlineData") or part.get("inline_data")
+        if inline:
+            return base64.b64decode(inline["data"])
+    raise ValueError("Gemini response had no image part")
 
 
 def github_upload(rel_path: str, image_bytes: bytes) -> str:

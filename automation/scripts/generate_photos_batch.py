@@ -29,7 +29,7 @@ load_dotenv(AUTO_DIR / ".env")
 
 GEMINI_IMAGEN_URL = (
     "https://generativelanguage.googleapis.com/v1beta"
-    "/models/imagen-4.0-fast-generate-001:predict"
+    "/models/gemini-2.5-flash-image:generateContent"
 )
 
 
@@ -53,17 +53,18 @@ def generate_imagen(api_key: str, prompt: str) -> bytes:
     resp = requests.post(
         GEMINI_IMAGEN_URL,
         params={"key": api_key},
-        json={
-            "instances": [{"prompt": prompt}],
-            "parameters": {"sampleCount": 1, "aspectRatio": "1:1"},
-        },
+        json={"contents": [{"parts": [{"text": prompt}]}]},
         timeout=90,
     )
     resp.raise_for_status()
-    predictions = resp.json().get("predictions", [])
-    if not predictions:
-        raise ValueError("Imagen returned no predictions")
-    return base64.b64decode(predictions[0]["bytesBase64Encoded"])
+    candidates = resp.json().get("candidates", [])
+    if not candidates:
+        raise ValueError("Gemini returned no candidates")
+    for part in candidates[0].get("content", {}).get("parts", []):
+        inline = part.get("inlineData") or part.get("inline_data")
+        if inline:
+            return base64.b64decode(inline["data"])
+    raise ValueError("Gemini response had no image part")
 
 
 def main():
