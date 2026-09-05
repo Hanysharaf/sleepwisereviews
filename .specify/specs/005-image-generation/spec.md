@@ -1,7 +1,7 @@
 # Spec 005: Image Generation
 
 **Principle refs:** I (Static-First), IV (One Article → All Channels)
-**Status:** MULTI-ENGINE — Pillow (active), DALL-E 3 (active), Gemini Imagen (mixed: production photo/cover pipeline runs on Imagen 4 Fast; the Engine 3 script named below still calls a retired Imagen 3 model and 404s — see note)
+**Status:** MULTI-ENGINE — Pillow (active), DALL-E 3 (active), Gemini image gen (fixed 2026-09-05: production pipeline runs on `gemini-2.5-flash-image`; the Engine 3 script named below still calls a retired Imagen 3 model and 404s — see note)
 
 ---
 
@@ -35,7 +35,7 @@ Three-engine image generation pipeline for producing Pinterest pins, Instagram c
 - **Script:** `execute_prompts.py` (repo root)
 - **What it does:** Reads prompts → calls Google Gemini Imagen → saves images locally
 - **Cost:** Google AI API (per image)
-- **NOTE (verified 2026-08-21):** `execute_prompts.py` still calls the retired `imagen-3.0-generate-002` model, which 404s (Imagen 3 was retired 2026-07-07 — see automation memory). This script itself is stale/broken. The production Instagram photo/cover pipeline was upgraded to `imagen-4.0-fast-generate-001` in three other scripts not currently listed in this spec: `automation/scripts/generate_photos_batch.py`, `automation/scripts/fix_and_generate_covers.py`, and as a fallback path inside `automation/scripts/generators/generate_ig_images.py`. Documenting those three scripts here is a scope addition, not a stale-status fix — flagging for Hany rather than rewriting.
+- **NOTE (verified 2026-08-21, updated 2026-09-05):** `execute_prompts.py` still calls the retired `imagen-3.0-generate-002` model, which 404s (Imagen 3 was retired 2026-07-07 — see automation memory). This script itself is stale/broken, still not fixed — out of scope for the 2026-09-05 pass below. Separately, `automation/scripts/generate_photos_batch.py`, `automation/scripts/fix_and_generate_covers.py`, and the Gemini fallback path inside `automation/scripts/generators/generate_ig_images.py` had been upgraded to `imagen-4.0-fast-generate-001` — that model was ALSO retired and confirmed 404ing as of 2026-09-05, so all three were repointed to `gemini-2.5-flash-image` via `generateContent` (live-tested, each returns a real image). Documenting those three scripts here is a scope addition, not a stale-status fix — flagging for Hany rather than rewriting. Separately found: `generate_ig_images.py` currently fails to even import due to an unrelated, environment-wide `pydantic`/`pydantic-core` version conflict breaking its `openai` import — needs Hany's call on a package version fix, not touched.
 
 ---
 
