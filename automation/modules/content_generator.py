@@ -155,7 +155,7 @@ Format the output as JSON with these fields:
     ]
 }}"""
 
-        result = self._generate(prompt, system_prompt, max_tokens=4096)
+        result = self._generate(prompt, system_prompt, max_tokens=8000)
 
         if result.get("ok"):
             try:
