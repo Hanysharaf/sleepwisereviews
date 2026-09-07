@@ -154,6 +154,12 @@
     .breadcrumb { font-size: 0.8rem; color: var(--muted); margin-bottom: 1rem; }
     .breadcrumb a { color: var(--muted); }
     @media (max-width: 600px) { header { flex-direction: column; gap: 0.5rem; } nav a { margin-left: 0.75rem; } }
+      .related-articles{background:var(--card);border:1px solid var(--border);border-radius:8px;padding:1.5rem;margin-top:2.5rem;}
+    .related-articles h2{margin-top:0;font-size:1.1rem;}
+    .related-articles ul{list-style:none;margin:0;}
+    .related-articles li{margin-bottom:0.5rem;}
+    .related-articles a{color:var(--text);text-decoration:none;font-size:0.9rem;}
+    .related-articles a:hover{color:var(--gold);}
   </style>
 </head>
 <body>
@@ -450,7 +456,16 @@
     <div style="margin-top:3rem;padding:1.5rem;background:var(--card);border:1px solid var(--border);border-radius:10px;font-size:0.8rem;color:var(--muted);">
       <strong>Affiliate Disclosure:</strong> SleepWise Reviews earns a commission on qualifying purchases made through links on this page. This does not affect our editorial independence or product rankings.
     </div>
-  </main>
+      <div class="related-articles">
+      <h2>Related Guides</h2>
+      <ul>
+        <li><a href="best-king-mattress.html">Best King Mattress</a></li>
+        <li><a href="best-king-size-mattress.html">Best King Size Mattress</a></li>
+        <li><a href="best-queen-mattress.html">Best Queen Mattress</a></li>
+        <li><a href="best-hybrid-mattress.html">Best Hybrid Mattress</a></li>
+      </ul>
+    </div>
+</main>
 
   <footer>
     <p>&copy; 2026 SleepWise Reviews &bull; <a href="/posts/index.html">All Articles</a> &bull; <a href="/">Home</a></p>
