@@ -162,11 +162,13 @@ def generate_fb_post(keyword: str, article_url: str) -> str:
     client = anthropic.Anthropic(api_key=ANTHROPIC_API_KEY)
     prompt = FB_POST_PROMPT.format(keyword=keyword, article_url=article_url)
     resp = client.messages.create(
-        model="claude-sonnet-4-6",
+        model="claude-sonnet-5",
         max_tokens=512,
         messages=[{"role": "user", "content": prompt}],
     )
-    return resp.content[0].text.strip()
+    return next(
+        block.text for block in resp.content if block.type == "text"
+    ).strip()
 
 
 # ── Affiliate disclosure injection ────────────────────────────────────────────
