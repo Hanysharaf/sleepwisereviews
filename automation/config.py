@@ -50,7 +50,7 @@ INSTAGRAM_CONFIG = {
 # Content Generation (Claude API)
 # =============================================================================
 CONTENT_CONFIG = {
-    "model": "claude-3-5-sonnet-20241022",
+    "model": "claude-sonnet-5",
     "max_tokens": 4096,
     "article_length": 1500,  # words
 
