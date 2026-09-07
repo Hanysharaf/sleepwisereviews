@@ -64,7 +64,9 @@ class ContentGenerator:
 
             response = self.client.messages.create(**kwargs)
 
-            content = response.content[0].text
+            content = next(
+                block.text for block in response.content if block.type == "text"
+            )
             return {
                 "ok": True,
                 "content": content,
