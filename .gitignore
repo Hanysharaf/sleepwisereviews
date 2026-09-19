@@ -78,3 +78,8 @@ graphify-out/
 
 # Local archive of recovered/superseded files (never publish to GitHub)
 .archive/
+
+# Root-level scratch/debug test images (e.g. test_imagen4.jpg from a
+# 2026-07-07 model-bug session) - never real content
+/test_*.jpg
+/test_*.png
