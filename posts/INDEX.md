@@ -179,3 +179,4 @@ Template reference: `sleep-stages-explained.html` (has breadcrumb, likes, TOC, s
 | 172 | sleep-myth-sleeping-pills-insomnia.html | Sleep Myth: Sleeping Pills Are the Best Fix for Insomnia | Sleep Myths | Aug 2026 |
 | 173 | couples-sleep-together-worse.html | Why Couples Who Sleep Together Sometimes Sleep Worse (And the Fix) | Sex & Sleep | Aug 2026 |
 | 174 | sleep-myth-reading-before-bed.html | Sleep Myth: Reading Before Bed Always Helps You Sleep | Sleep Myths | Sep 2026 |
+| 175 | wrong-alarm-clock-misuse.html | Wrong: Alarm Clock Misuse. Right: The Smart Wake Strategy That Leaves You Rested | Wrong vs Right | Sep 2026 |
