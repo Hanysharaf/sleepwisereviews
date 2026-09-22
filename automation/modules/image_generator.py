@@ -18,7 +18,7 @@ except ImportError:
 
 import sys
 sys.path.append(str(Path(__file__).parent.parent))
-from config import PROJECT_ROOT, DATA_DIR
+from config import PROJECT_ROOT, DATA_DIR, IG_HANDLE
 
 logger = logging.getLogger(__name__)
 
@@ -234,7 +234,7 @@ class ImageGenerator:
 
         # Branding
         brand_font = self._get_font("accent", 28)
-        brand_text = "@sleepwisereviews"
+        brand_text = IG_HANDLE
         bbox = draw.textbbox((0, 0), brand_text, font=brand_font)
         brand_width = bbox[2] - bbox[0]
 
@@ -408,7 +408,7 @@ class ImageGenerator:
 
         # Branding
         brand_font = self._get_font("accent", 24)
-        brand_text = "@sleepwisereviews"
+        brand_text = IG_HANDLE
         bbox = draw.textbbox((0, 0), brand_text, font=brand_font)
         brand_width = bbox[2] - bbox[0]
 
@@ -487,7 +487,7 @@ class ImageGenerator:
 
         # Branding
         brand_font = self._get_font("accent", 28)
-        brand_text = "@sleepwisereviews"
+        brand_text = IG_HANDLE
         bbox = draw.textbbox((0, 0), brand_text, font=brand_font)
         brand_width = bbox[2] - bbox[0]
 

@@ -32,6 +32,16 @@ TELEGRAM_CHAT_ID = os.getenv("TELEGRAM_CHAT_ID", "")
 ANTHROPIC_API_KEY = os.getenv("ANTHROPIC_API_KEY", "")
 
 # =============================================================================
+# Brand Identity — single source of truth, import this everywhere instead of
+# retyping the literal (the IG handle drifted wrong in 2+ scripts before this
+# existed: build_carousel.py and build_storefront_batch2.py both hardcoded the
+# non-existent "@sleepwisereviews" instead of the real "@sleepwise.reviews").
+# =============================================================================
+IG_HANDLE = "@sleepwise.reviews"
+SITE_DOMAIN = "sleepwisereviews.com"
+AMAZON_ASSOCIATE_TAG = "sleepwiserevi-20"
+
+# =============================================================================
 # Instagram Configuration (Semi-automated)
 # =============================================================================
 INSTAGRAM_CONFIG = {

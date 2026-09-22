@@ -6,8 +6,12 @@ Run: python automation/build_carousel.py
 
 import os
 import re
+import sys
 from pathlib import Path
 from PIL import Image, ImageDraw, ImageFont
+
+sys.path.insert(0, str(Path(__file__).parent))
+from config import IG_HANDLE
 
 # ── Paths ──────────────────────────────────────────────────────────────────────
 BASE_DIR   = Path(__file__).parent.parent
@@ -269,7 +273,7 @@ def make_cta_slide(post_id, cta_raw):
     draw = ImageDraw.Draw(img)
 
     # Brand handle — bottom centre
-    brand = "@sleepwisereviews"
+    brand = IG_HANDLE
     bw    = draw.textlength(brand, font=font_brand)
     draw.text(((SIZE[0] - bw) // 2, SIZE[1] - 52), brand,
               font=font_brand, fill=MUTED_LAVENDER)

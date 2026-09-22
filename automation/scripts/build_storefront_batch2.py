@@ -41,6 +41,7 @@ from build_carousel import (  # noqa: E402
     get_font, wrap_text, draw_centred_text,
     WARM_AMBER, CREAM, MUTED_LAVENDER, SIZE,
 )
+from config import IG_HANDLE  # noqa: E402
 
 # ── Dina's exact hook copy -- do not edit, must match the Amazon caption ──────
 HOOKS = {
@@ -175,7 +176,7 @@ def add_long_hook_overlay(post_id: str, hook: str):
         draw_centred_text(draw, support_lines, font_support, y, CREAM, line_gap=GAP_SUPPORT)
 
     font_brand = get_font(24, bold=False)
-    brand = "@sleepwisereviews"
+    brand = IG_HANDLE
     bw = draw.textlength(brand, font=font_brand)
     draw.text(((SIZE[0] - bw) / 2, SIZE[1] - 52), brand, font=font_brand, fill=MUTED_LAVENDER)
 

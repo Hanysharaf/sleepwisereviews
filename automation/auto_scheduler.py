@@ -25,7 +25,7 @@ sys.path.append(str(Path(__file__).parent))
 
 from config import (
     SCHEDULE_CONFIG, DATA_DIR, CONTENT_CONFIG, TELEGRAM_TEMPLATES,
-    PROJECT_ROOT, QUEUE_FILE, STATE_FILE, HISTORY_FILE
+    PROJECT_ROOT, QUEUE_FILE, STATE_FILE, HISTORY_FILE, IG_HANDLE
 )
 from modules.telegram_bot import TelegramBot
 from modules.content_generator import ContentGenerator
@@ -212,7 +212,7 @@ class AutoScheduler:
             ]
             topic = random.choice(topics)
 
-            caption = f"Sleep tip: {topic}\n\nFollow @sleepwisereviews for more tips!"
+            caption = f"Sleep tip: {topic}\n\nFollow {IG_HANDLE} for more tips!"
             hashtags = ["sleeptips", "bettersleep", "sleephealth", "wellness", "healthysleep"]
 
             result = self.instagram.prepare_post(caption=caption, hashtags=hashtags)
