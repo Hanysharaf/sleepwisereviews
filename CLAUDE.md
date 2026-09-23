@@ -97,6 +97,8 @@ When generating new blog posts (or any large content batch), use the standard 6-
 
 When Sonnet hits rate limits mid-batch, fall back to Haiku for steps 4–5 (SEO + linking are deterministic enough). See `sleepwisereviews_batch_workflow` memory for the deploy script template.
 
+**Instagram follow CTA is mandatory.** The Draft step (or Deploy step, if the footer is assembled then) must include a "Follow us on Instagram @sleepwise.reviews" CTA in the post footer, linking to `https://www.instagram.com/sleepwise.reviews`. Use `sleepwise.reviews` — with the dot — never `sleepwisereviews`; the no-dot handle is a wrong/nonexistent account and a recurring bug. Model the footer link on `posts/magnesium-deficiency-sleep.html`, which has a correctly-handled working example. Do not skip this for any new post.
+
 ## Project Documents
 
 - **Constitution / full project doc**: `..\..\Ravi\projects\sleepwisereviews.md` — stack, Make.com scenario, Telegram bot, GitHub Actions, affiliate programs, current status, routing table

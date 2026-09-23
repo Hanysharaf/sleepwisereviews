@@ -16,7 +16,7 @@ import sys
 sys.path.append(str(Path(__file__).parent.parent))
 from config import (
     PROJECT_ROOT, POSTS_DIR, PAGES_DIR, TEMPLATES_DIR,
-    WEBSITE_CONFIG, DATA_DIR
+    WEBSITE_CONFIG, DATA_DIR, IG_HANDLE
 )
 
 logger = logging.getLogger(__name__)
@@ -169,6 +169,7 @@ class WebsiteManager:
 
     <footer>
         <p>&copy; {{YEAR}} SleepWise Reviews. All rights reserved.</p>
+        <p><a href="{{IG_URL}}" target="_blank" rel="noopener">Follow us on Instagram {{IG_HANDLE}}</a></p>
     </footer>
 </body>
 </html>"""
@@ -250,7 +251,9 @@ class WebsiteManager:
             "{{YEAR}}": str(now.year),
             "{{READ_TIME}}": str(read_time),
             "{{CONTENT}}": content_html,
-            "{{FAQ_SECTION}}": faq_html
+            "{{FAQ_SECTION}}": faq_html,
+            "{{IG_HANDLE}}": IG_HANDLE,
+            "{{IG_URL}}": f"https://www.instagram.com/{IG_HANDLE.lstrip('@')}"
         }
 
         for placeholder, value in replacements.items():
