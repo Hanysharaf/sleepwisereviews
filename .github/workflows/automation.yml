@@ -68,14 +68,16 @@ jobs:
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
           GITHUB_ACTIONS: 'true'
+          TASK: ${{ inputs.task }}
+          TOPIC: ${{ inputs.topic }}
         run: |
-          if [ -n "${{ inputs.task }}" ]; then
-            echo "Running manual task: ${{ inputs.task }}"
-            if [ -n "${{ inputs.topic }}" ]; then
-              echo "With topic: ${{ inputs.topic }}"
-              ARTICLE_TOPIC="${{ inputs.topic }}" python automation/main.py ${{ inputs.task }}
+          if [ -n "$TASK" ]; then
+            echo "Running manual task: $TASK"
+            if [ -n "$TOPIC" ]; then
+              echo "With topic: $TOPIC"
+              ARTICLE_TOPIC="$TOPIC" python automation/main.py "$TASK"
             else
-              python automation/main.py ${{ inputs.task }}
+              python automation/main.py "$TASK"
             fi
           else
             echo "Running scheduled automation"

@@ -7,6 +7,8 @@ Includes LLM integration for text improvement.
 import os
 import logging
 import asyncio
+import time
+from collections import defaultdict
 from datetime import datetime, timezone
 from telegram import Update
 from telegram.ext import (
@@ -48,6 +50,28 @@ def is_authorized(update: Update) -> bool:
     return chat_id == TELEGRAM_CHAT_ID
 
 
+# Rate limit for the Claude API call path (process_with_llm). Simple
+# in-memory sliding window - fine for a single-user bot, no persistence
+# needed. Prevents a spam burst or accidental loop from running up API cost.
+RATE_LIMIT_MAX_CALLS = 5
+RATE_LIMIT_WINDOW_SECONDS = 60
+_llm_call_times = defaultdict(list)
+
+
+def check_rate_limit(chat_id: str) -> tuple:
+    """Return (allowed, retry_after_seconds) for this chat_id."""
+    now = time.monotonic()
+    times = _llm_call_times[chat_id]
+    cutoff = now - RATE_LIMIT_WINDOW_SECONDS
+    while times and times[0] < cutoff:
+        times.pop(0)
+    if len(times) >= RATE_LIMIT_MAX_CALLS:
+        retry_after = int(RATE_LIMIT_WINDOW_SECONDS - (now - times[0])) + 1
+        return False, retry_after
+    times.append(now)
+    return True, 0
+
+
 async def trigger_workflow(task: str, topic: str = None) -> dict:
     """Trigger GitHub Actions workflow via API."""
     headers = {
@@ -76,7 +100,7 @@ async def trigger_workflow(task: str, topic: str = None) -> dict:
                 return {"ok": False, "message": f"Failed: {response.status} - {error_text}"}
 
 
-async def process_with_llm(text: str, task: str = "improve") -> dict:
+async def process_with_llm(text: str, task: str = "improve", chat_id: str = None) -> dict:
     """
     Process text with Claude LLM.
 
@@ -88,6 +112,10 @@ async def process_with_llm(text: str, task: str = "improve") -> dict:
     """
     if not claude_client:
         return {"ok": False, "message": "ANTHROPIC_API_KEY not configured"}
+
+    allowed, retry_after = check_rate_limit(chat_id or "default")
+    if not allowed:
+        return {"ok": False, "message": f"Rate limited, try again in {retry_after}s"}
 
     prompts = {
         "improve": f"""Fix any grammar, spelling, and punctuation errors in this text.
@@ -313,7 +341,7 @@ async def fix_command(update: Update, context: ContextTypes.DEFAULT_TYPE) -> Non
 
     await update.message.reply_text("Processing with AI...")
 
-    result = await process_with_llm(text, "improve")
+    result = await process_with_llm(text, "improve", chat_id=str(update.effective_chat.id))
 
     if result["ok"]:
         await update.message.reply_text(f"✅ Fixed text:\n\n{result['text']}")
@@ -338,7 +366,7 @@ async def rewrite_command(update: Update, context: ContextTypes.DEFAULT_TYPE) ->
 
     await update.message.reply_text("Rewriting with AI...")
 
-    result = await process_with_llm(text, "rewrite")
+    result = await process_with_llm(text, "rewrite", chat_id=str(update.effective_chat.id))
 
     if result["ok"]:
         await update.message.reply_text(f"✅ Rewritten:\n\n{result['text']}")
@@ -363,7 +391,7 @@ async def caption_command(update: Update, context: ContextTypes.DEFAULT_TYPE) ->
 
     await update.message.reply_text("Creating caption with AI...")
 
-    result = await process_with_llm(text, "caption")
+    result = await process_with_llm(text, "caption", chat_id=str(update.effective_chat.id))
 
     if result["ok"]:
         await update.message.reply_text(
@@ -400,7 +428,7 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE) -> 
     if len(text) >= 10:  # Only process texts with at least 10 characters
         await update.message.reply_text("🤖 Processing your text with AI...")
 
-        result = await process_with_llm(text, "improve")
+        result = await process_with_llm(text, "improve", chat_id=str(update.effective_chat.id))
 
         if result["ok"]:
             await update.message.reply_text(
