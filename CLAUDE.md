@@ -99,6 +99,8 @@ When Sonnet hits rate limits mid-batch, fall back to Haiku for steps 4–5 (SEO 
 
 **Instagram follow CTA is mandatory.** The Draft step (or Deploy step, if the footer is assembled then) must include a "Follow us on Instagram @sleepwise.reviews" CTA in the post footer, linking to `https://www.instagram.com/sleepwise.reviews`. Use `sleepwise.reviews` — with the dot — never `sleepwisereviews`; the no-dot handle is a wrong/nonexistent account and a recurring bug. Model the footer link on `posts/magnesium-deficiency-sleep.html`, which has a correctly-handled working example. Do not skip this for any new post.
 
+**Heading hierarchy must not skip levels.** In the Draft step, product-roundup ("best-X") posts must nest each product's Pros/Cons directly under its H2 as H3 — never H4. Any intro block before the first product (TOC, "Key Features to Compare", "Quick Summary", etc.) is itself a top-level section and must be H2, not H3 — never insert an H3 before the first H2. One H1 per post; no other level may jump by more than one (H2 → H3 → H4, never H2 → H4). A 2026-09-23 audit found 351/639 published posts (all pre-dating the current batch workflow) violating this and backfilled them — see `sleepwise_heading_hierarchy_audit` memory.
+
 ## Project Documents
 
 - **Constitution / full project doc**: `..\..\Ravi\projects\sleepwisereviews.md` — stack, Make.com scenario, Telegram bot, GitHub Actions, affiliate programs, current status, routing table

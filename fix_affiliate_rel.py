@@ -1,23 +1,23 @@
-"""Add rel="nofollow noopener noreferrer" to Amazon affiliate links missing nofollow."""
+"""Add rel="sponsored nofollow noopener noreferrer" to Amazon affiliate links missing it."""
 import re, os
 
 POSTS_DIR = os.path.join(os.path.dirname(__file__), 'posts')
 
 def fix_amazon_link(match):
     tag = match.group(0)
-    if 'nofollow' in tag:
+    if 'nofollow' in tag and 'sponsored' in tag:
         return tag
     # Check if rel attribute already exists
     rel_match = re.search(r'\brel="([^"]*)"', tag)
     if rel_match:
         existing = rel_match.group(1)
         parts = set(existing.split())
-        parts.update(['nofollow', 'noopener', 'noreferrer'])
+        parts.update(['sponsored', 'nofollow', 'noopener', 'noreferrer'])
         new_rel = ' '.join(sorted(parts))
         return tag.replace(rel_match.group(0), f'rel="{new_rel}"')
     else:
         # Add rel before the closing >
-        return tag[:-1] + ' rel="nofollow noopener noreferrer">'
+        return tag[:-1] + ' rel="sponsored nofollow noopener noreferrer">'
 
 updated = 0
 total_fixed = 0
