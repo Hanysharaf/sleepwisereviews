@@ -276,6 +276,8 @@ class WebsiteManager:
             Result of operation
         """
         sitemap_path = self.project_root / "sitemap.xml"
+        SITEMAP_NS = "http://www.sitemaps.org/schemas/sitemap/0.9"
+        ET.register_namespace("", SITEMAP_NS)
 
         try:
             # Load existing sitemap or create new
@@ -283,11 +285,10 @@ class WebsiteManager:
                 tree = ET.parse(sitemap_path)
                 root = tree.getroot()
             else:
-                root = ET.Element("urlset")
-                root.set("xmlns", "http://www.sitemaps.org/schemas/sitemap/0.9")
+                root = ET.Element(f"{{{SITEMAP_NS}}}urlset")
 
             # Define namespace
-            ns = {"sm": "http://www.sitemaps.org/schemas/sitemap/0.9"}
+            ns = {"sm": SITEMAP_NS}
 
             # Check if URL already exists
             if new_url:
@@ -298,12 +299,12 @@ class WebsiteManager:
                 ]
 
                 if new_url not in existing_urls:
-                    url_elem = ET.SubElement(root, "url")
-                    loc = ET.SubElement(url_elem, "loc")
+                    url_elem = ET.SubElement(root, f"{{{SITEMAP_NS}}}url")
+                    loc = ET.SubElement(url_elem, f"{{{SITEMAP_NS}}}loc")
                     loc.text = new_url
-                    lastmod = ET.SubElement(url_elem, "lastmod")
+                    lastmod = ET.SubElement(url_elem, f"{{{SITEMAP_NS}}}lastmod")
                     lastmod.text = datetime.now().strftime("%Y-%m-%d")
-                    changefreq = ET.SubElement(url_elem, "changefreq")
+                    changefreq = ET.SubElement(url_elem, f"{{{SITEMAP_NS}}}changefreq")
                     changefreq.text = "weekly"
 
             # Write sitemap
