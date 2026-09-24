@@ -182,7 +182,14 @@
       transition: background 0.2s;
     }
     .btn-gold:hover { background: var(--gold-light); color: var(--night); text-decoration: none; }
-  </style>
+  
+  .faq-visible-section { margin: 2.5rem 0; }
+  .faq-visible-section h2 { margin-bottom: 1rem; }
+  .faq-visible-item { margin: 0 0 1.4rem 0; padding-bottom: 1.2rem; border-bottom: 1px solid var(--border, #1e2d45); }
+  .faq-visible-item:last-child { border-bottom: none; padding-bottom: 0; }
+  .faq-visible-item h3 { font-size: 1.02rem; color: var(--gold, #c9a84c); margin-bottom: 0.5rem; }
+  .faq-visible-item p { font-size: 0.95rem; color: var(--text, #e8eaf0); line-height: 1.7; margin: 0; }
+</style>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -501,7 +508,28 @@
       </div>
     </div>
 
-  </article>
+  
+  <div class="faq-visible-section" id="faq">
+    <h2>Frequently Asked Questions</h2>
+    <div class="faq-visible-item">
+      <h3>What is CBT-I and how does it work?</h3>
+      <p>Cognitive Behavioral Therapy for Insomnia (CBT-I) is a structured program that addresses the behavioral and cognitive patterns that perpetuate chronic insomnia. Core components include sleep restriction therapy (temporarily limiting time in bed to build sleep drive), stimulus control (using the bed only for sleep), and cognitive restructuring (correcting beliefs about sleep that cause hyperarousal). It is the first-line treatment recommended by the American Academy of Sleep Medicine — above sleep medications.</p>
+    </div>
+    <div class="faq-visible-item">
+      <h3>Is CBT-I better than sleeping pills?</h3>
+      <p>Yes, according to clinical evidence. CBT-I produces superior long-term outcomes compared to pharmacological treatment. Sleep medications provide faster initial relief but cause tolerance, dependency, and rebound insomnia. CBT-I produces durable improvements that persist years after treatment ends. The American College of Physicians recommends CBT-I as the first-line treatment for chronic insomnia.</p>
+    </div>
+    <div class="faq-visible-item">
+      <h3>How long does CBT-I take to work?</h3>
+      <p>Most people see significant improvement in 4-8 weeks. Sleep restriction therapy, the most powerful component, often produces noticeable change within the first 1-2 weeks — though sleep initially feels worse before improving. Full benefit typically requires 6-8 weeks of consistent practice.</p>
+    </div>
+    <div class="faq-visible-item">
+      <h3>Can I do CBT-I on my own without a therapist?</h3>
+      <p>Yes. Self-guided CBT-I using workbooks or digital programs produces outcomes comparable to therapist-delivered CBT-I in mild-to-moderate insomnia. The most important component — keeping a sleep diary and applying sleep restriction — can be done independently. Digital programs like Sleepio and the Insomnia Coach app (free, from the VA) provide structured guidance.</p>
+    </div>
+  </div>
+
+</article>
 
   <!-- AFFILIATE CTA -->
   <div class="product-cta" style="margin:2rem 0;padding:1.5rem;background:var(--card);border:1px solid rgba(201,168,76,0.3);border-radius:10px;text-align:center">

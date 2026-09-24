@@ -196,7 +196,14 @@
       transition: background 0.2s;
     }
     .btn-gold:hover { background: var(--gold-light); color: var(--night); text-decoration: none; }
-  </style>
+  
+  .faq-visible-section { margin: 2.5rem 0; }
+  .faq-visible-section h2 { margin-bottom: 1rem; }
+  .faq-visible-item { margin: 0 0 1.4rem 0; padding-bottom: 1.2rem; border-bottom: 1px solid var(--border, #1e2d45); }
+  .faq-visible-item:last-child { border-bottom: none; padding-bottom: 0; }
+  .faq-visible-item h3 { font-size: 1.02rem; color: var(--gold, #c9a84c); margin-bottom: 0.5rem; }
+  .faq-visible-item p { font-size: 0.95rem; color: var(--text, #e8eaf0); line-height: 1.7; margin: 0; }
+</style>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -548,7 +555,28 @@
       </div>
     </div>
 
-  </article>
+  
+  <div class="faq-visible-section" id="faq">
+    <h2>Frequently Asked Questions</h2>
+    <div class="faq-visible-item">
+      <h3>Are sleeping pills safe to take long-term?</h3>
+      <p>Most prescription sleep medications are not recommended for long-term use. Benzodiazepines and Z-drugs (zolpidem, eszopiclone) cause tolerance, dependency, and rebound insomnia within 2-4 weeks. Older antihistamine-based OTC pills (diphenhydramine) cause tolerance within days and have anticholinergic effects that worsen cognition in older adults. CBT-I is the recommended first-line treatment for chronic insomnia.</p>
+    </div>
+    <div class="faq-visible-item">
+      <h3>What sleep medication is least habit-forming?</h3>
+      <p>Among prescription options, low-dose doxepin (Silenor) and suvorexant (Belsomra) have lower dependency risk than benzodiazepines. Low-dose trazodone is widely used off-label with good tolerability. Melatonin receptor agonists (ramelteon) are non-addictive and appropriate for circadian timing issues. Discuss options with a sleep physician rather than defaulting to the most-advertised option.</p>
+    </div>
+    <div class="faq-visible-item">
+      <h3>Why do sleeping pills stop working?</h3>
+      <p>Tolerance develops because the brain downregulates the receptors that sleeping pills target. GABA-A receptor sensitivity decreases with benzodiazepine and Z-drug use within 1-4 weeks, requiring higher doses for the same effect. Stopping after tolerance creates rebound insomnia worse than the original problem — the main driver of long-term dependency.</p>
+    </div>
+    <div class="faq-visible-item">
+      <h3>What can I take instead of sleeping pills?</h3>
+      <p>CBT-I is the evidence-based first-line alternative. For supplements, magnesium glycinate (200-400mg) has the best evidence among non-prescription options. Low-dose melatonin (0.3mg) addresses circadian timing. L-theanine reduces anxiety-driven sleep disruption. These are adjuncts — CBT-I addresses the behavioral patterns that perpetuate insomnia while supplements address physiology.</p>
+    </div>
+  </div>
+
+</article>
 
   <!-- AFFILIATE CTA -->
   <div class="product-cta" style="margin:2rem 0;padding:1.5rem;background:var(--card);border:1px solid rgba(201,168,76,0.3);border-radius:10px;text-align:center">

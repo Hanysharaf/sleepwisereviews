@@ -103,7 +103,14 @@
     @media print { nav, footer, .disclosure-box, .product-cta, .article-cta, .social-share, .article-likes, .sticky-buy-bar, .related-articles { display: none !important; } body { background: white; color: black; } .article-wrapper { max-width: 100%; padding: 0; } }
     @media (max-width: 768px) { .nav-hamburger { display: flex; } .nav-links { display: none; position: fixed; top: 68px; left: 0; right: 0; background: rgba(10,14,26,0.97); flex-direction: column; padding: 1.5rem 6%; gap: 1rem; z-index: 99; border-bottom: 1px solid var(--border); } .nav-links.open { display: flex; } .footer-top { grid-template-columns: 1fr 1fr; gap: 1.5rem; } .article-wrapper h1 { font-size: 2rem; } .product-cta { flex-direction: column; text-align: center; } }
     @media (max-width: 480px) { .footer-top { grid-template-columns: 1fr; } .article-wrapper h1 { font-size: 1.6rem; } .article-intro { font-size: 0.95rem; } }
-  </style>
+  
+  .faq-visible-section { margin: 2.5rem 0; }
+  .faq-visible-section h2 { margin-bottom: 1rem; }
+  .faq-visible-item { margin: 0 0 1.4rem 0; padding-bottom: 1.2rem; border-bottom: 1px solid var(--border, #1e2d45); }
+  .faq-visible-item:last-child { border-bottom: none; padding-bottom: 0; }
+  .faq-visible-item h3 { font-size: 1.02rem; color: var(--gold, #c9a84c); margin-bottom: 0.5rem; }
+  .faq-visible-item p { font-size: 0.95rem; color: var(--text, #e8eaf0); line-height: 1.7; margin: 0; }
+</style>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -351,7 +358,28 @@
         <li><a href="sleep-and-hormones.html">How Your Hormones Control Your Sleep (And What to Do About It)</a></li>
       </ul>
     </div>
-  </article>
+  
+  <div class="faq-visible-section" id="faq">
+    <h2>Frequently Asked Questions</h2>
+    <div class="faq-visible-item">
+      <h3>Does sex before bed help you sleep?</h3>
+      <p>Orgasm triggers the release of oxytocin, prolactin, and endorphins while reducing cortisol — a hormonal profile that promotes relaxation and sedation. Multiple studies show that sexual activity before sleep is associated with faster sleep onset and higher sleep quality ratings in the majority of respondents. Prolactin in particular is associated with the sleepy, satisfied feeling after orgasm and is the same hormone elevated during sleep itself. The effect is consistent for both partnered and solo sexual activity.</p>
+    </div>
+    <div class="faq-visible-item">
+      <h3>Why do men fall asleep after sex?</h3>
+      <p>The post-orgasm release of prolactin, oxytocin, and vasopressin — combined with the metabolic recovery from physical activity — produces sedation. Men have a faster and more pronounced drop in arousal post-orgasm compared to women, and some research suggests sex hormones (testosterone influencing the opioid and prolactin systems) contribute to the sex difference in post-coital sleepiness. This effect is often stronger in men but is also commonly experienced by women.</p>
+    </div>
+    <div class="faq-visible-item">
+      <h3>Is it bad to fall asleep right after sex?</h3>
+      <p>From a sleep health perspective, falling asleep quickly after sex is beneficial — the hormonal environment created by orgasm genuinely facilitates sleep onset. From a relationship perspective, some partners experience the rapid post-coital sleep of the other partner as disconnection. The interpersonal aspect depends on the couple's communication and expectations. Physiologically, there is no sleep quality downside to falling asleep soon after sex.</p>
+    </div>
+    <div class="faq-visible-item">
+      <h3>Does masturbation help with insomnia?</h3>
+      <p>The same physiological mechanisms apply to solo orgasm as partnered sex — the release of prolactin, oxytocin, and endorphins with a reduction in cortisol and physiological tension. Several studies confirm that solo sexual activity is associated with perceived improvement in sleep onset in the majority of participants. For people without sexual partners or those who prefer this approach, it is a physiologically sound pre-sleep relaxation strategy.</p>
+    </div>
+  </div>
+
+</article>
 
   <footer>
     <div class="footer-top">

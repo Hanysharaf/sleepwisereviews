@@ -199,7 +199,14 @@
       .article-intro { font-size: 0.95rem; }
       .btn-amazon { padding: 12px 24px; min-height: 44px; display: inline-flex; align-items: center; }
     }
-  </style>
+  
+  .faq-visible-section { margin: 2.5rem 0; }
+  .faq-visible-section h2 { margin-bottom: 1rem; }
+  .faq-visible-item { margin: 0 0 1.4rem 0; padding-bottom: 1.2rem; border-bottom: 1px solid var(--border, #1e2d45); }
+  .faq-visible-item:last-child { border-bottom: none; padding-bottom: 0; }
+  .faq-visible-item h3 { font-size: 1.02rem; color: var(--gold, #c9a84c); margin-bottom: 0.5rem; }
+  .faq-visible-item p { font-size: 0.95rem; color: var(--text, #e8eaf0); line-height: 1.7; margin: 0; }
+</style>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -614,7 +621,24 @@
       </ul>
     </div>
 
-  </article>
+  
+  <div class="faq-visible-section" id="faq">
+    <h2>Frequently Asked Questions</h2>
+    <div class="faq-visible-item">
+      <h3>What is the coolest pillow filling?</h3>
+      <p>Latex and buckwheat hull are the coolest natural pillow fills -- both have open structures that allow airflow through the pillow. Shredded memory foam with gel infusion is cooler than solid memory foam. Water-filled pillows (like Mediflow) maintain cool temperature throughout the night. Down and down alternative trap heat and are the warmest fills.</p>
+    </div>
+    <div class="faq-visible-item">
+      <h3>Do cooling pillows actually stay cool all night?</h3>
+      <p>Phase-change material (PCM) pillows and covers absorb heat for the first 2-3 hours then release it. They cool the pillow during the warmest part of sleep onset but warm to body temperature by midnight. Water-filled pillows maintain cooler temperatures longer. Actively ventilated pillows (copper-infused, latex, buckwheat) stay consistently closer to room temperature.</p>
+    </div>
+    <div class="faq-visible-item">
+      <h3>How long does a cooling pillow last?</h3>
+      <p>Shredded memory foam pillows typically last 3-5 years before losing loft and support. Latex pillows last 5-8 years. Buckwheat hull pillows last 10+ years (hulls can be replaced). PCM covers lose cooling effectiveness over 3-4 years as the phase-change material degrades. The cooling mechanism degrades faster than the structural integrity in most pillows.</p>
+    </div>
+  </div>
+
+</article>
 
   <footer>
     <div class="footer-top">

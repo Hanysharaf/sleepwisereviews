@@ -110,7 +110,14 @@
     @media print { nav, footer, .disclosure-box, .product-cta, .article-cta, .social-share, .article-likes, .sticky-buy-bar, .related-articles { display: none !important; } body { background: white; color: black; } .article-wrapper { max-width: 100%; padding: 0; } }
     @media (max-width: 768px) { .nav-hamburger { display: flex; } .nav-links { display: none; position: fixed; top: 68px; left: 0; right: 0; background: rgba(10,14,26,0.97); flex-direction: column; padding: 1.5rem 6%; gap: 1rem; z-index: 99; border-bottom: 1px solid var(--border); } .nav-links.open { display: flex; } .footer-top { grid-template-columns: 1fr 1fr; gap: 1.5rem; } .article-wrapper h1 { font-size: 2rem; } .product-cta { flex-direction: column; text-align: center; } }
     @media (max-width: 480px) { .footer-top { grid-template-columns: 1fr; } .article-wrapper h1 { font-size: 1.6rem; } .article-intro { font-size: 0.95rem; } }
-  </style>
+  
+  .faq-visible-section { margin: 2.5rem 0; }
+  .faq-visible-section h2 { margin-bottom: 1rem; }
+  .faq-visible-item { margin: 0 0 1.4rem 0; padding-bottom: 1.2rem; border-bottom: 1px solid var(--border, #1e2d45); }
+  .faq-visible-item:last-child { border-bottom: none; padding-bottom: 0; }
+  .faq-visible-item h3 { font-size: 1.02rem; color: var(--gold, #c9a84c); margin-bottom: 0.5rem; }
+  .faq-visible-item p { font-size: 0.95rem; color: var(--text, #e8eaf0); line-height: 1.7; margin: 0; }
+</style>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -333,7 +340,28 @@
         <li><a href="magnesium-types-sleep.html">The Best Types of Magnesium for Sleep</a></li>
       </ul>
     </div>
-  </article>
+  
+  <div class="faq-visible-section" id="faq">
+    <h2>Frequently Asked Questions</h2>
+    <div class="faq-visible-item">
+      <h3>How much of daily testosterone is produced during sleep?</h3>
+      <p>70-80%, concentrated in deep (N3) and REM sleep during the later hours of the night. This is why morning testosterone is the clinical testing standard — it captures the overnight production total.</p>
+    </div>
+    <div class="faq-visible-item">
+      <h3>How quickly does poor sleep lower testosterone?</h3>
+      <p>Fast. In the landmark University of Chicago study, the drop was measurable within three nights of restricted sleep and fully established within one week, producing a 10-15% decline in healthy young men.</p>
+    </div>
+    <div class="faq-visible-item">
+      <h3>Does sleep apnea affect testosterone?</h3>
+      <p>Yes, independent of sleep duration. Repeated oxygen desaturations from apnea directly suppress Leydig cell function. Treating sleep apnea with CPAP has been shown to raise testosterone by 15-20% in affected men in some studies.</p>
+    </div>
+    <div class="faq-visible-item">
+      <h3>What is the single most evidence-backed change to protect testosterone through sleep?</h3>
+      <p>Extending sleep to 7-9 hours, with particular attention to the final two hours of the night when testosterone production accelerates most. This has more supporting evidence than any supplement stack.</p>
+    </div>
+  </div>
+
+</article>
 
   <footer>
     <div class="footer-top">

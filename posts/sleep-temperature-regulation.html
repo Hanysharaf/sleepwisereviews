@@ -197,7 +197,14 @@
       .article-intro { font-size: 0.95rem; }
       .btn-amazon { padding: 12px 24px; min-height: 44px; display: inline-flex; align-items: center; }
     }
-  </style>
+  
+  .faq-visible-section { margin: 2.5rem 0; }
+  .faq-visible-section h2 { margin-bottom: 1rem; }
+  .faq-visible-item { margin: 0 0 1.4rem 0; padding-bottom: 1.2rem; border-bottom: 1px solid var(--border, #1e2d45); }
+  .faq-visible-item:last-child { border-bottom: none; padding-bottom: 0; }
+  .faq-visible-item h3 { font-size: 1.02rem; color: var(--gold, #c9a84c); margin-bottom: 0.5rem; }
+  .faq-visible-item p { font-size: 0.95rem; color: var(--text, #e8eaf0); line-height: 1.7; margin: 0; }
+</style>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -493,7 +500,28 @@
         <li><a href="sleep-stages-explained.html">Understanding Sleep Stages: A Complete Guide to Your Sleep Cycle</a></li>
       </ul>
     </div>
-  </article>
+  
+  <div class="faq-visible-section" id="faq">
+    <h2>Frequently Asked Questions</h2>
+    <div class="faq-visible-item">
+      <h3>How does body temperature affect sleep?</h3>
+      <p>Core body temperature follows a circadian rhythm that is tightly coupled to sleep. Temperature begins declining approximately 2 hours before natural sleep time (matching melatonin onset), reaches its nadir around 4-5am, and rises again to prepare for waking. This decline is an active process — the body dilates peripheral blood vessels to dump heat, causing the characteristic warm-sleepy sensation before sleep. A bedroom environment that assists (rather than impedes) this cooling process is the primary mechanism by which cool bedrooms improve sleep.</p>
+    </div>
+    <div class="faq-visible-item">
+      <h3>What temperature should your body be when you sleep?</h3>
+      <p>Core body temperature during sleep drops to approximately 97.5°F (36.4°C) from the waking baseline of 98.6°F (37°C). The 1-2°F drop initiates and maintains sleep. Skin temperature (which rises as core temperature falls, due to peripheral vasodilation) reaches approximately 91-93°F during sleep. A bedroom temperature of 65-68°F supports this thermoregulatory process; higher temperatures impair the core temperature drop and fragment sleep.</p>
+    </div>
+    <div class="faq-visible-item">
+      <h3>Why do hot flashes disrupt sleep?</h3>
+      <p>Hot flashes activate the thermoregulatory center in the hypothalamus, triggering peripheral vasodilation and sweating to dump heat. This typically raises skin temperature 2-4°F within minutes and produces full arousal from sleep. In menopause, the thermoregulatory setpoint in the hypothalamus narrows its 'neutral zone' (the range in which no heat response is triggered), making normal body temperature variations enough to trigger a hot flash. CPAP, weighted blankets, and room cooling reduce but do not eliminate nocturnal hot flashes.</p>
+    </div>
+    <div class="faq-visible-item">
+      <h3>Does body temperature predict sleep onset?</h3>
+      <p>Yes — wrist skin temperature rise (reflecting peripheral vasodilation and heat dumping) is one of the most reliable physiological predictors of sleep onset. Wearables that track skin temperature can detect sleep onset before subjective sleep reports. This is why the warm-and-drowsy feeling before sleep reliably predicts that sleep is imminent — it reflects active core body cooling through peripheral blood vessel dilation.</p>
+    </div>
+  </div>
+
+</article>
 
   <footer>
     <div class="footer-top">

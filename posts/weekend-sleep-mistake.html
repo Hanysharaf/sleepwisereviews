@@ -478,7 +478,14 @@
       transition: background 0.2s;
     }
     .btn-gold:hover { background: var(--gold-light); color: var(--night); text-decoration: none; }
-  </style>
+  
+  .faq-visible-section { margin: 2.5rem 0; }
+  .faq-visible-section h2 { margin-bottom: 1rem; }
+  .faq-visible-item { margin: 0 0 1.4rem 0; padding-bottom: 1.2rem; border-bottom: 1px solid var(--border, #1e2d45); }
+  .faq-visible-item:last-child { border-bottom: none; padding-bottom: 0; }
+  .faq-visible-item h3 { font-size: 1.02rem; color: var(--gold, #c9a84c); margin-bottom: 0.5rem; }
+  .faq-visible-item p { font-size: 0.95rem; color: var(--text, #e8eaf0); line-height: 1.7; margin: 0; }
+</style>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -958,7 +965,28 @@
         <li><a href="circadian-rhythm-basics.html">Your Circadian Rhythm: The 24-Hour Clock Running Everything</a></li>
       </ul>
     </div>
-  </main>
+  
+  <div class="faq-visible-section" id="faq">
+    <h2>Frequently Asked Questions</h2>
+    <div class="faq-visible-item">
+      <h3>Why is sleeping in on weekends bad for sleep?</h3>
+      <p>Sleeping in on weekends shifts your circadian clock later — each hour of extra weekend sleep delays melatonin onset by approximately 30-45 minutes. By Sunday night, your body clock is running 1-2 hours behind your weekday schedule, making it harder to fall asleep at the weekday bedtime and creating the 'social jet lag' effect that peaks on Monday morning. The chronic oscillation between weekday and weekend sleep schedules prevents the circadian stability needed for consistent, high-quality sleep.</p>
+    </div>
+    <div class="faq-visible-item">
+      <h3>Is it OK to sleep in occasionally?</h3>
+      <p>An occasional extra 30-60 minutes on weekends has minimal circadian impact and can partially address accumulated sleep debt. The problem is chronic large-amplitude shifts (2+ hours) every weekend, which constitute a recurring phase shift. The solution is not perfect rigidity but variance reduction: keeping wake times within 1 hour across all 7 days is sufficient for circadian stability.</p>
+    </div>
+    <div class="faq-visible-item">
+      <h3>What is the right way to catch up on sleep?</h3>
+      <p>The most effective catch-up strategy is going to bed earlier on Friday and Saturday (earlier bedtime moves sleep forward without pushing wake time back significantly), supplemented by a 20-minute nap if needed during the day. This accumulates extra sleep without shifting the clock later. Sleeping in late — the instinctive catch-up strategy — delays the clock and creates the Monday morning problem it was trying to solve.</p>
+    </div>
+    <div class="faq-visible-item">
+      <h3>How do I fix my sleep schedule after sleeping in all weekend?</h3>
+      <p>Monday morning: get up at your target wake time regardless of how tired you feel. Expose yourself to bright light immediately upon waking (outdoors or 10,000-lux lamp). Avoid naps Monday to maintain sleep pressure for Monday night. Take 0.5mg melatonin 30 minutes before your weekday target bedtime Monday and Tuesday nights. Maintain this for 3-4 days and the clock re-synchronizes.</p>
+    </div>
+  </div>
+
+</main>
 
 <!-- FOOTER -->
 <footer>

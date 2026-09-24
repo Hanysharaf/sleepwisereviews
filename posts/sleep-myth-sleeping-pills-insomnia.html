@@ -62,7 +62,14 @@
     @media print{nav,footer,.disclosure-box,.product-cta,.article-cta,.social-share,.article-likes,.sticky-buy-bar,.related-articles{display:none!important;}body{background:white;color:black;}.article-wrapper{max-width:100%;padding:0;}}
     @media(max-width:768px){.nav-hamburger{display:flex;}.nav-links{display:none;position:fixed;top:68px;left:0;right:0;background:rgba(10,14,26,0.97);flex-direction:column;padding:1.5rem 6%;gap:1rem;z-index:99;border-bottom:1px solid var(--border);}.nav-links.open{display:flex;}.footer-top{grid-template-columns:1fr 1fr;gap:1.5rem;}.article-wrapper h1{font-size:2rem;}.product-cta{flex-direction:column;text-align:center;}}
     @media(max-width:480px){.footer-top{grid-template-columns:1fr;}.article-wrapper h1{font-size:1.6rem;}.article-intro{font-size:0.95rem;}}
-  </style>
+  
+  .faq-visible-section { margin: 2.5rem 0; }
+  .faq-visible-section h2 { margin-bottom: 1rem; }
+  .faq-visible-item { margin: 0 0 1.4rem 0; padding-bottom: 1.2rem; border-bottom: 1px solid var(--border, #1e2d45); }
+  .faq-visible-item:last-child { border-bottom: none; padding-bottom: 0; }
+  .faq-visible-item h3 { font-size: 1.02rem; color: var(--gold, #c9a84c); margin-bottom: 0.5rem; }
+  .faq-visible-item p { font-size: 0.95rem; color: var(--text, #e8eaf0); line-height: 1.7; margin: 0; }
+</style>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -281,7 +288,28 @@
       <li><a href="sleep-myth-stay-in-bed.html">Sleep Myth: You Should Stay in Bed If You Cannot Sleep</a></li>
       <li><a href="wind-down-routine.html">How to Build a Wind-Down Routine That Works</a></li>
     </ul></div>
-  </article>
+  
+  <div class="faq-visible-section" id="faq">
+    <h2>Frequently Asked Questions</h2>
+    <div class="faq-visible-item">
+      <h3>Do sleeping pills actually treat insomnia?</h3>
+      <p>No — they suppress the symptoms temporarily. Insomnia is primarily a behavioral and cognitive condition driven by hyperarousal and conditioned wakefulness. A meta-analysis in the Annals of Internal Medicine found CBT-I produces equivalent or better short-term results and dramatically better long-term outcomes than medication.</p>
+    </div>
+    <div class="faq-visible-item">
+      <h3>What is rebound insomnia?</h3>
+      <p>The dramatic worsening of sleep that often occurs when sleep medication is stopped. The brain upregulates its alerting signals to compensate for the drug's suppression, so when the drug is removed, arousal is stronger than before treatment began.</p>
+    </div>
+    <div class="faq-visible-item">
+      <h3>What actually works better than sleeping pills for chronic insomnia?</h3>
+      <p>CBT-I (Cognitive Behavioral Therapy for Insomnia), a structured 6-8 week program combining sleep restriction therapy, stimulus control, cognitive restructuring, and relaxation training. The American Academy of Sleep Medicine recommends it as the first-line treatment, above medication.</p>
+    </div>
+    <div class="faq-visible-item">
+      <h3>Are natural sleep aids like magnesium and melatonin effective alternatives?</h3>
+      <p>Magnesium glycinate has the most consistent evidence for improving sleep onset and quality. Melatonin works best for circadian issues (jet lag, shift work) at low doses (0.5-1mg), not as a general sedative. Both are reasonable adjuncts to CBT-I, not replacements for it.</p>
+    </div>
+  </div>
+
+</article>
 
   <footer>
     <div class="footer-top">

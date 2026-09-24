@@ -170,7 +170,14 @@
 
     /* Horizontal scroll wrapper for wide tables on mobile */
     .table-scroll { overflow-x: auto; margin: 1.5rem 0 2rem; }
-  </style>
+  
+  .faq-visible-section { margin: 2.5rem 0; }
+  .faq-visible-section h2 { margin-bottom: 1rem; }
+  .faq-visible-item { margin: 0 0 1.4rem 0; padding-bottom: 1.2rem; border-bottom: 1px solid var(--border, #1e2d45); }
+  .faq-visible-item:last-child { border-bottom: none; padding-bottom: 0; }
+  .faq-visible-item h3 { font-size: 1.02rem; color: var(--gold, #c9a84c); margin-bottom: 0.5rem; }
+  .faq-visible-item p { font-size: 0.95rem; color: var(--text, #e8eaf0); line-height: 1.7; margin: 0; }
+</style>
 </head>
 <body>
 
@@ -464,7 +471,28 @@
       </ul>
     </div>
 
-  </article>
+  
+  <div class="faq-visible-section" id="faq">
+    <h2>Frequently Asked Questions</h2>
+    <div class="faq-visible-item">
+      <h3>How long should it take to fall asleep?</h3>
+      <p>Healthy sleep onset latency is 10-20 minutes. Under 5 minutes suggests sleep deprivation. Over 30 minutes consistently indicates insomnia. If you're in bed awake longer than 20 minutes regularly, the stimulus control and sleep restriction techniques in this guide are the most evidence-based interventions.</p>
+    </div>
+    <div class="faq-visible-item">
+      <h3>Does the military sleep method actually work?</h3>
+      <p>The military sleep method (progressive physical relaxation followed by mental imagery clearing) has anecdotal support and aligns with established relaxation techniques. The claim of '2 minutes' is likely exaggerated for most people, but the method's components — sequential muscle relaxation and thought-stopping — are backed by sleep research. Most people see improvement after 6 weeks of consistent practice.</p>
+    </div>
+    <div class="faq-visible-item">
+      <h3>What is the fastest way to fall asleep when you can't stop thinking?</h3>
+      <p>The cognitive shuffle technique is specifically designed for racing thoughts. It works by randomly generating unconnected images (a shoe, a cloud, a bicycle) — this interrupts the narrative thinking that keeps you awake by engaging the visual imagination without story structure. Research by Dr. Luc Beaudoin at Simon Fraser University shows this technique accelerates sleep onset. Start with 'imagine a random object' and let the mind drift from image to image.</p>
+    </div>
+    <div class="faq-visible-item">
+      <h3>Does 4-7-8 breathing help you sleep?</h3>
+      <p>The 4-7-8 breathing technique activates the parasympathetic nervous system through extended exhalation, which lowers heart rate and signals safety to the brain. The 4-second inhale, 7-second hold, 8-second exhale pattern is effective for anxiety-related insomnia. It is not specifically proven faster than other slow breathing patterns (6 breaths per minute), but many people find the structured counting helpful for quieting mental activity.</p>
+    </div>
+  </div>
+
+</article>
 
   <footer>
     <p>&copy; 2025&ndash;2026 <a href="../">SleepWise Reviews</a> &middot; Evidence-based sleep guidance &middot; <a href="../pages/privacy-policy.html">Privacy</a></p>

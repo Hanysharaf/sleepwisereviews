@@ -110,7 +110,14 @@
     @media print { nav, footer, .disclosure-box, .product-cta, .article-cta, .social-share, .article-likes, .sticky-buy-bar, .related-articles { display: none !important; } body { background: white; color: black; } .article-wrapper { max-width: 100%; padding: 0; } }
     @media (max-width: 768px) { .nav-hamburger { display: flex; } .nav-links { display: none; position: fixed; top: 68px; left: 0; right: 0; background: rgba(10,14,26,0.97); flex-direction: column; padding: 1.5rem 6%; gap: 1rem; z-index: 99; border-bottom: 1px solid var(--border); } .nav-links.open { display: flex; } .footer-top { grid-template-columns: 1fr 1fr; gap: 1.5rem; } .article-wrapper h1 { font-size: 2rem; } .product-cta { flex-direction: column; text-align: center; } }
     @media (max-width: 480px) { .footer-top { grid-template-columns: 1fr; } .article-wrapper h1 { font-size: 1.6rem; } .article-intro { font-size: 0.95rem; } }
-  </style>
+  
+  .faq-visible-section { margin: 2.5rem 0; }
+  .faq-visible-section h2 { margin-bottom: 1rem; }
+  .faq-visible-item { margin: 0 0 1.4rem 0; padding-bottom: 1.2rem; border-bottom: 1px solid var(--border, #1e2d45); }
+  .faq-visible-item:last-child { border-bottom: none; padding-bottom: 0; }
+  .faq-visible-item h3 { font-size: 1.02rem; color: var(--gold, #c9a84c); margin-bottom: 0.5rem; }
+  .faq-visible-item p { font-size: 0.95rem; color: var(--text, #e8eaf0); line-height: 1.7; margin: 0; }
+</style>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -339,7 +346,28 @@
         <li><a href="best-cooling-mattress-pads.html">Best Cooling Mattress Pads for Hot Sleepers</a></li>
       </ul>
     </div>
-  </article>
+  
+  <div class="faq-visible-section" id="faq">
+    <h2>Frequently Asked Questions</h2>
+    <div class="faq-visible-item">
+      <h3>What hormones make you sleepy after orgasm?</h3>
+      <p>Four work together: oxytocin suppresses cortisol and the stress response, prolactin is the most directly sleep-promoting (levels rise sharply after orgasm), serotonin is a direct precursor to melatonin, and endorphins produce physical relaxation and mild pain relief.</p>
+    </div>
+    <div class="faq-visible-item">
+      <h3>Why do men fall asleep faster than women after sex?</h3>
+      <p>Men experience a sharp, high-amplitude prolactin spike within 5-10 minutes of orgasm that is strongly linked to rapid sleepiness. Women's prolactin rise is typically shallower and more gradual, with a more sustained oxytocin response — a real biological difference, not a sign of disinterest.</p>
+    </div>
+    <div class="faq-visible-item">
+      <h3>How long does the post-orgasm sleep-promoting window last?</h3>
+      <p>Approximately 20-30 minutes. Prolactin levels begin normalizing within 30-60 minutes, and if you stay awake and mentally active beyond that window, the sleep-onset advantage is substantially diminished.</p>
+    </div>
+    <div class="faq-visible-item">
+      <h3>Does bedroom temperature affect the post-sex sleep benefit?</h3>
+      <p>Yes. Core temperature rises during sex and then drops sharply afterward — a strong sleep-onset signal. A cool bedroom (65-68°F) lets that heat dissipate efficiently and amplifies the effect; a warm room traps the heat and blunts the signal.</p>
+    </div>
+  </div>
+
+</article>
 
   <footer>
     <div class="footer-top">

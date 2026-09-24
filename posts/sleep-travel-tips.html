@@ -415,7 +415,14 @@
       transition: background 0.2s;
     }
     .btn-gold:hover { background: var(--gold-light); color: var(--night); text-decoration: none; }
-  </style>
+  
+  .faq-visible-section { margin: 2.5rem 0; }
+  .faq-visible-section h2 { margin-bottom: 1rem; }
+  .faq-visible-item { margin: 0 0 1.4rem 0; padding-bottom: 1.2rem; border-bottom: 1px solid var(--border, #1e2d45); }
+  .faq-visible-item:last-child { border-bottom: none; padding-bottom: 0; }
+  .faq-visible-item h3 { font-size: 1.02rem; color: var(--gold, #c9a84c); margin-bottom: 0.5rem; }
+  .faq-visible-item p { font-size: 0.95rem; color: var(--text, #e8eaf0); line-height: 1.7; margin: 0; }
+</style>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -905,7 +912,28 @@
         <li><a href="chronobiology-basics.html">Chronobiology: The Science of Biological Timekeeping</a></li>
       </ul>
     </div>
-  </main>
+  
+  <div class="faq-visible-section" id="faq">
+    <h2>Frequently Asked Questions</h2>
+    <div class="faq-visible-item">
+      <h3>How can I sleep better in hotels?</h3>
+      <p>Most effective hotel sleep strategies: request a room away from elevators, ice machines, and street-facing walls; bring a portable white noise app or machine; use the Do Not Disturb sign and tape over any light-emitting electronics; set the room temperature to 65-68°F before sleeping; bring a travel sleep mask for rooms with inadequate blackout curtains; and bring your own pillow if sleeping away from home reliably affects your sleep (your scent and familiar firmness matter).</p>
+    </div>
+    <div class="faq-visible-item">
+      <h3>How do you sleep on an airplane?</h3>
+      <p>Best practices: recline as soon as possible; use a travel neck pillow that supports the head in neutral rather than dropping forward; bring earplugs or noise-canceling headphones and an eye mask; avoid alcohol (worsens sleep quality); take 0.5mg melatonin timed to the destination nighttime if on an overnight flight; and wear comfortable, non-restrictive clothing. Window seats allow leaning against the cabin wall and avoid being disturbed by others.</p>
+    </div>
+    <div class="faq-visible-item">
+      <h3>How long does travel fatigue last?</h3>
+      <p>Travel fatigue from long flights (without significant time zone change) typically resolves within 1-2 days of rest. Jet lag from significant time zone changes (3+ hours) takes approximately 1 day per zone crossed without intervention, or 2-4 days with melatonin and light therapy. The direction matters: eastward recovery takes longer than westward. Planning important activities 2-3 days after a significant eastward crossing allows most people to be performing well.</p>
+    </div>
+    <div class="faq-visible-item">
+      <h3>Is it better to stay awake or sleep on arrival after a long flight?</h3>
+      <p>For eastward travel (most common transatlantic direction): stay awake until local bedtime on the arrival day, even if exhausted. This maximizes sleep pressure at the destination bedtime, producing better first-night sleep and faster adaptation. A short nap (20 minutes) if arrival is in the afternoon is acceptable; longer naps delay nighttime sleep. For westward travel, sleeping at the destination nighttime is easier — the clock naturally delays in that direction.</p>
+    </div>
+  </div>
+
+</main>
 
 <footer>
   <div class="footer-inner">

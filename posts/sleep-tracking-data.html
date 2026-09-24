@@ -425,7 +425,14 @@
       transition: background 0.2s;
     }
     .btn-gold:hover { background: var(--gold-light); color: var(--night); text-decoration: none; }
-  </style>
+  
+  .faq-visible-section { margin: 2.5rem 0; }
+  .faq-visible-section h2 { margin-bottom: 1rem; }
+  .faq-visible-item { margin: 0 0 1.4rem 0; padding-bottom: 1.2rem; border-bottom: 1px solid var(--border, #1e2d45); }
+  .faq-visible-item:last-child { border-bottom: none; padding-bottom: 0; }
+  .faq-visible-item h3 { font-size: 1.02rem; color: var(--gold, #c9a84c); margin-bottom: 0.5rem; }
+  .faq-visible-item p { font-size: 0.95rem; color: var(--text, #e8eaf0); line-height: 1.7; margin: 0; }
+</style>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -928,7 +935,28 @@
     <p>Breus, M. J. (2016). <em>The Power of When: Discover Your Chronotype — and the Best Time to Eat Lunch, Ask for a Raise, Have Sex, Write a Novel, Take Your Meds, and More.</em> Little, Brown and Company.</p>
     <p>Chinoy, E. D., Cuellar, J. A., Huwa, K. E., et al. (2021). Performance of seven consumer sleep-tracking devices compared with polysomnography. <em>Sleep, 44</em>(5), zsaa291.</p>
     <p>Baron, K. G., Abbott, S., Jao, N., et al. (2017). Orthosomnia: Are some patients taking the quantified self too far? <em>Journal of Clinical Sleep Medicine, 13</em>(2), 351–354.</p>
+  
+  <div class="faq-visible-section" id="faq">
+    <h2>Frequently Asked Questions</h2>
+    <div class="faq-visible-item">
+      <h3>How accurate are sleep trackers?</h3>
+      <p>Consumer sleep trackers (Oura, Fitbit, Garmin, Apple Watch) estimate sleep stages with approximately 70-80% accuracy compared to polysomnography — the gold standard. They are most accurate for total sleep time (within 15-20 minutes) and sleep efficiency. They are least accurate for specific stage percentages (particularly differentiating N1 from N2 from N3), and vary in their ability to detect nighttime awakening of short duration. Ring-form devices tend to outperform wrist devices for HRV measurement due to better optical contact.</p>
+    </div>
+    <div class="faq-visible-item">
+      <h3>What sleep metrics actually matter?</h3>
+      <p>The most actionable metrics: sleep efficiency (time asleep/time in bed, target &gt;85%), HRV trend (declining HRV indicates accumulated stress or illness before symptoms appear), total sleep time (tracking consistently to ensure you are meeting your personal need), and sleep onset latency (consistently &gt;30 minutes indicates a problem worth addressing). Sleep stage percentages provided by consumer trackers have too much error variance to be actionable at the individual nightly level — trends over weeks are more informative.</p>
+    </div>
+    <div class="faq-visible-item">
+      <h3>Should I check my sleep score every morning?</h3>
+      <p>Checking nightly creates the risk of orthosomnia — sleep anxiety driven by poor scores. Weekly trend review is more clinically meaningful and less likely to create hyperarousal. If you check daily, normalize the variance: a poor score on a night when you know you drank alcohol, had stress, or traveled is expected and does not represent a new problem. Use the data to identify behavioral correlations rather than to judge each night as a performance event.</p>
+    </div>
+    <div class="faq-visible-item">
+      <h3>What is HRV and why does it matter for sleep?</h3>
+      <p>Heart rate variability (HRV) is the variation in time between heartbeats. Higher HRV indicates stronger parasympathetic nervous system activity (recovery and adaptation capacity). HRV measured during sleep (particularly during slow-wave sleep) is one of the most sensitive indicators of physiological recovery. A declining HRV trend over days predicts immune stress, overtraining, and illness before symptoms appear. For sleep quality specifically, low nocturnal HRV correlates with higher cortisol, reduced slow-wave sleep, and next-day fatigue.</p>
+    </div>
   </div>
+
+</div>
 
 
   <!-- AFFILIATE CTA -->

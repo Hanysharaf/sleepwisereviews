@@ -208,7 +208,14 @@
 
     /* Horizontal scroll wrapper for wide tables on mobile */
     .table-scroll { overflow-x: auto; margin: 1.5rem 0 2rem; }
-  </style>
+  
+  .faq-visible-section { margin: 2.5rem 0; }
+  .faq-visible-section h2 { margin-bottom: 1rem; }
+  .faq-visible-item { margin: 0 0 1.4rem 0; padding-bottom: 1.2rem; border-bottom: 1px solid var(--border, #1e2d45); }
+  .faq-visible-item:last-child { border-bottom: none; padding-bottom: 0; }
+  .faq-visible-item h3 { font-size: 1.02rem; color: var(--gold, #c9a84c); margin-bottom: 0.5rem; }
+  .faq-visible-item p { font-size: 0.95rem; color: var(--text, #e8eaf0); line-height: 1.7; margin: 0; }
+</style>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -493,7 +500,28 @@
         <li><a href="article-white-noise-machines.html">7 Best White Noise Machines That Actually Block Sound</a></li>
       </ul>
     </div>
-  </article>
+  
+  <div class="faq-visible-section" id="faq">
+    <h2>Frequently Asked Questions</h2>
+    <div class="faq-visible-item">
+      <h3>What are the stages of sleep?</h3>
+      <p>Sleep consists of four stages cycling throughout the night. Stage 1 (N1): light sleep, 1-7 minutes, easily awakened. Stage 2 (N2): true sleep, 10-25 minutes, heart rate slows, temperature drops, sleep spindles protect against waking. Stage 3 (N3): slow-wave or deep sleep, hardest to wake from, critical for physical restoration, memory consolidation, and immune function. REM: vivid dreaming, emotional processing, near-paralysis of voluntary muscles. A full cycle takes 90 minutes; adults complete 4-6 cycles per night.</p>
+    </div>
+    <div class="faq-visible-item">
+      <h3>How much deep sleep do you need per night?</h3>
+      <p>Adults typically get 15-25% of total sleep as slow-wave (deep) sleep, equating to 60-90 minutes in a 7-8 hour night. Deep sleep is concentrated in the first half of the night — your first two sleep cycles have the most. You cannot directly increase deep sleep percentage, but you can protect it: avoid alcohol, maintain a consistent sleep schedule, and ensure adequate total sleep duration.</p>
+    </div>
+    <div class="faq-visible-item">
+      <h3>What happens if you don't get enough REM sleep?</h3>
+      <p>REM sleep deprivation impairs emotional regulation, memory consolidation, and creative problem-solving. After REM deprivation, the brain shows REM rebound — dramatically increasing REM percentage on recovery nights. Chronic REM suppression (common with alcohol and some antidepressants) is associated with increased anxiety, depression risk, and impaired learning. Most REM occurs in the last 2-3 hours of sleep — cutting sleep short eliminates disproportionate amounts of REM.</p>
+    </div>
+    <div class="faq-visible-item">
+      <h3>Which sleep stage is most important?</h3>
+      <p>All stages serve essential functions that cannot be fully compensated by other stages. Slow-wave sleep is most critical for physical restoration (growth hormone release, immune function, tissue repair). REM sleep is most critical for emotional processing, memory integration, and cognitive function. Stage 2 sleep constitutes the largest portion of sleep and has important roles in motor learning and cognitive consolidation. The question is somewhat like asking which meal of the day is most important.</p>
+    </div>
+  </div>
+
+</article>
 
   <footer>
     <div class="footer-top">

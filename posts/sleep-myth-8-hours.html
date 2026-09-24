@@ -55,7 +55,14 @@
     @media print{nav,footer,.disclosure-box,.product-cta,.article-cta,.social-share,.article-likes,.sticky-buy-bar,.related-articles{display:none!important;}body{background:white;color:black;}.article-wrapper{max-width:100%;padding:0;}}
     @media(max-width:768px){.nav-hamburger{display:flex;}.nav-links{display:none;position:fixed;top:68px;left:0;right:0;background:rgba(10,14,26,0.97);flex-direction:column;padding:1.5rem 6%;gap:1rem;z-index:99;border-bottom:1px solid var(--border);}.nav-links.open{display:flex;}.footer-top{grid-template-columns:1fr 1fr;gap:1.5rem;}.article-wrapper h1{font-size:2rem;}.product-cta{flex-direction:column;text-align:center;}}
     @media(max-width:480px){.footer-top{grid-template-columns:1fr;}.article-wrapper h1{font-size:1.6rem;}.article-intro{font-size:0.95rem;}}
-  </style>
+  
+  .faq-visible-section { margin: 2.5rem 0; }
+  .faq-visible-section h2 { margin-bottom: 1rem; }
+  .faq-visible-item { margin: 0 0 1.4rem 0; padding-bottom: 1.2rem; border-bottom: 1px solid var(--border, #1e2d45); }
+  .faq-visible-item:last-child { border-bottom: none; padding-bottom: 0; }
+  .faq-visible-item h3 { font-size: 1.02rem; color: var(--gold, #c9a84c); margin-bottom: 0.5rem; }
+  .faq-visible-item p { font-size: 0.95rem; color: var(--text, #e8eaf0); line-height: 1.7; margin: 0; }
+</style>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -298,7 +305,28 @@
       <li><a href="wind-down-routine.html">How to Build a Wind-Down Routine That Actually Works</a></li>
       <li><a href="sleep-myth-train-body-less-sleep.html">Sleep Myth: You Can Train Your Body to Need Less Sleep</a></li>
     </ul></div>
-  </article>
+  
+  <div class="faq-visible-section" id="faq">
+    <h2>Frequently Asked Questions</h2>
+    <div class="faq-visible-item">
+      <h3>Does everyone need 8 hours of sleep?</h3>
+      <p>No — 8 hours is a population median, not a universal requirement. The evidence-based recommendation is 7-9 hours for adults, with genuine individual variation. Approximately 35% of adults have optimal performance at 7 hours; others need 8.5-9 hours. True genetic short sleepers (who function optimally on 6 hours) exist but constitute under 3% of the population. The test of sufficient sleep: do you wake before your alarm feeling refreshed, without morning grogginess? If not, you're likely not getting enough.</p>
+    </div>
+    <div class="faq-visible-item">
+      <h3>Is 6 hours of sleep enough?</h3>
+      <p>For the vast majority of adults, no. Research consistently shows cognitive and physiological impairment at 6 hours per night, even when individuals feel adapted. A landmark study at U Penn Sleep Center showed that subjects sleeping 6 hours per night for 14 days showed the same cognitive impairment as someone awake for 24 consecutive hours — yet rated themselves as only slightly sleepy. The adaptation of subjective sleepiness is the most dangerous aspect of chronic 6-hour sleep.</p>
+    </div>
+    <div class="faq-visible-item">
+      <h3>Can you die from too much sleep?</h3>
+      <p>Sleeping over 9 hours is associated with increased mortality in population studies, but the relationship is likely reverse causation — illness (undetected cancer, depression, cardiovascular disease) causes hypersomnia rather than sleep causing death. Experimentally extending healthy adults' sleep beyond their natural need produces no harm. The 9-hour mortality association reflects a selection effect: sick people sleep more, not that sleep itself is harmful above 9 hours.</p>
+    </div>
+    <div class="faq-visible-item">
+      <h3>How do I know how much sleep I need?</h3>
+      <p>The most accurate method: spend 2 weeks without obligations or an alarm (vacation, extended time off). Go to bed when tired and wake when natural. After the first week (recovery from prior debt), your natural sleep duration stabilizes — this is your personal sleep need. Most adults land between 7-9 hours using this method. If no such opportunity exists, track how you feel on days you naturally wake before an alarm versus days you need one to stop sleeping.</p>
+    </div>
+  </div>
+
+</article>
 
   <footer>
     <div class="footer-top">

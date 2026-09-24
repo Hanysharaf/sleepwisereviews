@@ -64,6 +64,13 @@ footer{background:#060912;border-top:1px solid var(--border);padding:50px 6% 30p
 @media print{nav,footer,.disclosure-box,.product-cta,.article-cta,.social-share,.article-likes,.sticky-buy-bar,.related-articles{display:none!important;}body{background:white;color:black;}.article-wrapper{max-width:100%;padding:0;}}
 @media(max-width:768px){.nav-hamburger{display:flex;}.nav-links{display:none;position:fixed;top:68px;left:0;right:0;background:rgba(10,14,26,0.97);flex-direction:column;padding:1.5rem 6%;gap:1rem;z-index:99;border-bottom:1px solid var(--border);}.nav-links.open{display:flex;}.footer-top{grid-template-columns:1fr 1fr;gap:1.5rem;}.article-wrapper h1{font-size:2rem;}.product-cta{flex-direction:column;text-align:center;}}
 @media(max-width:480px){.footer-top{grid-template-columns:1fr;}.article-wrapper h1{font-size:1.6rem;}.article-intro{font-size:0.95rem;}}
+
+  .faq-visible-section { margin: 2.5rem 0; }
+  .faq-visible-section h2 { margin-bottom: 1rem; }
+  .faq-visible-item { margin: 0 0 1.4rem 0; padding-bottom: 1.2rem; border-bottom: 1px solid var(--border, #1e2d45); }
+  .faq-visible-item:last-child { border-bottom: none; padding-bottom: 0; }
+  .faq-visible-item h3 { font-size: 1.02rem; color: var(--gold, #c9a84c); margin-bottom: 0.5rem; }
+  .faq-visible-item p { font-size: 0.95rem; color: var(--text, #e8eaf0); line-height: 1.7; margin: 0; }
 </style><script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -237,6 +244,27 @@ footer{background:#060912;border-top:1px solid var(--border);padding:50px 6% 30p
 <li><a href="wrong-bedroom-temperature.html">Wrong: Your Bedroom Temperature Setup</a></li>
 <li><a href="wrong-warm-milk-before-bed.html">Wrong: Warm Milk Before Bed</a></li>
 </ul></div>
+
+  <div class="faq-visible-section" id="faq">
+    <h2>Frequently Asked Questions</h2>
+    <div class="faq-visible-item">
+      <h3>Why is hitting snooze bad for you?</h3>
+      <p>When you snooze and fall back asleep, your brain preferentially pulls back toward a deeper sleep stage. Waking from that deeper stage a few minutes later produces worse sleep inertia — grogginess and impaired cognition — than if you had simply gotten up after the first alarm.</p>
+    </div>
+    <div class="faq-visible-item">
+      <h3>Do sunrise alarm clocks actually work?</h3>
+      <p>Yes. Studies, including a 2014 trial in the Journal of Sleep Research, found simulated dawn exposure significantly reduced sleep inertia and improved subjective alertness compared to a standard alarm, even at the same total sleep duration, because light begins the hormonal wake-up process before the alarm sounds.</p>
+    </div>
+    <div class="faq-visible-item">
+      <h3>How many alarms should you set?</h3>
+      <p>One. Setting multiple alarms trains your brain to treat the first alarm as a cue to briefly surface and go back to sleep rather than as the real wake signal, which is a difficult conditioned response to break.</p>
+    </div>
+    <div class="faq-visible-item">
+      <h3>What should you do if you cannot stop hitting snooze?</h3>
+      <p>Treat it as a signal that your bedtime is too late, not that you need a better snooze strategy. Move bedtime 15-30 minutes earlier until you wake feeling ready at your intended alarm time.</p>
+    </div>
+  </div>
+
 </article>
 <footer><div class="footer-top">
 <div class="footer-brand"><a class="logo" href="../">SleepWise<span>Reviews</span></a><p>Honest, science-backed reviews to help you sleep deeper, recover faster, and wake up energized.</p></div>

@@ -62,7 +62,14 @@
     @media print{nav,footer,.disclosure-box,.product-cta,.article-cta,.social-share,.article-likes,.sticky-buy-bar,.related-articles{display:none!important;}body{background:white;color:black;}.article-wrapper{max-width:100%;padding:0;}}
     @media(max-width:768px){.nav-hamburger{display:flex;}.nav-links{display:none;position:fixed;top:68px;left:0;right:0;background:rgba(10,14,26,0.97);flex-direction:column;padding:1.5rem 6%;gap:1rem;z-index:99;border-bottom:1px solid var(--border);}.nav-links.open{display:flex;}.footer-top{grid-template-columns:1fr 1fr;gap:1.5rem;}.article-wrapper h1{font-size:2rem;}.product-cta{flex-direction:column;text-align:center;}}
     @media(max-width:480px){.footer-top{grid-template-columns:1fr;}.article-wrapper h1{font-size:1.6rem;}.article-intro{font-size:0.95rem;}}
-  </style>
+  
+  .faq-visible-section { margin: 2.5rem 0; }
+  .faq-visible-section h2 { margin-bottom: 1rem; }
+  .faq-visible-item { margin: 0 0 1.4rem 0; padding-bottom: 1.2rem; border-bottom: 1px solid var(--border, #1e2d45); }
+  .faq-visible-item:last-child { border-bottom: none; padding-bottom: 0; }
+  .faq-visible-item h3 { font-size: 1.02rem; color: var(--gold, #c9a84c); margin-bottom: 0.5rem; }
+  .faq-visible-item p { font-size: 0.95rem; color: var(--text, #e8eaf0); line-height: 1.7; margin: 0; }
+</style>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -274,7 +281,28 @@
       <li><a href="sleep-stages-explained.html">Sleep Stages Explained: What Happens When You Sleep</a></li>
       <li><a href="wind-down-routine.html">How to Build a Wind-Down Routine That Works</a></li>
     </ul></div>
-  </article>
+  
+  <div class="faq-visible-section" id="faq">
+    <h2>Frequently Asked Questions</h2>
+    <div class="faq-visible-item">
+      <h3>Can your body really adapt to needing less sleep?</h3>
+      <p>For nearly everyone, no. Research from Dr. David Dinges and Dr. Charles Czeisler found that after a few days on restricted sleep, people stop reporting feeling sleepy even as their objective cognitive performance keeps declining — what feels like adaptation is actually the brain losing the ability to judge its own impairment.</p>
+    </div>
+    <div class="faq-visible-item">
+      <h3>Do true short sleepers exist?</h3>
+      <p>Yes, but they are rare. A mutation in the DEC2 gene (and related genes) allows an estimated 1-3% of the population to function on 6 hours or less with no measurable cognitive impairment. If you need caffeine, feel groggy, or rely on weekends to recover, you are almost certainly not one of them.</p>
+    </div>
+    <div class="faq-visible-item">
+      <h3>What happens cognitively after two weeks of 6-hour sleep?</h3>
+      <p>In Czeisler's research, cognitive deficits after 14 days of 6-hour nights were as severe as after 24 hours of total sleep deprivation — yet participants reported feeling only "slightly sleepy," showing how disconnected self-perception becomes from actual impairment.</p>
+    </div>
+    <div class="faq-visible-item">
+      <h3>How can you find out your real sleep need?</h3>
+      <p>Sleep with no alarm for two full weeks. The first several nights may include 10+ hours as your body repays accumulated sleep debt; by the end of two weeks your natural sleep duration stabilizes around your genuine requirement.</p>
+    </div>
+  </div>
+
+</article>
 
   <footer>
     <div class="footer-top">

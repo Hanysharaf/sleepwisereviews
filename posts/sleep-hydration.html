@@ -204,7 +204,14 @@
       transition: background 0.2s;
     }
     .btn-gold:hover { background: var(--gold-light); color: var(--night); text-decoration: none; }
-  </style>
+  
+  .faq-visible-section { margin: 2.5rem 0; }
+  .faq-visible-section h2 { margin-bottom: 1rem; }
+  .faq-visible-item { margin: 0 0 1.4rem 0; padding-bottom: 1.2rem; border-bottom: 1px solid var(--border, #1e2d45); }
+  .faq-visible-item:last-child { border-bottom: none; padding-bottom: 0; }
+  .faq-visible-item h3 { font-size: 1.02rem; color: var(--gold, #c9a84c); margin-bottom: 0.5rem; }
+  .faq-visible-item p { font-size: 0.95rem; color: var(--text, #e8eaf0); line-height: 1.7; margin: 0; }
+</style>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -547,7 +554,28 @@
       </div>
     </div>
 
-  </article>
+  
+  <div class="faq-visible-section" id="faq">
+    <h2>Frequently Asked Questions</h2>
+    <div class="faq-visible-item">
+      <h3>How does dehydration affect sleep?</h3>
+      <p>Mild dehydration (as little as 1-2% body water loss) increases sleep fragmentation, reduces sleep efficiency, and is associated with shorter sleep duration. The mechanism involves dehydration-triggered increases in vasopressin (ADH), which appears to signal the brain to stay alert for water-seeking behavior. Dehydrated sleepers also experience more nighttime leg cramps (which cause arousals) and morning headaches. Athletes in hot climates show significantly worse sleep metrics when inadequately hydrated.</p>
+    </div>
+    <div class="faq-visible-item">
+      <h3>Should I drink water before bed?</h3>
+      <p>Small amounts (4-8 oz) 30-60 minutes before bed can prevent the mild dehydration that fragments sleep, particularly in warm climates or after exercise. Excessive water intake close to bedtime increases nocturia (nighttime urination) in older adults and those with bladder sensitivity — which causes more sleep disruption than it prevents. Optimal approach: ensure adequate hydration throughout the day rather than front-loading before bed.</p>
+    </div>
+    <div class="faq-visible-item">
+      <h3>What is nocturia and how does it affect sleep?</h3>
+      <p>Nocturia is waking to urinate during the sleep period, occurring two or more times per night. It affects 33% of people over 30 and up to 77% of those over 70. The most common causes: overactive bladder, enlarged prostate (in men), excessive fluid or diuretic intake in the evening, sleep apnea (which increases atrial natriuretic peptide, driving nocturnal urine production), and cardiac or renal insufficiency. Nocturia is the leading cause of sleep fragmentation in older adults and warrants medical evaluation if severe.</p>
+    </div>
+    <div class="faq-visible-item">
+      <h3>Does alcohol cause dehydration during sleep?</h3>
+      <p>Yes. Alcohol is a diuretic — it suppresses vasopressin (ADH), the hormone that instructs the kidneys to reabsorb water. This produces more urine output than the fluid consumed, resulting in net fluid loss. Overnight, this dehydration contributes to morning headaches, dry mouth, and the fatigue that characterizes hangovers. Drinking a glass of water for each alcoholic drink and having water before bed partially mitigates alcohol-induced dehydration.</p>
+    </div>
+  </div>
+
+</article>
 
   <!-- AFFILIATE CTA -->
   <div class="product-cta" style="margin:2rem 0;padding:1.5rem;background:var(--card);border:1px solid rgba(201,168,76,0.3);border-radius:10px;text-align:center">

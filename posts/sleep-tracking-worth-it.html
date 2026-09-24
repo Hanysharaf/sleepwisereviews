@@ -191,7 +191,14 @@
       .article-intro { font-size: 0.95rem; }
       .btn-amazon { padding: 12px 24px; min-height: 44px; display: inline-flex; align-items: center; }
     }
-  </style>
+  
+  .faq-visible-section { margin: 2.5rem 0; }
+  .faq-visible-section h2 { margin-bottom: 1rem; }
+  .faq-visible-item { margin: 0 0 1.4rem 0; padding-bottom: 1.2rem; border-bottom: 1px solid var(--border, #1e2d45); }
+  .faq-visible-item:last-child { border-bottom: none; padding-bottom: 0; }
+  .faq-visible-item h3 { font-size: 1.02rem; color: var(--gold, #c9a84c); margin-bottom: 0.5rem; }
+  .faq-visible-item p { font-size: 0.95rem; color: var(--text, #e8eaf0); line-height: 1.7; margin: 0; }
+</style>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -420,7 +427,28 @@
         <li><a href="article-white-noise-machines.html">7 Best White Noise Machines That Actually Block Sound</a></li>
       </ul>
     </div>
-  </article>
+  
+  <div class="faq-visible-section" id="faq">
+    <h2>Frequently Asked Questions</h2>
+    <div class="faq-visible-item">
+      <h3>Are sleep trackers worth buying?</h3>
+      <p>For most people: yes, with appropriate expectations. The value lies in behavioral pattern identification (correlating alcohol, exercise, or stress with sleep quality), trend monitoring (seeing multi-week improvement from behavior changes), and objective measurement (overcoming the subjective misperception of sleep quality). The value diminishes for people prone to health anxiety, as nightly score-checking can worsen insomnia through orthosomnia.</p>
+    </div>
+    <div class="faq-visible-item">
+      <h3>What is the most accurate consumer sleep tracker?</h3>
+      <p>Among consumer devices, Oura Ring Gen 3 and Garmin wearables consistently perform best in independent validation studies for HRV accuracy and sleep staging. Apple Watch sleep tracking has improved significantly but performs below rings for HRV. Fitbit and Withings show decent sleep duration accuracy but weaker stage accuracy. No consumer device matches clinical polysomnography for stage accuracy — but for trend monitoring and HRV, current leaders are within clinically useful range.</p>
+    </div>
+    <div class="faq-visible-item">
+      <h3>Can sleep trackers diagnose sleep disorders?</h3>
+      <p>No — consumer sleep trackers cannot diagnose sleep disorders and should not be used for this purpose. They cannot detect the EEG patterns needed to diagnose narcolepsy, parasomnias, or accurately characterize sleep apnea severity. Home sleep apnea tests (prescribed by physicians) and in-lab polysomnography are diagnostic tools. A consumer tracker that consistently shows low sleep efficiency, very fragmented sleep, or unusually low HRV may indicate a problem worth discussing with a physician — but it cannot diagnose.</p>
+    </div>
+    <div class="faq-visible-item">
+      <h3>How do I use sleep tracker data to improve sleep?</h3>
+      <p>Most effective approach: look at week-over-week trends rather than nightly scores; compare sleep quality on days you exercised vs. did not; track the impact of alcohol (even one drink shows up in HRV and sleep fragmentation data); use it to verify that behavior changes are producing objective improvement; and treat consistently poor sleep data as a prompt to seek professional evaluation rather than to optimize settings.</p>
+    </div>
+  </div>
+
+</article>
 
   <footer>
     <div class="footer-top">

@@ -62,6 +62,13 @@ footer{background:#060912;border-top:1px solid var(--border);padding:50px 6% 30p
 @media print{nav,footer,.disclosure-box,.product-cta,.article-cta,.social-share,.article-likes,.sticky-buy-bar,.related-articles{display:none!important;}body{background:white;color:black;}.article-wrapper{max-width:100%;padding:0;}}
 @media(max-width:768px){.nav-hamburger{display:flex;}.nav-links{display:none;position:fixed;top:68px;left:0;right:0;background:rgba(10,14,26,0.97);flex-direction:column;padding:1.5rem 6%;gap:1rem;z-index:99;border-bottom:1px solid var(--border);}.nav-links.open{display:flex;}.footer-top{grid-template-columns:1fr 1fr;gap:1.5rem;}.article-wrapper h1{font-size:2rem;}.product-cta{flex-direction:column;text-align:center;}}
 @media(max-width:480px){.footer-top{grid-template-columns:1fr;}.article-wrapper h1{font-size:1.6rem;}.article-intro{font-size:0.95rem;}}
+
+  .faq-visible-section { margin: 2.5rem 0; }
+  .faq-visible-section h2 { margin-bottom: 1rem; }
+  .faq-visible-item { margin: 0 0 1.4rem 0; padding-bottom: 1.2rem; border-bottom: 1px solid var(--border, #1e2d45); }
+  .faq-visible-item:last-child { border-bottom: none; padding-bottom: 0; }
+  .faq-visible-item h3 { font-size: 1.02rem; color: var(--gold, #c9a84c); margin-bottom: 0.5rem; }
+  .faq-visible-item p { font-size: 0.95rem; color: var(--text, #e8eaf0); line-height: 1.7; margin: 0; }
 </style><script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -236,6 +243,27 @@ footer{background:#060912;border-top:1px solid var(--border);padding:50px 6% 30p
 <li><a href="wrong-counting-sheep.html">Wrong: Counting Sheep. Right: The Cognitive Shuffle</a></li>
 <li><a href="wind-down-routine.html">How to Build an Evidence-Based Wind-Down Routine</a></li>
 </ul></div>
+
+  <div class="faq-visible-section" id="faq">
+    <h2>Frequently Asked Questions</h2>
+    <div class="faq-visible-item">
+      <h3>What is the correct dose of melatonin?</h3>
+      <p>A meta-analysis of 19 randomized controlled trials in PLOS ONE found the effective dose for sleep onset was around 0.3mg — close to what the body produces naturally. Standard 5-10mg pharmacy doses are 10-30 times higher than what the evidence supports and add side effects without added benefit.</p>
+    </div>
+    <div class="faq-visible-item">
+      <h3>When should you take melatonin?</h3>
+      <p>About two hours before your target sleep time, not right at bedtime. Natural melatonin begins rising roughly two hours before habitual sleep onset, so taking it at bedtime adds little benefit to circadian timing.</p>
+    </div>
+    <div class="faq-visible-item">
+      <h3>Is melatonin a sedative?</h3>
+      <p>No. It is a circadian timing signal that tells the body it is nighttime — it does not directly induce unconsciousness. Its strongest evidence is for circadian issues like jet lag and shift work, not as a general nightly sleep aid.</p>
+    </div>
+    <div class="faq-visible-item">
+      <h3>Can taking too much melatonin cause dependency?</h3>
+      <p>Regularly flooding the body with high-dose exogenous melatonin can downregulate the pineal gland's own production over time, creating a functional dependency. Research found 3mg suppressed endogenous production for up to 36 hours, while 0.5mg left it largely unaffected.</p>
+    </div>
+  </div>
+
 </article>
 <footer><div class="footer-top">
 <div class="footer-brand"><a class="logo" href="../">SleepWise<span>Reviews</span></a><p>Honest, science-backed reviews to help you sleep deeper, recover faster, and wake up energized.</p></div>

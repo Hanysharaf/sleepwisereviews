@@ -217,7 +217,14 @@
     .comparison-table tr:nth-child(even) td { background: rgba(26,34,56,0.4); }
     .comparison-table tr:first-child td { color: var(--gold); font-weight: 500; }
     .badge-best { background: var(--gold-dim); color: var(--gold); padding: 2px 8px; border-radius: 4px; font-size: 0.72rem; font-weight: 600; }
-  </style>
+  
+  .faq-visible-section { margin: 2.5rem 0; }
+  .faq-visible-section h2 { margin-bottom: 1rem; }
+  .faq-visible-item { margin: 0 0 1.4rem 0; padding-bottom: 1.2rem; border-bottom: 1px solid var(--border, #1e2d45); }
+  .faq-visible-item:last-child { border-bottom: none; padding-bottom: 0; }
+  .faq-visible-item h3 { font-size: 1.02rem; color: var(--gold, #c9a84c); margin-bottom: 0.5rem; }
+  .faq-visible-item p { font-size: 0.95rem; color: var(--text, #e8eaf0); line-height: 1.7; margin: 0; }
+</style>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -634,7 +641,24 @@
         <li><a href="sleep-disorders-overview.html">Sleep Disorders Overview: From Insomnia to Narcolepsy</a></li>
       </ul>
     </div>
-  </article>
+  
+  <div class="faq-visible-section" id="faq">
+    <h2>Frequently Asked Questions</h2>
+    <div class="faq-visible-item">
+      <h3>What are the alternatives to CPAP for sleep apnea?</h3>
+      <p>The main CPAP alternatives are: (1) Mandibular Advancement Devices (MAD) -- custom or OTC mouthguards that reposition the jaw to open the airway, effective for mild to moderate OSA; (2) Positional therapy -- devices that prevent back sleeping for those with positional sleep apnea; (3) EPAP (Expiratory Positive Airway Pressure) -- nasal valves that create backpressure on exhalation; (4) Surgery -- uvulopalatopharyngoplasty (UPPP) or tongue base procedures; (5) Weight loss -- particularly effective for obesity-related OSA.</p>
+    </div>
+    <div class="faq-visible-item">
+      <h3>Can I treat sleep apnea without CPAP?</h3>
+      <p>Mild to moderate sleep apnea (AHI 5-30) may be managed without CPAP using a well-fitted MAD, positional therapy, or significant weight loss. Severe sleep apnea (AHI &gt;30) typically requires CPAP or surgical intervention for adequate treatment. Always consult a sleep medicine specialist before stopping CPAP therapy -- undertreated sleep apnea significantly increases cardiovascular and metabolic disease risk.</p>
+    </div>
+    <div class="faq-visible-item">
+      <h3>Are MADs as effective as CPAP?</h3>
+      <p>For mild to moderate sleep apnea, custom-fitted MADs achieve similar quality-of-life outcomes to CPAP despite technically lower AHI reduction. Compliance is the key factor: CPAP works better when worn consistently, but patients use MADs more consistently (average 6-7 hours vs. 4-5 hours for CPAP). In real-world use, patient compliance often makes MADs comparably effective.</p>
+    </div>
+  </div>
+
+</article>
 
   <footer>
     <div class="footer-top">

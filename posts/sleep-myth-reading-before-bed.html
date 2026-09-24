@@ -64,7 +64,14 @@
     @media print{nav,footer,.disclosure-box,.product-cta,.article-cta,.social-share,.article-likes,.sticky-buy-bar,.related-articles{display:none!important;}body{background:white;color:black;}.article-wrapper{max-width:100%;padding:0;}}
     @media(max-width:768px){.nav-hamburger{display:flex;}.nav-links{display:none;position:fixed;top:68px;left:0;right:0;background:rgba(10,14,26,0.97);flex-direction:column;padding:1.5rem 6%;gap:1rem;z-index:99;border-bottom:1px solid var(--border);}.nav-links.open{display:flex;}.footer-top{grid-template-columns:1fr 1fr;gap:1.5rem;}.article-wrapper h1{font-size:2rem;}.product-cta{flex-direction:column;text-align:center;}}
     @media(max-width:480px){.footer-top{grid-template-columns:1fr;}.article-wrapper h1{font-size:1.6rem;}.article-intro{font-size:0.95rem;}}
-  </style>
+  
+  .faq-visible-section { margin: 2.5rem 0; }
+  .faq-visible-section h2 { margin-bottom: 1rem; }
+  .faq-visible-item { margin: 0 0 1.4rem 0; padding-bottom: 1.2rem; border-bottom: 1px solid var(--border, #1e2d45); }
+  .faq-visible-item:last-child { border-bottom: none; padding-bottom: 0; }
+  .faq-visible-item h3 { font-size: 1.02rem; color: var(--gold, #c9a84c); margin-bottom: 0.5rem; }
+  .faq-visible-item p { font-size: 0.95rem; color: var(--text, #e8eaf0); line-height: 1.7; margin: 0; }
+</style>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -289,7 +296,28 @@
       <li><a href="melatonin-guide.html">Melatonin Guide: Dosing, Timing, and What It Actually Does</a></li>
       <li><a href="sleep-myth-sleeping-pills-insomnia.html">Sleep Myth: Sleeping Pills Are the Best Fix for Insomnia</a></li>
     </ul></div>
-  </article>
+  
+  <div class="faq-visible-section" id="faq">
+    <h2>Frequently Asked Questions</h2>
+    <div class="faq-visible-item">
+      <h3>Is reading before bed actually bad for sleep?</h3>
+      <p>No — the myth is that all reading helps equally regardless of format. A print book in dim, warm light genuinely supports sleep. The same content on a bright tablet delays sleep onset and suppresses melatonin for 90 minutes or more.</p>
+    </div>
+    <div class="faq-visible-item">
+      <h3>Is a Kindle better than a tablet for reading in bed?</h3>
+      <p>Yes, but it depends on the settings. Standard e-ink devices emit less blue light than tablets, and warm/amber light modes on Kindle Paperwhite or Kobo Libra shift the spectrum away from blue wavelengths, substantially reducing the sleep impact when used at low brightness.</p>
+    </div>
+    <div class="faq-visible-item">
+      <h3>Does the type of book matter for pre-bed reading?</h3>
+      <p>Yes. High-arousal content like thrillers and cliffhanger-driven fiction increases heart rate and cortisol, keeping the sympathetic nervous system active. Lower-arousal content — essays, non-fiction, absorbing but not anxious fiction — winds the mind down instead.</p>
+    </div>
+    <div class="faq-visible-item">
+      <h3>What is the best setup for reading before bed?</h3>
+      <p>A print book under a warm-tone (2700K or lower) reading lamp is the gold standard. If using an e-reader, switch to its warmest light mode at minimum readable brightness, and avoid tablets and phones for bedtime reading altogether.</p>
+    </div>
+  </div>
+
+</article>
 
   <footer>
     <div class="footer-top">

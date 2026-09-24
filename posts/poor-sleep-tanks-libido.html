@@ -110,7 +110,14 @@
     @media print { nav, footer, .disclosure-box, .product-cta, .article-cta, .social-share, .article-likes, .sticky-buy-bar, .related-articles { display: none !important; } body { background: white; color: black; } .article-wrapper { max-width: 100%; padding: 0; } }
     @media (max-width: 768px) { .nav-hamburger { display: flex; } .nav-links { display: none; position: fixed; top: 68px; left: 0; right: 0; background: rgba(10,14,26,0.97); flex-direction: column; padding: 1.5rem 6%; gap: 1rem; z-index: 99; border-bottom: 1px solid var(--border); } .nav-links.open { display: flex; } .footer-top { grid-template-columns: 1fr 1fr; gap: 1.5rem; } .article-wrapper h1 { font-size: 2rem; } .product-cta { flex-direction: column; text-align: center; } }
     @media (max-width: 480px) { .footer-top { grid-template-columns: 1fr; } .article-wrapper h1 { font-size: 1.6rem; } .article-intro { font-size: 0.95rem; } }
-  </style>
+  
+  .faq-visible-section { margin: 2.5rem 0; }
+  .faq-visible-section h2 { margin-bottom: 1rem; }
+  .faq-visible-item { margin: 0 0 1.4rem 0; padding-bottom: 1.2rem; border-bottom: 1px solid var(--border, #1e2d45); }
+  .faq-visible-item:last-child { border-bottom: none; padding-bottom: 0; }
+  .faq-visible-item h3 { font-size: 1.02rem; color: var(--gold, #c9a84c); margin-bottom: 0.5rem; }
+  .faq-visible-item p { font-size: 0.95rem; color: var(--text, #e8eaf0); line-height: 1.7; margin: 0; }
+</style>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -340,7 +347,28 @@
         <li><a href="magnesium-types-sleep.html">The Best Types of Magnesium for Sleep</a></li>
       </ul>
     </div>
-  </article>
+  
+  <div class="faq-visible-section" id="faq">
+    <h2>Frequently Asked Questions</h2>
+    <div class="faq-visible-item">
+      <h3>How much does poor sleep lower testosterone?</h3>
+      <p>A University of Chicago study found that one week of 5-hour sleep nights dropped testosterone by 10-15% in healthy young men — equivalent to 10-15 years of natural age-related decline. Testosterone production is concentrated in deep and REM sleep, so cutting sleep directly cuts the production window.</p>
+    </div>
+    <div class="faq-visible-item">
+      <h3>Does poor sleep affect libido in women too?</h3>
+      <p>Yes. Sleep deprivation disrupts the LH surge pattern that governs estrogen cycling, reducing arousal and genital sensitivity. Research in the Archives of Sexual Behavior found each additional hour of sleep was associated with a 14% increase in next-day sexual desire in women.</p>
+    </div>
+    <div class="faq-visible-item">
+      <h3>Why does cortisol from poor sleep lower sex drive?</h3>
+      <p>Cortisol and testosterone have an inverse relationship — when cortisol is chronically elevated from sleep loss, the body suppresses testosterone as part of a survival response. Elevated cortisol also impairs dopamine signaling, the neurotransmitter most tied to desire and motivation.</p>
+    </div>
+    <div class="faq-visible-item">
+      <h3>How do you break the poor-sleep-low-libido feedback loop?</h3>
+      <p>Intervene at either end: improving sleep quality restores hormonal status and libido, or prioritizing intimacy despite fatigue restarts the oxytocin and prolactin cycle that supports sleep. Protecting 7-9 hours with a consistent wake time and a cool, dark bedroom is the foundational first step.</p>
+    </div>
+  </div>
+
+</article>
 
   <footer>
     <div class="footer-top">

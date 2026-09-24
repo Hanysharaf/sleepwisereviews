@@ -194,7 +194,14 @@
       transition: background 0.2s;
     }
     .btn-gold:hover { background: var(--gold-light); color: var(--night); text-decoration: none; }
-  </style>
+  
+  .faq-visible-section { margin: 2.5rem 0; }
+  .faq-visible-section h2 { margin-bottom: 1rem; }
+  .faq-visible-item { margin: 0 0 1.4rem 0; padding-bottom: 1.2rem; border-bottom: 1px solid var(--border, #1e2d45); }
+  .faq-visible-item:last-child { border-bottom: none; padding-bottom: 0; }
+  .faq-visible-item h3 { font-size: 1.02rem; color: var(--gold, #c9a84c); margin-bottom: 0.5rem; }
+  .faq-visible-item p { font-size: 0.95rem; color: var(--text, #e8eaf0); line-height: 1.7; margin: 0; }
+</style>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -524,7 +531,28 @@
       </div>
     </div>
 
-  </article>
+  
+  <div class="faq-visible-section" id="faq">
+    <h2>Frequently Asked Questions</h2>
+    <div class="faq-visible-item">
+      <h3>How does sleep affect lifespan?</h3>
+      <p>Sleep duration and quality are among the strongest behavioral predictors of longevity in epidemiological research. Consistently sleeping under 6 hours or over 9 hours is associated with 12-30% higher all-cause mortality in meta-analyses of large cohort studies. Sleep supports virtually every longevity-relevant biological process: cardiovascular repair, immune function, cellular repair, hormonal regulation, and amyloid clearance from the brain. Inadequate sleep accelerates biological aging at the cellular level.</p>
+    </div>
+    <div class="faq-visible-item">
+      <h3>Does sleeping less shorten your life?</h3>
+      <p>Based on current evidence, yes — chronic short sleep is associated with shorter lifespan. A large UK Biobank study found that sleeping under 6 hours was associated with 30% higher risk of premature death from all causes, particularly cardiovascular and cancer mortality. The effect is dose-dependent and remains significant after controlling for other lifestyle factors. This does not mean every night of short sleep is harmful — it is the chronic pattern that drives risk.</p>
+    </div>
+    <div class="faq-visible-item">
+      <h3>What is the optimal sleep duration for longevity?</h3>
+      <p>The 7-8 hour range consistently shows the lowest all-cause mortality risk in large population studies. The relationship is U-shaped: both too little (under 6 hours) and too much (over 9 hours) are associated with increased mortality. The over-9-hour association likely reflects reverse causation (illness causing longer sleep) rather than sleep itself causing harm. For healthy adults, 7-9 hours is the target range.</p>
+    </div>
+    <div class="faq-visible-item">
+      <h3>Does napping affect longevity?</h3>
+      <p>Regular daytime napping (2-3 times per week) is associated with lower cardiovascular mortality in Mediterranean populations (the Siestas and health study). However, napping in populations where it is not culturally established shows inconsistent associations — some studies suggest napping is a marker of poor nighttime sleep rather than a cause of mortality. For adults with adequate nighttime sleep, a brief afternoon nap is either neutral or slightly beneficial for longevity markers.</p>
+    </div>
+  </div>
+
+</article>
 
   <!-- AFFILIATE CTA -->
   <div class="product-cta" style="margin:2rem 0;padding:1.5rem;background:var(--card);border:1px solid rgba(201,168,76,0.3);border-radius:10px;text-align:center">

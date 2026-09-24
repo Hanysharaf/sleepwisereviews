@@ -211,7 +211,14 @@
       transition: background 0.2s;
     }
     .btn-gold:hover { background: var(--gold-light); color: var(--night); text-decoration: none; }
-  </style>
+  
+  .faq-visible-section { margin: 2.5rem 0; }
+  .faq-visible-section h2 { margin-bottom: 1rem; }
+  .faq-visible-item { margin: 0 0 1.4rem 0; padding-bottom: 1.2rem; border-bottom: 1px solid var(--border, #1e2d45); }
+  .faq-visible-item:last-child { border-bottom: none; padding-bottom: 0; }
+  .faq-visible-item h3 { font-size: 1.02rem; color: var(--gold, #c9a84c); margin-bottom: 0.5rem; }
+  .faq-visible-item p { font-size: 0.95rem; color: var(--text, #e8eaf0); line-height: 1.7; margin: 0; }
+</style>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -622,7 +629,28 @@
       </div>
     </div>
 
-  </article>
+  
+  <div class="faq-visible-section" id="faq">
+    <h2>Frequently Asked Questions</h2>
+    <div class="faq-visible-item">
+      <h3>What is the gut-brain axis?</h3>
+      <p>The gut-brain axis is the bidirectional communication network between the enteric nervous system (the gut's own nervous system, containing more neurons than the spinal cord) and the central nervous system. Communication occurs through the vagus nerve (direct neural pathway), the enteric nervous system's local circuits, bloodstream (hormones, cytokines, short-chain fatty acids), and immune signaling. The gut produces most of the body's serotonin, significant GABA, and signals that influence the brain's sleep-wake regulation.</p>
+    </div>
+    <div class="faq-visible-item">
+      <h3>How do gut bacteria affect sleep?</h3>
+      <p>Gut bacteria influence sleep through multiple pathways: producing serotonin (melatonin precursor), GABA (the primary inhibitory neurotransmitter promoting sleep), and short-chain fatty acids that influence circadian gene expression directly. Microbial composition correlates with sleep stage distribution — people with more diverse microbiomes tend to show better sleep efficiency and more slow-wave sleep. The relationship is active and bidirectional, not merely correlational.</p>
+    </div>
+    <div class="faq-visible-item">
+      <h3>Does sleep affect gut bacteria?</h3>
+      <p>Yes, directly. The gut microbiome has its own circadian rhythm synchronized to the host's clock. Sleep disruption (jet lag, shift work, poor sleep quality) alters microbial timing and composition — including increases in Firmicutes (associated with weight gain and inflammation) and decreases in beneficial Bacteroidetes. Recovery of normal sleep partially restores microbial balance. This connection explains why shift workers have higher rates of metabolic syndrome — microbiome disruption is one mechanism.</p>
+    </div>
+    <div class="faq-visible-item">
+      <h3>Can you improve sleep by improving gut health?</h3>
+      <p>The evidence is building but not yet conclusive for clinical recommendations. Prebiotic supplementation (increasing fermentable fiber that feeds gut bacteria) showed improved slow-wave sleep and reduced nighttime waking in one double-blind trial. Probiotic-rich and high-fiber diets are associated with better sleep quality in observational studies. Whether gut health improvement causally improves sleep in clinical populations requires more study — but the intervention is safe and beneficial for multiple health reasons.</p>
+    </div>
+  </div>
+
+</article>
 
   <!-- AFFILIATE CTA -->
   <div class="product-cta" style="margin:2rem 0;padding:1.5rem;background:var(--card);border:1px solid rgba(201,168,76,0.3);border-radius:10px;text-align:center">

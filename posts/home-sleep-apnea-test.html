@@ -147,7 +147,14 @@
     footer p { color: var(--muted); font-size: 0.82rem; }
     footer a { color: var(--gold); text-decoration: none; }
     @media (max-width: 600px) { .article-wrapper h1 { font-size: 1.8rem; } .comparison-table { font-size: 0.78rem; } }
-  </style>
+  
+  .faq-visible-section { margin: 2.5rem 0; }
+  .faq-visible-section h2 { margin-bottom: 1rem; }
+  .faq-visible-item { margin: 0 0 1.4rem 0; padding-bottom: 1.2rem; border-bottom: 1px solid var(--border, #1e2d45); }
+  .faq-visible-item:last-child { border-bottom: none; padding-bottom: 0; }
+  .faq-visible-item h3 { font-size: 1.02rem; color: var(--gold, #c9a84c); margin-bottom: 0.5rem; }
+  .faq-visible-item p { font-size: 0.95rem; color: var(--text, #e8eaf0); line-height: 1.7; margin: 0; }
+</style>
 </head>
 <body>
 
@@ -359,7 +366,28 @@
       </ul>
     </div>
 
-  </article>
+  
+  <div class="faq-visible-section" id="faq">
+    <h2>Frequently Asked Questions</h2>
+    <div class="faq-visible-item">
+      <h3>Is a home sleep apnea test as accurate as an in-lab study?</h3>
+      <p>For suspected obstructive sleep apnea in adults without significant comorbidities, home sleep apnea tests (HSATs) are clinically equivalent to in-lab polysomnography for diagnosis. The American Academy of Sleep Medicine (AASM) guidelines support HSAT as the preferred diagnostic tool for uncomplicated OSA. HSATs may underestimate AHI (apnea-hypopnea index) by 10-20% because total recording time is used rather than total sleep time, but this rarely affects clinical decision-making.</p>
+    </div>
+    <div class="faq-visible-item">
+      <h3>Does insurance cover home sleep apnea tests?</h3>
+      <p>Most major US insurance plans — including Medicare, Medicaid, and private insurers — cover home sleep apnea tests when ordered by a physician and there's clinical suspicion of OSA. Typical out-of-pocket costs after insurance range from $0 to $200. Without insurance, home sleep tests typically cost $150-300, compared to $1,000-3,500 for in-lab studies.</p>
+    </div>
+    <div class="faq-visible-item">
+      <h3>Can I buy a home sleep apnea test without a doctor?</h3>
+      <p>Yes. Services like Lofta, WatchPAT One, and Sleep.com offer physician-connected HSAT programs where you order online, receive the device, complete the test at home, and a physician reviews and signs off on the results. Costs range from $129-350. These are not purely consumer devices — a physician reviews the data — but you don't need a pre-existing prescription to start the process.</p>
+    </div>
+    <div class="faq-visible-item">
+      <h3>What AHI score indicates sleep apnea?</h3>
+      <p>AHI (Apnea-Hypopnea Index) measures breathing events per hour of sleep. Mild OSA: AHI 5-14; Moderate OSA: AHI 15-29; Severe OSA: AHI 30+. An AHI under 5 is considered normal for adults (under 1.5 for children). Note that AHI alone doesn't capture oxygen desaturation severity — a patient with AHI 10 but frequent drops below 88% SpO2 may need treatment that a patient with AHI 20 but minimal desaturation does not.</p>
+    </div>
+  </div>
+
+</article>
 
   <footer>
     <p>&copy; 2025&ndash;2026 <a href="../">SleepWise Reviews</a> &middot; Evidence-based sleep guidance &middot; <a href="../pages/privacy-policy.html">Privacy</a></p>

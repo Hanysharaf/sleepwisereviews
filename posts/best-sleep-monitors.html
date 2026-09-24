@@ -405,7 +405,14 @@
     @media (max-width: 768px) {
       .nav-hamburger { display: flex; }
     }
-  </style>
+  
+  .faq-visible-section { margin: 2.5rem 0; }
+  .faq-visible-section h2 { margin-bottom: 1rem; }
+  .faq-visible-item { margin: 0 0 1.4rem 0; padding-bottom: 1.2rem; border-bottom: 1px solid var(--border, #1e2d45); }
+  .faq-visible-item:last-child { border-bottom: none; padding-bottom: 0; }
+  .faq-visible-item h3 { font-size: 1.02rem; color: var(--gold, #c9a84c); margin-bottom: 0.5rem; }
+  .faq-visible-item p { font-size: 0.95rem; color: var(--text, #e8eaf0); line-height: 1.7; margin: 0; }
+</style>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -889,7 +896,24 @@
       <li>Beattie, Z., et al. (2017). Estimation of sleep stages in a healthy adult population from optical plethysmography and accelerometer signals. <em>Physiological Measurement</em>, 38(11).</li>
       <li>Mikkelsen, K. B., et al. (2019). Accurate whole-night sleep monitoring with dry-contact ear-EEG. <em>Scientific Reports</em>, 9(1).</li>
     </ul>
+  
+  <div class="faq-visible-section" id="faq">
+    <h2>Frequently Asked Questions</h2>
+    <div class="faq-visible-item">
+      <h3>How accurate are consumer sleep monitors?</h3>
+      <p>Consumer sleep monitors (wearables, bedside devices) track sleep stages with 70-80% accuracy compared to clinical polysomnography (the gold standard). They are reliable for tracking sleep timing and duration, and reasonably reliable for identifying sleep stage patterns over time. Single-night sleep stage data from a consumer device should not be used for clinical decisions. Trends over 2-4 weeks are more meaningful than individual nights.</p>
+    </div>
+    <div class="faq-visible-item">
+      <h3>What is the best sleep monitor without a wearable?</h3>
+      <p>Bedside non-contact monitors like the Withings Sleep Analyzer use ballistocardiography (body movement and heart rate detected through the mattress surface) to track sleep without wearing anything. Accuracy is similar to wrist-based wearables. The radar-based Google Nest Hub (2nd gen) and the Emfit QS are other solid non-wearable options. For contact-free tracking, mattress sensor pads outperform phone-based tracking.</p>
+    </div>
+    <div class="faq-visible-item">
+      <h3>Should I sleep with my phone next to my bed for sleep tracking?</h3>
+      <p>Not ideal. Phone-based sleep tracking is less accurate than dedicated wearables and requires keeping your phone near the bed (with potential blue light and notification exposure). If you use a phone for sleep tracking, put it face-down on airplane mode with only the alarm active. A dedicated wearable or bedside sensor is preferable.</p>
+    </div>
   </div>
+
+</div>
 
 
     <div class="related-articles">

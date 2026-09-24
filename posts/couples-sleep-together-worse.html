@@ -64,7 +64,14 @@
     @media print{nav,footer,.disclosure-box,.product-cta,.article-cta,.social-share,.article-likes,.sticky-buy-bar,.related-articles{display:none!important;}body{background:white;color:black;}.article-wrapper{max-width:100%;padding:0;}}
     @media(max-width:768px){.nav-hamburger{display:flex;}.nav-links{display:none;position:fixed;top:68px;left:0;right:0;background:rgba(10,14,26,0.97);flex-direction:column;padding:1.5rem 6%;gap:1rem;z-index:99;border-bottom:1px solid var(--border);}.nav-links.open{display:flex;}.footer-top{grid-template-columns:1fr 1fr;gap:1.5rem;}.article-wrapper h1{font-size:2rem;}.product-cta{flex-direction:column;text-align:center;}}
     @media(max-width:480px){.footer-top{grid-template-columns:1fr;}.article-wrapper h1{font-size:1.6rem;}.article-intro{font-size:0.95rem;}}
-  </style>
+  
+  .faq-visible-section { margin: 2.5rem 0; }
+  .faq-visible-section h2 { margin-bottom: 1rem; }
+  .faq-visible-item { margin: 0 0 1.4rem 0; padding-bottom: 1.2rem; border-bottom: 1px solid var(--border, #1e2d45); }
+  .faq-visible-item:last-child { border-bottom: none; padding-bottom: 0; }
+  .faq-visible-item h3 { font-size: 1.02rem; color: var(--gold, #c9a84c); margin-bottom: 0.5rem; }
+  .faq-visible-item p { font-size: 0.95rem; color: var(--text, #e8eaf0); line-height: 1.7; margin: 0; }
+</style>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -290,7 +297,28 @@
       <li><a href="sleep-myth-8-hours.html">Sleep Myth: You Need Exactly 8 Hours Every Night</a></li>
       <li><a href="sleep-stages-explained.html">Sleep Stages Explained: What Actually Happens When You Sleep</a></li>
     </ul></div>
-  </article>
+  
+  <div class="faq-visible-section" id="faq">
+    <h2>Frequently Asked Questions</h2>
+    <div class="faq-visible-item">
+      <h3>Why do couples report better sleep satisfaction but worse sleep data?</h3>
+      <p>Co-sleeping activates oxytocin and reduces cortisol, creating a felt sense of security that raises subjective sleep satisfaction. But objective data shows more fragmentation from motion, temperature, and sound disruption. The emotional benefit is real, but it operates separately from sleep quality.</p>
+    </div>
+    <div class="faq-visible-item">
+      <h3>What causes the most sleep disruption between partners?</h3>
+      <p>Three mechanisms: motion transfer (a partner's movement waking the other), temperature mismatch (two bodies producing more heat than one, with different thermal preferences), and sound, primarily snoring. Most couples deal with all three simultaneously without realizing it.</p>
+    </div>
+    <div class="faq-visible-item">
+      <h3>Is a sleep divorce bad for a relationship?</h3>
+      <p>Not when it comes from a mutual, open decision to solve a mechanical sleep problem. Research from RAND found couples who openly acknowledged sleep issues and made intentional arrangements — including sometimes sleeping apart — showed no reduction in relationship satisfaction compared to couples who struggled silently in the same bed.</p>
+    </div>
+    <div class="faq-visible-item">
+      <h3>What is the single most effective fix for co-sleeping disruption?</h3>
+      <p>Upgrading to a motion-isolating mattress (individually pocketed coils or memory foam hybrid) addresses the most well-documented disruption mechanism at the source, followed by separate blankets for temperature and a white noise machine for sound.</p>
+    </div>
+  </div>
+
+</article>
 
   <footer>
     <div class="footer-top">

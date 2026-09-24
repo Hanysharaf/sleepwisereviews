@@ -198,7 +198,14 @@
 
     /* Horizontal scroll wrapper for wide tables on mobile */
     .table-scroll { overflow-x: auto; margin: 1.5rem 0 2rem; }
-  </style>
+  
+  .faq-visible-section { margin: 2.5rem 0; }
+  .faq-visible-section h2 { margin-bottom: 1rem; }
+  .faq-visible-item { margin: 0 0 1.4rem 0; padding-bottom: 1.2rem; border-bottom: 1px solid var(--border, #1e2d45); }
+  .faq-visible-item:last-child { border-bottom: none; padding-bottom: 0; }
+  .faq-visible-item h3 { font-size: 1.02rem; color: var(--gold, #c9a84c); margin-bottom: 0.5rem; }
+  .faq-visible-item p { font-size: 0.95rem; color: var(--text, #e8eaf0); line-height: 1.7; margin: 0; }
+</style>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -619,7 +626,28 @@
         <li><a href="reset-sleep-schedule.html">How to Reset Your Sleep Schedule in 3 Days</a></li>
       </ul>
     </div>
-  </article>
+  
+  <div class="faq-visible-section" id="faq">
+    <h2>Frequently Asked Questions</h2>
+    <div class="faq-visible-item">
+      <h3>How long does jet lag last?</h3>
+      <p>Jet lag duration scales with time zone distance: roughly 1 day of recovery per time zone crossed. Eastward travel is harder — the circadian clock advances more slowly than it delays. A 6-hour eastward crossing typically takes 5-7 days without intervention; active measures (light therapy, timed melatonin) can cut this to 3-4 days.</p>
+    </div>
+    <div class="faq-visible-item">
+      <h3>Does melatonin help with jet lag?</h3>
+      <p>Yes, when used correctly. For eastward travel, 0.3-0.5mg taken at the destination bedtime for 3-4 nights accelerates clock resynchronization. For westward travel, melatonin is less necessary — the clock delays naturally. Key: keep the dose low (0.5mg maximum) to avoid grogginess that worsens daytime adaptation.</p>
+    </div>
+    <div class="faq-visible-item">
+      <h3>What is the fastest way to recover from jet lag?</h3>
+      <p>The most effective combination is: (1) light therapy at destination wake time to advance or delay the clock, (2) 0.5mg melatonin at destination bedtime, (3) staying awake until local bedtime on arrival day, and (4) avoiding naps longer than 20 minutes. Light is the most powerful zeitgeber — a 10,000-lux lamp for 20-30 minutes each morning accelerates adaptation faster than melatonin alone.</p>
+    </div>
+    <div class="faq-visible-item">
+      <h3>Should I adjust to the new time zone immediately upon arrival?</h3>
+      <p>Yes for trips lasting 4+ days. Immediately adopt the local schedule — meals, light exposure, sleep timing — rather than maintaining home time. For trips shorter than 3 days, maintaining your home schedule may be more practical and reduces adaptation stress.</p>
+    </div>
+  </div>
+
+</article>
 
   <!-- AFFILIATE CTA -->
   <div class="product-cta" style="margin:2rem 0;padding:1.5rem;background:var(--card);border:1px solid rgba(201,168,76,0.3);border-radius:10px;text-align:center">

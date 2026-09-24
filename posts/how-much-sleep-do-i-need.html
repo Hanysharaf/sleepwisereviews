@@ -147,7 +147,14 @@
     footer p { color: var(--muted); font-size: 0.82rem; }
     footer a { color: var(--gold); text-decoration: none; }
     @media (max-width: 600px) { .article-wrapper h1 { font-size: 1.8rem; } }
-  </style>
+  
+  .faq-visible-section { margin: 2.5rem 0; }
+  .faq-visible-section h2 { margin-bottom: 1rem; }
+  .faq-visible-item { margin: 0 0 1.4rem 0; padding-bottom: 1.2rem; border-bottom: 1px solid var(--border, #1e2d45); }
+  .faq-visible-item:last-child { border-bottom: none; padding-bottom: 0; }
+  .faq-visible-item h3 { font-size: 1.02rem; color: var(--gold, #c9a84c); margin-bottom: 0.5rem; }
+  .faq-visible-item p { font-size: 0.95rem; color: var(--text, #e8eaf0); line-height: 1.7; margin: 0; }
+</style>
 </head>
 <body>
 
@@ -326,7 +333,28 @@
       </ul>
     </div>
 
-  </article>
+  
+  <div class="faq-visible-section" id="faq">
+    <h2>Frequently Asked Questions</h2>
+    <div class="faq-visible-item">
+      <h3>Is 6 hours of sleep enough?</h3>
+      <p>For approximately 3% of the population — short sleepers with a DEC2 gene mutation — 6 hours is genuinely sufficient. For everyone else, 6 hours causes measurable cognitive impairment within days. The deceptive part: after 14+ days of 6-hour sleep, people report feeling normal even as performance tests show significant deficits. Most people who believe 6 hours is enough are simply adapted to a state of chronic impairment.</p>
+    </div>
+    <div class="faq-visible-item">
+      <h3>How do I know how much sleep I need?</h3>
+      <p>The most reliable method: choose two weeks with no fixed schedule (vacation, extended leave). Go to bed when tired, wake without an alarm. The first 3-4 nights you'll likely oversleep as you repay sleep debt. From day 5 onward, your natural sleep duration reflects your genetic sleep need. Most people land between 7.5-8.5 hours. A sleep tracker can help identify trends, but the alarm-free experiment is the most accurate measure.</p>
+    </div>
+    <div class="faq-visible-item">
+      <h3>Why do I need more sleep than others?</h3>
+      <p>Genetic sleep need varies by up to 3 hours between individuals. Factors that increase your sleep requirement include: physical training load (athletes need 8.5-10 hours during heavy training), illness or recovery, pregnancy (especially first trimester), altitude changes, and certain medications. Some people are also inherently 'long sleepers' — their genetics simply require more time in slow-wave sleep for full restoration.</p>
+    </div>
+    <div class="faq-visible-item">
+      <h3>Can you train yourself to need less sleep?</h3>
+      <p>No. You can adapt to feeling less tired on less sleep, but adaptation is not the same as needing less sleep — it's just losing the ability to accurately assess your own impairment. The genetic sleep need is set by DEC2, ADRB1, and related gene variants. No behavioral intervention changes this. Claims about 'optimizing' sleep to 6 hours or polyphasic adaptation have not held up in controlled studies under conditions where subjects couldn't self-report subjective energy.</p>
+    </div>
+  </div>
+
+</article>
 
   <footer>
     <p>&copy; 2025&ndash;2026 <a href="../">SleepWise Reviews</a> &middot; Evidence-based sleep guidance &middot; <a href="../pages/privacy-policy.html">Privacy</a></p>

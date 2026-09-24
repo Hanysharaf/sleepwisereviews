@@ -198,7 +198,14 @@
       .article-intro { font-size: 0.95rem; }
       .btn-amazon { padding: 12px 24px; min-height: 44px; display: inline-flex; align-items: center; }
     }
-  </style>
+  
+  .faq-visible-section { margin: 2.5rem 0; }
+  .faq-visible-section h2 { margin-bottom: 1rem; }
+  .faq-visible-item { margin: 0 0 1.4rem 0; padding-bottom: 1.2rem; border-bottom: 1px solid var(--border, #1e2d45); }
+  .faq-visible-item:last-child { border-bottom: none; padding-bottom: 0; }
+  .faq-visible-item h3 { font-size: 1.02rem; color: var(--gold, #c9a84c); margin-bottom: 0.5rem; }
+  .faq-visible-item p { font-size: 0.95rem; color: var(--text, #e8eaf0); line-height: 1.7; margin: 0; }
+</style>
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -477,7 +484,28 @@
         <li><a href="sleep-chronotypes.html">Sleep Chronotypes: Are You a Morning Lark or Night Owl?</a></li>
       </ul>
     </div>
-  </article>
+  
+  <div class="faq-visible-section" id="faq">
+    <h2>Frequently Asked Questions</h2>
+    <div class="faq-visible-item">
+      <h3>What is chronobiology?</h3>
+      <p>Chronobiology is the scientific study of biological rhythms — the cyclical changes in physiology, behavior, and biochemistry that occur over time. These rhythms operate at multiple timescales: circadian (approximately 24-hour cycles in sleep, hormones, temperature), ultradian (less than 24 hours — 90-minute sleep cycles, 90-minute REM-NREM cycles while awake), and infradian (longer than 24 hours — menstrual cycles, seasonal rhythms). Understanding these rhythms underlies modern sleep medicine, shift work research, and chronotherapy.</p>
+    </div>
+    <div class="faq-visible-item">
+      <h3>What is a zeitgeber?</h3>
+      <p>A zeitgeber (German for 'time giver') is an external environmental signal that synchronizes the internal circadian clock to the 24-hour day. The primary zeitgeber is light — specifically morning bright light that activates ipRGCs in the retina to signal the suprachiasmatic nucleus. Secondary zeitgebers include meal timing, exercise, social interaction, and temperature changes. Without zeitgebers, the internal clock runs slightly longer than 24 hours (approximately 24.2 hours), gradually drifting out of sync with the day.</p>
+    </div>
+    <div class="faq-visible-item">
+      <h3>What is the free-running period?</h3>
+      <p>The free-running period (tau) is the natural, unentrained period of the circadian clock — what the clock would do without external zeitgebers. In humans, tau averages approximately 24.2 hours. Because tau is slightly longer than 24 hours, the clock naturally drifts later without morning light exposure to advance it. This is why isolation in constant conditions (underground, polar night) causes people to gradually drift toward later sleep timing.</p>
+    </div>
+    <div class="faq-visible-item">
+      <h3>How does chronobiology apply to medicine?</h3>
+      <p>Chronotherapy applies chronobiological principles to optimize medical treatment timing. Examples: blood pressure medications are most effective when taken at night (when blood pressure rises paradoxically in some patients), chemotherapy drugs have different efficacy and toxicity profiles depending on time of administration, surgery outcomes vary by time of day (afternoon cardiac surgery has lower complications than morning), and statins are most effective taken in the evening (when HMG-CoA reductase is most active). Chronotherapy is an emerging field with significant clinical implications.</p>
+    </div>
+  </div>
+
+</article>
 
   <footer>
     <div class="footer-top">
