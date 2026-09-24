@@ -231,6 +231,13 @@ class WebsiteManager:
                 )
             faq_html = f'<div class="faq"><h2>Frequently Asked Questions</h2>{"".join(faq_items)}</div>'
 
+        # Related Guides section (see CLAUDE.md "Every post must carry a Related Guides
+        # section" guardrail). article_data may supply pre-built "related_html"
+        # (matching the .related-guides / .related-guides-grid markup in
+        # article_template.html); defaults to empty so the placeholder never renders
+        # literally if no related links were provided.
+        related_html = article_data.get("related_html", "")
+
         # Calculate read time (average 200 words per minute)
         word_count = len(content_html.split())
         read_time = max(1, round(word_count / 200))
@@ -252,6 +259,7 @@ class WebsiteManager:
             "{{READ_TIME}}": str(read_time),
             "{{CONTENT}}": content_html,
             "{{FAQ_SECTION}}": faq_html,
+            "{{RELATED_SECTION}}": related_html,
             "{{IG_HANDLE}}": IG_HANDLE,
             "{{IG_URL}}": f"https://www.instagram.com/{IG_HANDLE.lstrip('@')}"
         }

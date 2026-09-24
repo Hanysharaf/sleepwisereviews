@@ -302,6 +302,48 @@
             text-decoration: none;
         }
 
+        /* Related Guides */
+        .related-guides {
+            background: var(--background-color);
+            padding: 2rem;
+            border-radius: 12px;
+            margin: 2rem 0;
+        }
+
+        .related-guides h2 {
+            margin-top: 0;
+            padding-top: 0;
+            border-top: none;
+            font-size: 1.05rem;
+            letter-spacing: 0.04em;
+            text-transform: uppercase;
+            color: var(--secondary-color);
+        }
+
+        .related-guides-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+        }
+
+        .related-guides-grid .related-card {
+            background: var(--card-background);
+            border: 1px solid var(--border-color);
+            border-radius: 8px;
+            padding: 1rem;
+        }
+
+        .related-guides-grid .related-card h3 {
+            font-size: 0.95rem;
+            margin: 0 0 0.35rem;
+        }
+
+        .related-guides-grid .related-card p {
+            font-size: 0.85rem;
+            color: var(--text-light);
+            margin: 0;
+        }
+
         /* Footer */
         footer {
             text-align: center;
@@ -383,6 +425,8 @@
                 <a href="/products/" class="cta-button">Browse Products</a>
             </div>
         </article>
+
+        {{RELATED_SECTION}}
 
         <footer>
             <p>&copy; {{YEAR}} SleepWise Reviews. All rights reserved.</p>

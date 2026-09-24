@@ -103,6 +103,23 @@ When Sonnet hits rate limits mid-batch, fall back to Haiku for steps 4–5 (SEO 
 
 **FAQPage JSON-LD must always be paired with a visible FAQ section — never JSON-only.** If a post's schema includes `"@type": "FAQPage"`, the same questions and answers — same wording, no paraphrasing — must also render as real content on the page: `<h2>Frequently Asked Questions</h2>` followed by one `<h3>` (question) + `<p>` (answer) pair per JSON-LD entry, wrapped in `.faq-visible-item` blocks inside a `.faq-visible-section` container (CSS: `var(--gold, #c9a84c)` for question text, `var(--text, #e8eaf0)` for answers, `var(--border, #1e2d45)` for item dividers — these var() fallbacks make the block render correctly regardless of which color-variable family the post's own `<style>` block uses). Insert it as a sibling among the post's other top-level H2 sections, placed right before whichever comes first: `.related-articles`, `.related-guides`, `</main>`, or `<footer>`. Google's structured-data guideline requires marked-up content to actually be visible to readers — JSON-only FAQ content risks losing rich-result eligibility or a manual action for spammy markup. A 2026-09-24 audit found 261 posts with this gap by raw pattern-matching, but a proper check (parsing DOM Q/A across all three template shapes in use — `.faq-item` divs, `<details><summary>`, and bare heading+`<p>` pairs — then comparing against JSON-LD Q/A text) narrowed the real "zero visible representation" set to 168, which were backfilled; 91 further posts render a FAQ with different wording than their schema (a separate, unresolved issue — do not conflate the two) — see `sleepwise_faq_visible_content_audit` memory.
 
+**Every post must carry a Related Guides section — no post should link to nothing else on the site.** In the Internal Linking step (or Draft/Deploy, if internal links are assembled then), every post — including generic product-roundup posts (`best-pillow`, `best-topper`, `best-sheets`, `best-gadget`, etc.), not just condition-guide posts — must include a `<section class="related-guides">` block with 3–5 links to genuinely topical posts (same product category, adjacent condition/use-case, or a relevant educational article) — never a "6 most recent posts" or fully-random fallback. Each link is a card with the target's real title and a one-line reason it's relevant, e.g.:
+```html
+<section class="related-guides" style="background:var(--card,#111e33);border-top:2px solid var(--border,#1e3a5f);padding:2rem 1.25rem;margin-top:2rem;">
+  <div style="max-width:820px;margin:0 auto;">
+    <h2 style="color:var(--gold,#c9a84c);font-size:1.05rem;letter-spacing:.04em;margin-bottom:1rem;text-transform:uppercase;">Related Guides</h2>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(200px,1fr));gap:1rem;">
+      <div style="background:var(--bg,#0a1628);border:1px solid var(--border,#1e3a5f);border-radius:.5rem;padding:1rem;">
+        <h3 style="font-size:.9rem;font-weight:700;margin:0 0 .35rem;line-height:1.3;"><a href="TARGET.html" style="color:var(--gold,#c9a84c);text-decoration:none;">Target Post Title</a></h3>
+        <p style="font-size:.8rem;color:var(--muted,#8892a4);margin:0;line-height:1.4;">One-line reason this is genuinely related.</p>
+      </div>
+      <!-- 2-4 more cards -->
+    </div>
+  </div>
+</section>
+```
+Use `var(--x, #hex)` fallbacks (not hardcoded hex) exactly as shown — same reasoning as the FAQ guardrail above — so the block renders correctly regardless of which color-variable family the post's own `<style>` block defines. Insert it right before `<footer` (all templates in use close every content wrapper before that point, so a full-bleed section is always safe there). A 2026-09-24 audit found 116 of 202 generic product-roundup posts had zero internal links anywhere in the body (condition-guide posts were ~89% covered via this same pattern) — backfilled with topically-curated links per post, not mechanical/recent-post filler — see `sleepwise_related_posts_backfill` memory. **This step lives in the workflow, not only in `automation/templates/article_template.html`** — that template is currently dormant (the real publish pipeline is `automation/publish_scheduler.py` copying pre-authored files from `scheduled/`, per `sleepwise_actual_publish_pipeline` memory), so relying on the template alone would not have caught this gap; the template also has the corresponding `{{RELATED_SECTION}}` placeholder for completeness, but the enforcement point is this workflow step.
+
 ## Project Documents
 
 - **Constitution / full project doc**: `..\..\Ravi\projects\sleepwisereviews.md` — stack, Make.com scenario, Telegram bot, GitHub Actions, affiliate programs, current status, routing table
