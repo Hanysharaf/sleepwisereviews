@@ -61,6 +61,8 @@ python auto_scheduler.py --post-pinterest 1
 python auto_scheduler.py --daily-report
 ```
 
+**Isolated Python env for SWR scripts.** The global Python has a pydantic/pydantic-core mismatch (core 2.49.0 installed, pydantic 2.13.5 needs 2.46.5) that breaks `openai` imports, e.g. in `scripts/generators/generate_ig_images.py`. Use the dedicated venv instead of changing the global env: `C:\Users\Hany\venvs\swr\Scripts\python.exe` (outside OneDrive on purpose; built from `requirements.txt` plus `google-auth google-auth-oauthlib`; `pip check` clean). Rebuild: `python -m venv C:\Users\Hany\venvs\swr`, then `C:\Users\Hany\venvs\swr\Scripts\pip install -r requirements.txt google-auth google-auth-oauthlib`.
+
 ## Environment Variables (.env)
 - TELEGRAM_BOT_TOKEN - From @BotFather
 - TELEGRAM_CHAT_ID - Your chat ID
