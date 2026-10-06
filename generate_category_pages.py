@@ -127,6 +127,14 @@ def trim_excerpt(text, max_chars=160):
 PAGE_TEMPLATE = '''<!DOCTYPE html>
 <html lang="en">
 <head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-ZKGY2B72WH"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){{dataLayer.push(arguments);}}
+  gtag('js', new Date());
+  gtag('config', 'G-ZKGY2B72WH');
+</script>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>{cat_name} — SleepWise Reviews ({count} Articles)</title>
