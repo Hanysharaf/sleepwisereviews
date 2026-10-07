@@ -54,6 +54,8 @@ Google Sheets document serving as the central content calendar: tracks article s
 
 - Sheet name: "SleepWise Reviews - Content Calendar 2026"
 - Sheet ID: `1KeWK1xO5eiD2YbFe63Fx8sV9Vf6jUwi57h71fc8zb5o`
+- Tabs (verified 2026-10-07, read-only via the repo's service account; 10 tabs): `IG QUEUE`, `PINTEREST QUEUE` (91 rows), `TIKTOK QUEUE`, `YT SHORTS QUEUE`, `THREADS QUEUE`, `MONTHLY CALENDAR`, `PHASE CHECKPOINTS`, `ANALYTICS`, `CONTENT IDEAS`, `Content Calendar`.
+- Tab `Content Calendar` is the article-publishing schedule (live, used daily by `automation/publish_scheduler.py` and `automation/seo_pipeline.py`; the "Publish Scheduled Articles" workflow ran successfully 2026-10-04 to 10-06). Columns: `publish_date`, `article_filename`, `article_title`, `category`, `status`, `published_at`. 56 data rows at 2026-10-07 (31 PENDING, 25 PUBLISHED). The "Calendar Columns (inferred from scripts)" table above describes the social-queue tabs, not this tab.
 - Tab: `IG QUEUE`
 - Columns (confirmed 2026-08-04, in order): ID, Scheduled Date, Content Type, Hook/Title, Caption, Hashtags, Visual Prompt, Image URL, Affiliate Link, Status, Posted At, Post URL, Notes, Platform, QA, Slide 2 URL, Slide 3 URL, Slide 4 URL, Slide 5 URL
 
@@ -63,6 +65,6 @@ Google Sheets document serving as the central content calendar: tracks article s
 - [x] ~~`google_credentials.json` and `service_account.json` in `data/` directory — these are secrets; should be in GitHub Actions Secrets, not the filesystem~~ — RESOLVED. Verified 2026-08-21: both are gitignored and not committed.
 - [x] ~~No column schema document~~ — RESOLVED 2026-08-04, see Sheet Identity above.
 - [ ] No status for Facebook posts column — Facebook pipeline not yet in the calendar
-- [ ] No Pinterest queue column in Google Sheets — Pinterest uses `pinterest_queue.json` separately (two separate systems for the same calendar concept)
+- [x] ~~No Pinterest queue column in Google Sheets~~ — STALE, corrected 2026-10-07: a `PINTEREST QUEUE` tab with 91 rows exists in the sheet. `pinterest_queue.json` (20 items, last changed 2026-05-26) is a separate older local queue; the two are not synced.
 - [ ] Social post content for already-published articles not retroactively added to the sheet
 - [ ] QA status column is documented as "review flag before posting" but the Make.com posting scenario (spec 006) does not actually check it — only Status=PENDING gates posting. Documentation says one thing, the automation does another.

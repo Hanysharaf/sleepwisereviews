@@ -64,7 +64,7 @@ GitHub Pages static site hosting 633 published HTML articles and 15 static pages
 
 ## Analytics
 
-- **Google Analytics 4**: `G-ZKGY2B72WH` — site-wide by decision (2026-08-31, Hany). Backfilled onto all 457 posts, 12 category hub pages, the post-generator template, and 2 internal artifact files (`automation/data/review.html`, `docs/SleepWiseReviews-ActionPlan.html`) — Hany chose full coverage over excluding internal files. Tool: `automation/scripts/patch_ga4_tag.py`, idempotent — re-run after any future gap. Confirmed: 725 of 725 HTML files tagged.
+- **Google Analytics 4**: `G-ZKGY2B72WH` — site-wide by decision (2026-08-31, Hany). Backfilled onto all 457 posts, 12 category hub pages, the post-generator template, and 2 internal artifact files (`automation/data/review.html`, `docs/SleepWiseReviews-ActionPlan.html`) — Hany chose full coverage over excluding internal files. Tool: `automation/scripts/patch_ga4_tag.py`, idempotent — re-run after any future gap. Confirmed: 725 of 725 HTML files tagged. **Correction 2026-10-07:** that claim went stale: the hub generators (`generate_posts_index.py`, `generate_category_pages.py`) had no GA4 code, so regenerating the hubs dropped the tag from `posts/index.html` and all 12 `posts/category/*.html` (13 files uncovered; `patch_ga4_tag.py` only globs `posts/*.html`). Fixed the same day: both generators now emit the tag, the hubs were regenerated, and live pages verified (`/posts/`, `/posts/category/health-conditions.html`, `/posts/category/supplements.html`, `/404.html` each contain the ID). Root `404.html` also carries it. Any new generator that writes HTML must emit the tag itself.
 - **Google Search Console**: verified via GA tag; `sitemap.xml` submitted (30 pages discovered as of last audit)
 
 ---
