@@ -24,10 +24,22 @@ Google Sheets document serving as the central content calendar: tracks article s
 
 ---
 
-## Calendar Columns (inferred from scripts)
+## Calendar Columns
+
+Article schedule = tab `Content Calendar` (verified 2026-10-07; 56 data rows, PENDING 31 / PUBLISHED 25):
 
 | Column | Purpose |
 |--------|---------|
+| publish_date | Scheduled publish date |
+| article_filename | File under `scheduled/` that `publish_scheduler.py` copies to `posts/` |
+| article_title | Article title |
+| category | Content category |
+| status | `PENDING` -> `PUBLISHED` |
+| published_at | Timestamp written when published |
+
+Instagram queue columns (tab `IG QUEUE`) are listed under Sheet Identity below.
+
+--------|---------|
 | Article title | SEO target keyword |
 | Content type | Category (product review, guide, science, etc.) |
 | Publish date | Scheduled publish date |
