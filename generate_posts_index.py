@@ -350,7 +350,6 @@ html_out = f'''<!DOCTYPE html>
         <div class="contact-options">
           <a href="mailto:hello@sleepwisereviews.com" class="contact-btn">&#x2709; Email Us</a>
           <a href="https://www.instagram.com/sleepwise.reviews" class="contact-btn" rel="noopener noreferrer" target="_blank">&#x1F4F7; Instagram DM</a>
-          <a href="https://sleepwisereviews.com/subscribe.html" class="contact-btn gold">&#x1F4E7; Weekly Sleep Tips</a>
         </div>
       </div>
     </div>
