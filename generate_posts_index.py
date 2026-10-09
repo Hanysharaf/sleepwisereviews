@@ -226,7 +226,7 @@ html_out = f'''<!DOCTYPE html>
 </script>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>All Sleep Guides &amp; Articles — SleepWise Reviews ({total_count} Articles)</title>
+  <title>All Sleep Guides &amp; Articles ({total_count} Articles)</title>
   <meta name="description" content="Browse {total_count} science-backed sleep guides across 12 topics — insomnia, mattresses, sleep science, health conditions, and more." />
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://sleepwisereviews.com/posts/" />
