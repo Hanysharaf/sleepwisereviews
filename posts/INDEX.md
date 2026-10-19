@@ -183,3 +183,4 @@ Template reference: `sleep-stages-explained.html` (has breadcrumb, likes, TOC, s
 | 176 | relationship-partner-sleep-deprived.html | What Happens to Your Relationship When One Partner Is Chronically Sleep-Deprived | Sex & Sleep | Sep 2026 |
 | 177 | sleep-myth-snoring-not-dangerous.html | Sleep Myth: Snoring Is Just Annoying - Not Dangerous | Sleep Myths | Oct 2026 |
 | 178 | wrong-warm-milk-before-bed.html | Wrong: Warm Milk Before Bed. Right: The Sleep Foods and Supplements That Actually Work | Wrong vs Right | Oct 2026 |
+| 179 | best-split-king-mattresses-couples.html | Best Split King and Dual Comfort Mattresses for Couples With Different Sleep Needs | Sex & Mattress | Oct 2026 |
