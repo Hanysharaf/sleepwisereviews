@@ -9,10 +9,10 @@ Every content artifact is a file committed to the GitHub repo. No database, no C
 Every article containing affiliate links MUST include the Amazon Associates disclosure statement at the top of the article body. Social posts MUST NOT contain direct affiliate URLs. The affiliate tag `sleepwiserevi-20` MUST appear in every Amazon product link. Omitting disclosure is a policy violation that risks account termination.
 
 ### III. Search Intent Before Volume
-Every keyword MUST demonstrate buyer intent (transactional or "best X for Y" informational with purchase signal). Search volume is a tiebreaker — intent comes first. No keyword enters the content calendar without a clear match to the sleep products niche: ear plugs, sleep masks, pillows, white noise machines, mattress toppers, weighted blankets.
+Every keyword MUST demonstrate buyer intent (transactional or "best X for Y" informational with purchase signal). Search volume is a tiebreaker — intent comes first. No keyword enters the content calendar without a clear match to the sleep products niche: ear plugs, sleep masks, pillows, white noise machines, mattress toppers, weighted blankets. Evidence/answer pages (informational questions such as "does X help you sleep") are allowed when they link to a purchase-intent page in the same hub.
 
 ### IV. One Article → All Channels
-An article is the atomic unit of the pipeline. One keyword in = one HTML article + one Instagram post + one Facebook post + one Google Sheets calendar row updated. Social posts are never created without a published article. A partial pipeline run is a failure state — the pipeline MUST complete all outputs or none.
+An article is the atomic unit of the pipeline. One keyword in = one HTML article + one Instagram post + one Facebook post + one Google Sheets calendar row updated. Social posts are never created without a published article. A partial pipeline run is a failure state — the pipeline MUST complete all outputs or none. Evidence/answer pages and hub pages are exempt from the social-post outputs; their pipeline completes without them.
 
 ### V. Template Consistency
 All article HTML MUST use the existing site template (header/footer/nav structure). No per-article layout customization. Any template change must be propagated to all existing articles before shipping new ones. New articles saved to `/posts/` for blog content or `/pages/` for evergreen guides.
@@ -36,4 +36,4 @@ This constitution is owned by the SleepWiseReviews project. Amendments require r
 
 ---
 
-**Version**: 1.0.0 | **Ratified**: 2026-05-22 | **Last Amended**: 2026-05-22
+**Version**: 1.1.0 | **Ratified**: 2026-05-22 | **Last Amended**: 2026-10-21 (III and IV: evidence/answer pages, per spec 010)
