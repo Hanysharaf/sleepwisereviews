@@ -2,7 +2,7 @@
 
 **Spec**: .specify/specs/010-growth-plan/spec.md
 **Plan**: .specify/specs/010-growth-plan/plan.md
-**Total tasks**: 34
+**Total tasks**: 42
 **Created**: 2026-10-21
 **Day 1**: 2026-10-21 | **Day 30**: 2026-11-20 | **Day 60**: 2026-12-20 | **Day 90**: 2027-01-19
 
@@ -74,6 +74,20 @@ Days 31-60 (remaining pages):
 - [ ] T030 [US5] Re-check the 4 replies posted on 2026-10-21 for answers, and record karma and removals in `deliverables/SleepWiseReviews/growth-tracker.md`
 - [ ] T031 [US5] Publish one link-free standalone post on wake-time versus bedtime on r/sleep and record it in the tracker (day 30)
 - [ ] T032 [US5] Reply to 3 fresh threads per week, short and varied, following subreddit rules
+
+## Phase 7: Off-site authority (P1, US6) - days 15-90
+
+**Goal**: earn relevant links and mentions without paid or manipulative tactics.
+**Done when**: 70 outreach messages sent, 3 earned links recorded, referring domains tracked monthly.
+
+- [ ] T035 [US6] Record today's referring domains and top linking sites from Search Console Links in `deliverables/SleepWiseReviews/growth-tracker.md`
+- [ ] T036 [US6] Build the list of 40 target sites (sleep and health resource pages, sleep blogs and newsletters, reviewer roundups, university and library lists) with the page to link and a contact route in `deliverables/SleepWiseReviews/authority-targets.md`
+- [ ] T037 [P] [US6] Publish a short citable reference page from the hub evidence table at `pages/sleep-aids-evidence-table.html` (sourced, dated, no affiliate links) and add it to `sitemap.xml`
+- [ ] T038 [P] [US6] Write three outreach templates (resource-page addition, outdated-page correction, roundup or newsletter offer) in `deliverables/SleepWiseReviews/authority-outreach-templates.md`; each leads with value, discloses the pen name honestly and makes no credential claims
+- [ ] T039 [US6] Search for unlinked mentions of SleepWiseReviews and Harry Soul and list them with the request to add a link in `deliverables/SleepWiseReviews/authority-targets.md`
+- [ ] T040 [US6] Send 5 personalised outreach messages per week (Hany sends or approves each) and log sender, date, template and reply in `deliverables/SleepWiseReviews/authority-targets.md`
+- [ ] T041 [US6] Follow up once on each message after 7 days and record earned links in `deliverables/SleepWiseReviews/growth-tracker.md`
+- [ ] T042 [US6] On day 60 and day 90, review which message types got replies, stop the ones that did not, and write the result in `deliverables/SleepWiseReviews/growth-tracker.md`
 
 ## Final Phase: Polish and Validation
 

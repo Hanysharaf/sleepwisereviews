@@ -90,6 +90,14 @@ Upgrade the remaining canonical pages and write the two new ones (tart cherry ju
 ### Phase 3: US4 - convert (days 61-90)
 Add honest picks and price bands to the five accessory pages with the most impressions; refresh pages sitting at positions 11-20; start the weekly Associates log; check Amazon Associates policy before any new link placement.
 
+### Authority track: US6 (starts day 15, runs to day 90)
+Why: Search Console shows pages stuck at positions 55 to 118. Honest quality edits are necessary but cannot create authority on their own; relevant sites linking to us can.
+- **Days 15-30:** build the target list (40 sites). Record current referring domains from Search Console Links. Publish one citable asset: the evidence table from the hub as a short, link-ready "sleep aids: what the evidence says" reference.
+- **Days 31-60:** send 5 personalised outreach messages a week (resource-page additions, corrections of outdated pages, offering the evidence table to roundup and newsletter writers). Find unlinked mentions and ask for the link.
+- **Days 61-90:** follow up once, record results, double down on the message types that got replies, drop the rest.
+- **Rules:** no paid links, no link swaps at scale, no private blog networks, no fake credentials or personas. Harry Soul is the pen name; outreach never claims medical credentials. Affiliate relationship is disclosed if asked. Reddit stays link-free.
+- **Expectation:** a low-authority site usually earns few links in 90 days. The target is 3 earned links and 70 messages; a miss is information, not failure.
+
 ### Ongoing: US3 and US5
 Weekly Search Console review; Reddit check each session, no links.
 

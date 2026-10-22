@@ -54,6 +54,16 @@ SleepWiseReviews has 600+ posts but almost no search traffic: 2 web search click
 - [ ] Reply style is varied and shorter, not templated.
 - [ ] Account karma, removals and replies are checked each session.
 
+### US6 (P1): Earn off-site authority (backlinks and mentions)
+**As the** site owner, **I want to** earn links and mentions from relevant sleep, health and consumer sites, **so that** pages can rank beyond page 6 and 7, where quality edits alone cannot take them.
+
+**Acceptance Criteria**:
+- [ ] A target list of 40 relevant sites exists (sleep and health resource pages, sleep-related blogs and newsletters, reviewer roundups, university and library resource lists) with the page each would link to.
+- [ ] At least 5 personalised outreach messages are sent per week, each offering something useful (a sourced fact sheet, a correction, a citation-ready summary), never a request for a link alone.
+- [ ] Unlinked mentions of SleepWiseReviews are found and turned into links where possible.
+- [ ] At least one piece of citable original content exists (for example a "sleep aids evidence table" others can reference) and is promoted.
+- [ ] No paid links, link exchanges at scale, private blog networks, fake credentials or fake personas are used. Outreach discloses that the site has affiliate links when asked.
+
 ## Success Criteria
 
 - Baseline (Search Console, web, last 3 months to 2026-10-21): 2 clicks, 5.45K impressions (about 1.8K per 30 days), average position 54.8, CTR 0%.
@@ -72,6 +82,9 @@ SleepWiseReviews has 600+ posts but almost no search traffic: 2 web search click
 | Organic-attributed affiliate orders | 0 | 0 | 0 | at least 1 |
 | Reddit karma / removed comments | 15 / 0 | 25 / 0 | 40 / 0 | 60 / 0 |
 | Reddit standalone posts (no links) | 0 | 1 | 2 | 4 |
+| Outreach messages sent (cumulative) | 0 | 15 | 40 | 70 |
+| Earned links from relevant sites (cumulative) | 0 | 0 | 1 | 3 |
+| Referring domains in Search Console Links | not recorded | recorded | +1 | +3 |
 
 Site-wide average position is not a target: new pages dilute it. Track the 10 target pages instead.
 
