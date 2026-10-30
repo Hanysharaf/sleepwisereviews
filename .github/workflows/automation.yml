@@ -90,6 +90,13 @@ jobs:
           git config user.name "SleepWise Bot"
           git config user.email "bot@sleepwisereviews.com"
 
+          # Skip when the only change is last_run in state.json
+          if [ "$(git status --porcelain)" = " M automation/data/state.json" ] \
+             && [ -z "$(git diff -U0 automation/data/state.json | grep '^[+-] ' | grep -v '"last_run"')" ]; then
+            echo "Only last_run changed, skipping commit"
+            exit 0
+          fi
+
           # Add all changes
           git add -A
 
