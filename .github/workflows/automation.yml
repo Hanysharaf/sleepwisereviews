@@ -31,9 +31,9 @@ on:
         default: ''
         type: string
 
-# Prevent concurrent runs
+# One shared group for every workflow that commits to main (see publish-scheduler.yml)
 concurrency:
-  group: sleepwise-automation
+  group: swr-main-commits
   cancel-in-progress: false
 
 jobs:
@@ -105,7 +105,16 @@ jobs:
             Triggered by: ${{ github.event_name }}
             Run ID: ${{ github.run_id }}"
 
-            git push
+            for i in 1 2 3; do
+              if git pull --rebase origin main && git push origin HEAD:main; then
+                exit 0
+              fi
+              git rebase --abort 2>/dev/null || true
+              echo "push attempt $i failed, retrying"
+              sleep $((i * 5))
+            done
+            echo "push failed after 3 attempts"
+            exit 1
           fi
 
       # Upload logs as artifact (for debugging)
