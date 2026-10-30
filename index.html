@@ -2264,10 +2264,6 @@
                   <span>⏱ 8 min read</span>
                   <span>·</span>
                   <span class="badge-updated">✓ Updated 2026</span>
-                  <span class="article-likes" data-slug="article-weighted-blanket" data-seed="3847">
-                    <svg viewBox="0 0 24 24"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78L12 21.23l8.84-8.84a5.5 5.5 0 0 0 0-7.78z"/></svg>
-                    <span>3.8K</span>
-                  </span>
                 </div>
               </div>
             </a>
@@ -2283,10 +2279,6 @@
                 <div class="article-meta">
                   <span>📅 Feb 2025</span> · <span>⏱ 9 min</span>
                   <span class="badge-updated">✓ Updated 2026</span>
-                  <span class="article-likes" data-slug="article-magnesium-sleep" data-seed="2614">
-                    <svg viewBox="0 0 24 24"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78L12 21.23l8.84-8.84a5.5 5.5 0 0 0 0-7.78z"/></svg>
-                    <span>2.6K</span>
-                  </span>
                 </div>
               </div>
             </a>
@@ -2300,10 +2292,6 @@
                 <div class="article-meta">
                   <span>📅 Feb 2025</span> · <span>⏱ 5 min</span>
                   <span class="badge-updated">✓ Updated 2026</span>
-                  <span class="article-likes" data-slug="article-white-noise-machines" data-seed="1923">
-                    <svg viewBox="0 0 24 24"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78L12 21.23l8.84-8.84a5.5 5.5 0 0 0 0-7.78z"/></svg>
-                    <span>1.9K</span>
-                  </span>
                 </div>
               </div>
             </a>
@@ -7089,25 +7077,6 @@
       });
     }
 
-    // ── ARTICLE LIKES (pre-seeded for 5-year-old site feel) ────
-    document.querySelectorAll('.article-likes').forEach(function(btn) {
-      var slug = btn.dataset.slug;
-      var seed = parseInt(btn.dataset.seed) || 0;
-      var key = 'like_' + slug;
-      var liked = localStorage.getItem(key) === '1';
-      var span = btn.querySelector('span');
-      if (liked) { btn.classList.add('liked'); }
-      var count = seed + (liked ? 1 : 0);
-      span.textContent = count >= 1000 ? (count / 1000).toFixed(1) + 'K' : String(count);
-      btn.addEventListener('click', function(e) {
-        e.preventDefault();
-        e.stopPropagation();
-        var isLiked = btn.classList.toggle('liked');
-        localStorage.setItem(key, isLiked ? '1' : '0');
-        var nc = seed + (isLiked ? 1 : 0);
-        span.textContent = nc >= 1000 ? (nc / 1000).toFixed(1) + 'K' : String(nc);
-      });
-    });
   </script>
 </body>
 
