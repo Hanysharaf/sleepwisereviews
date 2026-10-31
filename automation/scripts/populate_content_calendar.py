@@ -66,7 +66,6 @@ articles = [
     ["22-03-2027", "science-of-winding-down-sleep.html", "The Science of Winding Down: Why Your Brain Needs a Buffer Zone Before Sleep", "Education", "PENDING", ""],
     ["29-03-2027", "couples-sleep-audit.html", "How a Couples Sleep Audit Can Save Your Relationship (And Your Rest)", "Couples", "PENDING", ""],
     ["05-04-2027", "cheap-vs-expensive-sleep-products.html", "The Hidden Cost of Cheap Sleep Products: What the Research Says About Quality vs Price", "Education", "PENDING", ""],
-    ["12-04-2027", "one-year-sleep-tracking-results.html", "One Year of Tracking My Sleep: What Actually Changed (Site Anniversary Roundup)", "Anniversary", "PENDING", ""],
     ["19-04-2027", "sleepwisereviews-ultimate-buying-guide-2027.html", "The SleepWiseReviews Ultimate Buying Guide: Every Product Category Ranked for 2027", "Anniversary", "PENDING", ""],
 ]
 
