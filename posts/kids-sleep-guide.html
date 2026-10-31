@@ -754,13 +754,6 @@
       </button>
     </div>
 
-    <div class="article-likes" id="articleLikes" data-article-id="kids-sleep-guide" data-seed="1247">
-      <button class="like-btn" id="likeBtn" onclick="toggleLike()">
-        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
-        <span id="likeCount">1,247</span> found this helpful
-      </button>
-    </div>
-
     <div class="article-toc" id="articleToc">
       <div class="toc-title">📋 In this article</div>
       <ul class="toc-list" id="tocList"></ul>
@@ -910,7 +903,7 @@
       <div class="affiliate-label">Recommended Product</div>
       <div class="affiliate-product">Hatch Rest+ 2nd Gen — Sound Machine &amp; Night Light</div>
       <p class="affiliate-desc">The Hatch Rest+ combines a color-tunable nightlight (choose red or amber spectrum to avoid melatonin suppression), white noise machine, and a programmable "OK to Wake" light into a single device. The time-to-wake feature — where the light color changes at a set time to signal when it's okay to get up — reduces early morning wakings and gives children a concrete, visual cue rather than requiring them to read a clock.</p>
-      <a href="https://www.amazon.com/dp/B09NQC4G5Q?tag=sleepwiserevi-20" class="affiliate-btn" target="_blank" rel="nofollow noopener noreferrer sponsored">View on Amazon →</a>
+      <a href="https://www.amazon.com/s?k=hatch+rest+2nd+gen&tag=sleepwiserevi-20" class="affiliate-btn" target="_blank" rel="nofollow noopener noreferrer sponsored">View on Amazon →</a>
     </div>
 
     <hr class="section-divider" />
@@ -1082,22 +1075,6 @@
   </div>
 
   <script>
-    (function(){
-      var id = 'kids-sleep-guide';
-      var seed = 1247;
-      var btn = document.getElementById('likeBtn');
-      var countEl = document.getElementById('likeCount');
-      if(!btn) return;
-      function fmt(n){ return n >= 1000 ? (n/1000).toFixed(1).replace('.0','')+'k' : String(n); }
-      var liked = localStorage.getItem('liked_'+id);
-      if(liked){ btn.classList.add('liked'); countEl.textContent = fmt(seed+1)+' found this helpful'; }
-      window.toggleLike = function(){
-        var isLiked = btn.classList.toggle('liked');
-        if(isLiked){ localStorage.setItem('liked_'+id, '1'); } else { localStorage.removeItem('liked_'+id); }
-        countEl.textContent = fmt(isLiked ? seed+1 : seed)+' found this helpful';
-      };
-    })();
-
     (function(){
       var copyBtn = document.getElementById('copyLinkBtn');
       if(!copyBtn) return;

@@ -676,13 +676,6 @@
     </button>
   </div>
 
-  <div class="article-likes" id="articleLikes" data-article-id="pregnancy-sleep-guide" data-seed="1247">
-    <button class="like-btn" id="likeBtn" onclick="toggleLike()">
-      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
-      <span id="likeCount">1,247</span> found this helpful
-    </button>
-  </div>
-
   <div class="article-toc" id="articleToc">
     <div class="toc-title">📋 In this article</div>
     <ul class="toc-list" id="tocList"></ul>
@@ -823,7 +816,7 @@
       <div class="affiliate-label">Recommended Product</div>
       <h4>Leachco Snoogle Total Maternity/Pregnancy Body Pillow</h4>
       <p>The Snoogle's C-shaped design supports the head, neck, back, belly, and knees simultaneously — addressing the core physical reasons sleep deteriorates in the second and third trimester. It replaces the need for multiple separate pillows and maintains the lateral position throughout the night, reducing the urge to roll supine.</p>
-      <a href="https://www.amazon.com/dp/B000I5A0NU?tag=sleepwiserevi-20" class="affiliate-btn" target="_blank" rel="nofollow noopener noreferrer sponsored">View on Amazon →</a>
+      <a href="https://www.amazon.com/s?k=leachco+snoogle+total+maternity+pregnancy+body+pillow&tag=sleepwiserevi-20" class="affiliate-btn" target="_blank" rel="nofollow noopener noreferrer sponsored">View on Amazon →</a>
       <p class="affiliate-disclaimer">Affiliate link — we earn a small commission at no extra cost to you.</p>
     </div>
   </div>
@@ -1003,22 +996,6 @@
   </div>
 
   <script>
-    (function(){
-      var id = 'pregnancy-sleep-guide';
-      var seed = 1247;
-      var btn = document.getElementById('likeBtn');
-      var countEl = document.getElementById('likeCount');
-      if(!btn) return;
-      function fmt(n){ return n >= 1000 ? (n/1000).toFixed(1).replace('.0','')+'k' : String(n); }
-      var liked = localStorage.getItem('liked_'+id);
-      if(liked){ btn.classList.add('liked'); countEl.textContent = fmt(seed+1)+' found this helpful'; }
-      window.toggleLike = function(){
-        var isLiked = btn.classList.toggle('liked');
-        if(isLiked){ localStorage.setItem('liked_'+id, '1'); } else { localStorage.removeItem('liked_'+id); }
-        countEl.textContent = fmt(isLiked ? seed+1 : seed)+' found this helpful';
-      };
-    })();
-
     (function(){
       var copyBtn = document.getElementById('copyLinkBtn');
       if(!copyBtn) return;

@@ -362,14 +362,6 @@
       <button class="share-btn" onclick="navigator.clipboard.writeText(window.location.href).then(()=>{this.textContent='Copied!';setTimeout(()=>this.textContent='Copy Link',2000)})">Copy Link</button>
     </div>
 
-    <!-- ARTICLE LIKES -->
-    <div class="article-likes">
-      <button class="like-btn" id="likeBtn" onclick="toggleLike()">
-        <span class="like-icon">&#9825;</span>
-        <span id="likeCount">1.2k found this helpful</span>
-      </button>
-    </div>
-
     <div class="disclosure-box">
       <strong>Affiliate Disclosure:</strong> This article contains affiliate links. We earn a small commission if you purchase through our links at no extra cost to you. <a href="../pages/affiliate-disclosure.html" style="color:var(--gold)">Full disclosure</a>
     </div>
@@ -546,20 +538,6 @@
       window.addEventListener('scroll', function(){
         if(!shown && window.scrollY > 600){ bar.style.display = 'flex'; shown = true; }
       }, {passive:true});
-
-      // Likes
-      var id = 'sleep-menstrual-cycle';
-      var seed = 1247;
-      var btn = document.getElementById('likeBtn');
-      var countEl = document.getElementById('likeCount');
-      function fmt(n){ return n >= 1000 ? (n/1000).toFixed(1).replace('.0','')+'k' : String(n); }
-      var liked = localStorage.getItem('liked_'+id);
-      if(liked){ btn.classList.add('liked'); countEl.textContent = fmt(seed+1)+' found this helpful'; }
-      window.toggleLike = function(){
-        var isLiked = btn.classList.toggle('liked');
-        if(isLiked){ localStorage.setItem('liked_'+id, '1'); } else { localStorage.removeItem('liked_'+id); }
-        countEl.textContent = fmt(isLiked ? seed+1 : seed)+' found this helpful';
-      };
 
       // TOC
       var headings = document.querySelectorAll('.article-wrapper h2');

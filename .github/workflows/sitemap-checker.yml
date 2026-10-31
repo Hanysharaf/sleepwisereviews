@@ -22,7 +22,7 @@ jobs:
       - name: Check Sitemap Status
         id: sitemap
         run: |
-          SITEMAP_URL="https://hanysharaf.github.io/sleepwisereviews/sitemap.xml"
+          SITEMAP_URL="https://sleepwisereviews.com/sitemap.xml"
 
           # Try to fetch the sitemap
           HTTP_STATUS=$(curl -s -o /tmp/sitemap.xml -w "%{http_code}" "$SITEMAP_URL")

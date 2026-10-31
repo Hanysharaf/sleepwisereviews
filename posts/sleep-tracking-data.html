@@ -603,13 +603,6 @@
     </button>
   </div>
 
-  <div class="article-likes" id="articleLikes" data-article-id="sleep-tracking-data" data-seed="1247">
-    <button class="like-btn" id="likeBtn" onclick="toggleLike()">
-      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
-      <span id="likeCount">1,247</span> found this helpful
-    </button>
-  </div>
-
   <div class="article-toc" id="articleToc">
     <div class="toc-title">📋 In this article</div>
     <ul class="toc-list" id="tocList"></ul>
@@ -897,7 +890,7 @@
       <p class="affiliate-desc">
         Among consumer sleep trackers, the Oura Ring Gen 3 stands out for its clinical-grade HRV measurement, continuous SpO2 tracking, temperature sensing, and one of the most validated accuracy profiles against PSG in peer-reviewed research. Its form factor also avoids the wrist-pressure artifacts that affect some wristband trackers during sleep.
       </p>
-      <a href="https://www.amazon.com/dp/B09NTK2VLL?tag=sleepwiserevi-20" class="affiliate-btn" target="_blank" rel="nofollow noopener noreferrer sponsored">View on Amazon →</a>
+      <a href="https://www.amazon.com/s?k=oura+ring+gen+3&tag=sleepwiserevi-20" class="affiliate-btn" target="_blank" rel="nofollow noopener noreferrer sponsored">View on Amazon →</a>
       <p class="affiliate-disclaimer">Affiliate link — we earn a small commission at no cost to you. This supports free content on SleepWise Reviews.</p>
     </div>
   </div>
@@ -995,20 +988,6 @@
   </div>
 
   <script>
-    (function(){
-      var id = 'sleep-tracking-data';
-      var seed = 1247;
-      var btn = document.getElementById('likeBtn');
-      var countEl = document.getElementById('likeCount');
-      function fmt(n){ return n >= 1000 ? (n/1000).toFixed(1).replace('.0','')+'k' : String(n); }
-      var liked = localStorage.getItem('liked_'+id);
-      if(liked){ btn.classList.add('liked'); countEl.textContent = fmt(seed+1)+' found this helpful'; }
-      window.toggleLike = function(){
-        var isLiked = btn.classList.toggle('liked');
-        if(isLiked){ localStorage.setItem('liked_'+id, '1'); } else { localStorage.removeItem('liked_'+id); }
-        countEl.textContent = fmt(isLiked ? seed+1 : seed)+' found this helpful';
-      };
-    })();
     (function(){
       var copyBtn = document.getElementById('copyLinkBtn');
       if(!copyBtn) return;

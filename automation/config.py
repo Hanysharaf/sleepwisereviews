@@ -155,8 +155,9 @@ WEBSITE_CONFIG = {
 SCHEDULE_CONFIG = {
     "timezone": "UTC",
     "tasks": {
-        "09": "pinterest_pin",   # 09:00 UTC = 11:00 Cairo — 2 pins per run
-        "17": "pinterest_pin",   # 17:00 UTC = 19:00 Cairo — 2 more pins per day
+        # Pinterest tasks disabled explicitly (token dead, 401). Re-enable by restoring:
+        # "09": "pinterest_pin",   # 09:00 UTC = 11:00 Cairo — 2 pins per run
+        # "17": "pinterest_pin",   # 17:00 UTC = 19:00 Cairo — 2 more pins per day
     },
     "weekly_tasks": {
         "sunday": ["generate_article"],

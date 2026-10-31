@@ -710,13 +710,6 @@
     </button>
   </div>
 
-  <div class="article-likes" id="articleLikes" data-article-id="summer-sleep-guide" data-seed="1247">
-    <button class="like-btn" id="likeBtn" onclick="toggleLike()">
-      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
-      <span id="likeCount">1,247</span> found this helpful
-    </button>
-  </div>
-
   <div class="article-toc" id="articleToc">
     <div class="toc-title">📋 In this article</div>
     <ul class="toc-list" id="tocList"></ul>
@@ -971,7 +964,7 @@
     <div class="affiliate-content">
       <h3>BedJet V3 Climate Comfort Sleep System</h3>
       <p>A forced-air climate system for the bed that cycles cool (or warm) air directly into the sheets. In cooling mode, it draws body heat away from the sleep surface continuously — addressing the core problem this article covers without the cost or complexity of a full AC installation. Dual-zone models support two sleepers at different temperatures simultaneously.</p>
-      <a href="https://www.amazon.com/dp/B07QBZ91YT?tag=sleepwiserevi-20" class="affiliate-link" target="_blank" rel="nofollow noopener noreferrer sponsored">View on Amazon →</a>
+      <a href="https://www.amazon.com/s?k=bedjet+v3+climate+comfort+sleep+system&tag=sleepwiserevi-20" class="affiliate-link" target="_blank" rel="nofollow noopener noreferrer sponsored">View on Amazon →</a>
       <p class="affiliate-disclaimer">Affiliate link — SleepWiseReviews may earn a commission at no extra cost to you.</p>
     </div>
   </div>
@@ -1069,20 +1062,6 @@
   </div>
 
   <script>
-    (function(){
-      var id = 'summer-sleep-guide';
-      var seed = 1247;
-      var btn = document.getElementById('likeBtn');
-      var countEl = document.getElementById('likeCount');
-      function fmt(n){ return n >= 1000 ? (n/1000).toFixed(1).replace('.0','')+'k' : String(n); }
-      var liked = localStorage.getItem('liked_'+id);
-      if(liked){ btn.classList.add('liked'); countEl.textContent = fmt(seed+1)+' found this helpful'; }
-      window.toggleLike = function(){
-        var isLiked = btn.classList.toggle('liked');
-        if(isLiked){ localStorage.setItem('liked_'+id, '1'); } else { localStorage.removeItem('liked_'+id); }
-        countEl.textContent = fmt(isLiked ? seed+1 : seed)+' found this helpful';
-      };
-    })();
     (function(){
       var copyBtn = document.getElementById('copyLinkBtn');
       if(!copyBtn) return;

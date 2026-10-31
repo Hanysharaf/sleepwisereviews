@@ -643,12 +643,6 @@
     </div>
   </div>
 
-  <div class="like-section">
-    <button class="like-btn" id="likeBtn" onclick="handleLike()">
-      ♡ &nbsp;<span class="like-count" id="likeCount">847</span> found this useful
-    </button>
-  </div>
-
 
 <!-- Audible CTA -->
 <div style="background:#fff8e1;border:2px solid #f0a500;border-radius:8px;padding:20px;margin:32px 0;text-align:center;">
@@ -731,15 +725,6 @@
 </footer>
 
 <script>
-  function handleLike() {
-    const btn = document.getElementById('likeBtn');
-    const count = document.getElementById('likeCount');
-    if (!btn.classList.contains('liked')) {
-      btn.classList.add('liked');
-      btn.innerHTML = '♥ &nbsp;<span class="like-count" id="likeCount">' + (parseInt(count.textContent) + 1) + '</span> found this useful';
-    }
-  }
-
   // Sticky bar on scroll
   const bar = document.getElementById('stickyBar');
   window.addEventListener('scroll', () => {

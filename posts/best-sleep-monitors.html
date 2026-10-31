@@ -616,14 +616,6 @@
     <a class="share-btn" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fsleepwisereviews.com%2Fposts%2Fbest-sleep-monitors.html" target="_blank" rel="noopener">Facebook</a>
   </div>
 
-  <!-- ARTICLE LIKES -->
-  <div class="article-likes">
-    <button class="like-btn" id="likeBtn" onclick="(function(){var b=document.getElementById('likeBtn');var k='liked_best-sleep-monitors';var liked=localStorage.getItem(k);var c=parseInt(localStorage.getItem(k+'_count')||'47');if(liked){localStorage.removeItem(k);c--;b.classList.remove('liked');}else{localStorage.setItem(k,'1');c++;b.classList.add('liked');}localStorage.setItem(k+'_count',c);document.getElementById('likeCount').textContent=c;})()" aria-label="Like this article">
-      <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
-      <span id="likeCount">47</span> found this helpful
-    </button>
-  </div>
-
   <!-- TABLE OF CONTENTS -->
   <div class="article-toc" id="articleToc">
     <div class="toc-title">In This Article</div>
@@ -741,7 +733,7 @@
         <span class="meta-tag">No wearing required</span>
         <span class="meta-tag">Health Mate app</span>
       </div>
-      <a class="affiliate-btn" href="https://www.amazon.com/dp/B07HHGR7ZF?tag=sleepwiserevi-20" rel="nofollow sponsored" target="_blank">
+      <a class="affiliate-btn" href="https://www.amazon.com/s?k=withings+sleep+analyzer&tag=sleepwiserevi-20" rel="nofollow sponsored" target="_blank">
         Check Price on Amazon →
       </a>
     </div>
@@ -943,7 +935,7 @@
 <!-- ── STICKY BUY BAR ── -->
 <div class="sticky-buy-bar" id="stickyBar">
   <span class="sticky-buy-text">Top Pick: <strong>Withings Sleep Analyzer</strong></span>
-  <a class="sticky-buy-btn" href="https://www.amazon.com/dp/B07HHGR7ZF?tag=sleepwiserevi-20" rel="nofollow sponsored" target="_blank">Check Price on Amazon</a>
+  <a class="sticky-buy-btn" href="https://www.amazon.com/s?k=withings+sleep+analyzer&tag=sleepwiserevi-20" rel="nofollow sponsored" target="_blank">Check Price on Amazon</a>
   <button class="sticky-buy-close" onclick="document.getElementById('stickyBar').style.display='none'" aria-label="Close">✕</button>
 </div>
 
@@ -956,17 +948,6 @@
       var pct = window.scrollY / (document.body.scrollHeight - window.innerHeight);
       if (!shown && pct > 0.35) { bar.style.display = 'flex'; shown = true; }
     }, { passive: true });
-  })();
-
-  // Like button — restore state from localStorage
-  (function(){
-    var k = 'liked_best-sleep-monitors';
-    var btn = document.getElementById('likeBtn');
-    var cnt = document.getElementById('likeCount');
-    if (!btn) return;
-    var saved = parseInt(localStorage.getItem(k + '_count') || '47');
-    cnt.textContent = saved;
-    if (localStorage.getItem(k)) btn.classList.add('liked');
   })();
 
   // TOC — auto-build from h2 headings
