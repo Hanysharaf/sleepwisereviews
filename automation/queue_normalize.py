@@ -22,7 +22,7 @@ CATEGORY_MAP = {
     "category-sex-mattress.html": "category-product-reviews.html",
     "category-seasonal.html": "category-sleep-science.html",
     "category-education.html": "category-sleep-science.html",
-    "category-sex-sleep.html": "category-guides.html",
+    "category-sex-sleep.html": "category-special-topics.html",
     "category-couples.html": "category-special-topics.html",
 }
 
