@@ -8,6 +8,8 @@ from pathlib import Path
 import gspread
 import requests
 
+from queue_normalize import normalize_html
+
 # ── Constants ─────────────────────────────────────────────────────────────────
 SPREADSHEET_ID = "1KeWK1xO5eiD2YbFe63Fx8sV9Vf6jUwi57h71fc8zb5o"
 SHEET_NAME = "Content Calendar"
@@ -189,6 +191,7 @@ def main():
             else:
                 html = html.replace("</head>", f"  {canonical_tag}\n</head>", 1)
             print(f"  Injected canonical: {canonical_url}")
+        html = normalize_html(html, filename, PROJECT_ROOT / "pages")
         dest.write_text(html, encoding="utf-8")
         print(f"  Copied to /posts/{filename}")
 

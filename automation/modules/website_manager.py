@@ -131,6 +131,8 @@ class WebsiteManager:
     <meta property="og:description" content="{{META_DESCRIPTION}}">
     <meta property="og:type" content="article">
     <meta property="og:url" content="{{CANONICAL_URL}}">
+    <meta property="og:site_name" content="SleepWise Reviews">
+    <meta property="og:image" content="https://sleepwisereviews.com/images/og-default.png">
 
     <style>
         * { margin: 0; padding: 0; box-sizing: border-box; }
