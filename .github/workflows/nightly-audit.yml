@@ -1,0 +1,45 @@
+name: Nightly Audit (report only)
+
+# Counts per audit class -> reports/audit/YYYY-MM-DD.md on the runner only (NOT committed to main).
+# The report is uploaded as a workflow artifact (90 days) and shown in the job summary.
+# 00:00 UTC = 02:00 Cairo in winter time (UTC+2). During Egypt summer time (UTC+3) it runs at 03:00 Cairo.
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  actions: read
+
+jobs:
+  audit:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Run audit (report only)
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+        run: |
+          D=$(TZ=Africa/Cairo date +%F)
+          echo "REPORT_DATE=$D" >> "$GITHUB_ENV"
+          python automation/audit_nightly.py --date "$D"
+
+      - name: Write report to job summary
+        run: cat "reports/audit/${REPORT_DATE}.md" >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Upload report artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: audit-report-${{ env.REPORT_DATE }}
+          path: reports/audit/${{ env.REPORT_DATE }}.md
+          retention-days: 90
+          if-no-files-found: error
