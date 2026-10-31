@@ -1,19 +1,15 @@
 name: Nightly Audit (report only)
 
-# Counts per audit class -> reports/audit/YYYY-MM-DD.md. Report only: nothing on the site is fixed or edited.
+# Counts per audit class -> reports/audit/YYYY-MM-DD.md on the runner only (NOT committed to main).
+# The report is uploaded as a workflow artifact (90 days) and shown in the job summary.
 # 00:00 UTC = 02:00 Cairo in winter time (UTC+2). During Egypt summer time (UTC+3) it runs at 03:00 Cairo.
 on:
   schedule:
     - cron: '0 0 * * *'
   workflow_dispatch:
 
-# Same group as automation.yml and publish-scheduler.yml: only one job commits to main at a time
-concurrency:
-  group: swr-main-commits
-  cancel-in-progress: false
-
 permissions:
-  contents: write
+  contents: read
   actions: read
 
 jobs:
@@ -37,23 +33,13 @@ jobs:
           echo "REPORT_DATE=$D" >> "$GITHUB_ENV"
           python automation/audit_nightly.py --date "$D"
 
-      - name: Commit the report file only
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add "reports/audit/${REPORT_DATE}.md"
-          if git diff --staged --quiet; then
-            echo "Nothing to commit."
-          else
-            git commit -m "audit: nightly report ${REPORT_DATE} [skip ci]"
-            for i in 1 2 3; do
-              if git pull --rebase origin main && git push origin HEAD:main; then
-                exit 0
-              fi
-              git rebase --abort 2>/dev/null || true
-              echo "push attempt $i failed, retrying"
-              sleep $((i * 5))
-            done
-            echo "push failed after 3 attempts"
-            exit 1
-          fi
+      - name: Write report to job summary
+        run: cat "reports/audit/${REPORT_DATE}.md" >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Upload report artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: audit-report-${{ env.REPORT_DATE }}
+          path: reports/audit/${{ env.REPORT_DATE }}.md
+          retention-days: 90
+          if-no-files-found: error
