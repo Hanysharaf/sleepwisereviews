@@ -864,13 +864,6 @@
       </button>
     </div>
 
-    <div class="article-likes" id="articleLikes" data-article-id="best-valerian-root-supplements" data-seed="1247">
-      <button class="like-btn" id="likeBtn" onclick="toggleLike()">
-        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20.84 4.61a5.5 5.5 0 0 0-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 0 0-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 0 0 0-7.78z"></path></svg>
-        <span id="likeCount">1,247</span> found this helpful
-      </button>
-    </div>
-
     <!-- ── DISCLOSURE ── -->
     <div class="disclosure-box">
       <strong>Affiliate Disclosure:</strong> SleepWiseReviews earns a small commission on qualifying purchases through Amazon links at no extra cost to you. Our editorial reviews are independent of affiliate relationships — we only recommend products that meet the evidence standards described in this article.
@@ -1194,22 +1187,6 @@
   </div>
 
   <script>
-    // B. Article Likes
-    (function(){
-      var id = 'best-valerian-root-supplements';
-      var seed = 1247;
-      var btn = document.getElementById('likeBtn');
-      var countEl = document.getElementById('likeCount');
-      function fmt(n){ return n >= 1000 ? (n/1000).toFixed(1).replace('.0','')+'k' : String(n); }
-      var liked = localStorage.getItem('liked_'+id);
-      if(liked){ btn.classList.add('liked'); countEl.textContent = fmt(seed+1)+' found this helpful'; }
-      window.toggleLike = function(){
-        var isLiked = btn.classList.toggle('liked');
-        if(isLiked){ localStorage.setItem('liked_'+id, '1'); } else { localStorage.removeItem('liked_'+id); }
-        countEl.textContent = fmt(isLiked ? seed+1 : seed)+' found this helpful';
-      };
-    })();
-
     // C. Copy link button
     (function(){
       var copyBtn = document.getElementById('copyLinkBtn');
