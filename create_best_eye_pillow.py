@@ -225,7 +225,7 @@ html = f"""<!DOCTYPE html>
         <span class="badge">Best for Migraines</span>
       </div>
       <h3>IMAK Compression Pain Relief Eye Mask</h3>
-      <p>The IMAK is specifically designed for migraine and headache relief and happens to be excellent for sleep: the memory foam cups create a cool, compression environment around the eyes without touching the eyeballs. The patented ergoBeads inside provide gentle, even pressure. OT-designed (endorsed by the American Occupational Therapy Association). Chills well in the freezer. The compression around the orbital area targets the trigeminal nerve pathways involved in migraine. Also effective for eye strain from screen use and post-surgical eye swelling. Reusable, washable cover.</p>
+      <p>The IMAK is specifically designed for migraine and headache relief and happens to be excellent for sleep: the memory foam cups create a cool, compression environment around the eyes without touching the eyeballs. The patented ergoBeads inside provide gentle, even pressure. Chills well in the freezer. The compression around the orbital area targets the trigeminal nerve pathways involved in migraine. Also effective for eye strain from screen use and post-surgical eye swelling. Reusable, washable cover.</p>
       <div class="specs-grid">
         <div class="spec"><strong>Fill</strong>Memory foam + ergoBeads</div>
         <div class="spec"><strong>Cover</strong>Soft fabric, removable</div>

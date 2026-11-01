@@ -426,12 +426,11 @@ html = """<!DOCTYPE html>
       <div class="chip">Made In: <span>USA</span></div>
       <div class="chip">Custom Sizing: <span>Yes</span></div>
     </div>
-    <p style="color:var(--muted);font-size:.92rem;margin-bottom:14px;">SensaCalm is designed specifically for therapeutic use — children and adults with sensory processing disorders, autism, ADHD, and anxiety. They offer fully customizable weight and size options, made in the USA, with occupational therapist input in their design. Poly pellet fill (no glass beads) makes it safer and quieter. While not the most budget-friendly option, the ability to get an exact therapeutic weight recommendation and custom size is genuinely valuable for caregivers managing sensory needs. Many schools, therapists, and parents purchase SensaCalm specifically.</p>
+    <p style="color:var(--muted);font-size:.92rem;margin-bottom:14px;">SensaCalm is designed specifically for therapeutic use — children and adults with sensory processing disorders, autism, ADHD, and anxiety. They offer fully customizable weight and size options, made in the USA. Poly pellet fill (no glass beads) makes it safer and quieter. While not the most budget-friendly option, the ability to get an exact therapeutic weight recommendation and custom size is genuinely valuable for caregivers managing sensory needs. Many schools, therapists, and parents purchase SensaCalm specifically.</p>
     <div class="pros-cons">
       <div class="col pros">
         <h4>Pros</h4>
         <ul>
-          <li>OT-designed for genuine therapeutic use</li>
           <li>Fully customizable weight and size</li>
           <li>Made in the USA</li>
           <li>Safe poly pellet fill (no glass bead risk)</li>

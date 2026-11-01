@@ -233,7 +233,7 @@ html = f"""<!DOCTYPE html>
         <span class="badge">Foundation Pick</span>
       </div>
       <h3>Pure Encapsulations Magnesium Glycinate</h3>
-      <p>The gold standard magnesium glycinate supplement: bisglycinate chelate form (highest bioavailability), no magnesium oxide filler, free from common allergens, and NSF-certified. Magnesium glycinate is the preferred form for sleep because glycine itself is calming and the chelated form avoids the laxative effect of magnesium citrate or oxide at sleep-supporting doses. Pure Encapsulations is consistently the brand recommended by sleep clinicians and functional medicine doctors.</p>
+      <p>The gold standard magnesium glycinate supplement: bisglycinate chelate form (highest bioavailability), no magnesium oxide filler, free from common allergens, and NSF-certified. Magnesium glycinate is the preferred form for sleep because glycine itself is calming and the chelated form avoids the laxative effect of magnesium citrate or oxide at sleep-supporting doses.</p>
       <div class="specs-grid">
         <div class="spec"><strong>Form</strong>Bisglycinate chelate</div>
         <div class="spec"><strong>Dose Per Capsule</strong>120mg elemental Mg</div>
@@ -243,7 +243,7 @@ html = f"""<!DOCTYPE html>
         <div class="spec"><strong>Allergen-Free</strong>Yes</div>
       </div>
       <div class="pros-cons">
-        <div class="pros"><strong>Pros</strong><ul><li>Highest bioavailability form</li><li>No laxative effect at sleep dose</li><li>NSF certified</li><li>Clinician-grade brand</li></ul></div>
+        <div class="pros"><strong>Pros</strong><ul><li>Highest bioavailability form</li><li>No laxative effect at sleep dose</li><li>NSF certified</li></ul></div>
         <div class="cons"><strong>Cons</strong><ul><li>Premium price</li><li>Capsule size is large</li></ul></div>
       </div>
       <a class="cta-btn" href="https://www.amazon.com/s?k=Pure+Encapsulations+Magnesium+Glycinate&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
