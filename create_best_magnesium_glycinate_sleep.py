@@ -250,7 +250,6 @@ html = '''<!DOCTYPE html>
         <ul>
           <li>Truly hypoallergenic — no common allergens</li>
           <li>No fillers, binders, or flowing agents</li>
-          <li>Physician-trusted brand</li>
           <li>Vegetarian capsule</li>
           <li>Suitable for the most sensitive individuals</li>
         </ul>

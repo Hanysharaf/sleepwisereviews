@@ -1,7 +1,7 @@
 """Generate posts/best-mattress-for-seniors.html"""
 slug = 'best-mattress-for-seniors'
 title = 'Best Mattresses for Seniors (2026): Arthritis Relief, Easy Entry & Long-Term Support'
-description = 'Top mattresses for older adults — targeting arthritis pain, hip pressure, ease of getting in and out of bed, and edge support for safe repositioning. Doctor-recommended picks.'
+description = 'Top mattresses for older adults — targeting arthritis pain, hip pressure, ease of getting in and out of bed, and edge support for safe repositioning.'
 
 html = f'''<!DOCTYPE html>
 <html lang="en">
