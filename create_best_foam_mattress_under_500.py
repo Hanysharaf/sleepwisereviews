@@ -60,7 +60,7 @@ products = [
         "key_spec": "Adaptive foam, 100-night trial, 10-year warranty, CertiPUR-US",
         "pros": ["Adaptive foam is more responsive than standard memory foam", "Less heat retention than traditional memory foam", "Good for back sleepers and back pain sufferers", "Simple 2-layer construction — durable and reliable", "100-night trial, straightforward return process"],
         "cons": ["Firmer than most people expect — medium-firm biased toward firm", "Not ideal for strict side sleepers who need pressure relief", "Price has increased vs early years"],
-        "why": "Tuft & Needle's adaptive foam is genuinely more responsive than standard memory foam — it has more bounce and less heat retention. The firm-biased feel is intentional and serves back sleepers and back pain sufferers better than plush memory foam. One of the most recommended mattresses in physical therapy circles for back care.",
+        "why": "Tuft & Needle's adaptive foam is genuinely more responsive than standard memory foam — it has more bounce and less heat retention. The firm-biased feel is intentional and serves back sleepers and back pain sufferers better than plush memory foam.",
         "search": "Tuft+Needle+Original+Mattress+Queen"
     },
     {

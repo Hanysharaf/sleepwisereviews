@@ -38,7 +38,7 @@ PRODUCTS = [
         "badge": "Best for Sciatica",
         "price": "~$28",
         "key": "High-density memory foam, contoured wedge, washable bamboo cover",
-        "pros": "Firm support keeps sciatic nerve decompressed; bamboo cover stays cool; popular with physical therapists",
+        "pros": "Firm support keeps sciatic nerve decompressed; bamboo cover stays cool",
         "cons": "No leg strap included; slightly large for petite frames",
         "link": f"https://www.amazon.com/s?k=comfilife+orthopedic+knee+pillow&tag={TAG}",
         "schema_name": "ComfiLife Orthopedic Knee Pillow for Sciatica",

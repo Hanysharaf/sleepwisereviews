@@ -351,17 +351,16 @@ html = f"""<!DOCTYPE html>
         <span class="badge">Best Clinical Grade</span>
       </div>
       <h3>Thermophore Classic Moist Heating Pad</h3>
-      <p>The Thermophore is a healthcare-provider standard product: it's found in physical therapy offices and used by occupational therapists specifically because it generates intense, deep moist heat without a separate water source (it draws moisture from ambient air). The heat retention is significantly longer than standard pads. The Thermophore requires holding a hand switch to maintain heat (releases when you sleep) &mdash; a safety design from its clinical origin, though this makes it less convenient for home sleep use. Manual switch works as the shutoff. Used for acute injury management, post-surgery recovery, and deep tissue conditions where consumer pads lack sufficient penetration depth.</p>
+      <p>The Thermophore generates intense, deep moist heat without a separate water source (it draws moisture from ambient air). The heat retention is significantly longer than standard pads. The Thermophore requires holding a hand switch to maintain heat (releases when you sleep) &mdash; a safety design from its clinical origin, though this makes it less convenient for home sleep use. Manual switch works as the shutoff. Used for acute injury management, post-surgery recovery, and deep tissue conditions where consumer pads lack sufficient penetration depth.</p>
       <div class="specs-grid">
         <div class="spec"><strong>Type</strong>Clinical-grade moist heat</div>
         <div class="spec"><strong>Moisture Source</strong>Ambient air (no water needed)</div>
         <div class="spec"><strong>Control</strong>Hand-switch (release to stop)</div>
-        <div class="spec"><strong>Grade</strong>Physical therapy standard</div>
         <div class="spec"><strong>Best For</strong>Deep tissue, post-surgery recovery</div>
         <div class="spec"><strong>Penetration</strong>Deepest available at home</div>
       </div>
       <div class="pros-cons">
-        <div class="pros"><strong>Pros</strong><ul><li>Clinical-grade moist heat</li><li>Deepest penetration</li><li>No water required</li><li>PT-standard product</li></ul></div>
+        <div class="pros"><strong>Pros</strong><ul><li>Clinical-grade moist heat</li><li>Deepest penetration</li><li>No water required</li></ul></div>
         <div class="cons"><strong>Cons</strong><ul><li>Hand-switch design (less convenient)</li><li>Higher price</li><li>Not for unsupervised sleep use</li></ul></div>
       </div>
       <a class="cta-btn" href="https://www.amazon.com/s?k=Thermophore+Classic+Moist+Heating+Pad&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>

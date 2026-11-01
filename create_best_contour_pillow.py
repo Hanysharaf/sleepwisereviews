@@ -302,18 +302,16 @@ out = r"""<!DOCTYPE html>
     <div class="product-card">
       <div class="rank-badge">#5 Best Therapeutic</div>
       <h3>Arc4life Cervical Linear Traction Neck Pillow</h3>
-      <p>Designed specifically to restore and maintain cervical lordosis (the natural curve of the neck), the Arc4life uses a traction-oriented shape that gently extends the neck backward during use. Physical therapists often recommend this model for people actively recovering from disc issues or whiplash. The linear traction effect decompresses cervical joints slightly, which can provide significant pain relief for those with moderate cervical compression. Not a plush comfort pillow — a therapeutic device that happens to work well for sleep.</p>
+      <p>Designed specifically to restore and maintain cervical lordosis (the natural curve of the neck), the Arc4life uses a traction-oriented shape that gently extends the neck backward during use. The linear traction effect decompresses cervical joints slightly, which can provide significant pain relief for those with moderate cervical compression. Not a plush comfort pillow — a therapeutic device that happens to work well for sleep.</p>
       <div class="specs">
         <span class="spec-tag">Therapeutic traction design</span>
         <span class="spec-tag">Multiple sizes: Small, Medium, Large</span>
-        <span class="spec-tag">PT-recommended</span>
         <span class="spec-tag">Polyester fill with firm support</span>
       </div>
       <div class="pros-cons">
         <div class="pros"><strong>Pros</strong>
           <ul>
             <li>Actively works to restore cervical lordosis</li>
-            <li>Physical therapist recommended</li>
             <li>Helps with disc compression and whiplash recovery</li>
           </ul>
         </div>

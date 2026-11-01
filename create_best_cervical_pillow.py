@@ -9,7 +9,7 @@ html = r"""<!DOCTYPE html>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>7 Best Cervical Pillows 2026 — Neck Support &amp; Spinal Alignment | SleepWise Reviews</title>
-<meta name="description" content="Best cervical pillows for neck pain and spinal alignment: expert picks for back sleepers, side sleepers, and those recovering from neck injuries. Tested by physical therapists.">
+<meta name="description" content="Best cervical pillows for neck pain and spinal alignment: expert picks for back sleepers, side sleepers, and those recovering from neck injuries.">
 <link rel="canonical" href="https://sleepwisereviews.com/posts/best-cervical-pillow.html">
 <meta property="og:title" content="7 Best Cervical Pillows 2026 — Neck Support &amp; Spinal Alignment">
 <meta property="og:description" content="Expert picks for neck pain relief and spinal alignment — back sleepers, side sleepers, and post-injury recovery.">
@@ -183,22 +183,20 @@ footer{background:var(--card);border-top:1px solid var(--border);padding:2rem;te
 <div class="product-card" id="tempur">
   <span class="rank-badge">#1 Best Overall</span>
   <h2>Tempur-Pedic TEMPUR-Neck Pillow</h2>
-  <div class="verdict">"Developed with physical therapists and orthopedic specialists — the TEMPUR-Neck pillow's patented contour profile maintains cervical lordosis for both back and side sleeping. The reference standard in therapeutic pillow design."</div>
+  <div class="verdict">"Developed with orthopedic specialists — the TEMPUR-Neck pillow's patented contour profile maintains cervical lordosis for both back and side sleeping. The reference standard in therapeutic pillow design."</div>
   <div class="specs-grid">
     <div class="spec-chip"><strong>Material:</strong> TEMPUR memory foam</div>
     <div class="spec-chip"><strong>Sizes:</strong> Small, Medium, Large</div>
     <div class="spec-chip"><strong>Profile:</strong> Contoured (raised edges, lower center)</div>
     <div class="spec-chip"><strong>Positions:</strong> Back and side sleeping</div>
     <div class="spec-chip"><strong>Cover:</strong> Removable, washable</div>
-    <div class="spec-chip"><strong>Development:</strong> Physical therapist-designed</div>
   </div>
-  <p>Tempur-Pedic developed the TEMPUR-Neck pillow in collaboration with physical therapists and orthopedic specialists — the contour profile is based on clinical research into optimal cervical alignment angles for sleeping adults. The pillow comes in three sizes (Small, Medium, Large) corresponding to neck width/length, allowing proper fit for petite to broad-shouldered users.</p>
+  <p>Tempur-Pedic developed the TEMPUR-Neck pillow in collaboration with orthopedic specialists — the contour profile is based on clinical research into optimal cervical alignment angles for sleeping adults. The pillow comes in three sizes (Small, Medium, Large) corresponding to neck width/length, allowing proper fit for petite to broad-shouldered users.</p>
   <p style="margin-top:.75rem">TEMPUR memory foam's slow-response property is particularly well-suited for cervical support: it conforms precisely to the neck curve without springing back, maintaining consistent contact and pressure distribution throughout positional shifts. The removable cover is washable. This is the most physician-recommended cervical pillow in the US market, and for good reason — it's engineered rather than designed by feel.</p>
   <div class="pros-cons">
     <div class="pros">
       <h4>Pros</h4>
       <ul>
-        <li>Developed with PT and orthopedic specialists</li>
         <li>Three sizes for proper anatomical fit</li>
         <li>TEMPUR foam maintains precise neck curve conformance</li>
         <li>Works for back and side sleeping</li>
@@ -231,7 +229,7 @@ footer{background:var(--card);border-top:1px solid var(--border);padding:2rem;te
     <div class="spec-chip"><strong>Sizes:</strong> Standard, Mid-Core, Full-Core</div>
   </div>
   <p>Core Products' Tri-Core design is unique: the center section is a trapezoid-shaped cutout that the back of the head rests in — keeping the head centered and preventing it from rolling sideways during back sleeping. The raised fiber sections on the sides support the neck in its natural curve. This three-zone design is the most effective pure back-sleeping cervical pillow tested.</p>
-  <p style="margin-top:.75rem">The fiber-fill (as opposed to memory foam) provides a more responsive, traditional pillow feel that many users prefer when transitioning from standard pillows. Available in three firmness levels — Gentle, Standard, and Full-Core — and two sizes. Machine washable. The Tri-Core is the most frequently recommended cervical pillow in physical therapy literature for back sleeper cervical alignment.</p>
+  <p style="margin-top:.75rem">The fiber-fill (as opposed to memory foam) provides a more responsive, traditional pillow feel that many users prefer when transitioning from standard pillows. Available in three firmness levels — Gentle, Standard, and Full-Core — and two sizes. Machine washable.</p>
   <div class="pros-cons">
     <div class="pros">
       <h4>Pros</h4>
@@ -240,7 +238,6 @@ footer{background:var(--card);border-top:1px solid var(--border);padding:2rem;te
         <li>Three firmness levels for personal preference</li>
         <li>Machine washable — easiest to clean on this list</li>
         <li>Traditional fiber-fill feel — less adjustment than memory foam</li>
-        <li>Most PT-referenced pillow for back sleeper alignment</li>
       </ul>
     </div>
     <div class="cons">
@@ -459,7 +456,7 @@ footer{background:var(--card);border-top:1px solid var(--border);padding:2rem;te
     </tr>
   </thead>
   <tbody>
-    <tr><td>Tempur-Pedic TEMPUR-Neck</td><td>TEMPUR foam</td><td>Back + side</td><td>S/M/L</td><td>Cover yes</td><td>Overall + PT-recommended</td></tr>
+    <tr><td>Tempur-Pedic TEMPUR-Neck</td><td>TEMPUR foam</td><td>Back + side</td><td>S/M/L</td><td>Cover yes</td><td>Overall</td></tr>
     <tr><td>Core Products Tri-Core</td><td>Fiber-fill</td><td>Back primary</td><td>Standard + Mid</td><td>Machine wash</td><td>Back sleepers</td></tr>
     <tr><td>EPABO Contour</td><td>Memory foam</td><td>Back + side</td><td>One size</td><td>Cover yes</td><td>Budget first-timers</td></tr>
     <tr><td>Elviros Dual Height</td><td>Memory foam</td><td>Both (flip)</td><td>One size</td><td>Cover yes</td><td>Combo sleepers</td></tr>
