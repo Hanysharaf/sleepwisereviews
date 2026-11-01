@@ -322,7 +322,6 @@ HTML = r"""<!DOCTYPE html>
       <div class="pros-cons">
         <div class="pros"><ul>
           <li>Custom weight in 1 lb increments</li>
-          <li>OT-recommended brand</li>
           <li>Multiple size &amp; fabric options</li>
           <li>Good for sensory + anxiety dual use</li>
         </ul></div>
