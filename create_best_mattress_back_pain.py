@@ -4,17 +4,17 @@ html = """<!DOCTYPE html>
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Best Mattress for Back Pain 2025: Top 7 Doctor-Recommended Picks</title>
+<title>Best Mattress for Back Pain 2025: 7 Picks</title>
 <meta name="description" content="The right mattress can significantly reduce back pain. We reviewed 7 top mattresses recommended for back pain relief, covering lower back, upper back, and sciatica.">
-<meta name="keywords" content="best mattress for back pain, mattress back pain relief, best mattress lower back pain, doctor recommended mattress back pain, firm mattress back pain 2025">
+<meta name="keywords" content="best mattress for back pain, mattress back pain relief, best mattress lower back pain, firm mattress back pain 2025">
 <link rel="canonical" href="https://sleepwisereviews.com/posts/best-mattress-back-pain.html">
-<meta property="og:title" content="Best Mattress for Back Pain 2025: Top 7 Doctor-Recommended Picks">
+<meta property="og:title" content="Best Mattress for Back Pain 2025: 7 Picks">
 <meta property="og:description" content="We reviewed 7 mattresses for back pain relief. Find the right support for lower back pain, upper back pain, and sciatica.">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://sleepwisereviews.com/posts/best-mattress-back-pain.html">
 <meta property="og:image" content="https://sleepwisereviews.com/images/og-default.jpg">
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Best Mattress for Back Pain 2025: Top 7 Doctor-Recommended Picks">
+<meta name="twitter:title" content="Best Mattress for Back Pain 2025: 7 Picks">
 <meta name="twitter:description" content="7 mattresses reviewed for back pain relief. Find the right support for lower back, upper back, and sciatica sufferers.">
 <script type="application/ld+json">
 {
@@ -22,7 +22,7 @@ html = """<!DOCTYPE html>
   "@graph": [
     {
       "@type": "Article",
-      "headline": "Best Mattress for Back Pain 2025: Top 7 Doctor-Recommended Picks",
+      "headline": "Best Mattress for Back Pain 2025: 7 Picks",
       "description": "We reviewed 7 mattresses for back pain relief, covering lower back pain, upper back pain, and sciatica across all sleep positions.",
       "author": {"@type": "Organization", "name": "SleepWise Reviews"},
       "publisher": {"@type": "Organization", "name": "SleepWise Reviews", "url": "https://sleepwisereviews.com"},
@@ -170,7 +170,7 @@ html = """<!DOCTYPE html>
 
 <section class="hero">
   <div class="badge">2025 Expert Review</div>
-  <h1>Best Mattress for Back Pain 2025: Top 7 Doctor-Recommended Picks</h1>
+  <h1>Best Mattress for Back Pain 2025: 7 Picks</h1>
   <p>The wrong mattress can make back pain significantly worse. We reviewed 7 top options recommended for lower back pain, upper back pain, and sciatica relief.</p>
   <div class="meta">
     <span>7 Mattresses Reviewed</span>

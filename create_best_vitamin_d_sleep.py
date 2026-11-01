@@ -219,7 +219,7 @@ html = f'''<!DOCTYPE html>
         <span class="spec-chip">GMP certified</span>
       </div>
       <p>NatureWise is among the best-value, most widely used vitamin D3 supplements on the market. The 5000 IU dose is appropriate for adults with confirmed deficiency, under doctor supervision. The organic olive oil base is critical: vitamin D is fat-soluble and absorption dramatically increases when taken with dietary fat. Softgels dissolve in oil, eliminating the need to remember to take it with a fatty meal.</p>
-      <p>At 360 softgels per bottle, this is exceptional value per dose. Third-party tested through GMP certification. For someone newly diagnosed with vitamin D deficiency, this is a common physician-recommended dosing starting point for the first 8-12 weeks of correction.</p>
+      <p>At 360 softgels per bottle, this is exceptional value per dose. Third-party tested through GMP certification.</p>
       <div class="dose-box">
         <strong>Dose:</strong> 5000 IU is appropriate for deficiency correction under medical guidance. Once serum levels are optimized (50-80 ng/mL), most adults maintain with 1000-2000 IU/day. Always take with food.
       </div>
