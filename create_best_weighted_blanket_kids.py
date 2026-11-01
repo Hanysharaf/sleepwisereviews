@@ -47,9 +47,9 @@ products = [
         "badge": "Best for Sensory Processing",
         "price": "$79–$139",
         "key_spec": "OT-recommended design, custom weight/size options, US-made",
-        "pros": ["Occupational therapist-designed and recommended", "Custom weight/size available — built to your child's specifications", "Made in USA", "Flannel or cotton options", "No chemical treatments"],
+        "pros": ["Custom weight/size available — built to your child's specifications", "Made in USA", "Flannel or cotton options", "No chemical treatments"],
         "cons": ["Custom orders take 2–3 weeks", "Higher price for custom sizing", "Must wash cold/gentle"],
-        "why": "Designed by OTs specifically for children with sensory processing disorder, autism spectrum, and ADHD. Custom sizing ensures the blanket covers the child's body without going to the floor — proper coverage is critical for efficacy.",
+        "why": "Designed specifically for children with sensory processing disorder, autism spectrum, and ADHD. Custom sizing ensures the blanket covers the child's body without going to the floor — proper coverage is critical for efficacy.",
         "search": "Sensory+Goods+Weighted+Blanket+Kids"
     },
     {
@@ -71,7 +71,7 @@ products = [
         "key_spec": "Custom therapeutic weights, OT-approved, removable cover",
         "pros": ["True therapeutic grade — used in clinical settings", "Removable duvet cover — blanket stays clean", "Wide weight customization", "Cotton or flannel fabric options", "Strong bead distribution construction"],
         "cons": ["Cover must be washed separately from insert", "Custom weight ordering required", "Delivery time 2–3 weeks"],
-        "why": "Used by occupational therapists in school and clinical settings. The removable cover solves the washing challenge for heavy therapeutic blankets — wash the cover frequently, the insert less often. Best choice when an OT has recommended a weighted blanket.",
+        "why": "The removable cover solves the washing challenge for heavy therapeutic blankets — wash the cover frequently, the insert less often. Best choice when an OT has recommended a weighted blanket.",
         "search": "SensaCalm+Therapeutic+Weighted+Blanket+Kids"
     },
     {

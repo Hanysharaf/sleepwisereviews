@@ -450,7 +450,7 @@ html = """<!DOCTYPE html>
       <span class="pos-tag good">Stomach: Good (Firm)</span>
       <span class="pos-tag ok">Combo: OK</span>
     </div>
-    <p style="color:var(--muted);font-size:.92rem;margin-bottom:14px;">Sealy Posturepedic is built around the concept of targeted spinal support. The PostureTech coil center zone is reinforced in the lumbar area where most people carry the most weight. This makes it particularly effective for back pain sufferers who sleep on their back. The brand partners with orthopedic advisors and is widely available in stores. A solid, reliable choice at a mid-range price.</p>
+    <p style="color:var(--muted);font-size:.92rem;margin-bottom:14px;">Sealy Posturepedic is built around the concept of targeted spinal support. The PostureTech coil center zone is reinforced in the lumbar area where most people carry the most weight. This makes it particularly effective for back pain sufferers who sleep on their back. The brand is widely available in stores. A solid, reliable choice at a mid-range price.</p>
     <div class="pros-cons">
       <div class="col pros">
         <h4>Pros</h4>
