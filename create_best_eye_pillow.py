@@ -231,11 +231,10 @@ html = f"""<!DOCTYPE html>
         <div class="spec"><strong>Cover</strong>Soft fabric, removable</div>
         <div class="spec"><strong>Coolable</strong>Yes (freezer)</div>
         <div class="spec"><strong>Scent</strong>None</div>
-        <div class="spec"><strong>Design</strong>OT-endorsed</div>
         <div class="spec"><strong>Best For</strong>Migraine, eye strain</div>
       </div>
       <div class="pros-cons">
-        <div class="pros"><strong>Pros</strong><ul><li>Clinically designed for migraine</li><li>OT-endorsed</li><li>No pressure directly on eyeballs</li><li>Washable cover</li></ul></div>
+        <div class="pros"><strong>Pros</strong><ul><li>Clinically designed for migraine</li><li>No pressure directly on eyeballs</li><li>Washable cover</li></ul></div>
         <div class="cons"><strong>Cons</strong><ul><li>No aromatherapy</li><li>Heavier than lavender pillows</li></ul></div>
       </div>
       <a class="cta-btn" href="https://www.amazon.com/s?k=IMAK+Compression+Pain+Relief+Eye+Mask+Migraine&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon</a>
