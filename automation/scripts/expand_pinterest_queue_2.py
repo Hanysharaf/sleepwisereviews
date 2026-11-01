@@ -174,7 +174,7 @@ INTENT_PINS = [
     # Sleep position posts
     {
         "title": "The Best Sleep Position for Your Back, Neck, and Spine",
-        "description": "Side sleeping wins for most people. Stomach sleeping rotates your cervical spine for 8 hours. Back sleeping depends on your mattress. Physical therapist-backed breakdown.",
+        "description": "Side sleeping wins for most people. Stomach sleeping rotates your cervical spine for 8 hours. Back sleeping depends on your mattress.",
         "link": "https://sleepwisereviews.com/posts/best-sleep-position.html",
         "image_url": "https://images.unsplash.com/photo-1519750783826-e2420f4d687f?w=800&q=80",
         "hashtags": ["sleepposition", "backpain", "neckpain", "sidesleeper", "sleeptips"]

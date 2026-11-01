@@ -262,11 +262,10 @@ HTML = r"""<!DOCTYPE html>
       <span class="tag">TENS</span><span class="tag">Pain Relief</span>
       <h3>TENS 7000 Digital TENS Unit</h3>
       <div class="price">~$29&ndash;$39</div>
-      <p>TENS (Transcutaneous Electrical Nerve Stimulation) works differently from massage: low-level electrical pulses block pain signals at the nerve level, reducing both tension-based aching and referred pain from cervical nerve compression. The TENS 7000 is the most recommended consumer TENS unit by physical therapists for home use. Apply pads to the neck and upper trapezius 30&ndash;45 minutes before bed. Particularly effective for people whose neck pain has a nerve-involvement component that shiatsu massage doesn't fully address.</p>
+      <p>TENS (Transcutaneous Electrical Nerve Stimulation) works differently from massage: low-level electrical pulses block pain signals at the nerve level, reducing both tension-based aching and referred pain from cervical nerve compression. Apply pads to the neck and upper trapezius 30&ndash;45 minutes before bed. Particularly effective for people whose neck pain has a nerve-involvement component that shiatsu massage doesn't fully address.</p>
       <div class="pros-cons">
         <div class="pros"><ul>
           <li>TENS blocks nerve pain signals directly</li>
-          <li>PT-recommended consumer unit</li>
           <li>Multiple modes and intensities</li>
           <li>Exceptional value</li>
         </ul></div>
