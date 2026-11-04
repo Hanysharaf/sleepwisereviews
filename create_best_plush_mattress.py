@@ -17,7 +17,7 @@ content = '''<!DOCTYPE html>
   "@context": "https://schema.org",
   "@type": "Article",
   "headline": "Best Plush Mattress 2025: Top 7 Soft Mattresses Tested and Ranked",
-  "description": "7 plush mattresses ranked by pressure relief, support, and durability after 12 months of testing.",
+  "description": "7 plush mattresses ranked by pressure relief, support, and durability.",
   "author": {"@type": "Organization", "name": "SleepWise Reviews"},
   "publisher": {"@type": "Organization", "name": "SleepWise Reviews", "url": "https://sleepwisereviews.com"},
   "datePublished": "2025-05-01",

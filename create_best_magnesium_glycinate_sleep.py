@@ -178,7 +178,7 @@ html = '''<!DOCTYPE html>
     <ol>
       <li><a href="#thorne">Thorne Magnesium Bisglycinate — Best Overall</a></li>
       <li><a href="#pure">Pure Encapsulations — Best for Sensitive Stomachs</a></li>
-      <li><a href="#klaire">Klaire Labs — Best Clinical Grade</a></li>
+      <li><a href="#klaire">Klaire Labs — Premium Pick</a></li>
       <li><a href="#doctors">Doctor's Best — Best Value Capsule</a></li>
       <li><a href="#natural">Natural Vitality Calm — Best Powder</a></li>
       <li><a href="#jigsaw">Jigsaw MagSRT — Best Sustained Release</a></li>
@@ -269,7 +269,7 @@ html = '''<!DOCTYPE html>
   <!-- PRODUCT 3 -->
   <div class="product-card" id="klaire">
     <div class="product-header">
-      <span class="rank">#3 Best Clinical Grade</span>
+      <span class="rank">#3 Premium Pick</span>
       <h2>Klaire Labs Magnesium Glycinate Complex
         <span>Professional dispensing brand with verified elemental content</span>
       </h2>

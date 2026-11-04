@@ -337,7 +337,7 @@ footer{background:var(--card);border-top:1px solid var(--border);padding:2rem;te
 <div class="product-card" id="naturemade">
   <span class="rank-badge">#5 Best for Light Sensitivity</span>
   <h2>Nature Made Melatonin Gummies 2.5mg</h2>
-  <div class="verdict">"The gold standard for third-party verification — USP verified and pharmacist-recommended. The 2.5mg dose hits the sweet spot between under- and over-dosing."</div>
+  <div class="verdict">"USP verified for third-party testing. The 2.5mg dose hits the sweet spot between under- and over-dosing."</div>
   <div class="specs-grid">
     <div class="spec-chip"><strong>Dose:</strong> 2.5mg per gummy</div>
     <div class="spec-chip"><strong>Certifications:</strong> USP Verified</div>

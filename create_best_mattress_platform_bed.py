@@ -236,7 +236,7 @@ footer .disclaimer{max-width:700px;margin:.75rem auto 0;line-height:1.6}
       <h3>Tuft &amp; Needle Original &mdash; Best Budget Platform Mattress</h3>
       <span class="pick-badge">BUDGET</span>
     </div>
-    <p>At under $600 for a queen, the T&amp;N Original is the best platform-bed mattress under $700. Its adaptive foam construction is specifically rated for slatted platforms &mdash; Tuft &amp; Needle guarantees performance on slats up to 4 inches apart, which is more permissive than most foam brands. No sliding, no sagging after 12 months of testing reports.</p>
+    <p>At under $600 for a queen, the T&amp;N Original is the best platform-bed mattress under $700. Its adaptive foam construction is specifically rated for slatted platforms &mdash; Tuft &amp; Needle guarantees performance on slats up to 4 inches apart, which is more permissive than most foam brands.</p>
     <div class="pick-specs">
       <span class="spec-tag">Thickness: 10"</span>
       <span class="spec-tag">Type: Adaptive Foam</span>

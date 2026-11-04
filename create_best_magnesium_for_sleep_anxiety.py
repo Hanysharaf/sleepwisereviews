@@ -36,7 +36,7 @@ products = [
         "badge": "Best Clean Formula",
         "price": "$26–$38",
         "key_spec": "120mg elemental per capsule, hypoallergenic, no unnecessary additives",
-        "pros": ["Hypoallergenic formula — no common allergens, artificial colors, or flavors", "Pure Encapsulations has pharmaceutical-grade manufacturing standards", "Good elemental dose per capsule", "Vegetarian capsule", "Extensively used in clinical settings"],
+        "pros": ["Hypoallergenic formula — no common allergens, artificial colors, or flavors", "Pure Encapsulations has pharmaceutical-grade manufacturing standards", "Good elemental dose per capsule", "Vegetarian capsule"],
         "cons": ["Premium price", "Conservative formulation — no synergistic additions like B6 or glycine"],
         "why": "Pure Encapsulations is the supplement brand most commonly found in doctors' offices and functional medicine clinics for a reason — their manufacturing standards exceed most competitors. For users who react to common supplement fillers or dyes, this is the cleanest available form.",
         "search": "Pure+Encapsulations+Magnesium+Glycinate"
