@@ -69,7 +69,7 @@ products = [
         "badge": "Best Therapeutic Grade",
         "price": "$89–$169",
         "key_spec": "Custom therapeutic weights, removable cover",
-        "pros": ["True therapeutic grade — used in clinical settings", "Removable duvet cover — blanket stays clean", "Wide weight customization", "Cotton or flannel fabric options", "Strong bead distribution construction"],
+        "pros": ["Removable duvet cover — blanket stays clean", "Wide weight customization", "Cotton or flannel fabric options", "Strong bead distribution construction"],
         "cons": ["Cover must be washed separately from insert", "Custom weight ordering required", "Delivery time 2–3 weeks"],
         "why": "The removable cover solves the washing challenge for heavy therapeutic blankets — wash the cover frequently, the insert less often. Best choice when an OT has recommended a weighted blanket.",
         "search": "SensaCalm+Therapeutic+Weighted+Blanket+Kids"
