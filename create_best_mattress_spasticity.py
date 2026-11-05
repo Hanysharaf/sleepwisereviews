@@ -459,7 +459,7 @@ footer a{color:var(--muted)}
 </div>
 
 <footer>
-  <p>&copy; 2026 SleepWiseReviews &bull; <a href="/privacy.html">Privacy</a> &bull; <a href="/disclaimer.html">Affiliate Disclaimer</a></p>
+  <p>&copy; 2026 SleepWiseReviews &bull; <a href="/pages/privacy-policy.html">Privacy</a> &bull; <a href="/pages/affiliate-disclosure.html">Affiliate Disclaimer</a></p>
   <p style="margin-top:8px">SleepWiseReviews participates in the Amazon Services LLC Associates Program. As an Amazon Associate we earn from qualifying purchases.</p>
 </footer>
 </body>

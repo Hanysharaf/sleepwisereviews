@@ -383,7 +383,7 @@ footer a{color:var(--muted)}
 <footer>
 <div class="container">
 <p>SleepWise Reviews &mdash; Evidence-based sleep product recommendations</p>
-<p style="margin-top:8px"><a href="/about.html">About</a> &middot; <a href="/privacy.html">Privacy</a> &middot; <a href="/disclaimer.html">Affiliate Disclaimer</a></p>
+<p style="margin-top:8px"><a href="/about.html">About</a> &middot; <a href="/pages/privacy-policy.html">Privacy</a> &middot; <a href="/pages/affiliate-disclosure.html">Affiliate Disclaimer</a></p>
 <p style="margin-top:12px;font-size:.8rem">SleepWise Reviews participates in the Amazon Associates program. As an Amazon Associate we earn from qualifying purchases. This does not affect our recommendations.</p>
 </div>
 </footer>

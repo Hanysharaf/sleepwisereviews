@@ -299,7 +299,7 @@ footer{background:#111e33;border-top:1px solid #1e3a5f;padding:2rem;text-align:c
 
 </div>
 <footer>
-<p>&copy; 2026 SleepWise Reviews &bull; <a href="/privacy.html">Privacy Policy</a> &bull; <a href="/affiliate-disclosure.html">Affiliate Disclosure</a></p>
+<p>&copy; 2026 SleepWise Reviews &bull; <a href="/pages/privacy-policy.html">Privacy Policy</a> &bull; <a href="/pages/affiliate-disclosure.html">Affiliate Disclosure</a></p>
 <p style="margin-top:.5rem;color:#475569">We earn commissions from qualifying Amazon purchases. This does not affect our recommendations.</p>
 </footer>
 </body>
