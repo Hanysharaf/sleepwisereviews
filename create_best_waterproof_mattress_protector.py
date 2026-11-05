@@ -529,7 +529,7 @@ html = '''<!DOCTYPE html>
 </div>
 
 <footer>
-  <p>&copy; 2026 SleepWise Reviews &mdash; <a href="/privacy.html">Privacy Policy</a> &middot; <a href="/disclaimer.html">Disclaimer</a></p>
+  <p>&copy; 2026 SleepWise Reviews &mdash; <a href="/pages/privacy-policy.html">Privacy Policy</a> &middot; <a href="/pages/affiliate-disclosure.html">Disclaimer</a></p>
   <p style="margin-top:8px">Amazon affiliate links: as an Amazon Associate we earn from qualifying purchases.</p>
 </footer>
 </body>

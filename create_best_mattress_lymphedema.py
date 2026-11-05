@@ -455,7 +455,7 @@ html = """<!DOCTYPE html>
 
 </div>
 <footer>
-  <p>&copy; 2026 SleepWiseReviews &mdash; <a href="/privacy.html">Privacy Policy</a> &mdash; <a href="/affiliate-disclosure.html">Affiliate Disclosure</a></p>
+  <p>&copy; 2026 SleepWiseReviews &mdash; <a href="/pages/privacy-policy.html">Privacy Policy</a> &mdash; <a href="/pages/affiliate-disclosure.html">Affiliate Disclosure</a></p>
   <p style="margin-top:.5rem;font-size:.8rem">Amazon affiliate links on this page use tag sleepwiserevi-20. As an Amazon Associate we earn from qualifying purchases. All recommendations are based on editorial research &mdash; affiliate relationships do not influence picks.</p>
 </footer>
 </body>

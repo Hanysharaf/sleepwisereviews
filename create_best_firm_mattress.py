@@ -305,7 +305,7 @@ html = '''<!DOCTYPE html>
 </div>
 
 <footer>
-  <p>&copy; 2025 SleepWise Reviews &bull; <a href="/privacy.html">Privacy Policy</a> &bull; <a href="/affiliate-disclosure.html">Affiliate Disclosure</a></p>
+  <p>&copy; 2025 SleepWise Reviews &bull; <a href="/pages/privacy-policy.html">Privacy Policy</a> &bull; <a href="/pages/affiliate-disclosure.html">Affiliate Disclosure</a></p>
   <p style="margin-top:0.5rem;">SleepWise Reviews participates in the Amazon Services LLC Associates Program. Amazon and the Amazon logo are trademarks of Amazon.com, Inc.</p>
 </footer>
 </body>

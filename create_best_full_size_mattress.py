@@ -530,8 +530,8 @@ html = '''<!DOCTYPE html>
   <p>
     <a href="/">SleepWise Reviews</a>
     <a href="/posts/index.html">All Reviews</a>
-    <a href="/privacy.html">Privacy Policy</a>
-    <a href="/affiliate-disclosure.html">Affiliate Disclosure</a>
+    <a href="/pages/privacy-policy.html">Privacy Policy</a>
+    <a href="/pages/affiliate-disclosure.html">Affiliate Disclosure</a>
   </p>
   <p style="margin-top:0.8rem;">SleepWise Reviews participates in the Amazon Associates Program. We earn a commission on qualifying purchases at no extra cost to you.</p>
 </footer>

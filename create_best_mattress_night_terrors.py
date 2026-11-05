@@ -511,7 +511,7 @@ html = '''<!DOCTYPE html>
 </div><!-- /container -->
 
 <footer>
-  <p>&copy; 2026 <a href="/">SleepWiseReviews</a> &mdash; <a href="/pages/about.html">About</a> &middot; <a href="/pages/privacy.html">Privacy Policy</a> &middot; <a href="/pages/disclaimer.html">Affiliate Disclaimer</a></p>
+  <p>&copy; 2026 <a href="/">SleepWiseReviews</a> &mdash; <a href="/pages/about.html">About</a> &middot; <a href="/pages/privacy-policy.html">Privacy Policy</a> &middot; <a href="/pages/disclaimer.html">Affiliate Disclaimer</a></p>
   <p style="margin-top:.5rem;font-size:.8rem">SleepWiseReviews participates in the Amazon Services LLC Associates Program. As an Amazon Associate we earn from qualifying purchases.</p>
 </footer>
 
