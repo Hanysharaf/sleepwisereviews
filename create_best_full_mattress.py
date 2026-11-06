@@ -274,16 +274,13 @@ html = r"""<!DOCTYPE html>
       <li><a href="best-king-mattress.html" style="color:#93c5fd;text-decoration:none;font-size:.95rem;">Best King Mattress</a></li>
       <li><a href="best-mattress-college-students.html" style="color:#93c5fd;text-decoration:none;font-size:.95rem;">Best Mattress for College Students</a></li>
       <li><a href="best-mattress-guest-room.html" style="color:#93c5fd;text-decoration:none;font-size:.95rem;">Best Guest Room Mattress</a></li>
+      <li><a href="/posts/best-full-size-mattress.html" style="color:#93c5fd;text-decoration:none;font-size:.95rem;">Best Full Size Mattress 2025 — 7 Top-Rated Full Mattresses Reviewed</a></li>
     </ul>
   </div>
 </section>
 
 </div>
 
-<h2 class="section-title">Related Guides</h2>
-<ul class="related-links">
-<li><a href="/posts/best-full-size-mattress.html">Best Full Size Mattress 2025 — 7 Top-Rated Full Mattresses Reviewed</a></li>
-</ul>
 <footer>
   <p>&copy; 2026 SleepWise Reviews &mdash; <a href="https://sleepwisereviews.com">sleepwisereviews.com</a></p>
   <p style="margin-top:.5rem;font-size:.78rem;">Affiliate disclosure: We earn a commission on qualifying purchases at no extra cost to you.</p>

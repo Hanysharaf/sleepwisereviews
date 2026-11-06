@@ -341,15 +341,12 @@ html = """<!DOCTYPE html>
         <li><a href="best-mattress-adjustable-base.html" style="color:#93c5fd;text-decoration:none;font-size:.95rem;">Best Mattress for Adjustable Base</a></li>
         <li><a href="best-mattress-college-students.html" style="color:#93c5fd;text-decoration:none;font-size:.95rem;">Best Mattress for College Students</a></li>
         <li><a href="best-king-mattress.html" style="color:#93c5fd;text-decoration:none;font-size:.95rem;">Best King Mattress</a></li>
+        <li><a href="/posts/best-twin-xl-mattress.html" style="color:#93c5fd;text-decoration:none;font-size:.95rem;">Best Twin XL Mattress 2025: Top 7 Picks for College &amp; Adjustable Bases</a></li>
       </ul>
     </div>
   </section>
 </div>
 
-<h2 class="section-title">Related Guides</h2>
-<ul class="related-links">
-<li><a href="/posts/best-twin-xl-mattress.html">Best Twin XL Mattress 2025: Top 7 Picks for College &amp; Adjustable Bases</a></li>
-</ul>
 <footer>
   <p>&copy; 2026 SleepWise Reviews &mdash; <a href="/pages/privacy-policy.html">Privacy Policy</a> &mdash; <a href="/pages/about.html">About</a></p>
   <p style="margin-top:8px;font-size:.78rem;">Amazon Associates Disclosure: As an Amazon Associate we earn from qualifying purchases.</p>
