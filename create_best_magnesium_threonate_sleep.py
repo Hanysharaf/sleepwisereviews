@@ -390,7 +390,7 @@ html = '''<!DOCTYPE html>
       <span class="spec-chip">Nootropics community standard</span>
       <span class="spec-chip">Powder + capsule options</span>
     </div>
-    <p>Nootropics Depot is the gold standard supplier for the nootropics community — they conduct in-house HPLC testing and publish certificates of analysis (COA) per batch. Their magnesium L-threonate meets pharmaceutical-grade purity standards. Available in both powder (for precise dosing) and capsule form. For biohackers who want full transparency on what they're actually consuming, Nootropics Depot's published COA system is unmatched. Higher price reflects the testing infrastructure.</p>
+    <p>Nootropics Depot is one supplier for the nootropics community — they conduct in-house HPLC testing and publish certificates of analysis (COA) per batch. Their magnesium L-threonate meets pharmaceutical-grade purity standards. Available in both powder (for precise dosing) and capsule form. For biohackers who want full transparency on what they're actually consuming, Nootropics Depot's published COA system is unmatched. Higher price reflects the testing infrastructure.</p>
     <div class="pros-cons">
       <div class="pros">
         <h4>Pros</h4>

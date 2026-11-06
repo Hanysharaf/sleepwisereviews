@@ -80,7 +80,7 @@ FAQS = [
     },
     {
         "q": "What thread count is best for a cooling comforter shell?",
-        "a": "Counterintuitively, lower thread counts (200-400 TC) breathe better than high thread counts (600+). Look for percale weave (crisp, cool) over sateen (smooth but warmer). TENCEL and cotton percale shells are the gold standard for hot sleepers."
+        "a": "Counterintuitively, lower thread counts (200-400 TC) breathe better than high thread counts (600+). Look for percale weave (crisp, cool) over sateen (smooth but warmer). TENCEL and cotton percale shells are one option for hot sleepers."
     },
     {
         "q": "Should I choose lightweight or all-season weight for summer?",

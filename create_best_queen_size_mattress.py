@@ -10,7 +10,7 @@ html = '''<!DOCTYPE html>
   <meta name="description" content="The best queen size mattresses of 2025 -- tested for all sleep positions, budgets, and needs. Expert reviews of Saatva, Purple, Nectar, DreamCloud, and more. Find your perfect queen mattress.">
   <link rel="canonical" href="https://sleepwisereviews.com/posts/best-queen-size-mattress.html">
   <meta property="og:title" content="Best Queen Size Mattress 2025: For Every Sleeper and Budget">
-  <meta property="og:description" content="Expert-tested queen mattress reviews. 7 top picks ranked for comfort, support, durability, and value across all sleep positions.">
+  <meta property="og:description" content="Queen mattress reviews. 7 top picks ranked for comfort, support, durability, and value across all sleep positions.">
   <meta property="og:url" content="https://sleepwisereviews.com/posts/best-queen-size-mattress.html">
   <meta property="og:type" content="article">
   <meta name="twitter:card" content="summary_large_image">

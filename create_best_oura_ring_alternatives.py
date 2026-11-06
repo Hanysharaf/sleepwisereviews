@@ -90,7 +90,7 @@ products = [
 faqs = [
     {
         "q": "Is any ring as accurate as the Oura Ring for sleep tracking?",
-        "a": "The RingConn and Samsung Galaxy Ring have published accuracy data comparable to Oura Gen 3 for sleep staging. All consumer rings — including Oura — have error rates of 10–20% on sleep stage classification vs polysomnography (the clinical gold standard). The honest answer: no consumer ring is clinically accurate, but Oura, RingConn, and Samsung are the closest. For most people, the trends matter more than individual-night precision."
+        "a": "The RingConn and Samsung Galaxy Ring have published accuracy data comparable to Oura Gen 3 for sleep staging. All consumer rings — including Oura — have error rates of 10–20% on sleep stage classification vs polysomnography (the standard clinical test). The honest answer: no consumer ring is clinically accurate, but Oura, RingConn, and Samsung are the closest. For most people, the trends matter more than individual-night precision."
     },
     {
         "q": "Is the Oura Ring subscription worth it?",

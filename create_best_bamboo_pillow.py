@@ -25,7 +25,7 @@ html = '''<!DOCTYPE html>
       {
         "@type": "Article",
         "headline": "Best Bamboo Pillows (2026): Cooling, Adjustable & Long-Lasting",
-        "description": "Expert-tested bamboo pillows for hot sleepers, side sleepers, and anyone wanting adjustable loft without chemical off-gassing.",
+        "description": "Bamboo pillows for hot sleepers, side sleepers, and anyone wanting adjustable loft without chemical off-gassing.",
         "author": {"@type": "Organization", "name": "SleepWise Reviews"},
         "publisher": {"@type": "Organization", "name": "SleepWise Reviews"},
         "datePublished": "2026-05-25",
@@ -155,7 +155,7 @@ html = '''<!DOCTYPE html>
 
 <div class="hero">
   <h1>Best Bamboo Pillows (2026)</h1>
-  <p class="sub">Cooling bamboo-derived covers, adjustable shredded foam fills, and washable designs. 7 expert-tested picks for hot sleepers, side sleepers, and anyone with neck pain.</p>
+  <p class="sub">Cooling bamboo-derived covers, adjustable shredded foam fills, and washable designs. 7 picks for hot sleepers, side sleepers, and anyone with neck pain.</p>
   <div class="badge-row">
     <span class="badge">7 Pillows Reviewed</span>
     <span class="badge">Updated May 2026</span>

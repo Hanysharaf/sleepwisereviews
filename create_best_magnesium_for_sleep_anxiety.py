@@ -16,7 +16,7 @@ products = [
         "key_spec": "200mg elemental magnesium, bisglycinate chelate, NSF Certified",
         "pros": ["NSF for Sport certified — third-party tested", "Bisglycinate is one of the most bioavailable forms", "Gentle on digestive system", "No unnecessary fillers", "Trusted clinical-grade brand"],
         "cons": ["Higher price per serving than mass-market brands", "200mg elemental dose — may need 2 capsules for clinical doses"],
-        "why": "Thorne is the gold standard for supplement quality — their products are NSF Certified for Sport, meaning every batch is third-party tested for purity and label accuracy. Bisglycinate is the best-studied form for sleep and anxiety because glycine itself is a calming neurotransmitter that adds synergistic benefit to the magnesium.",
+        "why": "Thorne is a supplement brand — their products are NSF Certified for Sport, meaning every batch is third-party tested for purity and label accuracy. Bisglycinate is the best-studied form for sleep and anxiety because glycine itself is a calming neurotransmitter that adds synergistic benefit to the magnesium.",
         "search": "Thorne+Magnesium+Bisglycinate+Sleep"
     },
     {

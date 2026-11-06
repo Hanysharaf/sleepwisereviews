@@ -76,7 +76,7 @@ PRODUCTS = [
 FAQS = [
     {
         "q": "How accurate are smartwatch sleep trackers?",
-        "a": "Consumer smartwatches achieve 70-85% accuracy for sleep stage detection compared to polysomnography (clinical gold standard). They perform best at detecting sleep vs. wakefulness, and fairly well at REM detection. Light vs. deep sleep discrimination is the weakest point. For most users the goal isn't clinical-grade accuracy but trend tracking — identifying patterns in your own sleep over weeks and months. For that purpose, consumer watches are more than adequate."
+        "a": "Consumer smartwatches achieve 70-85% accuracy for sleep stage detection compared to polysomnography (the standard clinical test). They perform best at detecting sleep vs. wakefulness, and fairly well at REM detection. Light vs. deep sleep discrimination is the weakest point. For most users the goal isn't clinical-grade accuracy but trend tracking — identifying patterns in your own sleep over weeks and months. For that purpose, consumer watches are more than adequate."
     },
     {
         "q": "Can a smartwatch detect sleep apnea?",

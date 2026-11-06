@@ -155,7 +155,7 @@ html = '''<!DOCTYPE html>
 
 <div class="hero">
   <h1>Best Waterproof Mattress Protectors (2026)</h1>
-  <p class="sub">Real waterproofing, no crinkling, no heat trap. 7 expert-tested protectors for kids, hot sleepers, allergy sufferers, and anyone protecting a mattress investment.</p>
+  <p class="sub">Real waterproofing, no crinkling, no heat trap. 7 protectors for kids, hot sleepers, allergy sufferers, and anyone protecting a mattress investment.</p>
   <div class="badge-row">
     <span class="badge">7 Protectors Reviewed</span>
     <span class="badge">Updated May 2026</span>
@@ -392,7 +392,6 @@ html = '''<!DOCTYPE html>
     <div class="specs-row">
       <span class="spec-chip"><strong>Type:</strong> Full 6-sided encasement</span>
       <span class="spec-chip"><strong>Zipper:</strong> Micro-zipper (sub-1.27mm gap)</span>
-      <span class="spec-chip"><strong>Bed bug certified:</strong> Lab tested</span>
       <span class="spec-chip"><strong>Warranty:</strong> 15 years</span>
       <span class="spec-chip"><strong>Washable:</strong> Machine wash gentle</span>
     </div>

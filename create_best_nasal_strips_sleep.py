@@ -25,7 +25,7 @@ html = '''<!DOCTYPE html>
       {
         "@type": "Article",
         "headline": "Best Nasal Strips for Sleep (2026): Stop Mouth Breathing & Snoring",
-        "description": "Expert-tested nasal strips for improving nasal airflow, reducing snoring, and stopping mouth breathing during sleep.",
+        "description": "Nasal strips for improving nasal airflow, reducing snoring, and stopping mouth breathing during sleep.",
         "author": {"@type": "Organization", "name": "SleepWise Reviews"},
         "publisher": {"@type": "Organization", "name": "SleepWise Reviews"},
         "datePublished": "2026-05-25",
@@ -155,7 +155,7 @@ html = '''<!DOCTYPE html>
 
 <div class="hero">
   <h1>Best Nasal Strips for Sleep (2026)</h1>
-  <p class="sub">Open your nasal airway, breathe through your nose, and stop mouth-breathing snoring tonight. 7 expert-tested nasal strips for all skin types, CPAP users, and athletes.</p>
+  <p class="sub">Open your nasal airway, breathe through your nose, and stop mouth-breathing snoring tonight. 7 nasal strips for all skin types, CPAP users, and athletes.</p>
   <div class="badge-row">
     <span class="badge">7 Products Reviewed</span>
     <span class="badge">Updated May 2026</span>
@@ -193,7 +193,7 @@ html = '''<!DOCTYPE html>
         <span>The original — 50% more nasal opening than standard strips</span>
       </h2>
     </div>
-    <p>Breathe Right has been the category standard for over 25 years and their Extra Strength version remains the most effective external nasal strip tested. The extra-strength spring band delivers 50% more dilating force than the original Breathe Right, meaning more nasal valve opening and greater airway resistance reduction. The adhesive is strong enough to survive a full night of sleep including tossing and turning, but releases cleanly with warm water in the morning without leaving residue. Clinically studied for nasal airway resistance reduction and consistently outperforms generic alternatives in controlled tests. The gold standard for a reason.</p>
+    <p>Breathe Right has been the category standard for over 25 years and their Extra Strength version remains the most effective external nasal strip tested. The extra-strength spring band delivers 50% more dilating force than the original Breathe Right, meaning more nasal valve opening and greater airway resistance reduction. The adhesive is strong enough to survive a full night of sleep including tossing and turning, but releases cleanly with warm water in the morning without leaving residue. Clinically studied for nasal airway resistance reduction and consistently outperforms generic alternatives in controlled tests.</p>
     <div class="specs-row">
       <span class="spec-chip"><strong>Spring force:</strong> Extra (50% stronger than original)</span>
       <span class="spec-chip"><strong>Sizes:</strong> Small/Medium, Large</span>
@@ -354,7 +354,6 @@ html = '''<!DOCTYPE html>
     <div class="specs-row">
       <span class="spec-chip"><strong>Adhesive:</strong> Hypoallergenic gentle formula</span>
       <span class="spec-chip"><strong>Skin type:</strong> Sensitive / reactive</span>
-      <span class="spec-chip"><strong>Dermatologist tested:</strong> Yes</span>
       <span class="spec-chip"><strong>Fragrance-free:</strong> Yes</span>
       <span class="spec-chip"><strong>Latex-free:</strong> Yes</span>
     </div>
@@ -363,7 +362,6 @@ html = '''<!DOCTYPE html>
         <h4>Pros</h4>
         <ul>
           <li>Hypoallergenic adhesive — reduced skin reaction</li>
-          <li>Dermatologist tested</li>
           <li>Fragrance-free and latex-free</li>
           <li>Good for daily users with reactive skin</li>
           <li>Easy removal — minimal redness</li>

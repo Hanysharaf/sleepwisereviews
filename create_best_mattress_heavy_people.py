@@ -176,7 +176,7 @@ html = f'''<!DOCTYPE html>
         <span class="spec-chip">Up to 500 lbs capacity</span>
       </div>
       <p>WinkBed built the Plus model specifically for heavier sleepers — not as a variant of their standard mattress but as an engineered-for-purpose design. The Plus features a firmer lumbar coil zone (denser gauge wire) to prevent the hammocking that heavier sleepers experience on standard mattresses, paired with a softer shoulder zone that still allows pressure relief. The Euro pillow top absorbs surface pressure without excessive sinkage.</p>
-      <p>The lifetime warranty and 120-night sleep trial represent genuine confidence in the durability. Made in the USA with a Tencel moisture-wicking cover. Validated for sleepers up to approximately 500 lbs. The gold standard in this category.</p>
+      <p>The lifetime warranty and 120-night sleep trial represent genuine confidence in the durability. Made in the USA with a Tencel moisture-wicking cover. Validated for sleepers up to approximately 500 lbs. One option in this category.</p>
       <div class="pros-cons">
         <div class="pros">
           <h4>Pros</h4>

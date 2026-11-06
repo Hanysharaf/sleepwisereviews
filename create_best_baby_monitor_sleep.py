@@ -16,7 +16,7 @@ products = [
         "key_spec": "Breathing motion monitoring, sleep analytics, 1080p HD camera",
         "pros": ["Wall-mounted overhead view — no blind spots", "Breathing motion bands for wearable-free monitoring", "Sleep score with trends and insights", "HD night vision, two-way audio", "Expert sleep consultant advice built-in"],
         "cons": ["Subscription required for full analytics ($99/yr)", "Wall mounting required — not portable", "Premium price"],
-        "why": "The gold standard for sleep-tracking parents. Nanit's computer vision analyzes breathing motion without wearables and tracks every sleep session automatically — giving you trend data to spot regressions before they become problems.",
+        "why": "One option for sleep-tracking parents. Nanit's computer vision analyzes breathing motion without wearables and tracks every sleep session automatically — giving you trend data to spot regressions before they become problems.",
         "search": "Nanit+Pro+Smart+Baby+Monitor"
     },
     {

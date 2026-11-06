@@ -139,7 +139,7 @@ INTENT_PINS = [
         "hashtags": ["bluelightglasses", "bluelightblocking", "sleephealth", "screentime", "bettersleep"]
     },
     {
-        "title": "Best Blue Light Glasses for Sleep 2025 — Lab-Tested Lens Comparison",
+        "title": "Best Blue Light Glasses for Sleep 2025 — Lens Comparison",
         "description": "Not all lenses block the same wavelengths. Sleep-relevant blue light is 460-490nm. Many 'blue light' glasses only block 400-420nm — the wrong range. These actually work.",
         "link": "https://sleepwisereviews.com/posts/best-blue-light-glasses.html",
         "image_url": "https://images.unsplash.com/photo-1591061336080-7f7a6a0b0892?w=800&q=80",

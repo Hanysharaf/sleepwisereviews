@@ -12,7 +12,7 @@ html = """<!DOCTYPE html>
 <meta property="og:url" content="https://sleepwisereviews.com/posts/best-mattress-couples.html">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Best Mattress for Couples 2025">
-<meta name="twitter:description" content="7 expert-tested mattresses for couples — motion isolation, edge support, and comfort for two.">
+<meta name="twitter:description" content="7 mattresses for couples — motion isolation, edge support, and comfort for two.">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -74,7 +74,7 @@ html = """<!DOCTYPE html>
         {
           "@type": "Question",
           "name": "How do I share a mattress with a partner who sleeps differently?",
-          "acceptedAnswer": {"@type": "Answer", "text": "Options in order of effectiveness: (1) Dual-comfort mattress — each half a different firmness, both partners sleep ideally; (2) Split king — two separate twin XL mattresses side by side, complete independence; (3) Zoned support mattress — different support levels mapped to body zones rather than bed halves; (4) Medium mattress — the compromise choice that neither partner will find perfect but both can sleep on. A split king adjustable base system is the gold standard for couples with fundamentally different sleep needs."}
+          "acceptedAnswer": {"@type": "Answer", "text": "Options in order of effectiveness: (1) Dual-comfort mattress — each half a different firmness, both partners sleep ideally; (2) Split king — two separate twin XL mattresses side by side, complete independence; (3) Zoned support mattress — different support levels mapped to body zones rather than bed halves; (4) Medium mattress — the compromise choice that neither partner will find perfect but both can sleep on. A split king adjustable base system is one option for couples with fundamentally different sleep needs."}
         }
       ]
     }
@@ -352,7 +352,7 @@ html = """<!DOCTYPE html>
     <li>A dual-comfort mattress has different firmness on each side of the same bed — typically achieved by using different foam densities or coil tensions on each half</li>
     <li>The gap between the two halves is covered by the mattress cover and pillow top — most couples can't feel it during sleep</li>
     <li>Available from Helix, WinkBed, Layla, and a few other brands in queen and king (not full or twin)</li>
-    <li>The step up from dual-comfort is a split king: two separate twin XL mattresses on a king frame, with fully independent adjustable bases — the gold standard for couples with major sleep differences</li>
+    <li>The step up from dual-comfort is a split king: two separate twin XL mattresses on a king frame, with fully independent adjustable bases — one option for couples with major sleep differences</li>
     <li>When evaluating dual-comfort options: both partners should trial the mattress for at least 30 nights before the return window closes — firmness preferences often shift after the break-in period</li>
   </ul>
 </div>
@@ -392,7 +392,7 @@ html = """<!DOCTYPE html>
   </div>
   <div class="faq-item">
     <h3>How do I share a mattress with a partner who sleeps differently?</h3>
-    <p>Options in order of effectiveness: (1) Dual-comfort mattress — each half a different firmness, both partners sleep ideally; (2) Split king — two separate twin XL mattresses side by side, complete independence; (3) Zoned support mattress — different support levels mapped to body zones rather than bed halves; (4) Medium mattress — the compromise choice that neither partner will find perfect but both can sleep on. A split king adjustable base system is the gold standard for couples with fundamentally different sleep needs.</p>
+    <p>Options in order of effectiveness: (1) Dual-comfort mattress — each half a different firmness, both partners sleep ideally; (2) Split king — two separate twin XL mattresses side by side, complete independence; (3) Zoned support mattress — different support levels mapped to body zones rather than bed halves; (4) Medium mattress — the compromise choice that neither partner will find perfect but both can sleep on. A split king adjustable base system is one option for couples with fundamentally different sleep needs.</p>
   </div>
 </div>
 

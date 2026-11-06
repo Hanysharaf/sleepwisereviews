@@ -251,7 +251,7 @@ HTML = r"""<!DOCTYPE html>
       <span class="tag">Barrier Repair</span><span class="tag">Drugstore</span>
       <h3>CeraVe Skin Renewing Night Cream</h3>
       <div class="price">~$18&ndash;$22 (1.7 oz)</div>
-      <p>CeraVe's Skin Renewing Night Cream is dermatologist-developed with the gold-standard barrier repair trio: ceramides 1, 3, and 6-II + hyaluronic acid + niacinamide. It's technically a night cream rather than a sleeping mask, but the ceramide-rich formula works identically as a last-step overnight treatment. For people with compromised skin barrier (eczema-prone, post-tretinoin, over-exfoliated), this is the most science-backed and cost-effective overnight repair option available. No fragrance, no irritants.</p>
+      <p>CeraVe's Skin Renewing Night Cream is dermatologist-developed with the barrier repair trio: ceramides 1, 3, and 6-II + hyaluronic acid + niacinamide. It's technically a night cream rather than a sleeping mask, but the ceramide-rich formula works identically as a last-step overnight treatment. For people with compromised skin barrier (eczema-prone, post-tretinoin, over-exfoliated), this is the most science-backed and cost-effective overnight repair option available. No fragrance, no irritants.</p>
       <div class="pros-cons">
         <div class="pros"><ul>
           <li>Ceramide 1/3/6-II barrier repair</li>

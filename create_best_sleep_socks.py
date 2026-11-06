@@ -179,7 +179,7 @@ HTML = r"""<!DOCTYPE html>
       <span class="tag">Cashmere</span><span class="tag">Luxury</span>
       <h3>Cashmere Bed Socks</h3>
       <div class="price">~$35&ndash;$55 per pair</div>
-      <p>Pure cashmere bed socks are the gold standard for sleep socks. Cashmere is naturally temperature-regulating, extraordinarily soft against skin, and dramatically lighter than comparable wool warmth. The ultra-fine fiber creates no pressure points, seams don't dig in, and the material is gentle enough for sensitive skin including eczema. One pair of quality cashmere bed socks lasts 3&ndash;5 years with hand washing. The premium investment is justified for anyone who wears socks to bed nightly.</p>
+      <p>Pure cashmere bed socks are one option for sleep socks. Cashmere is naturally temperature-regulating, extraordinarily soft against skin, and dramatically lighter than comparable wool warmth. The ultra-fine fiber creates no pressure points, seams don't dig in, and the material is gentle enough for sensitive skin including eczema. One pair of quality cashmere bed socks lasts 3&ndash;5 years with hand washing. The premium investment is justified for anyone who wears socks to bed nightly.</p>
       <div class="pros-cons">
         <div class="pros"><ul>
           <li>Softest material available</li>

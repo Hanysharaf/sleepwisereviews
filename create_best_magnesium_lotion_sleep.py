@@ -169,7 +169,7 @@ html = '''<!DOCTYPE html>
     <p>The sleep mechanism is the same as oral magnesium: magnesium ions compete with calcium at NMDA receptors, reducing nerve excitability. Adequate magnesium also activates GABA receptors -- the same pathway targeted by sleep medications -- and supports the conversion of tryptophan to serotonin and melatonin.</p>
 
     <div class="alert">
-      <strong>Systemic vs. local effect:</strong> Topical magnesium works best as a local muscle relaxant. For systemic deficiency correction, oral magnesium glycinate or malate remains the gold standard. For restless legs, tight calves, or shoulder tension, topical lotion applied directly to the affected area is highly effective.
+      <strong>Systemic vs. local effect:</strong> Topical magnesium works best as a local muscle relaxant. For systemic deficiency correction, oral magnesium glycinate or malate is one option. For restless legs, tight calves, or shoulder tension, topical lotion applied directly to the affected area is highly effective.
     </div>
 
     <h2 id="lotion-vs-spray">Lotion vs. Spray vs. Oil</h2>
@@ -269,7 +269,7 @@ html = '''<!DOCTYPE html>
     <h2 id="faq">Frequently Asked Questions</h2>
 
     <h3>Does topical magnesium work as well as oral magnesium for sleep?</h3>
-    <p>Topical magnesium absorption is real but works best as a local muscle relaxant. For systemic deficiency, oral magnesium glycinate remains the gold standard. People with GI sensitivity often use topical as a gentler alternative, especially for localized symptoms like restless legs or muscle cramping.</p>
+    <p>Topical magnesium absorption is real but works best as a local muscle relaxant. For systemic deficiency, oral magnesium glycinate is one option. People with GI sensitivity often use topical as a gentler alternative, especially for localized symptoms like restless legs or muscle cramping.</p>
 
     <h3>Where should you apply magnesium lotion for sleep?</h3>
     <p>Apply to large muscle groups: calves and thighs (for restless legs), upper arms and shoulders (for tension), and the lower back. The abdomen and inner forearm are also high-absorption sites. Avoid sensitive areas and broken skin.</p>

@@ -26,7 +26,7 @@ html = r"""<!DOCTYPE html>
     {
       "@type":"Article",
       "headline":"7 Best Earplugs for Snoring Partner 2026",
-      "description":"Expert-tested earplugs for blocking snoring sounds covering NRR rating, low-frequency attenuation for snore frequencies, all-night comfort, and wearability for side sleepers.",
+      "description":"Earplugs for blocking snoring sounds covering NRR rating, low-frequency attenuation for snore frequencies, all-night comfort, and wearability for side sleepers.",
       "url":"https://sleepwisereviews.com/posts/best-earplugs-snoring-partner.html",
       "datePublished":"2026-05-25",
       "dateModified":"2026-05-25",

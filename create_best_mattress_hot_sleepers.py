@@ -7,7 +7,7 @@ html = """<!DOCTYPE html>
 <meta name="description" content="Hot sleepers need a mattress that actively dissipates body heat — not just one that claims to be cool. We tested 7 top cooling mattresses and ranked them on real temperature performance, materials, and sleep quality for warm sleepers.">
 <link rel="canonical" href="https://sleepwisereviews.com/posts/best-mattress-hot-sleepers.html">
 <meta property="og:title" content="Best Mattress for Hot Sleepers 2025 — Cooling Mattresses That Actually Work">
-<meta property="og:description" content="7 expert-tested cooling mattresses ranked on real temperature performance for hot sleepers.">
+<meta property="og:description" content="7 cooling mattresses ranked on real temperature performance for hot sleepers.">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://sleepwisereviews.com/posts/best-mattress-hot-sleepers.html">
 <meta name="twitter:card" content="summary_large_image">
@@ -20,7 +20,7 @@ html = """<!DOCTYPE html>
     {
       "@type": "Article",
       "headline": "Best Mattress for Hot Sleepers 2025 — Cooling Mattresses That Actually Work",
-      "description": "Expert-tested cooling mattress rankings for hot sleepers based on real temperature performance.",
+      "description": "Cooling mattress rankings for hot sleepers based on real temperature performance.",
       "url": "https://sleepwisereviews.com/posts/best-mattress-hot-sleepers.html",
       "datePublished": "2025-01-01",
       "dateModified": "2025-10-01",

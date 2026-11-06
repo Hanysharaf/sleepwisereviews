@@ -33,7 +33,7 @@ FAQS = {
         ("How is REM behavior disorder treated?",
          "Clonazepam (low dose, 0.25-0.5mg at bedtime) reduces RBD episodes in 90% of cases and is the most commonly used treatment. Melatonin (3-12mg at bedtime) is an alternative with fewer side effects, particularly for older adults. Environmental safety measures (bed rails, mattresses on the floor, removing sharp objects from the bedroom) are essential. There is no proven treatment to delay the associated neurodegeneration."),
         ("How is REM behavior disorder diagnosed?",
-         "Diagnosis requires a polysomnography (sleep study) with EMG monitoring showing loss of REM atonia with associated behaviors. A clinical diagnosis can be made when a bed partner reliably reports dream-enacting behaviors in the appropriate age-sex demographic, but polysomnography is the gold standard and can distinguish RBD from other parasomnias. A neurological evaluation to assess for early Parkinson's features is typically recommended after diagnosis."),
+         "Diagnosis requires a polysomnography (sleep study) with EMG monitoring showing loss of REM atonia with associated behaviors. A clinical diagnosis can be made when a bed partner reliably reports dream-enacting behaviors in the appropriate age-sex demographic, but polysomnography is the standard test and can distinguish RBD from other parasomnias. A neurological evaluation to assess for early Parkinson's features is typically recommended after diagnosis."),
     ],
     'rem-rebound-explained.html': [
         ("What is REM rebound?",

@@ -537,7 +537,7 @@ main{max-width:900px;margin:0 auto;padding:36px 20px 60px}
 
 <div class="verdict-box">
   <h2>Bottom Line</h2>
-  <p>For the best pressure relief without compromise, the <strong>Tempur-Pedic TEMPUR-Adapt</strong> is the gold standard — but it comes at a premium price. The <strong>Lucid 3-Inch Gel Memory Foam</strong> delivers 80% of the experience at 30% of the cost — the right starting point for most people. Hot sleepers should prioritize the <strong>Saatva Graphite Memory Foam</strong>, which uses graphite infusion for genuinely superior heat dissipation over standard gel options.</p>
+  <p>For the best pressure relief without compromise, the <strong>Tempur-Pedic TEMPUR-Adapt</strong> is one option — but it comes at a premium price. The <strong>Lucid 3-Inch Gel Memory Foam</strong> delivers 80% of the experience at 30% of the cost — the right starting point for most people. Hot sleepers should prioritize the <strong>Saatva Graphite Memory Foam</strong>, which uses graphite infusion for genuinely superior heat dissipation over standard gel options.</p>
 </div>
 
 </main>

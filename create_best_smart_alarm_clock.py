@@ -174,7 +174,7 @@ html = f'''<!DOCTYPE html>
         <span class="spec-chip">Clinically tested</span>
         <span class="spec-chip">Tap snooze</span>
       </div>
-      <p>Philips is the gold standard in sunrise simulation. The HF3520 simulates a 30-minute sunrise from complete darkness to full brightness, gradually suppressing melatonin before your alarm time. Clinically tested: 92% of users in a Philips-commissioned study reported waking more naturally. The 20-step light program is smoother than cheaper alternatives with 5-10 steps.</p>
+      <p>Philips is one option in sunrise simulation. The HF3520 simulates a 30-minute sunrise from complete darkness to full brightness, gradually suppressing melatonin before your alarm time. Clinically tested: 92% of users in a Philips-commissioned study reported waking more naturally. The 20-step light program is smoother than cheaper alternatives with 5-10 steps.</p>
       <p>Five built-in sounds — birds, gentle piano, ocean waves, zen garden, Tibetan bowl — complement the light. FM radio is a bonus. At peak 200 lux, it provides real light therapy benefit for darker winter mornings. The tap snooze means no fumbling for buttons in the dark.</p>
       <div class="pros-cons">
         <div class="pros">

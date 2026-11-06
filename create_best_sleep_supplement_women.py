@@ -183,7 +183,7 @@ footer a{color:var(--muted)}
     <ol>
       <li><a href="#thorne">Thorne Magnesium Bisglycinate &mdash; Best Overall</a></li>
       <li><a href="#garden-of-life">Garden of Life mykind Sleep &mdash; Best Certified Organic</a></li>
-      <li><a href="#pure-encapsulations">Pure Encapsulations Magnesium Glycinate &mdash; Premium Pick</a></li>
+      <li><a href="#pure-encapsulations">Pure Encapsulations Magnesium Glycinate &mdash; Our Pick</a></li>
       <li><a href="#ashwagandha">KSM-66 Ashwagandha &mdash; Best for Cortisol &amp; Perimenopause</a></li>
       <li><a href="#olly">Olly Sleep Gummies &mdash; Best Gummy Form</a></li>
       <li><a href="#l-theanine">NOW L-Theanine &mdash; Best for Anxiety-Driven Insomnia</a></li>
@@ -285,11 +285,11 @@ footer a{color:var(--muted)}
 
   <!-- Product 3 -->
   <div class="product-card" id="pure-encapsulations">
-    <div class="rank-badge">#3 Premium Pick</div>
+    <div class="rank-badge">#3 Our Pick</div>
     <div class="product-header">
       <div class="product-title">
         <h3>Pure Encapsulations Magnesium Glycinate</h3>
-        <div class="verdict">Premium Pick &mdash; Hypoallergenic, practitioner-grade magnesium</div>
+        <div class="verdict">Our Pick &mdash; Hypoallergenic, practitioner-grade magnesium</div>
       </div>
       <div class="rating-box">
         <div class="score">8.9</div>
