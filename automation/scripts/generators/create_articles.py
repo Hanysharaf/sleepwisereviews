@@ -986,7 +986,7 @@ def generate_article_html(article):
 
     <div class="product-cta">
       <span class="product-cta-text">Ready to improve your sleep? Browse our recommended products</span>
-      <a class="btn-amazon" href="https://www.amazon.com/s?k={article["amazon_search"]}&tag=sleepwiserevi-20" target="_blank" rel="noopener nofollow">Shop on Amazon</a>
+      <a class="btn-amazon" href="https://www.amazon.com/s?k={article["amazon_search"]}&tag=sleepwiserevi-20" target="_blank" rel="noopener nofollow sponsored">Shop on Amazon</a>
     </div>
 
     <div class="article-cta">
