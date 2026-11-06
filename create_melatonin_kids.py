@@ -311,7 +311,7 @@ html = f'''<!DOCTYPE html>
 </div>
 <footer>
   <div class="container">
-    <p>SleepWise Reviews &copy; 2026 &mdash; <a href="../about.html">About</a> | <a href="../pages/privacy-policy.html">Privacy</a> | <a href="../pages/affiliate-disclosure.html">Affiliate Disclosure</a></p>
+    <p>SleepWise Reviews &copy; 2026 &mdash; <a href="../pages/about.html">About</a> | <a href="../pages/privacy-policy.html">Privacy</a> | <a href="../pages/affiliate-disclosure.html">Affiliate Disclosure</a></p>
     <p style="margin-top:8px">As an Amazon Associate we earn from qualifying purchases.</p>
   </div>
 </footer>

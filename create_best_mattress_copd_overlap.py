@@ -399,7 +399,7 @@ footer{background:var(--card);border-top:1px solid #1e3a5f;padding:24px;text-ali
 
 </div>
 <footer>
-<p>&copy; 2026 SleepWiseReviews &mdash; <a href="/privacy.html">Privacy</a> &middot; <a href="/about.html">About</a></p>
+<p>&copy; 2026 SleepWiseReviews &mdash; <a href="/pages/privacy-policy.html">Privacy</a> &middot; <a href="/pages/about.html">About</a></p>
 <p style="margin-top:8px;font-size:.78rem">Affiliate disclosure: We earn from qualifying Amazon purchases.</p>
 </footer>
 </body>

@@ -464,7 +464,7 @@ footer{background:#060e1d;border-top:1px solid #1e3a5f;padding:2rem;text-align:c
 </div>
 
 <footer>
-  <p>&copy; 2026 SleepWise Reviews &mdash; <a href="../privacy.html">Privacy Policy</a> &mdash; <a href="../about.html">About</a></p>
+  <p>&copy; 2026 SleepWise Reviews &mdash; <a href="../pages/privacy-policy.html">Privacy Policy</a> &mdash; <a href="../pages/about.html">About</a></p>
   <p style="margin-top:.5rem;font-size:.8rem">As an Amazon Associate we earn from qualifying purchases. All recommendations are independent.</p>
 </footer>
 </body>

@@ -149,7 +149,7 @@ footer a{color:var(--muted)}
 <a href="/">Home</a>
 <a href="/posts/index.html">All Posts</a>
 <a href="/posts/index.html#health-conditions">Health</a>
-<a href="/about.html">About</a>
+<a href="/pages/about.html">About</a>
 </nav>
 </div>
 </header>
@@ -378,7 +378,7 @@ footer a{color:var(--muted)}
 <footer>
 <div class="container">
 <p>SleepWise Reviews &mdash; Evidence-based sleep product recommendations</p>
-<p style="margin-top:8px"><a href="/about.html">About</a> &middot; <a href="/pages/privacy-policy.html">Privacy</a> &middot; <a href="/pages/affiliate-disclosure.html">Affiliate Disclaimer</a></p>
+<p style="margin-top:8px"><a href="/pages/about.html">About</a> &middot; <a href="/pages/privacy-policy.html">Privacy</a> &middot; <a href="/pages/affiliate-disclosure.html">Affiliate Disclaimer</a></p>
 <p style="margin-top:12px;font-size:.8rem">SleepWise Reviews participates in the Amazon Associates program. As an Amazon Associate we earn from qualifying purchases. This does not affect our recommendations.</p>
 </div>
 </footer>

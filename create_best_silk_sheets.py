@@ -164,7 +164,7 @@ html = '''<!DOCTYPE html>
 
   <div class="disclaimer"><strong>Affiliate Disclosure:</strong> SleepWiseReviews participates in the Amazon Associates program. Links on this page are affiliate links &mdash; we may earn a commission at no extra cost to you. Our editorial rankings are not influenced by affiliate relationships.</div>
 </main>
-<footer><p>&copy; 2026 SleepWiseReviews &bull; <a href="/privacy.html">Privacy Policy</a> &bull; <a href="/about.html">About</a> &bull; <a href="/posts/index.html">All Reviews</a></p><p style="margin-top:.5rem;">SleepWiseReviews is a participant in the Amazon Services LLC Associates Program.</p></footer>
+<footer><p>&copy; 2026 SleepWiseReviews &bull; <a href="/pages/privacy-policy.html">Privacy Policy</a> &bull; <a href="/pages/about.html">About</a> &bull; <a href="/posts/index.html">All Reviews</a></p><p style="margin-top:.5rem;">SleepWiseReviews is a participant in the Amazon Services LLC Associates Program.</p></footer>
 </body>
 </html>'''
 
