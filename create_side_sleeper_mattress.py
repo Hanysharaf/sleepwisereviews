@@ -283,7 +283,13 @@ html_out = f'''<!DOCTYPE html>
       </ul>
     </div>
   </article>
-  <footer>
+  
+<ul class="related-links">
+<li><a href="/posts/best-mattress-heavy-side-sleepers.html">Best Mattress for Heavy Side Sleepers 2025 — 7 Top Picks for 230+ lbs</a></li>
+<li><a href="/posts/best-mattress-petite-side-sleepers.html">Best Mattress for Petite Side Sleepers 2025 — 7 Top Picks Under 130 lbs</a></li>
+<li><a href="/posts/best-mattress-topper-side-sleepers.html">Best Mattress Topper for Side Sleepers 2025: Top 7 for Pressure Relief</a></li>
+</ul>
+<footer>
     <p>&copy; 2025-2026 <a href="../">SleepWise Reviews</a> &middot; Evidence-based sleep guidance</p>
   </footer>
 </body>

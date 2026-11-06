@@ -370,6 +370,9 @@ footer a{color:var(--gold);text-decoration:none}
       <a href="/posts/best-mattress-shoulder-pain.html" style="background:#0a1628;border:1px solid #1e3a5f;border-radius:8px;padding:.85rem 1rem;text-decoration:none;color:#e2e8f0;font-size:.88rem;">Best Mattress for Shoulder Pain &rarr;</a>
       <a href="/posts/best-mattress-adjustable-base.html" style="background:#0a1628;border:1px solid #1e3a5f;border-radius:8px;padding:.85rem 1rem;text-decoration:none;color:#e2e8f0;font-size:.88rem;">Best Mattress for Adjustable Base &rarr;</a>
     </div>
+<ul class="related-links">
+<li><a href="/posts/best-mattress-ehlers-danlos-classical.html">Best Mattress for Classical Ehlers-Danlos Syndrome (cEDS)</a></li>
+</ul>
   </div>
 </section>
 

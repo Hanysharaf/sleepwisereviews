@@ -311,7 +311,12 @@ html = f'''<!DOCTYPE html>
 {faq_html}
 
     <div class="affiliate-disclaimer" style="margin-top:2rem;">This content is for informational purposes. It is not medical advice. Consult a healthcare provider before starting magnesium supplementation if you have kidney disease, take prescription medications, or are pregnant. Amazon links are affiliate links.</div>
-  </main>
+  <h2 class="section-title">Related Guides</h2>
+<ul class="related-links">
+<li><a href="/posts/best-sleep-supplement-anxiety.html">Best Sleep Supplements for Anxiety (2026): Calm Your Mind & Sleep Through the Night</a></li>
+<li><a href="/posts/article-magnesium-sleep.html">Best Magnesium for Sleep in 2026: Glycinate vs Citrate vs Threonate</a></li>
+</ul>
+</main>
   <footer>
     <p>&copy; 2025–2026 <a href="../">SleepWise Reviews</a> &middot; Evidence-based sleep guidance &middot; <a href="../posts/">All Guides</a></p>
   </footer>

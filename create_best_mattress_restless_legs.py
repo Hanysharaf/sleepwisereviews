@@ -302,6 +302,10 @@ footer a{color:#c9a84c;text-decoration:none}
 
 </div>
 
+<h2 class="section-title">Related Guides</h2>
+<ul class="related-links">
+<li><a href="/posts/restless-legs-syndrome.html">Restless Legs Syndrome: Causes, Triggers, and Real Fixes</a></li>
+</ul>
 <footer>
   <p>&copy; 2025 SleepWise Reviews &bull; <a href="/pages/privacy-policy.html">Privacy Policy</a> &bull; <a href="/pages/affiliate-disclosure.html">Affiliate Disclosure</a></p>
   <p style="margin-top:8px;font-size:.75rem">We may earn a commission from Amazon links at no extra cost to you.</p>

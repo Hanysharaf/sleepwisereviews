@@ -239,7 +239,11 @@ html_out = f'''<!DOCTYPE html>
       </ul>
     </div>
   </article>
-  <footer>
+  <h2 class="section-title">Related Guides</h2>
+<ul class="related-links">
+<li><a href="/posts/best-memory-foam-mattress.html">Best Memory Foam Mattress 2025: 7 Top Picks Tested for Pressure Relief</a></li>
+</ul>
+<footer>
     <p>&copy; 2025-2026 <a href="../">SleepWise Reviews</a> &middot; Evidence-based sleep guidance</p>
   </footer>
 </body>
