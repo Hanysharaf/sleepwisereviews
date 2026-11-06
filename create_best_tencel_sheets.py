@@ -533,7 +533,7 @@ html = '''<!DOCTYPE html>
 </main>
 
 <footer>
-  <p>&copy; 2026 SleepWiseReviews &bull; <a href="/privacy.html">Privacy Policy</a> &bull; <a href="/about.html">About</a> &bull; <a href="/posts/index.html">All Reviews</a></p>
+  <p>&copy; 2026 SleepWiseReviews &bull; <a href="/pages/privacy-policy.html">Privacy Policy</a> &bull; <a href="/pages/about.html">About</a> &bull; <a href="/posts/index.html">All Reviews</a></p>
   <p style="margin-top:0.5rem;">SleepWiseReviews is a participant in the Amazon Services LLC Associates Program.</p>
 </footer>
 

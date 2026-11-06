@@ -502,7 +502,7 @@ html = """<!DOCTYPE html>
   <footer>
     <div class="container">
       <p>SleepWiseReviews is reader-supported. We may earn a commission from qualifying Amazon purchases at no extra cost to you.</p>
-      <p style="margin-top:0.5rem;"><a href="../index.html">Home</a> &nbsp;&middot;&nbsp; <a href="../posts/index.html">All Reviews</a> &nbsp;&middot;&nbsp; <a href="../privacy.html">Privacy Policy</a></p>
+      <p style="margin-top:0.5rem;"><a href="../index.html">Home</a> &nbsp;&middot;&nbsp; <a href="../posts/index.html">All Reviews</a> &nbsp;&middot;&nbsp; <a href="../pages/privacy-policy.html">Privacy Policy</a></p>
     </div>
   </footer>
 </body>

@@ -361,7 +361,7 @@ html = f"""<!DOCTYPE html>
   </div>
 </div>
 <footer>
-  <p>&copy; 2026 SleepWiseReviews &mdash; <a href="/about.html">About</a> &middot; <a href="/pages/privacy-policy.html">Privacy Policy</a></p>
+  <p>&copy; 2026 SleepWiseReviews &mdash; <a href="/pages/about.html">About</a> &middot; <a href="/pages/privacy-policy.html">Privacy Policy</a></p>
   <p style="margin-top:.5rem;font-size:.8rem">As an Amazon Associate we earn from qualifying purchases. All recommendations are independent &mdash; affiliate links never influence our picks.</p>
 </footer>
 </body>

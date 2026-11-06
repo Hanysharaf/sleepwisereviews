@@ -493,7 +493,7 @@ html = '''<!DOCTYPE html>
 </div>
 
 <footer>
-  <p>&copy; 2026 SleepWise Reviews &mdash; <a href="/privacy.html">Privacy Policy</a> &mdash; <a href="/about.html">About</a></p>
+  <p>&copy; 2026 SleepWise Reviews &mdash; <a href="/pages/privacy-policy.html">Privacy Policy</a> &mdash; <a href="/pages/about.html">About</a></p>
   <p style="margin-top:8px;font-size:.78rem;">Amazon Associates Disclosure: As an Amazon Associate we earn from qualifying purchases. Product prices and availability are accurate as of the date published and may change.</p>
 </footer>
 </body>

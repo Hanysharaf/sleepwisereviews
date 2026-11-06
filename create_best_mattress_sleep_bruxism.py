@@ -301,7 +301,7 @@ footer a{color:#c9a84c;text-decoration:none}
 </div>
 
 <footer>
-  <p>&copy; 2025 SleepWise Reviews &bull; <a href="/privacy.html">Privacy Policy</a> &bull; <a href="/disclosure.html">Affiliate Disclosure</a></p>
+  <p>&copy; 2025 SleepWise Reviews &bull; <a href="/pages/privacy-policy.html">Privacy Policy</a> &bull; <a href="/pages/affiliate-disclosure.html">Affiliate Disclosure</a></p>
   <p style="margin-top:8px;font-size:.75rem">We may earn a commission from Amazon links at no extra cost to you.</p>
 </footer>
 </body>
