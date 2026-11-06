@@ -90,7 +90,7 @@ FAQS = {
     ],
     'sleep-apnea-diagnosis.html': [
         ("How is sleep apnea diagnosed?",
-         "Sleep apnea is diagnosed through a sleep study. A polysomnography (PSG) in a sleep laboratory is the gold standard — it measures brain waves, oxygen levels, heart rate, breathing, eye and leg movements simultaneously. Home sleep apnea tests (HSAT) measure airflow, respiratory effort, and oxygen saturation and are prescribed for uncomplicated suspected OSA. The severity metric is the Apnea-Hypopnea Index (AHI): mild OSA is 5-14 events/hour, moderate 15-29, severe 30+."),
+         "Sleep apnea is diagnosed through a sleep study. A polysomnography (PSG) in a sleep laboratory is the standard test — it measures brain waves, oxygen levels, heart rate, breathing, eye and leg movements simultaneously. Home sleep apnea tests (HSAT) measure airflow, respiratory effort, and oxygen saturation and are prescribed for uncomplicated suspected OSA. The severity metric is the Apnea-Hypopnea Index (AHI): mild OSA is 5-14 events/hour, moderate 15-29, severe 30+."),
         ("Can I diagnose sleep apnea at home?",
          "You can identify warning signs at home (snoring, witnessed apneas, excessive daytime sleepiness, morning headaches) but cannot diagnose it without a sleep study. Consumer sleep trackers that estimate sleep stages are not validated for OSA diagnosis. Your doctor can order a home sleep apnea test (HSAT) — a portable device worn one night at home — which is covered by most insurance for suspected OSA and provides definitive diagnosis for most cases."),
         ("What is the difference between OSA and central sleep apnea?",
