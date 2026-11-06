@@ -331,6 +331,13 @@ footer{background:#111e33;border-top:1px solid #1e3a5f;padding:2rem;text-align:c
 <div class="related-card"><h4><a href="best-mattress-fibromyalgia.html">Best Mattress for Fibromyalgia</a></h4><p>Whole-body pressure distribution and motion isolation for fibro sleep.</p></div>
 </div>
 </div>
+<ul class="related-links">
+<li><a href="/health-conditions.html">Best Mattress by Health Condition: 200+ Clinical Guides</a></li>
+<li><a href="/posts/category/health-conditions.html">Health Conditions</a></li>
+<li><a href="/posts/best-mattress-pulmonary-hypertension.html">Best Mattress for Pulmonary Hypertension 2026</a></li>
+<li><a href="/posts/best-mattress-idiopathic-hypersomnia.html">Best Mattress for Idiopathic Hypersomnia</a></li>
+<li><a href="/posts/best-mattress-dysautonomia.html">Best Mattress for Dysautonomia 2026</a></li>
+</ul>
 
 </div>
 

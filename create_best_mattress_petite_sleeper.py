@@ -322,6 +322,14 @@ html = """<!DOCTYPE html>
   </section>
 </div>
 
+<h2 class="section-title">Related Guides</h2>
+<ul class="related-links">
+<li><a href="/health-conditions.html">Best Mattress by Health Condition: 200+ Clinical Guides</a></li>
+<li><a href="/posts/category/life-stages.html">Life Stages</a></li>
+<li><a href="/posts/best-mattress-heavy-side-sleepers.html">Best Mattress for Heavy Side Sleepers 2025 — 7 Top Picks for 230+ lbs</a></li>
+<li><a href="/posts/best-mattress-heavy-sleepers.html">Best Mattress for Heavy Sleepers 2026 — Top 7 Picks for 250+ lbs</a></li>
+<li><a href="/posts/best-mattress-trundle-bed.html">Best Mattress for Trundle Beds 2026 &mdash; 7 Expert Picks</a></li>
+</ul>
 <footer>
   <p>&copy; 2026 SleepWise Reviews &mdash; <a href="/pages/privacy-policy.html">Privacy Policy</a> &mdash; <a href="/pages/about.html">About</a></p>
   <p style="margin-top:8px;font-size:.78rem;">Amazon Associates Disclosure: As an Amazon Associate we earn from qualifying purchases.</p>

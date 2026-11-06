@@ -275,6 +275,13 @@ nav.breadcrumb span{color:var(--gold)}
 <div class="related-card"><a href="best-mattress-edema.html">Edema</a> &mdash; leg swelling and fluid management</div>
 <div class="related-card"><a href="best-mattress-back-pain.html">Back Pain</a> &mdash; spinal alignment during sleep</div>
 </div>
+<ul class="related-links">
+<li><a href="/health-conditions.html">Best Mattress by Health Condition: 200+ Clinical Guides</a></li>
+<li><a href="/posts/category/health-conditions.html">Health Conditions</a></li>
+<li><a href="/posts/best-mattress-pad.html">Best Mattress Pads 2026: Protection + Comfort in One Layer</a></li>
+<li><a href="/posts/best-mattress-interstitial-lung-disease.html">Best Mattress for Interstitial Lung Disease (2025): 7 Picks for ILD, Pulmonary Fibrosis &amp; Breathlessness Sleep</a></li>
+<li><a href="/posts/best-mattress-sjogrens-syndrome.html">Best Mattress for Sjogren's Syndrome (2025): 7 Picks for Dry Eyes, Joint Pain &amp; Fatigue Sleep</a></li>
+</ul>
 
 </div>
 <footer>

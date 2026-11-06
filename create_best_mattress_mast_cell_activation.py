@@ -360,6 +360,13 @@ html = f"""<!DOCTYPE html>
     <a href="best-mattress-ehlers-danlos.html">Best Mattress for Ehlers-Danlos Syndrome</a>
     <a href="best-organic-mattress.html">Best Organic Mattress (Low-VOC)</a>
   </div>
+<ul class="related-links">
+<li><a href="/health-conditions.html">Best Mattress by Health Condition: 200+ Clinical Guides</a></li>
+<li><a href="/posts/category/health-conditions.html">Health Conditions</a></li>
+<li><a href="/posts/best-mattress-sickle-cell-disease.html">Best Mattress for Sickle Cell Disease 2026</a></li>
+<li><a href="/posts/best-mattress-myofascial-pain-syndrome.html">Best Mattress for Myofascial Pain Syndrome (2026): 7 Picks for Trigger Point Sleep Relief</a></li>
+<li><a href="/posts/best-mattress-stiff-person-syndrome.html">Best Mattress for Stiff Person Syndrome</a></li>
+</ul>
 </div>
 <footer>
   <p>&copy; 2026 SleepWiseReviews. All rights reserved.</p>

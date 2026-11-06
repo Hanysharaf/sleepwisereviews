@@ -366,6 +366,13 @@ html = f"""<!DOCTYPE html>
     <a href="best-mattress-fibromyalgia.html">Best Mattress for Fibromyalgia</a>
     <a href="best-mattress-adjustable-base.html">Best Mattress for Adjustable Base</a>
   </div>
+<ul class="related-links">
+<li><a href="/health-conditions.html">Best Mattress by Health Condition: 200+ Clinical Guides</a></li>
+<li><a href="/posts/category/health-conditions.html">Health Conditions</a></li>
+<li><a href="/posts/best-mattress-trigeminal-neuralgia.html">Best Mattress for Trigeminal Neuralgia</a></li>
+<li><a href="/posts/best-mattress-cervical-radiculopathy.html">Best Mattress for Cervical Radiculopathy (2026)</a></li>
+<li><a href="/posts/best-mattress-nerve-impingement.html">Best Mattress for Nerve Impingement 2026</a></li>
+</ul>
 </div>
 <footer>
   <p>&copy; 2026 SleepWiseReviews. All rights reserved.</p>

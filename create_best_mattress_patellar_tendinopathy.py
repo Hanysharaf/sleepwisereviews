@@ -360,6 +360,13 @@ html = f"""<!DOCTYPE html>
     <a href="best-mattress-plantar-fasciitis.html">Best Mattress for Plantar Fasciitis</a>
     <a href="best-mattress-hip-pain.html">Best Mattress for Hip Pain</a>
   </div>
+<ul class="related-links">
+<li><a href="/health-conditions.html">Best Mattress by Health Condition: 200+ Clinical Guides</a></li>
+<li><a href="/posts/category/health-conditions.html">Health Conditions</a></li>
+<li><a href="/posts/best-mattress-achilles-tendinopathy.html">Best Mattress for Achilles Tendinopathy (2026)</a></li>
+<li><a href="/posts/best-mattress-knee-pain.html">Best Mattress for Knee Pain (2026)</a></li>
+<li><a href="/posts/best-mattress-thoracic-spine-pain.html">Best Mattress for Thoracic Spine Pain</a></li>
+</ul>
 </div>
 <footer>
   <p>&copy; 2026 SleepWiseReviews. All rights reserved.</p>
