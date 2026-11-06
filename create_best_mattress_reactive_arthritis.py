@@ -360,6 +360,13 @@ html = f"""<!DOCTYPE html>
     <a href="best-mattress-side-sleepers.html">Best Mattress for Side Sleepers</a>
     <a href="best-mattress-back-sleepers.html">Best Mattress for Back Sleepers</a>
   </div>
+<ul class="related-links">
+<li><a href="/health-conditions.html">Best Mattress by Health Condition: 200+ Clinical Guides</a></li>
+<li><a href="/posts/category/health-conditions.html">Health Conditions</a></li>
+<li><a href="/posts/best-mattress-for-seniors.html">Best Mattresses for Seniors (2026): Arthritis Relief, Easy Entry & Long-Term Support</a></li>
+<li><a href="/posts/best-mattress-arthritis.html">Best Mattress for Arthritis 2025: 7 Reviewed for Joint Pain Relief</a></li>
+<li><a href="/posts/best-mattress-ankle-fracture-recovery.html">Best Mattress for Ankle Fracture Recovery (2026)</a></li>
+</ul>
 </div>
 <footer>
   <p>&copy; 2026 SleepWiseReviews. All rights reserved.</p>

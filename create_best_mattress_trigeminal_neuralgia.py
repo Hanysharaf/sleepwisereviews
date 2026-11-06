@@ -390,6 +390,13 @@ html = f"""<!DOCTYPE html>
     <a href="posts/best-mattress-fibromyalgia.html">Best Mattress for Fibromyalgia</a>
     <a href="posts/best-mattress-adjustable-base.html">Best Mattress for Adjustable Base</a>
   </div>
+<ul class="related-links">
+<li><a href="/health-conditions.html">Best Mattress by Health Condition: 200+ Clinical Guides</a></li>
+<li><a href="/posts/category/health-conditions.html">Health Conditions</a></li>
+<li><a href="/posts/best-mattress-pudendal-neuralgia.html">Best Mattress for Pudendal Neuralgia</a></li>
+<li><a href="/posts/best-mattress-small-fiber-neuropathy.html">Best Mattress for Small Fiber Neuropathy</a></li>
+<li><a href="/posts/best-mattress-rosacea.html">Best Mattress for Rosacea 2026</a></li>
+</ul>
 </div>
 <footer>
   <p>&copy; 2026 SleepWiseReviews. All rights reserved.</p>

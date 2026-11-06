@@ -358,6 +358,13 @@ html = f"""<!DOCTYPE html>
     <a href="best-mattress-restless-legs.html">Restless Legs</a>
     <a href="best-mattress-back-sleepers.html">Back Sleepers</a>
   </div>
+<ul class="related-links">
+<li><a href="/health-conditions.html">Best Mattress by Health Condition: 200+ Clinical Guides</a></li>
+<li><a href="/posts/category/health-conditions.html">Health Conditions</a></li>
+<li><a href="/posts/best-mattress-piriformis-syndrome.html">Best Mattress for Piriformis Syndrome</a></li>
+<li><a href="/posts/best-mattress-cidp.html">Best Mattress for CIDP (Chronic Inflammatory Demyelinating Polyneuropathy)</a></li>
+<li><a href="/posts/best-mattress-chronic-hives.html">Best Mattress for Chronic Hives 2026</a></li>
+</ul>
 </div>
 <footer>
   <p>&copy; 2026 SleepWiseReviews &mdash; <a href="/pages/about.html">About</a> &middot; <a href="/pages/privacy-policy.html">Privacy Policy</a></p>

@@ -398,6 +398,13 @@ footer a{{color:var(--muted)}}
     <p>Raynaud's, esophageal GERD elevation, connective tissue</p>
   </div>
 </div>
+<ul class="related-links">
+<li><a href="/health-conditions.html">Best Mattress by Health Condition: 200+ Clinical Guides</a></li>
+<li><a href="/posts/category/health-conditions.html">Health Conditions</a></li>
+<li><a href="/posts/best-mattress-thoracic-spine-pain.html">Best Mattress for Thoracic Spine Pain</a></li>
+<li><a href="/posts/best-mattress-thoracic-hyperkyphosis.html">Best Mattress for Thoracic Hyperkyphosis</a></li>
+<li><a href="/posts/best-mattress-stomach-sleepers-back-pain.html">Best Mattress for Stomach Sleepers with Back Pain 2025 — 7 Firm Picks</a></li>
+</ul>
 
 <footer>
   <p><a href="../index.html">SleepWise Reviews</a> &mdash; <a href="../posts/index.html">All Posts</a></p>
