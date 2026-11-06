@@ -390,6 +390,13 @@ footer a{color:var(--gold);text-decoration:none}
     <p>Lumbar support, pelvic alignment and spinal decompression</p>
   </a>
 </div>
+<ul class="related-links">
+<li><a href="/health-conditions.html">Best Mattress by Health Condition: 200+ Clinical Guides</a></li>
+<li><a href="/posts/category/health-conditions.html">Health Conditions</a></li>
+<li><a href="/posts/best-mattress-pelvic-girdle-pain.html">Best Mattress for Pelvic Girdle Pain (2025): 7 Picks for SPD &amp; PGP Relief During &amp; After Pregnancy</a></li>
+<li><a href="/posts/best-mattress-sacroiliac-joint-pain.html">Best Mattress for Sacroiliac Joint Pain (2025): 7 Picks for SI Joint Dysfunction &amp; Pelvic Stability Sleep</a></li>
+<li><a href="/posts/best-mattress-chronic-hives.html">Best Mattress for Chronic Hives 2026</a></li>
+</ul>
 
 </div>
 <footer>

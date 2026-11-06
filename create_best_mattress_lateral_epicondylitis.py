@@ -361,6 +361,13 @@ html = f"""<!DOCTYPE html>
     <a href="best-mattress-chronic-pain.html">Best Mattress for Chronic Pain</a>
     <a href="best-mattress-adjustable-base.html">Best Mattress for Adjustable Base</a>
   </div>
+<ul class="related-links">
+<li><a href="/health-conditions.html">Best Mattress by Health Condition: 200+ Clinical Guides</a></li>
+<li><a href="/posts/category/health-conditions.html">Health Conditions</a></li>
+<li><a href="/posts/best-mattress-iliotibial-band-syndrome.html">Best Mattress for IT Band Syndrome 2026: 7 Picks to Relieve Lateral Knee Pain</a></li>
+<li><a href="/posts/best-mattress-patellofemoral-syndrome.html">Best Mattress for Patellofemoral Syndrome (2026)</a></li>
+<li><a href="/posts/best-mattress-sibo.html">Best Mattress for SIBO (Small Intestinal Bacterial Overgrowth)</a></li>
+</ul>
 </div>
 <footer>
   <p>&copy; 2026 SleepWiseReviews. All rights reserved.</p>

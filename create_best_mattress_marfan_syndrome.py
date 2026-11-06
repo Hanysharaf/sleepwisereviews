@@ -403,6 +403,13 @@ footer a{{color:var(--muted)}}
     <p>Cardiac positioning, orthopnea, nocturnal dyspnea</p>
   </div>
 </div>
+<ul class="related-links">
+<li><a href="/health-conditions.html">Best Mattress by Health Condition: 200+ Clinical Guides</a></li>
+<li><a href="/posts/category/health-conditions.html">Health Conditions</a></li>
+<li><a href="/posts/best-mattress-lumbar-radiculopathy.html">Best Mattress for Lumbar Radiculopathy 2026 &mdash; 7 Picks for L4, L5 and S1 Nerve Root Pain</a></li>
+<li><a href="/posts/best-mattress-copd-overlap.html">Best Mattress for COPD &amp; Sleep Apnea Overlap Syndrome (2026)</a></li>
+<li><a href="/posts/best-mattress-cushing-syndrome.html">Best Mattress for Cushing's Syndrome 2026</a></li>
+</ul>
 
 <footer>
   <p><a href="../index.html">SleepWise Reviews</a> &mdash; <a href="../posts/index.html">All Posts</a></p>

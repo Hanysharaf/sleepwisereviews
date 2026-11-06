@@ -269,6 +269,13 @@ nav.breadcrumb span{color:var(--gold)}
 <div class="related-card"><a href="best-mattress-fibromyalgia.html">Fibromyalgia</a> &mdash; widespread pain, central sensitization</div>
 <div class="related-card"><a href="best-mattress-insomnia.html">Insomnia</a> &mdash; sleep onset and maintenance</div>
 </div>
+<ul class="related-links">
+<li><a href="/health-conditions.html">Best Mattress by Health Condition: 200+ Clinical Guides</a></li>
+<li><a href="/posts/category/health-conditions.html">Health Conditions</a></li>
+<li><a href="/posts/best-mattress-osteoarthritis.html">Best Mattress for Osteoarthritis (2026): 7 Picks for Joint Pain Relief</a></li>
+<li><a href="/posts/best-mattress-pelvic-girdle-pain.html">Best Mattress for Pelvic Girdle Pain (2025): 7 Picks for SPD &amp; PGP Relief During &amp; After Pregnancy</a></li>
+<li><a href="/posts/best-mattress-bursitis.html">Best Mattress for Bursitis 2026: 7 Picks to Reduce Hip, Shoulder &amp; Knee Bursal Pressure</a></li>
+</ul>
 
 </div>
 <footer>
