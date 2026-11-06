@@ -372,18 +372,15 @@ footer .disclaimer{max-width:700px;margin:.75rem auto 0;line-height:1.6}
       <li><a href="best-full-mattress.html">&#8594; Best Full Size Mattress</a></li>
       <li><a href="best-mattress-queen.html">&#8594; Best Queen Mattress</a></li>
       <li><a href="best-mattress-couples.html">&#8594; Best Mattress for Couples</a></li>
+      <li><a href="/health-conditions.html">&#8594; Best Mattress by Health Condition: 200+ Clinical Guides</a></li>
+      <li><a href="/posts/category/mattresses-bedding.html">&#8594; Mattresses &amp; Bedding</a></li>
+      <li><a href="/posts/best-mattress-murphy-bed.html">&#8594; Best Mattress for Murphy Beds 2026 &mdash; 7 Expert Picks</a></li>
+      <li><a href="/posts/best-mattress-trundle-bed.html">&#8594; Best Mattress for Trundle Beds 2026 &mdash; 7 Expert Picks</a></li>
+      <li><a href="/posts/best-mattress-teenager.html">&#8594; Best Mattress for Teenagers 2025 &mdash; 7 Picks for Growing Bodies, Bunk Beds &amp; Tight Budgets</a></li>
     </ul>
   </section>
 </div>
 
-<h2 class="section-title">Related Guides</h2>
-<ul class="related-links">
-<li><a href="/health-conditions.html">Best Mattress by Health Condition: 200+ Clinical Guides</a></li>
-<li><a href="/posts/category/mattresses-bedding.html">Mattresses &amp; Bedding</a></li>
-<li><a href="/posts/best-mattress-murphy-bed.html">Best Mattress for Murphy Beds 2026 &mdash; 7 Expert Picks</a></li>
-<li><a href="/posts/best-mattress-trundle-bed.html">Best Mattress for Trundle Beds 2026 &mdash; 7 Expert Picks</a></li>
-<li><a href="/posts/best-mattress-teenager.html">Best Mattress for Teenagers 2025 &mdash; 7 Picks for Growing Bodies, Bunk Beds &amp; Tight Budgets</a></li>
-</ul>
 <footer>
   <div class="container">
     <p><a href="/">SleepWise Reviews</a> &mdash; <a href="/pages/about.html">About</a></p>
