@@ -397,6 +397,13 @@ footer a{color:var(--gold);text-decoration:none}
     <p>Nocturnal seizures, SUDEP safety and partner alerting</p>
   </a>
 </div>
+<ul class="related-links">
+<li><a href="/health-conditions.html">Best Mattress by Health Condition: 200+ Clinical Guides</a></li>
+<li><a href="/posts/category/health-conditions.html">Health Conditions</a></li>
+<li><a href="/posts/best-mattress-celiac-disease.html">Best Mattress for Celiac Disease 2026</a></li>
+<li><a href="/posts/best-mattress-osteoporosis.html">Best Mattress for Osteoporosis 2026</a></li>
+<li><a href="/posts/best-mattress-pelvic-floor-dysfunction.html">Best Mattress for Pelvic Floor Dysfunction 2026</a></li>
+</ul>
 
 </div>
 <footer>

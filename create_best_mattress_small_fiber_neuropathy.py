@@ -367,6 +367,13 @@ html = f"""<!DOCTYPE html>
     <a href="posts/best-mattress-diabetes.html">Best Mattress for Diabetes</a>
     <a href="posts/best-mattress-adjustable-base.html">Best Mattress for Adjustable Base</a>
   </div>
+<ul class="related-links">
+<li><a href="/health-conditions.html">Best Mattress by Health Condition: 200+ Clinical Guides</a></li>
+<li><a href="/posts/category/health-conditions.html">Health Conditions</a></li>
+<li><a href="/posts/best-mattress-dysautonomia.html">Best Mattress for Dysautonomia 2026</a></li>
+<li><a href="/posts/best-mattress-sibo.html">Best Mattress for SIBO (Small Intestinal Bacterial Overgrowth)</a></li>
+<li><a href="/posts/best-mattress-sjogrens-syndrome.html">Best Mattress for Sjogren's Syndrome (2025): 7 Picks for Dry Eyes, Joint Pain &amp; Fatigue Sleep</a></li>
+</ul>
 </div>
 <footer>
   <p>&copy; 2026 SleepWiseReviews. All rights reserved.</p>

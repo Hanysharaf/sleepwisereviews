@@ -269,6 +269,13 @@ nav.breadcrumb span{color:var(--gold)}
 <div class="related-card"><a href="best-mattress-peripheral-neuropathy.html">Peripheral Neuropathy</a> &mdash; burning nerve pain at night</div>
 <div class="related-card"><a href="best-mattress-insomnia.html">Insomnia</a> &mdash; sleep onset and maintenance</div>
 </div>
+<ul class="related-links">
+<li><a href="/health-conditions.html">Best Mattress by Health Condition: 200+ Clinical Guides</a></li>
+<li><a href="/posts/category/health-conditions.html">Health Conditions</a></li>
+<li><a href="/posts/best-mattress-sacroiliac-joint-pain.html">Best Mattress for Sacroiliac Joint Pain (2025): 7 Picks for SI Joint Dysfunction &amp; Pelvic Stability Sleep</a></li>
+<li><a href="/posts/best-mattress-peripheral-artery-disease.html">Best Mattress for Peripheral Artery Disease (2025): 7 Picks for PAD Rest Pain &amp; Leg Positioning</a></li>
+<li><a href="/posts/best-mattress-osteoarthritis.html">Best Mattress for Osteoarthritis (2026): 7 Picks for Joint Pain Relief</a></li>
+</ul>
 
 </div>
 <footer>

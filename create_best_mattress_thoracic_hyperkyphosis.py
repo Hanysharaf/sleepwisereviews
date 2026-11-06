@@ -367,6 +367,13 @@ html = f"""<!DOCTYPE html>
     <a href="posts/best-mattress-herniated-disc.html">Best Mattress for Herniated Disc</a>
     <a href="posts/best-mattress-shoulder-pain.html">Best Mattress for Shoulder Pain</a>
   </div>
+<ul class="related-links">
+<li><a href="/health-conditions.html">Best Mattress by Health Condition: 200+ Clinical Guides</a></li>
+<li><a href="/posts/category/health-conditions.html">Health Conditions</a></li>
+<li><a href="/posts/best-mattress-thoracic-spine-pain.html">Best Mattress for Thoracic Spine Pain</a></li>
+<li><a href="/posts/best-mattress-thoracic-outlet-syndrome.html">Best Mattress for Thoracic Outlet Syndrome 2026: 7 Picks for TOS Sleep</a></li>
+<li><a href="/posts/best-mattress-pots-syndrome.html">Best Mattress for POTS (Postural Orthostatic Tachycardia Syndrome)</a></li>
+</ul>
 </div>
 <footer>
   <p>&copy; 2026 SleepWiseReviews. All rights reserved.</p>

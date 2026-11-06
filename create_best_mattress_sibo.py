@@ -360,6 +360,13 @@ html = f"""<!DOCTYPE html>
     <a href="best-adjustable-base-mattress.html">Best Mattress for Adjustable Bases</a>
     <a href="best-mattress-stomach-sleepers.html">Best Mattress for Stomach Sleepers</a>
   </div>
+<ul class="related-links">
+<li><a href="/health-conditions.html">Best Mattress by Health Condition: 200+ Clinical Guides</a></li>
+<li><a href="/posts/category/health-conditions.html">Health Conditions</a></li>
+<li><a href="/posts/best-mattress-small-fiber-neuropathy.html">Best Mattress for Small Fiber Neuropathy</a></li>
+<li><a href="/posts/best-mattress-hiatal-hernia.html">Best Mattress for Hiatal Hernia (2026): 7 Picks for HOB Elevation &amp; Left-Side Sleep</a></li>
+<li><a href="/posts/best-mattress-lateral-epicondylitis.html">Best Mattress for Lateral Epicondylitis (Tennis Elbow)</a></li>
+</ul>
 </div>
 <footer>
   <p>&copy; 2026 SleepWiseReviews. All rights reserved.</p>
