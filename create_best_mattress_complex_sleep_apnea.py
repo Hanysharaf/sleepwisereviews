@@ -360,6 +360,13 @@ html = f"""<!DOCTYPE html>
     <a href="best-mattress-side-sleepers.html">Best Mattress for Side Sleepers</a>
     <a href="best-adjustable-base-mattress.html">Best Mattress for Adjustable Bases</a>
   </div>
+<ul class="related-links">
+<li><a href="/health-conditions.html">Best Mattress by Health Condition: 200+ Clinical Guides</a></li>
+<li><a href="/posts/category/health-conditions.html">Health Conditions</a></li>
+<li><a href="/posts/best-mattress-copd-overlap.html">Best Mattress for COPD &amp; Sleep Apnea Overlap Syndrome (2026)</a></li>
+<li><a href="/posts/best-mattress-cerebral-palsy.html">Best Mattress for Cerebral Palsy 2026</a></li>
+<li><a href="/posts/best-mattress-acromegaly.html">Best Mattress for Acromegaly 2026</a></li>
+</ul>
 </div>
 <footer>
   <p>&copy; 2026 SleepWiseReviews. All rights reserved.</p>

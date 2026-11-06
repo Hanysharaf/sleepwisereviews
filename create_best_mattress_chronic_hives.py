@@ -396,6 +396,13 @@ footer a{color:var(--gold);text-decoration:none}
     <p>Itch-driven sleep onset delay and sleep maintenance disruption</p>
   </a>
 </div>
+<ul class="related-links">
+<li><a href="/health-conditions.html">Best Mattress by Health Condition: 200+ Clinical Guides</a></li>
+<li><a href="/posts/category/health-conditions.html">Health Conditions</a></li>
+<li><a href="/posts/best-mattress-chronic-back-pain.html">Best Mattress for Chronic Back Pain 2025 — Expert Picks for Long-Term Relief</a></li>
+<li><a href="/posts/best-mattress-pelvic-floor-dysfunction.html">Best Mattress for Pelvic Floor Dysfunction 2026</a></li>
+<li><a href="/posts/best-mattress-chronic-sinusitis.html">Best Mattress for Chronic Sinusitis 2026</a></li>
+</ul>
 
 </div>
 <footer>

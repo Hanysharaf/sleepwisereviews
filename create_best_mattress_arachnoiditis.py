@@ -360,6 +360,13 @@ html = f"""<!DOCTYPE html>
     <a href="best-mattress-multiple-sclerosis.html">Best Mattress for Multiple Sclerosis</a>
     <a href="best-mattress-adjustable-base.html">Best Mattress for Adjustable Base</a>
   </div>
+<ul class="related-links">
+<li><a href="/health-conditions.html">Best Mattress by Health Condition: 200+ Clinical Guides</a></li>
+<li><a href="/posts/category/health-conditions.html">Health Conditions</a></li>
+<li><a href="/posts/best-mattress-graves-disease.html">Best Mattress for Graves' Disease 2026</a></li>
+<li><a href="/posts/best-mattress-syringomyelia.html">Best Mattress for Syringomyelia</a></li>
+<li><a href="/posts/best-mattress-occipital-neuralgia.html">Best Mattress for Occipital Neuralgia</a></li>
+</ul>
 </div>
 <footer>
   <p>&copy; 2026 SleepWiseReviews. All rights reserved.</p>

@@ -457,7 +457,15 @@ html = f'''<!DOCTYPE html>
       <h3>Is memory foam or innerspring better for heavy people?</h3>
       <p>Neither alone — hybrid mattresses outperform both for heavy sleepers. Standard memory foam compresses excessively under higher weight, losing support. Traditional innersprings lack adequate comfort layers. Hybrids with reinforced coil systems and appropriate foam thickness and density deliver the best combination of support durability and comfort.</p>
     </div>
-  </main>
+  <h2 class="section-title">Related Guides</h2>
+<ul class="related-links">
+<li><a href="/health-conditions.html">Best Mattress by Health Condition: 200+ Clinical Guides</a></li>
+<li><a href="/posts/category/mattresses-bedding.html">Mattresses &amp; Bedding</a></li>
+<li><a href="/posts/best-mattress-for-seniors.html">Best Mattresses for Seniors (2026): Arthritis Relief, Easy Entry & Long-Term Support</a></li>
+<li><a href="/posts/best-mattress-topper-memory-foam.html">Best Memory Foam Mattress Toppers 2025 - Pressure Relief</a></li>
+<li><a href="/posts/best-mattress-patellofemoral-syndrome.html">Best Mattress for Patellofemoral Syndrome (2026)</a></li>
+</ul>
+</main>
   <footer>
     <p>&copy; 2025-2026 <a href="../">SleepWise Reviews</a> &middot; Evidence-based sleep guidance &middot; <a href="../posts/">All Guides</a></p>
   </footer>
