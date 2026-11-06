@@ -236,6 +236,7 @@ html_out = f'''<!DOCTYPE html>
         <li><a href="best-mattress-back-sleepers.html">Best Mattress for Back Sleepers (2026)</a></li>
         <li><a href="mattress-buying-guide.html">Complete Mattress Buying Guide</a></li>
         <li><a href="best-mattresses-back-pain.html">Best Mattresses for Back Pain</a></li>
+        <li><a href="/posts/best-memory-foam-mattress.html">Best Memory Foam Mattress 2025: 7 Top Picks Tested for Pressure Relief</a></li>
       </ul>
     </div>
   </article>
