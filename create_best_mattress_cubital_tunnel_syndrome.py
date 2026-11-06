@@ -461,6 +461,13 @@ html = """<!DOCTYPE html>
       <div class="related-card"><a href="best-mattress-chronic-pain.html">Best Mattress for Chronic Pain</a></div>
       <div class="related-card"><a href="best-mattress-adjustable-base.html">Best Mattress for Adjustable Base</a></div>
     </div>
+<ul class="related-links">
+<li><a href="/health-conditions.html">Best Mattress by Health Condition: 200+ Clinical Guides</a></li>
+<li><a href="/posts/category/health-conditions.html">Health Conditions</a></li>
+<li><a href="/posts/best-mattress-tarsal-tunnel-syndrome.html">Best Mattress for Tarsal Tunnel Syndrome (2026) &mdash; 7 Picks</a></li>
+<li><a href="/posts/best-mattress-nerve-impingement.html">Best Mattress for Nerve Impingement 2026</a></li>
+<li><a href="/posts/best-mattress-amyloidosis.html">Best Mattress for Amyloidosis 2026</a></li>
+</ul>
   </div>
 
 </main>

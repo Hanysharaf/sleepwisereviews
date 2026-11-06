@@ -398,6 +398,13 @@ footer a{{color:var(--muted)}}
     <p>Sub-32mmHg all sites, trochanteric bursitis, hip zone</p>
   </div>
 </div>
+<ul class="related-links">
+<li><a href="/health-conditions.html">Best Mattress by Health Condition: 200+ Clinical Guides</a></li>
+<li><a href="/posts/category/health-conditions.html">Health Conditions</a></li>
+<li><a href="/posts/best-mattress-meralgia-paresthetica.html">Best Mattress for Meralgia Paresthetica</a></li>
+<li><a href="/posts/best-mattress-hip-labral-tear.html">Best Mattress for Hip Labral Tear (Acetabular Labrum)</a></li>
+<li><a href="/posts/best-mattress-osteogenesis-imperfecta.html">Best Mattress for Osteogenesis Imperfecta</a></li>
+</ul>
 
 <footer>
   <p><a href="../index.html">SleepWise Reviews</a> &mdash; <a href="../posts/index.html">All Posts</a></p>

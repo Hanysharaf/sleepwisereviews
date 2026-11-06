@@ -358,6 +358,13 @@ html = f"""<!DOCTYPE html>
     <a href="best-mattress-hip-pain.html">Hip Pain</a>
     <a href="best-mattress-chronic-pain.html">Chronic Pain</a>
   </div>
+<ul class="related-links">
+<li><a href="/health-conditions.html">Best Mattress by Health Condition: 200+ Clinical Guides</a></li>
+<li><a href="/posts/category/health-conditions.html">Health Conditions</a></li>
+<li><a href="/posts/best-mattress-shoulder-impingement.html">Best Mattress for Shoulder Impingement Syndrome</a></li>
+<li><a href="/posts/best-mattress-temporomandibular-joint-disorder.html">Best Mattress for Temporomandibular Joint Disorder (TMD/TMJ)</a></li>
+<li><a href="/posts/best-mattress-pudendal-neuralgia.html">Best Mattress for Pudendal Neuralgia</a></li>
+</ul>
 </div>
 <footer>
   <p>&copy; 2026 SleepWiseReviews &mdash; <a href="/pages/about.html">About</a> &middot; <a href="/pages/privacy-policy.html">Privacy Policy</a></p>

@@ -269,6 +269,11 @@ html = r"""<!DOCTYPE html>
       <li><a href="best-mattress-side-sleepers.html" style="color:#93c5fd;text-decoration:none;font-size:.95rem;">Best Mattress for Side Sleepers</a></li>
       <li><a href="best-king-mattress.html" style="color:#93c5fd;text-decoration:none;font-size:.95rem;">Best King Mattress</a></li>
       <li><a href="best-mattress-pressure-relief.html" style="color:#93c5fd;text-decoration:none;font-size:.95rem;">Best Mattress for Pressure Relief</a></li>
+      <li><a href="/health-conditions.html" style="color:#93c5fd;text-decoration:none;font-size:.95rem;">Best Mattress by Health Condition: 200+ Clinical Guides</a></li>
+      <li><a href="/posts/category/life-stages.html" style="color:#93c5fd;text-decoration:none;font-size:.95rem;">Life Stages</a></li>
+      <li><a href="/posts/best-mattress-heavy-people.html" style="color:#93c5fd;text-decoration:none;font-size:.95rem;">Best Mattresses for Heavy People (2026): Durable Support for Sleepers Over 250 lbs</a></li>
+      <li><a href="/posts/best-mattress-iliotibial-band-syndrome.html" style="color:#93c5fd;text-decoration:none;font-size:.95rem;">Best Mattress for IT Band Syndrome 2026: 7 Picks to Relieve Lateral Knee Pain</a></li>
+      <li><a href="/posts/best-mattress-petite-sleeper.html" style="color:#93c5fd;text-decoration:none;font-size:.95rem;">Best Mattress for Petite Sleepers 2026 &mdash; 7 Picks for Lightweight Frames Under 130 lbs</a></li>
     </ul>
   </div>
 </section>

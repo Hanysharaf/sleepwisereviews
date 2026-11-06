@@ -250,6 +250,11 @@ html = r"""<!DOCTYPE html>
       <li><a href="best-mattress-adjustable-base.html" style="color:#93c5fd;text-decoration:none;font-size:.95rem;">Best Mattress for Adjustable Base</a></li>
       <li><a href="best-cooling-mattress.html" style="color:#93c5fd;text-decoration:none;font-size:.95rem;">Best Cooling Mattress</a></li>
       <li><a href="best-mattress-twin-xl.html" style="color:#93c5fd;text-decoration:none;font-size:.95rem;">Best Twin XL Mattress</a></li>
+      <li><a href="/health-conditions.html" style="color:#93c5fd;text-decoration:none;font-size:.95rem;">Best Mattress by Health Condition: 200+ Clinical Guides</a></li>
+      <li><a href="/posts/category/mattresses-bedding.html" style="color:#93c5fd;text-decoration:none;font-size:.95rem;">Mattresses &amp; Bedding</a></li>
+      <li><a href="/posts/best-mattress-heavy-sleepers.html" style="color:#93c5fd;text-decoration:none;font-size:.95rem;">Best Mattress for Heavy Sleepers 2026 — Top 7 Picks for 250+ lbs</a></li>
+      <li><a href="/posts/best-mattress-lower-back-pain-side-sleepers.html" style="color:#93c5fd;text-decoration:none;font-size:.95rem;">Best Mattress for Lower Back Pain Side Sleepers 2025 — 7 Top Picks</a></li>
+      <li><a href="/posts/best-mattress-firm-vs-medium.html" style="color:#93c5fd;text-decoration:none;font-size:.95rem;">Firm vs Medium Mattress: Which Is Right for You? (2026 Guide)</a></li>
     </ul>
   </div>
 </section>

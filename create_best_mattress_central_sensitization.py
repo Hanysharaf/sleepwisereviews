@@ -360,6 +360,13 @@ html = f"""<!DOCTYPE html>
     <a href="best-mattress-pressure-relief.html">Best Mattress for Pressure Relief</a>
     <a href="best-mattress-back-pain.html">Best Mattress for Back Pain</a>
   </div>
+<ul class="related-links">
+<li><a href="/health-conditions.html">Best Mattress by Health Condition: 200+ Clinical Guides</a></li>
+<li><a href="/posts/category/health-conditions.html">Health Conditions</a></li>
+<li><a href="/posts/best-mattress-arachnoiditis.html">Best Mattress for Arachnoiditis</a></li>
+<li><a href="/posts/best-mattress-cushing-syndrome.html">Best Mattress for Cushing's Syndrome 2026</a></li>
+<li><a href="/posts/best-mattress-complex-sleep-apnea.html">Best Mattress for Complex Sleep Apnea</a></li>
+</ul>
 </div>
 <footer>
   <p>&copy; 2026 SleepWiseReviews. All rights reserved.</p>

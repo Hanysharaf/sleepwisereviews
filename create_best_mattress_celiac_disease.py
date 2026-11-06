@@ -396,6 +396,13 @@ footer a{color:var(--gold);text-decoration:none}
     <p>Calcium deficiency bone pain, VCF risk and fracture prevention</p>
   </a>
 </div>
+<ul class="related-links">
+<li><a href="/health-conditions.html">Best Mattress by Health Condition: 200+ Clinical Guides</a></li>
+<li><a href="/posts/category/health-conditions.html">Health Conditions</a></li>
+<li><a href="/posts/best-mattress-dysautonomia.html">Best Mattress for Dysautonomia 2026</a></li>
+<li><a href="/posts/best-mattress-tinnitus.html">Best Mattress for Tinnitus 2026</a></li>
+<li><a href="/posts/best-mattress-peripheral-artery-disease.html">Best Mattress for Peripheral Artery Disease (2025): 7 Picks for PAD Rest Pain &amp; Leg Positioning</a></li>
+</ul>
 
 </div>
 <footer>
