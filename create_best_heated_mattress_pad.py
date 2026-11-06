@@ -26,7 +26,7 @@ html = r"""<!DOCTYPE html>
     {
       "@type":"Article",
       "headline":"7 Best Heated Mattress Pads 2026",
-      "description":"Expert-tested heated mattress pads covering heat distribution, dual zone controls for couples, auto shut-off safety, and machine washability.",
+      "description":"Heated mattress pads covering heat distribution, dual zone controls for couples, auto shut-off safety, and machine washability.",
       "url":"https://sleepwisereviews.com/posts/best-heated-mattress-pad.html",
       "datePublished":"2026-05-25",
       "dateModified":"2026-05-25",

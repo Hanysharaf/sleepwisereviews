@@ -322,7 +322,7 @@ ARTICLES = [
         "emoji": "💊",
         "date": "2023-04-20",
         "read_time": "8 min",
-        "excerpt": "Not all magnesium is equal for sleep. Glycinate is the gold standard, citrate causes GI issues, and oxide is barely absorbed. Here's your complete guide.",
+        "excerpt": "Not all magnesium is equal for sleep. Glycinate is the form we cover here, citrate causes GI issues, and oxide is barely absorbed. Here's your complete guide.",
         "amazon_search": "magnesium+glycinate",
         "content": """
     <h2>Why Magnesium Helps Sleep</h2>

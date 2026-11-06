@@ -167,7 +167,7 @@ html = """<!DOCTYPE html>
     <span class="pick-tag">No heat buildup</span>
     <span class="pick-tag">Strong side-sleep support</span>
     <div class="pick-why">
-      <p>Left-side sleeping is the gold standard position for GERD because it keeps the gastroesophageal junction above the stomach contents. The Purple GelFlex Grid provides excellent shoulder accommodation for left-side sleepers &mdash; the shoulder sinks in rather than forcing the lateral spine into a curve. The grid runs cool, which prevents the body-heat-related discomfort that causes GERD sufferers to roll onto their back mid-night (and trigger an acid episode). Works flat or on an adjustable base.</p>
+      <p>Left-side sleeping is one position for GERD because it keeps the gastroesophageal junction above the stomach contents. The Purple GelFlex Grid provides excellent shoulder accommodation for left-side sleepers &mdash; the shoulder sinks in rather than forcing the lateral spine into a curve. The grid runs cool, which prevents the body-heat-related discomfort that causes GERD sufferers to roll onto their back mid-night (and trigger an acid episode). Works flat or on an adjustable base.</p>
       <table class="pick-specs">
         <tr><th>Spec</th><th>Detail</th></tr>
         <tr><td>Construction</td><td>GelFlex Grid + pocketed coils</td></tr>

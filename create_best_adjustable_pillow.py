@@ -16,7 +16,7 @@ products = [
         "key_spec": "Shredded memory foam + microfiber, GREENGUARD Gold, zip-open to adjust",
         "pros": ["GREENGUARD Gold certified — rigorously tested for chemical emissions", "Cross-cut memory foam + microfiber blend adapts to any position", "Easy zip-open design for adding or removing fill", "Machine washable (pillow and cover)", "60-night trial"],
         "cons": ["Initial off-gassing smell (24-48 hour airing recommended)", "Heavier than down pillows", "May need to add more fill than included after first wash"],
-        "why": "The gold standard in adjustable pillows. The shredded memory foam fill moves like down but provides memory foam support. Remove fill for stomach sleepers, add fill for side sleepers — the same pillow serves everyone in the household. GREENGUARD Gold is the most rigorous certification for chemical emissions in bedding.",
+        "why": "One option in adjustable pillows. The shredded memory foam fill moves like down but provides memory foam support. Remove fill for stomach sleepers, add fill for side sleepers — the same pillow serves everyone in the household. GREENGUARD Gold is the most rigorous certification for chemical emissions in bedding.",
         "search": "Coop+Home+Goods+Adjustable+Pillow"
     },
     {

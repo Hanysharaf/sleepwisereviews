@@ -187,7 +187,7 @@ html = '''<!DOCTYPE html>
       <div class="rank">#2 Best Purity and QA</div>
       <h3>Thorne Pregnenolone 5mg</h3>
       <span class="badge">5mg micro-dose &bull; NSF Certified &bull; Practitioner grade</span>
-      <p>Thorne Research is the gold standard for practitioner-grade supplements, and their 5mg pregnenolone is the ideal starting dose for anyone new to this hormone. The micro-dose format allows precise titration -- start at 5mg, stay there for 2 weeks, then increase by 5mg increments until you reach your effective dose. NSF Certified for Sport means every batch is tested by an independent laboratory for contaminants and label accuracy. Thorne's production facility is regularly audited and meets pharmaceutical-grade manufacturing standards. Particularly appropriate for those who are hormone-sensitive or working with a doctor.</p>
+      <p>Thorne Research is one option for practitioner-grade supplements, and their 5mg pregnenolone is the ideal starting dose for anyone new to this hormone. The micro-dose format allows precise titration -- start at 5mg, stay there for 2 weeks, then increase by 5mg increments until you reach your effective dose. NSF Certified for Sport means every batch is tested by an independent laboratory for contaminants and label accuracy. Thorne's production facility is regularly audited and meets pharmaceutical-grade manufacturing standards. Particularly appropriate for those who are hormone-sensitive or working with a doctor.</p>
       <div class="specs">
         <span class="spec-chip">5mg per capsule</span>
         <span class="spec-chip">NSF Certified for Sport</span>

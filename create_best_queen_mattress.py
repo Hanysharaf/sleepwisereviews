@@ -12,7 +12,7 @@ html = """<!DOCTYPE html>
 <meta property="og:url" content="https://sleepwisereviews.com/posts/best-queen-mattress.html">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Best Queen Mattress 2025">
-<meta name="twitter:description" content="7 expert-tested queen mattresses — every sleeper type, every budget covered.">
+<meta name="twitter:description" content="7 queen mattresses — every sleeper type, every budget covered.">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",

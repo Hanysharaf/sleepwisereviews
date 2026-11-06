@@ -4,14 +4,14 @@ content = '''<!DOCTYPE html>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Best Mattress for Lupus Nephritis 2026 | Joint Pain, Steroid Insomnia &amp; Flare Relief</title>
-<meta name="description" content="7 expert-tested mattresses for lupus nephritis. Science-backed picks for SLE joint pain, steroid-induced insomnia, kidney fatigue, hydroxychloroquine nightmares, and lupus flare nights.">
+<meta name="description" content="7 mattresses for lupus nephritis. Science-backed picks for SLE joint pain, steroid-induced insomnia, kidney fatigue, hydroxychloroquine nightmares, and lupus flare nights.">
 <link rel="canonical" href="https://sleepwisereviews.com/posts/best-mattress-lupus-nephritis.html">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Article",
   "headline": "Best Mattress for Lupus Nephritis 2026",
-  "description": "Expert-tested mattress picks for lupus nephritis: SLE joint pain, steroid insomnia, kidney disease fatigue, hydroxychloroquine nightmares, and flare night protocols.",
+  "description": "Mattress picks for lupus nephritis: SLE joint pain, steroid insomnia, kidney disease fatigue, hydroxychloroquine nightmares, and flare night protocols.",
   "author": {"@type": "Organization", "name": "SleepWise Reviews"},
   "publisher": {"@type": "Organization", "name": "SleepWise Reviews", "url": "https://sleepwisereviews.com"},
   "datePublished": "2026-05-26",
@@ -147,7 +147,7 @@ footer{background:#060e1d;border-top:1px solid #1e3a5f;padding:2rem;text-align:c
 <div class="hero">
   <span class="cat-badge">Health Conditions</span>
   <h1>Best Mattress for Lupus Nephritis 2026</h1>
-  <p class="hero-sub">7 expert-tested picks for SLE joint pain, steroid-induced insomnia, kidney fatigue, hydroxychloroquine nightmares, and lupus flare nights.</p>
+  <p class="hero-sub">7 picks for SLE joint pain, steroid-induced insomnia, kidney fatigue, hydroxychloroquine nightmares, and lupus flare nights.</p>
   <p class="last-updated">Updated May 2026 &mdash; 7 picks reviewed</p>
 </div>
 

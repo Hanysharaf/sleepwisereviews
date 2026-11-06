@@ -87,7 +87,7 @@ html = f"""<!DOCTYPE html>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Best Cooling Pillows for Hot Sleepers 2026 — Tested Picks | SleepWise Reviews</title>
-  <meta name="description" content="The best cooling pillows for hot sleepers: gel-infused, copper-infused, ventilated latex, and phase-change picks that dissipate heat all night. Expert-tested for 2026." />
+  <meta name="description" content="The best cooling pillows for hot sleepers: gel-infused, copper-infused, ventilated latex, and phase-change picks that dissipate heat all night. For 2026." />
   <meta name="robots" content="index, follow" />
   <link rel="canonical" href="https://sleepwisereviews.com/posts/best-cooling-pillow-hot-sleepers.html" />
   <meta property="og:title" content="Best Cooling Pillows for Hot Sleepers 2026 — Tested Picks" />
@@ -98,7 +98,7 @@ html = f"""<!DOCTYPE html>
   <meta property="og:site_name" content="SleepWise Reviews" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Best Cooling Pillows for Hot Sleepers 2026" />
-  <meta name="twitter:description" content="7 expert-tested cooling pillows for hot sleepers — gel, copper, latex, and PCM phase-change options." />
+  <meta name="twitter:description" content="7 cooling pillows for hot sleepers — gel, copper, latex, and PCM phase-change options." />
   <meta name="twitter:image" content="https://sleepwisereviews.com/images/og-default.png" />
   {schemas}
   <style>
@@ -170,7 +170,7 @@ html = f"""<!DOCTYPE html>
     </nav>
 
     <h1>Best Cooling Pillows for Hot Sleepers 2026</h1>
-    <p class="meta">Updated May 2026 &nbsp;|&nbsp; 7 picks &nbsp;|&nbsp; Expert-tested by SleepWise Reviews</p>
+    <p class="meta">Updated May 2026 &nbsp;|&nbsp; 7 picks &nbsp;|&nbsp; By SleepWise Reviews</p>
 
     <div class="affiliate-note">
       Some links below are affiliate links. If you buy through them, we earn a small commission at no extra cost to you. We only recommend products we've researched thoroughly.

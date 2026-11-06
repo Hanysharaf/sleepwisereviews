@@ -7,7 +7,7 @@ html = """<!DOCTYPE html>
 <meta name="description" content="Heavier sleepers compress standard mattresses faster and need firmer, more durable support. We tested 7 top mattresses rated for 250-400+ lbs — durability, edge support, pressure relief, and cooling for heavy sleepers.">
 <link rel="canonical" href="https://sleepwisereviews.com/posts/best-mattress-overweight.html">
 <meta property="og:title" content="Best Mattress for Overweight and Heavy Sleepers 2025">
-<meta property="og:description" content="7 expert-tested mattresses for heavy sleepers — durability, support, and comfort for 200-400+ lbs.">
+<meta property="og:description" content="7 mattresses for heavy sleepers — durability, support, and comfort for 200-400+ lbs.">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://sleepwisereviews.com/posts/best-mattress-overweight.html">
 <meta name="twitter:card" content="summary_large_image">
@@ -20,7 +20,7 @@ html = """<!DOCTYPE html>
     {
       "@type": "Article",
       "headline": "Best Mattress for Overweight and Heavy Sleepers 2025",
-      "description": "Expert-tested mattress picks for heavier sleepers focusing on durability, support, and edge integrity.",
+      "description": "Mattress picks for heavier sleepers focusing on durability, support, and edge integrity.",
       "url": "https://sleepwisereviews.com/posts/best-mattress-overweight.html",
       "datePublished": "2025-01-01",
       "dateModified": "2025-10-01",

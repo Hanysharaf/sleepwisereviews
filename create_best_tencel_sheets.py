@@ -483,7 +483,7 @@ html = '''<!DOCTYPE html>
     </div>
     <div class="guide-item">
       <h4>Certifications That Matter</h4>
-      <p>OEKO-TEX Standard 100: confirms no harmful chemicals in the finished product. GOTS (Global Organic Textile Standard): the gold standard for organic fiber sourcing and processing. CleanBamboo: ettitude's proprietary closed-loop bamboo certification. These are the only certifications worth paying a premium for.</p>
+      <p>OEKO-TEX Standard 100: confirms no harmful chemicals in the finished product. GOTS (Global Organic Textile Standard): one option for organic fiber sourcing and processing. CleanBamboo: ettitude's proprietary closed-loop bamboo certification. These are the only certifications worth paying a premium for.</p>
     </div>
     <div class="guide-item">
       <h4>Pocket Depth</h4>

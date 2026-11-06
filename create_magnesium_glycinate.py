@@ -259,7 +259,7 @@ out = r"""<!DOCTYPE html>
     </div>
 
     <div class="product-card">
-      <div class="rank">Premium Pick</div>
+      <div class="rank">Our Pick</div>
       <div class="product-title">4. Klaire Labs Magnesium Glycinate Complex</div>
       <div class="product-meta">
         <span class="tag">100 mg elemental per serving</span>

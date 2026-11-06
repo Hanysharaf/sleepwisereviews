@@ -557,7 +557,7 @@ html = """<!DOCTYPE html>
   <!-- VERDICT -->
   <div class="verdict-box">
     <h2>Our Top Pick</h2>
-    <p>The <strong>Bearaby Cotton Napper</strong> is the best overall weighted blanket — breathable, beautiful, organic, and therapeutic. For anxiety relief specifically, the <strong>Gravity Blanket</strong> remains the gold standard. Budget shoppers should start with <strong>YnM</strong> — it delivers the same deep pressure stimulation at a fraction of the cost.</p>
+    <p>The <strong>Bearaby Cotton Napper</strong> is the best overall weighted blanket — breathable, beautiful, organic, and therapeutic. For anxiety relief specifically, the <strong>Gravity Blanket</strong> is one option. Budget shoppers should start with <strong>YnM</strong> — it delivers the same deep pressure stimulation at a fraction of the cost.</p>
   </div>
 </div>
 

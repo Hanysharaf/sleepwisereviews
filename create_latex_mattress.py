@@ -80,7 +80,7 @@ out = r"""<!DOCTYPE html>
         "name": "What certifications should a natural latex mattress have?",
         "acceptedAnswer": {
           "@type": "Answer",
-          "text": "Look for GOLS (Global Organic Latex Standard) for the latex content and GOTS (Global Organic Textile Standard) for organic cotton or wool covers. OEKO-TEX Standard 100 certifies absence of harmful substances. GREENGUARD Gold certification confirms low VOC emissions. These certifications verify claims independently and are the gold standard for truly organic latex mattresses."
+          "text": "Look for GOLS (Global Organic Latex Standard) for the latex content and GOTS (Global Organic Textile Standard) for organic cotton or wool covers. OEKO-TEX Standard 100 certifies absence of harmful substances. GREENGUARD Gold certification confirms low VOC emissions. These certifications verify claims independently and are one option for truly organic latex mattresses."
         }
       }
     ]
@@ -483,7 +483,7 @@ out = r"""<!DOCTYPE html>
       </div>
       <div class="faq-item">
         <h3>What certifications should a natural latex mattress have?</h3>
-        <p>Look for GOLS (Global Organic Latex Standard) for the latex content and GOTS (Global Organic Textile Standard) for organic cotton or wool covers. OEKO-TEX Standard 100 certifies absence of harmful substances. GREENGUARD Gold certification confirms low VOC emissions. These certifications verify claims independently and are the gold standard for truly organic latex mattresses.</p>
+        <p>Look for GOLS (Global Organic Latex Standard) for the latex content and GOTS (Global Organic Textile Standard) for organic cotton or wool covers. OEKO-TEX Standard 100 certifies absence of harmful substances. GREENGUARD Gold certification confirms low VOC emissions. These certifications verify claims independently and are one option for truly organic latex mattresses.</p>
       </div>
     </div>
 

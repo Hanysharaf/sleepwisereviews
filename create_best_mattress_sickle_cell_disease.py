@@ -4,14 +4,14 @@ content = '''<!DOCTYPE html>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Best Mattress for Sickle Cell Disease 2026 | Pain Crisis &amp; AVN Relief</title>
-<meta name="description" content="7 expert-tested mattresses for sickle cell disease. Science-backed picks for vaso-occlusive crisis pain, avascular necrosis at hip and shoulder, cold-triggered sickling, and chronic anemia fatigue.">
+<meta name="description" content="7 mattresses for sickle cell disease. Science-backed picks for vaso-occlusive crisis pain, avascular necrosis at hip and shoulder, cold-triggered sickling, and chronic anemia fatigue.">
 <link rel="canonical" href="https://sleepwisereviews.com/posts/best-mattress-sickle-cell-disease.html">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Article",
   "headline": "Best Mattress for Sickle Cell Disease 2026",
-  "description": "Expert-tested mattress picks for sickle cell disease: vaso-occlusive crisis pain, avascular necrosis, cold-triggered sickling, and chronic anemia fatigue.",
+  "description": "Mattress picks for sickle cell disease: vaso-occlusive crisis pain, avascular necrosis, cold-triggered sickling, and chronic anemia fatigue.",
   "author": {"@type": "Organization", "name": "SleepWise Reviews"},
   "publisher": {"@type": "Organization", "name": "SleepWise Reviews", "url": "https://sleepwisereviews.com"},
   "datePublished": "2026-05-26",
@@ -147,7 +147,7 @@ footer{background:#060e1d;border-top:1px solid #1e3a5f;padding:2rem;text-align:c
 <div class="hero">
   <span class="cat-badge">Health Conditions</span>
   <h1>Best Mattress for Sickle Cell Disease 2026</h1>
-  <p class="hero-sub">7 expert-tested picks for vaso-occlusive crisis pain, avascular necrosis at hip and shoulder, cold-triggered sickling, and chronic anemia fatigue.</p>
+  <p class="hero-sub">7 picks for vaso-occlusive crisis pain, avascular necrosis at hip and shoulder, cold-triggered sickling, and chronic anemia fatigue.</p>
   <p class="last-updated">Updated May 2026 &mdash; 7 picks reviewed</p>
 </div>
 

@@ -26,7 +26,7 @@ html = r"""<!DOCTYPE html>
     {
       "@type":"Article",
       "headline":"7 Best Mattresses for Back Pain Side Sleepers 2026",
-      "description":"Expert-tested mattresses for side sleepers with back pain, covering spinal alignment, shoulder pressure relief, and lumbar support zoning.",
+      "description":"Mattresses for side sleepers with back pain, covering spinal alignment, shoulder pressure relief, and lumbar support zoning.",
       "url":"https://sleepwisereviews.com/posts/best-mattress-back-pain-side-sleeper.html",
       "datePublished":"2026-05-25",
       "dateModified":"2026-05-25",

@@ -243,7 +243,7 @@ html_out = f'''<!DOCTYPE html>
 
     <h2>Understanding Linen Quality Signals</h2>
     <h3>Flax Origin</h3>
-    <p>European flax (Belgium, France, Netherlands) is the global gold standard. These climates produce the longest, strongest flax fibers. Chinese flax is less regulated and typically lower quality. Look for "European flax," "Belgian flax," or "French flax" in the product description.</p>
+    <p>European flax (Belgium, France, Netherlands) is one flax source. These climates produce the longest, strongest flax fibers. Chinese flax is less regulated and typically lower quality. Look for "European flax," "Belgian flax," or "French flax" in the product description.</p>
     <h3>OEKO-TEX Certification</h3>
     <p>OEKO-TEX Standard 100 means the fabric has been tested for harmful substances. Worth prioritizing for sheets that touch your skin 7-8 hours per night.</p>
     <h3>GSM (Weight)</h3>

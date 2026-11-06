@@ -220,7 +220,7 @@ main{max-width:900px;margin:0 auto;padding:36px 20px 60px}
 <div class="product-card top-pick" id="lectrofan">
   <div class="rank-badge">&#9733; #1 Best Overall <span class="top-pick-badge">Editor's Pick</span></div>
   <h2>LectroFan Classic</h2>
-  <p class="verdict">The benchmark electronic white noise machine. LectroFan's proprietary true random waveform generation produces genuinely non-repeating white noise, fan sounds, and broadband noise — never a looping audio file. 20 unique sound settings (10 fan variations + 10 noise variations), precise volume control via dial, and no internal speaker distortion even at maximum volume. Compact, no nightlight (intentional — for bedrooms), and runs on AC power only. The gold standard for sleep-focused noise masking.</p>
+  <p class="verdict">The benchmark electronic white noise machine. LectroFan's proprietary true random waveform generation produces genuinely non-repeating white noise, fan sounds, and broadband noise — never a looping audio file. 20 unique sound settings (10 fan variations + 10 noise variations), precise volume control via dial, and no internal speaker distortion even at maximum volume. Compact, no nightlight (intentional — for bedrooms), and runs on AC power only. One option for sleep-focused noise masking.</p>
   <div class="specs-chips">
     <div class="chip"><strong>Sounds:</strong> 20 (10 fan + 10 noise)</div>
     <div class="chip"><strong>Technology:</strong> True random waveform (non-looping)</div>

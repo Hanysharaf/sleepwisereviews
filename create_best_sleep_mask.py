@@ -7,15 +7,15 @@ html = '''<!DOCTYPE html>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Best Sleep Masks 2025: Tested for Total Blackout &amp; All-Night Comfort | SleepWise Reviews</title>
-  <meta name="description" content="The best sleep masks for total darkness, travel, and side sleepers. Expert-tested reviews of Manta, Bucky, MZOO, and more — ranked for blackout quality, comfort, and value.">
+  <meta name="description" content="The best sleep masks for total darkness, travel, and side sleepers. Reviews of Manta, Bucky, MZOO, and more — ranked for blackout quality, comfort, and value.">
   <link rel="canonical" href="https://sleepwisereviews.com/posts/best-sleep-mask.html">
   <meta property="og:title" content="Best Sleep Masks 2025: Total Blackout &amp; All-Night Comfort">
-  <meta property="og:description" content="Expert-tested sleep mask reviews. Ranked for blackout quality, eye pressure, strap comfort, and value.">
+  <meta property="og:description" content="Sleep mask reviews. Ranked for blackout quality, eye pressure, strap comfort, and value.">
   <meta property="og:url" content="https://sleepwisereviews.com/posts/best-sleep-mask.html">
   <meta property="og:type" content="article">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Best Sleep Masks 2025: Total Blackout &amp; All-Night Comfort">
-  <meta name="twitter:description" content="Expert-tested sleep mask reviews ranked for blackout, comfort, and value.">
+  <meta name="twitter:description" content="Sleep mask reviews ranked for blackout, comfort, and value.">
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -23,7 +23,7 @@ html = '''<!DOCTYPE html>
       {
         "@type": "Article",
         "headline": "Best Sleep Masks 2025: Tested for Total Blackout and All-Night Comfort",
-        "description": "Expert-tested sleep mask reviews ranked for blackout quality, eye pressure, strap comfort, and value.",
+        "description": "Sleep mask reviews ranked for blackout quality, eye pressure, strap comfort, and value.",
         "url": "https://sleepwisereviews.com/posts/best-sleep-mask.html",
         "datePublished": "2025-09-01",
         "dateModified": "2025-11-15",

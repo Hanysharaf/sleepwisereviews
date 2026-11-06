@@ -7,7 +7,7 @@ html = '''<!DOCTYPE html>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Best Blackout Sleep Masks (2026): Zero Light, Total Darkness | SleepWise Reviews</title>
-  <meta name="description" content="The best blackout sleep masks that block 100% of light for deeper sleep. 7 expert-tested picks for side sleepers, hot sleepers, and travel — no light gaps guaranteed.">
+  <meta name="description" content="The best blackout sleep masks that block 100% of light for deeper sleep. 7 picks for side sleepers, hot sleepers, and travel — no light gaps guaranteed.">
   <meta name="keywords" content="best blackout sleep mask, total darkness sleep mask, 100% light blocking eye mask, sleep mask no light gaps, best eye mask sleeping">
   <link rel="canonical" href="https://sleepwisereviews.com/posts/best-sleep-mask-blackout.html">
   <meta property="og:title" content="Best Blackout Sleep Masks (2026)">
@@ -155,7 +155,7 @@ html = '''<!DOCTYPE html>
 
 <div class="hero">
   <h1>Best Blackout Sleep Masks (2026)</h1>
-  <p class="sub">Zero light leakage, zero eyelid pressure — total darkness for deeper, longer sleep. 7 expert-tested masks for side sleepers, hot sleepers, and shift workers.</p>
+  <p class="sub">Zero light leakage, zero eyelid pressure — total darkness for deeper, longer sleep. 7 masks for side sleepers, hot sleepers, and shift workers.</p>
   <div class="badge-row">
     <span class="badge">7 Masks Reviewed</span>
     <span class="badge">Updated May 2026</span>
