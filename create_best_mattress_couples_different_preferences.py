@@ -250,20 +250,17 @@ html = r"""<!DOCTYPE html>
       <li><a href="best-mattress-adjustable-base.html" style="color:#93c5fd;text-decoration:none;font-size:.95rem;">Best Mattress for Adjustable Base</a></li>
       <li><a href="best-cooling-mattress.html" style="color:#93c5fd;text-decoration:none;font-size:.95rem;">Best Cooling Mattress</a></li>
       <li><a href="best-mattress-twin-xl.html" style="color:#93c5fd;text-decoration:none;font-size:.95rem;">Best Twin XL Mattress</a></li>
+      <li><a href="/health-conditions.html" style="color:#93c5fd;text-decoration:none;font-size:.95rem;">Best Mattress by Health Condition: 200+ Clinical Guides</a></li>
+      <li><a href="/posts/category/mattresses-bedding.html" style="color:#93c5fd;text-decoration:none;font-size:.95rem;">Mattresses &amp; Bedding</a></li>
+      <li><a href="/posts/best-mattress-heavy-sleepers.html" style="color:#93c5fd;text-decoration:none;font-size:.95rem;">Best Mattress for Heavy Sleepers 2026 — Top 7 Picks for 250+ lbs</a></li>
+      <li><a href="/posts/best-mattress-lower-back-pain-side-sleepers.html" style="color:#93c5fd;text-decoration:none;font-size:.95rem;">Best Mattress for Lower Back Pain Side Sleepers 2025 — 7 Top Picks</a></li>
+      <li><a href="/posts/best-mattress-firm-vs-medium.html" style="color:#93c5fd;text-decoration:none;font-size:.95rem;">Firm vs Medium Mattress: Which Is Right for You? (2026 Guide)</a></li>
     </ul>
   </div>
 </section>
 
 </div>
 
-<h2 class="section-title">Related Guides</h2>
-<ul class="related-links">
-<li><a href="/health-conditions.html">Best Mattress by Health Condition: 200+ Clinical Guides</a></li>
-<li><a href="/posts/category/mattresses-bedding.html">Mattresses &amp; Bedding</a></li>
-<li><a href="/posts/best-mattress-heavy-sleepers.html">Best Mattress for Heavy Sleepers 2026 — Top 7 Picks for 250+ lbs</a></li>
-<li><a href="/posts/best-mattress-lower-back-pain-side-sleepers.html">Best Mattress for Lower Back Pain Side Sleepers 2025 — 7 Top Picks</a></li>
-<li><a href="/posts/best-mattress-firm-vs-medium.html">Firm vs Medium Mattress: Which Is Right for You? (2026 Guide)</a></li>
-</ul>
 <footer>
   <p>&copy; 2026 SleepWise Reviews &mdash; <a href="https://sleepwisereviews.com">sleepwisereviews.com</a></p>
   <p style="margin-top:.5rem;font-size:.78rem;">Affiliate disclosure: We earn a commission on qualifying purchases at no extra cost to you.</p>
