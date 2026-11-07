@@ -317,13 +317,18 @@ footer .disclaimer{max-width:700px;margin:.75rem auto 0;line-height:1.6}
       <li><a href="best-mattress-studio-apartment.html">&#8594; Best Mattress for Studio Apartments</a></li>
       <li><a href="best-mattress-guest-room.html">&#8594; Best Mattress for Guest Rooms</a></li>
       <li><a href="best-mattress-no-box-spring.html">&#8594; Best Mattress Without Box Spring</a></li>
+      <li><a href="/health-conditions.html">&#8594; Best Mattress by Health Condition: 200+ Clinical Guides</a></li>
+      <li><a href="/posts/category/life-stages.html">&#8594; Life Stages</a></li>
+      <li><a href="/posts/best-mattress-teenager.html">&#8594; Best Mattress for Teenagers 2025 &mdash; 7 Picks for Growing Bodies, Bunk Beds &amp; Tight Budgets</a></li>
+      <li><a href="/posts/best-mattress-twin-xl.html">&#8594; Best Twin XL Mattress 2026 &mdash; 7 Picks for Dorms, Adjustable Bases &amp; Tall Sleepers</a></li>
+      <li><a href="/posts/best-mattress-college-dorm.html">&#8594; Best Mattress for College Dorms 2026 &mdash; 7 Expert Picks</a></li>
     </ul>
   </section>
 </div>
 
 <footer>
   <div class="container">
-    <p><a href="/">SleepWise Reviews</a> &mdash; <a href="/about.html">About</a> &mdash; <a href="/contact.html">Contact</a></p>
+    <p><a href="/">SleepWise Reviews</a> &mdash; <a href="/pages/about.html">About</a></p>
     <p class="disclaimer">As an Amazon Associate we earn from qualifying purchases. Affiliate links are marked. Reviews are independent &mdash; brands do not pay for placement.</p>
   </div>
 </footer>

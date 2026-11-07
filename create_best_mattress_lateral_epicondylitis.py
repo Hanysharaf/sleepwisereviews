@@ -201,7 +201,7 @@ html = f"""<!DOCTYPE html>
       <div class="pick-name">Saatva Classic (Plush Soft) + Saatva Adjustable Base <span class="pick-tag">Best Back-Sleep Positioning for ECRB Tendon Rest</span></div>
     </div>
     <div class="le-key">Tennis elbow key: Motorised arm and wrist elevation reduces forearm extensor compartment oedema overnight; back sleep with arm slightly extended alongside the body is the optimal lateral epicondylitis position, reducing ECRB tendon load; zero-effort repositioning avoids the wrist extension + elbow extension compound movement that maximally loads the ECRB.</div>
-    <p class="pick-why">Back sleeping with the affected arm slightly extended at the side is the gold-standard position for lateral epicondylitis: the ECRB tendon is in its shortest, lowest-load configuration, the lateral epicondyle bears no contact pressure from the mattress, and the forearm rests in neutral rotation. The Saatva Adjustable Base makes this practical for patients who habitual side sleepers by providing motorised head and foot elevation that naturally discourages lateral drift during REM. The adjustable base's arm and wrist elevation function reduces forearm extensor compartment oedema overnight by promoting venous and lymphatic return &mdash; clinically relevant for the acute and subacute phases of lateral epicondylitis when daytime forearm swelling is present. The Saatva Classic Plush Soft's Euro pillow top cushions the upper back and scapular contact points, making back sleeping comfortable enough to maintain throughout the night rather than just at sleep onset.</p>
+    <p class="pick-why">Back sleeping with the affected arm slightly extended at the side is a standard position for lateral epicondylitis: the ECRB tendon is in its shortest, lowest-load configuration, the lateral epicondyle bears no contact pressure from the mattress, and the forearm rests in neutral rotation. The Saatva Adjustable Base makes this practical for patients who habitual side sleepers by providing motorised head and foot elevation that naturally discourages lateral drift during REM. The adjustable base's arm and wrist elevation function reduces forearm extensor compartment oedema overnight by promoting venous and lymphatic return &mdash; clinically relevant for the acute and subacute phases of lateral epicondylitis when daytime forearm swelling is present. The Saatva Classic Plush Soft's Euro pillow top cushions the upper back and scapular contact points, making back sleeping comfortable enough to maintain throughout the night rather than just at sleep onset.</p>
     <div class="pick-specs">
       <span class="spec">Arm elevation: motorised</span>
       <span class="spec">ECRB tendon load: minimised in back sleep</span>
@@ -361,6 +361,13 @@ html = f"""<!DOCTYPE html>
     <a href="best-mattress-chronic-pain.html">Best Mattress for Chronic Pain</a>
     <a href="best-mattress-adjustable-base.html">Best Mattress for Adjustable Base</a>
   </div>
+<ul class="related-links">
+<li><a href="/health-conditions.html">Best Mattress by Health Condition: 200+ Clinical Guides</a></li>
+<li><a href="/posts/category/health-conditions.html">Health Conditions</a></li>
+<li><a href="/posts/best-mattress-iliotibial-band-syndrome.html">Best Mattress for IT Band Syndrome 2026: 7 Picks to Relieve Lateral Knee Pain</a></li>
+<li><a href="/posts/best-mattress-patellofemoral-syndrome.html">Best Mattress for Patellofemoral Syndrome (2026)</a></li>
+<li><a href="/posts/best-mattress-sibo.html">Best Mattress for SIBO (Small Intestinal Bacterial Overgrowth)</a></li>
+</ul>
 </div>
 <footer>
   <p>&copy; 2026 SleepWiseReviews. All rights reserved.</p>

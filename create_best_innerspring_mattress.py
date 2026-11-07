@@ -225,7 +225,7 @@ html = """<!DOCTYPE html>
       <span class="pos-tag good">Side: Good (Plush Soft)</span>
       <span class="pos-tag good">Combo: Good</span>
     </div>
-    <p style="color:var(--muted);font-size:.92rem;margin-bottom:14px;">The Saatva Classic is the gold standard of luxury innerspring. Its dual coil system — tempered steel Bonnell coils underneath pocketed micro-coils on top — delivers exceptional support without sacrificing surface feel. Euro pillow top adds plush comfort. Three firmness options (Plush Soft, Luxury Firm, Firm) and two heights (11.5" or 14.5") mean you can dial it in precisely. Free white glove delivery with setup and old mattress removal is rare at any price. The 365-night trial is one of the longest in the industry, and the lifetime warranty is genuine.</p>
+    <p style="color:var(--muted);font-size:.92rem;margin-bottom:14px;">The Saatva Classic is one luxury innerspring option. Its dual coil system — tempered steel Bonnell coils underneath pocketed micro-coils on top — delivers exceptional support without sacrificing surface feel. Euro pillow top adds plush comfort. Three firmness options (Plush Soft, Luxury Firm, Firm) and two heights (11.5" or 14.5") mean you can dial it in precisely. Free white glove delivery with setup and old mattress removal is rare at any price. The 365-night trial is one of the longest in the industry, and the lifetime warranty is genuine.</p>
     <div class="pros-cons">
       <div class="col pros">
         <h4>Pros</h4>
@@ -594,7 +594,7 @@ html = """<!DOCTYPE html>
 </div>
 
 <footer>
-  <p>&copy; 2025 SleepWise Reviews &mdash; <a href="/privacy.html">Privacy Policy</a> &mdash; <a href="/about.html">About</a></p>
+  <p>&copy; 2025 SleepWise Reviews &mdash; <a href="/pages/privacy-policy.html">Privacy Policy</a> &mdash; <a href="/pages/about.html">About</a></p>
   <p style="margin-top:8px;font-size:.78rem;">Amazon Associates Disclosure: As an Amazon Associate we earn from qualifying purchases.</p>
 </footer>
 </body>

@@ -360,9 +360,16 @@ html = f"""<!DOCTYPE html>
     <a href="best-mattress-sleep-apnea.html">Sleep Apnea</a>
     <a href="best-mattress-headaches-migraines.html">Headaches &amp; Migraines</a>
   </div>
+<ul class="related-links">
+<li><a href="/health-conditions.html">Best Mattress by Health Condition: 200+ Clinical Guides</a></li>
+<li><a href="/posts/category/health-conditions.html">Health Conditions</a></li>
+<li><a href="/posts/best-mattress-bipolar.html">Best Mattress for Bipolar Disorder (2026)</a></li>
+<li><a href="/posts/best-mattress-cervical-radiculopathy.html">Best Mattress for Cervical Radiculopathy (2026)</a></li>
+<li><a href="/posts/best-mattress-hemophilia.html">Best Mattress for Hemophilia</a></li>
+</ul>
 </div>
 <footer>
-  <p>&copy; 2026 SleepWiseReviews &mdash; <a href="/about.html">About</a> &middot; <a href="/contact.html">Contact</a> &middot; <a href="/privacy.html">Privacy Policy</a></p>
+  <p>&copy; 2026 SleepWiseReviews &mdash; <a href="/pages/about.html">About</a> &middot; <a href="/pages/privacy-policy.html">Privacy Policy</a></p>
   <p style="margin-top:.5rem;font-size:.8rem">As an Amazon Associate we earn from qualifying purchases. All recommendations are independent &mdash; affiliate links never influence our picks.</p>
 </footer>
 </body>

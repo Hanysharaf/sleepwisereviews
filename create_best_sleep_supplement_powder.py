@@ -163,7 +163,7 @@ html = '''<!DOCTYPE html>
       <div class="rank">#1 Best Overall</div>
       <h3>Thorne Magnesium Bisglycinate Powder</h3>
       <span class="badge">Magnesium Bisglycinate &bull; NSF Certified</span>
-      <p>Thorne's magnesium bisglycinate is the gold standard for sleep magnesium. The bisglycinate chelate binds two glycine molecules to each magnesium ion, dramatically improving absorption and reducing GI side effects compared to cheaper forms like magnesium oxide. NSF Certified for Sport means independent testing for purity and label accuracy. Each serving delivers 200mg elemental magnesium with a clean, unflavored profile that mixes easily in warm water or chamomile tea.</p>
+      <p>Thorne's magnesium bisglycinate is one option for sleep magnesium. The bisglycinate chelate binds two glycine molecules to each magnesium ion, dramatically improving absorption and reducing GI side effects compared to cheaper forms like magnesium oxide. NSF Certified for Sport means independent testing for purity and label accuracy. Each serving delivers 200mg elemental magnesium with a clean, unflavored profile that mixes easily in warm water or chamomile tea.</p>
       <div class="specs">
         <span class="spec-chip">200mg elemental Mg</span>
         <span class="spec-chip">Bisglycinate chelate</span>

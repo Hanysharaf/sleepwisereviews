@@ -54,7 +54,7 @@ schema_faq = {
         {
             "@type": "Question",
             "name": "What is the best fill for a sleep eye pillow?",
-            "acceptedAnswer": {"@type": "Answer", "text": "Flaxseed is the gold standard fill: it conforms to facial contours, provides ideal weight (not too heavy for the delicate eye area), can be chilled or heated, and retains temperature well. Lavender buds are typically mixed with flaxseed rather than used alone -- pure lavender is too light for pressure and the aromatherapy benefit comes from the lavender while the flaxseed provides the weight. Buckwheat hull is an alternative with good conform but slightly more sound and less conforming than flaxseed. Avoid polyester fill: it doesn't conform, doesn't provide pressure, and traps heat."}
+            "acceptedAnswer": {"@type": "Answer", "text": "Flaxseed is one fill: it conforms to facial contours, provides ideal weight (not too heavy for the delicate eye area), can be chilled or heated, and retains temperature well. Lavender buds are typically mixed with flaxseed rather than used alone -- pure lavender is too light for pressure and the aromatherapy benefit comes from the lavender while the flaxseed provides the weight. Buckwheat hull is an alternative with good conform but slightly more sound and less conforming than flaxseed. Avoid polyester fill: it doesn't conform, doesn't provide pressure, and traps heat."}
         },
         {
             "@type": "Question",
@@ -380,7 +380,7 @@ html = f"""<!DOCTYPE html>
       </div>
       <div class="faq-item">
         <h3>What is the best fill for a sleep eye pillow?</h3>
-        <p>Flaxseed mixed with lavender buds is the gold standard. Flaxseed conforms to facial contours, provides ideal weight, and retains heat or cold well. Pure lavender is too light alone. Buckwheat hull is an alternative. Avoid polyester fill: doesn't conform, provides no pressure benefit, traps heat.</p>
+        <p>Flaxseed mixed with lavender buds is one option. Flaxseed conforms to facial contours, provides ideal weight, and retains heat or cold well. Pure lavender is too light alone. Buckwheat hull is an alternative. Avoid polyester fill: doesn't conform, provides no pressure benefit, traps heat.</p>
       </div>
       <div class="faq-item">
         <h3>Can an eye pillow help with migraines?</h3>
@@ -409,7 +409,7 @@ html = f"""<!DOCTYPE html>
     </div>
   </main>
   <footer>
-    <p>&copy; 2025&ndash;2026 <a href="../">SleepWise Reviews</a> &middot; Evidence-based sleep guidance &middot; <a href="../privacy.html">Privacy</a></p>
+    <p>&copy; 2025&ndash;2026 <a href="../">SleepWise Reviews</a> &middot; Evidence-based sleep guidance &middot; <a href="../pages/privacy-policy.html">Privacy</a></p>
   </footer>
 </body>
 </html>"""

@@ -390,10 +390,17 @@ footer a{color:var(--gold);text-decoration:none}
     <p>Partner snoring and sleep disruption for light sleepers</p>
   </a>
 </div>
+<ul class="related-links">
+<li><a href="/health-conditions.html">Best Mattress by Health Condition: 200+ Clinical Guides</a></li>
+<li><a href="/posts/category/health-conditions.html">Health Conditions</a></li>
+<li><a href="/posts/best-mattress-menieres-disease.html">Best Mattress for Meniere's Disease 2026</a></li>
+<li><a href="/posts/best-mattress-celiac-disease.html">Best Mattress for Celiac Disease 2026</a></li>
+<li><a href="/posts/best-mattress-dysautonomia.html">Best Mattress for Dysautonomia 2026</a></li>
+</ul>
 
 </div>
 <footer>
-  <p>&copy; 2026 SleepWiseReviews &mdash; <a href="../about.html">About</a> &mdash; <a href="../privacy.html">Privacy Policy</a> &mdash; <a href="../affiliate-disclosure.html">Affiliate Disclosure</a></p>
+  <p>&copy; 2026 SleepWiseReviews &mdash; <a href="../pages/about.html">About</a> &mdash; <a href="../pages/privacy-policy.html">Privacy Policy</a> &mdash; <a href="../pages/affiliate-disclosure.html">Affiliate Disclosure</a></p>
   <p style="margin-top:.5rem">Affiliate links on this page may earn us a commission at no extra cost to you.</p>
 </footer>
 </body>

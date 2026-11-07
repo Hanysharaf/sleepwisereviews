@@ -269,6 +269,13 @@ nav.breadcrumb span{color:var(--gold)}
 <div class="related-card"><a href="best-mattress-acid-reflux.html">Acid Reflux</a> &mdash; head elevation strategies</div>
 <div class="related-card"><a href="best-mattress-back-sleepers.html">Back Sleepers</a> &mdash; spine alignment for back sleeping</div>
 </div>
+<ul class="related-links">
+<li><a href="/health-conditions.html">Best Mattress by Health Condition: 200+ Clinical Guides</a></li>
+<li><a href="/posts/category/health-conditions.html">Health Conditions</a></li>
+<li><a href="/posts/best-mattress-post-mastectomy.html">Best Mattress for Post-Mastectomy Recovery (2026): 7 Picks for Chest Wall &amp; Reconstruction Sleep</a></li>
+<li><a href="/posts/best-mattress-scoliosis.html">Best Mattress for Scoliosis 2025: 7 Reviewed for Curved Spine Support</a></li>
+<li><a href="/posts/best-mattress-iliotibial-band-syndrome.html">Best Mattress for IT Band Syndrome 2026: 7 Picks to Relieve Lateral Knee Pain</a></li>
+</ul>
 
 </div>
 <footer>

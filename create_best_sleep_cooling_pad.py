@@ -149,7 +149,7 @@ html = '''<!DOCTYPE html>
     <h1>Best Sleep Cooling Pads 2026</h1>
     <p class="meta">Updated May 2026 &middot; 7 picks &middot; Sleep Products</p>
 
-    <p>For hot sleepers, overheating during sleep is more than discomfort -- it is the primary driver of nighttime awakenings and poor sleep quality. Passive solutions (cooling sheets, bamboo pajamas) help at the margins, but only active cooling systems directly remove heat from the mattress surface. This guide covers the full spectrum: from $50 passive gel pads to the $999 water-cooled systems that represent the current gold standard in sleep temperature control.</p>
+    <p>For hot sleepers, overheating during sleep is more than discomfort -- it is the primary driver of nighttime awakenings and poor sleep quality. Passive solutions (cooling sheets, bamboo pajamas) help at the margins, but only active cooling systems directly remove heat from the mattress surface. This guide covers the full spectrum: from $50 passive gel pads to the $999 water-cooled systems that represent one option in sleep temperature control.</p>
 
     <div class="science-box">
       <strong>The thermoregulation window:</strong> Core body temperature must drop 1-2 degrees Celsius at sleep onset to trigger melatonin release and transition to NREM sleep. Any sleep surface that traps body heat delays this drop. Active water-cooled systems can maintain mattress surface temperature 10-20 degrees Fahrenheit below body temperature throughout the night -- ensuring the thermoregulation window stays open.

@@ -360,6 +360,13 @@ html = f"""<!DOCTYPE html>
     <a href="best-mattress-menopause-night-sweats.html">Best Mattress for Menopause and Night Sweats</a>
     <a href="best-adjustable-base-mattress.html">Best Mattress for Adjustable Bases</a>
   </div>
+<ul class="related-links">
+<li><a href="/health-conditions.html">Best Mattress by Health Condition: 200+ Clinical Guides</a></li>
+<li><a href="/posts/category/health-conditions.html">Health Conditions</a></li>
+<li><a href="/posts/best-mattress-upper-crossed-syndrome.html">Best Mattress for Upper Crossed Syndrome</a></li>
+<li><a href="/posts/best-mattress-kleine-levin-syndrome.html">Best Mattress for Kleine-Levin Syndrome</a></li>
+<li><a href="/posts/best-mattress-lipedema.html">Best Mattress for Lipedema</a></li>
+</ul>
 </div>
 <footer>
   <p>&copy; 2026 SleepWiseReviews. All rights reserved.</p>

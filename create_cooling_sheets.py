@@ -251,7 +251,7 @@ html_out = f'''<!DOCTYPE html>
 
     <h2>Cooling Sheet Materials Explained</h2>
     <h3>Cotton Percale</h3>
-    <p>The gold standard for hot sleepers. Percale weave (one thread over, one thread under) maximizes airflow and creates a crisp, cool-to-the-touch feel. 100% cotton percale at 200-300 thread count is what most sleep doctors recommend for warm sleepers.</p>
+    <p>One option for hot sleepers. Percale weave (one thread over, one thread under) maximizes airflow and creates a crisp, cool-to-the-touch feel. 100% cotton percale at 200-300 thread count is what most sleep doctors recommend for warm sleepers.</p>
 
     <h3>Bamboo Viscose</h3>
     <p>Softer than cotton, naturally moisture-wicking, and thermoregulating. Bamboo sheets feel cool on contact -- a notable advantage over cotton. The bamboo plant is fast-growing and sustainable, though viscose manufacturing uses chemicals.</p>

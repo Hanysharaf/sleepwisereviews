@@ -173,7 +173,7 @@ out = r"""<!DOCTYPE html>
     <div class="product-card top-pick">
       <div class="rank-badge">#1 Best Overall</div>
       <h3>Thorne Glycine</h3>
-      <p>Thorne is the most trusted supplement brand among physicians and registered dietitians, and their Glycine is NSF Certified for Sport — meaning it has been independently tested for label accuracy, contaminants, and banned substances. Each capsule delivers 500mg of pure glycine; a 3g dose requires 6 capsules. While this is more capsules than other forms, Thorne's manufacturing standards and purity testing are unmatched in the category. Used in clinical settings and recommended by sleep researchers who emphasize quality over convenience. Available in 250-capsule bottles for cost-effective long-term use.</p>
+      <p>Thorne is the most trusted supplement brand among physicians and registered dietitians, and their Glycine is NSF Certified for Sport — meaning it has been independently tested for label accuracy, contaminants, and banned substances. Each capsule delivers 500mg of pure glycine; a 3g dose requires 6 capsules. While this is more capsules than other forms, Thorne's manufacturing standards and purity testing are unmatched in the category. Available in 250-capsule bottles for cost-effective long-term use.</p>
       <div class="specs">
         <span class="spec-tag">NSF Certified for Sport</span>
         <span class="spec-tag">500mg per capsule</span>
@@ -318,7 +318,7 @@ out = r"""<!DOCTYPE html>
 
     <!-- #6 -->
     <div class="product-card">
-      <div class="rank-badge">#6 Best Clinical Grade</div>
+      <div class="rank-badge">#6 Our Pick</div>
       <h3>Klaire Labs Glycine</h3>
       <p>Klaire Labs is a professional-grade supplement brand sold primarily through healthcare practitioners. Their Glycine is hypoallergenic, free of all common allergens, and manufactured to pharmaceutical standards. A good option for those with multiple food sensitivities or who are following an elimination protocol alongside their sleep optimization work. More expensive than consumer brands but provides the confidence of practitioner-grade manufacturing.</p>
       <div class="specs">
@@ -421,7 +421,7 @@ out = r"""<!DOCTYPE html>
 
     <div class="verdict-box">
       <h3>Bottom Line</h3>
-      <p><strong>Best purity:</strong> Thorne Glycine or Pure Encapsulations — NSF Certified, used in clinical settings.</p>
+      <p><strong>Best purity:</strong> Thorne Glycine or Pure Encapsulations — NSF Certified.</p>
       <p><strong>Best value / powder:</strong> NOW Sports Glycine Powder — Informed Sport tested, essentially tasteless, ~$0.25 per dose.</p>
       <p><strong>Best elite sports brand:</strong> Momentous — NSF Certified, 3g in 3 capsules, sleep-specific positioning.</p>
       <p><strong>Best bulk / long-term:</strong> BulkSupplements Glycine — pharmaceutical grade, lowest cost per gram.</p>

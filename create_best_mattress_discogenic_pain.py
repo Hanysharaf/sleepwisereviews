@@ -431,7 +431,7 @@ html = '''<!DOCTYPE html>
   <div class="position-grid">
     <div class="position-card">
       <strong>1. Back Sleeping (Lowest Pressure)</strong>
-      <p style="font-size:.9rem;color:var(--muted);">Knees slightly bent, small pillow under knees. Produces approximately 25% of standing disc pressure. The gold standard for discogenic pain &mdash; but only if the mattress maintains lumbar lordosis. A sagging mattress converts this to a high-pressure flexion posture.</p>
+      <p style="font-size:.9rem;color:var(--muted);">Knees slightly bent, small pillow under knees. Produces approximately 25% of standing disc pressure. One option for discogenic pain &mdash; but only if the mattress maintains lumbar lordosis. A sagging mattress converts this to a high-pressure flexion posture.</p>
     </div>
     <div class="position-card">
       <strong>2. Side Sleeping (Acceptable)</strong>
@@ -493,7 +493,7 @@ html = '''<!DOCTYPE html>
 </div>
 
 <footer>
-  <p>&copy; 2026 SleepWise Reviews &mdash; <a href="/privacy.html">Privacy Policy</a> &mdash; <a href="/about.html">About</a></p>
+  <p>&copy; 2026 SleepWise Reviews &mdash; <a href="/pages/privacy-policy.html">Privacy Policy</a> &mdash; <a href="/pages/about.html">About</a></p>
   <p style="margin-top:8px;font-size:.78rem;">Amazon Associates Disclosure: As an Amazon Associate we earn from qualifying purchases. Product prices and availability are accurate as of the date published and may change.</p>
 </footer>
 </body>

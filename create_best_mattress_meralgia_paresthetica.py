@@ -361,6 +361,13 @@ html = f"""<!DOCTYPE html>
     <a href="posts/best-mattress-chronic-pain.html">Best Mattress for Chronic Pain</a>
     <a href="posts/best-mattress-adjustable-base.html">Best Mattress for Adjustable Base</a>
   </div>
+<ul class="related-links">
+<li><a href="/health-conditions.html">Best Mattress by Health Condition: 200+ Clinical Guides</a></li>
+<li><a href="/posts/category/health-conditions.html">Health Conditions</a></li>
+<li><a href="/posts/best-mattress-avascular-necrosis-hip.html">Best Mattress for Avascular Necrosis of the Hip</a></li>
+<li><a href="/posts/best-mattress-lateral-epicondylitis.html">Best Mattress for Lateral Epicondylitis (Tennis Elbow)</a></li>
+<li><a href="/posts/best-mattress-porphyria.html">Best Mattress for Porphyria 2026</a></li>
+</ul>
 </div>
 <footer>
   <p>&copy; 2026 SleepWiseReviews. All rights reserved.</p>

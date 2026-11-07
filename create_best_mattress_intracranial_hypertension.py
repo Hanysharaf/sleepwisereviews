@@ -290,7 +290,7 @@ footer{background:#111e33;border-top:1px solid #1e3a5f;padding:2rem;text-align:c
 
 <div class="info-box">
 <h4>IIH Without an Adjustable Base: Minimum Viable Intervention</h4>
-<p>An adjustable base is the gold standard for IIH head elevation &mdash; but not every patient can afford one. The minimum viable intervention is elevating the entire head of the bed 6-8 inches using bed risers under the two head-side legs. This achieves approximately 15-20 degrees of whole-body tilt and avoids the neck flexion problem of pillow stacking. A wedge pillow (30-degree foam wedge) used in addition to bed risers can reach the therapeutic 30-degree angle. The mattress must be firm enough to maintain its surface under the wedge &mdash; soft all-foam mattresses compress and negate the angle. The Saatva Classic Medium Firm, Avocado Green, or Casper Wave Hybrid are the best non-adjustable-base choices for wedge compatibility.</p>
+<p>An adjustable base is one option for IIH head elevation &mdash; but not every patient can afford one. The minimum viable intervention is elevating the entire head of the bed 6-8 inches using bed risers under the two head-side legs. This achieves approximately 15-20 degrees of whole-body tilt and avoids the neck flexion problem of pillow stacking. A wedge pillow (30-degree foam wedge) used in addition to bed risers can reach the therapeutic 30-degree angle. The mattress must be firm enough to maintain its surface under the wedge &mdash; soft all-foam mattresses compress and negate the angle. The Saatva Classic Medium Firm, Avocado Green, or Casper Wave Hybrid are the best non-adjustable-base choices for wedge compatibility.</p>
 </div>
 
 <h2 class="section-title">Frequently Asked Questions</h2>
@@ -331,6 +331,13 @@ footer{background:#111e33;border-top:1px solid #1e3a5f;padding:2rem;text-align:c
 <div class="related-card"><h4><a href="best-mattress-fibromyalgia.html">Best Mattress for Fibromyalgia</a></h4><p>Whole-body pressure distribution and motion isolation for fibro sleep.</p></div>
 </div>
 </div>
+<ul class="related-links">
+<li><a href="/health-conditions.html">Best Mattress by Health Condition: 200+ Clinical Guides</a></li>
+<li><a href="/posts/category/health-conditions.html">Health Conditions</a></li>
+<li><a href="/posts/best-mattress-pulmonary-hypertension.html">Best Mattress for Pulmonary Hypertension 2026</a></li>
+<li><a href="/posts/best-mattress-idiopathic-hypersomnia.html">Best Mattress for Idiopathic Hypersomnia</a></li>
+<li><a href="/posts/best-mattress-dysautonomia.html">Best Mattress for Dysautonomia 2026</a></li>
+</ul>
 
 </div>
 

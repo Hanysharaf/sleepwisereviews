@@ -201,7 +201,7 @@ html = f"""<!DOCTYPE html>
       <div class="pick-name">Saatva Classic + Adjustable Base <span class="pick-tag">Best Back-Sleep Positioning for Flexor-Pronator Tendon Rest</span></div>
     </div>
     <div class="me-key">Golfer's elbow key: Back sleep with arm extended, forearm supinated, wrist neutral is the optimal medial epicondylitis position &mdash; minimises wrist flexor tendon load at the common flexor origin; motorised arm elevation reduces forearm flexor compartment oedema; zero-effort repositioning avoids the pronation + wrist flexion compound movement that maximally loads the medial epicondyle.</div>
-    <p class="pick-why">Back sleeping with the affected arm extended at the side of the body, forearm in supination and wrist in neutral, is the gold-standard position for golfer's elbow: the FCR, FCU, and pronator teres tendons are in their shortest, lowest-load configuration; the medial epicondyle bears no contact pressure from the mattress surface; and the forearm rests in supinated neutral rather than the pronated position that maximally stretches the common flexor origin. The Saatva Adjustable Base makes this therapeutic back-sleep position practical for habitual side sleepers by providing motorised head and foot elevation that naturally discourages lateral drift during REM. The adjustable base's arm elevation function elevates the affected forearm above heart level overnight, reducing forearm flexor compartment oedema by promoting venous and lymphatic return &mdash; clinically relevant during the acute and subacute phases when daytime forearm swelling accompanies medial epicondylitis. Repositioning from the elevated position during sleep requires minimal muscular effort, avoiding the involuntary pronation + wrist flexion compound movement that occurs during awkward manual arm repositioning. The Saatva Classic's Euro pillow top cushions scapular and thoracic contact points, making back sleeping comfortable enough to maintain through REM phases rather than just at initial sleep onset.</p>
+    <p class="pick-why">Back sleeping with the affected arm extended at the side of the body, forearm in supination and wrist in neutral, is a standard position for golfer's elbow: the FCR, FCU, and pronator teres tendons are in their shortest, lowest-load configuration; the medial epicondyle bears no contact pressure from the mattress surface; and the forearm rests in supinated neutral rather than the pronated position that maximally stretches the common flexor origin. The Saatva Adjustable Base makes this therapeutic back-sleep position practical for habitual side sleepers by providing motorised head and foot elevation that naturally discourages lateral drift during REM. The adjustable base's arm elevation function elevates the affected forearm above heart level overnight, reducing forearm flexor compartment oedema by promoting venous and lymphatic return &mdash; clinically relevant during the acute and subacute phases when daytime forearm swelling accompanies medial epicondylitis. Repositioning from the elevated position during sleep requires minimal muscular effort, avoiding the involuntary pronation + wrist flexion compound movement that occurs during awkward manual arm repositioning. The Saatva Classic's Euro pillow top cushions scapular and thoracic contact points, making back sleeping comfortable enough to maintain through REM phases rather than just at initial sleep onset.</p>
     <div class="pick-specs">
       <span class="spec">Arm elevation: motorised</span>
       <span class="spec">Common flexor tendon load: minimised</span>
@@ -361,6 +361,13 @@ html = f"""<!DOCTYPE html>
     <a href="best-mattress-chronic-pain.html">Best Mattress for Chronic Pain</a>
     <a href="best-mattress-adjustable-base.html">Best Mattress for Adjustable Base</a>
   </div>
+<ul class="related-links">
+<li><a href="/health-conditions.html">Best Mattress by Health Condition: 200+ Clinical Guides</a></li>
+<li><a href="/posts/category/health-conditions.html">Health Conditions</a></li>
+<li><a href="/posts/best-mattress-rotator-cuff-tear.html">Best Mattress for Rotator Cuff Tear</a></li>
+<li><a href="/posts/best-mattress-patellofemoral-syndrome.html">Best Mattress for Patellofemoral Syndrome (2026)</a></li>
+<li><a href="/posts/best-mattress-cervical-radiculopathy.html">Best Mattress for Cervical Radiculopathy (2026)</a></li>
+</ul>
 </div>
 <footer>
   <p>&copy; 2026 SleepWiseReviews. All rights reserved.</p>

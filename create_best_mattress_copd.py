@@ -9,7 +9,7 @@ html = """<!DOCTYPE html>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Best Mattress for COPD (2026): 7 Picks for Breathing &amp; Sleep Relief</title>
-<meta name="description" content="COPD makes sleeping flat dangerous — mucus pools, diaphragm pressure rises, oxygen drops. 7 expert-tested mattresses for head elevation, respiratory alignment, and COPD-related sleep apnea management.">
+<meta name="description" content="COPD makes sleeping flat dangerous — mucus pools, diaphragm pressure rises, oxygen drops. 7 mattresses for head elevation, respiratory alignment, and COPD-related sleep apnea management.">
 <meta property="og:title" content="Best Mattress for COPD (2026): 7 Picks for Breathing &amp; Sleep Relief">
 <meta property="og:description" content="7 expert picks for COPD sufferers — head elevation support, respiratory alignment, mucus clearance positioning, and sleep apnea comorbidity management.">
 <meta property="og:type" content="article">
@@ -446,7 +446,7 @@ footer{background:#060e1d;border-top:1px solid var(--border);padding:24px;text-a
 
 </div>
 <footer>
-  <p>&copy; 2026 SleepWise Reviews &mdash; <a href="../privacy.html">Privacy Policy</a> &mdash; <a href="../affiliate-disclosure.html">Affiliate Disclosure</a></p>
+  <p>&copy; 2026 SleepWise Reviews &mdash; <a href="../pages/privacy-policy.html">Privacy Policy</a> &mdash; <a href="../pages/affiliate-disclosure.html">Affiliate Disclosure</a></p>
   <p style="margin-top:8px">SleepWise Reviews participates in affiliate programs. We may earn a commission at no extra cost to you.</p>
 </footer>
 </body>

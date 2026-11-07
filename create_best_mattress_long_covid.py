@@ -296,10 +296,17 @@ footer{background:#111e33;border-top:1px solid #1e3a5f;padding:2rem;text-align:c
 <div class="related-card"><h4><a href="best-mattress-anxiety.html">Best Mattress for Anxiety</a></h4><p>Hyperarousal, cortisol dysregulation, and somatic tension management.</p></div>
 <div class="related-card"><h4><a href="best-mattress-depression.html">Best Mattress for Depression</a></h4><p>Non-restorative sleep, hypersomnia, and early morning awakening.</p></div>
 </div>
+<ul class="related-links">
+<li><a href="/health-conditions.html">Best Mattress by Health Condition: 200+ Clinical Guides</a></li>
+<li><a href="/posts/category/health-conditions.html">Health Conditions</a></li>
+<li><a href="/posts/best-mattress-pots-syndrome.html">Best Mattress for POTS (Postural Orthostatic Tachycardia Syndrome)</a></li>
+<li><a href="/posts/best-mattress-dysautonomia.html">Best Mattress for Dysautonomia 2026</a></li>
+<li><a href="/posts/best-mattress-hypermobile-eds.html">Best Mattress for Hypermobile EDS (hEDS)</a></li>
+</ul>
 
 </div>
 <footer>
-<p>&copy; 2026 SleepWise Reviews &bull; <a href="/privacy.html">Privacy Policy</a> &bull; <a href="/affiliate-disclosure.html">Affiliate Disclosure</a></p>
+<p>&copy; 2026 SleepWise Reviews &bull; <a href="/pages/privacy-policy.html">Privacy Policy</a> &bull; <a href="/pages/affiliate-disclosure.html">Affiliate Disclosure</a></p>
 <p style="margin-top:.5rem;color:#475569">We earn commissions from qualifying Amazon purchases. This does not affect our recommendations.</p>
 </footer>
 </body>

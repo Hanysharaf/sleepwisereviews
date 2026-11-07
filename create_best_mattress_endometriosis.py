@@ -9,7 +9,7 @@ html = """<!DOCTYPE html>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Best Mattress for Endometriosis (2026): 7 Picks for Pelvic Pain &amp; Sleep</title>
-<meta name="description" content="Endometriosis pelvic pain, adhesion pressure, and inflammatory pain cycles disrupt sleep every month. 7 expert-tested mattresses for pelvic pressure relief, side-sleeping support, and the endometriosis-sleep science explained.">
+<meta name="description" content="Endometriosis pelvic pain, adhesion pressure, and inflammatory pain cycles disrupt sleep every month. 7 mattresses for pelvic pressure relief, side-sleeping support, and the endometriosis-sleep science explained.">
 <meta property="og:title" content="Best Mattress for Endometriosis (2026): 7 Picks for Pelvic Pain &amp; Sleep">
 <meta property="og:description" content="7 expert picks for endometriosis sleep — pelvic pressure relief, adhesion pressure, side-sleeping guide, and the bidirectional pain-sleep relationship.">
 <meta property="og:type" content="article">
@@ -427,7 +427,7 @@ footer{background:#060e1d;border-top:1px solid var(--border);padding:24px;text-a
 
 </div>
 <footer>
-  <p>&copy; 2026 SleepWise Reviews &mdash; <a href="../privacy.html">Privacy Policy</a> &mdash; <a href="../affiliate-disclosure.html">Affiliate Disclosure</a></p>
+  <p>&copy; 2026 SleepWise Reviews &mdash; <a href="../pages/privacy-policy.html">Privacy Policy</a> &mdash; <a href="../pages/affiliate-disclosure.html">Affiliate Disclosure</a></p>
   <p style="margin-top:8px">SleepWise Reviews participates in affiliate programs. We may earn a commission at no extra cost to you.</p>
 </footer>
 </body>

@@ -483,7 +483,7 @@ html = '''<!DOCTYPE html>
     </div>
     <div class="guide-item">
       <h4>Certifications That Matter</h4>
-      <p>OEKO-TEX Standard 100: confirms no harmful chemicals in the finished product. GOTS (Global Organic Textile Standard): the gold standard for organic fiber sourcing and processing. CleanBamboo: ettitude's proprietary closed-loop bamboo certification. These are the only certifications worth paying a premium for.</p>
+      <p>OEKO-TEX Standard 100: confirms no harmful chemicals in the finished product. GOTS (Global Organic Textile Standard): one option for organic fiber sourcing and processing. CleanBamboo: ettitude's proprietary closed-loop bamboo certification. These are the only certifications worth paying a premium for.</p>
     </div>
     <div class="guide-item">
       <h4>Pocket Depth</h4>
@@ -533,7 +533,7 @@ html = '''<!DOCTYPE html>
 </main>
 
 <footer>
-  <p>&copy; 2026 SleepWiseReviews &bull; <a href="/privacy.html">Privacy Policy</a> &bull; <a href="/about.html">About</a> &bull; <a href="/posts/index.html">All Reviews</a></p>
+  <p>&copy; 2026 SleepWiseReviews &bull; <a href="/pages/privacy-policy.html">Privacy Policy</a> &bull; <a href="/pages/about.html">About</a> &bull; <a href="/posts/index.html">All Reviews</a></p>
   <p style="margin-top:0.5rem;">SleepWiseReviews is a participant in the Amazon Services LLC Associates Program.</p>
 </footer>
 

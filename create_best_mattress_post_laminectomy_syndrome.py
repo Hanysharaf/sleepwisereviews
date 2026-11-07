@@ -358,9 +358,16 @@ html = f"""<!DOCTYPE html>
     <a href="best-mattress-chronic-back-pain.html">Chronic Back Pain</a>
     <a href="best-mattress-chronic-pain.html">Chronic Pain</a>
   </div>
+<ul class="related-links">
+<li><a href="/health-conditions.html">Best Mattress by Health Condition: 200+ Clinical Guides</a></li>
+<li><a href="/posts/category/health-conditions.html">Health Conditions</a></li>
+<li><a href="/posts/best-mattress-bunion-surgery-recovery.html">Best Mattress for Bunion Surgery Recovery (2026): 7 Picks for Post-Osteotomy Sleep</a></li>
+<li><a href="/posts/best-mattress-piriformis-syndrome.html">Best Mattress for Piriformis Syndrome</a></li>
+<li><a href="/posts/best-mattress-stomach-sleepers-back-pain.html">Best Mattress for Stomach Sleepers with Back Pain 2025 — 7 Firm Picks</a></li>
+</ul>
 </div>
 <footer>
-  <p>&copy; 2026 SleepWiseReviews &mdash; <a href="/about.html">About</a> &middot; <a href="/contact.html">Contact</a> &middot; <a href="/privacy.html">Privacy Policy</a></p>
+  <p>&copy; 2026 SleepWiseReviews &mdash; <a href="/pages/about.html">About</a> &middot; <a href="/pages/privacy-policy.html">Privacy Policy</a></p>
   <p style="margin-top:.5rem;font-size:.8rem">As an Amazon Associate we earn from qualifying purchases. All recommendations are independent &mdash; affiliate links never influence our picks.</p>
 </footer>
 </body>

@@ -348,7 +348,7 @@ html = f"""<!DOCTYPE html>
     <div class="product-card">
       <div class="product-header">
         <span class="rank">#7</span>
-        <span class="badge">Best Clinical Grade</span>
+        <span class="badge">Our Pick</span>
       </div>
       <h3>Thermophore Classic Moist Heating Pad</h3>
       <p>The Thermophore generates intense, deep moist heat without a separate water source (it draws moisture from ambient air). The heat retention is significantly longer than standard pads. The Thermophore requires holding a hand switch to maintain heat (releases when you sleep) &mdash; a safety design from its clinical origin, though this makes it less convenient for home sleep use. Manual switch works as the shutoff. Used for acute injury management, post-surgery recovery, and deep tissue conditions where consumer pads lack sufficient penetration depth.</p>
@@ -417,7 +417,7 @@ html = f"""<!DOCTYPE html>
     </div>
   </main>
   <footer>
-    <p>&copy; 2025&ndash;2026 <a href="../">SleepWise Reviews</a> &middot; Evidence-based sleep guidance &middot; <a href="../privacy.html">Privacy</a></p>
+    <p>&copy; 2025&ndash;2026 <a href="../">SleepWise Reviews</a> &middot; Evidence-based sleep guidance &middot; <a href="../pages/privacy-policy.html">Privacy</a></p>
   </footer>
 </body>
 </html>"""

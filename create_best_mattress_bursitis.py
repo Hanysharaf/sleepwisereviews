@@ -269,6 +269,13 @@ nav.breadcrumb span{color:var(--gold)}
 <div class="related-card"><a href="best-mattress-osteoporosis.html">Osteoporosis</a> &mdash; bone density and positioning</div>
 <div class="related-card"><a href="best-mattress-side-sleepers.html">Side Sleepers</a> &mdash; pressure point management</div>
 </div>
+<ul class="related-links">
+<li><a href="/health-conditions.html">Best Mattress by Health Condition: 200+ Clinical Guides</a></li>
+<li><a href="/posts/category/health-conditions.html">Health Conditions</a></li>
+<li><a href="/posts/best-mattress-morton-neuroma.html">Best Mattress for Morton&#39;s Neuroma 2026: 7 Picks to Relieve Forefoot Nerve Pressure at Night</a></li>
+<li><a href="/posts/best-mattress-petite-side-sleepers.html">Best Mattress for Petite Side Sleepers 2025 — 7 Top Picks Under 130 lbs</a></li>
+<li><a href="/posts/best-mattress-polymyalgia-rheumatica.html">Best Mattress for Polymyalgia Rheumatica (2026): 7 Picks for Shoulder/Hip Girdle Pain &amp; Morning Stiffness</a></li>
+</ul>
 
 </div>
 <footer>

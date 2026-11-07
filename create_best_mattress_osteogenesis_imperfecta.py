@@ -404,6 +404,13 @@ footer a{{color:var(--muted)}}
     <p>Persistent pain management, sleep quality, pressure relief</p>
   </div>
 </div>
+<ul class="related-links">
+<li><a href="/health-conditions.html">Best Mattress by Health Condition: 200+ Clinical Guides</a></li>
+<li><a href="/posts/category/health-conditions.html">Health Conditions</a></li>
+<li><a href="/posts/best-mattress-spinal-stenosis-cervical.html">Best Mattress for Cervical Spinal Stenosis</a></li>
+<li><a href="/posts/best-mattress-avascular-necrosis-hip.html">Best Mattress for Avascular Necrosis of the Hip</a></li>
+<li><a href="/posts/best-mattress-small-fiber-neuropathy.html">Best Mattress for Small Fiber Neuropathy</a></li>
+</ul>
 
 <footer>
   <p><a href="../index.html">SleepWise Reviews</a> &mdash; <a href="../posts/index.html">All Posts</a></p>

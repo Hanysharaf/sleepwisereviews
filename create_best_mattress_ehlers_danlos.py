@@ -370,6 +370,9 @@ footer a{color:var(--gold);text-decoration:none}
       <a href="/posts/best-mattress-shoulder-pain.html" style="background:#0a1628;border:1px solid #1e3a5f;border-radius:8px;padding:.85rem 1rem;text-decoration:none;color:#e2e8f0;font-size:.88rem;">Best Mattress for Shoulder Pain &rarr;</a>
       <a href="/posts/best-mattress-adjustable-base.html" style="background:#0a1628;border:1px solid #1e3a5f;border-radius:8px;padding:.85rem 1rem;text-decoration:none;color:#e2e8f0;font-size:.88rem;">Best Mattress for Adjustable Base &rarr;</a>
     </div>
+<ul class="related-links">
+<li><a href="/posts/best-mattress-ehlers-danlos-classical.html">Best Mattress for Classical Ehlers-Danlos Syndrome (cEDS)</a></li>
+</ul>
   </div>
 </section>
 
@@ -403,7 +406,7 @@ footer a{color:var(--gold);text-decoration:none}
 </div>
 
 <footer>
-  <p>&copy; 2025 SleepWise Reviews &mdash; <a href="/pages/privacy.html">Privacy Policy</a> &mdash; <a href="/pages/about.html">About</a></p>
+  <p>&copy; 2025 SleepWise Reviews &mdash; <a href="/pages/privacy-policy.html">Privacy Policy</a> &mdash; <a href="/pages/about.html">About</a></p>
   <p style="margin-top:.5rem;font-size:.75rem;">As an Amazon Associate we earn from qualifying purchases. Prices and availability are subject to change.</p>
 </footer>
 </body>

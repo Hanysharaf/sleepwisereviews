@@ -168,7 +168,7 @@ html = '''<!DOCTYPE html>
       <span class="spec-chip">Climate Control Auto mode</span>
       <span class="spec-chip">myAir app integration</span>
     </div>
-    <p>The ResMed AirSense 11 is the gold standard in CPAP therapy — and its integrated HumidAir humidifier with Climate Control Auto mode is a key reason why. Climate Control Auto automatically adjusts both temperature and humidity based on ambient room conditions, preventing both dryness and rainout without manual adjustment. Paired with the ClimateLine heated tube, moisture stays in the air all the way to the mask. The myAir app tracks usage and comfort metrics. For new CPAP users or those replacing aging equipment, the AirSense 11 represents the complete integrated solution.</p>
+    <p>The ResMed AirSense 11 is one option in CPAP therapy — and its integrated HumidAir humidifier with Climate Control Auto mode is a key reason why. Climate Control Auto automatically adjusts both temperature and humidity based on ambient room conditions, preventing both dryness and rainout without manual adjustment. Paired with the ClimateLine heated tube, moisture stays in the air all the way to the mask. The myAir app tracks usage and comfort metrics. For new CPAP users or those replacing aging equipment, the AirSense 11 represents the complete integrated solution.</p>
     <div class="pros-cons">
       <div class="pros">
         <h4>Pros</h4>

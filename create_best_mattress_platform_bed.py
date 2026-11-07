@@ -236,7 +236,7 @@ footer .disclaimer{max-width:700px;margin:.75rem auto 0;line-height:1.6}
       <h3>Tuft &amp; Needle Original &mdash; Best Budget Platform Mattress</h3>
       <span class="pick-badge">BUDGET</span>
     </div>
-    <p>At under $600 for a queen, the T&amp;N Original is the best platform-bed mattress under $700. Its adaptive foam construction is specifically rated for slatted platforms &mdash; Tuft &amp; Needle guarantees performance on slats up to 4 inches apart, which is more permissive than most foam brands. No sliding, no sagging after 12 months of testing reports.</p>
+    <p>At under $600 for a queen, the T&amp;N Original is the best platform-bed mattress under $700. Its adaptive foam construction is specifically rated for slatted platforms &mdash; Tuft &amp; Needle guarantees performance on slats up to 4 inches apart, which is more permissive than most foam brands.</p>
     <div class="pick-specs">
       <span class="spec-tag">Thickness: 10"</span>
       <span class="spec-tag">Type: Adaptive Foam</span>
@@ -372,13 +372,18 @@ footer .disclaimer{max-width:700px;margin:.75rem auto 0;line-height:1.6}
       <li><a href="best-full-mattress.html">&#8594; Best Full Size Mattress</a></li>
       <li><a href="best-mattress-queen.html">&#8594; Best Queen Mattress</a></li>
       <li><a href="best-mattress-couples.html">&#8594; Best Mattress for Couples</a></li>
+      <li><a href="/health-conditions.html">&#8594; Best Mattress by Health Condition: 200+ Clinical Guides</a></li>
+      <li><a href="/posts/category/mattresses-bedding.html">&#8594; Mattresses &amp; Bedding</a></li>
+      <li><a href="/posts/best-mattress-murphy-bed.html">&#8594; Best Mattress for Murphy Beds 2026 &mdash; 7 Expert Picks</a></li>
+      <li><a href="/posts/best-mattress-trundle-bed.html">&#8594; Best Mattress for Trundle Beds 2026 &mdash; 7 Expert Picks</a></li>
+      <li><a href="/posts/best-mattress-teenager.html">&#8594; Best Mattress for Teenagers 2025 &mdash; 7 Picks for Growing Bodies, Bunk Beds &amp; Tight Budgets</a></li>
     </ul>
   </section>
 </div>
 
 <footer>
   <div class="container">
-    <p><a href="/">SleepWise Reviews</a> &mdash; <a href="/about.html">About</a> &mdash; <a href="/contact.html">Contact</a></p>
+    <p><a href="/">SleepWise Reviews</a> &mdash; <a href="/pages/about.html">About</a></p>
     <p class="disclaimer">As an Amazon Associate we earn from qualifying purchases. Affiliate links are marked. Reviews are independent &mdash; brands do not pay for placement.</p>
   </div>
 </footer>

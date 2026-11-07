@@ -342,7 +342,15 @@ html = f'''<!DOCTYPE html>
 {faq_html}
 
     <div class="affiliate-disclaimer" style="margin-top:2rem;">Prices accurate at time of publication. Verify on Amazon before purchasing. Amazon links are affiliate links — we earn a small commission at no cost to you.</div>
-  </main>
+  <h2 class="section-title">Related Guides</h2>
+<ul class="related-links">
+<li><a href="/health-conditions.html">Best Mattress by Health Condition: 200+ Clinical Guides</a></li>
+<li><a href="/posts/category/mattresses-bedding.html">Mattresses &amp; Bedding</a></li>
+<li><a href="/posts/best-mattress-stomach-sleepers-lower-back-pain.html">Best Mattress for Stomach Sleepers with Lower Back Pain (2026): 7 Firm Picks</a></li>
+<li><a href="/posts/best-mattress-back-sleepers.html">Best Mattress for Back Sleepers 2025: 7 Reviewed for Lumbar Support</a></li>
+<li><a href="/posts/best-mattress-spinal-stenosis.html">Best Mattress for Spinal Stenosis 2026 — 7 Picks to Reduce Nerve Pain at Night</a></li>
+</ul>
+</main>
   <footer>
     <p>&copy; 2025–2026 <a href="../">SleepWise Reviews</a> &middot; Evidence-based sleep guidance &middot; <a href="../posts/">All Guides</a></p>
   </footer>

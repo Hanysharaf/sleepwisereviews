@@ -9,10 +9,10 @@ html = r"""<!DOCTYPE html>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>7 Best Melatonin Gummies for Adults 2026 | SleepWise Reviews</title>
-<meta name="description" content="Expert-tested melatonin gummies for adults: top picks for sleep onset, dose options, and clean ingredients. Find the right gummy for your sleep needs.">
+<meta name="description" content="Melatonin gummies for adults: top picks for sleep onset, dose options, and clean ingredients. Find the right gummy for your sleep needs.">
 <link rel="canonical" href="https://sleepwisereviews.com/posts/best-melatonin-gummies-adults.html">
 <meta property="og:title" content="7 Best Melatonin Gummies for Adults 2026">
-<meta property="og:description" content="Expert-tested melatonin gummies for adults: top picks for sleep onset, dose options, and clean ingredients.">
+<meta property="og:description" content="Melatonin gummies for adults: top picks for sleep onset, dose options, and clean ingredients.">
 <meta property="og:url" content="https://sleepwisereviews.com/posts/best-melatonin-gummies-adults.html">
 <meta property="og:type" content="article">
 <meta property="og:image" content="https://sleepwisereviews.com/assets/og-melatonin-gummies.jpg">
@@ -26,7 +26,7 @@ html = r"""<!DOCTYPE html>
     {
       "@type":"Article",
       "headline":"7 Best Melatonin Gummies for Adults 2026",
-      "description":"Expert-tested melatonin gummies for adults covering dose options, ingredient quality, and sleep onset effectiveness.",
+      "description":"Melatonin gummies for adults covering dose options, ingredient quality, and sleep onset effectiveness.",
       "url":"https://sleepwisereviews.com/posts/best-melatonin-gummies-adults.html",
       "datePublished":"2026-05-25",
       "dateModified":"2026-05-25",
@@ -337,7 +337,7 @@ footer{background:var(--card);border-top:1px solid var(--border);padding:2rem;te
 <div class="product-card" id="naturemade">
   <span class="rank-badge">#5 Best for Light Sensitivity</span>
   <h2>Nature Made Melatonin Gummies 2.5mg</h2>
-  <div class="verdict">"The gold standard for third-party verification — USP verified and pharmacist-recommended. The 2.5mg dose hits the sweet spot between under- and over-dosing."</div>
+  <div class="verdict">"The 2.5mg dose hits the sweet spot between under- and over-dosing."</div>
   <div class="specs-grid">
     <div class="spec-chip"><strong>Dose:</strong> 2.5mg per gummy</div>
     <div class="spec-chip"><strong>Certifications:</strong> USP Verified</div>
@@ -356,7 +356,6 @@ footer{background:var(--card);border-top:1px solid var(--border);padding:2rem;te
         <li>150-count bottle for extended supply</li>
         <li>No artificial colors or dyes</li>
         <li>2.5mg splits the difference for dose-sensitive users</li>
-        <li>Pharmacist-recommended brand</li>
       </ul>
     </div>
     <div class="cons">

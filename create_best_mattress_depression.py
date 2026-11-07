@@ -462,7 +462,7 @@ footer{background:#060e1d;border-top:1px solid var(--border);padding:24px;text-a
 
 </div>
 <footer>
-  <p>&copy; 2026 SleepWise Reviews &mdash; <a href="../privacy.html">Privacy Policy</a> &mdash; <a href="../affiliate-disclosure.html">Affiliate Disclosure</a></p>
+  <p>&copy; 2026 SleepWise Reviews &mdash; <a href="../pages/privacy-policy.html">Privacy Policy</a> &mdash; <a href="../pages/affiliate-disclosure.html">Affiliate Disclosure</a></p>
   <p style="margin-top:8px">SleepWise Reviews participates in affiliate programs. We may earn a commission at no extra cost to you.</p>
 </footer>
 </body>

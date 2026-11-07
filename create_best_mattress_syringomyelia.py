@@ -360,6 +360,13 @@ html = f"""<!DOCTYPE html>
     <a href="best-mattress-adjustable-base.html">Best Mattress for Adjustable Base</a>
     <a href="best-mattress-fibromyalgia.html">Best Mattress for Fibromyalgia</a>
   </div>
+<ul class="related-links">
+<li><a href="/health-conditions.html">Best Mattress by Health Condition: 200+ Clinical Guides</a></li>
+<li><a href="/posts/category/health-conditions.html">Health Conditions</a></li>
+<li><a href="/posts/best-mattress-spinal-cord-injury.html">Best Mattress for Spinal Cord Injury (2026)</a></li>
+<li><a href="/posts/best-mattress-thoracic-spine-pain.html">Best Mattress for Thoracic Spine Pain</a></li>
+<li><a href="/posts/best-mattress-thoracic-hyperkyphosis.html">Best Mattress for Thoracic Hyperkyphosis</a></li>
+</ul>
 </div>
 <footer>
   <p>&copy; 2026 SleepWiseReviews. All rights reserved.</p>

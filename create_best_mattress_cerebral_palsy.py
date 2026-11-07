@@ -55,7 +55,7 @@ out.write("""<!DOCTYPE html>
     {
       "@type": "Question",
       "name": "What is the best mattress for cerebral palsy spasticity?",
-      "acceptedAnswer": {"@type": "Answer", "text": "The Purple Restore Plus Hybrid is the best choice for CP spasticity. Its GelFlex polymer grid yields to spastic movements rather than creating resistance that increases tone. Firm foam mattresses can trigger hypertonicity through extensor reflex activation when a person pushes against the surface. The Purple grid absorbs movement without resistance, while maintaining stable positioning between spastic episodes. For children with CP, a medium-firm surface with yielding properties is the clinical gold standard."}
+      "acceptedAnswer": {"@type": "Answer", "text": "The Purple Restore Plus Hybrid is the best choice for CP spasticity. Its GelFlex polymer grid yields to spastic movements rather than creating resistance that increases tone. Firm foam mattresses can trigger hypertonicity through extensor reflex activation when a person pushes against the surface. The Purple grid absorbs movement without resistance, while maintaining stable positioning between spastic episodes. For children with CP, a medium-firm surface with yielding properties is one option."}
     },
     {
       "@type": "Question",
@@ -311,7 +311,7 @@ footer a{color:var(--muted)}
 
   <div class="faq-item">
     <h3>What is the best mattress for cerebral palsy spasticity?</h3>
-    <p>The Purple Restore Plus Hybrid is the best choice for CP spasticity. Its GelFlex polymer grid yields to spastic movements rather than creating resistance that increases tone. Firm foam mattresses can trigger hypertonicity through extensor reflex activation. For children with CP, a medium-firm surface with yielding properties is the clinical gold standard.</p>
+    <p>The Purple Restore Plus Hybrid is the best choice for CP spasticity. Its GelFlex polymer grid yields to spastic movements rather than creating resistance that increases tone. Firm foam mattresses can trigger hypertonicity through extensor reflex activation. For children with CP, a medium-firm surface with yielding properties is one option.</p>
   </div>
 
   <div class="faq-item">
@@ -348,7 +348,7 @@ footer a{color:var(--muted)}
 </div>
 
 <footer>
-  <p>&copy; 2026 SleepWiseReviews &mdash; <a href="/privacy.html">Privacy Policy</a> &bull; <a href="/disclaimer.html">Affiliate Disclaimer</a></p>
+  <p>&copy; 2026 SleepWiseReviews &mdash; <a href="/pages/privacy-policy.html">Privacy Policy</a> &bull; <a href="/pages/affiliate-disclosure.html">Affiliate Disclaimer</a></p>
   <p style="margin-top:8px;font-size:.78rem">SleepWiseReviews participates in the Amazon Associates program. We earn commissions on qualifying purchases at no extra cost to you.</p>
 </footer>
 </body>

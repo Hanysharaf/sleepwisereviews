@@ -397,6 +397,9 @@ footer a{{color:var(--muted)}}
     <p>Chest wall pain, lateral rib pressure, thoracic support</p>
   </div>
 </div>
+<ul class="related-links">
+<li><a href="/posts/best-mattress-ehlers-danlos.html">Best Mattress for Ehlers-Danlos Syndrome 2025 &mdash; 7 Picks for hEDS Joint Instability &amp; Hypermobility</a></li>
+</ul>
 
 <footer>
   <p><a href="../index.html">SleepWise Reviews</a> &mdash; <a href="../posts/index.html">All Posts</a></p>

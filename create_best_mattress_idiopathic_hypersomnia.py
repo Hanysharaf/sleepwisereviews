@@ -360,6 +360,13 @@ html = f"""<!DOCTYPE html>
     <a href="best-mattress-back-pain.html">Best Mattress for Back Pain</a>
     <a href="best-adjustable-base-mattress.html">Best Mattress for Adjustable Bases</a>
   </div>
+<ul class="related-links">
+<li><a href="/health-conditions.html">Best Mattress by Health Condition: 200+ Clinical Guides</a></li>
+<li><a href="/posts/category/health-conditions.html">Health Conditions</a></li>
+<li><a href="/posts/best-mattress-depression.html">Best Mattress for Depression (2026): 7 Picks for Hypersomnia, Insomnia &amp; Sleep Quality</a></li>
+<li><a href="/posts/best-mattress-bipolar.html">Best Mattress for Bipolar Disorder (2026)</a></li>
+<li><a href="/posts/best-mattress-hypothyroidism.html">Best Mattress for Hypothyroidism (2026)</a></li>
+</ul>
 </div>
 <footer>
   <p>&copy; 2026 SleepWiseReviews. All rights reserved.</p>

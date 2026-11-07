@@ -320,13 +320,18 @@ footer .disclaimer{max-width:700px;margin:.75rem auto 0;line-height:1.6}
       <li><a href="best-full-mattress.html">&#8594; Best Full Size Mattress</a></li>
       <li><a href="best-mattress-queen.html">&#8594; Best Queen Mattress</a></li>
       <li><a href="best-mattress-under-500.html">&#8594; Best Mattress Under $500</a></li>
+      <li><a href="/health-conditions.html">&#8594; Best Mattress by Health Condition: 200+ Clinical Guides</a></li>
+      <li><a href="/posts/category/life-stages.html">&#8594; Life Stages</a></li>
+      <li><a href="/posts/best-mattress-bunk-beds.html">&#8594; Best Mattress for Bunk Beds 2026 — Top 7 Picks for Kids, Teens, and Dorms</a></li>
+      <li><a href="/posts/best-mattress-trundle-bed.html">&#8594; Best Mattress for Trundle Beds 2026 &mdash; 7 Expert Picks</a></li>
+      <li><a href="/posts/best-mattress-rv.html">&#8594; Best RV Mattress 2026 &mdash; 8 Expert Picks for Short Queen, Full, and More</a></li>
     </ul>
   </section>
 </div>
 
 <footer>
   <div class="container">
-    <p><a href="/">SleepWise Reviews</a> &mdash; <a href="/about.html">About</a> &mdash; <a href="/contact.html">Contact</a></p>
+    <p><a href="/">SleepWise Reviews</a> &mdash; <a href="/pages/about.html">About</a></p>
     <p class="disclaimer">As an Amazon Associate we earn from qualifying purchases. Affiliate links are marked. Reviews are independent &mdash; brands do not pay for placement.</p>
   </div>
 </footer>

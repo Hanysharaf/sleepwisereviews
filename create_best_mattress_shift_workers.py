@@ -274,8 +274,16 @@ footer a{color:#c9a84c;text-decoration:none}
 
 </div>
 
+<h2 class="section-title">Related Guides</h2>
+<ul class="related-links">
+<li><a href="/health-conditions.html">Best Mattress by Health Condition: 200+ Clinical Guides</a></li>
+<li><a href="/posts/category/mattresses-bedding.html">Mattresses &amp; Bedding</a></li>
+<li><a href="/posts/best-mattress-periodic-limb-movement.html">Best Mattress for Periodic Limb Movement Disorder</a></li>
+<li><a href="/posts/best-mattress-huntingtons-disease.html">Best Mattress for Huntington's Disease 2026</a></li>
+<li><a href="/posts/best-mattress-night-terrors.html">Best Mattress for Night Terrors (Sleep Terror Disorder) 2026</a></li>
+</ul>
 <footer>
-  <p>&copy; 2025 SleepWise Reviews &bull; <a href="/privacy.html">Privacy Policy</a> &bull; <a href="/disclosure.html">Affiliate Disclosure</a></p>
+  <p>&copy; 2025 SleepWise Reviews &bull; <a href="/pages/privacy-policy.html">Privacy Policy</a> &bull; <a href="/pages/affiliate-disclosure.html">Affiliate Disclosure</a></p>
   <p style="margin-top:8px;font-size:.75rem">We may earn a commission from Amazon links at no extra cost to you.</p>
 </footer>
 </body>

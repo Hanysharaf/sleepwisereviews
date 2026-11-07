@@ -297,10 +297,17 @@ footer{background:#111e33;border-top:1px solid #1e3a5f;padding:2rem;text-align:c
 <div class="related-card"><h4><a href="best-mattress-back-pain.html">Best Mattress for Back Pain</a></h4><p>Spinal alignment, lumbar support, and sports-related back issues.</p></div>
 <div class="related-card"><h4><a href="best-mattress-side-sleepers.html">Best Mattress for Side Sleepers</a></h4><p>Shoulder and hip pressure relief for the most common teen sleep position.</p></div>
 </div>
+<ul class="related-links">
+<li><a href="/health-conditions.html">Best Mattress by Health Condition: 200+ Clinical Guides</a></li>
+<li><a href="/posts/category/life-stages.html">Life Stages</a></li>
+<li><a href="/posts/best-mattress-teenager.html">Best Mattress for Teenagers 2025 &mdash; 7 Picks for Growing Bodies, Bunk Beds &amp; Tight Budgets</a></li>
+<li><a href="/posts/best-mattress-shift-workers.html">Best Mattress for Shift Workers 2025</a></li>
+<li><a href="/posts/best-mattress-postpartum.html">Best Mattress for Postpartum Recovery 2025</a></li>
+</ul>
 
 </div>
 <footer>
-<p>&copy; 2026 SleepWise Reviews &bull; <a href="/privacy.html">Privacy Policy</a> &bull; <a href="/affiliate-disclosure.html">Affiliate Disclosure</a></p>
+<p>&copy; 2026 SleepWise Reviews &bull; <a href="/pages/privacy-policy.html">Privacy Policy</a> &bull; <a href="/pages/affiliate-disclosure.html">Affiliate Disclosure</a></p>
 <p style="margin-top:.5rem;color:#475569">We earn commissions from qualifying Amazon purchases. This does not affect our recommendations.</p>
 </footer>
 </body>

@@ -26,7 +26,7 @@ html = r"""<!DOCTYPE html>
     {
       "@type":"Article",
       "headline":"7 Best Cervical Pillows 2026",
-      "description":"Expert-tested cervical pillows for neck pain relief and spinal alignment, covering memory foam contoured options, fiber-fill orthopedic designs, and dual-sided height options for back and side sleepers.",
+      "description":"Cervical pillows for neck pain relief and spinal alignment, covering memory foam contoured options, fiber-fill orthopedic designs, and dual-sided height options for back and side sleepers.",
       "url":"https://sleepwisereviews.com/posts/best-cervical-pillow.html",
       "datePublished":"2026-05-25",
       "dateModified":"2026-05-25",

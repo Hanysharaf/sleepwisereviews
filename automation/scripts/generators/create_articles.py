@@ -322,7 +322,7 @@ ARTICLES = [
         "emoji": "💊",
         "date": "2023-04-20",
         "read_time": "8 min",
-        "excerpt": "Not all magnesium is equal for sleep. Glycinate is the gold standard, citrate causes GI issues, and oxide is barely absorbed. Here's your complete guide.",
+        "excerpt": "Not all magnesium is equal for sleep. Glycinate is the form we cover here, citrate causes GI issues, and oxide is barely absorbed. Here's your complete guide.",
         "amazon_search": "magnesium+glycinate",
         "content": """
     <h2>Why Magnesium Helps Sleep</h2>
@@ -706,7 +706,7 @@ ARTICLES = [
     <p>Your internal clock is misaligned with social demands. Delayed Sleep Phase (night owls) is most common. Treatment: light therapy, melatonin timing, gradual schedule shifts.</p>
 
     <h2>Getting Diagnosed</h2>
-    <p>A sleep study (polysomnography) is the gold standard for diagnosis. Many can now be done at home for convenience.</p>
+    <p>A sleep study (polysomnography) is the standard test for diagnosis. Many can now be done at home for convenience.</p>
 """
     },
     {
@@ -986,7 +986,7 @@ def generate_article_html(article):
 
     <div class="product-cta">
       <span class="product-cta-text">Ready to improve your sleep? Browse our recommended products</span>
-      <a class="btn-amazon" href="https://www.amazon.com/s?k={article["amazon_search"]}&tag=sleepwiserevi-20" target="_blank" rel="noopener nofollow">Shop on Amazon</a>
+      <a class="btn-amazon" href="https://www.amazon.com/s?k={article["amazon_search"]}&tag=sleepwiserevi-20" target="_blank" rel="noopener nofollow sponsored">Shop on Amazon</a>
     </div>
 
     <div class="article-cta">

@@ -175,7 +175,7 @@ footer a{color:var(--muted)}
   </div>
 
   <div class="note-box">
-    <strong>Note:</strong> Narcolepsy is a lifelong neurological condition requiring specialist management. Sleep hygiene and mattress optimization significantly improve quality of life but do not replace medication management. If you experience sudden unexplained sleepiness, cataplexy-like episodes, or hypnagogic hallucinations, consult a sleep neurologist for a multiple sleep latency test (MSLT) &mdash; the diagnostic gold standard. A mean sleep latency of &lt;8 minutes with 2+ SOREMPs confirms narcolepsy.
+    <strong>Note:</strong> Narcolepsy is a lifelong neurological condition requiring specialist management. Sleep hygiene and mattress optimization significantly improve quality of life but do not replace medication management. If you experience sudden unexplained sleepiness, cataplexy-like episodes, or hypnagogic hallucinations, consult a sleep neurologist for a multiple sleep latency test (MSLT) &mdash; the standard diagnostic test. A mean sleep latency of &lt;8 minutes with 2+ SOREMPs confirms narcolepsy.
   </div>
 </div>
 
@@ -348,7 +348,7 @@ footer a{color:var(--muted)}
 </div>
 
 <footer>
-  <p>&copy; 2026 SleepWiseReviews &mdash; <a href="/privacy.html">Privacy Policy</a> &bull; <a href="/disclaimer.html">Affiliate Disclaimer</a></p>
+  <p>&copy; 2026 SleepWiseReviews &mdash; <a href="/pages/privacy-policy.html">Privacy Policy</a> &bull; <a href="/pages/affiliate-disclosure.html">Affiliate Disclaimer</a></p>
   <p style="margin-top:8px;font-size:.78rem">SleepWiseReviews participates in the Amazon Associates program. We earn commissions on qualifying purchases at no extra cost to you.</p>
 </footer>
 </body>

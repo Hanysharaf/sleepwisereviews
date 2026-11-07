@@ -25,7 +25,7 @@ html = '''<!DOCTYPE html>
       {
         "@type": "Article",
         "headline": "Best Percale Sheets (2026): Crisp, Cool & Breathable",
-        "description": "Expert-tested percale cotton sheet sets reviewed for true thread count, breathability, and durability. Best picks for hot sleepers.",
+        "description": "Percale cotton sheet sets reviewed for true thread count, breathability, and durability. Best picks for hot sleepers.",
         "author": {"@type": "Organization", "name": "SleepWise Reviews"},
         "publisher": {"@type": "Organization", "name": "SleepWise Reviews"},
         "datePublished": "2026-05-25",
@@ -155,7 +155,7 @@ html = '''<!DOCTYPE html>
 
 <div class="hero">
   <h1>Best Percale Sheets (2026)</h1>
-  <p class="sub">Crisp, cool, and breathable — percale cotton is the gold standard for hot sleepers and anyone who prefers that fresh hotel-linen feel. 7 expert-tested sets from budget to luxury.</p>
+  <p class="sub">Crisp, cool, and breathable — percale cotton is one option for hot sleepers and anyone who prefers that fresh hotel-linen feel. 7 sets from budget to luxury.</p>
   <div class="badge-row">
     <span class="badge">7 Sheet Sets Reviewed</span>
     <span class="badge">Updated May 2026</span>
@@ -522,7 +522,7 @@ html = '''<!DOCTYPE html>
 </div>
 
 <footer>
-  <p>&copy; 2026 SleepWise Reviews &mdash; <a href="/privacy.html">Privacy Policy</a> &middot; <a href="/disclaimer.html">Disclaimer</a></p>
+  <p>&copy; 2026 SleepWise Reviews &mdash; <a href="/pages/privacy-policy.html">Privacy Policy</a> &middot; <a href="/pages/affiliate-disclosure.html">Disclaimer</a></p>
   <p style="margin-top:8px">Amazon affiliate links: as an Amazon Associate we earn from qualifying purchases.</p>
 </footer>
 </body>

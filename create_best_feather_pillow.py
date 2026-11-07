@@ -7,7 +7,7 @@ html = '''<!DOCTYPE html>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Best Feather Pillows (2026): Soft, Moldable & Long-Lasting | SleepWise Reviews</title>
-  <meta name="description" content="The best feather pillows for 2026 — from pure feather to feather-down blends. 7 expert-tested picks for stomach sleepers, soft-preference sleepers, and hotel-quality comfort at home.">
+  <meta name="description" content="The best feather pillows for 2026 — from pure feather to feather-down blends. 7 picks for stomach sleepers, soft-preference sleepers, and hotel-quality comfort at home.">
   <meta name="keywords" content="best feather pillow, feather down pillow review, soft feather pillow, hotel feather pillow, best feather pillow for stomach sleepers">
   <link rel="canonical" href="https://sleepwisereviews.com/posts/best-feather-pillow.html">
   <meta property="og:title" content="Best Feather Pillows (2026)">
@@ -25,7 +25,7 @@ html = '''<!DOCTYPE html>
       {
         "@type": "Article",
         "headline": "Best Feather Pillows (2026): Soft, Moldable & Long-Lasting",
-        "description": "Expert-tested feather pillows — from pure feather to blended down options — reviewed for softness, durability, and fill quality.",
+        "description": "Feather pillows — from pure feather to blended down options — reviewed for softness, durability, and fill quality.",
         "author": {"@type": "Organization", "name": "SleepWise Reviews"},
         "publisher": {"@type": "Organization", "name": "SleepWise Reviews"},
         "datePublished": "2026-05-25",
@@ -155,7 +155,7 @@ html = '''<!DOCTYPE html>
 
 <div class="hero">
   <h1>Best Feather Pillows (2026)</h1>
-  <p class="sub">The soft, moldable, hotel-quality pillow experience — from pure feather to feather-down blends. 7 expert-tested picks for stomach sleepers, back sleepers, and soft-preference sleepers.</p>
+  <p class="sub">The soft, moldable, hotel-quality pillow experience — from pure feather to feather-down blends. 7 picks for stomach sleepers, back sleepers, and soft-preference sleepers.</p>
   <div class="badge-row">
     <span class="badge">7 Pillows Reviewed</span>
     <span class="badge">Updated May 2026</span>
@@ -528,7 +528,7 @@ html = '''<!DOCTYPE html>
 </div>
 
 <footer>
-  <p>&copy; 2026 SleepWise Reviews &mdash; <a href="/privacy.html">Privacy Policy</a> &middot; <a href="/disclaimer.html">Disclaimer</a></p>
+  <p>&copy; 2026 SleepWise Reviews &mdash; <a href="/pages/privacy-policy.html">Privacy Policy</a> &middot; <a href="/pages/affiliate-disclosure.html">Disclaimer</a></p>
   <p style="margin-top:8px">Amazon affiliate links: as an Amazon Associate we earn from qualifying purchases.</p>
 </footer>
 </body>

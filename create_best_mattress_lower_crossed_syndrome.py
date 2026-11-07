@@ -360,6 +360,13 @@ html = f"""<!DOCTYPE html>
     <a href="best-mattress-anterior-pelvic-tilt.html">Best Mattress for Anterior Pelvic Tilt</a>
     <a href="best-mattress-scoliosis.html">Best Mattress for Scoliosis</a>
   </div>
+<ul class="related-links">
+<li><a href="/health-conditions.html">Best Mattress by Health Condition: 200+ Clinical Guides</a></li>
+<li><a href="/posts/category/health-conditions.html">Health Conditions</a></li>
+<li><a href="/posts/best-mattress-lower-back-pain-side-sleepers.html">Best Mattress for Lower Back Pain Side Sleepers 2025 — 7 Top Picks</a></li>
+<li><a href="/posts/best-mattress-stomach-sleepers-lower-back-pain.html">Best Mattress for Stomach Sleepers with Lower Back Pain (2026): 7 Firm Picks</a></li>
+<li><a href="/posts/best-mattress-kleine-levin-syndrome.html">Best Mattress for Kleine-Levin Syndrome</a></li>
+</ul>
 </div>
 <footer>
   <p>&copy; 2026 SleepWiseReviews. All rights reserved.</p>

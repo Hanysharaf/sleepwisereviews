@@ -9,7 +9,7 @@ html = """<!DOCTYPE html>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Best Mattress for PCOS (2026): 7 Picks for Hormonal Sleep Disruption</title>
-<meta name="description" content="PCOS disrupts sleep through hormonal imbalance, insulin resistance, night sweats, and a 3x higher risk of sleep apnea. 7 expert-tested mattresses for PCOS-specific cooling, pressure relief, and OSA compatibility.">
+<meta name="description" content="PCOS disrupts sleep through hormonal imbalance, insulin resistance, night sweats, and a 3x higher risk of sleep apnea. 7 mattresses for PCOS-specific cooling, pressure relief, and OSA compatibility.">
 <meta property="og:title" content="Best Mattress for PCOS (2026): 7 Picks for Hormonal Sleep Disruption">
 <meta property="og:description" content="7 expert picks for PCOS sleep challenges — hormonal night sweats, insulin resistance sleep link, sleep apnea comorbidity (3x risk), and circadian disruption management.">
 <meta property="og:type" content="article">
@@ -439,7 +439,7 @@ footer{background:#060e1d;border-top:1px solid var(--border);padding:24px;text-a
 
 </div>
 <footer>
-  <p>&copy; 2026 SleepWise Reviews &mdash; <a href="../privacy.html">Privacy Policy</a> &mdash; <a href="../affiliate-disclosure.html">Affiliate Disclosure</a></p>
+  <p>&copy; 2026 SleepWise Reviews &mdash; <a href="../pages/privacy-policy.html">Privacy Policy</a> &mdash; <a href="../pages/affiliate-disclosure.html">Affiliate Disclosure</a></p>
   <p style="margin-top:8px">SleepWise Reviews participates in affiliate programs. We may earn a commission at no extra cost to you.</p>
 </footer>
 </body>

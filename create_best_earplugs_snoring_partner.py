@@ -26,7 +26,7 @@ html = r"""<!DOCTYPE html>
     {
       "@type":"Article",
       "headline":"7 Best Earplugs for Snoring Partner 2026",
-      "description":"Expert-tested earplugs for blocking snoring sounds covering NRR rating, low-frequency attenuation for snore frequencies, all-night comfort, and wearability for side sleepers.",
+      "description":"Earplugs for blocking snoring sounds covering NRR rating, low-frequency attenuation for snore frequencies, all-night comfort, and wearability for side sleepers.",
       "url":"https://sleepwisereviews.com/posts/best-earplugs-snoring-partner.html",
       "datePublished":"2026-05-25",
       "dateModified":"2026-05-25",
@@ -404,6 +404,7 @@ footer{background:var(--card);border-top:1px solid var(--border);padding:2rem;te
       </ul>
     </div>
   </div>
+  <p class="discontinued-note" style="font-size:.85rem;color:#555;margin-top:.5rem"><em>Bose discontinued the Sleepbuds in 2023 (source: <a href="https://support.bose.co.uk/article/sleepbuds-ii-sleep-app-availability">Bose support</a>).</em></p>
   <a class="buy-btn" href="https://www.amazon.com/s?k=Bose+Sleepbuds+II&tag=sleepwiserevi-20" rel="nofollow noopener noreferrer" target="_blank">Check Price on Amazon &rarr;</a>
 </div>
 

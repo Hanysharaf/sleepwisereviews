@@ -207,7 +207,7 @@ footer a{color:var(--muted)}
     <div class="pick-num">#2</div>
     <h3>Tempur-Pedic TEMPUR-breeze</h3>
     <span class="pick-tag">Best Cooling for MS and Heat-Sensitive Spasticity</span>
-    <p>The TEMPUR-breeze is the gold standard for MS patients whose spasticity is temperature-sensitive. The breeze line uses phase change material in the cover plus ventilated TEMPUR foam to actively pull heat away from the body surface &mdash; reducing sleep surface temperature by up to 3&deg;F (1.7&deg;C) versus standard memory foam. For MS patients experiencing Uhthoff\'s phenomenon at night, this temperature reduction is clinically meaningful: it protects conduction in demyelinated axons and reduces the frequency and severity of nocturnal spasms. The slow-recovery TEMPUR foam also yields fully to spastic limb movements without creating resistance, and its extreme motion isolation prevents partner movement from reaching the sleeping surface as a spasm trigger.</p>
+    <p>The TEMPUR-breeze is one option for MS patients whose spasticity is temperature-sensitive. The breeze line uses phase change material in the cover plus ventilated TEMPUR foam to actively pull heat away from the body surface &mdash; reducing sleep surface temperature by up to 3&deg;F (1.7&deg;C) versus standard memory foam. For MS patients experiencing Uhthoff\'s phenomenon at night, this temperature reduction is clinically meaningful: it protects conduction in demyelinated axons and reduces the frequency and severity of nocturnal spasms. The slow-recovery TEMPUR foam also yields fully to spastic limb movements without creating resistance, and its extreme motion isolation prevents partner movement from reaching the sleeping surface as a spasm trigger.</p>
     <div class="clinical">
       <strong>Clinical rationale:</strong> Uhthoff\'s phenomenon (heat-induced conduction block in MS) requires a mattress that actively manages surface temperature, not just avoids trapping heat. Phase change material in the breeze cover absorbs latent heat during temperature rise and releases it as temperature falls &mdash; buffering the sleep surface against the 1&ndash;2&deg;C rise that occurs during normal sleep. Slow-recovery foam allows spastic movements to complete without resistance while providing complete motion isolation. This is the highest-specification option for MS-specific nocturnal spasticity management.
     </div>
@@ -459,7 +459,7 @@ footer a{color:var(--muted)}
 </div>
 
 <footer>
-  <p>&copy; 2026 SleepWiseReviews &bull; <a href="/privacy.html">Privacy</a> &bull; <a href="/disclaimer.html">Affiliate Disclaimer</a></p>
+  <p>&copy; 2026 SleepWiseReviews &bull; <a href="/pages/privacy-policy.html">Privacy</a> &bull; <a href="/pages/affiliate-disclosure.html">Affiliate Disclaimer</a></p>
   <p style="margin-top:8px">SleepWiseReviews participates in the Amazon Services LLC Associates Program. As an Amazon Associate we earn from qualifying purchases.</p>
 </footer>
 </body>

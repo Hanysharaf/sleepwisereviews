@@ -16,7 +16,7 @@ PRODUCTS = [
         "badge": "Best Overall",
         "price": "~$90",
         "key": "22-momme pure mulberry silk, OEKO-TEX certified, hidden zipper, 6 colors",
-        "pros": "Industry gold standard — dermatologist and hairstylist recommended; OEKO-TEX certified; hidden zipper keeps silk smooth against skin; wide color range",
+        "pros": "OEKO-TEX certified; hidden zipper keeps silk smooth against skin; wide color range",
         "cons": "Premium price; hand wash or dry clean recommended for longest lifespan",
         "link": f"https://www.amazon.com/s?k=slip+pure+silk+pillowcase+22+momme&tag={TAG}",
         "schema_name": "Slip Pure Silk Pillowcase 22 Momme OEKO-TEX",
@@ -329,7 +329,7 @@ html = f'''<!DOCTYPE html>
 
 <footer>
   <div class="container">
-    <p>SleepWise Reviews &copy; 2026 &mdash; <a href="../about.html">About</a> | <a href="../privacy.html">Privacy</a> | <a href="../affiliate-disclosure.html">Affiliate Disclosure</a></p>
+    <p>SleepWise Reviews &copy; 2026 &mdash; <a href="../pages/about.html">About</a> | <a href="../pages/privacy-policy.html">Privacy</a> | <a href="../pages/affiliate-disclosure.html">Affiliate Disclosure</a></p>
     <p style="margin-top:8px">As an Amazon Associate we earn from qualifying purchases.</p>
   </div>
 </footer>

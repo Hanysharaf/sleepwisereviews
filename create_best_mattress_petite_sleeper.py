@@ -317,13 +317,18 @@ html = """<!DOCTYPE html>
         <li><a href="best-mattress-pressure-relief.html" style="color:#93c5fd;text-decoration:none;font-size:.95rem;">Best Mattress for Pressure Relief</a></li>
         <li><a href="best-mattress-couples.html" style="color:#93c5fd;text-decoration:none;font-size:.95rem;">Best Mattress for Couples</a></li>
         <li><a href="best-mattress-back-pain.html" style="color:#93c5fd;text-decoration:none;font-size:.95rem;">Best Mattress for Back Pain</a></li>
+        <li><a href="/health-conditions.html" style="color:#93c5fd;text-decoration:none;font-size:.95rem;">Best Mattress by Health Condition: 200+ Clinical Guides</a></li>
+        <li><a href="/posts/category/life-stages.html" style="color:#93c5fd;text-decoration:none;font-size:.95rem;">Life Stages</a></li>
+        <li><a href="/posts/best-mattress-heavy-side-sleepers.html" style="color:#93c5fd;text-decoration:none;font-size:.95rem;">Best Mattress for Heavy Side Sleepers 2025 — 7 Top Picks for 230+ lbs</a></li>
+        <li><a href="/posts/best-mattress-heavy-sleepers.html" style="color:#93c5fd;text-decoration:none;font-size:.95rem;">Best Mattress for Heavy Sleepers 2026 — Top 7 Picks for 250+ lbs</a></li>
+        <li><a href="/posts/best-mattress-trundle-bed.html" style="color:#93c5fd;text-decoration:none;font-size:.95rem;">Best Mattress for Trundle Beds 2026 &mdash; 7 Expert Picks</a></li>
       </ul>
     </div>
   </section>
 </div>
 
 <footer>
-  <p>&copy; 2026 SleepWise Reviews &mdash; <a href="/privacy.html">Privacy Policy</a> &mdash; <a href="/about.html">About</a></p>
+  <p>&copy; 2026 SleepWise Reviews &mdash; <a href="/pages/privacy-policy.html">Privacy Policy</a> &mdash; <a href="/pages/about.html">About</a></p>
   <p style="margin-top:8px;font-size:.78rem;">Amazon Associates Disclosure: As an Amazon Associate we earn from qualifying purchases.</p>
 </footer>
 </body>

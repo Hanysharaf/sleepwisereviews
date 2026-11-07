@@ -4,14 +4,14 @@ content = '''<!DOCTYPE html>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Best Mattress for Chronic Pain 2026 | Central Sensitization, Sleep-Pain Cycle &amp; Opioid Insomnia</title>
-<meta name="description" content="7 expert-tested mattresses for chronic pain. Science-backed picks for central sensitization, pain catastrophizing, the sleep-pain cycle, opioid-induced insomnia, and widespread allodynia.">
+<meta name="description" content="7 mattresses for chronic pain. Science-backed picks for central sensitization, pain catastrophizing, the sleep-pain cycle, opioid-induced insomnia, and widespread allodynia.">
 <link rel="canonical" href="https://sleepwisereviews.com/posts/best-mattress-chronic-pain.html">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Article",
   "headline": "Best Mattress for Chronic Pain 2026",
-  "description": "Expert-tested mattress picks for chronic pain: central sensitization, sleep-pain cycle, opioid-induced insomnia, widespread allodynia, and pain catastrophizing.",
+  "description": "Mattress picks for chronic pain: central sensitization, sleep-pain cycle, opioid-induced insomnia, widespread allodynia, and pain catastrophizing.",
   "author": {"@type": "Organization", "name": "SleepWise Reviews"},
   "publisher": {"@type": "Organization", "name": "SleepWise Reviews", "url": "https://sleepwisereviews.com"},
   "datePublished": "2026-05-26",
@@ -147,7 +147,7 @@ footer{background:#060e1d;border-top:1px solid #1e3a5f;padding:2rem;text-align:c
 <div class="hero">
   <span class="cat-badge">Health Conditions</span>
   <h1>Best Mattress for Chronic Pain 2026</h1>
-  <p class="hero-sub">7 expert-tested picks for central sensitization, the sleep-pain cycle, opioid-induced insomnia, widespread allodynia, and pain catastrophizing &mdash; a comprehensive guide for all chronic pain types.</p>
+  <p class="hero-sub">7 picks for central sensitization, the sleep-pain cycle, opioid-induced insomnia, widespread allodynia, and pain catastrophizing &mdash; a comprehensive guide for all chronic pain types.</p>
   <p class="last-updated">Updated May 2026 &mdash; 7 picks reviewed</p>
 </div>
 
@@ -456,7 +456,7 @@ footer{background:#060e1d;border-top:1px solid #1e3a5f;padding:2rem;text-align:c
 </div>
 
 <footer>
-  <p>&copy; 2026 SleepWise Reviews &mdash; <a href="../privacy.html">Privacy Policy</a> &mdash; <a href="../about.html">About</a></p>
+  <p>&copy; 2026 SleepWise Reviews &mdash; <a href="../pages/privacy-policy.html">Privacy Policy</a> &mdash; <a href="../pages/about.html">About</a></p>
   <p style="margin-top:.5rem;font-size:.8rem">As an Amazon Associate we earn from qualifying purchases. All recommendations are independent.</p>
 </footer>
 </body>

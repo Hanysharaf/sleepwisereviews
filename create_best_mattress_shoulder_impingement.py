@@ -218,7 +218,7 @@ html = f"""<!DOCTYPE html>
       <div class="pick-name">Saatva Classic + Adjustable Base <span class="pick-tag">Best Back-Sleep Promotion for Impingement</span></div>
     </div>
     <div class="si-key">Impingement key: Motorized head elevation promotes back sleeping &mdash; the only position that reliably widens the acromiohumeral interval; removes the compressive load from the supraspinatus tendon and bursa simultaneously across the entire night.</div>
-    <p class="pick-why">Back sleeping with slight head elevation (15&ndash;20&deg;) is the gold-standard position for shoulder impingement: the acromiohumeral interval widens by 2&ndash;4&nbsp;mm, supraspinatus tendon ischemia reverses, and bursal inflammation has the opportunity to resolve overnight. The Saatva Classic paired with an adjustable base makes this practical: the motorized elevation naturally prevents the lateral drift that occurs when patients attempt back sleeping on flat surfaces. The Saatva's Euro pillow top provides cushioning at the scapulae and upper back contact points so back sleeping remains comfortable throughout the night, not just initially. The Lumbar Zone&reg; coil support system maintains thoracolumbar neutral even as the head elevation changes, preventing the compensatory arching that sends patients back to their habitual side-sleeping position within 30 minutes.</p>
+    <p class="pick-why">Back sleeping with slight head elevation (15&ndash;20&deg;) is a standard position for shoulder impingement: the acromiohumeral interval widens by 2&ndash;4&nbsp;mm, supraspinatus tendon ischemia reverses, and bursal inflammation has the opportunity to resolve overnight. The Saatva Classic paired with an adjustable base makes this practical: the motorized elevation naturally prevents the lateral drift that occurs when patients attempt back sleeping on flat surfaces. The Saatva's Euro pillow top provides cushioning at the scapulae and upper back contact points so back sleeping remains comfortable throughout the night, not just initially. The Lumbar Zone&reg; coil support system maintains thoracolumbar neutral even as the head elevation changes, preventing the compensatory arching that sends patients back to their habitual side-sleeping position within 30 minutes.</p>
     <div class="pick-specs">
       <span class="spec">Back-sleep promotion: motorized elevation</span>
       <span class="spec">Acromiohumeral decompression: maximum</span>
@@ -361,7 +361,7 @@ html = f"""<!DOCTYPE html>
   </div>
 </div>
 <footer>
-  <p>&copy; 2026 SleepWiseReviews &mdash; <a href="/about.html">About</a> &middot; <a href="/contact.html">Contact</a> &middot; <a href="/privacy.html">Privacy Policy</a></p>
+  <p>&copy; 2026 SleepWiseReviews &mdash; <a href="/pages/about.html">About</a> &middot; <a href="/pages/privacy-policy.html">Privacy Policy</a></p>
   <p style="margin-top:.5rem;font-size:.8rem">As an Amazon Associate we earn from qualifying purchases. All recommendations are independent &mdash; affiliate links never influence our picks.</p>
 </footer>
 </body>

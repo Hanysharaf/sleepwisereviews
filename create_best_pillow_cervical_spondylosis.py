@@ -1,7 +1,7 @@
 """Generate posts/best-pillow-for-cervical-spondylosis.html"""
 slug = 'best-pillow-for-cervical-spondylosis'
 title = 'Best Pillows for Cervical Spondylosis (2026): Orthopedic Picks for Neck Relief'
-description = 'Top orthopedic pillows for cervical spondylosis that support the natural cervical curve, reduce morning stiffness, and relieve radiating pain. Expert-tested picks.'
+description = 'Top orthopedic pillows for cervical spondylosis that support the natural cervical curve, reduce morning stiffness, and relieve radiating pain. Reviewed picks.'
 
 html = f'''<!DOCTYPE html>
 <html lang="en">
@@ -273,7 +273,7 @@ html = f'''<!DOCTYPE html>
     <div class="science-box">
       <h3>The Cervical Lordosis Connection</h3>
       <p>A healthy cervical spine has a natural forward curve (lordosis) of 20-40 degrees. Cervical spondylosis flattens or reverses this curve over time, narrowing the spaces where nerve roots exit. Sleeping with a flattened cervical curve accelerates disc compression and increases osteophyte irritation.</p>
-      <p>The goal of a cervical pillow is to maintain this curve in the neutral position while you sleep — not exaggerate it (hyper-extension causes pain) and not flatten it (nerve compression). Contoured pillows with a raised neck support and head hollow achieve this better than flat pillows in most studies. Back sleeping is the gold standard position — side sleeping is acceptable with proper loft matching your shoulder width.</p>
+      <p>The goal of a cervical pillow is to maintain this curve in the neutral position while you sleep — not exaggerate it (hyper-extension causes pain) and not flatten it (nerve compression). Contoured pillows with a raised neck support and head hollow achieve this better than flat pillows in most studies. Back sleeping is one position — side sleeping is acceptable with proper loft matching your shoulder width.</p>
     </div>
 
     <!-- Product 4 -->

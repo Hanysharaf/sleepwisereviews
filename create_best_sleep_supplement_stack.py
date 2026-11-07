@@ -233,7 +233,7 @@ html = f"""<!DOCTYPE html>
         <span class="badge">Foundation Pick</span>
       </div>
       <h3>Pure Encapsulations Magnesium Glycinate</h3>
-      <p>The gold standard magnesium glycinate supplement: bisglycinate chelate form (highest bioavailability), no magnesium oxide filler, free from common allergens, and NSF-certified. Magnesium glycinate is the preferred form for sleep because glycine itself is calming and the chelated form avoids the laxative effect of magnesium citrate or oxide at sleep-supporting doses.</p>
+      <p>A magnesium glycinate supplement: bisglycinate chelate form (highest bioavailability), no magnesium oxide filler, free from common allergens, and NSF-certified. Magnesium glycinate is the preferred form for sleep because glycine itself is calming and the chelated form avoids the laxative effect of magnesium citrate or oxide at sleep-supporting doses.</p>
       <div class="specs-grid">
         <div class="spec"><strong>Form</strong>Bisglycinate chelate</div>
         <div class="spec"><strong>Dose Per Capsule</strong>120mg elemental Mg</div>
@@ -448,7 +448,7 @@ html = f"""<!DOCTYPE html>
     </div>
   </main>
   <footer>
-    <p>&copy; 2025&ndash;2026 <a href="../">SleepWise Reviews</a> &middot; Evidence-based sleep guidance &middot; <a href="../privacy.html">Privacy</a></p>
+    <p>&copy; 2025&ndash;2026 <a href="../">SleepWise Reviews</a> &middot; Evidence-based sleep guidance &middot; <a href="../pages/privacy-policy.html">Privacy</a></p>
   </footer>
 </body>
 </html>"""

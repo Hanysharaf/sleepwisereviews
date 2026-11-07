@@ -370,7 +370,7 @@ footer .disclaimer{max-width:700px;margin:.75rem auto 0;line-height:1.6}
 
 <footer>
   <div class="container">
-    <p><a href="/">SleepWise Reviews</a> &mdash; <a href="/about.html">About</a> &mdash; <a href="/contact.html">Contact</a></p>
+    <p><a href="/">SleepWise Reviews</a> &mdash; <a href="/pages/about.html">About</a></p>
     <p class="disclaimer">As an Amazon Associate we earn from qualifying purchases. Affiliate links are marked. Reviews are independent &mdash; brands do not pay for placement.</p>
   </div>
 </footer>

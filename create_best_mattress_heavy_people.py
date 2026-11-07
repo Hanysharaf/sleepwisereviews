@@ -176,7 +176,7 @@ html = f'''<!DOCTYPE html>
         <span class="spec-chip">Up to 500 lbs capacity</span>
       </div>
       <p>WinkBed built the Plus model specifically for heavier sleepers — not as a variant of their standard mattress but as an engineered-for-purpose design. The Plus features a firmer lumbar coil zone (denser gauge wire) to prevent the hammocking that heavier sleepers experience on standard mattresses, paired with a softer shoulder zone that still allows pressure relief. The Euro pillow top absorbs surface pressure without excessive sinkage.</p>
-      <p>The lifetime warranty and 120-night sleep trial represent genuine confidence in the durability. Made in the USA with a Tencel moisture-wicking cover. Validated for sleepers up to approximately 500 lbs. The gold standard in this category.</p>
+      <p>The lifetime warranty and 120-night sleep trial represent genuine confidence in the durability. Made in the USA with a Tencel moisture-wicking cover. Validated for sleepers up to approximately 500 lbs. One option in this category.</p>
       <div class="pros-cons">
         <div class="pros">
           <h4>Pros</h4>
@@ -457,7 +457,15 @@ html = f'''<!DOCTYPE html>
       <h3>Is memory foam or innerspring better for heavy people?</h3>
       <p>Neither alone — hybrid mattresses outperform both for heavy sleepers. Standard memory foam compresses excessively under higher weight, losing support. Traditional innersprings lack adequate comfort layers. Hybrids with reinforced coil systems and appropriate foam thickness and density deliver the best combination of support durability and comfort.</p>
     </div>
-  </main>
+  <h2 class="section-title">Related Guides</h2>
+<ul class="related-links">
+<li><a href="/health-conditions.html">Best Mattress by Health Condition: 200+ Clinical Guides</a></li>
+<li><a href="/posts/category/mattresses-bedding.html">Mattresses &amp; Bedding</a></li>
+<li><a href="/posts/best-mattress-for-seniors.html">Best Mattresses for Seniors (2026): Arthritis Relief, Easy Entry & Long-Term Support</a></li>
+<li><a href="/posts/best-mattress-topper-memory-foam.html">Best Memory Foam Mattress Toppers 2025 - Pressure Relief</a></li>
+<li><a href="/posts/best-mattress-patellofemoral-syndrome.html">Best Mattress for Patellofemoral Syndrome (2026)</a></li>
+</ul>
+</main>
   <footer>
     <p>&copy; 2025-2026 <a href="../">SleepWise Reviews</a> &middot; Evidence-based sleep guidance &middot; <a href="../posts/">All Guides</a></p>
   </footer>

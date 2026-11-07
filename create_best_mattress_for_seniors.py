@@ -455,7 +455,15 @@ html = f'''<!DOCTYPE html>
       <h3>Is a firm or soft mattress better for arthritis?</h3>
       <p>Medium firmness (5-6 out of 10) generally works best for arthritis. Too firm compresses arthritic joints and increases morning stiffness. Too soft causes sagging that misaligns the spine and hips, aggravating hip and back arthritis. Medium provides the pressure relief joints need while maintaining the support structure that prevents prolonged misalignment.</p>
     </div>
-  </main>
+  <h2 class="section-title">Related Guides</h2>
+<ul class="related-links">
+<li><a href="/health-conditions.html">Best Mattress by Health Condition: 200+ Clinical Guides</a></li>
+<li><a href="/posts/category/life-stages.html">Life Stages</a></li>
+<li><a href="/posts/best-mattress-reactive-arthritis.html">Best Mattress for Reactive Arthritis</a></li>
+<li><a href="/posts/best-mattress-knee-pain.html">Best Mattress for Knee Pain (2026)</a></li>
+<li><a href="/posts/best-mattress-psoriatic-arthritis.html">Best Mattress for Psoriatic Arthritis (2026)</a></li>
+</ul>
+</main>
   <footer>
     <p>&copy; 2025-2026 <a href="../">SleepWise Reviews</a> &middot; Evidence-based sleep guidance &middot; <a href="../posts/">All Guides</a></p>
   </footer>

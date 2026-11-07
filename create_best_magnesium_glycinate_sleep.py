@@ -178,7 +178,7 @@ html = '''<!DOCTYPE html>
     <ol>
       <li><a href="#thorne">Thorne Magnesium Bisglycinate — Best Overall</a></li>
       <li><a href="#pure">Pure Encapsulations — Best for Sensitive Stomachs</a></li>
-      <li><a href="#klaire">Klaire Labs — Best Clinical Grade</a></li>
+      <li><a href="#klaire">Klaire Labs — Our Pick</a></li>
       <li><a href="#doctors">Doctor's Best — Best Value Capsule</a></li>
       <li><a href="#natural">Natural Vitality Calm — Best Powder</a></li>
       <li><a href="#jigsaw">Jigsaw MagSRT — Best Sustained Release</a></li>
@@ -197,7 +197,7 @@ html = '''<!DOCTYPE html>
         <span>NSF Certified for Sport, no fillers, clean label</span>
       </h2>
     </div>
-    <p>Thorne is the gold standard in professional-grade supplements. Their magnesium bisglycinate is NSF Certified for Sport — meaning it's third-party tested for banned substances, heavy metals, and label accuracy. The powder form dissolves cleanly with no chalky residue, and Thorne uses no unnecessary excipients, binders, or fillers that could interfere with absorption. The glycinate form provides both the elemental magnesium and glycine amino acid, both of which have independent sleep-supporting mechanisms. Used by Olympic athletes and functional medicine practitioners.</p>
+    <p>Thorne is one option in professional-grade supplements. Their magnesium bisglycinate is NSF Certified for Sport — meaning it's third-party tested for banned substances, heavy metals, and label accuracy. The powder form dissolves cleanly with no chalky residue, and Thorne uses no unnecessary excipients, binders, or fillers that could interfere with absorption. The glycinate form provides both the elemental magnesium and glycine amino acid, both of which have independent sleep-supporting mechanisms. Used by Olympic athletes and functional medicine practitioners.</p>
     <div class="specs-row">
       <span class="spec-chip"><strong>Form:</strong> Powder</span>
       <span class="spec-chip"><strong>Elemental Mg per serving:</strong> 200mg</span>
@@ -269,7 +269,7 @@ html = '''<!DOCTYPE html>
   <!-- PRODUCT 3 -->
   <div class="product-card" id="klaire">
     <div class="product-header">
-      <span class="rank">#3 Best Clinical Grade</span>
+      <span class="rank">#3 Our Pick</span>
       <h2>Klaire Labs Magnesium Glycinate Complex
         <span>Professional dispensing brand with verified elemental content</span>
       </h2>
@@ -530,7 +530,7 @@ html = '''<!DOCTYPE html>
 </div>
 
 <footer>
-  <p>&copy; 2026 SleepWise Reviews &mdash; <a href="/privacy.html">Privacy Policy</a> &middot; <a href="/disclaimer.html">Disclaimer</a></p>
+  <p>&copy; 2026 SleepWise Reviews &mdash; <a href="/pages/privacy-policy.html">Privacy Policy</a> &middot; <a href="/pages/affiliate-disclosure.html">Disclaimer</a></p>
   <p style="margin-top:8px">Amazon affiliate links: as an Amazon Associate we earn from qualifying purchases.</p>
 </footer>
 </body>

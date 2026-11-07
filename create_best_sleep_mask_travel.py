@@ -26,7 +26,7 @@ html = r"""<!DOCTYPE html>
     {
       "@type":"Article",
       "headline":"7 Best Sleep Masks for Travel 2026",
-      "description":"Expert-tested travel sleep masks covering blackout performance, comfort on long flights, and packability for frequent travelers.",
+      "description":"Travel sleep masks covering blackout performance, comfort on long flights, and packability for frequent travelers.",
       "url":"https://sleepwisereviews.com/posts/best-sleep-mask-travel.html",
       "datePublished":"2026-05-25",
       "dateModified":"2026-05-25",

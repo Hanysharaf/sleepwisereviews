@@ -360,6 +360,13 @@ html = f"""<!DOCTYPE html>
     <a href="best-mattress-side-sleepers.html">Best Mattress for Side Sleepers</a>
     <a href="best-mattress-back-pain.html">Best Mattress for Back Pain</a>
   </div>
+<ul class="related-links">
+<li><a href="/health-conditions.html">Best Mattress by Health Condition: 200+ Clinical Guides</a></li>
+<li><a href="/posts/category/health-conditions.html">Health Conditions</a></li>
+<li><a href="/posts/best-mattress-restless-sleeper.html">Best Mattress for Restless Sleepers 2025 — Motion Isolation &amp; Partner-Friendly Picks</a></li>
+<li><a href="/posts/best-mattress-night-terrors.html">Best Mattress for Night Terrors (Sleep Terror Disorder) 2026</a></li>
+<li><a href="/posts/best-mattress-shift-workers.html">Best Mattress for Shift Workers 2025</a></li>
+</ul>
 </div>
 <footer>
   <p>&copy; 2026 SleepWiseReviews. All rights reserved.</p>

@@ -26,7 +26,7 @@ html = r"""<!DOCTYPE html>
     {
       "@type":"Article",
       "headline":"7 Best Wedge Pillows for Acid Reflux 2026",
-      "description":"Expert-tested wedge pillows for acid reflux and GERD relief, covering optimal elevation angles, foam quality, and comfort for side and back sleepers.",
+      "description":"Wedge pillows for acid reflux and GERD relief, covering optimal elevation angles, foam quality, and comfort for side and back sleepers.",
       "url":"https://sleepwisereviews.com/posts/best-wedge-pillow-acid-reflux.html",
       "datePublished":"2026-05-25",
       "dateModified":"2026-05-25",

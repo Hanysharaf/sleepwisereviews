@@ -16,7 +16,7 @@ products = [
         "key_spec": "200mg elemental magnesium, bisglycinate chelate, NSF Certified",
         "pros": ["NSF for Sport certified — third-party tested", "Bisglycinate is one of the most bioavailable forms", "Gentle on digestive system", "No unnecessary fillers", "Trusted clinical-grade brand"],
         "cons": ["Higher price per serving than mass-market brands", "200mg elemental dose — may need 2 capsules for clinical doses"],
-        "why": "Thorne is the gold standard for supplement quality — their products are NSF Certified for Sport, meaning every batch is third-party tested for purity and label accuracy. Bisglycinate is the best-studied form for sleep and anxiety because glycine itself is a calming neurotransmitter that adds synergistic benefit to the magnesium.",
+        "why": "Thorne is a supplement brand — their products are NSF Certified for Sport, meaning every batch is third-party tested for purity and label accuracy. Bisglycinate is the best-studied form for sleep and anxiety because glycine itself is a calming neurotransmitter that adds synergistic benefit to the magnesium.",
         "search": "Thorne+Magnesium+Bisglycinate+Sleep"
     },
     {
@@ -36,7 +36,7 @@ products = [
         "badge": "Best Clean Formula",
         "price": "$26–$38",
         "key_spec": "120mg elemental per capsule, hypoallergenic, no unnecessary additives",
-        "pros": ["Hypoallergenic formula — no common allergens, artificial colors, or flavors", "Pure Encapsulations has pharmaceutical-grade manufacturing standards", "Good elemental dose per capsule", "Vegetarian capsule", "Extensively used in clinical settings"],
+        "pros": ["Hypoallergenic formula — no common allergens, artificial colors, or flavors", "Pure Encapsulations has pharmaceutical-grade manufacturing standards", "Good elemental dose per capsule", "Vegetarian capsule"],
         "cons": ["Premium price", "Conservative formulation — no synergistic additions like B6 or glycine"],
         "why": "Pure Encapsulations is the supplement brand most commonly found in doctors' offices and functional medicine clinics for a reason — their manufacturing standards exceed most competitors. For users who react to common supplement fillers or dyes, this is the cleanest available form.",
         "search": "Pure+Encapsulations+Magnesium+Glycinate"
@@ -311,7 +311,12 @@ html = f'''<!DOCTYPE html>
 {faq_html}
 
     <div class="affiliate-disclaimer" style="margin-top:2rem;">This content is for informational purposes. It is not medical advice. Consult a healthcare provider before starting magnesium supplementation if you have kidney disease, take prescription medications, or are pregnant. Amazon links are affiliate links.</div>
-  </main>
+  <h2 class="section-title">Related Guides</h2>
+<ul class="related-links">
+<li><a href="/posts/best-sleep-supplement-anxiety.html">Best Sleep Supplements for Anxiety (2026): Calm Your Mind & Sleep Through the Night</a></li>
+<li><a href="/posts/article-magnesium-sleep.html">Best Magnesium for Sleep in 2026: Glycinate vs Citrate vs Threonate</a></li>
+</ul>
+</main>
   <footer>
     <p>&copy; 2025–2026 <a href="../">SleepWise Reviews</a> &middot; Evidence-based sleep guidance &middot; <a href="../posts/">All Guides</a></p>
   </footer>

@@ -12,7 +12,7 @@ html = """<!DOCTYPE html>
 <meta property="og:url" content="https://sleepwisereviews.com/posts/best-mattress-chronic-back-pain.html">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Best Mattress for Chronic Back Pain 2025">
-<meta name="twitter:description" content="7 expert-tested mattresses for chronic back pain sufferers — support, pressure relief, and long-term comfort.">
+<meta name="twitter:description" content="7 mattresses for chronic back pain sufferers — support, pressure relief, and long-term comfort.">
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -20,7 +20,7 @@ html = """<!DOCTYPE html>
     {
       "@type": "Article",
       "headline": "Best Mattress for Chronic Back Pain 2025",
-      "description": "Expert-tested mattress recommendations specifically for chronic back pain sufferers.",
+      "description": "Mattress recommendations specifically for chronic back pain sufferers.",
       "url": "https://sleepwisereviews.com/posts/best-mattress-chronic-back-pain.html",
       "datePublished": "2025-01-01",
       "dateModified": "2025-10-01",
