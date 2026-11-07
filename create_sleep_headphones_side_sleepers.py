@@ -34,7 +34,7 @@ PRODUCTS = [
         "best_for": "Best for blocking partner snoring",
         "highlight": "Unique product — pre-loaded with sleep sounds and white noise only (no music streaming, no calls). Designed purely for sleep. The smallest on-ear profile of any earbud. Stay in position on your side. 10-hour battery. Masks snoring effectively.",
         "search": "Bose Sleepbuds II sleep earbuds white noise snoring",
-        "note": '<p class="discontinued-note" style="font-size:.85rem;color:#555;margin-top:.5rem"><em>Bose discontinued the Sleepbuds in 2023 (source: <a href="https://support.bose.co.uk/article/sleepbuds-ii-sleep-app-availability" target="_blank" rel="nofollow noopener noreferrer">Bose support</a>).</em></p>',
+        "note": '<p class="discontinued-note" style="font-size:.85rem;color:#555;margin-top:.5rem"><em>Bose discontinued the Sleepbuds in 2023 (source: <a href="https://support.bose.co.uk/article/sleepbuds-ii-sleep-app-availability">Bose support</a>).</em></p>',
     },
     {
         "name": "1MORE ComfoBuds Sleep Earbuds",
