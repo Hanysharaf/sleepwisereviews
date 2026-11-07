@@ -52,7 +52,7 @@ FAQ_DATA = {
     ],
     'best-light-therapy-lamps': [
         ('How does light therapy improve sleep?', 'Light therapy (10,000 lux for 20-30 minutes each morning) resets the circadian clock by suppressing residual melatonin production and signaling the brain that morning has arrived. This advances the sleep-wake cycle, making it easier to wake early and fall asleep at night. It is most effective for Seasonal Affective Disorder (SAD), delayed sleep phase syndrome, and jet lag adjustment.'),
-        ('When should I use a light therapy lamp?', 'Use your light therapy lamp within 30 minutes of waking, for 20-30 minutes, while eating breakfast or working. Consistency matters more than duration. Do not use it in the evening -- light exposure after 6pm delays melatonin onset and can worsen insomnia. The morning timing is what shifts the circadian clock forward.'),
+        ('When should I use a light therapy lamp?', 'Use your light therapy lamp within 30 minutes of waking, for 20-30 minutes, while eating breakfast or working. Do not use it in the evening -- light exposure after 6pm delays melatonin onset and can worsen insomnia. The morning timing is what shifts the circadian clock forward.'),
         ('Are light therapy lamps safe for everyone?', 'Light therapy is generally safe, but with caveats. People with bipolar disorder should use it only under medical supervision -- bright light can trigger manic episodes. Those with photosensitive skin conditions or taking photosensitizing medications (some antibiotics, lithium, St. John\'s Wort) should consult a doctor first. Mild side effects (headache, eye strain) are common and usually resolve by adjusting distance or session length.'),
     ],
     'best-mattress-toppers': [

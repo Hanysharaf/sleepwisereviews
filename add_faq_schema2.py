@@ -138,7 +138,7 @@ FAQS = {
     ],
     'wind-down-routine.html': [
         ("What is an effective bedtime routine for adults?",
-         "An effective wind-down routine follows a consistent sequence starting 60-90 minutes before bed: dim lighting (eliminate overhead bright lights, use warm lamps), avoid screens or use amber-lens blue light glasses, reduce mental activation (stop work tasks, news, social media), perform a consistent transition activity (reading physical books, light stretching, journaling), and a brief physical transition (warm shower or bath 60-90 minutes before bed cools core temperature through vasodilation). Consistency matters more than specific activities."),
+         "An effective wind-down routine follows a consistent sequence starting 60-90 minutes before bed: dim lighting (eliminate overhead bright lights, use warm lamps), avoid screens or use amber-lens blue light glasses, reduce mental activation (stop work tasks, news, social media), perform a consistent transition activity (reading physical books, light stretching, journaling), and a brief physical transition (warm shower or bath 60-90 minutes before bed cools core temperature through vasodilation)."),
         ("How long should a bedtime routine be?",
          "30-60 minutes for adults is the evidence-supported window. The goal is physiological deactivation: cortisol begins declining, core body temperature starts dropping, and melatonin rises during this window. Too short (under 15 minutes) doesn't allow sufficient physiological deactivation. Too long or too structured can itself become anxiety-producing if sleep doesn't arrive precisely on schedule."),
         ("Does taking a bath before bed help sleep?",
