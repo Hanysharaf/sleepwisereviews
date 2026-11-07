@@ -18,7 +18,7 @@ Template reference: `sleep-stages-explained.html` (has breadcrumb, likes, TOC, s
 | 11 | sleep-chronotypes.html | Are You a Lion, Bear, Wolf, or Dolphin? | Education | Mar 2025 |
 | 12 | sleep-exercise-timing.html | The Best Time to Exercise for Better Sleep | Lifestyle | Mar 2025 |
 | 13 | magnesium-types-sleep.html | Magnesium for Sleep: Which Type Actually Works? | Supplements | Mar 2025 |
-| 14 | sleep-consistency-importance.html | Why Sleep Consistency Matters More Than Sleep Duration | Education | Mar 2025 |
+| 14 | sleep-consistency-importance.html | Sleep Consistency and Health: What the Research Shows | Education | Mar 2025 |
 | 15 | sleep-environment-optimization.html | The Perfect Sleep Environment: A Room-by-Room Checklist | Lifestyle | Mar 2025 |
 | 16 | melatonin-guide.html | Melatonin: Dosage, Timing, and Why Less Is More | Supplements | Mar 2025 |
 | 17 | sleep-anxiety-techniques.html | Can't Sleep Because You're Anxious About Not Sleeping? | Mental Health | Mar 2025 |
