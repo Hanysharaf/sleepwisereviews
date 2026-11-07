@@ -85,7 +85,7 @@ html = '''<!DOCTYPE html>
       {
         "@type": "Question",
         "name": "When should I take CBD for sleep?",
-        "acceptedAnswer": {"@type": "Answer", "text": "30-60 minutes before your intended sleep time for oils and tinctures (sublingual absorption is faster). 60-90 minutes before bed for gummies and capsules (digestive absorption is slower but lasts longer). Consistency matters more than exact timing — CBD's effects on the endocannabinoid system accumulate with regular use over 2-4 weeks."}
+        "acceptedAnswer": {"@type": "Answer", "text": "30-60 minutes before your intended sleep time for oils and tinctures (sublingual absorption is faster). 60-90 minutes before bed for gummies and capsules (digestive absorption is slower but lasts longer)."}
       },
       {
         "@type": "Question",
