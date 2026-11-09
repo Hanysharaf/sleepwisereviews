@@ -185,3 +185,4 @@ Template reference: `sleep-stages-explained.html` (has breadcrumb, likes, TOC, s
 | 178 | wrong-warm-milk-before-bed.html | Wrong: Warm Milk Before Bed. Right: The Sleep Foods and Supplements That Actually Work | Wrong vs Right | Oct 2026 |
 | 179 | best-split-king-mattresses-couples.html | Best Split King and Dual Comfort Mattresses for Couples With Different Sleep Needs | Sex & Mattress | Oct 2026 |
 | 180 | dst-fall-back-sleep-architecture.html | How the End of Daylight Saving Time Disrupts Your Sleep Architecture | Seasonal | Oct 2026 |
+| 181 | sleep-myth-warm-milk.html | Sleep Myth: Warm Milk Before Bed Is an Old Wives Tale (Or Is It?) | Sleep Myths | Nov 2026 |
