@@ -1,0 +1,5 @@
+{
+  "tier_a_fix": false,
+  "not_before": "2026-11-14",
+  "note": "Tier A fix step (S2). Stays false until the Brain orders it on or after 2026-11-14. Part 1 only reports this state; no fix is implemented."
+}

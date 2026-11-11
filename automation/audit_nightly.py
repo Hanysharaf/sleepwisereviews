@@ -1,5 +1,7 @@
 """Nightly SWR audit, REPORT ONLY. Standard library only. Counts per class, no fixes.
 
+Tier A fix step flag: automation/audit_flags.json (default OFF; part 1 only reports its state).
+
 Usage: python automation/audit_nightly.py [--date YYYY-MM-DD] [--out reports/audit]
 Writes <out>/<date>.md. Reads files in the repo; the only network call is the GitHub
 Actions API for class 1, and only when GITHUB_TOKEN and GITHUB_REPOSITORY are set.
@@ -22,6 +24,7 @@ BASE = "https://sleepwisereviews.com"
 TAG = "sleepwiserevi-20"
 IG = "instagram.com/sleepwise.reviews"
 NA = "needs secret / not available"
+FLAGS = ROOT / "automation" / "audit_flags.json"
 
 AMAZON_A = re.compile(r'<a\b[^>]*href="(https?://(?:www\.)?amazon\.com[^"]*)"[^>]*>', re.I)
 HREF = re.compile(r'<a\b[^>]*?\bhref="([^"]*)"', re.I)
@@ -190,6 +193,19 @@ def class_workflows():
         return None, "API error: %s" % type(e).__name__
 
 
+def tier_a_status(date):
+    """State of the Tier A fix step. Part 1 is the flag only: no fix is implemented and nothing is ever changed."""
+    try:
+        f = json.loads(FLAGS.read_text(encoding="utf-8"))
+    except Exception:
+        return "OFF (flag file missing or unreadable; default OFF)"
+    if f.get("tier_a_fix") is not True:
+        return "OFF (tier_a_fix is not true)"
+    if date < str(f.get("not_before", "9999-12-31")):
+        return "OFF (not before %s)" % f.get("not_before")
+    return "flag ON, but no fix step is implemented yet (part 2); nothing is changed"
+
+
 def main():
     ap = argparse.ArgumentParser()
     cairo_today = (datetime.now(timezone.utc) + timedelta(hours=2)).strftime("%Y-%m-%d")
@@ -334,6 +350,7 @@ def main():
 
     lines = ["# SWR nightly audit %s" % args.date, "",
              "Report only. Counts only. No file was changed by this run except this report.", "",
+             "Tier A fix step: %s." % tier_a_status(args.date), "",
              "Population: %d published html files (%d indexable posts, %d noindex stubs/moved), %d files in scheduled/ queue."
              % (len(pub), n_ind, sum(1 for p, k in pub.items() if k == "posts" and p.name != "index.html") - n_ind, q["files"]), "",
              "| # | Class | Problems | Detail |", "|---|---|---|---|"]
