@@ -194,27 +194,31 @@ ARTICLES = [
         "emoji": "😴",
         "date": "2022-01-18",
         "read_time": "5 min",
-        "excerpt": "A 20-minute nap boosts alertness for 2-3 hours. But nap too long or too late, and you'll destroy tonight's sleep. Here's the science of optimal napping.",
+        "excerpt": "In one study of 24 young adults after a short night, 10 and 20-minute naps improved alertness; a 30-minute nap caused grogginess first. See what the research says.",
         "amazon_search": "sleep+mask",
         "content": """
+    
     <h2>The Power Nap Sweet Spot</h2>
-    <p>The ideal nap length is 10-20 minutes. This keeps you in light sleep stages, providing alertness benefits without grogginess (sleep inertia) that comes from waking during deep sleep.</p>
+    <p>In one study, 24 healthy young adults slept about 5 hours a night, then napped at 3:00 PM for 5, 10, 20 or 30 minutes (<a href="https://pubmed.ncbi.nlm.nih.gov/16796222/">Brooks &amp; Lack, 2006</a>). The 5-minute nap gave little benefit. The 10-minute nap improved sleepiness, fatigue, vigor and cognitive performance right away. The 20-minute nap improved them starting 35 minutes after waking. The 30-minute nap made alertness and performance worse right after waking (sleep inertia), then improved them. Of the lengths tested, the 10-minute nap was the most effective overall.</p>
 
     <h3>Nap Length Guide</h3>
     <ul>
-        <li><strong>10-20 min:</strong> Best for alertness boost, no grogginess</li>
-        <li><strong>30 min:</strong> Worst - you wake from deep sleep, feel terrible</li>
-        <li><strong>60 min:</strong> Good for memory, some grogginess</li>
-        <li><strong>90 min:</strong> Full sleep cycle, good for creativity</li>
+        <li><strong>10 min:</strong> Improved all outcomes right away in the study above</li>
+        <li><strong>20 min:</strong> Improvements began about 35 minutes after waking</li>
+        <li><strong>30 min:</strong> Alertness and performance were impaired right after waking, then improved</li>
+        <li><strong>1-2 hours:</strong> In 12 male semiprofessional athletes, 1-hour and 2-hour afternoon naps left them feeling less ready and less motivated afterwards (<a href="https://pubmed.ncbi.nlm.nih.gov/35606094/">Romyn et al., 2022</a>)</li>
     </ul>
 
-    <div class="callout">⏰ <strong>Timing matters:</strong> Nap between 1-3pm when your circadian rhythm naturally dips. After 3pm, you risk disrupting nighttime sleep.</div>
+    <div class="callout">⏰ <strong>Timing:</strong> Many people feel a dip in alertness in the early afternoon (<a href="https://pubmed.ncbi.nlm.nih.gov/34164367/">Zhou et al., 2021</a>). In a trial of 14 student athletes, a 25-minute or 90-minute nap that ended by 15:00 did not significantly change that night's sleep (<a href="https://pubmed.ncbi.nlm.nih.gov/40537913/">Boukhris et al., 2026</a>). This article makes no claim about naps taken later in the day.</div>
 
     <h2>The Coffee Nap Hack</h2>
-    <p>Drink coffee immediately before a 20-minute nap. Caffeine takes about 20-30 minutes to kick in, so you wake up as it's starting to work - double the alertness boost.</p>
+    <p>In a driving-simulator study of 12 sleepy people, 200 mg of caffeine plus a nap of under 15 minutes, taken in a 30-minute break, eliminated the mid-afternoon peak in sleepiness and driving incidents (<a href="https://pubmed.ncbi.nlm.nih.gov/9401427/">Reyner &amp; Horne, 1997</a>). Driving incidents fell to 9% of placebo levels with the combination and to 34% with caffeine alone. In a separate study of 10 healthy young adults, 200 mg of caffeine before a 20-minute nap was the most effective option tested for sleepiness and performance, lasting about an hour (<a href="https://pubmed.ncbi.nlm.nih.gov/14652086/">Hayashi et al., 2003</a>).</p>
 
-    <h2>Who Shouldn't Nap</h2>
-    <p>If you have insomnia or difficulty sleeping at night, avoid napping. It reduces sleep pressure and can worsen nighttime sleep problems.</p>
+    <h2>Naps at Work</h2>
+    <p>A review of strategic naps in operational settings says planned naps can promote performance and alertness at work. It also says sleep inertia, the grogginess right after waking, should be weighed before adopting nap policies (<a href="https://pubmed.ncbi.nlm.nih.gov/10607214/">Rosekind et al., 1995</a>).</p>
+
+    <h2>A Caution About Frequent Napping</h2>
+    <p>A 2017 review reports that naps reduce sleepiness and support memory, executive function and emotional stability, even after a good night's sleep (<a href="https://pubmed.ncbi.nlm.nih.gov/28899546/">Mantua &amp; Spencer, 2017</a>). The same review notes that frequent napping is linked to cognitive decline, high blood pressure and diabetes, especially in older adults, even after adjusting for other health and sleep factors. These are associations, not proof that napping causes harm. The authors say it may be premature to recommend naps as a way to improve health.</p>
 """
     },
     {
@@ -224,27 +228,28 @@ ARTICLES = [
         "emoji": "🍷",
         "date": "2022-05-22",
         "read_time": "6 min",
-        "excerpt": "Alcohol helps you fall asleep faster but destroys sleep quality. It suppresses REM sleep, causes fragmented sleep, and worsens sleep apnea. Here's the full picture.",
+        "excerpt": "Alcohol can help you fall asleep faster, but research links it to more disrupted sleep, less REM sleep, and worse breathing during sleep. Here's the full picture.",
         "amazon_search": "sleep+supplements+natural",
         "content": """
+    
     <h2>The Alcohol Sleep Paradox</h2>
-    <p>Alcohol is a sedative that helps you fall asleep faster. But sedation is not the same as sleep. While unconscious, your brain doesn't cycle through sleep stages properly.</p>
+    <p>In a <a href="https://europepmc.org/article/MED/23347102">review of studies in healthy volunteers (Ebrahim et al., 2013)</a>, alcohol shortened the time to fall asleep at every dose studied. But faster onset is not the same as better sleep. The same review found that sleep in the first half of the night was more continuous, while the second half was more disrupted.</p>
 
-    <h3>What Alcohol Does to Sleep</h3>
+    <h3>What Research Links to Alcohol</h3>
     <ul>
-        <li><strong>Suppresses REM sleep:</strong> Especially in the first half of the night</li>
-        <li><strong>Fragments sleep:</strong> More awakenings, especially as alcohol metabolizes</li>
-        <li><strong>Increases sleep apnea:</strong> Relaxes throat muscles, worsens breathing</li>
-        <li><strong>Causes rebound wakefulness:</strong> You wake up as liver processes alcohol</li>
+        <li><strong>Less REM sleep:</strong> Across the night, REM was reduced in most studies at moderate and high doses. Results at low doses were inconsistent (<a href="https://europepmc.org/article/MED/23347102">Ebrahim et al., 2013</a>).</li>
+        <li><strong>More slow-wave sleep early in the night:</strong> Most studies found more slow-wave sleep in the first half of the night, whatever the dose (<a href="https://europepmc.org/article/MED/23347102">Ebrahim et al., 2013</a>).</li>
+        <li><strong>More disruption later:</strong> Sleep was more disrupted in the second half of the night (<a href="https://europepmc.org/article/MED/23347102">Ebrahim et al., 2013</a>).</li>
+        <li><strong>Worse breathing:</strong> A <a href="https://europepmc.org/article/MED/29458744">meta-analysis of 21 studies (Simou et al., 2018)</a> found higher alcohol consumption was associated with a 25% greater risk of sleep apnoea, with evidence of publication bias. A <a href="https://europepmc.org/article/MED/41754102">2026 review (Chaput, 2026)</a> says breathing during sleep is worse, most of all in the second half of the night.</li>
     </ul>
 
-    <div class="callout">🧪 <strong>Study finding:</strong> Just one drink before bed reduces sleep quality by 9.3%. Three or more drinks reduce it by 39.2%.</div>
+    <div class="callout">🧪 <strong>Study finding:</strong> In <a href="https://europepmc.org/article/MED/29549064">4,098 Finnish employees wearing heart-rate monitors (Pietila et al., 2018)</a>, a heart-rate-variability-based recovery score during the first three hours of sleep was 9.3 percentage units lower after low alcohol intake (up to 0.25 g/kg) and 39.2 lower after high intake (over 0.75 g/kg), compared with the same person's alcohol-free days. This measures heart-rate-based recovery, not how well people said they slept.</div>
 
-    <h2>The 3-Hour Rule</h2>
-    <p>If you do drink, stop at least 3 hours before bed. This allows your body to metabolize most of the alcohol before sleep begins.</p>
+    <h2>Does Timing Matter?</h2>
+    <p>Possibly. A 2026 narrative review says the timing of drinking relative to the body clock may change alcohol's effects, and that drinking earlier in the evening may reduce some harms (<a href="https://europepmc.org/article/MED/41754102">Chaput, 2026</a>). It gives no safe cut-off time, and neither does this page.</p>
 
     <h2>Better Evening Alternatives</h2>
-    <p>Replace the evening drink ritual with: herbal tea (chamomile, valerian), sparkling water with lime, or a relaxing activity like reading or stretching.</p>
+    <p>Alcohol, including wine, should not be considered a sleep aid (<a href="https://europepmc.org/article/MED/41754102">Chaput, 2026</a>). If you want a different evening ritual, you could try sparkling water with lime, reading, or stretching. This page does not claim these improve sleep.</p>
 """
     },
     {
@@ -322,32 +327,27 @@ ARTICLES = [
         "emoji": "💊",
         "date": "2023-04-20",
         "read_time": "8 min",
-        "excerpt": "Not all magnesium is equal for sleep. Glycinate is the form we cover here, citrate causes GI issues, and oxide is barely absorbed. Here's your complete guide.",
+        "excerpt": "What research says about magnesium forms and sleep: glycinate is the form we cover, oxide is poorly absorbed, and evidence that oral magnesium improves sleep is limited.",
         "amazon_search": "magnesium+glycinate",
         "content": """
-    <h2>Why Magnesium Helps Sleep</h2>
-    <p>Magnesium regulates GABA, the neurotransmitter that calms brain activity. It also helps regulate melatonin and reduces cortisol. Up to 50% of adults are magnesium deficient.</p>
+    
+    <h2>What the Research Says About Magnesium and Sleep</h2>
+    <p>A systematic review of randomized trials of oral magnesium for sleep in adults found inconsistent results and rated the certainty of the evidence low to very low. The authors concluded that current evidence does not support oral magnesium as a routine treatment for insomnia, though it may offer modest benefits for some subjective outcomes in some adults (<a href="https://europepmc.org/article/MED/42661485">Lopresti et al., 2026</a>).</p>
+    <p>One small trial gave 46 older adults with insomnia 500 mg of magnesium or placebo daily for 8 weeks. The magnesium group had lower Insomnia Severity Index scores, shorter sleep onset latency, better sleep efficiency, higher melatonin and lower cortisol. The authors said the sample was small and the findings need confirming in larger studies (<a href="https://europepmc.org/article/MED/23853635">Abbasi et al., 2012</a>).</p>
 
-    <h3>The Best Forms for Sleep</h3>
-    <p><strong>Magnesium Glycinate (Best):</strong> Bound to glycine, which has its own calming effects. Highly absorbable, gentle on stomach. Take 200-400mg before bed.</p>
+    <h3>The Forms We Cover</h3>
+    <p><strong>Magnesium Glycinate (Best):</strong> Magnesium bound to glycine. The glycine research below tested glycine alone, not magnesium glycinate. In healthy volunteers restricted to about 25% less sleep than usual for three nights, 3 g of glycine before bed reduced fatigue the next day (<a href="https://europepmc.org/article/MED/22529837">Bannai et al., 2012</a>). A systematic review found that longer-term glycine improved sleep in healthy people, but the studies were small and at high risk of bias (<a href="https://europepmc.org/article/MED/37851316">Soh et al., 2024</a>).</p>
 
-    <p><strong>Magnesium L-Threonate:</strong> Crosses blood-brain barrier. Best for cognitive benefits. More expensive. 2000mg = 144mg elemental magnesium.</p>
+    <p><strong>Magnesium L-Threonate:</strong> In 80 adults aged 35 to 55 with self-reported sleep problems, 1 g a day for 21 days gave better Oura ring deep sleep and REM sleep scores than placebo (<a href="https://europepmc.org/article/MED/39252819">Hausenblas et al., 2024</a>). In 100 adults aged 18 to 45 with poor sleep, 2 g a day for six weeks improved sleep-related impairment, but ring-based sleep tracking showed no group differences (<a href="https://europepmc.org/article/MED/41601871">Lopresti and Smith, 2025</a>).</p>
 
-    <p><strong>Magnesium Citrate:</strong> Well absorbed but can cause loose stools. Better for constipation than sleep.</p>
+    <p><strong>Magnesium Citrate:</strong> A review of randomized trials in healthy adults found good bioavailability for magnesium citrate (<a href="https://europepmc.org/article/MED/40931546">Merschmann et al., 2025</a>).</p>
 
-    <div class="callout">⚠️ <strong>Avoid for sleep:</strong> Magnesium oxide has only 4% bioavailability - you're paying for magnesium your body can't use.</div>
+    <p><strong>Magnesium Sulfate (Epsom salt):</strong> A review of transdermal magnesium (sprays, flakes, salt baths) concluded that the propagation of transdermal magnesium is scientifically unsupported (<a href="https://europepmc.org/article/MED/28788060">Gr&ouml;ber et al., 2017</a>).</p>
 
-    <h2>Signs You're Magnesium Deficient</h2>
-    <ul>
-        <li>Muscle cramps or twitches</li>
-        <li>Difficulty falling asleep</li>
-        <li>Restless legs at night</li>
-        <li>Anxiety or irritability</li>
-        <li>Chocolate cravings (seriously)</li>
-    </ul>
+    <div class="callout">⚠️ <strong>Poorly absorbed:</strong> In one study in normal volunteers, magnesium oxide had a fractional absorption of 4 per cent, while magnesium chloride, lactate and aspartate were absorbed significantly better (<a href="https://europepmc.org/article/MED/11794633">Firoz and Graber, 2001</a>).</div>
 
-    <h2>How Long Until You Notice Effects</h2>
-    <p>Most people notice improved sleep within 1-2 weeks of consistent supplementation. For full effects, allow 4-6 weeks.</p>
+    <h2>Side Effects and Safety</h2>
+    <p>Diarrhea was the limiting factor when the upper limit for supplemental magnesium was set at 350 mg a day in 1997. A 2023 review of 10 studies found no significant difference in diarrhea between groups in seven studies using 128 to 1,200 mg a day, and argued the limit should be re-evaluated (<a href="https://europepmc.org/article/MED/37487817">Costello et al., 2023</a>). A 2026 review advises caution with magnesium in people with renal insufficiency (<a href="https://europepmc.org/article/MED/42484803">Sankararaman et al., 2026</a>).</p>
 """
     },
     {
@@ -542,32 +542,30 @@ ARTICLES = [
         "emoji": "🍽️",
         "date": "2025-01-15",
         "read_time": "7 min",
-        "excerpt": "Certain foods promote sleep while others destroy it. Kiwi before bed, no heavy meals after 7pm, and the surprising sleep benefits of tart cherry juice.",
+        "excerpt": "Small studies on kiwifruit and tart cherry juice for sleep, plus what research says about caffeine, alcohol and late meals.",
         "amazon_search": "tart+cherry+juice+sleep",
         "content": """
+    
     <h2>Foods That Promote Sleep</h2>
 
-    <h3>The Evidence-Backed List</h3>
+    <h3>What the Studies Found</h3>
     <ul>
-        <li><strong>Kiwi:</strong> 2 kiwis before bed increased sleep time by 13% in studies</li>
-        <li><strong>Tart cherry juice:</strong> Natural melatonin source, 84 minutes more sleep in studies</li>
-        <li><strong>Fatty fish:</strong> Omega-3s and vitamin D improve sleep quality</li>
-        <li><strong>Nuts:</strong> Almonds and walnuts contain melatonin and magnesium</li>
-        <li><strong>Chamomile tea:</strong> Apigenin compound promotes relaxation</li>
+        <li><strong>Kiwi:</strong> In a 4-week study of 24 adults with sleep problems, eating 2 kiwifruit an hour before bed was followed by a 13.4% rise in total sleep time and a 35.4% drop in time to fall asleep (<a href="https://europepmc.org/article/MED/21669584">Lin et al., 2011</a>).</li>
+        <li><strong>Tart cherry juice:</strong> In a 2-week crossover trial of 15 older adults with insomnia, tart cherry juice reduced time awake after sleep onset compared with placebo, but did not significantly improve time to fall asleep, total sleep time or sleep efficiency. The authors called the benefit modest (<a href="https://europepmc.org/article/MED/20438325">Pigeon et al., 2010</a>).</li>
     </ul>
 
-    <div class="callout">🥝 <strong>Best pre-bed snack:</strong> Kiwi fruit + handful of almonds. Natural melatonin + magnesium + tryptophan. Works within a week of consistent use.</div>
+    <div class="callout">🥝 <strong>Small studies, not proof:</strong> A 2025 review says kiwifruit and tart cherry juice show potential benefits for sleep and calls for larger trials (<a href="https://europepmc.org/article/MED/41356231">Abou-Khalil, 2025</a>).</div>
 
-    <h2>Foods That Destroy Sleep</h2>
+    <h2>What Can Disrupt Sleep</h2>
     <ul>
-        <li><strong>Spicy food:</strong> Raises body temperature, causes acid reflux</li>
-        <li><strong>Heavy, fatty meals:</strong> Hard to digest, disrupts sleep</li>
-        <li><strong>Sugar:</strong> Causes blood sugar crashes that wake you</li>
-        <li><strong>Alcohol:</strong> Suppresses REM sleep (see our alcohol article)</li>
+        <li><strong>Caffeine:</strong> In a randomized, placebo-controlled trial, 400 mg of caffeine taken 6 hours before bedtime significantly disturbed sleep (<a href="https://europepmc.org/article/MED/24235903">Drake et al., 2013</a>).</li>
+        <li><strong>Alcohol:</strong> A review of studies in healthy volunteers found that total-night REM sleep fell at moderate and high doses in most studies (<a href="https://europepmc.org/article/MED/23347102">Ebrahim et al., 2013</a>). See our alcohol article.</li>
+        <li><strong>High-glycemic drink close to bed:</strong> In 8 children, a high-glycemic-index milk drink an hour before bed was followed by more arousals in the first half of the night than a low-glycemic-index drink (<a href="https://europepmc.org/article/MED/22204204">Jalilolghadr et al., 2011</a>). This was a small study in children.</li>
+        <li><strong>Late meals:</strong> In a trial of 30 patients, a standard meal 2 hours before bed caused significantly more reflux while lying down than the same meal 6 hours before bed (<a href="https://europepmc.org/article/MED/17573791">Piesman et al., 2007</a>).</li>
     </ul>
 
     <h2>Meal Timing</h2>
-    <p>Finish eating 3 hours before bed. If you need a snack, make it small - under 200 calories with some protein and complex carbs.</p>
+    <p>A 2023 review advises people with reflux (GERD) to avoid eating within 3 hours of lying down. It also describes the evidence for diet changes in GERD as weak and mixed (<a href="https://europepmc.org/article/MED/39130122">Ahuja et al., 2023</a>).</p>
 """
     },
     {
@@ -783,40 +781,22 @@ ARTICLES = [
         "emoji": "💑",
         "date": "2025-05-08",
         "read_time": "6 min",
-        "excerpt": "Snoring, different schedules, blanket hogging, temperature wars - sharing a bed creates unique sleep challenges. Here's how successful couples solve them.",
+        "excerpt": "Snoring, temperature differences and whether to sleep apart: what research says about sharing a bed, and what is practical to try.",
         "amazon_search": "king+size+weighted+blanket",
         "content": """
     <h2>Common Couple Sleep Problems (And Solutions)</h2>
 
     <h3>Snoring Partner</h3>
-    <ul>
-        <li>Rule out sleep apnea (encourage sleep study)</li>
-        <li>Anti-snore pillows that encourage side sleeping</li>
-        <li>White noise machine to mask sound</li>
-        <li>Nasal strips or mouth tape for mild snoring</li>
-        <li>Separate bedrooms as last resort (no shame in this)</li>
-    </ul>
-
-    <h3>Different Schedules</h3>
-    <p>If one partner is a night owl and one is an early bird:</p>
-    <ul>
-        <li>The later partner enters bed quietly, no phones</li>
-        <li>The early riser uses a vibrating alarm (not sound)</li>
-        <li>Consider separate sleep times but overlapping cuddle time</li>
-    </ul>
-
-    <div class="callout">🛏️ <strong>The Scandinavian method:</strong> Use two separate duvets/blankets instead of one shared one. Solves temperature and blanket-stealing issues instantly.</div>
+    <p>Frequent loud snoring is listed by the <a href="https://www.nhlbi.nih.gov/health/sleep-apnea/symptoms">NHLBI</a> as a symptom of sleep apnea. If your partner snores like this, they can talk to a healthcare provider, who may order a sleep study.</p>
+    <p>Position devices may help with the noise. A <a href="https://pubmed.ncbi.nlm.nih.gov/39063969/">systematic review (Moffa et al., 2024)</a> found that anti-snoring pillows and head-of-bed elevation reduced snoring in the studies it covered. It also notes that some sleep positions are uncomfortable and that people may not tolerate prolonged head elevation.</p>
+    <p>In a <a href="https://pubmed.ncbi.nlm.nih.gov/10918859/">small overnight study of 10 couples (Beninati et al., 1999)</a>, the male partner was being evaluated for suspected sleep apnea. When CPAP removed his snoring and breathing events, his spouse's median sleep efficiency rose from 74% to 87%.</p>
 
     <h3>Different Temperature Preferences</h3>
-    <ul>
-        <li>Separate blankets (see Scandinavian method)</li>
-        <li>Bed cooling system on one side</li>
-        <li>Fan pointed at hot sleeper</li>
-        <li>Different pajama weights</li>
-    </ul>
+    <p>A <a href="https://pubmed.ncbi.nlm.nih.gov/22738673/">review of sleep and thermal environment (Okamoto-Mizuno et al., 2012)</a> reports that heat increases wakefulness and reduces slow-wave and REM sleep, and that bedding and clothing change how temperature affects sleep.</p>
+    <p>If you run hot and your partner runs cold, one practical option is a separate blanket each, with sleepwear chosen to suit each of you.</p>
 
     <h2>When to Sleep Separately</h2>
-    <p>If one partner's sleep is being significantly disrupted, separate sleeping can improve both health and relationship satisfaction. Many happy couples sleep apart.</p>
+    <p>Sleeping apart is not clearly better for a couple. In a <a href="https://pubmed.ncbi.nlm.nih.gov/41120927/">study of 860 older married couples in Taiwan (Lin &amp; Chiao, 2025)</a>, couples who slept in separate rooms reported lower psychological well-being than couples who slept together. That is an association and does not show that separate rooms caused it.</p>
 """
     }
 ]
