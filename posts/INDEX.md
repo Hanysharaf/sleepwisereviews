@@ -188,3 +188,5 @@ Template reference: `sleep-stages-explained.html` (has breadcrumb, likes, TOC, s
 | 181 | sleep-myth-warm-milk.html | Sleep Myth: Warm Milk Before Bed Is an Old Wives Tale (Or Is It?) | Sleep Myths | Nov 2026 |
 | 182 | sleep-sex-feedback-loop.html | The Sleep-Sex Feedback Loop: How Better Sleep Leads to Better Intimacy | Sex & Sleep | Nov 2026 |
 | 183 | wrong-insomnia-cbt-stimulus-control.html | Wrong: How You Handle Insomnia at Night. Right: CBT-I Stimulus Control Explained | Wrong vs Right | Nov 2026 |
+| 184 | black-friday-sleep-deals-2026.html | Black Friday Sleep Deals 2026: The Best Mattresses, Pillows, and Sleep Gear on Sale | Seasonal | Nov 2026 |
+| 185 | sleep-myth-stay-in-bed.html | Sleep Myth: You Should Stay in Bed If You Cannot Sleep | Sleep Myths | Nov 2026 |
